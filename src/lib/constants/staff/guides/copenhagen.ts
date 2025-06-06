@@ -16,30 +16,7 @@ export const copenhagendenmarknorthernEuropeGuides: TourGuide[] = [
     licenseNumber: "LIC-7553-COP",
     phoneNumber: "+1-325-904-2302",
     contactEmail: "carter.harris@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00",
-          },
-          {
-            from: "15:00",
-            to: "19:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "17:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Carter is a passionate tour guide with extensive knowledge of Copenhagen and Denmark. Specializing in Local Craftsmanship, Museums, Family Activities, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
@@ -67,30 +44,7 @@ export const copenhagendenmarknorthernEuropeGuides: TourGuide[] = [
     licenseNumber: "LIC-7808-COP",
     phoneNumber: "+1-832-256-6150",
     contactEmail: "samuel.mitchell@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "16:00",
-          },
-          {
-            from: "12:00",
-            to: "16:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Samuel is a passionate tour guide with extensive knowledge of Copenhagen and Denmark. Specializing in Local Cuisine, Samuel provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
@@ -118,65 +72,7 @@ export const copenhagendenmarknorthernEuropeGuides: TourGuide[] = [
     licenseNumber: "LIC-6982-COP",
     phoneNumber: "+1-939-244-5054",
     contactEmail: "scarlett.allen@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "13:00",
-          },
-          {
-            from: "10:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "18:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "16:00",
-          },
-          {
-            from: "10:00",
-            to: "12:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "18:00",
-          },
-          {
-            from: "10:00",
-            to: "16:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Scarlett is a passionate tour guide with extensive knowledge of Copenhagen and Denmark. Specializing in Architecture, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
@@ -204,39 +100,7 @@ export const copenhagendenmarknorthernEuropeGuides: TourGuide[] = [
     licenseNumber: "LIC-1533-COP",
     phoneNumber: "+1-504-544-2825",
     contactEmail: "aiden.baker@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "18:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "15:00",
-          },
-          {
-            from: "15:00",
-            to: "21:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Aiden is a passionate tour guide with extensive knowledge of Copenhagen and Denmark. Specializing in LGBTQ+ History, Local Cuisine, Parks & Gardens, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
@@ -248,5 +112,171 @@ export const copenhagendenmarknorthernEuropeGuides: TourGuide[] = [
     certifications: ["Adventure Tourism Safety Certificate"],
     specialties: ["LGBTQ+ History", "Local Cuisine", "Parks & Gardens"],
     specialTraining: ["Mountain Survival", "Public Speaking"],
+  },
+  {
+    id: "guide-copenhagen-5",
+    name: "Sebastian White",
+    city: "Copenhagen",
+    country: "Denmark",
+    state: "",
+    region: "Northern Europe",
+    isPopular: false,
+    bio: "Sebastian is a passionate tour guide with extensive knowledge of Copenhagen and Denmark. Specializing in Family Activities, Wildlife, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa"],
+    tourTypes: ["Photography Tour", "Religious Tour"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-9432-COP",
+    phoneNumber: "+1-224-664-4441",
+    contactEmail: "sebastian.white@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "20:00",
+          },
+          {
+            from: "13:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "12:00",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "15:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Sebastian is a passionate tour guide with extensive knowledge of Copenhagen and Denmark. Specializing in Family Activities, Wildlife, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 42,
+    quote: "The best way to discover Copenhagen is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/55.jpg",
+    languages: ["Arabic", "English"],
+    experienceYears: 13,
+    certifications: ["Language Proficiency Certification", "CPR & First Aid"],
+    specialties: ["Family Activities", "Wildlife"],
+    specialTraining: ["Local Flora & Fauna", "Cultural Sensitivity"],
+  },
+  {
+    id: "guide-copenhagen-6",
+    name: "Zoe Ramirez",
+    city: "Copenhagen",
+    country: "Denmark",
+    state: "",
+    region: "Northern Europe",
+    isPopular: false,
+    bio: "Zoe is a passionate tour guide with extensive knowledge of Copenhagen and Denmark. Specializing in Urban Legends, LGBTQ+ History, Hidden Gems, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa"],
+    tourTypes: ["Underground Tour", "Nature Tour", "Cooking Class"],
+    maxGroupSize: 9,
+    licenseNumber: "LIC-5771-COP",
+    phoneNumber: "+1-376-799-3113",
+    contactEmail: "zoe.ramirez@paragontrails.com",
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "16:00",
+          },
+          {
+            from: "13:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "14:00",
+          },
+          {
+            from: "14:00",
+            to: "20:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Zoe is a passionate tour guide with extensive knowledge of Copenhagen and Denmark. Specializing in Urban Legends, LGBTQ+ History, Hidden Gems, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 18,
+    quote: "Every corner of Copenhagen tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/74.jpg",
+    languages: ["Danish"],
+    experienceYears: 9,
+    certifications: ["Local History Certification", "Food Safety Certification"],
+    specialties: ["Urban Legends", "LGBTQ+ History", "Hidden Gems"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-copenhagen-7",
+    name: "Liam Nelson",
+    city: "Copenhagen",
+    country: "Denmark",
+    state: "",
+    region: "Northern Europe",
+    isPopular: false,
+    bio: "Liam is a passionate tour guide with extensive knowledge of Copenhagen and Denmark. Specializing in Photography Spots, Local Craftsmanship, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Alaska", "Mediterranean"],
+    tourTypes: ["Religious Tour", "Ghost Tour", "Cultural Tour", "Helicopter Tour", "Walking Tour"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-3631-COP",
+    phoneNumber: "+1-715-188-4741",
+    contactEmail: "liam.nelson@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "14:00",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "14:00",
+          },
+          {
+            from: "15:00",
+            to: "21:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Liam is a passionate tour guide with extensive knowledge of Copenhagen and Denmark. Specializing in Photography Spots, Local Craftsmanship, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.4,
+    reviewsCount: 53,
+    quote: "In Copenhagen, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/62.jpg",
+    languages: ["Hebrew", "Greek", "Russian"],
+    experienceYears: 8,
+    certifications: ["Cultural Heritage Specialist"],
+    specialties: ["Photography Spots", "Local Craftsmanship"],
+    specialTraining: ["Local Transit Systems", "Local Flora & Fauna"],
   }
 ];

@@ -16,69 +16,7 @@ export const milanitalymediterraneanGuides: TourGuide[] = [
     licenseNumber: "LIC-2489-MIL",
     phoneNumber: "+1-624-709-5829",
     contactEmail: "scarlett.campbell@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "17:00",
-          },
-          {
-            from: "13:00",
-            to: "18:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "16:00",
-          },
-          {
-            from: "09:00",
-            to: "12:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "18:00",
-          },
-          {
-            from: "14:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "20:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "15:00",
-          },
-          {
-            from: "11:00",
-            to: "14:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Scarlett is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Film Locations, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
@@ -106,43 +44,7 @@ export const milanitalymediterraneanGuides: TourGuide[] = [
     licenseNumber: "LIC-4592-MIL",
     phoneNumber: "+1-886-890-8383",
     contactEmail: "william.roberts@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "11:00",
-          },
-          {
-            from: "08:00",
-            to: "11:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "13:00",
-          },
-          {
-            from: "13:00",
-            to: "18:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "William is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Local Craftsmanship, Urban Legends, Historical Landmarks, Cultural Etiquette, William provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
@@ -170,43 +72,7 @@ export const milanitalymediterraneanGuides: TourGuide[] = [
     licenseNumber: "LIC-7944-MIL",
     phoneNumber: "+1-107-866-7408",
     contactEmail: "joseph.young@paragontrails.com",
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "13:00",
-          },
-          {
-            from: "09:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "20:00",
-          },
-          {
-            from: "12:00",
-            to: "14:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Joseph is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Local Markets, Local Cuisine, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
@@ -234,56 +100,7 @@ export const milanitalymediterraneanGuides: TourGuide[] = [
     licenseNumber: "LIC-8996-MIL",
     phoneNumber: "+1-876-484-7609",
     contactEmail: "chloe.hill@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "12:00",
-          },
-          {
-            from: "10:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "18:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "17:00",
-          },
-          {
-            from: "08:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "19:00",
-          },
-          {
-            from: "09:00",
-            to: "12:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Chloe is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Music Scene, Urban Legends, Historical Landmarks, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
@@ -295,5 +112,194 @@ export const milanitalymediterraneanGuides: TourGuide[] = [
     certifications: ["Certified International Tour Manager", "Wilderness First Responder", "Adventure Tourism Safety Certificate"],
     specialties: ["Music Scene", "Urban Legends", "Historical Landmarks"],
     specialTraining: [],
+  },
+  {
+    id: "guide-milan-5",
+    name: "Ella Carter",
+    city: "Milan",
+    country: "Italy",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Ella is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Wildlife, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Mediterranean"],
+    tourTypes: ["Wine Tour", "Walking Tour", "Nature Tour"],
+    maxGroupSize: 8,
+    licenseNumber: "LIC-5660-MIL",
+    phoneNumber: "+1-816-900-7088",
+    contactEmail: "ella.carter@paragontrails.com",
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "11:00",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "16:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "17:00",
+          },
+          {
+            from: "14:00",
+            to: "19:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Ella is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Wildlife, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 53,
+    quote: "My goal is to help you fall in love with Milan just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/67.jpg",
+    languages: ["Serbian", "Hindi", "Danish"],
+    experienceYears: 8,
+    certifications: ["Heritage Interpretation Certificate"],
+    specialties: ["Wildlife"],
+    specialTraining: ["Historical Research Methods"],
+  },
+  {
+    id: "guide-milan-6",
+    name: "Daniel Perez",
+    city: "Milan",
+    country: "Italy",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Daniel is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Music Scene, Wildlife, Nightlife, Local Cuisine, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean"],
+    tourTypes: ["Ghost Tour", "Audio Tour"],
+    maxGroupSize: 11,
+    licenseNumber: "LIC-7254-MIL",
+    phoneNumber: "+1-715-187-4375",
+    contactEmail: "daniel.perez@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "14:00",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "20:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "16:00",
+          },
+          {
+            from: "10:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "15:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Daniel is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Music Scene, Wildlife, Nightlife, Local Cuisine, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.8,
+    reviewsCount: 50,
+    quote: "Every corner of Milan tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/70.jpg",
+    languages: ["Czech", "Finnish", "English"],
+    experienceYears: 7,
+    certifications: ["Sustainable Tourism Certificate"],
+    specialties: ["Music Scene", "Wildlife", "Nightlife", "Local Cuisine"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-milan-7",
+    name: "Logan Wilson",
+    city: "Milan",
+    country: "Italy",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Logan is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Music Scene, Film Locations, Indigenous Culture, Local Markets, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East"],
+    tourTypes: ["Self-Guided Tour", "Street Art Tour", "Cultural Tour"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-5825-MIL",
+    phoneNumber: "+1-876-933-2319",
+    contactEmail: "logan.wilson@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "13:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "16:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "11:00",
+          },
+          {
+            from: "12:00",
+            to: "17:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Logan is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Music Scene, Film Locations, Indigenous Culture, Local Markets, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 15,
+    quote: "In Milan, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/38.jpg",
+    languages: ["Italian"],
+    experienceYears: 6,
+    certifications: ["Certified International Tour Manager", "CPR & First Aid"],
+    specialties: ["Music Scene", "Film Locations", "Indigenous Culture", "Local Markets"],
+    specialTraining: ["Conflict Resolution"],
   }
 ];

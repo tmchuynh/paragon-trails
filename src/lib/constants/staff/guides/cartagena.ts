@@ -16,65 +16,7 @@ export const cartagenacolombiacaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-7190-CAR",
     phoneNumber: "+1-681-483-2532",
     contactEmail: "liam.perez@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "15:00",
-          },
-          {
-            from: "11:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "12:00",
-          },
-          {
-            from: "09:00",
-            to: "12:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "16:00",
-          },
-          {
-            from: "09:00",
-            to: "14:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Liam is a passionate tour guide with extensive knowledge of Cartagena and Colombia. Specializing in Indigenous Culture, Nightlife, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
@@ -102,44 +44,7 @@ export const cartagenacolombiacaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-8109-CAR",
     phoneNumber: "+1-414-636-6253",
     contactEmail: "madison.lee@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "18:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "15:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Madison is a passionate tour guide with extensive knowledge of Cartagena and Colombia. Specializing in Parks & Gardens, Local Cuisine, Architecture, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
@@ -167,52 +72,7 @@ export const cartagenacolombiacaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-3918-CAR",
     phoneNumber: "+1-393-848-6006",
     contactEmail: "alexander.clark@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "10:00",
-          },
-          {
-            from: "09:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "15:00",
-          },
-          {
-            from: "11:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "17:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Alexander is a passionate tour guide with extensive knowledge of Cartagena and Colombia. Specializing in Photography Spots, Urban Legends, Historical Landmarks, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
@@ -240,65 +100,7 @@ export const cartagenacolombiacaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-4878-CAR",
     phoneNumber: "+1-870-623-6106",
     contactEmail: "ava.roberts@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "13:00",
-          },
-          {
-            from: "11:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "15:00",
-          },
-          {
-            from: "15:00",
-            to: "18:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "17:00",
-          },
-          {
-            from: "15:00",
-            to: "20:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "21:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Ava is a passionate tour guide with extensive knowledge of Cartagena and Colombia. Specializing in Street Food, Sustainable Tourism, Local Markets, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
@@ -310,5 +112,254 @@ export const cartagenacolombiacaribbeanGuides: TourGuide[] = [
     certifications: ["Licensed City Guide", "Urban Navigation Specialist", "Eco-Tourism Guide"],
     specialties: ["Street Food", "Sustainable Tourism", "Local Markets"],
     specialTraining: ["Local Transit Systems", "Mountain Survival"],
+  },
+  {
+    id: "guide-cartagena-5",
+    name: "Owen Allen",
+    city: "Cartagena",
+    country: "Colombia",
+    state: "",
+    region: "Caribbean",
+    isPopular: true,
+    bio: "Owen is a passionate tour guide with extensive knowledge of Cartagena and Colombia. Specializing in Film Locations, Architecture, Adventure Sports, Owen provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific", "Alaska"],
+    tourTypes: ["Photography Tour", "Private Tour"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-7506-CAR",
+    phoneNumber: "+1-497-569-5256",
+    contactEmail: "owen.allen@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "15:00",
+          },
+          {
+            from: "14:00",
+            to: "18:00",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "13:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "13:00",
+          },
+          {
+            from: "11:00",
+            to: "16:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "19:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "14:00",
+          },
+          {
+            from: "09:00",
+            to: "15:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Owen is a passionate tour guide with extensive knowledge of Cartagena and Colombia. Specializing in Film Locations, Architecture, Adventure Sports, Owen provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 77,
+    quote: "Cartagena isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/52.jpg",
+    languages: ["Turkish", "Hungarian", "Russian"],
+    experienceYears: 2,
+    certifications: ["Cultural Heritage Specialist", "Professional Tour Guide Association"],
+    specialties: ["Film Locations", "Architecture", "Adventure Sports"],
+    specialTraining: ["Emergency Response", "Archaeological Conservation"],
+  },
+  {
+    id: "guide-cartagena-6",
+    name: "Wyatt Martinez",
+    city: "Cartagena",
+    country: "Colombia",
+    state: "",
+    region: "Caribbean",
+    isPopular: false,
+    bio: "Wyatt is a passionate tour guide with extensive knowledge of Cartagena and Colombia. Specializing in Photography Spots, Museums, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean", "East Coast Canada"],
+    tourTypes: ["Eco Tour", "Private Tour"],
+    maxGroupSize: 8,
+    licenseNumber: "LIC-7134-CAR",
+    phoneNumber: "+1-188-156-8442",
+    contactEmail: "wyatt.martinez@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "15:00",
+          },
+          {
+            from: "09:00",
+            to: "13:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "16:00",
+          },
+          {
+            from: "12:00",
+            to: "14:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "16:00",
+          },
+          {
+            from: "08:00",
+            to: "11:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "16:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Wyatt is a passionate tour guide with extensive knowledge of Cartagena and Colombia. Specializing in Photography Spots, Museums, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.6,
+    reviewsCount: 5,
+    quote: "Cartagena isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/18.jpg",
+    languages: ["English"],
+    experienceYears: 2,
+    certifications: ["Heritage Interpretation Certificate"],
+    specialties: ["Photography Spots", "Museums"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-cartagena-7",
+    name: "Alexander Ramirez",
+    city: "Cartagena",
+    country: "Colombia",
+    state: "",
+    region: "Caribbean",
+    isPopular: false,
+    bio: "Alexander is a passionate tour guide with extensive knowledge of Cartagena and Colombia. Specializing in Photography Spots, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean", "South America"],
+    tourTypes: ["Relocation Tour", "Museum Tour"],
+    maxGroupSize: 12,
+    licenseNumber: "LIC-4068-CAR",
+    phoneNumber: "+1-304-202-6837",
+    contactEmail: "alexander.ramirez@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "16:00",
+          },
+          {
+            from: "11:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "10:00",
+          },
+          {
+            from: "11:00",
+            to: "14:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "21:00",
+          },
+          {
+            from: "13:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "14:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Alexander is a passionate tour guide with extensive knowledge of Cartagena and Colombia. Specializing in Photography Spots, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 83,
+    quote: "In Cartagena, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/17.jpg",
+    languages: ["Portuguese", "Swedish", "Dutch"],
+    experienceYears: 3,
+    certifications: ["Food Safety Certification", "Cultural Heritage Specialist"],
+    specialties: ["Photography Spots"],
+    specialTraining: ["Emergency Response"],
   }
 ];

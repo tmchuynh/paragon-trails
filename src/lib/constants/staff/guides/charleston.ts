@@ -16,47 +16,7 @@ export const charlestonunitedStateseastCoastUsaGuides: TourGuide[] = [
     licenseNumber: "LIC-8795-CHA",
     phoneNumber: "+1-479-636-8830",
     contactEmail: "michael.carter@paragontrails.com",
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "17:00",
-          },
-          {
-            from: "09:00",
-            to: "12:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "13:00",
-          },
-          {
-            from: "13:00",
-            to: "18:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "17:00",
-          },
-          {
-            from: "12:00",
-            to: "16:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Michael is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Sustainable Tourism, Wine Tasting, Film Locations, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
@@ -84,48 +44,7 @@ export const charlestonunitedStateseastCoastUsaGuides: TourGuide[] = [
     licenseNumber: "LIC-7388-CHA",
     phoneNumber: "+1-768-102-3431",
     contactEmail: "liam.thomas@paragontrails.com",
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "18:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "13:00",
-          },
-          {
-            from: "13:00",
-            to: "15:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Liam is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Local Craftsmanship, LGBTQ+ History, Cultural Etiquette, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
@@ -153,65 +72,7 @@ export const charlestonunitedStateseastCoastUsaGuides: TourGuide[] = [
     licenseNumber: "LIC-8784-CHA",
     phoneNumber: "+1-873-855-5274",
     contactEmail: "lily.sanchez@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "12:00",
-          },
-          {
-            from: "14:00",
-            to: "19:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "12:00",
-          },
-          {
-            from: "15:00",
-            to: "20:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "12:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "15:00",
-          },
-          {
-            from: "10:00",
-            to: "12:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "16:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Lily is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Street Food, Urban Legends, Lily provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
@@ -239,56 +100,7 @@ export const charlestonunitedStateseastCoastUsaGuides: TourGuide[] = [
     licenseNumber: "LIC-6141-CHA",
     phoneNumber: "+1-248-504-8310",
     contactEmail: "carter.johnson@paragontrails.com",
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "13:00",
-          },
-          {
-            from: "11:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "15:00",
-          },
-          {
-            from: "10:00",
-            to: "12:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "18:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "12:00",
-          },
-          {
-            from: "12:00",
-            to: "16:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Carter is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Photography Spots, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
@@ -316,43 +128,7 @@ export const charlestonunitedStateseastCoastUsaGuides: TourGuide[] = [
     licenseNumber: "LIC-3450-CHA",
     phoneNumber: "+1-377-749-3163",
     contactEmail: "chloe.torres@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "10:00",
-          },
-          {
-            from: "11:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "11:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "12:00",
-          },
-          {
-            from: "11:00",
-            to: "13:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Chloe is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Architecture, Local Markets, Cultural Etiquette, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
@@ -380,60 +156,7 @@ export const charlestonunitedStateseastCoastUsaGuides: TourGuide[] = [
     licenseNumber: "LIC-8662-CHA",
     phoneNumber: "+1-582-127-7664",
     contactEmail: "michael.wright@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "18:00",
-          },
-          {
-            from: "08:00",
-            to: "11:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "13:00",
-          },
-          {
-            from: "13:00",
-            to: "18:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "20:00",
-          },
-          {
-            from: "11:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "18:00",
-          },
-          {
-            from: "15:00",
-            to: "21:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Michael is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Museums, Public Transportation Navigation, Parks & Gardens, Family Activities, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
@@ -461,60 +184,7 @@ export const charlestonunitedStateseastCoastUsaGuides: TourGuide[] = [
     licenseNumber: "LIC-3736-CHA",
     phoneNumber: "+1-526-758-6981",
     contactEmail: "zoe.johnson@paragontrails.com",
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "16:00",
-          },
-          {
-            from: "11:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "16:00",
-          },
-          {
-            from: "12:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "18:00",
-          },
-          {
-            from: "12:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "15:00",
-          },
-          {
-            from: "09:00",
-            to: "15:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Zoe is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in LGBTQ+ History, Public Transportation Navigation, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
@@ -526,5 +196,215 @@ export const charlestonunitedStateseastCoastUsaGuides: TourGuide[] = [
     certifications: ["Language Proficiency Certification", "Certified International Tour Manager"],
     specialties: ["LGBTQ+ History", "Public Transportation Navigation"],
     specialTraining: [],
+  },
+  {
+    id: "guide-charleston-8",
+    name: "Ethan Torres",
+    city: "Charleston",
+    country: "United States",
+    state: "",
+    region: "East Coast USA",
+    isPopular: false,
+    bio: "Ethan is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Museums, Film Locations, Religious Sites, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Alaska"],
+    tourTypes: ["Food Tour", "Cruise Excursion", "Underground Tour", "Relocation Tour", "Family-Friendly Tour"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-5238-CHA",
+    phoneNumber: "+1-229-566-1776",
+    contactEmail: "ethan.torres@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "11:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "11:00",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "19:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Ethan is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Museums, Film Locations, Religious Sites, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 86,
+    quote: "Every corner of Charleston tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/56.jpg",
+    languages: ["Finnish", "German", "English"],
+    experienceYears: 9,
+    certifications: ["Regional Tourism Ambassador", "CPR & First Aid"],
+    specialties: ["Museums", "Film Locations", "Religious Sites"],
+    specialTraining: ["Group Management"],
+  },
+  {
+    id: "guide-charleston-9",
+    name: "David Carter",
+    city: "Charleston",
+    country: "United States",
+    state: "",
+    region: "East Coast USA",
+    isPopular: true,
+    bio: "David is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Indigenous Culture, David provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America", "Alaska"],
+    tourTypes: ["Romantic Tour", "Luxury Tour", "Off-Road Tour", "Underground Tour"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-8741-CHA",
+    phoneNumber: "+1-796-620-2357",
+    contactEmail: "david.carter@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "12:00",
+          },
+          {
+            from: "15:00",
+            to: "21:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "17:00",
+          },
+          {
+            from: "15:00",
+            to: "21:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "16:00",
+          },
+          {
+            from: "13:00",
+            to: "16:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "David is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Indigenous Culture, David provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.8,
+    reviewsCount: 34,
+    quote: "The best way to discover Charleston is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/13.jpg",
+    languages: ["Thai"],
+    experienceYears: 3,
+    certifications: ["Food Safety Certification", "Cultural Heritage Specialist", "Urban Navigation Specialist"],
+    specialties: ["Indigenous Culture"],
+    specialTraining: ["Historical Research Methods"],
+  },
+  {
+    id: "guide-charleston-10",
+    name: "Emma Roberts",
+    city: "Charleston",
+    country: "United States",
+    state: "",
+    region: "East Coast USA",
+    isPopular: false,
+    bio: "Emma is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Indigenous Culture, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East", "West Coast USA"],
+    tourTypes: ["Helicopter Tour", "Accessible Tour", "Photography Tour", "Self-Guided Tour"],
+    maxGroupSize: 10,
+    licenseNumber: "LIC-6526-CHA",
+    phoneNumber: "+1-661-303-9812",
+    contactEmail: "emma.roberts@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "14:00",
+          },
+          {
+            from: "08:00",
+            to: "13:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "14:00",
+          },
+          {
+            from: "12:00",
+            to: "14:00",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "16:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "17:00",
+          },
+          {
+            from: "08:00",
+            to: "10:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Emma is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Indigenous Culture, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 65,
+    quote: "The best way to discover Charleston is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/64.jpg",
+    languages: ["Thai"],
+    experienceYears: 7,
+    certifications: ["Food Safety Certification", "Licensed City Guide", "CPR & First Aid"],
+    specialties: ["Indigenous Culture"],
+    specialTraining: ["Group Management"],
   }
 ];

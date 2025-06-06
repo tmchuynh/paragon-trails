@@ -16,52 +16,7 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
     licenseNumber: "LIC-6870-SOU",
     phoneNumber: "+1-239-722-6652",
     contactEmail: "abigail.taylor@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "12:00",
-          },
-          {
-            from: "12:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "15:00",
-          },
-          {
-            from: "14:00",
-            to: "20:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "20:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Abigail is a passionate tour guide with extensive knowledge of Southampton and United Kingdom. Specializing in Historical Landmarks, Photography Spots, Adventure Sports, Public Transportation Navigation, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
@@ -89,39 +44,7 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
     licenseNumber: "LIC-6192-SOU",
     phoneNumber: "+1-182-112-1743",
     contactEmail: "noah.walker@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "17:00",
-          },
-          {
-            from: "11:00",
-            to: "16:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Noah is a passionate tour guide with extensive knowledge of Southampton and United Kingdom. Specializing in Public Transportation Navigation, Sustainable Tourism, LGBTQ+ History, Wildlife, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
@@ -149,47 +72,7 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
     licenseNumber: "LIC-4346-SOU",
     phoneNumber: "+1-219-611-6536",
     contactEmail: "scarlett.roberts@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "20:00",
-          },
-          {
-            from: "12:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "18:00",
-          },
-          {
-            from: "08:00",
-            to: "10:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "15:00",
-          },
-          {
-            from: "09:00",
-            to: "12:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Scarlett is a passionate tour guide with extensive knowledge of Southampton and United Kingdom. Specializing in Sustainable Tourism, Music Scene, Film Locations, Local Craftsmanship, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
@@ -217,43 +100,7 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
     licenseNumber: "LIC-6298-SOU",
     phoneNumber: "+1-248-566-1014",
     contactEmail: "lily.jackson@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "13:00",
-          },
-          {
-            from: "13:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "10:00",
-          },
-          {
-            from: "10:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "14:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Lily is a passionate tour guide with extensive knowledge of Southampton and United Kingdom. Specializing in Film Locations, Lily provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
@@ -281,65 +128,7 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
     licenseNumber: "LIC-6318-SOU",
     phoneNumber: "+1-994-748-1599",
     contactEmail: "aria.perez@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "12:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "21:00",
-          },
-          {
-            from: "11:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "18:00",
-          },
-          {
-            from: "15:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "12:00",
-          },
-          {
-            from: "13:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Aria is a passionate tour guide with extensive knowledge of Southampton and United Kingdom. Specializing in Film Locations, Architecture, Parks & Gardens, Sustainable Tourism, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
@@ -367,35 +156,7 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
     licenseNumber: "LIC-5614-SOU",
     phoneNumber: "+1-519-772-1559",
     contactEmail: "samuel.miller@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "21:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "15:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Samuel is a passionate tour guide with extensive knowledge of Southampton and United Kingdom. Specializing in Film Locations, Nightlife, Wildlife, Samuel provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
@@ -407,5 +168,214 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
     certifications: ["Wilderness First Responder"],
     specialties: ["Film Locations", "Nightlife", "Wildlife"],
     specialTraining: ["Mountain Survival"],
+  },
+  {
+    id: "guide-southampton-7",
+    name: "Mia Jackson",
+    city: "Southampton",
+    country: "United Kingdom",
+    state: "",
+    region: "Northern Europe",
+    isPopular: false,
+    bio: "Mia is a passionate tour guide with extensive knowledge of Southampton and United Kingdom. Specializing in Indigenous Culture, Architecture, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa", "West Coast USA"],
+    tourTypes: ["LGBTQ+ Friendly Tour", "Family-Friendly Tour", "Food Tour", "Bike Tour"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-3844-SOU",
+    phoneNumber: "+1-147-530-2229",
+    contactEmail: "mia.jackson@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "15:00",
+          },
+          {
+            from: "12:00",
+            to: "18:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "10:00",
+          },
+          {
+            from: "11:00",
+            to: "16:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "10:00",
+          },
+          {
+            from: "10:00",
+            to: "16:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Mia is a passionate tour guide with extensive knowledge of Southampton and United Kingdom. Specializing in Indigenous Culture, Architecture, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.7,
+    reviewsCount: 96,
+    quote: "The best way to discover Southampton is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/37.jpg",
+    languages: ["Tagalog", "Greek"],
+    experienceYears: 13,
+    certifications: ["Eco-Tourism Guide", "Cultural Heritage Specialist"],
+    specialties: ["Indigenous Culture", "Architecture"],
+    specialTraining: ["Public Speaking"],
+  },
+  {
+    id: "guide-southampton-8",
+    name: "Henry Moore",
+    city: "Southampton",
+    country: "United Kingdom",
+    state: "",
+    region: "Northern Europe",
+    isPopular: false,
+    bio: "Henry is a passionate tour guide with extensive knowledge of Southampton and United Kingdom. Specializing in Public Transportation Navigation, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa"],
+    tourTypes: ["Helicopter Tour", "Wildlife Safari"],
+    maxGroupSize: 5,
+    licenseNumber: "LIC-2823-SOU",
+    phoneNumber: "+1-910-234-5788",
+    contactEmail: "henry.moore@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "13:00",
+          },
+          {
+            from: "14:00",
+            to: "18:00",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "17:00",
+          },
+          {
+            from: "15:00",
+            to: "19:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "16:00",
+          },
+          {
+            from: "09:00",
+            to: "13:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Henry is a passionate tour guide with extensive knowledge of Southampton and United Kingdom. Specializing in Public Transportation Navigation, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.7,
+    reviewsCount: 96,
+    quote: "In Southampton, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/56.jpg",
+    languages: ["Romanian"],
+    experienceYears: 6,
+    certifications: ["Wilderness First Responder"],
+    specialties: ["Public Transportation Navigation"],
+    specialTraining: ["Cultural Sensitivity", "Group Management"],
+  },
+  {
+    id: "guide-southampton-9",
+    name: "Liam Taylor",
+    city: "Southampton",
+    country: "United Kingdom",
+    state: "",
+    region: "Northern Europe",
+    isPopular: true,
+    bio: "Liam is a passionate tour guide with extensive knowledge of Southampton and United Kingdom. Specializing in Museums, Family Activities, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Northern Europe", "South America"],
+    tourTypes: ["Cooking Class", "Audio Tour", "Group Tour", "Family-Friendly Tour", "Relocation Tour"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-8161-SOU",
+    phoneNumber: "+1-694-731-4788",
+    contactEmail: "liam.taylor@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "14:00",
+          },
+          {
+            from: "10:00",
+            to: "16:00",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "14:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "11:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "16:00",
+          },
+          {
+            from: "08:00",
+            to: "14:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Liam is a passionate tour guide with extensive knowledge of Southampton and United Kingdom. Specializing in Museums, Family Activities, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 67,
+    quote: "The best way to discover Southampton is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/30.jpg",
+    languages: ["Bulgarian"],
+    experienceYears: 8,
+    certifications: ["Language Proficiency Certification", "Professional Tour Guide Association", "Heritage Interpretation Certificate"],
+    specialties: ["Museums", "Family Activities"],
+    specialTraining: [],
   }
 ];

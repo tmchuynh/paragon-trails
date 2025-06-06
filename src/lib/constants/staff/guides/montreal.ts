@@ -16,39 +16,7 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
     licenseNumber: "LIC-9452-MON",
     phoneNumber: "+1-643-490-3529",
     contactEmail: "ethan.smith@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "18:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "19:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "20:00",
-          },
-          {
-            from: "10:00",
-            to: "12:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Ethan is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Photography Spots, Adventure Sports, Music Scene, Sustainable Tourism, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
@@ -76,43 +44,7 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
     licenseNumber: "LIC-6414-MON",
     phoneNumber: "+1-839-913-2764",
     contactEmail: "riley.jackson@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "17:00",
-          },
-          {
-            from: "12:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "20:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "17:00",
-          },
-          {
-            from: "15:00",
-            to: "20:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Riley is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Film Locations, Local Cuisine, Sustainable Tourism, Historical Landmarks, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
@@ -140,47 +72,7 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
     licenseNumber: "LIC-9895-MON",
     phoneNumber: "+1-900-306-2293",
     contactEmail: "penelope.flores@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "18:00",
-          },
-          {
-            from: "08:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "20:00",
-          },
-          {
-            from: "11:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "18:00",
-          },
-          {
-            from: "15:00",
-            to: "18:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Penelope is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Adventure Sports, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
@@ -208,43 +100,7 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
     licenseNumber: "LIC-6739-MON",
     phoneNumber: "+1-967-871-1824",
     contactEmail: "isabella.perez@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "16:00",
-          },
-          {
-            from: "12:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00",
-          },
-          {
-            from: "14:00",
-            to: "16:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Isabella is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Nightlife, Museums, Religious Sites, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
@@ -272,30 +128,7 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
     licenseNumber: "LIC-7176-MON",
     phoneNumber: "+1-915-189-5660",
     contactEmail: "carter.garcia@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00",
-          },
-          {
-            from: "10:00",
-            to: "16:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Carter is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Museums, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
@@ -323,61 +156,7 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
     licenseNumber: "LIC-5068-MON",
     phoneNumber: "+1-692-322-9328",
     contactEmail: "alexander.nelson@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "11:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "10:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "13:00",
-          },
-          {
-            from: "15:00",
-            to: "19:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "16:00",
-          },
-          {
-            from: "12:00",
-            to: "14:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Alexander is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Family Activities, Film Locations, Historical Landmarks, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.5,
@@ -405,52 +184,7 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
     licenseNumber: "LIC-2088-MON",
     phoneNumber: "+1-665-725-1394",
     contactEmail: "samuel.sanchez@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "15:00",
-          },
-          {
-            from: "14:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "13:00",
-          },
-          {
-            from: "14:00",
-            to: "18:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "16:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Samuel is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Family Activities, Samuel provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
@@ -478,30 +212,7 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
     licenseNumber: "LIC-1039-MON",
     phoneNumber: "+1-184-191-8995",
     contactEmail: "daniel.walker@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "17:00",
-          },
-          {
-            from: "10:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "20:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Daniel is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Religious Sites, Local Cuisine, Local Craftsmanship, Wine Tasting, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
@@ -512,6 +223,203 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
     experienceYears: 4,
     certifications: ["Wilderness First Responder"],
     specialties: ["Religious Sites", "Local Cuisine", "Local Craftsmanship", "Wine Tasting"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-montreal-9",
+    name: "Emily Miller",
+    city: "Montreal",
+    country: "Canada",
+    state: "",
+    region: "East Coast Canada",
+    isPopular: true,
+    bio: "Emily is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in LGBTQ+ History, Wildlife, Public Transportation Navigation, Historical Landmarks, Emily provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast USA", "South America"],
+    tourTypes: ["Relocation Tour", "Cooking Class", "Photography Tour"],
+    maxGroupSize: 13,
+    licenseNumber: "LIC-7496-MON",
+    phoneNumber: "+1-167-305-3662",
+    contactEmail: "emily.miller@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "13:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "20:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "14:00",
+          },
+          {
+            from: "14:00",
+            to: "20:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Emily is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in LGBTQ+ History, Wildlife, Public Transportation Navigation, Historical Landmarks, Emily provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4,
+    reviewsCount: 76,
+    quote: "Montreal isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/67.jpg",
+    languages: ["Portuguese", "Czech"],
+    experienceYears: 8,
+    certifications: ["Sustainable Tourism Certificate", "Local History Certification", "Heritage Interpretation Certificate"],
+    specialties: ["LGBTQ+ History", "Wildlife", "Public Transportation Navigation", "Historical Landmarks"],
+    specialTraining: ["Local Transit Systems", "Local Flora & Fauna"],
+  },
+  {
+    id: "guide-montreal-10",
+    name: "Logan Wilson",
+    city: "Montreal",
+    country: "Canada",
+    state: "",
+    region: "East Coast Canada",
+    isPopular: false,
+    bio: "Logan is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Local Cuisine, Photography Spots, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["West Coast USA"],
+    tourTypes: ["Cruise Excursion", "Religious Tour", "Boat Tour"],
+    maxGroupSize: 12,
+    licenseNumber: "LIC-8234-MON",
+    phoneNumber: "+1-668-399-3981",
+    contactEmail: "logan.wilson@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "10:00",
+          },
+          {
+            from: "14:00",
+            to: "18:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "13:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "18:00",
+          },
+          {
+            from: "11:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "11:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Logan is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Local Cuisine, Photography Spots, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4,
+    reviewsCount: 25,
+    quote: "My goal is to help you fall in love with Montreal just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/19.jpg",
+    languages: ["Malay"],
+    experienceYears: 13,
+    certifications: ["Regional Tourism Ambassador"],
+    specialties: ["Local Cuisine", "Photography Spots"],
+    specialTraining: ["Photography", "Archaeological Conservation"],
+  },
+  {
+    id: "guide-montreal-11",
+    name: "Charlotte Roberts",
+    city: "Montreal",
+    country: "Canada",
+    state: "",
+    region: "East Coast Canada",
+    isPopular: false,
+    bio: "Charlotte is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Family Activities, Film Locations, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa", "South America"],
+    tourTypes: ["Audio Tour", "Family-Friendly Tour", "Craft Workshop", "Off-Road Tour"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-6103-MON",
+    phoneNumber: "+1-247-803-1103",
+    contactEmail: "charlotte.roberts@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "12:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "15:00",
+          },
+          {
+            from: "13:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "14:00",
+          },
+          {
+            from: "09:00",
+            to: "15:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Charlotte is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Family Activities, Film Locations, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.5,
+    reviewsCount: 21,
+    quote: "My goal is to help you fall in love with Montreal just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/34.jpg",
+    languages: ["Norwegian"],
+    experienceYears: 8,
+    certifications: ["Cultural Heritage Specialist", "Heritage Interpretation Certificate"],
+    specialties: ["Family Activities", "Film Locations"],
     specialTraining: [],
   }
 ];

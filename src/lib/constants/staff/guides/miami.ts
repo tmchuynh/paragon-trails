@@ -16,52 +16,7 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-8310-MIA",
     phoneNumber: "+1-507-567-1830",
     contactEmail: "madison.hall@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "11:00",
-          },
-          {
-            from: "14:00",
-            to: "20:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "16:00",
-          },
-          {
-            from: "12:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "19:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "14:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Madison is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Cultural Etiquette, Photography Spots, Public Transportation Navigation, Film Locations, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
@@ -89,52 +44,7 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-4962-MIA",
     phoneNumber: "+1-386-569-1549",
     contactEmail: "noah.campbell@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "13:00",
-          },
-          {
-            from: "11:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "19:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "16:00",
-          },
-          {
-            from: "12:00",
-            to: "16:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Noah is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Family Activities, Film Locations, Local Cuisine, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.5,
@@ -162,43 +72,7 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-5219-MIA",
     phoneNumber: "+1-227-318-9560",
     contactEmail: "elijah.clark@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "12:00",
-          },
-          {
-            from: "12:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "17:00",
-          },
-          {
-            from: "15:00",
-            to: "21:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "15:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Elijah is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Museums, Religious Sites, Wine Tasting, Wildlife, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
@@ -226,56 +100,7 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-7736-MIA",
     phoneNumber: "+1-947-914-8927",
     contactEmail: "sofia.lopez@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "18:00",
-          },
-          {
-            from: "14:00",
-            to: "20:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "16:00",
-          },
-          {
-            from: "11:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "15:00",
-          },
-          {
-            from: "15:00",
-            to: "18:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Sofia is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Indigenous Culture, Religious Sites, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
@@ -303,69 +128,7 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-2584-MIA",
     phoneNumber: "+1-421-952-2211",
     contactEmail: "wyatt.jackson@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "13:00",
-          },
-          {
-            from: "10:00",
-            to: "12:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "11:00",
-          },
-          {
-            from: "12:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "13:00",
-          },
-          {
-            from: "10:00",
-            to: "12:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "18:00",
-          },
-          {
-            from: "13:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "15:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Wyatt is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Nightlife, Historical Landmarks, Parks & Gardens, Cultural Etiquette, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
@@ -377,5 +140,184 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
     certifications: ["Cultural Heritage Specialist", "Wilderness First Responder"],
     specialties: ["Nightlife", "Historical Landmarks", "Parks & Gardens", "Cultural Etiquette"],
     specialTraining: [],
+  },
+  {
+    id: "guide-miami-6",
+    name: "Evelyn Rodriguez",
+    city: "Miami",
+    country: "United States",
+    state: "",
+    region: "Caribbean",
+    isPopular: false,
+    bio: "Evelyn is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Museums, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Northern Europe"],
+    tourTypes: ["Boat Tour", "Museum Tour", "Underground Tour"],
+    maxGroupSize: 6,
+    licenseNumber: "LIC-9934-MIA",
+    phoneNumber: "+1-496-635-7899",
+    contactEmail: "evelyn.rodriguez@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "15:00",
+          },
+          {
+            from: "15:00",
+            to: "21:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "15:00",
+          },
+          {
+            from: "13:00",
+            to: "17:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Evelyn is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Museums, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.9,
+    reviewsCount: 51,
+    quote: "In Miami, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/68.jpg",
+    languages: ["Czech", "Finnish"],
+    experienceYears: 10,
+    certifications: ["Regional Tourism Ambassador", "Eco-Tourism Guide"],
+    specialties: ["Museums"],
+    specialTraining: ["Wine Education"],
+  },
+  {
+    id: "guide-miami-7",
+    name: "Evelyn Harris",
+    city: "Miami",
+    country: "United States",
+    state: "",
+    region: "Caribbean",
+    isPopular: false,
+    bio: "Evelyn is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Local Craftsmanship, Adventure Sports, Hidden Gems, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Alaska"],
+    tourTypes: ["Wine Tour", "LGBTQ+ Friendly Tour", "Historical Tour", "Underground Tour", "Market Tour"],
+    maxGroupSize: 11,
+    licenseNumber: "LIC-9932-MIA",
+    phoneNumber: "+1-995-264-5873",
+    contactEmail: "evelyn.harris@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "21:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "20:00",
+          },
+          {
+            from: "08:00",
+            to: "14:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Evelyn is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Local Craftsmanship, Adventure Sports, Hidden Gems, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 12,
+    quote: "Miami isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/76.jpg",
+    languages: ["Tagalog", "Finnish", "Bulgarian"],
+    experienceYears: 13,
+    certifications: ["Wilderness First Responder"],
+    specialties: ["Local Craftsmanship", "Adventure Sports", "Hidden Gems"],
+    specialTraining: ["Emergency Response"],
+  },
+  {
+    id: "guide-miami-8",
+    name: "Mason Rivera",
+    city: "Miami",
+    country: "United States",
+    state: "",
+    region: "Caribbean",
+    isPopular: true,
+    bio: "Mason is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Public Transportation Navigation, Adventure Sports, Hidden Gems, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean", "South America"],
+    tourTypes: ["Bike Tour", "Private Tour", "Religious Tour", "Relocation Tour"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-2449-MIA",
+    phoneNumber: "+1-680-866-1464",
+    contactEmail: "mason.rivera@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "14:00",
+          },
+          {
+            from: "12:00",
+            to: "14:00",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "20:00",
+          },
+          {
+            from: "13:00",
+            to: "17:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "21:00",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "15:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Mason is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Public Transportation Navigation, Adventure Sports, Hidden Gems, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.7,
+    reviewsCount: 33,
+    quote: "The best way to discover Miami is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/59.jpg",
+    languages: ["English", "Serbian", "Thai"],
+    experienceYears: 15,
+    certifications: ["Heritage Interpretation Certificate", "Food Safety Certification", "Eco-Tourism Guide"],
+    specialties: ["Public Transportation Navigation", "Adventure Sports", "Hidden Gems"],
+    specialTraining: ["Conflict Resolution", "Marine Biology"],
   }
 ];

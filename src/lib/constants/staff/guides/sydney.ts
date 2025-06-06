@@ -16,48 +16,7 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
     licenseNumber: "LIC-9565-SYD",
     phoneNumber: "+1-803-809-9559",
     contactEmail: "penelope.scott@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "21:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "12:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "11:00",
-          },
-          {
-            from: "13:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "14:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Penelope is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in LGBTQ+ History, Historical Landmarks, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
@@ -85,43 +44,7 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
     licenseNumber: "LIC-5450-SYD",
     phoneNumber: "+1-503-573-2965",
     contactEmail: "isabella.white@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "18:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "14:00",
-          },
-          {
-            from: "10:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "11:00",
-          },
-          {
-            from: "12:00",
-            to: "14:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Isabella is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Historical Landmarks, Public Transportation Navigation, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
@@ -149,39 +72,7 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
     licenseNumber: "LIC-3846-SYD",
     phoneNumber: "+1-486-339-7083",
     contactEmail: "isabella.harris@paragontrails.com",
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "12:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "13:00",
-          },
-          {
-            from: "10:00",
-            to: "14:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Isabella is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Street Food, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
@@ -209,39 +100,7 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
     licenseNumber: "LIC-8858-SYD",
     phoneNumber: "+1-829-823-7617",
     contactEmail: "riley.johnson@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "17:00",
-          },
-          {
-            from: "15:00",
-            to: "21:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "14:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Riley is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Architecture, Indigenous Culture, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
@@ -269,52 +128,7 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
     licenseNumber: "LIC-1076-SYD",
     phoneNumber: "+1-473-929-5239",
     contactEmail: "mason.allen@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "16:00",
-          },
-          {
-            from: "15:00",
-            to: "20:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "20:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "13:00",
-          },
-          {
-            from: "14:00",
-            to: "17:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Mason is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Family Activities, Indigenous Culture, Local Craftsmanship, Street Food, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
@@ -342,70 +156,7 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
     licenseNumber: "LIC-9608-SYD",
     phoneNumber: "+1-611-714-2041",
     contactEmail: "henry.torres@paragontrails.com",
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "17:00",
-          },
-          {
-            from: "08:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "12:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "20:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "16:00",
-          },
-          {
-            from: "08:00",
-            to: "12:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "12:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Henry is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Architecture, Religious Sites, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 5,
@@ -433,73 +184,7 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
     licenseNumber: "LIC-2820-SYD",
     phoneNumber: "+1-602-191-9839",
     contactEmail: "michael.scott@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00",
-          },
-          {
-            from: "14:00",
-            to: "19:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "14:00",
-          },
-          {
-            from: "13:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "15:00",
-          },
-          {
-            from: "15:00",
-            to: "18:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "15:00",
-          },
-          {
-            from: "12:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "15:00",
-          },
-          {
-            from: "10:00",
-            to: "14:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Michael is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Local Craftsmanship, Local Cuisine, Music Scene, Adventure Sports, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
@@ -510,6 +195,177 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
     experienceYears: 6,
     certifications: ["Heritage Interpretation Certificate", "Regional Tourism Ambassador", "Licensed City Guide"],
     specialties: ["Local Craftsmanship", "Local Cuisine", "Music Scene", "Adventure Sports"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-sydney-8",
+    name: "Ethan Jackson",
+    city: "Sydney",
+    country: "Australia",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: false,
+    bio: "Ethan is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Local Craftsmanship, Film Locations, Urban Legends, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific", "Middle East"],
+    tourTypes: ["Luxury Tour", "Private Tour", "Craft Workshop", "Historical Tour"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-8807-SYD",
+    phoneNumber: "+1-809-133-3963",
+    contactEmail: "ethan.jackson@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "14:00",
+          },
+          {
+            from: "13:00",
+            to: "18:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "19:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "13:00",
+          },
+          {
+            from: "15:00",
+            to: "17:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Ethan is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Local Craftsmanship, Film Locations, Urban Legends, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 80,
+    quote: "My goal is to help you fall in love with Sydney just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/75.jpg",
+    languages: ["Cantonese"],
+    experienceYears: 4,
+    certifications: ["Regional Tourism Ambassador", "Food Safety Certification"],
+    specialties: ["Local Craftsmanship", "Film Locations", "Urban Legends"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-sydney-9",
+    name: "Charlotte Scott",
+    city: "Sydney",
+    country: "Australia",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: false,
+    bio: "Charlotte is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Architecture, Wildlife, Music Scene, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["West Coast USA"],
+    tourTypes: ["Family-Friendly Tour", "Religious Tour", "Romantic Tour"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-9565-SYD",
+    phoneNumber: "+1-873-578-4977",
+    contactEmail: "charlotte.scott@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "21:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "16:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "16:00",
+          },
+          {
+            from: "11:00",
+            to: "14:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Charlotte is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Architecture, Wildlife, Music Scene, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.9,
+    reviewsCount: 64,
+    quote: "Sydney isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/35.jpg",
+    languages: ["Thai"],
+    experienceYears: 13,
+    certifications: ["Certified International Tour Manager", "CPR & First Aid", "Regional Tourism Ambassador"],
+    specialties: ["Architecture", "Wildlife", "Music Scene"],
+    specialTraining: ["Wine Education"],
+  },
+  {
+    id: "guide-sydney-10",
+    name: "Henry Hall",
+    city: "Sydney",
+    country: "Australia",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: true,
+    bio: "Henry is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Local Markets, Local Craftsmanship, Art Galleries, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean"],
+    tourTypes: ["Off-Road Tour", "Food Tour"],
+    maxGroupSize: 7,
+    licenseNumber: "LIC-1618-SYD",
+    phoneNumber: "+1-858-602-4779",
+    contactEmail: "henry.hall@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "18:00",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "17:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Henry is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Local Markets, Local Craftsmanship, Art Galleries, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.2,
+    reviewsCount: 8,
+    quote: "The best way to discover Sydney is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/11.jpg",
+    languages: ["Bulgarian", "English"],
+    experienceYears: 3,
+    certifications: ["Adventure Tourism Safety Certificate", "Sustainable Tourism Certificate", "Licensed City Guide"],
+    specialties: ["Local Markets", "Local Craftsmanship", "Art Galleries"],
     specialTraining: [],
   }
 ];

@@ -16,60 +16,7 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-6231-BER",
     phoneNumber: "+1-419-412-8891",
     contactEmail: "mason.baker@paragontrails.com",
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "10:00",
-          },
-          {
-            from: "13:00",
-            to: "19:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "19:00",
-          },
-          {
-            from: "12:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "17:00",
-          },
-          {
-            from: "10:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "13:00",
-          },
-          {
-            from: "08:00",
-            to: "10:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Mason is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Urban Legends, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
@@ -97,69 +44,7 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-2390-BER",
     phoneNumber: "+1-870-494-2081",
     contactEmail: "david.rodriguez@paragontrails.com",
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "14:00",
-          },
-          {
-            from: "10:00",
-            to: "12:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "13:00",
-          },
-          {
-            from: "10:00",
-            to: "12:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "13:00",
-          },
-          {
-            from: "08:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "16:00",
-          },
-          {
-            from: "15:00",
-            to: "20:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "David is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Film Locations, Architecture, Music Scene, David provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
@@ -187,61 +72,7 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-1638-BER",
     phoneNumber: "+1-663-194-8743",
     contactEmail: "zoe.rivera@paragontrails.com",
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "18:00",
-          },
-          {
-            from: "09:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "12:00",
-          },
-          {
-            from: "11:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "12:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "20:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Zoe is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Parks & Gardens, Local Markets, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
@@ -269,57 +100,7 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-1735-BER",
     phoneNumber: "+1-770-225-5969",
     contactEmail: "layla.campbell@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "11:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "18:00",
-          },
-          {
-            from: "10:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "11:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Layla is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Hidden Gems, Local Craftsmanship, Street Food, LGBTQ+ History, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
@@ -347,48 +128,7 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-1901-BER",
     phoneNumber: "+1-687-383-9013",
     contactEmail: "sophia.harris@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "12:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "20:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "15:00",
-          },
-          {
-            from: "15:00",
-            to: "21:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Sophia is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Museums, Family Activities, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
@@ -400,5 +140,197 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
     certifications: ["Heritage Interpretation Certificate", "Food Safety Certification"],
     specialties: ["Museums", "Family Activities"],
     specialTraining: ["Mountain Survival", "Local Flora & Fauna"],
+  },
+  {
+    id: "guide-bermuda-6",
+    name: "Lucas Young",
+    city: "Bermuda",
+    country: "Bermuda",
+    state: "",
+    region: "Caribbean",
+    isPopular: false,
+    bio: "Lucas is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Photography Spots, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast USA"],
+    tourTypes: ["Self-Guided Tour", "Cooking Class", "Nature Tour"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-5473-BER",
+    phoneNumber: "+1-123-147-3109",
+    contactEmail: "lucas.young@paragontrails.com",
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "14:00",
+          },
+          {
+            from: "08:00",
+            to: "13:00",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "17:00",
+          },
+          {
+            from: "15:00",
+            to: "21:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "20:00",
+          },
+          {
+            from: "11:00",
+            to: "14:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Lucas is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Photography Spots, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 43,
+    quote: "My goal is to help you fall in love with Bermuda just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/10.jpg",
+    languages: ["Japanese", "Thai", "Italian"],
+    experienceYears: 13,
+    certifications: ["Licensed City Guide", "Heritage Interpretation Certificate"],
+    specialties: ["Photography Spots"],
+    specialTraining: ["Photography", "Cultural Sensitivity"],
+  },
+  {
+    id: "guide-bermuda-7",
+    name: "Benjamin Davis",
+    city: "Bermuda",
+    country: "Bermuda",
+    state: "",
+    region: "Caribbean",
+    isPopular: true,
+    bio: "Benjamin is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Parks & Gardens, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East"],
+    tourTypes: ["Scenic Tour", "Museum Tour", "LGBTQ+ Friendly Tour"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-9362-BER",
+    phoneNumber: "+1-415-147-5524",
+    contactEmail: "benjamin.davis@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "17:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "11:00",
+          },
+          {
+            from: "14:00",
+            to: "19:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "17:00",
+          },
+          {
+            from: "13:00",
+            to: "18:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Benjamin is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Parks & Gardens, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.8,
+    reviewsCount: 44,
+    quote: "In Bermuda, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/32.jpg",
+    languages: ["Indonesian", "Croatian"],
+    experienceYears: 5,
+    certifications: ["Local History Certification", "Food Safety Certification"],
+    specialties: ["Parks & Gardens"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-bermuda-8",
+    name: "Abigail Hernandez",
+    city: "Bermuda",
+    country: "Bermuda",
+    state: "",
+    region: "Caribbean",
+    isPopular: true,
+    bio: "Abigail is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Film Locations, Nightlife, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada"],
+    tourTypes: ["Romantic Tour", "Cruise Excursion"],
+    maxGroupSize: 14,
+    licenseNumber: "LIC-7092-BER",
+    phoneNumber: "+1-511-224-5077",
+    contactEmail: "abigail.hernandez@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "17:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "19:00",
+          },
+          {
+            from: "14:00",
+            to: "20:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "12:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Abigail is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Film Locations, Nightlife, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.5,
+    reviewsCount: 27,
+    quote: "Bermuda isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/57.jpg",
+    languages: ["Turkish", "Swedish"],
+    experienceYears: 10,
+    certifications: ["Adventure Tourism Safety Certificate", "Eco-Tourism Guide", "Cultural Heritage Specialist"],
+    specialties: ["Film Locations", "Nightlife"],
+    specialTraining: [],
   }
 ];

@@ -16,34 +16,7 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
     licenseNumber: "LIC-1344-SAN",
     phoneNumber: "+1-309-707-4322",
     contactEmail: "mason.wright@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "14:00",
-          },
-          {
-            from: "08:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "15:00",
-          },
-          {
-            from: "08:00",
-            to: "10:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Mason is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Architecture, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
@@ -71,39 +44,7 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
     licenseNumber: "LIC-9226-SAN",
     phoneNumber: "+1-203-460-4556",
     contactEmail: "lucas.martinez@paragontrails.com",
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "16:00",
-          },
-          {
-            from: "09:00",
-            to: "13:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Lucas is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Wine Tasting, Sustainable Tourism, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
@@ -131,65 +72,7 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
     licenseNumber: "LIC-3040-SAN",
     phoneNumber: "+1-107-528-9551",
     contactEmail: "mia.mitchell@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "11:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "13:00",
-          },
-          {
-            from: "14:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "19:00",
-          },
-          {
-            from: "09:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "10:00",
-          },
-          {
-            from: "13:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "19:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Mia is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Film Locations, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
@@ -217,44 +100,7 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
     licenseNumber: "LIC-7348-SAN",
     phoneNumber: "+1-968-881-1051",
     contactEmail: "henry.thompson@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "15:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Henry is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Music Scene, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
@@ -266,5 +112,197 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
     certifications: ["Professional Tour Guide Association", "Regional Tourism Ambassador"],
     specialties: ["Music Scene"],
     specialTraining: [],
+  },
+  {
+    id: "guide-san-francisco-5",
+    name: "William Campbell",
+    city: "San Francisco",
+    country: "United States",
+    state: "",
+    region: "West Coast USA",
+    isPopular: false,
+    bio: "William is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Indigenous Culture, Urban Legends, Local Craftsmanship, William provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Alaska"],
+    tourTypes: ["Food Tour", "Farm Visit", "Adventure Tour", "Street Art Tour", "Cultural Tour"],
+    maxGroupSize: 13,
+    licenseNumber: "LIC-2050-SAN",
+    phoneNumber: "+1-706-475-1115",
+    contactEmail: "william.campbell@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "17:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "15:00",
+          },
+          {
+            from: "14:00",
+            to: "20:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "William is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Indigenous Culture, Urban Legends, Local Craftsmanship, William provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.7,
+    reviewsCount: 87,
+    quote: "San Francisco isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/41.jpg",
+    languages: ["Thai", "Malay"],
+    experienceYears: 7,
+    certifications: ["Wilderness First Responder"],
+    specialties: ["Indigenous Culture", "Urban Legends", "Local Craftsmanship"],
+    specialTraining: ["Group Management"],
+  },
+  {
+    id: "guide-san-francisco-6",
+    name: "Victoria AdAMS",
+    city: "San Francisco",
+    country: "United States",
+    state: "",
+    region: "West Coast USA",
+    isPopular: false,
+    bio: "Victoria is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Local Markets, Local Craftsmanship, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East"],
+    tourTypes: ["Walking Tour", "Farm Visit", "Audio Tour"],
+    maxGroupSize: 8,
+    licenseNumber: "LIC-3412-SAN",
+    phoneNumber: "+1-996-710-6417",
+    contactEmail: "victoria.adams@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "15:00",
+          },
+          {
+            from: "14:00",
+            to: "16:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "11:00",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "15:00",
+          },
+          {
+            from: "12:00",
+            to: "15:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Victoria is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Local Markets, Local Craftsmanship, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.9,
+    reviewsCount: 69,
+    quote: "The best way to discover San Francisco is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/2.jpg",
+    languages: ["Romanian", "Czech"],
+    experienceYears: 10,
+    certifications: ["Wilderness First Responder"],
+    specialties: ["Local Markets", "Local Craftsmanship"],
+    specialTraining: ["Desert Navigation"],
+  },
+  {
+    id: "guide-san-francisco-7",
+    name: "Layla Smith",
+    city: "San Francisco",
+    country: "United States",
+    state: "",
+    region: "West Coast USA",
+    isPopular: false,
+    bio: "Layla is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Street Food, LGBTQ+ History, Hidden Gems, Architecture, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast USA", "Mediterranean"],
+    tourTypes: ["Cruise Excursion", "Underground Tour", "Relocation Tour", "Family-Friendly Tour", "Farm Visit"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-2589-SAN",
+    phoneNumber: "+1-239-493-3408",
+    contactEmail: "layla.smith@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "21:00",
+          },
+          {
+            from: "10:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "13:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "14:00",
+          },
+          {
+            from: "08:00",
+            to: "12:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "15:00",
+          },
+          {
+            from: "13:00",
+            to: "16:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Layla is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Street Food, LGBTQ+ History, Hidden Gems, Architecture, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 51,
+    quote: "In San Francisco, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/15.jpg",
+    languages: ["Greek"],
+    experienceYears: 2,
+    certifications: ["Eco-Tourism Guide", "Sustainable Tourism Certificate", "Cultural Heritage Specialist"],
+    specialties: ["Street Food", "LGBTQ+ History", "Hidden Gems", "Architecture"],
+    specialTraining: ["Urban Planning"],
   }
 ];

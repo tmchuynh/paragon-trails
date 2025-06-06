@@ -16,52 +16,7 @@ export const stThomasusVirginIslandscaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-1326-ST-",
     phoneNumber: "+1-348-462-2874",
     contactEmail: "aria.gonzalez@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "15:00",
-          },
-          {
-            from: "12:00",
-            to: "18:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "16:00",
-          },
-          {
-            from: "12:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "16:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Aria is a passionate tour guide with extensive knowledge of St Thomas and U.S. Virgin Islands. Specializing in Wildlife, Architecture, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
@@ -89,60 +44,7 @@ export const stThomasusVirginIslandscaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-3713-ST-",
     phoneNumber: "+1-419-244-6865",
     contactEmail: "alexander.robinson@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "14:00",
-          },
-          {
-            from: "12:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "14:00",
-          },
-          {
-            from: "09:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "16:00",
-          },
-          {
-            from: "11:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "13:00",
-          },
-          {
-            from: "12:00",
-            to: "14:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Alexander is a passionate tour guide with extensive knowledge of St Thomas and U.S. Virgin Islands. Specializing in Nightlife, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
@@ -170,43 +72,7 @@ export const stThomasusVirginIslandscaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-2580-ST-",
     phoneNumber: "+1-334-854-5511",
     contactEmail: "amelia.walker@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "12:00",
-          },
-          {
-            from: "12:00",
-            to: "18:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "17:00",
-          },
-          {
-            from: "13:00",
-            to: "16:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Amelia is a passionate tour guide with extensive knowledge of St Thomas and U.S. Virgin Islands. Specializing in Wine Tasting, LGBTQ+ History, Hidden Gems, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
@@ -234,26 +100,7 @@ export const stThomasusVirginIslandscaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-7546-ST-",
     phoneNumber: "+1-458-572-1896",
     contactEmail: "harper.lewis@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "12:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Harper is a passionate tour guide with extensive knowledge of St Thomas and U.S. Virgin Islands. Specializing in Architecture, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
@@ -265,5 +112,202 @@ export const stThomasusVirginIslandscaribbeanGuides: TourGuide[] = [
     certifications: ["CPR & First Aid"],
     specialties: ["Architecture"],
     specialTraining: ["Conflict Resolution"],
+  },
+  {
+    id: "guide-st-thomas-5",
+    name: "Aria Robinson",
+    city: "St Thomas",
+    country: "U.S. Virgin Islands",
+    state: "",
+    region: "Caribbean",
+    isPopular: false,
+    bio: "Aria is a passionate tour guide with extensive knowledge of St Thomas and U.S. Virgin Islands. Specializing in Wildlife, Religious Sites, Wine Tasting, Urban Legends, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East"],
+    tourTypes: ["Underground Tour", "Wine Tour", "Group Tour"],
+    maxGroupSize: 12,
+    licenseNumber: "LIC-3815-ST-",
+    phoneNumber: "+1-895-449-8401",
+    contactEmail: "aria.robinson@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "16:00",
+          },
+          {
+            from: "13:00",
+            to: "19:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "16:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Aria is a passionate tour guide with extensive knowledge of St Thomas and U.S. Virgin Islands. Specializing in Wildlife, Religious Sites, Wine Tasting, Urban Legends, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.6,
+    reviewsCount: 37,
+    quote: "My goal is to help you fall in love with St Thomas just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/12.jpg",
+    languages: ["Bulgarian"],
+    experienceYears: 5,
+    certifications: ["Certified International Tour Manager", "Food Safety Certification", "Heritage Interpretation Certificate"],
+    specialties: ["Wildlife", "Religious Sites", "Wine Tasting", "Urban Legends"],
+    specialTraining: ["Local Flora & Fauna", "Regional Cuisine"],
+  },
+  {
+    id: "guide-st-thomas-6",
+    name: "Ethan Martin",
+    city: "St Thomas",
+    country: "U.S. Virgin Islands",
+    state: "",
+    region: "Caribbean",
+    isPopular: false,
+    bio: "Ethan is a passionate tour guide with extensive knowledge of St Thomas and U.S. Virgin Islands. Specializing in Nightlife, Hidden Gems, Local Markets, Historical Landmarks, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa", "South America"],
+    tourTypes: ["Off-Road Tour", "Helicopter Tour", "Cultural Tour", "Architecture Tour", "Market Tour"],
+    maxGroupSize: 6,
+    licenseNumber: "LIC-8092-ST-",
+    phoneNumber: "+1-455-558-7105",
+    contactEmail: "ethan.martin@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "12:00",
+          },
+          {
+            from: "10:00",
+            to: "13:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "19:00",
+          },
+          {
+            from: "15:00",
+            to: "20:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "16:00",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "12:00",
+          },
+          {
+            from: "14:00",
+            to: "18:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Ethan is a passionate tour guide with extensive knowledge of St Thomas and U.S. Virgin Islands. Specializing in Nightlife, Hidden Gems, Local Markets, Historical Landmarks, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.8,
+    reviewsCount: 58,
+    quote: "St Thomas isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/59.jpg",
+    languages: ["Hindi"],
+    experienceYears: 5,
+    certifications: ["Certified International Tour Manager"],
+    specialties: ["Nightlife", "Hidden Gems", "Local Markets", "Historical Landmarks"],
+    specialTraining: ["Desert Navigation"],
+  },
+  {
+    id: "guide-st-thomas-7",
+    name: "Jackson Allen",
+    city: "St Thomas",
+    country: "U.S. Virgin Islands",
+    state: "",
+    region: "Caribbean",
+    isPopular: true,
+    bio: "Jackson is a passionate tour guide with extensive knowledge of St Thomas and U.S. Virgin Islands. Specializing in Sustainable Tourism, Nightlife, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Mediterranean", "South America"],
+    tourTypes: ["Food Tour", "Audio Tour", "Group Tour"],
+    maxGroupSize: 6,
+    licenseNumber: "LIC-1647-ST-",
+    phoneNumber: "+1-309-166-5515",
+    contactEmail: "jackson.allen@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "14:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "20:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "17:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "20:00",
+          },
+          {
+            from: "09:00",
+            to: "13:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Jackson is a passionate tour guide with extensive knowledge of St Thomas and U.S. Virgin Islands. Specializing in Sustainable Tourism, Nightlife, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 89,
+    quote: "St Thomas isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/54.jpg",
+    languages: ["Tagalog"],
+    experienceYears: 3,
+    certifications: ["Urban Navigation Specialist", "Adventure Tourism Safety Certificate"],
+    specialties: ["Sustainable Tourism", "Nightlife"],
+    specialTraining: ["Mountain Survival", "Emergency Response"],
   }
 ];

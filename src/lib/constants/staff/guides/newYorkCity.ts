@@ -16,47 +16,7 @@ export const newYorkCityunitedStateseastCoastUsaGuides: TourGuide[] = [
     licenseNumber: "LIC-9850-NEW",
     phoneNumber: "+1-247-459-5876",
     contactEmail: "emma.young@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "15:00",
-          },
-          {
-            from: "11:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "14:00",
-          },
-          {
-            from: "11:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "16:00",
-          },
-          {
-            from: "13:00",
-            to: "19:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Emma is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Nightlife, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
@@ -84,43 +44,7 @@ export const newYorkCityunitedStateseastCoastUsaGuides: TourGuide[] = [
     licenseNumber: "LIC-4537-NEW",
     phoneNumber: "+1-829-824-8329",
     contactEmail: "samuel.flores@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "15:00",
-          },
-          {
-            from: "10:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "18:00",
-          },
-          {
-            from: "10:00",
-            to: "14:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Samuel is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Wildlife, Family Activities, Samuel provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
@@ -148,60 +72,7 @@ export const newYorkCityunitedStateseastCoastUsaGuides: TourGuide[] = [
     licenseNumber: "LIC-8978-NEW",
     phoneNumber: "+1-533-365-9249",
     contactEmail: "ava.green@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "13:00",
-          },
-          {
-            from: "13:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "13:00",
-          },
-          {
-            from: "09:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "20:00",
-          },
-          {
-            from: "11:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "16:00",
-          },
-          {
-            from: "10:00",
-            to: "13:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Ava is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Nightlife, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
@@ -229,13 +100,54 @@ export const newYorkCityunitedStateseastCoastUsaGuides: TourGuide[] = [
     licenseNumber: "LIC-4910-NEW",
     phoneNumber: "+1-315-833-3916",
     contactEmail: "jacob.sanchez@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Jacob is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Cultural Etiquette, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 73,
+    quote: "New York City isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/20.jpg",
+    languages: ["Italian"],
+    experienceYears: 12,
+    certifications: ["Urban Navigation Specialist"],
+    specialties: ["Cultural Etiquette"],
+    specialTraining: ["Group Management", "Regional Geology"],
+  },
+  {
+    id: "guide-new-york-city-5",
+    name: "Jacob Carter",
+    city: "New York City",
+    country: "United States",
+    state: "",
+    region: "East Coast USA",
+    isPopular: true,
+    bio: "Jacob is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Local Cuisine, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa", "Mediterranean"],
+    tourTypes: ["Shopping Tour", "Boat Tour", "Nature Tour"],
+    maxGroupSize: 5,
+    licenseNumber: "LIC-6875-NEW",
+    phoneNumber: "+1-522-628-8952",
+    contactEmail: "jacob.carter@paragontrails.com",
     available: [
       {
-        day: "Saturday",
+        day: "Tuesday",
         availableHours: [
           {
-            from: "14:00",
-            to: "19:00",
+            from: "09:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "12:00",
+          },
+          {
+            from: "12:00",
+            to: "18:00",
           }
         ],
       },
@@ -243,13 +155,55 @@ export const newYorkCityunitedStateseastCoastUsaGuides: TourGuide[] = [
         day: "Sunday",
         availableHours: [
           {
-            from: "11:00",
+            from: "12:00",
+            to: "18:00",
+          },
+          {
+            from: "08:00",
+            to: "14:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Jacob is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Local Cuisine, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.7,
+    reviewsCount: 61,
+    quote: "The best way to discover New York City is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/25.jpg",
+    languages: ["Portuguese", "Hindi"],
+    experienceYears: 10,
+    certifications: ["Heritage Interpretation Certificate", "CPR & First Aid"],
+    specialties: ["Local Cuisine"],
+    specialTraining: ["Archaeological Conservation"],
+  },
+  {
+    id: "guide-new-york-city-6",
+    name: "Michael Moore",
+    city: "New York City",
+    country: "United States",
+    state: "",
+    region: "East Coast USA",
+    isPopular: false,
+    bio: "Michael is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Local Cuisine, LGBTQ+ History, Historical Landmarks, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific", "East Coast USA"],
+    tourTypes: ["Self-Guided Tour", "Street Art Tour"],
+    maxGroupSize: 10,
+    licenseNumber: "LIC-3656-NEW",
+    phoneNumber: "+1-739-857-6503",
+    contactEmail: "michael.moore@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "10:00",
             to: "16:00",
           }
         ],
       },
       {
-        day: "Friday",
+        day: "Sunday",
         availableHours: [
           {
             from: "11:00",
@@ -263,15 +217,84 @@ export const newYorkCityunitedStateseastCoastUsaGuides: TourGuide[] = [
       }
     ],
     isCertified: true,
-    description: "Jacob is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Cultural Etiquette, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.1,
-    reviewsCount: 73,
+    description: "Michael is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Local Cuisine, LGBTQ+ History, Historical Landmarks, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 20,
     quote: "New York City isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/men/20.jpg",
-    languages: ["Italian"],
-    experienceYears: 12,
-    certifications: ["Urban Navigation Specialist"],
-    specialties: ["Cultural Etiquette"],
-    specialTraining: ["Group Management", "Regional Geology"],
+    profileImage: "https://randomuser.me/api/portraits/women/36.jpg",
+    languages: ["Tagalog", "Russian"],
+    experienceYears: 5,
+    certifications: ["Heritage Interpretation Certificate", "Language Proficiency Certification"],
+    specialties: ["Local Cuisine", "LGBTQ+ History", "Historical Landmarks"],
+    specialTraining: ["Historical Research Methods"],
+  },
+  {
+    id: "guide-new-york-city-7",
+    name: "Aria Robinson",
+    city: "New York City",
+    country: "United States",
+    state: "",
+    region: "East Coast USA",
+    isPopular: false,
+    bio: "Aria is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Religious Sites, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada"],
+    tourTypes: ["Boat Tour", "Group Tour", "Food Tour", "Self-Guided Tour"],
+    maxGroupSize: 10,
+    licenseNumber: "LIC-8627-NEW",
+    phoneNumber: "+1-483-924-1217",
+    contactEmail: "aria.robinson@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "19:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "19:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "18:00",
+          },
+          {
+            from: "08:00",
+            to: "11:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "17:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Aria is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Religious Sites, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.2,
+    reviewsCount: 33,
+    quote: "New York City isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/2.jpg",
+    languages: ["Czech"],
+    experienceYears: 5,
+    certifications: ["Local History Certification"],
+    specialties: ["Religious Sites"],
+    specialTraining: ["Local Transit Systems"],
   }
 ];

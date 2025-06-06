@@ -16,52 +16,7 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
     licenseNumber: "LIC-9864-SIN",
     phoneNumber: "+1-869-685-7417",
     contactEmail: "sofia.walker@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "20:00",
-          },
-          {
-            from: "13:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "18:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "15:00",
-          },
-          {
-            from: "11:00",
-            to: "16:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Sofia is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Local Markets, Parks & Gardens, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
@@ -89,52 +44,7 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
     licenseNumber: "LIC-5131-SIN",
     phoneNumber: "+1-964-946-4814",
     contactEmail: "lucas.torres@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "20:00",
-          },
-          {
-            from: "13:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "12:00",
-          },
-          {
-            from: "12:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "10:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Lucas is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Parks & Gardens, Art Galleries, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
@@ -162,30 +72,7 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
     licenseNumber: "LIC-4285-SIN",
     phoneNumber: "+1-861-778-3237",
     contactEmail: "aria.green@paragontrails.com",
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "12:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "17:00",
-          },
-          {
-            from: "12:00",
-            to: "15:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Aria is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Photography Spots, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
@@ -213,82 +100,7 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
     licenseNumber: "LIC-8176-SIN",
     phoneNumber: "+1-727-911-3278",
     contactEmail: "william.martin@paragontrails.com",
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "15:00",
-          },
-          {
-            from: "10:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "17:00",
-          },
-          {
-            from: "13:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "11:00",
-          },
-          {
-            from: "10:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "14:00",
-          },
-          {
-            from: "10:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "15:00",
-          },
-          {
-            from: "09:00",
-            to: "11:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "13:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "William is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Cultural Etiquette, William provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
@@ -300,5 +112,168 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
     certifications: ["Language Proficiency Certification", "Food Safety Certification", "Regional Tourism Ambassador"],
     specialties: ["Cultural Etiquette"],
     specialTraining: ["Public Speaking", "Accessibility Services"],
+  },
+  {
+    id: "guide-singapore-5",
+    name: "Scarlett Scott",
+    city: "Singapore",
+    country: "Singapore",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: true,
+    bio: "Scarlett is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Urban Legends, Sustainable Tourism, Family Activities, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada"],
+    tourTypes: ["Cultural Tour", "Architecture Tour", "Adventure Tour"],
+    maxGroupSize: 7,
+    licenseNumber: "LIC-8240-SIN",
+    phoneNumber: "+1-670-343-1804",
+    contactEmail: "scarlett.scott@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "17:00",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "14:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Scarlett is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Urban Legends, Sustainable Tourism, Family Activities, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 81,
+    quote: "In Singapore, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/37.jpg",
+    languages: ["Mandarin", "English"],
+    experienceYears: 12,
+    certifications: ["Regional Tourism Ambassador"],
+    specialties: ["Urban Legends", "Sustainable Tourism", "Family Activities"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-singapore-6",
+    name: "William Roberts",
+    city: "Singapore",
+    country: "Singapore",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: true,
+    bio: "William is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Nightlife, Art Galleries, Street Food, William provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific"],
+    tourTypes: ["Brewery Tour", "Eco Tour", "Festival Tour", "Craft Workshop"],
+    maxGroupSize: 17,
+    licenseNumber: "LIC-9722-SIN",
+    phoneNumber: "+1-695-630-7980",
+    contactEmail: "william.roberts@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "12:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "17:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "15:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "William is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Nightlife, Art Galleries, Street Food, William provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4,
+    reviewsCount: 43,
+    quote: "My goal is to help you fall in love with Singapore just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/2.jpg",
+    languages: ["Korean", "Turkish", "Russian"],
+    experienceYears: 15,
+    certifications: ["CPR & First Aid", "Local History Certification", "Heritage Interpretation Certificate"],
+    specialties: ["Nightlife", "Art Galleries", "Street Food"],
+    specialTraining: ["Accessibility Services"],
+  },
+  {
+    id: "guide-singapore-7",
+    name: "Abigail Jackson",
+    city: "Singapore",
+    country: "Singapore",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: false,
+    bio: "Abigail is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Art Galleries, Music Scene, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Alaska", "Mediterranean"],
+    tourTypes: ["Market Tour", "Craft Workshop"],
+    maxGroupSize: 5,
+    licenseNumber: "LIC-7171-SIN",
+    phoneNumber: "+1-735-894-4479",
+    contactEmail: "abigail.jackson@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "11:00",
+          },
+          {
+            from: "11:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "14:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "18:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Abigail is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Art Galleries, Music Scene, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.9,
+    reviewsCount: 41,
+    quote: "Singapore isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/3.jpg",
+    languages: ["Swedish"],
+    experienceYears: 14,
+    certifications: ["CPR & First Aid"],
+    specialties: ["Art Galleries", "Music Scene"],
+    specialTraining: [],
   }
 ];

@@ -16,30 +16,7 @@ export const florenceitalymediterraneanGuides: TourGuide[] = [
     licenseNumber: "LIC-9758-FLO",
     phoneNumber: "+1-859-121-4942",
     contactEmail: "harper.jackson@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "15:00",
-          },
-          {
-            from: "09:00",
-            to: "13:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Harper is a passionate tour guide with extensive knowledge of Florence and Italy. Specializing in Religious Sites, Architecture, Adventure Sports, Nightlife, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
@@ -67,48 +44,7 @@ export const florenceitalymediterraneanGuides: TourGuide[] = [
     licenseNumber: "LIC-7346-FLO",
     phoneNumber: "+1-579-250-2542",
     contactEmail: "jackson.lewis@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "21:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "13:00",
-          },
-          {
-            from: "11:00",
-            to: "16:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Jackson is a passionate tour guide with extensive knowledge of Florence and Italy. Specializing in Photography Spots, Music Scene, Religious Sites, Urban Legends, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
@@ -136,30 +72,7 @@ export const florenceitalymediterraneanGuides: TourGuide[] = [
     licenseNumber: "LIC-8309-FLO",
     phoneNumber: "+1-592-624-6471",
     contactEmail: "olivia.lopez@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "11:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "17:00",
-          },
-          {
-            from: "10:00",
-            to: "13:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Olivia is a passionate tour guide with extensive knowledge of Florence and Italy. Specializing in Religious Sites, Local Markets, Local Cuisine, Local Craftsmanship, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
@@ -187,43 +100,7 @@ export const florenceitalymediterraneanGuides: TourGuide[] = [
     licenseNumber: "LIC-2071-FLO",
     phoneNumber: "+1-926-771-7647",
     contactEmail: "abigail.mitchell@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "19:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "14:00",
-          },
-          {
-            from: "13:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "10:00",
-          },
-          {
-            from: "15:00",
-            to: "18:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Abigail is a passionate tour guide with extensive knowledge of Florence and Italy. Specializing in Hidden Gems, Photography Spots, Wildlife, Indigenous Culture, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
@@ -234,6 +111,208 @@ export const florenceitalymediterraneanGuides: TourGuide[] = [
     experienceYears: 9,
     certifications: ["Urban Navigation Specialist", "Food Safety Certification"],
     specialties: ["Hidden Gems", "Photography Spots", "Wildlife", "Indigenous Culture"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-florence-5",
+    name: "Olivia Davis",
+    city: "Florence",
+    country: "Italy",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Olivia is a passionate tour guide with extensive knowledge of Florence and Italy. Specializing in Local Cuisine, Hidden Gems, Wine Tasting, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East"],
+    tourTypes: ["Family-Friendly Tour", "Nature Tour", "Wildlife Safari", "Adventure Tour"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-1706-FLO",
+    phoneNumber: "+1-820-408-3155",
+    contactEmail: "olivia.davis@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "18:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "12:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "16:00",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "11:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Olivia is a passionate tour guide with extensive knowledge of Florence and Italy. Specializing in Local Cuisine, Hidden Gems, Wine Tasting, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4,
+    reviewsCount: 75,
+    quote: "The best way to discover Florence is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/66.jpg",
+    languages: ["Korean", "German", "Mandarin"],
+    experienceYears: 16,
+    certifications: ["Heritage Interpretation Certificate", "Eco-Tourism Guide"],
+    specialties: ["Local Cuisine", "Hidden Gems", "Wine Tasting"],
+    specialTraining: ["Local Transit Systems"],
+  },
+  {
+    id: "guide-florence-6",
+    name: "Emma Ramirez",
+    city: "Florence",
+    country: "Italy",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Emma is a passionate tour guide with extensive knowledge of Florence and Italy. Specializing in Parks & Gardens, Historical Landmarks, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa", "Asia Pacific"],
+    tourTypes: ["LGBTQ+ Friendly Tour", "Bike Tour"],
+    maxGroupSize: 12,
+    licenseNumber: "LIC-1031-FLO",
+    phoneNumber: "+1-307-198-6738",
+    contactEmail: "emma.ramirez@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "18:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "18:00",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "15:00",
+          },
+          {
+            from: "13:00",
+            to: "19:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Emma is a passionate tour guide with extensive knowledge of Florence and Italy. Specializing in Parks & Gardens, Historical Landmarks, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 20,
+    quote: "Florence isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/44.jpg",
+    languages: ["Portuguese", "Finnish"],
+    experienceYears: 2,
+    certifications: ["Wilderness First Responder", "Sustainable Tourism Certificate"],
+    specialties: ["Parks & Gardens", "Historical Landmarks"],
+    specialTraining: ["Group Management", "Wine Education"],
+  },
+  {
+    id: "guide-florence-7",
+    name: "James Young",
+    city: "Florence",
+    country: "Italy",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "James is a passionate tour guide with extensive knowledge of Florence and Italy. Specializing in Adventure Sports, Wildlife, James provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America", "Asia Pacific"],
+    tourTypes: ["Group Tour", "Wine Tour", "Audio Tour", "Wildlife Safari"],
+    maxGroupSize: 8,
+    licenseNumber: "LIC-6851-FLO",
+    phoneNumber: "+1-557-436-5551",
+    contactEmail: "james.young@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "15:00",
+          },
+          {
+            from: "11:00",
+            to: "17:00",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "16:00",
+          },
+          {
+            from: "12:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "14:00",
+          },
+          {
+            from: "15:00",
+            to: "17:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "James is a passionate tour guide with extensive knowledge of Florence and Italy. Specializing in Adventure Sports, Wildlife, James provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.9,
+    reviewsCount: 97,
+    quote: "In Florence, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/38.jpg",
+    languages: ["Italian"],
+    experienceYears: 11,
+    certifications: ["Certified International Tour Manager"],
+    specialties: ["Adventure Sports", "Wildlife"],
     specialTraining: [],
   }
 ];

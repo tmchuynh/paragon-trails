@@ -16,61 +16,7 @@ export const nassaubahamascaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-4873-NAS",
     phoneNumber: "+1-411-618-7579",
     contactEmail: "aiden.lee@paragontrails.com",
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "11:00",
-          },
-          {
-            from: "10:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "20:00",
-          },
-          {
-            from: "13:00",
-            to: "18:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "16:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Aiden is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Wine Tasting, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
@@ -98,43 +44,7 @@ export const nassaubahamascaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-6625-NAS",
     phoneNumber: "+1-160-558-1914",
     contactEmail: "joseph.wilson@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "17:00",
-          },
-          {
-            from: "10:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "13:00",
-          },
-          {
-            from: "12:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "13:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Joseph is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Film Locations, Family Activities, Wildlife, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
@@ -162,52 +72,7 @@ export const nassaubahamascaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-7197-NAS",
     phoneNumber: "+1-597-759-3877",
     contactEmail: "penelope.wright@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "12:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "21:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "14:00",
-          },
-          {
-            from: "09:00",
-            to: "11:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "15:00",
-          },
-          {
-            from: "12:00",
-            to: "17:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Penelope is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Local Markets, Urban Legends, Wine Tasting, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
@@ -235,60 +100,7 @@ export const nassaubahamascaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-6123-NAS",
     phoneNumber: "+1-510-663-4470",
     contactEmail: "madison.ramirez@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "16:00",
-          },
-          {
-            from: "10:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "11:00",
-          },
-          {
-            from: "08:00",
-            to: "12:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "16:00",
-          },
-          {
-            from: "10:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "20:00",
-          },
-          {
-            from: "08:00",
-            to: "11:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Madison is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Photography Spots, Street Food, Wildlife, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
@@ -316,61 +128,7 @@ export const nassaubahamascaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-1556-NAS",
     phoneNumber: "+1-653-551-7263",
     contactEmail: "chloe.jackson@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "17:00",
-          },
-          {
-            from: "13:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "19:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "21:00",
-          },
-          {
-            from: "10:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "15:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Chloe is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Local Craftsmanship, Public Transportation Navigation, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
@@ -382,5 +140,180 @@ export const nassaubahamascaribbeanGuides: TourGuide[] = [
     certifications: ["Cultural Heritage Specialist", "Licensed City Guide"],
     specialties: ["Local Craftsmanship", "Public Transportation Navigation"],
     specialTraining: ["Emergency Response", "Desert Navigation"],
+  },
+  {
+    id: "guide-nassau-6",
+    name: "Riley King",
+    city: "Nassau",
+    country: "Bahamas",
+    state: "",
+    region: "Caribbean",
+    isPopular: false,
+    bio: "Riley is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Photography Spots, Wine Tasting, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast USA", "Caribbean"],
+    tourTypes: ["Cooking Class", "Market Tour", "Wine Tour"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-7872-NAS",
+    phoneNumber: "+1-111-698-8886",
+    contactEmail: "riley.king@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "15:00",
+          },
+          {
+            from: "14:00",
+            to: "20:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "15:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Riley is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Photography Spots, Wine Tasting, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 50,
+    quote: "My goal is to help you fall in love with Nassau just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/7.jpg",
+    languages: ["Czech", "Swedish"],
+    experienceYears: 3,
+    certifications: ["Certified International Tour Manager"],
+    specialties: ["Photography Spots", "Wine Tasting"],
+    specialTraining: ["Local Flora & Fauna"],
+  },
+  {
+    id: "guide-nassau-7",
+    name: "Liam Carter",
+    city: "Nassau",
+    country: "Bahamas",
+    state: "",
+    region: "Caribbean",
+    isPopular: false,
+    bio: "Liam is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Art Galleries, Nightlife, Film Locations, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Mediterranean", "Northern Europe"],
+    tourTypes: ["Relocation Tour", "Romantic Tour", "Cruise Excursion", "Craft Workshop"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-9689-NAS",
+    phoneNumber: "+1-818-230-2586",
+    contactEmail: "liam.carter@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "12:00",
+          },
+          {
+            from: "12:00",
+            to: "16:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "13:00",
+          },
+          {
+            from: "10:00",
+            to: "16:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "20:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "13:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Liam is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Art Galleries, Nightlife, Film Locations, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 60,
+    quote: "Every corner of Nassau tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/5.jpg",
+    languages: ["Norwegian"],
+    experienceYears: 13,
+    certifications: ["CPR & First Aid", "Local History Certification"],
+    specialties: ["Art Galleries", "Nightlife", "Film Locations"],
+    specialTraining: ["Wine Education"],
+  },
+  {
+    id: "guide-nassau-8",
+    name: "Evelyn Davis",
+    city: "Nassau",
+    country: "Bahamas",
+    state: "",
+    region: "Caribbean",
+    isPopular: false,
+    bio: "Evelyn is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Art Galleries, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada"],
+    tourTypes: ["Historical Tour", "Underground Tour"],
+    maxGroupSize: 7,
+    licenseNumber: "LIC-5128-NAS",
+    phoneNumber: "+1-330-517-3964",
+    contactEmail: "evelyn.davis@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "14:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "14:00",
+          },
+          {
+            from: "13:00",
+            to: "16:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Evelyn is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Art Galleries, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.7,
+    reviewsCount: 62,
+    quote: "Every corner of Nassau tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/79.jpg",
+    languages: ["Mandarin", "Cantonese"],
+    experienceYears: 3,
+    certifications: ["Urban Navigation Specialist", "Regional Tourism Ambassador"],
+    specialties: ["Art Galleries"],
+    specialTraining: ["Local Flora & Fauna", "Photography"],
   }
 ];

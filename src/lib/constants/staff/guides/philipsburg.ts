@@ -16,61 +16,7 @@ export const philipsburgsintMaartencaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-5460-PHI",
     phoneNumber: "+1-263-604-9906",
     contactEmail: "jacob.davis@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "12:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "14:00",
-          },
-          {
-            from: "13:00",
-            to: "19:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "16:00",
-          },
-          {
-            from: "09:00",
-            to: "12:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "10:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Jacob is a passionate tour guide with extensive knowledge of Philipsburg and Sint Maarten. Specializing in Public Transportation Navigation, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
@@ -98,43 +44,7 @@ export const philipsburgsintMaartencaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-2456-PHI",
     phoneNumber: "+1-406-340-7306",
     contactEmail: "alexander.davis@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "19:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "20:00",
-          },
-          {
-            from: "13:00",
-            to: "19:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00",
-          },
-          {
-            from: "09:00",
-            to: "13:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Alexander is a passionate tour guide with extensive knowledge of Philipsburg and Sint Maarten. Specializing in Wildlife, Local Markets, Architecture, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
@@ -162,65 +72,7 @@ export const philipsburgsintMaartencaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-7866-PHI",
     phoneNumber: "+1-141-525-6762",
     contactEmail: "mia.davis@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "15:00",
-          },
-          {
-            from: "15:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "12:00",
-          },
-          {
-            from: "08:00",
-            to: "11:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "17:00",
-          },
-          {
-            from: "15:00",
-            to: "20:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "19:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "14:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Mia is a passionate tour guide with extensive knowledge of Philipsburg and Sint Maarten. Specializing in Public Transportation Navigation, Street Food, Music Scene, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
@@ -248,39 +100,7 @@ export const philipsburgsintMaartencaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-1282-PHI",
     phoneNumber: "+1-709-624-6206",
     contactEmail: "alexander.harris@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "12:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "18:00",
-          },
-          {
-            from: "13:00",
-            to: "17:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Alexander is a passionate tour guide with extensive knowledge of Philipsburg and Sint Maarten. Specializing in Public Transportation Navigation, Adventure Sports, Photography Spots, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
@@ -308,43 +128,7 @@ export const philipsburgsintMaartencaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-5454-PHI",
     phoneNumber: "+1-122-265-7911",
     contactEmail: "elijah.jackson@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "17:00",
-          },
-          {
-            from: "09:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "21:00",
-          },
-          {
-            from: "14:00",
-            to: "19:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Elijah is a passionate tour guide with extensive knowledge of Philipsburg and Sint Maarten. Specializing in Parks & Gardens, Art Galleries, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
@@ -372,43 +156,7 @@ export const philipsburgsintMaartencaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-5023-PHI",
     phoneNumber: "+1-102-712-4880",
     contactEmail: "elijah.rodriguez@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "12:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "12:00",
-          },
-          {
-            from: "13:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "16:00",
-          },
-          {
-            from: "11:00",
-            to: "16:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Elijah is a passionate tour guide with extensive knowledge of Philipsburg and Sint Maarten. Specializing in Museums, Family Activities, Architecture, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
@@ -419,6 +167,215 @@ export const philipsburgsintMaartencaribbeanGuides: TourGuide[] = [
     experienceYears: 11,
     certifications: ["Wilderness First Responder"],
     specialties: ["Museums", "Family Activities", "Architecture"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-philipsburg-7",
+    name: "Layla Ramirez",
+    city: "Philipsburg",
+    country: "Sint Maarten",
+    state: "",
+    region: "Caribbean",
+    isPopular: false,
+    bio: "Layla is a passionate tour guide with extensive knowledge of Philipsburg and Sint Maarten. Specializing in Music Scene, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Alaska"],
+    tourTypes: ["Romantic Tour", "Museum Tour", "Private Tour", "Nature Tour"],
+    maxGroupSize: 11,
+    licenseNumber: "LIC-7533-PHI",
+    phoneNumber: "+1-684-341-2163",
+    contactEmail: "layla.ramirez@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "18:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "20:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "17:00",
+          },
+          {
+            from: "08:00",
+            to: "11:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "12:00",
+          },
+          {
+            from: "08:00",
+            to: "12:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Layla is a passionate tour guide with extensive knowledge of Philipsburg and Sint Maarten. Specializing in Music Scene, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 25,
+    quote: "In Philipsburg, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/30.jpg",
+    languages: ["Dutch"],
+    experienceYears: 4,
+    certifications: ["Local History Certification", "Food Safety Certification", "Cultural Heritage Specialist"],
+    specialties: ["Music Scene"],
+    specialTraining: ["Art History", "Marine Biology"],
+  },
+  {
+    id: "guide-philipsburg-8",
+    name: "Ethan Hall",
+    city: "Philipsburg",
+    country: "Sint Maarten",
+    state: "",
+    region: "Caribbean",
+    isPopular: true,
+    bio: "Ethan is a passionate tour guide with extensive knowledge of Philipsburg and Sint Maarten. Specializing in Street Food, Religious Sites, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["West Coast USA", "Asia Pacific"],
+    tourTypes: ["Photography Tour", "Off-Road Tour", "Helicopter Tour"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-1873-PHI",
+    phoneNumber: "+1-237-798-2093",
+    contactEmail: "ethan.hall@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "18:00",
+          },
+          {
+            from: "08:00",
+            to: "12:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "17:00",
+          },
+          {
+            from: "11:00",
+            to: "14:00",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "15:00",
+          },
+          {
+            from: "11:00",
+            to: "17:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "13:00",
+          },
+          {
+            from: "12:00",
+            to: "18:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Ethan is a passionate tour guide with extensive knowledge of Philipsburg and Sint Maarten. Specializing in Street Food, Religious Sites, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.5,
+    reviewsCount: 86,
+    quote: "In Philipsburg, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/12.jpg",
+    languages: ["Swahili"],
+    experienceYears: 6,
+    certifications: ["Licensed City Guide"],
+    specialties: ["Street Food", "Religious Sites"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-philipsburg-9",
+    name: "Ella Smith",
+    city: "Philipsburg",
+    country: "Sint Maarten",
+    state: "",
+    region: "Caribbean",
+    isPopular: false,
+    bio: "Ella is a passionate tour guide with extensive knowledge of Philipsburg and Sint Maarten. Specializing in Wildlife, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean"],
+    tourTypes: ["Accessible Tour", "Off-Road Tour", "Relocation Tour", "Shopping Tour"],
+    maxGroupSize: 14,
+    licenseNumber: "LIC-8283-PHI",
+    phoneNumber: "+1-442-359-5245",
+    contactEmail: "ella.smith@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "14:00",
+          },
+          {
+            from: "08:00",
+            to: "11:00",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "13:00",
+          },
+          {
+            from: "13:00",
+            to: "15:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Ella is a passionate tour guide with extensive knowledge of Philipsburg and Sint Maarten. Specializing in Wildlife, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.8,
+    reviewsCount: 64,
+    quote: "Every corner of Philipsburg tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/10.jpg",
+    languages: ["Malay", "Danish", "Czech"],
+    experienceYears: 3,
+    certifications: ["Eco-Tourism Guide"],
+    specialties: ["Wildlife"],
     specialTraining: [],
   }
 ];

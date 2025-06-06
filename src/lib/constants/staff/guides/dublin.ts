@@ -16,30 +16,7 @@ export const dublinirelandnorthernEuropeGuides: TourGuide[] = [
     licenseNumber: "LIC-8611-DUB",
     phoneNumber: "+1-326-807-9969",
     contactEmail: "madison.martinez@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "18:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "12:00",
-          },
-          {
-            from: "15:00",
-            to: "17:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Madison is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Local Craftsmanship, Wildlife, Urban Legends, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 5,
@@ -67,52 +44,7 @@ export const dublinirelandnorthernEuropeGuides: TourGuide[] = [
     licenseNumber: "LIC-1616-DUB",
     phoneNumber: "+1-856-744-5404",
     contactEmail: "elijah.torres@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "14:00",
-          },
-          {
-            from: "10:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "14:00",
-          },
-          {
-            from: "14:00",
-            to: "19:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "13:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Elijah is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Wine Tasting, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
@@ -140,43 +72,7 @@ export const dublinirelandnorthernEuropeGuides: TourGuide[] = [
     licenseNumber: "LIC-6298-DUB",
     phoneNumber: "+1-212-717-5769",
     contactEmail: "amelia.green@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "19:00",
-          },
-          {
-            from: "08:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "16:00",
-          },
-          {
-            from: "09:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "15:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Amelia is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Sustainable Tourism, Art Galleries, Local Markets, Adventure Sports, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
@@ -204,35 +100,7 @@ export const dublinirelandnorthernEuropeGuides: TourGuide[] = [
     licenseNumber: "LIC-8494-DUB",
     phoneNumber: "+1-833-813-3196",
     contactEmail: "victoria.martin@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "14:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Victoria is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Wine Tasting, Museums, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.5,
@@ -260,43 +128,7 @@ export const dublinirelandnorthernEuropeGuides: TourGuide[] = [
     licenseNumber: "LIC-7230-DUB",
     phoneNumber: "+1-244-394-2816",
     contactEmail: "penelope.lewis@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "12:00",
-          },
-          {
-            from: "08:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "17:00",
-          },
-          {
-            from: "10:00",
-            to: "15:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Penelope is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Film Locations, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
@@ -324,61 +156,7 @@ export const dublinirelandnorthernEuropeGuides: TourGuide[] = [
     licenseNumber: "LIC-7148-DUB",
     phoneNumber: "+1-201-469-7638",
     contactEmail: "daniel.clark@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "11:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "13:00",
-          },
-          {
-            from: "14:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "17:00",
-          },
-          {
-            from: "10:00",
-            to: "15:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Daniel is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Nightlife, Wine Tasting, Local Markets, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
@@ -390,5 +168,223 @@ export const dublinirelandnorthernEuropeGuides: TourGuide[] = [
     certifications: ["Local History Certification", "Eco-Tourism Guide", "CPR & First Aid"],
     specialties: ["Nightlife", "Wine Tasting", "Local Markets"],
     specialTraining: ["Art History"],
+  },
+  {
+    id: "guide-dublin-7",
+    name: "Chloe Lopez",
+    city: "Dublin",
+    country: "Ireland",
+    state: "",
+    region: "Northern Europe",
+    isPopular: false,
+    bio: "Chloe is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Local Markets, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific"],
+    tourTypes: ["Scenic Tour", "Brewery Tour", "Off-Road Tour"],
+    maxGroupSize: 11,
+    licenseNumber: "LIC-4971-DUB",
+    phoneNumber: "+1-288-807-7939",
+    contactEmail: "chloe.lopez@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "19:00",
+          },
+          {
+            from: "09:00",
+            to: "11:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "17:00",
+          },
+          {
+            from: "12:00",
+            to: "18:00",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "18:00",
+          },
+          {
+            from: "09:00",
+            to: "13:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "16:00",
+          },
+          {
+            from: "09:00",
+            to: "14:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Chloe is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Local Markets, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 98,
+    quote: "Every corner of Dublin tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/49.jpg",
+    languages: ["Swedish"],
+    experienceYears: 16,
+    certifications: ["Certified International Tour Manager", "Heritage Interpretation Certificate"],
+    specialties: ["Local Markets"],
+    specialTraining: ["Urban Planning", "Emergency Response"],
+  },
+  {
+    id: "guide-dublin-8",
+    name: "Isabella Hall",
+    city: "Dublin",
+    country: "Ireland",
+    state: "",
+    region: "Northern Europe",
+    isPopular: false,
+    bio: "Isabella is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Parks & Gardens, Photography Spots, Wildlife, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["West Coast USA", "East Coast Canada"],
+    tourTypes: ["Craft Workshop", "Cruise Excursion", "Architecture Tour", "Relocation Tour"],
+    maxGroupSize: 14,
+    licenseNumber: "LIC-8411-DUB",
+    phoneNumber: "+1-312-709-7238",
+    contactEmail: "isabella.hall@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "15:00",
+          },
+          {
+            from: "10:00",
+            to: "14:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "13:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "16:00",
+          },
+          {
+            from: "12:00",
+            to: "18:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Isabella is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Parks & Gardens, Photography Spots, Wildlife, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.6,
+    reviewsCount: 27,
+    quote: "The best way to discover Dublin is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/52.jpg",
+    languages: ["Swahili", "Tagalog"],
+    experienceYears: 10,
+    certifications: ["CPR & First Aid"],
+    specialties: ["Parks & Gardens", "Photography Spots", "Wildlife"],
+    specialTraining: ["Cultural Sensitivity"],
+  },
+  {
+    id: "guide-dublin-9",
+    name: "Joseph Taylor",
+    city: "Dublin",
+    country: "Ireland",
+    state: "",
+    region: "Northern Europe",
+    isPopular: false,
+    bio: "Joseph is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Street Food, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Mediterranean"],
+    tourTypes: ["Religious Tour", "Adventure Tour", "Boat Tour", "Underground Tour"],
+    maxGroupSize: 12,
+    licenseNumber: "LIC-3269-DUB",
+    phoneNumber: "+1-757-429-7498",
+    contactEmail: "joseph.taylor@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "13:00",
+          },
+          {
+            from: "09:00",
+            to: "12:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "16:00",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "15:00",
+          },
+          {
+            from: "11:00",
+            to: "13:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Joseph is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Street Food, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.4,
+    reviewsCount: 42,
+    quote: "Dublin isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/70.jpg",
+    languages: ["Greek"],
+    experienceYears: 4,
+    certifications: ["CPR & First Aid"],
+    specialties: ["Street Food"],
+    specialTraining: [],
   }
 ];

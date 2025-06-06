@@ -16,43 +16,7 @@ export const vancouvercanadaalaskaGuides: TourGuide[] = [
     licenseNumber: "LIC-2574-VAN",
     phoneNumber: "+1-153-743-1666",
     contactEmail: "emma.martin@paragontrails.com",
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "17:00",
-          },
-          {
-            from: "14:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "13:00",
-          },
-          {
-            from: "08:00",
-            to: "13:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Emma is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Sustainable Tourism, Indigenous Culture, Film Locations, Local Markets, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
@@ -80,47 +44,7 @@ export const vancouvercanadaalaskaGuides: TourGuide[] = [
     licenseNumber: "LIC-2806-VAN",
     phoneNumber: "+1-188-654-1269",
     contactEmail: "ethan.roberts@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "13:00",
-          },
-          {
-            from: "14:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "19:00",
-          },
-          {
-            from: "10:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "12:00",
-          },
-          {
-            from: "14:00",
-            to: "17:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Ethan is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Photography Spots, Local Markets, Indigenous Culture, Film Locations, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
@@ -148,43 +72,7 @@ export const vancouvercanadaalaskaGuides: TourGuide[] = [
     licenseNumber: "LIC-4395-VAN",
     phoneNumber: "+1-322-193-9071",
     contactEmail: "carter.nguyen@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "17:00",
-          },
-          {
-            from: "11:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "15:00",
-          },
-          {
-            from: "13:00",
-            to: "18:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Carter is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Local Craftsmanship, Music Scene, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
@@ -212,39 +100,7 @@ export const vancouvercanadaalaskaGuides: TourGuide[] = [
     licenseNumber: "LIC-4403-VAN",
     phoneNumber: "+1-746-970-1021",
     contactEmail: "aria.miller@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "18:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "14:00",
-          },
-          {
-            from: "13:00",
-            to: "15:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Aria is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Indigenous Culture, Wine Tasting, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
@@ -272,48 +128,7 @@ export const vancouvercanadaalaskaGuides: TourGuide[] = [
     licenseNumber: "LIC-6059-VAN",
     phoneNumber: "+1-651-486-5608",
     contactEmail: "carter.hall@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "20:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "15:00",
-          },
-          {
-            from: "12:00",
-            to: "14:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Carter is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in LGBTQ+ History, Religious Sites, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
@@ -341,57 +156,7 @@ export const vancouvercanadaalaskaGuides: TourGuide[] = [
     licenseNumber: "LIC-5827-VAN",
     phoneNumber: "+1-501-880-8230",
     contactEmail: "aria.nguyen@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "13:00",
-          },
-          {
-            from: "15:00",
-            to: "20:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "18:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "17:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Aria is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Wildlife, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
@@ -403,5 +168,197 @@ export const vancouvercanadaalaskaGuides: TourGuide[] = [
     certifications: ["Wilderness First Responder"],
     specialties: ["Wildlife"],
     specialTraining: [],
+  },
+  {
+    id: "guide-vancouver-7",
+    name: "Charlotte Hall",
+    city: "Vancouver",
+    country: "Canada",
+    state: "",
+    region: "Alaska",
+    isPopular: true,
+    bio: "Charlotte is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in LGBTQ+ History, Local Craftsmanship, Urban Legends, Parks & Gardens, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East"],
+    tourTypes: ["Shopping Tour", "Museum Tour", "Craft Workshop", "Relocation Tour", "Cruise Excursion"],
+    maxGroupSize: 17,
+    licenseNumber: "LIC-9331-VAN",
+    phoneNumber: "+1-708-196-8441",
+    contactEmail: "charlotte.hall@paragontrails.com",
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "13:00",
+          },
+          {
+            from: "14:00",
+            to: "19:00",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "14:00",
+          },
+          {
+            from: "09:00",
+            to: "11:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Charlotte is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in LGBTQ+ History, Local Craftsmanship, Urban Legends, Parks & Gardens, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.9,
+    reviewsCount: 69,
+    quote: "The best way to discover Vancouver is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/72.jpg",
+    languages: ["Serbian", "Spanish", "Dutch"],
+    experienceYears: 7,
+    certifications: ["Regional Tourism Ambassador", "Eco-Tourism Guide", "Licensed City Guide"],
+    specialties: ["LGBTQ+ History", "Local Craftsmanship", "Urban Legends", "Parks & Gardens"],
+    specialTraining: ["Conflict Resolution", "Photography"],
+  },
+  {
+    id: "guide-vancouver-8",
+    name: "James Lee",
+    city: "Vancouver",
+    country: "Canada",
+    state: "",
+    region: "Alaska",
+    isPopular: true,
+    bio: "James is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Film Locations, Hidden Gems, James provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa"],
+    tourTypes: ["Bike Tour", "Cultural Tour", "Market Tour"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-5409-VAN",
+    phoneNumber: "+1-399-521-5716",
+    contactEmail: "james.lee@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "15:00",
+          },
+          {
+            from: "14:00",
+            to: "16:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "19:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "18:00",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "15:00",
+          },
+          {
+            from: "08:00",
+            to: "10:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "James is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Film Locations, Hidden Gems, James provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.7,
+    reviewsCount: 77,
+    quote: "My goal is to help you fall in love with Vancouver just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/0.jpg",
+    languages: ["Croatian"],
+    experienceYears: 2,
+    certifications: ["Language Proficiency Certification", "Eco-Tourism Guide"],
+    specialties: ["Film Locations", "Hidden Gems"],
+    specialTraining: ["Urban Planning", "Historical Research Methods"],
+  },
+  {
+    id: "guide-vancouver-9",
+    name: "Elijah Gonzalez",
+    city: "Vancouver",
+    country: "Canada",
+    state: "",
+    region: "Alaska",
+    isPopular: false,
+    bio: "Elijah is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Film Locations, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Alaska"],
+    tourTypes: ["Shopping Tour", "Craft Workshop", "Audio Tour"],
+    maxGroupSize: 8,
+    licenseNumber: "LIC-5243-VAN",
+    phoneNumber: "+1-738-323-5049",
+    contactEmail: "elijah.gonzalez@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "16:00",
+          },
+          {
+            from: "15:00",
+            to: "17:00",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "12:00",
+          },
+          {
+            from: "12:00",
+            to: "14:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "13:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Elijah is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Film Locations, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.8,
+    reviewsCount: 73,
+    quote: "Vancouver isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/39.jpg",
+    languages: ["Italian", "Bulgarian"],
+    experienceYears: 10,
+    certifications: ["Language Proficiency Certification"],
+    specialties: ["Film Locations"],
+    specialTraining: ["Marine Biology"],
   }
 ];

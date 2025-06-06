@@ -16,26 +16,7 @@ export const romeitalymediterraneanGuides: TourGuide[] = [
     licenseNumber: "LIC-4116-ROM",
     phoneNumber: "+1-545-384-3769",
     contactEmail: "sebastian.rivera@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "14:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Sebastian is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in LGBTQ+ History, Film Locations, Public Transportation Navigation, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 5,
@@ -63,61 +44,7 @@ export const romeitalymediterraneanGuides: TourGuide[] = [
     licenseNumber: "LIC-8969-ROM",
     phoneNumber: "+1-250-731-1282",
     contactEmail: "jacob.nguyen@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "18:00",
-          },
-          {
-            from: "12:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "16:00",
-          },
-          {
-            from: "10:00",
-            to: "12:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Jacob is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Cultural Etiquette, Wildlife, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
@@ -145,30 +72,7 @@ export const romeitalymediterraneanGuides: TourGuide[] = [
     licenseNumber: "LIC-8616-ROM",
     phoneNumber: "+1-906-292-2954",
     contactEmail: "sofia.brown@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "13:00",
-          },
-          {
-            from: "12:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "13:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Sofia is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Photography Spots, Urban Legends, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
@@ -196,56 +100,7 @@ export const romeitalymediterraneanGuides: TourGuide[] = [
     licenseNumber: "LIC-4378-ROM",
     phoneNumber: "+1-876-563-6517",
     contactEmail: "madison.campbell@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "15:00",
-          },
-          {
-            from: "11:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "15:00",
-          },
-          {
-            from: "14:00",
-            to: "18:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "12:00",
-          },
-          {
-            from: "10:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "18:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Madison is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Cultural Etiquette, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
@@ -257,5 +112,215 @@ export const romeitalymediterraneanGuides: TourGuide[] = [
     certifications: ["Language Proficiency Certification"],
     specialties: ["Cultural Etiquette"],
     specialTraining: ["Religious Studies", "Cultural Sensitivity"],
+  },
+  {
+    id: "guide-rome-5",
+    name: "Zoe Anderson",
+    city: "Rome",
+    country: "Italy",
+    state: "",
+    region: "Mediterranean",
+    isPopular: true,
+    bio: "Zoe is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Adventure Sports, Parks & Gardens, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America"],
+    tourTypes: ["Nature Tour", "Accessible Tour", "LGBTQ+ Friendly Tour", "Market Tour", "Private Tour"],
+    maxGroupSize: 12,
+    licenseNumber: "LIC-1749-ROM",
+    phoneNumber: "+1-495-811-8581",
+    contactEmail: "zoe.anderson@paragontrails.com",
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "14:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "19:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "18:00",
+          },
+          {
+            from: "14:00",
+            to: "20:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Zoe is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Adventure Sports, Parks & Gardens, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.9,
+    reviewsCount: 63,
+    quote: "Rome isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/39.jpg",
+    languages: ["Danish", "Portuguese"],
+    experienceYears: 14,
+    certifications: ["Wilderness First Responder", "Sustainable Tourism Certificate", "Language Proficiency Certification"],
+    specialties: ["Adventure Sports", "Parks & Gardens"],
+    specialTraining: ["Historical Research Methods"],
+  },
+  {
+    id: "guide-rome-6",
+    name: "Emma Taylor",
+    city: "Rome",
+    country: "Italy",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Emma is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Wine Tasting, Public Transportation Navigation, Historical Landmarks, Local Craftsmanship, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa", "West Coast USA"],
+    tourTypes: ["Festival Tour", "Luxury Tour"],
+    maxGroupSize: 8,
+    licenseNumber: "LIC-1511-ROM",
+    phoneNumber: "+1-898-797-8277",
+    contactEmail: "emma.taylor@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "15:00",
+          },
+          {
+            from: "10:00",
+            to: "14:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "17:00",
+          },
+          {
+            from: "13:00",
+            to: "17:00",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "11:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "13:00",
+          },
+          {
+            from: "14:00",
+            to: "19:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "14:00",
+          },
+          {
+            from: "12:00",
+            to: "14:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "17:00",
+          },
+          {
+            from: "11:00",
+            to: "15:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Emma is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Wine Tasting, Public Transportation Navigation, Historical Landmarks, Local Craftsmanship, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.9,
+    reviewsCount: 104,
+    quote: "Rome isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/55.jpg",
+    languages: ["Swahili"],
+    experienceYears: 15,
+    certifications: ["Sustainable Tourism Certificate", "CPR & First Aid"],
+    specialties: ["Wine Tasting", "Public Transportation Navigation", "Historical Landmarks", "Local Craftsmanship"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-rome-7",
+    name: "Riley Rivera",
+    city: "Rome",
+    country: "Italy",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Riley is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Religious Sites, Family Activities, Music Scene, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean", "East Coast Canada"],
+    tourTypes: ["Festival Tour", "Audio Tour", "Wine Tour", "Shopping Tour", "Adventure Tour"],
+    maxGroupSize: 17,
+    licenseNumber: "LIC-4443-ROM",
+    phoneNumber: "+1-598-869-7946",
+    contactEmail: "riley.rivera@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "18:00",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "19:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Riley is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Religious Sites, Family Activities, Music Scene, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 68,
+    quote: "My goal is to help you fall in love with Rome just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/58.jpg",
+    languages: ["Spanish", "Serbian", "Danish"],
+    experienceYears: 15,
+    certifications: ["Certified International Tour Manager", "Wilderness First Responder", "Food Safety Certification"],
+    specialties: ["Religious Sites", "Family Activities", "Music Scene"],
+    specialTraining: [],
   }
 ];

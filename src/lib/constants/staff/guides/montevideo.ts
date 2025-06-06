@@ -16,69 +16,7 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
     licenseNumber: "LIC-6680-MON",
     phoneNumber: "+1-461-277-9351",
     contactEmail: "liam.miller@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "19:00",
-          },
-          {
-            from: "13:00",
-            to: "19:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "18:00",
-          },
-          {
-            from: "11:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "17:00",
-          },
-          {
-            from: "11:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00",
-          },
-          {
-            from: "13:00",
-            to: "19:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Liam is a passionate tour guide with extensive knowledge of Montevideo and Uruguay. Specializing in Public Transportation Navigation, Local Craftsmanship, Wildlife, Parks & Gardens, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
@@ -106,60 +44,7 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
     licenseNumber: "LIC-9187-MON",
     phoneNumber: "+1-728-207-8984",
     contactEmail: "alexander.flores@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "12:00",
-          },
-          {
-            from: "09:00",
-            to: "11:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "20:00",
-          },
-          {
-            from: "15:00",
-            to: "20:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "15:00",
-          },
-          {
-            from: "12:00",
-            to: "18:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "14:00",
-          },
-          {
-            from: "11:00",
-            to: "14:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Alexander is a passionate tour guide with extensive knowledge of Montevideo and Uruguay. Specializing in Parks & Gardens, Music Scene, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
@@ -187,39 +72,7 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
     licenseNumber: "LIC-4190-MON",
     phoneNumber: "+1-479-543-7972",
     contactEmail: "lucas.smith@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "17:00",
-          },
-          {
-            from: "10:00",
-            to: "12:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "12:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Lucas is a passionate tour guide with extensive knowledge of Montevideo and Uruguay. Specializing in Art Galleries, Museums, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
@@ -247,39 +100,7 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
     licenseNumber: "LIC-7941-MON",
     phoneNumber: "+1-310-345-7210",
     contactEmail: "isabella.thomas@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "19:00",
-          },
-          {
-            from: "12:00",
-            to: "14:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Isabella is a passionate tour guide with extensive knowledge of Montevideo and Uruguay. Specializing in Indigenous Culture, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
@@ -307,56 +128,7 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
     licenseNumber: "LIC-1829-MON",
     phoneNumber: "+1-730-162-4972",
     contactEmail: "lucas.white@paragontrails.com",
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "11:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "13:00",
-          },
-          {
-            from: "15:00",
-            to: "18:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "17:00",
-          },
-          {
-            from: "12:00",
-            to: "18:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "20:00",
-          },
-          {
-            from: "14:00",
-            to: "17:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Lucas is a passionate tour guide with extensive knowledge of Montevideo and Uruguay. Specializing in Public Transportation Navigation, Local Cuisine, Photography Spots, Family Activities, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
@@ -368,5 +140,207 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
     certifications: ["Eco-Tourism Guide", "Sustainable Tourism Certificate"],
     specialties: ["Public Transportation Navigation", "Local Cuisine", "Photography Spots", "Family Activities"],
     specialTraining: ["Art History", "Cultural Sensitivity"],
+  },
+  {
+    id: "guide-montevideo-6",
+    name: "Emma Roberts",
+    city: "Montevideo",
+    country: "Uruguay",
+    state: "",
+    region: "South America",
+    isPopular: false,
+    bio: "Emma is a passionate tour guide with extensive knowledge of Montevideo and Uruguay. Specializing in Photography Spots, Family Activities, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast USA", "Asia Pacific"],
+    tourTypes: ["Private Tour", "Festival Tour", "Cultural Tour", "Street Art Tour"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-3562-MON",
+    phoneNumber: "+1-141-845-4641",
+    contactEmail: "emma.roberts@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "17:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "14:00",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "16:00",
+          },
+          {
+            from: "14:00",
+            to: "20:00",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "16:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "14:00",
+          },
+          {
+            from: "10:00",
+            to: "15:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Emma is a passionate tour guide with extensive knowledge of Montevideo and Uruguay. Specializing in Photography Spots, Family Activities, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.2,
+    reviewsCount: 53,
+    quote: "The best way to discover Montevideo is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/39.jpg",
+    languages: ["Croatian", "Czech", "Hindi"],
+    experienceYears: 5,
+    certifications: ["CPR & First Aid", "Cultural Heritage Specialist"],
+    specialties: ["Photography Spots", "Family Activities"],
+    specialTraining: ["Religious Studies"],
+  },
+  {
+    id: "guide-montevideo-7",
+    name: "Sophia Baker",
+    city: "Montevideo",
+    country: "Uruguay",
+    state: "",
+    region: "South America",
+    isPopular: false,
+    bio: "Sophia is a passionate tour guide with extensive knowledge of Montevideo and Uruguay. Specializing in Local Cuisine, Local Markets, Indigenous Culture, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America"],
+    tourTypes: ["Adventure Tour", "Boat Tour", "Private Tour", "LGBTQ+ Friendly Tour", "Romantic Tour"],
+    maxGroupSize: 5,
+    licenseNumber: "LIC-4776-MON",
+    phoneNumber: "+1-945-708-3541",
+    contactEmail: "sophia.baker@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "17:00",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "19:00",
+          },
+          {
+            from: "08:00",
+            to: "11:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "15:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Sophia is a passionate tour guide with extensive knowledge of Montevideo and Uruguay. Specializing in Local Cuisine, Local Markets, Indigenous Culture, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.4,
+    reviewsCount: 73,
+    quote: "The best way to discover Montevideo is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/12.jpg",
+    languages: ["Italian", "Hindi", "Arabic"],
+    experienceYears: 11,
+    certifications: ["Wilderness First Responder", "Certified International Tour Manager"],
+    specialties: ["Local Cuisine", "Local Markets", "Indigenous Culture"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-montevideo-8",
+    name: "Emma Lee",
+    city: "Montevideo",
+    country: "Uruguay",
+    state: "",
+    region: "South America",
+    isPopular: false,
+    bio: "Emma is a passionate tour guide with extensive knowledge of Montevideo and Uruguay. Specializing in Film Locations, Family Activities, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific", "East Coast Canada"],
+    tourTypes: ["Group Tour", "Bike Tour", "Walking Tour"],
+    maxGroupSize: 8,
+    licenseNumber: "LIC-2991-MON",
+    phoneNumber: "+1-787-700-9413",
+    contactEmail: "emma.lee@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "11:00",
+          },
+          {
+            from: "15:00",
+            to: "21:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "11:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Emma is a passionate tour guide with extensive knowledge of Montevideo and Uruguay. Specializing in Film Locations, Family Activities, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 5,
+    reviewsCount: 66,
+    quote: "In Montevideo, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/56.jpg",
+    languages: ["Turkish"],
+    experienceYears: 13,
+    certifications: ["Language Proficiency Certification", "Certified International Tour Manager"],
+    specialties: ["Film Locations", "Family Activities"],
+    specialTraining: [],
   }
 ];

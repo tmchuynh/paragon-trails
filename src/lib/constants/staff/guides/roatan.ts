@@ -16,43 +16,7 @@ export const roatanhondurascaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-2177-ROA",
     phoneNumber: "+1-330-256-7502",
     contactEmail: "sebastian.lopez@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "13:00",
-          },
-          {
-            from: "09:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "12:00",
-          },
-          {
-            from: "09:00",
-            to: "12:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Sebastian is a passionate tour guide with extensive knowledge of Roatan and Honduras. Specializing in Religious Sites, Family Activities, Art Galleries, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
@@ -80,39 +44,7 @@ export const roatanhondurascaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-8109-ROA",
     phoneNumber: "+1-692-839-1123",
     contactEmail: "jacob.walker@paragontrails.com",
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "12:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "20:00",
-          },
-          {
-            from: "12:00",
-            to: "18:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "16:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Jacob is a passionate tour guide with extensive knowledge of Roatan and Honduras. Specializing in Architecture, Parks & Gardens, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
@@ -140,48 +72,7 @@ export const roatanhondurascaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-7962-ROA",
     phoneNumber: "+1-610-906-1766",
     contactEmail: "scarlett.white@paragontrails.com",
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "18:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "21:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "12:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "14:00",
-          },
-          {
-            from: "15:00",
-            to: "17:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Scarlett is a passionate tour guide with extensive knowledge of Roatan and Honduras. Specializing in Museums, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
@@ -209,35 +100,7 @@ export const roatanhondurascaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-7536-ROA",
     phoneNumber: "+1-648-392-3965",
     contactEmail: "evelyn.hall@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "11:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "13:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Evelyn is a passionate tour guide with extensive knowledge of Roatan and Honduras. Specializing in Photography Spots, Wildlife, Religious Sites, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
@@ -265,34 +128,7 @@ export const roatanhondurascaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-7858-ROA",
     phoneNumber: "+1-800-914-1830",
     contactEmail: "aiden.campbell@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "14:00",
-          },
-          {
-            from: "11:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "16:00",
-          },
-          {
-            from: "15:00",
-            to: "20:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Aiden is a passionate tour guide with extensive knowledge of Roatan and Honduras. Specializing in Parks & Gardens, Local Cuisine, Adventure Sports, Street Food, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
@@ -320,61 +156,7 @@ export const roatanhondurascaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-3215-ROA",
     phoneNumber: "+1-280-491-1426",
     contactEmail: "abigail.nguyen@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "11:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "18:00",
-          },
-          {
-            from: "11:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "13:00",
-          },
-          {
-            from: "14:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Abigail is a passionate tour guide with extensive knowledge of Roatan and Honduras. Specializing in Indigenous Culture, Public Transportation Navigation, Museums, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
@@ -402,43 +184,7 @@ export const roatanhondurascaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-1749-ROA",
     phoneNumber: "+1-767-185-8362",
     contactEmail: "lucas.hill@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "14:00",
-          },
-          {
-            from: "12:00",
-            to: "18:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00",
-          },
-          {
-            from: "08:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "16:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Lucas is a passionate tour guide with extensive knowledge of Roatan and Honduras. Specializing in LGBTQ+ History, Architecture, Sustainable Tourism, Local Cuisine, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
@@ -466,47 +212,7 @@ export const roatanhondurascaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-2441-ROA",
     phoneNumber: "+1-740-801-9833",
     contactEmail: "ethan.allen@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "15:00",
-          },
-          {
-            from: "12:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "17:00",
-          },
-          {
-            from: "08:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "13:00",
-          },
-          {
-            from: "12:00",
-            to: "14:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Ethan is a passionate tour guide with extensive knowledge of Roatan and Honduras. Specializing in Architecture, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
@@ -517,6 +223,200 @@ export const roatanhondurascaribbeanGuides: TourGuide[] = [
     experienceYears: 7,
     certifications: ["Urban Navigation Specialist"],
     specialties: ["Architecture"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-roatan-9",
+    name: "Isabella Martinez",
+    city: "Roatan",
+    country: "Honduras",
+    state: "",
+    region: "Caribbean",
+    isPopular: false,
+    bio: "Isabella is a passionate tour guide with extensive knowledge of Roatan and Honduras. Specializing in Indigenous Culture, Local Markets, LGBTQ+ History, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Mediterranean", "East Coast USA"],
+    tourTypes: ["LGBTQ+ Friendly Tour", "Audio Tour", "Family-Friendly Tour"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-2075-ROA",
+    phoneNumber: "+1-912-432-9056",
+    contactEmail: "isabella.martinez@paragontrails.com",
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "11:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "17:00",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "16:00",
+          },
+          {
+            from: "14:00",
+            to: "20:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Isabella is a passionate tour guide with extensive knowledge of Roatan and Honduras. Specializing in Indigenous Culture, Local Markets, LGBTQ+ History, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.9,
+    reviewsCount: 72,
+    quote: "In Roatan, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/71.jpg",
+    languages: ["Vietnamese", "Hindi", "Polish"],
+    experienceYears: 6,
+    certifications: ["Sustainable Tourism Certificate", "Local History Certification"],
+    specialties: ["Indigenous Culture", "Local Markets", "LGBTQ+ History"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-roatan-10",
+    name: "Penelope Rodriguez",
+    city: "Roatan",
+    country: "Honduras",
+    state: "",
+    region: "Caribbean",
+    isPopular: true,
+    bio: "Penelope is a passionate tour guide with extensive knowledge of Roatan and Honduras. Specializing in Historical Landmarks, Indigenous Culture, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada"],
+    tourTypes: ["Ghost Tour", "Museum Tour", "Architecture Tour", "Private Tour"],
+    maxGroupSize: 7,
+    licenseNumber: "LIC-4255-ROA",
+    phoneNumber: "+1-689-334-1889",
+    contactEmail: "penelope.rodriguez@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "17:00",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "16:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "18:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Penelope is a passionate tour guide with extensive knowledge of Roatan and Honduras. Specializing in Historical Landmarks, Indigenous Culture, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.6,
+    reviewsCount: 32,
+    quote: "Every corner of Roatan tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/70.jpg",
+    languages: ["Indonesian"],
+    experienceYears: 4,
+    certifications: ["Wilderness First Responder", "Food Safety Certification"],
+    specialties: ["Historical Landmarks", "Indigenous Culture"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-roatan-11",
+    name: "Amelia White",
+    city: "Roatan",
+    country: "Honduras",
+    state: "",
+    region: "Caribbean",
+    isPopular: false,
+    bio: "Amelia is a passionate tour guide with extensive knowledge of Roatan and Honduras. Specializing in Public Transportation Navigation, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["West Coast USA"],
+    tourTypes: ["Luxury Tour", "Walking Tour", "Group Tour", "Off-Road Tour", "Craft Workshop"],
+    maxGroupSize: 9,
+    licenseNumber: "LIC-8407-ROA",
+    phoneNumber: "+1-341-854-8007",
+    contactEmail: "amelia.white@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "20:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "17:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "16:00",
+          },
+          {
+            from: "11:00",
+            to: "16:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "12:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Amelia is a passionate tour guide with extensive knowledge of Roatan and Honduras. Specializing in Public Transportation Navigation, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 104,
+    quote: "Roatan isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/76.jpg",
+    languages: ["Spanish", "Japanese", "English"],
+    experienceYears: 10,
+    certifications: ["Eco-Tourism Guide", "CPR & First Aid", "Regional Tourism Ambassador"],
+    specialties: ["Public Transportation Navigation"],
     specialTraining: [],
   }
 ];

@@ -16,48 +16,7 @@ export const losAngelesunitedStateswestCoastUsaGuides: TourGuide[] = [
     licenseNumber: "LIC-8230-LOS",
     phoneNumber: "+1-461-890-9922",
     contactEmail: "liam.clark@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "19:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "11:00",
-          },
-          {
-            from: "15:00",
-            to: "21:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Liam is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Photography Spots, Music Scene, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
@@ -85,26 +44,7 @@ export const losAngelesunitedStateswestCoastUsaGuides: TourGuide[] = [
     licenseNumber: "LIC-8678-LOS",
     phoneNumber: "+1-818-704-8261",
     contactEmail: "henry.perez@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "13:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Henry is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Sustainable Tourism, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
@@ -132,57 +72,7 @@ export const losAngelesunitedStateswestCoastUsaGuides: TourGuide[] = [
     licenseNumber: "LIC-2574-LOS",
     phoneNumber: "+1-681-847-9613",
     contactEmail: "harper.green@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "16:00",
-          },
-          {
-            from: "08:00",
-            to: "11:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "13:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Harper is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Urban Legends, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
@@ -210,52 +100,7 @@ export const losAngelesunitedStateswestCoastUsaGuides: TourGuide[] = [
     licenseNumber: "LIC-5448-LOS",
     phoneNumber: "+1-651-781-5344",
     contactEmail: "daniel.thomas@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "14:00",
-          },
-          {
-            from: "11:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "21:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "12:00",
-          },
-          {
-            from: "09:00",
-            to: "12:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Daniel is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Wildlife, Family Activities, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
@@ -283,26 +128,7 @@ export const losAngelesunitedStateswestCoastUsaGuides: TourGuide[] = [
     licenseNumber: "LIC-8780-LOS",
     phoneNumber: "+1-412-400-8730",
     contactEmail: "jackson.hill@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "13:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Jackson is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Adventure Sports, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
@@ -314,5 +140,211 @@ export const losAngelesunitedStateswestCoastUsaGuides: TourGuide[] = [
     certifications: ["CPR & First Aid", "Licensed City Guide", "Eco-Tourism Guide"],
     specialties: ["Adventure Sports"],
     specialTraining: ["Regional Geology", "Archaeological Conservation"],
+  },
+  {
+    id: "guide-los-angeles-6",
+    name: "Carter Moore",
+    city: "Los Angeles",
+    country: "United States",
+    state: "",
+    region: "West Coast USA",
+    isPopular: true,
+    bio: "Carter is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Indigenous Culture, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast USA", "West Coast USA"],
+    tourTypes: ["Craft Workshop", "Relocation Tour", "LGBTQ+ Friendly Tour"],
+    maxGroupSize: 10,
+    licenseNumber: "LIC-3339-LOS",
+    phoneNumber: "+1-194-681-7087",
+    contactEmail: "carter.moore@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "15:00",
+          },
+          {
+            from: "11:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "18:00",
+          },
+          {
+            from: "14:00",
+            to: "20:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "15:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Carter is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Indigenous Culture, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 27,
+    quote: "My goal is to help you fall in love with Los Angeles just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/17.jpg",
+    languages: ["Malay"],
+    experienceYears: 14,
+    certifications: ["Regional Tourism Ambassador"],
+    specialties: ["Indigenous Culture"],
+    specialTraining: ["Local Transit Systems", "Public Speaking"],
+  },
+  {
+    id: "guide-los-angeles-7",
+    name: "Carter Hill",
+    city: "Los Angeles",
+    country: "United States",
+    state: "",
+    region: "West Coast USA",
+    isPopular: false,
+    bio: "Carter is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Film Locations, Local Markets, Local Craftsmanship, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific", "East Coast Canada"],
+    tourTypes: ["Museum Tour", "Brewery Tour", "Accessible Tour"],
+    maxGroupSize: 11,
+    licenseNumber: "LIC-2523-LOS",
+    phoneNumber: "+1-342-287-6997",
+    contactEmail: "carter.hill@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "17:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "17:00",
+          },
+          {
+            from: "09:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "14:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Carter is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Film Locations, Local Markets, Local Craftsmanship, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.2,
+    reviewsCount: 8,
+    quote: "Every corner of Los Angeles tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/49.jpg",
+    languages: ["Portuguese"],
+    experienceYears: 7,
+    certifications: ["Regional Tourism Ambassador", "Professional Tour Guide Association"],
+    specialties: ["Film Locations", "Local Markets", "Local Craftsmanship"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-los-angeles-8",
+    name: "David Gonzalez",
+    city: "Los Angeles",
+    country: "United States",
+    state: "",
+    region: "West Coast USA",
+    isPopular: false,
+    bio: "David is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Historical Landmarks, Architecture, Wine Tasting, Family Activities, David provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East", "West Coast USA"],
+    tourTypes: ["Relocation Tour", "Self-Guided Tour"],
+    maxGroupSize: 14,
+    licenseNumber: "LIC-5825-LOS",
+    phoneNumber: "+1-113-632-4099",
+    contactEmail: "david.gonzalez@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "14:00",
+          },
+          {
+            from: "09:00",
+            to: "13:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "17:00",
+          },
+          {
+            from: "14:00",
+            to: "17:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "13:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "David is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Historical Landmarks, Architecture, Wine Tasting, Family Activities, David provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 74,
+    quote: "The best way to discover Los Angeles is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/11.jpg",
+    languages: ["Croatian", "French"],
+    experienceYears: 7,
+    certifications: ["Sustainable Tourism Certificate", "Licensed City Guide", "Language Proficiency Certification"],
+    specialties: ["Historical Landmarks", "Architecture", "Wine Tasting", "Family Activities"],
+    specialTraining: ["Regional Cuisine", "Public Speaking"],
   }
 ];

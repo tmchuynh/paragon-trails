@@ -16,60 +16,7 @@ export const helsinkifinlandnorthernEuropeGuides: TourGuide[] = [
     licenseNumber: "LIC-2298-HEL",
     phoneNumber: "+1-916-560-3116",
     contactEmail: "elijah.ramirez@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "15:00",
-          },
-          {
-            from: "15:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "16:00",
-          },
-          {
-            from: "11:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "15:00",
-          },
-          {
-            from: "15:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "14:00",
-          },
-          {
-            from: "08:00",
-            to: "13:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Elijah is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Local Markets, Wildlife, Nightlife, Art Galleries, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
@@ -97,35 +44,7 @@ export const helsinkifinlandnorthernEuropeGuides: TourGuide[] = [
     licenseNumber: "LIC-2643-HEL",
     phoneNumber: "+1-120-923-9079",
     contactEmail: "chloe.robinson@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "20:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Chloe is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Family Activities, Architecture, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
@@ -153,48 +72,7 @@ export const helsinkifinlandnorthernEuropeGuides: TourGuide[] = [
     licenseNumber: "LIC-9873-HEL",
     phoneNumber: "+1-703-678-5166",
     contactEmail: "riley.lee@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "18:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "14:00",
-          },
-          {
-            from: "11:00",
-            to: "13:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Riley is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Public Transportation Navigation, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
@@ -222,26 +100,7 @@ export const helsinkifinlandnorthernEuropeGuides: TourGuide[] = [
     licenseNumber: "LIC-9364-HEL",
     phoneNumber: "+1-506-183-6061",
     contactEmail: "alexander.carter@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "20:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Alexander is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Indigenous Culture, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
@@ -269,30 +128,7 @@ export const helsinkifinlandnorthernEuropeGuides: TourGuide[] = [
     licenseNumber: "LIC-8480-HEL",
     phoneNumber: "+1-769-140-5984",
     contactEmail: "isabella.adams@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "14:00",
-          },
-          {
-            from: "10:00",
-            to: "12:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Isabella is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Public Transportation Navigation, Cultural Etiquette, Nightlife, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
@@ -320,57 +156,7 @@ export const helsinkifinlandnorthernEuropeGuides: TourGuide[] = [
     licenseNumber: "LIC-7250-HEL",
     phoneNumber: "+1-672-182-6484",
     contactEmail: "zoe.martinez@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "12:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "13:00",
-          },
-          {
-            from: "09:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "18:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "17:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Zoe is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Nightlife, Wildlife, Public Transportation Navigation, Local Craftsmanship, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
@@ -398,48 +184,7 @@ export const helsinkifinlandnorthernEuropeGuides: TourGuide[] = [
     licenseNumber: "LIC-1737-HEL",
     phoneNumber: "+1-269-677-3815",
     contactEmail: "elijah.thompson@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "14:00",
-          },
-          {
-            from: "10:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "11:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Elijah is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Art Galleries, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
@@ -451,5 +196,241 @@ export const helsinkifinlandnorthernEuropeGuides: TourGuide[] = [
     certifications: ["Adventure Tourism Safety Certificate"],
     specialties: ["Art Galleries"],
     specialTraining: ["Public Speaking"],
+  },
+  {
+    id: "guide-helsinki-8",
+    name: "Daniel Ramirez",
+    city: "Helsinki",
+    country: "Finland",
+    state: "",
+    region: "Northern Europe",
+    isPopular: true,
+    bio: "Daniel is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Wildlife, Urban Legends, Art Galleries, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada"],
+    tourTypes: ["Historical Tour", "Boat Tour"],
+    maxGroupSize: 19,
+    licenseNumber: "LIC-5781-HEL",
+    phoneNumber: "+1-881-834-7640",
+    contactEmail: "daniel.ramirez@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "11:00",
+          },
+          {
+            from: "14:00",
+            to: "18:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "12:00",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "16:00",
+          },
+          {
+            from: "11:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "18:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Daniel is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Wildlife, Urban Legends, Art Galleries, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.8,
+    reviewsCount: 6,
+    quote: "The best way to discover Helsinki is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/52.jpg",
+    languages: ["Turkish", "Romanian"],
+    experienceYears: 14,
+    certifications: ["Professional Tour Guide Association", "Food Safety Certification"],
+    specialties: ["Wildlife", "Urban Legends", "Art Galleries"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-helsinki-9",
+    name: "Alexander Nelson",
+    city: "Helsinki",
+    country: "Finland",
+    state: "",
+    region: "Northern Europe",
+    isPopular: false,
+    bio: "Alexander is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Architecture, Wine Tasting, Urban Legends, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast USA"],
+    tourTypes: ["Food Tour", "Adventure Tour", "Audio Tour", "Relocation Tour"],
+    maxGroupSize: 11,
+    licenseNumber: "LIC-2017-HEL",
+    phoneNumber: "+1-127-679-9826",
+    contactEmail: "alexander.nelson@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "18:00",
+          },
+          {
+            from: "11:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "19:00",
+          },
+          {
+            from: "08:00",
+            to: "13:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "17:00",
+          },
+          {
+            from: "14:00",
+            to: "18:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Alexander is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Architecture, Wine Tasting, Urban Legends, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.3,
+    reviewsCount: 83,
+    quote: "My goal is to help you fall in love with Helsinki just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/38.jpg",
+    languages: ["Japanese"],
+    experienceYears: 8,
+    certifications: ["Language Proficiency Certification"],
+    specialties: ["Architecture", "Wine Tasting", "Urban Legends"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-helsinki-10",
+    name: "Matthew Hill",
+    city: "Helsinki",
+    country: "Finland",
+    state: "",
+    region: "Northern Europe",
+    isPopular: false,
+    bio: "Matthew is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Wildlife, Public Transportation Navigation, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East"],
+    tourTypes: ["Adventure Tour", "Wildlife Safari"],
+    maxGroupSize: 17,
+    licenseNumber: "LIC-3104-HEL",
+    phoneNumber: "+1-117-750-1575",
+    contactEmail: "matthew.hill@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "20:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "13:00",
+          },
+          {
+            from: "11:00",
+            to: "17:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "20:00",
+          },
+          {
+            from: "08:00",
+            to: "13:00",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "19:00",
+          },
+          {
+            from: "10:00",
+            to: "12:00",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "16:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Matthew is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Wildlife, Public Transportation Navigation, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.4,
+    reviewsCount: 24,
+    quote: "The best way to discover Helsinki is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/1.jpg",
+    languages: ["Spanish", "Hebrew", "Swedish"],
+    experienceYears: 13,
+    certifications: ["Language Proficiency Certification", "Heritage Interpretation Certificate", "Adventure Tourism Safety Certificate"],
+    specialties: ["Wildlife", "Public Transportation Navigation"],
+    specialTraining: ["Historical Research Methods", "Religious Studies"],
   }
 ];

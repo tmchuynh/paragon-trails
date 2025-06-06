@@ -16,56 +16,7 @@ export const melbourneaustraliaasiaPacificGuides: TourGuide[] = [
     licenseNumber: "LIC-6643-MEL",
     phoneNumber: "+1-445-793-3114",
     contactEmail: "elijah.davis@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "16:00",
-          },
-          {
-            from: "08:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "16:00",
-          },
-          {
-            from: "15:00",
-            to: "20:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "18:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "16:00",
-          },
-          {
-            from: "12:00",
-            to: "18:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Elijah is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Architecture, Urban Legends, Photography Spots, Religious Sites, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
@@ -93,43 +44,7 @@ export const melbourneaustraliaasiaPacificGuides: TourGuide[] = [
     licenseNumber: "LIC-8953-MEL",
     phoneNumber: "+1-600-274-7259",
     contactEmail: "isabella.roberts@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "15:00",
-          },
-          {
-            from: "12:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "11:00",
-          },
-          {
-            from: "11:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "17:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Isabella is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Art Galleries, LGBTQ+ History, Indigenous Culture, Adventure Sports, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
@@ -157,48 +72,7 @@ export const melbourneaustraliaasiaPacificGuides: TourGuide[] = [
     licenseNumber: "LIC-1493-MEL",
     phoneNumber: "+1-647-952-6056",
     contactEmail: "carter.lee@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "20:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "14:00",
-          },
-          {
-            from: "08:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "18:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Carter is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Local Markets, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
@@ -226,52 +100,7 @@ export const melbourneaustraliaasiaPacificGuides: TourGuide[] = [
     licenseNumber: "LIC-1487-MEL",
     phoneNumber: "+1-681-906-1910",
     contactEmail: "amelia.jones@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "16:00",
-          },
-          {
-            from: "09:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "18:00",
-          },
-          {
-            from: "14:00",
-            to: "18:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Amelia is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Nightlife, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
@@ -299,43 +128,7 @@ export const melbourneaustraliaasiaPacificGuides: TourGuide[] = [
     licenseNumber: "LIC-8761-MEL",
     phoneNumber: "+1-942-506-3632",
     contactEmail: "mason.white@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "13:00",
-          },
-          {
-            from: "15:00",
-            to: "20:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "18:00",
-          },
-          {
-            from: "14:00",
-            to: "16:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Mason is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Indigenous Culture, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
@@ -363,52 +156,7 @@ export const melbourneaustraliaasiaPacificGuides: TourGuide[] = [
     licenseNumber: "LIC-6375-MEL",
     phoneNumber: "+1-355-757-6717",
     contactEmail: "amelia.baker@paragontrails.com",
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "19:00",
-          },
-          {
-            from: "13:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00",
-          },
-          {
-            from: "14:00",
-            to: "18:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "13:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Amelia is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Music Scene, Indigenous Culture, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
@@ -420,5 +168,189 @@ export const melbourneaustraliaasiaPacificGuides: TourGuide[] = [
     certifications: ["Eco-Tourism Guide", "Local History Certification", "Sustainable Tourism Certificate"],
     specialties: ["Music Scene", "Indigenous Culture"],
     specialTraining: [],
+  },
+  {
+    id: "guide-melbourne-7",
+    name: "Sophia Lee",
+    city: "Melbourne",
+    country: "Australia",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: false,
+    bio: "Sophia is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Wildlife, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America"],
+    tourTypes: ["Self-Guided Tour", "Family-Friendly Tour"],
+    maxGroupSize: 5,
+    licenseNumber: "LIC-5605-MEL",
+    phoneNumber: "+1-748-366-9663",
+    contactEmail: "sophia.lee@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "12:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "20:00",
+          },
+          {
+            from: "10:00",
+            to: "16:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Sophia is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Wildlife, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.3,
+    reviewsCount: 39,
+    quote: "In Melbourne, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/40.jpg",
+    languages: ["Romanian"],
+    experienceYears: 14,
+    certifications: ["Cultural Heritage Specialist", "Urban Navigation Specialist", "Food Safety Certification"],
+    specialties: ["Wildlife"],
+    specialTraining: ["Archaeological Conservation"],
+  },
+  {
+    id: "guide-melbourne-8",
+    name: "Mason Johnson",
+    city: "Melbourne",
+    country: "Australia",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: false,
+    bio: "Mason is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Historical Landmarks, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["West Coast USA", "Northern Europe"],
+    tourTypes: ["Walking Tour", "Group Tour", "Religious Tour", "Underground Tour"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-3280-MEL",
+    phoneNumber: "+1-540-804-1915",
+    contactEmail: "mason.johnson@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "21:00",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "18:00",
+          },
+          {
+            from: "13:00",
+            to: "17:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "12:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "10:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Mason is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Historical Landmarks, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 6,
+    quote: "In Melbourne, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/58.jpg",
+    languages: ["Hebrew", "Croatian", "Korean"],
+    experienceYears: 13,
+    certifications: ["Heritage Interpretation Certificate", "Local History Certification"],
+    specialties: ["Historical Landmarks"],
+    specialTraining: ["Marine Biology"],
+  },
+  {
+    id: "guide-melbourne-9",
+    name: "Layla Taylor",
+    city: "Melbourne",
+    country: "Australia",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: true,
+    bio: "Layla is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Museums, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast USA"],
+    tourTypes: ["Farm Visit", "Boat Tour", "Nature Tour"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-5692-MEL",
+    phoneNumber: "+1-942-506-4966",
+    contactEmail: "layla.taylor@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "13:00",
+          },
+          {
+            from: "10:00",
+            to: "12:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "12:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "15:00",
+          },
+          {
+            from: "08:00",
+            to: "13:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Layla is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Museums, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.4,
+    reviewsCount: 47,
+    quote: "The best way to discover Melbourne is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/25.jpg",
+    languages: ["Hungarian", "Romanian"],
+    experienceYears: 14,
+    certifications: ["CPR & First Aid", "Certified International Tour Manager"],
+    specialties: ["Museums"],
+    specialTraining: ["Accessibility Services"],
   }
 ];

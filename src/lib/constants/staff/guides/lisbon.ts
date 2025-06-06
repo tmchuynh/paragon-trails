@@ -16,43 +16,7 @@ export const lisbonportugalmediterraneanGuides: TourGuide[] = [
     licenseNumber: "LIC-9660-LIS",
     phoneNumber: "+1-430-980-4006",
     contactEmail: "lucas.jones@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "15:00",
-          },
-          {
-            from: "14:00",
-            to: "20:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "17:00",
-          },
-          {
-            from: "14:00",
-            to: "17:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Lucas is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Cultural Etiquette, Nightlife, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
@@ -80,47 +44,7 @@ export const lisbonportugalmediterraneanGuides: TourGuide[] = [
     licenseNumber: "LIC-3002-LIS",
     phoneNumber: "+1-133-195-2227",
     contactEmail: "mia.martin@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "19:00",
-          },
-          {
-            from: "15:00",
-            to: "20:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "13:00",
-          },
-          {
-            from: "11:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "19:00",
-          },
-          {
-            from: "09:00",
-            to: "14:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Mia is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in LGBTQ+ History, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
@@ -148,26 +72,7 @@ export const lisbonportugalmediterraneanGuides: TourGuide[] = [
     licenseNumber: "LIC-3257-LIS",
     phoneNumber: "+1-750-160-1324",
     contactEmail: "henry.harris@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "21:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "15:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Henry is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Local Cuisine, LGBTQ+ History, Film Locations, Nightlife, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
@@ -195,35 +100,7 @@ export const lisbonportugalmediterraneanGuides: TourGuide[] = [
     licenseNumber: "LIC-1412-LIS",
     phoneNumber: "+1-281-229-6848",
     contactEmail: "zoe.moore@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "16:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Zoe is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Wine Tasting, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
@@ -251,30 +128,7 @@ export const lisbonportugalmediterraneanGuides: TourGuide[] = [
     licenseNumber: "LIC-5032-LIS",
     phoneNumber: "+1-490-387-4658",
     contactEmail: "grace.hill@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "14:00",
-          },
-          {
-            from: "14:00",
-            to: "20:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "15:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Grace is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Family Activities, Grace provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
@@ -286,5 +140,202 @@ export const lisbonportugalmediterraneanGuides: TourGuide[] = [
     certifications: ["Sustainable Tourism Certificate", "Professional Tour Guide Association"],
     specialties: ["Family Activities"],
     specialTraining: [],
+  },
+  {
+    id: "guide-lisbon-6",
+    name: "Abigail Thomas",
+    city: "Lisbon",
+    country: "Portugal",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Abigail is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Film Locations, Music Scene, Indigenous Culture, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada", "Caribbean"],
+    tourTypes: ["Craft Workshop", "Farm Visit"],
+    maxGroupSize: 7,
+    licenseNumber: "LIC-2729-LIS",
+    phoneNumber: "+1-239-426-7881",
+    contactEmail: "abigail.thomas@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "17:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "20:00",
+          },
+          {
+            from: "13:00",
+            to: "18:00",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "16:00",
+          },
+          {
+            from: "08:00",
+            to: "12:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "19:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Abigail is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Film Locations, Music Scene, Indigenous Culture, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.7,
+    reviewsCount: 72,
+    quote: "The best way to discover Lisbon is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/19.jpg",
+    languages: ["Malay", "French", "Finnish"],
+    experienceYears: 13,
+    certifications: ["Professional Tour Guide Association", "Regional Tourism Ambassador", "Certified International Tour Manager"],
+    specialties: ["Film Locations", "Music Scene", "Indigenous Culture"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-lisbon-7",
+    name: "William Thomas",
+    city: "Lisbon",
+    country: "Portugal",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "William is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Indigenous Culture, Local Cuisine, William provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Alaska", "Northern Europe"],
+    tourTypes: ["Ghost Tour", "Scenic Tour", "Nature Tour", "Historical Tour", "Private Tour"],
+    maxGroupSize: 19,
+    licenseNumber: "LIC-9065-LIS",
+    phoneNumber: "+1-342-643-4369",
+    contactEmail: "william.thomas@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "12:00",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "10:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "16:00",
+          },
+          {
+            from: "12:00",
+            to: "15:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "William is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Indigenous Culture, Local Cuisine, William provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.9,
+    reviewsCount: 49,
+    quote: "In Lisbon, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/37.jpg",
+    languages: ["Swahili", "Mandarin", "Hebrew"],
+    experienceYears: 14,
+    certifications: ["Licensed City Guide", "CPR & First Aid", "Local History Certification"],
+    specialties: ["Indigenous Culture", "Local Cuisine"],
+    specialTraining: ["Mountain Survival", "Regional Geology"],
+  },
+  {
+    id: "guide-lisbon-8",
+    name: "Mason Flores",
+    city: "Lisbon",
+    country: "Portugal",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Mason is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Wine Tasting, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America"],
+    tourTypes: ["Accessible Tour", "Festival Tour", "Religious Tour"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-8387-LIS",
+    phoneNumber: "+1-749-619-4109",
+    contactEmail: "mason.flores@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "19:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "17:00",
+          },
+          {
+            from: "10:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "12:00",
+          },
+          {
+            from: "11:00",
+            to: "17:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Mason is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Wine Tasting, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 26,
+    quote: "In Lisbon, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/57.jpg",
+    languages: ["Czech", "Vietnamese"],
+    experienceYears: 7,
+    certifications: ["Eco-Tourism Guide"],
+    specialties: ["Wine Tasting"],
+    specialTraining: ["Marine Biology"],
   }
 ];

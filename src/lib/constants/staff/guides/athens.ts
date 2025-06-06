@@ -16,52 +16,7 @@ export const athensgreecemediterraneanGuides: TourGuide[] = [
     licenseNumber: "LIC-9060-ATH",
     phoneNumber: "+1-501-814-4702",
     contactEmail: "noah.walker@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "14:00",
-          },
-          {
-            from: "09:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "12:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "12:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "14:00",
-          },
-          {
-            from: "09:00",
-            to: "14:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Noah is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Hidden Gems, Adventure Sports, Sustainable Tourism, Historical Landmarks, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
@@ -89,39 +44,7 @@ export const athensgreecemediterraneanGuides: TourGuide[] = [
     licenseNumber: "LIC-2640-ATH",
     phoneNumber: "+1-202-789-3515",
     contactEmail: "alexander.garcia@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "13:00",
-          },
-          {
-            from: "10:00",
-            to: "12:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Alexander is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Wildlife, LGBTQ+ History, Sustainable Tourism, Local Cuisine, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
@@ -149,52 +72,7 @@ export const athensgreecemediterraneanGuides: TourGuide[] = [
     licenseNumber: "LIC-8033-ATH",
     phoneNumber: "+1-951-768-6012",
     contactEmail: "scarlett.lewis@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "15:00",
-          },
-          {
-            from: "15:00",
-            to: "18:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "18:00",
-          },
-          {
-            from: "13:00",
-            to: "18:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Scarlett is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Local Craftsmanship, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
@@ -222,34 +100,7 @@ export const athensgreecemediterraneanGuides: TourGuide[] = [
     licenseNumber: "LIC-9002-ATH",
     phoneNumber: "+1-942-624-7941",
     contactEmail: "matthew.thomas@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "16:00",
-          },
-          {
-            from: "14:00",
-            to: "19:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "18:00",
-          },
-          {
-            from: "15:00",
-            to: "21:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Matthew is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Music Scene, Wine Tasting, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
@@ -261,5 +112,197 @@ export const athensgreecemediterraneanGuides: TourGuide[] = [
     certifications: ["Language Proficiency Certification", "CPR & First Aid"],
     specialties: ["Music Scene", "Wine Tasting"],
     specialTraining: [],
+  },
+  {
+    id: "guide-athens-5",
+    name: "James White",
+    city: "Athens",
+    country: "Greece",
+    state: "",
+    region: "Mediterranean",
+    isPopular: true,
+    bio: "James is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in LGBTQ+ History, Film Locations, James provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Alaska"],
+    tourTypes: ["Cruise Excursion", "Wildlife Safari"],
+    maxGroupSize: 14,
+    licenseNumber: "LIC-7537-ATH",
+    phoneNumber: "+1-477-370-6927",
+    contactEmail: "james.white@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "18:00",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "19:00",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "18:00",
+          },
+          {
+            from: "13:00",
+            to: "19:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "James is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in LGBTQ+ History, Film Locations, James provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.9,
+    reviewsCount: 90,
+    quote: "Athens isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/59.jpg",
+    languages: ["English"],
+    experienceYears: 13,
+    certifications: ["Regional Tourism Ambassador"],
+    specialties: ["LGBTQ+ History", "Film Locations"],
+    specialTraining: ["Group Management"],
+  },
+  {
+    id: "guide-athens-6",
+    name: "Evelyn Sanchez",
+    city: "Athens",
+    country: "Greece",
+    state: "",
+    region: "Mediterranean",
+    isPopular: true,
+    bio: "Evelyn is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Cultural Etiquette, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada"],
+    tourTypes: ["Photography Tour", "Historical Tour", "Craft Workshop", "Relocation Tour", "Off-Road Tour"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-9779-ATH",
+    phoneNumber: "+1-177-470-2947",
+    contactEmail: "evelyn.sanchez@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "15:00",
+          },
+          {
+            from: "14:00",
+            to: "16:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "17:00",
+          },
+          {
+            from: "09:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "13:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Evelyn is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Cultural Etiquette, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.3,
+    reviewsCount: 32,
+    quote: "In Athens, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/33.jpg",
+    languages: ["Romanian"],
+    experienceYears: 4,
+    certifications: ["Urban Navigation Specialist"],
+    specialties: ["Cultural Etiquette"],
+    specialTraining: ["Archaeological Conservation", "Cultural Sensitivity"],
+  },
+  {
+    id: "guide-athens-7",
+    name: "Wyatt Wright",
+    city: "Athens",
+    country: "Greece",
+    state: "",
+    region: "Mediterranean",
+    isPopular: true,
+    bio: "Wyatt is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Wildlife, Urban Legends, Film Locations, Historical Landmarks, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific", "Africa"],
+    tourTypes: ["Romantic Tour", "Cultural Tour", "Food Tour", "Audio Tour", "Street Art Tour"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-5679-ATH",
+    phoneNumber: "+1-743-665-2441",
+    contactEmail: "wyatt.wright@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "15:00",
+          },
+          {
+            from: "12:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "16:00",
+          },
+          {
+            from: "08:00",
+            to: "14:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "16:00",
+          },
+          {
+            from: "14:00",
+            to: "16:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Wyatt is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Wildlife, Urban Legends, Film Locations, Historical Landmarks, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.5,
+    reviewsCount: 30,
+    quote: "My goal is to help you fall in love with Athens just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/75.jpg",
+    languages: ["Tagalog", "Czech"],
+    experienceYears: 13,
+    certifications: ["Regional Tourism Ambassador", "Food Safety Certification", "Certified International Tour Manager"],
+    specialties: ["Wildlife", "Urban Legends", "Film Locations", "Historical Landmarks"],
+    specialTraining: ["Wine Education"],
   }
 ];

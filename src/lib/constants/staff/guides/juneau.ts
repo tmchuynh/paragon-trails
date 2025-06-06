@@ -16,43 +16,7 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
     licenseNumber: "LIC-8993-JUN",
     phoneNumber: "+1-252-511-7697",
     contactEmail: "olivia.thomas@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "20:00",
-          },
-          {
-            from: "09:00",
-            to: "12:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "15:00",
-          },
-          {
-            from: "09:00",
-            to: "15:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Olivia is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Indigenous Culture, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
@@ -80,56 +44,7 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
     licenseNumber: "LIC-4824-JUN",
     phoneNumber: "+1-711-941-2257",
     contactEmail: "mia.scott@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00",
-          },
-          {
-            from: "13:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "18:00",
-          },
-          {
-            from: "09:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "19:00",
-          },
-          {
-            from: "14:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "17:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Mia is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Film Locations, Religious Sites, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
@@ -157,39 +72,7 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
     licenseNumber: "LIC-9099-JUN",
     phoneNumber: "+1-611-560-4201",
     contactEmail: "madison.wright@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "19:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "12:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "10:00",
-          },
-          {
-            from: "10:00",
-            to: "13:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Madison is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Parks & Gardens, Music Scene, Sustainable Tourism, Local Cuisine, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
@@ -217,47 +100,7 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
     licenseNumber: "LIC-1167-JUN",
     phoneNumber: "+1-465-360-7565",
     contactEmail: "emily.jones@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "15:00",
-          },
-          {
-            from: "14:00",
-            to: "20:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "15:00",
-          },
-          {
-            from: "12:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "17:00",
-          },
-          {
-            from: "11:00",
-            to: "16:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Emily is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Wildlife, Museums, Indigenous Culture, Local Cuisine, Emily provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
@@ -285,35 +128,7 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
     licenseNumber: "LIC-2005-JUN",
     phoneNumber: "+1-877-563-6045",
     contactEmail: "logan.sanchez@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "18:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Logan is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Adventure Sports, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
@@ -341,39 +156,7 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
     licenseNumber: "LIC-7761-JUN",
     phoneNumber: "+1-604-915-3967",
     contactEmail: "sebastian.miller@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "17:00",
-          },
-          {
-            from: "08:00",
-            to: "10:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Sebastian is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Family Activities, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
@@ -401,30 +184,7 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
     licenseNumber: "LIC-7904-JUN",
     phoneNumber: "+1-101-180-5318",
     contactEmail: "aria.davis@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "16:00",
-          },
-          {
-            from: "09:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "17:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Aria is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Local Markets, Wine Tasting, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
@@ -436,5 +196,219 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
     certifications: ["Adventure Tourism Safety Certificate"],
     specialties: ["Local Markets", "Wine Tasting"],
     specialTraining: ["Desert Navigation", "Local Flora & Fauna"],
+  },
+  {
+    id: "guide-juneau-8",
+    name: "Madison Garcia",
+    city: "Juneau",
+    country: "United States",
+    state: "",
+    region: "Alaska",
+    isPopular: false,
+    bio: "Madison is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Sustainable Tourism, Local Markets, Family Activities, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East"],
+    tourTypes: ["Off-Road Tour", "Walking Tour", "Eco Tour", "Audio Tour", "Wildlife Safari"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-9478-JUN",
+    phoneNumber: "+1-477-543-8085",
+    contactEmail: "madison.garcia@paragontrails.com",
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "19:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "18:00",
+          },
+          {
+            from: "09:00",
+            to: "14:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "12:00",
+          },
+          {
+            from: "09:00",
+            to: "11:00",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "15:00",
+          },
+          {
+            from: "15:00",
+            to: "17:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Madison is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Sustainable Tourism, Local Markets, Family Activities, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 79,
+    quote: "The best way to discover Juneau is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/64.jpg",
+    languages: ["Danish"],
+    experienceYears: 9,
+    certifications: ["Regional Tourism Ambassador", "Local History Certification"],
+    specialties: ["Sustainable Tourism", "Local Markets", "Family Activities"],
+    specialTraining: ["Marine Biology", "Regional Geology"],
+  },
+  {
+    id: "guide-juneau-9",
+    name: "Grace Smith",
+    city: "Juneau",
+    country: "United States",
+    state: "",
+    region: "Alaska",
+    isPopular: false,
+    bio: "Grace is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Street Food, Grace provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada", "West Coast USA"],
+    tourTypes: ["Ghost Tour", "Walking Tour", "Group Tour", "Romantic Tour"],
+    maxGroupSize: 12,
+    licenseNumber: "LIC-9411-JUN",
+    phoneNumber: "+1-352-832-8981",
+    contactEmail: "grace.smith@paragontrails.com",
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "13:00",
+          },
+          {
+            from: "13:00",
+            to: "16:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "15:00",
+          },
+          {
+            from: "08:00",
+            to: "13:00",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "12:00",
+          },
+          {
+            from: "08:00",
+            to: "13:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Grace is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Street Food, Grace provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.8,
+    reviewsCount: 80,
+    quote: "Every corner of Juneau tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/72.jpg",
+    languages: ["German", "Spanish"],
+    experienceYears: 12,
+    certifications: ["Heritage Interpretation Certificate"],
+    specialties: ["Street Food"],
+    specialTraining: ["Cultural Sensitivity"],
+  },
+  {
+    id: "guide-juneau-10",
+    name: "Lily Lopez",
+    city: "Juneau",
+    country: "United States",
+    state: "",
+    region: "Alaska",
+    isPopular: true,
+    bio: "Lily is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Local Markets, Music Scene, Parks & Gardens, Lily provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Northern Europe"],
+    tourTypes: ["Group Tour", "Museum Tour"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-8968-JUN",
+    phoneNumber: "+1-577-641-4734",
+    contactEmail: "lily.lopez@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "14:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "20:00",
+          },
+          {
+            from: "15:00",
+            to: "18:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "11:00",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "20:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Lily is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Local Markets, Music Scene, Parks & Gardens, Lily provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.8,
+    reviewsCount: 29,
+    quote: "The best way to discover Juneau is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/68.jpg",
+    languages: ["Norwegian"],
+    experienceYears: 9,
+    certifications: ["Licensed City Guide"],
+    specialties: ["Local Markets", "Music Scene", "Parks & Gardens"],
+    specialTraining: ["Local Flora & Fauna"],
   }
 ];

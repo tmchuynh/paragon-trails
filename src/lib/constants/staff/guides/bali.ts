@@ -16,43 +16,7 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
     licenseNumber: "LIC-6156-BAL",
     phoneNumber: "+1-794-165-9756",
     contactEmail: "david.moore@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "18:00",
-          },
-          {
-            from: "14:00",
-            to: "19:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "18:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "13:00",
-          },
-          {
-            from: "13:00",
-            to: "16:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "David is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Local Cuisine, David provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
@@ -80,39 +44,7 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
     licenseNumber: "LIC-8940-BAL",
     phoneNumber: "+1-600-198-5600",
     contactEmail: "joseph.flores@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "11:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "20:00",
-          },
-          {
-            from: "09:00",
-            to: "11:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Joseph is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Local Markets, Adventure Sports, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
@@ -140,65 +72,7 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
     licenseNumber: "LIC-7186-BAL",
     phoneNumber: "+1-567-510-1162",
     contactEmail: "olivia.scott@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "18:00",
-          },
-          {
-            from: "09:00",
-            to: "11:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "16:00",
-          },
-          {
-            from: "13:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "18:00",
-          },
-          {
-            from: "12:00",
-            to: "18:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Olivia is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Photography Spots, Parks & Gardens, Street Food, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
@@ -226,65 +100,7 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
     licenseNumber: "LIC-6688-BAL",
     phoneNumber: "+1-244-529-6537",
     contactEmail: "noah.brown@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "17:00",
-          },
-          {
-            from: "12:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "17:00",
-          },
-          {
-            from: "14:00",
-            to: "20:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "14:00",
-          },
-          {
-            from: "12:00",
-            to: "18:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "14:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Noah is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Art Galleries, Wildlife, Sustainable Tourism, Local Cuisine, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
@@ -312,60 +128,7 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
     licenseNumber: "LIC-3076-BAL",
     phoneNumber: "+1-967-857-3811",
     contactEmail: "noah.taylor@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "15:00",
-          },
-          {
-            from: "14:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "11:00",
-          },
-          {
-            from: "15:00",
-            to: "20:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "15:00",
-          },
-          {
-            from: "10:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "11:00",
-          },
-          {
-            from: "10:00",
-            to: "12:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Noah is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Street Food, Photography Spots, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.5,
@@ -393,43 +156,7 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
     licenseNumber: "LIC-9024-BAL",
     phoneNumber: "+1-794-116-5644",
     contactEmail: "sophia.lewis@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "20:00",
-          },
-          {
-            from: "13:00",
-            to: "19:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "21:00",
-          },
-          {
-            from: "09:00",
-            to: "11:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Sophia is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Film Locations, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
@@ -457,43 +184,7 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
     licenseNumber: "LIC-6916-BAL",
     phoneNumber: "+1-914-237-1677",
     contactEmail: "victoria.hernandez@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "18:00",
-          },
-          {
-            from: "15:00",
-            to: "19:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "16:00",
-          },
-          {
-            from: "09:00",
-            to: "14:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Victoria is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Sustainable Tourism, Art Galleries, Adventure Sports, Family Activities, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
@@ -521,48 +212,7 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
     licenseNumber: "LIC-3671-BAL",
     phoneNumber: "+1-169-982-3178",
     contactEmail: "michael.allen@paragontrails.com",
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "18:00",
-          },
-          {
-            from: "13:00",
-            to: "19:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "12:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Michael is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Historical Landmarks, Film Locations, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
@@ -574,5 +224,198 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
     certifications: ["Local History Certification", "Wilderness First Responder", "Cultural Heritage Specialist"],
     specialties: ["Historical Landmarks", "Film Locations"],
     specialTraining: [],
+  },
+  {
+    id: "guide-bali-9",
+    name: "Aiden Martinez",
+    city: "Bali",
+    country: "Indonesia",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: false,
+    bio: "Aiden is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Historical Landmarks, Film Locations, Local Craftsmanship, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Mediterranean", "Asia Pacific"],
+    tourTypes: ["Photography Tour", "Self-Guided Tour", "Street Art Tour", "Underground Tour"],
+    maxGroupSize: 10,
+    licenseNumber: "LIC-3313-BAL",
+    phoneNumber: "+1-882-452-6799",
+    contactEmail: "aiden.martinez@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "14:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "21:00",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "18:00",
+          },
+          {
+            from: "13:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "17:00",
+          },
+          {
+            from: "15:00",
+            to: "20:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Aiden is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Historical Landmarks, Film Locations, Local Craftsmanship, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.7,
+    reviewsCount: 58,
+    quote: "The best way to discover Bali is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/57.jpg",
+    languages: ["Arabic", "Tagalog", "Swahili"],
+    experienceYears: 9,
+    certifications: ["Heritage Interpretation Certificate"],
+    specialties: ["Historical Landmarks", "Film Locations", "Local Craftsmanship"],
+    specialTraining: ["Regional Cuisine", "Marine Biology"],
+  },
+  {
+    id: "guide-bali-10",
+    name: "Sofia Hill",
+    city: "Bali",
+    country: "Indonesia",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: false,
+    bio: "Sofia is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Local Craftsmanship, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America"],
+    tourTypes: ["LGBTQ+ Friendly Tour", "Shopping Tour", "Relocation Tour"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-7271-BAL",
+    phoneNumber: "+1-616-787-6009",
+    contactEmail: "sofia.hill@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "19:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "12:00",
+          },
+          {
+            from: "14:00",
+            to: "17:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "14:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Sofia is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Local Craftsmanship, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.6,
+    reviewsCount: 65,
+    quote: "The best way to discover Bali is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/48.jpg",
+    languages: ["Hungarian"],
+    experienceYears: 10,
+    certifications: ["Language Proficiency Certification"],
+    specialties: ["Local Craftsmanship"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-bali-11",
+    name: "Ethan Ramirez",
+    city: "Bali",
+    country: "Indonesia",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: false,
+    bio: "Ethan is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Museums, Architecture, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East"],
+    tourTypes: ["Cultural Tour", "Cruise Excursion", "Adventure Tour", "Ghost Tour", "Brewery Tour"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-9340-BAL",
+    phoneNumber: "+1-661-936-1545",
+    contactEmail: "ethan.ramirez@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "13:00",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "20:00",
+          },
+          {
+            from: "13:00",
+            to: "18:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "15:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Ethan is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Museums, Architecture, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.2,
+    reviewsCount: 88,
+    quote: "Every corner of Bali tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/45.jpg",
+    languages: ["Turkish", "German"],
+    experienceYears: 9,
+    certifications: ["CPR & First Aid", "Cultural Heritage Specialist", "Food Safety Certification"],
+    specialties: ["Museums", "Architecture"],
+    specialTraining: ["Regional Geology"],
   }
 ];

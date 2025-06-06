@@ -16,61 +16,7 @@ export const torontocanadaeastCoastCanadaGuides: TourGuide[] = [
     licenseNumber: "LIC-3357-TOR",
     phoneNumber: "+1-616-531-9806",
     contactEmail: "mia.green@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "11:00",
-          },
-          {
-            from: "12:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "19:00",
-          },
-          {
-            from: "13:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "15:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Mia is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Religious Sites, Cultural Etiquette, Sustainable Tourism, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
@@ -98,39 +44,7 @@ export const torontocanadaeastCoastCanadaGuides: TourGuide[] = [
     licenseNumber: "LIC-3103-TOR",
     phoneNumber: "+1-214-380-4193",
     contactEmail: "abigail.thompson@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00",
-          },
-          {
-            from: "11:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "16:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Abigail is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Parks & Gardens, Museums, Nightlife, Indigenous Culture, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
@@ -158,43 +72,7 @@ export const torontocanadaeastCoastCanadaGuides: TourGuide[] = [
     licenseNumber: "LIC-8310-TOR",
     phoneNumber: "+1-964-923-4833",
     contactEmail: "charlotte.rivera@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "11:00",
-          },
-          {
-            from: "09:00",
-            to: "12:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "17:00",
-          },
-          {
-            from: "15:00",
-            to: "19:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Charlotte is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Religious Sites, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
@@ -222,47 +100,7 @@ export const torontocanadaeastCoastCanadaGuides: TourGuide[] = [
     licenseNumber: "LIC-6542-TOR",
     phoneNumber: "+1-379-551-9819",
     contactEmail: "liam.rodriguez@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "17:00",
-          },
-          {
-            from: "11:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "15:00",
-          },
-          {
-            from: "14:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "14:00",
-          },
-          {
-            from: "11:00",
-            to: "15:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Liam is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Adventure Sports, Local Markets, Cultural Etiquette, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
@@ -274,5 +112,224 @@ export const torontocanadaeastCoastCanadaGuides: TourGuide[] = [
     certifications: ["Regional Tourism Ambassador", "Cultural Heritage Specialist"],
     specialties: ["Adventure Sports", "Local Markets", "Cultural Etiquette"],
     specialTraining: [],
+  },
+  {
+    id: "guide-toronto-5",
+    name: "Victoria Davis",
+    city: "Toronto",
+    country: "Canada",
+    state: "",
+    region: "East Coast Canada",
+    isPopular: false,
+    bio: "Victoria is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Urban Legends, Religious Sites, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East", "Mediterranean"],
+    tourTypes: ["Craft Workshop", "Underground Tour"],
+    maxGroupSize: 13,
+    licenseNumber: "LIC-5498-TOR",
+    phoneNumber: "+1-597-155-5265",
+    contactEmail: "victoria.davis@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "13:00",
+          },
+          {
+            from: "09:00",
+            to: "13:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "18:00",
+          },
+          {
+            from: "08:00",
+            to: "10:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "15:00",
+          },
+          {
+            from: "13:00",
+            to: "17:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Victoria is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Urban Legends, Religious Sites, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.4,
+    reviewsCount: 38,
+    quote: "In Toronto, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/6.jpg",
+    languages: ["Mandarin"],
+    experienceYears: 4,
+    certifications: ["Wilderness First Responder", "Language Proficiency Certification", "Professional Tour Guide Association"],
+    specialties: ["Urban Legends", "Religious Sites"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-toronto-6",
+    name: "Henry Clark",
+    city: "Toronto",
+    country: "Canada",
+    state: "",
+    region: "East Coast Canada",
+    isPopular: false,
+    bio: "Henry is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Art Galleries, Parks & Gardens, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Mediterranean", "Alaska"],
+    tourTypes: ["Architecture Tour", "Relocation Tour", "Shopping Tour"],
+    maxGroupSize: 6,
+    licenseNumber: "LIC-7651-TOR",
+    phoneNumber: "+1-724-953-3395",
+    contactEmail: "henry.clark@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "21:00",
+          },
+          {
+            from: "09:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "16:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "10:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Henry is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Art Galleries, Parks & Gardens, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 61,
+    quote: "Toronto isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/53.jpg",
+    languages: ["Finnish", "Czech"],
+    experienceYears: 12,
+    certifications: ["Food Safety Certification"],
+    specialties: ["Art Galleries", "Parks & Gardens"],
+    specialTraining: ["Marine Biology"],
+  },
+  {
+    id: "guide-toronto-7",
+    name: "Benjamin Miller",
+    city: "Toronto",
+    country: "Canada",
+    state: "",
+    region: "East Coast Canada",
+    isPopular: false,
+    bio: "Benjamin is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Urban Legends, Photography Spots, Local Cuisine, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa", "Mediterranean"],
+    tourTypes: ["Self-Guided Tour", "Photography Tour", "Ghost Tour", "Bike Tour"],
+    maxGroupSize: 10,
+    licenseNumber: "LIC-7230-TOR",
+    phoneNumber: "+1-148-684-1585",
+    contactEmail: "benjamin.miller@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "12:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "17:00",
+          },
+          {
+            from: "13:00",
+            to: "19:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "12:00",
+          },
+          {
+            from: "08:00",
+            to: "12:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "20:00",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "12:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Benjamin is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Urban Legends, Photography Spots, Local Cuisine, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.4,
+    reviewsCount: 57,
+    quote: "Every corner of Toronto tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/30.jpg",
+    languages: ["Cantonese", "Dutch"],
+    experienceYears: 15,
+    certifications: ["Sustainable Tourism Certificate", "Local History Certification"],
+    specialties: ["Urban Legends", "Photography Spots", "Local Cuisine"],
+    specialTraining: ["Cultural Sensitivity", "Urban Planning"],
   }
 ];

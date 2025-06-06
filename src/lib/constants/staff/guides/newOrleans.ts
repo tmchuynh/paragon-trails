@@ -16,56 +16,7 @@ export const newOrleansunitedStatescaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-4610-NEW",
     phoneNumber: "+1-249-898-5423",
     contactEmail: "daniel.nelson@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "19:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "13:00",
-          },
-          {
-            from: "12:00",
-            to: "15:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "15:00",
-          },
-          {
-            from: "08:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00",
-          },
-          {
-            from: "11:00",
-            to: "17:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Daniel is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Urban Legends, Nightlife, Local Cuisine, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
@@ -93,69 +44,7 @@ export const newOrleansunitedStatescaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-2946-NEW",
     phoneNumber: "+1-437-494-4633",
     contactEmail: "joseph.ramirez@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "17:00",
-          },
-          {
-            from: "10:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "10:00",
-          },
-          {
-            from: "12:00",
-            to: "18:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "13:00",
-          },
-          {
-            from: "08:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "13:00",
-          },
-          {
-            from: "15:00",
-            to: "18:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Joseph is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Film Locations, Cultural Etiquette, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
@@ -183,52 +72,7 @@ export const newOrleansunitedStatescaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-4280-NEW",
     phoneNumber: "+1-733-111-1779",
     contactEmail: "jackson.thompson@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00",
-          },
-          {
-            from: "08:00",
-            to: "11:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "20:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "15:00",
-          },
-          {
-            from: "14:00",
-            to: "18:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Jackson is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Wine Tasting, Urban Legends, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
@@ -256,35 +100,7 @@ export const newOrleansunitedStatescaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-9424-NEW",
     phoneNumber: "+1-402-804-9268",
     contactEmail: "lily.king@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "18:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "18:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "17:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Lily is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Wildlife, Lily provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
@@ -312,26 +128,7 @@ export const newOrleansunitedStatescaribbeanGuides: TourGuide[] = [
     licenseNumber: "LIC-6901-NEW",
     phoneNumber: "+1-780-165-2774",
     contactEmail: "matthew.johnson@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "14:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Matthew is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in LGBTQ+ History, Hidden Gems, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
@@ -343,5 +140,207 @@ export const newOrleansunitedStatescaribbeanGuides: TourGuide[] = [
     certifications: ["Heritage Interpretation Certificate"],
     specialties: ["LGBTQ+ History", "Hidden Gems"],
     specialTraining: ["Local Flora & Fauna", "Desert Navigation"],
+  },
+  {
+    id: "guide-new-orleans-6",
+    name: "Liam Roberts",
+    city: "New Orleans",
+    country: "United States",
+    state: "",
+    region: "Caribbean",
+    isPopular: true,
+    bio: "Liam is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Wildlife, Local Craftsmanship, Architecture, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Mediterranean", "East Coast Canada"],
+    tourTypes: ["Farm Visit", "Self-Guided Tour", "Audio Tour", "Scenic Tour"],
+    maxGroupSize: 9,
+    licenseNumber: "LIC-1372-NEW",
+    phoneNumber: "+1-247-758-2632",
+    contactEmail: "liam.roberts@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "16:00",
+          },
+          {
+            from: "08:00",
+            to: "12:00",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "16:00",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "19:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "12:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "18:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Liam is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Wildlife, Local Craftsmanship, Architecture, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 5,
+    reviewsCount: 62,
+    quote: "New Orleans isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/70.jpg",
+    languages: ["Russian", "Norwegian", "Greek"],
+    experienceYears: 8,
+    certifications: ["Food Safety Certification", "Regional Tourism Ambassador"],
+    specialties: ["Wildlife", "Local Craftsmanship", "Architecture"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-new-orleans-7",
+    name: "Sebastian Brown",
+    city: "New Orleans",
+    country: "United States",
+    state: "",
+    region: "Caribbean",
+    isPopular: true,
+    bio: "Sebastian is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Nightlife, Architecture, Film Locations, Historical Landmarks, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["West Coast USA"],
+    tourTypes: ["Underground Tour", "Cooking Class", "LGBTQ+ Friendly Tour", "Festival Tour", "Ghost Tour"],
+    maxGroupSize: 14,
+    licenseNumber: "LIC-5730-NEW",
+    phoneNumber: "+1-965-214-4157",
+    contactEmail: "sebastian.brown@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "13:00",
+          },
+          {
+            from: "10:00",
+            to: "16:00",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "11:00",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "14:00",
+          },
+          {
+            from: "11:00",
+            to: "13:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Sebastian is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Nightlife, Architecture, Film Locations, Historical Landmarks, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.7,
+    reviewsCount: 82,
+    quote: "New Orleans isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/9.jpg",
+    languages: ["Spanish", "Japanese", "Hebrew"],
+    experienceYears: 4,
+    certifications: ["Urban Navigation Specialist"],
+    specialties: ["Nightlife", "Architecture", "Film Locations", "Historical Landmarks"],
+    specialTraining: ["Religious Studies"],
+  },
+  {
+    id: "guide-new-orleans-8",
+    name: "Penelope Robinson",
+    city: "New Orleans",
+    country: "United States",
+    state: "",
+    region: "Caribbean",
+    isPopular: false,
+    bio: "Penelope is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Public Transportation Navigation, Indigenous Culture, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa"],
+    tourTypes: ["Craft Workshop", "Private Tour"],
+    maxGroupSize: 5,
+    licenseNumber: "LIC-1896-NEW",
+    phoneNumber: "+1-199-362-7541",
+    contactEmail: "penelope.robinson@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "16:00",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "20:00",
+          },
+          {
+            from: "12:00",
+            to: "17:00",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "12:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Penelope is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Public Transportation Navigation, Indigenous Culture, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 43,
+    quote: "My goal is to help you fall in love with New Orleans just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/40.jpg",
+    languages: ["Czech", "Finnish"],
+    experienceYears: 2,
+    certifications: ["Urban Navigation Specialist"],
+    specialties: ["Public Transportation Navigation", "Indigenous Culture"],
+    specialTraining: ["Religious Studies", "Historical Research Methods"],
   }
 ];

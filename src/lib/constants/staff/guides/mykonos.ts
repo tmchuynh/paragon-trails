@@ -16,30 +16,7 @@ export const mykonosgreecemediterraneanGuides: TourGuide[] = [
     licenseNumber: "LIC-8373-MYK",
     phoneNumber: "+1-319-179-7425",
     contactEmail: "henry.lopez@paragontrails.com",
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "13:00",
-          },
-          {
-            from: "12:00",
-            to: "14:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "17:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Henry is a passionate tour guide with extensive knowledge of Mykonos and Greece. Specializing in Parks & Gardens, Urban Legends, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
@@ -67,52 +44,7 @@ export const mykonosgreecemediterraneanGuides: TourGuide[] = [
     licenseNumber: "LIC-7587-MYK",
     phoneNumber: "+1-829-624-8260",
     contactEmail: "henry.ramirez@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "20:00",
-          },
-          {
-            from: "08:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00",
-          },
-          {
-            from: "11:00",
-            to: "17:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "17:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Henry is a passionate tour guide with extensive knowledge of Mykonos and Greece. Specializing in Sustainable Tourism, Architecture, Street Food, Music Scene, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
@@ -140,52 +72,7 @@ export const mykonosgreecemediterraneanGuides: TourGuide[] = [
     licenseNumber: "LIC-8578-MYK",
     phoneNumber: "+1-313-982-4575",
     contactEmail: "daniel.hall@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "21:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "15:00",
-          },
-          {
-            from: "10:00",
-            to: "13:00",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "13:00",
-          },
-          {
-            from: "14:00",
-            to: "20:00",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "16:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Daniel is a passionate tour guide with extensive knowledge of Mykonos and Greece. Specializing in LGBTQ+ History, Family Activities, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
@@ -213,48 +100,7 @@ export const mykonosgreecemediterraneanGuides: TourGuide[] = [
     licenseNumber: "LIC-3128-MYK",
     phoneNumber: "+1-985-221-7221",
     contactEmail: "daniel.lee@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "16:00",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "10:00",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "13:00",
-          },
-          {
-            from: "08:00",
-            to: "14:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Daniel is a passionate tour guide with extensive knowledge of Mykonos and Greece. Specializing in Wildlife, Hidden Gems, Urban Legends, Religious Sites, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
@@ -282,34 +128,7 @@ export const mykonosgreecemediterraneanGuides: TourGuide[] = [
     licenseNumber: "LIC-5625-MYK",
     phoneNumber: "+1-710-832-2273",
     contactEmail: "abigail.campbell@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "13:00",
-          },
-          {
-            from: "09:00",
-            to: "12:00",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "16:00",
-          },
-          {
-            from: "11:00",
-            to: "13:00",
-          }
-        ],
-      }
-    ],
+    available: [],
     isCertified: true,
     description: "Abigail is a passionate tour guide with extensive knowledge of Mykonos and Greece. Specializing in Hidden Gems, Street Food, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
@@ -321,5 +140,210 @@ export const mykonosgreecemediterraneanGuides: TourGuide[] = [
     certifications: ["Heritage Interpretation Certificate", "Certified International Tour Manager"],
     specialties: ["Hidden Gems", "Street Food"],
     specialTraining: ["Marine Biology"],
+  },
+  {
+    id: "guide-mykonos-6",
+    name: "Zoe Nelson",
+    city: "Mykonos",
+    country: "Greece",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Zoe is a passionate tour guide with extensive knowledge of Mykonos and Greece. Specializing in Cultural Etiquette, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast USA", "Caribbean"],
+    tourTypes: ["Market Tour", "Accessible Tour", "Bike Tour", "Family-Friendly Tour"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-7228-MYK",
+    phoneNumber: "+1-981-809-5373",
+    contactEmail: "zoe.nelson@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "17:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "19:00",
+          },
+          {
+            from: "12:00",
+            to: "17:00",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "13:00",
+          },
+          {
+            from: "10:00",
+            to: "15:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Zoe is a passionate tour guide with extensive knowledge of Mykonos and Greece. Specializing in Cultural Etiquette, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 47,
+    quote: "Every corner of Mykonos tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/8.jpg",
+    languages: ["Finnish"],
+    experienceYears: 11,
+    certifications: ["Certified International Tour Manager", "Eco-Tourism Guide"],
+    specialties: ["Cultural Etiquette"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-mykonos-7",
+    name: "Penelope Martin",
+    city: "Mykonos",
+    country: "Greece",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Penelope is a passionate tour guide with extensive knowledge of Mykonos and Greece. Specializing in Nightlife, Art Galleries, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Alaska"],
+    tourTypes: ["Cultural Tour", "Accessible Tour", "Private Tour"],
+    maxGroupSize: 12,
+    licenseNumber: "LIC-4185-MYK",
+    phoneNumber: "+1-240-442-8456",
+    contactEmail: "penelope.martin@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "18:00",
+          },
+          {
+            from: "10:00",
+            to: "15:00",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "10:00",
+            to: "12:00",
+          },
+          {
+            from: "09:00",
+            to: "14:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "17:00",
+          },
+          {
+            from: "15:00",
+            to: "20:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Penelope is a passionate tour guide with extensive knowledge of Mykonos and Greece. Specializing in Nightlife, Art Galleries, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4,
+    reviewsCount: 12,
+    quote: "In Mykonos, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/9.jpg",
+    languages: ["Norwegian", "Swedish", "Portuguese"],
+    experienceYears: 16,
+    certifications: ["Adventure Tourism Safety Certificate"],
+    specialties: ["Nightlife", "Art Galleries"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-mykonos-8",
+    name: "Owen Brown",
+    city: "Mykonos",
+    country: "Greece",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Owen is a passionate tour guide with extensive knowledge of Mykonos and Greece. Specializing in Local Craftsmanship, Family Activities, Owen provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Alaska"],
+    tourTypes: ["Self-Guided Tour", "Wildlife Safari", "Architecture Tour", "Historical Tour", "Walking Tour"],
+    maxGroupSize: 8,
+    licenseNumber: "LIC-5117-MYK",
+    phoneNumber: "+1-835-652-2407",
+    contactEmail: "owen.brown@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "11:00",
+          },
+          {
+            from: "14:00",
+            to: "16:00",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "19:00",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "13:00",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "12:00",
+          },
+          {
+            from: "11:00",
+            to: "15:00",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Owen is a passionate tour guide with extensive knowledge of Mykonos and Greece. Specializing in Local Craftsmanship, Family Activities, Owen provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.9,
+    reviewsCount: 103,
+    quote: "Mykonos isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/48.jpg",
+    languages: ["Spanish", "Arabic", "Serbian"],
+    experienceYears: 4,
+    certifications: ["Language Proficiency Certification", "Professional Tour Guide Association"],
+    specialties: ["Local Craftsmanship", "Family Activities"],
+    specialTraining: ["Wine Education"],
   }
 ];
