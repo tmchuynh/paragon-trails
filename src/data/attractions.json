@@ -10,8 +10,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "9:00 AM",
+              "to": "5:00 PM"
             }
           ]
         },
@@ -19,8 +19,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "9:00 AM",
+              "to": "5:00 PM"
             }
           ]
         },
@@ -28,8 +28,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "9:00 AM",
+              "to": "5:00 PM"
             }
           ]
         },
@@ -37,8 +37,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "9:00 AM",
+              "to": "5:00 PM"
             }
           ]
         },
@@ -46,8 +46,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "9:00 AM",
+              "to": "5:00 PM"
             }
           ]
         },
@@ -55,8 +55,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "9:00 AM",
+              "to": "5:00 PM"
             }
           ]
         },
@@ -64,8 +64,8 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "9:00 AM",
+              "to": "5:00 PM"
             }
           ]
         }
@@ -113,8 +113,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "19:00"
+              "from": "9:00 AM",
+              "to": "7:00 PM"
             }
           ]
         },
@@ -122,8 +122,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "19:00"
+              "from": "9:00 AM",
+              "to": "7:00 PM"
             }
           ]
         },
@@ -131,8 +131,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "19:00"
+              "from": "9:00 AM",
+              "to": "7:00 PM"
             }
           ]
         },
@@ -140,8 +140,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "19:00"
+              "from": "9:00 AM",
+              "to": "7:00 PM"
             }
           ]
         },
@@ -149,8 +149,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "19:00"
+              "from": "9:00 AM",
+              "to": "7:00 PM"
             }
           ]
         },
@@ -158,8 +158,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "19:00"
+              "from": "9:00 AM",
+              "to": "7:00 PM"
             }
           ]
         },
@@ -167,8 +167,8 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "19:00"
+              "from": "9:00 AM",
+              "to": "7:00 PM"
             }
           ]
         }
@@ -215,8 +215,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "00:00",
-              "to": "23:59"
+              "from": "12:00 AM",
+              "to": "11:59 PM"
             }
           ]
         },
@@ -224,8 +224,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "00:00",
-              "to": "23:59"
+              "from": "12:00 AM",
+              "to": "11:59 PM"
             }
           ]
         },
@@ -233,8 +233,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "00:00",
-              "to": "23:59"
+              "from": "12:00 AM",
+              "to": "11:59 PM"
             }
           ]
         },
@@ -242,8 +242,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "00:00",
-              "to": "23:59"
+              "from": "12:00 AM",
+              "to": "11:59 PM"
             }
           ]
         },
@@ -251,8 +251,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "00:00",
-              "to": "23:59"
+              "from": "12:00 AM",
+              "to": "11:59 PM"
             }
           ]
         },
@@ -260,8 +260,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "00:00",
-              "to": "23:59"
+              "from": "12:00 AM",
+              "to": "11:59 PM"
             }
           ]
         },
@@ -269,8 +269,8 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "00:00",
-              "to": "23:59"
+              "from": "12:00 AM",
+              "to": "11:59 PM"
             }
           ]
         }
@@ -278,7 +278,7 @@
       "entryFeeCategory": "free",
       "priceRange": "free",
       "priceCategory": "free",
-      "timeOfDay": "all day",
+      "timeOfDay": "daytime",
       "rating": 4.6,
       "tags": [
         "Adventure",
@@ -300,7 +300,7 @@
   "london": {
     "Tower of London": {
       "title": "Tower of London",
-      "description": "Historic castle and former royal palace with deep history.",
+      "description": "Historic castle on the north bank of the River Thames.",
       "imageUrl": "https://images.unsplash.com/photo-london-tower-of-london",
       "location": "St Katharine's & Wapping, London",
       "openingHours": [
@@ -308,8 +308,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:30"
+              "from": "10:00 AM",
+              "to": "5:30 PM"
             }
           ]
         },
@@ -317,8 +317,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:30"
+              "from": "9:00 AM",
+              "to": "5:30 PM"
             }
           ]
         },
@@ -326,8 +326,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:30"
+              "from": "9:00 AM",
+              "to": "5:30 PM"
             }
           ]
         },
@@ -335,8 +335,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:30"
+              "from": "9:00 AM",
+              "to": "5:30 PM"
             }
           ]
         },
@@ -344,8 +344,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:30"
+              "from": "9:00 AM",
+              "to": "5:30 PM"
             }
           ]
         },
@@ -353,8 +353,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:30"
+              "from": "9:00 AM",
+              "to": "5:30 PM"
             }
           ]
         },
@@ -362,44 +362,48 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:30"
+              "from": "10:00 AM",
+              "to": "5:30 PM"
             }
           ]
         }
       ],
       "entryFee": "£29.90",
-      "entryFeeCategory": "moderate",
-      "priceRange": "$$",
-      "priceCategory": "moderate",
+      "entryFeeCategory": "expensive",
+      "priceRange": "$$$",
+      "priceCategory": "premium",
       "timeOfDay": "daytime",
-      "rating": 4.7,
+      "rating": 4.6,
       "tags": [
         "Historical",
         "Spiritual",
         "Popular"
       ],
       "accessibilityFeatures": [
-        "limited wheelchair access"
+        "partial wheelchair access"
       ],
       "entryFees": [
         {
           "category": "adult",
           "priceRange": "£29.90",
+          "priceCategory": "expensive"
+        },
+        {
+          "category": "child",
+          "priceRange": "£14.90",
           "priceCategory": "moderate"
         }
       ],
       "features": [
-        "historical site",
         "castle",
-        "fortress",
-        "guided tours",
-        "crown jewels"
+        "history",
+        "crown jewels",
+        "guided tours"
       ]
     },
     "British Museum": {
       "title": "British Museum",
-      "description": "World-famous museum with vast historical collections.",
+      "description": "Public museum dedicated to human history, art and culture.",
       "imageUrl": "https://images.unsplash.com/photo-london-british-museum",
       "location": "Great Russell St, London",
       "openingHours": [
@@ -407,8 +411,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:30"
+              "from": "10:00 AM",
+              "to": "5:00 PM"
             }
           ]
         },
@@ -416,8 +420,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:30"
+              "from": "10:00 AM",
+              "to": "5:00 PM"
             }
           ]
         },
@@ -425,8 +429,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:30"
+              "from": "10:00 AM",
+              "to": "5:00 PM"
             }
           ]
         },
@@ -434,8 +438,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:30"
+              "from": "10:00 AM",
+              "to": "5:00 PM"
             }
           ]
         },
@@ -443,8 +447,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:30"
+              "from": "10:00 AM",
+              "to": "8:30 PM"
             }
           ]
         },
@@ -452,8 +456,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:30"
+              "from": "10:00 AM",
+              "to": "5:30 PM"
             }
           ]
         },
@@ -461,8 +465,8 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:30"
+              "from": "10:00 AM",
+              "to": "5:30 PM"
             }
           ]
         }
@@ -475,20 +479,25 @@
       "tags": [
         "Historical",
         "Artormusic",
+        "Free",
         "Popular"
       ],
-      "accessibilityFeatures": [],
+      "accessibilityFeatures": [
+        "wheelchair accessible",
+        "audio guides"
+      ],
       "entryFees": [],
       "features": [
         "museum",
-        "historical artifacts",
-        "exhibitions",
-        "world history"
+        "art",
+        "world history",
+        "artifacts",
+        "exhibitions"
       ]
     },
     "Hyde Park": {
       "title": "Hyde Park",
-      "description": "Expansive green space in London, great for walking and events.",
+      "description": "One of the largest parks in London and a Royal Park.",
       "imageUrl": "https://images.unsplash.com/photo-london-hyde-park",
       "location": "Hyde Park, London",
       "openingHours": [
@@ -496,8 +505,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "05:00",
-              "to": "00:00"
+              "from": "5:00 AM",
+              "to": "12:00 AM"
             }
           ]
         },
@@ -505,8 +514,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "05:00",
-              "to": "00:00"
+              "from": "5:00 AM",
+              "to": "12:00 AM"
             }
           ]
         },
@@ -514,8 +523,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "05:00",
-              "to": "00:00"
+              "from": "5:00 AM",
+              "to": "12:00 AM"
             }
           ]
         },
@@ -523,8 +532,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "05:00",
-              "to": "00:00"
+              "from": "5:00 AM",
+              "to": "12:00 AM"
             }
           ]
         },
@@ -532,8 +541,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "05:00",
-              "to": "00:00"
+              "from": "5:00 AM",
+              "to": "12:00 AM"
             }
           ]
         },
@@ -541,8 +550,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "05:00",
-              "to": "00:00"
+              "from": "5:00 AM",
+              "to": "12:00 AM"
             }
           ]
         },
@@ -550,8 +559,8 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "05:00",
-              "to": "00:00"
+              "from": "5:00 AM",
+              "to": "12:00 AM"
             }
           ]
         }
@@ -559,7 +568,7 @@
       "entryFeeCategory": "free",
       "priceRange": "free",
       "priceCategory": "free",
-      "timeOfDay": "all day",
+      "timeOfDay": "daytime",
       "rating": 4.7,
       "tags": [
         "Adventure",
@@ -567,21 +576,22 @@
         "Popular",
         "Petfriendly"
       ],
-      "accessibilityFeatures": [],
+      "accessibilityFeatures": [
+        "wheelchair accessible paths"
+      ],
       "entryFees": [],
       "features": [
         "park",
-        "walking",
         "lake",
-        "outdoor activities",
-        "events"
+        "gardens",
+        "outdoor activities"
       ]
     }
   },
   "new-york-city": {
     "Statue of Liberty": {
       "title": "Statue of Liberty",
-      "description": "Iconic symbol of freedom on Liberty Island.",
+      "description": "Iconic copper statue representing freedom and democracy.",
       "imageUrl": "https://images.unsplash.com/photo-nyc-statue-of-liberty",
       "location": "Liberty Island, New York City",
       "openingHours": [
@@ -589,8 +599,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "08:30",
-              "to": "16:00"
+              "from": "9:30 AM",
+              "to": "4:30 PM"
             }
           ]
         },
@@ -598,8 +608,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "08:30",
-              "to": "16:00"
+              "from": "9:30 AM",
+              "to": "4:30 PM"
             }
           ]
         },
@@ -607,8 +617,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "08:30",
-              "to": "16:00"
+              "from": "9:30 AM",
+              "to": "4:30 PM"
             }
           ]
         },
@@ -616,8 +626,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "08:30",
-              "to": "16:00"
+              "from": "9:30 AM",
+              "to": "4:30 PM"
             }
           ]
         },
@@ -625,8 +635,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "08:30",
-              "to": "16:00"
+              "from": "9:30 AM",
+              "to": "4:30 PM"
             }
           ]
         },
@@ -634,8 +644,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "08:30",
-              "to": "16:00"
+              "from": "9:30 AM",
+              "to": "4:30 PM"
             }
           ]
         },
@@ -643,13 +653,13 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "08:30",
-              "to": "16:00"
+              "from": "9:30 AM",
+              "to": "4:30 PM"
             }
           ]
         }
       ],
-      "entryFee": "$23.50",
+      "entryFee": "$24.30",
       "entryFeeCategory": "moderate",
       "priceRange": "$$",
       "priceCategory": "moderate",
@@ -660,29 +670,30 @@
         "Popular"
       ],
       "accessibilityFeatures": [
-        "wheelchair accessible ferry and pedestal"
+        "elevator to observation deck"
       ],
       "entryFees": [
         {
           "category": "adult",
-          "priceRange": "$23.50",
+          "priceRange": "$24.30",
           "priceCategory": "moderate"
         },
         {
           "category": "child",
-          "priceRange": "$12",
+          "priceRange": "$12.15",
           "priceCategory": "budget"
         }
       ],
       "features": [
         "monument",
-        "historical site",
-        "guided tours"
+        "national park",
+        "views",
+        "ferry ride"
       ]
     },
     "Central Park": {
       "title": "Central Park",
-      "description": "Large urban park with walking trails, lakes, and cultural sites.",
+      "description": "Expansive urban park in the heart of Manhattan.",
       "imageUrl": "https://images.unsplash.com/photo-nyc-central-park",
       "location": "Central Park, New York City",
       "openingHours": [
@@ -690,8 +701,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "06:00",
-              "to": "23:59"
+              "from": "6:00 AM",
+              "to": "1:00 AM"
             }
           ]
         },
@@ -699,8 +710,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "06:00",
-              "to": "23:59"
+              "from": "6:00 AM",
+              "to": "1:00 AM"
             }
           ]
         },
@@ -708,8 +719,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "06:00",
-              "to": "23:59"
+              "from": "6:00 AM",
+              "to": "1:00 AM"
             }
           ]
         },
@@ -717,8 +728,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "06:00",
-              "to": "23:59"
+              "from": "6:00 AM",
+              "to": "1:00 AM"
             }
           ]
         },
@@ -726,8 +737,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "06:00",
-              "to": "23:59"
+              "from": "6:00 AM",
+              "to": "1:00 AM"
             }
           ]
         },
@@ -735,8 +746,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "06:00",
-              "to": "23:59"
+              "from": "6:00 AM",
+              "to": "1:00 AM"
             }
           ]
         },
@@ -744,8 +755,8 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "06:00",
-              "to": "23:59"
+              "from": "6:00 AM",
+              "to": "1:00 AM"
             }
           ]
         }
@@ -753,27 +764,30 @@
       "entryFeeCategory": "free",
       "priceRange": "free",
       "priceCategory": "free",
-      "timeOfDay": "all day",
-      "rating": 4.8,
+      "timeOfDay": "daytime",
+      "rating": 4.9,
       "tags": [
         "Adventure",
         "Free",
         "Popular",
         "Petfriendly"
       ],
-      "accessibilityFeatures": [],
+      "accessibilityFeatures": [
+        "accessible paths",
+        "adaptive playgrounds"
+      ],
       "entryFees": [],
       "features": [
         "park",
-        "walking",
-        "outdoor",
-        "cycling",
-        "picnic"
+        "lake",
+        "zoo",
+        "paths",
+        "outdoor activities"
       ]
     },
     "Metropolitan Museum of Art": {
       "title": "Metropolitan Museum of Art",
-      "description": "World-renowned museum with extensive art collections.",
+      "description": "One of the world's largest and most prestigious art museums.",
       "imageUrl": "https://images.unsplash.com/photo-nyc-met-museum",
       "location": "1000 5th Ave, New York City",
       "openingHours": [
@@ -781,8 +795,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:30"
+              "from": "10:00 AM",
+              "to": "5:30 PM"
             }
           ]
         },
@@ -790,8 +804,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:30"
+              "from": "10:00 AM",
+              "to": "5:30 PM"
             }
           ]
         },
@@ -799,8 +813,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:30"
+              "from": "10:00 AM",
+              "to": "5:30 PM"
             }
           ]
         },
@@ -808,8 +822,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:30"
+              "from": "10:00 AM",
+              "to": "5:30 PM"
             }
           ]
         },
@@ -817,8 +831,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:30"
+              "from": "10:00 AM",
+              "to": "9:00 PM"
             }
           ]
         },
@@ -826,8 +840,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:30"
+              "from": "10:00 AM",
+              "to": "9:00 PM"
             }
           ]
         },
@@ -835,50 +849,61 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:30"
+              "from": "10:00 AM",
+              "to": "5:30 PM"
             }
           ]
         }
       ],
-      "entryFee": "$30",
-      "entryFeeCategory": "expensive",
-      "priceRange": "$$$",
-      "priceCategory": "expensive",
+      "entryFee": "$25",
+      "entryFeeCategory": "moderate",
+      "priceRange": "$$",
+      "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.7,
+      "rating": 4.8,
       "tags": [
         "Historical",
         "Artormusic",
         "Popular"
       ],
       "accessibilityFeatures": [
-        "wheelchair accessible entrances and elevators"
+        "wheelchair accessible",
+        "assistive listening devices"
       ],
       "entryFees": [
         {
           "category": "adult",
-          "priceRange": "$30",
-          "priceCategory": "expensive"
+          "priceRange": "$25",
+          "priceCategory": "moderate"
         },
         {
-          "category": "child",
-          "priceRange": "$15",
+          "category": "student",
+          "priceRange": "$12",
           "priceCategory": "budget"
+        },
+        {
+          "category": "senior",
+          "priceRange": "$17",
+          "priceCategory": "budget"
+        },
+        {
+          "category": "child under 12",
+          "priceRange": "Free",
+          "priceCategory": "free"
         }
       ],
       "features": [
         "museum",
         "art",
-        "cultural history",
-        "guided tours"
+        "exhibitions",
+        "world-class collection"
       ]
     }
   },
   "paris": {
     "Eiffel Tower": {
       "title": "Eiffel Tower",
-      "description": "World-famous iron tower offering panoramic views of Paris.",
+      "description": "Iconic wrought-iron lattice tower on the Champ de Mars.",
       "imageUrl": "https://images.unsplash.com/photo-paris-eiffel-tower",
       "location": "Champ de Mars, Paris",
       "openingHours": [
@@ -886,8 +911,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "09:30",
-              "to": "23:45"
+              "from": "9:30 AM",
+              "to": "11:45 PM"
             }
           ]
         },
@@ -895,8 +920,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "09:30",
-              "to": "23:45"
+              "from": "9:30 AM",
+              "to": "11:45 PM"
             }
           ]
         },
@@ -904,8 +929,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "09:30",
-              "to": "23:45"
+              "from": "9:30 AM",
+              "to": "11:45 PM"
             }
           ]
         },
@@ -913,8 +938,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "09:30",
-              "to": "23:45"
+              "from": "9:30 AM",
+              "to": "11:45 PM"
             }
           ]
         },
@@ -922,8 +947,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "09:30",
-              "to": "23:45"
+              "from": "9:30 AM",
+              "to": "11:45 PM"
             }
           ]
         },
@@ -931,8 +956,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "09:30",
-              "to": "23:45"
+              "from": "9:30 AM",
+              "to": "11:45 PM"
             }
           ]
         },
@@ -940,47 +965,54 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "09:30",
-              "to": "23:45"
+              "from": "9:30 AM",
+              "to": "11:45 PM"
             }
           ]
         }
       ],
-      "entryFee": "€25",
-      "entryFeeCategory": "moderate",
-      "priceRange": "$$",
-      "priceCategory": "moderate",
+      "entryFee": "€26.80",
+      "entryFeeCategory": "expensive",
+      "priceRange": "$$$",
+      "priceCategory": "premium",
       "timeOfDay": "daytime",
-      "rating": 4.7,
+      "rating": 4.6,
       "tags": [
         "Historical",
         "Romantic",
         "Popular"
       ],
       "accessibilityFeatures": [
-        "wheelchair accessible elevator"
+        "elevator access",
+        "wheelchair accessible platform"
       ],
       "entryFees": [
         {
-          "category": "adult",
-          "priceRange": "€25",
+          "category": "adult to top",
+          "priceRange": "€26.80",
+          "priceCategory": "expensive"
+        },
+        {
+          "category": "youth to top",
+          "priceRange": "€13.40",
           "priceCategory": "moderate"
         },
         {
-          "category": "child",
-          "priceRange": "€12.50",
-          "priceCategory": "budget"
+          "category": "adult to second floor",
+          "priceRange": "€16.70",
+          "priceCategory": "moderate"
         }
       ],
       "features": [
         "landmark",
-        "observation deck",
-        "guided tours"
+        "views",
+        "restaurant",
+        "observation deck"
       ]
     },
     "Louvre Museum": {
       "title": "Louvre Museum",
-      "description": "Largest art museum in the world, home to the Mona Lisa.",
+      "description": "World's largest art museum and a historic monument in Paris.",
       "imageUrl": "https://images.unsplash.com/photo-paris-louvre",
       "location": "Rue de Rivoli, Paris",
       "openingHours": [
@@ -988,8 +1020,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "18:00"
+              "from": "9:00 AM",
+              "to": "6:00 PM"
             }
           ]
         },
@@ -997,8 +1029,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "18:00"
+              "from": "9:00 AM",
+              "to": "6:00 PM"
             }
           ]
         },
@@ -1006,8 +1038,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "18:00"
+              "from": "9:00 AM",
+              "to": "6:00 PM"
             }
           ]
         },
@@ -1015,8 +1047,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "18:00"
+              "from": "9:00 AM",
+              "to": "6:00 PM"
             }
           ]
         },
@@ -1024,8 +1056,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "18:00"
+              "from": "9:00 AM",
+              "to": "9:45 PM"
             }
           ]
         },
@@ -1033,8 +1065,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "18:00"
+              "from": "9:00 AM",
+              "to": "9:45 PM"
             }
           ]
         },
@@ -1042,16 +1074,16 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "18:00"
+              "from": "9:00 AM",
+              "to": "6:00 PM"
             }
           ]
         }
       ],
       "entryFee": "€17",
-      "entryFeeCategory": "budget",
-      "priceRange": "$",
-      "priceCategory": "budget",
+      "entryFeeCategory": "moderate",
+      "priceRange": "$$",
+      "priceCategory": "moderate",
       "timeOfDay": "daytime",
       "rating": 4.8,
       "tags": [
@@ -1066,7 +1098,7 @@
         {
           "category": "adult",
           "priceRange": "€17",
-          "priceCategory": "budget"
+          "priceCategory": "moderate"
         },
         {
           "category": "child",
@@ -5182,8 +5214,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -5191,8 +5223,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -5200,8 +5232,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -5209,8 +5241,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -5218,8 +5250,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -5227,8 +5259,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -5236,8 +5268,8 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
@@ -5660,7 +5692,7 @@
   "bermuda": {
     "Horseshoe Bay Beach": {
       "title": "Horseshoe Bay Beach",
-      "description": "A picturesque pink-sand beach known for its clear turquoise waters and scenic rock formations.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-bermuda-horseshoe-bay",
       "location": "South Road, Southampton Parish, Bermuda",
       "openingHours": [
@@ -5728,28 +5760,19 @@
           ]
         }
       ],
-      "entryFeeCategory": "free",
-      "priceRange": "free",
-      "priceCategory": "free",
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
+      "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.7,
-      "tags": [
-        "Adventure",
-        "Free",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "beach",
-        "snorkeling",
-        "swimming",
-        "sunbathing"
-      ]
+      "features": []
     },
     "Crystal & Fantasy Caves": {
       "title": "Crystal & Fantasy Caves",
-      "description": "Stunning underground caves featuring crystal-clear pools and dramatic stalactites and stalagmites.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-bermuda-crystal-caves",
       "location": "8 Crystal Caves Rd, Hamilton Parish CR 04, Bermuda",
       "openingHours": [
@@ -5757,8 +5780,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -5766,8 +5789,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -5775,8 +5798,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -5784,8 +5807,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -5793,8 +5816,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -5802,8 +5825,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -5811,34 +5834,25 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFee": "$22",
       "entryFeeCategory": "moderate",
-      "priceRange": "$$",
+      "priceRange": "$",
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.6,
-      "tags": [
-        "Adventure",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "caves",
-        "stalactites",
-        "stalagmites",
-        "guided tours"
-      ]
+      "features": []
     },
     "Royal Naval Dockyard": {
       "title": "Royal Naval Dockyard",
-      "description": "Historic naval base transformed into a cultural and entertainment hub with shops, museums, and restaurants.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-bermuda-dockyard",
       "location": "5 Freeport Drive, Sandys MA 01, Bermuda",
       "openingHours": [
@@ -5846,8 +5860,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "18:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -5855,8 +5869,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "18:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -5864,8 +5878,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "18:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -5873,8 +5887,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "18:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -5882,8 +5896,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "18:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -5891,8 +5905,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "18:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -5900,34 +5914,25 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "18:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFeeCategory": "free",
-      "priceRange": "free",
-      "priceCategory": "free",
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
+      "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.5,
-      "tags": [
-        "Historical",
-        "Free",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "naval history",
-        "museums",
-        "shopping",
-        "dining"
-      ]
+      "features": []
     },
     "Gibb's Hill Lighthouse": {
       "title": "Gibb's Hill Lighthouse",
-      "description": "One of the oldest cast-iron lighthouses in the world, offering panoramic views of Bermuda from its summit.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-gibbs-hill-lighthouse",
       "location": "St Anne's Rd, Southampton Parish, Bermuda",
       "openingHours": [
@@ -5935,8 +5940,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "09:30",
-              "to": "16:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -5944,8 +5949,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "09:30",
-              "to": "16:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -5953,8 +5958,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "09:30",
-              "to": "16:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -5962,8 +5967,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "09:30",
-              "to": "16:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -5971,8 +5976,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "09:30",
-              "to": "16:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -5980,8 +5985,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "09:30",
-              "to": "16:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -5989,41 +5994,25 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "16:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFee": "$2.50",
-      "entryFeeCategory": "budget",
+      "entryFeeCategory": "moderate",
       "priceRange": "$",
-      "priceCategory": "budget",
+      "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.5,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "185-step staircase to the top; not suitable for wheelchairs"
-      ],
-      "entryFees": [
-        {
-          "category": "general",
-          "priceRange": "$2.50",
-          "priceCategory": "budget"
-        }
-      ],
-      "features": [
-        "lighthouse",
-        "scenic views",
-        "historical landmark"
-      ]
+      "rating": 4,
+      "tags": [],
+      "accessibilityFeatures": [],
+      "entryFees": [],
+      "features": []
     },
     "Bermuda Aquarium, Museum & Zoo": {
       "title": "Bermuda Aquarium, Museum & Zoo",
-      "description": "A combined facility showcasing Bermuda's marine and terrestrial wildlife, as well as species from other oceanic islands.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-bermuda-aquarium",
       "location": "40 North Shore Rd, Flatts Village, Bermuda",
       "openingHours": [
@@ -6031,8 +6020,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -6040,8 +6029,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -6049,8 +6038,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -6058,8 +6047,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -6067,8 +6056,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -6076,8 +6065,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -6085,47 +6074,21 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFee": "Adult: $10; Child (5–12): $5; Children under 5: Free",
-      "entryFeeCategory": "budget",
+      "entryFeeCategory": "moderate",
       "priceRange": "$",
-      "priceCategory": "budget",
+      "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.4,
-      "tags": [
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "wheelchair accessible paths and exhibits"
-      ],
-      "entryFees": [
-        {
-          "category": "adult",
-          "priceRange": "$10",
-          "priceCategory": "budget"
-        },
-        {
-          "category": "child (5–12)",
-          "priceRange": "$5",
-          "priceCategory": "budget"
-        },
-        {
-          "category": "child (under 5)",
-          "priceRange": "Free",
-          "priceCategory": "free"
-        }
-      ],
-      "features": [
-        "aquarium",
-        "zoo",
-        "natural history museum",
-        "educational exhibits"
-      ]
+      "rating": 4,
+      "tags": [],
+      "accessibilityFeatures": [],
+      "entryFees": [],
+      "features": []
     }
   },
   "buenos-aires": {
@@ -6396,7 +6359,7 @@
   "cape-town": {
     "Table Mountain": {
       "title": "Table Mountain",
-      "description": "Iconic flat-topped mountain offering panoramic views of Cape Town.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-cape-town-table-mountain",
       "location": "Table Mountain National Park, Cape Town",
       "openingHours": [
@@ -6404,8 +6367,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "08:00",
-              "to": "19:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -6413,8 +6376,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "08:00",
-              "to": "19:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -6422,8 +6385,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "08:00",
-              "to": "19:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -6431,8 +6394,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "08:00",
-              "to": "19:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -6440,8 +6403,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "08:00",
-              "to": "19:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -6449,8 +6412,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "08:00",
-              "to": "19:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -6458,33 +6421,25 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "08:00",
-              "to": "19:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFee": "ZAR 360",
       "entryFeeCategory": "moderate",
-      "priceRange": "$$",
+      "priceRange": "$",
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.8,
-      "tags": [
-        "Adventure",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "mountain",
-        "hiking",
-        "scenic views"
-      ]
+      "features": []
     },
     "Robben Island": {
       "title": "Robben Island",
-      "description": "Historic island prison where Nelson Mandela was incarcerated.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-cape-town-robben-island",
       "location": "Robben Island Museum, Cape Town",
       "openingHours": [
@@ -6492,8 +6447,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -6501,8 +6456,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -6510,8 +6465,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -6519,8 +6474,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -6528,8 +6483,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -6537,8 +6492,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -6546,33 +6501,25 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFee": "ZAR 360",
       "entryFeeCategory": "moderate",
-      "priceRange": "$$",
+      "priceRange": "$",
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.7,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "island",
-        "prison museum",
-        "historical site"
-      ]
+      "features": []
     },
     "V&A Waterfront": {
       "title": "V&A Waterfront",
-      "description": "A bustling harbor area featuring shops, restaurants, entertainment, and scenic views of Table Mountain.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-cape-town-waterfront",
       "location": "Dock Road, Cape Town",
       "openingHours": [
@@ -6580,8 +6527,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "21:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -6589,8 +6536,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "21:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -6598,8 +6545,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "21:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -6607,8 +6554,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "21:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -6616,8 +6563,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "21:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -6625,8 +6572,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "21:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -6634,28 +6581,21 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "21:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFeeCategory": "free",
-      "priceRange": "varies",
-      "priceCategory": "varies",
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
+      "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.7,
-      "tags": [
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "harbor",
-        "shopping",
-        "dining",
-        "entertainment"
-      ]
+      "features": []
     }
   },
   "cartagena": {
@@ -6926,7 +6866,7 @@
   "charleston": {
     "Historic Downtown Charleston": {
       "title": "Historic Downtown Charleston",
-      "description": "Charming historic district featuring cobblestone streets, antebellum architecture, and vibrant markets.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-charleston-downtown",
       "location": "Charleston, SC",
       "openingHours": [
@@ -6994,27 +6934,19 @@
           ]
         }
       ],
-      "entryFeeCategory": "free",
-      "priceRange": "free",
-      "priceCategory": "free",
-      "timeOfDay": "all day",
-      "rating": 4.8,
-      "tags": [
-        "Historical",
-        "Free",
-        "Popular"
-      ],
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
+      "priceCategory": "moderate",
+      "timeOfDay": "daytime",
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "historic district",
-        "cobblestone streets",
-        "antebellum architecture"
-      ]
+      "features": []
     },
     "Fort Sumter National Monument": {
       "title": "Fort Sumter National Monument",
-      "description": "Historic sea fort known as the site where the first shots of the Civil War were fired.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-charleston-fort-sumter",
       "location": "1214 Middle St, Sullivan's Island, SC",
       "openingHours": [
@@ -7022,33 +6954,79 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "16:30"
+              "from": "00:00",
+              "to": "23:59"
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "availableHours": [
+            {
+              "from": "00:00",
+              "to": "23:59"
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "availableHours": [
+            {
+              "from": "00:00",
+              "to": "23:59"
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "availableHours": [
+            {
+              "from": "00:00",
+              "to": "23:59"
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "availableHours": [
+            {
+              "from": "00:00",
+              "to": "23:59"
+            }
+          ]
+        },
+        {
+          "day": "Saturday",
+          "availableHours": [
+            {
+              "from": "00:00",
+              "to": "23:59"
+            }
+          ]
+        },
+        {
+          "day": "Sunday",
+          "availableHours": [
+            {
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFee": "$12",
       "entryFeeCategory": "moderate",
-      "priceRange": "$$",
+      "priceRange": "$",
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.6,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "historic site",
-        "Civil War history",
-        "guided tours"
-      ]
+      "features": []
     },
     "The Battery": {
       "title": "The Battery",
-      "description": "Scenic promenade along the Charleston waterfront, lined with historic mansions and oak trees.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-charleston-battery",
       "location": "Charleston, SC 29401",
       "openingHours": [
@@ -7116,29 +7094,21 @@
           ]
         }
       ],
-      "entryFeeCategory": "free",
-      "priceRange": "free",
-      "priceCategory": "free",
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
+      "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.7,
-      "tags": [
-        "Historical",
-        "Free",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "promenade",
-        "waterfront",
-        "historic mansions"
-      ]
+      "features": []
     }
   },
   "copenhagen": {
     "Tivoli Gardens": {
       "title": "Tivoli Gardens",
-      "description": "Historic amusement park and pleasure garden offering rides, games, and live entertainment.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-copenhagen-tivoli",
       "location": "Vesterbrogade 3, 1630 København V",
       "openingHours": [
@@ -7146,8 +7116,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "11:00",
-              "to": "23:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -7155,8 +7125,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "11:00",
-              "to": "23:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -7164,8 +7134,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "11:00",
-              "to": "23:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -7173,8 +7143,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "11:00",
-              "to": "23:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -7182,8 +7152,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "11:00",
-              "to": "23:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -7191,8 +7161,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "11:00",
-              "to": "23:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -7200,32 +7170,25 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "11:00",
-              "to": "23:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFee": "DKK 135",
       "entryFeeCategory": "moderate",
-      "priceRange": "$$",
+      "priceRange": "$",
       "priceCategory": "moderate",
-      "timeOfDay": "evening",
-      "rating": 4.5,
-      "tags": [
-        "Popular"
-      ],
+      "timeOfDay": "daytime",
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "amusement park",
-        "gardens",
-        "live entertainment"
-      ]
+      "features": []
     },
     "Nyhavn": {
       "title": "Nyhavn",
-      "description": "Iconic 17th-century waterfront district known for its colorful buildings and vibrant atmosphere.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-copenhagen-nyhavn",
       "location": "Nyhavn, 1051 København K",
       "openingHours": [
@@ -7293,27 +7256,19 @@
           ]
         }
       ],
-      "entryFeeCategory": "free",
-      "priceRange": "free",
-      "priceCategory": "free",
-      "timeOfDay": "all day",
-      "rating": 4.7,
-      "tags": [
-        "Historical",
-        "Free",
-        "Popular"
-      ],
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
+      "priceCategory": "moderate",
+      "timeOfDay": "daytime",
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "waterfront",
-        "colorful buildings",
-        "restaurants"
-      ]
+      "features": []
     },
     "The Little Mermaid": {
       "title": "The Little Mermaid",
-      "description": "Famous bronze statue inspired by Hans Christian Andersen's fairy tale, perched on a rock by the waterside.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-copenhagen-mermaid",
       "location": "Langelinie, 2100 København Ø",
       "openingHours": [
@@ -7381,28 +7336,21 @@
           ]
         }
       ],
-      "entryFeeCategory": "free",
-      "priceRange": "free",
-      "priceCategory": "free",
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
+      "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.2,
-      "tags": [
-        "Free",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "statue",
-        "fairy tale",
-        "waterfront"
-      ]
+      "features": []
     }
   },
   "dublin": {
     "Trinity College and the Book of Kells": {
       "title": "Trinity College and the Book of Kells",
-      "description": "Historic university housing the renowned Book of Kells, an illuminated manuscript dating back to the 9th century.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-dublin-trinity-college",
       "location": "College Green, Dublin 2",
       "openingHours": [
@@ -7410,8 +7358,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "09:30",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -7419,8 +7367,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "09:30",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -7428,8 +7376,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "09:30",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -7437,8 +7385,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "09:30",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -7446,8 +7394,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "09:30",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -7455,8 +7403,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "09:30",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -7464,44 +7412,25 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "09:30",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFee": "€14",
       "entryFeeCategory": "moderate",
-      "priceRange": "$$",
+      "priceRange": "$",
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.6,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
-      "entryFees": [
-        {
-          "category": "adult",
-          "priceRange": "€14",
-          "priceCategory": "moderate"
-        },
-        {
-          "category": "child",
-          "priceRange": "€7",
-          "priceCategory": "low"
-        }
-      ],
-      "features": [
-        "university",
-        "illuminated manuscript",
-        "guided tours"
-      ]
+      "entryFees": [],
+      "features": []
     },
     "Guinness Storehouse": {
       "title": "Guinness Storehouse",
-      "description": "Interactive museum dedicated to Ireland's famous stout, featuring tastings and panoramic city views.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-dublin-guinness",
       "location": "St James's Gate, Dublin 8",
       "openingHours": [
@@ -7509,8 +7438,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "19:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -7518,8 +7447,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "19:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -7527,8 +7456,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "19:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -7536,8 +7465,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "19:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -7545,8 +7474,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "19:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -7554,8 +7483,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "19:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -7563,43 +7492,25 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "19:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFee": "€25",
-      "entryFeeCategory": "expensive",
-      "priceRange": "$$$",
-      "priceCategory": "expensive",
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
+      "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.5,
-      "tags": [
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
-      "entryFees": [
-        {
-          "category": "adult",
-          "priceRange": "€25",
-          "priceCategory": "expensive"
-        },
-        {
-          "category": "child",
-          "priceRange": "€12.50",
-          "priceCategory": "budget"
-        }
-      ],
-      "features": [
-        "museum",
-        "interactive exhibits",
-        "tasting experiences"
-      ]
+      "entryFees": [],
+      "features": []
     },
     "Dublin Castle": {
       "title": "Dublin Castle",
-      "description": "Historic castle complex with state apartments, medieval towers, and government buildings.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-dublin-castle",
       "location": "Dame St, Dublin 2",
       "openingHours": [
@@ -7607,8 +7518,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "09:45",
-              "to": "17:45"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -7616,8 +7527,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "09:45",
-              "to": "17:45"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -7625,8 +7536,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "09:45",
-              "to": "17:45"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -7634,8 +7545,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "09:45",
-              "to": "17:45"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -7643,8 +7554,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "09:45",
-              "to": "17:45"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -7652,8 +7563,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "09:45",
-              "to": "17:45"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -7661,46 +7572,27 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "09:45",
-              "to": "17:45"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFee": "€8",
       "entryFeeCategory": "moderate",
-      "priceRange": "$$",
+      "priceRange": "$",
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.4,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
-      "entryFees": [
-        {
-          "category": "adult",
-          "priceRange": "€8",
-          "priceCategory": "moderate"
-        },
-        {
-          "category": "child",
-          "priceRange": "€4",
-          "priceCategory": "low"
-        }
-      ],
-      "features": [
-        "castle",
-        "historical site",
-        "guided tours"
-      ]
+      "entryFees": [],
+      "features": []
     }
   },
   "florence": {
     "Cathedral of Santa Maria del Fiore": {
       "title": "Cathedral of Santa Maria del Fiore (Duomo)",
-      "description": "Iconic cathedral known for its red-tiled dome engineered by Brunelleschi and its stunning frescoes.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-florence-duomo",
       "location": "Piazza del Duomo, 50122 Florence",
       "openingHours": [
@@ -7708,8 +7600,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -7717,8 +7609,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -7726,8 +7618,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -7735,8 +7627,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -7744,8 +7636,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -7753,8 +7645,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -7762,44 +7654,25 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFee": "€18",
       "entryFeeCategory": "moderate",
-      "priceRange": "$$",
+      "priceRange": "$",
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.8,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
-      "entryFees": [
-        {
-          "category": "adult",
-          "priceRange": "€18",
-          "priceCategory": "moderate"
-        },
-        {
-          "category": "child",
-          "priceRange": "€9",
-          "priceCategory": "low"
-        }
-      ],
-      "features": [
-        "cathedral",
-        "Brunelleschi's dome",
-        "frescoes"
-      ]
+      "entryFees": [],
+      "features": []
     },
     "Uffizi Gallery": {
       "title": "Uffizi Gallery",
-      "description": "World-renowned art museum housing masterpieces by Botticelli, Michelangelo, and Leonardo da Vinci.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-florence-uffizi",
       "location": "Piazzale degli Uffizi, 6, 50122 Florence",
       "openingHours": [
@@ -7807,8 +7680,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "08:15",
-              "to": "18:50"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -7816,8 +7689,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "08:15",
-              "to": "18:50"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -7825,8 +7698,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "08:15",
-              "to": "18:50"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -7834,8 +7707,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "08:15",
-              "to": "18:50"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -7843,8 +7716,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "08:15",
-              "to": "18:50"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -7852,8 +7725,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "08:15",
-              "to": "18:50"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -7861,44 +7734,25 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "08:15",
-              "to": "18:50"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFee": "€20",
-      "entryFeeCategory": "expensive",
-      "priceRange": "$$$",
-      "priceCategory": "expensive",
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
+      "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.7,
-      "tags": [
-        "Artormusic",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
-      "entryFees": [
-        {
-          "category": "adult",
-          "priceRange": "€20",
-          "priceCategory": "expensive"
-        },
-        {
-          "category": "child",
-          "priceRange": "€10",
-          "priceCategory": "budget"
-        }
-      ],
-      "features": [
-        "art museum",
-        "Renaissance art",
-        "guided tours"
-      ]
+      "entryFees": [],
+      "features": []
     },
     "Ponte Vecchio": {
       "title": "Ponte Vecchio",
-      "description": "Historic bridge spanning the Arno River, famous for its shops built along its edges.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-florence-ponte-vecchio",
       "location": "Ponte Vecchio, Florence",
       "openingHours": [
@@ -7966,29 +7820,21 @@
           ]
         }
       ],
-      "entryFeeCategory": "free",
-      "priceRange": "free",
-      "priceCategory": "free",
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
+      "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.6,
-      "tags": [
-        "Historical",
-        "Free",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "bridge",
-        "shops",
-        "Arno River views"
-      ]
+      "features": []
     }
   },
   "helsinki": {
     "Suomenlinna Sea Fortress": {
       "title": "Suomenlinna Sea Fortress",
-      "description": "UNESCO World Heritage Site built across six islands, featuring historic fortifications and museums.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-helsinki-suomenlinna",
       "location": "Accessible via ferry from Market Square, Helsinki",
       "openingHours": [
@@ -7996,8 +7842,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -8005,8 +7851,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -8014,8 +7860,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -8023,8 +7869,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -8032,8 +7878,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -8041,8 +7887,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -8050,33 +7896,25 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFeeCategory": "free",
-      "priceRange": "free (ferry ticket required)",
-      "priceCategory": "free",
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
+      "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.7,
-      "tags": [
-        "Historical",
-        "Adventure",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "sea fortress",
-        "UNESCO World Heritage",
-        "museums"
-      ]
+      "features": []
     },
     "Temppeliaukio Church": {
       "title": "Temppeliaukio Church",
-      "description": "Unique rock-hewn church known for its modern architecture and excellent acoustics.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-helsinki-temppeliaukio",
       "location": "Lutherinkatu 3, 00100 Helsinki",
       "openingHours": [
@@ -8084,8 +7922,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -8093,8 +7931,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -8102,8 +7940,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -8111,8 +7949,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -8120,8 +7958,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -8129,8 +7967,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -8138,33 +7976,25 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFee": "€5",
-      "entryFeeCategory": "cheap",
+      "entryFeeCategory": "moderate",
       "priceRange": "$",
-      "priceCategory": "cheap",
+      "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.5,
-      "tags": [
-        "Artormusic",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "rock-hewn church",
-        "modern architecture",
-        "acoustics"
-      ]
+      "features": []
     },
     "Helsinki Cathedral": {
       "title": "Helsinki Cathedral",
-      "description": "Neoclassical Lutheran cathedral with a green dome, one of Helsinki’s most recognizable landmarks.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-helsinki-cathedral",
       "location": "Unioninkatu 29, 00170 Helsinki",
       "openingHours": [
@@ -8172,8 +8002,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "18:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -8181,8 +8011,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "18:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -8190,8 +8020,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "18:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -8199,8 +8029,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "18:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -8208,8 +8038,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "18:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -8217,8 +8047,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "18:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -8226,29 +8056,21 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "18:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFeeCategory": "free",
-      "priceRange": "free",
-      "priceCategory": "free",
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
+      "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.6,
-      "tags": [
-        "Historical",
-        "Free",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "cathedral",
-        "neoclassical architecture",
-        "green dome"
-      ]
+      "features": []
     }
   },
   "hong-kong": {
@@ -8530,7 +8352,7 @@
   "lisbon": {
     "Belém Tower": {
       "title": "Belém Tower",
-      "description": "Iconic 16th-century fortress on the Tagus River, symbolizing Portugal’s Age of Discovery.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-lisbon-belem-tower",
       "location": "Av. Brasília, 1400-038 Lisboa",
       "openingHours": [
@@ -8538,8 +8360,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -8547,8 +8369,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -8556,8 +8378,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -8565,8 +8387,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -8574,8 +8396,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -8583,8 +8405,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -8592,44 +8414,25 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFee": "€6",
-      "entryFeeCategory": "cheap",
+      "entryFeeCategory": "moderate",
       "priceRange": "$",
-      "priceCategory": "cheap",
+      "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.6,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
-      "entryFees": [
-        {
-          "category": "adult",
-          "priceRange": "€6",
-          "priceCategory": "cheap"
-        },
-        {
-          "category": "child",
-          "priceRange": "€3",
-          "priceCategory": "low"
-        }
-      ],
-      "features": [
-        "fortress",
-        "historical site",
-        "Tagus River views"
-      ]
+      "entryFees": [],
+      "features": []
     },
     "Jerónimos Monastery": {
       "title": "Jerónimos Monastery",
-      "description": "UNESCO-listed monastery with stunning Manueline architecture and historical tombs, including that of Vasco da Gama.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-lisbon-jeronimos",
       "location": "Praça do Império 1400-206 Lisboa",
       "openingHours": [
@@ -8637,8 +8440,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -8646,8 +8449,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -8655,8 +8458,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -8664,8 +8467,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -8673,8 +8476,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -8682,8 +8485,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -8691,45 +8494,25 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "17:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFee": "€10",
       "entryFeeCategory": "moderate",
-      "priceRange": "$$",
+      "priceRange": "$",
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.7,
-      "tags": [
-        "Historical",
-        "Artormusic",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
-      "entryFees": [
-        {
-          "category": "adult",
-          "priceRange": "€10",
-          "priceCategory": "moderate"
-        },
-        {
-          "category": "child",
-          "priceRange": "€5",
-          "priceCategory": "low"
-        }
-      ],
-      "features": [
-        "monastery",
-        "Manueline architecture",
-        "historical tombs"
-      ]
+      "entryFees": [],
+      "features": []
     },
     "Alfama District": {
       "title": "Alfama District",
-      "description": "Lisbon’s oldest neighborhood, known for narrow alleyways, fado music, scenic viewpoints, and traditional architecture.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-lisbon-alfama",
       "location": "Alfama, Lisbon",
       "openingHours": [
@@ -8797,22 +8580,15 @@
           ]
         }
       ],
-      "entryFeeCategory": "free",
-      "priceRange": "free",
-      "priceCategory": "free",
-      "timeOfDay": "daytime and evening",
-      "rating": 4.7,
-      "tags": [
-        "Free",
-        "Popular"
-      ],
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
+      "priceCategory": "moderate",
+      "timeOfDay": "daytime",
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "historic district",
-        "fado music",
-        "scenic viewpoints"
-      ]
+      "features": []
     }
   },
   "los-angeles": {
@@ -9078,7 +8854,7 @@
   "montreal": {
     "Old Montreal": {
       "title": "Old Montreal",
-      "description": "Historic district with cobblestone streets, colonial-era architecture, shops, and cafes.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-montreal-old-montreal",
       "location": "Vieux-Montréal, Montreal, QC",
       "openingHours": [
@@ -9086,8 +8862,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -9095,8 +8871,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -9104,8 +8880,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -9113,8 +8889,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -9122,8 +8898,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -9131,8 +8907,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -9140,33 +8916,25 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFeeCategory": "free",
-      "priceRange": "free",
-      "priceCategory": "free",
-      "timeOfDay": "all day",
-      "rating": 4.7,
-      "tags": [
-        "Historical",
-        "Free",
-        "Popular"
-      ],
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
+      "priceCategory": "moderate",
+      "timeOfDay": "daytime",
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "historic district",
-        "cobblestone streets",
-        "colonial architecture"
-      ]
+      "features": []
     },
     "Mount Royal Park": {
       "title": "Mount Royal Park",
-      "description": "Large urban park with trails, scenic overlooks, and outdoor activities designed by Frederick Law Olmsted.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-montreal-mount-royal",
       "location": "1260 Remembrance Rd, Montreal, QC",
       "openingHours": [
@@ -9174,8 +8942,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "06:00",
-              "to": "21:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -9183,8 +8951,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "06:00",
-              "to": "21:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -9192,8 +8960,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "06:00",
-              "to": "21:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -9201,8 +8969,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "06:00",
-              "to": "21:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -9210,8 +8978,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "06:00",
-              "to": "21:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -9219,8 +8987,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "06:00",
-              "to": "21:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -9228,32 +8996,25 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "06:00",
-              "to": "21:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFeeCategory": "free",
-      "priceRange": "free",
-      "priceCategory": "free",
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
+      "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.7,
-      "tags": [
-        "Free",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "urban park",
-        "trails",
-        "scenic overlooks"
-      ]
+      "features": []
     },
     "Notre-Dame Basilica": {
       "title": "Notre-Dame Basilica",
-      "description": "Magnificent Gothic Revival church known for its ornate interior, stained glass, and musical performances.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-montreal-notre-dame",
       "location": "110 Notre-Dame St W, Montreal, QC",
       "openingHours": [
@@ -9261,8 +9022,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "16:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -9270,8 +9031,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "16:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -9279,8 +9040,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "16:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -9288,8 +9049,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "16:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -9297,8 +9058,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "16:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -9306,8 +9067,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "16:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -9315,36 +9076,27 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "16:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFee": "$15 CAD",
       "entryFeeCategory": "moderate",
-      "priceRange": "$$",
+      "priceRange": "$",
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.8,
-      "tags": [
-        "Historical",
-        "Artormusic",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "basilica",
-        "Gothic Revival architecture",
-        "stained glass"
-      ]
+      "features": []
     }
   },
   "oslo": {
     "Viking Ship Museum": {
       "title": "Viking Ship Museum",
-      "description": "Museum displaying well-preserved Viking ships and artifacts from burial mounds around Norway.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-oslo-viking-ship-museum",
       "location": "Huk Aveny 35, 0287 Oslo",
       "openingHours": [
@@ -9352,8 +9104,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -9361,8 +9113,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -9370,8 +9122,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -9379,8 +9131,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -9388,8 +9140,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -9397,8 +9149,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -9406,32 +9158,25 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
       "entryFeeCategory": "moderate",
-      "priceRange": "$$",
+      "priceRange": "$",
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.5,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "museum",
-        "Viking ships",
-        "historical artifacts"
-      ]
+      "features": []
     },
     "Vigeland Park": {
       "title": "Vigeland Park",
-      "description": "Large sculpture park featuring more than 200 works by Gustav Vigeland, surrounded by landscaped gardens.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-oslo-vigeland-park",
       "location": "Nobels gate 32, 0268 Oslo",
       "openingHours": [
@@ -9499,27 +9244,19 @@
           ]
         }
       ],
-      "entryFeeCategory": "free",
-      "priceRange": "free",
-      "priceCategory": "free",
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
+      "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.7,
-      "tags": [
-        "Artormusic",
-        "Free",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "sculpture park",
-        "landscaped gardens",
-        "outdoor art"
-      ]
+      "features": []
     },
     "Oslo Opera House": {
       "title": "Oslo Opera House",
-      "description": "Striking waterfront building home to the Norwegian National Opera and Ballet, known for its accessible rooftop views.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-oslo-opera-house",
       "location": "Kirsten Flagstads Plass 1, 0150 Oslo",
       "openingHours": [
@@ -9527,8 +9264,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "20:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -9536,8 +9273,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "20:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -9545,8 +9282,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "20:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -9554,8 +9291,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "20:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -9563,8 +9300,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "20:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -9572,8 +9309,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "20:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -9581,33 +9318,21 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "20:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFee": "Varies by performance",
-      "entryFeeCategory": "expensive",
-      "priceRange": "$$$",
-      "priceCategory": "expensive",
-      "timeOfDay": "evening",
-      "rating": 4.6,
-      "tags": [
-        "Artormusic",
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "accessible entrances",
-        "elevators",
-        "reserved seating"
-      ],
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
+      "priceCategory": "moderate",
+      "timeOfDay": "daytime",
+      "rating": 4,
+      "tags": [],
+      "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "opera house",
-        "ballet",
-        "modern architecture"
-      ]
+      "features": []
     }
   },
   "quebec-city": {
@@ -9901,7 +9626,7 @@
   "roatan": {
     "West Bay Beach": {
       "title": "West Bay Beach",
-      "description": "Scenic beach with white sand and clear turquoise waters, ideal for swimming and snorkeling.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-roatan-west-bay-beach",
       "location": "West Bay, Roatan",
       "openingHours": [
@@ -9969,28 +9694,19 @@
           ]
         }
       ],
-      "entryFeeCategory": "free",
-      "priceRange": "free",
-      "priceCategory": "free",
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
+      "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.8,
-      "tags": [
-        "Adventure",
-        "Free",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "beach",
-        "snorkeling",
-        "swimming",
-        "sunbathing"
-      ]
+      "features": []
     },
     "Gumbalimba Park": {
       "title": "Gumbalimba Park",
-      "description": "Nature park offering ziplining, botanical gardens, animal encounters, and a suspension bridge.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-roatan-gumbalimba-park",
       "location": "West Bay Rd, Roatan",
       "openingHours": [
@@ -9998,8 +9714,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "08:00",
-              "to": "16:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -10007,8 +9723,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "08:00",
-              "to": "16:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -10016,8 +9732,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "08:00",
-              "to": "16:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -10025,8 +9741,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "08:00",
-              "to": "16:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -10034,8 +9750,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "08:00",
-              "to": "16:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -10043,8 +9759,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "08:00",
-              "to": "16:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -10052,33 +9768,25 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "08:00",
-              "to": "16:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFee": "$35",
       "entryFeeCategory": "moderate",
-      "priceRange": "$$",
+      "priceRange": "$",
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.5,
-      "tags": [
-        "Adventure",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "nature park",
-        "ziplining",
-        "botanical gardens"
-      ]
+      "features": []
     },
     "Carambola Botanical Gardens": {
       "title": "Carambola Botanical Gardens",
-      "description": "Lush botanical gardens with tropical plants, hiking trails, and panoramic views of the island.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-roatan-carambola",
       "location": "Sandy Bay, Roatan",
       "openingHours": [
@@ -10086,8 +9794,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "08:00",
-              "to": "16:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -10095,8 +9803,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "08:00",
-              "to": "16:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -10104,8 +9812,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "08:00",
-              "to": "16:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -10113,8 +9821,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "08:00",
-              "to": "16:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -10122,8 +9830,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "08:00",
-              "to": "16:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -10131,8 +9839,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "08:00",
-              "to": "16:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -10140,28 +9848,21 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "08:00",
-              "to": "16:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFee": "$10",
-      "entryFeeCategory": "cheap",
+      "entryFeeCategory": "moderate",
       "priceRange": "$",
-      "priceCategory": "cheap",
+      "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.4,
-      "tags": [
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "botanical gardens",
-        "tropical plants",
-        "hiking trails"
-      ]
+      "features": []
     }
   },
   "san-juan": {
@@ -10444,7 +10145,7 @@
   "santiago": {
     "Cerro San Cristóbal": {
       "title": "Cerro San Cristóbal",
-      "description": "Hill in the center of Santiago offering panoramic views, a funicular ride, and the iconic Virgin Mary statue.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-santiago-cerro-san-cristobal",
       "location": "Santiago Metropolitan Park, Santiago",
       "openingHours": [
@@ -10452,8 +10153,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "08:00",
-              "to": "20:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -10461,8 +10162,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "08:00",
-              "to": "20:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -10470,8 +10171,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "08:00",
-              "to": "20:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -10479,8 +10180,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "08:00",
-              "to": "20:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -10488,8 +10189,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "08:00",
-              "to": "20:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -10497,8 +10198,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "08:00",
-              "to": "20:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -10506,33 +10207,25 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "08:00",
-              "to": "20:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFee": "$5 (funicular ride)",
-      "entryFeeCategory": "cheap",
+      "entryFeeCategory": "moderate",
       "priceRange": "$",
-      "priceCategory": "cheap",
+      "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.6,
-      "tags": [
-        "Adventure",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "hill",
-        "panoramic views",
-        "funicular ride"
-      ]
+      "features": []
     },
     "Plaza de Armas": {
       "title": "Plaza de Armas",
-      "description": "Historic city square and cultural hub surrounded by colonial architecture, museums, and the Santiago Cathedral.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-santiago-plaza-de-armas",
       "location": "Plaza de Armas, Santiago",
       "openingHours": [
@@ -10600,27 +10293,19 @@
           ]
         }
       ],
-      "entryFeeCategory": "free",
-      "priceRange": "free",
-      "priceCategory": "free",
-      "timeOfDay": "all day",
-      "rating": 4.4,
-      "tags": [
-        "Historical",
-        "Free",
-        "Popular"
-      ],
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
+      "priceCategory": "moderate",
+      "timeOfDay": "daytime",
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "city square",
-        "colonial architecture",
-        "cultural hub"
-      ]
+      "features": []
     },
     "La Moneda Palace": {
       "title": "La Moneda Palace",
-      "description": "Presidential palace and seat of the Chilean government, notable for its neoclassical architecture and guided tours.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-santiago-la-moneda",
       "location": "Moneda, Santiago",
       "openingHours": [
@@ -10628,8 +10313,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "16:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -10637,8 +10322,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "16:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -10646,8 +10331,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "16:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -10655,8 +10340,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "16:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -10664,8 +10349,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "16:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -10673,8 +10358,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "16:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -10682,35 +10367,27 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "16:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFeeCategory": "free (guided tours must be booked)",
-      "priceRange": "free",
-      "priceCategory": "free",
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
+      "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.5,
-      "tags": [
-        "Historical",
-        "Free",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "government building",
-        "guided tours",
-        "neoclassical architecture"
-      ]
+      "features": []
     }
   },
   "santorini": {
     "Oia Village": {
       "title": "Oia Village",
-      "description": "Famous cliffside village known for its whitewashed houses, blue-domed churches, and breathtaking sunsets.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-santorini-oia",
       "location": "Oia, Santorini",
       "openingHours": [
@@ -10778,27 +10455,19 @@
           ]
         }
       ],
-      "entryFeeCategory": "free",
-      "priceRange": "free",
-      "priceCategory": "free",
-      "timeOfDay": "sunset",
-      "rating": 4.8,
-      "tags": [
-        "Romantic",
-        "Free",
-        "Popular"
-      ],
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
+      "priceCategory": "moderate",
+      "timeOfDay": "daytime",
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "village",
-        "cliffside",
-        "sunset views"
-      ]
+      "features": []
     },
     "Fira Town": {
       "title": "Fira Town",
-      "description": "Capital of Santorini offering stunning views of the caldera, shops, cafes, and nightlife.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-santorini-fira",
       "location": "Fira, Santorini",
       "openingHours": [
@@ -10866,27 +10535,19 @@
           ]
         }
       ],
-      "entryFeeCategory": "free",
-      "priceRange": "free",
-      "priceCategory": "free",
-      "timeOfDay": "all day",
-      "rating": 4.6,
-      "tags": [
-        "Free",
-        "Popular"
-      ],
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
+      "priceCategory": "moderate",
+      "timeOfDay": "daytime",
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "town",
-        "caldera views",
-        "shopping",
-        "nightlife"
-      ]
+      "features": []
     },
     "Red Beach": {
       "title": "Red Beach",
-      "description": "Unique volcanic beach with red cliffs and dark sand, accessible via a short hike from the nearby parking area.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-santorini-red-beach",
       "location": "Akrotiri, Santorini",
       "openingHours": [
@@ -10954,23 +10615,15 @@
           ]
         }
       ],
-      "entryFeeCategory": "free",
-      "priceRange": "free",
-      "priceCategory": "free",
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
+      "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.3,
-      "tags": [
-        "Adventure",
-        "Free",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "beach",
-        "volcanic sand",
-        "hiking"
-      ]
+      "features": []
     }
   },
   "seattle": {
@@ -11136,7 +10789,7 @@
     },
     "Chihuly Garden and Glass": {
       "title": "Chihuly Garden and Glass",
-      "description": "Exhibition showcasing Dale Chihuly's colorful glass art in both indoor galleries and a landscaped garden.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-seattle-chihuly",
       "location": "305 Harrison St, Seattle, WA",
       "openingHours": [
@@ -11144,8 +10797,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "18:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -11153,8 +10806,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "18:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -11162,8 +10815,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "18:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -11171,8 +10824,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "18:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -11180,8 +10833,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "18:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -11189,8 +10842,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "18:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -11198,38 +10851,27 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "18:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFee": "$35",
-      "entryFeeCategory": "expensive",
-      "priceRange": "$$$",
-      "priceCategory": "expensive",
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
+      "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.8,
-      "tags": [
-        "Artormusic",
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "accessible restrooms",
-        "wheelchair-accessible paths"
-      ],
+      "rating": 4,
+      "tags": [],
+      "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "glass art",
-        "indoor galleries",
-        "landscaped garden"
-      ]
+      "features": []
     }
   },
   "shanghai": {
     "The Bund": {
       "title": "The Bund",
-      "description": "Waterfront promenade along the Huangpu River featuring colonial-era buildings and stunning views of the skyline.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-shanghai-bund",
       "location": "Zhongshan East 1st Rd, Shanghai",
       "openingHours": [
@@ -11297,27 +10939,19 @@
           ]
         }
       ],
-      "entryFeeCategory": "free",
-      "priceRange": "free",
-      "priceCategory": "free",
-      "timeOfDay": "day or night",
-      "rating": 4.7,
-      "tags": [
-        "Historical",
-        "Free",
-        "Popular"
-      ],
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
+      "priceCategory": "moderate",
+      "timeOfDay": "daytime",
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "waterfront",
-        "colonial architecture",
-        "skyline views"
-      ]
+      "features": []
     },
     "Yu Garden": {
       "title": "Yu Garden",
-      "description": "Classical Chinese garden dating back to the Ming Dynasty with pavilions, ponds, and rockeries.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-shanghai-yu-garden",
       "location": "218 Anren St, Huangpu, Shanghai",
       "openingHours": [
@@ -11325,8 +10959,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "08:45",
-              "to": "16:45"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -11334,8 +10968,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "08:45",
-              "to": "16:45"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -11343,8 +10977,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "08:45",
-              "to": "16:45"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -11352,8 +10986,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "08:45",
-              "to": "16:45"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -11361,8 +10995,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "08:45",
-              "to": "16:45"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -11370,8 +11004,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "08:45",
-              "to": "16:45"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -11379,34 +11013,25 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "08:45",
-              "to": "16:45"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFee": "¥40",
-      "entryFeeCategory": "cheap",
+      "entryFeeCategory": "moderate",
       "priceRange": "$",
-      "priceCategory": "cheap",
+      "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.5,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "Chinese garden",
-        "pavilions",
-        "ponds",
-        "rockeries"
-      ]
+      "features": []
     },
     "Shanghai Tower": {
       "title": "Shanghai Tower",
-      "description": "The tallest building in China with observation decks, sustainable architecture, and stunning city views.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-shanghai-tower",
       "location": "501 Yincheng Middle Rd, Pudong, Shanghai",
       "openingHours": [
@@ -11414,8 +11039,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "08:30",
-              "to": "22:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -11423,8 +11048,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "08:30",
-              "to": "22:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -11432,8 +11057,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "08:30",
-              "to": "22:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -11441,8 +11066,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "08:30",
-              "to": "22:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -11450,8 +11075,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "08:30",
-              "to": "22:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -11459,8 +11084,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "08:30",
-              "to": "22:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -11468,28 +11093,21 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "08:30",
-              "to": "22:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFee": "¥180",
-      "entryFeeCategory": "expensive",
-      "priceRange": "$$$",
-      "priceCategory": "expensive",
-      "timeOfDay": "day or night",
-      "rating": 4.7,
-      "tags": [
-        "Popular"
-      ],
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
+      "priceCategory": "moderate",
+      "timeOfDay": "daytime",
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "skyscraper",
-        "observation deck",
-        "city views"
-      ]
+      "features": []
     }
   },
   "singapore": {
@@ -11589,66 +11207,31 @@
       "openingHours": [
         {
           "day": "Monday",
-          "availableHours": [
-            {
-              "from": "11:00",
-              "to": "21:00"
-            }
-          ]
+          "availableHours": []
         },
         {
           "day": "Tuesday",
-          "availableHours": [
-            {
-              "from": "11:00",
-              "to": "21:00"
-            }
-          ]
+          "availableHours": []
         },
         {
           "day": "Wednesday",
-          "availableHours": [
-            {
-              "from": "11:00",
-              "to": "21:00"
-            }
-          ]
+          "availableHours": []
         },
         {
           "day": "Thursday",
-          "availableHours": [
-            {
-              "from": "11:00",
-              "to": "21:00"
-            }
-          ]
+          "availableHours": []
         },
         {
           "day": "Friday",
-          "availableHours": [
-            {
-              "from": "11:00",
-              "to": "21:00"
-            }
-          ]
+          "availableHours": []
         },
         {
           "day": "Saturday",
-          "availableHours": [
-            {
-              "from": "11:00",
-              "to": "21:00"
-            }
-          ]
+          "availableHours": []
         },
         {
           "day": "Sunday",
-          "availableHours": [
-            {
-              "from": "11:00",
-              "to": "21:00"
-            }
-          ]
+          "availableHours": []
         }
       ],
       "entryFee": "$25 (SkyPark Observation Deck)",
@@ -12851,7 +12434,7 @@
   "juneau": {
     "Mendenhall Glacier": {
       "title": "Mendenhall Glacier",
-      "description": "A spectacular 13-mile-long glacier located in the Tongass National Forest with trails and visitor center.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-juneau-mendenhall-glacier",
       "location": "Mendenhall Glacier Visitor Center, Juneau, AK",
       "openingHours": [
@@ -12859,8 +12442,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -12868,8 +12451,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -12877,8 +12460,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -12886,8 +12469,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -12895,8 +12478,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -12904,8 +12487,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -12913,33 +12496,25 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFee": "$5",
-      "entryFeeCategory": "cheap",
+      "entryFeeCategory": "moderate",
       "priceRange": "$",
-      "priceCategory": "cheap",
+      "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.8,
-      "tags": [
-        "Adventure",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "glacier",
-        "trails",
-        "visitor center"
-      ]
+      "features": []
     },
     "Mount Roberts Tramway": {
       "title": "Mount Roberts Tramway",
-      "description": "An aerial tramway offering panoramic views of Juneau and access to hiking trails and cultural exhibits.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-juneau-tramway",
       "location": "490 S Franklin St, Juneau, AK",
       "openingHours": [
@@ -12947,8 +12522,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "21:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -12956,8 +12531,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "21:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -12965,8 +12540,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "21:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -12974,8 +12549,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "21:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -12983,8 +12558,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "21:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -12992,8 +12567,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "21:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -13001,33 +12576,25 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "21:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFee": "$50 (round-trip)",
-      "entryFeeCategory": "expensive",
-      "priceRange": "$$$",
-      "priceCategory": "expensive",
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
+      "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.6,
-      "tags": [
-        "Adventure",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "aerial tramway",
-        "panoramic views",
-        "hiking access"
-      ]
+      "features": []
     },
     "Alaska State Museum": {
       "title": "Alaska State Museum",
-      "description": "Comprehensive museum showcasing Alaska’s indigenous cultures, history, and natural science exhibits.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-juneau-alaska-museum",
       "location": "395 Whittier St, Juneau, AK",
       "openingHours": [
@@ -13035,8 +12602,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -13044,8 +12611,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -13053,8 +12620,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -13062,8 +12629,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -13071,8 +12638,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -13080,8 +12647,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -13089,35 +12656,27 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFee": "$14",
       "entryFeeCategory": "moderate",
-      "priceRange": "$$",
+      "priceRange": "$",
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.7,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "museum",
-        "indigenous cultures",
-        "natural history"
-      ]
+      "features": []
     }
   },
   "ketchikan": {
     "Totem Heritage Center": {
       "title": "Totem Heritage Center",
-      "description": "Museum preserving and showcasing 19th-century totem poles and cultural artifacts of the Tlingit, Haida, and Tsimshian peoples.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-ketchikan-totem-center",
       "location": "601 Deermountain Rd, Ketchikan, AK",
       "openingHours": [
@@ -13125,8 +12684,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "08:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -13134,8 +12693,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "08:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -13143,8 +12702,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "08:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -13152,8 +12711,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "08:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -13161,8 +12720,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "08:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -13170,8 +12729,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "08:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -13179,33 +12738,25 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "08:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFee": "$6",
-      "entryFeeCategory": "cheap",
+      "entryFeeCategory": "moderate",
       "priceRange": "$",
-      "priceCategory": "cheap",
+      "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.5,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "museum",
-        "totem poles",
-        "cultural artifacts"
-      ]
+      "features": []
     },
     "Misty Fjords National Monument": {
       "title": "Misty Fjords National Monument",
-      "description": "A pristine wilderness area with dramatic fjords, steep cliffs, and waterfalls, best explored by boat or floatplane.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-ketchikan-misty-fjords",
       "location": "Ketchikan, AK",
       "openingHours": [
@@ -13213,8 +12764,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -13222,8 +12773,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -13231,8 +12782,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -13240,8 +12791,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -13249,8 +12800,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -13258,8 +12809,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -13267,33 +12818,25 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFeeCategory": "varies",
-      "priceRange": "$$-$$$",
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.9,
-      "tags": [
-        "Adventure",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "wilderness area",
-        "fjords",
-        "waterfalls",
-        "boat tours"
-      ]
+      "features": []
     },
     "Creek Street": {
       "title": "Creek Street",
-      "description": "Historic boardwalk district lined with colorful buildings, shops, galleries, and former brothels perched over a salmon-filled creek.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-ketchikan-creek-street",
       "location": "Creek St, Ketchikan, AK",
       "openingHours": [
@@ -13301,8 +12844,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -13310,8 +12853,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -13319,8 +12862,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -13328,8 +12871,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -13337,8 +12880,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -13346,8 +12889,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -13355,30 +12898,21 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFeeCategory": "free",
-      "priceRange": "free",
-      "priceCategory": "free",
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
+      "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.6,
-      "tags": [
-        "Historical",
-        "Free",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "historic district",
-        "boardwalk",
-        "shops",
-        "galleries"
-      ]
+      "features": []
     }
   },
   "skagway": {
@@ -14513,7 +14047,7 @@
   "philipsburg": {
     "Great Bay Beach": {
       "title": "Great Bay Beach",
-      "description": "Popular beach along the Philipsburg boardwalk offering calm waters, sunbathing, and nearby amenities.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-philipsburg-great-bay",
       "location": "Great Bay, Philipsburg, Sint Maarten",
       "openingHours": [
@@ -14581,26 +14115,19 @@
           ]
         }
       ],
-      "entryFeeCategory": "free",
-      "priceRange": "free",
-      "priceCategory": "free",
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
+      "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.4,
-      "tags": [
-        "Free",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "beach",
-        "sunbathing",
-        "calm waters"
-      ]
+      "features": []
     },
     "Front Street": {
       "title": "Front Street",
-      "description": "Main shopping and cultural street in Philipsburg lined with duty-free stores, cafes, and historic architecture.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-philipsburg-front-street",
       "location": "Front Street, Philipsburg, Sint Maarten",
       "openingHours": [
@@ -14608,8 +14135,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -14617,8 +14144,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -14626,8 +14153,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -14635,8 +14162,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -14644,8 +14171,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -14653,8 +14180,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -14662,32 +14189,25 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFeeCategory": "free",
-      "priceRange": "free",
-      "priceCategory": "free",
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
+      "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.3,
-      "tags": [
-        "Free",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "shopping street",
-        "duty-free stores",
-        "cafes"
-      ]
+      "features": []
     },
     "Sint Maarten Museum": {
       "title": "Sint Maarten Museum",
-      "description": "Small museum chronicling the island’s history, culture, and natural environment through artifacts and exhibits.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-philipsburg-museum",
       "location": "Front Street, Philipsburg, Sint Maarten",
       "openingHours": [
@@ -14695,8 +14215,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "16:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -14704,8 +14224,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "16:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -14713,8 +14233,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "16:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -14722,8 +14242,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "16:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -14731,8 +14251,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "16:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -14740,8 +14260,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "16:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -14749,34 +14269,27 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "16:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFee": "$1",
-      "entryFeeCategory": "cheap",
+      "entryFeeCategory": "moderate",
       "priceRange": "$",
-      "priceCategory": "cheap",
+      "priceCategory": "moderate",
       "timeOfDay": "daytime",
       "rating": 4,
-      "tags": [
-        "Historical"
-      ],
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "museum",
-        "island history",
-        "cultural exhibits"
-      ]
+      "features": []
     }
   },
   "mykonos": {
     "Little Venice": {
       "title": "Little Venice",
-      "description": "Picturesque waterfront neighborhood with charming buildings, cafes, and bars overhanging the sea.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-mykonos-little-venice",
       "location": "Mykonos Town, Mykonos",
       "openingHours": [
@@ -14844,28 +14357,19 @@
           ]
         }
       ],
-      "entryFeeCategory": "free",
-      "priceRange": "free",
-      "priceCategory": "free",
-      "timeOfDay": "sunset and evening",
-      "rating": 4.6,
-      "tags": [
-        "Romantic",
-        "Free",
-        "Popular"
-      ],
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
+      "priceCategory": "moderate",
+      "timeOfDay": "daytime",
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "waterfront",
-        "sunset views",
-        "cafes",
-        "bars"
-      ]
+      "features": []
     },
     "Windmills of Mykonos": {
       "title": "Windmills of Mykonos",
-      "description": "Iconic whitewashed windmills overlooking Mykonos Town, offering scenic photo opportunities and historical context.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-mykonos-windmills",
       "location": "Mykonos Town, Mykonos",
       "openingHours": [
@@ -14933,27 +14437,19 @@
           ]
         }
       ],
-      "entryFeeCategory": "free",
-      "priceRange": "free",
-      "priceCategory": "free",
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
+      "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.5,
-      "tags": [
-        "Historical",
-        "Free",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "windmills",
-        "scenic views",
-        "historical site"
-      ]
+      "features": []
     },
     "Paradise Beach": {
       "title": "Paradise Beach",
-      "description": "Lively beach known for its crystal waters, party atmosphere, and beach clubs.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-mykonos-paradise-beach",
       "location": "Paradise Beach, Mykonos",
       "openingHours": [
@@ -15021,22 +14517,15 @@
           ]
         }
       ],
-      "entryFeeCategory": "free",
-      "priceRange": "free",
-      "priceCategory": "free",
-      "timeOfDay": "daytime and evening",
-      "rating": 4.4,
-      "tags": [
-        "Adventure",
-        "Popular"
-      ],
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
+      "priceCategory": "moderate",
+      "timeOfDay": "daytime",
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "beach",
-        "parties",
-        "beach clubs"
-      ]
+      "features": []
     }
   },
   "glacier-bay": {
@@ -15860,7 +15349,7 @@
   "galveston": {
     "Moody Gardens": {
       "title": "Moody Gardens",
-      "description": "A family-friendly entertainment complex featuring pyramids with an aquarium, rainforest, and discovery center.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-galveston-moody-gardens",
       "location": "1 Hope Blvd, Galveston, TX",
       "openingHours": [
@@ -15868,8 +15357,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "18:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -15877,8 +15366,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "18:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -15886,8 +15375,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "18:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -15895,8 +15384,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "18:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -15904,8 +15393,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "18:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -15913,8 +15402,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "18:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -15922,33 +15411,25 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "18:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFee": "$29.95 (per attraction)",
-      "entryFeeCategory": "expensive",
-      "priceRange": "$$$",
-      "priceCategory": "expensive",
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
+      "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.5,
-      "tags": [
-        "Adventure",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "entertainment complex",
-        "aquarium",
-        "rainforest"
-      ]
+      "features": []
     },
     "Galveston Island Historic Pleasure Pier": {
       "title": "Galveston Island Historic Pleasure Pier",
-      "description": "A waterfront amusement park with rides, games, and food over the Gulf of Mexico.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-galveston-pleasure-pier",
       "location": "2501 Seawall Blvd, Galveston, TX",
       "openingHours": [
@@ -15956,8 +15437,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "11:00",
-              "to": "21:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -15965,8 +15446,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "11:00",
-              "to": "21:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -15974,8 +15455,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "11:00",
-              "to": "21:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -15983,8 +15464,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "11:00",
-              "to": "21:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -15992,8 +15473,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "11:00",
-              "to": "21:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16001,8 +15482,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "11:00",
-              "to": "21:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16010,34 +15491,25 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "11:00",
-              "to": "21:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFee": "$12 (walk-on) / $27 (ride pass)",
       "entryFeeCategory": "moderate",
-      "priceRange": "$$",
+      "priceRange": "$",
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.3,
-      "tags": [
-        "Adventure",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "amusement park",
-        "waterfront",
-        "rides",
-        "games"
-      ]
+      "features": []
     },
     "The Strand Historic District": {
       "title": "The Strand Historic District",
-      "description": "A preserved historic area with Victorian-era buildings, shops, galleries, and restaurants.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-galveston-strand",
       "location": "The Strand, Galveston, TX",
       "openingHours": [
@@ -16045,8 +15517,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16054,8 +15526,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16063,8 +15535,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16072,8 +15544,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16081,8 +15553,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16090,8 +15562,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16099,35 +15571,27 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFeeCategory": "free",
-      "priceRange": "free",
-      "priceCategory": "free",
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
+      "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.6,
-      "tags": [
-        "Historical",
-        "Free",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "historic district",
-        "Victorian architecture",
-        "shopping"
-      ]
+      "features": []
     }
   },
   "malta": {
     "Valletta Waterfront": {
       "title": "Valletta Waterfront",
-      "description": "Historic waterfront promenade with 18th-century warehouses turned into restaurants, shops, and entertainment venues.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-malta-valletta-waterfront",
       "location": "Valletta, Malta",
       "openingHours": [
@@ -16135,8 +15599,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16144,8 +15608,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16153,8 +15617,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16162,8 +15626,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16171,8 +15635,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16180,8 +15644,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16189,34 +15653,25 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFeeCategory": "free",
-      "priceRange": "free",
-      "priceCategory": "free",
-      "timeOfDay": "daytime and evening",
-      "rating": 4.5,
-      "tags": [
-        "Historical",
-        "Free",
-        "Popular"
-      ],
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
+      "priceCategory": "moderate",
+      "timeOfDay": "daytime",
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "waterfront",
-        "restaurants",
-        "shops",
-        "entertainment"
-      ]
+      "features": []
     },
     "St. John's Co-Cathedral": {
       "title": "St. John's Co-Cathedral",
-      "description": "Lavishly decorated Baroque cathedral featuring artwork by Caravaggio and ornate gold interiors.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-malta-st-johns-cathedral",
       "location": "St. John's Street, Valletta, Malta",
       "openingHours": [
@@ -16224,8 +15679,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "09:30",
-              "to": "16:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16233,8 +15688,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "09:30",
-              "to": "16:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16242,8 +15697,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "09:30",
-              "to": "16:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16251,8 +15706,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "09:30",
-              "to": "16:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16260,8 +15715,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "09:30",
-              "to": "16:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16269,8 +15724,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "09:30",
-              "to": "16:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16278,45 +15733,25 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "09:30",
-              "to": "16:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFee": "€15",
       "entryFeeCategory": "moderate",
-      "priceRange": "$$",
+      "priceRange": "$",
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.8,
-      "tags": [
-        "Historical",
-        "Artormusic",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
-      "entryFees": [
-        {
-          "category": "adult",
-          "priceRange": "€15",
-          "priceCategory": "moderate"
-        },
-        {
-          "category": "child",
-          "priceRange": "€7.50",
-          "priceCategory": "low"
-        }
-      ],
-      "features": [
-        "cathedral",
-        "Baroque architecture",
-        "Caravaggio artwork"
-      ]
+      "entryFees": [],
+      "features": []
     },
     "Blue Lagoon": {
       "title": "Blue Lagoon",
-      "description": "Crystal-clear turquoise bay on Comino Island, ideal for swimming, snorkeling, and day trips.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-malta-blue-lagoon",
       "location": "Comino, Malta",
       "openingHours": [
@@ -16324,8 +15759,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16333,8 +15768,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16342,8 +15777,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16351,8 +15786,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16360,8 +15795,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16369,8 +15804,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16378,35 +15813,27 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFeeCategory": "varies",
-      "priceRange": "$$",
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.9,
-      "tags": [
-        "Adventure",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "lagoon",
-        "snorkeling",
-        "swimming",
-        "boat tours"
-      ]
+      "features": []
     }
   },
   "melbourne": {
     "Federation Square": {
       "title": "Federation Square",
-      "description": "Modern cultural precinct in central Melbourne featuring museums, restaurants, and public events.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-melbourne-federation-square",
       "location": "Swanston St & Flinders St, Melbourne VIC",
       "openingHours": [
@@ -16414,8 +15841,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16423,8 +15850,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16432,8 +15859,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16441,8 +15868,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16450,8 +15877,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16459,8 +15886,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16468,32 +15895,25 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "17:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFeeCategory": "free",
-      "priceRange": "free",
-      "priceCategory": "free",
-      "timeOfDay": "all day",
-      "rating": 4.4,
-      "tags": [
-        "Free",
-        "Popular"
-      ],
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
+      "priceCategory": "moderate",
+      "timeOfDay": "daytime",
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "cultural precinct",
-        "museums",
-        "restaurants"
-      ]
+      "features": []
     },
     "Royal Botanic Gardens": {
       "title": "Royal Botanic Gardens",
-      "description": "Expansive garden with diverse plant collections, lakes, and walking trails in the heart of Melbourne.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-melbourne-botanic-gardens",
       "location": "Birdwood Ave, South Yarra VIC",
       "openingHours": [
@@ -16501,8 +15921,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "07:30",
-              "to": "17:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16510,8 +15930,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "07:30",
-              "to": "17:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16519,8 +15939,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "07:30",
-              "to": "17:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16528,8 +15948,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "07:30",
-              "to": "17:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16537,8 +15957,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "07:30",
-              "to": "17:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16546,8 +15966,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "07:30",
-              "to": "17:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16555,32 +15975,25 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "07:30",
-              "to": "17:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFeeCategory": "free",
-      "priceRange": "free",
-      "priceCategory": "free",
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
+      "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.8,
-      "tags": [
-        "Free",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "botanic gardens",
-        "plant collections",
-        "walking trails"
-      ]
+      "features": []
     },
     "Queen Victoria Market": {
       "title": "Queen Victoria Market",
-      "description": "Historic open-air market offering fresh produce, gourmet foods, and local crafts.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-melbourne-victoria-market",
       "location": "Queen St, Melbourne VIC",
       "openingHours": [
@@ -16588,8 +16001,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "06:00",
-              "to": "15:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16597,8 +16010,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "06:00",
-              "to": "15:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16606,8 +16019,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "06:00",
-              "to": "15:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16615,8 +16028,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "06:00",
-              "to": "15:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16624,8 +16037,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "06:00",
-              "to": "15:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16633,8 +16046,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "06:00",
-              "to": "15:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16642,35 +16055,27 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "06:00",
-              "to": "15:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFeeCategory": "free",
-      "priceRange": "free",
-      "priceCategory": "free",
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
+      "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.6,
-      "tags": [
-        "Free",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "market",
-        "fresh produce",
-        "gourmet foods",
-        "local crafts"
-      ]
+      "features": []
     }
   },
   "milan": {
     "Duomo di Milano": {
       "title": "Duomo di Milano",
-      "description": "Stunning Gothic cathedral with intricate spires and rooftop views of Milan.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-milan-duomo",
       "location": "Piazza del Duomo, 20122 Milan",
       "openingHours": [
@@ -16678,8 +16083,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "19:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16687,8 +16092,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "19:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16696,8 +16101,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "19:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16705,8 +16110,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "19:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16714,8 +16119,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "19:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16723,8 +16128,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "19:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16732,44 +16137,25 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "09:00",
-              "to": "19:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFee": "€5–€15",
       "entryFeeCategory": "moderate",
-      "priceRange": "$$",
+      "priceRange": "$",
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.8,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
-      "entryFees": [
-        {
-          "category": "adult",
-          "priceRange": "€5–€15",
-          "priceCategory": "moderate"
-        },
-        {
-          "category": "child",
-          "priceRange": "€2.50–€7.50",
-          "priceCategory": "low"
-        }
-      ],
-      "features": [
-        "cathedral",
-        "Gothic architecture",
-        "rooftop views"
-      ]
+      "entryFees": [],
+      "features": []
     },
     "Galleria Vittorio Emanuele II": {
       "title": "Galleria Vittorio Emanuele II",
-      "description": "Elegant 19th-century shopping arcade featuring luxury boutiques and cafes.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-milan-galleria",
       "location": "Piazza del Duomo, 20123 Milan",
       "openingHours": [
@@ -16777,8 +16163,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "20:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16786,8 +16172,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "20:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16795,8 +16181,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "20:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16804,8 +16190,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "20:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16813,8 +16199,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "20:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16822,8 +16208,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "20:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16831,32 +16217,25 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "10:00",
-              "to": "20:00"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFeeCategory": "free",
-      "priceRange": "free",
-      "priceCategory": "free",
-      "timeOfDay": "daytime and evening",
-      "rating": 4.7,
-      "tags": [
-        "Free",
-        "Popular"
-      ],
+      "entryFeeCategory": "moderate",
+      "priceRange": "$",
+      "priceCategory": "moderate",
+      "timeOfDay": "daytime",
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "shopping arcade",
-        "luxury boutiques",
-        "cafes"
-      ]
+      "features": []
     },
     "Sforza Castle": {
       "title": "Sforza Castle",
-      "description": "Renaissance fortress housing museums and art collections, including works by Michelangelo.",
+      "description": "No description available",
       "imageUrl": "https://images.unsplash.com/photo-milan-castle",
       "location": "Piazza Castello, 20121 Milan",
       "openingHours": [
@@ -16864,8 +16243,8 @@
           "day": "Monday",
           "availableHours": [
             {
-              "from": "07:00",
-              "to": "19:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16873,8 +16252,8 @@
           "day": "Tuesday",
           "availableHours": [
             {
-              "from": "07:00",
-              "to": "19:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16882,8 +16261,8 @@
           "day": "Wednesday",
           "availableHours": [
             {
-              "from": "07:00",
-              "to": "19:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16891,8 +16270,8 @@
           "day": "Thursday",
           "availableHours": [
             {
-              "from": "07:00",
-              "to": "19:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16900,8 +16279,8 @@
           "day": "Friday",
           "availableHours": [
             {
-              "from": "07:00",
-              "to": "19:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16909,8 +16288,8 @@
           "day": "Saturday",
           "availableHours": [
             {
-              "from": "07:00",
-              "to": "19:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         },
@@ -16918,30 +16297,21 @@
           "day": "Sunday",
           "availableHours": [
             {
-              "from": "07:00",
-              "to": "19:30"
+              "from": "00:00",
+              "to": "23:59"
             }
           ]
         }
       ],
-      "entryFee": "€5",
-      "entryFeeCategory": "cheap",
+      "entryFeeCategory": "moderate",
       "priceRange": "$",
-      "priceCategory": "cheap",
+      "priceCategory": "moderate",
       "timeOfDay": "daytime",
-      "rating": 4.6,
-      "tags": [
-        "Historical",
-        "Artormusic",
-        "Popular"
-      ],
+      "rating": 4,
+      "tags": [],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "fortress",
-        "museums",
-        "art collections"
-      ]
+      "features": []
     }
   },
   "zurich": {
@@ -21641,7 +21011,18 @@
       "accessibilityFeatures": [
         "Ramps and elevators available"
       ],
-      "entryFees": [],
+      "entryFees": [
+        {
+          "category": "adult",
+          "priceRange": "€3",
+          "priceCategory": "budget"
+        },
+        {
+          "category": "child",
+          "priceRange": "€1.50",
+          "priceCategory": "low"
+        }
+      ],
       "features": [
         "historical site",
         "architecture",
