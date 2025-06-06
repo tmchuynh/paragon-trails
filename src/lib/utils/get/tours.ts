@@ -173,8 +173,6 @@ export async function getTourByPrice(
 }
 
 export async function getTourById(city: string, tourId: string): Promise<any> {
-  console.log(`Fetching tour with ID: ${tourId} for city: ${city}`);
-
   // Normalize the city name to ensure it matches the keys in cityToRegionMap
   // Remove any trailing slashes, convert to lowercase, and ensure kebab-case format
   const normalizedCity = city
@@ -190,20 +188,20 @@ export async function getTourById(city: string, tourId: string): Promise<any> {
   if (!cityRegion) {
     // Try to fallback to a substring match if exact match fails
     const possibleCity = Object.keys(cityToRegionMap).find((key) =>
-      normalizedCity.includes(key),
+      normalizedCity.includes(key)
     );
     if (possibleCity) {
       const region =
         cityToRegionMap[possibleCity as keyof typeof cityToRegionMap];
       console.log(
-        `Found region ${region} using fallback city: ${possibleCity}`,
+        `Found region ${region} using fallback city: ${possibleCity}`
       );
       const formattedRegion = formatTitleToCamelCase(region);
       return findTourInModule(
         formattedCity,
         formattedRegion,
         tourId,
-        normalizedCity,
+        normalizedCity
       );
     }
     return null;
@@ -215,7 +213,7 @@ export async function getTourById(city: string, tourId: string): Promise<any> {
     formattedCity,
     formattedRegion,
     tourId,
-    normalizedCity,
+    normalizedCity
   );
 }
 
@@ -227,25 +225,19 @@ async function findTourInModule(
   normalizedCity: string,
 ): Promise<any> {
   const tourIdFormatted = `${formattedCity}${formattedRegion}Tours`;
-  console.log(`Looking for tour ID format: ${tourIdFormatted}`);
-
   try {
     let tourModule;
     try {
       // Try the first path format
       tourModule = await import(`@/lib/constants/tours/${formattedCity}`);
-      console.log(`Loaded tour module from /constants/tours/${formattedCity}`);
     } catch (importError) {
       // Try alternative path
       try {
         tourModule = await import(`@/lib/constants/tours/${normalizedCity}`);
-        console.log(
-          `Loaded tour module from /constants/tours/${normalizedCity}`,
-        );
       } catch (secondError) {
         console.error(
           `Failed to import tour module for ${formattedCity}:`,
-          secondError,
+          secondError
         );
         return null;
       }
@@ -261,12 +253,10 @@ async function findTourInModule(
     ];
 
     for (const exportName of possibleExportNames) {
-      console.log(`Trying to find tours in export: ${exportName}`);
       if (tourModule[exportName]) {
         const tours = tourModule[exportName] as Tour[];
         const foundTour = tours.find((tour) => tour.id === tourId);
         if (foundTour) {
-          console.log(`Found tour with ID ${tourId} in export ${exportName}`);
           return foundTour;
         }
       }
@@ -287,7 +277,7 @@ async function findTourInModule(
     }
 
     console.warn(
-      `No tours found for city ${normalizedCity} with any known ID format`,
+      `No tours found for city ${normalizedCity} with any known ID format`
     );
     return null;
   } catch (error) {

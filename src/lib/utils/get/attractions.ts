@@ -192,11 +192,11 @@ export async function getCityAttractionByName(
     // Log all attraction titles to help debug
     console.log(
       "Available attractions:",
-      attractions.map((a) => a.title || a.name)
+      attractions.map((a) => a.title)
     );
     
     if (attraction) {
-      console.log(`Found attraction: ${attraction.title || attraction.name}`);
+      console.log(`Found attraction: ${attraction.title}`);
       return attraction;
     } else {
       console.error(
