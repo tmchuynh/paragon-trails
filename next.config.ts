@@ -9,6 +9,7 @@ const imageHosts = [
   "media.istockphoto.com",
   "cdn.pixabay.com",
   "lh3.googleusercontent.com",
+  "randomuser.me",
 ];
 
 const nextConfig: NextConfig = {
