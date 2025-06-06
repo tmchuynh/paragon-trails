@@ -82,6 +82,35 @@ const cityLivingTestimonialTemplates = [
   "The {NEIGHBORHOOD_VIBE} neighborhoods in {CITY} each have their own character, which keeps life interesting year after year.",
   "{CITY}'s {CULTURAL_ASPECT} scene has become central to my life here. I couldn't imagine living without it now.",
   "What I tell friends considering moving to {CITY} is to appreciate the {HIDDEN_GEM}—it's what makes daily life here so rich.",
+  "No two days are the same living in {CITY}. The {DYNAMIC_ASPECT} keeps me excited to wake up every morning.",
+  "If you want a city that offers {LIFESTYLE_BENEFIT}, {CITY} is the place to be.",
+  "Despite its size, {CITY} manages to feel {SMALL_TOWN_QUALITY}, which is rare and wonderful.",
+  "The food scene in {CITY} is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
+  "One of the best things about living in {CITY} is the {ACCESSIBILITY_FEATURE}—it makes everything so convenient.",
+  "The {GREEN_SPACES} in {CITY} offer a perfect escape from the urban buzz without leaving the city limits.",
+  "Community events and festivals in {CITY} bring everyone together, making the {COMMUNITY_ASPECT} really stand out.",
+  "The cost of living in {CITY} is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
+  "Living in {CITY} has opened my eyes to {PERSONAL_GROWTH_ASPECT} that I never expected.",
+  "The mix of old and new in {CITY}'s architecture and culture keeps the city feeling fresh yet grounded.",
+  "I've found that {CITY}'s {TRANSPORT_FEATURE} really makes getting around effortless and enjoyable.",
+  "The sense of {SAFETY} in {CITY} makes me feel comfortable raising my kids here.",
+  "I love how {CITY} celebrates {FESTIVAL_OR_EVENT}, it brings so much joy and community spirit.",
+  "One thing I didn’t expect when moving to {CITY} was the {WEATHER_FEATURE}—it’s truly refreshing.",
+  "The nightlife in {CITY} is vibrant and full of {ENTERTAINMENT_FEATURE} for everyone.",
+  "{CITY}'s {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
+  "The art and creativity flowing through {CITY} is inspiring. It feels like living inside a masterpiece.",
+  "One of my favorite parts about living in {CITY} is the {MARKET_OR_SHOPPING_FEATURE} just around the corner.",
+  "I appreciate how {CITY} balances {TECH_INNOVATION} with historic charm perfectly.",
+  "Public services like {PUBLIC_SERVICE_FEATURE} in {CITY} make daily life convenient and stress-free.",
+  "Living in {CITY} means I get to enjoy {SPORTS_OR_OUTDOOR_ACTIVITY} year-round.",
+  "The people of {CITY} are incredibly welcoming and have made me feel at home since day one.",
+  "The {TRANQUILITY_FEATURE} in {CITY} offers a peaceful retreat from the busy world.",
+  "Living here means being a part of {CITY}'s ongoing story of innovation and tradition.",
+  "What really surprised me about {CITY} is its {DIVERSITY_FEATURE} — it’s a true melting pot.",
+  "Every weekend in {CITY} brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
+  "The historical significance of {CITY} adds a depth to daily life that I truly cherish.",
+  "Living in {CITY} has allowed me to connect deeply with {NATURE_FEATURE} nearby.",
+  "The {FESTIVAL_OR_EVENT} season in {CITY} brings so much excitement and pride to the community.",
 ];
 
 const cityCharacteristics = [
@@ -111,6 +140,30 @@ const cityCharacteristics = [
   "family-friendly environment",
   "coastal lifestyle",
   "mountain access",
+  "festival tradition",
+  "tech hub",
+  "historic neighborhoods",
+  "multilingual community",
+  "artisan craftsmanship",
+  "sustainable initiatives",
+  "waterfront views",
+  "sports enthusiasm",
+  "music scene",
+  "local craftsmanship",
+  "seasonal festivals",
+  "boutique shopping",
+  "eco-consciousness",
+  "pet-friendly parks",
+  "urban gardens",
+  "innovative architecture",
+  "street art culture",
+  "farmers markets",
+  "lively plazas",
+  "heritage preservation",
+  "diverse nightlife",
+  "public art installations",
+  "culinary innovation",
+  "tranquil retreats",
 ];
 
 const cityAspects = [
@@ -143,6 +196,28 @@ const cityAspects = [
   "theater scene",
   "outdoor dining",
   "professional opportunities",
+  "green initiatives",
+  "public transportation",
+  "family-friendly parks",
+  "urban gardening",
+  "nightlife diversity",
+  "sports culture",
+  "wellness centers",
+  "library systems",
+  "multicultural cuisine",
+  "historic districts",
+  "artisan workshops",
+  "tech innovation hubs",
+  "volunteer opportunities",
+  "local storytelling",
+  "boutique shopping",
+  "community centers",
+  "riverwalks",
+  "cycling tours",
+  "seasonal outdoor markets",
+  "fitness clubs",
+  "creative workshops",
+  "farm-to-table restaurants",
 ];
 
 const cityFeatures = [
@@ -172,6 +247,28 @@ const cityFeatures = [
   "cultural institutions",
   "live music venues",
   "riverside parks",
+  "urban murals and street art",
+  "botanical gardens",
+  "public libraries",
+  "farmers market",
+  "open-air cinemas",
+  "skate parks",
+  "aquatic centers",
+  "vintage shopping districts",
+  "local craft breweries",
+  "rooftop bars",
+  "culinary tours",
+  "harbor views",
+  "artisanal food shops",
+  "community theaters",
+  "green rooftops",
+  "seasonal outdoor festivals",
+  "heritage museums",
+  "scenic hiking trails",
+  "urban plazas",
+  "concert halls",
+  "eco-friendly transport options",
+  "historic churches",
 ];
 
 const cityQualities = [
@@ -199,6 +296,24 @@ const cityQualities = [
   "adaptability",
   "innovative mindset",
   "collaborative approach",
+  "inclusive environment",
+  "vibrant nightlife",
+  "family-oriented",
+  "green consciousness",
+  "historical preservation",
+  "modern infrastructure",
+  "friendly neighborhoods",
+  "dynamic economy",
+  "strong social fabric",
+  "multilingual community",
+  "high quality of life",
+  "rich folklore",
+  "tech-savvy population",
+  "active volunteerism",
+  "artisanal craftsmanship",
+  "civic engagement",
+  "access to education",
+  "safe and secure",
 ];
 
 const communityDescriptors = [
@@ -222,6 +337,24 @@ const communityDescriptors = [
   "tech ecosystem",
   "craft community",
   "literary circles",
+  "multicultural neighborhoods",
+  "wellness community",
+  "environmental advocates",
+  "heritage societies",
+  "youth organizations",
+  "senior citizen groups",
+  "local artisans",
+  "startup founders",
+  "community gardeners",
+  "language exchange groups",
+  "makerspaces",
+  "film enthusiasts",
+  "philanthropic circles",
+  "digital nomads",
+  "social clubs",
+  "religious communities",
+  "neighborhood associations",
+  "gaming communities",
 ];
 
 const cityExperiences = [
@@ -245,6 +378,16 @@ const cityExperiences = [
   "continuous discovery",
   "international exposure",
   "civic engagement",
+  "festival participation",
+  "nightlife excitement",
+  "wellness and relaxation",
+  "eco-tourism experiences",
+  "sports and recreation",
+  "family-friendly activities",
+  "music and performing arts",
+  "shopping and markets",
+  "historic tours",
+  "volunteering opportunities",
 ];
 
 const unexpectedQualities = [
@@ -268,6 +411,15 @@ const unexpectedQualities = [
   "adaptable",
   "creative",
   "inspiring",
+  "hidden gem",
+  "underrated",
+  "eco-conscious",
+  "inclusive",
+  "resilient",
+  "vibrant",
+  "quiet",
+  "charming",
+  "multifaceted",
 ];
 
 const uniqueAspects = [
@@ -291,6 +443,15 @@ const uniqueAspects = [
   "local government",
   "public services",
   "social cohesion",
+  "transport infrastructure",
+  "heritage sites",
+  "green initiatives",
+  "tech innovation",
+  "public art installations",
+  "walkability",
+  "local festivals",
+  "multilingualism",
+  "community resilience",
 ];
 
 const reasonsToStay = [
@@ -314,6 +475,16 @@ const reasonsToStay = [
   "recreational options",
   "affordability",
   "work opportunities",
+  "safety and security",
+  "climate comfort",
+  "diverse neighborhoods",
+  "access to innovation hubs",
+  "vibrant nightlife",
+  "local traditions",
+  "community engagement",
+  "green spaces",
+  "transport connectivity",
+  "inclusive culture",
 ];
 
 const familyBenefits = [
@@ -337,6 +508,16 @@ const familyBenefits = [
   "sports facilities",
   "nature connection",
   "cultural institutions",
+  "after-school programs",
+  "childcare services",
+  "family-oriented events",
+  "accessible playgrounds",
+  "parent support groups",
+  "safe pedestrian areas",
+  "library programs",
+  "healthy food options",
+  "family healthcare specialists",
+  "early childhood education",
 ];
 
 const balanceAspects = [
@@ -355,6 +536,16 @@ const balanceAspects = [
   "intellectual life and physical activity",
   "artistic expression and practical living",
   "bustling energy and quiet retreats",
+  "modern amenities and vintage charm",
+  "fast-paced lifestyle and slow weekends",
+  "cosmopolitan vibe and small-town feel",
+  "cutting-edge technology and nature conservation",
+  "diverse culinary experiences and local farmers markets",
+  "vibrant nightlife and peaceful mornings",
+  "public transit convenience and bike-friendly paths",
+  "dynamic economy and preserved heritage",
+  "creative hubs and traditional craftsmanship",
+  "community engagement and personal space",
 ];
 
 const surroundings = [
@@ -378,6 +569,18 @@ const surroundings = [
   "international influences",
   "traditional customs",
   "creative enterprises",
+  "waterfront promenades",
+  "lush parks and gardens",
+  "vibrant street art",
+  "festival grounds",
+  "historic districts",
+  "open-air markets",
+  "scenic hiking trails",
+  "botanical gardens",
+  "city skylines",
+  "quiet residential streets",
+  "coastal vistas",
+  "urban plazas and squares",
 ];
 
 const everydayJoys = [
@@ -401,6 +604,16 @@ const everydayJoys = [
   "public art",
   "sunset views",
   "seasonal festivals",
+  "bike-friendly streets",
+  "farmers market mornings",
+  "quiet reading spots",
+  "community gardens",
+  "late-night diners",
+  "pop-up food stalls",
+  "urban street murals",
+  "sun-drenched plazas",
+  "family picnics in the park",
+  "early morning jogs",
 ];
 
 const seasonalHighlights = [
@@ -424,6 +637,16 @@ const seasonalHighlights = [
   "summer public pool scene",
   "fall university energy",
   "winter community celebrations",
+  "spring bike rides",
+  "summer food truck gatherings",
+  "fall wine harvest festivals",
+  "winter ice skating rinks",
+  "spring bird watching",
+  "summer festival parades",
+  "autumn craft fairs",
+  "winter fireside gatherings",
+  "spring yoga in the park",
+  "summer beach bonfires",
 ];
 
 const localActivities = [
@@ -447,6 +670,16 @@ const localActivities = [
   "engage with diverse cultural communities",
   "connect with professional networks",
   "enjoy both urban and natural environments",
+  "explore vibrant street art",
+  "relax in cozy neighborhood cafes",
+  "discover hidden local boutiques",
+  "join weekend yoga sessions in the park",
+  "experience night markets",
+  "attend open-air theater performances",
+  "take part in charity runs",
+  "visit botanical gardens",
+  "enjoy riverfront walks",
+  "experience local craft workshops",
 ];
 
 const neighborhoodVibes = [
@@ -470,6 +703,15 @@ const neighborhoodVibes = [
   "gentrifying",
   "established",
   "evolving",
+  "urban",
+  "suburban",
+  "industrial",
+  "hipster",
+  "eco-conscious",
+  "touristy",
+  "luxurious",
+  "community-oriented",
+  "historic preservation",
 ];
 
 const culturalAspects = [
@@ -493,6 +735,15 @@ const culturalAspects = [
   "craft beer",
   "coffee",
   "wine",
+  "street art",
+  "public art",
+  "folk traditions",
+  "cultural heritage",
+  "live performances",
+  "gallery openings",
+  "film festivals",
+  "food festivals",
+  "ethnic cuisine",
 ];
 
 const hiddenGems = [
@@ -516,6 +767,16 @@ const hiddenGems = [
   "craft workshops",
   "historic preservation",
   "creative incubators",
+  "hidden courtyards",
+  "boutique coffee shops",
+  "artisan markets",
+  "local theaters",
+  "quiet reading spots",
+  "secret viewpoints",
+  "underground clubs",
+  "old libraries",
+  "street murals",
+  "pop-up galleries",
 ];
 
 const durations = [
@@ -539,6 +800,12 @@ const durations = [
   "returning",
   "permanent",
   "settled",
+  "seasoned",
+  "experienced",
+  "veteran",
+  "established",
+  "resilient",
+  "steadfast",
 ];
 
 const yearsRange = [2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 15, 18, 20, 25, 30];
@@ -569,7 +836,30 @@ const testimonialTitles = [
   "{CITY}: A City That Grows With You",
   "The Perfect Imperfections of {CITY}",
   "{CITY} Living: Worth Every Moment",
+  "Discovering Home in {CITY}",
+  "Why I’m Proud to Call {CITY} Home",
+  "The Heartbeat of {CITY} Life",
+  "Stories From the Streets of {CITY}",
+  "{CITY}: More Than Just a Place",
+  "From Newcomer to Local in {CITY}",
+  "How {CITY} Changed My Life",
+  "The Community Spirit That Defines {CITY}",
+  "A Love Letter to {CITY}",
+  "The Vibrant Life of {CITY} Residents",
+  "Inside the Culture of {CITY}",
+  "The Challenges and Charms of Living in {CITY}",
+  "Finding Inspiration Every Day in {CITY}",
+  "A Resident's Guide to Living Well in {CITY}",
+  "Why {CITY} Is a Place to Grow",
+  "The Neighborhoods That Make {CITY} Home",
+  "Living Sustainably in {CITY}",
+  "What Makes {CITY} Feel Like Family",
+  "Uncovering the Layers of {CITY}",
+  "The Joys of Slow Living in {CITY}",
+  "How {CITY} Balances Tradition and Innovation",
 ];
+  
+  
 
 // Helper functions
 async function ensureDirectoryExists(dirPath) {
