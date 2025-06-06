@@ -2,7 +2,7 @@
  * Utility functions for generating random data
  */
 
-import { attractionBasicInfo } from "./attraction-utils.mjs";
+import { attractionBasicInfo } from "./attraction-basic-utils.mjs";
 
 /**
  * Generate a random price within a range
