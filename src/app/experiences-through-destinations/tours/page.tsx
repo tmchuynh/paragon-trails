@@ -458,8 +458,8 @@ export default function ToursExplorePageClient() {
         {/* Header and Controls */}
         <div className="flex md:flex-row flex-col justify-between items-start md:items-center gap-4">
           <header>
-            <h1 className="text-start">Explore Tours</h1>
-            <h5 className="text-start">
+            <h1>Explore Tours</h1>
+            <h5>
               {filteredTours.length} tour
               {filteredTours.length !== 1 ? "s" : ""} available
             </h5>
@@ -499,7 +499,7 @@ export default function ToursExplorePageClient() {
                     onClick={() => {
                       setSortField("city");
                       setSortDirection((prev) =>
-                        prev === "asc" ? "desc" : "asc",
+                        prev === "asc" ? "desc" : "asc"
                       );
                     }}
                   >
@@ -511,7 +511,7 @@ export default function ToursExplorePageClient() {
                     onClick={() => {
                       setSortField("country");
                       setSortDirection((prev) =>
-                        prev === "asc" ? "desc" : "asc",
+                        prev === "asc" ? "desc" : "asc"
                       );
                     }}
                   >
@@ -523,7 +523,7 @@ export default function ToursExplorePageClient() {
                     onClick={() => {
                       setSortField("region");
                       setSortDirection((prev) =>
-                        prev === "asc" ? "desc" : "asc",
+                        prev === "asc" ? "desc" : "asc"
                       );
                     }}
                   >
@@ -535,7 +535,7 @@ export default function ToursExplorePageClient() {
                     onClick={() => {
                       setSortField("price");
                       setSortDirection((prev) =>
-                        prev === "asc" ? "desc" : "asc",
+                        prev === "asc" ? "desc" : "asc"
                       );
                     }}
                   >
@@ -547,7 +547,7 @@ export default function ToursExplorePageClient() {
                     onClick={() => {
                       setSortField("duration");
                       setSortDirection((prev) =>
-                        prev === "asc" ? "desc" : "asc",
+                        prev === "asc" ? "desc" : "asc"
                       );
                     }}
                   >
@@ -729,7 +729,7 @@ export default function ToursExplorePageClient() {
                           toggleFilter(
                             languageFilter,
                             setLanguageFilter,
-                            language,
+                            language
                           )
                         }
                       />
@@ -897,7 +897,7 @@ export default function ToursExplorePageClient() {
                   const displayPrice = convertPrice(
                     parseFloat(removeSpecialCharactersFromNumbers(tour.price)),
                     tour.currency || "USD", // Add fallback if currency is missing
-                    selectedCurrency,
+                    selectedCurrency
                   );
 
                   return (
@@ -967,7 +967,7 @@ export default function ToursExplorePageClient() {
                             className="whitespace-nowrap"
                             onClick={() =>
                               router.push(
-                                `/experiences-through-destinations/${tour.city}/tours/${tour.title}?tourId=${tour.id}&city=${tour.city}/&guideId=${tour.guideId}&currency=${selectedCurrency}`,
+                                `/experiences-through-destinations/${tour.city}/tours/${tour.title}?tourId=${tour.id}&city=${tour.city}/&guideId=${tour.guideId}&currency=${selectedCurrency}`
                               )
                             }
                           >
