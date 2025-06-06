@@ -1,5 +1,6 @@
 import { Details } from "@/lib/types/types";
 import { TourGuide } from "../people/staff";
+import { BaseAttraction } from "./attractions";
 
 export interface TourCategory {
   id: string;
@@ -125,7 +126,8 @@ export type TourRegion =
   | "Alaska";
 
 export interface TourSchedule {
-  dayOfWeek:
+  attractionId: BaseAttraction["id"];
+  dayOfWeek?:
     | "Monday"
     | "Tuesday"
     | "Wednesday"
