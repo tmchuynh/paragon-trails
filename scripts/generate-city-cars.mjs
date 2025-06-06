@@ -524,8 +524,8 @@ function generateLuxuryRentalCar(city, index) {
     new Set(
       Array(numColors)
         .fill(0)
-        .map(() => carColors[Math.floor(Math.random() * carColors.length)])
-    )
+        .map(() => carColors[Math.floor(Math.random() * carColors.length)]),
+    ),
   );
 
   // Generate features (5-10 features)
@@ -534,8 +534,8 @@ function generateLuxuryRentalCar(city, index) {
     new Set(
       Array(numFeatures)
         .fill(0)
-        .map(() => carFeatures[Math.floor(Math.random() * carFeatures.length)])
-    )
+        .map(() => carFeatures[Math.floor(Math.random() * carFeatures.length)]),
+    ),
   );
 
   // Generate rental price per day (based on car type and make)
