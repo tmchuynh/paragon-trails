@@ -687,7 +687,7 @@ async function loadCityGuides(city) {
     "constants",
     "staff",
     "guides",
-    `${formattedName}.ts`
+    `${formattedName}.ts`,
   );
 
   try {
@@ -719,7 +719,7 @@ async function loadCityGuides(city) {
 // Load attractions for a city
 async function loadCityAttractions(city) {
   const formattedName = city;
-  
+
   const attractionsPath = path.join(
     process.cwd(),
     "src",
@@ -727,13 +727,15 @@ async function loadCityAttractions(city) {
     "constants",
     "destinations",
     "city",
-    `${formattedName}.ts`
+    `${formattedName}.ts`,
   );
 
   try {
     await access(attractionsPath);
   } catch {
-    console.log(`No attractions file found for ${city}. Using placeholder attraction IDs.`);
+    console.log(
+      `No attractions file found for ${city}. Using placeholder attraction IDs.`,
+    );
     return Array.from({ length: 5 }, (_, i) => ({
       id: `attraction-${removeAccents(city).toLowerCase().replace(/\s+/g, "-")}-${i + 1}`,
     }));
@@ -741,12 +743,12 @@ async function loadCityAttractions(city) {
 
   try {
     const content = await readFile(attractionsPath, "utf-8");
-    
+
     // Extract all attraction IDs using regex
     const attractionMatches = content.match(/id: "([^"]+)"/g);
     if (!attractionMatches) return [];
 
-    return attractionMatches.map(match => {
+    return attractionMatches.map((match) => {
       const id = match.match(/id: "([^"]+)"/)[1];
       return { id };
     });
@@ -778,7 +780,7 @@ function generateSchedules(attractions) {
 
     // Select a random attraction (without replacement)
     const attractionIndex = Math.floor(
-      Math.random() * availableAttractions.length
+      Math.random() * availableAttractions.length,
     );
     const attraction = availableAttractions.splice(attractionIndex, 1)[0];
 
@@ -795,7 +797,7 @@ function generateSchedules(attractions) {
       (s) =>
         s.dayOfWeek === dayOfWeek &&
         s.startTime === startTime &&
-        s.endTime === endTime
+        s.endTime === endTime,
     );
 
     if (!existing) {
@@ -813,10 +815,10 @@ function generateSchedules(attractions) {
 
 // Helper function to convert time to 12-hour format
 function formatTimeTo12Hour(time) {
-  const [hours, minutes] = time.split(':').map(Number);
-  const period = hours >= 12 ? 'PM' : 'AM';
+  const [hours, minutes] = time.split(":").map(Number);
+  const period = hours >= 12 ? "PM" : "AM";
   const adjustedHours = hours % 12 || 12;
-  return `${adjustedHours}:${minutes.toString().padStart(2, '0')} ${period}`;
+  return `${adjustedHours}:${minutes.toString().padStart(2, "0")} ${period}`;
 }
 
 // Generate a tour for a city
@@ -910,9 +912,9 @@ function generateTour(city, index, guides) {
       Array(numIncluded)
         .fill(0)
         .map(
-          () => includedItems[Math.floor(Math.random() * includedItems.length)]
-        )
-    )
+          () => includedItems[Math.floor(Math.random() * includedItems.length)],
+        ),
+    ),
   );
 
   const numNotIncluded = Math.floor(Math.random() * 3) + 2; // 2-4 items
@@ -924,9 +926,9 @@ function generateTour(city, index, guides) {
           () =>
             notIncludedItems[
               Math.floor(Math.random() * notIncludedItems.length)
-            ]
-        )
-    )
+            ],
+        ),
+    ),
   );
 
   // Generate requirements
@@ -939,9 +941,9 @@ function generateTour(city, index, guides) {
           () =>
             tourRequirements[
               Math.floor(Math.random() * tourRequirements.length)
-            ]
-        )
-    )
+            ],
+        ),
+    ),
   );
 
   // Generate languages offered
@@ -1117,7 +1119,7 @@ async function generateCityTourFile(city) {
       tours = await extractExistingTours(filePath);
     } else {
       console.log(
-        `File already exists (use --rewrite to replace): ${filePath}`
+        `File already exists (use --rewrite to replace): ${filePath}`,
       );
       return;
     }
@@ -1191,7 +1193,7 @@ async function generateCityTourFile(city) {
   // Write file
   await writeFile(filePath, content);
   console.log(
-    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`
+    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`,
   );
 }
 
@@ -1210,7 +1212,7 @@ async function generateAllCityTourFiles() {
       city
         .toLowerCase()
         .replace(/[^a-z0-9]/g, "")
-        .includes(filterLower)
+        .includes(filterLower),
     );
 
     if (citiesToProcess.length === 0) {
@@ -1222,7 +1224,7 @@ async function generateAllCityTourFiles() {
         .filter((city) =>
           city
             .toLowerCase()
-            .includes(options.cityFilter.toLowerCase().split(/[ -]/).join(""))
+            .includes(options.cityFilter.toLowerCase().split(/[ -]/).join("")),
         )
         .slice(0, 10);
 
@@ -1238,7 +1240,7 @@ async function generateAllCityTourFiles() {
     }
 
     console.log(
-      `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`
+      `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`,
     );
   }
 
