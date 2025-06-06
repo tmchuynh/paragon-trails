@@ -439,7 +439,7 @@ export default function ToursByCityPage() {
                     onClick={() => {
                       setSortField("price");
                       setSortDirection((prev) =>
-                        prev === "asc" ? "desc" : "asc"
+                        prev === "asc" ? "desc" : "asc",
                       );
                     }}
                   >
@@ -451,7 +451,7 @@ export default function ToursByCityPage() {
                     onClick={() => {
                       setSortField("duration");
                       setSortDirection((prev) =>
-                        prev === "asc" ? "desc" : "asc"
+                        prev === "asc" ? "desc" : "asc",
                       );
                     }}
                   >
@@ -463,12 +463,12 @@ export default function ToursByCityPage() {
                     onClick={() => {
                       setSortField("rating");
                       setSortDirection((prev) =>
-                        prev === "asc" ? "desc" : "asc"
+                        prev === "asc" ? "desc" : "asc",
                       );
                     }}
                   >
                     Sort by Rating{" "}
-                    {sortField === "rating" &&
+                    {sortField === ("rating" as SortField) &&
                       (sortDirection === "asc" ? "↑" : "↓")}
                   </DropdownMenuItem>
                 </DropdownMenuContent>
@@ -552,7 +552,7 @@ export default function ToursByCityPage() {
                           toggleFilter(
                             languageFilter,
                             setLanguageFilter,
-                            language
+                            language,
                           )
                         }
                       />
@@ -721,10 +721,10 @@ export default function ToursByCityPage() {
                   const displayPrice = convertPrice(
                     tour.pricePerPerson ||
                       parseFloat(
-                        removeSpecialCharactersFromNumbers(tour.price)
+                        removeSpecialCharactersFromNumbers(tour.price),
                       ),
                     tour.currency || "USD",
-                    selectedCurrency
+                    selectedCurrency,
                   );
 
                   return (
@@ -790,7 +790,7 @@ export default function ToursByCityPage() {
                             className="whitespace-nowrap"
                             onClick={() =>
                               router.push(
-                                `/experiences-through-destinations/${citySlug}/tours/${encodeURIComponent(tour.title)}?tourId=${tour.id}&city=${citySlug}&guideId=${tour.guideId}&currency=${selectedCurrency}`
+                                `/experiences-through-destinations/${citySlug}/tours/${encodeURIComponent(tour.title)}?tourId=${tour.id}&city=${citySlug}&guideId=${tour.guideId}&currency=${selectedCurrency}`,
                               )
                             }
                           >
