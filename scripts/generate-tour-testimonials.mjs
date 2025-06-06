@@ -245,7 +245,7 @@ async function fileExists(filePath) {
 
 function formatFileName(tourTitle) {
   return formatTitleToCamelCase(
-    removeAccents(tourTitle.replace(/[^\w\s]/gi, ""))
+    removeAccents(tourTitle.replace(/[^\w\s]/gi, "")),
   );
 }
 
@@ -264,7 +264,7 @@ function getTestimonialQuote(city, tourTitle, guideName) {
   if (quote.includes("{RELATIVE}")) {
     quote = quote.replace(
       "{RELATIVE}",
-      relatives[Math.floor(Math.random() * relatives.length)]
+      relatives[Math.floor(Math.random() * relatives.length)],
     );
   }
 
@@ -354,7 +354,7 @@ async function createTestimonialFile(tour) {
     "lib",
     "constants",
     "testimonials",
-    tour.city
+    tour.city,
   );
   const filePath = path.join(cityDir, `${fileName}Testimonials.ts`);
 
@@ -401,7 +401,7 @@ async function generateAllTestimonials() {
       "lib",
       "constants",
       "tours",
-      file
+      file,
     );
     const { cityName, tours } = await parseTours(filePath);
 
@@ -434,7 +434,7 @@ async function generateAllTestimonials() {
         await createTestimonialFile(tour);
       } catch (error) {
         console.error(
-          `Error creating testimonial file for ${tour.title}: ${error.message}`
+          `Error creating testimonial file for ${tour.title}: ${error.message}`,
         );
       }
     }

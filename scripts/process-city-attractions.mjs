@@ -21,7 +21,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // Load attractions data
 const attractionsData = JSON.parse(
-  fs.readFileSync(path.join(__dirname, "../src/data/attractions.json"), "utf8")
+  fs.readFileSync(path.join(__dirname, "../src/data/attractions.json"), "utf8"),
 );
 
 // Convert kebab-case to camelCase
@@ -52,7 +52,7 @@ function stringifyObject(obj, indentLevel = 2) {
 
     const props = entries
       .map(
-        ([key, value]) => `${key}: ${stringifyObject(value, indentLevel + 2)}`
+        ([key, value]) => `${key}: ${stringifyObject(value, indentLevel + 2)}`,
       )
       .join(",\n" + " ".repeat(indentLevel + 2));
 
@@ -131,7 +131,7 @@ export const ${cityNameCamel}${formatKebabToCamelCase(region)}Attractions: Attra
   // Ensure directory exists
   const destDir = path.join(
     __dirname,
-    "../src/lib/constants/destinations/city"
+    "../src/lib/constants/destinations/city",
   );
   if (!fs.existsSync(destDir)) {
     fs.mkdirSync(destDir, { recursive: true });

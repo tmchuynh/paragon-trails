@@ -386,9 +386,9 @@ function generateTourGuide(city, index) {
         .fill(0)
         .map(
           () =>
-            certifications[Math.floor(Math.random() * certifications.length)]
-        )
-    )
+            certifications[Math.floor(Math.random() * certifications.length)],
+        ),
+    ),
   );
 
   // Generate random languages
@@ -397,8 +397,8 @@ function generateTourGuide(city, index) {
     new Set(
       Array(numLanguages)
         .fill(0)
-        .map(() => languages[Math.floor(Math.random() * languages.length)])
-    )
+        .map(() => languages[Math.floor(Math.random() * languages.length)]),
+    ),
   );
 
   // Generate random specialties
@@ -407,8 +407,8 @@ function generateTourGuide(city, index) {
     new Set(
       Array(numSpecialties)
         .fill(0)
-        .map(() => specialties[Math.floor(Math.random() * specialties.length)])
-    )
+        .map(() => specialties[Math.floor(Math.random() * specialties.length)]),
+    ),
   );
 
   // Generate random special training
@@ -419,9 +419,9 @@ function generateTourGuide(city, index) {
         .fill(0)
         .map(
           () =>
-            specialTraining[Math.floor(Math.random() * specialTraining.length)]
-        )
-    )
+            specialTraining[Math.floor(Math.random() * specialTraining.length)],
+        ),
+    ),
   );
 
   // Generate random tour regions covered
@@ -430,8 +430,8 @@ function generateTourGuide(city, index) {
     new Set(
       Array(numRegions)
         .fill(0)
-        .map(() => tourRegions[Math.floor(Math.random() * tourRegions.length)])
-    )
+        .map(() => tourRegions[Math.floor(Math.random() * tourRegions.length)]),
+    ),
   );
 
   // Generate random tour types
@@ -440,8 +440,8 @@ function generateTourGuide(city, index) {
     new Set(
       Array(numTypes)
         .fill(0)
-        .map(() => tourTypes[Math.floor(Math.random() * tourTypes.length)])
-    )
+        .map(() => tourTypes[Math.floor(Math.random() * tourTypes.length)]),
+    ),
   );
 
   // Generate random weekly availability
@@ -450,8 +450,8 @@ function generateTourGuide(city, index) {
     new Set(
       Array(numAvailableDays)
         .fill(0)
-        .map(() => weekDays[Math.floor(Math.random() * weekDays.length)])
-    )
+        .map(() => weekDays[Math.floor(Math.random() * weekDays.length)]),
+    ),
   );
 
   const available = availableDays.map((day) => {

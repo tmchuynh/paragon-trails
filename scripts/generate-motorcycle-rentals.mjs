@@ -408,9 +408,9 @@ function generateMotorcycle(cityName, index) {
           () =>
             motorcycleFeatures[
               Math.floor(Math.random() * motorcycleFeatures.length)
-            ]
-        )
-    )
+            ],
+        ),
+    ),
   );
 
   // Generate random requirements
@@ -423,9 +423,9 @@ function generateMotorcycle(cityName, index) {
           () =>
             motorcycleRequirements[
               Math.floor(Math.random() * motorcycleRequirements.length)
-            ]
-        )
-    )
+            ],
+        ),
+    ),
   );
 
   // Always include "Valid Motorcycle License" as a requirement
@@ -558,13 +558,13 @@ async function extractExistingMotorcycles(filePath) {
   const motorcycles = await extractObjectsFromFile(
     filePath,
     "Motorcycle",
-    motorcycleParser
+    motorcycleParser,
   );
 
   // Add validation to prevent errors with null/empty motorcycles array
   if (!motorcycles || !Array.isArray(motorcycles) || motorcycles.length === 0) {
     console.warn(
-      `Could not parse existing motorcycles in ${filePath}, will create fresh data`
+      `Could not parse existing motorcycles in ${filePath}, will create fresh data`,
     );
     return [];
   }
@@ -589,7 +589,7 @@ async function generateCityFile(city) {
     "lib",
     "constants",
     "rentals",
-    "motorcycles"
+    "motorcycles",
   );
   const filePath = path.join(destDir, `${city}.ts`);
 
@@ -611,13 +611,13 @@ async function generateCityFile(city) {
       // Add validation to prevent errors with null/empty motorcycles array
       if (!motorcycles || !Array.isArray(motorcycles)) {
         console.warn(
-          `Could not parse existing motorcycles in ${filePath}, creating a new file instead`
+          `Could not parse existing motorcycles in ${filePath}, creating a new file instead`,
         );
         motorcycles = [];
       }
     } else {
       console.log(
-        `File already exists (use --rewrite to replace): ${filePath}`
+        `File already exists (use --rewrite to replace): ${filePath}`,
       );
       return;
     }
@@ -628,7 +628,7 @@ async function generateCityFile(city) {
   const newMotorcycles = Array(numNewMotorcycles)
     .fill(0)
     .map((_, index) =>
-      generateMotorcycle(city, motorcycles.length + index + 1)
+      generateMotorcycle(city, motorcycles.length + index + 1),
     );
 
   // Combine existing and new motorcycles
@@ -666,7 +666,7 @@ async function generateCityFile(city) {
   // Write file
   await writeFile(filePath, content);
   console.log(
-    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`
+    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`,
   );
 }
 

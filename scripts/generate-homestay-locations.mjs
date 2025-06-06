@@ -239,7 +239,7 @@ function generateHost(city) {
   const languageCount = Math.floor(Math.random() * 3) + 2; // 2-4 languages
   const selectedLanguages = getRandomLanguages(
     languageCount,
-    regionForLanguages
+    regionForLanguages,
   );
   const hostLanguages = selectedLanguages.map((lang) => lang.name);
 
@@ -370,7 +370,7 @@ async function generateCityHomestays(city) {
     "lib",
     "constants",
     "destinations",
-    "homestay"
+    "homestay",
   );
   const filePath = path.join(destDir, `${fileName}.ts`);
 
