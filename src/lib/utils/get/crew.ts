@@ -24,7 +24,7 @@ export async function getCrewMembers(): Promise<any> {
 }
 
 export async function getCrewMember(
-  crewId: string
+  crewId: string,
 ): Promise<CrewMember | null> {
   try {
     const crewMembers = await getCrewMembers();
@@ -42,14 +42,14 @@ export async function getCrewMember(
 }
 
 export async function getCrewMembersByCity(
-  city: string
+  city: string,
 ): Promise<CrewMember[]> {
   try {
     const crewMembers = await getCrewMembers();
     const formattedCity = formatKebabToCamelCase(city);
     const crewInCity = crewMembers.filter(
       (crew: { location: string }) =>
-        formatKebabToCamelCase(crew.location) === formattedCity
+        formatKebabToCamelCase(crew.location) === formattedCity,
     );
     if (crewInCity.length > 0) {
       return crewInCity;
@@ -64,12 +64,13 @@ export async function getCrewMembersByCity(
 }
 
 export async function getCrewMembersByRole(
-  role: string
+  role: string,
 ): Promise<CrewMember[]> {
   try {
     const crewMembers = await getCrewMembers();
     const crewByRole = crewMembers.filter(
-      (crew: { role: string }) => crew.role.toLowerCase() === role.toLowerCase()
+      (crew: { role: string }) =>
+        crew.role.toLowerCase() === role.toLowerCase(),
     );
     if (crewByRole.length > 0) {
       return crewByRole;
@@ -87,7 +88,7 @@ export async function getCrewMemberInformation(name: string, city: string) {
   try {
     const crewMembers = await getCrewMembersByCity(city);
     const crewMember = crewMembers.find(
-      (c: CrewMember) => c.name.toLowerCase() === name.toLowerCase()
+      (c: CrewMember) => c.name.toLowerCase() === name.toLowerCase(),
     );
     if (crewMember) {
       return crewMember;
