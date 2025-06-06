@@ -280,7 +280,7 @@ function generateDriver(cityName, index) {
   const languageCount = Math.floor(Math.random() * 3) + 2; // 2-4 languages
   const selectedLanguages = getRandomLanguages(
     languageCount,
-    regionForLanguages
+    regionForLanguages,
   );
   const languages = selectedLanguages.map((lang) => lang.name);
 
@@ -294,9 +294,9 @@ function generateDriver(cityName, index) {
           () =>
             driverSpecialties[
               Math.floor(Math.random() * driverSpecialties.length)
-            ]
-        )
-    )
+            ],
+        ),
+    ),
   );
 
   // Generate random number of vehicle types (1-5)
@@ -306,9 +306,9 @@ function generateDriver(cityName, index) {
       Array(numVehicleTypes)
         .fill(0)
         .map(
-          () => vehicleTypes[Math.floor(Math.random() * vehicleTypes.length)]
-        )
-    )
+          () => vehicleTypes[Math.floor(Math.random() * vehicleTypes.length)],
+        ),
+    ),
   );
 
   // Generate license expiry date (1-5 years in the future)
@@ -411,7 +411,7 @@ async function generateCityFile(city) {
     "lib",
     "constants",
     "staff",
-    "drivers"
+    "drivers",
   );
   const filePath = path.join(destDir, `${city}.ts`);
 
@@ -431,7 +431,7 @@ async function generateCityFile(city) {
       drivers = await extractExistingDrivers(filePath);
     } else {
       console.log(
-        `File already exists (use --rewrite to replace): ${filePath}`
+        `File already exists (use --rewrite to replace): ${filePath}`,
       );
       return;
     }
