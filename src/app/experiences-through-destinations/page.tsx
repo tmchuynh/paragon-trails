@@ -4,6 +4,10 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { cities } from "@/lib/constants/info/city";
 import { useRouter } from "next/navigation";
+import {
+  formatTitleToCamelCase,
+  formatTitleCaseToKebabCase,
+} from "@/lib/utils/format";
 
 export default function ExperiencesThroughDestinationsPage() {
   const router = useRouter();
@@ -40,7 +44,7 @@ export default function ExperiencesThroughDestinationsPage() {
                 variant={"fancy"}
                 onClick={() =>
                   router.push(
-                    `/experiences-through-destinations/${city.city}?city=${city.city}`
+                    `/experiences-through-destinations/${formatTitleCaseToKebabCase(city.city)}?city=${city.city}`
                   )
                 }
               >
