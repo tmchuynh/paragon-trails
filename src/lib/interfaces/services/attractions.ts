@@ -1,7 +1,9 @@
-import { Flags, Details } from "@/lib/types/types";
+import { Details, Flags } from "@/lib/types/types";
 import { WeeklyAvailability } from "../people/staff";
 
 export interface BaseAttraction {
+  id: string;
+  city: string;
   title: string;
   description: string;
   imageUrl: string;
