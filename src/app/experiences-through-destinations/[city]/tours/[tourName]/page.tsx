@@ -164,7 +164,7 @@ export default function TourDetailsPage() {
                   <SelectTrigger className="w-[100px]">
                     <SelectValue placeholder="Currency" />
                   </SelectTrigger>
-                  <SelectContent>
+                  <SelectContent className="max-h-[35em] overflow-y-auto">
                     <SelectItem value="USD">USD ($)</SelectItem>
                     <SelectItem value="EUR">EUR (€)</SelectItem>
                     <SelectItem value="GBP">GBP (£)</SelectItem>
