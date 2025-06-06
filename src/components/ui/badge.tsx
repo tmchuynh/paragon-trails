@@ -40,7 +40,7 @@ const badgeVariants = cva(
       variant: "default",
       size: "md",
     },
-  }
+  },
 );
 
 function Badge({
