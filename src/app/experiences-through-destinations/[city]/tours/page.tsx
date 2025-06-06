@@ -37,6 +37,7 @@ import {
   removeSpecialCharactersFromNumbers,
 } from "@/lib/utils/format";
 import { getCityTours, getTourById } from "@/lib/utils/get/tours";
+import { getCityAttractionById } from "@/lib/utils/get/attractions";
 import {
   ChevronDown,
   ChevronUp,
@@ -76,6 +77,12 @@ export default function ToursByCityPage() {
   const [guideFilter, setGuideFilter] = useState<string[]>([]);
   const [privateOnly, setPrivateOnly] = useState(false);
   const [petFriendlyOnly, setPetFriendlyOnly] = useState(false);
+  // New state for attraction filtering
+  const [attractionFilter, setAttractionFilter] = useState<string[]>([]);
+  // State to store attraction details for display names
+  const [attractionDetails, setAttractionDetails] = useState<
+    Record<string, { title: string; description: string }>
+  >({});
 
   // Derived states
   const uniqueLanguages = [
@@ -89,18 +96,27 @@ export default function ToursByCityPage() {
   ].sort() as TourTheme[];
   const uniqueGuides = [...new Set(tours.map((tour) => tour.guideId))].sort();
 
+  // Extract unique attractions from tour schedules
+  const uniqueAttractionIds = [
+    ...new Set(
+      tours.flatMap(
+        (tour) => tour.schedule?.map((item) => item.attractionId) || []
+      )
+    ),
+  ].sort();
+
   // Max values for ranges
   const maxPrice = Math.max(
     ...tours.map((tour) => tour.pricePerPerson || 0),
-    1000,
+    1000
   );
   const maxDuration = Math.max(
     ...tours.map((tour) => tour.durationInHours || 0),
-    24,
+    24
   );
   const maxGroupSize = Math.max(
     ...tours.map((tour) => tour.maxGroupSize || 0),
-    50,
+    50
   );
 
   // Pagination values
@@ -127,13 +143,13 @@ export default function ToursByCityPage() {
 
         if (cityTours.length === 0) {
           console.log(
-            `Fetching tours for ${cityName} using individual fetches`,
+            `Fetching tours for ${cityName} using individual fetches`
           );
           // If we don't have any tours yet, try to fetch a few individually
           // (This is a fallback approach - ideally getCityTours would work correctly)
           const tourIds = Array.from(
             { length: 5 },
-            (_, i) => `tour-${citySlug.toLowerCase()}-${i + 1}`,
+            (_, i) => `tour-${citySlug.toLowerCase()}-${i + 1}`
           );
           const tourPromises = tourIds.map((id) => getTourById(citySlug, id));
           const tourResults = await Promise.all(tourPromises);
@@ -147,12 +163,12 @@ export default function ToursByCityPage() {
 
           // Set ranges based on actual data
           const maxDataPrice = Math.max(
-            ...cityTours.map((tour) => tour.pricePerPerson || 0),
+            ...cityTours.map((tour) => tour.pricePerPerson || 0)
           );
           setPriceRange([0, maxDataPrice > 0 ? maxDataPrice : 1000]);
 
           const maxDataDuration = Math.max(
-            ...cityTours.map((tour) => tour.durationInHours || 0),
+            ...cityTours.map((tour) => tour.durationInHours || 0)
           );
           setDurationRange([
             0,
@@ -160,10 +176,10 @@ export default function ToursByCityPage() {
           ]);
 
           const minDataGroupSize = Math.min(
-            ...cityTours.map((tour) => tour.minGroupSize || 1),
+            ...cityTours.map((tour) => tour.minGroupSize || 1)
           );
           const maxDataGroupSize = Math.max(
-            ...cityTours.map((tour) => tour.maxGroupSize || 0),
+            ...cityTours.map((tour) => tour.maxGroupSize || 0)
           );
           setGroupSizeRange([
             minDataGroupSize > 0 ? minDataGroupSize : 1,
@@ -184,6 +200,37 @@ export default function ToursByCityPage() {
     }
   }, [citySlug, cityName]);
 
+  // Load attraction details for display
+  useEffect(() => {
+    if (uniqueAttractionIds.length === 0) return;
+
+    const fetchAttractionDetails = async () => {
+      const details: Record<string, { title: string; description: string }> =
+        {};
+
+      for (const attractionId of uniqueAttractionIds) {
+        try {
+          const attraction = await getCityAttractionById(
+            citySlug,
+            attractionId
+          );
+          if (attraction) {
+            details[attractionId] = {
+              title: attraction.title || attraction.name || attractionId,
+              description: attraction.description || "",
+            };
+          }
+        } catch (error) {
+          console.error(`Error fetching attraction ${attractionId}:`, error);
+        }
+      }
+
+      setAttractionDetails(details);
+    };
+
+    fetchAttractionDetails();
+  }, [uniqueAttractionIds, citySlug]);
+
   // Apply filters and sorting
   useEffect(() => {
     if (tours.length === 0) return;
@@ -195,7 +242,7 @@ export default function ToursByCityPage() {
       result = result.filter(
         (tour) =>
           tour.languagesOffered &&
-          languageFilter.some((lang) => tour.languagesOffered.includes(lang)),
+          languageFilter.some((lang) => tour.languagesOffered.includes(lang))
       );
     }
 
@@ -207,7 +254,7 @@ export default function ToursByCityPage() {
     // Apply tag filter
     if (tagFilter.length > 0) {
       result = result.filter(
-        (tour) => tour.tags && tagFilter.some((tag) => tour.tags.includes(tag)),
+        (tour) => tour.tags && tagFilter.some((tag) => tour.tags.includes(tag))
       );
     }
 
@@ -248,6 +295,17 @@ export default function ToursByCityPage() {
       result = result.filter((tour) => tour.isPetFriendly === true);
     }
 
+    // Apply attraction filter
+    if (attractionFilter.length > 0) {
+      result = result.filter(
+        (tour) =>
+          tour.schedule &&
+          attractionFilter.some((attractionId) =>
+            tour.schedule.some((item) => item.attractionId === attractionId)
+          )
+      );
+    }
+
     // Apply sorting
     result.sort((a, b) => {
       let valueA, valueB;
@@ -285,6 +343,7 @@ export default function ToursByCityPage() {
     typeFilter,
     tagFilter,
     guideFilter,
+    attractionFilter, // Add attraction filter dependency
     priceRange,
     durationRange,
     groupSizeRange,
@@ -298,7 +357,7 @@ export default function ToursByCityPage() {
   const toggleFilter = (
     filterArray: any[],
     setFilterArray: React.Dispatch<React.SetStateAction<any[]>>,
-    item: any,
+    item: any
   ) => {
     if (filterArray.includes(item)) {
       setFilterArray(filterArray.filter((i) => i !== item));
@@ -325,7 +384,7 @@ export default function ToursByCityPage() {
           "ellipsis",
           totalPages - 3,
           totalPages - 2,
-          totalPages - 1,
+          totalPages - 1
         );
       } else {
         pageNumbers.push(
@@ -333,7 +392,7 @@ export default function ToursByCityPage() {
           currentPage - 1,
           currentPage,
           currentPage + 1,
-          "ellipsis",
+          "ellipsis"
         );
       }
 
@@ -367,7 +426,7 @@ export default function ToursByCityPage() {
                   {page}
                 </PaginationLink>
               </PaginationItem>
-            ),
+            )
           )}
 
           <PaginationItem>
@@ -439,7 +498,7 @@ export default function ToursByCityPage() {
                     onClick={() => {
                       setSortField("price");
                       setSortDirection((prev) =>
-                        prev === "asc" ? "desc" : "asc",
+                        prev === "asc" ? "desc" : "asc"
                       );
                     }}
                   >
@@ -451,7 +510,7 @@ export default function ToursByCityPage() {
                     onClick={() => {
                       setSortField("duration");
                       setSortDirection((prev) =>
-                        prev === "asc" ? "desc" : "asc",
+                        prev === "asc" ? "desc" : "asc"
                       );
                     }}
                   >
@@ -463,7 +522,7 @@ export default function ToursByCityPage() {
                     onClick={() => {
                       setSortField("rating");
                       setSortDirection((prev) =>
-                        prev === "asc" ? "desc" : "asc",
+                        prev === "asc" ? "desc" : "asc"
                       );
                     }}
                   >
@@ -528,6 +587,7 @@ export default function ToursByCityPage() {
                     setTypeFilter([]);
                     setTagFilter([]);
                     setGuideFilter([]);
+                    setAttractionFilter([]); // Add this line to reset attraction filter
                     setPriceRange([0, maxPrice]);
                     setDurationRange([0, maxDuration]);
                     setGroupSizeRange([1, maxGroupSize]);
@@ -552,7 +612,7 @@ export default function ToursByCityPage() {
                           toggleFilter(
                             languageFilter,
                             setLanguageFilter,
-                            language,
+                            language
                           )
                         }
                       />
@@ -590,6 +650,43 @@ export default function ToursByCityPage() {
                   ))}
                 </div>
               </div>
+
+              {/* Attractions filter - new section */}
+              {uniqueAttractionIds.length > 0 && (
+                <div className="space-y-2">
+                  <h5>Attractions</h5>
+                  <div className="space-y-1 p-2 border rounded-lg max-h-40 overflow-y-auto">
+                    {uniqueAttractionIds.map((attractionId) => (
+                      <div
+                        key={attractionId}
+                        className="flex items-center space-x-2"
+                      >
+                        <Checkbox
+                          id={`attraction-${attractionId}`}
+                          checked={attractionFilter.includes(attractionId)}
+                          onCheckedChange={() =>
+                            toggleFilter(
+                              attractionFilter,
+                              setAttractionFilter,
+                              attractionId
+                            )
+                          }
+                        />
+                        <Label
+                          htmlFor={`attraction-${attractionId}`}
+                          className="text-sm cursor-pointer"
+                          title={
+                            attractionDetails[attractionId]?.description || ""
+                          }
+                        >
+                          {attractionDetails[attractionId]?.title ||
+                            attractionId}
+                        </Label>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
 
               {/* Tags filter */}
               <div className="space-y-2">
@@ -700,9 +797,28 @@ export default function ToursByCityPage() {
                 />
                 <Label htmlFor="pet-friendly">Pet friendly only</Label>
               </div>
+
+              {/* Reset Button - make sure it calls the updated resetAllFilters function */}
+              <Button
+                variant="outline"
+                className="w-full"
+                onClick={() => {
+                  setLanguageFilter([]);
+                  setTypeFilter([]);
+                  setTagFilter([]);
+                  setGuideFilter([]);
+                  setAttractionFilter([]); // Add this line to reset attraction filter
+                  setPriceRange([0, maxPrice]);
+                  setDurationRange([0, maxDuration]);
+                  setGroupSizeRange([1, maxGroupSize]);
+                  setPrivateOnly(false);
+                  setPetFriendlyOnly(false);
+                }}
+              >
+                Reset All Filters
+              </Button>
             </div>
           )}
-
           {/* Main Content - Tour Cards */}
           <div
             className={`${showFilters ? "lg:col-span-3" : "lg:col-span-4"} space-y-6`}
@@ -721,10 +837,10 @@ export default function ToursByCityPage() {
                   const displayPrice = convertPrice(
                     tour.pricePerPerson ||
                       parseFloat(
-                        removeSpecialCharactersFromNumbers(tour.price),
+                        removeSpecialCharactersFromNumbers(tour.price)
                       ),
                     tour.currency || "USD",
-                    selectedCurrency,
+                    selectedCurrency
                   );
 
                   return (
@@ -750,9 +866,6 @@ export default function ToursByCityPage() {
                           <Badge variant="secondaryFaded" size="sm">
                             {tour.type}
                           </Badge>
-                          <span className="text-sm">
-                            {tour.durationInHours} hours
-                          </span>
                         </div>
 
                         {/* Tour description */}
@@ -790,7 +903,7 @@ export default function ToursByCityPage() {
                             className="whitespace-nowrap"
                             onClick={() =>
                               router.push(
-                                `/experiences-through-destinations/${citySlug}/tours/${encodeURIComponent(tour.title)}?tourId=${tour.id}&city=${citySlug}&guideId=${tour.guideId}&currency=${selectedCurrency}`,
+                                `/experiences-through-destinations/${citySlug}/tours/${encodeURIComponent(tour.title)}?tourId=${tour.id}&city=${citySlug}&guideId=${tour.guideId}&currency=${selectedCurrency}`
                               )
                             }
                           >
@@ -835,6 +948,7 @@ export default function ToursByCityPage() {
             {/* Pagination */}
             {renderPagination()}
           </div>
+          ;
         </div>
       </div>
     </div>
