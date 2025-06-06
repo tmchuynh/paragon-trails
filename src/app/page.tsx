@@ -3,17 +3,13 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { cities } from "@/lib/constants/info/city";
-import { groupAndSortByProperties } from "@/lib/utils/sort";
+import { featuredArray, groupAndSortByProperties } from "@/lib/utils/sort";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 
 export default function HomePage() {
   const router = useRouter();
-  const sortedDestinations = groupAndSortByProperties(
-    cities,
-    "isPopular",
-    "city"
-  );
+  const sortedDestinations = featuredArray(cities);
 
   const trailFeatures = [
     {
@@ -129,7 +125,7 @@ export default function HomePage() {
                   className="shadow-lg hover:shadow-xl p-6 rounded-lg transition-shadow"
                 >
                   <CardContent>
-                    <h3 className="font-semibold text-xl">
+                    <h3 className="underline-offset-2 hover:underline">
                       {trail.city}, {trail.country}
                     </h3>
                     <p className="text-muted-foreground text-sm"></p>
@@ -158,7 +154,7 @@ export default function HomePage() {
           Join thousands of nature lovers who have discovered the world's most
           beautiful trails with us.
         </p>
-        <div className="flex sm:flex-row flex-col justify-center gap-4">
+        <div className="flex flex-col justify-center gap-4">
           <Button>Book a Trail Guide</Button>
           <Button>Contact Us</Button>
         </div>
