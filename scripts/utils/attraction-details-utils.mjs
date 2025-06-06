@@ -7072,4 +7072,232 @@ export const attractionDetails = {
       features: ["history", "walking tours", "architecture"],
     },
   },
+  "amalfi-coast": {
+    "Positano Beach": {
+      description:
+        "A picturesque pebble beach in Positano known for its colorful cliffside houses, crystal-clear waters, and vibrant seaside atmosphere.",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [{ from: "06:00", to: "22:00" }],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [{ from: "06:00", to: "22:00" }],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [{ from: "06:00", to: "22:00" }],
+        },
+        {
+          day: "Thursday",
+          availableHours: [{ from: "06:00", to: "22:00" }],
+        },
+        {
+          day: "Friday",
+          availableHours: [{ from: "06:00", to: "22:00" }],
+        },
+        {
+          day: "Saturday",
+          availableHours: [{ from: "06:00", to: "22:00" }],
+        },
+        {
+          day: "Sunday",
+          availableHours: [{ from: "06:00", to: "22:00" }],
+        },
+      ],
+      entryFee: "Free",
+      entryFeeCategory: "free",
+      priceRange: "Free",
+      priceCategory: "free",
+      timeOfDay: "daytime",
+      rating: 4.7,
+      isPopular: true,
+      isWheelchairAccessible: false,
+      features: ["beach", "swimming", "scenic views", "sunbathing"],
+    },
+    "Villa Rufolo": {
+      description:
+        "A historic villa in Ravello known for its beautiful gardens, Moorish architecture, and stunning views over the Amalfi Coast.",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [{ from: "09:00", to: "19:00" }],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [{ from: "09:00", to: "19:00" }],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [{ from: "09:00", to: "19:00" }],
+        },
+        {
+          day: "Thursday",
+          availableHours: [{ from: "09:00", to: "19:00" }],
+        },
+        {
+          day: "Friday",
+          availableHours: [{ from: "09:00", to: "19:00" }],
+        },
+        {
+          day: "Saturday",
+          availableHours: [{ from: "09:00", to: "19:00" }],
+        },
+        {
+          day: "Sunday",
+          availableHours: [{ from: "09:00", to: "19:00" }],
+        },
+      ],
+      entryFee: "€7",
+      entryFeeCategory: "budget",
+      priceRange: "$",
+      priceCategory: "budget",
+      timeOfDay: "daytime",
+      rating: 4.6,
+      isHistorical: true,
+      isPopular: true,
+      isWheelchairAccessible: false,
+      accessibilityFeatures: ["Some stairs, limited wheelchair access"],
+      features: ["historic villa", "gardens", "views", "architecture"],
+    },
+    "Path of the Gods (Sentiero degli Dei)": {
+      description:
+        "A famous hiking trail offering breathtaking views of the Amalfi Coast, connecting the towns of Agerola and Positano.",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [{ from: "06:00", to: "19:00" }],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [{ from: "06:00", to: "19:00" }],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [{ from: "06:00", to: "19:00" }],
+        },
+        {
+          day: "Thursday",
+          availableHours: [{ from: "06:00", to: "19:00" }],
+        },
+        {
+          day: "Friday",
+          availableHours: [{ from: "06:00", to: "19:00" }],
+        },
+        {
+          day: "Saturday",
+          availableHours: [{ from: "06:00", to: "19:00" }],
+        },
+        {
+          day: "Sunday",
+          availableHours: [{ from: "06:00", to: "19:00" }],
+        },
+      ],
+      entryFee: "Free",
+      entryFeeCategory: "free",
+      priceRange: "Free",
+      priceCategory: "free",
+      timeOfDay: "daytime",
+      rating: 4.9,
+      isAdventure: true,
+      isPopular: true,
+      isWheelchairAccessible: false,
+      accessibilityFeatures: ["Uneven terrain, not suitable for wheelchairs"],
+      features: ["hiking", "nature", "scenic views", "outdoors"],
+    },
+    "Amalfi Cathedral (Cattedrale di Sant'Andrea)": {
+      description:
+        "A stunning medieval cathedral located in Amalfi, famous for its Romanesque architecture and beautiful interior decorations.",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [{ from: "09:00", to: "18:00" }],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [{ from: "09:00", to: "18:00" }],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [{ from: "09:00", to: "18:00" }],
+        },
+        {
+          day: "Thursday",
+          availableHours: [{ from: "09:00", to: "18:00" }],
+        },
+        {
+          day: "Friday",
+          availableHours: [{ from: "09:00", to: "18:00" }],
+        },
+        {
+          day: "Saturday",
+          availableHours: [{ from: "09:00", to: "18:00" }],
+        },
+        {
+          day: "Sunday",
+          availableHours: [{ from: "09:00", to: "18:00" }],
+        },
+      ],
+      entryFee: "€3",
+      entryFeeCategory: "budget",
+      priceRange: "$",
+      priceCategory: "budget",
+      timeOfDay: "daytime",
+      rating: 4.7,
+      isHistorical: true,
+      isPopular: true,
+      isWheelchairAccessible: true,
+      accessibilityFeatures: ["Ramps and elevators available"],
+      features: [
+        "historical site",
+        "architecture",
+        "religious site",
+        "cultural",
+      ],
+    },
+    "Fiordo di Furore": {
+      description:
+        "A dramatic fjord with a small hidden beach, famous for its natural beauty and the picturesque bridge spanning the gorge.",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [{ from: "06:00", to: "20:00" }],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [{ from: "06:00", to: "20:00" }],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [{ from: "06:00", to: "20:00" }],
+        },
+        {
+          day: "Thursday",
+          availableHours: [{ from: "06:00", to: "20:00" }],
+        },
+        {
+          day: "Friday",
+          availableHours: [{ from: "06:00", to: "20:00" }],
+        },
+        {
+          day: "Saturday",
+          availableHours: [{ from: "06:00", to: "20:00" }],
+        },
+        {
+          day: "Sunday",
+          availableHours: [{ from: "06:00", to: "20:00" }],
+        },
+      ],
+      entryFee: "Free",
+      entryFeeCategory: "free",
+      priceRange: "Free",
+      priceCategory: "free",
+      timeOfDay: "daytime",
+      rating: 4.5,
+      isPopular: true,
+      isWheelchairAccessible: false,
+      features: ["fjord", "natural beauty", "hidden beach", "scenic views"],
+    },
+  },
 };

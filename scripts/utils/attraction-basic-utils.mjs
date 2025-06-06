@@ -1762,4 +1762,42 @@ export const attractionBasicInfo = {
       isPopular: true,
     },
   },
+  "amalfi-coast": {
+    "Positano Beach": {
+      title: "Positano Beach",
+      location: "Positano, Amalfi Coast, Italy",
+      imageUrl: "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+      tags: ["beach", "scenic", "tourist hotspot"],
+      isPopular: true,
+    },
+    "Villa Rufolo": {
+      title: "Villa Rufolo",
+      location: "Ravello, Amalfi Coast, Italy",
+      imageUrl: "https://images.unsplash.com/photo-1549887530-f6622e25e1bf",
+      tags: ["historic villa", "gardens", "views"],
+      isPopular: true,
+    },
+    "Path of the Gods (Sentiero degli Dei)": {
+      title: "Path of the Gods (Sentiero degli Dei)",
+      location:
+        "Hiking trail between Agerola and Positano, Amalfi Coast, Italy",
+      imageUrl: "https://images.unsplash.com/photo-1500534623283-312aade485b7",
+      tags: ["hiking", "nature", "scenic views"],
+      isPopular: true,
+    },
+    "Amalfi Cathedral (Cattedrale di Sant'Andrea)": {
+      title: "Amalfi Cathedral (Cattedrale di Sant'Andrea)",
+      location: "Amalfi, Amalfi Coast, Italy",
+      imageUrl: "https://images.unsplash.com/photo-1509268092194-8dfb1659f4c4",
+      tags: ["historical", "architecture", "religious site"],
+      isPopular: true,
+    },
+    "Fiordo di Furore": {
+      title: "Fiordo di Furore",
+      location: "Near Amalfi, Amalfi Coast, Italy",
+      imageUrl: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+      tags: ["fjord", "natural beauty", "hidden beach"],
+      isPopular: true,
+    },
+  },
 };
