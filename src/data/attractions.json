@@ -78,17 +78,10 @@
       "priceCategory": "free",
       "timeOfDay": "daytime",
       "rating": 4.7,
-      "tags": [
-        "Popular"
-      ],
+      "tags": ["Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "beach",
-        "swimming",
-        "scenic views",
-        "sunbathing"
-      ]
+      "features": ["beach", "swimming", "scenic views", "sunbathing"]
     },
     "Villa Rufolo": {
       "id": "attraction-amalfi-coast-73-2",
@@ -168,20 +161,10 @@
       "priceCategory": "budget",
       "timeOfDay": "daytime",
       "rating": 4.6,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "Some stairs, limited wheelchair access"
-      ],
+      "tags": ["Historical", "Popular"],
+      "accessibilityFeatures": ["Some stairs, limited wheelchair access"],
       "entryFees": [],
-      "features": [
-        "historic villa",
-        "gardens",
-        "views",
-        "architecture"
-      ]
+      "features": ["historic villa", "gardens", "views", "architecture"]
     },
     "Path of the Gods (Sentiero degli Dei)": {
       "id": "attraction-amalfi-coast-73-3",
@@ -261,20 +244,10 @@
       "priceCategory": "free",
       "timeOfDay": "daytime",
       "rating": 4.9,
-      "tags": [
-        "Adventure",
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "Uneven terrain, not suitable for wheelchairs"
-      ],
+      "tags": ["Adventure", "Popular"],
+      "accessibilityFeatures": ["Uneven terrain, not suitable for wheelchairs"],
       "entryFees": [],
-      "features": [
-        "hiking",
-        "nature",
-        "scenic views",
-        "outdoors"
-      ]
+      "features": ["hiking", "nature", "scenic views", "outdoors"]
     },
     "Amalfi Cathedral (Cattedrale di Sant'Andrea)": {
       "id": "attraction-amalfi-coast-73-4",
@@ -354,13 +327,8 @@
       "priceCategory": "budget",
       "timeOfDay": "daytime",
       "rating": 4.7,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "Ramps and elevators available"
-      ],
+      "tags": ["Historical", "Popular"],
+      "accessibilityFeatures": ["Ramps and elevators available"],
       "entryFees": [
         {
           "category": "adult",
@@ -458,17 +426,10 @@
       "priceCategory": "free",
       "timeOfDay": "daytime",
       "rating": 4.5,
-      "tags": [
-        "Popular"
-      ],
+      "tags": ["Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "fjord",
-        "natural beauty",
-        "hidden beach",
-        "scenic views"
-      ]
+      "features": ["fjord", "natural beauty", "hidden beach", "scenic views"]
     }
   }
 }
