@@ -108,6 +108,11 @@ const tourTitles = [
   "Architecture Masterpieces Tour",
   "Local Markets Exploration",
   "Street Food Adventure",
+  "Scenic Nature Walk",
+  "Cultural Immersion Experience",
+  "Art and Culture Journey",
+  "Nighttime City Lights Tour",
+  "Adventure Sports Experience",
   "Cultural Heritage Tour",
   "Urban Photography Journey",
   "Religious Sites Pilgrimage",
@@ -116,7 +121,6 @@ const tourTitles = [
   "Craft Breweries Tour",
   "Art Galleries Crawl",
   "Wine Tasting Experience",
-  "Off-the-Beaten-Path Adventure",
   "Scenic Views Tour",
   "Sunset Landmarks Tour",
   "Family Fun Adventure",
@@ -258,6 +262,255 @@ const tourThemes = [
   "Street Food",
 ];
 
+// Map themes to specific tour title templates
+const tourThemeToTitleMap = {
+  Adventure: [
+    "Thrilling Adventure Expedition",
+    "Extreme Adventure Challenge",
+    "Outdoor Adventure Experience",
+    "Adventure Seeker's Journey",
+    "Ultimate Adventure Tour",
+  ],
+  Art: [
+    "Artistic Heritage Tour",
+    "Gallery & Studio Exploration",
+    "Contemporary Art Journey",
+    "Art History Discovery",
+    "Local Artists Showcase",
+  ],
+  Architecture: [
+    "Architectural Marvels Tour",
+    "Historic Buildings Journey",
+    "Urban Design Exploration",
+    "Architectural Photography Tour",
+    "Famous Structures Walk",
+  ],
+  Beach: [
+    "Coastal Paradise Tour",
+    "Hidden Beaches Expedition",
+    "Seaside Relaxation Journey",
+    "Beach Hopping Adventure",
+    "Sunset Beach Experience",
+  ],
+  Culture: [
+    "Cultural Immersion Experience",
+    "Local Traditions Tour",
+    "Cultural Heritage Journey",
+    "Authentic Cultural Discovery",
+    "Indigenous Culture Experience",
+  ],
+  Culinary: [
+    "Gourmet Tasting Tour",
+    "Chef's Table Experience",
+    "Cooking Class & Food Tour",
+    "Culinary Masterclass Journey",
+    "Food Connoisseur's Tour",
+  ],
+  "Food & Drink": [
+    "Local Delicacies Tasting",
+    "Street Food Safari",
+    "Food & Beverage Pairing Tour",
+    "Gastronomic Adventure",
+    "Food Market Exploration",
+  ],
+  Historical: [
+    "Historic Landmarks Tour",
+    "Ancient Ruins Expedition",
+    "History Buff's Journey",
+    "Heritage Site Discovery",
+    "Historical Significance Tour",
+  ],
+  Hiking: [
+    "Scenic Trails Expedition",
+    "Mountain Hiking Adventure",
+    "Nature Trek Experience",
+    "Wilderness Hiking Tour",
+    "Panoramic Hiking Journey",
+  ],
+  "Local Life": [
+    "Authentic Local Experience",
+    "Day in the Life Tour",
+    "Local Neighborhood Walk",
+    "Community Immersion Journey",
+    "Off the Tourist Path Tour",
+  ],
+  "Nature & Wildlife": [
+    "Wildlife Safari Experience",
+    "Biodiversity Discovery Tour",
+    "Nature Reserve Expedition",
+    "Wild Animal Spotting Tour",
+    "Natural Habitat Journey",
+  ],
+  Nightlife: [
+    "After Dark Experience",
+    "Nightclub Hopping Tour",
+    "Evening Entertainment Journey",
+    "City Lights Night Tour",
+    "Vibrant Nightlife Adventure",
+  ],
+  Photography: [
+    "Perfect Shot Tour",
+    "Photography Masterclass",
+    "Scenic Photo Expedition",
+    "Instagram-Worthy Spots Tour",
+    "Professional Photography Journey",
+  ],
+  Religious: [
+    "Sacred Sites Pilgrimage",
+    "Religious Heritage Tour",
+    "Temple & Shrine Journey",
+    "Spiritual Landmarks Exploration",
+    "Religious History Discovery",
+  ],
+  Shopping: [
+    "Luxury Shopping Experience",
+    "Local Crafts & Markets Tour",
+    "Boutique Discovery Journey",
+    "Artisan Shopping Adventure",
+    "Souvenir Hunter's Tour",
+  ],
+  Sightseeing: [
+    "Must-See Attractions Tour",
+    "City Highlights Experience",
+    "Panoramic City Tour",
+    "Landmark Discovery Journey",
+    "Iconic Sites Expedition",
+  ],
+  Spiritual: [
+    "Spiritual Awakening Journey",
+    "Meditation & Mindfulness Tour",
+    "Spiritual Heritage Experience",
+    "Soul-Searching Retreat",
+    "Ancient Wisdom Discovery",
+  ],
+  Sports: [
+    "Sports Enthusiast Tour",
+    "Stadium & Arena Experience",
+    "Olympic Heritage Journey",
+    "Sports History Discovery",
+    "Athletic Legacy Tour",
+  ],
+  Wellness: [
+    "Rejuvenation & Spa Experience",
+    "Holistic Wellness Journey",
+    "Health & Wellness Discovery",
+    "Mind-Body Balance Tour",
+    "Natural Healing Experience",
+  ],
+  "Wine & Spirits": [
+    "Wine Tasting Experience",
+    "Vineyard & Winery Tour",
+    "Craft Spirits Journey",
+    "Sommelier's Selection Tour",
+    "Wine Region Discovery",
+  ],
+  Scenic: [
+    "Breathtaking Views Tour",
+    "Scenic Lookout Journey",
+    "Picturesque Landscape Experience",
+    "Panoramic Vista Expedition",
+    "Natural Beauty Discovery",
+  ],
+  Festival: [
+    "Festival Celebration Experience",
+    "Cultural Festival Tour",
+    "Seasonal Festival Journey",
+    "Traditional Festivities Tour",
+    "Festival Behind-the-Scenes",
+  ],
+  Music: [
+    "Musical Heritage Tour",
+    "Live Music Experience",
+    "Music Venue Exploration",
+    "Sound & Culture Journey",
+    "Famous Musicians Trail",
+  ],
+  Luxury: [
+    "VIP Luxury Experience",
+    "Exclusive Access Tour",
+    "Premium Services Journey",
+    "Five-Star Experience",
+    "Luxury Lifestyle Tour",
+  ],
+  Eco: [
+    "Sustainable Eco Tour",
+    "Conservation Experience",
+    "Eco-Friendly Discovery",
+    "Green Tourism Journey",
+    "Environmental Learning Tour",
+  ],
+  Family: [
+    "Family Fun Adventure",
+    "Kid-Friendly Exploration",
+    "All-Ages Experience",
+    "Family Memory-Making Tour",
+    "Interactive Family Journey",
+  ],
+  Solo: [
+    "Solo Traveler's Discovery",
+    "Independent Explorer Tour",
+    "Solo Adventure Experience",
+    "Self-Guided Journey",
+    "Personal Discovery Tour",
+  ],
+  Romantic: [
+    "Couples Retreat Experience",
+    "Romantic Getaway Tour",
+    "Honeymoon Special Journey",
+    "Intimate Discovery Tour",
+    "Love Story Experience",
+  ],
+  "LGBTQ+ Friendly": [
+    "Pride History Tour",
+    "LGBTQ+ Heritage Experience",
+    "Queer Culture Discovery",
+    "Pride Landmarks Journey",
+    "LGBTQ+ Community Exploration",
+  ],
+  "Off the Beaten Path": [
+    "Hidden Gems Discovery",
+    "Secret Spots Tour",
+    "Unexplored Territories Journey",
+    "Local Secrets Experience",
+    "Beyond The Guidebook Tour",
+  ],
+  Educational: [
+    "Learning Adventure Tour",
+    "Academic Insights Journey",
+    "Educational Exploration",
+    "Interactive Learning Experience",
+    "Knowledge Discovery Tour",
+  ],
+  Volunteer: [
+    "Meaningful Impact Experience",
+    "Community Service Tour",
+    "Volunteer Opportunity Journey",
+    "Give-Back Adventure",
+    "Social Impact Discovery",
+  ],
+  "Cruise Stop": [
+    "Port Highlight Experience",
+    "Shore Excursion Tour",
+    "Port-of-Call Journey",
+    "Day in Port Adventure",
+    "Cruise Passenger's Special",
+  ],
+  "Local Market": [
+    "Market Explorer Tour",
+    "Vendor & Stall Journey",
+    "Bargain Hunter's Experience",
+    "Market Treasures Discovery",
+    "Farmer's Market Tour",
+  ],
+  "Street Food": [
+    "Street Food Tasting Adventure",
+    "Local Street Eats Tour",
+    "Food Cart Expedition",
+    "Street Cuisine Journey",
+    "Food Vendor Discovery",
+  ],
+};
+
 const tourTypes = [
   "Walking Tour",
   "Bike Tour",
@@ -300,102 +553,109 @@ const tourTypes = [
   "Romantic Tour",
 ];
 
-const weekDays = [
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Saturday",
-  "Sunday",
-];
+// Map tour types to specific title templates
+const tourTypeToTitleMap = {
+  "Walking Tour": [
+    "Guided Walking Adventure",
+    "On-Foot Exploration",
+    "Pedestrian Discovery Tour",
+    "Walking Excursion",
+    "Step-by-Step Journey",
+  ],
+  "Bike Tour": [
+    "Cycling Discovery",
+    "Two-Wheel Adventure",
+    "Scenic Bicycle Expedition",
+    "Pedal Through History",
+    "Urban Cycling Journey",
+  ],
+  "Boat Tour": [
+    "Nautical Adventure",
+    "Waterway Exploration",
+    "Scenic Cruise Experience",
+    "Maritime Discovery",
+    "Aquatic Journey",
+  ],
+  "Food Tour": [
+    "Culinary Walk",
+    "Taste Exploration",
+    "Flavor Discovery Journey",
+    "Local Bites Adventure",
+    "Gastronomic Expedition",
+  ],
+  "Wine Tour": [
+    "Wine Connoisseur's Journey",
+    "Vineyard Exploration",
+    "Fine Wine Discovery",
+    "Wine Tasting Adventure",
+    "Vintner's Secret Tour",
+  ],
+  "Brewery Tour": [
+    "Craft Beer Journey",
+    "Brewery Hopping Adventure",
+    "Beer Tasting Expedition",
+    "Brewing Process Discovery",
+    "Hops & Malts Experience",
+  ],
+  "Cultural Tour": [
+    "Cultural Heritage Journey",
+    "Local Traditions Discovery",
+    "Cultural Immersion Experience",
+    "Heritage & Customs Tour",
+    "Cultural Identity Exploration",
+  ],
+  "Historical Tour": [
+    "Journey Through Time",
+    "Historic Landmarks Experience",
+    "Past & Present Discovery",
+    "Heritage Site Expedition",
+    "Time Traveler's Tour",
+  ],
+  "Religious Tour": [
+    "Sacred Sites Journey",
+    "Spiritual Heritage Walk",
+    "Religious Landmarks Tour",
+    "Faith & History Discovery",
+    "Pilgrimage Experience",
+  ],
+  "Museum Tour": [
+    "Curated Museum Experience",
+    "Art & Artifact Journey",
+    "Museum Highlights Tour",
+    "Collection Explorer",
+    "Exhibition Discovery",
+  ],
+  "Nature Tour": [
+    "Natural Wonders Expedition",
+    "Flora & Fauna Discovery",
+    "Nature Lover's Journey",
+    "Wilderness Exploration",
+    "Outdoor Natural Experience",
+  ],
+  "Photography Tour": [
+    "Perfect Shot Expedition",
+    "Photographer's Dream Tour",
+    "Camera-Ready Journey",
+    "Visual Discovery Experience",
+    "Photography Workshop Adventure",
+  ],
+  "Adventure Tour": [
+    "Adrenaline Seeker's Journey",
+    "Thrill-Packed Experience",
+    "Adventure Challenge Tour",
+    "Extreme Activity Expedition",
+    "Outdoor Adventure Discovery",
+  ],
+  "Private Tour": [
+    "Exclusive Private Experience",
+    "Personalized Journey",
+    "Custom Adventure",
+    "VIP Discovery Tour",
+    "Personal Guide Experience",
+  ],
+};
 
-const currencies = [
-  { code: "USD", symbol: "$" },
-  { code: "EUR", symbol: "€" },
-  { code: "GBP", symbol: "£" },
-  { code: "JPY", symbol: "¥" },
-  { code: "CAD", symbol: "C$" },
-  { code: "AUD", symbol: "A$" },
-];
-
-const durations = [1, 1.5, 2, 2.5, 3, 4, 5, 6, 8, 10, 12];
-
-// Load tour guides for a city
-async function loadCityGuides(city) {
-  const formattedName = formatKebabToCamelCase(removeAccents(city));
-
-  const guidesPath = path.join(
-    process.cwd(),
-    "src",
-    "lib",
-    "constants",
-    "staff",
-    "guides",
-    `${formattedName}.ts`,
-  );
-
-  try {
-    await access(guidesPath);
-  } catch {
-    console.log(`No guides file found for ${city}. Using generic guide IDs.`);
-    return Array.from({ length: options.guideCount }, (_, i) => ({
-      id: `guide-${removeAccents(city).toLowerCase().replace(/\s+/g, "-")}-${i + 1}`,
-    }));
-  }
-
-  try {
-    const content = await readFile(guidesPath, "utf-8");
-
-    // Extract guide IDs using regex
-    const guidesMatch = content.match(/id: "([^"]+)"/g);
-    if (!guidesMatch) return [];
-
-    return guidesMatch.map((match) => {
-      const id = match.match(/id: "([^"]+)"/)[1];
-      return { id };
-    });
-  } catch (error) {
-    console.error(`Error loading guides for ${city}:`, error);
-    return [];
-  }
-}
-
-// Generate random schedules for a tour
-function generateSchedules() {
-  const numSchedules = Math.floor(Math.random() * 4) + 1; // 1-4 schedules
-  const selectedDays = new Set();
-  const schedules = [];
-
-  for (let i = 0; i < numSchedules; i++) {
-    // Pick a day that hasn't been selected yet
-    let day;
-    do {
-      day = weekDays[Math.floor(Math.random() * weekDays.length)];
-    } while (selectedDays.has(day));
-
-    selectedDays.add(day);
-
-    // Generate start time (8AM - 5PM)
-    const startHour = Math.floor(Math.random() * 10) + 8;
-    const startTime = `${startHour < 10 ? "0" + startHour : startHour}:00`;
-
-    // Generate duration based on the tour duration
-    const durationHours =
-      durations[Math.floor(Math.random() * durations.length)];
-    const endHour = Math.min(23, startHour + Math.floor(durationHours));
-    const endMinutes = (durationHours % 1) * 60;
-    const endTime = `${endHour < 10 ? "0" + endHour : endHour}:${endMinutes === 0 ? "00" : endMinutes}`;
-
-    schedules.push({
-      dayOfWeek: day,
-      startTime,
-      endTime,
-    });
-  }
-
-  return schedules;
-}
+// ...existing code...
 
 // Generate a tour for a city
 function generateTour(city, index, guides) {
@@ -409,9 +669,47 @@ function generateTour(city, index, guides) {
       ? guides[Math.floor(Math.random() * guides.length)].id
       : `guide-${removeAccents(city).toLowerCase().replace(/\s+/g, "-")}-1`;
 
-  // Generate tour details
-  const titleIndex = Math.floor(Math.random() * tourTitles.length);
-  const title = `${formatKebebToTitleCase(city)} ${tourTitles[titleIndex]}`;
+  // Select random theme and type
+  const themeIndex = Math.floor(Math.random() * tourThemes.length);
+  const theme = tourThemes[themeIndex];
+  const type = tourTypes[Math.floor(Math.random() * tourTypes.length)];
+
+  // Generate title considering both theme and type
+  let title = "";
+
+  // First try to use a type-specific title (33% chance)
+  if (tourTypeToTitleMap[type] && Math.random() < 0.33) {
+    const typeSpecificTitles = tourTypeToTitleMap[type];
+    title =
+      typeSpecificTitles[Math.floor(Math.random() * typeSpecificTitles.length)];
+  }
+  // Otherwise use a theme-specific title (if available)
+  else if (tourThemeToTitleMap[theme]) {
+    const themeSpecificTitles = tourThemeToTitleMap[theme];
+    title =
+      themeSpecificTitles[
+        Math.floor(Math.random() * themeSpecificTitles.length)
+      ];
+  }
+  // Fallback to generic titles
+  else {
+    const titleIndex = Math.floor(Math.random() * tourTitles.length);
+    title = tourTitles[titleIndex];
+  }
+
+  // Combine theme and type into title if not already reflected (20% chance)
+  if (Math.random() < 0.2) {
+    // Extract the type's main activity (remove "Tour", "Class", etc.)
+    const typeActivity = type.split(" ")[0];
+    if (!title.includes(typeActivity)) {
+      title = `${title}`;
+    }
+  }
+
+  // Add city to the title if not already there
+  if (!title.includes(city)) {
+    title = `${title}`;
+  }
 
   // Generate tour description
   const descriptions = [
@@ -423,19 +721,6 @@ function generateTour(city, index, guides) {
   ];
   const description =
     descriptions[Math.floor(Math.random() * descriptions.length)];
-
-  // Generate tour type
-  const type = tourTypes[Math.floor(Math.random() * tourTypes.length)];
-
-  // Generate tour themes (tags)
-  const numThemes = Math.floor(Math.random() * 3) + 2; // 2-4 themes
-  const tags = Array.from(
-    new Set(
-      Array(numThemes)
-        .fill(0)
-        .map(() => tourThemes[Math.floor(Math.random() * tourThemes.length)]),
-    ),
-  );
 
   // Generate tour duration
   const durationInHours =
@@ -463,9 +748,9 @@ function generateTour(city, index, guides) {
       Array(numIncluded)
         .fill(0)
         .map(
-          () => includedItems[Math.floor(Math.random() * includedItems.length)],
-        ),
-    ),
+          () => includedItems[Math.floor(Math.random() * includedItems.length)]
+        )
+    )
   );
 
   const numNotIncluded = Math.floor(Math.random() * 3) + 2; // 2-4 items
@@ -477,9 +762,9 @@ function generateTour(city, index, guides) {
           () =>
             notIncludedItems[
               Math.floor(Math.random() * notIncludedItems.length)
-            ],
-        ),
-    ),
+            ]
+        )
+    )
   );
 
   // Generate requirements
@@ -492,9 +777,9 @@ function generateTour(city, index, guides) {
           () =>
             tourRequirements[
               Math.floor(Math.random() * tourRequirements.length)
-            ],
-        ),
-    ),
+            ]
+        )
+    )
   );
 
   // Generate languages offered
@@ -620,7 +905,7 @@ async function extractExistingTours(filePath) {
   // Add validation to prevent errors with null/empty tours array
   if (!tours || !Array.isArray(tours) || tours.length === 0) {
     console.warn(
-      `Could not parse existing tours in ${filePath}, will create fresh data`,
+      `Could not parse existing tours in ${filePath}, will create fresh data`
     );
     return [];
   }
@@ -643,9 +928,6 @@ async function generateCityTourFile(city) {
   const destDir = path.join(process.cwd(), "src", "lib", "constants", "tours");
   const filePath = path.join(destDir, `${formattedName}.ts`);
 
-  // Check if directory exists
-  await ensureDirectoryExists(destDir);
-
   // Check if file exists
   const exists = await fileExists(filePath);
 
@@ -659,7 +941,7 @@ async function generateCityTourFile(city) {
       tours = await extractExistingTours(filePath);
     } else {
       console.log(
-        `File already exists (use --rewrite to replace): ${filePath}`,
+        `File already exists (use --rewrite to replace): ${filePath}`
       );
       return;
     }
@@ -680,7 +962,6 @@ async function generateCityTourFile(city) {
   // Create file content with proper formatting
   let content = `import { Tour } from "@/lib/interfaces/services/tours";\n\n`;
   content += `export const ${variableName.replaceAll(".", "")}: Tour[] = [\n`;
-
   tours.forEach((tour, index) => {
     content += `  {\n`;
     for (const [key, value] of Object.entries(tour)) {
@@ -722,7 +1003,7 @@ async function generateCityTourFile(city) {
   // Write file
   await writeFile(filePath, content);
   console.log(
-    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`,
+    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`
   );
 }
 
@@ -741,7 +1022,7 @@ async function generateAllCityTourFiles() {
       city
         .toLowerCase()
         .replace(/[^a-z0-9]/g, "")
-        .includes(filterLower),
+        .includes(filterLower)
     );
 
     if (citiesToProcess.length === 0) {
@@ -753,7 +1034,7 @@ async function generateAllCityTourFiles() {
         .filter((city) =>
           city
             .toLowerCase()
-            .includes(options.cityFilter.toLowerCase().split(/[ -]/).join("")),
+            .includes(options.cityFilter.toLowerCase().split(/[ -]/).join(""))
         )
         .slice(0, 10);
 
@@ -769,7 +1050,7 @@ async function generateAllCityTourFiles() {
     }
 
     console.log(
-      `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`,
+      `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`
     );
   }
 
