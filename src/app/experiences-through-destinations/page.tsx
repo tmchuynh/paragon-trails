@@ -9,7 +9,6 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import {
   Pagination,
@@ -49,24 +48,9 @@ import {
   formatKebebToTitleCase,
   removeSpecialCharactersFromNumbers,
 } from "@/lib/utils/format";
-import Image from "next/image";
 import { useRouter } from "next/navigation";
-
-// Currency conversion rates (simplified for demo)
-const currencyRates = {
-  USD: 1,
-  EUR: 0.93,
-  GBP: 0.79,
-  JPY: 150.5,
-  AUD: 1.52,
-  CAD: 1.36,
-  CNY: 7.22,
-};
-
-// Set up types for our filters and sorting
-type SortField = "city" | "country" | "region" | "price" | "duration";
-type SortDirection = "asc" | "desc";
-type Currency = keyof typeof currencyRates;
+import { currencyRates } from "@/lib/constants/info/general";
+import { SortField, SortDirection, Currency } from "@/lib/interfaces/general";
 
 export default function ToursExplorePageClient() {
   const router = useRouter();
@@ -117,15 +101,15 @@ export default function ToursExplorePageClient() {
   // Max values for ranges
   const maxPrice = Math.max(
     ...tours.map((tour) => tour.pricePerPerson || 0),
-    1000,
+    1000
   );
   const maxDuration = Math.max(
     ...tours.map((tour) => tour.durationInHours || 0),
-    24,
+    24
   );
   const maxGroupSize = Math.max(
     ...tours.map((tour) => tour.maxGroupSize || 0),
-    50,
+    50
   );
 
   // Pagination values
@@ -149,13 +133,13 @@ export default function ToursExplorePageClient() {
 
         // Set price range based on actual data
         const maxDataPrice = Math.max(
-          ...allTours.map((tour) => parseFloat(tour.price) || 0),
+          ...allTours.map((tour) => parseFloat(tour.price) || 0)
         );
         setPriceRange([0, maxDataPrice > 0 ? maxDataPrice : 1000]);
 
         // Set duration range based on actual data
         const maxDataDuration = Math.max(
-          ...allTours.map((tour) => tour.durationInHours || 0),
+          ...allTours.map((tour) => tour.durationInHours || 0)
         );
         // Ensure we have a reasonable min/max for duration
         setDurationRange([
@@ -165,10 +149,10 @@ export default function ToursExplorePageClient() {
 
         // Set group size range based on actual data
         const minDataGroupSize = Math.min(
-          ...allTours.map((tour) => tour.minGroupSize || 1),
+          ...allTours.map((tour) => tour.minGroupSize || 1)
         );
         const maxDataGroupSize = Math.max(
-          ...allTours.map((tour) => tour.maxGroupSize || 0),
+          ...allTours.map((tour) => tour.maxGroupSize || 0)
         );
         setGroupSizeRange([
           minDataGroupSize > 0 ? minDataGroupSize : 1,
@@ -228,14 +212,14 @@ export default function ToursExplorePageClient() {
       console.log(
         "Available tour cities:",
         Array.from(tourCities).slice(0, 10),
-        "...",
+        "..."
       );
 
       result = result.filter((tour) => {
         const includesCity = cityFilter.includes(tour.city);
         if (!includesCity) {
           console.log(
-            `City mismatch: Tour has "${tour.city}", filter wants ${cityFilter}`,
+            `City mismatch: Tour has "${tour.city}", filter wants ${cityFilter}`
           );
         }
         return includesCity;
@@ -263,7 +247,7 @@ export default function ToursExplorePageClient() {
       result = result.filter(
         (tour) =>
           tour.languagesOffered &&
-          languageFilter.some((lang) => tour.languagesOffered.includes(lang)),
+          languageFilter.some((lang) => tour.languagesOffered.includes(lang))
       );
       console.log(`Language filter: ${beforeCount} → ${result.length} tours`);
     }
@@ -279,7 +263,7 @@ export default function ToursExplorePageClient() {
     if (tagFilter.length > 0) {
       const beforeCount = result.length;
       result = result.filter(
-        (tour) => tour.tags && tagFilter.some((tag) => tour.tags.includes(tag)),
+        (tour) => tour.tags && tagFilter.some((tag) => tour.tags.includes(tag))
       );
       console.log(`Tag filter: ${beforeCount} → ${result.length} tours`);
     }
@@ -306,7 +290,7 @@ export default function ToursExplorePageClient() {
       return duration >= durationRange[0] && duration <= durationRange[1];
     });
     console.log(
-      `Duration filter: ${beforeDurationCount} → ${result.length} tours`,
+      `Duration filter: ${beforeDurationCount} → ${result.length} tours`
     );
 
     // Filter by group size range
@@ -317,7 +301,7 @@ export default function ToursExplorePageClient() {
       return minSize >= groupSizeRange[0] && maxSize <= groupSizeRange[1];
     });
     console.log(
-      `Group size filter: ${beforeGroupSizeCount} → ${result.length} tours`,
+      `Group size filter: ${beforeGroupSizeCount} → ${result.length} tours`
     );
 
     // Filter by private availability
@@ -325,7 +309,7 @@ export default function ToursExplorePageClient() {
       const beforeCount = result.length;
       result = result.filter((tour) => tour.privateAvailable === true);
       console.log(
-        `Private only filter: ${beforeCount} → ${result.length} tours`,
+        `Private only filter: ${beforeCount} → ${result.length} tours`
       );
     }
 
@@ -334,7 +318,7 @@ export default function ToursExplorePageClient() {
       const beforeCount = result.length;
       result = result.filter((tour) => tour.isPetFriendly === true);
       console.log(
-        `Pet friendly filter: ${beforeCount} → ${result.length} tours`,
+        `Pet friendly filter: ${beforeCount} → ${result.length} tours`
       );
     }
 
@@ -396,10 +380,10 @@ export default function ToursExplorePageClient() {
   const toggleFilter = (
     filterArray: any[],
     setFilterArray: React.Dispatch<React.SetStateAction<any[]>>,
-    item: any,
+    item: any
   ) => {
     console.log(
-      `Toggling filter: ${item} in array of length ${filterArray.length}`,
+      `Toggling filter: ${item} in array of length ${filterArray.length}`
     );
     if (filterArray.includes(item)) {
       setFilterArray(filterArray.filter((i) => i !== item));
@@ -411,7 +395,7 @@ export default function ToursExplorePageClient() {
   const convertPrice = (
     price: number,
     fromCurrency: string,
-    toCurrency: Currency,
+    toCurrency: Currency
   ): number => {
     // Convert to USD first (if not already USD)
     const inUSD =
@@ -440,8 +424,46 @@ export default function ToursExplorePageClient() {
         return `C$${numPrice.toFixed(2)}`;
       case "CNY":
         return `¥${numPrice.toFixed(2)}`;
+      case "CHF":
+        return `CHF ${numPrice.toFixed(2)}`;
+      case "SEK":
+        return `kr ${numPrice.toFixed(2)}`;
+      case "NOK":
+        return `kr ${numPrice.toFixed(2)}`;
+      case "DKK":
+        return `kr ${numPrice.toFixed(2)}`;
+      case "NZD":
+        return `NZ$${numPrice.toFixed(2)}`;
+      case "INR":
+        return `₹${numPrice.toFixed(2)}`;
+      case "MXN":
+        return `$${numPrice.toFixed(2)} MXN`;
+      case "BRL":
+        return `R$${numPrice.toFixed(2)}`;
+      case "ZAR":
+        return `R${numPrice.toFixed(2)}`;
+      case "KRW":
+        return `₩${Math.round(numPrice)}`;
+      case "SGD":
+        return `S$${numPrice.toFixed(2)}`;
+      case "HKD":
+        return `HK$${numPrice.toFixed(2)}`;
+      case "AED":
+        return `د.إ ${numPrice.toFixed(2)}`;
+      case "THB":
+        return `฿${numPrice.toFixed(2)}`;
+      case "TRY":
+        return `₺${numPrice.toFixed(2)}`;
+      case "IDR":
+        return `Rp ${Math.round(numPrice)}`;
+      case "PHP":
+        return `₱${numPrice.toFixed(2)}`;
+      case "PLN":
+        return `zł ${numPrice.toFixed(2)}`;
+      case "HUF":
+        return `Ft ${Math.round(numPrice)}`;
       default:
-        return `${numPrice.toFixed(2)}`;
+        return `${numPrice.toFixed(2)} ${currency}`;
     }
   };
 
@@ -466,7 +488,7 @@ export default function ToursExplorePageClient() {
           "ellipsis",
           totalPages - 3,
           totalPages - 2,
-          totalPages - 1,
+          totalPages - 1
         );
       } else {
         pageNumbers.push(
@@ -474,7 +496,7 @@ export default function ToursExplorePageClient() {
           currentPage - 1,
           currentPage,
           currentPage + 1,
-          "ellipsis",
+          "ellipsis"
         );
       }
 
@@ -508,7 +530,7 @@ export default function ToursExplorePageClient() {
                   {page}
                 </PaginationLink>
               </PaginationItem>
-            ),
+            )
           )}
 
           <PaginationItem>
@@ -546,7 +568,7 @@ export default function ToursExplorePageClient() {
             </p>
           </div>
 
-          <div className="flex sm:flex-row flex-col gap-4">
+          <div className="flex sm:flex-row flex-col items-center gap-4">
             <div className="flex items-center gap-2">
               <Button
                 variant="outline"
@@ -580,7 +602,7 @@ export default function ToursExplorePageClient() {
                     onClick={() => {
                       setSortField("city");
                       setSortDirection((prev) =>
-                        prev === "asc" ? "desc" : "asc",
+                        prev === "asc" ? "desc" : "asc"
                       );
                     }}
                   >
@@ -592,7 +614,7 @@ export default function ToursExplorePageClient() {
                     onClick={() => {
                       setSortField("country");
                       setSortDirection((prev) =>
-                        prev === "asc" ? "desc" : "asc",
+                        prev === "asc" ? "desc" : "asc"
                       );
                     }}
                   >
@@ -604,7 +626,7 @@ export default function ToursExplorePageClient() {
                     onClick={() => {
                       setSortField("region");
                       setSortDirection((prev) =>
-                        prev === "asc" ? "desc" : "asc",
+                        prev === "asc" ? "desc" : "asc"
                       );
                     }}
                   >
@@ -616,7 +638,7 @@ export default function ToursExplorePageClient() {
                     onClick={() => {
                       setSortField("price");
                       setSortDirection((prev) =>
-                        prev === "asc" ? "desc" : "asc",
+                        prev === "asc" ? "desc" : "asc"
                       );
                     }}
                   >
@@ -628,7 +650,7 @@ export default function ToursExplorePageClient() {
                     onClick={() => {
                       setSortField("duration");
                       setSortDirection((prev) =>
-                        prev === "asc" ? "desc" : "asc",
+                        prev === "asc" ? "desc" : "asc"
                       );
                     }}
                   >
@@ -657,6 +679,25 @@ export default function ToursExplorePageClient() {
                   <SelectItem value="AUD">AUD (A$)</SelectItem>
                   <SelectItem value="CAD">CAD (C$)</SelectItem>
                   <SelectItem value="CNY">CNY (¥)</SelectItem>
+                  <SelectItem value="CHF">CHF (CHF)</SelectItem>
+                  <SelectItem value="SEK">SEK (kr)</SelectItem>
+                  <SelectItem value="NOK">NOK (kr)</SelectItem>
+                  <SelectItem value="DKK">DKK (kr)</SelectItem>
+                  <SelectItem value="NZD">NZD (NZ$)</SelectItem>
+                  <SelectItem value="INR">INR (₹)</SelectItem>
+                  <SelectItem value="MXN">MXN ($)</SelectItem>
+                  <SelectItem value="BRL">BRL (R$)</SelectItem>
+                  <SelectItem value="ZAR">ZAR (R)</SelectItem>
+                  <SelectItem value="KRW">KRW (₩)</SelectItem>
+                  <SelectItem value="SGD">SGD (S$)</SelectItem>
+                  <SelectItem value="HKD">HKD (HK$)</SelectItem>
+                  <SelectItem value="AED">AED (د.إ)</SelectItem>
+                  <SelectItem value="THB">THB (฿)</SelectItem>
+                  <SelectItem value="TRY">TRY (₺)</SelectItem>
+                  <SelectItem value="IDR">IDR (Rp)</SelectItem>
+                  <SelectItem value="PHP">PHP (₱)</SelectItem>
+                  <SelectItem value="PLN">PLN (zł)</SelectItem>
+                  <SelectItem value="HUF">HUF (Ft)</SelectItem>
                 </SelectContent>
               </Select>
             </div>
@@ -670,9 +711,10 @@ export default function ToursExplorePageClient() {
                 <SelectValue placeholder="Items per page" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="5">5 per page</SelectItem>
                 <SelectItem value="10">10 per page</SelectItem>
+                <SelectItem value="15">15 per page</SelectItem>
                 <SelectItem value="20">20 per page</SelectItem>
+                <SelectItem value="25">25 per page</SelectItem>
                 <SelectItem value="50">50 per page</SelectItem>
               </SelectContent>
             </Select>
@@ -682,7 +724,7 @@ export default function ToursExplorePageClient() {
         <div className="gap-6 grid grid-cols-1 lg:grid-cols-4">
           {/* Filters Panel */}
           {showFilters && (
-            <div className="space-y-6 lg:col-span-1 shadow p-6 rounded-lg h-fit">
+            <div className="space-y-6 lg:col-span-1 shadow p-6 border border-border rounded-lg h-fit">
               <div className="flex justify-between items-center">
                 <h3>Filters</h3>
                 <Button
@@ -722,7 +764,7 @@ export default function ToursExplorePageClient() {
                         htmlFor={`city-${city}`}
                         className="text-sm cursor-pointer"
                       >
-                        {city}
+                        {formatKebebToTitleCase(city)}
                       </Label>
                     </div>
                   ))}
@@ -790,7 +832,7 @@ export default function ToursExplorePageClient() {
                           toggleFilter(
                             languageFilter,
                             setLanguageFilter,
-                            language,
+                            language
                           )
                         }
                       />
@@ -958,22 +1000,23 @@ export default function ToursExplorePageClient() {
                   const displayPrice = convertPrice(
                     parseFloat(removeSpecialCharactersFromNumbers(tour.price)),
                     tour.currency || "USD", // Add fallback if currency is missing
-                    selectedCurrency,
+                    selectedCurrency
                   );
 
                   return (
                     <div
                       key={tour.id || idx} // Use index as fallback if id is missing
-                      className="flex flex-col shadow-md rounded-lg h-full overflow-hidden"
+                      className="flex flex-col shadow-md border border-border rounded-lg h-full overflow-hidden"
                     >
                       {/* Content */}
                       <div className="relative flex flex-col flex-grow p-4 h-full">
                         <div className="flex justify-between items-start mb-2">
-                          <h3>{tour.title}</h3>
+                          <h3 className="w-4/5">{tour.title}</h3>
                           <Badge
-                            className="top-4 right-4 absolute"
-                            variant={tour.isPetFriendly ? "success" : "outline"}
-                            size="xs"
+                            className="top-5 right-4 absolute"
+                            variant={
+                              tour.isPetFriendly ? "successFaded" : "errorFaded"
+                            }
                           >
                             {tour.isPetFriendly ? "Pet Friendly" : "No Pets"}
                           </Badge>
@@ -1026,7 +1069,9 @@ export default function ToursExplorePageClient() {
                             size="sm"
                             className="whitespace-nowrap"
                             onClick={() =>
-                              router.push(`/experiences-through-destinations`)
+                              router.push(
+                                `/experiences-through-destinations/${tour.city}/tours/${tour.title}?tourId=${tour.id}&city=${tour.city}/&guideId=${tour.guideId}&currency=${selectedCurrency}`
+                              )
                             }
                           >
                             View Details
