@@ -1,13 +1,25 @@
 import { cityFiles } from "@/lib/constants/info/city";
 import { TourGuide } from "@/lib/interfaces/people/staff";
 import { TourRegion, TourType } from "@/lib/interfaces/services/tours";
-import { formatKebabToCamelCase } from "../format";
+import {
+  formatKebabToCamelCase,
+  formatTitleCaseToKebabCase,
+  formatTitleToCamelCase,
+} from "../format";
+import { cityCountryMap, cityToRegionMap } from "@/lib/utils/mapping";
 
 export async function getTourGuides(): Promise<any> {
   try {
     for (const cityFile of cityFiles) {
       const formattedCity = formatKebabToCamelCase(cityFile);
-      const guideId = `${formattedCity}Guides`;
+      const country = cityCountryMap[cityFile as keyof typeof cityCountryMap];
+      const region = cityToRegionMap[cityFile as keyof typeof cityToRegionMap];
+
+      const formattedCountry = formatTitleToCamelCase(country);
+
+      const formattedRegion = formatTitleToCamelCase(region);
+
+      const guideId = `${formattedCity}${formattedCountry.replaceAll(".", "")}${formattedRegion}Guides`;
       const guidesModule = await import(
         `@/lib/constants/staff/guides/${formattedCity}`
       );
@@ -26,28 +38,91 @@ export async function getTourGuides(): Promise<any> {
 
 export async function getTourGuideById(
   city: string,
-  guideId: string,
+  guideId: string
 ): Promise<TourGuide | null> {
   try {
-    const formattedCity = formatKebabToCamelCase(city);
-    const guidesModule = await import(
-      `@/lib/constants/staff/guides/${formattedCity}`
-    );
+    // Clean up and normalize the city name (removing slashes and extra spaces)
+    const cleanCity = city.replace(/\//g, "").trim();
+    console.log(`Looking for guide with ID ${guideId} in city ${cleanCity}`);
 
-    const variableName = `${formattedCity}Guides`;
+    // Format the city name to kebab-case for the file path
+    const formattedCity = formatTitleCaseToKebabCase(cleanCity);
+    console.log(`Formatted city for file path: ${formattedCity}`);
 
-    if (guidesModule[variableName]) {
-      const guide = guidesModule[variableName].find(
-        (g: TourGuide) => g.id === guideId,
+    // Try to import the guides module
+    try {
+      const guidesModule = await import(
+        `@/lib/constants/staff/guides/${formattedCity}`
       );
-      if (guide) {
-        return guide;
-      } else {
-        console.error(`Tour guide with ID ${guideId} not found`);
-        return null;
+
+      // Get all export names from the module to help with debugging
+      const exportNames = Object.keys(guidesModule);
+      console.log(`Found exports in guides module: ${exportNames.join(", ")}`);
+
+      // Try to get country and region info
+      const country =
+        cityCountryMap[cleanCity as keyof typeof cityCountryMap] ||
+        cityCountryMap[formattedCity as keyof typeof cityCountryMap];
+      const region =
+        cityToRegionMap[cleanCity as keyof typeof cityToRegionMap] ||
+        cityToRegionMap[formattedCity as keyof typeof cityToRegionMap];
+
+      if (!country || !region) {
+        console.error(
+          `Could not find country or region mapping for city: ${cleanCity}`
+        );
       }
-    } else {
-      console.error(`No guides found for city: ${city}`);
+
+      console.log(`City: ${cleanCity}, Country: ${country}, Region: ${region}`);
+
+      // Try all possible variable name formats that could exist in the module
+      const formattedCountry = country ? formatTitleToCamelCase(country) : "";
+      const formattedRegion = region ? formatTitleToCamelCase(region) : "";
+
+      // Create different possible variable name patterns
+      const possibleVariableNames = [
+        // Standard format from the function
+        `${formattedCity}${formattedCountry.replaceAll(".", "")}${formattedRegion}Guides`,
+        // Format seen in amsterdam.ts
+        `${formattedCity}${formattedCountry.toLowerCase()}${formattedRegion.toLowerCase()}Guides`,
+        // Simple format with just the city name
+        `${formattedCity}Guides`,
+        // Try with camelCase city
+        `${formatKebabToCamelCase(formattedCity)}${formattedCountry}${formattedRegion}Guides`,
+        // Other possible combinations
+        `${formattedCity}${formattedCountry}Guides`,
+        `${formattedCity}${formattedRegion}Guides`,
+      ];
+
+      console.log(
+        `Trying these variable names: ${possibleVariableNames.join(", ")}`
+      );
+
+      // Try each possible variable name
+      for (const varName of possibleVariableNames) {
+        if (guidesModule[varName]) {
+          console.log(`Found guides data with export name: ${varName}`);
+          const guide = guidesModule[varName].find(
+            (g: TourGuide) => g.id === guideId
+          );
+
+          if (guide) {
+            console.log(`Found guide: ${guide.name} with ID ${guideId}`);
+            return guide;
+          }
+        }
+      }
+
+      // If we get here, we've tried all variable names but found nothing
+      console.error(
+        `No matching export found in ${formattedCity} guides module for guide ID ${guideId}`
+      );
+      return null;
+    } catch (importError) {
+      console.error(
+        `Failed to import guides for ${formattedCity}:`,
+        importError
+      );
       return null;
     }
   } catch (error) {
