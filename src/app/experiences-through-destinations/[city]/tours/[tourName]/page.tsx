@@ -207,10 +207,6 @@ export default function TourDetailsPage() {
               </div>
               <div className="gap-4 grid grid-cols-1 md:grid-cols-2 mb-4">
                 <div>
-                  <h4>Duration</h4>
-                  <p>{tourData.durationInHours} hours</p>
-                </div>
-                <div>
                   <h4>Price</h4>
                   <p className="font-semibold text-lg">
                     {tourData.pricePerPerson}
@@ -315,7 +311,7 @@ export default function TourDetailsPage() {
               <div className="space-y-6">
                 {tourData.schedule.map((scheduleItem, index) => {
                   const attraction = cityAttractions.find(
-                    (a) => a.id === scheduleItem.attractionId,
+                    (a) => a.id === scheduleItem.attractionId
                   );
                   return (
                     <div
