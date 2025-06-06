@@ -4,20 +4,20 @@ import { RoomOption } from "@/lib/interfaces/services/rentals";
 export const hikariHotelRooms: RoomOption[] = [
   {
     id: "hotel-yokohama-1-room-0",
-    name: "Deluxe Single Loft",
-    description: "This expansive single accommodation offers with a view of the garden's tranquil pathways, with minimalist Japanese aesthetics.",
+    name: "Zen Single Penthouse",
+    description: "This heartwarming single penthouse promises overlooking spectacular mountain ranges, enriched by Zen-themed details and with carefully selected furnishings.",
     occupancy: {
       adults: 1,
+      children: 0,
       maxGuests: 1,
     },
     bedType: "Single",
-    view: "Garden View",
-    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Family Room", "Fireplace", "Bluetooth Speaker", "Mini Bar", "Books"],
-    accessibilityFeatures: ["Visual Aids"],
-    pricePerNight: 288,
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Flat-Screen TV", "Ironing Facilities", "Outdoor Furniture", "In-Room Safe", "Soundproofing", "Accessible Room"],
+    pricePerNight: 333,
     currency: "JPY",
     refundable: true,
-    breakfastIncluded: true,
-    availableCount: 5,
+    breakfastIncluded: false,
+    availableCount: 9,
   }
 ];

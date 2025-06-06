@@ -1,0 +1,56 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Grand Central Hotel
+export const grandCentralHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-amalfi-coast-6-room-5",
+    name: "Harmony Twin Loft",
+    description: "Experience our elegant, vast twin loft featuring a blend of modern and historic architecture, equipped with all the modern conveniences.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "In-Room Safe", "Mini Bar", "Sauna", "Streaming Services", "Seating Area", "Smoke Detector"],
+    pricePerNight: 212,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-amalfi-coast-6-room-5",
+    name: "Serenity Single Villa",
+    description: "This cozy single accommodation offers with a view of shaded garden paths, created with both style and function in mind.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Streaming Services", "In-Room Safe", "Family Room", "Ironing Facilities", "Soundproofing"],
+    pricePerNight: 208,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-amalfi-coast-6-room-5",
+    name: "Tranquility Single Penthouse",
+    description: "Tranquility-themed penthouse with pleasant decor, with a pleasant outlook, and with a modern en-suite bathroom.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Balcony", "Pet Friendly", "Outdoor Furniture"],
+    accessibilityFeatures: ["Wheelchair Accessible"],
+    pricePerNight: 189,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 6,
+  }
+];

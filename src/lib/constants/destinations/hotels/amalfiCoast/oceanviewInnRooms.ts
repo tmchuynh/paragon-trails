@@ -1,0 +1,40 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Oceanview Inn
+export const oceanviewInnRooms: RoomOption[] = [
+  {
+    id: "hotel-amalfi-coast-3-room-2",
+    name: "Tranquility Twin Suite",
+    description: "Unwind in this elegant twin suite where you can hear the soothing sound of the sea, offering a unique blend of style and comfort.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Board Games", "Luggage Rack", "Kitchenette", "Seating Area"],
+    pricePerNight: 110,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-amalfi-coast-3-room-2",
+    name: "Tranquility King Loft",
+    description: "Experience our soft, room-filled king loft where you can enjoy the tranquility of the mountains, including climate control for your comfort.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Soundproofing", "Smoke Detector", "Bluetooth Speaker", "Bathtub"],
+    pricePerNight: 159,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 4,
+  }
+];

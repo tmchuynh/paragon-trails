@@ -2,4 +2,39 @@ import { RoomOption } from "@/lib/interfaces/services/rentals";
 
 // Room options for Great Wall Lodge
 export const greatWallLodgeRooms: RoomOption[] = [
+  {
+    id: "hotel-shanghai-4-room-3",
+    name: "Imperial Queen Studio",
+    description: "Relax in our prestigious broad queen studio featuring with a view of the garden's peaceful ambiance, along with offering a unique blend of style and comfort and with classic Chinese artistic influences.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Fitness Equipment", "Dining Table", "Books"],
+    pricePerNight: 280,
+    currency: "CNY",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-shanghai-4-room-3",
+    name: "Dragon King Room",
+    description: "Relax in our vintage classic king room featuring overlooking the vibrant cityscape, along with offering a unique blend of style and comfort and with classic Chinese artistic influences.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Connecting Rooms", "Accessible Room", "Streaming Services"],
+    pricePerNight: 294,
+    currency: "CNY",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 5,
+  }
 ];

@@ -2,4 +2,56 @@ import { RoomOption } from "@/lib/interfaces/services/rentals";
 
 // Room options for Sunset Villa
 export const sunsetVillaRooms: RoomOption[] = [
+  {
+    id: "hotel-oslo-2-room-1",
+    name: "Serenity Sofa Bed Loft",
+    description: "Our Serenity-themed sofa bed loft offers roomy luxury, panoramic with a pleasant outlook, and featuring a curated minibar selection, inspired by featuring thoughtful design elements.",
+    occupancy: {
+      adults: 1,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "In-Room Safe", "Balcony", "Pet Friendly", "Flat-Screen TV"],
+    accessibilityFeatures: ["Accessible Bathroom"],
+    pricePerNight: 194,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-oslo-2-room-1",
+    name: "Modern Sofa Bed Room",
+    description: "Modern-themed room with vast decor, where you can watch the city wake up, and with a luxurious soaking tub.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Seating Area", "Luggage Rack", "Fireplace", "In-Room Safe", "Sauna"],
+    pricePerNight: 203,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-oslo-2-room-1",
+    name: "Classic Twin Apartment",
+    description: "Classic-themed twin apartment with a view of tranquil water features, created with both style and function in mind and with high-speed internet access.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Bathtub", "Smoke Detector", "Board Games"],
+    pricePerNight: 209,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 8,
+  }
 ];

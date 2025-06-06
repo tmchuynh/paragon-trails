@@ -4,17 +4,16 @@ import { RoomOption } from "@/lib/interfaces/services/rentals";
 export const skylineSuitesRooms: RoomOption[] = [
   {
     id: "hotel-barcelona-3-room-2",
-    name: "Classic Queen Loft",
-    description: "Our Classic-themed queen loft offers elegant luxury, panoramic where the city comes alive at dusk, and with blackout curtains for a perfect night's sleep, inspired by designed for ultimate comfort.",
+    name: "Serenity Twin Penthouse",
+    description: "This peaceful twin accommodation offers with a pleasant outlook, featuring thoughtful design elements.",
     occupancy: {
       adults: 2,
-      children: 2,
       maxGuests: 2,
     },
-    bedType: "Queen",
-    view: "City View",
-    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Wake-Up Service", "Soundproofing", "Luggage Rack"],
-    pricePerNight: 124,
+    bedType: "Twin",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Sauna", "Streaming Services", "Balcony", "Outdoor Furniture", "Connecting Rooms"],
+    accessibilityFeatures: ["Wheelchair Accessible"],
+    pricePerNight: 89,
     currency: "EUR",
     refundable: true,
     breakfastIncluded: false,

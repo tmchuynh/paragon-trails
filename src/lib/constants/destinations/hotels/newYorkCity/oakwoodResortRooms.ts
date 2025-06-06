@@ -4,21 +4,20 @@ import { RoomOption } from "@/lib/interfaces/services/rentals";
 export const oakwoodResortRooms: RoomOption[] = [
   {
     id: "hotel-new-york-city-1-room-0",
-    name: "Serenity Queen Apartment",
-    description: "A sleek queen apartment designed for grandiose comfort, with where you can escape to the mountains and featuring premium bath amenities, reflecting created with both style and function in mind.",
+    name: "Signature Double Suite",
+    description: "Unwind in this regal double suite where you can enjoy the city's energy, with blackout curtains for a perfect night's sleep.",
     occupancy: {
       adults: 2,
       children: 2,
       maxGuests: 2,
     },
-    bedType: "Queen",
-    view: "Mountain View",
-    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Dining Table", "Connecting Rooms", "Sauna"],
-    accessibilityFeatures: ["Elevator"],
-    pricePerNight: 301,
+    bedType: "Double",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Kitchenette", "Mini Bar", "Bathtub", "Soundproofing"],
+    pricePerNight: 252,
     currency: "USD",
     refundable: true,
     breakfastIncluded: false,
-    availableCount: 5,
+    availableCount: 7,
   }
 ];

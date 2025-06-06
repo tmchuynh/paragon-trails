@@ -2,4 +2,56 @@ import { RoomOption } from "@/lib/interfaces/services/rentals";
 
 // Room options for Urban Garden Hotel
 export const urbanGardenHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-oslo-3-room-2",
+    name: "Modern Queen Room",
+    description: "Our roomy Modern-themed room offers where you can enjoy the sights and sounds of nature, homey comfort, and with carefully selected furnishings.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Luggage Rack", "Wake-Up Service", "Mini Bar", "Blackout Curtains"],
+    pricePerNight: 126,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-oslo-3-room-2",
+    name: "Executive Queen Apartment",
+    description: "Executive-themed apartment with extensive decor, with a private balcony overlooking the sea, and with plush bedding for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Outdoor Furniture", "Refrigerator", "Mini Bar", "Seating Area"],
+    pricePerNight: 150,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-oslo-3-room-2",
+    name: "Signature Single Suite",
+    description: "Signature-themed suite with avant-garde decor, with stunning views of the city skyline, and complete with a well-appointed bathroom.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Books", "In-Room Safe", "Soundproofing", "Bathtub", "Seating Area", "Complimentary Bottled Water"],
+    pricePerNight: 92,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 1,
+  }
 ];

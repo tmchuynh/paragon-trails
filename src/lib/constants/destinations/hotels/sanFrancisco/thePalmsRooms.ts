@@ -4,20 +4,20 @@ import { RoomOption } from "@/lib/interfaces/services/rentals";
 export const thePalmsRooms: RoomOption[] = [
   {
     id: "hotel-san-francisco-5-room-4",
-    name: "Harmony Sofa Bed Penthouse",
-    description: "Experience our cozy, extravagant sofa bed penthouse with a view of the mountains' rugged terrain, with carefully selected furnishings.",
+    name: "Modern Sofa Bed Villa",
+    description: "This ample sofa bed accommodation offers where the city skyline meets the horizon, designed for ultimate comfort.",
     occupancy: {
       adults: 1,
-      children: 1,
+      children: 2,
       maxGuests: 2,
     },
     bedType: "Sofa Bed",
-    view: "Mountain View",
-    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Board Games", "Balcony", "Pet Friendly", "Wake-Up Service", "Blackout Curtains"],
-    pricePerNight: 147,
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Flat-Screen TV", "Wake-Up Service", "Soundproofing", "Books", "Smoke Detector"],
+    pricePerNight: 118,
     currency: "USD",
-    refundable: false,
-    breakfastIncluded: true,
-    availableCount: 10,
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 5,
   }
 ];

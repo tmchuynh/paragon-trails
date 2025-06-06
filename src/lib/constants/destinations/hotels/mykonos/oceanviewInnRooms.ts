@@ -2,4 +2,58 @@ import { RoomOption } from "@/lib/interfaces/services/rentals";
 
 // Room options for Oceanview Inn
 export const oceanviewInnRooms: RoomOption[] = [
+  {
+    id: "hotel-mykonos-5-room-4",
+    name: "Luxury Single Studio",
+    description: "Relax in our compact homey single studio featuring featuring a blend of modern and historic architecture, along with offering a unique blend of style and comfort and featuring thoughtful design elements.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Sauna", "Mini Bar", "Pet Friendly"],
+    pricePerNight: 163,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-mykonos-5-room-4",
+    name: "Harmony Double Penthouse",
+    description: "Harmony-themed penthouse with fashionable decor, with a pleasant outlook, and with blackout curtains for a perfect night's sleep.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Bathtub", "Balcony", "Luggage Rack"],
+    pricePerNight: 208,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-mykonos-5-room-4",
+    name: "Classic Double Studio",
+    description: "Enjoy a serene stay in our Classic-themed double studio, offering with a view of the mountains' lush valleys, with blackout curtains for a perfect night's sleep, and unique touches of designed for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Streaming Services", "Wake-Up Service", "Connecting Rooms", "Balcony", "Luggage Rack", "Outdoor Furniture"],
+    accessibilityFeatures: ["Wheelchair Accessible", "Elevator"],
+    pricePerNight: 232,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 4,
+  }
 ];

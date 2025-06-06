@@ -4,19 +4,18 @@ import { RoomOption } from "@/lib/interfaces/services/rentals";
 export const lakeviewRetreatRooms: RoomOption[] = [
   {
     id: "hotel-victoria-1-room-0",
-    name: "Northern Lights Queen Studio",
-    description: "This stylish queen studio promises featuring uninterrupted ocean vistas, enriched by Northern Lights-themed details and with a modern en-suite bathroom.",
+    name: "Classic Single Suite",
+    description: "Relax in our artistic indulgent single suite featuring with a pleasant outlook, along with equipped with all the modern conveniences and inspired by the rugged beauty of Canadian landscapes.",
     occupancy: {
-      adults: 2,
-      maxGuests: 2,
+      adults: 1,
+      maxGuests: 1,
     },
-    bedType: "Queen",
-    view: "Ocean View",
-    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Balcony", "Flat-Screen TV", "Family Room"],
-    pricePerNight: 169,
+    bedType: "Single",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping", "Non-Smoking Room", "Television", "Air Conditioning", "Dining Table", "Smoke Detector", "Jacuzzi Tub", "Seating Area", "Fireplace"],
+    pricePerNight: 75,
     currency: "CAD",
-    refundable: false,
-    breakfastIncluded: false,
-    availableCount: 2,
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 6,
   }
 ];
