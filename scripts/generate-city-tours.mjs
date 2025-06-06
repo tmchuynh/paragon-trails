@@ -4,7 +4,7 @@
  *
  * This script generates realistic tour offerings for city destinations in the Paragon Trails application.
  * It creates detailed tour information with properties like title, description, pricing,
- * duration, scheduling, included items, requirements, and policies for each city.
+ *  scheduling, included items, requirements, and policies for each city.
  *
  * Features:
  * - Generates 3-7 tours per city by default
@@ -674,8 +674,6 @@ const currencies = [
   { code: "AUD", symbol: "A$" },
 ];
 
-const durations = [1, 1.5, 2, 2.5, 3, 4, 5, 6, 8, 10, 12];
-
 // Load tour guides for a city - moved up before it's called
 async function loadCityGuides(city) {
   const formattedName = formatKebabToCamelCase(removeAccents(city));
@@ -886,10 +884,6 @@ function generateTour(city, index, guides) {
   const description =
     descriptions[Math.floor(Math.random() * descriptions.length)];
 
-  // Generate tour duration
-  const durationInHours =
-    durations[Math.floor(Math.random() * durations.length)];
-
   // Generate schedule
   const schedule = generateSchedules();
 
@@ -898,11 +892,11 @@ function generateTour(city, index, guides) {
   const currency = currencies[currencyIndex].code;
   const currencySymbol = currencies[currencyIndex].symbol;
 
-  const pricePerPerson = Math.floor(Math.random() * 150) + 20; // $20-$170
+  const pricePerPerson = Math.floor(Math.random() * 150) + 35; // $20-$170
   const price = `${currencySymbol}${pricePerPerson}`;
 
   // Generate group size details
-  const maxGroupSize = Math.floor(Math.random() * 15) + 5; // 5-20
+  const maxGroupSize = Math.floor(Math.random() * 15) + 10; // 10-20
   const minGroupSize = Math.floor(Math.random() * 3) + 1; // 1-3
 
   // Generate included and not included items
@@ -912,9 +906,9 @@ function generateTour(city, index, guides) {
       Array(numIncluded)
         .fill(0)
         .map(
-          () => includedItems[Math.floor(Math.random() * includedItems.length)],
-        ),
-    ),
+          () => includedItems[Math.floor(Math.random() * includedItems.length)]
+        )
+    )
   );
 
   const numNotIncluded = Math.floor(Math.random() * 3) + 2; // 2-4 items
@@ -926,9 +920,9 @@ function generateTour(city, index, guides) {
           () =>
             notIncludedItems[
               Math.floor(Math.random() * notIncludedItems.length)
-            ],
-        ),
-    ),
+            ]
+        )
+    )
   );
 
   // Generate requirements
@@ -941,9 +935,9 @@ function generateTour(city, index, guides) {
           () =>
             tourRequirements[
               Math.floor(Math.random() * tourRequirements.length)
-            ],
-        ),
-    ),
+            ]
+        )
+    )
   );
 
   // Generate languages offered
@@ -1003,7 +997,6 @@ function generateTour(city, index, guides) {
     country: countryName,
     region: regionName,
     languagesOffered: languages,
-    durationInHours,
     price,
     tags, // Now properly defined
     type,
@@ -1056,7 +1049,6 @@ async function extractExistingTours(filePath) {
     country: "",
     region: "",
     languagesOffered: [],
-    durationInHours: 0,
     price: "",
     tags: [],
     type: "",
@@ -1083,7 +1075,7 @@ async function extractExistingTours(filePath) {
   // Add validation to prevent errors with null/empty tours array
   if (!tours || !Array.isArray(tours) || tours.length === 0) {
     console.warn(
-      `Could not parse existing tours in ${filePath}, will create fresh data`,
+      `Could not parse existing tours in ${filePath}, will create fresh data`
     );
     return [];
   }
