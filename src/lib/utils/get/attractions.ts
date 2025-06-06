@@ -173,10 +173,30 @@ export async function getCityAttractionByName(
 ): Promise<Attraction | null> {
   try {
     const attractions = await getCityAttractions(city);
-    const attraction = attractions.find(
-      (a: any) => a.name.toLowerCase() === attractionName.toLowerCase(),
+    console.log(
+      `Looking for attraction "${attractionName}" in ${city}, found ${attractions.length} attractions`
     );
+
+    // First try exact match on title
+    let attraction = attractions.find(
+      (a: any) => a.title?.toLowerCase() === attractionName.toLowerCase()
+    );
+
+    // If not found by title, try name property as fallback
+    if (!attraction) {
+      attraction = attractions.find(
+        (a: any) => a.name?.toLowerCase() === attractionName.toLowerCase()
+      );
+    }
+
+    // Log all attraction titles to help debug
+    console.log(
+      "Available attractions:",
+      attractions.map((a) => a.title || a.name)
+    );
+    
     if (attraction) {
+      console.log(`Found attraction: ${attraction.title || attraction.name}`);
       return attraction;
     } else {
       console.error(
