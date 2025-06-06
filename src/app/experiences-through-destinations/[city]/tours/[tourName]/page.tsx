@@ -165,13 +165,15 @@ export default function TourDetailsPage() {
                 </Select>
               </div>
             </div>
-
-            <div className="gap-6 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6">
-              <div className="flex flex-col md:col-span-2 lg:col-span-4 shadow-md border border-border rounded-lg h-full overflow-hidden"></div>
-
-              <div className="flex flex-col md:col-span-1 lg:col-span-2 shadow-md border border-border rounded-lg h-full overflow-hidden"></div>
-            </div>
           </div>
+
+          <div className="gap-6 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6">
+            <div className="flex flex-col md:col-span-2 lg:col-span-4 shadow-md border border-border rounded-lg h-full overflow-hidden"></div>
+
+            <div className="flex flex-col md:col-span-1 lg:col-span-2 shadow-md border border-border rounded-lg h-full overflow-hidden"></div>
+          </div>
+
+          <div className="flex flex-col md:col-span-1 lg:col-span-2 shadow-md border border-border rounded-lg h-full overflow-hidden"></div>
         </div>
       )}
     </>
