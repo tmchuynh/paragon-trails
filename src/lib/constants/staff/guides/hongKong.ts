@@ -3,421 +3,524 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const hongKongchinaasiaPacificGuides: TourGuide[] = [
   {
     id: "guide-hong-kong-1",
-    name: "Benjamin Smith",
+    name: "Gabriel Martinez",
     city: "Hong Kong",
     country: "China",
     state: "",
     region: "Asia Pacific",
     isPopular: false,
-    bio: "Benjamin is a passionate tour guide with extensive knowledge of Hong Kong and China. Specializing in Adventure Sports, Hidden Gems, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Northern Europe", "East Coast Canada"],
-    tourTypes: ["Architecture Tour", "Luxury Tour"],
-    maxGroupSize: 8,
-    licenseNumber: "LIC-6671-HON",
-    phoneNumber: "+1-796-425-5904",
-    contactEmail: "benjamin.smith@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Benjamin is a passionate tour guide with extensive knowledge of Hong Kong and China. Specializing in Adventure Sports, Hidden Gems, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.2,
-    reviewsCount: 27,
-    quote: "In Hong Kong, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/14.jpg",
-    languages: ["Indonesian", "Hungarian"],
-    experienceYears: 5,
-    certifications: [
-      "Heritage Interpretation Certificate",
-      "Cultural Heritage Specialist",
-    ],
-    specialties: ["Adventure Sports", "Hidden Gems"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-hong-kong-2",
-    name: "Elijah Gonzalez",
-    city: "Hong Kong",
-    country: "China",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: false,
-    bio: "Elijah is a passionate tour guide with extensive knowledge of Hong Kong and China. Specializing in Indigenous Culture, Architecture, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Northern Europe", "Mediterranean"],
-    tourTypes: [
-      "Craft Workshop",
-      "Helicopter Tour",
-      "Luxury Tour",
-      "Religious Tour",
-      "Audio Tour",
-    ],
+    bio: "Gabriel is a passionate tour guide with extensive knowledge of Hong Kong and China. Specializing in Architecture, Gabriel provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America", "Africa"],
+    tourTypes: ["Cruise Excursion", "Cultural Tour", "Self-Guided Tour", "Wine Tour", "LGBTQ+ Friendly Tour"],
     maxGroupSize: 10,
-    licenseNumber: "LIC-6265-HON",
-    phoneNumber: "+1-930-940-7944",
-    contactEmail: "elijah.gonzalez@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Elijah is a passionate tour guide with extensive knowledge of Hong Kong and China. Specializing in Indigenous Culture, Architecture, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.9,
-    reviewsCount: 19,
-    quote:
-      "The best way to discover Hong Kong is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/56.jpg",
-    languages: ["Vietnamese", "Danish"],
-    experienceYears: 2,
-    certifications: ["Eco-Tourism Guide", "Licensed City Guide"],
-    specialties: ["Indigenous Culture", "Architecture"],
-    specialTraining: ["Emergency Response", "Urban Planning"],
-  },
-  {
-    id: "guide-hong-kong-3",
-    name: "Emma Hall",
-    city: "Hong Kong",
-    country: "China",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: false,
-    bio: "Emma is a passionate tour guide with extensive knowledge of Hong Kong and China. Specializing in Local Cuisine, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Asia Pacific"],
-    tourTypes: ["Nature Tour", "Cultural Tour", "Cooking Class", "Wine Tour"],
-    maxGroupSize: 5,
-    licenseNumber: "LIC-4624-HON",
-    phoneNumber: "+1-139-598-8510",
-    contactEmail: "emma.hall@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Emma is a passionate tour guide with extensive knowledge of Hong Kong and China. Specializing in Local Cuisine, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.8,
-    reviewsCount: 25,
-    quote:
-      "Hong Kong isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/men/40.jpg",
-    languages: ["Norwegian", "Cantonese", "Greek"],
-    experienceYears: 15,
-    certifications: ["Certified International Tour Manager"],
-    specialties: ["Local Cuisine"],
-    specialTraining: ["Accessibility Services", "Emergency Response"],
-  },
-  {
-    id: "guide-hong-kong-4",
-    name: "Logan Jones",
-    city: "Hong Kong",
-    country: "China",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: false,
-    bio: "Logan is a passionate tour guide with extensive knowledge of Hong Kong and China. Specializing in Historical Landmarks, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Alaska", "East Coast Canada"],
-    tourTypes: [
-      "Wildlife Safari",
-      "Underground Tour",
-      "Shopping Tour",
-      "Walking Tour",
-    ],
-    maxGroupSize: 19,
-    licenseNumber: "LIC-9285-HON",
-    phoneNumber: "+1-875-210-8992",
-    contactEmail: "logan.jones@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Logan is a passionate tour guide with extensive knowledge of Hong Kong and China. Specializing in Historical Landmarks, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.6,
-    reviewsCount: 23,
-    quote: "In Hong Kong, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/71.jpg",
-    languages: ["Japanese", "Hindi"],
-    experienceYears: 3,
-    certifications: ["Certified International Tour Manager"],
-    specialties: ["Historical Landmarks"],
-    specialTraining: ["Urban Planning"],
-  },
-  {
-    id: "guide-hong-kong-5",
-    name: "Zoe Baker",
-    city: "Hong Kong",
-    country: "China",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: false,
-    bio: "Zoe is a passionate tour guide with extensive knowledge of Hong Kong and China. Specializing in Museums, Public Transportation Navigation, Wine Tasting, Urban Legends, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["West Coast USA"],
-    tourTypes: ["Boat Tour", "LGBTQ+ Friendly Tour"],
-    maxGroupSize: 8,
-    licenseNumber: "LIC-5063-HON",
-    phoneNumber: "+1-555-172-2718",
-    contactEmail: "zoe.baker@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Zoe is a passionate tour guide with extensive knowledge of Hong Kong and China. Specializing in Museums, Public Transportation Navigation, Wine Tasting, Urban Legends, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4,
-    reviewsCount: 45,
-    quote:
-      "Every corner of Hong Kong tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/76.jpg",
-    languages: ["Romanian", "English"],
-    experienceYears: 3,
-    certifications: [
-      "Eco-Tourism Guide",
-      "Sustainable Tourism Certificate",
-      "Food Safety Certification",
-    ],
-    specialties: [
-      "Museums",
-      "Public Transportation Navigation",
-      "Wine Tasting",
-      "Urban Legends",
-    ],
-    specialTraining: ["Photography"],
-  },
-  {
-    id: "guide-hong-kong-6",
-    name: "Ava Clark",
-    city: "Hong Kong",
-    country: "China",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: false,
-    bio: "Ava is a passionate tour guide with extensive knowledge of Hong Kong and China. Specializing in Sustainable Tourism, Music Scene, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["South America"],
-    tourTypes: ["Historical Tour", "Off-Road Tour", "Cooking Class"],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-6916-HON",
-    phoneNumber: "+1-944-200-6526",
-    contactEmail: "ava.clark@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Ava is a passionate tour guide with extensive knowledge of Hong Kong and China. Specializing in Sustainable Tourism, Music Scene, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.8,
-    reviewsCount: 43,
-    quote: "My goal is to help you fall in love with Hong Kong just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/72.jpg",
-    languages: ["Thai", "Russian", "Turkish"],
-    experienceYears: 2,
-    certifications: [
-      "Sustainable Tourism Certificate",
-      "Adventure Tourism Safety Certificate",
-    ],
-    specialties: ["Sustainable Tourism", "Music Scene"],
-    specialTraining: ["Conflict Resolution"],
-  },
-  {
-    id: "guide-hong-kong-7",
-    name: "Lily Brown",
-    city: "Hong Kong",
-    country: "China",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: false,
-    bio: "Lily is a passionate tour guide with extensive knowledge of Hong Kong and China. Specializing in Public Transportation Navigation, Adventure Sports, Local Cuisine, Lily provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Alaska"],
-    tourTypes: ["Street Art Tour", "Boat Tour", "Food Tour"],
-    maxGroupSize: 13,
-    licenseNumber: "LIC-3710-HON",
-    phoneNumber: "+1-359-671-8614",
-    contactEmail: "lily.brown@paragontrails.com",
+    licenseNumber: "LIC-7001-HON",
+    phoneNumber: "+1-612-976-4974",
+    contactEmail: "gabriel.martinez@paragontrails.com",
     available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "15:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "20:00",
-          },
-        ],
-      },
       {
         day: "Monday",
         availableHours: [
           {
-            from: "09:00",
-            to: "12:00",
+            from: "12:00 PM",
+            to: "02:00 PM",
           },
+          {
+            from: "12:00 PM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "01:00 PM",
+          }
         ],
       },
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "13:00",
-            to: "18:00",
+            from: "02:00 PM",
+            to: "06:00 PM",
           },
           {
-            from: "15:00",
-            to: "18:00",
-          },
+            from: "01:00 PM",
+            to: "03:00 PM",
+          }
         ],
-      },
+      }
     ],
     isCertified: true,
-    description:
-      "Lily is a passionate tour guide with extensive knowledge of Hong Kong and China. Specializing in Public Transportation Navigation, Adventure Sports, Local Cuisine, Lily provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.7,
-    reviewsCount: 56,
-    quote:
-      "The best way to discover Hong Kong is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/29.jpg",
-    languages: ["Greek"],
-    experienceYears: 10,
-    certifications: [
-      "Sustainable Tourism Certificate",
-      "Heritage Interpretation Certificate",
-      "Adventure Tourism Safety Certificate",
-    ],
-    specialties: [
-      "Public Transportation Navigation",
-      "Adventure Sports",
-      "Local Cuisine",
-    ],
-    specialTraining: [],
+    description: "Gabriel is a passionate tour guide with extensive knowledge of Hong Kong and China. Specializing in Architecture, Gabriel provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4,
+    reviewsCount: 20,
+    quote: "My goal is to help you fall in love with Hong Kong just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/28.jpg",
+    languages: ["German"],
+    experienceYears: 12,
+    certifications: ["Urban Navigation Specialist"],
+    specialties: ["Architecture"],
+    specialTraining: ["Accessibility Services"],
   },
   {
-    id: "guide-hong-kong-8",
-    name: "Sofia Nelson",
+    id: "guide-hong-kong-2",
+    name: "Janet Collins",
     city: "Hong Kong",
     country: "China",
     state: "",
     region: "Asia Pacific",
     isPopular: false,
-    bio: "Sofia is a passionate tour guide with extensive knowledge of Hong Kong and China. Specializing in Cultural Etiquette, Film Locations, Parks & Gardens, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean", "East Coast Canada"],
-    tourTypes: [
-      "Historical Tour",
-      "Private Tour",
-      "Romantic Tour",
-      "Wildlife Safari",
-    ],
-    maxGroupSize: 11,
-    licenseNumber: "LIC-6903-HON",
-    phoneNumber: "+1-610-792-2208",
-    contactEmail: "sofia.nelson@paragontrails.com",
+    bio: "Janet is a passionate tour guide with extensive knowledge of Hong Kong and China. Specializing in Street Food, Photography Spots, Film Locations, Wildlife, Janet provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada"],
+    tourTypes: ["Scenic Tour", "Ghost Tour"],
+    maxGroupSize: 9,
+    licenseNumber: "LIC-7540-HON",
+    phoneNumber: "+1-896-372-7270",
+    contactEmail: "janet.collins@paragontrails.com",
     available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "12:00",
-          },
-        ],
-      },
       {
         day: "Friday",
         availableHours: [
           {
-            from: "10:00",
-            to: "15:00",
+            from: "03:00 PM",
+            to: "06:00 PM",
           },
           {
-            from: "09:00",
-            to: "15:00",
-          },
+            from: "01:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "10:00 AM",
+          }
         ],
       },
       {
         day: "Monday",
         availableHours: [
           {
-            from: "10:00",
-            to: "13:00",
-          },
+            from: "09:00 AM",
+            to: "02:00 PM",
+          }
         ],
-      },
+      }
     ],
     isCertified: true,
-    description:
-      "Sofia is a passionate tour guide with extensive knowledge of Hong Kong and China. Specializing in Cultural Etiquette, Film Locations, Parks & Gardens, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.2,
-    reviewsCount: 73,
-    quote:
-      "Every corner of Hong Kong tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/32.jpg",
-    languages: ["Portuguese", "Arabic"],
-    experienceYears: 10,
-    certifications: [
-      "Certified International Tour Manager",
-      "CPR & First Aid",
-      "Wilderness First Responder",
-    ],
-    specialties: ["Cultural Etiquette", "Film Locations", "Parks & Gardens"],
-    specialTraining: ["Emergency Response"],
+    description: "Janet is a passionate tour guide with extensive knowledge of Hong Kong and China. Specializing in Street Food, Photography Spots, Film Locations, Wildlife, Janet provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4,
+    reviewsCount: 64,
+    quote: "My goal is to help you fall in love with Hong Kong just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/59.jpg",
+    languages: ["Hindi"],
+    experienceYears: 12,
+    certifications: ["Language Proficiency Certification", "Licensed City Guide"],
+    specialties: ["Street Food", "Photography Spots", "Film Locations", "Wildlife"],
+    specialTraining: ["Mountain Survival", "Historical Research Methods"],
   },
   {
-    id: "guide-hong-kong-9",
-    name: "Emily Gonzalez",
+    id: "guide-hong-kong-3",
+    name: "Bobby Jansen",
+    city: "Hong Kong",
+    country: "China",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: false,
+    bio: "Bobby is a passionate tour guide with extensive knowledge of Hong Kong and China. Specializing in Wine Tasting, Family Activities, LGBTQ+ History, Bobby provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific"],
+    tourTypes: ["Museum Tour", "Nature Tour", "Wildlife Safari", "Religious Tour"],
+    maxGroupSize: 9,
+    licenseNumber: "LIC-1707-HON",
+    phoneNumber: "+1-341-638-3913",
+    contactEmail: "bobby.jansen@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Bobby is a passionate tour guide with extensive knowledge of Hong Kong and China. Specializing in Wine Tasting, Family Activities, LGBTQ+ History, Bobby provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.6,
+    reviewsCount: 93,
+    quote: "Every corner of Hong Kong tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/2.jpg",
+    languages: ["Czech", "Turkish"],
+    experienceYears: 7,
+    certifications: ["Licensed City Guide", "Urban Navigation Specialist"],
+    specialties: ["Wine Tasting", "Family Activities", "LGBTQ+ History"],
+    specialTraining: ["Regional Cuisine"],
+  },
+  {
+    id: "guide-hong-kong-4",
+    name: "Gerald da Costa",
+    city: "Hong Kong",
+    country: "China",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: false,
+    bio: "Gerald is a passionate tour guide with extensive knowledge of Hong Kong and China. Specializing in Local Markets, Indigenous Culture, Street Food, Gerald provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["West Coast USA", "Mediterranean"],
+    tourTypes: ["Street Art Tour", "Photography Tour", "Private Tour", "Group Tour"],
+    maxGroupSize: 7,
+    licenseNumber: "LIC-4429-HON",
+    phoneNumber: "+1-748-243-2371",
+    contactEmail: "gerald.da@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "03:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "03:00 PM",
+          },
+          {
+            from: "11:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "10:00 AM",
+          },
+          {
+            from: "02:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Gerald is a passionate tour guide with extensive knowledge of Hong Kong and China. Specializing in Local Markets, Indigenous Culture, Street Food, Gerald provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.9,
+    reviewsCount: 45,
+    quote: "The best way to discover Hong Kong is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/51.jpg",
+    languages: ["Norwegian"],
+    experienceYears: 2,
+    certifications: ["Professional Tour Guide Association"],
+    specialties: ["Local Markets", "Indigenous Culture", "Street Food"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-hong-kong-5",
+    name: "Susan Russell",
     city: "Hong Kong",
     country: "China",
     state: "",
     region: "Asia Pacific",
     isPopular: true,
-    bio: "Emily is a passionate tour guide with extensive knowledge of Hong Kong and China. Specializing in Hidden Gems, Nightlife, Indigenous Culture, Historical Landmarks, Emily provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Middle East"],
-    tourTypes: ["Scenic Tour", "Boat Tour", "Underground Tour"],
-    maxGroupSize: 14,
-    licenseNumber: "LIC-5530-HON",
-    phoneNumber: "+1-684-614-4253",
-    contactEmail: "emily.gonzalez@paragontrails.com",
+    bio: "Susan is a passionate tour guide with extensive knowledge of Hong Kong and China. Specializing in Architecture, Susan provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada"],
+    tourTypes: ["Accessible Tour", "Photography Tour", "Shopping Tour", "Scenic Tour"],
+    maxGroupSize: 5,
+    licenseNumber: "LIC-2751-HON",
+    phoneNumber: "+1-674-744-1843",
+    contactEmail: "susan.russell@paragontrails.com",
     available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "16:00",
-          },
-        ],
-      },
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "11:00",
-            to: "14:00",
+            from: "09:00 AM",
+            to: "03:00 PM",
           },
+          {
+            from: "01:00 PM",
+            to: "07:00 PM",
+          }
         ],
       },
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "11:00",
-            to: "13:00",
+            from: "09:00 AM",
+            to: "12:00 PM",
           },
+          {
+            from: "09:00 AM",
+            to: "02:00 PM",
+          }
         ],
-      },
+      }
     ],
     isCertified: true,
-    description:
-      "Emily is a passionate tour guide with extensive knowledge of Hong Kong and China. Specializing in Hidden Gems, Nightlife, Indigenous Culture, Historical Landmarks, Emily provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.6,
-    reviewsCount: 71,
+    description: "Susan is a passionate tour guide with extensive knowledge of Hong Kong and China. Specializing in Architecture, Susan provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.6,
+    reviewsCount: 5,
     quote: "In Hong Kong, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/47.jpg",
-    languages: ["German"],
-    experienceYears: 5,
-    certifications: [
-      "Eco-Tourism Guide",
-      "Professional Tour Guide Association",
-      "Adventure Tourism Safety Certificate",
-    ],
-    specialties: [
-      "Hidden Gems",
-      "Nightlife",
-      "Indigenous Culture",
-      "Historical Landmarks",
-    ],
-    specialTraining: ["Group Management", "Marine Biology"],
+    profileImage: "https://randomuser.me/api/portraits/women/53.jpg",
+    languages: ["Arabic"],
+    experienceYears: 2,
+    certifications: ["Language Proficiency Certification", "Eco-Tourism Guide"],
+    specialties: ["Architecture"],
+    specialTraining: ["Urban Planning"],
   },
+  {
+    id: "guide-hong-kong-6",
+    name: "Gabriella Murray",
+    city: "Hong Kong",
+    country: "China",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: false,
+    bio: "Gabriella is a passionate tour guide with extensive knowledge of Hong Kong and China. Specializing in Sustainable Tourism, Cultural Etiquette, Local Cuisine, Gabriella provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa"],
+    tourTypes: ["Museum Tour", "Wildlife Safari"],
+    maxGroupSize: 7,
+    licenseNumber: "LIC-8574-HON",
+    phoneNumber: "+1-419-372-8531",
+    contactEmail: "gabriella.murray@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "03:00 PM",
+          },
+          {
+            from: "02:00 PM",
+            to: "08:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Gabriella is a passionate tour guide with extensive knowledge of Hong Kong and China. Specializing in Sustainable Tourism, Cultural Etiquette, Local Cuisine, Gabriella provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.2,
+    reviewsCount: 100,
+    quote: "Every corner of Hong Kong tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/71.jpg",
+    languages: ["Japanese"],
+    experienceYears: 3,
+    certifications: ["Urban Navigation Specialist", "Eco-Tourism Guide"],
+    specialties: ["Sustainable Tourism", "Cultural Etiquette", "Local Cuisine"],
+    specialTraining: ["Wine Education", "Art History"],
+  },
+  {
+    id: "guide-hong-kong-7",
+    name: "Catherine Holloway",
+    city: "Hong Kong",
+    country: "China",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: false,
+    bio: "Catherine is a passionate tour guide with extensive knowledge of Hong Kong and China. Specializing in Music Scene, Catherine provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast USA"],
+    tourTypes: ["Ghost Tour", "LGBTQ+ Friendly Tour"],
+    maxGroupSize: 17,
+    licenseNumber: "LIC-7960-HON",
+    phoneNumber: "+1-800-985-6340",
+    contactEmail: "catherine.holloway@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "03:00 PM",
+          },
+          {
+            from: "02:00 PM",
+            to: "08:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "10:00 AM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "04:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Catherine is a passionate tour guide with extensive knowledge of Hong Kong and China. Specializing in Music Scene, Catherine provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.7,
+    reviewsCount: 8,
+    quote: "In Hong Kong, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/50.jpg",
+    languages: ["Serbian", "Turkish"],
+    experienceYears: 16,
+    certifications: ["Adventure Tourism Safety Certificate"],
+    specialties: ["Music Scene"],
+    specialTraining: ["Local Flora & Fauna", "Conflict Resolution"],
+  },
+  {
+    id: "guide-hong-kong-8",
+    name: "Ahmed Kowalski",
+    city: "Hong Kong",
+    country: "China",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: false,
+    bio: "Ahmed is a passionate tour guide with extensive knowledge of Hong Kong and China. Specializing in Adventure Sports, Ahmed provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific"],
+    tourTypes: ["Ghost Tour", "Photography Tour", "Food Tour", "Walking Tour", "Self-Guided Tour"],
+    maxGroupSize: 13,
+    licenseNumber: "LIC-8391-HON",
+    phoneNumber: "+1-183-123-9648",
+    contactEmail: "ahmed.kowalski@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "11:00 AM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "03:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "08:00 PM",
+          },
+          {
+            from: "02:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "02:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "04:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Ahmed is a passionate tour guide with extensive knowledge of Hong Kong and China. Specializing in Adventure Sports, Ahmed provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.7,
+    reviewsCount: 20,
+    quote: "The best way to discover Hong Kong is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/71.jpg",
+    languages: ["Norwegian", "Greek", "Serbian"],
+    experienceYears: 7,
+    certifications: ["Food Safety Certification", "Urban Navigation Specialist"],
+    specialties: ["Adventure Sports"],
+    specialTraining: [],
+  }
 ];

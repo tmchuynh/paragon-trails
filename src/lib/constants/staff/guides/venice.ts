@@ -3,346 +3,456 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const veniceitalymediterraneanGuides: TourGuide[] = [
   {
     id: "guide-venice-1",
-    name: "Emily Flores",
+    name: "Charlotte Sutton",
     city: "Venice",
     country: "Italy",
     state: "",
     region: "Mediterranean",
     isPopular: false,
-    bio: "Emily is a passionate tour guide with extensive knowledge of Venice and Italy. Specializing in Nightlife, Photography Spots, Indigenous Culture, Emily provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean"],
-    tourTypes: ["Architecture Tour", "Romantic Tour"],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-3832-VEN",
-    phoneNumber: "+1-140-681-6708",
-    contactEmail: "emily.flores@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Emily is a passionate tour guide with extensive knowledge of Venice and Italy. Specializing in Nightlife, Photography Spots, Indigenous Culture, Emily provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.9,
-    reviewsCount: 56,
-    quote: "Every corner of Venice tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/14.jpg",
-    languages: ["Bulgarian", "Hebrew"],
-    experienceYears: 14,
-    certifications: ["Regional Tourism Ambassador"],
-    specialties: ["Nightlife", "Photography Spots", "Indigenous Culture"],
-    specialTraining: ["Photography"],
-  },
-  {
-    id: "guide-venice-2",
-    name: "Lucas Miller",
-    city: "Venice",
-    country: "Italy",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Lucas is a passionate tour guide with extensive knowledge of Venice and Italy. Specializing in Sustainable Tourism, Religious Sites, Indigenous Culture, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Asia Pacific"],
-    tourTypes: ["Cultural Tour", "Eco Tour", "Wine Tour"],
-    maxGroupSize: 10,
-    licenseNumber: "LIC-9809-VEN",
-    phoneNumber: "+1-354-798-3397",
-    contactEmail: "lucas.miller@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Lucas is a passionate tour guide with extensive knowledge of Venice and Italy. Specializing in Sustainable Tourism, Religious Sites, Indigenous Culture, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 23,
-    quote: "My goal is to help you fall in love with Venice just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/16.jpg",
-    languages: ["Malay", "German", "Portuguese"],
-    experienceYears: 12,
-    certifications: [
-      "Certified International Tour Manager",
-      "Heritage Interpretation Certificate",
-    ],
-    specialties: [
-      "Sustainable Tourism",
-      "Religious Sites",
-      "Indigenous Culture",
-    ],
-    specialTraining: ["Photography"],
-  },
-  {
-    id: "guide-venice-3",
-    name: "Henry Wilson",
-    city: "Venice",
-    country: "Italy",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Henry is a passionate tour guide with extensive knowledge of Venice and Italy. Specializing in Parks & Gardens, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean"],
-    tourTypes: ["Scenic Tour", "Group Tour"],
-    maxGroupSize: 15,
-    licenseNumber: "LIC-4579-VEN",
-    phoneNumber: "+1-954-729-3858",
-    contactEmail: "henry.wilson@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Henry is a passionate tour guide with extensive knowledge of Venice and Italy. Specializing in Parks & Gardens, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 47,
-    quote:
-      "The best way to discover Venice is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/73.jpg",
-    languages: ["Arabic", "Swedish"],
-    experienceYears: 4,
-    certifications: [
-      "Eco-Tourism Guide",
-      "Adventure Tourism Safety Certificate",
-    ],
-    specialties: ["Parks & Gardens"],
-    specialTraining: ["Marine Biology", "Local Transit Systems"],
-  },
-  {
-    id: "guide-venice-4",
-    name: "Emma Roberts",
-    city: "Venice",
-    country: "Italy",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Emma is a passionate tour guide with extensive knowledge of Venice and Italy. Specializing in LGBTQ+ History, Museums, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Northern Europe", "Asia Pacific"],
-    tourTypes: ["Wine Tour", "Brewery Tour", "Food Tour"],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-3622-VEN",
-    phoneNumber: "+1-423-550-1308",
-    contactEmail: "emma.roberts@paragontrails.com",
+    bio: "Charlotte is a passionate tour guide with extensive knowledge of Venice and Italy. Specializing in Wine Tasting, Nightlife, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["West Coast USA"],
+    tourTypes: ["Off-Road Tour", "Audio Tour"],
+    maxGroupSize: 14,
+    licenseNumber: "LIC-9634-VEN",
+    phoneNumber: "+1-139-232-1156",
+    contactEmail: "charlotte.sutton@paragontrails.com",
     available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "11:00",
-          },
-          {
-            from: "13:00",
-            to: "16:00",
-          },
-        ],
-      },
       {
         day: "Sunday",
         availableHours: [
           {
-            from: "11:00",
-            to: "16:00",
-          },
-          {
-            from: "10:00",
-            to: "16:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "16:00",
-          },
-          {
-            from: "12:00",
-            to: "14:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "15:00",
-          },
-          {
-            from: "10:00",
-            to: "13:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Emma is a passionate tour guide with extensive knowledge of Venice and Italy. Specializing in LGBTQ+ History, Museums, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.9,
-    reviewsCount: 61,
-    quote:
-      "Venice isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/52.jpg",
-    languages: ["Bulgarian"],
-    experienceYears: 13,
-    certifications: ["Food Safety Certification"],
-    specialties: ["LGBTQ+ History", "Museums"],
-    specialTraining: ["Public Speaking"],
-  },
-  {
-    id: "guide-venice-5",
-    name: "Jacob Lewis",
-    city: "Venice",
-    country: "Italy",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Jacob is a passionate tour guide with extensive knowledge of Venice and Italy. Specializing in Public Transportation Navigation, Local Markets, Religious Sites, Urban Legends, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean"],
-    tourTypes: ["Street Art Tour", "Helicopter Tour"],
-    maxGroupSize: 5,
-    licenseNumber: "LIC-5048-VEN",
-    phoneNumber: "+1-638-457-2697",
-    contactEmail: "jacob.lewis@paragontrails.com",
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "12:00",
-          },
-          {
-            from: "08:00",
-            to: "10:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "11:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "10:00",
-          },
-          {
-            from: "12:00",
-            to: "18:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "13:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "16:00",
-          },
-          {
-            from: "10:00",
-            to: "12:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Jacob is a passionate tour guide with extensive knowledge of Venice and Italy. Specializing in Public Transportation Navigation, Local Markets, Religious Sites, Urban Legends, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.2,
-    reviewsCount: 74,
-    quote:
-      "The best way to discover Venice is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/32.jpg",
-    languages: ["Japanese"],
-    experienceYears: 16,
-    certifications: ["Eco-Tourism Guide"],
-    specialties: [
-      "Public Transportation Navigation",
-      "Local Markets",
-      "Religious Sites",
-      "Urban Legends",
-    ],
-    specialTraining: ["Wine Education"],
-  },
-  {
-    id: "guide-venice-6",
-    name: "James Nguyen",
-    city: "Venice",
-    country: "Italy",
-    state: "",
-    region: "Mediterranean",
-    isPopular: true,
-    bio: "James is a passionate tour guide with extensive knowledge of Venice and Italy. Specializing in Adventure Sports, Hidden Gems, Architecture, James provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Asia Pacific", "East Coast USA"],
-    tourTypes: ["Family-Friendly Tour", "Helicopter Tour"],
-    maxGroupSize: 15,
-    licenseNumber: "LIC-2928-VEN",
-    phoneNumber: "+1-749-213-1032",
-    contactEmail: "james.nguyen@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "16:00",
-          },
-          {
-            from: "09:00",
-            to: "13:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "13:00",
-          },
+            from: "02:00 PM",
+            to: "05:00 PM",
+          }
         ],
       },
       {
         day: "Wednesday",
         availableHours: [
           {
-            from: "15:00",
-            to: "21:00",
+            from: "08:00 AM",
+            to: "10:00 AM",
           },
           {
-            from: "15:00",
-            to: "20:00",
-          },
+            from: "11:00 AM",
+            to: "01:00 PM",
+          }
         ],
       },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      }
     ],
     isCertified: true,
-    description:
-      "James is a passionate tour guide with extensive knowledge of Venice and Italy. Specializing in Adventure Sports, Hidden Gems, Architecture, James provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.8,
-    reviewsCount: 19,
-    quote:
-      "Venice isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/men/9.jpg",
-    languages: ["Turkish"],
-    experienceYears: 6,
-    certifications: [
-      "Language Proficiency Certification",
-      "Eco-Tourism Guide",
-      "Heritage Interpretation Certificate",
-    ],
-    specialties: ["Adventure Sports", "Hidden Gems", "Architecture"],
-    specialTraining: ["Mountain Survival"],
+    description: "Charlotte is a passionate tour guide with extensive knowledge of Venice and Italy. Specializing in Wine Tasting, Nightlife, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.9,
+    reviewsCount: 79,
+    quote: "In Venice, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/56.jpg",
+    languages: ["Tagalog", "Swahili", "German"],
+    experienceYears: 7,
+    certifications: ["Eco-Tourism Guide"],
+    specialties: ["Wine Tasting", "Nightlife"],
+    specialTraining: ["Regional Geology"],
   },
+  {
+    id: "guide-venice-2",
+    name: "Aria Sutton",
+    city: "Venice",
+    country: "Italy",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Aria is a passionate tour guide with extensive knowledge of Venice and Italy. Specializing in Adventure Sports, Cultural Etiquette, Architecture, Photography Spots, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific", "Mediterranean"],
+    tourTypes: ["Museum Tour", "Adventure Tour", "Romantic Tour", "Cruise Excursion", "Cultural Tour"],
+    maxGroupSize: 17,
+    licenseNumber: "LIC-7208-VEN",
+    phoneNumber: "+1-297-413-2241",
+    contactEmail: "aria.sutton@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Aria is a passionate tour guide with extensive knowledge of Venice and Italy. Specializing in Adventure Sports, Cultural Etiquette, Architecture, Photography Spots, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.4,
+    reviewsCount: 32,
+    quote: "Every corner of Venice tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/40.jpg",
+    languages: ["Finnish", "Indonesian", "Portuguese"],
+    experienceYears: 14,
+    certifications: ["Food Safety Certification", "Adventure Tourism Safety Certificate"],
+    specialties: ["Adventure Sports", "Cultural Etiquette", "Architecture", "Photography Spots"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-venice-3",
+    name: "Amina Patel",
+    city: "Venice",
+    country: "Italy",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Amina is a passionate tour guide with extensive knowledge of Venice and Italy. Specializing in Historical Landmarks, Wildlife, Amina provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America", "Caribbean"],
+    tourTypes: ["Architecture Tour", "Luxury Tour", "Craft Workshop", "Accessible Tour", "Group Tour"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-3681-VEN",
+    phoneNumber: "+1-734-950-9054",
+    contactEmail: "amina.patel@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "10:00 AM",
+          },
+          {
+            from: "03:00 PM",
+            to: "09:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Amina is a passionate tour guide with extensive knowledge of Venice and Italy. Specializing in Historical Landmarks, Wildlife, Amina provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.9,
+    reviewsCount: 55,
+    quote: "In Venice, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/33.jpg",
+    languages: ["Danish", "Hindi", "Portuguese"],
+    experienceYears: 13,
+    certifications: ["Regional Tourism Ambassador"],
+    specialties: ["Historical Landmarks", "Wildlife"],
+    specialTraining: ["Wine Education", "Conflict Resolution"],
+  },
+  {
+    id: "guide-venice-4",
+    name: "Emma King",
+    city: "Venice",
+    country: "Italy",
+    state: "",
+    region: "Mediterranean",
+    isPopular: true,
+    bio: "Emma is a passionate tour guide with extensive knowledge of Venice and Italy. Specializing in Adventure Sports, Urban Legends, Local Craftsmanship, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa", "Mediterranean"],
+    tourTypes: ["Off-Road Tour", "Cultural Tour", "Boat Tour"],
+    maxGroupSize: 12,
+    licenseNumber: "LIC-5524-VEN",
+    phoneNumber: "+1-846-496-5712",
+    contactEmail: "emma.king@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "04:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "08:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Emma is a passionate tour guide with extensive knowledge of Venice and Italy. Specializing in Adventure Sports, Urban Legends, Local Craftsmanship, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 42,
+    quote: "In Venice, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/42.jpg",
+    languages: ["Vietnamese", "Thai"],
+    experienceYears: 3,
+    certifications: ["Heritage Interpretation Certificate", "Urban Navigation Specialist", "Local History Certification"],
+    specialties: ["Adventure Sports", "Urban Legends", "Local Craftsmanship"],
+    specialTraining: ["Desert Navigation"],
+  },
+  {
+    id: "guide-venice-5",
+    name: "Harper Hudson",
+    city: "Venice",
+    country: "Italy",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Harper is a passionate tour guide with extensive knowledge of Venice and Italy. Specializing in Nightlife, Family Activities, Adventure Sports, Photography Spots, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Alaska"],
+    tourTypes: ["Adventure Tour", "Underground Tour"],
+    maxGroupSize: 13,
+    licenseNumber: "LIC-2058-VEN",
+    phoneNumber: "+1-355-167-5120",
+    contactEmail: "harper.hudson@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "04:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Harper is a passionate tour guide with extensive knowledge of Venice and Italy. Specializing in Nightlife, Family Activities, Adventure Sports, Photography Spots, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4,
+    reviewsCount: 56,
+    quote: "In Venice, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/5.jpg",
+    languages: ["Greek", "Tagalog", "Danish"],
+    experienceYears: 12,
+    certifications: ["Regional Tourism Ambassador", "Urban Navigation Specialist", "Certified International Tour Manager"],
+    specialties: ["Nightlife", "Family Activities", "Adventure Sports", "Photography Spots"],
+    specialTraining: ["Emergency Response"],
+  },
+  {
+    id: "guide-venice-6",
+    name: "Elena Lee",
+    city: "Venice",
+    country: "Italy",
+    state: "",
+    region: "Mediterranean",
+    isPopular: true,
+    bio: "Elena is a passionate tour guide with extensive knowledge of Venice and Italy. Specializing in Photography Spots, Elena provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Northern Europe", "Asia Pacific"],
+    tourTypes: ["Relocation Tour", "Group Tour", "LGBTQ+ Friendly Tour", "Museum Tour"],
+    maxGroupSize: 8,
+    licenseNumber: "LIC-2466-VEN",
+    phoneNumber: "+1-264-580-5316",
+    contactEmail: "elena.lee@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "07:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "08:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "12:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "08:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Elena is a passionate tour guide with extensive knowledge of Venice and Italy. Specializing in Photography Spots, Elena provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 11,
+    quote: "The best way to discover Venice is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/14.jpg",
+    languages: ["Mandarin", "Turkish"],
+    experienceYears: 9,
+    certifications: ["Urban Navigation Specialist", "Food Safety Certification", "Heritage Interpretation Certificate"],
+    specialties: ["Photography Spots"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-venice-7",
+    name: "Justin Müller",
+    city: "Venice",
+    country: "Italy",
+    state: "",
+    region: "Mediterranean",
+    isPopular: true,
+    bio: "Justin is a passionate tour guide with extensive knowledge of Venice and Italy. Specializing in Photography Spots, Music Scene, Justin provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Mediterranean"],
+    tourTypes: ["Luxury Tour", "Eco Tour", "Photography Tour", "Museum Tour", "Cruise Excursion"],
+    maxGroupSize: 11,
+    licenseNumber: "LIC-1293-VEN",
+    phoneNumber: "+1-452-118-3155",
+    contactEmail: "justin.müller@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "06:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "06:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Justin is a passionate tour guide with extensive knowledge of Venice and Italy. Specializing in Photography Spots, Music Scene, Justin provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.7,
+    reviewsCount: 66,
+    quote: "Every corner of Venice tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/61.jpg",
+    languages: ["Italian", "Hebrew", "German"],
+    experienceYears: 6,
+    certifications: ["Heritage Interpretation Certificate", "Wilderness First Responder"],
+    specialties: ["Photography Spots", "Music Scene"],
+    specialTraining: [],
+  }
 ];

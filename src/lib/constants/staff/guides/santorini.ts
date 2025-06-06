@@ -3,497 +3,383 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const santorinigreecemediterraneanGuides: TourGuide[] = [
   {
     id: "guide-santorini-1",
-    name: "Ella Miller",
+    name: "Thabo Martinez",
     city: "Santorini",
     country: "Greece",
     state: "",
     region: "Mediterranean",
     isPopular: false,
-    bio: "Ella is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Parks & Gardens, Music Scene, LGBTQ+ History, Art Galleries, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Africa", "West Coast USA"],
-    tourTypes: ["Underground Tour", "Nature Tour"],
-    maxGroupSize: 17,
-    licenseNumber: "LIC-3191-SAN",
-    phoneNumber: "+1-143-827-7107",
-    contactEmail: "ella.miller@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Ella is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Parks & Gardens, Music Scene, LGBTQ+ History, Art Galleries, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.5,
-    reviewsCount: 20,
-    quote: "In Santorini, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/37.jpg",
-    languages: ["Danish"],
-    experienceYears: 7,
-    certifications: [
-      "Certified International Tour Manager",
-      "Cultural Heritage Specialist",
-    ],
-    specialties: [
-      "Parks & Gardens",
-      "Music Scene",
-      "LGBTQ+ History",
-      "Art Galleries",
-    ],
-    specialTraining: ["Local Transit Systems", "Photography"],
-  },
-  {
-    id: "guide-santorini-2",
-    name: "Evelyn Rodriguez",
-    city: "Santorini",
-    country: "Greece",
-    state: "",
-    region: "Mediterranean",
-    isPopular: true,
-    bio: "Evelyn is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Family Activities, LGBTQ+ History, Sustainable Tourism, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Alaska"],
-    tourTypes: ["LGBTQ+ Friendly Tour", "Family-Friendly Tour"],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-2236-SAN",
-    phoneNumber: "+1-242-767-4131",
-    contactEmail: "evelyn.rodriguez@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Evelyn is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Family Activities, LGBTQ+ History, Sustainable Tourism, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.7,
-    reviewsCount: 97,
-    quote:
-      "Santorini isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/20.jpg",
-    languages: ["Danish", "Russian", "Norwegian"],
-    experienceYears: 11,
-    certifications: [
-      "Heritage Interpretation Certificate",
-      "Eco-Tourism Guide",
-      "Food Safety Certification",
-    ],
-    specialties: ["Family Activities", "LGBTQ+ History", "Sustainable Tourism"],
-    specialTraining: ["Regional Geology", "Religious Studies"],
-  },
-  {
-    id: "guide-santorini-3",
-    name: "Charlotte Sanchez",
-    city: "Santorini",
-    country: "Greece",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Charlotte is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Wine Tasting, LGBTQ+ History, Cultural Etiquette, Photography Spots, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Middle East", "Caribbean"],
-    tourTypes: ["Eco Tour", "Audio Tour"],
-    maxGroupSize: 9,
-    licenseNumber: "LIC-1060-SAN",
-    phoneNumber: "+1-683-560-2563",
-    contactEmail: "charlotte.sanchez@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Charlotte is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Wine Tasting, LGBTQ+ History, Cultural Etiquette, Photography Spots, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4,
-    reviewsCount: 44,
-    quote:
-      "Santorini isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/56.jpg",
-    languages: ["Spanish", "Malay"],
-    experienceYears: 11,
-    certifications: [
-      "Language Proficiency Certification",
-      "Regional Tourism Ambassador",
-    ],
-    specialties: [
-      "Wine Tasting",
-      "LGBTQ+ History",
-      "Cultural Etiquette",
-      "Photography Spots",
-    ],
-    specialTraining: [],
-  },
-  {
-    id: "guide-santorini-4",
-    name: "Elijah Flores",
-    city: "Santorini",
-    country: "Greece",
-    state: "",
-    region: "Mediterranean",
-    isPopular: true,
-    bio: "Elijah is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Architecture, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
+    bio: "Thabo is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Adventure Sports, Urban Legends, Thabo provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast Canada"],
-    tourTypes: [
-      "Relocation Tour",
-      "Luxury Tour",
-      "Private Tour",
-      "Farm Visit",
-      "Bike Tour",
-    ],
-    maxGroupSize: 19,
-    licenseNumber: "LIC-8061-SAN",
-    phoneNumber: "+1-571-495-1083",
-    contactEmail: "elijah.flores@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Elijah is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Architecture, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.6,
-    reviewsCount: 86,
-    quote:
-      "Every corner of Santorini tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/22.jpg",
-    languages: ["Swedish", "Vietnamese"],
-    experienceYears: 16,
-    certifications: [
-      "Wilderness First Responder",
-      "Language Proficiency Certification",
-    ],
-    specialties: ["Architecture"],
-    specialTraining: ["Regional Geology", "Public Speaking"],
-  },
-  {
-    id: "guide-santorini-5",
-    name: "Grace Carter",
-    city: "Santorini",
-    country: "Greece",
-    state: "",
-    region: "Mediterranean",
-    isPopular: true,
-    bio: "Grace is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Public Transportation Navigation, Architecture, Local Markets, Grace provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast USA"],
-    tourTypes: [
-      "Boat Tour",
-      "Wine Tour",
-      "Farm Visit",
-      "Cruise Excursion",
-      "Underground Tour",
-    ],
-    maxGroupSize: 8,
-    licenseNumber: "LIC-2552-SAN",
-    phoneNumber: "+1-770-504-4294",
-    contactEmail: "grace.carter@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Grace is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Public Transportation Navigation, Architecture, Local Markets, Grace provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.6,
-    reviewsCount: 37,
-    quote:
-      "Every corner of Santorini tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/29.jpg",
-    languages: ["Bulgarian", "Hebrew", "English"],
-    experienceYears: 16,
-    certifications: ["Urban Navigation Specialist"],
-    specialties: [
-      "Public Transportation Navigation",
-      "Architecture",
-      "Local Markets",
-    ],
-    specialTraining: ["Accessibility Services", "Photography"],
-  },
-  {
-    id: "guide-santorini-6",
-    name: "Ella Wright",
-    city: "Santorini",
-    country: "Greece",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Ella is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Local Markets, Music Scene, LGBTQ+ History, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Middle East", "Caribbean"],
-    tourTypes: ["Shopping Tour", "Cruise Excursion", "Craft Workshop"],
-    maxGroupSize: 8,
-    licenseNumber: "LIC-8547-SAN",
-    phoneNumber: "+1-194-937-5587",
-    contactEmail: "ella.wright@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Ella is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Local Markets, Music Scene, LGBTQ+ History, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.4,
-    reviewsCount: 55,
-    quote:
-      "The best way to discover Santorini is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/25.jpg",
-    languages: ["Czech", "Danish", "French"],
-    experienceYears: 4,
-    certifications: ["CPR & First Aid"],
-    specialties: ["Local Markets", "Music Scene", "LGBTQ+ History"],
-    specialTraining: ["Regional Geology", "Emergency Response"],
-  },
-  {
-    id: "guide-santorini-7",
-    name: "Abigail Sanchez",
-    city: "Santorini",
-    country: "Greece",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Abigail is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Adventure Sports, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean"],
-    tourTypes: ["Group Tour", "Luxury Tour", "LGBTQ+ Friendly Tour"],
-    maxGroupSize: 15,
-    licenseNumber: "LIC-9043-SAN",
-    phoneNumber: "+1-105-861-2330",
-    contactEmail: "abigail.sanchez@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Abigail is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Adventure Sports, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.7,
-    reviewsCount: 70,
-    quote: "My goal is to help you fall in love with Santorini just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/76.jpg",
-    languages: ["Bulgarian"],
-    experienceYears: 5,
-    certifications: [
-      "Professional Tour Guide Association",
-      "Sustainable Tourism Certificate",
-      "Local History Certification",
-    ],
-    specialties: ["Adventure Sports"],
-    specialTraining: ["Archaeological Conservation"],
-  },
-  {
-    id: "guide-santorini-8",
-    name: "Ella Wright",
-    city: "Santorini",
-    country: "Greece",
-    state: "",
-    region: "Mediterranean",
-    isPopular: true,
-    bio: "Ella is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Art Galleries, Music Scene, Street Food, Family Activities, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["South America"],
-    tourTypes: ["Wine Tour", "Boat Tour"],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-6644-SAN",
-    phoneNumber: "+1-133-264-4960",
-    contactEmail: "ella.wright@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Ella is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Art Galleries, Music Scene, Street Food, Family Activities, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.9,
-    reviewsCount: 48,
-    quote: "My goal is to help you fall in love with Santorini just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/61.jpg",
-    languages: ["Korean", "Thai"],
-    experienceYears: 3,
-    certifications: [
-      "Heritage Interpretation Certificate",
-      "Urban Navigation Specialist",
-    ],
-    specialties: [
-      "Art Galleries",
-      "Music Scene",
-      "Street Food",
-      "Family Activities",
-    ],
-    specialTraining: [],
-  },
-  {
-    id: "guide-santorini-9",
-    name: "Zoe Harris",
-    city: "Santorini",
-    country: "Greece",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Zoe is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Photography Spots, Architecture, Family Activities, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Alaska"],
-    tourTypes: [
-      "Eco Tour",
-      "Shopping Tour",
-      "Helicopter Tour",
-      "Festival Tour",
-    ],
-    maxGroupSize: 5,
-    licenseNumber: "LIC-7204-SAN",
-    phoneNumber: "+1-575-869-5596",
-    contactEmail: "zoe.harris@paragontrails.com",
+    tourTypes: ["Scenic Tour", "Cooking Class"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-6333-SAN",
+    phoneNumber: "+1-892-250-8318",
+    contactEmail: "thabo.martinez@paragontrails.com",
     available: [
       {
-        day: "Friday",
+        day: "Thursday",
         availableHours: [
           {
-            from: "15:00",
-            to: "19:00",
-          },
-          {
-            from: "13:00",
-            to: "16:00",
-          },
+            from: "03:00 PM",
+            to: "08:00 PM",
+          }
         ],
       },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "16:00",
-          },
-          {
-            from: "11:00",
-            to: "17:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "13:00",
-          },
-          {
-            from: "10:00",
-            to: "13:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Zoe is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Photography Spots, Architecture, Family Activities, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.7,
-    reviewsCount: 85,
-    quote:
-      "Santorini isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/23.jpg",
-    languages: ["Czech"],
-    experienceYears: 16,
-    certifications: [
-      "Certified International Tour Manager",
-      "Eco-Tourism Guide",
-      "Urban Navigation Specialist",
-    ],
-    specialties: ["Photography Spots", "Architecture", "Family Activities"],
-    specialTraining: ["Marine Biology", "Art History"],
-  },
-  {
-    id: "guide-santorini-10",
-    name: "Charlotte Smith",
-    city: "Santorini",
-    country: "Greece",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Charlotte is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Photography Spots, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Northern Europe"],
-    tourTypes: [
-      "Historical Tour",
-      "Boat Tour",
-      "Eco Tour",
-      "Museum Tour",
-      "Cooking Class",
-    ],
-    maxGroupSize: 13,
-    licenseNumber: "LIC-2138-SAN",
-    phoneNumber: "+1-394-589-2430",
-    contactEmail: "charlotte.smith@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "14:00",
-          },
-          {
-            from: "13:00",
-            to: "15:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Charlotte is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Photography Spots, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.8,
-    reviewsCount: 83,
-    quote: "My goal is to help you fall in love with Santorini just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/43.jpg",
-    languages: ["English", "Japanese", "Swahili"],
-    experienceYears: 5,
-    certifications: [
-      "Professional Tour Guide Association",
-      "Urban Navigation Specialist",
-      "Heritage Interpretation Certificate",
-    ],
-    specialties: ["Photography Spots"],
-    specialTraining: ["Conflict Resolution", "Religious Studies"],
-  },
-  {
-    id: "guide-santorini-11",
-    name: "Ella Martin",
-    city: "Santorini",
-    country: "Greece",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Ella is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Sustainable Tourism, Film Locations, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["South America"],
-    tourTypes: ["Wine Tour", "Group Tour", "Underground Tour"],
-    maxGroupSize: 19,
-    licenseNumber: "LIC-1374-SAN",
-    phoneNumber: "+1-455-760-9127",
-    contactEmail: "ella.martin@paragontrails.com",
-    available: [
       {
         day: "Sunday",
         availableHours: [
           {
-            from: "10:00",
-            to: "14:00",
+            from: "02:00 PM",
+            to: "07:00 PM",
           },
+          {
+            from: "03:00 PM",
+            to: "07:00 PM",
+          }
         ],
-      },
+      }
+    ],
+    isCertified: true,
+    description: "Thabo is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Adventure Sports, Urban Legends, Thabo provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.8,
+    reviewsCount: 5,
+    quote: "In Santorini, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/5.jpg",
+    languages: ["Hebrew", "Czech", "Indonesian"],
+    experienceYears: 9,
+    certifications: ["Food Safety Certification", "Professional Tour Guide Association", "Wilderness First Responder"],
+    specialties: ["Adventure Sports", "Urban Legends"],
+    specialTraining: ["Cultural Sensitivity", "Regional Cuisine"],
+  },
+  {
+    id: "guide-santorini-2",
+    name: "Steven Wood",
+    city: "Santorini",
+    country: "Greece",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Steven is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in LGBTQ+ History, Art Galleries, Steven provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean", "Northern Europe"],
+    tourTypes: ["Scenic Tour", "Architecture Tour", "Festival Tour", "Cultural Tour", "Adventure Tour"],
+    maxGroupSize: 7,
+    licenseNumber: "LIC-2484-SAN",
+    phoneNumber: "+1-549-183-5166",
+    contactEmail: "steven.wood@paragontrails.com",
+    available: [
       {
         day: "Friday",
         availableHours: [
           {
-            from: "14:00",
-            to: "19:00",
+            from: "01:00 PM",
+            to: "04:00 PM",
           },
+          {
+            from: "03:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "05:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Steven is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in LGBTQ+ History, Art Galleries, Steven provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 8,
+    quote: "The best way to discover Santorini is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/85.jpg",
+    languages: ["German"],
+    experienceYears: 11,
+    certifications: ["Cultural Heritage Specialist", "CPR & First Aid"],
+    specialties: ["LGBTQ+ History", "Art Galleries"],
+    specialTraining: ["Religious Studies"],
+  },
+  {
+    id: "guide-santorini-3",
+    name: "Zachary Payne",
+    city: "Santorini",
+    country: "Greece",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Zachary is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Local Craftsmanship, Parks & Gardens, Historical Landmarks, Local Markets, Zachary provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean"],
+    tourTypes: ["Romantic Tour", "Shopping Tour", "Market Tour", "Accessible Tour", "Luxury Tour"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-5068-SAN",
+    phoneNumber: "+1-974-588-1873",
+    contactEmail: "zachary.payne@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "03:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "09:00 PM",
+          }
         ],
       },
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "12:00",
-            to: "15:00",
+            from: "11:00 AM",
+            to: "02:00 PM",
           },
           {
-            from: "13:00",
-            to: "16:00",
-          },
+            from: "11:00 AM",
+            to: "01:00 PM",
+          }
         ],
       },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      }
     ],
     isCertified: true,
-    description:
-      "Ella is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Sustainable Tourism, Film Locations, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.2,
-    reviewsCount: 54,
-    quote:
-      "The best way to discover Santorini is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/59.jpg",
-    languages: ["Serbian"],
-    experienceYears: 10,
-    certifications: [
-      "CPR & First Aid",
-      "Adventure Tourism Safety Certificate",
-      "Food Safety Certification",
-    ],
-    specialties: ["Sustainable Tourism", "Film Locations"],
-    specialTraining: [],
+    description: "Zachary is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Local Craftsmanship, Parks & Gardens, Historical Landmarks, Local Markets, Zachary provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.8,
+    reviewsCount: 75,
+    quote: "In Santorini, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/78.jpg",
+    languages: ["Hebrew", "Norwegian"],
+    experienceYears: 4,
+    certifications: ["Licensed City Guide", "Sustainable Tourism Certificate"],
+    specialties: ["Local Craftsmanship", "Parks & Gardens", "Historical Landmarks", "Local Markets"],
+    specialTraining: ["Emergency Response"],
   },
+  {
+    id: "guide-santorini-4",
+    name: "Henry Martinez",
+    city: "Santorini",
+    country: "Greece",
+    state: "",
+    region: "Mediterranean",
+    isPopular: true,
+    bio: "Henry is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Hidden Gems, Wine Tasting, Family Activities, Cultural Etiquette, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa", "Asia Pacific"],
+    tourTypes: ["Eco Tour", "Cooking Class"],
+    maxGroupSize: 19,
+    licenseNumber: "LIC-5829-SAN",
+    phoneNumber: "+1-121-396-6006",
+    contactEmail: "henry.martinez@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "02:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Henry is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Hidden Gems, Wine Tasting, Family Activities, Cultural Etiquette, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 57,
+    quote: "Every corner of Santorini tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/25.jpg",
+    languages: ["Vietnamese", "Romanian", "Hebrew"],
+    experienceYears: 4,
+    certifications: ["Food Safety Certification"],
+    specialties: ["Hidden Gems", "Wine Tasting", "Family Activities", "Cultural Etiquette"],
+    specialTraining: ["Wine Education", "Group Management"],
+  },
+  {
+    id: "guide-santorini-5",
+    name: "Aaron Hudson",
+    city: "Santorini",
+    country: "Greece",
+    state: "",
+    region: "Mediterranean",
+    isPopular: true,
+    bio: "Aaron is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Local Cuisine, Aaron provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast USA"],
+    tourTypes: ["Cruise Excursion", "Walking Tour", "Street Art Tour", "Bike Tour"],
+    maxGroupSize: 10,
+    licenseNumber: "LIC-5994-SAN",
+    phoneNumber: "+1-665-518-9328",
+    contactEmail: "aaron.hudson@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "10:00 AM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "10:00 AM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "03:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Aaron is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Local Cuisine, Aaron provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 93,
+    quote: "The best way to discover Santorini is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/73.jpg",
+    languages: ["Romanian"],
+    experienceYears: 12,
+    certifications: ["Certified International Tour Manager", "Regional Tourism Ambassador", "Urban Navigation Specialist"],
+    specialties: ["Local Cuisine"],
+    specialTraining: ["Emergency Response"],
+  },
+  {
+    id: "guide-santorini-6",
+    name: "Zoe Marshall",
+    city: "Santorini",
+    country: "Greece",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Zoe is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Photography Spots, Art Galleries, Local Craftsmanship, Hidden Gems, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean", "East Coast USA"],
+    tourTypes: ["Street Art Tour", "Family-Friendly Tour"],
+    maxGroupSize: 6,
+    licenseNumber: "LIC-5457-SAN",
+    phoneNumber: "+1-620-973-5191",
+    contactEmail: "zoe.marshall@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "12:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "03:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Zoe is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Photography Spots, Art Galleries, Local Craftsmanship, Hidden Gems, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.9,
+    reviewsCount: 28,
+    quote: "In Santorini, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/6.jpg",
+    languages: ["Indonesian", "Korean", "Tagalog"],
+    experienceYears: 5,
+    certifications: ["Professional Tour Guide Association"],
+    specialties: ["Photography Spots", "Art Galleries", "Local Craftsmanship", "Hidden Gems"],
+    specialTraining: ["Wine Education", "Public Speaking"],
+  }
 ];

@@ -3,448 +3,528 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const rioDeJaneirobrazilsouthAmericaGuides: TourGuide[] = [
   {
     id: "guide-rio-de-janeiro-1",
-    name: "Joseph White",
+    name: "Jonathan Suzuki",
     city: "Rio De Janeiro",
     country: "Brazil",
     state: "",
     region: "South America",
-    isPopular: false,
-    bio: "Joseph is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Nightlife, Art Galleries, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Middle East"],
-    tourTypes: [
-      "Underground Tour",
-      "Historical Tour",
-      "Romantic Tour",
-      "Boat Tour",
-    ],
+    isPopular: true,
+    bio: "Jonathan is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Art Galleries, Public Transportation Navigation, Local Cuisine, Jonathan provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific", "South America"],
+    tourTypes: ["Craft Workshop", "Food Tour", "Romantic Tour"],
     maxGroupSize: 14,
-    licenseNumber: "LIC-1105-RIO",
-    phoneNumber: "+1-196-114-5747",
-    contactEmail: "joseph.white@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Joseph is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Nightlife, Art Galleries, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.7,
-    reviewsCount: 85,
-    quote:
-      "My goal is to help you fall in love with Rio De Janeiro just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/50.jpg",
-    languages: ["Tagalog", "Hebrew", "Italian"],
-    experienceYears: 8,
-    certifications: ["CPR & First Aid"],
-    specialties: ["Nightlife", "Art Galleries"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-rio-de-janeiro-2",
-    name: "Owen Perez",
-    city: "Rio De Janeiro",
-    country: "Brazil",
-    state: "",
-    region: "South America",
-    isPopular: false,
-    bio: "Owen is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Local Markets, Owen provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean"],
-    tourTypes: ["Cruise Excursion", "Market Tour"],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-6526-RIO",
-    phoneNumber: "+1-321-298-3014",
-    contactEmail: "owen.perez@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Owen is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Local Markets, Owen provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.1,
-    reviewsCount: 92,
-    quote:
-      "My goal is to help you fall in love with Rio De Janeiro just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/25.jpg",
-    languages: ["Czech"],
-    experienceYears: 11,
-    certifications: [
-      "Heritage Interpretation Certificate",
-      "Cultural Heritage Specialist",
-      "Wilderness First Responder",
-    ],
-    specialties: ["Local Markets"],
-    specialTraining: ["Regional Geology"],
-  },
-  {
-    id: "guide-rio-de-janeiro-3",
-    name: "Layla Martin",
-    city: "Rio De Janeiro",
-    country: "Brazil",
-    state: "",
-    region: "South America",
-    isPopular: false,
-    bio: "Layla is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Art Galleries, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Middle East"],
-    tourTypes: [
-      "Craft Workshop",
-      "Farm Visit",
-      "Underground Tour",
-      "Photography Tour",
-    ],
-    maxGroupSize: 9,
-    licenseNumber: "LIC-2410-RIO",
-    phoneNumber: "+1-701-430-8540",
-    contactEmail: "layla.martin@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Layla is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Art Galleries, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4,
-    reviewsCount: 83,
-    quote:
-      "Every corner of Rio De Janeiro tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/44.jpg",
-    languages: ["Italian"],
-    experienceYears: 2,
-    certifications: [
-      "CPR & First Aid",
-      "Certified International Tour Manager",
-      "Adventure Tourism Safety Certificate",
-    ],
-    specialties: ["Art Galleries"],
-    specialTraining: ["Conflict Resolution", "Urban Planning"],
-  },
-  {
-    id: "guide-rio-de-janeiro-4",
-    name: "Emma Hill",
-    city: "Rio De Janeiro",
-    country: "Brazil",
-    state: "",
-    region: "South America",
-    isPopular: true,
-    bio: "Emma is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in LGBTQ+ History, Architecture, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Northern Europe"],
-    tourTypes: [
-      "Cultural Tour",
-      "Shopping Tour",
-      "Farm Visit",
-      "Cooking Class",
-      "Craft Workshop",
-    ],
-    maxGroupSize: 18,
-    licenseNumber: "LIC-1736-RIO",
-    phoneNumber: "+1-372-893-8738",
-    contactEmail: "emma.hill@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Emma is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in LGBTQ+ History, Architecture, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.7,
-    reviewsCount: 84,
-    quote:
-      "Every corner of Rio De Janeiro tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/60.jpg",
-    languages: ["Czech", "Spanish"],
-    experienceYears: 4,
-    certifications: ["CPR & First Aid"],
-    specialties: ["LGBTQ+ History", "Architecture"],
-    specialTraining: ["Regional Geology", "Desert Navigation"],
-  },
-  {
-    id: "guide-rio-de-janeiro-5",
-    name: "Harper Flores",
-    city: "Rio De Janeiro",
-    country: "Brazil",
-    state: "",
-    region: "South America",
-    isPopular: false,
-    bio: "Harper is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Adventure Sports, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada", "Mediterranean"],
-    tourTypes: ["Nature Tour", "Private Tour", "Wine Tour"],
-    maxGroupSize: 9,
-    licenseNumber: "LIC-4629-RIO",
-    phoneNumber: "+1-506-384-7887",
-    contactEmail: "harper.flores@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Harper is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Adventure Sports, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.6,
-    reviewsCount: 102,
-    quote:
-      "Rio De Janeiro isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/54.jpg",
-    languages: ["Portuguese", "Turkish", "Indonesian"],
-    experienceYears: 3,
-    certifications: [
-      "Eco-Tourism Guide",
-      "Heritage Interpretation Certificate",
-      "Certified International Tour Manager",
-    ],
-    specialties: ["Adventure Sports"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-rio-de-janeiro-6",
-    name: "Emma Nelson",
-    city: "Rio De Janeiro",
-    country: "Brazil",
-    state: "",
-    region: "South America",
-    isPopular: false,
-    bio: "Emma is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Local Craftsmanship, LGBTQ+ History, Historical Landmarks, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Asia Pacific", "East Coast Canada"],
-    tourTypes: [
-      "Museum Tour",
-      "Cooking Class",
-      "Luxury Tour",
-      "Adventure Tour",
-      "Photography Tour",
-    ],
-    maxGroupSize: 18,
-    licenseNumber: "LIC-4951-RIO",
-    phoneNumber: "+1-480-227-4252",
-    contactEmail: "emma.nelson@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Emma is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Local Craftsmanship, LGBTQ+ History, Historical Landmarks, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.7,
-    reviewsCount: 44,
-    quote:
-      "Rio De Janeiro isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/15.jpg",
-    languages: ["Dutch", "Vietnamese", "French"],
-    experienceYears: 5,
-    certifications: [
-      "Local History Certification",
-      "Language Proficiency Certification",
-    ],
-    specialties: [
-      "Local Craftsmanship",
-      "LGBTQ+ History",
-      "Historical Landmarks",
-    ],
-    specialTraining: ["Archaeological Conservation", "Desert Navigation"],
-  },
-  {
-    id: "guide-rio-de-janeiro-7",
-    name: "Sofia Rodriguez",
-    city: "Rio De Janeiro",
-    country: "Brazil",
-    state: "",
-    region: "South America",
-    isPopular: false,
-    bio: "Sofia is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Cultural Etiquette, Family Activities, Wine Tasting, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean"],
-    tourTypes: [
-      "Off-Road Tour",
-      "Adventure Tour",
-      "Wine Tour",
-      "Shopping Tour",
-    ],
-    maxGroupSize: 17,
-    licenseNumber: "LIC-9071-RIO",
-    phoneNumber: "+1-406-656-4811",
-    contactEmail: "sofia.rodriguez@paragontrails.com",
+    licenseNumber: "LIC-8967-RIO",
+    phoneNumber: "+1-527-602-7590",
+    contactEmail: "jonathan.suzuki@paragontrails.com",
     available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "14:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "12:00",
-          },
-          {
-            from: "13:00",
-            to: "17:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "17:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Sofia is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Cultural Etiquette, Family Activities, Wine Tasting, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.5,
-    reviewsCount: 53,
-    quote:
-      "In Rio De Janeiro, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/63.jpg",
-    languages: ["Italian", "Turkish", "English"],
-    experienceYears: 5,
-    certifications: [
-      "Regional Tourism Ambassador",
-      "Adventure Tourism Safety Certificate",
-    ],
-    specialties: ["Cultural Etiquette", "Family Activities", "Wine Tasting"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-rio-de-janeiro-8",
-    name: "Elijah Walker",
-    city: "Rio De Janeiro",
-    country: "Brazil",
-    state: "",
-    region: "South America",
-    isPopular: false,
-    bio: "Elijah is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Architecture, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Middle East"],
-    tourTypes: ["Audio Tour", "Off-Road Tour", "Religious Tour"],
-    maxGroupSize: 11,
-    licenseNumber: "LIC-5497-RIO",
-    phoneNumber: "+1-114-381-5000",
-    contactEmail: "elijah.walker@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "15:00",
-          },
-          {
-            from: "09:00",
-            to: "14:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "19:00",
-          },
-          {
-            from: "12:00",
-            to: "18:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "20:00",
-          },
-          {
-            from: "09:00",
-            to: "15:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Elijah is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Architecture, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.6,
-    reviewsCount: 28,
-    quote:
-      "The best way to discover Rio De Janeiro is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/38.jpg",
-    languages: ["Portuguese"],
-    experienceYears: 3,
-    certifications: ["Licensed City Guide", "Food Safety Certification"],
-    specialties: ["Architecture"],
-    specialTraining: ["Local Flora & Fauna"],
-  },
-  {
-    id: "guide-rio-de-janeiro-9",
-    name: "Lily Martin",
-    city: "Rio De Janeiro",
-    country: "Brazil",
-    state: "",
-    region: "South America",
-    isPopular: true,
-    bio: "Lily is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Art Galleries, Music Scene, Local Cuisine, Lily provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Northern Europe", "Alaska"],
-    tourTypes: [
-      "Cruise Excursion",
-      "Wine Tour",
-      "Religious Tour",
-      "Craft Workshop",
-      "Cultural Tour",
-    ],
-    maxGroupSize: 6,
-    licenseNumber: "LIC-9571-RIO",
-    phoneNumber: "+1-198-366-4508",
-    contactEmail: "lily.martin@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "15:00",
-          },
-          {
-            from: "08:00",
-            to: "11:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "15:00",
-          },
-        ],
-      },
       {
         day: "Monday",
         availableHours: [
           {
-            from: "09:00",
-            to: "14:00",
+            from: "09:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "11:00 AM",
           },
           {
-            from: "08:00",
-            to: "13:00",
-          },
+            from: "11:00 AM",
+            to: "03:00 PM",
+          }
         ],
       },
       {
         day: "Friday",
         availableHours: [
           {
-            from: "12:00",
-            to: "17:00",
+            from: "02:00 PM",
+            to: "04:00 PM",
           },
           {
-            from: "15:00",
-            to: "18:00",
-          },
+            from: "08:00 AM",
+            to: "12:00 PM",
+          }
         ],
-      },
+      }
     ],
     isCertified: true,
-    description:
-      "Lily is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Art Galleries, Music Scene, Local Cuisine, Lily provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.5,
-    reviewsCount: 20,
-    quote:
-      "Rio De Janeiro isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/22.jpg",
-    languages: ["Portuguese", "Turkish", "Korean"],
-    experienceYears: 7,
-    certifications: ["CPR & First Aid", "Cultural Heritage Specialist"],
-    specialties: ["Art Galleries", "Music Scene", "Local Cuisine"],
-    specialTraining: ["Regional Cuisine", "Wine Education"],
+    description: "Jonathan is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Art Galleries, Public Transportation Navigation, Local Cuisine, Jonathan provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.4,
+    reviewsCount: 19,
+    quote: "Every corner of Rio De Janeiro tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/12.jpg",
+    languages: ["Dutch"],
+    experienceYears: 12,
+    certifications: ["Adventure Tourism Safety Certificate", "Wilderness First Responder", "Certified International Tour Manager"],
+    specialties: ["Art Galleries", "Public Transportation Navigation", "Local Cuisine"],
+    specialTraining: [],
   },
+  {
+    id: "guide-rio-de-janeiro-2",
+    name: "Kyle Knight",
+    city: "Rio De Janeiro",
+    country: "Brazil",
+    state: "",
+    region: "South America",
+    isPopular: false,
+    bio: "Kyle is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Adventure Sports, Nightlife, LGBTQ+ History, Kyle provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast USA", "Asia Pacific"],
+    tourTypes: ["Street Art Tour", "Family-Friendly Tour", "Helicopter Tour", "Audio Tour"],
+    maxGroupSize: 14,
+    licenseNumber: "LIC-6877-RIO",
+    phoneNumber: "+1-385-903-7561",
+    contactEmail: "kyle.knight@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "09:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "04:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Kyle is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Adventure Sports, Nightlife, LGBTQ+ History, Kyle provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 69,
+    quote: "Rio De Janeiro isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/68.jpg",
+    languages: ["Malay", "Portuguese"],
+    experienceYears: 11,
+    certifications: ["Eco-Tourism Guide"],
+    specialties: ["Adventure Sports", "Nightlife", "LGBTQ+ History"],
+    specialTraining: ["Regional Cuisine", "Religious Studies"],
+  },
+  {
+    id: "guide-rio-de-janeiro-3",
+    name: "Diego Foster",
+    city: "Rio De Janeiro",
+    country: "Brazil",
+    state: "",
+    region: "South America",
+    isPopular: false,
+    bio: "Diego is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Parks & Gardens, Diego provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada", "Africa"],
+    tourTypes: ["Nature Tour", "Eco Tour", "Group Tour", "LGBTQ+ Friendly Tour"],
+    maxGroupSize: 14,
+    licenseNumber: "LIC-6645-RIO",
+    phoneNumber: "+1-827-591-2907",
+    contactEmail: "diego.foster@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "06:00 PM",
+          },
+          {
+            from: "02:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "06:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Diego is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Parks & Gardens, Diego provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.5,
+    reviewsCount: 19,
+    quote: "In Rio De Janeiro, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/81.jpg",
+    languages: ["Portuguese", "Serbian", "Swedish"],
+    experienceYears: 14,
+    certifications: ["Professional Tour Guide Association"],
+    specialties: ["Parks & Gardens"],
+    specialTraining: ["Urban Planning", "Regional Cuisine"],
+  },
+  {
+    id: "guide-rio-de-janeiro-4",
+    name: "Gregory Crawford",
+    city: "Rio De Janeiro",
+    country: "Brazil",
+    state: "",
+    region: "South America",
+    isPopular: true,
+    bio: "Gregory is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Art Galleries, Urban Legends, Sustainable Tourism, Architecture, Gregory provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa"],
+    tourTypes: ["Wildlife Safari", "Family-Friendly Tour", "Private Tour", "Festival Tour", "Luxury Tour"],
+    maxGroupSize: 7,
+    licenseNumber: "LIC-8776-RIO",
+    phoneNumber: "+1-234-515-7192",
+    contactEmail: "gregory.crawford@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "11:00 AM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "04:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Gregory is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Art Galleries, Urban Legends, Sustainable Tourism, Architecture, Gregory provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.7,
+    reviewsCount: 86,
+    quote: "My goal is to help you fall in love with Rio De Janeiro just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/42.jpg",
+    languages: ["Finnish"],
+    experienceYears: 14,
+    certifications: ["Language Proficiency Certification", "Urban Navigation Specialist", "Certified International Tour Manager"],
+    specialties: ["Art Galleries", "Urban Legends", "Sustainable Tourism", "Architecture"],
+    specialTraining: ["Group Management", "Historical Research Methods"],
+  },
+  {
+    id: "guide-rio-de-janeiro-5",
+    name: "Mia Williams",
+    city: "Rio De Janeiro",
+    country: "Brazil",
+    state: "",
+    region: "South America",
+    isPopular: true,
+    bio: "Mia is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Museums, Nightlife, Photography Spots, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean"],
+    tourTypes: ["Audio Tour", "Luxury Tour"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-9764-RIO",
+    phoneNumber: "+1-965-840-2583",
+    contactEmail: "mia.williams@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "08:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "03:00 PM",
+          },
+          {
+            from: "11:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Mia is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Museums, Nightlife, Photography Spots, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4,
+    reviewsCount: 9,
+    quote: "Every corner of Rio De Janeiro tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/77.jpg",
+    languages: ["Hebrew", "Dutch"],
+    experienceYears: 14,
+    certifications: ["Food Safety Certification"],
+    specialties: ["Museums", "Nightlife", "Photography Spots"],
+    specialTraining: ["Regional Geology"],
+  },
+  {
+    id: "guide-rio-de-janeiro-6",
+    name: "Kevin Patel",
+    city: "Rio De Janeiro",
+    country: "Brazil",
+    state: "",
+    region: "South America",
+    isPopular: false,
+    bio: "Kevin is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Religious Sites, Kevin provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Northern Europe", "South America"],
+    tourTypes: ["Brewery Tour", "Wildlife Safari", "Historical Tour", "Architecture Tour", "Ghost Tour"],
+    maxGroupSize: 9,
+    licenseNumber: "LIC-2348-RIO",
+    phoneNumber: "+1-144-668-5605",
+    contactEmail: "kevin.patel@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "04:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Kevin is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Religious Sites, Kevin provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 23,
+    quote: "My goal is to help you fall in love with Rio De Janeiro just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/46.jpg",
+    languages: ["Arabic", "Italian"],
+    experienceYears: 10,
+    certifications: ["Urban Navigation Specialist", "Wilderness First Responder"],
+    specialties: ["Religious Sites"],
+    specialTraining: ["Historical Research Methods"],
+  },
+  {
+    id: "guide-rio-de-janeiro-7",
+    name: "Chen Dixon",
+    city: "Rio De Janeiro",
+    country: "Brazil",
+    state: "",
+    region: "South America",
+    isPopular: false,
+    bio: "Chen is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Cultural Etiquette, Street Food, Indigenous Culture, LGBTQ+ History, Chen provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada"],
+    tourTypes: ["Festival Tour", "Museum Tour", "Shopping Tour", "Farm Visit", "Off-Road Tour"],
+    maxGroupSize: 9,
+    licenseNumber: "LIC-6137-RIO",
+    phoneNumber: "+1-736-528-5792",
+    contactEmail: "chen.dixon@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "05:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "06:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "09:00 PM",
+          },
+          {
+            from: "02:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Chen is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Cultural Etiquette, Street Food, Indigenous Culture, LGBTQ+ History, Chen provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.9,
+    reviewsCount: 103,
+    quote: "My goal is to help you fall in love with Rio De Janeiro just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/0.jpg",
+    languages: ["French"],
+    experienceYears: 5,
+    certifications: ["Licensed City Guide", "Adventure Tourism Safety Certificate"],
+    specialties: ["Cultural Etiquette", "Street Food", "Indigenous Culture", "LGBTQ+ History"],
+    specialTraining: ["Desert Navigation", "Historical Research Methods"],
+  },
+  {
+    id: "guide-rio-de-janeiro-8",
+    name: "Thabo Russell",
+    city: "Rio De Janeiro",
+    country: "Brazil",
+    state: "",
+    region: "South America",
+    isPopular: false,
+    bio: "Thabo is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Public Transportation Navigation, Art Galleries, Thabo provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast USA"],
+    tourTypes: ["Cooking Class", "Group Tour", "Adventure Tour"],
+    maxGroupSize: 13,
+    licenseNumber: "LIC-6886-RIO",
+    phoneNumber: "+1-107-357-4137",
+    contactEmail: "thabo.russell@paragontrails.com",
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "05:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "12:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "03:00 PM",
+          },
+          {
+            from: "02:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Thabo is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Public Transportation Navigation, Art Galleries, Thabo provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 95,
+    quote: "Every corner of Rio De Janeiro tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/8.jpg",
+    languages: ["Spanish", "Korean", "Japanese"],
+    experienceYears: 13,
+    certifications: ["Adventure Tourism Safety Certificate"],
+    specialties: ["Public Transportation Navigation", "Art Galleries"],
+    specialTraining: [],
+  }
 ];

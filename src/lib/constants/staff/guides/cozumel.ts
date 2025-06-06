@@ -3,505 +3,500 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const cozumelmexicocaribbeanGuides: TourGuide[] = [
   {
     id: "guide-cozumel-1",
-    name: "David Allen",
+    name: "Ibrahim Foster",
     city: "Cozumel",
     country: "Mexico",
     state: "",
     region: "Caribbean",
     isPopular: false,
-    bio: "David is a passionate tour guide with extensive knowledge of Cozumel and Mexico. Specializing in Local Cuisine, Nightlife, Street Food, Adventure Sports, David provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Middle East"],
-    tourTypes: ["Eco Tour", "Walking Tour", "Relocation Tour"],
+    bio: "Ibrahim is a passionate tour guide with extensive knowledge of Cozumel and Mexico. Specializing in Wine Tasting, Film Locations, Wildlife, Ibrahim provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America"],
+    tourTypes: ["Street Art Tour", "LGBTQ+ Friendly Tour", "Eco Tour"],
     maxGroupSize: 8,
-    licenseNumber: "LIC-4863-COZ",
-    phoneNumber: "+1-276-295-2504",
-    contactEmail: "david.allen@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "David is a passionate tour guide with extensive knowledge of Cozumel and Mexico. Specializing in Local Cuisine, Nightlife, Street Food, Adventure Sports, David provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.3,
-    reviewsCount: 87,
-    quote:
-      "Cozumel isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/men/67.jpg",
-    languages: ["Swahili", "Japanese"],
-    experienceYears: 15,
-    certifications: [
-      "Regional Tourism Ambassador",
-      "Professional Tour Guide Association",
-      "Urban Navigation Specialist",
-    ],
-    specialties: [
-      "Local Cuisine",
-      "Nightlife",
-      "Street Food",
-      "Adventure Sports",
-    ],
-    specialTraining: ["Wine Education"],
-  },
-  {
-    id: "guide-cozumel-2",
-    name: "Abigail Carter",
-    city: "Cozumel",
-    country: "Mexico",
-    state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "Abigail is a passionate tour guide with extensive knowledge of Cozumel and Mexico. Specializing in Architecture, Art Galleries, Urban Legends, Museums, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["South America", "East Coast USA"],
-    tourTypes: ["Relocation Tour", "Food Tour", "Private Tour"],
-    maxGroupSize: 5,
-    licenseNumber: "LIC-7045-COZ",
-    phoneNumber: "+1-430-242-7633",
-    contactEmail: "abigail.carter@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Abigail is a passionate tour guide with extensive knowledge of Cozumel and Mexico. Specializing in Architecture, Art Galleries, Urban Legends, Museums, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.9,
-    reviewsCount: 80,
-    quote:
-      "The best way to discover Cozumel is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/55.jpg",
-    languages: ["German", "Czech", "Hebrew"],
-    experienceYears: 13,
-    certifications: [
-      "Adventure Tourism Safety Certificate",
-      "Professional Tour Guide Association",
-      "Sustainable Tourism Certificate",
-    ],
-    specialties: ["Architecture", "Art Galleries", "Urban Legends", "Museums"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-cozumel-3",
-    name: "William Carter",
-    city: "Cozumel",
-    country: "Mexico",
-    state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "William is a passionate tour guide with extensive knowledge of Cozumel and Mexico. Specializing in Art Galleries, Family Activities, Architecture, Religious Sites, William provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada"],
-    tourTypes: [
-      "Adventure Tour",
-      "Cooking Class",
-      "Family-Friendly Tour",
-      "Street Art Tour",
-      "Festival Tour",
-    ],
-    maxGroupSize: 17,
-    licenseNumber: "LIC-8544-COZ",
-    phoneNumber: "+1-640-584-4088",
-    contactEmail: "william.carter@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "William is a passionate tour guide with extensive knowledge of Cozumel and Mexico. Specializing in Art Galleries, Family Activities, Architecture, Religious Sites, William provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4,
-    reviewsCount: 10,
-    quote: "In Cozumel, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/55.jpg",
-    languages: ["Cantonese", "Korean", "Mandarin"],
-    experienceYears: 8,
-    certifications: [
-      "Urban Navigation Specialist",
-      "Sustainable Tourism Certificate",
-    ],
-    specialties: [
-      "Art Galleries",
-      "Family Activities",
-      "Architecture",
-      "Religious Sites",
-    ],
-    specialTraining: [],
-  },
-  {
-    id: "guide-cozumel-4",
-    name: "Noah Hall",
-    city: "Cozumel",
-    country: "Mexico",
-    state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "Noah is a passionate tour guide with extensive knowledge of Cozumel and Mexico. Specializing in Photography Spots, Nightlife, Museums, Hidden Gems, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Alaska"],
-    tourTypes: [
-      "Private Tour",
-      "Self-Guided Tour",
-      "Cultural Tour",
-      "Cooking Class",
-    ],
-    maxGroupSize: 18,
-    licenseNumber: "LIC-4251-COZ",
-    phoneNumber: "+1-615-216-7001",
-    contactEmail: "noah.hall@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Noah is a passionate tour guide with extensive knowledge of Cozumel and Mexico. Specializing in Photography Spots, Nightlife, Museums, Hidden Gems, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.7,
-    reviewsCount: 35,
-    quote: "My goal is to help you fall in love with Cozumel just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/1.jpg",
-    languages: ["Indonesian", "German"],
-    experienceYears: 3,
-    certifications: ["Adventure Tourism Safety Certificate"],
-    specialties: ["Photography Spots", "Nightlife", "Museums", "Hidden Gems"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-cozumel-5",
-    name: "Emily Lee",
-    city: "Cozumel",
-    country: "Mexico",
-    state: "",
-    region: "Caribbean",
-    isPopular: true,
-    bio: "Emily is a passionate tour guide with extensive knowledge of Cozumel and Mexico. Specializing in Architecture, Emily provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Africa"],
-    tourTypes: [
-      "Museum Tour",
-      "Cooking Class",
-      "Festival Tour",
-      "Private Tour",
-    ],
-    maxGroupSize: 11,
-    licenseNumber: "LIC-6548-COZ",
-    phoneNumber: "+1-132-522-7333",
-    contactEmail: "emily.lee@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Emily is a passionate tour guide with extensive knowledge of Cozumel and Mexico. Specializing in Architecture, Emily provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 5,
-    reviewsCount: 32,
-    quote:
-      "The best way to discover Cozumel is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/62.jpg",
-    languages: ["Vietnamese"],
-    experienceYears: 9,
-    certifications: [
-      "Local History Certification",
-      "Food Safety Certification",
-    ],
-    specialties: ["Architecture"],
-    specialTraining: ["Regional Cuisine"],
-  },
-  {
-    id: "guide-cozumel-6",
-    name: "Aiden Lopez",
-    city: "Cozumel",
-    country: "Mexico",
-    state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "Aiden is a passionate tour guide with extensive knowledge of Cozumel and Mexico. Specializing in Photography Spots, Street Food, Historical Landmarks, Art Galleries, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Africa"],
-    tourTypes: ["Off-Road Tour", "Bike Tour", "Boat Tour"],
-    maxGroupSize: 14,
-    licenseNumber: "LIC-4614-COZ",
-    phoneNumber: "+1-430-188-7536",
-    contactEmail: "aiden.lopez@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Aiden is a passionate tour guide with extensive knowledge of Cozumel and Mexico. Specializing in Photography Spots, Street Food, Historical Landmarks, Art Galleries, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.6,
-    reviewsCount: 12,
-    quote: "Every corner of Cozumel tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/0.jpg",
-    languages: ["Polish", "Swahili"],
-    experienceYears: 9,
-    certifications: ["Sustainable Tourism Certificate"],
-    specialties: [
-      "Photography Spots",
-      "Street Food",
-      "Historical Landmarks",
-      "Art Galleries",
-    ],
-    specialTraining: ["Emergency Response", "Urban Planning"],
-  },
-  {
-    id: "guide-cozumel-7",
-    name: "Sophia Perez",
-    city: "Cozumel",
-    country: "Mexico",
-    state: "",
-    region: "Caribbean",
-    isPopular: true,
-    bio: "Sophia is a passionate tour guide with extensive knowledge of Cozumel and Mexico. Specializing in Art Galleries, Hidden Gems, Public Transportation Navigation, Cultural Etiquette, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean"],
-    tourTypes: ["Self-Guided Tour", "Wine Tour", "Farm Visit"],
-    maxGroupSize: 8,
-    licenseNumber: "LIC-8686-COZ",
-    phoneNumber: "+1-148-888-6389",
-    contactEmail: "sophia.perez@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Sophia is a passionate tour guide with extensive knowledge of Cozumel and Mexico. Specializing in Art Galleries, Hidden Gems, Public Transportation Navigation, Cultural Etiquette, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.8,
-    reviewsCount: 8,
-    quote:
-      "Cozumel isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/50.jpg",
-    languages: ["Vietnamese", "Mandarin"],
-    experienceYears: 9,
-    certifications: ["Adventure Tourism Safety Certificate", "CPR & First Aid"],
-    specialties: [
-      "Art Galleries",
-      "Hidden Gems",
-      "Public Transportation Navigation",
-      "Cultural Etiquette",
-    ],
-    specialTraining: [],
-  },
-  {
-    id: "guide-cozumel-8",
-    name: "Aria Nelson",
-    city: "Cozumel",
-    country: "Mexico",
-    state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "Aria is a passionate tour guide with extensive knowledge of Cozumel and Mexico. Specializing in Local Craftsmanship, Local Cuisine, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["West Coast USA"],
-    tourTypes: [
-      "Romantic Tour",
-      "LGBTQ+ Friendly Tour",
-      "Scenic Tour",
-      "Market Tour",
-    ],
-    maxGroupSize: 9,
-    licenseNumber: "LIC-7039-COZ",
-    phoneNumber: "+1-138-330-3225",
-    contactEmail: "aria.nelson@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Aria is a passionate tour guide with extensive knowledge of Cozumel and Mexico. Specializing in Local Craftsmanship, Local Cuisine, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.8,
-    reviewsCount: 42,
-    quote:
-      "Cozumel isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/men/68.jpg",
-    languages: ["Italian", "Malay"],
-    experienceYears: 2,
-    certifications: ["Language Proficiency Certification"],
-    specialties: ["Local Craftsmanship", "Local Cuisine"],
-    specialTraining: ["Regional Cuisine"],
-  },
-  {
-    id: "guide-cozumel-9",
-    name: "Elijah Wilson",
-    city: "Cozumel",
-    country: "Mexico",
-    state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "Elijah is a passionate tour guide with extensive knowledge of Cozumel and Mexico. Specializing in Local Cuisine, Film Locations, Nightlife, Religious Sites, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Northern Europe", "East Coast USA"],
-    tourTypes: ["Shopping Tour", "Historical Tour", "Family-Friendly Tour"],
-    maxGroupSize: 14,
-    licenseNumber: "LIC-4243-COZ",
-    phoneNumber: "+1-355-590-9659",
-    contactEmail: "elijah.wilson@paragontrails.com",
+    licenseNumber: "LIC-8742-COZ",
+    phoneNumber: "+1-205-677-1647",
+    contactEmail: "ibrahim.foster@paragontrails.com",
     available: [
       {
-        day: "Sunday",
+        day: "Wednesday",
         availableHours: [
           {
-            from: "08:00",
-            to: "14:00",
-          },
-          {
-            from: "13:00",
-            to: "17:00",
-          },
+            from: "01:00 PM",
+            to: "06:00 PM",
+          }
         ],
       },
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "10:00",
-            to: "13:00",
-          },
-          {
-            from: "14:00",
-            to: "20:00",
-          },
+            from: "08:00 AM",
+            to: "02:00 PM",
+          }
         ],
       },
       {
-        day: "Monday",
+        day: "Sunday",
         availableHours: [
           {
-            from: "13:00",
-            to: "16:00",
-          },
+            from: "12:00 PM",
+            to: "04:00 PM",
+          }
         ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "16:00",
-          },
-        ],
-      },
+      }
     ],
     isCertified: true,
-    description:
-      "Elijah is a passionate tour guide with extensive knowledge of Cozumel and Mexico. Specializing in Local Cuisine, Film Locations, Nightlife, Religious Sites, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.2,
-    reviewsCount: 97,
-    quote:
-      "Cozumel isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/3.jpg",
-    languages: ["Danish"],
-    experienceYears: 15,
-    certifications: [
-      "Regional Tourism Ambassador",
-      "Language Proficiency Certification",
-      "Cultural Heritage Specialist",
-    ],
-    specialties: [
-      "Local Cuisine",
-      "Film Locations",
-      "Nightlife",
-      "Religious Sites",
-    ],
-    specialTraining: [],
+    description: "Ibrahim is a passionate tour guide with extensive knowledge of Cozumel and Mexico. Specializing in Wine Tasting, Film Locations, Wildlife, Ibrahim provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 19,
+    quote: "Cozumel isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/86.jpg",
+    languages: ["Indonesian"],
+    experienceYears: 2,
+    certifications: ["Sustainable Tourism Certificate", "Licensed City Guide"],
+    specialties: ["Wine Tasting", "Film Locations", "Wildlife"],
+    specialTraining: ["Regional Cuisine"],
   },
   {
-    id: "guide-cozumel-10",
-    name: "Riley Carter",
+    id: "guide-cozumel-2",
+    name: "Helen Watson",
     city: "Cozumel",
     country: "Mexico",
     state: "",
     region: "Caribbean",
     isPopular: true,
-    bio: "Riley is a passionate tour guide with extensive knowledge of Cozumel and Mexico. Specializing in Sustainable Tourism, Hidden Gems, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada"],
-    tourTypes: ["Family-Friendly Tour", "Museum Tour", "Walking Tour"],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-7713-COZ",
-    phoneNumber: "+1-401-529-5059",
-    contactEmail: "riley.carter@paragontrails.com",
+    bio: "Helen is a passionate tour guide with extensive knowledge of Cozumel and Mexico. Specializing in Cultural Etiquette, Helen provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast USA", "South America"],
+    tourTypes: ["Off-Road Tour", "Cruise Excursion", "Scenic Tour", "Accessible Tour"],
+    maxGroupSize: 11,
+    licenseNumber: "LIC-3786-COZ",
+    phoneNumber: "+1-401-420-9595",
+    contactEmail: "helen.watson@paragontrails.com",
     available: [
       {
-        day: "Monday",
+        day: "Tuesday",
         availableHours: [
           {
-            from: "13:00",
-            to: "17:00",
-          },
-          {
-            from: "10:00",
-            to: "16:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "10:00",
-          },
-          {
-            from: "10:00",
-            to: "14:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Riley is a passionate tour guide with extensive knowledge of Cozumel and Mexico. Specializing in Sustainable Tourism, Hidden Gems, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.8,
-    reviewsCount: 89,
-    quote: "In Cozumel, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/54.jpg",
-    languages: ["Indonesian", "Swedish"],
-    experienceYears: 6,
-    certifications: ["Professional Tour Guide Association"],
-    specialties: ["Sustainable Tourism", "Hidden Gems"],
-    specialTraining: ["Marine Biology", "Wine Education"],
-  },
-  {
-    id: "guide-cozumel-11",
-    name: "Carter Nelson",
-    city: "Cozumel",
-    country: "Mexico",
-    state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "Carter is a passionate tour guide with extensive knowledge of Cozumel and Mexico. Specializing in Parks & Gardens, Film Locations, Indigenous Culture, Wine Tasting, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada"],
-    tourTypes: ["Romantic Tour", "Relocation Tour"],
-    maxGroupSize: 9,
-    licenseNumber: "LIC-7212-COZ",
-    phoneNumber: "+1-586-996-6093",
-    contactEmail: "carter.nelson@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "13:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "16:00",
-          },
+            from: "12:00 PM",
+            to: "06:00 PM",
+          }
         ],
       },
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "14:00",
-            to: "16:00",
+            from: "02:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "03:00 PM",
           },
+          {
+            from: "09:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "09:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Helen is a passionate tour guide with extensive knowledge of Cozumel and Mexico. Specializing in Cultural Etiquette, Helen provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.2,
+    reviewsCount: 81,
+    quote: "The best way to discover Cozumel is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/63.jpg",
+    languages: ["Cantonese", "Bulgarian", "Japanese"],
+    experienceYears: 15,
+    certifications: ["Eco-Tourism Guide"],
+    specialties: ["Cultural Etiquette"],
+    specialTraining: ["Art History"],
+  },
+  {
+    id: "guide-cozumel-3",
+    name: "Jessica Martin",
+    city: "Cozumel",
+    country: "Mexico",
+    state: "",
+    region: "Caribbean",
+    isPopular: false,
+    bio: "Jessica is a passionate tour guide with extensive knowledge of Cozumel and Mexico. Specializing in Local Craftsmanship, LGBTQ+ History, Street Food, Jessica provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada"],
+    tourTypes: ["Off-Road Tour", "Ghost Tour", "Eco Tour"],
+    maxGroupSize: 8,
+    licenseNumber: "LIC-1503-COZ",
+    phoneNumber: "+1-998-991-7036",
+    contactEmail: "jessica.martin@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "04:00 PM",
+          }
         ],
       },
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "15:00",
-            to: "18:00",
+            from: "10:00 AM",
+            to: "04:00 PM",
           },
+          {
+            from: "01:00 PM",
+            to: "06:00 PM",
+          }
         ],
       },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      }
     ],
     isCertified: true,
-    description:
-      "Carter is a passionate tour guide with extensive knowledge of Cozumel and Mexico. Specializing in Parks & Gardens, Film Locations, Indigenous Culture, Wine Tasting, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.1,
-    reviewsCount: 94,
+    description: "Jessica is a passionate tour guide with extensive knowledge of Cozumel and Mexico. Specializing in Local Craftsmanship, LGBTQ+ History, Street Food, Jessica provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.7,
+    reviewsCount: 75,
     quote: "In Cozumel, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/74.jpg",
-    languages: ["Bulgarian", "Danish"],
-    experienceYears: 5,
-    certifications: ["Professional Tour Guide Association"],
-    specialties: [
-      "Parks & Gardens",
-      "Film Locations",
-      "Indigenous Culture",
-      "Wine Tasting",
-    ],
-    specialTraining: [],
+    profileImage: "https://randomuser.me/api/portraits/women/47.jpg",
+    languages: ["Spanish", "Arabic"],
+    experienceYears: 6,
+    certifications: ["Certified International Tour Manager", "Cultural Heritage Specialist", "Language Proficiency Certification"],
+    specialties: ["Local Craftsmanship", "LGBTQ+ History", "Street Food"],
+    specialTraining: ["Historical Research Methods", "Regional Geology"],
   },
+  {
+    id: "guide-cozumel-4",
+    name: "Roy Wilson",
+    city: "Cozumel",
+    country: "Mexico",
+    state: "",
+    region: "Caribbean",
+    isPopular: false,
+    bio: "Roy is a passionate tour guide with extensive knowledge of Cozumel and Mexico. Specializing in Wine Tasting, Local Markets, Roy provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East"],
+    tourTypes: ["Street Art Tour", "Eco Tour"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-9842-COZ",
+    phoneNumber: "+1-105-377-3283",
+    contactEmail: "roy.wilson@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "09:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Roy is a passionate tour guide with extensive knowledge of Cozumel and Mexico. Specializing in Wine Tasting, Local Markets, Roy provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 102,
+    quote: "The best way to discover Cozumel is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/29.jpg",
+    languages: ["Dutch"],
+    experienceYears: 11,
+    certifications: ["Heritage Interpretation Certificate", "Eco-Tourism Guide"],
+    specialties: ["Wine Tasting", "Local Markets"],
+    specialTraining: ["Local Flora & Fauna"],
+  },
+  {
+    id: "guide-cozumel-5",
+    name: "Thandiwe Graham",
+    city: "Cozumel",
+    country: "Mexico",
+    state: "",
+    region: "Caribbean",
+    isPopular: true,
+    bio: "Thandiwe is a passionate tour guide with extensive knowledge of Cozumel and Mexico. Specializing in LGBTQ+ History, Thandiwe provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean", "South America"],
+    tourTypes: ["Shopping Tour", "Cooking Class", "Luxury Tour"],
+    maxGroupSize: 7,
+    licenseNumber: "LIC-4600-COZ",
+    phoneNumber: "+1-283-205-9949",
+    contactEmail: "thandiwe.graham@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "02:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Thandiwe is a passionate tour guide with extensive knowledge of Cozumel and Mexico. Specializing in LGBTQ+ History, Thandiwe provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.3,
+    reviewsCount: 9,
+    quote: "The best way to discover Cozumel is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/61.jpg",
+    languages: ["Turkish", "Czech", "Russian"],
+    experienceYears: 15,
+    certifications: ["Urban Navigation Specialist", "Certified International Tour Manager"],
+    specialties: ["LGBTQ+ History"],
+    specialTraining: ["Group Management", "Religious Studies"],
+  },
+  {
+    id: "guide-cozumel-6",
+    name: "Betty da Costa",
+    city: "Cozumel",
+    country: "Mexico",
+    state: "",
+    region: "Caribbean",
+    isPopular: true,
+    bio: "Betty is a passionate tour guide with extensive knowledge of Cozumel and Mexico. Specializing in Sustainable Tourism, Betty provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East"],
+    tourTypes: ["Accessible Tour", "Craft Workshop", "Architecture Tour", "Self-Guided Tour"],
+    maxGroupSize: 17,
+    licenseNumber: "LIC-2116-COZ",
+    phoneNumber: "+1-541-350-5204",
+    contactEmail: "betty.da@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "11:00 AM",
+          },
+          {
+            from: "12:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "10:00 AM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "05:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "10:00 AM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Betty is a passionate tour guide with extensive knowledge of Cozumel and Mexico. Specializing in Sustainable Tourism, Betty provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 5,
+    reviewsCount: 8,
+    quote: "Cozumel isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/51.jpg",
+    languages: ["Danish"],
+    experienceYears: 15,
+    certifications: ["Food Safety Certification"],
+    specialties: ["Sustainable Tourism"],
+    specialTraining: ["Urban Planning"],
+  },
+  {
+    id: "guide-cozumel-7",
+    name: "Aaron White",
+    city: "Cozumel",
+    country: "Mexico",
+    state: "",
+    region: "Caribbean",
+    isPopular: false,
+    bio: "Aaron is a passionate tour guide with extensive knowledge of Cozumel and Mexico. Specializing in Museums, Architecture, Street Food, Art Galleries, Aaron provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada"],
+    tourTypes: ["Shopping Tour", "Scenic Tour", "Private Tour", "Architecture Tour", "Underground Tour"],
+    maxGroupSize: 12,
+    licenseNumber: "LIC-1505-COZ",
+    phoneNumber: "+1-486-301-1771",
+    contactEmail: "aaron.white@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "02:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Aaron is a passionate tour guide with extensive knowledge of Cozumel and Mexico. Specializing in Museums, Architecture, Street Food, Art Galleries, Aaron provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.7,
+    reviewsCount: 41,
+    quote: "Cozumel isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/48.jpg",
+    languages: ["Malay", "Hindi"],
+    experienceYears: 15,
+    certifications: ["Urban Navigation Specialist"],
+    specialties: ["Museums", "Architecture", "Street Food", "Art Galleries"],
+    specialTraining: ["Marine Biology"],
+  },
+  {
+    id: "guide-cozumel-8",
+    name: "Jacob Clark",
+    city: "Cozumel",
+    country: "Mexico",
+    state: "",
+    region: "Caribbean",
+    isPopular: true,
+    bio: "Jacob is a passionate tour guide with extensive knowledge of Cozumel and Mexico. Specializing in Local Craftsmanship, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Alaska"],
+    tourTypes: ["Nature Tour", "Walking Tour", "Bike Tour"],
+    maxGroupSize: 6,
+    licenseNumber: "LIC-2150-COZ",
+    phoneNumber: "+1-389-792-3378",
+    contactEmail: "jacob.clark@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "03:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "11:00 AM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "05:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Jacob is a passionate tour guide with extensive knowledge of Cozumel and Mexico. Specializing in Local Craftsmanship, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.7,
+    reviewsCount: 75,
+    quote: "Every corner of Cozumel tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/58.jpg",
+    languages: ["Malay"],
+    experienceYears: 10,
+    certifications: ["Wilderness First Responder", "Certified International Tour Manager", "Language Proficiency Certification"],
+    specialties: ["Local Craftsmanship"],
+    specialTraining: ["Cultural Sensitivity"],
+  }
 ];

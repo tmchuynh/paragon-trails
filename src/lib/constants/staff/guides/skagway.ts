@@ -3,481 +3,401 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const skagwayunitedStatesalaskaGuides: TourGuide[] = [
   {
     id: "guide-skagway-1",
-    name: "Charlotte Baker",
-    city: "Skagway",
-    country: "United States",
-    state: "",
-    region: "Alaska",
-    isPopular: false,
-    bio: "Charlotte is a passionate tour guide with extensive knowledge of Skagway and United States. Specializing in Architecture, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean", "Africa"],
-    tourTypes: ["Brewery Tour", "Walking Tour"],
-    maxGroupSize: 9,
-    licenseNumber: "LIC-3442-SKA",
-    phoneNumber: "+1-749-155-8265",
-    contactEmail: "charlotte.baker@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Charlotte is a passionate tour guide with extensive knowledge of Skagway and United States. Specializing in Architecture, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.7,
-    reviewsCount: 61,
-    quote:
-      "The best way to discover Skagway is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/21.jpg",
-    languages: ["Mandarin", "Japanese"],
-    experienceYears: 7,
-    certifications: ["Regional Tourism Ambassador", "Licensed City Guide"],
-    specialties: ["Architecture"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-skagway-2",
-    name: "Daniel Young",
-    city: "Skagway",
-    country: "United States",
-    state: "",
-    region: "Alaska",
-    isPopular: false,
-    bio: "Daniel is a passionate tour guide with extensive knowledge of Skagway and United States. Specializing in Sustainable Tourism, Public Transportation Navigation, Family Activities, Parks & Gardens, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Asia Pacific"],
-    tourTypes: [
-      "Food Tour",
-      "Underground Tour",
-      "Helicopter Tour",
-      "Market Tour",
-      "Off-Road Tour",
-    ],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-4296-SKA",
-    phoneNumber: "+1-241-306-8102",
-    contactEmail: "daniel.young@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Daniel is a passionate tour guide with extensive knowledge of Skagway and United States. Specializing in Sustainable Tourism, Public Transportation Navigation, Family Activities, Parks & Gardens, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.6,
-    reviewsCount: 30,
-    quote:
-      "The best way to discover Skagway is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/77.jpg",
-    languages: ["Croatian", "Spanish"],
-    experienceYears: 13,
-    certifications: [
-      "Regional Tourism Ambassador",
-      "Certified International Tour Manager",
-    ],
-    specialties: [
-      "Sustainable Tourism",
-      "Public Transportation Navigation",
-      "Family Activities",
-      "Parks & Gardens",
-    ],
-    specialTraining: ["Regional Cuisine"],
-  },
-  {
-    id: "guide-skagway-3",
-    name: "Elijah Clark",
-    city: "Skagway",
-    country: "United States",
-    state: "",
-    region: "Alaska",
-    isPopular: false,
-    bio: "Elijah is a passionate tour guide with extensive knowledge of Skagway and United States. Specializing in Hidden Gems, Wildlife, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Northern Europe"],
-    tourTypes: ["Audio Tour", "Food Tour", "Shopping Tour"],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-9740-SKA",
-    phoneNumber: "+1-148-116-7109",
-    contactEmail: "elijah.clark@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Elijah is a passionate tour guide with extensive knowledge of Skagway and United States. Specializing in Hidden Gems, Wildlife, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.4,
-    reviewsCount: 24,
-    quote: "Every corner of Skagway tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/37.jpg",
-    languages: ["Mandarin", "English"],
-    experienceYears: 16,
-    certifications: ["CPR & First Aid"],
-    specialties: ["Hidden Gems", "Wildlife"],
-    specialTraining: ["Art History"],
-  },
-  {
-    id: "guide-skagway-4",
-    name: "Jacob Young",
-    city: "Skagway",
-    country: "United States",
-    state: "",
-    region: "Alaska",
-    isPopular: false,
-    bio: "Jacob is a passionate tour guide with extensive knowledge of Skagway and United States. Specializing in Architecture, Urban Legends, Music Scene, LGBTQ+ History, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean", "Caribbean"],
-    tourTypes: ["Nature Tour", "Audio Tour"],
-    maxGroupSize: 13,
-    licenseNumber: "LIC-4852-SKA",
-    phoneNumber: "+1-926-273-2374",
-    contactEmail: "jacob.young@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Jacob is a passionate tour guide with extensive knowledge of Skagway and United States. Specializing in Architecture, Urban Legends, Music Scene, LGBTQ+ History, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.7,
-    reviewsCount: 25,
-    quote: "In Skagway, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/51.jpg",
-    languages: ["Malay"],
-    experienceYears: 13,
-    certifications: [
-      "Professional Tour Guide Association",
-      "Local History Certification",
-    ],
-    specialties: [
-      "Architecture",
-      "Urban Legends",
-      "Music Scene",
-      "LGBTQ+ History",
-    ],
-    specialTraining: ["Local Transit Systems"],
-  },
-  {
-    id: "guide-skagway-5",
-    name: "Abigail Lee",
-    city: "Skagway",
-    country: "United States",
-    state: "",
-    region: "Alaska",
-    isPopular: false,
-    bio: "Abigail is a passionate tour guide with extensive knowledge of Skagway and United States. Specializing in Museums, Sustainable Tourism, Historical Landmarks, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean", "Caribbean"],
-    tourTypes: [
-      "Architecture Tour",
-      "Historical Tour",
-      "Brewery Tour",
-      "Bike Tour",
-    ],
-    maxGroupSize: 19,
-    licenseNumber: "LIC-2465-SKA",
-    phoneNumber: "+1-976-481-5023",
-    contactEmail: "abigail.lee@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Abigail is a passionate tour guide with extensive knowledge of Skagway and United States. Specializing in Museums, Sustainable Tourism, Historical Landmarks, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.4,
-    reviewsCount: 98,
-    quote:
-      "Skagway isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/48.jpg",
-    languages: ["Malay"],
-    experienceYears: 14,
-    certifications: [
-      "Certified International Tour Manager",
-      "Language Proficiency Certification",
-    ],
-    specialties: ["Museums", "Sustainable Tourism", "Historical Landmarks"],
-    specialTraining: ["Religious Studies", "Cultural Sensitivity"],
-  },
-  {
-    id: "guide-skagway-6",
-    name: "David Scott",
+    name: "Aaliyah Maxwell",
     city: "Skagway",
     country: "United States",
     state: "",
     region: "Alaska",
     isPopular: true,
-    bio: "David is a passionate tour guide with extensive knowledge of Skagway and United States. Specializing in Museums, Religious Sites, Public Transportation Navigation, David provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Middle East"],
-    tourTypes: ["Wine Tour", "Cruise Excursion"],
-    maxGroupSize: 6,
-    licenseNumber: "LIC-8784-SKA",
-    phoneNumber: "+1-887-420-3697",
-    contactEmail: "david.scott@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "David is a passionate tour guide with extensive knowledge of Skagway and United States. Specializing in Museums, Religious Sites, Public Transportation Navigation, David provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.5,
-    reviewsCount: 52,
-    quote: "In Skagway, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/25.jpg",
-    languages: ["Tagalog"],
-    experienceYears: 3,
-    certifications: ["Food Safety Certification"],
-    specialties: [
-      "Museums",
-      "Religious Sites",
-      "Public Transportation Navigation",
-    ],
-    specialTraining: ["Conflict Resolution"],
-  },
-  {
-    id: "guide-skagway-7",
-    name: "Matthew King",
-    city: "Skagway",
-    country: "United States",
-    state: "",
-    region: "Alaska",
-    isPopular: true,
-    bio: "Matthew is a passionate tour guide with extensive knowledge of Skagway and United States. Specializing in Family Activities, Indigenous Culture, Film Locations, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Northern Europe", "Africa"],
-    tourTypes: [
-      "Religious Tour",
-      "Relocation Tour",
-      "Festival Tour",
-      "Adventure Tour",
-      "Architecture Tour",
-    ],
-    maxGroupSize: 17,
-    licenseNumber: "LIC-6506-SKA",
-    phoneNumber: "+1-142-266-5269",
-    contactEmail: "matthew.king@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Matthew is a passionate tour guide with extensive knowledge of Skagway and United States. Specializing in Family Activities, Indigenous Culture, Film Locations, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.1,
-    reviewsCount: 38,
-    quote: "In Skagway, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/79.jpg",
-    languages: ["Tagalog", "Korean"],
-    experienceYears: 4,
-    certifications: [
-      "Wilderness First Responder",
-      "Local History Certification",
-      "Regional Tourism Ambassador",
-    ],
-    specialties: ["Family Activities", "Indigenous Culture", "Film Locations"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-skagway-8",
-    name: "Daniel Lewis",
-    city: "Skagway",
-    country: "United States",
-    state: "",
-    region: "Alaska",
-    isPopular: false,
-    bio: "Daniel is a passionate tour guide with extensive knowledge of Skagway and United States. Specializing in LGBTQ+ History, Street Food, Film Locations, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["South America", "Africa"],
-    tourTypes: ["Photography Tour", "Adventure Tour", "Romantic Tour"],
-    maxGroupSize: 5,
-    licenseNumber: "LIC-1268-SKA",
-    phoneNumber: "+1-403-525-8193",
-    contactEmail: "daniel.lewis@paragontrails.com",
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "12:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "13:00",
-          },
-          {
-            from: "10:00",
-            to: "13:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "15:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Daniel is a passionate tour guide with extensive knowledge of Skagway and United States. Specializing in LGBTQ+ History, Street Food, Film Locations, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.8,
-    reviewsCount: 71,
-    quote: "My goal is to help you fall in love with Skagway just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/72.jpg",
-    languages: ["Swahili", "Danish", "Swedish"],
-    experienceYears: 7,
-    certifications: [
-      "Wilderness First Responder",
-      "Eco-Tourism Guide",
-      "Licensed City Guide",
-    ],
-    specialties: ["LGBTQ+ History", "Street Food", "Film Locations"],
-    specialTraining: ["Historical Research Methods"],
-  },
-  {
-    id: "guide-skagway-9",
-    name: "Layla Jones",
-    city: "Skagway",
-    country: "United States",
-    state: "",
-    region: "Alaska",
-    isPopular: false,
-    bio: "Layla is a passionate tour guide with extensive knowledge of Skagway and United States. Specializing in Local Cuisine, Art Galleries, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Africa", "Asia Pacific"],
-    tourTypes: [
-      "Shopping Tour",
-      "Cultural Tour",
-      "Cooking Class",
-      "Market Tour",
-      "Off-Road Tour",
-    ],
+    bio: "Aaliyah is a passionate tour guide with extensive knowledge of Skagway and United States. Specializing in Photography Spots, Museums, Aaliyah provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast USA"],
+    tourTypes: ["Accessible Tour", "Wine Tour"],
     maxGroupSize: 10,
-    licenseNumber: "LIC-7723-SKA",
-    phoneNumber: "+1-368-160-3195",
-    contactEmail: "layla.jones@paragontrails.com",
+    licenseNumber: "LIC-5892-SKA",
+    phoneNumber: "+1-801-344-6043",
+    contactEmail: "aaliyah.maxwell@paragontrails.com",
     available: [
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "13:00",
-            to: "19:00",
+            from: "10:00 AM",
+            to: "01:00 PM",
           },
+          {
+            from: "01:00 PM",
+            to: "05:00 PM",
+          }
         ],
       },
       {
         day: "Friday",
         availableHours: [
           {
-            from: "12:00",
-            to: "17:00",
+            from: "03:00 PM",
+            to: "07:00 PM",
           },
           {
-            from: "11:00",
-            to: "13:00",
-          },
+            from: "09:00 AM",
+            to: "01:00 PM",
+          }
         ],
       },
       {
-        day: "Sunday",
+        day: "Monday",
         availableHours: [
           {
-            from: "13:00",
-            to: "19:00",
+            from: "08:00 AM",
+            to: "10:00 AM",
           },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
           {
-            from: "08:00",
-            to: "13:00",
-          },
+            from: "08:00 AM",
+            to: "01:00 PM",
+          }
         ],
-      },
+      }
     ],
     isCertified: true,
-    description:
-      "Layla is a passionate tour guide with extensive knowledge of Skagway and United States. Specializing in Local Cuisine, Art Galleries, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.1,
-    reviewsCount: 46,
-    quote:
-      "Skagway isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/men/34.jpg",
-    languages: ["Hindi", "Greek"],
-    experienceYears: 10,
-    certifications: ["Certified International Tour Manager"],
-    specialties: ["Local Cuisine", "Art Galleries"],
-    specialTraining: ["Regional Geology"],
+    description: "Aaliyah is a passionate tour guide with extensive knowledge of Skagway and United States. Specializing in Photography Spots, Museums, Aaliyah provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 72,
+    quote: "My goal is to help you fall in love with Skagway just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/67.jpg",
+    languages: ["Polish"],
+    experienceYears: 6,
+    certifications: ["Urban Navigation Specialist"],
+    specialties: ["Photography Spots", "Museums"],
+    specialTraining: [],
   },
   {
-    id: "guide-skagway-10",
-    name: "Sebastian Anderson",
+    id: "guide-skagway-2",
+    name: "Amina Mitchell",
     city: "Skagway",
     country: "United States",
     state: "",
     region: "Alaska",
     isPopular: false,
-    bio: "Sebastian is a passionate tour guide with extensive knowledge of Skagway and United States. Specializing in Wildlife, Film Locations, Cultural Etiquette, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Northern Europe", "West Coast USA"],
-    tourTypes: ["Boat Tour", "Helicopter Tour", "Audio Tour"],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-2553-SKA",
-    phoneNumber: "+1-712-772-6670",
-    contactEmail: "sebastian.anderson@paragontrails.com",
+    bio: "Amina is a passionate tour guide with extensive knowledge of Skagway and United States. Specializing in Parks & Gardens, Amina provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean"],
+    tourTypes: ["Cruise Excursion", "Festival Tour", "Adventure Tour", "Shopping Tour"],
+    maxGroupSize: 7,
+    licenseNumber: "LIC-8255-SKA",
+    phoneNumber: "+1-467-564-2192",
+    contactEmail: "amina.mitchell@paragontrails.com",
     available: [
       {
-        day: "Saturday",
+        day: "Friday",
         availableHours: [
           {
-            from: "08:00",
-            to: "13:00",
-          },
-          {
-            from: "14:00",
-            to: "19:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00",
-          },
+            from: "02:00 PM",
+            to: "06:00 PM",
+          }
         ],
       },
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "11:00",
-            to: "15:00",
-          },
-          {
-            from: "10:00",
-            to: "16:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00",
-          },
-          {
-            from: "14:00",
-            to: "16:00",
-          },
+            from: "03:00 PM",
+            to: "07:00 PM",
+          }
         ],
       },
       {
         day: "Wednesday",
         availableHours: [
           {
-            from: "11:00",
-            to: "13:00",
-          },
+            from: "02:00 PM",
+            to: "07:00 PM",
+          }
         ],
       },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "05:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      }
     ],
     isCertified: true,
-    description:
-      "Sebastian is a passionate tour guide with extensive knowledge of Skagway and United States. Specializing in Wildlife, Film Locations, Cultural Etiquette, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.5,
-    reviewsCount: 77,
-    quote: "Every corner of Skagway tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/41.jpg",
-    languages: ["Indonesian", "French"],
-    experienceYears: 7,
-    certifications: ["Wilderness First Responder"],
-    specialties: ["Wildlife", "Film Locations", "Cultural Etiquette"],
-    specialTraining: ["Regional Cuisine", "Photography"],
+    description: "Amina is a passionate tour guide with extensive knowledge of Skagway and United States. Specializing in Parks & Gardens, Amina provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.6,
+    reviewsCount: 65,
+    quote: "My goal is to help you fall in love with Skagway just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/59.jpg",
+    languages: ["French"],
+    experienceYears: 10,
+    certifications: ["Adventure Tourism Safety Certificate", "Eco-Tourism Guide"],
+    specialties: ["Parks & Gardens"],
+    specialTraining: ["Desert Navigation"],
   },
+  {
+    id: "guide-skagway-3",
+    name: "Naomi Montgomery",
+    city: "Skagway",
+    country: "United States",
+    state: "",
+    region: "Alaska",
+    isPopular: true,
+    bio: "Naomi is a passionate tour guide with extensive knowledge of Skagway and United States. Specializing in Museums, Film Locations, Naomi provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa"],
+    tourTypes: ["Scenic Tour", "Private Tour", "Underground Tour"],
+    maxGroupSize: 7,
+    licenseNumber: "LIC-7750-SKA",
+    phoneNumber: "+1-775-715-2558",
+    contactEmail: "naomi.montgomery@paragontrails.com",
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "06:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Naomi is a passionate tour guide with extensive knowledge of Skagway and United States. Specializing in Museums, Film Locations, Naomi provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.8,
+    reviewsCount: 24,
+    quote: "Skagway isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/67.jpg",
+    languages: ["Bulgarian", "Japanese", "Vietnamese"],
+    experienceYears: 9,
+    certifications: ["Food Safety Certification", "CPR & First Aid"],
+    specialties: ["Museums", "Film Locations"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-skagway-4",
+    name: "John Rodriguez",
+    city: "Skagway",
+    country: "United States",
+    state: "",
+    region: "Alaska",
+    isPopular: false,
+    bio: "John is a passionate tour guide with extensive knowledge of Skagway and United States. Specializing in Museums, Sustainable Tourism, Hidden Gems, John provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Alaska", "Asia Pacific"],
+    tourTypes: ["Wildlife Safari", "Religious Tour", "Family-Friendly Tour", "Accessible Tour"],
+    maxGroupSize: 19,
+    licenseNumber: "LIC-5163-SKA",
+    phoneNumber: "+1-169-805-3934",
+    contactEmail: "john.rodriguez@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "06:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "05:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "John is a passionate tour guide with extensive knowledge of Skagway and United States. Specializing in Museums, Sustainable Tourism, Hidden Gems, John provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 28,
+    quote: "My goal is to help you fall in love with Skagway just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/46.jpg",
+    languages: ["Norwegian", "Vietnamese", "Malay"],
+    experienceYears: 4,
+    certifications: ["Food Safety Certification", "Sustainable Tourism Certificate", "Cultural Heritage Specialist"],
+    specialties: ["Museums", "Sustainable Tourism", "Hidden Gems"],
+    specialTraining: ["Urban Planning"],
+  },
+  {
+    id: "guide-skagway-5",
+    name: "David Russell",
+    city: "Skagway",
+    country: "United States",
+    state: "",
+    region: "Alaska",
+    isPopular: false,
+    bio: "David is a passionate tour guide with extensive knowledge of Skagway and United States. Specializing in Local Craftsmanship, Museums, Film Locations, David provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada", "South America"],
+    tourTypes: ["Scenic Tour", "LGBTQ+ Friendly Tour", "Religious Tour", "Wildlife Safari"],
+    maxGroupSize: 6,
+    licenseNumber: "LIC-7395-SKA",
+    phoneNumber: "+1-697-497-9023",
+    contactEmail: "david.russell@paragontrails.com",
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "03:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "05:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "David is a passionate tour guide with extensive knowledge of Skagway and United States. Specializing in Local Craftsmanship, Museums, Film Locations, David provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 96,
+    quote: "My goal is to help you fall in love with Skagway just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/58.jpg",
+    languages: ["Polish", "French"],
+    experienceYears: 14,
+    certifications: ["Professional Tour Guide Association", "Urban Navigation Specialist", "Cultural Heritage Specialist"],
+    specialties: ["Local Craftsmanship", "Museums", "Film Locations"],
+    specialTraining: ["Desert Navigation", "Photography"],
+  },
+  {
+    id: "guide-skagway-6",
+    name: "Olivia Carter",
+    city: "Skagway",
+    country: "United States",
+    state: "",
+    region: "Alaska",
+    isPopular: false,
+    bio: "Olivia is a passionate tour guide with extensive knowledge of Skagway and United States. Specializing in Indigenous Culture, Urban Legends, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Alaska"],
+    tourTypes: ["Relocation Tour", "Wildlife Safari", "Nature Tour"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-1022-SKA",
+    phoneNumber: "+1-571-815-9034",
+    contactEmail: "olivia.carter@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Olivia is a passionate tour guide with extensive knowledge of Skagway and United States. Specializing in Indigenous Culture, Urban Legends, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.7,
+    reviewsCount: 68,
+    quote: "My goal is to help you fall in love with Skagway just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/57.jpg",
+    languages: ["Swahili", "Japanese", "Spanish"],
+    experienceYears: 6,
+    certifications: ["Professional Tour Guide Association", "Heritage Interpretation Certificate"],
+    specialties: ["Indigenous Culture", "Urban Legends"],
+    specialTraining: [],
+  }
 ];

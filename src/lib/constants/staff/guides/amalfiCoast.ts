@@ -1,246 +1,325 @@
 import { TourGuide } from "@/lib/interfaces/people/staff";
 
-export const amalfiCoastGuides: TourGuide[] = [
+export const amalfiCoastitalymediterraneanGuides: TourGuide[] = [
   {
     id: "guide-amalfi-coast-1",
-    name: "Layla Ramirez",
+    name: "Daniel Sutton",
     city: "Amalfi Coast",
-    country: "Unknown Country",
+    country: "Italy",
     state: "",
-    region: "Unknown Region",
-    isPopular: true,
-    bio: "Layla is a passionate tour guide with extensive knowledge of Amalfi Coast and Unknown Country. Specializing in Adventure Sports, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Middle East", "East Coast USA"],
-    tourTypes: ["Helicopter Tour", "Museum Tour", "Group Tour", "Boat Tour"],
-    maxGroupSize: 18,
-    licenseNumber: "LIC-2349-AMA",
-    phoneNumber: "+1-691-874-5159",
-    contactEmail: "layla.ramirez@paragontrails.com",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Daniel is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Indigenous Culture, Local Cuisine, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific"],
+    tourTypes: ["Craft Workshop", "Food Tour"],
+    maxGroupSize: 5,
+    licenseNumber: "LIC-4281-AMA",
+    phoneNumber: "+1-860-976-3365",
+    contactEmail: "daniel.sutton@paragontrails.com",
     available: [
       {
         day: "Sunday",
         availableHours: [
           {
-            from: "08:00",
-            to: "13:00",
+            from: "08:00 AM",
+            to: "01:00 PM",
           },
           {
-            from: "10:00",
-            to: "15:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "15:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "12:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "13:00",
-          },
-          {
-            from: "13:00",
-            to: "15:00",
-          },
+            from: "03:00 PM",
+            to: "07:00 PM",
+          }
         ],
       },
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "10:00",
-            to: "16:00",
-          },
+            from: "02:00 PM",
+            to: "05:00 PM",
+          }
         ],
       },
-    ],
-    isCertified: true,
-    description:
-      "Layla is a passionate tour guide with extensive knowledge of Amalfi Coast and Unknown Country. Specializing in Adventure Sports, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4,
-    reviewsCount: 85,
-    quote:
-      "Every corner of Amalfi Coast tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/27.jpg",
-    languages: ["Finnish"],
-    experienceYears: 15,
-    certifications: [
-      "Regional Tourism Ambassador",
-      "Heritage Interpretation Certificate",
-    ],
-    specialties: ["Adventure Sports"],
-    specialTraining: ["Local Flora & Fauna", "Group Management"],
-  },
-  {
-    id: "guide-amalfi-coast-2",
-    name: "Logan Hill",
-    city: "Amalfi Coast",
-    country: "Unknown Country",
-    state: "",
-    region: "Unknown Region",
-    isPopular: false,
-    bio: "Logan is a passionate tour guide with extensive knowledge of Amalfi Coast and Unknown Country. Specializing in Public Transportation Navigation, Adventure Sports, Wildlife, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada", "Africa"],
-    tourTypes: ["Off-Road Tour", "Architecture Tour"],
-    maxGroupSize: 8,
-    licenseNumber: "LIC-5973-AMA",
-    phoneNumber: "+1-690-639-6231",
-    contactEmail: "logan.hill@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "18:00",
-          },
-          {
-            from: "08:00",
-            to: "14:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "14:00",
-          },
-          {
-            from: "15:00",
-            to: "21:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "11:00",
-          },
-          {
-            from: "10:00",
-            to: "13:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Logan is a passionate tour guide with extensive knowledge of Amalfi Coast and Unknown Country. Specializing in Public Transportation Navigation, Adventure Sports, Wildlife, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.4,
-    reviewsCount: 79,
-    quote:
-      "The best way to discover Amalfi Coast is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/57.jpg",
-    languages: ["Czech", "Serbian", "Finnish"],
-    experienceYears: 13,
-    certifications: ["Cultural Heritage Specialist", "Licensed City Guide"],
-    specialties: [
-      "Public Transportation Navigation",
-      "Adventure Sports",
-      "Wildlife",
-    ],
-    specialTraining: ["Regional Cuisine", "Art History"],
-  },
-  {
-    id: "guide-amalfi-coast-3",
-    name: "Mason Brown",
-    city: "Amalfi Coast",
-    country: "Unknown Country",
-    state: "",
-    region: "Unknown Region",
-    isPopular: true,
-    bio: "Mason is a passionate tour guide with extensive knowledge of Amalfi Coast and Unknown Country. Specializing in Adventure Sports, Film Locations, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast USA"],
-    tourTypes: [
-      "LGBTQ+ Friendly Tour",
-      "Self-Guided Tour",
-      "Luxury Tour",
-      "Audio Tour",
-      "Romantic Tour",
-    ],
-    maxGroupSize: 15,
-    licenseNumber: "LIC-3449-AMA",
-    phoneNumber: "+1-954-430-9750",
-    contactEmail: "mason.brown@paragontrails.com",
-    available: [
       {
         day: "Monday",
         availableHours: [
           {
-            from: "08:00",
-            to: "14:00",
-          },
-          {
-            from: "14:00",
-            to: "20:00",
-          },
+            from: "02:00 PM",
+            to: "05:00 PM",
+          }
         ],
-      },
+      }
+    ],
+    isCertified: true,
+    description: "Daniel is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Indigenous Culture, Local Cuisine, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 19,
+    quote: "The best way to discover Amalfi Coast is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/42.jpg",
+    languages: ["Finnish", "Dutch"],
+    experienceYears: 11,
+    certifications: ["CPR & First Aid", "Wilderness First Responder"],
+    specialties: ["Indigenous Culture", "Local Cuisine"],
+    specialTraining: ["Cultural Sensitivity"],
+  },
+  {
+    id: "guide-amalfi-coast-2",
+    name: "Thomas Martin",
+    city: "Amalfi Coast",
+    country: "Italy",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Thomas is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Art Galleries, Music Scene, Thomas provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Mediterranean", "East Coast Canada"],
+    tourTypes: ["Cruise Excursion", "Food Tour", "Wine Tour"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-6183-AMA",
+    phoneNumber: "+1-571-524-7257",
+    contactEmail: "thomas.martin@paragontrails.com",
+    available: [
       {
-        day: "Tuesday",
+        day: "Sunday",
         availableHours: [
           {
-            from: "08:00",
-            to: "10:00",
+            from: "10:00 AM",
+            to: "12:00 PM",
           },
+          {
+            from: "11:00 AM",
+            to: "02:00 PM",
+          }
         ],
       },
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "12:00",
-            to: "15:00",
+            from: "09:00 AM",
+            to: "11:00 AM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Thomas is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Art Galleries, Music Scene, Thomas provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.9,
+    reviewsCount: 12,
+    quote: "Amalfi Coast isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/70.jpg",
+    languages: ["Swahili", "French"],
+    experienceYears: 4,
+    certifications: ["Sustainable Tourism Certificate", "Cultural Heritage Specialist", "Adventure Tourism Safety Certificate"],
+    specialties: ["Art Galleries", "Music Scene"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-amalfi-coast-3",
+    name: "Amelia Ivanov",
+    city: "Amalfi Coast",
+    country: "Italy",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Amelia is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Photography Spots, Indigenous Culture, LGBTQ+ History, Family Activities, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast USA", "Mediterranean"],
+    tourTypes: ["Brewery Tour", "Off-Road Tour"],
+    maxGroupSize: 9,
+    licenseNumber: "LIC-9486-AMA",
+    phoneNumber: "+1-473-955-9607",
+    contactEmail: "amelia.ivanov@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "04:00 PM",
           },
+          {
+            from: "10:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "02:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "08:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Amelia is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Photography Spots, Indigenous Culture, LGBTQ+ History, Family Activities, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.9,
+    reviewsCount: 14,
+    quote: "In Amalfi Coast, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/32.jpg",
+    languages: ["Vietnamese"],
+    experienceYears: 6,
+    certifications: ["CPR & First Aid", "Adventure Tourism Safety Certificate"],
+    specialties: ["Photography Spots", "Indigenous Culture", "LGBTQ+ History", "Family Activities"],
+    specialTraining: ["Accessibility Services", "Marine Biology"],
+  },
+  {
+    id: "guide-amalfi-coast-4",
+    name: "Layla Williams",
+    city: "Amalfi Coast",
+    country: "Italy",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Layla is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Adventure Sports, Parks & Gardens, Architecture, Religious Sites, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific"],
+    tourTypes: ["Adventure Tour", "Relocation Tour", "Self-Guided Tour", "Wildlife Safari", "Walking Tour"],
+    maxGroupSize: 9,
+    licenseNumber: "LIC-5828-AMA",
+    phoneNumber: "+1-333-498-8599",
+    contactEmail: "layla.williams@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "02:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "03:00 PM",
+          }
         ],
       },
       {
         day: "Wednesday",
         availableHours: [
           {
-            from: "15:00",
-            to: "21:00",
+            from: "03:00 PM",
+            to: "09:00 PM",
           },
+          {
+            from: "11:00 AM",
+            to: "03:00 PM",
+          }
         ],
       },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "07:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "10:00 AM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "03:00 PM",
+          }
+        ],
+      }
     ],
     isCertified: true,
-    description:
-      "Mason is a passionate tour guide with extensive knowledge of Amalfi Coast and Unknown Country. Specializing in Adventure Sports, Film Locations, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.5,
-    reviewsCount: 48,
-    quote:
-      "My goal is to help you fall in love with Amalfi Coast just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/41.jpg",
-    languages: ["Bulgarian"],
-    experienceYears: 5,
-    certifications: [
-      "Urban Navigation Specialist",
-      "Wilderness First Responder",
-      "Food Safety Certification",
-    ],
-    specialties: ["Adventure Sports", "Film Locations"],
-    specialTraining: ["Religious Studies", "Regional Cuisine"],
+    description: "Layla is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Adventure Sports, Parks & Gardens, Architecture, Religious Sites, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.8,
+    reviewsCount: 41,
+    quote: "The best way to discover Amalfi Coast is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/75.jpg",
+    languages: ["Danish"],
+    experienceYears: 9,
+    certifications: ["Cultural Heritage Specialist"],
+    specialties: ["Adventure Sports", "Parks & Gardens", "Architecture", "Religious Sites"],
+    specialTraining: [],
   },
+  {
+    id: "guide-amalfi-coast-5",
+    name: "Barbara Nakamura",
+    city: "Amalfi Coast",
+    country: "Italy",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Barbara is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Parks & Gardens, Wildlife, Art Galleries, Architecture, Barbara provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Alaska", "Asia Pacific"],
+    tourTypes: ["Cruise Excursion", "Eco Tour", "Family-Friendly Tour"],
+    maxGroupSize: 19,
+    licenseNumber: "LIC-9052-AMA",
+    phoneNumber: "+1-882-956-8311",
+    contactEmail: "barbara.nakamura@paragontrails.com",
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "09:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "05:00 PM",
+          },
+          {
+            from: "11:00 AM",
+            to: "05:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Barbara is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Parks & Gardens, Wildlife, Art Galleries, Architecture, Barbara provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.4,
+    reviewsCount: 57,
+    quote: "My goal is to help you fall in love with Amalfi Coast just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/15.jpg",
+    languages: ["Tagalog", "Serbian", "English"],
+    experienceYears: 10,
+    certifications: ["Urban Navigation Specialist", "Sustainable Tourism Certificate"],
+    specialties: ["Parks & Gardens", "Wildlife", "Art Galleries", "Architecture"],
+    specialTraining: [],
+  }
 ];

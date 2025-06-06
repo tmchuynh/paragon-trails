@@ -3,325 +3,246 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const bangkokthailandasiaPacificGuides: TourGuide[] = [
   {
     id: "guide-bangkok-1",
-    name: "James Jackson",
+    name: "Elena Miller",
     city: "Bangkok",
     country: "Thailand",
     state: "",
     region: "Asia Pacific",
     isPopular: false,
-    bio: "James is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Local Craftsmanship, James provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Northern Europe"],
-    tourTypes: ["Relocation Tour", "Walking Tour", "Romantic Tour"],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-3201-BAN",
-    phoneNumber: "+1-597-371-2414",
-    contactEmail: "james.jackson@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "James is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Local Craftsmanship, James provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.6,
-    reviewsCount: 12,
-    quote:
-      "Bangkok isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/men/13.jpg",
-    languages: ["Arabic", "Romanian"],
-    experienceYears: 12,
-    certifications: [
-      "Urban Navigation Specialist",
-      "Professional Tour Guide Association",
-    ],
-    specialties: ["Local Craftsmanship"],
-    specialTraining: ["Regional Geology"],
-  },
-  {
-    id: "guide-bangkok-2",
-    name: "James Hill",
-    city: "Bangkok",
-    country: "Thailand",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: false,
-    bio: "James is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Local Markets, James provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["West Coast USA", "Alaska"],
-    tourTypes: ["Audio Tour", "Scenic Tour"],
-    maxGroupSize: 5,
-    licenseNumber: "LIC-1996-BAN",
-    phoneNumber: "+1-480-283-4797",
-    contactEmail: "james.hill@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "James is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Local Markets, James provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.1,
-    reviewsCount: 88,
-    quote: "In Bangkok, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/34.jpg",
-    languages: ["Korean", "Malay"],
-    experienceYears: 11,
-    certifications: ["Eco-Tourism Guide"],
-    specialties: ["Local Markets"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-bangkok-3",
-    name: "Joseph Baker",
-    city: "Bangkok",
-    country: "Thailand",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: true,
-    bio: "Joseph is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in LGBTQ+ History, Adventure Sports, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Africa"],
-    tourTypes: ["Off-Road Tour", "Private Tour"],
-    maxGroupSize: 9,
-    licenseNumber: "LIC-2010-BAN",
-    phoneNumber: "+1-265-793-5166",
-    contactEmail: "joseph.baker@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Joseph is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in LGBTQ+ History, Adventure Sports, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.9,
-    reviewsCount: 89,
-    quote: "In Bangkok, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/38.jpg",
-    languages: ["Czech", "Russian"],
-    experienceYears: 3,
-    certifications: ["Eco-Tourism Guide", "Language Proficiency Certification"],
-    specialties: ["LGBTQ+ History", "Adventure Sports"],
-    specialTraining: ["Urban Planning", "Archaeological Conservation"],
-  },
-  {
-    id: "guide-bangkok-4",
-    name: "Emma Brown",
-    city: "Bangkok",
-    country: "Thailand",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: false,
-    bio: "Emma is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Sustainable Tourism, LGBTQ+ History, Local Craftsmanship, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Middle East"],
-    tourTypes: ["Romantic Tour", "Nature Tour", "Cultural Tour"],
-    maxGroupSize: 15,
-    licenseNumber: "LIC-7339-BAN",
-    phoneNumber: "+1-385-211-1423",
-    contactEmail: "emma.brown@paragontrails.com",
+    bio: "Elena is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Local Markets, Hidden Gems, Street Food, Historical Landmarks, Elena provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean", "South America"],
+    tourTypes: ["Wildlife Safari", "Street Art Tour"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-2758-BAN",
+    phoneNumber: "+1-358-281-1372",
+    contactEmail: "elena.miller@paragontrails.com",
     available: [
       {
-        day: "Friday",
+        day: "Monday",
         availableHours: [
           {
-            from: "10:00",
-            to: "14:00",
-          },
-          {
-            from: "10:00",
-            to: "14:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "15:00",
-          },
-          {
-            from: "09:00",
-            to: "11:00",
-          },
+            from: "01:00 PM",
+            to: "07:00 PM",
+          }
         ],
       },
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "12:00",
-            to: "16:00",
+            from: "03:00 PM",
+            to: "09:00 PM",
           },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
           {
-            from: "13:00",
-            to: "15:00",
-          },
+            from: "12:00 PM",
+            to: "05:00 PM",
+          }
         ],
-      },
+      }
     ],
     isCertified: true,
-    description:
-      "Emma is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Sustainable Tourism, LGBTQ+ History, Local Craftsmanship, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.3,
-    reviewsCount: 32,
-    quote:
-      "Bangkok isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/10.jpg",
-    languages: ["Mandarin", "Japanese", "Arabic"],
-    experienceYears: 5,
-    certifications: [
-      "Regional Tourism Ambassador",
-      "Professional Tour Guide Association",
-    ],
-    specialties: [
-      "Sustainable Tourism",
-      "LGBTQ+ History",
-      "Local Craftsmanship",
-    ],
-    specialTraining: ["Group Management", "Archaeological Conservation"],
+    description: "Elena is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Local Markets, Hidden Gems, Street Food, Historical Landmarks, Elena provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4,
+    reviewsCount: 34,
+    quote: "The best way to discover Bangkok is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/78.jpg",
+    languages: ["Thai", "Mandarin"],
+    experienceYears: 16,
+    certifications: ["Wilderness First Responder", "Food Safety Certification", "Language Proficiency Certification"],
+    specialties: ["Local Markets", "Hidden Gems", "Street Food", "Historical Landmarks"],
+    specialTraining: ["Regional Cuisine", "Local Flora & Fauna"],
   },
   {
-    id: "guide-bangkok-5",
-    name: "Logan Martin",
+    id: "guide-bangkok-2",
+    name: "Sarah Reed",
     city: "Bangkok",
     country: "Thailand",
     state: "",
     region: "Asia Pacific",
     isPopular: false,
-    bio: "Logan is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Music Scene, Adventure Sports, Urban Legends, Street Food, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada", "Africa"],
-    tourTypes: [
-      "Private Tour",
-      "Eco Tour",
-      "Underground Tour",
-      "Cooking Class",
-      "Brewery Tour",
-    ],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-2178-BAN",
-    phoneNumber: "+1-285-145-7225",
-    contactEmail: "logan.martin@paragontrails.com",
+    bio: "Sarah is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Museums, Film Locations, Sarah provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America"],
+    tourTypes: ["Romantic Tour", "Street Art Tour", "Ghost Tour", "Helicopter Tour"],
+    maxGroupSize: 17,
+    licenseNumber: "LIC-1864-BAN",
+    phoneNumber: "+1-432-804-8204",
+    contactEmail: "sarah.reed@paragontrails.com",
     available: [
       {
-        day: "Tuesday",
+        day: "Thursday",
         availableHours: [
           {
-            from: "15:00",
-            to: "19:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "16:00",
-          },
-          {
-            from: "08:00",
-            to: "11:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "17:00",
-          },
+            from: "02:00 PM",
+            to: "08:00 PM",
+          }
         ],
       },
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "11:00",
-            to: "16:00",
+            from: "11:00 AM",
+            to: "02:00 PM",
           },
           {
-            from: "10:00",
-            to: "13:00",
-          },
+            from: "09:00 AM",
+            to: "01:00 PM",
+          }
         ],
       },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "12:00 PM",
+          },
+          {
+            from: "11:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      }
     ],
     isCertified: true,
-    description:
-      "Logan is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Music Scene, Adventure Sports, Urban Legends, Street Food, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.1,
-    reviewsCount: 33,
-    quote: "Every corner of Bangkok tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/60.jpg",
-    languages: ["Tagalog", "Arabic", "Italian"],
-    experienceYears: 11,
-    certifications: [
-      "Certified International Tour Manager",
-      "Language Proficiency Certification",
-      "CPR & First Aid",
-    ],
-    specialties: [
-      "Music Scene",
-      "Adventure Sports",
-      "Urban Legends",
-      "Street Food",
-    ],
+    description: "Sarah is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Museums, Film Locations, Sarah provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.7,
+    reviewsCount: 51,
+    quote: "The best way to discover Bangkok is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/6.jpg",
+    languages: ["Malay"],
+    experienceYears: 6,
+    certifications: ["Professional Tour Guide Association", "Certified International Tour Manager"],
+    specialties: ["Museums", "Film Locations"],
     specialTraining: [],
   },
   {
-    id: "guide-bangkok-6",
-    name: "James Roberts",
+    id: "guide-bangkok-3",
+    name: "Olivia Jackson",
     city: "Bangkok",
     country: "Thailand",
     state: "",
     region: "Asia Pacific",
-    isPopular: true,
-    bio: "James is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Family Activities, Adventure Sports, Historical Landmarks, James provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada"],
-    tourTypes: ["Wildlife Safari", "Group Tour"],
-    maxGroupSize: 14,
-    licenseNumber: "LIC-3865-BAN",
-    phoneNumber: "+1-888-890-9987",
-    contactEmail: "james.roberts@paragontrails.com",
+    isPopular: false,
+    bio: "Olivia is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Local Craftsmanship, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["West Coast USA", "Northern Europe"],
+    tourTypes: ["Festival Tour", "Shopping Tour", "Relocation Tour"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-8792-BAN",
+    phoneNumber: "+1-238-944-1048",
+    contactEmail: "olivia.jackson@paragontrails.com",
     available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "03:00 PM",
+          }
+        ],
+      },
       {
         day: "Sunday",
         availableHours: [
           {
-            from: "12:00",
-            to: "18:00",
+            from: "01:00 PM",
+            to: "05:00 PM",
           },
+          {
+            from: "02:00 PM",
+            to: "08:00 PM",
+          }
         ],
       },
       {
         day: "Friday",
         availableHours: [
           {
-            from: "09:00",
-            to: "14:00",
+            from: "01:00 PM",
+            to: "07:00 PM",
           },
+          {
+            from: "02:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Olivia is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Local Craftsmanship, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.7,
+    reviewsCount: 71,
+    quote: "Every corner of Bangkok tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/11.jpg",
+    languages: ["Danish"],
+    experienceYears: 15,
+    certifications: ["CPR & First Aid", "Local History Certification", "Regional Tourism Ambassador"],
+    specialties: ["Local Craftsmanship"],
+    specialTraining: ["Cultural Sensitivity"],
+  },
+  {
+    id: "guide-bangkok-4",
+    name: "Ava Williams",
+    city: "Bangkok",
+    country: "Thailand",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: true,
+    bio: "Ava is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Art Galleries, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa"],
+    tourTypes: ["Bike Tour", "Wine Tour", "Brewery Tour", "Farm Visit", "Scenic Tour"],
+    maxGroupSize: 5,
+    licenseNumber: "LIC-8528-BAN",
+    phoneNumber: "+1-345-650-8119",
+    contactEmail: "ava.williams@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "04:00 PM",
+          }
         ],
       },
       {
         day: "Wednesday",
         availableHours: [
           {
-            from: "12:00",
-            to: "17:00",
-          },
+            from: "09:00 AM",
+            to: "12:00 PM",
+          }
         ],
       },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      }
     ],
     isCertified: true,
-    description:
-      "James is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Family Activities, Adventure Sports, Historical Landmarks, James provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 92,
-    quote: "Every corner of Bangkok tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/11.jpg",
-    languages: ["Russian"],
-    experienceYears: 3,
-    certifications: ["Professional Tour Guide Association"],
-    specialties: [
-      "Family Activities",
-      "Adventure Sports",
-      "Historical Landmarks",
-    ],
-    specialTraining: ["Mountain Survival", "Regional Cuisine"],
-  },
+    description: "Ava is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Art Galleries, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 62,
+    quote: "The best way to discover Bangkok is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/78.jpg",
+    languages: ["Finnish", "Swahili"],
+    experienceYears: 5,
+    certifications: ["Local History Certification"],
+    specialties: ["Art Galleries"],
+    specialTraining: [],
+  }
 ];

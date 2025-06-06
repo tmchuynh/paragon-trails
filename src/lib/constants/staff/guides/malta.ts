@@ -3,485 +3,418 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const maltamaltamediterraneanGuides: TourGuide[] = [
   {
     id: "guide-malta-1",
-    name: "Mason Davis",
+    name: "Cynthia Jansen",
     city: "Malta",
     country: "Malta",
     state: "",
     region: "Mediterranean",
     isPopular: false,
-    bio: "Mason is a passionate tour guide with extensive knowledge of Malta and Malta. Specializing in Architecture, Family Activities, Indigenous Culture, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
+    bio: "Cynthia is a passionate tour guide with extensive knowledge of Malta and Malta. Specializing in Sustainable Tourism, Wine Tasting, Nightlife, Local Markets, Cynthia provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Northern Europe"],
-    tourTypes: [
-      "Helicopter Tour",
-      "Scenic Tour",
-      "Cultural Tour",
-      "Romantic Tour",
-      "Self-Guided Tour",
-    ],
-    maxGroupSize: 6,
-    licenseNumber: "LIC-2327-MAL",
-    phoneNumber: "+1-688-382-8780",
-    contactEmail: "mason.davis@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Mason is a passionate tour guide with extensive knowledge of Malta and Malta. Specializing in Architecture, Family Activities, Indigenous Culture, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.9,
-    reviewsCount: 54,
-    quote:
-      "Malta isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/men/66.jpg",
-    languages: ["Hebrew", "Cantonese"],
-    experienceYears: 12,
-    certifications: [
-      "Cultural Heritage Specialist",
-      "Regional Tourism Ambassador",
-    ],
-    specialties: ["Architecture", "Family Activities", "Indigenous Culture"],
-    specialTraining: ["Desert Navigation"],
-  },
-  {
-    id: "guide-malta-2",
-    name: "Benjamin Robinson",
-    city: "Malta",
-    country: "Malta",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Benjamin is a passionate tour guide with extensive knowledge of Malta and Malta. Specializing in Architecture, Hidden Gems, Cultural Etiquette, Film Locations, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean", "Africa"],
-    tourTypes: [
-      "Scenic Tour",
-      "Nature Tour",
-      "Private Tour",
-      "Helicopter Tour",
-    ],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-8020-MAL",
-    phoneNumber: "+1-990-527-1769",
-    contactEmail: "benjamin.robinson@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Benjamin is a passionate tour guide with extensive knowledge of Malta and Malta. Specializing in Architecture, Hidden Gems, Cultural Etiquette, Film Locations, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.9,
-    reviewsCount: 72,
-    quote:
-      "Malta isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/3.jpg",
-    languages: ["Swedish"],
-    experienceYears: 12,
-    certifications: [
-      "Licensed City Guide",
-      "Professional Tour Guide Association",
-    ],
-    specialties: [
-      "Architecture",
-      "Hidden Gems",
-      "Cultural Etiquette",
-      "Film Locations",
-    ],
-    specialTraining: ["Desert Navigation", "Emergency Response"],
-  },
-  {
-    id: "guide-malta-3",
-    name: "Alexander Nguyen",
-    city: "Malta",
-    country: "Malta",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Alexander is a passionate tour guide with extensive knowledge of Malta and Malta. Specializing in Art Galleries, Parks & Gardens, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean"],
-    tourTypes: [
-      "Photography Tour",
-      "Museum Tour",
-      "Market Tour",
-      "Relocation Tour",
-      "Ghost Tour",
-    ],
-    maxGroupSize: 10,
-    licenseNumber: "LIC-8439-MAL",
-    phoneNumber: "+1-420-982-1498",
-    contactEmail: "alexander.nguyen@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Alexander is a passionate tour guide with extensive knowledge of Malta and Malta. Specializing in Art Galleries, Parks & Gardens, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.4,
-    reviewsCount: 66,
-    quote:
-      "The best way to discover Malta is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/29.jpg",
-    languages: ["Hindi", "Czech"],
-    experienceYears: 12,
-    certifications: ["Sustainable Tourism Certificate"],
-    specialties: ["Art Galleries", "Parks & Gardens"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-malta-4",
-    name: "Noah Smith",
-    city: "Malta",
-    country: "Malta",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Noah is a passionate tour guide with extensive knowledge of Malta and Malta. Specializing in Wine Tasting, Indigenous Culture, Sustainable Tourism, Religious Sites, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Middle East", "East Coast USA"],
-    tourTypes: ["Private Tour", "Cooking Class"],
-    maxGroupSize: 6,
-    licenseNumber: "LIC-9289-MAL",
-    phoneNumber: "+1-164-981-5111",
-    contactEmail: "noah.smith@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Noah is a passionate tour guide with extensive knowledge of Malta and Malta. Specializing in Wine Tasting, Indigenous Culture, Sustainable Tourism, Religious Sites, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.6,
-    reviewsCount: 20,
-    quote: "In Malta, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/8.jpg",
-    languages: ["Thai", "Hungarian"],
-    experienceYears: 7,
-    certifications: [
-      "Professional Tour Guide Association",
-      "Wilderness First Responder",
-      "Sustainable Tourism Certificate",
-    ],
-    specialties: [
-      "Wine Tasting",
-      "Indigenous Culture",
-      "Sustainable Tourism",
-      "Religious Sites",
-    ],
-    specialTraining: ["Cultural Sensitivity"],
-  },
-  {
-    id: "guide-malta-5",
-    name: "Logan Robinson",
-    city: "Malta",
-    country: "Malta",
-    state: "",
-    region: "Mediterranean",
-    isPopular: true,
-    bio: "Logan is a passionate tour guide with extensive knowledge of Malta and Malta. Specializing in Urban Legends, Sustainable Tourism, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["South America", "Caribbean"],
-    tourTypes: ["Luxury Tour", "Museum Tour"],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-9408-MAL",
-    phoneNumber: "+1-334-236-7584",
-    contactEmail: "logan.robinson@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Logan is a passionate tour guide with extensive knowledge of Malta and Malta. Specializing in Urban Legends, Sustainable Tourism, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.7,
-    reviewsCount: 55,
-    quote:
-      "The best way to discover Malta is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/31.jpg",
-    languages: ["Romanian", "Danish", "Thai"],
-    experienceYears: 12,
-    certifications: ["Certified International Tour Manager"],
-    specialties: ["Urban Legends", "Sustainable Tourism"],
-    specialTraining: ["Public Speaking"],
-  },
-  {
-    id: "guide-malta-6",
-    name: "Aria Nelson",
-    city: "Malta",
-    country: "Malta",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Aria is a passionate tour guide with extensive knowledge of Malta and Malta. Specializing in Public Transportation Navigation, Cultural Etiquette, Photography Spots, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast USA", "West Coast USA"],
-    tourTypes: [
-      "Private Tour",
-      "Scenic Tour",
-      "Accessible Tour",
-      "LGBTQ+ Friendly Tour",
-      "Self-Guided Tour",
-    ],
-    maxGroupSize: 19,
-    licenseNumber: "LIC-8158-MAL",
-    phoneNumber: "+1-453-579-4639",
-    contactEmail: "aria.nelson@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Aria is a passionate tour guide with extensive knowledge of Malta and Malta. Specializing in Public Transportation Navigation, Cultural Etiquette, Photography Spots, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.9,
-    reviewsCount: 100,
-    quote: "In Malta, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/15.jpg",
-    languages: ["German", "Portuguese", "English"],
-    experienceYears: 7,
-    certifications: ["Sustainable Tourism Certificate"],
-    specialties: [
-      "Public Transportation Navigation",
-      "Cultural Etiquette",
-      "Photography Spots",
-    ],
-    specialTraining: ["Local Transit Systems", "Mountain Survival"],
-  },
-  {
-    id: "guide-malta-7",
-    name: "Samuel Nguyen",
-    city: "Malta",
-    country: "Malta",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Samuel is a passionate tour guide with extensive knowledge of Malta and Malta. Specializing in Music Scene, Sustainable Tourism, Film Locations, Samuel provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada"],
-    tourTypes: ["Historical Tour", "Private Tour", "Scenic Tour"],
-    maxGroupSize: 19,
-    licenseNumber: "LIC-2140-MAL",
-    phoneNumber: "+1-603-990-2070",
-    contactEmail: "samuel.nguyen@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Samuel is a passionate tour guide with extensive knowledge of Malta and Malta. Specializing in Music Scene, Sustainable Tourism, Film Locations, Samuel provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.7,
-    reviewsCount: 31,
-    quote: "Every corner of Malta tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/29.jpg",
-    languages: ["Japanese", "Croatian"],
-    experienceYears: 8,
-    certifications: [
-      "Urban Navigation Specialist",
-      "Eco-Tourism Guide",
-      "Local History Certification",
-    ],
-    specialties: ["Music Scene", "Sustainable Tourism", "Film Locations"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-malta-8",
-    name: "Jackson Martinez",
-    city: "Malta",
-    country: "Malta",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Jackson is a passionate tour guide with extensive knowledge of Malta and Malta. Specializing in Wine Tasting, Film Locations, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean", "East Coast USA"],
-    tourTypes: [
-      "Scenic Tour",
-      "Helicopter Tour",
-      "Street Art Tour",
-      "Wildlife Safari",
-    ],
-    maxGroupSize: 11,
-    licenseNumber: "LIC-3532-MAL",
-    phoneNumber: "+1-985-806-4106",
-    contactEmail: "jackson.martinez@paragontrails.com",
+    tourTypes: ["Farm Visit", "Nature Tour", "Adventure Tour", "Boat Tour"],
+    maxGroupSize: 13,
+    licenseNumber: "LIC-9074-MAL",
+    phoneNumber: "+1-401-471-4713",
+    contactEmail: "cynthia.jansen@paragontrails.com",
     available: [
       {
-        day: "Saturday",
+        day: "Friday",
         availableHours: [
           {
-            from: "10:00",
-            to: "13:00",
+            from: "02:00 PM",
+            to: "07:00 PM",
           },
           {
-            from: "08:00",
-            to: "10:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "17:00",
-          },
-          {
-            from: "11:00",
-            to: "17:00",
-          },
+            from: "10:00 AM",
+            to: "12:00 PM",
+          }
         ],
       },
       {
         day: "Wednesday",
         availableHours: [
           {
-            from: "12:00",
-            to: "17:00",
+            from: "09:00 AM",
+            to: "01:00 PM",
           },
+          {
+            from: "01:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Cynthia is a passionate tour guide with extensive knowledge of Malta and Malta. Specializing in Sustainable Tourism, Wine Tasting, Nightlife, Local Markets, Cynthia provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.6,
+    reviewsCount: 26,
+    quote: "Malta isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/65.jpg",
+    languages: ["Croatian", "Japanese"],
+    experienceYears: 6,
+    certifications: ["Language Proficiency Certification", "Urban Navigation Specialist", "Professional Tour Guide Association"],
+    specialties: ["Sustainable Tourism", "Wine Tasting", "Nightlife", "Local Markets"],
+    specialTraining: ["Cultural Sensitivity", "Religious Studies"],
+  },
+  {
+    id: "guide-malta-2",
+    name: "Eugene Müller",
+    city: "Malta",
+    country: "Malta",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Eugene is a passionate tour guide with extensive knowledge of Malta and Malta. Specializing in Hidden Gems, Public Transportation Navigation, Sustainable Tourism, Eugene provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast USA"],
+    tourTypes: ["LGBTQ+ Friendly Tour", "Eco Tour", "Architecture Tour", "Group Tour"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-5358-MAL",
+    phoneNumber: "+1-646-356-2199",
+    contactEmail: "eugene.müller@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "03:00 PM",
+          }
         ],
       },
       {
         day: "Monday",
         availableHours: [
           {
-            from: "14:00",
-            to: "19:00",
-          },
+            from: "10:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Eugene is a passionate tour guide with extensive knowledge of Malta and Malta. Specializing in Hidden Gems, Public Transportation Navigation, Sustainable Tourism, Eugene provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 55,
+    quote: "My goal is to help you fall in love with Malta just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/10.jpg",
+    languages: ["Romanian"],
+    experienceYears: 2,
+    certifications: ["Professional Tour Guide Association", "Licensed City Guide"],
+    specialties: ["Hidden Gems", "Public Transportation Navigation", "Sustainable Tourism"],
+    specialTraining: ["Marine Biology"],
+  },
+  {
+    id: "guide-malta-3",
+    name: "Riley Dixon",
+    city: "Malta",
+    country: "Malta",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Riley is a passionate tour guide with extensive knowledge of Malta and Malta. Specializing in Wine Tasting, Urban Legends, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["West Coast USA"],
+    tourTypes: ["Family-Friendly Tour", "Romantic Tour", "Eco Tour", "Street Art Tour"],
+    maxGroupSize: 10,
+    licenseNumber: "LIC-7012-MAL",
+    phoneNumber: "+1-831-441-5337",
+    contactEmail: "riley.dixon@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "08:00 PM",
+          }
         ],
       },
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "15:00",
-            to: "19:00",
-          },
+            from: "11:00 AM",
+            to: "03:00 PM",
+          }
         ],
       },
-    ],
-    isCertified: true,
-    description:
-      "Jackson is a passionate tour guide with extensive knowledge of Malta and Malta. Specializing in Wine Tasting, Film Locations, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.2,
-    reviewsCount: 60,
-    quote: "My goal is to help you fall in love with Malta just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/52.jpg",
-    languages: ["French", "Serbian", "Tagalog"],
-    experienceYears: 16,
-    certifications: ["Regional Tourism Ambassador", "Eco-Tourism Guide"],
-    specialties: ["Wine Tasting", "Film Locations"],
-    specialTraining: ["Conflict Resolution", "Historical Research Methods"],
-  },
-  {
-    id: "guide-malta-9",
-    name: "Owen Lee",
-    city: "Malta",
-    country: "Malta",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Owen is a passionate tour guide with extensive knowledge of Malta and Malta. Specializing in Wine Tasting, Owen provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada", "Northern Europe"],
-    tourTypes: [
-      "Underground Tour",
-      "Architecture Tour",
-      "Helicopter Tour",
-      "Scenic Tour",
-      "Adventure Tour",
-    ],
-    maxGroupSize: 15,
-    licenseNumber: "LIC-5696-MAL",
-    phoneNumber: "+1-523-876-7134",
-    contactEmail: "owen.lee@paragontrails.com",
-    available: [
       {
         day: "Friday",
         availableHours: [
           {
-            from: "08:00",
-            to: "14:00",
+            from: "09:00 AM",
+            to: "02:00 PM",
           },
+          {
+            from: "02:00 PM",
+            to: "08:00 PM",
+          }
         ],
       },
       {
         day: "Monday",
         availableHours: [
           {
-            from: "13:00",
-            to: "19:00",
-          },
+            from: "09:00 AM",
+            to: "11:00 AM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Riley is a passionate tour guide with extensive knowledge of Malta and Malta. Specializing in Wine Tasting, Urban Legends, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.5,
+    reviewsCount: 66,
+    quote: "Every corner of Malta tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/45.jpg",
+    languages: ["Croatian", "Polish"],
+    experienceYears: 11,
+    certifications: ["Certified International Tour Manager", "Adventure Tourism Safety Certificate"],
+    specialties: ["Wine Tasting", "Urban Legends"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-malta-4",
+    name: "Dylan Martin",
+    city: "Malta",
+    country: "Malta",
+    state: "",
+    region: "Mediterranean",
+    isPopular: true,
+    bio: "Dylan is a passionate tour guide with extensive knowledge of Malta and Malta. Specializing in Street Food, Parks & Gardens, Dylan provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific", "South America"],
+    tourTypes: ["Cooking Class", "Bike Tour"],
+    maxGroupSize: 17,
+    licenseNumber: "LIC-4063-MAL",
+    phoneNumber: "+1-910-829-6820",
+    contactEmail: "dylan.martin@paragontrails.com",
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "03:00 PM",
+          }
         ],
       },
       {
         day: "Wednesday",
         availableHours: [
           {
-            from: "13:00",
-            to: "19:00",
+            from: "11:00 AM",
+            to: "02:00 PM",
           },
           {
-            from: "10:00",
-            to: "12:00",
-          },
+            from: "08:00 AM",
+            to: "02:00 PM",
+          }
         ],
       },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "03:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "08:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      }
     ],
     isCertified: true,
-    description:
-      "Owen is a passionate tour guide with extensive knowledge of Malta and Malta. Specializing in Wine Tasting, Owen provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.7,
-    reviewsCount: 52,
-    quote:
-      "The best way to discover Malta is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/24.jpg",
-    languages: ["Finnish", "German"],
-    experienceYears: 15,
-    certifications: [
-      "Certified International Tour Manager",
-      "CPR & First Aid",
-      "Eco-Tourism Guide",
-    ],
-    specialties: ["Wine Tasting"],
-    specialTraining: ["Group Management"],
+    description: "Dylan is a passionate tour guide with extensive knowledge of Malta and Malta. Specializing in Street Food, Parks & Gardens, Dylan provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.7,
+    reviewsCount: 42,
+    quote: "My goal is to help you fall in love with Malta just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/51.jpg",
+    languages: ["Finnish", "Japanese"],
+    experienceYears: 4,
+    certifications: ["Food Safety Certification", "Language Proficiency Certification", "Local History Certification"],
+    specialties: ["Street Food", "Parks & Gardens"],
+    specialTraining: [],
   },
   {
-    id: "guide-malta-10",
-    name: "Owen AdAMS",
+    id: "guide-malta-5",
+    name: "Terry Rossi",
     city: "Malta",
     country: "Malta",
     state: "",
     region: "Mediterranean",
     isPopular: false,
-    bio: "Owen is a passionate tour guide with extensive knowledge of Malta and Malta. Specializing in LGBTQ+ History, Owen provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean"],
-    tourTypes: ["Helicopter Tour", "Off-Road Tour"],
-    maxGroupSize: 6,
-    licenseNumber: "LIC-6912-MAL",
-    phoneNumber: "+1-970-213-4331",
-    contactEmail: "owen.adams@paragontrails.com",
+    bio: "Terry is a passionate tour guide with extensive knowledge of Malta and Malta. Specializing in Urban Legends, Photography Spots, Terry provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Alaska", "East Coast Canada"],
+    tourTypes: ["Cooking Class", "Bike Tour", "Market Tour"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-6253-MAL",
+    phoneNumber: "+1-452-788-1484",
+    contactEmail: "terry.rossi@paragontrails.com",
     available: [
       {
-        day: "Wednesday",
+        day: "Saturday",
         availableHours: [
           {
-            from: "13:00",
-            to: "18:00",
+            from: "11:00 AM",
+            to: "05:00 PM",
           },
+          {
+            from: "01:00 PM",
+            to: "04:00 PM",
+          }
         ],
       },
       {
         day: "Sunday",
         availableHours: [
           {
-            from: "13:00",
-            to: "15:00",
-          },
+            from: "09:00 AM",
+            to: "11:00 AM",
+          }
         ],
       },
       {
-        day: "Monday",
+        day: "Wednesday",
         availableHours: [
           {
-            from: "14:00",
-            to: "19:00",
-          },
-          {
-            from: "10:00",
-            to: "12:00",
-          },
+            from: "03:00 PM",
+            to: "08:00 PM",
+          }
         ],
       },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "03:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "12:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      }
     ],
     isCertified: true,
-    description:
-      "Owen is a passionate tour guide with extensive knowledge of Malta and Malta. Specializing in LGBTQ+ History, Owen provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.5,
-    reviewsCount: 63,
-    quote:
-      "Malta isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/23.jpg",
-    languages: ["Czech", "Serbian", "Italian"],
-    experienceYears: 14,
-    certifications: [
-      "Local History Certification",
-      "Certified International Tour Manager",
-    ],
-    specialties: ["LGBTQ+ History"],
-    specialTraining: [],
+    description: "Terry is a passionate tour guide with extensive knowledge of Malta and Malta. Specializing in Urban Legends, Photography Spots, Terry provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 33,
+    quote: "Malta isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/74.jpg",
+    languages: ["Croatian", "Hungarian"],
+    experienceYears: 13,
+    certifications: ["Licensed City Guide", "CPR & First Aid", "Language Proficiency Certification"],
+    specialties: ["Urban Legends", "Photography Spots"],
+    specialTraining: ["Cultural Sensitivity"],
   },
+  {
+    id: "guide-malta-6",
+    name: "Santiago Fox",
+    city: "Malta",
+    country: "Malta",
+    state: "",
+    region: "Mediterranean",
+    isPopular: true,
+    bio: "Santiago is a passionate tour guide with extensive knowledge of Malta and Malta. Specializing in Hidden Gems, Historical Landmarks, Santiago provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific"],
+    tourTypes: ["Wine Tour", "Brewery Tour"],
+    maxGroupSize: 14,
+    licenseNumber: "LIC-7771-MAL",
+    phoneNumber: "+1-175-845-6531",
+    contactEmail: "santiago.fox@paragontrails.com",
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "05:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Santiago is a passionate tour guide with extensive knowledge of Malta and Malta. Specializing in Hidden Gems, Historical Landmarks, Santiago provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.4,
+    reviewsCount: 46,
+    quote: "In Malta, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/49.jpg",
+    languages: ["Norwegian", "Swedish"],
+    experienceYears: 13,
+    certifications: ["Adventure Tourism Safety Certificate", "Local History Certification"],
+    specialties: ["Hidden Gems", "Historical Landmarks"],
+    specialTraining: ["Public Speaking", "Accessibility Services"],
+  }
 ];

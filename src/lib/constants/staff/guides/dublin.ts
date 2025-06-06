@@ -3,448 +3,542 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const dublinirelandnorthernEuropeGuides: TourGuide[] = [
   {
     id: "guide-dublin-1",
-    name: "Madison Martinez",
+    name: "Hannah Hudson",
     city: "Dublin",
     country: "Ireland",
     state: "",
     region: "Northern Europe",
     isPopular: false,
-    bio: "Madison is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Local Craftsmanship, Wildlife, Urban Legends, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Northern Europe"],
-    tourTypes: [
-      "Scenic Tour",
-      "Family-Friendly Tour",
-      "Self-Guided Tour",
-      "Cruise Excursion",
+    bio: "Hannah is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Local Cuisine, LGBTQ+ History, Hannah provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Mediterranean", "Alaska"],
+    tourTypes: ["Craft Workshop", "Boat Tour", "Family-Friendly Tour", "Private Tour", "Brewery Tour"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-5496-DUB",
+    phoneNumber: "+1-584-692-6964",
+    contactEmail: "hannah.hudson@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "12:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "02:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "07:00 PM",
+          },
+          {
+            from: "02:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      }
     ],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-8611-DUB",
-    phoneNumber: "+1-326-807-9969",
-    contactEmail: "madison.martinez@paragontrails.com",
-    available: [],
     isCertified: true,
-    description:
-      "Madison is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Local Craftsmanship, Wildlife, Urban Legends, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 5,
-    reviewsCount: 79,
-    quote: "My goal is to help you fall in love with Dublin just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/50.jpg",
-    languages: ["Vietnamese"],
-    experienceYears: 10,
-    certifications: ["Professional Tour Guide Association"],
-    specialties: ["Local Craftsmanship", "Wildlife", "Urban Legends"],
-    specialTraining: ["Urban Planning"],
+    description: "Hannah is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Local Cuisine, LGBTQ+ History, Hannah provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.3,
+    reviewsCount: 35,
+    quote: "Dublin isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/4.jpg",
+    languages: ["Korean", "French", "Japanese"],
+    experienceYears: 14,
+    certifications: ["Cultural Heritage Specialist"],
+    specialties: ["Local Cuisine", "LGBTQ+ History"],
+    specialTraining: ["Local Transit Systems", "Religious Studies"],
   },
   {
     id: "guide-dublin-2",
-    name: "Elijah Torres",
+    name: "Ahmed Stewart",
+    city: "Dublin",
+    country: "Ireland",
+    state: "",
+    region: "Northern Europe",
+    isPopular: false,
+    bio: "Ahmed is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Indigenous Culture, Sustainable Tourism, Wildlife, Street Food, Ahmed provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East"],
+    tourTypes: ["Farm Visit", "Adventure Tour"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-2427-DUB",
+    phoneNumber: "+1-800-209-1835",
+    contactEmail: "ahmed.stewart@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "12:00 PM",
+          },
+          {
+            from: "11:00 AM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "12:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "11:00 AM",
+          },
+          {
+            from: "08:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Ahmed is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Indigenous Culture, Sustainable Tourism, Wildlife, Street Food, Ahmed provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.5,
+    reviewsCount: 49,
+    quote: "Dublin isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/63.jpg",
+    languages: ["Croatian", "Hungarian"],
+    experienceYears: 2,
+    certifications: ["Licensed City Guide", "Sustainable Tourism Certificate", "Food Safety Certification"],
+    specialties: ["Indigenous Culture", "Sustainable Tourism", "Wildlife", "Street Food"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-dublin-3",
+    name: "Christopher Clark",
+    city: "Dublin",
+    country: "Ireland",
+    state: "",
+    region: "Northern Europe",
+    isPopular: false,
+    bio: "Christopher is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Family Activities, Architecture, LGBTQ+ History, Historical Landmarks, Christopher provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Northern Europe"],
+    tourTypes: ["Private Tour", "Cultural Tour", "Romantic Tour", "Scenic Tour", "Eco Tour"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-1641-DUB",
+    phoneNumber: "+1-337-956-6369",
+    contactEmail: "christopher.clark@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "11:00 AM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "09:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "08:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Christopher is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Family Activities, Architecture, LGBTQ+ History, Historical Landmarks, Christopher provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.7,
+    reviewsCount: 90,
+    quote: "My goal is to help you fall in love with Dublin just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/51.jpg",
+    languages: ["Polish", "Romanian"],
+    experienceYears: 5,
+    certifications: ["Wilderness First Responder"],
+    specialties: ["Family Activities", "Architecture", "LGBTQ+ History", "Historical Landmarks"],
+    specialTraining: ["Marine Biology"],
+  },
+  {
+    id: "guide-dublin-4",
+    name: "Hiroshi Jackson",
+    city: "Dublin",
+    country: "Ireland",
+    state: "",
+    region: "Northern Europe",
+    isPopular: false,
+    bio: "Hiroshi is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in LGBTQ+ History, Hiroshi provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East"],
+    tourTypes: ["Brewery Tour", "Street Art Tour", "Relocation Tour", "Farm Visit", "Shopping Tour"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-7061-DUB",
+    phoneNumber: "+1-405-541-9545",
+    contactEmail: "hiroshi.jackson@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Hiroshi is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in LGBTQ+ History, Hiroshi provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.2,
+    reviewsCount: 97,
+    quote: "Dublin isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/25.jpg",
+    languages: ["Bulgarian", "Hungarian", "Portuguese"],
+    experienceYears: 16,
+    certifications: ["Cultural Heritage Specialist"],
+    specialties: ["LGBTQ+ History"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-dublin-5",
+    name: "Ali Carpenter",
+    city: "Dublin",
+    country: "Ireland",
+    state: "",
+    region: "Northern Europe",
+    isPopular: false,
+    bio: "Ali is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Local Craftsmanship, Wildlife, Ali provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Mediterranean"],
+    tourTypes: ["Wine Tour", "Off-Road Tour", "Romantic Tour", "Nature Tour"],
+    maxGroupSize: 12,
+    licenseNumber: "LIC-5646-DUB",
+    phoneNumber: "+1-307-981-6061",
+    contactEmail: "ali.carpenter@paragontrails.com",
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "10:00 AM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "05:00 PM",
+          },
+          {
+            from: "11:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Ali is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Local Craftsmanship, Wildlife, Ali provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4,
+    reviewsCount: 41,
+    quote: "My goal is to help you fall in love with Dublin just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/76.jpg",
+    languages: ["Finnish"],
+    experienceYears: 13,
+    certifications: ["Wilderness First Responder"],
+    specialties: ["Local Craftsmanship", "Wildlife"],
+    specialTraining: ["Archaeological Conservation"],
+  },
+  {
+    id: "guide-dublin-6",
+    name: "Kevin Day",
+    city: "Dublin",
+    country: "Ireland",
+    state: "",
+    region: "Northern Europe",
+    isPopular: false,
+    bio: "Kevin is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Urban Legends, Kevin provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America"],
+    tourTypes: ["Nature Tour", "Accessible Tour", "Farm Visit", "Wildlife Safari"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-5452-DUB",
+    phoneNumber: "+1-825-571-5493",
+    contactEmail: "kevin.day@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "08:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "08:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "08:00 PM",
+          },
+          {
+            from: "11:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Kevin is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Urban Legends, Kevin provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.4,
+    reviewsCount: 62,
+    quote: "In Dublin, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/67.jpg",
+    languages: ["Finnish", "Greek"],
+    experienceYears: 5,
+    certifications: ["Adventure Tourism Safety Certificate", "Regional Tourism Ambassador", "Urban Navigation Specialist"],
+    specialties: ["Urban Legends"],
+    specialTraining: ["Art History", "Local Flora & Fauna"],
+  },
+  {
+    id: "guide-dublin-7",
+    name: "Skylar Morgan",
     city: "Dublin",
     country: "Ireland",
     state: "",
     region: "Northern Europe",
     isPopular: true,
-    bio: "Elijah is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Wine Tasting, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean", "Asia Pacific"],
-    tourTypes: [
-      "Architecture Tour",
-      "Nature Tour",
-      "Eco Tour",
-      "Wildlife Safari",
-      "Food Tour",
-    ],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-1616-DUB",
-    phoneNumber: "+1-856-744-5404",
-    contactEmail: "elijah.torres@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Elijah is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Wine Tasting, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.4,
-    reviewsCount: 16,
-    quote:
-      "Dublin isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/men/59.jpg",
-    languages: ["Spanish", "Tagalog", "Thai"],
-    experienceYears: 11,
-    certifications: [
-      "Cultural Heritage Specialist",
-      "Sustainable Tourism Certificate",
-      "Adventure Tourism Safety Certificate",
-    ],
-    specialties: ["Wine Tasting"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-dublin-3",
-    name: "Amelia Green",
-    city: "Dublin",
-    country: "Ireland",
-    state: "",
-    region: "Northern Europe",
-    isPopular: false,
-    bio: "Amelia is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Sustainable Tourism, Art Galleries, Local Markets, Adventure Sports, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["South America"],
-    tourTypes: [
-      "Shopping Tour",
-      "Accessible Tour",
-      "LGBTQ+ Friendly Tour",
-      "Family-Friendly Tour",
-    ],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-6298-DUB",
-    phoneNumber: "+1-212-717-5769",
-    contactEmail: "amelia.green@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Amelia is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Sustainable Tourism, Art Galleries, Local Markets, Adventure Sports, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.7,
-    reviewsCount: 57,
-    quote: "My goal is to help you fall in love with Dublin just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/1.jpg",
-    languages: ["English"],
-    experienceYears: 9,
-    certifications: [
-      "Sustainable Tourism Certificate",
-      "Local History Certification",
-      "Licensed City Guide",
-    ],
-    specialties: [
-      "Sustainable Tourism",
-      "Art Galleries",
-      "Local Markets",
-      "Adventure Sports",
-    ],
-    specialTraining: ["Religious Studies"],
-  },
-  {
-    id: "guide-dublin-4",
-    name: "Victoria Martin",
-    city: "Dublin",
-    country: "Ireland",
-    state: "",
-    region: "Northern Europe",
-    isPopular: false,
-    bio: "Victoria is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Wine Tasting, Museums, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Middle East"],
-    tourTypes: ["Craft Workshop", "Historical Tour"],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-8494-DUB",
-    phoneNumber: "+1-833-813-3196",
-    contactEmail: "victoria.martin@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Victoria is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Wine Tasting, Museums, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.5,
-    reviewsCount: 7,
-    quote: "Every corner of Dublin tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/35.jpg",
-    languages: ["Finnish", "Dutch", "Hungarian"],
-    experienceYears: 16,
-    certifications: ["Eco-Tourism Guide"],
-    specialties: ["Wine Tasting", "Museums"],
-    specialTraining: ["Historical Research Methods", "Regional Cuisine"],
-  },
-  {
-    id: "guide-dublin-5",
-    name: "Penelope Lewis",
-    city: "Dublin",
-    country: "Ireland",
-    state: "",
-    region: "Northern Europe",
-    isPopular: false,
-    bio: "Penelope is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Film Locations, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["South America", "West Coast USA"],
-    tourTypes: ["Historical Tour", "Helicopter Tour", "Adventure Tour"],
-    maxGroupSize: 19,
-    licenseNumber: "LIC-7230-DUB",
-    phoneNumber: "+1-244-394-2816",
-    contactEmail: "penelope.lewis@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Penelope is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Film Locations, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.6,
-    reviewsCount: 104,
-    quote:
-      "The best way to discover Dublin is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/12.jpg",
-    languages: ["Cantonese"],
-    experienceYears: 5,
-    certifications: ["Wilderness First Responder", "Eco-Tourism Guide"],
-    specialties: ["Film Locations"],
-    specialTraining: ["Wine Education", "Emergency Response"],
-  },
-  {
-    id: "guide-dublin-6",
-    name: "Daniel Clark",
-    city: "Dublin",
-    country: "Ireland",
-    state: "",
-    region: "Northern Europe",
-    isPopular: false,
-    bio: "Daniel is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Nightlife, Wine Tasting, Local Markets, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean", "Asia Pacific"],
-    tourTypes: ["Photography Tour", "Religious Tour"],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-7148-DUB",
-    phoneNumber: "+1-201-469-7638",
-    contactEmail: "daniel.clark@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Daniel is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Nightlife, Wine Tasting, Local Markets, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.7,
-    reviewsCount: 49,
-    quote:
-      "Dublin isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/1.jpg",
-    languages: ["Korean", "Hungarian", "Malay"],
-    experienceYears: 5,
-    certifications: [
-      "Local History Certification",
-      "Eco-Tourism Guide",
-      "CPR & First Aid",
-    ],
-    specialties: ["Nightlife", "Wine Tasting", "Local Markets"],
-    specialTraining: ["Art History"],
-  },
-  {
-    id: "guide-dublin-7",
-    name: "Chloe Lopez",
-    city: "Dublin",
-    country: "Ireland",
-    state: "",
-    region: "Northern Europe",
-    isPopular: false,
-    bio: "Chloe is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Local Markets, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Asia Pacific"],
-    tourTypes: ["Scenic Tour", "Brewery Tour", "Off-Road Tour"],
-    maxGroupSize: 11,
-    licenseNumber: "LIC-4971-DUB",
-    phoneNumber: "+1-288-807-7939",
-    contactEmail: "chloe.lopez@paragontrails.com",
+    bio: "Skylar is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Architecture, Cultural Etiquette, Family Activities, Nightlife, Skylar provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Mediterranean", "South America"],
+    tourTypes: ["Photography Tour", "Group Tour", "Underground Tour", "Wine Tour"],
+    maxGroupSize: 14,
+    licenseNumber: "LIC-6697-DUB",
+    phoneNumber: "+1-428-116-7521",
+    contactEmail: "skylar.morgan@paragontrails.com",
     available: [
       {
-        day: "Wednesday",
+        day: "Monday",
         availableHours: [
           {
-            from: "13:00",
-            to: "19:00",
-          },
-          {
-            from: "09:00",
-            to: "11:00",
-          },
+            from: "12:00 PM",
+            to: "05:00 PM",
+          }
         ],
       },
       {
-        day: "Saturday",
+        day: "Thursday",
         availableHours: [
           {
-            from: "12:00",
-            to: "17:00",
+            from: "03:00 PM",
+            to: "08:00 PM",
           },
           {
-            from: "12:00",
-            to: "18:00",
-          },
+            from: "08:00 AM",
+            to: "01:00 PM",
+          }
         ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "18:00",
-          },
-          {
-            from: "09:00",
-            to: "13:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "16:00",
-          },
-          {
-            from: "09:00",
-            to: "14:00",
-          },
-        ],
-      },
+      }
     ],
     isCertified: true,
-    description:
-      "Chloe is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Local Markets, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.5,
-    reviewsCount: 98,
-    quote: "Every corner of Dublin tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/49.jpg",
-    languages: ["Swedish"],
-    experienceYears: 16,
-    certifications: [
-      "Certified International Tour Manager",
-      "Heritage Interpretation Certificate",
-    ],
-    specialties: ["Local Markets"],
-    specialTraining: ["Urban Planning", "Emergency Response"],
+    description: "Skylar is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Architecture, Cultural Etiquette, Family Activities, Nightlife, Skylar provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.3,
+    reviewsCount: 54,
+    quote: "In Dublin, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/45.jpg",
+    languages: ["Japanese", "Russian"],
+    experienceYears: 7,
+    certifications: ["Food Safety Certification", "Cultural Heritage Specialist"],
+    specialties: ["Architecture", "Cultural Etiquette", "Family Activities", "Nightlife"],
+    specialTraining: ["Wine Education"],
   },
   {
     id: "guide-dublin-8",
-    name: "Isabella Hall",
+    name: "Billy Martin",
     city: "Dublin",
     country: "Ireland",
     state: "",
     region: "Northern Europe",
     isPopular: false,
-    bio: "Isabella is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Parks & Gardens, Photography Spots, Wildlife, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["West Coast USA", "East Coast Canada"],
-    tourTypes: [
-      "Craft Workshop",
-      "Cruise Excursion",
-      "Architecture Tour",
-      "Relocation Tour",
-    ],
-    maxGroupSize: 14,
-    licenseNumber: "LIC-8411-DUB",
-    phoneNumber: "+1-312-709-7238",
-    contactEmail: "isabella.hall@paragontrails.com",
+    bio: "Billy is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Indigenous Culture, Urban Legends, Music Scene, Billy provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean"],
+    tourTypes: ["Group Tour", "Photography Tour"],
+    maxGroupSize: 8,
+    licenseNumber: "LIC-6271-DUB",
+    phoneNumber: "+1-417-356-2190",
+    contactEmail: "billy.martin@paragontrails.com",
     available: [
       {
         day: "Sunday",
         availableHours: [
           {
-            from: "12:00",
-            to: "15:00",
+            from: "09:00 AM",
+            to: "12:00 PM",
           },
           {
-            from: "10:00",
-            to: "14:00",
-          },
+            from: "08:00 AM",
+            to: "12:00 PM",
+          }
         ],
       },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "13:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "16:00",
-          },
-          {
-            from: "12:00",
-            to: "18:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Isabella is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Parks & Gardens, Photography Spots, Wildlife, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.6,
-    reviewsCount: 27,
-    quote:
-      "The best way to discover Dublin is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/52.jpg",
-    languages: ["Swahili", "Tagalog"],
-    experienceYears: 10,
-    certifications: ["CPR & First Aid"],
-    specialties: ["Parks & Gardens", "Photography Spots", "Wildlife"],
-    specialTraining: ["Cultural Sensitivity"],
-  },
-  {
-    id: "guide-dublin-9",
-    name: "Joseph Taylor",
-    city: "Dublin",
-    country: "Ireland",
-    state: "",
-    region: "Northern Europe",
-    isPopular: false,
-    bio: "Joseph is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Street Food, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean"],
-    tourTypes: [
-      "Religious Tour",
-      "Adventure Tour",
-      "Boat Tour",
-      "Underground Tour",
-    ],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-3269-DUB",
-    phoneNumber: "+1-757-429-7498",
-    contactEmail: "joseph.taylor@paragontrails.com",
-    available: [
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "11:00",
-            to: "13:00",
+            from: "10:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "04:00 PM",
           },
           {
-            from: "09:00",
-            to: "12:00",
-          },
+            from: "03:00 PM",
+            to: "09:00 PM",
+          }
         ],
       },
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "09:00",
-            to: "15:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "16:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "15:00",
+            from: "09:00 AM",
+            to: "02:00 PM",
           },
           {
-            from: "11:00",
-            to: "13:00",
-          },
+            from: "08:00 AM",
+            to: "01:00 PM",
+          }
         ],
-      },
+      }
     ],
     isCertified: true,
-    description:
-      "Joseph is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Street Food, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.4,
-    reviewsCount: 42,
-    quote:
-      "Dublin isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/70.jpg",
-    languages: ["Greek"],
-    experienceYears: 4,
-    certifications: ["CPR & First Aid"],
-    specialties: ["Street Food"],
-    specialTraining: [],
-  },
+    description: "Billy is a passionate tour guide with extensive knowledge of Dublin and Ireland. Specializing in Indigenous Culture, Urban Legends, Music Scene, Billy provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 68,
+    quote: "The best way to discover Dublin is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/19.jpg",
+    languages: ["Thai"],
+    experienceYears: 8,
+    certifications: ["Urban Navigation Specialist", "Regional Tourism Ambassador", "Food Safety Certification"],
+    specialties: ["Indigenous Culture", "Urban Legends", "Music Scene"],
+    specialTraining: ["Group Management", "Emergency Response"],
+  }
 ];

@@ -3,338 +3,349 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
   {
     id: "guide-san-juan-1",
-    name: "Logan Miller",
+    name: "Chloe Anderson",
     city: "San Juan",
     country: "Puerto Rico",
     state: "",
     region: "Caribbean",
     isPopular: false,
-    bio: "Logan is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Public Transportation Navigation, Urban Legends, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Africa"],
-    tourTypes: ["Food Tour", "Cultural Tour"],
-    maxGroupSize: 14,
-    licenseNumber: "LIC-5542-SAN",
-    phoneNumber: "+1-906-291-9367",
-    contactEmail: "logan.miller@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Logan is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Public Transportation Navigation, Urban Legends, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.6,
-    reviewsCount: 28,
-    quote:
-      "San Juan isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/men/62.jpg",
-    languages: ["Cantonese"],
-    experienceYears: 10,
-    certifications: ["Regional Tourism Ambassador"],
-    specialties: ["Public Transportation Navigation", "Urban Legends"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-san-juan-2",
-    name: "Ella Lopez",
-    city: "San Juan",
-    country: "Puerto Rico",
-    state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "Ella is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Music Scene, Art Galleries, Museums, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
+    bio: "Chloe is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Film Locations, Indigenous Culture, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast USA"],
-    tourTypes: ["Off-Road Tour", "Farm Visit", "Romantic Tour"],
-    maxGroupSize: 5,
-    licenseNumber: "LIC-1233-SAN",
-    phoneNumber: "+1-241-578-2821",
-    contactEmail: "ella.lopez@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Ella is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Music Scene, Art Galleries, Museums, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.8,
-    reviewsCount: 55,
-    quote: "In San Juan, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/26.jpg",
-    languages: ["Polish", "Mandarin"],
-    experienceYears: 15,
-    certifications: [
-      "Regional Tourism Ambassador",
-      "Professional Tour Guide Association",
-    ],
-    specialties: ["Music Scene", "Art Galleries", "Museums"],
-    specialTraining: ["Religious Studies", "Regional Geology"],
-  },
-  {
-    id: "guide-san-juan-3",
-    name: "Ethan King",
-    city: "San Juan",
-    country: "Puerto Rico",
-    state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "Ethan is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Hidden Gems, Public Transportation Navigation, Wine Tasting, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast USA"],
-    tourTypes: [
-      "Private Tour",
-      "Walking Tour",
-      "Nature Tour",
-      "Architecture Tour",
-      "Museum Tour",
-    ],
-    maxGroupSize: 8,
-    licenseNumber: "LIC-9526-SAN",
-    phoneNumber: "+1-233-972-1571",
-    contactEmail: "ethan.king@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Ethan is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Hidden Gems, Public Transportation Navigation, Wine Tasting, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.3,
-    reviewsCount: 10,
-    quote:
-      "Every corner of San Juan tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/5.jpg",
-    languages: ["Swedish"],
-    experienceYears: 6,
-    certifications: [
-      "Regional Tourism Ambassador",
-      "Language Proficiency Certification",
-    ],
-    specialties: [
-      "Hidden Gems",
-      "Public Transportation Navigation",
-      "Wine Tasting",
-    ],
-    specialTraining: [],
-  },
-  {
-    id: "guide-san-juan-4",
-    name: "Mason Young",
-    city: "San Juan",
-    country: "Puerto Rico",
-    state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "Mason is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Public Transportation Navigation, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean"],
-    tourTypes: ["Cultural Tour", "Cruise Excursion"],
-    maxGroupSize: 17,
-    licenseNumber: "LIC-1117-SAN",
-    phoneNumber: "+1-171-166-3381",
-    contactEmail: "mason.young@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Mason is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Public Transportation Navigation, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.7,
-    reviewsCount: 29,
-    quote: "In San Juan, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/31.jpg",
-    languages: ["Japanese", "Swahili", "Romanian"],
-    experienceYears: 2,
-    certifications: ["CPR & First Aid", "Professional Tour Guide Association"],
-    specialties: ["Public Transportation Navigation"],
-    specialTraining: ["Marine Biology"],
-  },
-  {
-    id: "guide-san-juan-5",
-    name: "Victoria Campbell",
-    city: "San Juan",
-    country: "Puerto Rico",
-    state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "Victoria is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Local Cuisine, Film Locations, Sustainable Tourism, Family Activities, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Asia Pacific"],
-    tourTypes: [
-      "Nature Tour",
-      "Cultural Tour",
-      "Romantic Tour",
-      "Farm Visit",
-      "Shopping Tour",
-    ],
+    tourTypes: ["Photography Tour", "Group Tour", "Audio Tour", "LGBTQ+ Friendly Tour", "Nature Tour"],
     maxGroupSize: 11,
-    licenseNumber: "LIC-5224-SAN",
-    phoneNumber: "+1-936-146-6125",
-    contactEmail: "victoria.campbell@paragontrails.com",
+    licenseNumber: "LIC-1244-SAN",
+    phoneNumber: "+1-588-653-5002",
+    contactEmail: "chloe.anderson@paragontrails.com",
     available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "05:00 PM",
+          }
+        ],
+      },
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "08:00",
-            to: "13:00",
-          },
-          {
-            from: "14:00",
-            to: "16:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "18:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Victoria is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Local Cuisine, Film Locations, Sustainable Tourism, Family Activities, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 50,
-    quote: "In San Juan, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/36.jpg",
-    languages: ["Thai"],
-    experienceYears: 16,
-    certifications: ["Certified International Tour Manager"],
-    specialties: [
-      "Local Cuisine",
-      "Film Locations",
-      "Sustainable Tourism",
-      "Family Activities",
-    ],
-    specialTraining: ["Local Transit Systems", "Public Speaking"],
-  },
-  {
-    id: "guide-san-juan-6",
-    name: "Lily Roberts",
-    city: "San Juan",
-    country: "Puerto Rico",
-    state: "",
-    region: "Caribbean",
-    isPopular: true,
-    bio: "Lily is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Museums, Film Locations, Indigenous Culture, Lily provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Middle East", "Northern Europe"],
-    tourTypes: ["Self-Guided Tour", "Food Tour", "Eco Tour"],
-    maxGroupSize: 18,
-    licenseNumber: "LIC-3900-SAN",
-    phoneNumber: "+1-254-273-9887",
-    contactEmail: "lily.roberts@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "17:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "20:00",
-          },
+            from: "11:00 AM",
+            to: "03:00 PM",
+          }
         ],
       },
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "09:00",
-            to: "13:00",
+            from: "01:00 PM",
+            to: "07:00 PM",
           },
+          {
+            from: "01:00 PM",
+            to: "06:00 PM",
+          }
         ],
       },
       {
-        day: "Monday",
+        day: "Tuesday",
         availableHours: [
           {
-            from: "14:00",
-            to: "18:00",
+            from: "02:00 PM",
+            to: "08:00 PM",
           },
+          {
+            from: "10:00 AM",
+            to: "02:00 PM",
+          }
         ],
-      },
+      }
     ],
     isCertified: true,
-    description:
-      "Lily is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Museums, Film Locations, Indigenous Culture, Lily provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 70,
-    quote:
-      "The best way to discover San Juan is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/11.jpg",
-    languages: ["Cantonese"],
+    description: "Chloe is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Film Locations, Indigenous Culture, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.9,
+    reviewsCount: 98,
+    quote: "My goal is to help you fall in love with San Juan just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/40.jpg",
+    languages: ["Bulgarian"],
     experienceYears: 14,
-    certifications: ["Eco-Tourism Guide"],
-    specialties: ["Museums", "Film Locations", "Indigenous Culture"],
-    specialTraining: [],
+    certifications: ["Food Safety Certification", "Wilderness First Responder", "Urban Navigation Specialist"],
+    specialties: ["Film Locations", "Indigenous Culture"],
+    specialTraining: ["Urban Planning", "Photography"],
   },
   {
-    id: "guide-san-juan-7",
-    name: "Victoria Torres",
+    id: "guide-san-juan-2",
+    name: "Evelyn Wood",
     city: "San Juan",
     country: "Puerto Rico",
     state: "",
     region: "Caribbean",
     isPopular: false,
-    bio: "Victoria is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Sustainable Tourism, Public Transportation Navigation, Film Locations, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean", "East Coast Canada"],
-    tourTypes: ["Helicopter Tour", "Adventure Tour", "Museum Tour"],
-    maxGroupSize: 17,
-    licenseNumber: "LIC-3026-SAN",
-    phoneNumber: "+1-436-127-7330",
-    contactEmail: "victoria.torres@paragontrails.com",
+    bio: "Evelyn is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Cultural Etiquette, Museums, Urban Legends, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Mediterranean", "West Coast USA"],
+    tourTypes: ["Museum Tour", "Audio Tour"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-4588-SAN",
+    phoneNumber: "+1-482-671-6403",
+    contactEmail: "evelyn.wood@paragontrails.com",
     available: [
       {
-        day: "Wednesday",
+        day: "Sunday",
         availableHours: [
           {
-            from: "10:00",
-            to: "16:00",
-          },
-          {
-            from: "10:00",
-            to: "15:00",
-          },
+            from: "03:00 PM",
+            to: "05:00 PM",
+          }
         ],
       },
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "09:00",
-            to: "13:00",
+            from: "01:00 PM",
+            to: "06:00 PM",
           },
+          {
+            from: "09:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Evelyn is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Cultural Etiquette, Museums, Urban Legends, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 68,
+    quote: "My goal is to help you fall in love with San Juan just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/83.jpg",
+    languages: ["Dutch", "Turkish"],
+    experienceYears: 7,
+    certifications: ["Eco-Tourism Guide", "Certified International Tour Manager"],
+    specialties: ["Cultural Etiquette", "Museums", "Urban Legends"],
+    specialTraining: ["Art History", "Wine Education"],
+  },
+  {
+    id: "guide-san-juan-3",
+    name: "Savannah Hudson",
+    city: "San Juan",
+    country: "Puerto Rico",
+    state: "",
+    region: "Caribbean",
+    isPopular: false,
+    bio: "Savannah is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in LGBTQ+ History, Historical Landmarks, Museums, Savannah provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Northern Europe", "Caribbean"],
+    tourTypes: ["Romantic Tour", "Craft Workshop"],
+    maxGroupSize: 5,
+    licenseNumber: "LIC-8321-SAN",
+    phoneNumber: "+1-625-606-6831",
+    contactEmail: "savannah.hudson@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "02:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "06:00 PM",
+          },
+          {
+            from: "11:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "02:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "03:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Savannah is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in LGBTQ+ History, Historical Landmarks, Museums, Savannah provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 5,
+    reviewsCount: 82,
+    quote: "My goal is to help you fall in love with San Juan just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/75.jpg",
+    languages: ["Vietnamese", "Thai", "Romanian"],
+    experienceYears: 8,
+    certifications: ["Wilderness First Responder", "Eco-Tourism Guide", "Licensed City Guide"],
+    specialties: ["LGBTQ+ History", "Historical Landmarks", "Museums"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-san-juan-4",
+    name: "Patrick Nakamura",
+    city: "San Juan",
+    country: "Puerto Rico",
+    state: "",
+    region: "Caribbean",
+    isPopular: true,
+    bio: "Patrick is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Nightlife, Patrick provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean", "Middle East"],
+    tourTypes: ["Ghost Tour", "Market Tour", "Craft Workshop", "Cruise Excursion"],
+    maxGroupSize: 10,
+    licenseNumber: "LIC-4624-SAN",
+    phoneNumber: "+1-619-701-6929",
+    contactEmail: "patrick.nakamura@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "09:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "02:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Patrick is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Nightlife, Patrick provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.2,
+    reviewsCount: 90,
+    quote: "The best way to discover San Juan is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/62.jpg",
+    languages: ["Korean", "Norwegian"],
+    experienceYears: 7,
+    certifications: ["Professional Tour Guide Association"],
+    specialties: ["Nightlife"],
+    specialTraining: ["Wine Education", "Public Speaking"],
+  },
+  {
+    id: "guide-san-juan-5",
+    name: "Claire King",
+    city: "San Juan",
+    country: "Puerto Rico",
+    state: "",
+    region: "Caribbean",
+    isPopular: false,
+    bio: "Claire is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Public Transportation Navigation, Claire provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific"],
+    tourTypes: ["Adventure Tour", "Boat Tour"],
+    maxGroupSize: 9,
+    licenseNumber: "LIC-7441-SAN",
+    phoneNumber: "+1-664-112-7084",
+    contactEmail: "claire.king@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "04:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "08:00 PM",
+          }
         ],
       },
       {
         day: "Friday",
         availableHours: [
           {
-            from: "12:00",
-            to: "17:00",
+            from: "10:00 AM",
+            to: "01:00 PM",
           },
           {
-            from: "15:00",
-            to: "17:00",
-          },
+            from: "10:00 AM",
+            to: "02:00 PM",
+          }
         ],
       },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "04:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      }
     ],
     isCertified: true,
-    description:
-      "Victoria is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Sustainable Tourism, Public Transportation Navigation, Film Locations, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.9,
-    reviewsCount: 18,
+    description: "Claire is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Public Transportation Navigation, Claire provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.5,
+    reviewsCount: 100,
     quote: "In San Juan, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/20.jpg",
-    languages: ["Finnish", "Hebrew", "Swedish"],
-    experienceYears: 12,
-    certifications: [
-      "Sustainable Tourism Certificate",
-      "Food Safety Certification",
-    ],
-    specialties: [
-      "Sustainable Tourism",
-      "Public Transportation Navigation",
-      "Film Locations",
-    ],
-    specialTraining: [],
-  },
+    profileImage: "https://randomuser.me/api/portraits/women/88.jpg",
+    languages: ["Danish", "Korean", "Thai"],
+    experienceYears: 15,
+    certifications: ["Eco-Tourism Guide"],
+    specialties: ["Public Transportation Navigation"],
+    specialTraining: ["Cultural Sensitivity"],
+  }
 ];

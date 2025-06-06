@@ -3,468 +3,465 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const shanghaichinaasiaPacificGuides: TourGuide[] = [
   {
     id: "guide-shanghai-1",
-    name: "Noah White",
-    city: "Shanghai",
-    country: "China",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: false,
-    bio: "Noah is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Parks & Gardens, Film Locations, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean"],
-    tourTypes: ["Eco Tour", "Historical Tour"],
-    maxGroupSize: 14,
-    licenseNumber: "LIC-7151-SHA",
-    phoneNumber: "+1-419-684-5646",
-    contactEmail: "noah.white@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Noah is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Parks & Gardens, Film Locations, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.9,
-    reviewsCount: 50,
-    quote: "In Shanghai, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/30.jpg",
-    languages: ["Danish", "Korean"],
-    experienceYears: 8,
-    certifications: ["CPR & First Aid"],
-    specialties: ["Parks & Gardens", "Film Locations"],
-    specialTraining: ["Photography"],
-  },
-  {
-    id: "guide-shanghai-2",
-    name: "Riley Rodriguez",
-    city: "Shanghai",
-    country: "China",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: false,
-    bio: "Riley is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Photography Spots, Parks & Gardens, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast USA", "Northern Europe"],
-    tourTypes: ["Cooking Class", "Self-Guided Tour"],
-    maxGroupSize: 13,
-    licenseNumber: "LIC-2631-SHA",
-    phoneNumber: "+1-712-284-5292",
-    contactEmail: "riley.rodriguez@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Riley is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Photography Spots, Parks & Gardens, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.5,
-    reviewsCount: 39,
-    quote:
-      "The best way to discover Shanghai is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/36.jpg",
-    languages: ["Hungarian", "Norwegian", "Polish"],
-    experienceYears: 10,
-    certifications: [
-      "Heritage Interpretation Certificate",
-      "Food Safety Certification",
-      "Regional Tourism Ambassador",
-    ],
-    specialties: ["Photography Spots", "Parks & Gardens"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-shanghai-3",
-    name: "Liam Jones",
-    city: "Shanghai",
-    country: "China",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: false,
-    bio: "Liam is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Indigenous Culture, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Asia Pacific", "West Coast USA"],
-    tourTypes: ["Market Tour", "Eco Tour"],
-    maxGroupSize: 8,
-    licenseNumber: "LIC-2945-SHA",
-    phoneNumber: "+1-149-476-8497",
-    contactEmail: "liam.jones@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Liam is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Indigenous Culture, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.6,
-    reviewsCount: 78,
-    quote:
-      "The best way to discover Shanghai is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/32.jpg",
-    languages: ["Greek", "Italian"],
-    experienceYears: 14,
-    certifications: ["Cultural Heritage Specialist"],
-    specialties: ["Indigenous Culture"],
-    specialTraining: ["Conflict Resolution", "Accessibility Services"],
-  },
-  {
-    id: "guide-shanghai-4",
-    name: "Jackson Garcia",
+    name: "Carol Murray",
     city: "Shanghai",
     country: "China",
     state: "",
     region: "Asia Pacific",
     isPopular: true,
-    bio: "Jackson is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Nightlife, Historical Landmarks, Local Craftsmanship, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast USA", "West Coast USA"],
-    tourTypes: ["Market Tour", "Museum Tour"],
-    maxGroupSize: 19,
-    licenseNumber: "LIC-9511-SHA",
-    phoneNumber: "+1-100-153-9083",
-    contactEmail: "jackson.garcia@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Jackson is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Nightlife, Historical Landmarks, Local Craftsmanship, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.6,
-    reviewsCount: 91,
-    quote:
-      "The best way to discover Shanghai is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/79.jpg",
-    languages: ["Swahili", "French"],
-    experienceYears: 5,
-    certifications: [
-      "Professional Tour Guide Association",
-      "Urban Navigation Specialist",
-      "Licensed City Guide",
-    ],
-    specialties: ["Nightlife", "Historical Landmarks", "Local Craftsmanship"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-shanghai-5",
-    name: "Aiden Thomas",
-    city: "Shanghai",
-    country: "China",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: false,
-    bio: "Aiden is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Local Markets, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean"],
-    tourTypes: [
-      "Museum Tour",
-      "Cruise Excursion",
-      "Bike Tour",
-      "Festival Tour",
-    ],
-    maxGroupSize: 13,
-    licenseNumber: "LIC-2229-SHA",
-    phoneNumber: "+1-246-278-4571",
-    contactEmail: "aiden.thomas@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Aiden is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Local Markets, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.3,
-    reviewsCount: 59,
-    quote:
-      "Shanghai isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/46.jpg",
-    languages: ["Hindi", "Portuguese"],
-    experienceYears: 11,
-    certifications: ["Cultural Heritage Specialist"],
-    specialties: ["Local Markets"],
-    specialTraining: ["Regional Geology"],
-  },
-  {
-    id: "guide-shanghai-6",
-    name: "Joseph Hernandez",
-    city: "Shanghai",
-    country: "China",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: false,
-    bio: "Joseph is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Wildlife, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Africa", "Northern Europe"],
-    tourTypes: [
-      "Helicopter Tour",
-      "Scenic Tour",
-      "Wildlife Safari",
-      "Audio Tour",
-      "Market Tour",
-    ],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-4649-SHA",
-    phoneNumber: "+1-721-875-9559",
-    contactEmail: "joseph.hernandez@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Joseph is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Wildlife, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 103,
-    quote: "My goal is to help you fall in love with Shanghai just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/25.jpg",
-    languages: ["Romanian", "Turkish", "Spanish"],
-    experienceYears: 3,
-    certifications: ["Adventure Tourism Safety Certificate"],
-    specialties: ["Wildlife"],
-    specialTraining: ["Accessibility Services", "Local Transit Systems"],
-  },
-  {
-    id: "guide-shanghai-7",
-    name: "Noah Hill",
-    city: "Shanghai",
-    country: "China",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: false,
-    bio: "Noah is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Public Transportation Navigation, Wildlife, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["South America", "West Coast USA"],
-    tourTypes: [
-      "Cooking Class",
-      "Wine Tour",
-      "Family-Friendly Tour",
-      "Luxury Tour",
-      "Historical Tour",
-    ],
-    maxGroupSize: 6,
-    licenseNumber: "LIC-9193-SHA",
-    phoneNumber: "+1-235-716-9277",
-    contactEmail: "noah.hill@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Noah is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Public Transportation Navigation, Wildlife, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 81,
-    quote:
-      "Every corner of Shanghai tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/74.jpg",
-    languages: ["Italian"],
-    experienceYears: 6,
-    certifications: [
-      "Certified International Tour Manager",
-      "Food Safety Certification",
-    ],
-    specialties: ["Public Transportation Navigation", "Wildlife"],
-    specialTraining: ["Local Transit Systems"],
-  },
-  {
-    id: "guide-shanghai-8",
-    name: "Michael Baker",
-    city: "Shanghai",
-    country: "China",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: true,
-    bio: "Michael is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Public Transportation Navigation, LGBTQ+ History, Film Locations, Indigenous Culture, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
+    bio: "Carol is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Art Galleries, Wildlife, Carol provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Africa"],
-    tourTypes: ["Farm Visit", "Museum Tour", "Off-Road Tour"],
-    maxGroupSize: 11,
-    licenseNumber: "LIC-8078-SHA",
-    phoneNumber: "+1-551-676-1714",
-    contactEmail: "michael.baker@paragontrails.com",
+    tourTypes: ["Self-Guided Tour", "Market Tour", "Luxury Tour"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-5423-SHA",
+    phoneNumber: "+1-795-887-9252",
+    contactEmail: "carol.murray@paragontrails.com",
     available: [
       {
-        day: "Saturday",
+        day: "Thursday",
         availableHours: [
           {
-            from: "14:00",
-            to: "19:00",
+            from: "11:00 AM",
+            to: "05:00 PM",
           },
           {
-            from: "14:00",
-            to: "16:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "14:00",
-          },
-          {
-            from: "15:00",
-            to: "18:00",
-          },
+            from: "01:00 PM",
+            to: "06:00 PM",
+          }
         ],
       },
       {
         day: "Sunday",
         availableHours: [
           {
-            from: "10:00",
-            to: "15:00",
-          },
-          {
-            from: "15:00",
-            to: "17:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Michael is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Public Transportation Navigation, LGBTQ+ History, Film Locations, Indigenous Culture, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.5,
-    reviewsCount: 50,
-    quote: "In Shanghai, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/30.jpg",
-    languages: ["Romanian", "Korean", "Tagalog"],
-    experienceYears: 7,
-    certifications: [
-      "Eco-Tourism Guide",
-      "Professional Tour Guide Association",
-    ],
-    specialties: [
-      "Public Transportation Navigation",
-      "LGBTQ+ History",
-      "Film Locations",
-      "Indigenous Culture",
-    ],
-    specialTraining: ["Local Transit Systems"],
-  },
-  {
-    id: "guide-shanghai-9",
-    name: "Aiden Lee",
-    city: "Shanghai",
-    country: "China",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: false,
-    bio: "Aiden is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Indigenous Culture, Parks & Gardens, Art Galleries, Architecture, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Alaska"],
-    tourTypes: [
-      "Market Tour",
-      "Craft Workshop",
-      "Scenic Tour",
-      "Luxury Tour",
-      "Off-Road Tour",
-    ],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-3559-SHA",
-    phoneNumber: "+1-574-600-3046",
-    contactEmail: "aiden.lee@paragontrails.com",
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "12:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "17:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "16:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Aiden is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Indigenous Culture, Parks & Gardens, Art Galleries, Architecture, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.8,
-    reviewsCount: 53,
-    quote: "In Shanghai, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/60.jpg",
-    languages: ["Czech", "Bulgarian", "Vietnamese"],
-    experienceYears: 10,
-    certifications: [
-      "Sustainable Tourism Certificate",
-      "Cultural Heritage Specialist",
-    ],
-    specialties: [
-      "Indigenous Culture",
-      "Parks & Gardens",
-      "Art Galleries",
-      "Architecture",
-    ],
-    specialTraining: ["Emergency Response", "Religious Studies"],
-  },
-  {
-    id: "guide-shanghai-10",
-    name: "Riley Mitchell",
-    city: "Shanghai",
-    country: "China",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: true,
-    bio: "Riley is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Local Craftsmanship, Adventure Sports, Wine Tasting, Film Locations, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["West Coast USA"],
-    tourTypes: ["Family-Friendly Tour", "Festival Tour", "Cooking Class"],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-3449-SHA",
-    phoneNumber: "+1-745-496-4025",
-    contactEmail: "riley.mitchell@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "11:00",
-          },
-          {
-            from: "14:00",
-            to: "18:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "17:00",
-          },
-          {
-            from: "12:00",
-            to: "15:00",
-          },
+            from: "09:00 AM",
+            to: "11:00 AM",
+          }
         ],
       },
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "12:00",
-            to: "18:00",
-          },
+            from: "09:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Carol is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Art Galleries, Wildlife, Carol provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.7,
+    reviewsCount: 78,
+    quote: "In Shanghai, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/31.jpg",
+    languages: ["Italian", "Hungarian", "English"],
+    experienceYears: 16,
+    certifications: ["CPR & First Aid", "Food Safety Certification"],
+    specialties: ["Art Galleries", "Wildlife"],
+    specialTraining: ["Art History", "Regional Geology"],
+  },
+  {
+    id: "guide-shanghai-2",
+    name: "Wei Morgan",
+    city: "Shanghai",
+    country: "China",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: false,
+    bio: "Wei is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in LGBTQ+ History, Film Locations, Wei provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Alaska"],
+    tourTypes: ["Group Tour", "Wildlife Safari"],
+    maxGroupSize: 19,
+    licenseNumber: "LIC-1416-SHA",
+    phoneNumber: "+1-702-885-9779",
+    contactEmail: "wei.morgan@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "03:00 PM",
+          }
         ],
       },
       {
         day: "Friday",
         availableHours: [
           {
-            from: "13:00",
-            to: "16:00",
+            from: "08:00 AM",
+            to: "10:00 AM",
           },
+          {
+            from: "12:00 PM",
+            to: "05:00 PM",
+          }
         ],
       },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "02:00 PM",
+          },
+          {
+            from: "11:00 AM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      }
     ],
     isCertified: true,
-    description:
-      "Riley is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Local Craftsmanship, Adventure Sports, Wine Tasting, Film Locations, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
+    description: "Wei is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in LGBTQ+ History, Film Locations, Wei provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
-    reviewsCount: 77,
-    quote: "In Shanghai, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/74.jpg",
-    languages: ["Malay", "Korean"],
-    experienceYears: 11,
-    certifications: [
-      "Cultural Heritage Specialist",
-      "Certified International Tour Manager",
-    ],
-    specialties: [
-      "Local Craftsmanship",
-      "Adventure Sports",
-      "Wine Tasting",
-      "Film Locations",
-    ],
-    specialTraining: ["Mountain Survival", "Cultural Sensitivity"],
+    reviewsCount: 28,
+    quote: "Shanghai isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/77.jpg",
+    languages: ["Danish", "Russian", "Korean"],
+    experienceYears: 6,
+    certifications: ["Licensed City Guide", "Wilderness First Responder"],
+    specialties: ["LGBTQ+ History", "Film Locations"],
+    specialTraining: ["Local Flora & Fauna"],
   },
+  {
+    id: "guide-shanghai-3",
+    name: "Nora Maxwell",
+    city: "Shanghai",
+    country: "China",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: false,
+    bio: "Nora is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Cultural Etiquette, Music Scene, Nora provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America", "East Coast Canada"],
+    tourTypes: ["Helicopter Tour", "Cooking Class", "Adventure Tour"],
+    maxGroupSize: 19,
+    licenseNumber: "LIC-8176-SHA",
+    phoneNumber: "+1-106-922-5076",
+    contactEmail: "nora.maxwell@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "04:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Nora is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Cultural Etiquette, Music Scene, Nora provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 70,
+    quote: "Every corner of Shanghai tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/78.jpg",
+    languages: ["Romanian", "Korean", "Polish"],
+    experienceYears: 12,
+    certifications: ["Sustainable Tourism Certificate", "CPR & First Aid", "Wilderness First Responder"],
+    specialties: ["Cultural Etiquette", "Music Scene"],
+    specialTraining: ["Public Speaking"],
+  },
+  {
+    id: "guide-shanghai-4",
+    name: "John Gonzalez",
+    city: "Shanghai",
+    country: "China",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: false,
+    bio: "John is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Photography Spots, Cultural Etiquette, Sustainable Tourism, John provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Alaska"],
+    tourTypes: ["Self-Guided Tour", "Romantic Tour", "Helicopter Tour", "Food Tour"],
+    maxGroupSize: 10,
+    licenseNumber: "LIC-5857-SHA",
+    phoneNumber: "+1-360-494-3184",
+    contactEmail: "john.gonzalez@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "02:00 PM",
+          },
+          {
+            from: "11:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "John is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Photography Spots, Cultural Etiquette, Sustainable Tourism, John provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.9,
+    reviewsCount: 96,
+    quote: "The best way to discover Shanghai is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/69.jpg",
+    languages: ["Greek", "Hebrew"],
+    experienceYears: 14,
+    certifications: ["Licensed City Guide"],
+    specialties: ["Photography Spots", "Cultural Etiquette", "Sustainable Tourism"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-shanghai-5",
+    name: "Lucas Grant",
+    city: "Shanghai",
+    country: "China",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: false,
+    bio: "Lucas is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Parks & Gardens, Wine Tasting, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Mediterranean"],
+    tourTypes: ["Brewery Tour", "Scenic Tour", "Shopping Tour", "Photography Tour"],
+    maxGroupSize: 19,
+    licenseNumber: "LIC-1283-SHA",
+    phoneNumber: "+1-491-460-7685",
+    contactEmail: "lucas.grant@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Lucas is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Parks & Gardens, Wine Tasting, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.3,
+    reviewsCount: 20,
+    quote: "Shanghai isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/14.jpg",
+    languages: ["Korean", "Spanish", "Hebrew"],
+    experienceYears: 3,
+    certifications: ["Cultural Heritage Specialist", "Wilderness First Responder"],
+    specialties: ["Parks & Gardens", "Wine Tasting"],
+    specialTraining: ["Photography"],
+  },
+  {
+    id: "guide-shanghai-6",
+    name: "Chloe King",
+    city: "Shanghai",
+    country: "China",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: false,
+    bio: "Chloe is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Public Transportation Navigation, Museums, Hidden Gems, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America"],
+    tourTypes: ["Bike Tour", "Off-Road Tour", "Walking Tour", "Relocation Tour"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-8220-SHA",
+    phoneNumber: "+1-846-637-5777",
+    contactEmail: "chloe.king@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "07:00 PM",
+          },
+          {
+            from: "11:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "11:00 AM",
+          },
+          {
+            from: "02:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Chloe is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Public Transportation Navigation, Museums, Hidden Gems, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.2,
+    reviewsCount: 65,
+    quote: "Every corner of Shanghai tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/39.jpg",
+    languages: ["Swahili", "Italian"],
+    experienceYears: 14,
+    certifications: ["Adventure Tourism Safety Certificate", "Local History Certification"],
+    specialties: ["Public Transportation Navigation", "Museums", "Hidden Gems"],
+    specialTraining: ["Archaeological Conservation"],
+  },
+  {
+    id: "guide-shanghai-7",
+    name: "Genesis Grant",
+    city: "Shanghai",
+    country: "China",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: false,
+    bio: "Genesis is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Wildlife, Public Transportation Navigation, Genesis provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["West Coast USA", "Asia Pacific"],
+    tourTypes: ["Off-Road Tour", "Cooking Class", "Cruise Excursion", "Walking Tour"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-9509-SHA",
+    phoneNumber: "+1-216-881-5471",
+    contactEmail: "genesis.grant@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "03:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "04:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "11:00 AM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Genesis is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Wildlife, Public Transportation Navigation, Genesis provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.9,
+    reviewsCount: 104,
+    quote: "Shanghai isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/50.jpg",
+    languages: ["English", "Malay", "Italian"],
+    experienceYears: 3,
+    certifications: ["Sustainable Tourism Certificate"],
+    specialties: ["Wildlife", "Public Transportation Navigation"],
+    specialTraining: ["Conflict Resolution"],
+  }
 ];

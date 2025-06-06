@@ -3,404 +3,409 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const amsterdamnetherlandsnorthernEuropeGuides: TourGuide[] = [
   {
     id: "guide-amsterdam-1",
-    name: "Victoria Baker",
-    city: "Amsterdam",
-    country: "Netherlands",
-    state: "",
-    region: "Northern Europe",
-    isPopular: true,
-    bio: "Victoria is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Street Food, Public Transportation Navigation, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Alaska"],
-    tourTypes: [
-      "Religious Tour",
-      "Architecture Tour",
-      "Wildlife Safari",
-      "Cooking Class",
-    ],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-8676-AMS",
-    phoneNumber: "+1-236-162-4117",
-    contactEmail: "victoria.baker@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Victoria is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Street Food, Public Transportation Navigation, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.5,
-    reviewsCount: 67,
-    quote:
-      "Every corner of Amsterdam tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/53.jpg",
-    languages: ["Hungarian", "Norwegian", "French"],
-    experienceYears: 2,
-    certifications: ["Urban Navigation Specialist"],
-    specialties: ["Street Food", "Public Transportation Navigation"],
-    specialTraining: ["Emergency Response", "Conflict Resolution"],
-  },
-  {
-    id: "guide-amsterdam-2",
-    name: "Harper White",
+    name: "Bobby White",
     city: "Amsterdam",
     country: "Netherlands",
     state: "",
     region: "Northern Europe",
     isPopular: false,
-    bio: "Harper is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Local Craftsmanship, Museums, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Middle East", "Asia Pacific"],
-    tourTypes: [
-      "Craft Workshop",
-      "Cooking Class",
-      "Brewery Tour",
-      "Cruise Excursion",
-      "Family-Friendly Tour",
+    bio: "Bobby is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Urban Legends, Bobby provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa", "West Coast USA"],
+    tourTypes: ["Food Tour", "Cooking Class", "Brewery Tour"],
+    maxGroupSize: 8,
+    licenseNumber: "LIC-9682-AMS",
+    phoneNumber: "+1-240-116-7989",
+    contactEmail: "bobby.white@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      }
     ],
-    maxGroupSize: 17,
-    licenseNumber: "LIC-6119-AMS",
-    phoneNumber: "+1-952-185-8847",
-    contactEmail: "harper.white@paragontrails.com",
-    available: [],
     isCertified: true,
-    description:
-      "Harper is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Local Craftsmanship, Museums, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.4,
-    reviewsCount: 80,
-    quote:
-      "The best way to discover Amsterdam is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/23.jpg",
-    languages: ["Mandarin"],
-    experienceYears: 7,
-    certifications: [
-      "Heritage Interpretation Certificate",
-      "Eco-Tourism Guide",
+    description: "Bobby is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Urban Legends, Bobby provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.3,
+    reviewsCount: 74,
+    quote: "Every corner of Amsterdam tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/58.jpg",
+    languages: ["Mandarin", "Hungarian", "Danish"],
+    experienceYears: 10,
+    certifications: ["Professional Tour Guide Association", "Language Proficiency Certification"],
+    specialties: ["Urban Legends"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-amsterdam-2",
+    name: "Chen Lee",
+    city: "Amsterdam",
+    country: "Netherlands",
+    state: "",
+    region: "Northern Europe",
+    isPopular: false,
+    bio: "Chen is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Religious Sites, Photography Spots, Parks & Gardens, Chen provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Mediterranean", "Alaska"],
+    tourTypes: ["Craft Workshop", "Adventure Tour"],
+    maxGroupSize: 19,
+    licenseNumber: "LIC-9099-AMS",
+    phoneNumber: "+1-433-899-9320",
+    contactEmail: "chen.lee@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "09:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "07:00 PM",
+          },
+          {
+            from: "02:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "04:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "02:00 PM",
+          }
+        ],
+      }
     ],
-    specialties: ["Local Craftsmanship", "Museums"],
+    isCertified: true,
+    description: "Chen is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Religious Sites, Photography Spots, Parks & Gardens, Chen provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.2,
+    reviewsCount: 78,
+    quote: "My goal is to help you fall in love with Amsterdam just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/74.jpg",
+    languages: ["Hungarian", "Bulgarian"],
+    experienceYears: 11,
+    certifications: ["Regional Tourism Ambassador", "Language Proficiency Certification", "Urban Navigation Specialist"],
+    specialties: ["Religious Sites", "Photography Spots", "Parks & Gardens"],
     specialTraining: [],
   },
   {
     id: "guide-amsterdam-3",
-    name: "Madison Ramirez",
+    name: "Kennedy Johnson",
+    city: "Amsterdam",
+    country: "Netherlands",
+    state: "",
+    region: "Northern Europe",
+    isPopular: true,
+    bio: "Kennedy is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Indigenous Culture, Parks & Gardens, Kennedy provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America"],
+    tourTypes: ["Farm Visit", "Wine Tour", "Cultural Tour", "Relocation Tour", "Wildlife Safari"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-8489-AMS",
+    phoneNumber: "+1-446-455-1124",
+    contactEmail: "kennedy.johnson@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "10:00 AM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "05:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Kennedy is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Indigenous Culture, Parks & Gardens, Kennedy provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.2,
+    reviewsCount: 13,
+    quote: "My goal is to help you fall in love with Amsterdam just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/36.jpg",
+    languages: ["Indonesian", "Mandarin"],
+    experienceYears: 13,
+    certifications: ["Heritage Interpretation Certificate"],
+    specialties: ["Indigenous Culture", "Parks & Gardens"],
+    specialTraining: ["Group Management", "Historical Research Methods"],
+  },
+  {
+    id: "guide-amsterdam-4",
+    name: "Maria Brooks",
     city: "Amsterdam",
     country: "Netherlands",
     state: "",
     region: "Northern Europe",
     isPopular: false,
-    bio: "Madison is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Historical Landmarks, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["West Coast USA"],
-    tourTypes: [
-      "Historical Tour",
-      "Cooking Class",
-      "Nature Tour",
-      "Festival Tour",
-      "Photography Tour",
-    ],
+    bio: "Maria is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Local Markets, Wildlife, Maria provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America", "Alaska"],
+    tourTypes: ["Adventure Tour", "Wildlife Safari", "Museum Tour"],
     maxGroupSize: 11,
-    licenseNumber: "LIC-7350-AMS",
-    phoneNumber: "+1-531-369-9898",
-    contactEmail: "madison.ramirez@paragontrails.com",
-    available: [],
+    licenseNumber: "LIC-9086-AMS",
+    phoneNumber: "+1-648-969-4208",
+    contactEmail: "maria.brooks@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "06:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "03:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "05:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      }
+    ],
     isCertified: true,
-    description:
-      "Madison is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Historical Landmarks, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 5,
-    reviewsCount: 15,
-    quote:
-      "Amsterdam isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/48.jpg",
-    languages: ["Hebrew", "English", "Indonesian"],
-    experienceYears: 7,
-    certifications: [
-      "Sustainable Tourism Certificate",
-      "Regional Tourism Ambassador",
-    ],
-    specialties: ["Historical Landmarks"],
-    specialTraining: ["Regional Cuisine", "Mountain Survival"],
-  },
-  {
-    id: "guide-amsterdam-4",
-    name: "Layla Taylor",
-    city: "Amsterdam",
-    country: "Netherlands",
-    state: "",
-    region: "Northern Europe",
-    isPopular: true,
-    bio: "Layla is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Indigenous Culture, Music Scene, Museums, LGBTQ+ History, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Middle East", "South America"],
-    tourTypes: [
-      "Wildlife Safari",
-      "Cooking Class",
-      "Eco Tour",
-      "Cruise Excursion",
-    ],
-    maxGroupSize: 18,
-    licenseNumber: "LIC-7600-AMS",
-    phoneNumber: "+1-306-629-7301",
-    contactEmail: "layla.taylor@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Layla is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Indigenous Culture, Music Scene, Museums, LGBTQ+ History, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.7,
-    reviewsCount: 51,
-    quote:
-      "Amsterdam isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/7.jpg",
-    languages: ["Greek", "Finnish", "Russian"],
-    experienceYears: 3,
-    certifications: [
-      "Food Safety Certification",
-      "CPR & First Aid",
-      "Licensed City Guide",
-    ],
-    specialties: [
-      "Indigenous Culture",
-      "Music Scene",
-      "Museums",
-      "LGBTQ+ History",
-    ],
-    specialTraining: ["Archaeological Conservation"],
+    description: "Maria is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Local Markets, Wildlife, Maria provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.9,
+    reviewsCount: 35,
+    quote: "Amsterdam isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/88.jpg",
+    languages: ["Cantonese"],
+    experienceYears: 15,
+    certifications: ["Sustainable Tourism Certificate", "Wilderness First Responder"],
+    specialties: ["Local Markets", "Wildlife"],
+    specialTraining: [],
   },
   {
     id: "guide-amsterdam-5",
-    name: "Joseph Harris",
+    name: "Sofia Gibson",
     city: "Amsterdam",
     country: "Netherlands",
     state: "",
     region: "Northern Europe",
-    isPopular: true,
-    bio: "Joseph is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Wildlife, Music Scene, Wine Tasting, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Africa", "East Coast USA"],
-    tourTypes: ["Brewery Tour", "Adventure Tour", "Farm Visit"],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-8143-AMS",
-    phoneNumber: "+1-804-461-3210",
-    contactEmail: "joseph.harris@paragontrails.com",
+    isPopular: false,
+    bio: "Sofia is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Wildlife, Architecture, Hidden Gems, Cultural Etiquette, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America"],
+    tourTypes: ["Festival Tour", "Private Tour", "Religious Tour", "Walking Tour"],
+    maxGroupSize: 17,
+    licenseNumber: "LIC-7823-AMS",
+    phoneNumber: "+1-707-490-3645",
+    contactEmail: "sofia.gibson@paragontrails.com",
     available: [
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "09:00",
-            to: "13:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "13:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "15:00",
-          },
+            from: "12:00 PM",
+            to: "06:00 PM",
+          }
         ],
       },
       {
         day: "Sunday",
         availableHours: [
           {
-            from: "15:00",
-            to: "19:00",
-          },
-          {
-            from: "12:00",
-            to: "17:00",
-          },
+            from: "09:00 AM",
+            to: "01:00 PM",
+          }
         ],
       },
       {
-        day: "Saturday",
+        day: "Wednesday",
         availableHours: [
           {
-            from: "13:00",
-            to: "15:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "19:00",
+            from: "02:00 PM",
+            to: "04:00 PM",
           },
           {
-            from: "10:00",
-            to: "14:00",
-          },
+            from: "01:00 PM",
+            to: "07:00 PM",
+          }
         ],
-      },
+      }
     ],
     isCertified: true,
-    description:
-      "Joseph is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Wildlife, Music Scene, Wine Tasting, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.7,
-    reviewsCount: 87,
-    quote: "My goal is to help you fall in love with Amsterdam just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/76.jpg",
-    languages: ["Serbian", "Czech"],
+    description: "Sofia is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Wildlife, Architecture, Hidden Gems, Cultural Etiquette, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 38,
+    quote: "Every corner of Amsterdam tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/6.jpg",
+    languages: ["Korean", "Hebrew"],
     experienceYears: 13,
-    certifications: ["Language Proficiency Certification"],
-    specialties: ["Wildlife", "Music Scene", "Wine Tasting"],
-    specialTraining: ["Cultural Sensitivity"],
-  },
-  {
-    id: "guide-amsterdam-6",
-    name: "Ella Flores",
-    city: "Amsterdam",
-    country: "Netherlands",
-    state: "",
-    region: "Northern Europe",
-    isPopular: false,
-    bio: "Ella is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Sustainable Tourism, Film Locations, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Northern Europe", "Africa"],
-    tourTypes: ["Street Art Tour", "Adventure Tour", "Bike Tour"],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-3389-AMS",
-    phoneNumber: "+1-630-154-3510",
-    contactEmail: "ella.flores@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "16:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "16:00",
-          },
-          {
-            from: "08:00",
-            to: "13:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "15:00",
-          },
-          {
-            from: "14:00",
-            to: "18:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Ella is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Sustainable Tourism, Film Locations, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.7,
-    reviewsCount: 24,
-    quote: "My goal is to help you fall in love with Amsterdam just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/59.jpg",
-    languages: ["Croatian", "Portuguese"],
-    experienceYears: 8,
-    certifications: [
-      "Cultural Heritage Specialist",
-      "Professional Tour Guide Association",
-    ],
-    specialties: ["Sustainable Tourism", "Film Locations"],
+    certifications: ["Local History Certification", "Regional Tourism Ambassador", "Language Proficiency Certification"],
+    specialties: ["Wildlife", "Architecture", "Hidden Gems", "Cultural Etiquette"],
     specialTraining: [],
   },
   {
-    id: "guide-amsterdam-7",
-    name: "Evelyn Torres",
+    id: "guide-amsterdam-6",
+    name: "Harper Hall",
     city: "Amsterdam",
     country: "Netherlands",
     state: "",
     region: "Northern Europe",
-    isPopular: false,
-    bio: "Evelyn is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Film Locations, Historical Landmarks, Public Transportation Navigation, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Africa", "Asia Pacific"],
-    tourTypes: [
-      "Museum Tour",
-      "Romantic Tour",
-      "Cooking Class",
-      "Craft Workshop",
-      "Group Tour",
-    ],
-    maxGroupSize: 14,
-    licenseNumber: "LIC-4259-AMS",
-    phoneNumber: "+1-880-573-6545",
-    contactEmail: "evelyn.torres@paragontrails.com",
+    isPopular: true,
+    bio: "Harper is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Local Cuisine, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast USA", "Caribbean"],
+    tourTypes: ["Eco Tour", "Audio Tour", "Cruise Excursion", "Craft Workshop"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-2062-AMS",
+    phoneNumber: "+1-338-953-7255",
+    contactEmail: "harper.hall@paragontrails.com",
     available: [
       {
-        day: "Thursday",
+        day: "Saturday",
         availableHours: [
           {
-            from: "10:00",
-            to: "15:00",
-          },
+            from: "09:00 AM",
+            to: "03:00 PM",
+          }
         ],
       },
       {
-        day: "Friday",
+        day: "Sunday",
         availableHours: [
           {
-            from: "15:00",
-            to: "18:00",
+            from: "08:00 AM",
+            to: "10:00 AM",
           },
+          {
+            from: "12:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "02:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "04:00 PM",
+          }
         ],
       },
       {
         day: "Monday",
         availableHours: [
           {
-            from: "11:00",
-            to: "14:00",
-          },
-          {
-            from: "15:00",
-            to: "18:00",
-          },
+            from: "10:00 AM",
+            to: "04:00 PM",
+          }
         ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "14:00",
-          },
-        ],
-      },
+      }
     ],
     isCertified: true,
-    description:
-      "Evelyn is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Film Locations, Historical Landmarks, Public Transportation Navigation, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4,
-    reviewsCount: 76,
-    quote:
-      "The best way to discover Amsterdam is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/45.jpg",
-    languages: ["German", "Norwegian", "Turkish"],
-    experienceYears: 8,
-    certifications: [
-      "Professional Tour Guide Association",
-      "Regional Tourism Ambassador",
-      "Urban Navigation Specialist",
-    ],
-    specialties: [
-      "Film Locations",
-      "Historical Landmarks",
-      "Public Transportation Navigation",
-    ],
-    specialTraining: ["Accessibility Services", "Art History"],
-  },
+    description: "Harper is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Local Cuisine, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.4,
+    reviewsCount: 24,
+    quote: "Amsterdam isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/46.jpg",
+    languages: ["Italian", "Arabic", "Bulgarian"],
+    experienceYears: 12,
+    certifications: ["Adventure Tourism Safety Certificate", "Heritage Interpretation Certificate"],
+    specialties: ["Local Cuisine"],
+    specialTraining: ["Photography", "Mountain Survival"],
+  }
 ];

@@ -3,456 +3,529 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const galvestonunitedStatescaribbeanGuides: TourGuide[] = [
   {
     id: "guide-galveston-1",
-    name: "Abigail Robinson",
-    city: "Galveston",
-    country: "United States",
-    state: "",
-    region: "Caribbean",
-    isPopular: true,
-    bio: "Abigail is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Religious Sites, Sustainable Tourism, Architecture, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean", "Asia Pacific"],
-    tourTypes: ["Street Art Tour", "Walking Tour"],
-    maxGroupSize: 9,
-    licenseNumber: "LIC-4678-GAL",
-    phoneNumber: "+1-817-586-1974",
-    contactEmail: "abigail.robinson@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Abigail is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Religious Sites, Sustainable Tourism, Architecture, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.3,
-    reviewsCount: 53,
-    quote: "My goal is to help you fall in love with Galveston just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/65.jpg",
-    languages: ["Japanese", "Spanish"],
-    experienceYears: 8,
-    certifications: ["Professional Tour Guide Association"],
-    specialties: ["Religious Sites", "Sustainable Tourism", "Architecture"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-galveston-2",
-    name: "Carter Campbell",
+    name: "Blake White",
     city: "Galveston",
     country: "United States",
     state: "",
     region: "Caribbean",
     isPopular: false,
-    bio: "Carter is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Film Locations, Historical Landmarks, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean"],
-    tourTypes: ["Walking Tour", "Helicopter Tour", "Photography Tour"],
-    maxGroupSize: 14,
-    licenseNumber: "LIC-5745-GAL",
-    phoneNumber: "+1-785-359-4966",
-    contactEmail: "carter.campbell@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Carter is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Film Locations, Historical Landmarks, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.9,
-    reviewsCount: 40,
-    quote:
-      "Every corner of Galveston tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/22.jpg",
-    languages: ["French", "Serbian"],
-    experienceYears: 4,
-    certifications: ["CPR & First Aid", "Cultural Heritage Specialist"],
-    specialties: ["Film Locations", "Historical Landmarks"],
-    specialTraining: ["Accessibility Services", "Photography"],
-  },
-  {
-    id: "guide-galveston-3",
-    name: "Madison Baker",
-    city: "Galveston",
-    country: "United States",
-    state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "Madison is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Historical Landmarks, Parks & Gardens, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada", "Northern Europe"],
-    tourTypes: [
-      "Accessible Tour",
-      "Boat Tour",
-      "Market Tour",
-      "Craft Workshop",
-      "Religious Tour",
-    ],
-    maxGroupSize: 18,
-    licenseNumber: "LIC-2480-GAL",
-    phoneNumber: "+1-861-263-5016",
-    contactEmail: "madison.baker@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Madison is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Historical Landmarks, Parks & Gardens, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.7,
-    reviewsCount: 36,
-    quote:
-      "Galveston isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/39.jpg",
-    languages: ["Hindi", "Croatian"],
-    experienceYears: 13,
-    certifications: [
-      "Eco-Tourism Guide",
-      "Heritage Interpretation Certificate",
-      "Language Proficiency Certification",
-    ],
-    specialties: ["Historical Landmarks", "Parks & Gardens"],
-    specialTraining: ["Archaeological Conservation"],
-  },
-  {
-    id: "guide-galveston-4",
-    name: "Alexander Martin",
-    city: "Galveston",
-    country: "United States",
-    state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "Alexander is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Urban Legends, Wine Tasting, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Middle East"],
-    tourTypes: ["Shopping Tour", "Relocation Tour"],
-    maxGroupSize: 18,
-    licenseNumber: "LIC-7320-GAL",
-    phoneNumber: "+1-864-587-7056",
-    contactEmail: "alexander.martin@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Alexander is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Urban Legends, Wine Tasting, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4,
-    reviewsCount: 50,
-    quote:
-      "The best way to discover Galveston is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/60.jpg",
-    languages: ["Czech", "Thai", "Croatian"],
-    experienceYears: 9,
-    certifications: ["Licensed City Guide", "CPR & First Aid"],
-    specialties: ["Urban Legends", "Wine Tasting"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-galveston-5",
-    name: "Lucas Mitchell",
-    city: "Galveston",
-    country: "United States",
-    state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "Lucas is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Cultural Etiquette, Architecture, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Africa", "Mediterranean"],
-    tourTypes: ["Architecture Tour", "Helicopter Tour"],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-5839-GAL",
-    phoneNumber: "+1-712-818-3909",
-    contactEmail: "lucas.mitchell@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Lucas is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Cultural Etiquette, Architecture, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.9,
-    reviewsCount: 36,
-    quote:
-      "Galveston isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/men/69.jpg",
-    languages: ["Hebrew", "Mandarin"],
-    experienceYears: 10,
-    certifications: ["Sustainable Tourism Certificate"],
-    specialties: ["Cultural Etiquette", "Architecture"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-galveston-6",
-    name: "Scarlett White",
-    city: "Galveston",
-    country: "United States",
-    state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "Scarlett is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Museums, Film Locations, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Middle East"],
-    tourTypes: ["Helicopter Tour", "Scenic Tour", "Festival Tour"],
-    maxGroupSize: 10,
-    licenseNumber: "LIC-8261-GAL",
-    phoneNumber: "+1-916-442-9926",
-    contactEmail: "scarlett.white@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Scarlett is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Museums, Film Locations, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.8,
-    reviewsCount: 81,
-    quote: "In Galveston, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/73.jpg",
-    languages: ["English"],
-    experienceYears: 14,
-    certifications: ["Heritage Interpretation Certificate"],
-    specialties: ["Museums", "Film Locations"],
-    specialTraining: ["Emergency Response", "Conflict Resolution"],
-  },
-  {
-    id: "guide-galveston-7",
-    name: "Noah Green",
-    city: "Galveston",
-    country: "United States",
-    state: "",
-    region: "Caribbean",
-    isPopular: true,
-    bio: "Noah is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Wildlife, Family Activities, Hidden Gems, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Middle East"],
-    tourTypes: ["Cruise Excursion", "Museum Tour"],
-    maxGroupSize: 11,
-    licenseNumber: "LIC-1036-GAL",
-    phoneNumber: "+1-500-371-7889",
-    contactEmail: "noah.green@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Noah is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Wildlife, Family Activities, Hidden Gems, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.2,
-    reviewsCount: 18,
-    quote:
-      "Galveston isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/2.jpg",
-    languages: ["Bulgarian"],
-    experienceYears: 16,
-    certifications: [
-      "Regional Tourism Ambassador",
-      "Licensed City Guide",
-      "Local History Certification",
-    ],
-    specialties: ["Wildlife", "Family Activities", "Hidden Gems"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-galveston-8",
-    name: "Matthew Allen",
-    city: "Galveston",
-    country: "United States",
-    state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "Matthew is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Hidden Gems, Family Activities, Religious Sites, Architecture, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean", "East Coast Canada"],
-    tourTypes: ["Luxury Tour", "Cultural Tour"],
-    maxGroupSize: 9,
-    licenseNumber: "LIC-5834-GAL",
-    phoneNumber: "+1-885-375-1519",
-    contactEmail: "matthew.allen@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Matthew is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Hidden Gems, Family Activities, Religious Sites, Architecture, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.1,
-    reviewsCount: 51,
-    quote:
-      "Every corner of Galveston tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/78.jpg",
-    languages: ["Swahili", "Vietnamese"],
-    experienceYears: 12,
-    certifications: [
-      "Urban Navigation Specialist",
-      "Local History Certification",
-    ],
-    specialties: [
-      "Hidden Gems",
-      "Family Activities",
-      "Religious Sites",
-      "Architecture",
-    ],
-    specialTraining: ["Conflict Resolution"],
-  },
-  {
-    id: "guide-galveston-9",
-    name: "Noah Thomas",
-    city: "Galveston",
-    country: "United States",
-    state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "Noah is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Historical Landmarks, Family Activities, Hidden Gems, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean"],
-    tourTypes: [
-      "Cultural Tour",
-      "Religious Tour",
-      "Festival Tour",
-      "Relocation Tour",
-    ],
-    maxGroupSize: 13,
-    licenseNumber: "LIC-6519-GAL",
-    phoneNumber: "+1-492-405-7149",
-    contactEmail: "noah.thomas@paragontrails.com",
+    bio: "Blake is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Cultural Etiquette, Blake provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa"],
+    tourTypes: ["Off-Road Tour", "Brewery Tour", "Museum Tour", "Eco Tour"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-4495-GAL",
+    phoneNumber: "+1-228-827-3918",
+    contactEmail: "blake.white@paragontrails.com",
     available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "07:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
       {
         day: "Monday",
         availableHours: [
           {
-            from: "09:00",
-            to: "13:00",
-          },
+            from: "03:00 PM",
+            to: "08:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Blake is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Cultural Etiquette, Blake provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.6,
+    reviewsCount: 82,
+    quote: "In Galveston, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/7.jpg",
+    languages: ["Polish", "Indonesian", "English"],
+    experienceYears: 4,
+    certifications: ["Local History Certification"],
+    specialties: ["Cultural Etiquette"],
+    specialTraining: ["Group Management"],
+  },
+  {
+    id: "guide-galveston-2",
+    name: "Hassan Porter",
+    city: "Galveston",
+    country: "United States",
+    state: "",
+    region: "Caribbean",
+    isPopular: true,
+    bio: "Hassan is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Local Craftsmanship, Photography Spots, Architecture, Hassan provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East", "West Coast USA"],
+    tourTypes: ["Photography Tour", "LGBTQ+ Friendly Tour", "Private Tour"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-6830-GAL",
+    phoneNumber: "+1-176-985-1997",
+    contactEmail: "hassan.porter@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "07:00 PM",
+          }
         ],
       },
       {
-        day: "Wednesday",
+        day: "Monday",
         availableHours: [
           {
-            from: "09:00",
-            to: "14:00",
+            from: "02:00 PM",
+            to: "04:00 PM",
           },
+          {
+            from: "09:00 AM",
+            to: "11:00 AM",
+          }
         ],
       },
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "10:00",
-            to: "14:00",
-          },
+            from: "08:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "08:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Hassan is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Local Craftsmanship, Photography Spots, Architecture, Hassan provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.7,
+    reviewsCount: 45,
+    quote: "My goal is to help you fall in love with Galveston just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/49.jpg",
+    languages: ["Arabic", "Danish"],
+    experienceYears: 16,
+    certifications: ["Licensed City Guide"],
+    specialties: ["Local Craftsmanship", "Photography Spots", "Architecture"],
+    specialTraining: ["Religious Studies"],
+  },
+  {
+    id: "guide-galveston-3",
+    name: "Anthony Williams",
+    city: "Galveston",
+    country: "United States",
+    state: "",
+    region: "Caribbean",
+    isPopular: false,
+    bio: "Anthony is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Religious Sites, Sustainable Tourism, Street Food, Film Locations, Anthony provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Alaska", "Mediterranean"],
+    tourTypes: ["Ghost Tour", "Festival Tour"],
+    maxGroupSize: 9,
+    licenseNumber: "LIC-5047-GAL",
+    phoneNumber: "+1-155-223-6709",
+    contactEmail: "anthony.williams@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "03:00 PM",
+          }
         ],
       },
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "15:00",
-            to: "19:00",
+            from: "10:00 AM",
+            to: "03:00 PM",
           },
+          {
+            from: "02:00 PM",
+            to: "07:00 PM",
+          }
         ],
-      },
+      }
     ],
     isCertified: true,
-    description:
-      "Noah is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Historical Landmarks, Family Activities, Hidden Gems, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.4,
-    reviewsCount: 14,
-    quote:
-      "Galveston isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/men/54.jpg",
-    languages: ["German", "Czech"],
-    experienceYears: 3,
-    certifications: [
-      "Regional Tourism Ambassador",
-      "Wilderness First Responder",
+    description: "Anthony is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Religious Sites, Sustainable Tourism, Street Food, Film Locations, Anthony provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.6,
+    reviewsCount: 57,
+    quote: "My goal is to help you fall in love with Galveston just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/6.jpg",
+    languages: ["Russian", "Indonesian"],
+    experienceYears: 6,
+    certifications: ["Cultural Heritage Specialist", "Adventure Tourism Safety Certificate", "Urban Navigation Specialist"],
+    specialties: ["Religious Sites", "Sustainable Tourism", "Street Food", "Film Locations"],
+    specialTraining: ["Accessibility Services", "Mountain Survival"],
+  },
+  {
+    id: "guide-galveston-4",
+    name: "James Hudson",
+    city: "Galveston",
+    country: "United States",
+    state: "",
+    region: "Caribbean",
+    isPopular: false,
+    bio: "James is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Religious Sites, Local Cuisine, James provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean", "Asia Pacific"],
+    tourTypes: ["Audio Tour", "Shopping Tour", "Romantic Tour"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-1660-GAL",
+    phoneNumber: "+1-965-785-4942",
+    contactEmail: "james.hudson@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "05:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "04:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      }
     ],
-    specialties: ["Historical Landmarks", "Family Activities", "Hidden Gems"],
+    isCertified: true,
+    description: "James is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Religious Sites, Local Cuisine, James provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 88,
+    quote: "Every corner of Galveston tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/65.jpg",
+    languages: ["Hungarian", "Tagalog"],
+    experienceYears: 11,
+    certifications: ["Sustainable Tourism Certificate", "Eco-Tourism Guide"],
+    specialties: ["Religious Sites", "Local Cuisine"],
     specialTraining: [],
   },
   {
-    id: "guide-galveston-10",
-    name: "Olivia Martinez",
+    id: "guide-galveston-5",
+    name: "Brandon Wright",
     city: "Galveston",
     country: "United States",
     state: "",
     region: "Caribbean",
     isPopular: true,
-    bio: "Olivia is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Film Locations, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Alaska", "East Coast USA"],
-    tourTypes: ["Wine Tour", "Ghost Tour", "Private Tour"],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-9091-GAL",
-    phoneNumber: "+1-633-548-1882",
-    contactEmail: "olivia.martinez@paragontrails.com",
+    bio: "Brandon is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Sustainable Tourism, Historical Landmarks, Brandon provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["West Coast USA", "Alaska"],
+    tourTypes: ["Boat Tour", "Group Tour", "Accessible Tour", "Family-Friendly Tour", "Religious Tour"],
+    maxGroupSize: 13,
+    licenseNumber: "LIC-1823-GAL",
+    phoneNumber: "+1-236-782-8949",
+    contactEmail: "brandon.wright@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "11:00 AM",
+          },
+          {
+            from: "01:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "12:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "11:00 AM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "08:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Brandon is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Sustainable Tourism, Historical Landmarks, Brandon provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.7,
+    reviewsCount: 37,
+    quote: "Galveston isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/30.jpg",
+    languages: ["Hebrew"],
+    experienceYears: 7,
+    certifications: ["Local History Certification", "Regional Tourism Ambassador", "Language Proficiency Certification"],
+    specialties: ["Sustainable Tourism", "Historical Landmarks"],
+    specialTraining: ["Marine Biology"],
+  },
+  {
+    id: "guide-galveston-6",
+    name: "Bobby King",
+    city: "Galveston",
+    country: "United States",
+    state: "",
+    region: "Caribbean",
+    isPopular: true,
+    bio: "Bobby is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Historical Landmarks, Nightlife, Bobby provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast USA", "Mediterranean"],
+    tourTypes: ["Farm Visit", "Group Tour", "Market Tour", "Family-Friendly Tour"],
+    maxGroupSize: 10,
+    licenseNumber: "LIC-6636-GAL",
+    phoneNumber: "+1-286-589-1593",
+    contactEmail: "bobby.king@paragontrails.com",
     available: [
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "10:00",
-            to: "15:00",
+            from: "03:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "04:00 PM",
           },
+          {
+            from: "02:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Bobby is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Historical Landmarks, Nightlife, Bobby provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 7,
+    quote: "My goal is to help you fall in love with Galveston just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/76.jpg",
+    languages: ["Arabic"],
+    experienceYears: 3,
+    certifications: ["Local History Certification", "Language Proficiency Certification"],
+    specialties: ["Historical Landmarks", "Nightlife"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-galveston-7",
+    name: "Joseph Palmer",
+    city: "Galveston",
+    country: "United States",
+    state: "",
+    region: "Caribbean",
+    isPopular: false,
+    bio: "Joseph is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Indigenous Culture, Religious Sites, Art Galleries, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Mediterranean"],
+    tourTypes: ["Audio Tour", "Off-Road Tour"],
+    maxGroupSize: 8,
+    licenseNumber: "LIC-9356-GAL",
+    phoneNumber: "+1-745-107-5574",
+    contactEmail: "joseph.palmer@paragontrails.com",
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "04:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "07:00 PM",
+          }
         ],
       },
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "09:00",
-            to: "14:00",
+            from: "02:00 PM",
+            to: "04:00 PM",
           },
+          {
+            from: "01:00 PM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "07:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Joseph is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Indigenous Culture, Religious Sites, Art Galleries, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4,
+    reviewsCount: 49,
+    quote: "Galveston isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/20.jpg",
+    languages: ["Portuguese", "English"],
+    experienceYears: 3,
+    certifications: ["Adventure Tourism Safety Certificate"],
+    specialties: ["Indigenous Culture", "Religious Sites", "Art Galleries"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-galveston-8",
+    name: "Ashley Curtis",
+    city: "Galveston",
+    country: "United States",
+    state: "",
+    region: "Caribbean",
+    isPopular: false,
+    bio: "Ashley is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Nightlife, Ashley provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Mediterranean"],
+    tourTypes: ["Private Tour", "Audio Tour"],
+    maxGroupSize: 9,
+    licenseNumber: "LIC-5439-GAL",
+    phoneNumber: "+1-869-490-1816",
+    contactEmail: "ashley.curtis@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "04:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "10:00 AM",
+          }
         ],
       },
       {
         day: "Wednesday",
         availableHours: [
           {
-            from: "13:00",
-            to: "19:00",
+            from: "02:00 PM",
+            to: "06:00 PM",
           },
+          {
+            from: "03:00 PM",
+            to: "06:00 PM",
+          }
         ],
       },
       {
-        day: "Saturday",
+        day: "Monday",
         availableHours: [
           {
-            from: "13:00",
-            to: "18:00",
-          },
+            from: "11:00 AM",
+            to: "05:00 PM",
+          }
         ],
-      },
+      }
     ],
     isCertified: true,
-    description:
-      "Olivia is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Film Locations, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.7,
-    reviewsCount: 61,
-    quote: "My goal is to help you fall in love with Galveston just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/54.jpg",
-    languages: ["Dutch", "Czech", "Romanian"],
-    experienceYears: 16,
-    certifications: ["Professional Tour Guide Association"],
-    specialties: ["Film Locations"],
+    description: "Ashley is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Nightlife, Ashley provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.9,
+    reviewsCount: 51,
+    quote: "Every corner of Galveston tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/46.jpg",
+    languages: ["Indonesian", "Czech"],
+    experienceYears: 7,
+    certifications: ["Eco-Tourism Guide"],
+    specialties: ["Nightlife"],
     specialTraining: [],
-  },
-  {
-    id: "guide-galveston-11",
-    name: "Harper Clark",
-    city: "Galveston",
-    country: "United States",
-    state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "Harper is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Cultural Etiquette, Local Craftsmanship, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean", "South America"],
-    tourTypes: ["Wildlife Safari", "Food Tour"],
-    maxGroupSize: 6,
-    licenseNumber: "LIC-9730-GAL",
-    phoneNumber: "+1-459-469-8505",
-    contactEmail: "harper.clark@paragontrails.com",
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "13:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Harper is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Cultural Etiquette, Local Craftsmanship, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.6,
-    reviewsCount: 98,
-    quote:
-      "Galveston isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/53.jpg",
-    languages: ["Vietnamese"],
-    experienceYears: 5,
-    certifications: [
-      "Food Safety Certification",
-      "Language Proficiency Certification",
-      "Regional Tourism Ambassador",
-    ],
-    specialties: ["Cultural Etiquette", "Local Craftsmanship"],
-    specialTraining: [],
-  },
+  }
 ];

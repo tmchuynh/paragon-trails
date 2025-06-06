@@ -3,320 +3,199 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
   {
     id: "guide-singapore-1",
-    name: "Sofia Walker",
-    city: "Singapore",
-    country: "Singapore",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: false,
-    bio: "Sofia is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Local Markets, Parks & Gardens, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada"],
-    tourTypes: [
-      "Walking Tour",
-      "Architecture Tour",
-      "Food Tour",
-      "Brewery Tour",
-      "Self-Guided Tour",
-    ],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-9864-SIN",
-    phoneNumber: "+1-869-685-7417",
-    contactEmail: "sofia.walker@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Sofia is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Local Markets, Parks & Gardens, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.4,
-    reviewsCount: 97,
-    quote: "In Singapore, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/54.jpg",
-    languages: ["Spanish", "Hungarian", "Finnish"],
-    experienceYears: 5,
-    certifications: [
-      "Sustainable Tourism Certificate",
-      "Local History Certification",
-      "Licensed City Guide",
-    ],
-    specialties: ["Local Markets", "Parks & Gardens"],
-    specialTraining: ["Historical Research Methods"],
-  },
-  {
-    id: "guide-singapore-2",
-    name: "Lucas Torres",
-    city: "Singapore",
-    country: "Singapore",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: false,
-    bio: "Lucas is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Parks & Gardens, Art Galleries, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Asia Pacific", "Africa"],
-    tourTypes: [
-      "Cultural Tour",
-      "Photography Tour",
-      "Shopping Tour",
-      "Adventure Tour",
-      "Self-Guided Tour",
-    ],
-    maxGroupSize: 9,
-    licenseNumber: "LIC-5131-SIN",
-    phoneNumber: "+1-964-946-4814",
-    contactEmail: "lucas.torres@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Lucas is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Parks & Gardens, Art Galleries, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 92,
-    quote:
-      "Singapore isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/men/14.jpg",
-    languages: ["Italian", "Finnish", "Hindi"],
-    experienceYears: 10,
-    certifications: ["Wilderness First Responder"],
-    specialties: ["Parks & Gardens", "Art Galleries"],
-    specialTraining: ["Regional Cuisine", "Regional Geology"],
-  },
-  {
-    id: "guide-singapore-3",
-    name: "Aria Green",
+    name: "Brenda Kim",
     city: "Singapore",
     country: "Singapore",
     state: "",
     region: "Asia Pacific",
     isPopular: true,
-    bio: "Aria is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Photography Spots, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean", "Northern Europe"],
-    tourTypes: ["Scenic Tour", "Shopping Tour", "Food Tour"],
-    maxGroupSize: 17,
-    licenseNumber: "LIC-4285-SIN",
-    phoneNumber: "+1-861-778-3237",
-    contactEmail: "aria.green@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Aria is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Photography Spots, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.9,
-    reviewsCount: 27,
-    quote:
-      "Singapore isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/46.jpg",
-    languages: ["Hungarian", "Spanish", "Finnish"],
-    experienceYears: 8,
-    certifications: [
-      "Urban Navigation Specialist",
-      "Sustainable Tourism Certificate",
-    ],
-    specialties: ["Photography Spots"],
-    specialTraining: ["Cultural Sensitivity"],
-  },
-  {
-    id: "guide-singapore-4",
-    name: "William Martin",
-    city: "Singapore",
-    country: "Singapore",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: false,
-    bio: "William is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Cultural Etiquette, William provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["South America", "West Coast USA"],
-    tourTypes: [
-      "Cruise Excursion",
-      "Museum Tour",
-      "Historical Tour",
-      "Ghost Tour",
-    ],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-8176-SIN",
-    phoneNumber: "+1-727-911-3278",
-    contactEmail: "william.martin@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "William is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Cultural Etiquette, William provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.1,
-    reviewsCount: 46,
-    quote:
-      "The best way to discover Singapore is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/78.jpg",
-    languages: ["Hebrew", "Danish"],
-    experienceYears: 9,
-    certifications: [
-      "Language Proficiency Certification",
-      "Food Safety Certification",
-      "Regional Tourism Ambassador",
-    ],
-    specialties: ["Cultural Etiquette"],
-    specialTraining: ["Public Speaking", "Accessibility Services"],
-  },
-  {
-    id: "guide-singapore-5",
-    name: "Scarlett Scott",
-    city: "Singapore",
-    country: "Singapore",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: true,
-    bio: "Scarlett is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Urban Legends, Sustainable Tourism, Family Activities, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada"],
-    tourTypes: ["Cultural Tour", "Architecture Tour", "Adventure Tour"],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-8240-SIN",
-    phoneNumber: "+1-670-343-1804",
-    contactEmail: "scarlett.scott@paragontrails.com",
+    bio: "Brenda is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Family Activities, Brenda provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["West Coast USA"],
+    tourTypes: ["Group Tour", "Photography Tour"],
+    maxGroupSize: 8,
+    licenseNumber: "LIC-6032-SIN",
+    phoneNumber: "+1-772-324-5595",
+    contactEmail: "brenda.kim@paragontrails.com",
     available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "17:00",
-          },
-        ],
-      },
       {
         day: "Monday",
         availableHours: [
           {
-            from: "09:00",
-            to: "14:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Scarlett is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Urban Legends, Sustainable Tourism, Family Activities, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.8,
-    reviewsCount: 81,
-    quote: "In Singapore, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/37.jpg",
-    languages: ["Mandarin", "English"],
-    experienceYears: 12,
-    certifications: ["Regional Tourism Ambassador"],
-    specialties: ["Urban Legends", "Sustainable Tourism", "Family Activities"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-singapore-6",
-    name: "William Roberts",
-    city: "Singapore",
-    country: "Singapore",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: true,
-    bio: "William is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Nightlife, Art Galleries, Street Food, William provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Asia Pacific"],
-    tourTypes: ["Brewery Tour", "Eco Tour", "Festival Tour", "Craft Workshop"],
-    maxGroupSize: 17,
-    licenseNumber: "LIC-9722-SIN",
-    phoneNumber: "+1-695-630-7980",
-    contactEmail: "william.roberts@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "12:00",
-          },
+            from: "02:00 PM",
+            to: "05:00 PM",
+          }
         ],
       },
       {
-        day: "Saturday",
+        day: "Wednesday",
         availableHours: [
           {
-            from: "14:00",
-            to: "17:00",
-          },
+            from: "10:00 AM",
+            to: "03:00 PM",
+          }
         ],
       },
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "10:00",
-            to: "15:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "William is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Nightlife, Art Galleries, Street Food, William provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4,
-    reviewsCount: 43,
-    quote: "My goal is to help you fall in love with Singapore just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/2.jpg",
-    languages: ["Korean", "Turkish", "Russian"],
-    experienceYears: 15,
-    certifications: [
-      "CPR & First Aid",
-      "Local History Certification",
-      "Heritage Interpretation Certificate",
-    ],
-    specialties: ["Nightlife", "Art Galleries", "Street Food"],
-    specialTraining: ["Accessibility Services"],
-  },
-  {
-    id: "guide-singapore-7",
-    name: "Abigail Jackson",
-    city: "Singapore",
-    country: "Singapore",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: false,
-    bio: "Abigail is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Art Galleries, Music Scene, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Alaska", "Mediterranean"],
-    tourTypes: ["Market Tour", "Craft Workshop"],
-    maxGroupSize: 5,
-    licenseNumber: "LIC-7171-SIN",
-    phoneNumber: "+1-735-894-4479",
-    contactEmail: "abigail.jackson@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "11:00",
+            from: "11:00 AM",
+            to: "04:00 PM",
           },
           {
-            from: "11:00",
-            to: "15:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "14:00",
-          },
+            from: "11:00 AM",
+            to: "03:00 PM",
+          }
         ],
       },
       {
         day: "Friday",
         availableHours: [
           {
-            from: "13:00",
-            to: "18:00",
-          },
+            from: "02:00 PM",
+            to: "05:00 PM",
+          }
         ],
-      },
+      }
     ],
     isCertified: true,
-    description:
-      "Abigail is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Art Galleries, Music Scene, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.9,
-    reviewsCount: 41,
-    quote:
-      "Singapore isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/men/3.jpg",
-    languages: ["Swedish"],
-    experienceYears: 14,
-    certifications: ["CPR & First Aid"],
-    specialties: ["Art Galleries", "Music Scene"],
+    description: "Brenda is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Family Activities, Brenda provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.6,
+    reviewsCount: 8,
+    quote: "In Singapore, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/67.jpg",
+    languages: ["English"],
+    experienceYears: 11,
+    certifications: ["Adventure Tourism Safety Certificate", "Professional Tour Guide Association"],
+    specialties: ["Family Activities"],
     specialTraining: [],
   },
+  {
+    id: "guide-singapore-2",
+    name: "Jane Wallace",
+    city: "Singapore",
+    country: "Singapore",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: false,
+    bio: "Jane is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Historical Landmarks, Photography Spots, Indigenous Culture, Cultural Etiquette, Jane provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America"],
+    tourTypes: ["Private Tour", "Walking Tour", "Off-Road Tour", "Romantic Tour"],
+    maxGroupSize: 14,
+    licenseNumber: "LIC-6983-SIN",
+    phoneNumber: "+1-970-246-5928",
+    contactEmail: "jane.wallace@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "05:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "07:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Jane is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Historical Landmarks, Photography Spots, Indigenous Culture, Cultural Etiquette, Jane provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.8,
+    reviewsCount: 37,
+    quote: "Singapore isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/66.jpg",
+    languages: ["Polish", "Russian"],
+    experienceYears: 7,
+    certifications: ["Food Safety Certification"],
+    specialties: ["Historical Landmarks", "Photography Spots", "Indigenous Culture", "Cultural Etiquette"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-singapore-3",
+    name: "Jordan Rossi",
+    city: "Singapore",
+    country: "Singapore",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: false,
+    bio: "Jordan is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Street Food, Jordan provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific", "Alaska"],
+    tourTypes: ["Eco Tour", "Adventure Tour"],
+    maxGroupSize: 13,
+    licenseNumber: "LIC-9755-SIN",
+    phoneNumber: "+1-126-117-2909",
+    contactEmail: "jordan.rossi@paragontrails.com",
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "02:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Jordan is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Street Food, Jordan provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.9,
+    reviewsCount: 31,
+    quote: "In Singapore, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/61.jpg",
+    languages: ["Croatian", "French"],
+    experienceYears: 14,
+    certifications: ["Urban Navigation Specialist", "Certified International Tour Manager", "Licensed City Guide"],
+    specialties: ["Street Food"],
+    specialTraining: ["Local Transit Systems", "Cultural Sensitivity"],
+  }
 ];

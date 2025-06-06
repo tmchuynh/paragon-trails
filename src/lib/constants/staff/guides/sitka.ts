@@ -3,315 +3,370 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const sitkaunitedStatesalaskaGuides: TourGuide[] = [
   {
     id: "guide-sitka-1",
-    name: "Victoria Perez",
+    name: "Amina Reed",
     city: "Sitka",
     country: "United States",
     state: "",
     region: "Alaska",
     isPopular: true,
-    bio: "Victoria is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Parks & Gardens, Historical Landmarks, Urban Legends, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Africa", "East Coast Canada"],
-    tourTypes: ["Scenic Tour", "Market Tour", "Family-Friendly Tour"],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-8501-SIT",
-    phoneNumber: "+1-979-429-1000",
-    contactEmail: "victoria.perez@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Victoria is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Parks & Gardens, Historical Landmarks, Urban Legends, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.7,
-    reviewsCount: 103,
-    quote: "My goal is to help you fall in love with Sitka just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/21.jpg",
-    languages: ["Danish", "Romanian"],
-    experienceYears: 12,
-    certifications: [
-      "Adventure Tourism Safety Certificate",
-      "Heritage Interpretation Certificate",
-    ],
-    specialties: ["Parks & Gardens", "Historical Landmarks", "Urban Legends"],
-    specialTraining: ["Local Transit Systems", "Art History"],
-  },
-  {
-    id: "guide-sitka-2",
-    name: "David Rivera",
-    city: "Sitka",
-    country: "United States",
-    state: "",
-    region: "Alaska",
-    isPopular: true,
-    bio: "David is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Art Galleries, Film Locations, Sustainable Tourism, David provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["South America"],
-    tourTypes: ["Street Art Tour", "Festival Tour"],
-    maxGroupSize: 11,
-    licenseNumber: "LIC-2217-SIT",
-    phoneNumber: "+1-795-923-9859",
-    contactEmail: "david.rivera@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "David is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Art Galleries, Film Locations, Sustainable Tourism, David provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.6,
-    reviewsCount: 37,
-    quote:
-      "Sitka isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/69.jpg",
-    languages: ["Portuguese"],
-    experienceYears: 7,
-    certifications: ["CPR & First Aid", "Adventure Tourism Safety Certificate"],
-    specialties: ["Art Galleries", "Film Locations", "Sustainable Tourism"],
-    specialTraining: ["Group Management", "Accessibility Services"],
-  },
-  {
-    id: "guide-sitka-3",
-    name: "Samuel Johnson",
-    city: "Sitka",
-    country: "United States",
-    state: "",
-    region: "Alaska",
-    isPopular: false,
-    bio: "Samuel is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Sustainable Tourism, Architecture, Photography Spots, Music Scene, Samuel provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Middle East", "Northern Europe"],
-    tourTypes: ["Walking Tour", "Scenic Tour", "Bike Tour", "Cooking Class"],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-7366-SIT",
-    phoneNumber: "+1-281-861-4057",
-    contactEmail: "samuel.johnson@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Samuel is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Sustainable Tourism, Architecture, Photography Spots, Music Scene, Samuel provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.4,
-    reviewsCount: 51,
-    quote: "My goal is to help you fall in love with Sitka just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/25.jpg",
-    languages: ["Croatian", "Bulgarian"],
-    experienceYears: 2,
-    certifications: [
-      "Licensed City Guide",
-      "Sustainable Tourism Certificate",
-      "Regional Tourism Ambassador",
-    ],
-    specialties: [
-      "Sustainable Tourism",
-      "Architecture",
-      "Photography Spots",
-      "Music Scene",
-    ],
-    specialTraining: ["Mountain Survival", "Archaeological Conservation"],
-  },
-  {
-    id: "guide-sitka-4",
-    name: "Logan Jackson",
-    city: "Sitka",
-    country: "United States",
-    state: "",
-    region: "Alaska",
-    isPopular: false,
-    bio: "Logan is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Adventure Sports, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Africa"],
-    tourTypes: ["Photography Tour", "Walking Tour", "Cultural Tour"],
-    maxGroupSize: 8,
-    licenseNumber: "LIC-7770-SIT",
-    phoneNumber: "+1-223-811-7164",
-    contactEmail: "logan.jackson@paragontrails.com",
+    bio: "Amina is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Wildlife, Amina provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast USA"],
+    tourTypes: ["Luxury Tour", "Wine Tour", "Food Tour", "Helicopter Tour"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-5417-SIT",
+    phoneNumber: "+1-860-429-4349",
+    contactEmail: "amina.reed@paragontrails.com",
     available: [
       {
         day: "Monday",
         availableHours: [
           {
-            from: "12:00",
-            to: "14:00",
+            from: "03:00 PM",
+            to: "07:00 PM",
           },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
           {
-            from: "11:00",
-            to: "15:00",
-          },
+            from: "09:00 AM",
+            to: "11:00 AM",
+          }
         ],
       },
       {
         day: "Sunday",
         availableHours: [
           {
-            from: "09:00",
-            to: "13:00",
-          },
-          {
-            from: "12:00",
-            to: "14:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Logan is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Adventure Sports, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4,
-    reviewsCount: 30,
-    quote: "Every corner of Sitka tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/5.jpg",
-    languages: ["Arabic", "Dutch", "Portuguese"],
-    experienceYears: 10,
-    certifications: [
-      "Professional Tour Guide Association",
-      "Local History Certification",
-      "Sustainable Tourism Certificate",
-    ],
-    specialties: ["Adventure Sports"],
-    specialTraining: ["Desert Navigation", "Regional Cuisine"],
-  },
-  {
-    id: "guide-sitka-5",
-    name: "Matthew Ramirez",
-    city: "Sitka",
-    country: "United States",
-    state: "",
-    region: "Alaska",
-    isPopular: false,
-    bio: "Matthew is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Museums, Public Transportation Navigation, Religious Sites, Parks & Gardens, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean"],
-    tourTypes: ["Craft Workshop", "Cultural Tour"],
-    maxGroupSize: 9,
-    licenseNumber: "LIC-6175-SIT",
-    phoneNumber: "+1-108-472-6582",
-    contactEmail: "matthew.ramirez@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "17:00",
-          },
-          {
-            from: "08:00",
-            to: "12:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "16:00",
-          },
+            from: "10:00 AM",
+            to: "02:00 PM",
+          }
         ],
       },
       {
         day: "Wednesday",
         availableHours: [
           {
-            from: "11:00",
-            to: "15:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Matthew is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Museums, Public Transportation Navigation, Religious Sites, Parks & Gardens, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.5,
-    reviewsCount: 96,
-    quote: "In Sitka, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/3.jpg",
-    languages: ["Indonesian", "Bulgarian", "Finnish"],
-    experienceYears: 4,
-    certifications: [
-      "Wilderness First Responder",
-      "Language Proficiency Certification",
-      "Sustainable Tourism Certificate",
-    ],
-    specialties: [
-      "Museums",
-      "Public Transportation Navigation",
-      "Religious Sites",
-      "Parks & Gardens",
-    ],
-    specialTraining: ["Accessibility Services"],
-  },
-  {
-    id: "guide-sitka-6",
-    name: "Aiden Martinez",
-    city: "Sitka",
-    country: "United States",
-    state: "",
-    region: "Alaska",
-    isPopular: false,
-    bio: "Aiden is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Religious Sites, Art Galleries, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Asia Pacific"],
-    tourTypes: ["Cooking Class", "Wildlife Safari"],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-7221-SIT",
-    phoneNumber: "+1-194-979-6364",
-    contactEmail: "aiden.martinez@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "18:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "11:00",
+            from: "11:00 AM",
+            to: "05:00 PM",
           },
           {
-            from: "11:00",
-            to: "13:00",
-          },
+            from: "10:00 AM",
+            to: "02:00 PM",
+          }
         ],
       },
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "09:00",
-            to: "15:00",
+            from: "03:00 PM",
+            to: "09:00 PM",
           },
           {
-            from: "08:00",
-            to: "13:00",
+            from: "10:00 AM",
+            to: "04:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Amina is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Wildlife, Amina provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.4,
+    reviewsCount: 54,
+    quote: "Every corner of Sitka tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/51.jpg",
+    languages: ["French", "Hindi"],
+    experienceYears: 11,
+    certifications: ["Wilderness First Responder"],
+    specialties: ["Wildlife"],
+    specialTraining: ["Marine Biology"],
+  },
+  {
+    id: "guide-sitka-2",
+    name: "Linda Campbell",
+    city: "Sitka",
+    country: "United States",
+    state: "",
+    region: "Alaska",
+    isPopular: true,
+    bio: "Linda is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Street Food, Linda provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean", "Asia Pacific"],
+    tourTypes: ["Boat Tour", "Eco Tour"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-7676-SIT",
+    phoneNumber: "+1-183-870-8379",
+    contactEmail: "linda.campbell@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "07:00 PM",
           },
+          {
+            from: "08:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "07:00 PM",
+          },
+          {
+            from: "11:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Linda is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Street Food, Linda provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.3,
+    reviewsCount: 16,
+    quote: "Every corner of Sitka tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/75.jpg",
+    languages: ["Hindi"],
+    experienceYears: 3,
+    certifications: ["Certified International Tour Manager"],
+    specialties: ["Street Food"],
+    specialTraining: ["Historical Research Methods", "Art History"],
+  },
+  {
+    id: "guide-sitka-3",
+    name: "Ava Stewart",
+    city: "Sitka",
+    country: "United States",
+    state: "",
+    region: "Alaska",
+    isPopular: false,
+    bio: "Ava is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Film Locations, Hidden Gems, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East", "Asia Pacific"],
+    tourTypes: ["Shopping Tour", "Self-Guided Tour", "Ghost Tour"],
+    maxGroupSize: 14,
+    licenseNumber: "LIC-8445-SIT",
+    phoneNumber: "+1-905-711-9759",
+    contactEmail: "ava.stewart@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "11:00 AM",
+          },
+          {
+            from: "10:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Ava is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Film Locations, Hidden Gems, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.9,
+    reviewsCount: 20,
+    quote: "In Sitka, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/83.jpg",
+    languages: ["Malay", "Vietnamese", "Croatian"],
+    experienceYears: 9,
+    certifications: ["Professional Tour Guide Association", "Certified International Tour Manager"],
+    specialties: ["Film Locations", "Hidden Gems"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-sitka-4",
+    name: "Wayne Payne",
+    city: "Sitka",
+    country: "United States",
+    state: "",
+    region: "Alaska",
+    isPopular: false,
+    bio: "Wayne is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Religious Sites, Photography Spots, Art Galleries, Sustainable Tourism, Wayne provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific", "West Coast USA"],
+    tourTypes: ["Audio Tour", "Scenic Tour"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-9142-SIT",
+    phoneNumber: "+1-607-326-7114",
+    contactEmail: "wayne.payne@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "02:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "01:00 PM",
+          }
         ],
       },
       {
         day: "Monday",
         availableHours: [
           {
-            from: "14:00",
-            to: "20:00",
+            from: "02:00 PM",
+            to: "05:00 PM",
           },
           {
-            from: "08:00",
-            to: "11:00",
-          },
+            from: "03:00 PM",
+            to: "09:00 PM",
+          }
         ],
       },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "11:00 AM",
+          },
+          {
+            from: "08:00 AM",
+            to: "11:00 AM",
+          }
+        ],
+      }
     ],
     isCertified: true,
-    description:
-      "Aiden is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Religious Sites, Art Galleries, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.4,
-    reviewsCount: 55,
+    description: "Wayne is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Religious Sites, Photography Spots, Art Galleries, Sustainable Tourism, Wayne provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.6,
+    reviewsCount: 36,
     quote: "My goal is to help you fall in love with Sitka just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/44.jpg",
-    languages: ["Spanish"],
-    experienceYears: 3,
-    certifications: ["Eco-Tourism Guide"],
-    specialties: ["Religious Sites", "Art Galleries"],
-    specialTraining: ["Accessibility Services", "Group Management"],
+    profileImage: "https://randomuser.me/api/portraits/men/26.jpg",
+    languages: ["Finnish", "Indonesian", "Swedish"],
+    experienceYears: 14,
+    certifications: ["Regional Tourism Ambassador", "Food Safety Certification", "Professional Tour Guide Association"],
+    specialties: ["Religious Sites", "Photography Spots", "Art Galleries", "Sustainable Tourism"],
+    specialTraining: [],
   },
+  {
+    id: "guide-sitka-5",
+    name: "Raymond Wang",
+    city: "Sitka",
+    country: "United States",
+    state: "",
+    region: "Alaska",
+    isPopular: false,
+    bio: "Raymond is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Music Scene, Sustainable Tourism, Wildlife, Public Transportation Navigation, Raymond provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast USA", "Caribbean"],
+    tourTypes: ["Festival Tour", "Private Tour"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-3985-SIT",
+    phoneNumber: "+1-242-134-8621",
+    contactEmail: "raymond.wang@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "04:00 PM",
+          },
+          {
+            from: "02:00 PM",
+            to: "08:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "02:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Raymond is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Music Scene, Sustainable Tourism, Wildlife, Public Transportation Navigation, Raymond provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.2,
+    reviewsCount: 26,
+    quote: "My goal is to help you fall in love with Sitka just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/70.jpg",
+    languages: ["Romanian", "Korean"],
+    experienceYears: 10,
+    certifications: ["Urban Navigation Specialist", "Sustainable Tourism Certificate", "Food Safety Certification"],
+    specialties: ["Music Scene", "Sustainable Tourism", "Wildlife", "Public Transportation Navigation"],
+    specialTraining: ["Urban Planning", "Public Speaking"],
+  }
 ];

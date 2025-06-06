@@ -3,373 +3,310 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const dubaiunitedArabEmiratesmiddleEastGuides: TourGuide[] = [
   {
     id: "guide-dubai-1",
-    name: "Jacob Thomas",
+    name: "Lily Jennings",
     city: "Dubai",
     country: "United Arab Emirates",
     state: "",
     region: "Middle East",
     isPopular: false,
-    bio: "Jacob is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Local Cuisine, Local Markets, Urban Legends, Music Scene, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Asia Pacific"],
-    tourTypes: [
-      "Street Art Tour",
-      "Family-Friendly Tour",
-      "Adventure Tour",
-      "Nature Tour",
-      "Brewery Tour",
-    ],
-    maxGroupSize: 13,
-    licenseNumber: "LIC-2670-DUB",
-    phoneNumber: "+1-949-298-5435",
-    contactEmail: "jacob.thomas@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Jacob is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Local Cuisine, Local Markets, Urban Legends, Music Scene, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 5,
-    reviewsCount: 42,
-    quote: "My goal is to help you fall in love with Dubai just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/3.jpg",
-    languages: ["Malay", "Italian", "Greek"],
-    experienceYears: 10,
-    certifications: [
-      "Wilderness First Responder",
-      "Regional Tourism Ambassador",
-    ],
-    specialties: [
-      "Local Cuisine",
-      "Local Markets",
-      "Urban Legends",
-      "Music Scene",
-    ],
-    specialTraining: [],
-  },
-  {
-    id: "guide-dubai-2",
-    name: "Chloe Clark",
-    city: "Dubai",
-    country: "United Arab Emirates",
-    state: "",
-    region: "Middle East",
-    isPopular: false,
-    bio: "Chloe is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Street Food, Film Locations, Hidden Gems, Local Markets, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["West Coast USA", "South America"],
-    tourTypes: ["Religious Tour", "Nature Tour", "Cultural Tour"],
-    maxGroupSize: 5,
-    licenseNumber: "LIC-4125-DUB",
-    phoneNumber: "+1-496-298-2088",
-    contactEmail: "chloe.clark@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Chloe is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Street Food, Film Locations, Hidden Gems, Local Markets, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.6,
-    reviewsCount: 82,
-    quote:
-      "Dubai isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/men/48.jpg",
-    languages: ["Norwegian", "Swahili"],
-    experienceYears: 7,
-    certifications: ["Regional Tourism Ambassador"],
-    specialties: [
-      "Street Food",
-      "Film Locations",
-      "Hidden Gems",
-      "Local Markets",
-    ],
-    specialTraining: [],
-  },
-  {
-    id: "guide-dubai-3",
-    name: "Aiden Sanchez",
-    city: "Dubai",
-    country: "United Arab Emirates",
-    state: "",
-    region: "Middle East",
-    isPopular: false,
-    bio: "Aiden is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Museums, Family Activities, Adventure Sports, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Middle East", "Northern Europe"],
-    tourTypes: ["Architecture Tour", "Museum Tour", "Luxury Tour"],
-    maxGroupSize: 15,
-    licenseNumber: "LIC-2698-DUB",
-    phoneNumber: "+1-909-103-1676",
-    contactEmail: "aiden.sanchez@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Aiden is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Museums, Family Activities, Adventure Sports, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.9,
-    reviewsCount: 56,
-    quote:
-      "Dubai isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/14.jpg",
-    languages: ["Czech", "Korean", "Japanese"],
-    experienceYears: 11,
-    certifications: ["Licensed City Guide"],
-    specialties: ["Museums", "Family Activities", "Adventure Sports"],
-    specialTraining: ["Regional Geology", "Mountain Survival"],
-  },
-  {
-    id: "guide-dubai-4",
-    name: "Layla Roberts",
-    city: "Dubai",
-    country: "United Arab Emirates",
-    state: "",
-    region: "Middle East",
-    isPopular: true,
-    bio: "Layla is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Hidden Gems, Religious Sites, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["West Coast USA", "Northern Europe"],
-    tourTypes: [
-      "Religious Tour",
-      "Underground Tour",
-      "Museum Tour",
-      "Off-Road Tour",
-      "Nature Tour",
-    ],
-    maxGroupSize: 15,
-    licenseNumber: "LIC-4651-DUB",
-    phoneNumber: "+1-899-588-1725",
-    contactEmail: "layla.roberts@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Layla is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Hidden Gems, Religious Sites, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 5,
-    reviewsCount: 89,
-    quote: "In Dubai, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/42.jpg",
-    languages: ["Arabic"],
-    experienceYears: 13,
-    certifications: [
-      "Wilderness First Responder",
-      "Eco-Tourism Guide",
-      "Regional Tourism Ambassador",
-    ],
-    specialties: ["Hidden Gems", "Religious Sites"],
-    specialTraining: ["Emergency Response"],
-  },
-  {
-    id: "guide-dubai-5",
-    name: "Penelope Campbell",
-    city: "Dubai",
-    country: "United Arab Emirates",
-    state: "",
-    region: "Middle East",
-    isPopular: false,
-    bio: "Penelope is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Architecture, Film Locations, Music Scene, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Middle East"],
-    tourTypes: [
-      "LGBTQ+ Friendly Tour",
-      "Farm Visit",
-      "Cruise Excursion",
-      "Helicopter Tour",
-      "Architecture Tour",
-    ],
-    maxGroupSize: 15,
-    licenseNumber: "LIC-8086-DUB",
-    phoneNumber: "+1-348-805-2190",
-    contactEmail: "penelope.campbell@paragontrails.com",
+    bio: "Lily is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Film Locations, Indigenous Culture, Nightlife, Lily provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America"],
+    tourTypes: ["Brewery Tour", "LGBTQ+ Friendly Tour", "Family-Friendly Tour", "Wine Tour", "Cruise Excursion"],
+    maxGroupSize: 11,
+    licenseNumber: "LIC-7930-DUB",
+    phoneNumber: "+1-802-776-1186",
+    contactEmail: "lily.jennings@paragontrails.com",
     available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "04:00 PM",
+          }
+        ],
+      },
       {
         day: "Monday",
         availableHours: [
           {
-            from: "09:00",
-            to: "13:00",
+            from: "11:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Lily is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Film Locations, Indigenous Culture, Nightlife, Lily provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.9,
+    reviewsCount: 68,
+    quote: "The best way to discover Dubai is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/18.jpg",
+    languages: ["Indonesian", "Mandarin", "Croatian"],
+    experienceYears: 14,
+    certifications: ["CPR & First Aid"],
+    specialties: ["Film Locations", "Indigenous Culture", "Nightlife"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-dubai-2",
+    name: "Stephanie Johnson",
+    city: "Dubai",
+    country: "United Arab Emirates",
+    state: "",
+    region: "Middle East",
+    isPopular: false,
+    bio: "Stephanie is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Hidden Gems, Stephanie provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Alaska"],
+    tourTypes: ["Private Tour", "Walking Tour", "Romantic Tour", "Group Tour", "Bike Tour"],
+    maxGroupSize: 11,
+    licenseNumber: "LIC-1227-DUB",
+    phoneNumber: "+1-314-406-8446",
+    contactEmail: "stephanie.johnson@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "07:00 PM",
           },
+          {
+            from: "08:00 AM",
+            to: "02:00 PM",
+          }
         ],
       },
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "11:00",
-            to: "13:00",
+            from: "12:00 PM",
+            to: "03:00 PM",
           },
           {
-            from: "09:00",
-            to: "15:00",
-          },
+            from: "01:00 PM",
+            to: "05:00 PM",
+          }
         ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "13:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "13:00",
-          },
-          {
-            from: "11:00",
-            to: "13:00",
-          },
-        ],
-      },
+      }
     ],
     isCertified: true,
-    description:
-      "Penelope is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Architecture, Film Locations, Music Scene, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.9,
-    reviewsCount: 101,
+    description: "Stephanie is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Hidden Gems, Stephanie provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.9,
+    reviewsCount: 61,
     quote: "Every corner of Dubai tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/59.jpg",
-    languages: ["Swedish", "Arabic"],
-    experienceYears: 4,
-    certifications: ["Sustainable Tourism Certificate"],
-    specialties: ["Architecture", "Film Locations", "Music Scene"],
+    profileImage: "https://randomuser.me/api/portraits/women/78.jpg",
+    languages: ["Hebrew", "Polish"],
+    experienceYears: 6,
+    certifications: ["Professional Tour Guide Association"],
+    specialties: ["Hidden Gems"],
     specialTraining: ["Regional Geology"],
   },
   {
-    id: "guide-dubai-6",
-    name: "Carter Clark",
+    id: "guide-dubai-3",
+    name: "Maya Wells",
     city: "Dubai",
     country: "United Arab Emirates",
     state: "",
     region: "Middle East",
     isPopular: false,
-    bio: "Carter is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in LGBTQ+ History, Public Transportation Navigation, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean", "Mediterranean"],
-    tourTypes: ["Ghost Tour", "Bike Tour", "Nature Tour", "Religious Tour"],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-5642-DUB",
-    phoneNumber: "+1-528-467-7915",
-    contactEmail: "carter.clark@paragontrails.com",
+    bio: "Maya is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Wine Tasting, Historical Landmarks, Hidden Gems, Maya provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada", "Northern Europe"],
+    tourTypes: ["Family-Friendly Tour", "Market Tour", "Ghost Tour"],
+    maxGroupSize: 19,
+    licenseNumber: "LIC-5966-DUB",
+    phoneNumber: "+1-788-547-9244",
+    contactEmail: "maya.wells@paragontrails.com",
     available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "13:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "14:00",
-          },
-        ],
-      },
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "10:00",
-            to: "13:00",
-          },
-          {
-            from: "08:00",
-            to: "11:00",
-          },
+            from: "03:00 PM",
+            to: "09:00 PM",
+          }
         ],
       },
       {
         day: "Friday",
         availableHours: [
           {
-            from: "08:00",
-            to: "10:00",
-          },
+            from: "11:00 AM",
+            to: "01:00 PM",
+          }
         ],
       },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "03:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      }
     ],
     isCertified: true,
-    description:
-      "Carter is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in LGBTQ+ History, Public Transportation Navigation, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.3,
-    reviewsCount: 89,
-    quote: "Every corner of Dubai tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/40.jpg",
-    languages: ["English", "Hebrew"],
-    experienceYears: 11,
-    certifications: ["Language Proficiency Certification"],
-    specialties: ["LGBTQ+ History", "Public Transportation Navigation"],
-    specialTraining: ["Emergency Response", "Historical Research Methods"],
+    description: "Maya is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Wine Tasting, Historical Landmarks, Hidden Gems, Maya provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.5,
+    reviewsCount: 18,
+    quote: "My goal is to help you fall in love with Dubai just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/24.jpg",
+    languages: ["Croatian", "Romanian"],
+    experienceYears: 13,
+    certifications: ["Local History Certification", "CPR & First Aid", "Language Proficiency Certification"],
+    specialties: ["Wine Tasting", "Historical Landmarks", "Hidden Gems"],
+    specialTraining: ["Cultural Sensitivity"],
   },
   {
-    id: "guide-dubai-7",
-    name: "Sofia Nguyen",
+    id: "guide-dubai-4",
+    name: "Caroline Dunn",
     city: "Dubai",
     country: "United Arab Emirates",
     state: "",
     region: "Middle East",
     isPopular: false,
-    bio: "Sofia is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Music Scene, Sustainable Tourism, Urban Legends, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Asia Pacific", "West Coast USA"],
-    tourTypes: [
-      "Historical Tour",
-      "Underground Tour",
-      "Brewery Tour",
-      "Family-Friendly Tour",
+    bio: "Caroline is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Art Galleries, Religious Sites, Architecture, Caroline provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast USA"],
+    tourTypes: ["Festival Tour", "Nature Tour", "Family-Friendly Tour"],
+    maxGroupSize: 5,
+    licenseNumber: "LIC-6567-DUB",
+    phoneNumber: "+1-588-973-6127",
+    contactEmail: "caroline.dunn@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "11:00 AM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "12:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "03:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      }
     ],
-    maxGroupSize: 19,
-    licenseNumber: "LIC-1362-DUB",
-    phoneNumber: "+1-325-450-5762",
-    contactEmail: "sofia.nguyen@paragontrails.com",
+    isCertified: true,
+    description: "Caroline is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Art Galleries, Religious Sites, Architecture, Caroline provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 60,
+    quote: "In Dubai, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/4.jpg",
+    languages: ["Swahili", "Korean", "Finnish"],
+    experienceYears: 15,
+    certifications: ["Eco-Tourism Guide", "Urban Navigation Specialist"],
+    specialties: ["Art Galleries", "Religious Sites", "Architecture"],
+    specialTraining: ["Public Speaking"],
+  },
+  {
+    id: "guide-dubai-5",
+    name: "Carol King",
+    city: "Dubai",
+    country: "United Arab Emirates",
+    state: "",
+    region: "Middle East",
+    isPopular: false,
+    bio: "Carol is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Family Activities, Public Transportation Navigation, Art Galleries, Carol provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America", "Mediterranean"],
+    tourTypes: ["Family-Friendly Tour", "Brewery Tour"],
+    maxGroupSize: 6,
+    licenseNumber: "LIC-9954-DUB",
+    phoneNumber: "+1-356-622-4572",
+    contactEmail: "carol.king@paragontrails.com",
     available: [
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "10:00",
-            to: "16:00",
-          },
-          {
-            from: "14:00",
-            to: "18:00",
-          },
+            from: "08:00 AM",
+            to: "02:00 PM",
+          }
         ],
       },
       {
         day: "Wednesday",
         availableHours: [
           {
-            from: "09:00",
-            to: "11:00",
+            from: "01:00 PM",
+            to: "03:00 PM",
           },
           {
-            from: "14:00",
-            to: "16:00",
-          },
+            from: "12:00 PM",
+            to: "04:00 PM",
+          }
         ],
       },
       {
-        day: "Tuesday",
+        day: "Monday",
         availableHours: [
           {
-            from: "12:00",
-            to: "15:00",
+            from: "08:00 AM",
+            to: "12:00 PM",
           },
+          {
+            from: "11:00 AM",
+            to: "02:00 PM",
+          }
         ],
-      },
+      }
     ],
     isCertified: true,
-    description:
-      "Sofia is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Music Scene, Sustainable Tourism, Urban Legends, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.9,
-    reviewsCount: 61,
-    quote:
-      "The best way to discover Dubai is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/29.jpg",
-    languages: ["Swedish"],
-    experienceYears: 11,
-    certifications: [
-      "Heritage Interpretation Certificate",
-      "Professional Tour Guide Association",
-    ],
-    specialties: ["Music Scene", "Sustainable Tourism", "Urban Legends"],
-    specialTraining: ["Desert Navigation"],
-  },
+    description: "Carol is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Family Activities, Public Transportation Navigation, Art Galleries, Carol provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.4,
+    reviewsCount: 13,
+    quote: "The best way to discover Dubai is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/3.jpg",
+    languages: ["Vietnamese", "Dutch"],
+    experienceYears: 7,
+    certifications: ["Adventure Tourism Safety Certificate", "Urban Navigation Specialist", "Language Proficiency Certification"],
+    specialties: ["Family Activities", "Public Transportation Navigation", "Art Galleries"],
+    specialTraining: ["Wine Education"],
+  }
 ];

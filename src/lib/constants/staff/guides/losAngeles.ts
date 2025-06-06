@@ -3,397 +3,207 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const losAngelesunitedStateswestCoastUsaGuides: TourGuide[] = [
   {
     id: "guide-los-angeles-1",
-    name: "Liam Clark",
+    name: "Brandon Hernandez",
     city: "Los Angeles",
     country: "United States",
     state: "",
     region: "West Coast USA",
     isPopular: false,
-    bio: "Liam is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Photography Spots, Music Scene, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Africa", "Asia Pacific"],
-    tourTypes: [
-      "Craft Workshop",
-      "Brewery Tour",
-      "Cooking Class",
-      "Accessible Tour",
+    bio: "Brandon is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Architecture, Religious Sites, Music Scene, Brandon provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa", "South America"],
+    tourTypes: ["Cruise Excursion", "Historical Tour", "Religious Tour", "Photography Tour", "Craft Workshop"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-1518-LOS",
+    phoneNumber: "+1-616-923-2931",
+    contactEmail: "brandon.hernandez@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "11:00 AM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "03:00 PM",
+          }
+        ],
+      }
     ],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-8230-LOS",
-    phoneNumber: "+1-461-890-9922",
-    contactEmail: "liam.clark@paragontrails.com",
-    available: [],
     isCertified: true,
-    description:
-      "Liam is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Photography Spots, Music Scene, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.8,
-    reviewsCount: 94,
-    quote:
-      "Every corner of Los Angeles tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/32.jpg",
-    languages: ["Bulgarian"],
-    experienceYears: 10,
-    certifications: ["Sustainable Tourism Certificate"],
-    specialties: ["Photography Spots", "Music Scene"],
-    specialTraining: ["Group Management", "Emergency Response"],
+    description: "Brandon is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Architecture, Religious Sites, Music Scene, Brandon provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 32,
+    quote: "Los Angeles isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/7.jpg",
+    languages: ["Czech"],
+    experienceYears: 5,
+    certifications: ["Regional Tourism Ambassador", "Licensed City Guide"],
+    specialties: ["Architecture", "Religious Sites", "Music Scene"],
+    specialTraining: ["Urban Planning"],
   },
   {
     id: "guide-los-angeles-2",
-    name: "Henry Perez",
+    name: "Adeline Day",
     city: "Los Angeles",
     country: "United States",
     state: "",
     region: "West Coast USA",
-    isPopular: false,
-    bio: "Henry is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Sustainable Tourism, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Northern Europe", "Asia Pacific"],
-    tourTypes: ["Nature Tour", "Street Art Tour"],
-    maxGroupSize: 10,
-    licenseNumber: "LIC-8678-LOS",
-    phoneNumber: "+1-818-704-8261",
-    contactEmail: "henry.perez@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Henry is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Sustainable Tourism, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.3,
-    reviewsCount: 23,
-    quote:
-      "My goal is to help you fall in love with Los Angeles just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/32.jpg",
-    languages: ["Korean"],
-    experienceYears: 10,
-    certifications: [
-      "Wilderness First Responder",
-      "Sustainable Tourism Certificate",
+    isPopular: true,
+    bio: "Adeline is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Film Locations, Public Transportation Navigation, LGBTQ+ History, Adeline provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean"],
+    tourTypes: ["Eco Tour", "Historical Tour", "Photography Tour", "Walking Tour"],
+    maxGroupSize: 8,
+    licenseNumber: "LIC-9060-LOS",
+    phoneNumber: "+1-508-715-9409",
+    contactEmail: "adeline.day@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "12:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      }
     ],
-    specialties: ["Sustainable Tourism"],
+    isCertified: true,
+    description: "Adeline is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Film Locations, Public Transportation Navigation, LGBTQ+ History, Adeline provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.4,
+    reviewsCount: 42,
+    quote: "My goal is to help you fall in love with Los Angeles just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/84.jpg",
+    languages: ["Hebrew", "Turkish", "Finnish"],
+    experienceYears: 4,
+    certifications: ["Sustainable Tourism Certificate", "Eco-Tourism Guide"],
+    specialties: ["Film Locations", "Public Transportation Navigation", "LGBTQ+ History"],
     specialTraining: [],
   },
   {
     id: "guide-los-angeles-3",
-    name: "Harper Green",
+    name: "Victoria da Costa",
     city: "Los Angeles",
     country: "United States",
     state: "",
     region: "West Coast USA",
-    isPopular: true,
-    bio: "Harper is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Urban Legends, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Middle East", "Mediterranean"],
-    tourTypes: [
-      "Underground Tour",
-      "Shopping Tour",
-      "Farm Visit",
-      "Luxury Tour",
-      "Family-Friendly Tour",
+    isPopular: false,
+    bio: "Victoria is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Wine Tasting, Historical Landmarks, Architecture, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean"],
+    tourTypes: ["Romantic Tour", "Market Tour", "Shopping Tour", "Scenic Tour", "Walking Tour"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-7584-LOS",
+    phoneNumber: "+1-681-257-2499",
+    contactEmail: "victoria.da@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "11:00 AM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "04:00 PM",
+          },
+          {
+            from: "11:00 AM",
+            to: "05:00 PM",
+          }
+        ],
+      }
     ],
-    maxGroupSize: 8,
-    licenseNumber: "LIC-2574-LOS",
-    phoneNumber: "+1-681-847-9613",
-    contactEmail: "harper.green@paragontrails.com",
-    available: [],
     isCertified: true,
-    description:
-      "Harper is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Urban Legends, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.1,
-    reviewsCount: 59,
-    quote: "In Los Angeles, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/2.jpg",
-    languages: ["French", "Indonesian", "Polish"],
-    experienceYears: 10,
-    certifications: [
-      "CPR & First Aid",
-      "Cultural Heritage Specialist",
-      "Professional Tour Guide Association",
-    ],
-    specialties: ["Urban Legends"],
-    specialTraining: [],
+    description: "Victoria is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Wine Tasting, Historical Landmarks, Architecture, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.3,
+    reviewsCount: 95,
+    quote: "The best way to discover Los Angeles is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/56.jpg",
+    languages: ["Arabic", "Polish", "Portuguese"],
+    experienceYears: 14,
+    certifications: ["Language Proficiency Certification", "Urban Navigation Specialist", "Regional Tourism Ambassador"],
+    specialties: ["Wine Tasting", "Historical Landmarks", "Architecture"],
+    specialTraining: ["Archaeological Conservation"],
   },
   {
     id: "guide-los-angeles-4",
-    name: "Daniel Thomas",
-    city: "Los Angeles",
-    country: "United States",
-    state: "",
-    region: "West Coast USA",
-    isPopular: false,
-    bio: "Daniel is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Wildlife, Family Activities, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Middle East", "East Coast Canada"],
-    tourTypes: ["Cruise Excursion", "Bike Tour", "Scenic Tour"],
-    maxGroupSize: 9,
-    licenseNumber: "LIC-5448-LOS",
-    phoneNumber: "+1-651-781-5344",
-    contactEmail: "daniel.thomas@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Daniel is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Wildlife, Family Activities, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.1,
-    reviewsCount: 91,
-    quote:
-      "My goal is to help you fall in love with Los Angeles just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/29.jpg",
-    languages: ["Dutch", "English", "Tagalog"],
-    experienceYears: 2,
-    certifications: ["Local History Certification"],
-    specialties: ["Wildlife", "Family Activities"],
-    specialTraining: ["Marine Biology", "Group Management"],
-  },
-  {
-    id: "guide-los-angeles-5",
-    name: "Jackson Hill",
-    city: "Los Angeles",
-    country: "United States",
-    state: "",
-    region: "West Coast USA",
-    isPopular: false,
-    bio: "Jackson is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Adventure Sports, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean", "East Coast Canada"],
-    tourTypes: ["Helicopter Tour", "Museum Tour"],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-8780-LOS",
-    phoneNumber: "+1-412-400-8730",
-    contactEmail: "jackson.hill@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Jackson is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Adventure Sports, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 75,
-    quote:
-      "The best way to discover Los Angeles is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/11.jpg",
-    languages: ["Swahili", "Vietnamese", "Thai"],
-    experienceYears: 2,
-    certifications: [
-      "CPR & First Aid",
-      "Licensed City Guide",
-      "Eco-Tourism Guide",
-    ],
-    specialties: ["Adventure Sports"],
-    specialTraining: ["Regional Geology", "Archaeological Conservation"],
-  },
-  {
-    id: "guide-los-angeles-6",
-    name: "Carter Moore",
+    name: "Layla Warren",
     city: "Los Angeles",
     country: "United States",
     state: "",
     region: "West Coast USA",
     isPopular: true,
-    bio: "Carter is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Indigenous Culture, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast USA", "West Coast USA"],
-    tourTypes: ["Craft Workshop", "Relocation Tour", "LGBTQ+ Friendly Tour"],
-    maxGroupSize: 10,
-    licenseNumber: "LIC-3339-LOS",
-    phoneNumber: "+1-194-681-7087",
-    contactEmail: "carter.moore@paragontrails.com",
+    bio: "Layla is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Photography Spots, Indigenous Culture, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Alaska"],
+    tourTypes: ["Boat Tour", "Shopping Tour", "Accessible Tour", "Nature Tour", "Luxury Tour"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-1566-LOS",
+    phoneNumber: "+1-243-252-8675",
+    contactEmail: "layla.warren@paragontrails.com",
     available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "15:00",
-          },
-          {
-            from: "11:00",
-            to: "15:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "18:00",
-          },
-          {
-            from: "14:00",
-            to: "20:00",
-          },
-        ],
-      },
       {
         day: "Wednesday",
         availableHours: [
           {
-            from: "12:00",
-            to: "15:00",
-          },
+            from: "01:00 PM",
+            to: "04:00 PM",
+          }
         ],
       },
       {
-        day: "Monday",
+        day: "Friday",
         availableHours: [
           {
-            from: "13:00",
-            to: "15:00",
-          },
+            from: "08:00 AM",
+            to: "02:00 PM",
+          }
         ],
-      },
+      }
     ],
     isCertified: true,
-    description:
-      "Carter is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Indigenous Culture, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
+    description: "Layla is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Photography Spots, Indigenous Culture, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
-    reviewsCount: 27,
-    quote:
-      "My goal is to help you fall in love with Los Angeles just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/17.jpg",
-    languages: ["Malay"],
-    experienceYears: 14,
-    certifications: ["Regional Tourism Ambassador"],
-    specialties: ["Indigenous Culture"],
-    specialTraining: ["Local Transit Systems", "Public Speaking"],
-  },
-  {
-    id: "guide-los-angeles-7",
-    name: "Carter Hill",
-    city: "Los Angeles",
-    country: "United States",
-    state: "",
-    region: "West Coast USA",
-    isPopular: false,
-    bio: "Carter is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Film Locations, Local Markets, Local Craftsmanship, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Asia Pacific", "East Coast Canada"],
-    tourTypes: ["Museum Tour", "Brewery Tour", "Accessible Tour"],
-    maxGroupSize: 11,
-    licenseNumber: "LIC-2523-LOS",
-    phoneNumber: "+1-342-287-6997",
-    contactEmail: "carter.hill@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "17:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "17:00",
-          },
-          {
-            from: "09:00",
-            to: "15:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "14:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Carter is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Film Locations, Local Markets, Local Craftsmanship, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.2,
-    reviewsCount: 8,
-    quote:
-      "Every corner of Los Angeles tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/49.jpg",
-    languages: ["Portuguese"],
-    experienceYears: 7,
-    certifications: [
-      "Regional Tourism Ambassador",
-      "Professional Tour Guide Association",
-    ],
-    specialties: ["Film Locations", "Local Markets", "Local Craftsmanship"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-los-angeles-8",
-    name: "David Gonzalez",
-    city: "Los Angeles",
-    country: "United States",
-    state: "",
-    region: "West Coast USA",
-    isPopular: false,
-    bio: "David is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Historical Landmarks, Architecture, Wine Tasting, Family Activities, David provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Middle East", "West Coast USA"],
-    tourTypes: ["Relocation Tour", "Self-Guided Tour"],
-    maxGroupSize: 14,
-    licenseNumber: "LIC-5825-LOS",
-    phoneNumber: "+1-113-632-4099",
-    contactEmail: "david.gonzalez@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "14:00",
-          },
-          {
-            from: "09:00",
-            to: "13:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "15:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "17:00",
-          },
-          {
-            from: "14:00",
-            to: "17:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "13:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "David is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Historical Landmarks, Architecture, Wine Tasting, Family Activities, David provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.5,
-    reviewsCount: 74,
-    quote:
-      "The best way to discover Los Angeles is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/11.jpg",
-    languages: ["Croatian", "French"],
-    experienceYears: 7,
-    certifications: [
-      "Sustainable Tourism Certificate",
-      "Licensed City Guide",
-      "Language Proficiency Certification",
-    ],
-    specialties: [
-      "Historical Landmarks",
-      "Architecture",
-      "Wine Tasting",
-      "Family Activities",
-    ],
-    specialTraining: ["Regional Cuisine", "Public Speaking"],
-  },
+    reviewsCount: 16,
+    quote: "Every corner of Los Angeles tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/58.jpg",
+    languages: ["Hungarian", "Croatian"],
+    experienceYears: 8,
+    certifications: ["Heritage Interpretation Certificate", "CPR & First Aid"],
+    specialties: ["Photography Spots", "Indigenous Culture"],
+    specialTraining: ["Urban Planning", "Religious Studies"],
+  }
 ];

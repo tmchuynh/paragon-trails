@@ -3,528 +3,354 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const hoChiMinhCityvietnamasiaPacificGuides: TourGuide[] = [
   {
     id: "guide-ho-chi-minh-city-1",
-    name: "Jacob Hall",
-    city: "Ho Chi Minh City",
-    country: "Vietnam",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: true,
-    bio: "Jacob is a passionate tour guide with extensive knowledge of Ho Chi Minh City and Vietnam. Specializing in Architecture, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean"],
-    tourTypes: [
-      "Scenic Tour",
-      "Religious Tour",
-      "Historical Tour",
-      "Wildlife Safari",
-    ],
-    maxGroupSize: 14,
-    licenseNumber: "LIC-1282-HO-",
-    phoneNumber: "+1-645-309-8834",
-    contactEmail: "jacob.hall@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Jacob is a passionate tour guide with extensive knowledge of Ho Chi Minh City and Vietnam. Specializing in Architecture, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.1,
-    reviewsCount: 25,
-    quote:
-      "Ho Chi Minh City isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/men/15.jpg",
-    languages: ["Portuguese"],
-    experienceYears: 13,
-    certifications: [
-      "Wilderness First Responder",
-      "Certified International Tour Manager",
-    ],
-    specialties: ["Architecture"],
-    specialTraining: ["Historical Research Methods"],
-  },
-  {
-    id: "guide-ho-chi-minh-city-2",
-    name: "Ava Moore",
-    city: "Ho Chi Minh City",
-    country: "Vietnam",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: true,
-    bio: "Ava is a passionate tour guide with extensive knowledge of Ho Chi Minh City and Vietnam. Specializing in Wildlife, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["South America", "Alaska"],
-    tourTypes: ["Architecture Tour", "Religious Tour", "Craft Workshop"],
-    maxGroupSize: 6,
-    licenseNumber: "LIC-7605-HO-",
-    phoneNumber: "+1-423-704-1356",
-    contactEmail: "ava.moore@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Ava is a passionate tour guide with extensive knowledge of Ho Chi Minh City and Vietnam. Specializing in Wildlife, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4,
-    reviewsCount: 40,
-    quote:
-      "Every corner of Ho Chi Minh City tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/41.jpg",
-    languages: ["Czech"],
-    experienceYears: 10,
-    certifications: ["Wilderness First Responder", "Food Safety Certification"],
-    specialties: ["Wildlife"],
-    specialTraining: ["Local Transit Systems"],
-  },
-  {
-    id: "guide-ho-chi-minh-city-3",
-    name: "Abigail Moore",
+    name: "Ahmed Foster",
     city: "Ho Chi Minh City",
     country: "Vietnam",
     state: "",
     region: "Asia Pacific",
     isPopular: false,
-    bio: "Abigail is a passionate tour guide with extensive knowledge of Ho Chi Minh City and Vietnam. Specializing in Nightlife, Local Cuisine, Architecture, Religious Sites, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
+    bio: "Ahmed is a passionate tour guide with extensive knowledge of Ho Chi Minh City and Vietnam. Specializing in LGBTQ+ History, Urban Legends, Ahmed provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Alaska"],
-    tourTypes: ["Walking Tour", "Accessible Tour", "Farm Visit"],
-    maxGroupSize: 18,
-    licenseNumber: "LIC-9827-HO-",
-    phoneNumber: "+1-975-554-1973",
-    contactEmail: "abigail.moore@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Abigail is a passionate tour guide with extensive knowledge of Ho Chi Minh City and Vietnam. Specializing in Nightlife, Local Cuisine, Architecture, Religious Sites, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.6,
-    reviewsCount: 86,
-    quote:
-      "Every corner of Ho Chi Minh City tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/24.jpg",
-    languages: ["Croatian"],
-    experienceYears: 13,
-    certifications: ["Certified International Tour Manager"],
-    specialties: [
-      "Nightlife",
-      "Local Cuisine",
-      "Architecture",
-      "Religious Sites",
-    ],
-    specialTraining: ["Regional Cuisine", "Conflict Resolution"],
-  },
-  {
-    id: "guide-ho-chi-minh-city-4",
-    name: "Victoria Young",
-    city: "Ho Chi Minh City",
-    country: "Vietnam",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: true,
-    bio: "Victoria is a passionate tour guide with extensive knowledge of Ho Chi Minh City and Vietnam. Specializing in Religious Sites, Parks & Gardens, Art Galleries, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Alaska"],
-    tourTypes: ["Eco Tour", "Nature Tour"],
+    tourTypes: ["Adventure Tour", "Wildlife Safari", "Self-Guided Tour", "Eco Tour", "Group Tour"],
     maxGroupSize: 19,
-    licenseNumber: "LIC-4872-HO-",
-    phoneNumber: "+1-428-112-1484",
-    contactEmail: "victoria.young@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Victoria is a passionate tour guide with extensive knowledge of Ho Chi Minh City and Vietnam. Specializing in Religious Sites, Parks & Gardens, Art Galleries, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.2,
-    reviewsCount: 32,
-    quote:
-      "Ho Chi Minh City isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/men/35.jpg",
-    languages: ["Serbian", "Polish"],
-    experienceYears: 9,
-    certifications: [
-      "Regional Tourism Ambassador",
-      "Food Safety Certification",
-    ],
-    specialties: ["Religious Sites", "Parks & Gardens", "Art Galleries"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-ho-chi-minh-city-5",
-    name: "Logan Perez",
-    city: "Ho Chi Minh City",
-    country: "Vietnam",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: false,
-    bio: "Logan is a passionate tour guide with extensive knowledge of Ho Chi Minh City and Vietnam. Specializing in Adventure Sports, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["South America", "Caribbean"],
-    tourTypes: ["Wildlife Safari", "Festival Tour", "Accessible Tour"],
-    maxGroupSize: 18,
-    licenseNumber: "LIC-4054-HO-",
-    phoneNumber: "+1-659-705-2797",
-    contactEmail: "logan.perez@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Logan is a passionate tour guide with extensive knowledge of Ho Chi Minh City and Vietnam. Specializing in Adventure Sports, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.7,
-    reviewsCount: 71,
-    quote:
-      "My goal is to help you fall in love with Ho Chi Minh City just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/1.jpg",
-    languages: ["Hungarian", "Serbian"],
-    experienceYears: 11,
-    certifications: ["Language Proficiency Certification"],
-    specialties: ["Adventure Sports"],
-    specialTraining: ["Wine Education", "Group Management"],
-  },
-  {
-    id: "guide-ho-chi-minh-city-6",
-    name: "Elijah Wilson",
-    city: "Ho Chi Minh City",
-    country: "Vietnam",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: false,
-    bio: "Elijah is a passionate tour guide with extensive knowledge of Ho Chi Minh City and Vietnam. Specializing in Museums, Local Craftsmanship, Public Transportation Navigation, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Middle East"],
-    tourTypes: [
-      "Photography Tour",
-      "Helicopter Tour",
-      "Nature Tour",
-      "Off-Road Tour",
-    ],
-    maxGroupSize: 14,
-    licenseNumber: "LIC-4734-HO-",
-    phoneNumber: "+1-659-885-5641",
-    contactEmail: "elijah.wilson@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Elijah is a passionate tour guide with extensive knowledge of Ho Chi Minh City and Vietnam. Specializing in Museums, Local Craftsmanship, Public Transportation Navigation, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.2,
-    reviewsCount: 71,
-    quote:
-      "Ho Chi Minh City isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/28.jpg",
-    languages: ["Korean", "Croatian"],
-    experienceYears: 16,
-    certifications: ["Eco-Tourism Guide"],
-    specialties: [
-      "Museums",
-      "Local Craftsmanship",
-      "Public Transportation Navigation",
-    ],
-    specialTraining: ["Regional Cuisine", "Archaeological Conservation"],
-  },
-  {
-    id: "guide-ho-chi-minh-city-7",
-    name: "Emily Hall",
-    city: "Ho Chi Minh City",
-    country: "Vietnam",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: false,
-    bio: "Emily is a passionate tour guide with extensive knowledge of Ho Chi Minh City and Vietnam. Specializing in Architecture, Street Food, Sustainable Tourism, Parks & Gardens, Emily provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Middle East"],
-    tourTypes: [
-      "Nature Tour",
-      "Food Tour",
-      "Cultural Tour",
-      "Brewery Tour",
-      "Group Tour",
-    ],
-    maxGroupSize: 13,
-    licenseNumber: "LIC-3191-HO-",
-    phoneNumber: "+1-924-579-6191",
-    contactEmail: "emily.hall@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Emily is a passionate tour guide with extensive knowledge of Ho Chi Minh City and Vietnam. Specializing in Architecture, Street Food, Sustainable Tourism, Parks & Gardens, Emily provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.7,
-    reviewsCount: 86,
-    quote:
-      "In Ho Chi Minh City, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/58.jpg",
-    languages: ["Tagalog", "Vietnamese"],
-    experienceYears: 13,
-    certifications: ["Eco-Tourism Guide"],
-    specialties: [
-      "Architecture",
-      "Street Food",
-      "Sustainable Tourism",
-      "Parks & Gardens",
-    ],
-    specialTraining: ["Wine Education"],
-  },
-  {
-    id: "guide-ho-chi-minh-city-8",
-    name: "Riley Rivera",
-    city: "Ho Chi Minh City",
-    country: "Vietnam",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: true,
-    bio: "Riley is a passionate tour guide with extensive knowledge of Ho Chi Minh City and Vietnam. Specializing in Family Activities, Adventure Sports, Parks & Gardens, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["South America", "Alaska"],
-    tourTypes: [
-      "Street Art Tour",
-      "Farm Visit",
-      "Self-Guided Tour",
-      "LGBTQ+ Friendly Tour",
-      "Religious Tour",
-    ],
-    maxGroupSize: 5,
-    licenseNumber: "LIC-7379-HO-",
-    phoneNumber: "+1-480-550-2346",
-    contactEmail: "riley.rivera@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Riley is a passionate tour guide with extensive knowledge of Ho Chi Minh City and Vietnam. Specializing in Family Activities, Adventure Sports, Parks & Gardens, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.6,
-    reviewsCount: 96,
-    quote:
-      "In Ho Chi Minh City, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/75.jpg",
-    languages: ["Norwegian", "Tagalog", "Hebrew"],
-    experienceYears: 7,
-    certifications: [
-      "Heritage Interpretation Certificate",
-      "Food Safety Certification",
-      "Language Proficiency Certification",
-    ],
-    specialties: ["Family Activities", "Adventure Sports", "Parks & Gardens"],
-    specialTraining: ["Wine Education", "Art History"],
-  },
-  {
-    id: "guide-ho-chi-minh-city-9",
-    name: "Mia Johnson",
-    city: "Ho Chi Minh City",
-    country: "Vietnam",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: false,
-    bio: "Mia is a passionate tour guide with extensive knowledge of Ho Chi Minh City and Vietnam. Specializing in Local Cuisine, Hidden Gems, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada", "East Coast USA"],
-    tourTypes: [
-      "Shopping Tour",
-      "Cultural Tour",
-      "Accessible Tour",
-      "Self-Guided Tour",
-      "Brewery Tour",
-    ],
-    maxGroupSize: 18,
-    licenseNumber: "LIC-1981-HO-",
-    phoneNumber: "+1-238-830-6473",
-    contactEmail: "mia.johnson@paragontrails.com",
+    licenseNumber: "LIC-5224-HO-",
+    phoneNumber: "+1-438-980-5820",
+    contactEmail: "ahmed.foster@paragontrails.com",
     available: [
       {
-        day: "Saturday",
+        day: "Friday",
         availableHours: [
           {
-            from: "15:00",
-            to: "17:00",
-          },
-          {
-            from: "09:00",
-            to: "11:00",
-          },
+            from: "01:00 PM",
+            to: "03:00 PM",
+          }
         ],
       },
       {
-        day: "Sunday",
+        day: "Wednesday",
         availableHours: [
           {
-            from: "13:00",
-            to: "19:00",
-          },
-          {
-            from: "10:00",
-            to: "13:00",
-          },
+            from: "08:00 AM",
+            to: "11:00 AM",
+          }
         ],
       },
       {
         day: "Monday",
         availableHours: [
           {
-            from: "10:00",
-            to: "14:00",
-          },
+            from: "02:00 PM",
+            to: "07:00 PM",
+          }
         ],
       },
-    ],
-    isCertified: true,
-    description:
-      "Mia is a passionate tour guide with extensive knowledge of Ho Chi Minh City and Vietnam. Specializing in Local Cuisine, Hidden Gems, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.2,
-    reviewsCount: 83,
-    quote:
-      "Every corner of Ho Chi Minh City tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/72.jpg",
-    languages: ["Spanish"],
-    experienceYears: 8,
-    certifications: [
-      "Language Proficiency Certification",
-      "Wilderness First Responder",
-    ],
-    specialties: ["Local Cuisine", "Hidden Gems"],
-    specialTraining: ["Photography"],
-  },
-  {
-    id: "guide-ho-chi-minh-city-10",
-    name: "Charlotte Thomas",
-    city: "Ho Chi Minh City",
-    country: "Vietnam",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: false,
-    bio: "Charlotte is a passionate tour guide with extensive knowledge of Ho Chi Minh City and Vietnam. Specializing in Street Food, Museums, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada"],
-    tourTypes: [
-      "Boat Tour",
-      "Accessible Tour",
-      "Walking Tour",
-      "Historical Tour",
-    ],
-    maxGroupSize: 8,
-    licenseNumber: "LIC-9809-HO-",
-    phoneNumber: "+1-937-986-3246",
-    contactEmail: "charlotte.thomas@paragontrails.com",
-    available: [
       {
-        day: "Wednesday",
+        day: "Thursday",
         availableHours: [
           {
-            from: "14:00",
-            to: "17:00",
-          },
+            from: "12:00 PM",
+            to: "06:00 PM",
+          }
         ],
       },
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "13:00",
-            to: "15:00",
+            from: "02:00 PM",
+            to: "05:00 PM",
           },
+          {
+            from: "03:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Ahmed is a passionate tour guide with extensive knowledge of Ho Chi Minh City and Vietnam. Specializing in LGBTQ+ History, Urban Legends, Ahmed provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.5,
+    reviewsCount: 56,
+    quote: "The best way to discover Ho Chi Minh City is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/47.jpg",
+    languages: ["Malay"],
+    experienceYears: 5,
+    certifications: ["Adventure Tourism Safety Certificate", "Cultural Heritage Specialist", "Local History Certification"],
+    specialties: ["LGBTQ+ History", "Urban Legends"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-ho-chi-minh-city-2",
+    name: "Christian Rodriguez",
+    city: "Ho Chi Minh City",
+    country: "Vietnam",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: false,
+    bio: "Christian is a passionate tour guide with extensive knowledge of Ho Chi Minh City and Vietnam. Specializing in Urban Legends, LGBTQ+ History, Christian provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean"],
+    tourTypes: ["Bike Tour", "Museum Tour"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-4279-HO-",
+    phoneNumber: "+1-380-297-9798",
+    contactEmail: "christian.rodriguez@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "10:00 AM",
+          },
+          {
+            from: "10:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "04:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "02:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Christian is a passionate tour guide with extensive knowledge of Ho Chi Minh City and Vietnam. Specializing in Urban Legends, LGBTQ+ History, Christian provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 73,
+    quote: "Every corner of Ho Chi Minh City tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/88.jpg",
+    languages: ["Korean"],
+    experienceYears: 12,
+    certifications: ["Heritage Interpretation Certificate", "Licensed City Guide"],
+    specialties: ["Urban Legends", "LGBTQ+ History"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-ho-chi-minh-city-3",
+    name: "Mary Martin",
+    city: "Ho Chi Minh City",
+    country: "Vietnam",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: false,
+    bio: "Mary is a passionate tour guide with extensive knowledge of Ho Chi Minh City and Vietnam. Specializing in Public Transportation Navigation, Art Galleries, Music Scene, Mary provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["West Coast USA", "East Coast USA"],
+    tourTypes: ["Bike Tour", "Family-Friendly Tour", "Eco Tour", "Audio Tour", "Scenic Tour"],
+    maxGroupSize: 7,
+    licenseNumber: "LIC-3737-HO-",
+    phoneNumber: "+1-409-892-4838",
+    contactEmail: "mary.martin@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "02:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "05:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Mary is a passionate tour guide with extensive knowledge of Ho Chi Minh City and Vietnam. Specializing in Public Transportation Navigation, Art Galleries, Music Scene, Mary provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 5,
+    reviewsCount: 86,
+    quote: "The best way to discover Ho Chi Minh City is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/22.jpg",
+    languages: ["Tagalog", "Vietnamese", "Swedish"],
+    experienceYears: 2,
+    certifications: ["Cultural Heritage Specialist"],
+    specialties: ["Public Transportation Navigation", "Art Galleries", "Music Scene"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-ho-chi-minh-city-4",
+    name: "Layla Knight",
+    city: "Ho Chi Minh City",
+    country: "Vietnam",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: false,
+    bio: "Layla is a passionate tour guide with extensive knowledge of Ho Chi Minh City and Vietnam. Specializing in Hidden Gems, Cultural Etiquette, Wine Tasting, Public Transportation Navigation, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East"],
+    tourTypes: ["Wine Tour", "Self-Guided Tour", "Cultural Tour", "Eco Tour", "Group Tour"],
+    maxGroupSize: 12,
+    licenseNumber: "LIC-9203-HO-",
+    phoneNumber: "+1-936-670-2958",
+    contactEmail: "layla.knight@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "04:00 PM",
+          },
+          {
+            from: "02:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Layla is a passionate tour guide with extensive knowledge of Ho Chi Minh City and Vietnam. Specializing in Hidden Gems, Cultural Etiquette, Wine Tasting, Public Transportation Navigation, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.9,
+    reviewsCount: 72,
+    quote: "Ho Chi Minh City isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/58.jpg",
+    languages: ["Cantonese", "German", "Russian"],
+    experienceYears: 2,
+    certifications: ["Eco-Tourism Guide", "Sustainable Tourism Certificate"],
+    specialties: ["Hidden Gems", "Cultural Etiquette", "Wine Tasting", "Public Transportation Navigation"],
+    specialTraining: ["Urban Planning", "Photography"],
+  },
+  {
+    id: "guide-ho-chi-minh-city-5",
+    name: "Yuki Spencer",
+    city: "Ho Chi Minh City",
+    country: "Vietnam",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: true,
+    bio: "Yuki is a passionate tour guide with extensive knowledge of Ho Chi Minh City and Vietnam. Specializing in Wildlife, Museums, Local Craftsmanship, Yuki provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast USA"],
+    tourTypes: ["Boat Tour", "Brewery Tour", "Helicopter Tour", "Photography Tour"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-7500-HO-",
+    phoneNumber: "+1-631-392-1751",
+    contactEmail: "yuki.spencer@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "02:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "05:00 PM",
+          }
         ],
       },
       {
         day: "Friday",
         availableHours: [
           {
-            from: "13:00",
-            to: "15:00",
-          },
-          {
-            from: "12:00",
-            to: "17:00",
-          },
+            from: "08:00 AM",
+            to: "10:00 AM",
+          }
         ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "16:00",
-          },
-          {
-            from: "10:00",
-            to: "14:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "18:00",
-          },
-        ],
-      },
+      }
     ],
     isCertified: true,
-    description:
-      "Charlotte is a passionate tour guide with extensive knowledge of Ho Chi Minh City and Vietnam. Specializing in Street Food, Museums, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4,
-    reviewsCount: 20,
-    quote:
-      "Ho Chi Minh City isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/55.jpg",
-    languages: ["Danish", "Greek"],
-    experienceYears: 12,
-    certifications: ["Eco-Tourism Guide"],
-    specialties: ["Street Food", "Museums"],
-    specialTraining: ["Marine Biology", "Public Speaking"],
-  },
-  {
-    id: "guide-ho-chi-minh-city-11",
-    name: "Jacob Sanchez",
-    city: "Ho Chi Minh City",
-    country: "Vietnam",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: true,
-    bio: "Jacob is a passionate tour guide with extensive knowledge of Ho Chi Minh City and Vietnam. Specializing in Architecture, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["South America"],
-    tourTypes: [
-      "Farm Visit",
-      "Group Tour",
-      "Accessible Tour",
-      "Cultural Tour",
-      "Ghost Tour",
-    ],
-    maxGroupSize: 9,
-    licenseNumber: "LIC-2990-HO-",
-    phoneNumber: "+1-587-239-2556",
-    contactEmail: "jacob.sanchez@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "16:00",
-          },
-          {
-            from: "08:00",
-            to: "13:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00",
-          },
-          {
-            from: "08:00",
-            to: "11:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "13:00",
-          },
-          {
-            from: "09:00",
-            to: "14:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Jacob is a passionate tour guide with extensive knowledge of Ho Chi Minh City and Vietnam. Specializing in Architecture, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.6,
-    reviewsCount: 23,
-    quote:
-      "The best way to discover Ho Chi Minh City is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/38.jpg",
-    languages: ["French", "Arabic", "Russian"],
-    experienceYears: 2,
-    certifications: ["Sustainable Tourism Certificate"],
-    specialties: ["Architecture"],
+    description: "Yuki is a passionate tour guide with extensive knowledge of Ho Chi Minh City and Vietnam. Specializing in Wildlife, Museums, Local Craftsmanship, Yuki provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.7,
+    reviewsCount: 9,
+    quote: "Ho Chi Minh City isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/7.jpg",
+    languages: ["Tagalog", "Hindi", "Norwegian"],
+    experienceYears: 15,
+    certifications: ["Eco-Tourism Guide", "Adventure Tourism Safety Certificate"],
+    specialties: ["Wildlife", "Museums", "Local Craftsmanship"],
     specialTraining: [],
-  },
+  }
 ];

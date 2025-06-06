@@ -3,347 +3,264 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const milanitalymediterraneanGuides: TourGuide[] = [
   {
     id: "guide-milan-1",
-    name: "Scarlett Campbell",
+    name: "Layla Graves",
     city: "Milan",
     country: "Italy",
     state: "",
     region: "Mediterranean",
     isPopular: false,
-    bio: "Scarlett is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Film Locations, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["South America"],
-    tourTypes: ["Walking Tour", "Group Tour"],
-    maxGroupSize: 14,
-    licenseNumber: "LIC-2489-MIL",
-    phoneNumber: "+1-624-709-5829",
-    contactEmail: "scarlett.campbell@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Scarlett is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Film Locations, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.1,
-    reviewsCount: 66,
-    quote:
-      "The best way to discover Milan is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/28.jpg",
-    languages: ["Danish"],
-    experienceYears: 3,
-    certifications: [
-      "Professional Tour Guide Association",
-      "Language Proficiency Certification",
-    ],
-    specialties: ["Film Locations"],
-    specialTraining: ["Urban Planning", "Regional Cuisine"],
-  },
-  {
-    id: "guide-milan-2",
-    name: "William Roberts",
-    city: "Milan",
-    country: "Italy",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "William is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Local Craftsmanship, Urban Legends, Historical Landmarks, Cultural Etiquette, William provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Middle East"],
-    tourTypes: [
-      "Brewery Tour",
-      "Market Tour",
-      "Adventure Tour",
-      "Accessible Tour",
-    ],
+    bio: "Layla is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Local Craftsmanship, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["West Coast USA", "Mediterranean"],
+    tourTypes: ["Walking Tour", "Scenic Tour"],
     maxGroupSize: 18,
-    licenseNumber: "LIC-4592-MIL",
-    phoneNumber: "+1-886-890-8383",
-    contactEmail: "william.roberts@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "William is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Local Craftsmanship, Urban Legends, Historical Landmarks, Cultural Etiquette, William provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.4,
-    reviewsCount: 104,
-    quote:
-      "Milan isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/48.jpg",
-    languages: ["German"],
-    experienceYears: 13,
-    certifications: [
-      "Local History Certification",
-      "Urban Navigation Specialist",
-      "CPR & First Aid",
-    ],
-    specialties: [
-      "Local Craftsmanship",
-      "Urban Legends",
-      "Historical Landmarks",
-      "Cultural Etiquette",
-    ],
-    specialTraining: ["Conflict Resolution", "Urban Planning"],
-  },
-  {
-    id: "guide-milan-3",
-    name: "Joseph Young",
-    city: "Milan",
-    country: "Italy",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Joseph is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Local Markets, Local Cuisine, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Northern Europe", "East Coast Canada"],
-    tourTypes: ["Walking Tour", "Group Tour"],
-    maxGroupSize: 15,
-    licenseNumber: "LIC-7944-MIL",
-    phoneNumber: "+1-107-866-7408",
-    contactEmail: "joseph.young@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Joseph is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Local Markets, Local Cuisine, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.3,
-    reviewsCount: 40,
-    quote: "In Milan, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/64.jpg",
-    languages: ["Japanese"],
-    experienceYears: 8,
-    certifications: [
-      "Food Safety Certification",
-      "Sustainable Tourism Certificate",
-    ],
-    specialties: ["Local Markets", "Local Cuisine"],
-    specialTraining: ["Regional Cuisine"],
-  },
-  {
-    id: "guide-milan-4",
-    name: "Chloe Hill",
-    city: "Milan",
-    country: "Italy",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Chloe is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Music Scene, Urban Legends, Historical Landmarks, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["West Coast USA", "South America"],
-    tourTypes: [
-      "LGBTQ+ Friendly Tour",
-      "Scenic Tour",
-      "Cooking Class",
-      "Market Tour",
-      "Religious Tour",
-    ],
-    maxGroupSize: 9,
-    licenseNumber: "LIC-8996-MIL",
-    phoneNumber: "+1-876-484-7609",
-    contactEmail: "chloe.hill@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Chloe is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Music Scene, Urban Legends, Historical Landmarks, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4,
-    reviewsCount: 61,
-    quote: "In Milan, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/79.jpg",
-    languages: ["Vietnamese", "Cantonese", "Croatian"],
-    experienceYears: 4,
-    certifications: [
-      "Certified International Tour Manager",
-      "Wilderness First Responder",
-      "Adventure Tourism Safety Certificate",
-    ],
-    specialties: ["Music Scene", "Urban Legends", "Historical Landmarks"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-milan-5",
-    name: "Ella Carter",
-    city: "Milan",
-    country: "Italy",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Ella is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Wildlife, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean"],
-    tourTypes: ["Wine Tour", "Walking Tour", "Nature Tour"],
-    maxGroupSize: 8,
-    licenseNumber: "LIC-5660-MIL",
-    phoneNumber: "+1-816-900-7088",
-    contactEmail: "ella.carter@paragontrails.com",
+    licenseNumber: "LIC-4688-MIL",
+    phoneNumber: "+1-523-937-8248",
+    contactEmail: "layla.graves@paragontrails.com",
     available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "11:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "16:00",
-          },
-        ],
-      },
       {
         day: "Friday",
         availableHours: [
           {
-            from: "13:00",
-            to: "17:00",
+            from: "01:00 PM",
+            to: "03:00 PM",
           },
           {
-            from: "14:00",
-            to: "19:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Ella is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Wildlife, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.5,
-    reviewsCount: 53,
-    quote: "My goal is to help you fall in love with Milan just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/67.jpg",
-    languages: ["Serbian", "Hindi", "Danish"],
-    experienceYears: 8,
-    certifications: ["Heritage Interpretation Certificate"],
-    specialties: ["Wildlife"],
-    specialTraining: ["Historical Research Methods"],
-  },
-  {
-    id: "guide-milan-6",
-    name: "Daniel Perez",
-    city: "Milan",
-    country: "Italy",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Daniel is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Music Scene, Wildlife, Nightlife, Local Cuisine, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean"],
-    tourTypes: ["Ghost Tour", "Audio Tour"],
-    maxGroupSize: 11,
-    licenseNumber: "LIC-7254-MIL",
-    phoneNumber: "+1-715-187-4375",
-    contactEmail: "daniel.perez@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "14:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "20:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "16:00",
-          },
-          {
-            from: "10:00",
-            to: "15:00",
-          },
+            from: "02:00 PM",
+            to: "05:00 PM",
+          }
         ],
       },
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "09:00",
-            to: "15:00",
-          },
+            from: "03:00 PM",
+            to: "09:00 PM",
+          }
         ],
       },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "11:00 AM",
+          },
+          {
+            from: "11:00 AM",
+            to: "04:00 PM",
+          }
+        ],
+      }
     ],
     isCertified: true,
-    description:
-      "Daniel is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Music Scene, Wildlife, Nightlife, Local Cuisine, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 50,
+    description: "Layla is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Local Craftsmanship, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.6,
+    reviewsCount: 48,
     quote: "Every corner of Milan tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/70.jpg",
-    languages: ["Czech", "Finnish", "English"],
-    experienceYears: 7,
-    certifications: ["Sustainable Tourism Certificate"],
-    specialties: ["Music Scene", "Wildlife", "Nightlife", "Local Cuisine"],
+    profileImage: "https://randomuser.me/api/portraits/women/26.jpg",
+    languages: ["Cantonese", "Croatian", "Spanish"],
+    experienceYears: 13,
+    certifications: ["Food Safety Certification"],
+    specialties: ["Local Craftsmanship"],
     specialTraining: [],
   },
   {
-    id: "guide-milan-7",
-    name: "Logan Wilson",
+    id: "guide-milan-2",
+    name: "Gregory Lewis",
     city: "Milan",
     country: "Italy",
     state: "",
     region: "Mediterranean",
     isPopular: false,
-    bio: "Logan is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Music Scene, Film Locations, Indigenous Culture, Local Markets, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Middle East"],
-    tourTypes: ["Self-Guided Tour", "Street Art Tour", "Cultural Tour"],
-    maxGroupSize: 18,
-    licenseNumber: "LIC-5825-MIL",
-    phoneNumber: "+1-876-933-2319",
-    contactEmail: "logan.wilson@paragontrails.com",
+    bio: "Gregory is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Wine Tasting, Architecture, Gregory provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific"],
+    tourTypes: ["Nature Tour", "Museum Tour"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-1829-MIL",
+    phoneNumber: "+1-671-747-7098",
+    contactEmail: "gregory.lewis@paragontrails.com",
     available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
       {
         day: "Wednesday",
         availableHours: [
           {
-            from: "08:00",
-            to: "13:00",
+            from: "10:00 AM",
+            to: "04:00 PM",
           },
+          {
+            from: "02:00 PM",
+            to: "05:00 PM",
+          }
         ],
       },
       {
-        day: "Friday",
+        day: "Monday",
         availableHours: [
           {
-            from: "14:00",
-            to: "16:00",
-          },
+            from: "09:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Gregory is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Wine Tasting, Architecture, Gregory provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.3,
+    reviewsCount: 42,
+    quote: "Every corner of Milan tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/60.jpg",
+    languages: ["English", "Italian", "Hebrew"],
+    experienceYears: 8,
+    certifications: ["Wilderness First Responder"],
+    specialties: ["Wine Tasting", "Architecture"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-milan-3",
+    name: "Carol Fisher",
+    city: "Milan",
+    country: "Italy",
+    state: "",
+    region: "Mediterranean",
+    isPopular: true,
+    bio: "Carol is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Indigenous Culture, Architecture, Historical Landmarks, Carol provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East"],
+    tourTypes: ["Audio Tour", "Historical Tour"],
+    maxGroupSize: 13,
+    licenseNumber: "LIC-2564-MIL",
+    phoneNumber: "+1-197-583-4896",
+    contactEmail: "carol.fisher@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "02:00 PM",
+          }
         ],
       },
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "08:00",
-            to: "11:00",
+            from: "09:00 AM",
+            to: "02:00 PM",
           },
           {
-            from: "12:00",
-            to: "17:00",
-          },
+            from: "09:00 AM",
+            to: "11:00 AM",
+          }
         ],
       },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      }
     ],
     isCertified: true,
-    description:
-      "Logan is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Music Scene, Film Locations, Indigenous Culture, Local Markets, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
+    description: "Carol is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Indigenous Culture, Architecture, Historical Landmarks, Carol provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
-    reviewsCount: 15,
-    quote: "In Milan, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/38.jpg",
-    languages: ["Italian"],
-    experienceYears: 6,
-    certifications: ["Certified International Tour Manager", "CPR & First Aid"],
-    specialties: [
-      "Music Scene",
-      "Film Locations",
-      "Indigenous Culture",
-      "Local Markets",
-    ],
-    specialTraining: ["Conflict Resolution"],
+    reviewsCount: 41,
+    quote: "Every corner of Milan tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/56.jpg",
+    languages: ["Vietnamese", "Spanish"],
+    experienceYears: 3,
+    certifications: ["Eco-Tourism Guide"],
+    specialties: ["Indigenous Culture", "Architecture", "Historical Landmarks"],
+    specialTraining: ["Urban Planning"],
   },
+  {
+    id: "guide-milan-4",
+    name: "Claire Warren",
+    city: "Milan",
+    country: "Italy",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Claire is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Wine Tasting, Claire provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Mediterranean"],
+    tourTypes: ["Group Tour", "Cruise Excursion", "Ghost Tour", "Adventure Tour"],
+    maxGroupSize: 17,
+    licenseNumber: "LIC-9731-MIL",
+    phoneNumber: "+1-827-471-9170",
+    contactEmail: "claire.warren@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "11:00 AM",
+          },
+          {
+            from: "10:00 AM",
+            to: "04:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Claire is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Wine Tasting, Claire provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4,
+    reviewsCount: 101,
+    quote: "Every corner of Milan tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/16.jpg",
+    languages: ["Arabic", "Swedish", "Thai"],
+    experienceYears: 2,
+    certifications: ["Heritage Interpretation Certificate", "Cultural Heritage Specialist"],
+    specialties: ["Wine Tasting"],
+    specialTraining: ["Conflict Resolution"],
+  }
 ];

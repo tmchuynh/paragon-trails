@@ -3,430 +3,277 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const vancouvercanadaalaskaGuides: TourGuide[] = [
   {
     id: "guide-vancouver-1",
-    name: "Emma Martin",
+    name: "Nathan Edwards",
     city: "Vancouver",
     country: "Canada",
     state: "",
     region: "Alaska",
     isPopular: false,
-    bio: "Emma is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Sustainable Tourism, Indigenous Culture, Film Locations, Local Markets, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast USA", "West Coast USA"],
-    tourTypes: [
-      "Boat Tour",
-      "Brewery Tour",
-      "Festival Tour",
-      "Cruise Excursion",
-      "Eco Tour",
-    ],
-    maxGroupSize: 14,
-    licenseNumber: "LIC-2574-VAN",
-    phoneNumber: "+1-153-743-1666",
-    contactEmail: "emma.martin@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Emma is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Sustainable Tourism, Indigenous Culture, Film Locations, Local Markets, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.7,
-    reviewsCount: 9,
-    quote: "In Vancouver, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/45.jpg",
-    languages: ["Cantonese", "Finnish"],
-    experienceYears: 9,
-    certifications: [
-      "Certified International Tour Manager",
-      "Language Proficiency Certification",
-      "CPR & First Aid",
-    ],
-    specialties: [
-      "Sustainable Tourism",
-      "Indigenous Culture",
-      "Film Locations",
-      "Local Markets",
-    ],
-    specialTraining: ["Art History"],
-  },
-  {
-    id: "guide-vancouver-2",
-    name: "Ethan Roberts",
-    city: "Vancouver",
-    country: "Canada",
-    state: "",
-    region: "Alaska",
-    isPopular: false,
-    bio: "Ethan is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Photography Spots, Local Markets, Indigenous Culture, Film Locations, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean"],
-    tourTypes: ["Street Art Tour", "Religious Tour"],
-    maxGroupSize: 14,
-    licenseNumber: "LIC-2806-VAN",
-    phoneNumber: "+1-188-654-1269",
-    contactEmail: "ethan.roberts@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Ethan is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Photography Spots, Local Markets, Indigenous Culture, Film Locations, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.2,
-    reviewsCount: 91,
-    quote: "My goal is to help you fall in love with Vancouver just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/72.jpg",
-    languages: ["Hindi", "Thai", "Swedish"],
-    experienceYears: 9,
-    certifications: [
-      "Wilderness First Responder",
-      "Sustainable Tourism Certificate",
-    ],
-    specialties: [
-      "Photography Spots",
-      "Local Markets",
-      "Indigenous Culture",
-      "Film Locations",
-    ],
-    specialTraining: ["Urban Planning", "Religious Studies"],
-  },
-  {
-    id: "guide-vancouver-3",
-    name: "Carter Nguyen",
-    city: "Vancouver",
-    country: "Canada",
-    state: "",
-    region: "Alaska",
-    isPopular: false,
-    bio: "Carter is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Local Craftsmanship, Music Scene, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean"],
-    tourTypes: ["Off-Road Tour", "Craft Workshop"],
-    maxGroupSize: 10,
-    licenseNumber: "LIC-4395-VAN",
-    phoneNumber: "+1-322-193-9071",
-    contactEmail: "carter.nguyen@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Carter is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Local Craftsmanship, Music Scene, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.7,
-    reviewsCount: 71,
-    quote:
-      "Every corner of Vancouver tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/62.jpg",
-    languages: ["Tagalog", "Mandarin", "Swahili"],
-    experienceYears: 9,
-    certifications: [
-      "Professional Tour Guide Association",
-      "Urban Navigation Specialist",
-    ],
-    specialties: ["Local Craftsmanship", "Music Scene"],
-    specialTraining: ["Historical Research Methods", "Cultural Sensitivity"],
-  },
-  {
-    id: "guide-vancouver-4",
-    name: "Aria Miller",
-    city: "Vancouver",
-    country: "Canada",
-    state: "",
-    region: "Alaska",
-    isPopular: false,
-    bio: "Aria is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Indigenous Culture, Wine Tasting, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Northern Europe", "East Coast Canada"],
-    tourTypes: ["Audio Tour", "Eco Tour"],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-4403-VAN",
-    phoneNumber: "+1-746-970-1021",
-    contactEmail: "aria.miller@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Aria is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Indigenous Culture, Wine Tasting, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4,
-    reviewsCount: 90,
-    quote:
-      "The best way to discover Vancouver is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/26.jpg",
-    languages: ["Cantonese", "Korean"],
-    experienceYears: 15,
-    certifications: [
-      "Cultural Heritage Specialist",
-      "Regional Tourism Ambassador",
-      "Eco-Tourism Guide",
-    ],
-    specialties: ["Indigenous Culture", "Wine Tasting"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-vancouver-5",
-    name: "Carter Hall",
-    city: "Vancouver",
-    country: "Canada",
-    state: "",
-    region: "Alaska",
-    isPopular: false,
-    bio: "Carter is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in LGBTQ+ History, Religious Sites, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Asia Pacific"],
-    tourTypes: [
-      "Festival Tour",
-      "Accessible Tour",
-      "Street Art Tour",
-      "Food Tour",
-    ],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-6059-VAN",
-    phoneNumber: "+1-651-486-5608",
-    contactEmail: "carter.hall@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Carter is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in LGBTQ+ History, Religious Sites, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.1,
-    reviewsCount: 68,
-    quote:
-      "Every corner of Vancouver tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/24.jpg",
-    languages: ["Swedish", "Turkish"],
-    experienceYears: 12,
-    certifications: [
-      "Urban Navigation Specialist",
-      "Local History Certification",
-    ],
-    specialties: ["LGBTQ+ History", "Religious Sites"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-vancouver-6",
-    name: "Aria Nguyen",
-    city: "Vancouver",
-    country: "Canada",
-    state: "",
-    region: "Alaska",
-    isPopular: false,
-    bio: "Aria is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Wildlife, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
+    bio: "Nathan is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Indigenous Culture, Adventure Sports, Nathan provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast Canada"],
-    tourTypes: ["Wine Tour", "Off-Road Tour", "Farm Visit", "Audio Tour"],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-5827-VAN",
-    phoneNumber: "+1-501-880-8230",
-    contactEmail: "aria.nguyen@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Aria is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Wildlife, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 40,
-    quote:
-      "Vancouver isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/4.jpg",
-    languages: ["Japanese", "Hebrew"],
-    experienceYears: 3,
-    certifications: ["Wilderness First Responder"],
-    specialties: ["Wildlife"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-vancouver-7",
-    name: "Charlotte Hall",
-    city: "Vancouver",
-    country: "Canada",
-    state: "",
-    region: "Alaska",
-    isPopular: true,
-    bio: "Charlotte is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in LGBTQ+ History, Local Craftsmanship, Urban Legends, Parks & Gardens, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Middle East"],
-    tourTypes: [
-      "Shopping Tour",
-      "Museum Tour",
-      "Craft Workshop",
-      "Relocation Tour",
-      "Cruise Excursion",
-    ],
-    maxGroupSize: 17,
-    licenseNumber: "LIC-9331-VAN",
-    phoneNumber: "+1-708-196-8441",
-    contactEmail: "charlotte.hall@paragontrails.com",
+    tourTypes: ["Walking Tour", "Architecture Tour", "Cruise Excursion", "LGBTQ+ Friendly Tour"],
+    maxGroupSize: 11,
+    licenseNumber: "LIC-3037-VAN",
+    phoneNumber: "+1-882-778-1192",
+    contactEmail: "nathan.edwards@paragontrails.com",
     available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "13:00",
-          },
-          {
-            from: "14:00",
-            to: "19:00",
-          },
-        ],
-      },
       {
         day: "Sunday",
         availableHours: [
           {
-            from: "12:00",
-            to: "14:00",
-          },
-          {
-            from: "09:00",
-            to: "11:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Charlotte is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in LGBTQ+ History, Local Craftsmanship, Urban Legends, Parks & Gardens, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.9,
-    reviewsCount: 69,
-    quote:
-      "The best way to discover Vancouver is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/72.jpg",
-    languages: ["Serbian", "Spanish", "Dutch"],
-    experienceYears: 7,
-    certifications: [
-      "Regional Tourism Ambassador",
-      "Eco-Tourism Guide",
-      "Licensed City Guide",
-    ],
-    specialties: [
-      "LGBTQ+ History",
-      "Local Craftsmanship",
-      "Urban Legends",
-      "Parks & Gardens",
-    ],
-    specialTraining: ["Conflict Resolution", "Photography"],
-  },
-  {
-    id: "guide-vancouver-8",
-    name: "James Lee",
-    city: "Vancouver",
-    country: "Canada",
-    state: "",
-    region: "Alaska",
-    isPopular: true,
-    bio: "James is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Film Locations, Hidden Gems, James provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Africa"],
-    tourTypes: ["Bike Tour", "Cultural Tour", "Market Tour"],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-5409-VAN",
-    phoneNumber: "+1-399-521-5716",
-    contactEmail: "james.lee@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "15:00",
-          },
-          {
-            from: "14:00",
-            to: "16:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00",
-          },
+            from: "08:00 AM",
+            to: "10:00 AM",
+          }
         ],
       },
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "14:00",
-            to: "18:00",
-          },
+            from: "10:00 AM",
+            to: "04:00 PM",
+          }
         ],
       },
       {
-        day: "Sunday",
+        day: "Wednesday",
         availableHours: [
           {
-            from: "09:00",
-            to: "15:00",
-          },
-          {
-            from: "08:00",
-            to: "10:00",
-          },
+            from: "12:00 PM",
+            to: "06:00 PM",
+          }
         ],
-      },
+      }
     ],
     isCertified: true,
-    description:
-      "James is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Film Locations, Hidden Gems, James provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.7,
-    reviewsCount: 77,
-    quote: "My goal is to help you fall in love with Vancouver just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/0.jpg",
-    languages: ["Croatian"],
+    description: "Nathan is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Indigenous Culture, Adventure Sports, Nathan provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.6,
+    reviewsCount: 65,
+    quote: "Vancouver isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/41.jpg",
+    languages: ["Serbian"],
     experienceYears: 2,
-    certifications: ["Language Proficiency Certification", "Eco-Tourism Guide"],
-    specialties: ["Film Locations", "Hidden Gems"],
-    specialTraining: ["Urban Planning", "Historical Research Methods"],
+    certifications: ["Sustainable Tourism Certificate"],
+    specialties: ["Indigenous Culture", "Adventure Sports"],
+    specialTraining: ["Regional Cuisine"],
   },
   {
-    id: "guide-vancouver-9",
-    name: "Elijah Gonzalez",
+    id: "guide-vancouver-2",
+    name: "Rebecca Patel",
     city: "Vancouver",
     country: "Canada",
     state: "",
     region: "Alaska",
     isPopular: false,
-    bio: "Elijah is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Film Locations, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Alaska"],
-    tourTypes: ["Shopping Tour", "Craft Workshop", "Audio Tour"],
-    maxGroupSize: 8,
-    licenseNumber: "LIC-5243-VAN",
-    phoneNumber: "+1-738-323-5049",
-    contactEmail: "elijah.gonzalez@paragontrails.com",
+    bio: "Rebecca is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Public Transportation Navigation, Wildlife, LGBTQ+ History, Nightlife, Rebecca provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast USA"],
+    tourTypes: ["Family-Friendly Tour", "Shopping Tour"],
+    maxGroupSize: 12,
+    licenseNumber: "LIC-1048-VAN",
+    phoneNumber: "+1-183-187-4596",
+    contactEmail: "rebecca.patel@paragontrails.com",
     available: [
       {
-        day: "Friday",
+        day: "Monday",
         availableHours: [
           {
-            from: "14:00",
-            to: "16:00",
+            from: "08:00 AM",
+            to: "12:00 PM",
           },
           {
-            from: "15:00",
-            to: "17:00",
-          },
+            from: "08:00 AM",
+            to: "02:00 PM",
+          }
         ],
       },
       {
         day: "Sunday",
         availableHours: [
           {
-            from: "10:00",
-            to: "12:00",
+            from: "10:00 AM",
+            to: "02:00 PM",
           },
           {
-            from: "12:00",
-            to: "14:00",
+            from: "03:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Rebecca is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Public Transportation Navigation, Wildlife, LGBTQ+ History, Nightlife, Rebecca provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 80,
+    quote: "My goal is to help you fall in love with Vancouver just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/84.jpg",
+    languages: ["Finnish", "Thai", "Mandarin"],
+    experienceYears: 14,
+    certifications: ["Adventure Tourism Safety Certificate"],
+    specialties: ["Public Transportation Navigation", "Wildlife", "LGBTQ+ History", "Nightlife"],
+    specialTraining: ["Historical Research Methods"],
+  },
+  {
+    id: "guide-vancouver-3",
+    name: "Scott Hamilton",
+    city: "Vancouver",
+    country: "Canada",
+    state: "",
+    region: "Alaska",
+    isPopular: true,
+    bio: "Scott is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Photography Spots, Scott provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America", "Asia Pacific"],
+    tourTypes: ["Helicopter Tour", "Museum Tour", "Underground Tour", "Boat Tour"],
+    maxGroupSize: 12,
+    licenseNumber: "LIC-6072-VAN",
+    phoneNumber: "+1-573-988-4615",
+    contactEmail: "scott.hamilton@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "05:00 PM",
           },
+          {
+            from: "03:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "03:00 PM",
+          }
         ],
       },
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "11:00",
-            to: "13:00",
-          },
+            from: "03:00 PM",
+            to: "06:00 PM",
+          }
         ],
-      },
+      }
     ],
     isCertified: true,
-    description:
-      "Elijah is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Film Locations, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 73,
-    quote:
-      "Vancouver isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/39.jpg",
-    languages: ["Italian", "Bulgarian"],
-    experienceYears: 10,
-    certifications: ["Language Proficiency Certification"],
-    specialties: ["Film Locations"],
-    specialTraining: ["Marine Biology"],
+    description: "Scott is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Photography Spots, Scott provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 60,
+    quote: "The best way to discover Vancouver is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/62.jpg",
+    languages: ["Mandarin", "Russian", "Greek"],
+    experienceYears: 3,
+    certifications: ["Adventure Tourism Safety Certificate", "Sustainable Tourism Certificate"],
+    specialties: ["Photography Spots"],
+    specialTraining: ["Regional Geology"],
   },
+  {
+    id: "guide-vancouver-4",
+    name: "Sofia Wells",
+    city: "Vancouver",
+    country: "Canada",
+    state: "",
+    region: "Alaska",
+    isPopular: false,
+    bio: "Sofia is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Photography Spots, Historical Landmarks, Public Transportation Navigation, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East", "West Coast USA"],
+    tourTypes: ["Eco Tour", "Photography Tour", "Nature Tour", "Wine Tour", "Ghost Tour"],
+    maxGroupSize: 7,
+    licenseNumber: "LIC-4902-VAN",
+    phoneNumber: "+1-928-111-8644",
+    contactEmail: "sofia.wells@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "05:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "09:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "08:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "03:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Sofia is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Photography Spots, Historical Landmarks, Public Transportation Navigation, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.6,
+    reviewsCount: 25,
+    quote: "Every corner of Vancouver tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/54.jpg",
+    languages: ["Korean", "Russian"],
+    experienceYears: 5,
+    certifications: ["Regional Tourism Ambassador"],
+    specialties: ["Photography Spots", "Historical Landmarks", "Public Transportation Navigation"],
+    specialTraining: [],
+  }
 ];

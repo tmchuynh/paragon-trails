@@ -3,421 +3,308 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const stPetersburgrussianorthernEuropeGuides: TourGuide[] = [
   {
     id: "guide-st-petersburg-1",
-    name: "Liam Allen",
+    name: "Cynthia Day",
     city: "St Petersburg",
     country: "Russia",
     state: "",
     region: "Northern Europe",
     isPopular: false,
-    bio: "Liam is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Public Transportation Navigation, Museums, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["South America"],
-    tourTypes: ["Architecture Tour", "Luxury Tour"],
-    maxGroupSize: 19,
-    licenseNumber: "LIC-3310-ST-",
-    phoneNumber: "+1-631-283-8730",
-    contactEmail: "liam.allen@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Liam is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Public Transportation Navigation, Museums, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.6,
-    reviewsCount: 96,
-    quote:
-      "Every corner of St Petersburg tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/15.jpg",
-    languages: ["Malay", "Cantonese", "Spanish"],
-    experienceYears: 11,
-    certifications: ["Professional Tour Guide Association"],
-    specialties: ["Public Transportation Navigation", "Museums"],
-    specialTraining: ["Archaeological Conservation"],
-  },
-  {
-    id: "guide-st-petersburg-2",
-    name: "Abigail Nelson",
-    city: "St Petersburg",
-    country: "Russia",
-    state: "",
-    region: "Northern Europe",
-    isPopular: true,
-    bio: "Abigail is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Wine Tasting, Hidden Gems, Street Food, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Alaska"],
-    tourTypes: ["Audio Tour", "Off-Road Tour"],
-    maxGroupSize: 18,
-    licenseNumber: "LIC-8280-ST-",
-    phoneNumber: "+1-612-302-9151",
-    contactEmail: "abigail.nelson@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Abigail is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Wine Tasting, Hidden Gems, Street Food, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.6,
-    reviewsCount: 90,
-    quote:
-      "St Petersburg isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/55.jpg",
-    languages: ["Arabic", "Hindi"],
-    experienceYears: 12,
-    certifications: [
-      "Local History Certification",
-      "Eco-Tourism Guide",
-      "Wilderness First Responder",
-    ],
-    specialties: ["Wine Tasting", "Hidden Gems", "Street Food"],
-    specialTraining: ["Religious Studies"],
-  },
-  {
-    id: "guide-st-petersburg-3",
-    name: "Riley Thomas",
-    city: "St Petersburg",
-    country: "Russia",
-    state: "",
-    region: "Northern Europe",
-    isPopular: false,
-    bio: "Riley is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Indigenous Culture, Historical Landmarks, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast USA", "Africa"],
-    tourTypes: ["Accessible Tour", "Family-Friendly Tour", "Scenic Tour"],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-6265-ST-",
-    phoneNumber: "+1-508-603-2354",
-    contactEmail: "riley.thomas@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Riley is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Indigenous Culture, Historical Landmarks, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.5,
-    reviewsCount: 25,
-    quote: "In St Petersburg, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/26.jpg",
-    languages: ["Dutch"],
-    experienceYears: 10,
-    certifications: [
-      "Sustainable Tourism Certificate",
-      "Professional Tour Guide Association",
-      "Urban Navigation Specialist",
-    ],
-    specialties: ["Indigenous Culture", "Historical Landmarks"],
-    specialTraining: ["Regional Cuisine", "Archaeological Conservation"],
-  },
-  {
-    id: "guide-st-petersburg-4",
-    name: "Emma Young",
-    city: "St Petersburg",
-    country: "Russia",
-    state: "",
-    region: "Northern Europe",
-    isPopular: false,
-    bio: "Emma is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Hidden Gems, Parks & Gardens, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast USA", "Middle East"],
-    tourTypes: ["Underground Tour", "Architecture Tour", "Wildlife Safari"],
-    maxGroupSize: 14,
-    licenseNumber: "LIC-5947-ST-",
-    phoneNumber: "+1-497-311-6186",
-    contactEmail: "emma.young@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Emma is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Hidden Gems, Parks & Gardens, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 20,
-    quote:
-      "Every corner of St Petersburg tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/65.jpg",
-    languages: ["Swedish", "Hindi"],
-    experienceYears: 6,
-    certifications: ["Professional Tour Guide Association", "CPR & First Aid"],
-    specialties: ["Hidden Gems", "Parks & Gardens"],
-    specialTraining: ["Religious Studies"],
-  },
-  {
-    id: "guide-st-petersburg-5",
-    name: "David Moore",
-    city: "St Petersburg",
-    country: "Russia",
-    state: "",
-    region: "Northern Europe",
-    isPopular: false,
-    bio: "David is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Art Galleries, Film Locations, Wildlife, Nightlife, David provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["West Coast USA"],
-    tourTypes: [
-      "Wildlife Safari",
-      "Eco Tour",
-      "Brewery Tour",
-      "Historical Tour",
-    ],
+    bio: "Cynthia is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Cultural Etiquette, Nightlife, Cynthia provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["West Coast USA", "Africa"],
+    tourTypes: ["Luxury Tour", "Museum Tour", "Brewery Tour"],
     maxGroupSize: 5,
-    licenseNumber: "LIC-6118-ST-",
-    phoneNumber: "+1-874-958-2573",
-    contactEmail: "david.moore@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "David is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Art Galleries, Film Locations, Wildlife, Nightlife, David provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.9,
-    reviewsCount: 80,
-    quote:
-      "Every corner of St Petersburg tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/74.jpg",
-    languages: ["Danish", "Malay", "Portuguese"],
-    experienceYears: 9,
-    certifications: [
-      "Heritage Interpretation Certificate",
-      "Wilderness First Responder",
-    ],
-    specialties: ["Art Galleries", "Film Locations", "Wildlife", "Nightlife"],
-    specialTraining: ["Historical Research Methods", "Emergency Response"],
-  },
-  {
-    id: "guide-st-petersburg-6",
-    name: "Scarlett Baker",
-    city: "St Petersburg",
-    country: "Russia",
-    state: "",
-    region: "Northern Europe",
-    isPopular: true,
-    bio: "Scarlett is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Hidden Gems, Sustainable Tourism, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Alaska"],
-    tourTypes: ["LGBTQ+ Friendly Tour", "Accessible Tour", "Group Tour"],
-    maxGroupSize: 15,
-    licenseNumber: "LIC-8268-ST-",
-    phoneNumber: "+1-580-975-5642",
-    contactEmail: "scarlett.baker@paragontrails.com",
+    licenseNumber: "LIC-4282-ST-",
+    phoneNumber: "+1-150-268-5541",
+    contactEmail: "cynthia.day@paragontrails.com",
     available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      },
       {
         day: "Wednesday",
         availableHours: [
           {
-            from: "13:00",
-            to: "15:00",
-          },
-          {
-            from: "13:00",
-            to: "18:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "16:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "18:00",
-          },
-          {
-            from: "14:00",
-            to: "16:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "18:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Scarlett is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Hidden Gems, Sustainable Tourism, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.6,
-    reviewsCount: 93,
-    quote:
-      "Every corner of St Petersburg tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/55.jpg",
-    languages: ["Thai", "Italian"],
-    experienceYears: 8,
-    certifications: [
-      "Adventure Tourism Safety Certificate",
-      "Certified International Tour Manager",
-      "Eco-Tourism Guide",
-    ],
-    specialties: ["Hidden Gems", "Sustainable Tourism"],
-    specialTraining: ["Desert Navigation"],
-  },
-  {
-    id: "guide-st-petersburg-7",
-    name: "Ella AdAMS",
-    city: "St Petersburg",
-    country: "Russia",
-    state: "",
-    region: "Northern Europe",
-    isPopular: false,
-    bio: "Ella is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Local Craftsmanship, Indigenous Culture, Wildlife, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Alaska", "East Coast Canada"],
-    tourTypes: ["Farm Visit", "Private Tour"],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-9048-ST-",
-    phoneNumber: "+1-329-389-6980",
-    contactEmail: "ella.adams@paragontrails.com",
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "13:00",
-          },
-          {
-            from: "12:00",
-            to: "15:00",
-          },
+            from: "01:00 PM",
+            to: "04:00 PM",
+          }
         ],
       },
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "11:00",
-            to: "13:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "17:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "21:00",
+            from: "10:00 AM",
+            to: "02:00 PM",
           },
           {
-            from: "14:00",
-            to: "18:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "17:00",
-          },
-          {
-            from: "11:00",
-            to: "14:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Ella is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Local Craftsmanship, Indigenous Culture, Wildlife, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.4,
-    reviewsCount: 8,
-    quote:
-      "St Petersburg isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/men/60.jpg",
-    languages: ["Danish", "Spanish", "Hindi"],
-    experienceYears: 7,
-    certifications: [
-      "Local History Certification",
-      "Regional Tourism Ambassador",
-    ],
-    specialties: ["Local Craftsmanship", "Indigenous Culture", "Wildlife"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-st-petersburg-8",
-    name: "Henry Lee",
-    city: "St Petersburg",
-    country: "Russia",
-    state: "",
-    region: "Northern Europe",
-    isPopular: false,
-    bio: "Henry is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Local Markets, Historical Landmarks, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Alaska", "Asia Pacific"],
-    tourTypes: [
-      "Nature Tour",
-      "Historical Tour",
-      "Craft Workshop",
-      "Cultural Tour",
-    ],
-    maxGroupSize: 14,
-    licenseNumber: "LIC-5440-ST-",
-    phoneNumber: "+1-373-661-4148",
-    contactEmail: "henry.lee@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "18:00",
-          },
+            from: "09:00 AM",
+            to: "12:00 PM",
+          }
         ],
       },
       {
         day: "Sunday",
         availableHours: [
           {
-            from: "12:00",
-            to: "14:00",
-          },
+            from: "09:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Cynthia is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Cultural Etiquette, Nightlife, Cynthia provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 56,
+    quote: "My goal is to help you fall in love with St Petersburg just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/21.jpg",
+    languages: ["French"],
+    experienceYears: 15,
+    certifications: ["Sustainable Tourism Certificate", "Urban Navigation Specialist"],
+    specialties: ["Cultural Etiquette", "Nightlife"],
+    specialTraining: ["Historical Research Methods", "Desert Navigation"],
+  },
+  {
+    id: "guide-st-petersburg-2",
+    name: "Kevin Ivanov",
+    city: "St Petersburg",
+    country: "Russia",
+    state: "",
+    region: "Northern Europe",
+    isPopular: true,
+    bio: "Kevin is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Urban Legends, Kevin provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Northern Europe"],
+    tourTypes: ["Museum Tour", "Cultural Tour"],
+    maxGroupSize: 14,
+    licenseNumber: "LIC-3928-ST-",
+    phoneNumber: "+1-274-884-3001",
+    contactEmail: "kevin.ivanov@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
           {
-            from: "13:00",
-            to: "18:00",
-          },
+            from: "03:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Kevin is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Urban Legends, Kevin provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 52,
+    quote: "St Petersburg isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/16.jpg",
+    languages: ["Danish"],
+    experienceYears: 2,
+    certifications: ["Licensed City Guide", "Professional Tour Guide Association"],
+    specialties: ["Urban Legends"],
+    specialTraining: ["Group Management", "Desert Navigation"],
+  },
+  {
+    id: "guide-st-petersburg-3",
+    name: "Jordan Lewis",
+    city: "St Petersburg",
+    country: "Russia",
+    state: "",
+    region: "Northern Europe",
+    isPopular: true,
+    bio: "Jordan is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Street Food, Film Locations, Local Markets, Parks & Gardens, Jordan provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada"],
+    tourTypes: ["Luxury Tour", "Walking Tour"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-2676-ST-",
+    phoneNumber: "+1-263-745-6706",
+    contactEmail: "jordan.lewis@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "11:00 AM",
+          }
         ],
       },
       {
         day: "Friday",
         availableHours: [
           {
-            from: "11:00",
-            to: "13:00",
+            from: "10:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Jordan is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Street Food, Film Locations, Local Markets, Parks & Gardens, Jordan provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 5,
+    reviewsCount: 18,
+    quote: "Every corner of St Petersburg tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/71.jpg",
+    languages: ["Hebrew"],
+    experienceYears: 2,
+    certifications: ["Certified International Tour Manager", "Urban Navigation Specialist", "Sustainable Tourism Certificate"],
+    specialties: ["Street Food", "Film Locations", "Local Markets", "Parks & Gardens"],
+    specialTraining: ["Historical Research Methods"],
+  },
+  {
+    id: "guide-st-petersburg-4",
+    name: "Sebastian Day",
+    city: "St Petersburg",
+    country: "Russia",
+    state: "",
+    region: "Northern Europe",
+    isPopular: true,
+    bio: "Sebastian is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Family Activities, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada"],
+    tourTypes: ["Self-Guided Tour", "Boat Tour", "Architecture Tour", "Adventure Tour"],
+    maxGroupSize: 5,
+    licenseNumber: "LIC-5889-ST-",
+    phoneNumber: "+1-424-145-8147",
+    contactEmail: "sebastian.day@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "03:00 PM",
           },
+          {
+            from: "02:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Sebastian is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Family Activities, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 51,
+    quote: "In St Petersburg, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/6.jpg",
+    languages: ["Tagalog"],
+    experienceYears: 8,
+    certifications: ["Professional Tour Guide Association"],
+    specialties: ["Family Activities"],
+    specialTraining: ["Religious Studies"],
+  },
+  {
+    id: "guide-st-petersburg-5",
+    name: "Kennedy Hudson",
+    city: "St Petersburg",
+    country: "Russia",
+    state: "",
+    region: "Northern Europe",
+    isPopular: true,
+    bio: "Kennedy is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Local Markets, Wine Tasting, Sustainable Tourism, Kennedy provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada", "Asia Pacific"],
+    tourTypes: ["Self-Guided Tour", "Street Art Tour", "Scenic Tour", "Market Tour"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-4617-ST-",
+    phoneNumber: "+1-945-561-1602",
+    contactEmail: "kennedy.hudson@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "12:00 PM",
+          }
         ],
       },
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "15:00",
-            to: "20:00",
-          },
-          {
-            from: "11:00",
-            to: "13:00",
-          },
+            from: "12:00 PM",
+            to: "02:00 PM",
+          }
         ],
       },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      }
     ],
     isCertified: true,
-    description:
-      "Henry is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Local Markets, Historical Landmarks, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.7,
-    reviewsCount: 104,
-    quote:
-      "My goal is to help you fall in love with St Petersburg just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/4.jpg",
-    languages: ["Polish"],
-    experienceYears: 4,
-    certifications: [
-      "Urban Navigation Specialist",
-      "Eco-Tourism Guide",
-      "Regional Tourism Ambassador",
-    ],
-    specialties: ["Local Markets", "Historical Landmarks"],
-    specialTraining: ["Cultural Sensitivity"],
-  },
+    description: "Kennedy is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Local Markets, Wine Tasting, Sustainable Tourism, Kennedy provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 5,
+    quote: "Every corner of St Petersburg tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/64.jpg",
+    languages: ["Korean", "Turkish"],
+    experienceYears: 7,
+    certifications: ["Food Safety Certification", "Heritage Interpretation Certificate", "Certified International Tour Manager"],
+    specialties: ["Local Markets", "Wine Tasting", "Sustainable Tourism"],
+    specialTraining: ["Photography"],
+  }
 ];

@@ -3,298 +3,281 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const aucklandnewZealandasiaPacificGuides: TourGuide[] = [
   {
     id: "guide-auckland-1",
-    name: "Mason Harris",
+    name: "David Martin",
     city: "Auckland",
     country: "New Zealand",
     state: "",
     region: "Asia Pacific",
     isPopular: false,
-    bio: "Mason is a passionate tour guide with extensive knowledge of Auckland and New Zealand. Specializing in Urban Legends, Photography Spots, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Alaska"],
-    tourTypes: ["Relocation Tour", "Cultural Tour"],
-    maxGroupSize: 9,
-    licenseNumber: "LIC-1947-AUC",
-    phoneNumber: "+1-149-841-3576",
-    contactEmail: "mason.harris@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Mason is a passionate tour guide with extensive knowledge of Auckland and New Zealand. Specializing in Urban Legends, Photography Spots, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.7,
-    reviewsCount: 53,
-    quote:
-      "Auckland isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/48.jpg",
-    languages: ["Arabic", "Mandarin"],
-    experienceYears: 7,
-    certifications: [
-      "Eco-Tourism Guide",
-      "Heritage Interpretation Certificate",
-    ],
-    specialties: ["Urban Legends", "Photography Spots"],
-    specialTraining: ["Mountain Survival", "Local Flora & Fauna"],
-  },
-  {
-    id: "guide-auckland-2",
-    name: "Ethan Anderson",
-    city: "Auckland",
-    country: "New Zealand",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: true,
-    bio: "Ethan is a passionate tour guide with extensive knowledge of Auckland and New Zealand. Specializing in Local Craftsmanship, LGBTQ+ History, Family Activities, Architecture, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Northern Europe"],
-    tourTypes: ["Walking Tour", "Religious Tour"],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-2246-AUC",
-    phoneNumber: "+1-170-846-1735",
-    contactEmail: "ethan.anderson@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Ethan is a passionate tour guide with extensive knowledge of Auckland and New Zealand. Specializing in Local Craftsmanship, LGBTQ+ History, Family Activities, Architecture, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.4,
-    reviewsCount: 9,
-    quote:
-      "Every corner of Auckland tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/18.jpg",
-    languages: ["Russian"],
-    experienceYears: 13,
-    certifications: ["Adventure Tourism Safety Certificate"],
-    specialties: [
-      "Local Craftsmanship",
-      "LGBTQ+ History",
-      "Family Activities",
-      "Architecture",
-    ],
-    specialTraining: ["Cultural Sensitivity", "Local Transit Systems"],
-  },
-  {
-    id: "guide-auckland-3",
-    name: "Henry AdAMS",
-    city: "Auckland",
-    country: "New Zealand",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: true,
-    bio: "Henry is a passionate tour guide with extensive knowledge of Auckland and New Zealand. Specializing in Museums, Adventure Sports, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast USA"],
-    tourTypes: [
-      "Market Tour",
-      "Relocation Tour",
-      "LGBTQ+ Friendly Tour",
-      "Romantic Tour",
-      "Religious Tour",
-    ],
-    maxGroupSize: 19,
-    licenseNumber: "LIC-9106-AUC",
-    phoneNumber: "+1-570-369-7506",
-    contactEmail: "henry.adams@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description:
-      "Henry is a passionate tour guide with extensive knowledge of Auckland and New Zealand. Specializing in Museums, Adventure Sports, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.2,
-    reviewsCount: 89,
-    quote: "In Auckland, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/66.jpg",
-    languages: ["Arabic", "Swahili", "Dutch"],
-    experienceYears: 3,
-    certifications: ["Language Proficiency Certification"],
-    specialties: ["Museums", "Adventure Sports"],
-    specialTraining: ["Urban Planning", "Historical Research Methods"],
-  },
-  {
-    id: "guide-auckland-4",
-    name: "Owen Carter",
-    city: "Auckland",
-    country: "New Zealand",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: false,
-    bio: "Owen is a passionate tour guide with extensive knowledge of Auckland and New Zealand. Specializing in Historical Landmarks, Cultural Etiquette, Owen provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean", "Alaska"],
-    tourTypes: ["Cooking Class", "Religious Tour", "Museum Tour", "Boat Tour"],
-    maxGroupSize: 18,
-    licenseNumber: "LIC-7683-AUC",
-    phoneNumber: "+1-870-648-4184",
-    contactEmail: "owen.carter@paragontrails.com",
+    bio: "David is a passionate tour guide with extensive knowledge of Auckland and New Zealand. Specializing in Art Galleries, Film Locations, Local Markets, David provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada", "Middle East"],
+    tourTypes: ["Group Tour", "Romantic Tour", "Audio Tour"],
+    maxGroupSize: 5,
+    licenseNumber: "LIC-2571-AUC",
+    phoneNumber: "+1-842-334-5999",
+    contactEmail: "david.martin@paragontrails.com",
     available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "14:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "18:00",
-          },
-          {
-            from: "08:00",
-            to: "11:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "14:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Owen is a passionate tour guide with extensive knowledge of Auckland and New Zealand. Specializing in Historical Landmarks, Cultural Etiquette, Owen provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4,
-    reviewsCount: 21,
-    quote:
-      "Every corner of Auckland tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/58.jpg",
-    languages: ["Greek", "Spanish"],
-    experienceYears: 5,
-    certifications: [
-      "Professional Tour Guide Association",
-      "Urban Navigation Specialist",
-      "Cultural Heritage Specialist",
-    ],
-    specialties: ["Historical Landmarks", "Cultural Etiquette"],
-    specialTraining: ["Urban Planning", "Accessibility Services"],
-  },
-  {
-    id: "guide-auckland-5",
-    name: "Olivia Davis",
-    city: "Auckland",
-    country: "New Zealand",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: false,
-    bio: "Olivia is a passionate tour guide with extensive knowledge of Auckland and New Zealand. Specializing in Sustainable Tourism, LGBTQ+ History, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Asia Pacific", "Mediterranean"],
-    tourTypes: ["Craft Workshop", "LGBTQ+ Friendly Tour"],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-9326-AUC",
-    phoneNumber: "+1-976-300-4576",
-    contactEmail: "olivia.davis@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "18:00",
-          },
-        ],
-      },
       {
         day: "Friday",
         availableHours: [
           {
-            from: "12:00",
-            to: "18:00",
-          },
-          {
-            from: "14:00",
-            to: "20:00",
-          },
-        ],
-      },
-    ],
-    isCertified: true,
-    description:
-      "Olivia is a passionate tour guide with extensive knowledge of Auckland and New Zealand. Specializing in Sustainable Tourism, LGBTQ+ History, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.6,
-    reviewsCount: 33,
-    quote:
-      "The best way to discover Auckland is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/20.jpg",
-    languages: ["German"],
-    experienceYears: 8,
-    certifications: [
-      "CPR & First Aid",
-      "Sustainable Tourism Certificate",
-      "Certified International Tour Manager",
-    ],
-    specialties: ["Sustainable Tourism", "LGBTQ+ History"],
-    specialTraining: ["Archaeological Conservation"],
-  },
-  {
-    id: "guide-auckland-6",
-    name: "Alexander Anderson",
-    city: "Auckland",
-    country: "New Zealand",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: false,
-    bio: "Alexander is a passionate tour guide with extensive knowledge of Auckland and New Zealand. Specializing in Street Food, Local Markets, LGBTQ+ History, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean"],
-    tourTypes: ["Accessible Tour", "Underground Tour"],
-    maxGroupSize: 9,
-    licenseNumber: "LIC-9501-AUC",
-    phoneNumber: "+1-690-500-2533",
-    contactEmail: "alexander.anderson@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "12:00",
-          },
+            from: "10:00 AM",
+            to: "01:00 PM",
+          }
         ],
       },
       {
-        day: "Saturday",
+        day: "Wednesday",
         availableHours: [
           {
-            from: "12:00",
-            to: "16:00",
+            from: "03:00 PM",
+            to: "08:00 PM",
           },
           {
-            from: "15:00",
-            to: "21:00",
-          },
+            from: "01:00 PM",
+            to: "04:00 PM",
+          }
         ],
       },
       {
         day: "Monday",
         availableHours: [
           {
-            from: "10:00",
-            to: "13:00",
-          },
-          {
-            from: "10:00",
-            to: "16:00",
-          },
+            from: "10:00 AM",
+            to: "12:00 PM",
+          }
         ],
       },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "08:00 PM",
+          }
+        ],
+      }
     ],
     isCertified: true,
-    description:
-      "Alexander is a passionate tour guide with extensive knowledge of Auckland and New Zealand. Specializing in Street Food, Local Markets, LGBTQ+ History, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
+    description: "David is a passionate tour guide with extensive knowledge of Auckland and New Zealand. Specializing in Art Galleries, Film Locations, Local Markets, David provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
-    reviewsCount: 60,
-    quote:
-      "The best way to discover Auckland is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/8.jpg",
-    languages: ["French", "Finnish", "Vietnamese"],
-    experienceYears: 3,
-    certifications: [
-      "Sustainable Tourism Certificate",
-      "Adventure Tourism Safety Certificate",
-      "Certified International Tour Manager",
-    ],
-    specialties: ["Street Food", "Local Markets", "LGBTQ+ History"],
-    specialTraining: ["Accessibility Services", "Religious Studies"],
+    reviewsCount: 34,
+    quote: "The best way to discover Auckland is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/78.jpg",
+    languages: ["Polish"],
+    experienceYears: 11,
+    certifications: ["Cultural Heritage Specialist", "Sustainable Tourism Certificate", "Local History Certification"],
+    specialties: ["Art Galleries", "Film Locations", "Local Markets"],
+    specialTraining: ["Historical Research Methods"],
   },
+  {
+    id: "guide-auckland-2",
+    name: "Wei Williams",
+    city: "Auckland",
+    country: "New Zealand",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: true,
+    bio: "Wei is a passionate tour guide with extensive knowledge of Auckland and New Zealand. Specializing in Film Locations, Art Galleries, Wei provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Northern Europe"],
+    tourTypes: ["Private Tour", "Festival Tour", "Food Tour", "Craft Workshop", "Brewery Tour"],
+    maxGroupSize: 8,
+    licenseNumber: "LIC-2628-AUC",
+    phoneNumber: "+1-102-949-9901",
+    contactEmail: "wei.williams@paragontrails.com",
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "11:00 AM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "12:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Wei is a passionate tour guide with extensive knowledge of Auckland and New Zealand. Specializing in Film Locations, Art Galleries, Wei provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 99,
+    quote: "In Auckland, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/32.jpg",
+    languages: ["Cantonese"],
+    experienceYears: 5,
+    certifications: ["CPR & First Aid"],
+    specialties: ["Film Locations", "Art Galleries"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-auckland-3",
+    name: "Samantha Reed",
+    city: "Auckland",
+    country: "New Zealand",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: false,
+    bio: "Samantha is a passionate tour guide with extensive knowledge of Auckland and New Zealand. Specializing in Sustainable Tourism, Samantha provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada", "South America"],
+    tourTypes: ["Wine Tour", "Off-Road Tour"],
+    maxGroupSize: 11,
+    licenseNumber: "LIC-2391-AUC",
+    phoneNumber: "+1-306-278-5419",
+    contactEmail: "samantha.reed@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "07:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "05:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "04:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "11:00 AM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "08:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "03:00 PM",
+          },
+          {
+            from: "02:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Samantha is a passionate tour guide with extensive knowledge of Auckland and New Zealand. Specializing in Sustainable Tourism, Samantha provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.6,
+    reviewsCount: 14,
+    quote: "Auckland isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/71.jpg",
+    languages: ["Spanish", "Croatian", "Romanian"],
+    experienceYears: 16,
+    certifications: ["Food Safety Certification", "Language Proficiency Certification"],
+    specialties: ["Sustainable Tourism"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-auckland-4",
+    name: "Austin Singh",
+    city: "Auckland",
+    country: "New Zealand",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: false,
+    bio: "Austin is a passionate tour guide with extensive knowledge of Auckland and New Zealand. Specializing in Sustainable Tourism, Religious Sites, Austin provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Mediterranean"],
+    tourTypes: ["Relocation Tour", "Off-Road Tour", "Bike Tour", "Craft Workshop", "Cultural Tour"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-2812-AUC",
+    phoneNumber: "+1-361-371-4271",
+    contactEmail: "austin.singh@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "03:00 PM",
+          },
+          {
+            from: "02:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Austin is a passionate tour guide with extensive knowledge of Auckland and New Zealand. Specializing in Sustainable Tourism, Religious Sites, Austin provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.3,
+    reviewsCount: 64,
+    quote: "The best way to discover Auckland is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/45.jpg",
+    languages: ["Malay"],
+    experienceYears: 13,
+    certifications: ["Heritage Interpretation Certificate", "Licensed City Guide", "Language Proficiency Certification"],
+    specialties: ["Sustainable Tourism", "Religious Sites"],
+    specialTraining: ["Accessibility Services", "Marine Biology"],
+  }
 ];
