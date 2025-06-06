@@ -44,3 +44,43 @@ export async function getTestimonialsForCity(
     return [];
   }
 }
+
+export async function getTourTestimonialsForCity(
+  city: string
+): Promise<Testimonial[]> {
+  const testimonials: Testimonial[] = [];
+  try {
+    // Import all tour testimonial files for the city
+    const cityModule = await import(`@/lib/constants/testimonials/${city}`);
+
+    // Find all exports that end with "TourTestimonials"
+    const tourTestimonialKeys = Object.keys(cityModule).filter((key) =>
+      key.endsWith("TourTestimonials")
+    );
+
+    // Merge all tour testimonials
+    for (const key of tourTestimonialKeys) {
+      const tourTestimonials = cityModule[key] as Testimonial[];
+
+      // Add tour name to each testimonial based on the key name
+      const tourName = key
+        .replace(/TourTestimonials$/, "")
+        .replace(/([A-Z])/g, " $1")
+        .trim();
+
+      // Add tour testimonials with tour name
+      testimonials.push(
+        ...tourTestimonials.map((t) => ({
+          ...t,
+          tourName,
+          rating: t.rating || 4.5, // Default rating if none exists
+        }))
+      );
+    }
+
+    return testimonials;
+  } catch (error) {
+    console.error(`Error loading tour testimonials for city ${city}:`, error);
+    return [];
+  }
+}
