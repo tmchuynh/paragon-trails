@@ -328,7 +328,7 @@ function generateHost(city) {
     hostingStyle,
     houseRules: selectedRules,
     location: {
-      city: `${formatKebebToTitleCase(city)}`,
+      city: `${city}`,
       region: region,
       country: country,
       // Random coordinates near the city center (simplified)
@@ -345,7 +345,7 @@ function generateHost(city) {
           ? "https://calendar.example.com/availability"
           : undefined,
     },
-    email: `${firstName.toLowerCase()}.${lastName.toLowerCase()}@example.com`,
+    email: `${firstName.toLowerCase()}.${lastName.toLowerCase()}@paragontrailshomestays.com`,
     phoneNumber:
       Math.random() > 0.3
         ? `+${Math.floor(Math.random() * 100) + 1}-${
@@ -356,7 +356,7 @@ function generateHost(city) {
     rating: parseFloat(rating),
     reviewCount,
     quote,
-    stayType: `${formatKebebToTitleCase(stayType)}`,
+    stayType: `${stayType}`,
   };
 }
 
@@ -399,14 +399,11 @@ async function generateCityHomestays(city) {
     });
 
   // Create file content with proper formatting
-  let content = `import { Homestay } from "@/lib/interfaces/people/homestay";\n\n`;
-  content += `export const ${variableName.replaceAll(".", "")}: Homestay[] = [\n`;
+  let content = `import { Host } from "@/lib/interfaces/people/homestay";\n\n`;
+  content += `export const ${variableName.replaceAll(".", "")}: Host[] = [\n`;
 
   // Each homestay with its hosts array
   homestays.forEach((homestay, homestayIndex) => {
-    content += `  {\n`;
-    content += `    hosts: [\n`;
-
     homestay.hosts.forEach((host, hostIndex) => {
       content += `      {\n`;
 
@@ -447,8 +444,7 @@ async function generateCityHomestays(city) {
       content += `      }${hostIndex < homestay.hosts.length - 1 ? "," : ""}\n`;
     });
 
-    content += `    ]\n`;
-    content += `  }${homestayIndex < homestays.length - 1 ? "," : ""}\n`;
+    content += `${homestayIndex < homestays.length - 1 ? "," : ""}\n`;
   });
 
   content += `];\n`;
