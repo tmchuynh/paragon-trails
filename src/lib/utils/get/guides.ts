@@ -8,6 +8,7 @@ import {
   formatCamelCaseToTitle,
 } from "../format";
 import { cityCountryMap, cityToRegionMap } from "@/lib/utils/mapping";
+import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export async function getTourGuides(): Promise<any> {
   const tourGuides: TourGuide[] = [];
@@ -93,7 +94,7 @@ export async function getTourGuidesByCity(city: string): Promise<TourGuide[]> {
     const formattedCity = formatKebabToCamelCase(city);
     const guidesInCity = guides.filter(
       (guide: { city: string }) =>
-        formatKebabToCamelCase(guide.city) === formattedCity,
+        formatKebabToCamelCase(guide.city) === formattedCity
     );
     if (guidesInCity.length > 0) {
       return guidesInCity;
@@ -108,12 +109,12 @@ export async function getTourGuidesByCity(city: string): Promise<TourGuide[]> {
 }
 
 export async function getTourGuidesByRegionsCovered(
-  regions: TourRegion[],
+  regions: TourRegion[]
 ): Promise<TourGuide[]> {
   try {
     const guides = await getTourGuides();
     const filteredGuides = guides.filter((guide: TourGuide) =>
-      regions.some((region) => guide.regionsCovered.includes(region)),
+      regions.some((region) => guide.regionsCovered.includes(region))
     );
     if (filteredGuides.length > 0) {
       return filteredGuides;
@@ -128,12 +129,12 @@ export async function getTourGuidesByRegionsCovered(
 }
 
 export async function getTourGuidesByTourTypes(
-  tourTypes: TourType[],
+  tourTypes: TourType[]
 ): Promise<TourGuide[]> {
   try {
     const guides = await getTourGuides();
     const filteredGuides = guides.filter((guide: TourGuide) =>
-      tourTypes.some((type) => guide.tourTypes.includes(type)),
+      tourTypes.some((type) => guide.tourTypes.includes(type))
     );
     if (filteredGuides.length > 0) {
       return filteredGuides;
@@ -148,19 +149,19 @@ export async function getTourGuidesByTourTypes(
 }
 
 export async function getTourGuideByLicenseNumber(
-  licenseNumber: string,
+  licenseNumber: string
 ): Promise<TourGuide | null> {
   try {
     const guides = await getTourGuides();
     const guide = guides.find(
       (g: { licenseNumber: string }) =>
-        g.licenseNumber.toLowerCase() === licenseNumber.toLowerCase(),
+        g.licenseNumber.toLowerCase() === licenseNumber.toLowerCase()
     );
     if (guide) {
       return guide;
     } else {
       console.error(
-        `Tour guide with license number ${licenseNumber} not found`,
+        `Tour guide with license number ${licenseNumber} not found`
       );
       return null;
     }
@@ -172,7 +173,7 @@ export async function getTourGuideByLicenseNumber(
 
 export async function getTourGuideAvailableInCity(
   city: string,
-  day: string,
+  day: string
 ): Promise<TourGuide[]> {
   try {
     const guides = await getTourGuidesByCity(city);
@@ -194,12 +195,12 @@ export async function getTourGuideAvailableInCity(
 }
 
 export async function getTourGuideBySpeakingLanguage(
-  language: string,
+  language: string
 ): Promise<TourGuide[]> {
   try {
     const guides = await getTourGuides();
     const filteredGuides = guides.filter((guide: TourGuide) =>
-      guide.languages.includes(language),
+      guide.languages.includes(language)
     );
     if (filteredGuides.length > 0) {
       return filteredGuides;
@@ -214,12 +215,12 @@ export async function getTourGuideBySpeakingLanguage(
 }
 
 export async function getTourGuideBySpecialization(
-  specialization: string,
+  specialization: string
 ): Promise<TourGuide[]> {
   try {
     const guides = await getTourGuides();
     const filteredGuides = guides.filter((guide: TourGuide) =>
-      guide.specialties?.includes(specialization),
+      guide.specialties?.includes(specialization)
     );
     if (filteredGuides.length > 0) {
       return filteredGuides;
@@ -235,7 +236,7 @@ export async function getTourGuideBySpecialization(
 
 export async function getTourGuideByExperienceYears(
   minYears: number,
-  maxYears?: number,
+  maxYears?: number
 ): Promise<TourGuide[]> {
   try {
     const guides = await getTourGuides();
@@ -247,12 +248,91 @@ export async function getTourGuideByExperienceYears(
       return filteredGuides;
     } else {
       console.error(
-        `No guides found with experience between ${minYears} and ${maxYears || "∞"} years`,
+        `No guides found with experience between ${minYears} and ${maxYears || "∞"} years`
       );
       return [];
     }
   } catch (error) {
     console.error(`Error loading guides by experience: ${error}`);
     return [];
+  }
+}
+
+/**
+ * Get reviews for a specific tour guide
+ */
+export async function getTourGuideReviews(
+  city: string,
+  guideId: string
+): Promise<Testimonial[]> {
+  const formattedCity = formatTitleToCamelCase(city);
+  const variableName = `${formattedCity}GuideReviews`;
+
+  console.log("city:", city);
+  console.log("formattedCity:", formattedCity);
+  console.log("variableName:", variableName);
+
+  try {
+    const reviewsModule = await import(
+      `@/lib/constants/reviews/guides/${formattedCity}`
+    );
+
+    if (reviewsModule[variableName] && reviewsModule[variableName][guideId]) {
+      return reviewsModule[variableName][guideId];
+    } else {
+      console.error(`No reviews found for guide ${guideId} in ${city}`);
+      return [];
+    }
+  } catch (error) {
+    console.error(`Error loading guide reviews: ${error}`);
+    return [];
+  }
+}
+
+/**
+ * Get average rating for a specific tour guide based on reviews
+ */
+export async function getTourGuideAverageRating(
+  city: string,
+  guideId: string
+): Promise<number> {
+  try {
+    const reviews = await getTourGuideReviews(city, guideId);
+    if (reviews.length === 0) return 0;
+
+    const totalRating = reviews.reduce(
+      (sum, review) => sum + (review.rating || 0),
+      0
+    );
+    return parseFloat((totalRating / reviews.length).toFixed(1));
+  } catch (error) {
+    console.error(`Error calculating average rating: ${error}`);
+    return 0;
+  }
+}
+
+/**
+ * Get all reviews for all guides in a city
+ */
+export async function getAllGuideReviewsByCity(
+  city: string
+): Promise<Record<string, Testimonial[]>> {
+  const formattedCity = formatKebabToCamelCase(city);
+  const variableName = `${formattedCity}GuideReviews`;
+
+  try {
+    const reviewsModule = await import(
+      `@/lib/constants/reviews/guides/${formattedCity}`
+    );
+
+    if (reviewsModule[variableName]) {
+      return reviewsModule[variableName];
+    } else {
+      console.error(`No reviews found for city: ${city}`);
+      return {};
+    }
+  } catch (error) {
+    console.error(`Error loading city guide reviews: ${error}`);
+    return {};
   }
 }
