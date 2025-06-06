@@ -19,6 +19,7 @@ import { getTourById } from "@/lib/utils/get/tours";
 import Image from "next/image";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
+import { Button } from "@/components/ui/button";
 
 import {
   formatKebabToCamelCase,
@@ -31,7 +32,6 @@ export default function TourDetailsPage() {
   const guideId = searchParams.get("guideId");
   const city = searchParams.get("city")?.replaceAll("/", "");
   const selectedCurrency = searchParams.get("currency");
-  console.log("Selected Currency:", selectedCurrency);
   const [loading, setLoading] = useState<boolean>(true);
   const router = useRouter();
   const [tourData, setTourData] = useState<Tour>();
@@ -63,15 +63,13 @@ export default function TourDetailsPage() {
     if (!tourData) return;
     async function fetchTourGuide() {
       try {
-            console.log(
-              `Loading tour guide with ID: ${guideId} for city: ${city}`
-            );
-            const formattedCity = formatTitleCaseToKebabCase(city);
+        console.log(`Loading tour guide with ID: ${guideId} for city: ${city}`);
+        const formattedCity = formatKebabToCamelCase(city);
 
-            console.log(`formatted city: ${formattedCity}`);
+        console.log(`formatted city: ${city}`);
         const guideResponse = await getTourGuideById(
           city as string,
-          guideId as string,
+          guideId as string
         );
         if (!guideResponse) {
           console.warn(`No tour guide found with ID: ${guideId}`);
@@ -94,39 +92,37 @@ export default function TourDetailsPage() {
         try {
           const attractionData = await getCityAttractionById(
             city as string,
-            scheduleItem.attractionId,
+            scheduleItem.attractionId
           );
           if (attractionData) {
             fetchedAttractions.push(attractionData);
           } else {
             console.warn(
-              `No attraction found with ID: ${scheduleItem.attractionId} in city: ${city}`,
+              `No attraction found with ID: ${scheduleItem.attractionId} in city: ${city}`
             );
           }
         } catch (error) {
           console.error(
             `Error fetching attraction with ID: ${scheduleItem.attractionId} in city: ${city}`,
-            error,
+            error
           );
         }
       }
       setCityAttractions(fetchedAttractions);
       console.log(
-        `Fetched ${fetchedAttractions.length} attractions for the tour`,
+        `Fetched ${fetchedAttractions.length} attractions for the tour`
       );
     }
     fetchAttractions();
   }, [tourData, city]);
-  console.log("Tour Data:", tourData);
   console.log("Tour Guide:", tourGuide);
-  console.log("City Attractions:", cityAttractions);
   const [updatedCurrency, setUpdatedCurrency] = useState<Currency>(
-    (selectedCurrency as Currency) || tourData?.currency || "USD",
+    (selectedCurrency as Currency) || tourData?.currency || "USD"
   );
   const displayPrice = convertPrice(
     parseFloat(tourData?.price as string),
     tourData?.currency || "USD", // Add fallback if currency is missing
-    updatedCurrency,
+    updatedCurrency
   );
   if (!tourId || !guideId || !city || !selectedCurrency) {
     return (
@@ -286,9 +282,9 @@ export default function TourDetailsPage() {
                   {tourGuide.bio && <p className="mt-2">{tourGuide.bio}</p>}
                   {tourGuide.specialties &&
                     tourGuide.specialties.length > 0 && (
-                      <div className="mt-4">
+                      <div className="mt-4 text-center">
                         <h4>Specialties</h4>
-                        <div className="flex flex-wrap justify-center gap-2 mt-2">
+                        <div className="flex flex-wrap justify-center items-center gap-2 mt-2 w-full">
                           {tourGuide.specialties.map((specialty, i) => (
                             <Badge key={i} variant={"defaultFaded"}>
                               {specialty}
@@ -338,20 +334,36 @@ export default function TourDetailsPage() {
                               </div>
                             )}
                           </div>
-                          <div className="md:col-span-2">
-                            <h3>{attraction.title}</h3>
-                            <p className="line-clamp-3">
-                              {attraction.description}
-                            </p>
-                            {attraction.tags && attraction.tags.length > 0 && (
-                              <div className="flex flex-wrap gap-2 mt-2">
-                                {attraction.tags.slice(0, 3).map((tag, i) => (
-                                  <Badge variant="secondaryFaded" key={i}>
-                                    {tag}
-                                  </Badge>
-                                ))}
-                              </div>
-                            )}
+                          <div className="flex flex-col justify-between md:col-span-2">
+                            <div>
+                              {" "}
+                              <h3>{attraction.title}</h3>
+                              <p className="line-clamp-3">
+                                {attraction.description}
+                              </p>
+                              {attraction.tags &&
+                                attraction.tags.length > 0 && (
+                                  <div className="flex flex-wrap gap-2 mt-2">
+                                    {attraction.tags
+                                      .slice(0, 3)
+                                      .map((tag, i) => (
+                                        <Badge variant="secondaryFaded" key={i}>
+                                          {tag}
+                                        </Badge>
+                                      ))}
+                                  </div>
+                                )}
+                            </div>
+                            <Button
+                              className="w-fit"
+                              onClick={() =>
+                                router.push(
+                                  `/experiences-through-destinations/${city}/${attraction.title}?city=${city}&attraction=${attraction.title}`
+                                )
+                              }
+                            >
+                              More About {attraction.title}
+                            </Button>
                           </div>
                         </div>
                       ) : (
