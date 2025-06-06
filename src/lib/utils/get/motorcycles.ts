@@ -51,12 +51,12 @@ export async function getCityMotorcycles(city: string): Promise<Motorcycle[]> {
 
 export async function getMotorcycleBySeatCapacity(
   city: string,
-  seatCapacity: number
+  seatCapacity: number,
 ): Promise<Motorcycle[]> {
   try {
     const motorcycles = await getCityMotorcycles(city);
     return motorcycles.filter(
-      (motorcycle) => motorcycle.seatCapacity === seatCapacity
+      (motorcycle) => motorcycle.seatCapacity === seatCapacity,
     );
   } catch (error) {
     console.error(`Error filtering motorcycles by seat capacity: ${error}`);
@@ -66,12 +66,12 @@ export async function getMotorcycleBySeatCapacity(
 
 export async function getMotorCycleByFeatures(
   city: string,
-  features: MotorcycleFeature[]
+  features: MotorcycleFeature[],
 ): Promise<Motorcycle[]> {
   try {
     const motorcycles = await getCityMotorcycles(city);
     return motorcycles.filter((motorcycle) =>
-      features.every((feature) => motorcycle.features.includes(feature))
+      features.every((feature) => motorcycle.features.includes(feature)),
     );
   } catch (error) {
     console.error(`Error filtering motorcycles by features: ${error}`);
@@ -80,7 +80,7 @@ export async function getMotorCycleByFeatures(
 }
 
 export async function getAvailableMotorcycles(
-  city: string
+  city: string,
 ): Promise<Motorcycle[]> {
   try {
     const motorcycles = await getCityMotorcycles(city);

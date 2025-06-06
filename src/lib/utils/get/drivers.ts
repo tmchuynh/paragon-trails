@@ -46,7 +46,7 @@ export async function getDriversByCity(city: string): Promise<Driver[]> {
     const formattedCity = formatKebabToCamelCase(city);
     const driversInCity = drivers.filter(
       (driver: { location: string }) =>
-        formatKebabToCamelCase(driver.location) === formattedCity
+        formatKebabToCamelCase(driver.location) === formattedCity,
     );
     if (driversInCity.length > 0) {
       return driversInCity;
@@ -66,7 +66,7 @@ export async function getDriversByCountry(country: string): Promise<Driver[]> {
     const formattedCountry = formatKebabToCamelCase(country);
     const driversInCountry = drivers.filter(
       (driver: { country: string }) =>
-        formatKebabToCamelCase(driver.country) === formattedCountry
+        formatKebabToCamelCase(driver.country) === formattedCountry,
     );
     if (driversInCountry.length > 0) {
       return driversInCountry;
@@ -81,12 +81,12 @@ export async function getDriversByCountry(country: string): Promise<Driver[]> {
 }
 
 export async function getDriverByLicense(
-  license: string
+  license: string,
 ): Promise<Driver | null> {
   try {
     const drivers = await getDrivers();
     const driver = drivers.find((d: { licenseNumber: string }) =>
-      d.licenseNumber.toLowerCase().includes(license.toLowerCase())
+      d.licenseNumber.toLowerCase().includes(license.toLowerCase()),
     );
     if (driver) {
       return driver;
@@ -104,7 +104,7 @@ export async function getDriverByName(name: string): Promise<Driver | null> {
   try {
     const drivers = await getDrivers();
     const driver = drivers.find(
-      (d: { name: string }) => d.name.toLowerCase() === name.toLowerCase()
+      (d: { name: string }) => d.name.toLowerCase() === name.toLowerCase(),
     );
     if (driver) {
       return driver;
@@ -120,7 +120,7 @@ export async function getDriverByName(name: string): Promise<Driver | null> {
 
 export async function getDriversAvailable(
   city: string,
-  day: string
+  day: string,
 ): Promise<Driver[]> {
   try {
     const drivers = await getDriversByCity(city);
@@ -137,7 +137,7 @@ export async function getDriversAvailable(
     }
   } catch (error) {
     console.error(
-      `Error loading available drivers for ${city} on ${day}: ${error}`
+      `Error loading available drivers for ${city} on ${day}: ${error}`,
     );
     return [];
   }
@@ -145,15 +145,15 @@ export async function getDriversAvailable(
 
 export async function getDriverBySpecialty(
   city: string,
-  specialty: string
+  specialty: string,
 ): Promise<Driver | null> {
   try {
     const drivers = await getDriversByCity(city);
     const driver = drivers.find((d: Driver) =>
       d.specialties?.some(
         (searchString: string) =>
-          searchString.toLowerCase() === specialty.toLowerCase()
-      )
+          searchString.toLowerCase() === specialty.toLowerCase(),
+      ),
     );
     if (driver) {
       return driver;
@@ -169,20 +169,20 @@ export async function getDriverBySpecialty(
 
 export async function getDriverByVechicleTypesCertified(
   city: string,
-  vehicleType: string
+  vehicleType: string,
 ): Promise<Driver | null> {
   try {
     const drivers = await getDriversByCity(city);
     const driver = drivers.find((d: Driver) =>
       d.vehicleTypesCertified?.some(
-        (type: string) => type.toLowerCase() === vehicleType.toLowerCase()
-      )
+        (type: string) => type.toLowerCase() === vehicleType.toLowerCase(),
+      ),
     );
     if (driver) {
       return driver;
     } else {
       console.error(
-        `Driver with vehicle type ${vehicleType} not found in ${city}`
+        `Driver with vehicle type ${vehicleType} not found in ${city}`,
       );
       return null;
     }

@@ -47,7 +47,7 @@ export async function getHostsByMaxGuests(maxGuests: number): Promise<Host[]> {
     const homestays = await getHosts();
     const hosts = homestays.flatMap((homestay: Host) => homestay);
     const filteredHosts = hosts.filter(
-      (host: Host) => host.maxGuests >= maxGuests
+      (host: Host) => host.maxGuests >= maxGuests,
     );
     return filteredHosts;
   } catch (error) {
@@ -57,13 +57,13 @@ export async function getHostsByMaxGuests(maxGuests: number): Promise<Host[]> {
 }
 
 export async function getHostsByGuestPolicy(
-  guestPolicy: string
+  guestPolicy: string,
 ): Promise<Host[]> {
   try {
     const homestays = await getHosts();
     const hosts = homestays.flatMap((homestay: Host) => homestay);
     const filteredHosts = hosts.filter((host: Host) =>
-      host.guestPolicy.includes(guestPolicy)
+      host.guestPolicy.includes(guestPolicy),
     );
     return filteredHosts;
   } catch (error) {
@@ -77,7 +77,7 @@ export async function getHostsByLanguage(language: string): Promise<Host[]> {
     const homestays = await getHosts();
     const hosts = homestays.flatMap((homestay: Host) => homestay);
     const filteredHosts = hosts.filter((host: Host) =>
-      host.languages.includes(language)
+      host.languages.includes(language),
     );
     return filteredHosts;
   } catch (error) {
@@ -92,7 +92,7 @@ export async function getHostsByCurfew(curfew: string): Promise<Host[]> {
     const homestays = await getHosts();
     const hosts = homestays.flatMap((homestay: Host) => homestay);
     const filteredHosts = hosts.filter(
-      (host: Host) => host.curfew === formattedCurfew
+      (host: Host) => host.curfew === formattedCurfew,
     );
     return filteredHosts;
   } catch (error) {

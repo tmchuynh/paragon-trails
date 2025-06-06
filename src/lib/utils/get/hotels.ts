@@ -45,7 +45,7 @@ export async function getHotelRooms(city: string, hotel: string) {
     return [];
   } catch (error) {
     console.error(
-      `Error loading rooms for hotel ${hotel} in city ${city}: ${error}`
+      `Error loading rooms for hotel ${hotel} in city ${city}: ${error}`,
     );
     return [];
   }

@@ -25,7 +25,7 @@ export async function getAllTestimonials(): Promise<Testimonial[]> {
 }
 
 export async function getCityTestimonials(
-  city: string
+  city: string,
 ): Promise<Testimonial[]> {
   try {
     const formattedCity = city.replace(/-/g, "");

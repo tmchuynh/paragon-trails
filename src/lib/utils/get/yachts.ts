@@ -54,7 +54,7 @@ export async function getYachtByCapacity(
     cabins?: number;
     crew?: number;
     bathrooms?: number;
-  }
+  },
 ): Promise<Yacht[]> {
   try {
     const yachts = await getCityYachts(city);
@@ -85,7 +85,7 @@ export async function getYachtByCapacity(
     });
   } catch (error) {
     console.error(
-      `Error filtering yachts by capacity ${capacity} in city ${city}: ${error}`
+      `Error filtering yachts by capacity ${capacity} in city ${city}: ${error}`,
     );
     return [];
   }
@@ -94,7 +94,8 @@ export async function getYachtByCapacity(
 export async function getYachtByRegion(region: string): Promise<Yacht[]> {
   try {
     const cities = Object.keys(cityToRegionMap).filter(
-      (city) => cityToRegionMap[city as keyof typeof cityToRegionMap] === region
+      (city) =>
+        cityToRegionMap[city as keyof typeof cityToRegionMap] === region,
     );
     const yachts: Yacht[] = [];
     for (const city of cities) {
@@ -110,12 +111,12 @@ export async function getYachtByRegion(region: string): Promise<Yacht[]> {
 
 export async function getYachtByFeatures(
   city: string,
-  features: YachtAmenity[]
+  features: YachtAmenity[],
 ): Promise<Yacht[]> {
   try {
     const yachts = await getCityYachts(city);
     return yachts.filter((yacht) =>
-      features.every((feature) => yacht.amenities.includes(feature))
+      features.every((feature) => yacht.amenities.includes(feature)),
     );
   } catch (error) {
     console.error(`Error filtering yachts by features: ${error}`);
@@ -125,12 +126,12 @@ export async function getYachtByFeatures(
 
 export async function getYachtByName(
   city: string,
-  yachtName: string
+  yachtName: string,
 ): Promise<Yacht | null> {
   try {
     const yachts = await getCityYachts(city);
     const yacht = yachts.find(
-      (y) => y.name.toLowerCase() === yachtName.toLowerCase()
+      (y) => y.name.toLowerCase() === yachtName.toLowerCase(),
     );
     if (yacht) {
       return yacht;
@@ -149,7 +150,7 @@ export async function getYachtByPriceRange(
   pricing: {
     perDay?: number;
     perWeek?: number;
-  }
+  },
 ): Promise<Yacht[]> {
   try {
     const yachts = await getCityYachts(city);
@@ -171,7 +172,7 @@ export async function getYachtByPriceRange(
 
 export async function getYachtByCharterType(
   city: string,
-  charterType: string
+  charterType: string,
 ): Promise<Yacht[]> {
   try {
     const yachts = await getCityYachts(city);
@@ -184,7 +185,7 @@ export async function getYachtByCharterType(
 
 export async function getYachtByYearBuilt(
   city: string,
-  yearBuilt: number
+  yearBuilt: number,
 ): Promise<Yacht[]> {
   try {
     const yachts = await getCityYachts(city);
@@ -197,12 +198,12 @@ export async function getYachtByYearBuilt(
 
 export async function getYachtByBrand(
   city: string,
-  brand: string
+  brand: string,
 ): Promise<Yacht[]> {
   try {
     const yachts = await getCityYachts(city);
     return yachts.filter(
-      (yacht) => yacht.brand.toLowerCase() === brand.toLowerCase()
+      (yacht) => yacht.brand.toLowerCase() === brand.toLowerCase(),
     );
   } catch (error) {
     console.error(`Error filtering yachts by brand: ${error}`);
@@ -213,14 +214,14 @@ export async function getYachtByBrand(
 export async function getYachtByBrandAndModel(
   city: string,
   brand: string,
-  model: string
+  model: string,
 ): Promise<Yacht[]> {
   try {
     const yachts = await getCityYachts(city);
     return yachts.filter(
       (yacht) =>
         yacht.brand.toLowerCase() === brand.toLowerCase() &&
-        yacht.model.toLowerCase() === model.toLowerCase()
+        yacht.model.toLowerCase() === model.toLowerCase(),
     );
   } catch (error) {
     console.error(`Error filtering yachts by brand and model: ${error}`);

@@ -47,7 +47,7 @@ export async function getTourGuidesByCity(city: string): Promise<TourGuide[]> {
     const formattedCity = formatKebabToCamelCase(city);
     const guidesInCity = guides.filter(
       (guide: { city: string }) =>
-        formatKebabToCamelCase(guide.city) === formattedCity
+        formatKebabToCamelCase(guide.city) === formattedCity,
     );
     if (guidesInCity.length > 0) {
       return guidesInCity;
@@ -62,12 +62,12 @@ export async function getTourGuidesByCity(city: string): Promise<TourGuide[]> {
 }
 
 export async function getTourGuidesByRegionsCovered(
-  regions: TourRegion[]
+  regions: TourRegion[],
 ): Promise<TourGuide[]> {
   try {
     const guides = await getTourGuides();
     const filteredGuides = guides.filter((guide: TourGuide) =>
-      regions.some((region) => guide.regionsCovered.includes(region))
+      regions.some((region) => guide.regionsCovered.includes(region)),
     );
     if (filteredGuides.length > 0) {
       return filteredGuides;
@@ -82,12 +82,12 @@ export async function getTourGuidesByRegionsCovered(
 }
 
 export async function getTourGuidesByTourTypes(
-  tourTypes: TourType[]
+  tourTypes: TourType[],
 ): Promise<TourGuide[]> {
   try {
     const guides = await getTourGuides();
     const filteredGuides = guides.filter((guide: TourGuide) =>
-      tourTypes.some((type) => guide.tourTypes.includes(type))
+      tourTypes.some((type) => guide.tourTypes.includes(type)),
     );
     if (filteredGuides.length > 0) {
       return filteredGuides;
@@ -102,19 +102,19 @@ export async function getTourGuidesByTourTypes(
 }
 
 export async function getTourGuideByLicenseNumber(
-  licenseNumber: string
+  licenseNumber: string,
 ): Promise<TourGuide | null> {
   try {
     const guides = await getTourGuides();
     const guide = guides.find(
       (g: { licenseNumber: string }) =>
-        g.licenseNumber.toLowerCase() === licenseNumber.toLowerCase()
+        g.licenseNumber.toLowerCase() === licenseNumber.toLowerCase(),
     );
     if (guide) {
       return guide;
     } else {
       console.error(
-        `Tour guide with license number ${licenseNumber} not found`
+        `Tour guide with license number ${licenseNumber} not found`,
       );
       return null;
     }
@@ -126,7 +126,7 @@ export async function getTourGuideByLicenseNumber(
 
 export async function getTourGuideAvailableInCity(
   city: string,
-  day: string
+  day: string,
 ): Promise<TourGuide[]> {
   try {
     const guides = await getTourGuidesByCity(city);
@@ -148,12 +148,12 @@ export async function getTourGuideAvailableInCity(
 }
 
 export async function getTourGuideBySpeakingLanguage(
-  language: string
+  language: string,
 ): Promise<TourGuide[]> {
   try {
     const guides = await getTourGuides();
     const filteredGuides = guides.filter((guide: TourGuide) =>
-      guide.languages.includes(language)
+      guide.languages.includes(language),
     );
     if (filteredGuides.length > 0) {
       return filteredGuides;
@@ -168,12 +168,12 @@ export async function getTourGuideBySpeakingLanguage(
 }
 
 export async function getTourGuideBySpecialization(
-  specialization: string
+  specialization: string,
 ): Promise<TourGuide[]> {
   try {
     const guides = await getTourGuides();
     const filteredGuides = guides.filter((guide: TourGuide) =>
-      guide.specialties?.includes(specialization)
+      guide.specialties?.includes(specialization),
     );
     if (filteredGuides.length > 0) {
       return filteredGuides;
@@ -189,7 +189,7 @@ export async function getTourGuideBySpecialization(
 
 export async function getTourGuideByExperienceYears(
   minYears: number,
-  maxYears?: number
+  maxYears?: number,
 ): Promise<TourGuide[]> {
   try {
     const guides = await getTourGuides();
@@ -201,7 +201,7 @@ export async function getTourGuideByExperienceYears(
       return filteredGuides;
     } else {
       console.error(
-        `No guides found with experience between ${minYears} and ${maxYears || "∞"} years`
+        `No guides found with experience between ${minYears} and ${maxYears || "∞"} years`,
       );
       return [];
     }
