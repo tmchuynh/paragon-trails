@@ -102,15 +102,15 @@ export default function ToursExplorePageClient() {
   // Max values for ranges
   const maxPrice = Math.max(
     ...tours.map((tour) => tour.pricePerPerson || 0),
-    1000
+    1000,
   );
   const maxDuration = Math.max(
     ...tours.map((tour) => tour.durationInHours || 0),
-    24
+    24,
   );
   const maxGroupSize = Math.max(
     ...tours.map((tour) => tour.maxGroupSize || 0),
-    50
+    50,
   );
 
   // Pagination values
@@ -129,13 +129,13 @@ export default function ToursExplorePageClient() {
         setFilteredTours(allTours);
         // Set price range based on actual data
         const maxDataPrice = Math.max(
-          ...allTours.map((tour) => parseFloat(tour.price) || 0)
+          ...allTours.map((tour) => parseFloat(tour.price) || 0),
         );
         setPriceRange([0, maxDataPrice > 0 ? maxDataPrice : 1000]);
 
         // Set duration range based on actual data
         const maxDataDuration = Math.max(
-          ...allTours.map((tour) => tour.durationInHours || 0)
+          ...allTours.map((tour) => tour.durationInHours || 0),
         );
         // Ensure we have a reasonable min/max for duration
         setDurationRange([
@@ -145,10 +145,10 @@ export default function ToursExplorePageClient() {
 
         // Set group size range based on actual data
         const minDataGroupSize = Math.min(
-          ...allTours.map((tour) => tour.minGroupSize || 1)
+          ...allTours.map((tour) => tour.minGroupSize || 1),
         );
         const maxDataGroupSize = Math.max(
-          ...allTours.map((tour) => tour.maxGroupSize || 0)
+          ...allTours.map((tour) => tour.maxGroupSize || 0),
         );
         setGroupSizeRange([
           minDataGroupSize > 0 ? minDataGroupSize : 1,
@@ -184,14 +184,14 @@ export default function ToursExplorePageClient() {
       console.log(
         "Available tour cities:",
         Array.from(tourCities).slice(0, 10),
-        "..."
+        "...",
       );
 
       result = result.filter((tour) => {
         const includesCity = cityFilter.includes(tour.city);
         if (!includesCity) {
           console.log(
-            `City mismatch: Tour has "${tour.city}", filter wants ${cityFilter}`
+            `City mismatch: Tour has "${tour.city}", filter wants ${cityFilter}`,
           );
         }
         return includesCity;
@@ -219,7 +219,7 @@ export default function ToursExplorePageClient() {
       result = result.filter(
         (tour) =>
           tour.languagesOffered &&
-          languageFilter.some((lang) => tour.languagesOffered.includes(lang))
+          languageFilter.some((lang) => tour.languagesOffered.includes(lang)),
       );
       console.log(`Language filter: ${beforeCount} → ${result.length} tours`);
     }
@@ -235,7 +235,7 @@ export default function ToursExplorePageClient() {
     if (tagFilter.length > 0) {
       const beforeCount = result.length;
       result = result.filter(
-        (tour) => tour.tags && tagFilter.some((tag) => tour.tags.includes(tag))
+        (tour) => tour.tags && tagFilter.some((tag) => tour.tags.includes(tag)),
       );
       console.log(`Tag filter: ${beforeCount} → ${result.length} tours`);
     }
@@ -262,7 +262,7 @@ export default function ToursExplorePageClient() {
       return duration >= durationRange[0] && duration <= durationRange[1];
     });
     console.log(
-      `Duration filter: ${beforeDurationCount} → ${result.length} tours`
+      `Duration filter: ${beforeDurationCount} → ${result.length} tours`,
     );
 
     // Filter by group size range
@@ -273,7 +273,7 @@ export default function ToursExplorePageClient() {
       return minSize >= groupSizeRange[0] && maxSize <= groupSizeRange[1];
     });
     console.log(
-      `Group size filter: ${beforeGroupSizeCount} → ${result.length} tours`
+      `Group size filter: ${beforeGroupSizeCount} → ${result.length} tours`,
     );
 
     // Filter by private availability
@@ -281,7 +281,7 @@ export default function ToursExplorePageClient() {
       const beforeCount = result.length;
       result = result.filter((tour) => tour.privateAvailable === true);
       console.log(
-        `Private only filter: ${beforeCount} → ${result.length} tours`
+        `Private only filter: ${beforeCount} → ${result.length} tours`,
       );
     }
 
@@ -290,7 +290,7 @@ export default function ToursExplorePageClient() {
       const beforeCount = result.length;
       result = result.filter((tour) => tour.isPetFriendly === true);
       console.log(
-        `Pet friendly filter: ${beforeCount} → ${result.length} tours`
+        `Pet friendly filter: ${beforeCount} → ${result.length} tours`,
       );
     }
 
@@ -352,10 +352,10 @@ export default function ToursExplorePageClient() {
   const toggleFilter = (
     filterArray: any[],
     setFilterArray: React.Dispatch<React.SetStateAction<any[]>>,
-    item: any
+    item: any,
   ) => {
     console.log(
-      `Toggling filter: ${item} in array of length ${filterArray.length}`
+      `Toggling filter: ${item} in array of length ${filterArray.length}`,
     );
     if (filterArray.includes(item)) {
       setFilterArray(filterArray.filter((i) => i !== item));
@@ -385,7 +385,7 @@ export default function ToursExplorePageClient() {
           "ellipsis",
           totalPages - 3,
           totalPages - 2,
-          totalPages - 1
+          totalPages - 1,
         );
       } else {
         pageNumbers.push(
@@ -393,7 +393,7 @@ export default function ToursExplorePageClient() {
           currentPage - 1,
           currentPage,
           currentPage + 1,
-          "ellipsis"
+          "ellipsis",
         );
       }
 
@@ -427,7 +427,7 @@ export default function ToursExplorePageClient() {
                   {page}
                 </PaginationLink>
               </PaginationItem>
-            )
+            ),
           )}
 
           <PaginationItem>
@@ -499,7 +499,7 @@ export default function ToursExplorePageClient() {
                     onClick={() => {
                       setSortField("city");
                       setSortDirection((prev) =>
-                        prev === "asc" ? "desc" : "asc"
+                        prev === "asc" ? "desc" : "asc",
                       );
                     }}
                   >
@@ -511,7 +511,7 @@ export default function ToursExplorePageClient() {
                     onClick={() => {
                       setSortField("country");
                       setSortDirection((prev) =>
-                        prev === "asc" ? "desc" : "asc"
+                        prev === "asc" ? "desc" : "asc",
                       );
                     }}
                   >
@@ -523,7 +523,7 @@ export default function ToursExplorePageClient() {
                     onClick={() => {
                       setSortField("region");
                       setSortDirection((prev) =>
-                        prev === "asc" ? "desc" : "asc"
+                        prev === "asc" ? "desc" : "asc",
                       );
                     }}
                   >
@@ -535,7 +535,7 @@ export default function ToursExplorePageClient() {
                     onClick={() => {
                       setSortField("price");
                       setSortDirection((prev) =>
-                        prev === "asc" ? "desc" : "asc"
+                        prev === "asc" ? "desc" : "asc",
                       );
                     }}
                   >
@@ -547,7 +547,7 @@ export default function ToursExplorePageClient() {
                     onClick={() => {
                       setSortField("duration");
                       setSortDirection((prev) =>
-                        prev === "asc" ? "desc" : "asc"
+                        prev === "asc" ? "desc" : "asc",
                       );
                     }}
                   >
@@ -729,7 +729,7 @@ export default function ToursExplorePageClient() {
                           toggleFilter(
                             languageFilter,
                             setLanguageFilter,
-                            language
+                            language,
                           )
                         }
                       />
@@ -897,7 +897,7 @@ export default function ToursExplorePageClient() {
                   const displayPrice = convertPrice(
                     parseFloat(removeSpecialCharactersFromNumbers(tour.price)),
                     tour.currency || "USD", // Add fallback if currency is missing
-                    selectedCurrency
+                    selectedCurrency,
                   );
 
                   return (
@@ -967,7 +967,7 @@ export default function ToursExplorePageClient() {
                             className="whitespace-nowrap"
                             onClick={() =>
                               router.push(
-                                `/experiences-through-destinations/${tour.city}/tours/${tour.title}?tourId=${tour.id}&city=${tour.city}/&guideId=${tour.guideId}&currency=${selectedCurrency}`
+                                `/experiences-through-destinations/${tour.city}/tours/${tour.title}?tourId=${tour.id}&city=${tour.city}/&guideId=${tour.guideId}&currency=${selectedCurrency}`,
                               )
                             }
                           >
