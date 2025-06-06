@@ -59,7 +59,7 @@ export default function TourDetailsPage() {
       try {
         const guideResponse = await getTourGuideById(
           city as string,
-          guideId as string
+          guideId as string,
         );
         if (!guideResponse) {
           console.warn(`No tour guide found with ID: ${guideId}`);
@@ -82,25 +82,25 @@ export default function TourDetailsPage() {
         try {
           const attractionData = await getCityAttractionById(
             city as string,
-            scheduleItem.attractionId
+            scheduleItem.attractionId,
           );
           if (attractionData) {
             fetchedAttractions.push(attractionData);
           } else {
             console.warn(
-              `No attraction found with ID: ${scheduleItem.attractionId} in city: ${city}`
+              `No attraction found with ID: ${scheduleItem.attractionId} in city: ${city}`,
             );
           }
         } catch (error) {
           console.error(
             `Error fetching attraction with ID: ${scheduleItem.attractionId} in city: ${city}`,
-            error
+            error,
           );
         }
       }
       setCityAttractions(fetchedAttractions);
       console.log(
-        `Fetched ${fetchedAttractions.length} attractions for the tour`
+        `Fetched ${fetchedAttractions.length} attractions for the tour`,
       );
     }
     fetchAttractions();
@@ -109,12 +109,12 @@ export default function TourDetailsPage() {
   console.log("Tour Guide:", tourGuide);
   console.log("City Attractions:", cityAttractions);
   const [updatedCurrency, setUpdatedCurrency] = useState<Currency>(
-    (selectedCurrency as Currency) || tourData?.currency || "USD"
+    (selectedCurrency as Currency) || tourData?.currency || "USD",
   );
   const displayPrice = convertPrice(
     parseFloat(tourData?.price as string),
     tourData?.currency || "USD", // Add fallback if currency is missing
-    updatedCurrency
+    updatedCurrency,
   );
   if (!tourId || !guideId || !city || !selectedCurrency) {
     return (
@@ -303,7 +303,7 @@ export default function TourDetailsPage() {
               <div className="space-y-6">
                 {tourData.schedule.map((scheduleItem, index) => {
                   const attraction = cityAttractions.find(
-                    (a) => a.id === scheduleItem.attractionId
+                    (a) => a.id === scheduleItem.attractionId,
                   );
                   return (
                     <div
