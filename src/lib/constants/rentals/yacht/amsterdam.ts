@@ -37,8 +37,13 @@ export const amsterdamnetherlandsnorthernEuropeYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["BBQ Onboard"],
-    description: "The Neptune's Glory is a magnificent super yacht built by Amels offering exceptional amenities and impeccable service for an unforgettable sailing experience in amsterdam.",
-    images: ["https://paragon-trails-yacht-images.com/super/amsterdam-neptune's-glory-1.jpg", "https://paragon-trails-yacht-images.com/super/amsterdam-neptune's-glory-2.jpg", "https://paragon-trails-yacht-images.com/super/amsterdam-neptune's-glory-3.jpg"],
+    description:
+      "The Neptune's Glory is a magnificent super yacht built by Amels offering exceptional amenities and impeccable service for an unforgettable sailing experience in amsterdam.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/amsterdam-neptune's-glory-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/amsterdam-neptune's-glory-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/amsterdam-neptune's-glory-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 165553,
@@ -86,8 +91,13 @@ export const amsterdamnetherlandsnorthernEuropeYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive", "Breakfast Only"],
-    description: "Diamond Seas combines performance and luxury in a stunning 34m motor yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/motor/amsterdam-diamond-seas-1.jpg", "https://paragon-trails-yacht-images.com/motor/amsterdam-diamond-seas-2.jpg", "https://paragon-trails-yacht-images.com/motor/amsterdam-diamond-seas-3.jpg"],
+    description:
+      "Diamond Seas combines performance and luxury in a stunning 34m motor yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/amsterdam-diamond-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/amsterdam-diamond-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/amsterdam-diamond-seas-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7822,
@@ -96,7 +106,12 @@ export const amsterdamnetherlandsnorthernEuropeYachts: Yacht[] = [
       includes: ["BBQ Grill", "Bar"],
       excludes: ["Outdoor Shower"],
     },
-    safetyFeatures: ["Radar", "Life Rafts", "Emergency Beacon", "First Aid Kit"],
+    safetyFeatures: [
+      "Radar",
+      "Life Rafts",
+      "Emergency Beacon",
+      "First Aid Kit",
+    ],
     accessibilityFeatures: ["Easy Boarding"],
   },
   {
@@ -122,7 +137,13 @@ export const amsterdamnetherlandsnorthernEuropeYachts: Yacht[] = [
       crew: 2,
       bathrooms: 4,
     },
-    amenities: ["Tender Garage", "Dining Area", "Stabilizers", "Bar", "Air Conditioning"],
+    amenities: [
+      "Tender Garage",
+      "Dining Area",
+      "Stabilizers",
+      "Bar",
+      "Air Conditioning",
+    ],
     entertainment: ["Media Library", "Bluetooth Speakers", "Onboard Cinema"],
     waterToys: ["Towable Tubes", "Paddleboards", "Inflatable Slide"],
     location: {
@@ -135,8 +156,13 @@ export const amsterdamnetherlandsnorthernEuropeYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive"],
-    description: "Discover the beauty of amsterdam's waters aboard the elegant Poseidon's Pride, a 2019 motor yacht featuring spacious accommodation for 8 guests overnight or 9 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/motor/amsterdam-poseidon's-pride-1.jpg", "https://paragon-trails-yacht-images.com/motor/amsterdam-poseidon's-pride-2.jpg", "https://paragon-trails-yacht-images.com/motor/amsterdam-poseidon's-pride-3.jpg"],
+    description:
+      "Discover the beauty of amsterdam's waters aboard the elegant Poseidon's Pride, a 2019 motor yacht featuring spacious accommodation for 8 guests overnight or 9 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/amsterdam-poseidon's-pride-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/amsterdam-poseidon's-pride-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/amsterdam-poseidon's-pride-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 14695,
@@ -145,7 +171,12 @@ export const amsterdamnetherlandsnorthernEuropeYachts: Yacht[] = [
       includes: ["Tender Garage", "Dining Area", "Stabilizers"],
       excludes: ["Air Conditioning"],
     },
-    safetyFeatures: ["First Aid Kit", "Fog Horn", "Life Jackets", "Fire Extinguishers"],
+    safetyFeatures: [
+      "First Aid Kit",
+      "Fog Horn",
+      "Life Jackets",
+      "Fire Extinguishers",
+    ],
     accessibilityFeatures: ["Accessible Bathroom", "Elevator"],
   },
   {
@@ -184,8 +215,14 @@ export const amsterdamnetherlandsnorthernEuropeYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Full-Service Catering", "Local Cuisine Packages"],
-    description: "Discover the beauty of amsterdam's waters aboard the elegant Indigo Seas, a 2000 gulet yacht featuring spacious accommodation for 9 guests overnight or 18 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/amsterdam-indigo-seas-1.jpg", "https://paragon-trails-yacht-images.com/gulet/amsterdam-indigo-seas-2.jpg", "https://paragon-trails-yacht-images.com/gulet/amsterdam-indigo-seas-3.jpg", "https://paragon-trails-yacht-images.com/gulet/amsterdam-indigo-seas-4.jpg"],
+    description:
+      "Discover the beauty of amsterdam's waters aboard the elegant Indigo Seas, a 2000 gulet yacht featuring spacious accommodation for 9 guests overnight or 18 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/amsterdam-indigo-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/amsterdam-indigo-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/amsterdam-indigo-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/amsterdam-indigo-seas-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5915,
@@ -194,7 +231,12 @@ export const amsterdamnetherlandsnorthernEuropeYachts: Yacht[] = [
       includes: ["Kitchen"],
       excludes: ["Kitchen", "Swim Platform", "BBQ Grill"],
     },
-    safetyFeatures: ["Emergency Steering", "Navigation Lights", "Life Rafts", "Flares"],
+    safetyFeatures: [
+      "Emergency Steering",
+      "Navigation Lights",
+      "Life Rafts",
+      "Flares",
+    ],
     accessibilityFeatures: [],
-  }
+  },
 ];

@@ -24,7 +24,13 @@ export const cartagenacolombiacaribbeanYachts: Yacht[] = [
       crew: 19,
       bathrooms: 6,
     },
-    amenities: ["Outdoor Shower", "Swim Platform", "Kitchen", "Air Conditioning", "Dining Area"],
+    amenities: [
+      "Outdoor Shower",
+      "Swim Platform",
+      "Kitchen",
+      "Air Conditioning",
+      "Dining Area",
+    ],
     entertainment: ["Media Library", "Satellite TV", "Game Console"],
     waterToys: ["Floating Island", "Kayaks", "Snorkeling Gear"],
     location: {
@@ -37,15 +43,26 @@ export const cartagenacolombiacaribbeanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive", "Picnic-Style"],
-    description: "Discover the beauty of cartagena's waters aboard the elegant Cobalt Waters, a 2015 super yacht featuring spacious accommodation for 17 guests overnight or 26 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/super/cartagena-cobalt-waters-1.jpg", "https://paragon-trails-yacht-images.com/super/cartagena-cobalt-waters-2.jpg", "https://paragon-trails-yacht-images.com/super/cartagena-cobalt-waters-3.jpg"],
+    description:
+      "Discover the beauty of cartagena's waters aboard the elegant Cobalt Waters, a 2015 super yacht featuring spacious accommodation for 17 guests overnight or 26 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/cartagena-cobalt-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/cartagena-cobalt-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/cartagena-cobalt-waters-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 194216,
       perWeek: 1155585.2,
       currency: "COP",
       includes: ["Outdoor Shower", "Swim Platform", "Kitchen"],
-      excludes: ["Outdoor Shower", "Swim Platform", "Kitchen", "Air Conditioning", "Dining Area"],
+      excludes: [
+        "Outdoor Shower",
+        "Swim Platform",
+        "Kitchen",
+        "Air Conditioning",
+        "Dining Area",
+      ],
     },
     safetyFeatures: ["Radar", "Navigation Lights", "Emergency Beacon"],
     accessibilityFeatures: ["Elevator"],
@@ -86,8 +103,13 @@ export const cartagenacolombiacaribbeanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["No Catering", "Chef Onboard"],
-    description: "The Coastal Serenity is a magnificent catamaran yacht built by Lürssen offering exceptional amenities and impeccable service for an unforgettable sailing experience in cartagena.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/cartagena-coastal-serenity-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/cartagena-coastal-serenity-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/cartagena-coastal-serenity-3.jpg"],
+    description:
+      "The Coastal Serenity is a magnificent catamaran yacht built by Lürssen offering exceptional amenities and impeccable service for an unforgettable sailing experience in cartagena.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/cartagena-coastal-serenity-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/cartagena-coastal-serenity-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/cartagena-coastal-serenity-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 4652,
@@ -135,8 +157,15 @@ export const cartagenacolombiacaribbeanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: false,
     cateringOptions: ["Full-Service Catering", "BBQ Onboard"],
-    description: "Royal Seas combines performance and luxury in a stunning 24m catamaran yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/cartagena-royal-seas-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/cartagena-royal-seas-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/cartagena-royal-seas-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/cartagena-royal-seas-4.jpg", "https://paragon-trails-yacht-images.com/catamaran/cartagena-royal-seas-5.jpg"],
+    description:
+      "Royal Seas combines performance and luxury in a stunning 24m catamaran yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/cartagena-royal-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/cartagena-royal-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/cartagena-royal-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/cartagena-royal-seas-4.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/cartagena-royal-seas-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6261,
@@ -145,7 +174,13 @@ export const cartagenacolombiacaribbeanYachts: Yacht[] = [
       includes: ["Bar"],
       excludes: ["Kitchen"],
     },
-    safetyFeatures: ["First Aid Kit", "Navigation Lights", "Flares", "Fire Extinguishers", "Emergency Steering"],
+    safetyFeatures: [
+      "First Aid Kit",
+      "Navigation Lights",
+      "Flares",
+      "Fire Extinguishers",
+      "Emergency Steering",
+    ],
     accessibilityFeatures: ["Accessible Cabin"],
   },
   {
@@ -171,7 +206,15 @@ export const cartagenacolombiacaribbeanYachts: Yacht[] = [
       crew: 3,
       bathrooms: 6,
     },
-    amenities: ["Dining Area", "Laundry Service", "Indoor Lounge", "Swim Platform", "Heated Deck", "Bar", "Outdoor Shower"],
+    amenities: [
+      "Dining Area",
+      "Laundry Service",
+      "Indoor Lounge",
+      "Swim Platform",
+      "Heated Deck",
+      "Bar",
+      "Outdoor Shower",
+    ],
     entertainment: ["Onboard Cinema", "Game Console", "Projector"],
     waterToys: ["Towable Tubes", "Kneeboard", "Windsurf", "Wakeboard"],
     location: {
@@ -184,17 +227,36 @@ export const cartagenacolombiacaribbeanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Full-Service Catering", "Chef Onboard"],
-    description: "Charter the impressive Baltic Star in cartagena and enjoy its 7 luxury amenities and 4 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/motor/cartagena-baltic-star-1.jpg", "https://paragon-trails-yacht-images.com/motor/cartagena-baltic-star-2.jpg", "https://paragon-trails-yacht-images.com/motor/cartagena-baltic-star-3.jpg"],
+    description:
+      "Charter the impressive Baltic Star in cartagena and enjoy its 7 luxury amenities and 4 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/cartagena-baltic-star-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/cartagena-baltic-star-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/cartagena-baltic-star-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 8365,
       perWeek: 49771.75,
       currency: "COP",
       includes: ["Dining Area", "Laundry Service"],
-      excludes: ["Dining Area", "Laundry Service", "Indoor Lounge", "Swim Platform", "Heated Deck", "Bar", "Outdoor Shower"],
+      excludes: [
+        "Dining Area",
+        "Laundry Service",
+        "Indoor Lounge",
+        "Swim Platform",
+        "Heated Deck",
+        "Bar",
+        "Outdoor Shower",
+      ],
     },
-    safetyFeatures: ["Radar", "Fire Extinguishers", "Life Rafts", "EPIRB", "Searchlight"],
+    safetyFeatures: [
+      "Radar",
+      "Fire Extinguishers",
+      "Life Rafts",
+      "EPIRB",
+      "Searchlight",
+    ],
     accessibilityFeatures: ["Low Thresholds"],
-  }
+  },
 ];

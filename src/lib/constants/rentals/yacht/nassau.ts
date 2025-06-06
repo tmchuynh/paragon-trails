@@ -37,8 +37,15 @@ export const nassaubahamascaribbeanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages"],
-    description: "The Coastal Serenity is a magnificent gulet yacht built by Swan offering exceptional amenities and impeccable service for an unforgettable sailing experience in nassau.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/nassau-coastal-serenity-1.jpg", "https://paragon-trails-yacht-images.com/gulet/nassau-coastal-serenity-2.jpg", "https://paragon-trails-yacht-images.com/gulet/nassau-coastal-serenity-3.jpg", "https://paragon-trails-yacht-images.com/gulet/nassau-coastal-serenity-4.jpg", "https://paragon-trails-yacht-images.com/gulet/nassau-coastal-serenity-5.jpg"],
+    description:
+      "The Coastal Serenity is a magnificent gulet yacht built by Swan offering exceptional amenities and impeccable service for an unforgettable sailing experience in nassau.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/nassau-coastal-serenity-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/nassau-coastal-serenity-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/nassau-coastal-serenity-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/nassau-coastal-serenity-4.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/nassau-coastal-serenity-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6729,
@@ -86,8 +93,15 @@ export const nassaubahamascaribbeanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard", "Breakfast Only"],
-    description: "Charter the impressive Wave Dancer in nassau and enjoy its 4 luxury amenities and 5 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/nassau-wave-dancer-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/nassau-wave-dancer-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/nassau-wave-dancer-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/nassau-wave-dancer-4.jpg", "https://paragon-trails-yacht-images.com/catamaran/nassau-wave-dancer-5.jpg"],
+    description:
+      "Charter the impressive Wave Dancer in nassau and enjoy its 4 luxury amenities and 5 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/nassau-wave-dancer-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/nassau-wave-dancer-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/nassau-wave-dancer-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/nassau-wave-dancer-4.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/nassau-wave-dancer-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5078,
@@ -122,7 +136,13 @@ export const nassaubahamascaribbeanYachts: Yacht[] = [
       crew: 18,
       bathrooms: 13,
     },
-    amenities: ["Dining Area", "Indoor Lounge", "Heated Deck", "Tender Garage", "Swim Platform"],
+    amenities: [
+      "Dining Area",
+      "Indoor Lounge",
+      "Heated Deck",
+      "Tender Garage",
+      "Swim Platform",
+    ],
     entertainment: ["DJ Equipment"],
     waterToys: ["Kayaks", "Floating Island", "Scuba Diving Gear"],
     location: {
@@ -135,15 +155,27 @@ export const nassaubahamascaribbeanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["BBQ Onboard", "Chef Onboard"],
-    description: "The Sea Symphony is a magnificent super yacht built by Oyster offering exceptional amenities and impeccable service for an unforgettable sailing experience in nassau.",
-    images: ["https://paragon-trails-yacht-images.com/super/nassau-sea-symphony-1.jpg", "https://paragon-trails-yacht-images.com/super/nassau-sea-symphony-2.jpg", "https://paragon-trails-yacht-images.com/super/nassau-sea-symphony-3.jpg", "https://paragon-trails-yacht-images.com/super/nassau-sea-symphony-4.jpg"],
+    description:
+      "The Sea Symphony is a magnificent super yacht built by Oyster offering exceptional amenities and impeccable service for an unforgettable sailing experience in nassau.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/nassau-sea-symphony-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/nassau-sea-symphony-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/nassau-sea-symphony-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/nassau-sea-symphony-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 176677,
       perWeek: 1051228.15,
       currency: "BSD",
       includes: ["Dining Area", "Indoor Lounge", "Heated Deck"],
-      excludes: ["Dining Area", "Indoor Lounge", "Heated Deck", "Tender Garage", "Swim Platform"],
+      excludes: [
+        "Dining Area",
+        "Indoor Lounge",
+        "Heated Deck",
+        "Tender Garage",
+        "Swim Platform",
+      ],
     },
     safetyFeatures: ["GPS Tracking", "Flares", "Searchlight", "Fog Horn"],
     accessibilityFeatures: ["Easy Boarding"],
@@ -171,7 +203,13 @@ export const nassaubahamascaribbeanYachts: Yacht[] = [
       crew: 10,
       bathrooms: 12,
     },
-    amenities: ["Swim Platform", "Outdoor Shower", "Dining Area", "Bar", "Indoor Lounge"],
+    amenities: [
+      "Swim Platform",
+      "Outdoor Shower",
+      "Dining Area",
+      "Bar",
+      "Indoor Lounge",
+    ],
     entertainment: ["DJ Equipment", "Media Library"],
     waterToys: ["Kneeboard", "Scuba Diving Gear", "Windsurf"],
     location: {
@@ -184,15 +222,27 @@ export const nassaubahamascaribbeanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only", "BBQ Onboard"],
-    description: "The Euphoria is a magnificent super yacht built by Sunreef offering exceptional amenities and impeccable service for an unforgettable sailing experience in nassau.",
-    images: ["https://paragon-trails-yacht-images.com/super/nassau-euphoria-1.jpg", "https://paragon-trails-yacht-images.com/super/nassau-euphoria-2.jpg", "https://paragon-trails-yacht-images.com/super/nassau-euphoria-3.jpg", "https://paragon-trails-yacht-images.com/super/nassau-euphoria-4.jpg"],
+    description:
+      "The Euphoria is a magnificent super yacht built by Sunreef offering exceptional amenities and impeccable service for an unforgettable sailing experience in nassau.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/nassau-euphoria-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/nassau-euphoria-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/nassau-euphoria-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/nassau-euphoria-4.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 58234,
       perWeek: 346492.3,
       currency: "BSD",
       includes: ["Swim Platform", "Outdoor Shower", "Dining Area"],
-      excludes: ["Swim Platform", "Outdoor Shower", "Dining Area", "Bar", "Indoor Lounge"],
+      excludes: [
+        "Swim Platform",
+        "Outdoor Shower",
+        "Dining Area",
+        "Bar",
+        "Indoor Lounge",
+      ],
     },
     safetyFeatures: ["Navigation Lights", "Flares"],
     accessibilityFeatures: [],
@@ -233,8 +283,14 @@ export const nassaubahamascaribbeanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: false,
     cateringOptions: ["No Catering", "À La Carte"],
-    description: "Diamond Seas combines performance and luxury in a stunning 65m super yacht. With its professional crew of 14, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/super/nassau-diamond-seas-1.jpg", "https://paragon-trails-yacht-images.com/super/nassau-diamond-seas-2.jpg", "https://paragon-trails-yacht-images.com/super/nassau-diamond-seas-3.jpg", "https://paragon-trails-yacht-images.com/super/nassau-diamond-seas-4.jpg"],
+    description:
+      "Diamond Seas combines performance and luxury in a stunning 65m super yacht. With its professional crew of 14, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/nassau-diamond-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/nassau-diamond-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/nassau-diamond-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/nassau-diamond-seas-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 62084,
@@ -243,7 +299,12 @@ export const nassaubahamascaribbeanYachts: Yacht[] = [
       includes: ["Laundry Service"],
       excludes: ["Sun Deck"],
     },
-    safetyFeatures: ["Life Rafts", "Emergency Radio", "Fog Horn", "GPS Tracking"],
+    safetyFeatures: [
+      "Life Rafts",
+      "Emergency Radio",
+      "Fog Horn",
+      "GPS Tracking",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -282,8 +343,14 @@ export const nassaubahamascaribbeanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Full-Service Catering"],
-    description: "Aegean Beauty combines performance and luxury in a stunning 18m sailing yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/nassau-aegean-beauty-1.jpg", "https://paragon-trails-yacht-images.com/sailing/nassau-aegean-beauty-2.jpg", "https://paragon-trails-yacht-images.com/sailing/nassau-aegean-beauty-3.jpg", "https://paragon-trails-yacht-images.com/sailing/nassau-aegean-beauty-4.jpg"],
+    description:
+      "Aegean Beauty combines performance and luxury in a stunning 18m sailing yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/nassau-aegean-beauty-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/nassau-aegean-beauty-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/nassau-aegean-beauty-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/nassau-aegean-beauty-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8572,
@@ -331,17 +398,35 @@ export const nassaubahamascaribbeanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Picnic-Style", "No Catering"],
-    description: "Discover the beauty of nassau's waters aboard the elegant Silver Horizon, a 2011 sailing yacht featuring spacious accommodation for 5 guests overnight or 7 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/nassau-silver-horizon-1.jpg", "https://paragon-trails-yacht-images.com/sailing/nassau-silver-horizon-2.jpg", "https://paragon-trails-yacht-images.com/sailing/nassau-silver-horizon-3.jpg"],
+    description:
+      "Discover the beauty of nassau's waters aboard the elegant Silver Horizon, a 2011 sailing yacht featuring spacious accommodation for 5 guests overnight or 7 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/nassau-silver-horizon-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/nassau-silver-horizon-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/nassau-silver-horizon-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5005,
       perWeek: 29779.75,
       currency: "BSD",
       includes: ["Jacuzzi"],
-      excludes: ["Jacuzzi", "Sauna", "Indoor Lounge", "Hot Tub", "Bar", "Wi-Fi"],
+      excludes: [
+        "Jacuzzi",
+        "Sauna",
+        "Indoor Lounge",
+        "Hot Tub",
+        "Bar",
+        "Wi-Fi",
+      ],
     },
-    safetyFeatures: ["Life Rafts", "Navigation Lights", "Emergency Radio", "EPIRB", "Emergency Beacon"],
+    safetyFeatures: [
+      "Life Rafts",
+      "Navigation Lights",
+      "Emergency Radio",
+      "EPIRB",
+      "Emergency Beacon",
+    ],
     accessibilityFeatures: [],
-  }
+  },
 ];

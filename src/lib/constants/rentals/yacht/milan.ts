@@ -24,7 +24,14 @@ export const milanitalymediterraneanYachts: Yacht[] = [
       crew: 1,
       bathrooms: 3,
     },
-    amenities: ["Jacuzzi", "Indoor Lounge", "BBQ Grill", "Stabilizers", "Bar", "Laundry Service"],
+    amenities: [
+      "Jacuzzi",
+      "Indoor Lounge",
+      "BBQ Grill",
+      "Stabilizers",
+      "Bar",
+      "Laundry Service",
+    ],
     entertainment: ["Board Games"],
     waterToys: ["Fishing Equipment", "Scuba Diving Gear"],
     location: {
@@ -37,17 +44,36 @@ export const milanitalymediterraneanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: false,
     cateringOptions: ["Chef Onboard"],
-    description: "Serenity Now combines performance and luxury in a stunning 25m sailing yacht. With its professional crew of 1, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/milan-serenity-now-1.jpg", "https://paragon-trails-yacht-images.com/sailing/milan-serenity-now-2.jpg", "https://paragon-trails-yacht-images.com/sailing/milan-serenity-now-3.jpg", "https://paragon-trails-yacht-images.com/sailing/milan-serenity-now-4.jpg"],
+    description:
+      "Serenity Now combines performance and luxury in a stunning 25m sailing yacht. With its professional crew of 1, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/milan-serenity-now-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/milan-serenity-now-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/milan-serenity-now-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/milan-serenity-now-4.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 5592,
       perWeek: 33272.4,
       currency: "EUR",
       includes: ["Jacuzzi", "Indoor Lounge", "BBQ Grill"],
-      excludes: ["Jacuzzi", "Indoor Lounge", "BBQ Grill", "Stabilizers", "Bar", "Laundry Service"],
+      excludes: [
+        "Jacuzzi",
+        "Indoor Lounge",
+        "BBQ Grill",
+        "Stabilizers",
+        "Bar",
+        "Laundry Service",
+      ],
     },
-    safetyFeatures: ["Fog Horn", "Fire Extinguishers", "Navigation Lights", "EPIRB", "Radar"],
+    safetyFeatures: [
+      "Fog Horn",
+      "Fire Extinguishers",
+      "Navigation Lights",
+      "EPIRB",
+      "Radar",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -73,8 +99,20 @@ export const milanitalymediterraneanYachts: Yacht[] = [
       crew: 3,
       bathrooms: 5,
     },
-    amenities: ["Laundry Service", "Kitchen", "Air Conditioning", "Sun Deck", "Tender Garage", "Hot Tub", "BBQ Grill"],
-    entertainment: ["Surround Sound System", "Streaming Services", "Onboard Cinema"],
+    amenities: [
+      "Laundry Service",
+      "Kitchen",
+      "Air Conditioning",
+      "Sun Deck",
+      "Tender Garage",
+      "Hot Tub",
+      "BBQ Grill",
+    ],
+    entertainment: [
+      "Surround Sound System",
+      "Streaming Services",
+      "Onboard Cinema",
+    ],
     waterToys: ["Inflatable Slide", "Fishing Equipment"],
     location: {
       city: "Milan",
@@ -86,8 +124,15 @@ export const milanitalymediterraneanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only"],
-    description: "The Coastal Serenity is a magnificent motor yacht built by Pershing offering exceptional amenities and impeccable service for an unforgettable sailing experience in milan.",
-    images: ["https://paragon-trails-yacht-images.com/motor/milan-coastal-serenity-1.jpg", "https://paragon-trails-yacht-images.com/motor/milan-coastal-serenity-2.jpg", "https://paragon-trails-yacht-images.com/motor/milan-coastal-serenity-3.jpg", "https://paragon-trails-yacht-images.com/motor/milan-coastal-serenity-4.jpg", "https://paragon-trails-yacht-images.com/motor/milan-coastal-serenity-5.jpg"],
+    description:
+      "The Coastal Serenity is a magnificent motor yacht built by Pershing offering exceptional amenities and impeccable service for an unforgettable sailing experience in milan.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/milan-coastal-serenity-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/milan-coastal-serenity-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/milan-coastal-serenity-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/milan-coastal-serenity-4.jpg",
+      "https://paragon-trails-yacht-images.com/motor/milan-coastal-serenity-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 14230,
@@ -124,7 +169,13 @@ export const milanitalymediterraneanYachts: Yacht[] = [
     },
     amenities: ["Heated Deck", "Kitchen", "Outdoor Shower"],
     entertainment: ["Media Library", "Board Games"],
-    waterToys: ["Seabob", "Fishing Equipment", "Inflatable Slide", "E-Foil", "Jet Ski"],
+    waterToys: [
+      "Seabob",
+      "Fishing Equipment",
+      "Inflatable Slide",
+      "E-Foil",
+      "Jet Ski",
+    ],
     location: {
       city: "Milan",
       country: "Italy",
@@ -135,8 +186,13 @@ export const milanitalymediterraneanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages"],
-    description: "Charter the impressive Sea Symphony in milan and enjoy its 3 luxury amenities and 5 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/milan-sea-symphony-1.jpg", "https://paragon-trails-yacht-images.com/sailing/milan-sea-symphony-2.jpg", "https://paragon-trails-yacht-images.com/sailing/milan-sea-symphony-3.jpg"],
+    description:
+      "Charter the impressive Sea Symphony in milan and enjoy its 3 luxury amenities and 5 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/milan-sea-symphony-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/milan-sea-symphony-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/milan-sea-symphony-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 9623,
@@ -184,8 +240,15 @@ export const milanitalymediterraneanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages"],
-    description: "Charter the impressive Ocean Majesty in milan and enjoy its 5 luxury amenities and 5 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/mega/milan-ocean-majesty-1.jpg", "https://paragon-trails-yacht-images.com/mega/milan-ocean-majesty-2.jpg", "https://paragon-trails-yacht-images.com/mega/milan-ocean-majesty-3.jpg", "https://paragon-trails-yacht-images.com/mega/milan-ocean-majesty-4.jpg", "https://paragon-trails-yacht-images.com/mega/milan-ocean-majesty-5.jpg"],
+    description:
+      "Charter the impressive Ocean Majesty in milan and enjoy its 5 luxury amenities and 5 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/milan-ocean-majesty-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/milan-ocean-majesty-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/milan-ocean-majesty-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/milan-ocean-majesty-4.jpg",
+      "https://paragon-trails-yacht-images.com/mega/milan-ocean-majesty-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 45022,
@@ -196,5 +259,5 @@ export const milanitalymediterraneanYachts: Yacht[] = [
     },
     safetyFeatures: ["Searchlight", "Fire Extinguishers", "Life Rafts"],
     accessibilityFeatures: [],
-  }
+  },
 ];

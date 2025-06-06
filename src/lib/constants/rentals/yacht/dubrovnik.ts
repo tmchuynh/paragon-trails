@@ -24,7 +24,15 @@ export const dubrovnikcroatiamediterraneanYachts: Yacht[] = [
       crew: 2,
       bathrooms: 5,
     },
-    amenities: ["Laundry Service", "Kitchen", "BBQ Grill", "Stabilizers", "Tender Garage", "Air Conditioning", "Jacuzzi"],
+    amenities: [
+      "Laundry Service",
+      "Kitchen",
+      "BBQ Grill",
+      "Stabilizers",
+      "Tender Garage",
+      "Air Conditioning",
+      "Jacuzzi",
+    ],
     entertainment: ["DJ Equipment", "Game Console"],
     waterToys: ["Floating Island", "Water Skis", "E-Foil", "Paddleboards"],
     location: {
@@ -37,8 +45,13 @@ export const dubrovnikcroatiamediterraneanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only", "À La Carte"],
-    description: "Oceanis combines performance and luxury in a stunning 19m catamaran yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/dubrovnik-oceanis-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/dubrovnik-oceanis-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/dubrovnik-oceanis-3.jpg"],
+    description:
+      "Oceanis combines performance and luxury in a stunning 19m catamaran yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/dubrovnik-oceanis-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/dubrovnik-oceanis-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/dubrovnik-oceanis-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 9650,
@@ -47,7 +60,12 @@ export const dubrovnikcroatiamediterraneanYachts: Yacht[] = [
       includes: ["Laundry Service"],
       excludes: ["Jacuzzi"],
     },
-    safetyFeatures: ["Emergency Beacon", "Searchlight", "Emergency Steering", "Radar"],
+    safetyFeatures: [
+      "Emergency Beacon",
+      "Searchlight",
+      "Emergency Steering",
+      "Radar",
+    ],
     accessibilityFeatures: ["Accessible Bathroom"],
   },
   {
@@ -86,8 +104,13 @@ export const dubrovnikcroatiamediterraneanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Self-Catering"],
-    description: "The Mediterranean Gem is a magnificent super yacht built by Feadship offering exceptional amenities and impeccable service for an unforgettable sailing experience in dubrovnik.",
-    images: ["https://paragon-trails-yacht-images.com/super/dubrovnik-mediterranean-gem-1.jpg", "https://paragon-trails-yacht-images.com/super/dubrovnik-mediterranean-gem-2.jpg", "https://paragon-trails-yacht-images.com/super/dubrovnik-mediterranean-gem-3.jpg"],
+    description:
+      "The Mediterranean Gem is a magnificent super yacht built by Feadship offering exceptional amenities and impeccable service for an unforgettable sailing experience in dubrovnik.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/dubrovnik-mediterranean-gem-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/dubrovnik-mediterranean-gem-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/dubrovnik-mediterranean-gem-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 111361,
@@ -96,7 +119,12 @@ export const dubrovnikcroatiamediterraneanYachts: Yacht[] = [
       includes: ["Sauna", "Laundry Service"],
       excludes: ["Dining Area"],
     },
-    safetyFeatures: ["GPS Tracking", "Searchlight", "Fire Extinguishers", "Fog Horn"],
+    safetyFeatures: [
+      "GPS Tracking",
+      "Searchlight",
+      "Fire Extinguishers",
+      "Fog Horn",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -135,8 +163,14 @@ export const dubrovnikcroatiamediterraneanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: false,
     cateringOptions: ["All-Inclusive", "BBQ Onboard"],
-    description: "Cobalt Waters combines performance and luxury in a stunning 99m super yacht. With its professional crew of 12, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/super/dubrovnik-cobalt-waters-1.jpg", "https://paragon-trails-yacht-images.com/super/dubrovnik-cobalt-waters-2.jpg", "https://paragon-trails-yacht-images.com/super/dubrovnik-cobalt-waters-3.jpg", "https://paragon-trails-yacht-images.com/super/dubrovnik-cobalt-waters-4.jpg"],
+    description:
+      "Cobalt Waters combines performance and luxury in a stunning 99m super yacht. With its professional crew of 12, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/dubrovnik-cobalt-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/dubrovnik-cobalt-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/dubrovnik-cobalt-waters-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/dubrovnik-cobalt-waters-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 173138,
@@ -147,5 +181,5 @@ export const dubrovnikcroatiamediterraneanYachts: Yacht[] = [
     },
     safetyFeatures: ["First Aid Kit", "Emergency Beacon", "Life Rafts"],
     accessibilityFeatures: [],
-  }
+  },
 ];

@@ -37,8 +37,14 @@ export const dubaiunitedArabEmiratesmiddleEastYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard", "Provisioning Only"],
-    description: "Discover the beauty of dubai's waters aboard the elegant Atlantic Breeze, a 2008 sailing yacht featuring spacious accommodation for 5 guests overnight or 9 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/dubai-atlantic-breeze-1.jpg", "https://paragon-trails-yacht-images.com/sailing/dubai-atlantic-breeze-2.jpg", "https://paragon-trails-yacht-images.com/sailing/dubai-atlantic-breeze-3.jpg", "https://paragon-trails-yacht-images.com/sailing/dubai-atlantic-breeze-4.jpg"],
+    description:
+      "Discover the beauty of dubai's waters aboard the elegant Atlantic Breeze, a 2008 sailing yacht featuring spacious accommodation for 5 guests overnight or 9 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/dubai-atlantic-breeze-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/dubai-atlantic-breeze-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/dubai-atlantic-breeze-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/dubai-atlantic-breeze-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7902,
@@ -73,7 +79,14 @@ export const dubaiunitedArabEmiratesmiddleEastYachts: Yacht[] = [
       crew: 6,
       bathrooms: 6,
     },
-    amenities: ["Kitchen", "Hot Tub", "Air Conditioning", "Bar", "Tender Garage", "Sun Deck"],
+    amenities: [
+      "Kitchen",
+      "Hot Tub",
+      "Air Conditioning",
+      "Bar",
+      "Tender Garage",
+      "Sun Deck",
+    ],
     entertainment: ["Bluetooth Speakers", "Karaoke System"],
     waterToys: ["Towable Tubes", "Scuba Diving Gear", "Jet Ski", "Water Skis"],
     location: {
@@ -86,8 +99,15 @@ export const dubaiunitedArabEmiratesmiddleEastYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["No Catering"],
-    description: "Experience luxury and comfort aboard the Crystal Blue, a stunning 42m mega yacht available for charter in dubai. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/mega/dubai-crystal-blue-1.jpg", "https://paragon-trails-yacht-images.com/mega/dubai-crystal-blue-2.jpg", "https://paragon-trails-yacht-images.com/mega/dubai-crystal-blue-3.jpg", "https://paragon-trails-yacht-images.com/mega/dubai-crystal-blue-4.jpg", "https://paragon-trails-yacht-images.com/mega/dubai-crystal-blue-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Crystal Blue, a stunning 42m mega yacht available for charter in dubai. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/dubai-crystal-blue-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/dubai-crystal-blue-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/dubai-crystal-blue-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/dubai-crystal-blue-4.jpg",
+      "https://paragon-trails-yacht-images.com/mega/dubai-crystal-blue-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 23352,
@@ -135,8 +155,15 @@ export const dubaiunitedArabEmiratesmiddleEastYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages"],
-    description: "Oceanis combines performance and luxury in a stunning 13m catamaran yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/dubai-oceanis-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/dubai-oceanis-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/dubai-oceanis-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/dubai-oceanis-4.jpg", "https://paragon-trails-yacht-images.com/catamaran/dubai-oceanis-5.jpg"],
+    description:
+      "Oceanis combines performance and luxury in a stunning 13m catamaran yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/dubai-oceanis-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/dubai-oceanis-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/dubai-oceanis-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/dubai-oceanis-4.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/dubai-oceanis-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 4778,
@@ -147,5 +174,5 @@ export const dubaiunitedArabEmiratesmiddleEastYachts: Yacht[] = [
     },
     safetyFeatures: ["First Aid Kit", "Life Jackets", "EPIRB"],
     accessibilityFeatures: [],
-  }
+  },
 ];

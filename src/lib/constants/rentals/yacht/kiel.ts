@@ -37,8 +37,15 @@ export const kielgermanynorthernEuropeYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["À La Carte", "Provisioning Only"],
-    description: "The Emerald Waters is a magnificent sailing yacht built by Oceanco offering exceptional amenities and impeccable service for an unforgettable sailing experience in kiel.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/kiel-emerald-waters-1.jpg", "https://paragon-trails-yacht-images.com/sailing/kiel-emerald-waters-2.jpg", "https://paragon-trails-yacht-images.com/sailing/kiel-emerald-waters-3.jpg", "https://paragon-trails-yacht-images.com/sailing/kiel-emerald-waters-4.jpg", "https://paragon-trails-yacht-images.com/sailing/kiel-emerald-waters-5.jpg"],
+    description:
+      "The Emerald Waters is a magnificent sailing yacht built by Oceanco offering exceptional amenities and impeccable service for an unforgettable sailing experience in kiel.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/kiel-emerald-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/kiel-emerald-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/kiel-emerald-waters-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/kiel-emerald-waters-4.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/kiel-emerald-waters-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5733,
@@ -47,7 +54,13 @@ export const kielgermanynorthernEuropeYachts: Yacht[] = [
       includes: ["Outdoor Shower"],
       excludes: ["Outdoor Shower", "Air Conditioning"],
     },
-    safetyFeatures: ["Navigation Lights", "Life Jackets", "EPIRB", "Radar", "First Aid Kit"],
+    safetyFeatures: [
+      "Navigation Lights",
+      "Life Jackets",
+      "EPIRB",
+      "Radar",
+      "First Aid Kit",
+    ],
     accessibilityFeatures: ["Easy Boarding"],
   },
   {
@@ -86,8 +99,15 @@ export const kielgermanynorthernEuropeYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only"],
-    description: "Experience luxury and comfort aboard the Poseidon's Pride, a stunning 45m mega yacht available for charter in kiel. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/mega/kiel-poseidon's-pride-1.jpg", "https://paragon-trails-yacht-images.com/mega/kiel-poseidon's-pride-2.jpg", "https://paragon-trails-yacht-images.com/mega/kiel-poseidon's-pride-3.jpg", "https://paragon-trails-yacht-images.com/mega/kiel-poseidon's-pride-4.jpg", "https://paragon-trails-yacht-images.com/mega/kiel-poseidon's-pride-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Poseidon's Pride, a stunning 45m mega yacht available for charter in kiel. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/kiel-poseidon's-pride-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/kiel-poseidon's-pride-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/kiel-poseidon's-pride-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/kiel-poseidon's-pride-4.jpg",
+      "https://paragon-trails-yacht-images.com/mega/kiel-poseidon's-pride-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 46567,
@@ -124,7 +144,13 @@ export const kielgermanynorthernEuropeYachts: Yacht[] = [
     },
     amenities: ["Bar", "Heated Deck", "Wi-Fi"],
     entertainment: ["Board Games"],
-    waterToys: ["Floating Island", "Snorkeling Gear", "Kneeboard", "Scuba Diving Gear", "E-Foil"],
+    waterToys: [
+      "Floating Island",
+      "Snorkeling Gear",
+      "Kneeboard",
+      "Scuba Diving Gear",
+      "E-Foil",
+    ],
     location: {
       city: "Kiel",
       country: "Germany",
@@ -135,8 +161,13 @@ export const kielgermanynorthernEuropeYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only"],
-    description: "Baltic Star combines performance and luxury in a stunning 32m motor yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/motor/kiel-baltic-star-1.jpg", "https://paragon-trails-yacht-images.com/motor/kiel-baltic-star-2.jpg", "https://paragon-trails-yacht-images.com/motor/kiel-baltic-star-3.jpg"],
+    description:
+      "Baltic Star combines performance and luxury in a stunning 32m motor yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/kiel-baltic-star-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/kiel-baltic-star-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/kiel-baltic-star-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 14488,
@@ -184,8 +215,15 @@ export const kielgermanynorthernEuropeYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["À La Carte", "Breakfast Only"],
-    description: "Charter the impressive Emerald Waters in kiel and enjoy its 4 luxury amenities and 2 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/kiel-emerald-waters-1.jpg", "https://paragon-trails-yacht-images.com/gulet/kiel-emerald-waters-2.jpg", "https://paragon-trails-yacht-images.com/gulet/kiel-emerald-waters-3.jpg", "https://paragon-trails-yacht-images.com/gulet/kiel-emerald-waters-4.jpg", "https://paragon-trails-yacht-images.com/gulet/kiel-emerald-waters-5.jpg"],
+    description:
+      "Charter the impressive Emerald Waters in kiel and enjoy its 4 luxury amenities and 2 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/kiel-emerald-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/kiel-emerald-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/kiel-emerald-waters-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/kiel-emerald-waters-4.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/kiel-emerald-waters-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 3823,
@@ -194,7 +232,11 @@ export const kielgermanynorthernEuropeYachts: Yacht[] = [
       includes: ["Outdoor Shower"],
       excludes: ["Outdoor Shower", "Stabilizers", "Laundry Service", "Sauna"],
     },
-    safetyFeatures: ["Fire Extinguishers", "Emergency Steering", "Emergency Beacon"],
+    safetyFeatures: [
+      "Fire Extinguishers",
+      "Emergency Steering",
+      "Emergency Beacon",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -220,7 +262,14 @@ export const kielgermanynorthernEuropeYachts: Yacht[] = [
       crew: 1,
       bathrooms: 2,
     },
-    amenities: ["Wi-Fi", "Bar", "Tender Garage", "Indoor Lounge", "Swim Platform", "Sun Deck"],
+    amenities: [
+      "Wi-Fi",
+      "Bar",
+      "Tender Garage",
+      "Indoor Lounge",
+      "Swim Platform",
+      "Sun Deck",
+    ],
     entertainment: ["Onboard Cinema"],
     waterToys: ["Fishing Equipment", "Towable Tubes", "Kneeboard", "Wakeboard"],
     location: {
@@ -233,17 +282,29 @@ export const kielgermanynorthernEuropeYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: false,
     cateringOptions: ["Local Cuisine Packages"],
-    description: "The Sovereign Waters is a magnificent sailing yacht built by Lagoon offering exceptional amenities and impeccable service for an unforgettable sailing experience in kiel.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/kiel-sovereign-waters-1.jpg", "https://paragon-trails-yacht-images.com/sailing/kiel-sovereign-waters-2.jpg", "https://paragon-trails-yacht-images.com/sailing/kiel-sovereign-waters-3.jpg"],
+    description:
+      "The Sovereign Waters is a magnificent sailing yacht built by Lagoon offering exceptional amenities and impeccable service for an unforgettable sailing experience in kiel.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/kiel-sovereign-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/kiel-sovereign-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/kiel-sovereign-waters-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 3246,
       perWeek: 19313.7,
       currency: "EUR",
       includes: ["Wi-Fi"],
-      excludes: ["Wi-Fi", "Bar", "Tender Garage", "Indoor Lounge", "Swim Platform", "Sun Deck"],
+      excludes: [
+        "Wi-Fi",
+        "Bar",
+        "Tender Garage",
+        "Indoor Lounge",
+        "Swim Platform",
+        "Sun Deck",
+      ],
     },
     safetyFeatures: ["Radar", "Emergency Radio", "Emergency Beacon"],
     accessibilityFeatures: ["Low Thresholds", "Wheelchair Ramp"],
-  }
+  },
 ];

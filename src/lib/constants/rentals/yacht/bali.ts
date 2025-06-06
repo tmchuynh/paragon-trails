@@ -26,7 +26,13 @@ export const baliindonesiaasiaPacificYachts: Yacht[] = [
     },
     amenities: ["Sun Deck", "Bar", "Hot Tub", "BBQ Grill"],
     entertainment: ["Satellite TV", "Media Library"],
-    waterToys: ["Wakeboard", "Jet Ski", "Paddleboards", "Towable Tubes", "Inflatable Slide"],
+    waterToys: [
+      "Wakeboard",
+      "Jet Ski",
+      "Paddleboards",
+      "Towable Tubes",
+      "Inflatable Slide",
+    ],
     location: {
       city: "Bali",
       country: "Indonesia",
@@ -37,8 +43,15 @@ export const baliindonesiaasiaPacificYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Full-Service Catering"],
-    description: "Experience luxury and comfort aboard the Diamond Seas, a stunning 16m sailing yacht available for charter in bali. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/bali-diamond-seas-1.jpg", "https://paragon-trails-yacht-images.com/sailing/bali-diamond-seas-2.jpg", "https://paragon-trails-yacht-images.com/sailing/bali-diamond-seas-3.jpg", "https://paragon-trails-yacht-images.com/sailing/bali-diamond-seas-4.jpg", "https://paragon-trails-yacht-images.com/sailing/bali-diamond-seas-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Diamond Seas, a stunning 16m sailing yacht available for charter in bali. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/bali-diamond-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/bali-diamond-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/bali-diamond-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/bali-diamond-seas-4.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/bali-diamond-seas-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 9206,
@@ -86,8 +99,15 @@ export const baliindonesiaasiaPacificYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Full-Service Catering"],
-    description: "The Baltic Star is a magnificent motor yacht built by Oyster offering exceptional amenities and impeccable service for an unforgettable sailing experience in bali.",
-    images: ["https://paragon-trails-yacht-images.com/motor/bali-baltic-star-1.jpg", "https://paragon-trails-yacht-images.com/motor/bali-baltic-star-2.jpg", "https://paragon-trails-yacht-images.com/motor/bali-baltic-star-3.jpg", "https://paragon-trails-yacht-images.com/motor/bali-baltic-star-4.jpg", "https://paragon-trails-yacht-images.com/motor/bali-baltic-star-5.jpg"],
+    description:
+      "The Baltic Star is a magnificent motor yacht built by Oyster offering exceptional amenities and impeccable service for an unforgettable sailing experience in bali.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/bali-baltic-star-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/bali-baltic-star-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/bali-baltic-star-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/bali-baltic-star-4.jpg",
+      "https://paragon-trails-yacht-images.com/motor/bali-baltic-star-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 14732,
@@ -122,7 +142,14 @@ export const baliindonesiaasiaPacificYachts: Yacht[] = [
       crew: 2,
       bathrooms: 5,
     },
-    amenities: ["Wi-Fi", "BBQ Grill", "Hot Tub", "Heated Deck", "Outdoor Shower", "Sun Deck"],
+    amenities: [
+      "Wi-Fi",
+      "BBQ Grill",
+      "Hot Tub",
+      "Heated Deck",
+      "Outdoor Shower",
+      "Sun Deck",
+    ],
     entertainment: ["Streaming Services"],
     waterToys: ["Fishing Equipment", "Seabob"],
     location: {
@@ -135,15 +162,27 @@ export const baliindonesiaasiaPacificYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Picnic-Style", "Provisioning Only"],
-    description: "Discover the beauty of bali's waters aboard the elegant Wave Dancer, a 2019 catamaran yacht featuring spacious accommodation for 11 guests overnight or 10 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/bali-wave-dancer-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/bali-wave-dancer-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/bali-wave-dancer-3.jpg"],
+    description:
+      "Discover the beauty of bali's waters aboard the elegant Wave Dancer, a 2019 catamaran yacht featuring spacious accommodation for 11 guests overnight or 10 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/bali-wave-dancer-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/bali-wave-dancer-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/bali-wave-dancer-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6402,
       perWeek: 38091.9,
       currency: "IDR",
       includes: ["Wi-Fi"],
-      excludes: ["Wi-Fi", "BBQ Grill", "Hot Tub", "Heated Deck", "Outdoor Shower", "Sun Deck"],
+      excludes: [
+        "Wi-Fi",
+        "BBQ Grill",
+        "Hot Tub",
+        "Heated Deck",
+        "Outdoor Shower",
+        "Sun Deck",
+      ],
     },
     safetyFeatures: ["Fog Horn", "Searchlight", "Life Rafts", "GPS Tracking"],
     accessibilityFeatures: [],
@@ -171,7 +210,13 @@ export const baliindonesiaasiaPacificYachts: Yacht[] = [
       crew: 9,
       bathrooms: 6,
     },
-    amenities: ["Outdoor Shower", "Kitchen", "Sauna", "Air Conditioning", "Indoor Lounge"],
+    amenities: [
+      "Outdoor Shower",
+      "Kitchen",
+      "Sauna",
+      "Air Conditioning",
+      "Indoor Lounge",
+    ],
     entertainment: ["Bluetooth Speakers", "Media Library"],
     waterToys: ["Fishing Equipment", "Paddleboards"],
     location: {
@@ -184,8 +229,14 @@ export const baliindonesiaasiaPacificYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard"],
-    description: "Charter the impressive Infinity Seas in bali and enjoy its 7 luxury amenities and 2 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/mega/bali-infinity-seas-1.jpg", "https://paragon-trails-yacht-images.com/mega/bali-infinity-seas-2.jpg", "https://paragon-trails-yacht-images.com/mega/bali-infinity-seas-3.jpg", "https://paragon-trails-yacht-images.com/mega/bali-infinity-seas-4.jpg"],
+    description:
+      "Charter the impressive Infinity Seas in bali and enjoy its 7 luxury amenities and 2 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/bali-infinity-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/bali-infinity-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/bali-infinity-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/bali-infinity-seas-4.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 20331,
@@ -222,7 +273,13 @@ export const baliindonesiaasiaPacificYachts: Yacht[] = [
     },
     amenities: ["Heated Deck", "Bar", "Sauna", "Dining Area", "Stabilizers"],
     entertainment: ["Projector", "Satellite TV"],
-    waterToys: ["Wakeboard", "Towable Tubes", "E-Foil", "Fishing Equipment", "Scuba Diving Gear"],
+    waterToys: [
+      "Wakeboard",
+      "Towable Tubes",
+      "E-Foil",
+      "Fishing Equipment",
+      "Scuba Diving Gear",
+    ],
     location: {
       city: "Bali",
       country: "Indonesia",
@@ -233,8 +290,14 @@ export const baliindonesiaasiaPacificYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages", "Provisioning Only"],
-    description: "Discover the beauty of bali's waters aboard the elegant Indigo Seas, a 2012 catamaran yacht featuring spacious accommodation for 6 guests overnight or 8 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/bali-indigo-seas-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/bali-indigo-seas-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/bali-indigo-seas-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/bali-indigo-seas-4.jpg"],
+    description:
+      "Discover the beauty of bali's waters aboard the elegant Indigo Seas, a 2012 catamaran yacht featuring spacious accommodation for 6 guests overnight or 8 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/bali-indigo-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/bali-indigo-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/bali-indigo-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/bali-indigo-seas-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8963,
@@ -282,8 +345,14 @@ export const baliindonesiaasiaPacificYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard"],
-    description: "Charter the impressive Caribbean Pearl in bali and enjoy its 7 luxury amenities and 2 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/bali-caribbean-pearl-1.jpg", "https://paragon-trails-yacht-images.com/gulet/bali-caribbean-pearl-2.jpg", "https://paragon-trails-yacht-images.com/gulet/bali-caribbean-pearl-3.jpg", "https://paragon-trails-yacht-images.com/gulet/bali-caribbean-pearl-4.jpg"],
+    description:
+      "Charter the impressive Caribbean Pearl in bali and enjoy its 7 luxury amenities and 2 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/bali-caribbean-pearl-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/bali-caribbean-pearl-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/bali-caribbean-pearl-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/bali-caribbean-pearl-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5320,
@@ -292,7 +361,13 @@ export const baliindonesiaasiaPacificYachts: Yacht[] = [
       includes: ["BBQ Grill", "Indoor Lounge"],
       excludes: ["BBQ Grill", "Indoor Lounge", "Jacuzzi", "Laundry Service"],
     },
-    safetyFeatures: ["Flares", "Fire Extinguishers", "Fog Horn", "Searchlight", "Life Jackets"],
+    safetyFeatures: [
+      "Flares",
+      "Fire Extinguishers",
+      "Fog Horn",
+      "Searchlight",
+      "Life Jackets",
+    ],
     accessibilityFeatures: ["Handrails", "Elevator"],
   },
   {
@@ -320,7 +395,13 @@ export const baliindonesiaasiaPacificYachts: Yacht[] = [
     },
     amenities: ["Outdoor Shower", "Swim Platform", "Wi-Fi", "Indoor Lounge"],
     entertainment: ["Karaoke System", "Game Console", "Media Library"],
-    waterToys: ["Inflatable Slide", "Towable Tubes", "Floating Island", "Kayaks", "Snorkeling Gear"],
+    waterToys: [
+      "Inflatable Slide",
+      "Towable Tubes",
+      "Floating Island",
+      "Kayaks",
+      "Snorkeling Gear",
+    ],
     location: {
       city: "Bali",
       country: "Indonesia",
@@ -331,8 +412,15 @@ export const baliindonesiaasiaPacificYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard"],
-    description: "Silver Horizon combines performance and luxury in a stunning 28m motor yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/motor/bali-silver-horizon-1.jpg", "https://paragon-trails-yacht-images.com/motor/bali-silver-horizon-2.jpg", "https://paragon-trails-yacht-images.com/motor/bali-silver-horizon-3.jpg", "https://paragon-trails-yacht-images.com/motor/bali-silver-horizon-4.jpg", "https://paragon-trails-yacht-images.com/motor/bali-silver-horizon-5.jpg"],
+    description:
+      "Silver Horizon combines performance and luxury in a stunning 28m motor yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/bali-silver-horizon-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/bali-silver-horizon-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/bali-silver-horizon-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/bali-silver-horizon-4.jpg",
+      "https://paragon-trails-yacht-images.com/motor/bali-silver-horizon-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 6037,
@@ -343,5 +431,5 @@ export const baliindonesiaasiaPacificYachts: Yacht[] = [
     },
     safetyFeatures: ["Fire Extinguishers", "First Aid Kit", "Life Rafts"],
     accessibilityFeatures: ["Wheelchair Ramp", "Accessible Bathroom"],
-  }
+  },
 ];

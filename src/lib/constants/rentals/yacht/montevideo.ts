@@ -24,7 +24,14 @@ export const montevideouruguaysouthAmericaYachts: Yacht[] = [
       crew: 2,
       bathrooms: 4,
     },
-    amenities: ["Sauna", "Laundry Service", "Stabilizers", "Dining Area", "Tender Garage", "Swim Platform"],
+    amenities: [
+      "Sauna",
+      "Laundry Service",
+      "Stabilizers",
+      "Dining Area",
+      "Tender Garage",
+      "Swim Platform",
+    ],
     entertainment: ["Streaming Services", "Karaoke System"],
     waterToys: ["Kayaks", "Water Skis", "Kneeboard"],
     location: {
@@ -37,8 +44,15 @@ export const montevideouruguaysouthAmericaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["No Catering"],
-    description: "Experience luxury and comfort aboard the Royal Seas, a stunning 23m sailing yacht available for charter in montevideo. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/montevideo-royal-seas-1.jpg", "https://paragon-trails-yacht-images.com/sailing/montevideo-royal-seas-2.jpg", "https://paragon-trails-yacht-images.com/sailing/montevideo-royal-seas-3.jpg", "https://paragon-trails-yacht-images.com/sailing/montevideo-royal-seas-4.jpg", "https://paragon-trails-yacht-images.com/sailing/montevideo-royal-seas-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Royal Seas, a stunning 23m sailing yacht available for charter in montevideo. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/montevideo-royal-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/montevideo-royal-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/montevideo-royal-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/montevideo-royal-seas-4.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/montevideo-royal-seas-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5387,
@@ -47,7 +61,12 @@ export const montevideouruguaysouthAmericaYachts: Yacht[] = [
       includes: ["Sauna", "Laundry Service"],
       excludes: ["Swim Platform"],
     },
-    safetyFeatures: ["First Aid Kit", "Fog Horn", "Emergency Steering", "Searchlight"],
+    safetyFeatures: [
+      "First Aid Kit",
+      "Fog Horn",
+      "Emergency Steering",
+      "Searchlight",
+    ],
     accessibilityFeatures: ["Wheelchair Ramp"],
   },
   {
@@ -86,8 +105,13 @@ export const montevideouruguaysouthAmericaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Self-Catering"],
-    description: "Charter the impressive Pearl Harbor in montevideo and enjoy its 3 luxury amenities and 4 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/montevideo-pearl-harbor-1.jpg", "https://paragon-trails-yacht-images.com/sailing/montevideo-pearl-harbor-2.jpg", "https://paragon-trails-yacht-images.com/sailing/montevideo-pearl-harbor-3.jpg"],
+    description:
+      "Charter the impressive Pearl Harbor in montevideo and enjoy its 3 luxury amenities and 4 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/montevideo-pearl-harbor-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/montevideo-pearl-harbor-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/montevideo-pearl-harbor-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8286,
@@ -135,8 +159,13 @@ export const montevideouruguaysouthAmericaYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive"],
-    description: "Wave Dancer combines performance and luxury in a stunning 36m motor yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/motor/montevideo-wave-dancer-1.jpg", "https://paragon-trails-yacht-images.com/motor/montevideo-wave-dancer-2.jpg", "https://paragon-trails-yacht-images.com/motor/montevideo-wave-dancer-3.jpg"],
+    description:
+      "Wave Dancer combines performance and luxury in a stunning 36m motor yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/montevideo-wave-dancer-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/montevideo-wave-dancer-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/montevideo-wave-dancer-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 13707,
@@ -147,5 +176,5 @@ export const montevideouruguaysouthAmericaYachts: Yacht[] = [
     },
     safetyFeatures: ["GPS Tracking", "Flares"],
     accessibilityFeatures: ["Low Thresholds", "Accessible Bathroom"],
-  }
+  },
 ];

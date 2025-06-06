@@ -37,8 +37,15 @@ export const londonunitedKingdomnorthernEuropeYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Self-Catering", "Local Cuisine Packages"],
-    description: "Experience luxury and comfort aboard the Cobalt Waters, a stunning 69m super yacht available for charter in london. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/super/london-cobalt-waters-1.jpg", "https://paragon-trails-yacht-images.com/super/london-cobalt-waters-2.jpg", "https://paragon-trails-yacht-images.com/super/london-cobalt-waters-3.jpg", "https://paragon-trails-yacht-images.com/super/london-cobalt-waters-4.jpg", "https://paragon-trails-yacht-images.com/super/london-cobalt-waters-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Cobalt Waters, a stunning 69m super yacht available for charter in london. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/london-cobalt-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/london-cobalt-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/london-cobalt-waters-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/london-cobalt-waters-4.jpg",
+      "https://paragon-trails-yacht-images.com/super/london-cobalt-waters-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 50116,
@@ -73,7 +80,14 @@ export const londonunitedKingdomnorthernEuropeYachts: Yacht[] = [
       crew: 19,
       bathrooms: 12,
     },
-    amenities: ["Kitchen", "Sauna", "Tender Garage", "Stabilizers", "Heated Deck", "Jacuzzi"],
+    amenities: [
+      "Kitchen",
+      "Sauna",
+      "Tender Garage",
+      "Stabilizers",
+      "Heated Deck",
+      "Jacuzzi",
+    ],
     entertainment: ["Game Console", "Streaming Services"],
     waterToys: ["Wakeboard", "Kneeboard", "E-Foil", "Windsurf"],
     location: {
@@ -86,15 +100,29 @@ export const londonunitedKingdomnorthernEuropeYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["BBQ Onboard"],
-    description: "Discover the beauty of london's waters aboard the elegant Ruby Tides, a 2001 super yacht featuring spacious accommodation for 14 guests overnight or 25 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/super/london-ruby-tides-1.jpg", "https://paragon-trails-yacht-images.com/super/london-ruby-tides-2.jpg", "https://paragon-trails-yacht-images.com/super/london-ruby-tides-3.jpg", "https://paragon-trails-yacht-images.com/super/london-ruby-tides-4.jpg", "https://paragon-trails-yacht-images.com/super/london-ruby-tides-5.jpg"],
+    description:
+      "Discover the beauty of london's waters aboard the elegant Ruby Tides, a 2001 super yacht featuring spacious accommodation for 14 guests overnight or 25 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/london-ruby-tides-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/london-ruby-tides-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/london-ruby-tides-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/london-ruby-tides-4.jpg",
+      "https://paragon-trails-yacht-images.com/super/london-ruby-tides-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 131523,
       perWeek: 782561.85,
       currency: "GBP",
       includes: ["Kitchen", "Sauna"],
-      excludes: ["Kitchen", "Sauna", "Tender Garage", "Stabilizers", "Heated Deck", "Jacuzzi"],
+      excludes: [
+        "Kitchen",
+        "Sauna",
+        "Tender Garage",
+        "Stabilizers",
+        "Heated Deck",
+        "Jacuzzi",
+      ],
     },
     safetyFeatures: ["Life Jackets", "Fire Extinguishers", "Radar", "Flares"],
     accessibilityFeatures: ["Handrails", "Wheelchair Ramp"],
@@ -122,7 +150,13 @@ export const londonunitedKingdomnorthernEuropeYachts: Yacht[] = [
       crew: 8,
       bathrooms: 7,
     },
-    amenities: ["Jacuzzi", "BBQ Grill", "Air Conditioning", "Heated Deck", "Tender Garage"],
+    amenities: [
+      "Jacuzzi",
+      "BBQ Grill",
+      "Air Conditioning",
+      "Heated Deck",
+      "Tender Garage",
+    ],
     entertainment: ["Surround Sound System"],
     waterToys: ["Paddleboards", "Jet Ski", "Windsurf"],
     location: {
@@ -135,8 +169,14 @@ export const londonunitedKingdomnorthernEuropeYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: false,
     cateringOptions: ["À La Carte"],
-    description: "Endless Horizons combines performance and luxury in a stunning 51m mega yacht. With its professional crew of 8, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/mega/london-endless-horizons-1.jpg", "https://paragon-trails-yacht-images.com/mega/london-endless-horizons-2.jpg", "https://paragon-trails-yacht-images.com/mega/london-endless-horizons-3.jpg", "https://paragon-trails-yacht-images.com/mega/london-endless-horizons-4.jpg"],
+    description:
+      "Endless Horizons combines performance and luxury in a stunning 51m mega yacht. With its professional crew of 8, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/london-endless-horizons-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/london-endless-horizons-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/london-endless-horizons-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/london-endless-horizons-4.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 46689,
@@ -184,8 +224,15 @@ export const londonunitedKingdomnorthernEuropeYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Picnic-Style"],
-    description: "Discover the beauty of london's waters aboard the elegant Ocean Majesty, a 2002 sailing yacht featuring spacious accommodation for 5 guests overnight or 10 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/london-ocean-majesty-1.jpg", "https://paragon-trails-yacht-images.com/sailing/london-ocean-majesty-2.jpg", "https://paragon-trails-yacht-images.com/sailing/london-ocean-majesty-3.jpg", "https://paragon-trails-yacht-images.com/sailing/london-ocean-majesty-4.jpg", "https://paragon-trails-yacht-images.com/sailing/london-ocean-majesty-5.jpg"],
+    description:
+      "Discover the beauty of london's waters aboard the elegant Ocean Majesty, a 2002 sailing yacht featuring spacious accommodation for 5 guests overnight or 10 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/london-ocean-majesty-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/london-ocean-majesty-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/london-ocean-majesty-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/london-ocean-majesty-4.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/london-ocean-majesty-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8758,
@@ -194,7 +241,13 @@ export const londonunitedKingdomnorthernEuropeYachts: Yacht[] = [
       includes: ["Sun Deck"],
       excludes: ["Sun Deck", "BBQ Grill", "Bar", "Air Conditioning"],
     },
-    safetyFeatures: ["GPS Tracking", "Flares", "Life Jackets", "Radar", "Navigation Lights"],
+    safetyFeatures: [
+      "GPS Tracking",
+      "Flares",
+      "Life Jackets",
+      "Radar",
+      "Navigation Lights",
+    ],
     accessibilityFeatures: [],
-  }
+  },
 ];

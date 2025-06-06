@@ -24,7 +24,14 @@ export const georgeTowncaymanIslandscaribbeanYachts: Yacht[] = [
       crew: 6,
       bathrooms: 7,
     },
-    amenities: ["BBQ Grill", "Hot Tub", "Indoor Lounge", "Stabilizers", "Jacuzzi", "Wi-Fi"],
+    amenities: [
+      "BBQ Grill",
+      "Hot Tub",
+      "Indoor Lounge",
+      "Stabilizers",
+      "Jacuzzi",
+      "Wi-Fi",
+    ],
     entertainment: ["Bluetooth Speakers"],
     waterToys: ["Kayaks", "Snorkeling Gear"],
     location: {
@@ -37,8 +44,13 @@ export const georgeTowncaymanIslandscaribbeanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["BBQ Onboard", "Chef Onboard"],
-    description: "Adriatic Queen combines performance and luxury in a stunning 48m mega yacht. With its professional crew of 6, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/mega/george-town-adriatic-queen-1.jpg", "https://paragon-trails-yacht-images.com/mega/george-town-adriatic-queen-2.jpg", "https://paragon-trails-yacht-images.com/mega/george-town-adriatic-queen-3.jpg"],
+    description:
+      "Adriatic Queen combines performance and luxury in a stunning 48m mega yacht. With its professional crew of 6, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/george-town-adriatic-queen-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/george-town-adriatic-queen-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/george-town-adriatic-queen-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 41113,
@@ -73,9 +85,22 @@ export const georgeTowncaymanIslandscaribbeanYachts: Yacht[] = [
       crew: 7,
       bathrooms: 6,
     },
-    amenities: ["Indoor Lounge", "Laundry Service", "Air Conditioning", "Heated Deck", "Dining Area", "Jacuzzi"],
+    amenities: [
+      "Indoor Lounge",
+      "Laundry Service",
+      "Air Conditioning",
+      "Heated Deck",
+      "Dining Area",
+      "Jacuzzi",
+    ],
     entertainment: ["Game Console", "Media Library"],
-    waterToys: ["Windsurf", "Floating Island", "Snorkeling Gear", "Paddleboards", "Towable Tubes"],
+    waterToys: [
+      "Windsurf",
+      "Floating Island",
+      "Snorkeling Gear",
+      "Paddleboards",
+      "Towable Tubes",
+    ],
     location: {
       city: "George-town",
       country: "Cayman Islands",
@@ -86,8 +111,15 @@ export const georgeTowncaymanIslandscaribbeanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["BBQ Onboard"],
-    description: "Charter the impressive Ruby Tides in george-town and enjoy its 6 luxury amenities and 5 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/mega/george-town-ruby-tides-1.jpg", "https://paragon-trails-yacht-images.com/mega/george-town-ruby-tides-2.jpg", "https://paragon-trails-yacht-images.com/mega/george-town-ruby-tides-3.jpg", "https://paragon-trails-yacht-images.com/mega/george-town-ruby-tides-4.jpg", "https://paragon-trails-yacht-images.com/mega/george-town-ruby-tides-5.jpg"],
+    description:
+      "Charter the impressive Ruby Tides in george-town and enjoy its 6 luxury amenities and 5 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/george-town-ruby-tides-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/george-town-ruby-tides-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/george-town-ruby-tides-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/george-town-ruby-tides-4.jpg",
+      "https://paragon-trails-yacht-images.com/mega/george-town-ruby-tides-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 41611,
@@ -135,8 +167,15 @@ export const georgeTowncaymanIslandscaribbeanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Full-Service Catering", "All-Inclusive"],
-    description: "Charter the impressive Crystal Blue in george-town and enjoy its 7 luxury amenities and 4 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/george-town-crystal-blue-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/george-town-crystal-blue-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/george-town-crystal-blue-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/george-town-crystal-blue-4.jpg", "https://paragon-trails-yacht-images.com/catamaran/george-town-crystal-blue-5.jpg"],
+    description:
+      "Charter the impressive Crystal Blue in george-town and enjoy its 7 luxury amenities and 4 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/george-town-crystal-blue-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/george-town-crystal-blue-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/george-town-crystal-blue-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/george-town-crystal-blue-4.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/george-town-crystal-blue-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7078,
@@ -184,8 +223,14 @@ export const georgeTowncaymanIslandscaribbeanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: false,
     cateringOptions: ["Chef Onboard", "All-Inclusive"],
-    description: "The Sovereign Waters is a magnificent sailing yacht built by Fountaine Pajot offering exceptional amenities and impeccable service for an unforgettable sailing experience in george-town.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/george-town-sovereign-waters-1.jpg", "https://paragon-trails-yacht-images.com/sailing/george-town-sovereign-waters-2.jpg", "https://paragon-trails-yacht-images.com/sailing/george-town-sovereign-waters-3.jpg", "https://paragon-trails-yacht-images.com/sailing/george-town-sovereign-waters-4.jpg"],
+    description:
+      "The Sovereign Waters is a magnificent sailing yacht built by Fountaine Pajot offering exceptional amenities and impeccable service for an unforgettable sailing experience in george-town.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/george-town-sovereign-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/george-town-sovereign-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/george-town-sovereign-waters-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/george-town-sovereign-waters-4.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 8824,
@@ -233,8 +278,15 @@ export const georgeTowncaymanIslandscaribbeanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: false,
     cateringOptions: ["Full-Service Catering", "Breakfast Only"],
-    description: "The Ocean Majesty is a magnificent mega yacht built by Oyster offering exceptional amenities and impeccable service for an unforgettable sailing experience in george-town.",
-    images: ["https://paragon-trails-yacht-images.com/mega/george-town-ocean-majesty-1.jpg", "https://paragon-trails-yacht-images.com/mega/george-town-ocean-majesty-2.jpg", "https://paragon-trails-yacht-images.com/mega/george-town-ocean-majesty-3.jpg", "https://paragon-trails-yacht-images.com/mega/george-town-ocean-majesty-4.jpg", "https://paragon-trails-yacht-images.com/mega/george-town-ocean-majesty-5.jpg"],
+    description:
+      "The Ocean Majesty is a magnificent mega yacht built by Oyster offering exceptional amenities and impeccable service for an unforgettable sailing experience in george-town.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/george-town-ocean-majesty-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/george-town-ocean-majesty-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/george-town-ocean-majesty-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/george-town-ocean-majesty-4.jpg",
+      "https://paragon-trails-yacht-images.com/mega/george-town-ocean-majesty-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 23264,
@@ -243,7 +295,13 @@ export const georgeTowncaymanIslandscaribbeanYachts: Yacht[] = [
       includes: ["Tender Garage", "Bar"],
       excludes: ["Tender Garage", "Bar", "Air Conditioning"],
     },
-    safetyFeatures: ["Flares", "Emergency Beacon", "Emergency Steering", "Life Jackets", "Life Rafts"],
+    safetyFeatures: [
+      "Flares",
+      "Emergency Beacon",
+      "Emergency Steering",
+      "Life Jackets",
+      "Life Rafts",
+    ],
     accessibilityFeatures: [],
-  }
+  },
 ];

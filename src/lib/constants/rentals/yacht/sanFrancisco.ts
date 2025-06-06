@@ -37,8 +37,15 @@ export const sanFranciscounitedStateswestCoastUsaYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard", "À La Carte"],
-    description: "Charter the impressive Luxury Waters in san-francisco and enjoy its 4 luxury amenities and 3 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/san-francisco-luxury-waters-1.jpg", "https://paragon-trails-yacht-images.com/sailing/san-francisco-luxury-waters-2.jpg", "https://paragon-trails-yacht-images.com/sailing/san-francisco-luxury-waters-3.jpg", "https://paragon-trails-yacht-images.com/sailing/san-francisco-luxury-waters-4.jpg", "https://paragon-trails-yacht-images.com/sailing/san-francisco-luxury-waters-5.jpg"],
+    description:
+      "Charter the impressive Luxury Waters in san-francisco and enjoy its 4 luxury amenities and 3 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/san-francisco-luxury-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/san-francisco-luxury-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/san-francisco-luxury-waters-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/san-francisco-luxury-waters-4.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/san-francisco-luxury-waters-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 9427,
@@ -47,7 +54,12 @@ export const sanFranciscounitedStateswestCoastUsaYachts: Yacht[] = [
       includes: ["Sauna", "Tender Garage", "Swim Platform"],
       excludes: ["Sun Deck"],
     },
-    safetyFeatures: ["Navigation Lights", "Life Rafts", "Emergency Radio", "GPS Tracking"],
+    safetyFeatures: [
+      "Navigation Lights",
+      "Life Rafts",
+      "Emergency Radio",
+      "GPS Tracking",
+    ],
     accessibilityFeatures: ["Wide Doorways", "Accessible Cabin"],
   },
   {
@@ -86,8 +98,15 @@ export const sanFranciscounitedStateswestCoastUsaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["BBQ Onboard", "À La Carte"],
-    description: "Azure Blue combines performance and luxury in a stunning 25m sailing yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/san-francisco-azure-blue-1.jpg", "https://paragon-trails-yacht-images.com/sailing/san-francisco-azure-blue-2.jpg", "https://paragon-trails-yacht-images.com/sailing/san-francisco-azure-blue-3.jpg", "https://paragon-trails-yacht-images.com/sailing/san-francisco-azure-blue-4.jpg", "https://paragon-trails-yacht-images.com/sailing/san-francisco-azure-blue-5.jpg"],
+    description:
+      "Azure Blue combines performance and luxury in a stunning 25m sailing yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/san-francisco-azure-blue-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/san-francisco-azure-blue-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/san-francisco-azure-blue-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/san-francisco-azure-blue-4.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/san-francisco-azure-blue-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5154,
@@ -96,7 +115,12 @@ export const sanFranciscounitedStateswestCoastUsaYachts: Yacht[] = [
       includes: ["Swim Platform"],
       excludes: ["Dining Area"],
     },
-    safetyFeatures: ["Emergency Radio", "Navigation Lights", "Radar", "GPS Tracking"],
+    safetyFeatures: [
+      "Emergency Radio",
+      "Navigation Lights",
+      "Radar",
+      "GPS Tracking",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -124,7 +148,13 @@ export const sanFranciscounitedStateswestCoastUsaYachts: Yacht[] = [
     },
     amenities: ["Sun Deck", "BBQ Grill", "Jacuzzi"],
     entertainment: ["Board Games", "Onboard Cinema"],
-    waterToys: ["Fishing Equipment", "Seabob", "Jet Ski", "Inflatable Slide", "Windsurf"],
+    waterToys: [
+      "Fishing Equipment",
+      "Seabob",
+      "Jet Ski",
+      "Inflatable Slide",
+      "Windsurf",
+    ],
     location: {
       city: "San-francisco",
       country: "United States",
@@ -135,8 +165,14 @@ export const sanFranciscounitedStateswestCoastUsaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["No Catering", "BBQ Onboard"],
-    description: "Discover the beauty of san-francisco's waters aboard the elegant Serenity Now, a 2015 catamaran yacht featuring spacious accommodation for 8 guests overnight or 9 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/san-francisco-serenity-now-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/san-francisco-serenity-now-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/san-francisco-serenity-now-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/san-francisco-serenity-now-4.jpg"],
+    description:
+      "Discover the beauty of san-francisco's waters aboard the elegant Serenity Now, a 2015 catamaran yacht featuring spacious accommodation for 8 guests overnight or 9 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/san-francisco-serenity-now-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/san-francisco-serenity-now-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/san-francisco-serenity-now-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/san-francisco-serenity-now-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 4722,
@@ -171,7 +207,13 @@ export const sanFranciscounitedStateswestCoastUsaYachts: Yacht[] = [
       crew: 1,
       bathrooms: 3,
     },
-    amenities: ["Heated Deck", "Laundry Service", "Stabilizers", "Sun Deck", "Air Conditioning"],
+    amenities: [
+      "Heated Deck",
+      "Laundry Service",
+      "Stabilizers",
+      "Sun Deck",
+      "Air Conditioning",
+    ],
     entertainment: ["DJ Equipment"],
     waterToys: ["Wakeboard", "Towable Tubes"],
     location: {
@@ -184,8 +226,13 @@ export const sanFranciscounitedStateswestCoastUsaYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: false,
     cateringOptions: ["All-Inclusive"],
-    description: "Discover the beauty of san-francisco's waters aboard the elegant Serenity Now, a 2001 sailing yacht featuring spacious accommodation for 7 guests overnight or 11 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/san-francisco-serenity-now-1.jpg", "https://paragon-trails-yacht-images.com/sailing/san-francisco-serenity-now-2.jpg", "https://paragon-trails-yacht-images.com/sailing/san-francisco-serenity-now-3.jpg"],
+    description:
+      "Discover the beauty of san-francisco's waters aboard the elegant Serenity Now, a 2001 sailing yacht featuring spacious accommodation for 7 guests overnight or 11 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/san-francisco-serenity-now-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/san-francisco-serenity-now-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/san-francisco-serenity-now-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5393,
@@ -196,5 +243,5 @@ export const sanFranciscounitedStateswestCoastUsaYachts: Yacht[] = [
     },
     safetyFeatures: ["Flares", "Emergency Beacon", "Life Rafts"],
     accessibilityFeatures: ["Accessible Bathroom"],
-  }
+  },
 ];

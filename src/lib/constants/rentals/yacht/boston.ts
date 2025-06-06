@@ -24,7 +24,13 @@ export const bostonunitedStateseastCoastUsaYachts: Yacht[] = [
       crew: 11,
       bathrooms: 8,
     },
-    amenities: ["Kitchen", "Sun Deck", "Air Conditioning", "Sauna", "Dining Area"],
+    amenities: [
+      "Kitchen",
+      "Sun Deck",
+      "Air Conditioning",
+      "Sauna",
+      "Dining Area",
+    ],
     entertainment: ["Bluetooth Speakers"],
     waterToys: ["Kayaks", "Paddleboards", "Water Skis"],
     location: {
@@ -37,8 +43,15 @@ export const bostonunitedStateseastCoastUsaYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive"],
-    description: "Luxury Waters combines performance and luxury in a stunning 75m super yacht. With its professional crew of 11, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/super/boston-luxury-waters-1.jpg", "https://paragon-trails-yacht-images.com/super/boston-luxury-waters-2.jpg", "https://paragon-trails-yacht-images.com/super/boston-luxury-waters-3.jpg", "https://paragon-trails-yacht-images.com/super/boston-luxury-waters-4.jpg", "https://paragon-trails-yacht-images.com/super/boston-luxury-waters-5.jpg"],
+    description:
+      "Luxury Waters combines performance and luxury in a stunning 75m super yacht. With its professional crew of 11, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/boston-luxury-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/boston-luxury-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/boston-luxury-waters-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/boston-luxury-waters-4.jpg",
+      "https://paragon-trails-yacht-images.com/super/boston-luxury-waters-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 181232,
@@ -47,7 +60,12 @@ export const bostonunitedStateseastCoastUsaYachts: Yacht[] = [
       includes: ["Kitchen", "Sun Deck", "Air Conditioning"],
       excludes: ["Dining Area"],
     },
-    safetyFeatures: ["Radar", "First Aid Kit", "Searchlight", "Navigation Lights"],
+    safetyFeatures: [
+      "Radar",
+      "First Aid Kit",
+      "Searchlight",
+      "Navigation Lights",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -86,8 +104,14 @@ export const bostonunitedStateseastCoastUsaYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Self-Catering"],
-    description: "Charter the impressive Caribbean Pearl in boston and enjoy its 5 luxury amenities and 4 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/boston-caribbean-pearl-1.jpg", "https://paragon-trails-yacht-images.com/sailing/boston-caribbean-pearl-2.jpg", "https://paragon-trails-yacht-images.com/sailing/boston-caribbean-pearl-3.jpg", "https://paragon-trails-yacht-images.com/sailing/boston-caribbean-pearl-4.jpg"],
+    description:
+      "Charter the impressive Caribbean Pearl in boston and enjoy its 5 luxury amenities and 4 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/boston-caribbean-pearl-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/boston-caribbean-pearl-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/boston-caribbean-pearl-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/boston-caribbean-pearl-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8662,
@@ -96,7 +120,12 @@ export const bostonunitedStateseastCoastUsaYachts: Yacht[] = [
       includes: ["Sun Deck"],
       excludes: ["Outdoor Shower"],
     },
-    safetyFeatures: ["Navigation Lights", "Flares", "Fog Horn", "Emergency Beacon"],
+    safetyFeatures: [
+      "Navigation Lights",
+      "Flares",
+      "Fog Horn",
+      "Emergency Beacon",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -135,8 +164,15 @@ export const bostonunitedStateseastCoastUsaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: false,
     cateringOptions: ["Chef Onboard"],
-    description: "Charter the impressive Emerald Waters in boston and enjoy its 6 luxury amenities and 3 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/boston-emerald-waters-1.jpg", "https://paragon-trails-yacht-images.com/sailing/boston-emerald-waters-2.jpg", "https://paragon-trails-yacht-images.com/sailing/boston-emerald-waters-3.jpg", "https://paragon-trails-yacht-images.com/sailing/boston-emerald-waters-4.jpg", "https://paragon-trails-yacht-images.com/sailing/boston-emerald-waters-5.jpg"],
+    description:
+      "Charter the impressive Emerald Waters in boston and enjoy its 6 luxury amenities and 3 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/boston-emerald-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/boston-emerald-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/boston-emerald-waters-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/boston-emerald-waters-4.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/boston-emerald-waters-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5957,
@@ -171,7 +207,13 @@ export const bostonunitedStateseastCoastUsaYachts: Yacht[] = [
       crew: 9,
       bathrooms: 6,
     },
-    amenities: ["Tender Garage", "Laundry Service", "Sauna", "BBQ Grill", "Kitchen"],
+    amenities: [
+      "Tender Garage",
+      "Laundry Service",
+      "Sauna",
+      "BBQ Grill",
+      "Kitchen",
+    ],
     entertainment: ["Surround Sound System", "DJ Equipment"],
     waterToys: ["Inflatable Slide", "Wakeboard", "Snorkeling Gear"],
     location: {
@@ -184,8 +226,15 @@ export const bostonunitedStateseastCoastUsaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard"],
-    description: "Poseidon's Pride combines performance and luxury in a stunning 45m mega yacht. With its professional crew of 9, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/mega/boston-poseidon's-pride-1.jpg", "https://paragon-trails-yacht-images.com/mega/boston-poseidon's-pride-2.jpg", "https://paragon-trails-yacht-images.com/mega/boston-poseidon's-pride-3.jpg", "https://paragon-trails-yacht-images.com/mega/boston-poseidon's-pride-4.jpg", "https://paragon-trails-yacht-images.com/mega/boston-poseidon's-pride-5.jpg"],
+    description:
+      "Poseidon's Pride combines performance and luxury in a stunning 45m mega yacht. With its professional crew of 9, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/boston-poseidon's-pride-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/boston-poseidon's-pride-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/boston-poseidon's-pride-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/boston-poseidon's-pride-4.jpg",
+      "https://paragon-trails-yacht-images.com/mega/boston-poseidon's-pride-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 29390,
@@ -220,9 +269,20 @@ export const bostonunitedStateseastCoastUsaYachts: Yacht[] = [
       crew: 19,
       bathrooms: 8,
     },
-    amenities: ["Heated Deck", "Swim Platform", "Dining Area", "Indoor Lounge", "Laundry Service"],
+    amenities: [
+      "Heated Deck",
+      "Swim Platform",
+      "Dining Area",
+      "Indoor Lounge",
+      "Laundry Service",
+    ],
     entertainment: ["Media Library"],
-    waterToys: ["Windsurf", "Fishing Equipment", "Scuba Diving Gear", "Inflatable Slide"],
+    waterToys: [
+      "Windsurf",
+      "Fishing Equipment",
+      "Scuba Diving Gear",
+      "Inflatable Slide",
+    ],
     location: {
       city: "Boston",
       country: "United States",
@@ -233,15 +293,27 @@ export const bostonunitedStateseastCoastUsaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only", "À La Carte"],
-    description: "Experience luxury and comfort aboard the Luxury Waters, a stunning 86m super yacht available for charter in boston. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/super/boston-luxury-waters-1.jpg", "https://paragon-trails-yacht-images.com/super/boston-luxury-waters-2.jpg", "https://paragon-trails-yacht-images.com/super/boston-luxury-waters-3.jpg", "https://paragon-trails-yacht-images.com/super/boston-luxury-waters-4.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Luxury Waters, a stunning 86m super yacht available for charter in boston. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/boston-luxury-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/boston-luxury-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/boston-luxury-waters-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/boston-luxury-waters-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 62138,
       perWeek: 369721.1,
       currency: "USD",
       includes: ["Heated Deck"],
-      excludes: ["Heated Deck", "Swim Platform", "Dining Area", "Indoor Lounge", "Laundry Service"],
+      excludes: [
+        "Heated Deck",
+        "Swim Platform",
+        "Dining Area",
+        "Indoor Lounge",
+        "Laundry Service",
+      ],
     },
     safetyFeatures: ["Flares", "Searchlight", "GPS Tracking", "Life Rafts"],
     accessibilityFeatures: ["Handrails"],
@@ -282,8 +354,15 @@ export const bostonunitedStateseastCoastUsaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["No Catering"],
-    description: "Baltic Star combines performance and luxury in a stunning 91m super yacht. With its professional crew of 19, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/super/boston-baltic-star-1.jpg", "https://paragon-trails-yacht-images.com/super/boston-baltic-star-2.jpg", "https://paragon-trails-yacht-images.com/super/boston-baltic-star-3.jpg", "https://paragon-trails-yacht-images.com/super/boston-baltic-star-4.jpg", "https://paragon-trails-yacht-images.com/super/boston-baltic-star-5.jpg"],
+    description:
+      "Baltic Star combines performance and luxury in a stunning 91m super yacht. With its professional crew of 19, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/boston-baltic-star-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/boston-baltic-star-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/boston-baltic-star-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/boston-baltic-star-4.jpg",
+      "https://paragon-trails-yacht-images.com/super/boston-baltic-star-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 99394,
@@ -318,7 +397,15 @@ export const bostonunitedStateseastCoastUsaYachts: Yacht[] = [
       crew: 1,
       bathrooms: 4,
     },
-    amenities: ["Outdoor Shower", "Stabilizers", "Dining Area", "Sun Deck", "BBQ Grill", "Laundry Service", "Hot Tub"],
+    amenities: [
+      "Outdoor Shower",
+      "Stabilizers",
+      "Dining Area",
+      "Sun Deck",
+      "BBQ Grill",
+      "Laundry Service",
+      "Hot Tub",
+    ],
     entertainment: ["Surround Sound System"],
     waterToys: ["Fishing Equipment"],
     location: {
@@ -331,17 +418,32 @@ export const bostonunitedStateseastCoastUsaYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only", "No Catering"],
-    description: "Charter the impressive Pearl Harbor in boston and enjoy its 7 luxury amenities and 2 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/boston-pearl-harbor-1.jpg", "https://paragon-trails-yacht-images.com/sailing/boston-pearl-harbor-2.jpg", "https://paragon-trails-yacht-images.com/sailing/boston-pearl-harbor-3.jpg", "https://paragon-trails-yacht-images.com/sailing/boston-pearl-harbor-4.jpg", "https://paragon-trails-yacht-images.com/sailing/boston-pearl-harbor-5.jpg"],
+    description:
+      "Charter the impressive Pearl Harbor in boston and enjoy its 7 luxury amenities and 2 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/boston-pearl-harbor-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/boston-pearl-harbor-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/boston-pearl-harbor-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/boston-pearl-harbor-4.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/boston-pearl-harbor-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7918,
       perWeek: 47112.1,
       currency: "USD",
       includes: ["Outdoor Shower", "Stabilizers"],
-      excludes: ["Outdoor Shower", "Stabilizers", "Dining Area", "Sun Deck", "BBQ Grill", "Laundry Service", "Hot Tub"],
+      excludes: [
+        "Outdoor Shower",
+        "Stabilizers",
+        "Dining Area",
+        "Sun Deck",
+        "BBQ Grill",
+        "Laundry Service",
+        "Hot Tub",
+      ],
     },
     safetyFeatures: ["EPIRB", "Fog Horn", "Navigation Lights"],
     accessibilityFeatures: ["Accessible Bathroom"],
-  }
+  },
 ];

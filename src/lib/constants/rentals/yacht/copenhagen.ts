@@ -37,8 +37,13 @@ export const copenhagendenmarknorthernEuropeYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive"],
-    description: "The Royal Wave is a magnificent mega yacht built by Wally offering exceptional amenities and impeccable service for an unforgettable sailing experience in copenhagen.",
-    images: ["https://paragon-trails-yacht-images.com/mega/copenhagen-royal-wave-1.jpg", "https://paragon-trails-yacht-images.com/mega/copenhagen-royal-wave-2.jpg", "https://paragon-trails-yacht-images.com/mega/copenhagen-royal-wave-3.jpg"],
+    description:
+      "The Royal Wave is a magnificent mega yacht built by Wally offering exceptional amenities and impeccable service for an unforgettable sailing experience in copenhagen.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/copenhagen-royal-wave-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/copenhagen-royal-wave-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/copenhagen-royal-wave-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 35173,
@@ -73,9 +78,20 @@ export const copenhagendenmarknorthernEuropeYachts: Yacht[] = [
       crew: 7,
       bathrooms: 7,
     },
-    amenities: ["Swim Platform", "Tender Garage", "Stabilizers", "Jacuzzi", "Air Conditioning"],
+    amenities: [
+      "Swim Platform",
+      "Tender Garage",
+      "Stabilizers",
+      "Jacuzzi",
+      "Air Conditioning",
+    ],
     entertainment: ["Surround Sound System", "Game Console"],
-    waterToys: ["Towable Tubes", "Scuba Diving Gear", "Snorkeling Gear", "Inflatable Slide"],
+    waterToys: [
+      "Towable Tubes",
+      "Scuba Diving Gear",
+      "Snorkeling Gear",
+      "Inflatable Slide",
+    ],
     location: {
       city: "Copenhagen",
       country: "Denmark",
@@ -86,8 +102,13 @@ export const copenhagendenmarknorthernEuropeYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["BBQ Onboard", "Local Cuisine Packages"],
-    description: "Charter the impressive Infinity Seas in copenhagen and enjoy its 5 luxury amenities and 5 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/mega/copenhagen-infinity-seas-1.jpg", "https://paragon-trails-yacht-images.com/mega/copenhagen-infinity-seas-2.jpg", "https://paragon-trails-yacht-images.com/mega/copenhagen-infinity-seas-3.jpg"],
+    description:
+      "Charter the impressive Infinity Seas in copenhagen and enjoy its 5 luxury amenities and 5 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/copenhagen-infinity-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/copenhagen-infinity-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/copenhagen-infinity-seas-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 31312,
@@ -122,9 +143,19 @@ export const copenhagendenmarknorthernEuropeYachts: Yacht[] = [
       crew: 4,
       bathrooms: 7,
     },
-    amenities: ["Outdoor Shower", "Air Conditioning", "Indoor Lounge", "Sun Deck"],
+    amenities: [
+      "Outdoor Shower",
+      "Air Conditioning",
+      "Indoor Lounge",
+      "Sun Deck",
+    ],
     entertainment: ["Bluetooth Speakers", "Onboard Cinema", "Karaoke System"],
-    waterToys: ["Floating Island", "Snorkeling Gear", "Paddleboards", "Water Skis"],
+    waterToys: [
+      "Floating Island",
+      "Snorkeling Gear",
+      "Paddleboards",
+      "Water Skis",
+    ],
     location: {
       city: "Copenhagen",
       country: "Denmark",
@@ -135,8 +166,13 @@ export const copenhagendenmarknorthernEuropeYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only", "À La Carte"],
-    description: "Discover the beauty of copenhagen's waters aboard the elegant Cobalt Waters, a 2006 gulet yacht featuring spacious accommodation for 12 guests overnight or 14 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/copenhagen-cobalt-waters-1.jpg", "https://paragon-trails-yacht-images.com/gulet/copenhagen-cobalt-waters-2.jpg", "https://paragon-trails-yacht-images.com/gulet/copenhagen-cobalt-waters-3.jpg"],
+    description:
+      "Discover the beauty of copenhagen's waters aboard the elegant Cobalt Waters, a 2006 gulet yacht featuring spacious accommodation for 12 guests overnight or 14 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/copenhagen-cobalt-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/copenhagen-cobalt-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/copenhagen-cobalt-waters-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 4754,
@@ -145,7 +181,13 @@ export const copenhagendenmarknorthernEuropeYachts: Yacht[] = [
       includes: ["Outdoor Shower", "Air Conditioning"],
       excludes: ["Sun Deck"],
     },
-    safetyFeatures: ["Searchlight", "Emergency Steering", "Emergency Radio", "Life Jackets", "Navigation Lights"],
+    safetyFeatures: [
+      "Searchlight",
+      "Emergency Steering",
+      "Emergency Radio",
+      "Life Jackets",
+      "Navigation Lights",
+    ],
     accessibilityFeatures: ["Wheelchair Ramp", "Easy Boarding"],
   },
   {
@@ -184,8 +226,14 @@ export const copenhagendenmarknorthernEuropeYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only", "All-Inclusive"],
-    description: "Experience luxury and comfort aboard the Coastal Serenity, a stunning 74m super yacht available for charter in copenhagen. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/super/copenhagen-coastal-serenity-1.jpg", "https://paragon-trails-yacht-images.com/super/copenhagen-coastal-serenity-2.jpg", "https://paragon-trails-yacht-images.com/super/copenhagen-coastal-serenity-3.jpg", "https://paragon-trails-yacht-images.com/super/copenhagen-coastal-serenity-4.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Coastal Serenity, a stunning 74m super yacht available for charter in copenhagen. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/copenhagen-coastal-serenity-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/copenhagen-coastal-serenity-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/copenhagen-coastal-serenity-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/copenhagen-coastal-serenity-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 165910,
@@ -222,7 +270,12 @@ export const copenhagendenmarknorthernEuropeYachts: Yacht[] = [
     },
     amenities: ["Dining Area", "Bar", "Sauna"],
     entertainment: ["Board Games", "Bluetooth Speakers", "Game Console"],
-    waterToys: ["Seabob", "Scuba Diving Gear", "Inflatable Slide", "Snorkeling Gear"],
+    waterToys: [
+      "Seabob",
+      "Scuba Diving Gear",
+      "Inflatable Slide",
+      "Snorkeling Gear",
+    ],
     location: {
       city: "Copenhagen",
       country: "Denmark",
@@ -233,8 +286,15 @@ export const copenhagendenmarknorthernEuropeYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["À La Carte", "Picnic-Style"],
-    description: "Experience luxury and comfort aboard the Elite Waves, a stunning 49m mega yacht available for charter in copenhagen. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/mega/copenhagen-elite-waves-1.jpg", "https://paragon-trails-yacht-images.com/mega/copenhagen-elite-waves-2.jpg", "https://paragon-trails-yacht-images.com/mega/copenhagen-elite-waves-3.jpg", "https://paragon-trails-yacht-images.com/mega/copenhagen-elite-waves-4.jpg", "https://paragon-trails-yacht-images.com/mega/copenhagen-elite-waves-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Elite Waves, a stunning 49m mega yacht available for charter in copenhagen. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/copenhagen-elite-waves-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/copenhagen-elite-waves-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/copenhagen-elite-waves-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/copenhagen-elite-waves-4.jpg",
+      "https://paragon-trails-yacht-images.com/mega/copenhagen-elite-waves-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 36652,
@@ -282,8 +342,13 @@ export const copenhagendenmarknorthernEuropeYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only"],
-    description: "The Pacific Explorer is a magnificent motor yacht built by Westport offering exceptional amenities and impeccable service for an unforgettable sailing experience in copenhagen.",
-    images: ["https://paragon-trails-yacht-images.com/motor/copenhagen-pacific-explorer-1.jpg", "https://paragon-trails-yacht-images.com/motor/copenhagen-pacific-explorer-2.jpg", "https://paragon-trails-yacht-images.com/motor/copenhagen-pacific-explorer-3.jpg"],
+    description:
+      "The Pacific Explorer is a magnificent motor yacht built by Westport offering exceptional amenities and impeccable service for an unforgettable sailing experience in copenhagen.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/copenhagen-pacific-explorer-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/copenhagen-pacific-explorer-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/copenhagen-pacific-explorer-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 9884,
@@ -294,5 +359,5 @@ export const copenhagendenmarknorthernEuropeYachts: Yacht[] = [
     },
     safetyFeatures: ["Flares", "Emergency Beacon", "Radar"],
     accessibilityFeatures: ["Wide Doorways"],
-  }
+  },
 ];

@@ -37,8 +37,13 @@ export const dublinirelandnorthernEuropeYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Picnic-Style"],
-    description: "Discover the beauty of dublin's waters aboard the elegant Infinity Seas, a 2002 motor yacht featuring spacious accommodation for 8 guests overnight or 14 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/motor/dublin-infinity-seas-1.jpg", "https://paragon-trails-yacht-images.com/motor/dublin-infinity-seas-2.jpg", "https://paragon-trails-yacht-images.com/motor/dublin-infinity-seas-3.jpg"],
+    description:
+      "Discover the beauty of dublin's waters aboard the elegant Infinity Seas, a 2002 motor yacht featuring spacious accommodation for 8 guests overnight or 14 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/dublin-infinity-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/dublin-infinity-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/dublin-infinity-seas-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 13108,
@@ -75,7 +80,12 @@ export const dublinirelandnorthernEuropeYachts: Yacht[] = [
     },
     amenities: ["Laundry Service", "BBQ Grill", "Wi-Fi", "Indoor Lounge"],
     entertainment: ["Surround Sound System", "Game Console", "Media Library"],
-    waterToys: ["Water Skis", "Inflatable Slide", "Jet Ski", "Scuba Diving Gear"],
+    waterToys: [
+      "Water Skis",
+      "Inflatable Slide",
+      "Jet Ski",
+      "Scuba Diving Gear",
+    ],
     location: {
       city: "Dublin",
       country: "Ireland",
@@ -86,8 +96,15 @@ export const dublinirelandnorthernEuropeYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["BBQ Onboard"],
-    description: "Charter the impressive Atlantic Breeze in dublin and enjoy its 4 luxury amenities and 4 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/super/dublin-atlantic-breeze-1.jpg", "https://paragon-trails-yacht-images.com/super/dublin-atlantic-breeze-2.jpg", "https://paragon-trails-yacht-images.com/super/dublin-atlantic-breeze-3.jpg", "https://paragon-trails-yacht-images.com/super/dublin-atlantic-breeze-4.jpg", "https://paragon-trails-yacht-images.com/super/dublin-atlantic-breeze-5.jpg"],
+    description:
+      "Charter the impressive Atlantic Breeze in dublin and enjoy its 4 luxury amenities and 4 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/dublin-atlantic-breeze-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/dublin-atlantic-breeze-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/dublin-atlantic-breeze-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/dublin-atlantic-breeze-4.jpg",
+      "https://paragon-trails-yacht-images.com/super/dublin-atlantic-breeze-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 127034,
@@ -96,7 +113,12 @@ export const dublinirelandnorthernEuropeYachts: Yacht[] = [
       includes: ["Laundry Service", "BBQ Grill", "Wi-Fi"],
       excludes: ["Laundry Service", "BBQ Grill", "Wi-Fi", "Indoor Lounge"],
     },
-    safetyFeatures: ["Life Rafts", "EPIRB", "Emergency Steering", "First Aid Kit"],
+    safetyFeatures: [
+      "Life Rafts",
+      "EPIRB",
+      "Emergency Steering",
+      "First Aid Kit",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -123,7 +145,11 @@ export const dublinirelandnorthernEuropeYachts: Yacht[] = [
       bathrooms: 5,
     },
     amenities: ["Kitchen", "Sun Deck", "Sauna"],
-    entertainment: ["Bluetooth Speakers", "Onboard Cinema", "Streaming Services"],
+    entertainment: [
+      "Bluetooth Speakers",
+      "Onboard Cinema",
+      "Streaming Services",
+    ],
     waterToys: ["Snorkeling Gear", "Fishing Equipment", "Floating Island"],
     location: {
       city: "Dublin",
@@ -135,8 +161,13 @@ export const dublinirelandnorthernEuropeYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["BBQ Onboard"],
-    description: "Charter the impressive Elite Waves in dublin and enjoy its 3 luxury amenities and 4 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/dublin-elite-waves-1.jpg", "https://paragon-trails-yacht-images.com/gulet/dublin-elite-waves-2.jpg", "https://paragon-trails-yacht-images.com/gulet/dublin-elite-waves-3.jpg"],
+    description:
+      "Charter the impressive Elite Waves in dublin and enjoy its 3 luxury amenities and 4 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/dublin-elite-waves-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/dublin-elite-waves-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/dublin-elite-waves-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8776,
@@ -145,7 +176,13 @@ export const dublinirelandnorthernEuropeYachts: Yacht[] = [
       includes: ["Kitchen"],
       excludes: ["Kitchen", "Sun Deck", "Sauna"],
     },
-    safetyFeatures: ["Fire Extinguishers", "Searchlight", "Emergency Radio", "Life Rafts", "Emergency Steering"],
+    safetyFeatures: [
+      "Fire Extinguishers",
+      "Searchlight",
+      "Emergency Radio",
+      "Life Rafts",
+      "Emergency Steering",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -172,7 +209,11 @@ export const dublinirelandnorthernEuropeYachts: Yacht[] = [
       bathrooms: 5,
     },
     amenities: ["BBQ Grill", "Sauna", "Bar", "Wi-Fi", "Sun Deck"],
-    entertainment: ["Surround Sound System", "Bluetooth Speakers", "DJ Equipment"],
+    entertainment: [
+      "Surround Sound System",
+      "Bluetooth Speakers",
+      "DJ Equipment",
+    ],
     waterToys: ["Paddleboards", "Fishing Equipment", "Wakeboard"],
     location: {
       city: "Dublin",
@@ -184,8 +225,13 @@ export const dublinirelandnorthernEuropeYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only"],
-    description: "Charter the impressive Emerald Waters in dublin and enjoy its 6 luxury amenities and 4 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/dublin-emerald-waters-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/dublin-emerald-waters-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/dublin-emerald-waters-3.jpg"],
+    description:
+      "Charter the impressive Emerald Waters in dublin and enjoy its 6 luxury amenities and 4 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/dublin-emerald-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/dublin-emerald-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/dublin-emerald-waters-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 7732,
@@ -196,5 +242,5 @@ export const dublinirelandnorthernEuropeYachts: Yacht[] = [
     },
     safetyFeatures: ["Radar", "Fire Extinguishers"],
     accessibilityFeatures: [],
-  }
+  },
 ];

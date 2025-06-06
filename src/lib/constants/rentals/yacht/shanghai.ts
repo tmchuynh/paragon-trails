@@ -26,7 +26,13 @@ export const shanghaichinaasiaPacificYachts: Yacht[] = [
     },
     amenities: ["Outdoor Shower", "Swim Platform"],
     entertainment: ["Streaming Services"],
-    waterToys: ["Scuba Diving Gear", "Jet Ski", "Fishing Equipment", "Water Skis", "Kayaks"],
+    waterToys: [
+      "Scuba Diving Gear",
+      "Jet Ski",
+      "Fishing Equipment",
+      "Water Skis",
+      "Kayaks",
+    ],
     location: {
       city: "Shanghai",
       country: "China",
@@ -37,8 +43,15 @@ export const shanghaichinaasiaPacificYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard"],
-    description: "Experience luxury and comfort aboard the Infinity Seas, a stunning 19m gulet yacht available for charter in shanghai. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/shanghai-infinity-seas-1.jpg", "https://paragon-trails-yacht-images.com/gulet/shanghai-infinity-seas-2.jpg", "https://paragon-trails-yacht-images.com/gulet/shanghai-infinity-seas-3.jpg", "https://paragon-trails-yacht-images.com/gulet/shanghai-infinity-seas-4.jpg", "https://paragon-trails-yacht-images.com/gulet/shanghai-infinity-seas-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Infinity Seas, a stunning 19m gulet yacht available for charter in shanghai. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/shanghai-infinity-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/shanghai-infinity-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/shanghai-infinity-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/shanghai-infinity-seas-4.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/shanghai-infinity-seas-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 8219,
@@ -86,8 +99,13 @@ export const shanghaichinaasiaPacificYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: false,
     cateringOptions: ["À La Carte", "Provisioning Only"],
-    description: "The Adriatic Splendor is a magnificent catamaran yacht built by Lagoon offering exceptional amenities and impeccable service for an unforgettable sailing experience in shanghai.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/shanghai-adriatic-splendor-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/shanghai-adriatic-splendor-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/shanghai-adriatic-splendor-3.jpg"],
+    description:
+      "The Adriatic Splendor is a magnificent catamaran yacht built by Lagoon offering exceptional amenities and impeccable service for an unforgettable sailing experience in shanghai.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/shanghai-adriatic-splendor-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/shanghai-adriatic-splendor-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/shanghai-adriatic-splendor-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6242,
@@ -96,7 +114,12 @@ export const shanghaichinaasiaPacificYachts: Yacht[] = [
       includes: ["Jacuzzi", "Outdoor Shower"],
       excludes: ["Jacuzzi", "Outdoor Shower", "Sauna", "Bar"],
     },
-    safetyFeatures: ["Life Jackets", "First Aid Kit", "Radar", "Emergency Radio"],
+    safetyFeatures: [
+      "Life Jackets",
+      "First Aid Kit",
+      "Radar",
+      "Emergency Radio",
+    ],
     accessibilityFeatures: ["Wheelchair Ramp"],
   },
   {
@@ -122,7 +145,13 @@ export const shanghaichinaasiaPacificYachts: Yacht[] = [
       crew: 2,
       bathrooms: 3,
     },
-    amenities: ["Sun Deck", "Air Conditioning", "Indoor Lounge", "Wi-Fi", "Swim Platform"],
+    amenities: [
+      "Sun Deck",
+      "Air Conditioning",
+      "Indoor Lounge",
+      "Wi-Fi",
+      "Swim Platform",
+    ],
     entertainment: ["Game Console", "Karaoke System", "Satellite TV"],
     waterToys: ["Towable Tubes", "Fishing Equipment"],
     location: {
@@ -135,8 +164,15 @@ export const shanghaichinaasiaPacificYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["No Catering"],
-    description: "Experience luxury and comfort aboard the Infinity Seas, a stunning 36m motor yacht available for charter in shanghai. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/motor/shanghai-infinity-seas-1.jpg", "https://paragon-trails-yacht-images.com/motor/shanghai-infinity-seas-2.jpg", "https://paragon-trails-yacht-images.com/motor/shanghai-infinity-seas-3.jpg", "https://paragon-trails-yacht-images.com/motor/shanghai-infinity-seas-4.jpg", "https://paragon-trails-yacht-images.com/motor/shanghai-infinity-seas-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Infinity Seas, a stunning 36m motor yacht available for charter in shanghai. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/shanghai-infinity-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/shanghai-infinity-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/shanghai-infinity-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/shanghai-infinity-seas-4.jpg",
+      "https://paragon-trails-yacht-images.com/motor/shanghai-infinity-seas-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 9763,
@@ -171,7 +207,14 @@ export const shanghaichinaasiaPacificYachts: Yacht[] = [
       crew: 2,
       bathrooms: 3,
     },
-    amenities: ["Indoor Lounge", "Dining Area", "Laundry Service", "Kitchen", "Outdoor Shower", "Sun Deck"],
+    amenities: [
+      "Indoor Lounge",
+      "Dining Area",
+      "Laundry Service",
+      "Kitchen",
+      "Outdoor Shower",
+      "Sun Deck",
+    ],
     entertainment: ["DJ Equipment", "Satellite TV"],
     waterToys: ["E-Foil", "Wakeboard", "Paddleboards"],
     location: {
@@ -184,8 +227,15 @@ export const shanghaichinaasiaPacificYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only"],
-    description: "Charter the impressive Azure Dreams in shanghai and enjoy its 7 luxury amenities and 4 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/shanghai-azure-dreams-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/shanghai-azure-dreams-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/shanghai-azure-dreams-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/shanghai-azure-dreams-4.jpg", "https://paragon-trails-yacht-images.com/catamaran/shanghai-azure-dreams-5.jpg"],
+    description:
+      "Charter the impressive Azure Dreams in shanghai and enjoy its 7 luxury amenities and 4 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/shanghai-azure-dreams-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/shanghai-azure-dreams-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/shanghai-azure-dreams-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/shanghai-azure-dreams-4.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/shanghai-azure-dreams-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 8447,
@@ -196,5 +246,5 @@ export const shanghaichinaasiaPacificYachts: Yacht[] = [
     },
     safetyFeatures: ["GPS Tracking", "Emergency Radio", "Flares"],
     accessibilityFeatures: ["Elevator"],
-  }
+  },
 ];

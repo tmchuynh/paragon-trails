@@ -37,8 +37,14 @@ export const capeTownsouthAfricaafricaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive"],
-    description: "Discover the beauty of cape-town's waters aboard the elegant Atlantic Breeze, a 2006 gulet yacht featuring spacious accommodation for 10 guests overnight or 16 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/cape-town-atlantic-breeze-1.jpg", "https://paragon-trails-yacht-images.com/gulet/cape-town-atlantic-breeze-2.jpg", "https://paragon-trails-yacht-images.com/gulet/cape-town-atlantic-breeze-3.jpg", "https://paragon-trails-yacht-images.com/gulet/cape-town-atlantic-breeze-4.jpg"],
+    description:
+      "Discover the beauty of cape-town's waters aboard the elegant Atlantic Breeze, a 2006 gulet yacht featuring spacious accommodation for 10 guests overnight or 16 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/cape-town-atlantic-breeze-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/cape-town-atlantic-breeze-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/cape-town-atlantic-breeze-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/cape-town-atlantic-breeze-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8283,
@@ -47,7 +53,12 @@ export const capeTownsouthAfricaafricaYachts: Yacht[] = [
       includes: ["Jacuzzi"],
       excludes: ["Jacuzzi", "Bar", "Sauna", "Stabilizers", "Indoor Lounge"],
     },
-    safetyFeatures: ["Searchlight", "Flares", "Emergency Radio", "GPS Tracking"],
+    safetyFeatures: [
+      "Searchlight",
+      "Flares",
+      "Emergency Radio",
+      "GPS Tracking",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -86,8 +97,14 @@ export const capeTownsouthAfricaafricaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["BBQ Onboard"],
-    description: "Experience luxury and comfort aboard the Serenity Now, a stunning 23m gulet yacht available for charter in cape-town. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/cape-town-serenity-now-1.jpg", "https://paragon-trails-yacht-images.com/gulet/cape-town-serenity-now-2.jpg", "https://paragon-trails-yacht-images.com/gulet/cape-town-serenity-now-3.jpg", "https://paragon-trails-yacht-images.com/gulet/cape-town-serenity-now-4.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Serenity Now, a stunning 23m gulet yacht available for charter in cape-town. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/cape-town-serenity-now-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/cape-town-serenity-now-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/cape-town-serenity-now-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/cape-town-serenity-now-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7801,
@@ -96,7 +113,12 @@ export const capeTownsouthAfricaafricaYachts: Yacht[] = [
       includes: ["Sun Deck"],
       excludes: ["Air Conditioning"],
     },
-    safetyFeatures: ["Flares", "Emergency Radio", "Fog Horn", "Emergency Beacon"],
+    safetyFeatures: [
+      "Flares",
+      "Emergency Radio",
+      "Fog Horn",
+      "Emergency Beacon",
+    ],
     accessibilityFeatures: ["Accessible Cabin"],
   },
   {
@@ -122,7 +144,14 @@ export const capeTownsouthAfricaafricaYachts: Yacht[] = [
       crew: 3,
       bathrooms: 5,
     },
-    amenities: ["Swim Platform", "Dining Area", "BBQ Grill", "Outdoor Shower", "Tender Garage", "Heated Deck"],
+    amenities: [
+      "Swim Platform",
+      "Dining Area",
+      "BBQ Grill",
+      "Outdoor Shower",
+      "Tender Garage",
+      "Heated Deck",
+    ],
     entertainment: ["Projector", "Onboard Cinema"],
     waterToys: ["Paddleboards", "Towable Tubes"],
     location: {
@@ -135,8 +164,15 @@ export const capeTownsouthAfricaafricaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Self-Catering"],
-    description: "Crystal Blue combines performance and luxury in a stunning 22m catamaran yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/cape-town-crystal-blue-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/cape-town-crystal-blue-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/cape-town-crystal-blue-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/cape-town-crystal-blue-4.jpg", "https://paragon-trails-yacht-images.com/catamaran/cape-town-crystal-blue-5.jpg"],
+    description:
+      "Crystal Blue combines performance and luxury in a stunning 22m catamaran yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/cape-town-crystal-blue-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/cape-town-crystal-blue-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/cape-town-crystal-blue-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/cape-town-crystal-blue-4.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/cape-town-crystal-blue-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5351,
@@ -145,7 +181,13 @@ export const capeTownsouthAfricaafricaYachts: Yacht[] = [
       includes: ["Swim Platform", "Dining Area"],
       excludes: ["Heated Deck"],
     },
-    safetyFeatures: ["GPS Tracking", "First Aid Kit", "Life Rafts", "Fog Horn", "Radar"],
+    safetyFeatures: [
+      "GPS Tracking",
+      "First Aid Kit",
+      "Life Rafts",
+      "Fog Horn",
+      "Radar",
+    ],
     accessibilityFeatures: [],
-  }
+  },
 ];

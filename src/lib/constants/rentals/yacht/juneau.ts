@@ -24,7 +24,14 @@ export const juneauunitedStatesalaskaYachts: Yacht[] = [
       crew: 3,
       bathrooms: 6,
     },
-    amenities: ["Kitchen", "Dining Area", "Bar", "Indoor Lounge", "Jacuzzi", "Air Conditioning"],
+    amenities: [
+      "Kitchen",
+      "Dining Area",
+      "Bar",
+      "Indoor Lounge",
+      "Jacuzzi",
+      "Air Conditioning",
+    ],
     entertainment: ["DJ Equipment", "Media Library"],
     waterToys: ["Kneeboard", "Jet Ski"],
     location: {
@@ -37,8 +44,15 @@ export const juneauunitedStatesalaskaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["À La Carte"],
-    description: "Discover the beauty of juneau's waters aboard the elegant Diamond Seas, a 2008 catamaran yacht featuring spacious accommodation for 8 guests overnight or 9 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/juneau-diamond-seas-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/juneau-diamond-seas-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/juneau-diamond-seas-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/juneau-diamond-seas-4.jpg", "https://paragon-trails-yacht-images.com/catamaran/juneau-diamond-seas-5.jpg"],
+    description:
+      "Discover the beauty of juneau's waters aboard the elegant Diamond Seas, a 2008 catamaran yacht featuring spacious accommodation for 8 guests overnight or 9 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/juneau-diamond-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/juneau-diamond-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/juneau-diamond-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/juneau-diamond-seas-4.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/juneau-diamond-seas-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 4028,
@@ -86,8 +100,14 @@ export const juneauunitedStatesalaskaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["No Catering"],
-    description: "The Crystal Blue is a magnificent motor yacht built by Oceanco offering exceptional amenities and impeccable service for an unforgettable sailing experience in juneau.",
-    images: ["https://paragon-trails-yacht-images.com/motor/juneau-crystal-blue-1.jpg", "https://paragon-trails-yacht-images.com/motor/juneau-crystal-blue-2.jpg", "https://paragon-trails-yacht-images.com/motor/juneau-crystal-blue-3.jpg", "https://paragon-trails-yacht-images.com/motor/juneau-crystal-blue-4.jpg"],
+    description:
+      "The Crystal Blue is a magnificent motor yacht built by Oceanco offering exceptional amenities and impeccable service for an unforgettable sailing experience in juneau.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/juneau-crystal-blue-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/juneau-crystal-blue-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/juneau-crystal-blue-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/juneau-crystal-blue-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 9641,
@@ -96,7 +116,12 @@ export const juneauunitedStatesalaskaYachts: Yacht[] = [
       includes: ["Outdoor Shower", "Jacuzzi"],
       excludes: ["Jacuzzi"],
     },
-    safetyFeatures: ["Emergency Steering", "Navigation Lights", "EPIRB", "Emergency Beacon"],
+    safetyFeatures: [
+      "Emergency Steering",
+      "Navigation Lights",
+      "EPIRB",
+      "Emergency Beacon",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -122,7 +147,13 @@ export const juneauunitedStatesalaskaYachts: Yacht[] = [
       crew: 8,
       bathrooms: 4,
     },
-    amenities: ["BBQ Grill", "Kitchen", "Laundry Service", "Stabilizers", "Bar"],
+    amenities: [
+      "BBQ Grill",
+      "Kitchen",
+      "Laundry Service",
+      "Stabilizers",
+      "Bar",
+    ],
     entertainment: ["Projector", "Board Games"],
     waterToys: ["Inflatable Slide", "Snorkeling Gear"],
     location: {
@@ -135,8 +166,13 @@ export const juneauunitedStatesalaskaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: false,
     cateringOptions: ["Picnic-Style", "BBQ Onboard"],
-    description: "The Cobalt Waters is a magnificent mega yacht built by Amels offering exceptional amenities and impeccable service for an unforgettable sailing experience in juneau.",
-    images: ["https://paragon-trails-yacht-images.com/mega/juneau-cobalt-waters-1.jpg", "https://paragon-trails-yacht-images.com/mega/juneau-cobalt-waters-2.jpg", "https://paragon-trails-yacht-images.com/mega/juneau-cobalt-waters-3.jpg"],
+    description:
+      "The Cobalt Waters is a magnificent mega yacht built by Amels offering exceptional amenities and impeccable service for an unforgettable sailing experience in juneau.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/juneau-cobalt-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/juneau-cobalt-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/juneau-cobalt-waters-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 24945,
@@ -184,8 +220,14 @@ export const juneauunitedStatesalaskaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive"],
-    description: "Charter the impressive Indigo Seas in juneau and enjoy its 4 luxury amenities and 2 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/juneau-indigo-seas-1.jpg", "https://paragon-trails-yacht-images.com/gulet/juneau-indigo-seas-2.jpg", "https://paragon-trails-yacht-images.com/gulet/juneau-indigo-seas-3.jpg", "https://paragon-trails-yacht-images.com/gulet/juneau-indigo-seas-4.jpg"],
+    description:
+      "Charter the impressive Indigo Seas in juneau and enjoy its 4 luxury amenities and 2 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/juneau-indigo-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/juneau-indigo-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/juneau-indigo-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/juneau-indigo-seas-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8677,
@@ -194,7 +236,12 @@ export const juneauunitedStatesalaskaYachts: Yacht[] = [
       includes: ["Jacuzzi", "Swim Platform"],
       excludes: ["Outdoor Shower"],
     },
-    safetyFeatures: ["EPIRB", "Emergency Steering", "Life Jackets", "Emergency Beacon"],
+    safetyFeatures: [
+      "EPIRB",
+      "Emergency Steering",
+      "Life Jackets",
+      "Emergency Beacon",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -233,8 +280,15 @@ export const juneauunitedStatesalaskaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: false,
     cateringOptions: ["Breakfast Only"],
-    description: "Discover the beauty of juneau's waters aboard the elegant Azure Blue, a 2016 gulet yacht featuring spacious accommodation for 15 guests overnight or 16 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/juneau-azure-blue-1.jpg", "https://paragon-trails-yacht-images.com/gulet/juneau-azure-blue-2.jpg", "https://paragon-trails-yacht-images.com/gulet/juneau-azure-blue-3.jpg", "https://paragon-trails-yacht-images.com/gulet/juneau-azure-blue-4.jpg", "https://paragon-trails-yacht-images.com/gulet/juneau-azure-blue-5.jpg"],
+    description:
+      "Discover the beauty of juneau's waters aboard the elegant Azure Blue, a 2016 gulet yacht featuring spacious accommodation for 15 guests overnight or 16 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/juneau-azure-blue-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/juneau-azure-blue-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/juneau-azure-blue-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/juneau-azure-blue-4.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/juneau-azure-blue-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7752,
@@ -243,7 +297,12 @@ export const juneauunitedStatesalaskaYachts: Yacht[] = [
       includes: ["Stabilizers"],
       excludes: ["Laundry Service"],
     },
-    safetyFeatures: ["Fire Extinguishers", "Emergency Steering", "First Aid Kit", "Emergency Radio"],
+    safetyFeatures: [
+      "Fire Extinguishers",
+      "Emergency Steering",
+      "First Aid Kit",
+      "Emergency Radio",
+    ],
     accessibilityFeatures: ["Elevator"],
-  }
+  },
 ];

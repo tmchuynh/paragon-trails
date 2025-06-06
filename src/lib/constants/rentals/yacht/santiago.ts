@@ -24,9 +24,20 @@ export const santiagochilesouthAmericaYachts: Yacht[] = [
       crew: 3,
       bathrooms: 8,
     },
-    amenities: ["Sauna", "Jacuzzi", "Laundry Service", "Kitchen", "Tender Garage"],
+    amenities: [
+      "Sauna",
+      "Jacuzzi",
+      "Laundry Service",
+      "Kitchen",
+      "Tender Garage",
+    ],
     entertainment: ["DJ Equipment", "Media Library"],
-    waterToys: ["Paddleboards", "Snorkeling Gear", "Fishing Equipment", "Jet Ski"],
+    waterToys: [
+      "Paddleboards",
+      "Snorkeling Gear",
+      "Fishing Equipment",
+      "Jet Ski",
+    ],
     location: {
       city: "Santiago",
       country: "Chile",
@@ -37,8 +48,14 @@ export const santiagochilesouthAmericaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard"],
-    description: "Charter the impressive Royal Seas in santiago and enjoy its 7 luxury amenities and 4 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/santiago-royal-seas-1.jpg", "https://paragon-trails-yacht-images.com/gulet/santiago-royal-seas-2.jpg", "https://paragon-trails-yacht-images.com/gulet/santiago-royal-seas-3.jpg", "https://paragon-trails-yacht-images.com/gulet/santiago-royal-seas-4.jpg"],
+    description:
+      "Charter the impressive Royal Seas in santiago and enjoy its 7 luxury amenities and 4 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/santiago-royal-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/santiago-royal-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/santiago-royal-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/santiago-royal-seas-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7036,
@@ -47,7 +64,13 @@ export const santiagochilesouthAmericaYachts: Yacht[] = [
       includes: ["Sauna"],
       excludes: ["Tender Garage"],
     },
-    safetyFeatures: ["Searchlight", "First Aid Kit", "Radar", "Life Rafts", "Navigation Lights"],
+    safetyFeatures: [
+      "Searchlight",
+      "First Aid Kit",
+      "Radar",
+      "Life Rafts",
+      "Navigation Lights",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -86,8 +109,13 @@ export const santiagochilesouthAmericaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Full-Service Catering", "No Catering"],
-    description: "The Pacific Explorer is a magnificent catamaran yacht built by Princess offering exceptional amenities and impeccable service for an unforgettable sailing experience in santiago.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/santiago-pacific-explorer-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/santiago-pacific-explorer-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/santiago-pacific-explorer-3.jpg"],
+    description:
+      "The Pacific Explorer is a magnificent catamaran yacht built by Princess offering exceptional amenities and impeccable service for an unforgettable sailing experience in santiago.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/santiago-pacific-explorer-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/santiago-pacific-explorer-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/santiago-pacific-explorer-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7707,
@@ -96,7 +124,12 @@ export const santiagochilesouthAmericaYachts: Yacht[] = [
       includes: ["Swim Platform", "Jacuzzi", "Outdoor Shower"],
       excludes: ["Swim Platform", "Jacuzzi", "Outdoor Shower"],
     },
-    safetyFeatures: ["Emergency Radio", "Radar", "Emergency Steering", "Navigation Lights"],
+    safetyFeatures: [
+      "Emergency Radio",
+      "Radar",
+      "Emergency Steering",
+      "Navigation Lights",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -124,7 +157,13 @@ export const santiagochilesouthAmericaYachts: Yacht[] = [
     },
     amenities: ["Laundry Service", "Sun Deck"],
     entertainment: ["Game Console", "Karaoke System"],
-    waterToys: ["Snorkeling Gear", "Jet Ski", "Fishing Equipment", "Water Skis", "Floating Island"],
+    waterToys: [
+      "Snorkeling Gear",
+      "Jet Ski",
+      "Fishing Equipment",
+      "Water Skis",
+      "Floating Island",
+    ],
     location: {
       city: "Santiago",
       country: "Chile",
@@ -135,8 +174,14 @@ export const santiagochilesouthAmericaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive", "Self-Catering"],
-    description: "Infinity Seas combines performance and luxury in a stunning 23m catamaran yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/santiago-infinity-seas-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/santiago-infinity-seas-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/santiago-infinity-seas-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/santiago-infinity-seas-4.jpg"],
+    description:
+      "Infinity Seas combines performance and luxury in a stunning 23m catamaran yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/santiago-infinity-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/santiago-infinity-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/santiago-infinity-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/santiago-infinity-seas-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 11259,
@@ -147,5 +192,5 @@ export const santiagochilesouthAmericaYachts: Yacht[] = [
     },
     safetyFeatures: ["Searchlight", "Emergency Beacon"],
     accessibilityFeatures: [],
-  }
+  },
 ];

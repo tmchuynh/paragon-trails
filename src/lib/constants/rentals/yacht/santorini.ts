@@ -24,7 +24,13 @@ export const santorinigreecemediterraneanYachts: Yacht[] = [
       crew: 3,
       bathrooms: 4,
     },
-    amenities: ["Tender Garage", "Outdoor Shower", "Stabilizers", "Bar", "Indoor Lounge"],
+    amenities: [
+      "Tender Garage",
+      "Outdoor Shower",
+      "Stabilizers",
+      "Bar",
+      "Indoor Lounge",
+    ],
     entertainment: ["Streaming Services", "Karaoke System"],
     waterToys: ["Water Skis", "Kayaks", "Towable Tubes"],
     location: {
@@ -37,17 +43,34 @@ export const santorinigreecemediterraneanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive", "Full-Service Catering"],
-    description: "Discover the beauty of santorini's waters aboard the elegant Diamond Seas, a 2009 motor yacht featuring spacious accommodation for 7 guests overnight or 11 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/motor/santorini-diamond-seas-1.jpg", "https://paragon-trails-yacht-images.com/motor/santorini-diamond-seas-2.jpg", "https://paragon-trails-yacht-images.com/motor/santorini-diamond-seas-3.jpg", "https://paragon-trails-yacht-images.com/motor/santorini-diamond-seas-4.jpg"],
+    description:
+      "Discover the beauty of santorini's waters aboard the elegant Diamond Seas, a 2009 motor yacht featuring spacious accommodation for 7 guests overnight or 11 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/santorini-diamond-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/santorini-diamond-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/santorini-diamond-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/santorini-diamond-seas-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5317,
       perWeek: 31636.149999999998,
       currency: "EUR",
       includes: ["Tender Garage", "Outdoor Shower"],
-      excludes: ["Tender Garage", "Outdoor Shower", "Stabilizers", "Bar", "Indoor Lounge"],
+      excludes: [
+        "Tender Garage",
+        "Outdoor Shower",
+        "Stabilizers",
+        "Bar",
+        "Indoor Lounge",
+      ],
     },
-    safetyFeatures: ["Searchlight", "Fog Horn", "Emergency Radio", "GPS Tracking"],
+    safetyFeatures: [
+      "Searchlight",
+      "Fog Horn",
+      "Emergency Radio",
+      "GPS Tracking",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -73,7 +96,13 @@ export const santorinigreecemediterraneanYachts: Yacht[] = [
       crew: 4,
       bathrooms: 5,
     },
-    amenities: ["Sauna", "Outdoor Shower", "Swim Platform", "Dining Area", "Sun Deck"],
+    amenities: [
+      "Sauna",
+      "Outdoor Shower",
+      "Swim Platform",
+      "Dining Area",
+      "Sun Deck",
+    ],
     entertainment: ["Projector"],
     waterToys: ["Inflatable Slide", "Paddleboards", "Fishing Equipment"],
     location: {
@@ -86,15 +115,26 @@ export const santorinigreecemediterraneanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive"],
-    description: "Mediterranean Gem combines performance and luxury in a stunning 20m motor yacht. With its professional crew of 4, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/motor/santorini-mediterranean-gem-1.jpg", "https://paragon-trails-yacht-images.com/motor/santorini-mediterranean-gem-2.jpg", "https://paragon-trails-yacht-images.com/motor/santorini-mediterranean-gem-3.jpg"],
+    description:
+      "Mediterranean Gem combines performance and luxury in a stunning 20m motor yacht. With its professional crew of 4, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/santorini-mediterranean-gem-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/santorini-mediterranean-gem-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/santorini-mediterranean-gem-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8131,
       perWeek: 48379.45,
       currency: "EUR",
       includes: ["Sauna", "Outdoor Shower", "Swim Platform"],
-      excludes: ["Sauna", "Outdoor Shower", "Swim Platform", "Dining Area", "Sun Deck"],
+      excludes: [
+        "Sauna",
+        "Outdoor Shower",
+        "Swim Platform",
+        "Dining Area",
+        "Sun Deck",
+      ],
     },
     safetyFeatures: ["GPS Tracking", "Emergency Beacon", "Life Rafts"],
     accessibilityFeatures: ["Accessible Cabin"],
@@ -124,7 +164,13 @@ export const santorinigreecemediterraneanYachts: Yacht[] = [
     },
     amenities: ["Outdoor Shower", "Bar", "Heated Deck"],
     entertainment: ["Projector"],
-    waterToys: ["Scuba Diving Gear", "Snorkeling Gear", "Kneeboard", "E-Foil", "Jet Ski"],
+    waterToys: [
+      "Scuba Diving Gear",
+      "Snorkeling Gear",
+      "Kneeboard",
+      "E-Foil",
+      "Jet Ski",
+    ],
     location: {
       city: "Santorini",
       country: "Greece",
@@ -135,8 +181,14 @@ export const santorinigreecemediterraneanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only"],
-    description: "Charter the impressive Neptune's Glory in santorini and enjoy its 3 luxury amenities and 5 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/santorini-neptune's-glory-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/santorini-neptune's-glory-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/santorini-neptune's-glory-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/santorini-neptune's-glory-4.jpg"],
+    description:
+      "Charter the impressive Neptune's Glory in santorini and enjoy its 3 luxury amenities and 5 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/santorini-neptune's-glory-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/santorini-neptune's-glory-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/santorini-neptune's-glory-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/santorini-neptune's-glory-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8785,
@@ -184,8 +236,14 @@ export const santorinigreecemediterraneanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: false,
     cateringOptions: ["Picnic-Style"],
-    description: "Discover the beauty of santorini's waters aboard the elegant Diamond Seas, a 2008 sailing yacht featuring spacious accommodation for 7 guests overnight or 8 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/santorini-diamond-seas-1.jpg", "https://paragon-trails-yacht-images.com/sailing/santorini-diamond-seas-2.jpg", "https://paragon-trails-yacht-images.com/sailing/santorini-diamond-seas-3.jpg", "https://paragon-trails-yacht-images.com/sailing/santorini-diamond-seas-4.jpg"],
+    description:
+      "Discover the beauty of santorini's waters aboard the elegant Diamond Seas, a 2008 sailing yacht featuring spacious accommodation for 7 guests overnight or 8 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/santorini-diamond-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/santorini-diamond-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/santorini-diamond-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/santorini-diamond-seas-4.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 8905,
@@ -220,7 +278,13 @@ export const santorinigreecemediterraneanYachts: Yacht[] = [
       crew: 12,
       bathrooms: 8,
     },
-    amenities: ["Hot Tub", "Stabilizers", "Swim Platform", "Air Conditioning", "Dining Area"],
+    amenities: [
+      "Hot Tub",
+      "Stabilizers",
+      "Swim Platform",
+      "Air Conditioning",
+      "Dining Area",
+    ],
     entertainment: ["Game Console"],
     waterToys: ["E-Foil", "Floating Island"],
     location: {
@@ -233,8 +297,13 @@ export const santorinigreecemediterraneanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Picnic-Style", "All-Inclusive"],
-    description: "Experience luxury and comfort aboard the Blue Horizon, a stunning 86m super yacht available for charter in santorini. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/super/santorini-blue-horizon-1.jpg", "https://paragon-trails-yacht-images.com/super/santorini-blue-horizon-2.jpg", "https://paragon-trails-yacht-images.com/super/santorini-blue-horizon-3.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Blue Horizon, a stunning 86m super yacht available for charter in santorini. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/santorini-blue-horizon-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/santorini-blue-horizon-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/santorini-blue-horizon-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 169568,
@@ -243,7 +312,13 @@ export const santorinigreecemediterraneanYachts: Yacht[] = [
       includes: ["Hot Tub"],
       excludes: ["Dining Area"],
     },
-    safetyFeatures: ["Emergency Beacon", "Radar", "First Aid Kit", "GPS Tracking", "Fog Horn"],
+    safetyFeatures: [
+      "Emergency Beacon",
+      "Radar",
+      "First Aid Kit",
+      "GPS Tracking",
+      "Fog Horn",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -269,7 +344,14 @@ export const santorinigreecemediterraneanYachts: Yacht[] = [
       crew: 4,
       bathrooms: 5,
     },
-    amenities: ["Bar", "Air Conditioning", "Swim Platform", "Stabilizers", "Tender Garage", "Jacuzzi"],
+    amenities: [
+      "Bar",
+      "Air Conditioning",
+      "Swim Platform",
+      "Stabilizers",
+      "Tender Garage",
+      "Jacuzzi",
+    ],
     entertainment: ["Satellite TV"],
     waterToys: ["Kneeboard", "Fishing Equipment", "E-Foil"],
     location: {
@@ -282,8 +364,15 @@ export const santorinigreecemediterraneanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: false,
     cateringOptions: ["Breakfast Only"],
-    description: "Discover the beauty of santorini's waters aboard the elegant Royal Seas, a 2003 motor yacht featuring spacious accommodation for 6 guests overnight or 12 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/motor/santorini-royal-seas-1.jpg", "https://paragon-trails-yacht-images.com/motor/santorini-royal-seas-2.jpg", "https://paragon-trails-yacht-images.com/motor/santorini-royal-seas-3.jpg", "https://paragon-trails-yacht-images.com/motor/santorini-royal-seas-4.jpg", "https://paragon-trails-yacht-images.com/motor/santorini-royal-seas-5.jpg"],
+    description:
+      "Discover the beauty of santorini's waters aboard the elegant Royal Seas, a 2003 motor yacht featuring spacious accommodation for 6 guests overnight or 12 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/santorini-royal-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/santorini-royal-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/santorini-royal-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/santorini-royal-seas-4.jpg",
+      "https://paragon-trails-yacht-images.com/motor/santorini-royal-seas-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6050,
@@ -318,7 +407,13 @@ export const santorinigreecemediterraneanYachts: Yacht[] = [
       crew: 2,
       bathrooms: 6,
     },
-    amenities: ["Heated Deck", "Outdoor Shower", "Kitchen", "Swim Platform", "BBQ Grill"],
+    amenities: [
+      "Heated Deck",
+      "Outdoor Shower",
+      "Kitchen",
+      "Swim Platform",
+      "BBQ Grill",
+    ],
     entertainment: ["DJ Equipment"],
     waterToys: ["Kneeboard", "Wakeboard", "Inflatable Slide"],
     location: {
@@ -331,8 +426,15 @@ export const santorinigreecemediterraneanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only"],
-    description: "Mediterranean Gem combines performance and luxury in a stunning 21m motor yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/motor/santorini-mediterranean-gem-1.jpg", "https://paragon-trails-yacht-images.com/motor/santorini-mediterranean-gem-2.jpg", "https://paragon-trails-yacht-images.com/motor/santorini-mediterranean-gem-3.jpg", "https://paragon-trails-yacht-images.com/motor/santorini-mediterranean-gem-4.jpg", "https://paragon-trails-yacht-images.com/motor/santorini-mediterranean-gem-5.jpg"],
+    description:
+      "Mediterranean Gem combines performance and luxury in a stunning 21m motor yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/santorini-mediterranean-gem-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/santorini-mediterranean-gem-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/santorini-mediterranean-gem-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/santorini-mediterranean-gem-4.jpg",
+      "https://paragon-trails-yacht-images.com/motor/santorini-mediterranean-gem-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5357,
@@ -341,7 +443,13 @@ export const santorinigreecemediterraneanYachts: Yacht[] = [
       includes: ["Heated Deck", "Outdoor Shower"],
       excludes: ["BBQ Grill"],
     },
-    safetyFeatures: ["Emergency Steering", "Navigation Lights", "Emergency Beacon", "Fire Extinguishers", "Emergency Radio"],
+    safetyFeatures: [
+      "Emergency Steering",
+      "Navigation Lights",
+      "Emergency Beacon",
+      "Fire Extinguishers",
+      "Emergency Radio",
+    ],
     accessibilityFeatures: [],
-  }
+  },
 ];

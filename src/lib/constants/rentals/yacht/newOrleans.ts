@@ -24,7 +24,13 @@ export const newOrleansunitedStatescaribbeanYachts: Yacht[] = [
       crew: 14,
       bathrooms: 10,
     },
-    amenities: ["Kitchen", "Outdoor Shower", "Tender Garage", "Indoor Lounge", "Dining Area"],
+    amenities: [
+      "Kitchen",
+      "Outdoor Shower",
+      "Tender Garage",
+      "Indoor Lounge",
+      "Dining Area",
+    ],
     entertainment: ["Game Console"],
     waterToys: ["Floating Island", "Fishing Equipment"],
     location: {
@@ -37,8 +43,13 @@ export const newOrleansunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: false,
     cateringOptions: ["All-Inclusive", "À La Carte"],
-    description: "Discover the beauty of new-orleans's waters aboard the elegant Adriatic Splendor, a 2014 super yacht featuring spacious accommodation for 14 guests overnight or 21 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/super/new-orleans-adriatic-splendor-1.jpg", "https://paragon-trails-yacht-images.com/super/new-orleans-adriatic-splendor-2.jpg", "https://paragon-trails-yacht-images.com/super/new-orleans-adriatic-splendor-3.jpg"],
+    description:
+      "Discover the beauty of new-orleans's waters aboard the elegant Adriatic Splendor, a 2014 super yacht featuring spacious accommodation for 14 guests overnight or 21 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/new-orleans-adriatic-splendor-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/new-orleans-adriatic-splendor-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/new-orleans-adriatic-splendor-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 159800,
@@ -47,7 +58,12 @@ export const newOrleansunitedStatescaribbeanYachts: Yacht[] = [
       includes: ["Kitchen", "Outdoor Shower", "Tender Garage"],
       excludes: ["Dining Area"],
     },
-    safetyFeatures: ["Emergency Steering", "Navigation Lights", "Fog Horn", "Life Jackets"],
+    safetyFeatures: [
+      "Emergency Steering",
+      "Navigation Lights",
+      "Fog Horn",
+      "Life Jackets",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -75,7 +91,13 @@ export const newOrleansunitedStatescaribbeanYachts: Yacht[] = [
     },
     amenities: ["Sauna", "Jacuzzi"],
     entertainment: ["Media Library", "Streaming Services", "Game Console"],
-    waterToys: ["Paddleboards", "Water Skis", "Jet Ski", "Snorkeling Gear", "Kneeboard"],
+    waterToys: [
+      "Paddleboards",
+      "Water Skis",
+      "Jet Ski",
+      "Snorkeling Gear",
+      "Kneeboard",
+    ],
     location: {
       city: "New-orleans",
       country: "United States",
@@ -86,8 +108,14 @@ export const newOrleansunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: false,
     cateringOptions: ["All-Inclusive"],
-    description: "Euphoria combines performance and luxury in a stunning 18m catamaran yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/new-orleans-euphoria-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/new-orleans-euphoria-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/new-orleans-euphoria-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/new-orleans-euphoria-4.jpg"],
+    description:
+      "Euphoria combines performance and luxury in a stunning 18m catamaran yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/new-orleans-euphoria-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/new-orleans-euphoria-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/new-orleans-euphoria-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/new-orleans-euphoria-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 4888,
@@ -135,8 +163,13 @@ export const newOrleansunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["No Catering", "Local Cuisine Packages"],
-    description: "Experience luxury and comfort aboard the Aquamarine, a stunning 56m mega yacht available for charter in new-orleans. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/mega/new-orleans-aquamarine-1.jpg", "https://paragon-trails-yacht-images.com/mega/new-orleans-aquamarine-2.jpg", "https://paragon-trails-yacht-images.com/mega/new-orleans-aquamarine-3.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Aquamarine, a stunning 56m mega yacht available for charter in new-orleans. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/new-orleans-aquamarine-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/new-orleans-aquamarine-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/new-orleans-aquamarine-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 42023,
@@ -145,7 +178,12 @@ export const newOrleansunitedStatescaribbeanYachts: Yacht[] = [
       includes: ["Sauna", "Laundry Service"],
       excludes: ["Sauna", "Laundry Service", "Jacuzzi"],
     },
-    safetyFeatures: ["Life Rafts", "Radar", "Life Jackets", "Emergency Steering"],
+    safetyFeatures: [
+      "Life Rafts",
+      "Radar",
+      "Life Jackets",
+      "Emergency Steering",
+    ],
     accessibilityFeatures: [],
-  }
+  },
 ];

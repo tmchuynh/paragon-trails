@@ -24,8 +24,19 @@ export const kyotojapanasiaPacificYachts: Yacht[] = [
       crew: 9,
       bathrooms: 6,
     },
-    amenities: ["Bar", "Hot Tub", "Kitchen", "Sun Deck", "Tender Garage", "Outdoor Shower"],
-    entertainment: ["Streaming Services", "Surround Sound System", "Satellite TV"],
+    amenities: [
+      "Bar",
+      "Hot Tub",
+      "Kitchen",
+      "Sun Deck",
+      "Tender Garage",
+      "Outdoor Shower",
+    ],
+    entertainment: [
+      "Streaming Services",
+      "Surround Sound System",
+      "Satellite TV",
+    ],
     waterToys: ["Scuba Diving Gear", "Windsurf"],
     location: {
       city: "Kyoto",
@@ -37,8 +48,14 @@ export const kyotojapanasiaPacificYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only"],
-    description: "The Serenity Now is a magnificent mega yacht built by Heesen offering exceptional amenities and impeccable service for an unforgettable sailing experience in kyoto.",
-    images: ["https://paragon-trails-yacht-images.com/mega/kyoto-serenity-now-1.jpg", "https://paragon-trails-yacht-images.com/mega/kyoto-serenity-now-2.jpg", "https://paragon-trails-yacht-images.com/mega/kyoto-serenity-now-3.jpg", "https://paragon-trails-yacht-images.com/mega/kyoto-serenity-now-4.jpg"],
+    description:
+      "The Serenity Now is a magnificent mega yacht built by Heesen offering exceptional amenities and impeccable service for an unforgettable sailing experience in kyoto.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/kyoto-serenity-now-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/kyoto-serenity-now-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/kyoto-serenity-now-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/kyoto-serenity-now-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 45863,
@@ -86,8 +103,14 @@ export const kyotojapanasiaPacificYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["No Catering"],
-    description: "Ruby Tides combines performance and luxury in a stunning 73m super yacht. With its professional crew of 14, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/super/kyoto-ruby-tides-1.jpg", "https://paragon-trails-yacht-images.com/super/kyoto-ruby-tides-2.jpg", "https://paragon-trails-yacht-images.com/super/kyoto-ruby-tides-3.jpg", "https://paragon-trails-yacht-images.com/super/kyoto-ruby-tides-4.jpg"],
+    description:
+      "Ruby Tides combines performance and luxury in a stunning 73m super yacht. With its professional crew of 14, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/kyoto-ruby-tides-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/kyoto-ruby-tides-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/kyoto-ruby-tides-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/kyoto-ruby-tides-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 169026,
@@ -96,7 +119,12 @@ export const kyotojapanasiaPacificYachts: Yacht[] = [
       includes: ["Jacuzzi"],
       excludes: ["Jacuzzi", "Kitchen", "Indoor Lounge", "Sauna", "Dining Area"],
     },
-    safetyFeatures: ["Emergency Steering", "Fire Extinguishers", "Life Rafts", "Life Jackets"],
+    safetyFeatures: [
+      "Emergency Steering",
+      "Fire Extinguishers",
+      "Life Rafts",
+      "Life Jackets",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -135,8 +163,13 @@ export const kyotojapanasiaPacificYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Self-Catering", "Chef Onboard"],
-    description: "Experience luxury and comfort aboard the Elite Waves, a stunning 34m motor yacht available for charter in kyoto. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/motor/kyoto-elite-waves-1.jpg", "https://paragon-trails-yacht-images.com/motor/kyoto-elite-waves-2.jpg", "https://paragon-trails-yacht-images.com/motor/kyoto-elite-waves-3.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Elite Waves, a stunning 34m motor yacht available for charter in kyoto. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/kyoto-elite-waves-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/kyoto-elite-waves-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/kyoto-elite-waves-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6437,
@@ -171,7 +204,15 @@ export const kyotojapanasiaPacificYachts: Yacht[] = [
       crew: 2,
       bathrooms: 4,
     },
-    amenities: ["Outdoor Shower", "Wi-Fi", "Sauna", "Swim Platform", "Tender Garage", "Indoor Lounge", "Stabilizers"],
+    amenities: [
+      "Outdoor Shower",
+      "Wi-Fi",
+      "Sauna",
+      "Swim Platform",
+      "Tender Garage",
+      "Indoor Lounge",
+      "Stabilizers",
+    ],
     entertainment: ["Streaming Services"],
     waterToys: ["Windsurf", "Kayaks", "Kneeboard"],
     location: {
@@ -184,8 +225,13 @@ export const kyotojapanasiaPacificYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Full-Service Catering"],
-    description: "The Poseidon's Pride is a magnificent catamaran yacht built by Baglietto offering exceptional amenities and impeccable service for an unforgettable sailing experience in kyoto.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/kyoto-poseidon's-pride-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/kyoto-poseidon's-pride-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/kyoto-poseidon's-pride-3.jpg"],
+    description:
+      "The Poseidon's Pride is a magnificent catamaran yacht built by Baglietto offering exceptional amenities and impeccable service for an unforgettable sailing experience in kyoto.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/kyoto-poseidon's-pride-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/kyoto-poseidon's-pride-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/kyoto-poseidon's-pride-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6098,
@@ -233,8 +279,15 @@ export const kyotojapanasiaPacificYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Full-Service Catering"],
-    description: "Cobalt Waters combines performance and luxury in a stunning 48m mega yacht. With its professional crew of 7, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/mega/kyoto-cobalt-waters-1.jpg", "https://paragon-trails-yacht-images.com/mega/kyoto-cobalt-waters-2.jpg", "https://paragon-trails-yacht-images.com/mega/kyoto-cobalt-waters-3.jpg", "https://paragon-trails-yacht-images.com/mega/kyoto-cobalt-waters-4.jpg", "https://paragon-trails-yacht-images.com/mega/kyoto-cobalt-waters-5.jpg"],
+    description:
+      "Cobalt Waters combines performance and luxury in a stunning 48m mega yacht. With its professional crew of 7, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/kyoto-cobalt-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/kyoto-cobalt-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/kyoto-cobalt-waters-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/kyoto-cobalt-waters-4.jpg",
+      "https://paragon-trails-yacht-images.com/mega/kyoto-cobalt-waters-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 40679,
@@ -243,7 +296,12 @@ export const kyotojapanasiaPacificYachts: Yacht[] = [
       includes: ["Sun Deck"],
       excludes: ["Sun Deck", "Hot Tub", "Laundry Service", "Stabilizers"],
     },
-    safetyFeatures: ["Emergency Steering", "GPS Tracking", "Life Jackets", "Flares"],
+    safetyFeatures: [
+      "Emergency Steering",
+      "GPS Tracking",
+      "Life Jackets",
+      "Flares",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -282,8 +340,14 @@ export const kyotojapanasiaPacificYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["À La Carte", "No Catering"],
-    description: "The Royal Wave is a magnificent motor yacht built by Amels offering exceptional amenities and impeccable service for an unforgettable sailing experience in kyoto.",
-    images: ["https://paragon-trails-yacht-images.com/motor/kyoto-royal-wave-1.jpg", "https://paragon-trails-yacht-images.com/motor/kyoto-royal-wave-2.jpg", "https://paragon-trails-yacht-images.com/motor/kyoto-royal-wave-3.jpg", "https://paragon-trails-yacht-images.com/motor/kyoto-royal-wave-4.jpg"],
+    description:
+      "The Royal Wave is a magnificent motor yacht built by Amels offering exceptional amenities and impeccable service for an unforgettable sailing experience in kyoto.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/kyoto-royal-wave-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/kyoto-royal-wave-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/kyoto-royal-wave-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/kyoto-royal-wave-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 10475,
@@ -294,5 +358,5 @@ export const kyotojapanasiaPacificYachts: Yacht[] = [
     },
     safetyFeatures: ["Emergency Steering", "Life Rafts", "Navigation Lights"],
     accessibilityFeatures: ["Accessible Cabin"],
-  }
+  },
 ];

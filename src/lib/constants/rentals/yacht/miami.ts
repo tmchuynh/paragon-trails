@@ -24,7 +24,12 @@ export const miamiunitedStatescaribbeanYachts: Yacht[] = [
       crew: 1,
       bathrooms: 5,
     },
-    amenities: ["Hot Tub", "Laundry Service", "Outdoor Shower", "Swim Platform"],
+    amenities: [
+      "Hot Tub",
+      "Laundry Service",
+      "Outdoor Shower",
+      "Swim Platform",
+    ],
     entertainment: ["Board Games", "Streaming Services", "Game Console"],
     waterToys: ["Paddleboards", "Seabob", "Snorkeling Gear"],
     location: {
@@ -37,8 +42,14 @@ export const miamiunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Full-Service Catering"],
-    description: "Charter the impressive Sea Symphony in miami and enjoy its 4 luxury amenities and 3 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/miami-sea-symphony-1.jpg", "https://paragon-trails-yacht-images.com/sailing/miami-sea-symphony-2.jpg", "https://paragon-trails-yacht-images.com/sailing/miami-sea-symphony-3.jpg", "https://paragon-trails-yacht-images.com/sailing/miami-sea-symphony-4.jpg"],
+    description:
+      "Charter the impressive Sea Symphony in miami and enjoy its 4 luxury amenities and 3 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/miami-sea-symphony-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/miami-sea-symphony-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/miami-sea-symphony-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/miami-sea-symphony-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 9400,
@@ -47,7 +58,12 @@ export const miamiunitedStatescaribbeanYachts: Yacht[] = [
       includes: ["Hot Tub", "Laundry Service", "Outdoor Shower"],
       excludes: ["Swim Platform"],
     },
-    safetyFeatures: ["Searchlight", "Flares", "Emergency Beacon", "Life Jackets"],
+    safetyFeatures: [
+      "Searchlight",
+      "Flares",
+      "Emergency Beacon",
+      "Life Jackets",
+    ],
     accessibilityFeatures: ["Easy Boarding", "Handrails"],
   },
   {
@@ -86,8 +102,14 @@ export const miamiunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Picnic-Style"],
-    description: "Charter the impressive Royal Seas in miami and enjoy its 3 luxury amenities and 4 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/super/miami-royal-seas-1.jpg", "https://paragon-trails-yacht-images.com/super/miami-royal-seas-2.jpg", "https://paragon-trails-yacht-images.com/super/miami-royal-seas-3.jpg", "https://paragon-trails-yacht-images.com/super/miami-royal-seas-4.jpg"],
+    description:
+      "Charter the impressive Royal Seas in miami and enjoy its 3 luxury amenities and 4 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/miami-royal-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/miami-royal-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/miami-royal-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/miami-royal-seas-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 58743,
@@ -96,7 +118,13 @@ export const miamiunitedStatescaribbeanYachts: Yacht[] = [
       includes: ["Kitchen"],
       excludes: ["Kitchen", "Jacuzzi", "Dining Area"],
     },
-    safetyFeatures: ["Searchlight", "Emergency Radio", "GPS Tracking", "Emergency Beacon", "Flares"],
+    safetyFeatures: [
+      "Searchlight",
+      "Emergency Radio",
+      "GPS Tracking",
+      "Emergency Beacon",
+      "Flares",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -135,8 +163,14 @@ export const miamiunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages", "Full-Service Catering"],
-    description: "Charter the impressive Endless Horizons in miami and enjoy its 4 luxury amenities and 5 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/miami-endless-horizons-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/miami-endless-horizons-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/miami-endless-horizons-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/miami-endless-horizons-4.jpg"],
+    description:
+      "Charter the impressive Endless Horizons in miami and enjoy its 4 luxury amenities and 5 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/miami-endless-horizons-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/miami-endless-horizons-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/miami-endless-horizons-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/miami-endless-horizons-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 11644,
@@ -171,7 +205,13 @@ export const miamiunitedStatescaribbeanYachts: Yacht[] = [
       crew: 5,
       bathrooms: 7,
     },
-    amenities: ["Air Conditioning", "Dining Area", "Wi-Fi", "Indoor Lounge", "Swim Platform"],
+    amenities: [
+      "Air Conditioning",
+      "Dining Area",
+      "Wi-Fi",
+      "Indoor Lounge",
+      "Swim Platform",
+    ],
     entertainment: ["Streaming Services", "Surround Sound System"],
     waterToys: ["Floating Island", "Water Skis", "Towable Tubes"],
     location: {
@@ -184,17 +224,33 @@ export const miamiunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Picnic-Style"],
-    description: "Serenity Now combines performance and luxury in a stunning 30m gulet yacht. With its professional crew of 5, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/miami-serenity-now-1.jpg", "https://paragon-trails-yacht-images.com/gulet/miami-serenity-now-2.jpg", "https://paragon-trails-yacht-images.com/gulet/miami-serenity-now-3.jpg"],
+    description:
+      "Serenity Now combines performance and luxury in a stunning 30m gulet yacht. With its professional crew of 5, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/miami-serenity-now-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/miami-serenity-now-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/miami-serenity-now-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8518,
       perWeek: 50682.1,
       currency: "USD",
       includes: ["Air Conditioning", "Dining Area"],
-      excludes: ["Air Conditioning", "Dining Area", "Wi-Fi", "Indoor Lounge", "Swim Platform"],
+      excludes: [
+        "Air Conditioning",
+        "Dining Area",
+        "Wi-Fi",
+        "Indoor Lounge",
+        "Swim Platform",
+      ],
     },
-    safetyFeatures: ["Fire Extinguishers", "Emergency Radio", "Fog Horn", "Navigation Lights"],
+    safetyFeatures: [
+      "Fire Extinguishers",
+      "Emergency Radio",
+      "Fog Horn",
+      "Navigation Lights",
+    ],
     accessibilityFeatures: [],
-  }
+  },
 ];

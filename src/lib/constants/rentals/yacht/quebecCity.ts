@@ -26,7 +26,13 @@ export const quebecCitycanadaeastCoastCanadaYachts: Yacht[] = [
     },
     amenities: ["Laundry Service", "Sauna", "Air Conditioning"],
     entertainment: ["Projector"],
-    waterToys: ["Kneeboard", "Paddleboards", "Wakeboard", "Water Skis", "Towable Tubes"],
+    waterToys: [
+      "Kneeboard",
+      "Paddleboards",
+      "Wakeboard",
+      "Water Skis",
+      "Towable Tubes",
+    ],
     location: {
       city: "Quebec-city",
       country: "Canada",
@@ -37,8 +43,13 @@ export const quebecCitycanadaeastCoastCanadaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only"],
-    description: "The Serenity Now is a magnificent gulet yacht built by Princess offering exceptional amenities and impeccable service for an unforgettable sailing experience in quebec-city.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/quebec-city-serenity-now-1.jpg", "https://paragon-trails-yacht-images.com/gulet/quebec-city-serenity-now-2.jpg", "https://paragon-trails-yacht-images.com/gulet/quebec-city-serenity-now-3.jpg"],
+    description:
+      "The Serenity Now is a magnificent gulet yacht built by Princess offering exceptional amenities and impeccable service for an unforgettable sailing experience in quebec-city.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/quebec-city-serenity-now-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/quebec-city-serenity-now-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/quebec-city-serenity-now-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 7517,
@@ -47,7 +58,13 @@ export const quebecCitycanadaeastCoastCanadaYachts: Yacht[] = [
       includes: ["Laundry Service", "Sauna"],
       excludes: ["Air Conditioning"],
     },
-    safetyFeatures: ["Fire Extinguishers", "EPIRB", "Searchlight", "Emergency Radio", "Navigation Lights"],
+    safetyFeatures: [
+      "Fire Extinguishers",
+      "EPIRB",
+      "Searchlight",
+      "Emergency Radio",
+      "Navigation Lights",
+    ],
     accessibilityFeatures: ["Handrails", "Accessible Cabin"],
   },
   {
@@ -86,8 +103,14 @@ export const quebecCitycanadaeastCoastCanadaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive", "Self-Catering"],
-    description: "Experience luxury and comfort aboard the Wave Dancer, a stunning 63m super yacht available for charter in quebec-city. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/super/quebec-city-wave-dancer-1.jpg", "https://paragon-trails-yacht-images.com/super/quebec-city-wave-dancer-2.jpg", "https://paragon-trails-yacht-images.com/super/quebec-city-wave-dancer-3.jpg", "https://paragon-trails-yacht-images.com/super/quebec-city-wave-dancer-4.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Wave Dancer, a stunning 63m super yacht available for charter in quebec-city. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/quebec-city-wave-dancer-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/quebec-city-wave-dancer-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/quebec-city-wave-dancer-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/quebec-city-wave-dancer-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 68321,
@@ -135,8 +158,14 @@ export const quebecCitycanadaeastCoastCanadaYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Self-Catering"],
-    description: "Discover the beauty of quebec-city's waters aboard the elegant Azure Dreams, a 2014 super yacht featuring spacious accommodation for 19 guests overnight or 23 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/super/quebec-city-azure-dreams-1.jpg", "https://paragon-trails-yacht-images.com/super/quebec-city-azure-dreams-2.jpg", "https://paragon-trails-yacht-images.com/super/quebec-city-azure-dreams-3.jpg", "https://paragon-trails-yacht-images.com/super/quebec-city-azure-dreams-4.jpg"],
+    description:
+      "Discover the beauty of quebec-city's waters aboard the elegant Azure Dreams, a 2014 super yacht featuring spacious accommodation for 19 guests overnight or 23 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/quebec-city-azure-dreams-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/quebec-city-azure-dreams-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/quebec-city-azure-dreams-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/quebec-city-azure-dreams-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 73028,
@@ -171,7 +200,12 @@ export const quebecCitycanadaeastCoastCanadaYachts: Yacht[] = [
       crew: 2,
       bathrooms: 4,
     },
-    amenities: ["Dining Area", "Air Conditioning", "Indoor Lounge", "Swim Platform"],
+    amenities: [
+      "Dining Area",
+      "Air Conditioning",
+      "Indoor Lounge",
+      "Swim Platform",
+    ],
     entertainment: ["Onboard Cinema", "Board Games", "DJ Equipment"],
     waterToys: ["Towable Tubes", "Inflatable Slide", "Floating Island"],
     location: {
@@ -184,15 +218,25 @@ export const quebecCitycanadaeastCoastCanadaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: false,
     cateringOptions: ["Picnic-Style"],
-    description: "The Royal Wave is a magnificent sailing yacht built by Lürssen offering exceptional amenities and impeccable service for an unforgettable sailing experience in quebec-city.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/quebec-city-royal-wave-1.jpg", "https://paragon-trails-yacht-images.com/sailing/quebec-city-royal-wave-2.jpg", "https://paragon-trails-yacht-images.com/sailing/quebec-city-royal-wave-3.jpg"],
+    description:
+      "The Royal Wave is a magnificent sailing yacht built by Lürssen offering exceptional amenities and impeccable service for an unforgettable sailing experience in quebec-city.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/quebec-city-royal-wave-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/quebec-city-royal-wave-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/quebec-city-royal-wave-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 6225,
       perWeek: 37038.75,
       currency: "CAD",
       includes: ["Dining Area", "Air Conditioning"],
-      excludes: ["Dining Area", "Air Conditioning", "Indoor Lounge", "Swim Platform"],
+      excludes: [
+        "Dining Area",
+        "Air Conditioning",
+        "Indoor Lounge",
+        "Swim Platform",
+      ],
     },
     safetyFeatures: ["First Aid Kit", "Life Jackets", "Radar"],
     accessibilityFeatures: [],
@@ -233,8 +277,13 @@ export const quebecCitycanadaeastCoastCanadaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: false,
     cateringOptions: ["Chef Onboard", "Self-Catering"],
-    description: "Experience luxury and comfort aboard the Baltic Star, a stunning 48m mega yacht available for charter in quebec-city. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/mega/quebec-city-baltic-star-1.jpg", "https://paragon-trails-yacht-images.com/mega/quebec-city-baltic-star-2.jpg", "https://paragon-trails-yacht-images.com/mega/quebec-city-baltic-star-3.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Baltic Star, a stunning 48m mega yacht available for charter in quebec-city. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/quebec-city-baltic-star-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/quebec-city-baltic-star-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/quebec-city-baltic-star-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 47317,
@@ -282,8 +331,13 @@ export const quebecCitycanadaeastCoastCanadaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Picnic-Style"],
-    description: "Experience luxury and comfort aboard the Silver Horizon, a stunning 80m super yacht available for charter in quebec-city. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/super/quebec-city-silver-horizon-1.jpg", "https://paragon-trails-yacht-images.com/super/quebec-city-silver-horizon-2.jpg", "https://paragon-trails-yacht-images.com/super/quebec-city-silver-horizon-3.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Silver Horizon, a stunning 80m super yacht available for charter in quebec-city. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/quebec-city-silver-horizon-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/quebec-city-silver-horizon-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/quebec-city-silver-horizon-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 67513,
@@ -292,7 +346,13 @@ export const quebecCitycanadaeastCoastCanadaYachts: Yacht[] = [
       includes: ["BBQ Grill", "Hot Tub"],
       excludes: ["BBQ Grill", "Hot Tub"],
     },
-    safetyFeatures: ["First Aid Kit", "EPIRB", "Flares", "Radar", "Emergency Steering"],
+    safetyFeatures: [
+      "First Aid Kit",
+      "EPIRB",
+      "Flares",
+      "Radar",
+      "Emergency Steering",
+    ],
     accessibilityFeatures: [],
-  }
+  },
 ];

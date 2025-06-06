@@ -37,8 +37,13 @@ export const glacierBayunitedStatesalaskaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages", "No Catering"],
-    description: "The Elite Waves is a magnificent sailing yacht built by Swan offering exceptional amenities and impeccable service for an unforgettable sailing experience in glacier-bay.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/glacier-bay-elite-waves-1.jpg", "https://paragon-trails-yacht-images.com/sailing/glacier-bay-elite-waves-2.jpg", "https://paragon-trails-yacht-images.com/sailing/glacier-bay-elite-waves-3.jpg"],
+    description:
+      "The Elite Waves is a magnificent sailing yacht built by Swan offering exceptional amenities and impeccable service for an unforgettable sailing experience in glacier-bay.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/glacier-bay-elite-waves-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/glacier-bay-elite-waves-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/glacier-bay-elite-waves-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 5637,
@@ -75,7 +80,12 @@ export const glacierBayunitedStatesalaskaYachts: Yacht[] = [
     },
     amenities: ["Wi-Fi", "BBQ Grill", "Sauna", "Jacuzzi", "Hot Tub"],
     entertainment: ["Surround Sound System", "Bluetooth Speakers"],
-    waterToys: ["Windsurf", "Snorkeling Gear", "Fishing Equipment", "Scuba Diving Gear"],
+    waterToys: [
+      "Windsurf",
+      "Snorkeling Gear",
+      "Fishing Equipment",
+      "Scuba Diving Gear",
+    ],
     location: {
       city: "Glacier-bay",
       country: "United States",
@@ -86,8 +96,15 @@ export const glacierBayunitedStatesalaskaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only"],
-    description: "Wave Dancer combines performance and luxury in a stunning 59m mega yacht. With its professional crew of 6, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/mega/glacier-bay-wave-dancer-1.jpg", "https://paragon-trails-yacht-images.com/mega/glacier-bay-wave-dancer-2.jpg", "https://paragon-trails-yacht-images.com/mega/glacier-bay-wave-dancer-3.jpg", "https://paragon-trails-yacht-images.com/mega/glacier-bay-wave-dancer-4.jpg", "https://paragon-trails-yacht-images.com/mega/glacier-bay-wave-dancer-5.jpg"],
+    description:
+      "Wave Dancer combines performance and luxury in a stunning 59m mega yacht. With its professional crew of 6, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/glacier-bay-wave-dancer-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/glacier-bay-wave-dancer-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/glacier-bay-wave-dancer-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/glacier-bay-wave-dancer-4.jpg",
+      "https://paragon-trails-yacht-images.com/mega/glacier-bay-wave-dancer-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 25192,
@@ -135,8 +152,14 @@ export const glacierBayunitedStatesalaskaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Full-Service Catering", "Chef Onboard"],
-    description: "Experience luxury and comfort aboard the Baltic Star, a stunning 36m motor yacht available for charter in glacier-bay. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/motor/glacier-bay-baltic-star-1.jpg", "https://paragon-trails-yacht-images.com/motor/glacier-bay-baltic-star-2.jpg", "https://paragon-trails-yacht-images.com/motor/glacier-bay-baltic-star-3.jpg", "https://paragon-trails-yacht-images.com/motor/glacier-bay-baltic-star-4.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Baltic Star, a stunning 36m motor yacht available for charter in glacier-bay. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/glacier-bay-baltic-star-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/glacier-bay-baltic-star-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/glacier-bay-baltic-star-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/glacier-bay-baltic-star-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 13288,
@@ -184,8 +207,15 @@ export const glacierBayunitedStatesalaskaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Self-Catering"],
-    description: "Discover the beauty of glacier-bay's waters aboard the elegant Adriatic Splendor, a 2010 mega yacht featuring spacious accommodation for 10 guests overnight or 17 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/mega/glacier-bay-adriatic-splendor-1.jpg", "https://paragon-trails-yacht-images.com/mega/glacier-bay-adriatic-splendor-2.jpg", "https://paragon-trails-yacht-images.com/mega/glacier-bay-adriatic-splendor-3.jpg", "https://paragon-trails-yacht-images.com/mega/glacier-bay-adriatic-splendor-4.jpg", "https://paragon-trails-yacht-images.com/mega/glacier-bay-adriatic-splendor-5.jpg"],
+    description:
+      "Discover the beauty of glacier-bay's waters aboard the elegant Adriatic Splendor, a 2010 mega yacht featuring spacious accommodation for 10 guests overnight or 17 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/glacier-bay-adriatic-splendor-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/glacier-bay-adriatic-splendor-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/glacier-bay-adriatic-splendor-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/glacier-bay-adriatic-splendor-4.jpg",
+      "https://paragon-trails-yacht-images.com/mega/glacier-bay-adriatic-splendor-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 29476,
@@ -194,7 +224,13 @@ export const glacierBayunitedStatesalaskaYachts: Yacht[] = [
       includes: ["Swim Platform", "Stabilizers"],
       excludes: ["Swim Platform", "Stabilizers", "Kitchen"],
     },
-    safetyFeatures: ["Emergency Radio", "Fog Horn", "Life Rafts", "First Aid Kit", "Emergency Steering"],
+    safetyFeatures: [
+      "Emergency Radio",
+      "Fog Horn",
+      "Life Rafts",
+      "First Aid Kit",
+      "Emergency Steering",
+    ],
     accessibilityFeatures: ["Low Thresholds", "Accessible Bathroom"],
   },
   {
@@ -233,8 +269,15 @@ export const glacierBayunitedStatesalaskaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["No Catering", "Full-Service Catering"],
-    description: "Experience luxury and comfort aboard the Silver Horizon, a stunning 15m gulet yacht available for charter in glacier-bay. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/glacier-bay-silver-horizon-1.jpg", "https://paragon-trails-yacht-images.com/gulet/glacier-bay-silver-horizon-2.jpg", "https://paragon-trails-yacht-images.com/gulet/glacier-bay-silver-horizon-3.jpg", "https://paragon-trails-yacht-images.com/gulet/glacier-bay-silver-horizon-4.jpg", "https://paragon-trails-yacht-images.com/gulet/glacier-bay-silver-horizon-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Silver Horizon, a stunning 15m gulet yacht available for charter in glacier-bay. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/glacier-bay-silver-horizon-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/glacier-bay-silver-horizon-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/glacier-bay-silver-horizon-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/glacier-bay-silver-horizon-4.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/glacier-bay-silver-horizon-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5151,
@@ -282,8 +325,15 @@ export const glacierBayunitedStatesalaskaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard", "À La Carte"],
-    description: "Charter the impressive Elite Waves in glacier-bay and enjoy its 7 luxury amenities and 2 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/super/glacier-bay-elite-waves-1.jpg", "https://paragon-trails-yacht-images.com/super/glacier-bay-elite-waves-2.jpg", "https://paragon-trails-yacht-images.com/super/glacier-bay-elite-waves-3.jpg", "https://paragon-trails-yacht-images.com/super/glacier-bay-elite-waves-4.jpg", "https://paragon-trails-yacht-images.com/super/glacier-bay-elite-waves-5.jpg"],
+    description:
+      "Charter the impressive Elite Waves in glacier-bay and enjoy its 7 luxury amenities and 2 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/glacier-bay-elite-waves-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/glacier-bay-elite-waves-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/glacier-bay-elite-waves-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/glacier-bay-elite-waves-4.jpg",
+      "https://paragon-trails-yacht-images.com/super/glacier-bay-elite-waves-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 111395,
@@ -320,7 +370,13 @@ export const glacierBayunitedStatesalaskaYachts: Yacht[] = [
     },
     amenities: ["Stabilizers", "Heated Deck", "Kitchen"],
     entertainment: ["Satellite TV", "Projector", "Board Games"],
-    waterToys: ["Snorkeling Gear", "Windsurf", "Towable Tubes", "Floating Island", "Water Skis"],
+    waterToys: [
+      "Snorkeling Gear",
+      "Windsurf",
+      "Towable Tubes",
+      "Floating Island",
+      "Water Skis",
+    ],
     location: {
       city: "Glacier-bay",
       country: "United States",
@@ -331,8 +387,15 @@ export const glacierBayunitedStatesalaskaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive"],
-    description: "Discover the beauty of glacier-bay's waters aboard the elegant Aegean Beauty, a 2006 motor yacht featuring spacious accommodation for 6 guests overnight or 8 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/motor/glacier-bay-aegean-beauty-1.jpg", "https://paragon-trails-yacht-images.com/motor/glacier-bay-aegean-beauty-2.jpg", "https://paragon-trails-yacht-images.com/motor/glacier-bay-aegean-beauty-3.jpg", "https://paragon-trails-yacht-images.com/motor/glacier-bay-aegean-beauty-4.jpg", "https://paragon-trails-yacht-images.com/motor/glacier-bay-aegean-beauty-5.jpg"],
+    description:
+      "Discover the beauty of glacier-bay's waters aboard the elegant Aegean Beauty, a 2006 motor yacht featuring spacious accommodation for 6 guests overnight or 8 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/glacier-bay-aegean-beauty-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/glacier-bay-aegean-beauty-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/glacier-bay-aegean-beauty-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/glacier-bay-aegean-beauty-4.jpg",
+      "https://paragon-trails-yacht-images.com/motor/glacier-bay-aegean-beauty-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 12684,
@@ -341,7 +404,12 @@ export const glacierBayunitedStatesalaskaYachts: Yacht[] = [
       includes: ["Stabilizers"],
       excludes: ["Kitchen"],
     },
-    safetyFeatures: ["Fire Extinguishers", "Radar", "Navigation Lights", "Life Rafts"],
+    safetyFeatures: [
+      "Fire Extinguishers",
+      "Radar",
+      "Navigation Lights",
+      "Life Rafts",
+    ],
     accessibilityFeatures: ["Wide Doorways"],
-  }
+  },
 ];

@@ -37,8 +37,13 @@ export const romeitalymediterraneanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["No Catering"],
-    description: "Experience luxury and comfort aboard the Adriatic Splendor, a stunning 84m super yacht available for charter in rome. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/super/rome-adriatic-splendor-1.jpg", "https://paragon-trails-yacht-images.com/super/rome-adriatic-splendor-2.jpg", "https://paragon-trails-yacht-images.com/super/rome-adriatic-splendor-3.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Adriatic Splendor, a stunning 84m super yacht available for charter in rome. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/rome-adriatic-splendor-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/rome-adriatic-splendor-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/rome-adriatic-splendor-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 139657,
@@ -86,8 +91,15 @@ export const romeitalymediterraneanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Picnic-Style"],
-    description: "Experience luxury and comfort aboard the Poseidon's Pride, a stunning 19m sailing yacht available for charter in rome. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/rome-poseidon's-pride-1.jpg", "https://paragon-trails-yacht-images.com/sailing/rome-poseidon's-pride-2.jpg", "https://paragon-trails-yacht-images.com/sailing/rome-poseidon's-pride-3.jpg", "https://paragon-trails-yacht-images.com/sailing/rome-poseidon's-pride-4.jpg", "https://paragon-trails-yacht-images.com/sailing/rome-poseidon's-pride-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Poseidon's Pride, a stunning 19m sailing yacht available for charter in rome. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/rome-poseidon's-pride-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/rome-poseidon's-pride-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/rome-poseidon's-pride-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/rome-poseidon's-pride-4.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/rome-poseidon's-pride-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8285,
@@ -96,7 +108,13 @@ export const romeitalymediterraneanYachts: Yacht[] = [
       includes: ["Laundry Service", "Bar", "Swim Platform"],
       excludes: ["Laundry Service", "Bar", "Swim Platform", "Kitchen"],
     },
-    safetyFeatures: ["First Aid Kit", "Emergency Steering", "EPIRB", "Radar", "Navigation Lights"],
+    safetyFeatures: [
+      "First Aid Kit",
+      "Emergency Steering",
+      "EPIRB",
+      "Radar",
+      "Navigation Lights",
+    ],
     accessibilityFeatures: ["Wheelchair Ramp", "Handrails"],
   },
   {
@@ -124,7 +142,13 @@ export const romeitalymediterraneanYachts: Yacht[] = [
     },
     amenities: ["Dining Area", "Swim Platform", "Kitchen"],
     entertainment: ["Surround Sound System", "Media Library", "DJ Equipment"],
-    waterToys: ["Wakeboard", "Snorkeling Gear", "Kayaks", "Water Skis", "Kneeboard"],
+    waterToys: [
+      "Wakeboard",
+      "Snorkeling Gear",
+      "Kayaks",
+      "Water Skis",
+      "Kneeboard",
+    ],
     location: {
       city: "Rome",
       country: "Italy",
@@ -135,8 +159,13 @@ export const romeitalymediterraneanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Picnic-Style", "Provisioning Only"],
-    description: "Euphoria combines performance and luxury in a stunning 44m mega yacht. With its professional crew of 6, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/mega/rome-euphoria-1.jpg", "https://paragon-trails-yacht-images.com/mega/rome-euphoria-2.jpg", "https://paragon-trails-yacht-images.com/mega/rome-euphoria-3.jpg"],
+    description:
+      "Euphoria combines performance and luxury in a stunning 44m mega yacht. With its professional crew of 6, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/rome-euphoria-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/rome-euphoria-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/rome-euphoria-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 30495,
@@ -145,7 +174,12 @@ export const romeitalymediterraneanYachts: Yacht[] = [
       includes: ["Dining Area", "Swim Platform", "Kitchen"],
       excludes: ["Kitchen"],
     },
-    safetyFeatures: ["Emergency Radio", "Life Jackets", "GPS Tracking", "Radar"],
+    safetyFeatures: [
+      "Emergency Radio",
+      "Life Jackets",
+      "GPS Tracking",
+      "Radar",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -173,7 +207,13 @@ export const romeitalymediterraneanYachts: Yacht[] = [
     },
     amenities: ["Stabilizers", "Air Conditioning"],
     entertainment: ["Onboard Cinema"],
-    waterToys: ["Kayaks", "Snorkeling Gear", "Inflatable Slide", "Fishing Equipment", "Scuba Diving Gear"],
+    waterToys: [
+      "Kayaks",
+      "Snorkeling Gear",
+      "Inflatable Slide",
+      "Fishing Equipment",
+      "Scuba Diving Gear",
+    ],
     location: {
       city: "Rome",
       country: "Italy",
@@ -184,8 +224,14 @@ export const romeitalymediterraneanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: false,
     cateringOptions: ["No Catering"],
-    description: "The Ruby Tides is a magnificent mega yacht built by Princess offering exceptional amenities and impeccable service for an unforgettable sailing experience in rome.",
-    images: ["https://paragon-trails-yacht-images.com/mega/rome-ruby-tides-1.jpg", "https://paragon-trails-yacht-images.com/mega/rome-ruby-tides-2.jpg", "https://paragon-trails-yacht-images.com/mega/rome-ruby-tides-3.jpg", "https://paragon-trails-yacht-images.com/mega/rome-ruby-tides-4.jpg"],
+    description:
+      "The Ruby Tides is a magnificent mega yacht built by Princess offering exceptional amenities and impeccable service for an unforgettable sailing experience in rome.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/rome-ruby-tides-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/rome-ruby-tides-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/rome-ruby-tides-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/rome-ruby-tides-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 45532,
@@ -194,7 +240,12 @@ export const romeitalymediterraneanYachts: Yacht[] = [
       includes: ["Stabilizers", "Air Conditioning"],
       excludes: ["Stabilizers", "Air Conditioning"],
     },
-    safetyFeatures: ["Emergency Beacon", "First Aid Kit", "Emergency Steering", "Emergency Radio"],
+    safetyFeatures: [
+      "Emergency Beacon",
+      "First Aid Kit",
+      "Emergency Steering",
+      "Emergency Radio",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -220,7 +271,13 @@ export const romeitalymediterraneanYachts: Yacht[] = [
       crew: 16,
       bathrooms: 11,
     },
-    amenities: ["Heated Deck", "Kitchen", "Dining Area", "Outdoor Shower", "Tender Garage"],
+    amenities: [
+      "Heated Deck",
+      "Kitchen",
+      "Dining Area",
+      "Outdoor Shower",
+      "Tender Garage",
+    ],
     entertainment: ["Streaming Services", "Bluetooth Speakers"],
     waterToys: ["Floating Island", "Scuba Diving Gear"],
     location: {
@@ -233,17 +290,28 @@ export const romeitalymediterraneanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only"],
-    description: "Charter the impressive Poseidon's Pride in rome and enjoy its 7 luxury amenities and 2 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/super/rome-poseidon's-pride-1.jpg", "https://paragon-trails-yacht-images.com/super/rome-poseidon's-pride-2.jpg", "https://paragon-trails-yacht-images.com/super/rome-poseidon's-pride-3.jpg"],
+    description:
+      "Charter the impressive Poseidon's Pride in rome and enjoy its 7 luxury amenities and 2 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/rome-poseidon's-pride-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/rome-poseidon's-pride-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/rome-poseidon's-pride-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 137718,
       perWeek: 819422.1,
       currency: "EUR",
       includes: ["Heated Deck", "Kitchen"],
-      excludes: ["Heated Deck", "Kitchen", "Dining Area", "Outdoor Shower", "Tender Garage"],
+      excludes: [
+        "Heated Deck",
+        "Kitchen",
+        "Dining Area",
+        "Outdoor Shower",
+        "Tender Garage",
+      ],
     },
     safetyFeatures: ["Fire Extinguishers", "Radar", "First Aid Kit"],
     accessibilityFeatures: ["Accessible Bathroom"],
-  }
+  },
 ];

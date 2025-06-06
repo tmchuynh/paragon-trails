@@ -37,8 +37,14 @@ export const newYorkCityunitedStateseastCoastUsaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: false,
     cateringOptions: ["Picnic-Style"],
-    description: "The Luxury Waters is a magnificent gulet yacht built by Oyster offering exceptional amenities and impeccable service for an unforgettable sailing experience in new-york-city.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/new-york-city-luxury-waters-1.jpg", "https://paragon-trails-yacht-images.com/gulet/new-york-city-luxury-waters-2.jpg", "https://paragon-trails-yacht-images.com/gulet/new-york-city-luxury-waters-3.jpg", "https://paragon-trails-yacht-images.com/gulet/new-york-city-luxury-waters-4.jpg"],
+    description:
+      "The Luxury Waters is a magnificent gulet yacht built by Oyster offering exceptional amenities and impeccable service for an unforgettable sailing experience in new-york-city.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/new-york-city-luxury-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/new-york-city-luxury-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/new-york-city-luxury-waters-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/new-york-city-luxury-waters-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 3765,
@@ -86,8 +92,15 @@ export const newYorkCityunitedStateseastCoastUsaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["BBQ Onboard"],
-    description: "The Sovereign Waters is a magnificent motor yacht built by Baglietto offering exceptional amenities and impeccable service for an unforgettable sailing experience in new-york-city.",
-    images: ["https://paragon-trails-yacht-images.com/motor/new-york-city-sovereign-waters-1.jpg", "https://paragon-trails-yacht-images.com/motor/new-york-city-sovereign-waters-2.jpg", "https://paragon-trails-yacht-images.com/motor/new-york-city-sovereign-waters-3.jpg", "https://paragon-trails-yacht-images.com/motor/new-york-city-sovereign-waters-4.jpg", "https://paragon-trails-yacht-images.com/motor/new-york-city-sovereign-waters-5.jpg"],
+    description:
+      "The Sovereign Waters is a magnificent motor yacht built by Baglietto offering exceptional amenities and impeccable service for an unforgettable sailing experience in new-york-city.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/new-york-city-sovereign-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/new-york-city-sovereign-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/new-york-city-sovereign-waters-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/new-york-city-sovereign-waters-4.jpg",
+      "https://paragon-trails-yacht-images.com/motor/new-york-city-sovereign-waters-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8813,
@@ -122,9 +135,21 @@ export const newYorkCityunitedStateseastCoastUsaYachts: Yacht[] = [
       crew: 13,
       bathrooms: 10,
     },
-    amenities: ["Air Conditioning", "Tender Garage", "Indoor Lounge", "Swim Platform", "Jacuzzi"],
+    amenities: [
+      "Air Conditioning",
+      "Tender Garage",
+      "Indoor Lounge",
+      "Swim Platform",
+      "Jacuzzi",
+    ],
     entertainment: ["Streaming Services"],
-    waterToys: ["Jet Ski", "E-Foil", "Floating Island", "Scuba Diving Gear", "Towable Tubes"],
+    waterToys: [
+      "Jet Ski",
+      "E-Foil",
+      "Floating Island",
+      "Scuba Diving Gear",
+      "Towable Tubes",
+    ],
     location: {
       city: "New-york-city",
       country: "United States",
@@ -135,8 +160,13 @@ export const newYorkCityunitedStateseastCoastUsaYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["BBQ Onboard", "No Catering"],
-    description: "Experience luxury and comfort aboard the Mermaid's Song, a stunning 76m super yacht available for charter in new-york-city. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/super/new-york-city-mermaid's-song-1.jpg", "https://paragon-trails-yacht-images.com/super/new-york-city-mermaid's-song-2.jpg", "https://paragon-trails-yacht-images.com/super/new-york-city-mermaid's-song-3.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Mermaid's Song, a stunning 76m super yacht available for charter in new-york-city. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/new-york-city-mermaid's-song-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/new-york-city-mermaid's-song-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/new-york-city-mermaid's-song-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 142996,
@@ -145,7 +175,11 @@ export const newYorkCityunitedStateseastCoastUsaYachts: Yacht[] = [
       includes: ["Air Conditioning", "Tender Garage"],
       excludes: ["Jacuzzi"],
     },
-    safetyFeatures: ["Emergency Radio", "Fire Extinguishers", "Emergency Beacon"],
+    safetyFeatures: [
+      "Emergency Radio",
+      "Fire Extinguishers",
+      "Emergency Beacon",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -184,8 +218,13 @@ export const newYorkCityunitedStateseastCoastUsaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["À La Carte", "Self-Catering"],
-    description: "Charter the impressive Indigo Seas in new-york-city and enjoy its 4 luxury amenities and 2 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/new-york-city-indigo-seas-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/new-york-city-indigo-seas-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/new-york-city-indigo-seas-3.jpg"],
+    description:
+      "Charter the impressive Indigo Seas in new-york-city and enjoy its 4 luxury amenities and 2 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/new-york-city-indigo-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/new-york-city-indigo-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/new-york-city-indigo-seas-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 11384,
@@ -220,7 +259,14 @@ export const newYorkCityunitedStateseastCoastUsaYachts: Yacht[] = [
       crew: 2,
       bathrooms: 6,
     },
-    amenities: ["Dining Area", "Kitchen", "Heated Deck", "Tender Garage", "Air Conditioning", "Sauna"],
+    amenities: [
+      "Dining Area",
+      "Kitchen",
+      "Heated Deck",
+      "Tender Garage",
+      "Air Conditioning",
+      "Sauna",
+    ],
     entertainment: ["Bluetooth Speakers", "DJ Equipment"],
     waterToys: ["Paddleboards", "E-Foil", "Wakeboard"],
     location: {
@@ -233,8 +279,14 @@ export const newYorkCityunitedStateseastCoastUsaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive", "BBQ Onboard"],
-    description: "Experience luxury and comfort aboard the Aquamarine, a stunning 19m catamaran yacht available for charter in new-york-city. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/new-york-city-aquamarine-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/new-york-city-aquamarine-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/new-york-city-aquamarine-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/new-york-city-aquamarine-4.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Aquamarine, a stunning 19m catamaran yacht available for charter in new-york-city. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/new-york-city-aquamarine-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/new-york-city-aquamarine-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/new-york-city-aquamarine-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/new-york-city-aquamarine-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 9195,
@@ -245,5 +297,5 @@ export const newYorkCityunitedStateseastCoastUsaYachts: Yacht[] = [
     },
     safetyFeatures: ["EPIRB", "Emergency Radio", "Emergency Beacon"],
     accessibilityFeatures: [],
-  }
+  },
 ];

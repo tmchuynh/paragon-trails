@@ -37,8 +37,15 @@ export const vancouvercanadaalaskaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: false,
     cateringOptions: ["Full-Service Catering", "BBQ Onboard"],
-    description: "Discover the beauty of vancouver's waters aboard the elegant Aegean Beauty, a 2015 mega yacht featuring spacious accommodation for 10 guests overnight or 16 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/mega/vancouver-aegean-beauty-1.jpg", "https://paragon-trails-yacht-images.com/mega/vancouver-aegean-beauty-2.jpg", "https://paragon-trails-yacht-images.com/mega/vancouver-aegean-beauty-3.jpg", "https://paragon-trails-yacht-images.com/mega/vancouver-aegean-beauty-4.jpg", "https://paragon-trails-yacht-images.com/mega/vancouver-aegean-beauty-5.jpg"],
+    description:
+      "Discover the beauty of vancouver's waters aboard the elegant Aegean Beauty, a 2015 mega yacht featuring spacious accommodation for 10 guests overnight or 16 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/vancouver-aegean-beauty-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/vancouver-aegean-beauty-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/vancouver-aegean-beauty-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/vancouver-aegean-beauty-4.jpg",
+      "https://paragon-trails-yacht-images.com/mega/vancouver-aegean-beauty-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 49190,
@@ -75,7 +82,12 @@ export const vancouvercanadaalaskaYachts: Yacht[] = [
     },
     amenities: ["Dining Area", "Kitchen", "Hot Tub", "Indoor Lounge"],
     entertainment: ["Projector"],
-    waterToys: ["Kneeboard", "Inflatable Slide", "Windsurf", "Fishing Equipment"],
+    waterToys: [
+      "Kneeboard",
+      "Inflatable Slide",
+      "Windsurf",
+      "Fishing Equipment",
+    ],
     location: {
       city: "Vancouver",
       country: "Canada",
@@ -86,8 +98,15 @@ export const vancouvercanadaalaskaYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages"],
-    description: "Experience luxury and comfort aboard the Mermaid's Song, a stunning 18m catamaran yacht available for charter in vancouver. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/vancouver-mermaid's-song-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/vancouver-mermaid's-song-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/vancouver-mermaid's-song-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/vancouver-mermaid's-song-4.jpg", "https://paragon-trails-yacht-images.com/catamaran/vancouver-mermaid's-song-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Mermaid's Song, a stunning 18m catamaran yacht available for charter in vancouver. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/vancouver-mermaid's-song-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/vancouver-mermaid's-song-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/vancouver-mermaid's-song-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/vancouver-mermaid's-song-4.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/vancouver-mermaid's-song-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 9372,
@@ -96,7 +115,13 @@ export const vancouvercanadaalaskaYachts: Yacht[] = [
       includes: ["Dining Area", "Kitchen"],
       excludes: ["Indoor Lounge"],
     },
-    safetyFeatures: ["Fog Horn", "Life Jackets", "Flares", "GPS Tracking", "Life Rafts"],
+    safetyFeatures: [
+      "Fog Horn",
+      "Life Jackets",
+      "Flares",
+      "GPS Tracking",
+      "Life Rafts",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -122,9 +147,22 @@ export const vancouvercanadaalaskaYachts: Yacht[] = [
       crew: 5,
       bathrooms: 6,
     },
-    amenities: ["Laundry Service", "Sun Deck", "Jacuzzi", "Hot Tub", "Outdoor Shower", "BBQ Grill"],
+    amenities: [
+      "Laundry Service",
+      "Sun Deck",
+      "Jacuzzi",
+      "Hot Tub",
+      "Outdoor Shower",
+      "BBQ Grill",
+    ],
     entertainment: ["DJ Equipment"],
-    waterToys: ["Floating Island", "Water Skis", "Jet Ski", "Fishing Equipment", "E-Foil"],
+    waterToys: [
+      "Floating Island",
+      "Water Skis",
+      "Jet Ski",
+      "Fishing Equipment",
+      "E-Foil",
+    ],
     location: {
       city: "Vancouver",
       country: "Canada",
@@ -135,15 +173,27 @@ export const vancouvercanadaalaskaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only"],
-    description: "The Serenity Now is a magnificent gulet yacht built by Sunseeker offering exceptional amenities and impeccable service for an unforgettable sailing experience in vancouver.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/vancouver-serenity-now-1.jpg", "https://paragon-trails-yacht-images.com/gulet/vancouver-serenity-now-2.jpg", "https://paragon-trails-yacht-images.com/gulet/vancouver-serenity-now-3.jpg"],
+    description:
+      "The Serenity Now is a magnificent gulet yacht built by Sunseeker offering exceptional amenities and impeccable service for an unforgettable sailing experience in vancouver.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/vancouver-serenity-now-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/vancouver-serenity-now-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/vancouver-serenity-now-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 3676,
       perWeek: 21872.2,
       currency: "CAD",
       includes: ["Laundry Service", "Sun Deck"],
-      excludes: ["Laundry Service", "Sun Deck", "Jacuzzi", "Hot Tub", "Outdoor Shower", "BBQ Grill"],
+      excludes: [
+        "Laundry Service",
+        "Sun Deck",
+        "Jacuzzi",
+        "Hot Tub",
+        "Outdoor Shower",
+        "BBQ Grill",
+      ],
     },
     safetyFeatures: ["Life Rafts", "Fire Extinguishers", "Flares"],
     accessibilityFeatures: ["Accessible Bathroom"],
@@ -184,8 +234,15 @@ export const vancouvercanadaalaskaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Self-Catering"],
-    description: "The Azure Dreams is a magnificent motor yacht built by Ferretti offering exceptional amenities and impeccable service for an unforgettable sailing experience in vancouver.",
-    images: ["https://paragon-trails-yacht-images.com/motor/vancouver-azure-dreams-1.jpg", "https://paragon-trails-yacht-images.com/motor/vancouver-azure-dreams-2.jpg", "https://paragon-trails-yacht-images.com/motor/vancouver-azure-dreams-3.jpg", "https://paragon-trails-yacht-images.com/motor/vancouver-azure-dreams-4.jpg", "https://paragon-trails-yacht-images.com/motor/vancouver-azure-dreams-5.jpg"],
+    description:
+      "The Azure Dreams is a magnificent motor yacht built by Ferretti offering exceptional amenities and impeccable service for an unforgettable sailing experience in vancouver.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/vancouver-azure-dreams-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/vancouver-azure-dreams-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/vancouver-azure-dreams-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/vancouver-azure-dreams-4.jpg",
+      "https://paragon-trails-yacht-images.com/motor/vancouver-azure-dreams-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5982,
@@ -194,7 +251,13 @@ export const vancouvercanadaalaskaYachts: Yacht[] = [
       includes: ["Dining Area", "Stabilizers"],
       excludes: ["Dining Area", "Stabilizers", "Outdoor Shower"],
     },
-    safetyFeatures: ["Flares", "Emergency Radio", "First Aid Kit", "GPS Tracking", "Emergency Steering"],
+    safetyFeatures: [
+      "Flares",
+      "Emergency Radio",
+      "First Aid Kit",
+      "GPS Tracking",
+      "Emergency Steering",
+    ],
     accessibilityFeatures: [],
-  }
+  },
 ];

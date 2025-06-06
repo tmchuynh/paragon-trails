@@ -37,8 +37,14 @@ export const florenceitalymediterraneanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only", "No Catering"],
-    description: "Pearl Harbor combines performance and luxury in a stunning 28m motor yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/motor/florence-pearl-harbor-1.jpg", "https://paragon-trails-yacht-images.com/motor/florence-pearl-harbor-2.jpg", "https://paragon-trails-yacht-images.com/motor/florence-pearl-harbor-3.jpg", "https://paragon-trails-yacht-images.com/motor/florence-pearl-harbor-4.jpg"],
+    description:
+      "Pearl Harbor combines performance and luxury in a stunning 28m motor yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/florence-pearl-harbor-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/florence-pearl-harbor-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/florence-pearl-harbor-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/florence-pearl-harbor-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 12540,
@@ -47,7 +53,12 @@ export const florenceitalymediterraneanYachts: Yacht[] = [
       includes: ["Wi-Fi"],
       excludes: ["Wi-Fi", "BBQ Grill", "Outdoor Shower", "Indoor Lounge"],
     },
-    safetyFeatures: ["Fog Horn", "Emergency Radio", "Navigation Lights", "First Aid Kit"],
+    safetyFeatures: [
+      "Fog Horn",
+      "Emergency Radio",
+      "Navigation Lights",
+      "First Aid Kit",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -73,7 +84,14 @@ export const florenceitalymediterraneanYachts: Yacht[] = [
       crew: 4,
       bathrooms: 4,
     },
-    amenities: ["Indoor Lounge", "Sauna", "Bar", "Air Conditioning", "Hot Tub", "Dining Area"],
+    amenities: [
+      "Indoor Lounge",
+      "Sauna",
+      "Bar",
+      "Air Conditioning",
+      "Hot Tub",
+      "Dining Area",
+    ],
     entertainment: ["Media Library"],
     waterToys: ["E-Foil", "Wakeboard", "Towable Tubes"],
     location: {
@@ -86,8 +104,15 @@ export const florenceitalymediterraneanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only"],
-    description: "Golden Voyage combines performance and luxury in a stunning 33m motor yacht. With its professional crew of 4, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/motor/florence-golden-voyage-1.jpg", "https://paragon-trails-yacht-images.com/motor/florence-golden-voyage-2.jpg", "https://paragon-trails-yacht-images.com/motor/florence-golden-voyage-3.jpg", "https://paragon-trails-yacht-images.com/motor/florence-golden-voyage-4.jpg", "https://paragon-trails-yacht-images.com/motor/florence-golden-voyage-5.jpg"],
+    description:
+      "Golden Voyage combines performance and luxury in a stunning 33m motor yacht. With its professional crew of 4, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/florence-golden-voyage-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/florence-golden-voyage-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/florence-golden-voyage-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/florence-golden-voyage-4.jpg",
+      "https://paragon-trails-yacht-images.com/motor/florence-golden-voyage-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 13296,
@@ -124,7 +149,12 @@ export const florenceitalymediterraneanYachts: Yacht[] = [
     },
     amenities: ["Air Conditioning", "Wi-Fi"],
     entertainment: ["Onboard Cinema"],
-    waterToys: ["Scuba Diving Gear", "Floating Island", "Towable Tubes", "Inflatable Slide"],
+    waterToys: [
+      "Scuba Diving Gear",
+      "Floating Island",
+      "Towable Tubes",
+      "Inflatable Slide",
+    ],
     location: {
       city: "Florence",
       country: "Italy",
@@ -135,8 +165,14 @@ export const florenceitalymediterraneanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["No Catering"],
-    description: "Wave Dancer combines performance and luxury in a stunning 59m mega yacht. With its professional crew of 6, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/mega/florence-wave-dancer-1.jpg", "https://paragon-trails-yacht-images.com/mega/florence-wave-dancer-2.jpg", "https://paragon-trails-yacht-images.com/mega/florence-wave-dancer-3.jpg", "https://paragon-trails-yacht-images.com/mega/florence-wave-dancer-4.jpg"],
+    description:
+      "Wave Dancer combines performance and luxury in a stunning 59m mega yacht. With its professional crew of 6, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/florence-wave-dancer-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/florence-wave-dancer-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/florence-wave-dancer-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/florence-wave-dancer-4.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 34225,
@@ -184,8 +220,14 @@ export const florenceitalymediterraneanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["No Catering"],
-    description: "The Blue Horizon is a magnificent mega yacht built by Wally offering exceptional amenities and impeccable service for an unforgettable sailing experience in florence.",
-    images: ["https://paragon-trails-yacht-images.com/mega/florence-blue-horizon-1.jpg", "https://paragon-trails-yacht-images.com/mega/florence-blue-horizon-2.jpg", "https://paragon-trails-yacht-images.com/mega/florence-blue-horizon-3.jpg", "https://paragon-trails-yacht-images.com/mega/florence-blue-horizon-4.jpg"],
+    description:
+      "The Blue Horizon is a magnificent mega yacht built by Wally offering exceptional amenities and impeccable service for an unforgettable sailing experience in florence.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/florence-blue-horizon-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/florence-blue-horizon-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/florence-blue-horizon-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/florence-blue-horizon-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 22542,
@@ -233,8 +275,13 @@ export const florenceitalymediterraneanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages", "Self-Catering"],
-    description: "Infinity Seas combines performance and luxury in a stunning 22m gulet yacht. With its professional crew of 4, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/florence-infinity-seas-1.jpg", "https://paragon-trails-yacht-images.com/gulet/florence-infinity-seas-2.jpg", "https://paragon-trails-yacht-images.com/gulet/florence-infinity-seas-3.jpg"],
+    description:
+      "Infinity Seas combines performance and luxury in a stunning 22m gulet yacht. With its professional crew of 4, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/florence-infinity-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/florence-infinity-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/florence-infinity-seas-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5509,
@@ -245,5 +292,5 @@ export const florenceitalymediterraneanYachts: Yacht[] = [
     },
     safetyFeatures: ["Fire Extinguishers", "Flares", "Life Jackets"],
     accessibilityFeatures: [],
-  }
+  },
 ];

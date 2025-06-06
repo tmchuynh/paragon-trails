@@ -24,7 +24,13 @@ export const montrealcanadaeastCoastCanadaYachts: Yacht[] = [
       crew: 7,
       bathrooms: 4,
     },
-    amenities: ["Sun Deck", "Heated Deck", "Air Conditioning", "Indoor Lounge", "Sauna"],
+    amenities: [
+      "Sun Deck",
+      "Heated Deck",
+      "Air Conditioning",
+      "Indoor Lounge",
+      "Sauna",
+    ],
     entertainment: ["Streaming Services", "Game Console"],
     waterToys: ["Inflatable Slide", "Jet Ski", "Windsurf"],
     location: {
@@ -37,15 +43,26 @@ export const montrealcanadaeastCoastCanadaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: false,
     cateringOptions: ["À La Carte"],
-    description: "Pearl Harbor combines performance and luxury in a stunning 44m mega yacht. With its professional crew of 7, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/mega/montreal-pearl-harbor-1.jpg", "https://paragon-trails-yacht-images.com/mega/montreal-pearl-harbor-2.jpg", "https://paragon-trails-yacht-images.com/mega/montreal-pearl-harbor-3.jpg"],
+    description:
+      "Pearl Harbor combines performance and luxury in a stunning 44m mega yacht. With its professional crew of 7, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/montreal-pearl-harbor-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/montreal-pearl-harbor-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/montreal-pearl-harbor-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 44917,
       perWeek: 267256.14999999997,
       currency: "CAD",
       includes: ["Sun Deck"],
-      excludes: ["Sun Deck", "Heated Deck", "Air Conditioning", "Indoor Lounge", "Sauna"],
+      excludes: [
+        "Sun Deck",
+        "Heated Deck",
+        "Air Conditioning",
+        "Indoor Lounge",
+        "Sauna",
+      ],
     },
     safetyFeatures: ["Life Rafts", "First Aid Kit", "EPIRB"],
     accessibilityFeatures: [],
@@ -86,8 +103,14 @@ export const montrealcanadaeastCoastCanadaYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: false,
     cateringOptions: ["Self-Catering"],
-    description: "Azure Dreams combines performance and luxury in a stunning 21m sailing yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/montreal-azure-dreams-1.jpg", "https://paragon-trails-yacht-images.com/sailing/montreal-azure-dreams-2.jpg", "https://paragon-trails-yacht-images.com/sailing/montreal-azure-dreams-3.jpg", "https://paragon-trails-yacht-images.com/sailing/montreal-azure-dreams-4.jpg"],
+    description:
+      "Azure Dreams combines performance and luxury in a stunning 21m sailing yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/montreal-azure-dreams-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/montreal-azure-dreams-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/montreal-azure-dreams-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/montreal-azure-dreams-4.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 9411,
@@ -96,7 +119,13 @@ export const montrealcanadaeastCoastCanadaYachts: Yacht[] = [
       includes: ["Jacuzzi", "Kitchen"],
       excludes: ["Jacuzzi", "Kitchen", "Sauna", "BBQ Grill"],
     },
-    safetyFeatures: ["Life Rafts", "EPIRB", "Life Jackets", "Emergency Beacon", "Fog Horn"],
+    safetyFeatures: [
+      "Life Rafts",
+      "EPIRB",
+      "Life Jackets",
+      "Emergency Beacon",
+      "Fog Horn",
+    ],
     accessibilityFeatures: ["Handrails"],
   },
   {
@@ -135,8 +164,14 @@ export const montrealcanadaeastCoastCanadaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Full-Service Catering"],
-    description: "Aegean Beauty combines performance and luxury in a stunning 15m catamaran yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/montreal-aegean-beauty-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/montreal-aegean-beauty-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/montreal-aegean-beauty-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/montreal-aegean-beauty-4.jpg"],
+    description:
+      "Aegean Beauty combines performance and luxury in a stunning 15m catamaran yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/montreal-aegean-beauty-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/montreal-aegean-beauty-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/montreal-aegean-beauty-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/montreal-aegean-beauty-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 4923,
@@ -184,8 +219,15 @@ export const montrealcanadaeastCoastCanadaYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Picnic-Style"],
-    description: "Charter the impressive Baltic Star in montreal and enjoy its 6 luxury amenities and 2 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/mega/montreal-baltic-star-1.jpg", "https://paragon-trails-yacht-images.com/mega/montreal-baltic-star-2.jpg", "https://paragon-trails-yacht-images.com/mega/montreal-baltic-star-3.jpg", "https://paragon-trails-yacht-images.com/mega/montreal-baltic-star-4.jpg", "https://paragon-trails-yacht-images.com/mega/montreal-baltic-star-5.jpg"],
+    description:
+      "Charter the impressive Baltic Star in montreal and enjoy its 6 luxury amenities and 2 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/montreal-baltic-star-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/montreal-baltic-star-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/montreal-baltic-star-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/montreal-baltic-star-4.jpg",
+      "https://paragon-trails-yacht-images.com/mega/montreal-baltic-star-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 22356,
@@ -194,7 +236,12 @@ export const montrealcanadaeastCoastCanadaYachts: Yacht[] = [
       includes: ["Wi-Fi", "Sauna", "Indoor Lounge"],
       excludes: ["Wi-Fi", "Sauna", "Indoor Lounge", "Sun Deck", "Bar"],
     },
-    safetyFeatures: ["Emergency Steering", "Navigation Lights", "Radar", "GPS Tracking"],
+    safetyFeatures: [
+      "Emergency Steering",
+      "Navigation Lights",
+      "Radar",
+      "GPS Tracking",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -220,9 +267,23 @@ export const montrealcanadaeastCoastCanadaYachts: Yacht[] = [
       crew: 4,
       bathrooms: 6,
     },
-    amenities: ["Outdoor Shower", "Bar", "Stabilizers", "Swim Platform", "Sun Deck", "Heated Deck", "Jacuzzi"],
+    amenities: [
+      "Outdoor Shower",
+      "Bar",
+      "Stabilizers",
+      "Swim Platform",
+      "Sun Deck",
+      "Heated Deck",
+      "Jacuzzi",
+    ],
     entertainment: ["Game Console", "Board Games"],
-    waterToys: ["Kayaks", "Towable Tubes", "Windsurf", "Inflatable Slide", "Fishing Equipment"],
+    waterToys: [
+      "Kayaks",
+      "Towable Tubes",
+      "Windsurf",
+      "Inflatable Slide",
+      "Fishing Equipment",
+    ],
     location: {
       city: "Montreal",
       country: "Canada",
@@ -233,17 +294,32 @@ export const montrealcanadaeastCoastCanadaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: false,
     cateringOptions: ["À La Carte"],
-    description: "Experience luxury and comfort aboard the Sovereign Waters, a stunning 17m gulet yacht available for charter in montreal. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/montreal-sovereign-waters-1.jpg", "https://paragon-trails-yacht-images.com/gulet/montreal-sovereign-waters-2.jpg", "https://paragon-trails-yacht-images.com/gulet/montreal-sovereign-waters-3.jpg", "https://paragon-trails-yacht-images.com/gulet/montreal-sovereign-waters-4.jpg", "https://paragon-trails-yacht-images.com/gulet/montreal-sovereign-waters-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Sovereign Waters, a stunning 17m gulet yacht available for charter in montreal. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/montreal-sovereign-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/montreal-sovereign-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/montreal-sovereign-waters-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/montreal-sovereign-waters-4.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/montreal-sovereign-waters-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 7011,
       perWeek: 41715.45,
       currency: "CAD",
       includes: ["Outdoor Shower", "Bar"],
-      excludes: ["Outdoor Shower", "Bar", "Stabilizers", "Swim Platform", "Sun Deck", "Heated Deck", "Jacuzzi"],
+      excludes: [
+        "Outdoor Shower",
+        "Bar",
+        "Stabilizers",
+        "Swim Platform",
+        "Sun Deck",
+        "Heated Deck",
+        "Jacuzzi",
+      ],
     },
     safetyFeatures: ["GPS Tracking", "Emergency Beacon"],
     accessibilityFeatures: [],
-  }
+  },
 ];

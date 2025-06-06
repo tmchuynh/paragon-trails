@@ -37,8 +37,14 @@ export const losAngelesunitedStateswestCoastUsaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Full-Service Catering"],
-    description: "Experience luxury and comfort aboard the Adriatic Splendor, a stunning 59m mega yacht available for charter in los-angeles. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/mega/los-angeles-adriatic-splendor-1.jpg", "https://paragon-trails-yacht-images.com/mega/los-angeles-adriatic-splendor-2.jpg", "https://paragon-trails-yacht-images.com/mega/los-angeles-adriatic-splendor-3.jpg", "https://paragon-trails-yacht-images.com/mega/los-angeles-adriatic-splendor-4.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Adriatic Splendor, a stunning 59m mega yacht available for charter in los-angeles. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/los-angeles-adriatic-splendor-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/los-angeles-adriatic-splendor-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/los-angeles-adriatic-splendor-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/los-angeles-adriatic-splendor-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 20166,
@@ -73,9 +79,20 @@ export const losAngelesunitedStateswestCoastUsaYachts: Yacht[] = [
       crew: 2,
       bathrooms: 4,
     },
-    amenities: ["Indoor Lounge", "Sauna", "Jacuzzi", "Outdoor Shower", "Hot Tub"],
+    amenities: [
+      "Indoor Lounge",
+      "Sauna",
+      "Jacuzzi",
+      "Outdoor Shower",
+      "Hot Tub",
+    ],
     entertainment: ["Satellite TV", "Onboard Cinema", "Board Games"],
-    waterToys: ["Scuba Diving Gear", "Floating Island", "Snorkeling Gear", "Kayaks"],
+    waterToys: [
+      "Scuba Diving Gear",
+      "Floating Island",
+      "Snorkeling Gear",
+      "Kayaks",
+    ],
     location: {
       city: "Los-angeles",
       country: "United States",
@@ -86,8 +103,15 @@ export const losAngelesunitedStateswestCoastUsaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only"],
-    description: "Discover the beauty of los-angeles's waters aboard the elegant Aquamarine, a 2007 sailing yacht featuring spacious accommodation for 7 guests overnight or 6 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/los-angeles-aquamarine-1.jpg", "https://paragon-trails-yacht-images.com/sailing/los-angeles-aquamarine-2.jpg", "https://paragon-trails-yacht-images.com/sailing/los-angeles-aquamarine-3.jpg", "https://paragon-trails-yacht-images.com/sailing/los-angeles-aquamarine-4.jpg", "https://paragon-trails-yacht-images.com/sailing/los-angeles-aquamarine-5.jpg"],
+    description:
+      "Discover the beauty of los-angeles's waters aboard the elegant Aquamarine, a 2007 sailing yacht featuring spacious accommodation for 7 guests overnight or 6 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/los-angeles-aquamarine-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/los-angeles-aquamarine-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/los-angeles-aquamarine-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/los-angeles-aquamarine-4.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/los-angeles-aquamarine-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8139,
@@ -124,7 +148,13 @@ export const losAngelesunitedStateswestCoastUsaYachts: Yacht[] = [
     },
     amenities: ["Dining Area", "Stabilizers", "Tender Garage"],
     entertainment: ["Karaoke System"],
-    waterToys: ["Inflatable Slide", "Water Skis", "Kneeboard", "Kayaks", "E-Foil"],
+    waterToys: [
+      "Inflatable Slide",
+      "Water Skis",
+      "Kneeboard",
+      "Kayaks",
+      "E-Foil",
+    ],
     location: {
       city: "Los-angeles",
       country: "United States",
@@ -135,8 +165,15 @@ export const losAngelesunitedStateswestCoastUsaYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Self-Catering"],
-    description: "Discover the beauty of los-angeles's waters aboard the elegant Diamond Seas, a 2013 motor yacht featuring spacious accommodation for 6 guests overnight or 10 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/motor/los-angeles-diamond-seas-1.jpg", "https://paragon-trails-yacht-images.com/motor/los-angeles-diamond-seas-2.jpg", "https://paragon-trails-yacht-images.com/motor/los-angeles-diamond-seas-3.jpg", "https://paragon-trails-yacht-images.com/motor/los-angeles-diamond-seas-4.jpg", "https://paragon-trails-yacht-images.com/motor/los-angeles-diamond-seas-5.jpg"],
+    description:
+      "Discover the beauty of los-angeles's waters aboard the elegant Diamond Seas, a 2013 motor yacht featuring spacious accommodation for 6 guests overnight or 10 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/los-angeles-diamond-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/los-angeles-diamond-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/los-angeles-diamond-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/los-angeles-diamond-seas-4.jpg",
+      "https://paragon-trails-yacht-images.com/motor/los-angeles-diamond-seas-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 13343,
@@ -184,8 +221,15 @@ export const losAngelesunitedStateswestCoastUsaYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only"],
-    description: "Charter the impressive Pacific Explorer in los-angeles and enjoy its 4 luxury amenities and 4 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/super/los-angeles-pacific-explorer-1.jpg", "https://paragon-trails-yacht-images.com/super/los-angeles-pacific-explorer-2.jpg", "https://paragon-trails-yacht-images.com/super/los-angeles-pacific-explorer-3.jpg", "https://paragon-trails-yacht-images.com/super/los-angeles-pacific-explorer-4.jpg", "https://paragon-trails-yacht-images.com/super/los-angeles-pacific-explorer-5.jpg"],
+    description:
+      "Charter the impressive Pacific Explorer in los-angeles and enjoy its 4 luxury amenities and 4 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/los-angeles-pacific-explorer-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/los-angeles-pacific-explorer-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/los-angeles-pacific-explorer-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/los-angeles-pacific-explorer-4.jpg",
+      "https://paragon-trails-yacht-images.com/super/los-angeles-pacific-explorer-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 86633,
@@ -194,7 +238,13 @@ export const losAngelesunitedStateswestCoastUsaYachts: Yacht[] = [
       includes: ["Swim Platform", "Laundry Service"],
       excludes: ["Swim Platform", "Laundry Service", "Heated Deck", "Bar"],
     },
-    safetyFeatures: ["Flares", "Searchlight", "Navigation Lights", "Radar", "First Aid Kit"],
+    safetyFeatures: [
+      "Flares",
+      "Searchlight",
+      "Navigation Lights",
+      "Radar",
+      "First Aid Kit",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -222,7 +272,13 @@ export const losAngelesunitedStateswestCoastUsaYachts: Yacht[] = [
     },
     amenities: ["Sauna", "Laundry Service", "Sun Deck", "BBQ Grill", "Kitchen"],
     entertainment: ["DJ Equipment", "Onboard Cinema", "Satellite TV"],
-    waterToys: ["Seabob", "Jet Ski", "Inflatable Slide", "Scuba Diving Gear", "Wakeboard"],
+    waterToys: [
+      "Seabob",
+      "Jet Ski",
+      "Inflatable Slide",
+      "Scuba Diving Gear",
+      "Wakeboard",
+    ],
     location: {
       city: "Los-angeles",
       country: "United States",
@@ -233,17 +289,35 @@ export const losAngelesunitedStateswestCoastUsaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["No Catering"],
-    description: "Discover the beauty of los-angeles's waters aboard the elegant Adriatic Queen, a 2009 catamaran yacht featuring spacious accommodation for 6 guests overnight or 9 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/los-angeles-adriatic-queen-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/los-angeles-adriatic-queen-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/los-angeles-adriatic-queen-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/los-angeles-adriatic-queen-4.jpg"],
+    description:
+      "Discover the beauty of los-angeles's waters aboard the elegant Adriatic Queen, a 2009 catamaran yacht featuring spacious accommodation for 6 guests overnight or 9 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/los-angeles-adriatic-queen-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/los-angeles-adriatic-queen-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/los-angeles-adriatic-queen-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/los-angeles-adriatic-queen-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6198,
       perWeek: 36878.1,
       currency: "USD",
       includes: ["Sauna"],
-      excludes: ["Sauna", "Laundry Service", "Sun Deck", "BBQ Grill", "Kitchen"],
+      excludes: [
+        "Sauna",
+        "Laundry Service",
+        "Sun Deck",
+        "BBQ Grill",
+        "Kitchen",
+      ],
     },
-    safetyFeatures: ["Fog Horn", "Life Rafts", "Emergency Radio", "Fire Extinguishers", "Emergency Steering"],
+    safetyFeatures: [
+      "Fog Horn",
+      "Life Rafts",
+      "Emergency Radio",
+      "Fire Extinguishers",
+      "Emergency Steering",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -282,8 +356,14 @@ export const losAngelesunitedStateswestCoastUsaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: false,
     cateringOptions: ["Local Cuisine Packages"],
-    description: "Charter the impressive Ruby Tides in los-angeles and enjoy its 3 luxury amenities and 3 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/super/los-angeles-ruby-tides-1.jpg", "https://paragon-trails-yacht-images.com/super/los-angeles-ruby-tides-2.jpg", "https://paragon-trails-yacht-images.com/super/los-angeles-ruby-tides-3.jpg", "https://paragon-trails-yacht-images.com/super/los-angeles-ruby-tides-4.jpg"],
+    description:
+      "Charter the impressive Ruby Tides in los-angeles and enjoy its 3 luxury amenities and 3 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/los-angeles-ruby-tides-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/los-angeles-ruby-tides-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/los-angeles-ruby-tides-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/los-angeles-ruby-tides-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 146588,
@@ -292,7 +372,12 @@ export const losAngelesunitedStateswestCoastUsaYachts: Yacht[] = [
       includes: ["Jacuzzi", "Indoor Lounge", "Kitchen"],
       excludes: ["Jacuzzi", "Indoor Lounge", "Kitchen"],
     },
-    safetyFeatures: ["Radar", "Emergency Beacon", "Life Jackets", "Fire Extinguishers"],
+    safetyFeatures: [
+      "Radar",
+      "Emergency Beacon",
+      "Life Jackets",
+      "Fire Extinguishers",
+    ],
     accessibilityFeatures: ["Wide Doorways"],
-  }
+  },
 ];

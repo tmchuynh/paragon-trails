@@ -24,7 +24,14 @@ export const amalfiCoastYachts: Yacht[] = [
       crew: 8,
       bathrooms: 9,
     },
-    amenities: ["Dining Area", "Hot Tub", "Outdoor Shower", "Sun Deck", "Laundry Service", "Swim Platform"],
+    amenities: [
+      "Dining Area",
+      "Hot Tub",
+      "Outdoor Shower",
+      "Sun Deck",
+      "Laundry Service",
+      "Swim Platform",
+    ],
     entertainment: ["Onboard Cinema", "Media Library"],
     waterToys: ["E-Foil", "Kneeboard", "Kayaks"],
     location: {
@@ -37,8 +44,14 @@ export const amalfiCoastYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive", "Provisioning Only"],
-    description: "Experience luxury and comfort aboard the Elite Waves, a stunning 56m mega yacht available for charter in amalfi-coast. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/mega/amalfi-coast-elite-waves-1.jpg", "https://paragon-trails-yacht-images.com/mega/amalfi-coast-elite-waves-2.jpg", "https://paragon-trails-yacht-images.com/mega/amalfi-coast-elite-waves-3.jpg", "https://paragon-trails-yacht-images.com/mega/amalfi-coast-elite-waves-4.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Elite Waves, a stunning 56m mega yacht available for charter in amalfi-coast. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/amalfi-coast-elite-waves-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/amalfi-coast-elite-waves-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/amalfi-coast-elite-waves-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/amalfi-coast-elite-waves-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 33597,
@@ -86,8 +99,13 @@ export const amalfiCoastYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: false,
     cateringOptions: ["Breakfast Only"],
-    description: "The Luxury Waters is a magnificent super yacht built by Heesen offering exceptional amenities and impeccable service for an unforgettable sailing experience in amalfi-coast.",
-    images: ["https://paragon-trails-yacht-images.com/super/amalfi-coast-luxury-waters-1.jpg", "https://paragon-trails-yacht-images.com/super/amalfi-coast-luxury-waters-2.jpg", "https://paragon-trails-yacht-images.com/super/amalfi-coast-luxury-waters-3.jpg"],
+    description:
+      "The Luxury Waters is a magnificent super yacht built by Heesen offering exceptional amenities and impeccable service for an unforgettable sailing experience in amalfi-coast.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/amalfi-coast-luxury-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/amalfi-coast-luxury-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/amalfi-coast-luxury-waters-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 84691,
@@ -96,7 +114,12 @@ export const amalfiCoastYachts: Yacht[] = [
       includes: ["Sun Deck"],
       excludes: ["Sun Deck", "Kitchen", "Sauna", "Jacuzzi"],
     },
-    safetyFeatures: ["Emergency Radio", "Navigation Lights", "Life Jackets", "Flares"],
+    safetyFeatures: [
+      "Emergency Radio",
+      "Navigation Lights",
+      "Life Jackets",
+      "Flares",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -122,7 +145,13 @@ export const amalfiCoastYachts: Yacht[] = [
       crew: 4,
       bathrooms: 5,
     },
-    amenities: ["Tender Garage", "Swim Platform", "Bar", "Indoor Lounge", "Hot Tub"],
+    amenities: [
+      "Tender Garage",
+      "Swim Platform",
+      "Bar",
+      "Indoor Lounge",
+      "Hot Tub",
+    ],
     entertainment: ["Onboard Cinema"],
     waterToys: ["E-Foil", "Water Skis", "Jet Ski", "Wakeboard", "Paddleboards"],
     location: {
@@ -135,17 +164,35 @@ export const amalfiCoastYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["No Catering"],
-    description: "Experience luxury and comfort aboard the Silver Horizon, a stunning 21m gulet yacht available for charter in amalfi-coast. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/amalfi-coast-silver-horizon-1.jpg", "https://paragon-trails-yacht-images.com/gulet/amalfi-coast-silver-horizon-2.jpg", "https://paragon-trails-yacht-images.com/gulet/amalfi-coast-silver-horizon-3.jpg", "https://paragon-trails-yacht-images.com/gulet/amalfi-coast-silver-horizon-4.jpg", "https://paragon-trails-yacht-images.com/gulet/amalfi-coast-silver-horizon-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Silver Horizon, a stunning 21m gulet yacht available for charter in amalfi-coast. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/amalfi-coast-silver-horizon-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/amalfi-coast-silver-horizon-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/amalfi-coast-silver-horizon-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/amalfi-coast-silver-horizon-4.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/amalfi-coast-silver-horizon-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6019,
       perWeek: 35813.049999999996,
       currency: "USD",
       includes: ["Tender Garage"],
-      excludes: ["Tender Garage", "Swim Platform", "Bar", "Indoor Lounge", "Hot Tub"],
+      excludes: [
+        "Tender Garage",
+        "Swim Platform",
+        "Bar",
+        "Indoor Lounge",
+        "Hot Tub",
+      ],
     },
-    safetyFeatures: ["Fog Horn", "Emergency Beacon", "Life Rafts", "Emergency Radio"],
+    safetyFeatures: [
+      "Fog Horn",
+      "Emergency Beacon",
+      "Life Rafts",
+      "Emergency Radio",
+    ],
     accessibilityFeatures: [],
-  }
+  },
 ];

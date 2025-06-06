@@ -24,7 +24,13 @@ export const athensgreecemediterraneanYachts: Yacht[] = [
       crew: 3,
       bathrooms: 7,
     },
-    amenities: ["Sun Deck", "Dining Area", "Kitchen", "Jacuzzi", "Tender Garage"],
+    amenities: [
+      "Sun Deck",
+      "Dining Area",
+      "Kitchen",
+      "Jacuzzi",
+      "Tender Garage",
+    ],
     entertainment: ["Surround Sound System"],
     waterToys: ["Scuba Diving Gear", "Paddleboards", "Towable Tubes"],
     location: {
@@ -37,8 +43,15 @@ export const athensgreecemediterraneanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages"],
-    description: "Atlantic Breeze combines performance and luxury in a stunning 20m catamaran yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/athens-atlantic-breeze-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/athens-atlantic-breeze-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/athens-atlantic-breeze-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/athens-atlantic-breeze-4.jpg", "https://paragon-trails-yacht-images.com/catamaran/athens-atlantic-breeze-5.jpg"],
+    description:
+      "Atlantic Breeze combines performance and luxury in a stunning 20m catamaran yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/athens-atlantic-breeze-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/athens-atlantic-breeze-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/athens-atlantic-breeze-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/athens-atlantic-breeze-4.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/athens-atlantic-breeze-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8750,
@@ -47,7 +60,12 @@ export const athensgreecemediterraneanYachts: Yacht[] = [
       includes: ["Sun Deck"],
       excludes: ["Tender Garage"],
     },
-    safetyFeatures: ["First Aid Kit", "Life Jackets", "Emergency Beacon", "Flares"],
+    safetyFeatures: [
+      "First Aid Kit",
+      "Life Jackets",
+      "Emergency Beacon",
+      "Flares",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -86,8 +104,13 @@ export const athensgreecemediterraneanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: false,
     cateringOptions: ["À La Carte"],
-    description: "The Caribbean Pearl is a magnificent gulet yacht built by Pershing offering exceptional amenities and impeccable service for an unforgettable sailing experience in athens.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/athens-caribbean-pearl-1.jpg", "https://paragon-trails-yacht-images.com/gulet/athens-caribbean-pearl-2.jpg", "https://paragon-trails-yacht-images.com/gulet/athens-caribbean-pearl-3.jpg"],
+    description:
+      "The Caribbean Pearl is a magnificent gulet yacht built by Pershing offering exceptional amenities and impeccable service for an unforgettable sailing experience in athens.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/athens-caribbean-pearl-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/athens-caribbean-pearl-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/athens-caribbean-pearl-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5719,
@@ -122,7 +145,13 @@ export const athensgreecemediterraneanYachts: Yacht[] = [
       crew: 5,
       bathrooms: 5,
     },
-    amenities: ["Air Conditioning", "Sun Deck", "Tender Garage", "Outdoor Shower", "Sauna"],
+    amenities: [
+      "Air Conditioning",
+      "Sun Deck",
+      "Tender Garage",
+      "Outdoor Shower",
+      "Sauna",
+    ],
     entertainment: ["Satellite TV"],
     waterToys: ["Kneeboard", "Inflatable Slide"],
     location: {
@@ -135,8 +164,13 @@ export const athensgreecemediterraneanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["BBQ Onboard"],
-    description: "The Royal Wave is a magnificent gulet yacht built by Pershing offering exceptional amenities and impeccable service for an unforgettable sailing experience in athens.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/athens-royal-wave-1.jpg", "https://paragon-trails-yacht-images.com/gulet/athens-royal-wave-2.jpg", "https://paragon-trails-yacht-images.com/gulet/athens-royal-wave-3.jpg"],
+    description:
+      "The Royal Wave is a magnificent gulet yacht built by Pershing offering exceptional amenities and impeccable service for an unforgettable sailing experience in athens.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/athens-royal-wave-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/athens-royal-wave-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/athens-royal-wave-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6340,
@@ -147,5 +181,5 @@ export const athensgreecemediterraneanYachts: Yacht[] = [
     },
     safetyFeatures: ["Emergency Radio", "Flares", "First Aid Kit"],
     accessibilityFeatures: [],
-  }
+  },
 ];

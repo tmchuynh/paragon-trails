@@ -24,7 +24,14 @@ export const oslonorwaynorthernEuropeYachts: Yacht[] = [
       crew: 2,
       bathrooms: 3,
     },
-    amenities: ["Sauna", "Stabilizers", "Jacuzzi", "Sun Deck", "Laundry Service", "Swim Platform"],
+    amenities: [
+      "Sauna",
+      "Stabilizers",
+      "Jacuzzi",
+      "Sun Deck",
+      "Laundry Service",
+      "Swim Platform",
+    ],
     entertainment: ["Onboard Cinema", "Game Console", "Karaoke System"],
     waterToys: ["Kneeboard", "Water Skis", "Fishing Equipment", "E-Foil"],
     location: {
@@ -37,15 +44,29 @@ export const oslonorwaynorthernEuropeYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Full-Service Catering"],
-    description: "Charter the impressive Golden Voyage in oslo and enjoy its 7 luxury amenities and 4 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/oslo-golden-voyage-1.jpg", "https://paragon-trails-yacht-images.com/sailing/oslo-golden-voyage-2.jpg", "https://paragon-trails-yacht-images.com/sailing/oslo-golden-voyage-3.jpg", "https://paragon-trails-yacht-images.com/sailing/oslo-golden-voyage-4.jpg", "https://paragon-trails-yacht-images.com/sailing/oslo-golden-voyage-5.jpg"],
+    description:
+      "Charter the impressive Golden Voyage in oslo and enjoy its 7 luxury amenities and 4 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/oslo-golden-voyage-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/oslo-golden-voyage-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/oslo-golden-voyage-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/oslo-golden-voyage-4.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/oslo-golden-voyage-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 6804,
       perWeek: 40483.799999999996,
       currency: "EUR",
       includes: ["Sauna", "Stabilizers"],
-      excludes: ["Sauna", "Stabilizers", "Jacuzzi", "Sun Deck", "Laundry Service", "Swim Platform"],
+      excludes: [
+        "Sauna",
+        "Stabilizers",
+        "Jacuzzi",
+        "Sun Deck",
+        "Laundry Service",
+        "Swim Platform",
+      ],
     },
     safetyFeatures: ["Life Rafts", "Radar", "Emergency Steering"],
     accessibilityFeatures: [],
@@ -86,8 +107,13 @@ export const oslonorwaynorthernEuropeYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only"],
-    description: "Azure Dreams combines performance and luxury in a stunning 34m gulet yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/oslo-azure-dreams-1.jpg", "https://paragon-trails-yacht-images.com/gulet/oslo-azure-dreams-2.jpg", "https://paragon-trails-yacht-images.com/gulet/oslo-azure-dreams-3.jpg"],
+    description:
+      "Azure Dreams combines performance and luxury in a stunning 34m gulet yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/oslo-azure-dreams-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/oslo-azure-dreams-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/oslo-azure-dreams-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6644,
@@ -96,7 +122,13 @@ export const oslonorwaynorthernEuropeYachts: Yacht[] = [
       includes: ["Indoor Lounge", "Jacuzzi", "BBQ Grill"],
       excludes: ["Indoor Lounge", "Jacuzzi", "BBQ Grill"],
     },
-    safetyFeatures: ["Navigation Lights", "GPS Tracking", "Emergency Steering", "Searchlight", "Fog Horn"],
+    safetyFeatures: [
+      "Navigation Lights",
+      "GPS Tracking",
+      "Emergency Steering",
+      "Searchlight",
+      "Fog Horn",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -122,7 +154,15 @@ export const oslonorwaynorthernEuropeYachts: Yacht[] = [
       crew: 16,
       bathrooms: 12,
     },
-    amenities: ["Outdoor Shower", "Sauna", "Kitchen", "Stabilizers", "Wi-Fi", "Tender Garage", "Hot Tub"],
+    amenities: [
+      "Outdoor Shower",
+      "Sauna",
+      "Kitchen",
+      "Stabilizers",
+      "Wi-Fi",
+      "Tender Garage",
+      "Hot Tub",
+    ],
     entertainment: ["Surround Sound System", "DJ Equipment"],
     waterToys: ["Windsurf", "Seabob", "Scuba Diving Gear", "Towable Tubes"],
     location: {
@@ -135,8 +175,14 @@ export const oslonorwaynorthernEuropeYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: false,
     cateringOptions: ["All-Inclusive"],
-    description: "Experience luxury and comfort aboard the Azure Blue, a stunning 78m super yacht available for charter in oslo. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/super/oslo-azure-blue-1.jpg", "https://paragon-trails-yacht-images.com/super/oslo-azure-blue-2.jpg", "https://paragon-trails-yacht-images.com/super/oslo-azure-blue-3.jpg", "https://paragon-trails-yacht-images.com/super/oslo-azure-blue-4.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Azure Blue, a stunning 78m super yacht available for charter in oslo. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/oslo-azure-blue-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/oslo-azure-blue-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/oslo-azure-blue-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/oslo-azure-blue-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 185264,
@@ -171,7 +217,13 @@ export const oslonorwaynorthernEuropeYachts: Yacht[] = [
       crew: 3,
       bathrooms: 7,
     },
-    amenities: ["Laundry Service", "Stabilizers", "Air Conditioning", "BBQ Grill", "Outdoor Shower"],
+    amenities: [
+      "Laundry Service",
+      "Stabilizers",
+      "Air Conditioning",
+      "BBQ Grill",
+      "Outdoor Shower",
+    ],
     entertainment: ["Media Library"],
     waterToys: ["E-Foil", "Windsurf"],
     location: {
@@ -184,8 +236,15 @@ export const oslonorwaynorthernEuropeYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: false,
     cateringOptions: ["Full-Service Catering", "Chef Onboard"],
-    description: "Discover the beauty of oslo's waters aboard the elegant Mediterranean Gem, a 2006 gulet yacht featuring spacious accommodation for 11 guests overnight or 14 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/oslo-mediterranean-gem-1.jpg", "https://paragon-trails-yacht-images.com/gulet/oslo-mediterranean-gem-2.jpg", "https://paragon-trails-yacht-images.com/gulet/oslo-mediterranean-gem-3.jpg", "https://paragon-trails-yacht-images.com/gulet/oslo-mediterranean-gem-4.jpg", "https://paragon-trails-yacht-images.com/gulet/oslo-mediterranean-gem-5.jpg"],
+    description:
+      "Discover the beauty of oslo's waters aboard the elegant Mediterranean Gem, a 2006 gulet yacht featuring spacious accommodation for 11 guests overnight or 14 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/oslo-mediterranean-gem-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/oslo-mediterranean-gem-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/oslo-mediterranean-gem-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/oslo-mediterranean-gem-4.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/oslo-mediterranean-gem-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7958,
@@ -222,7 +281,13 @@ export const oslonorwaynorthernEuropeYachts: Yacht[] = [
     },
     amenities: ["Air Conditioning", "Laundry Service", "Wi-Fi"],
     entertainment: ["Streaming Services", "Board Games", "Karaoke System"],
-    waterToys: ["Kneeboard", "Inflatable Slide", "E-Foil", "Seabob", "Water Skis"],
+    waterToys: [
+      "Kneeboard",
+      "Inflatable Slide",
+      "E-Foil",
+      "Seabob",
+      "Water Skis",
+    ],
     location: {
       city: "Oslo",
       country: "Norway",
@@ -233,8 +298,15 @@ export const oslonorwaynorthernEuropeYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard", "Self-Catering"],
-    description: "The Luxury Waters is a magnificent gulet yacht built by Lagoon offering exceptional amenities and impeccable service for an unforgettable sailing experience in oslo.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/oslo-luxury-waters-1.jpg", "https://paragon-trails-yacht-images.com/gulet/oslo-luxury-waters-2.jpg", "https://paragon-trails-yacht-images.com/gulet/oslo-luxury-waters-3.jpg", "https://paragon-trails-yacht-images.com/gulet/oslo-luxury-waters-4.jpg", "https://paragon-trails-yacht-images.com/gulet/oslo-luxury-waters-5.jpg"],
+    description:
+      "The Luxury Waters is a magnificent gulet yacht built by Lagoon offering exceptional amenities and impeccable service for an unforgettable sailing experience in oslo.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/oslo-luxury-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/oslo-luxury-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/oslo-luxury-waters-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/oslo-luxury-waters-4.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/oslo-luxury-waters-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 4616,
@@ -282,8 +354,13 @@ export const oslonorwaynorthernEuropeYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Picnic-Style", "All-Inclusive"],
-    description: "Discover the beauty of oslo's waters aboard the elegant Serenity Now, a 2019 motor yacht featuring spacious accommodation for 9 guests overnight or 13 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/motor/oslo-serenity-now-1.jpg", "https://paragon-trails-yacht-images.com/motor/oslo-serenity-now-2.jpg", "https://paragon-trails-yacht-images.com/motor/oslo-serenity-now-3.jpg"],
+    description:
+      "Discover the beauty of oslo's waters aboard the elegant Serenity Now, a 2019 motor yacht featuring spacious accommodation for 9 guests overnight or 13 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/oslo-serenity-now-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/oslo-serenity-now-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/oslo-serenity-now-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 11686,
@@ -294,5 +371,5 @@ export const oslonorwaynorthernEuropeYachts: Yacht[] = [
     },
     safetyFeatures: ["Fog Horn", "Fire Extinguishers", "Emergency Beacon"],
     accessibilityFeatures: ["Accessible Cabin"],
-  }
+  },
 ];

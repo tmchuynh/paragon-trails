@@ -37,8 +37,13 @@ export const sydneyaustraliaasiaPacificYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only", "Local Cuisine Packages"],
-    description: "Diamond Seas combines performance and luxury in a stunning 22m gulet yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/sydney-diamond-seas-1.jpg", "https://paragon-trails-yacht-images.com/gulet/sydney-diamond-seas-2.jpg", "https://paragon-trails-yacht-images.com/gulet/sydney-diamond-seas-3.jpg"],
+    description:
+      "Diamond Seas combines performance and luxury in a stunning 22m gulet yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/sydney-diamond-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/sydney-diamond-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/sydney-diamond-seas-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8468,
@@ -47,7 +52,12 @@ export const sydneyaustraliaasiaPacificYachts: Yacht[] = [
       includes: ["Heated Deck", "Air Conditioning"],
       excludes: ["Heated Deck", "Air Conditioning", "Stabilizers"],
     },
-    safetyFeatures: ["Fire Extinguishers", "Searchlight", "Life Jackets", "Emergency Radio"],
+    safetyFeatures: [
+      "Fire Extinguishers",
+      "Searchlight",
+      "Life Jackets",
+      "Emergency Radio",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -75,7 +85,13 @@ export const sydneyaustraliaasiaPacificYachts: Yacht[] = [
     },
     amenities: ["Indoor Lounge", "Swim Platform", "Hot Tub"],
     entertainment: ["Bluetooth Speakers", "Board Games", "Media Library"],
-    waterToys: ["Snorkeling Gear", "Windsurf", "Inflatable Slide", "Seabob", "Water Skis"],
+    waterToys: [
+      "Snorkeling Gear",
+      "Windsurf",
+      "Inflatable Slide",
+      "Seabob",
+      "Water Skis",
+    ],
     location: {
       city: "Sydney",
       country: "Australia",
@@ -86,8 +102,14 @@ export const sydneyaustraliaasiaPacificYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only"],
-    description: "Charter the impressive Adriatic Queen in sydney and enjoy its 4 luxury amenities and 5 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/motor/sydney-adriatic-queen-1.jpg", "https://paragon-trails-yacht-images.com/motor/sydney-adriatic-queen-2.jpg", "https://paragon-trails-yacht-images.com/motor/sydney-adriatic-queen-3.jpg", "https://paragon-trails-yacht-images.com/motor/sydney-adriatic-queen-4.jpg"],
+    description:
+      "Charter the impressive Adriatic Queen in sydney and enjoy its 4 luxury amenities and 5 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/sydney-adriatic-queen-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/sydney-adriatic-queen-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/sydney-adriatic-queen-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/sydney-adriatic-queen-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7029,
@@ -96,7 +118,13 @@ export const sydneyaustraliaasiaPacificYachts: Yacht[] = [
       includes: ["Indoor Lounge", "Swim Platform"],
       excludes: ["Indoor Lounge", "Swim Platform", "Hot Tub"],
     },
-    safetyFeatures: ["Life Rafts", "GPS Tracking", "Flares", "Fire Extinguishers", "Navigation Lights"],
+    safetyFeatures: [
+      "Life Rafts",
+      "GPS Tracking",
+      "Flares",
+      "Fire Extinguishers",
+      "Navigation Lights",
+    ],
     accessibilityFeatures: ["Easy Boarding"],
   },
   {
@@ -135,8 +163,13 @@ export const sydneyaustraliaasiaPacificYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: false,
     cateringOptions: ["Picnic-Style"],
-    description: "Discover the beauty of sydney's waters aboard the elegant Atlantic Breeze, a 2004 sailing yacht featuring spacious accommodation for 7 guests overnight or 7 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/sydney-atlantic-breeze-1.jpg", "https://paragon-trails-yacht-images.com/sailing/sydney-atlantic-breeze-2.jpg", "https://paragon-trails-yacht-images.com/sailing/sydney-atlantic-breeze-3.jpg"],
+    description:
+      "Discover the beauty of sydney's waters aboard the elegant Atlantic Breeze, a 2004 sailing yacht featuring spacious accommodation for 7 guests overnight or 7 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/sydney-atlantic-breeze-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/sydney-atlantic-breeze-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/sydney-atlantic-breeze-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6266,
@@ -184,8 +217,15 @@ export const sydneyaustraliaasiaPacificYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: false,
     cateringOptions: ["Provisioning Only", "No Catering"],
-    description: "Experience luxury and comfort aboard the Sea Spirit, a stunning 16m gulet yacht available for charter in sydney. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/sydney-sea-spirit-1.jpg", "https://paragon-trails-yacht-images.com/gulet/sydney-sea-spirit-2.jpg", "https://paragon-trails-yacht-images.com/gulet/sydney-sea-spirit-3.jpg", "https://paragon-trails-yacht-images.com/gulet/sydney-sea-spirit-4.jpg", "https://paragon-trails-yacht-images.com/gulet/sydney-sea-spirit-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Sea Spirit, a stunning 16m gulet yacht available for charter in sydney. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/sydney-sea-spirit-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/sydney-sea-spirit-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/sydney-sea-spirit-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/sydney-sea-spirit-4.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/sydney-sea-spirit-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 7549,
@@ -194,7 +234,12 @@ export const sydneyaustraliaasiaPacificYachts: Yacht[] = [
       includes: ["Jacuzzi", "Swim Platform"],
       excludes: ["Sun Deck"],
     },
-    safetyFeatures: ["Emergency Steering", "Searchlight", "Life Jackets", "GPS Tracking"],
+    safetyFeatures: [
+      "Emergency Steering",
+      "Searchlight",
+      "Life Jackets",
+      "GPS Tracking",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -220,7 +265,13 @@ export const sydneyaustraliaasiaPacificYachts: Yacht[] = [
       crew: 6,
       bathrooms: 6,
     },
-    amenities: ["Air Conditioning", "Jacuzzi", "Laundry Service", "Sun Deck", "Swim Platform"],
+    amenities: [
+      "Air Conditioning",
+      "Jacuzzi",
+      "Laundry Service",
+      "Sun Deck",
+      "Swim Platform",
+    ],
     entertainment: ["Karaoke System"],
     waterToys: ["Water Skis", "Floating Island", "Towable Tubes"],
     location: {
@@ -233,17 +284,34 @@ export const sydneyaustraliaasiaPacificYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Picnic-Style"],
-    description: "The Wave Dancer is a magnificent mega yacht built by Riva offering exceptional amenities and impeccable service for an unforgettable sailing experience in sydney.",
-    images: ["https://paragon-trails-yacht-images.com/mega/sydney-wave-dancer-1.jpg", "https://paragon-trails-yacht-images.com/mega/sydney-wave-dancer-2.jpg", "https://paragon-trails-yacht-images.com/mega/sydney-wave-dancer-3.jpg"],
+    description:
+      "The Wave Dancer is a magnificent mega yacht built by Riva offering exceptional amenities and impeccable service for an unforgettable sailing experience in sydney.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/sydney-wave-dancer-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/sydney-wave-dancer-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/sydney-wave-dancer-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 46016,
       perWeek: 273795.2,
       currency: "AUD",
       includes: ["Air Conditioning", "Jacuzzi", "Laundry Service"],
-      excludes: ["Air Conditioning", "Jacuzzi", "Laundry Service", "Sun Deck", "Swim Platform"],
+      excludes: [
+        "Air Conditioning",
+        "Jacuzzi",
+        "Laundry Service",
+        "Sun Deck",
+        "Swim Platform",
+      ],
     },
-    safetyFeatures: ["EPIRB", "Searchlight", "Life Jackets", "Radar", "Fire Extinguishers"],
+    safetyFeatures: [
+      "EPIRB",
+      "Searchlight",
+      "Life Jackets",
+      "Radar",
+      "Fire Extinguishers",
+    ],
     accessibilityFeatures: ["Accessible Cabin", "Handrails"],
   },
   {
@@ -282,8 +350,15 @@ export const sydneyaustraliaasiaPacificYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["No Catering", "Chef Onboard"],
-    description: "Discover the beauty of sydney's waters aboard the elegant Coastal Serenity, a 2005 mega yacht featuring spacious accommodation for 11 guests overnight or 14 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/mega/sydney-coastal-serenity-1.jpg", "https://paragon-trails-yacht-images.com/mega/sydney-coastal-serenity-2.jpg", "https://paragon-trails-yacht-images.com/mega/sydney-coastal-serenity-3.jpg", "https://paragon-trails-yacht-images.com/mega/sydney-coastal-serenity-4.jpg", "https://paragon-trails-yacht-images.com/mega/sydney-coastal-serenity-5.jpg"],
+    description:
+      "Discover the beauty of sydney's waters aboard the elegant Coastal Serenity, a 2005 mega yacht featuring spacious accommodation for 11 guests overnight or 14 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/sydney-coastal-serenity-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/sydney-coastal-serenity-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/sydney-coastal-serenity-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/sydney-coastal-serenity-4.jpg",
+      "https://paragon-trails-yacht-images.com/mega/sydney-coastal-serenity-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 33823,
@@ -292,7 +367,12 @@ export const sydneyaustraliaasiaPacificYachts: Yacht[] = [
       includes: ["Sauna", "Jacuzzi", "Tender Garage"],
       excludes: ["Sauna", "Jacuzzi", "Tender Garage", "Dining Area"],
     },
-    safetyFeatures: ["Navigation Lights", "GPS Tracking", "Emergency Radio", "Life Rafts"],
+    safetyFeatures: [
+      "Navigation Lights",
+      "GPS Tracking",
+      "Emergency Radio",
+      "Life Rafts",
+    ],
     accessibilityFeatures: ["Accessible Cabin"],
-  }
+  },
 ];

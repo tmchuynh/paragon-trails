@@ -24,7 +24,15 @@ export const ketchikanunitedStatesalaskaYachts: Yacht[] = [
       crew: 19,
       bathrooms: 8,
     },
-    amenities: ["Indoor Lounge", "Jacuzzi", "Hot Tub", "Wi-Fi", "Swim Platform", "Sun Deck", "Dining Area"],
+    amenities: [
+      "Indoor Lounge",
+      "Jacuzzi",
+      "Hot Tub",
+      "Wi-Fi",
+      "Swim Platform",
+      "Sun Deck",
+      "Dining Area",
+    ],
     entertainment: ["Satellite TV"],
     waterToys: ["E-Foil"],
     location: {
@@ -37,17 +45,37 @@ export const ketchikanunitedStatesalaskaYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: false,
     cateringOptions: ["Picnic-Style"],
-    description: "Discover the beauty of ketchikan's waters aboard the elegant Wave Dancer, a 2017 super yacht featuring spacious accommodation for 12 guests overnight or 24 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/super/ketchikan-wave-dancer-1.jpg", "https://paragon-trails-yacht-images.com/super/ketchikan-wave-dancer-2.jpg", "https://paragon-trails-yacht-images.com/super/ketchikan-wave-dancer-3.jpg", "https://paragon-trails-yacht-images.com/super/ketchikan-wave-dancer-4.jpg"],
+    description:
+      "Discover the beauty of ketchikan's waters aboard the elegant Wave Dancer, a 2017 super yacht featuring spacious accommodation for 12 guests overnight or 24 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/ketchikan-wave-dancer-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/ketchikan-wave-dancer-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/ketchikan-wave-dancer-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/ketchikan-wave-dancer-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 53320,
       perWeek: 317254,
       currency: "USD",
       includes: ["Indoor Lounge", "Jacuzzi", "Hot Tub"],
-      excludes: ["Indoor Lounge", "Jacuzzi", "Hot Tub", "Wi-Fi", "Swim Platform", "Sun Deck", "Dining Area"],
+      excludes: [
+        "Indoor Lounge",
+        "Jacuzzi",
+        "Hot Tub",
+        "Wi-Fi",
+        "Swim Platform",
+        "Sun Deck",
+        "Dining Area",
+      ],
     },
-    safetyFeatures: ["Life Rafts", "Radar", "Fire Extinguishers", "Emergency Radio", "EPIRB"],
+    safetyFeatures: [
+      "Life Rafts",
+      "Radar",
+      "Fire Extinguishers",
+      "Emergency Radio",
+      "EPIRB",
+    ],
     accessibilityFeatures: ["Easy Boarding"],
   },
   {
@@ -75,7 +103,13 @@ export const ketchikanunitedStatesalaskaYachts: Yacht[] = [
     },
     amenities: ["Jacuzzi", "Sun Deck", "Sauna"],
     entertainment: ["Bluetooth Speakers", "Media Library", "DJ Equipment"],
-    waterToys: ["Paddleboards", "Kayaks", "Kneeboard", "Towable Tubes", "Water Skis"],
+    waterToys: [
+      "Paddleboards",
+      "Kayaks",
+      "Kneeboard",
+      "Towable Tubes",
+      "Water Skis",
+    ],
     location: {
       city: "Ketchikan",
       country: "United States",
@@ -86,8 +120,15 @@ export const ketchikanunitedStatesalaskaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only"],
-    description: "Charter the impressive Caribbean Pearl in ketchikan and enjoy its 3 luxury amenities and 5 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/ketchikan-caribbean-pearl-1.jpg", "https://paragon-trails-yacht-images.com/gulet/ketchikan-caribbean-pearl-2.jpg", "https://paragon-trails-yacht-images.com/gulet/ketchikan-caribbean-pearl-3.jpg", "https://paragon-trails-yacht-images.com/gulet/ketchikan-caribbean-pearl-4.jpg", "https://paragon-trails-yacht-images.com/gulet/ketchikan-caribbean-pearl-5.jpg"],
+    description:
+      "Charter the impressive Caribbean Pearl in ketchikan and enjoy its 3 luxury amenities and 5 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/ketchikan-caribbean-pearl-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/ketchikan-caribbean-pearl-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/ketchikan-caribbean-pearl-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/ketchikan-caribbean-pearl-4.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/ketchikan-caribbean-pearl-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6282,
@@ -96,7 +137,12 @@ export const ketchikanunitedStatesalaskaYachts: Yacht[] = [
       includes: ["Jacuzzi", "Sun Deck", "Sauna"],
       excludes: ["Jacuzzi", "Sun Deck", "Sauna"],
     },
-    safetyFeatures: ["Life Rafts", "Life Jackets", "EPIRB", "Fire Extinguishers"],
+    safetyFeatures: [
+      "Life Rafts",
+      "Life Jackets",
+      "EPIRB",
+      "Fire Extinguishers",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -124,7 +170,13 @@ export const ketchikanunitedStatesalaskaYachts: Yacht[] = [
     },
     amenities: ["Sun Deck", "Hot Tub", "Bar"],
     entertainment: ["Bluetooth Speakers"],
-    waterToys: ["Towable Tubes", "Windsurf", "Scuba Diving Gear", "Kneeboard", "Fishing Equipment"],
+    waterToys: [
+      "Towable Tubes",
+      "Windsurf",
+      "Scuba Diving Gear",
+      "Kneeboard",
+      "Fishing Equipment",
+    ],
     location: {
       city: "Ketchikan",
       country: "United States",
@@ -135,8 +187,14 @@ export const ketchikanunitedStatesalaskaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only", "Breakfast Only"],
-    description: "Discover the beauty of ketchikan's waters aboard the elegant Aquamarine, a 2002 catamaran yacht featuring spacious accommodation for 6 guests overnight or 15 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/ketchikan-aquamarine-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/ketchikan-aquamarine-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/ketchikan-aquamarine-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/ketchikan-aquamarine-4.jpg"],
+    description:
+      "Discover the beauty of ketchikan's waters aboard the elegant Aquamarine, a 2002 catamaran yacht featuring spacious accommodation for 6 guests overnight or 15 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/ketchikan-aquamarine-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/ketchikan-aquamarine-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/ketchikan-aquamarine-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/ketchikan-aquamarine-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7793,
@@ -145,7 +203,13 @@ export const ketchikanunitedStatesalaskaYachts: Yacht[] = [
       includes: ["Sun Deck"],
       excludes: ["Bar"],
     },
-    safetyFeatures: ["Fire Extinguishers", "First Aid Kit", "Navigation Lights", "Radar", "GPS Tracking"],
+    safetyFeatures: [
+      "Fire Extinguishers",
+      "First Aid Kit",
+      "Navigation Lights",
+      "Radar",
+      "GPS Tracking",
+    ],
     accessibilityFeatures: ["Handrails"],
   },
   {
@@ -184,8 +248,13 @@ export const ketchikanunitedStatesalaskaYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard"],
-    description: "Charter the impressive Adriatic Queen in ketchikan and enjoy its 4 luxury amenities and 4 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/ketchikan-adriatic-queen-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/ketchikan-adriatic-queen-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/ketchikan-adriatic-queen-3.jpg"],
+    description:
+      "Charter the impressive Adriatic Queen in ketchikan and enjoy its 4 luxury amenities and 4 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/ketchikan-adriatic-queen-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/ketchikan-adriatic-queen-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/ketchikan-adriatic-queen-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 4211,
@@ -196,5 +265,5 @@ export const ketchikanunitedStatesalaskaYachts: Yacht[] = [
     },
     safetyFeatures: ["Emergency Beacon", "Life Jackets", "Emergency Steering"],
     accessibilityFeatures: ["Easy Boarding"],
-  }
+  },
 ];

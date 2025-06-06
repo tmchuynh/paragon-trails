@@ -37,8 +37,14 @@ export const parisfrancenorthernEuropeYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages"],
-    description: "Azure Blue combines performance and luxury in a stunning 33m gulet yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/paris-azure-blue-1.jpg", "https://paragon-trails-yacht-images.com/gulet/paris-azure-blue-2.jpg", "https://paragon-trails-yacht-images.com/gulet/paris-azure-blue-3.jpg", "https://paragon-trails-yacht-images.com/gulet/paris-azure-blue-4.jpg"],
+    description:
+      "Azure Blue combines performance and luxury in a stunning 33m gulet yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/paris-azure-blue-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/paris-azure-blue-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/paris-azure-blue-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/paris-azure-blue-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5758,
@@ -75,7 +81,12 @@ export const parisfrancenorthernEuropeYachts: Yacht[] = [
     },
     amenities: ["BBQ Grill", "Air Conditioning", "Bar"],
     entertainment: ["Satellite TV", "Board Games"],
-    waterToys: ["Snorkeling Gear", "Water Skis", "Wakeboard", "Scuba Diving Gear"],
+    waterToys: [
+      "Snorkeling Gear",
+      "Water Skis",
+      "Wakeboard",
+      "Scuba Diving Gear",
+    ],
     location: {
       city: "Paris",
       country: "France",
@@ -86,8 +97,13 @@ export const parisfrancenorthernEuropeYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard", "BBQ Onboard"],
-    description: "The Emerald Waters is a magnificent mega yacht built by Sunseeker offering exceptional amenities and impeccable service for an unforgettable sailing experience in paris.",
-    images: ["https://paragon-trails-yacht-images.com/mega/paris-emerald-waters-1.jpg", "https://paragon-trails-yacht-images.com/mega/paris-emerald-waters-2.jpg", "https://paragon-trails-yacht-images.com/mega/paris-emerald-waters-3.jpg"],
+    description:
+      "The Emerald Waters is a magnificent mega yacht built by Sunseeker offering exceptional amenities and impeccable service for an unforgettable sailing experience in paris.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/paris-emerald-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/paris-emerald-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/paris-emerald-waters-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 48435,
@@ -122,7 +138,14 @@ export const parisfrancenorthernEuropeYachts: Yacht[] = [
       crew: 2,
       bathrooms: 3,
     },
-    amenities: ["Air Conditioning", "Kitchen", "Heated Deck", "Swim Platform", "Dining Area", "Wi-Fi"],
+    amenities: [
+      "Air Conditioning",
+      "Kitchen",
+      "Heated Deck",
+      "Swim Platform",
+      "Dining Area",
+      "Wi-Fi",
+    ],
     entertainment: ["Karaoke System", "Media Library"],
     waterToys: ["E-Foil", "Snorkeling Gear"],
     location: {
@@ -135,8 +158,15 @@ export const parisfrancenorthernEuropeYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only", "No Catering"],
-    description: "Discover the beauty of paris's waters aboard the elegant Silver Horizon, a 2004 motor yacht featuring spacious accommodation for 7 guests overnight or 10 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/motor/paris-silver-horizon-1.jpg", "https://paragon-trails-yacht-images.com/motor/paris-silver-horizon-2.jpg", "https://paragon-trails-yacht-images.com/motor/paris-silver-horizon-3.jpg", "https://paragon-trails-yacht-images.com/motor/paris-silver-horizon-4.jpg", "https://paragon-trails-yacht-images.com/motor/paris-silver-horizon-5.jpg"],
+    description:
+      "Discover the beauty of paris's waters aboard the elegant Silver Horizon, a 2004 motor yacht featuring spacious accommodation for 7 guests overnight or 10 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/paris-silver-horizon-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/paris-silver-horizon-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/paris-silver-horizon-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/paris-silver-horizon-4.jpg",
+      "https://paragon-trails-yacht-images.com/motor/paris-silver-horizon-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5374,
@@ -184,8 +214,13 @@ export const parisfrancenorthernEuropeYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Self-Catering"],
-    description: "Experience luxury and comfort aboard the Mermaid's Song, a stunning 26m motor yacht available for charter in paris. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/motor/paris-mermaid's-song-1.jpg", "https://paragon-trails-yacht-images.com/motor/paris-mermaid's-song-2.jpg", "https://paragon-trails-yacht-images.com/motor/paris-mermaid's-song-3.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Mermaid's Song, a stunning 26m motor yacht available for charter in paris. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/paris-mermaid's-song-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/paris-mermaid's-song-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/paris-mermaid's-song-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7577,
@@ -222,7 +257,13 @@ export const parisfrancenorthernEuropeYachts: Yacht[] = [
     },
     amenities: ["Kitchen", "Air Conditioning", "Laundry Service"],
     entertainment: ["Karaoke System", "Board Games"],
-    waterToys: ["Seabob", "Snorkeling Gear", "E-Foil", "Floating Island", "Scuba Diving Gear"],
+    waterToys: [
+      "Seabob",
+      "Snorkeling Gear",
+      "E-Foil",
+      "Floating Island",
+      "Scuba Diving Gear",
+    ],
     location: {
       city: "Paris",
       country: "France",
@@ -233,8 +274,14 @@ export const parisfrancenorthernEuropeYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard"],
-    description: "The Adriatic Splendor is a magnificent super yacht built by Pershing offering exceptional amenities and impeccable service for an unforgettable sailing experience in paris.",
-    images: ["https://paragon-trails-yacht-images.com/super/paris-adriatic-splendor-1.jpg", "https://paragon-trails-yacht-images.com/super/paris-adriatic-splendor-2.jpg", "https://paragon-trails-yacht-images.com/super/paris-adriatic-splendor-3.jpg", "https://paragon-trails-yacht-images.com/super/paris-adriatic-splendor-4.jpg"],
+    description:
+      "The Adriatic Splendor is a magnificent super yacht built by Pershing offering exceptional amenities and impeccable service for an unforgettable sailing experience in paris.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/paris-adriatic-splendor-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/paris-adriatic-splendor-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/paris-adriatic-splendor-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/paris-adriatic-splendor-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 66438,
@@ -243,7 +290,12 @@ export const parisfrancenorthernEuropeYachts: Yacht[] = [
       includes: ["Kitchen", "Air Conditioning"],
       excludes: ["Kitchen", "Air Conditioning", "Laundry Service"],
     },
-    safetyFeatures: ["Life Jackets", "Emergency Beacon", "Fire Extinguishers", "Life Rafts"],
+    safetyFeatures: [
+      "Life Jackets",
+      "Emergency Beacon",
+      "Fire Extinguishers",
+      "Life Rafts",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -282,8 +334,14 @@ export const parisfrancenorthernEuropeYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only"],
-    description: "Experience luxury and comfort aboard the Aquamarine, a stunning 26m motor yacht available for charter in paris. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/motor/paris-aquamarine-1.jpg", "https://paragon-trails-yacht-images.com/motor/paris-aquamarine-2.jpg", "https://paragon-trails-yacht-images.com/motor/paris-aquamarine-3.jpg", "https://paragon-trails-yacht-images.com/motor/paris-aquamarine-4.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Aquamarine, a stunning 26m motor yacht available for charter in paris. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/paris-aquamarine-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/paris-aquamarine-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/paris-aquamarine-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/paris-aquamarine-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 12413,
@@ -294,5 +352,5 @@ export const parisfrancenorthernEuropeYachts: Yacht[] = [
     },
     safetyFeatures: ["Radar", "Searchlight", "GPS Tracking", "First Aid Kit"],
     accessibilityFeatures: [],
-  }
+  },
 ];

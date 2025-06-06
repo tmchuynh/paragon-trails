@@ -37,8 +37,15 @@ export const victoriacanadaalaskaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only", "Local Cuisine Packages"],
-    description: "The Diamond Seas is a magnificent super yacht built by Amels offering exceptional amenities and impeccable service for an unforgettable sailing experience in victoria.",
-    images: ["https://paragon-trails-yacht-images.com/super/victoria-diamond-seas-1.jpg", "https://paragon-trails-yacht-images.com/super/victoria-diamond-seas-2.jpg", "https://paragon-trails-yacht-images.com/super/victoria-diamond-seas-3.jpg", "https://paragon-trails-yacht-images.com/super/victoria-diamond-seas-4.jpg", "https://paragon-trails-yacht-images.com/super/victoria-diamond-seas-5.jpg"],
+    description:
+      "The Diamond Seas is a magnificent super yacht built by Amels offering exceptional amenities and impeccable service for an unforgettable sailing experience in victoria.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/victoria-diamond-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/victoria-diamond-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/victoria-diamond-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/victoria-diamond-seas-4.jpg",
+      "https://paragon-trails-yacht-images.com/super/victoria-diamond-seas-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 195100,
@@ -73,7 +80,14 @@ export const victoriacanadaalaskaYachts: Yacht[] = [
       crew: 5,
       bathrooms: 7,
     },
-    amenities: ["Sun Deck", "Swim Platform", "Bar", "Jacuzzi", "Outdoor Shower", "Hot Tub"],
+    amenities: [
+      "Sun Deck",
+      "Swim Platform",
+      "Bar",
+      "Jacuzzi",
+      "Outdoor Shower",
+      "Hot Tub",
+    ],
     entertainment: ["Game Console", "Onboard Cinema"],
     waterToys: ["Windsurf", "Jet Ski", "Snorkeling Gear", "Towable Tubes"],
     location: {
@@ -86,8 +100,14 @@ export const victoriacanadaalaskaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["No Catering"],
-    description: "Charter the impressive Azure Dreams in victoria and enjoy its 6 luxury amenities and 5 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/victoria-azure-dreams-1.jpg", "https://paragon-trails-yacht-images.com/gulet/victoria-azure-dreams-2.jpg", "https://paragon-trails-yacht-images.com/gulet/victoria-azure-dreams-3.jpg", "https://paragon-trails-yacht-images.com/gulet/victoria-azure-dreams-4.jpg"],
+    description:
+      "Charter the impressive Azure Dreams in victoria and enjoy its 6 luxury amenities and 5 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/victoria-azure-dreams-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/victoria-azure-dreams-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/victoria-azure-dreams-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/victoria-azure-dreams-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6254,
@@ -96,7 +116,12 @@ export const victoriacanadaalaskaYachts: Yacht[] = [
       includes: ["Sun Deck", "Swim Platform"],
       excludes: ["Hot Tub"],
     },
-    safetyFeatures: ["Fog Horn", "Emergency Steering", "Navigation Lights", "Life Rafts"],
+    safetyFeatures: [
+      "Fog Horn",
+      "Emergency Steering",
+      "Navigation Lights",
+      "Life Rafts",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -122,9 +147,23 @@ export const victoriacanadaalaskaYachts: Yacht[] = [
       crew: 3,
       bathrooms: 5,
     },
-    amenities: ["Dining Area", "Wi-Fi", "Bar", "Stabilizers", "Heated Deck", "Tender Garage", "Swim Platform"],
+    amenities: [
+      "Dining Area",
+      "Wi-Fi",
+      "Bar",
+      "Stabilizers",
+      "Heated Deck",
+      "Tender Garage",
+      "Swim Platform",
+    ],
     entertainment: ["Projector", "Surround Sound System"],
-    waterToys: ["Fishing Equipment", "Paddleboards", "Towable Tubes", "Windsurf", "Inflatable Slide"],
+    waterToys: [
+      "Fishing Equipment",
+      "Paddleboards",
+      "Towable Tubes",
+      "Windsurf",
+      "Inflatable Slide",
+    ],
     location: {
       city: "Victoria",
       country: "Canada",
@@ -135,8 +174,15 @@ export const victoriacanadaalaskaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Self-Catering", "Full-Service Catering"],
-    description: "The Infinity Seas is a magnificent catamaran yacht built by Ferretti offering exceptional amenities and impeccable service for an unforgettable sailing experience in victoria.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/victoria-infinity-seas-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/victoria-infinity-seas-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/victoria-infinity-seas-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/victoria-infinity-seas-4.jpg", "https://paragon-trails-yacht-images.com/catamaran/victoria-infinity-seas-5.jpg"],
+    description:
+      "The Infinity Seas is a magnificent catamaran yacht built by Ferretti offering exceptional amenities and impeccable service for an unforgettable sailing experience in victoria.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/victoria-infinity-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/victoria-infinity-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/victoria-infinity-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/victoria-infinity-seas-4.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/victoria-infinity-seas-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6338,
@@ -147,5 +193,5 @@ export const victoriacanadaalaskaYachts: Yacht[] = [
     },
     safetyFeatures: ["Emergency Steering", "Life Jackets", "Emergency Beacon"],
     accessibilityFeatures: [],
-  }
+  },
 ];

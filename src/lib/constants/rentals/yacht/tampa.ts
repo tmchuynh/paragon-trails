@@ -26,7 +26,12 @@ export const tampaunitedStatescaribbeanYachts: Yacht[] = [
     },
     amenities: ["Dining Area", "BBQ Grill"],
     entertainment: ["DJ Equipment"],
-    waterToys: ["Inflatable Slide", "Fishing Equipment", "Jet Ski", "Snorkeling Gear"],
+    waterToys: [
+      "Inflatable Slide",
+      "Fishing Equipment",
+      "Jet Ski",
+      "Snorkeling Gear",
+    ],
     location: {
       city: "Tampa",
       country: "United States",
@@ -37,8 +42,13 @@ export const tampaunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive", "No Catering"],
-    description: "Charter the impressive Infinity Seas in tampa and enjoy its 3 luxury amenities and 5 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/tampa-infinity-seas-1.jpg", "https://paragon-trails-yacht-images.com/gulet/tampa-infinity-seas-2.jpg", "https://paragon-trails-yacht-images.com/gulet/tampa-infinity-seas-3.jpg"],
+    description:
+      "Charter the impressive Infinity Seas in tampa and enjoy its 3 luxury amenities and 5 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/tampa-infinity-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/tampa-infinity-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/tampa-infinity-seas-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7962,
@@ -47,7 +57,13 @@ export const tampaunitedStatescaribbeanYachts: Yacht[] = [
       includes: ["Dining Area", "BBQ Grill"],
       excludes: ["BBQ Grill"],
     },
-    safetyFeatures: ["Fog Horn", "First Aid Kit", "Fire Extinguishers", "Life Jackets", "Emergency Beacon"],
+    safetyFeatures: [
+      "Fog Horn",
+      "First Aid Kit",
+      "Fire Extinguishers",
+      "Life Jackets",
+      "Emergency Beacon",
+    ],
     accessibilityFeatures: ["Elevator"],
   },
   {
@@ -73,7 +89,13 @@ export const tampaunitedStatescaribbeanYachts: Yacht[] = [
       crew: 2,
       bathrooms: 5,
     },
-    amenities: ["Heated Deck", "Air Conditioning", "Bar", "BBQ Grill", "Swim Platform"],
+    amenities: [
+      "Heated Deck",
+      "Air Conditioning",
+      "Bar",
+      "BBQ Grill",
+      "Swim Platform",
+    ],
     entertainment: ["Media Library"],
     waterToys: ["Kneeboard", "Inflatable Slide"],
     location: {
@@ -86,8 +108,15 @@ export const tampaunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard"],
-    description: "Discover the beauty of tampa's waters aboard the elegant Luxury Waters, a 2016 motor yacht featuring spacious accommodation for 9 guests overnight or 12 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/motor/tampa-luxury-waters-1.jpg", "https://paragon-trails-yacht-images.com/motor/tampa-luxury-waters-2.jpg", "https://paragon-trails-yacht-images.com/motor/tampa-luxury-waters-3.jpg", "https://paragon-trails-yacht-images.com/motor/tampa-luxury-waters-4.jpg", "https://paragon-trails-yacht-images.com/motor/tampa-luxury-waters-5.jpg"],
+    description:
+      "Discover the beauty of tampa's waters aboard the elegant Luxury Waters, a 2016 motor yacht featuring spacious accommodation for 9 guests overnight or 12 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/tampa-luxury-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/tampa-luxury-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/tampa-luxury-waters-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/tampa-luxury-waters-4.jpg",
+      "https://paragon-trails-yacht-images.com/motor/tampa-luxury-waters-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 12794,
@@ -122,9 +151,21 @@ export const tampaunitedStatescaribbeanYachts: Yacht[] = [
       crew: 15,
       bathrooms: 11,
     },
-    amenities: ["Outdoor Shower", "Jacuzzi", "Kitchen", "Tender Garage", "Hot Tub"],
+    amenities: [
+      "Outdoor Shower",
+      "Jacuzzi",
+      "Kitchen",
+      "Tender Garage",
+      "Hot Tub",
+    ],
     entertainment: ["Bluetooth Speakers", "Projector", "Game Console"],
-    waterToys: ["Windsurf", "Inflatable Slide", "Jet Ski", "Kayaks", "Scuba Diving Gear"],
+    waterToys: [
+      "Windsurf",
+      "Inflatable Slide",
+      "Jet Ski",
+      "Kayaks",
+      "Scuba Diving Gear",
+    ],
     location: {
       city: "Tampa",
       country: "United States",
@@ -135,8 +176,15 @@ export const tampaunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Self-Catering", "All-Inclusive"],
-    description: "Charter the impressive Royal Wave in tampa and enjoy its 6 luxury amenities and 5 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/super/tampa-royal-wave-1.jpg", "https://paragon-trails-yacht-images.com/super/tampa-royal-wave-2.jpg", "https://paragon-trails-yacht-images.com/super/tampa-royal-wave-3.jpg", "https://paragon-trails-yacht-images.com/super/tampa-royal-wave-4.jpg", "https://paragon-trails-yacht-images.com/super/tampa-royal-wave-5.jpg"],
+    description:
+      "Charter the impressive Royal Wave in tampa and enjoy its 6 luxury amenities and 5 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/tampa-royal-wave-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/tampa-royal-wave-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/tampa-royal-wave-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/tampa-royal-wave-4.jpg",
+      "https://paragon-trails-yacht-images.com/super/tampa-royal-wave-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 164569,
@@ -145,7 +193,12 @@ export const tampaunitedStatescaribbeanYachts: Yacht[] = [
       includes: ["Outdoor Shower", "Jacuzzi"],
       excludes: ["Hot Tub"],
     },
-    safetyFeatures: ["Emergency Beacon", "Fire Extinguishers", "Life Rafts", "Life Jackets"],
+    safetyFeatures: [
+      "Emergency Beacon",
+      "Fire Extinguishers",
+      "Life Rafts",
+      "Life Jackets",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -171,7 +224,13 @@ export const tampaunitedStatescaribbeanYachts: Yacht[] = [
       crew: 4,
       bathrooms: 9,
     },
-    amenities: ["Indoor Lounge", "Outdoor Shower", "Heated Deck", "Wi-Fi", "Jacuzzi"],
+    amenities: [
+      "Indoor Lounge",
+      "Outdoor Shower",
+      "Heated Deck",
+      "Wi-Fi",
+      "Jacuzzi",
+    ],
     entertainment: ["Bluetooth Speakers"],
     waterToys: ["Paddleboards", "Water Skis"],
     location: {
@@ -184,8 +243,13 @@ export const tampaunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only"],
-    description: "Discover the beauty of tampa's waters aboard the elegant Serenity Now, a 2018 gulet yacht featuring spacious accommodation for 13 guests overnight or 13 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/tampa-serenity-now-1.jpg", "https://paragon-trails-yacht-images.com/gulet/tampa-serenity-now-2.jpg", "https://paragon-trails-yacht-images.com/gulet/tampa-serenity-now-3.jpg"],
+    description:
+      "Discover the beauty of tampa's waters aboard the elegant Serenity Now, a 2018 gulet yacht featuring spacious accommodation for 13 guests overnight or 13 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/tampa-serenity-now-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/tampa-serenity-now-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/tampa-serenity-now-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5739,
@@ -220,7 +284,14 @@ export const tampaunitedStatescaribbeanYachts: Yacht[] = [
       crew: 16,
       bathrooms: 8,
     },
-    amenities: ["Air Conditioning", "Jacuzzi", "Bar", "Wi-Fi", "Sun Deck", "Dining Area"],
+    amenities: [
+      "Air Conditioning",
+      "Jacuzzi",
+      "Bar",
+      "Wi-Fi",
+      "Sun Deck",
+      "Dining Area",
+    ],
     entertainment: ["Satellite TV", "Karaoke System", "Game Console"],
     waterToys: ["Floating Island", "Kneeboard"],
     location: {
@@ -233,8 +304,15 @@ export const tampaunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only", "Full-Service Catering"],
-    description: "Charter the impressive Cobalt Waters in tampa and enjoy its 7 luxury amenities and 2 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/super/tampa-cobalt-waters-1.jpg", "https://paragon-trails-yacht-images.com/super/tampa-cobalt-waters-2.jpg", "https://paragon-trails-yacht-images.com/super/tampa-cobalt-waters-3.jpg", "https://paragon-trails-yacht-images.com/super/tampa-cobalt-waters-4.jpg", "https://paragon-trails-yacht-images.com/super/tampa-cobalt-waters-5.jpg"],
+    description:
+      "Charter the impressive Cobalt Waters in tampa and enjoy its 7 luxury amenities and 2 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/tampa-cobalt-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/tampa-cobalt-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/tampa-cobalt-waters-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/tampa-cobalt-waters-4.jpg",
+      "https://paragon-trails-yacht-images.com/super/tampa-cobalt-waters-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 144424,
@@ -282,8 +360,15 @@ export const tampaunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only", "Full-Service Catering"],
-    description: "Charter the impressive Emerald Waters in tampa and enjoy its 3 luxury amenities and 4 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/super/tampa-emerald-waters-1.jpg", "https://paragon-trails-yacht-images.com/super/tampa-emerald-waters-2.jpg", "https://paragon-trails-yacht-images.com/super/tampa-emerald-waters-3.jpg", "https://paragon-trails-yacht-images.com/super/tampa-emerald-waters-4.jpg", "https://paragon-trails-yacht-images.com/super/tampa-emerald-waters-5.jpg"],
+    description:
+      "Charter the impressive Emerald Waters in tampa and enjoy its 3 luxury amenities and 4 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/tampa-emerald-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/tampa-emerald-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/tampa-emerald-waters-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/tampa-emerald-waters-4.jpg",
+      "https://paragon-trails-yacht-images.com/super/tampa-emerald-waters-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 68860,
@@ -294,5 +379,5 @@ export const tampaunitedStatescaribbeanYachts: Yacht[] = [
     },
     safetyFeatures: ["Flares", "Emergency Radio", "EPIRB", "Life Jackets"],
     accessibilityFeatures: [],
-  }
+  },
 ];

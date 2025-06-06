@@ -24,9 +24,22 @@ export const southamptonunitedKingdomnorthernEuropeYachts: Yacht[] = [
       crew: 7,
       bathrooms: 5,
     },
-    amenities: ["Outdoor Shower", "Wi-Fi", "Heated Deck", "Hot Tub", "Laundry Service", "Indoor Lounge"],
+    amenities: [
+      "Outdoor Shower",
+      "Wi-Fi",
+      "Heated Deck",
+      "Hot Tub",
+      "Laundry Service",
+      "Indoor Lounge",
+    ],
     entertainment: ["Satellite TV"],
-    waterToys: ["Paddleboards", "Floating Island", "Kneeboard", "Wakeboard", "Fishing Equipment"],
+    waterToys: [
+      "Paddleboards",
+      "Floating Island",
+      "Kneeboard",
+      "Wakeboard",
+      "Fishing Equipment",
+    ],
     location: {
       city: "Southampton",
       country: "United Kingdom",
@@ -37,8 +50,13 @@ export const southamptonunitedKingdomnorthernEuropeYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only", "Picnic-Style"],
-    description: "Experience luxury and comfort aboard the Azure Blue, a stunning 51m mega yacht available for charter in southampton. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/mega/southampton-azure-blue-1.jpg", "https://paragon-trails-yacht-images.com/mega/southampton-azure-blue-2.jpg", "https://paragon-trails-yacht-images.com/mega/southampton-azure-blue-3.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Azure Blue, a stunning 51m mega yacht available for charter in southampton. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/southampton-azure-blue-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/southampton-azure-blue-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/southampton-azure-blue-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 37997,
@@ -86,8 +104,15 @@ export const southamptonunitedKingdomnorthernEuropeYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Full-Service Catering"],
-    description: "Experience luxury and comfort aboard the Blue Horizon, a stunning 58m mega yacht available for charter in southampton. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/mega/southampton-blue-horizon-1.jpg", "https://paragon-trails-yacht-images.com/mega/southampton-blue-horizon-2.jpg", "https://paragon-trails-yacht-images.com/mega/southampton-blue-horizon-3.jpg", "https://paragon-trails-yacht-images.com/mega/southampton-blue-horizon-4.jpg", "https://paragon-trails-yacht-images.com/mega/southampton-blue-horizon-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Blue Horizon, a stunning 58m mega yacht available for charter in southampton. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/southampton-blue-horizon-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/southampton-blue-horizon-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/southampton-blue-horizon-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/southampton-blue-horizon-4.jpg",
+      "https://paragon-trails-yacht-images.com/mega/southampton-blue-horizon-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 39493,
@@ -135,8 +160,15 @@ export const southamptonunitedKingdomnorthernEuropeYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["BBQ Onboard", "Local Cuisine Packages"],
-    description: "Mermaid's Song combines performance and luxury in a stunning 20m gulet yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/southampton-mermaid's-song-1.jpg", "https://paragon-trails-yacht-images.com/gulet/southampton-mermaid's-song-2.jpg", "https://paragon-trails-yacht-images.com/gulet/southampton-mermaid's-song-3.jpg", "https://paragon-trails-yacht-images.com/gulet/southampton-mermaid's-song-4.jpg", "https://paragon-trails-yacht-images.com/gulet/southampton-mermaid's-song-5.jpg"],
+    description:
+      "Mermaid's Song combines performance and luxury in a stunning 20m gulet yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/southampton-mermaid's-song-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/southampton-mermaid's-song-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/southampton-mermaid's-song-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/southampton-mermaid's-song-4.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/southampton-mermaid's-song-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8564,
@@ -184,8 +216,14 @@ export const southamptonunitedKingdomnorthernEuropeYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Full-Service Catering", "BBQ Onboard"],
-    description: "Discover the beauty of southampton's waters aboard the elegant Adriatic Queen, a 2016 super yacht featuring spacious accommodation for 15 guests overnight or 25 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/super/southampton-adriatic-queen-1.jpg", "https://paragon-trails-yacht-images.com/super/southampton-adriatic-queen-2.jpg", "https://paragon-trails-yacht-images.com/super/southampton-adriatic-queen-3.jpg", "https://paragon-trails-yacht-images.com/super/southampton-adriatic-queen-4.jpg"],
+    description:
+      "Discover the beauty of southampton's waters aboard the elegant Adriatic Queen, a 2016 super yacht featuring spacious accommodation for 15 guests overnight or 25 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/southampton-adriatic-queen-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/southampton-adriatic-queen-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/southampton-adriatic-queen-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/southampton-adriatic-queen-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 86308,
@@ -233,8 +271,15 @@ export const southamptonunitedKingdomnorthernEuropeYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: false,
     cateringOptions: ["Provisioning Only", "No Catering"],
-    description: "The Aegean Beauty is a magnificent mega yacht built by Oyster offering exceptional amenities and impeccable service for an unforgettable sailing experience in southampton.",
-    images: ["https://paragon-trails-yacht-images.com/mega/southampton-aegean-beauty-1.jpg", "https://paragon-trails-yacht-images.com/mega/southampton-aegean-beauty-2.jpg", "https://paragon-trails-yacht-images.com/mega/southampton-aegean-beauty-3.jpg", "https://paragon-trails-yacht-images.com/mega/southampton-aegean-beauty-4.jpg", "https://paragon-trails-yacht-images.com/mega/southampton-aegean-beauty-5.jpg"],
+    description:
+      "The Aegean Beauty is a magnificent mega yacht built by Oyster offering exceptional amenities and impeccable service for an unforgettable sailing experience in southampton.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/southampton-aegean-beauty-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/southampton-aegean-beauty-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/southampton-aegean-beauty-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/southampton-aegean-beauty-4.jpg",
+      "https://paragon-trails-yacht-images.com/mega/southampton-aegean-beauty-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 20720,
@@ -243,7 +288,13 @@ export const southamptonunitedKingdomnorthernEuropeYachts: Yacht[] = [
       includes: ["Kitchen"],
       excludes: ["Kitchen", "Bar", "Wi-Fi", "Sauna", "BBQ Grill"],
     },
-    safetyFeatures: ["Flares", "Life Jackets", "Navigation Lights", "EPIRB", "Radar"],
+    safetyFeatures: [
+      "Flares",
+      "Life Jackets",
+      "Navigation Lights",
+      "EPIRB",
+      "Radar",
+    ],
     accessibilityFeatures: ["Low Thresholds"],
   },
   {
@@ -282,8 +333,14 @@ export const southamptonunitedKingdomnorthernEuropeYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only"],
-    description: "The Adriatic Splendor is a magnificent motor yacht built by Sunseeker offering exceptional amenities and impeccable service for an unforgettable sailing experience in southampton.",
-    images: ["https://paragon-trails-yacht-images.com/motor/southampton-adriatic-splendor-1.jpg", "https://paragon-trails-yacht-images.com/motor/southampton-adriatic-splendor-2.jpg", "https://paragon-trails-yacht-images.com/motor/southampton-adriatic-splendor-3.jpg", "https://paragon-trails-yacht-images.com/motor/southampton-adriatic-splendor-4.jpg"],
+    description:
+      "The Adriatic Splendor is a magnificent motor yacht built by Sunseeker offering exceptional amenities and impeccable service for an unforgettable sailing experience in southampton.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/southampton-adriatic-splendor-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/southampton-adriatic-splendor-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/southampton-adriatic-splendor-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/southampton-adriatic-splendor-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 10308,
@@ -292,7 +349,13 @@ export const southamptonunitedKingdomnorthernEuropeYachts: Yacht[] = [
       includes: ["Swim Platform", "Heated Deck", "Air Conditioning"],
       excludes: ["Hot Tub"],
     },
-    safetyFeatures: ["Fog Horn", "Emergency Radio", "Radar", "Fire Extinguishers", "EPIRB"],
+    safetyFeatures: [
+      "Fog Horn",
+      "Emergency Radio",
+      "Radar",
+      "Fire Extinguishers",
+      "EPIRB",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -318,9 +381,22 @@ export const southamptonunitedKingdomnorthernEuropeYachts: Yacht[] = [
       crew: 12,
       bathrooms: 7,
     },
-    amenities: ["Swim Platform", "Jacuzzi", "Stabilizers", "Wi-Fi", "Bar", "Laundry Service", "Sauna"],
+    amenities: [
+      "Swim Platform",
+      "Jacuzzi",
+      "Stabilizers",
+      "Wi-Fi",
+      "Bar",
+      "Laundry Service",
+      "Sauna",
+    ],
     entertainment: ["DJ Equipment"],
-    waterToys: ["Scuba Diving Gear", "E-Foil", "Water Skis", "Inflatable Slide"],
+    waterToys: [
+      "Scuba Diving Gear",
+      "E-Foil",
+      "Water Skis",
+      "Inflatable Slide",
+    ],
     location: {
       city: "Southampton",
       country: "United Kingdom",
@@ -331,17 +407,38 @@ export const southamptonunitedKingdomnorthernEuropeYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only", "À La Carte"],
-    description: "Charter the impressive Pearl Harbor in southampton and enjoy its 7 luxury amenities and 4 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/super/southampton-pearl-harbor-1.jpg", "https://paragon-trails-yacht-images.com/super/southampton-pearl-harbor-2.jpg", "https://paragon-trails-yacht-images.com/super/southampton-pearl-harbor-3.jpg", "https://paragon-trails-yacht-images.com/super/southampton-pearl-harbor-4.jpg", "https://paragon-trails-yacht-images.com/super/southampton-pearl-harbor-5.jpg"],
+    description:
+      "Charter the impressive Pearl Harbor in southampton and enjoy its 7 luxury amenities and 4 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/southampton-pearl-harbor-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/southampton-pearl-harbor-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/southampton-pearl-harbor-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/southampton-pearl-harbor-4.jpg",
+      "https://paragon-trails-yacht-images.com/super/southampton-pearl-harbor-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 169008,
       perWeek: 1005597.6,
       currency: "GBP",
       includes: ["Swim Platform", "Jacuzzi", "Stabilizers"],
-      excludes: ["Swim Platform", "Jacuzzi", "Stabilizers", "Wi-Fi", "Bar", "Laundry Service", "Sauna"],
+      excludes: [
+        "Swim Platform",
+        "Jacuzzi",
+        "Stabilizers",
+        "Wi-Fi",
+        "Bar",
+        "Laundry Service",
+        "Sauna",
+      ],
     },
-    safetyFeatures: ["Emergency Beacon", "GPS Tracking", "Emergency Steering", "Navigation Lights", "Radar"],
+    safetyFeatures: [
+      "Emergency Beacon",
+      "GPS Tracking",
+      "Emergency Steering",
+      "Navigation Lights",
+      "Radar",
+    ],
     accessibilityFeatures: [],
-  }
+  },
 ];

@@ -37,8 +37,14 @@ export const rioDeJaneirobrazilsouthAmericaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only"],
-    description: "Discover the beauty of rio-de-janeiro's waters aboard the elegant Royal Wave, a 2012 sailing yacht featuring spacious accommodation for 5 guests overnight or 9 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/rio-de-janeiro-royal-wave-1.jpg", "https://paragon-trails-yacht-images.com/sailing/rio-de-janeiro-royal-wave-2.jpg", "https://paragon-trails-yacht-images.com/sailing/rio-de-janeiro-royal-wave-3.jpg", "https://paragon-trails-yacht-images.com/sailing/rio-de-janeiro-royal-wave-4.jpg"],
+    description:
+      "Discover the beauty of rio-de-janeiro's waters aboard the elegant Royal Wave, a 2012 sailing yacht featuring spacious accommodation for 5 guests overnight or 9 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/rio-de-janeiro-royal-wave-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/rio-de-janeiro-royal-wave-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/rio-de-janeiro-royal-wave-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/rio-de-janeiro-royal-wave-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7396,
@@ -86,8 +92,15 @@ export const rioDeJaneirobrazilsouthAmericaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard"],
-    description: "Charter the impressive Elite Waves in rio-de-janeiro and enjoy its 5 luxury amenities and 4 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/rio-de-janeiro-elite-waves-1.jpg", "https://paragon-trails-yacht-images.com/sailing/rio-de-janeiro-elite-waves-2.jpg", "https://paragon-trails-yacht-images.com/sailing/rio-de-janeiro-elite-waves-3.jpg", "https://paragon-trails-yacht-images.com/sailing/rio-de-janeiro-elite-waves-4.jpg", "https://paragon-trails-yacht-images.com/sailing/rio-de-janeiro-elite-waves-5.jpg"],
+    description:
+      "Charter the impressive Elite Waves in rio-de-janeiro and enjoy its 5 luxury amenities and 4 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/rio-de-janeiro-elite-waves-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/rio-de-janeiro-elite-waves-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/rio-de-janeiro-elite-waves-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/rio-de-janeiro-elite-waves-4.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/rio-de-janeiro-elite-waves-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8754,
@@ -96,7 +109,12 @@ export const rioDeJaneirobrazilsouthAmericaYachts: Yacht[] = [
       includes: ["Jacuzzi", "Indoor Lounge"],
       excludes: ["Kitchen"],
     },
-    safetyFeatures: ["Fire Extinguishers", "Life Rafts", "Emergency Steering", "First Aid Kit"],
+    safetyFeatures: [
+      "Fire Extinguishers",
+      "Life Rafts",
+      "Emergency Steering",
+      "First Aid Kit",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -122,7 +140,15 @@ export const rioDeJaneirobrazilsouthAmericaYachts: Yacht[] = [
       crew: 2,
       bathrooms: 4,
     },
-    amenities: ["Dining Area", "Laundry Service", "Indoor Lounge", "Sauna", "Outdoor Shower", "BBQ Grill", "Hot Tub"],
+    amenities: [
+      "Dining Area",
+      "Laundry Service",
+      "Indoor Lounge",
+      "Sauna",
+      "Outdoor Shower",
+      "BBQ Grill",
+      "Hot Tub",
+    ],
     entertainment: ["Game Console"],
     waterToys: ["Inflatable Slide", "Seabob", "Kayaks", "Scuba Diving Gear"],
     location: {
@@ -135,17 +161,35 @@ export const rioDeJaneirobrazilsouthAmericaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: false,
     cateringOptions: ["Local Cuisine Packages", "Picnic-Style"],
-    description: "Charter the impressive Aegean Beauty in rio-de-janeiro and enjoy its 7 luxury amenities and 4 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/motor/rio-de-janeiro-aegean-beauty-1.jpg", "https://paragon-trails-yacht-images.com/motor/rio-de-janeiro-aegean-beauty-2.jpg", "https://paragon-trails-yacht-images.com/motor/rio-de-janeiro-aegean-beauty-3.jpg"],
+    description:
+      "Charter the impressive Aegean Beauty in rio-de-janeiro and enjoy its 7 luxury amenities and 4 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/rio-de-janeiro-aegean-beauty-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/rio-de-janeiro-aegean-beauty-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/rio-de-janeiro-aegean-beauty-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 13025,
       perWeek: 77498.75,
       currency: "BRL",
       includes: ["Dining Area"],
-      excludes: ["Dining Area", "Laundry Service", "Indoor Lounge", "Sauna", "Outdoor Shower", "BBQ Grill", "Hot Tub"],
+      excludes: [
+        "Dining Area",
+        "Laundry Service",
+        "Indoor Lounge",
+        "Sauna",
+        "Outdoor Shower",
+        "BBQ Grill",
+        "Hot Tub",
+      ],
     },
-    safetyFeatures: ["Flares", "Emergency Radio", "Life Jackets", "Searchlight"],
+    safetyFeatures: [
+      "Flares",
+      "Emergency Radio",
+      "Life Jackets",
+      "Searchlight",
+    ],
     accessibilityFeatures: [],
-  }
+  },
 ];

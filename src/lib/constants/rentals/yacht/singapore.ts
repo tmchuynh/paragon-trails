@@ -37,8 +37,15 @@ export const singaporesingaporeasiaPacificYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["No Catering"],
-    description: "Charter the impressive Poseidon's Pride in singapore and enjoy its 3 luxury amenities and 5 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/singapore-poseidon's-pride-1.jpg", "https://paragon-trails-yacht-images.com/sailing/singapore-poseidon's-pride-2.jpg", "https://paragon-trails-yacht-images.com/sailing/singapore-poseidon's-pride-3.jpg", "https://paragon-trails-yacht-images.com/sailing/singapore-poseidon's-pride-4.jpg", "https://paragon-trails-yacht-images.com/sailing/singapore-poseidon's-pride-5.jpg"],
+    description:
+      "Charter the impressive Poseidon's Pride in singapore and enjoy its 3 luxury amenities and 5 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/singapore-poseidon's-pride-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/singapore-poseidon's-pride-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/singapore-poseidon's-pride-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/singapore-poseidon's-pride-4.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/singapore-poseidon's-pride-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 4873,
@@ -73,7 +80,15 @@ export const singaporesingaporeasiaPacificYachts: Yacht[] = [
       crew: 3,
       bathrooms: 4,
     },
-    amenities: ["Outdoor Shower", "Tender Garage", "Kitchen", "Sun Deck", "Air Conditioning", "BBQ Grill", "Dining Area"],
+    amenities: [
+      "Outdoor Shower",
+      "Tender Garage",
+      "Kitchen",
+      "Sun Deck",
+      "Air Conditioning",
+      "BBQ Grill",
+      "Dining Area",
+    ],
     entertainment: ["Satellite TV"],
     waterToys: ["Water Skis", "Kayaks", "Fishing Equipment"],
     location: {
@@ -86,8 +101,15 @@ export const singaporesingaporeasiaPacificYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: false,
     cateringOptions: ["Full-Service Catering"],
-    description: "Experience luxury and comfort aboard the Ocean Majesty, a stunning 27m motor yacht available for charter in singapore. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/motor/singapore-ocean-majesty-1.jpg", "https://paragon-trails-yacht-images.com/motor/singapore-ocean-majesty-2.jpg", "https://paragon-trails-yacht-images.com/motor/singapore-ocean-majesty-3.jpg", "https://paragon-trails-yacht-images.com/motor/singapore-ocean-majesty-4.jpg", "https://paragon-trails-yacht-images.com/motor/singapore-ocean-majesty-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Ocean Majesty, a stunning 27m motor yacht available for charter in singapore. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/singapore-ocean-majesty-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/singapore-ocean-majesty-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/singapore-ocean-majesty-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/singapore-ocean-majesty-4.jpg",
+      "https://paragon-trails-yacht-images.com/motor/singapore-ocean-majesty-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 12930,
@@ -122,9 +144,22 @@ export const singaporesingaporeasiaPacificYachts: Yacht[] = [
       crew: 7,
       bathrooms: 9,
     },
-    amenities: ["Hot Tub", "BBQ Grill", "Tender Garage", "Bar", "Kitchen", "Stabilizers"],
+    amenities: [
+      "Hot Tub",
+      "BBQ Grill",
+      "Tender Garage",
+      "Bar",
+      "Kitchen",
+      "Stabilizers",
+    ],
     entertainment: ["Satellite TV", "Board Games"],
-    waterToys: ["Floating Island", "Towable Tubes", "Snorkeling Gear", "Water Skis", "Fishing Equipment"],
+    waterToys: [
+      "Floating Island",
+      "Towable Tubes",
+      "Snorkeling Gear",
+      "Water Skis",
+      "Fishing Equipment",
+    ],
     location: {
       city: "Singapore",
       country: "Singapore",
@@ -135,8 +170,15 @@ export const singaporesingaporeasiaPacificYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only"],
-    description: "Mermaid's Song combines performance and luxury in a stunning 49m mega yacht. With its professional crew of 7, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/mega/singapore-mermaid's-song-1.jpg", "https://paragon-trails-yacht-images.com/mega/singapore-mermaid's-song-2.jpg", "https://paragon-trails-yacht-images.com/mega/singapore-mermaid's-song-3.jpg", "https://paragon-trails-yacht-images.com/mega/singapore-mermaid's-song-4.jpg", "https://paragon-trails-yacht-images.com/mega/singapore-mermaid's-song-5.jpg"],
+    description:
+      "Mermaid's Song combines performance and luxury in a stunning 49m mega yacht. With its professional crew of 7, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/singapore-mermaid's-song-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/singapore-mermaid's-song-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/singapore-mermaid's-song-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/singapore-mermaid's-song-4.jpg",
+      "https://paragon-trails-yacht-images.com/mega/singapore-mermaid's-song-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 32582,
@@ -145,7 +187,13 @@ export const singaporesingaporeasiaPacificYachts: Yacht[] = [
       includes: ["Hot Tub", "BBQ Grill"],
       excludes: ["Stabilizers"],
     },
-    safetyFeatures: ["Searchlight", "Navigation Lights", "Life Jackets", "Emergency Beacon", "First Aid Kit"],
+    safetyFeatures: [
+      "Searchlight",
+      "Navigation Lights",
+      "Life Jackets",
+      "Emergency Beacon",
+      "First Aid Kit",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -173,7 +221,13 @@ export const singaporesingaporeasiaPacificYachts: Yacht[] = [
     },
     amenities: ["Bar", "Hot Tub", "Laundry Service", "Wi-Fi"],
     entertainment: ["Streaming Services", "Projector"],
-    waterToys: ["Floating Island", "Wakeboard", "Jet Ski", "Seabob", "Towable Tubes"],
+    waterToys: [
+      "Floating Island",
+      "Wakeboard",
+      "Jet Ski",
+      "Seabob",
+      "Towable Tubes",
+    ],
     location: {
       city: "Singapore",
       country: "Singapore",
@@ -184,8 +238,14 @@ export const singaporesingaporeasiaPacificYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Self-Catering", "All-Inclusive"],
-    description: "Charter the impressive Baltic Star in singapore and enjoy its 4 luxury amenities and 5 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/motor/singapore-baltic-star-1.jpg", "https://paragon-trails-yacht-images.com/motor/singapore-baltic-star-2.jpg", "https://paragon-trails-yacht-images.com/motor/singapore-baltic-star-3.jpg", "https://paragon-trails-yacht-images.com/motor/singapore-baltic-star-4.jpg"],
+    description:
+      "Charter the impressive Baltic Star in singapore and enjoy its 4 luxury amenities and 5 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/singapore-baltic-star-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/singapore-baltic-star-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/singapore-baltic-star-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/singapore-baltic-star-4.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 5120,
@@ -220,7 +280,15 @@ export const singaporesingaporeasiaPacificYachts: Yacht[] = [
       crew: 5,
       bathrooms: 6,
     },
-    amenities: ["Heated Deck", "Kitchen", "Outdoor Shower", "Bar", "Air Conditioning", "Sauna", "Indoor Lounge"],
+    amenities: [
+      "Heated Deck",
+      "Kitchen",
+      "Outdoor Shower",
+      "Bar",
+      "Air Conditioning",
+      "Sauna",
+      "Indoor Lounge",
+    ],
     entertainment: ["Karaoke System", "Onboard Cinema"],
     waterToys: ["Windsurf", "Towable Tubes", "Scuba Diving Gear", "Wakeboard"],
     location: {
@@ -233,17 +301,32 @@ export const singaporesingaporeasiaPacificYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["No Catering"],
-    description: "Experience luxury and comfort aboard the Pacific Explorer, a stunning 30m gulet yacht available for charter in singapore. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/singapore-pacific-explorer-1.jpg", "https://paragon-trails-yacht-images.com/gulet/singapore-pacific-explorer-2.jpg", "https://paragon-trails-yacht-images.com/gulet/singapore-pacific-explorer-3.jpg", "https://paragon-trails-yacht-images.com/gulet/singapore-pacific-explorer-4.jpg", "https://paragon-trails-yacht-images.com/gulet/singapore-pacific-explorer-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Pacific Explorer, a stunning 30m gulet yacht available for charter in singapore. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/singapore-pacific-explorer-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/singapore-pacific-explorer-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/singapore-pacific-explorer-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/singapore-pacific-explorer-4.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/singapore-pacific-explorer-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5566,
       perWeek: 33117.7,
       currency: "SGD",
       includes: ["Heated Deck"],
-      excludes: ["Heated Deck", "Kitchen", "Outdoor Shower", "Bar", "Air Conditioning", "Sauna", "Indoor Lounge"],
+      excludes: [
+        "Heated Deck",
+        "Kitchen",
+        "Outdoor Shower",
+        "Bar",
+        "Air Conditioning",
+        "Sauna",
+        "Indoor Lounge",
+      ],
     },
     safetyFeatures: ["Life Rafts", "Searchlight", "Flares"],
     accessibilityFeatures: [],
-  }
+  },
 ];

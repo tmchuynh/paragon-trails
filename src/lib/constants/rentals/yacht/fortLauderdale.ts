@@ -37,8 +37,15 @@ export const fortLauderdaleunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["No Catering", "Self-Catering"],
-    description: "Pacific Explorer combines performance and luxury in a stunning 23m gulet yacht. With its professional crew of 5, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/fort-lauderdale-pacific-explorer-1.jpg", "https://paragon-trails-yacht-images.com/gulet/fort-lauderdale-pacific-explorer-2.jpg", "https://paragon-trails-yacht-images.com/gulet/fort-lauderdale-pacific-explorer-3.jpg", "https://paragon-trails-yacht-images.com/gulet/fort-lauderdale-pacific-explorer-4.jpg", "https://paragon-trails-yacht-images.com/gulet/fort-lauderdale-pacific-explorer-5.jpg"],
+    description:
+      "Pacific Explorer combines performance and luxury in a stunning 23m gulet yacht. With its professional crew of 5, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/fort-lauderdale-pacific-explorer-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/fort-lauderdale-pacific-explorer-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/fort-lauderdale-pacific-explorer-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/fort-lauderdale-pacific-explorer-4.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/fort-lauderdale-pacific-explorer-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5384,
@@ -73,7 +80,15 @@ export const fortLauderdaleunitedStatescaribbeanYachts: Yacht[] = [
       crew: 2,
       bathrooms: 6,
     },
-    amenities: ["Wi-Fi", "Stabilizers", "Heated Deck", "Swim Platform", "Air Conditioning", "Laundry Service", "Tender Garage"],
+    amenities: [
+      "Wi-Fi",
+      "Stabilizers",
+      "Heated Deck",
+      "Swim Platform",
+      "Air Conditioning",
+      "Laundry Service",
+      "Tender Garage",
+    ],
     entertainment: ["Projector", "Streaming Services"],
     waterToys: ["Scuba Diving Gear", "Kneeboard", "Paddleboards"],
     location: {
@@ -86,8 +101,15 @@ export const fortLauderdaleunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["No Catering"],
-    description: "Charter the impressive Mermaid's Song in fort-lauderdale and enjoy its 7 luxury amenities and 3 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/fort-lauderdale-mermaid's-song-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/fort-lauderdale-mermaid's-song-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/fort-lauderdale-mermaid's-song-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/fort-lauderdale-mermaid's-song-4.jpg", "https://paragon-trails-yacht-images.com/catamaran/fort-lauderdale-mermaid's-song-5.jpg"],
+    description:
+      "Charter the impressive Mermaid's Song in fort-lauderdale and enjoy its 7 luxury amenities and 3 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/fort-lauderdale-mermaid's-song-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/fort-lauderdale-mermaid's-song-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/fort-lauderdale-mermaid's-song-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/fort-lauderdale-mermaid's-song-4.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/fort-lauderdale-mermaid's-song-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 11805,
@@ -135,8 +157,15 @@ export const fortLauderdaleunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["No Catering", "BBQ Onboard"],
-    description: "The Sovereign Waters is a magnificent catamaran yacht built by Wally offering exceptional amenities and impeccable service for an unforgettable sailing experience in fort-lauderdale.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/fort-lauderdale-sovereign-waters-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/fort-lauderdale-sovereign-waters-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/fort-lauderdale-sovereign-waters-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/fort-lauderdale-sovereign-waters-4.jpg", "https://paragon-trails-yacht-images.com/catamaran/fort-lauderdale-sovereign-waters-5.jpg"],
+    description:
+      "The Sovereign Waters is a magnificent catamaran yacht built by Wally offering exceptional amenities and impeccable service for an unforgettable sailing experience in fort-lauderdale.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/fort-lauderdale-sovereign-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/fort-lauderdale-sovereign-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/fort-lauderdale-sovereign-waters-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/fort-lauderdale-sovereign-waters-4.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/fort-lauderdale-sovereign-waters-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 4490,
@@ -184,8 +213,14 @@ export const fortLauderdaleunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive"],
-    description: "Pearl Harbor combines performance and luxury in a stunning 24m catamaran yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/fort-lauderdale-pearl-harbor-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/fort-lauderdale-pearl-harbor-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/fort-lauderdale-pearl-harbor-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/fort-lauderdale-pearl-harbor-4.jpg"],
+    description:
+      "Pearl Harbor combines performance and luxury in a stunning 24m catamaran yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/fort-lauderdale-pearl-harbor-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/fort-lauderdale-pearl-harbor-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/fort-lauderdale-pearl-harbor-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/fort-lauderdale-pearl-harbor-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 11019,
@@ -220,9 +255,21 @@ export const fortLauderdaleunitedStatescaribbeanYachts: Yacht[] = [
       crew: 4,
       bathrooms: 7,
     },
-    amenities: ["Hot Tub", "Tender Garage", "Sauna", "Sun Deck", "Stabilizers", "Air Conditioning"],
+    amenities: [
+      "Hot Tub",
+      "Tender Garage",
+      "Sauna",
+      "Sun Deck",
+      "Stabilizers",
+      "Air Conditioning",
+    ],
     entertainment: ["Bluetooth Speakers", "Game Console"],
-    waterToys: ["Scuba Diving Gear", "Floating Island", "Windsurf", "Towable Tubes"],
+    waterToys: [
+      "Scuba Diving Gear",
+      "Floating Island",
+      "Windsurf",
+      "Towable Tubes",
+    ],
     location: {
       city: "Fort-lauderdale",
       country: "United States",
@@ -233,8 +280,15 @@ export const fortLauderdaleunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: false,
     cateringOptions: ["Breakfast Only"],
-    description: "Charter the impressive Cobalt Waters in fort-lauderdale and enjoy its 6 luxury amenities and 4 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/fort-lauderdale-cobalt-waters-1.jpg", "https://paragon-trails-yacht-images.com/gulet/fort-lauderdale-cobalt-waters-2.jpg", "https://paragon-trails-yacht-images.com/gulet/fort-lauderdale-cobalt-waters-3.jpg", "https://paragon-trails-yacht-images.com/gulet/fort-lauderdale-cobalt-waters-4.jpg", "https://paragon-trails-yacht-images.com/gulet/fort-lauderdale-cobalt-waters-5.jpg"],
+    description:
+      "Charter the impressive Cobalt Waters in fort-lauderdale and enjoy its 6 luxury amenities and 4 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/fort-lauderdale-cobalt-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/fort-lauderdale-cobalt-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/fort-lauderdale-cobalt-waters-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/fort-lauderdale-cobalt-waters-4.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/fort-lauderdale-cobalt-waters-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8319,
@@ -243,7 +297,12 @@ export const fortLauderdaleunitedStatescaribbeanYachts: Yacht[] = [
       includes: ["Hot Tub", "Tender Garage"],
       excludes: ["Air Conditioning"],
     },
-    safetyFeatures: ["Fog Horn", "Fire Extinguishers", "Emergency Radio", "Navigation Lights"],
+    safetyFeatures: [
+      "Fog Horn",
+      "Fire Extinguishers",
+      "Emergency Radio",
+      "Navigation Lights",
+    ],
     accessibilityFeatures: ["Handrails"],
   },
   {
@@ -282,8 +341,14 @@ export const fortLauderdaleunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages"],
-    description: "Charter the impressive Sea Spirit in fort-lauderdale and enjoy its 6 luxury amenities and 3 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/fort-lauderdale-sea-spirit-1.jpg", "https://paragon-trails-yacht-images.com/sailing/fort-lauderdale-sea-spirit-2.jpg", "https://paragon-trails-yacht-images.com/sailing/fort-lauderdale-sea-spirit-3.jpg", "https://paragon-trails-yacht-images.com/sailing/fort-lauderdale-sea-spirit-4.jpg"],
+    description:
+      "Charter the impressive Sea Spirit in fort-lauderdale and enjoy its 6 luxury amenities and 3 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/fort-lauderdale-sea-spirit-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/fort-lauderdale-sea-spirit-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/fort-lauderdale-sea-spirit-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/fort-lauderdale-sea-spirit-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 9458,
@@ -292,7 +357,12 @@ export const fortLauderdaleunitedStatescaribbeanYachts: Yacht[] = [
       includes: ["Air Conditioning", "Indoor Lounge"],
       excludes: ["Sun Deck"],
     },
-    safetyFeatures: ["Fire Extinguishers", "Searchlight", "First Aid Kit", "Emergency Beacon"],
+    safetyFeatures: [
+      "Fire Extinguishers",
+      "Searchlight",
+      "First Aid Kit",
+      "Emergency Beacon",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -318,7 +388,14 @@ export const fortLauderdaleunitedStatescaribbeanYachts: Yacht[] = [
       crew: 2,
       bathrooms: 4,
     },
-    amenities: ["Hot Tub", "Heated Deck", "Air Conditioning", "Stabilizers", "Dining Area", "Tender Garage"],
+    amenities: [
+      "Hot Tub",
+      "Heated Deck",
+      "Air Conditioning",
+      "Stabilizers",
+      "Dining Area",
+      "Tender Garage",
+    ],
     entertainment: ["Satellite TV"],
     waterToys: ["Seabob", "Towable Tubes", "Kneeboard", "Floating Island"],
     location: {
@@ -331,17 +408,31 @@ export const fortLauderdaleunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["À La Carte", "No Catering"],
-    description: "Discover the beauty of fort-lauderdale's waters aboard the elegant Serenity Now, a 2011 catamaran yacht featuring spacious accommodation for 10 guests overnight or 12 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/fort-lauderdale-serenity-now-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/fort-lauderdale-serenity-now-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/fort-lauderdale-serenity-now-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/fort-lauderdale-serenity-now-4.jpg", "https://paragon-trails-yacht-images.com/catamaran/fort-lauderdale-serenity-now-5.jpg"],
+    description:
+      "Discover the beauty of fort-lauderdale's waters aboard the elegant Serenity Now, a 2011 catamaran yacht featuring spacious accommodation for 10 guests overnight or 12 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/fort-lauderdale-serenity-now-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/fort-lauderdale-serenity-now-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/fort-lauderdale-serenity-now-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/fort-lauderdale-serenity-now-4.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/fort-lauderdale-serenity-now-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 7530,
       perWeek: 44803.5,
       currency: "USD",
       includes: ["Hot Tub"],
-      excludes: ["Hot Tub", "Heated Deck", "Air Conditioning", "Stabilizers", "Dining Area", "Tender Garage"],
+      excludes: [
+        "Hot Tub",
+        "Heated Deck",
+        "Air Conditioning",
+        "Stabilizers",
+        "Dining Area",
+        "Tender Garage",
+      ],
     },
     safetyFeatures: ["Life Jackets", "EPIRB", "Emergency Steering"],
     accessibilityFeatures: [],
-  }
+  },
 ];

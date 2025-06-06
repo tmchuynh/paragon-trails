@@ -24,7 +24,14 @@ export const tokyojapanasiaPacificYachts: Yacht[] = [
       crew: 8,
       bathrooms: 5,
     },
-    amenities: ["Dining Area", "Hot Tub", "Swim Platform", "Sun Deck", "Heated Deck", "Air Conditioning"],
+    amenities: [
+      "Dining Area",
+      "Hot Tub",
+      "Swim Platform",
+      "Sun Deck",
+      "Heated Deck",
+      "Air Conditioning",
+    ],
     entertainment: ["DJ Equipment"],
     waterToys: ["Water Skis", "Seabob", "Kayaks", "Towable Tubes", "Windsurf"],
     location: {
@@ -37,8 +44,14 @@ export const tokyojapanasiaPacificYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Picnic-Style"],
-    description: "Mediterranean Gem combines performance and luxury in a stunning 52m mega yacht. With its professional crew of 8, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/mega/tokyo-mediterranean-gem-1.jpg", "https://paragon-trails-yacht-images.com/mega/tokyo-mediterranean-gem-2.jpg", "https://paragon-trails-yacht-images.com/mega/tokyo-mediterranean-gem-3.jpg", "https://paragon-trails-yacht-images.com/mega/tokyo-mediterranean-gem-4.jpg"],
+    description:
+      "Mediterranean Gem combines performance and luxury in a stunning 52m mega yacht. With its professional crew of 8, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/tokyo-mediterranean-gem-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/tokyo-mediterranean-gem-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/tokyo-mediterranean-gem-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/tokyo-mediterranean-gem-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 23091,
@@ -73,7 +86,13 @@ export const tokyojapanasiaPacificYachts: Yacht[] = [
       crew: 3,
       bathrooms: 5,
     },
-    amenities: ["Kitchen", "Outdoor Shower", "Swim Platform", "Tender Garage", "Heated Deck"],
+    amenities: [
+      "Kitchen",
+      "Outdoor Shower",
+      "Swim Platform",
+      "Tender Garage",
+      "Heated Deck",
+    ],
     entertainment: ["Board Games"],
     waterToys: ["E-Foil", "Kayaks", "Kneeboard", "Paddleboards"],
     location: {
@@ -86,17 +105,34 @@ export const tokyojapanasiaPacificYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard"],
-    description: "The Sapphire Seas is a magnificent gulet yacht built by Swan offering exceptional amenities and impeccable service for an unforgettable sailing experience in tokyo.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/tokyo-sapphire-seas-1.jpg", "https://paragon-trails-yacht-images.com/gulet/tokyo-sapphire-seas-2.jpg", "https://paragon-trails-yacht-images.com/gulet/tokyo-sapphire-seas-3.jpg", "https://paragon-trails-yacht-images.com/gulet/tokyo-sapphire-seas-4.jpg"],
+    description:
+      "The Sapphire Seas is a magnificent gulet yacht built by Swan offering exceptional amenities and impeccable service for an unforgettable sailing experience in tokyo.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/tokyo-sapphire-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/tokyo-sapphire-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/tokyo-sapphire-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/tokyo-sapphire-seas-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 3849,
       perWeek: 22901.55,
       currency: "JPY",
       includes: ["Kitchen", "Outdoor Shower"],
-      excludes: ["Kitchen", "Outdoor Shower", "Swim Platform", "Tender Garage", "Heated Deck"],
+      excludes: [
+        "Kitchen",
+        "Outdoor Shower",
+        "Swim Platform",
+        "Tender Garage",
+        "Heated Deck",
+      ],
     },
-    safetyFeatures: ["Emergency Beacon", "Fire Extinguishers", "Navigation Lights", "Searchlight"],
+    safetyFeatures: [
+      "Emergency Beacon",
+      "Fire Extinguishers",
+      "Navigation Lights",
+      "Searchlight",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -135,8 +171,13 @@ export const tokyojapanasiaPacificYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["No Catering", "BBQ Onboard"],
-    description: "The Silver Horizon is a magnificent sailing yacht built by Sunreef offering exceptional amenities and impeccable service for an unforgettable sailing experience in tokyo.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/tokyo-silver-horizon-1.jpg", "https://paragon-trails-yacht-images.com/sailing/tokyo-silver-horizon-2.jpg", "https://paragon-trails-yacht-images.com/sailing/tokyo-silver-horizon-3.jpg"],
+    description:
+      "The Silver Horizon is a magnificent sailing yacht built by Sunreef offering exceptional amenities and impeccable service for an unforgettable sailing experience in tokyo.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/tokyo-silver-horizon-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/tokyo-silver-horizon-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/tokyo-silver-horizon-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8468,
@@ -184,8 +225,14 @@ export const tokyojapanasiaPacificYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: false,
     cateringOptions: ["No Catering", "BBQ Onboard"],
-    description: "Discover the beauty of tokyo's waters aboard the elegant Sea Spirit, a 2011 mega yacht featuring spacious accommodation for 11 guests overnight or 14 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/mega/tokyo-sea-spirit-1.jpg", "https://paragon-trails-yacht-images.com/mega/tokyo-sea-spirit-2.jpg", "https://paragon-trails-yacht-images.com/mega/tokyo-sea-spirit-3.jpg", "https://paragon-trails-yacht-images.com/mega/tokyo-sea-spirit-4.jpg"],
+    description:
+      "Discover the beauty of tokyo's waters aboard the elegant Sea Spirit, a 2011 mega yacht featuring spacious accommodation for 11 guests overnight or 14 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/tokyo-sea-spirit-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/tokyo-sea-spirit-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/tokyo-sea-spirit-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/tokyo-sea-spirit-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 44965,
@@ -220,7 +267,13 @@ export const tokyojapanasiaPacificYachts: Yacht[] = [
       crew: 4,
       bathrooms: 7,
     },
-    amenities: ["Bar", "Sun Deck", "Outdoor Shower", "Air Conditioning", "Hot Tub"],
+    amenities: [
+      "Bar",
+      "Sun Deck",
+      "Outdoor Shower",
+      "Air Conditioning",
+      "Hot Tub",
+    ],
     entertainment: ["Surround Sound System", "Game Console"],
     waterToys: ["Inflatable Slide", "E-Foil", "Towable Tubes", "Seabob"],
     location: {
@@ -233,17 +286,33 @@ export const tokyojapanasiaPacificYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only"],
-    description: "The Sea Spirit is a magnificent gulet yacht built by Azimut offering exceptional amenities and impeccable service for an unforgettable sailing experience in tokyo.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/tokyo-sea-spirit-1.jpg", "https://paragon-trails-yacht-images.com/gulet/tokyo-sea-spirit-2.jpg", "https://paragon-trails-yacht-images.com/gulet/tokyo-sea-spirit-3.jpg"],
+    description:
+      "The Sea Spirit is a magnificent gulet yacht built by Azimut offering exceptional amenities and impeccable service for an unforgettable sailing experience in tokyo.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/tokyo-sea-spirit-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/tokyo-sea-spirit-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/tokyo-sea-spirit-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 6414,
       perWeek: 38163.299999999996,
       currency: "JPY",
       includes: ["Bar", "Sun Deck", "Outdoor Shower"],
-      excludes: ["Bar", "Sun Deck", "Outdoor Shower", "Air Conditioning", "Hot Tub"],
+      excludes: [
+        "Bar",
+        "Sun Deck",
+        "Outdoor Shower",
+        "Air Conditioning",
+        "Hot Tub",
+      ],
     },
-    safetyFeatures: ["GPS Tracking", "EPIRB", "Searchlight", "Emergency Beacon"],
+    safetyFeatures: [
+      "GPS Tracking",
+      "EPIRB",
+      "Searchlight",
+      "Emergency Beacon",
+    ],
     accessibilityFeatures: [],
-  }
+  },
 ];

@@ -24,7 +24,14 @@ export const helsinkifinlandnorthernEuropeYachts: Yacht[] = [
       crew: 2,
       bathrooms: 5,
     },
-    amenities: ["Stabilizers", "Sauna", "Hot Tub", "Kitchen", "Laundry Service", "Jacuzzi"],
+    amenities: [
+      "Stabilizers",
+      "Sauna",
+      "Hot Tub",
+      "Kitchen",
+      "Laundry Service",
+      "Jacuzzi",
+    ],
     entertainment: ["Bluetooth Speakers"],
     waterToys: ["Water Skis", "Kneeboard"],
     location: {
@@ -37,8 +44,14 @@ export const helsinkifinlandnorthernEuropeYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["BBQ Onboard"],
-    description: "Discover the beauty of helsinki's waters aboard the elegant Sea Spirit, a 2005 catamaran yacht featuring spacious accommodation for 7 guests overnight or 12 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/helsinki-sea-spirit-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/helsinki-sea-spirit-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/helsinki-sea-spirit-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/helsinki-sea-spirit-4.jpg"],
+    description:
+      "Discover the beauty of helsinki's waters aboard the elegant Sea Spirit, a 2005 catamaran yacht featuring spacious accommodation for 7 guests overnight or 12 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/helsinki-sea-spirit-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/helsinki-sea-spirit-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/helsinki-sea-spirit-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/helsinki-sea-spirit-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 4691,
@@ -47,7 +60,12 @@ export const helsinkifinlandnorthernEuropeYachts: Yacht[] = [
       includes: ["Stabilizers"],
       excludes: ["Jacuzzi"],
     },
-    safetyFeatures: ["Emergency Radio", "Navigation Lights", "Searchlight", "GPS Tracking"],
+    safetyFeatures: [
+      "Emergency Radio",
+      "Navigation Lights",
+      "Searchlight",
+      "GPS Tracking",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -86,8 +104,13 @@ export const helsinkifinlandnorthernEuropeYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard"],
-    description: "Charter the impressive Ocean Majesty in helsinki and enjoy its 5 luxury amenities and 2 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/helsinki-ocean-majesty-1.jpg", "https://paragon-trails-yacht-images.com/sailing/helsinki-ocean-majesty-2.jpg", "https://paragon-trails-yacht-images.com/sailing/helsinki-ocean-majesty-3.jpg"],
+    description:
+      "Charter the impressive Ocean Majesty in helsinki and enjoy its 5 luxury amenities and 2 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/helsinki-ocean-majesty-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/helsinki-ocean-majesty-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/helsinki-ocean-majesty-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 3667,
@@ -122,7 +145,13 @@ export const helsinkifinlandnorthernEuropeYachts: Yacht[] = [
       crew: 2,
       bathrooms: 3,
     },
-    amenities: ["Laundry Service", "Swim Platform", "Sun Deck", "Air Conditioning", "Sauna"],
+    amenities: [
+      "Laundry Service",
+      "Swim Platform",
+      "Sun Deck",
+      "Air Conditioning",
+      "Sauna",
+    ],
     entertainment: ["DJ Equipment"],
     waterToys: ["Windsurf", "Towable Tubes", "Water Skis"],
     location: {
@@ -135,8 +164,14 @@ export const helsinkifinlandnorthernEuropeYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive", "Picnic-Style"],
-    description: "Experience luxury and comfort aboard the Sea Symphony, a stunning 24m sailing yacht available for charter in helsinki. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/helsinki-sea-symphony-1.jpg", "https://paragon-trails-yacht-images.com/sailing/helsinki-sea-symphony-2.jpg", "https://paragon-trails-yacht-images.com/sailing/helsinki-sea-symphony-3.jpg", "https://paragon-trails-yacht-images.com/sailing/helsinki-sea-symphony-4.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Sea Symphony, a stunning 24m sailing yacht available for charter in helsinki. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/helsinki-sea-symphony-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/helsinki-sea-symphony-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/helsinki-sea-symphony-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/helsinki-sea-symphony-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 4261,
@@ -145,7 +180,12 @@ export const helsinkifinlandnorthernEuropeYachts: Yacht[] = [
       includes: ["Laundry Service", "Swim Platform", "Sun Deck"],
       excludes: ["Sauna"],
     },
-    safetyFeatures: ["Emergency Radio", "Searchlight", "First Aid Kit", "EPIRB"],
+    safetyFeatures: [
+      "Emergency Radio",
+      "Searchlight",
+      "First Aid Kit",
+      "EPIRB",
+    ],
     accessibilityFeatures: ["Wheelchair Ramp"],
   },
   {
@@ -184,8 +224,15 @@ export const helsinkifinlandnorthernEuropeYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: false,
     cateringOptions: ["Chef Onboard", "BBQ Onboard"],
-    description: "Discover the beauty of helsinki's waters aboard the elegant Diamond Seas, a 2011 super yacht featuring spacious accommodation for 12 guests overnight or 16 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/super/helsinki-diamond-seas-1.jpg", "https://paragon-trails-yacht-images.com/super/helsinki-diamond-seas-2.jpg", "https://paragon-trails-yacht-images.com/super/helsinki-diamond-seas-3.jpg", "https://paragon-trails-yacht-images.com/super/helsinki-diamond-seas-4.jpg", "https://paragon-trails-yacht-images.com/super/helsinki-diamond-seas-5.jpg"],
+    description:
+      "Discover the beauty of helsinki's waters aboard the elegant Diamond Seas, a 2011 super yacht featuring spacious accommodation for 12 guests overnight or 16 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/helsinki-diamond-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/helsinki-diamond-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/helsinki-diamond-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/helsinki-diamond-seas-4.jpg",
+      "https://paragon-trails-yacht-images.com/super/helsinki-diamond-seas-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 56376,
@@ -194,7 +241,12 @@ export const helsinkifinlandnorthernEuropeYachts: Yacht[] = [
       includes: ["Stabilizers"],
       excludes: ["Stabilizers", "Heated Deck", "Wi-Fi"],
     },
-    safetyFeatures: ["Emergency Beacon", "Fire Extinguishers", "Emergency Steering", "Emergency Radio"],
+    safetyFeatures: [
+      "Emergency Beacon",
+      "Fire Extinguishers",
+      "Emergency Steering",
+      "Emergency Radio",
+    ],
     accessibilityFeatures: ["Accessible Cabin"],
   },
   {
@@ -233,8 +285,15 @@ export const helsinkifinlandnorthernEuropeYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["BBQ Onboard"],
-    description: "Wave Dancer combines performance and luxury in a stunning 50m mega yacht. With its professional crew of 6, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/mega/helsinki-wave-dancer-1.jpg", "https://paragon-trails-yacht-images.com/mega/helsinki-wave-dancer-2.jpg", "https://paragon-trails-yacht-images.com/mega/helsinki-wave-dancer-3.jpg", "https://paragon-trails-yacht-images.com/mega/helsinki-wave-dancer-4.jpg", "https://paragon-trails-yacht-images.com/mega/helsinki-wave-dancer-5.jpg"],
+    description:
+      "Wave Dancer combines performance and luxury in a stunning 50m mega yacht. With its professional crew of 6, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/helsinki-wave-dancer-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/helsinki-wave-dancer-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/helsinki-wave-dancer-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/helsinki-wave-dancer-4.jpg",
+      "https://paragon-trails-yacht-images.com/mega/helsinki-wave-dancer-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 36624,
@@ -282,8 +341,14 @@ export const helsinkifinlandnorthernEuropeYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Full-Service Catering"],
-    description: "Charter the impressive Cobalt Waters in helsinki and enjoy its 3 luxury amenities and 3 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/helsinki-cobalt-waters-1.jpg", "https://paragon-trails-yacht-images.com/gulet/helsinki-cobalt-waters-2.jpg", "https://paragon-trails-yacht-images.com/gulet/helsinki-cobalt-waters-3.jpg", "https://paragon-trails-yacht-images.com/gulet/helsinki-cobalt-waters-4.jpg"],
+    description:
+      "Charter the impressive Cobalt Waters in helsinki and enjoy its 3 luxury amenities and 3 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/helsinki-cobalt-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/helsinki-cobalt-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/helsinki-cobalt-waters-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/helsinki-cobalt-waters-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6669,
@@ -292,7 +357,12 @@ export const helsinkifinlandnorthernEuropeYachts: Yacht[] = [
       includes: ["Indoor Lounge", "Tender Garage"],
       excludes: ["Indoor Lounge", "Tender Garage"],
     },
-    safetyFeatures: ["GPS Tracking", "EPIRB", "Life Jackets", "Emergency Beacon"],
+    safetyFeatures: [
+      "GPS Tracking",
+      "EPIRB",
+      "Life Jackets",
+      "Emergency Beacon",
+    ],
     accessibilityFeatures: ["Handrails", "Elevator"],
-  }
+  },
 ];

@@ -37,8 +37,15 @@ export const hoChiMinhCityvietnamasiaPacificYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["No Catering"],
-    description: "The Mermaid's Song is a magnificent super yacht built by Wally offering exceptional amenities and impeccable service for an unforgettable sailing experience in ho-chi-minh-city.",
-    images: ["https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-mermaid's-song-1.jpg", "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-mermaid's-song-2.jpg", "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-mermaid's-song-3.jpg", "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-mermaid's-song-4.jpg", "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-mermaid's-song-5.jpg"],
+    description:
+      "The Mermaid's Song is a magnificent super yacht built by Wally offering exceptional amenities and impeccable service for an unforgettable sailing experience in ho-chi-minh-city.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-mermaid's-song-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-mermaid's-song-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-mermaid's-song-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-mermaid's-song-4.jpg",
+      "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-mermaid's-song-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 178214,
@@ -86,8 +93,13 @@ export const hoChiMinhCityvietnamasiaPacificYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: false,
     cateringOptions: ["All-Inclusive"],
-    description: "Endless Horizons combines performance and luxury in a stunning 85m super yacht. With its professional crew of 15, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-endless-horizons-1.jpg", "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-endless-horizons-2.jpg", "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-endless-horizons-3.jpg"],
+    description:
+      "Endless Horizons combines performance and luxury in a stunning 85m super yacht. With its professional crew of 15, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-endless-horizons-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-endless-horizons-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-endless-horizons-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 82840,
@@ -122,7 +134,14 @@ export const hoChiMinhCityvietnamasiaPacificYachts: Yacht[] = [
       crew: 7,
       bathrooms: 5,
     },
-    amenities: ["Bar", "Tender Garage", "Kitchen", "Indoor Lounge", "Wi-Fi", "Swim Platform"],
+    amenities: [
+      "Bar",
+      "Tender Garage",
+      "Kitchen",
+      "Indoor Lounge",
+      "Wi-Fi",
+      "Swim Platform",
+    ],
     entertainment: ["Projector", "Karaoke System", "Streaming Services"],
     waterToys: ["Scuba Diving Gear", "Kneeboard"],
     location: {
@@ -135,8 +154,15 @@ export const hoChiMinhCityvietnamasiaPacificYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: false,
     cateringOptions: ["Breakfast Only"],
-    description: "Charter the impressive Endless Horizons in ho-chi-minh-city and enjoy its 6 luxury amenities and 2 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/mega/ho-chi-minh-city-endless-horizons-1.jpg", "https://paragon-trails-yacht-images.com/mega/ho-chi-minh-city-endless-horizons-2.jpg", "https://paragon-trails-yacht-images.com/mega/ho-chi-minh-city-endless-horizons-3.jpg", "https://paragon-trails-yacht-images.com/mega/ho-chi-minh-city-endless-horizons-4.jpg", "https://paragon-trails-yacht-images.com/mega/ho-chi-minh-city-endless-horizons-5.jpg"],
+    description:
+      "Charter the impressive Endless Horizons in ho-chi-minh-city and enjoy its 6 luxury amenities and 2 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/ho-chi-minh-city-endless-horizons-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/ho-chi-minh-city-endless-horizons-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/ho-chi-minh-city-endless-horizons-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/ho-chi-minh-city-endless-horizons-4.jpg",
+      "https://paragon-trails-yacht-images.com/mega/ho-chi-minh-city-endless-horizons-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 43407,
@@ -184,8 +210,13 @@ export const hoChiMinhCityvietnamasiaPacificYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: false,
     cateringOptions: ["Chef Onboard"],
-    description: "Discover the beauty of ho-chi-minh-city's waters aboard the elegant Neptune's Glory, a 2007 super yacht featuring spacious accommodation for 14 guests overnight or 20 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-neptune's-glory-1.jpg", "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-neptune's-glory-2.jpg", "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-neptune's-glory-3.jpg"],
+    description:
+      "Discover the beauty of ho-chi-minh-city's waters aboard the elegant Neptune's Glory, a 2007 super yacht featuring spacious accommodation for 14 guests overnight or 20 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-neptune's-glory-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-neptune's-glory-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-neptune's-glory-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 159544,
@@ -222,7 +253,12 @@ export const hoChiMinhCityvietnamasiaPacificYachts: Yacht[] = [
     },
     amenities: ["Dining Area", "Bar", "Kitchen"],
     entertainment: ["Bluetooth Speakers"],
-    waterToys: ["Scuba Diving Gear", "Fishing Equipment", "Water Skis", "Windsurf"],
+    waterToys: [
+      "Scuba Diving Gear",
+      "Fishing Equipment",
+      "Water Skis",
+      "Windsurf",
+    ],
     location: {
       city: "Ho-chi-minh-city",
       country: "Vietnam",
@@ -233,8 +269,15 @@ export const hoChiMinhCityvietnamasiaPacificYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard", "Self-Catering"],
-    description: "Aegean Beauty combines performance and luxury in a stunning 73m super yacht. With its professional crew of 19, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-aegean-beauty-1.jpg", "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-aegean-beauty-2.jpg", "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-aegean-beauty-3.jpg", "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-aegean-beauty-4.jpg", "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-aegean-beauty-5.jpg"],
+    description:
+      "Aegean Beauty combines performance and luxury in a stunning 73m super yacht. With its professional crew of 19, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-aegean-beauty-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-aegean-beauty-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-aegean-beauty-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-aegean-beauty-4.jpg",
+      "https://paragon-trails-yacht-images.com/super/ho-chi-minh-city-aegean-beauty-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 179452,
@@ -269,9 +312,22 @@ export const hoChiMinhCityvietnamasiaPacificYachts: Yacht[] = [
       crew: 2,
       bathrooms: 3,
     },
-    amenities: ["Dining Area", "Laundry Service", "Sun Deck", "Bar", "Heated Deck", "Hot Tub"],
+    amenities: [
+      "Dining Area",
+      "Laundry Service",
+      "Sun Deck",
+      "Bar",
+      "Heated Deck",
+      "Hot Tub",
+    ],
     entertainment: ["Karaoke System"],
-    waterToys: ["Water Skis", "Kneeboard", "Kayaks", "Seabob", "Inflatable Slide"],
+    waterToys: [
+      "Water Skis",
+      "Kneeboard",
+      "Kayaks",
+      "Seabob",
+      "Inflatable Slide",
+    ],
     location: {
       city: "Ho-chi-minh-city",
       country: "Vietnam",
@@ -282,17 +338,30 @@ export const hoChiMinhCityvietnamasiaPacificYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Self-Catering"],
-    description: "Charter the impressive Ocean Majesty in ho-chi-minh-city and enjoy its 7 luxury amenities and 5 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/ho-chi-minh-city-ocean-majesty-1.jpg", "https://paragon-trails-yacht-images.com/sailing/ho-chi-minh-city-ocean-majesty-2.jpg", "https://paragon-trails-yacht-images.com/sailing/ho-chi-minh-city-ocean-majesty-3.jpg", "https://paragon-trails-yacht-images.com/sailing/ho-chi-minh-city-ocean-majesty-4.jpg"],
+    description:
+      "Charter the impressive Ocean Majesty in ho-chi-minh-city and enjoy its 7 luxury amenities and 5 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/ho-chi-minh-city-ocean-majesty-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/ho-chi-minh-city-ocean-majesty-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/ho-chi-minh-city-ocean-majesty-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/ho-chi-minh-city-ocean-majesty-4.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 3969,
       perWeek: 23615.55,
       currency: "VND",
       includes: ["Dining Area", "Laundry Service", "Sun Deck"],
-      excludes: ["Dining Area", "Laundry Service", "Sun Deck", "Bar", "Heated Deck", "Hot Tub"],
+      excludes: [
+        "Dining Area",
+        "Laundry Service",
+        "Sun Deck",
+        "Bar",
+        "Heated Deck",
+        "Hot Tub",
+      ],
     },
     safetyFeatures: ["Emergency Steering", "Navigation Lights", "Radar"],
     accessibilityFeatures: [],
-  }
+  },
 ];

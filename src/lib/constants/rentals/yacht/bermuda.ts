@@ -37,8 +37,15 @@ export const bermudabermudacaribbeanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["BBQ Onboard"],
-    description: "Charter the impressive Royal Seas in bermuda and enjoy its 3 luxury amenities and 2 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/bermuda-royal-seas-1.jpg", "https://paragon-trails-yacht-images.com/sailing/bermuda-royal-seas-2.jpg", "https://paragon-trails-yacht-images.com/sailing/bermuda-royal-seas-3.jpg", "https://paragon-trails-yacht-images.com/sailing/bermuda-royal-seas-4.jpg", "https://paragon-trails-yacht-images.com/sailing/bermuda-royal-seas-5.jpg"],
+    description:
+      "Charter the impressive Royal Seas in bermuda and enjoy its 3 luxury amenities and 2 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/bermuda-royal-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/bermuda-royal-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/bermuda-royal-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/bermuda-royal-seas-4.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/bermuda-royal-seas-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 4657,
@@ -47,7 +54,12 @@ export const bermudabermudacaribbeanYachts: Yacht[] = [
       includes: ["Swim Platform"],
       excludes: ["Swim Platform"],
     },
-    safetyFeatures: ["Navigation Lights", "Life Jackets", "Life Rafts", "Flares"],
+    safetyFeatures: [
+      "Navigation Lights",
+      "Life Jackets",
+      "Life Rafts",
+      "Flares",
+    ],
     accessibilityFeatures: ["Wide Doorways"],
   },
   {
@@ -86,8 +98,14 @@ export const bermudabermudacaribbeanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard"],
-    description: "The Coastal Serenity is a magnificent catamaran yacht built by Sunseeker offering exceptional amenities and impeccable service for an unforgettable sailing experience in bermuda.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/bermuda-coastal-serenity-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/bermuda-coastal-serenity-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/bermuda-coastal-serenity-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/bermuda-coastal-serenity-4.jpg"],
+    description:
+      "The Coastal Serenity is a magnificent catamaran yacht built by Sunseeker offering exceptional amenities and impeccable service for an unforgettable sailing experience in bermuda.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/bermuda-coastal-serenity-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/bermuda-coastal-serenity-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/bermuda-coastal-serenity-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/bermuda-coastal-serenity-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 9890,
@@ -96,7 +114,13 @@ export const bermudabermudacaribbeanYachts: Yacht[] = [
       includes: ["Jacuzzi", "Swim Platform", "Bar"],
       excludes: ["Indoor Lounge"],
     },
-    safetyFeatures: ["EPIRB", "Searchlight", "Fire Extinguishers", "Emergency Radio", "Emergency Steering"],
+    safetyFeatures: [
+      "EPIRB",
+      "Searchlight",
+      "Fire Extinguishers",
+      "Emergency Radio",
+      "Emergency Steering",
+    ],
     accessibilityFeatures: ["Low Thresholds", "Easy Boarding"],
   },
   {
@@ -122,7 +146,14 @@ export const bermudabermudacaribbeanYachts: Yacht[] = [
       crew: 2,
       bathrooms: 3,
     },
-    amenities: ["Swim Platform", "Sun Deck", "Outdoor Shower", "Bar", "Heated Deck", "BBQ Grill"],
+    amenities: [
+      "Swim Platform",
+      "Sun Deck",
+      "Outdoor Shower",
+      "Bar",
+      "Heated Deck",
+      "BBQ Grill",
+    ],
     entertainment: ["Bluetooth Speakers", "Surround Sound System", "Projector"],
     waterToys: ["Towable Tubes", "Jet Ski", "Kneeboard"],
     location: {
@@ -135,15 +166,28 @@ export const bermudabermudacaribbeanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only", "All-Inclusive"],
-    description: "Adriatic Queen combines performance and luxury in a stunning 16m sailing yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/bermuda-adriatic-queen-1.jpg", "https://paragon-trails-yacht-images.com/sailing/bermuda-adriatic-queen-2.jpg", "https://paragon-trails-yacht-images.com/sailing/bermuda-adriatic-queen-3.jpg", "https://paragon-trails-yacht-images.com/sailing/bermuda-adriatic-queen-4.jpg"],
+    description:
+      "Adriatic Queen combines performance and luxury in a stunning 16m sailing yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/bermuda-adriatic-queen-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/bermuda-adriatic-queen-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/bermuda-adriatic-queen-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/bermuda-adriatic-queen-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 9000,
       perWeek: 53550,
       currency: "BMD",
       includes: ["Swim Platform", "Sun Deck"],
-      excludes: ["Swim Platform", "Sun Deck", "Outdoor Shower", "Bar", "Heated Deck", "BBQ Grill"],
+      excludes: [
+        "Swim Platform",
+        "Sun Deck",
+        "Outdoor Shower",
+        "Bar",
+        "Heated Deck",
+        "BBQ Grill",
+      ],
     },
     safetyFeatures: ["GPS Tracking", "Fire Extinguishers", "EPIRB"],
     accessibilityFeatures: [],
@@ -171,9 +215,23 @@ export const bermudabermudacaribbeanYachts: Yacht[] = [
       crew: 1,
       bathrooms: 3,
     },
-    amenities: ["Wi-Fi", "Sun Deck", "Bar", "Jacuzzi", "Sauna", "Kitchen", "Outdoor Shower"],
+    amenities: [
+      "Wi-Fi",
+      "Sun Deck",
+      "Bar",
+      "Jacuzzi",
+      "Sauna",
+      "Kitchen",
+      "Outdoor Shower",
+    ],
     entertainment: ["Media Library"],
-    waterToys: ["Floating Island", "Towable Tubes", "Jet Ski", "E-Foil", "Fishing Equipment"],
+    waterToys: [
+      "Floating Island",
+      "Towable Tubes",
+      "Jet Ski",
+      "E-Foil",
+      "Fishing Equipment",
+    ],
     location: {
       city: "Bermuda",
       country: "Bermuda",
@@ -184,8 +242,15 @@ export const bermudabermudacaribbeanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only", "BBQ Onboard"],
-    description: "Charter the impressive Sea Spirit in bermuda and enjoy its 7 luxury amenities and 5 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/bermuda-sea-spirit-1.jpg", "https://paragon-trails-yacht-images.com/sailing/bermuda-sea-spirit-2.jpg", "https://paragon-trails-yacht-images.com/sailing/bermuda-sea-spirit-3.jpg", "https://paragon-trails-yacht-images.com/sailing/bermuda-sea-spirit-4.jpg", "https://paragon-trails-yacht-images.com/sailing/bermuda-sea-spirit-5.jpg"],
+    description:
+      "Charter the impressive Sea Spirit in bermuda and enjoy its 7 luxury amenities and 5 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/bermuda-sea-spirit-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/bermuda-sea-spirit-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/bermuda-sea-spirit-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/bermuda-sea-spirit-4.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/bermuda-sea-spirit-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 8466,
@@ -196,5 +261,5 @@ export const bermudabermudacaribbeanYachts: Yacht[] = [
     },
     safetyFeatures: ["Life Rafts", "First Aid Kit", "Fire Extinguishers"],
     accessibilityFeatures: [],
-  }
+  },
 ];

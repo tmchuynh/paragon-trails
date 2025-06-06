@@ -37,8 +37,14 @@ export const galvestonunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["No Catering", "Provisioning Only"],
-    description: "The Sea Symphony is a magnificent super yacht built by Riva offering exceptional amenities and impeccable service for an unforgettable sailing experience in galveston.",
-    images: ["https://paragon-trails-yacht-images.com/super/galveston-sea-symphony-1.jpg", "https://paragon-trails-yacht-images.com/super/galveston-sea-symphony-2.jpg", "https://paragon-trails-yacht-images.com/super/galveston-sea-symphony-3.jpg", "https://paragon-trails-yacht-images.com/super/galveston-sea-symphony-4.jpg"],
+    description:
+      "The Sea Symphony is a magnificent super yacht built by Riva offering exceptional amenities and impeccable service for an unforgettable sailing experience in galveston.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/galveston-sea-symphony-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/galveston-sea-symphony-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/galveston-sea-symphony-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/galveston-sea-symphony-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 97148,
@@ -47,7 +53,12 @@ export const galvestonunitedStatescaribbeanYachts: Yacht[] = [
       includes: ["Indoor Lounge"],
       excludes: ["Indoor Lounge", "Stabilizers", "Sun Deck"],
     },
-    safetyFeatures: ["Emergency Beacon", "Flares", "Emergency Steering", "Searchlight"],
+    safetyFeatures: [
+      "Emergency Beacon",
+      "Flares",
+      "Emergency Steering",
+      "Searchlight",
+    ],
     accessibilityFeatures: ["Easy Boarding"],
   },
   {
@@ -86,8 +97,15 @@ export const galvestonunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: false,
     cateringOptions: ["No Catering", "Breakfast Only"],
-    description: "Endless Horizons combines performance and luxury in a stunning 30m gulet yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/galveston-endless-horizons-1.jpg", "https://paragon-trails-yacht-images.com/gulet/galveston-endless-horizons-2.jpg", "https://paragon-trails-yacht-images.com/gulet/galveston-endless-horizons-3.jpg", "https://paragon-trails-yacht-images.com/gulet/galveston-endless-horizons-4.jpg", "https://paragon-trails-yacht-images.com/gulet/galveston-endless-horizons-5.jpg"],
+    description:
+      "Endless Horizons combines performance and luxury in a stunning 30m gulet yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/galveston-endless-horizons-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/galveston-endless-horizons-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/galveston-endless-horizons-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/galveston-endless-horizons-4.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/galveston-endless-horizons-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5454,
@@ -96,7 +114,13 @@ export const galvestonunitedStatescaribbeanYachts: Yacht[] = [
       includes: ["Outdoor Shower"],
       excludes: ["Outdoor Shower", "Air Conditioning"],
     },
-    safetyFeatures: ["Emergency Radio", "Radar", "Emergency Beacon", "Fire Extinguishers", "Life Rafts"],
+    safetyFeatures: [
+      "Emergency Radio",
+      "Radar",
+      "Emergency Beacon",
+      "Fire Extinguishers",
+      "Life Rafts",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -122,7 +146,15 @@ export const galvestonunitedStatescaribbeanYachts: Yacht[] = [
       crew: 3,
       bathrooms: 4,
     },
-    amenities: ["BBQ Grill", "Bar", "Heated Deck", "Air Conditioning", "Sauna", "Sun Deck", "Hot Tub"],
+    amenities: [
+      "BBQ Grill",
+      "Bar",
+      "Heated Deck",
+      "Air Conditioning",
+      "Sauna",
+      "Sun Deck",
+      "Hot Tub",
+    ],
     entertainment: ["DJ Equipment", "Game Console"],
     waterToys: ["Scuba Diving Gear", "Snorkeling Gear"],
     location: {
@@ -135,8 +167,14 @@ export const galvestonunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: false,
     cateringOptions: ["No Catering"],
-    description: "Charter the impressive Pacific Explorer in galveston and enjoy its 7 luxury amenities and 2 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/galveston-pacific-explorer-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/galveston-pacific-explorer-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/galveston-pacific-explorer-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/galveston-pacific-explorer-4.jpg"],
+    description:
+      "Charter the impressive Pacific Explorer in galveston and enjoy its 7 luxury amenities and 2 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/galveston-pacific-explorer-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/galveston-pacific-explorer-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/galveston-pacific-explorer-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/galveston-pacific-explorer-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5492,
@@ -171,9 +209,22 @@ export const galvestonunitedStatescaribbeanYachts: Yacht[] = [
       crew: 2,
       bathrooms: 3,
     },
-    amenities: ["Sauna", "Outdoor Shower", "Bar", "Jacuzzi", "Kitchen", "Laundry Service"],
+    amenities: [
+      "Sauna",
+      "Outdoor Shower",
+      "Bar",
+      "Jacuzzi",
+      "Kitchen",
+      "Laundry Service",
+    ],
     entertainment: ["Surround Sound System", "Karaoke System", "Projector"],
-    waterToys: ["Towable Tubes", "Kneeboard", "Inflatable Slide", "Floating Island", "Jet Ski"],
+    waterToys: [
+      "Towable Tubes",
+      "Kneeboard",
+      "Inflatable Slide",
+      "Floating Island",
+      "Jet Ski",
+    ],
     location: {
       city: "Galveston",
       country: "United States",
@@ -184,17 +235,29 @@ export const galvestonunitedStatescaribbeanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Self-Catering", "All-Inclusive"],
-    description: "Discover the beauty of galveston's waters aboard the elegant Pacific Explorer, a 2007 sailing yacht featuring spacious accommodation for 6 guests overnight or 10 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/galveston-pacific-explorer-1.jpg", "https://paragon-trails-yacht-images.com/sailing/galveston-pacific-explorer-2.jpg", "https://paragon-trails-yacht-images.com/sailing/galveston-pacific-explorer-3.jpg"],
+    description:
+      "Discover the beauty of galveston's waters aboard the elegant Pacific Explorer, a 2007 sailing yacht featuring spacious accommodation for 6 guests overnight or 10 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/galveston-pacific-explorer-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/galveston-pacific-explorer-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/galveston-pacific-explorer-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 9708,
       perWeek: 57762.6,
       currency: "USD",
       includes: ["Sauna", "Outdoor Shower"],
-      excludes: ["Sauna", "Outdoor Shower", "Bar", "Jacuzzi", "Kitchen", "Laundry Service"],
+      excludes: [
+        "Sauna",
+        "Outdoor Shower",
+        "Bar",
+        "Jacuzzi",
+        "Kitchen",
+        "Laundry Service",
+      ],
     },
     safetyFeatures: ["Emergency Beacon", "First Aid Kit", "EPIRB", "Fog Horn"],
     accessibilityFeatures: ["Low Thresholds", "Accessible Cabin"],
-  }
+  },
 ];

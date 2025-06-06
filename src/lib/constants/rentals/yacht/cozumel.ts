@@ -24,7 +24,14 @@ export const cozumelmexicocaribbeanYachts: Yacht[] = [
       crew: 8,
       bathrooms: 9,
     },
-    amenities: ["Dining Area", "Heated Deck", "Hot Tub", "Air Conditioning", "Sauna", "Wi-Fi"],
+    amenities: [
+      "Dining Area",
+      "Heated Deck",
+      "Hot Tub",
+      "Air Conditioning",
+      "Sauna",
+      "Wi-Fi",
+    ],
     entertainment: ["Karaoke System", "Projector"],
     waterToys: ["Floating Island", "Kneeboard", "Snorkeling Gear"],
     location: {
@@ -37,15 +44,28 @@ export const cozumelmexicocaribbeanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Self-Catering"],
-    description: "Experience luxury and comfort aboard the Mermaid's Song, a stunning 52m mega yacht available for charter in cozumel. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/mega/cozumel-mermaid's-song-1.jpg", "https://paragon-trails-yacht-images.com/mega/cozumel-mermaid's-song-2.jpg", "https://paragon-trails-yacht-images.com/mega/cozumel-mermaid's-song-3.jpg", "https://paragon-trails-yacht-images.com/mega/cozumel-mermaid's-song-4.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Mermaid's Song, a stunning 52m mega yacht available for charter in cozumel. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/cozumel-mermaid's-song-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/cozumel-mermaid's-song-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/cozumel-mermaid's-song-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/cozumel-mermaid's-song-4.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 43757,
       perWeek: 260354.15,
       currency: "MXN",
       includes: ["Dining Area", "Heated Deck"],
-      excludes: ["Dining Area", "Heated Deck", "Hot Tub", "Air Conditioning", "Sauna", "Wi-Fi"],
+      excludes: [
+        "Dining Area",
+        "Heated Deck",
+        "Hot Tub",
+        "Air Conditioning",
+        "Sauna",
+        "Wi-Fi",
+      ],
     },
     safetyFeatures: ["Fire Extinguishers", "Navigation Lights", "Fog Horn"],
     accessibilityFeatures: [],
@@ -73,7 +93,13 @@ export const cozumelmexicocaribbeanYachts: Yacht[] = [
       crew: 2,
       bathrooms: 4,
     },
-    amenities: ["Jacuzzi", "Indoor Lounge", "BBQ Grill", "Air Conditioning", "Tender Garage"],
+    amenities: [
+      "Jacuzzi",
+      "Indoor Lounge",
+      "BBQ Grill",
+      "Air Conditioning",
+      "Tender Garage",
+    ],
     entertainment: ["Streaming Services", "Surround Sound System"],
     waterToys: ["Inflatable Slide", "Wakeboard", "Towable Tubes"],
     location: {
@@ -86,17 +112,32 @@ export const cozumelmexicocaribbeanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: false,
     cateringOptions: ["Full-Service Catering"],
-    description: "Experience luxury and comfort aboard the Coastal Serenity, a stunning 26m motor yacht available for charter in cozumel. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/motor/cozumel-coastal-serenity-1.jpg", "https://paragon-trails-yacht-images.com/motor/cozumel-coastal-serenity-2.jpg", "https://paragon-trails-yacht-images.com/motor/cozumel-coastal-serenity-3.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Coastal Serenity, a stunning 26m motor yacht available for charter in cozumel. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/cozumel-coastal-serenity-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/cozumel-coastal-serenity-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/cozumel-coastal-serenity-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 10364,
       perWeek: 61665.799999999996,
       currency: "MXN",
       includes: ["Jacuzzi", "Indoor Lounge"],
-      excludes: ["Jacuzzi", "Indoor Lounge", "BBQ Grill", "Air Conditioning", "Tender Garage"],
+      excludes: [
+        "Jacuzzi",
+        "Indoor Lounge",
+        "BBQ Grill",
+        "Air Conditioning",
+        "Tender Garage",
+      ],
     },
-    safetyFeatures: ["Emergency Steering", "Emergency Beacon", "Emergency Radio"],
+    safetyFeatures: [
+      "Emergency Steering",
+      "Emergency Beacon",
+      "Emergency Radio",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -122,7 +163,14 @@ export const cozumelmexicocaribbeanYachts: Yacht[] = [
       crew: 16,
       bathrooms: 10,
     },
-    amenities: ["Sun Deck", "Bar", "Air Conditioning", "Stabilizers", "Tender Garage", "Laundry Service"],
+    amenities: [
+      "Sun Deck",
+      "Bar",
+      "Air Conditioning",
+      "Stabilizers",
+      "Tender Garage",
+      "Laundry Service",
+    ],
     entertainment: ["Surround Sound System", "Projector"],
     waterToys: ["Water Skis", "Paddleboards"],
     location: {
@@ -135,8 +183,14 @@ export const cozumelmexicocaribbeanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Picnic-Style"],
-    description: "Charter the impressive Luxury Waters in cozumel and enjoy its 7 luxury amenities and 3 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/super/cozumel-luxury-waters-1.jpg", "https://paragon-trails-yacht-images.com/super/cozumel-luxury-waters-2.jpg", "https://paragon-trails-yacht-images.com/super/cozumel-luxury-waters-3.jpg", "https://paragon-trails-yacht-images.com/super/cozumel-luxury-waters-4.jpg"],
+    description:
+      "Charter the impressive Luxury Waters in cozumel and enjoy its 7 luxury amenities and 3 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/cozumel-luxury-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/cozumel-luxury-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/cozumel-luxury-waters-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/cozumel-luxury-waters-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 93857,
@@ -147,5 +201,5 @@ export const cozumelmexicocaribbeanYachts: Yacht[] = [
     },
     safetyFeatures: ["Fog Horn", "Life Jackets", "Searchlight"],
     accessibilityFeatures: [],
-  }
+  },
 ];

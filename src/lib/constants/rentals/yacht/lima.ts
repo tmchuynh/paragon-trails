@@ -24,7 +24,13 @@ export const limaperusouthAmericaYachts: Yacht[] = [
       crew: 5,
       bathrooms: 9,
     },
-    amenities: ["Sun Deck", "Indoor Lounge", "Tender Garage", "BBQ Grill", "Wi-Fi"],
+    amenities: [
+      "Sun Deck",
+      "Indoor Lounge",
+      "Tender Garage",
+      "BBQ Grill",
+      "Wi-Fi",
+    ],
     entertainment: ["Board Games", "Satellite TV", "Game Console"],
     waterToys: ["Towable Tubes", "Jet Ski", "Fishing Equipment"],
     location: {
@@ -37,8 +43,14 @@ export const limaperusouthAmericaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Full-Service Catering"],
-    description: "Discover the beauty of lima's waters aboard the elegant Poseidon's Pride, a 2002 gulet yacht featuring spacious accommodation for 12 guests overnight or 18 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/lima-poseidon's-pride-1.jpg", "https://paragon-trails-yacht-images.com/gulet/lima-poseidon's-pride-2.jpg", "https://paragon-trails-yacht-images.com/gulet/lima-poseidon's-pride-3.jpg", "https://paragon-trails-yacht-images.com/gulet/lima-poseidon's-pride-4.jpg"],
+    description:
+      "Discover the beauty of lima's waters aboard the elegant Poseidon's Pride, a 2002 gulet yacht featuring spacious accommodation for 12 guests overnight or 18 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/lima-poseidon's-pride-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/lima-poseidon's-pride-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/lima-poseidon's-pride-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/lima-poseidon's-pride-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 4953,
@@ -47,7 +59,13 @@ export const limaperusouthAmericaYachts: Yacht[] = [
       includes: ["Sun Deck", "Indoor Lounge"],
       excludes: ["Wi-Fi"],
     },
-    safetyFeatures: ["GPS Tracking", "Radar", "Searchlight", "Emergency Beacon", "Fog Horn"],
+    safetyFeatures: [
+      "GPS Tracking",
+      "Radar",
+      "Searchlight",
+      "Emergency Beacon",
+      "Fog Horn",
+    ],
     accessibilityFeatures: ["Wide Doorways"],
   },
   {
@@ -73,7 +91,14 @@ export const limaperusouthAmericaYachts: Yacht[] = [
       crew: 19,
       bathrooms: 11,
     },
-    amenities: ["Outdoor Shower", "Tender Garage", "Sun Deck", "Jacuzzi", "Wi-Fi", "Swim Platform"],
+    amenities: [
+      "Outdoor Shower",
+      "Tender Garage",
+      "Sun Deck",
+      "Jacuzzi",
+      "Wi-Fi",
+      "Swim Platform",
+    ],
     entertainment: ["Onboard Cinema"],
     waterToys: ["Jet Ski", "Seabob", "Water Skis", "Windsurf", "Paddleboards"],
     location: {
@@ -86,8 +111,15 @@ export const limaperusouthAmericaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["No Catering", "BBQ Onboard"],
-    description: "Charter the impressive Caribbean Pearl in lima and enjoy its 7 luxury amenities and 5 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/super/lima-caribbean-pearl-1.jpg", "https://paragon-trails-yacht-images.com/super/lima-caribbean-pearl-2.jpg", "https://paragon-trails-yacht-images.com/super/lima-caribbean-pearl-3.jpg", "https://paragon-trails-yacht-images.com/super/lima-caribbean-pearl-4.jpg", "https://paragon-trails-yacht-images.com/super/lima-caribbean-pearl-5.jpg"],
+    description:
+      "Charter the impressive Caribbean Pearl in lima and enjoy its 7 luxury amenities and 5 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/lima-caribbean-pearl-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/lima-caribbean-pearl-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/lima-caribbean-pearl-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/lima-caribbean-pearl-4.jpg",
+      "https://paragon-trails-yacht-images.com/super/lima-caribbean-pearl-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 80394,
@@ -96,7 +128,12 @@ export const limaperusouthAmericaYachts: Yacht[] = [
       includes: ["Outdoor Shower", "Tender Garage", "Sun Deck"],
       excludes: ["Swim Platform"],
     },
-    safetyFeatures: ["Emergency Steering", "Fire Extinguishers", "Life Rafts", "Radar"],
+    safetyFeatures: [
+      "Emergency Steering",
+      "Fire Extinguishers",
+      "Life Rafts",
+      "Radar",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -122,7 +159,14 @@ export const limaperusouthAmericaYachts: Yacht[] = [
       crew: 1,
       bathrooms: 4,
     },
-    amenities: ["Tender Garage", "Indoor Lounge", "Hot Tub", "Kitchen", "Swim Platform", "Sun Deck"],
+    amenities: [
+      "Tender Garage",
+      "Indoor Lounge",
+      "Hot Tub",
+      "Kitchen",
+      "Swim Platform",
+      "Sun Deck",
+    ],
     entertainment: ["Projector", "Satellite TV"],
     waterToys: ["Snorkeling Gear", "Kneeboard"],
     location: {
@@ -135,17 +179,36 @@ export const limaperusouthAmericaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["À La Carte", "Provisioning Only"],
-    description: "Aquamarine combines performance and luxury in a stunning 22m sailing yacht. With its professional crew of 1, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/lima-aquamarine-1.jpg", "https://paragon-trails-yacht-images.com/sailing/lima-aquamarine-2.jpg", "https://paragon-trails-yacht-images.com/sailing/lima-aquamarine-3.jpg", "https://paragon-trails-yacht-images.com/sailing/lima-aquamarine-4.jpg", "https://paragon-trails-yacht-images.com/sailing/lima-aquamarine-5.jpg"],
+    description:
+      "Aquamarine combines performance and luxury in a stunning 22m sailing yacht. With its professional crew of 1, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/lima-aquamarine-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/lima-aquamarine-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/lima-aquamarine-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/lima-aquamarine-4.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/lima-aquamarine-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 9955,
       perWeek: 59232.25,
       currency: "PEN",
       includes: ["Tender Garage", "Indoor Lounge", "Hot Tub"],
-      excludes: ["Tender Garage", "Indoor Lounge", "Hot Tub", "Kitchen", "Swim Platform", "Sun Deck"],
+      excludes: [
+        "Tender Garage",
+        "Indoor Lounge",
+        "Hot Tub",
+        "Kitchen",
+        "Swim Platform",
+        "Sun Deck",
+      ],
     },
-    safetyFeatures: ["Fog Horn", "GPS Tracking", "Flares", "Fire Extinguishers"],
+    safetyFeatures: [
+      "Fog Horn",
+      "GPS Tracking",
+      "Flares",
+      "Fire Extinguishers",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -184,8 +247,13 @@ export const limaperusouthAmericaYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["BBQ Onboard", "Breakfast Only"],
-    description: "Experience luxury and comfort aboard the Pearl Harbor, a stunning 42m mega yacht available for charter in lima. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/mega/lima-pearl-harbor-1.jpg", "https://paragon-trails-yacht-images.com/mega/lima-pearl-harbor-2.jpg", "https://paragon-trails-yacht-images.com/mega/lima-pearl-harbor-3.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Pearl Harbor, a stunning 42m mega yacht available for charter in lima. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/lima-pearl-harbor-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/lima-pearl-harbor-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/lima-pearl-harbor-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 32071,
@@ -196,5 +264,5 @@ export const limaperusouthAmericaYachts: Yacht[] = [
     },
     safetyFeatures: ["Flares", "Radar"],
     accessibilityFeatures: [],
-  }
+  },
 ];

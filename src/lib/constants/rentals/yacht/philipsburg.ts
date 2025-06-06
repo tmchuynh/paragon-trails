@@ -26,7 +26,12 @@ export const philipsburgsintMaartencaribbeanYachts: Yacht[] = [
     },
     amenities: ["Hot Tub", "Indoor Lounge", "Tender Garage", "Heated Deck"],
     entertainment: ["Satellite TV", "Bluetooth Speakers", "Board Games"],
-    waterToys: ["Scuba Diving Gear", "Floating Island", "Seabob", "Towable Tubes"],
+    waterToys: [
+      "Scuba Diving Gear",
+      "Floating Island",
+      "Seabob",
+      "Towable Tubes",
+    ],
     location: {
       city: "Philipsburg",
       country: "Sint Maarten",
@@ -37,8 +42,15 @@ export const philipsburgsintMaartencaribbeanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive", "BBQ Onboard"],
-    description: "Experience luxury and comfort aboard the Aquamarine, a stunning 70m super yacht available for charter in philipsburg. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/super/philipsburg-aquamarine-1.jpg", "https://paragon-trails-yacht-images.com/super/philipsburg-aquamarine-2.jpg", "https://paragon-trails-yacht-images.com/super/philipsburg-aquamarine-3.jpg", "https://paragon-trails-yacht-images.com/super/philipsburg-aquamarine-4.jpg", "https://paragon-trails-yacht-images.com/super/philipsburg-aquamarine-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Aquamarine, a stunning 70m super yacht available for charter in philipsburg. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/philipsburg-aquamarine-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/philipsburg-aquamarine-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/philipsburg-aquamarine-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/philipsburg-aquamarine-4.jpg",
+      "https://paragon-trails-yacht-images.com/super/philipsburg-aquamarine-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 194849,
@@ -47,7 +59,13 @@ export const philipsburgsintMaartencaribbeanYachts: Yacht[] = [
       includes: ["Hot Tub", "Indoor Lounge", "Tender Garage"],
       excludes: ["Heated Deck"],
     },
-    safetyFeatures: ["Emergency Radio", "Emergency Steering", "Emergency Beacon", "Fire Extinguishers", "Navigation Lights"],
+    safetyFeatures: [
+      "Emergency Radio",
+      "Emergency Steering",
+      "Emergency Beacon",
+      "Fire Extinguishers",
+      "Navigation Lights",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -86,8 +104,13 @@ export const philipsburgsintMaartencaribbeanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: false,
     cateringOptions: ["Local Cuisine Packages", "BBQ Onboard"],
-    description: "Euphoria combines performance and luxury in a stunning 22m sailing yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/philipsburg-euphoria-1.jpg", "https://paragon-trails-yacht-images.com/sailing/philipsburg-euphoria-2.jpg", "https://paragon-trails-yacht-images.com/sailing/philipsburg-euphoria-3.jpg"],
+    description:
+      "Euphoria combines performance and luxury in a stunning 22m sailing yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/philipsburg-euphoria-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/philipsburg-euphoria-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/philipsburg-euphoria-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 8282,
@@ -96,7 +119,12 @@ export const philipsburgsintMaartencaribbeanYachts: Yacht[] = [
       includes: ["Tender Garage"],
       excludes: ["Tender Garage", "BBQ Grill", "Wi-Fi", "Sauna", "Heated Deck"],
     },
-    safetyFeatures: ["Searchlight", "Fire Extinguishers", "First Aid Kit", "Fog Horn"],
+    safetyFeatures: [
+      "Searchlight",
+      "Fire Extinguishers",
+      "First Aid Kit",
+      "Fog Horn",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -135,8 +163,13 @@ export const philipsburgsintMaartencaribbeanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only"],
-    description: "The Endless Horizons is a magnificent sailing yacht built by Horizon offering exceptional amenities and impeccable service for an unforgettable sailing experience in philipsburg.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/philipsburg-endless-horizons-1.jpg", "https://paragon-trails-yacht-images.com/sailing/philipsburg-endless-horizons-2.jpg", "https://paragon-trails-yacht-images.com/sailing/philipsburg-endless-horizons-3.jpg"],
+    description:
+      "The Endless Horizons is a magnificent sailing yacht built by Horizon offering exceptional amenities and impeccable service for an unforgettable sailing experience in philipsburg.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/philipsburg-endless-horizons-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/philipsburg-endless-horizons-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/philipsburg-endless-horizons-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 9531,
@@ -184,8 +217,13 @@ export const philipsburgsintMaartencaribbeanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard", "Picnic-Style"],
-    description: "The Pearl Harbor is a magnificent sailing yacht built by Feadship offering exceptional amenities and impeccable service for an unforgettable sailing experience in philipsburg.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/philipsburg-pearl-harbor-1.jpg", "https://paragon-trails-yacht-images.com/sailing/philipsburg-pearl-harbor-2.jpg", "https://paragon-trails-yacht-images.com/sailing/philipsburg-pearl-harbor-3.jpg"],
+    description:
+      "The Pearl Harbor is a magnificent sailing yacht built by Feadship offering exceptional amenities and impeccable service for an unforgettable sailing experience in philipsburg.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/philipsburg-pearl-harbor-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/philipsburg-pearl-harbor-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/philipsburg-pearl-harbor-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5130,
@@ -194,7 +232,12 @@ export const philipsburgsintMaartencaribbeanYachts: Yacht[] = [
       includes: ["Bar", "Outdoor Shower"],
       excludes: ["Bar", "Outdoor Shower", "Dining Area", "Air Conditioning"],
     },
-    safetyFeatures: ["Searchlight", "Navigation Lights", "Emergency Beacon", "Life Jackets"],
+    safetyFeatures: [
+      "Searchlight",
+      "Navigation Lights",
+      "Emergency Beacon",
+      "Life Jackets",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -220,9 +263,21 @@ export const philipsburgsintMaartencaribbeanYachts: Yacht[] = [
       crew: 2,
       bathrooms: 3,
     },
-    amenities: ["Bar", "Stabilizers", "Swim Platform", "Heated Deck", "Indoor Lounge"],
+    amenities: [
+      "Bar",
+      "Stabilizers",
+      "Swim Platform",
+      "Heated Deck",
+      "Indoor Lounge",
+    ],
     entertainment: ["Projector", "Onboard Cinema"],
-    waterToys: ["Towable Tubes", "Snorkeling Gear", "Seabob", "Water Skis", "E-Foil"],
+    waterToys: [
+      "Towable Tubes",
+      "Snorkeling Gear",
+      "Seabob",
+      "Water Skis",
+      "E-Foil",
+    ],
     location: {
       city: "Philipsburg",
       country: "Sint Maarten",
@@ -233,17 +288,28 @@ export const philipsburgsintMaartencaribbeanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only"],
-    description: "Discover the beauty of philipsburg's waters aboard the elegant Wave Dancer, a 2012 sailing yacht featuring spacious accommodation for 4 guests overnight or 9 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/philipsburg-wave-dancer-1.jpg", "https://paragon-trails-yacht-images.com/sailing/philipsburg-wave-dancer-2.jpg", "https://paragon-trails-yacht-images.com/sailing/philipsburg-wave-dancer-3.jpg"],
+    description:
+      "Discover the beauty of philipsburg's waters aboard the elegant Wave Dancer, a 2012 sailing yacht featuring spacious accommodation for 4 guests overnight or 9 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/philipsburg-wave-dancer-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/philipsburg-wave-dancer-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/philipsburg-wave-dancer-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8820,
       perWeek: 52479,
       currency: "ANG",
       includes: ["Bar", "Stabilizers", "Swim Platform"],
-      excludes: ["Bar", "Stabilizers", "Swim Platform", "Heated Deck", "Indoor Lounge"],
+      excludes: [
+        "Bar",
+        "Stabilizers",
+        "Swim Platform",
+        "Heated Deck",
+        "Indoor Lounge",
+      ],
     },
     safetyFeatures: ["EPIRB", "Searchlight", "Emergency Beacon"],
     accessibilityFeatures: [],
-  }
+  },
 ];

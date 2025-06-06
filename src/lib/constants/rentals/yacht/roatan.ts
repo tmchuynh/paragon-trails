@@ -24,7 +24,13 @@ export const roatanhondurascaribbeanYachts: Yacht[] = [
       crew: 9,
       bathrooms: 7,
     },
-    amenities: ["Sun Deck", "Outdoor Shower", "BBQ Grill", "Jacuzzi", "Swim Platform"],
+    amenities: [
+      "Sun Deck",
+      "Outdoor Shower",
+      "BBQ Grill",
+      "Jacuzzi",
+      "Swim Platform",
+    ],
     entertainment: ["Game Console", "Onboard Cinema", "Projector"],
     waterToys: ["Kneeboard", "Towable Tubes", "Wakeboard", "Seabob"],
     location: {
@@ -37,8 +43,14 @@ export const roatanhondurascaribbeanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["À La Carte"],
-    description: "The Adriatic Queen is a magnificent mega yacht built by Westport offering exceptional amenities and impeccable service for an unforgettable sailing experience in roatan.",
-    images: ["https://paragon-trails-yacht-images.com/mega/roatan-adriatic-queen-1.jpg", "https://paragon-trails-yacht-images.com/mega/roatan-adriatic-queen-2.jpg", "https://paragon-trails-yacht-images.com/mega/roatan-adriatic-queen-3.jpg", "https://paragon-trails-yacht-images.com/mega/roatan-adriatic-queen-4.jpg"],
+    description:
+      "The Adriatic Queen is a magnificent mega yacht built by Westport offering exceptional amenities and impeccable service for an unforgettable sailing experience in roatan.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/roatan-adriatic-queen-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/roatan-adriatic-queen-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/roatan-adriatic-queen-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/roatan-adriatic-queen-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 29896,
@@ -47,7 +59,13 @@ export const roatanhondurascaribbeanYachts: Yacht[] = [
       includes: ["Sun Deck"],
       excludes: ["Swim Platform"],
     },
-    safetyFeatures: ["Flares", "EPIRB", "Emergency Beacon", "Fog Horn", "Navigation Lights"],
+    safetyFeatures: [
+      "Flares",
+      "EPIRB",
+      "Emergency Beacon",
+      "Fog Horn",
+      "Navigation Lights",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -86,8 +104,15 @@ export const roatanhondurascaribbeanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Full-Service Catering"],
-    description: "Charter the impressive Royal Seas in roatan and enjoy its 6 luxury amenities and 3 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/roatan-royal-seas-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/roatan-royal-seas-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/roatan-royal-seas-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/roatan-royal-seas-4.jpg", "https://paragon-trails-yacht-images.com/catamaran/roatan-royal-seas-5.jpg"],
+    description:
+      "Charter the impressive Royal Seas in roatan and enjoy its 6 luxury amenities and 3 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/roatan-royal-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/roatan-royal-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/roatan-royal-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/roatan-royal-seas-4.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/roatan-royal-seas-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7115,
@@ -122,7 +147,13 @@ export const roatanhondurascaribbeanYachts: Yacht[] = [
       crew: 1,
       bathrooms: 2,
     },
-    amenities: ["Hot Tub", "Stabilizers", "Kitchen", "Indoor Lounge", "Swim Platform"],
+    amenities: [
+      "Hot Tub",
+      "Stabilizers",
+      "Kitchen",
+      "Indoor Lounge",
+      "Swim Platform",
+    ],
     entertainment: ["Karaoke System", "Onboard Cinema", "Streaming Services"],
     waterToys: ["Fishing Equipment", "Towable Tubes"],
     location: {
@@ -135,8 +166,15 @@ export const roatanhondurascaribbeanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["No Catering", "Chef Onboard"],
-    description: "Charter the impressive Mermaid's Song in roatan and enjoy its 6 luxury amenities and 2 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/roatan-mermaid's-song-1.jpg", "https://paragon-trails-yacht-images.com/sailing/roatan-mermaid's-song-2.jpg", "https://paragon-trails-yacht-images.com/sailing/roatan-mermaid's-song-3.jpg", "https://paragon-trails-yacht-images.com/sailing/roatan-mermaid's-song-4.jpg", "https://paragon-trails-yacht-images.com/sailing/roatan-mermaid's-song-5.jpg"],
+    description:
+      "Charter the impressive Mermaid's Song in roatan and enjoy its 6 luxury amenities and 2 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/roatan-mermaid's-song-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/roatan-mermaid's-song-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/roatan-mermaid's-song-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/roatan-mermaid's-song-4.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/roatan-mermaid's-song-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 7889,
@@ -145,7 +183,13 @@ export const roatanhondurascaribbeanYachts: Yacht[] = [
       includes: ["Hot Tub", "Stabilizers", "Kitchen"],
       excludes: ["Swim Platform"],
     },
-    safetyFeatures: ["Searchlight", "First Aid Kit", "Emergency Beacon", "Emergency Steering", "Emergency Radio"],
+    safetyFeatures: [
+      "Searchlight",
+      "First Aid Kit",
+      "Emergency Beacon",
+      "Emergency Steering",
+      "Emergency Radio",
+    ],
     accessibilityFeatures: ["Elevator"],
   },
   {
@@ -173,7 +217,13 @@ export const roatanhondurascaribbeanYachts: Yacht[] = [
     },
     amenities: ["Wi-Fi", "Stabilizers", "Sun Deck", "Dining Area"],
     entertainment: ["Onboard Cinema", "Streaming Services", "DJ Equipment"],
-    waterToys: ["Wakeboard", "Snorkeling Gear", "Seabob", "Windsurf", "Jet Ski"],
+    waterToys: [
+      "Wakeboard",
+      "Snorkeling Gear",
+      "Seabob",
+      "Windsurf",
+      "Jet Ski",
+    ],
     location: {
       city: "Roatan",
       country: "Honduras",
@@ -184,8 +234,14 @@ export const roatanhondurascaribbeanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["À La Carte"],
-    description: "Experience luxury and comfort aboard the Neptune's Glory, a stunning 32m gulet yacht available for charter in roatan. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/roatan-neptune's-glory-1.jpg", "https://paragon-trails-yacht-images.com/gulet/roatan-neptune's-glory-2.jpg", "https://paragon-trails-yacht-images.com/gulet/roatan-neptune's-glory-3.jpg", "https://paragon-trails-yacht-images.com/gulet/roatan-neptune's-glory-4.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Neptune's Glory, a stunning 32m gulet yacht available for charter in roatan. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/roatan-neptune's-glory-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/roatan-neptune's-glory-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/roatan-neptune's-glory-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/roatan-neptune's-glory-4.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 5861,
@@ -233,8 +289,14 @@ export const roatanhondurascaribbeanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Full-Service Catering"],
-    description: "Charter the impressive Blue Horizon in roatan and enjoy its 5 luxury amenities and 3 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/roatan-blue-horizon-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/roatan-blue-horizon-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/roatan-blue-horizon-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/roatan-blue-horizon-4.jpg"],
+    description:
+      "Charter the impressive Blue Horizon in roatan and enjoy its 5 luxury amenities and 3 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/roatan-blue-horizon-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/roatan-blue-horizon-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/roatan-blue-horizon-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/roatan-blue-horizon-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 9656,
@@ -282,8 +344,14 @@ export const roatanhondurascaribbeanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Full-Service Catering"],
-    description: "Discover the beauty of roatan's waters aboard the elegant Pearl Harbor, a 2017 catamaran yacht featuring spacious accommodation for 6 guests overnight or 11 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/roatan-pearl-harbor-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/roatan-pearl-harbor-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/roatan-pearl-harbor-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/roatan-pearl-harbor-4.jpg"],
+    description:
+      "Discover the beauty of roatan's waters aboard the elegant Pearl Harbor, a 2017 catamaran yacht featuring spacious accommodation for 6 guests overnight or 11 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/roatan-pearl-harbor-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/roatan-pearl-harbor-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/roatan-pearl-harbor-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/roatan-pearl-harbor-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8084,
@@ -331,8 +399,15 @@ export const roatanhondurascaribbeanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Full-Service Catering", "Chef Onboard"],
-    description: "The Adriatic Queen is a magnificent catamaran yacht built by Lürssen offering exceptional amenities and impeccable service for an unforgettable sailing experience in roatan.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/roatan-adriatic-queen-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/roatan-adriatic-queen-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/roatan-adriatic-queen-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/roatan-adriatic-queen-4.jpg", "https://paragon-trails-yacht-images.com/catamaran/roatan-adriatic-queen-5.jpg"],
+    description:
+      "The Adriatic Queen is a magnificent catamaran yacht built by Lürssen offering exceptional amenities and impeccable service for an unforgettable sailing experience in roatan.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/roatan-adriatic-queen-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/roatan-adriatic-queen-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/roatan-adriatic-queen-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/roatan-adriatic-queen-4.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/roatan-adriatic-queen-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 9621,
@@ -341,7 +416,12 @@ export const roatanhondurascaribbeanYachts: Yacht[] = [
       includes: ["Sauna"],
       excludes: ["Laundry Service"],
     },
-    safetyFeatures: ["GPS Tracking", "Emergency Beacon", "Navigation Lights", "EPIRB"],
+    safetyFeatures: [
+      "GPS Tracking",
+      "Emergency Beacon",
+      "Navigation Lights",
+      "EPIRB",
+    ],
     accessibilityFeatures: [],
-  }
+  },
 ];

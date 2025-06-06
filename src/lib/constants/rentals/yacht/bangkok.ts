@@ -37,8 +37,15 @@ export const bangkokthailandasiaPacificYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Self-Catering", "Local Cuisine Packages"],
-    description: "Aegean Beauty combines performance and luxury in a stunning 28m gulet yacht. With its professional crew of 5, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/bangkok-aegean-beauty-1.jpg", "https://paragon-trails-yacht-images.com/gulet/bangkok-aegean-beauty-2.jpg", "https://paragon-trails-yacht-images.com/gulet/bangkok-aegean-beauty-3.jpg", "https://paragon-trails-yacht-images.com/gulet/bangkok-aegean-beauty-4.jpg", "https://paragon-trails-yacht-images.com/gulet/bangkok-aegean-beauty-5.jpg"],
+    description:
+      "Aegean Beauty combines performance and luxury in a stunning 28m gulet yacht. With its professional crew of 5, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/bangkok-aegean-beauty-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/bangkok-aegean-beauty-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/bangkok-aegean-beauty-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/bangkok-aegean-beauty-4.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/bangkok-aegean-beauty-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7954,
@@ -47,7 +54,12 @@ export const bangkokthailandasiaPacificYachts: Yacht[] = [
       includes: ["BBQ Grill"],
       excludes: ["Jacuzzi"],
     },
-    safetyFeatures: ["Life Rafts", "Emergency Radio", "Fog Horn", "GPS Tracking"],
+    safetyFeatures: [
+      "Life Rafts",
+      "Emergency Radio",
+      "Fog Horn",
+      "GPS Tracking",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -73,7 +85,13 @@ export const bangkokthailandasiaPacificYachts: Yacht[] = [
       crew: 9,
       bathrooms: 6,
     },
-    amenities: ["Sun Deck", "Outdoor Shower", "Hot Tub", "Swim Platform", "Indoor Lounge"],
+    amenities: [
+      "Sun Deck",
+      "Outdoor Shower",
+      "Hot Tub",
+      "Swim Platform",
+      "Indoor Lounge",
+    ],
     entertainment: ["Board Games", "Projector", "Satellite TV"],
     waterToys: ["Floating Island", "Jet Ski"],
     location: {
@@ -86,8 +104,15 @@ export const bangkokthailandasiaPacificYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only", "Picnic-Style"],
-    description: "Charter the impressive Neptune's Glory in bangkok and enjoy its 5 luxury amenities and 2 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/mega/bangkok-neptune's-glory-1.jpg", "https://paragon-trails-yacht-images.com/mega/bangkok-neptune's-glory-2.jpg", "https://paragon-trails-yacht-images.com/mega/bangkok-neptune's-glory-3.jpg", "https://paragon-trails-yacht-images.com/mega/bangkok-neptune's-glory-4.jpg", "https://paragon-trails-yacht-images.com/mega/bangkok-neptune's-glory-5.jpg"],
+    description:
+      "Charter the impressive Neptune's Glory in bangkok and enjoy its 5 luxury amenities and 2 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/bangkok-neptune's-glory-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/bangkok-neptune's-glory-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/bangkok-neptune's-glory-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/bangkok-neptune's-glory-4.jpg",
+      "https://paragon-trails-yacht-images.com/mega/bangkok-neptune's-glory-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 32468,
@@ -122,7 +147,14 @@ export const bangkokthailandasiaPacificYachts: Yacht[] = [
       crew: 8,
       bathrooms: 6,
     },
-    amenities: ["Tender Garage", "Bar", "Wi-Fi", "Jacuzzi", "Indoor Lounge", "Hot Tub"],
+    amenities: [
+      "Tender Garage",
+      "Bar",
+      "Wi-Fi",
+      "Jacuzzi",
+      "Indoor Lounge",
+      "Hot Tub",
+    ],
     entertainment: ["Media Library"],
     waterToys: ["Snorkeling Gear", "Water Skis"],
     location: {
@@ -135,8 +167,15 @@ export const bangkokthailandasiaPacificYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["À La Carte"],
-    description: "Serenity Now combines performance and luxury in a stunning 44m mega yacht. With its professional crew of 8, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/mega/bangkok-serenity-now-1.jpg", "https://paragon-trails-yacht-images.com/mega/bangkok-serenity-now-2.jpg", "https://paragon-trails-yacht-images.com/mega/bangkok-serenity-now-3.jpg", "https://paragon-trails-yacht-images.com/mega/bangkok-serenity-now-4.jpg", "https://paragon-trails-yacht-images.com/mega/bangkok-serenity-now-5.jpg"],
+    description:
+      "Serenity Now combines performance and luxury in a stunning 44m mega yacht. With its professional crew of 8, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/bangkok-serenity-now-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/bangkok-serenity-now-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/bangkok-serenity-now-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/bangkok-serenity-now-4.jpg",
+      "https://paragon-trails-yacht-images.com/mega/bangkok-serenity-now-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 22660,
@@ -171,9 +210,21 @@ export const bangkokthailandasiaPacificYachts: Yacht[] = [
       crew: 17,
       bathrooms: 11,
     },
-    amenities: ["Stabilizers", "Dining Area", "Indoor Lounge", "Air Conditioning", "BBQ Grill"],
+    amenities: [
+      "Stabilizers",
+      "Dining Area",
+      "Indoor Lounge",
+      "Air Conditioning",
+      "BBQ Grill",
+    ],
     entertainment: ["DJ Equipment", "Karaoke System"],
-    waterToys: ["Water Skis", "Fishing Equipment", "Towable Tubes", "Scuba Diving Gear", "E-Foil"],
+    waterToys: [
+      "Water Skis",
+      "Fishing Equipment",
+      "Towable Tubes",
+      "Scuba Diving Gear",
+      "E-Foil",
+    ],
     location: {
       city: "Bangkok",
       country: "Thailand",
@@ -184,8 +235,13 @@ export const bangkokthailandasiaPacificYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: false,
     cateringOptions: ["À La Carte"],
-    description: "The Azure Blue is a magnificent super yacht built by Amels offering exceptional amenities and impeccable service for an unforgettable sailing experience in bangkok.",
-    images: ["https://paragon-trails-yacht-images.com/super/bangkok-azure-blue-1.jpg", "https://paragon-trails-yacht-images.com/super/bangkok-azure-blue-2.jpg", "https://paragon-trails-yacht-images.com/super/bangkok-azure-blue-3.jpg"],
+    description:
+      "The Azure Blue is a magnificent super yacht built by Amels offering exceptional amenities and impeccable service for an unforgettable sailing experience in bangkok.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/bangkok-azure-blue-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/bangkok-azure-blue-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/bangkok-azure-blue-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 130690,
@@ -196,5 +252,5 @@ export const bangkokthailandasiaPacificYachts: Yacht[] = [
     },
     safetyFeatures: ["Emergency Radio", "Fog Horn", "Emergency Beacon"],
     accessibilityFeatures: [],
-  }
+  },
 ];

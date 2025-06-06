@@ -37,8 +37,13 @@ export const veniceitalymediterraneanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: false,
     cateringOptions: ["Local Cuisine Packages"],
-    description: "The Neptune's Glory is a magnificent motor yacht built by Feadship offering exceptional amenities and impeccable service for an unforgettable sailing experience in venice.",
-    images: ["https://paragon-trails-yacht-images.com/motor/venice-neptune's-glory-1.jpg", "https://paragon-trails-yacht-images.com/motor/venice-neptune's-glory-2.jpg", "https://paragon-trails-yacht-images.com/motor/venice-neptune's-glory-3.jpg"],
+    description:
+      "The Neptune's Glory is a magnificent motor yacht built by Feadship offering exceptional amenities and impeccable service for an unforgettable sailing experience in venice.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/venice-neptune's-glory-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/venice-neptune's-glory-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/venice-neptune's-glory-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 7048,
@@ -73,7 +78,15 @@ export const veniceitalymediterraneanYachts: Yacht[] = [
       crew: 15,
       bathrooms: 8,
     },
-    amenities: ["Swim Platform", "BBQ Grill", "Kitchen", "Heated Deck", "Stabilizers", "Sauna", "Laundry Service"],
+    amenities: [
+      "Swim Platform",
+      "BBQ Grill",
+      "Kitchen",
+      "Heated Deck",
+      "Stabilizers",
+      "Sauna",
+      "Laundry Service",
+    ],
     entertainment: ["Surround Sound System", "Game Console"],
     waterToys: ["Windsurf", "Fishing Equipment", "Inflatable Slide", "Jet Ski"],
     location: {
@@ -86,8 +99,13 @@ export const veniceitalymediterraneanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Self-Catering", "Picnic-Style"],
-    description: "The Baltic Star is a magnificent super yacht built by Sanlorenzo offering exceptional amenities and impeccable service for an unforgettable sailing experience in venice.",
-    images: ["https://paragon-trails-yacht-images.com/super/venice-baltic-star-1.jpg", "https://paragon-trails-yacht-images.com/super/venice-baltic-star-2.jpg", "https://paragon-trails-yacht-images.com/super/venice-baltic-star-3.jpg"],
+    description:
+      "The Baltic Star is a magnificent super yacht built by Sanlorenzo offering exceptional amenities and impeccable service for an unforgettable sailing experience in venice.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/venice-baltic-star-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/venice-baltic-star-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/venice-baltic-star-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 166819,
@@ -135,8 +153,13 @@ export const veniceitalymediterraneanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["À La Carte", "Self-Catering"],
-    description: "Experience luxury and comfort aboard the Pacific Explorer, a stunning 18m gulet yacht available for charter in venice. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/venice-pacific-explorer-1.jpg", "https://paragon-trails-yacht-images.com/gulet/venice-pacific-explorer-2.jpg", "https://paragon-trails-yacht-images.com/gulet/venice-pacific-explorer-3.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Pacific Explorer, a stunning 18m gulet yacht available for charter in venice. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/venice-pacific-explorer-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/venice-pacific-explorer-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/venice-pacific-explorer-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5754,
@@ -184,8 +207,13 @@ export const veniceitalymediterraneanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: false,
     cateringOptions: ["Self-Catering", "Provisioning Only"],
-    description: "Sea Spirit combines performance and luxury in a stunning 25m sailing yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/venice-sea-spirit-1.jpg", "https://paragon-trails-yacht-images.com/sailing/venice-sea-spirit-2.jpg", "https://paragon-trails-yacht-images.com/sailing/venice-sea-spirit-3.jpg"],
+    description:
+      "Sea Spirit combines performance and luxury in a stunning 25m sailing yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/venice-sea-spirit-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/venice-sea-spirit-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/venice-sea-spirit-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 4992,
@@ -194,7 +222,12 @@ export const veniceitalymediterraneanYachts: Yacht[] = [
       includes: ["Jacuzzi", "Outdoor Shower"],
       excludes: ["Jacuzzi", "Outdoor Shower", "Heated Deck"],
     },
-    safetyFeatures: ["Emergency Steering", "Fog Horn", "Fire Extinguishers", "First Aid Kit"],
+    safetyFeatures: [
+      "Emergency Steering",
+      "Fog Horn",
+      "Fire Extinguishers",
+      "First Aid Kit",
+    ],
     accessibilityFeatures: ["Accessible Cabin", "Handrails"],
   },
   {
@@ -220,7 +253,13 @@ export const veniceitalymediterraneanYachts: Yacht[] = [
       crew: 3,
       bathrooms: 6,
     },
-    amenities: ["Laundry Service", "Heated Deck", "Sauna", "Swim Platform", "Wi-Fi"],
+    amenities: [
+      "Laundry Service",
+      "Heated Deck",
+      "Sauna",
+      "Swim Platform",
+      "Wi-Fi",
+    ],
     entertainment: ["Onboard Cinema"],
     waterToys: ["Windsurf", "Floating Island"],
     location: {
@@ -233,17 +272,28 @@ export const veniceitalymediterraneanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["À La Carte", "Chef Onboard"],
-    description: "Experience luxury and comfort aboard the Poseidon's Pride, a stunning 32m gulet yacht available for charter in venice. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/venice-poseidon's-pride-1.jpg", "https://paragon-trails-yacht-images.com/gulet/venice-poseidon's-pride-2.jpg", "https://paragon-trails-yacht-images.com/gulet/venice-poseidon's-pride-3.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Poseidon's Pride, a stunning 32m gulet yacht available for charter in venice. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/venice-poseidon's-pride-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/venice-poseidon's-pride-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/venice-poseidon's-pride-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 6097,
       perWeek: 36277.15,
       currency: "EUR",
       includes: ["Laundry Service"],
-      excludes: ["Laundry Service", "Heated Deck", "Sauna", "Swim Platform", "Wi-Fi"],
+      excludes: [
+        "Laundry Service",
+        "Heated Deck",
+        "Sauna",
+        "Swim Platform",
+        "Wi-Fi",
+      ],
     },
     safetyFeatures: ["GPS Tracking", "Navigation Lights", "Flares", "Fog Horn"],
     accessibilityFeatures: [],
-  }
+  },
 ];

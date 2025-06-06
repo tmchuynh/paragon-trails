@@ -26,7 +26,13 @@ export const sitkaunitedStatesalaskaYachts: Yacht[] = [
     },
     amenities: ["Hot Tub", "Wi-Fi", "Outdoor Shower", "Sauna", "BBQ Grill"],
     entertainment: ["Board Games"],
-    waterToys: ["Kneeboard", "Water Skis", "Windsurf", "Jet Ski", "Paddleboards"],
+    waterToys: [
+      "Kneeboard",
+      "Water Skis",
+      "Windsurf",
+      "Jet Ski",
+      "Paddleboards",
+    ],
     location: {
       city: "Sitka",
       country: "United States",
@@ -37,8 +43,14 @@ export const sitkaunitedStatesalaskaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["À La Carte"],
-    description: "Discover the beauty of sitka's waters aboard the elegant Aquamarine, a 2004 sailing yacht featuring spacious accommodation for 4 guests overnight or 9 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/sitka-aquamarine-1.jpg", "https://paragon-trails-yacht-images.com/sailing/sitka-aquamarine-2.jpg", "https://paragon-trails-yacht-images.com/sailing/sitka-aquamarine-3.jpg", "https://paragon-trails-yacht-images.com/sailing/sitka-aquamarine-4.jpg"],
+    description:
+      "Discover the beauty of sitka's waters aboard the elegant Aquamarine, a 2004 sailing yacht featuring spacious accommodation for 4 guests overnight or 9 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/sitka-aquamarine-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/sitka-aquamarine-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/sitka-aquamarine-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/sitka-aquamarine-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6212,
@@ -47,7 +59,12 @@ export const sitkaunitedStatesalaskaYachts: Yacht[] = [
       includes: ["Hot Tub", "Wi-Fi"],
       excludes: ["Hot Tub", "Wi-Fi", "Outdoor Shower", "Sauna", "BBQ Grill"],
     },
-    safetyFeatures: ["Emergency Steering", "Life Rafts", "GPS Tracking", "EPIRB"],
+    safetyFeatures: [
+      "Emergency Steering",
+      "Life Rafts",
+      "GPS Tracking",
+      "EPIRB",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -86,8 +103,13 @@ export const sitkaunitedStatesalaskaYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive"],
-    description: "The Euphoria is a magnificent sailing yacht built by Benetti offering exceptional amenities and impeccable service for an unforgettable sailing experience in sitka.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/sitka-euphoria-1.jpg", "https://paragon-trails-yacht-images.com/sailing/sitka-euphoria-2.jpg", "https://paragon-trails-yacht-images.com/sailing/sitka-euphoria-3.jpg"],
+    description:
+      "The Euphoria is a magnificent sailing yacht built by Benetti offering exceptional amenities and impeccable service for an unforgettable sailing experience in sitka.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/sitka-euphoria-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/sitka-euphoria-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/sitka-euphoria-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 3267,
@@ -135,8 +157,13 @@ export const sitkaunitedStatesalaskaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard"],
-    description: "Charter the impressive Royal Seas in sitka and enjoy its 3 luxury amenities and 2 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/super/sitka-royal-seas-1.jpg", "https://paragon-trails-yacht-images.com/super/sitka-royal-seas-2.jpg", "https://paragon-trails-yacht-images.com/super/sitka-royal-seas-3.jpg"],
+    description:
+      "Charter the impressive Royal Seas in sitka and enjoy its 3 luxury amenities and 2 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/sitka-royal-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/sitka-royal-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/sitka-royal-seas-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 71762,
@@ -145,7 +172,12 @@ export const sitkaunitedStatesalaskaYachts: Yacht[] = [
       includes: ["Kitchen"],
       excludes: ["Tender Garage"],
     },
-    safetyFeatures: ["Fire Extinguishers", "GPS Tracking", "Life Jackets", "Searchlight"],
+    safetyFeatures: [
+      "Fire Extinguishers",
+      "GPS Tracking",
+      "Life Jackets",
+      "Searchlight",
+    ],
     accessibilityFeatures: ["Accessible Bathroom"],
   },
   {
@@ -171,7 +203,14 @@ export const sitkaunitedStatesalaskaYachts: Yacht[] = [
       crew: 6,
       bathrooms: 7,
     },
-    amenities: ["Jacuzzi", "Stabilizers", "Tender Garage", "Outdoor Shower", "BBQ Grill", "Indoor Lounge"],
+    amenities: [
+      "Jacuzzi",
+      "Stabilizers",
+      "Tender Garage",
+      "Outdoor Shower",
+      "BBQ Grill",
+      "Indoor Lounge",
+    ],
     entertainment: ["Media Library", "Projector"],
     waterToys: ["Towable Tubes", "Kneeboard", "Scuba Diving Gear", "Seabob"],
     location: {
@@ -184,8 +223,13 @@ export const sitkaunitedStatesalaskaYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive", "Provisioning Only"],
-    description: "Charter the impressive Oceanis in sitka and enjoy its 7 luxury amenities and 4 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/mega/sitka-oceanis-1.jpg", "https://paragon-trails-yacht-images.com/mega/sitka-oceanis-2.jpg", "https://paragon-trails-yacht-images.com/mega/sitka-oceanis-3.jpg"],
+    description:
+      "Charter the impressive Oceanis in sitka and enjoy its 7 luxury amenities and 4 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/sitka-oceanis-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/sitka-oceanis-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/sitka-oceanis-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 40390,
@@ -220,9 +264,21 @@ export const sitkaunitedStatesalaskaYachts: Yacht[] = [
       crew: 11,
       bathrooms: 7,
     },
-    amenities: ["Hot Tub", "Heated Deck", "Sun Deck", "Laundry Service", "Air Conditioning"],
+    amenities: [
+      "Hot Tub",
+      "Heated Deck",
+      "Sun Deck",
+      "Laundry Service",
+      "Air Conditioning",
+    ],
     entertainment: ["Media Library", "Streaming Services", "Satellite TV"],
-    waterToys: ["Snorkeling Gear", "E-Foil", "Seabob", "Water Skis", "Wakeboard"],
+    waterToys: [
+      "Snorkeling Gear",
+      "E-Foil",
+      "Seabob",
+      "Water Skis",
+      "Wakeboard",
+    ],
     location: {
       city: "Sitka",
       country: "United States",
@@ -233,8 +289,15 @@ export const sitkaunitedStatesalaskaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: false,
     cateringOptions: ["All-Inclusive", "Provisioning Only"],
-    description: "Experience luxury and comfort aboard the Luxury Waters, a stunning 80m super yacht available for charter in sitka. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/super/sitka-luxury-waters-1.jpg", "https://paragon-trails-yacht-images.com/super/sitka-luxury-waters-2.jpg", "https://paragon-trails-yacht-images.com/super/sitka-luxury-waters-3.jpg", "https://paragon-trails-yacht-images.com/super/sitka-luxury-waters-4.jpg", "https://paragon-trails-yacht-images.com/super/sitka-luxury-waters-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Luxury Waters, a stunning 80m super yacht available for charter in sitka. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/sitka-luxury-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/sitka-luxury-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/sitka-luxury-waters-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/sitka-luxury-waters-4.jpg",
+      "https://paragon-trails-yacht-images.com/super/sitka-luxury-waters-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 151167,
@@ -269,7 +332,13 @@ export const sitkaunitedStatesalaskaYachts: Yacht[] = [
       crew: 1,
       bathrooms: 3,
     },
-    amenities: ["Tender Garage", "Sauna", "Dining Area", "Heated Deck", "Swim Platform"],
+    amenities: [
+      "Tender Garage",
+      "Sauna",
+      "Dining Area",
+      "Heated Deck",
+      "Swim Platform",
+    ],
     entertainment: ["Surround Sound System"],
     waterToys: ["Scuba Diving Gear", "Inflatable Slide"],
     location: {
@@ -282,8 +351,14 @@ export const sitkaunitedStatesalaskaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["À La Carte", "BBQ Onboard"],
-    description: "Charter the impressive Ocean Majesty in sitka and enjoy its 7 luxury amenities and 2 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/sitka-ocean-majesty-1.jpg", "https://paragon-trails-yacht-images.com/sailing/sitka-ocean-majesty-2.jpg", "https://paragon-trails-yacht-images.com/sailing/sitka-ocean-majesty-3.jpg", "https://paragon-trails-yacht-images.com/sailing/sitka-ocean-majesty-4.jpg"],
+    description:
+      "Charter the impressive Ocean Majesty in sitka and enjoy its 7 luxury amenities and 2 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/sitka-ocean-majesty-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/sitka-ocean-majesty-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/sitka-ocean-majesty-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/sitka-ocean-majesty-4.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 3548,
@@ -292,7 +367,13 @@ export const sitkaunitedStatesalaskaYachts: Yacht[] = [
       includes: ["Tender Garage", "Sauna"],
       excludes: ["Swim Platform"],
     },
-    safetyFeatures: ["First Aid Kit", "Life Rafts", "Emergency Radio", "Searchlight", "Radar"],
+    safetyFeatures: [
+      "First Aid Kit",
+      "Life Rafts",
+      "Emergency Radio",
+      "Searchlight",
+      "Radar",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -331,8 +412,14 @@ export const sitkaunitedStatesalaskaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: false,
     cateringOptions: ["Chef Onboard"],
-    description: "Discover the beauty of sitka's waters aboard the elegant Sea Spirit, a 2010 motor yacht featuring spacious accommodation for 8 guests overnight or 9 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/motor/sitka-sea-spirit-1.jpg", "https://paragon-trails-yacht-images.com/motor/sitka-sea-spirit-2.jpg", "https://paragon-trails-yacht-images.com/motor/sitka-sea-spirit-3.jpg", "https://paragon-trails-yacht-images.com/motor/sitka-sea-spirit-4.jpg"],
+    description:
+      "Discover the beauty of sitka's waters aboard the elegant Sea Spirit, a 2010 motor yacht featuring spacious accommodation for 8 guests overnight or 9 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/sitka-sea-spirit-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/sitka-sea-spirit-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/sitka-sea-spirit-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/sitka-sea-spirit-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 14078,
@@ -341,7 +428,11 @@ export const sitkaunitedStatesalaskaYachts: Yacht[] = [
       includes: ["Heated Deck"],
       excludes: ["Bar"],
     },
-    safetyFeatures: ["Emergency Beacon", "Navigation Lights", "Fire Extinguishers"],
+    safetyFeatures: [
+      "Emergency Beacon",
+      "Navigation Lights",
+      "Fire Extinguishers",
+    ],
     accessibilityFeatures: [],
-  }
+  },
 ];

@@ -37,8 +37,15 @@ export const seattleunitedStatesalaskaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only"],
-    description: "Charter the impressive Aquamarine in seattle and enjoy its 3 luxury amenities and 4 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/seattle-aquamarine-1.jpg", "https://paragon-trails-yacht-images.com/gulet/seattle-aquamarine-2.jpg", "https://paragon-trails-yacht-images.com/gulet/seattle-aquamarine-3.jpg", "https://paragon-trails-yacht-images.com/gulet/seattle-aquamarine-4.jpg", "https://paragon-trails-yacht-images.com/gulet/seattle-aquamarine-5.jpg"],
+    description:
+      "Charter the impressive Aquamarine in seattle and enjoy its 3 luxury amenities and 4 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/seattle-aquamarine-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/seattle-aquamarine-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/seattle-aquamarine-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/seattle-aquamarine-4.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/seattle-aquamarine-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 8658,
@@ -47,7 +54,13 @@ export const seattleunitedStatesalaskaYachts: Yacht[] = [
       includes: ["Heated Deck"],
       excludes: ["Heated Deck", "Sauna", "Jacuzzi"],
     },
-    safetyFeatures: ["Emergency Radio", "GPS Tracking", "Radar", "Life Jackets", "EPIRB"],
+    safetyFeatures: [
+      "Emergency Radio",
+      "GPS Tracking",
+      "Radar",
+      "Life Jackets",
+      "EPIRB",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -73,7 +86,14 @@ export const seattleunitedStatesalaskaYachts: Yacht[] = [
       crew: 3,
       bathrooms: 5,
     },
-    amenities: ["Dining Area", "Heated Deck", "Indoor Lounge", "Sun Deck", "Wi-Fi", "Jacuzzi"],
+    amenities: [
+      "Dining Area",
+      "Heated Deck",
+      "Indoor Lounge",
+      "Sun Deck",
+      "Wi-Fi",
+      "Jacuzzi",
+    ],
     entertainment: ["Projector", "Board Games"],
     waterToys: ["Snorkeling Gear", "Fishing Equipment"],
     location: {
@@ -86,8 +106,13 @@ export const seattleunitedStatesalaskaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: false,
     cateringOptions: ["BBQ Onboard"],
-    description: "Charter the impressive Sea Symphony in seattle and enjoy its 6 luxury amenities and 2 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/motor/seattle-sea-symphony-1.jpg", "https://paragon-trails-yacht-images.com/motor/seattle-sea-symphony-2.jpg", "https://paragon-trails-yacht-images.com/motor/seattle-sea-symphony-3.jpg"],
+    description:
+      "Charter the impressive Sea Symphony in seattle and enjoy its 6 luxury amenities and 2 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/seattle-sea-symphony-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/seattle-sea-symphony-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/seattle-sea-symphony-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 11457,
@@ -135,8 +160,13 @@ export const seattleunitedStatesalaskaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["À La Carte", "All-Inclusive"],
-    description: "Elite Waves combines performance and luxury in a stunning 89m super yacht. With its professional crew of 12, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/super/seattle-elite-waves-1.jpg", "https://paragon-trails-yacht-images.com/super/seattle-elite-waves-2.jpg", "https://paragon-trails-yacht-images.com/super/seattle-elite-waves-3.jpg"],
+    description:
+      "Elite Waves combines performance and luxury in a stunning 89m super yacht. With its professional crew of 12, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/seattle-elite-waves-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/seattle-elite-waves-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/seattle-elite-waves-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 119194,
@@ -145,7 +175,12 @@ export const seattleunitedStatesalaskaYachts: Yacht[] = [
       includes: ["Wi-Fi", "Dining Area", "Sun Deck"],
       excludes: ["Wi-Fi", "Dining Area", "Sun Deck"],
     },
-    safetyFeatures: ["Fire Extinguishers", "Emergency Steering", "Flares", "Searchlight"],
+    safetyFeatures: [
+      "Fire Extinguishers",
+      "Emergency Steering",
+      "Flares",
+      "Searchlight",
+    ],
     accessibilityFeatures: ["Elevator"],
   },
   {
@@ -184,8 +219,15 @@ export const seattleunitedStatesalaskaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Self-Catering", "Full-Service Catering"],
-    description: "Experience luxury and comfort aboard the Infinity Seas, a stunning 94m super yacht available for charter in seattle. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/super/seattle-infinity-seas-1.jpg", "https://paragon-trails-yacht-images.com/super/seattle-infinity-seas-2.jpg", "https://paragon-trails-yacht-images.com/super/seattle-infinity-seas-3.jpg", "https://paragon-trails-yacht-images.com/super/seattle-infinity-seas-4.jpg", "https://paragon-trails-yacht-images.com/super/seattle-infinity-seas-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Infinity Seas, a stunning 94m super yacht available for charter in seattle. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/seattle-infinity-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/seattle-infinity-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/seattle-infinity-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/seattle-infinity-seas-4.jpg",
+      "https://paragon-trails-yacht-images.com/super/seattle-infinity-seas-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 133308,
@@ -194,7 +236,13 @@ export const seattleunitedStatesalaskaYachts: Yacht[] = [
       includes: ["Swim Platform", "Laundry Service", "Jacuzzi"],
       excludes: ["Swim Platform", "Laundry Service", "Jacuzzi"],
     },
-    safetyFeatures: ["EPIRB", "Fog Horn", "Emergency Steering", "Searchlight", "GPS Tracking"],
+    safetyFeatures: [
+      "EPIRB",
+      "Fog Horn",
+      "Emergency Steering",
+      "Searchlight",
+      "GPS Tracking",
+    ],
     accessibilityFeatures: ["Low Thresholds", "Accessible Bathroom"],
   },
   {
@@ -233,8 +281,14 @@ export const seattleunitedStatesalaskaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only"],
-    description: "Discover the beauty of seattle's waters aboard the elegant Sapphire Seas, a 2014 gulet yacht featuring spacious accommodation for 14 guests overnight or 18 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/seattle-sapphire-seas-1.jpg", "https://paragon-trails-yacht-images.com/gulet/seattle-sapphire-seas-2.jpg", "https://paragon-trails-yacht-images.com/gulet/seattle-sapphire-seas-3.jpg", "https://paragon-trails-yacht-images.com/gulet/seattle-sapphire-seas-4.jpg"],
+    description:
+      "Discover the beauty of seattle's waters aboard the elegant Sapphire Seas, a 2014 gulet yacht featuring spacious accommodation for 14 guests overnight or 18 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/seattle-sapphire-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/seattle-sapphire-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/seattle-sapphire-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/seattle-sapphire-seas-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6814,
@@ -282,8 +336,13 @@ export const seattleunitedStatesalaskaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Self-Catering", "No Catering"],
-    description: "The Adriatic Queen is a magnificent motor yacht built by Azimut offering exceptional amenities and impeccable service for an unforgettable sailing experience in seattle.",
-    images: ["https://paragon-trails-yacht-images.com/motor/seattle-adriatic-queen-1.jpg", "https://paragon-trails-yacht-images.com/motor/seattle-adriatic-queen-2.jpg", "https://paragon-trails-yacht-images.com/motor/seattle-adriatic-queen-3.jpg"],
+    description:
+      "The Adriatic Queen is a magnificent motor yacht built by Azimut offering exceptional amenities and impeccable service for an unforgettable sailing experience in seattle.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/seattle-adriatic-queen-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/seattle-adriatic-queen-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/seattle-adriatic-queen-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 10916,
@@ -292,7 +351,13 @@ export const seattleunitedStatesalaskaYachts: Yacht[] = [
       includes: ["Tender Garage", "Sun Deck"],
       excludes: ["Heated Deck"],
     },
-    safetyFeatures: ["Fire Extinguishers", "Radar", "Life Rafts", "Flares", "Emergency Steering"],
+    safetyFeatures: [
+      "Fire Extinguishers",
+      "Radar",
+      "Life Rafts",
+      "Flares",
+      "Emergency Steering",
+    ],
     accessibilityFeatures: [],
-  }
+  },
 ];

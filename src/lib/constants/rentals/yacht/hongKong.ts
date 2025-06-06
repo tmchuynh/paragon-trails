@@ -24,7 +24,14 @@ export const hongKongchinaasiaPacificYachts: Yacht[] = [
       crew: 2,
       bathrooms: 5,
     },
-    amenities: ["BBQ Grill", "Stabilizers", "Jacuzzi", "Dining Area", "Sun Deck", "Indoor Lounge"],
+    amenities: [
+      "BBQ Grill",
+      "Stabilizers",
+      "Jacuzzi",
+      "Dining Area",
+      "Sun Deck",
+      "Indoor Lounge",
+    ],
     entertainment: ["Karaoke System", "Game Console"],
     waterToys: ["Windsurf", "Kayaks"],
     location: {
@@ -37,17 +44,34 @@ export const hongKongchinaasiaPacificYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["À La Carte"],
-    description: "The Cobalt Waters is a magnificent sailing yacht built by Amels offering exceptional amenities and impeccable service for an unforgettable sailing experience in hong-kong.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/hong-kong-cobalt-waters-1.jpg", "https://paragon-trails-yacht-images.com/sailing/hong-kong-cobalt-waters-2.jpg", "https://paragon-trails-yacht-images.com/sailing/hong-kong-cobalt-waters-3.jpg"],
+    description:
+      "The Cobalt Waters is a magnificent sailing yacht built by Amels offering exceptional amenities and impeccable service for an unforgettable sailing experience in hong-kong.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/hong-kong-cobalt-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/hong-kong-cobalt-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/hong-kong-cobalt-waters-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 9727,
       perWeek: 57875.65,
       currency: "CNY",
       includes: ["BBQ Grill", "Stabilizers"],
-      excludes: ["BBQ Grill", "Stabilizers", "Jacuzzi", "Dining Area", "Sun Deck", "Indoor Lounge"],
+      excludes: [
+        "BBQ Grill",
+        "Stabilizers",
+        "Jacuzzi",
+        "Dining Area",
+        "Sun Deck",
+        "Indoor Lounge",
+      ],
     },
-    safetyFeatures: ["Emergency Steering", "Life Jackets", "EPIRB", "Life Rafts"],
+    safetyFeatures: [
+      "Emergency Steering",
+      "Life Jackets",
+      "EPIRB",
+      "Life Rafts",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -73,7 +97,13 @@ export const hongKongchinaasiaPacificYachts: Yacht[] = [
       crew: 3,
       bathrooms: 5,
     },
-    amenities: ["Air Conditioning", "Tender Garage", "Swim Platform", "Heated Deck", "Laundry Service"],
+    amenities: [
+      "Air Conditioning",
+      "Tender Garage",
+      "Swim Platform",
+      "Heated Deck",
+      "Laundry Service",
+    ],
     entertainment: ["Streaming Services", "Karaoke System", "Board Games"],
     waterToys: ["Paddleboards", "E-Foil", "Floating Island"],
     location: {
@@ -86,15 +116,27 @@ export const hongKongchinaasiaPacificYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["À La Carte"],
-    description: "Discover the beauty of hong-kong's waters aboard the elegant Golden Voyage, a 2008 catamaran yacht featuring spacious accommodation for 10 guests overnight or 12 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/hong-kong-golden-voyage-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/hong-kong-golden-voyage-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/hong-kong-golden-voyage-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/hong-kong-golden-voyage-4.jpg"],
+    description:
+      "Discover the beauty of hong-kong's waters aboard the elegant Golden Voyage, a 2008 catamaran yacht featuring spacious accommodation for 10 guests overnight or 12 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/hong-kong-golden-voyage-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/hong-kong-golden-voyage-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/hong-kong-golden-voyage-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/hong-kong-golden-voyage-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7256,
       perWeek: 43173.2,
       currency: "CNY",
       includes: ["Air Conditioning", "Tender Garage", "Swim Platform"],
-      excludes: ["Air Conditioning", "Tender Garage", "Swim Platform", "Heated Deck", "Laundry Service"],
+      excludes: [
+        "Air Conditioning",
+        "Tender Garage",
+        "Swim Platform",
+        "Heated Deck",
+        "Laundry Service",
+      ],
     },
     safetyFeatures: ["Searchlight", "GPS Tracking", "Life Rafts", "Fog Horn"],
     accessibilityFeatures: ["Elevator"],
@@ -135,8 +177,13 @@ export const hongKongchinaasiaPacificYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive", "Picnic-Style"],
-    description: "The Coastal Serenity is a magnificent mega yacht built by Pershing offering exceptional amenities and impeccable service for an unforgettable sailing experience in hong-kong.",
-    images: ["https://paragon-trails-yacht-images.com/mega/hong-kong-coastal-serenity-1.jpg", "https://paragon-trails-yacht-images.com/mega/hong-kong-coastal-serenity-2.jpg", "https://paragon-trails-yacht-images.com/mega/hong-kong-coastal-serenity-3.jpg"],
+    description:
+      "The Coastal Serenity is a magnificent mega yacht built by Pershing offering exceptional amenities and impeccable service for an unforgettable sailing experience in hong-kong.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/hong-kong-coastal-serenity-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/hong-kong-coastal-serenity-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/hong-kong-coastal-serenity-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 48281,
@@ -171,7 +218,14 @@ export const hongKongchinaasiaPacificYachts: Yacht[] = [
       crew: 15,
       bathrooms: 12,
     },
-    amenities: ["Tender Garage", "BBQ Grill", "Heated Deck", "Dining Area", "Indoor Lounge", "Kitchen"],
+    amenities: [
+      "Tender Garage",
+      "BBQ Grill",
+      "Heated Deck",
+      "Dining Area",
+      "Indoor Lounge",
+      "Kitchen",
+    ],
     entertainment: ["Streaming Services", "Karaoke System", "Game Console"],
     waterToys: ["Kayaks", "E-Foil", "Towable Tubes", "Jet Ski"],
     location: {
@@ -184,8 +238,15 @@ export const hongKongchinaasiaPacificYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Full-Service Catering"],
-    description: "Experience luxury and comfort aboard the Pearl Harbor, a stunning 74m super yacht available for charter in hong-kong. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/super/hong-kong-pearl-harbor-1.jpg", "https://paragon-trails-yacht-images.com/super/hong-kong-pearl-harbor-2.jpg", "https://paragon-trails-yacht-images.com/super/hong-kong-pearl-harbor-3.jpg", "https://paragon-trails-yacht-images.com/super/hong-kong-pearl-harbor-4.jpg", "https://paragon-trails-yacht-images.com/super/hong-kong-pearl-harbor-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Pearl Harbor, a stunning 74m super yacht available for charter in hong-kong. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/hong-kong-pearl-harbor-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/hong-kong-pearl-harbor-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/hong-kong-pearl-harbor-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/hong-kong-pearl-harbor-4.jpg",
+      "https://paragon-trails-yacht-images.com/super/hong-kong-pearl-harbor-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 167356,
@@ -194,7 +255,13 @@ export const hongKongchinaasiaPacificYachts: Yacht[] = [
       includes: ["Tender Garage"],
       excludes: ["Kitchen"],
     },
-    safetyFeatures: ["Searchlight", "Navigation Lights", "First Aid Kit", "GPS Tracking", "Life Jackets"],
+    safetyFeatures: [
+      "Searchlight",
+      "Navigation Lights",
+      "First Aid Kit",
+      "GPS Tracking",
+      "Life Jackets",
+    ],
     accessibilityFeatures: ["Elevator"],
   },
   {
@@ -233,8 +300,15 @@ export const hongKongchinaasiaPacificYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: false,
     cateringOptions: ["Self-Catering"],
-    description: "Charter the impressive Oceanis in hong-kong and enjoy its 3 luxury amenities and 2 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/hong-kong-oceanis-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/hong-kong-oceanis-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/hong-kong-oceanis-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/hong-kong-oceanis-4.jpg", "https://paragon-trails-yacht-images.com/catamaran/hong-kong-oceanis-5.jpg"],
+    description:
+      "Charter the impressive Oceanis in hong-kong and enjoy its 3 luxury amenities and 2 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/hong-kong-oceanis-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/hong-kong-oceanis-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/hong-kong-oceanis-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/hong-kong-oceanis-4.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/hong-kong-oceanis-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 11625,
@@ -243,7 +317,12 @@ export const hongKongchinaasiaPacificYachts: Yacht[] = [
       includes: ["Stabilizers"],
       excludes: ["Stabilizers", "Bar", "Tender Garage"],
     },
-    safetyFeatures: ["Emergency Beacon", "Fire Extinguishers", "EPIRB", "Emergency Steering"],
+    safetyFeatures: [
+      "Emergency Beacon",
+      "Fire Extinguishers",
+      "EPIRB",
+      "Emergency Steering",
+    ],
     accessibilityFeatures: ["Accessible Cabin"],
   },
   {
@@ -270,7 +349,11 @@ export const hongKongchinaasiaPacificYachts: Yacht[] = [
       bathrooms: 6,
     },
     amenities: ["Sun Deck", "Stabilizers", "Kitchen"],
-    entertainment: ["Surround Sound System", "Bluetooth Speakers", "Board Games"],
+    entertainment: [
+      "Surround Sound System",
+      "Bluetooth Speakers",
+      "Board Games",
+    ],
     waterToys: ["Kayaks", "Scuba Diving Gear"],
     location: {
       city: "Hong-kong",
@@ -282,8 +365,13 @@ export const hongKongchinaasiaPacificYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive", "No Catering"],
-    description: "Sapphire Seas combines performance and luxury in a stunning 33m gulet yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/hong-kong-sapphire-seas-1.jpg", "https://paragon-trails-yacht-images.com/gulet/hong-kong-sapphire-seas-2.jpg", "https://paragon-trails-yacht-images.com/gulet/hong-kong-sapphire-seas-3.jpg"],
+    description:
+      "Sapphire Seas combines performance and luxury in a stunning 33m gulet yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/hong-kong-sapphire-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/hong-kong-sapphire-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/hong-kong-sapphire-seas-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7541,
@@ -292,7 +380,12 @@ export const hongKongchinaasiaPacificYachts: Yacht[] = [
       includes: ["Sun Deck"],
       excludes: ["Kitchen"],
     },
-    safetyFeatures: ["Searchlight", "Navigation Lights", "Life Jackets", "Emergency Steering"],
+    safetyFeatures: [
+      "Searchlight",
+      "Navigation Lights",
+      "Life Jackets",
+      "Emergency Steering",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -318,7 +411,13 @@ export const hongKongchinaasiaPacificYachts: Yacht[] = [
       crew: 10,
       bathrooms: 9,
     },
-    amenities: ["Stabilizers", "Indoor Lounge", "Wi-Fi", "Laundry Service", "Outdoor Shower"],
+    amenities: [
+      "Stabilizers",
+      "Indoor Lounge",
+      "Wi-Fi",
+      "Laundry Service",
+      "Outdoor Shower",
+    ],
     entertainment: ["Game Console", "Onboard Cinema"],
     waterToys: ["Scuba Diving Gear", "Water Skis"],
     location: {
@@ -331,17 +430,28 @@ export const hongKongchinaasiaPacificYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: false,
     cateringOptions: ["No Catering"],
-    description: "Charter the impressive Sea Symphony in hong-kong and enjoy its 5 luxury amenities and 2 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/super/hong-kong-sea-symphony-1.jpg", "https://paragon-trails-yacht-images.com/super/hong-kong-sea-symphony-2.jpg", "https://paragon-trails-yacht-images.com/super/hong-kong-sea-symphony-3.jpg"],
+    description:
+      "Charter the impressive Sea Symphony in hong-kong and enjoy its 5 luxury amenities and 2 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/hong-kong-sea-symphony-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/hong-kong-sea-symphony-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/hong-kong-sea-symphony-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 136791,
       perWeek: 813906.45,
       currency: "CNY",
       includes: ["Stabilizers"],
-      excludes: ["Stabilizers", "Indoor Lounge", "Wi-Fi", "Laundry Service", "Outdoor Shower"],
+      excludes: [
+        "Stabilizers",
+        "Indoor Lounge",
+        "Wi-Fi",
+        "Laundry Service",
+        "Outdoor Shower",
+      ],
     },
     safetyFeatures: ["Emergency Beacon", "Life Rafts", "Life Jackets"],
     accessibilityFeatures: [],
-  }
+  },
 ];

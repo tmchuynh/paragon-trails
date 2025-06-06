@@ -24,9 +24,22 @@ export const charlestonunitedStateseastCoastUsaYachts: Yacht[] = [
       crew: 5,
       bathrooms: 7,
     },
-    amenities: ["Bar", "Laundry Service", "Sauna", "Sun Deck", "Heated Deck", "Outdoor Shower"],
+    amenities: [
+      "Bar",
+      "Laundry Service",
+      "Sauna",
+      "Sun Deck",
+      "Heated Deck",
+      "Outdoor Shower",
+    ],
     entertainment: ["Board Games", "Karaoke System", "Game Console"],
-    waterToys: ["Snorkeling Gear", "Floating Island", "Kayaks", "Jet Ski", "Paddleboards"],
+    waterToys: [
+      "Snorkeling Gear",
+      "Floating Island",
+      "Kayaks",
+      "Jet Ski",
+      "Paddleboards",
+    ],
     location: {
       city: "Charleston",
       country: "United States",
@@ -37,8 +50,14 @@ export const charlestonunitedStateseastCoastUsaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Picnic-Style", "All-Inclusive"],
-    description: "Discover the beauty of charleston's waters aboard the elegant Serenity Now, a 2008 gulet yacht featuring spacious accommodation for 13 guests overnight or 10 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/charleston-serenity-now-1.jpg", "https://paragon-trails-yacht-images.com/gulet/charleston-serenity-now-2.jpg", "https://paragon-trails-yacht-images.com/gulet/charleston-serenity-now-3.jpg", "https://paragon-trails-yacht-images.com/gulet/charleston-serenity-now-4.jpg"],
+    description:
+      "Discover the beauty of charleston's waters aboard the elegant Serenity Now, a 2008 gulet yacht featuring spacious accommodation for 13 guests overnight or 10 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/charleston-serenity-now-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/charleston-serenity-now-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/charleston-serenity-now-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/charleston-serenity-now-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5157,
@@ -73,7 +92,13 @@ export const charlestonunitedStateseastCoastUsaYachts: Yacht[] = [
       crew: 2,
       bathrooms: 3,
     },
-    amenities: ["Dining Area", "Jacuzzi", "Sauna", "Heated Deck", "Outdoor Shower"],
+    amenities: [
+      "Dining Area",
+      "Jacuzzi",
+      "Sauna",
+      "Heated Deck",
+      "Outdoor Shower",
+    ],
     entertainment: ["Streaming Services", "Onboard Cinema"],
     waterToys: ["Jet Ski", "E-Foil", "Windsurf"],
     location: {
@@ -86,8 +111,13 @@ export const charlestonunitedStateseastCoastUsaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Self-Catering"],
-    description: "The Sea Symphony is a magnificent sailing yacht built by Swan offering exceptional amenities and impeccable service for an unforgettable sailing experience in charleston.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/charleston-sea-symphony-1.jpg", "https://paragon-trails-yacht-images.com/sailing/charleston-sea-symphony-2.jpg", "https://paragon-trails-yacht-images.com/sailing/charleston-sea-symphony-3.jpg"],
+    description:
+      "The Sea Symphony is a magnificent sailing yacht built by Swan offering exceptional amenities and impeccable service for an unforgettable sailing experience in charleston.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/charleston-sea-symphony-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/charleston-sea-symphony-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/charleston-sea-symphony-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5733,
@@ -135,8 +165,14 @@ export const charlestonunitedStateseastCoastUsaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard", "No Catering"],
-    description: "Discover the beauty of charleston's waters aboard the elegant Infinity Seas, a 2003 motor yacht featuring spacious accommodation for 9 guests overnight or 9 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/motor/charleston-infinity-seas-1.jpg", "https://paragon-trails-yacht-images.com/motor/charleston-infinity-seas-2.jpg", "https://paragon-trails-yacht-images.com/motor/charleston-infinity-seas-3.jpg", "https://paragon-trails-yacht-images.com/motor/charleston-infinity-seas-4.jpg"],
+    description:
+      "Discover the beauty of charleston's waters aboard the elegant Infinity Seas, a 2003 motor yacht featuring spacious accommodation for 9 guests overnight or 9 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/charleston-infinity-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/charleston-infinity-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/charleston-infinity-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/charleston-infinity-seas-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8603,
@@ -184,8 +220,13 @@ export const charlestonunitedStateseastCoastUsaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: false,
     cateringOptions: ["Self-Catering", "Chef Onboard"],
-    description: "The Crystal Blue is a magnificent sailing yacht built by Oceanco offering exceptional amenities and impeccable service for an unforgettable sailing experience in charleston.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/charleston-crystal-blue-1.jpg", "https://paragon-trails-yacht-images.com/sailing/charleston-crystal-blue-2.jpg", "https://paragon-trails-yacht-images.com/sailing/charleston-crystal-blue-3.jpg"],
+    description:
+      "The Crystal Blue is a magnificent sailing yacht built by Oceanco offering exceptional amenities and impeccable service for an unforgettable sailing experience in charleston.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/charleston-crystal-blue-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/charleston-crystal-blue-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/charleston-crystal-blue-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5552,
@@ -233,8 +274,15 @@ export const charlestonunitedStateseastCoastUsaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages", "Self-Catering"],
-    description: "Discover the beauty of charleston's waters aboard the elegant Mermaid's Song, a 2017 sailing yacht featuring spacious accommodation for 6 guests overnight or 10 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/charleston-mermaid's-song-1.jpg", "https://paragon-trails-yacht-images.com/sailing/charleston-mermaid's-song-2.jpg", "https://paragon-trails-yacht-images.com/sailing/charleston-mermaid's-song-3.jpg", "https://paragon-trails-yacht-images.com/sailing/charleston-mermaid's-song-4.jpg", "https://paragon-trails-yacht-images.com/sailing/charleston-mermaid's-song-5.jpg"],
+    description:
+      "Discover the beauty of charleston's waters aboard the elegant Mermaid's Song, a 2017 sailing yacht featuring spacious accommodation for 6 guests overnight or 10 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/charleston-mermaid's-song-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/charleston-mermaid's-song-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/charleston-mermaid's-song-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/charleston-mermaid's-song-4.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/charleston-mermaid's-song-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 9874,
@@ -282,8 +330,14 @@ export const charlestonunitedStateseastCoastUsaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: false,
     cateringOptions: ["Self-Catering"],
-    description: "The Aegean Beauty is a magnificent mega yacht built by Fountaine Pajot offering exceptional amenities and impeccable service for an unforgettable sailing experience in charleston.",
-    images: ["https://paragon-trails-yacht-images.com/mega/charleston-aegean-beauty-1.jpg", "https://paragon-trails-yacht-images.com/mega/charleston-aegean-beauty-2.jpg", "https://paragon-trails-yacht-images.com/mega/charleston-aegean-beauty-3.jpg", "https://paragon-trails-yacht-images.com/mega/charleston-aegean-beauty-4.jpg"],
+    description:
+      "The Aegean Beauty is a magnificent mega yacht built by Fountaine Pajot offering exceptional amenities and impeccable service for an unforgettable sailing experience in charleston.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/charleston-aegean-beauty-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/charleston-aegean-beauty-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/charleston-aegean-beauty-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/charleston-aegean-beauty-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 21826,
@@ -294,5 +348,5 @@ export const charlestonunitedStateseastCoastUsaYachts: Yacht[] = [
     },
     safetyFeatures: ["EPIRB", "GPS Tracking", "Searchlight", "Emergency Radio"],
     accessibilityFeatures: [],
-  }
+  },
 ];

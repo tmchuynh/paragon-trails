@@ -24,7 +24,15 @@ export const stThomasusVirginIslandscaribbeanYachts: Yacht[] = [
       crew: 6,
       bathrooms: 7,
     },
-    amenities: ["Tender Garage", "Air Conditioning", "Wi-Fi", "Indoor Lounge", "Dining Area", "Jacuzzi", "Stabilizers"],
+    amenities: [
+      "Tender Garage",
+      "Air Conditioning",
+      "Wi-Fi",
+      "Indoor Lounge",
+      "Dining Area",
+      "Jacuzzi",
+      "Stabilizers",
+    ],
     entertainment: ["DJ Equipment"],
     waterToys: ["Inflatable Slide", "E-Foil", "Jet Ski", "Scuba Diving Gear"],
     location: {
@@ -37,15 +45,29 @@ export const stThomasusVirginIslandscaribbeanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["Picnic-Style"],
-    description: "Charter the impressive Mermaid's Song in st-thomas and enjoy its 7 luxury amenities and 5 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/mega/st-thomas-mermaid's-song-1.jpg", "https://paragon-trails-yacht-images.com/mega/st-thomas-mermaid's-song-2.jpg", "https://paragon-trails-yacht-images.com/mega/st-thomas-mermaid's-song-3.jpg", "https://paragon-trails-yacht-images.com/mega/st-thomas-mermaid's-song-4.jpg"],
+    description:
+      "Charter the impressive Mermaid's Song in st-thomas and enjoy its 7 luxury amenities and 5 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/st-thomas-mermaid's-song-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/st-thomas-mermaid's-song-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/st-thomas-mermaid's-song-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/st-thomas-mermaid's-song-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 47867,
       perWeek: 284808.64999999997,
       currency: "USD",
       includes: ["Tender Garage", "Air Conditioning", "Wi-Fi"],
-      excludes: ["Tender Garage", "Air Conditioning", "Wi-Fi", "Indoor Lounge", "Dining Area", "Jacuzzi", "Stabilizers"],
+      excludes: [
+        "Tender Garage",
+        "Air Conditioning",
+        "Wi-Fi",
+        "Indoor Lounge",
+        "Dining Area",
+        "Jacuzzi",
+        "Stabilizers",
+      ],
     },
     safetyFeatures: ["Fire Extinguishers", "Emergency Steering", "Searchlight"],
     accessibilityFeatures: [],
@@ -73,7 +95,14 @@ export const stThomasusVirginIslandscaribbeanYachts: Yacht[] = [
       crew: 2,
       bathrooms: 5,
     },
-    amenities: ["Outdoor Shower", "Air Conditioning", "Kitchen", "BBQ Grill", "Tender Garage", "Hot Tub"],
+    amenities: [
+      "Outdoor Shower",
+      "Air Conditioning",
+      "Kitchen",
+      "BBQ Grill",
+      "Tender Garage",
+      "Hot Tub",
+    ],
     entertainment: ["Game Console"],
     waterToys: ["Kayaks", "Jet Ski", "Floating Island", "Seabob"],
     location: {
@@ -86,8 +115,13 @@ export const stThomasusVirginIslandscaribbeanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: false,
     cateringOptions: ["Self-Catering", "Picnic-Style"],
-    description: "Baltic Star combines performance and luxury in a stunning 23m catamaran yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/st-thomas-baltic-star-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/st-thomas-baltic-star-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/st-thomas-baltic-star-3.jpg"],
+    description:
+      "Baltic Star combines performance and luxury in a stunning 23m catamaran yacht. With its professional crew of 2, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/st-thomas-baltic-star-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/st-thomas-baltic-star-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/st-thomas-baltic-star-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 6727,
@@ -96,7 +130,12 @@ export const stThomasusVirginIslandscaribbeanYachts: Yacht[] = [
       includes: ["Outdoor Shower", "Air Conditioning", "Kitchen"],
       excludes: ["Hot Tub"],
     },
-    safetyFeatures: ["Emergency Steering", "Emergency Radio", "Fire Extinguishers", "Flares"],
+    safetyFeatures: [
+      "Emergency Steering",
+      "Emergency Radio",
+      "Fire Extinguishers",
+      "Flares",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -122,9 +161,22 @@ export const stThomasusVirginIslandscaribbeanYachts: Yacht[] = [
       crew: 2,
       bathrooms: 5,
     },
-    amenities: ["Jacuzzi", "Tender Garage", "Hot Tub", "BBQ Grill", "Sauna", "Dining Area"],
+    amenities: [
+      "Jacuzzi",
+      "Tender Garage",
+      "Hot Tub",
+      "BBQ Grill",
+      "Sauna",
+      "Dining Area",
+    ],
     entertainment: ["Bluetooth Speakers", "Streaming Services"],
-    waterToys: ["Seabob", "Jet Ski", "Scuba Diving Gear", "Windsurf", "Water Skis"],
+    waterToys: [
+      "Seabob",
+      "Jet Ski",
+      "Scuba Diving Gear",
+      "Windsurf",
+      "Water Skis",
+    ],
     location: {
       city: "St-thomas",
       country: "U.S. Virgin Islands",
@@ -135,8 +187,13 @@ export const stThomasusVirginIslandscaribbeanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["BBQ Onboard"],
-    description: "Experience luxury and comfort aboard the Wave Dancer, a stunning 19m catamaran yacht available for charter in st-thomas. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/st-thomas-wave-dancer-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/st-thomas-wave-dancer-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/st-thomas-wave-dancer-3.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Wave Dancer, a stunning 19m catamaran yacht available for charter in st-thomas. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/st-thomas-wave-dancer-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/st-thomas-wave-dancer-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/st-thomas-wave-dancer-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 4680,
@@ -184,8 +241,15 @@ export const stThomasusVirginIslandscaribbeanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive", "Chef Onboard"],
-    description: "Charter the impressive Diamond Seas in st-thomas and enjoy its 5 luxury amenities and 2 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/mega/st-thomas-diamond-seas-1.jpg", "https://paragon-trails-yacht-images.com/mega/st-thomas-diamond-seas-2.jpg", "https://paragon-trails-yacht-images.com/mega/st-thomas-diamond-seas-3.jpg", "https://paragon-trails-yacht-images.com/mega/st-thomas-diamond-seas-4.jpg", "https://paragon-trails-yacht-images.com/mega/st-thomas-diamond-seas-5.jpg"],
+    description:
+      "Charter the impressive Diamond Seas in st-thomas and enjoy its 5 luxury amenities and 2 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/st-thomas-diamond-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/st-thomas-diamond-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/st-thomas-diamond-seas-3.jpg",
+      "https://paragon-trails-yacht-images.com/mega/st-thomas-diamond-seas-4.jpg",
+      "https://paragon-trails-yacht-images.com/mega/st-thomas-diamond-seas-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 23291,
@@ -220,9 +284,21 @@ export const stThomasusVirginIslandscaribbeanYachts: Yacht[] = [
       crew: 15,
       bathrooms: 9,
     },
-    amenities: ["Outdoor Shower", "Dining Area", "Stabilizers", "Sun Deck", "Swim Platform"],
+    amenities: [
+      "Outdoor Shower",
+      "Dining Area",
+      "Stabilizers",
+      "Sun Deck",
+      "Swim Platform",
+    ],
     entertainment: ["Game Console"],
-    waterToys: ["Windsurf", "Inflatable Slide", "Towable Tubes", "Water Skis", "Seabob"],
+    waterToys: [
+      "Windsurf",
+      "Inflatable Slide",
+      "Towable Tubes",
+      "Water Skis",
+      "Seabob",
+    ],
     location: {
       city: "St-thomas",
       country: "U.S. Virgin Islands",
@@ -233,8 +309,14 @@ export const stThomasusVirginIslandscaribbeanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Breakfast Only"],
-    description: "Luxury Waters combines performance and luxury in a stunning 61m super yacht. With its professional crew of 15, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/super/st-thomas-luxury-waters-1.jpg", "https://paragon-trails-yacht-images.com/super/st-thomas-luxury-waters-2.jpg", "https://paragon-trails-yacht-images.com/super/st-thomas-luxury-waters-3.jpg", "https://paragon-trails-yacht-images.com/super/st-thomas-luxury-waters-4.jpg"],
+    description:
+      "Luxury Waters combines performance and luxury in a stunning 61m super yacht. With its professional crew of 15, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/st-thomas-luxury-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/st-thomas-luxury-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/st-thomas-luxury-waters-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/st-thomas-luxury-waters-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 131997,
@@ -282,8 +364,14 @@ export const stThomasusVirginIslandscaribbeanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["All-Inclusive"],
-    description: "Charter the impressive Elite Waves in st-thomas and enjoy its 3 luxury amenities and 2 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/motor/st-thomas-elite-waves-1.jpg", "https://paragon-trails-yacht-images.com/motor/st-thomas-elite-waves-2.jpg", "https://paragon-trails-yacht-images.com/motor/st-thomas-elite-waves-3.jpg", "https://paragon-trails-yacht-images.com/motor/st-thomas-elite-waves-4.jpg"],
+    description:
+      "Charter the impressive Elite Waves in st-thomas and enjoy its 3 luxury amenities and 2 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/st-thomas-elite-waves-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/st-thomas-elite-waves-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/st-thomas-elite-waves-3.jpg",
+      "https://paragon-trails-yacht-images.com/motor/st-thomas-elite-waves-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 11284,
@@ -292,7 +380,13 @@ export const stThomasusVirginIslandscaribbeanYachts: Yacht[] = [
       includes: ["Stabilizers", "Hot Tub"],
       excludes: ["Sun Deck"],
     },
-    safetyFeatures: ["Radar", "Fog Horn", "EPIRB", "Emergency Radio", "Emergency Steering"],
+    safetyFeatures: [
+      "Radar",
+      "Fog Horn",
+      "EPIRB",
+      "Emergency Radio",
+      "Emergency Steering",
+    ],
     accessibilityFeatures: ["Easy Boarding", "Wheelchair Ramp"],
   },
   {
@@ -318,7 +412,13 @@ export const stThomasusVirginIslandscaribbeanYachts: Yacht[] = [
       crew: 8,
       bathrooms: 5,
     },
-    amenities: ["Tender Garage", "Heated Deck", "Laundry Service", "Outdoor Shower", "Indoor Lounge"],
+    amenities: [
+      "Tender Garage",
+      "Heated Deck",
+      "Laundry Service",
+      "Outdoor Shower",
+      "Indoor Lounge",
+    ],
     entertainment: ["Board Games", "Satellite TV"],
     waterToys: ["Jet Ski", "Scuba Diving Gear"],
     location: {
@@ -331,8 +431,13 @@ export const stThomasusVirginIslandscaribbeanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Full-Service Catering", "Picnic-Style"],
-    description: "Charter the impressive Sovereign Waters in st-thomas and enjoy its 6 luxury amenities and 2 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/mega/st-thomas-sovereign-waters-1.jpg", "https://paragon-trails-yacht-images.com/mega/st-thomas-sovereign-waters-2.jpg", "https://paragon-trails-yacht-images.com/mega/st-thomas-sovereign-waters-3.jpg"],
+    description:
+      "Charter the impressive Sovereign Waters in st-thomas and enjoy its 6 luxury amenities and 2 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/st-thomas-sovereign-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/st-thomas-sovereign-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/st-thomas-sovereign-waters-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 41676,
@@ -343,5 +448,5 @@ export const stThomasusVirginIslandscaribbeanYachts: Yacht[] = [
     },
     safetyFeatures: ["Emergency Steering", "Emergency Radio", "EPIRB"],
     accessibilityFeatures: [],
-  }
+  },
 ];

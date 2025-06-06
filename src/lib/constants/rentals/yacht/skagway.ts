@@ -37,8 +37,13 @@ export const skagwayunitedStatesalaskaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: false,
     cateringOptions: ["BBQ Onboard", "À La Carte"],
-    description: "Discover the beauty of skagway's waters aboard the elegant Infinity Seas, a 2000 catamaran yacht featuring spacious accommodation for 8 guests overnight or 8 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/skagway-infinity-seas-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/skagway-infinity-seas-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/skagway-infinity-seas-3.jpg"],
+    description:
+      "Discover the beauty of skagway's waters aboard the elegant Infinity Seas, a 2000 catamaran yacht featuring spacious accommodation for 8 guests overnight or 8 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/skagway-infinity-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/skagway-infinity-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/skagway-infinity-seas-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 5983,
@@ -86,8 +91,14 @@ export const skagwayunitedStatesalaskaYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Chef Onboard", "Full-Service Catering"],
-    description: "Sovereign Waters combines performance and luxury in a stunning 31m gulet yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/skagway-sovereign-waters-1.jpg", "https://paragon-trails-yacht-images.com/gulet/skagway-sovereign-waters-2.jpg", "https://paragon-trails-yacht-images.com/gulet/skagway-sovereign-waters-3.jpg", "https://paragon-trails-yacht-images.com/gulet/skagway-sovereign-waters-4.jpg"],
+    description:
+      "Sovereign Waters combines performance and luxury in a stunning 31m gulet yacht. With its professional crew of 3, you'll experience the ultimate sailing vacation.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/skagway-sovereign-waters-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/skagway-sovereign-waters-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/skagway-sovereign-waters-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/skagway-sovereign-waters-4.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 5109,
@@ -96,7 +107,12 @@ export const skagwayunitedStatesalaskaYachts: Yacht[] = [
       includes: ["Wi-Fi"],
       excludes: ["Wi-Fi", "Outdoor Shower", "Laundry Service", "Kitchen"],
     },
-    safetyFeatures: ["Radar", "Life Rafts", "Navigation Lights", "Fire Extinguishers"],
+    safetyFeatures: [
+      "Radar",
+      "Life Rafts",
+      "Navigation Lights",
+      "Fire Extinguishers",
+    ],
     accessibilityFeatures: ["Wide Doorways"],
   },
   {
@@ -135,8 +151,15 @@ export const skagwayunitedStatesalaskaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: false,
     cateringOptions: ["Provisioning Only"],
-    description: "Experience luxury and comfort aboard the Wave Dancer, a stunning 14m catamaran yacht available for charter in skagway. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/catamaran/skagway-wave-dancer-1.jpg", "https://paragon-trails-yacht-images.com/catamaran/skagway-wave-dancer-2.jpg", "https://paragon-trails-yacht-images.com/catamaran/skagway-wave-dancer-3.jpg", "https://paragon-trails-yacht-images.com/catamaran/skagway-wave-dancer-4.jpg", "https://paragon-trails-yacht-images.com/catamaran/skagway-wave-dancer-5.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Wave Dancer, a stunning 14m catamaran yacht available for charter in skagway. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/catamaran/skagway-wave-dancer-1.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/skagway-wave-dancer-2.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/skagway-wave-dancer-3.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/skagway-wave-dancer-4.jpg",
+      "https://paragon-trails-yacht-images.com/catamaran/skagway-wave-dancer-5.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 7262,
@@ -171,7 +194,15 @@ export const skagwayunitedStatesalaskaYachts: Yacht[] = [
       crew: 13,
       bathrooms: 9,
     },
-    amenities: ["Air Conditioning", "Bar", "Dining Area", "Sun Deck", "Outdoor Shower", "Kitchen", "BBQ Grill"],
+    amenities: [
+      "Air Conditioning",
+      "Bar",
+      "Dining Area",
+      "Sun Deck",
+      "Outdoor Shower",
+      "Kitchen",
+      "BBQ Grill",
+    ],
     entertainment: ["Projector"],
     waterToys: ["Floating Island", "Wakeboard", "Jet Ski"],
     location: {
@@ -184,17 +215,35 @@ export const skagwayunitedStatesalaskaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: false,
     cateringOptions: ["Provisioning Only", "BBQ Onboard"],
-    description: "The Aquamarine is a magnificent super yacht built by Amels offering exceptional amenities and impeccable service for an unforgettable sailing experience in skagway.",
-    images: ["https://paragon-trails-yacht-images.com/super/skagway-aquamarine-1.jpg", "https://paragon-trails-yacht-images.com/super/skagway-aquamarine-2.jpg", "https://paragon-trails-yacht-images.com/super/skagway-aquamarine-3.jpg"],
+    description:
+      "The Aquamarine is a magnificent super yacht built by Amels offering exceptional amenities and impeccable service for an unforgettable sailing experience in skagway.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/skagway-aquamarine-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/skagway-aquamarine-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/skagway-aquamarine-3.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 175616,
       perWeek: 1044915.2,
       currency: "USD",
       includes: ["Air Conditioning"],
-      excludes: ["Air Conditioning", "Bar", "Dining Area", "Sun Deck", "Outdoor Shower", "Kitchen", "BBQ Grill"],
+      excludes: [
+        "Air Conditioning",
+        "Bar",
+        "Dining Area",
+        "Sun Deck",
+        "Outdoor Shower",
+        "Kitchen",
+        "BBQ Grill",
+      ],
     },
-    safetyFeatures: ["Searchlight", "First Aid Kit", "Navigation Lights", "Flares"],
+    safetyFeatures: [
+      "Searchlight",
+      "First Aid Kit",
+      "Navigation Lights",
+      "Flares",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -220,7 +269,14 @@ export const skagwayunitedStatesalaskaYachts: Yacht[] = [
       crew: 2,
       bathrooms: 4,
     },
-    amenities: ["Jacuzzi", "Hot Tub", "Air Conditioning", "Sun Deck", "Kitchen", "Outdoor Shower"],
+    amenities: [
+      "Jacuzzi",
+      "Hot Tub",
+      "Air Conditioning",
+      "Sun Deck",
+      "Kitchen",
+      "Outdoor Shower",
+    ],
     entertainment: ["Board Games", "Satellite TV"],
     waterToys: ["Jet Ski", "Snorkeling Gear"],
     location: {
@@ -233,17 +289,35 @@ export const skagwayunitedStatesalaskaYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["À La Carte"],
-    description: "Charter the impressive Crystal Blue in skagway and enjoy its 6 luxury amenities and 2 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/skagway-crystal-blue-1.jpg", "https://paragon-trails-yacht-images.com/sailing/skagway-crystal-blue-2.jpg", "https://paragon-trails-yacht-images.com/sailing/skagway-crystal-blue-3.jpg", "https://paragon-trails-yacht-images.com/sailing/skagway-crystal-blue-4.jpg"],
+    description:
+      "Charter the impressive Crystal Blue in skagway and enjoy its 6 luxury amenities and 2 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/skagway-crystal-blue-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/skagway-crystal-blue-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/skagway-crystal-blue-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/skagway-crystal-blue-4.jpg",
+    ],
     featured: true,
     pricing: {
       perDay: 6020,
       perWeek: 35819,
       currency: "USD",
       includes: ["Jacuzzi", "Hot Tub"],
-      excludes: ["Jacuzzi", "Hot Tub", "Air Conditioning", "Sun Deck", "Kitchen", "Outdoor Shower"],
+      excludes: [
+        "Jacuzzi",
+        "Hot Tub",
+        "Air Conditioning",
+        "Sun Deck",
+        "Kitchen",
+        "Outdoor Shower",
+      ],
     },
-    safetyFeatures: ["Emergency Beacon", "GPS Tracking", "Flares", "Navigation Lights"],
+    safetyFeatures: [
+      "Emergency Beacon",
+      "GPS Tracking",
+      "Flares",
+      "Navigation Lights",
+    ],
     accessibilityFeatures: ["Wide Doorways"],
   },
   {
@@ -282,8 +356,13 @@ export const skagwayunitedStatesalaskaYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Picnic-Style"],
-    description: "Experience luxury and comfort aboard the Wave Dancer, a stunning 15m sailing yacht available for charter in skagway. Perfect for day trips or extended voyages.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/skagway-wave-dancer-1.jpg", "https://paragon-trails-yacht-images.com/sailing/skagway-wave-dancer-2.jpg", "https://paragon-trails-yacht-images.com/sailing/skagway-wave-dancer-3.jpg"],
+    description:
+      "Experience luxury and comfort aboard the Wave Dancer, a stunning 15m sailing yacht available for charter in skagway. Perfect for day trips or extended voyages.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/skagway-wave-dancer-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/skagway-wave-dancer-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/skagway-wave-dancer-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 6649,
@@ -294,5 +373,5 @@ export const skagwayunitedStatesalaskaYachts: Yacht[] = [
     },
     safetyFeatures: ["EPIRB", "Fog Horn", "Life Rafts", "Flares"],
     accessibilityFeatures: ["Handrails", "Accessible Bathroom"],
-  }
+  },
 ];

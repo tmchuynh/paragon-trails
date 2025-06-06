@@ -24,7 +24,13 @@ export const sanJuanpuertoRicocaribbeanYachts: Yacht[] = [
       crew: 13,
       bathrooms: 11,
     },
-    amenities: ["Kitchen", "Sun Deck", "Tender Garage", "Air Conditioning", "Bar"],
+    amenities: [
+      "Kitchen",
+      "Sun Deck",
+      "Tender Garage",
+      "Air Conditioning",
+      "Bar",
+    ],
     entertainment: ["Satellite TV"],
     waterToys: ["Windsurf", "Water Skis"],
     location: {
@@ -37,8 +43,14 @@ export const sanJuanpuertoRicocaribbeanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Provisioning Only"],
-    description: "The Aquamarine is a magnificent super yacht built by Sunseeker offering exceptional amenities and impeccable service for an unforgettable sailing experience in san-juan.",
-    images: ["https://paragon-trails-yacht-images.com/super/san-juan-aquamarine-1.jpg", "https://paragon-trails-yacht-images.com/super/san-juan-aquamarine-2.jpg", "https://paragon-trails-yacht-images.com/super/san-juan-aquamarine-3.jpg", "https://paragon-trails-yacht-images.com/super/san-juan-aquamarine-4.jpg"],
+    description:
+      "The Aquamarine is a magnificent super yacht built by Sunseeker offering exceptional amenities and impeccable service for an unforgettable sailing experience in san-juan.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/san-juan-aquamarine-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/san-juan-aquamarine-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/san-juan-aquamarine-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/san-juan-aquamarine-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 143938,
@@ -47,7 +59,12 @@ export const sanJuanpuertoRicocaribbeanYachts: Yacht[] = [
       includes: ["Kitchen", "Sun Deck"],
       excludes: ["Bar"],
     },
-    safetyFeatures: ["Navigation Lights", "Searchlight", "Emergency Steering", "Fire Extinguishers"],
+    safetyFeatures: [
+      "Navigation Lights",
+      "Searchlight",
+      "Emergency Steering",
+      "Fire Extinguishers",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -86,8 +103,15 @@ export const sanJuanpuertoRicocaribbeanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["À La Carte"],
-    description: "Charter the impressive Coastal Serenity in san-juan and enjoy its 3 luxury amenities and 3 water toys for an exceptional yachting experience.",
-    images: ["https://paragon-trails-yacht-images.com/super/san-juan-coastal-serenity-1.jpg", "https://paragon-trails-yacht-images.com/super/san-juan-coastal-serenity-2.jpg", "https://paragon-trails-yacht-images.com/super/san-juan-coastal-serenity-3.jpg", "https://paragon-trails-yacht-images.com/super/san-juan-coastal-serenity-4.jpg", "https://paragon-trails-yacht-images.com/super/san-juan-coastal-serenity-5.jpg"],
+    description:
+      "Charter the impressive Coastal Serenity in san-juan and enjoy its 3 luxury amenities and 3 water toys for an exceptional yachting experience.",
+    images: [
+      "https://paragon-trails-yacht-images.com/super/san-juan-coastal-serenity-1.jpg",
+      "https://paragon-trails-yacht-images.com/super/san-juan-coastal-serenity-2.jpg",
+      "https://paragon-trails-yacht-images.com/super/san-juan-coastal-serenity-3.jpg",
+      "https://paragon-trails-yacht-images.com/super/san-juan-coastal-serenity-4.jpg",
+      "https://paragon-trails-yacht-images.com/super/san-juan-coastal-serenity-5.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 134614,
@@ -122,9 +146,21 @@ export const sanJuanpuertoRicocaribbeanYachts: Yacht[] = [
       crew: 3,
       bathrooms: 5,
     },
-    amenities: ["Air Conditioning", "Swim Platform", "BBQ Grill", "Kitchen", "Sauna", "Sun Deck"],
+    amenities: [
+      "Air Conditioning",
+      "Swim Platform",
+      "BBQ Grill",
+      "Kitchen",
+      "Sauna",
+      "Sun Deck",
+    ],
     entertainment: ["Streaming Services"],
-    waterToys: ["Snorkeling Gear", "Wakeboard", "Floating Island", "Fishing Equipment"],
+    waterToys: [
+      "Snorkeling Gear",
+      "Wakeboard",
+      "Floating Island",
+      "Fishing Equipment",
+    ],
     location: {
       city: "San-juan",
       country: "Puerto Rico",
@@ -135,8 +171,14 @@ export const sanJuanpuertoRicocaribbeanYachts: Yacht[] = [
     charterType: "day",
     crewIncluded: true,
     cateringOptions: ["Full-Service Catering", "Picnic-Style"],
-    description: "The Neptune's Glory is a magnificent gulet yacht built by Ferretti offering exceptional amenities and impeccable service for an unforgettable sailing experience in san-juan.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/san-juan-neptune's-glory-1.jpg", "https://paragon-trails-yacht-images.com/gulet/san-juan-neptune's-glory-2.jpg", "https://paragon-trails-yacht-images.com/gulet/san-juan-neptune's-glory-3.jpg", "https://paragon-trails-yacht-images.com/gulet/san-juan-neptune's-glory-4.jpg"],
+    description:
+      "The Neptune's Glory is a magnificent gulet yacht built by Ferretti offering exceptional amenities and impeccable service for an unforgettable sailing experience in san-juan.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/san-juan-neptune's-glory-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/san-juan-neptune's-glory-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/san-juan-neptune's-glory-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/san-juan-neptune's-glory-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 7186,
@@ -145,7 +187,13 @@ export const sanJuanpuertoRicocaribbeanYachts: Yacht[] = [
       includes: ["Air Conditioning", "Swim Platform"],
       excludes: ["Sun Deck"],
     },
-    safetyFeatures: ["First Aid Kit", "Emergency Beacon", "Searchlight", "Life Jackets", "GPS Tracking"],
+    safetyFeatures: [
+      "First Aid Kit",
+      "Emergency Beacon",
+      "Searchlight",
+      "Life Jackets",
+      "GPS Tracking",
+    ],
     accessibilityFeatures: ["Wheelchair Ramp", "Low Thresholds"],
   },
   {
@@ -171,7 +219,13 @@ export const sanJuanpuertoRicocaribbeanYachts: Yacht[] = [
       crew: 5,
       bathrooms: 6,
     },
-    amenities: ["Dining Area", "Swim Platform", "Bar", "Air Conditioning", "Laundry Service"],
+    amenities: [
+      "Dining Area",
+      "Swim Platform",
+      "Bar",
+      "Air Conditioning",
+      "Laundry Service",
+    ],
     entertainment: ["DJ Equipment", "Media Library"],
     waterToys: ["Fishing Equipment", "Kayaks", "Towable Tubes"],
     location: {
@@ -184,17 +238,35 @@ export const sanJuanpuertoRicocaribbeanYachts: Yacht[] = [
     charterType: "shared",
     crewIncluded: true,
     cateringOptions: ["Self-Catering", "Local Cuisine Packages"],
-    description: "Discover the beauty of san-juan's waters aboard the elegant Poseidon's Pride, a 2018 gulet yacht featuring spacious accommodation for 9 guests overnight or 19 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/gulet/san-juan-poseidon's-pride-1.jpg", "https://paragon-trails-yacht-images.com/gulet/san-juan-poseidon's-pride-2.jpg", "https://paragon-trails-yacht-images.com/gulet/san-juan-poseidon's-pride-3.jpg", "https://paragon-trails-yacht-images.com/gulet/san-juan-poseidon's-pride-4.jpg"],
+    description:
+      "Discover the beauty of san-juan's waters aboard the elegant Poseidon's Pride, a 2018 gulet yacht featuring spacious accommodation for 9 guests overnight or 19 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/gulet/san-juan-poseidon's-pride-1.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/san-juan-poseidon's-pride-2.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/san-juan-poseidon's-pride-3.jpg",
+      "https://paragon-trails-yacht-images.com/gulet/san-juan-poseidon's-pride-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8116,
       perWeek: 48290.2,
       currency: "USD",
       includes: ["Dining Area", "Swim Platform"],
-      excludes: ["Dining Area", "Swim Platform", "Bar", "Air Conditioning", "Laundry Service"],
+      excludes: [
+        "Dining Area",
+        "Swim Platform",
+        "Bar",
+        "Air Conditioning",
+        "Laundry Service",
+      ],
     },
-    safetyFeatures: ["Radar", "Fog Horn", "Life Rafts", "EPIRB", "Emergency Beacon"],
+    safetyFeatures: [
+      "Radar",
+      "Fog Horn",
+      "Life Rafts",
+      "EPIRB",
+      "Emergency Beacon",
+    ],
     accessibilityFeatures: [],
   },
   {
@@ -220,7 +292,13 @@ export const sanJuanpuertoRicocaribbeanYachts: Yacht[] = [
       crew: 4,
       bathrooms: 5,
     },
-    amenities: ["Tender Garage", "Laundry Service", "Sun Deck", "Outdoor Shower", "Wi-Fi"],
+    amenities: [
+      "Tender Garage",
+      "Laundry Service",
+      "Sun Deck",
+      "Outdoor Shower",
+      "Wi-Fi",
+    ],
     entertainment: ["DJ Equipment", "Bluetooth Speakers", "Game Console"],
     waterToys: ["Floating Island", "Seabob"],
     location: {
@@ -233,8 +311,13 @@ export const sanJuanpuertoRicocaribbeanYachts: Yacht[] = [
     charterType: "weekly",
     crewIncluded: true,
     cateringOptions: ["À La Carte", "Picnic-Style"],
-    description: "Discover the beauty of san-juan's waters aboard the elegant Euphoria, a 2013 motor yacht featuring spacious accommodation for 8 guests overnight or 11 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/motor/san-juan-euphoria-1.jpg", "https://paragon-trails-yacht-images.com/motor/san-juan-euphoria-2.jpg", "https://paragon-trails-yacht-images.com/motor/san-juan-euphoria-3.jpg"],
+    description:
+      "Discover the beauty of san-juan's waters aboard the elegant Euphoria, a 2013 motor yacht featuring spacious accommodation for 8 guests overnight or 11 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/motor/san-juan-euphoria-1.jpg",
+      "https://paragon-trails-yacht-images.com/motor/san-juan-euphoria-2.jpg",
+      "https://paragon-trails-yacht-images.com/motor/san-juan-euphoria-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 13589,
@@ -269,7 +352,13 @@ export const sanJuanpuertoRicocaribbeanYachts: Yacht[] = [
       crew: 9,
       bathrooms: 4,
     },
-    amenities: ["Swim Platform", "Stabilizers", "Bar", "Laundry Service", "Indoor Lounge"],
+    amenities: [
+      "Swim Platform",
+      "Stabilizers",
+      "Bar",
+      "Laundry Service",
+      "Indoor Lounge",
+    ],
     entertainment: ["Media Library", "Onboard Cinema", "Karaoke System"],
     waterToys: ["Fishing Equipment", "E-Foil", "Inflatable Slide"],
     location: {
@@ -282,8 +371,13 @@ export const sanJuanpuertoRicocaribbeanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["BBQ Onboard"],
-    description: "Discover the beauty of san-juan's waters aboard the elegant Indigo Seas, a 2009 mega yacht featuring spacious accommodation for 8 guests overnight or 18 for day charters.",
-    images: ["https://paragon-trails-yacht-images.com/mega/san-juan-indigo-seas-1.jpg", "https://paragon-trails-yacht-images.com/mega/san-juan-indigo-seas-2.jpg", "https://paragon-trails-yacht-images.com/mega/san-juan-indigo-seas-3.jpg"],
+    description:
+      "Discover the beauty of san-juan's waters aboard the elegant Indigo Seas, a 2009 mega yacht featuring spacious accommodation for 8 guests overnight or 18 for day charters.",
+    images: [
+      "https://paragon-trails-yacht-images.com/mega/san-juan-indigo-seas-1.jpg",
+      "https://paragon-trails-yacht-images.com/mega/san-juan-indigo-seas-2.jpg",
+      "https://paragon-trails-yacht-images.com/mega/san-juan-indigo-seas-3.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 41776,
@@ -318,7 +412,13 @@ export const sanJuanpuertoRicocaribbeanYachts: Yacht[] = [
       crew: 1,
       bathrooms: 5,
     },
-    amenities: ["Indoor Lounge", "Jacuzzi", "Stabilizers", "Wi-Fi", "Dining Area"],
+    amenities: [
+      "Indoor Lounge",
+      "Jacuzzi",
+      "Stabilizers",
+      "Wi-Fi",
+      "Dining Area",
+    ],
     entertainment: ["Surround Sound System", "Satellite TV"],
     waterToys: ["Seabob", "E-Foil", "Towable Tubes", "Floating Island"],
     location: {
@@ -331,8 +431,14 @@ export const sanJuanpuertoRicocaribbeanYachts: Yacht[] = [
     charterType: "private",
     crewIncluded: true,
     cateringOptions: ["Local Cuisine Packages", "Provisioning Only"],
-    description: "The Pearl Harbor is a magnificent sailing yacht built by Lagoon offering exceptional amenities and impeccable service for an unforgettable sailing experience in san-juan.",
-    images: ["https://paragon-trails-yacht-images.com/sailing/san-juan-pearl-harbor-1.jpg", "https://paragon-trails-yacht-images.com/sailing/san-juan-pearl-harbor-2.jpg", "https://paragon-trails-yacht-images.com/sailing/san-juan-pearl-harbor-3.jpg", "https://paragon-trails-yacht-images.com/sailing/san-juan-pearl-harbor-4.jpg"],
+    description:
+      "The Pearl Harbor is a magnificent sailing yacht built by Lagoon offering exceptional amenities and impeccable service for an unforgettable sailing experience in san-juan.",
+    images: [
+      "https://paragon-trails-yacht-images.com/sailing/san-juan-pearl-harbor-1.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/san-juan-pearl-harbor-2.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/san-juan-pearl-harbor-3.jpg",
+      "https://paragon-trails-yacht-images.com/sailing/san-juan-pearl-harbor-4.jpg",
+    ],
     featured: false,
     pricing: {
       perDay: 8419,
@@ -341,7 +447,13 @@ export const sanJuanpuertoRicocaribbeanYachts: Yacht[] = [
       includes: ["Indoor Lounge", "Jacuzzi", "Stabilizers"],
       excludes: ["Dining Area"],
     },
-    safetyFeatures: ["Searchlight", "GPS Tracking", "Fire Extinguishers", "Fog Horn", "Navigation Lights"],
+    safetyFeatures: [
+      "Searchlight",
+      "GPS Tracking",
+      "Fire Extinguishers",
+      "Fog Horn",
+      "Navigation Lights",
+    ],
     accessibilityFeatures: ["Elevator", "Wheelchair Ramp"],
-  }
+  },
 ];
