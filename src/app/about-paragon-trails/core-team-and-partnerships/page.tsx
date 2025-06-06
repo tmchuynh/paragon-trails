@@ -241,38 +241,66 @@ export default function CoreTeamAndPartnerships() {
             our commitment to excellence, innovation, and the positive impact we
             strive to make in the world of luxury travel.
           </p>
-          <h3 className="mb-2 font-semibold text-xl">Recent Awards</h3>
-          <p className="mb-4">
-            Our awards and recognitions are a testament to our commitment to
-            excellence, sustainability, and innovation in luxury travel. Here
-            are some of our most recent accolades:
-          </p>
-          <p className="mb-4">
-            We are honored to have received numerous awards and recognitions
-            that highlight our commitment to excellence, sustainability, and
-            innovation in luxury travel. These accolades reflect our dedication
-            to creating meaningful, transformative experiences for our travelers
-            while respecting the cultures and environments we engage with.
-          </p>
-          <h3 className="mb-2 font-semibold text-xl">Notable Recognitions</h3>
-          <p className="mb-4">
-            Our commitment to excellence and sustainability has been recognized
-            by leading travel publications and organizations worldwide. Here are
-            some of our most notable accolades:
-          </p>
 
-          <ul className="space-y-3 pl-4 list-disc list-inside">
-            <li>Condé Nast Traveler "Global Vision Award" – 2022</li>
-            <li>National Geographic Legacy Travel Partner – Since 2015</li>
-            <li>UN Global Compact Member Organization</li>
-            <li>
-              GSTC Preferred Partner – Certified in Sustainable Travel Practices
-            </li>
-            <li>
-              Travel + Leisure "World's Best" Luxury Agency List – 2019, 2021,
-              2023
-            </li>
-          </ul>
+          <h3 className="mb-4 font-semibold text-xl">Recent Awards</h3>
+          <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-12">
+            {awards.map((award, index) => (
+              <Card
+                key={index}
+                className="flex flex-col border rounded-lg h-full overflow-hidden"
+              >
+                <CardContent className="flex flex-col p-6 h-full">
+                  <div className="flex justify-between items-center mb-4">
+                    <div className="font-medium text-sm">
+                      {award.years.map((year, i) => (
+                        <span key={i}>
+                          {year}
+                          {i < award.years.length - 1 ? ", " : ""}
+                        </span>
+                      ))}
+                    </div>
+                    <Badge variant="outline">Award</Badge>
+                  </div>
+
+                  <h4 className="mb-3 font-semibold text-lg">{award.title}</h4>
+                  <p className="text-muted-foreground text-sm">
+                    {award.description}
+                  </p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+
+          <h3 className="mb-4 font-semibold text-xl">Notable Recognitions</h3>
+          <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-8">
+            {notableRecognitions.map((recognition, index) => (
+              <Card
+                key={index}
+                className="flex flex-col border rounded-lg h-full overflow-hidden"
+              >
+                <CardContent className="flex flex-col p-6 h-full">
+                  <div className="flex justify-between items-center mb-4">
+                    <div className="font-medium text-sm">
+                      {recognition.years.map((year, i) => (
+                        <span key={i}>
+                          {year}
+                          {i < recognition.years.length - 1 ? ", " : ""}
+                        </span>
+                      ))}
+                    </div>
+                    <Badge variant="outline">Recognition</Badge>
+                  </div>
+
+                  <h4 className="mb-3 font-semibold text-lg">
+                    {recognition.label}
+                  </h4>
+                  <p className="text-muted-foreground text-sm">
+                    {recognition.description}
+                  </p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
         </section>
 
         {/* Call to Action Section */}
