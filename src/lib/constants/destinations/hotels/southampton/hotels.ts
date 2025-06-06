@@ -7,7 +7,13 @@ export const southamptonHotels: Hotel[] = [
     address: "59 Upper Church Avenue",
     rating: 3,
     accommodationType: "Boutique Hotel",
-    amenities: ["Fitness Center", "Laundry Service", "Conference Room", "Swimming Pool", "Spa"],
+    amenities: [
+      "Fitness Center",
+      "Laundry Service",
+      "Conference Room",
+      "Swimming Pool",
+      "Spa",
+    ],
     checkInTime: "13:00",
     checkOutTime: "10:00",
     roomsAvailable: 11,
@@ -18,7 +24,8 @@ export const southamptonHotels: Hotel[] = [
       contactPhone: "+242 268-970-9988",
     },
     policies: {
-      cancellation: "No cancellation fee if rebooking within 30 days; otherwise, fees apply.",
+      cancellation:
+        "No cancellation fee if rebooking within 30 days; otherwise, fees apply.",
       smoking: "Not Allowed",
     },
     isPopular: false,
@@ -29,7 +36,14 @@ export const southamptonHotels: Hotel[] = [
     address: "186 London Street",
     rating: 3,
     accommodationType: "Glamping Resort",
-    amenities: ["Conference Room", "Parking", "Pet Friendly", "Free Wi-Fi", "Airport Shuttle", "Non-Smoking Rooms"],
+    amenities: [
+      "Conference Room",
+      "Parking",
+      "Pet Friendly",
+      "Free Wi-Fi",
+      "Airport Shuttle",
+      "Non-Smoking Rooms",
+    ],
     checkInTime: "13:00",
     checkOutTime: "11:00",
     roomsAvailable: 42,
@@ -40,7 +54,8 @@ export const southamptonHotels: Hotel[] = [
       contactPhone: "+287 287-584-4248",
     },
     policies: {
-      cancellation: "Free cancellation within 24 hours of booking; after that, 25% fee applies.",
+      cancellation:
+        "Free cancellation within 24 hours of booking; after that, 25% fee applies.",
       smoking: "Designated Areas",
     },
     isPopular: false,
@@ -51,7 +66,13 @@ export const southamptonHotels: Hotel[] = [
     address: "176 Queen Way",
     rating: 4,
     accommodationType: "Luxury Lodge",
-    amenities: ["Spa", "Fitness Center", "Business Center", "Swimming Pool", "Airport Shuttle"],
+    amenities: [
+      "Spa",
+      "Fitness Center",
+      "Business Center",
+      "Swimming Pool",
+      "Airport Shuttle",
+    ],
     accessibilityFeatures: ["Lowered Light Switches", "Accessible Bathroom"],
     checkInTime: "13:00",
     checkOutTime: "12:00",
@@ -63,7 +84,8 @@ export const southamptonHotels: Hotel[] = [
       contactPhone: "+570 304-181-2195",
     },
     policies: {
-      cancellation: "Free cancellation up to 7 days before arrival; no refund after that.",
+      cancellation:
+        "Free cancellation up to 7 days before arrival; no refund after that.",
       smoking: "Allowed",
     },
     isPopular: false,
@@ -75,7 +97,11 @@ export const southamptonHotels: Hotel[] = [
     rating: 3,
     accommodationType: "Bed and Breakfast",
     amenities: ["Restaurant", "Bar", "Swimming Pool", "Laundry Service", "Spa"],
-    accessibilityFeatures: ["Sign Language Interpretation", "Hearing Support", "Visual Alarm"],
+    accessibilityFeatures: [
+      "Sign Language Interpretation",
+      "Hearing Support",
+      "Visual Alarm",
+    ],
     checkInTime: "16:00",
     checkOutTime: "11:00",
     roomsAvailable: 58,
@@ -97,7 +123,15 @@ export const southamptonHotels: Hotel[] = [
     address: "158 London Avenue",
     rating: 3,
     accommodationType: "Boutique Resort",
-    amenities: ["Non-Smoking Rooms", "Airport Shuttle", "Fitness Center", "Spa", "24-Hour Front Desk", "Bar", "Parking"],
+    amenities: [
+      "Non-Smoking Rooms",
+      "Airport Shuttle",
+      "Fitness Center",
+      "Spa",
+      "24-Hour Front Desk",
+      "Bar",
+      "Parking",
+    ],
     accessibilityFeatures: ["Wheelchair Accessible", "Visual Aids"],
     checkInTime: "15:00",
     checkOutTime: "11:00",
@@ -109,7 +143,8 @@ export const southamptonHotels: Hotel[] = [
       contactPhone: "+281 510-771-9177",
     },
     policies: {
-      cancellation: "Free cancellation up to 48 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 48 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Allowed",
     },
     isPopular: false,
@@ -120,7 +155,15 @@ export const southamptonHotels: Hotel[] = [
     address: "34 London Drive",
     rating: 3,
     accommodationType: "Glamping Resort",
-    amenities: ["Laundry Service", "24-Hour Front Desk", "Restaurant", "Conference Room", "Parking", "Airport Shuttle", "Pet Friendly"],
+    amenities: [
+      "Laundry Service",
+      "24-Hour Front Desk",
+      "Restaurant",
+      "Conference Room",
+      "Parking",
+      "Airport Shuttle",
+      "Pet Friendly",
+    ],
     accessibilityFeatures: ["Lowered Light Switches"],
     checkInTime: "15:00",
     checkOutTime: "11:00",
@@ -132,9 +175,10 @@ export const southamptonHotels: Hotel[] = [
       contactPhone: "+284 889-599-1048",
     },
     policies: {
-      cancellation: "Free cancellation up to 72 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 72 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Allowed",
     },
     isPopular: false,
-  }
+  },
 ];

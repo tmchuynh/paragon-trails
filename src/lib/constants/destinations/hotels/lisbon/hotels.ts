@@ -7,7 +7,17 @@ export const lisbonHotels: Hotel[] = [
     address: "263 Queen Blvd",
     rating: 3,
     accommodationType: "Luxury Hotel",
-    amenities: ["Room Service", "Laundry Service", "Free Wi-Fi", "24-Hour Front Desk", "Restaurant", "Swimming Pool", "Airport Shuttle", "Bar", "Conference Room"],
+    amenities: [
+      "Room Service",
+      "Laundry Service",
+      "Free Wi-Fi",
+      "24-Hour Front Desk",
+      "Restaurant",
+      "Swimming Pool",
+      "Airport Shuttle",
+      "Bar",
+      "Conference Room",
+    ],
     checkInTime: "13:00",
     checkOutTime: "11:00",
     roomsAvailable: 32,
@@ -18,7 +28,8 @@ export const lisbonHotels: Hotel[] = [
       contactPhone: "+840 554-428-8940",
     },
     policies: {
-      cancellation: "Partial refund available if cancelled more than 5 days in advance.",
+      cancellation:
+        "Partial refund available if cancelled more than 5 days in advance.",
       smoking: "Designated Areas",
     },
     isPopular: true,
@@ -29,7 +40,13 @@ export const lisbonHotels: Hotel[] = [
     address: "41 Park Avenue",
     rating: 3,
     accommodationType: "Serviced Apartment",
-    amenities: ["Fitness Center", "Free Wi-Fi", "Pet Friendly", "Bar", "Non-Smoking Rooms"],
+    amenities: [
+      "Fitness Center",
+      "Free Wi-Fi",
+      "Pet Friendly",
+      "Bar",
+      "Non-Smoking Rooms",
+    ],
     accessibilityFeatures: ["Visual Aids"],
     checkInTime: "14:00",
     checkOutTime: "11:00",
@@ -41,7 +58,8 @@ export const lisbonHotels: Hotel[] = [
       contactPhone: "+663 929-636-4537",
     },
     policies: {
-      cancellation: "Flexible cancellation policy: free cancellation up to 12 hours before check-in.",
+      cancellation:
+        "Flexible cancellation policy: free cancellation up to 12 hours before check-in.",
       smoking: "Not Allowed",
     },
     isPopular: false,
@@ -52,7 +70,16 @@ export const lisbonHotels: Hotel[] = [
     address: "116 Broadway Drive",
     rating: 4,
     accommodationType: "Guesthouse",
-    amenities: ["Free Wi-Fi", "Room Service", "24-Hour Front Desk", "Spa", "Non-Smoking Rooms", "Airport Shuttle", "Bar", "Laundry Service"],
+    amenities: [
+      "Free Wi-Fi",
+      "Room Service",
+      "24-Hour Front Desk",
+      "Spa",
+      "Non-Smoking Rooms",
+      "Airport Shuttle",
+      "Bar",
+      "Laundry Service",
+    ],
     accessibilityFeatures: ["Braille Signage", "Accessible Bathroom"],
     checkInTime: "13:00",
     checkOutTime: "11:00",
@@ -68,5 +95,5 @@ export const lisbonHotels: Hotel[] = [
       smoking: "Allowed",
     },
     isPopular: false,
-  }
+  },
 ];

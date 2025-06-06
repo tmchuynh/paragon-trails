@@ -7,7 +7,13 @@ export const seattleHotels: Hotel[] = [
     address: "66 Elm Ct",
     rating: 4,
     accommodationType: "Luxury Hotel",
-    amenities: ["Free Wi-Fi", "Laundry Service", "Non-Smoking Rooms", "Conference Room", "Bar"],
+    amenities: [
+      "Free Wi-Fi",
+      "Laundry Service",
+      "Non-Smoking Rooms",
+      "Conference Room",
+      "Bar",
+    ],
     accessibilityFeatures: ["Wheelchair Accessible", "Accessible Parking"],
     checkInTime: "14:00",
     checkOutTime: "10:00",
@@ -19,7 +25,8 @@ export const seattleHotels: Hotel[] = [
       contactPhone: "+566 197-915-6504",
     },
     policies: {
-      cancellation: "Flexible cancellation policy: free cancellation up to 12 hours before check-in.",
+      cancellation:
+        "Flexible cancellation policy: free cancellation up to 12 hours before check-in.",
       smoking: "Not Allowed",
     },
     isPopular: true,
@@ -30,7 +37,17 @@ export const seattleHotels: Hotel[] = [
     address: "166 N Broadway Trl",
     rating: 4,
     accommodationType: "Boutique Inn",
-    amenities: ["Bar", "Airport Shuttle", "Business Center", "Pet Friendly", "Swimming Pool", "24-Hour Front Desk", "Non-Smoking Rooms", "Parking", "Free Wi-Fi"],
+    amenities: [
+      "Bar",
+      "Airport Shuttle",
+      "Business Center",
+      "Pet Friendly",
+      "Swimming Pool",
+      "24-Hour Front Desk",
+      "Non-Smoking Rooms",
+      "Parking",
+      "Free Wi-Fi",
+    ],
     checkInTime: "16:00",
     checkOutTime: "10:00",
     roomsAvailable: 31,
@@ -41,7 +58,8 @@ export const seattleHotels: Hotel[] = [
       contactPhone: "+716 231-174-4521",
     },
     policies: {
-      cancellation: "Flexible cancellation policy: free cancellation up to 12 hours before check-in.",
+      cancellation:
+        "Flexible cancellation policy: free cancellation up to 12 hours before check-in.",
       smoking: "Allowed",
     },
     isPopular: false,
@@ -52,8 +70,19 @@ export const seattleHotels: Hotel[] = [
     address: "65 NE Cedar Pl",
     rating: 3,
     accommodationType: "Hostel",
-    amenities: ["Free Wi-Fi", "Non-Smoking Rooms", "24-Hour Front Desk", "Laundry Service", "Swimming Pool", "Fitness Center"],
-    accessibilityFeatures: ["Sign Language Interpretation", "Visual Alarm", "Lowered Light Switches"],
+    amenities: [
+      "Free Wi-Fi",
+      "Non-Smoking Rooms",
+      "24-Hour Front Desk",
+      "Laundry Service",
+      "Swimming Pool",
+      "Fitness Center",
+    ],
+    accessibilityFeatures: [
+      "Sign Language Interpretation",
+      "Visual Alarm",
+      "Lowered Light Switches",
+    ],
     checkInTime: "13:00",
     checkOutTime: "12:00",
     roomsAvailable: 10,
@@ -64,9 +93,10 @@ export const seattleHotels: Hotel[] = [
       contactPhone: "+608 111-242-3425",
     },
     policies: {
-      cancellation: "Free cancellation up to 72 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 72 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Designated Areas",
     },
     isPopular: false,
-  }
+  },
 ];

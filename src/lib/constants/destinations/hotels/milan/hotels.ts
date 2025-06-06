@@ -7,7 +7,14 @@ export const milanHotels: Hotel[] = [
     address: "211 Sunset Road",
     rating: 3,
     accommodationType: "Hostel",
-    amenities: ["Non-Smoking Rooms", "Restaurant", "Free Wi-Fi", "24-Hour Front Desk", "Bar", "Swimming Pool"],
+    amenities: [
+      "Non-Smoking Rooms",
+      "Restaurant",
+      "Free Wi-Fi",
+      "24-Hour Front Desk",
+      "Bar",
+      "Swimming Pool",
+    ],
     checkInTime: "14:00",
     checkOutTime: "10:00",
     roomsAvailable: 20,
@@ -18,7 +25,8 @@ export const milanHotels: Hotel[] = [
       contactPhone: "+334 481-876-2149",
     },
     policies: {
-      cancellation: "Free cancellation up to 24 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 24 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Designated Areas",
     },
     isPopular: false,
@@ -29,8 +37,22 @@ export const milanHotels: Hotel[] = [
     address: "168 Sunset Drive",
     rating: 3,
     accommodationType: "Chalet",
-    amenities: ["Pet Friendly", "Conference Room", "Room Service", "Bar", "Restaurant", "Fitness Center", "Parking", "24-Hour Front Desk", "Airport Shuttle"],
-    accessibilityFeatures: ["Grab Bars", "Sign Language Interpretation", "Assistive Listening Devices"],
+    amenities: [
+      "Pet Friendly",
+      "Conference Room",
+      "Room Service",
+      "Bar",
+      "Restaurant",
+      "Fitness Center",
+      "Parking",
+      "24-Hour Front Desk",
+      "Airport Shuttle",
+    ],
+    accessibilityFeatures: [
+      "Grab Bars",
+      "Sign Language Interpretation",
+      "Assistive Listening Devices",
+    ],
     checkInTime: "16:00",
     checkOutTime: "11:00",
     roomsAvailable: 41,
@@ -41,7 +63,8 @@ export const milanHotels: Hotel[] = [
       contactPhone: "+567 461-667-8382",
     },
     policies: {
-      cancellation: "Flexible cancellation policy: free cancellation up to 12 hours before check-in.",
+      cancellation:
+        "Flexible cancellation policy: free cancellation up to 12 hours before check-in.",
       smoking: "Not Allowed",
     },
     isPopular: true,
@@ -52,7 +75,17 @@ export const milanHotels: Hotel[] = [
     address: "194 West Liberty Street",
     rating: 4,
     accommodationType: "Luxury Hotel",
-    amenities: ["Parking", "24-Hour Front Desk", "Conference Room", "Airport Shuttle", "Bar", "Fitness Center", "Room Service", "Pet Friendly", "Business Center"],
+    amenities: [
+      "Parking",
+      "24-Hour Front Desk",
+      "Conference Room",
+      "Airport Shuttle",
+      "Bar",
+      "Fitness Center",
+      "Room Service",
+      "Pet Friendly",
+      "Business Center",
+    ],
     accessibilityFeatures: ["Accessible Parking", "Grab Bars"],
     checkInTime: "14:00",
     checkOutTime: "11:00",
@@ -64,9 +97,10 @@ export const milanHotels: Hotel[] = [
       contactPhone: "+633 667-907-6872",
     },
     policies: {
-      cancellation: "Cancellation made less than 3 days before check-in will incur a 75% charge.",
+      cancellation:
+        "Cancellation made less than 3 days before check-in will incur a 75% charge.",
       smoking: "Designated Areas",
     },
     isPopular: false,
-  }
+  },
 ];

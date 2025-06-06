@@ -7,7 +7,17 @@ export const hoChiMinhCityHotels: Hotel[] = [
     address: "126 Central Rd",
     rating: 3,
     accommodationType: "Guesthouse",
-    amenities: ["Free Wi-Fi", "Spa", "Bar", "Pet Friendly", "Restaurant", "Business Center", "Non-Smoking Rooms", "Parking", "Airport Shuttle"],
+    amenities: [
+      "Free Wi-Fi",
+      "Spa",
+      "Bar",
+      "Pet Friendly",
+      "Restaurant",
+      "Business Center",
+      "Non-Smoking Rooms",
+      "Parking",
+      "Airport Shuttle",
+    ],
     checkInTime: "15:00",
     checkOutTime: "12:00",
     roomsAvailable: 36,
@@ -18,7 +28,8 @@ export const hoChiMinhCityHotels: Hotel[] = [
       contactPhone: "+164 409-179-3223",
     },
     policies: {
-      cancellation: "Full refund if cancelled within 48 hours of booking, minus service fees.",
+      cancellation:
+        "Full refund if cancelled within 48 hours of booking, minus service fees.",
       smoking: "Designated Areas",
     },
     isPopular: false,
@@ -29,7 +40,16 @@ export const hoChiMinhCityHotels: Hotel[] = [
     address: "271 Xã Broadway Court",
     rating: 4,
     accommodationType: "Resort",
-    amenities: ["Laundry Service", "Restaurant", "Free Wi-Fi", "24-Hour Front Desk", "Business Center", "Conference Room", "Pet Friendly", "Spa"],
+    amenities: [
+      "Laundry Service",
+      "Restaurant",
+      "Free Wi-Fi",
+      "24-Hour Front Desk",
+      "Business Center",
+      "Conference Room",
+      "Pet Friendly",
+      "Spa",
+    ],
     checkInTime: "15:00",
     checkOutTime: "12:00",
     roomsAvailable: 31,
@@ -40,7 +60,8 @@ export const hoChiMinhCityHotels: Hotel[] = [
       contactPhone: "+209 783-507-7582",
     },
     policies: {
-      cancellation: "Free cancellation up to 48 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 48 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Allowed",
     },
     isPopular: false,
@@ -51,7 +72,13 @@ export const hoChiMinhCityHotels: Hotel[] = [
     address: "56 King Terrace",
     rating: 3,
     accommodationType: "Boutique Hotel",
-    amenities: ["Spa", "Parking", "Airport Shuttle", "Non-Smoking Rooms", "Fitness Center"],
+    amenities: [
+      "Spa",
+      "Parking",
+      "Airport Shuttle",
+      "Non-Smoking Rooms",
+      "Fitness Center",
+    ],
     accessibilityFeatures: ["Grab Bars", "Wheelchair Accessible"],
     checkInTime: "15:00",
     checkOutTime: "11:00",
@@ -63,7 +90,8 @@ export const hoChiMinhCityHotels: Hotel[] = [
       contactPhone: "+31 453-424-4647",
     },
     policies: {
-      cancellation: "Free cancellation up to 72 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 72 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Not Allowed",
     },
     isPopular: false,
@@ -74,8 +102,18 @@ export const hoChiMinhCityHotels: Hotel[] = [
     address: "84 Main Avenue",
     rating: 3,
     accommodationType: "Guesthouse",
-    amenities: ["Parking", "Free Wi-Fi", "Airport Shuttle", "Conference Room", "Business Center"],
-    accessibilityFeatures: ["Assistive Listening Devices", "Accessible Shower", "Visual Aids"],
+    amenities: [
+      "Parking",
+      "Free Wi-Fi",
+      "Airport Shuttle",
+      "Conference Room",
+      "Business Center",
+    ],
+    accessibilityFeatures: [
+      "Assistive Listening Devices",
+      "Accessible Shower",
+      "Visual Aids",
+    ],
     checkInTime: "16:00",
     checkOutTime: "12:00",
     roomsAvailable: 57,
@@ -86,7 +124,8 @@ export const hoChiMinhCityHotels: Hotel[] = [
       contactPhone: "+334 353-737-9596",
     },
     policies: {
-      cancellation: "Free cancellation up to 48 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 48 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Designated Areas",
     },
     isPopular: false,
@@ -97,7 +136,15 @@ export const hoChiMinhCityHotels: Hotel[] = [
     address: "228 Quốc lộ Queen Drive",
     rating: 4,
     accommodationType: "Luxury Hotel",
-    amenities: ["Fitness Center", "Laundry Service", "Room Service", "Non-Smoking Rooms", "Pet Friendly", "Spa", "Restaurant"],
+    amenities: [
+      "Fitness Center",
+      "Laundry Service",
+      "Room Service",
+      "Non-Smoking Rooms",
+      "Pet Friendly",
+      "Spa",
+      "Restaurant",
+    ],
     accessibilityFeatures: ["Wheelchair Accessible"],
     checkInTime: "14:00",
     checkOutTime: "10:00",
@@ -109,9 +156,10 @@ export const hoChiMinhCityHotels: Hotel[] = [
       contactPhone: "+574 604-610-4881",
     },
     policies: {
-      cancellation: "Flexible cancellation policy: free cancellation up to 12 hours before check-in.",
+      cancellation:
+        "Flexible cancellation policy: free cancellation up to 12 hours before check-in.",
       smoking: "Designated Areas",
     },
     isPopular: false,
-  }
+  },
 ];

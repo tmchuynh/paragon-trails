@@ -7,8 +7,19 @@ export const dublinHotels: Hotel[] = [
     address: "173 Lower King Court",
     rating: 3,
     accommodationType: "Vacation Rental",
-    amenities: ["Conference Room", "Laundry Service", "Fitness Center", "Room Service", "Airport Shuttle", "Free Wi-Fi"],
-    accessibilityFeatures: ["Hearing Loop", "Accessible Pathways", "Hearing Support"],
+    amenities: [
+      "Conference Room",
+      "Laundry Service",
+      "Fitness Center",
+      "Room Service",
+      "Airport Shuttle",
+      "Free Wi-Fi",
+    ],
+    accessibilityFeatures: [
+      "Hearing Loop",
+      "Accessible Pathways",
+      "Hearing Support",
+    ],
     checkInTime: "15:00",
     checkOutTime: "11:00",
     roomsAvailable: 19,
@@ -19,7 +30,8 @@ export const dublinHotels: Hotel[] = [
       contactPhone: "+515 539-502-9273",
     },
     policies: {
-      cancellation: "Cancellation made less than 3 days before check-in will incur a 75% charge.",
+      cancellation:
+        "Cancellation made less than 3 days before check-in will incur a 75% charge.",
       smoking: "Allowed",
     },
     isPopular: true,
@@ -30,7 +42,16 @@ export const dublinHotels: Hotel[] = [
     address: "251 South King Blvd",
     rating: 3,
     accommodationType: "Hotel",
-    amenities: ["Spa", "Conference Room", "Free Wi-Fi", "Laundry Service", "Business Center", "Swimming Pool", "Pet Friendly", "Bar"],
+    amenities: [
+      "Spa",
+      "Conference Room",
+      "Free Wi-Fi",
+      "Laundry Service",
+      "Business Center",
+      "Swimming Pool",
+      "Pet Friendly",
+      "Bar",
+    ],
     checkInTime: "15:00",
     checkOutTime: "12:00",
     roomsAvailable: 46,
@@ -41,7 +62,8 @@ export const dublinHotels: Hotel[] = [
       contactPhone: "+685 569-305-6531",
     },
     policies: {
-      cancellation: "Free cancellation up to 14 days before check-in; 50% refund for cancellations made within 14 days.",
+      cancellation:
+        "Free cancellation up to 14 days before check-in; 50% refund for cancellations made within 14 days.",
       smoking: "Allowed",
     },
     isPopular: false,
@@ -52,7 +74,15 @@ export const dublinHotels: Hotel[] = [
     address: "167 Lower Liberty Way",
     rating: 4,
     accommodationType: "Eco-Lodge",
-    amenities: ["Bar", "Free Wi-Fi", "Business Center", "Conference Room", "Restaurant", "Spa", "Laundry Service"],
+    amenities: [
+      "Bar",
+      "Free Wi-Fi",
+      "Business Center",
+      "Conference Room",
+      "Restaurant",
+      "Spa",
+      "Laundry Service",
+    ],
     accessibilityFeatures: ["Wheelchair Accessible", "Elevator"],
     checkInTime: "15:00",
     checkOutTime: "10:00",
@@ -64,7 +94,8 @@ export const dublinHotels: Hotel[] = [
       contactPhone: "+792 321-996-8051",
     },
     policies: {
-      cancellation: "Flexible cancellation policy: free cancellation up to 12 hours before check-in.",
+      cancellation:
+        "Flexible cancellation policy: free cancellation up to 12 hours before check-in.",
       smoking: "Designated Areas",
     },
     isPopular: false,
@@ -75,7 +106,14 @@ export const dublinHotels: Hotel[] = [
     address: "99 Main Road",
     rating: 4,
     accommodationType: "Eco-Lodge",
-    amenities: ["Bar", "Conference Room", "Laundry Service", "Swimming Pool", "Room Service", "Free Wi-Fi"],
+    amenities: [
+      "Bar",
+      "Conference Room",
+      "Laundry Service",
+      "Swimming Pool",
+      "Room Service",
+      "Free Wi-Fi",
+    ],
     checkInTime: "14:00",
     checkOutTime: "11:00",
     roomsAvailable: 21,
@@ -86,7 +124,8 @@ export const dublinHotels: Hotel[] = [
       contactPhone: "+635 272-774-9678",
     },
     policies: {
-      cancellation: "No cancellation fee if rebooking within 30 days; otherwise, fees apply.",
+      cancellation:
+        "No cancellation fee if rebooking within 30 days; otherwise, fees apply.",
       smoking: "Designated Areas",
     },
     isPopular: false,
@@ -97,7 +136,14 @@ export const dublinHotels: Hotel[] = [
     address: "259 South Hilltop Blvd",
     rating: 4,
     accommodationType: "Bed and Breakfast",
-    amenities: ["Parking", "Spa", "Fitness Center", "Airport Shuttle", "Swimming Pool", "Free Wi-Fi"],
+    amenities: [
+      "Parking",
+      "Spa",
+      "Fitness Center",
+      "Airport Shuttle",
+      "Swimming Pool",
+      "Free Wi-Fi",
+    ],
     accessibilityFeatures: ["Visual Alarm", "Grab Bars"],
     checkInTime: "15:00",
     checkOutTime: "12:00",
@@ -109,9 +155,10 @@ export const dublinHotels: Hotel[] = [
       contactPhone: "+111 945-733-7798",
     },
     policies: {
-      cancellation: "Full refund if cancelled within 48 hours of booking, minus service fees.",
+      cancellation:
+        "Full refund if cancelled within 48 hours of booking, minus service fees.",
       smoking: "Designated Areas",
     },
     isPopular: false,
-  }
+  },
 ];

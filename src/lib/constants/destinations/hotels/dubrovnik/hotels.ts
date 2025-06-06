@@ -7,7 +7,15 @@ export const dubrovnikHotels: Hotel[] = [
     address: "223 Riverside Terrace",
     rating: 4,
     accommodationType: "Luxury Hotel",
-    amenities: ["Restaurant", "Fitness Center", "Non-Smoking Rooms", "Swimming Pool", "Parking", "Airport Shuttle", "Laundry Service"],
+    amenities: [
+      "Restaurant",
+      "Fitness Center",
+      "Non-Smoking Rooms",
+      "Swimming Pool",
+      "Parking",
+      "Airport Shuttle",
+      "Laundry Service",
+    ],
     checkInTime: "13:00",
     checkOutTime: "11:00",
     roomsAvailable: 25,
@@ -18,7 +26,8 @@ export const dubrovnikHotels: Hotel[] = [
       contactPhone: "+784 244-282-1184",
     },
     policies: {
-      cancellation: "Free cancellation up to 48 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 48 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Designated Areas",
     },
     isPopular: false,
@@ -29,7 +38,18 @@ export const dubrovnikHotels: Hotel[] = [
     address: "104 New King Ave",
     rating: 4,
     accommodationType: "Luxury Hotel",
-    amenities: ["Free Wi-Fi", "Airport Shuttle", "Laundry Service", "Swimming Pool", "Fitness Center", "Restaurant", "Parking", "Room Service", "Pet Friendly", "24-Hour Front Desk"],
+    amenities: [
+      "Free Wi-Fi",
+      "Airport Shuttle",
+      "Laundry Service",
+      "Swimming Pool",
+      "Fitness Center",
+      "Restaurant",
+      "Parking",
+      "Room Service",
+      "Pet Friendly",
+      "24-Hour Front Desk",
+    ],
     checkInTime: "16:00",
     checkOutTime: "10:00",
     roomsAvailable: 30,
@@ -40,7 +60,8 @@ export const dubrovnikHotels: Hotel[] = [
       contactPhone: "+715 215-881-6910",
     },
     policies: {
-      cancellation: "Full refund if cancelled within 48 hours of booking, minus service fees.",
+      cancellation:
+        "Full refund if cancelled within 48 hours of booking, minus service fees.",
       smoking: "Not Allowed",
     },
     isPopular: true,
@@ -51,7 +72,15 @@ export const dubrovnikHotels: Hotel[] = [
     address: "48 Queen Street",
     rating: 4,
     accommodationType: "Boutique Inn",
-    amenities: ["Parking", "Swimming Pool", "Business Center", "Conference Room", "Free Wi-Fi", "Non-Smoking Rooms", "Restaurant"],
+    amenities: [
+      "Parking",
+      "Swimming Pool",
+      "Business Center",
+      "Conference Room",
+      "Free Wi-Fi",
+      "Non-Smoking Rooms",
+      "Restaurant",
+    ],
     checkInTime: "14:00",
     checkOutTime: "12:00",
     roomsAvailable: 33,
@@ -62,7 +91,8 @@ export const dubrovnikHotels: Hotel[] = [
       contactPhone: "+238 955-327-7689",
     },
     policies: {
-      cancellation: "Free cancellation up to 72 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 72 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Allowed",
     },
     isPopular: false,
@@ -73,7 +103,13 @@ export const dubrovnikHotels: Hotel[] = [
     address: "168 Hilltop Avenue",
     rating: 3,
     accommodationType: "Luxury Lodge",
-    amenities: ["Business Center", "Airport Shuttle", "Non-Smoking Rooms", "Room Service", "Free Wi-Fi"],
+    amenities: [
+      "Business Center",
+      "Airport Shuttle",
+      "Non-Smoking Rooms",
+      "Room Service",
+      "Free Wi-Fi",
+    ],
     checkInTime: "16:00",
     checkOutTime: "10:00",
     roomsAvailable: 46,
@@ -84,9 +120,10 @@ export const dubrovnikHotels: Hotel[] = [
       contactPhone: "+661 335-413-4589",
     },
     policies: {
-      cancellation: "Free cancellation up to 7 days before arrival; no refund after that.",
+      cancellation:
+        "Free cancellation up to 7 days before arrival; no refund after that.",
       smoking: "Designated Areas",
     },
     isPopular: true,
-  }
+  },
 ];

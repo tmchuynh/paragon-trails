@@ -7,8 +7,20 @@ export const copenhagenHotels: Hotel[] = [
     address: "144 Riverside Way",
     rating: 4,
     accommodationType: "Boutique Resort",
-    amenities: ["Laundry Service", "Parking", "Room Service", "24-Hour Front Desk", "Pet Friendly", "Free Wi-Fi", "Conference Room"],
-    accessibilityFeatures: ["Accessible Pathways", "Accessible Bathroom", "Elevator"],
+    amenities: [
+      "Laundry Service",
+      "Parking",
+      "Room Service",
+      "24-Hour Front Desk",
+      "Pet Friendly",
+      "Free Wi-Fi",
+      "Conference Room",
+    ],
+    accessibilityFeatures: [
+      "Accessible Pathways",
+      "Accessible Bathroom",
+      "Elevator",
+    ],
     checkInTime: "15:00",
     checkOutTime: "10:00",
     roomsAvailable: 59,
@@ -19,7 +31,8 @@ export const copenhagenHotels: Hotel[] = [
       contactPhone: "+309 661-146-1403",
     },
     policies: {
-      cancellation: "No cancellation fee if rebooking within 30 days; otherwise, fees apply.",
+      cancellation:
+        "No cancellation fee if rebooking within 30 days; otherwise, fees apply.",
       smoking: "Allowed",
     },
     isPopular: true,
@@ -30,7 +43,13 @@ export const copenhagenHotels: Hotel[] = [
     address: "22 Liberty Way",
     rating: 4,
     accommodationType: "Serviced Apartment",
-    amenities: ["Conference Room", "Fitness Center", "Swimming Pool", "Pet Friendly", "Non-Smoking Rooms"],
+    amenities: [
+      "Conference Room",
+      "Fitness Center",
+      "Swimming Pool",
+      "Pet Friendly",
+      "Non-Smoking Rooms",
+    ],
     checkInTime: "14:00",
     checkOutTime: "11:00",
     roomsAvailable: 24,
@@ -41,7 +60,8 @@ export const copenhagenHotels: Hotel[] = [
       contactPhone: "+652 420-134-6331",
     },
     policies: {
-      cancellation: "Free cancellation up to 48 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 48 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Allowed",
     },
     isPopular: false,
@@ -52,7 +72,15 @@ export const copenhagenHotels: Hotel[] = [
     address: "19 West Park Avenue",
     rating: 3,
     accommodationType: "Resort",
-    amenities: ["Spa", "Restaurant", "Fitness Center", "Room Service", "Laundry Service", "Pet Friendly", "Airport Shuttle"],
+    amenities: [
+      "Spa",
+      "Restaurant",
+      "Fitness Center",
+      "Room Service",
+      "Laundry Service",
+      "Pet Friendly",
+      "Airport Shuttle",
+    ],
     checkInTime: "16:00",
     checkOutTime: "11:00",
     roomsAvailable: 26,
@@ -63,7 +91,8 @@ export const copenhagenHotels: Hotel[] = [
       contactPhone: "+9 785-713-7048",
     },
     policies: {
-      cancellation: "Partial refund available if cancelled more than 5 days in advance.",
+      cancellation:
+        "Partial refund available if cancelled more than 5 days in advance.",
       smoking: "Designated Areas",
     },
     isPopular: false,
@@ -74,7 +103,16 @@ export const copenhagenHotels: Hotel[] = [
     address: "181 Upper Liberty Street",
     rating: 3,
     accommodationType: "Resort",
-    amenities: ["Restaurant", "Conference Room", "Swimming Pool", "Room Service", "Business Center", "Airport Shuttle", "Laundry Service", "Spa"],
+    amenities: [
+      "Restaurant",
+      "Conference Room",
+      "Swimming Pool",
+      "Room Service",
+      "Business Center",
+      "Airport Shuttle",
+      "Laundry Service",
+      "Spa",
+    ],
     checkInTime: "15:00",
     checkOutTime: "10:00",
     roomsAvailable: 30,
@@ -85,7 +123,8 @@ export const copenhagenHotels: Hotel[] = [
       contactPhone: "+82 615-945-1158",
     },
     policies: {
-      cancellation: "No cancellation fee if rebooking within 30 days; otherwise, fees apply.",
+      cancellation:
+        "No cancellation fee if rebooking within 30 days; otherwise, fees apply.",
       smoking: "Designated Areas",
     },
     isPopular: false,
@@ -96,7 +135,14 @@ export const copenhagenHotels: Hotel[] = [
     address: "116 Lower Queen Street",
     rating: 3,
     accommodationType: "Serviced Apartment",
-    amenities: ["Laundry Service", "Swimming Pool", "24-Hour Front Desk", "Parking", "Fitness Center", "Spa"],
+    amenities: [
+      "Laundry Service",
+      "Swimming Pool",
+      "24-Hour Front Desk",
+      "Parking",
+      "Fitness Center",
+      "Spa",
+    ],
     checkInTime: "16:00",
     checkOutTime: "11:00",
     roomsAvailable: 23,
@@ -107,9 +153,10 @@ export const copenhagenHotels: Hotel[] = [
       contactPhone: "+884 234-447-5767",
     },
     policies: {
-      cancellation: "Full refund if cancelled within 48 hours of booking, minus service fees.",
+      cancellation:
+        "Full refund if cancelled within 48 hours of booking, minus service fees.",
       smoking: "Not Allowed",
     },
     isPopular: false,
-  }
+  },
 ];

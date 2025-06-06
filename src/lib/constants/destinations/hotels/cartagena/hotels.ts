@@ -7,7 +7,16 @@ export const cartagenaHotels: Hotel[] = [
     address: "171 Avenida Liberty Place",
     rating: 4,
     accommodationType: "Vacation Rental",
-    amenities: ["Conference Room", "Room Service", "Bar", "Non-Smoking Rooms", "Swimming Pool", "Airport Shuttle", "Free Wi-Fi", "Restaurant"],
+    amenities: [
+      "Conference Room",
+      "Room Service",
+      "Bar",
+      "Non-Smoking Rooms",
+      "Swimming Pool",
+      "Airport Shuttle",
+      "Free Wi-Fi",
+      "Restaurant",
+    ],
     accessibilityFeatures: ["Hearing Loop"],
     checkInTime: "16:00",
     checkOutTime: "11:00",
@@ -19,7 +28,8 @@ export const cartagenaHotels: Hotel[] = [
       contactPhone: "+334 946-147-7089",
     },
     policies: {
-      cancellation: "Free cancellation up to 7 days before arrival; no refund after that.",
+      cancellation:
+        "Free cancellation up to 7 days before arrival; no refund after that.",
       smoking: "Allowed",
     },
     isPopular: false,
@@ -30,7 +40,14 @@ export const cartagenaHotels: Hotel[] = [
     address: "269 Carrera Park Drive",
     rating: 4,
     accommodationType: "All-Inclusive Resort",
-    amenities: ["Free Wi-Fi", "Swimming Pool", "Spa", "24-Hour Front Desk", "Bar", "Pet Friendly"],
+    amenities: [
+      "Free Wi-Fi",
+      "Swimming Pool",
+      "Spa",
+      "24-Hour Front Desk",
+      "Bar",
+      "Pet Friendly",
+    ],
     checkInTime: "13:00",
     checkOutTime: "10:00",
     roomsAvailable: 46,
@@ -41,7 +58,8 @@ export const cartagenaHotels: Hotel[] = [
       contactPhone: "+28 231-464-7573",
     },
     policies: {
-      cancellation: "Free cancellation up to 48 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 48 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Allowed",
     },
     isPopular: false,
@@ -52,7 +70,15 @@ export const cartagenaHotels: Hotel[] = [
     address: "136 Calle Broadway Place",
     rating: 4,
     accommodationType: "Boutique Hotel",
-    amenities: ["Bar", "Fitness Center", "Non-Smoking Rooms", "Airport Shuttle", "Room Service", "Swimming Pool", "Business Center"],
+    amenities: [
+      "Bar",
+      "Fitness Center",
+      "Non-Smoking Rooms",
+      "Airport Shuttle",
+      "Room Service",
+      "Swimming Pool",
+      "Business Center",
+    ],
     checkInTime: "15:00",
     checkOutTime: "10:00",
     roomsAvailable: 38,
@@ -63,7 +89,8 @@ export const cartagenaHotels: Hotel[] = [
       contactPhone: "+766 861-962-4319",
     },
     policies: {
-      cancellation: "Free cancellation up to 72 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 72 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Not Allowed",
     },
     isPopular: false,
@@ -74,7 +101,15 @@ export const cartagenaHotels: Hotel[] = [
     address: "198 Calle King Road",
     rating: 4,
     accommodationType: "Motel",
-    amenities: ["Non-Smoking Rooms", "Business Center", "Room Service", "Spa", "Fitness Center", "Airport Shuttle", "24-Hour Front Desk"],
+    amenities: [
+      "Non-Smoking Rooms",
+      "Business Center",
+      "Room Service",
+      "Spa",
+      "Fitness Center",
+      "Airport Shuttle",
+      "24-Hour Front Desk",
+    ],
     accessibilityFeatures: ["Accessible Parking"],
     checkInTime: "15:00",
     checkOutTime: "11:00",
@@ -86,9 +121,10 @@ export const cartagenaHotels: Hotel[] = [
       contactPhone: "+143 608-789-2529",
     },
     policies: {
-      cancellation: "Free cancellation within 24 hours of booking; after that, 25% fee applies.",
+      cancellation:
+        "Free cancellation within 24 hours of booking; after that, 25% fee applies.",
       smoking: "Allowed",
     },
     isPopular: true,
-  }
+  },
 ];

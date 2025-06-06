@@ -7,7 +7,16 @@ export const skagwayHotels: Hotel[] = [
     address: "297 Maple Dr",
     rating: 3,
     accommodationType: "Guesthouse",
-    amenities: ["Free Wi-Fi", "Fitness Center", "24-Hour Front Desk", "Pet Friendly", "Swimming Pool", "Airport Shuttle", "Parking", "Conference Room"],
+    amenities: [
+      "Free Wi-Fi",
+      "Fitness Center",
+      "24-Hour Front Desk",
+      "Pet Friendly",
+      "Swimming Pool",
+      "Airport Shuttle",
+      "Parking",
+      "Conference Room",
+    ],
     accessibilityFeatures: ["Visual Aids"],
     checkInTime: "13:00",
     checkOutTime: "10:00",
@@ -19,7 +28,8 @@ export const skagwayHotels: Hotel[] = [
       contactPhone: "+261 863-584-6519",
     },
     policies: {
-      cancellation: "Cancellation fee equivalent to one night's stay if cancelled less than 48 hours before check-in.",
+      cancellation:
+        "Cancellation fee equivalent to one night's stay if cancelled less than 48 hours before check-in.",
       smoking: "Allowed",
     },
     isPopular: true,
@@ -30,7 +40,14 @@ export const skagwayHotels: Hotel[] = [
     address: "138 New Broadway Sq",
     rating: 3,
     accommodationType: "Boutique Inn",
-    amenities: ["Bar", "Restaurant", "Non-Smoking Rooms", "Airport Shuttle", "24-Hour Front Desk", "Parking"],
+    amenities: [
+      "Bar",
+      "Restaurant",
+      "Non-Smoking Rooms",
+      "Airport Shuttle",
+      "24-Hour Front Desk",
+      "Parking",
+    ],
     checkInTime: "13:00",
     checkOutTime: "12:00",
     roomsAvailable: 49,
@@ -41,7 +58,8 @@ export const skagwayHotels: Hotel[] = [
       contactPhone: "+331 807-828-2035",
     },
     policies: {
-      cancellation: "Partial refund available if cancelled more than 5 days in advance.",
+      cancellation:
+        "Partial refund available if cancelled more than 5 days in advance.",
       smoking: "Allowed",
     },
     isPopular: false,
@@ -52,7 +70,15 @@ export const skagwayHotels: Hotel[] = [
     address: "74 Upper Sunset Cres",
     rating: 4,
     accommodationType: "Family Resort",
-    amenities: ["Pet Friendly", "Spa", "24-Hour Front Desk", "Room Service", "Bar", "Conference Room", "Parking"],
+    amenities: [
+      "Pet Friendly",
+      "Spa",
+      "24-Hour Front Desk",
+      "Room Service",
+      "Bar",
+      "Conference Room",
+      "Parking",
+    ],
     accessibilityFeatures: ["Sign Language Interpretation", "Hearing Support"],
     checkInTime: "16:00",
     checkOutTime: "12:00",
@@ -64,7 +90,8 @@ export const skagwayHotels: Hotel[] = [
       contactPhone: "+150 142-371-5688",
     },
     policies: {
-      cancellation: "Cancellation fee equivalent to one night's stay if cancelled less than 48 hours before check-in.",
+      cancellation:
+        "Cancellation fee equivalent to one night's stay if cancelled less than 48 hours before check-in.",
       smoking: "Allowed",
     },
     isPopular: false,
@@ -75,7 +102,13 @@ export const skagwayHotels: Hotel[] = [
     address: "156 Park Ter",
     rating: 3,
     accommodationType: "Eco-Lodge",
-    amenities: ["Bar", "Pet Friendly", "Airport Shuttle", "Laundry Service", "Non-Smoking Rooms"],
+    amenities: [
+      "Bar",
+      "Pet Friendly",
+      "Airport Shuttle",
+      "Laundry Service",
+      "Non-Smoking Rooms",
+    ],
     checkInTime: "16:00",
     checkOutTime: "12:00",
     roomsAvailable: 20,
@@ -86,7 +119,8 @@ export const skagwayHotels: Hotel[] = [
       contactPhone: "+469 457-403-3216",
     },
     policies: {
-      cancellation: "Free cancellation up to 24 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 24 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Not Allowed",
     },
     isPopular: true,
@@ -97,7 +131,16 @@ export const skagwayHotels: Hotel[] = [
     address: "41 SW Broadway Ct",
     rating: 3,
     accommodationType: "Extended Stay Hotel",
-    amenities: ["Airport Shuttle", "Free Wi-Fi", "Business Center", "Swimming Pool", "Pet Friendly", "Non-Smoking Rooms", "24-Hour Front Desk", "Fitness Center"],
+    amenities: [
+      "Airport Shuttle",
+      "Free Wi-Fi",
+      "Business Center",
+      "Swimming Pool",
+      "Pet Friendly",
+      "Non-Smoking Rooms",
+      "24-Hour Front Desk",
+      "Fitness Center",
+    ],
     accessibilityFeatures: ["Wheelchair Accessible", "Accessible Parking"],
     checkInTime: "15:00",
     checkOutTime: "10:00",
@@ -109,7 +152,8 @@ export const skagwayHotels: Hotel[] = [
       contactPhone: "+112 142-613-2614",
     },
     policies: {
-      cancellation: "Free cancellation up to 14 days before check-in; 50% refund for cancellations made within 14 days.",
+      cancellation:
+        "Free cancellation up to 14 days before check-in; 50% refund for cancellations made within 14 days.",
       smoking: "Allowed",
     },
     isPopular: false,
@@ -131,7 +175,8 @@ export const skagwayHotels: Hotel[] = [
       contactPhone: "+44 947-621-3689",
     },
     policies: {
-      cancellation: "Free cancellation up to 48 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 48 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Not Allowed",
     },
     isPopular: false,
@@ -142,7 +187,14 @@ export const skagwayHotels: Hotel[] = [
     address: "296 Broadway Way",
     rating: 3,
     accommodationType: "Hostel",
-    amenities: ["Laundry Service", "Free Wi-Fi", "Non-Smoking Rooms", "Swimming Pool", "Pet Friendly", "Bar"],
+    amenities: [
+      "Laundry Service",
+      "Free Wi-Fi",
+      "Non-Smoking Rooms",
+      "Swimming Pool",
+      "Pet Friendly",
+      "Bar",
+    ],
     checkInTime: "14:00",
     checkOutTime: "10:00",
     roomsAvailable: 16,
@@ -153,9 +205,10 @@ export const skagwayHotels: Hotel[] = [
       contactPhone: "+741 139-281-5776",
     },
     policies: {
-      cancellation: "No cancellation fee if rebooking within 30 days; otherwise, fees apply.",
+      cancellation:
+        "No cancellation fee if rebooking within 30 days; otherwise, fees apply.",
       smoking: "Allowed",
     },
     isPopular: true,
-  }
+  },
 ];

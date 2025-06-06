@@ -7,7 +7,14 @@ export const newYorkCityHotels: Hotel[] = [
     address: "117 SE Maple Ln",
     rating: 4,
     accommodationType: "Bed and Breakfast",
-    amenities: ["Free Wi-Fi", "Fitness Center", "Pet Friendly", "Business Center", "Laundry Service", "Restaurant"],
+    amenities: [
+      "Free Wi-Fi",
+      "Fitness Center",
+      "Pet Friendly",
+      "Business Center",
+      "Laundry Service",
+      "Restaurant",
+    ],
     checkInTime: "16:00",
     checkOutTime: "11:00",
     roomsAvailable: 28,
@@ -18,7 +25,8 @@ export const newYorkCityHotels: Hotel[] = [
       contactPhone: "+792 370-154-9298",
     },
     policies: {
-      cancellation: "Free cancellation up to 14 days before check-in; 50% refund for cancellations made within 14 days.",
+      cancellation:
+        "Free cancellation up to 14 days before check-in; 50% refund for cancellations made within 14 days.",
       smoking: "Allowed",
     },
     isPopular: true,
@@ -29,8 +37,18 @@ export const newYorkCityHotels: Hotel[] = [
     address: "199 Oak Pkwy",
     rating: 3,
     accommodationType: "Hotel",
-    amenities: ["Free Wi-Fi", "Pet Friendly", "Room Service", "Laundry Service", "Swimming Pool"],
-    accessibilityFeatures: ["Lowered Light Switches", "Accessible Pathways", "Visual Aids"],
+    amenities: [
+      "Free Wi-Fi",
+      "Pet Friendly",
+      "Room Service",
+      "Laundry Service",
+      "Swimming Pool",
+    ],
+    accessibilityFeatures: [
+      "Lowered Light Switches",
+      "Accessible Pathways",
+      "Visual Aids",
+    ],
     checkInTime: "14:00",
     checkOutTime: "10:00",
     roomsAvailable: 53,
@@ -41,7 +59,8 @@ export const newYorkCityHotels: Hotel[] = [
       contactPhone: "+26 901-231-3004",
     },
     policies: {
-      cancellation: "Free cancellation up to 48 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 48 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Allowed",
     },
     isPopular: false,
@@ -52,8 +71,21 @@ export const newYorkCityHotels: Hotel[] = [
     address: "149 S Cedar Way",
     rating: 3,
     accommodationType: "All-Inclusive Resort",
-    amenities: ["Bar", "Spa", "Airport Shuttle", "Free Wi-Fi", "Pet Friendly", "Business Center", "Room Service", "Restaurant"],
-    accessibilityFeatures: ["Accessible Parking", "Assistive Listening Devices", "Visual Aids"],
+    amenities: [
+      "Bar",
+      "Spa",
+      "Airport Shuttle",
+      "Free Wi-Fi",
+      "Pet Friendly",
+      "Business Center",
+      "Room Service",
+      "Restaurant",
+    ],
+    accessibilityFeatures: [
+      "Accessible Parking",
+      "Assistive Listening Devices",
+      "Visual Aids",
+    ],
     checkInTime: "14:00",
     checkOutTime: "12:00",
     roomsAvailable: 32,
@@ -64,7 +96,8 @@ export const newYorkCityHotels: Hotel[] = [
       contactPhone: "+670 240-487-8119",
     },
     policies: {
-      cancellation: "Free cancellation up to 14 days before check-in; 50% refund for cancellations made within 14 days.",
+      cancellation:
+        "Free cancellation up to 14 days before check-in; 50% refund for cancellations made within 14 days.",
       smoking: "Not Allowed",
     },
     isPopular: false,
@@ -75,7 +108,13 @@ export const newYorkCityHotels: Hotel[] = [
     address: "242 Washington Cres",
     rating: 4,
     accommodationType: "Serviced Apartment",
-    amenities: ["Conference Room", "24-Hour Front Desk", "Swimming Pool", "Parking", "Fitness Center"],
+    amenities: [
+      "Conference Room",
+      "24-Hour Front Desk",
+      "Swimming Pool",
+      "Parking",
+      "Fitness Center",
+    ],
     accessibilityFeatures: ["Hearing Loop"],
     checkInTime: "14:00",
     checkOutTime: "12:00",
@@ -87,7 +126,8 @@ export const newYorkCityHotels: Hotel[] = [
       contactPhone: "+452 945-187-2752",
     },
     policies: {
-      cancellation: "Free cancellation up to 48 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 48 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Designated Areas",
     },
     isPopular: false,
@@ -98,7 +138,13 @@ export const newYorkCityHotels: Hotel[] = [
     address: "55 Old Sunset Way",
     rating: 3,
     accommodationType: "Eco-Lodge",
-    amenities: ["Parking", "Swimming Pool", "Pet Friendly", "Spa", "24-Hour Front Desk"],
+    amenities: [
+      "Parking",
+      "Swimming Pool",
+      "Pet Friendly",
+      "Spa",
+      "24-Hour Front Desk",
+    ],
     accessibilityFeatures: ["Lowered Light Switches", "Grab Bars", "Elevator"],
     checkInTime: "16:00",
     checkOutTime: "12:00",
@@ -110,7 +156,8 @@ export const newYorkCityHotels: Hotel[] = [
       contactPhone: "+770 361-495-1859",
     },
     policies: {
-      cancellation: "Free cancellation up to 48 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 48 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Designated Areas",
     },
     isPopular: false,
@@ -121,8 +168,18 @@ export const newYorkCityHotels: Hotel[] = [
     address: "138 Upper Washington St",
     rating: 4,
     accommodationType: "Motel",
-    amenities: ["Free Wi-Fi", "Restaurant", "Pet Friendly", "Swimming Pool", "Fitness Center"],
-    accessibilityFeatures: ["Visual Alarm", "Accessible Parking", "Tactile Maps"],
+    amenities: [
+      "Free Wi-Fi",
+      "Restaurant",
+      "Pet Friendly",
+      "Swimming Pool",
+      "Fitness Center",
+    ],
+    accessibilityFeatures: [
+      "Visual Alarm",
+      "Accessible Parking",
+      "Tactile Maps",
+    ],
     checkInTime: "15:00",
     checkOutTime: "12:00",
     roomsAvailable: 28,
@@ -133,9 +190,10 @@ export const newYorkCityHotels: Hotel[] = [
       contactPhone: "+771 661-562-5229",
     },
     policies: {
-      cancellation: "No cancellation fee if rebooking within 30 days; otherwise, fees apply.",
+      cancellation:
+        "No cancellation fee if rebooking within 30 days; otherwise, fees apply.",
       smoking: "Designated Areas",
     },
     isPopular: true,
-  }
+  },
 ];

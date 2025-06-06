@@ -7,7 +7,18 @@ export const barcelonaHotels: Hotel[] = [
     address: "206 Main Place",
     rating: 3,
     accommodationType: "Guesthouse",
-    amenities: ["Pet Friendly", "Room Service", "Business Center", "Swimming Pool", "Free Wi-Fi", "Airport Shuttle", "Laundry Service", "Bar", "Non-Smoking Rooms", "Conference Room"],
+    amenities: [
+      "Pet Friendly",
+      "Room Service",
+      "Business Center",
+      "Swimming Pool",
+      "Free Wi-Fi",
+      "Airport Shuttle",
+      "Laundry Service",
+      "Bar",
+      "Non-Smoking Rooms",
+      "Conference Room",
+    ],
     checkInTime: "15:00",
     checkOutTime: "11:00",
     roomsAvailable: 41,
@@ -18,7 +29,8 @@ export const barcelonaHotels: Hotel[] = [
       contactPhone: "+277 301-845-9053",
     },
     policies: {
-      cancellation: "50% refund for cancellations made at least 7 days before check-in.",
+      cancellation:
+        "50% refund for cancellations made at least 7 days before check-in.",
       smoking: "Not Allowed",
     },
     isPopular: false,
@@ -29,7 +41,17 @@ export const barcelonaHotels: Hotel[] = [
     address: "78 East King Terrace",
     rating: 4,
     accommodationType: "Boutique Hotel",
-    amenities: ["Restaurant", "Spa", "Laundry Service", "Business Center", "Free Wi-Fi", "Swimming Pool", "Fitness Center", "Room Service", "24-Hour Front Desk"],
+    amenities: [
+      "Restaurant",
+      "Spa",
+      "Laundry Service",
+      "Business Center",
+      "Free Wi-Fi",
+      "Swimming Pool",
+      "Fitness Center",
+      "Room Service",
+      "24-Hour Front Desk",
+    ],
     checkInTime: "13:00",
     checkOutTime: "11:00",
     roomsAvailable: 47,
@@ -40,7 +62,8 @@ export const barcelonaHotels: Hotel[] = [
       contactPhone: "+49 679-963-4961",
     },
     policies: {
-      cancellation: "Free cancellation up to 24 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 24 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Designated Areas",
     },
     isPopular: false,
@@ -51,7 +74,13 @@ export const barcelonaHotels: Hotel[] = [
     address: "216 King St",
     rating: 3,
     accommodationType: "Luxury Hotel",
-    amenities: ["Free Wi-Fi", "Conference Room", "Non-Smoking Rooms", "Pet Friendly", "Swimming Pool"],
+    amenities: [
+      "Free Wi-Fi",
+      "Conference Room",
+      "Non-Smoking Rooms",
+      "Pet Friendly",
+      "Swimming Pool",
+    ],
     accessibilityFeatures: ["Accessible Pathways"],
     checkInTime: "13:00",
     checkOutTime: "10:00",
@@ -63,9 +92,10 @@ export const barcelonaHotels: Hotel[] = [
       contactPhone: "+156 678-410-1106",
     },
     policies: {
-      cancellation: "Free cancellation within 24 hours of booking; after that, 25% fee applies.",
+      cancellation:
+        "Free cancellation within 24 hours of booking; after that, 25% fee applies.",
       smoking: "Allowed",
     },
     isPopular: false,
-  }
+  },
 ];

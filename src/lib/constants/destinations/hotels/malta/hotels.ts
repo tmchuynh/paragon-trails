@@ -7,7 +7,16 @@ export const maltaHotels: Hotel[] = [
     address: "200 Queen Drive",
     rating: 3,
     accommodationType: "Luxury Lodge",
-    amenities: ["Airport Shuttle", "Restaurant", "Free Wi-Fi", "Swimming Pool", "Conference Room", "Room Service", "Non-Smoking Rooms", "Laundry Service"],
+    amenities: [
+      "Airport Shuttle",
+      "Restaurant",
+      "Free Wi-Fi",
+      "Swimming Pool",
+      "Conference Room",
+      "Room Service",
+      "Non-Smoking Rooms",
+      "Laundry Service",
+    ],
     accessibilityFeatures: ["Grab Bars", "Visual Alarm", "Hearing Support"],
     checkInTime: "16:00",
     checkOutTime: "10:00",
@@ -30,7 +39,13 @@ export const maltaHotels: Hotel[] = [
     address: "48 Broadway Way",
     rating: 4,
     accommodationType: "All-Inclusive Resort",
-    amenities: ["Spa", "Non-Smoking Rooms", "Bar", "24-Hour Front Desk", "Laundry Service"],
+    amenities: [
+      "Spa",
+      "Non-Smoking Rooms",
+      "Bar",
+      "24-Hour Front Desk",
+      "Laundry Service",
+    ],
     checkInTime: "14:00",
     checkOutTime: "11:00",
     roomsAvailable: 37,
@@ -41,7 +56,8 @@ export const maltaHotels: Hotel[] = [
       contactPhone: "+786 138-177-4496",
     },
     policies: {
-      cancellation: "50% refund for cancellations made at least 7 days before check-in.",
+      cancellation:
+        "50% refund for cancellations made at least 7 days before check-in.",
       smoking: "Designated Areas",
     },
     isPopular: false,
@@ -52,7 +68,13 @@ export const maltaHotels: Hotel[] = [
     address: "14 South Main Place",
     rating: 3,
     accommodationType: "Luxury Lodge",
-    amenities: ["Restaurant", "Free Wi-Fi", "Pet Friendly", "Airport Shuttle", "Swimming Pool"],
+    amenities: [
+      "Restaurant",
+      "Free Wi-Fi",
+      "Pet Friendly",
+      "Airport Shuttle",
+      "Swimming Pool",
+    ],
     accessibilityFeatures: ["Accessible Parking", "Visual Alarm"],
     checkInTime: "14:00",
     checkOutTime: "10:00",
@@ -64,7 +86,8 @@ export const maltaHotels: Hotel[] = [
       contactPhone: "+458 257-429-4993",
     },
     policies: {
-      cancellation: "Free cancellation up to 14 days before check-in; 50% refund for cancellations made within 14 days.",
+      cancellation:
+        "Free cancellation up to 14 days before check-in; 50% refund for cancellations made within 14 days.",
       smoking: "Not Allowed",
     },
     isPopular: true,
@@ -75,8 +98,18 @@ export const maltaHotels: Hotel[] = [
     address: "224 New Main St",
     rating: 4,
     accommodationType: "Glamping Resort",
-    amenities: ["Fitness Center", "Laundry Service", "Bar", "Conference Room", "Pet Friendly"],
-    accessibilityFeatures: ["Sign Language Interpretation", "Grab Bars", "Visual Alarm"],
+    amenities: [
+      "Fitness Center",
+      "Laundry Service",
+      "Bar",
+      "Conference Room",
+      "Pet Friendly",
+    ],
+    accessibilityFeatures: [
+      "Sign Language Interpretation",
+      "Grab Bars",
+      "Visual Alarm",
+    ],
     checkInTime: "15:00",
     checkOutTime: "12:00",
     roomsAvailable: 35,
@@ -87,9 +120,10 @@ export const maltaHotels: Hotel[] = [
       contactPhone: "+190 911-461-8491",
     },
     policies: {
-      cancellation: "Free cancellation up to 72 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 72 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Designated Areas",
     },
     isPopular: false,
-  }
+  },
 ];

@@ -7,7 +7,14 @@ export const stThomasHotels: Hotel[] = [
     address: "44 Central Avenue",
     rating: 4,
     accommodationType: "Vacation Rental",
-    amenities: ["Fitness Center", "Business Center", "Pet Friendly", "Airport Shuttle", "Spa", "Swimming Pool"],
+    amenities: [
+      "Fitness Center",
+      "Business Center",
+      "Pet Friendly",
+      "Airport Shuttle",
+      "Spa",
+      "Swimming Pool",
+    ],
     checkInTime: "15:00",
     checkOutTime: "11:00",
     roomsAvailable: 21,
@@ -18,7 +25,8 @@ export const stThomasHotels: Hotel[] = [
       contactPhone: "+417 749-280-7603",
     },
     policies: {
-      cancellation: "50% refund for cancellations made at least 7 days before check-in.",
+      cancellation:
+        "50% refund for cancellations made at least 7 days before check-in.",
       smoking: "Allowed",
     },
     isPopular: true,
@@ -29,7 +37,16 @@ export const stThomasHotels: Hotel[] = [
     address: "279 Central Avenue",
     rating: 3,
     accommodationType: "Motel",
-    amenities: ["Parking", "Swimming Pool", "Non-Smoking Rooms", "Conference Room", "24-Hour Front Desk", "Laundry Service", "Business Center", "Airport Shuttle"],
+    amenities: [
+      "Parking",
+      "Swimming Pool",
+      "Non-Smoking Rooms",
+      "Conference Room",
+      "24-Hour Front Desk",
+      "Laundry Service",
+      "Business Center",
+      "Airport Shuttle",
+    ],
     accessibilityFeatures: ["Accessible Shower"],
     checkInTime: "13:00",
     checkOutTime: "12:00",
@@ -41,7 +58,8 @@ export const stThomasHotels: Hotel[] = [
       contactPhone: "+52 471-217-3291",
     },
     policies: {
-      cancellation: "Free cancellation up to 48 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 48 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Not Allowed",
     },
     isPopular: true,
@@ -52,8 +70,22 @@ export const stThomasHotels: Hotel[] = [
     address: "142 Park St",
     rating: 3,
     accommodationType: "Business Hotel",
-    amenities: ["Conference Room", "Business Center", "Restaurant", "Spa", "Swimming Pool", "Airport Shuttle", "Laundry Service", "Non-Smoking Rooms", "Free Wi-Fi"],
-    accessibilityFeatures: ["Wheelchair Accessible", "Hearing Loop", "Elevator"],
+    amenities: [
+      "Conference Room",
+      "Business Center",
+      "Restaurant",
+      "Spa",
+      "Swimming Pool",
+      "Airport Shuttle",
+      "Laundry Service",
+      "Non-Smoking Rooms",
+      "Free Wi-Fi",
+    ],
+    accessibilityFeatures: [
+      "Wheelchair Accessible",
+      "Hearing Loop",
+      "Elevator",
+    ],
     checkInTime: "15:00",
     checkOutTime: "12:00",
     roomsAvailable: 18,
@@ -64,7 +96,8 @@ export const stThomasHotels: Hotel[] = [
       contactPhone: "+407 841-645-3939",
     },
     policies: {
-      cancellation: "Partial refund available if cancelled more than 5 days in advance.",
+      cancellation:
+        "Partial refund available if cancelled more than 5 days in advance.",
       smoking: "Allowed",
     },
     isPopular: true,
@@ -75,8 +108,19 @@ export const stThomasHotels: Hotel[] = [
     address: "138 North Main Court",
     rating: 4,
     accommodationType: "Resort",
-    amenities: ["Bar", "Free Wi-Fi", "Room Service", "Pet Friendly", "Swimming Pool", "Non-Smoking Rooms"],
-    accessibilityFeatures: ["Grab Bars", "Sign Language Interpretation", "Accessible Bathroom"],
+    amenities: [
+      "Bar",
+      "Free Wi-Fi",
+      "Room Service",
+      "Pet Friendly",
+      "Swimming Pool",
+      "Non-Smoking Rooms",
+    ],
+    accessibilityFeatures: [
+      "Grab Bars",
+      "Sign Language Interpretation",
+      "Accessible Bathroom",
+    ],
     checkInTime: "16:00",
     checkOutTime: "11:00",
     roomsAvailable: 34,
@@ -87,9 +131,10 @@ export const stThomasHotels: Hotel[] = [
       contactPhone: "+367 302-684-6867",
     },
     policies: {
-      cancellation: "Free cancellation up to 48 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 48 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Not Allowed",
     },
     isPopular: false,
-  }
+  },
 ];

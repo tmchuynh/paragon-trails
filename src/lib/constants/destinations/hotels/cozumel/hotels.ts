@@ -7,7 +7,13 @@ export const cozumelHotels: Hotel[] = [
     address: "172 Hilltop Blvd",
     rating: 3,
     accommodationType: "Eco-Lodge",
-    amenities: ["Spa", "Business Center", "Parking", "Laundry Service", "Airport Shuttle"],
+    amenities: [
+      "Spa",
+      "Business Center",
+      "Parking",
+      "Laundry Service",
+      "Airport Shuttle",
+    ],
     checkInTime: "14:00",
     checkOutTime: "12:00",
     roomsAvailable: 46,
@@ -18,7 +24,8 @@ export const cozumelHotels: Hotel[] = [
       contactPhone: "+174 804-885-6825",
     },
     policies: {
-      cancellation: "Cancellation fee equivalent to one night's stay if cancelled less than 48 hours before check-in.",
+      cancellation:
+        "Cancellation fee equivalent to one night's stay if cancelled less than 48 hours before check-in.",
       smoking: "Not Allowed",
     },
     isPopular: false,
@@ -29,8 +36,21 @@ export const cozumelHotels: Hotel[] = [
     address: "116 Sunset Drive",
     rating: 3,
     accommodationType: "Extended Stay Hotel",
-    amenities: ["Room Service", "Bar", "Free Wi-Fi", "Swimming Pool", "Fitness Center", "Business Center", "Airport Shuttle", "Pet Friendly", "Spa"],
-    accessibilityFeatures: ["Wheelchair Accessible", "Assistive Listening Devices"],
+    amenities: [
+      "Room Service",
+      "Bar",
+      "Free Wi-Fi",
+      "Swimming Pool",
+      "Fitness Center",
+      "Business Center",
+      "Airport Shuttle",
+      "Pet Friendly",
+      "Spa",
+    ],
+    accessibilityFeatures: [
+      "Wheelchair Accessible",
+      "Assistive Listening Devices",
+    ],
     checkInTime: "14:00",
     checkOutTime: "10:00",
     roomsAvailable: 49,
@@ -41,7 +61,8 @@ export const cozumelHotels: Hotel[] = [
       contactPhone: "+143 116-127-6503",
     },
     policies: {
-      cancellation: "Free cancellation up to 7 days before arrival; no refund after that.",
+      cancellation:
+        "Free cancellation up to 7 days before arrival; no refund after that.",
       smoking: "Allowed",
     },
     isPopular: false,
@@ -52,8 +73,18 @@ export const cozumelHotels: Hotel[] = [
     address: "67 Main Rd",
     rating: 3,
     accommodationType: "Glamping Resort",
-    amenities: ["Airport Shuttle", "Laundry Service", "Spa", "Swimming Pool", "Room Service"],
-    accessibilityFeatures: ["Accessible Bathroom", "Grab Bars", "Braille Signage"],
+    amenities: [
+      "Airport Shuttle",
+      "Laundry Service",
+      "Spa",
+      "Swimming Pool",
+      "Room Service",
+    ],
+    accessibilityFeatures: [
+      "Accessible Bathroom",
+      "Grab Bars",
+      "Braille Signage",
+    ],
     checkInTime: "16:00",
     checkOutTime: "12:00",
     roomsAvailable: 40,
@@ -64,7 +95,8 @@ export const cozumelHotels: Hotel[] = [
       contactPhone: "+93 145-779-7379",
     },
     policies: {
-      cancellation: "Cancellation made less than 3 days before check-in will incur a 75% charge.",
+      cancellation:
+        "Cancellation made less than 3 days before check-in will incur a 75% charge.",
       smoking: "Allowed",
     },
     isPopular: true,
@@ -75,7 +107,13 @@ export const cozumelHotels: Hotel[] = [
     address: "116 Queen Rd",
     rating: 3,
     accommodationType: "Family Resort",
-    amenities: ["Business Center", "Room Service", "Pet Friendly", "Free Wi-Fi", "Airport Shuttle"],
+    amenities: [
+      "Business Center",
+      "Room Service",
+      "Pet Friendly",
+      "Free Wi-Fi",
+      "Airport Shuttle",
+    ],
     accessibilityFeatures: ["Visual Aids", "Accessible Parking"],
     checkInTime: "13:00",
     checkOutTime: "12:00",
@@ -87,7 +125,8 @@ export const cozumelHotels: Hotel[] = [
       contactPhone: "+48 452-444-8308",
     },
     policies: {
-      cancellation: "Cancellation fee equivalent to one night's stay if cancelled less than 48 hours before check-in.",
+      cancellation:
+        "Cancellation fee equivalent to one night's stay if cancelled less than 48 hours before check-in.",
       smoking: "Allowed",
     },
     isPopular: true,
@@ -98,7 +137,18 @@ export const cozumelHotels: Hotel[] = [
     address: "80 Queen Way",
     rating: 4,
     accommodationType: "Motel",
-    amenities: ["Parking", "Spa", "24-Hour Front Desk", "Room Service", "Fitness Center", "Bar", "Airport Shuttle", "Pet Friendly", "Non-Smoking Rooms", "Swimming Pool"],
+    amenities: [
+      "Parking",
+      "Spa",
+      "24-Hour Front Desk",
+      "Room Service",
+      "Fitness Center",
+      "Bar",
+      "Airport Shuttle",
+      "Pet Friendly",
+      "Non-Smoking Rooms",
+      "Swimming Pool",
+    ],
     accessibilityFeatures: ["Accessible Shower"],
     checkInTime: "15:00",
     checkOutTime: "11:00",
@@ -110,9 +160,10 @@ export const cozumelHotels: Hotel[] = [
       contactPhone: "+495 170-466-3414",
     },
     policies: {
-      cancellation: "Free cancellation up to 24 hours before check-in. If cancelled later, the first night will be charged.",
+      cancellation:
+        "Free cancellation up to 24 hours before check-in. If cancelled later, the first night will be charged.",
       smoking: "Allowed",
     },
     isPopular: true,
-  }
+  },
 ];
