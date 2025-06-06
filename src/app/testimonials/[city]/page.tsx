@@ -211,7 +211,10 @@ export default function TestimonialsForCityPage({
             </h5>
           </header>
 
-          <Link href={`/tours/${params.city}`} className="md:ml-auto">
+          <Link
+            href={`/experiences-through-destinations/${params.city}/tours`}
+            className="md:ml-auto"
+          >
             <Button variant="default" className="flex items-center gap-2">
               <MapPin size={16} />
               Explore {cityName} Tours
@@ -223,9 +226,9 @@ export default function TestimonialsForCityPage({
         <div className="bg-muted/50 mb-2 p-4 rounded-lg">
           <p className="text-sm">
             Reading what people say about {cityName}? You might also be
-            interested in our{" "}
+            interested in what they are saying about our{" "}
             <Link
-              href={`/tours/${params.city}`}
+              href={`/testimonials/${params.city}/tours`}
               className="font-medium underline underline-offset-4"
             >
               guided tours in {cityName}
