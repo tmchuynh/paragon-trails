@@ -221,9 +221,6 @@ export default function ToursByCityPage() {
           const maxDataPrice = Math.max(
             ...cityTours.map((tour) => tour.pricePerPerson || 0)
           );
-          const maxDataDuration = Math.max(
-            ...cityTours.map((tour) => tour.durationInHours || 0)
-          );
           const minDataGroupSize = Math.min(
             ...cityTours.map((tour) => tour.minGroupSize || 1)
           );
@@ -233,10 +230,6 @@ export default function ToursByCityPage() {
 
           if (isMounted) {
             setPriceRange([0, maxDataPrice > 0 ? maxDataPrice : 1000]);
-            setDurationRange([
-              0,
-              maxDataDuration > 0 ? Math.ceil(maxDataDuration) : 24,
-            ]);
             setGroupSizeRange([
               minDataGroupSize > 0 ? minDataGroupSize : 1,
               maxDataGroupSize > 1 ? maxDataGroupSize : 50,
@@ -688,7 +681,26 @@ export default function ToursByCityPage() {
                   <SelectItem value="JPY">JPY (¥)</SelectItem>
                   <SelectItem value="AUD">AUD (A$)</SelectItem>
                   <SelectItem value="CAD">CAD (C$)</SelectItem>
-                  {/* More currencies can be added as needed */}
+                  <SelectItem value="CNY">CNY (¥)</SelectItem>
+                  <SelectItem value="CHF">CHF (CHF)</SelectItem>
+                  <SelectItem value="SEK">SEK (kr)</SelectItem>
+                  <SelectItem value="NOK">NOK (kr)</SelectItem>
+                  <SelectItem value="DKK">DKK (kr)</SelectItem>
+                  <SelectItem value="NZD">NZD (NZ$)</SelectItem>
+                  <SelectItem value="INR">INR (₹)</SelectItem>
+                  <SelectItem value="MXN">MXN ($)</SelectItem>
+                  <SelectItem value="BRL">BRL (R$)</SelectItem>
+                  <SelectItem value="ZAR">ZAR (R)</SelectItem>
+                  <SelectItem value="KRW">KRW (₩)</SelectItem>
+                  <SelectItem value="SGD">SGD (S$)</SelectItem>
+                  <SelectItem value="HKD">HKD (HK$)</SelectItem>
+                  <SelectItem value="AED">AED (د.إ)</SelectItem>
+                  <SelectItem value="THB">THB (฿)</SelectItem>
+                  <SelectItem value="TRY">TRY (₺)</SelectItem>
+                  <SelectItem value="IDR">IDR (Rp)</SelectItem>
+                  <SelectItem value="PHP">PHP (₱)</SelectItem>
+                  <SelectItem value="PLN">PLN (zł)</SelectItem>
+                  <SelectItem value="HUF">HUF (Ft)</SelectItem>
                 </SelectContent>
               </Select>
             </div>
