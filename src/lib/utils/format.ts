@@ -134,17 +134,9 @@ export function formatNumberToCurrency(
 export function formatKebabToCamelCase(str: string): string {
   return str
     .split("-")
-
-    .map((word, index) => {
-      if (index === 0) {
-        return word;
-      }
-      return (
-        word
-          .replaceAll(/[^a-z0-9]+/g, "")
-          .charAt(0)
-          .toUpperCase() + word.slice(1).replaceAll(/[^a-z0-9]+/g, "")
-      );
+    .map((part, index) => {
+      if (index === 0) return part;
+      return part.charAt(0).toUpperCase() + part.slice(1);
     })
     .join("");
 }
@@ -199,6 +191,12 @@ export function formatKebebToTitleCase(str: string): string {
     .join(" ");
 }
 
+export function formatKebabToTitle(str: string): string {
+  return str
+    .split("-")
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
+}
 
 export function formatTitleCaseToKebabCase(title: string): string {
   return title
