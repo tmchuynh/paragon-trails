@@ -2770,3 +2770,857 @@ export const seattle = {
     },
   ],
 };
+
+export const shanghai = {
+  id: "shanghai",
+  city: "Shanghai",
+  country: "China",
+  quote:
+    "A dazzling mosaic of East meets West, ancient legacy confronts future possibility.",
+  subtitle: "Pearl of the Orient and China's cosmopolitan showcase",
+  isPopular: true,
+  coordinates: { lat: 31.2304, lng: 121.4737 },
+  imageUrl: "https://images.unsplash.com/photo-1538428494232-9c0d8a3ab403",
+  rating: 4.7,
+  description:
+    "Shanghai mesmerizes with its dramatic juxtaposition of ultramodern and colonial architecture. This pulsating global financial center offers both the gleaming skyscrapers of Pudong and the historic charm of The Bund, alongside world-class shopping, dining, and a vibrant arts scene that bridges China's rich past with its ambitious future.",
+  population: 27058500,
+  timeZone: "Asia/Shanghai",
+  isEcoCertified: false,
+  currency: "CNY",
+  priceCategory: "moderate",
+  languagesSpoken: ["Mandarin", "Shanghainese", "English"],
+  tags: ["urban", "modern", "historic", "financial", "shopping"],
+  climate: "Humid subtropical",
+  localDialingCode: "+86",
+  topAttractions: [
+    "the-bund",
+    "yu-garden",
+    "shanghai-tower",
+    "nanjing-road",
+    "jade-buddha-temple",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: false,
+    yachtRentalAvailable: true,
+    airportTransfers: true,
+    localTransitPasses: true,
+  },
+  testimonials: [
+    {
+      author: "Wei L.",
+      content:
+        "The view of Pudong from the Bund at night is simply magical—a skyline that rivals any in the world.",
+      city: "Shanghai",
+      rating: 4.8,
+      date: "2024-05-15",
+    },
+    {
+      author: "Jessica M.",
+      content:
+        "Shanghai's metro system makes the city incredibly easy to navigate, and the blend of old and new architecture is breathtaking.",
+      city: "Shanghai",
+      rating: 4.6,
+      date: "2024-04-02",
+    },
+  ],
+};
+
+export const singapore = {
+  id: "singapore",
+  city: "Singapore",
+  country: "Singapore",
+  quote:
+    "A dazzling multicultural mosaic where future and tradition harmoniously coexist.",
+  subtitle: "City-state of spectacular innovation and order",
+  isPopular: true,
+  coordinates: { lat: 1.3521, lng: 103.8198 },
+  imageUrl: "https://images.unsplash.com/photo-1525625293386-3f8f99389edd",
+  rating: 4.8,
+  description:
+    "Singapore dazzles with its stunning blend of ultramodern architecture, lush greenery, and diverse cultural enclaves. This meticulously clean city-state offers visitors world-class attractions like Gardens by the Bay and Marina Bay Sands alongside vibrant heritage neighborhoods, hawker centers with unparalleled culinary delights, and an efficiency that makes exploration effortless.",
+  population: 5686000,
+  timeZone: "Asia/Singapore",
+  isEcoCertified: true,
+  currency: "SGD",
+  priceCategory: "luxury",
+  languagesSpoken: ["English", "Mandarin", "Malay", "Tamil"],
+  tags: ["modern", "multicultural", "clean", "shopping", "culinary"],
+  climate: "Tropical rainforest",
+  localDialingCode: "+65",
+  topAttractions: [
+    "gardens-by-the-bay",
+    "marina-bay-sands",
+    "sentosa-island",
+    "chinatown",
+    "singapore-botanic-gardens",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: false,
+    yachtRentalAvailable: true,
+    airportTransfers: true,
+    localTransitPasses: true,
+  },
+  testimonials: [
+    {
+      author: "Aishah B.",
+      content:
+        "Singapore's hawker centers are a food lover's paradise—so much incredible food at such reasonable prices!",
+      city: "Singapore",
+      rating: 4.9,
+      date: "2024-06-08",
+    },
+    {
+      author: "Daniel T.",
+      content:
+        "The perfect blend of cultures, cuisines, and stunning architecture. Singapore sets the standard for urban planning and beauty.",
+      city: "Singapore",
+      rating: 4.8,
+      date: "2024-03-22",
+    },
+  ],
+};
+
+export const sitka = {
+  id: "sitka",
+  city: "Sitka",
+  state: "Alaska",
+  country: "United States",
+  quote:
+    "Where Russian heritage meets Tlingit tradition against a backdrop of snow-capped peaks and island-dotted waters.",
+  subtitle: "Alaska's cultural jewel on Baranof Island",
+  isPopular: false,
+  coordinates: { lat: 57.0531, lng: -135.3304 },
+  imageUrl: "https://images.unsplash.com/photo-1531339751961-324b4c494be9",
+  rating: 4.6,
+  description:
+    "Sitka captivates visitors with its unique blend of Russian and Tlingit heritage set against the stunning backdrop of the Tongass National Forest and island-studded Sitka Sound. This former capital of Russian America offers incredible wildlife viewing opportunities, historic Russian architecture, vibrant Native culture, and outdoor adventures in the pristine Alaskan wilderness.",
+  population: 8458,
+  timeZone: "America/Sitka",
+  isEcoCertified: true,
+  currency: "USD",
+  priceCategory: "moderate",
+  languagesSpoken: ["English"],
+  tags: ["historic", "cultural", "wildlife", "scenic", "outdoor"],
+  climate: "Oceanic",
+  localDialingCode: "+1",
+  topAttractions: [
+    "st-michaels-cathedral",
+    "sitka-national-historical-park",
+    "raptor-center",
+    "whale-watching",
+    "fortress-of-the-bear",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: false,
+    yachtRentalAvailable: true,
+    airportTransfers: true,
+    localTransitPasses: false,
+  },
+  testimonials: [
+    {
+      author: "Rachel K.",
+      content:
+        "Seeing bald eagles everywhere and learning about Russian-American history made Sitka unlike any other Alaskan town.",
+      city: "Sitka",
+      rating: 4.7,
+      date: "2024-06-17",
+    },
+    {
+      author: "Jason P.",
+      content:
+        "The wildlife viewing in Sitka Sound was incredible—we saw whales, sea otters, and puffins all in one afternoon!",
+      city: "Sitka",
+      rating: 4.8,
+      date: "2024-05-28",
+    },
+  ],
+};
+
+export const skagway = {
+  id: "skagway",
+  city: "Skagway",
+  state: "Alaska",
+  country: "United States",
+  quote:
+    "A golden rush into Alaska's colorful past at the gateway to the Klondike.",
+  subtitle: "Gold Rush boomtown frozen in time",
+  isPopular: false,
+  coordinates: { lat: 59.4569, lng: -135.3123 },
+  imageUrl: "https://images.unsplash.com/photo-1456428199391-a3b1cb5e93ab",
+  rating: 4.5,
+  description:
+    "Skagway transports visitors back to the raucous days of the Klondike Gold Rush with its remarkably preserved historic district of wooden boardwalks and frontier-era buildings. This charming small town, nestled at the northernmost point of the Inside Passage, offers spectacular scenic train journeys, hiking trails with breathtaking mountain views, and fascinating insights into Alaska's gold mining heritage.",
+  population: 1183,
+  timeZone: "America/Anchorage",
+  isEcoCertified: false,
+  currency: "USD",
+  priceCategory: "moderate",
+  languagesSpoken: ["English"],
+  tags: ["historic", "gold-rush", "scenic", "hiking", "cruise-port"],
+  climate: "Subarctic",
+  localDialingCode: "+1",
+  topAttractions: [
+    "white-pass-yukon-route-railroad",
+    "klondike-gold-rush-national-historical-park",
+    "chilkoot-trail",
+    "gold-rush-cemetery",
+    "red-onion-saloon",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: false,
+    yachtRentalAvailable: true,
+    airportTransfers: true,
+    localTransitPasses: false,
+  },
+  testimonials: [
+    {
+      author: "Michael B.",
+      content:
+        "The White Pass & Yukon Route Railway was the highlight of our Alaska trip. The scenery is absolutely stunning!",
+      city: "Skagway",
+      rating: 4.7,
+      date: "2024-06-02",
+    },
+    {
+      author: "Laura W.",
+      content:
+        "Walking through downtown Skagway feels like stepping into a living museum of the Gold Rush era. Fascinating place!",
+      city: "Skagway",
+      rating: 4.6,
+      date: "2024-05-19",
+    },
+  ],
+};
+
+export const southampton = {
+  id: "southampton",
+  city: "Southampton",
+  country: "United Kingdom",
+  quote:
+    "A maritime legacy that launched a thousand ships, including the ill-fated Titanic.",
+  subtitle: "Britain's historic gateway to the world",
+  isPopular: false,
+  coordinates: { lat: 50.9097, lng: -1.4044 },
+  imageUrl: "https://images.unsplash.com/photo-1599738001738-57778a16b745",
+  rating: 4.3,
+  description:
+    "Southampton combines rich maritime heritage with vibrant modern culture in England's south coast. As the departure point of the Titanic and countless ocean liners, this historic port city offers fascinating maritime museums, well-preserved medieval walls, beautiful parks, and excellent shopping, all while serving as a perfect gateway to explore the scenic New Forest National Park and Isle of Wight.",
+  population: 253651,
+  timeZone: "Europe/London",
+  isEcoCertified: false,
+  currency: "GBP",
+  priceCategory: "moderate",
+  languagesSpoken: ["English"],
+  tags: ["maritime", "historic", "port-city", "shopping", "coastal"],
+  climate: "Oceanic",
+  localDialingCode: "+44",
+  topAttractions: [
+    "seacity-museum",
+    "medieval-city-walls",
+    "solent-sky-museum",
+    "tudor-house-and-garden",
+    "mayflower-park",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: true,
+    yachtRentalAvailable: true,
+    airportTransfers: true,
+    localTransitPasses: true,
+  },
+  testimonials: [
+    {
+      author: "Margaret H.",
+      content:
+        "The Titanic exhibition at SeaCity Museum was so moving and informative. Southampton's maritime history is fascinating.",
+      city: "Southampton",
+      rating: 4.4,
+      date: "2024-05-10",
+    },
+    {
+      author: "Paul D.",
+      content:
+        "Walking the medieval city walls gave us a great perspective on Southampton's history. Perfect day trip from London.",
+      city: "Southampton",
+      rating: 4.2,
+      date: "2024-04-02",
+    },
+  ],
+};
+
+export const stPetersburg = {
+  id: "st-petersburg",
+  city: "St. Petersburg",
+  country: "Russia",
+  quote:
+    "A masterpiece of imperial vision, where water and stone conspire to create unrivaled grandeur.",
+  subtitle: "Russia's majestic cultural capital",
+  isPopular: true,
+  coordinates: { lat: 59.9343, lng: 30.3351 },
+  imageUrl: "https://images.unsplash.com/photo-1556610961-2fecc5927173",
+  rating: 4.8,
+  description:
+    "St. Petersburg enchants with its spectacular ensemble of baroque and neoclassical architecture set along a network of canals. Founded by Peter the Great, this former imperial capital houses world-class treasures in the Hermitage Museum, opulent palaces, onion-domed churches, and the legendary Mariinsky Theatre, all while offering the magical experience of summer White Nights when the city barely darkens.",
+  population: 5398000,
+  timeZone: "Europe/Moscow",
+  isEcoCertified: false,
+  currency: "RUB",
+  priceCategory: "moderate",
+  languagesSpoken: ["Russian", "English"],
+  tags: ["historic", "cultural", "palaces", "art", "canals"],
+  climate: "Humid continental",
+  localDialingCode: "+7",
+  topAttractions: [
+    "hermitage-museum",
+    "peterhof-palace",
+    "church-of-the-savior-on-spilled-blood",
+    "catherine-palace",
+    "nevsky-prospekt",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: true,
+    yachtRentalAvailable: true,
+    airportTransfers: true,
+    localTransitPasses: true,
+  },
+  testimonials: [
+    {
+      author: "Elena V.",
+      content:
+        "The Hermitage collection is simply mind-blowing. You could spend a week there and still not see everything!",
+      city: "St. Petersburg",
+      rating: 4.9,
+      date: "2024-06-20",
+    },
+    {
+      author: "Thomas B.",
+      content:
+        "Watching ballet at the Mariinsky Theatre was a once-in-a-lifetime experience. St. Petersburg is the epitome of cultural richness.",
+      city: "St. Petersburg",
+      rating: 4.7,
+      date: "2024-05-10",
+    },
+  ],
+};
+
+export const stThomas = {
+  id: "st-thomas",
+  city: "St. Thomas",
+  country: "U.S. Virgin Islands",
+  quote:
+    "A vibrant Caribbean jewel of azure waters, where pirate legends meet duty-free paradise.",
+  subtitle: "USVI's cosmopolitan island haven",
+  isPopular: true,
+  coordinates: { lat: 18.3419, lng: -64.9307 },
+  imageUrl: "https://images.unsplash.com/photo-1482117585163-0a87e7facdc9",
+  rating: 4.6,
+  description:
+    "St. Thomas captivates with its stunning harbor, pristine beaches, and lush mountain backdrop. This bustling island offers world-class shopping in Charlotte Amalie, historic attractions reflecting its Danish colonial past, water sports in crystal-clear bays, and panoramic views from mountain peaks—all with the convenience of being a U.S. territory while maintaining its distinctive Caribbean charm.",
+  population: 52000,
+  timeZone: "America/St_Thomas",
+  isEcoCertified: false,
+  currency: "USD",
+  priceCategory: "moderate",
+  languagesSpoken: ["English", "Spanish", "Creole"],
+  tags: ["beach", "shopping", "cruise-port", "tropical", "duty-free"],
+  climate: "Tropical monsoon",
+  localDialingCode: "+1-340",
+  topAttractions: [
+    "magens-bay",
+    "charlotte-amalie",
+    "blackbeards-castle",
+    "coral-world-ocean-park",
+    "mountain-top",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: true,
+    yachtRentalAvailable: true,
+    airportTransfers: true,
+    localTransitPasses: false,
+  },
+  testimonials: [
+    {
+      author: "Amanda J.",
+      content:
+        "Magens Bay is simply one of the most beautiful beaches I've ever visited. The water is so calm and clear!",
+      city: "St. Thomas",
+      rating: 4.8,
+      date: "2024-05-22",
+    },
+    {
+      author: "Derek W.",
+      content:
+        "The duty-free shopping in Charlotte Amalie was amazing. We got some incredible deals on jewelry and electronics.",
+      city: "St. Thomas",
+      rating: 4.6,
+      date: "2024-03-15",
+    },
+  ],
+};
+
+export const sydney = {
+  id: "sydney",
+  city: "Sydney",
+  state: "New South Wales",
+  country: "Australia",
+  quote:
+    "A sun-drenched harbor paradise where iconic architecture meets beach culture.",
+  subtitle: "Australia's dazzling harbor city",
+  isPopular: true,
+  coordinates: { lat: -33.8688, lng: 151.2093 },
+  imageUrl: "https://images.unsplash.com/photo-1507039915464-9d829b6d2f6a",
+  rating: 4.8,
+  description:
+    "Sydney mesmerizes with its stunning harbor setting, world-renowned Opera House, and golden beaches like Bondi. This vibrant metropolis offers an unbeatable combination of cosmopolitan culture, outdoor lifestyle, and natural beauty, from coastal walks with breathtaking views to diverse neighborhoods, excellent dining, and a sunny climate that encourages year-round exploration.",
+  population: 5312000,
+  timeZone: "Australia/Sydney",
+  isEcoCertified: true,
+  currency: "AUD",
+  priceCategory: "moderate",
+  languagesSpoken: ["English", "Mandarin", "Arabic", "Cantonese", "Vietnamese"],
+  tags: ["harbor", "beaches", "iconic", "cultural", "outdoor"],
+  climate: "Humid subtropical",
+  localDialingCode: "+61",
+  topAttractions: [
+    "sydney-opera-house",
+    "sydney-harbour-bridge",
+    "bondi-beach",
+    "darling-harbour",
+    "royal-botanic-garden",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: true,
+    yachtRentalAvailable: true,
+    airportTransfers: true,
+    localTransitPasses: true,
+  },
+  testimonials: [
+    {
+      author: "Olivia H.",
+      content:
+        "The coastal walk from Bondi to Coogee is absolutely gorgeous—beautiful beaches, stunning cliffs, and amazing views the entire way!",
+      city: "Sydney",
+      rating: 4.9,
+      date: "2024-04-08",
+    },
+    {
+      author: "Jason M.",
+      content:
+        "Taking the ferry across the harbor at sunset with the Opera House and Harbour Bridge lit up is a memory I'll never forget.",
+      city: "Sydney",
+      rating: 4.8,
+      date: "2024-03-15",
+    },
+  ],
+};
+
+export const tampa = {
+  id: "tampa",
+  city: "Tampa",
+  state: "Florida",
+  country: "United States",
+  quote:
+    "Where the Gulf Coast comes alive with sunshine, culture, and adventure.",
+  subtitle: "Florida's vibrant bayside playground",
+  isPopular: false,
+  coordinates: { lat: 27.9506, lng: -82.4572 },
+  imageUrl: "https://images.unsplash.com/photo-1580744306028-8b5f9fdaa1b5",
+  rating: 4.5,
+  description:
+    "Tampa blends urban sophistication with waterfront charm on Florida's Gulf Coast. This sun-drenched city offers family-friendly attractions like Busch Gardens, a vibrant Latin-influenced historic district in Ybor City, thriving arts venues, championship sports teams, and easy access to stunning beaches, creating a diverse destination that balances relaxation with excitement.",
+  population: 384959,
+  timeZone: "America/New_York",
+  isEcoCertified: false,
+  currency: "USD",
+  priceCategory: "moderate",
+  languagesSpoken: ["English", "Spanish"],
+  tags: ["beach", "family-friendly", "cultural", "urban", "theme-parks"],
+  climate: "Humid subtropical",
+  localDialingCode: "+1",
+  topAttractions: [
+    "busch-gardens",
+    "tampa-riverwalk",
+    "ybor-city",
+    "florida-aquarium",
+    "raymond-james-stadium",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: true,
+    yachtRentalAvailable: true,
+    airportTransfers: true,
+    localTransitPasses: true,
+  },
+  testimonials: [
+    {
+      author: "Victoria H.",
+      content:
+        "Tampa has the perfect mix of city life and beaches. Loved exploring the Tampa Riverwalk and Ybor City's historic charm!",
+      city: "Tampa",
+      rating: 4.6,
+      date: "2024-05-20",
+    },
+    {
+      author: "Samuel T.",
+      content:
+        "Great food scene, friendly locals, and so much to do! Busch Gardens was a highlight for our family trip.",
+      city: "Tampa",
+      rating: 4.4,
+      date: "2024-04-08",
+    },
+  ],
+};
+
+export const tokyo = {
+  id: "tokyo",
+  city: "Tokyo",
+  country: "Japan",
+  quote:
+    "A city where ancient tradition and ultramodern innovation coexist in perfect harmony.",
+  subtitle: "Japan's electrifying metropolis of contrasts",
+  isPopular: true,
+  coordinates: { lat: 35.6762, lng: 139.6503 },
+  imageUrl: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf",
+  rating: 4.9,
+  description:
+    "Tokyo dazzles with its seamless fusion of cutting-edge technology and treasured traditions. This vast, mesmerizing metropolis offers a sensory feast of neon-lit skyscrapers, peaceful Shinto shrines, world-class dining, impeccable service, and intricate cultural experiences. From the bustling scramble of Shibuya Crossing to the serene gardens of the Imperial Palace, Tokyo presents an endlessly fascinating urban landscape.",
+  population: 13960000,
+  timeZone: "Asia/Tokyo",
+  isEcoCertified: true,
+  currency: "JPY",
+  priceCategory: "luxury",
+  languagesSpoken: ["Japanese", "English"],
+  tags: ["urban", "cultural", "shopping", "culinary", "technological"],
+  climate: "Humid subtropical",
+  localDialingCode: "+81",
+  topAttractions: [
+    "senso-ji-temple",
+    "tokyo-skytree",
+    "shibuya-crossing",
+    "meiji-shrine",
+    "shinjuku-gyoen",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: false,
+    yachtRentalAvailable: true,
+    airportTransfers: true,
+    localTransitPasses: true,
+  },
+  testimonials: [
+    {
+      author: "Ryan K.",
+      content:
+        "The efficiency, cleanliness, and incredible food make Tokyo unbeatable. I could spend months exploring and still find new surprises.",
+      city: "Tokyo",
+      rating: 5.0,
+      date: "2024-05-25",
+    },
+    {
+      author: "Naomi L.",
+      content:
+        "Tokyo's blend of historic temples and futuristic technology creates a magical atmosphere unlike anywhere else in the world.",
+      city: "Tokyo",
+      rating: 4.9,
+      date: "2024-03-12",
+    },
+  ],
+};
+
+export const toronto = {
+  id: "toronto",
+  city: "Toronto",
+  state: "Ontario",
+  country: "Canada",
+  quote:
+    "The world within a city where cultural mosaic meets urban innovation.",
+  subtitle: "Canada's dynamic multicultural hub",
+  isPopular: true,
+  coordinates: { lat: 43.6532, lng: -79.3832 },
+  imageUrl: "https://images.unsplash.com/photo-1517935706615-2717063c2225",
+  rating: 4.7,
+  description:
+    "Toronto thrives as one of the world's most multicultural cities, offering a remarkable diversity of neighborhoods, cuisines, and cultural experiences. This welcoming metropolis boasts iconic landmarks like the CN Tower, vibrant markets, world-class museums, beautiful lakefront areas, and a thriving arts scene, all while maintaining the cleanliness, safety, and friendliness that Canada is famous for.",
+  population: 2930000,
+  timeZone: "America/Toronto",
+  isEcoCertified: true,
+  currency: "CAD",
+  priceCategory: "moderate",
+  languagesSpoken: [
+    "English",
+    "French",
+    "Mandarin",
+    "Cantonese",
+    "Italian",
+    "Portuguese",
+  ],
+  tags: ["urban", "cultural", "diversity", "lakefront", "arts"],
+  climate: "Humid continental",
+  localDialingCode: "+1",
+  topAttractions: [
+    "cn-tower",
+    "royal-ontario-museum",
+    "ripley's-aquarium",
+    "distillery-district",
+    "kensington-market",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: true,
+    yachtRentalAvailable: true,
+    airportTransfers: true,
+    localTransitPasses: true,
+  },
+  testimonials: [
+    {
+      author: "Mia C.",
+      content:
+        "Toronto truly feels like the world in one city. The diverse neighborhoods and incredible food scene make it special.",
+      city: "Toronto",
+      rating: 4.8,
+      date: "2024-06-01",
+    },
+    {
+      author: "Omar R.",
+      content:
+        "Clean, safe, and surprisingly walkable for a big city. The waterfront areas and islands offer a perfect escape from urban life.",
+      city: "Toronto",
+      rating: 4.7,
+      date: "2024-04-17",
+    },
+  ],
+};
+
+export const vancouver = {
+  id: "vancouver",
+  city: "Vancouver",
+  state: "British Columbia",
+  country: "Canada",
+  quote:
+    "A spectacular collision of urban sophistication and breathtaking wilderness.",
+  subtitle: "Canada's Pacific jewel of mountains and sea",
+  isPopular: true,
+  coordinates: { lat: 49.2827, lng: -123.1207 },
+  imageUrl: "https://images.unsplash.com/photo-1580655653885-65763b2597d0",
+  rating: 4.8,
+  description:
+    "Vancouver captivates with its extraordinary setting between snow-capped mountains and sparkling Pacific waters. This consistently ranked 'world's most livable city' offers exceptional outdoor activities year-round, from hiking through temperate rainforests to skiing world-class slopes, alongside diverse neighborhoods, outstanding Asian cuisine, thriving arts scenes, and the eco-friendly urban oasis of Stanley Park.",
+  population: 662248,
+  timeZone: "America/Vancouver",
+  isEcoCertified: true,
+  currency: "CAD",
+  priceCategory: "luxury",
+  languagesSpoken: ["English", "Mandarin", "Cantonese", "Punjabi", "Tagalog"],
+  tags: ["scenic", "outdoor", "cultural", "eco-friendly", "coastal"],
+  climate: "Oceanic",
+  localDialingCode: "+1",
+  topAttractions: [
+    "stanley-park",
+    "granville-island",
+    "capilano-suspension-bridge",
+    "grouse-mountain",
+    "gastown",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: true,
+    yachtRentalAvailable: true,
+    airportTransfers: true,
+    localTransitPasses: true,
+  },
+  testimonials: [
+    {
+      author: "Jane W.",
+      content:
+        "Vancouver is simply stunning—where else can you ski in the morning and sail in the afternoon? The natural beauty is unmatched.",
+      city: "Vancouver",
+      rating: 4.9,
+      date: "2024-03-28",
+    },
+    {
+      author: "Hiroshi T.",
+      content:
+        "The Asian food scene is incredible, and Stanley Park rivals any urban park in the world. Clean, safe, and welcoming city!",
+      city: "Vancouver",
+      rating: 4.8,
+      date: "2024-02-12",
+    },
+  ],
+};
+
+export const venice = {
+  id: "venice",
+  city: "Venice",
+  country: "Italy",
+  quote:
+    "A floating masterpiece of marble palaces, shimmering canals, and impossible beauty.",
+  subtitle: "The timeless floating city of dreams",
+  isPopular: true,
+  coordinates: { lat: 45.4408, lng: 12.3155 },
+  imageUrl: "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9",
+  rating: 4.8,
+  description:
+    "Venice enchants as a miraculous city built entirely on water, with its maze of canals, Renaissance palaces, and marble churches creating an otherworldly atmosphere. This extraordinarily preserved architectural treasure offers magical experiences around every corner, from gondola rides through intimate waterways to spectacular art collections housed in grand palazzos, all while facing the challenges of mass tourism and rising tides.",
+  population: 261905,
+  timeZone: "Europe/Rome",
+  isEcoCertified: false,
+  currency: "EUR",
+  priceCategory: "luxury",
+  languagesSpoken: ["Italian", "English"],
+  tags: ["romantic", "historic", "canals", "architecture", "art"],
+  climate: "Humid subtropical",
+  localDialingCode: "+39",
+  topAttractions: [
+    "st-marks-basilica",
+    "grand-canal",
+    "doge's-palace",
+    "rialto-bridge",
+    "burano-island",
+  ],
+  services: {
+    carRentalAvailable: false,
+    motorcycleRentalAvailable: false,
+    yachtRentalAvailable: true,
+    airportTransfers: true,
+    localTransitPasses: true,
+  },
+  testimonials: [
+    {
+      author: "Claire M.",
+      content:
+        "Venice feels like stepping into a dream. Getting lost in the maze of tiny streets and stumbling upon beautiful squares was magical.",
+      city: "Venice",
+      rating: 4.9,
+      date: "2024-05-17",
+    },
+    {
+      author: "Antonio B.",
+      content:
+        "Beyond the tourist crowds, there's an authentic Venice waiting to be discovered. Early mornings and evenings reveal the city's true soul.",
+      city: "Venice",
+      rating: 4.7,
+      date: "2024-04-03",
+    },
+  ],
+};
+
+export const victoria = {
+  id: "victoria",
+  city: "Victoria",
+  state: "British Columbia",
+  country: "Canada",
+  quote:
+    "A slice of old England wrapped in Vancouver Island's natural splendor.",
+  subtitle: "The Garden City of Canada's Pacific coast",
+  isPopular: false,
+  coordinates: { lat: 48.4284, lng: -123.3656 },
+  imageUrl: "https://images.unsplash.com/photo-1564719707789-cf19da7a4cc8",
+  rating: 4.6,
+  description:
+    "Victoria charms with its British colonial heritage, magnificent gardens, and spectacular Pacific coastal setting. Vancouver Island's capital offers genteel afternoon teas at the iconic Empress Hotel, colorful blooms at Butchart Gardens, a vibrant Inner Harbour bustling with street performers, alongside rainforest hiking, whale watching, and a burgeoning farm-to-table culinary scene—all delivered with a relaxed West Coast sensibility.",
+  population: 394324,
+  timeZone: "America/Vancouver",
+  isEcoCertified: true,
+  currency: "CAD",
+  priceCategory: "moderate",
+  languagesSpoken: ["English", "French", "Chinese"],
+  tags: ["gardens", "british-heritage", "coastal", "outdoor", "whale-watching"],
+  climate: "Mediterranean",
+  localDialingCode: "+1",
+  topAttractions: [
+    "butchart-gardens",
+    "royal-bc-museum",
+    "inner-harbour",
+    "empress-hotel",
+    "craigdarroch-castle",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: true,
+    yachtRentalAvailable: true,
+    airportTransfers: true,
+    localTransitPasses: true,
+  },
+  testimonials: [
+    {
+      author: "Eleanor H.",
+      content:
+        "Victoria is like stepping into a more civilized era—beautiful gardens, historic architecture, and the most spectacular harbor views.",
+      city: "Victoria",
+      rating: 4.7,
+      date: "2024-06-02",
+    },
+    {
+      author: "Brian T.",
+      content:
+        "Our whale watching tour was incredible—we saw orcas and humpbacks! Victoria perfectly balances city amenities with natural wonders.",
+      city: "Victoria",
+      rating: 4.6,
+      date: "2024-05-14",
+    },
+  ],
+};
+
+export const yokohama = {
+  id: "yokohama",
+  city: "Yokohama",
+  country: "Japan",
+  quote:
+    "Where Japan's maritime heritage meets futuristic urban design on Tokyo Bay.",
+  subtitle: "Japan's sophisticated harbor city",
+  isPopular: false,
+  coordinates: { lat: 35.4437, lng: 139.638 },
+  imageUrl: "https://images.unsplash.com/photo-1551641506-ee5bf4cb45f1",
+  rating: 4.5,
+  description:
+    "Yokohama, Japan's second-largest city, offers a refreshing maritime openness just 30 minutes from Tokyo. Once a small fishing village, it evolved into a vital international port showcasing an attractive blend of Japanese and Western influences. Visitors enjoy spectacular harbor views from Minato Mirai's sleek skyscrapers, atmospheric Chinatown streets, historical Western-style buildings, and innovative museums, all with a more relaxed pace than nearby Tokyo.",
+  population: 3740172,
+  timeZone: "Asia/Tokyo",
+  isEcoCertified: false,
+  currency: "JPY",
+  priceCategory: "moderate",
+  languagesSpoken: ["Japanese", "English"],
+  tags: ["port-city", "modern", "cultural", "waterfront", "shopping"],
+  climate: "Humid subtropical",
+  localDialingCode: "+81",
+  topAttractions: [
+    "minato-mirai",
+    "yokohama-chinatown",
+    "cup-noodles-museum",
+    "sankeien-garden",
+    "yamashita-park",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: false,
+    yachtRentalAvailable: true,
+    airportTransfers: true,
+    localTransitPasses: true,
+  },
+  testimonials: [
+    {
+      author: "Takashi M.",
+      content:
+        "Yokohama offers Tokyo's excitement with a more relaxed atmosphere. The night views from Minato Mirai are simply spectacular!",
+      city: "Yokohama",
+      rating: 4.6,
+      date: "2024-04-18",
+    },
+    {
+      author: "Lisa K.",
+      content:
+        "A perfect day trip from Tokyo—the Cup Noodles Museum was unexpectedly fun, and Chinatown has the best food!",
+      city: "Yokohama",
+      rating: 4.5,
+      date: "2024-03-25",
+    },
+  ],
+};
