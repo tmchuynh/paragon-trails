@@ -1,19 +1,164 @@
-export async function getToolResource(
-  toolKit: string,
-  tool: string,
-  toolKitID: string
-): Promise<any> {
+import { Attraction } from "@/lib/interfaces/services/attractions";
+
+export async function getCityFiles(): Promise<any> {
   try {
-    const toolModule = await import(`@/lib/constants/city/${toolKit}/${tool}`);
-    // Return the specific named export that matches toolKitID
-    if (toolModule[toolKitID]) {
-      return toolModule[toolKitID];
+    const cityFilesModule = await import("@/lib/constants/info/city");
+    return cityFilesModule.cityFiles;
+  } catch (error) {
+    console.error(`Error loading city files: ${error}`);
+    return [];
+  }
+}
+
+export async function getCityFile(city: string): Promise<any> {
+  try {
+    const cityFilesModule = await import("@/lib/constants/info/city");
+    const cityFile = cityFilesModule.cityFiles.find(
+      (file: any) => file.city === city
+    );
+    if (cityFile) {
+      return cityFile;
     } else {
-      console.error(`Export named ${toolKitID} not found in module`);
+      console.error(`City file for ${city} not found`);
+      return null;
+    }
+  } catch (error) {
+    console.error(`Error loading city file: ${error}`);
+    return null;
+  }
+}
+
+export async function getCityAttractions(city: string): Promise<any> {
+  try {
+    const cityFile = await getCityFile(city);
+    if (cityFile && cityFile.attractions) {
+      return cityFile.attractions;
+    } else {
+      console.error(`Attractions for ${city} not found`);
       return [];
     }
   } catch (error) {
-    console.error(`Error loading resource: ${error}`);
+    console.error(`Error loading attractions for ${city}: ${error}`);
+    return [];
+  }
+}
+export async function getCityAttraction(
+  city: string,
+  attractionId: string
+): Promise<Attraction | null> {
+  try {
+    const attractions = await getCityAttractions(city);
+    const attraction = attractions.find((a: any) => a.id === attractionId);
+    if (attraction) {
+      return attraction;
+    } else {
+      console.error(`Attraction with ID ${attractionId} not found in ${city}`);
+      return null;
+    }
+  } catch (error) {
+    console.error(`Error loading attraction for ${city}: ${error}`);
+    return null;
+  }
+}
+export async function getCityAttractionByName(
+  city: string,
+  attractionName: string
+): Promise<Attraction | null> {
+  try {
+    const attractions = await getCityAttractions(city);
+    const attraction = attractions.find(
+      (a: any) => a.name.toLowerCase() === attractionName.toLowerCase()
+    );
+    if (attraction) {
+      return attraction;
+    } else {
+      console.error(
+        `Attraction with name ${attractionName} not found in ${city}`
+      );
+      return null;
+    }
+  } catch (error) {
+    console.error(`Error loading attraction for ${city}: ${error}`);
+    return null;
+  }
+}
+
+export async function getCityAttractionsByTags(
+  city: string,
+  tags: string[]
+): Promise<Attraction[]> {
+  try {
+    const attractions = await getCityAttractions(city);
+    const filteredAttractions = attractions.filter((attraction: any) =>
+      tags.some((tag) => attraction.tags.includes(tag))
+    );
+    return filteredAttractions;
+  } catch (error) {
+    console.error(`Error loading attractions for ${city}: ${error}`);
+    return [];
+  }
+}
+
+export async function getCityAttractionsByEntryFeeCategory(
+  city: string,
+  entryFeeCategory: string
+): Promise<Attraction[]> {
+  try {
+    const attractions = await getCityAttractions(city);
+    const filteredAttractions = attractions.filter(
+      (attraction: any) => attraction.entryFeeCategory === entryFeeCategory
+    );
+    return filteredAttractions;
+  } catch (error) {
+    console.error(`Error loading attractions for ${city}: ${error}`);
+    return [];
+  }
+}
+
+export async function getCityAttractionsByPriceRange(
+  city: string,
+  priceRange: string
+): Promise<Attraction[]> {
+  try {
+    const attractions = await getCityAttractions(city);
+    const filteredAttractions = attractions.filter(
+      (attraction: any) => attraction.priceRange === priceRange
+    );
+    return filteredAttractions;
+  } catch (error) {
+    console.error(`Error loading attractions for ${city}: ${error}`);
+    return [];
+  }
+}
+
+export async function getCityAttractionsByTimeOfDay(
+  city: string,
+  timeOfDay: string
+): Promise<Attraction[]> {
+  try {
+    const attractions = await getCityAttractions(city);
+    const filteredAttractions = attractions.filter(
+      (attraction: any) => attraction.timeOfDay === timeOfDay
+    );
+    return filteredAttractions;
+  } catch (error) {
+    console.error(`Error loading attractions for ${city}: ${error}`);
+    return [];
+  }
+}
+
+export async function getCityAttractionsByRating(
+  city: string,
+  rating: number
+): Promise<Attraction[]> {
+  try {
+    const attractions = await getCityAttractions(city);
+    const filteredAttractions = attractions.filter(
+      (attraction: any) => attraction.rating >= rating
+    );
+    return filteredAttractions;
+  } catch (error) {
+    console.error(`Error loading attractions for ${city}: ${error}`);
     return [];
   }
 }
