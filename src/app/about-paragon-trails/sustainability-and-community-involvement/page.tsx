@@ -7,6 +7,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
+import { Book, UserCheck, HeartHandshake, Users } from "lucide-react"; // Import icons
 
 export default function SustainabilityAndCommunityInvolvement() {
   return (
@@ -152,31 +153,48 @@ export default function SustainabilityAndCommunityInvolvement() {
         </p>
 
         <h3 className="mb-3 font-semibold">Highlights:</h3>
-        <div className="gap-4 grid md:grid-cols-2 mb-8">
-          <div className="bg-card p-4 border border-border rounded-lg">
-            <h4 className="font-medium">Education Funding</h4>
-            <p>
+        <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-10">
+          <div className="flex flex-col items-center bg-background p-6 rounded-lg text-center">
+            <div className="bg-muted mb-4 p-4 rounded-full">
+              <Book size={24} />
+            </div>
+            <h4 className="mb-2 font-medium">Education Funding</h4>
+            <p className="text-muted-foreground text-sm">
               Over $280,000 donated to fund scholarships and school
               infrastructure in Nepal, Kenya, and Peru since 2015.
             </p>
           </div>
-          <div className="bg-card p-4 border border-border rounded-lg">
-            <h4 className="font-medium">Artisan & Cultural Preservation</h4>
-            <p>
+
+          <div className="flex flex-col items-center bg-background p-6 rounded-lg text-center">
+            <div className="bg-muted mb-4 p-4 rounded-full">
+              <UserCheck size={24} />
+            </div>
+            <h4 className="mb-2 font-medium">
+              Artisan & Cultural Preservation
+            </h4>
+            <p className="text-muted-foreground text-sm">
               70+ local artisan workshops included in active itineraries,
               directly supporting generational skills and fair trade.
             </p>
           </div>
-          <div className="bg-card p-4 border border-border rounded-lg">
-            <h4 className="font-medium">Post-Crisis Support</h4>
-            <p>
+
+          <div className="flex flex-col items-center bg-background p-6 rounded-lg text-center">
+            <div className="bg-muted mb-4 p-4 rounded-full">
+              <HeartHandshake size={24} />
+            </div>
+            <h4 className="mb-2 font-medium">Post-Crisis Support</h4>
+            <p className="text-muted-foreground text-sm">
               Rapid-response funds allocated to local recovery efforts after
               events in Morocco (2023), Maui (2023), and southern Brazil (2024).
             </p>
           </div>
-          <div className="bg-card p-4 border border-border rounded-lg">
-            <h4 className="font-medium">Women's Empowerment Focus</h4>
-            <p>
+
+          <div className="flex flex-col items-center bg-background p-6 rounded-lg text-center">
+            <div className="bg-muted mb-4 p-4 rounded-full">
+              <Users size={24} />
+            </div>
+            <h4 className="mb-2 font-medium">Women's Empowerment Focus</h4>
+            <p className="text-muted-foreground text-sm">
               42% of all on-the-ground guides and experience leads in Africa and
               Southeast Asia are women—a direct result of targeted hiring
               incentives.
