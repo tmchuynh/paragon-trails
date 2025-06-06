@@ -858,8 +858,6 @@ const testimonialTitles = [
   "The Joys of Slow Living in {CITY}",
   "How {CITY} Balances Tradition and Innovation",
 ];
-  
-  
 
 // Helper functions
 async function ensureDirectoryExists(dirPath) {
