@@ -36,6 +36,10 @@ import {
   euroCountries,
   regionCurrencyMap,
 } from "./utils/geo-utils.mjs";
+import {
+  formatKebebToTitleCase,
+  removeAccents,
+} from "./utils/format-utils.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -133,7 +137,7 @@ function parseOpeningHours(hoursString) {
     if (hoursString.toLowerCase().includes("closed")) {
       // Try to match a specific closed day
       const closedDayMatch = hoursString.match(
-        /closed\s+(?:on\s+)?([A-Za-z]+)s?/i,
+        /closed\s+(?:on\s+)?([A-Za-z]+)s?/i
       );
       if (closedDayMatch) {
         const closedDay = closedDayMatch[1].toLowerCase();
@@ -176,10 +180,10 @@ function parseOpeningHours(hoursString) {
 
       // Find start and end day indices
       let startDayIndex = days.findIndex((day) =>
-        day.toLowerCase().startsWith(startDay.toLowerCase()),
+        day.toLowerCase().startsWith(startDay.toLowerCase())
       );
       let endDayIndex = days.findIndex((day) =>
-        day.toLowerCase().startsWith(endDay.toLowerCase()),
+        day.toLowerCase().startsWith(endDay.toLowerCase())
       );
 
       // Try abbreviated day matching if not found
@@ -239,7 +243,7 @@ function parseTimeRange(timeRange) {
 
   // Enhanced pattern to match various time formats
   const timeMatch = cleanedRange.match(
-    /(\d+(?::\d+)?\s*(?:AM|PM|am|pm)?)\s*[-–]\s*(\d+(?::\d+)?\s*(?:AM|PM|am|pm)?)/i,
+    /(\d+(?::\d+)?\s*(?:AM|PM|am|pm)?)\s*[-–]\s*(\d+(?::\d+)?\s*(?:AM|PM|am|pm)?)/i
   );
 
   if (!timeMatch) {
@@ -415,7 +419,7 @@ export const ${varName}: Attraction[] = ${stringifyObject(attractions)};
   // Ensure directory exists
   const destDir = path.join(
     __dirname,
-    "../src/lib/constants/destinations/city",
+    "../src/lib/constants/destinations/city"
   );
   ensureDirectoryExists(destDir);
 
@@ -425,7 +429,7 @@ export const ${varName}: Attraction[] = ${stringifyObject(attractions)};
   // Check if file exists and handle accordingly
   if (fs.existsSync(filePath) && !options.rewrite && !options.append) {
     console.log(
-      `File for ${citySlug} already exists. Skipping. Use --rewrite to overwrite.`,
+      `File for ${citySlug} already exists. Skipping. Use --rewrite to overwrite.`
     );
     return;
   }
@@ -460,6 +464,8 @@ function generateAttractions() {
 
       attractionCount++;
 
+      const id = `attraction-${removeAccents(city).toLowerCase().replace(/\s+/g, "-")}-${attractionCount + 1}`;
+
       // Parse opening hours with improved function
       let openingHours;
       try {
@@ -485,7 +491,7 @@ function generateAttractions() {
         }
       } catch (e) {
         console.warn(
-          `Error parsing opening hours for ${attractionName} in ${city}: ${e.message}`,
+          `Error parsing opening hours for ${attractionName} in ${city}: ${e.message}`
         );
         openingHours = [];
       }
@@ -506,6 +512,8 @@ function generateAttractions() {
 
       // Create attraction object according to BaseAttraction interface
       const attraction = {
+        id,
+        city: `${formatKebebToTitleCase(city)}`,
         title: basicInfo.title,
         description: detailInfo.description || "No description available",
         imageUrl: basicInfo.imageUrl,
@@ -539,11 +547,11 @@ function generateAttractions() {
 
   fs.writeFileSync(
     path.join(outputDir, "attractions.json"),
-    JSON.stringify(result, null, 2),
+    JSON.stringify(result, null, 2)
   );
 
   console.log(
-    `Generated attractions data for ${cityCount} cities with ${attractionCount} total attractions.`,
+    `Generated attractions data for ${cityCount} cities with ${attractionCount} total attractions.`
   );
 }
 
