@@ -1,5 +1,6 @@
 "use client";
 
+import Loading from "@/components/Loading";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
@@ -28,12 +29,19 @@ import {
 } from "@/components/ui/select";
 import { Slider } from "@/components/ui/slider";
 import { Switch } from "@/components/ui/switch";
+import { Currency, SortDirection, SortField } from "@/lib/interfaces/general";
 import {
   Tour,
   TourRegion,
   TourTheme,
   TourType,
 } from "@/lib/interfaces/services/tours";
+import {
+  convertPrice,
+  formatKebebToTitleCase,
+  formatPrice,
+  removeSpecialCharactersFromNumbers,
+} from "@/lib/utils/format";
 import { getAllTours } from "@/lib/utils/get/tours";
 import {
   ChevronDown,
@@ -42,15 +50,8 @@ import {
   SlidersHorizontal,
   X,
 } from "lucide-react";
-import { useEffect, useState } from "react";
-import Loading from "@/components/Loading";
-import {
-  formatKebebToTitleCase,
-  removeSpecialCharactersFromNumbers,
-} from "@/lib/utils/format";
 import { useRouter } from "next/navigation";
-import { currencyRates } from "@/lib/constants/info/general";
-import { SortField, SortDirection, Currency } from "@/lib/interfaces/general";
+import { useEffect, useState } from "react";
 
 export default function ToursExplorePageClient() {
   const router = useRouter();
@@ -124,13 +125,8 @@ export default function ToursExplorePageClient() {
     async function fetchTours() {
       try {
         const allTours = await getAllTours();
-        console.log("All tours loaded:", allTours.length);
-        console.log("Sample tour data:", allTours[0]);
-
         setTours(allTours);
         setFilteredTours(allTours);
-        console.log("State updated with tours");
-
         // Set price range based on actual data
         const maxDataPrice = Math.max(
           ...allTours.map((tour) => parseFloat(tour.price) || 0)
@@ -168,17 +164,8 @@ export default function ToursExplorePageClient() {
     fetchTours();
   }, []);
 
-  // Debug the state after update
-  useEffect(() => {
-    console.log("Current filteredTours length:", filteredTours.length);
-    console.log("Current page:", currentPage);
-    console.log("Items per page:", pageSize);
-    console.log("Current items to display:", currentItems.length);
-  }, [filteredTours, currentPage, pageSize, currentItems]);
-
   // Console log whenever currentItems changes
   useEffect(() => {
-    console.log("Current items updated:", currentItems.length);
     if (currentItems.length === 0 && filteredTours.length > 0) {
       console.log("Warning: No items to display despite having filtered tours");
     }
@@ -187,21 +174,6 @@ export default function ToursExplorePageClient() {
   // Apply filters and sorting when any filter changes
   useEffect(() => {
     if (tours.length === 0) return;
-    console.log("Applying filters to", tours.length, "tours");
-    console.log("Current filters:", {
-      cities: cityFilter,
-      countries: countryFilter,
-      regions: regionFilter,
-      languages: languageFilter,
-      types: typeFilter,
-      tags: tagFilter,
-      price: priceRange,
-      duration: durationRange,
-      groupSize: groupSizeRange,
-      privateOnly,
-      petFriendlyOnly,
-    });
-
     let result = [...tours];
 
     // Apply city filter
@@ -389,81 +361,6 @@ export default function ToursExplorePageClient() {
       setFilterArray(filterArray.filter((i) => i !== item));
     } else {
       setFilterArray([...filterArray, item]);
-    }
-  };
-
-  const convertPrice = (
-    price: number,
-    fromCurrency: string,
-    toCurrency: Currency
-  ): number => {
-    // Convert to USD first (if not already USD)
-    const inUSD =
-      fromCurrency === "USD"
-        ? price
-        : price / currencyRates[fromCurrency as Currency];
-    // Then convert from USD to target currency
-    return inUSD * currencyRates[toCurrency];
-  };
-
-  const formatPrice = (price: number | string, currency: Currency): string => {
-    const numPrice = typeof price === "string" ? parseFloat(price) : price;
-
-    switch (currency) {
-      case "USD":
-        return `$${numPrice.toFixed(2)}`;
-      case "EUR":
-        return `€${numPrice.toFixed(2)}`;
-      case "GBP":
-        return `£${numPrice.toFixed(2)}`;
-      case "JPY":
-        return `¥${Math.round(numPrice)}`;
-      case "AUD":
-        return `A$${numPrice.toFixed(2)}`;
-      case "CAD":
-        return `C$${numPrice.toFixed(2)}`;
-      case "CNY":
-        return `¥${numPrice.toFixed(2)}`;
-      case "CHF":
-        return `CHF ${numPrice.toFixed(2)}`;
-      case "SEK":
-        return `kr ${numPrice.toFixed(2)}`;
-      case "NOK":
-        return `kr ${numPrice.toFixed(2)}`;
-      case "DKK":
-        return `kr ${numPrice.toFixed(2)}`;
-      case "NZD":
-        return `NZ$${numPrice.toFixed(2)}`;
-      case "INR":
-        return `₹${numPrice.toFixed(2)}`;
-      case "MXN":
-        return `$${numPrice.toFixed(2)} MXN`;
-      case "BRL":
-        return `R$${numPrice.toFixed(2)}`;
-      case "ZAR":
-        return `R${numPrice.toFixed(2)}`;
-      case "KRW":
-        return `₩${Math.round(numPrice)}`;
-      case "SGD":
-        return `S$${numPrice.toFixed(2)}`;
-      case "HKD":
-        return `HK$${numPrice.toFixed(2)}`;
-      case "AED":
-        return `د.إ ${numPrice.toFixed(2)}`;
-      case "THB":
-        return `฿${numPrice.toFixed(2)}`;
-      case "TRY":
-        return `₺${numPrice.toFixed(2)}`;
-      case "IDR":
-        return `Rp ${Math.round(numPrice)}`;
-      case "PHP":
-        return `₱${numPrice.toFixed(2)}`;
-      case "PLN":
-        return `zł ${numPrice.toFixed(2)}`;
-      case "HUF":
-        return `Ft ${Math.round(numPrice)}`;
-      default:
-        return `${numPrice.toFixed(2)} ${currency}`;
     }
   };
 
