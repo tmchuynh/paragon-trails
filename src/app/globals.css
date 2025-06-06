@@ -228,7 +228,7 @@
     @apply text-pretty leading-relaxed;
   }
   blockquote {
-    @apply pl-4 italic mb-5 text-lg max-w-4xl mx-auto;
+    @apply mt-2 italic mb-5 text-lg max-w-4xl;
   }
   header {
     @apply mb-8 w-full;
