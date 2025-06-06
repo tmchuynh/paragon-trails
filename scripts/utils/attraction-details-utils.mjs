@@ -1,541 +1,406 @@
-// Additional cities for attractionDetails
+/**
+ * Attraction details utilities for Paragon Trails
+ * Contains detailed information about attractions including hours, prices, and features
+ */
+
+// Standard opening hours patterns
+const standardBusinessHours = [
+  { day: "Monday", availableHours: [{ from: "9:00 AM", to: "5:00 PM" }] },
+  { day: "Tuesday", availableHours: [{ from: "9:00 AM", to: "5:00 PM" }] },
+  { day: "Wednesday", availableHours: [{ from: "9:00 AM", to: "5:00 PM" }] },
+  { day: "Thursday", availableHours: [{ from: "9:00 AM", to: "5:00 PM" }] },
+  { day: "Friday", availableHours: [{ from: "9:00 AM", to: "5:00 PM" }] },
+  { day: "Saturday", availableHours: [{ from: "9:00 AM", to: "5:00 PM" }] },
+  { day: "Sunday", availableHours: [{ from: "9:00 AM", to: "5:00 PM" }] },
+];
+
+const tenToTen = [
+  { day: "Monday", availableHours: [{ from: "10:00 AM", to: "10:00 PM" }] },
+  { day: "Tuesday", availableHours: [{ from: "10:00 AM", to: "10:00 PM" }] },
+  { day: "Wednesday", availableHours: [{ from: "10:00 AM", to: "10:00 PM" }] },
+  { day: "Thursday", availableHours: [{ from: "10:00 AM", to: "10:00 PM" }] },
+  { day: "Friday", availableHours: [{ from: "10:00 AM", to: "10:00 PM" }] },
+  { day: "Saturday", availableHours: [{ from: "10:00 AM", to: "10:00 PM" }] },
+  { day: "Sunday", availableHours: [{ from: "10:00 AM", to: "10:00 PM" }] },
+];
+
+const tenToFour = [
+  { day: "Monday", availableHours: [{ from: "10:00 AM", to: "4:00 PM" }] },
+  { day: "Tuesday", availableHours: [{ from: "10:00 AM", to: "4:00 PM" }] },
+  { day: "Wednesday", availableHours: [{ from: "10:00 AM", to: "4:00 PM" }] },
+  { day: "Thursday", availableHours: [{ from: "10:00 AM", to: "4:00 PM" }] },
+  { day: "Friday", availableHours: [{ from: "10:00 AM", to: "4:00 PM" }] },
+  { day: "Saturday", availableHours: [{ from: "10:00 AM", to: "4:00 PM" }] },
+  { day: "Sunday", availableHours: [{ from: "10:00 AM", to: "4:00 PM" }] },
+]
+
+const tenToSix = [
+  { day: "Monday", availableHours: [{ from: "10:00 AM", to: "6:00 PM" }] },
+  { day: "Tuesday", availableHours: [{ from: "10:00 AM", to: "6:00 PM" }] },
+  { day: "Wednesday", availableHours: [{ from: "10:00 AM", to: "6:00 PM" }] },
+  { day: "Thursday", availableHours: [{ from: "10:00 AM", to: "6:00 PM" }] },
+  { day: "Friday", availableHours: [{ from: "10:00 AM", to: "6:00 PM" }] },
+  { day: "Saturday", availableHours: [{ from: "10:00 AM", to: "6:00 PM" }] },
+  { day: "Sunday", availableHours: [{ from: "10:00 AM", to: "6:00 PM" }] },
+];
+
+const earlyMorningToEvening = [
+  { day: "Monday", availableHours: [{ from: "7:00 AM", to: "6:00 PM" }] },
+  { day: "Tuesday", availableHours: [{ from: "7:00 AM", to: "6:00 PM" }] },
+  { day: "Wednesday", availableHours: [{ from: "7:00 AM", to: "6:00 PM" }] },
+  { day: "Thursday", availableHours: [{ from: "7:00 AM", to: "6:00 PM" }] },
+  { day: "Friday", availableHours: [{ from: "7:00 AM", to: "6:00 PM" }] },
+  { day: "Saturday", availableHours: [{ from: "8:00 AM", to: "6:00 PM" }] },
+  { day: "Sunday", availableHours: [{ from: "8:00 AM", to: "6:00 PM" }] },
+];
+
+const extendedWeekdayHours = [
+  { day: "Monday", availableHours: [{ from: "9:00 AM", to: "8:00 PM" }] },
+  { day: "Tuesday", availableHours: [{ from: "9:00 AM", to: "8:00 PM" }] },
+  { day: "Wednesday", availableHours: [{ from: "9:00 AM", to: "8:00 PM" }] },
+  { day: "Thursday", availableHours: [{ from: "9:00 AM", to: "8:00 PM" }] },
+  { day: "Friday", availableHours: [{ from: "9:00 AM", to: "8:00 PM" }] },
+  { day: "Saturday", availableHours: [{ from: "10:00 AM", to: "6:00 PM" }] },
+  { day: "Sunday", availableHours: [{ from: "10:00 AM", to: "6:00 PM" }] },
+];
+
+const twentyFourHours = [
+  { day: "Monday", availableHours: [{ from: "12:00 AM", to: "11:59 PM" }] },
+  { day: "Tuesday", availableHours: [{ from: "12:00 AM", to: "11:59 PM" }] },
+  { day: "Wednesday", availableHours: [{ from: "12:00 AM", to: "11:59 PM" }] },
+  { day: "Thursday", availableHours: [{ from: "12:00 AM", to: "11:59 PM" }] },
+  { day: "Friday", availableHours: [{ from: "12:00 AM", to: "11:59 PM" }] },
+  { day: "Saturday", availableHours: [{ from: "12:00 AM", to: "11:59 PM" }] },
+  { day: "Sunday", availableHours: [{ from: "12:00 AM", to: "11:59 PM" }] },
+];
+
+const extendedDays = [
+  { day: "Monday", availableHours: [{ from: "8:00 AM", to: "7:00 PM" }] },
+  { day: "Wednesday", availableHours: [{ from: "8:00 AM", to: "7:00 PM" }] },
+  { day: "Wednesday", availableHours: [{ from: "8:00 AM", to: "7:00 PM" }] },
+  { day: "Thursday", availableHours: [{ from: "8:00 AM", to: "7:00 PM" }] },
+  { day: "Friday", availableHours: [{ from: "8:00 AM", to: "7:00 PM" }] },
+  { day: "Saturday", availableHours: [{ from: "9:00 AM", to: "5:00 PM" }] },
+  { day: "Sunday", availableHours: [{ from: "9:00 AM", to: "5:00 PM" }] },
+];
+
+const closedTuesdays = [
+  { day: "Monday", availableHours: [{ from: "9:00 AM", to: "5:00 PM" }] },
+  { day: "Tuesday", availableHours: [] },
+  { day: "Wednesday", availableHours: [{ from: "9:00 AM", to: "5:00 PM" }] },
+  { day: "Thursday", availableHours: [{ from: "9:00 AM", to: "5:00 PM" }] },
+  { day: "Friday", availableHours: [{ from: "9:00 AM", to: "5:00 PM" }] },
+  { day: "Saturday", availableHours: [{ from: "9:00 AM", to: "5:00 PM" }] },
+  { day: "Sunday", availableHours: [{ from: "9:00 AM", to: "5:00 PM" }] },
+];
+
+const twelveToEleven = [
+  { day: "Monday", availableHours: [{ from: "12:00 PM", to: "11:00 PM" }] },
+  { day: "Tuesday", availableHours: [{ from: "12:00 PM", to: "11:00 PM" }] },
+  { day: "Wednesday", availableHours: [{ from: "12:00 PM", to: "11:00 PM" }] },
+  { day: "Thursday", availableHours: [{ from: "12:00 PM", to: "11:00 PM" }] },
+  { day: "Friday", availableHours: [{ from: "12:00 PM", to: "11:00 PM" }] },
+  { day: "Saturday", availableHours: [{ from: "12:00 PM", to: "11:00 PM" }] },
+  { day: "Sunday", availableHours: [{ from: "12:00 PM", to: "11:00 PM" }] },
+]
+
+const closedMondays = [
+  { day: "Monday", availableHours: [] },
+  { day: "Tuesday", availableHours: [{ from: "10:00 AM", to: "5:00 PM" }] },
+  { day: "Wednesday", availableHours: [{ from: "10:00 AM", to: "5:00 PM" }] },
+  { day: "Thursday", availableHours: [{ from: "10:00 AM", to: "5:00 PM" }] },
+  { day: "Friday", availableHours: [{ from: "10:00 AM", to: "5:00 PM" }] },
+  { day: "Saturday", availableHours: [{ from: "10:00 AM", to: "5:00 PM" }] },
+  { day: "Sunday", availableHours: [{ from: "10:00 AM", to: "5:00 PM" }] },
+];
+
+const weekendOnly = [
+  { day: "Monday", availableHours: [] },
+  { day: "Tuesday", availableHours: [] },
+  { day: "Wednesday", availableHours: [] },
+  { day: "Thursday", availableHours: [] },
+  { day: "Friday", availableHours: [] },
+  { day: "Saturday", availableHours: [{ from: "10:00 AM", to: "6:00 PM" }] },
+  { day: "Sunday", availableHours: [{ from: "10:00 AM", to: "6:00 PM" }] },
+];
+
+// Export the attraction details
 export const attractionDetails = {
   amsterdam: {
     Rijksmuseum: {
       description: "National museum showcasing Dutch art and history.",
-      openingHours: [
-        {
-          day: "Monday",
-          availableHours: [{ from: "09:00", to: "17:00" }],
-        },
-        {
-          day: "Tuesday",
-          availableHours: [{ from: "09:00", to: "17:00" }],
-        },
-        {
-          day: "Wednesday",
-          availableHours: [{ from: "09:00", to: "17:00" }],
-        },
-        {
-          day: "Thursday",
-          availableHours: [{ from: "09:00", to: "17:00" }],
-        },
-        {
-          day: "Friday",
-          availableHours: [{ from: "09:00", to: "17:00" }],
-        },
-        {
-          day: "Saturday",
-          availableHours: [{ from: "09:00", to: "17:00" }],
-        },
-        {
-          day: "Sunday",
-          availableHours: [{ from: "09:00", to: "17:00" }],
-        },
-      ],
       entryFee: "€20",
       entryFeeCategory: "moderate",
       priceRange: "$$",
       priceCategory: "moderate",
-      timeOfDay: "daytime",
+      openingHours: standardBusinessHours,
       rating: 4.8,
-      accessibilityFeatures: ["wheelchair accessible"],
       isHistorical: true,
       isArtOrMusic: true,
       isPopular: true,
-      isWheelchairAccessible: true,
+      accessibilityFeatures: ["wheelchair accessible"],
       entryFees: [
-        {
-          category: "adult",
-          priceRange: "€20",
-          priceCategory: "moderate",
-        },
-        {
-          category: "child",
-          priceRange: "€10",
-          priceCategory: "budget",
-        },
+        { category: "adult", priceRange: "€20", priceCategory: "moderate" },
+        { category: "child", priceRange: "€10", priceCategory: "budget" },
       ],
       features: ["museum", "art", "Dutch history", "guided tours"],
     },
     "Anne Frank House": {
       description: "Museum dedicated to the Jewish wartime diarist Anne Frank.",
-      openingHours: [
-        {
-          day: "Monday",
-          availableHours: [{ from: "09:00", to: "19:00" }],
-        },
-        {
-          day: "Tuesday",
-          availableHours: [{ from: "09:00", to: "19:00" }],
-        },
-        {
-          day: "Wednesday",
-          availableHours: [{ from: "09:00", to: "19:00" }],
-        },
-        {
-          day: "Thursday",
-          availableHours: [{ from: "09:00", to: "19:00" }],
-        },
-        {
-          day: "Friday",
-          availableHours: [{ from: "09:00", to: "19:00" }],
-        },
-        {
-          day: "Saturday",
-          availableHours: [{ from: "09:00", to: "19:00" }],
-        },
-        {
-          day: "Sunday",
-          availableHours: [{ from: "09:00", to: "19:00" }],
-        },
-      ],
       entryFee: "€12.50",
       entryFeeCategory: "budget",
       priceRange: "$",
       priceCategory: "budget",
-      timeOfDay: "daytime",
+      openingHours: [
+        { day: "Monday", availableHours: [{ from: "9:00 AM", to: "7:00 PM" }] },
+        { day: "Tuesday", availableHours: [{ from: "9:00 AM", to: "7:00 PM" }] },
+        { day: "Wednesday", availableHours: [{ from: "9:00 AM", to: "7:00 PM" }] },
+        { day: "Thursday", availableHours: [{ from: "9:00 AM", to: "7:00 PM" }] },
+        { day: "Friday", availableHours: [{ from: "9:00 AM", to: "7:00 PM" }] },
+        { day: "Saturday", availableHours: [{ from: "9:00 AM", to: "7:00 PM" }] },
+        { day: "Sunday", availableHours: [{ from: "9:00 AM", to: "7:00 PM" }] },
+      ],
       rating: 4.7,
-      accessibilityFeatures: ["not wheelchair accessible"],
       isHistorical: true,
       isSpiritual: true,
       isPopular: true,
-      isWheelchairAccessible: false,
+      accessibilityFeatures: ["not wheelchair accessible"],
       entryFees: [
-        {
-          category: "adult",
-          priceRange: "€12.50",
-          priceCategory: "budget",
-        },
-        {
-          category: "child",
-          priceRange: "€6.50",
-          priceCategory: "budget",
-        },
+        { category: "adult", priceRange: "€12.50", priceCategory: "budget" },
+        { category: "child", priceRange: "€6.50", priceCategory: "budget" },
       ],
       features: ["museum", "WWII history", "education"],
     },
     Vondelpark: {
-      description:
-        "Popular park offering open green spaces and outdoor activities.",
-      openingHours: [
-        {
-          day: "Monday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Tuesday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Wednesday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Thursday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Friday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Saturday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Sunday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-      ],
+      description: "Popular park offering open green spaces and outdoor activities.",
+      entryFee: undefined,
       entryFeeCategory: "free",
       priceRange: "free",
       priceCategory: "free",
-      timeOfDay: "all day",
+      openingHours: twentyFourHours,
       rating: 4.6,
       isAdventure: true,
       isFree: true,
-      isPetFriendly: true,
       isPopular: true,
+      isPetFriendly: true,
+      accessibilityFeatures: [],
+      entryFees: [],
       features: ["park", "walking", "outdoor", "cycling", "picnic"],
     },
   },
   london: {
     "Tower of London": {
-      description: "Historic castle and former royal palace with deep history.",
-      openingHours: [
-        {
-          day: "Monday",
-          availableHours: [{ from: "09:00", to: "17:30" }],
-        },
-        {
-          day: "Tuesday",
-          availableHours: [{ from: "09:00", to: "17:30" }],
-        },
-        {
-          day: "Wednesday",
-          availableHours: [{ from: "09:00", to: "17:30" }],
-        },
-        {
-          day: "Thursday",
-          availableHours: [{ from: "09:00", to: "17:30" }],
-        },
-        {
-          day: "Friday",
-          availableHours: [{ from: "09:00", to: "17:30" }],
-        },
-        {
-          day: "Saturday",
-          availableHours: [{ from: "09:00", to: "17:30" }],
-        },
-        {
-          day: "Sunday",
-          availableHours: [{ from: "09:00", to: "17:30" }],
-        },
-      ],
+      description: "Historic castle on the north bank of the River Thames.",
       entryFee: "£29.90",
-      entryFeeCategory: "moderate",
-      priceRange: "$$",
-      priceCategory: "moderate",
-      timeOfDay: "daytime",
-      rating: 4.7,
-      accessibilityFeatures: ["limited wheelchair access"],
+      entryFeeCategory: "expensive",
+      priceRange: "$$$",
+      priceCategory: "premium",
+      openingHours: [
+        { day: "Monday", availableHours: [{ from: "10:00 AM", to: "5:30 PM" }] },
+        { day: "Tuesday", availableHours: [{ from: "9:00 AM", to: "5:30 PM" }] },
+        { day: "Wednesday", availableHours: [{ from: "9:00 AM", to: "5:30 PM" }] },
+        { day: "Thursday", availableHours: [{ from: "9:00 AM", to: "5:30 PM" }] },
+        { day: "Friday", availableHours: [{ from: "9:00 AM", to: "5:30 PM" }] },
+        { day: "Saturday", availableHours: [{ from: "9:00 AM", to: "5:30 PM" }] },
+        { day: "Sunday", availableHours: [{ from: "10:00 AM", to: "5:30 PM" }] },
+      ],
+      rating: 4.6,
       isHistorical: true,
       isSpiritual: true,
       isPopular: true,
-      isWheelchairAccessible: false,
+      accessibilityFeatures: ["partial wheelchair access"],
       entryFees: [
-        {
-          category: "adult",
-          priceRange: "£29.90",
-          priceCategory: "moderate",
-        },
+        { category: "adult", priceRange: "£29.90", priceCategory: "expensive" },
+        { category: "child", priceRange: "£14.90", priceCategory: "moderate" },
       ],
-      features: [
-        "historical site",
-        "castle",
-        "fortress",
-        "guided tours",
-        "crown jewels",
-      ],
+      features: ["castle", "history", "crown jewels", "guided tours"],
     },
     "British Museum": {
-      description: "World-famous museum with vast historical collections.",
-      openingHours: [
-        {
-          day: "Monday",
-          availableHours: [{ from: "10:00", to: "17:30" }],
-        },
-        {
-          day: "Tuesday",
-          availableHours: [{ from: "10:00", to: "17:30" }],
-        },
-        {
-          day: "Wednesday",
-          availableHours: [{ from: "10:00", to: "17:30" }],
-        },
-        {
-          day: "Thursday",
-          availableHours: [{ from: "10:00", to: "17:30" }],
-        },
-        {
-          day: "Friday",
-          availableHours: [{ from: "10:00", to: "17:30" }],
-        },
-        {
-          day: "Saturday",
-          availableHours: [{ from: "10:00", to: "17:30" }],
-        },
-        {
-          day: "Sunday",
-          availableHours: [{ from: "10:00", to: "17:30" }],
-        },
-      ],
+      description: "Public museum dedicated to human history, art and culture.",
+      entryFee: undefined,
       entryFeeCategory: "free",
       priceRange: "free",
       priceCategory: "free",
-      timeOfDay: "daytime",
+      openingHours: [
+        { day: "Monday", availableHours: [{ from: "10:00 AM", to: "5:00 PM" }] },
+        { day: "Tuesday", availableHours: [{ from: "10:00 AM", to: "5:00 PM" }] },
+        { day: "Wednesday", availableHours: [{ from: "10:00 AM", to: "5:00 PM" }] },
+        { day: "Thursday", availableHours: [{ from: "10:00 AM", to: "5:00 PM" }] },
+        { day: "Friday", availableHours: [{ from: "10:00 AM", to: "8:30 PM" }] },
+        { day: "Saturday", availableHours: [{ from: "10:00 AM", to: "5:30 PM" }] },
+        { day: "Sunday", availableHours: [{ from: "10:00 AM", to: "5:30 PM" }] },
+      ],
       rating: 4.8,
       isHistorical: true,
       isArtOrMusic: true,
+      isFree: true,
       isPopular: true,
-      isWheelchairAccessible: true,
+      accessibilityFeatures: ["wheelchair accessible", "audio guides"],
       entryFees: [],
-      features: [
-        "museum",
-        "historical artifacts",
-        "exhibitions",
-        "world history",
-      ],
+      features: ["museum", "art", "world history", "artifacts", "exhibitions"],
     },
     "Hyde Park": {
-      description:
-        "Expansive green space in London, great for walking and events.",
-      openingHours: [
-        {
-          day: "Monday",
-          availableHours: [{ from: "05:00", to: "00:00" }],
-        },
-        {
-          day: "Tuesday",
-          availableHours: [{ from: "05:00", to: "00:00" }],
-        },
-        {
-          day: "Wednesday",
-          availableHours: [{ from: "05:00", to: "00:00" }],
-        },
-        {
-          day: "Thursday",
-          availableHours: [{ from: "05:00", to: "00:00" }],
-        },
-        {
-          day: "Friday",
-          availableHours: [{ from: "05:00", to: "00:00" }],
-        },
-        {
-          day: "Saturday",
-          availableHours: [{ from: "05:00", to: "00:00" }],
-        },
-        {
-          day: "Sunday",
-          availableHours: [{ from: "05:00", to: "00:00" }],
-        },
-      ],
+      description: "One of the largest parks in London and a Royal Park.",
+      entryFee: undefined,
       entryFeeCategory: "free",
       priceRange: "free",
       priceCategory: "free",
-      timeOfDay: "all day",
+      openingHours: [
+        { day: "Monday", availableHours: [{ from: "5:00 AM", to: "12:00 AM" }] },
+        { day: "Tuesday", availableHours: [{ from: "5:00 AM", to: "12:00 AM" }] },
+        { day: "Wednesday", availableHours: [{ from: "5:00 AM", to: "12:00 AM" }] },
+        { day: "Thursday", availableHours: [{ from: "5:00 AM", to: "12:00 AM" }] },
+        { day: "Friday", availableHours: [{ from: "5:00 AM", to: "12:00 AM" }] },
+        { day: "Saturday", availableHours: [{ from: "5:00 AM", to: "12:00 AM" }] },
+        { day: "Sunday", availableHours: [{ from: "5:00 AM", to: "12:00 AM" }] },
+      ],
       rating: 4.7,
       isAdventure: true,
       isFree: true,
       isPetFriendly: true,
       isPopular: true,
+      accessibilityFeatures: ["wheelchair accessible paths"],
       entryFees: [],
-      features: ["park", "walking", "lake", "outdoor activities", "events"],
-    },
+      features: ["park", "lake", "gardens", "outdoor activities"],
+    }
   },
   "new-york-city": {
     "Statue of Liberty": {
-      description: "Iconic symbol of freedom on Liberty Island.",
-      openingHours: [
-        {
-          day: "Monday",
-          availableHours: [{ from: "08:30", to: "16:00" }],
-        },
-        {
-          day: "Tuesday",
-          availableHours: [{ from: "08:30", to: "16:00" }],
-        },
-        {
-          day: "Wednesday",
-          availableHours: [{ from: "08:30", to: "16:00" }],
-        },
-        {
-          day: "Thursday",
-          availableHours: [{ from: "08:30", to: "16:00" }],
-        },
-        {
-          day: "Friday",
-          availableHours: [{ from: "08:30", to: "16:00" }],
-        },
-        {
-          day: "Saturday",
-          availableHours: [{ from: "08:30", to: "16:00" }],
-        },
-        {
-          day: "Sunday",
-          availableHours: [{ from: "08:30", to: "16:00" }],
-        },
-      ],
-      entryFee: "$23.50",
+      description: "Iconic copper statue representing freedom and democracy.",
+      entryFee: "$24.30",
       entryFeeCategory: "moderate",
       priceRange: "$$",
       priceCategory: "moderate",
-      timeOfDay: "daytime",
+      openingHours: [
+        { day: "Monday", availableHours: [{ from: "9:30 AM", to: "4:30 PM" }] },
+        { day: "Tuesday", availableHours: [{ from: "9:30 AM", to: "4:30 PM" }] },
+        { day: "Wednesday", availableHours: [{ from: "9:30 AM", to: "4:30 PM" }] },
+        { day: "Thursday", availableHours: [{ from: "9:30 AM", to: "4:30 PM" }] },
+        { day: "Friday", availableHours: [{ from: "9:30 AM", to: "4:30 PM" }] },
+        { day: "Saturday", availableHours: [{ from: "9:30 AM", to: "4:30 PM" }] },
+        { day: "Sunday", availableHours: [{ from: "9:30 AM", to: "4:30 PM" }] },
+      ],
       rating: 4.7,
       isHistorical: true,
       isPopular: true,
-      isWheelchairAccessible: true,
-      accessibilityFeatures: ["wheelchair accessible ferry and pedestal"],
+      accessibilityFeatures: ["elevator to observation deck"],
       entryFees: [
-        {
-          category: "adult",
-          priceRange: "$23.50",
-          priceCategory: "moderate",
-        },
-        {
-          category: "child",
-          priceRange: "$12",
-          priceCategory: "budget",
-        },
+        { category: "adult", priceRange: "$24.30", priceCategory: "moderate" },
+        { category: "child", priceRange: "$12.15", priceCategory: "budget" },
       ],
-      features: ["monument", "historical site", "guided tours"],
+      features: ["monument", "national park", "views", "ferry ride"],
     },
     "Central Park": {
-      description:
-        "Large urban park with walking trails, lakes, and cultural sites.",
-      openingHours: [
-        {
-          day: "Monday",
-          availableHours: [{ from: "06:00", to: "23:59" }],
-        },
-        {
-          day: "Tuesday",
-          availableHours: [{ from: "06:00", to: "23:59" }],
-        },
-        {
-          day: "Wednesday",
-          availableHours: [{ from: "06:00", to: "23:59" }],
-        },
-        {
-          day: "Thursday",
-          availableHours: [{ from: "06:00", to: "23:59" }],
-        },
-        {
-          day: "Friday",
-          availableHours: [{ from: "06:00", to: "23:59" }],
-        },
-        {
-          day: "Saturday",
-          availableHours: [{ from: "06:00", to: "23:59" }],
-        },
-        {
-          day: "Sunday",
-          availableHours: [{ from: "06:00", to: "23:59" }],
-        },
-      ],
+      description: "Expansive urban park in the heart of Manhattan.",
+      entryFee: undefined,
       entryFeeCategory: "free",
       priceRange: "free",
       priceCategory: "free",
-      timeOfDay: "all day",
-      rating: 4.8,
+      openingHours: [
+        { day: "Monday", availableHours: [{ from: "6:00 AM", to: "1:00 AM" }] },
+        { day: "Tuesday", availableHours: [{ from: "6:00 AM", to: "1:00 AM" }] },
+        { day: "Wednesday", availableHours: [{ from: "6:00 AM", to: "1:00 AM" }] },
+        { day: "Thursday", availableHours: [{ from: "6:00 AM", to: "1:00 AM" }] },
+        { day: "Friday", availableHours: [{ from: "6:00 AM", to: "1:00 AM" }] },
+        { day: "Saturday", availableHours: [{ from: "6:00 AM", to: "1:00 AM" }] },
+        { day: "Sunday", availableHours: [{ from: "6:00 AM", to: "1:00 AM" }] },
+      ],
+      rating: 4.9,
       isAdventure: true,
       isFree: true,
       isPetFriendly: true,
       isPopular: true,
-      isWheelchairAccessible: true,
+      accessibilityFeatures: ["accessible paths", "adaptive playgrounds"],
       entryFees: [],
-      features: ["park", "walking", "outdoor", "cycling", "picnic"],
+      features: ["park", "lake", "zoo", "paths", "outdoor activities"],
     },
     "Metropolitan Museum of Art": {
-      description: "World-renowned museum with extensive art collections.",
+      description: "One of the world's largest and most prestigious art museums.",
+      entryFee: "$25",
+      entryFeeCategory: "moderate",
+      priceRange: "$$",
+      priceCategory: "moderate",
       openingHours: [
-        {
-          day: "Monday",
-          availableHours: [{ from: "10:00", to: "17:30" }],
-        },
-        {
-          day: "Tuesday",
-          availableHours: [{ from: "10:00", to: "17:30" }],
-        },
-        {
-          day: "Wednesday",
-          availableHours: [{ from: "10:00", to: "17:30" }],
-        },
-        {
-          day: "Thursday",
-          availableHours: [{ from: "10:00", to: "17:30" }],
-        },
-        {
-          day: "Friday",
-          availableHours: [{ from: "10:00", to: "17:30" }],
-        },
-        {
-          day: "Saturday",
-          availableHours: [{ from: "10:00", to: "17:30" }],
-        },
-        {
-          day: "Sunday",
-          availableHours: [{ from: "10:00", to: "17:30" }],
-        },
+        { day: "Monday", availableHours: [{ from: "10:00 AM", to: "5:30 PM" }] },
+        { day: "Tuesday", availableHours: [{ from: "10:00 AM", to: "5:30 PM" }] },
+        { day: "Wednesday", availableHours: [{ from: "10:00 AM", to: "5:30 PM" }] },
+        { day: "Thursday", availableHours: [{ from: "10:00 AM", to: "5:30 PM" }] },
+        { day: "Friday", availableHours: [{ from: "10:00 AM", to: "9:00 PM" }] },
+        { day: "Saturday", availableHours: [{ from: "10:00 AM", to: "9:00 PM" }] },
+        { day: "Sunday", availableHours: [{ from: "10:00 AM", to: "5:30 PM" }] },
       ],
-      entryFee: "$30",
-      entryFeeCategory: "expensive",
-      priceRange: "$$$",
-      priceCategory: "expensive",
-      timeOfDay: "daytime",
-      rating: 4.7,
+      rating: 4.8,
       isHistorical: true,
       isArtOrMusic: true,
       isPopular: true,
-      isWheelchairAccessible: true,
-      accessibilityFeatures: ["wheelchair accessible entrances and elevators"],
+      accessibilityFeatures: ["wheelchair accessible", "assistive listening devices"],
       entryFees: [
-        {
-          category: "adult",
-          priceRange: "$30",
-          priceCategory: "expensive",
-        },
-        {
-          category: "child",
-          priceRange: "$15",
-          priceCategory: "budget",
-        },
+        { category: "adult", priceRange: "$25", priceCategory: "moderate" },
+        { category: "student", priceRange: "$12", priceCategory: "budget" },
+        { category: "senior", priceRange: "$17", priceCategory: "budget" },
+        { category: "child under 12", priceRange: "Free", priceCategory: "free" },
       ],
-      features: ["museum", "art", "cultural history", "guided tours"],
+      features: ["museum", "art", "exhibitions", "world-class collection"],
     },
   },
   paris: {
     "Eiffel Tower": {
-      description: "World-famous iron tower offering panoramic views of Paris.",
-      openingHours: "9:30 AM - 11:45 PM",
-      entryFee: "€25",
-      entryFeeCategory: "moderate",
-      priceRange: "$$",
-      priceCategory: "moderate",
-      timeOfDay: "daytime",
-      rating: 4.7,
+      description: "Iconic wrought-iron lattice tower on the Champ de Mars.",
+      entryFee: "€26.80",
+      entryFeeCategory: "expensive",
+      priceRange: "$$$",
+      priceCategory: "premium",
+      openingHours: [
+        { day: "Monday", availableHours: [{ from: "9:30 AM", to: "11:45 PM" }] },
+        { day: "Tuesday", availableHours: [{ from: "9:30 AM", to: "11:45 PM" }] },
+        { day: "Wednesday", availableHours: [{ from: "9:30 AM", to: "11:45 PM" }] },
+        { day: "Thursday", availableHours: [{ from: "9:30 AM", to: "11:45 PM" }] },
+        { day: "Friday", availableHours: [{ from: "9:30 AM", to: "11:45 PM" }] },
+        { day: "Saturday", availableHours: [{ from: "9:30 AM", to: "11:45 PM" }] },
+        { day: "Sunday", availableHours: [{ from: "9:30 AM", to: "11:45 PM" }] },
+      ],
+      rating: 4.6,
       isHistorical: true,
       isRomantic: true,
       isPopular: true,
-      isWheelchairAccessible: true,
-      accessibilityFeatures: ["wheelchair accessible elevator"],
+      accessibilityFeatures: ["elevator access", "wheelchair accessible platform"],
       entryFees: [
-        {
-          category: "adult",
-          priceRange: "€25",
-          priceCategory: "moderate",
-        },
-        {
-          category: "child",
-          priceRange: "€12.50",
-          priceCategory: "budget",
-        },
+        { category: "adult to top", priceRange: "€26.80", priceCategory: "expensive" },
+        { category: "youth to top", priceRange: "€13.40", priceCategory: "moderate" },
+        { category: "adult to second floor", priceRange: "€16.70", priceCategory: "moderate" },
       ],
-      features: ["landmark", "observation deck", "guided tours"],
+      features: ["landmark", "views", "restaurant", "observation deck"],
     },
     "Louvre Museum": {
-      description: "Largest art museum in the world, home to the Mona Lisa.",
-      openingHours: "9:00 AM - 6:00 PM (closed Tuesdays)",
+      description: "World's largest art museum and a historic monument in Paris.",
       entryFee: "€17",
-      entryFeeCategory: "budget",
-      priceRange: "$",
-      priceCategory: "budget",
-      timeOfDay: "daytime",
+      entryFeeCategory: "moderate",
+      priceRange: "$$",
+      priceCategory: "moderate",
+      openingHours: [
+        { day: "Monday", availableHours: [{ from: "9:00 AM", to: "6:00 PM" }] },
+        { day: "Tuesday", availableHours: [{ from: "9:00 AM", to: "6:00 PM" }] },
+        { day: "Wednesday", availableHours: [{ from: "9:00 AM", to: "6:00 PM" }] },
+        { day: "Thursday", availableHours: [{ from: "9:00 AM", to: "6:00 PM" }] },
+        { day: "Friday", availableHours: [{ from: "9:00 AM", to: "9:45 PM" }] },
+        { day: "Saturday", availableHours: [{ from: "9:00 AM", to: "9:45 PM" }] },
+        { day: "Sunday", availableHours: [{ from: "9:00 AM", to: "6:00 PM" }] },
+      ],
       rating: 4.8,
       isHistorical: true,
       isArtOrMusic: true,
       isPopular: true,
-      isWheelchairAccessible: true,
       accessibilityFeatures: ["wheelchair accessible entrances"],
       entryFees: [
-        {
-          category: "adult",
-          priceRange: "€17",
-          priceCategory: "budget",
-        },
-        {
-          category: "child",
-          priceRange: "€8.50",
-          priceCategory: "budget",
-        },
+        { category: "adult", priceRange: "€17", priceCategory: "moderate" },
+        { category: "child", priceRange: "€8.50", priceCategory: "budget" },
       ],
       features: ["museum", "art", "cultural history", "guided tours"],
     },
     Montmartre: {
       description:
         "Historic hilltop neighborhood known for its artistic history.",
-      openingHours: "All day",
+      openingHours: twentyFourHours,
       entryFeeCategory: "free",
       priceRange: "free",
       priceCategory: "free",
@@ -554,7 +419,7 @@ export const attractionDetails = {
     "Christ the Redeemer": {
       description:
         "Colossal statue overlooking Rio, symbolizing peace and Christianity.",
-      openingHours: "8:00 AM - 7:00 PM",
+      openingHours: extendedDays,
       entryFee: "R$24",
       entryFeeCategory: "budget",
       priceRange: "$",
@@ -582,7 +447,7 @@ export const attractionDetails = {
     },
     "Copacabana Beach": {
       description: "Famous beach with vibrant atmosphere and stunning views.",
-      openingHours: "All day",
+      openingHours: twentyFourHours,
       entryFeeCategory: "free",
       priceRange: "free",
       priceCategory: "free",
@@ -626,7 +491,7 @@ export const attractionDetails = {
     "Sydney Opera House": {
       description:
         "World-famous performing arts center with distinctive architecture.",
-      openingHours: "9:00 AM - 5:00 PM",
+      openingHours: standardBusinessHours,
       entryFee: "AUD 42",
       entryFeeCategory: "expensive",
       priceRange: "$$$",
@@ -654,7 +519,7 @@ export const attractionDetails = {
     },
     "Bondi Beach": {
       description: "Popular beach known for surfing and coastal walks.",
-      openingHours: "All day",
+      openingHours: twentyFourHours,
       entryFeeCategory: "free",
       priceRange: "free",
       priceCategory: "free",
@@ -1921,7 +1786,7 @@ export const attractionDetails = {
     "Bonnet House Museum & Gardens": {
       description:
         "Historic estate with art collections, beautiful gardens, and wildlife sanctuary.",
-      openingHours: "9:00 AM – 4:00 PM",
+      openingHours: standardBusinessHours,
       entryFee: "$20",
       entryFeeCategory: "moderate",
       priceRange: "$$",
@@ -2177,7 +2042,7 @@ export const attractionDetails = {
     "Grand Canal": {
       description:
         "Main waterway of Venice, perfect for gondola rides and scenic views.",
-      openingHours: "All day",
+      openingHours: twentyFourHours,
       entryFeeCategory: "free",
       priceRange: "free",
       priceCategory: "free",
@@ -2419,7 +2284,7 @@ export const attractionDetails = {
     "Alcatraz Island": {
       description:
         "Historic former prison island offering guided tours and views.",
-      openingHours: "9:00 AM - 6:00 PM",
+      openingHours: standardBusinessHours,
       entryFee: "$41",
       entryFeeCategory: "moderate",
       priceRange: "$$",
@@ -2436,7 +2301,7 @@ export const attractionDetails = {
     "Fisherman's Wharf": {
       description:
         "Popular tourist area with shops, seafood, and waterfront views.",
-      openingHours: "All day",
+      openingHours: twentyFourHours,
       entryFeeCategory: "free",
       priceRange: "free",
       priceCategory: "free",
@@ -2454,7 +2319,7 @@ export const attractionDetails = {
     "Old Town Walls": {
       description:
         "Ancient city walls offering panoramic views of the Adriatic Sea.",
-      openingHours: "8:00 AM - 7:00 PM",
+      openingHours: extendedDays,
       entryFee: "HRK 200",
       entryFeeCategory: "moderate",
       priceRange: "$$",
@@ -2471,7 +2336,7 @@ export const attractionDetails = {
     "Fort Lovrijenac": {
       description:
         "Historic fortress overlooking the sea, known as 'Dubrovnik's Gibraltar.'",
-      openingHours: "9:00 AM - 6:00 PM",
+      openingHours: standardBusinessHours,
       entryFee: "HRK 100",
       entryFeeCategory: "budget",
       priceRange: "$",
@@ -2488,7 +2353,7 @@ export const attractionDetails = {
     Stradun: {
       description:
         "Main pedestrian street lined with shops, cafes, and historic buildings.",
-      openingHours: "All day",
+      openingHours: twentyFourHours,
       entryFeeCategory: "free",
       priceRange: "free",
       priceCategory: "free",
@@ -2504,7 +2369,7 @@ export const attractionDetails = {
     "Rector's Palace": {
       description:
         "A historic palace that once served as the seat of the Rector of the Republic of Ragusa, featuring Gothic and Renaissance architecture.",
-      openingHours: "9:00 AM - 6:00 PM",
+      openingHours: standardBusinessHours,
       entryFee: "$8",
       entryFeeCategory: "low",
       priceRange: "$",
@@ -2865,7 +2730,7 @@ export const attractionDetails = {
     "Plaka District": {
       description:
         "Historic neighborhood with neoclassical architecture, shops, and restaurants.",
-      openingHours: "All day",
+      openingHours: twentyFourHours,
       entryFeeCategory: "free",
       priceRange: "free",
       priceCategory: "free",
@@ -2882,7 +2747,7 @@ export const attractionDetails = {
     "Sagrada Família": {
       description:
         "Antoni Gaudí's iconic unfinished church known for its unique architecture.",
-      openingHours: "9:00 AM - 6:00 PM",
+      openingHours: standardBusinessHours,
       entryFee: "€26-€38",
       entryFeeCategory: "expensive",
       priceRange: "$$$",
@@ -2940,7 +2805,7 @@ export const attractionDetails = {
     "La Rambla": {
       description:
         "Famous tree-lined pedestrian street with shops, restaurants, and street performers.",
-      openingHours: "All day",
+      openingHours: twentyFourHours,
       entryFeeCategory: "free",
       priceRange: "free",
       priceCategory: "free",
@@ -2995,7 +2860,7 @@ export const attractionDetails = {
     "Auckland War Memorial Museum": {
       description:
         "Museum showcasing New Zealand's cultural and military history.",
-      openingHours: "10:00 AM - 5:00 PM",
+      openingHours: tenToFour,
       entryFee: "NZD 25 (suggested donation)",
       entryFeeCategory: "moderate",
       priceRange: "$$",
@@ -3162,7 +3027,7 @@ export const attractionDetails = {
     "Berlin Cathedral": {
       description:
         "Impressive baroque cathedral with a large dome and ornate interior.",
-      openingHours: "9:00 AM - 6:00 PM",
+      openingHours: standardBusinessHours,
       entryFee: "€9",
       entryFeeCategory: "budget",
       priceRange: "$",
@@ -3337,1814 +3202,6 @@ export const attractionDetails = {
       features: ["aquarium", "marine life exhibits", "educational programs"],
     },
   },
-  istanbul: {
-    "Hagia Sophia": {
-      description:
-        "Historic architectural marvel that served as a cathedral and mosque.",
-      openingHours: "9:00 AM - 7:00 PM",
-      entryFee: "₺200",
-      entryFeeCategory: "moderate",
-      priceRange: "$$",
-      priceCategory: "moderate",
-      timeOfDay: "daytime",
-      rating: 4.8,
-      isHistorical: true,
-      isSpiritual: true,
-      isPopular: true,
-      isWheelchairAccessible: false,
-      entryFees: [
-        {
-          category: "adult",
-          priceRange: "₺200",
-          priceCategory: "moderate",
-        },
-        {
-          category: "child",
-          priceRange: "₺100",
-          priceCategory: "low",
-        },
-      ],
-      features: ["museum", "Byzantine architecture", "guided tours"],
-    },
-    "Topkapi Palace": {
-      description:
-        "Former palace of Ottoman sultans with stunning architecture and gardens.",
-      openingHours: "9:00 AM - 6:00 PM",
-      entryFee: "₺200",
-      entryFeeCategory: "moderate",
-      priceRange: "$$",
-      priceCategory: "moderate",
-      timeOfDay: "daytime",
-      rating: 4.7,
-      isHistorical: true,
-      isCultural: true,
-      isPopular: true,
-      isWheelchairAccessible: false,
-      entryFees: [
-        {
-          category: "adult",
-          priceRange: "₺200",
-          priceCategory: "moderate",
-        },
-        {
-          category: "child",
-          priceRange: "₺100",
-          priceCategory: "low",
-        },
-      ],
-      features: ["palace", "gardens", "Ottoman architecture"],
-    },
-    "Grand Bazaar": {
-      description:
-        "One of the largest and oldest covered markets in the world with thousands of shops.",
-      openingHours: "9:00 AM - 7:00 PM (closed Sundays)",
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
-      timeOfDay: "all day",
-      rating: 4.5,
-      isAdventure: true,
-      isFree: true,
-      isPopular: true,
-      entryFees: [],
-      features: ["bazaar", "shopping", "cultural experience"],
-    },
-  },
-  "cape-town": {
-    "Table Mountain": {
-      description:
-        "Iconic flat-topped mountain offering panoramic views of Cape Town.",
-      openingHours: "8:00 AM - 7:00 PM",
-      entryFee: "ZAR 360",
-      entryFeeCategory: "moderate",
-      priceRange: "$$",
-      priceCategory: "moderate",
-      timeOfDay: "daytime",
-      rating: 4.8,
-      isAdventure: true,
-      isScenic: true,
-      isPopular: true,
-      isWheelchairAccessible: false,
-      entryFees: [],
-      features: ["mountain", "hiking", "scenic views"],
-    },
-    "Robben Island": {
-      description:
-        "Historic island prison where Nelson Mandela was incarcerated.",
-      openingHours: "9:00 AM - 5:00 PM",
-      entryFee: "ZAR 360",
-      entryFeeCategory: "moderate",
-      priceRange: "$$",
-      priceCategory: "moderate",
-      timeOfDay: "daytime",
-      rating: 4.7,
-      isHistorical: true,
-      isCultural: true,
-      isPopular: true,
-      isWheelchairAccessible: false,
-      entryFees: [],
-      features: ["island", "prison museum", "historical site"],
-    },
-    "Cape of Good Hope": {
-      description:
-        "Famous landmark at the southern tip of the Cape Peninsula with stunning coastal views.",
-      openingHours: "6:00 AM - 6:00 PM",
-      entryFee: "ZAR 360",
-      entryFeeCategory: "moderate",
-      priceRange: "$$",
-      priceCategory: "moderate",
-      timeOfDay: "daytime",
-      rating: 4.6,
-      isAdventure: true,
-      isScenic: true,
-      isPopular: true,
-      entryFees: [],
-      features: ["cape", "coastal views", "nature reserve"],
-    },
-    "V&A Waterfront": {
-      description:
-        "A bustling harbor area featuring shops, restaurants, entertainment, and scenic views of Table Mountain.",
-      openingHours: "10:00 AM - 9:00 PM",
-      entryFeeCategory: "free",
-      priceRange: "varies",
-      priceCategory: "varies",
-      timeOfDay: "daytime",
-      rating: 4.7,
-      isShopping: true,
-      isDining: true,
-      isFamilyFriendly: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [],
-      features: ["harbor", "shopping", "dining", "entertainment"],
-    },
-  },
-  bermuda: {
-    "Horseshoe Bay Beach": {
-      description:
-        "A picturesque pink-sand beach known for its clear turquoise waters and scenic rock formations.",
-      openingHours: [
-        {
-          day: "Monday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Tuesday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Wednesday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Thursday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Friday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Saturday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Sunday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-      ],
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
-      timeOfDay: "daytime",
-      rating: 4.7,
-      isAdventure: true,
-      isFree: true,
-      isPopular: true,
-      isWheelchairAccessible: false,
-      entryFees: [],
-      features: ["beach", "snorkeling", "swimming", "sunbathing"],
-    },
-    "Crystal & Fantasy Caves": {
-      description:
-        "Stunning underground caves featuring crystal-clear pools and dramatic stalactites and stalagmites.",
-      openingHours: "9:00 AM - 5:00 PM",
-      entryFee: "$22",
-      entryFeeCategory: "moderate",
-      priceRange: "$$",
-      priceCategory: "moderate",
-      timeOfDay: "daytime",
-      rating: 4.6,
-      isAdventure: true,
-      isPopular: true,
-      isWheelchairAccessible: false,
-      entryFees: [],
-      features: ["caves", "stalactites", "stalagmites", "guided tours"],
-    },
-    "Royal Naval Dockyard": {
-      description:
-        "Historic naval base transformed into a cultural and entertainment hub with shops, museums, and restaurants.",
-      openingHours: "9:00 AM - 6:00 PM",
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
-      timeOfDay: "daytime",
-      rating: 4.5,
-      isHistorical: true,
-      isFree: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [],
-      features: ["naval history", "museums", "shopping", "dining"],
-    },
-    "Gibb's Hill Lighthouse": {
-      description:
-        "One of the oldest cast-iron lighthouses in the world, offering panoramic views of Bermuda from its summit.",
-      openingHours: [
-        { day: "Monday", availableHours: [{ from: "09:30", to: "16:30" }] },
-        { day: "Tuesday", availableHours: [{ from: "09:30", to: "16:30" }] },
-        { day: "Wednesday", availableHours: [{ from: "09:30", to: "16:30" }] },
-        { day: "Thursday", availableHours: [{ from: "09:30", to: "16:30" }] },
-        { day: "Friday", availableHours: [{ from: "09:30", to: "16:30" }] },
-        { day: "Saturday", availableHours: [{ from: "09:30", to: "16:30" }] },
-        { day: "Sunday", availableHours: [{ from: "10:00", to: "16:30" }] },
-      ],
-      entryFee: "$2.50",
-      entryFeeCategory: "budget",
-      priceRange: "$",
-      priceCategory: "budget",
-      timeOfDay: "daytime",
-      rating: 4.5,
-      isHistorical: true,
-      isPopular: true,
-      isWheelchairAccessible: false,
-      accessibilityFeatures: [
-        "185-step staircase to the top; not suitable for wheelchairs",
-      ],
-      entryFees: [
-        { category: "general", priceRange: "$2.50", priceCategory: "budget" },
-      ],
-      features: ["lighthouse", "scenic views", "historical landmark"],
-    },
-    "Bermuda Aquarium, Museum & Zoo": {
-      description:
-        "A combined facility showcasing Bermuda's marine and terrestrial wildlife, as well as species from other oceanic islands.",
-      openingHours: [
-        { day: "Monday", availableHours: [{ from: "09:00", to: "17:00" }] },
-        { day: "Tuesday", availableHours: [{ from: "09:00", to: "17:00" }] },
-        { day: "Wednesday", availableHours: [{ from: "09:00", to: "17:00" }] },
-        { day: "Thursday", availableHours: [{ from: "09:00", to: "17:00" }] },
-        { day: "Friday", availableHours: [{ from: "09:00", to: "17:00" }] },
-        { day: "Saturday", availableHours: [{ from: "09:00", to: "17:00" }] },
-        { day: "Sunday", availableHours: [{ from: "09:00", to: "17:00" }] },
-      ],
-      entryFee: "Adult: $10; Child (5–12): $5; Children under 5: Free",
-      entryFeeCategory: "budget",
-      priceRange: "$",
-      priceCategory: "budget",
-      timeOfDay: "daytime",
-      rating: 4.4,
-      isHistorical: false,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      accessibilityFeatures: ["wheelchair accessible paths and exhibits"],
-      entryFees: [
-        { category: "adult", priceRange: "$10", priceCategory: "budget" },
-        { category: "child (5–12)", priceRange: "$5", priceCategory: "budget" },
-        {
-          category: "child (under 5)",
-          priceRange: "Free",
-          priceCategory: "free",
-        },
-      ],
-      features: [
-        "aquarium",
-        "zoo",
-        "natural history museum",
-        "educational exhibits",
-      ],
-    },
-  },
-  charleston: {
-    "Historic Downtown Charleston": {
-      description:
-        "Charming historic district featuring cobblestone streets, antebellum architecture, and vibrant markets.",
-      openingHours: [
-        {
-          day: "Monday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Tuesday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Wednesday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Thursday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Friday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Saturday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Sunday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-      ],
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
-      timeOfDay: "all day",
-      rating: 4.8,
-      isHistorical: true,
-      isFree: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [],
-      features: [
-        "historic district",
-        "cobblestone streets",
-        "antebellum architecture",
-      ],
-    },
-    "Fort Sumter National Monument": {
-      description:
-        "Historic sea fort known as the site where the first shots of the Civil War were fired.",
-      openingHours: [
-        {
-          day: "Monday",
-          availableHours: [{ from: "10:00", to: "16:30" }],
-        },
-      ],
-      entryFee: "$12",
-      entryFeeCategory: "moderate",
-      priceRange: "$$",
-      priceCategory: "moderate",
-      timeOfDay: "daytime",
-      rating: 4.6,
-      isHistorical: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [],
-      features: ["historic site", "Civil War history", "guided tours"],
-    },
-    "The Battery": {
-      description:
-        "Scenic promenade along the Charleston waterfront, lined with historic mansions and oak trees.",
-      openingHours: [
-        {
-          day: "Monday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Tuesday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Wednesday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Thursday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Friday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Saturday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Sunday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-      ],
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
-      timeOfDay: "daytime",
-      rating: 4.7,
-      isHistorical: true,
-      isFree: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [],
-      features: ["promenade", "waterfront", "historic mansions"],
-    },
-  },
-  copenhagen: {
-    "Tivoli Gardens": {
-      description:
-        "Historic amusement park and pleasure garden offering rides, games, and live entertainment.",
-      openingHours: "11:00 AM - 11:00 PM",
-      entryFee: "DKK 135",
-      entryFeeCategory: "moderate",
-      priceRange: "$$",
-      priceCategory: "moderate",
-      timeOfDay: "evening",
-      rating: 4.5,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [],
-      features: ["amusement park", "gardens", "live entertainment"],
-    },
-    Nyhavn: {
-      description:
-        "Iconic 17th-century waterfront district known for its colorful buildings and vibrant atmosphere.",
-      openingHours: [
-        {
-          day: "Monday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Tuesday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Wednesday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Thursday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Friday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Saturday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Sunday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-      ],
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
-      timeOfDay: "all day",
-      rating: 4.7,
-      isHistorical: true,
-      isFree: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [],
-      features: ["waterfront", "colorful buildings", "restaurants"],
-    },
-    "The Little Mermaid": {
-      description:
-        "Famous bronze statue inspired by Hans Christian Andersen's fairy tale, perched on a rock by the waterside.",
-      openingHours: [
-        {
-          day: "Monday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Tuesday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Wednesday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Thursday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Friday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Saturday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Sunday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-      ],
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
-      timeOfDay: "daytime",
-      rating: 4.2,
-      isFree: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [],
-      features: ["statue", "fairy tale", "waterfront"],
-    },
-  },
-  dublin: {
-    "Trinity College and the Book of Kells": {
-      description:
-        "Historic university housing the renowned Book of Kells, an illuminated manuscript dating back to the 9th century.",
-      openingHours: "9:30 AM - 5:00 PM",
-      entryFee: "€14",
-      entryFeeCategory: "moderate",
-      priceRange: "$$",
-      priceCategory: "moderate",
-      timeOfDay: "daytime",
-      rating: 4.6,
-      isHistorical: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [
-        {
-          category: "adult",
-          priceRange: "€14",
-          priceCategory: "moderate",
-        },
-        {
-          category: "child",
-          priceRange: "€7",
-          priceCategory: "low",
-        },
-      ],
-      features: ["university", "illuminated manuscript", "guided tours"],
-    },
-    "Guinness Storehouse": {
-      description:
-        "Interactive museum dedicated to Ireland's famous stout, featuring tastings and panoramic city views.",
-      openingHours: "10:00 AM - 7:00 PM",
-      entryFee: "€25",
-      entryFeeCategory: "expensive",
-      priceRange: "$$$",
-      priceCategory: "expensive",
-      timeOfDay: "daytime",
-      rating: 4.5,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [
-        {
-          category: "adult",
-          priceRange: "€25",
-          priceCategory: "expensive",
-        },
-        {
-          category: "child",
-          priceRange: "€12.50",
-          priceCategory: "budget",
-        },
-      ],
-      features: ["museum", "interactive exhibits", "tasting experiences"],
-    },
-    "Dublin Castle": {
-      description:
-        "Historic castle complex with state apartments, medieval towers, and government buildings.",
-      openingHours: "9:45 AM - 5:45 PM",
-      entryFee: "€8",
-      entryFeeCategory: "moderate",
-      priceRange: "$$",
-      priceCategory: "moderate",
-      timeOfDay: "daytime",
-      rating: 4.4,
-      isHistorical: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [
-        {
-          category: "adult",
-          priceRange: "€8",
-          priceCategory: "moderate",
-        },
-        {
-          category: "child",
-          priceRange: "€4",
-          priceCategory: "low",
-        },
-      ],
-      features: ["castle", "historical site", "guided tours"],
-    },
-  },
-  florence: {
-    "Cathedral of Santa Maria del Fiore": {
-      description:
-        "Iconic cathedral known for its red-tiled dome engineered by Brunelleschi and its stunning frescoes.",
-      openingHours: "10:00 AM - 5:00 PM",
-      entryFee: "€18",
-      entryFeeCategory: "moderate",
-      priceRange: "$$",
-      priceCategory: "moderate",
-      timeOfDay: "daytime",
-      rating: 4.8,
-      isHistorical: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [
-        {
-          category: "adult",
-          priceRange: "€18",
-          priceCategory: "moderate",
-        },
-        {
-          category: "child",
-          priceRange: "€9",
-          priceCategory: "low",
-        },
-      ],
-      features: ["cathedral", "Brunelleschi's dome", "frescoes"],
-    },
-    "Uffizi Gallery": {
-      description:
-        "World-renowned art museum housing masterpieces by Botticelli, Michelangelo, and Leonardo da Vinci.",
-      openingHours: "8:15 AM - 6:50 PM",
-      entryFee: "€20",
-      entryFeeCategory: "expensive",
-      priceRange: "$$$",
-      priceCategory: "expensive",
-      timeOfDay: "daytime",
-      rating: 4.7,
-      isArtOrMusic: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [
-        {
-          category: "adult",
-          priceRange: "€20",
-          priceCategory: "expensive",
-        },
-        {
-          category: "child",
-          priceRange: "€10",
-          priceCategory: "budget",
-        },
-      ],
-      features: ["art museum", "Renaissance art", "guided tours"],
-    },
-    "Ponte Vecchio": {
-      description:
-        "Historic bridge spanning the Arno River, famous for its shops built along its edges.",
-      openingHours: [
-        {
-          day: "Monday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Tuesday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Wednesday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Thursday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Friday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Saturday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Sunday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-      ],
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
-      timeOfDay: "daytime",
-      rating: 4.6,
-      isHistorical: true,
-      isFree: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [],
-      features: ["bridge", "shops", "Arno River views"],
-    },
-  },
-  galveston: {
-    "Moody Gardens": {
-      description:
-        "A family-friendly entertainment complex featuring pyramids with an aquarium, rainforest, and discovery center.",
-      openingHours: "10:00 AM - 6:00 PM",
-      entryFee: "$29.95 (per attraction)",
-      entryFeeCategory: "expensive",
-      priceRange: "$$$",
-      priceCategory: "expensive",
-      timeOfDay: "daytime",
-      rating: 4.5,
-      isAdventure: true,
-      isFamilyFriendly: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [],
-      features: ["entertainment complex", "aquarium", "rainforest"],
-    },
-    "Galveston Island Historic Pleasure Pier": {
-      description:
-        "A waterfront amusement park with rides, games, and food over the Gulf of Mexico.",
-      openingHours: "11:00 AM - 9:00 PM",
-      entryFee: "$12 (walk-on) / $27 (ride pass)",
-      entryFeeCategory: "moderate",
-      priceRange: "$$",
-      priceCategory: "moderate",
-      timeOfDay: "daytime",
-      rating: 4.3,
-      isAdventure: true,
-      isFamilyFriendly: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [],
-      features: ["amusement park", "waterfront", "rides", "games"],
-    },
-    "The Strand Historic District": {
-      description:
-        "A preserved historic area with Victorian-era buildings, shops, galleries, and restaurants.",
-      openingHours: "Open 24 hours (shops vary)",
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
-      timeOfDay: "daytime",
-      rating: 4.6,
-      isHistorical: true,
-      isFree: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [],
-      features: ["historic district", "Victorian architecture", "shopping"],
-    },
-  },
-  helsinki: {
-    "Suomenlinna Sea Fortress": {
-      description:
-        "UNESCO World Heritage Site built across six islands, featuring historic fortifications and museums.",
-      openingHours: "10:00 AM - 6:00 PM (varies by season)",
-      entryFeeCategory: "free",
-      priceRange: "free (ferry ticket required)",
-      priceCategory: "free",
-      timeOfDay: "daytime",
-      rating: 4.7,
-      isHistorical: true,
-      isAdventure: true,
-      isPopular: true,
-      isWheelchairAccessible:
-        "partially (some steep paths and uneven surfaces)",
-      entryFees: [],
-      features: ["sea fortress", "UNESCO World Heritage", "museums"],
-    },
-    "Temppeliaukio Church": {
-      description:
-        "Unique rock-hewn church known for its modern architecture and excellent acoustics.",
-      openingHours: "10:00 AM - 5:00 PM",
-      entryFee: "€5",
-      entryFeeCategory: "cheap",
-      priceRange: "$",
-      priceCategory: "cheap",
-      timeOfDay: "daytime",
-      rating: 4.5,
-      isPopular: true,
-      isArtOrMusic: true,
-      isWheelchairAccessible: true,
-      entryFees: [],
-      features: ["rock-hewn church", "modern architecture", "acoustics"],
-    },
-    "Helsinki Cathedral": {
-      description:
-        "Neoclassical Lutheran cathedral with a green dome, one of Helsinki’s most recognizable landmarks.",
-      openingHours: "9:00 AM - 6:00 PM",
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
-      timeOfDay: "daytime",
-      rating: 4.6,
-      isHistorical: true,
-      isFree: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [],
-      features: ["cathedral", "neoclassical architecture", "green dome"],
-    },
-  },
-  juneau: {
-    "Mendenhall Glacier": {
-      description:
-        "A spectacular 13-mile-long glacier located in the Tongass National Forest with trails and visitor center.",
-      openingHours: "6:00 AM - Midnight",
-      entryFee: "$5",
-      entryFeeCategory: "cheap",
-      priceRange: "$",
-      priceCategory: "cheap",
-      timeOfDay: "daytime",
-      rating: 4.8,
-      isAdventure: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [],
-      features: ["glacier", "trails", "visitor center"],
-    },
-    "Mount Roberts Tramway": {
-      description:
-        "An aerial tramway offering panoramic views of Juneau and access to hiking trails and cultural exhibits.",
-      openingHours: "9:00 AM - 9:00 PM",
-      entryFee: "$50 (round-trip)",
-      entryFeeCategory: "expensive",
-      priceRange: "$$$",
-      priceCategory: "expensive",
-      timeOfDay: "daytime",
-      rating: 4.6,
-      isAdventure: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [],
-      features: ["aerial tramway", "panoramic views", "hiking access"],
-    },
-    "Alaska State Museum": {
-      description:
-        "Comprehensive museum showcasing Alaska’s indigenous cultures, history, and natural science exhibits.",
-      openingHours: "9:00 AM - 5:00 PM",
-      entryFee: "$14",
-      entryFeeCategory: "moderate",
-      priceRange: "$$",
-      priceCategory: "moderate",
-      timeOfDay: "daytime",
-      rating: 4.7,
-      isHistorical: true,
-      isEducational: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [],
-      features: ["museum", "indigenous cultures", "natural history"],
-    },
-  },
-  ketchikan: {
-    "Totem Heritage Center": {
-      description:
-        "Museum preserving and showcasing 19th-century totem poles and cultural artifacts of the Tlingit, Haida, and Tsimshian peoples.",
-      openingHours: "8:00 AM – 5:00 PM",
-      entryFee: "$6",
-      entryFeeCategory: "cheap",
-      priceRange: "$",
-      priceCategory: "cheap",
-      timeOfDay: "daytime",
-      rating: 4.5,
-      isHistorical: true,
-      isEducational: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [],
-      features: ["museum", "totem poles", "cultural artifacts"],
-    },
-    "Misty Fjords National Monument": {
-      description:
-        "A pristine wilderness area with dramatic fjords, steep cliffs, and waterfalls, best explored by boat or floatplane.",
-      openingHours: "Accessible via tour schedules",
-      entryFeeCategory: "varies",
-      priceRange: "$$-$$$",
-      priceCategory: "moderate",
-      timeOfDay: "daytime",
-      rating: 4.9,
-      isAdventure: true,
-      isNature: true,
-      isPopular: true,
-      isWheelchairAccessible: false,
-      entryFees: [],
-      features: ["wilderness area", "fjords", "waterfalls", "boat tours"],
-    },
-    "Creek Street": {
-      description:
-        "Historic boardwalk district lined with colorful buildings, shops, galleries, and former brothels perched over a salmon-filled creek.",
-      openingHours: "Open 24 hours (shops vary)",
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
-      timeOfDay: "daytime",
-      rating: 4.6,
-      isHistorical: true,
-      isFree: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [],
-      features: ["historic district", "boardwalk", "shops", "galleries"],
-    },
-  },
-  lisbon: {
-    "Belém Tower": {
-      description:
-        "Iconic 16th-century fortress on the Tagus River, symbolizing Portugal’s Age of Discovery.",
-      openingHours: "10:00 AM – 5:30 PM",
-      entryFee: "€6",
-      entryFeeCategory: "cheap",
-      priceRange: "$",
-      priceCategory: "cheap",
-      timeOfDay: "daytime",
-      rating: 4.6,
-      isHistorical: true,
-      isPopular: true,
-      isWheelchairAccessible: false,
-      entryFees: [
-        {
-          category: "adult",
-          priceRange: "€6",
-          priceCategory: "cheap",
-        },
-        {
-          category: "child",
-          priceRange: "€3",
-          priceCategory: "low",
-        },
-      ],
-      features: ["fortress", "historical site", "Tagus River views"],
-    },
-    "Jerónimos Monastery": {
-      description:
-        "UNESCO-listed monastery with stunning Manueline architecture and historical tombs, including that of Vasco da Gama.",
-      openingHours: "10:00 AM – 5:30 PM",
-      entryFee: "€10",
-      entryFeeCategory: "moderate",
-      priceRange: "$$",
-      priceCategory: "moderate",
-      timeOfDay: "daytime",
-      rating: 4.7,
-      isHistorical: true,
-      isArtOrMusic: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [
-        {
-          category: "adult",
-          priceRange: "€10",
-          priceCategory: "moderate",
-        },
-        {
-          category: "child",
-          priceRange: "€5",
-          priceCategory: "low",
-        },
-      ],
-      features: ["monastery", "Manueline architecture", "historical tombs"],
-    },
-    "Alfama District": {
-      description:
-        "Lisbon’s oldest neighborhood, known for narrow alleyways, fado music, scenic viewpoints, and traditional architecture.",
-      openingHours: [
-        {
-          day: "Monday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Tuesday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Wednesday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Thursday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Friday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Saturday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Sunday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-      ],
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
-      timeOfDay: "daytime and evening",
-      rating: 4.7,
-      isCultural: true,
-      isFree: true,
-      isPopular: true,
-      isWheelchairAccessible: false,
-      entryFees: [],
-      features: ["historic district", "fado music", "scenic viewpoints"],
-    },
-  },
-  malta: {
-    "Valletta Waterfront": {
-      description:
-        "Historic waterfront promenade with 18th-century warehouses turned into restaurants, shops, and entertainment venues.",
-      openingHours: "Open 24 hours (businesses vary)",
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
-      timeOfDay: "daytime and evening",
-      rating: 4.5,
-      isHistorical: true,
-      isFree: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [],
-      features: ["waterfront", "restaurants", "shops", "entertainment"],
-    },
-    "St. John's Co-Cathedral": {
-      description:
-        "Lavishly decorated Baroque cathedral featuring artwork by Caravaggio and ornate gold interiors.",
-      openingHours: "9:30 AM – 4:30 PM",
-      entryFee: "€15",
-      entryFeeCategory: "moderate",
-      priceRange: "$$",
-      priceCategory: "moderate",
-      timeOfDay: "daytime",
-      rating: 4.8,
-      isHistorical: true,
-      isArtOrMusic: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [
-        {
-          category: "adult",
-          priceRange: "€15",
-          priceCategory: "moderate",
-        },
-        {
-          category: "child",
-          priceRange: "€7.50",
-          priceCategory: "low",
-        },
-      ],
-      features: ["cathedral", "Baroque architecture", "Caravaggio artwork"],
-    },
-    "Blue Lagoon": {
-      description:
-        "Crystal-clear turquoise bay on Comino Island, ideal for swimming, snorkeling, and day trips.",
-      openingHours: "Accessible via boat tours",
-      entryFeeCategory: "varies",
-      priceRange: "$$",
-      priceCategory: "moderate",
-      timeOfDay: "daytime",
-      rating: 4.9,
-      isAdventure: true,
-      isNature: true,
-      isPopular: true,
-      isWheelchairAccessible: false,
-      entryFees: [],
-      features: ["lagoon", "snorkeling", "swimming", "boat tours"],
-    },
-  },
-  melbourne: {
-    "Federation Square": {
-      description:
-        "Modern cultural precinct in central Melbourne featuring museums, restaurants, and public events.",
-      openingHours: "24 hours (venues vary)",
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
-      timeOfDay: "all day",
-      rating: 4.4,
-      isCultural: true,
-      isFree: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [],
-      features: ["cultural precinct", "museums", "restaurants"],
-    },
-    "Royal Botanic Gardens": {
-      description:
-        "Expansive garden with diverse plant collections, lakes, and walking trails in the heart of Melbourne.",
-      openingHours: "7:30 AM – 5:30 PM",
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
-      timeOfDay: "daytime",
-      rating: 4.8,
-      isNature: true,
-      isFree: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [],
-      features: ["botanic gardens", "plant collections", "walking trails"],
-    },
-    "Queen Victoria Market": {
-      description:
-        "Historic open-air market offering fresh produce, gourmet foods, and local crafts.",
-      openingHours: "6:00 AM – 3:00 PM (days vary)",
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
-      timeOfDay: "daytime",
-      rating: 4.6,
-      isCultural: true,
-      isFree: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [],
-      features: ["market", "fresh produce", "gourmet foods", "local crafts"],
-    },
-  },
-  milan: {
-    "Duomo di Milano": {
-      description:
-        "Stunning Gothic cathedral with intricate spires and rooftop views of Milan.",
-      openingHours: "9:00 AM – 7:00 PM",
-      entryFee: "€5–€15",
-      entryFeeCategory: "moderate",
-      priceRange: "$$",
-      priceCategory: "moderate",
-      timeOfDay: "daytime",
-      rating: 4.8,
-      isHistorical: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [
-        {
-          category: "adult",
-          priceRange: "€5–€15",
-          priceCategory: "moderate",
-        },
-        {
-          category: "child",
-          priceRange: "€2.50–€7.50",
-          priceCategory: "low",
-        },
-      ],
-      features: ["cathedral", "Gothic architecture", "rooftop views"],
-    },
-    "Galleria Vittorio Emanuele II": {
-      description:
-        "Elegant 19th-century shopping arcade featuring luxury boutiques and cafes.",
-      openingHours: "10:00 AM – 8:00 PM",
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
-      timeOfDay: "daytime and evening",
-      rating: 4.7,
-      isCultural: true,
-      isFree: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [],
-      features: ["shopping arcade", "luxury boutiques", "cafes"],
-    },
-    "Sforza Castle": {
-      description:
-        "Renaissance fortress housing museums and art collections, including works by Michelangelo.",
-      openingHours: "7:00 AM – 7:30 PM",
-      entryFee: "€5",
-      entryFeeCategory: "cheap",
-      priceRange: "$",
-      priceCategory: "cheap",
-      timeOfDay: "daytime",
-      rating: 4.6,
-      isHistorical: true,
-      isArtOrMusic: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [],
-      features: ["fortress", "museums", "art collections"],
-    },
-  },
-  montreal: {
-    "Old Montreal": {
-      description:
-        "Historic district with cobblestone streets, colonial-era architecture, shops, and cafes.",
-      openingHours: "24 hours (venues vary)",
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
-      timeOfDay: "all day",
-      rating: 4.7,
-      isHistorical: true,
-      isFree: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [],
-      features: [
-        "historic district",
-        "cobblestone streets",
-        "colonial architecture",
-      ],
-    },
-    "Mount Royal Park": {
-      description:
-        "Large urban park with trails, scenic overlooks, and outdoor activities designed by Frederick Law Olmsted.",
-      openingHours: "6:00 AM – 9:00 PM",
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
-      timeOfDay: "daytime",
-      rating: 4.7,
-      isNature: true,
-      isFree: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [],
-      features: ["urban park", "trails", "scenic overlooks"],
-    },
-    "Notre-Dame Basilica": {
-      description:
-        "Magnificent Gothic Revival church known for its ornate interior, stained glass, and musical performances.",
-      openingHours: "9:00 AM – 4:30 PM",
-      entryFee: "$15 CAD",
-      entryFeeCategory: "moderate",
-      priceRange: "$$",
-      priceCategory: "moderate",
-      timeOfDay: "daytime",
-      rating: 4.8,
-      isHistorical: true,
-      isArtOrMusic: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [],
-      features: ["basilica", "Gothic Revival architecture", "stained glass"],
-    },
-  },
-  mykonos: {
-    "Little Venice": {
-      description:
-        "Picturesque waterfront neighborhood with charming buildings, cafes, and bars overhanging the sea.",
-      openingHours: [
-        {
-          day: "Monday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Tuesday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Wednesday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Thursday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Friday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Saturday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Sunday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-      ],
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
-      timeOfDay: "sunset and evening",
-      rating: 4.6,
-      isCultural: true,
-      isFree: true,
-      isRomantic: true,
-      isPopular: true,
-      isWheelchairAccessible: false,
-      entryFees: [],
-      features: ["waterfront", "sunset views", "cafes", "bars"],
-    },
-    "Windmills of Mykonos": {
-      description:
-        "Iconic whitewashed windmills overlooking Mykonos Town, offering scenic photo opportunities and historical context.",
-      openingHours: [
-        {
-          day: "Monday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Tuesday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Wednesday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Thursday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Friday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Saturday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Sunday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-      ],
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
-      timeOfDay: "daytime",
-      rating: 4.5,
-      isHistorical: true,
-      isFree: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [],
-      features: ["windmills", "scenic views", "historical site"],
-    },
-    "Paradise Beach": {
-      description:
-        "Lively beach known for its crystal waters, party atmosphere, and beach clubs.",
-      openingHours: "All day",
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
-      timeOfDay: "daytime and evening",
-      rating: 4.4,
-      isAdventure: true,
-      isBeach: true,
-      isPopular: true,
-      isWheelchairAccessible: false,
-      entryFees: [],
-      features: ["beach", "parties", "beach clubs"],
-    },
-  },
-  oslo: {
-    "Viking Ship Museum": {
-      description:
-        "Museum displaying well-preserved Viking ships and artifacts from burial mounds around Norway.",
-      openingHours: "Temporarily closed for renovation (reopening 2026)",
-      entryFeeCategory: "moderate",
-      priceRange: "$$",
-      priceCategory: "moderate",
-      timeOfDay: "daytime",
-      rating: 4.5,
-      isHistorical: true,
-      isEducational: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [],
-      features: ["museum", "Viking ships", "historical artifacts"],
-    },
-    "Vigeland Park": {
-      description:
-        "Large sculpture park featuring more than 200 works by Gustav Vigeland, surrounded by landscaped gardens.",
-      openingHours: [
-        {
-          day: "Monday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Tuesday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Wednesday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Thursday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Friday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Saturday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Sunday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-      ],
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
-      timeOfDay: "daytime",
-      rating: 4.7,
-      isArtOrMusic: true,
-      isFree: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [],
-      features: ["sculpture park", "landscaped gardens", "outdoor art"],
-    },
-    "Oslo Opera House": {
-      description:
-        "Striking waterfront building home to the Norwegian National Opera and Ballet, known for its accessible rooftop views.",
-      openingHours: "10:00 AM – 8:00 PM",
-      entryFee: "Varies by performance",
-      entryFeeCategory: "expensive",
-      priceRange: "$$$",
-      priceCategory: "expensive",
-      timeOfDay: "evening",
-      rating: 4.6,
-      isArtOrMusic: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      accessibilityFeatures: [
-        "accessible entrances",
-        "elevators",
-        "reserved seating",
-      ],
-      entryFees: [],
-      features: ["opera house", "ballet", "modern architecture"],
-    },
-  },
-  philipsburg: {
-    "Great Bay Beach": {
-      description:
-        "Popular beach along the Philipsburg boardwalk offering calm waters, sunbathing, and nearby amenities.",
-      openingHours: "All day",
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
-      timeOfDay: "daytime",
-      rating: 4.4,
-      isBeach: true,
-      isFree: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [],
-      features: ["beach", "sunbathing", "calm waters"],
-    },
-    "Front Street": {
-      description:
-        "Main shopping and cultural street in Philipsburg lined with duty-free stores, cafes, and historic architecture.",
-      openingHours: "9:00 AM – 6:00 PM (varies)",
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
-      timeOfDay: "daytime",
-      rating: 4.3,
-      isCultural: true,
-      isFree: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [],
-      features: ["shopping street", "duty-free stores", "cafes"],
-    },
-    "Sint Maarten Museum": {
-      description:
-        "Small museum chronicling the island’s history, culture, and natural environment through artifacts and exhibits.",
-      openingHours: "10:00 AM – 4:00 PM (weekdays)",
-      entryFee: "$1",
-      entryFeeCategory: "cheap",
-      priceRange: "$",
-      priceCategory: "cheap",
-      timeOfDay: "daytime",
-      rating: 4.0,
-      isHistorical: true,
-      isEducational: true,
-      isPopular: false,
-      isWheelchairAccessible: false,
-      entryFees: [],
-      features: ["museum", "island history", "cultural exhibits"],
-    },
-  },
-  roatan: {
-    "West Bay Beach": {
-      description:
-        "Scenic beach with white sand and clear turquoise waters, ideal for swimming and snorkeling.",
-      openingHours: "All day",
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
-      timeOfDay: "daytime",
-      rating: 4.8,
-      isAdventure: true,
-      isBeach: true,
-      isFree: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [],
-      features: ["beach", "snorkeling", "swimming", "sunbathing"],
-    },
-    "Gumbalimba Park": {
-      description:
-        "Nature park offering ziplining, botanical gardens, animal encounters, and a suspension bridge.",
-      openingHours: "8:00 AM – 4:00 PM",
-      entryFee: "$35",
-      entryFeeCategory: "moderate",
-      priceRange: "$$",
-      priceCategory: "moderate",
-      timeOfDay: "daytime",
-      rating: 4.5,
-      isNature: true,
-      isAdventure: true,
-      isPopular: true,
-      isWheelchairAccessible: false,
-      entryFees: [],
-      features: ["nature park", "ziplining", "botanical gardens"],
-    },
-    "Carambola Botanical Gardens": {
-      description:
-        "Lush botanical gardens with tropical plants, hiking trails, and panoramic views of the island.",
-      openingHours: "8:00 AM – 4:00 PM",
-      entryFee: "$10",
-      entryFeeCategory: "cheap",
-      priceRange: "$",
-      priceCategory: "cheap",
-      timeOfDay: "daytime",
-      rating: 4.4,
-      isNature: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [],
-      features: ["botanical gardens", "tropical plants", "hiking trails"],
-    },
-  },
-  santiago: {
-    "Cerro San Cristóbal": {
-      description:
-        "Hill in the center of Santiago offering panoramic views, a funicular ride, and the iconic Virgin Mary statue.",
-      openingHours: "8:00 AM – 8:00 PM",
-      entryFee: "$5 (funicular ride)",
-      entryFeeCategory: "cheap",
-      priceRange: "$",
-      priceCategory: "cheap",
-      timeOfDay: "daytime",
-      rating: 4.6,
-      isAdventure: true,
-      isNature: true,
-      isPopular: true,
-      isWheelchairAccessible: false,
-      entryFees: [],
-      features: ["hill", "panoramic views", "funicular ride"],
-    },
-    "Plaza de Armas": {
-      description:
-        "Historic city square and cultural hub surrounded by colonial architecture, museums, and the Santiago Cathedral.",
-      openingHours: [
-        {
-          day: "Monday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Tuesday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Wednesday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Thursday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Friday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Saturday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-        {
-          day: "Sunday",
-          availableHours: [{ from: "00:00", to: "23:59" }],
-        },
-      ],
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
-      timeOfDay: "all day",
-      rating: 4.4,
-      isHistorical: true,
-      isCultural: true,
-      isFree: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [],
-      features: ["city square", "colonial architecture", "cultural hub"],
-    },
-    "La Moneda Palace": {
-      description:
-        "Presidential palace and seat of the Chilean government, notable for its neoclassical architecture and guided tours.",
-      openingHours: "10:00 AM – 4:00 PM (Mon–Fri)",
-      entryFeeCategory: "free (guided tours must be booked)",
-      priceRange: "free",
-      priceCategory: "free",
-      timeOfDay: "daytime",
-      rating: 4.5,
-      isHistorical: true,
-      isGovernment: true,
-      isFree: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [],
-      features: [
-        "government building",
-        "guided tours",
-        "neoclassical architecture",
-      ],
-    },
-  },
-  santorini: {
-    "Oia Village": {
-      description:
-        "Famous cliffside village known for its whitewashed houses, blue-domed churches, and breathtaking sunsets.",
-      openingHours: "Open all day",
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
-      timeOfDay: "sunset",
-      rating: 4.8,
-      isScenic: true,
-      isRomantic: true,
-      isFree: true,
-      isPopular: true,
-      isWheelchairAccessible:
-        "partially (some steep paths and uneven surfaces)",
-      entryFees: [],
-      features: ["village", "cliffside", "sunset views"],
-    },
-    "Fira Town": {
-      description:
-        "Capital of Santorini offering stunning views of the caldera, shops, cafes, and nightlife.",
-      openingHours: "All day",
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
-      timeOfDay: "all day",
-      rating: 4.6,
-      isScenic: true,
-      isCultural: true,
-      isFree: true,
-      isPopular: true,
-      isWheelchairAccessible:
-        "partially (some steep paths and uneven surfaces)",
-      entryFees: [],
-      features: ["town", "caldera views", "shopping", "nightlife"],
-    },
-    "Red Beach": {
-      description:
-        "Unique volcanic beach with red cliffs and dark sand, accessible via a short hike from the nearby parking area.",
-      openingHours: "All day",
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
-      timeOfDay: "daytime",
-      rating: 4.3,
-      isAdventure: true,
-      isBeach: true,
-      isFree: true,
-      isPopular: true,
-      isWheelchairAccessible: false,
-      entryFees: [],
-      features: ["beach", "volcanic sand", "hiking"],
-    },
-  },
-  seattle: {
-    "Space Needle": {
-      description:
-        "Iconic observation tower offering panoramic views of Seattle, Mount Rainier, and Puget Sound.",
-      openingHours: "10:00 AM - 8:00 PM",
-      entryFee: "$38",
-      entryFeeCategory: "moderate",
-      priceRange: "$$",
-      priceCategory: "moderate",
-      timeOfDay: "daytime",
-      rating: 4.6,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      accessibilityFeatures: ["wheelchair accessible elevators and ramps"],
-      entryFees: [
-        {
-          category: "adult",
-          priceRange: "$38",
-          priceCategory: "moderate",
-        },
-        {
-          category: "child",
-          priceRange: "$19",
-          priceCategory: "budget",
-        },
-      ],
-      features: ["observation tower", "panoramic views", "Seattle skyline"],
-    },
-    "Pike Place Market": {
-      description:
-        "Historic public market featuring local produce, seafood, crafts, and the famous fish-throwing vendors.",
-      openingHours: "9:00 AM - 6:00 PM",
-      entryFeeCategory: "free",
-      priceRange: "varies",
-      priceCategory: "varies",
-      timeOfDay: "daytime",
-      rating: 4.7,
-      isCultural: true,
-      isFoodieSpot: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [],
-      features: ["public market", "local produce", "seafood", "crafts"],
-    },
-    "Chihuly Garden and Glass": {
-      description:
-        "Permanent exhibition showcasing the studio glass of artist Dale Chihuly, featuring a 40-foot-tall Glasshouse with a 100-foot-long suspended sculpture, eight indoor galleries, and a lush garden.",
-      openingHours:
-        "9:00 AM - 9:00 PM (hours vary by day; last entry 45 minutes before closing)",
-      entryFee: "$35 - $42.50",
-      entryFeeCategory: "moderate",
-      priceRange: "$$",
-      priceCategory: "moderate",
-      timeOfDay: "daytime and evening",
-      rating: 4.7,
-      isHistorical: true,
-      isArtOrMusic: true,
-      isFamilyFriendly: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      accessibilityFeatures: ["wheelchair accessible entrances and paths"],
-      entryFees: [],
-      features: ["glass art", "indoor galleries", "garden"],
-    },
-  },
-  shanghai: {
-    "The Bund": {
-      description:
-        "Waterfront promenade along the Huangpu River featuring colonial-era buildings and stunning views of the skyline.",
-      openingHours: "Open all day",
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
-      timeOfDay: "day or night",
-      rating: 4.7,
-      isScenic: true,
-      isHistorical: true,
-      isFree: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [],
-      features: ["waterfront", "colonial architecture", "skyline views"],
-    },
-    "Yu Garden": {
-      description:
-        "Classical Chinese garden dating back to the Ming Dynasty with pavilions, ponds, and rockeries.",
-      openingHours: "8:45 AM – 4:45 PM",
-      entryFee: "¥40",
-      entryFeeCategory: "cheap",
-      priceRange: "$",
-      priceCategory: "cheap",
-      timeOfDay: "daytime",
-      rating: 4.5,
-      isCultural: true,
-      isHistorical: true,
-      isPopular: true,
-      isWheelchairAccessible:
-        "partially (some steep paths and uneven surfaces)",
-      entryFees: [],
-      features: ["Chinese garden", "pavilions", "ponds", "rockeries"],
-    },
-    "Shanghai Tower": {
-      description:
-        "The tallest building in China with observation decks, sustainable architecture, and stunning city views.",
-      openingHours: "8:30 AM – 10:00 PM",
-      entryFee: "¥180",
-      entryFeeCategory: "expensive",
-      priceRange: "$$$",
-      priceCategory: "expensive",
-      timeOfDay: "day or night",
-      rating: 4.7,
-      isScenic: true,
-      isLandmark: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      entryFees: [],
-      features: ["skyscraper", "observation deck", "city views"],
-    },
-  },
-  seattle: {
-    "Chihuly Garden and Glass": {
-      description:
-        "Exhibition showcasing Dale Chihuly's colorful glass art in both indoor galleries and a landscaped garden.",
-      openingHours: "10:00 AM – 6:00 PM",
-      entryFee: "$35",
-      entryFeeCategory: "expensive",
-      priceRange: "$$$",
-      priceCategory: "expensive",
-      timeOfDay: "daytime",
-      rating: 4.8,
-      isArtOrMusic: true,
-      isPopular: true,
-      isWheelchairAccessible: true,
-      accessibilityFeatures: [
-        "accessible restrooms",
-        "wheelchair-accessible paths",
-      ],
-      entryFees: [],
-      features: ["glass art", "indoor galleries", "landscaped garden"],
-    },
-  },
   singapore: {
     "Gardens by the Bay": {
       description:
@@ -5183,7 +3240,7 @@ export const attractionDetails = {
     "Sentosa Island": {
       description:
         "Resort island with beaches, theme parks, luxury hotels, and attractions like Universal Studios Singapore.",
-      openingHours: "All day",
+      openingHours: twentyFourHours,
       entryFee: "Varies by attraction",
       entryFeeCategory: "varies",
       priceRange: "$–$$$",
@@ -5292,7 +3349,7 @@ export const attractionDetails = {
     "Skagway Museum": {
       description:
         "Local museum featuring artifacts and exhibits on the gold rush, native culture, and regional history.",
-      openingHours: "9:00 AM – 4:00 PM",
+      openingHours: standardBusinessHours,
       entryFee: "$2",
       entryFeeCategory: "cheap",
       priceRange: "$",
@@ -5363,7 +3420,7 @@ export const attractionDetails = {
     "CN Tower": {
       description:
         "Iconic observation tower offering panoramic views of Toronto and beyond, with a glass floor and rotating restaurant.",
-      openingHours: "10:00 AM – 10:00 PM",
+      openingHours: tenToTen,
       entryFee: "$43",
       entryFeeCategory: "expensive",
       priceRange: "$$$",
@@ -5627,7 +3684,7 @@ export const attractionDetails = {
     Grossmünster: {
       description:
         "Iconic twin-towered church with significant historical and architectural value.",
-      openingHours: "10:00 AM - 6:00 PM",
+      openingHours: tenToSix,
       entryFee: "CHF 5",
       entryFeeCategory: "budget",
       priceRange: "$",
@@ -5687,7 +3744,7 @@ export const attractionDetails = {
     "Sankeien Garden": {
       description:
         "Traditional Japanese garden with historic architecture and seasonal flora.",
-      openingHours: "9:00 AM - 5:00 PM",
+      openingHours: standardBusinessHours,
       entryFee: "¥700",
       entryFeeCategory: "budget",
       priceRange: "$",
@@ -5714,7 +3771,7 @@ export const attractionDetails = {
     "Cup Noodles Museum": {
       description:
         "Interactive museum dedicated to the history and creativity of instant noodles.",
-      openingHours: "10:00 AM - 6:00 PM",
+      openingHours: tenToSix,
       entryFee: "¥500",
       entryFeeCategory: "budget",
       priceRange: "$",
@@ -5787,7 +3844,7 @@ export const attractionDetails = {
     "Smithsonian National Museum of Natural History": {
       description:
         "World-renowned museum showcasing natural wonders, from dinosaur fossils to gemstones.",
-      openingHours: "10:00 AM - 5:30 PM",
+      openingHours: tenToSix,
       entryFeeCategory: "free",
       priceRange: "free",
       priceCategory: "free",
@@ -5802,7 +3859,7 @@ export const attractionDetails = {
     "National Air and Space Museum": {
       description:
         "Exhibits the largest collection of historic aircraft and spacecraft in the world.",
-      openingHours: "10:00 AM - 5:30 PM",
+      openingHours: tenToSix,
       entryFeeCategory: "free",
       priceRange: "free",
       priceCategory: "free",
@@ -5819,7 +3876,7 @@ export const attractionDetails = {
     "War Remnants Museum": {
       description:
         "Museum exhibiting artifacts and photographs from the Vietnam War, offering insight into the country's history.",
-      openingHours: "7:30 AM - 6:00 PM",
+      openingHours: earlyMorningToEvening,
       entryFee: "VND 40,000",
       entryFeeCategory: "budget",
       priceRange: "$",
@@ -5847,7 +3904,7 @@ export const attractionDetails = {
     "Cu Chi Tunnels": {
       description:
         "An extensive network of underground tunnels used during the Vietnam War, now a popular tourist attraction.",
-      openingHours: "7:00 AM - 5:00 PM",
+      openingHours: earlyMorningToEvening,
       entryFee: "VND 90,000",
       entryFeeCategory: "budget",
       priceRange: "$",
@@ -5876,7 +3933,7 @@ export const attractionDetails = {
     "Ben Thanh Market": {
       description:
         "A bustling market offering a wide range of goods, from local handicrafts to street food.",
-      openingHours: "6:00 AM - 6:00 PM",
+      openingHours: earlyMorningToEvening,
       entryFeeCategory: "free",
       priceRange: "free",
       priceCategory: "free",
@@ -5894,7 +3951,7 @@ export const attractionDetails = {
     "Laboe Naval Memorial & U-995 Submarine": {
       description:
         "A memorial honoring sailors lost in both World Wars, featuring a 280-foot tower with panoramic views and the U-995 submarine museum.",
-      openingHours: "10:00 AM - 6:00 PM",
+      openingHours: tenToSix,
       entryFee: "€7",
       entryFeeCategory: "budget",
       priceRange: "$",
@@ -5970,7 +4027,7 @@ export const attractionDetails = {
     "Kunsthalle zu Kiel": {
       description:
         "Kiel's premier art museum, showcasing modern and contemporary art, including German Expressionism and Russian art.",
-      openingHours: "10:00 AM - 6:00 PM",
+      openingHours: tenToSix,
       entryFee: "€6",
       entryFeeCategory: "budget",
       priceRange: "$",
@@ -6044,7 +4101,7 @@ export const attractionDetails = {
     "Kinkaku-ji (Golden Pavilion)": {
       description:
         "Zen Buddhist temple covered in gold leaf, surrounded by beautiful gardens and a reflective pond.",
-      openingHours: "9:00 AM - 5:00 PM",
+      openingHours: standardBusinessHours,
       entryFee: "¥400",
       entryFeeCategory: "budget",
       priceRange: "$",
@@ -6118,7 +4175,7 @@ export const attractionDetails = {
     "Larco Museum": {
       description:
         "Museum showcasing pre-Columbian art, including ceramics, textiles, and gold and silver artifacts.",
-      openingHours: "9:00 AM - 6:00 PM",
+      openingHours: standardBusinessHours,
       entryFee: "S/35",
       entryFeeCategory: "moderate",
       priceRange: "$$",
@@ -6147,7 +4204,7 @@ export const attractionDetails = {
     "Huaca Pucllana": {
       description:
         "An ancient pre-Incan adobe pyramid located in the heart of Miraflores, offering guided tours that reveal insights into Lima’s early civilizations.",
-      openingHours: "9:00 AM - 5:00 PM (closed Tuesdays)",
+      openingHours: closedTuesdays,
       entryFee: "S/15",
       entryFeeCategory: "budget",
       priceRange: "$",
@@ -6316,7 +4373,7 @@ export const attractionDetails = {
     "Miami Seaquarium": {
       description:
         "Marine-life park with daily dolphin and sea lion shows, aquariums, and interactive exhibits featuring tropical fish, turtles, and sharks.",
-      openingHours: "9:00 AM - 6:00 PM",
+      openingHours: standardBusinessHours,
       entryFee: "$49",
       entryFeeCategory: "regular",
       priceRange: "$$",
@@ -6517,7 +4574,7 @@ export const attractionDetails = {
     "Mercado del Puerto": {
       description:
         "Historic iron-roofed market known for its parrilladas (grill restaurants), local crafts, and live music—a central gathering spot for food lovers.",
-      openingHours: "12:00 PM - 11:00 PM",
+      openingHours: twelveToEleven,
       entryFeeCategory: "free",
       priceRange: "$",
       priceCategory: "budget",
@@ -6619,7 +4676,7 @@ export const attractionDetails = {
     "Queen's Staircase": {
       description:
         "A 66-step limestone staircase carved by enslaved Africans in the late 18th century as an escape route from Fort Fincastle.",
-      openingHours: "7:00 AM - 6:00 PM",
+      openingHours: earlyMorningToEvening,
       entryFeeCategory: "free",
       priceRange: "free",
       priceCategory: "free",
@@ -6635,7 +4692,7 @@ export const attractionDetails = {
     "Ardastra Gardens & Wildlife Conservation Centre": {
       description:
         "Small zoo and conservation center known for its iconic marching flamingos, lush botanical gardens, and rescued wildlife.",
-      openingHours: "9:00 AM - 5:00 PM",
+      openingHours: standardBusinessHours,
       entryFee: "$25",
       entryFeeCategory: "budget",
       priceRange: "$",
@@ -6662,7 +4719,7 @@ export const attractionDetails = {
     "Pirates of Nassau Museum": {
       description:
         "Interactive museum with life-size recreations of pirate ships, exhibits on Golden Age piracy, and hands-on displays for families.",
-      openingHours: "9:00 AM - 5:00 PM",
+      openingHours: standardBusinessHours,
       entryFee: "$18",
       entryFeeCategory: "budget",
       priceRange: "$",
@@ -6690,7 +4747,7 @@ export const attractionDetails = {
     "John Watling's Distillery": {
       description:
         "Historic distillery located on a colonial-era estate, offering guided tours of the rum-making process and tastings in a restored Great House.",
-      openingHours: "9:00 AM - 5:00 PM",
+      openingHours: standardBusinessHours,
       entryFeeCategory: "free",
       priceRange: "free",
       priceCategory: "free",
@@ -6809,7 +4866,7 @@ export const attractionDetails = {
     "National WWII Museum": {
       description:
         "Top-ranked museum in the United States dedicated to the history of World War II, featuring immersive exhibits, personal narratives, and large-scale artifacts.",
-      openingHours: "9:00 AM - 5:00 PM",
+      openingHours: standardBusinessHours,
       entryFee: "$29",
       entryFeeCategory: "regular",
       priceRange: "$$",
@@ -6932,7 +4989,7 @@ export const attractionDetails = {
     "SeaCity Museum": {
       description:
         "Museum exploring Southampton’s history as a maritime city, including its connection to the Titanic, through interactive galleries and multimedia displays.",
-      openingHours: "10:00 AM - 5:00 PM",
+      openingHours: tenToFour,
       entryFee: "£12",
       entryFeeCategory: "budget",
       priceRange: "£",
@@ -6960,7 +5017,7 @@ export const attractionDetails = {
     "Southampton City Art Gallery": {
       description:
         "Hosts an extensive collection of paintings and sculptures from the 17th century to contemporary works, free to the public and housed in a modern facility.",
-      openingHours: "10:00 AM - 5:00 PM (Closed Monday)",
+      openingHours: closedMondays,
       entryFeeCategory: "free",
       priceRange: "free",
       priceCategory: "free",
@@ -6976,7 +5033,7 @@ export const attractionDetails = {
     "Tudor House and Garden": {
       description:
         "A restored 15th-century Tudor merchant’s house featuring period furnishings, tapestries, and walled gardens, illustrating medieval to Tudor life in Southampton.",
-      openingHours: "10:00 AM - 4:00 PM",
+      openingHours: tenToFour,
       entryFee: "£10",
       entryFeeCategory: "budget",
       priceRange: "£",
@@ -7007,7 +5064,7 @@ export const attractionDetails = {
     "Westquay Shopping Centre": {
       description:
         "Large indoor shopping center with over 80 stores ranging from high street brands to designer boutiques, plus multiple dining and entertainment options.",
-      openingHours: "9:00 AM - 8:00 PM",
+      openingHours: extendedDays,
       entryFeeCategory: "free",
       priceRange: "free",
       priceCategory: "free",
@@ -7249,6 +5306,18 @@ export const attractionDetails = {
       isPopular: true,
       isWheelchairAccessible: true,
       accessibilityFeatures: ["Ramps and elevators available"],
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "€3",
+          priceCategory: "budget",
+        },
+        {
+          category: "child",
+          priceRange: "€1.50",
+          priceCategory: "low",
+        },
+      ],
       features: [
         "historical site",
         "architecture",
