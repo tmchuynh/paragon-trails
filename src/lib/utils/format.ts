@@ -199,6 +199,16 @@ export function formatKebebToTitleCase(str: string): string {
     .join(" ");
 }
 
+
+export function formatTitleCaseToKebabCase(title: string): string {
+  return title
+    .split(" ")
+    .map((word) => word.toLowerCase())
+    .join("-")
+    .replace(/[^a-z0-9-]+/g, "")
+    .replace(/^-|-$/g, "");
+}
+
 /**
  * Formats an array of language strings into a grammatically correct string.
  *
