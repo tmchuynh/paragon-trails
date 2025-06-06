@@ -76,14 +76,8 @@
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
       "rating": 4.8,
-      "tags": [
-        "Historical",
-        "Artormusic",
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "wheelchair accessible"
-      ],
+      "tags": ["Historical", "Artormusic", "Popular"],
+      "accessibilityFeatures": ["wheelchair accessible"],
       "entryFees": [
         {
           "category": "adult",
@@ -96,12 +90,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "museum",
-        "art",
-        "Dutch history",
-        "guided tours"
-      ]
+      "features": ["museum", "art", "Dutch history", "guided tours"]
     },
     "Anne Frank House": {
       "title": "Anne Frank House",
@@ -179,14 +168,8 @@
       "priceCategory": "budget",
       "timeOfDay": "daytime",
       "rating": 4.7,
-      "tags": [
-        "Historical",
-        "Spiritual",
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "not wheelchair accessible"
-      ],
+      "tags": ["Historical", "Spiritual", "Popular"],
+      "accessibilityFeatures": ["not wheelchair accessible"],
       "entryFees": [
         {
           "category": "adult",
@@ -199,11 +182,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "museum",
-        "WWII history",
-        "education"
-      ]
+      "features": ["museum", "WWII history", "education"]
     },
     "Vondelpark": {
       "title": "Vondelpark",
@@ -280,21 +259,10 @@
       "priceCategory": "free",
       "timeOfDay": "daytime",
       "rating": 4.6,
-      "tags": [
-        "Adventure",
-        "Free",
-        "Popular",
-        "Petfriendly"
-      ],
+      "tags": ["Adventure", "Free", "Popular", "Petfriendly"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "park",
-        "walking",
-        "outdoor",
-        "cycling",
-        "picnic"
-      ]
+      "features": ["park", "walking", "outdoor", "cycling", "picnic"]
     }
   },
   "london": {
@@ -374,14 +342,8 @@
       "priceCategory": "premium",
       "timeOfDay": "daytime",
       "rating": 4.6,
-      "tags": [
-        "Historical",
-        "Spiritual",
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "partial wheelchair access"
-      ],
+      "tags": ["Historical", "Spiritual", "Popular"],
+      "accessibilityFeatures": ["partial wheelchair access"],
       "entryFees": [
         {
           "category": "adult",
@@ -394,12 +356,7 @@
           "priceCategory": "moderate"
         }
       ],
-      "features": [
-        "castle",
-        "history",
-        "crown jewels",
-        "guided tours"
-      ]
+      "features": ["castle", "history", "crown jewels", "guided tours"]
     },
     "British Museum": {
       "title": "British Museum",
@@ -476,24 +433,10 @@
       "priceCategory": "free",
       "timeOfDay": "daytime",
       "rating": 4.8,
-      "tags": [
-        "Historical",
-        "Artormusic",
-        "Free",
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "wheelchair accessible",
-        "audio guides"
-      ],
+      "tags": ["Historical", "Artormusic", "Free", "Popular"],
+      "accessibilityFeatures": ["wheelchair accessible", "audio guides"],
       "entryFees": [],
-      "features": [
-        "museum",
-        "art",
-        "world history",
-        "artifacts",
-        "exhibitions"
-      ]
+      "features": ["museum", "art", "world history", "artifacts", "exhibitions"]
     },
     "Hyde Park": {
       "title": "Hyde Park",
@@ -570,22 +513,10 @@
       "priceCategory": "free",
       "timeOfDay": "daytime",
       "rating": 4.7,
-      "tags": [
-        "Adventure",
-        "Free",
-        "Popular",
-        "Petfriendly"
-      ],
-      "accessibilityFeatures": [
-        "wheelchair accessible paths"
-      ],
+      "tags": ["Adventure", "Free", "Popular", "Petfriendly"],
+      "accessibilityFeatures": ["wheelchair accessible paths"],
       "entryFees": [],
-      "features": [
-        "park",
-        "lake",
-        "gardens",
-        "outdoor activities"
-      ]
+      "features": ["park", "lake", "gardens", "outdoor activities"]
     }
   },
   "new-york-city": {
@@ -665,13 +596,8 @@
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
       "rating": 4.7,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "elevator to observation deck"
-      ],
+      "tags": ["Historical", "Popular"],
+      "accessibilityFeatures": ["elevator to observation deck"],
       "entryFees": [
         {
           "category": "adult",
@@ -684,12 +610,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "monument",
-        "national park",
-        "views",
-        "ferry ride"
-      ]
+      "features": ["monument", "national park", "views", "ferry ride"]
     },
     "Central Park": {
       "title": "Central Park",
@@ -766,24 +687,10 @@
       "priceCategory": "free",
       "timeOfDay": "daytime",
       "rating": 4.9,
-      "tags": [
-        "Adventure",
-        "Free",
-        "Popular",
-        "Petfriendly"
-      ],
-      "accessibilityFeatures": [
-        "accessible paths",
-        "adaptive playgrounds"
-      ],
+      "tags": ["Adventure", "Free", "Popular", "Petfriendly"],
+      "accessibilityFeatures": ["accessible paths", "adaptive playgrounds"],
       "entryFees": [],
-      "features": [
-        "park",
-        "lake",
-        "zoo",
-        "paths",
-        "outdoor activities"
-      ]
+      "features": ["park", "lake", "zoo", "paths", "outdoor activities"]
     },
     "Metropolitan Museum of Art": {
       "title": "Metropolitan Museum of Art",
@@ -861,11 +768,7 @@
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
       "rating": 4.8,
-      "tags": [
-        "Historical",
-        "Artormusic",
-        "Popular"
-      ],
+      "tags": ["Historical", "Artormusic", "Popular"],
       "accessibilityFeatures": [
         "wheelchair accessible",
         "assistive listening devices"
@@ -892,12 +795,7 @@
           "priceCategory": "free"
         }
       ],
-      "features": [
-        "museum",
-        "art",
-        "exhibitions",
-        "world-class collection"
-      ]
+      "features": ["museum", "art", "exhibitions", "world-class collection"]
     }
   },
   "paris": {
@@ -977,11 +875,7 @@
       "priceCategory": "premium",
       "timeOfDay": "daytime",
       "rating": 4.6,
-      "tags": [
-        "Historical",
-        "Romantic",
-        "Popular"
-      ],
+      "tags": ["Historical", "Romantic", "Popular"],
       "accessibilityFeatures": [
         "elevator access",
         "wheelchair accessible platform"
@@ -1003,12 +897,7 @@
           "priceCategory": "moderate"
         }
       ],
-      "features": [
-        "landmark",
-        "views",
-        "restaurant",
-        "observation deck"
-      ]
+      "features": ["landmark", "views", "restaurant", "observation deck"]
     },
     "Louvre Museum": {
       "title": "Louvre Museum",
@@ -1086,14 +975,8 @@
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
       "rating": 4.8,
-      "tags": [
-        "Historical",
-        "Artormusic",
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "wheelchair accessible entrances"
-      ],
+      "tags": ["Historical", "Artormusic", "Popular"],
+      "accessibilityFeatures": ["wheelchair accessible entrances"],
       "entryFees": [
         {
           "category": "adult",
@@ -1106,12 +989,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "museum",
-        "art",
-        "cultural history",
-        "guided tours"
-      ]
+      "features": ["museum", "art", "cultural history", "guided tours"]
     },
     "Montmartre": {
       "title": "Montmartre",
@@ -1188,19 +1066,10 @@
       "priceCategory": "free",
       "timeOfDay": "all day",
       "rating": 4.5,
-      "tags": [
-        "Romantic",
-        "Artormusic",
-        "Free",
-        "Popular"
-      ],
+      "tags": ["Romantic", "Artormusic", "Free", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "historic district",
-        "artistic heritage",
-        "scenic views"
-      ]
+      "features": ["historic district", "artistic heritage", "scenic views"]
     }
   },
   "rio-de-janeiro": {
@@ -1280,14 +1149,8 @@
       "priceCategory": "budget",
       "timeOfDay": "daytime",
       "rating": 4.8,
-      "tags": [
-        "Historical",
-        "Spiritual",
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "wheelchair accessible paths and elevators"
-      ],
+      "tags": ["Historical", "Spiritual", "Popular"],
+      "accessibilityFeatures": ["wheelchair accessible paths and elevators"],
       "entryFees": [
         {
           "category": "adult",
@@ -1300,12 +1163,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "statue",
-        "landmark",
-        "religious site",
-        "viewpoint"
-      ]
+      "features": ["statue", "landmark", "religious site", "viewpoint"]
     },
     "Copacabana Beach": {
       "title": "Copacabana Beach",
@@ -1382,19 +1240,10 @@
       "priceCategory": "free",
       "timeOfDay": "all day",
       "rating": 4.6,
-      "tags": [
-        "Adventure",
-        "Free",
-        "Popular"
-      ],
+      "tags": ["Adventure", "Free", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "beach",
-        "sunbathing",
-        "swimming",
-        "water sports"
-      ]
+      "features": ["beach", "sunbathing", "swimming", "water sports"]
     },
     "Sugarloaf Mountain": {
       "title": "Sugarloaf Mountain",
@@ -1472,11 +1321,7 @@
       "priceCategory": "budget",
       "timeOfDay": "daytime",
       "rating": 4.7,
-      "tags": [
-        "Romantic",
-        "Adventure",
-        "Popular"
-      ],
+      "tags": ["Romantic", "Adventure", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [
         {
@@ -1490,12 +1335,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "mountain",
-        "viewpoint",
-        "cable car",
-        "hiking"
-      ]
+      "features": ["mountain", "viewpoint", "cable car", "hiking"]
     }
   },
   "sydney": {
@@ -1575,14 +1415,8 @@
       "priceCategory": "expensive",
       "timeOfDay": "daytime",
       "rating": 4.7,
-      "tags": [
-        "Luxury",
-        "Artormusic",
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "wheelchair accessible entrances and seating"
-      ],
+      "tags": ["Luxury", "Artormusic", "Popular"],
+      "accessibilityFeatures": ["wheelchair accessible entrances and seating"],
       "entryFees": [
         {
           "category": "adult",
@@ -1595,11 +1429,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "performing arts",
-        "architecture",
-        "guided tours"
-      ]
+      "features": ["performing arts", "architecture", "guided tours"]
     },
     "Bondi Beach": {
       "title": "Bondi Beach",
@@ -1676,19 +1506,10 @@
       "priceCategory": "free",
       "timeOfDay": "all day",
       "rating": 4.6,
-      "tags": [
-        "Adventure",
-        "Free",
-        "Popular"
-      ],
+      "tags": ["Adventure", "Free", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "beach",
-        "surfing",
-        "walking",
-        "outdoor"
-      ]
+      "features": ["beach", "surfing", "walking", "outdoor"]
     },
     "Taronga Zoo": {
       "title": "Taronga Zoo",
@@ -1766,13 +1587,8 @@
       "priceCategory": "expensive",
       "timeOfDay": "daytime",
       "rating": 4.5,
-      "tags": [
-        "Adventure",
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "wheelchair accessible pathways"
-      ],
+      "tags": ["Adventure", "Popular"],
+      "accessibilityFeatures": ["wheelchair accessible pathways"],
       "entryFees": [
         {
           "category": "adult",
@@ -1785,12 +1601,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "zoo",
-        "wildlife",
-        "family-friendly",
-        "guided tours"
-      ]
+      "features": ["zoo", "wildlife", "family-friendly", "guided tours"]
     }
   },
   "tokyo": {
@@ -1869,18 +1680,10 @@
       "priceCategory": "free",
       "timeOfDay": "daytime",
       "rating": 4.7,
-      "tags": [
-        "Historical",
-        "Spiritual",
-        "Popular"
-      ],
+      "tags": ["Historical", "Spiritual", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "temple",
-        "historical site",
-        "shopping street"
-      ]
+      "features": ["temple", "historical site", "shopping street"]
     },
     "Shibuya Crossing": {
       "title": "Shibuya Crossing",
@@ -1957,18 +1760,10 @@
       "priceCategory": "free",
       "timeOfDay": "day or night",
       "rating": 4.6,
-      "tags": [
-        "Free",
-        "Popular"
-      ],
+      "tags": ["Free", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "intersection",
-        "neon lights",
-        "shopping",
-        "entertainment"
-      ]
+      "features": ["intersection", "neon lights", "shopping", "entertainment"]
     },
     "Tokyo Tower": {
       "title": "Tokyo Tower",
@@ -2046,13 +1841,8 @@
       "priceCategory": "budget",
       "timeOfDay": "daytime",
       "rating": 4.6,
-      "tags": [
-        "Romantic",
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "wheelchair accessible elevator"
-      ],
+      "tags": ["Romantic", "Popular"],
+      "accessibilityFeatures": ["wheelchair accessible elevator"],
       "entryFees": [
         {
           "category": "adult",
@@ -2065,11 +1855,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "observation tower",
-        "city views",
-        "landmark"
-      ]
+      "features": ["observation tower", "city views", "landmark"]
     }
   },
   "venice": {
@@ -2149,14 +1935,8 @@
       "priceCategory": "budget",
       "timeOfDay": "daytime",
       "rating": 4.7,
-      "tags": [
-        "Historical",
-        "Spiritual",
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "wheelchair accessible entrance"
-      ],
+      "tags": ["Historical", "Spiritual", "Popular"],
+      "accessibilityFeatures": ["wheelchair accessible entrance"],
       "entryFees": [
         {
           "category": "adult",
@@ -2169,11 +1949,7 @@
           "priceCategory": "low"
         }
       ],
-      "features": [
-        "basilica",
-        "Byzantine architecture",
-        "golden mosaics"
-      ]
+      "features": ["basilica", "Byzantine architecture", "golden mosaics"]
     },
     "Grand Canal": {
       "title": "Grand Canal",
@@ -2250,19 +2026,10 @@
       "priceCategory": "free",
       "timeOfDay": "all day",
       "rating": 4.9,
-      "tags": [
-        "Romantic",
-        "Adventure",
-        "Free",
-        "Popular"
-      ],
+      "tags": ["Romantic", "Adventure", "Free", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "canal",
-        "gondola rides",
-        "scenic views"
-      ]
+      "features": ["canal", "gondola rides", "scenic views"]
     },
     "Doge's Palace": {
       "title": "Doge's Palace",
@@ -2340,14 +2107,8 @@
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
       "rating": 4.6,
-      "tags": [
-        "Historical",
-        "Artormusic",
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "limited wheelchair access"
-      ],
+      "tags": ["Historical", "Artormusic", "Popular"],
+      "accessibilityFeatures": ["limited wheelchair access"],
       "entryFees": [
         {
           "category": "adult",
@@ -2360,11 +2121,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "historical site",
-        "museum",
-        "guided tours"
-      ]
+      "features": ["historical site", "museum", "guided tours"]
     }
   },
   "bangkok": {
@@ -2444,14 +2201,8 @@
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
       "rating": 4.6,
-      "tags": [
-        "Historical",
-        "Spiritual",
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "limited wheelchair access"
-      ],
+      "tags": ["Historical", "Spiritual", "Popular"],
+      "accessibilityFeatures": ["limited wheelchair access"],
       "entryFees": [
         {
           "category": "adult",
@@ -2464,11 +2215,7 @@
           "priceCategory": "low"
         }
       ],
-      "features": [
-        "palace",
-        "historical site",
-        "guided tours"
-      ]
+      "features": ["palace", "historical site", "guided tours"]
     },
     "Chatuchak Market": {
       "title": "Chatuchak Market",
@@ -2545,19 +2292,10 @@
       "priceCategory": "free",
       "timeOfDay": "daytime",
       "rating": 4.4,
-      "tags": [
-        "Adventure",
-        "Free",
-        "Popular"
-      ],
+      "tags": ["Adventure", "Free", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "market",
-        "shopping",
-        "food stalls",
-        "weekend market"
-      ]
+      "features": ["market", "shopping", "food stalls", "weekend market"]
     },
     "Wat Arun": {
       "title": "Wat Arun",
@@ -2635,11 +2373,7 @@
       "priceCategory": "budget",
       "timeOfDay": "daytime",
       "rating": 4.5,
-      "tags": [
-        "Historical",
-        "Spiritual",
-        "Popular"
-      ],
+      "tags": ["Historical", "Spiritual", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [
         {
@@ -2653,11 +2387,7 @@
           "priceCategory": "low"
         }
       ],
-      "features": [
-        "temple",
-        "riverside views",
-        "guided tours"
-      ]
+      "features": ["temple", "riverside views", "guided tours"]
     }
   },
   "dubai": {
@@ -2737,14 +2467,8 @@
       "priceCategory": "expensive",
       "timeOfDay": "daytime",
       "rating": 4.8,
-      "tags": [
-        "Romantic",
-        "Luxury",
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "wheelchair accessible elevators and ramps"
-      ],
+      "tags": ["Romantic", "Luxury", "Popular"],
+      "accessibilityFeatures": ["wheelchair accessible elevators and ramps"],
       "entryFees": [
         {
           "category": "adult",
@@ -2757,11 +2481,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "skyscraper",
-        "observation deck",
-        "fine dining"
-      ]
+      "features": ["skyscraper", "observation deck", "fine dining"]
     },
     "Dubai Fountain": {
       "title": "Dubai Fountain",
@@ -2838,18 +2558,10 @@
       "priceCategory": "free",
       "timeOfDay": "evening",
       "rating": 4.7,
-      "tags": [
-        "Romantic",
-        "Free",
-        "Popular"
-      ],
+      "tags": ["Romantic", "Free", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "fountain show",
-        "choreographed lights",
-        "music"
-      ]
+      "features": ["fountain show", "choreographed lights", "music"]
     },
     "Palm Jumeirah": {
       "title": "Palm Jumeirah",
@@ -2926,17 +2638,10 @@
       "priceCategory": "varies",
       "timeOfDay": "all day",
       "rating": 4.7,
-      "tags": [
-        "Luxury",
-        "Popular"
-      ],
+      "tags": ["Luxury", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "man-made island",
-        "luxury resorts",
-        "entertainment"
-      ]
+      "features": ["man-made island", "luxury resorts", "entertainment"]
     }
   },
   "san-francisco": {
@@ -3015,18 +2720,10 @@
       "priceCategory": "free",
       "timeOfDay": "all day",
       "rating": 4.9,
-      "tags": [
-        "Adventure",
-        "Free",
-        "Popular"
-      ],
+      "tags": ["Adventure", "Free", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "bridge",
-        "scenic views",
-        "walkways"
-      ]
+      "features": ["bridge", "scenic views", "walkways"]
     },
     "Alcatraz Island": {
       "title": "Alcatraz Island",
@@ -3104,18 +2801,10 @@
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
       "rating": 4.7,
-      "tags": [
-        "Historical",
-        "Adventure",
-        "Popular"
-      ],
+      "tags": ["Historical", "Adventure", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "island",
-        "former prison",
-        "guided tours"
-      ]
+      "features": ["island", "former prison", "guided tours"]
     },
     "Fisherman's Wharf": {
       "title": "Fisherman's Wharf",
@@ -3192,19 +2881,10 @@
       "priceCategory": "free",
       "timeOfDay": "all day",
       "rating": 4.5,
-      "tags": [
-        "Adventure",
-        "Free",
-        "Popular"
-      ],
+      "tags": ["Adventure", "Free", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "tourist area",
-        "shops",
-        "seafood",
-        "waterfront views"
-      ]
+      "features": ["tourist area", "shops", "seafood", "waterfront views"]
     }
   },
   "dubrovnik": {
@@ -3284,18 +2964,10 @@
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
       "rating": 4.8,
-      "tags": [
-        "Historical",
-        "Adventure",
-        "Popular"
-      ],
+      "tags": ["Historical", "Adventure", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "city walls",
-        "panoramic views",
-        "historical site"
-      ]
+      "features": ["city walls", "panoramic views", "historical site"]
     },
     "Rector's Palace": {
       "title": "Rector's Palace",
@@ -3373,10 +3045,7 @@
       "priceCategory": "low",
       "timeOfDay": "daytime",
       "rating": 4.6,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
+      "tags": ["Historical", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
       "features": [
@@ -3460,17 +3129,10 @@
       "priceCategory": "free",
       "timeOfDay": "daytime",
       "rating": 4.5,
-      "tags": [
-        "Free",
-        "Popular"
-      ],
+      "tags": ["Free", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "beach",
-        "pebble beach",
-        "scenic views"
-      ]
+      "features": ["beach", "pebble beach", "scenic views"]
     }
   },
   "rome": {
@@ -3550,13 +3212,8 @@
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
       "rating": 4.7,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "limited wheelchair access"
-      ],
+      "tags": ["Historical", "Popular"],
+      "accessibilityFeatures": ["limited wheelchair access"],
       "entryFees": [
         {
           "category": "adult",
@@ -3569,11 +3226,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "amphitheater",
-        "gladiatorial contests",
-        "guided tours"
-      ]
+      "features": ["amphitheater", "gladiatorial contests", "guided tours"]
     },
     "Vatican Museums": {
       "title": "Vatican Museums",
@@ -3651,15 +3304,8 @@
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
       "rating": 4.6,
-      "tags": [
-        "Historical",
-        "Spiritual",
-        "Artormusic",
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "wheelchair accessible entrances"
-      ],
+      "tags": ["Historical", "Spiritual", "Artormusic", "Popular"],
+      "accessibilityFeatures": ["wheelchair accessible entrances"],
       "entryFees": [
         {
           "category": "adult",
@@ -3672,12 +3318,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "museums",
-        "art",
-        "history",
-        "guided tours"
-      ]
+      "features": ["museums", "art", "history", "guided tours"]
     },
     "Trevi Fountain": {
       "title": "Trevi Fountain",
@@ -3754,19 +3395,10 @@
       "priceCategory": "free",
       "timeOfDay": "all day",
       "rating": 4.5,
-      "tags": [
-        "Historical",
-        "Romantic",
-        "Free",
-        "Popular"
-      ],
+      "tags": ["Historical", "Romantic", "Free", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "fountain",
-        "Baroque architecture",
-        "coin tossing tradition"
-      ]
+      "features": ["fountain", "Baroque architecture", "coin tossing tradition"]
     }
   },
   "athens": {
@@ -3846,13 +3478,8 @@
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
       "rating": 4.8,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "limited wheelchair access"
-      ],
+      "tags": ["Historical", "Popular"],
+      "accessibilityFeatures": ["limited wheelchair access"],
       "entryFees": [
         {
           "category": "adult",
@@ -3865,11 +3492,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "ancient ruins",
-        "historical site",
-        "guided tours"
-      ]
+      "features": ["ancient ruins", "historical site", "guided tours"]
     },
     "Parthenon": {
       "title": "Parthenon",
@@ -3947,18 +3570,10 @@
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
       "rating": 4.7,
-      "tags": [
-        "Historical",
-        "Spiritual",
-        "Popular"
-      ],
+      "tags": ["Historical", "Spiritual", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "ancient temple",
-        "historical site",
-        "guided tours"
-      ]
+      "features": ["ancient temple", "historical site", "guided tours"]
     },
     "Plaka District": {
       "title": "Plaka District",
@@ -4035,18 +3650,10 @@
       "priceCategory": "free",
       "timeOfDay": "all day",
       "rating": 4.5,
-      "tags": [
-        "Historical",
-        "Free",
-        "Popular"
-      ],
+      "tags": ["Historical", "Free", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "historic neighborhood",
-        "shopping",
-        "dining"
-      ]
+      "features": ["historic neighborhood", "shopping", "dining"]
     }
   },
   "barcelona": {
@@ -4126,14 +3733,8 @@
       "priceCategory": "expensive",
       "timeOfDay": "daytime",
       "rating": 4.8,
-      "tags": [
-        "Historical",
-        "Spiritual",
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "wheelchair accessible"
-      ],
+      "tags": ["Historical", "Spiritual", "Popular"],
+      "accessibilityFeatures": ["wheelchair accessible"],
       "entryFees": [
         {
           "category": "adult",
@@ -4146,11 +3747,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "basilica",
-        "Gaudí architecture",
-        "guided tours"
-      ]
+      "features": ["basilica", "Gaudí architecture", "guided tours"]
     },
     "Park Güell": {
       "title": "Park Güell",
@@ -4228,14 +3825,8 @@
       "priceCategory": "budget",
       "timeOfDay": "daytime",
       "rating": 4.6,
-      "tags": [
-        "Adventure",
-        "Artormusic",
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "limited wheelchair access"
-      ],
+      "tags": ["Adventure", "Artormusic", "Popular"],
+      "accessibilityFeatures": ["limited wheelchair access"],
       "entryFees": [
         {
           "category": "adult",
@@ -4248,12 +3839,7 @@
           "priceCategory": "low"
         }
       ],
-      "features": [
-        "park",
-        "Gaudí architecture",
-        "gardens",
-        "city views"
-      ]
+      "features": ["park", "Gaudí architecture", "gardens", "city views"]
     },
     "La Rambla": {
       "title": "La Rambla",
@@ -4330,10 +3916,7 @@
       "priceCategory": "free",
       "timeOfDay": "all day",
       "rating": 4.4,
-      "tags": [
-        "Free",
-        "Popular"
-      ],
+      "tags": ["Free", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
       "features": [
@@ -4421,10 +4004,7 @@
       "priceCategory": "moderate",
       "timeOfDay": "all day",
       "rating": 4.5,
-      "tags": [
-        "Adventure",
-        "Popular"
-      ],
+      "tags": ["Adventure", "Popular"],
       "accessibilityFeatures": [
         "elevator access",
         "wheelchair accessible viewing platforms"
@@ -4441,11 +4021,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "observation tower",
-        "panoramic views",
-        "Auckland skyline"
-      ]
+      "features": ["observation tower", "panoramic views", "Auckland skyline"]
     },
     "Auckland War Memorial Museum": {
       "title": "Auckland War Memorial Museum",
@@ -4523,13 +4099,8 @@
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
       "rating": 4.6,
-      "tags": [
-        "Historical"
-      ],
-      "accessibilityFeatures": [
-        "wheelchair accessible entrances",
-        "elevators"
-      ],
+      "tags": ["Historical"],
+      "accessibilityFeatures": ["wheelchair accessible entrances", "elevators"],
       "entryFees": [
         {
           "category": "adult",
@@ -4542,11 +4113,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "museum",
-        "cultural history",
-        "military history"
-      ]
+      "features": ["museum", "cultural history", "military history"]
     },
     "Mount Eden": {
       "title": "Mount Eden (Maungawhau)",
@@ -4623,17 +4190,10 @@
       "priceCategory": "free",
       "timeOfDay": "all day",
       "rating": 4.7,
-      "tags": [
-        "Adventure",
-        "Free"
-      ],
+      "tags": ["Adventure", "Free"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "volcano",
-        "panoramic views",
-        "hiking"
-      ]
+      "features": ["volcano", "panoramic views", "hiking"]
     }
   },
   "bali": {
@@ -4713,10 +4273,7 @@
       "priceCategory": "budget",
       "timeOfDay": "sunset",
       "rating": 4.7,
-      "tags": [
-        "Historical",
-        "Spiritual"
-      ],
+      "tags": ["Historical", "Spiritual"],
       "accessibilityFeatures": [],
       "entryFees": [
         {
@@ -4730,11 +4287,7 @@
           "priceCategory": "low"
         }
       ],
-      "features": [
-        "sea temple",
-        "cliff views",
-        "sunset views"
-      ]
+      "features": ["sea temple", "cliff views", "sunset views"]
     },
     "Tegallalang Rice Terraces": {
       "title": "Tegallalang Rice Terraces",
@@ -4812,9 +4365,7 @@
       "priceCategory": "budget",
       "timeOfDay": "daytime",
       "rating": 4.6,
-      "tags": [
-        "Adventure"
-      ],
+      "tags": ["Adventure"],
       "accessibilityFeatures": [],
       "entryFees": [
         {
@@ -4828,11 +4379,7 @@
           "priceCategory": "low"
         }
       ],
-      "features": [
-        "rice terraces",
-        "agriculture",
-        "scenic views"
-      ]
+      "features": ["rice terraces", "agriculture", "scenic views"]
     },
     "Ubud Monkey Forest": {
       "title": "Ubud Monkey Forest",
@@ -4910,9 +4457,7 @@
       "priceCategory": "budget",
       "timeOfDay": "daytime",
       "rating": 4.4,
-      "tags": [
-        "Adventure"
-      ],
+      "tags": ["Adventure"],
       "accessibilityFeatures": [],
       "entryFees": [
         {
@@ -4926,11 +4471,7 @@
           "priceCategory": "low"
         }
       ],
-      "features": [
-        "monkey sanctuary",
-        "nature",
-        "ancient temples"
-      ]
+      "features": ["monkey sanctuary", "nature", "ancient temples"]
     }
   },
   "berlin": {
@@ -5009,20 +4550,10 @@
       "priceCategory": "free",
       "timeOfDay": "all day",
       "rating": 4.7,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "level ground",
-        "paved access"
-      ],
+      "tags": ["Historical", "Popular"],
+      "accessibilityFeatures": ["level ground", "paved access"],
       "entryFees": [],
-      "features": [
-        "monument",
-        "neoclassical architecture",
-        "historical site"
-      ]
+      "features": ["monument", "neoclassical architecture", "historical site"]
     },
     "Reichstag Building": {
       "title": "Reichstag Building",
@@ -5099,20 +4630,10 @@
       "priceCategory": "free",
       "timeOfDay": "all day",
       "rating": 4.6,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "elevators",
-        "accessible entrances"
-      ],
+      "tags": ["Historical", "Popular"],
+      "accessibilityFeatures": ["elevators", "accessible entrances"],
       "entryFees": [],
-      "features": [
-        "government building",
-        "glass dome",
-        "city views"
-      ]
+      "features": ["government building", "glass dome", "city views"]
     },
     "Berlin Cathedral": {
       "title": "Berlin Cathedral",
@@ -5190,17 +4711,10 @@
       "priceCategory": "budget",
       "timeOfDay": "daytime",
       "rating": 4.6,
-      "tags": [
-        "Historical",
-        "Spiritual"
-      ],
+      "tags": ["Historical", "Spiritual"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "cathedral",
-        "baroque architecture",
-        "dome"
-      ]
+      "features": ["cathedral", "baroque architecture", "dome"]
     }
   },
   "boston": {
@@ -5279,19 +4793,10 @@
       "priceCategory": "free",
       "timeOfDay": "daytime",
       "rating": 4.8,
-      "tags": [
-        "Historical",
-        "Adventure",
-        "Free",
-        "Popular"
-      ],
+      "tags": ["Historical", "Adventure", "Free", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "walking trail",
-        "historical sites",
-        "self-guided tour"
-      ]
+      "features": ["walking trail", "historical sites", "self-guided tour"]
     },
     "Fenway Park": {
       "title": "Fenway Park",
@@ -5369,19 +4874,13 @@
       "priceCategory": "moderate",
       "timeOfDay": "varies",
       "rating": 4.7,
-      "tags": [
-        "Popular"
-      ],
+      "tags": ["Popular"],
       "accessibilityFeatures": [
         "wheelchair seating areas",
         "accessible entrances"
       ],
       "entryFees": [],
-      "features": [
-        "baseball park",
-        "sports history",
-        "tours"
-      ]
+      "features": ["baseball park", "sports history", "tours"]
     },
     "Boston Common": {
       "title": "Boston Common",
@@ -5459,20 +4958,13 @@
       "priceCategory": "free",
       "timeOfDay": "daytime",
       "rating": 4.6,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
+      "tags": ["Historical", "Popular"],
       "accessibilityFeatures": [
         "wheelchair accessible paths",
         "accessible restrooms"
       ],
       "entryFees": [],
-      "features": [
-        "public park",
-        "historical landmarks",
-        "seasonal events"
-      ]
+      "features": ["public park", "historical landmarks", "seasonal events"]
     },
     "Museum of Fine Arts": {
       "title": "Museum of Fine Arts",
@@ -5545,9 +5037,7 @@
       "priceCategory": "midrange",
       "timeOfDay": "daytime",
       "rating": 4.7,
-      "tags": [
-        "Popular"
-      ],
+      "tags": ["Popular"],
       "accessibilityFeatures": [
         "wheelchair accessible entrances and galleries",
         "wheelchairs available on a first-come, first-served basis",
@@ -5652,9 +5142,7 @@
       "priceCategory": "midrange",
       "timeOfDay": "daytime",
       "rating": 4.5,
-      "tags": [
-        "Popular"
-      ],
+      "tags": ["Popular"],
       "accessibilityFeatures": [
         "wheelchair accessible entrances and exhibits",
         "free wheelchair rental",
@@ -5682,11 +5170,7 @@
           "priceCategory": "free"
         }
       ],
-      "features": [
-        "aquarium",
-        "marine life exhibits",
-        "educational programs"
-      ]
+      "features": ["aquarium", "marine life exhibits", "educational programs"]
     }
   },
   "bermuda": {
@@ -6167,17 +5651,10 @@
       "priceCategory": "free",
       "timeOfDay": "all day",
       "rating": 4.5,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
+      "tags": ["Historical", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "historic square",
-        "government buildings",
-        "cultural events"
-      ]
+      "features": ["historic square", "government buildings", "cultural events"]
     },
     "La Boca": {
       "title": "La Boca",
@@ -6254,18 +5731,10 @@
       "priceCategory": "free",
       "timeOfDay": "daytime",
       "rating": 4.4,
-      "tags": [
-        "Artormusic",
-        "Popular"
-      ],
+      "tags": ["Artormusic", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "neighborhood",
-        "street art",
-        "tango",
-        "Caminito street"
-      ]
+      "features": ["neighborhood", "street art", "tango", "Caminito street"]
     },
     "Recoleta Cemetery": {
       "title": "Recoleta Cemetery",
@@ -6343,17 +5812,10 @@
       "priceCategory": "low",
       "timeOfDay": "daytime",
       "rating": 4.6,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
+      "tags": ["Historical", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "cemetery",
-        "mausoleums",
-        "historical site"
-      ]
+      "features": ["cemetery", "mausoleums", "historical site"]
     }
   },
   "cape-town": {
@@ -6674,10 +6136,7 @@
       "priceCategory": "free",
       "timeOfDay": "all day",
       "rating": 4.8,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
+      "tags": ["Historical", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
       "features": [
@@ -6762,18 +6221,10 @@
       "priceCategory": "low",
       "timeOfDay": "daytime",
       "rating": 4.7,
-      "tags": [
-        "Historical",
-        "Adventure",
-        "Popular"
-      ],
+      "tags": ["Historical", "Adventure", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "fortress",
-        "historical site",
-        "panoramic views"
-      ]
+      "features": ["fortress", "historical site", "panoramic views"]
     },
     "Plaza Santo Domingo": {
       "title": "Plaza Santo Domingo",
@@ -6850,17 +6301,10 @@
       "priceCategory": "free",
       "timeOfDay": "all day",
       "rating": 4.4,
-      "tags": [
-        "Popular"
-      ],
+      "tags": ["Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "plaza",
-        "cafes",
-        "sculpture",
-        "lively atmosphere"
-      ]
+      "features": ["plaza", "cafes", "sculpture", "lively atmosphere"]
     }
   },
   "charleston": {
@@ -8149,17 +7593,10 @@
       "priceCategory": "moderate",
       "timeOfDay": "day or night",
       "rating": 4.8,
-      "tags": [
-        "Adventure",
-        "Popular"
-      ],
+      "tags": ["Adventure", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "peak",
-        "observation deck",
-        "city views"
-      ]
+      "features": ["peak", "observation deck", "city views"]
     },
     "Tsim Sha Tsui Promenade": {
       "title": "Tsim Sha Tsui Promenade",
@@ -8236,18 +7673,10 @@
       "priceCategory": "free",
       "timeOfDay": "evening",
       "rating": 4.6,
-      "tags": [
-        "Romantic",
-        "Free",
-        "Popular"
-      ],
+      "tags": ["Romantic", "Free", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "promenade",
-        "waterfront",
-        "city skyline views"
-      ]
+      "features": ["promenade", "waterfront", "city skyline views"]
     },
     "Hong Kong Disneyland": {
       "title": "Hong Kong Disneyland",
@@ -8325,10 +7754,7 @@
       "priceCategory": "expensive",
       "timeOfDay": "daytime",
       "rating": 4.5,
-      "tags": [
-        "Adventure",
-        "Popular"
-      ],
+      "tags": ["Adventure", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [
         {
@@ -8342,11 +7768,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "theme park",
-        "Disney rides",
-        "entertainment"
-      ]
+      "features": ["theme park", "Disney rides", "entertainment"]
     }
   },
   "lisbon": {
@@ -8667,17 +8089,10 @@
       "priceCategory": "free",
       "timeOfDay": "all day",
       "rating": 4.3,
-      "tags": [
-        "Free",
-        "Popular"
-      ],
+      "tags": ["Free", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "sidewalk",
-        "celebrity stars",
-        "entertainment history"
-      ]
+      "features": ["sidewalk", "celebrity stars", "entertainment history"]
     },
     "Griffith Observatory": {
       "title": "Griffith Observatory",
@@ -8749,17 +8164,10 @@
       "priceCategory": "free",
       "timeOfDay": "day or night",
       "rating": 4.7,
-      "tags": [
-        "Free",
-        "Popular"
-      ],
+      "tags": ["Free", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "observatory",
-        "telescope",
-        "Hollywood Sign views"
-      ]
+      "features": ["observatory", "telescope", "Hollywood Sign views"]
     },
     "Santa Monica Pier": {
       "title": "Santa Monica Pier",
@@ -8836,19 +8244,10 @@
       "priceCategory": "free",
       "timeOfDay": "day or evening",
       "rating": 4.5,
-      "tags": [
-        "Adventure",
-        "Free",
-        "Popular"
-      ],
+      "tags": ["Adventure", "Free", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "pier",
-        "amusement park",
-        "aquarium",
-        "restaurants"
-      ]
+      "features": ["pier", "amusement park", "aquarium", "restaurants"]
     }
   },
   "montreal": {
@@ -9411,18 +8810,10 @@
       "priceCategory": "free",
       "timeOfDay": "all day",
       "rating": 4.8,
-      "tags": [
-        "Historical",
-        "Free",
-        "Popular"
-      ],
+      "tags": ["Historical", "Free", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "historic district",
-        "cobblestone streets",
-        "scenic views"
-      ]
+      "features": ["historic district", "cobblestone streets", "scenic views"]
     },
     "Château Frontenac": {
       "title": "Château Frontenac",
@@ -9500,10 +8891,7 @@
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
       "rating": 4.7,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
+      "tags": ["Historical", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [
         {
@@ -9517,11 +8905,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "historic hotel",
-        "panoramic views",
-        "guided tours"
-      ]
+      "features": ["historic hotel", "panoramic views", "guided tours"]
     },
     "Montmorency Falls": {
       "title": "Montmorency Falls",
@@ -9599,10 +8983,7 @@
       "priceCategory": "low",
       "timeOfDay": "daytime",
       "rating": 4.6,
-      "tags": [
-        "Adventure",
-        "Popular"
-      ],
+      "tags": ["Adventure", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [
         {
@@ -9616,11 +8997,7 @@
           "priceCategory": "low"
         }
       ],
-      "features": [
-        "waterfall",
-        "suspension bridge",
-        "cable car"
-      ]
+      "features": ["waterfall", "suspension bridge", "cable car"]
     }
   },
   "roatan": {
@@ -9941,18 +9318,10 @@
       "priceCategory": "free",
       "timeOfDay": "day or night",
       "rating": 4.8,
-      "tags": [
-        "Historical",
-        "Free",
-        "Popular"
-      ],
+      "tags": ["Historical", "Free", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "historic district",
-        "colonial architecture",
-        "scenic views"
-      ]
+      "features": ["historic district", "colonial architecture", "scenic views"]
     },
     "Castillo San Felipe del Morro": {
       "title": "Castillo San Felipe del Morro",
@@ -10030,10 +9399,7 @@
       "priceCategory": "low",
       "timeOfDay": "daytime",
       "rating": 4.7,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
+      "tags": ["Historical", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [
         {
@@ -10047,11 +9413,7 @@
           "priceCategory": "low"
         }
       ],
-      "features": [
-        "fortress",
-        "historical site",
-        "ocean views"
-      ]
+      "features": ["fortress", "historical site", "ocean views"]
     },
     "Condado Beach": {
       "title": "Condado Beach",
@@ -10128,18 +9490,10 @@
       "priceCategory": "free",
       "timeOfDay": "daytime",
       "rating": 4.5,
-      "tags": [
-        "Free",
-        "Popular"
-      ],
+      "tags": ["Free", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "beach",
-        "sunbathing",
-        "swimming",
-        "water sports"
-      ]
+      "features": ["beach", "sunbathing", "swimming", "water sports"]
     }
   },
   "santiago": {
@@ -11187,17 +10541,10 @@
       "priceCategory": "moderate",
       "timeOfDay": "day or night",
       "rating": 4.8,
-      "tags": [
-        "Popular"
-      ],
+      "tags": ["Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "garden",
-        "Supertree Grove",
-        "Cloud Forest",
-        "Flower Dome"
-      ]
+      "features": ["garden", "Supertree Grove", "Cloud Forest", "Flower Dome"]
     },
     "Marina Bay Sands": {
       "title": "Marina Bay Sands",
@@ -11240,17 +10587,10 @@
       "priceCategory": "moderate",
       "timeOfDay": "day or night",
       "rating": 4.7,
-      "tags": [
-        "Luxury",
-        "Popular"
-      ],
+      "tags": ["Luxury", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "resort",
-        "luxury accommodations",
-        "infinity pool"
-      ]
+      "features": ["resort", "luxury accommodations", "infinity pool"]
     },
     "Sentosa Island": {
       "title": "Sentosa Island",
@@ -11328,17 +10668,10 @@
       "priceCategory": "mixed",
       "timeOfDay": "all day",
       "rating": 4.6,
-      "tags": [
-        "Adventure",
-        "Popular"
-      ],
+      "tags": ["Adventure", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "resort island",
-        "beaches",
-        "theme parks"
-      ]
+      "features": ["resort island", "beaches", "theme parks"]
     }
   },
   "tampa": {
@@ -11418,17 +10751,10 @@
       "priceCategory": "expensive",
       "timeOfDay": "daytime",
       "rating": 4.5,
-      "tags": [
-        "Adventure",
-        "Popular"
-      ],
+      "tags": ["Adventure", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "amusement park",
-        "roller coasters",
-        "live shows"
-      ]
+      "features": ["amusement park", "roller coasters", "live shows"]
     },
     "Tampa Riverwalk": {
       "title": "Tampa Riverwalk",
@@ -11505,18 +10831,10 @@
       "priceCategory": "free",
       "timeOfDay": "all day",
       "rating": 4.6,
-      "tags": [
-        "Free",
-        "Popular"
-      ],
+      "tags": ["Free", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "waterfront",
-        "parks",
-        "museums",
-        "shops"
-      ]
+      "features": ["waterfront", "parks", "museums", "shops"]
     },
     "Florida Aquarium": {
       "title": "Florida Aquarium",
@@ -11594,16 +10912,10 @@
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
       "rating": 4.6,
-      "tags": [
-        "Popular"
-      ],
+      "tags": ["Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "aquarium",
-        "marine life",
-        "educational exhibits"
-      ]
+      "features": ["aquarium", "marine life", "educational exhibits"]
     }
   },
   "toronto": {
@@ -11683,13 +10995,8 @@
       "priceCategory": "expensive",
       "timeOfDay": "day or night",
       "rating": 4.6,
-      "tags": [
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "elevators",
-        "accessible restrooms"
-      ],
+      "tags": ["Popular"],
+      "accessibilityFeatures": ["elevators", "accessible restrooms"],
       "entryFees": [
         {
           "category": "adult",
@@ -11784,11 +11091,7 @@
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
       "rating": 4.7,
-      "tags": [
-        "Historical",
-        "Artormusic",
-        "Popular"
-      ],
+      "tags": ["Historical", "Artormusic", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [
         {
@@ -11802,12 +11105,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "museum",
-        "natural history",
-        "art",
-        "world cultures"
-      ]
+      "features": ["museum", "natural history", "art", "world cultures"]
     },
     "Distillery District": {
       "title": "Distillery District",
@@ -11884,10 +11182,7 @@
       "priceCategory": "free",
       "timeOfDay": "day or night",
       "rating": 4.5,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
+      "tags": ["Historical", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
       "features": [
@@ -11974,20 +11269,10 @@
       "priceCategory": "free",
       "timeOfDay": "all day",
       "rating": 4.8,
-      "tags": [
-        "Adventure",
-        "Free",
-        "Popular",
-        "Petfriendly"
-      ],
+      "tags": ["Adventure", "Free", "Popular", "Petfriendly"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "public park",
-        "scenic trails",
-        "beaches",
-        "gardens"
-      ]
+      "features": ["public park", "scenic trails", "beaches", "gardens"]
     },
     "Granville Island": {
       "title": "Granville Island",
@@ -12064,10 +11349,7 @@
       "priceCategory": "free",
       "timeOfDay": "daytime",
       "rating": 4.6,
-      "tags": [
-        "Free",
-        "Popular"
-      ],
+      "tags": ["Free", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
       "features": [
@@ -12153,17 +11435,10 @@
       "priceCategory": "expensive",
       "timeOfDay": "daytime",
       "rating": 4.7,
-      "tags": [
-        "Adventure",
-        "Popular"
-      ],
+      "tags": ["Adventure", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "suspension bridge",
-        "treetop adventures",
-        "cliffwalks"
-      ]
+      "features": ["suspension bridge", "treetop adventures", "cliffwalks"]
     }
   },
   "victoria": {
@@ -12243,16 +11518,10 @@
       "priceCategory": "moderate",
       "timeOfDay": "day or night",
       "rating": 4.8,
-      "tags": [
-        "Popular"
-      ],
+      "tags": ["Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "botanical garden",
-        "themed landscapes",
-        "fountains"
-      ]
+      "features": ["botanical garden", "themed landscapes", "fountains"]
     },
     "Royal BC Museum": {
       "title": "Royal BC Museum",
@@ -12330,17 +11599,10 @@
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
       "rating": 4.6,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
+      "tags": ["Historical", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "museum",
-        "natural history",
-        "indigenous cultures"
-      ]
+      "features": ["museum", "natural history", "indigenous cultures"]
     },
     "Craigdarroch Castle": {
       "title": "Craigdarroch Castle",
@@ -12418,17 +11680,10 @@
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
       "rating": 4.5,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
+      "tags": ["Historical", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "historic house",
-        "Victorian architecture",
-        "furnishings"
-      ]
+      "features": ["historic house", "Victorian architecture", "furnishings"]
     }
   },
   "juneau": {
@@ -12991,18 +12246,10 @@
       "priceCategory": "free",
       "timeOfDay": "daytime",
       "rating": 4.7,
-      "tags": [
-        "Historical",
-        "Free",
-        "Popular"
-      ],
+      "tags": ["Historical", "Free", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "historical park",
-        "gold rush history",
-        "guided tours"
-      ]
+      "features": ["historical park", "gold rush history", "guided tours"]
     },
     "White Pass & Yukon Route Railroad": {
       "title": "White Pass & Yukon Route Railroad",
@@ -13080,18 +12327,10 @@
       "priceCategory": "expensive",
       "timeOfDay": "daytime",
       "rating": 4.9,
-      "tags": [
-        "Historical",
-        "Adventure",
-        "Popular"
-      ],
+      "tags": ["Historical", "Adventure", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "scenic railway",
-        "mountain views",
-        "gold rush history"
-      ]
+      "features": ["scenic railway", "mountain views", "gold rush history"]
     },
     "Skagway Museum": {
       "title": "Skagway Museum",
@@ -13169,17 +12408,10 @@
       "priceCategory": "cheap",
       "timeOfDay": "daytime",
       "rating": 4.3,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
+      "tags": ["Historical", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "museum",
-        "gold rush artifacts",
-        "native culture"
-      ]
+      "features": ["museum", "gold rush artifacts", "native culture"]
     }
   },
   "sitka": {
@@ -13258,17 +12490,10 @@
       "priceCategory": "free",
       "timeOfDay": "daytime",
       "rating": 4.6,
-      "tags": [
-        "Historical",
-        "Free"
-      ],
+      "tags": ["Historical", "Free"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "historical site",
-        "totem poles",
-        "trails"
-      ]
+      "features": ["historical site", "totem poles", "trails"]
     },
     "Russian Bishop's House": {
       "title": "Russian Bishop's House",
@@ -13345,10 +12570,7 @@
       "priceCategory": "free",
       "timeOfDay": "daytime",
       "rating": 4.5,
-      "tags": [
-        "Historical",
-        "Free"
-      ],
+      "tags": ["Historical", "Free"],
       "accessibilityFeatures": [],
       "entryFees": [],
       "features": [
@@ -13432,17 +12654,10 @@
       "priceCategory": "free",
       "timeOfDay": "daytime",
       "rating": 4.5,
-      "tags": [
-        "Free",
-        "Popular"
-      ],
+      "tags": ["Free", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "totem poles",
-        "cultural heritage",
-        "historical site"
-      ]
+      "features": ["totem poles", "cultural heritage", "historical site"]
     }
   },
   "st-petersburg": {
@@ -13522,11 +12737,7 @@
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
       "rating": 4.9,
-      "tags": [
-        "Historical",
-        "Artormusic",
-        "Popular"
-      ],
+      "tags": ["Historical", "Artormusic", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [
         {
@@ -13540,11 +12751,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "museum",
-        "art",
-        "cultural artifacts"
-      ]
+      "features": ["museum", "art", "cultural artifacts"]
     },
     "Church of the Savior on Spilled Blood": {
       "title": "Church of the Savior on Spilled Blood",
@@ -13622,10 +12829,7 @@
       "priceCategory": "low",
       "timeOfDay": "daytime",
       "rating": 4.8,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
+      "tags": ["Historical", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [
         {
@@ -13639,11 +12843,7 @@
           "priceCategory": "low"
         }
       ],
-      "features": [
-        "church",
-        "mosaics",
-        "scenic views"
-      ]
+      "features": ["church", "mosaics", "scenic views"]
     },
     "Peterhof Palace": {
       "title": "Peterhof Palace",
@@ -13721,10 +12921,7 @@
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
       "rating": 4.8,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
+      "tags": ["Historical", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [
         {
@@ -13738,12 +12935,7 @@
           "priceCategory": "low"
         }
       ],
-      "features": [
-        "palace",
-        "gardens",
-        "fountains",
-        "gold accents"
-      ]
+      "features": ["palace", "gardens", "fountains", "gold accents"]
     }
   },
   "st-thomas": {
@@ -13823,9 +13015,7 @@
       "priceCategory": "low",
       "timeOfDay": "daytime",
       "rating": 4.7,
-      "tags": [
-        "Popular"
-      ],
+      "tags": ["Popular"],
       "accessibilityFeatures": [],
       "entryFees": [
         {
@@ -13839,12 +13029,7 @@
           "priceCategory": "low"
         }
       ],
-      "features": [
-        "beach",
-        "swimming",
-        "snorkeling",
-        "sunbathing"
-      ]
+      "features": ["beach", "swimming", "snorkeling", "sunbathing"]
     },
     "Blackbeard's Castle": {
       "title": "Blackbeard's Castle",
@@ -13922,10 +13107,7 @@
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
       "rating": 4.4,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
+      "tags": ["Historical", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [
         {
@@ -13939,11 +13121,7 @@
           "priceCategory": "low"
         }
       ],
-      "features": [
-        "historical site",
-        "watchtower",
-        "panoramic views"
-      ]
+      "features": ["historical site", "watchtower", "panoramic views"]
     },
     "Coral World Ocean Park": {
       "title": "Coral World Ocean Park",
@@ -14021,9 +13199,7 @@
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
       "rating": 4.5,
-      "tags": [
-        "Popular"
-      ],
+      "tags": ["Popular"],
       "accessibilityFeatures": [],
       "entryFees": [
         {
@@ -14037,11 +13213,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "marine park",
-        "aquarium",
-        "educational exhibits"
-      ]
+      "features": ["marine park", "aquarium", "educational exhibits"]
     }
   },
   "philipsburg": {
@@ -14604,19 +13776,10 @@
       "priceCategory": "free",
       "timeOfDay": "daytime",
       "rating": 4.9,
-      "tags": [
-        "Adventure",
-        "Free",
-        "Popular"
-      ],
+      "tags": ["Adventure", "Free", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "national park",
-        "glaciers",
-        "wildlife",
-        "fjords"
-      ]
+      "features": ["national park", "glaciers", "wildlife", "fjords"]
     },
     "Johns Hopkins Glacier": {
       "title": "Johns Hopkins Glacier",
@@ -14693,17 +13856,10 @@
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
       "rating": 4.8,
-      "tags": [
-        "Adventure",
-        "Popular"
-      ],
+      "tags": ["Adventure", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "glacier",
-        "blue ice",
-        "calving displays"
-      ]
+      "features": ["glacier", "blue ice", "calving displays"]
     },
     "Muir Glacier": {
       "title": "Muir Glacier",
@@ -14780,17 +13936,10 @@
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
       "rating": 4.7,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
+      "tags": ["Historical", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "glacier",
-        "eco-tours",
-        "scenic landmark"
-      ]
+      "features": ["glacier", "eco-tours", "scenic landmark"]
     }
   },
   "george-town": {
@@ -14869,18 +14018,10 @@
       "priceCategory": "free",
       "timeOfDay": "daytime",
       "rating": 4.7,
-      "tags": [
-        "Free",
-        "Popular"
-      ],
+      "tags": ["Free", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "beach",
-        "snorkeling",
-        "swimming",
-        "sunbathing"
-      ]
+      "features": ["beach", "snorkeling", "swimming", "sunbathing"]
     },
     "Stingray City": {
       "title": "Stingray City",
@@ -14958,17 +14099,10 @@
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
       "rating": 4.9,
-      "tags": [
-        "Adventure",
-        "Popular"
-      ],
+      "tags": ["Adventure", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "snorkeling",
-        "wildlife interaction",
-        "tours"
-      ]
+      "features": ["snorkeling", "wildlife interaction", "tours"]
     },
     "Cayman Islands National Museum": {
       "title": "Cayman Islands National Museum",
@@ -15046,10 +14180,7 @@
       "priceCategory": "low",
       "timeOfDay": "daytime",
       "rating": 4.5,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
+      "tags": ["Historical", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [
         {
@@ -15063,11 +14194,7 @@
           "priceCategory": "low"
         }
       ],
-      "features": [
-        "museum",
-        "cultural heritage",
-        "historical exhibits"
-      ]
+      "features": ["museum", "cultural heritage", "historical exhibits"]
     }
   },
   "fort-lauderdale": {
@@ -15146,18 +14273,10 @@
       "priceCategory": "free",
       "timeOfDay": "daytime",
       "rating": 4.6,
-      "tags": [
-        "Free",
-        "Popular"
-      ],
+      "tags": ["Free", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "beach",
-        "watersports",
-        "promenade",
-        "sunbathing"
-      ]
+      "features": ["beach", "watersports", "promenade", "sunbathing"]
     },
     "Las Olas Boulevard": {
       "title": "Las Olas Boulevard",
@@ -15234,17 +14353,10 @@
       "priceCategory": "varies",
       "timeOfDay": "daytime and evening",
       "rating": 4.4,
-      "tags": [
-        "Popular"
-      ],
+      "tags": ["Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "shopping",
-        "dining",
-        "art galleries",
-        "nightlife"
-      ]
+      "features": ["shopping", "dining", "art galleries", "nightlife"]
     },
     "Bonnet House Museum & Gardens": {
       "title": "Bonnet House Museum & Gardens",
@@ -15322,10 +14434,7 @@
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
       "rating": 4.7,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
+      "tags": ["Historical", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [
         {
@@ -15339,11 +14448,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "historic estate",
-        "art collections",
-        "gardens"
-      ]
+      "features": ["historic estate", "art collections", "gardens"]
     }
   },
   "galveston": {
@@ -16390,19 +15495,10 @@
       "priceCategory": "free",
       "timeOfDay": "all day",
       "rating": 4.7,
-      "tags": [
-        "Adventure",
-        "Free",
-        "Popular",
-        "Petfriendly"
-      ],
+      "tags": ["Adventure", "Free", "Popular", "Petfriendly"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "lake",
-        "boating",
-        "walking trails"
-      ]
+      "features": ["lake", "boating", "walking trails"]
     },
     "Grossmünster": {
       "title": "Grossmünster",
@@ -16480,13 +15576,8 @@
       "priceCategory": "budget",
       "timeOfDay": "daytime",
       "rating": 4.6,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "stairs to tower"
-      ],
+      "tags": ["Historical", "Popular"],
+      "accessibilityFeatures": ["stairs to tower"],
       "entryFees": [
         {
           "category": "adult",
@@ -16499,11 +15590,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "church",
-        "architecture",
-        "historical site"
-      ]
+      "features": ["church", "architecture", "historical site"]
     },
     "Bahnhofstrasse": {
       "title": "Bahnhofstrasse",
@@ -16580,17 +15667,10 @@
       "priceCategory": "free",
       "timeOfDay": "daytime",
       "rating": 4.5,
-      "tags": [
-        "Free",
-        "Popular"
-      ],
+      "tags": ["Free", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "shopping",
-        "dining",
-        "urban experience"
-      ]
+      "features": ["shopping", "dining", "urban experience"]
     }
   },
   "yokohama": {
@@ -16669,17 +15749,10 @@
       "priceCategory": "free",
       "timeOfDay": "all day",
       "rating": 4.6,
-      "tags": [
-        "Free",
-        "Popular"
-      ],
+      "tags": ["Free", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "shopping",
-        "entertainment",
-        "skyline views"
-      ]
+      "features": ["shopping", "entertainment", "skyline views"]
     },
     "Sankeien Garden": {
       "title": "Sankeien Garden",
@@ -16757,9 +15830,7 @@
       "priceCategory": "budget",
       "timeOfDay": "daytime",
       "rating": 4.7,
-      "tags": [
-        "Popular"
-      ],
+      "tags": ["Popular"],
       "accessibilityFeatures": [],
       "entryFees": [
         {
@@ -16773,11 +15844,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "garden",
-        "historic buildings",
-        "seasonal events"
-      ]
+      "features": ["garden", "historic buildings", "seasonal events"]
     },
     "Cup Noodles Museum": {
       "title": "Cup Noodles Museum",
@@ -16855,9 +15922,7 @@
       "priceCategory": "budget",
       "timeOfDay": "daytime",
       "rating": 4.5,
-      "tags": [
-        "Popular"
-      ],
+      "tags": ["Popular"],
       "accessibilityFeatures": [],
       "entryFees": [
         {
@@ -16871,11 +15936,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "museum",
-        "interactive exhibits",
-        "food-themed"
-      ]
+      "features": ["museum", "interactive exhibits", "food-themed"]
     }
   },
   "washington-dc": {
@@ -16954,17 +16015,10 @@
       "priceCategory": "free",
       "timeOfDay": "all day",
       "rating": 4.8,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
+      "tags": ["Historical", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "monument",
-        "historical site",
-        "photography"
-      ]
+      "features": ["monument", "historical site", "photography"]
     },
     "Smithsonian National Museum of Natural History": {
       "title": "Smithsonian National Museum of Natural History",
@@ -17041,16 +16095,10 @@
       "priceCategory": "free",
       "timeOfDay": "daytime",
       "rating": 4.7,
-      "tags": [
-        "Popular"
-      ],
+      "tags": ["Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "museum",
-        "exhibits",
-        "educational"
-      ]
+      "features": ["museum", "exhibits", "educational"]
     },
     "National Air and Space Museum": {
       "title": "National Air and Space Museum",
@@ -17127,16 +16175,10 @@
       "priceCategory": "free",
       "timeOfDay": "daytime",
       "rating": 4.8,
-      "tags": [
-        "Popular"
-      ],
+      "tags": ["Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "museum",
-        "aerospace",
-        "interactive exhibits"
-      ]
+      "features": ["museum", "aerospace", "interactive exhibits"]
     }
   },
   "ho-chi-minh-city": {
@@ -17216,13 +16258,8 @@
       "priceCategory": "budget",
       "timeOfDay": "daytime",
       "rating": 4.5,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "wheelchair accessible ramps and elevators"
-      ],
+      "tags": ["Historical", "Popular"],
+      "accessibilityFeatures": ["wheelchair accessible ramps and elevators"],
       "entryFees": [
         {
           "category": "adult",
@@ -17235,11 +16272,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "museum",
-        "war history",
-        "educational exhibits"
-      ]
+      "features": ["museum", "war history", "educational exhibits"]
     },
     "Cu Chi Tunnels": {
       "title": "Cu Chi Tunnels",
@@ -17317,14 +16350,8 @@
       "priceCategory": "budget",
       "timeOfDay": "daytime",
       "rating": 4.6,
-      "tags": [
-        "Historical",
-        "Adventure",
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "narrow tunnels, not suitable for wheelchairs"
-      ],
+      "tags": ["Historical", "Adventure", "Popular"],
+      "accessibilityFeatures": ["narrow tunnels, not suitable for wheelchairs"],
       "entryFees": [
         {
           "category": "adult",
@@ -17337,11 +16364,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "historical site",
-        "tunnel exploration",
-        "guided tours"
-      ]
+      "features": ["historical site", "tunnel exploration", "guided tours"]
     },
     "Ben Thanh Market": {
       "title": "Ben Thanh Market",
@@ -17418,17 +16441,10 @@
       "priceCategory": "free",
       "timeOfDay": "daytime",
       "rating": 4.2,
-      "tags": [
-        "Free",
-        "Popular"
-      ],
+      "tags": ["Free", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "market",
-        "shopping",
-        "local cuisine"
-      ]
+      "features": ["market", "shopping", "local cuisine"]
     }
   },
   "kiel": {
@@ -17508,10 +16524,7 @@
       "priceCategory": "budget",
       "timeOfDay": "daytime",
       "rating": 4.5,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
+      "tags": ["Historical", "Popular"],
       "accessibilityFeatures": [
         "wheelchair accessible paths",
         "elevator to observation deck"
@@ -17528,11 +16541,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "memorial",
-        "submarine museum",
-        "observation deck"
-      ]
+      "features": ["memorial", "submarine museum", "observation deck"]
     },
     "Kiel Canal (Nord-Ostsee-Kanal)": {
       "title": "Kiel Canal (Nord-Ostsee-Kanal)",
@@ -17609,18 +16618,10 @@
       "priceCategory": "free",
       "timeOfDay": "all day",
       "rating": 4.6,
-      "tags": [
-        "Adventure",
-        "Free",
-        "Popular"
-      ],
+      "tags": ["Adventure", "Free", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "canal",
-        "cycling",
-        "scenic views"
-      ]
+      "features": ["canal", "cycling", "scenic views"]
     },
     "Kunsthalle zu Kiel": {
       "title": "Kunsthalle zu Kiel",
@@ -17698,14 +16699,8 @@
       "priceCategory": "budget",
       "timeOfDay": "daytime",
       "rating": 4.4,
-      "tags": [
-        "Artormusic",
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "wheelchair accessible entrances",
-        "elevators"
-      ],
+      "tags": ["Artormusic", "Popular"],
+      "accessibilityFeatures": ["wheelchair accessible entrances", "elevators"],
       "entryFees": [
         {
           "category": "adult",
@@ -17718,11 +16713,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "art museum",
-        "sculpture garden",
-        "exhibitions"
-      ]
+      "features": ["art museum", "sculpture garden", "exhibitions"]
     }
   },
   "kyoto": {
@@ -17801,17 +16792,10 @@
       "priceCategory": "free",
       "timeOfDay": "all day",
       "rating": 4.8,
-      "tags": [
-        "Spiritual",
-        "Popular"
-      ],
+      "tags": ["Spiritual", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "shrine",
-        "torii gates",
-        "hiking trails"
-      ]
+      "features": ["shrine", "torii gates", "hiking trails"]
     },
     "Kinkaku-ji (Golden Pavilion)": {
       "title": "Kinkaku-ji (Golden Pavilion)",
@@ -17889,10 +16873,7 @@
       "priceCategory": "budget",
       "timeOfDay": "daytime",
       "rating": 4.7,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
+      "tags": ["Historical", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [
         {
@@ -17906,11 +16887,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "temple",
-        "gardens",
-        "scenic views"
-      ]
+      "features": ["temple", "gardens", "scenic views"]
     },
     "Arashiyama Bamboo Grove": {
       "title": "Arashiyama Bamboo Grove",
@@ -17987,18 +16964,10 @@
       "priceCategory": "free",
       "timeOfDay": "all day",
       "rating": 4.6,
-      "tags": [
-        "Adventure",
-        "Free",
-        "Popular"
-      ],
+      "tags": ["Adventure", "Free", "Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "bamboo forest",
-        "walking path",
-        "nature"
-      ]
+      "features": ["bamboo forest", "walking path", "nature"]
     }
   },
   "lima": {
@@ -18078,14 +17047,8 @@
       "priceCategory": "moderate",
       "timeOfDay": "daytime",
       "rating": 4.7,
-      "tags": [
-        "Historical",
-        "Artormusic",
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "wheelchair accessible facilities"
-      ],
+      "tags": ["Historical", "Artormusic", "Popular"],
+      "accessibilityFeatures": ["wheelchair accessible facilities"],
       "entryFees": [
         {
           "category": "adult",
@@ -18098,11 +17061,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "museum",
-        "pre-Columbian art",
-        "gardens"
-      ]
+      "features": ["museum", "pre-Columbian art", "gardens"]
     },
     "Huaca Pucllana": {
       "title": "Huaca Pucllana",
@@ -18175,10 +17134,7 @@
       "priceCategory": "budget",
       "timeOfDay": "daytime",
       "rating": 4.4,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
+      "tags": ["Historical", "Popular"],
       "accessibilityFeatures": [
         "wheelchair accessible pathways",
         "ramp access to main viewing areas"
@@ -18360,14 +17316,8 @@
       "priceCategory": "midrange",
       "timeOfDay": "daytime",
       "rating": 4.7,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "wheelchair accessible ramps",
-        "elevator"
-      ],
+      "tags": ["Historical", "Popular"],
+      "accessibilityFeatures": ["wheelchair accessible ramps", "elevator"],
       "entryFees": [
         {
           "category": "adult",
@@ -18380,11 +17330,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "museum",
-        "garden",
-        "historical architecture"
-      ]
+      "features": ["museum", "garden", "historical architecture"]
     },
     "South Beach": {
       "title": "South Beach",
@@ -18461,18 +17407,10 @@
       "priceCategory": "free",
       "timeOfDay": "daytime",
       "rating": 4.8,
-      "tags": [
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "accessible beach mat available upon request"
-      ],
+      "tags": ["Popular"],
+      "accessibilityFeatures": ["accessible beach mat available upon request"],
       "entryFees": [],
-      "features": [
-        "beach",
-        "sunbathing",
-        "water sports"
-      ]
+      "features": ["beach", "sunbathing", "water sports"]
     },
     "Wynwood Walls": {
       "title": "Wynwood Walls",
@@ -18550,12 +17488,8 @@
       "priceCategory": "budget",
       "timeOfDay": "daytime",
       "rating": 4.6,
-      "tags": [
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "wheelchair accessible pathways"
-      ],
+      "tags": ["Popular"],
+      "accessibilityFeatures": ["wheelchair accessible pathways"],
       "entryFees": [
         {
           "category": "adult",
@@ -18568,11 +17502,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "street art",
-        "museum",
-        "photography"
-      ]
+      "features": ["street art", "museum", "photography"]
     },
     "Miami Seaquarium": {
       "title": "Miami Seaquarium",
@@ -18650,9 +17580,7 @@
       "priceCategory": "midrange",
       "timeOfDay": "daytime",
       "rating": 4.2,
-      "tags": [
-        "Popular"
-      ],
+      "tags": ["Popular"],
       "accessibilityFeatures": [
         "wheelchair accessible exhibits",
         "accessible restrooms"
@@ -18669,11 +17597,7 @@
           "priceCategory": "midrange"
         }
       ],
-      "features": [
-        "aquarium",
-        "animal shows",
-        "family attractions"
-      ]
+      "features": ["aquarium", "animal shows", "family attractions"]
     },
     "Little Havana": {
       "title": "Little Havana",
@@ -18750,19 +17674,13 @@
       "priceCategory": "free",
       "timeOfDay": "daytime",
       "rating": 4.5,
-      "tags": [
-        "Popular"
-      ],
+      "tags": ["Popular"],
       "accessibilityFeatures": [
         "mostly flat sidewalks",
         "accessible curb cuts"
       ],
       "entryFees": [],
-      "features": [
-        "street food",
-        "live music",
-        "cultural tours"
-      ]
+      "features": ["street food", "live music", "cultural tours"]
     }
   },
   "montevideo": {
@@ -18841,20 +17759,10 @@
       "priceCategory": "free",
       "timeOfDay": "daytime",
       "rating": 4.4,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "paved streets",
-        "ramps at public buildings"
-      ],
+      "tags": ["Historical", "Popular"],
+      "accessibilityFeatures": ["paved streets", "ramps at public buildings"],
       "entryFees": [],
-      "features": [
-        "walking tours",
-        "architecture",
-        "history"
-      ]
+      "features": ["walking tours", "architecture", "history"]
     },
     "Teatro Solís": {
       "title": "Teatro Solís",
@@ -18932,10 +17840,7 @@
       "priceCategory": "budget",
       "timeOfDay": "evening",
       "rating": 4.6,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
+      "tags": ["Historical", "Popular"],
       "accessibilityFeatures": [
         "wheelchair accessible seating",
         "elevator to balcony"
@@ -18952,11 +17857,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "performances",
-        "architecture",
-        "guided tours"
-      ]
+      "features": ["performances", "architecture", "guided tours"]
     },
     "Rambla of Montevideo": {
       "title": "Rambla of Montevideo",
@@ -19033,19 +17934,13 @@
       "priceCategory": "free",
       "timeOfDay": "daytime",
       "rating": 4.7,
-      "tags": [
-        "Popular"
-      ],
+      "tags": ["Popular"],
       "accessibilityFeatures": [
         "paved biking and walking path",
         "benches with armrests"
       ],
       "entryFees": [],
-      "features": [
-        "cycling",
-        "jogging",
-        "sunset views"
-      ]
+      "features": ["cycling", "jogging", "sunset views"]
     },
     "Mercado del Puerto": {
       "title": "Mercado del Puerto",
@@ -19122,19 +18017,10 @@
       "priceCategory": "budget",
       "timeOfDay": "daytime",
       "rating": 4.5,
-      "tags": [
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "wide aisles",
-        "accessible restrooms"
-      ],
+      "tags": ["Popular"],
+      "accessibilityFeatures": ["wide aisles", "accessible restrooms"],
       "entryFees": [],
-      "features": [
-        "grills",
-        "local cuisine",
-        "live music"
-      ]
+      "features": ["grills", "local cuisine", "live music"]
     },
     "Museo Nacional de Artes Visuales": {
       "title": "Museo Nacional de Artes Visuales",
@@ -19207,13 +18093,8 @@
       "priceCategory": "budget",
       "timeOfDay": "daytime",
       "rating": 4.3,
-      "tags": [
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "ramp access",
-        "accessible restrooms"
-      ],
+      "tags": ["Popular"],
+      "accessibilityFeatures": ["ramp access", "accessible restrooms"],
       "entryFees": [
         {
           "category": "adult",
@@ -19226,11 +18107,7 @@
           "priceCategory": "free"
         }
       ],
-      "features": [
-        "fine arts",
-        "painting",
-        "sculpture"
-      ]
+      "features": ["fine arts", "painting", "sculpture"]
     }
   },
   "nassau": {
@@ -19310,13 +18187,8 @@
       "priceCategory": "expensive",
       "timeOfDay": "daytime",
       "rating": 4.4,
-      "tags": [
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "accessible rooms",
-        "ramps throughout park"
-      ],
+      "tags": ["Popular"],
+      "accessibilityFeatures": ["accessible rooms", "ramps throughout park"],
       "entryFees": [
         {
           "category": "adult",
@@ -19329,11 +18201,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "water park",
-        "marine habitat",
-        "casino"
-      ]
+      "features": ["water park", "marine habitat", "casino"]
     },
     "Queen's Staircase": {
       "title": "Queen's Staircase",
@@ -19410,19 +18278,10 @@
       "priceCategory": "free",
       "timeOfDay": "daytime",
       "rating": 4.5,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "steep steps, not suitable for wheelchairs"
-      ],
+      "tags": ["Historical", "Popular"],
+      "accessibilityFeatures": ["steep steps, not suitable for wheelchairs"],
       "entryFees": [],
-      "features": [
-        "historical site",
-        "landmark",
-        "photography"
-      ]
+      "features": ["historical site", "landmark", "photography"]
     },
     "Ardastra Gardens & Wildlife Conservation Centre": {
       "title": "Ardastra Gardens & Wildlife Conservation Centre",
@@ -19500,13 +18359,8 @@
       "priceCategory": "budget",
       "timeOfDay": "daytime",
       "rating": 4.3,
-      "tags": [
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "paved paths",
-        "accessible restrooms"
-      ],
+      "tags": ["Popular"],
+      "accessibilityFeatures": ["paved paths", "accessible restrooms"],
       "entryFees": [
         {
           "category": "adult",
@@ -19519,11 +18373,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "wildlife",
-        "garden",
-        "family-friendly"
-      ]
+      "features": ["wildlife", "garden", "family-friendly"]
     },
     "Pirates of Nassau Museum": {
       "title": "Pirates of Nassau Museum",
@@ -19601,14 +18451,8 @@
       "priceCategory": "budget",
       "timeOfDay": "daytime",
       "rating": 4.2,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "wheelchair ramps",
-        "accessible exhibits"
-      ],
+      "tags": ["Historical", "Popular"],
+      "accessibilityFeatures": ["wheelchair ramps", "accessible exhibits"],
       "entryFees": [
         {
           "category": "adult",
@@ -19621,11 +18465,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "interactive exhibits",
-        "history",
-        "family"
-      ]
+      "features": ["interactive exhibits", "history", "family"]
     },
     "John Watling's Distillery": {
       "title": "John Watling's Distillery",
@@ -19702,9 +18542,7 @@
       "priceCategory": "free",
       "timeOfDay": "daytime",
       "rating": 4.4,
-      "tags": [
-        "Popular"
-      ],
+      "tags": ["Popular"],
       "accessibilityFeatures": [
         "wheelchair accessible pathways",
         "accessible tasting bar"
@@ -19716,11 +18554,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "distillery tour",
-        "rum tasting",
-        "history"
-      ]
+      "features": ["distillery tour", "rum tasting", "history"]
     }
   },
   "new-orleans": {
@@ -19799,20 +18633,13 @@
       "priceCategory": "free",
       "timeOfDay": "any",
       "rating": 4.8,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
+      "tags": ["Historical", "Popular"],
       "accessibilityFeatures": [
         "some uneven sidewalks",
         "ramped entries to galleries"
       ],
       "entryFees": [],
-      "features": [
-        "architecture",
-        "music",
-        "food"
-      ]
+      "features": ["architecture", "music", "food"]
     },
     "Garden District": {
       "title": "Garden District",
@@ -19889,20 +18716,13 @@
       "priceCategory": "free",
       "timeOfDay": "daytime",
       "rating": 4.7,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
+      "tags": ["Historical", "Popular"],
       "accessibilityFeatures": [
         "uneven sidewalks",
         "some steps into properties"
       ],
       "entryFees": [],
-      "features": [
-        "walking tours",
-        "architecture",
-        "history"
-      ]
+      "features": ["walking tours", "architecture", "history"]
     },
     "National WWII Museum": {
       "title": "National WWII Museum",
@@ -19980,10 +18800,7 @@
       "priceCategory": "midrange",
       "timeOfDay": "daytime",
       "rating": 4.8,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
+      "tags": ["Historical", "Popular"],
       "accessibilityFeatures": [
         "wheelchair ramps",
         "elevators",
@@ -20001,11 +18818,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "museum",
-        "war history",
-        "interactive exhibits"
-      ]
+      "features": ["museum", "war history", "interactive exhibits"]
     },
     "Jackson Square": {
       "title": "Jackson Square",
@@ -20082,20 +18895,10 @@
       "priceCategory": "free",
       "timeOfDay": "daytime",
       "rating": 4.6,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "paved paths",
-        "accessible benches"
-      ],
+      "tags": ["Historical", "Popular"],
+      "accessibilityFeatures": ["paved paths", "accessible benches"],
       "entryFees": [],
-      "features": [
-        "people watching",
-        "local artists",
-        "scenic views"
-      ]
+      "features": ["people watching", "local artists", "scenic views"]
     },
     "Bourbon Street": {
       "title": "Bourbon Street",
@@ -20172,19 +18975,13 @@
       "priceCategory": "free",
       "timeOfDay": "nighttime",
       "rating": 4.5,
-      "tags": [
-        "Popular"
-      ],
+      "tags": ["Popular"],
       "accessibilityFeatures": [
         "crowded, uneven pavement",
         "limited curb cuts"
       ],
       "entryFees": [],
-      "features": [
-        "bars",
-        "music",
-        "nightlife"
-      ]
+      "features": ["bars", "music", "nightlife"]
     }
   },
   "southampton": {
@@ -20264,14 +19061,8 @@
       "priceCategory": "budget",
       "timeOfDay": "daytime",
       "rating": 4.3,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "wheelchair ramps",
-        "accessible restrooms"
-      ],
+      "tags": ["Historical", "Popular"],
+      "accessibilityFeatures": ["wheelchair ramps", "accessible restrooms"],
       "entryFees": [
         {
           "category": "adult",
@@ -20284,11 +19075,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "museum",
-        "maritime history",
-        "interactive exhibits"
-      ]
+      "features": ["museum", "maritime history", "interactive exhibits"]
     },
     "Southampton City Art Gallery": {
       "title": "Southampton City Art Gallery",
@@ -20360,19 +19147,10 @@
       "priceCategory": "free",
       "timeOfDay": "daytime",
       "rating": 4.5,
-      "tags": [
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "step-free access",
-        "accessible restrooms"
-      ],
+      "tags": ["Popular"],
+      "accessibilityFeatures": ["step-free access", "accessible restrooms"],
       "entryFees": [],
-      "features": [
-        "art",
-        "exhibitions",
-        "cultural"
-      ]
+      "features": ["art", "exhibitions", "cultural"]
     },
     "Tudor House and Garden": {
       "title": "Tudor House and Garden",
@@ -20450,10 +19228,7 @@
       "priceCategory": "budget",
       "timeOfDay": "daytime",
       "rating": 4.4,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
+      "tags": ["Historical", "Popular"],
       "accessibilityFeatures": [
         "some areas not accessible",
         "steps in main house"
@@ -20470,11 +19245,7 @@
           "priceCategory": "budget"
         }
       ],
-      "features": [
-        "architecture",
-        "history",
-        "garden"
-      ]
+      "features": ["architecture", "history", "garden"]
     },
     "Westquay Shopping Centre": {
       "title": "Westquay Shopping Centre",
@@ -20551,20 +19322,14 @@
       "priceCategory": "free",
       "timeOfDay": "daytime",
       "rating": 4.2,
-      "tags": [
-        "Popular"
-      ],
+      "tags": ["Popular"],
       "accessibilityFeatures": [
         "step-free access",
         "disabled parking",
         "accessible restrooms"
       ],
       "entryFees": [],
-      "features": [
-        "shopping",
-        "dining",
-        "cinema"
-      ]
+      "features": ["shopping", "dining", "cinema"]
     },
     "Medieval Walls of Southampton": {
       "title": "Medieval Walls of Southampton",
@@ -20641,20 +19406,13 @@
       "priceCategory": "free",
       "timeOfDay": "daytime",
       "rating": 4.4,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
+      "tags": ["Historical", "Popular"],
       "accessibilityFeatures": [
         "accessible paths",
         "information panels at even intervals"
       ],
       "entryFees": [],
-      "features": [
-        "history",
-        "walking tours",
-        "architecture"
-      ]
+      "features": ["history", "walking tours", "architecture"]
     }
   },
   "amalfi-coast": {
@@ -20734,17 +19492,10 @@
       "priceCategory": "free",
       "timeOfDay": "daytime",
       "rating": 4.7,
-      "tags": [
-        "Popular"
-      ],
+      "tags": ["Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "beach",
-        "swimming",
-        "scenic views",
-        "sunbathing"
-      ]
+      "features": ["beach", "swimming", "scenic views", "sunbathing"]
     },
     "Villa Rufolo": {
       "title": "Villa Rufolo",
@@ -20822,20 +19573,10 @@
       "priceCategory": "budget",
       "timeOfDay": "daytime",
       "rating": 4.6,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "Some stairs, limited wheelchair access"
-      ],
+      "tags": ["Historical", "Popular"],
+      "accessibilityFeatures": ["Some stairs, limited wheelchair access"],
       "entryFees": [],
-      "features": [
-        "historic villa",
-        "gardens",
-        "views",
-        "architecture"
-      ]
+      "features": ["historic villa", "gardens", "views", "architecture"]
     },
     "Path of the Gods (Sentiero degli Dei)": {
       "title": "Path of the Gods (Sentiero degli Dei)",
@@ -20913,20 +19654,10 @@
       "priceCategory": "free",
       "timeOfDay": "daytime",
       "rating": 4.9,
-      "tags": [
-        "Adventure",
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "Uneven terrain, not suitable for wheelchairs"
-      ],
+      "tags": ["Adventure", "Popular"],
+      "accessibilityFeatures": ["Uneven terrain, not suitable for wheelchairs"],
       "entryFees": [],
-      "features": [
-        "hiking",
-        "nature",
-        "scenic views",
-        "outdoors"
-      ]
+      "features": ["hiking", "nature", "scenic views", "outdoors"]
     },
     "Amalfi Cathedral (Cattedrale di Sant'Andrea)": {
       "title": "Amalfi Cathedral (Cattedrale di Sant'Andrea)",
@@ -21004,13 +19735,8 @@
       "priceCategory": "budget",
       "timeOfDay": "daytime",
       "rating": 4.7,
-      "tags": [
-        "Historical",
-        "Popular"
-      ],
-      "accessibilityFeatures": [
-        "Ramps and elevators available"
-      ],
+      "tags": ["Historical", "Popular"],
+      "accessibilityFeatures": ["Ramps and elevators available"],
       "entryFees": [
         {
           "category": "adult",
@@ -21106,17 +19832,10 @@
       "priceCategory": "free",
       "timeOfDay": "daytime",
       "rating": 4.5,
-      "tags": [
-        "Popular"
-      ],
+      "tags": ["Popular"],
       "accessibilityFeatures": [],
       "entryFees": [],
-      "features": [
-        "fjord",
-        "natural beauty",
-        "hidden beach",
-        "scenic views"
-      ]
+      "features": ["fjord", "natural beauty", "hidden beach", "scenic views"]
     }
   }
 }
