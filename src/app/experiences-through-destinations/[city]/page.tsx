@@ -136,13 +136,20 @@ export default function CityToursPage() {
             <p className="text-gray-800 leading-relaxed">
               {cityData.description}
             </p>
+            <Button
+              onClick={() =>
+                router.push(
+                  `/experiences-through-destinations/${formatTitleCaseToKebabCase(cityData.city)}/tours`
+                )
+              }
+            >
+              Find Tours in {cityData.city}
+            </Button>
           </div>
 
           <section className="gap-6 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 mt-6">
             <div className="relative flex flex-col md:col-span-2 lg:col-span-3 shadow-md p-6 border border-border rounded-lg h-full overflow-hidden">
-              <h2 className="mb-4 font-semibold text-2xl">
-                Featured Attractions
-              </h2>
+              <h2>Featured Attractions</h2>
               {cityData.attractions && cityData.attractions.length > 0 ? (
                 <div className="space-y-8">
                   {cityData.attractions.map((attraction, index) => (
@@ -164,9 +171,7 @@ export default function CityToursPage() {
                         )}
                         <div className="flex-1">
                           <div className="flex justify-between items-start">
-                            <h3 className="font-medium text-primary text-xl">
-                              {attraction.title}
-                            </h3>
+                            <h3>{attraction.title}</h3>
                             {attraction.rating && (
                               <div className="flex items-center text-yellow-400">
                                 {[...Array(5)].map((_, i) => (
@@ -181,7 +186,7 @@ export default function CityToursPage() {
                           </div>
 
                           {attraction.location && (
-                            <div className="mb-2 text-gray-500 text-sm">
+                            <div className="mb-2 text-sm">
                               <span className="inline-flex items-center">
                                 <svg
                                   className="mr-1 w-4 h-4"
@@ -259,7 +264,7 @@ export default function CityToursPage() {
                   ))}
                 </div>
               ) : (
-                <div className="text-gray-500 italic">
+                <div className="italic">
                   Explore the beautiful attractions of {cityData.city} with our
                   guided tours.
                 </div>
@@ -267,7 +272,7 @@ export default function CityToursPage() {
             </div>
 
             <div className="relative flex flex-col md:col-span-1 lg:col-span-2 shadow-md p-6 border border-border rounded-lg h-full overflow-hidden">
-              <h2 className="mb-4 font-semibold text-2xl">Testimonials</h2>
+              <h2>Testimonials</h2>
               {cityData.testimonials && cityData.testimonials.length > 0 ? (
                 <div className="space-y-6">
                   {cityData.testimonials
@@ -275,7 +280,7 @@ export default function CityToursPage() {
                     .map((testimonial, index) => (
                       <div
                         key={`${testimonial.id}-${testimonial.city}-${index}`}
-                        className="bg-gray-50 p-4 rounded-lg"
+                        className="bg-card p-4 rounded-lg"
                       >
                         <div className="flex items-center mb-2">
                           <div className="flex text-yellow-400">
@@ -289,20 +294,18 @@ export default function CityToursPage() {
                             {testimonial.title}
                           </span>
                         </div>
-                        <p className="mb-2 italic">"{testimonial.quote}"</p>
-                        <div className="text-gray-600 text-sm">
-                          <span className="font-medium">
+                        <blockquote>"{testimonial.quote}"</blockquote>
+                        <div className="text-sm">
+                          <cite className="font-medium">
                             {testimonial.author}
-                          </span>{" "}
+                          </cite>{" "}
                           - {testimonial.date}
                         </div>
                       </div>
                     ))}
                 </div>
               ) : (
-                <p className="text-gray-500 italic">
-                  No testimonials available yet.
-                </p>
+                <p className="italic">No testimonials available yet.</p>
               )}
             </div>
           </section>
