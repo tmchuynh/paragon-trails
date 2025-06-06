@@ -155,9 +155,8 @@ export default function TourDetailsPage() {
             </header>
             <div className="flex sm:flex-row flex-col items-center gap-4">
               <div className="flex items-center gap-2">
-                {/* Currency selector */}
                 <Select
-                  value={selectedCurrency}
+                  value={updatedCurrency}
                   onValueChange={(value) =>
                     setUpdatedCurrency(value as Currency)
                   }
