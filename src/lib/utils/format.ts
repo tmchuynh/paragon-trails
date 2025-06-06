@@ -100,7 +100,7 @@ export const formatDuration = (duration: string): string => {
 export function formatNumberToCurrency(
   value: number,
   min?: number,
-  max?: number
+  max?: number,
 ): string {
   return new Intl.NumberFormat("en-US", {
     style: "currency",
@@ -353,4 +353,8 @@ export function formatTimeTo24HourClock(time: string): string {
     hour12: false,
   };
   return date.toLocaleTimeString([], options);
+}
+
+export function removeSpecialCharactersFromNumbers(str: string): string {
+  return str.replace(/[^0-9\s]/g, "");
 }
