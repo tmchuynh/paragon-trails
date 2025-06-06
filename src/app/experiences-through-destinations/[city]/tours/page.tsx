@@ -92,15 +92,15 @@ export default function ToursByCityPage() {
   // Max values for ranges
   const maxPrice = Math.max(
     ...tours.map((tour) => tour.pricePerPerson || 0),
-    1000
+    1000,
   );
   const maxDuration = Math.max(
     ...tours.map((tour) => tour.durationInHours || 0),
-    24
+    24,
   );
   const maxGroupSize = Math.max(
     ...tours.map((tour) => tour.maxGroupSize || 0),
-    50
+    50,
   );
 
   // Pagination values
@@ -127,13 +127,13 @@ export default function ToursByCityPage() {
 
         if (cityTours.length === 0) {
           console.log(
-            `Fetching tours for ${cityName} using individual fetches`
+            `Fetching tours for ${cityName} using individual fetches`,
           );
           // If we don't have any tours yet, try to fetch a few individually
           // (This is a fallback approach - ideally getCityTours would work correctly)
           const tourIds = Array.from(
             { length: 5 },
-            (_, i) => `tour-${citySlug.toLowerCase()}-${i + 1}`
+            (_, i) => `tour-${citySlug.toLowerCase()}-${i + 1}`,
           );
           const tourPromises = tourIds.map((id) => getTourById(citySlug, id));
           const tourResults = await Promise.all(tourPromises);
@@ -147,12 +147,12 @@ export default function ToursByCityPage() {
 
           // Set ranges based on actual data
           const maxDataPrice = Math.max(
-            ...cityTours.map((tour) => tour.pricePerPerson || 0)
+            ...cityTours.map((tour) => tour.pricePerPerson || 0),
           );
           setPriceRange([0, maxDataPrice > 0 ? maxDataPrice : 1000]);
 
           const maxDataDuration = Math.max(
-            ...cityTours.map((tour) => tour.durationInHours || 0)
+            ...cityTours.map((tour) => tour.durationInHours || 0),
           );
           setDurationRange([
             0,
@@ -160,10 +160,10 @@ export default function ToursByCityPage() {
           ]);
 
           const minDataGroupSize = Math.min(
-            ...cityTours.map((tour) => tour.minGroupSize || 1)
+            ...cityTours.map((tour) => tour.minGroupSize || 1),
           );
           const maxDataGroupSize = Math.max(
-            ...cityTours.map((tour) => tour.maxGroupSize || 0)
+            ...cityTours.map((tour) => tour.maxGroupSize || 0),
           );
           setGroupSizeRange([
             minDataGroupSize > 0 ? minDataGroupSize : 1,
@@ -195,7 +195,7 @@ export default function ToursByCityPage() {
       result = result.filter(
         (tour) =>
           tour.languagesOffered &&
-          languageFilter.some((lang) => tour.languagesOffered.includes(lang))
+          languageFilter.some((lang) => tour.languagesOffered.includes(lang)),
       );
     }
 
@@ -207,7 +207,7 @@ export default function ToursByCityPage() {
     // Apply tag filter
     if (tagFilter.length > 0) {
       result = result.filter(
-        (tour) => tour.tags && tagFilter.some((tag) => tour.tags.includes(tag))
+        (tour) => tour.tags && tagFilter.some((tag) => tour.tags.includes(tag)),
       );
     }
 
@@ -298,7 +298,7 @@ export default function ToursByCityPage() {
   const toggleFilter = (
     filterArray: any[],
     setFilterArray: React.Dispatch<React.SetStateAction<any[]>>,
-    item: any
+    item: any,
   ) => {
     if (filterArray.includes(item)) {
       setFilterArray(filterArray.filter((i) => i !== item));
@@ -325,7 +325,7 @@ export default function ToursByCityPage() {
           "ellipsis",
           totalPages - 3,
           totalPages - 2,
-          totalPages - 1
+          totalPages - 1,
         );
       } else {
         pageNumbers.push(
@@ -333,7 +333,7 @@ export default function ToursByCityPage() {
           currentPage - 1,
           currentPage,
           currentPage + 1,
-          "ellipsis"
+          "ellipsis",
         );
       }
 
@@ -367,7 +367,7 @@ export default function ToursByCityPage() {
                   {page}
                 </PaginationLink>
               </PaginationItem>
-            )
+            ),
           )}
 
           <PaginationItem>
