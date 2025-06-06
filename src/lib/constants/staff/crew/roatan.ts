@@ -44,5 +44,5 @@ export const roatanhondurascaribbeanCrew: CrewMember[] = [
     isAvailable: false,
     contactEmail: "christine.fisher@paragontrails.com",
     contactPhone: "+1-480-295-8112",
-  }
+  },
 ];

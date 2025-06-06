@@ -39,10 +39,14 @@ export const buenosAiresargentinasouthAmericaCrew: CrewMember[] = [
     name: "Daniel Harris",
     role: "Steward/Stewardess",
     experienceYears: 3,
-    certifications: ["Marine Radio Operator", "Navigation Certification", "Engineering License"],
+    certifications: [
+      "Marine Radio Operator",
+      "Navigation Certification",
+      "Engineering License",
+    ],
     languagesSpoken: ["Greek", "Thai", "Hungarian"],
     isAvailable: true,
     contactEmail: "daniel.harris@paragontrails.com",
     contactPhone: "+1-062-247-7476",
-  }
+  },
 ];

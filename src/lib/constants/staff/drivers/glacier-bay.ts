@@ -14,12 +14,12 @@ export const glacierBayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "20:00"
+            to: "20:00",
           },
           {
             from: "08:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -27,12 +27,12 @@ export const glacierBayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "04:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -40,12 +40,12 @@ export const glacierBayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "02:00",
-            to: "04:00"
-          }
+            to: "04:00",
+          },
         ],
       },
       {
@@ -53,12 +53,12 @@ export const glacierBayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "08:00"
+            to: "08:00",
           },
           {
             from: "07:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
       },
       {
@@ -66,16 +66,20 @@ export const glacierBayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.8,
     phone: "+355 815-941-3543",
     email: "bella.jones@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/2.jpg",
-    specialties: ["Security Detail", "Long-Distance Driving", "Event Transportation"],
+    specialties: [
+      "Security Detail",
+      "Long-Distance Driving",
+      "Event Transportation",
+    ],
     vehicleTypesCertified: ["Van", "Limousine", "Sedan"],
   },
   {
@@ -91,8 +95,8 @@ export const glacierBayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -100,8 +104,8 @@ export const glacierBayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -109,10 +113,10 @@ export const glacierBayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.2,
     phone: "+783 264-452-8307",
@@ -134,8 +138,8 @@ export const glacierBayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -143,12 +147,12 @@ export const glacierBayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "09:00"
+            to: "09:00",
           },
           {
             from: "05:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -156,14 +160,14 @@ export const glacierBayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "14:00"
+            to: "14:00",
           },
           {
             from: "01:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.7,
     phone: "+754 884-896-7377",
@@ -185,12 +189,12 @@ export const glacierBayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "21:00"
+            to: "21:00",
           },
           {
             from: "08:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
       },
       {
@@ -198,12 +202,12 @@ export const glacierBayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "09:00"
+            to: "09:00",
           },
           {
             from: "11:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -211,14 +215,14 @@ export const glacierBayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "09:00"
+            to: "09:00",
           },
           {
             from: "11:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.9,
     phone: "+162 581-436-4151",
@@ -240,12 +244,12 @@ export const glacierBayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "01:00",
-            to: "03:00"
-          }
+            to: "03:00",
+          },
         ],
       },
       {
@@ -253,8 +257,8 @@ export const glacierBayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -262,10 +266,10 @@ export const glacierBayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.4,
     phone: "+716 323-400-8383",
@@ -287,8 +291,8 @@ export const glacierBayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -296,12 +300,12 @@ export const glacierBayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "19:00"
+            to: "19:00",
           },
           {
             from: "05:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -309,12 +313,12 @@ export const glacierBayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "23:00"
+            to: "23:00",
           },
           {
             from: "11:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -322,17 +326,23 @@ export const glacierBayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.9,
     phone: "+617 328-834-6142",
     email: "thomas.reed@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/37.jpg",
     specialties: ["Security Detail", "Tour Guide Driver"],
-    vehicleTypesCertified: ["Electric Vehicle", "Limousine", "Motorcoach", "Convertible", "Luxury SUV"],
+    vehicleTypesCertified: [
+      "Electric Vehicle",
+      "Limousine",
+      "Motorcoach",
+      "Convertible",
+      "Luxury SUV",
+    ],
   },
   {
     id: "driver-glacier-bay-7",
@@ -347,12 +357,12 @@ export const glacierBayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "07:00"
+            to: "07:00",
           },
           {
             from: "12:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -360,12 +370,12 @@ export const glacierBayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "10:00"
+            to: "10:00",
           },
           {
             from: "19:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -373,14 +383,14 @@ export const glacierBayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "22:00"
+            to: "22:00",
           },
           {
             from: "14:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.7,
     phone: "+495 215-262-3868",
@@ -402,12 +412,12 @@ export const glacierBayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "15:00"
+            to: "15:00",
           },
           {
             from: "15:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -415,8 +425,8 @@ export const glacierBayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "04:00"
-          }
+            to: "04:00",
+          },
         ],
       },
       {
@@ -424,10 +434,10 @@ export const glacierBayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.4,
     phone: "+713 153-981-4296",
@@ -449,8 +459,8 @@ export const glacierBayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -458,12 +468,12 @@ export const glacierBayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "07:00"
+            to: "07:00",
           },
           {
             from: "14:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -471,16 +481,21 @@ export const glacierBayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.8,
     phone: "+547 109-580-9835",
     email: "roy.coleman@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/2.jpg",
-    specialties: ["Corporate Chauffeur", "Event Transportation", "Airport Transfers", "Night Shift"],
+    specialties: [
+      "Corporate Chauffeur",
+      "Event Transportation",
+      "Airport Transfers",
+      "Night Shift",
+    ],
     vehicleTypesCertified: ["Electric Vehicle", "Limousine"],
-  }
+  },
 ];

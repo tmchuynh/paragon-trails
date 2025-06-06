@@ -6,7 +6,11 @@ export const bangkokthailandasiaPacificCrew: CrewMember[] = [
     name: "Harold Hawkins",
     role: "Engineer",
     experienceYears: 12,
-    certifications: ["Fire Safety", "Marine Radio Operator", "Security Training"],
+    certifications: [
+      "Fire Safety",
+      "Marine Radio Operator",
+      "Security Training",
+    ],
     languagesSpoken: ["Korean", "Swedish", "Dutch"],
     isAvailable: true,
     contactEmail: "harold.hawkins@paragontrails.com",
@@ -33,5 +37,5 @@ export const bangkokthailandasiaPacificCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "maya.anderson@paragontrails.com",
     contactPhone: "+1-086-748-2343",
-  }
+  },
 ];

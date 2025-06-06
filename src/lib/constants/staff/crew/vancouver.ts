@@ -33,5 +33,5 @@ export const vancouvercanadaalaskaCrew: CrewMember[] = [
     isAvailable: false,
     contactEmail: "ellie.ellis@paragontrails.com",
     contactPhone: "+1-529-273-1183",
-  }
+  },
 ];

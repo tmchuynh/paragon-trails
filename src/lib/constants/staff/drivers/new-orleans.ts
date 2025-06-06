@@ -14,12 +14,12 @@ export const newOrleansunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "10:00"
+            to: "10:00",
           },
           {
             from: "14:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -27,12 +27,12 @@ export const newOrleansunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "23:00"
+            to: "23:00",
           },
           {
             from: "16:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -40,10 +40,10 @@ export const newOrleansunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.2,
     phone: "+643 614-395-1104",
@@ -65,12 +65,12 @@ export const newOrleansunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "23:00"
+            to: "23:00",
           },
           {
             from: "21:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
       },
       {
@@ -78,12 +78,12 @@ export const newOrleansunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "16:00"
+            to: "16:00",
           },
           {
             from: "09:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -91,8 +91,8 @@ export const newOrleansunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "03:00"
-          }
+            to: "03:00",
+          },
         ],
       },
       {
@@ -100,14 +100,14 @@ export const newOrleansunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "14:00"
+            to: "14:00",
           },
           {
             from: "21:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.1,
     phone: "+368 121-161-5144",
@@ -129,8 +129,8 @@ export const newOrleansunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -138,8 +138,8 @@ export const newOrleansunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "04:00"
-          }
+            to: "04:00",
+          },
         ],
       },
       {
@@ -147,8 +147,8 @@ export const newOrleansunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -156,10 +156,10 @@ export const newOrleansunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.7,
     phone: "+614 511-317-7487",
@@ -181,8 +181,8 @@ export const newOrleansunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
       },
       {
@@ -190,12 +190,12 @@ export const newOrleansunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "05:00"
+            to: "05:00",
           },
           {
             from: "14:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
       },
       {
@@ -203,21 +203,26 @@ export const newOrleansunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "06:00"
+            to: "06:00",
           },
           {
             from: "03:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.5,
     phone: "+547 414-740-3185",
     email: "cynthia.west@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/38.jpg",
     specialties: ["Luxury Car Specialist", "Night Shift"],
-    vehicleTypesCertified: ["Motorcoach", "Limousine", "Sports Car", "Luxury SUV"],
+    vehicleTypesCertified: [
+      "Motorcoach",
+      "Limousine",
+      "Sports Car",
+      "Luxury SUV",
+    ],
   },
   {
     id: "driver-new-orleans-5",
@@ -232,12 +237,12 @@ export const newOrleansunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "11:00"
+            to: "11:00",
           },
           {
             from: "09:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
       },
       {
@@ -245,12 +250,12 @@ export const newOrleansunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "17:00"
+            to: "17:00",
           },
           {
             from: "03:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -258,14 +263,14 @@ export const newOrleansunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "10:00"
+            to: "10:00",
           },
           {
             from: "08:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.6,
     phone: "+298 155-926-1476",
@@ -273,5 +278,5 @@ export const newOrleansunitedStatescaribbeanDrivers: Driver[] = [
     photoUrl: "https://randomuser.me/api/portraits/men/85.jpg",
     specialties: ["Night Shift"],
     vehicleTypesCertified: ["Motorcoach", "Sports Car", "Sedan"],
-  }
+  },
 ];

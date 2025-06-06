@@ -28,7 +28,11 @@ export const maltamaltamediterraneanCrew: CrewMember[] = [
     name: "Javier Taylor",
     role: "Captain",
     experienceYears: 2,
-    certifications: ["Marine Radio Operator", "Navigation Certification", "Security Training"],
+    certifications: [
+      "Marine Radio Operator",
+      "Navigation Certification",
+      "Security Training",
+    ],
     languagesSpoken: ["Hindi", "Thai"],
     isAvailable: true,
     contactEmail: "javier.taylor@paragontrails.com",
@@ -39,7 +43,11 @@ export const maltamaltamediterraneanCrew: CrewMember[] = [
     name: "Sophia Day",
     role: "Engineer",
     experienceYears: 12,
-    certifications: ["Environmental Awareness", "Navigation Certification", "Fire Safety"],
+    certifications: [
+      "Environmental Awareness",
+      "Navigation Certification",
+      "Fire Safety",
+    ],
     languagesSpoken: ["English"],
     isAvailable: true,
     contactEmail: "sophia.day@paragontrails.com",
@@ -88,5 +96,5 @@ export const maltamaltamediterraneanCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "raymond.wallace@paragontrails.com",
     contactPhone: "+1-630-924-4269",
-  }
+  },
 ];

@@ -18,10 +18,12 @@ export const stPetersburgrussianorthernEuropeGuides: TourGuide[] = [
     contactEmail: "liam.allen@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Liam is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Public Transportation Navigation, Museums, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Liam is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Public Transportation Navigation, Museums, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 96,
-    quote: "Every corner of St Petersburg tells a story, let me share them with you.",
+    quote:
+      "Every corner of St Petersburg tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/15.jpg",
     languages: ["Malay", "Cantonese", "Spanish"],
     experienceYears: 11,
@@ -46,14 +48,20 @@ export const stPetersburgrussianorthernEuropeGuides: TourGuide[] = [
     contactEmail: "abigail.nelson@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Abigail is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Wine Tasting, Hidden Gems, Street Food, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Abigail is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Wine Tasting, Hidden Gems, Street Food, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 90,
-    quote: "St Petersburg isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "St Petersburg isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/55.jpg",
     languages: ["Arabic", "Hindi"],
     experienceYears: 12,
-    certifications: ["Local History Certification", "Eco-Tourism Guide", "Wilderness First Responder"],
+    certifications: [
+      "Local History Certification",
+      "Eco-Tourism Guide",
+      "Wilderness First Responder",
+    ],
     specialties: ["Wine Tasting", "Hidden Gems", "Street Food"],
     specialTraining: ["Religious Studies"],
   },
@@ -74,14 +82,19 @@ export const stPetersburgrussianorthernEuropeGuides: TourGuide[] = [
     contactEmail: "riley.thomas@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Riley is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Indigenous Culture, Historical Landmarks, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Riley is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Indigenous Culture, Historical Landmarks, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.5,
     reviewsCount: 25,
     quote: "In St Petersburg, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/women/26.jpg",
     languages: ["Dutch"],
     experienceYears: 10,
-    certifications: ["Sustainable Tourism Certificate", "Professional Tour Guide Association", "Urban Navigation Specialist"],
+    certifications: [
+      "Sustainable Tourism Certificate",
+      "Professional Tour Guide Association",
+      "Urban Navigation Specialist",
+    ],
     specialties: ["Indigenous Culture", "Historical Landmarks"],
     specialTraining: ["Regional Cuisine", "Archaeological Conservation"],
   },
@@ -102,10 +115,12 @@ export const stPetersburgrussianorthernEuropeGuides: TourGuide[] = [
     contactEmail: "emma.young@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Emma is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Hidden Gems, Parks & Gardens, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Emma is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Hidden Gems, Parks & Gardens, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 20,
-    quote: "Every corner of St Petersburg tells a story, let me share them with you.",
+    quote:
+      "Every corner of St Petersburg tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/65.jpg",
     languages: ["Swedish", "Hindi"],
     experienceYears: 6,
@@ -123,21 +138,31 @@ export const stPetersburgrussianorthernEuropeGuides: TourGuide[] = [
     isPopular: false,
     bio: "David is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Art Galleries, Film Locations, Wildlife, Nightlife, David provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["West Coast USA"],
-    tourTypes: ["Wildlife Safari", "Eco Tour", "Brewery Tour", "Historical Tour"],
+    tourTypes: [
+      "Wildlife Safari",
+      "Eco Tour",
+      "Brewery Tour",
+      "Historical Tour",
+    ],
     maxGroupSize: 5,
     licenseNumber: "LIC-6118-ST-",
     phoneNumber: "+1-874-958-2573",
     contactEmail: "david.moore@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "David is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Art Galleries, Film Locations, Wildlife, Nightlife, David provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "David is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Art Galleries, Film Locations, Wildlife, Nightlife, David provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 80,
-    quote: "Every corner of St Petersburg tells a story, let me share them with you.",
+    quote:
+      "Every corner of St Petersburg tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/74.jpg",
     languages: ["Danish", "Malay", "Portuguese"],
     experienceYears: 9,
-    certifications: ["Heritage Interpretation Certificate", "Wilderness First Responder"],
+    certifications: [
+      "Heritage Interpretation Certificate",
+      "Wilderness First Responder",
+    ],
     specialties: ["Art Galleries", "Film Locations", "Wildlife", "Nightlife"],
     specialTraining: ["Historical Research Methods", "Emergency Response"],
   },
@@ -167,7 +192,7 @@ export const stPetersburgrussianorthernEuropeGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -176,7 +201,7 @@ export const stPetersburgrussianorthernEuropeGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -189,7 +214,7 @@ export const stPetersburgrussianorthernEuropeGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -198,19 +223,25 @@ export const stPetersburgrussianorthernEuropeGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "18:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Scarlett is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Hidden Gems, Sustainable Tourism, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Scarlett is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Hidden Gems, Sustainable Tourism, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 93,
-    quote: "Every corner of St Petersburg tells a story, let me share them with you.",
+    quote:
+      "Every corner of St Petersburg tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/55.jpg",
     languages: ["Thai", "Italian"],
     experienceYears: 8,
-    certifications: ["Adventure Tourism Safety Certificate", "Certified International Tour Manager", "Eco-Tourism Guide"],
+    certifications: [
+      "Adventure Tourism Safety Certificate",
+      "Certified International Tour Manager",
+      "Eco-Tourism Guide",
+    ],
     specialties: ["Hidden Gems", "Sustainable Tourism"],
     specialTraining: ["Desert Navigation"],
   },
@@ -240,7 +271,7 @@ export const stPetersburgrussianorthernEuropeGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -249,7 +280,7 @@ export const stPetersburgrussianorthernEuropeGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -258,7 +289,7 @@ export const stPetersburgrussianorthernEuropeGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -271,7 +302,7 @@ export const stPetersburgrussianorthernEuropeGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -284,19 +315,24 @@ export const stPetersburgrussianorthernEuropeGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Ella is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Local Craftsmanship, Indigenous Culture, Wildlife, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Ella is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Local Craftsmanship, Indigenous Culture, Wildlife, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 8,
-    quote: "St Petersburg isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "St Petersburg isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/60.jpg",
     languages: ["Danish", "Spanish", "Hindi"],
     experienceYears: 7,
-    certifications: ["Local History Certification", "Regional Tourism Ambassador"],
+    certifications: [
+      "Local History Certification",
+      "Regional Tourism Ambassador",
+    ],
     specialties: ["Local Craftsmanship", "Indigenous Culture", "Wildlife"],
     specialTraining: [],
   },
@@ -310,7 +346,12 @@ export const stPetersburgrussianorthernEuropeGuides: TourGuide[] = [
     isPopular: false,
     bio: "Henry is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Local Markets, Historical Landmarks, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Alaska", "Asia Pacific"],
-    tourTypes: ["Nature Tour", "Historical Tour", "Craft Workshop", "Cultural Tour"],
+    tourTypes: [
+      "Nature Tour",
+      "Historical Tour",
+      "Craft Workshop",
+      "Cultural Tour",
+    ],
     maxGroupSize: 14,
     licenseNumber: "LIC-5440-ST-",
     phoneNumber: "+1-373-661-4148",
@@ -322,7 +363,7 @@ export const stPetersburgrussianorthernEuropeGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -335,7 +376,7 @@ export const stPetersburgrussianorthernEuropeGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -344,7 +385,7 @@ export const stPetersburgrussianorthernEuropeGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -357,20 +398,26 @@ export const stPetersburgrussianorthernEuropeGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "13:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Henry is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Local Markets, Historical Landmarks, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Henry is a passionate tour guide with extensive knowledge of St Petersburg and Russia. Specializing in Local Markets, Historical Landmarks, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 104,
-    quote: "My goal is to help you fall in love with St Petersburg just as I have.",
+    quote:
+      "My goal is to help you fall in love with St Petersburg just as I have.",
     profileImage: "https://randomuser.me/api/portraits/men/4.jpg",
     languages: ["Polish"],
     experienceYears: 4,
-    certifications: ["Urban Navigation Specialist", "Eco-Tourism Guide", "Regional Tourism Ambassador"],
+    certifications: [
+      "Urban Navigation Specialist",
+      "Eco-Tourism Guide",
+      "Regional Tourism Ambassador",
+    ],
     specialties: ["Local Markets", "Historical Landmarks"],
     specialTraining: ["Cultural Sensitivity"],
-  }
+  },
 ];

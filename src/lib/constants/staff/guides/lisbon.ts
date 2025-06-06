@@ -11,21 +11,30 @@ export const lisbonportugalmediterraneanGuides: TourGuide[] = [
     isPopular: true,
     bio: "Lucas is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Cultural Etiquette, Nightlife, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Africa", "Alaska"],
-    tourTypes: ["Architecture Tour", "Group Tour", "Accessible Tour", "Eco Tour"],
+    tourTypes: [
+      "Architecture Tour",
+      "Group Tour",
+      "Accessible Tour",
+      "Eco Tour",
+    ],
     maxGroupSize: 7,
     licenseNumber: "LIC-9660-LIS",
     phoneNumber: "+1-430-980-4006",
     contactEmail: "lucas.jones@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Lucas is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Cultural Etiquette, Nightlife, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Lucas is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Cultural Etiquette, Nightlife, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 63,
     quote: "In Lisbon, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/women/18.jpg",
     languages: ["Danish", "Thai", "Japanese"],
     experienceYears: 6,
-    certifications: ["Heritage Interpretation Certificate", "Regional Tourism Ambassador"],
+    certifications: [
+      "Heritage Interpretation Certificate",
+      "Regional Tourism Ambassador",
+    ],
     specialties: ["Cultural Etiquette", "Nightlife"],
     specialTraining: ["Emergency Response", "Regional Cuisine"],
   },
@@ -39,21 +48,30 @@ export const lisbonportugalmediterraneanGuides: TourGuide[] = [
     isPopular: true,
     bio: "Mia is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in LGBTQ+ History, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Middle East"],
-    tourTypes: ["Bike Tour", "Photography Tour", "Boat Tour", "Relocation Tour"],
+    tourTypes: [
+      "Bike Tour",
+      "Photography Tour",
+      "Boat Tour",
+      "Relocation Tour",
+    ],
     maxGroupSize: 12,
     licenseNumber: "LIC-3002-LIS",
     phoneNumber: "+1-133-195-2227",
     contactEmail: "mia.martin@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Mia is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in LGBTQ+ History, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Mia is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in LGBTQ+ History, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 104,
     quote: "In Lisbon, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/women/8.jpg",
     languages: ["Russian"],
     experienceYears: 10,
-    certifications: ["Heritage Interpretation Certificate", "Urban Navigation Specialist"],
+    certifications: [
+      "Heritage Interpretation Certificate",
+      "Urban Navigation Specialist",
+    ],
     specialties: ["LGBTQ+ History"],
     specialTraining: ["Accessibility Services", "Regional Cuisine"],
   },
@@ -67,22 +85,35 @@ export const lisbonportugalmediterraneanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Henry is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Local Cuisine, LGBTQ+ History, Film Locations, Nightlife, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["West Coast USA", "South America"],
-    tourTypes: ["Shopping Tour", "Bike Tour", "Off-Road Tour", "Ghost Tour", "Helicopter Tour"],
+    tourTypes: [
+      "Shopping Tour",
+      "Bike Tour",
+      "Off-Road Tour",
+      "Ghost Tour",
+      "Helicopter Tour",
+    ],
     maxGroupSize: 19,
     licenseNumber: "LIC-3257-LIS",
     phoneNumber: "+1-750-160-1324",
     contactEmail: "henry.harris@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Henry is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Local Cuisine, LGBTQ+ History, Film Locations, Nightlife, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Henry is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Local Cuisine, LGBTQ+ History, Film Locations, Nightlife, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 10,
-    quote: "The best way to discover Lisbon is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Lisbon is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/74.jpg",
     languages: ["Indonesian", "French", "Tagalog"],
     experienceYears: 8,
     certifications: ["Eco-Tourism Guide", "Food Safety Certification"],
-    specialties: ["Local Cuisine", "LGBTQ+ History", "Film Locations", "Nightlife"],
+    specialties: [
+      "Local Cuisine",
+      "LGBTQ+ History",
+      "Film Locations",
+      "Nightlife",
+    ],
     specialTraining: ["Cultural Sensitivity"],
   },
   {
@@ -102,10 +133,12 @@ export const lisbonportugalmediterraneanGuides: TourGuide[] = [
     contactEmail: "zoe.moore@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Zoe is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Wine Tasting, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Zoe is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Wine Tasting, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 20,
-    quote: "Lisbon isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Lisbon isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/21.jpg",
     languages: ["Bulgarian", "Finnish"],
     experienceYears: 3,
@@ -123,21 +156,30 @@ export const lisbonportugalmediterraneanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Grace is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Family Activities, Grace provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast USA"],
-    tourTypes: ["Off-Road Tour", "Group Tour", "Food Tour", "Family-Friendly Tour"],
+    tourTypes: [
+      "Off-Road Tour",
+      "Group Tour",
+      "Food Tour",
+      "Family-Friendly Tour",
+    ],
     maxGroupSize: 16,
     licenseNumber: "LIC-5032-LIS",
     phoneNumber: "+1-490-387-4658",
     contactEmail: "grace.hill@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Grace is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Family Activities, Grace provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Grace is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Family Activities, Grace provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
     reviewsCount: 64,
     quote: "My goal is to help you fall in love with Lisbon just as I have.",
     profileImage: "https://randomuser.me/api/portraits/women/66.jpg",
     languages: ["Polish"],
     experienceYears: 7,
-    certifications: ["Sustainable Tourism Certificate", "Professional Tour Guide Association"],
+    certifications: [
+      "Sustainable Tourism Certificate",
+      "Professional Tour Guide Association",
+    ],
     specialties: ["Family Activities"],
     specialTraining: [],
   },
@@ -163,7 +205,7 @@ export const lisbonportugalmediterraneanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -176,7 +218,7 @@ export const lisbonportugalmediterraneanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -189,7 +231,7 @@ export const lisbonportugalmediterraneanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -198,19 +240,25 @@ export const lisbonportugalmediterraneanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "19:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Abigail is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Film Locations, Music Scene, Indigenous Culture, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Abigail is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Film Locations, Music Scene, Indigenous Culture, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
     reviewsCount: 72,
-    quote: "The best way to discover Lisbon is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Lisbon is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/19.jpg",
     languages: ["Malay", "French", "Finnish"],
     experienceYears: 13,
-    certifications: ["Professional Tour Guide Association", "Regional Tourism Ambassador", "Certified International Tour Manager"],
+    certifications: [
+      "Professional Tour Guide Association",
+      "Regional Tourism Ambassador",
+      "Certified International Tour Manager",
+    ],
     specialties: ["Film Locations", "Music Scene", "Indigenous Culture"],
     specialTraining: [],
   },
@@ -224,7 +272,13 @@ export const lisbonportugalmediterraneanGuides: TourGuide[] = [
     isPopular: false,
     bio: "William is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Indigenous Culture, Local Cuisine, William provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Alaska", "Northern Europe"],
-    tourTypes: ["Ghost Tour", "Scenic Tour", "Nature Tour", "Historical Tour", "Private Tour"],
+    tourTypes: [
+      "Ghost Tour",
+      "Scenic Tour",
+      "Nature Tour",
+      "Historical Tour",
+      "Private Tour",
+    ],
     maxGroupSize: 19,
     licenseNumber: "LIC-9065-LIS",
     phoneNumber: "+1-342-643-4369",
@@ -236,7 +290,7 @@ export const lisbonportugalmediterraneanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -245,7 +299,7 @@ export const lisbonportugalmediterraneanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "10:00",
-          }
+          },
         ],
       },
       {
@@ -258,19 +312,24 @@ export const lisbonportugalmediterraneanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "William is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Indigenous Culture, Local Cuisine, William provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "William is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Indigenous Culture, Local Cuisine, William provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 49,
     quote: "In Lisbon, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/women/37.jpg",
     languages: ["Swahili", "Mandarin", "Hebrew"],
     experienceYears: 14,
-    certifications: ["Licensed City Guide", "CPR & First Aid", "Local History Certification"],
+    certifications: [
+      "Licensed City Guide",
+      "CPR & First Aid",
+      "Local History Certification",
+    ],
     specialties: ["Indigenous Culture", "Local Cuisine"],
     specialTraining: ["Mountain Survival", "Regional Geology"],
   },
@@ -296,7 +355,7 @@ export const lisbonportugalmediterraneanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -309,7 +368,7 @@ export const lisbonportugalmediterraneanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -322,12 +381,13 @@ export const lisbonportugalmediterraneanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Mason is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Wine Tasting, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Mason is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Wine Tasting, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
     reviewsCount: 26,
     quote: "In Lisbon, we don't just see the sights - we make memories.",
@@ -337,5 +397,5 @@ export const lisbonportugalmediterraneanGuides: TourGuide[] = [
     certifications: ["Eco-Tourism Guide"],
     specialties: ["Wine Tasting"],
     specialTraining: ["Marine Biology"],
-  }
+  },
 ];

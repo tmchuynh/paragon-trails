@@ -39,7 +39,11 @@ export const helsinkifinlandnorthernEuropeCrew: CrewMember[] = [
     name: "Linda Parker",
     role: "Purser",
     experienceYears: 8,
-    certifications: ["Marine Radio Operator", "Environmental Awareness", "Fire Safety"],
+    certifications: [
+      "Marine Radio Operator",
+      "Environmental Awareness",
+      "Fire Safety",
+    ],
     languagesSpoken: ["Turkish"],
     isAvailable: true,
     contactEmail: "linda.parker@paragontrails.com",
@@ -66,5 +70,5 @@ export const helsinkifinlandnorthernEuropeCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "wei.khan@paragontrails.com",
     contactPhone: "+1-942-893-4882",
-  }
+  },
 ];

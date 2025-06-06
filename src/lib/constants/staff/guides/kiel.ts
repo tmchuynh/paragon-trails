@@ -18,7 +18,8 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
     contactEmail: "michael.miller@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Michael is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Religious Sites, Public Transportation Navigation, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Michael is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Religious Sites, Public Transportation Navigation, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 11,
     quote: "In Kiel, we don't just see the sights - we make memories.",
@@ -46,14 +47,19 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
     contactEmail: "jacob.thomas@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Jacob is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Sustainable Tourism, Hidden Gems, Family Activities, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Jacob is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Sustainable Tourism, Hidden Gems, Family Activities, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
     reviewsCount: 69,
-    quote: "Kiel isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Kiel isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/42.jpg",
     languages: ["Thai"],
     experienceYears: 7,
-    certifications: ["Wilderness First Responder", "Local History Certification"],
+    certifications: [
+      "Wilderness First Responder",
+      "Local History Certification",
+    ],
     specialties: ["Sustainable Tourism", "Hidden Gems", "Family Activities"],
     specialTraining: [],
   },
@@ -74,14 +80,19 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
     contactEmail: "jacob.walker@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Jacob is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Indigenous Culture, Local Markets, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Jacob is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Indigenous Culture, Local Markets, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 29,
     quote: "My goal is to help you fall in love with Kiel just as I have.",
     profileImage: "https://randomuser.me/api/portraits/women/44.jpg",
     languages: ["German", "Greek", "Bulgarian"],
     experienceYears: 15,
-    certifications: ["CPR & First Aid", "Language Proficiency Certification", "Heritage Interpretation Certificate"],
+    certifications: [
+      "CPR & First Aid",
+      "Language Proficiency Certification",
+      "Heritage Interpretation Certificate",
+    ],
     specialties: ["Indigenous Culture", "Local Markets"],
     specialTraining: ["Conflict Resolution"],
   },
@@ -95,14 +106,21 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
     isPopular: false,
     bio: "Chloe is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Photography Spots, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Asia Pacific"],
-    tourTypes: ["Cooking Class", "Cultural Tour", "Audio Tour", "Walking Tour", "LGBTQ+ Friendly Tour"],
+    tourTypes: [
+      "Cooking Class",
+      "Cultural Tour",
+      "Audio Tour",
+      "Walking Tour",
+      "LGBTQ+ Friendly Tour",
+    ],
     maxGroupSize: 10,
     licenseNumber: "LIC-9299-KIE",
     phoneNumber: "+1-170-817-2510",
     contactEmail: "chloe.roberts@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Chloe is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Photography Spots, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Chloe is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Photography Spots, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 95,
     quote: "Every corner of Kiel tells a story, let me share them with you.",
@@ -130,7 +148,8 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
     contactEmail: "lily.nelson@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Lily is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Cultural Etiquette, Historical Landmarks, Local Cuisine, Film Locations, Lily provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Lily is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Cultural Etiquette, Historical Landmarks, Local Cuisine, Film Locations, Lily provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
     reviewsCount: 39,
     quote: "In Kiel, we don't just see the sights - we make memories.",
@@ -138,7 +157,12 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
     languages: ["Portuguese", "Hebrew"],
     experienceYears: 7,
     certifications: ["Certified International Tour Manager"],
-    specialties: ["Cultural Etiquette", "Historical Landmarks", "Local Cuisine", "Film Locations"],
+    specialties: [
+      "Cultural Etiquette",
+      "Historical Landmarks",
+      "Local Cuisine",
+      "Film Locations",
+    ],
     specialTraining: [],
   },
   {
@@ -158,14 +182,19 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
     contactEmail: "emily.wright@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Emily is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Family Activities, Emily provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Emily is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Family Activities, Emily provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 6,
     quote: "My goal is to help you fall in love with Kiel just as I have.",
     profileImage: "https://randomuser.me/api/portraits/women/69.jpg",
     languages: ["Swedish", "Romanian", "Japanese"],
     experienceYears: 8,
-    certifications: ["Eco-Tourism Guide", "Local History Certification", "Wilderness First Responder"],
+    certifications: [
+      "Eco-Tourism Guide",
+      "Local History Certification",
+      "Wilderness First Responder",
+    ],
     specialties: ["Family Activities"],
     specialTraining: [],
   },
@@ -179,21 +208,31 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
     isPopular: false,
     bio: "Ethan is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Hidden Gems, Sustainable Tourism, Nightlife, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Northern Europe", "South America"],
-    tourTypes: ["Farm Visit", "Adventure Tour", "Bike Tour", "Wildlife Safari", "Family-Friendly Tour"],
+    tourTypes: [
+      "Farm Visit",
+      "Adventure Tour",
+      "Bike Tour",
+      "Wildlife Safari",
+      "Family-Friendly Tour",
+    ],
     maxGroupSize: 16,
     licenseNumber: "LIC-8087-KIE",
     phoneNumber: "+1-662-251-5041",
     contactEmail: "ethan.martin@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Ethan is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Hidden Gems, Sustainable Tourism, Nightlife, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Ethan is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Hidden Gems, Sustainable Tourism, Nightlife, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.5,
     reviewsCount: 91,
     quote: "In Kiel, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/women/13.jpg",
     languages: ["Spanish", "Czech"],
     experienceYears: 11,
-    certifications: ["Heritage Interpretation Certificate", "Language Proficiency Certification"],
+    certifications: [
+      "Heritage Interpretation Certificate",
+      "Language Proficiency Certification",
+    ],
     specialties: ["Hidden Gems", "Sustainable Tourism", "Nightlife"],
     specialTraining: [],
   },
@@ -223,7 +262,7 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -232,19 +271,24 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Sophia is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Sustainable Tourism, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sophia is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Sustainable Tourism, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 34,
     quote: "My goal is to help you fall in love with Kiel just as I have.",
     profileImage: "https://randomuser.me/api/portraits/women/75.jpg",
     languages: ["Hebrew", "Bulgarian", "Indonesian"],
     experienceYears: 4,
-    certifications: ["Food Safety Certification", "Eco-Tourism Guide", "Language Proficiency Certification"],
+    certifications: [
+      "Food Safety Certification",
+      "Eco-Tourism Guide",
+      "Language Proficiency Certification",
+    ],
     specialties: ["Sustainable Tourism"],
     specialTraining: ["Cultural Sensitivity"],
   },
@@ -270,7 +314,7 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -283,7 +327,7 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -292,7 +336,7 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -305,7 +349,7 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -314,15 +358,17 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Wyatt is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Nightlife, Urban Legends, Family Activities, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Wyatt is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Nightlife, Urban Legends, Family Activities, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
     reviewsCount: 93,
-    quote: "The best way to discover Kiel is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Kiel is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/4.jpg",
     languages: ["Russian", "Serbian"],
     experienceYears: 4,
@@ -356,7 +402,7 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -365,7 +411,7 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -378,7 +424,7 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -387,12 +433,13 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Sofia is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Cultural Etiquette, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sofia is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Cultural Etiquette, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 51,
     quote: "In Kiel, we don't just see the sights - we make memories.",
@@ -402,5 +449,5 @@ export const kielgermanynorthernEuropeGuides: TourGuide[] = [
     certifications: ["Regional Tourism Ambassador"],
     specialties: ["Cultural Etiquette"],
     specialTraining: ["Desert Navigation"],
-  }
+  },
 ];

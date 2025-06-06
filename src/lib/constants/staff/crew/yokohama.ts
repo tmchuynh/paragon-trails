@@ -44,5 +44,5 @@ export const yokohamajapanasiaPacificCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "joseph.dean@paragontrails.com",
     contactPhone: "+1-607-305-1368",
-  }
+  },
 ];

@@ -11,17 +11,25 @@ export const copenhagendenmarknorthernEuropeGuides: TourGuide[] = [
     isPopular: false,
     bio: "Carter is a passionate tour guide with extensive knowledge of Copenhagen and Denmark. Specializing in Local Craftsmanship, Museums, Family Activities, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Mediterranean", "Northern Europe"],
-    tourTypes: ["Bike Tour", "Architecture Tour", "Brewery Tour", "Food Tour", "Historical Tour"],
+    tourTypes: [
+      "Bike Tour",
+      "Architecture Tour",
+      "Brewery Tour",
+      "Food Tour",
+      "Historical Tour",
+    ],
     maxGroupSize: 12,
     licenseNumber: "LIC-7553-COP",
     phoneNumber: "+1-325-904-2302",
     contactEmail: "carter.harris@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Carter is a passionate tour guide with extensive knowledge of Copenhagen and Denmark. Specializing in Local Craftsmanship, Museums, Family Activities, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Carter is a passionate tour guide with extensive knowledge of Copenhagen and Denmark. Specializing in Local Craftsmanship, Museums, Family Activities, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 65,
-    quote: "Every corner of Copenhagen tells a story, let me share them with you.",
+    quote:
+      "Every corner of Copenhagen tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/2.jpg",
     languages: ["Turkish", "Malay"],
     experienceYears: 16,
@@ -46,14 +54,20 @@ export const copenhagendenmarknorthernEuropeGuides: TourGuide[] = [
     contactEmail: "samuel.mitchell@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Samuel is a passionate tour guide with extensive knowledge of Copenhagen and Denmark. Specializing in Local Cuisine, Samuel provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Samuel is a passionate tour guide with extensive knowledge of Copenhagen and Denmark. Specializing in Local Cuisine, Samuel provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 47,
-    quote: "My goal is to help you fall in love with Copenhagen just as I have.",
+    quote:
+      "My goal is to help you fall in love with Copenhagen just as I have.",
     profileImage: "https://randomuser.me/api/portraits/women/43.jpg",
     languages: ["Tagalog"],
     experienceYears: 12,
-    certifications: ["Professional Tour Guide Association", "Licensed City Guide", "Heritage Interpretation Certificate"],
+    certifications: [
+      "Professional Tour Guide Association",
+      "Licensed City Guide",
+      "Heritage Interpretation Certificate",
+    ],
     specialties: ["Local Cuisine"],
     specialTraining: [],
   },
@@ -74,14 +88,19 @@ export const copenhagendenmarknorthernEuropeGuides: TourGuide[] = [
     contactEmail: "scarlett.allen@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Scarlett is a passionate tour guide with extensive knowledge of Copenhagen and Denmark. Specializing in Architecture, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Scarlett is a passionate tour guide with extensive knowledge of Copenhagen and Denmark. Specializing in Architecture, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 73,
-    quote: "The best way to discover Copenhagen is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Copenhagen is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/28.jpg",
     languages: ["Thai", "Swedish"],
     experienceYears: 5,
-    certifications: ["Wilderness First Responder", "Certified International Tour Manager"],
+    certifications: [
+      "Wilderness First Responder",
+      "Certified International Tour Manager",
+    ],
     specialties: ["Architecture"],
     specialTraining: ["Local Flora & Fauna"],
   },
@@ -102,10 +121,12 @@ export const copenhagendenmarknorthernEuropeGuides: TourGuide[] = [
     contactEmail: "aiden.baker@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Aiden is a passionate tour guide with extensive knowledge of Copenhagen and Denmark. Specializing in LGBTQ+ History, Local Cuisine, Parks & Gardens, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Aiden is a passionate tour guide with extensive knowledge of Copenhagen and Denmark. Specializing in LGBTQ+ History, Local Cuisine, Parks & Gardens, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 68,
-    quote: "Every corner of Copenhagen tells a story, let me share them with you.",
+    quote:
+      "Every corner of Copenhagen tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/42.jpg",
     languages: ["Spanish", "German"],
     experienceYears: 12,
@@ -139,7 +160,7 @@ export const copenhagendenmarknorthernEuropeGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -148,7 +169,7 @@ export const copenhagendenmarknorthernEuropeGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -157,15 +178,17 @@ export const copenhagendenmarknorthernEuropeGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Sebastian is a passionate tour guide with extensive knowledge of Copenhagen and Denmark. Specializing in Family Activities, Wildlife, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sebastian is a passionate tour guide with extensive knowledge of Copenhagen and Denmark. Specializing in Family Activities, Wildlife, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 42,
-    quote: "The best way to discover Copenhagen is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Copenhagen is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/55.jpg",
     languages: ["Arabic", "English"],
     experienceYears: 13,
@@ -199,7 +222,7 @@ export const copenhagendenmarknorthernEuropeGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -212,19 +235,24 @@ export const copenhagendenmarknorthernEuropeGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "20:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Zoe is a passionate tour guide with extensive knowledge of Copenhagen and Denmark. Specializing in Urban Legends, LGBTQ+ History, Hidden Gems, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Zoe is a passionate tour guide with extensive knowledge of Copenhagen and Denmark. Specializing in Urban Legends, LGBTQ+ History, Hidden Gems, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 18,
-    quote: "Every corner of Copenhagen tells a story, let me share them with you.",
+    quote:
+      "Every corner of Copenhagen tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/74.jpg",
     languages: ["Danish"],
     experienceYears: 9,
-    certifications: ["Local History Certification", "Food Safety Certification"],
+    certifications: [
+      "Local History Certification",
+      "Food Safety Certification",
+    ],
     specialties: ["Urban Legends", "LGBTQ+ History", "Hidden Gems"],
     specialTraining: [],
   },
@@ -238,7 +266,13 @@ export const copenhagendenmarknorthernEuropeGuides: TourGuide[] = [
     isPopular: false,
     bio: "Liam is a passionate tour guide with extensive knowledge of Copenhagen and Denmark. Specializing in Photography Spots, Local Craftsmanship, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Alaska", "Mediterranean"],
-    tourTypes: ["Religious Tour", "Ghost Tour", "Cultural Tour", "Helicopter Tour", "Walking Tour"],
+    tourTypes: [
+      "Religious Tour",
+      "Ghost Tour",
+      "Cultural Tour",
+      "Helicopter Tour",
+      "Walking Tour",
+    ],
     maxGroupSize: 15,
     licenseNumber: "LIC-3631-COP",
     phoneNumber: "+1-715-188-4741",
@@ -250,7 +284,7 @@ export const copenhagendenmarknorthernEuropeGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -263,12 +297,13 @@ export const copenhagendenmarknorthernEuropeGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "21:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Liam is a passionate tour guide with extensive knowledge of Copenhagen and Denmark. Specializing in Photography Spots, Local Craftsmanship, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Liam is a passionate tour guide with extensive knowledge of Copenhagen and Denmark. Specializing in Photography Spots, Local Craftsmanship, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 53,
     quote: "In Copenhagen, we don't just see the sights - we make memories.",
@@ -278,5 +313,5 @@ export const copenhagendenmarknorthernEuropeGuides: TourGuide[] = [
     certifications: ["Cultural Heritage Specialist"],
     specialties: ["Photography Spots", "Local Craftsmanship"],
     specialTraining: ["Local Transit Systems", "Local Flora & Fauna"],
-  }
+  },
 ];

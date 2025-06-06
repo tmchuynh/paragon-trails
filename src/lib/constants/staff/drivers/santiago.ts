@@ -14,12 +14,12 @@ export const santiagochilesouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "06:00"
+            to: "06:00",
           },
           {
             from: "16:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -27,8 +27,8 @@ export const santiagochilesouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -36,12 +36,12 @@ export const santiagochilesouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "10:00"
+            to: "10:00",
           },
           {
             from: "11:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -49,20 +49,24 @@ export const santiagochilesouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "06:00"
+            to: "06:00",
           },
           {
             from: "16:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.6,
     phone: "+317 995-428-4958",
     email: "harry.anderson@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/59.jpg",
-    specialties: ["Corporate Chauffeur", "Security Detail", "Event Transportation"],
+    specialties: [
+      "Corporate Chauffeur",
+      "Security Detail",
+      "Event Transportation",
+    ],
     vehicleTypesCertified: ["Electric Vehicle", "Van", "Motorcoach"],
   },
   {
@@ -78,8 +82,8 @@ export const santiagochilesouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -87,12 +91,12 @@ export const santiagochilesouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "04:00"
+            to: "04:00",
           },
           {
             from: "14:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -100,8 +104,8 @@ export const santiagochilesouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -109,14 +113,14 @@ export const santiagochilesouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "19:00"
+            to: "19:00",
           },
           {
             from: "16:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.7,
     phone: "+536 327-360-3028",
@@ -138,12 +142,12 @@ export const santiagochilesouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "19:00"
+            to: "19:00",
           },
           {
             from: "10:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
       },
       {
@@ -151,8 +155,8 @@ export const santiagochilesouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -160,12 +164,12 @@ export const santiagochilesouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "08:00"
+            to: "08:00",
           },
           {
             from: "04:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
       },
       {
@@ -173,8 +177,8 @@ export const santiagochilesouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -182,14 +186,14 @@ export const santiagochilesouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "17:00"
+            to: "17:00",
           },
           {
             from: "06:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4,
     phone: "+788 662-994-5308",
@@ -211,8 +215,8 @@ export const santiagochilesouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -220,12 +224,12 @@ export const santiagochilesouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "12:00"
+            to: "12:00",
           },
           {
             from: "21:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
       },
       {
@@ -233,8 +237,8 @@ export const santiagochilesouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -242,12 +246,12 @@ export const santiagochilesouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "07:00"
+            to: "07:00",
           },
           {
             from: "00:00",
-            to: "02:00"
-          }
+            to: "02:00",
+          },
         ],
       },
       {
@@ -255,12 +259,12 @@ export const santiagochilesouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "04:00"
+            to: "04:00",
           },
           {
             from: "20:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
       },
       {
@@ -268,10 +272,10 @@ export const santiagochilesouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.2,
     phone: "+513 449-291-6909",
@@ -293,12 +297,12 @@ export const santiagochilesouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "09:00"
+            to: "09:00",
           },
           {
             from: "06:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -306,8 +310,8 @@ export const santiagochilesouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -315,8 +319,8 @@ export const santiagochilesouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -324,8 +328,8 @@ export const santiagochilesouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
       },
       {
@@ -333,17 +337,28 @@ export const santiagochilesouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4,
     phone: "+229 112-188-7780",
     email: "amelia.anderson@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/82.jpg",
-    specialties: ["Tour Guide Driver", "Long-Distance Driving", "Airport Transfers", "Security Detail"],
-    vehicleTypesCertified: ["Limousine", "Sports Car", "Electric Vehicle", "Sedan", "Motorcoach"],
+    specialties: [
+      "Tour Guide Driver",
+      "Long-Distance Driving",
+      "Airport Transfers",
+      "Security Detail",
+    ],
+    vehicleTypesCertified: [
+      "Limousine",
+      "Sports Car",
+      "Electric Vehicle",
+      "Sedan",
+      "Motorcoach",
+    ],
   },
   {
     id: "driver-santiago-6",
@@ -358,8 +373,8 @@ export const santiagochilesouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -367,12 +382,12 @@ export const santiagochilesouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "18:00"
+            to: "18:00",
           },
           {
             from: "10:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
       },
       {
@@ -380,10 +395,10 @@ export const santiagochilesouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.8,
     phone: "+777 374-648-6903",
@@ -391,5 +406,5 @@ export const santiagochilesouthAmericaDrivers: Driver[] = [
     photoUrl: "https://randomuser.me/api/portraits/men/57.jpg",
     specialties: ["Security Detail"],
     vehicleTypesCertified: ["SUV", "Luxury SUV", "Electric Vehicle"],
-  }
+  },
 ];

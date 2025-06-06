@@ -14,8 +14,8 @@ export const baliindonesiaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -23,8 +23,8 @@ export const baliindonesiaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -32,16 +32,20 @@ export const baliindonesiaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.6,
     phone: "+343 902-101-8491",
     email: "aiden.morales@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/5.jpg",
-    specialties: ["Event Transportation", "Airport Transfers", "Luxury Car Specialist"],
+    specialties: [
+      "Event Transportation",
+      "Airport Transfers",
+      "Luxury Car Specialist",
+    ],
     vehicleTypesCertified: ["Van"],
   },
   {
@@ -57,12 +61,12 @@ export const baliindonesiaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "20:00"
+            to: "20:00",
           },
           {
             from: "09:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
       },
       {
@@ -70,8 +74,8 @@ export const baliindonesiaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -79,14 +83,14 @@ export const baliindonesiaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "18:00"
+            to: "18:00",
           },
           {
             from: "15:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 5,
     phone: "+229 859-713-4146",
@@ -108,12 +112,12 @@ export const baliindonesiaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "07:00"
+            to: "07:00",
           },
           {
             from: "02:00",
-            to: "04:00"
-          }
+            to: "04:00",
+          },
         ],
       },
       {
@@ -121,8 +125,8 @@ export const baliindonesiaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -130,12 +134,12 @@ export const baliindonesiaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "20:00"
+            to: "20:00",
           },
           {
             from: "16:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -143,12 +147,12 @@ export const baliindonesiaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "03:00"
+            to: "03:00",
           },
           {
             from: "16:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -156,8 +160,8 @@ export const baliindonesiaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -165,14 +169,14 @@ export const baliindonesiaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "06:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.3,
     phone: "+271 688-505-8640",
@@ -194,8 +198,8 @@ export const baliindonesiaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
       },
       {
@@ -203,8 +207,8 @@ export const baliindonesiaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
       },
       {
@@ -212,8 +216,8 @@ export const baliindonesiaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
       },
       {
@@ -221,10 +225,10 @@ export const baliindonesiaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.4,
     phone: "+413 853-493-3221",
@@ -246,8 +250,8 @@ export const baliindonesiaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -255,12 +259,12 @@ export const baliindonesiaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "17:00"
+            to: "17:00",
           },
           {
             from: "09:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -268,8 +272,8 @@ export const baliindonesiaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -277,14 +281,14 @@ export const baliindonesiaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "17:00"
+            to: "17:00",
           },
           {
             from: "13:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.6,
     phone: "+306 322-232-9175",
@@ -306,12 +310,12 @@ export const baliindonesiaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "11:00"
+            to: "11:00",
           },
           {
             from: "03:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -319,12 +323,12 @@ export const baliindonesiaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "09:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -332,8 +336,8 @@ export const baliindonesiaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -341,10 +345,10 @@ export const baliindonesiaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4,
     phone: "+540 830-487-6419",
@@ -366,8 +370,8 @@ export const baliindonesiaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
       },
       {
@@ -375,12 +379,12 @@ export const baliindonesiaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "08:00"
+            to: "08:00",
           },
           {
             from: "09:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -388,12 +392,12 @@ export const baliindonesiaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "05:00"
+            to: "05:00",
           },
           {
             from: "07:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
       },
       {
@@ -401,8 +405,8 @@ export const baliindonesiaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -410,12 +414,12 @@ export const baliindonesiaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "15:00"
+            to: "15:00",
           },
           {
             from: "17:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -423,10 +427,10 @@ export const baliindonesiaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.9,
     phone: "+818 453-299-8791",
@@ -448,8 +452,8 @@ export const baliindonesiaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -457,12 +461,12 @@ export const baliindonesiaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "12:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
       },
       {
@@ -470,8 +474,8 @@ export const baliindonesiaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
       },
       {
@@ -479,8 +483,8 @@ export const baliindonesiaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
       },
       {
@@ -488,10 +492,10 @@ export const baliindonesiaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.7,
     phone: "+736 590-824-9758",
@@ -513,8 +517,8 @@ export const baliindonesiaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -522,12 +526,12 @@ export const baliindonesiaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "14:00"
+            to: "14:00",
           },
           {
             from: "14:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -535,12 +539,12 @@ export const baliindonesiaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "08:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -548,10 +552,10 @@ export const baliindonesiaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4,
     phone: "+257 589-651-6612",
@@ -559,5 +563,5 @@ export const baliindonesiaasiaPacificDrivers: Driver[] = [
     photoUrl: "https://randomuser.me/api/portraits/women/85.jpg",
     specialties: ["Corporate Chauffeur"],
     vehicleTypesCertified: ["SUV", "Sports Car", "Motorcoach"],
-  }
+  },
 ];

@@ -77,5 +77,5 @@ export const nassaubahamascaribbeanCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "tyler.hawkins@paragontrails.com",
     contactPhone: "+1-889-406-1866",
-  }
+  },
 ];

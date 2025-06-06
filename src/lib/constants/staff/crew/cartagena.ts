@@ -6,7 +6,11 @@ export const cartagenacolombiacaribbeanCrew: CrewMember[] = [
     name: "Abigail Dunn",
     role: "Navigator",
     experienceYears: 14,
-    certifications: ["Security Training", "Dive Master", "Marine Radio Operator"],
+    certifications: [
+      "Security Training",
+      "Dive Master",
+      "Marine Radio Operator",
+    ],
     languagesSpoken: ["Greek", "Turkish", "Hungarian"],
     isAvailable: true,
     contactEmail: "abigail.dunn@paragontrails.com",
@@ -44,5 +48,5 @@ export const cartagenacolombiacaribbeanCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "john.khan@paragontrails.com",
     contactPhone: "+1-228-942-5551",
-  }
+  },
 ];

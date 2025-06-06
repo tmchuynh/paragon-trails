@@ -14,12 +14,12 @@ export const limaperusouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "21:00"
+            to: "21:00",
           },
           {
             from: "01:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -27,8 +27,8 @@ export const limaperusouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
       },
       {
@@ -36,14 +36,14 @@ export const limaperusouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "11:00"
+            to: "11:00",
           },
           {
             from: "04:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.7,
     phone: "+236 170-984-5878",
@@ -65,12 +65,12 @@ export const limaperusouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "13:00"
+            to: "13:00",
           },
           {
             from: "01:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -78,12 +78,12 @@ export const limaperusouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "10:00"
+            to: "10:00",
           },
           {
             from: "10:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
       },
       {
@@ -91,8 +91,8 @@ export const limaperusouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -100,10 +100,10 @@ export const limaperusouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.9,
     phone: "+369 247-462-9439",
@@ -125,8 +125,8 @@ export const limaperusouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -134,12 +134,12 @@ export const limaperusouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "15:00"
+            to: "15:00",
           },
           {
             from: "02:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -147,12 +147,12 @@ export const limaperusouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "07:00"
+            to: "07:00",
           },
           {
             from: "03:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -160,12 +160,12 @@ export const limaperusouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "23:00"
+            to: "23:00",
           },
           {
             from: "18:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -173,20 +173,24 @@ export const limaperusouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "21:00"
+            to: "21:00",
           },
           {
             from: "10:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.7,
     phone: "+349 605-504-3834",
     email: "blake.lopez@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/16.jpg",
-    specialties: ["Tour Guide Driver", "Event Transportation", "Security Detail"],
+    specialties: [
+      "Tour Guide Driver",
+      "Event Transportation",
+      "Security Detail",
+    ],
     vehicleTypesCertified: ["Electric Vehicle", "Sports Car"],
   },
   {
@@ -202,12 +206,12 @@ export const limaperusouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "19:00"
+            to: "19:00",
           },
           {
             from: "16:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -215,12 +219,12 @@ export const limaperusouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "04:00"
+            to: "04:00",
           },
           {
             from: "15:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -228,14 +232,14 @@ export const limaperusouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "19:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.3,
     phone: "+488 609-788-5138",
@@ -257,12 +261,12 @@ export const limaperusouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "18:00"
+            to: "18:00",
           },
           {
             from: "04:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -270,12 +274,12 @@ export const limaperusouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "07:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -283,10 +287,10 @@ export const limaperusouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.4,
     phone: "+145 767-678-7158",
@@ -308,12 +312,12 @@ export const limaperusouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "04:00"
+            to: "04:00",
           },
           {
             from: "12:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
       },
       {
@@ -321,12 +325,12 @@ export const limaperusouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "18:00"
+            to: "18:00",
           },
           {
             from: "00:00",
-            to: "02:00"
-          }
+            to: "02:00",
+          },
         ],
       },
       {
@@ -334,10 +338,10 @@ export const limaperusouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.2,
     phone: "+145 970-671-1602",
@@ -359,12 +363,12 @@ export const limaperusouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "20:00"
+            to: "20:00",
           },
           {
             from: "07:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -372,12 +376,12 @@ export const limaperusouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "22:00"
+            to: "22:00",
           },
           {
             from: "20:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
       },
       {
@@ -385,12 +389,12 @@ export const limaperusouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "04:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -398,16 +402,21 @@ export const limaperusouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.5,
     phone: "+655 925-564-4209",
     email: "amy.edwards@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/24.jpg",
-    specialties: ["Event Transportation", "VIP Transport", "Night Shift", "Tour Guide Driver"],
+    specialties: [
+      "Event Transportation",
+      "VIP Transport",
+      "Night Shift",
+      "Tour Guide Driver",
+    ],
     vehicleTypesCertified: ["SUV", "Motorcoach"],
   },
   {
@@ -423,8 +432,8 @@ export const limaperusouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -432,12 +441,12 @@ export const limaperusouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "05:00"
+            to: "05:00",
           },
           {
             from: "13:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
       },
       {
@@ -445,10 +454,10 @@ export const limaperusouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.5,
     phone: "+645 467-275-1437",
@@ -470,12 +479,12 @@ export const limaperusouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "15:00"
+            to: "15:00",
           },
           {
             from: "18:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -483,12 +492,12 @@ export const limaperusouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "05:00"
+            to: "05:00",
           },
           {
             from: "12:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
       },
       {
@@ -496,20 +505,24 @@ export const limaperusouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "18:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.7,
     phone: "+27 507-968-4979",
     email: "benjamin.wright@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/24.jpg",
-    specialties: ["Luxury Car Specialist", "Airport Transfers", "VIP Transport"],
+    specialties: [
+      "Luxury Car Specialist",
+      "Airport Transfers",
+      "VIP Transport",
+    ],
     vehicleTypesCertified: ["Sedan", "Convertible"],
-  }
+  },
 ];

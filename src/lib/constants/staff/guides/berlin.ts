@@ -18,14 +18,19 @@ export const berlingermanynorthernEuropeGuides: TourGuide[] = [
     contactEmail: "ava.rivera@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Ava is a passionate tour guide with extensive knowledge of Berlin and Germany. Specializing in Street Food, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Ava is a passionate tour guide with extensive knowledge of Berlin and Germany. Specializing in Street Food, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 5,
     reviewsCount: 88,
     quote: "My goal is to help you fall in love with Berlin just as I have.",
     profileImage: "https://randomuser.me/api/portraits/men/77.jpg",
     languages: ["Italian"],
     experienceYears: 9,
-    certifications: ["Sustainable Tourism Certificate", "Local History Certification", "Licensed City Guide"],
+    certifications: [
+      "Sustainable Tourism Certificate",
+      "Local History Certification",
+      "Licensed City Guide",
+    ],
     specialties: ["Street Food"],
     specialTraining: ["Religious Studies"],
   },
@@ -39,21 +44,31 @@ export const berlingermanynorthernEuropeGuides: TourGuide[] = [
     isPopular: false,
     bio: "Daniel is a passionate tour guide with extensive knowledge of Berlin and Germany. Specializing in Nightlife, Family Activities, Historical Landmarks, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Alaska"],
-    tourTypes: ["Historical Tour", "Helicopter Tour", "Relocation Tour", "Family-Friendly Tour"],
+    tourTypes: [
+      "Historical Tour",
+      "Helicopter Tour",
+      "Relocation Tour",
+      "Family-Friendly Tour",
+    ],
     maxGroupSize: 13,
     licenseNumber: "LIC-7233-BER",
     phoneNumber: "+1-311-312-1336",
     contactEmail: "daniel.garcia@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Daniel is a passionate tour guide with extensive knowledge of Berlin and Germany. Specializing in Nightlife, Family Activities, Historical Landmarks, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Daniel is a passionate tour guide with extensive knowledge of Berlin and Germany. Specializing in Nightlife, Family Activities, Historical Landmarks, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
     reviewsCount: 20,
     quote: "In Berlin, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/men/77.jpg",
     languages: ["Italian"],
     experienceYears: 11,
-    certifications: ["Cultural Heritage Specialist", "Certified International Tour Manager", "Language Proficiency Certification"],
+    certifications: [
+      "Cultural Heritage Specialist",
+      "Certified International Tour Manager",
+      "Language Proficiency Certification",
+    ],
     specialties: ["Nightlife", "Family Activities", "Historical Landmarks"],
     specialTraining: ["Archaeological Conservation"],
   },
@@ -67,22 +82,38 @@ export const berlingermanynorthernEuropeGuides: TourGuide[] = [
     isPopular: false,
     bio: "Abigail is a passionate tour guide with extensive knowledge of Berlin and Germany. Specializing in Indigenous Culture, Public Transportation Navigation, Film Locations, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Africa", "East Coast Canada"],
-    tourTypes: ["Accessible Tour", "Festival Tour", "Private Tour", "Farm Visit", "Shopping Tour"],
+    tourTypes: [
+      "Accessible Tour",
+      "Festival Tour",
+      "Private Tour",
+      "Farm Visit",
+      "Shopping Tour",
+    ],
     maxGroupSize: 11,
     licenseNumber: "LIC-3336-BER",
     phoneNumber: "+1-142-670-4253",
     contactEmail: "abigail.gonzalez@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Abigail is a passionate tour guide with extensive knowledge of Berlin and Germany. Specializing in Indigenous Culture, Public Transportation Navigation, Film Locations, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Abigail is a passionate tour guide with extensive knowledge of Berlin and Germany. Specializing in Indigenous Culture, Public Transportation Navigation, Film Locations, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 87,
-    quote: "The best way to discover Berlin is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Berlin is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/23.jpg",
     languages: ["Thai"],
     experienceYears: 4,
-    certifications: ["Certified International Tour Manager", "Heritage Interpretation Certificate", "Wilderness First Responder"],
-    specialties: ["Indigenous Culture", "Public Transportation Navigation", "Film Locations"],
+    certifications: [
+      "Certified International Tour Manager",
+      "Heritage Interpretation Certificate",
+      "Wilderness First Responder",
+    ],
+    specialties: [
+      "Indigenous Culture",
+      "Public Transportation Navigation",
+      "Film Locations",
+    ],
     specialTraining: [],
   },
   {
@@ -95,7 +126,12 @@ export const berlingermanynorthernEuropeGuides: TourGuide[] = [
     isPopular: false,
     bio: "Sebastian is a passionate tour guide with extensive knowledge of Berlin and Germany. Specializing in Wildlife, Film Locations, Music Scene, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Asia Pacific"],
-    tourTypes: ["Cultural Tour", "Craft Workshop", "Self-Guided Tour", "Market Tour"],
+    tourTypes: [
+      "Cultural Tour",
+      "Craft Workshop",
+      "Self-Guided Tour",
+      "Market Tour",
+    ],
     maxGroupSize: 7,
     licenseNumber: "LIC-8211-BER",
     phoneNumber: "+1-408-852-8235",
@@ -107,7 +143,7 @@ export const berlingermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -116,7 +152,7 @@ export const berlingermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -125,7 +161,7 @@ export const berlingermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -138,7 +174,7 @@ export const berlingermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -147,15 +183,17 @@ export const berlingermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Sebastian is a passionate tour guide with extensive knowledge of Berlin and Germany. Specializing in Wildlife, Film Locations, Music Scene, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sebastian is a passionate tour guide with extensive knowledge of Berlin and Germany. Specializing in Wildlife, Film Locations, Music Scene, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 42,
-    quote: "Berlin isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Berlin isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/38.jpg",
     languages: ["Vietnamese", "Finnish", "Korean"],
     experienceYears: 13,
@@ -185,7 +223,7 @@ export const berlingermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -194,7 +232,7 @@ export const berlingermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -207,20 +245,29 @@ export const berlingermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Daniel is a passionate tour guide with extensive knowledge of Berlin and Germany. Specializing in Wine Tasting, Family Activities, Architecture, Religious Sites, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Daniel is a passionate tour guide with extensive knowledge of Berlin and Germany. Specializing in Wine Tasting, Family Activities, Architecture, Religious Sites, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 15,
     quote: "Every corner of Berlin tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/39.jpg",
     languages: ["Italian"],
     experienceYears: 5,
-    certifications: ["Adventure Tourism Safety Certificate", "Heritage Interpretation Certificate"],
-    specialties: ["Wine Tasting", "Family Activities", "Architecture", "Religious Sites"],
+    certifications: [
+      "Adventure Tourism Safety Certificate",
+      "Heritage Interpretation Certificate",
+    ],
+    specialties: [
+      "Wine Tasting",
+      "Family Activities",
+      "Architecture",
+      "Religious Sites",
+    ],
     specialTraining: ["Archaeological Conservation", "Local Flora & Fauna"],
   },
   {
@@ -233,7 +280,12 @@ export const berlingermanynorthernEuropeGuides: TourGuide[] = [
     isPopular: true,
     bio: "Scarlett is a passionate tour guide with extensive knowledge of Berlin and Germany. Specializing in Family Activities, Architecture, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Northern Europe", "Middle East"],
-    tourTypes: ["Museum Tour", "Cultural Tour", "Shopping Tour", "Architecture Tour"],
+    tourTypes: [
+      "Museum Tour",
+      "Cultural Tour",
+      "Shopping Tour",
+      "Architecture Tour",
+    ],
     maxGroupSize: 10,
     licenseNumber: "LIC-1240-BER",
     phoneNumber: "+1-712-822-7184",
@@ -249,7 +301,7 @@ export const berlingermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -262,7 +314,7 @@ export const berlingermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -275,7 +327,7 @@ export const berlingermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "10:00",
-          }
+          },
         ],
       },
       {
@@ -288,20 +340,22 @@ export const berlingermanynorthernEuropeGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Scarlett is a passionate tour guide with extensive knowledge of Berlin and Germany. Specializing in Family Activities, Architecture, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Scarlett is a passionate tour guide with extensive knowledge of Berlin and Germany. Specializing in Family Activities, Architecture, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 59,
-    quote: "Berlin isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Berlin isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/43.jpg",
     languages: ["Norwegian"],
     experienceYears: 3,
     certifications: ["Regional Tourism Ambassador"],
     specialties: ["Family Activities", "Architecture"],
     specialTraining: [],
-  }
+  },
 ];

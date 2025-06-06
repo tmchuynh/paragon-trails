@@ -17,7 +17,11 @@ export const lisbonportugalmediterraneanCrew: CrewMember[] = [
     name: "George Wallace",
     role: "Chef",
     experienceYears: 17,
-    certifications: ["Security Training", "Engineering License", "Hospitality Training"],
+    certifications: [
+      "Security Training",
+      "Engineering License",
+      "Hospitality Training",
+    ],
     languagesSpoken: ["Hungarian"],
     isAvailable: false,
     contactEmail: "george.wallace@paragontrails.com",
@@ -39,10 +43,14 @@ export const lisbonportugalmediterraneanCrew: CrewMember[] = [
     name: "Priya West",
     role: "Deckhand",
     experienceYears: 20,
-    certifications: ["Environmental Awareness", "Security Training", "Dive Master"],
+    certifications: [
+      "Environmental Awareness",
+      "Security Training",
+      "Dive Master",
+    ],
     languagesSpoken: ["Portuguese", "Korean"],
     isAvailable: true,
     contactEmail: "priya.west@paragontrails.com",
     contactPhone: "+1-746-298-7967",
-  }
+  },
 ];

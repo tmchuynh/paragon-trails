@@ -39,7 +39,11 @@ export const newOrleansunitedStatescaribbeanCrew: CrewMember[] = [
     name: "Mark Davis",
     role: "Purser",
     experienceYears: 21,
-    certifications: ["Security Training", "Environmental Awareness", "Hospitality Training"],
+    certifications: [
+      "Security Training",
+      "Environmental Awareness",
+      "Hospitality Training",
+    ],
     languagesSpoken: ["Danish", "Hungarian"],
     isAvailable: false,
     contactEmail: "mark.davis@paragontrails.com",
@@ -77,5 +81,5 @@ export const newOrleansunitedStatescaribbeanCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "jesse.campbell@paragontrails.com",
     contactPhone: "+1-035-147-1157",
-  }
+  },
 ];

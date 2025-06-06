@@ -11,21 +11,33 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Olivia is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Indigenous Culture, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Mediterranean"],
-    tourTypes: ["Architecture Tour", "Wine Tour", "Accessible Tour", "Bike Tour", "Religious Tour"],
+    tourTypes: [
+      "Architecture Tour",
+      "Wine Tour",
+      "Accessible Tour",
+      "Bike Tour",
+      "Religious Tour",
+    ],
     maxGroupSize: 5,
     licenseNumber: "LIC-8993-JUN",
     phoneNumber: "+1-252-511-7697",
     contactEmail: "olivia.thomas@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Olivia is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Indigenous Culture, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Olivia is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Indigenous Culture, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 30,
-    quote: "The best way to discover Juneau is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Juneau is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/54.jpg",
     languages: ["Hebrew", "Italian"],
     experienceYears: 9,
-    certifications: ["Cultural Heritage Specialist", "Professional Tour Guide Association", "Food Safety Certification"],
+    certifications: [
+      "Cultural Heritage Specialist",
+      "Professional Tour Guide Association",
+      "Food Safety Certification",
+    ],
     specialties: ["Indigenous Culture"],
     specialTraining: [],
   },
@@ -46,14 +58,19 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
     contactEmail: "mia.scott@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Mia is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Film Locations, Religious Sites, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Mia is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Film Locations, Religious Sites, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 24,
-    quote: "The best way to discover Juneau is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Juneau is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/74.jpg",
     languages: ["Cantonese", "German", "Czech"],
     experienceYears: 12,
-    certifications: ["Urban Navigation Specialist", "Adventure Tourism Safety Certificate"],
+    certifications: [
+      "Urban Navigation Specialist",
+      "Adventure Tourism Safety Certificate",
+    ],
     specialties: ["Film Locations", "Religious Sites"],
     specialTraining: [],
   },
@@ -67,22 +84,37 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Madison is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Parks & Gardens, Music Scene, Sustainable Tourism, Local Cuisine, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Caribbean", "Alaska"],
-    tourTypes: ["Walking Tour", "Bike Tour", "Historical Tour", "Architecture Tour", "Group Tour"],
+    tourTypes: [
+      "Walking Tour",
+      "Bike Tour",
+      "Historical Tour",
+      "Architecture Tour",
+      "Group Tour",
+    ],
     maxGroupSize: 19,
     licenseNumber: "LIC-9099-JUN",
     phoneNumber: "+1-611-560-4201",
     contactEmail: "madison.wright@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Madison is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Parks & Gardens, Music Scene, Sustainable Tourism, Local Cuisine, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Madison is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Parks & Gardens, Music Scene, Sustainable Tourism, Local Cuisine, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
     reviewsCount: 93,
     quote: "In Juneau, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/men/17.jpg",
     languages: ["Italian"],
     experienceYears: 8,
-    certifications: ["Cultural Heritage Specialist", "Regional Tourism Ambassador"],
-    specialties: ["Parks & Gardens", "Music Scene", "Sustainable Tourism", "Local Cuisine"],
+    certifications: [
+      "Cultural Heritage Specialist",
+      "Regional Tourism Ambassador",
+    ],
+    specialties: [
+      "Parks & Gardens",
+      "Music Scene",
+      "Sustainable Tourism",
+      "Local Cuisine",
+    ],
     specialTraining: ["Historical Research Methods"],
   },
   {
@@ -102,14 +134,19 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
     contactEmail: "emily.jones@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Emily is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Wildlife, Museums, Indigenous Culture, Local Cuisine, Emily provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Emily is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Wildlife, Museums, Indigenous Culture, Local Cuisine, Emily provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 100,
     quote: "Every corner of Juneau tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/58.jpg",
     languages: ["Russian", "Hungarian", "Bulgarian"],
     experienceYears: 6,
-    certifications: ["CPR & First Aid", "Wilderness First Responder", "Professional Tour Guide Association"],
+    certifications: [
+      "CPR & First Aid",
+      "Wilderness First Responder",
+      "Professional Tour Guide Association",
+    ],
     specialties: ["Wildlife", "Museums", "Indigenous Culture", "Local Cuisine"],
     specialTraining: ["Urban Planning"],
   },
@@ -130,14 +167,19 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
     contactEmail: "logan.sanchez@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Logan is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Adventure Sports, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Logan is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Adventure Sports, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 26,
     quote: "My goal is to help you fall in love with Juneau just as I have.",
     profileImage: "https://randomuser.me/api/portraits/men/31.jpg",
     languages: ["Dutch", "Russian", "Mandarin"],
     experienceYears: 7,
-    certifications: ["Cultural Heritage Specialist", "Sustainable Tourism Certificate", "Professional Tour Guide Association"],
+    certifications: [
+      "Cultural Heritage Specialist",
+      "Sustainable Tourism Certificate",
+      "Professional Tour Guide Association",
+    ],
     specialties: ["Adventure Sports"],
     specialTraining: ["Conflict Resolution"],
   },
@@ -151,21 +193,32 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
     isPopular: true,
     bio: "Sebastian is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Family Activities, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Middle East"],
-    tourTypes: ["Underground Tour", "Cruise Excursion", "Bike Tour", "Festival Tour", "Eco Tour"],
+    tourTypes: [
+      "Underground Tour",
+      "Cruise Excursion",
+      "Bike Tour",
+      "Festival Tour",
+      "Eco Tour",
+    ],
     maxGroupSize: 5,
     licenseNumber: "LIC-7761-JUN",
     phoneNumber: "+1-604-915-3967",
     contactEmail: "sebastian.miller@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Sebastian is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Family Activities, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sebastian is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Family Activities, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 31,
-    quote: "The best way to discover Juneau is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Juneau is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/17.jpg",
     languages: ["Korean", "Serbian"],
     experienceYears: 8,
-    certifications: ["Local History Certification", "Cultural Heritage Specialist"],
+    certifications: [
+      "Local History Certification",
+      "Cultural Heritage Specialist",
+    ],
     specialties: ["Family Activities"],
     specialTraining: ["Conflict Resolution"],
   },
@@ -186,7 +239,8 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
     contactEmail: "aria.davis@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Aria is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Local Markets, Wine Tasting, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Aria is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Local Markets, Wine Tasting, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 76,
     quote: "In Juneau, we don't just see the sights - we make memories.",
@@ -207,7 +261,13 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Madison is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Sustainable Tourism, Local Markets, Family Activities, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Middle East"],
-    tourTypes: ["Off-Road Tour", "Walking Tour", "Eco Tour", "Audio Tour", "Wildlife Safari"],
+    tourTypes: [
+      "Off-Road Tour",
+      "Walking Tour",
+      "Eco Tour",
+      "Audio Tour",
+      "Wildlife Safari",
+    ],
     maxGroupSize: 16,
     licenseNumber: "LIC-9478-JUN",
     phoneNumber: "+1-477-543-8085",
@@ -219,7 +279,7 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -232,7 +292,7 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -245,7 +305,7 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -258,19 +318,24 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Madison is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Sustainable Tourism, Local Markets, Family Activities, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Madison is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Sustainable Tourism, Local Markets, Family Activities, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 79,
-    quote: "The best way to discover Juneau is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Juneau is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/64.jpg",
     languages: ["Danish"],
     experienceYears: 9,
-    certifications: ["Regional Tourism Ambassador", "Local History Certification"],
+    certifications: [
+      "Regional Tourism Ambassador",
+      "Local History Certification",
+    ],
     specialties: ["Sustainable Tourism", "Local Markets", "Family Activities"],
     specialTraining: ["Marine Biology", "Regional Geology"],
   },
@@ -300,7 +365,7 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -313,7 +378,7 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -326,12 +391,13 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "13:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Grace is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Street Food, Grace provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Grace is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Street Food, Grace provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 80,
     quote: "Every corner of Juneau tells a story, let me share them with you.",
@@ -364,7 +430,7 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -377,7 +443,7 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -386,7 +452,7 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -395,20 +461,22 @@ export const juneauunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "20:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Lily is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Local Markets, Music Scene, Parks & Gardens, Lily provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Lily is a passionate tour guide with extensive knowledge of Juneau and United States. Specializing in Local Markets, Music Scene, Parks & Gardens, Lily provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 29,
-    quote: "The best way to discover Juneau is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Juneau is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/68.jpg",
     languages: ["Norwegian"],
     experienceYears: 9,
     certifications: ["Licensed City Guide"],
     specialties: ["Local Markets", "Music Scene", "Parks & Gardens"],
     specialTraining: ["Local Flora & Fauna"],
-  }
+  },
 ];

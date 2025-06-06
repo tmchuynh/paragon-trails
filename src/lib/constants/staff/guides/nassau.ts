@@ -18,14 +18,18 @@ export const nassaubahamascaribbeanGuides: TourGuide[] = [
     contactEmail: "aiden.lee@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Aiden is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Wine Tasting, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Aiden is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Wine Tasting, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 22,
     quote: "In Nassau, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/women/68.jpg",
     languages: ["Portuguese"],
     experienceYears: 10,
-    certifications: ["Professional Tour Guide Association", "Local History Certification"],
+    certifications: [
+      "Professional Tour Guide Association",
+      "Local History Certification",
+    ],
     specialties: ["Wine Tasting"],
     specialTraining: [],
   },
@@ -46,14 +50,20 @@ export const nassaubahamascaribbeanGuides: TourGuide[] = [
     contactEmail: "joseph.wilson@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Joseph is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Film Locations, Family Activities, Wildlife, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Joseph is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Film Locations, Family Activities, Wildlife, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 95,
-    quote: "Nassau isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Nassau isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/74.jpg",
     languages: ["Portuguese"],
     experienceYears: 7,
-    certifications: ["Professional Tour Guide Association", "Licensed City Guide", "CPR & First Aid"],
+    certifications: [
+      "Professional Tour Guide Association",
+      "Licensed City Guide",
+      "CPR & First Aid",
+    ],
     specialties: ["Film Locations", "Family Activities", "Wildlife"],
     specialTraining: ["Mountain Survival"],
   },
@@ -74,10 +84,12 @@ export const nassaubahamascaribbeanGuides: TourGuide[] = [
     contactEmail: "penelope.wright@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Penelope is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Local Markets, Urban Legends, Wine Tasting, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Penelope is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Local Markets, Urban Legends, Wine Tasting, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 86,
-    quote: "The best way to discover Nassau is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Nassau is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/2.jpg",
     languages: ["Croatian", "Serbian"],
     experienceYears: 3,
@@ -102,10 +114,12 @@ export const nassaubahamascaribbeanGuides: TourGuide[] = [
     contactEmail: "madison.ramirez@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Madison is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Photography Spots, Street Food, Wildlife, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Madison is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Photography Spots, Street Food, Wildlife, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 88,
-    quote: "The best way to discover Nassau is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Nassau is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/42.jpg",
     languages: ["Portuguese", "French", "Arabic"],
     experienceYears: 14,
@@ -123,14 +137,20 @@ export const nassaubahamascaribbeanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Chloe is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Local Craftsmanship, Public Transportation Navigation, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Middle East"],
-    tourTypes: ["LGBTQ+ Friendly Tour", "Self-Guided Tour", "Helicopter Tour", "Romantic Tour"],
+    tourTypes: [
+      "LGBTQ+ Friendly Tour",
+      "Self-Guided Tour",
+      "Helicopter Tour",
+      "Romantic Tour",
+    ],
     maxGroupSize: 15,
     licenseNumber: "LIC-1556-NAS",
     phoneNumber: "+1-653-551-7263",
     contactEmail: "chloe.jackson@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Chloe is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Local Craftsmanship, Public Transportation Navigation, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Chloe is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Local Craftsmanship, Public Transportation Navigation, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
     reviewsCount: 13,
     quote: "Every corner of Nassau tells a story, let me share them with you.",
@@ -167,7 +187,7 @@ export const nassaubahamascaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -176,12 +196,13 @@ export const nassaubahamascaribbeanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Riley is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Photography Spots, Wine Tasting, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Riley is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Photography Spots, Wine Tasting, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 50,
     quote: "My goal is to help you fall in love with Nassau just as I have.",
@@ -202,7 +223,12 @@ export const nassaubahamascaribbeanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Liam is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Art Galleries, Nightlife, Film Locations, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Mediterranean", "Northern Europe"],
-    tourTypes: ["Relocation Tour", "Romantic Tour", "Cruise Excursion", "Craft Workshop"],
+    tourTypes: [
+      "Relocation Tour",
+      "Romantic Tour",
+      "Cruise Excursion",
+      "Craft Workshop",
+    ],
     maxGroupSize: 18,
     licenseNumber: "LIC-9689-NAS",
     phoneNumber: "+1-818-230-2586",
@@ -218,7 +244,7 @@ export const nassaubahamascaribbeanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -231,7 +257,7 @@ export const nassaubahamascaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -240,7 +266,7 @@ export const nassaubahamascaribbeanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -249,12 +275,13 @@ export const nassaubahamascaribbeanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "13:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Liam is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Art Galleries, Nightlife, Film Locations, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Liam is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Art Galleries, Nightlife, Film Locations, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
     reviewsCount: 60,
     quote: "Every corner of Nassau tells a story, let me share them with you.",
@@ -287,7 +314,7 @@ export const nassaubahamascaribbeanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -300,20 +327,24 @@ export const nassaubahamascaribbeanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Evelyn is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Art Galleries, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Evelyn is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Art Galleries, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 62,
     quote: "Every corner of Nassau tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/79.jpg",
     languages: ["Mandarin", "Cantonese"],
     experienceYears: 3,
-    certifications: ["Urban Navigation Specialist", "Regional Tourism Ambassador"],
+    certifications: [
+      "Urban Navigation Specialist",
+      "Regional Tourism Ambassador",
+    ],
     specialties: ["Art Galleries"],
     specialTraining: ["Local Flora & Fauna", "Photography"],
-  }
+  },
 ];

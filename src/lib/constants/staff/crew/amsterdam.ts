@@ -88,5 +88,5 @@ export const amsterdamnetherlandsnorthernEuropeCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "noah.keller@paragontrails.com",
     contactPhone: "+1-122-160-1272",
-  }
+  },
 ];

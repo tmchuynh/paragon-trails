@@ -14,12 +14,12 @@ export const sydneyaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "16:00"
+            to: "16:00",
           },
           {
             from: "03:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -27,12 +27,12 @@ export const sydneyaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "05:00"
+            to: "05:00",
           },
           {
             from: "19:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -40,12 +40,12 @@ export const sydneyaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "11:00"
+            to: "11:00",
           },
           {
             from: "06:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
       },
       {
@@ -53,14 +53,14 @@ export const sydneyaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "19:00"
+            to: "19:00",
           },
           {
             from: "16:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4,
     phone: "+485 732-726-7268",
@@ -82,12 +82,12 @@ export const sydneyaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "18:00"
+            to: "18:00",
           },
           {
             from: "07:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -95,8 +95,8 @@ export const sydneyaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
       },
       {
@@ -104,12 +104,12 @@ export const sydneyaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "19:00"
+            to: "19:00",
           },
           {
             from: "07:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
       },
       {
@@ -117,14 +117,14 @@ export const sydneyaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "10:00"
+            to: "10:00",
           },
           {
             from: "02:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.2,
     phone: "+140 571-103-1259",
@@ -146,12 +146,12 @@ export const sydneyaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "19:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -159,8 +159,8 @@ export const sydneyaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -168,8 +168,8 @@ export const sydneyaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -177,16 +177,21 @@ export const sydneyaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.7,
     phone: "+113 631-617-7996",
     email: "nancy.bennett@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/21.jpg",
-    specialties: ["Night Shift", "Airport Transfers", "VIP Transport", "Corporate Chauffeur"],
+    specialties: [
+      "Night Shift",
+      "Airport Transfers",
+      "VIP Transport",
+      "Corporate Chauffeur",
+    ],
     vehicleTypesCertified: ["Motorcoach"],
   },
   {
@@ -202,12 +207,12 @@ export const sydneyaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "14:00"
+            to: "14:00",
           },
           {
             from: "15:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -215,12 +220,12 @@ export const sydneyaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "05:00"
+            to: "05:00",
           },
           {
             from: "01:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -228,8 +233,8 @@ export const sydneyaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
       },
       {
@@ -237,8 +242,8 @@ export const sydneyaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -246,8 +251,8 @@ export const sydneyaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -255,17 +260,22 @@ export const sydneyaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.9,
     phone: "+438 740-819-3195",
     email: "isabella.chen@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/47.jpg",
     specialties: ["Night Shift", "Luxury Car Specialist", "Tour Guide Driver"],
-    vehicleTypesCertified: ["Electric Vehicle", "Van", "Motorcoach", "Luxury SUV"],
+    vehicleTypesCertified: [
+      "Electric Vehicle",
+      "Van",
+      "Motorcoach",
+      "Luxury SUV",
+    ],
   },
   {
     id: "driver-sydney-5",
@@ -280,12 +290,12 @@ export const sydneyaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "08:00"
+            to: "08:00",
           },
           {
             from: "11:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
       },
       {
@@ -293,12 +303,12 @@ export const sydneyaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "23:00"
+            to: "23:00",
           },
           {
             from: "03:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
       },
       {
@@ -306,12 +316,12 @@ export const sydneyaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "16:00"
+            to: "16:00",
           },
           {
             from: "09:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
       },
       {
@@ -319,10 +329,10 @@ export const sydneyaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "03:00"
-          }
+            to: "03:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.6,
     phone: "+868 510-491-3999",
@@ -344,8 +354,8 @@ export const sydneyaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
       },
       {
@@ -353,8 +363,8 @@ export const sydneyaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -362,8 +372,8 @@ export const sydneyaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
       },
       {
@@ -371,10 +381,10 @@ export const sydneyaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.8,
     phone: "+692 631-797-9826",
@@ -396,12 +406,12 @@ export const sydneyaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "17:00"
+            to: "17:00",
           },
           {
             from: "04:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -409,12 +419,12 @@ export const sydneyaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "15:00"
+            to: "15:00",
           },
           {
             from: "09:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -422,12 +432,12 @@ export const sydneyaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "09:00"
+            to: "09:00",
           },
           {
             from: "07:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
       },
       {
@@ -435,14 +445,14 @@ export const sydneyaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "03:00"
+            to: "03:00",
           },
           {
             from: "04:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.1,
     phone: "+884 497-348-5012",
@@ -464,12 +474,12 @@ export const sydneyaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "17:00"
+            to: "17:00",
           },
           {
             from: "20:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
       },
       {
@@ -477,12 +487,12 @@ export const sydneyaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "23:00"
+            to: "23:00",
           },
           {
             from: "06:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
       },
       {
@@ -490,14 +500,14 @@ export const sydneyaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "22:00"
+            to: "22:00",
           },
           {
             from: "17:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.7,
     phone: "+859 186-248-5088",
@@ -519,8 +529,8 @@ export const sydneyaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -528,8 +538,8 @@ export const sydneyaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -537,14 +547,14 @@ export const sydneyaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "22:00"
+            to: "22:00",
           },
           {
             from: "20:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.6,
     phone: "+754 820-910-4125",
@@ -552,5 +562,5 @@ export const sydneyaustraliaasiaPacificDrivers: Driver[] = [
     photoUrl: "https://randomuser.me/api/portraits/women/42.jpg",
     specialties: ["Luxury Car Specialist", "Corporate Chauffeur"],
     vehicleTypesCertified: ["Van", "Electric Vehicle"],
-  }
+  },
 ];

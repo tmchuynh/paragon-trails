@@ -14,12 +14,12 @@ export const tampaunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "08:00"
+            to: "08:00",
           },
           {
             from: "13:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
       },
       {
@@ -27,12 +27,12 @@ export const tampaunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "08:00"
+            to: "08:00",
           },
           {
             from: "11:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -40,8 +40,8 @@ export const tampaunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -49,10 +49,10 @@ export const tampaunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.3,
     phone: "+478 106-861-4379",
@@ -74,12 +74,12 @@ export const tampaunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "18:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -87,8 +87,8 @@ export const tampaunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -96,8 +96,8 @@ export const tampaunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
       },
       {
@@ -105,8 +105,8 @@ export const tampaunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -114,14 +114,14 @@ export const tampaunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "20:00"
+            to: "20:00",
           },
           {
             from: "16:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.4,
     phone: "+282 591-490-9342",
@@ -143,8 +143,8 @@ export const tampaunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "04:00"
-          }
+            to: "04:00",
+          },
         ],
       },
       {
@@ -152,8 +152,8 @@ export const tampaunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "02:00"
-          }
+            to: "02:00",
+          },
         ],
       },
       {
@@ -161,8 +161,8 @@ export const tampaunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -170,8 +170,8 @@ export const tampaunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -179,16 +179,20 @@ export const tampaunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.6,
     phone: "+330 197-211-4254",
     email: "layla.keller@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/29.jpg",
-    specialties: ["Security Detail", "Event Transportation", "Airport Transfers"],
+    specialties: [
+      "Security Detail",
+      "Event Transportation",
+      "Airport Transfers",
+    ],
     vehicleTypesCertified: ["Convertible", "Sedan", "Luxury SUV", "Limousine"],
   },
   {
@@ -204,12 +208,12 @@ export const tampaunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "02:00"
+            to: "02:00",
           },
           {
             from: "06:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -217,8 +221,8 @@ export const tampaunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -226,8 +230,8 @@ export const tampaunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -235,10 +239,10 @@ export const tampaunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.8,
     phone: "+521 393-701-1877",
@@ -260,8 +264,8 @@ export const tampaunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -269,8 +273,8 @@ export const tampaunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -278,16 +282,20 @@ export const tampaunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.9,
     phone: "+535 128-211-7058",
     email: "ethan.spencer@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/46.jpg",
-    specialties: ["Night Shift", "Long-Distance Driving", "Corporate Chauffeur"],
+    specialties: [
+      "Night Shift",
+      "Long-Distance Driving",
+      "Corporate Chauffeur",
+    ],
     vehicleTypesCertified: ["Van"],
   },
   {
@@ -303,8 +311,8 @@ export const tampaunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -312,12 +320,12 @@ export const tampaunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "11:00"
+            to: "11:00",
           },
           {
             from: "01:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -325,14 +333,14 @@ export const tampaunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "19:00"
+            to: "19:00",
           },
           {
             from: "13:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.6,
     phone: "+228 577-886-2528",
@@ -354,8 +362,8 @@ export const tampaunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -363,12 +371,12 @@ export const tampaunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "19:00"
+            to: "19:00",
           },
           {
             from: "03:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -376,10 +384,10 @@ export const tampaunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.1,
     phone: "+627 957-538-3221",
@@ -401,12 +409,12 @@ export const tampaunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "04:00"
+            to: "04:00",
           },
           {
             from: "13:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
       },
       {
@@ -414,12 +422,12 @@ export const tampaunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "04:00"
+            to: "04:00",
           },
           {
             from: "01:00",
-            to: "04:00"
-          }
+            to: "04:00",
+          },
         ],
       },
       {
@@ -427,8 +435,8 @@ export const tampaunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -436,8 +444,8 @@ export const tampaunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -445,14 +453,14 @@ export const tampaunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "13:00"
+            to: "13:00",
           },
           {
             from: "11:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.1,
     phone: "+896 802-966-6254",
@@ -474,12 +482,12 @@ export const tampaunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "13:00"
+            to: "13:00",
           },
           {
             from: "20:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -487,8 +495,8 @@ export const tampaunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
       },
       {
@@ -496,12 +504,12 @@ export const tampaunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "03:00"
+            to: "03:00",
           },
           {
             from: "17:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -509,14 +517,14 @@ export const tampaunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "11:00"
+            to: "11:00",
           },
           {
             from: "18:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.4,
     phone: "+601 314-308-6460",
@@ -524,5 +532,5 @@ export const tampaunitedStatescaribbeanDrivers: Driver[] = [
     photoUrl: "https://randomuser.me/api/portraits/men/69.jpg",
     specialties: ["Event Transportation", "Airport Transfers"],
     vehicleTypesCertified: ["Motorcoach", "Limousine"],
-  }
+  },
 ];

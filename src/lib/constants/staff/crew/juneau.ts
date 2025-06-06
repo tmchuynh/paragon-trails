@@ -55,5 +55,5 @@ export const juneauunitedStatesalaskaCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "alan.reeves@paragontrails.com",
     contactPhone: "+1-865-862-1126",
-  }
+  },
 ];

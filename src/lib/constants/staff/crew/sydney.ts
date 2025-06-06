@@ -28,7 +28,11 @@ export const sydneyaustraliaasiaPacificCrew: CrewMember[] = [
     name: "Adam Hawkins",
     role: "Dive Instructor",
     experienceYears: 3,
-    certifications: ["Marine Radio Operator", "Security Training", "Hospitality Training"],
+    certifications: [
+      "Marine Radio Operator",
+      "Security Training",
+      "Hospitality Training",
+    ],
     languagesSpoken: ["Norwegian", "French", "Italian"],
     isAvailable: false,
     contactEmail: "adam.hawkins@paragontrails.com",
@@ -44,5 +48,5 @@ export const sydneyaustraliaasiaPacificCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "hiroshi.wilson@paragontrails.com",
     contactPhone: "+1-469-173-8017",
-  }
+  },
 ];

@@ -11,22 +11,38 @@ export const vancouvercanadaalaskaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Emma is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Sustainable Tourism, Indigenous Culture, Film Locations, Local Markets, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast USA", "West Coast USA"],
-    tourTypes: ["Boat Tour", "Brewery Tour", "Festival Tour", "Cruise Excursion", "Eco Tour"],
+    tourTypes: [
+      "Boat Tour",
+      "Brewery Tour",
+      "Festival Tour",
+      "Cruise Excursion",
+      "Eco Tour",
+    ],
     maxGroupSize: 14,
     licenseNumber: "LIC-2574-VAN",
     phoneNumber: "+1-153-743-1666",
     contactEmail: "emma.martin@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Emma is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Sustainable Tourism, Indigenous Culture, Film Locations, Local Markets, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Emma is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Sustainable Tourism, Indigenous Culture, Film Locations, Local Markets, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
     reviewsCount: 9,
     quote: "In Vancouver, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/men/45.jpg",
     languages: ["Cantonese", "Finnish"],
     experienceYears: 9,
-    certifications: ["Certified International Tour Manager", "Language Proficiency Certification", "CPR & First Aid"],
-    specialties: ["Sustainable Tourism", "Indigenous Culture", "Film Locations", "Local Markets"],
+    certifications: [
+      "Certified International Tour Manager",
+      "Language Proficiency Certification",
+      "CPR & First Aid",
+    ],
+    specialties: [
+      "Sustainable Tourism",
+      "Indigenous Culture",
+      "Film Locations",
+      "Local Markets",
+    ],
     specialTraining: ["Art History"],
   },
   {
@@ -46,15 +62,24 @@ export const vancouvercanadaalaskaGuides: TourGuide[] = [
     contactEmail: "ethan.roberts@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Ethan is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Photography Spots, Local Markets, Indigenous Culture, Film Locations, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Ethan is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Photography Spots, Local Markets, Indigenous Culture, Film Locations, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
     reviewsCount: 91,
     quote: "My goal is to help you fall in love with Vancouver just as I have.",
     profileImage: "https://randomuser.me/api/portraits/men/72.jpg",
     languages: ["Hindi", "Thai", "Swedish"],
     experienceYears: 9,
-    certifications: ["Wilderness First Responder", "Sustainable Tourism Certificate"],
-    specialties: ["Photography Spots", "Local Markets", "Indigenous Culture", "Film Locations"],
+    certifications: [
+      "Wilderness First Responder",
+      "Sustainable Tourism Certificate",
+    ],
+    specialties: [
+      "Photography Spots",
+      "Local Markets",
+      "Indigenous Culture",
+      "Film Locations",
+    ],
     specialTraining: ["Urban Planning", "Religious Studies"],
   },
   {
@@ -74,14 +99,19 @@ export const vancouvercanadaalaskaGuides: TourGuide[] = [
     contactEmail: "carter.nguyen@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Carter is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Local Craftsmanship, Music Scene, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Carter is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Local Craftsmanship, Music Scene, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 71,
-    quote: "Every corner of Vancouver tells a story, let me share them with you.",
+    quote:
+      "Every corner of Vancouver tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/62.jpg",
     languages: ["Tagalog", "Mandarin", "Swahili"],
     experienceYears: 9,
-    certifications: ["Professional Tour Guide Association", "Urban Navigation Specialist"],
+    certifications: [
+      "Professional Tour Guide Association",
+      "Urban Navigation Specialist",
+    ],
     specialties: ["Local Craftsmanship", "Music Scene"],
     specialTraining: ["Historical Research Methods", "Cultural Sensitivity"],
   },
@@ -102,14 +132,20 @@ export const vancouvercanadaalaskaGuides: TourGuide[] = [
     contactEmail: "aria.miller@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Aria is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Indigenous Culture, Wine Tasting, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Aria is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Indigenous Culture, Wine Tasting, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 90,
-    quote: "The best way to discover Vancouver is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Vancouver is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/26.jpg",
     languages: ["Cantonese", "Korean"],
     experienceYears: 15,
-    certifications: ["Cultural Heritage Specialist", "Regional Tourism Ambassador", "Eco-Tourism Guide"],
+    certifications: [
+      "Cultural Heritage Specialist",
+      "Regional Tourism Ambassador",
+      "Eco-Tourism Guide",
+    ],
     specialties: ["Indigenous Culture", "Wine Tasting"],
     specialTraining: [],
   },
@@ -123,21 +159,31 @@ export const vancouvercanadaalaskaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Carter is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in LGBTQ+ History, Religious Sites, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Asia Pacific"],
-    tourTypes: ["Festival Tour", "Accessible Tour", "Street Art Tour", "Food Tour"],
+    tourTypes: [
+      "Festival Tour",
+      "Accessible Tour",
+      "Street Art Tour",
+      "Food Tour",
+    ],
     maxGroupSize: 12,
     licenseNumber: "LIC-6059-VAN",
     phoneNumber: "+1-651-486-5608",
     contactEmail: "carter.hall@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Carter is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in LGBTQ+ History, Religious Sites, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Carter is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in LGBTQ+ History, Religious Sites, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 68,
-    quote: "Every corner of Vancouver tells a story, let me share them with you.",
+    quote:
+      "Every corner of Vancouver tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/24.jpg",
     languages: ["Swedish", "Turkish"],
     experienceYears: 12,
-    certifications: ["Urban Navigation Specialist", "Local History Certification"],
+    certifications: [
+      "Urban Navigation Specialist",
+      "Local History Certification",
+    ],
     specialties: ["LGBTQ+ History", "Religious Sites"],
     specialTraining: [],
   },
@@ -158,10 +204,12 @@ export const vancouvercanadaalaskaGuides: TourGuide[] = [
     contactEmail: "aria.nguyen@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Aria is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Wildlife, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Aria is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Wildlife, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 40,
-    quote: "Vancouver isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Vancouver isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/4.jpg",
     languages: ["Japanese", "Hebrew"],
     experienceYears: 3,
@@ -179,7 +227,13 @@ export const vancouvercanadaalaskaGuides: TourGuide[] = [
     isPopular: true,
     bio: "Charlotte is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in LGBTQ+ History, Local Craftsmanship, Urban Legends, Parks & Gardens, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Middle East"],
-    tourTypes: ["Shopping Tour", "Museum Tour", "Craft Workshop", "Relocation Tour", "Cruise Excursion"],
+    tourTypes: [
+      "Shopping Tour",
+      "Museum Tour",
+      "Craft Workshop",
+      "Relocation Tour",
+      "Cruise Excursion",
+    ],
     maxGroupSize: 17,
     licenseNumber: "LIC-9331-VAN",
     phoneNumber: "+1-708-196-8441",
@@ -195,7 +249,7 @@ export const vancouvercanadaalaskaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -208,20 +262,31 @@ export const vancouvercanadaalaskaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "11:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Charlotte is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in LGBTQ+ History, Local Craftsmanship, Urban Legends, Parks & Gardens, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Charlotte is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in LGBTQ+ History, Local Craftsmanship, Urban Legends, Parks & Gardens, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 69,
-    quote: "The best way to discover Vancouver is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Vancouver is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/72.jpg",
     languages: ["Serbian", "Spanish", "Dutch"],
     experienceYears: 7,
-    certifications: ["Regional Tourism Ambassador", "Eco-Tourism Guide", "Licensed City Guide"],
-    specialties: ["LGBTQ+ History", "Local Craftsmanship", "Urban Legends", "Parks & Gardens"],
+    certifications: [
+      "Regional Tourism Ambassador",
+      "Eco-Tourism Guide",
+      "Licensed City Guide",
+    ],
+    specialties: [
+      "LGBTQ+ History",
+      "Local Craftsmanship",
+      "Urban Legends",
+      "Parks & Gardens",
+    ],
     specialTraining: ["Conflict Resolution", "Photography"],
   },
   {
@@ -250,7 +315,7 @@ export const vancouvercanadaalaskaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -259,7 +324,7 @@ export const vancouvercanadaalaskaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -268,7 +333,7 @@ export const vancouvercanadaalaskaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -281,12 +346,13 @@ export const vancouvercanadaalaskaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "10:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "James is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Film Locations, Hidden Gems, James provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "James is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Film Locations, Hidden Gems, James provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 77,
     quote: "My goal is to help you fall in love with Vancouver just as I have.",
@@ -323,7 +389,7 @@ export const vancouvercanadaalaskaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -336,7 +402,7 @@ export const vancouvercanadaalaskaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -345,20 +411,22 @@ export const vancouvercanadaalaskaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "13:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Elijah is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Film Locations, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Elijah is a passionate tour guide with extensive knowledge of Vancouver and Canada. Specializing in Film Locations, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 73,
-    quote: "Vancouver isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Vancouver isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/39.jpg",
     languages: ["Italian", "Bulgarian"],
     experienceYears: 10,
     certifications: ["Language Proficiency Certification"],
     specialties: ["Film Locations"],
     specialTraining: ["Marine Biology"],
-  }
+  },
 ];

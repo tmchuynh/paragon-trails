@@ -14,12 +14,12 @@ export const stPetersburgrussianorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "08:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -27,12 +27,12 @@ export const stPetersburgrussianorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "10:00"
+            to: "10:00",
           },
           {
             from: "17:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -40,8 +40,8 @@ export const stPetersburgrussianorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -49,10 +49,10 @@ export const stPetersburgrussianorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.8,
     phone: "+441 145-307-4565",
@@ -74,8 +74,8 @@ export const stPetersburgrussianorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
       },
       {
@@ -83,8 +83,8 @@ export const stPetersburgrussianorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -92,8 +92,8 @@ export const stPetersburgrussianorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -101,10 +101,10 @@ export const stPetersburgrussianorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.9,
     phone: "+210 326-117-1261",
@@ -126,12 +126,12 @@ export const stPetersburgrussianorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "06:00"
+            to: "06:00",
           },
           {
             from: "07:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -139,8 +139,8 @@ export const stPetersburgrussianorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -148,14 +148,14 @@ export const stPetersburgrussianorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "22:00"
+            to: "22:00",
           },
           {
             from: "09:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.9,
     phone: "+579 439-553-4305",
@@ -177,8 +177,8 @@ export const stPetersburgrussianorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
       },
       {
@@ -186,8 +186,8 @@ export const stPetersburgrussianorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -195,8 +195,8 @@ export const stPetersburgrussianorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -204,14 +204,14 @@ export const stPetersburgrussianorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "17:00"
+            to: "17:00",
           },
           {
             from: "05:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.2,
     phone: "+96 763-473-5893",
@@ -233,12 +233,12 @@ export const stPetersburgrussianorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "23:00"
+            to: "23:00",
           },
           {
             from: "09:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
       },
       {
@@ -246,12 +246,12 @@ export const stPetersburgrussianorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "16:00"
+            to: "16:00",
           },
           {
             from: "20:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -259,14 +259,14 @@ export const stPetersburgrussianorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "06:00"
+            to: "06:00",
           },
           {
             from: "21:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.9,
     phone: "+13 121-390-6224",
@@ -274,5 +274,5 @@ export const stPetersburgrussianorthernEuropeDrivers: Driver[] = [
     photoUrl: "https://randomuser.me/api/portraits/women/29.jpg",
     specialties: ["Luxury Car Specialist"],
     vehicleTypesCertified: ["Convertible", "Electric Vehicle", "Sedan"],
-  }
+  },
 ];

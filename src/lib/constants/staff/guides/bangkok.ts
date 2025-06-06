@@ -18,14 +18,19 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
     contactEmail: "james.jackson@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "James is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Local Craftsmanship, James provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "James is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Local Craftsmanship, James provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 12,
-    quote: "Bangkok isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Bangkok isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/13.jpg",
     languages: ["Arabic", "Romanian"],
     experienceYears: 12,
-    certifications: ["Urban Navigation Specialist", "Professional Tour Guide Association"],
+    certifications: [
+      "Urban Navigation Specialist",
+      "Professional Tour Guide Association",
+    ],
     specialties: ["Local Craftsmanship"],
     specialTraining: ["Regional Geology"],
   },
@@ -46,7 +51,8 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
     contactEmail: "james.hill@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "James is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Local Markets, James provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "James is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Local Markets, James provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 88,
     quote: "In Bangkok, we don't just see the sights - we make memories.",
@@ -74,7 +80,8 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
     contactEmail: "joseph.baker@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Joseph is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in LGBTQ+ History, Adventure Sports, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Joseph is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in LGBTQ+ History, Adventure Sports, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 89,
     quote: "In Bangkok, we don't just see the sights - we make memories.",
@@ -111,7 +118,7 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -124,7 +131,7 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -133,7 +140,7 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -142,20 +149,29 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Emma is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Sustainable Tourism, LGBTQ+ History, Local Craftsmanship, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Emma is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Sustainable Tourism, LGBTQ+ History, Local Craftsmanship, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
     reviewsCount: 32,
-    quote: "Bangkok isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Bangkok isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/10.jpg",
     languages: ["Mandarin", "Japanese", "Arabic"],
     experienceYears: 5,
-    certifications: ["Regional Tourism Ambassador", "Professional Tour Guide Association"],
-    specialties: ["Sustainable Tourism", "LGBTQ+ History", "Local Craftsmanship"],
+    certifications: [
+      "Regional Tourism Ambassador",
+      "Professional Tour Guide Association",
+    ],
+    specialties: [
+      "Sustainable Tourism",
+      "LGBTQ+ History",
+      "Local Craftsmanship",
+    ],
     specialTraining: ["Group Management", "Archaeological Conservation"],
   },
   {
@@ -168,7 +184,13 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
     isPopular: false,
     bio: "Logan is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Music Scene, Adventure Sports, Urban Legends, Street Food, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast Canada", "Africa"],
-    tourTypes: ["Private Tour", "Eco Tour", "Underground Tour", "Cooking Class", "Brewery Tour"],
+    tourTypes: [
+      "Private Tour",
+      "Eco Tour",
+      "Underground Tour",
+      "Cooking Class",
+      "Brewery Tour",
+    ],
     maxGroupSize: 16,
     licenseNumber: "LIC-2178-BAN",
     phoneNumber: "+1-285-145-7225",
@@ -180,7 +202,7 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -193,7 +215,7 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -202,7 +224,7 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -215,20 +237,30 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "13:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Logan is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Music Scene, Adventure Sports, Urban Legends, Street Food, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Logan is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Music Scene, Adventure Sports, Urban Legends, Street Food, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 33,
     quote: "Every corner of Bangkok tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/60.jpg",
     languages: ["Tagalog", "Arabic", "Italian"],
     experienceYears: 11,
-    certifications: ["Certified International Tour Manager", "Language Proficiency Certification", "CPR & First Aid"],
-    specialties: ["Music Scene", "Adventure Sports", "Urban Legends", "Street Food"],
+    certifications: [
+      "Certified International Tour Manager",
+      "Language Proficiency Certification",
+      "CPR & First Aid",
+    ],
+    specialties: [
+      "Music Scene",
+      "Adventure Sports",
+      "Urban Legends",
+      "Street Food",
+    ],
     specialTraining: [],
   },
   {
@@ -253,7 +285,7 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -262,7 +294,7 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -271,12 +303,13 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "James is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Family Activities, Adventure Sports, Historical Landmarks, James provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "James is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Family Activities, Adventure Sports, Historical Landmarks, James provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 92,
     quote: "Every corner of Bangkok tells a story, let me share them with you.",
@@ -284,7 +317,11 @@ export const bangkokthailandasiaPacificGuides: TourGuide[] = [
     languages: ["Russian"],
     experienceYears: 3,
     certifications: ["Professional Tour Guide Association"],
-    specialties: ["Family Activities", "Adventure Sports", "Historical Landmarks"],
+    specialties: [
+      "Family Activities",
+      "Adventure Sports",
+      "Historical Landmarks",
+    ],
     specialTraining: ["Mountain Survival", "Regional Cuisine"],
-  }
+  },
 ];

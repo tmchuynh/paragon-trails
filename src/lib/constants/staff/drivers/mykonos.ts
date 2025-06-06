@@ -14,8 +14,8 @@ export const mykonosgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
       },
       {
@@ -23,8 +23,8 @@ export const mykonosgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -32,20 +32,24 @@ export const mykonosgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "10:00"
+            to: "10:00",
           },
           {
             from: "17:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.8,
     phone: "+242 489-515-9208",
     email: "kimberly.wilson@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/4.jpg",
-    specialties: ["Security Detail", "Luxury Car Specialist", "Tour Guide Driver"],
+    specialties: [
+      "Security Detail",
+      "Luxury Car Specialist",
+      "Tour Guide Driver",
+    ],
     vehicleTypesCertified: ["Sports Car", "Van"],
   },
   {
@@ -61,8 +65,8 @@ export const mykonosgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -70,8 +74,8 @@ export const mykonosgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -79,12 +83,12 @@ export const mykonosgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "05:00"
+            to: "05:00",
           },
           {
             from: "16:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -92,16 +96,20 @@ export const mykonosgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.7,
     phone: "+791 259-832-6060",
     email: "carol.rossi@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/57.jpg",
-    specialties: ["Airport Transfers", "VIP Transport", "Luxury Car Specialist"],
+    specialties: [
+      "Airport Transfers",
+      "VIP Transport",
+      "Luxury Car Specialist",
+    ],
     vehicleTypesCertified: ["Van", "Convertible", "Limousine"],
   },
   {
@@ -117,12 +125,12 @@ export const mykonosgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "22:00"
+            to: "22:00",
           },
           {
             from: "19:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -130,12 +138,12 @@ export const mykonosgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "07:00"
+            to: "07:00",
           },
           {
             from: "07:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -143,12 +151,12 @@ export const mykonosgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "07:00"
+            to: "07:00",
           },
           {
             from: "01:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -156,16 +164,20 @@ export const mykonosgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.8,
     phone: "+391 342-213-2354",
     email: "evelyn.reed@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/82.jpg",
-    specialties: ["Event Transportation", "Luxury Car Specialist", "Airport Transfers"],
+    specialties: [
+      "Event Transportation",
+      "Luxury Car Specialist",
+      "Airport Transfers",
+    ],
     vehicleTypesCertified: ["Sedan", "Sports Car"],
   },
   {
@@ -181,8 +193,8 @@ export const mykonosgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
       },
       {
@@ -190,8 +202,8 @@ export const mykonosgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -199,12 +211,12 @@ export const mykonosgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "04:00"
+            to: "04:00",
           },
           {
             from: "20:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -212,8 +224,8 @@ export const mykonosgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
       },
       {
@@ -221,20 +233,25 @@ export const mykonosgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "20:00"
+            to: "20:00",
           },
           {
             from: "13:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.1,
     phone: "+792 209-822-3778",
     email: "elijah.reeves@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/67.jpg",
-    specialties: ["Tour Guide Driver", "Security Detail", "Luxury Car Specialist", "Corporate Chauffeur"],
+    specialties: [
+      "Tour Guide Driver",
+      "Security Detail",
+      "Luxury Car Specialist",
+      "Corporate Chauffeur",
+    ],
     vehicleTypesCertified: ["SUV", "Luxury SUV", "Sedan"],
   },
   {
@@ -250,12 +267,12 @@ export const mykonosgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "10:00"
+            to: "10:00",
           },
           {
             from: "20:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
       },
       {
@@ -263,8 +280,8 @@ export const mykonosgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "04:00"
-          }
+            to: "04:00",
+          },
         ],
       },
       {
@@ -272,10 +289,10 @@ export const mykonosgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.2,
     phone: "+168 537-457-5200",
@@ -297,8 +314,8 @@ export const mykonosgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "03:00"
-          }
+            to: "03:00",
+          },
         ],
       },
       {
@@ -306,8 +323,8 @@ export const mykonosgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
       },
       {
@@ -315,8 +332,8 @@ export const mykonosgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
       },
       {
@@ -324,12 +341,12 @@ export const mykonosgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "09:00"
+            to: "09:00",
           },
           {
             from: "09:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -337,10 +354,10 @@ export const mykonosgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.2,
     phone: "+785 417-579-1253",
@@ -362,8 +379,8 @@ export const mykonosgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
       },
       {
@@ -371,8 +388,8 @@ export const mykonosgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "03:00"
-          }
+            to: "03:00",
+          },
         ],
       },
       {
@@ -380,8 +397,8 @@ export const mykonosgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -389,12 +406,12 @@ export const mykonosgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "11:00"
+            to: "11:00",
           },
           {
             from: "08:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -402,14 +419,14 @@ export const mykonosgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "10:00"
+            to: "10:00",
           },
           {
             from: "14:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.6,
     phone: "+574 978-869-5639",
@@ -431,8 +448,8 @@ export const mykonosgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -440,12 +457,12 @@ export const mykonosgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "20:00"
+            to: "20:00",
           },
           {
             from: "15:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -453,20 +470,24 @@ export const mykonosgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "12:00"
+            to: "12:00",
           },
           {
             from: "15:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.9,
     phone: "+141 264-580-9256",
     email: "mateo.miller@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/85.jpg",
-    specialties: ["Long-Distance Driving", "Night Shift", "Event Transportation"],
+    specialties: [
+      "Long-Distance Driving",
+      "Night Shift",
+      "Event Transportation",
+    ],
     vehicleTypesCertified: ["SUV", "Sedan", "Luxury SUV"],
-  }
+  },
 ];

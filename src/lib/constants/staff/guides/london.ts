@@ -11,14 +11,20 @@ export const londonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
     isPopular: true,
     bio: "Layla is a passionate tour guide with extensive knowledge of London and United Kingdom. Specializing in Urban Legends, Photography Spots, Cultural Etiquette, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Mediterranean", "Caribbean"],
-    tourTypes: ["Private Tour", "Historical Tour", "Craft Workshop", "Ghost Tour"],
+    tourTypes: [
+      "Private Tour",
+      "Historical Tour",
+      "Craft Workshop",
+      "Ghost Tour",
+    ],
     maxGroupSize: 15,
     licenseNumber: "LIC-5030-LON",
     phoneNumber: "+1-525-334-8191",
     contactEmail: "layla.martinez@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Layla is a passionate tour guide with extensive knowledge of London and United Kingdom. Specializing in Urban Legends, Photography Spots, Cultural Etiquette, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Layla is a passionate tour guide with extensive knowledge of London and United Kingdom. Specializing in Urban Legends, Photography Spots, Cultural Etiquette, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 10,
     quote: "My goal is to help you fall in love with London just as I have.",
@@ -46,10 +52,12 @@ export const londonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
     contactEmail: "riley.anderson@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Riley is a passionate tour guide with extensive knowledge of London and United Kingdom. Specializing in Family Activities, Museums, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Riley is a passionate tour guide with extensive knowledge of London and United Kingdom. Specializing in Family Activities, Museums, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
     reviewsCount: 6,
-    quote: "The best way to discover London is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover London is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/5.jpg",
     languages: ["Polish", "Hindi", "Danish"],
     experienceYears: 10,
@@ -67,17 +75,24 @@ export const londonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
     isPopular: false,
     bio: "Michael is a passionate tour guide with extensive knowledge of London and United Kingdom. Specializing in Wildlife, Historical Landmarks, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Northern Europe"],
-    tourTypes: ["Street Art Tour", "Underground Tour", "Luxury Tour", "Wildlife Safari"],
+    tourTypes: [
+      "Street Art Tour",
+      "Underground Tour",
+      "Luxury Tour",
+      "Wildlife Safari",
+    ],
     maxGroupSize: 8,
     licenseNumber: "LIC-5811-LON",
     phoneNumber: "+1-141-373-4795",
     contactEmail: "michael.harris@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Michael is a passionate tour guide with extensive knowledge of London and United Kingdom. Specializing in Wildlife, Historical Landmarks, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Michael is a passionate tour guide with extensive knowledge of London and United Kingdom. Specializing in Wildlife, Historical Landmarks, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 16,
-    quote: "The best way to discover London is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover London is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/48.jpg",
     languages: ["Korean", "Hungarian"],
     experienceYears: 11,
@@ -102,10 +117,12 @@ export const londonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
     contactEmail: "matthew.clark@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Matthew is a passionate tour guide with extensive knowledge of London and United Kingdom. Specializing in LGBTQ+ History, Architecture, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Matthew is a passionate tour guide with extensive knowledge of London and United Kingdom. Specializing in LGBTQ+ History, Architecture, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
     reviewsCount: 51,
-    quote: "London isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "London isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/40.jpg",
     languages: ["German"],
     experienceYears: 11,
@@ -123,21 +140,31 @@ export const londonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
     isPopular: true,
     bio: "Olivia is a passionate tour guide with extensive knowledge of London and United Kingdom. Specializing in Sustainable Tourism, Street Food, Hidden Gems, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Alaska", "Africa"],
-    tourTypes: ["Romantic Tour", "Accessible Tour", "Group Tour", "Museum Tour"],
+    tourTypes: [
+      "Romantic Tour",
+      "Accessible Tour",
+      "Group Tour",
+      "Museum Tour",
+    ],
     maxGroupSize: 11,
     licenseNumber: "LIC-5343-LON",
     phoneNumber: "+1-310-740-6719",
     contactEmail: "olivia.hernandez@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Olivia is a passionate tour guide with extensive knowledge of London and United Kingdom. Specializing in Sustainable Tourism, Street Food, Hidden Gems, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Olivia is a passionate tour guide with extensive knowledge of London and United Kingdom. Specializing in Sustainable Tourism, Street Food, Hidden Gems, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
     reviewsCount: 19,
     quote: "My goal is to help you fall in love with London just as I have.",
     profileImage: "https://randomuser.me/api/portraits/men/61.jpg",
     languages: ["Vietnamese"],
     experienceYears: 5,
-    certifications: ["Cultural Heritage Specialist", "Licensed City Guide", "Food Safety Certification"],
+    certifications: [
+      "Cultural Heritage Specialist",
+      "Licensed City Guide",
+      "Food Safety Certification",
+    ],
     specialties: ["Sustainable Tourism", "Street Food", "Hidden Gems"],
     specialTraining: [],
   },
@@ -151,21 +178,33 @@ export const londonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
     isPopular: true,
     bio: "Ava is a passionate tour guide with extensive knowledge of London and United Kingdom. Specializing in Local Markets, LGBTQ+ History, Adventure Sports, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast Canada"],
-    tourTypes: ["Historical Tour", "Architecture Tour", "Luxury Tour", "Self-Guided Tour", "Eco Tour"],
+    tourTypes: [
+      "Historical Tour",
+      "Architecture Tour",
+      "Luxury Tour",
+      "Self-Guided Tour",
+      "Eco Tour",
+    ],
     maxGroupSize: 17,
     licenseNumber: "LIC-8481-LON",
     phoneNumber: "+1-268-324-9311",
     contactEmail: "ava.garcia@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Ava is a passionate tour guide with extensive knowledge of London and United Kingdom. Specializing in Local Markets, LGBTQ+ History, Adventure Sports, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Ava is a passionate tour guide with extensive knowledge of London and United Kingdom. Specializing in Local Markets, LGBTQ+ History, Adventure Sports, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 40,
-    quote: "The best way to discover London is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover London is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/40.jpg",
     languages: ["Bulgarian"],
     experienceYears: 7,
-    certifications: ["Urban Navigation Specialist", "Wilderness First Responder", "Cultural Heritage Specialist"],
+    certifications: [
+      "Urban Navigation Specialist",
+      "Wilderness First Responder",
+      "Cultural Heritage Specialist",
+    ],
     specialties: ["Local Markets", "LGBTQ+ History", "Adventure Sports"],
     specialTraining: [],
   },
@@ -179,7 +218,13 @@ export const londonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
     isPopular: false,
     bio: "Evelyn is a passionate tour guide with extensive knowledge of London and United Kingdom. Specializing in Music Scene, Urban Legends, Local Markets, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast Canada"],
-    tourTypes: ["Historical Tour", "Bike Tour", "Self-Guided Tour", "Religious Tour", "Walking Tour"],
+    tourTypes: [
+      "Historical Tour",
+      "Bike Tour",
+      "Self-Guided Tour",
+      "Religious Tour",
+      "Walking Tour",
+    ],
     maxGroupSize: 17,
     licenseNumber: "LIC-9136-LON",
     phoneNumber: "+1-909-157-9862",
@@ -191,7 +236,7 @@ export const londonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -200,7 +245,7 @@ export const londonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -213,12 +258,13 @@ export const londonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Evelyn is a passionate tour guide with extensive knowledge of London and United Kingdom. Specializing in Music Scene, Urban Legends, Local Markets, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Evelyn is a passionate tour guide with extensive knowledge of London and United Kingdom. Specializing in Music Scene, Urban Legends, Local Markets, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 95,
     quote: "Every corner of London tells a story, let me share them with you.",
@@ -239,7 +285,12 @@ export const londonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
     isPopular: false,
     bio: "Aria is a passionate tour guide with extensive knowledge of London and United Kingdom. Specializing in Historical Landmarks, Nightlife, Indigenous Culture, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Mediterranean"],
-    tourTypes: ["Romantic Tour", "Adventure Tour", "Craft Workshop", "Food Tour"],
+    tourTypes: [
+      "Romantic Tour",
+      "Adventure Tour",
+      "Craft Workshop",
+      "Food Tour",
+    ],
     maxGroupSize: 8,
     licenseNumber: "LIC-2190-LON",
     phoneNumber: "+1-670-853-2639",
@@ -255,7 +306,7 @@ export const londonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -268,7 +319,7 @@ export const londonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -277,7 +328,7 @@ export const londonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -290,19 +341,23 @@ export const londonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Aria is a passionate tour guide with extensive knowledge of London and United Kingdom. Specializing in Historical Landmarks, Nightlife, Indigenous Culture, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Aria is a passionate tour guide with extensive knowledge of London and United Kingdom. Specializing in Historical Landmarks, Nightlife, Indigenous Culture, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 68,
     quote: "In London, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/men/77.jpg",
     languages: ["Malay", "Tagalog"],
     experienceYears: 10,
-    certifications: ["Urban Navigation Specialist", "Wilderness First Responder"],
+    certifications: [
+      "Urban Navigation Specialist",
+      "Wilderness First Responder",
+    ],
     specialties: ["Historical Landmarks", "Nightlife", "Indigenous Culture"],
     specialTraining: ["Regional Geology"],
   },
@@ -328,7 +383,7 @@ export const londonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -337,7 +392,7 @@ export const londonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -350,12 +405,13 @@ export const londonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "13:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Mason is a passionate tour guide with extensive knowledge of London and United Kingdom. Specializing in Music Scene, Sustainable Tourism, Architecture, Wildlife, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Mason is a passionate tour guide with extensive knowledge of London and United Kingdom. Specializing in Music Scene, Sustainable Tourism, Architecture, Wildlife, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.5,
     reviewsCount: 33,
     quote: "Every corner of London tells a story, let me share them with you.",
@@ -363,7 +419,12 @@ export const londonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
     languages: ["Indonesian"],
     experienceYears: 16,
     certifications: ["Urban Navigation Specialist"],
-    specialties: ["Music Scene", "Sustainable Tourism", "Architecture", "Wildlife"],
+    specialties: [
+      "Music Scene",
+      "Sustainable Tourism",
+      "Architecture",
+      "Wildlife",
+    ],
     specialTraining: ["Accessibility Services"],
-  }
+  },
 ];

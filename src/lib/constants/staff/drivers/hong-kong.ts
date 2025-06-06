@@ -14,8 +14,8 @@ export const hongKongchinaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -23,12 +23,12 @@ export const hongKongchinaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "07:00"
+            to: "07:00",
           },
           {
             from: "06:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -36,8 +36,8 @@ export const hongKongchinaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
       },
       {
@@ -45,10 +45,10 @@ export const hongKongchinaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.8,
     phone: "+869 685-410-8787",
@@ -70,8 +70,8 @@ export const hongKongchinaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -79,12 +79,12 @@ export const hongKongchinaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "14:00"
+            to: "14:00",
           },
           {
             from: "12:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
       },
       {
@@ -92,8 +92,8 @@ export const hongKongchinaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -101,17 +101,22 @@ export const hongKongchinaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.3,
     phone: "+736 498-341-6238",
     email: "zoe.nakamura@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/9.jpg",
     specialties: ["Night Shift", "Tour Guide Driver"],
-    vehicleTypesCertified: ["Sports Car", "Sedan", "Limousine", "Electric Vehicle"],
+    vehicleTypesCertified: [
+      "Sports Car",
+      "Sedan",
+      "Limousine",
+      "Electric Vehicle",
+    ],
   },
   {
     id: "driver-hong-kong-3",
@@ -126,8 +131,8 @@ export const hongKongchinaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "03:00"
-          }
+            to: "03:00",
+          },
         ],
       },
       {
@@ -135,8 +140,8 @@ export const hongKongchinaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -144,10 +149,10 @@ export const hongKongchinaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.7,
     phone: "+724 871-613-4369",
@@ -169,8 +174,8 @@ export const hongKongchinaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -178,8 +183,8 @@ export const hongKongchinaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -187,8 +192,8 @@ export const hongKongchinaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "04:00"
-          }
+            to: "04:00",
+          },
         ],
       },
       {
@@ -196,10 +201,10 @@ export const hongKongchinaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.6,
     phone: "+444 231-960-7726",
@@ -221,8 +226,8 @@ export const hongKongchinaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -230,8 +235,8 @@ export const hongKongchinaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -239,8 +244,8 @@ export const hongKongchinaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -248,10 +253,10 @@ export const hongKongchinaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.3,
     phone: "+807 699-924-9667",
@@ -259,5 +264,5 @@ export const hongKongchinaasiaPacificDrivers: Driver[] = [
     photoUrl: "https://randomuser.me/api/portraits/men/14.jpg",
     specialties: ["Event Transportation", "Security Detail"],
     vehicleTypesCertified: ["Sports Car", "SUV"],
-  }
+  },
 ];

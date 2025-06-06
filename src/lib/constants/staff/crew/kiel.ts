@@ -17,7 +17,11 @@ export const kielgermanynorthernEuropeCrew: CrewMember[] = [
     name: "Caroline Hudson",
     role: "Steward/Stewardess",
     experienceYears: 15,
-    certifications: ["Engineering License", "Environmental Awareness", "Dive Master"],
+    certifications: [
+      "Engineering License",
+      "Environmental Awareness",
+      "Dive Master",
+    ],
     languagesSpoken: ["Korean", "Japanese"],
     isAvailable: false,
     contactEmail: "caroline.hudson@paragontrails.com",
@@ -28,7 +32,11 @@ export const kielgermanynorthernEuropeCrew: CrewMember[] = [
     name: "Stephen Chen",
     role: "Engineer",
     experienceYears: 10,
-    certifications: ["Engineering License", "Fire Safety", "Hospitality Training"],
+    certifications: [
+      "Engineering License",
+      "Fire Safety",
+      "Hospitality Training",
+    ],
     languagesSpoken: ["Mandarin", "Italian", "Russian"],
     isAvailable: false,
     contactEmail: "stephen.chen@paragontrails.com",
@@ -88,5 +96,5 @@ export const kielgermanynorthernEuropeCrew: CrewMember[] = [
     isAvailable: false,
     contactEmail: "alexander.collins@paragontrails.com",
     contactPhone: "+1-080-556-8980",
-  }
+  },
 ];

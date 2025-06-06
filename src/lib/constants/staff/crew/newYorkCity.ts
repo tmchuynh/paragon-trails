@@ -28,7 +28,11 @@ export const newYorkCityunitedStateseastCoastUsaCrew: CrewMember[] = [
     name: "Ashley Graham",
     role: "Purser",
     experienceYears: 14,
-    certifications: ["Environmental Awareness", "Hospitality Training", "Navigation Certification"],
+    certifications: [
+      "Environmental Awareness",
+      "Hospitality Training",
+      "Navigation Certification",
+    ],
     languagesSpoken: ["German", "Hungarian", "Dutch"],
     isAvailable: true,
     contactEmail: "ashley.graham@paragontrails.com",
@@ -72,10 +76,14 @@ export const newYorkCityunitedStateseastCoastUsaCrew: CrewMember[] = [
     name: "Aria Lawson",
     role: "Dive Instructor",
     experienceYears: 5,
-    certifications: ["Hospitality Training", "Fire Safety", "Marine Radio Operator"],
+    certifications: [
+      "Hospitality Training",
+      "Fire Safety",
+      "Marine Radio Operator",
+    ],
     languagesSpoken: ["Hindi", "Romanian"],
     isAvailable: true,
     contactEmail: "aria.lawson@paragontrails.com",
     contactPhone: "+1-359-045-9956",
-  }
+  },
 ];

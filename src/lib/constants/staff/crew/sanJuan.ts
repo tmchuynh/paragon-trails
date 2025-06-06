@@ -17,7 +17,11 @@ export const sanJuanpuertoRicocaribbeanCrew: CrewMember[] = [
     name: "Thandiwe Anderson",
     role: "Captain",
     experienceYears: 16,
-    certifications: ["First Aid", "Marine Radio Operator", "Engineering License"],
+    certifications: [
+      "First Aid",
+      "Marine Radio Operator",
+      "Engineering License",
+    ],
     languagesSpoken: ["Danish", "Norwegian"],
     isAvailable: true,
     contactEmail: "thandiwe.anderson@paragontrails.com",
@@ -50,7 +54,11 @@ export const sanJuanpuertoRicocaribbeanCrew: CrewMember[] = [
     name: "Olivia Lopez",
     role: "Engineer",
     experienceYears: 21,
-    certifications: ["First Aid", "Environmental Awareness", "Hospitality Training"],
+    certifications: [
+      "First Aid",
+      "Environmental Awareness",
+      "Hospitality Training",
+    ],
     languagesSpoken: ["Danish"],
     isAvailable: false,
     contactEmail: "olivia.lopez@paragontrails.com",
@@ -77,5 +85,5 @@ export const sanJuanpuertoRicocaribbeanCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "priya.wood@paragontrails.com",
     contactPhone: "+1-772-073-9891",
-  }
+  },
 ];

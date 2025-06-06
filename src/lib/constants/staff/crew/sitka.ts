@@ -17,7 +17,11 @@ export const sitkaunitedStatesalaskaCrew: CrewMember[] = [
     name: "Ibrahim Nash",
     role: "Chef",
     experienceYears: 16,
-    certifications: ["Environmental Awareness", "Navigation Certification", "Engineering License"],
+    certifications: [
+      "Environmental Awareness",
+      "Navigation Certification",
+      "Engineering License",
+    ],
     languagesSpoken: ["Arabic"],
     isAvailable: true,
     contactEmail: "ibrahim.nash@paragontrails.com",
@@ -50,7 +54,11 @@ export const sitkaunitedStatesalaskaCrew: CrewMember[] = [
     name: "Susan Harris",
     role: "Steward/Stewardess",
     experienceYears: 8,
-    certifications: ["Marine Radio Operator", "Navigation Certification", "Fire Safety"],
+    certifications: [
+      "Marine Radio Operator",
+      "Navigation Certification",
+      "Fire Safety",
+    ],
     languagesSpoken: ["German"],
     isAvailable: true,
     contactEmail: "susan.harris@paragontrails.com",
@@ -66,5 +74,5 @@ export const sitkaunitedStatesalaskaCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "dylan.crawford@paragontrails.com",
     contactPhone: "+1-089-830-8189",
-  }
+  },
 ];

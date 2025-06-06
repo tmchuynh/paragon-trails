@@ -18,7 +18,8 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
     contactEmail: "penelope.scott@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Penelope is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in LGBTQ+ History, Historical Landmarks, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Penelope is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in LGBTQ+ History, Historical Landmarks, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
     reviewsCount: 97,
     quote: "In Sydney, we don't just see the sights - we make memories.",
@@ -39,17 +40,25 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
     isPopular: false,
     bio: "Isabella is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Historical Landmarks, Public Transportation Navigation, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast Canada", "South America"],
-    tourTypes: ["Walking Tour", "Cultural Tour", "Festival Tour", "Luxury Tour", "Adventure Tour"],
+    tourTypes: [
+      "Walking Tour",
+      "Cultural Tour",
+      "Festival Tour",
+      "Luxury Tour",
+      "Adventure Tour",
+    ],
     maxGroupSize: 14,
     licenseNumber: "LIC-5450-SYD",
     phoneNumber: "+1-503-573-2965",
     contactEmail: "isabella.white@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Isabella is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Historical Landmarks, Public Transportation Navigation, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Isabella is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Historical Landmarks, Public Transportation Navigation, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 32,
-    quote: "Sydney isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Sydney isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/68.jpg",
     languages: ["Romanian"],
     experienceYears: 15,
@@ -67,14 +76,20 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
     isPopular: false,
     bio: "Isabella is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Street Food, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["South America", "East Coast USA"],
-    tourTypes: ["Scenic Tour", "Adventure Tour", "Off-Road Tour", "Relocation Tour"],
+    tourTypes: [
+      "Scenic Tour",
+      "Adventure Tour",
+      "Off-Road Tour",
+      "Relocation Tour",
+    ],
     maxGroupSize: 18,
     licenseNumber: "LIC-3846-SYD",
     phoneNumber: "+1-486-339-7083",
     contactEmail: "isabella.harris@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Isabella is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Street Food, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Isabella is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Street Food, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 39,
     quote: "In Sydney, we don't just see the sights - we make memories.",
@@ -95,21 +110,33 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
     isPopular: false,
     bio: "Riley is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Architecture, Indigenous Culture, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Caribbean"],
-    tourTypes: ["Family-Friendly Tour", "Craft Workshop", "Relocation Tour", "Nature Tour", "Underground Tour"],
+    tourTypes: [
+      "Family-Friendly Tour",
+      "Craft Workshop",
+      "Relocation Tour",
+      "Nature Tour",
+      "Underground Tour",
+    ],
     maxGroupSize: 17,
     licenseNumber: "LIC-8858-SYD",
     phoneNumber: "+1-829-823-7617",
     contactEmail: "riley.johnson@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Riley is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Architecture, Indigenous Culture, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Riley is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Architecture, Indigenous Culture, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
     reviewsCount: 100,
-    quote: "The best way to discover Sydney is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Sydney is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/74.jpg",
     languages: ["Czech", "Tagalog"],
     experienceYears: 11,
-    certifications: ["Eco-Tourism Guide", "Licensed City Guide", "CPR & First Aid"],
+    certifications: [
+      "Eco-Tourism Guide",
+      "Licensed City Guide",
+      "CPR & First Aid",
+    ],
     specialties: ["Architecture", "Indigenous Culture"],
     specialTraining: ["Mountain Survival", "Regional Cuisine"],
   },
@@ -130,7 +157,8 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
     contactEmail: "mason.allen@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Mason is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Family Activities, Indigenous Culture, Local Craftsmanship, Street Food, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Mason is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Family Activities, Indigenous Culture, Local Craftsmanship, Street Food, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 40,
     quote: "Every corner of Sydney tells a story, let me share them with you.",
@@ -138,7 +166,12 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
     languages: ["Serbian", "Romanian"],
     experienceYears: 16,
     certifications: ["Certified International Tour Manager"],
-    specialties: ["Family Activities", "Indigenous Culture", "Local Craftsmanship", "Street Food"],
+    specialties: [
+      "Family Activities",
+      "Indigenous Culture",
+      "Local Craftsmanship",
+      "Street Food",
+    ],
     specialTraining: [],
   },
   {
@@ -151,21 +184,32 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
     isPopular: false,
     bio: "Henry is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Architecture, Religious Sites, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Middle East"],
-    tourTypes: ["Religious Tour", "Group Tour", "Romantic Tour", "Helicopter Tour", "Self-Guided Tour"],
+    tourTypes: [
+      "Religious Tour",
+      "Group Tour",
+      "Romantic Tour",
+      "Helicopter Tour",
+      "Self-Guided Tour",
+    ],
     maxGroupSize: 11,
     licenseNumber: "LIC-9608-SYD",
     phoneNumber: "+1-611-714-2041",
     contactEmail: "henry.torres@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Henry is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Architecture, Religious Sites, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Henry is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Architecture, Religious Sites, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 5,
     reviewsCount: 30,
     quote: "In Sydney, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/women/17.jpg",
     languages: ["Italian"],
     experienceYears: 3,
-    certifications: ["Eco-Tourism Guide", "Food Safety Certification", "CPR & First Aid"],
+    certifications: [
+      "Eco-Tourism Guide",
+      "Food Safety Certification",
+      "CPR & First Aid",
+    ],
     specialties: ["Architecture", "Religious Sites"],
     specialTraining: ["Marine Biology"],
   },
@@ -186,15 +230,25 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
     contactEmail: "michael.scott@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Michael is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Local Craftsmanship, Local Cuisine, Music Scene, Adventure Sports, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Michael is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Local Craftsmanship, Local Cuisine, Music Scene, Adventure Sports, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 80,
     quote: "In Sydney, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/men/29.jpg",
     languages: ["Mandarin"],
     experienceYears: 6,
-    certifications: ["Heritage Interpretation Certificate", "Regional Tourism Ambassador", "Licensed City Guide"],
-    specialties: ["Local Craftsmanship", "Local Cuisine", "Music Scene", "Adventure Sports"],
+    certifications: [
+      "Heritage Interpretation Certificate",
+      "Regional Tourism Ambassador",
+      "Licensed City Guide",
+    ],
+    specialties: [
+      "Local Craftsmanship",
+      "Local Cuisine",
+      "Music Scene",
+      "Adventure Sports",
+    ],
     specialTraining: [],
   },
   {
@@ -207,7 +261,12 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
     isPopular: false,
     bio: "Ethan is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Local Craftsmanship, Film Locations, Urban Legends, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Asia Pacific", "Middle East"],
-    tourTypes: ["Luxury Tour", "Private Tour", "Craft Workshop", "Historical Tour"],
+    tourTypes: [
+      "Luxury Tour",
+      "Private Tour",
+      "Craft Workshop",
+      "Historical Tour",
+    ],
     maxGroupSize: 16,
     licenseNumber: "LIC-8807-SYD",
     phoneNumber: "+1-809-133-3963",
@@ -223,7 +282,7 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -232,7 +291,7 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -245,19 +304,23 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Ethan is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Local Craftsmanship, Film Locations, Urban Legends, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Ethan is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Local Craftsmanship, Film Locations, Urban Legends, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 80,
     quote: "My goal is to help you fall in love with Sydney just as I have.",
     profileImage: "https://randomuser.me/api/portraits/women/75.jpg",
     languages: ["Cantonese"],
     experienceYears: 4,
-    certifications: ["Regional Tourism Ambassador", "Food Safety Certification"],
+    certifications: [
+      "Regional Tourism Ambassador",
+      "Food Safety Certification",
+    ],
     specialties: ["Local Craftsmanship", "Film Locations", "Urban Legends"],
     specialTraining: [],
   },
@@ -283,7 +346,7 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "21:00",
-          }
+          },
         ],
       },
       {
@@ -292,7 +355,7 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -305,19 +368,25 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Charlotte is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Architecture, Wildlife, Music Scene, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Charlotte is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Architecture, Wildlife, Music Scene, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 64,
-    quote: "Sydney isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Sydney isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/35.jpg",
     languages: ["Thai"],
     experienceYears: 13,
-    certifications: ["Certified International Tour Manager", "CPR & First Aid", "Regional Tourism Ambassador"],
+    certifications: [
+      "Certified International Tour Manager",
+      "CPR & First Aid",
+      "Regional Tourism Ambassador",
+    ],
     specialties: ["Architecture", "Wildlife", "Music Scene"],
     specialTraining: ["Wine Education"],
   },
@@ -343,7 +412,7 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -352,20 +421,26 @@ export const sydneyaustraliaasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Henry is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Local Markets, Local Craftsmanship, Art Galleries, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Henry is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Local Markets, Local Craftsmanship, Art Galleries, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
     reviewsCount: 8,
-    quote: "The best way to discover Sydney is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Sydney is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/11.jpg",
     languages: ["Bulgarian", "English"],
     experienceYears: 3,
-    certifications: ["Adventure Tourism Safety Certificate", "Sustainable Tourism Certificate", "Licensed City Guide"],
+    certifications: [
+      "Adventure Tourism Safety Certificate",
+      "Sustainable Tourism Certificate",
+      "Licensed City Guide",
+    ],
     specialties: ["Local Markets", "Local Craftsmanship", "Art Galleries"],
     specialTraining: [],
-  }
+  },
 ];

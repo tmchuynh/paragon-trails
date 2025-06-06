@@ -18,10 +18,12 @@ export const ketchikanunitedStatesalaskaGuides: TourGuide[] = [
     contactEmail: "wyatt.clark@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Wyatt is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Museums, Local Cuisine, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Wyatt is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Museums, Local Cuisine, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 16,
-    quote: "The best way to discover Ketchikan is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Ketchikan is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/67.jpg",
     languages: ["English", "Cantonese", "Norwegian"],
     experienceYears: 10,
@@ -46,15 +48,22 @@ export const ketchikanunitedStatesalaskaGuides: TourGuide[] = [
     contactEmail: "william.taylor@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "William is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Public Transportation Navigation, Photography Spots, Urban Legends, Local Cuisine, William provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "William is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Public Transportation Navigation, Photography Spots, Urban Legends, Local Cuisine, William provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 95,
-    quote: "Ketchikan isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Ketchikan isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/25.jpg",
     languages: ["Mandarin", "Greek", "Indonesian"],
     experienceYears: 15,
     certifications: ["Licensed City Guide"],
-    specialties: ["Public Transportation Navigation", "Photography Spots", "Urban Legends", "Local Cuisine"],
+    specialties: [
+      "Public Transportation Navigation",
+      "Photography Spots",
+      "Urban Legends",
+      "Local Cuisine",
+    ],
     specialTraining: ["Marine Biology", "Regional Geology"],
   },
   {
@@ -74,10 +83,12 @@ export const ketchikanunitedStatesalaskaGuides: TourGuide[] = [
     contactEmail: "aiden.hernandez@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Aiden is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Historical Landmarks, Architecture, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Aiden is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Historical Landmarks, Architecture, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 32,
-    quote: "The best way to discover Ketchikan is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Ketchikan is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/36.jpg",
     languages: ["Swahili"],
     experienceYears: 14,
@@ -95,7 +106,12 @@ export const ketchikanunitedStatesalaskaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Victoria is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Local Cuisine, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast USA", "Middle East"],
-    tourTypes: ["Off-Road Tour", "Nature Tour", "Walking Tour", "Wildlife Safari"],
+    tourTypes: [
+      "Off-Road Tour",
+      "Nature Tour",
+      "Walking Tour",
+      "Wildlife Safari",
+    ],
     maxGroupSize: 7,
     licenseNumber: "LIC-9485-KET",
     phoneNumber: "+1-865-839-9334",
@@ -111,7 +127,7 @@ export const ketchikanunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -120,7 +136,7 @@ export const ketchikanunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -129,15 +145,17 @@ export const ketchikanunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Victoria is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Local Cuisine, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Victoria is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Local Cuisine, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 48,
-    quote: "Ketchikan isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Ketchikan isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/36.jpg",
     languages: ["Mandarin"],
     experienceYears: 7,
@@ -167,7 +185,7 @@ export const ketchikanunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -180,7 +198,7 @@ export const ketchikanunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -193,7 +211,7 @@ export const ketchikanunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -202,19 +220,24 @@ export const ketchikanunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Isabella is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Cultural Etiquette, Public Transportation Navigation, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Isabella is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Cultural Etiquette, Public Transportation Navigation, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
     reviewsCount: 78,
-    quote: "Ketchikan isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Ketchikan isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/46.jpg",
     languages: ["French", "Russian", "Polish"],
     experienceYears: 8,
-    certifications: ["Wilderness First Responder", "Sustainable Tourism Certificate"],
+    certifications: [
+      "Wilderness First Responder",
+      "Sustainable Tourism Certificate",
+    ],
     specialties: ["Cultural Etiquette", "Public Transportation Navigation"],
     specialTraining: ["Art History"],
   },
@@ -244,7 +267,7 @@ export const ketchikanunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -257,7 +280,7 @@ export const ketchikanunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -270,20 +293,31 @@ export const ketchikanunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "13:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Harper is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Wine Tasting, Parks & Gardens, Public Transportation Navigation, Cultural Etiquette, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Harper is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Wine Tasting, Parks & Gardens, Public Transportation Navigation, Cultural Etiquette, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 14,
-    quote: "The best way to discover Ketchikan is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Ketchikan is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/33.jpg",
     languages: ["Greek", "Serbian"],
     experienceYears: 10,
-    certifications: ["CPR & First Aid", "Regional Tourism Ambassador", "Professional Tour Guide Association"],
-    specialties: ["Wine Tasting", "Parks & Gardens", "Public Transportation Navigation", "Cultural Etiquette"],
+    certifications: [
+      "CPR & First Aid",
+      "Regional Tourism Ambassador",
+      "Professional Tour Guide Association",
+    ],
+    specialties: [
+      "Wine Tasting",
+      "Parks & Gardens",
+      "Public Transportation Navigation",
+      "Cultural Etiquette",
+    ],
     specialTraining: [],
-  }
+  },
 ];

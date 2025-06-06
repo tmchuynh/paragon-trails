@@ -44,5 +44,5 @@ export const charlestonunitedStateseastCoastUsaCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "john.coleman@paragontrails.com",
     contactPhone: "+1-634-685-6841",
-  }
+  },
 ];

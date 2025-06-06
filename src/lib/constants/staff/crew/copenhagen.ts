@@ -44,5 +44,5 @@ export const copenhagendenmarknorthernEuropeCrew: CrewMember[] = [
     isAvailable: false,
     contactEmail: "george.porter@paragontrails.com",
     contactPhone: "+1-816-392-4448",
-  }
+  },
 ];

@@ -44,5 +44,5 @@ export const veniceitalymediterraneanCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "ahmed.campbell@paragontrails.com",
     contactPhone: "+1-448-465-5111",
-  }
+  },
 ];

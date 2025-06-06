@@ -11,21 +11,31 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Lucas is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Nightlife, Indigenous Culture, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["West Coast USA"],
-    tourTypes: ["Private Tour", "Museum Tour", "Scenic Tour", "LGBTQ+ Friendly Tour", "Shopping Tour"],
+    tourTypes: [
+      "Private Tour",
+      "Museum Tour",
+      "Scenic Tour",
+      "LGBTQ+ Friendly Tour",
+      "Shopping Tour",
+    ],
     maxGroupSize: 19,
     licenseNumber: "LIC-1156-BAR",
     phoneNumber: "+1-956-570-3303",
     contactEmail: "lucas.lee@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Lucas is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Nightlife, Indigenous Culture, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Lucas is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Nightlife, Indigenous Culture, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 103,
     quote: "In Barcelona, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/women/35.jpg",
     languages: ["Turkish", "Dutch"],
     experienceYears: 2,
-    certifications: ["Heritage Interpretation Certificate", "Eco-Tourism Guide"],
+    certifications: [
+      "Heritage Interpretation Certificate",
+      "Eco-Tourism Guide",
+    ],
     specialties: ["Nightlife", "Indigenous Culture"],
     specialTraining: [],
   },
@@ -46,10 +56,12 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
     contactEmail: "james.johnson@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "James is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Indigenous Culture, Film Locations, Architecture, James provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "James is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Indigenous Culture, Film Locations, Architecture, James provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 35,
-    quote: "Every corner of Barcelona tells a story, let me share them with you.",
+    quote:
+      "Every corner of Barcelona tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/57.jpg",
     languages: ["Hindi", "Polish", "Indonesian"],
     experienceYears: 12,
@@ -74,14 +86,19 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
     contactEmail: "mason.thompson@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Mason is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Wildlife, Architecture, Hidden Gems, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Mason is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Wildlife, Architecture, Hidden Gems, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 5,
     reviewsCount: 82,
-    quote: "Barcelona isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Barcelona isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/37.jpg",
     languages: ["Norwegian", "Korean", "Turkish"],
     experienceYears: 2,
-    certifications: ["Language Proficiency Certification", "Licensed City Guide"],
+    certifications: [
+      "Language Proficiency Certification",
+      "Licensed City Guide",
+    ],
     specialties: ["Wildlife", "Architecture", "Hidden Gems"],
     specialTraining: ["Accessibility Services"],
   },
@@ -95,21 +112,33 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Chloe is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Street Food, Indigenous Culture, Adventure Sports, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Mediterranean"],
-    tourTypes: ["Audio Tour", "Shopping Tour", "Market Tour", "Self-Guided Tour", "Group Tour"],
+    tourTypes: [
+      "Audio Tour",
+      "Shopping Tour",
+      "Market Tour",
+      "Self-Guided Tour",
+      "Group Tour",
+    ],
     maxGroupSize: 6,
     licenseNumber: "LIC-9813-BAR",
     phoneNumber: "+1-871-396-7190",
     contactEmail: "chloe.rodriguez@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Chloe is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Street Food, Indigenous Culture, Adventure Sports, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Chloe is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Street Food, Indigenous Culture, Adventure Sports, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 49,
-    quote: "Every corner of Barcelona tells a story, let me share them with you.",
+    quote:
+      "Every corner of Barcelona tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/63.jpg",
     languages: ["Bulgarian", "Italian", "Russian"],
     experienceYears: 3,
-    certifications: ["Urban Navigation Specialist", "Eco-Tourism Guide", "Food Safety Certification"],
+    certifications: [
+      "Urban Navigation Specialist",
+      "Eco-Tourism Guide",
+      "Food Safety Certification",
+    ],
     specialties: ["Street Food", "Indigenous Culture", "Adventure Sports"],
     specialTraining: ["Art History", "Regional Geology"],
   },
@@ -139,7 +168,7 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -152,7 +181,7 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -161,15 +190,17 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "12:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Alexander is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Museums, Local Markets, Music Scene, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Alexander is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Museums, Local Markets, Music Scene, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 17,
-    quote: "The best way to discover Barcelona is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Barcelona is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/39.jpg",
     languages: ["Arabic", "Italian"],
     experienceYears: 8,
@@ -203,7 +234,7 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -216,7 +247,7 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -225,7 +256,7 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -234,19 +265,24 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "11:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Emily is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Local Craftsmanship, Sustainable Tourism, Nightlife, Emily provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Emily is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Local Craftsmanship, Sustainable Tourism, Nightlife, Emily provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 74,
-    quote: "The best way to discover Barcelona is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Barcelona is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/42.jpg",
     languages: ["Danish", "Vietnamese", "Romanian"],
     experienceYears: 2,
-    certifications: ["Heritage Interpretation Certificate", "Certified International Tour Manager"],
+    certifications: [
+      "Heritage Interpretation Certificate",
+      "Certified International Tour Manager",
+    ],
     specialties: ["Local Craftsmanship", "Sustainable Tourism", "Nightlife"],
     specialTraining: ["Urban Planning"],
   },
@@ -272,7 +308,7 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "21:00",
-          }
+          },
         ],
       },
       {
@@ -285,7 +321,7 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -294,20 +330,25 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Isabella is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Art Galleries, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Isabella is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Art Galleries, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 5,
     reviewsCount: 12,
     quote: "In Barcelona, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/men/23.jpg",
     languages: ["Czech", "Italian"],
     experienceYears: 13,
-    certifications: ["Cultural Heritage Specialist", "Sustainable Tourism Certificate", "Language Proficiency Certification"],
+    certifications: [
+      "Cultural Heritage Specialist",
+      "Sustainable Tourism Certificate",
+      "Language Proficiency Certification",
+    ],
     specialties: ["Art Galleries"],
     specialTraining: [],
-  }
+  },
 ];

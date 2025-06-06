@@ -50,7 +50,11 @@ export const montevideouruguaysouthAmericaCrew: CrewMember[] = [
     name: "Elizabeth Fox",
     role: "Navigator",
     experienceYears: 10,
-    certifications: ["Dive Master", "Navigation Certification", "Security Training"],
+    certifications: [
+      "Dive Master",
+      "Navigation Certification",
+      "Security Training",
+    ],
     languagesSpoken: ["Finnish"],
     isAvailable: true,
     contactEmail: "elizabeth.fox@paragontrails.com",
@@ -66,5 +70,5 @@ export const montevideouruguaysouthAmericaCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "stella.jackson@paragontrails.com",
     contactPhone: "+1-894-092-2407",
-  }
+  },
 ];

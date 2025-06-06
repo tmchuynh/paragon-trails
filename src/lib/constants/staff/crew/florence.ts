@@ -44,5 +44,5 @@ export const florenceitalymediterraneanCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "avery.white@paragontrails.com",
     contactPhone: "+1-247-244-8853",
-  }
+  },
 ];

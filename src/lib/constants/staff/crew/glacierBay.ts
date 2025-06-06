@@ -28,7 +28,11 @@ export const glacierBayunitedStatesalaskaCrew: CrewMember[] = [
     name: "Naomi Dean",
     role: "Navigator",
     experienceYears: 6,
-    certifications: ["Environmental Awareness", "Dive Master", "Marine Radio Operator"],
+    certifications: [
+      "Environmental Awareness",
+      "Dive Master",
+      "Marine Radio Operator",
+    ],
     languagesSpoken: ["Thai", "Finnish"],
     isAvailable: true,
     contactEmail: "naomi.dean@paragontrails.com",
@@ -44,5 +48,5 @@ export const glacierBayunitedStatesalaskaCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "rebecca.jansen@paragontrails.com",
     contactPhone: "+1-679-149-9036",
-  }
+  },
 ];

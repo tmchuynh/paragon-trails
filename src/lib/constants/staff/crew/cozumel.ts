@@ -88,5 +88,5 @@ export const cozumelmexicocaribbeanCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "ellie.foster@paragontrails.com",
     contactPhone: "+1-135-559-9289",
-  }
+  },
 ];

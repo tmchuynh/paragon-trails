@@ -14,8 +14,8 @@ export const capeTownsouthAfricaafricaDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -23,8 +23,8 @@ export const capeTownsouthAfricaafricaDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -32,17 +32,27 @@ export const capeTownsouthAfricaafricaDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.7,
     phone: "+182 932-357-7609",
     email: "deborah.mitchell@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/82.jpg",
-    specialties: ["Airport Transfers", "Security Detail", "Corporate Chauffeur"],
-    vehicleTypesCertified: ["Electric Vehicle", "SUV", "Sedan", "Limousine", "Sports Car"],
+    specialties: [
+      "Airport Transfers",
+      "Security Detail",
+      "Corporate Chauffeur",
+    ],
+    vehicleTypesCertified: [
+      "Electric Vehicle",
+      "SUV",
+      "Sedan",
+      "Limousine",
+      "Sports Car",
+    ],
   },
   {
     id: "driver-cape-town-2",
@@ -57,8 +67,8 @@ export const capeTownsouthAfricaafricaDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -66,8 +76,8 @@ export const capeTownsouthAfricaafricaDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "04:00"
-          }
+            to: "04:00",
+          },
         ],
       },
       {
@@ -75,8 +85,8 @@ export const capeTownsouthAfricaafricaDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -84,14 +94,14 @@ export const capeTownsouthAfricaafricaDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "23:00"
+            to: "23:00",
           },
           {
             from: "19:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.9,
     phone: "+354 862-918-4047",
@@ -113,12 +123,12 @@ export const capeTownsouthAfricaafricaDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "18:00"
+            to: "18:00",
           },
           {
             from: "15:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -126,8 +136,8 @@ export const capeTownsouthAfricaafricaDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -135,8 +145,8 @@ export const capeTownsouthAfricaafricaDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -144,14 +154,14 @@ export const capeTownsouthAfricaafricaDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "22:00"
+            to: "22:00",
           },
           {
             from: "06:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.8,
     phone: "+748 634-421-5209",
@@ -173,12 +183,12 @@ export const capeTownsouthAfricaafricaDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "07:00"
+            to: "07:00",
           },
           {
             from: "15:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -186,12 +196,12 @@ export const capeTownsouthAfricaafricaDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "21:00"
+            to: "21:00",
           },
           {
             from: "09:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -199,14 +209,14 @@ export const capeTownsouthAfricaafricaDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "04:00"
+            to: "04:00",
           },
           {
             from: "20:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 5,
     phone: "+269 682-163-6534",
@@ -228,8 +238,8 @@ export const capeTownsouthAfricaafricaDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -237,8 +247,8 @@ export const capeTownsouthAfricaafricaDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -246,8 +256,8 @@ export const capeTownsouthAfricaafricaDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -255,12 +265,12 @@ export const capeTownsouthAfricaafricaDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "17:00"
+            to: "17:00",
           },
           {
             from: "02:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -268,21 +278,27 @@ export const capeTownsouthAfricaafricaDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "17:00"
+            to: "17:00",
           },
           {
             from: "16:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.4,
     phone: "+198 712-903-5669",
     email: "lucas.thomas@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/32.jpg",
     specialties: ["VIP Transport", "Corporate Chauffeur"],
-    vehicleTypesCertified: ["Sports Car", "Van", "Luxury SUV", "Limousine", "Sedan"],
+    vehicleTypesCertified: [
+      "Sports Car",
+      "Van",
+      "Luxury SUV",
+      "Limousine",
+      "Sedan",
+    ],
   },
   {
     id: "driver-cape-town-6",
@@ -297,12 +313,12 @@ export const capeTownsouthAfricaafricaDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "18:00"
+            to: "18:00",
           },
           {
             from: "17:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -310,8 +326,8 @@ export const capeTownsouthAfricaafricaDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -319,12 +335,12 @@ export const capeTownsouthAfricaafricaDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "06:00"
+            to: "06:00",
           },
           {
             from: "12:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
       },
       {
@@ -332,8 +348,8 @@ export const capeTownsouthAfricaafricaDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -341,14 +357,14 @@ export const capeTownsouthAfricaafricaDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "06:00"
+            to: "06:00",
           },
           {
             from: "10:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.3,
     phone: "+538 392-895-7615",
@@ -356,5 +372,5 @@ export const capeTownsouthAfricaafricaDrivers: Driver[] = [
     photoUrl: "https://randomuser.me/api/portraits/women/1.jpg",
     specialties: ["Corporate Chauffeur"],
     vehicleTypesCertified: ["Electric Vehicle", "Luxury SUV"],
-  }
+  },
 ];

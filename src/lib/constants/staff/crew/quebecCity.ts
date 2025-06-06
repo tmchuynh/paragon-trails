@@ -33,5 +33,5 @@ export const quebecCitycanadaeastCoastCanadaCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "aiden.jennings@paragontrails.com",
     contactPhone: "+1-256-677-6159",
-  }
+  },
 ];

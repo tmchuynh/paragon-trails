@@ -27,7 +27,7 @@ export const amalfiCoastGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -36,7 +36,7 @@ export const amalfiCoastGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -45,7 +45,7 @@ export const amalfiCoastGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -58,7 +58,7 @@ export const amalfiCoastGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -67,19 +67,24 @@ export const amalfiCoastGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Layla is a passionate tour guide with extensive knowledge of Amalfi Coast and Unknown Country. Specializing in Adventure Sports, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Layla is a passionate tour guide with extensive knowledge of Amalfi Coast and Unknown Country. Specializing in Adventure Sports, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 85,
-    quote: "Every corner of Amalfi Coast tells a story, let me share them with you.",
+    quote:
+      "Every corner of Amalfi Coast tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/27.jpg",
     languages: ["Finnish"],
     experienceYears: 15,
-    certifications: ["Regional Tourism Ambassador", "Heritage Interpretation Certificate"],
+    certifications: [
+      "Regional Tourism Ambassador",
+      "Heritage Interpretation Certificate",
+    ],
     specialties: ["Adventure Sports"],
     specialTraining: ["Local Flora & Fauna", "Group Management"],
   },
@@ -109,7 +114,7 @@ export const amalfiCoastGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -122,7 +127,7 @@ export const amalfiCoastGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "21:00",
-          }
+          },
         ],
       },
       {
@@ -135,20 +140,26 @@ export const amalfiCoastGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "13:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Logan is a passionate tour guide with extensive knowledge of Amalfi Coast and Unknown Country. Specializing in Public Transportation Navigation, Adventure Sports, Wildlife, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Logan is a passionate tour guide with extensive knowledge of Amalfi Coast and Unknown Country. Specializing in Public Transportation Navigation, Adventure Sports, Wildlife, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 79,
-    quote: "The best way to discover Amalfi Coast is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Amalfi Coast is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/57.jpg",
     languages: ["Czech", "Serbian", "Finnish"],
     experienceYears: 13,
     certifications: ["Cultural Heritage Specialist", "Licensed City Guide"],
-    specialties: ["Public Transportation Navigation", "Adventure Sports", "Wildlife"],
+    specialties: [
+      "Public Transportation Navigation",
+      "Adventure Sports",
+      "Wildlife",
+    ],
     specialTraining: ["Regional Cuisine", "Art History"],
   },
   {
@@ -161,7 +172,13 @@ export const amalfiCoastGuides: TourGuide[] = [
     isPopular: true,
     bio: "Mason is a passionate tour guide with extensive knowledge of Amalfi Coast and Unknown Country. Specializing in Adventure Sports, Film Locations, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast USA"],
-    tourTypes: ["LGBTQ+ Friendly Tour", "Self-Guided Tour", "Luxury Tour", "Audio Tour", "Romantic Tour"],
+    tourTypes: [
+      "LGBTQ+ Friendly Tour",
+      "Self-Guided Tour",
+      "Luxury Tour",
+      "Audio Tour",
+      "Romantic Tour",
+    ],
     maxGroupSize: 15,
     licenseNumber: "LIC-3449-AMA",
     phoneNumber: "+1-954-430-9750",
@@ -177,7 +194,7 @@ export const amalfiCoastGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -186,7 +203,7 @@ export const amalfiCoastGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "10:00",
-          }
+          },
         ],
       },
       {
@@ -195,7 +212,7 @@ export const amalfiCoastGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -204,20 +221,26 @@ export const amalfiCoastGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "21:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Mason is a passionate tour guide with extensive knowledge of Amalfi Coast and Unknown Country. Specializing in Adventure Sports, Film Locations, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Mason is a passionate tour guide with extensive knowledge of Amalfi Coast and Unknown Country. Specializing in Adventure Sports, Film Locations, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
     reviewsCount: 48,
-    quote: "My goal is to help you fall in love with Amalfi Coast just as I have.",
+    quote:
+      "My goal is to help you fall in love with Amalfi Coast just as I have.",
     profileImage: "https://randomuser.me/api/portraits/men/41.jpg",
     languages: ["Bulgarian"],
     experienceYears: 5,
-    certifications: ["Urban Navigation Specialist", "Wilderness First Responder", "Food Safety Certification"],
+    certifications: [
+      "Urban Navigation Specialist",
+      "Wilderness First Responder",
+      "Food Safety Certification",
+    ],
     specialties: ["Adventure Sports", "Film Locations"],
     specialTraining: ["Religious Studies", "Regional Cuisine"],
-  }
+  },
 ];

@@ -11,14 +11,21 @@ export const torontocanadaeastCoastCanadaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Mia is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Religious Sites, Cultural Etiquette, Sustainable Tourism, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Middle East", "Africa"],
-    tourTypes: ["Family-Friendly Tour", "Street Art Tour", "Adventure Tour", "Romantic Tour", "Farm Visit"],
+    tourTypes: [
+      "Family-Friendly Tour",
+      "Street Art Tour",
+      "Adventure Tour",
+      "Romantic Tour",
+      "Farm Visit",
+    ],
     maxGroupSize: 15,
     licenseNumber: "LIC-3357-TOR",
     phoneNumber: "+1-616-531-9806",
     contactEmail: "mia.green@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Mia is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Religious Sites, Cultural Etiquette, Sustainable Tourism, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Mia is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Religious Sites, Cultural Etiquette, Sustainable Tourism, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 96,
     quote: "Every corner of Toronto tells a story, let me share them with you.",
@@ -26,7 +33,11 @@ export const torontocanadaeastCoastCanadaGuides: TourGuide[] = [
     languages: ["Bulgarian", "Romanian"],
     experienceYears: 2,
     certifications: ["Regional Tourism Ambassador"],
-    specialties: ["Religious Sites", "Cultural Etiquette", "Sustainable Tourism"],
+    specialties: [
+      "Religious Sites",
+      "Cultural Etiquette",
+      "Sustainable Tourism",
+    ],
     specialTraining: [],
   },
   {
@@ -39,22 +50,36 @@ export const torontocanadaeastCoastCanadaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Abigail is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Parks & Gardens, Museums, Nightlife, Indigenous Culture, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Northern Europe"],
-    tourTypes: ["Food Tour", "Family-Friendly Tour", "Scenic Tour", "Boat Tour"],
+    tourTypes: [
+      "Food Tour",
+      "Family-Friendly Tour",
+      "Scenic Tour",
+      "Boat Tour",
+    ],
     maxGroupSize: 14,
     licenseNumber: "LIC-3103-TOR",
     phoneNumber: "+1-214-380-4193",
     contactEmail: "abigail.thompson@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Abigail is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Parks & Gardens, Museums, Nightlife, Indigenous Culture, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Abigail is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Parks & Gardens, Museums, Nightlife, Indigenous Culture, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 23,
     quote: "Every corner of Toronto tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/27.jpg",
     languages: ["Mandarin"],
     experienceYears: 7,
-    certifications: ["Wilderness First Responder", "Language Proficiency Certification"],
-    specialties: ["Parks & Gardens", "Museums", "Nightlife", "Indigenous Culture"],
+    certifications: [
+      "Wilderness First Responder",
+      "Language Proficiency Certification",
+    ],
+    specialties: [
+      "Parks & Gardens",
+      "Museums",
+      "Nightlife",
+      "Indigenous Culture",
+    ],
     specialTraining: ["Art History", "Religious Studies"],
   },
   {
@@ -74,14 +99,18 @@ export const torontocanadaeastCoastCanadaGuides: TourGuide[] = [
     contactEmail: "charlotte.rivera@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Charlotte is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Religious Sites, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Charlotte is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Religious Sites, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 91,
     quote: "In Toronto, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/women/48.jpg",
     languages: ["Swedish", "Norwegian", "Polish"],
     experienceYears: 10,
-    certifications: ["Regional Tourism Ambassador", "Wilderness First Responder"],
+    certifications: [
+      "Regional Tourism Ambassador",
+      "Wilderness First Responder",
+    ],
     specialties: ["Religious Sites"],
     specialTraining: ["Conflict Resolution", "Religious Studies"],
   },
@@ -102,14 +131,18 @@ export const torontocanadaeastCoastCanadaGuides: TourGuide[] = [
     contactEmail: "liam.rodriguez@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Liam is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Adventure Sports, Local Markets, Cultural Etiquette, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Liam is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Adventure Sports, Local Markets, Cultural Etiquette, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
     reviewsCount: 18,
     quote: "In Toronto, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/men/5.jpg",
     languages: ["German"],
     experienceYears: 2,
-    certifications: ["Regional Tourism Ambassador", "Cultural Heritage Specialist"],
+    certifications: [
+      "Regional Tourism Ambassador",
+      "Cultural Heritage Specialist",
+    ],
     specialties: ["Adventure Sports", "Local Markets", "Cultural Etiquette"],
     specialTraining: [],
   },
@@ -139,7 +172,7 @@ export const torontocanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -152,7 +185,7 @@ export const torontocanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "10:00",
-          }
+          },
         ],
       },
       {
@@ -165,19 +198,24 @@ export const torontocanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Victoria is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Urban Legends, Religious Sites, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Victoria is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Urban Legends, Religious Sites, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 38,
     quote: "In Toronto, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/men/6.jpg",
     languages: ["Mandarin"],
     experienceYears: 4,
-    certifications: ["Wilderness First Responder", "Language Proficiency Certification", "Professional Tour Guide Association"],
+    certifications: [
+      "Wilderness First Responder",
+      "Language Proficiency Certification",
+      "Professional Tour Guide Association",
+    ],
     specialties: ["Urban Legends", "Religious Sites"],
     specialTraining: [],
   },
@@ -207,7 +245,7 @@ export const torontocanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -216,7 +254,7 @@ export const torontocanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -225,15 +263,17 @@ export const torontocanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "10:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Henry is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Art Galleries, Parks & Gardens, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Henry is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Art Galleries, Parks & Gardens, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 61,
-    quote: "Toronto isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Toronto isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/53.jpg",
     languages: ["Finnish", "Czech"],
     experienceYears: 12,
@@ -251,7 +291,12 @@ export const torontocanadaeastCoastCanadaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Benjamin is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Urban Legends, Photography Spots, Local Cuisine, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Africa", "Mediterranean"],
-    tourTypes: ["Self-Guided Tour", "Photography Tour", "Ghost Tour", "Bike Tour"],
+    tourTypes: [
+      "Self-Guided Tour",
+      "Photography Tour",
+      "Ghost Tour",
+      "Bike Tour",
+    ],
     maxGroupSize: 10,
     licenseNumber: "LIC-7230-TOR",
     phoneNumber: "+1-148-684-1585",
@@ -263,7 +308,7 @@ export const torontocanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -272,7 +317,7 @@ export const torontocanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -285,7 +330,7 @@ export const torontocanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -298,7 +343,7 @@ export const torontocanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -307,7 +352,7 @@ export const torontocanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -316,20 +361,24 @@ export const torontocanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Benjamin is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Urban Legends, Photography Spots, Local Cuisine, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Benjamin is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Urban Legends, Photography Spots, Local Cuisine, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 57,
     quote: "Every corner of Toronto tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/30.jpg",
     languages: ["Cantonese", "Dutch"],
     experienceYears: 15,
-    certifications: ["Sustainable Tourism Certificate", "Local History Certification"],
+    certifications: [
+      "Sustainable Tourism Certificate",
+      "Local History Certification",
+    ],
     specialties: ["Urban Legends", "Photography Spots", "Local Cuisine"],
     specialTraining: ["Cultural Sensitivity", "Urban Planning"],
-  }
+  },
 ];

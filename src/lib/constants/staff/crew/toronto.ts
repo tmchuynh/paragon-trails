@@ -72,10 +72,14 @@ export const torontocanadaeastCoastCanadaCrew: CrewMember[] = [
     name: "Amelia Johnson",
     role: "First Mate",
     experienceYears: 6,
-    certifications: ["First Aid", "Hospitality Training", "Marine Radio Operator"],
+    certifications: [
+      "First Aid",
+      "Hospitality Training",
+      "Marine Radio Operator",
+    ],
     languagesSpoken: ["Polish"],
     isAvailable: true,
     contactEmail: "amelia.johnson@paragontrails.com",
     contactPhone: "+1-573-703-1570",
-  }
+  },
 ];

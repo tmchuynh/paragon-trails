@@ -11,21 +11,31 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
     isPopular: true,
     bio: "Mason is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Urban Legends, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Mediterranean"],
-    tourTypes: ["Religious Tour", "Wine Tour", "Cruise Excursion", "Romantic Tour"],
+    tourTypes: [
+      "Religious Tour",
+      "Wine Tour",
+      "Cruise Excursion",
+      "Romantic Tour",
+    ],
     maxGroupSize: 12,
     licenseNumber: "LIC-6231-BER",
     phoneNumber: "+1-419-412-8891",
     contactEmail: "mason.baker@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Mason is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Urban Legends, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Mason is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Urban Legends, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
     reviewsCount: 74,
     quote: "In Bermuda, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/women/79.jpg",
     languages: ["Polish", "Czech", "Cantonese"],
     experienceYears: 5,
-    certifications: ["Urban Navigation Specialist", "Heritage Interpretation Certificate", "Local History Certification"],
+    certifications: [
+      "Urban Navigation Specialist",
+      "Heritage Interpretation Certificate",
+      "Local History Certification",
+    ],
     specialties: ["Urban Legends"],
     specialTraining: ["Accessibility Services"],
   },
@@ -39,21 +49,31 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
     isPopular: true,
     bio: "David is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Film Locations, Architecture, Music Scene, David provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Middle East"],
-    tourTypes: ["Private Tour", "Historical Tour", "Helicopter Tour", "Religious Tour"],
+    tourTypes: [
+      "Private Tour",
+      "Historical Tour",
+      "Helicopter Tour",
+      "Religious Tour",
+    ],
     maxGroupSize: 5,
     licenseNumber: "LIC-2390-BER",
     phoneNumber: "+1-870-494-2081",
     contactEmail: "david.rodriguez@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "David is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Film Locations, Architecture, Music Scene, David provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "David is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Film Locations, Architecture, Music Scene, David provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 84,
-    quote: "Bermuda isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Bermuda isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/34.jpg",
     languages: ["Portuguese", "Swedish", "Norwegian"],
     experienceYears: 6,
-    certifications: ["Wilderness First Responder", "Urban Navigation Specialist"],
+    certifications: [
+      "Wilderness First Responder",
+      "Urban Navigation Specialist",
+    ],
     specialties: ["Film Locations", "Architecture", "Music Scene"],
     specialTraining: ["Group Management", "Local Transit Systems"],
   },
@@ -74,7 +94,8 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
     contactEmail: "zoe.rivera@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Zoe is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Parks & Gardens, Local Markets, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Zoe is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Parks & Gardens, Local Markets, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 61,
     quote: "Every corner of Bermuda tells a story, let me share them with you.",
@@ -95,14 +116,21 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
     isPopular: true,
     bio: "Layla is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Hidden Gems, Local Craftsmanship, Street Food, LGBTQ+ History, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Northern Europe"],
-    tourTypes: ["Nature Tour", "Family-Friendly Tour", "Accessible Tour", "Relocation Tour", "Scenic Tour"],
+    tourTypes: [
+      "Nature Tour",
+      "Family-Friendly Tour",
+      "Accessible Tour",
+      "Relocation Tour",
+      "Scenic Tour",
+    ],
     maxGroupSize: 15,
     licenseNumber: "LIC-1735-BER",
     phoneNumber: "+1-770-225-5969",
     contactEmail: "layla.campbell@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Layla is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Hidden Gems, Local Craftsmanship, Street Food, LGBTQ+ History, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Layla is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Hidden Gems, Local Craftsmanship, Street Food, LGBTQ+ History, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 16,
     quote: "Every corner of Bermuda tells a story, let me share them with you.",
@@ -110,7 +138,12 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
     languages: ["Malay"],
     experienceYears: 11,
     certifications: ["Certified International Tour Manager"],
-    specialties: ["Hidden Gems", "Local Craftsmanship", "Street Food", "LGBTQ+ History"],
+    specialties: [
+      "Hidden Gems",
+      "Local Craftsmanship",
+      "Street Food",
+      "LGBTQ+ History",
+    ],
     specialTraining: ["Conflict Resolution", "Accessibility Services"],
   },
   {
@@ -130,14 +163,19 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
     contactEmail: "sophia.harris@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Sophia is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Museums, Family Activities, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sophia is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Museums, Family Activities, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
     reviewsCount: 89,
-    quote: "The best way to discover Bermuda is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Bermuda is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/71.jpg",
     languages: ["English", "Danish", "Indonesian"],
     experienceYears: 5,
-    certifications: ["Heritage Interpretation Certificate", "Food Safety Certification"],
+    certifications: [
+      "Heritage Interpretation Certificate",
+      "Food Safety Certification",
+    ],
     specialties: ["Museums", "Family Activities"],
     specialTraining: ["Mountain Survival", "Local Flora & Fauna"],
   },
@@ -167,7 +205,7 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -180,7 +218,7 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "21:00",
-          }
+          },
         ],
       },
       {
@@ -193,19 +231,23 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Lucas is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Photography Spots, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Lucas is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Photography Spots, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 43,
     quote: "My goal is to help you fall in love with Bermuda just as I have.",
     profileImage: "https://randomuser.me/api/portraits/women/10.jpg",
     languages: ["Japanese", "Thai", "Italian"],
     experienceYears: 13,
-    certifications: ["Licensed City Guide", "Heritage Interpretation Certificate"],
+    certifications: [
+      "Licensed City Guide",
+      "Heritage Interpretation Certificate",
+    ],
     specialties: ["Photography Spots"],
     specialTraining: ["Photography", "Cultural Sensitivity"],
   },
@@ -231,7 +273,7 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -244,7 +286,7 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -257,19 +299,23 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "18:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Benjamin is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Parks & Gardens, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Benjamin is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Parks & Gardens, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 44,
     quote: "In Bermuda, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/women/32.jpg",
     languages: ["Indonesian", "Croatian"],
     experienceYears: 5,
-    certifications: ["Local History Certification", "Food Safety Certification"],
+    certifications: [
+      "Local History Certification",
+      "Food Safety Certification",
+    ],
     specialties: ["Parks & Gardens"],
     specialTraining: [],
   },
@@ -295,7 +341,7 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -308,7 +354,7 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -317,20 +363,26 @@ export const bermudabermudacaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "12:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Abigail is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Film Locations, Nightlife, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Abigail is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Film Locations, Nightlife, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.5,
     reviewsCount: 27,
-    quote: "Bermuda isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Bermuda isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/57.jpg",
     languages: ["Turkish", "Swedish"],
     experienceYears: 10,
-    certifications: ["Adventure Tourism Safety Certificate", "Eco-Tourism Guide", "Cultural Heritage Specialist"],
+    certifications: [
+      "Adventure Tourism Safety Certificate",
+      "Eco-Tourism Guide",
+      "Cultural Heritage Specialist",
+    ],
     specialties: ["Film Locations", "Nightlife"],
     specialTraining: [],
-  }
+  },
 ];

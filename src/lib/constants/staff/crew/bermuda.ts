@@ -50,10 +50,14 @@ export const bermudabermudacaribbeanCrew: CrewMember[] = [
     name: "Margaret Jackson",
     role: "Host/Hostess",
     experienceYears: 20,
-    certifications: ["Hospitality Training", "Marine Radio Operator", "Dive Master"],
+    certifications: [
+      "Hospitality Training",
+      "Marine Radio Operator",
+      "Dive Master",
+    ],
     languagesSpoken: ["Italian", "Polish"],
     isAvailable: false,
     contactEmail: "margaret.jackson@paragontrails.com",
     contactPhone: "+1-522-711-5344",
-  }
+  },
 ];

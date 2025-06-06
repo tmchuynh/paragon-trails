@@ -33,5 +33,5 @@ export const amalfiCoastCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "isabella.griffin@paragontrails.com",
     contactPhone: "+1-440-734-0522",
-  }
+  },
 ];

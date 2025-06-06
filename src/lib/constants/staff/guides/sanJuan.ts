@@ -18,10 +18,12 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
     contactEmail: "logan.miller@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Logan is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Public Transportation Navigation, Urban Legends, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Logan is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Public Transportation Navigation, Urban Legends, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 28,
-    quote: "San Juan isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "San Juan isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/62.jpg",
     languages: ["Cantonese"],
     experienceYears: 10,
@@ -46,14 +48,18 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
     contactEmail: "ella.lopez@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Ella is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Music Scene, Art Galleries, Museums, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Ella is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Music Scene, Art Galleries, Museums, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 55,
     quote: "In San Juan, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/men/26.jpg",
     languages: ["Polish", "Mandarin"],
     experienceYears: 15,
-    certifications: ["Regional Tourism Ambassador", "Professional Tour Guide Association"],
+    certifications: [
+      "Regional Tourism Ambassador",
+      "Professional Tour Guide Association",
+    ],
     specialties: ["Music Scene", "Art Galleries", "Museums"],
     specialTraining: ["Religious Studies", "Regional Geology"],
   },
@@ -67,22 +73,37 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Ethan is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Hidden Gems, Public Transportation Navigation, Wine Tasting, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast USA"],
-    tourTypes: ["Private Tour", "Walking Tour", "Nature Tour", "Architecture Tour", "Museum Tour"],
+    tourTypes: [
+      "Private Tour",
+      "Walking Tour",
+      "Nature Tour",
+      "Architecture Tour",
+      "Museum Tour",
+    ],
     maxGroupSize: 8,
     licenseNumber: "LIC-9526-SAN",
     phoneNumber: "+1-233-972-1571",
     contactEmail: "ethan.king@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Ethan is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Hidden Gems, Public Transportation Navigation, Wine Tasting, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Ethan is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Hidden Gems, Public Transportation Navigation, Wine Tasting, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
     reviewsCount: 10,
-    quote: "Every corner of San Juan tells a story, let me share them with you.",
+    quote:
+      "Every corner of San Juan tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/5.jpg",
     languages: ["Swedish"],
     experienceYears: 6,
-    certifications: ["Regional Tourism Ambassador", "Language Proficiency Certification"],
-    specialties: ["Hidden Gems", "Public Transportation Navigation", "Wine Tasting"],
+    certifications: [
+      "Regional Tourism Ambassador",
+      "Language Proficiency Certification",
+    ],
+    specialties: [
+      "Hidden Gems",
+      "Public Transportation Navigation",
+      "Wine Tasting",
+    ],
     specialTraining: [],
   },
   {
@@ -102,7 +123,8 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
     contactEmail: "mason.young@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Mason is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Public Transportation Navigation, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Mason is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Public Transportation Navigation, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 29,
     quote: "In San Juan, we don't just see the sights - we make memories.",
@@ -123,7 +145,13 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Victoria is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Local Cuisine, Film Locations, Sustainable Tourism, Family Activities, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Asia Pacific"],
-    tourTypes: ["Nature Tour", "Cultural Tour", "Romantic Tour", "Farm Visit", "Shopping Tour"],
+    tourTypes: [
+      "Nature Tour",
+      "Cultural Tour",
+      "Romantic Tour",
+      "Farm Visit",
+      "Shopping Tour",
+    ],
     maxGroupSize: 11,
     licenseNumber: "LIC-5224-SAN",
     phoneNumber: "+1-936-146-6125",
@@ -139,7 +167,7 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -148,12 +176,13 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Victoria is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Local Cuisine, Film Locations, Sustainable Tourism, Family Activities, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Victoria is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Local Cuisine, Film Locations, Sustainable Tourism, Family Activities, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 50,
     quote: "In San Juan, we don't just see the sights - we make memories.",
@@ -161,7 +190,12 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
     languages: ["Thai"],
     experienceYears: 16,
     certifications: ["Certified International Tour Manager"],
-    specialties: ["Local Cuisine", "Film Locations", "Sustainable Tourism", "Family Activities"],
+    specialties: [
+      "Local Cuisine",
+      "Film Locations",
+      "Sustainable Tourism",
+      "Family Activities",
+    ],
     specialTraining: ["Local Transit Systems", "Public Speaking"],
   },
   {
@@ -186,7 +220,7 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -195,7 +229,7 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -204,7 +238,7 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -213,15 +247,17 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Lily is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Museums, Film Locations, Indigenous Culture, Lily provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Lily is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Museums, Film Locations, Indigenous Culture, Lily provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 70,
-    quote: "The best way to discover San Juan is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover San Juan is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/11.jpg",
     languages: ["Cantonese"],
     experienceYears: 14,
@@ -255,7 +291,7 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -264,7 +300,7 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -277,20 +313,28 @@ export const sanJuanpuertoRicocaribbeanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Victoria is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Sustainable Tourism, Public Transportation Navigation, Film Locations, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Victoria is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Sustainable Tourism, Public Transportation Navigation, Film Locations, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 18,
     quote: "In San Juan, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/men/20.jpg",
     languages: ["Finnish", "Hebrew", "Swedish"],
     experienceYears: 12,
-    certifications: ["Sustainable Tourism Certificate", "Food Safety Certification"],
-    specialties: ["Sustainable Tourism", "Public Transportation Navigation", "Film Locations"],
+    certifications: [
+      "Sustainable Tourism Certificate",
+      "Food Safety Certification",
+    ],
+    specialties: [
+      "Sustainable Tourism",
+      "Public Transportation Navigation",
+      "Film Locations",
+    ],
     specialTraining: [],
-  }
+  },
 ];

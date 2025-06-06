@@ -14,12 +14,12 @@ export const oslonorwaynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "18:00"
+            to: "18:00",
           },
           {
             from: "00:00",
-            to: "03:00"
-          }
+            to: "03:00",
+          },
         ],
       },
       {
@@ -27,8 +27,8 @@ export const oslonorwaynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -36,14 +36,14 @@ export const oslonorwaynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "10:00"
+            to: "10:00",
           },
           {
             from: "21:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.5,
     phone: "+818 911-599-5476",
@@ -65,8 +65,8 @@ export const oslonorwaynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -74,8 +74,8 @@ export const oslonorwaynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -83,8 +83,8 @@ export const oslonorwaynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -92,14 +92,14 @@ export const oslonorwaynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "11:00"
+            to: "11:00",
           },
           {
             from: "14:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.1,
     phone: "+62 887-393-6849",
@@ -121,8 +121,8 @@ export const oslonorwaynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -130,8 +130,8 @@ export const oslonorwaynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
       },
       {
@@ -139,12 +139,12 @@ export const oslonorwaynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "12:00"
+            to: "12:00",
           },
           {
             from: "15:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -152,14 +152,14 @@ export const oslonorwaynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "14:00"
+            to: "14:00",
           },
           {
             from: "21:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.9,
     phone: "+587 696-622-8361",
@@ -181,8 +181,8 @@ export const oslonorwaynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
       },
       {
@@ -190,12 +190,12 @@ export const oslonorwaynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "13:00"
+            to: "13:00",
           },
           {
             from: "15:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -203,12 +203,12 @@ export const oslonorwaynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "05:00"
+            to: "05:00",
           },
           {
             from: "07:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
       },
       {
@@ -216,10 +216,10 @@ export const oslonorwaynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "02:00"
-          }
+            to: "02:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.8,
     phone: "+585 656-763-1757",
@@ -241,12 +241,12 @@ export const oslonorwaynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "16:00"
+            to: "16:00",
           },
           {
             from: "21:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -254,8 +254,8 @@ export const oslonorwaynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
       },
       {
@@ -263,8 +263,8 @@ export const oslonorwaynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
       },
       {
@@ -272,12 +272,12 @@ export const oslonorwaynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "22:00"
+            to: "22:00",
           },
           {
             from: "19:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -285,16 +285,20 @@ export const oslonorwaynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.8,
     phone: "+237 644-746-7155",
     email: "brandon.knight@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/77.jpg",
-    specialties: ["Event Transportation", "Tour Guide Driver", "Airport Transfers"],
+    specialties: [
+      "Event Transportation",
+      "Tour Guide Driver",
+      "Airport Transfers",
+    ],
     vehicleTypesCertified: ["Motorcoach", "Luxury SUV", "Sports Car"],
   },
   {
@@ -310,8 +314,8 @@ export const oslonorwaynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "03:00"
-          }
+            to: "03:00",
+          },
         ],
       },
       {
@@ -319,8 +323,8 @@ export const oslonorwaynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -328,10 +332,10 @@ export const oslonorwaynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.7,
     phone: "+542 578-163-1583",
@@ -353,8 +357,8 @@ export const oslonorwaynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
       },
       {
@@ -362,8 +366,8 @@ export const oslonorwaynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -371,12 +375,12 @@ export const oslonorwaynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "02:00"
+            to: "02:00",
           },
           {
             from: "03:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -384,8 +388,8 @@ export const oslonorwaynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -393,10 +397,10 @@ export const oslonorwaynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.7,
     phone: "+369 117-607-9748",
@@ -418,8 +422,8 @@ export const oslonorwaynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -427,12 +431,12 @@ export const oslonorwaynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "13:00"
+            to: "13:00",
           },
           {
             from: "04:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
       },
       {
@@ -440,12 +444,12 @@ export const oslonorwaynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "10:00"
+            to: "10:00",
           },
           {
             from: "10:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
       },
       {
@@ -453,12 +457,12 @@ export const oslonorwaynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "11:00"
+            to: "11:00",
           },
           {
             from: "04:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -466,20 +470,25 @@ export const oslonorwaynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "08:00"
+            to: "08:00",
           },
           {
             from: "10:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.8,
     phone: "+175 889-827-3619",
     email: "ahmed.keller@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/7.jpg",
-    specialties: ["Corporate Chauffeur", "Luxury Car Specialist", "VIP Transport", "Night Shift"],
+    specialties: [
+      "Corporate Chauffeur",
+      "Luxury Car Specialist",
+      "VIP Transport",
+      "Night Shift",
+    ],
     vehicleTypesCertified: ["Electric Vehicle", "SUV"],
   },
   {
@@ -495,12 +504,12 @@ export const oslonorwaynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "23:00"
+            to: "23:00",
           },
           {
             from: "19:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -508,12 +517,12 @@ export const oslonorwaynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "13:00"
+            to: "13:00",
           },
           {
             from: "11:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
       },
       {
@@ -521,12 +530,12 @@ export const oslonorwaynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "13:00"
+            to: "13:00",
           },
           {
             from: "19:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -534,14 +543,14 @@ export const oslonorwaynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "06:00"
+            to: "06:00",
           },
           {
             from: "07:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.5,
     phone: "+249 134-296-9609",
@@ -549,5 +558,5 @@ export const oslonorwaynorthernEuropeDrivers: Driver[] = [
     photoUrl: "https://randomuser.me/api/portraits/women/16.jpg",
     specialties: ["VIP Transport"],
     vehicleTypesCertified: ["Van"],
-  }
+  },
 ];

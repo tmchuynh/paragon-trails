@@ -18,14 +18,19 @@ export const milanitalymediterraneanGuides: TourGuide[] = [
     contactEmail: "scarlett.campbell@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Scarlett is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Film Locations, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Scarlett is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Film Locations, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 66,
-    quote: "The best way to discover Milan is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Milan is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/28.jpg",
     languages: ["Danish"],
     experienceYears: 3,
-    certifications: ["Professional Tour Guide Association", "Language Proficiency Certification"],
+    certifications: [
+      "Professional Tour Guide Association",
+      "Language Proficiency Certification",
+    ],
     specialties: ["Film Locations"],
     specialTraining: ["Urban Planning", "Regional Cuisine"],
   },
@@ -39,22 +44,38 @@ export const milanitalymediterraneanGuides: TourGuide[] = [
     isPopular: false,
     bio: "William is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Local Craftsmanship, Urban Legends, Historical Landmarks, Cultural Etiquette, William provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Middle East"],
-    tourTypes: ["Brewery Tour", "Market Tour", "Adventure Tour", "Accessible Tour"],
+    tourTypes: [
+      "Brewery Tour",
+      "Market Tour",
+      "Adventure Tour",
+      "Accessible Tour",
+    ],
     maxGroupSize: 18,
     licenseNumber: "LIC-4592-MIL",
     phoneNumber: "+1-886-890-8383",
     contactEmail: "william.roberts@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "William is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Local Craftsmanship, Urban Legends, Historical Landmarks, Cultural Etiquette, William provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "William is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Local Craftsmanship, Urban Legends, Historical Landmarks, Cultural Etiquette, William provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 104,
-    quote: "Milan isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Milan isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/48.jpg",
     languages: ["German"],
     experienceYears: 13,
-    certifications: ["Local History Certification", "Urban Navigation Specialist", "CPR & First Aid"],
-    specialties: ["Local Craftsmanship", "Urban Legends", "Historical Landmarks", "Cultural Etiquette"],
+    certifications: [
+      "Local History Certification",
+      "Urban Navigation Specialist",
+      "CPR & First Aid",
+    ],
+    specialties: [
+      "Local Craftsmanship",
+      "Urban Legends",
+      "Historical Landmarks",
+      "Cultural Etiquette",
+    ],
     specialTraining: ["Conflict Resolution", "Urban Planning"],
   },
   {
@@ -74,14 +95,18 @@ export const milanitalymediterraneanGuides: TourGuide[] = [
     contactEmail: "joseph.young@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Joseph is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Local Markets, Local Cuisine, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Joseph is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Local Markets, Local Cuisine, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
     reviewsCount: 40,
     quote: "In Milan, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/men/64.jpg",
     languages: ["Japanese"],
     experienceYears: 8,
-    certifications: ["Food Safety Certification", "Sustainable Tourism Certificate"],
+    certifications: [
+      "Food Safety Certification",
+      "Sustainable Tourism Certificate",
+    ],
     specialties: ["Local Markets", "Local Cuisine"],
     specialTraining: ["Regional Cuisine"],
   },
@@ -95,21 +120,32 @@ export const milanitalymediterraneanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Chloe is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Music Scene, Urban Legends, Historical Landmarks, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["West Coast USA", "South America"],
-    tourTypes: ["LGBTQ+ Friendly Tour", "Scenic Tour", "Cooking Class", "Market Tour", "Religious Tour"],
+    tourTypes: [
+      "LGBTQ+ Friendly Tour",
+      "Scenic Tour",
+      "Cooking Class",
+      "Market Tour",
+      "Religious Tour",
+    ],
     maxGroupSize: 9,
     licenseNumber: "LIC-8996-MIL",
     phoneNumber: "+1-876-484-7609",
     contactEmail: "chloe.hill@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Chloe is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Music Scene, Urban Legends, Historical Landmarks, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Chloe is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Music Scene, Urban Legends, Historical Landmarks, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 61,
     quote: "In Milan, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/men/79.jpg",
     languages: ["Vietnamese", "Cantonese", "Croatian"],
     experienceYears: 4,
-    certifications: ["Certified International Tour Manager", "Wilderness First Responder", "Adventure Tourism Safety Certificate"],
+    certifications: [
+      "Certified International Tour Manager",
+      "Wilderness First Responder",
+      "Adventure Tourism Safety Certificate",
+    ],
     specialties: ["Music Scene", "Urban Legends", "Historical Landmarks"],
     specialTraining: [],
   },
@@ -135,7 +171,7 @@ export const milanitalymediterraneanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -144,7 +180,7 @@ export const milanitalymediterraneanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -157,12 +193,13 @@ export const milanitalymediterraneanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "19:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Ella is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Wildlife, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Ella is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Wildlife, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
     reviewsCount: 53,
     quote: "My goal is to help you fall in love with Milan just as I have.",
@@ -195,7 +232,7 @@ export const milanitalymediterraneanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -204,7 +241,7 @@ export const milanitalymediterraneanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -217,7 +254,7 @@ export const milanitalymediterraneanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -226,12 +263,13 @@ export const milanitalymediterraneanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Daniel is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Music Scene, Wildlife, Nightlife, Local Cuisine, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Daniel is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Music Scene, Wildlife, Nightlife, Local Cuisine, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 50,
     quote: "Every corner of Milan tells a story, let me share them with you.",
@@ -264,7 +302,7 @@ export const milanitalymediterraneanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -273,7 +311,7 @@ export const milanitalymediterraneanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -286,12 +324,13 @@ export const milanitalymediterraneanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Logan is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Music Scene, Film Locations, Indigenous Culture, Local Markets, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Logan is a passionate tour guide with extensive knowledge of Milan and Italy. Specializing in Music Scene, Film Locations, Indigenous Culture, Local Markets, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 15,
     quote: "In Milan, we don't just see the sights - we make memories.",
@@ -299,7 +338,12 @@ export const milanitalymediterraneanGuides: TourGuide[] = [
     languages: ["Italian"],
     experienceYears: 6,
     certifications: ["Certified International Tour Manager", "CPR & First Aid"],
-    specialties: ["Music Scene", "Film Locations", "Indigenous Culture", "Local Markets"],
+    specialties: [
+      "Music Scene",
+      "Film Locations",
+      "Indigenous Culture",
+      "Local Markets",
+    ],
     specialTraining: ["Conflict Resolution"],
-  }
+  },
 ];

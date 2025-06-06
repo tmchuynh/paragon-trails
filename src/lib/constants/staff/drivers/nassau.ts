@@ -14,8 +14,8 @@ export const nassaubahamascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -23,8 +23,8 @@ export const nassaubahamascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -32,8 +32,8 @@ export const nassaubahamascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "02:00"
-          }
+            to: "02:00",
+          },
         ],
       },
       {
@@ -41,17 +41,26 @@ export const nassaubahamascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.1,
     phone: "+513 292-210-3568",
     email: "evelyn.edwards@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/12.jpg",
-    specialties: ["Event Transportation", "Airport Transfers", "Tour Guide Driver"],
-    vehicleTypesCertified: ["Luxury SUV", "Electric Vehicle", "Limousine", "Sports Car"],
+    specialties: [
+      "Event Transportation",
+      "Airport Transfers",
+      "Tour Guide Driver",
+    ],
+    vehicleTypesCertified: [
+      "Luxury SUV",
+      "Electric Vehicle",
+      "Limousine",
+      "Sports Car",
+    ],
   },
   {
     id: "driver-nassau-2",
@@ -66,12 +75,12 @@ export const nassaubahamascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "15:00"
+            to: "15:00",
           },
           {
             from: "09:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
       },
       {
@@ -79,8 +88,8 @@ export const nassaubahamascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -88,8 +97,8 @@ export const nassaubahamascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -97,10 +106,10 @@ export const nassaubahamascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.6,
     phone: "+293 877-647-8885",
@@ -122,12 +131,12 @@ export const nassaubahamascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "05:00"
+            to: "05:00",
           },
           {
             from: "15:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -135,12 +144,12 @@ export const nassaubahamascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "22:00"
+            to: "22:00",
           },
           {
             from: "01:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -148,20 +157,24 @@ export const nassaubahamascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "05:00"
+            to: "05:00",
           },
           {
             from: "16:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.9,
     phone: "+474 421-362-9048",
     email: "michelle.jackson@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/76.jpg",
-    specialties: ["Airport Transfers", "Long-Distance Driving", "Tour Guide Driver"],
+    specialties: [
+      "Airport Transfers",
+      "Long-Distance Driving",
+      "Tour Guide Driver",
+    ],
     vehicleTypesCertified: ["Electric Vehicle", "Van", "Limousine"],
   },
   {
@@ -177,12 +190,12 @@ export const nassaubahamascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "13:00"
+            to: "13:00",
           },
           {
             from: "10:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
       },
       {
@@ -190,12 +203,12 @@ export const nassaubahamascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "20:00"
+            to: "20:00",
           },
           {
             from: "20:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -203,12 +216,12 @@ export const nassaubahamascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "23:00"
+            to: "23:00",
           },
           {
             from: "18:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -216,10 +229,10 @@ export const nassaubahamascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.4,
     phone: "+297 132-558-6435",
@@ -241,8 +254,8 @@ export const nassaubahamascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -250,8 +263,8 @@ export const nassaubahamascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
       },
       {
@@ -259,16 +272,20 @@ export const nassaubahamascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.7,
     phone: "+547 540-887-2695",
     email: "ava.brown@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/69.jpg",
-    specialties: ["Airport Transfers", "Corporate Chauffeur", "Event Transportation"],
+    specialties: [
+      "Airport Transfers",
+      "Corporate Chauffeur",
+      "Event Transportation",
+    ],
     vehicleTypesCertified: ["SUV", "Convertible", "Sedan", "Sports Car"],
   },
   {
@@ -284,8 +301,8 @@ export const nassaubahamascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
       },
       {
@@ -293,12 +310,12 @@ export const nassaubahamascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "15:00"
+            to: "15:00",
           },
           {
             from: "00:00",
-            to: "02:00"
-          }
+            to: "02:00",
+          },
         ],
       },
       {
@@ -306,12 +323,12 @@ export const nassaubahamascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "06:00"
+            to: "06:00",
           },
           {
             from: "14:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -319,14 +336,14 @@ export const nassaubahamascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "04:00"
+            to: "04:00",
           },
           {
             from: "04:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.6,
     phone: "+331 712-852-1660",
@@ -348,12 +365,12 @@ export const nassaubahamascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "21:00"
+            to: "21:00",
           },
           {
             from: "19:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -361,12 +378,12 @@ export const nassaubahamascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "07:00"
+            to: "07:00",
           },
           {
             from: "05:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -374,8 +391,8 @@ export const nassaubahamascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -383,14 +400,14 @@ export const nassaubahamascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "12:00"
+            to: "12:00",
           },
           {
             from: "14:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.6,
     phone: "+374 980-912-4713",
@@ -412,12 +429,12 @@ export const nassaubahamascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "14:00"
+            to: "14:00",
           },
           {
             from: "00:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -425,8 +442,8 @@ export const nassaubahamascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
       },
       {
@@ -434,20 +451,26 @@ export const nassaubahamascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "19:00"
+            to: "19:00",
           },
           {
             from: "17:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.5,
     phone: "+857 936-427-3509",
     email: "patrick.lewis@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/83.jpg",
     specialties: ["Long-Distance Driving", "Event Transportation"],
-    vehicleTypesCertified: ["Electric Vehicle", "Sedan", "Luxury SUV", "Convertible", "SUV"],
-  }
+    vehicleTypesCertified: [
+      "Electric Vehicle",
+      "Sedan",
+      "Luxury SUV",
+      "Convertible",
+      "SUV",
+    ],
+  },
 ];

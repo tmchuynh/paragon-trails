@@ -50,7 +50,11 @@ export const milanitalymediterraneanCrew: CrewMember[] = [
     name: "Gabriella Patel",
     role: "Navigator",
     experienceYears: 16,
-    certifications: ["Hospitality Training", "Security Training", "Engineering License"],
+    certifications: [
+      "Hospitality Training",
+      "Security Training",
+      "Engineering License",
+    ],
     languagesSpoken: ["Romanian", "German"],
     isAvailable: true,
     contactEmail: "gabriella.patel@paragontrails.com",
@@ -77,5 +81,5 @@ export const milanitalymediterraneanCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "gary.morgan@paragontrails.com",
     contactPhone: "+1-139-025-9502",
-  }
+  },
 ];

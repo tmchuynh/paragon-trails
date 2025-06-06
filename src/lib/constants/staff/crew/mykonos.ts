@@ -55,5 +55,5 @@ export const mykonosgreecemediterraneanCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "maria.mitchell@paragontrails.com",
     contactPhone: "+1-401-073-3221",
-  }
+  },
 ];

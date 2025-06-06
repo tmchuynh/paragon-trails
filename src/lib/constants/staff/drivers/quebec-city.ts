@@ -14,8 +14,8 @@ export const quebecCitycanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
       },
       {
@@ -23,12 +23,12 @@ export const quebecCitycanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "13:00"
+            to: "13:00",
           },
           {
             from: "06:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -36,14 +36,14 @@ export const quebecCitycanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "18:00"
+            to: "18:00",
           },
           {
             from: "04:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.9,
     phone: "+373 101-393-5485",
@@ -65,8 +65,8 @@ export const quebecCitycanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -74,12 +74,12 @@ export const quebecCitycanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "21:00"
+            to: "21:00",
           },
           {
             from: "14:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -87,12 +87,12 @@ export const quebecCitycanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "11:00"
+            to: "11:00",
           },
           {
             from: "19:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -100,8 +100,8 @@ export const quebecCitycanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
       },
       {
@@ -109,14 +109,14 @@ export const quebecCitycanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "14:00"
+            to: "14:00",
           },
           {
             from: "20:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.7,
     phone: "+64 836-494-4391",
@@ -138,12 +138,12 @@ export const quebecCitycanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "19:00"
+            to: "19:00",
           },
           {
             from: "01:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -151,8 +151,8 @@ export const quebecCitycanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -160,12 +160,12 @@ export const quebecCitycanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "17:00"
+            to: "17:00",
           },
           {
             from: "13:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -173,14 +173,14 @@ export const quebecCitycanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "07:00"
+            to: "07:00",
           },
           {
             from: "19:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.5,
     phone: "+255 349-148-6755",
@@ -202,8 +202,8 @@ export const quebecCitycanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -211,12 +211,12 @@ export const quebecCitycanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "06:00"
+            to: "06:00",
           },
           {
             from: "07:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
       },
       {
@@ -224,12 +224,12 @@ export const quebecCitycanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "10:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
       },
       {
@@ -237,20 +237,24 @@ export const quebecCitycanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "16:00"
+            to: "16:00",
           },
           {
             from: "04:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.6,
     phone: "+278 403-278-7833",
     email: "ahmed.martinez@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/14.jpg",
-    specialties: ["Tour Guide Driver", "Corporate Chauffeur", "Luxury Car Specialist"],
+    specialties: [
+      "Tour Guide Driver",
+      "Corporate Chauffeur",
+      "Luxury Car Specialist",
+    ],
     vehicleTypesCertified: ["Luxury SUV", "Sedan", "SUV", "Convertible"],
   },
   {
@@ -266,12 +270,12 @@ export const quebecCitycanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "22:00"
+            to: "22:00",
           },
           {
             from: "00:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -279,12 +283,12 @@ export const quebecCitycanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "23:00"
+            to: "23:00",
           },
           {
             from: "05:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
       },
       {
@@ -292,20 +296,25 @@ export const quebecCitycanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "09:00"
+            to: "09:00",
           },
           {
             from: "04:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.6,
     phone: "+162 235-225-9905",
     email: "michelle.hayes@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/18.jpg",
-    specialties: ["VIP Transport", "Night Shift", "Luxury Car Specialist", "Security Detail"],
+    specialties: [
+      "VIP Transport",
+      "Night Shift",
+      "Luxury Car Specialist",
+      "Security Detail",
+    ],
     vehicleTypesCertified: ["Motorcoach", "Electric Vehicle", "SUV"],
   },
   {
@@ -321,12 +330,12 @@ export const quebecCitycanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "16:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -334,12 +343,12 @@ export const quebecCitycanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "21:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -347,10 +356,10 @@ export const quebecCitycanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 5,
     phone: "+493 365-967-7013",
@@ -372,12 +381,12 @@ export const quebecCitycanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "05:00"
+            to: "05:00",
           },
           {
             from: "16:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -385,12 +394,12 @@ export const quebecCitycanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "05:00"
+            to: "05:00",
           },
           {
             from: "11:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
       },
       {
@@ -398,8 +407,8 @@ export const quebecCitycanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -407,12 +416,12 @@ export const quebecCitycanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "08:00"
+            to: "08:00",
           },
           {
             from: "16:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -420,20 +429,24 @@ export const quebecCitycanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "20:00"
+            to: "20:00",
           },
           {
             from: "05:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.1,
     phone: "+579 287-995-9755",
     email: "layla.martinez@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/4.jpg",
-    specialties: ["Luxury Car Specialist", "Corporate Chauffeur", "Security Detail"],
+    specialties: [
+      "Luxury Car Specialist",
+      "Corporate Chauffeur",
+      "Security Detail",
+    ],
     vehicleTypesCertified: ["Luxury SUV", "Sports Car"],
   },
   {
@@ -449,8 +462,8 @@ export const quebecCitycanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
       },
       {
@@ -458,8 +471,8 @@ export const quebecCitycanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -467,8 +480,8 @@ export const quebecCitycanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -476,8 +489,8 @@ export const quebecCitycanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -485,20 +498,26 @@ export const quebecCitycanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "18:00"
+            to: "18:00",
           },
           {
             from: "15:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.4,
     phone: "+519 451-712-9873",
     email: "savannah.parker@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/38.jpg",
     specialties: ["Security Detail", "Tour Guide Driver", "Night Shift"],
-    vehicleTypesCertified: ["Sports Car", "Van", "Sedan", "Limousine", "Electric Vehicle"],
-  }
+    vehicleTypesCertified: [
+      "Sports Car",
+      "Van",
+      "Sedan",
+      "Limousine",
+      "Electric Vehicle",
+    ],
+  },
 ];

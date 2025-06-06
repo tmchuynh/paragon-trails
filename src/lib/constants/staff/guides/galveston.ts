@@ -18,7 +18,8 @@ export const galvestonunitedStatescaribbeanGuides: TourGuide[] = [
     contactEmail: "abigail.robinson@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Abigail is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Religious Sites, Sustainable Tourism, Architecture, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Abigail is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Religious Sites, Sustainable Tourism, Architecture, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
     reviewsCount: 53,
     quote: "My goal is to help you fall in love with Galveston just as I have.",
@@ -46,10 +47,12 @@ export const galvestonunitedStatescaribbeanGuides: TourGuide[] = [
     contactEmail: "carter.campbell@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Carter is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Film Locations, Historical Landmarks, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Carter is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Film Locations, Historical Landmarks, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 40,
-    quote: "Every corner of Galveston tells a story, let me share them with you.",
+    quote:
+      "Every corner of Galveston tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/22.jpg",
     languages: ["French", "Serbian"],
     experienceYears: 4,
@@ -67,21 +70,33 @@ export const galvestonunitedStatescaribbeanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Madison is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Historical Landmarks, Parks & Gardens, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast Canada", "Northern Europe"],
-    tourTypes: ["Accessible Tour", "Boat Tour", "Market Tour", "Craft Workshop", "Religious Tour"],
+    tourTypes: [
+      "Accessible Tour",
+      "Boat Tour",
+      "Market Tour",
+      "Craft Workshop",
+      "Religious Tour",
+    ],
     maxGroupSize: 18,
     licenseNumber: "LIC-2480-GAL",
     phoneNumber: "+1-861-263-5016",
     contactEmail: "madison.baker@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Madison is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Historical Landmarks, Parks & Gardens, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Madison is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Historical Landmarks, Parks & Gardens, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
     reviewsCount: 36,
-    quote: "Galveston isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Galveston isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/39.jpg",
     languages: ["Hindi", "Croatian"],
     experienceYears: 13,
-    certifications: ["Eco-Tourism Guide", "Heritage Interpretation Certificate", "Language Proficiency Certification"],
+    certifications: [
+      "Eco-Tourism Guide",
+      "Heritage Interpretation Certificate",
+      "Language Proficiency Certification",
+    ],
     specialties: ["Historical Landmarks", "Parks & Gardens"],
     specialTraining: ["Archaeological Conservation"],
   },
@@ -102,10 +117,12 @@ export const galvestonunitedStatescaribbeanGuides: TourGuide[] = [
     contactEmail: "alexander.martin@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Alexander is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Urban Legends, Wine Tasting, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Alexander is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Urban Legends, Wine Tasting, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 50,
-    quote: "The best way to discover Galveston is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Galveston is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/60.jpg",
     languages: ["Czech", "Thai", "Croatian"],
     experienceYears: 9,
@@ -130,10 +147,12 @@ export const galvestonunitedStatescaribbeanGuides: TourGuide[] = [
     contactEmail: "lucas.mitchell@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Lucas is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Cultural Etiquette, Architecture, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Lucas is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Cultural Etiquette, Architecture, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 36,
-    quote: "Galveston isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Galveston isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/69.jpg",
     languages: ["Hebrew", "Mandarin"],
     experienceYears: 10,
@@ -158,7 +177,8 @@ export const galvestonunitedStatescaribbeanGuides: TourGuide[] = [
     contactEmail: "scarlett.white@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Scarlett is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Museums, Film Locations, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Scarlett is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Museums, Film Locations, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 81,
     quote: "In Galveston, we don't just see the sights - we make memories.",
@@ -186,14 +206,20 @@ export const galvestonunitedStatescaribbeanGuides: TourGuide[] = [
     contactEmail: "noah.green@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Noah is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Wildlife, Family Activities, Hidden Gems, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Noah is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Wildlife, Family Activities, Hidden Gems, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
     reviewsCount: 18,
-    quote: "Galveston isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Galveston isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/2.jpg",
     languages: ["Bulgarian"],
     experienceYears: 16,
-    certifications: ["Regional Tourism Ambassador", "Licensed City Guide", "Local History Certification"],
+    certifications: [
+      "Regional Tourism Ambassador",
+      "Licensed City Guide",
+      "Local History Certification",
+    ],
     specialties: ["Wildlife", "Family Activities", "Hidden Gems"],
     specialTraining: [],
   },
@@ -214,15 +240,25 @@ export const galvestonunitedStatescaribbeanGuides: TourGuide[] = [
     contactEmail: "matthew.allen@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Matthew is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Hidden Gems, Family Activities, Religious Sites, Architecture, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Matthew is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Hidden Gems, Family Activities, Religious Sites, Architecture, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 51,
-    quote: "Every corner of Galveston tells a story, let me share them with you.",
+    quote:
+      "Every corner of Galveston tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/78.jpg",
     languages: ["Swahili", "Vietnamese"],
     experienceYears: 12,
-    certifications: ["Urban Navigation Specialist", "Local History Certification"],
-    specialties: ["Hidden Gems", "Family Activities", "Religious Sites", "Architecture"],
+    certifications: [
+      "Urban Navigation Specialist",
+      "Local History Certification",
+    ],
+    specialties: [
+      "Hidden Gems",
+      "Family Activities",
+      "Religious Sites",
+      "Architecture",
+    ],
     specialTraining: ["Conflict Resolution"],
   },
   {
@@ -235,7 +271,12 @@ export const galvestonunitedStatescaribbeanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Noah is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Historical Landmarks, Family Activities, Hidden Gems, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Caribbean"],
-    tourTypes: ["Cultural Tour", "Religious Tour", "Festival Tour", "Relocation Tour"],
+    tourTypes: [
+      "Cultural Tour",
+      "Religious Tour",
+      "Festival Tour",
+      "Relocation Tour",
+    ],
     maxGroupSize: 13,
     licenseNumber: "LIC-6519-GAL",
     phoneNumber: "+1-492-405-7149",
@@ -247,7 +288,7 @@ export const galvestonunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -256,7 +297,7 @@ export const galvestonunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -265,7 +306,7 @@ export const galvestonunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -274,19 +315,24 @@ export const galvestonunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Noah is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Historical Landmarks, Family Activities, Hidden Gems, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Noah is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Historical Landmarks, Family Activities, Hidden Gems, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 14,
-    quote: "Galveston isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Galveston isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/54.jpg",
     languages: ["German", "Czech"],
     experienceYears: 3,
-    certifications: ["Regional Tourism Ambassador", "Wilderness First Responder"],
+    certifications: [
+      "Regional Tourism Ambassador",
+      "Wilderness First Responder",
+    ],
     specialties: ["Historical Landmarks", "Family Activities", "Hidden Gems"],
     specialTraining: [],
   },
@@ -312,7 +358,7 @@ export const galvestonunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -321,7 +367,7 @@ export const galvestonunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -330,7 +376,7 @@ export const galvestonunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -339,12 +385,13 @@ export const galvestonunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "18:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Olivia is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Film Locations, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Olivia is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Film Locations, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 61,
     quote: "My goal is to help you fall in love with Galveston just as I have.",
@@ -377,7 +424,7 @@ export const galvestonunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -386,20 +433,26 @@ export const galvestonunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Harper is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Cultural Etiquette, Local Craftsmanship, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Harper is a passionate tour guide with extensive knowledge of Galveston and United States. Specializing in Cultural Etiquette, Local Craftsmanship, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 98,
-    quote: "Galveston isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Galveston isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/53.jpg",
     languages: ["Vietnamese"],
     experienceYears: 5,
-    certifications: ["Food Safety Certification", "Language Proficiency Certification", "Regional Tourism Ambassador"],
+    certifications: [
+      "Food Safety Certification",
+      "Language Proficiency Certification",
+      "Regional Tourism Ambassador",
+    ],
     specialties: ["Cultural Etiquette", "Local Craftsmanship"],
     specialTraining: [],
-  }
+  },
 ];

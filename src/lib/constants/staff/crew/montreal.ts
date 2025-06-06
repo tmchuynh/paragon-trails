@@ -55,5 +55,5 @@ export const montrealcanadaeastCoastCanadaCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "cynthia.parker@paragontrails.com",
     contactPhone: "+1-800-007-2356",
-  }
+  },
 ];

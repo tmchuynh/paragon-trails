@@ -14,12 +14,12 @@ export const miamiunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "05:00"
+            to: "05:00",
           },
           {
             from: "09:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -27,8 +27,8 @@ export const miamiunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -36,10 +36,10 @@ export const miamiunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.9,
     phone: "+326 702-547-1760",
@@ -61,8 +61,8 @@ export const miamiunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -70,12 +70,12 @@ export const miamiunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "09:00"
+            to: "09:00",
           },
           {
             from: "16:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -83,21 +83,27 @@ export const miamiunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "20:00"
+            to: "20:00",
           },
           {
             from: "16:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.7,
     phone: "+555 927-749-1886",
     email: "diego.hayes@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/64.jpg",
     specialties: ["Night Shift", "Tour Guide Driver"],
-    vehicleTypesCertified: ["Motorcoach", "Electric Vehicle", "Luxury SUV", "Sports Car", "Limousine"],
+    vehicleTypesCertified: [
+      "Motorcoach",
+      "Electric Vehicle",
+      "Luxury SUV",
+      "Sports Car",
+      "Limousine",
+    ],
   },
   {
     id: "driver-miami-3",
@@ -112,8 +118,8 @@ export const miamiunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -121,8 +127,8 @@ export const miamiunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -130,12 +136,12 @@ export const miamiunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "07:00"
+            to: "07:00",
           },
           {
             from: "02:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -143,10 +149,10 @@ export const miamiunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "04:00"
-          }
+            to: "04:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.7,
     phone: "+306 855-351-2958",
@@ -168,12 +174,12 @@ export const miamiunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "13:00"
+            to: "13:00",
           },
           {
             from: "12:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
       },
       {
@@ -181,12 +187,12 @@ export const miamiunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "14:00"
+            to: "14:00",
           },
           {
             from: "11:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -194,8 +200,8 @@ export const miamiunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -203,8 +209,8 @@ export const miamiunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -212,14 +218,14 @@ export const miamiunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "18:00"
+            to: "18:00",
           },
           {
             from: "12:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.4,
     phone: "+340 626-345-6609",
@@ -241,12 +247,12 @@ export const miamiunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "07:00"
+            to: "07:00",
           },
           {
             from: "15:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -254,8 +260,8 @@ export const miamiunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -263,8 +269,8 @@ export const miamiunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -272,10 +278,10 @@ export const miamiunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.3,
     phone: "+598 671-169-3029",
@@ -283,5 +289,5 @@ export const miamiunitedStatescaribbeanDrivers: Driver[] = [
     photoUrl: "https://randomuser.me/api/portraits/women/63.jpg",
     specialties: ["Tour Guide Driver", "Airport Transfers"],
     vehicleTypesCertified: ["Sedan"],
-  }
+  },
 ];

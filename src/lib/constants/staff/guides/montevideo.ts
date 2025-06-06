@@ -11,22 +11,35 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
     isPopular: true,
     bio: "Liam is a passionate tour guide with extensive knowledge of Montevideo and Uruguay. Specializing in Public Transportation Navigation, Local Craftsmanship, Wildlife, Parks & Gardens, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Alaska"],
-    tourTypes: ["Food Tour", "Architecture Tour", "LGBTQ+ Friendly Tour", "Off-Road Tour", "Scenic Tour"],
+    tourTypes: [
+      "Food Tour",
+      "Architecture Tour",
+      "LGBTQ+ Friendly Tour",
+      "Off-Road Tour",
+      "Scenic Tour",
+    ],
     maxGroupSize: 6,
     licenseNumber: "LIC-6680-MON",
     phoneNumber: "+1-461-277-9351",
     contactEmail: "liam.miller@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Liam is a passionate tour guide with extensive knowledge of Montevideo and Uruguay. Specializing in Public Transportation Navigation, Local Craftsmanship, Wildlife, Parks & Gardens, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Liam is a passionate tour guide with extensive knowledge of Montevideo and Uruguay. Specializing in Public Transportation Navigation, Local Craftsmanship, Wildlife, Parks & Gardens, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 81,
-    quote: "Montevideo isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Montevideo isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/79.jpg",
     languages: ["Turkish", "Swedish", "Tagalog"],
     experienceYears: 5,
     certifications: ["Adventure Tourism Safety Certificate"],
-    specialties: ["Public Transportation Navigation", "Local Craftsmanship", "Wildlife", "Parks & Gardens"],
+    specialties: [
+      "Public Transportation Navigation",
+      "Local Craftsmanship",
+      "Wildlife",
+      "Parks & Gardens",
+    ],
     specialTraining: [],
   },
   {
@@ -39,21 +52,32 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Alexander is a passionate tour guide with extensive knowledge of Montevideo and Uruguay. Specializing in Parks & Gardens, Music Scene, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Alaska"],
-    tourTypes: ["Museum Tour", "Eco Tour", "Wildlife Safari", "Off-Road Tour", "Architecture Tour"],
+    tourTypes: [
+      "Museum Tour",
+      "Eco Tour",
+      "Wildlife Safari",
+      "Off-Road Tour",
+      "Architecture Tour",
+    ],
     maxGroupSize: 12,
     licenseNumber: "LIC-9187-MON",
     phoneNumber: "+1-728-207-8984",
     contactEmail: "alexander.flores@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Alexander is a passionate tour guide with extensive knowledge of Montevideo and Uruguay. Specializing in Parks & Gardens, Music Scene, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Alexander is a passionate tour guide with extensive knowledge of Montevideo and Uruguay. Specializing in Parks & Gardens, Music Scene, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 54,
-    quote: "Montevideo isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Montevideo isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/19.jpg",
     languages: ["Finnish", "Polish", "Thai"],
     experienceYears: 11,
-    certifications: ["Local History Certification", "Urban Navigation Specialist"],
+    certifications: [
+      "Local History Certification",
+      "Urban Navigation Specialist",
+    ],
     specialties: ["Parks & Gardens", "Music Scene"],
     specialTraining: ["Local Flora & Fauna", "Wine Education"],
   },
@@ -74,10 +98,12 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
     contactEmail: "lucas.smith@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Lucas is a passionate tour guide with extensive knowledge of Montevideo and Uruguay. Specializing in Art Galleries, Museums, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Lucas is a passionate tour guide with extensive knowledge of Montevideo and Uruguay. Specializing in Art Galleries, Museums, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 94,
-    quote: "Montevideo isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Montevideo isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/38.jpg",
     languages: ["Greek", "Vietnamese"],
     experienceYears: 13,
@@ -102,14 +128,18 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
     contactEmail: "isabella.thomas@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Isabella is a passionate tour guide with extensive knowledge of Montevideo and Uruguay. Specializing in Indigenous Culture, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Isabella is a passionate tour guide with extensive knowledge of Montevideo and Uruguay. Specializing in Indigenous Culture, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
     reviewsCount: 89,
     quote: "In Montevideo, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/women/40.jpg",
     languages: ["Malay", "Croatian"],
     experienceYears: 12,
-    certifications: ["Language Proficiency Certification", "Adventure Tourism Safety Certificate"],
+    certifications: [
+      "Language Proficiency Certification",
+      "Adventure Tourism Safety Certificate",
+    ],
     specialties: ["Indigenous Culture"],
     specialTraining: ["Marine Biology"],
   },
@@ -130,7 +160,8 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
     contactEmail: "lucas.white@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Lucas is a passionate tour guide with extensive knowledge of Montevideo and Uruguay. Specializing in Public Transportation Navigation, Local Cuisine, Photography Spots, Family Activities, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Lucas is a passionate tour guide with extensive knowledge of Montevideo and Uruguay. Specializing in Public Transportation Navigation, Local Cuisine, Photography Spots, Family Activities, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 7,
     quote: "In Montevideo, we don't just see the sights - we make memories.",
@@ -138,7 +169,12 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
     languages: ["Indonesian", "Greek"],
     experienceYears: 4,
     certifications: ["Eco-Tourism Guide", "Sustainable Tourism Certificate"],
-    specialties: ["Public Transportation Navigation", "Local Cuisine", "Photography Spots", "Family Activities"],
+    specialties: [
+      "Public Transportation Navigation",
+      "Local Cuisine",
+      "Photography Spots",
+      "Family Activities",
+    ],
     specialTraining: ["Art History", "Cultural Sensitivity"],
   },
   {
@@ -151,7 +187,12 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Emma is a passionate tour guide with extensive knowledge of Montevideo and Uruguay. Specializing in Photography Spots, Family Activities, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast USA", "Asia Pacific"],
-    tourTypes: ["Private Tour", "Festival Tour", "Cultural Tour", "Street Art Tour"],
+    tourTypes: [
+      "Private Tour",
+      "Festival Tour",
+      "Cultural Tour",
+      "Street Art Tour",
+    ],
     maxGroupSize: 16,
     licenseNumber: "LIC-3562-MON",
     phoneNumber: "+1-141-845-4641",
@@ -163,7 +204,7 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -172,7 +213,7 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -185,7 +226,7 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -194,7 +235,7 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -207,15 +248,17 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Emma is a passionate tour guide with extensive knowledge of Montevideo and Uruguay. Specializing in Photography Spots, Family Activities, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Emma is a passionate tour guide with extensive knowledge of Montevideo and Uruguay. Specializing in Photography Spots, Family Activities, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
     reviewsCount: 53,
-    quote: "The best way to discover Montevideo is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Montevideo is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/39.jpg",
     languages: ["Croatian", "Czech", "Hindi"],
     experienceYears: 5,
@@ -233,7 +276,13 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Sophia is a passionate tour guide with extensive knowledge of Montevideo and Uruguay. Specializing in Local Cuisine, Local Markets, Indigenous Culture, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["South America"],
-    tourTypes: ["Adventure Tour", "Boat Tour", "Private Tour", "LGBTQ+ Friendly Tour", "Romantic Tour"],
+    tourTypes: [
+      "Adventure Tour",
+      "Boat Tour",
+      "Private Tour",
+      "LGBTQ+ Friendly Tour",
+      "Romantic Tour",
+    ],
     maxGroupSize: 5,
     licenseNumber: "LIC-4776-MON",
     phoneNumber: "+1-945-708-3541",
@@ -245,7 +294,7 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -258,7 +307,7 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -267,19 +316,24 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Sophia is a passionate tour guide with extensive knowledge of Montevideo and Uruguay. Specializing in Local Cuisine, Local Markets, Indigenous Culture, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sophia is a passionate tour guide with extensive knowledge of Montevideo and Uruguay. Specializing in Local Cuisine, Local Markets, Indigenous Culture, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 73,
-    quote: "The best way to discover Montevideo is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Montevideo is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/12.jpg",
     languages: ["Italian", "Hindi", "Arabic"],
     experienceYears: 11,
-    certifications: ["Wilderness First Responder", "Certified International Tour Manager"],
+    certifications: [
+      "Wilderness First Responder",
+      "Certified International Tour Manager",
+    ],
     specialties: ["Local Cuisine", "Local Markets", "Indigenous Culture"],
     specialTraining: [],
   },
@@ -309,7 +363,7 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "21:00",
-          }
+          },
         ],
       },
       {
@@ -318,7 +372,7 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -327,20 +381,24 @@ export const montevideouruguaysouthAmericaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "11:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Emma is a passionate tour guide with extensive knowledge of Montevideo and Uruguay. Specializing in Film Locations, Family Activities, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Emma is a passionate tour guide with extensive knowledge of Montevideo and Uruguay. Specializing in Film Locations, Family Activities, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 5,
     reviewsCount: 66,
     quote: "In Montevideo, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/men/56.jpg",
     languages: ["Turkish"],
     experienceYears: 13,
-    certifications: ["Language Proficiency Certification", "Certified International Tour Manager"],
+    certifications: [
+      "Language Proficiency Certification",
+      "Certified International Tour Manager",
+    ],
     specialties: ["Film Locations", "Family Activities"],
     specialTraining: [],
-  }
+  },
 ];

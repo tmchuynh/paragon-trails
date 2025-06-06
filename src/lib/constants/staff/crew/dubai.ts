@@ -66,5 +66,5 @@ export const dubaiunitedArabEmiratesmiddleEastCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "sophia.jackson@paragontrails.com",
     contactPhone: "+1-769-862-2778",
-  }
+  },
 ];

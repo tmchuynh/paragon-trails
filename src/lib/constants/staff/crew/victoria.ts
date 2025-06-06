@@ -17,7 +17,11 @@ export const victoriacanadaalaskaCrew: CrewMember[] = [
     name: "Dylan Patel",
     role: "Chef",
     experienceYears: 2,
-    certifications: ["First Aid", "Engineering License", "Marine Radio Operator"],
+    certifications: [
+      "First Aid",
+      "Engineering License",
+      "Marine Radio Operator",
+    ],
     languagesSpoken: ["Portuguese"],
     isAvailable: true,
     contactEmail: "dylan.patel@paragontrails.com",
@@ -77,5 +81,5 @@ export const victoriacanadaalaskaCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "russell.crawford@paragontrails.com",
     contactPhone: "+1-611-762-1748",
-  }
+  },
 ];

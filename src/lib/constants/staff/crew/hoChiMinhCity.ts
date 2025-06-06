@@ -28,7 +28,11 @@ export const hoChiMinhCityvietnamasiaPacificCrew: CrewMember[] = [
     name: "Christine Wang",
     role: "Navigator",
     experienceYears: 8,
-    certifications: ["First Aid", "Hospitality Training", "Environmental Awareness"],
+    certifications: [
+      "First Aid",
+      "Hospitality Training",
+      "Environmental Awareness",
+    ],
     languagesSpoken: ["Russian", "Portuguese", "Turkish"],
     isAvailable: false,
     contactEmail: "christine.wang@paragontrails.com",
@@ -50,10 +54,14 @@ export const hoChiMinhCityvietnamasiaPacificCrew: CrewMember[] = [
     name: "Mohamed Silva",
     role: "Chef",
     experienceYears: 12,
-    certifications: ["Marine Radio Operator", "Hospitality Training", "Environmental Awareness"],
+    certifications: [
+      "Marine Radio Operator",
+      "Hospitality Training",
+      "Environmental Awareness",
+    ],
     languagesSpoken: ["Italian", "Czech"],
     isAvailable: false,
     contactEmail: "mohamed.silva@paragontrails.com",
     contactPhone: "+1-822-736-2537",
-  }
+  },
 ];

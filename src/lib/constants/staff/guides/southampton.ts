@@ -18,15 +18,25 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
     contactEmail: "abigail.taylor@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Abigail is a passionate tour guide with extensive knowledge of Southampton and United Kingdom. Specializing in Historical Landmarks, Photography Spots, Adventure Sports, Public Transportation Navigation, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Abigail is a passionate tour guide with extensive knowledge of Southampton and United Kingdom. Specializing in Historical Landmarks, Photography Spots, Adventure Sports, Public Transportation Navigation, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
     reviewsCount: 81,
-    quote: "The best way to discover Southampton is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Southampton is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/55.jpg",
     languages: ["Finnish", "Norwegian", "Croatian"],
     experienceYears: 13,
-    certifications: ["Certified International Tour Manager", "Heritage Interpretation Certificate"],
-    specialties: ["Historical Landmarks", "Photography Spots", "Adventure Sports", "Public Transportation Navigation"],
+    certifications: [
+      "Certified International Tour Manager",
+      "Heritage Interpretation Certificate",
+    ],
+    specialties: [
+      "Historical Landmarks",
+      "Photography Spots",
+      "Adventure Sports",
+      "Public Transportation Navigation",
+    ],
     specialTraining: ["Cultural Sensitivity", "Photography"],
   },
   {
@@ -46,7 +56,8 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
     contactEmail: "noah.walker@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Noah is a passionate tour guide with extensive knowledge of Southampton and United Kingdom. Specializing in Public Transportation Navigation, Sustainable Tourism, LGBTQ+ History, Wildlife, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Noah is a passionate tour guide with extensive knowledge of Southampton and United Kingdom. Specializing in Public Transportation Navigation, Sustainable Tourism, LGBTQ+ History, Wildlife, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 34,
     quote: "In Southampton, we don't just see the sights - we make memories.",
@@ -54,7 +65,12 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
     languages: ["Finnish", "Tagalog", "Swahili"],
     experienceYears: 12,
     certifications: ["Urban Navigation Specialist"],
-    specialties: ["Public Transportation Navigation", "Sustainable Tourism", "LGBTQ+ History", "Wildlife"],
+    specialties: [
+      "Public Transportation Navigation",
+      "Sustainable Tourism",
+      "LGBTQ+ History",
+      "Wildlife",
+    ],
     specialTraining: [],
   },
   {
@@ -74,15 +90,24 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
     contactEmail: "scarlett.roberts@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Scarlett is a passionate tour guide with extensive knowledge of Southampton and United Kingdom. Specializing in Sustainable Tourism, Music Scene, Film Locations, Local Craftsmanship, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Scarlett is a passionate tour guide with extensive knowledge of Southampton and United Kingdom. Specializing in Sustainable Tourism, Music Scene, Film Locations, Local Craftsmanship, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 19,
     quote: "In Southampton, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/men/32.jpg",
     languages: ["Bulgarian", "Tagalog", "Spanish"],
     experienceYears: 2,
-    certifications: ["Adventure Tourism Safety Certificate", "Cultural Heritage Specialist"],
-    specialties: ["Sustainable Tourism", "Music Scene", "Film Locations", "Local Craftsmanship"],
+    certifications: [
+      "Adventure Tourism Safety Certificate",
+      "Cultural Heritage Specialist",
+    ],
+    specialties: [
+      "Sustainable Tourism",
+      "Music Scene",
+      "Film Locations",
+      "Local Craftsmanship",
+    ],
     specialTraining: ["Art History", "Group Management"],
   },
   {
@@ -102,14 +127,20 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
     contactEmail: "lily.jackson@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Lily is a passionate tour guide with extensive knowledge of Southampton and United Kingdom. Specializing in Film Locations, Lily provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Lily is a passionate tour guide with extensive knowledge of Southampton and United Kingdom. Specializing in Film Locations, Lily provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 104,
-    quote: "Every corner of Southampton tells a story, let me share them with you.",
+    quote:
+      "Every corner of Southampton tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/55.jpg",
     languages: ["Tagalog", "Turkish"],
     experienceYears: 14,
-    certifications: ["Eco-Tourism Guide", "Sustainable Tourism Certificate", "Certified International Tour Manager"],
+    certifications: [
+      "Eco-Tourism Guide",
+      "Sustainable Tourism Certificate",
+      "Certified International Tour Manager",
+    ],
     specialties: ["Film Locations"],
     specialTraining: ["Historical Research Methods", "Emergency Response"],
   },
@@ -130,15 +161,22 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
     contactEmail: "aria.perez@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Aria is a passionate tour guide with extensive knowledge of Southampton and United Kingdom. Specializing in Film Locations, Architecture, Parks & Gardens, Sustainable Tourism, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Aria is a passionate tour guide with extensive knowledge of Southampton and United Kingdom. Specializing in Film Locations, Architecture, Parks & Gardens, Sustainable Tourism, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 32,
-    quote: "Southampton isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Southampton isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/71.jpg",
     languages: ["Turkish", "Italian"],
     experienceYears: 8,
     certifications: ["Regional Tourism Ambassador"],
-    specialties: ["Film Locations", "Architecture", "Parks & Gardens", "Sustainable Tourism"],
+    specialties: [
+      "Film Locations",
+      "Architecture",
+      "Parks & Gardens",
+      "Sustainable Tourism",
+    ],
     specialTraining: [],
   },
   {
@@ -158,10 +196,12 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
     contactEmail: "samuel.miller@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Samuel is a passionate tour guide with extensive knowledge of Southampton and United Kingdom. Specializing in Film Locations, Nightlife, Wildlife, Samuel provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Samuel is a passionate tour guide with extensive knowledge of Southampton and United Kingdom. Specializing in Film Locations, Nightlife, Wildlife, Samuel provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
     reviewsCount: 93,
-    quote: "Every corner of Southampton tells a story, let me share them with you.",
+    quote:
+      "Every corner of Southampton tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/33.jpg",
     languages: ["Turkish"],
     experienceYears: 3,
@@ -179,7 +219,12 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
     isPopular: false,
     bio: "Mia is a passionate tour guide with extensive knowledge of Southampton and United Kingdom. Specializing in Indigenous Culture, Architecture, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Africa", "West Coast USA"],
-    tourTypes: ["LGBTQ+ Friendly Tour", "Family-Friendly Tour", "Food Tour", "Bike Tour"],
+    tourTypes: [
+      "LGBTQ+ Friendly Tour",
+      "Family-Friendly Tour",
+      "Food Tour",
+      "Bike Tour",
+    ],
     maxGroupSize: 18,
     licenseNumber: "LIC-3844-SOU",
     phoneNumber: "+1-147-530-2229",
@@ -195,7 +240,7 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -208,7 +253,7 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -221,15 +266,17 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Mia is a passionate tour guide with extensive knowledge of Southampton and United Kingdom. Specializing in Indigenous Culture, Architecture, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Mia is a passionate tour guide with extensive knowledge of Southampton and United Kingdom. Specializing in Indigenous Culture, Architecture, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
     reviewsCount: 96,
-    quote: "The best way to discover Southampton is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Southampton is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/37.jpg",
     languages: ["Tagalog", "Greek"],
     experienceYears: 13,
@@ -263,7 +310,7 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -276,7 +323,7 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -289,12 +336,13 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Henry is a passionate tour guide with extensive knowledge of Southampton and United Kingdom. Specializing in Public Transportation Navigation, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Henry is a passionate tour guide with extensive knowledge of Southampton and United Kingdom. Specializing in Public Transportation Navigation, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 96,
     quote: "In Southampton, we don't just see the sights - we make memories.",
@@ -315,7 +363,13 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
     isPopular: true,
     bio: "Liam is a passionate tour guide with extensive knowledge of Southampton and United Kingdom. Specializing in Museums, Family Activities, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Northern Europe", "South America"],
-    tourTypes: ["Cooking Class", "Audio Tour", "Group Tour", "Family-Friendly Tour", "Relocation Tour"],
+    tourTypes: [
+      "Cooking Class",
+      "Audio Tour",
+      "Group Tour",
+      "Family-Friendly Tour",
+      "Relocation Tour",
+    ],
     maxGroupSize: 16,
     licenseNumber: "LIC-8161-SOU",
     phoneNumber: "+1-694-731-4788",
@@ -331,7 +385,7 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -340,7 +394,7 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -349,7 +403,7 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -362,20 +416,26 @@ export const southamptonunitedKingdomnorthernEuropeGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Liam is a passionate tour guide with extensive knowledge of Southampton and United Kingdom. Specializing in Museums, Family Activities, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Liam is a passionate tour guide with extensive knowledge of Southampton and United Kingdom. Specializing in Museums, Family Activities, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 67,
-    quote: "The best way to discover Southampton is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Southampton is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/30.jpg",
     languages: ["Bulgarian"],
     experienceYears: 8,
-    certifications: ["Language Proficiency Certification", "Professional Tour Guide Association", "Heritage Interpretation Certificate"],
+    certifications: [
+      "Language Proficiency Certification",
+      "Professional Tour Guide Association",
+      "Heritage Interpretation Certificate",
+    ],
     specialties: ["Museums", "Family Activities"],
     specialTraining: [],
-  }
+  },
 ];

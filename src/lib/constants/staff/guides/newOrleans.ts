@@ -11,21 +11,32 @@ export const newOrleansunitedStatescaribbeanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Daniel is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Urban Legends, Nightlife, Local Cuisine, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Caribbean"],
-    tourTypes: ["Bike Tour", "Farm Visit", "Religious Tour", "Off-Road Tour", "Scenic Tour"],
+    tourTypes: [
+      "Bike Tour",
+      "Farm Visit",
+      "Religious Tour",
+      "Off-Road Tour",
+      "Scenic Tour",
+    ],
     maxGroupSize: 12,
     licenseNumber: "LIC-4610-NEW",
     phoneNumber: "+1-249-898-5423",
     contactEmail: "daniel.nelson@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Daniel is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Urban Legends, Nightlife, Local Cuisine, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Daniel is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Urban Legends, Nightlife, Local Cuisine, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
     reviewsCount: 15,
-    quote: "Every corner of New Orleans tells a story, let me share them with you.",
+    quote:
+      "Every corner of New Orleans tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/58.jpg",
     languages: ["Korean", "Cantonese"],
     experienceYears: 4,
-    certifications: ["Licensed City Guide", "Heritage Interpretation Certificate"],
+    certifications: [
+      "Licensed City Guide",
+      "Heritage Interpretation Certificate",
+    ],
     specialties: ["Urban Legends", "Nightlife", "Local Cuisine"],
     specialTraining: ["Accessibility Services", "Local Transit Systems"],
   },
@@ -46,7 +57,8 @@ export const newOrleansunitedStatescaribbeanGuides: TourGuide[] = [
     contactEmail: "joseph.ramirez@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Joseph is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Film Locations, Cultural Etiquette, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Joseph is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Film Locations, Cultural Etiquette, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 11,
     quote: "In New Orleans, we don't just see the sights - we make memories.",
@@ -67,21 +79,32 @@ export const newOrleansunitedStatescaribbeanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Jackson is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Wine Tasting, Urban Legends, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Caribbean"],
-    tourTypes: ["Underground Tour", "Accessible Tour", "Walking Tour", "Wildlife Safari"],
+    tourTypes: [
+      "Underground Tour",
+      "Accessible Tour",
+      "Walking Tour",
+      "Wildlife Safari",
+    ],
     maxGroupSize: 12,
     licenseNumber: "LIC-4280-NEW",
     phoneNumber: "+1-733-111-1779",
     contactEmail: "jackson.thompson@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Jackson is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Wine Tasting, Urban Legends, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Jackson is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Wine Tasting, Urban Legends, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 95,
-    quote: "My goal is to help you fall in love with New Orleans just as I have.",
+    quote:
+      "My goal is to help you fall in love with New Orleans just as I have.",
     profileImage: "https://randomuser.me/api/portraits/women/35.jpg",
     languages: ["Hindi"],
     experienceYears: 11,
-    certifications: ["Food Safety Certification", "Eco-Tourism Guide", "Regional Tourism Ambassador"],
+    certifications: [
+      "Food Safety Certification",
+      "Eco-Tourism Guide",
+      "Regional Tourism Ambassador",
+    ],
     specialties: ["Wine Tasting", "Urban Legends"],
     specialTraining: [],
   },
@@ -102,10 +125,12 @@ export const newOrleansunitedStatescaribbeanGuides: TourGuide[] = [
     contactEmail: "lily.king@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Lily is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Wildlife, Lily provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Lily is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Wildlife, Lily provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 63,
-    quote: "My goal is to help you fall in love with New Orleans just as I have.",
+    quote:
+      "My goal is to help you fall in love with New Orleans just as I have.",
     profileImage: "https://randomuser.me/api/portraits/men/44.jpg",
     languages: ["Arabic", "Polish"],
     experienceYears: 15,
@@ -123,17 +148,24 @@ export const newOrleansunitedStatescaribbeanGuides: TourGuide[] = [
     isPopular: true,
     bio: "Matthew is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in LGBTQ+ History, Hidden Gems, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Africa"],
-    tourTypes: ["Photography Tour", "Self-Guided Tour", "Family-Friendly Tour", "Religious Tour"],
+    tourTypes: [
+      "Photography Tour",
+      "Self-Guided Tour",
+      "Family-Friendly Tour",
+      "Religious Tour",
+    ],
     maxGroupSize: 10,
     licenseNumber: "LIC-6901-NEW",
     phoneNumber: "+1-780-165-2774",
     contactEmail: "matthew.johnson@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Matthew is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in LGBTQ+ History, Hidden Gems, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Matthew is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in LGBTQ+ History, Hidden Gems, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 30,
-    quote: "My goal is to help you fall in love with New Orleans just as I have.",
+    quote:
+      "My goal is to help you fall in love with New Orleans just as I have.",
     profileImage: "https://randomuser.me/api/portraits/men/38.jpg",
     languages: ["Finnish", "Korean"],
     experienceYears: 7,
@@ -167,7 +199,7 @@ export const newOrleansunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -176,7 +208,7 @@ export const newOrleansunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -185,7 +217,7 @@ export const newOrleansunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -194,7 +226,7 @@ export const newOrleansunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -203,19 +235,24 @@ export const newOrleansunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "18:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Liam is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Wildlife, Local Craftsmanship, Architecture, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Liam is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Wildlife, Local Craftsmanship, Architecture, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 5,
     reviewsCount: 62,
-    quote: "New Orleans isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "New Orleans isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/70.jpg",
     languages: ["Russian", "Norwegian", "Greek"],
     experienceYears: 8,
-    certifications: ["Food Safety Certification", "Regional Tourism Ambassador"],
+    certifications: [
+      "Food Safety Certification",
+      "Regional Tourism Ambassador",
+    ],
     specialties: ["Wildlife", "Local Craftsmanship", "Architecture"],
     specialTraining: [],
   },
@@ -229,7 +266,13 @@ export const newOrleansunitedStatescaribbeanGuides: TourGuide[] = [
     isPopular: true,
     bio: "Sebastian is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Nightlife, Architecture, Film Locations, Historical Landmarks, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["West Coast USA"],
-    tourTypes: ["Underground Tour", "Cooking Class", "LGBTQ+ Friendly Tour", "Festival Tour", "Ghost Tour"],
+    tourTypes: [
+      "Underground Tour",
+      "Cooking Class",
+      "LGBTQ+ Friendly Tour",
+      "Festival Tour",
+      "Ghost Tour",
+    ],
     maxGroupSize: 14,
     licenseNumber: "LIC-5730-NEW",
     phoneNumber: "+1-965-214-4157",
@@ -245,7 +288,7 @@ export const newOrleansunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -254,7 +297,7 @@ export const newOrleansunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -267,20 +310,27 @@ export const newOrleansunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "13:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Sebastian is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Nightlife, Architecture, Film Locations, Historical Landmarks, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sebastian is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Nightlife, Architecture, Film Locations, Historical Landmarks, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 82,
-    quote: "New Orleans isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "New Orleans isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/9.jpg",
     languages: ["Spanish", "Japanese", "Hebrew"],
     experienceYears: 4,
     certifications: ["Urban Navigation Specialist"],
-    specialties: ["Nightlife", "Architecture", "Film Locations", "Historical Landmarks"],
+    specialties: [
+      "Nightlife",
+      "Architecture",
+      "Film Locations",
+      "Historical Landmarks",
+    ],
     specialTraining: ["Religious Studies"],
   },
   {
@@ -305,7 +355,7 @@ export const newOrleansunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -318,7 +368,7 @@ export const newOrleansunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -327,20 +377,22 @@ export const newOrleansunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Penelope is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Public Transportation Navigation, Indigenous Culture, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Penelope is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Public Transportation Navigation, Indigenous Culture, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 43,
-    quote: "My goal is to help you fall in love with New Orleans just as I have.",
+    quote:
+      "My goal is to help you fall in love with New Orleans just as I have.",
     profileImage: "https://randomuser.me/api/portraits/men/40.jpg",
     languages: ["Czech", "Finnish"],
     experienceYears: 2,
     certifications: ["Urban Navigation Specialist"],
     specialties: ["Public Transportation Navigation", "Indigenous Culture"],
     specialTraining: ["Religious Studies", "Historical Research Methods"],
-  }
+  },
 ];

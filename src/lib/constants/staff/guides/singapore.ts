@@ -11,21 +11,32 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
     isPopular: false,
     bio: "Sofia is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Local Markets, Parks & Gardens, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast Canada"],
-    tourTypes: ["Walking Tour", "Architecture Tour", "Food Tour", "Brewery Tour", "Self-Guided Tour"],
+    tourTypes: [
+      "Walking Tour",
+      "Architecture Tour",
+      "Food Tour",
+      "Brewery Tour",
+      "Self-Guided Tour",
+    ],
     maxGroupSize: 16,
     licenseNumber: "LIC-9864-SIN",
     phoneNumber: "+1-869-685-7417",
     contactEmail: "sofia.walker@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Sofia is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Local Markets, Parks & Gardens, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sofia is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Local Markets, Parks & Gardens, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 97,
     quote: "In Singapore, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/men/54.jpg",
     languages: ["Spanish", "Hungarian", "Finnish"],
     experienceYears: 5,
-    certifications: ["Sustainable Tourism Certificate", "Local History Certification", "Licensed City Guide"],
+    certifications: [
+      "Sustainable Tourism Certificate",
+      "Local History Certification",
+      "Licensed City Guide",
+    ],
     specialties: ["Local Markets", "Parks & Gardens"],
     specialTraining: ["Historical Research Methods"],
   },
@@ -39,17 +50,25 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
     isPopular: false,
     bio: "Lucas is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Parks & Gardens, Art Galleries, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Asia Pacific", "Africa"],
-    tourTypes: ["Cultural Tour", "Photography Tour", "Shopping Tour", "Adventure Tour", "Self-Guided Tour"],
+    tourTypes: [
+      "Cultural Tour",
+      "Photography Tour",
+      "Shopping Tour",
+      "Adventure Tour",
+      "Self-Guided Tour",
+    ],
     maxGroupSize: 9,
     licenseNumber: "LIC-5131-SIN",
     phoneNumber: "+1-964-946-4814",
     contactEmail: "lucas.torres@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Lucas is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Parks & Gardens, Art Galleries, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Lucas is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Parks & Gardens, Art Galleries, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 92,
-    quote: "Singapore isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Singapore isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/14.jpg",
     languages: ["Italian", "Finnish", "Hindi"],
     experienceYears: 10,
@@ -74,14 +93,19 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
     contactEmail: "aria.green@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Aria is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Photography Spots, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Aria is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Photography Spots, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 27,
-    quote: "Singapore isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Singapore isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/46.jpg",
     languages: ["Hungarian", "Spanish", "Finnish"],
     experienceYears: 8,
-    certifications: ["Urban Navigation Specialist", "Sustainable Tourism Certificate"],
+    certifications: [
+      "Urban Navigation Specialist",
+      "Sustainable Tourism Certificate",
+    ],
     specialties: ["Photography Spots"],
     specialTraining: ["Cultural Sensitivity"],
   },
@@ -95,21 +119,32 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
     isPopular: false,
     bio: "William is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Cultural Etiquette, William provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["South America", "West Coast USA"],
-    tourTypes: ["Cruise Excursion", "Museum Tour", "Historical Tour", "Ghost Tour"],
+    tourTypes: [
+      "Cruise Excursion",
+      "Museum Tour",
+      "Historical Tour",
+      "Ghost Tour",
+    ],
     maxGroupSize: 7,
     licenseNumber: "LIC-8176-SIN",
     phoneNumber: "+1-727-911-3278",
     contactEmail: "william.martin@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "William is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Cultural Etiquette, William provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "William is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Cultural Etiquette, William provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 46,
-    quote: "The best way to discover Singapore is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Singapore is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/78.jpg",
     languages: ["Hebrew", "Danish"],
     experienceYears: 9,
-    certifications: ["Language Proficiency Certification", "Food Safety Certification", "Regional Tourism Ambassador"],
+    certifications: [
+      "Language Proficiency Certification",
+      "Food Safety Certification",
+      "Regional Tourism Ambassador",
+    ],
     specialties: ["Cultural Etiquette"],
     specialTraining: ["Public Speaking", "Accessibility Services"],
   },
@@ -135,7 +170,7 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -144,12 +179,13 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Scarlett is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Urban Legends, Sustainable Tourism, Family Activities, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Scarlett is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Urban Legends, Sustainable Tourism, Family Activities, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 81,
     quote: "In Singapore, we don't just see the sights - we make memories.",
@@ -182,7 +218,7 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -191,7 +227,7 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -200,19 +236,24 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "William is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Nightlife, Art Galleries, Street Food, William provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "William is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Nightlife, Art Galleries, Street Food, William provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 43,
     quote: "My goal is to help you fall in love with Singapore just as I have.",
     profileImage: "https://randomuser.me/api/portraits/men/2.jpg",
     languages: ["Korean", "Turkish", "Russian"],
     experienceYears: 15,
-    certifications: ["CPR & First Aid", "Local History Certification", "Heritage Interpretation Certificate"],
+    certifications: [
+      "CPR & First Aid",
+      "Local History Certification",
+      "Heritage Interpretation Certificate",
+    ],
     specialties: ["Nightlife", "Art Galleries", "Street Food"],
     specialTraining: ["Accessibility Services"],
   },
@@ -242,7 +283,7 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -251,7 +292,7 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -260,20 +301,22 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "18:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Abigail is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Art Galleries, Music Scene, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Abigail is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Art Galleries, Music Scene, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 41,
-    quote: "Singapore isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Singapore isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/3.jpg",
     languages: ["Swedish"],
     experienceYears: 14,
     certifications: ["CPR & First Aid"],
     specialties: ["Art Galleries", "Music Scene"],
     specialTraining: [],
-  }
+  },
 ];

@@ -14,8 +14,8 @@ export const romeitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -23,8 +23,8 @@ export const romeitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -32,20 +32,25 @@ export const romeitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "16:00"
+            to: "16:00",
           },
           {
             from: "06:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.9,
     phone: "+156 517-289-9024",
     email: "harry.crawford@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/45.jpg",
-    specialties: ["Night Shift", "VIP Transport", "Luxury Car Specialist", "Event Transportation"],
+    specialties: [
+      "Night Shift",
+      "VIP Transport",
+      "Luxury Car Specialist",
+      "Event Transportation",
+    ],
     vehicleTypesCertified: ["Electric Vehicle", "Sedan", "Convertible"],
   },
   {
@@ -61,12 +66,12 @@ export const romeitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "06:00"
+            to: "06:00",
           },
           {
             from: "18:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -74,12 +79,12 @@ export const romeitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "14:00"
+            to: "14:00",
           },
           {
             from: "07:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -87,12 +92,12 @@ export const romeitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "23:00"
+            to: "23:00",
           },
           {
             from: "04:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -100,16 +105,20 @@ export const romeitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.1,
     phone: "+441 617-946-9940",
     email: "angela.lee@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/54.jpg",
-    specialties: ["Event Transportation", "VIP Transport", "Luxury Car Specialist"],
+    specialties: [
+      "Event Transportation",
+      "VIP Transport",
+      "Luxury Car Specialist",
+    ],
     vehicleTypesCertified: ["Van"],
   },
   {
@@ -125,12 +134,12 @@ export const romeitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "03:00"
+            to: "03:00",
           },
           {
             from: "16:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -138,12 +147,12 @@ export const romeitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "10:00"
+            to: "10:00",
           },
           {
             from: "10:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
       },
       {
@@ -151,12 +160,12 @@ export const romeitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "18:00"
+            to: "18:00",
           },
           {
             from: "05:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
       },
       {
@@ -164,17 +173,22 @@ export const romeitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.9,
     phone: "+273 551-992-4543",
     email: "aiden.rodriguez@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/86.jpg",
     specialties: ["VIP Transport"],
-    vehicleTypesCertified: ["Electric Vehicle", "Sports Car", "Van", "Motorcoach"],
+    vehicleTypesCertified: [
+      "Electric Vehicle",
+      "Sports Car",
+      "Van",
+      "Motorcoach",
+    ],
   },
   {
     id: "driver-rome-4",
@@ -189,12 +203,12 @@ export const romeitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "14:00"
+            to: "14:00",
           },
           {
             from: "01:00",
-            to: "04:00"
-          }
+            to: "04:00",
+          },
         ],
       },
       {
@@ -202,12 +216,12 @@ export const romeitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "07:00"
+            to: "07:00",
           },
           {
             from: "17:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -215,12 +229,12 @@ export const romeitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "23:00"
+            to: "23:00",
           },
           {
             from: "09:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -228,10 +242,10 @@ export const romeitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.5,
     phone: "+857 597-795-7395",
@@ -253,12 +267,12 @@ export const romeitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "10:00"
+            to: "10:00",
           },
           {
             from: "20:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
       },
       {
@@ -266,12 +280,12 @@ export const romeitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "10:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
       },
       {
@@ -279,12 +293,12 @@ export const romeitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "22:00"
+            to: "22:00",
           },
           {
             from: "18:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -292,8 +306,8 @@ export const romeitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "02:00"
-          }
+            to: "02:00",
+          },
         ],
       },
       {
@@ -301,10 +315,10 @@ export const romeitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.3,
     phone: "+489 451-331-2626",
@@ -326,8 +340,8 @@ export const romeitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
       },
       {
@@ -335,8 +349,8 @@ export const romeitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -344,20 +358,24 @@ export const romeitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "13:00"
+            to: "13:00",
           },
           {
             from: "15:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 5,
     phone: "+247 812-875-6617",
     email: "layla.müller@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/63.jpg",
-    specialties: ["Event Transportation", "Tour Guide Driver", "Long-Distance Driving"],
+    specialties: [
+      "Event Transportation",
+      "Tour Guide Driver",
+      "Long-Distance Driving",
+    ],
     vehicleTypesCertified: ["Electric Vehicle", "Luxury SUV", "Motorcoach"],
   },
   {
@@ -373,12 +391,12 @@ export const romeitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "17:00"
+            to: "17:00",
           },
           {
             from: "18:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -386,8 +404,8 @@ export const romeitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -395,12 +413,12 @@ export const romeitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "23:00"
+            to: "23:00",
           },
           {
             from: "08:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -408,8 +426,8 @@ export const romeitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -417,14 +435,14 @@ export const romeitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "07:00"
+            to: "07:00",
           },
           {
             from: "02:00",
-            to: "04:00"
-          }
+            to: "04:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.9,
     phone: "+848 829-590-6866",
@@ -446,12 +464,12 @@ export const romeitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "22:00"
+            to: "22:00",
           },
           {
             from: "03:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -459,12 +477,12 @@ export const romeitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "14:00"
+            to: "14:00",
           },
           {
             from: "03:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -472,12 +490,12 @@ export const romeitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "18:00"
+            to: "18:00",
           },
           {
             from: "05:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -485,14 +503,14 @@ export const romeitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "09:00"
+            to: "09:00",
           },
           {
             from: "21:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.5,
     phone: "+624 862-203-6530",
@@ -500,5 +518,5 @@ export const romeitalymediterraneanDrivers: Driver[] = [
     photoUrl: "https://randomuser.me/api/portraits/men/47.jpg",
     specialties: ["Security Detail", "Airport Transfers"],
     vehicleTypesCertified: ["Sedan", "Electric Vehicle", "Convertible"],
-  }
+  },
 ];

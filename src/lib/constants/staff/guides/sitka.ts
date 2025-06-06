@@ -18,14 +18,18 @@ export const sitkaunitedStatesalaskaGuides: TourGuide[] = [
     contactEmail: "victoria.perez@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Victoria is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Parks & Gardens, Historical Landmarks, Urban Legends, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Victoria is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Parks & Gardens, Historical Landmarks, Urban Legends, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
     reviewsCount: 103,
     quote: "My goal is to help you fall in love with Sitka just as I have.",
     profileImage: "https://randomuser.me/api/portraits/men/21.jpg",
     languages: ["Danish", "Romanian"],
     experienceYears: 12,
-    certifications: ["Adventure Tourism Safety Certificate", "Heritage Interpretation Certificate"],
+    certifications: [
+      "Adventure Tourism Safety Certificate",
+      "Heritage Interpretation Certificate",
+    ],
     specialties: ["Parks & Gardens", "Historical Landmarks", "Urban Legends"],
     specialTraining: ["Local Transit Systems", "Art History"],
   },
@@ -46,10 +50,12 @@ export const sitkaunitedStatesalaskaGuides: TourGuide[] = [
     contactEmail: "david.rivera@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "David is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Art Galleries, Film Locations, Sustainable Tourism, David provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "David is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Art Galleries, Film Locations, Sustainable Tourism, David provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 37,
-    quote: "Sitka isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Sitka isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/69.jpg",
     languages: ["Portuguese"],
     experienceYears: 7,
@@ -74,15 +80,25 @@ export const sitkaunitedStatesalaskaGuides: TourGuide[] = [
     contactEmail: "samuel.johnson@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Samuel is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Sustainable Tourism, Architecture, Photography Spots, Music Scene, Samuel provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Samuel is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Sustainable Tourism, Architecture, Photography Spots, Music Scene, Samuel provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 51,
     quote: "My goal is to help you fall in love with Sitka just as I have.",
     profileImage: "https://randomuser.me/api/portraits/women/25.jpg",
     languages: ["Croatian", "Bulgarian"],
     experienceYears: 2,
-    certifications: ["Licensed City Guide", "Sustainable Tourism Certificate", "Regional Tourism Ambassador"],
-    specialties: ["Sustainable Tourism", "Architecture", "Photography Spots", "Music Scene"],
+    certifications: [
+      "Licensed City Guide",
+      "Sustainable Tourism Certificate",
+      "Regional Tourism Ambassador",
+    ],
+    specialties: [
+      "Sustainable Tourism",
+      "Architecture",
+      "Photography Spots",
+      "Music Scene",
+    ],
     specialTraining: ["Mountain Survival", "Archaeological Conservation"],
   },
   {
@@ -107,7 +123,7 @@ export const sitkaunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -116,7 +132,7 @@ export const sitkaunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -129,19 +145,24 @@ export const sitkaunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Logan is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Adventure Sports, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Logan is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Adventure Sports, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 30,
     quote: "Every corner of Sitka tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/5.jpg",
     languages: ["Arabic", "Dutch", "Portuguese"],
     experienceYears: 10,
-    certifications: ["Professional Tour Guide Association", "Local History Certification", "Sustainable Tourism Certificate"],
+    certifications: [
+      "Professional Tour Guide Association",
+      "Local History Certification",
+      "Sustainable Tourism Certificate",
+    ],
     specialties: ["Adventure Sports"],
     specialTraining: ["Desert Navigation", "Regional Cuisine"],
   },
@@ -171,7 +192,7 @@ export const sitkaunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -180,7 +201,7 @@ export const sitkaunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -189,20 +210,30 @@ export const sitkaunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Matthew is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Museums, Public Transportation Navigation, Religious Sites, Parks & Gardens, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Matthew is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Museums, Public Transportation Navigation, Religious Sites, Parks & Gardens, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
     reviewsCount: 96,
     quote: "In Sitka, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/men/3.jpg",
     languages: ["Indonesian", "Bulgarian", "Finnish"],
     experienceYears: 4,
-    certifications: ["Wilderness First Responder", "Language Proficiency Certification", "Sustainable Tourism Certificate"],
-    specialties: ["Museums", "Public Transportation Navigation", "Religious Sites", "Parks & Gardens"],
+    certifications: [
+      "Wilderness First Responder",
+      "Language Proficiency Certification",
+      "Sustainable Tourism Certificate",
+    ],
+    specialties: [
+      "Museums",
+      "Public Transportation Navigation",
+      "Religious Sites",
+      "Parks & Gardens",
+    ],
     specialTraining: ["Accessibility Services"],
   },
   {
@@ -227,7 +258,7 @@ export const sitkaunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -240,7 +271,7 @@ export const sitkaunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -253,7 +284,7 @@ export const sitkaunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -266,12 +297,13 @@ export const sitkaunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Aiden is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Religious Sites, Art Galleries, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Aiden is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Religious Sites, Art Galleries, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 55,
     quote: "My goal is to help you fall in love with Sitka just as I have.",
@@ -281,5 +313,5 @@ export const sitkaunitedStatesalaskaGuides: TourGuide[] = [
     certifications: ["Eco-Tourism Guide"],
     specialties: ["Religious Sites", "Art Galleries"],
     specialTraining: ["Accessibility Services", "Group Management"],
-  }
+  },
 ];

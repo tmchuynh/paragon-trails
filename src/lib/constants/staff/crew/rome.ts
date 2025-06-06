@@ -6,7 +6,11 @@ export const romeitalymediterraneanCrew: CrewMember[] = [
     name: "Savannah Parker",
     role: "Chef",
     experienceYears: 12,
-    certifications: ["Dive Master", "Navigation Certification", "Environmental Awareness"],
+    certifications: [
+      "Dive Master",
+      "Navigation Certification",
+      "Environmental Awareness",
+    ],
     languagesSpoken: ["Italian", "Polish", "Spanish"],
     isAvailable: false,
     contactEmail: "savannah.parker@paragontrails.com",
@@ -77,5 +81,5 @@ export const romeitalymediterraneanCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "stella.miller@paragontrails.com",
     contactPhone: "+1-019-111-2510",
-  }
+  },
 ];

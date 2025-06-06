@@ -11,21 +11,31 @@ export const tokyojapanasiaPacificGuides: TourGuide[] = [
     isPopular: false,
     bio: "Amelia is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Street Food, Photography Spots, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast USA", "Northern Europe"],
-    tourTypes: ["Photography Tour", "Brewery Tour", "Accessible Tour", "Ghost Tour"],
+    tourTypes: [
+      "Photography Tour",
+      "Brewery Tour",
+      "Accessible Tour",
+      "Ghost Tour",
+    ],
     maxGroupSize: 7,
     licenseNumber: "LIC-9328-TOK",
     phoneNumber: "+1-141-878-4750",
     contactEmail: "amelia.allen@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Amelia is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Street Food, Photography Spots, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Amelia is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Street Food, Photography Spots, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 74,
-    quote: "Tokyo isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Tokyo isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/51.jpg",
     languages: ["Korean", "Finnish", "Norwegian"],
     experienceYears: 8,
-    certifications: ["Professional Tour Guide Association", "Licensed City Guide"],
+    certifications: [
+      "Professional Tour Guide Association",
+      "Licensed City Guide",
+    ],
     specialties: ["Street Food", "Photography Spots"],
     specialTraining: ["Urban Planning"],
   },
@@ -46,7 +56,8 @@ export const tokyojapanasiaPacificGuides: TourGuide[] = [
     contactEmail: "wyatt.wilson@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Wyatt is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Cultural Etiquette, Wildlife, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Wyatt is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Cultural Etiquette, Wildlife, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
     reviewsCount: 22,
     quote: "In Tokyo, we don't just see the sights - we make memories.",
@@ -74,14 +85,18 @@ export const tokyojapanasiaPacificGuides: TourGuide[] = [
     contactEmail: "harper.sanchez@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Harper is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Art Galleries, Urban Legends, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Harper is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Art Galleries, Urban Legends, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 22,
     quote: "Every corner of Tokyo tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/61.jpg",
     languages: ["Serbian", "Vietnamese"],
     experienceYears: 15,
-    certifications: ["Food Safety Certification", "Local History Certification"],
+    certifications: [
+      "Food Safety Certification",
+      "Local History Certification",
+    ],
     specialties: ["Art Galleries", "Urban Legends"],
     specialTraining: [],
   },
@@ -102,7 +117,8 @@ export const tokyojapanasiaPacificGuides: TourGuide[] = [
     contactEmail: "evelyn.hernandez@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Evelyn is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Photography Spots, Public Transportation Navigation, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Evelyn is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Photography Spots, Public Transportation Navigation, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 9,
     quote: "Every corner of Tokyo tells a story, let me share them with you.",
@@ -123,21 +139,30 @@ export const tokyojapanasiaPacificGuides: TourGuide[] = [
     isPopular: false,
     bio: "Isabella is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Photography Spots, Music Scene, Local Craftsmanship, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Alaska"],
-    tourTypes: ["Adventure Tour", "Family-Friendly Tour", "Food Tour", "Scenic Tour"],
+    tourTypes: [
+      "Adventure Tour",
+      "Family-Friendly Tour",
+      "Food Tour",
+      "Scenic Tour",
+    ],
     maxGroupSize: 14,
     licenseNumber: "LIC-5402-TOK",
     phoneNumber: "+1-338-203-1357",
     contactEmail: "isabella.miller@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Isabella is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Photography Spots, Music Scene, Local Craftsmanship, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Isabella is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Photography Spots, Music Scene, Local Craftsmanship, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 6,
     quote: "My goal is to help you fall in love with Tokyo just as I have.",
     profileImage: "https://randomuser.me/api/portraits/men/3.jpg",
     languages: ["Russian", "Hindi", "Swedish"],
     experienceYears: 13,
-    certifications: ["Eco-Tourism Guide", "Adventure Tourism Safety Certificate"],
+    certifications: [
+      "Eco-Tourism Guide",
+      "Adventure Tourism Safety Certificate",
+    ],
     specialties: ["Photography Spots", "Music Scene", "Local Craftsmanship"],
     specialTraining: ["Photography"],
   },
@@ -151,21 +176,32 @@ export const tokyojapanasiaPacificGuides: TourGuide[] = [
     isPopular: false,
     bio: "Ethan is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Art Galleries, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Alaska"],
-    tourTypes: ["Brewery Tour", "Historical Tour", "Ghost Tour", "Museum Tour", "Off-Road Tour"],
+    tourTypes: [
+      "Brewery Tour",
+      "Historical Tour",
+      "Ghost Tour",
+      "Museum Tour",
+      "Off-Road Tour",
+    ],
     maxGroupSize: 15,
     licenseNumber: "LIC-3866-TOK",
     phoneNumber: "+1-969-154-3825",
     contactEmail: "ethan.gonzalez@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Ethan is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Art Galleries, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Ethan is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Art Galleries, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 99,
     quote: "My goal is to help you fall in love with Tokyo just as I have.",
     profileImage: "https://randomuser.me/api/portraits/women/51.jpg",
     languages: ["Greek", "Vietnamese", "Turkish"],
     experienceYears: 10,
-    certifications: ["Licensed City Guide", "Food Safety Certification", "Wilderness First Responder"],
+    certifications: [
+      "Licensed City Guide",
+      "Food Safety Certification",
+      "Wilderness First Responder",
+    ],
     specialties: ["Art Galleries"],
     specialTraining: [],
   },
@@ -191,7 +227,7 @@ export const tokyojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -204,7 +240,7 @@ export const tokyojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -213,12 +249,13 @@ export const tokyojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Mason is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Adventure Sports, Film Locations, Sustainable Tourism, Religious Sites, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Mason is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Adventure Sports, Film Locations, Sustainable Tourism, Religious Sites, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 28,
     quote: "Every corner of Tokyo tells a story, let me share them with you.",
@@ -226,7 +263,12 @@ export const tokyojapanasiaPacificGuides: TourGuide[] = [
     languages: ["Greek"],
     experienceYears: 3,
     certifications: ["CPR & First Aid", "Language Proficiency Certification"],
-    specialties: ["Adventure Sports", "Film Locations", "Sustainable Tourism", "Religious Sites"],
+    specialties: [
+      "Adventure Sports",
+      "Film Locations",
+      "Sustainable Tourism",
+      "Religious Sites",
+    ],
     specialTraining: [],
   },
   {
@@ -255,7 +297,7 @@ export const tokyojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -268,7 +310,7 @@ export const tokyojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -281,7 +323,7 @@ export const tokyojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "21:00",
-          }
+          },
         ],
       },
       {
@@ -290,19 +332,24 @@ export const tokyojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "13:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Emily is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Local Craftsmanship, Indigenous Culture, Emily provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Emily is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Local Craftsmanship, Indigenous Culture, Emily provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 82,
     quote: "My goal is to help you fall in love with Tokyo just as I have.",
     profileImage: "https://randomuser.me/api/portraits/men/53.jpg",
     languages: ["Arabic"],
     experienceYears: 6,
-    certifications: ["Language Proficiency Certification", "Local History Certification", "Regional Tourism Ambassador"],
+    certifications: [
+      "Language Proficiency Certification",
+      "Local History Certification",
+      "Regional Tourism Ambassador",
+    ],
     specialties: ["Local Craftsmanship", "Indigenous Culture"],
     specialTraining: ["Emergency Response"],
   },
@@ -328,7 +375,7 @@ export const tokyojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -337,7 +384,7 @@ export const tokyojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -350,7 +397,7 @@ export const tokyojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -363,20 +410,25 @@ export const tokyojapanasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "18:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Michael is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Wine Tasting, Nightlife, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Michael is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Wine Tasting, Nightlife, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 74,
-    quote: "Tokyo isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Tokyo isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/73.jpg",
     languages: ["Japanese", "Cantonese"],
     experienceYears: 12,
-    certifications: ["Urban Navigation Specialist", "Professional Tour Guide Association"],
+    certifications: [
+      "Urban Navigation Specialist",
+      "Professional Tour Guide Association",
+    ],
     specialties: ["Wine Tasting", "Nightlife"],
     specialTraining: ["Archaeological Conservation"],
-  }
+  },
 ];

@@ -14,12 +14,12 @@ export const milanitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "02:00"
+            to: "02:00",
           },
           {
             from: "14:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
       },
       {
@@ -27,8 +27,8 @@ export const milanitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -36,10 +36,10 @@ export const milanitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.6,
     phone: "+828 690-362-7136",
@@ -61,8 +61,8 @@ export const milanitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
       },
       {
@@ -70,12 +70,12 @@ export const milanitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "19:00"
+            to: "19:00",
           },
           {
             from: "18:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -83,8 +83,8 @@ export const milanitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -92,12 +92,12 @@ export const milanitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "10:00"
+            to: "10:00",
           },
           {
             from: "16:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -105,20 +105,24 @@ export const milanitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "23:00"
+            to: "23:00",
           },
           {
             from: "08:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.9,
     phone: "+187 990-401-4899",
     email: "elena.kowalski@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/42.jpg",
-    specialties: ["Luxury Car Specialist", "Tour Guide Driver", "Long-Distance Driving"],
+    specialties: [
+      "Luxury Car Specialist",
+      "Tour Guide Driver",
+      "Long-Distance Driving",
+    ],
     vehicleTypesCertified: ["Motorcoach", "Sports Car"],
   },
   {
@@ -134,12 +138,12 @@ export const milanitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "16:00"
+            to: "16:00",
           },
           {
             from: "14:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -147,8 +151,8 @@ export const milanitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
       },
       {
@@ -156,12 +160,12 @@ export const milanitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "15:00"
+            to: "15:00",
           },
           {
             from: "09:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
       },
       {
@@ -169,16 +173,21 @@ export const milanitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.6,
     phone: "+706 573-759-2585",
     email: "charlotte.bennett@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/50.jpg",
-    specialties: ["Airport Transfers", "Luxury Car Specialist", "Security Detail", "Event Transportation"],
+    specialties: [
+      "Airport Transfers",
+      "Luxury Car Specialist",
+      "Security Detail",
+      "Event Transportation",
+    ],
     vehicleTypesCertified: ["Van", "Sports Car"],
   },
   {
@@ -194,12 +203,12 @@ export const milanitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "06:00"
+            to: "06:00",
           },
           {
             from: "07:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
       },
       {
@@ -207,12 +216,12 @@ export const milanitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "09:00"
+            to: "09:00",
           },
           {
             from: "06:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
       },
       {
@@ -220,21 +229,32 @@ export const milanitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "13:00"
+            to: "13:00",
           },
           {
             from: "07:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.7,
     phone: "+568 819-598-8227",
     email: "alice.porter@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/31.jpg",
-    specialties: ["Corporate Chauffeur", "Security Detail", "Event Transportation", "Long-Distance Driving"],
-    vehicleTypesCertified: ["Sports Car", "Luxury SUV", "Limousine", "SUV", "Sedan"],
+    specialties: [
+      "Corporate Chauffeur",
+      "Security Detail",
+      "Event Transportation",
+      "Long-Distance Driving",
+    ],
+    vehicleTypesCertified: [
+      "Sports Car",
+      "Luxury SUV",
+      "Limousine",
+      "SUV",
+      "Sedan",
+    ],
   },
   {
     id: "driver-milan-5",
@@ -249,12 +269,12 @@ export const milanitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "11:00"
+            to: "11:00",
           },
           {
             from: "07:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -262,12 +282,12 @@ export const milanitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "22:00"
+            to: "22:00",
           },
           {
             from: "15:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -275,8 +295,8 @@ export const milanitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
       },
       {
@@ -284,14 +304,14 @@ export const milanitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "14:00"
+            to: "14:00",
           },
           {
             from: "20:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4,
     phone: "+92 284-484-3730",
@@ -313,8 +333,8 @@ export const milanitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -322,8 +342,8 @@ export const milanitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -331,12 +351,12 @@ export const milanitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "06:00"
+            to: "06:00",
           },
           {
             from: "04:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -344,10 +364,10 @@ export const milanitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.1,
     phone: "+437 788-562-8747",
@@ -369,12 +389,12 @@ export const milanitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "17:00"
+            to: "17:00",
           },
           {
             from: "11:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
       },
       {
@@ -382,8 +402,8 @@ export const milanitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -391,16 +411,20 @@ export const milanitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.8,
     phone: "+168 985-796-1801",
     email: "harper.dunn@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/46.jpg",
-    specialties: ["Airport Transfers", "Tour Guide Driver", "Luxury Car Specialist"],
+    specialties: [
+      "Airport Transfers",
+      "Tour Guide Driver",
+      "Luxury Car Specialist",
+    ],
     vehicleTypesCertified: ["Luxury SUV", "Motorcoach"],
-  }
+  },
 ];

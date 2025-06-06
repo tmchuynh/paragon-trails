@@ -66,5 +66,5 @@ export const kyotojapanasiaPacificCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "layla.anderson@paragontrails.com",
     contactPhone: "+1-053-067-5080",
-  }
+  },
 ];

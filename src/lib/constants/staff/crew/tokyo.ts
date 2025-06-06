@@ -50,7 +50,11 @@ export const tokyojapanasiaPacificCrew: CrewMember[] = [
     name: "Jose Bennett",
     role: "Captain",
     experienceYears: 3,
-    certifications: ["Marine Radio Operator", "Hospitality Training", "Fire Safety"],
+    certifications: [
+      "Marine Radio Operator",
+      "Hospitality Training",
+      "Fire Safety",
+    ],
     languagesSpoken: ["Norwegian", "Thai"],
     isAvailable: true,
     contactEmail: "jose.bennett@paragontrails.com",
@@ -66,5 +70,5 @@ export const tokyojapanasiaPacificCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "brooklyn.suzuki@paragontrails.com",
     contactPhone: "+1-176-871-0227",
-  }
+  },
 ];

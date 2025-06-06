@@ -28,7 +28,11 @@ export const losAngelesunitedStateswestCoastUsaCrew: CrewMember[] = [
     name: "Louis Rossi",
     role: "Deckhand",
     experienceYears: 3,
-    certifications: ["Engineering License", "Marine Radio Operator", "Navigation Certification"],
+    certifications: [
+      "Engineering License",
+      "Marine Radio Operator",
+      "Navigation Certification",
+    ],
     languagesSpoken: ["Hungarian", "Finnish"],
     isAvailable: true,
     contactEmail: "louis.rossi@paragontrails.com",
@@ -44,5 +48,5 @@ export const losAngelesunitedStateswestCoastUsaCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "michelle.collins@paragontrails.com",
     contactPhone: "+1-252-587-0924",
-  }
+  },
 ];

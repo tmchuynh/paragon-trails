@@ -11,21 +11,32 @@ export const cartagenacolombiacaribbeanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Liam is a passionate tour guide with extensive knowledge of Cartagena and Colombia. Specializing in Indigenous Culture, Nightlife, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast Canada", "Northern Europe"],
-    tourTypes: ["Cultural Tour", "Private Tour", "Wine Tour", "Relocation Tour", "Off-Road Tour"],
+    tourTypes: [
+      "Cultural Tour",
+      "Private Tour",
+      "Wine Tour",
+      "Relocation Tour",
+      "Off-Road Tour",
+    ],
     maxGroupSize: 9,
     licenseNumber: "LIC-7190-CAR",
     phoneNumber: "+1-681-483-2532",
     contactEmail: "liam.perez@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Liam is a passionate tour guide with extensive knowledge of Cartagena and Colombia. Specializing in Indigenous Culture, Nightlife, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Liam is a passionate tour guide with extensive knowledge of Cartagena and Colombia. Specializing in Indigenous Culture, Nightlife, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 66,
-    quote: "The best way to discover Cartagena is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Cartagena is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/35.jpg",
     languages: ["Polish", "Thai"],
     experienceYears: 7,
-    certifications: ["Heritage Interpretation Certificate", "Cultural Heritage Specialist"],
+    certifications: [
+      "Heritage Interpretation Certificate",
+      "Cultural Heritage Specialist",
+    ],
     specialties: ["Indigenous Culture", "Nightlife"],
     specialTraining: [],
   },
@@ -39,14 +50,20 @@ export const cartagenacolombiacaribbeanGuides: TourGuide[] = [
     isPopular: true,
     bio: "Madison is a passionate tour guide with extensive knowledge of Cartagena and Colombia. Specializing in Parks & Gardens, Local Cuisine, Architecture, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Alaska", "Mediterranean"],
-    tourTypes: ["Group Tour", "Cooking Class", "Wildlife Safari", "Architecture Tour"],
+    tourTypes: [
+      "Group Tour",
+      "Cooking Class",
+      "Wildlife Safari",
+      "Architecture Tour",
+    ],
     maxGroupSize: 14,
     licenseNumber: "LIC-8109-CAR",
     phoneNumber: "+1-414-636-6253",
     contactEmail: "madison.lee@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Madison is a passionate tour guide with extensive knowledge of Cartagena and Colombia. Specializing in Parks & Gardens, Local Cuisine, Architecture, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Madison is a passionate tour guide with extensive knowledge of Cartagena and Colombia. Specializing in Parks & Gardens, Local Cuisine, Architecture, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 40,
     quote: "In Cartagena, we don't just see the sights - we make memories.",
@@ -74,7 +91,8 @@ export const cartagenacolombiacaribbeanGuides: TourGuide[] = [
     contactEmail: "alexander.clark@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Alexander is a passionate tour guide with extensive knowledge of Cartagena and Colombia. Specializing in Photography Spots, Urban Legends, Historical Landmarks, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Alexander is a passionate tour guide with extensive knowledge of Cartagena and Colombia. Specializing in Photography Spots, Urban Legends, Historical Landmarks, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
     reviewsCount: 12,
     quote: "My goal is to help you fall in love with Cartagena just as I have.",
@@ -95,21 +113,32 @@ export const cartagenacolombiacaribbeanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Ava is a passionate tour guide with extensive knowledge of Cartagena and Colombia. Specializing in Street Food, Sustainable Tourism, Local Markets, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["West Coast USA"],
-    tourTypes: ["Underground Tour", "Craft Workshop", "Cruise Excursion", "LGBTQ+ Friendly Tour", "Religious Tour"],
+    tourTypes: [
+      "Underground Tour",
+      "Craft Workshop",
+      "Cruise Excursion",
+      "LGBTQ+ Friendly Tour",
+      "Religious Tour",
+    ],
     maxGroupSize: 15,
     licenseNumber: "LIC-4878-CAR",
     phoneNumber: "+1-870-623-6106",
     contactEmail: "ava.roberts@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Ava is a passionate tour guide with extensive knowledge of Cartagena and Colombia. Specializing in Street Food, Sustainable Tourism, Local Markets, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Ava is a passionate tour guide with extensive knowledge of Cartagena and Colombia. Specializing in Street Food, Sustainable Tourism, Local Markets, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
     reviewsCount: 42,
     quote: "My goal is to help you fall in love with Cartagena just as I have.",
     profileImage: "https://randomuser.me/api/portraits/women/66.jpg",
     languages: ["Russian"],
     experienceYears: 11,
-    certifications: ["Licensed City Guide", "Urban Navigation Specialist", "Eco-Tourism Guide"],
+    certifications: [
+      "Licensed City Guide",
+      "Urban Navigation Specialist",
+      "Eco-Tourism Guide",
+    ],
     specialties: ["Street Food", "Sustainable Tourism", "Local Markets"],
     specialTraining: ["Local Transit Systems", "Mountain Survival"],
   },
@@ -139,7 +168,7 @@ export const cartagenacolombiacaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -148,7 +177,7 @@ export const cartagenacolombiacaribbeanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -161,7 +190,7 @@ export const cartagenacolombiacaribbeanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -170,7 +199,7 @@ export const cartagenacolombiacaribbeanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -183,19 +212,24 @@ export const cartagenacolombiacaribbeanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Owen is a passionate tour guide with extensive knowledge of Cartagena and Colombia. Specializing in Film Locations, Architecture, Adventure Sports, Owen provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Owen is a passionate tour guide with extensive knowledge of Cartagena and Colombia. Specializing in Film Locations, Architecture, Adventure Sports, Owen provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
     reviewsCount: 77,
-    quote: "Cartagena isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Cartagena isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/52.jpg",
     languages: ["Turkish", "Hungarian", "Russian"],
     experienceYears: 2,
-    certifications: ["Cultural Heritage Specialist", "Professional Tour Guide Association"],
+    certifications: [
+      "Cultural Heritage Specialist",
+      "Professional Tour Guide Association",
+    ],
     specialties: ["Film Locations", "Architecture", "Adventure Sports"],
     specialTraining: ["Emergency Response", "Archaeological Conservation"],
   },
@@ -225,7 +259,7 @@ export const cartagenacolombiacaribbeanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -238,7 +272,7 @@ export const cartagenacolombiacaribbeanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -251,7 +285,7 @@ export const cartagenacolombiacaribbeanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -260,15 +294,17 @@ export const cartagenacolombiacaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Wyatt is a passionate tour guide with extensive knowledge of Cartagena and Colombia. Specializing in Photography Spots, Museums, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Wyatt is a passionate tour guide with extensive knowledge of Cartagena and Colombia. Specializing in Photography Spots, Museums, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 5,
-    quote: "Cartagena isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Cartagena isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/18.jpg",
     languages: ["English"],
     experienceYears: 2,
@@ -302,7 +338,7 @@ export const cartagenacolombiacaribbeanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -315,7 +351,7 @@ export const cartagenacolombiacaribbeanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -324,7 +360,7 @@ export const cartagenacolombiacaribbeanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -337,7 +373,7 @@ export const cartagenacolombiacaribbeanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -346,20 +382,24 @@ export const cartagenacolombiacaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Alexander is a passionate tour guide with extensive knowledge of Cartagena and Colombia. Specializing in Photography Spots, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Alexander is a passionate tour guide with extensive knowledge of Cartagena and Colombia. Specializing in Photography Spots, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 83,
     quote: "In Cartagena, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/men/17.jpg",
     languages: ["Portuguese", "Swedish", "Dutch"],
     experienceYears: 3,
-    certifications: ["Food Safety Certification", "Cultural Heritage Specialist"],
+    certifications: [
+      "Food Safety Certification",
+      "Cultural Heritage Specialist",
+    ],
     specialties: ["Photography Spots"],
     specialTraining: ["Emergency Response"],
-  }
+  },
 ];

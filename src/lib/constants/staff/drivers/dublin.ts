@@ -14,8 +14,8 @@ export const dublinirelandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
       },
       {
@@ -23,8 +23,8 @@ export const dublinirelandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
       },
       {
@@ -32,8 +32,8 @@ export const dublinirelandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
       },
       {
@@ -41,20 +41,25 @@ export const dublinirelandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "06:00"
+            to: "06:00",
           },
           {
             from: "19:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.9,
     phone: "+858 996-743-8690",
     email: "marcus.lopez@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/63.jpg",
-    specialties: ["Event Transportation", "Tour Guide Driver", "Security Detail", "VIP Transport"],
+    specialties: [
+      "Event Transportation",
+      "Tour Guide Driver",
+      "Security Detail",
+      "VIP Transport",
+    ],
     vehicleTypesCertified: ["Luxury SUV", "Sports Car"],
   },
   {
@@ -70,12 +75,12 @@ export const dublinirelandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "11:00"
+            to: "11:00",
           },
           {
             from: "15:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -83,8 +88,8 @@ export const dublinirelandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -92,12 +97,12 @@ export const dublinirelandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "14:00"
+            to: "14:00",
           },
           {
             from: "06:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
       },
       {
@@ -105,10 +110,10 @@ export const dublinirelandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.7,
     phone: "+157 829-643-9215",
@@ -130,12 +135,12 @@ export const dublinirelandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "19:00"
+            to: "19:00",
           },
           {
             from: "15:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -143,12 +148,12 @@ export const dublinirelandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "21:00"
+            to: "21:00",
           },
           {
             from: "07:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -156,12 +161,12 @@ export const dublinirelandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "07:00"
+            to: "07:00",
           },
           {
             from: "18:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -169,16 +174,21 @@ export const dublinirelandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.8,
     phone: "+303 191-993-4797",
     email: "muhammad.khan@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/30.jpg",
-    specialties: ["Event Transportation", "Night Shift", "Luxury Car Specialist", "Long-Distance Driving"],
+    specialties: [
+      "Event Transportation",
+      "Night Shift",
+      "Luxury Car Specialist",
+      "Long-Distance Driving",
+    ],
     vehicleTypesCertified: ["Electric Vehicle", "Luxury SUV"],
   },
   {
@@ -194,8 +204,8 @@ export const dublinirelandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
       },
       {
@@ -203,8 +213,8 @@ export const dublinirelandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "03:00"
-          }
+            to: "03:00",
+          },
         ],
       },
       {
@@ -212,14 +222,14 @@ export const dublinirelandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "22:00"
+            to: "22:00",
           },
           {
             from: "10:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.6,
     phone: "+829 155-286-7028",
@@ -241,8 +251,8 @@ export const dublinirelandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
       },
       {
@@ -250,12 +260,12 @@ export const dublinirelandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "19:00"
+            to: "19:00",
           },
           {
             from: "09:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -263,12 +273,12 @@ export const dublinirelandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "03:00"
+            to: "03:00",
           },
           {
             from: "09:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -276,8 +286,8 @@ export const dublinirelandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -285,16 +295,20 @@ export const dublinirelandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.1,
     phone: "+844 256-802-5113",
     email: "elena.montgomery@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/86.jpg",
-    specialties: ["Luxury Car Specialist", "Event Transportation", "Airport Transfers"],
+    specialties: [
+      "Luxury Car Specialist",
+      "Event Transportation",
+      "Airport Transfers",
+    ],
     vehicleTypesCertified: ["Motorcoach", "SUV"],
-  }
+  },
 ];

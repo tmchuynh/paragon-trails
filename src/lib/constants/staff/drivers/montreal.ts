@@ -14,12 +14,12 @@ export const montrealcanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "19:00"
+            to: "19:00",
           },
           {
             from: "04:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -27,12 +27,12 @@ export const montrealcanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "10:00"
+            to: "10:00",
           },
           {
             from: "20:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
       },
       {
@@ -40,12 +40,12 @@ export const montrealcanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "06:00"
+            to: "06:00",
           },
           {
             from: "07:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
       },
       {
@@ -53,20 +53,25 @@ export const montrealcanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "15:00"
+            to: "15:00",
           },
           {
             from: "20:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.5,
     phone: "+752 999-588-1095",
     email: "wei.lawson@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/82.jpg",
-    specialties: ["Airport Transfers", "Long-Distance Driving", "VIP Transport", "Corporate Chauffeur"],
+    specialties: [
+      "Airport Transfers",
+      "Long-Distance Driving",
+      "VIP Transport",
+      "Corporate Chauffeur",
+    ],
     vehicleTypesCertified: ["Limousine", "Sports Car", "SUV", "Sedan"],
   },
   {
@@ -82,12 +87,12 @@ export const montrealcanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "17:00"
+            to: "17:00",
           },
           {
             from: "01:00",
-            to: "04:00"
-          }
+            to: "04:00",
+          },
         ],
       },
       {
@@ -95,8 +100,8 @@ export const montrealcanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
       },
       {
@@ -104,12 +109,12 @@ export const montrealcanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "17:00"
+            to: "17:00",
           },
           {
             from: "10:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
       },
       {
@@ -117,10 +122,10 @@ export const montrealcanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.7,
     phone: "+232 105-374-3633",
@@ -142,8 +147,8 @@ export const montrealcanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -151,12 +156,12 @@ export const montrealcanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "07:00"
+            to: "07:00",
           },
           {
             from: "02:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -164,12 +169,12 @@ export const montrealcanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "07:00"
+            to: "07:00",
           },
           {
             from: "19:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
       },
       {
@@ -177,17 +182,22 @@ export const montrealcanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.4,
     phone: "+739 696-273-3830",
     email: "edward.moore@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/18.jpg",
     specialties: ["Event Transportation"],
-    vehicleTypesCertified: ["Sports Car", "Electric Vehicle", "Motorcoach", "Limousine"],
+    vehicleTypesCertified: [
+      "Sports Car",
+      "Electric Vehicle",
+      "Motorcoach",
+      "Limousine",
+    ],
   },
   {
     id: "driver-montreal-4",
@@ -202,8 +212,8 @@ export const montrealcanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -211,12 +221,12 @@ export const montrealcanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "14:00"
+            to: "14:00",
           },
           {
             from: "10:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
       },
       {
@@ -224,14 +234,14 @@ export const montrealcanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "11:00"
+            to: "11:00",
           },
           {
             from: "09:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.5,
     phone: "+139 681-708-3023",
@@ -253,8 +263,8 @@ export const montrealcanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -262,8 +272,8 @@ export const montrealcanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
       },
       {
@@ -271,8 +281,8 @@ export const montrealcanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "03:00"
-          }
+            to: "03:00",
+          },
         ],
       },
       {
@@ -280,10 +290,10 @@ export const montrealcanadaeastCoastCanadaDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.2,
     phone: "+274 441-222-2745",
@@ -291,5 +301,5 @@ export const montrealcanadaeastCoastCanadaDrivers: Driver[] = [
     photoUrl: "https://randomuser.me/api/portraits/men/14.jpg",
     specialties: ["Long-Distance Driving", "Night Shift"],
     vehicleTypesCertified: ["Van", "SUV", "Luxury SUV"],
-  }
+  },
 ];

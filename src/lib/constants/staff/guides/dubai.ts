@@ -11,22 +11,37 @@ export const dubaiunitedArabEmiratesmiddleEastGuides: TourGuide[] = [
     isPopular: false,
     bio: "Jacob is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Local Cuisine, Local Markets, Urban Legends, Music Scene, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Asia Pacific"],
-    tourTypes: ["Street Art Tour", "Family-Friendly Tour", "Adventure Tour", "Nature Tour", "Brewery Tour"],
+    tourTypes: [
+      "Street Art Tour",
+      "Family-Friendly Tour",
+      "Adventure Tour",
+      "Nature Tour",
+      "Brewery Tour",
+    ],
     maxGroupSize: 13,
     licenseNumber: "LIC-2670-DUB",
     phoneNumber: "+1-949-298-5435",
     contactEmail: "jacob.thomas@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Jacob is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Local Cuisine, Local Markets, Urban Legends, Music Scene, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Jacob is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Local Cuisine, Local Markets, Urban Legends, Music Scene, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 5,
     reviewsCount: 42,
     quote: "My goal is to help you fall in love with Dubai just as I have.",
     profileImage: "https://randomuser.me/api/portraits/men/3.jpg",
     languages: ["Malay", "Italian", "Greek"],
     experienceYears: 10,
-    certifications: ["Wilderness First Responder", "Regional Tourism Ambassador"],
-    specialties: ["Local Cuisine", "Local Markets", "Urban Legends", "Music Scene"],
+    certifications: [
+      "Wilderness First Responder",
+      "Regional Tourism Ambassador",
+    ],
+    specialties: [
+      "Local Cuisine",
+      "Local Markets",
+      "Urban Legends",
+      "Music Scene",
+    ],
     specialTraining: [],
   },
   {
@@ -46,15 +61,22 @@ export const dubaiunitedArabEmiratesmiddleEastGuides: TourGuide[] = [
     contactEmail: "chloe.clark@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Chloe is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Street Food, Film Locations, Hidden Gems, Local Markets, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Chloe is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Street Food, Film Locations, Hidden Gems, Local Markets, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 82,
-    quote: "Dubai isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Dubai isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/48.jpg",
     languages: ["Norwegian", "Swahili"],
     experienceYears: 7,
     certifications: ["Regional Tourism Ambassador"],
-    specialties: ["Street Food", "Film Locations", "Hidden Gems", "Local Markets"],
+    specialties: [
+      "Street Food",
+      "Film Locations",
+      "Hidden Gems",
+      "Local Markets",
+    ],
     specialTraining: [],
   },
   {
@@ -74,10 +96,12 @@ export const dubaiunitedArabEmiratesmiddleEastGuides: TourGuide[] = [
     contactEmail: "aiden.sanchez@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Aiden is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Museums, Family Activities, Adventure Sports, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Aiden is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Museums, Family Activities, Adventure Sports, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 56,
-    quote: "Dubai isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Dubai isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/14.jpg",
     languages: ["Czech", "Korean", "Japanese"],
     experienceYears: 11,
@@ -95,21 +119,32 @@ export const dubaiunitedArabEmiratesmiddleEastGuides: TourGuide[] = [
     isPopular: true,
     bio: "Layla is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Hidden Gems, Religious Sites, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["West Coast USA", "Northern Europe"],
-    tourTypes: ["Religious Tour", "Underground Tour", "Museum Tour", "Off-Road Tour", "Nature Tour"],
+    tourTypes: [
+      "Religious Tour",
+      "Underground Tour",
+      "Museum Tour",
+      "Off-Road Tour",
+      "Nature Tour",
+    ],
     maxGroupSize: 15,
     licenseNumber: "LIC-4651-DUB",
     phoneNumber: "+1-899-588-1725",
     contactEmail: "layla.roberts@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Layla is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Hidden Gems, Religious Sites, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Layla is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Hidden Gems, Religious Sites, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 5,
     reviewsCount: 89,
     quote: "In Dubai, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/women/42.jpg",
     languages: ["Arabic"],
     experienceYears: 13,
-    certifications: ["Wilderness First Responder", "Eco-Tourism Guide", "Regional Tourism Ambassador"],
+    certifications: [
+      "Wilderness First Responder",
+      "Eco-Tourism Guide",
+      "Regional Tourism Ambassador",
+    ],
     specialties: ["Hidden Gems", "Religious Sites"],
     specialTraining: ["Emergency Response"],
   },
@@ -123,7 +158,13 @@ export const dubaiunitedArabEmiratesmiddleEastGuides: TourGuide[] = [
     isPopular: false,
     bio: "Penelope is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Architecture, Film Locations, Music Scene, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Middle East"],
-    tourTypes: ["LGBTQ+ Friendly Tour", "Farm Visit", "Cruise Excursion", "Helicopter Tour", "Architecture Tour"],
+    tourTypes: [
+      "LGBTQ+ Friendly Tour",
+      "Farm Visit",
+      "Cruise Excursion",
+      "Helicopter Tour",
+      "Architecture Tour",
+    ],
     maxGroupSize: 15,
     licenseNumber: "LIC-8086-DUB",
     phoneNumber: "+1-348-805-2190",
@@ -135,7 +176,7 @@ export const dubaiunitedArabEmiratesmiddleEastGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -148,7 +189,7 @@ export const dubaiunitedArabEmiratesmiddleEastGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -157,7 +198,7 @@ export const dubaiunitedArabEmiratesmiddleEastGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -170,12 +211,13 @@ export const dubaiunitedArabEmiratesmiddleEastGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "13:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Penelope is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Architecture, Film Locations, Music Scene, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Penelope is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Architecture, Film Locations, Music Scene, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 101,
     quote: "Every corner of Dubai tells a story, let me share them with you.",
@@ -208,7 +250,7 @@ export const dubaiunitedArabEmiratesmiddleEastGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -217,7 +259,7 @@ export const dubaiunitedArabEmiratesmiddleEastGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -230,7 +272,7 @@ export const dubaiunitedArabEmiratesmiddleEastGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -239,12 +281,13 @@ export const dubaiunitedArabEmiratesmiddleEastGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "10:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Carter is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in LGBTQ+ History, Public Transportation Navigation, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Carter is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in LGBTQ+ History, Public Transportation Navigation, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
     reviewsCount: 89,
     quote: "Every corner of Dubai tells a story, let me share them with you.",
@@ -265,7 +308,12 @@ export const dubaiunitedArabEmiratesmiddleEastGuides: TourGuide[] = [
     isPopular: false,
     bio: "Sofia is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Music Scene, Sustainable Tourism, Urban Legends, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Asia Pacific", "West Coast USA"],
-    tourTypes: ["Historical Tour", "Underground Tour", "Brewery Tour", "Family-Friendly Tour"],
+    tourTypes: [
+      "Historical Tour",
+      "Underground Tour",
+      "Brewery Tour",
+      "Family-Friendly Tour",
+    ],
     maxGroupSize: 19,
     licenseNumber: "LIC-1362-DUB",
     phoneNumber: "+1-325-450-5762",
@@ -281,7 +329,7 @@ export const dubaiunitedArabEmiratesmiddleEastGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -294,7 +342,7 @@ export const dubaiunitedArabEmiratesmiddleEastGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -303,20 +351,25 @@ export const dubaiunitedArabEmiratesmiddleEastGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Sofia is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Music Scene, Sustainable Tourism, Urban Legends, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sofia is a passionate tour guide with extensive knowledge of Dubai and United Arab Emirates. Specializing in Music Scene, Sustainable Tourism, Urban Legends, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 61,
-    quote: "The best way to discover Dubai is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Dubai is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/29.jpg",
     languages: ["Swedish"],
     experienceYears: 11,
-    certifications: ["Heritage Interpretation Certificate", "Professional Tour Guide Association"],
+    certifications: [
+      "Heritage Interpretation Certificate",
+      "Professional Tour Guide Association",
+    ],
     specialties: ["Music Scene", "Sustainable Tourism", "Urban Legends"],
     specialTraining: ["Desert Navigation"],
-  }
+  },
 ];

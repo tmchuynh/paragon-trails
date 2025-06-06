@@ -6,7 +6,11 @@ export const stPetersburgrussianorthernEuropeCrew: CrewMember[] = [
     name: "Savannah da Costa",
     role: "First Mate",
     experienceYears: 9,
-    certifications: ["Marine Radio Operator", "Navigation Certification", "STCW"],
+    certifications: [
+      "Marine Radio Operator",
+      "Navigation Certification",
+      "STCW",
+    ],
     languagesSpoken: ["Danish"],
     isAvailable: true,
     contactEmail: "savannah.costa@paragontrails.com",
@@ -33,5 +37,5 @@ export const stPetersburgrussianorthernEuropeCrew: CrewMember[] = [
     isAvailable: false,
     contactEmail: "elena.marshall@paragontrails.com",
     contactPhone: "+1-056-773-9257",
-  }
+  },
 ];

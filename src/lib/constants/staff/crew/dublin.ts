@@ -55,5 +55,5 @@ export const dublinirelandnorthernEuropeCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "liam.miller@paragontrails.com",
     contactPhone: "+1-547-618-6406",
-  }
+  },
 ];

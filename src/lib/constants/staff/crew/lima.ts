@@ -28,7 +28,11 @@ export const limaperusouthAmericaCrew: CrewMember[] = [
     name: "Jerry Graham",
     role: "Host/Hostess",
     experienceYears: 5,
-    certifications: ["Security Training", "Hospitality Training", "Engineering License"],
+    certifications: [
+      "Security Training",
+      "Hospitality Training",
+      "Engineering License",
+    ],
     languagesSpoken: ["Japanese"],
     isAvailable: true,
     contactEmail: "jerry.graham@paragontrails.com",
@@ -55,5 +59,5 @@ export const limaperusouthAmericaCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "kennedy.nakamura@paragontrails.com",
     contactPhone: "+1-829-630-5349",
-  }
+  },
 ];

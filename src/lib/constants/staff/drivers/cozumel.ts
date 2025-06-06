@@ -14,8 +14,8 @@ export const cozumelmexicocaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
       },
       {
@@ -23,8 +23,8 @@ export const cozumelmexicocaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -32,17 +32,23 @@ export const cozumelmexicocaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.3,
     phone: "+542 369-948-2513",
     email: "omar.curtis@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/7.jpg",
     specialties: ["Corporate Chauffeur", "Long-Distance Driving"],
-    vehicleTypesCertified: ["Electric Vehicle", "SUV", "Convertible", "Luxury SUV", "Van"],
+    vehicleTypesCertified: [
+      "Electric Vehicle",
+      "SUV",
+      "Convertible",
+      "Luxury SUV",
+      "Van",
+    ],
   },
   {
     id: "driver-cozumel-2",
@@ -57,8 +63,8 @@ export const cozumelmexicocaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -66,8 +72,8 @@ export const cozumelmexicocaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -75,12 +81,12 @@ export const cozumelmexicocaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "19:00"
+            to: "19:00",
           },
           {
             from: "17:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -88,20 +94,25 @@ export const cozumelmexicocaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "09:00"
+            to: "09:00",
           },
           {
             from: "01:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.8,
     phone: "+82 785-105-6110",
     email: "janet.hamilton@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/47.jpg",
-    specialties: ["Security Detail", "Airport Transfers", "Night Shift", "Tour Guide Driver"],
+    specialties: [
+      "Security Detail",
+      "Airport Transfers",
+      "Night Shift",
+      "Tour Guide Driver",
+    ],
     vehicleTypesCertified: ["SUV", "Electric Vehicle", "Van"],
   },
   {
@@ -117,8 +128,8 @@ export const cozumelmexicocaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -126,8 +137,8 @@ export const cozumelmexicocaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
       },
       {
@@ -135,12 +146,12 @@ export const cozumelmexicocaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "11:00"
+            to: "11:00",
           },
           {
             from: "20:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -148,21 +159,26 @@ export const cozumelmexicocaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "15:00"
+            to: "15:00",
           },
           {
             from: "15:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.2,
     phone: "+108 424-570-2267",
     email: "mia.dubois@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/49.jpg",
     specialties: ["Luxury Car Specialist", "Tour Guide Driver"],
-    vehicleTypesCertified: ["Motorcoach", "Electric Vehicle", "Sports Car", "SUV"],
+    vehicleTypesCertified: [
+      "Motorcoach",
+      "Electric Vehicle",
+      "Sports Car",
+      "SUV",
+    ],
   },
   {
     id: "driver-cozumel-4",
@@ -177,12 +193,12 @@ export const cozumelmexicocaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "20:00"
+            to: "20:00",
           },
           {
             from: "17:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -190,12 +206,12 @@ export const cozumelmexicocaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "10:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
       },
       {
@@ -203,14 +219,14 @@ export const cozumelmexicocaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "14:00"
+            to: "14:00",
           },
           {
             from: "11:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.8,
     phone: "+500 749-227-7405",
@@ -232,8 +248,8 @@ export const cozumelmexicocaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -241,8 +257,8 @@ export const cozumelmexicocaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -250,12 +266,12 @@ export const cozumelmexicocaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "23:00"
+            to: "23:00",
           },
           {
             from: "19:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -263,8 +279,8 @@ export const cozumelmexicocaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
       },
       {
@@ -272,14 +288,14 @@ export const cozumelmexicocaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "15:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.3,
     phone: "+889 764-555-6579",
@@ -287,5 +303,5 @@ export const cozumelmexicocaribbeanDrivers: Driver[] = [
     photoUrl: "https://randomuser.me/api/portraits/men/7.jpg",
     specialties: ["Security Detail", "Night Shift"],
     vehicleTypesCertified: ["Sports Car", "Motorcoach", "Limousine", "Sedan"],
-  }
+  },
 ];

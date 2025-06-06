@@ -44,5 +44,5 @@ export const ketchikanunitedStatesalaskaCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "janet.reeves@paragontrails.com",
     contactPhone: "+1-792-184-6964",
-  }
+  },
 ];

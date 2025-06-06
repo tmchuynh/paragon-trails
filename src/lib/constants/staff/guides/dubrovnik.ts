@@ -18,14 +18,19 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
     contactEmail: "henry.lee@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Henry is a passionate tour guide with extensive knowledge of Dubrovnik and Croatia. Specializing in Religious Sites, Urban Legends, Hidden Gems, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Henry is a passionate tour guide with extensive knowledge of Dubrovnik and Croatia. Specializing in Religious Sites, Urban Legends, Hidden Gems, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
     reviewsCount: 88,
     quote: "In Dubrovnik, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/men/6.jpg",
     languages: ["Polish", "Portuguese"],
     experienceYears: 9,
-    certifications: ["Adventure Tourism Safety Certificate", "Regional Tourism Ambassador", "Eco-Tourism Guide"],
+    certifications: [
+      "Adventure Tourism Safety Certificate",
+      "Regional Tourism Ambassador",
+      "Eco-Tourism Guide",
+    ],
     specialties: ["Religious Sites", "Urban Legends", "Hidden Gems"],
     specialTraining: [],
   },
@@ -46,14 +51,18 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
     contactEmail: "benjamin.roberts@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Benjamin is a passionate tour guide with extensive knowledge of Dubrovnik and Croatia. Specializing in LGBTQ+ History, Nightlife, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Benjamin is a passionate tour guide with extensive knowledge of Dubrovnik and Croatia. Specializing in LGBTQ+ History, Nightlife, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
     reviewsCount: 93,
     quote: "In Dubrovnik, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/men/36.jpg",
     languages: ["Portuguese"],
     experienceYears: 4,
-    certifications: ["Cultural Heritage Specialist", "Regional Tourism Ambassador"],
+    certifications: [
+      "Cultural Heritage Specialist",
+      "Regional Tourism Ambassador",
+    ],
     specialties: ["LGBTQ+ History", "Nightlife"],
     specialTraining: ["Public Speaking", "Archaeological Conservation"],
   },
@@ -74,10 +83,12 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
     contactEmail: "mason.flores@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Mason is a passionate tour guide with extensive knowledge of Dubrovnik and Croatia. Specializing in Music Scene, Local Markets, Photography Spots, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Mason is a passionate tour guide with extensive knowledge of Dubrovnik and Croatia. Specializing in Music Scene, Local Markets, Photography Spots, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 39,
-    quote: "Every corner of Dubrovnik tells a story, let me share them with you.",
+    quote:
+      "Every corner of Dubrovnik tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/19.jpg",
     languages: ["Norwegian", "German"],
     experienceYears: 2,
@@ -102,14 +113,19 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
     contactEmail: "michael.king@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Michael is a passionate tour guide with extensive knowledge of Dubrovnik and Croatia. Specializing in Cultural Etiquette, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Michael is a passionate tour guide with extensive knowledge of Dubrovnik and Croatia. Specializing in Cultural Etiquette, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
     reviewsCount: 40,
     quote: "In Dubrovnik, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/women/5.jpg",
     languages: ["German", "Malay", "Greek"],
     experienceYears: 12,
-    certifications: ["Wilderness First Responder", "CPR & First Aid", "Local History Certification"],
+    certifications: [
+      "Wilderness First Responder",
+      "CPR & First Aid",
+      "Local History Certification",
+    ],
     specialties: ["Cultural Etiquette"],
     specialTraining: [],
   },
@@ -123,14 +139,21 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Elijah is a passionate tour guide with extensive knowledge of Dubrovnik and Croatia. Specializing in Wildlife, Local Cuisine, Architecture, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Middle East", "Northern Europe"],
-    tourTypes: ["Helicopter Tour", "Boat Tour", "Luxury Tour", "Wildlife Safari", "Craft Workshop"],
+    tourTypes: [
+      "Helicopter Tour",
+      "Boat Tour",
+      "Luxury Tour",
+      "Wildlife Safari",
+      "Craft Workshop",
+    ],
     maxGroupSize: 16,
     licenseNumber: "LIC-9681-DUB",
     phoneNumber: "+1-975-563-5176",
     contactEmail: "elijah.nguyen@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Elijah is a passionate tour guide with extensive knowledge of Dubrovnik and Croatia. Specializing in Wildlife, Local Cuisine, Architecture, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Elijah is a passionate tour guide with extensive knowledge of Dubrovnik and Croatia. Specializing in Wildlife, Local Cuisine, Architecture, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 57,
     quote: "My goal is to help you fall in love with Dubrovnik just as I have.",
@@ -151,22 +174,37 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Lucas is a passionate tour guide with extensive knowledge of Dubrovnik and Croatia. Specializing in Cultural Etiquette, Film Locations, Sustainable Tourism, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Northern Europe"],
-    tourTypes: ["Street Art Tour", "Cultural Tour", "Wildlife Safari", "Cruise Excursion", "Eco Tour"],
+    tourTypes: [
+      "Street Art Tour",
+      "Cultural Tour",
+      "Wildlife Safari",
+      "Cruise Excursion",
+      "Eco Tour",
+    ],
     maxGroupSize: 17,
     licenseNumber: "LIC-5949-DUB",
     phoneNumber: "+1-525-111-2110",
     contactEmail: "lucas.rodriguez@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Lucas is a passionate tour guide with extensive knowledge of Dubrovnik and Croatia. Specializing in Cultural Etiquette, Film Locations, Sustainable Tourism, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Lucas is a passionate tour guide with extensive knowledge of Dubrovnik and Croatia. Specializing in Cultural Etiquette, Film Locations, Sustainable Tourism, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
     reviewsCount: 69,
     quote: "My goal is to help you fall in love with Dubrovnik just as I have.",
     profileImage: "https://randomuser.me/api/portraits/men/6.jpg",
     languages: ["Portuguese"],
     experienceYears: 9,
-    certifications: ["Adventure Tourism Safety Certificate", "Licensed City Guide", "Professional Tour Guide Association"],
-    specialties: ["Cultural Etiquette", "Film Locations", "Sustainable Tourism"],
+    certifications: [
+      "Adventure Tourism Safety Certificate",
+      "Licensed City Guide",
+      "Professional Tour Guide Association",
+    ],
+    specialties: [
+      "Cultural Etiquette",
+      "Film Locations",
+      "Sustainable Tourism",
+    ],
     specialTraining: ["Cultural Sensitivity"],
   },
   {
@@ -186,14 +224,19 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
     contactEmail: "isabella.miller@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Isabella is a passionate tour guide with extensive knowledge of Dubrovnik and Croatia. Specializing in Cultural Etiquette, Art Galleries, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Isabella is a passionate tour guide with extensive knowledge of Dubrovnik and Croatia. Specializing in Cultural Etiquette, Art Galleries, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 14,
     quote: "In Dubrovnik, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/women/49.jpg",
     languages: ["Polish", "Portuguese"],
     experienceYears: 9,
-    certifications: ["Eco-Tourism Guide", "Certified International Tour Manager", "Professional Tour Guide Association"],
+    certifications: [
+      "Eco-Tourism Guide",
+      "Certified International Tour Manager",
+      "Professional Tour Guide Association",
+    ],
     specialties: ["Cultural Etiquette", "Art Galleries"],
     specialTraining: ["Conflict Resolution"],
   },
@@ -219,7 +262,7 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -228,7 +271,7 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -241,7 +284,7 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -250,20 +293,30 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "19:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Evelyn is a passionate tour guide with extensive knowledge of Dubrovnik and Croatia. Specializing in Nightlife, Music Scene, Religious Sites, Public Transportation Navigation, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Evelyn is a passionate tour guide with extensive knowledge of Dubrovnik and Croatia. Specializing in Nightlife, Music Scene, Religious Sites, Public Transportation Navigation, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 52,
     quote: "My goal is to help you fall in love with Dubrovnik just as I have.",
     profileImage: "https://randomuser.me/api/portraits/women/27.jpg",
     languages: ["Swedish"],
     experienceYears: 13,
-    certifications: ["CPR & First Aid", "Cultural Heritage Specialist", "Licensed City Guide"],
-    specialties: ["Nightlife", "Music Scene", "Religious Sites", "Public Transportation Navigation"],
+    certifications: [
+      "CPR & First Aid",
+      "Cultural Heritage Specialist",
+      "Licensed City Guide",
+    ],
+    specialties: [
+      "Nightlife",
+      "Music Scene",
+      "Religious Sites",
+      "Public Transportation Navigation",
+    ],
     specialTraining: ["Photography", "Local Flora & Fauna"],
   },
   {
@@ -276,7 +329,12 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
     isPopular: true,
     bio: "Jackson is a passionate tour guide with extensive knowledge of Dubrovnik and Croatia. Specializing in Historical Landmarks, LGBTQ+ History, Museums, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["West Coast USA", "East Coast Canada"],
-    tourTypes: ["LGBTQ+ Friendly Tour", "Photography Tour", "Wine Tour", "Family-Friendly Tour"],
+    tourTypes: [
+      "LGBTQ+ Friendly Tour",
+      "Photography Tour",
+      "Wine Tour",
+      "Family-Friendly Tour",
+    ],
     maxGroupSize: 11,
     licenseNumber: "LIC-2511-DUB",
     phoneNumber: "+1-197-682-9799",
@@ -292,7 +350,7 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -305,7 +363,7 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -314,7 +372,7 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -323,19 +381,25 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Jackson is a passionate tour guide with extensive knowledge of Dubrovnik and Croatia. Specializing in Historical Landmarks, LGBTQ+ History, Museums, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Jackson is a passionate tour guide with extensive knowledge of Dubrovnik and Croatia. Specializing in Historical Landmarks, LGBTQ+ History, Museums, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 54,
-    quote: "The best way to discover Dubrovnik is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Dubrovnik is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/47.jpg",
     languages: ["French", "Japanese"],
     experienceYears: 4,
-    certifications: ["Licensed City Guide", "Language Proficiency Certification", "Sustainable Tourism Certificate"],
+    certifications: [
+      "Licensed City Guide",
+      "Language Proficiency Certification",
+      "Sustainable Tourism Certificate",
+    ],
     specialties: ["Historical Landmarks", "LGBTQ+ History", "Museums"],
     specialTraining: ["Wine Education"],
   },
@@ -365,7 +429,7 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -378,7 +442,7 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -391,20 +455,24 @@ export const dubrovnikcroatiamediterraneanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "20:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Madison is a passionate tour guide with extensive knowledge of Dubrovnik and Croatia. Specializing in Hidden Gems, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Madison is a passionate tour guide with extensive knowledge of Dubrovnik and Croatia. Specializing in Hidden Gems, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
     reviewsCount: 83,
     quote: "In Dubrovnik, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/men/10.jpg",
     languages: ["Serbian", "Malay"],
     experienceYears: 2,
-    certifications: ["Urban Navigation Specialist", "Language Proficiency Certification"],
+    certifications: [
+      "Urban Navigation Specialist",
+      "Language Proficiency Certification",
+    ],
     specialties: ["Hidden Gems"],
     specialTraining: ["Local Transit Systems"],
-  }
+  },
 ];

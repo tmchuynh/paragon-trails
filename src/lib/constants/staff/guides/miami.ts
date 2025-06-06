@@ -18,15 +18,25 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
     contactEmail: "madison.hall@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Madison is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Cultural Etiquette, Photography Spots, Public Transportation Navigation, Film Locations, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Madison is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Cultural Etiquette, Photography Spots, Public Transportation Navigation, Film Locations, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
     reviewsCount: 65,
     quote: "Every corner of Miami tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/7.jpg",
     languages: ["Finnish"],
     experienceYears: 3,
-    certifications: ["Local History Certification", "Heritage Interpretation Certificate", "Adventure Tourism Safety Certificate"],
-    specialties: ["Cultural Etiquette", "Photography Spots", "Public Transportation Navigation", "Film Locations"],
+    certifications: [
+      "Local History Certification",
+      "Heritage Interpretation Certificate",
+      "Adventure Tourism Safety Certificate",
+    ],
+    specialties: [
+      "Cultural Etiquette",
+      "Photography Spots",
+      "Public Transportation Navigation",
+      "Film Locations",
+    ],
     specialTraining: ["Mountain Survival"],
   },
   {
@@ -46,14 +56,19 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
     contactEmail: "noah.campbell@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Noah is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Family Activities, Film Locations, Local Cuisine, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Noah is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Family Activities, Film Locations, Local Cuisine, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.5,
     reviewsCount: 40,
     quote: "In Miami, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/women/16.jpg",
     languages: ["Hebrew"],
     experienceYears: 7,
-    certifications: ["Certified International Tour Manager", "Eco-Tourism Guide", "Food Safety Certification"],
+    certifications: [
+      "Certified International Tour Manager",
+      "Eco-Tourism Guide",
+      "Food Safety Certification",
+    ],
     specialties: ["Family Activities", "Film Locations", "Local Cuisine"],
     specialTraining: [],
   },
@@ -74,10 +89,12 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
     contactEmail: "elijah.clark@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Elijah is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Museums, Religious Sites, Wine Tasting, Wildlife, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Elijah is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Museums, Religious Sites, Wine Tasting, Wildlife, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 52,
-    quote: "The best way to discover Miami is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Miami is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/61.jpg",
     languages: ["Swedish"],
     experienceYears: 7,
@@ -95,21 +112,30 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
     isPopular: true,
     bio: "Sofia is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Indigenous Culture, Religious Sites, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Northern Europe"],
-    tourTypes: ["Festival Tour", "Cruise Excursion", "Self-Guided Tour", "Food Tour"],
+    tourTypes: [
+      "Festival Tour",
+      "Cruise Excursion",
+      "Self-Guided Tour",
+      "Food Tour",
+    ],
     maxGroupSize: 10,
     licenseNumber: "LIC-7736-MIA",
     phoneNumber: "+1-947-914-8927",
     contactEmail: "sofia.lopez@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Sofia is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Indigenous Culture, Religious Sites, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sofia is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Indigenous Culture, Religious Sites, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 85,
     quote: "Every corner of Miami tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/51.jpg",
     languages: ["Czech", "Indonesian"],
     experienceYears: 2,
-    certifications: ["Language Proficiency Certification", "Local History Certification"],
+    certifications: [
+      "Language Proficiency Certification",
+      "Local History Certification",
+    ],
     specialties: ["Indigenous Culture", "Religious Sites"],
     specialTraining: [],
   },
@@ -130,15 +156,25 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
     contactEmail: "wyatt.jackson@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Wyatt is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Nightlife, Historical Landmarks, Parks & Gardens, Cultural Etiquette, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Wyatt is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Nightlife, Historical Landmarks, Parks & Gardens, Cultural Etiquette, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 44,
-    quote: "Miami isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Miami isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/15.jpg",
     languages: ["Cantonese", "Portuguese", "German"],
     experienceYears: 4,
-    certifications: ["Cultural Heritage Specialist", "Wilderness First Responder"],
-    specialties: ["Nightlife", "Historical Landmarks", "Parks & Gardens", "Cultural Etiquette"],
+    certifications: [
+      "Cultural Heritage Specialist",
+      "Wilderness First Responder",
+    ],
+    specialties: [
+      "Nightlife",
+      "Historical Landmarks",
+      "Parks & Gardens",
+      "Cultural Etiquette",
+    ],
     specialTraining: [],
   },
   {
@@ -167,7 +203,7 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "21:00",
-          }
+          },
         ],
       },
       {
@@ -180,12 +216,13 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Evelyn is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Museums, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Evelyn is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Museums, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 51,
     quote: "In Miami, we don't just see the sights - we make memories.",
@@ -206,7 +243,13 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Evelyn is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Local Craftsmanship, Adventure Sports, Hidden Gems, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Alaska"],
-    tourTypes: ["Wine Tour", "LGBTQ+ Friendly Tour", "Historical Tour", "Underground Tour", "Market Tour"],
+    tourTypes: [
+      "Wine Tour",
+      "LGBTQ+ Friendly Tour",
+      "Historical Tour",
+      "Underground Tour",
+      "Market Tour",
+    ],
     maxGroupSize: 11,
     licenseNumber: "LIC-9932-MIA",
     phoneNumber: "+1-995-264-5873",
@@ -218,7 +261,7 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "21:00",
-          }
+          },
         ],
       },
       {
@@ -231,15 +274,17 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Evelyn is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Local Craftsmanship, Adventure Sports, Hidden Gems, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Evelyn is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Local Craftsmanship, Adventure Sports, Hidden Gems, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 12,
-    quote: "Miami isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Miami isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/76.jpg",
     languages: ["Tagalog", "Finnish", "Bulgarian"],
     experienceYears: 13,
@@ -257,7 +302,12 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
     isPopular: true,
     bio: "Mason is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Public Transportation Navigation, Adventure Sports, Hidden Gems, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Caribbean", "South America"],
-    tourTypes: ["Bike Tour", "Private Tour", "Religious Tour", "Relocation Tour"],
+    tourTypes: [
+      "Bike Tour",
+      "Private Tour",
+      "Religious Tour",
+      "Relocation Tour",
+    ],
     maxGroupSize: 15,
     licenseNumber: "LIC-2449-MIA",
     phoneNumber: "+1-680-866-1464",
@@ -273,7 +323,7 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -286,7 +336,7 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -295,7 +345,7 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "21:00",
-          }
+          },
         ],
       },
       {
@@ -304,20 +354,30 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Mason is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Public Transportation Navigation, Adventure Sports, Hidden Gems, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Mason is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Public Transportation Navigation, Adventure Sports, Hidden Gems, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 33,
-    quote: "The best way to discover Miami is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Miami is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/59.jpg",
     languages: ["English", "Serbian", "Thai"],
     experienceYears: 15,
-    certifications: ["Heritage Interpretation Certificate", "Food Safety Certification", "Eco-Tourism Guide"],
-    specialties: ["Public Transportation Navigation", "Adventure Sports", "Hidden Gems"],
+    certifications: [
+      "Heritage Interpretation Certificate",
+      "Food Safety Certification",
+      "Eco-Tourism Guide",
+    ],
+    specialties: [
+      "Public Transportation Navigation",
+      "Adventure Sports",
+      "Hidden Gems",
+    ],
     specialTraining: ["Conflict Resolution", "Marine Biology"],
-  }
+  },
 ];

@@ -14,12 +14,12 @@ export const cartagenacolombiacaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "13:00"
+            to: "13:00",
           },
           {
             from: "18:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -27,12 +27,12 @@ export const cartagenacolombiacaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "17:00"
+            to: "17:00",
           },
           {
             from: "01:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -40,12 +40,12 @@ export const cartagenacolombiacaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "12:00"
+            to: "12:00",
           },
           {
             from: "03:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
       },
       {
@@ -53,21 +53,27 @@ export const cartagenacolombiacaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "18:00"
+            to: "18:00",
           },
           {
             from: "00:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.4,
     phone: "+5 731-858-3982",
     email: "liam.jackson@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/21.jpg",
     specialties: ["Night Shift", "Luxury Car Specialist"],
-    vehicleTypesCertified: ["Limousine", "SUV", "Convertible", "Sports Car", "Van"],
+    vehicleTypesCertified: [
+      "Limousine",
+      "SUV",
+      "Convertible",
+      "Sports Car",
+      "Van",
+    ],
   },
   {
     id: "driver-cartagena-2",
@@ -82,8 +88,8 @@ export const cartagenacolombiacaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -91,12 +97,12 @@ export const cartagenacolombiacaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "19:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
       },
       {
@@ -104,20 +110,24 @@ export const cartagenacolombiacaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "11:00"
+            to: "11:00",
           },
           {
             from: "09:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.4,
     phone: "+351 425-724-5132",
     email: "blake.baker@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/58.jpg",
-    specialties: ["Security Detail", "Luxury Car Specialist", "Tour Guide Driver"],
+    specialties: [
+      "Security Detail",
+      "Luxury Car Specialist",
+      "Tour Guide Driver",
+    ],
     vehicleTypesCertified: ["Sports Car", "Motorcoach", "Limousine"],
   },
   {
@@ -133,12 +143,12 @@ export const cartagenacolombiacaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "07:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
       },
       {
@@ -146,8 +156,8 @@ export const cartagenacolombiacaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
       },
       {
@@ -155,12 +165,12 @@ export const cartagenacolombiacaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "10:00"
+            to: "10:00",
           },
           {
             from: "11:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
       },
       {
@@ -168,14 +178,14 @@ export const cartagenacolombiacaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "11:00"
+            to: "11:00",
           },
           {
             from: "12:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4,
     phone: "+455 132-387-4681",
@@ -197,12 +207,12 @@ export const cartagenacolombiacaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "05:00"
+            to: "05:00",
           },
           {
             from: "06:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -210,12 +220,12 @@ export const cartagenacolombiacaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "19:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -223,12 +233,12 @@ export const cartagenacolombiacaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "20:00"
+            to: "20:00",
           },
           {
             from: "13:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
       },
       {
@@ -236,20 +246,24 @@ export const cartagenacolombiacaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "22:00"
+            to: "22:00",
           },
           {
             from: "08:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.3,
     phone: "+140 414-431-5527",
     email: "michelle.bennett@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/38.jpg",
-    specialties: ["Airport Transfers", "Tour Guide Driver", "Luxury Car Specialist"],
+    specialties: [
+      "Airport Transfers",
+      "Tour Guide Driver",
+      "Luxury Car Specialist",
+    ],
     vehicleTypesCertified: ["Electric Vehicle", "Sedan", "Van", "Limousine"],
   },
   {
@@ -265,12 +279,12 @@ export const cartagenacolombiacaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "20:00"
+            to: "20:00",
           },
           {
             from: "07:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
       },
       {
@@ -278,12 +292,12 @@ export const cartagenacolombiacaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "07:00"
+            to: "07:00",
           },
           {
             from: "10:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
       },
       {
@@ -291,8 +305,8 @@ export const cartagenacolombiacaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
       },
       {
@@ -300,20 +314,25 @@ export const cartagenacolombiacaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "14:00"
+            to: "14:00",
           },
           {
             from: "21:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.2,
     phone: "+58 839-271-8806",
     email: "tyler.palmer@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/39.jpg",
-    specialties: ["Security Detail", "Luxury Car Specialist", "Event Transportation", "Airport Transfers"],
+    specialties: [
+      "Security Detail",
+      "Luxury Car Specialist",
+      "Event Transportation",
+      "Airport Transfers",
+    ],
     vehicleTypesCertified: ["Luxury SUV"],
   },
   {
@@ -329,8 +348,8 @@ export const cartagenacolombiacaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
       },
       {
@@ -338,12 +357,12 @@ export const cartagenacolombiacaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "20:00"
+            to: "20:00",
           },
           {
             from: "08:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -351,8 +370,8 @@ export const cartagenacolombiacaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "04:00"
-          }
+            to: "04:00",
+          },
         ],
       },
       {
@@ -360,17 +379,26 @@ export const cartagenacolombiacaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.5,
     phone: "+692 273-207-9761",
     email: "rachel.foster@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/66.jpg",
-    specialties: ["Corporate Chauffeur", "Tour Guide Driver", "Luxury Car Specialist"],
-    vehicleTypesCertified: ["Electric Vehicle", "Luxury SUV", "Motorcoach", "Limousine"],
+    specialties: [
+      "Corporate Chauffeur",
+      "Tour Guide Driver",
+      "Luxury Car Specialist",
+    ],
+    vehicleTypesCertified: [
+      "Electric Vehicle",
+      "Luxury SUV",
+      "Motorcoach",
+      "Limousine",
+    ],
   },
   {
     id: "driver-cartagena-7",
@@ -385,8 +413,8 @@ export const cartagenacolombiacaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -394,12 +422,12 @@ export const cartagenacolombiacaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "04:00"
+            to: "04:00",
           },
           {
             from: "16:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -407,12 +435,12 @@ export const cartagenacolombiacaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "08:00"
+            to: "08:00",
           },
           {
             from: "15:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -420,14 +448,14 @@ export const cartagenacolombiacaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "03:00"
+            to: "03:00",
           },
           {
             from: "09:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.2,
     phone: "+380 303-113-5517",
@@ -435,5 +463,5 @@ export const cartagenacolombiacaribbeanDrivers: Driver[] = [
     photoUrl: "https://randomuser.me/api/portraits/women/11.jpg",
     specialties: ["Luxury Car Specialist", "Airport Transfers"],
     vehicleTypesCertified: ["Convertible", "Sports Car", "Luxury SUV"],
-  }
+  },
 ];

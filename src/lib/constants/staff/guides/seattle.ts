@@ -18,14 +18,18 @@ export const seattleunitedStatesalaskaGuides: TourGuide[] = [
     contactEmail: "lucas.gonzalez@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Lucas is a passionate tour guide with extensive knowledge of Seattle and United States. Specializing in Local Markets, Art Galleries, Religious Sites, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Lucas is a passionate tour guide with extensive knowledge of Seattle and United States. Specializing in Local Markets, Art Galleries, Religious Sites, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 47,
     quote: "My goal is to help you fall in love with Seattle just as I have.",
     profileImage: "https://randomuser.me/api/portraits/men/16.jpg",
     languages: ["Mandarin"],
     experienceYears: 12,
-    certifications: ["Adventure Tourism Safety Certificate", "Professional Tour Guide Association"],
+    certifications: [
+      "Adventure Tourism Safety Certificate",
+      "Professional Tour Guide Association",
+    ],
     specialties: ["Local Markets", "Art Galleries", "Religious Sites"],
     specialTraining: ["Religious Studies", "Photography"],
   },
@@ -46,14 +50,20 @@ export const seattleunitedStatesalaskaGuides: TourGuide[] = [
     contactEmail: "elijah.davis@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Elijah is a passionate tour guide with extensive knowledge of Seattle and United States. Specializing in Family Activities, Parks & Gardens, Art Galleries, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Elijah is a passionate tour guide with extensive knowledge of Seattle and United States. Specializing in Family Activities, Parks & Gardens, Art Galleries, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 71,
-    quote: "The best way to discover Seattle is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Seattle is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/69.jpg",
     languages: ["Vietnamese", "Indonesian"],
     experienceYears: 15,
-    certifications: ["Urban Navigation Specialist", "Sustainable Tourism Certificate", "Certified International Tour Manager"],
+    certifications: [
+      "Urban Navigation Specialist",
+      "Sustainable Tourism Certificate",
+      "Certified International Tour Manager",
+    ],
     specialties: ["Family Activities", "Parks & Gardens", "Art Galleries"],
     specialTraining: ["Local Transit Systems", "Mountain Survival"],
   },
@@ -74,7 +84,8 @@ export const seattleunitedStatesalaskaGuides: TourGuide[] = [
     contactEmail: "ethan.gonzalez@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Ethan is a passionate tour guide with extensive knowledge of Seattle and United States. Specializing in Film Locations, Local Markets, Parks & Gardens, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Ethan is a passionate tour guide with extensive knowledge of Seattle and United States. Specializing in Film Locations, Local Markets, Parks & Gardens, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 15,
     quote: "Every corner of Seattle tells a story, let me share them with you.",
@@ -95,17 +106,24 @@ export const seattleunitedStatesalaskaGuides: TourGuide[] = [
     isPopular: true,
     bio: "Sophia is a passionate tour guide with extensive knowledge of Seattle and United States. Specializing in Parks & Gardens, Local Markets, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast Canada"],
-    tourTypes: ["Food Tour", "Street Art Tour", "Private Tour", "Family-Friendly Tour"],
+    tourTypes: [
+      "Food Tour",
+      "Street Art Tour",
+      "Private Tour",
+      "Family-Friendly Tour",
+    ],
     maxGroupSize: 19,
     licenseNumber: "LIC-8671-SEA",
     phoneNumber: "+1-725-218-4199",
     contactEmail: "sophia.gonzalez@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Sophia is a passionate tour guide with extensive knowledge of Seattle and United States. Specializing in Parks & Gardens, Local Markets, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sophia is a passionate tour guide with extensive knowledge of Seattle and United States. Specializing in Parks & Gardens, Local Markets, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
     reviewsCount: 9,
-    quote: "The best way to discover Seattle is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Seattle is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/10.jpg",
     languages: ["Romanian", "Thai", "Tagalog"],
     experienceYears: 11,
@@ -130,7 +148,8 @@ export const seattleunitedStatesalaskaGuides: TourGuide[] = [
     contactEmail: "sofia.robinson@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Sofia is a passionate tour guide with extensive knowledge of Seattle and United States. Specializing in Urban Legends, Indigenous Culture, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sofia is a passionate tour guide with extensive knowledge of Seattle and United States. Specializing in Urban Legends, Indigenous Culture, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 62,
     quote: "In Seattle, we don't just see the sights - we make memories.",
@@ -151,7 +170,12 @@ export const seattleunitedStatesalaskaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Owen is a passionate tour guide with extensive knowledge of Seattle and United States. Specializing in Historical Landmarks, Urban Legends, Music Scene, Owen provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Alaska"],
-    tourTypes: ["Family-Friendly Tour", "Luxury Tour", "Romantic Tour", "Market Tour"],
+    tourTypes: [
+      "Family-Friendly Tour",
+      "Luxury Tour",
+      "Romantic Tour",
+      "Market Tour",
+    ],
     maxGroupSize: 19,
     licenseNumber: "LIC-6538-SEA",
     phoneNumber: "+1-134-804-7061",
@@ -167,7 +191,7 @@ export const seattleunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -176,7 +200,7 @@ export const seattleunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -185,7 +209,7 @@ export const seattleunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -194,19 +218,25 @@ export const seattleunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Owen is a passionate tour guide with extensive knowledge of Seattle and United States. Specializing in Historical Landmarks, Urban Legends, Music Scene, Owen provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Owen is a passionate tour guide with extensive knowledge of Seattle and United States. Specializing in Historical Landmarks, Urban Legends, Music Scene, Owen provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 93,
-    quote: "The best way to discover Seattle is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Seattle is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/36.jpg",
     languages: ["French"],
     experienceYears: 13,
-    certifications: ["Food Safety Certification", "Language Proficiency Certification", "Cultural Heritage Specialist"],
+    certifications: [
+      "Food Safety Certification",
+      "Language Proficiency Certification",
+      "Cultural Heritage Specialist",
+    ],
     specialties: ["Historical Landmarks", "Urban Legends", "Music Scene"],
     specialTraining: ["Desert Navigation"],
   },
@@ -232,7 +262,7 @@ export const seattleunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -245,7 +275,7 @@ export const seattleunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -258,7 +288,7 @@ export const seattleunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -271,19 +301,23 @@ export const seattleunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Alexander is a passionate tour guide with extensive knowledge of Seattle and United States. Specializing in Nightlife, Street Food, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Alexander is a passionate tour guide with extensive knowledge of Seattle and United States. Specializing in Nightlife, Street Food, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 26,
     quote: "In Seattle, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/women/71.jpg",
     languages: ["Japanese"],
     experienceYears: 7,
-    certifications: ["Licensed City Guide", "Professional Tour Guide Association"],
+    certifications: [
+      "Licensed City Guide",
+      "Professional Tour Guide Association",
+    ],
     specialties: ["Nightlife", "Street Food"],
     specialTraining: ["Group Management", "Conflict Resolution"],
   },
@@ -313,7 +347,7 @@ export const seattleunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -326,7 +360,7 @@ export const seattleunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -335,7 +369,7 @@ export const seattleunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -348,7 +382,7 @@ export const seattleunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -357,20 +391,30 @@ export const seattleunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "12:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Henry is a passionate tour guide with extensive knowledge of Seattle and United States. Specializing in Hidden Gems, Indigenous Culture, Nightlife, Religious Sites, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Henry is a passionate tour guide with extensive knowledge of Seattle and United States. Specializing in Hidden Gems, Indigenous Culture, Nightlife, Religious Sites, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
     reviewsCount: 10,
     quote: "My goal is to help you fall in love with Seattle just as I have.",
     profileImage: "https://randomuser.me/api/portraits/women/54.jpg",
     languages: ["Croatian", "Mandarin"],
     experienceYears: 16,
-    certifications: ["Adventure Tourism Safety Certificate", "Sustainable Tourism Certificate", "Certified International Tour Manager"],
-    specialties: ["Hidden Gems", "Indigenous Culture", "Nightlife", "Religious Sites"],
+    certifications: [
+      "Adventure Tourism Safety Certificate",
+      "Sustainable Tourism Certificate",
+      "Certified International Tour Manager",
+    ],
+    specialties: [
+      "Hidden Gems",
+      "Indigenous Culture",
+      "Nightlife",
+      "Religious Sites",
+    ],
     specialTraining: ["Desert Navigation", "Wine Education"],
-  }
+  },
 ];

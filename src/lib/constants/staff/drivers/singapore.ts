@@ -14,8 +14,8 @@ export const singaporesingaporeasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -23,12 +23,12 @@ export const singaporesingaporeasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "19:00"
+            to: "19:00",
           },
           {
             from: "06:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
       },
       {
@@ -36,8 +36,8 @@ export const singaporesingaporeasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -45,10 +45,10 @@ export const singaporesingaporeasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4,
     phone: "+294 398-914-5863",
@@ -70,12 +70,12 @@ export const singaporesingaporeasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "10:00"
+            to: "10:00",
           },
           {
             from: "16:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -83,12 +83,12 @@ export const singaporesingaporeasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "23:00"
+            to: "23:00",
           },
           {
             from: "06:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -96,12 +96,12 @@ export const singaporesingaporeasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "07:00"
+            to: "07:00",
           },
           {
             from: "04:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -109,10 +109,10 @@ export const singaporesingaporeasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.8,
     phone: "+519 986-213-7014",
@@ -134,12 +134,12 @@ export const singaporesingaporeasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "02:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -147,12 +147,12 @@ export const singaporesingaporeasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "13:00"
+            to: "13:00",
           },
           {
             from: "13:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -160,17 +160,27 @@ export const singaporesingaporeasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.5,
     phone: "+504 838-661-4922",
     email: "hannah.bennett@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/37.jpg",
-    specialties: ["Event Transportation", "Security Detail", "Long-Distance Driving"],
-    vehicleTypesCertified: ["Electric Vehicle", "Sedan", "Limousine", "Sports Car", "Van"],
+    specialties: [
+      "Event Transportation",
+      "Security Detail",
+      "Long-Distance Driving",
+    ],
+    vehicleTypesCertified: [
+      "Electric Vehicle",
+      "Sedan",
+      "Limousine",
+      "Sports Car",
+      "Van",
+    ],
   },
   {
     id: "driver-singapore-4",
@@ -185,12 +195,12 @@ export const singaporesingaporeasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "16:00"
+            to: "16:00",
           },
           {
             from: "12:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
       },
       {
@@ -198,12 +208,12 @@ export const singaporesingaporeasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "22:00"
+            to: "22:00",
           },
           {
             from: "16:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -211,10 +221,10 @@ export const singaporesingaporeasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.7,
     phone: "+218 147-893-6178",
@@ -236,8 +246,8 @@ export const singaporesingaporeasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -245,12 +255,12 @@ export const singaporesingaporeasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "04:00"
+            to: "04:00",
           },
           {
             from: "20:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
       },
       {
@@ -258,8 +268,8 @@ export const singaporesingaporeasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
       },
       {
@@ -267,8 +277,8 @@ export const singaporesingaporeasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
       },
       {
@@ -276,14 +286,14 @@ export const singaporesingaporeasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "20:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.1,
     phone: "+556 904-146-2087",
@@ -305,8 +315,8 @@ export const singaporesingaporeasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -314,12 +324,12 @@ export const singaporesingaporeasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "05:00"
+            to: "05:00",
           },
           {
             from: "05:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
       },
       {
@@ -327,8 +337,8 @@ export const singaporesingaporeasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -336,8 +346,8 @@ export const singaporesingaporeasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -345,14 +355,14 @@ export const singaporesingaporeasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "03:00"
+            to: "03:00",
           },
           {
             from: "04:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.8,
     phone: "+281 339-316-8172",
@@ -374,8 +384,8 @@ export const singaporesingaporeasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -383,8 +393,8 @@ export const singaporesingaporeasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -392,12 +402,12 @@ export const singaporesingaporeasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "07:00"
+            to: "07:00",
           },
           {
             from: "08:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
       },
       {
@@ -405,16 +415,20 @@ export const singaporesingaporeasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.8,
     phone: "+771 680-636-1022",
     email: "noah.hayes@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/20.jpg",
-    specialties: ["Night Shift", "Luxury Car Specialist", "Event Transportation"],
+    specialties: [
+      "Night Shift",
+      "Luxury Car Specialist",
+      "Event Transportation",
+    ],
     vehicleTypesCertified: ["Limousine"],
   },
   {
@@ -430,8 +444,8 @@ export const singaporesingaporeasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "04:00"
-          }
+            to: "04:00",
+          },
         ],
       },
       {
@@ -439,12 +453,12 @@ export const singaporesingaporeasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "16:00"
+            to: "16:00",
           },
           {
             from: "01:00",
-            to: "04:00"
-          }
+            to: "04:00",
+          },
         ],
       },
       {
@@ -452,14 +466,14 @@ export const singaporesingaporeasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "08:00"
+            to: "08:00",
           },
           {
             from: "03:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.5,
     phone: "+38 936-506-3853",
@@ -481,12 +495,12 @@ export const singaporesingaporeasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "11:00"
+            to: "11:00",
           },
           {
             from: "01:00",
-            to: "03:00"
-          }
+            to: "03:00",
+          },
         ],
       },
       {
@@ -494,12 +508,12 @@ export const singaporesingaporeasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "07:00"
+            to: "07:00",
           },
           {
             from: "03:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -507,20 +521,25 @@ export const singaporesingaporeasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "11:00"
+            to: "11:00",
           },
           {
             from: "19:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.8,
     phone: "+813 519-657-8527",
     email: "bella.warren@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/37.jpg",
-    specialties: ["Corporate Chauffeur", "Night Shift", "Security Detail", "Event Transportation"],
+    specialties: [
+      "Corporate Chauffeur",
+      "Night Shift",
+      "Security Detail",
+      "Event Transportation",
+    ],
     vehicleTypesCertified: ["Convertible"],
-  }
+  },
 ];

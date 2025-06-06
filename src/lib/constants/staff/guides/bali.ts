@@ -18,14 +18,19 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
     contactEmail: "david.moore@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "David is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Local Cuisine, David provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "David is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Local Cuisine, David provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 56,
-    quote: "The best way to discover Bali is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Bali is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/45.jpg",
     languages: ["German", "Romanian", "French"],
     experienceYears: 6,
-    certifications: ["Licensed City Guide", "Certified International Tour Manager"],
+    certifications: [
+      "Licensed City Guide",
+      "Certified International Tour Manager",
+    ],
     specialties: ["Local Cuisine"],
     specialTraining: ["Religious Studies"],
   },
@@ -39,17 +44,24 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
     isPopular: false,
     bio: "Joseph is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Local Markets, Adventure Sports, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Middle East", "South America"],
-    tourTypes: ["Walking Tour", "Private Tour", "Shopping Tour", "Off-Road Tour"],
+    tourTypes: [
+      "Walking Tour",
+      "Private Tour",
+      "Shopping Tour",
+      "Off-Road Tour",
+    ],
     maxGroupSize: 8,
     licenseNumber: "LIC-8940-BAL",
     phoneNumber: "+1-600-198-5600",
     contactEmail: "joseph.flores@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Joseph is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Local Markets, Adventure Sports, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Joseph is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Local Markets, Adventure Sports, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
     reviewsCount: 82,
-    quote: "Bali isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Bali isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/28.jpg",
     languages: ["Japanese", "Swedish"],
     experienceYears: 10,
@@ -67,17 +79,24 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
     isPopular: false,
     bio: "Olivia is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Photography Spots, Parks & Gardens, Street Food, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["South America"],
-    tourTypes: ["Food Tour", "Cruise Excursion", "Nature Tour", "Romantic Tour"],
+    tourTypes: [
+      "Food Tour",
+      "Cruise Excursion",
+      "Nature Tour",
+      "Romantic Tour",
+    ],
     maxGroupSize: 17,
     licenseNumber: "LIC-7186-BAL",
     phoneNumber: "+1-567-510-1162",
     contactEmail: "olivia.scott@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Olivia is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Photography Spots, Parks & Gardens, Street Food, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Olivia is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Photography Spots, Parks & Gardens, Street Food, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 84,
-    quote: "The best way to discover Bali is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Bali is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/27.jpg",
     languages: ["Indonesian"],
     experienceYears: 11,
@@ -95,22 +114,34 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
     isPopular: false,
     bio: "Noah is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Art Galleries, Wildlife, Sustainable Tourism, Local Cuisine, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Middle East", "Northern Europe"],
-    tourTypes: ["Museum Tour", "Nature Tour", "Photography Tour", "Cultural Tour"],
+    tourTypes: [
+      "Museum Tour",
+      "Nature Tour",
+      "Photography Tour",
+      "Cultural Tour",
+    ],
     maxGroupSize: 12,
     licenseNumber: "LIC-6688-BAL",
     phoneNumber: "+1-244-529-6537",
     contactEmail: "noah.brown@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Noah is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Art Galleries, Wildlife, Sustainable Tourism, Local Cuisine, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Noah is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Art Galleries, Wildlife, Sustainable Tourism, Local Cuisine, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 33,
-    quote: "Bali isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Bali isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/15.jpg",
     languages: ["Arabic", "Spanish", "Polish"],
     experienceYears: 11,
     certifications: ["Professional Tour Guide Association"],
-    specialties: ["Art Galleries", "Wildlife", "Sustainable Tourism", "Local Cuisine"],
+    specialties: [
+      "Art Galleries",
+      "Wildlife",
+      "Sustainable Tourism",
+      "Local Cuisine",
+    ],
     specialTraining: ["Religious Studies", "Photography"],
   },
   {
@@ -130,7 +161,8 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
     contactEmail: "noah.taylor@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Noah is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Street Food, Photography Spots, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Noah is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Street Food, Photography Spots, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.5,
     reviewsCount: 17,
     quote: "My goal is to help you fall in love with Bali just as I have.",
@@ -158,14 +190,19 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
     contactEmail: "sophia.lewis@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Sophia is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Film Locations, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sophia is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Film Locations, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 40,
     quote: "Every corner of Bali tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/75.jpg",
     languages: ["Tagalog", "Finnish"],
     experienceYears: 3,
-    certifications: ["Licensed City Guide", "Food Safety Certification", "Sustainable Tourism Certificate"],
+    certifications: [
+      "Licensed City Guide",
+      "Food Safety Certification",
+      "Sustainable Tourism Certificate",
+    ],
     specialties: ["Film Locations"],
     specialTraining: [],
   },
@@ -186,15 +223,22 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
     contactEmail: "victoria.hernandez@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Victoria is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Sustainable Tourism, Art Galleries, Adventure Sports, Family Activities, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Victoria is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Sustainable Tourism, Art Galleries, Adventure Sports, Family Activities, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
     reviewsCount: 13,
-    quote: "The best way to discover Bali is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Bali is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/14.jpg",
     languages: ["Greek", "Spanish", "Croatian"],
     experienceYears: 2,
     certifications: ["Sustainable Tourism Certificate"],
-    specialties: ["Sustainable Tourism", "Art Galleries", "Adventure Sports", "Family Activities"],
+    specialties: [
+      "Sustainable Tourism",
+      "Art Galleries",
+      "Adventure Sports",
+      "Family Activities",
+    ],
     specialTraining: [],
   },
   {
@@ -214,14 +258,20 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
     contactEmail: "michael.allen@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Michael is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Historical Landmarks, Film Locations, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Michael is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Historical Landmarks, Film Locations, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 39,
-    quote: "The best way to discover Bali is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Bali is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/42.jpg",
     languages: ["Dutch", "Hindi", "Polish"],
     experienceYears: 14,
-    certifications: ["Local History Certification", "Wilderness First Responder", "Cultural Heritage Specialist"],
+    certifications: [
+      "Local History Certification",
+      "Wilderness First Responder",
+      "Cultural Heritage Specialist",
+    ],
     specialties: ["Historical Landmarks", "Film Locations"],
     specialTraining: [],
   },
@@ -235,7 +285,12 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
     isPopular: false,
     bio: "Aiden is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Historical Landmarks, Film Locations, Local Craftsmanship, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Mediterranean", "Asia Pacific"],
-    tourTypes: ["Photography Tour", "Self-Guided Tour", "Street Art Tour", "Underground Tour"],
+    tourTypes: [
+      "Photography Tour",
+      "Self-Guided Tour",
+      "Street Art Tour",
+      "Underground Tour",
+    ],
     maxGroupSize: 10,
     licenseNumber: "LIC-3313-BAL",
     phoneNumber: "+1-882-452-6799",
@@ -247,7 +302,7 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -256,7 +311,7 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "21:00",
-          }
+          },
         ],
       },
       {
@@ -269,7 +324,7 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -282,20 +337,26 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "20:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Aiden is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Historical Landmarks, Film Locations, Local Craftsmanship, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Aiden is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Historical Landmarks, Film Locations, Local Craftsmanship, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
     reviewsCount: 58,
-    quote: "The best way to discover Bali is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Bali is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/57.jpg",
     languages: ["Arabic", "Tagalog", "Swahili"],
     experienceYears: 9,
     certifications: ["Heritage Interpretation Certificate"],
-    specialties: ["Historical Landmarks", "Film Locations", "Local Craftsmanship"],
+    specialties: [
+      "Historical Landmarks",
+      "Film Locations",
+      "Local Craftsmanship",
+    ],
     specialTraining: ["Regional Cuisine", "Marine Biology"],
   },
   {
@@ -320,7 +381,7 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -333,7 +394,7 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -342,15 +403,17 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Sofia is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Local Craftsmanship, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sofia is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Local Craftsmanship, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 65,
-    quote: "The best way to discover Bali is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Bali is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/48.jpg",
     languages: ["Hungarian"],
     experienceYears: 10,
@@ -368,7 +431,13 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
     isPopular: false,
     bio: "Ethan is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Museums, Architecture, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Middle East"],
-    tourTypes: ["Cultural Tour", "Cruise Excursion", "Adventure Tour", "Ghost Tour", "Brewery Tour"],
+    tourTypes: [
+      "Cultural Tour",
+      "Cruise Excursion",
+      "Adventure Tour",
+      "Ghost Tour",
+      "Brewery Tour",
+    ],
     maxGroupSize: 15,
     licenseNumber: "LIC-9340-BAL",
     phoneNumber: "+1-661-936-1545",
@@ -380,7 +449,7 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -393,7 +462,7 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -402,20 +471,25 @@ export const baliindonesiaasiaPacificGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Ethan is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Museums, Architecture, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Ethan is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Museums, Architecture, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
     reviewsCount: 88,
     quote: "Every corner of Bali tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/45.jpg",
     languages: ["Turkish", "German"],
     experienceYears: 9,
-    certifications: ["CPR & First Aid", "Cultural Heritage Specialist", "Food Safety Certification"],
+    certifications: [
+      "CPR & First Aid",
+      "Cultural Heritage Specialist",
+      "Food Safety Certification",
+    ],
     specialties: ["Museums", "Architecture"],
     specialTraining: ["Regional Geology"],
-  }
+  },
 ];

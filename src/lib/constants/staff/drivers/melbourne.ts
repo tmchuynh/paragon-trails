@@ -14,8 +14,8 @@ export const melbourneaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -23,8 +23,8 @@ export const melbourneaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -32,10 +32,10 @@ export const melbourneaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.4,
     phone: "+784 913-979-4946",
@@ -57,12 +57,12 @@ export const melbourneaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "12:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
       },
       {
@@ -70,8 +70,8 @@ export const melbourneaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
       },
       {
@@ -79,12 +79,12 @@ export const melbourneaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "09:00"
+            to: "09:00",
           },
           {
             from: "03:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
       },
       {
@@ -92,17 +92,22 @@ export const melbourneaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.2,
     phone: "+143 593-121-8108",
     email: "elena.smith@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/43.jpg",
     specialties: ["Night Shift", "VIP Transport"],
-    vehicleTypesCertified: ["Sports Car", "Electric Vehicle", "Van", "Convertible"],
+    vehicleTypesCertified: [
+      "Sports Car",
+      "Electric Vehicle",
+      "Van",
+      "Convertible",
+    ],
   },
   {
     id: "driver-melbourne-3",
@@ -117,12 +122,12 @@ export const melbourneaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "22:00"
+            to: "22:00",
           },
           {
             from: "00:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -130,8 +135,8 @@ export const melbourneaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -139,8 +144,8 @@ export const melbourneaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
       },
       {
@@ -148,10 +153,10 @@ export const melbourneaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.2,
     phone: "+746 230-723-6449",
@@ -173,12 +178,12 @@ export const melbourneaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "14:00"
+            to: "14:00",
           },
           {
             from: "10:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
       },
       {
@@ -186,12 +191,12 @@ export const melbourneaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "18:00"
+            to: "18:00",
           },
           {
             from: "08:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -199,8 +204,8 @@ export const melbourneaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -208,10 +213,10 @@ export const melbourneaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.7,
     phone: "+695 827-962-1330",
@@ -233,12 +238,12 @@ export const melbourneaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "09:00"
+            to: "09:00",
           },
           {
             from: "20:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
       },
       {
@@ -246,12 +251,12 @@ export const melbourneaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "03:00"
+            to: "03:00",
           },
           {
             from: "11:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -259,8 +264,8 @@ export const melbourneaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -268,10 +273,10 @@ export const melbourneaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.2,
     phone: "+211 167-874-8290",
@@ -293,12 +298,12 @@ export const melbourneaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "22:00"
+            to: "22:00",
           },
           {
             from: "18:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -306,12 +311,12 @@ export const melbourneaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "22:00"
+            to: "22:00",
           },
           {
             from: "02:00",
-            to: "04:00"
-          }
+            to: "04:00",
+          },
         ],
       },
       {
@@ -319,10 +324,10 @@ export const melbourneaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 5,
     phone: "+728 994-728-5405",
@@ -344,8 +349,8 @@ export const melbourneaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -353,8 +358,8 @@ export const melbourneaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -362,12 +367,12 @@ export const melbourneaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "16:00"
+            to: "16:00",
           },
           {
             from: "20:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -375,10 +380,10 @@ export const melbourneaustraliaasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.5,
     phone: "+551 624-443-6301",
@@ -386,5 +391,5 @@ export const melbourneaustraliaasiaPacificDrivers: Driver[] = [
     photoUrl: "https://randomuser.me/api/portraits/women/42.jpg",
     specialties: ["Event Transportation", "Long-Distance Driving"],
     vehicleTypesCertified: ["Sports Car", "Limousine", "Van", "Luxury SUV"],
-  }
+  },
 ];

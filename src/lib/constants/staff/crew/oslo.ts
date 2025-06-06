@@ -39,10 +39,14 @@ export const oslonorwaynorthernEuropeCrew: CrewMember[] = [
     name: "Diego Mitchell",
     role: "First Mate",
     experienceYears: 6,
-    certifications: ["Security Training", "Dive Master", "Environmental Awareness"],
+    certifications: [
+      "Security Training",
+      "Dive Master",
+      "Environmental Awareness",
+    ],
     languagesSpoken: ["Romanian", "Hungarian", "Turkish"],
     isAvailable: false,
     contactEmail: "diego.mitchell@paragontrails.com",
     contactPhone: "+1-838-967-6148",
-  }
+  },
 ];

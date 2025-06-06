@@ -44,5 +44,5 @@ export const southamptonunitedKingdomnorthernEuropeCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "liam.martinez@paragontrails.com",
     contactPhone: "+1-774-041-4621",
-  }
+  },
 ];

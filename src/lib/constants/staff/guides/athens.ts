@@ -18,15 +18,22 @@ export const athensgreecemediterraneanGuides: TourGuide[] = [
     contactEmail: "noah.walker@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Noah is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Hidden Gems, Adventure Sports, Sustainable Tourism, Historical Landmarks, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Noah is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Hidden Gems, Adventure Sports, Sustainable Tourism, Historical Landmarks, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 75,
-    quote: "The best way to discover Athens is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Athens is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/33.jpg",
     languages: ["Bulgarian"],
     experienceYears: 3,
     certifications: ["Wilderness First Responder"],
-    specialties: ["Hidden Gems", "Adventure Sports", "Sustainable Tourism", "Historical Landmarks"],
+    specialties: [
+      "Hidden Gems",
+      "Adventure Sports",
+      "Sustainable Tourism",
+      "Historical Landmarks",
+    ],
     specialTraining: ["Art History"],
   },
   {
@@ -46,15 +53,26 @@ export const athensgreecemediterraneanGuides: TourGuide[] = [
     contactEmail: "alexander.garcia@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Alexander is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Wildlife, LGBTQ+ History, Sustainable Tourism, Local Cuisine, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Alexander is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Wildlife, LGBTQ+ History, Sustainable Tourism, Local Cuisine, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
     reviewsCount: 54,
-    quote: "Athens isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Athens isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/24.jpg",
     languages: ["Russian", "Tagalog"],
     experienceYears: 12,
-    certifications: ["Sustainable Tourism Certificate", "Food Safety Certification", "Local History Certification"],
-    specialties: ["Wildlife", "LGBTQ+ History", "Sustainable Tourism", "Local Cuisine"],
+    certifications: [
+      "Sustainable Tourism Certificate",
+      "Food Safety Certification",
+      "Local History Certification",
+    ],
+    specialties: [
+      "Wildlife",
+      "LGBTQ+ History",
+      "Sustainable Tourism",
+      "Local Cuisine",
+    ],
     specialTraining: ["Local Flora & Fauna"],
   },
   {
@@ -67,21 +85,32 @@ export const athensgreecemediterraneanGuides: TourGuide[] = [
     isPopular: true,
     bio: "Scarlett is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Local Craftsmanship, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Alaska"],
-    tourTypes: ["Food Tour", "Wine Tour", "Brewery Tour", "Relocation Tour", "Craft Workshop"],
+    tourTypes: [
+      "Food Tour",
+      "Wine Tour",
+      "Brewery Tour",
+      "Relocation Tour",
+      "Craft Workshop",
+    ],
     maxGroupSize: 18,
     licenseNumber: "LIC-8033-ATH",
     phoneNumber: "+1-951-768-6012",
     contactEmail: "scarlett.lewis@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Scarlett is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Local Craftsmanship, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Scarlett is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Local Craftsmanship, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 47,
     quote: "Every corner of Athens tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/41.jpg",
     languages: ["Swedish", "Swahili", "Japanese"],
     experienceYears: 15,
-    certifications: ["Eco-Tourism Guide", "CPR & First Aid", "Food Safety Certification"],
+    certifications: [
+      "Eco-Tourism Guide",
+      "CPR & First Aid",
+      "Food Safety Certification",
+    ],
     specialties: ["Local Craftsmanship"],
     specialTraining: ["Marine Biology", "Religious Studies"],
   },
@@ -95,14 +124,21 @@ export const athensgreecemediterraneanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Matthew is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Music Scene, Wine Tasting, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Alaska"],
-    tourTypes: ["Private Tour", "Adventure Tour", "Museum Tour", "Self-Guided Tour", "Cultural Tour"],
+    tourTypes: [
+      "Private Tour",
+      "Adventure Tour",
+      "Museum Tour",
+      "Self-Guided Tour",
+      "Cultural Tour",
+    ],
     maxGroupSize: 14,
     licenseNumber: "LIC-9002-ATH",
     phoneNumber: "+1-942-624-7941",
     contactEmail: "matthew.thomas@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Matthew is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Music Scene, Wine Tasting, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Matthew is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Music Scene, Wine Tasting, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 70,
     quote: "Every corner of Athens tells a story, let me share them with you.",
@@ -135,7 +171,7 @@ export const athensgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -144,7 +180,7 @@ export const athensgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -157,15 +193,17 @@ export const athensgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "19:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "James is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in LGBTQ+ History, Film Locations, James provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "James is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in LGBTQ+ History, Film Locations, James provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 90,
-    quote: "Athens isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Athens isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/59.jpg",
     languages: ["English"],
     experienceYears: 13,
@@ -183,7 +221,13 @@ export const athensgreecemediterraneanGuides: TourGuide[] = [
     isPopular: true,
     bio: "Evelyn is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Cultural Etiquette, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast Canada"],
-    tourTypes: ["Photography Tour", "Historical Tour", "Craft Workshop", "Relocation Tour", "Off-Road Tour"],
+    tourTypes: [
+      "Photography Tour",
+      "Historical Tour",
+      "Craft Workshop",
+      "Relocation Tour",
+      "Off-Road Tour",
+    ],
     maxGroupSize: 18,
     licenseNumber: "LIC-9779-ATH",
     phoneNumber: "+1-177-470-2947",
@@ -199,7 +243,7 @@ export const athensgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -212,7 +256,7 @@ export const athensgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -221,12 +265,13 @@ export const athensgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Evelyn is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Cultural Etiquette, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Evelyn is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Cultural Etiquette, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
     reviewsCount: 32,
     quote: "In Athens, we don't just see the sights - we make memories.",
@@ -247,7 +292,13 @@ export const athensgreecemediterraneanGuides: TourGuide[] = [
     isPopular: true,
     bio: "Wyatt is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Wildlife, Urban Legends, Film Locations, Historical Landmarks, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Asia Pacific", "Africa"],
-    tourTypes: ["Romantic Tour", "Cultural Tour", "Food Tour", "Audio Tour", "Street Art Tour"],
+    tourTypes: [
+      "Romantic Tour",
+      "Cultural Tour",
+      "Food Tour",
+      "Audio Tour",
+      "Street Art Tour",
+    ],
     maxGroupSize: 18,
     licenseNumber: "LIC-5679-ATH",
     phoneNumber: "+1-743-665-2441",
@@ -263,7 +314,7 @@ export const athensgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -276,7 +327,7 @@ export const athensgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -289,20 +340,30 @@ export const athensgreecemediterraneanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Wyatt is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Wildlife, Urban Legends, Film Locations, Historical Landmarks, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Wyatt is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Wildlife, Urban Legends, Film Locations, Historical Landmarks, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.5,
     reviewsCount: 30,
     quote: "My goal is to help you fall in love with Athens just as I have.",
     profileImage: "https://randomuser.me/api/portraits/women/75.jpg",
     languages: ["Tagalog", "Czech"],
     experienceYears: 13,
-    certifications: ["Regional Tourism Ambassador", "Food Safety Certification", "Certified International Tour Manager"],
-    specialties: ["Wildlife", "Urban Legends", "Film Locations", "Historical Landmarks"],
+    certifications: [
+      "Regional Tourism Ambassador",
+      "Food Safety Certification",
+      "Certified International Tour Manager",
+    ],
+    specialties: [
+      "Wildlife",
+      "Urban Legends",
+      "Film Locations",
+      "Historical Landmarks",
+    ],
     specialTraining: ["Wine Education"],
-  }
+  },
 ];

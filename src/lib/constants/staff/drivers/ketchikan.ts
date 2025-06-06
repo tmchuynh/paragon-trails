@@ -14,12 +14,12 @@ export const ketchikanunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "13:00"
+            to: "13:00",
           },
           {
             from: "00:00",
-            to: "04:00"
-          }
+            to: "04:00",
+          },
         ],
       },
       {
@@ -27,12 +27,12 @@ export const ketchikanunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "20:00"
+            to: "20:00",
           },
           {
             from: "13:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -40,8 +40,8 @@ export const ketchikanunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -49,17 +49,22 @@ export const ketchikanunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.7,
     phone: "+435 254-424-9547",
     email: "randy.jackson@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/86.jpg",
     specialties: ["Security Detail", "VIP Transport", "Long-Distance Driving"],
-    vehicleTypesCertified: ["Sports Car", "Electric Vehicle", "SUV", "Luxury SUV"],
+    vehicleTypesCertified: [
+      "Sports Car",
+      "Electric Vehicle",
+      "SUV",
+      "Luxury SUV",
+    ],
   },
   {
     id: "driver-ketchikan-2",
@@ -74,8 +79,8 @@ export const ketchikanunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -83,8 +88,8 @@ export const ketchikanunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -92,8 +97,8 @@ export const ketchikanunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -101,21 +106,27 @@ export const ketchikanunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "21:00"
+            to: "21:00",
           },
           {
             from: "07:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.2,
     phone: "+254 408-133-1473",
     email: "chloe.gardner@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/19.jpg",
     specialties: ["Airport Transfers"],
-    vehicleTypesCertified: ["Sports Car", "Motorcoach", "Electric Vehicle", "Limousine", "Luxury SUV"],
+    vehicleTypesCertified: [
+      "Sports Car",
+      "Motorcoach",
+      "Electric Vehicle",
+      "Limousine",
+      "Luxury SUV",
+    ],
   },
   {
     id: "driver-ketchikan-3",
@@ -130,12 +141,12 @@ export const ketchikanunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "13:00"
+            to: "13:00",
           },
           {
             from: "03:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -143,8 +154,8 @@ export const ketchikanunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
       },
       {
@@ -152,12 +163,12 @@ export const ketchikanunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "09:00"
+            to: "09:00",
           },
           {
             from: "10:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
       },
       {
@@ -165,12 +176,12 @@ export const ketchikanunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "06:00"
+            to: "06:00",
           },
           {
             from: "07:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -178,14 +189,14 @@ export const ketchikanunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "07:00"
+            to: "07:00",
           },
           {
             from: "10:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.2,
     phone: "+804 170-708-7577",
@@ -207,8 +218,8 @@ export const ketchikanunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -216,12 +227,12 @@ export const ketchikanunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "13:00"
+            to: "13:00",
           },
           {
             from: "17:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -229,14 +240,14 @@ export const ketchikanunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "17:00"
+            to: "17:00",
           },
           {
             from: "01:00",
-            to: "04:00"
-          }
+            to: "04:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.7,
     phone: "+473 786-765-7291",
@@ -258,8 +269,8 @@ export const ketchikanunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
       },
       {
@@ -267,12 +278,12 @@ export const ketchikanunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "23:00"
+            to: "23:00",
           },
           {
             from: "16:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -280,10 +291,10 @@ export const ketchikanunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.8,
     phone: "+133 636-620-1154",
@@ -305,12 +316,12 @@ export const ketchikanunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "17:00"
+            to: "17:00",
           },
           {
             from: "17:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -318,8 +329,8 @@ export const ketchikanunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -327,14 +338,14 @@ export const ketchikanunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "02:00"
+            to: "02:00",
           },
           {
             from: "01:00",
-            to: "03:00"
-          }
+            to: "03:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.9,
     phone: "+420 308-502-9041",
@@ -342,5 +353,5 @@ export const ketchikanunitedStatesalaskaDrivers: Driver[] = [
     photoUrl: "https://randomuser.me/api/portraits/women/55.jpg",
     specialties: ["Tour Guide Driver", "VIP Transport"],
     vehicleTypesCertified: ["Sedan", "Limousine", "Sports Car", "Luxury SUV"],
-  }
+  },
 ];

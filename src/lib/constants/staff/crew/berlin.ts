@@ -61,7 +61,11 @@ export const berlingermanynorthernEuropeCrew: CrewMember[] = [
     name: "Barbara Harper",
     role: "Purser",
     experienceYears: 15,
-    certifications: ["Engineering License", "Marine Radio Operator", "Environmental Awareness"],
+    certifications: [
+      "Engineering License",
+      "Marine Radio Operator",
+      "Environmental Awareness",
+    ],
     languagesSpoken: ["Greek", "Italian"],
     isAvailable: false,
     contactEmail: "barbara.harper@paragontrails.com",
@@ -77,5 +81,5 @@ export const berlingermanynorthernEuropeCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "bobby.martinez@paragontrails.com",
     contactPhone: "+1-884-202-4559",
-  }
+  },
 ];

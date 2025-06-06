@@ -18,14 +18,18 @@ export const roatanhondurascaribbeanGuides: TourGuide[] = [
     contactEmail: "sebastian.lopez@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Sebastian is a passionate tour guide with extensive knowledge of Roatan and Honduras. Specializing in Religious Sites, Family Activities, Art Galleries, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sebastian is a passionate tour guide with extensive knowledge of Roatan and Honduras. Specializing in Religious Sites, Family Activities, Art Galleries, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
     reviewsCount: 59,
     quote: "In Roatan, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/women/75.jpg",
     languages: ["Japanese", "Indonesian", "French"],
     experienceYears: 10,
-    certifications: ["Adventure Tourism Safety Certificate", "Regional Tourism Ambassador"],
+    certifications: [
+      "Adventure Tourism Safety Certificate",
+      "Regional Tourism Ambassador",
+    ],
     specialties: ["Religious Sites", "Family Activities", "Art Galleries"],
     specialTraining: [],
   },
@@ -39,21 +43,31 @@ export const roatanhondurascaribbeanGuides: TourGuide[] = [
     isPopular: true,
     bio: "Jacob is a passionate tour guide with extensive knowledge of Roatan and Honduras. Specializing in Architecture, Parks & Gardens, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Northern Europe"],
-    tourTypes: ["Cruise Excursion", "Underground Tour", "Group Tour", "Adventure Tour", "Museum Tour"],
+    tourTypes: [
+      "Cruise Excursion",
+      "Underground Tour",
+      "Group Tour",
+      "Adventure Tour",
+      "Museum Tour",
+    ],
     maxGroupSize: 6,
     licenseNumber: "LIC-8109-ROA",
     phoneNumber: "+1-692-839-1123",
     contactEmail: "jacob.walker@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Jacob is a passionate tour guide with extensive knowledge of Roatan and Honduras. Specializing in Architecture, Parks & Gardens, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Jacob is a passionate tour guide with extensive knowledge of Roatan and Honduras. Specializing in Architecture, Parks & Gardens, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 20,
     quote: "In Roatan, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/women/23.jpg",
     languages: ["Danish", "Hindi"],
     experienceYears: 15,
-    certifications: ["Heritage Interpretation Certificate", "Licensed City Guide"],
+    certifications: [
+      "Heritage Interpretation Certificate",
+      "Licensed City Guide",
+    ],
     specialties: ["Architecture", "Parks & Gardens"],
     specialTraining: ["Emergency Response", "Regional Cuisine"],
   },
@@ -74,14 +88,19 @@ export const roatanhondurascaribbeanGuides: TourGuide[] = [
     contactEmail: "scarlett.white@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Scarlett is a passionate tour guide with extensive knowledge of Roatan and Honduras. Specializing in Museums, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Scarlett is a passionate tour guide with extensive knowledge of Roatan and Honduras. Specializing in Museums, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 33,
     quote: "My goal is to help you fall in love with Roatan just as I have.",
     profileImage: "https://randomuser.me/api/portraits/men/14.jpg",
     languages: ["Dutch"],
     experienceYears: 2,
-    certifications: ["Cultural Heritage Specialist", "Professional Tour Guide Association", "CPR & First Aid"],
+    certifications: [
+      "Cultural Heritage Specialist",
+      "Professional Tour Guide Association",
+      "CPR & First Aid",
+    ],
     specialties: ["Museums"],
     specialTraining: ["Emergency Response", "Urban Planning"],
   },
@@ -102,14 +121,19 @@ export const roatanhondurascaribbeanGuides: TourGuide[] = [
     contactEmail: "evelyn.hall@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Evelyn is a passionate tour guide with extensive knowledge of Roatan and Honduras. Specializing in Photography Spots, Wildlife, Religious Sites, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Evelyn is a passionate tour guide with extensive knowledge of Roatan and Honduras. Specializing in Photography Spots, Wildlife, Religious Sites, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 75,
-    quote: "Roatan isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Roatan isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/20.jpg",
     languages: ["Swahili", "Danish"],
     experienceYears: 8,
-    certifications: ["Adventure Tourism Safety Certificate", "Food Safety Certification"],
+    certifications: [
+      "Adventure Tourism Safety Certificate",
+      "Food Safety Certification",
+    ],
     specialties: ["Photography Spots", "Wildlife", "Religious Sites"],
     specialTraining: ["Cultural Sensitivity", "Archaeological Conservation"],
   },
@@ -130,15 +154,26 @@ export const roatanhondurascaribbeanGuides: TourGuide[] = [
     contactEmail: "aiden.campbell@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Aiden is a passionate tour guide with extensive knowledge of Roatan and Honduras. Specializing in Parks & Gardens, Local Cuisine, Adventure Sports, Street Food, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Aiden is a passionate tour guide with extensive knowledge of Roatan and Honduras. Specializing in Parks & Gardens, Local Cuisine, Adventure Sports, Street Food, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
     reviewsCount: 41,
-    quote: "Roatan isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Roatan isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/28.jpg",
     languages: ["Polish", "German"],
     experienceYears: 7,
-    certifications: ["Licensed City Guide", "Sustainable Tourism Certificate", "Heritage Interpretation Certificate"],
-    specialties: ["Parks & Gardens", "Local Cuisine", "Adventure Sports", "Street Food"],
+    certifications: [
+      "Licensed City Guide",
+      "Sustainable Tourism Certificate",
+      "Heritage Interpretation Certificate",
+    ],
+    specialties: [
+      "Parks & Gardens",
+      "Local Cuisine",
+      "Adventure Sports",
+      "Street Food",
+    ],
     specialTraining: [],
   },
   {
@@ -158,15 +193,25 @@ export const roatanhondurascaribbeanGuides: TourGuide[] = [
     contactEmail: "abigail.nguyen@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Abigail is a passionate tour guide with extensive knowledge of Roatan and Honduras. Specializing in Indigenous Culture, Public Transportation Navigation, Museums, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Abigail is a passionate tour guide with extensive knowledge of Roatan and Honduras. Specializing in Indigenous Culture, Public Transportation Navigation, Museums, Abigail provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 76,
-    quote: "Roatan isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Roatan isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/20.jpg",
     languages: ["Danish"],
     experienceYears: 10,
-    certifications: ["Regional Tourism Ambassador", "Eco-Tourism Guide", "Heritage Interpretation Certificate"],
-    specialties: ["Indigenous Culture", "Public Transportation Navigation", "Museums"],
+    certifications: [
+      "Regional Tourism Ambassador",
+      "Eco-Tourism Guide",
+      "Heritage Interpretation Certificate",
+    ],
+    specialties: [
+      "Indigenous Culture",
+      "Public Transportation Navigation",
+      "Museums",
+    ],
     specialTraining: ["Local Flora & Fauna", "Group Management"],
   },
   {
@@ -186,7 +231,8 @@ export const roatanhondurascaribbeanGuides: TourGuide[] = [
     contactEmail: "lucas.hill@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Lucas is a passionate tour guide with extensive knowledge of Roatan and Honduras. Specializing in LGBTQ+ History, Architecture, Sustainable Tourism, Local Cuisine, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Lucas is a passionate tour guide with extensive knowledge of Roatan and Honduras. Specializing in LGBTQ+ History, Architecture, Sustainable Tourism, Local Cuisine, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
     reviewsCount: 94,
     quote: "My goal is to help you fall in love with Roatan just as I have.",
@@ -194,7 +240,12 @@ export const roatanhondurascaribbeanGuides: TourGuide[] = [
     languages: ["Hindi"],
     experienceYears: 10,
     certifications: ["Language Proficiency Certification"],
-    specialties: ["LGBTQ+ History", "Architecture", "Sustainable Tourism", "Local Cuisine"],
+    specialties: [
+      "LGBTQ+ History",
+      "Architecture",
+      "Sustainable Tourism",
+      "Local Cuisine",
+    ],
     specialTraining: ["Public Speaking", "Group Management"],
   },
   {
@@ -214,7 +265,8 @@ export const roatanhondurascaribbeanGuides: TourGuide[] = [
     contactEmail: "ethan.allen@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Ethan is a passionate tour guide with extensive knowledge of Roatan and Honduras. Specializing in Architecture, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Ethan is a passionate tour guide with extensive knowledge of Roatan and Honduras. Specializing in Architecture, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 17,
     quote: "My goal is to help you fall in love with Roatan just as I have.",
@@ -247,7 +299,7 @@ export const roatanhondurascaribbeanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -256,7 +308,7 @@ export const roatanhondurascaribbeanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -265,7 +317,7 @@ export const roatanhondurascaribbeanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -278,19 +330,23 @@ export const roatanhondurascaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "20:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Isabella is a passionate tour guide with extensive knowledge of Roatan and Honduras. Specializing in Indigenous Culture, Local Markets, LGBTQ+ History, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Isabella is a passionate tour guide with extensive knowledge of Roatan and Honduras. Specializing in Indigenous Culture, Local Markets, LGBTQ+ History, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 72,
     quote: "In Roatan, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/women/71.jpg",
     languages: ["Vietnamese", "Hindi", "Polish"],
     experienceYears: 6,
-    certifications: ["Sustainable Tourism Certificate", "Local History Certification"],
+    certifications: [
+      "Sustainable Tourism Certificate",
+      "Local History Certification",
+    ],
     specialties: ["Indigenous Culture", "Local Markets", "LGBTQ+ History"],
     specialTraining: [],
   },
@@ -304,7 +360,12 @@ export const roatanhondurascaribbeanGuides: TourGuide[] = [
     isPopular: true,
     bio: "Penelope is a passionate tour guide with extensive knowledge of Roatan and Honduras. Specializing in Historical Landmarks, Indigenous Culture, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast Canada"],
-    tourTypes: ["Ghost Tour", "Museum Tour", "Architecture Tour", "Private Tour"],
+    tourTypes: [
+      "Ghost Tour",
+      "Museum Tour",
+      "Architecture Tour",
+      "Private Tour",
+    ],
     maxGroupSize: 7,
     licenseNumber: "LIC-4255-ROA",
     phoneNumber: "+1-689-334-1889",
@@ -316,7 +377,7 @@ export const roatanhondurascaribbeanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -325,7 +386,7 @@ export const roatanhondurascaribbeanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -334,12 +395,13 @@ export const roatanhondurascaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Penelope is a passionate tour guide with extensive knowledge of Roatan and Honduras. Specializing in Historical Landmarks, Indigenous Culture, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Penelope is a passionate tour guide with extensive knowledge of Roatan and Honduras. Specializing in Historical Landmarks, Indigenous Culture, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 32,
     quote: "Every corner of Roatan tells a story, let me share them with you.",
@@ -360,7 +422,13 @@ export const roatanhondurascaribbeanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Amelia is a passionate tour guide with extensive knowledge of Roatan and Honduras. Specializing in Public Transportation Navigation, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["West Coast USA"],
-    tourTypes: ["Luxury Tour", "Walking Tour", "Group Tour", "Off-Road Tour", "Craft Workshop"],
+    tourTypes: [
+      "Luxury Tour",
+      "Walking Tour",
+      "Group Tour",
+      "Off-Road Tour",
+      "Craft Workshop",
+    ],
     maxGroupSize: 9,
     licenseNumber: "LIC-8407-ROA",
     phoneNumber: "+1-341-854-8007",
@@ -372,7 +440,7 @@ export const roatanhondurascaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -381,7 +449,7 @@ export const roatanhondurascaribbeanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -394,7 +462,7 @@ export const roatanhondurascaribbeanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -403,20 +471,26 @@ export const roatanhondurascaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "12:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Amelia is a passionate tour guide with extensive knowledge of Roatan and Honduras. Specializing in Public Transportation Navigation, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Amelia is a passionate tour guide with extensive knowledge of Roatan and Honduras. Specializing in Public Transportation Navigation, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
     reviewsCount: 104,
-    quote: "Roatan isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Roatan isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/76.jpg",
     languages: ["Spanish", "Japanese", "English"],
     experienceYears: 10,
-    certifications: ["Eco-Tourism Guide", "CPR & First Aid", "Regional Tourism Ambassador"],
+    certifications: [
+      "Eco-Tourism Guide",
+      "CPR & First Aid",
+      "Regional Tourism Ambassador",
+    ],
     specialties: ["Public Transportation Navigation"],
     specialTraining: [],
-  }
+  },
 ];

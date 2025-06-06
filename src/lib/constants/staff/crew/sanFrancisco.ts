@@ -88,5 +88,5 @@ export const sanFranciscounitedStateswestCoastUsaCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "nomsa.russell@paragontrails.com",
     contactPhone: "+1-692-199-9095",
-  }
+  },
 ];

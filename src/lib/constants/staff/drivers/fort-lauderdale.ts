@@ -14,12 +14,12 @@ export const fortLauderdaleunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "14:00"
+            to: "14:00",
           },
           {
             from: "16:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -27,12 +27,12 @@ export const fortLauderdaleunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "06:00"
+            to: "06:00",
           },
           {
             from: "08:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
       },
       {
@@ -40,14 +40,14 @@ export const fortLauderdaleunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "19:00"
+            to: "19:00",
           },
           {
             from: "16:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.9,
     phone: "+330 262-558-6175",
@@ -69,12 +69,12 @@ export const fortLauderdaleunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "08:00"
+            to: "08:00",
           },
           {
             from: "18:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -82,8 +82,8 @@ export const fortLauderdaleunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -91,14 +91,14 @@ export const fortLauderdaleunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "03:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.8,
     phone: "+137 954-799-6361",
@@ -120,8 +120,8 @@ export const fortLauderdaleunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
       },
       {
@@ -129,8 +129,8 @@ export const fortLauderdaleunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
       },
       {
@@ -138,12 +138,12 @@ export const fortLauderdaleunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "18:00"
+            to: "18:00",
           },
           {
             from: "05:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
       },
       {
@@ -151,14 +151,14 @@ export const fortLauderdaleunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "15:00"
+            to: "15:00",
           },
           {
             from: "17:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.2,
     phone: "+448 484-188-8160",
@@ -180,12 +180,12 @@ export const fortLauderdaleunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "14:00"
+            to: "14:00",
           },
           {
             from: "11:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -193,8 +193,8 @@ export const fortLauderdaleunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -202,12 +202,12 @@ export const fortLauderdaleunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "04:00"
+            to: "04:00",
           },
           {
             from: "18:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -215,10 +215,10 @@ export const fortLauderdaleunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.7,
     phone: "+305 569-711-1490",
@@ -240,8 +240,8 @@ export const fortLauderdaleunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "03:00"
-          }
+            to: "03:00",
+          },
         ],
       },
       {
@@ -249,8 +249,8 @@ export const fortLauderdaleunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
       },
       {
@@ -258,8 +258,8 @@ export const fortLauderdaleunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -267,10 +267,10 @@ export const fortLauderdaleunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.4,
     phone: "+447 930-348-4990",
@@ -292,8 +292,8 @@ export const fortLauderdaleunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
       },
       {
@@ -301,8 +301,8 @@ export const fortLauderdaleunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
       },
       {
@@ -310,12 +310,12 @@ export const fortLauderdaleunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "04:00"
+            to: "04:00",
           },
           {
             from: "13:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -323,20 +323,25 @@ export const fortLauderdaleunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "08:00"
+            to: "08:00",
           },
           {
             from: "13:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.4,
     phone: "+754 292-156-1888",
     email: "henry.hall@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/20.jpg",
-    specialties: ["Event Transportation", "Luxury Car Specialist", "Night Shift", "Security Detail"],
+    specialties: [
+      "Event Transportation",
+      "Luxury Car Specialist",
+      "Night Shift",
+      "Security Detail",
+    ],
     vehicleTypesCertified: ["SUV", "Sports Car", "Luxury SUV"],
-  }
+  },
 ];

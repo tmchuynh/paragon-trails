@@ -6,7 +6,11 @@ export const bostonunitedStateseastCoastUsaCrew: CrewMember[] = [
     name: "Bruce Graham",
     role: "Navigator",
     experienceYears: 16,
-    certifications: ["Marine Radio Operator", "Dive Master", "Environmental Awareness"],
+    certifications: [
+      "Marine Radio Operator",
+      "Dive Master",
+      "Environmental Awareness",
+    ],
     languagesSpoken: ["Norwegian"],
     isAvailable: false,
     contactEmail: "bruce.graham@paragontrails.com",
@@ -55,5 +59,5 @@ export const bostonunitedStateseastCoastUsaCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "steven.wood@paragontrails.com",
     contactPhone: "+1-091-416-5321",
-  }
+  },
 ];

@@ -14,8 +14,8 @@ export const roatanhondurascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "03:00"
-          }
+            to: "03:00",
+          },
         ],
       },
       {
@@ -23,8 +23,8 @@ export const roatanhondurascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -32,8 +32,8 @@ export const roatanhondurascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -41,14 +41,14 @@ export const roatanhondurascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "09:00"
+            to: "09:00",
           },
           {
             from: "15:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.2,
     phone: "+385 547-122-3854",
@@ -70,12 +70,12 @@ export const roatanhondurascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "20:00"
+            to: "20:00",
           },
           {
             from: "19:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -83,12 +83,12 @@ export const roatanhondurascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "05:00"
+            to: "05:00",
           },
           {
             from: "09:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -96,8 +96,8 @@ export const roatanhondurascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
       },
       {
@@ -105,14 +105,14 @@ export const roatanhondurascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "21:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4,
     phone: "+217 454-543-6153",
@@ -134,12 +134,12 @@ export const roatanhondurascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "11:00"
+            to: "11:00",
           },
           {
             from: "19:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -147,8 +147,8 @@ export const roatanhondurascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -156,14 +156,14 @@ export const roatanhondurascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "17:00"
+            to: "17:00",
           },
           {
             from: "00:00",
-            to: "04:00"
-          }
+            to: "04:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.3,
     phone: "+427 340-229-5539",
@@ -185,8 +185,8 @@ export const roatanhondurascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -194,12 +194,12 @@ export const roatanhondurascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "12:00"
+            to: "12:00",
           },
           {
             from: "20:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
       },
       {
@@ -207,8 +207,8 @@ export const roatanhondurascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -216,16 +216,20 @@ export const roatanhondurascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 5,
     phone: "+847 700-948-5744",
     email: "avery.holloway@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/47.jpg",
-    specialties: ["Luxury Car Specialist", "Security Detail", "Event Transportation"],
+    specialties: [
+      "Luxury Car Specialist",
+      "Security Detail",
+      "Event Transportation",
+    ],
     vehicleTypesCertified: ["SUV", "Sports Car"],
   },
   {
@@ -241,8 +245,8 @@ export const roatanhondurascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
       },
       {
@@ -250,12 +254,12 @@ export const roatanhondurascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "21:00"
+            to: "21:00",
           },
           {
             from: "08:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -263,8 +267,8 @@ export const roatanhondurascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "03:00"
-          }
+            to: "03:00",
+          },
         ],
       },
       {
@@ -272,10 +276,10 @@ export const roatanhondurascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4,
     phone: "+762 613-288-2192",
@@ -297,8 +301,8 @@ export const roatanhondurascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -306,12 +310,12 @@ export const roatanhondurascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "18:00"
+            to: "18:00",
           },
           {
             from: "04:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -319,8 +323,8 @@ export const roatanhondurascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -328,14 +332,14 @@ export const roatanhondurascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "15:00"
+            to: "15:00",
           },
           {
             from: "00:00",
-            to: "04:00"
-          }
+            to: "04:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.6,
     phone: "+508 106-354-2675",
@@ -357,12 +361,12 @@ export const roatanhondurascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "05:00"
+            to: "05:00",
           },
           {
             from: "10:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
       },
       {
@@ -370,12 +374,12 @@ export const roatanhondurascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "08:00"
+            to: "08:00",
           },
           {
             from: "21:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -383,12 +387,12 @@ export const roatanhondurascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "06:00"
+            to: "06:00",
           },
           {
             from: "15:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -396,16 +400,20 @@ export const roatanhondurascaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.8,
     phone: "+245 201-511-5216",
     email: "ana.murray@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/81.jpg",
-    specialties: ["Luxury Car Specialist", "VIP Transport", "Long-Distance Driving"],
+    specialties: [
+      "Luxury Car Specialist",
+      "VIP Transport",
+      "Long-Distance Driving",
+    ],
     vehicleTypesCertified: ["SUV"],
-  }
+  },
 ];

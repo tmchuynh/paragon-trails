@@ -17,7 +17,11 @@ export const galvestonunitedStatescaribbeanCrew: CrewMember[] = [
     name: "Harold Gonzalez",
     role: "Deckhand",
     experienceYears: 14,
-    certifications: ["Dive Master", "Marine Radio Operator", "Engineering License"],
+    certifications: [
+      "Dive Master",
+      "Marine Radio Operator",
+      "Engineering License",
+    ],
     languagesSpoken: ["Arabic"],
     isAvailable: true,
     contactEmail: "harold.gonzalez@paragontrails.com",
@@ -33,5 +37,5 @@ export const galvestonunitedStatescaribbeanCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "olivia.marshall@paragontrails.com",
     contactPhone: "+1-797-373-1099",
-  }
+  },
 ];

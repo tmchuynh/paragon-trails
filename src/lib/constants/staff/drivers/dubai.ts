@@ -14,8 +14,8 @@ export const dubaiunitedArabEmiratesmiddleEastDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -23,12 +23,12 @@ export const dubaiunitedArabEmiratesmiddleEastDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "05:00"
+            to: "05:00",
           },
           {
             from: "05:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -36,12 +36,12 @@ export const dubaiunitedArabEmiratesmiddleEastDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "15:00"
+            to: "15:00",
           },
           {
             from: "15:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -49,8 +49,8 @@ export const dubaiunitedArabEmiratesmiddleEastDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -58,14 +58,14 @@ export const dubaiunitedArabEmiratesmiddleEastDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "15:00"
+            to: "15:00",
           },
           {
             from: "16:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.3,
     phone: "+743 830-331-5926",
@@ -87,12 +87,12 @@ export const dubaiunitedArabEmiratesmiddleEastDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "17:00"
+            to: "17:00",
           },
           {
             from: "17:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -100,8 +100,8 @@ export const dubaiunitedArabEmiratesmiddleEastDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -109,12 +109,12 @@ export const dubaiunitedArabEmiratesmiddleEastDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "07:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -122,14 +122,14 @@ export const dubaiunitedArabEmiratesmiddleEastDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "23:00"
+            to: "23:00",
           },
           {
             from: "16:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.4,
     phone: "+324 374-851-4273",
@@ -151,8 +151,8 @@ export const dubaiunitedArabEmiratesmiddleEastDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -160,12 +160,12 @@ export const dubaiunitedArabEmiratesmiddleEastDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "18:00"
+            to: "18:00",
           },
           {
             from: "17:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -173,10 +173,10 @@ export const dubaiunitedArabEmiratesmiddleEastDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.8,
     phone: "+86 792-230-8906",
@@ -198,12 +198,12 @@ export const dubaiunitedArabEmiratesmiddleEastDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "11:00"
+            to: "11:00",
           },
           {
             from: "20:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
       },
       {
@@ -211,8 +211,8 @@ export const dubaiunitedArabEmiratesmiddleEastDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
       },
       {
@@ -220,8 +220,8 @@ export const dubaiunitedArabEmiratesmiddleEastDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
       },
       {
@@ -229,8 +229,8 @@ export const dubaiunitedArabEmiratesmiddleEastDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -238,14 +238,14 @@ export const dubaiunitedArabEmiratesmiddleEastDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "08:00"
+            to: "08:00",
           },
           {
             from: "12:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 5,
     phone: "+114 842-356-2451",
@@ -267,8 +267,8 @@ export const dubaiunitedArabEmiratesmiddleEastDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -276,8 +276,8 @@ export const dubaiunitedArabEmiratesmiddleEastDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -285,12 +285,12 @@ export const dubaiunitedArabEmiratesmiddleEastDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "13:00"
+            to: "13:00",
           },
           {
             from: "02:00",
-            to: "04:00"
-          }
+            to: "04:00",
+          },
         ],
       },
       {
@@ -298,10 +298,10 @@ export const dubaiunitedArabEmiratesmiddleEastDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.6,
     phone: "+880 713-181-5012",
@@ -323,8 +323,8 @@ export const dubaiunitedArabEmiratesmiddleEastDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
       },
       {
@@ -332,8 +332,8 @@ export const dubaiunitedArabEmiratesmiddleEastDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
       },
       {
@@ -341,8 +341,8 @@ export const dubaiunitedArabEmiratesmiddleEastDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -350,12 +350,12 @@ export const dubaiunitedArabEmiratesmiddleEastDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "08:00"
+            to: "08:00",
           },
           {
             from: "05:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
       },
       {
@@ -363,8 +363,8 @@ export const dubaiunitedArabEmiratesmiddleEastDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -372,14 +372,14 @@ export const dubaiunitedArabEmiratesmiddleEastDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "09:00"
+            to: "09:00",
           },
           {
             from: "10:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.9,
     phone: "+83 173-824-1448",
@@ -387,5 +387,5 @@ export const dubaiunitedArabEmiratesmiddleEastDrivers: Driver[] = [
     photoUrl: "https://randomuser.me/api/portraits/men/58.jpg",
     specialties: ["VIP Transport", "Security Detail", "Corporate Chauffeur"],
     vehicleTypesCertified: ["Luxury SUV"],
-  }
+  },
 ];

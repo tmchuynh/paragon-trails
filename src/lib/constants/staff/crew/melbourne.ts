@@ -28,7 +28,11 @@ export const melbourneaustraliaasiaPacificCrew: CrewMember[] = [
     name: "Donna Martin",
     role: "Steward/Stewardess",
     experienceYears: 4,
-    certifications: ["Hospitality Training", "Security Training", "Marine Radio Operator"],
+    certifications: [
+      "Hospitality Training",
+      "Security Training",
+      "Marine Radio Operator",
+    ],
     languagesSpoken: ["Thai", "Russian"],
     isAvailable: true,
     contactEmail: "donna.martin@paragontrails.com",
@@ -55,5 +59,5 @@ export const melbourneaustraliaasiaPacificCrew: CrewMember[] = [
     isAvailable: false,
     contactEmail: "noah.brooks@paragontrails.com",
     contactPhone: "+1-606-285-2021",
-  }
+  },
 ];

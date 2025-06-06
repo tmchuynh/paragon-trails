@@ -14,12 +14,12 @@ export const philipsburgsintMaartencaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "09:00"
+            to: "09:00",
           },
           {
             from: "12:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
       },
       {
@@ -27,8 +27,8 @@ export const philipsburgsintMaartencaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -36,12 +36,12 @@ export const philipsburgsintMaartencaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "14:00"
+            to: "14:00",
           },
           {
             from: "10:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
       },
       {
@@ -49,12 +49,12 @@ export const philipsburgsintMaartencaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "17:00"
+            to: "17:00",
           },
           {
             from: "16:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -62,21 +62,30 @@ export const philipsburgsintMaartencaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "19:00"
+            to: "19:00",
           },
           {
             from: "12:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.3,
     phone: "+881 537-853-3009",
     email: "miguel.hall@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/35.jpg",
-    specialties: ["Airport Transfers", "Long-Distance Driving", "Event Transportation"],
-    vehicleTypesCertified: ["Electric Vehicle", "Motorcoach", "Luxury SUV", "Sports Car"],
+    specialties: [
+      "Airport Transfers",
+      "Long-Distance Driving",
+      "Event Transportation",
+    ],
+    vehicleTypesCertified: [
+      "Electric Vehicle",
+      "Motorcoach",
+      "Luxury SUV",
+      "Sports Car",
+    ],
   },
   {
     id: "driver-philipsburg-2",
@@ -91,8 +100,8 @@ export const philipsburgsintMaartencaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -100,8 +109,8 @@ export const philipsburgsintMaartencaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
       },
       {
@@ -109,8 +118,8 @@ export const philipsburgsintMaartencaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
       },
       {
@@ -118,16 +127,20 @@ export const philipsburgsintMaartencaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.6,
     phone: "+543 992-175-3027",
     email: "paul.campbell@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/74.jpg",
-    specialties: ["Tour Guide Driver", "Long-Distance Driving", "Security Detail"],
+    specialties: [
+      "Tour Guide Driver",
+      "Long-Distance Driving",
+      "Security Detail",
+    ],
     vehicleTypesCertified: ["SUV", "Sedan"],
   },
   {
@@ -143,8 +156,8 @@ export const philipsburgsintMaartencaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -152,12 +165,12 @@ export const philipsburgsintMaartencaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "16:00"
+            to: "16:00",
           },
           {
             from: "00:00",
-            to: "02:00"
-          }
+            to: "02:00",
+          },
         ],
       },
       {
@@ -165,14 +178,14 @@ export const philipsburgsintMaartencaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "18:00"
+            to: "18:00",
           },
           {
             from: "05:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.8,
     phone: "+341 659-316-7644",
@@ -194,8 +207,8 @@ export const philipsburgsintMaartencaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
       },
       {
@@ -203,12 +216,12 @@ export const philipsburgsintMaartencaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "12:00"
+            to: "12:00",
           },
           {
             from: "05:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
       },
       {
@@ -216,10 +229,10 @@ export const philipsburgsintMaartencaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.7,
     phone: "+356 942-916-5457",
@@ -241,8 +254,8 @@ export const philipsburgsintMaartencaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -250,8 +263,8 @@ export const philipsburgsintMaartencaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -259,12 +272,12 @@ export const philipsburgsintMaartencaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "19:00"
+            to: "19:00",
           },
           {
             from: "13:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -272,14 +285,14 @@ export const philipsburgsintMaartencaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "16:00"
+            to: "16:00",
           },
           {
             from: "08:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.4,
     phone: "+546 134-691-3518",
@@ -301,12 +314,12 @@ export const philipsburgsintMaartencaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "13:00"
+            to: "13:00",
           },
           {
             from: "18:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -314,12 +327,12 @@ export const philipsburgsintMaartencaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "20:00"
+            to: "20:00",
           },
           {
             from: "02:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -327,17 +340,26 @@ export const philipsburgsintMaartencaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.7,
     phone: "+897 517-223-8983",
     email: "keith.kim@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/36.jpg",
-    specialties: ["Luxury Car Specialist", "Corporate Chauffeur", "Security Detail"],
-    vehicleTypesCertified: ["Convertible", "Electric Vehicle", "Sports Car", "Van"],
+    specialties: [
+      "Luxury Car Specialist",
+      "Corporate Chauffeur",
+      "Security Detail",
+    ],
+    vehicleTypesCertified: [
+      "Convertible",
+      "Electric Vehicle",
+      "Sports Car",
+      "Van",
+    ],
   },
   {
     id: "driver-philipsburg-7",
@@ -352,8 +374,8 @@ export const philipsburgsintMaartencaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -361,12 +383,12 @@ export const philipsburgsintMaartencaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "10:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
       },
       {
@@ -374,12 +396,12 @@ export const philipsburgsintMaartencaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "16:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -387,14 +409,14 @@ export const philipsburgsintMaartencaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "05:00"
+            to: "05:00",
           },
           {
             from: "14:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.5,
     phone: "+128 969-957-5160",
@@ -416,8 +438,8 @@ export const philipsburgsintMaartencaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -425,12 +447,12 @@ export const philipsburgsintMaartencaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "15:00"
+            to: "15:00",
           },
           {
             from: "04:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -438,8 +460,8 @@ export const philipsburgsintMaartencaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
       },
       {
@@ -447,12 +469,12 @@ export const philipsburgsintMaartencaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "12:00"
+            to: "12:00",
           },
           {
             from: "19:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
       },
       {
@@ -460,10 +482,10 @@ export const philipsburgsintMaartencaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.3,
     phone: "+803 352-352-2483",
@@ -471,5 +493,5 @@ export const philipsburgsintMaartencaribbeanDrivers: Driver[] = [
     photoUrl: "https://randomuser.me/api/portraits/women/15.jpg",
     specialties: ["VIP Transport", "Night Shift"],
     vehicleTypesCertified: ["SUV", "Convertible", "Luxury SUV", "Sedan"],
-  }
+  },
 ];

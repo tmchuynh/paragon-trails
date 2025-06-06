@@ -11,17 +11,24 @@ export const losAngelesunitedStateswestCoastUsaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Liam is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Photography Spots, Music Scene, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Africa", "Asia Pacific"],
-    tourTypes: ["Craft Workshop", "Brewery Tour", "Cooking Class", "Accessible Tour"],
+    tourTypes: [
+      "Craft Workshop",
+      "Brewery Tour",
+      "Cooking Class",
+      "Accessible Tour",
+    ],
     maxGroupSize: 7,
     licenseNumber: "LIC-8230-LOS",
     phoneNumber: "+1-461-890-9922",
     contactEmail: "liam.clark@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Liam is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Photography Spots, Music Scene, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Liam is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Photography Spots, Music Scene, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 94,
-    quote: "Every corner of Los Angeles tells a story, let me share them with you.",
+    quote:
+      "Every corner of Los Angeles tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/32.jpg",
     languages: ["Bulgarian"],
     experienceYears: 10,
@@ -46,14 +53,19 @@ export const losAngelesunitedStateswestCoastUsaGuides: TourGuide[] = [
     contactEmail: "henry.perez@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Henry is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Sustainable Tourism, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Henry is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Sustainable Tourism, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
     reviewsCount: 23,
-    quote: "My goal is to help you fall in love with Los Angeles just as I have.",
+    quote:
+      "My goal is to help you fall in love with Los Angeles just as I have.",
     profileImage: "https://randomuser.me/api/portraits/women/32.jpg",
     languages: ["Korean"],
     experienceYears: 10,
-    certifications: ["Wilderness First Responder", "Sustainable Tourism Certificate"],
+    certifications: [
+      "Wilderness First Responder",
+      "Sustainable Tourism Certificate",
+    ],
     specialties: ["Sustainable Tourism"],
     specialTraining: [],
   },
@@ -67,21 +79,32 @@ export const losAngelesunitedStateswestCoastUsaGuides: TourGuide[] = [
     isPopular: true,
     bio: "Harper is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Urban Legends, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Middle East", "Mediterranean"],
-    tourTypes: ["Underground Tour", "Shopping Tour", "Farm Visit", "Luxury Tour", "Family-Friendly Tour"],
+    tourTypes: [
+      "Underground Tour",
+      "Shopping Tour",
+      "Farm Visit",
+      "Luxury Tour",
+      "Family-Friendly Tour",
+    ],
     maxGroupSize: 8,
     licenseNumber: "LIC-2574-LOS",
     phoneNumber: "+1-681-847-9613",
     contactEmail: "harper.green@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Harper is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Urban Legends, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Harper is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Urban Legends, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 59,
     quote: "In Los Angeles, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/women/2.jpg",
     languages: ["French", "Indonesian", "Polish"],
     experienceYears: 10,
-    certifications: ["CPR & First Aid", "Cultural Heritage Specialist", "Professional Tour Guide Association"],
+    certifications: [
+      "CPR & First Aid",
+      "Cultural Heritage Specialist",
+      "Professional Tour Guide Association",
+    ],
     specialties: ["Urban Legends"],
     specialTraining: [],
   },
@@ -102,10 +125,12 @@ export const losAngelesunitedStateswestCoastUsaGuides: TourGuide[] = [
     contactEmail: "daniel.thomas@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Daniel is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Wildlife, Family Activities, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Daniel is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Wildlife, Family Activities, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 91,
-    quote: "My goal is to help you fall in love with Los Angeles just as I have.",
+    quote:
+      "My goal is to help you fall in love with Los Angeles just as I have.",
     profileImage: "https://randomuser.me/api/portraits/women/29.jpg",
     languages: ["Dutch", "English", "Tagalog"],
     experienceYears: 2,
@@ -130,14 +155,20 @@ export const losAngelesunitedStateswestCoastUsaGuides: TourGuide[] = [
     contactEmail: "jackson.hill@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Jackson is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Adventure Sports, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Jackson is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Adventure Sports, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 75,
-    quote: "The best way to discover Los Angeles is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Los Angeles is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/11.jpg",
     languages: ["Swahili", "Vietnamese", "Thai"],
     experienceYears: 2,
-    certifications: ["CPR & First Aid", "Licensed City Guide", "Eco-Tourism Guide"],
+    certifications: [
+      "CPR & First Aid",
+      "Licensed City Guide",
+      "Eco-Tourism Guide",
+    ],
     specialties: ["Adventure Sports"],
     specialTraining: ["Regional Geology", "Archaeological Conservation"],
   },
@@ -167,7 +198,7 @@ export const losAngelesunitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -180,7 +211,7 @@ export const losAngelesunitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -189,7 +220,7 @@ export const losAngelesunitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -198,15 +229,17 @@ export const losAngelesunitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Carter is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Indigenous Culture, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Carter is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Indigenous Culture, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 27,
-    quote: "My goal is to help you fall in love with Los Angeles just as I have.",
+    quote:
+      "My goal is to help you fall in love with Los Angeles just as I have.",
     profileImage: "https://randomuser.me/api/portraits/men/17.jpg",
     languages: ["Malay"],
     experienceYears: 14,
@@ -236,7 +269,7 @@ export const losAngelesunitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -249,7 +282,7 @@ export const losAngelesunitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -258,19 +291,24 @@ export const losAngelesunitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Carter is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Film Locations, Local Markets, Local Craftsmanship, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Carter is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Film Locations, Local Markets, Local Craftsmanship, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
     reviewsCount: 8,
-    quote: "Every corner of Los Angeles tells a story, let me share them with you.",
+    quote:
+      "Every corner of Los Angeles tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/49.jpg",
     languages: ["Portuguese"],
     experienceYears: 7,
-    certifications: ["Regional Tourism Ambassador", "Professional Tour Guide Association"],
+    certifications: [
+      "Regional Tourism Ambassador",
+      "Professional Tour Guide Association",
+    ],
     specialties: ["Film Locations", "Local Markets", "Local Craftsmanship"],
     specialTraining: [],
   },
@@ -300,7 +338,7 @@ export const losAngelesunitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -309,7 +347,7 @@ export const losAngelesunitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -322,7 +360,7 @@ export const losAngelesunitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -331,20 +369,31 @@ export const losAngelesunitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "13:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "David is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Historical Landmarks, Architecture, Wine Tasting, Family Activities, David provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "David is a passionate tour guide with extensive knowledge of Los Angeles and United States. Specializing in Historical Landmarks, Architecture, Wine Tasting, Family Activities, David provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
     reviewsCount: 74,
-    quote: "The best way to discover Los Angeles is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Los Angeles is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/11.jpg",
     languages: ["Croatian", "French"],
     experienceYears: 7,
-    certifications: ["Sustainable Tourism Certificate", "Licensed City Guide", "Language Proficiency Certification"],
-    specialties: ["Historical Landmarks", "Architecture", "Wine Tasting", "Family Activities"],
+    certifications: [
+      "Sustainable Tourism Certificate",
+      "Licensed City Guide",
+      "Language Proficiency Certification",
+    ],
+    specialties: [
+      "Historical Landmarks",
+      "Architecture",
+      "Wine Tasting",
+      "Family Activities",
+    ],
     specialTraining: ["Regional Cuisine", "Public Speaking"],
-  }
+  },
 ];

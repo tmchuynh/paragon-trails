@@ -14,8 +14,8 @@ export const sanFranciscounitedStateswestCoastUsaDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -23,12 +23,12 @@ export const sanFranciscounitedStateswestCoastUsaDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "06:00"
+            to: "06:00",
           },
           {
             from: "18:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -36,16 +36,20 @@ export const sanFranciscounitedStateswestCoastUsaDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.7,
     phone: "+810 349-151-8769",
     email: "christopher.lewis@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/42.jpg",
-    specialties: ["Event Transportation", "Airport Transfers", "Luxury Car Specialist"],
+    specialties: [
+      "Event Transportation",
+      "Airport Transfers",
+      "Luxury Car Specialist",
+    ],
     vehicleTypesCertified: ["Sports Car", "Motorcoach", "SUV", "Van"],
   },
   {
@@ -61,8 +65,8 @@ export const sanFranciscounitedStateswestCoastUsaDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -70,12 +74,12 @@ export const sanFranciscounitedStateswestCoastUsaDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "03:00"
+            to: "03:00",
           },
           {
             from: "02:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -83,12 +87,12 @@ export const sanFranciscounitedStateswestCoastUsaDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "15:00"
+            to: "15:00",
           },
           {
             from: "18:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -96,12 +100,12 @@ export const sanFranciscounitedStateswestCoastUsaDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "21:00"
+            to: "21:00",
           },
           {
             from: "08:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
       },
       {
@@ -109,16 +113,21 @@ export const sanFranciscounitedStateswestCoastUsaDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.5,
     phone: "+810 577-195-7040",
     email: "sarah.jackson@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/3.jpg",
-    specialties: ["Airport Transfers", "Event Transportation", "VIP Transport", "Night Shift"],
+    specialties: [
+      "Airport Transfers",
+      "Event Transportation",
+      "VIP Transport",
+      "Night Shift",
+    ],
     vehicleTypesCertified: ["Luxury SUV", "SUV", "Convertible", "Motorcoach"],
   },
   {
@@ -134,12 +143,12 @@ export const sanFranciscounitedStateswestCoastUsaDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "02:00"
+            to: "02:00",
           },
           {
             from: "04:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
       },
       {
@@ -147,8 +156,8 @@ export const sanFranciscounitedStateswestCoastUsaDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -156,8 +165,8 @@ export const sanFranciscounitedStateswestCoastUsaDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -165,12 +174,12 @@ export const sanFranciscounitedStateswestCoastUsaDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "17:00"
+            to: "17:00",
           },
           {
             from: "09:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -178,14 +187,14 @@ export const sanFranciscounitedStateswestCoastUsaDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "14:00"
+            to: "14:00",
           },
           {
             from: "10:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.6,
     phone: "+91 873-841-7717",
@@ -207,8 +216,8 @@ export const sanFranciscounitedStateswestCoastUsaDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -216,8 +225,8 @@ export const sanFranciscounitedStateswestCoastUsaDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -225,12 +234,12 @@ export const sanFranciscounitedStateswestCoastUsaDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "09:00"
+            to: "09:00",
           },
           {
             from: "16:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -238,10 +247,10 @@ export const sanFranciscounitedStateswestCoastUsaDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.4,
     phone: "+241 570-402-9345",
@@ -263,12 +272,12 @@ export const sanFranciscounitedStateswestCoastUsaDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "18:00"
+            to: "18:00",
           },
           {
             from: "10:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -276,12 +285,12 @@ export const sanFranciscounitedStateswestCoastUsaDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "03:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
       },
       {
@@ -289,10 +298,10 @@ export const sanFranciscounitedStateswestCoastUsaDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.4,
     phone: "+40 768-889-4594",
@@ -300,5 +309,5 @@ export const sanFranciscounitedStateswestCoastUsaDrivers: Driver[] = [
     photoUrl: "https://randomuser.me/api/portraits/men/69.jpg",
     specialties: ["Security Detail", "Night Shift", "Long-Distance Driving"],
     vehicleTypesCertified: ["Sports Car", "SUV", "Sedan", "Van"],
-  }
+  },
 ];

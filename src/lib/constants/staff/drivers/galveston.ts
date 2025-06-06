@@ -14,8 +14,8 @@ export const galvestonunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "04:00"
-          }
+            to: "04:00",
+          },
         ],
       },
       {
@@ -23,12 +23,12 @@ export const galvestonunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "05:00"
+            to: "05:00",
           },
           {
             from: "05:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
       },
       {
@@ -36,8 +36,8 @@ export const galvestonunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -45,12 +45,12 @@ export const galvestonunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "18:00"
+            to: "18:00",
           },
           {
             from: "01:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -58,14 +58,14 @@ export const galvestonunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "09:00"
+            to: "09:00",
           },
           {
             from: "14:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.7,
     phone: "+231 895-220-9083",
@@ -87,12 +87,12 @@ export const galvestonunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "12:00"
+            to: "12:00",
           },
           {
             from: "15:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -100,12 +100,12 @@ export const galvestonunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "13:00"
+            to: "13:00",
           },
           {
             from: "10:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -113,8 +113,8 @@ export const galvestonunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
       },
       {
@@ -122,17 +122,22 @@ export const galvestonunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.1,
     phone: "+694 503-511-7552",
     email: "betty.brown@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/20.jpg",
     specialties: ["Long-Distance Driving", "VIP Transport", "Night Shift"],
-    vehicleTypesCertified: ["Sports Car", "Sedan", "Electric Vehicle", "Motorcoach"],
+    vehicleTypesCertified: [
+      "Sports Car",
+      "Sedan",
+      "Electric Vehicle",
+      "Motorcoach",
+    ],
   },
   {
     id: "driver-galveston-3",
@@ -147,12 +152,12 @@ export const galvestonunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "08:00"
+            to: "08:00",
           },
           {
             from: "20:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
       },
       {
@@ -160,8 +165,8 @@ export const galvestonunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
       },
       {
@@ -169,14 +174,14 @@ export const galvestonunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "18:00"
+            to: "18:00",
           },
           {
             from: "17:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.5,
     phone: "+639 473-865-5906",
@@ -198,8 +203,8 @@ export const galvestonunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -207,8 +212,8 @@ export const galvestonunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -216,14 +221,14 @@ export const galvestonunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "16:00"
+            to: "16:00",
           },
           {
             from: "04:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.9,
     phone: "+686 553-850-5677",
@@ -245,8 +250,8 @@ export const galvestonunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
       },
       {
@@ -254,12 +259,12 @@ export const galvestonunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "16:00"
+            to: "16:00",
           },
           {
             from: "00:00",
-            to: "03:00"
-          }
+            to: "03:00",
+          },
         ],
       },
       {
@@ -267,8 +272,8 @@ export const galvestonunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -276,10 +281,10 @@ export const galvestonunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 5,
     phone: "+357 253-389-8337",
@@ -301,12 +306,12 @@ export const galvestonunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "03:00"
+            to: "03:00",
           },
           {
             from: "16:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -314,12 +319,12 @@ export const galvestonunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "21:00"
+            to: "21:00",
           },
           {
             from: "01:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -327,12 +332,12 @@ export const galvestonunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "14:00"
+            to: "14:00",
           },
           {
             from: "05:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -340,20 +345,24 @@ export const galvestonunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "04:00"
+            to: "04:00",
           },
           {
             from: "13:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.6,
     phone: "+241 502-638-6918",
     email: "bella.morales@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/49.jpg",
-    specialties: ["VIP Transport", "Long-Distance Driving", "Event Transportation"],
+    specialties: [
+      "VIP Transport",
+      "Long-Distance Driving",
+      "Event Transportation",
+    ],
     vehicleTypesCertified: ["Motorcoach", "Van", "Limousine", "Luxury SUV"],
   },
   {
@@ -369,12 +378,12 @@ export const galvestonunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "19:00"
+            to: "19:00",
           },
           {
             from: "05:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -382,12 +391,12 @@ export const galvestonunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "14:00"
+            to: "14:00",
           },
           {
             from: "00:00",
-            to: "03:00"
-          }
+            to: "03:00",
+          },
         ],
       },
       {
@@ -395,8 +404,8 @@ export const galvestonunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
       },
       {
@@ -404,12 +413,12 @@ export const galvestonunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "00:00",
-            to: "02:00"
-          }
+            to: "02:00",
+          },
         ],
       },
       {
@@ -417,14 +426,14 @@ export const galvestonunitedStatescaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "02:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.5,
     phone: "+594 494-246-3036",
@@ -432,5 +441,5 @@ export const galvestonunitedStatescaribbeanDrivers: Driver[] = [
     photoUrl: "https://randomuser.me/api/portraits/men/34.jpg",
     specialties: ["Corporate Chauffeur"],
     vehicleTypesCertified: ["Sedan"],
-  }
+  },
 ];

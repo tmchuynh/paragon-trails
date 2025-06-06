@@ -14,12 +14,12 @@ export const yokohamajapanasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "06:00"
+            to: "06:00",
           },
           {
             from: "03:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -27,12 +27,12 @@ export const yokohamajapanasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "10:00"
+            to: "10:00",
           },
           {
             from: "21:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -40,10 +40,10 @@ export const yokohamajapanasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.8,
     phone: "+876 524-536-9656",
@@ -65,8 +65,8 @@ export const yokohamajapanasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -74,12 +74,12 @@ export const yokohamajapanasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "19:00"
+            to: "19:00",
           },
           {
             from: "08:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -87,8 +87,8 @@ export const yokohamajapanasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
       },
       {
@@ -96,12 +96,12 @@ export const yokohamajapanasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "07:00"
+            to: "07:00",
           },
           {
             from: "18:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -109,14 +109,14 @@ export const yokohamajapanasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "19:00"
+            to: "19:00",
           },
           {
             from: "11:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.2,
     phone: "+179 374-141-3499",
@@ -138,8 +138,8 @@ export const yokohamajapanasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
       },
       {
@@ -147,12 +147,12 @@ export const yokohamajapanasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "03:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -160,21 +160,27 @@ export const yokohamajapanasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "14:00"
+            to: "14:00",
           },
           {
             from: "17:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.8,
     phone: "+868 531-910-3459",
     email: "maria.russell@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/31.jpg",
     specialties: ["Long-Distance Driving"],
-    vehicleTypesCertified: ["Sports Car", "Luxury SUV", "Electric Vehicle", "Sedan", "Convertible"],
+    vehicleTypesCertified: [
+      "Sports Car",
+      "Luxury SUV",
+      "Electric Vehicle",
+      "Sedan",
+      "Convertible",
+    ],
   },
   {
     id: "driver-yokohama-4",
@@ -189,8 +195,8 @@ export const yokohamajapanasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -198,8 +204,8 @@ export const yokohamajapanasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -207,14 +213,14 @@ export const yokohamajapanasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "17:00"
+            to: "17:00",
           },
           {
             from: "00:00",
-            to: "02:00"
-          }
+            to: "02:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.4,
     phone: "+866 340-376-3319",
@@ -236,8 +242,8 @@ export const yokohamajapanasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
       },
       {
@@ -245,8 +251,8 @@ export const yokohamajapanasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -254,8 +260,8 @@ export const yokohamajapanasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
       },
       {
@@ -263,10 +269,10 @@ export const yokohamajapanasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.2,
     phone: "+169 621-328-8178",
@@ -288,8 +294,8 @@ export const yokohamajapanasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -297,12 +303,12 @@ export const yokohamajapanasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "17:00"
+            to: "17:00",
           },
           {
             from: "10:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
       },
       {
@@ -310,8 +316,8 @@ export const yokohamajapanasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "04:00"
-          }
+            to: "04:00",
+          },
         ],
       },
       {
@@ -319,16 +325,20 @@ export const yokohamajapanasiaPacificDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.8,
     phone: "+97 314-527-8508",
     email: "wei.reed@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/19.jpg",
-    specialties: ["Security Detail", "Luxury Car Specialist", "Long-Distance Driving"],
+    specialties: [
+      "Security Detail",
+      "Luxury Car Specialist",
+      "Long-Distance Driving",
+    ],
     vehicleTypesCertified: ["Motorcoach", "Convertible"],
-  }
+  },
 ];

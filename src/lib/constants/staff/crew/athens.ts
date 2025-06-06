@@ -28,7 +28,11 @@ export const athensgreecemediterraneanCrew: CrewMember[] = [
     name: "Jacob Parker",
     role: "Deckhand",
     experienceYears: 10,
-    certifications: ["Hospitality Training", "Security Training", "Dive Master"],
+    certifications: [
+      "Hospitality Training",
+      "Security Training",
+      "Dive Master",
+    ],
     languagesSpoken: ["German"],
     isAvailable: false,
     contactEmail: "jacob.parker@paragontrails.com",
@@ -66,5 +70,5 @@ export const athensgreecemediterraneanCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "george.murray@paragontrails.com",
     contactPhone: "+1-448-112-2353",
-  }
+  },
 ];

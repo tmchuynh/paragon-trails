@@ -11,21 +11,31 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
     isPopular: false,
     bio: "Emma is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Street Food, Urban Legends, Indigenous Culture, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["South America"],
-    tourTypes: ["Shopping Tour", "Food Tour", "Bike Tour", "Family-Friendly Tour"],
+    tourTypes: [
+      "Shopping Tour",
+      "Food Tour",
+      "Bike Tour",
+      "Family-Friendly Tour",
+    ],
     maxGroupSize: 19,
     licenseNumber: "LIC-9007-YOK",
     phoneNumber: "+1-603-982-4285",
     contactEmail: "emma.johnson@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Emma is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Street Food, Urban Legends, Indigenous Culture, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Emma is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Street Food, Urban Legends, Indigenous Culture, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 96,
-    quote: "The best way to discover Yokohama is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Yokohama is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/4.jpg",
     languages: ["Italian"],
     experienceYears: 16,
-    certifications: ["Language Proficiency Certification", "Wilderness First Responder"],
+    certifications: [
+      "Language Proficiency Certification",
+      "Wilderness First Responder",
+    ],
     specialties: ["Street Food", "Urban Legends", "Indigenous Culture"],
     specialTraining: ["Local Transit Systems"],
   },
@@ -46,10 +56,12 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
     contactEmail: "grace.lopez@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Grace is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Historical Landmarks, Urban Legends, Family Activities, Grace provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Grace is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Historical Landmarks, Urban Legends, Family Activities, Grace provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 77,
-    quote: "The best way to discover Yokohama is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Yokohama is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/76.jpg",
     languages: ["Swahili"],
     experienceYears: 16,
@@ -67,14 +79,21 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
     isPopular: false,
     bio: "Michael is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Public Transportation Navigation, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Mediterranean"],
-    tourTypes: ["Farm Visit", "Walking Tour", "Cultural Tour", "Brewery Tour", "Family-Friendly Tour"],
+    tourTypes: [
+      "Farm Visit",
+      "Walking Tour",
+      "Cultural Tour",
+      "Brewery Tour",
+      "Family-Friendly Tour",
+    ],
     maxGroupSize: 8,
     licenseNumber: "LIC-1905-YOK",
     phoneNumber: "+1-638-237-2617",
     contactEmail: "michael.garcia@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Michael is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Public Transportation Navigation, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Michael is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Public Transportation Navigation, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
     reviewsCount: 72,
     quote: "My goal is to help you fall in love with Yokohama just as I have.",
@@ -95,7 +114,13 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
     isPopular: true,
     bio: "Aria is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Wine Tasting, Religious Sites, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast USA"],
-    tourTypes: ["Photography Tour", "Market Tour", "Religious Tour", "Group Tour", "Boat Tour"],
+    tourTypes: [
+      "Photography Tour",
+      "Market Tour",
+      "Religious Tour",
+      "Group Tour",
+      "Boat Tour",
+    ],
     maxGroupSize: 14,
     licenseNumber: "LIC-9631-YOK",
     phoneNumber: "+1-410-796-2897",
@@ -111,7 +136,7 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -124,7 +149,7 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -133,19 +158,24 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "18:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Aria is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Wine Tasting, Religious Sites, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Aria is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Wine Tasting, Religious Sites, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 43,
     quote: "In Yokohama, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/men/33.jpg",
     languages: ["Cantonese", "Norwegian"],
     experienceYears: 14,
-    certifications: ["Local History Certification", "Professional Tour Guide Association", "Cultural Heritage Specialist"],
+    certifications: [
+      "Local History Certification",
+      "Professional Tour Guide Association",
+      "Cultural Heritage Specialist",
+    ],
     specialties: ["Wine Tasting", "Religious Sites"],
     specialTraining: ["Public Speaking", "Conflict Resolution"],
   },
@@ -159,7 +189,13 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
     isPopular: false,
     bio: "Chloe is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Nightlife, Local Cuisine, Family Activities, Hidden Gems, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Africa", "Alaska"],
-    tourTypes: ["Bike Tour", "Festival Tour", "Cultural Tour", "Nature Tour", "Accessible Tour"],
+    tourTypes: [
+      "Bike Tour",
+      "Festival Tour",
+      "Cultural Tour",
+      "Nature Tour",
+      "Accessible Tour",
+    ],
     maxGroupSize: 19,
     licenseNumber: "LIC-5721-YOK",
     phoneNumber: "+1-198-209-2466",
@@ -175,7 +211,7 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -188,7 +224,7 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -197,20 +233,30 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Chloe is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Nightlife, Local Cuisine, Family Activities, Hidden Gems, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Chloe is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Nightlife, Local Cuisine, Family Activities, Hidden Gems, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 100,
-    quote: "Every corner of Yokohama tells a story, let me share them with you.",
+    quote:
+      "Every corner of Yokohama tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/11.jpg",
     languages: ["Russian", "Hebrew", "Hindi"],
     experienceYears: 8,
-    certifications: ["Regional Tourism Ambassador", "Heritage Interpretation Certificate"],
-    specialties: ["Nightlife", "Local Cuisine", "Family Activities", "Hidden Gems"],
+    certifications: [
+      "Regional Tourism Ambassador",
+      "Heritage Interpretation Certificate",
+    ],
+    specialties: [
+      "Nightlife",
+      "Local Cuisine",
+      "Family Activities",
+      "Hidden Gems",
+    ],
     specialTraining: ["Wine Education"],
   },
   {
@@ -239,7 +285,7 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -248,7 +294,7 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -257,7 +303,7 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -266,7 +312,7 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -279,12 +325,13 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Isabella is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Cultural Etiquette, Photography Spots, Hidden Gems, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Isabella is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Cultural Etiquette, Photography Spots, Hidden Gems, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 42,
     quote: "My goal is to help you fall in love with Yokohama just as I have.",
@@ -294,5 +341,5 @@ export const yokohamajapanasiaPacificGuides: TourGuide[] = [
     certifications: ["Sustainable Tourism Certificate"],
     specialties: ["Cultural Etiquette", "Photography Spots", "Hidden Gems"],
     specialTraining: ["Wine Education"],
-  }
+  },
 ];

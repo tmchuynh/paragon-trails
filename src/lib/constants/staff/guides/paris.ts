@@ -18,14 +18,20 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
     contactEmail: "madison.anderson@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Madison is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Photography Spots, Local Cuisine, Wildlife, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Madison is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Photography Spots, Local Cuisine, Wildlife, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 44,
-    quote: "The best way to discover Paris is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Paris is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/3.jpg",
     languages: ["Malay", "Bulgarian"],
     experienceYears: 9,
-    certifications: ["Urban Navigation Specialist", "Food Safety Certification", "Professional Tour Guide Association"],
+    certifications: [
+      "Urban Navigation Specialist",
+      "Food Safety Certification",
+      "Professional Tour Guide Association",
+    ],
     specialties: ["Photography Spots", "Local Cuisine", "Wildlife"],
     specialTraining: ["Local Transit Systems"],
   },
@@ -46,10 +52,12 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
     contactEmail: "alexander.jones@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Alexander is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Architecture, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Alexander is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Architecture, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 57,
-    quote: "The best way to discover Paris is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Paris is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/28.jpg",
     languages: ["Hebrew", "French"],
     experienceYears: 8,
@@ -74,14 +82,18 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
     contactEmail: "sebastian.perez@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Sebastian is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Public Transportation Navigation, Wine Tasting, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sebastian is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Public Transportation Navigation, Wine Tasting, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 13,
     quote: "My goal is to help you fall in love with Paris just as I have.",
     profileImage: "https://randomuser.me/api/portraits/women/67.jpg",
     languages: ["Japanese", "Czech"],
     experienceYears: 14,
-    certifications: ["Certified International Tour Manager", "Urban Navigation Specialist"],
+    certifications: [
+      "Certified International Tour Manager",
+      "Urban Navigation Specialist",
+    ],
     specialties: ["Public Transportation Navigation", "Wine Tasting"],
     specialTraining: ["Historical Research Methods"],
   },
@@ -95,21 +107,30 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
     isPopular: true,
     bio: "Charlotte is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Cultural Etiquette, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Northern Europe"],
-    tourTypes: ["Architecture Tour", "LGBTQ+ Friendly Tour", "Street Art Tour", "Relocation Tour"],
+    tourTypes: [
+      "Architecture Tour",
+      "LGBTQ+ Friendly Tour",
+      "Street Art Tour",
+      "Relocation Tour",
+    ],
     maxGroupSize: 12,
     licenseNumber: "LIC-3568-PAR",
     phoneNumber: "+1-104-469-4462",
     contactEmail: "charlotte.baker@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Charlotte is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Cultural Etiquette, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Charlotte is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Cultural Etiquette, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 25,
     quote: "In Paris, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/men/0.jpg",
     languages: ["Turkish", "Vietnamese", "Tagalog"],
     experienceYears: 2,
-    certifications: ["Food Safety Certification", "Language Proficiency Certification"],
+    certifications: [
+      "Food Safety Certification",
+      "Language Proficiency Certification",
+    ],
     specialties: ["Cultural Etiquette"],
     specialTraining: ["Wine Education"],
   },
@@ -130,7 +151,8 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
     contactEmail: "amelia.miller@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Amelia is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Museums, Sustainable Tourism, Street Food, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Amelia is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Museums, Sustainable Tourism, Street Food, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 62,
     quote: "My goal is to help you fall in love with Paris just as I have.",
@@ -167,7 +189,7 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -176,7 +198,7 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -185,7 +207,7 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -198,19 +220,24 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "12:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Scarlett is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Local Markets, Adventure Sports, Music Scene, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Scarlett is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Local Markets, Adventure Sports, Music Scene, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 63,
-    quote: "The best way to discover Paris is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Paris is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/55.jpg",
     languages: ["Swedish"],
     experienceYears: 4,
-    certifications: ["Certified International Tour Manager", "Cultural Heritage Specialist"],
+    certifications: [
+      "Certified International Tour Manager",
+      "Cultural Heritage Specialist",
+    ],
     specialties: ["Local Markets", "Adventure Sports", "Music Scene"],
     specialTraining: ["Wine Education", "Accessibility Services"],
   },
@@ -224,7 +251,12 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
     isPopular: true,
     bio: "William is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Cultural Etiquette, Adventure Sports, William provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Northern Europe", "Mediterranean"],
-    tourTypes: ["Accessible Tour", "LGBTQ+ Friendly Tour", "Bike Tour", "Festival Tour"],
+    tourTypes: [
+      "Accessible Tour",
+      "LGBTQ+ Friendly Tour",
+      "Bike Tour",
+      "Festival Tour",
+    ],
     maxGroupSize: 15,
     licenseNumber: "LIC-9771-PAR",
     phoneNumber: "+1-165-802-5850",
@@ -240,7 +272,7 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -249,7 +281,7 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -262,7 +294,7 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -271,7 +303,7 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -284,12 +316,13 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "12:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "William is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Cultural Etiquette, Adventure Sports, William provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "William is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Cultural Etiquette, Adventure Sports, William provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 38,
     quote: "Every corner of Paris tells a story, let me share them with you.",
@@ -326,7 +359,7 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -339,7 +372,7 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -352,20 +385,26 @@ export const parisfrancenorthernEuropeGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Evelyn is a passionate tour guide with extensive knowledge of Paris and France. Specializing in LGBTQ+ History, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Evelyn is a passionate tour guide with extensive knowledge of Paris and France. Specializing in LGBTQ+ History, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
     reviewsCount: 97,
-    quote: "Paris isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Paris isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/29.jpg",
     languages: ["German"],
     experienceYears: 11,
-    certifications: ["Licensed City Guide", "Cultural Heritage Specialist", "Wilderness First Responder"],
+    certifications: [
+      "Licensed City Guide",
+      "Cultural Heritage Specialist",
+      "Wilderness First Responder",
+    ],
     specialties: ["LGBTQ+ History"],
     specialTraining: ["Regional Geology"],
-  }
+  },
 ];

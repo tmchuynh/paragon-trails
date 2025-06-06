@@ -6,7 +6,11 @@ export const londonunitedKingdomnorthernEuropeCrew: CrewMember[] = [
     name: "Lawrence Hernandez",
     role: "Chef",
     experienceYears: 10,
-    certifications: ["Marine Radio Operator", "Security Training", "Hospitality Training"],
+    certifications: [
+      "Marine Radio Operator",
+      "Security Training",
+      "Hospitality Training",
+    ],
     languagesSpoken: ["Hungarian", "Thai"],
     isAvailable: true,
     contactEmail: "lawrence.hernandez@paragontrails.com",
@@ -33,5 +37,5 @@ export const londonunitedKingdomnorthernEuropeCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "mia.wright@paragontrails.com",
     contactPhone: "+1-802-861-7451",
-  }
+  },
 ];

@@ -17,7 +17,11 @@ export const georgeTowncaymanIslandscaribbeanCrew: CrewMember[] = [
     name: "Benjamin Gibson",
     role: "Engineer",
     experienceYears: 13,
-    certifications: ["Marine Radio Operator", "Dive Master", "Environmental Awareness"],
+    certifications: [
+      "Marine Radio Operator",
+      "Dive Master",
+      "Environmental Awareness",
+    ],
     languagesSpoken: ["Arabic"],
     isAvailable: true,
     contactEmail: "benjamin.gibson@paragontrails.com",
@@ -77,5 +81,5 @@ export const georgeTowncaymanIslandscaribbeanCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "valentina.clark@paragontrails.com",
     contactPhone: "+1-381-911-9080",
-  }
+  },
 ];

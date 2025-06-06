@@ -14,12 +14,12 @@ export const dubrovnikcroatiamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "10:00"
+            to: "10:00",
           },
           {
             from: "13:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -27,12 +27,12 @@ export const dubrovnikcroatiamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "02:00"
+            to: "02:00",
           },
           {
             from: "15:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -40,8 +40,8 @@ export const dubrovnikcroatiamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -49,8 +49,8 @@ export const dubrovnikcroatiamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
       },
       {
@@ -58,14 +58,14 @@ export const dubrovnikcroatiamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "11:00"
+            to: "11:00",
           },
           {
             from: "03:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4,
     phone: "+758 380-431-8685",
@@ -87,8 +87,8 @@ export const dubrovnikcroatiamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -96,8 +96,8 @@ export const dubrovnikcroatiamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -105,8 +105,8 @@ export const dubrovnikcroatiamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -114,10 +114,10 @@ export const dubrovnikcroatiamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.7,
     phone: "+96 302-117-5470",
@@ -139,8 +139,8 @@ export const dubrovnikcroatiamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "03:00"
-          }
+            to: "03:00",
+          },
         ],
       },
       {
@@ -148,8 +148,8 @@ export const dubrovnikcroatiamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -157,8 +157,8 @@ export const dubrovnikcroatiamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -166,10 +166,10 @@ export const dubrovnikcroatiamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.6,
     phone: "+332 238-999-6496",
@@ -191,8 +191,8 @@ export const dubrovnikcroatiamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -200,12 +200,12 @@ export const dubrovnikcroatiamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "21:00"
+            to: "21:00",
           },
           {
             from: "17:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -213,14 +213,14 @@ export const dubrovnikcroatiamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "20:00"
+            to: "20:00",
           },
           {
             from: "21:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.2,
     phone: "+597 639-989-6850",
@@ -242,12 +242,12 @@ export const dubrovnikcroatiamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "02:00"
+            to: "02:00",
           },
           {
             from: "14:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -255,8 +255,8 @@ export const dubrovnikcroatiamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -264,12 +264,12 @@ export const dubrovnikcroatiamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "16:00"
+            to: "16:00",
           },
           {
             from: "10:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
       },
       {
@@ -277,14 +277,14 @@ export const dubrovnikcroatiamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "21:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4,
     phone: "+574 451-910-1294",
@@ -306,8 +306,8 @@ export const dubrovnikcroatiamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "02:00"
-          }
+            to: "02:00",
+          },
         ],
       },
       {
@@ -315,12 +315,12 @@ export const dubrovnikcroatiamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "09:00"
+            to: "09:00",
           },
           {
             from: "13:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -328,12 +328,12 @@ export const dubrovnikcroatiamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "17:00"
+            to: "17:00",
           },
           {
             from: "18:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -341,17 +341,23 @@ export const dubrovnikcroatiamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.8,
     phone: "+733 874-747-5713",
     email: "isabella.moore@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/9.jpg",
     specialties: ["Airport Transfers"],
-    vehicleTypesCertified: ["Sedan", "Motorcoach", "Convertible", "Electric Vehicle", "Limousine"],
+    vehicleTypesCertified: [
+      "Sedan",
+      "Motorcoach",
+      "Convertible",
+      "Electric Vehicle",
+      "Limousine",
+    ],
   },
   {
     id: "driver-dubrovnik-7",
@@ -366,8 +372,8 @@ export const dubrovnikcroatiamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
       },
       {
@@ -375,12 +381,12 @@ export const dubrovnikcroatiamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "12:00"
+            to: "12:00",
           },
           {
             from: "17:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -388,8 +394,8 @@ export const dubrovnikcroatiamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "03:00"
-          }
+            to: "03:00",
+          },
         ],
       },
       {
@@ -397,10 +403,10 @@ export const dubrovnikcroatiamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.6,
     phone: "+662 361-815-5911",
@@ -408,5 +414,5 @@ export const dubrovnikcroatiamediterraneanDrivers: Driver[] = [
     photoUrl: "https://randomuser.me/api/portraits/men/16.jpg",
     specialties: ["Night Shift"],
     vehicleTypesCertified: ["SUV", "Luxury SUV", "Limousine", "Sedan"],
-  }
+  },
 ];

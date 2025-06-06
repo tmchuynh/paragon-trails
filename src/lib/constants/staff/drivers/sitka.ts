@@ -14,8 +14,8 @@ export const sitkaunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "04:00"
-          }
+            to: "04:00",
+          },
         ],
       },
       {
@@ -23,8 +23,8 @@ export const sitkaunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
       },
       {
@@ -32,10 +32,10 @@ export const sitkaunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.7,
     phone: "+19 721-701-3509",
@@ -57,12 +57,12 @@ export const sitkaunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "18:00"
+            to: "18:00",
           },
           {
             from: "19:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -70,8 +70,8 @@ export const sitkaunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -79,10 +79,10 @@ export const sitkaunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.7,
     phone: "+384 627-161-9489",
@@ -104,8 +104,8 @@ export const sitkaunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "04:00"
-          }
+            to: "04:00",
+          },
         ],
       },
       {
@@ -113,12 +113,12 @@ export const sitkaunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "19:00"
+            to: "19:00",
           },
           {
             from: "04:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -126,12 +126,12 @@ export const sitkaunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "10:00"
+            to: "10:00",
           },
           {
             from: "18:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -139,10 +139,10 @@ export const sitkaunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.8,
     phone: "+806 698-379-8290",
@@ -164,8 +164,8 @@ export const sitkaunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
       },
       {
@@ -173,8 +173,8 @@ export const sitkaunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -182,12 +182,12 @@ export const sitkaunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "14:00"
+            to: "14:00",
           },
           {
             from: "07:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -195,12 +195,12 @@ export const sitkaunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "17:00"
+            to: "17:00",
           },
           {
             from: "18:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -208,14 +208,14 @@ export const sitkaunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "06:00"
+            to: "06:00",
           },
           {
             from: "08:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.4,
     phone: "+663 664-189-5664",
@@ -237,12 +237,12 @@ export const sitkaunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "02:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -250,12 +250,12 @@ export const sitkaunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "16:00"
+            to: "16:00",
           },
           {
             from: "09:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
       },
       {
@@ -263,8 +263,8 @@ export const sitkaunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
       },
       {
@@ -272,14 +272,14 @@ export const sitkaunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "05:00"
+            to: "05:00",
           },
           {
             from: "13:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.7,
     phone: "+115 662-985-9629",
@@ -287,5 +287,5 @@ export const sitkaunitedStatesalaskaDrivers: Driver[] = [
     photoUrl: "https://randomuser.me/api/portraits/women/73.jpg",
     specialties: ["VIP Transport"],
     vehicleTypesCertified: ["Convertible", "SUV"],
-  }
+  },
 ];

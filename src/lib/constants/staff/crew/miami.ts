@@ -17,7 +17,11 @@ export const miamiunitedStatescaribbeanCrew: CrewMember[] = [
     name: "Christopher Campbell",
     role: "Engineer",
     experienceYears: 2,
-    certifications: ["Engineering License", "Security Training", "Hospitality Training"],
+    certifications: [
+      "Engineering License",
+      "Security Training",
+      "Hospitality Training",
+    ],
     languagesSpoken: ["Romanian"],
     isAvailable: true,
     contactEmail: "christopher.campbell@paragontrails.com",
@@ -66,5 +70,5 @@ export const miamiunitedStatescaribbeanCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "madelyn.hernandez@paragontrails.com",
     contactPhone: "+1-312-466-4769",
-  }
+  },
 ];

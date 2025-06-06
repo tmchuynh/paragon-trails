@@ -14,12 +14,12 @@ export const kielgermanynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "00:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -27,8 +27,8 @@ export const kielgermanynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -36,12 +36,12 @@ export const kielgermanynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "14:00"
+            to: "14:00",
           },
           {
             from: "03:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -49,8 +49,8 @@ export const kielgermanynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
       },
       {
@@ -58,14 +58,14 @@ export const kielgermanynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "18:00"
+            to: "18:00",
           },
           {
             from: "15:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.1,
     phone: "+734 981-652-8797",
@@ -87,12 +87,12 @@ export const kielgermanynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "13:00"
+            to: "13:00",
           },
           {
             from: "06:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
       },
       {
@@ -100,12 +100,12 @@ export const kielgermanynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "04:00"
+            to: "04:00",
           },
           {
             from: "06:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -113,14 +113,14 @@ export const kielgermanynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "17:00"
+            to: "17:00",
           },
           {
             from: "03:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4,
     phone: "+328 477-292-9734",
@@ -142,12 +142,12 @@ export const kielgermanynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "21:00"
+            to: "21:00",
           },
           {
             from: "21:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
       },
       {
@@ -155,8 +155,8 @@ export const kielgermanynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -164,12 +164,12 @@ export const kielgermanynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "06:00"
+            to: "06:00",
           },
           {
             from: "03:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -177,12 +177,12 @@ export const kielgermanynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "03:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
       },
       {
@@ -190,21 +190,26 @@ export const kielgermanynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "17:00"
+            to: "17:00",
           },
           {
             from: "07:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.6,
     phone: "+264 831-493-2938",
     email: "angela.spencer@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/13.jpg",
     specialties: ["Security Detail"],
-    vehicleTypesCertified: ["Electric Vehicle", "Sports Car", "Van", "Limousine"],
+    vehicleTypesCertified: [
+      "Electric Vehicle",
+      "Sports Car",
+      "Van",
+      "Limousine",
+    ],
   },
   {
     id: "driver-kiel-4",
@@ -219,8 +224,8 @@ export const kielgermanynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -228,8 +233,8 @@ export const kielgermanynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
       },
       {
@@ -237,12 +242,12 @@ export const kielgermanynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "10:00"
+            to: "10:00",
           },
           {
             from: "07:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -250,10 +255,10 @@ export const kielgermanynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.5,
     phone: "+877 395-400-2514",
@@ -275,8 +280,8 @@ export const kielgermanynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -284,12 +289,12 @@ export const kielgermanynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "04:00"
+            to: "04:00",
           },
           {
             from: "17:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -297,10 +302,10 @@ export const kielgermanynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.6,
     phone: "+245 410-496-9328",
@@ -322,8 +327,8 @@ export const kielgermanynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
       },
       {
@@ -331,12 +336,12 @@ export const kielgermanynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "20:00"
+            to: "20:00",
           },
           {
             from: "04:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -344,12 +349,12 @@ export const kielgermanynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "09:00"
+            to: "09:00",
           },
           {
             from: "20:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -357,16 +362,20 @@ export const kielgermanynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.9,
     phone: "+798 337-544-7073",
     email: "ali.morgan@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/82.jpg",
-    specialties: ["Long-Distance Driving", "Airport Transfers", "VIP Transport"],
+    specialties: [
+      "Long-Distance Driving",
+      "Airport Transfers",
+      "VIP Transport",
+    ],
     vehicleTypesCertified: ["Limousine"],
   },
   {
@@ -382,12 +391,12 @@ export const kielgermanynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "12:00"
+            to: "12:00",
           },
           {
             from: "20:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
       },
       {
@@ -395,12 +404,12 @@ export const kielgermanynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "20:00"
+            to: "20:00",
           },
           {
             from: "20:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
       },
       {
@@ -408,20 +417,25 @@ export const kielgermanynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "14:00"
+            to: "14:00",
           },
           {
             from: "12:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.4,
     phone: "+866 969-892-6964",
     email: "ibrahim.nakamura@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/27.jpg",
-    specialties: ["Long-Distance Driving", "Airport Transfers", "Luxury Car Specialist", "VIP Transport"],
+    specialties: [
+      "Long-Distance Driving",
+      "Airport Transfers",
+      "Luxury Car Specialist",
+      "VIP Transport",
+    ],
     vehicleTypesCertified: ["Sports Car"],
   },
   {
@@ -437,8 +451,8 @@ export const kielgermanynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
       },
       {
@@ -446,8 +460,8 @@ export const kielgermanynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -455,8 +469,8 @@ export const kielgermanynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -464,10 +478,10 @@ export const kielgermanynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4,
     phone: "+737 408-360-3696",
@@ -489,12 +503,12 @@ export const kielgermanynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "17:00"
+            to: "17:00",
           },
           {
             from: "02:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -502,12 +516,12 @@ export const kielgermanynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "05:00"
+            to: "05:00",
           },
           {
             from: "20:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
       },
       {
@@ -515,16 +529,20 @@ export const kielgermanynorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.4,
     phone: "+411 773-234-7156",
     email: "douglas.parker@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/86.jpg",
-    specialties: ["Airport Transfers", "Corporate Chauffeur", "Luxury Car Specialist"],
+    specialties: [
+      "Airport Transfers",
+      "Corporate Chauffeur",
+      "Luxury Car Specialist",
+    ],
     vehicleTypesCertified: ["Sports Car", "Van", "Limousine"],
-  }
+  },
 ];

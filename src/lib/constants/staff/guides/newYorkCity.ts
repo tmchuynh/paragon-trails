@@ -11,14 +11,20 @@ export const newYorkCityunitedStateseastCoastUsaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Emma is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Nightlife, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast Canada"],
-    tourTypes: ["Cooking Class", "Brewery Tour", "Luxury Tour", "Historical Tour"],
+    tourTypes: [
+      "Cooking Class",
+      "Brewery Tour",
+      "Luxury Tour",
+      "Historical Tour",
+    ],
     maxGroupSize: 7,
     licenseNumber: "LIC-9850-NEW",
     phoneNumber: "+1-247-459-5876",
     contactEmail: "emma.young@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Emma is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Nightlife, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Emma is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Nightlife, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 69,
     quote: "In New York City, we don't just see the sights - we make memories.",
@@ -46,14 +52,19 @@ export const newYorkCityunitedStateseastCoastUsaGuides: TourGuide[] = [
     contactEmail: "samuel.flores@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Samuel is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Wildlife, Family Activities, Samuel provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Samuel is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Wildlife, Family Activities, Samuel provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 71,
-    quote: "My goal is to help you fall in love with New York City just as I have.",
+    quote:
+      "My goal is to help you fall in love with New York City just as I have.",
     profileImage: "https://randomuser.me/api/portraits/men/22.jpg",
     languages: ["Swahili"],
     experienceYears: 15,
-    certifications: ["Certified International Tour Manager", "Cultural Heritage Specialist"],
+    certifications: [
+      "Certified International Tour Manager",
+      "Cultural Heritage Specialist",
+    ],
     specialties: ["Wildlife", "Family Activities"],
     specialTraining: ["Group Management"],
   },
@@ -74,7 +85,8 @@ export const newYorkCityunitedStateseastCoastUsaGuides: TourGuide[] = [
     contactEmail: "ava.green@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Ava is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Nightlife, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Ava is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Nightlife, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 62,
     quote: "In New York City, we don't just see the sights - we make memories.",
@@ -102,10 +114,12 @@ export const newYorkCityunitedStateseastCoastUsaGuides: TourGuide[] = [
     contactEmail: "jacob.sanchez@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Jacob is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Cultural Etiquette, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Jacob is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Cultural Etiquette, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 73,
-    quote: "New York City isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "New York City isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/20.jpg",
     languages: ["Italian"],
     experienceYears: 12,
@@ -135,7 +149,7 @@ export const newYorkCityunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -148,7 +162,7 @@ export const newYorkCityunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -161,15 +175,17 @@ export const newYorkCityunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Jacob is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Local Cuisine, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Jacob is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Local Cuisine, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 61,
-    quote: "The best way to discover New York City is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover New York City is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/25.jpg",
     languages: ["Portuguese", "Hindi"],
     experienceYears: 10,
@@ -199,7 +215,7 @@ export const newYorkCityunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -212,19 +228,24 @@ export const newYorkCityunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Michael is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Local Cuisine, LGBTQ+ History, Historical Landmarks, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Michael is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Local Cuisine, LGBTQ+ History, Historical Landmarks, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 20,
-    quote: "New York City isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "New York City isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/36.jpg",
     languages: ["Tagalog", "Russian"],
     experienceYears: 5,
-    certifications: ["Heritage Interpretation Certificate", "Language Proficiency Certification"],
+    certifications: [
+      "Heritage Interpretation Certificate",
+      "Language Proficiency Certification",
+    ],
     specialties: ["Local Cuisine", "LGBTQ+ History", "Historical Landmarks"],
     specialTraining: ["Historical Research Methods"],
   },
@@ -250,7 +271,7 @@ export const newYorkCityunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -259,7 +280,7 @@ export const newYorkCityunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -272,7 +293,7 @@ export const newYorkCityunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -281,20 +302,22 @@ export const newYorkCityunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Aria is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Religious Sites, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Aria is a passionate tour guide with extensive knowledge of New York City and United States. Specializing in Religious Sites, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
     reviewsCount: 33,
-    quote: "New York City isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "New York City isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/2.jpg",
     languages: ["Czech"],
     experienceYears: 5,
     certifications: ["Local History Certification"],
     specialties: ["Religious Sites"],
     specialTraining: ["Local Transit Systems"],
-  }
+  },
 ];

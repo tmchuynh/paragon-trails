@@ -11,17 +11,24 @@ export const rioDeJaneirobrazilsouthAmericaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Joseph is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Nightlife, Art Galleries, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Middle East"],
-    tourTypes: ["Underground Tour", "Historical Tour", "Romantic Tour", "Boat Tour"],
+    tourTypes: [
+      "Underground Tour",
+      "Historical Tour",
+      "Romantic Tour",
+      "Boat Tour",
+    ],
     maxGroupSize: 14,
     licenseNumber: "LIC-1105-RIO",
     phoneNumber: "+1-196-114-5747",
     contactEmail: "joseph.white@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Joseph is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Nightlife, Art Galleries, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Joseph is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Nightlife, Art Galleries, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 85,
-    quote: "My goal is to help you fall in love with Rio De Janeiro just as I have.",
+    quote:
+      "My goal is to help you fall in love with Rio De Janeiro just as I have.",
     profileImage: "https://randomuser.me/api/portraits/women/50.jpg",
     languages: ["Tagalog", "Hebrew", "Italian"],
     experienceYears: 8,
@@ -46,14 +53,20 @@ export const rioDeJaneirobrazilsouthAmericaGuides: TourGuide[] = [
     contactEmail: "owen.perez@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Owen is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Local Markets, Owen provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Owen is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Local Markets, Owen provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 92,
-    quote: "My goal is to help you fall in love with Rio De Janeiro just as I have.",
+    quote:
+      "My goal is to help you fall in love with Rio De Janeiro just as I have.",
     profileImage: "https://randomuser.me/api/portraits/women/25.jpg",
     languages: ["Czech"],
     experienceYears: 11,
-    certifications: ["Heritage Interpretation Certificate", "Cultural Heritage Specialist", "Wilderness First Responder"],
+    certifications: [
+      "Heritage Interpretation Certificate",
+      "Cultural Heritage Specialist",
+      "Wilderness First Responder",
+    ],
     specialties: ["Local Markets"],
     specialTraining: ["Regional Geology"],
   },
@@ -67,21 +80,32 @@ export const rioDeJaneirobrazilsouthAmericaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Layla is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Art Galleries, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Middle East"],
-    tourTypes: ["Craft Workshop", "Farm Visit", "Underground Tour", "Photography Tour"],
+    tourTypes: [
+      "Craft Workshop",
+      "Farm Visit",
+      "Underground Tour",
+      "Photography Tour",
+    ],
     maxGroupSize: 9,
     licenseNumber: "LIC-2410-RIO",
     phoneNumber: "+1-701-430-8540",
     contactEmail: "layla.martin@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Layla is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Art Galleries, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Layla is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Art Galleries, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 83,
-    quote: "Every corner of Rio De Janeiro tells a story, let me share them with you.",
+    quote:
+      "Every corner of Rio De Janeiro tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/44.jpg",
     languages: ["Italian"],
     experienceYears: 2,
-    certifications: ["CPR & First Aid", "Certified International Tour Manager", "Adventure Tourism Safety Certificate"],
+    certifications: [
+      "CPR & First Aid",
+      "Certified International Tour Manager",
+      "Adventure Tourism Safety Certificate",
+    ],
     specialties: ["Art Galleries"],
     specialTraining: ["Conflict Resolution", "Urban Planning"],
   },
@@ -95,17 +119,25 @@ export const rioDeJaneirobrazilsouthAmericaGuides: TourGuide[] = [
     isPopular: true,
     bio: "Emma is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in LGBTQ+ History, Architecture, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Northern Europe"],
-    tourTypes: ["Cultural Tour", "Shopping Tour", "Farm Visit", "Cooking Class", "Craft Workshop"],
+    tourTypes: [
+      "Cultural Tour",
+      "Shopping Tour",
+      "Farm Visit",
+      "Cooking Class",
+      "Craft Workshop",
+    ],
     maxGroupSize: 18,
     licenseNumber: "LIC-1736-RIO",
     phoneNumber: "+1-372-893-8738",
     contactEmail: "emma.hill@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Emma is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in LGBTQ+ History, Architecture, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Emma is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in LGBTQ+ History, Architecture, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 84,
-    quote: "Every corner of Rio De Janeiro tells a story, let me share them with you.",
+    quote:
+      "Every corner of Rio De Janeiro tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/60.jpg",
     languages: ["Czech", "Spanish"],
     experienceYears: 4,
@@ -130,14 +162,20 @@ export const rioDeJaneirobrazilsouthAmericaGuides: TourGuide[] = [
     contactEmail: "harper.flores@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Harper is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Adventure Sports, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Harper is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Adventure Sports, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 102,
-    quote: "Rio De Janeiro isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Rio De Janeiro isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/54.jpg",
     languages: ["Portuguese", "Turkish", "Indonesian"],
     experienceYears: 3,
-    certifications: ["Eco-Tourism Guide", "Heritage Interpretation Certificate", "Certified International Tour Manager"],
+    certifications: [
+      "Eco-Tourism Guide",
+      "Heritage Interpretation Certificate",
+      "Certified International Tour Manager",
+    ],
     specialties: ["Adventure Sports"],
     specialTraining: [],
   },
@@ -151,22 +189,37 @@ export const rioDeJaneirobrazilsouthAmericaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Emma is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Local Craftsmanship, LGBTQ+ History, Historical Landmarks, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Asia Pacific", "East Coast Canada"],
-    tourTypes: ["Museum Tour", "Cooking Class", "Luxury Tour", "Adventure Tour", "Photography Tour"],
+    tourTypes: [
+      "Museum Tour",
+      "Cooking Class",
+      "Luxury Tour",
+      "Adventure Tour",
+      "Photography Tour",
+    ],
     maxGroupSize: 18,
     licenseNumber: "LIC-4951-RIO",
     phoneNumber: "+1-480-227-4252",
     contactEmail: "emma.nelson@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Emma is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Local Craftsmanship, LGBTQ+ History, Historical Landmarks, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Emma is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Local Craftsmanship, LGBTQ+ History, Historical Landmarks, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
     reviewsCount: 44,
-    quote: "Rio De Janeiro isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Rio De Janeiro isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/15.jpg",
     languages: ["Dutch", "Vietnamese", "French"],
     experienceYears: 5,
-    certifications: ["Local History Certification", "Language Proficiency Certification"],
-    specialties: ["Local Craftsmanship", "LGBTQ+ History", "Historical Landmarks"],
+    certifications: [
+      "Local History Certification",
+      "Language Proficiency Certification",
+    ],
+    specialties: [
+      "Local Craftsmanship",
+      "LGBTQ+ History",
+      "Historical Landmarks",
+    ],
     specialTraining: ["Archaeological Conservation", "Desert Navigation"],
   },
   {
@@ -179,7 +232,12 @@ export const rioDeJaneirobrazilsouthAmericaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Sofia is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Cultural Etiquette, Family Activities, Wine Tasting, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Caribbean"],
-    tourTypes: ["Off-Road Tour", "Adventure Tour", "Wine Tour", "Shopping Tour"],
+    tourTypes: [
+      "Off-Road Tour",
+      "Adventure Tour",
+      "Wine Tour",
+      "Shopping Tour",
+    ],
     maxGroupSize: 17,
     licenseNumber: "LIC-9071-RIO",
     phoneNumber: "+1-406-656-4811",
@@ -191,7 +249,7 @@ export const rioDeJaneirobrazilsouthAmericaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -204,7 +262,7 @@ export const rioDeJaneirobrazilsouthAmericaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -213,19 +271,24 @@ export const rioDeJaneirobrazilsouthAmericaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Sofia is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Cultural Etiquette, Family Activities, Wine Tasting, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sofia is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Cultural Etiquette, Family Activities, Wine Tasting, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
     reviewsCount: 53,
-    quote: "In Rio De Janeiro, we don't just see the sights - we make memories.",
+    quote:
+      "In Rio De Janeiro, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/women/63.jpg",
     languages: ["Italian", "Turkish", "English"],
     experienceYears: 5,
-    certifications: ["Regional Tourism Ambassador", "Adventure Tourism Safety Certificate"],
+    certifications: [
+      "Regional Tourism Ambassador",
+      "Adventure Tourism Safety Certificate",
+    ],
     specialties: ["Cultural Etiquette", "Family Activities", "Wine Tasting"],
     specialTraining: [],
   },
@@ -255,7 +318,7 @@ export const rioDeJaneirobrazilsouthAmericaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -268,7 +331,7 @@ export const rioDeJaneirobrazilsouthAmericaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -281,15 +344,17 @@ export const rioDeJaneirobrazilsouthAmericaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Elijah is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Architecture, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Elijah is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Architecture, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 28,
-    quote: "The best way to discover Rio De Janeiro is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Rio De Janeiro is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/38.jpg",
     languages: ["Portuguese"],
     experienceYears: 3,
@@ -307,7 +372,13 @@ export const rioDeJaneirobrazilsouthAmericaGuides: TourGuide[] = [
     isPopular: true,
     bio: "Lily is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Art Galleries, Music Scene, Local Cuisine, Lily provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Northern Europe", "Alaska"],
-    tourTypes: ["Cruise Excursion", "Wine Tour", "Religious Tour", "Craft Workshop", "Cultural Tour"],
+    tourTypes: [
+      "Cruise Excursion",
+      "Wine Tour",
+      "Religious Tour",
+      "Craft Workshop",
+      "Cultural Tour",
+    ],
     maxGroupSize: 6,
     licenseNumber: "LIC-9571-RIO",
     phoneNumber: "+1-198-366-4508",
@@ -323,7 +394,7 @@ export const rioDeJaneirobrazilsouthAmericaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -332,7 +403,7 @@ export const rioDeJaneirobrazilsouthAmericaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -345,7 +416,7 @@ export const rioDeJaneirobrazilsouthAmericaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -358,20 +429,22 @@ export const rioDeJaneirobrazilsouthAmericaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "18:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Lily is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Art Galleries, Music Scene, Local Cuisine, Lily provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Lily is a passionate tour guide with extensive knowledge of Rio De Janeiro and Brazil. Specializing in Art Galleries, Music Scene, Local Cuisine, Lily provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
     reviewsCount: 20,
-    quote: "Rio De Janeiro isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Rio De Janeiro isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/22.jpg",
     languages: ["Portuguese", "Turkish", "Korean"],
     experienceYears: 7,
     certifications: ["CPR & First Aid", "Cultural Heritage Specialist"],
     specialties: ["Art Galleries", "Music Scene", "Local Cuisine"],
     specialTraining: ["Regional Cuisine", "Wine Education"],
-  }
+  },
 ];

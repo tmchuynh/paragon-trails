@@ -14,8 +14,8 @@ export const florenceitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
       },
       {
@@ -23,12 +23,12 @@ export const florenceitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "18:00"
+            to: "18:00",
           },
           {
             from: "18:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -36,8 +36,8 @@ export const florenceitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
       },
       {
@@ -45,14 +45,14 @@ export const florenceitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "07:00"
+            to: "07:00",
           },
           {
             from: "17:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.5,
     phone: "+109 460-497-3806",
@@ -74,12 +74,12 @@ export const florenceitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "12:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
       },
       {
@@ -87,12 +87,12 @@ export const florenceitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "10:00"
+            to: "10:00",
           },
           {
             from: "17:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -100,17 +100,22 @@ export const florenceitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.8,
     phone: "+795 149-218-5105",
     email: "eleanor.cooper@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/49.jpg",
     specialties: ["Security Detail", "Long-Distance Driving"],
-    vehicleTypesCertified: ["Electric Vehicle", "Luxury SUV", "Motorcoach", "Van"],
+    vehicleTypesCertified: [
+      "Electric Vehicle",
+      "Luxury SUV",
+      "Motorcoach",
+      "Van",
+    ],
   },
   {
     id: "driver-florence-3",
@@ -125,12 +130,12 @@ export const florenceitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "15:00"
+            to: "15:00",
           },
           {
             from: "14:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
       },
       {
@@ -138,8 +143,8 @@ export const florenceitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "04:00"
-          }
+            to: "04:00",
+          },
         ],
       },
       {
@@ -147,14 +152,14 @@ export const florenceitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "20:00"
+            to: "20:00",
           },
           {
             from: "13:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.5,
     phone: "+480 715-897-9047",
@@ -176,12 +181,12 @@ export const florenceitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "15:00"
+            to: "15:00",
           },
           {
             from: "14:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
       },
       {
@@ -189,12 +194,12 @@ export const florenceitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "15:00"
+            to: "15:00",
           },
           {
             from: "11:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
       },
       {
@@ -202,8 +207,8 @@ export const florenceitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
       },
       {
@@ -211,14 +216,14 @@ export const florenceitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "18:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.7,
     phone: "+459 935-919-6268",
@@ -240,8 +245,8 @@ export const florenceitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -249,12 +254,12 @@ export const florenceitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "06:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
       },
       {
@@ -262,14 +267,14 @@ export const florenceitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "07:00"
+            to: "07:00",
           },
           {
             from: "21:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.6,
     phone: "+607 231-774-7961",
@@ -291,8 +296,8 @@ export const florenceitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -300,8 +305,8 @@ export const florenceitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -309,8 +314,8 @@ export const florenceitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -318,10 +323,10 @@ export const florenceitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.7,
     phone: "+102 355-842-5510",
@@ -343,12 +348,12 @@ export const florenceitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "13:00"
+            to: "13:00",
           },
           {
             from: "14:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -356,12 +361,12 @@ export const florenceitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "19:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -369,8 +374,8 @@ export const florenceitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -378,21 +383,26 @@ export const florenceitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "17:00"
+            to: "17:00",
           },
           {
             from: "12:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.5,
     phone: "+1 940-756-8662",
     email: "lawrence.dixon@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/73.jpg",
     specialties: ["Night Shift", "Airport Transfers"],
-    vehicleTypesCertified: ["Van", "Convertible", "Electric Vehicle", "Sports Car"],
+    vehicleTypesCertified: [
+      "Van",
+      "Convertible",
+      "Electric Vehicle",
+      "Sports Car",
+    ],
   },
   {
     id: "driver-florence-8",
@@ -407,12 +417,12 @@ export const florenceitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "20:00"
+            to: "20:00",
           },
           {
             from: "12:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
       },
       {
@@ -420,8 +430,8 @@ export const florenceitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
       },
       {
@@ -429,12 +439,12 @@ export const florenceitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "03:00"
+            to: "03:00",
           },
           {
             from: "04:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -442,10 +452,10 @@ export const florenceitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.1,
     phone: "+719 819-568-5738",
@@ -467,8 +477,8 @@ export const florenceitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -476,12 +486,12 @@ export const florenceitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "05:00"
+            to: "05:00",
           },
           {
             from: "10:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
       },
       {
@@ -489,12 +499,12 @@ export const florenceitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "05:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
       },
       {
@@ -502,14 +512,14 @@ export const florenceitalymediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "15:00"
+            to: "15:00",
           },
           {
             from: "10:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.1,
     phone: "+858 186-373-6730",
@@ -517,5 +527,5 @@ export const florenceitalymediterraneanDrivers: Driver[] = [
     photoUrl: "https://randomuser.me/api/portraits/men/65.jpg",
     specialties: ["Luxury Car Specialist", "Tour Guide Driver"],
     vehicleTypesCertified: ["Sedan", "Electric Vehicle", "Limousine"],
-  }
+  },
 ];

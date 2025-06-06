@@ -6,7 +6,11 @@ export const fortLauderdaleunitedStatescaribbeanCrew: CrewMember[] = [
     name: "Helen Bennett",
     role: "Purser",
     experienceYears: 19,
-    certifications: ["Environmental Awareness", "Dive Master", "Hospitality Training"],
+    certifications: [
+      "Environmental Awareness",
+      "Dive Master",
+      "Hospitality Training",
+    ],
     languagesSpoken: ["Thai", "Swedish", "Hindi"],
     isAvailable: false,
     contactEmail: "helen.bennett@paragontrails.com",
@@ -33,5 +37,5 @@ export const fortLauderdaleunitedStatescaribbeanCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "william.rossi@paragontrails.com",
     contactPhone: "+1-639-450-6889",
-  }
+  },
 ];

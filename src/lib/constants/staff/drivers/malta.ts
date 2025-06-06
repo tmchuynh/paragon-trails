@@ -14,12 +14,12 @@ export const maltamaltamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "22:00"
+            to: "22:00",
           },
           {
             from: "15:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -27,8 +27,8 @@ export const maltamaltamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -36,14 +36,14 @@ export const maltamaltamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "09:00"
+            to: "09:00",
           },
           {
             from: "01:00",
-            to: "03:00"
-          }
+            to: "03:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.1,
     phone: "+352 495-769-3260",
@@ -65,12 +65,12 @@ export const maltamaltamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "12:00"
+            to: "12:00",
           },
           {
             from: "12:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
       },
       {
@@ -78,8 +78,8 @@ export const maltamaltamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
       },
       {
@@ -87,14 +87,14 @@ export const maltamaltamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "09:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.4,
     phone: "+18 867-754-7256",
@@ -116,8 +116,8 @@ export const maltamaltamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -125,8 +125,8 @@ export const maltamaltamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -134,12 +134,12 @@ export const maltamaltamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "04:00"
+            to: "04:00",
           },
           {
             from: "03:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
       },
       {
@@ -147,21 +147,32 @@ export const maltamaltamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "09:00"
+            to: "09:00",
           },
           {
             from: "04:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.7,
     phone: "+599 454-708-7400",
     email: "zachary.knight@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/6.jpg",
-    specialties: ["Event Transportation", "Airport Transfers", "Security Detail", "Luxury Car Specialist"],
-    vehicleTypesCertified: ["Sedan", "Luxury SUV", "Limousine", "Van", "Motorcoach"],
+    specialties: [
+      "Event Transportation",
+      "Airport Transfers",
+      "Security Detail",
+      "Luxury Car Specialist",
+    ],
+    vehicleTypesCertified: [
+      "Sedan",
+      "Luxury SUV",
+      "Limousine",
+      "Van",
+      "Motorcoach",
+    ],
   },
   {
     id: "driver-malta-4",
@@ -176,12 +187,12 @@ export const maltamaltamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "07:00"
+            to: "07:00",
           },
           {
             from: "06:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -189,8 +200,8 @@ export const maltamaltamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -198,14 +209,14 @@ export const maltamaltamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "18:00"
+            to: "18:00",
           },
           {
             from: "05:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.4,
     phone: "+868 712-802-7561",
@@ -227,12 +238,12 @@ export const maltamaltamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "22:00"
+            to: "22:00",
           },
           {
             from: "16:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -240,12 +251,12 @@ export const maltamaltamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "11:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -253,12 +264,12 @@ export const maltamaltamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "13:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
       },
       {
@@ -266,14 +277,14 @@ export const maltamaltamediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "22:00"
+            to: "22:00",
           },
           {
             from: "18:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.4,
     phone: "+380 255-751-1236",
@@ -281,5 +292,5 @@ export const maltamaltamediterraneanDrivers: Driver[] = [
     photoUrl: "https://randomuser.me/api/portraits/women/7.jpg",
     specialties: ["Tour Guide Driver"],
     vehicleTypesCertified: ["SUV", "Motorcoach", "Luxury SUV", "Sports Car"],
-  }
+  },
 ];

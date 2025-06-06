@@ -50,7 +50,11 @@ export const tampaunitedStatescaribbeanCrew: CrewMember[] = [
     name: "Riley Davis",
     role: "Host/Hostess",
     experienceYears: 20,
-    certifications: ["Navigation Certification", "Dive Master", "Engineering License"],
+    certifications: [
+      "Navigation Certification",
+      "Dive Master",
+      "Engineering License",
+    ],
     languagesSpoken: ["French", "Norwegian"],
     isAvailable: false,
     contactEmail: "riley.davis@paragontrails.com",
@@ -77,5 +81,5 @@ export const tampaunitedStatescaribbeanCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "katherine.patel@paragontrails.com",
     contactPhone: "+1-149-015-8167",
-  }
+  },
 ];

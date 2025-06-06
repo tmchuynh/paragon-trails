@@ -11,22 +11,34 @@ export const capeTownsouthAfricaafricaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Samuel is a passionate tour guide with extensive knowledge of Cape Town and South Africa. Specializing in Local Cuisine, Public Transportation Navigation, LGBTQ+ History, Samuel provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast Canada"],
-    tourTypes: ["Eco Tour", "Food Tour", "Architecture Tour", "Market Tour", "Bike Tour"],
+    tourTypes: [
+      "Eco Tour",
+      "Food Tour",
+      "Architecture Tour",
+      "Market Tour",
+      "Bike Tour",
+    ],
     maxGroupSize: 18,
     licenseNumber: "LIC-6559-CAP",
     phoneNumber: "+1-586-908-1199",
     contactEmail: "samuel.hill@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Samuel is a passionate tour guide with extensive knowledge of Cape Town and South Africa. Specializing in Local Cuisine, Public Transportation Navigation, LGBTQ+ History, Samuel provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Samuel is a passionate tour guide with extensive knowledge of Cape Town and South Africa. Specializing in Local Cuisine, Public Transportation Navigation, LGBTQ+ History, Samuel provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 13,
-    quote: "The best way to discover Cape Town is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Cape Town is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/60.jpg",
     languages: ["Croatian", "Vietnamese"],
     experienceYears: 16,
     certifications: ["Urban Navigation Specialist"],
-    specialties: ["Local Cuisine", "Public Transportation Navigation", "LGBTQ+ History"],
+    specialties: [
+      "Local Cuisine",
+      "Public Transportation Navigation",
+      "LGBTQ+ History",
+    ],
     specialTraining: [],
   },
   {
@@ -46,7 +58,8 @@ export const capeTownsouthAfricaafricaGuides: TourGuide[] = [
     contactEmail: "madison.smith@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Madison is a passionate tour guide with extensive knowledge of Cape Town and South Africa. Specializing in Museums, Family Activities, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Madison is a passionate tour guide with extensive knowledge of Cape Town and South Africa. Specializing in Museums, Family Activities, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 6,
     quote: "In Cape Town, we don't just see the sights - we make memories.",
@@ -74,14 +87,20 @@ export const capeTownsouthAfricaafricaGuides: TourGuide[] = [
     contactEmail: "noah.anderson@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Noah is a passionate tour guide with extensive knowledge of Cape Town and South Africa. Specializing in Film Locations, LGBTQ+ History, Local Craftsmanship, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Noah is a passionate tour guide with extensive knowledge of Cape Town and South Africa. Specializing in Film Locations, LGBTQ+ History, Local Craftsmanship, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 27,
-    quote: "Cape Town isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Cape Town isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/18.jpg",
     languages: ["Japanese", "Italian", "Arabic"],
     experienceYears: 9,
-    certifications: ["Certified International Tour Manager", "CPR & First Aid", "Urban Navigation Specialist"],
+    certifications: [
+      "Certified International Tour Manager",
+      "CPR & First Aid",
+      "Urban Navigation Specialist",
+    ],
     specialties: ["Film Locations", "LGBTQ+ History", "Local Craftsmanship"],
     specialTraining: ["Art History"],
   },
@@ -102,14 +121,19 @@ export const capeTownsouthAfricaafricaGuides: TourGuide[] = [
     contactEmail: "daniel.rodriguez@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Daniel is a passionate tour guide with extensive knowledge of Cape Town and South Africa. Specializing in Family Activities, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Daniel is a passionate tour guide with extensive knowledge of Cape Town and South Africa. Specializing in Family Activities, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
     reviewsCount: 68,
     quote: "In Cape Town, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/men/46.jpg",
     languages: ["Mandarin"],
     experienceYears: 7,
-    certifications: ["Local History Certification", "Cultural Heritage Specialist", "Heritage Interpretation Certificate"],
+    certifications: [
+      "Local History Certification",
+      "Cultural Heritage Specialist",
+      "Heritage Interpretation Certificate",
+    ],
     specialties: ["Family Activities"],
     specialTraining: ["Conflict Resolution"],
   },
@@ -130,10 +154,12 @@ export const capeTownsouthAfricaafricaGuides: TourGuide[] = [
     contactEmail: "riley.nguyen@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Riley is a passionate tour guide with extensive knowledge of Cape Town and South Africa. Specializing in Museums, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Riley is a passionate tour guide with extensive knowledge of Cape Town and South Africa. Specializing in Museums, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 72,
-    quote: "Every corner of Cape Town tells a story, let me share them with you.",
+    quote:
+      "Every corner of Cape Town tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/79.jpg",
     languages: ["Hebrew"],
     experienceYears: 3,
@@ -158,14 +184,19 @@ export const capeTownsouthAfricaafricaGuides: TourGuide[] = [
     contactEmail: "lucas.wilson@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Lucas is a passionate tour guide with extensive knowledge of Cape Town and South Africa. Specializing in Adventure Sports, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Lucas is a passionate tour guide with extensive knowledge of Cape Town and South Africa. Specializing in Adventure Sports, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 45,
-    quote: "Every corner of Cape Town tells a story, let me share them with you.",
+    quote:
+      "Every corner of Cape Town tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/37.jpg",
     languages: ["French"],
     experienceYears: 4,
-    certifications: ["Regional Tourism Ambassador", "Wilderness First Responder"],
+    certifications: [
+      "Regional Tourism Ambassador",
+      "Wilderness First Responder",
+    ],
     specialties: ["Adventure Sports"],
     specialTraining: [],
   },
@@ -179,22 +210,36 @@ export const capeTownsouthAfricaafricaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Jacob is a passionate tour guide with extensive knowledge of Cape Town and South Africa. Specializing in Sustainable Tourism, Adventure Sports, Urban Legends, Indigenous Culture, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Caribbean", "Asia Pacific"],
-    tourTypes: ["Photography Tour", "Romantic Tour", "Walking Tour", "Adventure Tour"],
+    tourTypes: [
+      "Photography Tour",
+      "Romantic Tour",
+      "Walking Tour",
+      "Adventure Tour",
+    ],
     maxGroupSize: 17,
     licenseNumber: "LIC-4141-CAP",
     phoneNumber: "+1-984-791-6279",
     contactEmail: "jacob.lee@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Jacob is a passionate tour guide with extensive knowledge of Cape Town and South Africa. Specializing in Sustainable Tourism, Adventure Sports, Urban Legends, Indigenous Culture, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Jacob is a passionate tour guide with extensive knowledge of Cape Town and South Africa. Specializing in Sustainable Tourism, Adventure Sports, Urban Legends, Indigenous Culture, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 50,
     quote: "My goal is to help you fall in love with Cape Town just as I have.",
     profileImage: "https://randomuser.me/api/portraits/women/66.jpg",
     languages: ["German", "Serbian"],
     experienceYears: 7,
-    certifications: ["Cultural Heritage Specialist", "Sustainable Tourism Certificate"],
-    specialties: ["Sustainable Tourism", "Adventure Sports", "Urban Legends", "Indigenous Culture"],
+    certifications: [
+      "Cultural Heritage Specialist",
+      "Sustainable Tourism Certificate",
+    ],
+    specialties: [
+      "Sustainable Tourism",
+      "Adventure Sports",
+      "Urban Legends",
+      "Indigenous Culture",
+    ],
     specialTraining: ["Emergency Response", "Historical Research Methods"],
   },
   {
@@ -223,7 +268,7 @@ export const capeTownsouthAfricaafricaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -236,7 +281,7 @@ export const capeTownsouthAfricaafricaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -245,19 +290,24 @@ export const capeTownsouthAfricaafricaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Benjamin is a passionate tour guide with extensive knowledge of Cape Town and South Africa. Specializing in Historical Landmarks, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Benjamin is a passionate tour guide with extensive knowledge of Cape Town and South Africa. Specializing in Historical Landmarks, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
     reviewsCount: 72,
-    quote: "Cape Town isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Cape Town isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/10.jpg",
     languages: ["Croatian"],
     experienceYears: 13,
-    certifications: ["Urban Navigation Specialist", "Sustainable Tourism Certificate"],
+    certifications: [
+      "Urban Navigation Specialist",
+      "Sustainable Tourism Certificate",
+    ],
     specialties: ["Historical Landmarks"],
     specialTraining: ["Photography", "Group Management"],
   },
@@ -271,7 +321,13 @@ export const capeTownsouthAfricaafricaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Owen is a passionate tour guide with extensive knowledge of Cape Town and South Africa. Specializing in Parks & Gardens, Wine Tasting, Owen provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Alaska", "Northern Europe"],
-    tourTypes: ["Adventure Tour", "Private Tour", "Cruise Excursion", "Romantic Tour", "Group Tour"],
+    tourTypes: [
+      "Adventure Tour",
+      "Private Tour",
+      "Cruise Excursion",
+      "Romantic Tour",
+      "Group Tour",
+    ],
     maxGroupSize: 17,
     licenseNumber: "LIC-3117-CAP",
     phoneNumber: "+1-493-272-4198",
@@ -283,7 +339,7 @@ export const capeTownsouthAfricaafricaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -292,7 +348,7 @@ export const capeTownsouthAfricaafricaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -305,15 +361,17 @@ export const capeTownsouthAfricaafricaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "18:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Owen is a passionate tour guide with extensive knowledge of Cape Town and South Africa. Specializing in Parks & Gardens, Wine Tasting, Owen provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Owen is a passionate tour guide with extensive knowledge of Cape Town and South Africa. Specializing in Parks & Gardens, Wine Tasting, Owen provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 87,
-    quote: "Cape Town isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Cape Town isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/56.jpg",
     languages: ["Thai", "Russian"],
     experienceYears: 3,
@@ -331,7 +389,12 @@ export const capeTownsouthAfricaafricaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Harper is a passionate tour guide with extensive knowledge of Cape Town and South Africa. Specializing in Wine Tasting, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast Canada"],
-    tourTypes: ["Romantic Tour", "LGBTQ+ Friendly Tour", "Museum Tour", "Religious Tour"],
+    tourTypes: [
+      "Romantic Tour",
+      "LGBTQ+ Friendly Tour",
+      "Museum Tour",
+      "Religious Tour",
+    ],
     maxGroupSize: 5,
     licenseNumber: "LIC-4858-CAP",
     phoneNumber: "+1-166-574-1858",
@@ -347,7 +410,7 @@ export const capeTownsouthAfricaafricaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -360,7 +423,7 @@ export const capeTownsouthAfricaafricaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -369,7 +432,7 @@ export const capeTownsouthAfricaafricaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -382,20 +445,25 @@ export const capeTownsouthAfricaafricaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "20:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Harper is a passionate tour guide with extensive knowledge of Cape Town and South Africa. Specializing in Wine Tasting, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Harper is a passionate tour guide with extensive knowledge of Cape Town and South Africa. Specializing in Wine Tasting, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 44,
-    quote: "Every corner of Cape Town tells a story, let me share them with you.",
+    quote:
+      "Every corner of Cape Town tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/4.jpg",
     languages: ["Mandarin", "Hebrew"],
     experienceYears: 10,
-    certifications: ["Certified International Tour Manager", "Urban Navigation Specialist"],
+    certifications: [
+      "Certified International Tour Manager",
+      "Urban Navigation Specialist",
+    ],
     specialties: ["Wine Tasting"],
     specialTraining: ["Public Speaking"],
-  }
+  },
 ];

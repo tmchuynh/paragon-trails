@@ -6,7 +6,11 @@ export const singaporesingaporeasiaPacificCrew: CrewMember[] = [
     name: "Janet Nguyen",
     role: "Navigator",
     experienceYears: 8,
-    certifications: ["Marine Radio Operator", "Security Training", "Environmental Awareness"],
+    certifications: [
+      "Marine Radio Operator",
+      "Security Training",
+      "Environmental Awareness",
+    ],
     languagesSpoken: ["Arabic", "Turkish", "Finnish"],
     isAvailable: false,
     contactEmail: "janet.nguyen@paragontrails.com",
@@ -17,7 +21,11 @@ export const singaporesingaporeasiaPacificCrew: CrewMember[] = [
     name: "Lisa Watson",
     role: "Deckhand",
     experienceYears: 11,
-    certifications: ["Security Training", "Hospitality Training", "Navigation Certification"],
+    certifications: [
+      "Security Training",
+      "Hospitality Training",
+      "Navigation Certification",
+    ],
     languagesSpoken: ["Norwegian"],
     isAvailable: true,
     contactEmail: "lisa.watson@paragontrails.com",
@@ -83,10 +91,14 @@ export const singaporesingaporeasiaPacificCrew: CrewMember[] = [
     name: "Emily Palmer",
     role: "Steward/Stewardess",
     experienceYears: 9,
-    certifications: ["Navigation Certification", "Fire Safety", "Engineering License"],
+    certifications: [
+      "Navigation Certification",
+      "Fire Safety",
+      "Engineering License",
+    ],
     languagesSpoken: ["Swedish", "Hindi"],
     isAvailable: false,
     contactEmail: "emily.palmer@paragontrails.com",
     contactPhone: "+1-825-617-1022",
-  }
+  },
 ];

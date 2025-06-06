@@ -6,7 +6,11 @@ export const philipsburgsintMaartencaribbeanCrew: CrewMember[] = [
     name: "William Wang",
     role: "Dive Instructor",
     experienceYears: 7,
-    certifications: ["Fire Safety", "Engineering License", "Navigation Certification"],
+    certifications: [
+      "Fire Safety",
+      "Engineering License",
+      "Navigation Certification",
+    ],
     languagesSpoken: ["English", "Romanian"],
     isAvailable: true,
     contactEmail: "william.wang@paragontrails.com",
@@ -33,5 +37,5 @@ export const philipsburgsintMaartencaribbeanCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "melissa.coleman@paragontrails.com",
     contactPhone: "+1-091-837-8479",
-  }
+  },
 ];

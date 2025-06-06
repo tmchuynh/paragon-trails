@@ -18,14 +18,19 @@ export const aucklandnewZealandasiaPacificGuides: TourGuide[] = [
     contactEmail: "mason.harris@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Mason is a passionate tour guide with extensive knowledge of Auckland and New Zealand. Specializing in Urban Legends, Photography Spots, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Mason is a passionate tour guide with extensive knowledge of Auckland and New Zealand. Specializing in Urban Legends, Photography Spots, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.7,
     reviewsCount: 53,
-    quote: "Auckland isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Auckland isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/48.jpg",
     languages: ["Arabic", "Mandarin"],
     experienceYears: 7,
-    certifications: ["Eco-Tourism Guide", "Heritage Interpretation Certificate"],
+    certifications: [
+      "Eco-Tourism Guide",
+      "Heritage Interpretation Certificate",
+    ],
     specialties: ["Urban Legends", "Photography Spots"],
     specialTraining: ["Mountain Survival", "Local Flora & Fauna"],
   },
@@ -46,15 +51,22 @@ export const aucklandnewZealandasiaPacificGuides: TourGuide[] = [
     contactEmail: "ethan.anderson@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Ethan is a passionate tour guide with extensive knowledge of Auckland and New Zealand. Specializing in Local Craftsmanship, LGBTQ+ History, Family Activities, Architecture, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Ethan is a passionate tour guide with extensive knowledge of Auckland and New Zealand. Specializing in Local Craftsmanship, LGBTQ+ History, Family Activities, Architecture, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 9,
-    quote: "Every corner of Auckland tells a story, let me share them with you.",
+    quote:
+      "Every corner of Auckland tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/18.jpg",
     languages: ["Russian"],
     experienceYears: 13,
     certifications: ["Adventure Tourism Safety Certificate"],
-    specialties: ["Local Craftsmanship", "LGBTQ+ History", "Family Activities", "Architecture"],
+    specialties: [
+      "Local Craftsmanship",
+      "LGBTQ+ History",
+      "Family Activities",
+      "Architecture",
+    ],
     specialTraining: ["Cultural Sensitivity", "Local Transit Systems"],
   },
   {
@@ -67,14 +79,21 @@ export const aucklandnewZealandasiaPacificGuides: TourGuide[] = [
     isPopular: true,
     bio: "Henry is a passionate tour guide with extensive knowledge of Auckland and New Zealand. Specializing in Museums, Adventure Sports, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast USA"],
-    tourTypes: ["Market Tour", "Relocation Tour", "LGBTQ+ Friendly Tour", "Romantic Tour", "Religious Tour"],
+    tourTypes: [
+      "Market Tour",
+      "Relocation Tour",
+      "LGBTQ+ Friendly Tour",
+      "Romantic Tour",
+      "Religious Tour",
+    ],
     maxGroupSize: 19,
     licenseNumber: "LIC-9106-AUC",
     phoneNumber: "+1-570-369-7506",
     contactEmail: "henry.adams@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Henry is a passionate tour guide with extensive knowledge of Auckland and New Zealand. Specializing in Museums, Adventure Sports, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Henry is a passionate tour guide with extensive knowledge of Auckland and New Zealand. Specializing in Museums, Adventure Sports, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
     reviewsCount: 89,
     quote: "In Auckland, we don't just see the sights - we make memories.",
@@ -107,7 +126,7 @@ export const aucklandnewZealandasiaPacificGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -120,7 +139,7 @@ export const aucklandnewZealandasiaPacificGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -129,19 +148,25 @@ export const aucklandnewZealandasiaPacificGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Owen is a passionate tour guide with extensive knowledge of Auckland and New Zealand. Specializing in Historical Landmarks, Cultural Etiquette, Owen provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Owen is a passionate tour guide with extensive knowledge of Auckland and New Zealand. Specializing in Historical Landmarks, Cultural Etiquette, Owen provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 21,
-    quote: "Every corner of Auckland tells a story, let me share them with you.",
+    quote:
+      "Every corner of Auckland tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/58.jpg",
     languages: ["Greek", "Spanish"],
     experienceYears: 5,
-    certifications: ["Professional Tour Guide Association", "Urban Navigation Specialist", "Cultural Heritage Specialist"],
+    certifications: [
+      "Professional Tour Guide Association",
+      "Urban Navigation Specialist",
+      "Cultural Heritage Specialist",
+    ],
     specialties: ["Historical Landmarks", "Cultural Etiquette"],
     specialTraining: ["Urban Planning", "Accessibility Services"],
   },
@@ -167,7 +192,7 @@ export const aucklandnewZealandasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -180,19 +205,25 @@ export const aucklandnewZealandasiaPacificGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "20:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Olivia is a passionate tour guide with extensive knowledge of Auckland and New Zealand. Specializing in Sustainable Tourism, LGBTQ+ History, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Olivia is a passionate tour guide with extensive knowledge of Auckland and New Zealand. Specializing in Sustainable Tourism, LGBTQ+ History, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 33,
-    quote: "The best way to discover Auckland is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Auckland is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/20.jpg",
     languages: ["German"],
     experienceYears: 8,
-    certifications: ["CPR & First Aid", "Sustainable Tourism Certificate", "Certified International Tour Manager"],
+    certifications: [
+      "CPR & First Aid",
+      "Sustainable Tourism Certificate",
+      "Certified International Tour Manager",
+    ],
     specialties: ["Sustainable Tourism", "LGBTQ+ History"],
     specialTraining: ["Archaeological Conservation"],
   },
@@ -218,7 +249,7 @@ export const aucklandnewZealandasiaPacificGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -231,7 +262,7 @@ export const aucklandnewZealandasiaPacificGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "21:00",
-          }
+          },
         ],
       },
       {
@@ -244,20 +275,26 @@ export const aucklandnewZealandasiaPacificGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Alexander is a passionate tour guide with extensive knowledge of Auckland and New Zealand. Specializing in Street Food, Local Markets, LGBTQ+ History, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Alexander is a passionate tour guide with extensive knowledge of Auckland and New Zealand. Specializing in Street Food, Local Markets, LGBTQ+ History, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 60,
-    quote: "The best way to discover Auckland is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Auckland is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/8.jpg",
     languages: ["French", "Finnish", "Vietnamese"],
     experienceYears: 3,
-    certifications: ["Sustainable Tourism Certificate", "Adventure Tourism Safety Certificate", "Certified International Tour Manager"],
+    certifications: [
+      "Sustainable Tourism Certificate",
+      "Adventure Tourism Safety Certificate",
+      "Certified International Tour Manager",
+    ],
     specialties: ["Street Food", "Local Markets", "LGBTQ+ History"],
     specialTraining: ["Accessibility Services", "Religious Studies"],
-  }
+  },
 ];

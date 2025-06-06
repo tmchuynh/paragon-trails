@@ -18,7 +18,8 @@ export const glacierBayunitedStatesalaskaGuides: TourGuide[] = [
     contactEmail: "henry.miller@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Henry is a passionate tour guide with extensive knowledge of Glacier Bay and United States. Specializing in Wildlife, Parks & Gardens, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Henry is a passionate tour guide with extensive knowledge of Glacier Bay and United States. Specializing in Wildlife, Parks & Gardens, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 65,
     quote: "In Glacier Bay, we don't just see the sights - we make memories.",
@@ -39,17 +40,24 @@ export const glacierBayunitedStatesalaskaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Samuel is a passionate tour guide with extensive knowledge of Glacier Bay and United States. Specializing in Religious Sites, Wildlife, Historical Landmarks, Samuel provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["South America"],
-    tourTypes: ["Off-Road Tour", "Ghost Tour", "Scenic Tour", "Cruise Excursion"],
+    tourTypes: [
+      "Off-Road Tour",
+      "Ghost Tour",
+      "Scenic Tour",
+      "Cruise Excursion",
+    ],
     maxGroupSize: 18,
     licenseNumber: "LIC-3791-GLA",
     phoneNumber: "+1-511-285-6384",
     contactEmail: "samuel.anderson@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Samuel is a passionate tour guide with extensive knowledge of Glacier Bay and United States. Specializing in Religious Sites, Wildlife, Historical Landmarks, Samuel provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Samuel is a passionate tour guide with extensive knowledge of Glacier Bay and United States. Specializing in Religious Sites, Wildlife, Historical Landmarks, Samuel provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 31,
-    quote: "Glacier Bay isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Glacier Bay isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/27.jpg",
     languages: ["Hungarian", "Czech"],
     experienceYears: 8,
@@ -67,17 +75,24 @@ export const glacierBayunitedStatesalaskaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Joseph is a passionate tour guide with extensive knowledge of Glacier Bay and United States. Specializing in Public Transportation Navigation, Film Locations, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Mediterranean"],
-    tourTypes: ["Adventure Tour", "Scenic Tour", "Brewery Tour", "Festival Tour"],
+    tourTypes: [
+      "Adventure Tour",
+      "Scenic Tour",
+      "Brewery Tour",
+      "Festival Tour",
+    ],
     maxGroupSize: 12,
     licenseNumber: "LIC-2142-GLA",
     phoneNumber: "+1-749-748-8492",
     contactEmail: "joseph.johnson@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Joseph is a passionate tour guide with extensive knowledge of Glacier Bay and United States. Specializing in Public Transportation Navigation, Film Locations, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Joseph is a passionate tour guide with extensive knowledge of Glacier Bay and United States. Specializing in Public Transportation Navigation, Film Locations, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 96,
-    quote: "My goal is to help you fall in love with Glacier Bay just as I have.",
+    quote:
+      "My goal is to help you fall in love with Glacier Bay just as I have.",
     profileImage: "https://randomuser.me/api/portraits/women/5.jpg",
     languages: ["Greek", "Thai"],
     experienceYears: 4,
@@ -95,17 +110,25 @@ export const glacierBayunitedStatesalaskaGuides: TourGuide[] = [
     isPopular: true,
     bio: "Amelia is a passionate tour guide with extensive knowledge of Glacier Bay and United States. Specializing in Nightlife, Street Food, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast USA"],
-    tourTypes: ["Helicopter Tour", "Architecture Tour", "Boat Tour", "Museum Tour", "Shopping Tour"],
+    tourTypes: [
+      "Helicopter Tour",
+      "Architecture Tour",
+      "Boat Tour",
+      "Museum Tour",
+      "Shopping Tour",
+    ],
     maxGroupSize: 15,
     licenseNumber: "LIC-3236-GLA",
     phoneNumber: "+1-276-491-7823",
     contactEmail: "amelia.wright@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Amelia is a passionate tour guide with extensive knowledge of Glacier Bay and United States. Specializing in Nightlife, Street Food, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Amelia is a passionate tour guide with extensive knowledge of Glacier Bay and United States. Specializing in Nightlife, Street Food, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 43,
-    quote: "Glacier Bay isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Glacier Bay isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/45.jpg",
     languages: ["Vietnamese"],
     experienceYears: 7,
@@ -135,7 +158,7 @@ export const glacierBayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -148,7 +171,7 @@ export const glacierBayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -161,19 +184,25 @@ export const glacierBayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "David is a passionate tour guide with extensive knowledge of Glacier Bay and United States. Specializing in Cultural Etiquette, David provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "David is a passionate tour guide with extensive knowledge of Glacier Bay and United States. Specializing in Cultural Etiquette, David provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
     reviewsCount: 81,
-    quote: "Every corner of Glacier Bay tells a story, let me share them with you.",
+    quote:
+      "Every corner of Glacier Bay tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/36.jpg",
     languages: ["Arabic", "Mandarin"],
     experienceYears: 2,
-    certifications: ["Local History Certification", "Certified International Tour Manager", "Urban Navigation Specialist"],
+    certifications: [
+      "Local History Certification",
+      "Certified International Tour Manager",
+      "Urban Navigation Specialist",
+    ],
     specialties: ["Cultural Etiquette"],
     specialTraining: ["Historical Research Methods"],
   },
@@ -203,7 +232,7 @@ export const glacierBayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -212,7 +241,7 @@ export const glacierBayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -225,7 +254,7 @@ export const glacierBayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -238,19 +267,25 @@ export const glacierBayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Sofia is a passionate tour guide with extensive knowledge of Glacier Bay and United States. Specializing in Hidden Gems, Urban Legends, Art Galleries, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sofia is a passionate tour guide with extensive knowledge of Glacier Bay and United States. Specializing in Hidden Gems, Urban Legends, Art Galleries, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 33,
-    quote: "My goal is to help you fall in love with Glacier Bay just as I have.",
+    quote:
+      "My goal is to help you fall in love with Glacier Bay just as I have.",
     profileImage: "https://randomuser.me/api/portraits/women/77.jpg",
     languages: ["Norwegian", "Danish", "Swedish"],
     experienceYears: 14,
-    certifications: ["Regional Tourism Ambassador", "Heritage Interpretation Certificate", "Food Safety Certification"],
+    certifications: [
+      "Regional Tourism Ambassador",
+      "Heritage Interpretation Certificate",
+      "Food Safety Certification",
+    ],
     specialties: ["Hidden Gems", "Urban Legends", "Art Galleries"],
     specialTraining: ["Accessibility Services", "Marine Biology"],
   },
@@ -264,7 +299,13 @@ export const glacierBayunitedStatesalaskaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Evelyn is a passionate tour guide with extensive knowledge of Glacier Bay and United States. Specializing in LGBTQ+ History, Hidden Gems, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast Canada"],
-    tourTypes: ["Festival Tour", "Cultural Tour", "Ghost Tour", "Cruise Excursion", "Private Tour"],
+    tourTypes: [
+      "Festival Tour",
+      "Cultural Tour",
+      "Ghost Tour",
+      "Cruise Excursion",
+      "Private Tour",
+    ],
     maxGroupSize: 13,
     licenseNumber: "LIC-7108-GLA",
     phoneNumber: "+1-111-311-4478",
@@ -276,7 +317,7 @@ export const glacierBayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -289,7 +330,7 @@ export const glacierBayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -302,7 +343,7 @@ export const glacierBayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -315,20 +356,22 @@ export const glacierBayunitedStatesalaskaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "10:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Evelyn is a passionate tour guide with extensive knowledge of Glacier Bay and United States. Specializing in LGBTQ+ History, Hidden Gems, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Evelyn is a passionate tour guide with extensive knowledge of Glacier Bay and United States. Specializing in LGBTQ+ History, Hidden Gems, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 67,
-    quote: "Glacier Bay isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Glacier Bay isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/5.jpg",
     languages: ["Mandarin", "Finnish"],
     experienceYears: 8,
     certifications: ["Certified International Tour Manager"],
     specialties: ["LGBTQ+ History", "Hidden Gems"],
     specialTraining: ["Archaeological Conservation", "Local Flora & Fauna"],
-  }
+  },
 ];

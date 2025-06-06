@@ -33,5 +33,5 @@ export const santorinigreecemediterraneanCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "adam.clark@paragontrails.com",
     contactPhone: "+1-529-007-5430",
-  }
+  },
 ];

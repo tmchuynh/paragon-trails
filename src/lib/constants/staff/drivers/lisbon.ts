@@ -14,8 +14,8 @@ export const lisbonportugalmediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -23,8 +23,8 @@ export const lisbonportugalmediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
       },
       {
@@ -32,12 +32,12 @@ export const lisbonportugalmediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "06:00"
+            to: "06:00",
           },
           {
             from: "03:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -45,12 +45,12 @@ export const lisbonportugalmediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "19:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -58,14 +58,14 @@ export const lisbonportugalmediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "10:00"
+            to: "10:00",
           },
           {
             from: "21:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.7,
     phone: "+445 243-416-4739",
@@ -87,12 +87,12 @@ export const lisbonportugalmediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "17:00"
+            to: "17:00",
           },
           {
             from: "14:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -100,12 +100,12 @@ export const lisbonportugalmediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "12:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
       },
       {
@@ -113,8 +113,8 @@ export const lisbonportugalmediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -122,8 +122,8 @@ export const lisbonportugalmediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -131,14 +131,14 @@ export const lisbonportugalmediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "06:00"
+            to: "06:00",
           },
           {
             from: "11:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.1,
     phone: "+815 314-637-1316",
@@ -160,8 +160,8 @@ export const lisbonportugalmediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "03:00"
-          }
+            to: "03:00",
+          },
         ],
       },
       {
@@ -169,8 +169,8 @@ export const lisbonportugalmediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
       },
       {
@@ -178,20 +178,24 @@ export const lisbonportugalmediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "19:00"
+            to: "19:00",
           },
           {
             from: "10:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.8,
     phone: "+866 780-126-7049",
     email: "austin.lawson@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/40.jpg",
-    specialties: ["Event Transportation", "VIP Transport", "Luxury Car Specialist"],
+    specialties: [
+      "Event Transportation",
+      "VIP Transport",
+      "Luxury Car Specialist",
+    ],
     vehicleTypesCertified: ["Electric Vehicle"],
   },
   {
@@ -207,8 +211,8 @@ export const lisbonportugalmediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -216,8 +220,8 @@ export const lisbonportugalmediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -225,12 +229,12 @@ export const lisbonportugalmediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "15:00"
+            to: "15:00",
           },
           {
             from: "04:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -238,14 +242,14 @@ export const lisbonportugalmediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "06:00"
+            to: "06:00",
           },
           {
             from: "10:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.1,
     phone: "+530 274-592-3912",
@@ -267,8 +271,8 @@ export const lisbonportugalmediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -276,12 +280,12 @@ export const lisbonportugalmediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "15:00"
+            to: "15:00",
           },
           {
             from: "14:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -289,20 +293,25 @@ export const lisbonportugalmediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "14:00"
+            to: "14:00",
           },
           {
             from: "05:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.4,
     phone: "+582 525-147-5684",
     email: "louis.fisher@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/37.jpg",
-    specialties: ["Corporate Chauffeur", "Tour Guide Driver", "Airport Transfers", "VIP Transport"],
+    specialties: [
+      "Corporate Chauffeur",
+      "Tour Guide Driver",
+      "Airport Transfers",
+      "VIP Transport",
+    ],
     vehicleTypesCertified: ["SUV", "Limousine"],
-  }
+  },
 ];

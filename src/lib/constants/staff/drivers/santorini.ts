@@ -14,8 +14,8 @@ export const santorinigreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
       },
       {
@@ -23,12 +23,12 @@ export const santorinigreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "12:00"
+            to: "12:00",
           },
           {
             from: "06:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -36,20 +36,24 @@ export const santorinigreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "10:00"
+            to: "10:00",
           },
           {
             from: "21:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 5,
     phone: "+422 128-544-7617",
     email: "maria.nash@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/40.jpg",
-    specialties: ["Event Transportation", "Corporate Chauffeur", "Security Detail"],
+    specialties: [
+      "Event Transportation",
+      "Corporate Chauffeur",
+      "Security Detail",
+    ],
     vehicleTypesCertified: ["Sports Car", "Electric Vehicle"],
   },
   {
@@ -65,12 +69,12 @@ export const santorinigreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "11:00"
+            to: "11:00",
           },
           {
             from: "13:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
       },
       {
@@ -78,8 +82,8 @@ export const santorinigreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -87,8 +91,8 @@ export const santorinigreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
       },
       {
@@ -96,12 +100,12 @@ export const santorinigreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "13:00"
+            to: "13:00",
           },
           {
             from: "15:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -109,14 +113,14 @@ export const santorinigreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "23:00"
+            to: "23:00",
           },
           {
             from: "20:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4,
     phone: "+160 246-781-9918",
@@ -138,12 +142,12 @@ export const santorinigreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "09:00"
+            to: "09:00",
           },
           {
             from: "11:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
       },
       {
@@ -151,12 +155,12 @@ export const santorinigreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "18:00"
+            to: "18:00",
           },
           {
             from: "18:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -164,8 +168,8 @@ export const santorinigreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -173,8 +177,8 @@ export const santorinigreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -182,10 +186,10 @@ export const santorinigreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.5,
     phone: "+550 643-217-2769",
@@ -207,12 +211,12 @@ export const santorinigreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "11:00"
+            to: "11:00",
           },
           {
             from: "06:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
       },
       {
@@ -220,8 +224,8 @@ export const santorinigreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -229,8 +233,8 @@ export const santorinigreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -238,14 +242,14 @@ export const santorinigreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "16:00"
+            to: "16:00",
           },
           {
             from: "16:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4,
     phone: "+612 990-236-3279",
@@ -267,12 +271,12 @@ export const santorinigreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "23:00"
+            to: "23:00",
           },
           {
             from: "18:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -280,8 +284,8 @@ export const santorinigreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -289,10 +293,10 @@ export const santorinigreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.9,
     phone: "+857 816-185-5526",
@@ -300,5 +304,5 @@ export const santorinigreecemediterraneanDrivers: Driver[] = [
     photoUrl: "https://randomuser.me/api/portraits/women/3.jpg",
     specialties: ["Airport Transfers", "Event Transportation"],
     vehicleTypesCertified: ["Electric Vehicle", "Sports Car", "Limousine"],
-  }
+  },
 ];

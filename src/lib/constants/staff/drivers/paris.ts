@@ -14,8 +14,8 @@ export const parisfrancenorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "04:00"
-          }
+            to: "04:00",
+          },
         ],
       },
       {
@@ -23,12 +23,12 @@ export const parisfrancenorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "19:00"
+            to: "19:00",
           },
           {
             from: "20:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -36,8 +36,8 @@ export const parisfrancenorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -45,10 +45,10 @@ export const parisfrancenorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.7,
     phone: "+514 153-905-9771",
@@ -70,8 +70,8 @@ export const parisfrancenorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -79,12 +79,12 @@ export const parisfrancenorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "20:00"
+            to: "20:00",
           },
           {
             from: "20:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -92,12 +92,12 @@ export const parisfrancenorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "19:00"
+            to: "19:00",
           },
           {
             from: "12:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
       },
       {
@@ -105,16 +105,20 @@ export const parisfrancenorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.4,
     phone: "+688 171-192-5893",
     email: "fatima.hawkins@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/62.jpg",
-    specialties: ["Security Detail", "Long-Distance Driving", "Tour Guide Driver"],
+    specialties: [
+      "Security Detail",
+      "Long-Distance Driving",
+      "Tour Guide Driver",
+    ],
     vehicleTypesCertified: ["Convertible", "Sedan", "Motorcoach"],
   },
   {
@@ -130,8 +134,8 @@ export const parisfrancenorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
       },
       {
@@ -139,12 +143,12 @@ export const parisfrancenorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "16:00"
+            to: "16:00",
           },
           {
             from: "16:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -152,14 +156,14 @@ export const parisfrancenorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "23:00"
+            to: "23:00",
           },
           {
             from: "04:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.8,
     phone: "+670 301-927-9617",
@@ -181,8 +185,8 @@ export const parisfrancenorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -190,12 +194,12 @@ export const parisfrancenorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "18:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -203,12 +207,12 @@ export const parisfrancenorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "18:00"
+            to: "18:00",
           },
           {
             from: "02:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -216,14 +220,14 @@ export const parisfrancenorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "20:00"
+            to: "20:00",
           },
           {
             from: "20:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.2,
     phone: "+582 892-787-5570",
@@ -245,12 +249,12 @@ export const parisfrancenorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "03:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -258,8 +262,8 @@ export const parisfrancenorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
       },
       {
@@ -267,10 +271,10 @@ export const parisfrancenorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 5,
     phone: "+591 372-722-4066",
@@ -292,12 +296,12 @@ export const parisfrancenorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "17:00"
+            to: "17:00",
           },
           {
             from: "15:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -305,12 +309,12 @@ export const parisfrancenorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "19:00"
+            to: "19:00",
           },
           {
             from: "09:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
       },
       {
@@ -318,16 +322,21 @@ export const parisfrancenorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.5,
     phone: "+855 597-997-4117",
     email: "adam.mitchell@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/28.jpg",
-    specialties: ["Airport Transfers", "Tour Guide Driver", "Long-Distance Driving", "VIP Transport"],
+    specialties: [
+      "Airport Transfers",
+      "Tour Guide Driver",
+      "Long-Distance Driving",
+      "VIP Transport",
+    ],
     vehicleTypesCertified: ["Electric Vehicle", "Sedan", "Luxury SUV"],
   },
   {
@@ -343,8 +352,8 @@ export const parisfrancenorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -352,8 +361,8 @@ export const parisfrancenorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -361,8 +370,8 @@ export const parisfrancenorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -370,16 +379,20 @@ export const parisfrancenorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.8,
     phone: "+854 295-711-9414",
     email: "isabella.hamilton@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/84.jpg",
-    specialties: ["Corporate Chauffeur", "Luxury Car Specialist", "Tour Guide Driver"],
+    specialties: [
+      "Corporate Chauffeur",
+      "Luxury Car Specialist",
+      "Tour Guide Driver",
+    ],
     vehicleTypesCertified: ["Motorcoach"],
-  }
+  },
 ];

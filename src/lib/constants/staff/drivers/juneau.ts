@@ -14,8 +14,8 @@ export const juneauunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -23,12 +23,12 @@ export const juneauunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "23:00"
+            to: "23:00",
           },
           {
             from: "08:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
       },
       {
@@ -36,8 +36,8 @@ export const juneauunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
       },
       {
@@ -45,12 +45,12 @@ export const juneauunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "14:00"
+            to: "14:00",
           },
           {
             from: "06:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
       },
       {
@@ -58,14 +58,14 @@ export const juneauunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "14:00"
+            to: "14:00",
           },
           {
             from: "02:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.7,
     phone: "+303 659-520-6912",
@@ -87,8 +87,8 @@ export const juneauunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -96,8 +96,8 @@ export const juneauunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
       },
       {
@@ -105,12 +105,12 @@ export const juneauunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "20:00"
+            to: "20:00",
           },
           {
             from: "13:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -118,10 +118,10 @@ export const juneauunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 5,
     phone: "+555 425-655-9602",
@@ -143,8 +143,8 @@ export const juneauunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
       },
       {
@@ -152,12 +152,12 @@ export const juneauunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "23:00"
+            to: "23:00",
           },
           {
             from: "08:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -165,14 +165,14 @@ export const juneauunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "08:00"
+            to: "08:00",
           },
           {
             from: "01:00",
-            to: "04:00"
-          }
+            to: "04:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.6,
     phone: "+223 109-541-3851",
@@ -194,8 +194,8 @@ export const juneauunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
       },
       {
@@ -203,12 +203,12 @@ export const juneauunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "17:00"
+            to: "17:00",
           },
           {
             from: "17:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -216,12 +216,12 @@ export const juneauunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "05:00"
+            to: "05:00",
           },
           {
             from: "09:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
       },
       {
@@ -229,20 +229,25 @@ export const juneauunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "16:00"
+            to: "16:00",
           },
           {
             from: "17:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.7,
     phone: "+518 129-859-3214",
     email: "jerry.dubois@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/27.jpg",
-    specialties: ["Corporate Chauffeur", "Event Transportation", "Night Shift", "Airport Transfers"],
+    specialties: [
+      "Corporate Chauffeur",
+      "Event Transportation",
+      "Night Shift",
+      "Airport Transfers",
+    ],
     vehicleTypesCertified: ["Convertible"],
   },
   {
@@ -258,12 +263,12 @@ export const juneauunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "16:00"
+            to: "16:00",
           },
           {
             from: "18:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -271,8 +276,8 @@ export const juneauunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -280,10 +285,10 @@ export const juneauunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.3,
     phone: "+459 546-843-5407",
@@ -305,12 +310,12 @@ export const juneauunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "21:00"
+            to: "21:00",
           },
           {
             from: "11:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -318,8 +323,8 @@ export const juneauunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -327,12 +332,12 @@ export const juneauunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "18:00"
+            to: "18:00",
           },
           {
             from: "05:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
       },
       {
@@ -340,10 +345,10 @@ export const juneauunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.5,
     phone: "+737 562-455-6291",
@@ -365,12 +370,12 @@ export const juneauunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "21:00"
+            to: "21:00",
           },
           {
             from: "10:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -378,8 +383,8 @@ export const juneauunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -387,8 +392,8 @@ export const juneauunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -396,12 +401,12 @@ export const juneauunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "04:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
       },
       {
@@ -409,16 +414,20 @@ export const juneauunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.7,
     phone: "+545 979-313-5568",
     email: "lily.fisher@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/78.jpg",
-    specialties: ["Long-Distance Driving", "Luxury Car Specialist", "Tour Guide Driver"],
+    specialties: [
+      "Long-Distance Driving",
+      "Luxury Car Specialist",
+      "Tour Guide Driver",
+    ],
     vehicleTypesCertified: ["Electric Vehicle"],
   },
   {
@@ -434,8 +443,8 @@ export const juneauunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -443,8 +452,8 @@ export const juneauunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -452,8 +461,8 @@ export const juneauunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -461,20 +470,25 @@ export const juneauunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "13:00"
+            to: "13:00",
           },
           {
             from: "03:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.8,
     phone: "+780 498-131-1011",
     email: "lisa.baker@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/76.jpg",
-    specialties: ["Tour Guide Driver", "Security Detail", "Luxury Car Specialist", "Long-Distance Driving"],
+    specialties: [
+      "Tour Guide Driver",
+      "Security Detail",
+      "Luxury Car Specialist",
+      "Long-Distance Driving",
+    ],
     vehicleTypesCertified: ["Sedan", "Limousine"],
-  }
+  },
 ];

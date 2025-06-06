@@ -50,10 +50,14 @@ export const shanghaichinaasiaPacificCrew: CrewMember[] = [
     name: "Kyle Henderson",
     role: "Purser",
     experienceYears: 19,
-    certifications: ["Marine Radio Operator", "First Aid", "Navigation Certification"],
+    certifications: [
+      "Marine Radio Operator",
+      "First Aid",
+      "Navigation Certification",
+    ],
     languagesSpoken: ["Russian", "Dutch", "Spanish"],
     isAvailable: false,
     contactEmail: "kyle.henderson@paragontrails.com",
     contactPhone: "+1-041-152-8504",
-  }
+  },
 ];

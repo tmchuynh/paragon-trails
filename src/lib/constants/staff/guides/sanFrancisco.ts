@@ -11,21 +11,31 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Mason is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Architecture, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Asia Pacific"],
-    tourTypes: ["Street Art Tour", "Romantic Tour", "Underground Tour", "Festival Tour"],
+    tourTypes: [
+      "Street Art Tour",
+      "Romantic Tour",
+      "Underground Tour",
+      "Festival Tour",
+    ],
     maxGroupSize: 12,
     licenseNumber: "LIC-1344-SAN",
     phoneNumber: "+1-309-707-4322",
     contactEmail: "mason.wright@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Mason is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Architecture, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Mason is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Architecture, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.5,
     reviewsCount: 66,
-    quote: "Every corner of San Francisco tells a story, let me share them with you.",
+    quote:
+      "Every corner of San Francisco tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/4.jpg",
     languages: ["Greek"],
     experienceYears: 15,
-    certifications: ["Urban Navigation Specialist", "Sustainable Tourism Certificate"],
+    certifications: [
+      "Urban Navigation Specialist",
+      "Sustainable Tourism Certificate",
+    ],
     specialties: ["Architecture"],
     specialTraining: ["Historical Research Methods"],
   },
@@ -46,10 +56,12 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
     contactEmail: "lucas.martinez@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Lucas is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Wine Tasting, Sustainable Tourism, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Lucas is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Wine Tasting, Sustainable Tourism, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 90,
-    quote: "Every corner of San Francisco tells a story, let me share them with you.",
+    quote:
+      "Every corner of San Francisco tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/50.jpg",
     languages: ["Polish", "Turkish"],
     experienceYears: 4,
@@ -74,14 +86,19 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
     contactEmail: "mia.mitchell@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Mia is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Film Locations, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Mia is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Film Locations, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 72,
-    quote: "The best way to discover San Francisco is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover San Francisco is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/17.jpg",
     languages: ["English", "Hungarian"],
     experienceYears: 12,
-    certifications: ["Eco-Tourism Guide", "Certified International Tour Manager"],
+    certifications: [
+      "Eco-Tourism Guide",
+      "Certified International Tour Manager",
+    ],
     specialties: ["Film Locations"],
     specialTraining: ["Emergency Response"],
   },
@@ -102,14 +119,18 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
     contactEmail: "henry.thompson@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Henry is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Music Scene, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Henry is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Music Scene, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 50,
     quote: "In San Francisco, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/women/49.jpg",
     languages: ["Vietnamese", "Swedish", "Polish"],
     experienceYears: 9,
-    certifications: ["Professional Tour Guide Association", "Regional Tourism Ambassador"],
+    certifications: [
+      "Professional Tour Guide Association",
+      "Regional Tourism Ambassador",
+    ],
     specialties: ["Music Scene"],
     specialTraining: [],
   },
@@ -123,7 +144,13 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
     isPopular: false,
     bio: "William is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Indigenous Culture, Urban Legends, Local Craftsmanship, William provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Alaska"],
-    tourTypes: ["Food Tour", "Farm Visit", "Adventure Tour", "Street Art Tour", "Cultural Tour"],
+    tourTypes: [
+      "Food Tour",
+      "Farm Visit",
+      "Adventure Tour",
+      "Street Art Tour",
+      "Cultural Tour",
+    ],
     maxGroupSize: 13,
     licenseNumber: "LIC-2050-SAN",
     phoneNumber: "+1-706-475-1115",
@@ -135,7 +162,7 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -148,15 +175,17 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "20:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "William is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Indigenous Culture, Urban Legends, Local Craftsmanship, William provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "William is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Indigenous Culture, Urban Legends, Local Craftsmanship, William provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 87,
-    quote: "San Francisco isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "San Francisco isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/41.jpg",
     languages: ["Thai", "Malay"],
     experienceYears: 7,
@@ -190,7 +219,7 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -199,7 +228,7 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -212,15 +241,17 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Victoria is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Local Markets, Local Craftsmanship, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Victoria is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Local Markets, Local Craftsmanship, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 69,
-    quote: "The best way to discover San Francisco is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover San Francisco is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/2.jpg",
     languages: ["Romanian", "Czech"],
     experienceYears: 10,
@@ -238,7 +269,13 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Layla is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Street Food, LGBTQ+ History, Hidden Gems, Architecture, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast USA", "Mediterranean"],
-    tourTypes: ["Cruise Excursion", "Underground Tour", "Relocation Tour", "Family-Friendly Tour", "Farm Visit"],
+    tourTypes: [
+      "Cruise Excursion",
+      "Underground Tour",
+      "Relocation Tour",
+      "Family-Friendly Tour",
+      "Farm Visit",
+    ],
     maxGroupSize: 18,
     licenseNumber: "LIC-2589-SAN",
     phoneNumber: "+1-239-493-3408",
@@ -254,7 +291,7 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -263,7 +300,7 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -276,7 +313,7 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -289,20 +326,30 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Layla is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Street Food, LGBTQ+ History, Hidden Gems, Architecture, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Layla is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Street Food, LGBTQ+ History, Hidden Gems, Architecture, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 51,
     quote: "In San Francisco, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/men/15.jpg",
     languages: ["Greek"],
     experienceYears: 2,
-    certifications: ["Eco-Tourism Guide", "Sustainable Tourism Certificate", "Cultural Heritage Specialist"],
-    specialties: ["Street Food", "LGBTQ+ History", "Hidden Gems", "Architecture"],
+    certifications: [
+      "Eco-Tourism Guide",
+      "Sustainable Tourism Certificate",
+      "Cultural Heritage Specialist",
+    ],
+    specialties: [
+      "Street Food",
+      "LGBTQ+ History",
+      "Hidden Gems",
+      "Architecture",
+    ],
     specialTraining: ["Urban Planning"],
-  }
+  },
 ];

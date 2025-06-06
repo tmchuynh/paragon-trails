@@ -14,12 +14,12 @@ export const skagwayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "05:00"
+            to: "05:00",
           },
           {
             from: "04:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -27,12 +27,12 @@ export const skagwayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "08:00"
+            to: "08:00",
           },
           {
             from: "05:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -40,8 +40,8 @@ export const skagwayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
       },
       {
@@ -49,8 +49,8 @@ export const skagwayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -58,16 +58,20 @@ export const skagwayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.3,
     phone: "+3 493-986-6285",
     email: "sarah.hawkins@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/29.jpg",
-    specialties: ["Long-Distance Driving", "Luxury Car Specialist", "Tour Guide Driver"],
+    specialties: [
+      "Long-Distance Driving",
+      "Luxury Car Specialist",
+      "Tour Guide Driver",
+    ],
     vehicleTypesCertified: ["Sports Car", "SUV", "Sedan"],
   },
   {
@@ -83,8 +87,8 @@ export const skagwayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -92,8 +96,8 @@ export const skagwayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -101,8 +105,8 @@ export const skagwayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
       },
       {
@@ -110,8 +114,8 @@ export const skagwayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -119,10 +123,10 @@ export const skagwayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.6,
     phone: "+200 336-391-8565",
@@ -144,12 +148,12 @@ export const skagwayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "10:00"
+            to: "10:00",
           },
           {
             from: "16:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -157,8 +161,8 @@ export const skagwayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -166,8 +170,8 @@ export const skagwayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -175,10 +179,10 @@ export const skagwayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.6,
     phone: "+398 748-762-9634",
@@ -200,12 +204,12 @@ export const skagwayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "10:00"
+            to: "10:00",
           },
           {
             from: "17:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -213,8 +217,8 @@ export const skagwayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
       },
       {
@@ -222,8 +226,8 @@ export const skagwayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -231,21 +235,27 @@ export const skagwayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "12:00"
+            to: "12:00",
           },
           {
             from: "16:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.5,
     phone: "+209 626-725-8863",
     email: "abigail.harris@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/32.jpg",
     specialties: ["Night Shift"],
-    vehicleTypesCertified: ["Sports Car", "Convertible", "Van", "SUV", "Limousine"],
+    vehicleTypesCertified: [
+      "Sports Car",
+      "Convertible",
+      "Van",
+      "SUV",
+      "Limousine",
+    ],
   },
   {
     id: "driver-skagway-5",
@@ -260,8 +270,8 @@ export const skagwayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
       },
       {
@@ -269,8 +279,8 @@ export const skagwayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -278,10 +288,10 @@ export const skagwayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.4,
     phone: "+122 244-742-3986",
@@ -303,12 +313,12 @@ export const skagwayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "16:00"
+            to: "16:00",
           },
           {
             from: "07:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -316,8 +326,8 @@ export const skagwayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -325,12 +335,12 @@ export const skagwayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "17:00"
+            to: "17:00",
           },
           {
             from: "02:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -338,8 +348,8 @@ export const skagwayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -347,10 +357,10 @@ export const skagwayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.6,
     phone: "+845 978-458-6517",
@@ -372,12 +382,12 @@ export const skagwayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "06:00"
+            to: "06:00",
           },
           {
             from: "01:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -385,12 +395,12 @@ export const skagwayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "03:00"
+            to: "03:00",
           },
           {
             from: "08:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
       },
       {
@@ -398,12 +408,12 @@ export const skagwayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "22:00"
+            to: "22:00",
           },
           {
             from: "04:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -411,10 +421,10 @@ export const skagwayunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.7,
     phone: "+618 644-885-9599",
@@ -422,5 +432,5 @@ export const skagwayunitedStatesalaskaDrivers: Driver[] = [
     photoUrl: "https://randomuser.me/api/portraits/women/2.jpg",
     specialties: ["Luxury Car Specialist", "Event Transportation"],
     vehicleTypesCertified: ["SUV", "Sports Car", "Electric Vehicle"],
-  }
+  },
 ];

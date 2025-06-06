@@ -14,8 +14,8 @@ export const helsinkifinlandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -23,8 +23,8 @@ export const helsinkifinlandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -32,8 +32,8 @@ export const helsinkifinlandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -41,17 +41,23 @@ export const helsinkifinlandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.8,
     phone: "+392 263-674-2255",
     email: "alexander.campbell@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/47.jpg",
     specialties: ["Airport Transfers", "Event Transportation"],
-    vehicleTypesCertified: ["Sedan", "Electric Vehicle", "Motorcoach", "Convertible", "Luxury SUV"],
+    vehicleTypesCertified: [
+      "Sedan",
+      "Electric Vehicle",
+      "Motorcoach",
+      "Convertible",
+      "Luxury SUV",
+    ],
   },
   {
     id: "driver-helsinki-2",
@@ -66,12 +72,12 @@ export const helsinkifinlandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "09:00"
+            to: "09:00",
           },
           {
             from: "15:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -79,8 +85,8 @@ export const helsinkifinlandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
       },
       {
@@ -88,14 +94,14 @@ export const helsinkifinlandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "08:00"
+            to: "08:00",
           },
           {
             from: "08:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.5,
     phone: "+481 492-393-8607",
@@ -117,8 +123,8 @@ export const helsinkifinlandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
       },
       {
@@ -126,12 +132,12 @@ export const helsinkifinlandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "11:00"
+            to: "11:00",
           },
           {
             from: "05:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
       },
       {
@@ -139,16 +145,21 @@ export const helsinkifinlandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.6,
     phone: "+690 145-946-2483",
     email: "bobby.smith@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/51.jpg",
-    specialties: ["Night Shift", "Event Transportation", "Corporate Chauffeur", "VIP Transport"],
+    specialties: [
+      "Night Shift",
+      "Event Transportation",
+      "Corporate Chauffeur",
+      "VIP Transport",
+    ],
     vehicleTypesCertified: ["Motorcoach", "Sports Car"],
   },
   {
@@ -164,12 +175,12 @@ export const helsinkifinlandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "11:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
       },
       {
@@ -177,8 +188,8 @@ export const helsinkifinlandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -186,12 +197,12 @@ export const helsinkifinlandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "12:00"
+            to: "12:00",
           },
           {
             from: "01:00",
-            to: "03:00"
-          }
+            to: "03:00",
+          },
         ],
       },
       {
@@ -199,12 +210,12 @@ export const helsinkifinlandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "23:00"
+            to: "23:00",
           },
           {
             from: "10:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
       },
       {
@@ -212,20 +223,24 @@ export const helsinkifinlandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "05:00"
+            to: "05:00",
           },
           {
             from: "07:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.2,
     phone: "+709 227-758-4041",
     email: "maria.mitchell@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/32.jpg",
-    specialties: ["Event Transportation", "Long-Distance Driving", "Tour Guide Driver"],
+    specialties: [
+      "Event Transportation",
+      "Long-Distance Driving",
+      "Tour Guide Driver",
+    ],
     vehicleTypesCertified: ["Luxury SUV", "Sports Car", "Convertible", "SUV"],
   },
   {
@@ -241,12 +256,12 @@ export const helsinkifinlandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "10:00"
+            to: "10:00",
           },
           {
             from: "12:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -254,8 +269,8 @@ export const helsinkifinlandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -263,12 +278,12 @@ export const helsinkifinlandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "22:00"
+            to: "22:00",
           },
           {
             from: "11:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -276,14 +291,14 @@ export const helsinkifinlandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "18:00"
+            to: "18:00",
           },
           {
             from: "16:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.7,
     phone: "+541 909-870-5117",
@@ -305,8 +320,8 @@ export const helsinkifinlandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -314,8 +329,8 @@ export const helsinkifinlandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -323,12 +338,12 @@ export const helsinkifinlandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "09:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -336,10 +351,10 @@ export const helsinkifinlandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.7,
     phone: "+636 255-589-5688",
@@ -361,8 +376,8 @@ export const helsinkifinlandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
       },
       {
@@ -370,12 +385,12 @@ export const helsinkifinlandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "20:00"
+            to: "20:00",
           },
           {
             from: "06:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
       },
       {
@@ -383,8 +398,8 @@ export const helsinkifinlandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -392,10 +407,10 @@ export const helsinkifinlandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.2,
     phone: "+711 541-725-9744",
@@ -417,12 +432,12 @@ export const helsinkifinlandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "09:00"
+            to: "09:00",
           },
           {
             from: "19:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -430,12 +445,12 @@ export const helsinkifinlandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "15:00"
+            to: "15:00",
           },
           {
             from: "05:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
       },
       {
@@ -443,14 +458,14 @@ export const helsinkifinlandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "15:00"
+            to: "15:00",
           },
           {
             from: "14:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.5,
     phone: "+245 891-728-8035",
@@ -472,8 +487,8 @@ export const helsinkifinlandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -481,8 +496,8 @@ export const helsinkifinlandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
       },
       {
@@ -490,12 +505,12 @@ export const helsinkifinlandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "21:00"
+            to: "21:00",
           },
           {
             from: "03:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -503,12 +518,12 @@ export const helsinkifinlandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "15:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -516,10 +531,10 @@ export const helsinkifinlandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.2,
     phone: "+94 294-879-3631",
@@ -527,5 +542,5 @@ export const helsinkifinlandnorthernEuropeDrivers: Driver[] = [
     photoUrl: "https://randomuser.me/api/portraits/women/29.jpg",
     specialties: ["Night Shift", "Tour Guide Driver", "Event Transportation"],
     vehicleTypesCertified: ["Limousine", "SUV"],
-  }
+  },
 ];

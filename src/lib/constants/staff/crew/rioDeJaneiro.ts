@@ -72,10 +72,14 @@ export const rioDeJaneirobrazilsouthAmericaCrew: CrewMember[] = [
     name: "Jeremy Rossi",
     role: "Captain",
     experienceYears: 8,
-    certifications: ["Hospitality Training", "Environmental Awareness", "Dive Master"],
+    certifications: [
+      "Hospitality Training",
+      "Environmental Awareness",
+      "Dive Master",
+    ],
     languagesSpoken: ["Swedish", "Korean", "Turkish"],
     isAvailable: true,
     contactEmail: "jeremy.rossi@paragontrails.com",
     contactPhone: "+1-539-149-5978",
-  }
+  },
 ];

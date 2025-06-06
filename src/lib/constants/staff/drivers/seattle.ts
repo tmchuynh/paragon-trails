@@ -14,8 +14,8 @@ export const seattleunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
       },
       {
@@ -23,12 +23,12 @@ export const seattleunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "14:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
       },
       {
@@ -36,20 +36,24 @@ export const seattleunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "22:00"
+            to: "22:00",
           },
           {
             from: "09:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.6,
     phone: "+239 128-416-8360",
     email: "mia.edwards@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/10.jpg",
-    specialties: ["Long-Distance Driving", "Tour Guide Driver", "Event Transportation"],
+    specialties: [
+      "Long-Distance Driving",
+      "Tour Guide Driver",
+      "Event Transportation",
+    ],
     vehicleTypesCertified: ["SUV", "Luxury SUV"],
   },
   {
@@ -65,8 +69,8 @@ export const seattleunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -74,8 +78,8 @@ export const seattleunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -83,17 +87,22 @@ export const seattleunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.8,
     phone: "+257 317-118-4508",
     email: "sophia.brown@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/66.jpg",
     specialties: ["Long-Distance Driving"],
-    vehicleTypesCertified: ["Electric Vehicle", "Sports Car", "Convertible", "Motorcoach"],
+    vehicleTypesCertified: [
+      "Electric Vehicle",
+      "Sports Car",
+      "Convertible",
+      "Motorcoach",
+    ],
   },
   {
     id: "driver-seattle-3",
@@ -108,12 +117,12 @@ export const seattleunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "22:00"
+            to: "22:00",
           },
           {
             from: "17:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -121,8 +130,8 @@ export const seattleunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -130,12 +139,12 @@ export const seattleunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "19:00"
+            to: "19:00",
           },
           {
             from: "00:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -143,12 +152,12 @@ export const seattleunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "08:00"
+            to: "08:00",
           },
           {
             from: "20:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -156,14 +165,14 @@ export const seattleunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "23:00"
+            to: "23:00",
           },
           {
             from: "05:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.2,
     phone: "+468 317-844-8041",
@@ -185,8 +194,8 @@ export const seattleunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -194,8 +203,8 @@ export const seattleunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -203,10 +212,10 @@ export const seattleunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.2,
     phone: "+694 430-415-6263",
@@ -228,12 +237,12 @@ export const seattleunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "11:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
       },
       {
@@ -241,8 +250,8 @@ export const seattleunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -250,8 +259,8 @@ export const seattleunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
       },
       {
@@ -259,8 +268,8 @@ export const seattleunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -268,20 +277,24 @@ export const seattleunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "18:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.7,
     phone: "+625 369-376-7695",
     email: "abigail.foster@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/34.jpg",
-    specialties: ["Luxury Car Specialist", "Airport Transfers", "Event Transportation"],
+    specialties: [
+      "Luxury Car Specialist",
+      "Airport Transfers",
+      "Event Transportation",
+    ],
     vehicleTypesCertified: ["Sedan", "Electric Vehicle"],
   },
   {
@@ -297,12 +310,12 @@ export const seattleunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "20:00"
+            to: "20:00",
           },
           {
             from: "05:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -310,8 +323,8 @@ export const seattleunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -319,8 +332,8 @@ export const seattleunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -328,14 +341,14 @@ export const seattleunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "20:00"
+            to: "20:00",
           },
           {
             from: "04:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.2,
     phone: "+370 944-696-8435",
@@ -357,12 +370,12 @@ export const seattleunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "13:00"
+            to: "13:00",
           },
           {
             from: "04:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -370,8 +383,8 @@ export const seattleunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
       },
       {
@@ -379,10 +392,10 @@ export const seattleunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4,
     phone: "+682 302-839-6283",
@@ -404,8 +417,8 @@ export const seattleunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -413,12 +426,12 @@ export const seattleunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "10:00"
+            to: "10:00",
           },
           {
             from: "17:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -426,12 +439,12 @@ export const seattleunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "10:00"
+            to: "10:00",
           },
           {
             from: "14:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -439,10 +452,10 @@ export const seattleunitedStatesalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.3,
     phone: "+227 639-560-4505",
@@ -450,5 +463,5 @@ export const seattleunitedStatesalaskaDrivers: Driver[] = [
     photoUrl: "https://randomuser.me/api/portraits/women/24.jpg",
     specialties: ["Tour Guide Driver"],
     vehicleTypesCertified: ["Electric Vehicle"],
-  }
+  },
 ];

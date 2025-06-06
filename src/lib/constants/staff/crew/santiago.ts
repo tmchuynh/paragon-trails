@@ -33,5 +33,5 @@ export const santiagochilesouthAmericaCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "amelia.morgan@paragontrails.com",
     contactPhone: "+1-488-655-1341",
-  }
+  },
 ];

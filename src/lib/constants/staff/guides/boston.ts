@@ -18,14 +18,19 @@ export const bostonunitedStateseastCoastUsaGuides: TourGuide[] = [
     contactEmail: "amelia.nelson@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Amelia is a passionate tour guide with extensive knowledge of Boston and United States. Specializing in Local Cuisine, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Amelia is a passionate tour guide with extensive knowledge of Boston and United States. Specializing in Local Cuisine, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 43,
     quote: "In Boston, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/women/30.jpg",
     languages: ["Thai"],
     experienceYears: 5,
-    certifications: ["Sustainable Tourism Certificate", "CPR & First Aid", "Food Safety Certification"],
+    certifications: [
+      "Sustainable Tourism Certificate",
+      "CPR & First Aid",
+      "Food Safety Certification",
+    ],
     specialties: ["Local Cuisine"],
     specialTraining: ["Urban Planning", "Art History"],
   },
@@ -46,10 +51,12 @@ export const bostonunitedStateseastCoastUsaGuides: TourGuide[] = [
     contactEmail: "emma.young@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Emma is a passionate tour guide with extensive knowledge of Boston and United States. Specializing in Music Scene, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Emma is a passionate tour guide with extensive knowledge of Boston and United States. Specializing in Music Scene, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 103,
-    quote: "Boston isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Boston isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/45.jpg",
     languages: ["French", "Greek", "Korean"],
     experienceYears: 15,
@@ -67,17 +74,25 @@ export const bostonunitedStateseastCoastUsaGuides: TourGuide[] = [
     isPopular: true,
     bio: "Aria is a passionate tour guide with extensive knowledge of Boston and United States. Specializing in Local Cuisine, Local Craftsmanship, Street Food, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Asia Pacific"],
-    tourTypes: ["Historical Tour", "Group Tour", "Museum Tour", "Cultural Tour", "Market Tour"],
+    tourTypes: [
+      "Historical Tour",
+      "Group Tour",
+      "Museum Tour",
+      "Cultural Tour",
+      "Market Tour",
+    ],
     maxGroupSize: 16,
     licenseNumber: "LIC-5807-BOS",
     phoneNumber: "+1-740-764-4682",
     contactEmail: "aria.smith@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Aria is a passionate tour guide with extensive knowledge of Boston and United States. Specializing in Local Cuisine, Local Craftsmanship, Street Food, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Aria is a passionate tour guide with extensive knowledge of Boston and United States. Specializing in Local Cuisine, Local Craftsmanship, Street Food, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 102,
-    quote: "The best way to discover Boston is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Boston is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/24.jpg",
     languages: ["Hebrew"],
     experienceYears: 14,
@@ -102,14 +117,18 @@ export const bostonunitedStateseastCoastUsaGuides: TourGuide[] = [
     contactEmail: "victoria.miller@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Victoria is a passionate tour guide with extensive knowledge of Boston and United States. Specializing in Architecture, Film Locations, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Victoria is a passionate tour guide with extensive knowledge of Boston and United States. Specializing in Architecture, Film Locations, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 79,
     quote: "Every corner of Boston tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/32.jpg",
     languages: ["Dutch", "Arabic"],
     experienceYears: 11,
-    certifications: ["Wilderness First Responder", "Cultural Heritage Specialist"],
+    certifications: [
+      "Wilderness First Responder",
+      "Cultural Heritage Specialist",
+    ],
     specialties: ["Architecture", "Film Locations"],
     specialTraining: ["Regional Geology"],
   },
@@ -130,7 +149,8 @@ export const bostonunitedStateseastCoastUsaGuides: TourGuide[] = [
     contactEmail: "charlotte.scott@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Charlotte is a passionate tour guide with extensive knowledge of Boston and United States. Specializing in Historical Landmarks, Film Locations, Street Food, LGBTQ+ History, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Charlotte is a passionate tour guide with extensive knowledge of Boston and United States. Specializing in Historical Landmarks, Film Locations, Street Food, LGBTQ+ History, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 49,
     quote: "Every corner of Boston tells a story, let me share them with you.",
@@ -138,7 +158,12 @@ export const bostonunitedStateseastCoastUsaGuides: TourGuide[] = [
     languages: ["Serbian", "Turkish"],
     experienceYears: 14,
     certifications: ["Professional Tour Guide Association"],
-    specialties: ["Historical Landmarks", "Film Locations", "Street Food", "LGBTQ+ History"],
+    specialties: [
+      "Historical Landmarks",
+      "Film Locations",
+      "Street Food",
+      "LGBTQ+ History",
+    ],
     specialTraining: [],
   },
   {
@@ -151,7 +176,12 @@ export const bostonunitedStateseastCoastUsaGuides: TourGuide[] = [
     isPopular: true,
     bio: "Zoe is a passionate tour guide with extensive knowledge of Boston and United States. Specializing in Parks & Gardens, Religious Sites, Photography Spots, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Middle East"],
-    tourTypes: ["Family-Friendly Tour", "Religious Tour", "Helicopter Tour", "LGBTQ+ Friendly Tour"],
+    tourTypes: [
+      "Family-Friendly Tour",
+      "Religious Tour",
+      "Helicopter Tour",
+      "LGBTQ+ Friendly Tour",
+    ],
     maxGroupSize: 18,
     licenseNumber: "LIC-9672-BOS",
     phoneNumber: "+1-530-526-9140",
@@ -167,7 +197,7 @@ export const bostonunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -176,7 +206,7 @@ export const bostonunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -189,7 +219,7 @@ export const bostonunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -198,12 +228,13 @@ export const bostonunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Zoe is a passionate tour guide with extensive knowledge of Boston and United States. Specializing in Parks & Gardens, Religious Sites, Photography Spots, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Zoe is a passionate tour guide with extensive knowledge of Boston and United States. Specializing in Parks & Gardens, Religious Sites, Photography Spots, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 27,
     quote: "In Boston, we don't just see the sights - we make memories.",
@@ -240,7 +271,7 @@ export const bostonunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -249,7 +280,7 @@ export const bostonunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -258,7 +289,7 @@ export const bostonunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -271,7 +302,7 @@ export const bostonunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -284,19 +315,25 @@ export const bostonunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "20:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Madison is a passionate tour guide with extensive knowledge of Boston and United States. Specializing in Art Galleries, Local Cuisine, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Madison is a passionate tour guide with extensive knowledge of Boston and United States. Specializing in Art Galleries, Local Cuisine, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 5,
     reviewsCount: 50,
-    quote: "Boston isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Boston isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/56.jpg",
     languages: ["Spanish", "French"],
     experienceYears: 16,
-    certifications: ["Wilderness First Responder", "Language Proficiency Certification", "Cultural Heritage Specialist"],
+    certifications: [
+      "Wilderness First Responder",
+      "Language Proficiency Certification",
+      "Cultural Heritage Specialist",
+    ],
     specialties: ["Art Galleries", "Local Cuisine"],
     specialTraining: ["Desert Navigation", "Photography"],
   },
@@ -310,7 +347,12 @@ export const bostonunitedStateseastCoastUsaGuides: TourGuide[] = [
     isPopular: false,
     bio: "James is a passionate tour guide with extensive knowledge of Boston and United States. Specializing in Local Craftsmanship, James provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Northern Europe", "Asia Pacific"],
-    tourTypes: ["Nature Tour", "Cultural Tour", "Bike Tour", "Photography Tour"],
+    tourTypes: [
+      "Nature Tour",
+      "Cultural Tour",
+      "Bike Tour",
+      "Photography Tour",
+    ],
     maxGroupSize: 19,
     licenseNumber: "LIC-6029-BOS",
     phoneNumber: "+1-126-151-9301",
@@ -326,7 +368,7 @@ export const bostonunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -339,7 +381,7 @@ export const bostonunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -348,20 +390,26 @@ export const bostonunitedStateseastCoastUsaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "James is a passionate tour guide with extensive knowledge of Boston and United States. Specializing in Local Craftsmanship, James provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "James is a passionate tour guide with extensive knowledge of Boston and United States. Specializing in Local Craftsmanship, James provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 5,
     reviewsCount: 87,
-    quote: "The best way to discover Boston is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Boston is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/14.jpg",
     languages: ["Tagalog"],
     experienceYears: 7,
-    certifications: ["Sustainable Tourism Certificate", "Adventure Tourism Safety Certificate", "Heritage Interpretation Certificate"],
+    certifications: [
+      "Sustainable Tourism Certificate",
+      "Adventure Tourism Safety Certificate",
+      "Heritage Interpretation Certificate",
+    ],
     specialties: ["Local Craftsmanship"],
     specialTraining: ["Mountain Survival"],
-  }
+  },
 ];

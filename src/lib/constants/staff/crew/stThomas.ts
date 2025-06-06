@@ -44,5 +44,5 @@ export const stThomasusVirginIslandscaribbeanCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "aiden.foster@paragontrails.com",
     contactPhone: "+1-329-699-8920",
-  }
+  },
 ];

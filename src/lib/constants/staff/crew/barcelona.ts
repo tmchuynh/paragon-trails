@@ -28,7 +28,11 @@ export const barcelonaspainmediterraneanCrew: CrewMember[] = [
     name: "Valentina Martin",
     role: "Navigator",
     experienceYears: 21,
-    certifications: ["First Aid", "Navigation Certification", "Hospitality Training"],
+    certifications: [
+      "First Aid",
+      "Navigation Certification",
+      "Hospitality Training",
+    ],
     languagesSpoken: ["Dutch", "Czech"],
     isAvailable: true,
     contactEmail: "valentina.martin@paragontrails.com",
@@ -44,5 +48,5 @@ export const barcelonaspainmediterraneanCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "nathan.palmer@paragontrails.com",
     contactPhone: "+1-790-853-3253",
-  }
+  },
 ];

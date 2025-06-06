@@ -50,7 +50,11 @@ export const seattleunitedStatesalaskaCrew: CrewMember[] = [
     name: "Yuki Graham",
     role: "Steward/Stewardess",
     experienceYears: 8,
-    certifications: ["Navigation Certification", "STCW", "Marine Radio Operator"],
+    certifications: [
+      "Navigation Certification",
+      "STCW",
+      "Marine Radio Operator",
+    ],
     languagesSpoken: ["Swedish", "Korean"],
     isAvailable: true,
     contactEmail: "yuki.graham@paragontrails.com",
@@ -88,5 +92,5 @@ export const seattleunitedStatesalaskaCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "ashley.hudson@paragontrails.com",
     contactPhone: "+1-716-598-2110",
-  }
+  },
 ];

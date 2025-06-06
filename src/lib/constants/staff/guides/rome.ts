@@ -18,15 +18,23 @@ export const romeitalymediterraneanGuides: TourGuide[] = [
     contactEmail: "sebastian.rivera@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Sebastian is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in LGBTQ+ History, Film Locations, Public Transportation Navigation, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sebastian is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in LGBTQ+ History, Film Locations, Public Transportation Navigation, Sebastian provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 5,
     reviewsCount: 99,
     quote: "In Rome, we don't just see the sights - we make memories.",
     profileImage: "https://randomuser.me/api/portraits/women/43.jpg",
     languages: ["Swedish", "Indonesian", "Vietnamese"],
     experienceYears: 13,
-    certifications: ["Cultural Heritage Specialist", "Language Proficiency Certification"],
-    specialties: ["LGBTQ+ History", "Film Locations", "Public Transportation Navigation"],
+    certifications: [
+      "Cultural Heritage Specialist",
+      "Language Proficiency Certification",
+    ],
+    specialties: [
+      "LGBTQ+ History",
+      "Film Locations",
+      "Public Transportation Navigation",
+    ],
     specialTraining: ["Accessibility Services"],
   },
   {
@@ -46,14 +54,20 @@ export const romeitalymediterraneanGuides: TourGuide[] = [
     contactEmail: "jacob.nguyen@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Jacob is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Cultural Etiquette, Wildlife, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Jacob is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Cultural Etiquette, Wildlife, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 99,
-    quote: "The best way to discover Rome is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Rome is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/47.jpg",
     languages: ["Arabic"],
     experienceYears: 13,
-    certifications: ["Language Proficiency Certification", "CPR & First Aid", "Food Safety Certification"],
+    certifications: [
+      "Language Proficiency Certification",
+      "CPR & First Aid",
+      "Food Safety Certification",
+    ],
     specialties: ["Cultural Etiquette", "Wildlife"],
     specialTraining: ["Group Management"],
   },
@@ -67,21 +81,31 @@ export const romeitalymediterraneanGuides: TourGuide[] = [
     isPopular: true,
     bio: "Sofia is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Photography Spots, Urban Legends, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Alaska", "South America"],
-    tourTypes: ["Nature Tour", "Photography Tour", "Shopping Tour", "Street Art Tour"],
+    tourTypes: [
+      "Nature Tour",
+      "Photography Tour",
+      "Shopping Tour",
+      "Street Art Tour",
+    ],
     maxGroupSize: 14,
     licenseNumber: "LIC-8616-ROM",
     phoneNumber: "+1-906-292-2954",
     contactEmail: "sofia.brown@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Sofia is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Photography Spots, Urban Legends, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Sofia is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Photography Spots, Urban Legends, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 36,
     quote: "My goal is to help you fall in love with Rome just as I have.",
     profileImage: "https://randomuser.me/api/portraits/men/6.jpg",
     languages: ["Croatian", "Malay"],
     experienceYears: 5,
-    certifications: ["Cultural Heritage Specialist", "Licensed City Guide", "Heritage Interpretation Certificate"],
+    certifications: [
+      "Cultural Heritage Specialist",
+      "Licensed City Guide",
+      "Heritage Interpretation Certificate",
+    ],
     specialties: ["Photography Spots", "Urban Legends"],
     specialTraining: ["Regional Cuisine", "Local Transit Systems"],
   },
@@ -102,10 +126,12 @@ export const romeitalymediterraneanGuides: TourGuide[] = [
     contactEmail: "madison.campbell@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Madison is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Cultural Etiquette, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Madison is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Cultural Etiquette, Madison provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 14,
-    quote: "Rome isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Rome isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/5.jpg",
     languages: ["Tagalog", "German", "Arabic"],
     experienceYears: 16,
@@ -123,7 +149,13 @@ export const romeitalymediterraneanGuides: TourGuide[] = [
     isPopular: true,
     bio: "Zoe is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Adventure Sports, Parks & Gardens, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["South America"],
-    tourTypes: ["Nature Tour", "Accessible Tour", "LGBTQ+ Friendly Tour", "Market Tour", "Private Tour"],
+    tourTypes: [
+      "Nature Tour",
+      "Accessible Tour",
+      "LGBTQ+ Friendly Tour",
+      "Market Tour",
+      "Private Tour",
+    ],
     maxGroupSize: 12,
     licenseNumber: "LIC-1749-ROM",
     phoneNumber: "+1-495-811-8581",
@@ -135,7 +167,7 @@ export const romeitalymediterraneanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -144,7 +176,7 @@ export const romeitalymediterraneanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -157,19 +189,25 @@ export const romeitalymediterraneanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "20:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Zoe is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Adventure Sports, Parks & Gardens, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Zoe is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Adventure Sports, Parks & Gardens, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 63,
-    quote: "Rome isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Rome isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/39.jpg",
     languages: ["Danish", "Portuguese"],
     experienceYears: 14,
-    certifications: ["Wilderness First Responder", "Sustainable Tourism Certificate", "Language Proficiency Certification"],
+    certifications: [
+      "Wilderness First Responder",
+      "Sustainable Tourism Certificate",
+      "Language Proficiency Certification",
+    ],
     specialties: ["Adventure Sports", "Parks & Gardens"],
     specialTraining: ["Historical Research Methods"],
   },
@@ -199,7 +237,7 @@ export const romeitalymediterraneanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -212,7 +250,7 @@ export const romeitalymediterraneanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -221,7 +259,7 @@ export const romeitalymediterraneanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -234,7 +272,7 @@ export const romeitalymediterraneanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -247,7 +285,7 @@ export const romeitalymediterraneanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -260,20 +298,27 @@ export const romeitalymediterraneanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Emma is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Wine Tasting, Public Transportation Navigation, Historical Landmarks, Local Craftsmanship, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Emma is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Wine Tasting, Public Transportation Navigation, Historical Landmarks, Local Craftsmanship, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 104,
-    quote: "Rome isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Rome isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/55.jpg",
     languages: ["Swahili"],
     experienceYears: 15,
     certifications: ["Sustainable Tourism Certificate", "CPR & First Aid"],
-    specialties: ["Wine Tasting", "Public Transportation Navigation", "Historical Landmarks", "Local Craftsmanship"],
+    specialties: [
+      "Wine Tasting",
+      "Public Transportation Navigation",
+      "Historical Landmarks",
+      "Local Craftsmanship",
+    ],
     specialTraining: [],
   },
   {
@@ -286,7 +331,13 @@ export const romeitalymediterraneanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Riley is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Religious Sites, Family Activities, Music Scene, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Caribbean", "East Coast Canada"],
-    tourTypes: ["Festival Tour", "Audio Tour", "Wine Tour", "Shopping Tour", "Adventure Tour"],
+    tourTypes: [
+      "Festival Tour",
+      "Audio Tour",
+      "Wine Tour",
+      "Shopping Tour",
+      "Adventure Tour",
+    ],
     maxGroupSize: 17,
     licenseNumber: "LIC-4443-ROM",
     phoneNumber: "+1-598-869-7946",
@@ -298,7 +349,7 @@ export const romeitalymediterraneanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -307,20 +358,25 @@ export const romeitalymediterraneanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "19:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Riley is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Religious Sites, Family Activities, Music Scene, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Riley is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Religious Sites, Family Activities, Music Scene, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 68,
     quote: "My goal is to help you fall in love with Rome just as I have.",
     profileImage: "https://randomuser.me/api/portraits/men/58.jpg",
     languages: ["Spanish", "Serbian", "Danish"],
     experienceYears: 15,
-    certifications: ["Certified International Tour Manager", "Wilderness First Responder", "Food Safety Certification"],
+    certifications: [
+      "Certified International Tour Manager",
+      "Wilderness First Responder",
+      "Food Safety Certification",
+    ],
     specialties: ["Religious Sites", "Family Activities", "Music Scene"],
     specialTraining: [],
-  }
+  },
 ];

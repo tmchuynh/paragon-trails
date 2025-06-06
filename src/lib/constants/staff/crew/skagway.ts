@@ -28,7 +28,11 @@ export const skagwayunitedStatesalaskaCrew: CrewMember[] = [
     name: "Ava Day",
     role: "Captain",
     experienceYears: 9,
-    certifications: ["First Aid", "Hospitality Training", "Environmental Awareness"],
+    certifications: [
+      "First Aid",
+      "Hospitality Training",
+      "Environmental Awareness",
+    ],
     languagesSpoken: ["Romanian", "Danish"],
     isAvailable: true,
     contactEmail: "ava.day@paragontrails.com",
@@ -66,5 +70,5 @@ export const skagwayunitedStatesalaskaCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "stephen.smith@paragontrails.com",
     contactPhone: "+1-158-381-0790",
-  }
+  },
 ];

@@ -18,15 +18,22 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
     contactEmail: "ethan.smith@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Ethan is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Photography Spots, Adventure Sports, Music Scene, Sustainable Tourism, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Ethan is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Photography Spots, Adventure Sports, Music Scene, Sustainable Tourism, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 30,
-    quote: "Montreal isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Montreal isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/38.jpg",
     languages: ["Hungarian", "Croatian", "Dutch"],
     experienceYears: 9,
     certifications: ["Local History Certification"],
-    specialties: ["Photography Spots", "Adventure Sports", "Music Scene", "Sustainable Tourism"],
+    specialties: [
+      "Photography Spots",
+      "Adventure Sports",
+      "Music Scene",
+      "Sustainable Tourism",
+    ],
     specialTraining: ["Marine Biology", "Photography"],
   },
   {
@@ -46,15 +53,25 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
     contactEmail: "riley.jackson@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Riley is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Film Locations, Local Cuisine, Sustainable Tourism, Historical Landmarks, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Riley is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Film Locations, Local Cuisine, Sustainable Tourism, Historical Landmarks, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 31,
-    quote: "Every corner of Montreal tells a story, let me share them with you.",
+    quote:
+      "Every corner of Montreal tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/35.jpg",
     languages: ["Serbian", "Norwegian", "Japanese"],
     experienceYears: 2,
-    certifications: ["Regional Tourism Ambassador", "Language Proficiency Certification"],
-    specialties: ["Film Locations", "Local Cuisine", "Sustainable Tourism", "Historical Landmarks"],
+    certifications: [
+      "Regional Tourism Ambassador",
+      "Language Proficiency Certification",
+    ],
+    specialties: [
+      "Film Locations",
+      "Local Cuisine",
+      "Sustainable Tourism",
+      "Historical Landmarks",
+    ],
     specialTraining: [],
   },
   {
@@ -74,7 +91,8 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
     contactEmail: "penelope.flores@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Penelope is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Adventure Sports, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Penelope is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Adventure Sports, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 80,
     quote: "My goal is to help you fall in love with Montreal just as I have.",
@@ -95,17 +113,24 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Isabella is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Nightlife, Museums, Religious Sites, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Caribbean", "South America"],
-    tourTypes: ["Brewery Tour", "Cooking Class", "Nature Tour", "Romantic Tour"],
+    tourTypes: [
+      "Brewery Tour",
+      "Cooking Class",
+      "Nature Tour",
+      "Romantic Tour",
+    ],
     maxGroupSize: 10,
     licenseNumber: "LIC-6739-MON",
     phoneNumber: "+1-967-871-1824",
     contactEmail: "isabella.perez@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Isabella is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Nightlife, Museums, Religious Sites, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Isabella is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Nightlife, Museums, Religious Sites, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 26,
-    quote: "Every corner of Montreal tells a story, let me share them with you.",
+    quote:
+      "Every corner of Montreal tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/70.jpg",
     languages: ["Polish"],
     experienceYears: 7,
@@ -130,14 +155,20 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
     contactEmail: "carter.garcia@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Carter is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Museums, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Carter is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Museums, Carter provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 11,
-    quote: "Every corner of Montreal tells a story, let me share them with you.",
+    quote:
+      "Every corner of Montreal tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/16.jpg",
     languages: ["Romanian", "Czech"],
     experienceYears: 10,
-    certifications: ["Sustainable Tourism Certificate", "CPR & First Aid", "Licensed City Guide"],
+    certifications: [
+      "Sustainable Tourism Certificate",
+      "CPR & First Aid",
+      "Licensed City Guide",
+    ],
     specialties: ["Museums"],
     specialTraining: ["Mountain Survival", "Emergency Response"],
   },
@@ -158,7 +189,8 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
     contactEmail: "alexander.nelson@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Alexander is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Family Activities, Film Locations, Historical Landmarks, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Alexander is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Family Activities, Film Locations, Historical Landmarks, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.5,
     reviewsCount: 77,
     quote: "My goal is to help you fall in love with Montreal just as I have.",
@@ -166,7 +198,11 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
     languages: ["Japanese", "Turkish", "Polish"],
     experienceYears: 14,
     certifications: ["Wilderness First Responder", "Eco-Tourism Guide"],
-    specialties: ["Family Activities", "Film Locations", "Historical Landmarks"],
+    specialties: [
+      "Family Activities",
+      "Film Locations",
+      "Historical Landmarks",
+    ],
     specialTraining: [],
   },
   {
@@ -186,14 +222,19 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
     contactEmail: "samuel.sanchez@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Samuel is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Family Activities, Samuel provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Samuel is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Family Activities, Samuel provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 104,
-    quote: "Montreal isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Montreal isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/5.jpg",
     languages: ["Swedish"],
     experienceYears: 10,
-    certifications: ["Professional Tour Guide Association", "Eco-Tourism Guide"],
+    certifications: [
+      "Professional Tour Guide Association",
+      "Eco-Tourism Guide",
+    ],
     specialties: ["Family Activities"],
     specialTraining: ["Urban Planning", "Art History"],
   },
@@ -207,22 +248,34 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
     isPopular: true,
     bio: "Daniel is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Religious Sites, Local Cuisine, Local Craftsmanship, Wine Tasting, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["West Coast USA"],
-    tourTypes: ["Cooking Class", "Religious Tour", "Farm Visit", "Wildlife Safari"],
+    tourTypes: [
+      "Cooking Class",
+      "Religious Tour",
+      "Farm Visit",
+      "Wildlife Safari",
+    ],
     maxGroupSize: 10,
     licenseNumber: "LIC-1039-MON",
     phoneNumber: "+1-184-191-8995",
     contactEmail: "daniel.walker@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Daniel is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Religious Sites, Local Cuisine, Local Craftsmanship, Wine Tasting, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Daniel is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Religious Sites, Local Cuisine, Local Craftsmanship, Wine Tasting, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 23,
-    quote: "Every corner of Montreal tells a story, let me share them with you.",
+    quote:
+      "Every corner of Montreal tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/20.jpg",
     languages: ["Czech"],
     experienceYears: 4,
     certifications: ["Wilderness First Responder"],
-    specialties: ["Religious Sites", "Local Cuisine", "Local Craftsmanship", "Wine Tasting"],
+    specialties: [
+      "Religious Sites",
+      "Local Cuisine",
+      "Local Craftsmanship",
+      "Wine Tasting",
+    ],
     specialTraining: [],
   },
   {
@@ -247,7 +300,7 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -256,7 +309,7 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -269,20 +322,31 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "20:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Emily is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in LGBTQ+ History, Wildlife, Public Transportation Navigation, Historical Landmarks, Emily provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Emily is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in LGBTQ+ History, Wildlife, Public Transportation Navigation, Historical Landmarks, Emily provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 76,
-    quote: "Montreal isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Montreal isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/67.jpg",
     languages: ["Portuguese", "Czech"],
     experienceYears: 8,
-    certifications: ["Sustainable Tourism Certificate", "Local History Certification", "Heritage Interpretation Certificate"],
-    specialties: ["LGBTQ+ History", "Wildlife", "Public Transportation Navigation", "Historical Landmarks"],
+    certifications: [
+      "Sustainable Tourism Certificate",
+      "Local History Certification",
+      "Heritage Interpretation Certificate",
+    ],
+    specialties: [
+      "LGBTQ+ History",
+      "Wildlife",
+      "Public Transportation Navigation",
+      "Historical Landmarks",
+    ],
     specialTraining: ["Local Transit Systems", "Local Flora & Fauna"],
   },
   {
@@ -311,7 +375,7 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -320,7 +384,7 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -333,7 +397,7 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -342,12 +406,13 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "11:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Logan is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Local Cuisine, Photography Spots, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Logan is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Local Cuisine, Photography Spots, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4,
     reviewsCount: 25,
     quote: "My goal is to help you fall in love with Montreal just as I have.",
@@ -368,7 +433,12 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
     isPopular: false,
     bio: "Charlotte is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Family Activities, Film Locations, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Africa", "South America"],
-    tourTypes: ["Audio Tour", "Family-Friendly Tour", "Craft Workshop", "Off-Road Tour"],
+    tourTypes: [
+      "Audio Tour",
+      "Family-Friendly Tour",
+      "Craft Workshop",
+      "Off-Road Tour",
+    ],
     maxGroupSize: 15,
     licenseNumber: "LIC-6103-MON",
     phoneNumber: "+1-247-803-1103",
@@ -380,7 +450,7 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "12:00",
-          }
+          },
         ],
       },
       {
@@ -393,7 +463,7 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -406,20 +476,24 @@ export const montrealcanadaeastCoastCanadaGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "15:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Charlotte is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Family Activities, Film Locations, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Charlotte is a passionate tour guide with extensive knowledge of Montreal and Canada. Specializing in Family Activities, Film Locations, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.5,
     reviewsCount: 21,
     quote: "My goal is to help you fall in love with Montreal just as I have.",
     profileImage: "https://randomuser.me/api/portraits/men/34.jpg",
     languages: ["Norwegian"],
     experienceYears: 8,
-    certifications: ["Cultural Heritage Specialist", "Heritage Interpretation Certificate"],
+    certifications: [
+      "Cultural Heritage Specialist",
+      "Heritage Interpretation Certificate",
+    ],
     specialties: ["Family Activities", "Film Locations"],
     specialTraining: [],
-  }
+  },
 ];

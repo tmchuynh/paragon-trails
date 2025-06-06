@@ -39,7 +39,11 @@ export const parisfrancenorthernEuropeCrew: CrewMember[] = [
     name: "Samantha Henderson",
     role: "Captain",
     experienceYears: 18,
-    certifications: ["Fire Safety", "Environmental Awareness", "Marine Radio Operator"],
+    certifications: [
+      "Fire Safety",
+      "Environmental Awareness",
+      "Marine Radio Operator",
+    ],
     languagesSpoken: ["Spanish", "Italian"],
     isAvailable: false,
     contactEmail: "samantha.henderson@paragontrails.com",
@@ -77,5 +81,5 @@ export const parisfrancenorthernEuropeCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "jose.henderson@paragontrails.com",
     contactPhone: "+1-800-009-0381",
-  }
+  },
 ];

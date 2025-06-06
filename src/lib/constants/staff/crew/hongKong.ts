@@ -33,5 +33,5 @@ export const hongKongchinaasiaPacificCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "mia.carter@paragontrails.com",
     contactPhone: "+1-240-404-6531",
-  }
+  },
 ];

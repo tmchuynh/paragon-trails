@@ -61,7 +61,11 @@ export const baliindonesiaasiaPacificCrew: CrewMember[] = [
     name: "Jack Martin",
     role: "Host/Hostess",
     experienceYears: 4,
-    certifications: ["Security Training", "Engineering License", "Environmental Awareness"],
+    certifications: [
+      "Security Training",
+      "Engineering License",
+      "Environmental Awareness",
+    ],
     languagesSpoken: ["Hungarian", "Romanian", "Norwegian"],
     isAvailable: false,
     contactEmail: "jack.martin@paragontrails.com",
@@ -88,5 +92,5 @@ export const baliindonesiaasiaPacificCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "roy.price@paragontrails.com",
     contactPhone: "+1-055-846-9682",
-  }
+  },
 ];

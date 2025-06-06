@@ -14,8 +14,8 @@ export const rioDeJaneirobrazilsouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "03:00"
-          }
+            to: "03:00",
+          },
         ],
       },
       {
@@ -23,8 +23,8 @@ export const rioDeJaneirobrazilsouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "04:00"
-          }
+            to: "04:00",
+          },
         ],
       },
       {
@@ -32,21 +32,26 @@ export const rioDeJaneirobrazilsouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "09:00"
+            to: "09:00",
           },
           {
             from: "10:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.8,
     phone: "+486 596-882-6327",
     email: "yuki.johnson@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/20.jpg",
     specialties: ["Night Shift"],
-    vehicleTypesCertified: ["Motorcoach", "SUV", "Convertible", "Electric Vehicle"],
+    vehicleTypesCertified: [
+      "Motorcoach",
+      "SUV",
+      "Convertible",
+      "Electric Vehicle",
+    ],
   },
   {
     id: "driver-rio-de-janeiro-2",
@@ -61,8 +66,8 @@ export const rioDeJaneirobrazilsouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -70,8 +75,8 @@ export const rioDeJaneirobrazilsouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -79,14 +84,14 @@ export const rioDeJaneirobrazilsouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "05:00"
+            to: "05:00",
           },
           {
             from: "00:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.3,
     phone: "+40 763-581-6699",
@@ -108,12 +113,12 @@ export const rioDeJaneirobrazilsouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "11:00"
+            to: "11:00",
           },
           {
             from: "00:00",
-            to: "03:00"
-          }
+            to: "03:00",
+          },
         ],
       },
       {
@@ -121,12 +126,12 @@ export const rioDeJaneirobrazilsouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "07:00"
+            to: "07:00",
           },
           {
             from: "00:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -134,12 +139,12 @@ export const rioDeJaneirobrazilsouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "16:00"
+            to: "16:00",
           },
           {
             from: "14:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
       },
       {
@@ -147,16 +152,21 @@ export const rioDeJaneirobrazilsouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4,
     phone: "+17 231-126-4754",
     email: "caroline.fisher@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/81.jpg",
-    specialties: ["Night Shift", "Security Detail", "Luxury Car Specialist", "VIP Transport"],
+    specialties: [
+      "Night Shift",
+      "Security Detail",
+      "Luxury Car Specialist",
+      "VIP Transport",
+    ],
     vehicleTypesCertified: ["Sports Car", "Sedan"],
   },
   {
@@ -172,8 +182,8 @@ export const rioDeJaneirobrazilsouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "06:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -181,8 +191,8 @@ export const rioDeJaneirobrazilsouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
       },
       {
@@ -190,20 +200,24 @@ export const rioDeJaneirobrazilsouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "22:00"
+            to: "22:00",
           },
           {
             from: "13:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.1,
     phone: "+154 120-317-4967",
     email: "dennis.harris@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/35.jpg",
-    specialties: ["Security Detail", "Long-Distance Driving", "Luxury Car Specialist"],
+    specialties: [
+      "Security Detail",
+      "Long-Distance Driving",
+      "Luxury Car Specialist",
+    ],
     vehicleTypesCertified: ["Sports Car"],
   },
   {
@@ -219,12 +233,12 @@ export const rioDeJaneirobrazilsouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "15:00"
+            to: "15:00",
           },
           {
             from: "10:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
       },
       {
@@ -232,12 +246,12 @@ export const rioDeJaneirobrazilsouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "02:00"
+            to: "02:00",
           },
           {
             from: "19:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -245,12 +259,12 @@ export const rioDeJaneirobrazilsouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "20:00"
+            to: "20:00",
           },
           {
             from: "11:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
       },
       {
@@ -258,14 +272,14 @@ export const rioDeJaneirobrazilsouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "06:00"
+            to: "06:00",
           },
           {
             from: "13:00",
-            to: "16:00"
-          }
+            to: "16:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.3,
     phone: "+157 656-484-3176",
@@ -287,12 +301,12 @@ export const rioDeJaneirobrazilsouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "22:00"
+            to: "22:00",
           },
           {
             from: "14:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -300,12 +314,12 @@ export const rioDeJaneirobrazilsouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "22:00"
+            to: "22:00",
           },
           {
             from: "08:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
       },
       {
@@ -313,16 +327,20 @@ export const rioDeJaneirobrazilsouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.1,
     phone: "+153 148-356-8012",
     email: "kennedy.davis@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/70.jpg",
-    specialties: ["Airport Transfers", "Security Detail", "Event Transportation"],
+    specialties: [
+      "Airport Transfers",
+      "Security Detail",
+      "Event Transportation",
+    ],
     vehicleTypesCertified: ["SUV", "Luxury SUV"],
   },
   {
@@ -338,8 +356,8 @@ export const rioDeJaneirobrazilsouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -347,8 +365,8 @@ export const rioDeJaneirobrazilsouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -356,12 +374,12 @@ export const rioDeJaneirobrazilsouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "18:00"
+            to: "18:00",
           },
           {
             from: "11:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -369,10 +387,10 @@ export const rioDeJaneirobrazilsouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.1,
     phone: "+445 963-283-2904",
@@ -394,12 +412,12 @@ export const rioDeJaneirobrazilsouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "17:00"
+            to: "17:00",
           },
           {
             from: "06:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
       },
       {
@@ -407,8 +425,8 @@ export const rioDeJaneirobrazilsouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -416,8 +434,8 @@ export const rioDeJaneirobrazilsouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -425,14 +443,14 @@ export const rioDeJaneirobrazilsouthAmericaDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "16:00"
+            to: "16:00",
           },
           {
             from: "00:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.6,
     phone: "+180 423-666-9825",
@@ -440,5 +458,5 @@ export const rioDeJaneirobrazilsouthAmericaDrivers: Driver[] = [
     photoUrl: "https://randomuser.me/api/portraits/women/37.jpg",
     specialties: ["Night Shift", "VIP Transport", "Security Detail"],
     vehicleTypesCertified: ["Luxury SUV"],
-  }
+  },
 ];

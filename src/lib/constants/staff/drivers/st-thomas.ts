@@ -14,12 +14,12 @@ export const stThomasusVirginIslandscaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "16:00"
+            to: "16:00",
           },
           {
             from: "01:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -27,12 +27,12 @@ export const stThomasusVirginIslandscaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "03:00"
+            to: "03:00",
           },
           {
             from: "14:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -40,16 +40,21 @@ export const stThomasusVirginIslandscaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.9,
     phone: "+477 835-148-3965",
     email: "jessica.wells@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/32.jpg",
-    specialties: ["Security Detail", "Tour Guide Driver", "Night Shift", "Long-Distance Driving"],
+    specialties: [
+      "Security Detail",
+      "Tour Guide Driver",
+      "Night Shift",
+      "Long-Distance Driving",
+    ],
     vehicleTypesCertified: ["Sedan"],
   },
   {
@@ -65,8 +70,8 @@ export const stThomasusVirginIslandscaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -74,12 +79,12 @@ export const stThomasusVirginIslandscaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "05:00"
+            to: "05:00",
           },
           {
             from: "21:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -87,10 +92,10 @@ export const stThomasusVirginIslandscaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.2,
     phone: "+330 148-148-1258",
@@ -112,8 +117,8 @@ export const stThomasusVirginIslandscaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -121,8 +126,8 @@ export const stThomasusVirginIslandscaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -130,12 +135,12 @@ export const stThomasusVirginIslandscaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "18:00"
+            to: "18:00",
           },
           {
             from: "18:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -143,12 +148,12 @@ export const stThomasusVirginIslandscaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "18:00"
+            to: "18:00",
           },
           {
             from: "19:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -156,14 +161,14 @@ export const stThomasusVirginIslandscaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "10:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.3,
     phone: "+68 908-541-9757",
@@ -185,8 +190,8 @@ export const stThomasusVirginIslandscaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -194,12 +199,12 @@ export const stThomasusVirginIslandscaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "11:00"
+            to: "11:00",
           },
           {
             from: "19:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -207,8 +212,8 @@ export const stThomasusVirginIslandscaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
       },
       {
@@ -216,14 +221,14 @@ export const stThomasusVirginIslandscaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "21:00"
+            to: "21:00",
           },
           {
             from: "00:00",
-            to: "04:00"
-          }
+            to: "04:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.6,
     phone: "+761 131-800-6782",
@@ -245,8 +250,8 @@ export const stThomasusVirginIslandscaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
       },
       {
@@ -254,8 +259,8 @@ export const stThomasusVirginIslandscaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -263,8 +268,8 @@ export const stThomasusVirginIslandscaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -272,8 +277,8 @@ export const stThomasusVirginIslandscaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
       },
       {
@@ -281,17 +286,22 @@ export const stThomasusVirginIslandscaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.8,
     phone: "+350 389-877-1106",
     email: "maya.jansen@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/69.jpg",
     specialties: ["Tour Guide Driver", "VIP Transport"],
-    vehicleTypesCertified: ["Luxury SUV", "Van", "Motorcoach", "Electric Vehicle"],
+    vehicleTypesCertified: [
+      "Luxury SUV",
+      "Van",
+      "Motorcoach",
+      "Electric Vehicle",
+    ],
   },
   {
     id: "driver-st-thomas-6",
@@ -306,8 +316,8 @@ export const stThomasusVirginIslandscaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
       },
       {
@@ -315,12 +325,12 @@ export const stThomasusVirginIslandscaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "17:00"
+            to: "17:00",
           },
           {
             from: "01:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -328,14 +338,14 @@ export const stThomasusVirginIslandscaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "24:00"
+            to: "24:00",
           },
           {
             from: "16:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.4,
     phone: "+224 160-152-3030",
@@ -357,12 +367,12 @@ export const stThomasusVirginIslandscaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "14:00"
+            to: "14:00",
           },
           {
             from: "13:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -370,12 +380,12 @@ export const stThomasusVirginIslandscaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "12:00"
+            to: "12:00",
           },
           {
             from: "01:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -383,12 +393,12 @@ export const stThomasusVirginIslandscaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "05:00"
+            to: "05:00",
           },
           {
             from: "06:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -396,12 +406,12 @@ export const stThomasusVirginIslandscaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "14:00"
+            to: "14:00",
           },
           {
             from: "01:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -409,14 +419,14 @@ export const stThomasusVirginIslandscaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "17:00"
+            to: "17:00",
           },
           {
             from: "04:00",
-            to: "09:00"
-          }
+            to: "09:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.5,
     phone: "+489 764-327-8383",
@@ -438,8 +448,8 @@ export const stThomasusVirginIslandscaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
       },
       {
@@ -447,8 +457,8 @@ export const stThomasusVirginIslandscaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -456,12 +466,12 @@ export const stThomasusVirginIslandscaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "07:00",
-            to: "09:00"
+            to: "09:00",
           },
           {
             from: "00:00",
-            to: "04:00"
-          }
+            to: "04:00",
+          },
         ],
       },
       {
@@ -469,14 +479,14 @@ export const stThomasusVirginIslandscaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "23:00"
+            to: "23:00",
           },
           {
             from: "03:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.9,
     phone: "+189 802-854-6260",
@@ -498,12 +508,12 @@ export const stThomasusVirginIslandscaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "14:00"
+            to: "14:00",
           },
           {
             from: "17:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -511,12 +521,12 @@ export const stThomasusVirginIslandscaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "18:00"
+            to: "18:00",
           },
           {
             from: "20:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
       },
       {
@@ -524,12 +534,12 @@ export const stThomasusVirginIslandscaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "09:00"
+            to: "09:00",
           },
           {
             from: "11:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
       },
       {
@@ -537,14 +547,14 @@ export const stThomasusVirginIslandscaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "06:00"
+            to: "06:00",
           },
           {
             from: "19:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.8,
     phone: "+825 866-253-8098",
@@ -552,5 +562,5 @@ export const stThomasusVirginIslandscaribbeanDrivers: Driver[] = [
     photoUrl: "https://randomuser.me/api/portraits/men/46.jpg",
     specialties: ["Long-Distance Driving", "Airport Transfers", "Night Shift"],
     vehicleTypesCertified: ["Luxury SUV", "Convertible"],
-  }
+  },
 ];

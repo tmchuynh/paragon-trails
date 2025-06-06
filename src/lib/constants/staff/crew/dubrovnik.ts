@@ -17,7 +17,11 @@ export const dubrovnikcroatiamediterraneanCrew: CrewMember[] = [
     name: "Jeffrey Ivanov",
     role: "Purser",
     experienceYears: 9,
-    certifications: ["Navigation Certification", "First Aid", "Security Training"],
+    certifications: [
+      "Navigation Certification",
+      "First Aid",
+      "Security Training",
+    ],
     languagesSpoken: ["Hindi"],
     isAvailable: true,
     contactEmail: "jeffrey.ivanov@paragontrails.com",
@@ -33,5 +37,5 @@ export const dubrovnikcroatiamediterraneanCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "aiden.williams@paragontrails.com",
     contactPhone: "+1-966-997-4611",
-  }
+  },
 ];

@@ -18,7 +18,8 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
     contactEmail: "emily.flores@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Emily is a passionate tour guide with extensive knowledge of Venice and Italy. Specializing in Nightlife, Photography Spots, Indigenous Culture, Emily provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Emily is a passionate tour guide with extensive knowledge of Venice and Italy. Specializing in Nightlife, Photography Spots, Indigenous Culture, Emily provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
     reviewsCount: 56,
     quote: "Every corner of Venice tells a story, let me share them with you.",
@@ -46,15 +47,23 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
     contactEmail: "lucas.miller@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Lucas is a passionate tour guide with extensive knowledge of Venice and Italy. Specializing in Sustainable Tourism, Religious Sites, Indigenous Culture, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Lucas is a passionate tour guide with extensive knowledge of Venice and Italy. Specializing in Sustainable Tourism, Religious Sites, Indigenous Culture, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 23,
     quote: "My goal is to help you fall in love with Venice just as I have.",
     profileImage: "https://randomuser.me/api/portraits/men/16.jpg",
     languages: ["Malay", "German", "Portuguese"],
     experienceYears: 12,
-    certifications: ["Certified International Tour Manager", "Heritage Interpretation Certificate"],
-    specialties: ["Sustainable Tourism", "Religious Sites", "Indigenous Culture"],
+    certifications: [
+      "Certified International Tour Manager",
+      "Heritage Interpretation Certificate",
+    ],
+    specialties: [
+      "Sustainable Tourism",
+      "Religious Sites",
+      "Indigenous Culture",
+    ],
     specialTraining: ["Photography"],
   },
   {
@@ -74,14 +83,19 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
     contactEmail: "henry.wilson@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Henry is a passionate tour guide with extensive knowledge of Venice and Italy. Specializing in Parks & Gardens, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Henry is a passionate tour guide with extensive knowledge of Venice and Italy. Specializing in Parks & Gardens, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 47,
-    quote: "The best way to discover Venice is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Venice is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/women/73.jpg",
     languages: ["Arabic", "Swedish"],
     experienceYears: 4,
-    certifications: ["Eco-Tourism Guide", "Adventure Tourism Safety Certificate"],
+    certifications: [
+      "Eco-Tourism Guide",
+      "Adventure Tourism Safety Certificate",
+    ],
     specialties: ["Parks & Gardens"],
     specialTraining: ["Marine Biology", "Local Transit Systems"],
   },
@@ -111,7 +125,7 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -124,7 +138,7 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -137,7 +151,7 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -150,15 +164,17 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "13:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Emma is a passionate tour guide with extensive knowledge of Venice and Italy. Specializing in LGBTQ+ History, Museums, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Emma is a passionate tour guide with extensive knowledge of Venice and Italy. Specializing in LGBTQ+ History, Museums, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 61,
-    quote: "Venice isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Venice isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/52.jpg",
     languages: ["Bulgarian"],
     experienceYears: 13,
@@ -192,7 +208,7 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "10:00",
-          }
+          },
         ],
       },
       {
@@ -201,7 +217,7 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -214,7 +230,7 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "18:00",
-          }
+          },
         ],
       },
       {
@@ -223,7 +239,7 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -236,20 +252,27 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "12:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Jacob is a passionate tour guide with extensive knowledge of Venice and Italy. Specializing in Public Transportation Navigation, Local Markets, Religious Sites, Urban Legends, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Jacob is a passionate tour guide with extensive knowledge of Venice and Italy. Specializing in Public Transportation Navigation, Local Markets, Religious Sites, Urban Legends, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
     reviewsCount: 74,
-    quote: "The best way to discover Venice is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover Venice is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/32.jpg",
     languages: ["Japanese"],
     experienceYears: 16,
     certifications: ["Eco-Tourism Guide"],
-    specialties: ["Public Transportation Navigation", "Local Markets", "Religious Sites", "Urban Legends"],
+    specialties: [
+      "Public Transportation Navigation",
+      "Local Markets",
+      "Religious Sites",
+      "Urban Legends",
+    ],
     specialTraining: ["Wine Education"],
   },
   {
@@ -278,7 +301,7 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -287,7 +310,7 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -300,20 +323,26 @@ export const veniceitalymediterraneanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "20:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "James is a passionate tour guide with extensive knowledge of Venice and Italy. Specializing in Adventure Sports, Hidden Gems, Architecture, James provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "James is a passionate tour guide with extensive knowledge of Venice and Italy. Specializing in Adventure Sports, Hidden Gems, Architecture, James provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 19,
-    quote: "Venice isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "Venice isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/9.jpg",
     languages: ["Turkish"],
     experienceYears: 6,
-    certifications: ["Language Proficiency Certification", "Eco-Tourism Guide", "Heritage Interpretation Certificate"],
+    certifications: [
+      "Language Proficiency Certification",
+      "Eco-Tourism Guide",
+      "Heritage Interpretation Certificate",
+    ],
     specialties: ["Adventure Sports", "Hidden Gems", "Architecture"],
     specialTraining: ["Mountain Survival"],
-  }
+  },
 ];

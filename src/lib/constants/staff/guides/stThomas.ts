@@ -11,21 +11,33 @@ export const stThomasusVirginIslandscaribbeanGuides: TourGuide[] = [
     isPopular: true,
     bio: "Aria is a passionate tour guide with extensive knowledge of St Thomas and U.S. Virgin Islands. Specializing in Wildlife, Architecture, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Asia Pacific", "West Coast USA"],
-    tourTypes: ["Wildlife Safari", "Street Art Tour", "Boat Tour", "Festival Tour", "Brewery Tour"],
+    tourTypes: [
+      "Wildlife Safari",
+      "Street Art Tour",
+      "Boat Tour",
+      "Festival Tour",
+      "Brewery Tour",
+    ],
     maxGroupSize: 11,
     licenseNumber: "LIC-1326-ST-",
     phoneNumber: "+1-348-462-2874",
     contactEmail: "aria.gonzalez@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Aria is a passionate tour guide with extensive knowledge of St Thomas and U.S. Virgin Islands. Specializing in Wildlife, Architecture, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Aria is a passionate tour guide with extensive knowledge of St Thomas and U.S. Virgin Islands. Specializing in Wildlife, Architecture, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
     reviewsCount: 70,
-    quote: "Every corner of St Thomas tells a story, let me share them with you.",
+    quote:
+      "Every corner of St Thomas tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/79.jpg",
     languages: ["Dutch"],
     experienceYears: 6,
-    certifications: ["Cultural Heritage Specialist", "Urban Navigation Specialist", "Professional Tour Guide Association"],
+    certifications: [
+      "Cultural Heritage Specialist",
+      "Urban Navigation Specialist",
+      "Professional Tour Guide Association",
+    ],
     specialties: ["Wildlife", "Architecture"],
     specialTraining: ["Accessibility Services", "Regional Geology"],
   },
@@ -39,17 +51,25 @@ export const stThomasusVirginIslandscaribbeanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Alexander is a passionate tour guide with extensive knowledge of St Thomas and U.S. Virgin Islands. Specializing in Nightlife, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["East Coast Canada", "South America"],
-    tourTypes: ["Ghost Tour", "Architecture Tour", "Underground Tour", "Historical Tour", "Walking Tour"],
+    tourTypes: [
+      "Ghost Tour",
+      "Architecture Tour",
+      "Underground Tour",
+      "Historical Tour",
+      "Walking Tour",
+    ],
     maxGroupSize: 7,
     licenseNumber: "LIC-3713-ST-",
     phoneNumber: "+1-419-244-6865",
     contactEmail: "alexander.robinson@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Alexander is a passionate tour guide with extensive knowledge of St Thomas and U.S. Virgin Islands. Specializing in Nightlife, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Alexander is a passionate tour guide with extensive knowledge of St Thomas and U.S. Virgin Islands. Specializing in Nightlife, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 34,
-    quote: "St Thomas isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "St Thomas isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/47.jpg",
     languages: ["Tagalog", "Romanian", "Japanese"],
     experienceYears: 9,
@@ -67,21 +87,32 @@ export const stThomasusVirginIslandscaribbeanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Amelia is a passionate tour guide with extensive knowledge of St Thomas and U.S. Virgin Islands. Specializing in Wine Tasting, LGBTQ+ History, Hidden Gems, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["West Coast USA", "Africa"],
-    tourTypes: ["Family-Friendly Tour", "Architecture Tour", "Craft Workshop", "Festival Tour"],
+    tourTypes: [
+      "Family-Friendly Tour",
+      "Architecture Tour",
+      "Craft Workshop",
+      "Festival Tour",
+    ],
     maxGroupSize: 12,
     licenseNumber: "LIC-2580-ST-",
     phoneNumber: "+1-334-854-5511",
     contactEmail: "amelia.walker@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Amelia is a passionate tour guide with extensive knowledge of St Thomas and U.S. Virgin Islands. Specializing in Wine Tasting, LGBTQ+ History, Hidden Gems, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Amelia is a passionate tour guide with extensive knowledge of St Thomas and U.S. Virgin Islands. Specializing in Wine Tasting, LGBTQ+ History, Hidden Gems, Amelia provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 54,
-    quote: "The best way to discover St Thomas is with someone who lives and breathes its culture.",
+    quote:
+      "The best way to discover St Thomas is with someone who lives and breathes its culture.",
     profileImage: "https://randomuser.me/api/portraits/men/25.jpg",
     languages: ["Hungarian", "Vietnamese", "French"],
     experienceYears: 5,
-    certifications: ["Professional Tour Guide Association", "Eco-Tourism Guide", "Adventure Tourism Safety Certificate"],
+    certifications: [
+      "Professional Tour Guide Association",
+      "Eco-Tourism Guide",
+      "Adventure Tourism Safety Certificate",
+    ],
     specialties: ["Wine Tasting", "LGBTQ+ History", "Hidden Gems"],
     specialTraining: [],
   },
@@ -102,7 +133,8 @@ export const stThomasusVirginIslandscaribbeanGuides: TourGuide[] = [
     contactEmail: "harper.lewis@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Harper is a passionate tour guide with extensive knowledge of St Thomas and U.S. Virgin Islands. Specializing in Architecture, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Harper is a passionate tour guide with extensive knowledge of St Thomas and U.S. Virgin Islands. Specializing in Architecture, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
     reviewsCount: 84,
     quote: "My goal is to help you fall in love with St Thomas just as I have.",
@@ -139,7 +171,7 @@ export const stThomasusVirginIslandscaribbeanGuides: TourGuide[] = [
           {
             from: "13:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -148,20 +180,30 @@ export const stThomasusVirginIslandscaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "16:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Aria is a passionate tour guide with extensive knowledge of St Thomas and U.S. Virgin Islands. Specializing in Wildlife, Religious Sites, Wine Tasting, Urban Legends, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Aria is a passionate tour guide with extensive knowledge of St Thomas and U.S. Virgin Islands. Specializing in Wildlife, Religious Sites, Wine Tasting, Urban Legends, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 37,
     quote: "My goal is to help you fall in love with St Thomas just as I have.",
     profileImage: "https://randomuser.me/api/portraits/men/12.jpg",
     languages: ["Bulgarian"],
     experienceYears: 5,
-    certifications: ["Certified International Tour Manager", "Food Safety Certification", "Heritage Interpretation Certificate"],
-    specialties: ["Wildlife", "Religious Sites", "Wine Tasting", "Urban Legends"],
+    certifications: [
+      "Certified International Tour Manager",
+      "Food Safety Certification",
+      "Heritage Interpretation Certificate",
+    ],
+    specialties: [
+      "Wildlife",
+      "Religious Sites",
+      "Wine Tasting",
+      "Urban Legends",
+    ],
     specialTraining: ["Local Flora & Fauna", "Regional Cuisine"],
   },
   {
@@ -174,7 +216,13 @@ export const stThomasusVirginIslandscaribbeanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Ethan is a passionate tour guide with extensive knowledge of St Thomas and U.S. Virgin Islands. Specializing in Nightlife, Hidden Gems, Local Markets, Historical Landmarks, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Africa", "South America"],
-    tourTypes: ["Off-Road Tour", "Helicopter Tour", "Cultural Tour", "Architecture Tour", "Market Tour"],
+    tourTypes: [
+      "Off-Road Tour",
+      "Helicopter Tour",
+      "Cultural Tour",
+      "Architecture Tour",
+      "Market Tour",
+    ],
     maxGroupSize: 6,
     licenseNumber: "LIC-8092-ST-",
     phoneNumber: "+1-455-558-7105",
@@ -190,7 +238,7 @@ export const stThomasusVirginIslandscaribbeanGuides: TourGuide[] = [
           {
             from: "10:00",
             to: "13:00",
-          }
+          },
         ],
       },
       {
@@ -203,7 +251,7 @@ export const stThomasusVirginIslandscaribbeanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -212,7 +260,7 @@ export const stThomasusVirginIslandscaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -225,20 +273,27 @@ export const stThomasusVirginIslandscaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "18:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Ethan is a passionate tour guide with extensive knowledge of St Thomas and U.S. Virgin Islands. Specializing in Nightlife, Hidden Gems, Local Markets, Historical Landmarks, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Ethan is a passionate tour guide with extensive knowledge of St Thomas and U.S. Virgin Islands. Specializing in Nightlife, Hidden Gems, Local Markets, Historical Landmarks, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.8,
     reviewsCount: 58,
-    quote: "St Thomas isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "St Thomas isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/59.jpg",
     languages: ["Hindi"],
     experienceYears: 5,
     certifications: ["Certified International Tour Manager"],
-    specialties: ["Nightlife", "Hidden Gems", "Local Markets", "Historical Landmarks"],
+    specialties: [
+      "Nightlife",
+      "Hidden Gems",
+      "Local Markets",
+      "Historical Landmarks",
+    ],
     specialTraining: ["Desert Navigation"],
   },
   {
@@ -263,7 +318,7 @@ export const stThomasusVirginIslandscaribbeanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "14:00",
-          }
+          },
         ],
       },
       {
@@ -272,7 +327,7 @@ export const stThomasusVirginIslandscaribbeanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "20:00",
-          }
+          },
         ],
       },
       {
@@ -281,7 +336,7 @@ export const stThomasusVirginIslandscaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -294,20 +349,25 @@ export const stThomasusVirginIslandscaribbeanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "13:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Jackson is a passionate tour guide with extensive knowledge of St Thomas and U.S. Virgin Islands. Specializing in Sustainable Tourism, Nightlife, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Jackson is a passionate tour guide with extensive knowledge of St Thomas and U.S. Virgin Islands. Specializing in Sustainable Tourism, Nightlife, Jackson provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 89,
-    quote: "St Thomas isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "St Thomas isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/54.jpg",
     languages: ["Tagalog"],
     experienceYears: 3,
-    certifications: ["Urban Navigation Specialist", "Adventure Tourism Safety Certificate"],
+    certifications: [
+      "Urban Navigation Specialist",
+      "Adventure Tourism Safety Certificate",
+    ],
     specialties: ["Sustainable Tourism", "Nightlife"],
     specialTraining: ["Mountain Survival", "Emergency Response"],
-  }
+  },
 ];

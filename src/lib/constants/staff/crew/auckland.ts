@@ -55,5 +55,5 @@ export const aucklandnewZealandasiaPacificCrew: CrewMember[] = [
     isAvailable: true,
     contactEmail: "wei.brown@paragontrails.com",
     contactPhone: "+1-588-539-9355",
-  }
+  },
 ];

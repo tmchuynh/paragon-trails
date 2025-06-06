@@ -6,7 +6,11 @@ export const capeTownsouthAfricaafricaCrew: CrewMember[] = [
     name: "Harry Gonzalez",
     role: "Engineer",
     experienceYears: 8,
-    certifications: ["Dive Master", "Engineering License", "Navigation Certification"],
+    certifications: [
+      "Dive Master",
+      "Engineering License",
+      "Navigation Certification",
+    ],
     languagesSpoken: ["Russian", "Mandarin", "Portuguese"],
     isAvailable: true,
     contactEmail: "harry.gonzalez@paragontrails.com",
@@ -50,10 +54,14 @@ export const capeTownsouthAfricaafricaCrew: CrewMember[] = [
     name: "Kenneth Dubois",
     role: "Chef",
     experienceYears: 18,
-    certifications: ["Dive Master", "Engineering License", "Environmental Awareness"],
+    certifications: [
+      "Dive Master",
+      "Engineering License",
+      "Environmental Awareness",
+    ],
     languagesSpoken: ["Czech"],
     isAvailable: true,
     contactEmail: "kenneth.dubois@paragontrails.com",
     contactPhone: "+1-825-692-7111",
-  }
+  },
 ];

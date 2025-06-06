@@ -18,14 +18,20 @@ export const georgeTowncaymanIslandscaribbeanGuides: TourGuide[] = [
     contactEmail: "henry.ramirez@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Henry is a passionate tour guide with extensive knowledge of George Town and Cayman Islands. Specializing in Local Markets, Adventure Sports, Local Craftsmanship, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Henry is a passionate tour guide with extensive knowledge of George Town and Cayman Islands. Specializing in Local Markets, Adventure Sports, Local Craftsmanship, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
     reviewsCount: 55,
-    quote: "George Town isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "George Town isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/79.jpg",
     languages: ["Vietnamese", "Russian"],
     experienceYears: 3,
-    certifications: ["Cultural Heritage Specialist", "Food Safety Certification", "Local History Certification"],
+    certifications: [
+      "Cultural Heritage Specialist",
+      "Food Safety Certification",
+      "Local History Certification",
+    ],
     specialties: ["Local Markets", "Adventure Sports", "Local Craftsmanship"],
     specialTraining: ["Accessibility Services", "Art History"],
   },
@@ -39,22 +45,39 @@ export const georgeTowncaymanIslandscaribbeanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Wyatt is a passionate tour guide with extensive knowledge of George Town and Cayman Islands. Specializing in Museums, LGBTQ+ History, Local Craftsmanship, Public Transportation Navigation, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Caribbean", "Mediterranean"],
-    tourTypes: ["Accessible Tour", "Cruise Excursion", "Bike Tour", "Helicopter Tour", "Private Tour"],
+    tourTypes: [
+      "Accessible Tour",
+      "Cruise Excursion",
+      "Bike Tour",
+      "Helicopter Tour",
+      "Private Tour",
+    ],
     maxGroupSize: 5,
     licenseNumber: "LIC-7387-GEO",
     phoneNumber: "+1-636-792-2363",
     contactEmail: "wyatt.martin@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Wyatt is a passionate tour guide with extensive knowledge of George Town and Cayman Islands. Specializing in Museums, LGBTQ+ History, Local Craftsmanship, Public Transportation Navigation, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Wyatt is a passionate tour guide with extensive knowledge of George Town and Cayman Islands. Specializing in Museums, LGBTQ+ History, Local Craftsmanship, Public Transportation Navigation, Wyatt provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.3,
     reviewsCount: 30,
-    quote: "Every corner of George Town tells a story, let me share them with you.",
+    quote:
+      "Every corner of George Town tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/women/5.jpg",
     languages: ["French", "Dutch"],
     experienceYears: 10,
-    certifications: ["Regional Tourism Ambassador", "Eco-Tourism Guide", "Food Safety Certification"],
-    specialties: ["Museums", "LGBTQ+ History", "Local Craftsmanship", "Public Transportation Navigation"],
+    certifications: [
+      "Regional Tourism Ambassador",
+      "Eco-Tourism Guide",
+      "Food Safety Certification",
+    ],
+    specialties: [
+      "Museums",
+      "LGBTQ+ History",
+      "Local Craftsmanship",
+      "Public Transportation Navigation",
+    ],
     specialTraining: [],
   },
   {
@@ -67,21 +90,32 @@ export const georgeTowncaymanIslandscaribbeanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Penelope is a passionate tour guide with extensive knowledge of George Town and Cayman Islands. Specializing in Wildlife, Wine Tasting, Local Craftsmanship, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Asia Pacific"],
-    tourTypes: ["Museum Tour", "Walking Tour", "Relocation Tour", "Cruise Excursion", "Market Tour"],
+    tourTypes: [
+      "Museum Tour",
+      "Walking Tour",
+      "Relocation Tour",
+      "Cruise Excursion",
+      "Market Tour",
+    ],
     maxGroupSize: 11,
     licenseNumber: "LIC-8446-GEO",
     phoneNumber: "+1-358-159-3779",
     contactEmail: "penelope.carter@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Penelope is a passionate tour guide with extensive knowledge of George Town and Cayman Islands. Specializing in Wildlife, Wine Tasting, Local Craftsmanship, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Penelope is a passionate tour guide with extensive knowledge of George Town and Cayman Islands. Specializing in Wildlife, Wine Tasting, Local Craftsmanship, Penelope provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.8,
     reviewsCount: 34,
-    quote: "George Town isn't just a destination, it's an experience that stays with you forever.",
+    quote:
+      "George Town isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/men/22.jpg",
     languages: ["Malay"],
     experienceYears: 2,
-    certifications: ["Professional Tour Guide Association", "Heritage Interpretation Certificate"],
+    certifications: [
+      "Professional Tour Guide Association",
+      "Heritage Interpretation Certificate",
+    ],
     specialties: ["Wildlife", "Wine Tasting", "Local Craftsmanship"],
     specialTraining: ["Desert Navigation"],
   },
@@ -102,10 +136,12 @@ export const georgeTowncaymanIslandscaribbeanGuides: TourGuide[] = [
     contactEmail: "ella.king@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Ella is a passionate tour guide with extensive knowledge of George Town and Cayman Islands. Specializing in Parks & Gardens, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Ella is a passionate tour guide with extensive knowledge of George Town and Cayman Islands. Specializing in Parks & Gardens, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.7,
     reviewsCount: 98,
-    quote: "My goal is to help you fall in love with George Town just as I have.",
+    quote:
+      "My goal is to help you fall in love with George Town just as I have.",
     profileImage: "https://randomuser.me/api/portraits/women/35.jpg",
     languages: ["Swahili", "Greek", "Spanish"],
     experienceYears: 7,
@@ -123,21 +159,32 @@ export const georgeTowncaymanIslandscaribbeanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Harper is a passionate tour guide with extensive knowledge of George Town and Cayman Islands. Specializing in Cultural Etiquette, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Northern Europe", "Africa"],
-    tourTypes: ["Nature Tour", "Cultural Tour", "Audio Tour", "Cruise Excursion"],
+    tourTypes: [
+      "Nature Tour",
+      "Cultural Tour",
+      "Audio Tour",
+      "Cruise Excursion",
+    ],
     maxGroupSize: 9,
     licenseNumber: "LIC-1192-GEO",
     phoneNumber: "+1-146-899-2800",
     contactEmail: "harper.carter@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Harper is a passionate tour guide with extensive knowledge of George Town and Cayman Islands. Specializing in Cultural Etiquette, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Harper is a passionate tour guide with extensive knowledge of George Town and Cayman Islands. Specializing in Cultural Etiquette, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 55,
-    quote: "My goal is to help you fall in love with George Town just as I have.",
+    quote:
+      "My goal is to help you fall in love with George Town just as I have.",
     profileImage: "https://randomuser.me/api/portraits/men/3.jpg",
     languages: ["Arabic", "German"],
     experienceYears: 12,
-    certifications: ["Professional Tour Guide Association", "Certified International Tour Manager", "Regional Tourism Ambassador"],
+    certifications: [
+      "Professional Tour Guide Association",
+      "Certified International Tour Manager",
+      "Regional Tourism Ambassador",
+    ],
     specialties: ["Cultural Etiquette"],
     specialTraining: ["Mountain Survival", "Desert Navigation"],
   },
@@ -151,21 +198,32 @@ export const georgeTowncaymanIslandscaribbeanGuides: TourGuide[] = [
     isPopular: false,
     bio: "Grace is a passionate tour guide with extensive knowledge of George Town and Cayman Islands. Specializing in Wine Tasting, Sustainable Tourism, Grace provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Africa"],
-    tourTypes: ["Family-Friendly Tour", "Private Tour", "Boat Tour", "Relocation Tour"],
+    tourTypes: [
+      "Family-Friendly Tour",
+      "Private Tour",
+      "Boat Tour",
+      "Relocation Tour",
+    ],
     maxGroupSize: 19,
     licenseNumber: "LIC-8917-GEO",
     phoneNumber: "+1-897-476-7988",
     contactEmail: "grace.williams@paragontrails.com",
     available: [],
     isCertified: true,
-    description: "Grace is a passionate tour guide with extensive knowledge of George Town and Cayman Islands. Specializing in Wine Tasting, Sustainable Tourism, Grace provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Grace is a passionate tour guide with extensive knowledge of George Town and Cayman Islands. Specializing in Wine Tasting, Sustainable Tourism, Grace provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.6,
     reviewsCount: 26,
-    quote: "My goal is to help you fall in love with George Town just as I have.",
+    quote:
+      "My goal is to help you fall in love with George Town just as I have.",
     profileImage: "https://randomuser.me/api/portraits/men/30.jpg",
     languages: ["Arabic", "Indonesian", "Bulgarian"],
     experienceYears: 7,
-    certifications: ["Heritage Interpretation Certificate", "Professional Tour Guide Association", "CPR & First Aid"],
+    certifications: [
+      "Heritage Interpretation Certificate",
+      "Professional Tour Guide Association",
+      "CPR & First Aid",
+    ],
     specialties: ["Wine Tasting", "Sustainable Tourism"],
     specialTraining: [],
   },
@@ -195,7 +253,7 @@ export const georgeTowncaymanIslandscaribbeanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "15:00",
-          }
+          },
         ],
       },
       {
@@ -208,7 +266,7 @@ export const georgeTowncaymanIslandscaribbeanGuides: TourGuide[] = [
           {
             from: "14:00",
             to: "19:00",
-          }
+          },
         ],
       },
       {
@@ -221,7 +279,7 @@ export const georgeTowncaymanIslandscaribbeanGuides: TourGuide[] = [
           {
             from: "09:00",
             to: "11:00",
-          }
+          },
         ],
       },
       {
@@ -234,19 +292,25 @@ export const georgeTowncaymanIslandscaribbeanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "17:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Zoe is a passionate tour guide with extensive knowledge of George Town and Cayman Islands. Specializing in Indigenous Culture, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Zoe is a passionate tour guide with extensive knowledge of George Town and Cayman Islands. Specializing in Indigenous Culture, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.1,
     reviewsCount: 55,
-    quote: "Every corner of George Town tells a story, let me share them with you.",
+    quote:
+      "Every corner of George Town tells a story, let me share them with you.",
     profileImage: "https://randomuser.me/api/portraits/men/39.jpg",
     languages: ["Vietnamese"],
     experienceYears: 6,
-    certifications: ["Cultural Heritage Specialist", "CPR & First Aid", "Regional Tourism Ambassador"],
+    certifications: [
+      "Cultural Heritage Specialist",
+      "CPR & First Aid",
+      "Regional Tourism Ambassador",
+    ],
     specialties: ["Indigenous Culture"],
     specialTraining: ["Local Transit Systems", "Photography"],
   },
@@ -276,7 +340,7 @@ export const georgeTowncaymanIslandscaribbeanGuides: TourGuide[] = [
           {
             from: "08:00",
             to: "10:00",
-          }
+          },
         ],
       },
       {
@@ -289,19 +353,25 @@ export const georgeTowncaymanIslandscaribbeanGuides: TourGuide[] = [
           {
             from: "15:00",
             to: "19:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Lily is a passionate tour guide with extensive knowledge of George Town and Cayman Islands. Specializing in Parks & Gardens, LGBTQ+ History, Lily provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Lily is a passionate tour guide with extensive knowledge of George Town and Cayman Islands. Specializing in Parks & Gardens, LGBTQ+ History, Lily provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
     reviewsCount: 61,
-    quote: "My goal is to help you fall in love with George Town just as I have.",
+    quote:
+      "My goal is to help you fall in love with George Town just as I have.",
     profileImage: "https://randomuser.me/api/portraits/women/50.jpg",
     languages: ["Swedish", "Finnish", "Indonesian"],
     experienceYears: 3,
-    certifications: ["Cultural Heritage Specialist", "CPR & First Aid", "Local History Certification"],
+    certifications: [
+      "Cultural Heritage Specialist",
+      "CPR & First Aid",
+      "Local History Certification",
+    ],
     specialties: ["Parks & Gardens", "LGBTQ+ History"],
     specialTraining: ["Photography"],
   },
@@ -327,7 +397,7 @@ export const georgeTowncaymanIslandscaribbeanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "17:00",
-          }
+          },
         ],
       },
       {
@@ -340,7 +410,7 @@ export const georgeTowncaymanIslandscaribbeanGuides: TourGuide[] = [
           {
             from: "12:00",
             to: "16:00",
-          }
+          },
         ],
       },
       {
@@ -353,12 +423,13 @@ export const georgeTowncaymanIslandscaribbeanGuides: TourGuide[] = [
           {
             from: "11:00",
             to: "14:00",
-          }
+          },
         ],
-      }
+      },
     ],
     isCertified: true,
-    description: "Mason is a passionate tour guide with extensive knowledge of George Town and Cayman Islands. Specializing in Nightlife, Art Galleries, Cultural Etiquette, Wine Tasting, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
+    description:
+      "Mason is a passionate tour guide with extensive knowledge of George Town and Cayman Islands. Specializing in Nightlife, Art Galleries, Cultural Etiquette, Wine Tasting, Mason provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
     reviewsCount: 80,
     quote: "In George Town, we don't just see the sights - we make memories.",
@@ -366,7 +437,12 @@ export const georgeTowncaymanIslandscaribbeanGuides: TourGuide[] = [
     languages: ["Swedish", "Hindi", "Cantonese"],
     experienceYears: 10,
     certifications: ["Heritage Interpretation Certificate"],
-    specialties: ["Nightlife", "Art Galleries", "Cultural Etiquette", "Wine Tasting"],
+    specialties: [
+      "Nightlife",
+      "Art Galleries",
+      "Cultural Etiquette",
+      "Wine Tasting",
+    ],
     specialTraining: ["Regional Cuisine", "Historical Research Methods"],
-  }
+  },
 ];

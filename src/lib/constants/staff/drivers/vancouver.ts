@@ -14,12 +14,12 @@ export const vancouvercanadaalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "11:00"
+            to: "11:00",
           },
           {
             from: "14:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -27,8 +27,8 @@ export const vancouvercanadaalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -36,8 +36,8 @@ export const vancouvercanadaalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -45,8 +45,8 @@ export const vancouvercanadaalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "08:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
       },
       {
@@ -54,14 +54,14 @@ export const vancouvercanadaalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "23:00"
+            to: "23:00",
           },
           {
             from: "21:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.8,
     phone: "+806 861-904-6658",
@@ -83,8 +83,8 @@ export const vancouvercanadaalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "04:00"
-          }
+            to: "04:00",
+          },
         ],
       },
       {
@@ -92,8 +92,8 @@ export const vancouvercanadaalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "14:00"
-          }
+            to: "14:00",
+          },
         ],
       },
       {
@@ -101,8 +101,8 @@ export const vancouvercanadaalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -110,16 +110,21 @@ export const vancouvercanadaalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.7,
     phone: "+890 806-650-4319",
     email: "hannah.coleman@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/24.jpg",
-    specialties: ["Airport Transfers", "Security Detail", "Corporate Chauffeur", "Night Shift"],
+    specialties: [
+      "Airport Transfers",
+      "Security Detail",
+      "Corporate Chauffeur",
+      "Night Shift",
+    ],
     vehicleTypesCertified: ["Van", "Sedan", "SUV", "Motorcoach"],
   },
   {
@@ -135,12 +140,12 @@ export const vancouvercanadaalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "21:00"
+            to: "21:00",
           },
           {
             from: "09:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -148,8 +153,8 @@ export const vancouvercanadaalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "05:00"
-          }
+            to: "05:00",
+          },
         ],
       },
       {
@@ -157,10 +162,10 @@ export const vancouvercanadaalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "12:00"
-          }
+            to: "12:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.7,
     phone: "+114 169-301-2923",
@@ -182,12 +187,12 @@ export const vancouvercanadaalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "07:00"
+            to: "07:00",
           },
           {
             from: "10:00",
-            to: "15:00"
-          }
+            to: "15:00",
+          },
         ],
       },
       {
@@ -195,12 +200,12 @@ export const vancouvercanadaalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "12:00",
-            to: "17:00"
+            to: "17:00",
           },
           {
             from: "06:00",
-            to: "10:00"
-          }
+            to: "10:00",
+          },
         ],
       },
       {
@@ -208,8 +213,8 @@ export const vancouvercanadaalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -217,8 +222,8 @@ export const vancouvercanadaalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -226,16 +231,20 @@ export const vancouvercanadaalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "17:00"
-          }
+            to: "17:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.2,
     phone: "+463 266-437-2793",
     email: "joan.lee@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/44.jpg",
-    specialties: ["Event Transportation", "Airport Transfers", "Luxury Car Specialist"],
+    specialties: [
+      "Event Transportation",
+      "Airport Transfers",
+      "Luxury Car Specialist",
+    ],
     vehicleTypesCertified: ["SUV"],
   },
   {
@@ -251,12 +260,12 @@ export const vancouvercanadaalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "23:00"
+            to: "23:00",
           },
           {
             from: "09:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -264,12 +273,12 @@ export const vancouvercanadaalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "06:00"
+            to: "06:00",
           },
           {
             from: "15:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -277,16 +286,21 @@ export const vancouvercanadaalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "19:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 3.9,
     phone: "+636 247-363-7583",
     email: "victoria.parker@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/10.jpg",
-    specialties: ["Long-Distance Driving", "Corporate Chauffeur", "Security Detail", "Luxury Car Specialist"],
+    specialties: [
+      "Long-Distance Driving",
+      "Corporate Chauffeur",
+      "Security Detail",
+      "Luxury Car Specialist",
+    ],
     vehicleTypesCertified: ["Luxury SUV", "Motorcoach", "SUV", "Sedan"],
   },
   {
@@ -302,12 +316,12 @@ export const vancouvercanadaalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "10:00",
-            to: "12:00"
+            to: "12:00",
           },
           {
             from: "02:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
       },
       {
@@ -315,8 +329,8 @@ export const vancouvercanadaalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "14:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -324,8 +338,8 @@ export const vancouvercanadaalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "21:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -333,8 +347,8 @@ export const vancouvercanadaalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "05:00",
-            to: "07:00"
-          }
+            to: "07:00",
+          },
         ],
       },
       {
@@ -342,20 +356,25 @@ export const vancouvercanadaalaskaDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "22:00"
+            to: "22:00",
           },
           {
             from: "11:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.6,
     phone: "+61 712-960-2625",
     email: "virginia.morales@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/34.jpg",
-    specialties: ["Event Transportation", "Corporate Chauffeur", "VIP Transport", "Luxury Car Specialist"],
+    specialties: [
+      "Event Transportation",
+      "Corporate Chauffeur",
+      "VIP Transport",
+      "Luxury Car Specialist",
+    ],
     vehicleTypesCertified: ["Luxury SUV", "Sports Car", "Limousine"],
-  }
+  },
 ];

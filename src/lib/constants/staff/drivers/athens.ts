@@ -14,8 +14,8 @@ export const athensgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
       },
       {
@@ -23,12 +23,12 @@ export const athensgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "07:00"
+            to: "07:00",
           },
           {
             from: "18:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -36,8 +36,8 @@ export const athensgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "00:00",
-            to: "04:00"
-          }
+            to: "04:00",
+          },
         ],
       },
       {
@@ -45,10 +45,10 @@ export const athensgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "02:00",
-            to: "06:00"
-          }
+            to: "06:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.7,
     phone: "+155 454-207-1493",
@@ -70,12 +70,12 @@ export const athensgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "04:00",
-            to: "08:00"
+            to: "08:00",
           },
           {
             from: "03:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
       },
       {
@@ -83,8 +83,8 @@ export const athensgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -92,12 +92,12 @@ export const athensgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "01:00",
-            to: "05:00"
+            to: "05:00",
           },
           {
             from: "09:00",
-            to: "11:00"
-          }
+            to: "11:00",
+          },
         ],
       },
       {
@@ -105,16 +105,20 @@ export const athensgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 5,
     phone: "+495 838-459-4965",
     email: "maria.brown@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/women/74.jpg",
-    specialties: ["Airport Transfers", "Tour Guide Driver", "Luxury Car Specialist"],
+    specialties: [
+      "Airport Transfers",
+      "Tour Guide Driver",
+      "Luxury Car Specialist",
+    ],
     vehicleTypesCertified: ["Limousine"],
   },
   {
@@ -130,8 +134,8 @@ export const athensgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "17:00",
-            to: "22:00"
-          }
+            to: "22:00",
+          },
         ],
       },
       {
@@ -139,8 +143,8 @@ export const athensgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "24:00"
-          }
+            to: "24:00",
+          },
         ],
       },
       {
@@ -148,12 +152,12 @@ export const athensgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "09:00",
-            to: "13:00"
+            to: "13:00",
           },
           {
             from: "14:00",
-            to: "19:00"
-          }
+            to: "19:00",
+          },
         ],
       },
       {
@@ -161,8 +165,8 @@ export const athensgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "20:00"
-          }
+            to: "20:00",
+          },
         ],
       },
       {
@@ -170,10 +174,10 @@ export const athensgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.3,
     phone: "+715 735-544-1663",
@@ -195,12 +199,12 @@ export const athensgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "18:00"
+            to: "18:00",
           },
           {
             from: "11:00",
-            to: "13:00"
-          }
+            to: "13:00",
+          },
         ],
       },
       {
@@ -208,12 +212,12 @@ export const athensgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "11:00",
-            to: "15:00"
+            to: "15:00",
           },
           {
             from: "00:00",
-            to: "04:00"
-          }
+            to: "04:00",
+          },
         ],
       },
       {
@@ -221,12 +225,12 @@ export const athensgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "15:00",
-            to: "20:00"
+            to: "20:00",
           },
           {
             from: "17:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
       },
       {
@@ -234,16 +238,21 @@ export const athensgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "18:00"
-          }
+            to: "18:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.5,
     phone: "+867 496-798-6890",
     email: "aaron.king@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/32.jpg",
-    specialties: ["Security Detail", "Corporate Chauffeur", "Long-Distance Driving", "Airport Transfers"],
+    specialties: [
+      "Security Detail",
+      "Corporate Chauffeur",
+      "Long-Distance Driving",
+      "Airport Transfers",
+    ],
     vehicleTypesCertified: ["Electric Vehicle", "Limousine"],
   },
   {
@@ -259,12 +268,12 @@ export const athensgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "16:00",
-            to: "21:00"
+            to: "21:00",
           },
           {
             from: "06:00",
-            to: "08:00"
-          }
+            to: "08:00",
+          },
         ],
       },
       {
@@ -272,8 +281,8 @@ export const athensgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "20:00",
-            to: "23:00"
-          }
+            to: "23:00",
+          },
         ],
       },
       {
@@ -281,16 +290,22 @@ export const athensgreecemediterraneanDrivers: Driver[] = [
         availableHours: [
           {
             from: "18:00",
-            to: "21:00"
-          }
+            to: "21:00",
+          },
         ],
-      }
+      },
     ],
     ratings: 4.7,
     phone: "+80 904-173-1051",
     email: "benjamin.wells@paragontrailsdrivers.com",
     photoUrl: "https://randomuser.me/api/portraits/men/51.jpg",
     specialties: ["Airport Transfers", "Security Detail"],
-    vehicleTypesCertified: ["Sedan", "Sports Car", "Luxury SUV", "SUV", "Convertible"],
-  }
+    vehicleTypesCertified: [
+      "Sedan",
+      "Sports Car",
+      "Luxury SUV",
+      "SUV",
+      "Convertible",
+    ],
+  },
 ];
