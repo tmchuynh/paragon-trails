@@ -300,6 +300,27 @@ function convertTo24Hour(timeStr) {
   return `${String(hours).padStart(2, "0")}:${String(parseInt(minutes, 10)).padStart(2, "0")}`;
 }
 
+// Convert 24-hour format to 12-hour format with AM/PM
+function convertTo12Hour(timeStr) {
+  if (!timeStr) return "9:00 AM";
+
+  // Split hours and minutes
+  const [hours, minutes] = timeStr.split(':').map(num => parseInt(num, 10));
+  
+  // Determine AM/PM
+  const period = hours >= 12 ? 'PM' : 'AM';
+  
+  // Convert hours to 12-hour format
+  let displayHours = hours % 12;
+  if (displayHours === 0) displayHours = 12; // 0 should display as 12 in 12-hour format
+  
+  // Format minutes with leading zero if needed
+  const displayMinutes = minutes.toString().padStart(2, '0');
+  
+  // Return formatted time
+  return `${displayHours}:${displayMinutes} ${period}`;
+}
+
 // Generate camelCase identifier for variable names
 function generateVarName(city, region) {
   // Convert city name to camelCase
@@ -331,9 +352,13 @@ function stringifyObject(obj, indentLevel = 2) {
     if (entries.length === 0) return "{}";
 
     const props = entries
-      .map(
-        ([key, value]) => `${key}: ${stringifyObject(value, indentLevel + 2)}`
-      )
+      .map(([key, value]) => {
+        // Convert time format for 'from' and 'to' properties
+        if ((key === 'from' || key === 'to') && typeof value === 'string' && value.includes(':')) {
+          return `${key}: "${convertTo12Hour(value)}"`;
+        }
+        return `${key}: ${stringifyObject(value, indentLevel + 2)}`;
+      })
       .join(",\n" + " ".repeat(indentLevel + 2));
 
     return `{\n${" ".repeat(indentLevel + 2)}${props},\n${" ".repeat(indentLevel)}}`;
@@ -435,6 +460,22 @@ function generateAttractions() {
       let openingHours;
       try {
         openingHours = parseOpeningHours(detailInfo.openingHours);
+        
+        // Convert all opening hours to 12-hour format
+        if (Array.isArray(openingHours)) {
+          openingHours = openingHours.map(daySchedule => {
+            if (daySchedule.availableHours && Array.isArray(daySchedule.availableHours)) {
+              return {
+                ...daySchedule,
+                availableHours: daySchedule.availableHours.map(hours => ({
+                  from: hours.from,
+                  to: hours.to
+                }))
+              };
+            }
+            return daySchedule;
+          });
+        }
       } catch (e) {
         console.warn(
           `Error parsing opening hours for ${attractionName} in ${city}: ${e.message}`
