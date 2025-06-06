@@ -32,7 +32,7 @@ const tenToFour = [
   { day: "Friday", availableHours: [{ from: "10:00 AM", to: "4:00 PM" }] },
   { day: "Saturday", availableHours: [{ from: "10:00 AM", to: "4:00 PM" }] },
   { day: "Sunday", availableHours: [{ from: "10:00 AM", to: "4:00 PM" }] },
-]
+];
 
 const tenToSix = [
   { day: "Monday", availableHours: [{ from: "10:00 AM", to: "6:00 PM" }] },
@@ -102,7 +102,7 @@ const twelveToEleven = [
   { day: "Friday", availableHours: [{ from: "12:00 PM", to: "11:00 PM" }] },
   { day: "Saturday", availableHours: [{ from: "12:00 PM", to: "11:00 PM" }] },
   { day: "Sunday", availableHours: [{ from: "12:00 PM", to: "11:00 PM" }] },
-]
+];
 
 const closedMondays = [
   { day: "Monday", availableHours: [] },
@@ -153,11 +153,23 @@ export const attractionDetails = {
       priceCategory: "budget",
       openingHours: [
         { day: "Monday", availableHours: [{ from: "9:00 AM", to: "7:00 PM" }] },
-        { day: "Tuesday", availableHours: [{ from: "9:00 AM", to: "7:00 PM" }] },
-        { day: "Wednesday", availableHours: [{ from: "9:00 AM", to: "7:00 PM" }] },
-        { day: "Thursday", availableHours: [{ from: "9:00 AM", to: "7:00 PM" }] },
+        {
+          day: "Tuesday",
+          availableHours: [{ from: "9:00 AM", to: "7:00 PM" }],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [{ from: "9:00 AM", to: "7:00 PM" }],
+        },
+        {
+          day: "Thursday",
+          availableHours: [{ from: "9:00 AM", to: "7:00 PM" }],
+        },
         { day: "Friday", availableHours: [{ from: "9:00 AM", to: "7:00 PM" }] },
-        { day: "Saturday", availableHours: [{ from: "9:00 AM", to: "7:00 PM" }] },
+        {
+          day: "Saturday",
+          availableHours: [{ from: "9:00 AM", to: "7:00 PM" }],
+        },
         { day: "Sunday", availableHours: [{ from: "9:00 AM", to: "7:00 PM" }] },
       ],
       rating: 4.7,
@@ -172,7 +184,8 @@ export const attractionDetails = {
       features: ["museum", "WWII history", "education"],
     },
     Vondelpark: {
-      description: "Popular park offering open green spaces and outdoor activities.",
+      description:
+        "Popular park offering open green spaces and outdoor activities.",
       entryFee: undefined,
       entryFeeCategory: "free",
       priceRange: "free",
@@ -196,13 +209,31 @@ export const attractionDetails = {
       priceRange: "$$$",
       priceCategory: "premium",
       openingHours: [
-        { day: "Monday", availableHours: [{ from: "10:00 AM", to: "5:30 PM" }] },
-        { day: "Tuesday", availableHours: [{ from: "9:00 AM", to: "5:30 PM" }] },
-        { day: "Wednesday", availableHours: [{ from: "9:00 AM", to: "5:30 PM" }] },
-        { day: "Thursday", availableHours: [{ from: "9:00 AM", to: "5:30 PM" }] },
+        {
+          day: "Monday",
+          availableHours: [{ from: "10:00 AM", to: "5:30 PM" }],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [{ from: "9:00 AM", to: "5:30 PM" }],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [{ from: "9:00 AM", to: "5:30 PM" }],
+        },
+        {
+          day: "Thursday",
+          availableHours: [{ from: "9:00 AM", to: "5:30 PM" }],
+        },
         { day: "Friday", availableHours: [{ from: "9:00 AM", to: "5:30 PM" }] },
-        { day: "Saturday", availableHours: [{ from: "9:00 AM", to: "5:30 PM" }] },
-        { day: "Sunday", availableHours: [{ from: "10:00 AM", to: "5:30 PM" }] },
+        {
+          day: "Saturday",
+          availableHours: [{ from: "9:00 AM", to: "5:30 PM" }],
+        },
+        {
+          day: "Sunday",
+          availableHours: [{ from: "10:00 AM", to: "5:30 PM" }],
+        },
       ],
       rating: 4.6,
       isHistorical: true,
@@ -222,13 +253,34 @@ export const attractionDetails = {
       priceRange: "free",
       priceCategory: "free",
       openingHours: [
-        { day: "Monday", availableHours: [{ from: "10:00 AM", to: "5:00 PM" }] },
-        { day: "Tuesday", availableHours: [{ from: "10:00 AM", to: "5:00 PM" }] },
-        { day: "Wednesday", availableHours: [{ from: "10:00 AM", to: "5:00 PM" }] },
-        { day: "Thursday", availableHours: [{ from: "10:00 AM", to: "5:00 PM" }] },
-        { day: "Friday", availableHours: [{ from: "10:00 AM", to: "8:30 PM" }] },
-        { day: "Saturday", availableHours: [{ from: "10:00 AM", to: "5:30 PM" }] },
-        { day: "Sunday", availableHours: [{ from: "10:00 AM", to: "5:30 PM" }] },
+        {
+          day: "Monday",
+          availableHours: [{ from: "10:00 AM", to: "5:00 PM" }],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [{ from: "10:00 AM", to: "5:00 PM" }],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [{ from: "10:00 AM", to: "5:00 PM" }],
+        },
+        {
+          day: "Thursday",
+          availableHours: [{ from: "10:00 AM", to: "5:00 PM" }],
+        },
+        {
+          day: "Friday",
+          availableHours: [{ from: "10:00 AM", to: "8:30 PM" }],
+        },
+        {
+          day: "Saturday",
+          availableHours: [{ from: "10:00 AM", to: "5:30 PM" }],
+        },
+        {
+          day: "Sunday",
+          availableHours: [{ from: "10:00 AM", to: "5:30 PM" }],
+        },
       ],
       rating: 4.8,
       isHistorical: true,
@@ -246,13 +298,34 @@ export const attractionDetails = {
       priceRange: "free",
       priceCategory: "free",
       openingHours: [
-        { day: "Monday", availableHours: [{ from: "5:00 AM", to: "12:00 AM" }] },
-        { day: "Tuesday", availableHours: [{ from: "5:00 AM", to: "12:00 AM" }] },
-        { day: "Wednesday", availableHours: [{ from: "5:00 AM", to: "12:00 AM" }] },
-        { day: "Thursday", availableHours: [{ from: "5:00 AM", to: "12:00 AM" }] },
-        { day: "Friday", availableHours: [{ from: "5:00 AM", to: "12:00 AM" }] },
-        { day: "Saturday", availableHours: [{ from: "5:00 AM", to: "12:00 AM" }] },
-        { day: "Sunday", availableHours: [{ from: "5:00 AM", to: "12:00 AM" }] },
+        {
+          day: "Monday",
+          availableHours: [{ from: "5:00 AM", to: "12:00 AM" }],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [{ from: "5:00 AM", to: "12:00 AM" }],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [{ from: "5:00 AM", to: "12:00 AM" }],
+        },
+        {
+          day: "Thursday",
+          availableHours: [{ from: "5:00 AM", to: "12:00 AM" }],
+        },
+        {
+          day: "Friday",
+          availableHours: [{ from: "5:00 AM", to: "12:00 AM" }],
+        },
+        {
+          day: "Saturday",
+          availableHours: [{ from: "5:00 AM", to: "12:00 AM" }],
+        },
+        {
+          day: "Sunday",
+          availableHours: [{ from: "5:00 AM", to: "12:00 AM" }],
+        },
       ],
       rating: 4.7,
       isAdventure: true,
@@ -262,7 +335,7 @@ export const attractionDetails = {
       accessibilityFeatures: ["wheelchair accessible paths"],
       entryFees: [],
       features: ["park", "lake", "gardens", "outdoor activities"],
-    }
+    },
   },
   "new-york-city": {
     "Statue of Liberty": {
@@ -273,11 +346,23 @@ export const attractionDetails = {
       priceCategory: "moderate",
       openingHours: [
         { day: "Monday", availableHours: [{ from: "9:30 AM", to: "4:30 PM" }] },
-        { day: "Tuesday", availableHours: [{ from: "9:30 AM", to: "4:30 PM" }] },
-        { day: "Wednesday", availableHours: [{ from: "9:30 AM", to: "4:30 PM" }] },
-        { day: "Thursday", availableHours: [{ from: "9:30 AM", to: "4:30 PM" }] },
+        {
+          day: "Tuesday",
+          availableHours: [{ from: "9:30 AM", to: "4:30 PM" }],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [{ from: "9:30 AM", to: "4:30 PM" }],
+        },
+        {
+          day: "Thursday",
+          availableHours: [{ from: "9:30 AM", to: "4:30 PM" }],
+        },
         { day: "Friday", availableHours: [{ from: "9:30 AM", to: "4:30 PM" }] },
-        { day: "Saturday", availableHours: [{ from: "9:30 AM", to: "4:30 PM" }] },
+        {
+          day: "Saturday",
+          availableHours: [{ from: "9:30 AM", to: "4:30 PM" }],
+        },
         { day: "Sunday", availableHours: [{ from: "9:30 AM", to: "4:30 PM" }] },
       ],
       rating: 4.7,
@@ -298,11 +383,23 @@ export const attractionDetails = {
       priceCategory: "free",
       openingHours: [
         { day: "Monday", availableHours: [{ from: "6:00 AM", to: "1:00 AM" }] },
-        { day: "Tuesday", availableHours: [{ from: "6:00 AM", to: "1:00 AM" }] },
-        { day: "Wednesday", availableHours: [{ from: "6:00 AM", to: "1:00 AM" }] },
-        { day: "Thursday", availableHours: [{ from: "6:00 AM", to: "1:00 AM" }] },
+        {
+          day: "Tuesday",
+          availableHours: [{ from: "6:00 AM", to: "1:00 AM" }],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [{ from: "6:00 AM", to: "1:00 AM" }],
+        },
+        {
+          day: "Thursday",
+          availableHours: [{ from: "6:00 AM", to: "1:00 AM" }],
+        },
         { day: "Friday", availableHours: [{ from: "6:00 AM", to: "1:00 AM" }] },
-        { day: "Saturday", availableHours: [{ from: "6:00 AM", to: "1:00 AM" }] },
+        {
+          day: "Saturday",
+          availableHours: [{ from: "6:00 AM", to: "1:00 AM" }],
+        },
         { day: "Sunday", availableHours: [{ from: "6:00 AM", to: "1:00 AM" }] },
       ],
       rating: 4.9,
@@ -315,30 +412,59 @@ export const attractionDetails = {
       features: ["park", "lake", "zoo", "paths", "outdoor activities"],
     },
     "Metropolitan Museum of Art": {
-      description: "One of the world's largest and most prestigious art museums.",
+      description:
+        "One of the world's largest and most prestigious art museums.",
       entryFee: "$25",
       entryFeeCategory: "moderate",
       priceRange: "$$",
       priceCategory: "moderate",
       openingHours: [
-        { day: "Monday", availableHours: [{ from: "10:00 AM", to: "5:30 PM" }] },
-        { day: "Tuesday", availableHours: [{ from: "10:00 AM", to: "5:30 PM" }] },
-        { day: "Wednesday", availableHours: [{ from: "10:00 AM", to: "5:30 PM" }] },
-        { day: "Thursday", availableHours: [{ from: "10:00 AM", to: "5:30 PM" }] },
-        { day: "Friday", availableHours: [{ from: "10:00 AM", to: "9:00 PM" }] },
-        { day: "Saturday", availableHours: [{ from: "10:00 AM", to: "9:00 PM" }] },
-        { day: "Sunday", availableHours: [{ from: "10:00 AM", to: "5:30 PM" }] },
+        {
+          day: "Monday",
+          availableHours: [{ from: "10:00 AM", to: "5:30 PM" }],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [{ from: "10:00 AM", to: "5:30 PM" }],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [{ from: "10:00 AM", to: "5:30 PM" }],
+        },
+        {
+          day: "Thursday",
+          availableHours: [{ from: "10:00 AM", to: "5:30 PM" }],
+        },
+        {
+          day: "Friday",
+          availableHours: [{ from: "10:00 AM", to: "9:00 PM" }],
+        },
+        {
+          day: "Saturday",
+          availableHours: [{ from: "10:00 AM", to: "9:00 PM" }],
+        },
+        {
+          day: "Sunday",
+          availableHours: [{ from: "10:00 AM", to: "5:30 PM" }],
+        },
       ],
       rating: 4.8,
       isHistorical: true,
       isArtOrMusic: true,
       isPopular: true,
-      accessibilityFeatures: ["wheelchair accessible", "assistive listening devices"],
+      accessibilityFeatures: [
+        "wheelchair accessible",
+        "assistive listening devices",
+      ],
       entryFees: [
         { category: "adult", priceRange: "$25", priceCategory: "moderate" },
         { category: "student", priceRange: "$12", priceCategory: "budget" },
         { category: "senior", priceRange: "$17", priceCategory: "budget" },
-        { category: "child under 12", priceRange: "Free", priceCategory: "free" },
+        {
+          category: "child under 12",
+          priceRange: "Free",
+          priceCategory: "free",
+        },
       ],
       features: ["museum", "art", "exhibitions", "world-class collection"],
     },
@@ -351,39 +477,88 @@ export const attractionDetails = {
       priceRange: "$$$",
       priceCategory: "premium",
       openingHours: [
-        { day: "Monday", availableHours: [{ from: "9:30 AM", to: "11:45 PM" }] },
-        { day: "Tuesday", availableHours: [{ from: "9:30 AM", to: "11:45 PM" }] },
-        { day: "Wednesday", availableHours: [{ from: "9:30 AM", to: "11:45 PM" }] },
-        { day: "Thursday", availableHours: [{ from: "9:30 AM", to: "11:45 PM" }] },
-        { day: "Friday", availableHours: [{ from: "9:30 AM", to: "11:45 PM" }] },
-        { day: "Saturday", availableHours: [{ from: "9:30 AM", to: "11:45 PM" }] },
-        { day: "Sunday", availableHours: [{ from: "9:30 AM", to: "11:45 PM" }] },
+        {
+          day: "Monday",
+          availableHours: [{ from: "9:30 AM", to: "11:45 PM" }],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [{ from: "9:30 AM", to: "11:45 PM" }],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [{ from: "9:30 AM", to: "11:45 PM" }],
+        },
+        {
+          day: "Thursday",
+          availableHours: [{ from: "9:30 AM", to: "11:45 PM" }],
+        },
+        {
+          day: "Friday",
+          availableHours: [{ from: "9:30 AM", to: "11:45 PM" }],
+        },
+        {
+          day: "Saturday",
+          availableHours: [{ from: "9:30 AM", to: "11:45 PM" }],
+        },
+        {
+          day: "Sunday",
+          availableHours: [{ from: "9:30 AM", to: "11:45 PM" }],
+        },
       ],
       rating: 4.6,
       isHistorical: true,
       isRomantic: true,
       isPopular: true,
-      accessibilityFeatures: ["elevator access", "wheelchair accessible platform"],
+      accessibilityFeatures: [
+        "elevator access",
+        "wheelchair accessible platform",
+      ],
       entryFees: [
-        { category: "adult to top", priceRange: "€26.80", priceCategory: "expensive" },
-        { category: "youth to top", priceRange: "€13.40", priceCategory: "moderate" },
-        { category: "adult to second floor", priceRange: "€16.70", priceCategory: "moderate" },
+        {
+          category: "adult to top",
+          priceRange: "€26.80",
+          priceCategory: "expensive",
+        },
+        {
+          category: "youth to top",
+          priceRange: "€13.40",
+          priceCategory: "moderate",
+        },
+        {
+          category: "adult to second floor",
+          priceRange: "€16.70",
+          priceCategory: "moderate",
+        },
       ],
       features: ["landmark", "views", "restaurant", "observation deck"],
     },
     "Louvre Museum": {
-      description: "World's largest art museum and a historic monument in Paris.",
+      description:
+        "World's largest art museum and a historic monument in Paris.",
       entryFee: "€17",
       entryFeeCategory: "moderate",
       priceRange: "$$",
       priceCategory: "moderate",
       openingHours: [
         { day: "Monday", availableHours: [{ from: "9:00 AM", to: "6:00 PM" }] },
-        { day: "Tuesday", availableHours: [{ from: "9:00 AM", to: "6:00 PM" }] },
-        { day: "Wednesday", availableHours: [{ from: "9:00 AM", to: "6:00 PM" }] },
-        { day: "Thursday", availableHours: [{ from: "9:00 AM", to: "6:00 PM" }] },
+        {
+          day: "Tuesday",
+          availableHours: [{ from: "9:00 AM", to: "6:00 PM" }],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [{ from: "9:00 AM", to: "6:00 PM" }],
+        },
+        {
+          day: "Thursday",
+          availableHours: [{ from: "9:00 AM", to: "6:00 PM" }],
+        },
         { day: "Friday", availableHours: [{ from: "9:00 AM", to: "9:45 PM" }] },
-        { day: "Saturday", availableHours: [{ from: "9:00 AM", to: "9:45 PM" }] },
+        {
+          day: "Saturday",
+          availableHours: [{ from: "9:00 AM", to: "9:45 PM" }],
+        },
         { day: "Sunday", availableHours: [{ from: "9:00 AM", to: "6:00 PM" }] },
       ],
       rating: 4.8,
