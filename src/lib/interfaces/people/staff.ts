@@ -54,42 +54,6 @@ export interface WeeklyAvailability {
   availableHours: { from: string; to: string }[];
 }
 
-export interface CrewMember {
-  id: string; // Unique identifier
-  name: string; // Full name
-  role: CrewRole; // Role on the yacht (defined as union)
-  experienceYears: number; // Years of relevant experience
-  certifications: Certification[];
-  languagesSpoken: string[]; // ISO language codes or language names
-  isAvailable: boolean; // Availability status
-  contactEmail?: string; // Optional contact info
-  contactPhone: string; // Optional phone number
-}
-
-export type CrewRole =
-  | "Captain"
-  | "First Mate"
-  | "Engineer"
-  | "Deckhand"
-  | "Chef"
-  | "Steward/Stewardess"
-  | "Dive Instructor"
-  | "Host/Hostess"
-  | "Navigator"
-  | "Purser";
-
-export type Certification =
-  | "STCW"
-  | "First Aid"
-  | "Marine Radio Operator"
-  | "Fire Safety"
-  | "Dive Master"
-  | "Security Training"
-  | "Engineering License"
-  | "Hospitality Training"
-  | "Navigation Certification"
-  | "Environmental Awareness";
-
 export interface Driver {
   id: string; // Unique identifier
   name: string; // Full name

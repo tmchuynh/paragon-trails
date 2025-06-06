@@ -53,10 +53,6 @@ export const navbarItems = [
         href: "/services/rentals/motorcycle-rentals",
       },
       {
-        label: "Set Sail in Style",
-        href: "/services/rentals/yacht-rentals",
-      },
-      {
         label: "Homestays & Accommodations",
         href: "/services/accomodations",
       },
