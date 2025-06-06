@@ -336,6 +336,7 @@ function generateTestimonials(tour) {
 
   for (let i = 0; i < count; i++) {
     testimonials.push({
+      id: `testimonial-${tour.id}-${i + 1}`, // Add unique ID with tour reference
       quote: getTestimonialQuote(formattedCityName, tour.title, guideName),
       author: getRandomName(),
       title: getTestimonialTitle(formattedCityName),
@@ -376,6 +377,7 @@ async function createTestimonialFile(tour) {
 
   testimonials.forEach((testimonial, index) => {
     content += `  {\n`;
+    content += `    id: "${testimonial.id}",\n`; // Add ID to output
     content += `    quote: "${testimonial.quote}",\n`;
     content += `    author: "${testimonial.author}",\n`;
     content += `    title: "${testimonial.title}"\n`;
