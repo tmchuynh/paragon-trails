@@ -33,7 +33,7 @@ export async function getAllTestimonials(): Promise<Testimonial[]> {
  * @returns Array of testimonials for the city, or empty array if none found
  */
 export async function getCityTestimonials(
-  city: string
+  city: string,
 ): Promise<Testimonial[]> {
   try {
     // Normalize the city name for consistent lookup
@@ -73,7 +73,7 @@ export async function getCityTestimonials(
  * @returns The testimonial if found, or null
  */
 export async function getTestimonialById(
-  id: string
+  id: string,
 ): Promise<Testimonial | null> {
   try {
     // Extract the city from the ID format "city-testimonial-{city}-{number}"
@@ -99,7 +99,7 @@ export async function getTestimonialById(
  * @returns Array of featured testimonials
  */
 export async function getFeaturedTestimonials(
-  count: number = 5
+  count: number = 5,
 ): Promise<Testimonial[]> {
   try {
     const allTestimonials: Testimonial[] = [];
