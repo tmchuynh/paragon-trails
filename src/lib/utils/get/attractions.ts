@@ -32,7 +32,7 @@ export async function getAllAttractions(): Promise<Attraction[]> {
 
 export async function getCityAttractionById(
   city: string,
-  attractionId: string
+  attractionId: string,
 ): Promise<Attraction | null> {
   try {
     // Normalize the city name for the file path (kebab-case)
@@ -49,7 +49,7 @@ export async function getCityAttractionById(
 
       // Look for exports that contain "Attractions"
       const attractionsExports = exportNames.filter((name) =>
-        name.includes("Attractions")
+        name.includes("Attractions"),
       );
 
       // Try each export that might contain attractions
@@ -65,21 +65,21 @@ export async function getCityAttractionById(
 
       console.warn(
         `Attraction with ID ${attractionId} not found in ${city} (checked exports: ${attractionsExports.join(
-          ", "
-        )})`
+          ", ",
+        )})`,
       );
       return null;
     } catch (importError) {
       console.error(
         `Failed to import attractions for ${normalizedCity}:`,
-        importError
+        importError,
       );
       return null;
     }
   } catch (error) {
     console.error(
       `Error loading attraction for ${city} with ID ${attractionId}:`,
-      error
+      error,
     );
     return null;
   }
@@ -89,7 +89,7 @@ export async function getCityFile(city: string): Promise<any> {
   try {
     const cityFilesModule = await import("@/lib/constants/info/city");
     const cityFile = cityFilesModule.cityFiles.find(
-      (file: any) => file.city === city
+      (file: any) => file.city === city,
     );
     if (cityFile) {
       return cityFile;
@@ -116,7 +116,7 @@ export async function getCityAttractions(city: string): Promise<Attraction[]> {
 
       // Get all exports that contain "Attractions"
       const attractionsExports = Object.keys(attractionsModule).filter((name) =>
-        name.includes("Attractions")
+        name.includes("Attractions"),
       );
 
       // Return the first valid attractions array we find
@@ -124,7 +124,7 @@ export async function getCityAttractions(city: string): Promise<Attraction[]> {
         const attractions = attractionsModule[exportName];
         if (Array.isArray(attractions) && attractions.length > 0) {
           console.log(
-            `Found ${attractions.length} attractions for ${city} in export ${exportName}`
+            `Found ${attractions.length} attractions for ${city} in export ${exportName}`,
           );
           return attractions;
         }
@@ -132,14 +132,14 @@ export async function getCityAttractions(city: string): Promise<Attraction[]> {
 
       console.error(
         `No attractions found for city: ${city} (checked exports: ${attractionsExports.join(
-          ", "
-        )})`
+          ", ",
+        )})`,
       );
       return [];
     } catch (importError) {
       console.error(
         `Failed to import attractions for ${normalizedCity}:`,
-        importError
+        importError,
       );
       return [];
     }
@@ -151,7 +151,7 @@ export async function getCityAttractions(city: string): Promise<Attraction[]> {
 
 export async function getCityAttraction(
   city: string,
-  attractionId: string
+  attractionId: string,
 ): Promise<Attraction | null> {
   try {
     const attractions = await getCityAttractions(city);
@@ -169,18 +169,18 @@ export async function getCityAttraction(
 }
 export async function getCityAttractionByName(
   city: string,
-  attractionName: string
+  attractionName: string,
 ): Promise<Attraction | null> {
   try {
     const attractions = await getCityAttractions(city);
     const attraction = attractions.find(
-      (a: any) => a.name.toLowerCase() === attractionName.toLowerCase()
+      (a: any) => a.name.toLowerCase() === attractionName.toLowerCase(),
     );
     if (attraction) {
       return attraction;
     } else {
       console.error(
-        `Attraction with name ${attractionName} not found in ${city}`
+        `Attraction with name ${attractionName} not found in ${city}`,
       );
       return null;
     }
@@ -192,12 +192,12 @@ export async function getCityAttractionByName(
 
 export async function getCityAttractionsByTags(
   city: string,
-  tags: string[]
+  tags: string[],
 ): Promise<Attraction[]> {
   try {
     const attractions = await getCityAttractions(city);
     const filteredAttractions = attractions.filter((attraction: any) =>
-      tags.some((tag) => attraction.tags.includes(tag))
+      tags.some((tag) => attraction.tags.includes(tag)),
     );
     return filteredAttractions;
   } catch (error) {
@@ -208,12 +208,12 @@ export async function getCityAttractionsByTags(
 
 export async function getCityAttractionsByEntryFeeCategory(
   city: string,
-  entryFeeCategory: string
+  entryFeeCategory: string,
 ): Promise<Attraction[]> {
   try {
     const attractions = await getCityAttractions(city);
     const filteredAttractions = attractions.filter(
-      (attraction: any) => attraction.entryFeeCategory === entryFeeCategory
+      (attraction: any) => attraction.entryFeeCategory === entryFeeCategory,
     );
     return filteredAttractions;
   } catch (error) {
@@ -224,12 +224,12 @@ export async function getCityAttractionsByEntryFeeCategory(
 
 export async function getCityAttractionsByPriceRange(
   city: string,
-  priceRange: string
+  priceRange: string,
 ): Promise<Attraction[]> {
   try {
     const attractions = await getCityAttractions(city);
     const filteredAttractions = attractions.filter(
-      (attraction: any) => attraction.priceRange === priceRange
+      (attraction: any) => attraction.priceRange === priceRange,
     );
     return filteredAttractions;
   } catch (error) {
@@ -240,12 +240,12 @@ export async function getCityAttractionsByPriceRange(
 
 export async function getCityAttractionsByTimeOfDay(
   city: string,
-  timeOfDay: string
+  timeOfDay: string,
 ): Promise<Attraction[]> {
   try {
     const attractions = await getCityAttractions(city);
     const filteredAttractions = attractions.filter(
-      (attraction: any) => attraction.timeOfDay === timeOfDay
+      (attraction: any) => attraction.timeOfDay === timeOfDay,
     );
     return filteredAttractions;
   } catch (error) {
@@ -256,12 +256,12 @@ export async function getCityAttractionsByTimeOfDay(
 
 export async function getCityAttractionsByRating(
   city: string,
-  rating: number
+  rating: number,
 ): Promise<Attraction[]> {
   try {
     const attractions = await getCityAttractions(city);
     const filteredAttractions = attractions.filter(
-      (attraction: any) => attraction.rating >= rating
+      (attraction: any) => attraction.rating >= rating,
     );
     return filteredAttractions;
   } catch (error) {
