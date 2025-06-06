@@ -201,7 +201,7 @@ export default function CityToursPage() {
                         <Button
                           onClick={() => {
                             router.push(
-                              `/experiences-through-destinations/${cityData.city}/${attraction.id}&attraction=${attraction.title}?city=${cityData.city}`
+                              `/experiences-through-destinations/${cityData.city}/${attraction.title}?attraction=${attraction.title}&city=${cityData.city}`
                             );
                           }}
                           className="mt-4 w-fit self-end-safe"
