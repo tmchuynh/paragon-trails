@@ -45,14 +45,18 @@ import {
   SlidersHorizontal,
   X,
 } from "lucide-react";
-import { useParams, useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useParams, useRouter, useSearchParams } from "next/navigation";
+import { useEffect, useState, useMemo, useCallback, useRef } from "react";
 
 export default function ToursByCityPage() {
   const params = useParams();
   const router = useRouter();
+  const searchParams = useSearchParams();
   const citySlug = params.city as string;
   const cityName = formatKebebToTitleCase(citySlug);
+
+  // Get attraction filter from URL if present
+  const urlAttractionFilter = searchParams.get("attractionFilter");
 
   // State management
   const [loading, setLoading] = useState(true);
@@ -84,58 +88,114 @@ export default function ToursByCityPage() {
     Record<string, { title: string; description: string }>
   >({});
 
-  // Derived states
-  const uniqueLanguages = [
-    ...new Set(tours.flatMap((tour) => tour.languagesOffered)),
-  ].sort();
-  const uniqueTypes = [
-    ...new Set(tours.map((tour) => tour.type)),
-  ].sort() as TourType[];
-  const uniqueTags = [
-    ...new Set(tours.flatMap((tour) => tour.tags)),
-  ].sort() as TourTheme[];
-  const uniqueGuides = [...new Set(tours.map((tour) => tour.guideId))].sort();
+  // Add a ref to track if we've already applied the URL filter
+  const appliedUrlFilter = useRef(false);
 
-  // Extract unique attractions from tour schedules
-  const uniqueAttractionIds = [
-    ...new Set(
-      tours.flatMap(
-        (tour) => tour.schedule?.map((item) => item.attractionId) || []
-      )
-    ),
-  ].sort();
-
-  // Max values for ranges
-  const maxPrice = Math.max(
-    ...tours.map((tour) => tour.pricePerPerson || 0),
-    1000
-  );
-  const maxDuration = Math.max(
-    ...tours.map((tour) => tour.durationInHours || 0),
-    24
-  );
-  const maxGroupSize = Math.max(
-    ...tours.map((tour) => tour.maxGroupSize || 0),
-    50
+  // Memoize derived states to prevent unnecessary recalculations
+  const uniqueLanguages = useMemo(
+    () => [...new Set(tours.flatMap((tour) => tour.languagesOffered))].sort(),
+    [tours]
   );
 
-  // Pagination values
-  const totalItems = filteredTours.length;
-  const totalPages = Math.ceil(totalItems / pageSize);
-  const startIndex = (currentPage - 1) * pageSize;
-  const endIndex = startIndex + pageSize;
-  const currentItems = filteredTours.slice(startIndex, endIndex);
+  const uniqueTypes = useMemo(
+    () => [...new Set(tours.map((tour) => tour.type))].sort() as TourType[],
+    [tours]
+  );
 
-  // Fetch tours on component mount
+  const uniqueTags = useMemo(
+    () =>
+      [...new Set(tours.flatMap((tour) => tour.tags))].sort() as TourTheme[],
+    [tours]
+  );
+
+  const uniqueGuides = useMemo(
+    () => [...new Set(tours.map((tour) => tour.guideId))].sort(),
+    [tours]
+  );
+
+  // Extract unique attractions from tour schedules - memoized
+  const uniqueAttractionIds = useMemo(
+    () =>
+      [
+        ...new Set(
+          tours.flatMap(
+            (tour) => tour.schedule?.map((item) => item.attractionId) || []
+          )
+        ),
+      ].sort(),
+    [tours]
+  );
+
+  // Max values for ranges - memoized
+  const maxPrice = useMemo(
+    () => Math.max(...tours.map((tour) => tour.pricePerPerson || 0), 1000),
+    [tours]
+  );
+
+  const maxDuration = useMemo(
+    () => Math.max(...tours.map((tour) => tour.durationInHours || 0), 24),
+    [tours]
+  );
+
+  const maxGroupSize = useMemo(
+    () => Math.max(...tours.map((tour) => tour.maxGroupSize || 0), 50),
+    [tours]
+  );
+
+  // Pagination values - memoized
+  const { totalItems, totalPages, startIndex, endIndex, currentItems } =
+    useMemo(() => {
+      const totalItems = filteredTours.length;
+      const totalPages = Math.ceil(totalItems / pageSize);
+      const startIndex = (currentPage - 1) * pageSize;
+      const endIndex = startIndex + pageSize;
+      const currentItems = filteredTours.slice(startIndex, endIndex);
+
+      return { totalItems, totalPages, startIndex, endIndex, currentItems };
+    }, [filteredTours, pageSize, currentPage]);
+
+  // Helper function to toggle filter items - memoized to prevent recreation on renders
+  const toggleFilter = useCallback(
+    (
+      filterArray: any[],
+      setFilterArray: React.Dispatch<React.SetStateAction<any[]>>,
+      item: any
+    ) => {
+      if (filterArray.includes(item)) {
+        setFilterArray(filterArray.filter((i) => i !== item));
+      } else {
+        setFilterArray([...filterArray, item]);
+      }
+    },
+    []
+  );
+
+  // Reset all filters - memoized
+  const resetAllFilters = useCallback(() => {
+    setLanguageFilter([]);
+    setTypeFilter([]);
+    setTagFilter([]);
+    setGuideFilter([]);
+    setAttractionFilter([]);
+    setPriceRange([0, maxPrice]);
+    setDurationRange([0, maxDuration]);
+    setGroupSizeRange([1, maxGroupSize]);
+    setPrivateOnly(false);
+    setPetFriendlyOnly(false);
+  }, [maxPrice, maxDuration, maxGroupSize]);
+
+  // Fetch tours and apply URL params in a single effect to avoid race conditions
   useEffect(() => {
-    async function fetchToursForCity() {
+    let isMounted = true;
+
+    async function fetchToursAndApplyParams() {
+      if (!citySlug) return;
+
       try {
         setLoading(true);
 
-        // Attempt to fetch tours directly by city name
+        // Fetch tours data
         const cityToursResponse = await getCityTours(citySlug);
-
-        // If that doesn't work, fall back to using getAllTours and filtering
         let cityTours =
           Array.isArray(cityToursResponse) && cityToursResponse.length > 0
             ? cityToursResponse
@@ -145,8 +205,6 @@ export default function ToursByCityPage() {
           console.log(
             `Fetching tours for ${cityName} using individual fetches`
           );
-          // If we don't have any tours yet, try to fetch a few individually
-          // (This is a fallback approach - ideally getCityTours would work correctly)
           const tourIds = Array.from(
             { length: 5 },
             (_, i) => `tour-${citySlug.toLowerCase()}-${i + 1}`
@@ -156,8 +214,12 @@ export default function ToursByCityPage() {
           cityTours = tourResults.filter(Boolean);
         }
 
+        if (!isMounted) return;
+
         if (cityTours.length > 0) {
           console.log(`Found ${cityTours.length} tours for ${cityName}`);
+
+          // Set state with the fetched data
           setTours(cityTours);
           setFilteredTours(cityTours);
 
@@ -165,185 +227,254 @@ export default function ToursByCityPage() {
           const maxDataPrice = Math.max(
             ...cityTours.map((tour) => tour.pricePerPerson || 0)
           );
-          setPriceRange([0, maxDataPrice > 0 ? maxDataPrice : 1000]);
-
           const maxDataDuration = Math.max(
             ...cityTours.map((tour) => tour.durationInHours || 0)
           );
-          setDurationRange([
-            0,
-            maxDataDuration > 0 ? Math.ceil(maxDataDuration) : 24,
-          ]);
-
           const minDataGroupSize = Math.min(
             ...cityTours.map((tour) => tour.minGroupSize || 1)
           );
           const maxDataGroupSize = Math.max(
             ...cityTours.map((tour) => tour.maxGroupSize || 0)
           );
-          setGroupSizeRange([
-            minDataGroupSize > 0 ? minDataGroupSize : 1,
-            maxDataGroupSize > 1 ? maxDataGroupSize : 50,
-          ]);
+
+          if (isMounted) {
+            setPriceRange([0, maxDataPrice > 0 ? maxDataPrice : 1000]);
+            setDurationRange([
+              0,
+              maxDataDuration > 0 ? Math.ceil(maxDataDuration) : 24,
+            ]);
+            setGroupSizeRange([
+              minDataGroupSize > 0 ? minDataGroupSize : 1,
+              maxDataGroupSize > 1 ? maxDataGroupSize : 50,
+            ]);
+          }
+
+          // Now that we have tours data, apply URL params if needed
+          // This ensures we only try to filter once we have data to filter
+          if (urlAttractionFilter && !appliedUrlFilter.current) {
+            const attractionExists = cityTours.some((tour) =>
+              tour.schedule?.some(
+                (item) => item.attractionId === urlAttractionFilter
+              )
+            );
+
+            if (attractionExists && isMounted) {
+              console.log(
+                `Applied attraction filter from URL: ${urlAttractionFilter}`
+              );
+              setAttractionFilter([urlAttractionFilter]);
+              appliedUrlFilter.current = true;
+            }
+          }
         } else {
           console.warn(`No tours found for city: ${cityName}`);
         }
       } catch (error) {
         console.error("Error fetching tours:", error);
       } finally {
-        setLoading(false);
+        if (isMounted) {
+          setLoading(false);
+        }
       }
     }
 
-    if (citySlug) {
-      fetchToursForCity();
-    }
-  }, [citySlug, cityName]);
+    fetchToursAndApplyParams();
 
-  // Load attraction details for display
+    // Cleanup to prevent state updates on unmounted component
+    return () => {
+      isMounted = false;
+    };
+  }, [citySlug, cityName, urlAttractionFilter]);
+
+  // Load attraction details in a separate effect
   useEffect(() => {
-    if (uniqueAttractionIds.length === 0) return;
+    if (!uniqueAttractionIds.length || loading) return;
 
+    let isMounted = true;
     const fetchAttractionDetails = async () => {
       const details: Record<string, { title: string; description: string }> =
         {};
 
-      for (const attractionId of uniqueAttractionIds) {
-        try {
-          const attraction = await getCityAttractionById(
-            citySlug,
-            attractionId
-          );
-          if (attraction) {
-            details[attractionId] = {
-              title: attraction.title || attraction.name || attractionId,
-              description: attraction.description || "",
-            };
-          }
-        } catch (error) {
-          console.error(`Error fetching attraction ${attractionId}:`, error);
-        }
+      // Fetch in smaller batches to avoid overwhelming browser
+      const batchSize = 5;
+      for (let i = 0; i < uniqueAttractionIds.length; i += batchSize) {
+        const batch = uniqueAttractionIds.slice(i, i + batchSize);
+
+        await Promise.all(
+          batch.map(async (attractionId) => {
+            try {
+              const attraction = await getCityAttractionById(
+                citySlug,
+                attractionId
+              );
+              if (attraction) {
+                details[attractionId] = {
+                  title: attraction.title || attraction.name || attractionId,
+                  description: attraction.description || "",
+                };
+              }
+            } catch (error) {
+              console.error(
+                `Error fetching attraction ${attractionId}:`,
+                error
+              );
+            }
+          })
+        );
+
+        // Check if component is still mounted before updating state
+        if (!isMounted) return;
       }
 
-      setAttractionDetails(details);
+      if (isMounted) {
+        setAttractionDetails(details);
+
+        // Only scroll to filter section once attraction details are loaded
+        if (
+          urlAttractionFilter &&
+          attractionFilter.includes(urlAttractionFilter)
+        ) {
+          setTimeout(() => {
+            const filterSection = document.getElementById("attraction-filters");
+            if (filterSection) {
+              filterSection.scrollIntoView({ behavior: "smooth" });
+            }
+          }, 500);
+        }
+      }
     };
 
     fetchAttractionDetails();
-  }, [uniqueAttractionIds, citySlug]);
 
-  // Apply filters and sorting
+    return () => {
+      isMounted = false;
+    };
+  }, [
+    uniqueAttractionIds,
+    citySlug,
+    loading,
+    urlAttractionFilter,
+    attractionFilter,
+  ]);
+
+  // Apply filters and sorting - with debouncing to improve performance
   useEffect(() => {
     if (tours.length === 0) return;
 
-    let result = [...tours];
+    // Debounce filter application to prevent too many updates
+    const timer = setTimeout(() => {
+      let result = [...tours];
 
-    // Apply language filter
-    if (languageFilter.length > 0) {
-      result = result.filter(
-        (tour) =>
-          tour.languagesOffered &&
-          languageFilter.some((lang) => tour.languagesOffered.includes(lang))
-      );
-    }
-
-    // Apply type filter
-    if (typeFilter.length > 0) {
-      result = result.filter((tour) => typeFilter.includes(tour.type));
-    }
-
-    // Apply tag filter
-    if (tagFilter.length > 0) {
-      result = result.filter(
-        (tour) => tour.tags && tagFilter.some((tag) => tour.tags.includes(tag))
-      );
-    }
-
-    // Filter by guide
-    if (guideFilter.length > 0) {
-      result = result.filter((tour) => guideFilter.includes(tour.guideId));
-    }
-
-    // Filter by price range
-    result = result.filter((tour) => {
-      const price =
-        tour.pricePerPerson ||
-        parseFloat(removeSpecialCharactersFromNumbers(tour.price)) ||
-        0;
-      return price >= priceRange[0] && price <= priceRange[1];
-    });
-
-    // Filter by duration range
-    result = result.filter((tour) => {
-      const duration = tour.durationInHours || 0;
-      return duration >= durationRange[0] && duration <= durationRange[1];
-    });
-
-    // Filter by group size range
-    result = result.filter((tour) => {
-      const minSize = tour.minGroupSize || 1;
-      const maxSize = tour.maxGroupSize || 50;
-      return minSize >= groupSizeRange[0] && maxSize <= groupSizeRange[1];
-    });
-
-    // Filter by private availability
-    if (privateOnly) {
-      result = result.filter((tour) => tour.privateAvailable === true);
-    }
-
-    // Filter by pet friendly
-    if (petFriendlyOnly) {
-      result = result.filter((tour) => tour.isPetFriendly === true);
-    }
-
-    // Apply attraction filter
-    if (attractionFilter.length > 0) {
-      result = result.filter(
-        (tour) =>
-          tour.schedule &&
-          attractionFilter.some((attractionId) =>
-            tour.schedule.some((item) => item.attractionId === attractionId)
-          )
-      );
-    }
-
-    // Apply sorting
-    result.sort((a, b) => {
-      let valueA, valueB;
-
-      switch (sortField) {
-        case "price":
-          valueA =
-            a.pricePerPerson ||
-            parseFloat(removeSpecialCharactersFromNumbers(a.price)) ||
-            0;
-          valueB =
-            b.pricePerPerson ||
-            parseFloat(removeSpecialCharactersFromNumbers(b.price)) ||
-            0;
-          break;
-        case "duration":
-          valueA = a.durationInHours || 0;
-          valueB = b.durationInHours || 0;
-          break;
-        default:
-          valueA = a[sortField];
-          valueB = b[sortField];
+      // Apply language filter
+      if (languageFilter.length > 0) {
+        result = result.filter(
+          (tour) =>
+            tour.languagesOffered &&
+            languageFilter.some((lang) => tour.languagesOffered.includes(lang))
+        );
       }
 
-      if (valueA < valueB) return sortDirection === "asc" ? -1 : 1;
-      if (valueA > valueB) return sortDirection === "asc" ? 1 : -1;
-      return 0;
-    });
+      // Apply type filter
+      if (typeFilter.length > 0) {
+        result = result.filter((tour) => typeFilter.includes(tour.type));
+      }
 
-    setFilteredTours(result);
-    setCurrentPage(1); // Reset to first page when filters change
+      // Apply tag filter
+      if (tagFilter.length > 0) {
+        result = result.filter(
+          (tour) =>
+            tour.tags && tagFilter.some((tag) => tour.tags.includes(tag))
+        );
+      }
+
+      // Filter by guide
+      if (guideFilter.length > 0) {
+        result = result.filter((tour) => guideFilter.includes(tour.guideId));
+      }
+
+      // Apply attraction filter
+      if (attractionFilter.length > 0) {
+        result = result.filter(
+          (tour) =>
+            tour.schedule &&
+            attractionFilter.some((attractionId) =>
+              tour.schedule.some((item) => item.attractionId === attractionId)
+            )
+        );
+      }
+
+      // Filter by price range
+      result = result.filter((tour) => {
+        const price =
+          tour.pricePerPerson ||
+          parseFloat(removeSpecialCharactersFromNumbers(tour.price)) ||
+          0;
+        return price >= priceRange[0] && price <= priceRange[1];
+      });
+
+      // Filter by duration range
+      result = result.filter((tour) => {
+        const duration = tour.durationInHours || 0;
+        return duration >= durationRange[0] && duration <= durationRange[1];
+      });
+
+      // Filter by group size range
+      result = result.filter((tour) => {
+        const minSize = tour.minGroupSize || 1;
+        const maxSize = tour.maxGroupSize || 50;
+        return minSize >= groupSizeRange[0] && maxSize <= groupSizeRange[1];
+      });
+
+      // Apply additional filters
+      if (privateOnly) {
+        result = result.filter((tour) => tour.privateAvailable === true);
+      }
+
+      if (petFriendlyOnly) {
+        result = result.filter((tour) => tour.isPetFriendly === true);
+      }
+
+      // Apply sorting
+      result.sort((a, b) => {
+        let valueA, valueB;
+
+        switch (sortField) {
+          case "price":
+            valueA =
+              a.pricePerPerson ||
+              parseFloat(removeSpecialCharactersFromNumbers(a.price)) ||
+              0;
+            valueB =
+              b.pricePerPerson ||
+              parseFloat(removeSpecialCharactersFromNumbers(b.price)) ||
+              0;
+            break;
+          case "duration":
+            valueA = a.durationInHours || 0;
+            valueB = b.durationInHours || 0;
+            break;
+          default:
+            valueA = a[sortField];
+            valueB = b[sortField];
+        }
+
+        if (valueA < valueB) return sortDirection === "asc" ? -1 : 1;
+        if (valueA > valueB) return sortDirection === "asc" ? 1 : -1;
+        return 0;
+      });
+
+      setFilteredTours(result);
+      setCurrentPage(1);
+    }, 300); // Debounce delay
+
+    return () => clearTimeout(timer);
   }, [
     tours,
     languageFilter,
     typeFilter,
     tagFilter,
     guideFilter,
-    attractionFilter, // Add attraction filter dependency
+    attractionFilter,
     priceRange,
     durationRange,
     groupSizeRange,
@@ -353,21 +484,8 @@ export default function ToursByCityPage() {
     sortDirection,
   ]);
 
-  // Helper function to toggle filter items
-  const toggleFilter = (
-    filterArray: any[],
-    setFilterArray: React.Dispatch<React.SetStateAction<any[]>>,
-    item: any
-  ) => {
-    if (filterArray.includes(item)) {
-      setFilterArray(filterArray.filter((i) => i !== item));
-    } else {
-      setFilterArray([...filterArray, item]);
-    }
-  };
-
-  // Render pagination component
-  const renderPagination = () => {
+  // Memoized pagination renderer
+  const renderPagination = useCallback(() => {
     if (totalPages <= 1) return null;
 
     let pageNumbers: (number | "ellipsis")[] = [];
@@ -445,7 +563,34 @@ export default function ToursByCityPage() {
         </PaginationContent>
       </Pagination>
     );
-  };
+  }, [totalPages, currentPage]);
+
+  // Apply URL params for initial filter state - MODIFIED to prevent infinite updates
+  useEffect(() => {
+    // Only run this effect once when data is ready and only if filter isn't already set
+    if (
+      uniqueAttractionIds.length > 0 &&
+      urlAttractionFilter &&
+      attractionFilter.length === 0 &&
+      uniqueAttractionIds.includes(urlAttractionFilter)
+    ) {
+      console.log(`Applied attraction filter from URL: ${urlAttractionFilter}`);
+      setAttractionFilter([urlAttractionFilter]);
+    }
+  }, [urlAttractionFilter, uniqueAttractionIds, attractionFilter.length]);
+
+  // Scroll to filter section - MODIFIED with timeout and safety check
+  useEffect(() => {
+    if (!loading && urlAttractionFilter && attractionFilter.length > 0) {
+      // Use timeout to ensure the DOM has been updated
+      setTimeout(() => {
+        const filterSection = document.getElementById("attraction-filters");
+        if (filterSection) {
+          filterSection.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 500);
+    }
+  }, [loading, attractionFilter.length, urlAttractionFilter]);
 
   if (loading) {
     return <Loading />;
@@ -653,7 +798,7 @@ export default function ToursByCityPage() {
 
               {/* Attractions filter - new section */}
               {uniqueAttractionIds.length > 0 && (
-                <div className="space-y-2">
+                <div className="space-y-2" id="attraction-filters">
                   <h5>Attractions</h5>
                   <div className="space-y-1 p-2 border rounded-lg max-h-40 overflow-y-auto">
                     {uniqueAttractionIds.map((attractionId) => (
@@ -802,18 +947,7 @@ export default function ToursByCityPage() {
               <Button
                 variant="outline"
                 className="w-full"
-                onClick={() => {
-                  setLanguageFilter([]);
-                  setTypeFilter([]);
-                  setTagFilter([]);
-                  setGuideFilter([]);
-                  setAttractionFilter([]); // Add this line to reset attraction filter
-                  setPriceRange([0, maxPrice]);
-                  setDurationRange([0, maxDuration]);
-                  setGroupSizeRange([1, maxGroupSize]);
-                  setPrivateOnly(false);
-                  setPetFriendlyOnly(false);
-                }}
+                onClick={resetAllFilters}
               >
                 Reset All Filters
               </Button>
