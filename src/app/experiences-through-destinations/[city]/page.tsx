@@ -674,7 +674,7 @@ export default function ToursByCityPage() {
                 <SelectTrigger className="w-[100px]">
                   <SelectValue placeholder="Currency" />
                 </SelectTrigger>
-                <SelectContent>
+                <SelectContent className="max-h-[35em] overflow-y-auto">
                   <SelectItem value="USD">USD ($)</SelectItem>
                   <SelectItem value="EUR">EUR (€)</SelectItem>
                   <SelectItem value="GBP">GBP (£)</SelectItem>
@@ -713,7 +713,7 @@ export default function ToursByCityPage() {
               <SelectTrigger className="w-[180px]">
                 <SelectValue placeholder="Items per page" />
               </SelectTrigger>
-              <SelectContent>
+              <SelectContent className="max-h-[35em] overflow-y-auto">
                 <SelectItem value="10">10 per page</SelectItem>
                 <SelectItem value="15">15 per page</SelectItem>
                 <SelectItem value="20">20 per page</SelectItem>
