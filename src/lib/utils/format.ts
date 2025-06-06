@@ -103,7 +103,7 @@ export const formatDuration = (duration: string): string => {
 export function formatNumberToCurrency(
   value: number,
   min?: number,
-  max?: number
+  max?: number,
 ): string {
   return new Intl.NumberFormat("en-US", {
     style: "currency",
@@ -364,7 +364,7 @@ export function removeSpecialCharactersFromNumbers(str: string): string {
 
 export const formatPrice = (
   price: number | string,
-  currency: Currency
+  currency: Currency,
 ): string => {
   const numPrice = typeof price === "string" ? parseFloat(price) : price;
 
@@ -429,7 +429,7 @@ export const formatPrice = (
 export const convertPrice = (
   price: number,
   fromCurrency: string,
-  toCurrency: Currency
+  toCurrency: Currency,
 ): number => {
   // Convert to USD first (if not already USD)
   const inUSD =
