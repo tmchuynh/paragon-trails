@@ -70,14 +70,44 @@ function parseOpeningHours(hoursString) {
     "Sunday",
   ];
 
-  // Handle "24 hours" case
+  // If already in the correct format, return it
+  if (
+    Array.isArray(hoursString) &&
+    hoursString.length > 0 &&
+    typeof hoursString[0] === "object" &&
+    "day" in hoursString[0] &&
+    "availableHours" in hoursString[0]
+  ) {
+    // Ensure all days are present
+    const existingDays = hoursString.map((item) => item.day);
+    const missingDays = days.filter((day) => !existingDays.includes(day));
+
+    if (missingDays.length === 0) {
+      return hoursString;
+    }
+
+    // Add missing days with default hours
+    const result = [...hoursString];
+    for (const day of missingDays) {
+      result.push({
+        day,
+        availableHours: [{ from: "09:00", to: "17:00" }],
+      });
+    }
+
+    // Sort by day of week
+    return result.sort((a, b) => days.indexOf(a.day) - days.indexOf(b.day));
+  }
+
+  // Handle "24 hours" case and other all-day variations
   if (
     !hoursString ||
-    hoursString === "Open 24 hours" ||
-    hoursString === "All day" ||
-    hoursString === "Open all day" ||
-    hoursString === "Always open" ||
-    hoursString === "24 hours"
+    (typeof hoursString === "string" &&
+      (hoursString.toLowerCase().includes("24 hour") ||
+        hoursString.toLowerCase().includes("all day") ||
+        hoursString.toLowerCase().includes("always open") ||
+        hoursString.toLowerCase().includes("open 24") ||
+        hoursString.toLowerCase().includes("24/7")))
   ) {
     return days.map((day) => ({
       day,
@@ -85,30 +115,29 @@ function parseOpeningHours(hoursString) {
     }));
   }
 
-  // If already in the correct format, return it
-  if (
-    Array.isArray(hoursString) &&
-    hoursString.length > 0 &&
-    "day" in hoursString[0]
-  ) {
-    return hoursString;
-  }
-
-  // Handle specific days mentioned
+  // Handle string formats
   if (typeof hoursString === "string") {
-    if (hoursString.includes("varies") || hoursString.includes("Varies")) {
+    // Handle "varies" case
+    if (
+      hoursString.toLowerCase().includes("varies") ||
+      hoursString.toLowerCase().includes("check website") ||
+      hoursString.toLowerCase().includes("call for")
+    ) {
       return days.map((day) => ({
         day,
         availableHours: [{ from: "09:00", to: "17:00" }],
       }));
     }
 
-    // Handle cases with closed days
-    if (hoursString.includes("closed") || hoursString.includes("Closed")) {
-      const closedDayMatch = hoursString.match(/closed\s+([A-Za-z]+)s?/i);
+    // Handle specific days mentioned (like "closed on Mondays")
+    if (hoursString.toLowerCase().includes("closed")) {
+      // Try to match a specific closed day
+      const closedDayMatch = hoursString.match(
+        /closed\s+(?:on\s+)?([A-Za-z]+)s?/i
+      );
       if (closedDayMatch) {
         const closedDay = closedDayMatch[1].toLowerCase();
-        const timeRange = hoursString.split(/\(|\)/)[0].trim();
+        const timeRange = hoursString.replace(/\(.*?\)/g, "").trim();
         const [from, to] = parseTimeRange(timeRange);
 
         return days.map((day) => ({
@@ -120,7 +149,72 @@ function parseOpeningHours(hoursString) {
       }
     }
 
-    // Handle standard time ranges
+    // Check for specific day patterns like "Mon-Fri: 9am-5pm, Sat-Sun: 10am-4pm"
+    const dayRangePattern =
+      /([A-Za-z]+)(?:-([A-Za-z]+))?\s*[:;]\s*([\d:]+\s*(?:AM|PM|am|pm)?\s*[-–]\s*[\d:]+\s*(?:AM|PM|am|pm)?)/gi;
+    let dayRangeMatch;
+    const specificHours = {};
+    let foundSpecificDays = false;
+
+    while ((dayRangeMatch = dayRangePattern.exec(hoursString)) !== null) {
+      foundSpecificDays = true;
+      const startDay = dayRangeMatch[1];
+      const endDay = dayRangeMatch[2] || startDay;
+      const timeRange = dayRangeMatch[3];
+      const [from, to] = parseTimeRange(timeRange);
+
+      // Map abbreviated day names to full day names
+      const dayMap = {
+        mon: "Monday",
+        tue: "Tuesday",
+        wed: "Wednesday",
+        thu: "Thursday",
+        fri: "Friday",
+        sat: "Saturday",
+        sun: "Sunday",
+      };
+
+      // Find start and end day indices
+      let startDayIndex = days.findIndex((day) =>
+        day.toLowerCase().startsWith(startDay.toLowerCase())
+      );
+      let endDayIndex = days.findIndex((day) =>
+        day.toLowerCase().startsWith(endDay.toLowerCase())
+      );
+
+      // Try abbreviated day matching if not found
+      if (startDayIndex === -1 && dayMap[startDay.toLowerCase()]) {
+        startDayIndex = days.indexOf(dayMap[startDay.toLowerCase()]);
+      }
+      if (endDayIndex === -1 && dayMap[endDay.toLowerCase()]) {
+        endDayIndex = days.indexOf(dayMap[endDay.toLowerCase()]);
+      }
+
+      if (startDayIndex !== -1 && endDayIndex !== -1) {
+        // Handle wrapping around (e.g., "Fri-Mon")
+        if (startDayIndex > endDayIndex) {
+          for (let i = startDayIndex; i < days.length; i++) {
+            specificHours[days[i]] = [{ from, to }];
+          }
+          for (let i = 0; i <= endDayIndex; i++) {
+            specificHours[days[i]] = [{ from, to }];
+          }
+        } else {
+          for (let i = startDayIndex; i <= endDayIndex; i++) {
+            specificHours[days[i]] = [{ from, to }];
+          }
+        }
+      }
+    }
+
+    if (foundSpecificDays) {
+      return days.map((day) => ({
+        day,
+        availableHours: specificHours[day] || [],
+      }));
+    }
+
+    // Standard time range for all days
     const [from, to] = parseTimeRange(hoursString);
     return days.map((day) => ({
       day,
@@ -128,7 +222,7 @@ function parseOpeningHours(hoursString) {
     }));
   }
 
-  // Default fallback
+  // Default fallback for all other cases
   return days.map((day) => ({
     day,
     availableHours: [{ from: "09:00", to: "17:00" }],
@@ -141,9 +235,9 @@ function parseTimeRange(timeRange) {
     return ["09:00", "17:00"];
   }
 
-  const cleanedRange = timeRange.replace(/\(.*\)/, "").trim();
+  const cleanedRange = timeRange.replace(/\(.*\)/g, "").trim();
 
-  // Match patterns like "9:00 AM - 5:00 PM" or "10:30 AM – 6:00 PM"
+  // Enhanced pattern to match various time formats
   const timeMatch = cleanedRange.match(
     /(\d+(?::\d+)?\s*(?:AM|PM|am|pm)?)\s*[-–]\s*(\d+(?::\d+)?\s*(?:AM|PM|am|pm)?)/i
   );
@@ -164,26 +258,30 @@ function convertTo24Hour(timeStr) {
 
   let hours, minutes, modifier;
 
+  // Clean the input string
+  timeStr = timeStr.trim().toLowerCase();
+
+  // Extract AM/PM
+  if (timeStr.includes("am")) {
+    modifier = "AM";
+    timeStr = timeStr.replace("am", "").trim();
+  } else if (timeStr.includes("pm")) {
+    modifier = "PM";
+    timeStr = timeStr.replace("pm", "").trim();
+  }
+
   if (timeStr.includes(":")) {
+    // Has hours and minutes format (e.g., "9:30")
     [hours, minutes] = timeStr.split(":");
-    if (
-      minutes.includes("AM") ||
-      minutes.includes("PM") ||
-      minutes.includes("am") ||
-      minutes.includes("pm")
-    ) {
-      modifier = minutes.match(/(AM|PM|am|pm)/i)[0].toUpperCase();
-      minutes = minutes.replace(/(AM|PM|am|pm)/i, "").trim();
+    if (!modifier && (minutes.includes("a") || minutes.includes("p"))) {
+      if (minutes.includes("a")) modifier = "AM";
+      else if (minutes.includes("p")) modifier = "PM";
+      minutes = minutes.replace(/[ap]\.?m?\.?/i, "").trim();
     }
   } else {
-    const match = timeStr.match(/(\d+)\s*(AM|PM|am|pm)?/i);
-    if (match) {
-      hours = match[1];
-      minutes = "00";
-      modifier = match[2]?.toUpperCase();
-    } else {
-      return "09:00";
-    }
+    // Only hours (e.g., "9")
+    hours = timeStr;
+    minutes = "00";
   }
 
   // Default to AM if no modifier
@@ -199,7 +297,7 @@ function convertTo24Hour(timeStr) {
     hours += 12;
   }
 
-  return `${String(hours).padStart(2, "0")}:${String(minutes).padStart(2, "0")}`;
+  return `${String(hours).padStart(2, "0")}:${String(parseInt(minutes, 10)).padStart(2, "0")}`;
 }
 
 // Generate camelCase identifier for variable names
@@ -207,10 +305,8 @@ function generateVarName(city, region) {
   // Convert city name to camelCase
   city = city.replace(/-([a-z])/g, (match, letter) => letter.toUpperCase());
 
-  // Convert region name to camelCase
-  region = region
-    .toLowerCase()
-    .replace(/\s+([a-z])/g, (match, letter) => letter.toUpperCase());
+  // Remove spaces and special characters from region and convert to camelCase
+  region = region.toLowerCase().replace(/\s+/g, "").replace(/[-_]/g, "");
 
   return `${city}${region}Attractions`;
 }
@@ -277,7 +373,7 @@ function writeAttractionsFile(citySlug, attractions) {
     currency = regionCurrencyMap[region];
   }
 
-  // Create variable name for the attractions array
+  // Create variable name for the attractions array - using modified function
   const varName = generateVarName(citySlug, region);
 
   // Build TypeScript content
@@ -335,7 +431,7 @@ function generateAttractions() {
 
       attractionCount++;
 
-      // Parse opening hours
+      // Parse opening hours with improved function
       let openingHours;
       try {
         openingHours = parseOpeningHours(detailInfo.openingHours);
