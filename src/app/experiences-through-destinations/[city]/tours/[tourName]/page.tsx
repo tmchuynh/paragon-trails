@@ -12,7 +12,11 @@ import { Currency } from "@/lib/interfaces/general";
 import { TourGuide } from "@/lib/interfaces/people/staff";
 import { Attraction } from "@/lib/interfaces/services/attractions";
 import { Tour } from "@/lib/interfaces/services/tours";
-import { convertPrice } from "@/lib/utils/format";
+import {
+  convertPrice,
+  formatPrice,
+  removeSpecialCharactersFromNumbers,
+} from "@/lib/utils/format";
 import { getCityAttractionById } from "@/lib/utils/get/attractions";
 import { getTourGuideById } from "@/lib/utils/get/guides";
 import { getTourById } from "@/lib/utils/get/tours";
@@ -64,7 +68,7 @@ export default function TourDetailsPage() {
     async function fetchTourGuide() {
       try {
         console.log(`Loading tour guide with ID: ${guideId} for city: ${city}`);
-        const formattedCity = formatKebabToCamelCase(city);
+        const formattedCity = formatKebabToCamelCase(city as string);
 
         console.log(`formatted city: ${city}`);
         const guideResponse = await getTourGuideById(
@@ -204,7 +208,17 @@ export default function TourDetailsPage() {
                 <div>
                   <h4>Price</h4>
                   <p className="font-semibold text-lg">
-                    {tourData.pricePerPerson}
+                    {formatPrice(
+                      convertPrice(
+                        tourData.pricePerPerson ||
+                          parseFloat(
+                            removeSpecialCharactersFromNumbers(tourData.price)
+                          ),
+                        tourData.currency || "USD",
+                        updatedCurrency
+                      ),
+                      updatedCurrency
+                    )}
                   </p>
                 </div>
                 <div>
