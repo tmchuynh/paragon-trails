@@ -439,106 +439,104 @@ export const ${varName}: Attraction[] = ${stringifyObject(attractions)};
   console.log(`Generated file for ${citySlug} (${region}, ${country})`);
 }
 
-function generateAttractions() {
+function generateAttractions(city, index) {
   const result = {};
   let cityCount = 0;
   let attractionCount = 0;
 
-  for (const city in attractionBasicInfo) {
-    // Skip cities that don't match our filter if provided
-    if (options.city && !city.includes(options.city)) {
-      continue;
+  // Skip cities that don't match our filter if provided
+  if (options.city && !city.includes(options.city)) {
+    return;
+  }
+
+  result[city] = {};
+  cityCount++;
+
+  for (const attractionName in attractionBasicInfo[city]) {
+    const basicInfo = attractionBasicInfo[city][attractionName];
+    const detailInfo = attractionDetails[city]?.[attractionName] || {};
+
+    // Skip attractions that don't match our price filter if provided
+    if (options.price && detailInfo.priceRange !== options.price) {
+      return;
     }
 
-    result[city] = {};
-    cityCount++;
+    attractionCount++;
 
-    for (const attractionName in attractionBasicInfo[city]) {
-      const basicInfo = attractionBasicInfo[city][attractionName];
-      const detailInfo = attractionDetails[city]?.[attractionName] || {};
+    const id = `attraction-${removeAccents(city).toLowerCase().replace(/\s+/g, "-")}-${index + 1}`;
 
-      // Skip attractions that don't match our price filter if provided
-      if (options.price && detailInfo.priceRange !== options.price) {
-        continue;
+    // Parse opening hours with improved function
+    let openingHours;
+    try {
+      openingHours = parseOpeningHours(detailInfo.openingHours);
+
+      // Convert all opening hours to 12-hour format
+      if (Array.isArray(openingHours)) {
+        openingHours = openingHours.map((daySchedule) => {
+          if (
+            daySchedule.availableHours &&
+            Array.isArray(daySchedule.availableHours)
+          ) {
+            return {
+              ...daySchedule,
+              availableHours: daySchedule.availableHours.map((hours) => ({
+                from: hours.from,
+                to: hours.to,
+              })),
+            };
+          }
+          return daySchedule;
+        });
       }
-
-      attractionCount++;
-
-      const id = `attraction-${removeAccents(city).toLowerCase().replace(/\s+/g, "-")}-${attractionCount + 1}`;
-
-      // Parse opening hours with improved function
-      let openingHours;
-      try {
-        openingHours = parseOpeningHours(detailInfo.openingHours);
-
-        // Convert all opening hours to 12-hour format
-        if (Array.isArray(openingHours)) {
-          openingHours = openingHours.map((daySchedule) => {
-            if (
-              daySchedule.availableHours &&
-              Array.isArray(daySchedule.availableHours)
-            ) {
-              return {
-                ...daySchedule,
-                availableHours: daySchedule.availableHours.map((hours) => ({
-                  from: hours.from,
-                  to: hours.to,
-                })),
-              };
-            }
-            return daySchedule;
-          });
-        }
-      } catch (e) {
-        console.warn(
-          `Error parsing opening hours for ${attractionName} in ${city}: ${e.message}`
-        );
-        openingHours = [];
-      }
-
-      // Generate tags array from boolean properties
-      const tags = [];
-      if (detailInfo.isHistorical) tags.push("Historical");
-      if (detailInfo.isRomantic) tags.push("Romantic");
-      if (detailInfo.isAdventure) tags.push("Adventure");
-      if (detailInfo.isCulinary) tags.push("Culinary");
-      if (detailInfo.isSpiritual) tags.push("Spiritual");
-      if (detailInfo.isNightlife) tags.push("Nightlife");
-      if (detailInfo.isLuxury) tags.push("Luxury");
-      if (detailInfo.isArtOrMusic) tags.push("Artormusic");
-      if (detailInfo.isFree) tags.push("Free");
-      if (detailInfo.isPopular) tags.push("Popular");
-      if (detailInfo.isPetFriendly) tags.push("Petfriendly");
-
-      // Create attraction object according to BaseAttraction interface
-      const attraction = {
-        id,
-        city: `${formatKebebToTitleCase(city)}`,
-        title: basicInfo.title,
-        description: detailInfo.description || "No description available",
-        imageUrl: basicInfo.imageUrl,
-        location: basicInfo.location,
-        openingHours,
-        entryFee: detailInfo.entryFee,
-        entryFeeCategory: detailInfo.entryFeeCategory || "moderate",
-        priceRange: detailInfo.priceRange || "$",
-        priceCategory: detailInfo.priceCategory || "moderate",
-        timeOfDay: detailInfo.timeOfDay || "daytime",
-        rating: detailInfo.rating || 4.0,
-        tags: tags.length > 0 ? tags : [],
-        accessibilityFeatures: detailInfo.accessibilityFeatures || [],
-        entryFees: detailInfo.entryFees || [],
-        features: detailInfo.features || [],
-      };
-
-      result[city][attractionName] = attraction;
+    } catch (e) {
+      console.warn(
+        `Error parsing opening hours for ${attractionName} in ${city}: ${e.message}`
+      );
+      openingHours = [];
     }
 
-    // Write attractions file for this city
-    const cityAttractions = Object.values(result[city]);
-    if (cityAttractions.length > 0) {
-      writeAttractionsFile(city, cityAttractions);
-    }
+    // Generate tags array from boolean properties
+    const tags = [];
+    if (detailInfo.isHistorical) tags.push("Historical");
+    if (detailInfo.isRomantic) tags.push("Romantic");
+    if (detailInfo.isAdventure) tags.push("Adventure");
+    if (detailInfo.isCulinary) tags.push("Culinary");
+    if (detailInfo.isSpiritual) tags.push("Spiritual");
+    if (detailInfo.isNightlife) tags.push("Nightlife");
+    if (detailInfo.isLuxury) tags.push("Luxury");
+    if (detailInfo.isArtOrMusic) tags.push("Artormusic");
+    if (detailInfo.isFree) tags.push("Free");
+    if (detailInfo.isPopular) tags.push("Popular");
+    if (detailInfo.isPetFriendly) tags.push("Petfriendly");
+
+    // Create attraction object according to BaseAttraction interface
+    const attraction = {
+      id,
+      city: `${formatKebebToTitleCase(city)}`,
+      title: basicInfo.title,
+      description: detailInfo.description || "No description available",
+      imageUrl: basicInfo.imageUrl,
+      location: basicInfo.location,
+      openingHours,
+      entryFee: detailInfo.entryFee,
+      entryFeeCategory: detailInfo.entryFeeCategory || "moderate",
+      priceRange: detailInfo.priceRange || "$",
+      priceCategory: detailInfo.priceCategory || "moderate",
+      timeOfDay: detailInfo.timeOfDay || "daytime",
+      rating: detailInfo.rating || 4.0,
+      tags: tags.length > 0 ? tags : [],
+      accessibilityFeatures: detailInfo.accessibilityFeatures || [],
+      entryFees: detailInfo.entryFees || [],
+      features: detailInfo.features || [],
+    };
+
+    result[city][attractionName] = attraction;
+  }
+
+  // Write attractions file for this city
+  const cityAttractions = Object.values(result[city]);
+  if (cityAttractions.length > 0) {
+    writeAttractionsFile(city, cityAttractions);
   }
 
   // Write combined JSON data
@@ -556,4 +554,8 @@ function generateAttractions() {
 }
 
 // Execute the script
-generateAttractions();
+for (const city in attractionBasicInfo) {
+  let index = 0;
+  generateAttractions(city, index);
+  index++;
+}
