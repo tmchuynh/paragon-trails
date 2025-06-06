@@ -1,12 +1,32 @@
 import { Attraction } from "@/lib/interfaces/services/attractions";
+import { formatKebabToCamelCase } from "../format";
+import { cityCountryMap, cityToRegionMap } from "@/lib/utils/mapping";
+import { cityFiles } from "@/lib/constants/info/city";
 
-export async function getCityFiles(): Promise<any> {
+export async function getAllAttractions(): Promise<Attraction[]> {
+  const attractions: Attraction[] = [];
   try {
-    const cityFilesModule = await import("@/lib/constants/info/city");
-    return cityFilesModule.cityFiles;
+    for (const cityFile of cityFiles) {
+      const country = cityCountryMap[cityFile as keyof typeof cityCountryMap];
+      const formattedCity = formatKebabToCamelCase(cityFile);
+      const formattedCountry = formatKebabToCamelCase(country);
+
+      const attractionId = `${formattedCity}${formattedCountry}Attractions`;
+      const cityModule = await import(
+        `@/lib/constants/destinations/city/${cityFile}`
+      );
+
+      if (cityModule[attractionId]) {
+        attractions.push(...(cityModule[attractionId] as Attraction[]));
+      }
+      console.error(`No attractions found for city: ${cityFile}`);
+      return [];
+    }
   } catch (error) {
     console.error(`Error loading city files: ${error}`);
     return [];
+  } finally {
+    return attractions;
   }
 }
 
