@@ -39,7 +39,9 @@ export default function ExperiencesThroughDestinationsPage() {
                 className="md:w-1/2"
                 variant={"fancy"}
                 onClick={() =>
-                  router.push(`/experiences-through-destinations/${city.city}`)
+                  router.push(
+                    `/experiences-through-destinations/${city.city}?city=${city.city}`
+                  )
                 }
               >
                 Learn More
