@@ -421,7 +421,7 @@ function generateTourGuide(city, index) {
     rating: parseFloat((3.5 + Math.random() * 1.5).toFixed(1)), // 3.5-5.0 rating
     reviewsCount: Math.floor(Math.random() * 100) + 5, // 5-105 reviews
     quote,
-    profileImage: `https://randomuser.me/api/portraits/${gender}/${Math.floor(Math.random() * 90)}.jpg`,
+    profileImage: `https://randomuser.me/api/portraits/${gender}/${Math.floor(Math.random() * 85)}.jpg`,
     languages: guideLanguages,
     experienceYears: Math.floor(Math.random() * 15) + 2, // 2-17 years experience
     certifications: guideCertifications,
