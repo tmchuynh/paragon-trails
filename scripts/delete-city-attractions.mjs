@@ -17,9 +17,7 @@ import {
 const cities = getCityFiles();
 
 const unlink = promisify(fs.unlink);
-const readdir = promisify(fs.readdir);
 const access = promisify(fs.access);
-const stat = promisify(fs.stat);
 
 // Parse command line arguments
 function parseCommandLineArgs() {
