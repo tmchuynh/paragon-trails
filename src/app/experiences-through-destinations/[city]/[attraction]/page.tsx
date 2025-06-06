@@ -19,10 +19,6 @@ export default function CityAttractionPage() {
   const router = useRouter();
   const [attractionData, setAttractionData] = useState<Attraction>();
 
-  console.log(
-    `City: ${formatCamelCaseToKebabCase(city)}, Attraction: ${attraction}, Search Params: ${searchParams.toString()}`
-  );
-
   useEffect(() => {
     if (city && attraction) {
       const fetchAttractions = async () => {
@@ -60,9 +56,7 @@ export default function CityAttractionPage() {
               {attractionData.imageUrl ? (
                 <Image
                   src={attractionData.imageUrl}
-                  alt={
-                    attractionData.title || attractionData.name || "Attraction"
-                  }
+                  alt={attractionData.title || "Attraction"}
                   width={800}
                   height={500}
                   className="shadow-lg rounded-lg w-full h-auto object-cover"
@@ -75,25 +69,21 @@ export default function CityAttractionPage() {
               )}
 
               {/* Image Gallery - if available */}
-              {attractionData.gallery && attractionData.gallery.length > 0 && (
+              {attractionData.imageUrl && (
                 <div className="gap-2 grid grid-cols-3 mt-4">
-                  {attractionData.gallery.slice(0, 6).map((img, idx) => (
-                    <div key={idx} className="relative h-24">
-                      <Image
-                        src={img}
-                        alt={`${attractionData.title} gallery image ${idx + 1}`}
-                        fill
-                        className="rounded object-cover"
-                      />
-                    </div>
-                  ))}
+                  <Image
+                    src={attractionData.imageUrl}
+                    alt={`${attractionData.title} gallery image`}
+                    fill
+                    className="rounded object-cover"
+                  />
                 </div>
               )}
             </div>
 
             <div className="w-full lg:w-1/2">
               <header className="mb-6">
-                <h1>{attractionData.title || attractionData.name}</h1>
+                <h1>{attractionData.title}</h1>
 
                 {/* Location */}
                 {attractionData.location && (
@@ -230,75 +220,22 @@ export default function CityAttractionPage() {
                 </div>
               </div>
 
-              {/* Additional Information */}
-              {attractionData.tips && (
-                <div className="mb-6">
-                  <h2>Visitor Tips</h2>
-                  <ul className="space-y-1 pl-5 list-disc">
-                    {Array.isArray(attractionData.tips) ? (
-                      attractionData.tips.map((tip, idx) => (
-                        <li key={idx} className="">
-                          {tip}
-                        </li>
-                      ))
-                    ) : (
-                      <li className="">{attractionData.tips}</li>
-                    )}
-                  </ul>
-                </div>
-              )}
-
               {/* Call to Action */}
               <div className="mt-8">
                 <Button
                   onClick={() => {
-                    const attractionName =
-                      attractionData.title || attractionData.name || "";
+                    const attractionName = attractionData.title || "";
                     router.push(
-                      `/experiences-through-destinations/${formatCamelCaseToKebabCase(city)}/tours?attractionFilter=${encodeURIComponent(attractionData.id)}`
+                      `/experiences-through-destinations/${formatCamelCaseToKebabCase(city as string)}/tours?attractionFilter=${encodeURIComponent(attractionData.id)}`
                     );
                   }}
                   className="w-full"
                 >
-                  Find Tours Going to{" "}
-                  {attractionData.title || attractionData.name}
+                  Find Tours Going to {attractionData.title}
                 </Button>
               </div>
             </div>
           </div>
-
-          {/* Related Attractions - if available */}
-          {attractionData.relatedAttractions &&
-            attractionData.relatedAttractions.length > 0 && (
-              <div className="mt-12">
-                <h2 className="mb-6 font-bold text-2xl">You might also like</h2>
-                <div className="gap-6 grid grid-cols-1 md:grid-cols-3">
-                  {attractionData.relatedAttractions.map((related, idx) => (
-                    <div
-                      key={idx}
-                      className="shadow-sm border border-gray-200 rounded-lg overflow-hidden"
-                    >
-                      {related.imageUrl && (
-                        <div className="relative h-48">
-                          <Image
-                            src={related.imageUrl}
-                            alt={related.name}
-                            fill
-                            className="object-cover"
-                          />
-                        </div>
-                      )}
-                      <div className="p-4">
-                        <h3 className="font-medium text-lg">{related.name}</h3>
-                        <p className="text-gray-600 text-sm line-clamp-2">
-                          {related.description}
-                        </p>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
         </div>
       ) : (
         <div className="flex justify-center items-center min-h-[60vh]">
