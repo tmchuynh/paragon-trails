@@ -18,7 +18,6 @@ export interface Tour extends Details {
   state?: string;
   region: TourRegion;
   languagesOffered: string[];
-  durationInHours: number;
   price: string;
   tags: TourTheme[];
   type: TourType;
