@@ -6,7 +6,7 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import Loading from "@/components/Loading";
-import { Filter, SlidersHorizontal, X } from "lucide-react";
+import { Filter, MapPin, SlidersHorizontal, X } from "lucide-react";
 import {
   Pagination,
   PaginationContent,
@@ -32,6 +32,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { format, parseISO } from "date-fns";
+import Link from "next/link";
 
 export default function TestimonialsForCityPage({
   params,
@@ -200,7 +201,7 @@ export default function TestimonialsForCityPage({
   return (
     <div className="mx-auto pt-3 md:pt-6 lg:pt-12 w-10/12 md:w-11/12">
       <div className="flex flex-col gap-6">
-        {/* Header and Controls */}
+        {/* Header and Navigation Button */}
         <div className="flex md:flex-row flex-col justify-between items-start md:items-center gap-4">
           <header>
             <h1 className="text-start">{cityName} Testimonials</h1>
@@ -210,7 +211,32 @@ export default function TestimonialsForCityPage({
             </h5>
           </header>
 
-          <div className="flex sm:flex-row flex-col items-center gap-4">
+          <Link href={`/tours/${params.city}`} className="md:ml-auto">
+            <Button variant="default" className="flex items-center gap-2">
+              <MapPin size={16} />
+              Explore {cityName} Tours
+            </Button>
+          </Link>
+        </div>
+
+        {/* Navigation message for better context */}
+        <div className="bg-muted/50 mb-2 p-4 rounded-lg">
+          <p className="text-sm">
+            Reading what people say about {cityName}? You might also be
+            interested in our{" "}
+            <Link
+              href={`/tours/${params.city}`}
+              className="font-medium underline underline-offset-4"
+            >
+              guided tours in {cityName}
+            </Link>{" "}
+            and what travelers have to say about their tour experiences.
+          </p>
+        </div>
+
+        {/* Controls */}
+        <div className="flex md:flex-row flex-col justify-between items-start md:items-center gap-4">
+          <div className="flex sm:flex-row flex-col items-center gap-4 md:ml-auto">
             <div className="flex items-center gap-2">
               <Button
                 variant="outline"
