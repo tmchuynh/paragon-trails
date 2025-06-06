@@ -460,7 +460,7 @@ export const attractionBasicInfo = {
       isPopular: true,
     },
   },
-  buenos_aires: {
+  "buenos-aires": {
     "Plaza de Mayo": {
       title: "Plaza de Mayo",
       location: "Av. Hipólito Yrigoyen, Buenos Aires",
@@ -483,7 +483,7 @@ export const attractionBasicInfo = {
       isPopular: true,
     },
   },
-  cape_town: {
+  "cape-town": {
     "Table Mountain": {
       title: "Table Mountain",
       location: "Table Mountain National Park, Cape Town",
@@ -644,7 +644,7 @@ export const attractionBasicInfo = {
       isPopular: true,
     },
   },
-  hong_kong: {
+  "hong-kong": {
     "Victoria Peak": {
       title: "Victoria Peak",
       location: "The Peak, Hong Kong",
@@ -690,7 +690,7 @@ export const attractionBasicInfo = {
       isPopular: true,
     },
   },
-  los_angeles: {
+  "los-angeles": {
     "Hollywood Walk of Fame": {
       title: "Hollywood Walk of Fame",
       location: "Hollywood Blvd, Los Angeles, CA",
@@ -2318,6 +2318,52 @@ export const attractionDetails = {
       rating: 4.5,
       isAdventure: true,
       isFree: true,
+      isPopular: true,
+    },
+  },
+  "cape-town": {
+    "Table Mountain": {
+      description:
+        "Iconic flat-topped mountain offering panoramic views of Cape Town.",
+      openingHours: "8:00 AM - 7:00 PM",
+      entryFee: "ZAR 360",
+      entryFeeCategory: "moderate",
+      priceRange: "$$",
+      priceCategory: "moderate",
+      timeOfDay: "daytime",
+      rating: 4.8,
+      isAdventure: true,
+      isScenic: true,
+      isPopular: true,
+      isWheelchairAccessible: false,
+    },
+    "Robben Island": {
+      description:
+        "Historic island prison where Nelson Mandela was incarcerated.",
+      openingHours: "9:00 AM - 5:00 PM",
+      entryFee: "ZAR 360",
+      entryFeeCategory: "moderate",
+      priceRange: "$$",
+      priceCategory: "moderate",
+      timeOfDay: "daytime",
+      rating: 4.7,
+      isHistorical: true,
+      isCultural: true,
+      isPopular: true,
+      isWheelchairAccessible: false,
+    },
+    "Cape of Good Hope": {
+      description:
+        "Famous landmark at the southern tip of the Cape Peninsula with stunning coastal views.",
+      openingHours: "6:00 AM - 6:00 PM",
+      entryFee: "ZAR 360",
+      entryFeeCategory: "moderate",
+      priceRange: "$$",
+      priceCategory: "moderate",
+      timeOfDay: "daytime",
+      rating: 4.6,
+      isAdventure: true,
+      isScenic: true,
       isPopular: true,
     },
   },
