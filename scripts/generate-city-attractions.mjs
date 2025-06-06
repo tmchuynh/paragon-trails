@@ -39,11 +39,11 @@ import {
   formatCamelCaseToTitle,
   capitalize,
 } from "./utils/format-utils.mjs";
+import { getCityFiles } from "./utils/file-utils.mjs";
 import { cityCountryMap, cityToRegionMap } from "./utils/geo-utils.mjs";
 import {
   attractionBasicInfo,
   attractionDetails,
-  cityAttractions,
 } from "./utils/attraction-utils.mjs";
 
 const readdir = promisify(fs.readdir);
@@ -61,23 +61,8 @@ function normalizeCityName(cityName) {
   return cityName;
 }
 
-// Get a list of all unique cities from all data sources
-function getAllCities() {
-  const allCities = new Set();
-
-  // Add cities from attractionBasicInfo
-  Object.keys(attractionBasicInfo).forEach((city) => allCities.add(city));
-
-  // Add cities from cityAttractions but normalize format
-  Object.keys(cityAttractions).forEach((city) => {
-    allCities.add(formatCamelCaseToTitle(city));
-  });
-
-  return Array.from(allCities);
-}
-
 // Use all available cities
-const cities = getAllCities();
+const cities = getCityFiles();
 
 // Add check for empty cities array
 if (!cities || cities.length === 0) {
@@ -128,23 +113,9 @@ const options = parseCommandLineArgs();
 
 // Function to get attraction data for a city
 function getCityAttractionData(cityName) {
-  const normalizedName = normalizeCityName(cityName);
+  const data = attractionBasicInfo[cityName] || {};
 
-  // Try to find detailed data with both formats
-  const basicInfoData =
-    attractionBasicInfo[normalizedName] || attractionBasicInfo[cityName];
-  const detailsData =
-    attractionDetails[normalizedName] || attractionDetails[cityName];
-
-  // Check if we have simple attraction data
-  const simpleData =
-    cityAttractions[cityName] || cityAttractions[normalizedName];
-
-  return {
-    basicInfo: basicInfoData,
-    details: detailsData,
-    simple: simpleData,
-  };
+  return data;
 }
 
 // Function to convert attraction data to the expected format
@@ -261,9 +232,9 @@ function generateAttraction(cityName, attractionName = null) {
 
     // Try to use simple data if available
     const simpleData =
-      cityAttractions[normalizedName] || cityAttractions[cityName];
+      attractionBasicInfo[normalizedName] || attractionBasicInfo[cityName];
     if (simpleData) {
-      const attraction = simpleData.find((a) => a.name === attractionName);
+      const attraction = simpleData.find((a) => a.title === attractionName);
       if (attraction) {
         const simpleAttraction = convertSimpleAttractionData(
           cityName,
@@ -618,9 +589,11 @@ async function generateCityFile(city) {
   const cityData = getCityAttractionData(city);
 
   // Use real attraction data if available from any source
-  if (cityData.basicInfo && cityData.details) {
+  if (cityData) {
     // We have detailed attraction data
-    const attractionNames = Object.keys(cityData.basicInfo);
+    const attractionNames = Object.keys(cityData).filter(
+      (name) => cityData[name] && cityData[name].title
+    );
     console.log(
       `Found ${attractionNames.length} detailed attractions for ${city}`
     );
@@ -634,20 +607,6 @@ async function generateCityFile(city) {
 
     // Append attractions
     attractions = attractions.concat(realAttractions);
-  } else if (cityData.simple) {
-    // We have simple attraction data
-    console.log(
-      `Found ${cityData.simple.length} simple attractions for ${city}`
-    );
-
-    const simpleAttractions = [];
-    for (const attr of cityData.simple) {
-      const attraction = convertSimpleAttractionData(city, attr);
-      if (attraction) simpleAttractions.push(attraction);
-    }
-
-    // Append attractions
-    attractions = attractions.concat(simpleAttractions);
   } else {
     // No real data, generate random attractions
     console.log(
