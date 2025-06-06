@@ -274,26 +274,29 @@ export default function TourDetailsPage() {
             <div className="flex flex-col md:col-span-1 lg:col-span-2 shadow-md p-6 border border-border rounded-lg h-full overflow-hidden">
               <h2>Your Guide</h2>
               {tourGuide ? (
-                <div className="flex flex-col items-center">
-                  {tourGuide.profileImage && (
-                    <div className="mb-4 rounded-full w-32 h-32 overflow-hidden">
-                      <Image
-                        src={tourGuide.profileImage}
-                        alt={`${tourGuide.name} ${tourGuide.licenseNumber}`}
-                        className="w-full h-full object-cover"
-                        width={128}
-                        height={128}
-                      />
-                    </div>
-                  )}
-                  <h3>{tourGuide.name}</h3>
-                  <h5>{tourGuide.licenseNumber}</h5>
-                  {tourGuide.languages && (
-                    <p className="mb-2 text-sm">
-                      <strong>Speaks:</strong> {tourGuide.languages.join(", ")}
-                    </p>
-                  )}
-                  {tourGuide.bio && <p className="mt-2">{tourGuide.bio}</p>}
+                <div className="flex flex-col justify-between items-center h-full">
+                  <div className="flex flex-col items-center">
+                    {tourGuide.profileImage && (
+                      <div className="mb-4 rounded-full w-32 h-32 overflow-hidden">
+                        <Image
+                          src={tourGuide.profileImage}
+                          alt={`${tourGuide.name} ${tourGuide.licenseNumber}`}
+                          className="w-full h-full object-cover"
+                          width={128}
+                          height={128}
+                        />
+                      </div>
+                    )}
+                    <h3>{tourGuide.name}</h3>
+                    <h5>{tourGuide.licenseNumber}</h5>
+                    {tourGuide.languages && (
+                      <p className="mb-2 text-sm">
+                        <strong>Speaks:</strong>{" "}
+                        {tourGuide.languages.join(", ")}
+                      </p>
+                    )}
+                    {tourGuide.bio && <p className="mt-2">{tourGuide.bio}</p>}
+                  </div>
                   {tourGuide.specialties &&
                     tourGuide.specialties.length > 0 && (
                       <div className="mt-4 text-center">
@@ -307,6 +310,16 @@ export default function TourDetailsPage() {
                         </div>
                       </div>
                     )}
+
+                  <Button
+                    onClick={() =>
+                      router.push(
+                        "/experiences-through-destinations/our-dedicated-team-of-experts/tour-guides"
+                      )
+                    }
+                  >
+                    Meet The Others
+                  </Button>
                 </div>
               ) : (
                 <p>Guide information not available</p>
