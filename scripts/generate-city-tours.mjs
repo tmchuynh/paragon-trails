@@ -655,7 +655,90 @@ const tourTypeToTitleMap = {
   ],
 };
 
-// ...existing code...
+const weekDays = [
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+  "Sunday",
+];
+
+const currencies = [
+  { code: "USD", symbol: "$" },
+  { code: "EUR", symbol: "€" },
+  { code: "GBP", symbol: "£" },
+  { code: "JPY", symbol: "¥" },
+  { code: "CAD", symbol: "C$" },
+  { code: "AUD", symbol: "A$" },
+];
+
+const durations = [1, 1.5, 2, 2.5, 3, 4, 5, 6, 8, 10, 12];
+
+// Load tour guides for a city - moved up before it's called
+async function loadCityGuides(city) {
+  const formattedName = formatKebabToCamelCase(removeAccents(city));
+
+  const guidesPath = path.join(
+    process.cwd(),
+    "src",
+    "lib",
+    "constants",
+    "staff",
+    "guides",
+    `${formattedName}.ts`
+  );
+
+  try {
+    await access(guidesPath);
+  } catch {
+    console.log(`No guides file found for ${city}. Using generic guide IDs.`);
+    return Array.from({ length: options.guideCount }, (_, i) => ({
+      id: `guide-${removeAccents(city).toLowerCase().replace(/\s+/g, "-")}-${i + 1}`,
+    }));
+  }
+
+  try {
+    const content = await readFile(guidesPath, "utf-8");
+
+    // Extract guide IDs using regex
+    const guidesMatch = content.match(/id: "([^"]+)"/g);
+    if (!guidesMatch) return [];
+
+    return guidesMatch.map((match) => {
+      const id = match.match(/id: "([^"]+)"/)[1];
+      return { id };
+    });
+  } catch (error) {
+    console.error(`Error loading guides for ${city}:`, error);
+    return [];
+  }
+}
+
+// Generate random schedules for a tour
+function generateSchedules() {
+  const schedule = [];
+  const numSessions = Math.floor(Math.random() * 3) + 1; // 1-3 sessions
+
+  for (let i = 0; i < numSessions; i++) {
+    const dayOffset = Math.floor(Math.random() * 7);
+    const timeSlot = Math.floor(Math.random() * 24);
+
+    // Ensure no duplicate schedules
+    const existing = schedule.find(
+      (s) => s.day === dayOffset && s.time === timeSlot
+    );
+    if (existing) continue;
+
+    schedule.push({
+      day: weekDays[dayOffset],
+      time: `${String(timeSlot).padStart(2, "0")}:00`,
+    });
+  }
+
+  return schedule;
+}
 
 // Generate a tour for a city
 function generateTour(city, index, guides) {
@@ -748,9 +831,9 @@ function generateTour(city, index, guides) {
       Array(numIncluded)
         .fill(0)
         .map(
-          () => includedItems[Math.floor(Math.random() * includedItems.length)],
-        ),
-    ),
+          () => includedItems[Math.floor(Math.random() * includedItems.length)]
+        )
+    )
   );
 
   const numNotIncluded = Math.floor(Math.random() * 3) + 2; // 2-4 items
@@ -762,9 +845,9 @@ function generateTour(city, index, guides) {
           () =>
             notIncludedItems[
               Math.floor(Math.random() * notIncludedItems.length)
-            ],
-        ),
-    ),
+            ]
+        )
+    )
   );
 
   // Generate requirements
@@ -777,9 +860,9 @@ function generateTour(city, index, guides) {
           () =>
             tourRequirements[
               Math.floor(Math.random() * tourRequirements.length)
-            ],
-        ),
-    ),
+            ]
+        )
+    )
   );
 
   // Generate languages offered
@@ -816,6 +899,20 @@ function generateTour(city, index, guides) {
   const reviewsCount = Math.floor(Math.random() * 100) + 5; // 5-105 reviews
   const rating = parseFloat((3.7 + Math.random() * 1.3).toFixed(1)); // 3.7-5.0
 
+  // Generate tour themes (tags) - FIXED: Properly define tags here
+  const numThemes = Math.floor(Math.random() * 3) + 1; // 1-3 additional themes
+  const tags = [theme]; // Start with the main theme as first tag
+
+  // Add additional themes as tags
+  for (let i = 0; i < numThemes; i++) {
+    const randomTheme =
+      tourThemes[Math.floor(Math.random() * tourThemes.length)];
+    // Avoid duplicates
+    if (randomTheme !== theme && !tags.includes(randomTheme)) {
+      tags.push(randomTheme);
+    }
+  }
+
   return {
     id,
     guideId,
@@ -827,7 +924,7 @@ function generateTour(city, index, guides) {
     languagesOffered: languages,
     durationInHours,
     price,
-    tags,
+    tags, // Now properly defined
     type,
     schedule,
     pricePerPerson,
@@ -941,7 +1038,7 @@ async function generateCityTourFile(city) {
       tours = await extractExistingTours(filePath);
     } else {
       console.log(
-        `File already exists (use --rewrite to replace): ${filePath}`,
+        `File already exists (use --rewrite to replace): ${filePath}`
       );
       return;
     }
@@ -1003,7 +1100,7 @@ async function generateCityTourFile(city) {
   // Write file
   await writeFile(filePath, content);
   console.log(
-    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`,
+    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`
   );
 }
 
@@ -1022,7 +1119,7 @@ async function generateAllCityTourFiles() {
       city
         .toLowerCase()
         .replace(/[^a-z0-9]/g, "")
-        .includes(filterLower),
+        .includes(filterLower)
     );
 
     if (citiesToProcess.length === 0) {
@@ -1034,7 +1131,7 @@ async function generateAllCityTourFiles() {
         .filter((city) =>
           city
             .toLowerCase()
-            .includes(options.cityFilter.toLowerCase().split(/[ -]/).join("")),
+            .includes(options.cityFilter.toLowerCase().split(/[ -]/).join(""))
         )
         .slice(0, 10);
 
@@ -1050,7 +1147,7 @@ async function generateAllCityTourFiles() {
     }
 
     console.log(
-      `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`,
+      `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`
     );
   }
 
