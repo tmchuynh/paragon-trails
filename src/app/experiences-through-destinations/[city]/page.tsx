@@ -3,30 +3,69 @@
 import Loading from "@/components/Loading";
 import { cities } from "@/lib/constants/info/city-information";
 import { CityInfo } from "@/lib/interfaces/general";
-import { formatTitleToCamelCase } from "@/lib/utils/format";
+import {
+  formatTitleToCamelCase,
+  formatTitleCaseToKebabCase,
+  formatKebabToCamelCase,
+} from "@/lib/utils/format";
 import { getCityAttractions } from "@/lib/utils/get/attractions";
-import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 
 export default function CityToursPage() {
-  const params = useParams();
+  const searchParams = useSearchParams();
   const router = useRouter();
   const [cityData, setCityData] = useState<CityInfo | null>(null);
-  const citySlug = params?.city as string;
+  const city = searchParams.get("city");
   const [loading, setLoading] = useState(true);
+
+  console.log("City Slug:", city);
 
   // First useEffect to fetch basic city data
   useEffect(() => {
-    if (citySlug) {
+    if (city) {
       setLoading(true);
-      // Find the city data by comparing slugs (IDs)
-      const foundCity = cities.find(
-        (c) => c.id === formatTitleToCamelCase(citySlug)
+      console.log(
+        "City IDs:",
+        cities.map((c) => c.id)
       );
+
+      // Try multiple approaches to find the city
+      let foundCity = cities.find((c) => c.id === city);
+
+      // If not found, try converting formats
+      if (!foundCity) {
+        console.log(
+          "City not found directly. Attempting format conversions..."
+        );
+
+        // Try kebab-case conversion
+        const cityKebab = formatTitleCaseToKebabCase(city);
+        foundCity = cities.find((c) => c.id === cityKebab);
+        console.log(`Tried kebab-case: ${cityKebab}, found:`, !!foundCity);
+
+        // Try camelCase conversion
+        if (!foundCity) {
+          const cityCamel = formatKebabToCamelCase(city);
+          foundCity = cities.find((c) => c.id === cityCamel);
+          console.log(`Tried camelCase: ${cityCamel}, found:`, !!foundCity);
+        }
+
+        // Case insensitive comparison as last resort
+        if (!foundCity) {
+          foundCity = cities.find(
+            (c) =>
+              c.id.toLowerCase() === city.toLowerCase() ||
+              c.city.toLowerCase() === city.toLowerCase()
+          );
+          console.log("Tried case-insensitive comparison, found:", !!foundCity);
+        }
+      }
+
+      console.log("Found City:", foundCity);
       if (foundCity) {
         setCityData({
           ...foundCity,
@@ -42,12 +81,15 @@ export default function CityToursPage() {
         });
         setLoading(false);
       } else {
-        console.error(
-          `No data found for city: ${formatTitleToCamelCase(citySlug)}`
+        console.error(`No data found for city: ${city}`);
+        console.log(
+          "Available cities:",
+          cities.map((c) => `${c.id} (${c.city})`).join(", ")
         );
+        setLoading(false);
       }
     }
-  }, [citySlug]);
+  }, [city]);
 
   // Second useEffect to fetch attraction data after city data is loaded
   useEffect(() => {
@@ -201,7 +243,11 @@ export default function CityToursPage() {
                         <Button
                           onClick={() => {
                             router.push(
-                              `/experiences-through-destinations/${cityData.city}/${attraction.title}?attraction=${attraction.title}&city=${cityData.city}`
+                              `/experiences-through-destinations/${cityData.city}/${formatTitleCaseToKebabCase(
+                                attraction.title
+                              )}?attraction=${attraction.title}&city=${formatTitleToCamelCase(
+                                cityData.city
+                              )}`
                             );
                           }}
                           className="mt-4 w-fit self-end-safe"
