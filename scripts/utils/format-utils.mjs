@@ -10,6 +10,16 @@ export function formatTitleToCamelCase(title) {
     .join("");
 }
 
+export function formatTimeTo24HourClock(time) {
+  const date = new Date(`1970-01-01T${time}`);
+  const options = {
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+  };
+  return date.toLocaleTimeString([], options);
+}
+
 export function removeAccents(str) {
   // Normalize to decomposed form, which separates base characters from diacritical marks
   return str

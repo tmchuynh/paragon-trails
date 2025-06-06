@@ -37,7 +37,7 @@ import {
   formatKebabToCamelCase,
   formatTitleToCamelCase,
   removeAccents,
-  formatKebebToTitleCase,
+  formatTimeTo24HourClock,
 } from "./utils/format-utils.mjs";
 import { cityCountryMap, cityToRegionMap } from "./utils/geo-utils.mjs";
 import {
@@ -723,7 +723,8 @@ function generateSchedules() {
 
   for (let i = 0; i < numSessions; i++) {
     const dayOffset = Math.floor(Math.random() * 7);
-    const timeSlot = Math.floor(Math.random() * 24);
+    const timeSlotStart = Math.floor(Math.random() * 12);
+    const timeSlotEnd = timeSlotStart + Math.floor(Math.random() * 12);
 
     // Ensure no duplicate schedules
     const existing = schedule.find(
@@ -731,9 +732,16 @@ function generateSchedules() {
     );
     if (existing) continue;
 
+    const formatTo12Hour = (hour) => {
+      const period = hour >= 12 ? "PM" : "AM";
+      const adjustedHour = hour % 12 || 12; // Convert 0 to 12 for 12-hour format
+      return `${adjustedHour}:00 ${period}`;
+    };
+
     schedule.push({
-      day: weekDays[dayOffset],
-      time: `${String(timeSlot).padStart(2, "0")}:00`,
+      dayOfWeek: weekDays[dayOffset],
+      startTime: formatTo12Hour(timeSlotStart),
+      endTime: formatTo12Hour(timeSlotEnd),
     });
   }
 
