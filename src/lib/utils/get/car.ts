@@ -25,7 +25,7 @@ export async function getLuxuryRentalCars(): Promise<any> {
 }
 
 export async function getLuxuryRentalCar(
-  carId: string
+  carId: string,
 ): Promise<LuxuryRentalCar | null> {
   try {
     const rentalCars = await getLuxuryRentalCars();
@@ -43,13 +43,13 @@ export async function getLuxuryRentalCar(
 }
 
 export async function getLuxuryRentalCarsByCity(
-  city: string
+  city: string,
 ): Promise<LuxuryRentalCar[]> {
   try {
     const rentalCars = await getLuxuryRentalCars();
     const carsInCity = rentalCars.filter(
       (car: { pickUpCity: string }) =>
-        car.pickUpCity.toLowerCase() === city.toLowerCase()
+        car.pickUpCity.toLowerCase() === city.toLowerCase(),
     );
     if (carsInCity.length > 0) {
       return carsInCity;
@@ -64,12 +64,12 @@ export async function getLuxuryRentalCarsByCity(
 }
 
 export async function getLuxuryRentalCarsByType(
-  type: string
+  type: string,
 ): Promise<LuxuryRentalCar[]> {
   try {
     const rentalCars = await getLuxuryRentalCars();
     const carsByType = rentalCars.filter((car: { type: string }) =>
-      car.type.toLowerCase().includes(type.toLowerCase())
+      car.type.toLowerCase().includes(type.toLowerCase()),
     );
     if (carsByType.length > 0) {
       return carsByType;
@@ -84,12 +84,12 @@ export async function getLuxuryRentalCarsByType(
 }
 
 export async function getLuxuryRentalCarsByMake(
-  make: string
+  make: string,
 ): Promise<LuxuryRentalCar[]> {
   try {
     const rentalCars = await getLuxuryRentalCars();
     const carsByMake = rentalCars.filter((car: { make: string }) =>
-      car.make.toLowerCase().includes(make.toLowerCase())
+      car.make.toLowerCase().includes(make.toLowerCase()),
     );
     if (carsByMake.length > 0) {
       return carsByMake;
@@ -104,32 +104,34 @@ export async function getLuxuryRentalCarsByMake(
 }
 
 export async function getLuxuryRentalCardsByPickUpLocation(
-  pickUpLocation: string
+  pickUpLocation: string,
 ): Promise<LuxuryRentalCar[]> {
   try {
     const rentalCars = await getLuxuryRentalCars();
     const carsByPickUpLocation = rentalCars.filter(
       (car: { pickUpLocation: string }) =>
-        car.pickUpLocation?.toLowerCase().includes(pickUpLocation.toLowerCase())
+        car.pickUpLocation
+          ?.toLowerCase()
+          .includes(pickUpLocation.toLowerCase()),
     );
     if (carsByPickUpLocation.length > 0) {
       return carsByPickUpLocation;
     } else {
       console.error(
-        `No luxury rental cars found for pick-up location: ${pickUpLocation}`
+        `No luxury rental cars found for pick-up location: ${pickUpLocation}`,
       );
       return [];
     }
   } catch (error) {
     console.error(
-      `Error loading luxury rental cars by pick-up location: ${error}`
+      `Error loading luxury rental cars by pick-up location: ${error}`,
     );
     return [];
   }
 }
 export async function getLuxuryRentalCarsByCityAndCountry(
   city: string,
-  country: string
+  country: string,
 ): Promise<LuxuryRentalCar[]> {
   try {
     const formattedCity = formatKebabToCamelCase(city);
@@ -138,7 +140,7 @@ export async function getLuxuryRentalCarsByCityAndCountry(
     const carsInCityAndCountry = rentalCars.filter(
       (car: { pickUpCity: string; pickUpCountry: string }) =>
         car.pickUpCity.toLowerCase() === formattedCity.toLowerCase() &&
-        car.pickUpCountry.toLowerCase() === formattedCountry.toLowerCase()
+        car.pickUpCountry.toLowerCase() === formattedCountry.toLowerCase(),
     );
     if (carsInCityAndCountry.length > 0) {
       return carsInCityAndCountry;
@@ -148,7 +150,7 @@ export async function getLuxuryRentalCarsByCityAndCountry(
     }
   } catch (error) {
     console.error(
-      `Error loading luxury rental cars for ${city}, ${country}: ${error}`
+      `Error loading luxury rental cars for ${city}, ${country}: ${error}`,
     );
     return [];
   }
@@ -156,7 +158,7 @@ export async function getLuxuryRentalCarsByCityAndCountry(
 
 export async function getLuxuryRentalCarsByCityAndRegion(
   city: string,
-  region: string
+  region: string,
 ): Promise<LuxuryRentalCar[]> {
   try {
     const formattedCity = formatKebabToCamelCase(city);
@@ -165,7 +167,7 @@ export async function getLuxuryRentalCarsByCityAndRegion(
     const carsInCityAndRegion = rentalCars.filter(
       (car: { pickUpCity: string; pickUpRegion: string }) =>
         car.pickUpCity.toLowerCase() === formattedCity.toLowerCase() &&
-        car.pickUpRegion.toLowerCase() === formattedRegion.toLowerCase()
+        car.pickUpRegion.toLowerCase() === formattedRegion.toLowerCase(),
     );
     if (carsInCityAndRegion.length > 0) {
       return carsInCityAndRegion;
@@ -175,7 +177,7 @@ export async function getLuxuryRentalCarsByCityAndRegion(
     }
   } catch (error) {
     console.error(
-      `Error loading luxury rental cars for ${city}, ${region}: ${error}`
+      `Error loading luxury rental cars for ${city}, ${region}: ${error}`,
     );
     return [];
   }
@@ -183,18 +185,18 @@ export async function getLuxuryRentalCarsByCityAndRegion(
 
 export async function getLuxuryRentalCarsBySeatNumber(
   seatNumber: number,
-  city: string
+  city: string,
 ) {
   try {
     const rentalCars = await getLuxuryRentalCarsByCity(city);
     const carsBySeatNumber = rentalCars.filter(
-      (car: { seats: number }) => car.seats === seatNumber
+      (car: { seats: number }) => car.seats === seatNumber,
     );
     if (carsBySeatNumber.length > 0) {
       return carsBySeatNumber;
     } else {
       console.error(
-        `No luxury rental cars found with ${seatNumber} seats in ${city}`
+        `No luxury rental cars found with ${seatNumber} seats in ${city}`,
       );
       return [];
     }
@@ -206,13 +208,13 @@ export async function getLuxuryRentalCarsBySeatNumber(
 
 export async function getLuxuryRentalCarsByFuelType(
   fuelType: string,
-  city: string
+  city: string,
 ): Promise<LuxuryRentalCar[]> {
   try {
     const rentalCars = await getLuxuryRentalCarsByCity(city);
     const carsByFuelType = rentalCars.filter(
       (car: { fuelType: string }) =>
-        car.fuelType.toLowerCase() === fuelType.toLowerCase()
+        car.fuelType.toLowerCase() === fuelType.toLowerCase(),
     );
     if (carsByFuelType.length > 0) {
       return carsByFuelType;
@@ -227,19 +229,19 @@ export async function getLuxuryRentalCarsByFuelType(
 }
 export async function getLuxuryRentalCarsByTransmission(
   transmission: string,
-  city: string
+  city: string,
 ): Promise<LuxuryRentalCar[]> {
   try {
     const rentalCars = await getLuxuryRentalCarsByCity(city);
     const carsByTransmission = rentalCars.filter(
       (car: { transmission: string }) =>
-        car.transmission.toLowerCase() === transmission.toLowerCase()
+        car.transmission.toLowerCase() === transmission.toLowerCase(),
     );
     if (carsByTransmission.length > 0) {
       return carsByTransmission;
     } else {
       console.error(
-        `No luxury rental cars found for transmission type: ${transmission}`
+        `No luxury rental cars found for transmission type: ${transmission}`,
       );
       return [];
     }
@@ -250,18 +252,18 @@ export async function getLuxuryRentalCarsByTransmission(
 }
 export async function getLuxuryRentalCarsByHorsepower(
   horsepower: number,
-  city: string
+  city: string,
 ): Promise<LuxuryRentalCar[]> {
   try {
     const rentalCars = await getLuxuryRentalCarsByCity(city);
     const carsByHorsepower = rentalCars.filter(
-      (car: { horsepower: number }) => car.horsepower >= horsepower
+      (car: { horsepower: number }) => car.horsepower >= horsepower,
     );
     if (carsByHorsepower.length > 0) {
       return carsByHorsepower;
     } else {
       console.error(
-        `No luxury rental cars found with ${horsepower} horsepower in ${city}`
+        `No luxury rental cars found with ${horsepower} horsepower in ${city}`,
       );
       return [];
     }
@@ -273,14 +275,14 @@ export async function getLuxuryRentalCarsByHorsepower(
 
 export async function getLuxuryRentalCarsByColor(
   color: string,
-  city: string
+  city: string,
 ): Promise<LuxuryRentalCar[]> {
   try {
     const rentalCars = await getLuxuryRentalCarsByCity(city);
     const carsByColor = rentalCars.filter((car: { colorOptions: string[] }) =>
       car.colorOptions.some(
-        (c: string) => c.toLowerCase() === color.toLowerCase()
-      )
+        (c: string) => c.toLowerCase() === color.toLowerCase(),
+      ),
     );
     if (carsByColor.length > 0) {
       return carsByColor;
@@ -296,14 +298,14 @@ export async function getLuxuryRentalCarsByColor(
 
 export async function getLuxuryRentalCarsByFeature(
   feature: string,
-  city: string
+  city: string,
 ): Promise<LuxuryRentalCar[]> {
   try {
     const rentalCars = await getLuxuryRentalCarsByCity(city);
     const carsByFeature = rentalCars.filter((car: { features: string[] }) =>
       car.features.some(
-        (f: string) => f.toLowerCase() === feature.toLowerCase()
-      )
+        (f: string) => f.toLowerCase() === feature.toLowerCase(),
+      ),
     );
     if (carsByFeature.length > 0) {
       return carsByFeature;
@@ -320,19 +322,19 @@ export async function getLuxuryRentalCarsByFeature(
 export async function getLuxuryRentalCarsByPriceRange(
   minPrice: number,
   maxPrice: number,
-  city: string
+  city: string,
 ): Promise<LuxuryRentalCar[]> {
   try {
     const rentalCars = await getLuxuryRentalCarsByCity(city);
     const carsByPriceRange = rentalCars.filter(
       (car: { rentalPricePerDay: number }) =>
-        car.rentalPricePerDay >= minPrice && car.rentalPricePerDay <= maxPrice
+        car.rentalPricePerDay >= minPrice && car.rentalPricePerDay <= maxPrice,
     );
     if (carsByPriceRange.length > 0) {
       return carsByPriceRange;
     } else {
       console.error(
-        `No luxury rental cars found in the price range ${minPrice} - ${maxPrice} in ${city}`
+        `No luxury rental cars found in the price range ${minPrice} - ${maxPrice} in ${city}`,
       );
       return [];
     }
@@ -346,7 +348,7 @@ export async function getOnlyAvailableLuxuryRentalCars() {
   try {
     const rentalCars = await getLuxuryRentalCars();
     const availableCars = rentalCars.filter(
-      (car: { available: boolean }) => car.available
+      (car: { available: boolean }) => car.available,
     );
     if (availableCars.length > 0) {
       return availableCars;
@@ -363,25 +365,25 @@ export async function getOnlyAvailableLuxuryRentalCars() {
 export async function getLuxuryRentalCarsByDepositAmount(
   minDeposit: number,
   maxDeposit: number,
-  city: string
+  city: string,
 ): Promise<LuxuryRentalCar[]> {
   try {
     const rentalCars = await getLuxuryRentalCarsByCity(city);
     const carsByDepositAmount = rentalCars.filter(
       (car: { depositAmount: number }) =>
-        car.depositAmount >= minDeposit && car.depositAmount <= maxDeposit
+        car.depositAmount >= minDeposit && car.depositAmount <= maxDeposit,
     );
     if (carsByDepositAmount.length > 0) {
       return carsByDepositAmount;
     } else {
       console.error(
-        `No luxury rental cars found in the deposit range ${minDeposit} - ${maxDeposit} in ${city}`
+        `No luxury rental cars found in the deposit range ${minDeposit} - ${maxDeposit} in ${city}`,
       );
       return [];
     }
   } catch (error) {
     console.error(
-      `Error loading luxury rental cars by deposit amount: ${error}`
+      `Error loading luxury rental cars by deposit amount: ${error}`,
     );
     return [];
   }
