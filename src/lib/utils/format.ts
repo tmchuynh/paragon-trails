@@ -209,6 +209,15 @@ export function formatTitleCaseToKebabCase(title: string): string {
     .replace(/^-|-$/g, "");
 }
 
+export function formatCamelCaseToKebabCase(camelCase: string): string {
+  return camelCase
+    .replace(/([a-z])([A-Z])/g, "$1-$2") // Insert hyphen before uppercase letters
+    .replace(/([A-Z])([A-Z][a-z])/g, "$1-$2") // Handle consecutive uppercase letters
+    .toLowerCase() // Convert to lowercase
+    .replace(/[^a-z0-9-]+/g, "") // Remove non-alphanumeric characters except hyphens
+    .replace(/^-|-$/g, ""); // Remove leading and trailing hyphens
+}
+
 /**
  * Formats an array of language strings into a grammatically correct string.
  *
