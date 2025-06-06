@@ -32,6 +32,11 @@ import path from "path";
 import { fileURLToPath } from "url";
 import { getRandomName } from "./utils/name-utils.mjs";
 import { getCityFiles } from "./utils/file-utils.mjs";
+import { cityCountryMap, cityToRegionMap } from "./utils/geo-utils.mjs";
+import {
+  formatKebabToCamelCase,
+  formatTitleToCamelCase,
+} from "./utils/format-utils.mjs";
 
 // Get directory name using ES module approach
 const __filename = fileURLToPath(import.meta.url);
@@ -186,11 +191,6 @@ function getRandomRecentDate() {
   return randomDate.toISOString().split("T")[0];
 }
 
-// Format kebab case to camel case
-function formatKebabToCamelCase(str) {
-  return str.replace(/-([a-z])/g, (g) => g[1].toUpperCase());
-}
-
 // Generate random reviews for a given guide
 function generateReviews(guide) {
   const reviews = [];
@@ -271,6 +271,10 @@ async function generateAllGuideReviews() {
 
     for (const cityFile of cityFiles) {
       const formattedCity = formatKebabToCamelCase(cityFile);
+      const country = cityCountryMap[cityFile];
+      const region = cityToRegionMap[cityFile];
+      const formattedCountry = formatTitleToCamelCase(country);
+      const formattedRegion = formatTitleToCamelCase(region);
 
       const dir = path.join(
         process.cwd(),
@@ -284,7 +288,7 @@ async function generateAllGuideReviews() {
 
       //   src / lib / constants / staff / guides / amalfiCoast;
       //   src / lib / constants / staff / guides / amalfiCoast.ts;
-      const guideId = `${formattedCity}Guides`;
+      const guideId = `${formattedCity}${formattedCountry.replaceAll(".", "")}${formattedRegion}Guides`;
       const data = await fs.access(dir);
 
       try {
