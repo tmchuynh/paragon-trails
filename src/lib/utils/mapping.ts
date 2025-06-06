@@ -1,5 +1,6 @@
 // Map cities to their respective countries
 export const cityCountryMap = {
+  "amalfi-coast": "Italy",
   auckland: "New Zealand",
   amsterdam: "Netherlands",
   barcelona: "Spain",
@@ -75,6 +76,7 @@ export const cityCountryMap = {
 
 // Map cities to their cruising regions
 export const cityToRegionMap = {
+  "amalfi-coast": "Mediterranean",
   auckland: "Asia Pacific",
   amsterdam: "Northern Europe",
   barcelona: "Mediterranean",
@@ -151,6 +153,7 @@ export const cityToRegionMap = {
 
 // Geographic coordinates for cities
 export const cityCoordinates = {
+  "amalfi-coast": { latitude: 40.634, longitude: 14.602 },
   auckland: { latitude: -36.848461, longitude: 174.763336 },
   amsterdam: { latitude: 52.377956, longitude: 4.89707 },
   barcelona: { latitude: 41.390205, longitude: 2.154007 },
@@ -244,6 +247,7 @@ export const regionalDestinations = {
     "Rome",
     "Athens",
     "Santorini",
+    "Amalfi Coast",
     "Mykonos",
     "Malta",
     "Dubrovnik",
@@ -350,6 +354,7 @@ export const euroCountries = [
   "Italy",
   "Spain",
   "Netherlands",
+  "Amalfi Coast",
   "Greece",
   "Portugal",
   "Ireland",
