@@ -16,7 +16,9 @@ import { useEffect, useState } from "react";
 import Loading from "@/components/Loading";
 
 import { TourGuide } from "@/lib/interfaces/people/staff";
+import { Attraction } from "@/lib/interfaces/services/attractions";
 import { convertPrice } from "@/lib/utils/format";
+import { getCityAttractionById } from "@/lib/utils/get/attractions";
 import { getTourGuideById } from "@/lib/utils/get/guides";
 import { useRouter } from "next/navigation";
 
@@ -35,6 +37,7 @@ export default function TourDetailsPage() {
 
   const [tourData, setTourData] = useState<Tour>();
   const [tourGuide, setTourGuide] = useState<TourGuide>();
+  const [cityAttractions, setCityAttractions] = useState<Attraction[]>([]); // Change to state variable
 
   useEffect(() => {
     if (!tourId || !guideId || !city || !selectedCurrency) {
@@ -81,8 +84,47 @@ export default function TourDetailsPage() {
     fetchTourGuide();
   }, [tourData, city, guideId]);
 
+  useEffect(() => {
+    if (!tourData || !tourData.schedule || tourData.schedule.length === 0)
+      return;
+
+    async function fetchAttractions() {
+      const fetchedAttractions: Attraction[] = [];
+
+      for (const scheduleItem of tourData.schedule) {
+        try {
+          const attractionData = await getCityAttractionById(
+            city as string,
+            scheduleItem.attractionId
+          );
+
+          if (attractionData) {
+            fetchedAttractions.push(attractionData);
+          } else {
+            console.warn(
+              `No attraction found with ID: ${scheduleItem.attractionId} in city: ${city}`
+            );
+          }
+        } catch (error) {
+          console.error(
+            `Error fetching attraction with ID: ${scheduleItem.attractionId} in city: ${city}`,
+            error
+          );
+        }
+      }
+
+      setCityAttractions(fetchedAttractions);
+      console.log(
+        `Fetched ${fetchedAttractions.length} attractions for the tour`
+      );
+    }
+
+    fetchAttractions();
+  }, [tourData, city]);
+
   console.log("Tour Data:", tourData);
   console.log("Tour Guide:", tourGuide);
+  console.log("City Attractions:", cityAttractions);
 
   const [updatedCurrency, setUpdatedCurrency] = useState<Currency>(
     (selectedCurrency as Currency) || tourData?.currency || "USD"
