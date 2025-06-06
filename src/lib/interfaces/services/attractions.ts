@@ -13,7 +13,9 @@ export interface BaseAttraction {
     | "low"
     | "budget"
     | "cheap"
+    | "regular"
     | "moderate"
+    | "midrange"
     | "free (tram extra)"
     | "expensive"
     | "free (guided tours must be booked)"
@@ -21,6 +23,7 @@ export interface BaseAttraction {
     | "varies";
   priceRange:
     | "$"
+    | "£"
     | "$$"
     | "$$$"
     | "$$$$"
@@ -37,14 +40,17 @@ export interface BaseAttraction {
     | "budget"
     | "moderate"
     | "luxury"
+    | "midrange"
     | "mixed"
     | "varies"
     | "expensive";
   timeOfDay:
     | "all day"
     | "daytime"
+    | "any"
     | "evening"
     | "night"
+    | "nighttime"
     | "daytime and evening"
     | "day or evening"
     | "sunset and evening"
