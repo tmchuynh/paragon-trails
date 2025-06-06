@@ -1,7 +1,7 @@
-import { Tour } from "@/lib/interfaces/services/tours";
-import { formatKebabToCamelCase, formatTitleToCamelCase } from "../format";
-import { cityCountryMap, cityToRegionMap } from "@/lib/utils/mapping";
 import { cityFiles } from "@/lib/constants/info/city";
+import { Tour } from "@/lib/interfaces/services/tours";
+import { cityCountryMap, cityToRegionMap } from "@/lib/utils/mapping";
+import { formatKebabToCamelCase, formatTitleToCamelCase } from "../format";
 
 export async function getAllTours(): Promise<Tour[]> {
   const tours: Tour[] = [];
@@ -31,7 +31,11 @@ export async function getAllTours(): Promise<Tour[]> {
           );
         } catch (importError) {
           console.log(
-            `Failed to import from tours directory: ${importError.message}`
+            `Failed to import from tours directory: ${
+              importError instanceof Error
+                ? importError.message
+                : "Unknown error"
+            }`
           );
           try {
             cityModule = await import(
@@ -82,51 +86,40 @@ export async function getAllTours(): Promise<Tour[]> {
   }
 }
 
-export async function getCityTours(city: string): Promise<Tour[]> {
-  try {
-    const country = cityCountryMap[city as keyof typeof cityCountryMap];
-    const region = cityToRegionMap[city as keyof typeof cityToRegionMap];
-    const formattedCity = formatKebabToCamelCase(city);
-    const formattedCountry = formatTitleToCamelCase(country);
-    const formattedRegion = formatTitleToCamelCase(region);
+export async function getCityTours(city: string): Promise<any> {
+  const allTours: Tour[] = [];
 
-    const tourId = `${formattedCity}${formattedCountry.replaceAll(".", "")}${formattedRegion}Tours`;
-
-    console.log(`Looking for city tour ID: ${tourId}`);
-
-    let cityModule;
+  for (const cityFile of cityFiles) {
     try {
-      cityModule = await import(
-        `@/lib/constants/tours/${formatKebabToCamelCase(city)}`
+      const tourModule = await import(
+        `@/lib/constants/destinations/city/${cityFile}`
       );
-    } catch (importError) {
-      console.log(
-        `Failed to import from tours directory: ${importError.message}`
-      );
-      cityModule = await import(`@/lib/constants/destinations/city/${city}`);
-    }
 
-    console.log(
-      `Available keys in module for ${city}:`,
-      Object.keys(cityModule)
-    );
+      const cityRegion =
+        cityToRegionMap[cityFile as keyof typeof cityToRegionMap];
+      const formattedCity = formatKebabToCamelCase(cityFile);
+      const formattedRegion = formatTitleToCamelCase(cityRegion);
 
-    if (cityModule[tourId]) {
-      return cityModule[tourId] as Tour[];
-    } else {
-      // Try a different case format or without "Tours" suffix
-      const alternativeId = `${formattedCity}${formattedCountry.replaceAll(".", "")}${formattedRegion}`;
-      if (cityModule[alternativeId]) {
-        return cityModule[alternativeId] as Tour[];
+      const tourId = `${formattedCity}${formattedRegion}Tours`;
+
+      if (tourModule[tourId]) {
+        const tours = tourModule[tourId] as Tour[];
+        const filteredTours = tours.filter((tour) => tour.city === city);
+        allTours.push(...filteredTours);
+      } else {
+        console.warn(
+          `No tours found for city ${city} in module ${cityFile} with ID ${tourId}`
+        );
       }
+    } catch (error) {
       console.error(
-        `No tours found for city: ${city}, tried IDs: ${tourId}, ${alternativeId}`
+        `Error loading tours for city ${city} from module ${cityFile}: ${error}`
       );
       return [];
+    } finally {
+      console.log(`Total tours loaded for city ${city}: ${allTours.length}`);
+      return [];
     }
-  } catch (error) {
-    console.error(`Error loading tours for city ${city}: ${error}`);
-    return [];
   }
 }
 
@@ -166,7 +159,9 @@ export async function getTourByPrice(
 ): Promise<Tour[]> {
   try {
     const tours = await getCityTours(city);
-    return tours.filter((tour) => parseFloat(tour.price) <= maxPrice);
+    return tours.filter(
+      (tour: { price: string }) => parseFloat(tour.price) <= maxPrice
+    );
   } catch (error) {
     console.error(
       `Error filtering tours by price ${maxPrice} in city ${city}: ${error}`
@@ -175,23 +170,43 @@ export async function getTourByPrice(
   }
 }
 
-export async function getTourById(
-  city: string,
-  tourId: string
-): Promise<Tour | null> {
+export async function getTourById(city: string, tourId: string): Promise<any> {
+  console.log(`Fetching tour with ID: ${tourId} for city: ${city}`);
+  const formattedCity = formatKebabToCamelCase(city);
+
+  console.log(`Formatted city: ${formattedCity}`);
+
+  const cityRegion = cityToRegionMap[city as keyof typeof cityToRegionMap];
+  console.log(`City region mapping:`, cityRegion);
+
+  const formattedRegion = formatTitleToCamelCase(cityRegion);
+
+  console.log(`Formatted region: ${formattedRegion}`);
+
+  const tourIdFormatted = `${formattedCity}${formattedRegion}Tours`;
+
   try {
-    const tours = await getCityTours(city);
-    const tour = tours.find((t) => t.id === tourId);
-    if (tour) {
-      return tour;
+    const tourModule = await import(`@/lib/constants/tours/${formattedCity}`);
+
+    if (tourModule[tourIdFormatted]) {
+      const tours = tourModule[tourIdFormatted] as Tour[];
+      const foundTour = tours.find((tour) => tour.id === tourId);
+      if (foundTour) {
+        return foundTour;
+      } else {
+        console.warn(
+          `Tour with ID ${tourIdFormatted} not found in city ${formattedCity}.`
+        );
+        return [];
+      }
     } else {
-      console.error(`Tour with ID ${tourId} not found in city ${city}`);
-      return null;
+      console.warn(
+        `No tours found for city ${city} with ID ${tourIdFormatted}`
+      );
+      return [];
     }
   } catch (error) {
-    console.error(
-      `Error loading tour by ID ${tourId} in city ${city}: ${error}`
-    );
-    return null;
+    console.error(`Error loading tours for city ${city}: ${error}`);
+    return [];
   }
 }
