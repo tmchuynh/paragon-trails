@@ -21,9 +21,9 @@
  *   --city C, -c C      Process only cities matching the search term
  *
  * Examples:
- *   node generate-city-crew.mjs --rewrite
- *   node generate-city-crew.mjs --append 5
- *   node generate-city-crew.mjs --city "Monaco"
+ *   node scripts/generate-city-crew.mjs --rewrite
+ *   node scripts/generate-city-crew.mjs --append 5
+ *   node scripts/generate-city-crew.mjs --city "Monaco"
  */
 
 import * as fs from "fs";
@@ -386,7 +386,7 @@ generateAllCityFiles()
 
 // Print usage information
 console.log(`
-Usage: node generate-city-crew.mjs [options]
+Usage: node scripts/generate-city-crew.mjs [options]
 
 Options:
   --rewrite, -r       Rewrite existing files instead of skipping them
@@ -394,7 +394,7 @@ Options:
   --city C, -c C      Process only cities matching the search term
 
 Examples:
-  node generate-city-crew.mjs --rewrite
-  node generate-city-crew.mjs --append 5
-  node generate-city-crew.mjs --city "Monaco"
+  node scripts/generate-city-crew.mjs --rewrite
+  node scripts/generate-city-crew.mjs --append 5
+  node scripts/generate-city-crew.mjs --city "Monaco"
 `);
