@@ -1,228 +1,284 @@
+// filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/zurich.ts
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const zurichAttractions: Attraction[] = [
-  {
-    title: "Discover Top Attractions in Zurich",
-    description:
-      "A beautiful monument in Zurich offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/zurich-monument.jpg",
-    location: "174 Main Street, Zurich",
-    openingHours: "10 AM - 6 PM",
-    entryFee: "Free",
-    entryFeeCategory: "free",
-    priceRange: "$$",
-    priceCategory: "moderate",
-    timeOfDay: "night",
-    rating: 4.6,
-    tags: ["UNESCO Site", "Historical Site", "Market"],
-    accessibilityFeatures: ["limited accessibility", "accessible entrance"],
-    isHistorical: false,
-    isRomantic: false,
-    isAdventure: false,
-    isCulinary: false,
-    isSpiritual: false,
-    isNightlife: true,
-    isLuxury: false,
-    isArtOrMusic: true,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: true,
-    isWheelchairAccessible: false,
-  },
-  {
-    title: "Discover Top Attractions in Zurich",
-    description:
-      "A beautiful temple in Zurich offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/zurich-temple.jpg",
-    location: "185 Main Street, Zurich",
-    openingHours: "9 AM - 5 PM",
-    entryFee: "Free",
-    entryFeeCategory: "free",
-    priceRange: "$$$$",
-    priceCategory: "luxury",
-    timeOfDay: "daytime",
-    rating: 4.7,
-    tags: ["Museum", "Local Market", "Hidden Gem"],
-    accessibilityFeatures: ["wheelchair accessible"],
-    isHistorical: true,
-    isRomantic: false,
-    isAdventure: false,
-    isCulinary: true,
-    isSpiritual: true,
-    isNightlife: false,
-    isLuxury: true,
-    isArtOrMusic: false,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: false,
-    isWheelchairAccessible: true,
-  },
-  {
-    title: "Discover Top Attractions in Zurich",
-    description:
-      "A beautiful tower in Zurich offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/zurich-tower.jpg",
-    location: "26 Main Street, Zurich",
-    openingHours: "9 AM - 5 PM",
-    entryFee: "Free",
-    entryFeeCategory: "free",
-    priceRange: "free",
-    priceCategory: "free",
-    timeOfDay: "all day",
-    rating: 4.7,
-    tags: ["Cultural Center", "Monument"],
-    accessibilityFeatures: ["elevator access"],
-    isHistorical: true,
-    isRomantic: false,
-    isAdventure: false,
-    isCulinary: false,
-    isSpiritual: false,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: true,
-    isPopular: true,
-    isPetFriendly: true,
-    isWheelchairAccessible: false,
-  },
-  {
-    title: "Discover Top Attractions in Zurich",
-    description:
-      "A beautiful tower in Zurich offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/zurich-tower.jpg",
-    location: "148 Main Street, Zurich",
-    openingHours: "9 AM - 5 PM",
-    entryFee: "¥89",
-    entryFeeCategory: "expensive",
-    priceRange: "$",
-    priceCategory: "budget",
-    timeOfDay: "daytime",
-    rating: 4.6,
-    tags: ["Photography Spot", "Historical Site", "UNESCO Site"],
-    accessibilityFeatures: ["accessible entrance", "limited accessibility"],
-    isHistorical: false,
-    isRomantic: false,
-    isAdventure: true,
-    isCulinary: false,
-    isSpiritual: true,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: false,
-    isWheelchairAccessible: false,
-  },
-  {
-    title: "Discover Top Attractions in Zurich",
-    description:
-      "A beautiful gallery in Zurich offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/zurich-gallery.jpg",
-    location: "98 Main Street, Zurich",
-    openingHours: "10 AM - 6 PM",
-    entryFee: "¥55",
-    entryFeeCategory: "expensive",
-    priceRange: "$$",
-    priceCategory: "moderate",
-    timeOfDay: "night",
-    rating: 4.5,
-    tags: ["Park"],
-    accessibilityFeatures: ["elevator access", "wheelchair accessible"],
-    isHistorical: true,
-    isRomantic: false,
-    isAdventure: false,
-    isCulinary: false,
-    isSpiritual: false,
-    isNightlife: true,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: true,
-    isWheelchairAccessible: true,
-  },
-  {
-    title: "Discover Top Attractions in Zurich",
-    description:
-      "A beautiful square in Zurich offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/zurich-square.jpg",
-    location: "32 Main Street, Zurich",
-    openingHours: "10 AM - 6 PM",
-    entryFee: "Free",
-    entryFeeCategory: "free",
-    priceRange: "$$",
-    priceCategory: "moderate",
-    timeOfDay: "daytime",
-    rating: 5,
-    tags: ["Museum", "Local Market"],
-    accessibilityFeatures: ["accessible restrooms"],
-    isHistorical: true,
-    isRomantic: true,
-    isAdventure: false,
-    isCulinary: false,
-    isSpiritual: false,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: true,
-    isWheelchairAccessible: false,
-  },
-  {
-    title: "Discover Top Attractions in Zurich",
-    description:
-      "A beautiful park in Zurich offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/zurich-park.jpg",
-    location: "58 Main Street, Zurich",
-    openingHours: "Open 24 hours",
-    entryFee: "Free",
-    entryFeeCategory: "free",
-    priceRange: "$$$",
-    priceCategory: "expensive",
-    timeOfDay: "all day",
-    rating: 4.6,
-    tags: ["Local Market", "Photography Spot"],
-    accessibilityFeatures: ["accessible restrooms", "wheelchair accessible"],
-    isHistorical: false,
-    isRomantic: true,
-    isAdventure: false,
-    isCulinary: true,
-    isSpiritual: false,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: false,
-    isWheelchairAccessible: true,
-  },
-  {
-    title: "Discover Top Attractions in Zurich",
-    description:
-      "A beautiful tower in Zurich offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/zurich-tower.jpg",
-    location: "162 Main Street, Zurich",
-    openingHours: "9 AM - 5 PM",
-    entryFee: "Free",
-    entryFeeCategory: "free",
-    priceRange: "$$$$",
-    priceCategory: "luxury",
-    timeOfDay: "evening",
-    rating: 4.3,
-    tags: ["Iconic", "Museum"],
-    accessibilityFeatures: ["elevator access"],
-    isHistorical: true,
-    isRomantic: false,
-    isAdventure: false,
-    isCulinary: false,
-    isSpiritual: false,
-    isNightlife: false,
-    isLuxury: true,
-    isArtOrMusic: true,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: true,
-    isWheelchairAccessible: false,
-  },
-];
+export const zurichglobalAttractions: Attraction[] = [
+    {
+      title: "Lake Zurich",
+      description: "A picturesque lake offering boat cruises, swimming spots, and scenic promenades.",
+      imageUrl: "https://images.unsplash.com/photo-lake-zurich",
+      location: "Zurich, Switzerland",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+      ],
+      entryFee: undefined,
+      entryFeeCategory: "free",
+      priceRange: "free",
+      priceCategory: "free",
+      timeOfDay: "all day",
+      rating: 4.7,
+      tags: [
+        "Adventure",
+        "Free",
+        "Popular",
+        "Petfriendly",
+      ],
+      accessibilityFeatures: [],
+      entryFees: [],
+      features: [
+        "lake",
+        "boating",
+        "walking trails",
+      ],
+    },
+    {
+      title: "Grossmünster",
+      description: "Iconic twin-towered church with significant historical and architectural value.",
+      imageUrl: "https://images.unsplash.com/photo-grossmunster-zurich",
+      location: "Grossmünsterplatz, 8001 Zürich, Switzerland",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "10:00",
+              to: "18:00",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "10:00",
+              to: "18:00",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "10:00",
+              to: "18:00",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "10:00",
+              to: "18:00",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "10:00",
+              to: "18:00",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "10:00",
+              to: "18:00",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "10:00",
+              to: "18:00",
+            },
+          ],
+        },
+      ],
+      entryFee: "CHF 5",
+      entryFeeCategory: "budget",
+      priceRange: "$",
+      priceCategory: "budget",
+      timeOfDay: "daytime",
+      rating: 4.6,
+      tags: [
+        "Historical",
+        "Popular",
+      ],
+      accessibilityFeatures: [
+        "stairs to tower",
+      ],
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "CHF 5",
+          priceCategory: "budget",
+        },
+        {
+          category: "child",
+          priceRange: "CHF 2",
+          priceCategory: "budget",
+        },
+      ],
+      features: [
+        "church",
+        "architecture",
+        "historical site",
+      ],
+    },
+    {
+      title: "Bahnhofstrasse",
+      description: "One of the world's most exclusive shopping avenues, lined with luxury boutiques and cafes.",
+      imageUrl: "https://images.unsplash.com/photo-bahnhofstrasse-zurich",
+      location: "Bahnhofstrasse, Zurich, Switzerland",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+      ],
+      entryFee: undefined,
+      entryFeeCategory: "free",
+      priceRange: "free",
+      priceCategory: "free",
+      timeOfDay: "daytime",
+      rating: 4.5,
+      tags: [
+        "Free",
+        "Popular",
+      ],
+      accessibilityFeatures: [],
+      entryFees: [],
+      features: [
+        "shopping",
+        "dining",
+        "urban experience",
+      ],
+    },
+  ];

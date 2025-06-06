@@ -1,144 +1,471 @@
+// filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/new-orleans.ts
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const newOrleansAttractions: Attraction[] = [
-  {
-    title: "Discover Top Attractions in New Orleans",
-    description:
-      "A beautiful zoo in New-orleans offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/new-orleans-zoo.jpg",
-    location: "43 Main Street, New-orleans",
-    openingHours: "10 AM - 6 PM",
-    entryFee: "Free",
-    entryFeeCategory: "free",
-    priceRange: "free",
-    priceCategory: "free",
-    timeOfDay: "night",
-    rating: 4.8,
-    tags: ["Museum", "Photography Spot"],
-    accessibilityFeatures: ["accessible restrooms"],
-    isHistorical: false,
-    isRomantic: false,
-    isAdventure: false,
-    isCulinary: false,
-    isSpiritual: false,
-    isNightlife: true,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: true,
-    isPopular: true,
-    isPetFriendly: false,
-    isWheelchairAccessible: false,
-  },
-  {
-    title: "Discover Top Attractions in New Orleans",
-    description:
-      "A beautiful cathedral in New-orleans offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/new-orleans-cathedral.jpg",
-    location: "195 Main Street, New-orleans",
-    openingHours: "Open 24 hours",
-    entryFee: "Free",
-    entryFeeCategory: "free",
-    priceRange: "$$",
-    priceCategory: "moderate",
-    timeOfDay: "evening",
-    rating: 4.3,
-    tags: ["Cultural Center", "Scenic Spot"],
-    accessibilityFeatures: ["accessible restrooms"],
-    isHistorical: true,
-    isRomantic: true,
-    isAdventure: false,
-    isCulinary: false,
-    isSpiritual: true,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: true,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: true,
-    isWheelchairAccessible: false,
-  },
-  {
-    title: "Discover Top Attractions in New Orleans",
-    description:
-      "A beautiful market in New-orleans offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/new-orleans-market.jpg",
-    location: "177 Main Street, New-orleans",
-    openingHours: "9 AM - 5 PM",
-    entryFee: "Free",
-    entryFeeCategory: "free",
-    priceRange: "$$$",
-    priceCategory: "expensive",
-    timeOfDay: "night",
-    rating: 4.5,
-    tags: ["Hidden Gem", "Monument"],
-    accessibilityFeatures: ["accessible entrance"],
-    isHistorical: true,
-    isRomantic: false,
-    isAdventure: false,
-    isCulinary: true,
-    isSpiritual: false,
-    isNightlife: true,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: true,
-    isWheelchairAccessible: false,
-  },
-  {
-    title: "Discover Top Attractions in New Orleans",
-    description:
-      "A beautiful market in New-orleans offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/new-orleans-market.jpg",
-    location: "189 Main Street, New-orleans",
-    openingHours: "9 AM - 5 PM",
-    entryFee: "£32",
-    entryFeeCategory: "moderate",
-    priceRange: "$",
-    priceCategory: "budget",
-    timeOfDay: "evening",
-    rating: 4.4,
-    tags: ["Monument"],
-    accessibilityFeatures: ["elevator access"],
-    isHistorical: true,
-    isRomantic: false,
-    isAdventure: false,
-    isCulinary: true,
-    isSpiritual: false,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: true,
-    isWheelchairAccessible: false,
-  },
-  {
-    title: "Discover Top Attractions in New Orleans",
-    description:
-      "A beautiful tower in New-orleans offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/new-orleans-tower.jpg",
-    location: "126 Main Street, New-orleans",
-    openingHours: "10 AM - 6 PM",
-    entryFee: "$100",
-    entryFeeCategory: "luxury",
-    priceRange: "$$",
-    priceCategory: "moderate",
-    timeOfDay: "daytime",
-    rating: 4.5,
-    tags: ["Religious Site", "UNESCO Site"],
-    accessibilityFeatures: ["accessible entrance", "limited accessibility"],
-    isHistorical: true,
-    isRomantic: true,
-    isAdventure: false,
-    isCulinary: true,
-    isSpiritual: false,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: false,
-    isWheelchairAccessible: false,
-  },
-];
+export const newOrleanscaribbeanAttractions: Attraction[] = [
+    {
+      title: "French Quarter",
+      description: "New Orleans’ oldest neighborhood, renowned for its French and Spanish Creole architecture, jazz clubs, and vibrant street life centered on Bourbon Street.",
+      imageUrl: "https://images.unsplash.com/photo-french-quarter-new-orleans",
+      location: "French Quarter, New Orleans, LA, USA",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+      ],
+      entryFee: undefined,
+      entryFeeCategory: "free",
+      priceRange: "free",
+      priceCategory: "free",
+      timeOfDay: "any",
+      rating: 4.8,
+      tags: [
+        "Historical",
+        "Popular",
+      ],
+      accessibilityFeatures: [
+        "some uneven sidewalks",
+        "ramped entries to galleries",
+      ],
+      entryFees: [],
+      features: [
+        "architecture",
+        "music",
+        "food",
+      ],
+    },
+    {
+      title: "Garden District",
+      description: "Residential district featuring tree-lined streets and grand 19th-century mansions, known for its well-maintained historic homes and Lafayette Cemetery No. 1.",
+      imageUrl: "https://images.unsplash.com/photo-garden-district-new-orleans",
+      location: "Garden District, New Orleans, LA, USA",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+      ],
+      entryFee: undefined,
+      entryFeeCategory: "free",
+      priceRange: "free",
+      priceCategory: "free",
+      timeOfDay: "daytime",
+      rating: 4.7,
+      tags: [
+        "Historical",
+        "Popular",
+      ],
+      accessibilityFeatures: [
+        "uneven sidewalks",
+        "some steps into properties",
+      ],
+      entryFees: [],
+      features: [
+        "walking tours",
+        "architecture",
+        "history",
+      ],
+    },
+    {
+      title: "National WWII Museum",
+      description: "Top-ranked museum in the United States dedicated to the history of World War II, featuring immersive exhibits, personal narratives, and large-scale artifacts.",
+      imageUrl: "https://images.unsplash.com/photo-national-wwii-museum",
+      location: "945 Magazine St, New Orleans, LA, USA",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+      ],
+      entryFee: "$29",
+      entryFeeCategory: "regular",
+      priceRange: "$$",
+      priceCategory: "midrange",
+      timeOfDay: "daytime",
+      rating: 4.8,
+      tags: [
+        "Historical",
+        "Popular",
+      ],
+      accessibilityFeatures: [
+        "wheelchair ramps",
+        "elevators",
+        "accessible restrooms",
+      ],
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "$29",
+          priceCategory: "midrange",
+        },
+        {
+          category: "child",
+          priceRange: "$19",
+          priceCategory: "budget",
+        },
+      ],
+      features: [
+        "museum",
+        "war history",
+        "interactive exhibits",
+      ],
+    },
+    {
+      title: "Jackson Square",
+      description: "Historic park at the heart of the French Quarter, featuring live music, local artists, and views of St. Louis Cathedral overlooking the Mississippi River.",
+      imageUrl: "https://images.unsplash.com/photo-jackson-square",
+      location: "Place d'Armes St, New Orleans, LA, USA",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+      ],
+      entryFee: undefined,
+      entryFeeCategory: "free",
+      priceRange: "free",
+      priceCategory: "free",
+      timeOfDay: "daytime",
+      rating: 4.6,
+      tags: [
+        "Historical",
+        "Popular",
+      ],
+      accessibilityFeatures: [
+        "paved paths",
+        "accessible benches",
+      ],
+      entryFees: [],
+      features: [
+        "people watching",
+        "local artists",
+        "scenic views",
+      ],
+    },
+    {
+      title: "Bourbon Street",
+      description: "Famous thoroughfare lined with bars, jazz clubs, and restaurants; known worldwide for its nightlife, live music, and historic façades.",
+      imageUrl: "https://images.unsplash.com/photo-bourbon-street",
+      location: "Bourbon St, New Orleans, LA, USA",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+      ],
+      entryFee: undefined,
+      entryFeeCategory: "free",
+      priceRange: "free",
+      priceCategory: "free",
+      timeOfDay: "nighttime",
+      rating: 4.5,
+      tags: [
+        "Popular",
+      ],
+      accessibilityFeatures: [
+        "crowded, uneven pavement",
+        "limited curb cuts",
+      ],
+      entryFees: [],
+      features: [
+        "bars",
+        "music",
+        "nightlife",
+      ],
+    },
+  ];

@@ -1,88 +1,301 @@
+// filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/st-thomas.ts
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const stThomasAttractions: Attraction[] = [
-  {
-    title: "Discover Top Attractions in St Thomas",
-    description:
-      "A beautiful square in St-thomas offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/st-thomas-square.jpg",
-    location: "198 Main Street, St-thomas",
-    openingHours: "10 AM - 6 PM",
-    entryFee: "€55",
-    entryFeeCategory: "expensive",
-    priceRange: "$$$$",
-    priceCategory: "luxury",
-    timeOfDay: "evening",
-    rating: 4.7,
-    tags: ["Historical Site", "Cultural Center", "Scenic Spot"],
-    accessibilityFeatures: ["limited accessibility"],
-    isHistorical: true,
-    isRomantic: true,
-    isAdventure: false,
-    isCulinary: false,
-    isSpiritual: false,
-    isNightlife: false,
-    isLuxury: true,
-    isArtOrMusic: true,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: true,
-    isWheelchairAccessible: false,
-  },
-  {
-    title: "Discover Top Attractions in St Thomas",
-    description:
-      "A beautiful garden in St-thomas offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/st-thomas-garden.jpg",
-    location: "37 Main Street, St-thomas",
-    openingHours: "10 AM - 6 PM",
-    entryFee: "Free",
-    entryFeeCategory: "free",
-    priceRange: "$$$",
-    priceCategory: "expensive",
-    timeOfDay: "daytime",
-    rating: 4.6,
-    tags: ["Landmark"],
-    accessibilityFeatures: ["limited accessibility", "accessible restrooms"],
-    isHistorical: true,
-    isRomantic: true,
-    isAdventure: true,
-    isCulinary: true,
-    isSpiritual: false,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: true,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: true,
-    isWheelchairAccessible: false,
-  },
-  {
-    title: "Discover Top Attractions in St Thomas",
-    description:
-      "A beautiful park in St-thomas offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/st-thomas-park.jpg",
-    location: "92 Main Street, St-thomas",
-    openingHours: "Open 24 hours",
-    entryFee: "¥10",
-    entryFeeCategory: "budget",
-    priceRange: "$",
-    priceCategory: "budget",
-    timeOfDay: "evening",
-    rating: 4.7,
-    tags: ["Gallery", "Local Market"],
-    accessibilityFeatures: ["accessible entrance", "accessible restrooms"],
-    isHistorical: false,
-    isRomantic: false,
-    isAdventure: false,
-    isCulinary: true,
-    isSpiritual: false,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: true,
-    isWheelchairAccessible: false,
-  },
-];
+export const stThomascaribbeanAttractions: Attraction[] = [
+    {
+      title: "Magens Bay Beach",
+      description: "One of the most beautiful beaches in the Caribbean, known for calm waters and a scenic bay.",
+      imageUrl: "https://images.unsplash.com/photo-st-thomas-magens-bay",
+      location: "Magens Bay, St. Thomas, USVI",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "8:00 AM",
+              to: "4:00 PM",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "8:00 AM",
+              to: "4:00 PM",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "8:00 AM",
+              to: "4:00 PM",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "8:00 AM",
+              to: "4:00 PM",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "8:00 AM",
+              to: "4:00 PM",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "8:00 AM",
+              to: "4:00 PM",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "8:00 AM",
+              to: "4:00 PM",
+            },
+          ],
+        },
+      ],
+      entryFee: "$5",
+      entryFeeCategory: "low",
+      priceRange: "$",
+      priceCategory: "low",
+      timeOfDay: "daytime",
+      rating: 4.7,
+      tags: [
+        "Popular",
+      ],
+      accessibilityFeatures: [],
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "$5",
+          priceCategory: "low",
+        },
+        {
+          category: "child",
+          priceRange: "$2.50",
+          priceCategory: "low",
+        },
+      ],
+      features: [
+        "beach",
+        "swimming",
+        "snorkeling",
+        "sunbathing",
+      ],
+    },
+    {
+      title: "Blackbeard's Castle",
+      description: "Historic watchtower and attraction with panoramic views and pirate-themed history exhibits.",
+      imageUrl: "https://images.unsplash.com/photo-st-thomas-blackbeards-castle",
+      location: "Castle Rd, Charlotte Amalie, St. Thomas",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "5:00 PM",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "5:00 PM",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "5:00 PM",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "5:00 PM",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "5:00 PM",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "5:00 PM",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "5:00 PM",
+            },
+          ],
+        },
+      ],
+      entryFee: "$15",
+      entryFeeCategory: "moderate",
+      priceRange: "$$",
+      priceCategory: "moderate",
+      timeOfDay: "daytime",
+      rating: 4.4,
+      tags: [
+        "Historical",
+        "Popular",
+      ],
+      accessibilityFeatures: [],
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "$15",
+          priceCategory: "moderate",
+        },
+        {
+          category: "child",
+          priceRange: "$7.50",
+          priceCategory: "low",
+        },
+      ],
+      features: [
+        "historical site",
+        "watchtower",
+        "panoramic views",
+      ],
+    },
+    {
+      title: "Coral World Ocean Park",
+      description: "Marine park offering close-up encounters with sea life, an underwater observatory, and touch pools.",
+      imageUrl: "https://images.unsplash.com/photo-st-thomas-coral-world",
+      location: "1000 Hemmersly Bay Rd, St. Thomas",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "5:00 PM",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "5:00 PM",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "5:00 PM",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "5:00 PM",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "5:00 PM",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "5:00 PM",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "5:00 PM",
+            },
+          ],
+        },
+      ],
+      entryFee: "$24",
+      entryFeeCategory: "moderate",
+      priceRange: "$$",
+      priceCategory: "moderate",
+      timeOfDay: "daytime",
+      rating: 4.5,
+      tags: [
+        "Popular",
+      ],
+      accessibilityFeatures: [],
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "$24",
+          priceCategory: "moderate",
+        },
+        {
+          category: "child",
+          priceRange: "$12",
+          priceCategory: "budget",
+        },
+      ],
+      features: [
+        "marine park",
+        "aquarium",
+        "educational exhibits",
+      ],
+    },
+  ];

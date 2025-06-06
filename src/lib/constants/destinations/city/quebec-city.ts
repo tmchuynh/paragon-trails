@@ -1,88 +1,292 @@
+// filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/quebec-city.ts
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const quebecCityAttractions: Attraction[] = [
-  {
-    title: "Discover Top Attractions in Quebec City",
-    description:
-      "A beautiful square in Quebec-city offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/quebec-city-square.jpg",
-    location: "182 Main Street, Quebec-city",
-    openingHours: "Open 24 hours",
-    entryFee: "Free",
-    entryFeeCategory: "free",
-    priceRange: "$$",
-    priceCategory: "moderate",
-    timeOfDay: "evening",
-    rating: 4.2,
-    tags: ["Hidden Gem"],
-    accessibilityFeatures: ["accessible entrance"],
-    isHistorical: false,
-    isRomantic: false,
-    isAdventure: false,
-    isCulinary: false,
-    isSpiritual: true,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: false,
-    isWheelchairAccessible: false,
-  },
-  {
-    title: "Discover Top Attractions in Quebec City",
-    description:
-      "A beautiful cathedral in Quebec-city offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/quebec-city-cathedral.jpg",
-    location: "156 Main Street, Quebec-city",
-    openingHours: "9 AM - 5 PM",
-    entryFee: "$53",
-    entryFeeCategory: "expensive",
-    priceRange: "$",
-    priceCategory: "budget",
-    timeOfDay: "evening",
-    rating: 4.7,
-    tags: ["Photography Spot", "Historical Site"],
-    accessibilityFeatures: ["limited accessibility", "elevator access"],
-    isHistorical: false,
-    isRomantic: false,
-    isAdventure: false,
-    isCulinary: true,
-    isSpiritual: false,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: true,
-    isWheelchairAccessible: false,
-  },
-  {
-    title: "Discover Top Attractions in Quebec City",
-    description:
-      "A beautiful market in Quebec-city offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/quebec-city-market.jpg",
-    location: "141 Main Street, Quebec-city",
-    openingHours: "9 AM - 5 PM",
-    entryFee: "€7",
-    entryFeeCategory: "budget",
-    priceRange: "$",
-    priceCategory: "budget",
-    timeOfDay: "evening",
-    rating: 5,
-    tags: ["Local Market", "Hidden Gem"],
-    accessibilityFeatures: ["accessible entrance", "elevator access"],
-    isHistorical: false,
-    isRomantic: false,
-    isAdventure: false,
-    isCulinary: false,
-    isSpiritual: false,
-    isNightlife: true,
-    isLuxury: false,
-    isArtOrMusic: true,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: true,
-    isWheelchairAccessible: false,
-  },
-];
+export const quebecCityeastCoastCanadaAttractions: Attraction[] = [
+    {
+      title: "Old Quebec",
+      description: "UNESCO World Heritage Site featuring cobblestone streets, historic architecture, and fortified city walls.",
+      imageUrl: "https://images.unsplash.com/photo-quebec-city-old-quebec",
+      location: "Old Quebec, Quebec City, QC",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+      ],
+      entryFee: undefined,
+      entryFeeCategory: "free",
+      priceRange: "free",
+      priceCategory: "free",
+      timeOfDay: "all day",
+      rating: 4.8,
+      tags: [
+        "Historical",
+        "Free",
+        "Popular",
+      ],
+      accessibilityFeatures: [],
+      entryFees: [],
+      features: [
+        "historic district",
+        "cobblestone streets",
+        "scenic views",
+      ],
+    },
+    {
+      title: "Château Frontenac",
+      description: "Iconic grand hotel and historic site with panoramic views over the St. Lawrence River.",
+      imageUrl: "https://images.unsplash.com/photo-quebec-city-chateau-frontenac",
+      location: "1 Rue des Carrières, Quebec City, QC",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "5:00 PM",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "5:00 PM",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "5:00 PM",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "5:00 PM",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "5:00 PM",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "5:00 PM",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "5:00 PM",
+            },
+          ],
+        },
+      ],
+      entryFee: "$20 (tour)",
+      entryFeeCategory: "moderate",
+      priceRange: "$$",
+      priceCategory: "moderate",
+      timeOfDay: "daytime",
+      rating: 4.7,
+      tags: [
+        "Historical",
+        "Popular",
+      ],
+      accessibilityFeatures: [],
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "$20 (tour)",
+          priceCategory: "moderate",
+        },
+        {
+          category: "child",
+          priceRange: "$10 (tour)",
+          priceCategory: "budget",
+        },
+      ],
+      features: [
+        "historic hotel",
+        "panoramic views",
+        "guided tours",
+      ],
+    },
+    {
+      title: "Montmorency Falls",
+      description: "Spectacular waterfall higher than Niagara Falls, with a suspension bridge and cable car views.",
+      imageUrl: "https://images.unsplash.com/photo-quebec-city-montmorency-falls",
+      location: "5300 Boulevard Sainte-Anne, Quebec City",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "5:00 PM",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "5:00 PM",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "5:00 PM",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "5:00 PM",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "5:00 PM",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "5:00 PM",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "5:00 PM",
+            },
+          ],
+        },
+      ],
+      entryFee: "$7.39",
+      entryFeeCategory: "low",
+      priceRange: "$",
+      priceCategory: "low",
+      timeOfDay: "daytime",
+      rating: 4.6,
+      tags: [
+        "Adventure",
+        "Popular",
+      ],
+      accessibilityFeatures: [],
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "$7.39",
+          priceCategory: "low",
+        },
+        {
+          category: "child",
+          priceRange: "$3.70",
+          priceCategory: "low",
+        },
+      ],
+      features: [
+        "waterfall",
+        "suspension bridge",
+        "cable car",
+      ],
+    },
+  ];

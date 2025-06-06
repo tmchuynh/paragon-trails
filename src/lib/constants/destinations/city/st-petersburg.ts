@@ -1,228 +1,304 @@
+// filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/st-petersburg.ts
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const stPetersburgAttractions: Attraction[] = [
-  {
-    title: "Discover Top Attractions in St Petersburg",
-    description:
-      "A beautiful park in St-petersburg offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/st-petersburg-park.jpg",
-    location: "172 Main Street, St-petersburg",
-    openingHours: "Open 24 hours",
-    entryFee: "€95",
-    entryFeeCategory: "expensive",
-    priceRange: "$",
-    priceCategory: "budget",
-    timeOfDay: "night",
-    rating: 4.8,
-    tags: ["Hidden Gem"],
-    accessibilityFeatures: ["accessible restrooms"],
-    isHistorical: false,
-    isRomantic: false,
-    isAdventure: false,
-    isCulinary: false,
-    isSpiritual: false,
-    isNightlife: true,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: false,
-    isWheelchairAccessible: false,
-  },
-  {
-    title: "Discover Top Attractions in St Petersburg",
-    description:
-      "A beautiful cathedral in St-petersburg offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/st-petersburg-cathedral.jpg",
-    location: "32 Main Street, St-petersburg",
-    openingHours: "10 AM - 6 PM",
-    entryFee: "Free",
-    entryFeeCategory: "free",
-    priceRange: "$$$",
-    priceCategory: "expensive",
-    timeOfDay: "all day",
-    rating: 4.4,
-    tags: ["Monument", "Market"],
-    accessibilityFeatures: ["accessible entrance"],
-    isHistorical: true,
-    isRomantic: false,
-    isAdventure: false,
-    isCulinary: false,
-    isSpiritual: false,
-    isNightlife: true,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: false,
-    isWheelchairAccessible: false,
-  },
-  {
-    title: "Discover Top Attractions in St Petersburg",
-    description:
-      "A beautiful garden in St-petersburg offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/st-petersburg-garden.jpg",
-    location: "194 Main Street, St-petersburg",
-    openingHours: "Open 24 hours",
-    entryFee: "Free",
-    entryFeeCategory: "free",
-    priceRange: "free",
-    priceCategory: "free",
-    timeOfDay: "all day",
-    rating: 4.5,
-    tags: ["Museum", "Scenic Spot"],
-    accessibilityFeatures: ["accessible restrooms"],
-    isHistorical: false,
-    isRomantic: false,
-    isAdventure: true,
-    isCulinary: false,
-    isSpiritual: true,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: true,
-    isPopular: true,
-    isPetFriendly: true,
-    isWheelchairAccessible: false,
-  },
-  {
-    title: "Discover Top Attractions in St Petersburg",
-    description:
-      "A beautiful square in St-petersburg offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/st-petersburg-square.jpg",
-    location: "53 Main Street, St-petersburg",
-    openingHours: "Open 24 hours",
-    entryFee: "$64",
-    entryFeeCategory: "expensive",
-    priceRange: "$",
-    priceCategory: "budget",
-    timeOfDay: "daytime",
-    rating: 4.2,
-    tags: ["Religious Site"],
-    accessibilityFeatures: ["limited accessibility"],
-    isHistorical: false,
-    isRomantic: false,
-    isAdventure: true,
-    isCulinary: false,
-    isSpiritual: false,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: true,
-    isWheelchairAccessible: false,
-  },
-  {
-    title: "Discover Top Attractions in St Petersburg",
-    description:
-      "A beautiful palace in St-petersburg offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/st-petersburg-palace.jpg",
-    location: "74 Main Street, St-petersburg",
-    openingHours: "9 AM - 5 PM",
-    entryFee: "$98",
-    entryFeeCategory: "expensive",
-    priceRange: "$$",
-    priceCategory: "moderate",
-    timeOfDay: "all day",
-    rating: 4.3,
-    tags: ["Park", "Photography Spot", "Iconic"],
-    accessibilityFeatures: ["accessible restrooms"],
-    isHistorical: false,
-    isRomantic: false,
-    isAdventure: false,
-    isCulinary: false,
-    isSpiritual: false,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: true,
-    isWheelchairAccessible: false,
-  },
-  {
-    title: "Discover Top Attractions in St Petersburg",
-    description:
-      "A beautiful castle in St-petersburg offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/st-petersburg-castle.jpg",
-    location: "103 Main Street, St-petersburg",
-    openingHours: "Open 24 hours",
-    entryFee: "¥91",
-    entryFeeCategory: "expensive",
-    priceRange: "$$",
-    priceCategory: "moderate",
-    timeOfDay: "night",
-    rating: 4.7,
-    tags: ["Religious Site"],
-    accessibilityFeatures: ["wheelchair accessible"],
-    isHistorical: false,
-    isRomantic: false,
-    isAdventure: false,
-    isCulinary: false,
-    isSpiritual: false,
-    isNightlife: true,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: false,
-    isWheelchairAccessible: true,
-  },
-  {
-    title: "Discover Top Attractions in St Petersburg",
-    description:
-      "A beautiful temple in St-petersburg offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/st-petersburg-temple.jpg",
-    location: "103 Main Street, St-petersburg",
-    openingHours: "9 AM - 5 PM",
-    entryFee: "¥96",
-    entryFeeCategory: "expensive",
-    priceRange: "$$$$",
-    priceCategory: "luxury",
-    timeOfDay: "evening",
-    rating: 4.3,
-    tags: ["Garden", "Historical Site", "Local Market"],
-    accessibilityFeatures: ["wheelchair accessible"],
-    isHistorical: false,
-    isRomantic: false,
-    isAdventure: false,
-    isCulinary: true,
-    isSpiritual: false,
-    isNightlife: true,
-    isLuxury: true,
-    isArtOrMusic: true,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: true,
-    isWheelchairAccessible: true,
-  },
-  {
-    title: "Discover Top Attractions in St Petersburg",
-    description:
-      "A beautiful museum in St-petersburg offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/st-petersburg-museum.jpg",
-    location: "146 Main Street, St-petersburg",
-    openingHours: "9 AM - 5 PM",
-    entryFee: "€39",
-    entryFeeCategory: "moderate",
-    priceRange: "$",
-    priceCategory: "budget",
-    timeOfDay: "all day",
-    rating: 4.6,
-    tags: ["Garden"],
-    accessibilityFeatures: ["wheelchair accessible", "limited accessibility"],
-    isHistorical: false,
-    isRomantic: false,
-    isAdventure: false,
-    isCulinary: false,
-    isSpiritual: false,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: false,
-    isWheelchairAccessible: true,
-  },
-];
+export const stPetersburgnorthernEuropeAttractions: Attraction[] = [
+    {
+      title: "The Hermitage Museum",
+      description: "One of the world’s largest and oldest museums, housing a vast collection of art and cultural artifacts.",
+      imageUrl: "https://images.unsplash.com/photo-st-petersburg-hermitage",
+      location: "Palace Square, 2, St. Petersburg, Russia",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "10:30",
+              to: "18:00",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "10:30",
+              to: "18:00",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "10:30",
+              to: "18:00",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "10:30",
+              to: "18:00",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "10:30",
+              to: "18:00",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "10:30",
+              to: "18:00",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "10:30",
+              to: "18:00",
+            },
+          ],
+        },
+      ],
+      entryFee: "$12",
+      entryFeeCategory: "moderate",
+      priceRange: "$$",
+      priceCategory: "moderate",
+      timeOfDay: "daytime",
+      rating: 4.9,
+      tags: [
+        "Historical",
+        "Artormusic",
+        "Popular",
+      ],
+      accessibilityFeatures: [],
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "$12",
+          priceCategory: "moderate",
+        },
+        {
+          category: "child",
+          priceRange: "$6",
+          priceCategory: "budget",
+        },
+      ],
+      features: [
+        "museum",
+        "art",
+        "cultural artifacts",
+      ],
+    },
+    {
+      title: "Church of the Savior on Spilled Blood",
+      description: "Iconic Russian Orthodox church known for its ornate domes and detailed mosaics.",
+      imageUrl: "https://images.unsplash.com/photo-st-petersburg-church",
+      location: "Griboyedov Canal Embankment, St. Petersburg, Russia",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "10:30",
+              to: "18:00",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "10:30",
+              to: "18:00",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "10:30",
+              to: "18:00",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "10:30",
+              to: "18:00",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "10:30",
+              to: "18:00",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "10:30",
+              to: "18:00",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "10:30",
+              to: "18:00",
+            },
+          ],
+        },
+      ],
+      entryFee: "$8",
+      entryFeeCategory: "low",
+      priceRange: "$",
+      priceCategory: "low",
+      timeOfDay: "daytime",
+      rating: 4.8,
+      tags: [
+        "Historical",
+        "Popular",
+      ],
+      accessibilityFeatures: [],
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "$8",
+          priceCategory: "low",
+        },
+        {
+          category: "child",
+          priceRange: "$4",
+          priceCategory: "low",
+        },
+      ],
+      features: [
+        "church",
+        "mosaics",
+        "scenic views",
+      ],
+    },
+    {
+      title: "Peterhof Palace",
+      description: "Lavish palace and gardens complex, often referred to as the 'Russian Versailles,' with fountains and gold accents.",
+      imageUrl: "https://images.unsplash.com/photo-st-petersburg-peterhof",
+      location: "Razvodnaya Ulitsa, 2, Petergof, St. Petersburg, Russia",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "10:00",
+              to: "18:00",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "10:00",
+              to: "18:00",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "10:00",
+              to: "18:00",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "10:00",
+              to: "18:00",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "10:00",
+              to: "18:00",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "10:00",
+              to: "18:00",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "10:00",
+              to: "18:00",
+            },
+          ],
+        },
+      ],
+      entryFee: "$15",
+      entryFeeCategory: "moderate",
+      priceRange: "$$",
+      priceCategory: "moderate",
+      timeOfDay: "daytime",
+      rating: 4.8,
+      tags: [
+        "Historical",
+        "Popular",
+      ],
+      accessibilityFeatures: [],
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "$15",
+          priceCategory: "moderate",
+        },
+        {
+          category: "child",
+          priceRange: "$7.50",
+          priceCategory: "low",
+        },
+      ],
+      features: [
+        "palace",
+        "gardens",
+        "fountains",
+        "gold accents",
+      ],
+    },
+  ];

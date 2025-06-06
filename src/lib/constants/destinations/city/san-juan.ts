@@ -1,228 +1,282 @@
+// filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/san-juan.ts
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const sanJuanAttractions: Attraction[] = [
-  {
-    title: "Discover Top Attractions in San Juan",
-    description:
-      "A beautiful monument in San-juan offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/san-juan-monument.jpg",
-    location: "15 Main Street, San-juan",
-    openingHours: "10 AM - 6 PM",
-    entryFee: "€23",
-    entryFeeCategory: "moderate",
-    priceRange: "$$$$",
-    priceCategory: "luxury",
-    timeOfDay: "evening",
-    rating: 4.9,
-    tags: ["Market", "Iconic"],
-    accessibilityFeatures: ["accessible restrooms"],
-    isHistorical: false,
-    isRomantic: false,
-    isAdventure: false,
-    isCulinary: true,
-    isSpiritual: true,
-    isNightlife: false,
-    isLuxury: true,
-    isArtOrMusic: false,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: false,
-    isWheelchairAccessible: false,
-  },
-  {
-    title: "Discover Top Attractions in San Juan",
-    description:
-      "A beautiful temple in San-juan offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/san-juan-temple.jpg",
-    location: "75 Main Street, San-juan",
-    openingHours: "Open 24 hours",
-    entryFee: "Free",
-    entryFeeCategory: "free",
-    priceRange: "free",
-    priceCategory: "free",
-    timeOfDay: "evening",
-    rating: 4.3,
-    tags: ["UNESCO Site", "Museum"],
-    accessibilityFeatures: ["wheelchair accessible"],
-    isHistorical: false,
-    isRomantic: true,
-    isAdventure: false,
-    isCulinary: false,
-    isSpiritual: false,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: true,
-    isPopular: true,
-    isPetFriendly: true,
-    isWheelchairAccessible: true,
-  },
-  {
-    title: "Discover Top Attractions in San Juan",
-    description:
-      "A beautiful monument in San-juan offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/san-juan-monument.jpg",
-    location: "81 Main Street, San-juan",
-    openingHours: "10 AM - 6 PM",
-    entryFee: "£34",
-    entryFeeCategory: "moderate",
-    priceRange: "$$$$",
-    priceCategory: "luxury",
-    timeOfDay: "evening",
-    rating: 4.4,
-    tags: ["Garden", "Landmark", "Religious Site"],
-    accessibilityFeatures: ["limited accessibility"],
-    isHistorical: true,
-    isRomantic: true,
-    isAdventure: false,
-    isCulinary: false,
-    isSpiritual: false,
-    isNightlife: false,
-    isLuxury: true,
-    isArtOrMusic: true,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: false,
-    isWheelchairAccessible: false,
-  },
-  {
-    title: "Discover Top Attractions in San Juan",
-    description:
-      "A beautiful cathedral in San-juan offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/san-juan-cathedral.jpg",
-    location: "36 Main Street, San-juan",
-    openingHours: "Open 24 hours",
-    entryFee: "£83",
-    entryFeeCategory: "expensive",
-    priceRange: "$$",
-    priceCategory: "moderate",
-    timeOfDay: "evening",
-    rating: 4.8,
-    tags: ["Religious Site", "Museum", "UNESCO Site"],
-    accessibilityFeatures: ["accessible entrance"],
-    isHistorical: false,
-    isRomantic: false,
-    isAdventure: false,
-    isCulinary: false,
-    isSpiritual: false,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: false,
-    isWheelchairAccessible: false,
-  },
-  {
-    title: "Discover Top Attractions in San Juan",
-    description:
-      "A beautiful cathedral in San-juan offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/san-juan-cathedral.jpg",
-    location: "94 Main Street, San-juan",
-    openingHours: "9 AM - 5 PM",
-    entryFee: "$67",
-    entryFeeCategory: "expensive",
-    priceRange: "$$$",
-    priceCategory: "expensive",
-    timeOfDay: "daytime",
-    rating: 4.9,
-    tags: ["Market", "Gallery"],
-    accessibilityFeatures: ["accessible restrooms"],
-    isHistorical: true,
-    isRomantic: false,
-    isAdventure: false,
-    isCulinary: false,
-    isSpiritual: true,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: false,
-    isWheelchairAccessible: false,
-  },
-  {
-    title: "Discover Top Attractions in San Juan",
-    description:
-      "A beautiful cathedral in San-juan offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/san-juan-cathedral.jpg",
-    location: "57 Main Street, San-juan",
-    openingHours: "9 AM - 5 PM",
-    entryFee: "€39",
-    entryFeeCategory: "moderate",
-    priceRange: "$$$$",
-    priceCategory: "luxury",
-    timeOfDay: "evening",
-    rating: 4.5,
-    tags: ["Museum", "Iconic", "Market"],
-    accessibilityFeatures: ["wheelchair accessible"],
-    isHistorical: false,
-    isRomantic: false,
-    isAdventure: false,
-    isCulinary: false,
-    isSpiritual: false,
-    isNightlife: false,
-    isLuxury: true,
-    isArtOrMusic: true,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: true,
-    isWheelchairAccessible: true,
-  },
-  {
-    title: "Discover Top Attractions in San Juan",
-    description:
-      "A beautiful castle in San-juan offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/san-juan-castle.jpg",
-    location: "29 Main Street, San-juan",
-    openingHours: "10 AM - 6 PM",
-    entryFee: "£15",
-    entryFeeCategory: "moderate",
-    priceRange: "$$$",
-    priceCategory: "expensive",
-    timeOfDay: "daytime",
-    rating: 4.6,
-    tags: ["Scenic Spot"],
-    accessibilityFeatures: ["elevator access"],
-    isHistorical: false,
-    isRomantic: false,
-    isAdventure: false,
-    isCulinary: false,
-    isSpiritual: true,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: true,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: false,
-    isWheelchairAccessible: false,
-  },
-  {
-    title: "Discover Top Attractions in San Juan",
-    description:
-      "A beautiful square in San-juan offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/san-juan-square.jpg",
-    location: "96 Main Street, San-juan",
-    openingHours: "10 AM - 6 PM",
-    entryFee: "£33",
-    entryFeeCategory: "moderate",
-    priceRange: "$",
-    priceCategory: "budget",
-    timeOfDay: "night",
-    rating: 4.8,
-    tags: ["Monument"],
-    accessibilityFeatures: ["wheelchair accessible"],
-    isHistorical: true,
-    isRomantic: true,
-    isAdventure: false,
-    isCulinary: true,
-    isSpiritual: false,
-    isNightlife: true,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: false,
-    isWheelchairAccessible: true,
-  },
-];
+export const sanJuancaribbeanAttractions: Attraction[] = [
+    {
+      title: "Old San Juan",
+      description: "Historic colonial district with cobblestone streets, colorful buildings, and 16th-century forts.",
+      imageUrl: "https://images.unsplash.com/photo-san-juan-old-san-juan",
+      location: "Old San Juan, San Juan, Puerto Rico",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+      ],
+      entryFee: undefined,
+      entryFeeCategory: "free",
+      priceRange: "free",
+      priceCategory: "free",
+      timeOfDay: "day or night",
+      rating: 4.8,
+      tags: [
+        "Historical",
+        "Free",
+        "Popular",
+      ],
+      accessibilityFeatures: [],
+      entryFees: [],
+      features: [
+        "historic district",
+        "colonial architecture",
+        "scenic views",
+      ],
+    },
+    {
+      title: "Castillo San Felipe del Morro",
+      description: "Massive 16th-century citadel offering stunning ocean views and insight into colonial-era military architecture.",
+      imageUrl: "https://images.unsplash.com/photo-san-juan-el-morro",
+      location: "501 Norzagaray St, San Juan",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "6:00 PM",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "6:00 PM",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "6:00 PM",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "6:00 PM",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "6:00 PM",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "6:00 PM",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "6:00 PM",
+            },
+          ],
+        },
+      ],
+      entryFee: "$10",
+      entryFeeCategory: "low",
+      priceRange: "$",
+      priceCategory: "low",
+      timeOfDay: "daytime",
+      rating: 4.7,
+      tags: [
+        "Historical",
+        "Popular",
+      ],
+      accessibilityFeatures: [],
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "$10",
+          priceCategory: "low",
+        },
+        {
+          category: "child",
+          priceRange: "$5",
+          priceCategory: "low",
+        },
+      ],
+      features: [
+        "fortress",
+        "historical site",
+        "ocean views",
+      ],
+    },
+    {
+      title: "Condado Beach",
+      description: "Popular beach near San Juan’s hotel district known for its golden sand and lively atmosphere.",
+      imageUrl: "https://images.unsplash.com/photo-san-juan-condado-beach",
+      location: "Condado, San Juan, Puerto Rico",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+      ],
+      entryFee: undefined,
+      entryFeeCategory: "free",
+      priceRange: "free",
+      priceCategory: "free",
+      timeOfDay: "daytime",
+      rating: 4.5,
+      tags: [
+        "Free",
+        "Popular",
+      ],
+      accessibilityFeatures: [],
+      entryFees: [],
+      features: [
+        "beach",
+        "sunbathing",
+        "swimming",
+        "water sports",
+      ],
+    },
+  ];

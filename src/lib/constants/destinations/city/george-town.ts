@@ -1,228 +1,281 @@
+// filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/george-town.ts
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const georgeTownAttractions: Attraction[] = [
-  {
-    title: "Discover Top Attractions in George Town",
-    description:
-      "A beautiful temple in George-town offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/george-town-temple.jpg",
-    location: "78 Main Street, George-town",
-    openingHours: "9 AM - 5 PM",
-    entryFee: "¥51",
-    entryFeeCategory: "expensive",
-    priceRange: "$$",
-    priceCategory: "moderate",
-    timeOfDay: "all day",
-    rating: 4.4,
-    tags: ["Religious Site"],
-    accessibilityFeatures: ["limited accessibility", "wheelchair accessible"],
-    isHistorical: false,
-    isRomantic: false,
-    isAdventure: true,
-    isCulinary: false,
-    isSpiritual: false,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: false,
-    isWheelchairAccessible: true,
-  },
-  {
-    title: "Discover Top Attractions in George Town",
-    description:
-      "A beautiful temple in George-town offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/george-town-temple.jpg",
-    location: "117 Main Street, George-town",
-    openingHours: "Open 24 hours",
-    entryFee: "Free",
-    entryFeeCategory: "free",
-    priceRange: "$$$",
-    priceCategory: "expensive",
-    timeOfDay: "night",
-    rating: 4.5,
-    tags: ["Historical Site"],
-    accessibilityFeatures: ["accessible entrance"],
-    isHistorical: false,
-    isRomantic: false,
-    isAdventure: true,
-    isCulinary: false,
-    isSpiritual: false,
-    isNightlife: true,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: false,
-    isWheelchairAccessible: false,
-  },
-  {
-    title: "Discover Top Attractions in George Town",
-    description:
-      "A beautiful cathedral in George-town offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/george-town-cathedral.jpg",
-    location: "186 Main Street, George-town",
-    openingHours: "10 AM - 6 PM",
-    entryFee: "Free",
-    entryFeeCategory: "free",
-    priceRange: "free",
-    priceCategory: "free",
-    timeOfDay: "all day",
-    rating: 4.8,
-    tags: ["Scenic Spot", "Monument"],
-    accessibilityFeatures: ["accessible entrance", "elevator access"],
-    isHistorical: true,
-    isRomantic: true,
-    isAdventure: false,
-    isCulinary: false,
-    isSpiritual: true,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: true,
-    isPopular: true,
-    isPetFriendly: false,
-    isWheelchairAccessible: false,
-  },
-  {
-    title: "Discover Top Attractions in George Town",
-    description:
-      "A beautiful monument in George-town offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/george-town-monument.jpg",
-    location: "95 Main Street, George-town",
-    openingHours: "10 AM - 6 PM",
-    entryFee: "¥65",
-    entryFeeCategory: "expensive",
-    priceRange: "$$$",
-    priceCategory: "expensive",
-    timeOfDay: "all day",
-    rating: 4.4,
-    tags: ["Park", "Hidden Gem"],
-    accessibilityFeatures: ["wheelchair accessible", "accessible entrance"],
-    isHistorical: false,
-    isRomantic: false,
-    isAdventure: false,
-    isCulinary: true,
-    isSpiritual: false,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: false,
-    isWheelchairAccessible: true,
-  },
-  {
-    title: "Discover Top Attractions in George Town",
-    description:
-      "A beautiful tower in George-town offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/george-town-tower.jpg",
-    location: "177 Main Street, George-town",
-    openingHours: "9 AM - 5 PM",
-    entryFee: "£45",
-    entryFeeCategory: "moderate",
-    priceRange: "$",
-    priceCategory: "budget",
-    timeOfDay: "daytime",
-    rating: 4.8,
-    tags: ["Landmark", "Monument", "UNESCO Site"],
-    accessibilityFeatures: ["limited accessibility"],
-    isHistorical: true,
-    isRomantic: false,
-    isAdventure: false,
-    isCulinary: false,
-    isSpiritual: false,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: true,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: true,
-    isWheelchairAccessible: false,
-  },
-  {
-    title: "Discover Top Attractions in George Town",
-    description:
-      "A beautiful temple in George-town offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/george-town-temple.jpg",
-    location: "93 Main Street, George-town",
-    openingHours: "9 AM - 5 PM",
-    entryFee: "£42",
-    entryFeeCategory: "moderate",
-    priceRange: "$$$",
-    priceCategory: "expensive",
-    timeOfDay: "evening",
-    rating: 4.6,
-    tags: ["Religious Site", "Hidden Gem", "Monument"],
-    accessibilityFeatures: ["wheelchair accessible"],
-    isHistorical: false,
-    isRomantic: false,
-    isAdventure: true,
-    isCulinary: false,
-    isSpiritual: false,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: true,
-    isWheelchairAccessible: true,
-  },
-  {
-    title: "Discover Top Attractions in George Town",
-    description:
-      "A beautiful museum in George-town offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/george-town-museum.jpg",
-    location: "37 Main Street, George-town",
-    openingHours: "10 AM - 6 PM",
-    entryFee: "€44",
-    entryFeeCategory: "moderate",
-    priceRange: "$",
-    priceCategory: "budget",
-    timeOfDay: "evening",
-    rating: 5,
-    tags: ["Garden", "Landmark"],
-    accessibilityFeatures: ["elevator access", "limited accessibility"],
-    isHistorical: true,
-    isRomantic: true,
-    isAdventure: false,
-    isCulinary: false,
-    isSpiritual: false,
-    isNightlife: true,
-    isLuxury: false,
-    isArtOrMusic: true,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: true,
-    isWheelchairAccessible: false,
-  },
-  {
-    title: "Discover Top Attractions in George Town",
-    description:
-      "A beautiful museum in George-town offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/george-town-museum.jpg",
-    location: "98 Main Street, George-town",
-    openingHours: "9 AM - 5 PM",
-    entryFee: "Free",
-    entryFeeCategory: "free",
-    priceRange: "free",
-    priceCategory: "free",
-    timeOfDay: "all day",
-    rating: 5,
-    tags: ["UNESCO Site", "Local Market", "Garden"],
-    accessibilityFeatures: ["wheelchair accessible"],
-    isHistorical: false,
-    isRomantic: false,
-    isAdventure: false,
-    isCulinary: true,
-    isSpiritual: false,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: true,
-    isPopular: true,
-    isPetFriendly: true,
-    isWheelchairAccessible: true,
-  },
-];
+export const georgeTowncaribbeanAttractions: Attraction[] = [
+    {
+      title: "Seven Mile Beach",
+      description: "A stunning stretch of white sandy beach and crystal-clear turquoise waters, ideal for swimming, snorkeling, and sunbathing.",
+      imageUrl: "https://images.unsplash.com/photo-george-town-seven-mile-beach",
+      location: "Seven Mile Beach, George Town, Grand Cayman",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+      ],
+      entryFee: undefined,
+      entryFeeCategory: "free",
+      priceRange: "free",
+      priceCategory: "free",
+      timeOfDay: "daytime",
+      rating: 4.7,
+      tags: [
+        "Free",
+        "Popular",
+      ],
+      accessibilityFeatures: [],
+      entryFees: [],
+      features: [
+        "beach",
+        "snorkeling",
+        "swimming",
+        "sunbathing",
+      ],
+    },
+    {
+      title: "Stingray City",
+      description: "Famous shallow sandbar where visitors can interact with friendly southern stingrays in their natural habitat.",
+      imageUrl: "https://images.unsplash.com/photo-george-town-stingray-city",
+      location: "North Sound, Grand Cayman",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "16:00",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "16:00",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "16:00",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "16:00",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "16:00",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "16:00",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "16:00",
+            },
+          ],
+        },
+      ],
+      entryFee: "$55-$80 (tour fee)",
+      entryFeeCategory: "moderate",
+      priceRange: "$$",
+      priceCategory: "moderate",
+      timeOfDay: "daytime",
+      rating: 4.9,
+      tags: [
+        "Adventure",
+        "Popular",
+      ],
+      accessibilityFeatures: [],
+      entryFees: [],
+      features: [
+        "snorkeling",
+        "wildlife interaction",
+        "tours",
+      ],
+    },
+    {
+      title: "Cayman Islands National Museum",
+      description: "Museum showcasing the cultural, historical, and natural heritage of the Cayman Islands.",
+      imageUrl: "https://images.unsplash.com/photo-george-town-museum",
+      location: "George Town, Grand Cayman",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "10:00",
+              to: "16:00",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "10:00",
+              to: "16:00",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "10:00",
+              to: "16:00",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "10:00",
+              to: "16:00",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "10:00",
+              to: "16:00",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "10:00",
+              to: "16:00",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "10:00",
+              to: "16:00",
+            },
+          ],
+        },
+      ],
+      entryFee: "$10",
+      entryFeeCategory: "low",
+      priceRange: "$",
+      priceCategory: "low",
+      timeOfDay: "daytime",
+      rating: 4.5,
+      tags: [
+        "Historical",
+        "Popular",
+      ],
+      accessibilityFeatures: [],
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "$10",
+          priceCategory: "low",
+        },
+        {
+          category: "child",
+          priceRange: "$5",
+          priceCategory: "low",
+        },
+      ],
+      features: [
+        "museum",
+        "cultural heritage",
+        "historical exhibits",
+      ],
+    },
+  ];

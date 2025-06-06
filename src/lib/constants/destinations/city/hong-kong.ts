@@ -1,116 +1,281 @@
+// filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/hong-kong.ts
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const hongKongAttractions: Attraction[] = [
-  {
-    title: "Discover Top Attractions in Hong Kong",
-    description:
-      "A beautiful park in Hong-kong offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/hong-kong-park.jpg",
-    location: "184 Main Street, Hong-kong",
-    openingHours: "9 AM - 5 PM",
-    entryFee: "Free",
-    entryFeeCategory: "free",
-    priceRange: "$$$",
-    priceCategory: "expensive",
-    timeOfDay: "evening",
-    rating: 4.4,
-    tags: ["Hidden Gem", "Landmark", "Historical Site"],
-    accessibilityFeatures: ["limited accessibility"],
-    isHistorical: true,
-    isRomantic: true,
-    isAdventure: false,
-    isCulinary: false,
-    isSpiritual: false,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: true,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: false,
-    isWheelchairAccessible: false,
-  },
-  {
-    title: "Discover Top Attractions in Hong Kong",
-    description:
-      "A beautiful cathedral in Hong-kong offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/hong-kong-cathedral.jpg",
-    location: "147 Main Street, Hong-kong",
-    openingHours: "Open 24 hours",
-    entryFee: "€71",
-    entryFeeCategory: "expensive",
-    priceRange: "$",
-    priceCategory: "budget",
-    timeOfDay: "evening",
-    rating: 4.9,
-    tags: ["Historical Site", "Monument", "Photography Spot"],
-    accessibilityFeatures: ["elevator access", "accessible entrance"],
-    isHistorical: false,
-    isRomantic: true,
-    isAdventure: false,
-    isCulinary: false,
-    isSpiritual: false,
-    isNightlife: true,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: true,
-    isWheelchairAccessible: false,
-  },
-  {
-    title: "Discover Top Attractions in Hong Kong",
-    description:
-      "A beautiful tower in Hong-kong offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/hong-kong-tower.jpg",
-    location: "16 Main Street, Hong-kong",
-    openingHours: "10 AM - 6 PM",
-    entryFee: "Free",
-    entryFeeCategory: "free",
-    priceRange: "free",
-    priceCategory: "free",
-    timeOfDay: "all day",
-    rating: 4.6,
-    tags: ["Garden"],
-    accessibilityFeatures: ["limited accessibility", "accessible restrooms"],
-    isHistorical: false,
-    isRomantic: false,
-    isAdventure: true,
-    isCulinary: true,
-    isSpiritual: false,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: true,
-    isPopular: true,
-    isPetFriendly: true,
-    isWheelchairAccessible: false,
-  },
-  {
-    title: "Discover Top Attractions in Hong Kong",
-    description:
-      "A beautiful garden in Hong-kong offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/hong-kong-garden.jpg",
-    location: "63 Main Street, Hong-kong",
-    openingHours: "9 AM - 5 PM",
-    entryFee: "Free",
-    entryFeeCategory: "free",
-    priceRange: "free",
-    priceCategory: "free",
-    timeOfDay: "all day",
-    rating: 4.2,
-    tags: ["Iconic"],
-    accessibilityFeatures: ["elevator access"],
-    isHistorical: true,
-    isRomantic: true,
-    isAdventure: false,
-    isCulinary: true,
-    isSpiritual: false,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: true,
-    isPopular: true,
-    isPetFriendly: false,
-    isWheelchairAccessible: false,
-  },
-];
+export const hongKongasiaPacificAttractions: Attraction[] = [
+    {
+      title: "Victoria Peak",
+      description: "Highest point on Hong Kong Island with observation decks and sweeping views of the city skyline and harbor.",
+      imageUrl: "https://images.unsplash.com/photo-hong-kong-victoria-peak",
+      location: "The Peak, Hong Kong",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "7:00 AM",
+              to: "12:00 AM",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "7:00 AM",
+              to: "12:00 AM",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "7:00 AM",
+              to: "12:00 AM",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "7:00 AM",
+              to: "12:00 AM",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "7:00 AM",
+              to: "12:00 AM",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "7:00 AM",
+              to: "12:00 AM",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "7:00 AM",
+              to: "12:00 AM",
+            },
+          ],
+        },
+      ],
+      entryFee: undefined,
+      entryFeeCategory: "free (tram extra)",
+      priceRange: "$$",
+      priceCategory: "moderate",
+      timeOfDay: "day or night",
+      rating: 4.8,
+      tags: [
+        "Adventure",
+        "Popular",
+      ],
+      accessibilityFeatures: [],
+      entryFees: [],
+      features: [
+        "peak",
+        "observation deck",
+        "city views",
+      ],
+    },
+    {
+      title: "Tsim Sha Tsui Promenade",
+      description: "Waterfront promenade offering stunning views of Hong Kong’s skyline, especially at night.",
+      imageUrl: "https://images.unsplash.com/photo-hong-kong-promenade",
+      location: "Tsim Sha Tsui, Kowloon, Hong Kong",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+      ],
+      entryFee: undefined,
+      entryFeeCategory: "free",
+      priceRange: "free",
+      priceCategory: "free",
+      timeOfDay: "evening",
+      rating: 4.6,
+      tags: [
+        "Romantic",
+        "Free",
+        "Popular",
+      ],
+      accessibilityFeatures: [],
+      entryFees: [],
+      features: [
+        "promenade",
+        "waterfront",
+        "city skyline views",
+      ],
+    },
+    {
+      title: "Hong Kong Disneyland",
+      description: "Family theme park with classic Disney rides, entertainment, and themed zones.",
+      imageUrl: "https://images.unsplash.com/photo-hong-kong-disneyland",
+      location: "Lantau Island, Hong Kong",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "10:30",
+              to: "20:00",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "10:30",
+              to: "20:00",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "10:30",
+              to: "20:00",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "10:30",
+              to: "20:00",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "10:30",
+              to: "20:00",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "10:30",
+              to: "20:00",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "10:30",
+              to: "20:00",
+            },
+          ],
+        },
+      ],
+      entryFee: "$82 USD",
+      entryFeeCategory: "expensive",
+      priceRange: "$$$",
+      priceCategory: "expensive",
+      timeOfDay: "daytime",
+      rating: 4.5,
+      tags: [
+        "Adventure",
+        "Popular",
+      ],
+      accessibilityFeatures: [],
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "$82 USD",
+          priceCategory: "expensive",
+        },
+        {
+          category: "child",
+          priceRange: "$41 USD",
+          priceCategory: "budget",
+        },
+      ],
+      features: [
+        "theme park",
+        "Disney rides",
+        "entertainment",
+      ],
+    },
+  ];

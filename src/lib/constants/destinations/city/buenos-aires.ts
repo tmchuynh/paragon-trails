@@ -1,88 +1,270 @@
+// filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/buenos-aires.ts
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const buenosAiresAttractions: Attraction[] = [
-  {
-    title: "Discover Top Attractions in Buenos Aires",
-    description:
-      "A beautiful temple in Buenos-aires offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/buenos-aires-temple.jpg",
-    location: "8 Main Street, Buenos-aires",
-    openingHours: "Open 24 hours",
-    entryFee: "Free",
-    entryFeeCategory: "free",
-    priceRange: "$",
-    priceCategory: "budget",
-    timeOfDay: "evening",
-    rating: 4.2,
-    tags: ["Iconic", "Hidden Gem", "Museum"],
-    accessibilityFeatures: ["limited accessibility", "elevator access"],
-    isHistorical: true,
-    isRomantic: false,
-    isAdventure: true,
-    isCulinary: false,
-    isSpiritual: false,
-    isNightlife: true,
-    isLuxury: false,
-    isArtOrMusic: true,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: true,
-    isWheelchairAccessible: false,
-  },
-  {
-    title: "Discover Top Attractions in Buenos Aires",
-    description:
-      "A beautiful tower in Buenos-aires offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/buenos-aires-tower.jpg",
-    location: "181 Main Street, Buenos-aires",
-    openingHours: "Open 24 hours",
-    entryFee: "Free",
-    entryFeeCategory: "free",
-    priceRange: "$$$$",
-    priceCategory: "luxury",
-    timeOfDay: "night",
-    rating: 4.5,
-    tags: ["Park", "Historical Site"],
-    accessibilityFeatures: ["accessible entrance"],
-    isHistorical: false,
-    isRomantic: true,
-    isAdventure: true,
-    isCulinary: false,
-    isSpiritual: false,
-    isNightlife: true,
-    isLuxury: true,
-    isArtOrMusic: false,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: false,
-    isWheelchairAccessible: false,
-  },
-  {
-    title: "Discover Top Attractions in Buenos Aires",
-    description:
-      "A beautiful zoo in Buenos-aires offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/buenos-aires-zoo.jpg",
-    location: "53 Main Street, Buenos-aires",
-    openingHours: "10 AM - 6 PM",
-    entryFee: "Free",
-    entryFeeCategory: "free",
-    priceRange: "$$",
-    priceCategory: "moderate",
-    timeOfDay: "all day",
-    rating: 4.5,
-    tags: ["Landmark"],
-    accessibilityFeatures: ["wheelchair accessible", "elevator access"],
-    isHistorical: false,
-    isRomantic: true,
-    isAdventure: false,
-    isCulinary: true,
-    isSpiritual: false,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: true,
-    isWheelchairAccessible: true,
-  },
-];
+export const buenosAiressouthAmericaAttractions: Attraction[] = [
+    {
+      title: "Plaza de Mayo",
+      description: "Historic square surrounded by important government buildings, known for political demonstrations and cultural significance.",
+      imageUrl: "https://images.unsplash.com/photo-buenos-aires-plaza-mayo",
+      location: "Av. Hipólito Yrigoyen, Buenos Aires",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+      ],
+      entryFee: undefined,
+      entryFeeCategory: "free",
+      priceRange: "free",
+      priceCategory: "free",
+      timeOfDay: "all day",
+      rating: 4.5,
+      tags: [
+        "Historical",
+        "Popular",
+      ],
+      accessibilityFeatures: [],
+      entryFees: [],
+      features: [
+        "historic square",
+        "government buildings",
+        "cultural events",
+      ],
+    },
+    {
+      title: "La Boca",
+      description: "Colorful neighborhood famous for its vibrant street art, tango performances, and the iconic Caminito street.",
+      imageUrl: "https://images.unsplash.com/photo-buenos-aires-la-boca",
+      location: "Caminito, Buenos Aires",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+      ],
+      entryFee: undefined,
+      entryFeeCategory: "free",
+      priceRange: "free",
+      priceCategory: "free",
+      timeOfDay: "daytime",
+      rating: 4.4,
+      tags: [
+        "Artormusic",
+        "Popular",
+      ],
+      accessibilityFeatures: [],
+      entryFees: [],
+      features: [
+        "neighborhood",
+        "street art",
+        "tango",
+        "Caminito street",
+      ],
+    },
+    {
+      title: "Recoleta Cemetery",
+      description: "Famous cemetery known for its elaborate mausoleums and as the resting place of Eva Perón.",
+      imageUrl: "https://images.unsplash.com/photo-buenos-aires-recoleta",
+      location: "Junín 1760, Buenos Aires",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "08:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "08:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "08:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "08:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "08:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "08:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "08:00",
+              to: "17:00",
+            },
+          ],
+        },
+      ],
+      entryFee: "$3",
+      entryFeeCategory: "low",
+      priceRange: "$",
+      priceCategory: "low",
+      timeOfDay: "daytime",
+      rating: 4.6,
+      tags: [
+        "Historical",
+        "Popular",
+      ],
+      accessibilityFeatures: [],
+      entryFees: [],
+      features: [
+        "cemetery",
+        "mausoleums",
+        "historical site",
+      ],
+    },
+  ];

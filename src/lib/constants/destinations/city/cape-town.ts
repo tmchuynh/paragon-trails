@@ -1,172 +1,269 @@
+// filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/cape-town.ts
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const capeTownAttractions: Attraction[] = [
-  {
-    title: "Discover Top Attractions in Cape Town",
-    description:
-      "A beautiful tower in Cape-town offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/cape-town-tower.jpg",
-    location: "185 Main Street, Cape-town",
-    openingHours: "10 AM - 6 PM",
-    entryFee: "£53",
-    entryFeeCategory: "expensive",
-    priceRange: "$$",
-    priceCategory: "moderate",
-    timeOfDay: "all day",
-    rating: 4.6,
-    tags: ["Landmark", "Gallery"],
-    accessibilityFeatures: ["elevator access", "wheelchair accessible"],
-    isHistorical: false,
-    isRomantic: false,
-    isAdventure: false,
-    isCulinary: false,
-    isSpiritual: true,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: false,
-    isWheelchairAccessible: true,
-  },
-  {
-    title: "Discover Top Attractions in Cape Town",
-    description:
-      "A beautiful museum in Cape-town offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/cape-town-museum.jpg",
-    location: "39 Main Street, Cape-town",
-    openingHours: "Open 24 hours",
-    entryFee: "Free",
-    entryFeeCategory: "free",
-    priceRange: "$$$",
-    priceCategory: "expensive",
-    timeOfDay: "all day",
-    rating: 4.4,
-    tags: ["Park", "Historical Site", "Gallery"],
-    accessibilityFeatures: ["accessible restrooms", "elevator access"],
-    isHistorical: false,
-    isRomantic: false,
-    isAdventure: false,
-    isCulinary: false,
-    isSpiritual: false,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: true,
-    isWheelchairAccessible: false,
-  },
-  {
-    title: "Discover Top Attractions in Cape Town",
-    description:
-      "A beautiful park in Cape-town offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/cape-town-park.jpg",
-    location: "144 Main Street, Cape-town",
-    openingHours: "9 AM - 5 PM",
-    entryFee: "Free",
-    entryFeeCategory: "free",
-    priceRange: "free",
-    priceCategory: "free",
-    timeOfDay: "evening",
-    rating: 4.6,
-    tags: ["Museum", "Cultural Center", "Local Market"],
-    accessibilityFeatures: ["wheelchair accessible"],
-    isHistorical: false,
-    isRomantic: false,
-    isAdventure: false,
-    isCulinary: true,
-    isSpiritual: false,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: true,
-    isFree: true,
-    isPopular: true,
-    isPetFriendly: true,
-    isWheelchairAccessible: true,
-  },
-  {
-    title: "Discover Top Attractions in Cape Town",
-    description:
-      "A beautiful castle in Cape-town offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/cape-town-castle.jpg",
-    location: "44 Main Street, Cape-town",
-    openingHours: "10 AM - 6 PM",
-    entryFee: "¥38",
-    entryFeeCategory: "moderate",
-    priceRange: "$$$",
-    priceCategory: "expensive",
-    timeOfDay: "all day",
-    rating: 4.4,
-    tags: ["UNESCO Site"],
-    accessibilityFeatures: ["elevator access"],
-    isHistorical: false,
-    isRomantic: false,
-    isAdventure: false,
-    isCulinary: false,
-    isSpiritual: true,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: true,
-    isWheelchairAccessible: false,
-  },
-  {
-    title: "Discover Top Attractions in Cape Town",
-    description:
-      "A beautiful bridge in Cape-town offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/cape-town-bridge.jpg",
-    location: "36 Main Street, Cape-town",
-    openingHours: "Open 24 hours",
-    entryFee: "$98",
-    entryFeeCategory: "expensive",
-    priceRange: "$$",
-    priceCategory: "moderate",
-    timeOfDay: "all day",
-    rating: 4.3,
-    tags: ["Park"],
-    accessibilityFeatures: ["limited accessibility"],
-    isHistorical: false,
-    isRomantic: false,
-    isAdventure: false,
-    isCulinary: false,
-    isSpiritual: false,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: true,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: false,
-    isWheelchairAccessible: false,
-  },
-  {
-    title: "Discover Top Attractions in Cape Town",
-    description:
-      "A beautiful market in Cape-town offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/cape-town-market.jpg",
-    location: "91 Main Street, Cape-town",
-    openingHours: "Open 24 hours",
-    entryFee: "Free",
-    entryFeeCategory: "free",
-    priceRange: "free",
-    priceCategory: "free",
-    timeOfDay: "daytime",
-    rating: 4.8,
-    tags: ["Park", "Religious Site", "Photography Spot"],
-    accessibilityFeatures: ["accessible entrance", "accessible restrooms"],
-    isHistorical: false,
-    isRomantic: false,
-    isAdventure: false,
-    isCulinary: false,
-    isSpiritual: false,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: true,
-    isPopular: true,
-    isPetFriendly: true,
-    isWheelchairAccessible: false,
-  },
-];
+export const capeTownafricaAttractions: Attraction[] = [
+    {
+      title: "Table Mountain",
+      description: "Iconic flat-topped mountain offering panoramic views of Cape Town.",
+      imageUrl: "https://images.unsplash.com/photo-cape-town-table-mountain",
+      location: "Table Mountain National Park, Cape Town",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "08:00",
+              to: "19:00",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "08:00",
+              to: "19:00",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "08:00",
+              to: "19:00",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "08:00",
+              to: "19:00",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "08:00",
+              to: "19:00",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "08:00",
+              to: "19:00",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "08:00",
+              to: "19:00",
+            },
+          ],
+        },
+      ],
+      entryFee: "ZAR 360",
+      entryFeeCategory: "moderate",
+      priceRange: "$$",
+      priceCategory: "moderate",
+      timeOfDay: "daytime",
+      rating: 4.8,
+      tags: [
+        "Adventure",
+        "Popular",
+      ],
+      accessibilityFeatures: [],
+      entryFees: [],
+      features: [
+        "mountain",
+        "hiking",
+        "scenic views",
+      ],
+    },
+    {
+      title: "Robben Island",
+      description: "Historic island prison where Nelson Mandela was incarcerated.",
+      imageUrl: "https://images.unsplash.com/photo-cape-town-robben-island",
+      location: "Robben Island Museum, Cape Town",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+      ],
+      entryFee: "ZAR 360",
+      entryFeeCategory: "moderate",
+      priceRange: "$$",
+      priceCategory: "moderate",
+      timeOfDay: "daytime",
+      rating: 4.7,
+      tags: [
+        "Historical",
+        "Popular",
+      ],
+      accessibilityFeatures: [],
+      entryFees: [],
+      features: [
+        "island",
+        "prison museum",
+        "historical site",
+      ],
+    },
+    {
+      title: "V&A Waterfront",
+      description: "A bustling harbor area featuring shops, restaurants, entertainment, and scenic views of Table Mountain.",
+      imageUrl: "https://images.unsplash.com/photo-cape-town-waterfront",
+      location: "Dock Road, Cape Town",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "10:00",
+              to: "21:00",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "10:00",
+              to: "21:00",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "10:00",
+              to: "21:00",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "10:00",
+              to: "21:00",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "10:00",
+              to: "21:00",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "10:00",
+              to: "21:00",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "10:00",
+              to: "21:00",
+            },
+          ],
+        },
+      ],
+      entryFee: undefined,
+      entryFeeCategory: "free",
+      priceRange: "varies",
+      priceCategory: "varies",
+      timeOfDay: "daytime",
+      rating: 4.7,
+      tags: [
+        "Popular",
+      ],
+      accessibilityFeatures: [],
+      entryFees: [],
+      features: [
+        "harbor",
+        "shopping",
+        "dining",
+        "entertainment",
+      ],
+    },
+  ];

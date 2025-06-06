@@ -1,200 +1,281 @@
+// filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/fort-lauderdale.ts
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const fortLauderdaleAttractions: Attraction[] = [
-  {
-    title: "Discover Top Attractions in Fort Lauderdale",
-    description:
-      "A beautiful market in Fort-lauderdale offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/fort-lauderdale-market.jpg",
-    location: "100 Main Street, Fort-lauderdale",
-    openingHours: "Open 24 hours",
-    entryFee: "$65",
-    entryFeeCategory: "expensive",
-    priceRange: "$",
-    priceCategory: "budget",
-    timeOfDay: "all day",
-    rating: 4.6,
-    tags: ["UNESCO Site"],
-    accessibilityFeatures: ["wheelchair accessible"],
-    isHistorical: false,
-    isRomantic: true,
-    isAdventure: false,
-    isCulinary: false,
-    isSpiritual: false,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: true,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: false,
-    isWheelchairAccessible: true,
-  },
-  {
-    title: "Discover Top Attractions in Fort Lauderdale",
-    description:
-      "A beautiful castle in Fort-lauderdale offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/fort-lauderdale-castle.jpg",
-    location: "45 Main Street, Fort-lauderdale",
-    openingHours: "10 AM - 6 PM",
-    entryFee: "Free",
-    entryFeeCategory: "free",
-    priceRange: "free",
-    priceCategory: "free",
-    timeOfDay: "all day",
-    rating: 4.8,
-    tags: ["Garden", "Iconic"],
-    accessibilityFeatures: ["accessible entrance", "wheelchair accessible"],
-    isHistorical: false,
-    isRomantic: true,
-    isAdventure: false,
-    isCulinary: false,
-    isSpiritual: false,
-    isNightlife: true,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: true,
-    isPopular: true,
-    isPetFriendly: true,
-    isWheelchairAccessible: true,
-  },
-  {
-    title: "Discover Top Attractions in Fort Lauderdale",
-    description:
-      "A beautiful castle in Fort-lauderdale offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/fort-lauderdale-castle.jpg",
-    location: "61 Main Street, Fort-lauderdale",
-    openingHours: "Open 24 hours",
-    entryFee: "Free",
-    entryFeeCategory: "free",
-    priceRange: "free",
-    priceCategory: "free",
-    timeOfDay: "night",
-    rating: 4.3,
-    tags: ["Scenic Spot"],
-    accessibilityFeatures: ["accessible restrooms", "limited accessibility"],
-    isHistorical: false,
-    isRomantic: false,
-    isAdventure: false,
-    isCulinary: false,
-    isSpiritual: false,
-    isNightlife: true,
-    isLuxury: false,
-    isArtOrMusic: true,
-    isFree: true,
-    isPopular: true,
-    isPetFriendly: false,
-    isWheelchairAccessible: false,
-  },
-  {
-    title: "Discover Top Attractions in Fort Lauderdale",
-    description:
-      "A beautiful tower in Fort-lauderdale offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/fort-lauderdale-tower.jpg",
-    location: "91 Main Street, Fort-lauderdale",
-    openingHours: "9 AM - 5 PM",
-    entryFee: "Free",
-    entryFeeCategory: "free",
-    priceRange: "$",
-    priceCategory: "budget",
-    timeOfDay: "evening",
-    rating: 4.3,
-    tags: ["Cultural Center"],
-    accessibilityFeatures: ["accessible entrance", "elevator access"],
-    isHistorical: true,
-    isRomantic: true,
-    isAdventure: true,
-    isCulinary: false,
-    isSpiritual: true,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: true,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: true,
-    isWheelchairAccessible: false,
-  },
-  {
-    title: "Discover Top Attractions in Fort Lauderdale",
-    description:
-      "A beautiful cathedral in Fort-lauderdale offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/fort-lauderdale-cathedral.jpg",
-    location: "152 Main Street, Fort-lauderdale",
-    openingHours: "10 AM - 6 PM",
-    entryFee: "Free",
-    entryFeeCategory: "free",
-    priceRange: "$",
-    priceCategory: "budget",
-    timeOfDay: "night",
-    rating: 4.5,
-    tags: ["Market", "Garden", "Park"],
-    accessibilityFeatures: ["accessible restrooms"],
-    isHistorical: true,
-    isRomantic: true,
-    isAdventure: false,
-    isCulinary: true,
-    isSpiritual: false,
-    isNightlife: true,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: false,
-    isWheelchairAccessible: false,
-  },
-  {
-    title: "Discover Top Attractions in Fort Lauderdale",
-    description:
-      "A beautiful bridge in Fort-lauderdale offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/fort-lauderdale-bridge.jpg",
-    location: "31 Main Street, Fort-lauderdale",
-    openingHours: "10 AM - 6 PM",
-    entryFee: "$74",
-    entryFeeCategory: "expensive",
-    priceRange: "$$$$",
-    priceCategory: "luxury",
-    timeOfDay: "daytime",
-    rating: 4.8,
-    tags: ["Local Market"],
-    accessibilityFeatures: ["accessible entrance", "wheelchair accessible"],
-    isHistorical: false,
-    isRomantic: false,
-    isAdventure: false,
-    isCulinary: false,
-    isSpiritual: false,
-    isNightlife: false,
-    isLuxury: true,
-    isArtOrMusic: false,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: true,
-    isWheelchairAccessible: true,
-  },
-  {
-    title: "Discover Top Attractions in Fort Lauderdale",
-    description:
-      "A beautiful palace in Fort-lauderdale offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/fort-lauderdale-palace.jpg",
-    location: "27 Main Street, Fort-lauderdale",
-    openingHours: "Open 24 hours",
-    entryFee: "Free",
-    entryFeeCategory: "free",
-    priceRange: "$",
-    priceCategory: "budget",
-    timeOfDay: "daytime",
-    rating: 4.4,
-    tags: ["Market", "UNESCO Site", "Gallery"],
-    accessibilityFeatures: ["elevator access"],
-    isHistorical: true,
-    isRomantic: true,
-    isAdventure: true,
-    isCulinary: false,
-    isSpiritual: false,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: true,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: true,
-    isWheelchairAccessible: false,
-  },
-];
+export const fortLauderdalecaribbeanAttractions: Attraction[] = [
+    {
+      title: "Fort Lauderdale Beach",
+      description: "Popular beach destination with a lively promenade, watersports, and beautiful sandy shores.",
+      imageUrl: "https://images.unsplash.com/photo-fort-lauderdale-beach",
+      location: "Fort Lauderdale, FL",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+      ],
+      entryFee: undefined,
+      entryFeeCategory: "free",
+      priceRange: "free",
+      priceCategory: "free",
+      timeOfDay: "daytime",
+      rating: 4.6,
+      tags: [
+        "Free",
+        "Popular",
+      ],
+      accessibilityFeatures: [],
+      entryFees: [],
+      features: [
+        "beach",
+        "watersports",
+        "promenade",
+        "sunbathing",
+      ],
+    },
+    {
+      title: "Las Olas Boulevard",
+      description: "Vibrant street filled with shops, restaurants, galleries, and nightlife, known as Fort Lauderdale’s cultural hub.",
+      imageUrl: "https://images.unsplash.com/photo-fort-lauderdale-las-olas",
+      location: "Las Olas Blvd, Fort Lauderdale, FL",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+      ],
+      entryFee: undefined,
+      entryFeeCategory: "free",
+      priceRange: "varies",
+      priceCategory: "varies",
+      timeOfDay: "daytime and evening",
+      rating: 4.4,
+      tags: [
+        "Popular",
+      ],
+      accessibilityFeatures: [],
+      entryFees: [],
+      features: [
+        "shopping",
+        "dining",
+        "art galleries",
+        "nightlife",
+      ],
+    },
+    {
+      title: "Bonnet House Museum & Gardens",
+      description: "Historic estate with art collections, beautiful gardens, and wildlife sanctuary.",
+      imageUrl: "https://images.unsplash.com/photo-fort-lauderdale-bonnet-house",
+      location: "900 N Birch Rd, Fort Lauderdale, FL",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "16:00",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "16:00",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "16:00",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "16:00",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "16:00",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "16:00",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "16:00",
+            },
+          ],
+        },
+      ],
+      entryFee: "$20",
+      entryFeeCategory: "moderate",
+      priceRange: "$$",
+      priceCategory: "moderate",
+      timeOfDay: "daytime",
+      rating: 4.7,
+      tags: [
+        "Historical",
+        "Popular",
+      ],
+      accessibilityFeatures: [],
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "$20",
+          priceCategory: "moderate",
+        },
+        {
+          category: "child",
+          priceRange: "$10",
+          priceCategory: "budget",
+        },
+      ],
+      features: [
+        "historic estate",
+        "art collections",
+        "gardens",
+      ],
+    },
+  ];

@@ -1,228 +1,271 @@
+// filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/glacier-bay.ts
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const glacierBayAttractions: Attraction[] = [
-  {
-    title: "Discover Top Attractions in Glacier Bay",
-    description:
-      "A beautiful market in Glacier-bay offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/glacier-bay-market.jpg",
-    location: "16 Main Street, Glacier-bay",
-    openingHours: "9 AM - 5 PM",
-    entryFee: "$98",
-    entryFeeCategory: "expensive",
-    priceRange: "$$",
-    priceCategory: "moderate",
-    timeOfDay: "daytime",
-    rating: 4.3,
-    tags: ["Religious Site"],
-    accessibilityFeatures: ["limited accessibility", "accessible restrooms"],
-    isHistorical: false,
-    isRomantic: false,
-    isAdventure: false,
-    isCulinary: true,
-    isSpiritual: false,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: true,
-    isWheelchairAccessible: false,
-  },
-  {
-    title: "Discover Top Attractions in Glacier Bay",
-    description:
-      "A beautiful monument in Glacier-bay offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/glacier-bay-monument.jpg",
-    location: "46 Main Street, Glacier-bay",
-    openingHours: "Open 24 hours",
-    entryFee: "Free",
-    entryFeeCategory: "free",
-    priceRange: "free",
-    priceCategory: "free",
-    timeOfDay: "night",
-    rating: 4.9,
-    tags: ["Park", "Religious Site"],
-    accessibilityFeatures: ["wheelchair accessible"],
-    isHistorical: true,
-    isRomantic: false,
-    isAdventure: false,
-    isCulinary: false,
-    isSpiritual: false,
-    isNightlife: true,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: true,
-    isPopular: true,
-    isPetFriendly: false,
-    isWheelchairAccessible: true,
-  },
-  {
-    title: "Discover Top Attractions in Glacier Bay",
-    description:
-      "A beautiful square in Glacier-bay offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/glacier-bay-square.jpg",
-    location: "126 Main Street, Glacier-bay",
-    openingHours: "9 AM - 5 PM",
-    entryFee: "$29",
-    entryFeeCategory: "moderate",
-    priceRange: "$",
-    priceCategory: "budget",
-    timeOfDay: "all day",
-    rating: 4.7,
-    tags: ["Cultural Center", "Museum"],
-    accessibilityFeatures: ["elevator access", "accessible restrooms"],
-    isHistorical: false,
-    isRomantic: false,
-    isAdventure: false,
-    isCulinary: false,
-    isSpiritual: true,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: false,
-    isWheelchairAccessible: false,
-  },
-  {
-    title: "Discover Top Attractions in Glacier Bay",
-    description:
-      "A beautiful zoo in Glacier-bay offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/glacier-bay-zoo.jpg",
-    location: "79 Main Street, Glacier-bay",
-    openingHours: "9 AM - 5 PM",
-    entryFee: "€43",
-    entryFeeCategory: "moderate",
-    priceRange: "$",
-    priceCategory: "budget",
-    timeOfDay: "evening",
-    rating: 4.5,
-    tags: ["Monument"],
-    accessibilityFeatures: ["accessible entrance"],
-    isHistorical: true,
-    isRomantic: false,
-    isAdventure: true,
-    isCulinary: true,
-    isSpiritual: true,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: true,
-    isWheelchairAccessible: false,
-  },
-  {
-    title: "Discover Top Attractions in Glacier Bay",
-    description:
-      "A beautiful museum in Glacier-bay offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/glacier-bay-museum.jpg",
-    location: "76 Main Street, Glacier-bay",
-    openingHours: "9 AM - 5 PM",
-    entryFee: "Free",
-    entryFeeCategory: "free",
-    priceRange: "free",
-    priceCategory: "free",
-    timeOfDay: "evening",
-    rating: 4.3,
-    tags: ["Museum", "UNESCO Site"],
-    accessibilityFeatures: ["limited accessibility", "accessible entrance"],
-    isHistorical: true,
-    isRomantic: true,
-    isAdventure: false,
-    isCulinary: false,
-    isSpiritual: false,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: true,
-    isFree: true,
-    isPopular: true,
-    isPetFriendly: true,
-    isWheelchairAccessible: false,
-  },
-  {
-    title: "Discover Top Attractions in Glacier Bay",
-    description:
-      "A beautiful park in Glacier-bay offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/glacier-bay-park.jpg",
-    location: "176 Main Street, Glacier-bay",
-    openingHours: "9 AM - 5 PM",
-    entryFee: "Free",
-    entryFeeCategory: "free",
-    priceRange: "free",
-    priceCategory: "free",
-    timeOfDay: "evening",
-    rating: 4.9,
-    tags: ["Gallery"],
-    accessibilityFeatures: ["wheelchair accessible"],
-    isHistorical: false,
-    isRomantic: false,
-    isAdventure: true,
-    isCulinary: true,
-    isSpiritual: false,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: true,
-    isPopular: true,
-    isPetFriendly: true,
-    isWheelchairAccessible: true,
-  },
-  {
-    title: "Discover Top Attractions in Glacier Bay",
-    description:
-      "A beautiful museum in Glacier-bay offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/glacier-bay-museum.jpg",
-    location: "176 Main Street, Glacier-bay",
-    openingHours: "Open 24 hours",
-    entryFee: "€42",
-    entryFeeCategory: "moderate",
-    priceRange: "$",
-    priceCategory: "budget",
-    timeOfDay: "night",
-    rating: 4.5,
-    tags: ["Museum"],
-    accessibilityFeatures: ["wheelchair accessible"],
-    isHistorical: false,
-    isRomantic: false,
-    isAdventure: false,
-    isCulinary: false,
-    isSpiritual: false,
-    isNightlife: true,
-    isLuxury: false,
-    isArtOrMusic: true,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: false,
-    isWheelchairAccessible: true,
-  },
-  {
-    title: "Discover Top Attractions in Glacier Bay",
-    description:
-      "A beautiful castle in Glacier-bay offering visitors a unique cultural experience and stunning views.",
-    imageUrl: "https://images.unsplash.com/glacier-bay-castle.jpg",
-    location: "62 Main Street, Glacier-bay",
-    openingHours: "9 AM - 5 PM",
-    entryFee: "¥52",
-    entryFeeCategory: "expensive",
-    priceRange: "$",
-    priceCategory: "budget",
-    timeOfDay: "evening",
-    rating: 4.6,
-    tags: ["Cultural Center", "Iconic"],
-    accessibilityFeatures: ["elevator access"],
-    isHistorical: true,
-    isRomantic: false,
-    isAdventure: false,
-    isCulinary: false,
-    isSpiritual: false,
-    isNightlife: false,
-    isLuxury: false,
-    isArtOrMusic: false,
-    isFree: false,
-    isPopular: true,
-    isPetFriendly: false,
-    isWheelchairAccessible: false,
-  },
-];
+export const glacierBayalaskaAttractions: Attraction[] = [
+    {
+      title: "Glacier Bay National Park",
+      description: "Expansive national park in Alaska known for tidewater glaciers, wildlife, and stunning fjords.",
+      imageUrl: "https://images.unsplash.com/photo-glacier-bay-national-park",
+      location: "Glacier Bay, AK",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "00:00",
+              to: "23:59",
+            },
+          ],
+        },
+      ],
+      entryFee: undefined,
+      entryFeeCategory: "free",
+      priceRange: "free",
+      priceCategory: "free",
+      timeOfDay: "daytime",
+      rating: 4.9,
+      tags: [
+        "Adventure",
+        "Free",
+        "Popular",
+      ],
+      accessibilityFeatures: [],
+      entryFees: [],
+      features: [
+        "national park",
+        "glaciers",
+        "wildlife",
+        "fjords",
+      ],
+    },
+    {
+      title: "Johns Hopkins Glacier",
+      description: "Remote tidewater glacier within Glacier Bay, admired for its striking blue ice and calving displays.",
+      imageUrl: "https://images.unsplash.com/photo-glacier-bay-hopkins",
+      location: "Glacier Bay National Park, AK",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+      ],
+      entryFee: undefined,
+      entryFeeCategory: "free",
+      priceRange: "varies by cruise",
+      priceCategory: "moderate",
+      timeOfDay: "daytime",
+      rating: 4.8,
+      tags: [
+        "Adventure",
+        "Popular",
+      ],
+      accessibilityFeatures: [],
+      entryFees: [],
+      features: [
+        "glacier",
+        "blue ice",
+        "calving displays",
+      ],
+    },
+    {
+      title: "Muir Glacier",
+      description: "Formerly massive glacier in Glacier Bay, now significantly retreated but still a scenic landmark for eco-tours.",
+      imageUrl: "https://images.unsplash.com/photo-glacier-bay-muir",
+      location: "Glacier Bay National Park, AK",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "09:00",
+              to: "17:00",
+            },
+          ],
+        },
+      ],
+      entryFee: undefined,
+      entryFeeCategory: "free",
+      priceRange: "varies by cruise",
+      priceCategory: "moderate",
+      timeOfDay: "daytime",
+      rating: 4.7,
+      tags: [
+        "Historical",
+        "Popular",
+      ],
+      accessibilityFeatures: [],
+      entryFees: [],
+      features: [
+        "glacier",
+        "eco-tours",
+        "scenic landmark",
+      ],
+    },
+  ];
