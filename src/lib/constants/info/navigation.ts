@@ -28,12 +28,16 @@ export const navbarItems = [
     label: "Explore Destinations",
     dropdown: [
       {
-        label: "Tours & Experiences",
+        label: "Cities We Serve",
         href: "/experiences-through-destinations",
       },
       {
-        label: "Our Dedicated Team of Experts",
-        href: "/experiences-through-destinations/our-dedicated-team-of-experts",
+        label: "Tours & Experiences",
+        href: "/experiences-through-destinations/tours",
+      },
+      {
+        label: "Our Dedicated Tour Guides Across the Globe",
+        href: "/experiences-through-destinations/our-dedicated-team-of-experts/tour-guides",
       },
     ],
   },
