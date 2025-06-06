@@ -975,3 +975,1798 @@ export const hoChiMinhCity = {
     },
   ],
 };
+export const dubrovnik = {
+  id: "dubrovnik",
+  city: "Dubrovnik",
+  country: "Croatia",
+  quote: "A walled city kissed by sun and sea.",
+  subtitle: "Where history and the Adriatic embrace",
+  isPopular: true,
+  coordinates: { lat: 42.6507, lng: 18.0944 },
+  imageUrl: "https://images.unsplash.com/photo-1582392511813-d15f81831659",
+  rating: 4.7,
+  description:
+    "Dubrovnik is a medieval marvel perched above sapphire waters. Known for its iconic walls and orange rooftops, it's a UNESCO World Heritage Site that blends coastal relaxation with cultural grandeur.",
+  population: 42000,
+  timeZone: "Europe/Zagreb",
+  isEcoCertified: true,
+  currency: "EUR",
+  priceCategory: "moderate",
+  languagesSpoken: ["Croatian", "English", "Italian"],
+  tags: ["coastal", "historic", "UNESCO", "walled-city", "mediterranean"],
+  climate: "Mediterranean",
+  localDialingCode: "+385",
+  topAttractions: [
+    "city-walls",
+    "stradun",
+    "old-town",
+    "lokrum-island",
+    "cable-car",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: true,
+    yachtRentalAvailable: true,
+    airportTransfers: true,
+    localTransitPasses: true,
+  },
+  testimonials: [
+    {
+      author: "Martina K.",
+      content: "Walking the walls at sunset was magical. Incomparable views!",
+      city: "Dubrovnik",
+      rating: 4.8,
+      date: "2024-05-07",
+    },
+    {
+      author: "Richard B.",
+      content:
+        "The perfect mix of history and beauty. Worth every step climbed.",
+      city: "Dubrovnik",
+      rating: 4.7,
+      date: "2024-04-22",
+    },
+  ],
+};
+
+export const hongKong = {
+  id: "hong-kong",
+  city: "Hong Kong",
+  country: "China",
+  quote:
+    "Where East meets West in a vertical playground of lights and flavors.",
+  subtitle: "Asia's world city of contrasts",
+  isPopular: true,
+  coordinates: { lat: 22.3193, lng: 114.1694 },
+  imageUrl: "https://images.unsplash.com/photo-1506970845246-18f21d533b20",
+  rating: 4.8,
+  description:
+    "Hong Kong dazzles with its iconic skyline, floating between mountains and sea. This dynamic metropolis offers world-class shopping, dining, and cultural experiences while preserving traditional temples, markets, and cuisine in its vibrant neighborhoods.",
+  population: 7500000,
+  timeZone: "Asia/Hong_Kong",
+  isEcoCertified: false,
+  currency: "HKD",
+  priceCategory: "luxury",
+  languagesSpoken: ["Cantonese", "English", "Mandarin"],
+  tags: ["urban", "skyline", "shopping", "culinary", "harbor"],
+  climate: "Humid subtropical",
+  localDialingCode: "+852",
+  topAttractions: [
+    "victoria-peak",
+    "victoria-harbour",
+    "hong-kong-disneyland",
+    "temple-street-night-market",
+    "ngong-ping-360",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: false,
+    yachtRentalAvailable: true,
+    airportTransfers: true,
+    localTransitPasses: true,
+  },
+  testimonials: [
+    {
+      author: "Jennifer H.",
+      content:
+        "The efficiency of Hong Kong is matched only by its incredible food scene. Best dim sum of my life!",
+      city: "Hong Kong",
+      rating: 4.9,
+      date: "2024-03-15",
+    },
+    {
+      author: "David L.",
+      content:
+        "Victoria Peak at night is unforgettable. Hong Kong has the world's most impressive skyline.",
+      city: "Hong Kong",
+      rating: 4.8,
+      date: "2024-02-28",
+    },
+  ],
+};
+
+export const juneau = {
+  id: "juneau",
+  city: "Juneau",
+  state: "Alaska",
+  country: "United States",
+  quote:
+    "Where wilderness and civilization converge in America's most unique capital.",
+  subtitle: "Alaska's mountainside capital city",
+  isPopular: true,
+  coordinates: { lat: 58.3019, lng: -134.4197 },
+  imageUrl: "https://images.unsplash.com/photo-1531256379416-9f000e90aacc",
+  rating: 4.7,
+  description:
+    "Juneau, Alaska's capital, is accessible only by air or sea, nestled between towering mountains and the Gastineau Channel. This remote city offers incredible glacier viewing, whale watching, and outdoor adventures against a backdrop of pristine wilderness.",
+  population: 32255,
+  timeZone: "America/Juneau",
+  isEcoCertified: true,
+  currency: "USD",
+  priceCategory: "moderate",
+  languagesSpoken: ["English"],
+  tags: ["wilderness", "glaciers", "wildlife", "scenic", "cruise-port"],
+  climate: "Subarctic oceanic",
+  localDialingCode: "+1",
+  topAttractions: [
+    "mendenhall-glacier",
+    "mount-roberts-tramway",
+    "tracy-arm-fjord",
+    "glacier-gardens",
+    "alaska-state-museum",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: false,
+    yachtRentalAvailable: true,
+    airportTransfers: true,
+    localTransitPasses: true,
+  },
+  testimonials: [
+    {
+      author: "Sarah M.",
+      content:
+        "Seeing a glacier up close at Mendenhall was life-changing. Juneau's natural beauty is unmatched.",
+      city: "Juneau",
+      rating: 4.8,
+      date: "2024-06-05",
+    },
+    {
+      author: "Robert K.",
+      content:
+        "We saw humpback whales, bald eagles, and black bears all in one day. An incredible wildlife experience.",
+      city: "Juneau",
+      rating: 4.9,
+      date: "2024-05-22",
+    },
+  ],
+};
+
+export const ketchikan = {
+  id: "ketchikan",
+  city: "Ketchikan",
+  state: "Alaska",
+  country: "United States",
+  quote: "Alaska's first city and salmon capital of the world.",
+  subtitle: "Gateway to Alaska's wilderness",
+  isPopular: true,
+  coordinates: { lat: 55.3422, lng: -131.6476 },
+  imageUrl: "https://images.unsplash.com/photo-1531256283789-d707a9008f5b",
+  rating: 4.6,
+  description:
+    "Ketchikan clings to the shores of the Tongass Narrows, surrounded by the world's largest temperate rainforest. Known for its rich Native heritage, totem poles, and thriving salmon fishing industry, this colorful port town offers authentic Alaskan experiences.",
+  population: 8208,
+  timeZone: "America/Sitka",
+  isEcoCertified: true,
+  currency: "USD",
+  priceCategory: "moderate",
+  languagesSpoken: ["English"],
+  tags: [
+    "fishing",
+    "totem-poles",
+    "native-culture",
+    "rainforest",
+    "cruise-port",
+  ],
+  climate: "Oceanic",
+  localDialingCode: "+1",
+  topAttractions: [
+    "creek-street",
+    "misty-fjords",
+    "totem-heritage-center",
+    "saxman-native-village",
+    "great-alaskan-lumberjack-show",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: false,
+    yachtRentalAvailable: true,
+    airportTransfers: true,
+    localTransitPasses: false,
+  },
+  testimonials: [
+    {
+      author: "Melissa J.",
+      content:
+        "The floatplane tour of Misty Fjords was breathtaking. Ketchikan's natural beauty is spectacular.",
+      city: "Ketchikan",
+      rating: 4.7,
+      date: "2024-05-30",
+    },
+    {
+      author: "Thomas G.",
+      content:
+        "Learning about Tlingit culture and seeing authentic totem poles was a highlight of our Alaska trip.",
+      city: "Ketchikan",
+      rating: 4.6,
+      date: "2024-04-15",
+    },
+  ],
+};
+
+export const kiel = {
+  id: "kiel",
+  city: "Kiel",
+  country: "Germany",
+  quote: "Where Baltic breezes carry the spirit of maritime tradition.",
+  subtitle: "Germany's sailing capital",
+  isPopular: false,
+  coordinates: { lat: 54.3233, lng: 10.1228 },
+  imageUrl: "https://images.unsplash.com/photo-1564510182766-5e70c82219b6",
+  rating: 4.3,
+  description:
+    "Kiel sits at the southwestern shore of the Baltic Sea and is one of Germany's major maritime centers. Home to the world's largest sailing event, Kiel Week, this port city offers a blend of naval history, modern waterfront architecture, and authentic Northern German culture.",
+  population: 246794,
+  timeZone: "Europe/Berlin",
+  isEcoCertified: true,
+  currency: "EUR",
+  priceCategory: "moderate",
+  languagesSpoken: ["German", "English"],
+  tags: ["maritime", "sailing", "naval", "baltic", "cruise-port"],
+  climate: "Oceanic",
+  localDialingCode: "+49",
+  topAttractions: [
+    "kiel-fjord",
+    "kiel-canal",
+    "marine-science-museum",
+    "laboe-naval-memorial",
+    "schleswig-holstein-maritime-museum",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: true,
+    yachtRentalAvailable: true,
+    airportTransfers: true,
+    localTransitPasses: true,
+  },
+  testimonials: [
+    {
+      author: "Hans F.",
+      content:
+        "Visiting during Kiel Week was incredible—hundreds of sailboats and maritime celebrations everywhere!",
+      city: "Kiel",
+      rating: 4.5,
+      date: "2024-06-28",
+    },
+    {
+      author: "Laura S.",
+      content:
+        "A relaxing waterfront city with excellent seafood and interesting naval history.",
+      city: "Kiel",
+      rating: 4.2,
+      date: "2024-03-10",
+    },
+  ],
+};
+
+export const kyoto = {
+  id: "kyoto",
+  city: "Kyoto",
+  country: "Japan",
+  quote: "A living museum of Japanese tradition and spiritual serenity.",
+  subtitle: "Japan's ancient imperial capital",
+  isPopular: true,
+  coordinates: { lat: 35.0116, lng: 135.7681 },
+  imageUrl: "https://images.unsplash.com/photo-1528360983277-13d401cdc186",
+  rating: 4.9,
+  description:
+    "Kyoto served as Japan's capital for over a millennium, preserving an unparalleled collection of temples, shrines, and gardens. This cultural treasury offers serene bamboo groves, geisha traditions, and seasonal beauty from cherry blossoms to autumn maples, providing an authentic glimpse into traditional Japanese aesthetics.",
+  population: 1464000,
+  timeZone: "Asia/Tokyo",
+  isEcoCertified: true,
+  currency: "JPY",
+  priceCategory: "moderate",
+  languagesSpoken: ["Japanese", "English"],
+  tags: ["temples", "traditional", "cultural", "historic", "zen"],
+  climate: "Humid subtropical",
+  localDialingCode: "+81",
+  topAttractions: [
+    "fushimi-inari-shrine",
+    "kinkaku-ji",
+    "arashiyama-bamboo-grove",
+    "kiyomizu-dera",
+    "gion-district",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: false,
+    yachtRentalAvailable: false,
+    airportTransfers: true,
+    localTransitPasses: true,
+  },
+  testimonials: [
+    {
+      author: "Yumi T.",
+      content:
+        "Walking through Fushimi Inari at dawn was magical. Kyoto preserves Japan's soul like nowhere else.",
+      city: "Kyoto",
+      rating: 5.0,
+      date: "2024-04-08",
+    },
+    {
+      author: "Michael R.",
+      content:
+        "Seeing a real maiko in Gion and visiting ancient temples gave me a profound appreciation for Japanese culture.",
+      city: "Kyoto",
+      rating: 4.9,
+      date: "2024-03-25",
+    },
+  ],
+};
+export const lima = {
+  id: "lima",
+  city: "Lima",
+  country: "Peru",
+  quote: "Where ancient civilizations meet culinary wonders and Pacific views.",
+  subtitle: "City of Kings and coastal treasures",
+  isPopular: false,
+  coordinates: { lat: -12.0464, lng: -77.0428 },
+  imageUrl: "https://images.unsplash.com/photo-1531968455001-5c6920951bd7",
+  rating: 4.5,
+  description:
+    "Lima is Peru's sprawling capital blending colonial architecture with modern urban energy. Known as the gastronomic capital of South America, it offers world-class cuisine, fascinating museums, ancient ruins, and vibrant coastal districts that overlook the magnificent Pacific Ocean.",
+  population: 10720000,
+  timeZone: "America/Lima",
+  isEcoCertified: false,
+  currency: "PEN",
+  priceCategory: "budget",
+  languagesSpoken: ["Spanish", "Quechua", "English"],
+  tags: ["culinary", "historic", "coastal", "museums", "pre-columbian"],
+  climate: "Desert",
+  localDialingCode: "+51",
+  topAttractions: [
+    "plaza-de-armas",
+    "larco-museum",
+    "huaca-pucllana",
+    "miraflores-district",
+    "barranco-district",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: true,
+    yachtRentalAvailable: false,
+    airportTransfers: true,
+    localTransitPasses: true,
+  },
+  testimonials: [
+    {
+      author: "Gabriel M.",
+      content:
+        "The food scene in Lima is incredible—from street food to Michelin-starred restaurants, it's a culinary paradise!",
+      city: "Lima",
+      rating: 4.7,
+      date: "2024-05-11",
+    },
+    {
+      author: "Rebecca J.",
+      content:
+        "Exploring the pre-Incan ruins right in the middle of the city was fascinating. So much history here!",
+      city: "Lima",
+      rating: 4.4,
+      date: "2024-03-18",
+    },
+  ],
+};
+
+export const lisbon = {
+  id: "lisbon",
+  city: "Lisbon",
+  country: "Portugal",
+  quote:
+    "A city of seven hills and countless treasures, where trams wind through history.",
+  subtitle: "Europe's sun-drenched coastal capital",
+  isPopular: true,
+  coordinates: { lat: 38.7223, lng: -9.1393 },
+  imageUrl: "https://images.unsplash.com/photo-1585208798174-6cedd86e019a",
+  rating: 4.7,
+  description:
+    "Lisbon captivates with its hillside location, vintage trams, and pastel-colored buildings. This vibrant city blends historic charm with modern energy, offering old-world neighborhoods, fado music, incredible seafood, and scenic viewpoints overlooking the Tagus River.",
+  population: 545000,
+  timeZone: "Europe/Lisbon",
+  isEcoCertified: true,
+  currency: "EUR",
+  priceCategory: "moderate",
+  languagesSpoken: ["Portuguese", "English", "Spanish"],
+  tags: ["historic", "coastal", "culinary", "viewpoints", "cultural"],
+  climate: "Mediterranean",
+  localDialingCode: "+351",
+  topAttractions: [
+    "belem-tower",
+    "alfama-district",
+    "jeronimos-monastery",
+    "time-out-market",
+    "sao-jorge-castle",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: true,
+    yachtRentalAvailable: true,
+    airportTransfers: true,
+    localTransitPasses: true,
+  },
+  testimonials: [
+    {
+      author: "Sophia L.",
+      content:
+        "Riding tram 28 through Lisbon's steep streets was magical. The viewpoints over the city are simply breathtaking.",
+      city: "Lisbon",
+      rating: 4.9,
+      date: "2024-06-05",
+    },
+    {
+      author: "Marco V.",
+      content:
+        "The pastéis de nata alone are worth the trip. Lisbon has the perfect blend of culture, food, and atmosphere.",
+      city: "Lisbon",
+      rating: 4.8,
+      date: "2024-04-23",
+    },
+  ],
+};
+
+export const london = {
+  id: "london",
+  city: "London",
+  country: "United Kingdom",
+  quote: "When a man is tired of London, he is tired of life. — Samuel Johnson",
+  subtitle: "Where history and innovation collide",
+  isPopular: true,
+  coordinates: { lat: 51.5074, lng: -0.1278 },
+  imageUrl: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad",
+  rating: 4.8,
+  description:
+    "London is a global metropolis where centuries of history coexist with cutting-edge innovation. From iconic landmarks like Big Ben and Buckingham Palace to world-class museums, diverse neighborhoods, theatrical masterpieces, and culinary adventures, the city offers endless discoveries around every corner.",
+  population: 9002488,
+  timeZone: "Europe/London",
+  isEcoCertified: true,
+  currency: "GBP",
+  priceCategory: "luxury",
+  languagesSpoken: ["English", "Polish", "Bengali", "Gujarati", "French"],
+  tags: ["historic", "cultural", "museums", "royal", "modern"],
+  climate: "Temperate oceanic",
+  localDialingCode: "+44",
+  topAttractions: [
+    "british-museum",
+    "tower-of-london",
+    "buckingham-palace",
+    "tate-modern",
+    "natural-history-museum",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: true,
+    yachtRentalAvailable: true,
+    airportTransfers: true,
+    localTransitPasses: true,
+  },
+  testimonials: [
+    {
+      author: "James W.",
+      content:
+        "The depth of history in London is unmatched. Even after multiple visits, I keep discovering amazing new places.",
+      city: "London",
+      rating: 5.0,
+      date: "2024-05-18",
+    },
+    {
+      author: "Priya M.",
+      content:
+        "World-class museums that are free to enter, beautiful parks, and incredible diversity. London has it all!",
+      city: "London",
+      rating: 4.9,
+      date: "2024-04-02",
+    },
+  ],
+};
+
+export const losAngeles = {
+  id: "los-angeles",
+  city: "Los Angeles",
+  state: "California",
+  country: "United States",
+  quote: "Where dreams are made and sunshine is eternal.",
+  subtitle: "City of Angels and cinematic fantasy",
+  isPopular: true,
+  coordinates: { lat: 34.0522, lng: -118.2437 },
+  imageUrl: "https://images.unsplash.com/photo-1580655653885-65763b2597d0",
+  rating: 4.6,
+  description:
+    "Los Angeles sprawls across Southern California's sun-soaked landscape, offering glamour and laid-back beach culture in equal measure. From the stars of Hollywood and celebrity homes to world-class museums, diverse neighborhoods, and iconic beaches, LA blends creativity, culture, and natural beauty.",
+  population: 3898747,
+  timeZone: "America/Los_Angeles",
+  isEcoCertified: false,
+  currency: "USD",
+  priceCategory: "luxury",
+  languagesSpoken: ["English", "Spanish", "Chinese", "Korean", "Tagalog"],
+  tags: ["entertainment", "beaches", "cultural", "urban", "celebrity"],
+  climate: "Mediterranean",
+  localDialingCode: "+1",
+  topAttractions: [
+    "hollywood-sign",
+    "universal-studios",
+    "griffith-observatory",
+    "santa-monica-pier",
+    "getty-center",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: true,
+    yachtRentalAvailable: true,
+    airportTransfers: true,
+    localTransitPasses: true,
+  },
+  testimonials: [
+    {
+      author: "Olivia P.",
+      content:
+        "The diversity of experiences in LA is incredible—beaches in the morning, museums in the afternoon, and world-class dining at night.",
+      city: "Los Angeles",
+      rating: 4.7,
+      date: "2024-06-12",
+    },
+    {
+      author: "Tyler K.",
+      content:
+        "Hiking in the hills with views of the Hollywood sign was surreal. The city's energy is unlike anywhere else!",
+      city: "Los Angeles",
+      rating: 4.5,
+      date: "2024-03-28",
+    },
+  ],
+};
+
+export const malta = {
+  id: "malta",
+  city: "Malta", // Malta is a country, but often treated as a destination unit
+  country: "Malta",
+  quote:
+    "A jewel of history and Mediterranean splendor floating in azure waters.",
+  subtitle: "Fortress island of knights and azure waters",
+  isPopular: false,
+  coordinates: { lat: 35.9375, lng: 14.3754 },
+  imageUrl: "https://images.unsplash.com/photo-1583426573939-97d09302d76a",
+  rating: 4.7,
+  description:
+    "Malta is a compact archipelago packed with over 7,000 years of history, golden limestone cities, and crystal-clear Mediterranean waters. Its strategic position has left it with an extraordinary heritage of different civilizations, from Phoenicians and Romans to the Knights of St. John, creating a living museum with spectacular architecture and vibrant cultural traditions.",
+  population: 516100,
+  timeZone: "Europe/Malta",
+  isEcoCertified: true,
+  currency: "EUR",
+  priceCategory: "moderate",
+  languagesSpoken: ["Maltese", "English"],
+  tags: ["historic", "mediterranean", "coastal", "UNESCO", "architectural"],
+  climate: "Mediterranean",
+  localDialingCode: "+356",
+  topAttractions: [
+    "valletta",
+    "blue-lagoon-comino",
+    "mdina",
+    "hypogeum",
+    "blue-grotto",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: true,
+    yachtRentalAvailable: true,
+    airportTransfers: true,
+    localTransitPasses: true,
+  },
+  testimonials: [
+    {
+      author: "Andrea F.",
+      content:
+        "Malta feels like stepping into a time machine. The historic cities are perfectly preserved yet full of modern life.",
+      city: "Malta",
+      rating: 4.8,
+      date: "2024-05-20",
+    },
+    {
+      author: "Robert J.",
+      content:
+        "The Blue Lagoon has the clearest water I've ever seen. Perfect for swimming and snorkeling!",
+      city: "Malta",
+      rating: 4.6,
+      date: "2024-06-08",
+    },
+  ],
+};
+
+export const melbourne = {
+  id: "melbourne",
+  city: "Melbourne",
+  state: "Victoria",
+  country: "Australia",
+  quote:
+    "A cosmopolitan wonderland where culture, coffee, and creativity thrive.",
+  subtitle: "Australia's cultural and coffee capital",
+  isPopular: true,
+  coordinates: { lat: -37.8136, lng: 144.9631 },
+  imageUrl: "https://images.unsplash.com/photo-1514395462725-fb4566210426",
+  rating: 4.8,
+  description:
+    "Melbourne captivates with its vibrant arts scene, world-class dining, and distinctive neighborhoods. From hidden laneways filled with street art and cafés to expansive gardens, Victorian architecture, and sports venues, this multicultural metropolis offers both sophisticated urban experiences and easy access to natural wonders.",
+  population: 5159211,
+  timeZone: "Australia/Melbourne",
+  isEcoCertified: true,
+  currency: "AUD",
+  priceCategory: "moderate",
+  languagesSpoken: ["English", "Mandarin", "Vietnamese", "Arabic", "Cantonese"],
+  tags: ["cultural", "coffee", "art", "foodie", "sport"],
+  climate: "Oceanic",
+  localDialingCode: "+61",
+  topAttractions: [
+    "federation-square",
+    "royal-botanic-gardens",
+    "national-gallery-of-victoria",
+    "queen-victoria-market",
+    "great-ocean-road",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: true,
+    yachtRentalAvailable: true,
+    airportTransfers: true,
+    localTransitPasses: true,
+  },
+  testimonials: [
+    {
+      author: "Nathan P.",
+      content:
+        "The coffee culture is incredible—I've never had better espresso than in Melbourne's laneways.",
+      city: "Melbourne",
+      rating: 4.9,
+      date: "2024-04-10",
+    },
+    {
+      author: "Samantha H.",
+      content:
+        "From street art to world-class museums, Melbourne is an art lover's paradise. The atmosphere is unbeatable.",
+      city: "Melbourne",
+      rating: 4.7,
+      date: "2024-05-22",
+    },
+  ],
+};
+export const miami = {
+  id: "miami",
+  city: "Miami",
+  state: "Florida",
+  country: "United States",
+  quote:
+    "Where tropical vibes meet urban energy on America's sultry southern shore.",
+  subtitle: "Magic City of sunshine and culture",
+  isPopular: true,
+  coordinates: { lat: 25.7617, lng: -80.1918 },
+  imageUrl: "https://images.unsplash.com/photo-1535498730771-e735b998cd64",
+  rating: 4.7,
+  description:
+    "Miami dazzles with its vibrant fusion of cultures, art deco architecture, and pristine beaches. This cosmopolitan playground offers world-class nightlife, cutting-edge art scenes, and cuisine that reflects its multicultural heritage, all set against a backdrop of swaying palms and turquoise waters.",
+  population: 442241,
+  timeZone: "America/New_York",
+  isEcoCertified: false,
+  currency: "USD",
+  priceCategory: "luxury",
+  languagesSpoken: ["English", "Spanish", "Haitian Creole", "Portuguese"],
+  tags: ["beach", "nightlife", "art-deco", "culinary", "tropical"],
+  climate: "Tropical monsoon",
+  localDialingCode: "+1",
+  topAttractions: [
+    "south-beach",
+    "wynwood-walls",
+    "art-deco-historic-district",
+    "vizcaya-museum-and-gardens",
+    "bayside-marketplace",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: true,
+    yachtRentalAvailable: true,
+    airportTransfers: true,
+    localTransitPasses: true,
+  },
+  testimonials: [
+    {
+      author: "Diego M.",
+      content:
+        "The energy of Miami Beach is incredible—beautiful people, amazing food, and perfect weather!",
+      city: "Miami",
+      rating: 4.8,
+      date: "2024-05-10",
+    },
+    {
+      author: "Isabella R.",
+      content:
+        "Wynwood's street art scene blew me away. So many incredible murals and trendy cafés everywhere.",
+      city: "Miami",
+      rating: 4.7,
+      date: "2024-04-18",
+    },
+  ],
+};
+
+export const milan = {
+  id: "milan",
+  city: "Milan",
+  country: "Italy",
+  quote: "Where fashion and finance dance with history and innovation.",
+  subtitle: "Italy's sophisticated design capital",
+  isPopular: true,
+  coordinates: { lat: 45.4642, lng: 9.19 },
+  imageUrl: "https://images.unsplash.com/photo-1512236077335-f1cda9239c11",
+  rating: 4.6,
+  description:
+    "Milan embodies Italian sophistication through its blend of cutting-edge design, high fashion, and historic grandeur. Home to Leonardo da Vinci's 'Last Supper,' the magnificent Duomo cathedral, and world-class shopping districts, this cosmopolitan business hub offers a more urbane alternative to Italy's ancient destinations.",
+  population: 1396059,
+  timeZone: "Europe/Rome",
+  isEcoCertified: true,
+  currency: "EUR",
+  priceCategory: "luxury",
+  languagesSpoken: ["Italian", "English"],
+  tags: ["fashion", "design", "architecture", "shopping", "culinary"],
+  climate: "Humid subtropical",
+  localDialingCode: "+39",
+  topAttractions: [
+    "duomo-di-milano",
+    "galleria-vittorio-emanuele-ii",
+    "last-supper-leonardo-da-vinci",
+    "sforza-castle",
+    "quadrilatero-della-moda",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: true,
+    yachtRentalAvailable: false,
+    airportTransfers: true,
+    localTransitPasses: true,
+  },
+  testimonials: [
+    {
+      author: "Francesca B.",
+      content:
+        "Shopping in Milan was my ultimate fashion experience. The Quadrilatero della Moda is pure magic!",
+      city: "Milan",
+      rating: 4.9,
+      date: "2024-03-27",
+    },
+    {
+      author: "Henry T.",
+      content:
+        "The Duomo's rooftop visit was breathtaking. Milan's blend of history and modernity is fascinating.",
+      city: "Milan",
+      rating: 4.7,
+      date: "2024-06-09",
+    },
+  ],
+};
+
+export const montreal = {
+  id: "montreal",
+  city: "Montreal",
+  state: "Quebec",
+  country: "Canada",
+  quote:
+    "North America's European soul, where French charm meets cosmopolitan flair.",
+  subtitle: "A bilingual blend of cultures",
+  isPopular: true,
+  coordinates: { lat: 45.5017, lng: -73.5673 },
+  imageUrl: "https://images.unsplash.com/photo-1519178614-68673b201f36",
+  rating: 4.7,
+  description:
+    "Montreal captivates with its fusion of European charm and North American energy. This bilingual metropolis offers cobblestone streets in Old Montreal, a thriving arts scene, incredible gastronomy, and world-famous festivals, all delivered with distinctive Québécois flair that feels a world away from the rest of Canada.",
+  population: 1780000,
+  timeZone: "America/Montreal",
+  isEcoCertified: true,
+  currency: "CAD",
+  priceCategory: "moderate",
+  languagesSpoken: ["French", "English"],
+  tags: ["cultural", "historic", "gastronomy", "festivals", "bilingual"],
+  climate: "Humid continental",
+  localDialingCode: "+1",
+  topAttractions: [
+    "old-montreal",
+    "mount-royal-park",
+    "notre-dame-basilica",
+    "montreal-botanical-garden",
+    "jean-talon-market",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: true,
+    yachtRentalAvailable: true,
+    airportTransfers: true,
+    localTransitPasses: true,
+  },
+  testimonials: [
+    {
+      author: "Marie C.",
+      content:
+        "The blend of French and English cultures makes Montreal so unique. The food scene is incredible too!",
+      city: "Montreal",
+      rating: 4.8,
+      date: "2024-06-20",
+    },
+    {
+      author: "Scott D.",
+      content:
+        "Notre-Dame Basilica's light show was mesmerizing. Old Montreal feels like being in Europe.",
+      city: "Montreal",
+      rating: 4.7,
+      date: "2024-02-15",
+    },
+  ],
+};
+
+export const montevideo = {
+  id: "montevideo",
+  city: "Montevideo",
+  country: "Uruguay",
+  quote: "South America's understated gem of tranquility and culture.",
+  subtitle: "Uruguay's relaxed coastal capital",
+  isPopular: false,
+  coordinates: { lat: -34.9011, lng: -56.1915 },
+  imageUrl: "https://images.unsplash.com/photo-1608096274079-ab9506e4f6a4",
+  rating: 4.5,
+  description:
+    "Montevideo charms visitors with its laid-back atmosphere, beautiful waterfront promenade (rambla), and well-preserved colonial architecture. Uruguay's capital offers a safer, more relaxed South American experience, featuring gorgeous beaches, vibrant cultural scenes, and some of the continent's best beef and wine, all without the tourist crowds of larger cities.",
+  population: 1381000,
+  timeZone: "America/Montevideo",
+  isEcoCertified: true,
+  currency: "UYU",
+  priceCategory: "moderate",
+  languagesSpoken: ["Spanish"],
+  tags: ["coastal", "cultural", "relaxed", "historic", "culinary"],
+  climate: "Humid subtropical",
+  localDialingCode: "+598",
+  topAttractions: [
+    "ciudad-vieja",
+    "rambla",
+    "plaza-independencia",
+    "mercado-del-puerto",
+    "palacio-salvo",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: true,
+    yachtRentalAvailable: false,
+    airportTransfers: true,
+    localTransitPasses: true,
+  },
+  testimonials: [
+    {
+      author: "Alejandro P.",
+      content:
+        "Walking along the rambla at sunset with locals drinking mate was my favorite experience. So authentic!",
+      city: "Montevideo",
+      rating: 4.6,
+      date: "2024-03-05",
+    },
+    {
+      author: "Gabriela S.",
+      content:
+        "Ciudad Vieja's architecture and Mercado del Puerto's parrillas made Montevideo unforgettable.",
+      city: "Montevideo",
+      rating: 4.5,
+      date: "2024-01-28",
+    },
+  ],
+};
+
+export const mykonos = {
+  id: "mykonos",
+  city: "Mykonos",
+  country: "Greece",
+  quote:
+    "A white-washed paradise where Aegean blue meets cosmopolitan glamour.",
+  subtitle: "Greece's stylish island playground",
+  isPopular: true,
+  coordinates: { lat: 37.4416, lng: 25.3672 },
+  imageUrl: "https://images.unsplash.com/photo-1533105079780-92b9be482077",
+  rating: 4.8,
+  description:
+    "Mykonos dazzles with its iconic white-washed architecture, azure waters, and vibrant nightlife. This glamorous Cycladic island blends traditional Greek charm with sophisticated beachfront establishments, attracting celebrities, partygoers, and travelers seeking both relaxation and excitement amid its picturesque windmills and labyrinthine streets.",
+  population: 10134,
+  timeZone: "Europe/Athens",
+  isEcoCertified: false,
+  currency: "EUR",
+  priceCategory: "luxury",
+  languagesSpoken: ["Greek", "English"],
+  tags: ["beaches", "nightlife", "luxury", "cycladic", "scenic"],
+  climate: "Mediterranean",
+  localDialingCode: "+30",
+  topAttractions: [
+    "little-venice",
+    "mykonos-windmills",
+    "paradise-beach",
+    "panagia-paraportiani",
+    "delos-archaeological-site",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: true,
+    yachtRentalAvailable: true,
+    airportTransfers: true,
+    localTransitPasses: false,
+  },
+  testimonials: [
+    {
+      author: "Victoria K.",
+      content:
+        "The beach clubs and sunsets in Mykonos are unmatched. Definitely lives up to its reputation!",
+      city: "Mykonos",
+      rating: 4.9,
+      date: "2024-07-02",
+    },
+    {
+      author: "Alexander M.",
+      content:
+        "White buildings against blue skies and crystal waters—the perfect Greek island experience.",
+      city: "Mykonos",
+      rating: 4.7,
+      date: "2024-06-18",
+    },
+  ],
+};
+
+export const nassau = {
+  id: "nassau",
+  city: "Nassau",
+  country: "Bahamas",
+  quote: "Where pirate history meets paradise in turquoise Bahamian waters.",
+  subtitle: "The Bahamas' vibrant capital",
+  isPopular: true,
+  coordinates: { lat: 25.0443, lng: -77.3504 },
+  imageUrl: "https://images.unsplash.com/photo-1547585631-caa131d64ba8",
+  rating: 4.6,
+  description:
+    "Nassau blends British colonial heritage with vibrant Bahamian culture on New Providence Island. From the pastel-colored buildings of Parliament Square to the bustling Straw Market, this port city offers lively local culture alongside pristine beaches, with the offshore paradise of Paradise Island just a bridge away.",
+  population: 274400,
+  timeZone: "America/Nassau",
+  isEcoCertified: false,
+  currency: "BSD",
+  priceCategory: "moderate",
+  languagesSpoken: ["English", "Bahamian Creole"],
+  tags: ["beach", "cruise-port", "colonial", "island", "water-activities"],
+  climate: "Tropical savanna",
+  localDialingCode: "+1-242",
+  topAttractions: [
+    "paradise-island",
+    "atlantis-resort",
+    "blue-lagoon-island",
+    "pirates-of-nassau-museum",
+    "queens-staircase",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: true,
+    yachtRentalAvailable: true,
+    airportTransfers: true,
+    localTransitPasses: false,
+  },
+  testimonials: [
+    {
+      author: "Jasmine W.",
+      content:
+        "Swimming with dolphins at Blue Lagoon Island was magical! The water color is unbelievable.",
+      city: "Nassau",
+      rating: 4.7,
+      date: "2024-04-30",
+    },
+    {
+      author: "Brandon T.",
+      content:
+        "The colonial architecture downtown and the friendly locals made our experience so special.",
+      city: "Nassau",
+      rating: 4.5,
+      date: "2024-03-17",
+    },
+  ],
+};
+
+export const newOrleans = {
+  id: "new-orleans",
+  city: "New Orleans",
+  state: "Louisiana",
+  country: "United States",
+  quote: "The Big Easy, where the soul of America dances to its own rhythm.",
+  subtitle: "A gumbo of music, food, and history",
+  isPopular: true,
+  coordinates: { lat: 29.9511, lng: -90.0715 },
+  imageUrl: "https://images.unsplash.com/photo-1569949780878-1bd20d619e1a",
+  rating: 4.7,
+  description:
+    "New Orleans captivates with its intoxicating blend of Creole and Cajun cultures, jazz heritage, and architectural marvels. From the historic French Quarter to the lively Frenchmen Street, this resilient city offers unparalleled cuisine, vibrant festivities, and a carefree spirit that makes it unlike anywhere else in America.",
+  population: 383997,
+  timeZone: "America/Chicago",
+  isEcoCertified: false,
+  currency: "USD",
+  priceCategory: "moderate",
+  languagesSpoken: ["English", "Louisiana Creole", "French"],
+  tags: ["jazz", "culinary", "historic", "cultural", "festive"],
+  climate: "Humid subtropical",
+  localDialingCode: "+1",
+  topAttractions: [
+    "french-quarter",
+    "bourbon-street",
+    "garden-district",
+    "frenchmen-street",
+    "jackson-square",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: true,
+    yachtRentalAvailable: true,
+    airportTransfers: true,
+    localTransitPasses: true,
+  },
+  testimonials: [
+    {
+      author: "Michael J.",
+      content:
+        "The food, music, and architecture make NOLA magical. Hearing jazz on Frenchmen St. was unforgettable.",
+      city: "New Orleans",
+      rating: 4.9,
+      date: "2024-05-12",
+    },
+    {
+      author: "Tanya B.",
+      content:
+        "The Garden District's historic homes and the vibrant French Quarter—such different worlds in one city!",
+      city: "New Orleans",
+      rating: 4.8,
+      date: "2024-02-05",
+    },
+  ],
+};
+
+export const newYorkCity = {
+  id: "new-york-city",
+  city: "New York City",
+  state: "New York",
+  country: "United States",
+  quote:
+    "The city that never sleeps—where every street tells a story and dreams are made.",
+  subtitle: "America's cultural and financial epicenter",
+  isPopular: true,
+  coordinates: { lat: 40.7128, lng: -74.006 },
+  imageUrl: "https://images.unsplash.com/photo-1518391846015-55a9cc003b25",
+  rating: 4.8,
+  description:
+    "New York City pulses with unparalleled energy across its five distinct boroughs. From world-class museums and Broadway shows to iconic skyscrapers and diverse neighborhoods, the Big Apple offers endless discovery. Its legendary food scene, spanning from street vendors to Michelin-starred restaurants, reflects the global cultures that make this metropolis a true world capital.",
+  population: 8804190,
+  timeZone: "America/New_York",
+  isEcoCertified: true,
+  currency: "USD",
+  priceCategory: "luxury",
+  languagesSpoken: [
+    "English",
+    "Spanish",
+    "Chinese",
+    "Russian",
+    "Italian",
+    "Yiddish",
+  ],
+  tags: ["urban", "iconic", "cultural", "skyline", "diverse"],
+  climate: "Humid continental",
+  localDialingCode: "+1",
+  topAttractions: [
+    "central-park",
+    "empire-state-building",
+    "times-square",
+    "metropolitan-museum-of-art",
+    "statue-of-liberty",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: true,
+    yachtRentalAvailable: true,
+    airportTransfers: true,
+    localTransitPasses: true,
+  },
+  testimonials: [
+    {
+      author: "Olivia K.",
+      content:
+        "Walking across the Brooklyn Bridge at sunset with that skyline view—pure magic!",
+      city: "New York City",
+      rating: 5.0,
+      date: "2024-05-18",
+    },
+    {
+      author: "Raj P.",
+      content:
+        "The diversity is incredible—had authentic foods from five continents all within a few blocks.",
+      city: "New York City",
+      rating: 4.9,
+      date: "2024-04-10",
+    },
+  ],
+};
+
+export const oslo = {
+  id: "oslo",
+  city: "Oslo",
+  country: "Norway",
+  quote: "Where fjord meets forest at the edge of Viking legends.",
+  subtitle: "Norway's contemporary cultural capital",
+  isPopular: false,
+  coordinates: { lat: 59.9139, lng: 10.7522 },
+  imageUrl: "https://images.unsplash.com/photo-1560798504-b08baada456a",
+  rating: 4.6,
+  description:
+    "Oslo harmoniously blends cutting-edge architecture with pristine natural surroundings. This compact, eco-conscious capital offers world-class museums, including the striking Opera House and Munch Museum, alongside vast green spaces and fjord-side beaches—all accessible via efficient public transit, making it a model for sustainable urban living.",
+  population: 702543,
+  timeZone: "Europe/Oslo",
+  isEcoCertified: true,
+  currency: "NOK",
+  priceCategory: "luxury",
+  languagesSpoken: ["Norwegian", "English"],
+  tags: ["fjord", "modern", "eco-friendly", "museums", "outdoor"],
+  climate: "Humid continental",
+  localDialingCode: "+47",
+  topAttractions: [
+    "oslo-opera-house",
+    "vigeland-sculpture-park",
+    "viking-ship-museum",
+    "aker-brygge",
+    "holmenkollen-ski-jump",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: true,
+    yachtRentalAvailable: true,
+    airportTransfers: true,
+    localTransitPasses: true,
+  },
+  testimonials: [
+    {
+      author: "Henrik L.",
+      content:
+        "The combination of modern architecture, museums, and nature access makes Oslo uniquely special.",
+      city: "Oslo",
+      rating: 4.7,
+      date: "2024-06-12",
+    },
+    {
+      author: "Sophie B.",
+      content:
+        "Taking the ferry to the islands in the Oslo Fjord was a highlight. So clean and beautiful everywhere.",
+      city: "Oslo",
+      rating: 4.5,
+      date: "2024-05-30",
+    },
+  ],
+};
+
+export const paris = {
+  id: "paris",
+  city: "Paris",
+  country: "France",
+  quote: "Paris is always a good idea. — Audrey Hepburn",
+  subtitle: "City of Light, city of love",
+  isPopular: true,
+  coordinates: { lat: 48.8566, lng: 2.3522 },
+  imageUrl: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34",
+  rating: 4.9,
+  description:
+    "Paris bewitches with its timeless elegance, artistic richness, and romantic ambiance. From iconic landmarks like the Eiffel Tower and Notre-Dame to world-class museums housing masterpieces, the city offers unparalleled cultural depth. Beyond the grand boulevards lie charming neighborhoods where café culture thrives and the art of living well is perfected.",
+  population: 2161000,
+  timeZone: "Europe/Paris",
+  isEcoCertified: true,
+  currency: "EUR",
+  priceCategory: "luxury",
+  languagesSpoken: ["French", "English"],
+  tags: ["romantic", "historic", "art", "gastronomy", "fashion"],
+  climate: "Oceanic",
+  localDialingCode: "+33",
+  topAttractions: [
+    "eiffel-tower",
+    "louvre-museum",
+    "notre-dame-cathedral",
+    "sacre-coeur",
+    "champs-elysees",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: true,
+    yachtRentalAvailable: true,
+    airportTransfers: true,
+    localTransitPasses: true,
+  },
+  testimonials: [
+    {
+      author: "Claire D.",
+      content:
+        "Watching the Eiffel Tower sparkle at night while sipping wine along the Seine—pure Parisian magic.",
+      city: "Paris",
+      rating: 5.0,
+      date: "2024-04-23",
+    },
+    {
+      author: "Marcus H.",
+      content:
+        "The art, the architecture, the food—Paris truly delivers on all its promises and then some.",
+      city: "Paris",
+      rating: 4.9,
+      date: "2024-03-11",
+    },
+  ],
+};
+export const philipsburg = {
+  id: "philipsburg",
+  city: "Philipsburg",
+  country: "Sint Maarten",
+  quote:
+    "Where Dutch charm meets Caribbean paradise on an island of two nations.",
+  subtitle: "The Caribbean's cosmopolitan shopping haven",
+  isPopular: false,
+  coordinates: { lat: 18.0255, lng: -63.0457 },
+  imageUrl: "https://images.unsplash.com/photo-1612149328936-82e00c957816",
+  rating: 4.5,
+  description:
+    "Philipsburg is the charming capital of Sint Maarten, the Dutch side of an island shared with French Saint Martin. Known for its duty-free shopping on Front Street, colorful colonial architecture, and picturesque Great Bay Beach, this cruise port offers vibrant Caribbean culture with European influences, water sports, and lively beach bars.",
+  population: 1327,
+  timeZone: "America/Lower_Princes",
+  isEcoCertified: false,
+  currency: "ANG",
+  priceCategory: "moderate",
+  languagesSpoken: ["Dutch", "English", "Spanish", "French"],
+  tags: ["cruise-port", "beach", "shopping", "duty-free", "island"],
+  climate: "Tropical savanna",
+  localDialingCode: "+1-721",
+  topAttractions: [
+    "front-street",
+    "great-bay-beach",
+    "fort-amsterdam",
+    "courthouse",
+    "guavaberry-emporium",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: true,
+    yachtRentalAvailable: true,
+    airportTransfers: true,
+    localTransitPasses: false,
+  },
+  testimonials: [
+    {
+      author: "Danielle F.",
+      content:
+        "The shopping on Front Street was amazing! So many duty-free bargains and unique local souvenirs.",
+      city: "Philipsburg",
+      rating: 4.6,
+      date: "2024-04-12",
+    },
+    {
+      author: "Mark L.",
+      content:
+        "Great Bay Beach is the perfect combination of beautiful water and beach bars with shopping just steps away.",
+      city: "Philipsburg",
+      rating: 4.5,
+      date: "2024-03-08",
+    },
+  ],
+};
+
+export const quebecCity = {
+  id: "quebec-city",
+  city: "Quebec City",
+  state: "Quebec",
+  country: "Canada",
+  quote:
+    "A slice of Europe in North America, where cobblestone whispers centuries of stories.",
+  subtitle: "North America's fortified colonial gem",
+  isPopular: true,
+  coordinates: { lat: 46.8139, lng: -71.208 },
+  imageUrl: "https://images.unsplash.com/photo-1518173946419-3c5c8a3218ce",
+  rating: 4.8,
+  description:
+    "Quebec City captivates with its UNESCO-protected Old Town, cobblestone streets, and distinctive European charm. Founded in 1608, this walled city perched above the St. Lawrence River offers a journey through French-Canadian history with its magnificent Château Frontenac, vibrant seasonal festivals, and a culinary scene celebrating Quebecois traditions.",
+  population: 542298,
+  timeZone: "America/Montreal",
+  isEcoCertified: true,
+  currency: "CAD",
+  priceCategory: "moderate",
+  languagesSpoken: ["French", "English"],
+  tags: ["historic", "colonial", "UNESCO", "fortified", "french-heritage"],
+  climate: "Humid continental",
+  localDialingCode: "+1",
+  topAttractions: [
+    "old-quebec",
+    "chateau-frontenac",
+    "montmorency-falls",
+    "place-royale",
+    "petit-champlain",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: true,
+    yachtRentalAvailable: false,
+    airportTransfers: true,
+    localTransitPasses: true,
+  },
+  testimonials: [
+    {
+      author: "Julie R.",
+      content:
+        "Walking through Old Quebec felt like being transported to a European village. The architecture and atmosphere are simply magical.",
+      city: "Quebec City",
+      rating: 4.9,
+      date: "2024-06-15",
+    },
+    {
+      author: "Pierre M.",
+      content:
+        "The Winter Carnival was an unforgettable experience—ice sculptures, night parades, and such a festive atmosphere!",
+      city: "Quebec City",
+      rating: 4.7,
+      date: "2024-02-08",
+    },
+  ],
+};
+
+export const rioDeJaneiro = {
+  id: "rio-de-janeiro",
+  city: "Rio de Janeiro",
+  country: "Brazil",
+  quote: "A city where God molded beauty with his own hands. — Stefan Zweig",
+  subtitle: "The marvelous city between mountains and sea",
+  isPopular: true,
+  coordinates: { lat: -22.9068, lng: -43.1729 },
+  imageUrl: "https://images.unsplash.com/photo-1483729558449-99ef09a8c325",
+  rating: 4.7,
+  description:
+    "Rio de Janeiro dazzles with its dramatic setting where lush mountains meet crescent beaches and vibrant urban life. From the iconic Christ the Redeemer statue embracing the city from Corcovado Mountain to the rhythmic energy of samba, this Brazilian metropolis offers an intoxicating blend of natural splendor, cultural richness, and infectious joie de vivre.",
+  population: 6748000,
+  timeZone: "America/Sao_Paulo",
+  isEcoCertified: false,
+  currency: "BRL",
+  priceCategory: "moderate",
+  languagesSpoken: ["Portuguese", "English", "Spanish"],
+  tags: ["beaches", "cultural", "scenic", "urban", "tropical"],
+  climate: "Tropical savanna",
+  localDialingCode: "+55",
+  topAttractions: [
+    "christ-the-redeemer",
+    "copacabana-beach",
+    "sugarloaf-mountain",
+    "ipanema-beach",
+    "lapa-steps",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: true,
+    yachtRentalAvailable: true,
+    airportTransfers: true,
+    localTransitPasses: true,
+  },
+  testimonials: [
+    {
+      author: "Fernanda S.",
+      content:
+        "The view from Christ the Redeemer took my breath away. Rio's landscape is unlike anywhere else on earth.",
+      city: "Rio de Janeiro",
+      rating: 4.9,
+      date: "2024-03-12",
+    },
+    {
+      author: "Jonas T.",
+      content:
+        "Experiencing Carnival in Rio was on my bucket list for years—the energy, colors, and music were beyond expectations!",
+      city: "Rio de Janeiro",
+      rating: 4.8,
+      date: "2024-02-24",
+    },
+  ],
+};
+
+export const roatan = {
+  id: "roatan",
+  city: "Roatán",
+  country: "Honduras",
+  quote:
+    "The Caribbean's best-kept secret—a paradise for divers and beach lovers alike.",
+  subtitle: "Pristine reefs and rainforests on Honduras' Bay Island",
+  isPopular: false,
+  coordinates: { lat: 16.3278, lng: -86.5072 },
+  imageUrl: "https://images.unsplash.com/photo-1590000273227-4e2d5c9b6190",
+  rating: 4.6,
+  description:
+    "Roatán, the largest of Honduras' Bay Islands, is encircled by the Mesoamerican Barrier Reef, the second largest coral reef system in the world. With its crystal-clear waters, pristine beaches, and lush tropical landscape, this laid-back island paradise offers world-class diving and snorkeling, encounters with exotic wildlife, and a unique blend of Caribbean and Latin American cultures.",
+  population: 109900,
+  timeZone: "America/Tegucigalpa",
+  isEcoCertified: true,
+  currency: "HNL",
+  priceCategory: "budget",
+  languagesSpoken: ["Spanish", "English", "Garifuna"],
+  tags: ["diving", "beach", "cruise-port", "eco-friendly", "rainforest"],
+  climate: "Tropical rainforest",
+  localDialingCode: "+504",
+  topAttractions: [
+    "west-bay-beach",
+    "carambola-gardens",
+    "gumbalimba-park",
+    "little-french-key",
+    "blue-harbor-tropical-arboretum",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: true,
+    yachtRentalAvailable: true,
+    airportTransfers: true,
+    localTransitPasses: false,
+  },
+  testimonials: [
+    {
+      author: "Allison W.",
+      content:
+        "The snorkeling in Roatán was incredible—we saw so many colorful fish and coral right off the beach!",
+      city: "Roatán",
+      rating: 4.7,
+      date: "2024-05-18",
+    },
+    {
+      author: "Carlos D.",
+      content:
+        "West Bay Beach is the perfect paradise with soft white sand and crystal-clear water. Much less crowded than other Caribbean destinations.",
+      city: "Roatán",
+      rating: 4.8,
+      date: "2024-02-25",
+    },
+  ],
+};
+
+export const rome = {
+  id: "rome",
+  city: "Rome",
+  country: "Italy",
+  quote:
+    "Rome is not like any other city. It's a big museum, a living room that shall be crossed on tiptoe. — Alberto Sordi",
+  subtitle: "The Eternal City of ancient wonders",
+  isPopular: true,
+  coordinates: { lat: 41.9028, lng: 12.4964 },
+  imageUrl: "https://images.unsplash.com/photo-1525874684015-58379d421a52",
+  rating: 4.9,
+  description:
+    "Rome overwhelms with its profound cultural legacy spanning millennia. From the mighty Colosseum and Roman Forum to Vatican City's artistic treasures, every corner reveals layers of Western civilization's foundation. Beyond monumental sights, Rome enchants with its vibrant piazzas, mouthwatering cuisine, and the distinctive dolce vita atmosphere that transforms everyday moments into celebrations of life.",
+  population: 2873000,
+  timeZone: "Europe/Rome",
+  isEcoCertified: false,
+  currency: "EUR",
+  priceCategory: "moderate",
+  languagesSpoken: ["Italian", "English"],
+  tags: ["historic", "ancient", "architecture", "culinary", "religious"],
+  climate: "Mediterranean",
+  localDialingCode: "+39",
+  topAttractions: [
+    "colosseum",
+    "vatican-museums",
+    "roman-forum",
+    "trevi-fountain",
+    "pantheon",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: true,
+    yachtRentalAvailable: false,
+    airportTransfers: true,
+    localTransitPasses: true,
+  },
+  testimonials: [
+    {
+      author: "Isabella R.",
+      content:
+        "Walking among the ruins of the Roman Forum was like traveling through time. The history in Rome is incomparable.",
+      city: "Rome",
+      rating: 5.0,
+      date: "2024-05-04",
+    },
+    {
+      author: "Thomas K.",
+      content:
+        "The moment I saw Michelangelo's ceiling in the Sistine Chapel, I truly understood the meaning of 'masterpiece'.",
+      city: "Rome",
+      rating: 4.9,
+      date: "2024-04-12",
+    },
+  ],
+};
+
+export const sanFrancisco = {
+  id: "san-francisco",
+  city: "San Francisco",
+  state: "California",
+  country: "United States",
+  quote:
+    "The only city in the world that can look brand new and fully mature at the same time.",
+  subtitle: "Where innovation meets Victorian charm",
+  isPopular: true,
+  coordinates: { lat: 37.7749, lng: -122.4194 },
+  imageUrl: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29",
+  rating: 4.7,
+  description:
+    "San Francisco captivates with its iconic Golden Gate Bridge, historic cable cars, and colorful Victorian homes. This hilly city by the bay offers world-class cuisine, vibrant neighborhoods, and a progressive spirit that has shaped American culture. From tech innovation to counterculture history, San Francisco balances its rich past with constant reinvention.",
+  population: 874961,
+  timeZone: "America/Los_Angeles",
+  isEcoCertified: true,
+  currency: "USD",
+  priceCategory: "luxury",
+  languagesSpoken: ["English", "Spanish", "Chinese", "Tagalog"],
+  tags: ["scenic", "tech", "cultural", "historic", "foodie"],
+  climate: "Mediterranean",
+  localDialingCode: "+1",
+  topAttractions: [
+    "golden-gate-bridge",
+    "alcatraz-island",
+    "fishermans-wharf",
+    "lombard-street",
+    "chinatown",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: true,
+    yachtRentalAvailable: true,
+    airportTransfers: true,
+    localTransitPasses: true,
+  },
+  testimonials: [
+    {
+      author: "Alicia H.",
+      content:
+        "Cycling across the Golden Gate Bridge with those views of the bay and city skyline was unforgettable!",
+      city: "San Francisco",
+      rating: 4.8,
+      date: "2024-06-02",
+    },
+    {
+      author: "Keith S.",
+      content:
+        "The mix of cuisines is amazing—had the best dim sum in Chinatown and incredible sourdough at the Ferry Building.",
+      city: "San Francisco",
+      rating: 4.7,
+      date: "2024-05-11",
+    },
+  ],
+};
+
+export const sanJuan = {
+  id: "san-juan",
+  city: "San Juan",
+  country: "Puerto Rico",
+  quote:
+    "A vibrant Caribbean canvas where Spanish colonial charm dances with island rhythms.",
+  subtitle: "The beating heart of Puerto Rico",
+  isPopular: true,
+  coordinates: { lat: 18.4655, lng: -66.1057 },
+  imageUrl: "https://images.unsplash.com/photo-1579687196544-08ae945aa3c5",
+  rating: 4.6,
+  description:
+    "San Juan blends 500-year-old Spanish colonial history with vibrant Caribbean culture. From the cobblestone streets and colorful buildings of Old San Juan to pristine beaches and lively neighborhoods, Puerto Rico's capital offers a unique mix of historical immersion, tropical relaxation, and exciting nightlife—all without needing a passport for US citizens.",
+  population: 395326,
+  timeZone: "America/Puerto_Rico",
+  isEcoCertified: false,
+  currency: "USD",
+  priceCategory: "moderate",
+  languagesSpoken: ["Spanish", "English"],
+  tags: ["historic", "beach", "cruise-port", "cultural", "tropical"],
+  climate: "Tropical rainforest",
+  localDialingCode: "+1",
+  topAttractions: [
+    "el-morro-fortress",
+    "old-san-juan",
+    "condado-beach",
+    "la-fortaleza",
+    "san-juan-cathedral",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: true,
+    yachtRentalAvailable: true,
+    airportTransfers: true,
+    localTransitPasses: true,
+  },
+  testimonials: [
+    {
+      author: "Elena R.",
+      content:
+        "Walking through Old San Juan's colorful streets felt like being in a different century. The history is so well preserved!",
+      city: "San Juan",
+      rating: 4.7,
+      date: "2024-05-14",
+    },
+    {
+      author: "Miguel T.",
+      content:
+        "The local food scene is incredible—mofongo, alcapurrias, and the best piña coladas I've ever had!",
+      city: "San Juan",
+      rating: 4.8,
+      date: "2024-04-03",
+    },
+  ],
+};
+
+export const santiago = {
+  id: "santiago",
+  city: "Santiago",
+  country: "Chile",
+  quote:
+    "A sophisticated metropolis where Andean majesty meets cosmopolitan energy.",
+  subtitle: "Chile's vibrant capital in the shadow of the Andes",
+  isPopular: false,
+  coordinates: { lat: -33.4489, lng: -70.6693 },
+  imageUrl: "https://images.unsplash.com/photo-1476984251899-8d7fdfc5c92c",
+  rating: 4.5,
+  description:
+    "Santiago impresses with its dramatic setting surrounded by snow-capped Andes mountains. Chile's sophisticated capital blends colonial architecture with sleek skyscrapers, offering world-class museums, vibrant markets, and outstanding cuisine. A gateway to Chile's diverse landscapes, this modern metropolis serves as an ideal base for exploring wine country, coastal cities, and mountain adventures.",
+  population: 6811595,
+  timeZone: "America/Santiago",
+  isEcoCertified: false,
+  currency: "CLP",
+  priceCategory: "moderate",
+  languagesSpoken: ["Spanish", "English"],
+  tags: ["urban", "cultural", "andean", "wine", "colonial"],
+  climate: "Mediterranean",
+  localDialingCode: "+56",
+  topAttractions: [
+    "plaza-de-armas",
+    "cerro-san-cristobal",
+    "la-chascona",
+    "sky-costanera",
+    "central-market",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: true,
+    yachtRentalAvailable: false,
+    airportTransfers: true,
+    localTransitPasses: true,
+  },
+  testimonials: [
+    {
+      author: "Carmen L.",
+      content:
+        "The views from Sky Costanera were breathtaking—the entire city with the Andes Mountains as a backdrop!",
+      city: "Santiago",
+      rating: 4.6,
+      date: "2024-03-22",
+    },
+    {
+      author: "Paulo M.",
+      content:
+        "Taking a day trip to the nearby vineyards was incredible. Chilean wine is some of the best in the world!",
+      city: "Santiago",
+      rating: 4.7,
+      date: "2024-02-08",
+    },
+  ],
+};
+
+export const santorini = {
+  id: "santorini",
+  city: "Santorini",
+  country: "Greece",
+  quote: "A dream in white and blue, where earth and heaven meet.",
+  subtitle: "The jewel of the Aegean Sea",
+  isPopular: true,
+  coordinates: { lat: 36.3932, lng: 25.4615 },
+  imageUrl: "https://images.unsplash.com/photo-1469796466635-455ede028aca",
+  rating: 4.9,
+  description:
+    "Santorini captivates with its dramatic caldera views, iconic blue-domed churches, and white-washed buildings cascading down volcanic cliffs. This crescent-shaped Greek island in the Aegean Sea offers world-famous sunsets, black and red sand beaches, ancient ruins, and exceptional wines from grapes grown in volcanic soil, creating an unforgettable Mediterranean experience.",
+  population: 15550,
+  timeZone: "Europe/Athens",
+  isEcoCertified: false,
+  currency: "EUR",
+  priceCategory: "luxury",
+  languagesSpoken: ["Greek", "English"],
+  tags: ["romantic", "scenic", "volcanic", "wineries", "luxury"],
+  climate: "Mediterranean",
+  localDialingCode: "+30",
+  topAttractions: [
+    "oia-village",
+    "fira",
+    "red-beach",
+    "ancient-akrotiri",
+    "santo-wines-winery",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: true,
+    yachtRentalAvailable: true,
+    airportTransfers: true,
+    localTransitPasses: false,
+  },
+  testimonials: [
+    {
+      author: "Sophia P.",
+      content:
+        "Watching the sunset in Oia was a truly magical moment that lives up to all the hype and more.",
+      city: "Santorini",
+      rating: 5.0,
+      date: "2024-06-10",
+    },
+    {
+      author: "Nicolas T.",
+      content:
+        "The caldera views from our cliffside hotel were worth every penny. Santorini is the definition of breathtaking.",
+      city: "Santorini",
+      rating: 4.9,
+      date: "2024-05-16",
+    },
+  ],
+};
+
+export const seattle = {
+  id: "seattle",
+  city: "Seattle",
+  state: "Washington",
+  country: "United States",
+  quote: "Where innovation and nature thrive beneath ever-changing skies.",
+  subtitle: "The Emerald City of the Pacific Northwest",
+  isPopular: true,
+  coordinates: { lat: 47.6062, lng: -122.3321 },
+  imageUrl: "https://images.unsplash.com/photo-1502175353174-a7a70e73b362",
+  rating: 4.7,
+  description:
+    "Seattle balances urban innovation with breathtaking natural beauty. From the futuristic Space Needle and historic Pike Place Market to the stunning backdrop of Mount Rainier and Puget Sound, this Pacific Northwest hub offers a distinctive blend of tech culture, coffee heritage, outdoor adventure, and artistic expression—all embraced by lush evergreen surroundings.",
+  population: 737015,
+  timeZone: "America/Los_Angeles",
+  isEcoCertified: true,
+  currency: "USD",
+  priceCategory: "moderate",
+  languagesSpoken: ["English", "Spanish", "Chinese", "Vietnamese"],
+  tags: ["scenic", "tech", "coffee", "maritime", "outdoor"],
+  climate: "Oceanic",
+  localDialingCode: "+1",
+  topAttractions: [
+    "space-needle",
+    "pike-place-market",
+    "chihuly-garden-and-glass",
+    "museum-of-pop-culture",
+    "olympic-sculpture-park",
+  ],
+  services: {
+    carRentalAvailable: true,
+    motorcycleRentalAvailable: true,
+    yachtRentalAvailable: true,
+    airportTransfers: true,
+    localTransitPasses: true,
+  },
+  testimonials: [
+    {
+      author: "Michelle K.",
+      content:
+        "Taking the ferry across Puget Sound with views of the city skyline and Mount Rainier was incredible!",
+      city: "Seattle",
+      rating: 4.8,
+      date: "2024-05-27",
+    },
+    {
+      author: "Daniel W.",
+      content:
+        "Pike Place Market is foodie heaven—watching the fish throwers, tasting local specialties, and finding unique crafts.",
+      city: "Seattle",
+      rating: 4.6,
+      date: "2024-04-15",
+    },
+  ],
+};
