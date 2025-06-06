@@ -27,10 +27,11 @@ export interface BaseAttraction {
     | "$$"
     | "$$$"
     | "$$$$"
-    | "free"
+    | "Free"
     | "$–$$$"
     | "$$-$$$"
     | "varies"
+    | "free"
     | "varies by cruise"
     | "free (ferry ticket required)";
   priceCategory:
