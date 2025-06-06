@@ -133,7 +133,7 @@ function parseOpeningHours(hoursString) {
     if (hoursString.toLowerCase().includes("closed")) {
       // Try to match a specific closed day
       const closedDayMatch = hoursString.match(
-        /closed\s+(?:on\s+)?([A-Za-z]+)s?/i
+        /closed\s+(?:on\s+)?([A-Za-z]+)s?/i,
       );
       if (closedDayMatch) {
         const closedDay = closedDayMatch[1].toLowerCase();
@@ -176,10 +176,10 @@ function parseOpeningHours(hoursString) {
 
       // Find start and end day indices
       let startDayIndex = days.findIndex((day) =>
-        day.toLowerCase().startsWith(startDay.toLowerCase())
+        day.toLowerCase().startsWith(startDay.toLowerCase()),
       );
       let endDayIndex = days.findIndex((day) =>
-        day.toLowerCase().startsWith(endDay.toLowerCase())
+        day.toLowerCase().startsWith(endDay.toLowerCase()),
       );
 
       // Try abbreviated day matching if not found
@@ -239,7 +239,7 @@ function parseTimeRange(timeRange) {
 
   // Enhanced pattern to match various time formats
   const timeMatch = cleanedRange.match(
-    /(\d+(?::\d+)?\s*(?:AM|PM|am|pm)?)\s*[-–]\s*(\d+(?::\d+)?\s*(?:AM|PM|am|pm)?)/i
+    /(\d+(?::\d+)?\s*(?:AM|PM|am|pm)?)\s*[-–]\s*(\d+(?::\d+)?\s*(?:AM|PM|am|pm)?)/i,
   );
 
   if (!timeMatch) {
@@ -305,18 +305,18 @@ function convertTo12Hour(timeStr) {
   if (!timeStr) return "9:00 AM";
 
   // Split hours and minutes
-  const [hours, minutes] = timeStr.split(':').map(num => parseInt(num, 10));
-  
+  const [hours, minutes] = timeStr.split(":").map((num) => parseInt(num, 10));
+
   // Determine AM/PM
-  const period = hours >= 12 ? 'PM' : 'AM';
-  
+  const period = hours >= 12 ? "PM" : "AM";
+
   // Convert hours to 12-hour format
   let displayHours = hours % 12;
   if (displayHours === 0) displayHours = 12; // 0 should display as 12 in 12-hour format
-  
+
   // Format minutes with leading zero if needed
-  const displayMinutes = minutes.toString().padStart(2, '0');
-  
+  const displayMinutes = minutes.toString().padStart(2, "0");
+
   // Return formatted time
   return `${displayHours}:${displayMinutes} ${period}`;
 }
@@ -354,7 +354,11 @@ function stringifyObject(obj, indentLevel = 2) {
     const props = entries
       .map(([key, value]) => {
         // Convert time format for 'from' and 'to' properties
-        if ((key === 'from' || key === 'to') && typeof value === 'string' && value.includes(':')) {
+        if (
+          (key === "from" || key === "to") &&
+          typeof value === "string" &&
+          value.includes(":")
+        ) {
           return `${key}: "${convertTo12Hour(value)}"`;
         }
         return `${key}: ${stringifyObject(value, indentLevel + 2)}`;
@@ -411,7 +415,7 @@ export const ${varName}: Attraction[] = ${stringifyObject(attractions)};
   // Ensure directory exists
   const destDir = path.join(
     __dirname,
-    "../src/lib/constants/destinations/city"
+    "../src/lib/constants/destinations/city",
   );
   ensureDirectoryExists(destDir);
 
@@ -421,7 +425,7 @@ export const ${varName}: Attraction[] = ${stringifyObject(attractions)};
   // Check if file exists and handle accordingly
   if (fs.existsSync(filePath) && !options.rewrite && !options.append) {
     console.log(
-      `File for ${citySlug} already exists. Skipping. Use --rewrite to overwrite.`
+      `File for ${citySlug} already exists. Skipping. Use --rewrite to overwrite.`,
     );
     return;
   }
@@ -460,17 +464,20 @@ function generateAttractions() {
       let openingHours;
       try {
         openingHours = parseOpeningHours(detailInfo.openingHours);
-        
+
         // Convert all opening hours to 12-hour format
         if (Array.isArray(openingHours)) {
-          openingHours = openingHours.map(daySchedule => {
-            if (daySchedule.availableHours && Array.isArray(daySchedule.availableHours)) {
+          openingHours = openingHours.map((daySchedule) => {
+            if (
+              daySchedule.availableHours &&
+              Array.isArray(daySchedule.availableHours)
+            ) {
               return {
                 ...daySchedule,
-                availableHours: daySchedule.availableHours.map(hours => ({
+                availableHours: daySchedule.availableHours.map((hours) => ({
                   from: hours.from,
-                  to: hours.to
-                }))
+                  to: hours.to,
+                })),
               };
             }
             return daySchedule;
@@ -478,7 +485,7 @@ function generateAttractions() {
         }
       } catch (e) {
         console.warn(
-          `Error parsing opening hours for ${attractionName} in ${city}: ${e.message}`
+          `Error parsing opening hours for ${attractionName} in ${city}: ${e.message}`,
         );
         openingHours = [];
       }
@@ -532,11 +539,11 @@ function generateAttractions() {
 
   fs.writeFileSync(
     path.join(outputDir, "attractions.json"),
-    JSON.stringify(result, null, 2)
+    JSON.stringify(result, null, 2),
   );
 
   console.log(
-    `Generated attractions data for ${cityCount} cities with ${attractionCount} total attractions.`
+    `Generated attractions data for ${cityCount} cities with ${attractionCount} total attractions.`,
   );
 }
 
