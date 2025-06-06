@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const newYorkCityeastcoastusaAttractions: Attraction[] = [
   {
+    id: "attraction-new-york-city-3-1",
+    city: "New York City",
     title: "Statue of Liberty",
     description: "Iconic copper statue representing freedom and democracy.",
     imageUrl: "https://images.unsplash.com/photo-nyc-statue-of-liberty",
@@ -95,6 +97,8 @@ export const newYorkCityeastcoastusaAttractions: Attraction[] = [
     features: ["monument", "national park", "views", "ferry ride"],
   },
   {
+    id: "attraction-new-york-city-3-2",
+    city: "New York City",
     title: "Central Park",
     description: "Expansive urban park in the heart of Manhattan.",
     imageUrl: "https://images.unsplash.com/photo-nyc-central-park",
@@ -176,6 +180,8 @@ export const newYorkCityeastcoastusaAttractions: Attraction[] = [
     features: ["park", "lake", "zoo", "paths", "outdoor activities"],
   },
   {
+    id: "attraction-new-york-city-3-3",
+    city: "New York City",
     title: "Metropolitan Museum of Art",
     description: "One of the world's largest and most prestigious art museums.",
     imageUrl: "https://images.unsplash.com/photo-nyc-met-museum",

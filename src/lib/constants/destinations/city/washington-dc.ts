@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const washingtonDcglobalAttractions: Attraction[] = [
   {
+    id: "attraction-washington-dc-63-1",
+    city: "Washington Dc",
     title: "Lincoln Memorial",
     description:
       "A neoclassical monument honoring the 16th U.S. President, Abraham Lincoln.",
@@ -85,6 +87,8 @@ export const washingtonDcglobalAttractions: Attraction[] = [
     features: ["monument", "historical site", "photography"],
   },
   {
+    id: "attraction-washington-dc-63-2",
+    city: "Washington Dc",
     title: "Smithsonian National Museum of Natural History",
     description:
       "World-renowned museum showcasing natural wonders, from dinosaur fossils to gemstones.",
@@ -96,7 +100,7 @@ export const washingtonDcglobalAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "5:30 PM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -105,7 +109,7 @@ export const washingtonDcglobalAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "5:30 PM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -114,7 +118,7 @@ export const washingtonDcglobalAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "5:30 PM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -123,7 +127,7 @@ export const washingtonDcglobalAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "5:30 PM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -132,7 +136,7 @@ export const washingtonDcglobalAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "5:30 PM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -141,7 +145,7 @@ export const washingtonDcglobalAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "5:30 PM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -150,7 +154,7 @@ export const washingtonDcglobalAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "5:30 PM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -167,6 +171,8 @@ export const washingtonDcglobalAttractions: Attraction[] = [
     features: ["museum", "exhibits", "educational"],
   },
   {
+    id: "attraction-washington-dc-63-3",
+    city: "Washington Dc",
     title: "National Air and Space Museum",
     description:
       "Exhibits the largest collection of historic aircraft and spacecraft in the world.",
@@ -178,7 +184,7 @@ export const washingtonDcglobalAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "5:30 PM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -187,7 +193,7 @@ export const washingtonDcglobalAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "5:30 PM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -196,7 +202,7 @@ export const washingtonDcglobalAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "5:30 PM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -205,7 +211,7 @@ export const washingtonDcglobalAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "5:30 PM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -214,7 +220,7 @@ export const washingtonDcglobalAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "5:30 PM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -223,7 +229,7 @@ export const washingtonDcglobalAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "5:30 PM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -232,7 +238,7 @@ export const washingtonDcglobalAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "5:30 PM",
+            to: "6:00 AM",
           },
         ],
       },

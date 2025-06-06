@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const romemediterraneanAttractions: Attraction[] = [
   {
+    id: "attraction-rome-13-1",
+    city: "Rome",
     title: "Colosseum",
     description: "Ancient Roman amphitheater known for gladiatorial contests.",
     imageUrl: "https://images.unsplash.com/photo-rome-colosseum",
@@ -95,6 +97,8 @@ export const romemediterraneanAttractions: Attraction[] = [
     features: ["amphitheater", "gladiatorial contests", "guided tours"],
   },
   {
+    id: "attraction-rome-13-2",
+    city: "Rome",
     title: "Vatican Museums",
     description:
       "World-renowned museums showcasing art and history collected by the Roman Catholic Church.",
@@ -188,6 +192,8 @@ export const romemediterraneanAttractions: Attraction[] = [
     features: ["museums", "art", "history", "guided tours"],
   },
   {
+    id: "attraction-rome-13-3",
+    city: "Rome",
     title: "Trevi Fountain",
     description:
       "Iconic 18th-century fountain known for the tradition of throwing coins into the water.",

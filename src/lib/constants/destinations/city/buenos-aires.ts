@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const buenosAiressouthamericaAttractions: Attraction[] = [
   {
+    id: "attraction-buenos-aires-21-1",
+    city: "Buenos Aires",
     title: "Plaza de Mayo",
     description:
       "Historic square surrounded by important government buildings, known for political demonstrations and cultural significance.",
@@ -85,6 +87,8 @@ export const buenosAiressouthamericaAttractions: Attraction[] = [
     features: ["historic square", "government buildings", "cultural events"],
   },
   {
+    id: "attraction-buenos-aires-21-2",
+    city: "Buenos Aires",
     title: "La Boca",
     description:
       "Colorful neighborhood famous for its vibrant street art, tango performances, and the iconic Caminito street.",
@@ -167,6 +171,8 @@ export const buenosAiressouthamericaAttractions: Attraction[] = [
     features: ["neighborhood", "street art", "tango", "Caminito street"],
   },
   {
+    id: "attraction-buenos-aires-21-3",
+    city: "Buenos Aires",
     title: "Recoleta Cemetery",
     description:
       "Famous cemetery known for its elaborate mausoleums and as the resting place of Eva Perón.",

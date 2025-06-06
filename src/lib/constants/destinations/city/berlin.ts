@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const berlinnortherneuropeAttractions: Attraction[] = [
   {
+    id: "attraction-berlin-18-1",
+    city: "Berlin",
     title: "Brandenburg Gate",
     description:
       "Iconic 18th-century neoclassical monument symbolizing peace and unity.",
@@ -85,6 +87,8 @@ export const berlinnortherneuropeAttractions: Attraction[] = [
     features: ["monument", "neoclassical architecture", "historical site"],
   },
   {
+    id: "attraction-berlin-18-2",
+    city: "Berlin",
     title: "Reichstag Building",
     description:
       "Historic building housing the German parliament with a glass dome offering city views.",
@@ -167,6 +171,8 @@ export const berlinnortherneuropeAttractions: Attraction[] = [
     features: ["government building", "glass dome", "city views"],
   },
   {
+    id: "attraction-berlin-18-3",
+    city: "Berlin",
     title: "Berlin Cathedral",
     description:
       "Impressive baroque cathedral with a large dome and ornate interior.",
@@ -178,7 +184,7 @@ export const berlinnortherneuropeAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "6:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -187,7 +193,7 @@ export const berlinnortherneuropeAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "6:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -196,7 +202,7 @@ export const berlinnortherneuropeAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "6:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -205,7 +211,7 @@ export const berlinnortherneuropeAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "6:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -214,7 +220,7 @@ export const berlinnortherneuropeAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "6:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -223,7 +229,7 @@ export const berlinnortherneuropeAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "6:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -232,7 +238,7 @@ export const berlinnortherneuropeAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "6:00 PM",
+            to: "5:00 AM",
           },
         ],
       },

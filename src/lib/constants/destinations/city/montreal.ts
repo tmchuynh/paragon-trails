@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const montrealeastcoastcanadaAttractions: Attraction[] = [
   {
+    id: "attraction-montreal-32-1",
+    city: "Montreal",
     title: "Old Montreal",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-montreal-old-montreal",
@@ -84,6 +86,8 @@ export const montrealeastcoastcanadaAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-montreal-32-2",
+    city: "Montreal",
     title: "Mount Royal Park",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-montreal-mount-royal",
@@ -165,6 +169,8 @@ export const montrealeastcoastcanadaAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-montreal-32-3",
+    city: "Montreal",
     title: "Notre-Dame Basilica",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-montreal-notre-dame",

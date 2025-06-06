@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const roatancaribbeanAttractions: Attraction[] = [
   {
+    id: "attraction-roatan-35-1",
+    city: "Roatan",
     title: "West Bay Beach",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-roatan-west-bay-beach",
@@ -84,6 +86,8 @@ export const roatancaribbeanAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-roatan-35-2",
+    city: "Roatan",
     title: "Gumbalimba Park",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-roatan-gumbalimba-park",
@@ -165,6 +169,8 @@ export const roatancaribbeanAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-roatan-35-3",
+    city: "Roatan",
     title: "Carambola Botanical Gardens",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-roatan-carambola",

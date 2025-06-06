@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const kyotoasiapacificAttractions: Attraction[] = [
   {
+    id: "attraction-kyoto-66-1",
+    city: "Kyoto",
     title: "Fushimi Inari-taisha",
     description:
       "Famous Shinto shrine known for its thousands of vermilion torii gates leading into the forested mountain trails.",
@@ -85,6 +87,8 @@ export const kyotoasiapacificAttractions: Attraction[] = [
     features: ["shrine", "torii gates", "hiking trails"],
   },
   {
+    id: "attraction-kyoto-66-2",
+    city: "Kyoto",
     title: "Kinkaku-ji (Golden Pavilion)",
     description:
       "Zen Buddhist temple covered in gold leaf, surrounded by beautiful gardens and a reflective pond.",
@@ -96,7 +100,7 @@ export const kyotoasiapacificAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -105,7 +109,7 @@ export const kyotoasiapacificAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -114,7 +118,7 @@ export const kyotoasiapacificAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -123,7 +127,7 @@ export const kyotoasiapacificAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -132,7 +136,7 @@ export const kyotoasiapacificAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -141,7 +145,7 @@ export const kyotoasiapacificAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -150,7 +154,7 @@ export const kyotoasiapacificAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -178,6 +182,8 @@ export const kyotoasiapacificAttractions: Attraction[] = [
     features: ["temple", "gardens", "scenic views"],
   },
   {
+    id: "attraction-kyoto-66-3",
+    city: "Kyoto",
     title: "Arashiyama Bamboo Grove",
     description:
       "A serene path through towering bamboo stalks, offering a unique and tranquil experience.",

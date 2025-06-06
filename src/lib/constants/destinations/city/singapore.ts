@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const singaporeasiapacificAttractions: Attraction[] = [
   {
+    id: "attraction-singapore-41-1",
+    city: "Singapore",
     title: "Gardens by the Bay",
     description:
       "Futuristic park featuring the iconic Supertree Grove, Cloud Forest, and Flower Dome with diverse flora.",
@@ -85,6 +87,8 @@ export const singaporeasiapacificAttractions: Attraction[] = [
     features: ["garden", "Supertree Grove", "Cloud Forest", "Flower Dome"],
   },
   {
+    id: "attraction-singapore-41-2",
+    city: "Singapore",
     title: "Marina Bay Sands",
     description:
       "Iconic resort with luxury accommodations, an infinity pool, shopping, dining, and a sky park observation deck.",
@@ -132,6 +136,8 @@ export const singaporeasiapacificAttractions: Attraction[] = [
     features: ["resort", "luxury accommodations", "infinity pool"],
   },
   {
+    id: "attraction-singapore-41-3",
+    city: "Singapore",
     title: "Sentosa Island",
     description:
       "Resort island with beaches, theme parks, luxury hotels, and attractions like Universal Studios Singapore.",
@@ -142,8 +148,8 @@ export const singaporeasiapacificAttractions: Attraction[] = [
         day: "Monday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -151,8 +157,8 @@ export const singaporeasiapacificAttractions: Attraction[] = [
         day: "Tuesday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -160,8 +166,8 @@ export const singaporeasiapacificAttractions: Attraction[] = [
         day: "Wednesday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -169,8 +175,8 @@ export const singaporeasiapacificAttractions: Attraction[] = [
         day: "Thursday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -178,8 +184,8 @@ export const singaporeasiapacificAttractions: Attraction[] = [
         day: "Friday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -187,8 +193,8 @@ export const singaporeasiapacificAttractions: Attraction[] = [
         day: "Saturday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -196,8 +202,8 @@ export const singaporeasiapacificAttractions: Attraction[] = [
         day: "Sunday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },

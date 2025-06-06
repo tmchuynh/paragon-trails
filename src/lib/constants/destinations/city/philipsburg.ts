@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const philipsburgcaribbeanAttractions: Attraction[] = [
   {
+    id: "attraction-philipsburg-52-1",
+    city: "Philipsburg",
     title: "Great Bay Beach",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-philipsburg-great-bay",
@@ -84,6 +86,8 @@ export const philipsburgcaribbeanAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-philipsburg-52-2",
+    city: "Philipsburg",
     title: "Front Street",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-philipsburg-front-street",
@@ -165,6 +169,8 @@ export const philipsburgcaribbeanAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-philipsburg-52-3",
+    city: "Philipsburg",
     title: "Sint Maarten Museum",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-philipsburg-museum",

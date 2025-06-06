@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const mykonosmediterraneanAttractions: Attraction[] = [
   {
+    id: "attraction-mykonos-53-1",
+    city: "Mykonos",
     title: "Little Venice",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-mykonos-little-venice",
@@ -84,6 +86,8 @@ export const mykonosmediterraneanAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-mykonos-53-2",
+    city: "Mykonos",
     title: "Windmills of Mykonos",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-mykonos-windmills",
@@ -165,6 +169,8 @@ export const mykonosmediterraneanAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-mykonos-53-3",
+    city: "Mykonos",
     title: "Paradise Beach",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-mykonos-paradise-beach",

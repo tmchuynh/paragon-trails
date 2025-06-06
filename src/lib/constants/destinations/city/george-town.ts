@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const georgeTowncaribbeanAttractions: Attraction[] = [
   {
+    id: "attraction-george-town-55-1",
+    city: "George Town",
     title: "Seven Mile Beach",
     description:
       "A stunning stretch of white sandy beach and crystal-clear turquoise waters, ideal for swimming, snorkeling, and sunbathing.",
@@ -85,6 +87,8 @@ export const georgeTowncaribbeanAttractions: Attraction[] = [
     features: ["beach", "snorkeling", "swimming", "sunbathing"],
   },
   {
+    id: "attraction-george-town-55-2",
+    city: "George Town",
     title: "Stingray City",
     description:
       "Famous shallow sandbar where visitors can interact with friendly southern stingrays in their natural habitat.",
@@ -167,6 +171,8 @@ export const georgeTowncaribbeanAttractions: Attraction[] = [
     features: ["snorkeling", "wildlife interaction", "tours"],
   },
   {
+    id: "attraction-george-town-55-3",
+    city: "George Town",
     title: "Cayman Islands National Museum",
     description:
       "Museum showcasing the cultural, historical, and natural heritage of the Cayman Islands.",

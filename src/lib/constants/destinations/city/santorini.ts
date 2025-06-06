@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const santorinimediterraneanAttractions: Attraction[] = [
   {
+    id: "attraction-santorini-38-1",
+    city: "Santorini",
     title: "Oia Village",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-santorini-oia",
@@ -84,6 +86,8 @@ export const santorinimediterraneanAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-santorini-38-2",
+    city: "Santorini",
     title: "Fira Town",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-santorini-fira",
@@ -165,6 +169,8 @@ export const santorinimediterraneanAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-santorini-38-3",
+    city: "Santorini",
     title: "Red Beach",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-santorini-red-beach",

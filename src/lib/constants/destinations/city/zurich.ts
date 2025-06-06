@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const zurichglobalAttractions: Attraction[] = [
   {
+    id: "attraction-zurich-61-1",
+    city: "Zurich",
     title: "Lake Zurich",
     description:
       "A picturesque lake offering boat cruises, swimming spots, and scenic promenades.",
@@ -85,6 +87,8 @@ export const zurichglobalAttractions: Attraction[] = [
     features: ["lake", "boating", "walking trails"],
   },
   {
+    id: "attraction-zurich-61-2",
+    city: "Zurich",
     title: "Grossmünster",
     description:
       "Iconic twin-towered church with significant historical and architectural value.",
@@ -96,7 +100,7 @@ export const zurichglobalAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "6:00 PM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -105,7 +109,7 @@ export const zurichglobalAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "6:00 PM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -114,7 +118,7 @@ export const zurichglobalAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "6:00 PM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -123,7 +127,7 @@ export const zurichglobalAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "6:00 PM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -132,7 +136,7 @@ export const zurichglobalAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "6:00 PM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -141,7 +145,7 @@ export const zurichglobalAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "6:00 PM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -150,7 +154,7 @@ export const zurichglobalAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "6:00 PM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -178,6 +182,8 @@ export const zurichglobalAttractions: Attraction[] = [
     features: ["church", "architecture", "historical site"],
   },
   {
+    id: "attraction-zurich-61-3",
+    city: "Zurich",
     title: "Bahnhofstrasse",
     description:
       "One of the world's most exclusive shopping avenues, lined with luxury boutiques and cafes.",

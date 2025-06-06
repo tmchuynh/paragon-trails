@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const torontoeastcoastcanadaAttractions: Attraction[] = [
   {
+    id: "attraction-toronto-43-1",
+    city: "Toronto",
     title: "CN Tower",
     description:
       "Iconic observation tower offering panoramic views of Toronto and beyond, with a glass floor and rotating restaurant.",
@@ -14,7 +16,7 @@ export const torontoeastcoastcanadaAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "10:00 PM",
+            to: "10:00 AM",
           },
         ],
       },
@@ -23,7 +25,7 @@ export const torontoeastcoastcanadaAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "10:00 PM",
+            to: "10:00 AM",
           },
         ],
       },
@@ -32,7 +34,7 @@ export const torontoeastcoastcanadaAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "10:00 PM",
+            to: "10:00 AM",
           },
         ],
       },
@@ -41,7 +43,7 @@ export const torontoeastcoastcanadaAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "10:00 PM",
+            to: "10:00 AM",
           },
         ],
       },
@@ -50,7 +52,7 @@ export const torontoeastcoastcanadaAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "10:00 PM",
+            to: "10:00 AM",
           },
         ],
       },
@@ -59,7 +61,7 @@ export const torontoeastcoastcanadaAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "10:00 PM",
+            to: "10:00 AM",
           },
         ],
       },
@@ -68,7 +70,7 @@ export const torontoeastcoastcanadaAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "10:00 PM",
+            to: "10:00 AM",
           },
         ],
       },
@@ -96,6 +98,8 @@ export const torontoeastcoastcanadaAttractions: Attraction[] = [
     features: ["observation tower", "panoramic views", "rotating restaurant"],
   },
   {
+    id: "attraction-toronto-43-2",
+    city: "Toronto",
     title: "Royal Ontario Museum",
     description:
       "One of the largest museums in North America with exhibits on natural history, art, and world cultures.",
@@ -189,6 +193,8 @@ export const torontoeastcoastcanadaAttractions: Attraction[] = [
     features: ["museum", "natural history", "art", "world cultures"],
   },
   {
+    id: "attraction-toronto-43-3",
+    city: "Toronto",
     title: "Distillery District",
     description:
       "Historic area with cobblestone streets, art galleries, boutiques, and eateries housed in 19th-century buildings.",

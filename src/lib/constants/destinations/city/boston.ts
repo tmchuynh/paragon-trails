@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const bostoneastcoastusaAttractions: Attraction[] = [
   {
+    id: "attraction-boston-19-1",
+    city: "Boston",
     title: "Freedom Trail",
     description:
       "A 2.5-mile walking route through downtown Boston passing 16 historical sites.",
@@ -85,6 +87,8 @@ export const bostoneastcoastusaAttractions: Attraction[] = [
     features: ["walking trail", "historical sites", "self-guided tour"],
   },
   {
+    id: "attraction-boston-19-2",
+    city: "Boston",
     title: "Fenway Park",
     description:
       "Historic baseball park and home of the Boston Red Sox since 1912.",
@@ -167,6 +171,8 @@ export const bostoneastcoastusaAttractions: Attraction[] = [
     features: ["baseball park", "sports history", "tours"],
   },
   {
+    id: "attraction-boston-19-3",
+    city: "Boston",
     title: "Boston Common",
     description:
       "America's oldest public park, offering green spaces, historical monuments, and recreational areas in the heart of Boston.",
@@ -252,6 +258,8 @@ export const bostoneastcoastusaAttractions: Attraction[] = [
     features: ["public park", "historical landmarks", "seasonal events"],
   },
   {
+    id: "attraction-boston-19-4",
+    city: "Boston",
     title: "Museum of Fine Arts",
     description:
       "One of the most comprehensive art museums in the world, featuring a vast collection spanning ancient to contemporary art.",
@@ -353,6 +361,8 @@ export const bostoneastcoastusaAttractions: Attraction[] = [
     ],
   },
   {
+    id: "attraction-boston-19-5",
+    city: "Boston",
     title: "New England Aquarium",
     description:
       "A premier aquarium featuring a Giant Ocean Tank, penguin colony, and interactive exhibits focused on marine conservation.",

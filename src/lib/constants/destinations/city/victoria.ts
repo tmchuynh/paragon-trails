@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const victoriaalaskaAttractions: Attraction[] = [
   {
+    id: "attraction-victoria-45-1",
+    city: "Victoria",
     title: "Butchart Gardens",
     description:
       "Renowned floral gardens featuring themed landscapes, fountains, and seasonal displays.",
@@ -85,6 +87,8 @@ export const victoriaalaskaAttractions: Attraction[] = [
     features: ["botanical garden", "themed landscapes", "fountains"],
   },
   {
+    id: "attraction-victoria-45-2",
+    city: "Victoria",
     title: "Royal BC Museum",
     description:
       "Museum featuring natural history, indigenous cultures, and regional artifacts of British Columbia.",
@@ -167,6 +171,8 @@ export const victoriaalaskaAttractions: Attraction[] = [
     features: ["museum", "natural history", "indigenous cultures"],
   },
   {
+    id: "attraction-victoria-45-3",
+    city: "Victoria",
     title: "Craigdarroch Castle",
     description:
       "Victorian-era mansion showcasing period furnishings and architecture from 1890s aristocracy.",

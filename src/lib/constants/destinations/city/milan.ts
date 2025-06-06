@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const milanmediterraneanAttractions: Attraction[] = [
   {
+    id: "attraction-milan-60-1",
+    city: "Milan",
     title: "Duomo di Milano",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-milan-duomo",
@@ -84,6 +86,8 @@ export const milanmediterraneanAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-milan-60-2",
+    city: "Milan",
     title: "Galleria Vittorio Emanuele II",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-milan-galleria",
@@ -165,6 +169,8 @@ export const milanmediterraneanAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-milan-60-3",
+    city: "Milan",
     title: "Sforza Castle",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-milan-castle",

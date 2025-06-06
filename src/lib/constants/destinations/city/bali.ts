@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const baliasiapacificAttractions: Attraction[] = [
   {
+    id: "attraction-bali-17-1",
+    city: "Bali",
     title: "Uluwatu Temple",
     description:
       "Ancient sea temple perched on a cliff with spectacular sunset views.",
@@ -96,6 +98,8 @@ export const baliasiapacificAttractions: Attraction[] = [
     features: ["sea temple", "cliff views", "sunset views"],
   },
   {
+    id: "attraction-bali-17-2",
+    city: "Bali",
     title: "Tegallalang Rice Terraces",
     description:
       "Stunning agricultural terraces showcasing traditional Balinese irrigation system.",
@@ -189,6 +193,8 @@ export const baliasiapacificAttractions: Attraction[] = [
     features: ["rice terraces", "agriculture", "scenic views"],
   },
   {
+    id: "attraction-bali-17-3",
+    city: "Bali",
     title: "Ubud Monkey Forest",
     description:
       "Natural sanctuary home to over 700 Balinese long-tailed monkeys and ancient temples.",

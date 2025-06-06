@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const yokohamaasiapacificAttractions: Attraction[] = [
   {
+    id: "attraction-yokohama-62-1",
+    city: "Yokohama",
     title: "Minato Mirai 21",
     description:
       "A futuristic waterfront district featuring shopping centers, amusement parks, and panoramic views.",
@@ -85,6 +87,8 @@ export const yokohamaasiapacificAttractions: Attraction[] = [
     features: ["shopping", "entertainment", "skyline views"],
   },
   {
+    id: "attraction-yokohama-62-2",
+    city: "Yokohama",
     title: "Sankeien Garden",
     description:
       "Traditional Japanese garden with historic architecture and seasonal flora.",
@@ -96,7 +100,7 @@ export const yokohamaasiapacificAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -105,7 +109,7 @@ export const yokohamaasiapacificAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -114,7 +118,7 @@ export const yokohamaasiapacificAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -123,7 +127,7 @@ export const yokohamaasiapacificAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -132,7 +136,7 @@ export const yokohamaasiapacificAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -141,7 +145,7 @@ export const yokohamaasiapacificAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -150,7 +154,7 @@ export const yokohamaasiapacificAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -178,6 +182,8 @@ export const yokohamaasiapacificAttractions: Attraction[] = [
     features: ["garden", "historic buildings", "seasonal events"],
   },
   {
+    id: "attraction-yokohama-62-3",
+    city: "Yokohama",
     title: "Cup Noodles Museum",
     description:
       "Interactive museum dedicated to the history and creativity of instant noodles.",
@@ -189,7 +195,7 @@ export const yokohamaasiapacificAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "6:00 PM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -198,7 +204,7 @@ export const yokohamaasiapacificAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "6:00 PM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -207,7 +213,7 @@ export const yokohamaasiapacificAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "6:00 PM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -216,7 +222,7 @@ export const yokohamaasiapacificAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "6:00 PM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -225,7 +231,7 @@ export const yokohamaasiapacificAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "6:00 PM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -234,7 +240,7 @@ export const yokohamaasiapacificAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "6:00 PM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -243,7 +249,7 @@ export const yokohamaasiapacificAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "6:00 PM",
+            to: "6:00 AM",
           },
         ],
       },

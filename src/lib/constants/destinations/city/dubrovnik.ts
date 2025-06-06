@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const dubrovnikmediterraneanAttractions: Attraction[] = [
   {
+    id: "attraction-dubrovnik-12-1",
+    city: "Dubrovnik",
     title: "Old Town Walls",
     description:
       "Ancient city walls offering panoramic views of the Adriatic Sea.",
@@ -14,7 +16,7 @@ export const dubrovnikmediterraneanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "8:00 AM",
-            to: "7:00 PM",
+            to: "7:00 AM",
           },
         ],
       },
@@ -22,8 +24,8 @@ export const dubrovnikmediterraneanAttractions: Attraction[] = [
         day: "Tuesday",
         availableHours: [
           {
-            from: "8:00 AM",
-            to: "7:00 PM",
+            from: "9:00 AM",
+            to: "5:00 PM",
           },
         ],
       },
@@ -32,7 +34,16 @@ export const dubrovnikmediterraneanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "8:00 AM",
-            to: "7:00 PM",
+            to: "7:00 AM",
+          },
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "8:00 AM",
+            to: "7:00 AM",
           },
         ],
       },
@@ -41,7 +52,7 @@ export const dubrovnikmediterraneanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "8:00 AM",
-            to: "7:00 PM",
+            to: "7:00 AM",
           },
         ],
       },
@@ -50,7 +61,7 @@ export const dubrovnikmediterraneanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "8:00 AM",
-            to: "7:00 PM",
+            to: "7:00 AM",
           },
         ],
       },
@@ -58,8 +69,8 @@ export const dubrovnikmediterraneanAttractions: Attraction[] = [
         day: "Saturday",
         availableHours: [
           {
-            from: "8:00 AM",
-            to: "7:00 PM",
+            from: "9:00 AM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -67,8 +78,8 @@ export const dubrovnikmediterraneanAttractions: Attraction[] = [
         day: "Sunday",
         availableHours: [
           {
-            from: "8:00 AM",
-            to: "7:00 PM",
+            from: "9:00 AM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -85,6 +96,8 @@ export const dubrovnikmediterraneanAttractions: Attraction[] = [
     features: ["city walls", "panoramic views", "historical site"],
   },
   {
+    id: "attraction-dubrovnik-12-2",
+    city: "Dubrovnik",
     title: "Rector's Palace",
     description:
       "A historic palace that once served as the seat of the Rector of the Republic of Ragusa, featuring Gothic and Renaissance architecture.",
@@ -96,7 +109,7 @@ export const dubrovnikmediterraneanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "6:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -105,7 +118,7 @@ export const dubrovnikmediterraneanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "6:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -114,7 +127,7 @@ export const dubrovnikmediterraneanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "6:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -123,7 +136,7 @@ export const dubrovnikmediterraneanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "6:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -132,7 +145,7 @@ export const dubrovnikmediterraneanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "6:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -141,7 +154,7 @@ export const dubrovnikmediterraneanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "6:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -150,7 +163,7 @@ export const dubrovnikmediterraneanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "6:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -171,6 +184,8 @@ export const dubrovnikmediterraneanAttractions: Attraction[] = [
     ],
   },
   {
+    id: "attraction-dubrovnik-12-3",
+    city: "Dubrovnik",
     title: "Banje Beach",
     description:
       "A popular pebble beach near Dubrovnik’s Old Town, offering clear waters and stunning views of the city walls.",

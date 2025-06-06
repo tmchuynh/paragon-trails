@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const nassaucaribbeanAttractions: Attraction[] = [
   {
+    id: "attraction-nassau-70-1",
+    city: "Nassau",
     title: "Atlantis Paradise Island",
     description:
       "Luxury resort and water park complex featuring a vast marine habitat, slides, lagoons, and on-site casino; a destination in itself.",
@@ -96,6 +98,8 @@ export const nassaucaribbeanAttractions: Attraction[] = [
     features: ["water park", "marine habitat", "casino"],
   },
   {
+    id: "attraction-nassau-70-2",
+    city: "Nassau",
     title: "Queen's Staircase",
     description:
       "A 66-step limestone staircase carved by enslaved Africans in the late 18th century as an escape route from Fort Fincastle.",
@@ -107,7 +111,7 @@ export const nassaucaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "7:00 AM",
-            to: "6:00 PM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -116,7 +120,7 @@ export const nassaucaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "7:00 AM",
-            to: "6:00 PM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -125,7 +129,7 @@ export const nassaucaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "7:00 AM",
-            to: "6:00 PM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -134,7 +138,7 @@ export const nassaucaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "7:00 AM",
-            to: "6:00 PM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -143,7 +147,7 @@ export const nassaucaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "7:00 AM",
-            to: "6:00 PM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -151,8 +155,8 @@ export const nassaucaribbeanAttractions: Attraction[] = [
         day: "Saturday",
         availableHours: [
           {
-            from: "7:00 AM",
-            to: "6:00 PM",
+            from: "8:00 AM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -160,8 +164,8 @@ export const nassaucaribbeanAttractions: Attraction[] = [
         day: "Sunday",
         availableHours: [
           {
-            from: "7:00 AM",
-            to: "6:00 PM",
+            from: "8:00 AM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -178,6 +182,8 @@ export const nassaucaribbeanAttractions: Attraction[] = [
     features: ["historical site", "landmark", "photography"],
   },
   {
+    id: "attraction-nassau-70-3",
+    city: "Nassau",
     title: "Ardastra Gardens & Wildlife Conservation Centre",
     description:
       "Small zoo and conservation center known for its iconic marching flamingos, lush botanical gardens, and rescued wildlife.",
@@ -189,7 +195,7 @@ export const nassaucaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -198,7 +204,7 @@ export const nassaucaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -207,7 +213,7 @@ export const nassaucaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -216,7 +222,7 @@ export const nassaucaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -225,7 +231,7 @@ export const nassaucaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -234,7 +240,7 @@ export const nassaucaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -243,7 +249,7 @@ export const nassaucaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -271,6 +277,8 @@ export const nassaucaribbeanAttractions: Attraction[] = [
     features: ["wildlife", "garden", "family-friendly"],
   },
   {
+    id: "attraction-nassau-70-4",
+    city: "Nassau",
     title: "Pirates of Nassau Museum",
     description:
       "Interactive museum with life-size recreations of pirate ships, exhibits on Golden Age piracy, and hands-on displays for families.",
@@ -282,7 +290,7 @@ export const nassaucaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -291,7 +299,7 @@ export const nassaucaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -300,7 +308,7 @@ export const nassaucaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -309,7 +317,7 @@ export const nassaucaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -318,7 +326,7 @@ export const nassaucaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -327,7 +335,7 @@ export const nassaucaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -336,7 +344,7 @@ export const nassaucaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -364,6 +372,8 @@ export const nassaucaribbeanAttractions: Attraction[] = [
     features: ["interactive exhibits", "history", "family"],
   },
   {
+    id: "attraction-nassau-70-5",
+    city: "Nassau",
     title: "John Watling's Distillery",
     description:
       "Historic distillery located on a colonial-era estate, offering guided tours of the rum-making process and tastings in a restored Great House.",
@@ -375,7 +385,7 @@ export const nassaucaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -384,7 +394,7 @@ export const nassaucaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -393,7 +403,7 @@ export const nassaucaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -402,7 +412,7 @@ export const nassaucaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -411,7 +421,7 @@ export const nassaucaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -420,7 +430,7 @@ export const nassaucaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -429,7 +439,7 @@ export const nassaucaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },

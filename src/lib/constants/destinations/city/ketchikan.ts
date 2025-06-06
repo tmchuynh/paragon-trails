@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const ketchikanalaskaAttractions: Attraction[] = [
   {
+    id: "attraction-ketchikan-47-1",
+    city: "Ketchikan",
     title: "Totem Heritage Center",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-ketchikan-totem-center",
@@ -84,6 +86,8 @@ export const ketchikanalaskaAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-ketchikan-47-2",
+    city: "Ketchikan",
     title: "Misty Fjords National Monument",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-ketchikan-misty-fjords",
@@ -165,6 +169,8 @@ export const ketchikanalaskaAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-ketchikan-47-3",
+    city: "Ketchikan",
     title: "Creek Street",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-ketchikan-creek-street",

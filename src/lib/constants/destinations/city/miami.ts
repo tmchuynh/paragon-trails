@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const miamicaribbeanAttractions: Attraction[] = [
   {
+    id: "attraction-miami-68-1",
+    city: "Miami",
     title: "Vizcaya Museum and Gardens",
     description:
       "A historic estate featuring Italian Renaissance–style architecture, formal gardens, and period antiques, offering insight into early 20th-century Miami society.",
@@ -96,6 +98,8 @@ export const miamicaribbeanAttractions: Attraction[] = [
     features: ["museum", "garden", "historical architecture"],
   },
   {
+    id: "attraction-miami-68-2",
+    city: "Miami",
     title: "South Beach",
     description:
       "Iconic stretch of white-sand shoreline on Miami Beach, known for its Art Deco architecture, vibrant nightlife, and clear turquoise water.",
@@ -178,6 +182,8 @@ export const miamicaribbeanAttractions: Attraction[] = [
     features: ["beach", "sunbathing", "water sports"],
   },
   {
+    id: "attraction-miami-68-3",
+    city: "Miami",
     title: "Wynwood Walls",
     description:
       "An outdoor museum showcasing large-scale murals by international street artists; a central hub of Miami’s arts district.",
@@ -271,6 +277,8 @@ export const miamicaribbeanAttractions: Attraction[] = [
     features: ["street art", "museum", "photography"],
   },
   {
+    id: "attraction-miami-68-4",
+    city: "Miami",
     title: "Miami Seaquarium",
     description:
       "Marine-life park with daily dolphin and sea lion shows, aquariums, and interactive exhibits featuring tropical fish, turtles, and sharks.",
@@ -282,7 +290,7 @@ export const miamicaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "6:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -291,7 +299,7 @@ export const miamicaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "6:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -300,7 +308,7 @@ export const miamicaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "6:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -309,7 +317,7 @@ export const miamicaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "6:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -318,7 +326,7 @@ export const miamicaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "6:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -327,7 +335,7 @@ export const miamicaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "6:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -336,7 +344,7 @@ export const miamicaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "6:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -367,6 +375,8 @@ export const miamicaribbeanAttractions: Attraction[] = [
     features: ["aquarium", "animal shows", "family attractions"],
   },
   {
+    id: "attraction-miami-68-5",
+    city: "Miami",
     title: "Little Havana",
     description:
       "Vibrant Cuban-American neighborhood known for its street life, authentic cuisine, live music, and colorful murals along Calle Ocho.",

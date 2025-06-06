@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const amalfiCoastmediterraneanAttractions: Attraction[] = [
   {
+    id: "attraction-amalfi-coast-73-1",
+    city: "Amalfi Coast",
     title: "Positano Beach",
     description:
       "A picturesque pebble beach in Positano known for its colorful cliffside houses, crystal-clear waters, and vibrant seaside atmosphere.",
@@ -85,6 +87,8 @@ export const amalfiCoastmediterraneanAttractions: Attraction[] = [
     features: ["beach", "swimming", "scenic views", "sunbathing"],
   },
   {
+    id: "attraction-amalfi-coast-73-2",
+    city: "Amalfi Coast",
     title: "Villa Rufolo",
     description:
       "A historic villa in Ravello known for its beautiful gardens, Moorish architecture, and stunning views over the Amalfi Coast.",
@@ -167,6 +171,8 @@ export const amalfiCoastmediterraneanAttractions: Attraction[] = [
     features: ["historic villa", "gardens", "views", "architecture"],
   },
   {
+    id: "attraction-amalfi-coast-73-3",
+    city: "Amalfi Coast",
     title: "Path of the Gods (Sentiero degli Dei)",
     description:
       "A famous hiking trail offering breathtaking views of the Amalfi Coast, connecting the towns of Agerola and Positano.",
@@ -249,6 +255,8 @@ export const amalfiCoastmediterraneanAttractions: Attraction[] = [
     features: ["hiking", "nature", "scenic views", "outdoors"],
   },
   {
+    id: "attraction-amalfi-coast-73-4",
+    city: "Amalfi Coast",
     title: "Amalfi Cathedral (Cattedrale di Sant'Andrea)",
     description:
       "A stunning medieval cathedral located in Amalfi, famous for its Romanesque architecture and beautiful interior decorations.",
@@ -342,6 +350,8 @@ export const amalfiCoastmediterraneanAttractions: Attraction[] = [
     features: ["historical site", "architecture", "religious site", "cultural"],
   },
   {
+    id: "attraction-amalfi-coast-73-5",
+    city: "Amalfi Coast",
     title: "Fiordo di Furore",
     description:
       "A dramatic fjord with a small hidden beach, famous for its natural beauty and the picturesque bridge spanning the gorge.",

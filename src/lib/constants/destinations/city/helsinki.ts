@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const helsinkinortherneuropeAttractions: Attraction[] = [
   {
+    id: "attraction-helsinki-28-1",
+    city: "Helsinki",
     title: "Suomenlinna Sea Fortress",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-helsinki-suomenlinna",
@@ -84,6 +86,8 @@ export const helsinkinortherneuropeAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-helsinki-28-2",
+    city: "Helsinki",
     title: "Temppeliaukio Church",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-helsinki-temppeliaukio",
@@ -165,6 +169,8 @@ export const helsinkinortherneuropeAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-helsinki-28-3",
+    city: "Helsinki",
     title: "Helsinki Cathedral",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-helsinki-cathedral",

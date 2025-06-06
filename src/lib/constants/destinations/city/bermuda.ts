@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const bermudacaribbeanAttractions: Attraction[] = [
   {
+    id: "attraction-bermuda-20-1",
+    city: "Bermuda",
     title: "Horseshoe Bay Beach",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-bermuda-horseshoe-bay",
@@ -84,6 +86,8 @@ export const bermudacaribbeanAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-bermuda-20-2",
+    city: "Bermuda",
     title: "Crystal & Fantasy Caves",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-bermuda-crystal-caves",
@@ -165,6 +169,8 @@ export const bermudacaribbeanAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-bermuda-20-3",
+    city: "Bermuda",
     title: "Royal Naval Dockyard",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-bermuda-dockyard",
@@ -246,6 +252,8 @@ export const bermudacaribbeanAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-bermuda-20-4",
+    city: "Bermuda",
     title: "Gibb's Hill Lighthouse",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-gibbs-hill-lighthouse",
@@ -327,6 +335,8 @@ export const bermudacaribbeanAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-bermuda-20-5",
+    city: "Bermuda",
     title: "Bermuda Aquarium, Museum & Zoo",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-bermuda-aquarium",

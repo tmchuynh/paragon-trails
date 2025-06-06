@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const venicemediterraneanAttractions: Attraction[] = [
   {
+    id: "attraction-venice-8-1",
+    city: "Venice",
     title: "St. Mark's Basilica",
     description:
       "Iconic basilica known for its Byzantine architecture and golden mosaics.",
@@ -96,6 +98,8 @@ export const venicemediterraneanAttractions: Attraction[] = [
     features: ["basilica", "Byzantine architecture", "golden mosaics"],
   },
   {
+    id: "attraction-venice-8-2",
+    city: "Venice",
     title: "Grand Canal",
     description:
       "Main waterway of Venice, perfect for gondola rides and scenic views.",
@@ -106,8 +110,8 @@ export const venicemediterraneanAttractions: Attraction[] = [
         day: "Monday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -115,8 +119,8 @@ export const venicemediterraneanAttractions: Attraction[] = [
         day: "Tuesday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -124,8 +128,8 @@ export const venicemediterraneanAttractions: Attraction[] = [
         day: "Wednesday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -133,8 +137,8 @@ export const venicemediterraneanAttractions: Attraction[] = [
         day: "Thursday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -142,8 +146,8 @@ export const venicemediterraneanAttractions: Attraction[] = [
         day: "Friday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -151,8 +155,8 @@ export const venicemediterraneanAttractions: Attraction[] = [
         day: "Saturday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -160,8 +164,8 @@ export const venicemediterraneanAttractions: Attraction[] = [
         day: "Sunday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -178,6 +182,8 @@ export const venicemediterraneanAttractions: Attraction[] = [
     features: ["canal", "gondola rides", "scenic views"],
   },
   {
+    id: "attraction-venice-8-3",
+    city: "Venice",
     title: "Doge's Palace",
     description: "Historic palace and former residence of the Doge of Venice.",
     imageUrl: "https://images.unsplash.com/photo-venice-doges-palace",

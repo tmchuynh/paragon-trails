@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const sanJuancaribbeanAttractions: Attraction[] = [
   {
+    id: "attraction-san-juan-36-1",
+    city: "San Juan",
     title: "Old San Juan",
     description:
       "Historic colonial district with cobblestone streets, colorful buildings, and 16th-century forts.",
@@ -85,6 +87,8 @@ export const sanJuancaribbeanAttractions: Attraction[] = [
     features: ["historic district", "colonial architecture", "scenic views"],
   },
   {
+    id: "attraction-san-juan-36-2",
+    city: "San Juan",
     title: "Castillo San Felipe del Morro",
     description:
       "Massive 16th-century citadel offering stunning ocean views and insight into colonial-era military architecture.",
@@ -178,6 +182,8 @@ export const sanJuancaribbeanAttractions: Attraction[] = [
     features: ["fortress", "historical site", "ocean views"],
   },
   {
+    id: "attraction-san-juan-36-3",
+    city: "San Juan",
     title: "Condado Beach",
     description:
       "Popular beach near San Juan’s hotel district known for its golden sand and lively atmosphere.",

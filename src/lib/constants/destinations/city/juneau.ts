@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const juneaualaskaAttractions: Attraction[] = [
   {
+    id: "attraction-juneau-46-1",
+    city: "Juneau",
     title: "Mendenhall Glacier",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-juneau-mendenhall-glacier",
@@ -84,6 +86,8 @@ export const juneaualaskaAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-juneau-46-2",
+    city: "Juneau",
     title: "Mount Roberts Tramway",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-juneau-tramway",
@@ -165,6 +169,8 @@ export const juneaualaskaAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-juneau-46-3",
+    city: "Juneau",
     title: "Alaska State Museum",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-juneau-alaska-museum",

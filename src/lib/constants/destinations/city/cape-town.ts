@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const capeTownafricaAttractions: Attraction[] = [
   {
+    id: "attraction-cape-town-22-1",
+    city: "Cape Town",
     title: "Table Mountain",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-cape-town-table-mountain",
@@ -84,6 +86,8 @@ export const capeTownafricaAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-cape-town-22-2",
+    city: "Cape Town",
     title: "Robben Island",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-cape-town-robben-island",
@@ -165,6 +169,8 @@ export const capeTownafricaAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-cape-town-22-3",
+    city: "Cape Town",
     title: "V&A Waterfront",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-cape-town-waterfront",

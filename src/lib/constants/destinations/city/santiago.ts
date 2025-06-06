@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const santiagosouthamericaAttractions: Attraction[] = [
   {
+    id: "attraction-santiago-37-1",
+    city: "Santiago",
     title: "Cerro San Cristóbal",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-santiago-cerro-san-cristobal",
@@ -84,6 +86,8 @@ export const santiagosouthamericaAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-santiago-37-2",
+    city: "Santiago",
     title: "Plaza de Armas",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-santiago-plaza-de-armas",
@@ -165,6 +169,8 @@ export const santiagosouthamericaAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-santiago-37-3",
+    city: "Santiago",
     title: "La Moneda Palace",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-santiago-la-moneda",

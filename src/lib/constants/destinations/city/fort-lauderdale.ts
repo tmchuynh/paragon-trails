@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const fortLauderdalecaribbeanAttractions: Attraction[] = [
   {
+    id: "attraction-fort-lauderdale-56-1",
+    city: "Fort Lauderdale",
     title: "Fort Lauderdale Beach",
     description:
       "Popular beach destination with a lively promenade, watersports, and beautiful sandy shores.",
@@ -85,6 +87,8 @@ export const fortLauderdalecaribbeanAttractions: Attraction[] = [
     features: ["beach", "watersports", "promenade", "sunbathing"],
   },
   {
+    id: "attraction-fort-lauderdale-56-2",
+    city: "Fort Lauderdale",
     title: "Las Olas Boulevard",
     description:
       "Vibrant street filled with shops, restaurants, galleries, and nightlife, known as Fort Lauderdale’s cultural hub.",
@@ -167,6 +171,8 @@ export const fortLauderdalecaribbeanAttractions: Attraction[] = [
     features: ["shopping", "dining", "art galleries", "nightlife"],
   },
   {
+    id: "attraction-fort-lauderdale-56-3",
+    city: "Fort Lauderdale",
     title: "Bonnet House Museum & Gardens",
     description:
       "Historic estate with art collections, beautiful gardens, and wildlife sanctuary.",
@@ -178,7 +184,7 @@ export const fortLauderdalecaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "4:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -187,7 +193,7 @@ export const fortLauderdalecaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "4:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -196,7 +202,7 @@ export const fortLauderdalecaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "4:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -205,7 +211,7 @@ export const fortLauderdalecaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "4:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -214,7 +220,7 @@ export const fortLauderdalecaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "4:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -223,7 +229,7 @@ export const fortLauderdalecaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "4:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -232,7 +238,7 @@ export const fortLauderdalecaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "4:00 PM",
+            to: "5:00 AM",
           },
         ],
       },

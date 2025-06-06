@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const quebecCityeastcoastcanadaAttractions: Attraction[] = [
   {
+    id: "attraction-quebec-city-34-1",
+    city: "Quebec City",
     title: "Old Quebec",
     description:
       "UNESCO World Heritage Site featuring cobblestone streets, historic architecture, and fortified city walls.",
@@ -85,6 +87,8 @@ export const quebecCityeastcoastcanadaAttractions: Attraction[] = [
     features: ["historic district", "cobblestone streets", "scenic views"],
   },
   {
+    id: "attraction-quebec-city-34-2",
+    city: "Quebec City",
     title: "Château Frontenac",
     description:
       "Iconic grand hotel and historic site with panoramic views over the St. Lawrence River.",
@@ -178,6 +182,8 @@ export const quebecCityeastcoastcanadaAttractions: Attraction[] = [
     features: ["historic hotel", "panoramic views", "guided tours"],
   },
   {
+    id: "attraction-quebec-city-34-3",
+    city: "Quebec City",
     title: "Montmorency Falls",
     description:
       "Spectacular waterfall higher than Niagara Falls, with a suspension bridge and cable car views.",

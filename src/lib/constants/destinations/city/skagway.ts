@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const skagwayalaskaAttractions: Attraction[] = [
   {
+    id: "attraction-skagway-48-1",
+    city: "Skagway",
     title: "Klondike Gold Rush National Historical Park",
     description:
       "Historic park commemorating the gold rush era with preserved buildings and educational exhibits.",
@@ -85,6 +87,8 @@ export const skagwayalaskaAttractions: Attraction[] = [
     features: ["historical park", "gold rush history", "guided tours"],
   },
   {
+    id: "attraction-skagway-48-2",
+    city: "Skagway",
     title: "White Pass & Yukon Route Railroad",
     description:
       "Scenic narrow-gauge railway offering breathtaking views of mountains and gorges along the gold rush route.",
@@ -167,6 +171,8 @@ export const skagwayalaskaAttractions: Attraction[] = [
     features: ["scenic railway", "mountain views", "gold rush history"],
   },
   {
+    id: "attraction-skagway-48-3",
+    city: "Skagway",
     title: "Skagway Museum",
     description:
       "Local museum featuring artifacts and exhibits on the gold rush, native culture, and regional history.",
@@ -178,7 +184,7 @@ export const skagwayalaskaAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "4:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -187,7 +193,7 @@ export const skagwayalaskaAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "4:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -196,7 +202,7 @@ export const skagwayalaskaAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "4:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -205,7 +211,7 @@ export const skagwayalaskaAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "4:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -214,7 +220,7 @@ export const skagwayalaskaAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "4:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -223,7 +229,7 @@ export const skagwayalaskaAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "4:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -232,7 +238,7 @@ export const skagwayalaskaAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "4:00 PM",
+            to: "5:00 AM",
           },
         ],
       },

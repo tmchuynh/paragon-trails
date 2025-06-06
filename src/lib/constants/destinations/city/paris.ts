@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const parisnortherneuropeAttractions: Attraction[] = [
   {
+    id: "attraction-paris-4-1",
+    city: "Paris",
     title: "Eiffel Tower",
     description: "Iconic wrought-iron lattice tower on the Champ de Mars.",
     imageUrl: "https://images.unsplash.com/photo-paris-eiffel-tower",
@@ -103,6 +105,8 @@ export const parisnortherneuropeAttractions: Attraction[] = [
     features: ["landmark", "views", "restaurant", "observation deck"],
   },
   {
+    id: "attraction-paris-4-2",
+    city: "Paris",
     title: "Louvre Museum",
     description: "World's largest art museum and a historic monument in Paris.",
     imageUrl: "https://images.unsplash.com/photo-paris-louvre",
@@ -195,6 +199,8 @@ export const parisnortherneuropeAttractions: Attraction[] = [
     features: ["museum", "art", "cultural history", "guided tours"],
   },
   {
+    id: "attraction-paris-4-3",
+    city: "Paris",
     title: "Montmartre",
     description:
       "Historic hilltop neighborhood known for its artistic history.",
@@ -205,8 +211,8 @@ export const parisnortherneuropeAttractions: Attraction[] = [
         day: "Monday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -214,8 +220,8 @@ export const parisnortherneuropeAttractions: Attraction[] = [
         day: "Tuesday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -223,8 +229,8 @@ export const parisnortherneuropeAttractions: Attraction[] = [
         day: "Wednesday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -232,8 +238,8 @@ export const parisnortherneuropeAttractions: Attraction[] = [
         day: "Thursday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -241,8 +247,8 @@ export const parisnortherneuropeAttractions: Attraction[] = [
         day: "Friday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -250,8 +256,8 @@ export const parisnortherneuropeAttractions: Attraction[] = [
         day: "Saturday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -259,8 +265,8 @@ export const parisnortherneuropeAttractions: Attraction[] = [
         day: "Sunday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },

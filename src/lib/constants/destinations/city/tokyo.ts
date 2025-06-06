@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const tokyoasiapacificAttractions: Attraction[] = [
   {
+    id: "attraction-tokyo-7-1",
+    city: "Tokyo",
     title: "Senso-ji Temple",
     description:
       "Tokyo’s oldest temple, famous for its Kaminarimon Gate and shopping street.",
@@ -85,6 +87,8 @@ export const tokyoasiapacificAttractions: Attraction[] = [
     features: ["temple", "historical site", "shopping street"],
   },
   {
+    id: "attraction-tokyo-7-2",
+    city: "Tokyo",
     title: "Shibuya Crossing",
     description:
       "World-famous intersection known for its scramble crossing and neon lights, symbolizing the hustle of Tokyo.",
@@ -167,6 +171,8 @@ export const tokyoasiapacificAttractions: Attraction[] = [
     features: ["intersection", "neon lights", "shopping", "entertainment"],
   },
   {
+    id: "attraction-tokyo-7-3",
+    city: "Tokyo",
     title: "Tokyo Tower",
     description:
       "Iconic communications and observation tower offering city views.",

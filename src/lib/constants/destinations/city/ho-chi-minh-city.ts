@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const hoChiMinhCityasiapacificAttractions: Attraction[] = [
   {
+    id: "attraction-ho-chi-minh-city-64-1",
+    city: "Ho Chi Minh City",
     title: "War Remnants Museum",
     description:
       "Museum exhibiting artifacts and photographs from the Vietnam War, offering insight into the country's history.",
@@ -13,8 +15,8 @@ export const hoChiMinhCityasiapacificAttractions: Attraction[] = [
         day: "Monday",
         availableHours: [
           {
-            from: "7:30 AM",
-            to: "6:00 PM",
+            from: "7:00 AM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -22,8 +24,8 @@ export const hoChiMinhCityasiapacificAttractions: Attraction[] = [
         day: "Tuesday",
         availableHours: [
           {
-            from: "7:30 AM",
-            to: "6:00 PM",
+            from: "7:00 AM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -31,8 +33,8 @@ export const hoChiMinhCityasiapacificAttractions: Attraction[] = [
         day: "Wednesday",
         availableHours: [
           {
-            from: "7:30 AM",
-            to: "6:00 PM",
+            from: "7:00 AM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -40,8 +42,8 @@ export const hoChiMinhCityasiapacificAttractions: Attraction[] = [
         day: "Thursday",
         availableHours: [
           {
-            from: "7:30 AM",
-            to: "6:00 PM",
+            from: "7:00 AM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -49,8 +51,8 @@ export const hoChiMinhCityasiapacificAttractions: Attraction[] = [
         day: "Friday",
         availableHours: [
           {
-            from: "7:30 AM",
-            to: "6:00 PM",
+            from: "7:00 AM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -58,8 +60,8 @@ export const hoChiMinhCityasiapacificAttractions: Attraction[] = [
         day: "Saturday",
         availableHours: [
           {
-            from: "7:30 AM",
-            to: "6:00 PM",
+            from: "8:00 AM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -67,8 +69,8 @@ export const hoChiMinhCityasiapacificAttractions: Attraction[] = [
         day: "Sunday",
         availableHours: [
           {
-            from: "7:30 AM",
-            to: "6:00 PM",
+            from: "8:00 AM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -96,6 +98,8 @@ export const hoChiMinhCityasiapacificAttractions: Attraction[] = [
     features: ["museum", "war history", "educational exhibits"],
   },
   {
+    id: "attraction-ho-chi-minh-city-64-2",
+    city: "Ho Chi Minh City",
     title: "Cu Chi Tunnels",
     description:
       "An extensive network of underground tunnels used during the Vietnam War, now a popular tourist attraction.",
@@ -107,7 +111,7 @@ export const hoChiMinhCityasiapacificAttractions: Attraction[] = [
         availableHours: [
           {
             from: "7:00 AM",
-            to: "5:00 PM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -116,7 +120,7 @@ export const hoChiMinhCityasiapacificAttractions: Attraction[] = [
         availableHours: [
           {
             from: "7:00 AM",
-            to: "5:00 PM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -125,7 +129,7 @@ export const hoChiMinhCityasiapacificAttractions: Attraction[] = [
         availableHours: [
           {
             from: "7:00 AM",
-            to: "5:00 PM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -134,7 +138,7 @@ export const hoChiMinhCityasiapacificAttractions: Attraction[] = [
         availableHours: [
           {
             from: "7:00 AM",
-            to: "5:00 PM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -143,7 +147,7 @@ export const hoChiMinhCityasiapacificAttractions: Attraction[] = [
         availableHours: [
           {
             from: "7:00 AM",
-            to: "5:00 PM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -151,8 +155,8 @@ export const hoChiMinhCityasiapacificAttractions: Attraction[] = [
         day: "Saturday",
         availableHours: [
           {
-            from: "7:00 AM",
-            to: "5:00 PM",
+            from: "8:00 AM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -160,8 +164,8 @@ export const hoChiMinhCityasiapacificAttractions: Attraction[] = [
         day: "Sunday",
         availableHours: [
           {
-            from: "7:00 AM",
-            to: "5:00 PM",
+            from: "8:00 AM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -189,6 +193,8 @@ export const hoChiMinhCityasiapacificAttractions: Attraction[] = [
     features: ["historical site", "tunnel exploration", "guided tours"],
   },
   {
+    id: "attraction-ho-chi-minh-city-64-3",
+    city: "Ho Chi Minh City",
     title: "Ben Thanh Market",
     description:
       "A bustling market offering a wide range of goods, from local handicrafts to street food.",
@@ -199,8 +205,8 @@ export const hoChiMinhCityasiapacificAttractions: Attraction[] = [
         day: "Monday",
         availableHours: [
           {
-            from: "6:00 AM",
-            to: "6:00 PM",
+            from: "7:00 AM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -208,8 +214,8 @@ export const hoChiMinhCityasiapacificAttractions: Attraction[] = [
         day: "Tuesday",
         availableHours: [
           {
-            from: "6:00 AM",
-            to: "6:00 PM",
+            from: "7:00 AM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -217,8 +223,8 @@ export const hoChiMinhCityasiapacificAttractions: Attraction[] = [
         day: "Wednesday",
         availableHours: [
           {
-            from: "6:00 AM",
-            to: "6:00 PM",
+            from: "7:00 AM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -226,8 +232,8 @@ export const hoChiMinhCityasiapacificAttractions: Attraction[] = [
         day: "Thursday",
         availableHours: [
           {
-            from: "6:00 AM",
-            to: "6:00 PM",
+            from: "7:00 AM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -235,8 +241,8 @@ export const hoChiMinhCityasiapacificAttractions: Attraction[] = [
         day: "Friday",
         availableHours: [
           {
-            from: "6:00 AM",
-            to: "6:00 PM",
+            from: "7:00 AM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -244,8 +250,8 @@ export const hoChiMinhCityasiapacificAttractions: Attraction[] = [
         day: "Saturday",
         availableHours: [
           {
-            from: "6:00 AM",
-            to: "6:00 PM",
+            from: "8:00 AM",
+            to: "6:00 AM",
           },
         ],
       },
@@ -253,8 +259,8 @@ export const hoChiMinhCityasiapacificAttractions: Attraction[] = [
         day: "Sunday",
         availableHours: [
           {
-            from: "6:00 AM",
-            to: "6:00 PM",
+            from: "8:00 AM",
+            to: "6:00 AM",
           },
         ],
       },

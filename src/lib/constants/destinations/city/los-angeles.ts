@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const losAngeleswestcoastusaAttractions: Attraction[] = [
   {
+    id: "attraction-los-angeles-31-1",
+    city: "Los Angeles",
     title: "Hollywood Walk of Fame",
     description:
       "Famous sidewalk celebrating stars of the entertainment industry with over 2,700 brass stars.",
@@ -85,6 +87,8 @@ export const losAngeleswestcoastusaAttractions: Attraction[] = [
     features: ["sidewalk", "celebrity stars", "entertainment history"],
   },
   {
+    id: "attraction-los-angeles-31-2",
+    city: "Los Angeles",
     title: "Griffith Observatory",
     description:
       "Public observatory with exhibits, telescopes, and panoramic views of Los Angeles and the Hollywood Sign.",
@@ -162,6 +166,8 @@ export const losAngeleswestcoastusaAttractions: Attraction[] = [
     features: ["observatory", "telescope", "Hollywood Sign views"],
   },
   {
+    id: "attraction-los-angeles-31-3",
+    city: "Los Angeles",
     title: "Santa Monica Pier",
     description:
       "Iconic oceanfront pier with an amusement park, aquarium, shops, and restaurants.",

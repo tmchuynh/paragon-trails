@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const stThomascaribbeanAttractions: Attraction[] = [
   {
+    id: "attraction-st-thomas-51-1",
+    city: "St Thomas",
     title: "Magens Bay Beach",
     description:
       "One of the most beautiful beaches in the Caribbean, known for calm waters and a scenic bay.",
@@ -96,6 +98,8 @@ export const stThomascaribbeanAttractions: Attraction[] = [
     features: ["beach", "swimming", "snorkeling", "sunbathing"],
   },
   {
+    id: "attraction-st-thomas-51-2",
+    city: "St Thomas",
     title: "Blackbeard's Castle",
     description:
       "Historic watchtower and attraction with panoramic views and pirate-themed history exhibits.",
@@ -189,6 +193,8 @@ export const stThomascaribbeanAttractions: Attraction[] = [
     features: ["historical site", "watchtower", "panoramic views"],
   },
   {
+    id: "attraction-st-thomas-51-3",
+    city: "St Thomas",
     title: "Coral World Ocean Park",
     description:
       "Marine park offering close-up encounters with sea life, an underwater observatory, and touch pools.",

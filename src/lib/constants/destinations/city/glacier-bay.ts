@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const glacierBayalaskaAttractions: Attraction[] = [
   {
+    id: "attraction-glacier-bay-54-1",
+    city: "Glacier Bay",
     title: "Glacier Bay National Park",
     description:
       "Expansive national park in Alaska known for tidewater glaciers, wildlife, and stunning fjords.",
@@ -85,6 +87,8 @@ export const glacierBayalaskaAttractions: Attraction[] = [
     features: ["national park", "glaciers", "wildlife", "fjords"],
   },
   {
+    id: "attraction-glacier-bay-54-2",
+    city: "Glacier Bay",
     title: "Johns Hopkins Glacier",
     description:
       "Remote tidewater glacier within Glacier Bay, admired for its striking blue ice and calving displays.",
@@ -167,6 +171,8 @@ export const glacierBayalaskaAttractions: Attraction[] = [
     features: ["glacier", "blue ice", "calving displays"],
   },
   {
+    id: "attraction-glacier-bay-54-3",
+    city: "Glacier Bay",
     title: "Muir Glacier",
     description:
       "Formerly massive glacier in Glacier Bay, now significantly retreated but still a scenic landmark for eco-tours.",

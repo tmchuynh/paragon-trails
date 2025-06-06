@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const hongKongasiapacificAttractions: Attraction[] = [
   {
+    id: "attraction-hong-kong-29-1",
+    city: "Hong Kong",
     title: "Victoria Peak",
     description:
       "Highest point on Hong Kong Island with observation decks and sweeping views of the city skyline and harbor.",
@@ -85,6 +87,8 @@ export const hongKongasiapacificAttractions: Attraction[] = [
     features: ["peak", "observation deck", "city views"],
   },
   {
+    id: "attraction-hong-kong-29-2",
+    city: "Hong Kong",
     title: "Tsim Sha Tsui Promenade",
     description:
       "Waterfront promenade offering stunning views of Hong Kong’s skyline, especially at night.",
@@ -167,6 +171,8 @@ export const hongKongasiapacificAttractions: Attraction[] = [
     features: ["promenade", "waterfront", "city skyline views"],
   },
   {
+    id: "attraction-hong-kong-29-3",
+    city: "Hong Kong",
     title: "Hong Kong Disneyland",
     description:
       "Family theme park with classic Disney rides, entertainment, and themed zones.",

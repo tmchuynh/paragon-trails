@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const londonnortherneuropeAttractions: Attraction[] = [
   {
+    id: "attraction-london-2-1",
+    city: "London",
     title: "Tower of London",
     description: "Historic castle on the north bank of the River Thames.",
     imageUrl: "https://images.unsplash.com/photo-london-tower-of-london",
@@ -95,6 +97,8 @@ export const londonnortherneuropeAttractions: Attraction[] = [
     features: ["castle", "history", "crown jewels", "guided tours"],
   },
   {
+    id: "attraction-london-2-2",
+    city: "London",
     title: "British Museum",
     description: "Public museum dedicated to human history, art and culture.",
     imageUrl: "https://images.unsplash.com/photo-london-british-museum",
@@ -176,6 +180,8 @@ export const londonnortherneuropeAttractions: Attraction[] = [
     features: ["museum", "art", "world history", "artifacts", "exhibitions"],
   },
   {
+    id: "attraction-london-2-3",
+    city: "London",
     title: "Hyde Park",
     description: "One of the largest parks in London and a Royal Park.",
     imageUrl: "https://images.unsplash.com/photo-london-hyde-park",

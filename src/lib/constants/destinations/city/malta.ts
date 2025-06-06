@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const maltamediterraneanAttractions: Attraction[] = [
   {
+    id: "attraction-malta-58-1",
+    city: "Malta",
     title: "Valletta Waterfront",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-malta-valletta-waterfront",
@@ -84,6 +86,8 @@ export const maltamediterraneanAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-malta-58-2",
+    city: "Malta",
     title: "St. John's Co-Cathedral",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-malta-st-johns-cathedral",
@@ -165,6 +169,8 @@ export const maltamediterraneanAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-malta-58-3",
+    city: "Malta",
     title: "Blue Lagoon",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-malta-blue-lagoon",

@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const lisbonmediterraneanAttractions: Attraction[] = [
   {
+    id: "attraction-lisbon-30-1",
+    city: "Lisbon",
     title: "Belém Tower",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-lisbon-belem-tower",
@@ -84,6 +86,8 @@ export const lisbonmediterraneanAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-lisbon-30-2",
+    city: "Lisbon",
     title: "Jerónimos Monastery",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-lisbon-jeronimos",
@@ -165,6 +169,8 @@ export const lisbonmediterraneanAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-lisbon-30-3",
+    city: "Lisbon",
     title: "Alfama District",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-lisbon-alfama",

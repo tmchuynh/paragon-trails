@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const bangkokasiapacificAttractions: Attraction[] = [
   {
+    id: "attraction-bangkok-9-1",
+    city: "Bangkok",
     title: "Grand Palace",
     description: "Historic royal residence featuring intricate architecture.",
     imageUrl: "https://images.unsplash.com/photo-bangkok-grand-palace",
@@ -95,6 +97,8 @@ export const bangkokasiapacificAttractions: Attraction[] = [
     features: ["palace", "historical site", "guided tours"],
   },
   {
+    id: "attraction-bangkok-9-2",
+    city: "Bangkok",
     title: "Chatuchak Market",
     description: "Vast weekend market with diverse shopping and food stalls.",
     imageUrl: "https://images.unsplash.com/photo-bangkok-chatuchak",
@@ -176,6 +180,8 @@ export const bangkokasiapacificAttractions: Attraction[] = [
     features: ["market", "shopping", "food stalls", "weekend market"],
   },
   {
+    id: "attraction-bangkok-9-3",
+    city: "Bangkok",
     title: "Wat Arun",
     description:
       "Famous riverside temple with distinctive spires and riverside views.",

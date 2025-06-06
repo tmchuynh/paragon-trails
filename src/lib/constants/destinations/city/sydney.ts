@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const sydneyasiapacificAttractions: Attraction[] = [
   {
+    id: "attraction-sydney-6-1",
+    city: "Sydney",
     title: "Sydney Opera House",
     description:
       "World-famous performing arts center with distinctive architecture.",
@@ -14,7 +16,7 @@ export const sydneyasiapacificAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -23,7 +25,7 @@ export const sydneyasiapacificAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -32,7 +34,7 @@ export const sydneyasiapacificAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -41,7 +43,7 @@ export const sydneyasiapacificAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -50,7 +52,7 @@ export const sydneyasiapacificAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -59,7 +61,7 @@ export const sydneyasiapacificAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -68,7 +70,7 @@ export const sydneyasiapacificAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -96,6 +98,8 @@ export const sydneyasiapacificAttractions: Attraction[] = [
     features: ["performing arts", "architecture", "guided tours"],
   },
   {
+    id: "attraction-sydney-6-2",
+    city: "Sydney",
     title: "Bondi Beach",
     description: "Popular beach known for surfing and coastal walks.",
     imageUrl: "https://images.unsplash.com/photo-sydney-bondi-beach",
@@ -105,8 +109,8 @@ export const sydneyasiapacificAttractions: Attraction[] = [
         day: "Monday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -114,8 +118,8 @@ export const sydneyasiapacificAttractions: Attraction[] = [
         day: "Tuesday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -123,8 +127,8 @@ export const sydneyasiapacificAttractions: Attraction[] = [
         day: "Wednesday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -132,8 +136,8 @@ export const sydneyasiapacificAttractions: Attraction[] = [
         day: "Thursday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -141,8 +145,8 @@ export const sydneyasiapacificAttractions: Attraction[] = [
         day: "Friday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -150,8 +154,8 @@ export const sydneyasiapacificAttractions: Attraction[] = [
         day: "Saturday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -159,8 +163,8 @@ export const sydneyasiapacificAttractions: Attraction[] = [
         day: "Sunday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -177,6 +181,8 @@ export const sydneyasiapacificAttractions: Attraction[] = [
     features: ["beach", "surfing", "walking", "outdoor"],
   },
   {
+    id: "attraction-sydney-6-3",
+    city: "Sydney",
     title: "Taronga Zoo",
     description: "Large zoo featuring native and exotic animals.",
     imageUrl: "https://images.unsplash.com/photo-sydney-taronga-zoo",

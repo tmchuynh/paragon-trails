@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const amsterdamnortherneuropeAttractions: Attraction[] = [
   {
+    id: "attraction-amsterdam-1-1",
+    city: "Amsterdam",
     title: "Rijksmuseum",
     description: "National museum showcasing Dutch art and history.",
     imageUrl: "https://images.unsplash.com/photo-amsterdam-rijksmuseum",
@@ -95,6 +97,8 @@ export const amsterdamnortherneuropeAttractions: Attraction[] = [
     features: ["museum", "art", "Dutch history", "guided tours"],
   },
   {
+    id: "attraction-amsterdam-1-2",
+    city: "Amsterdam",
     title: "Anne Frank House",
     description: "Museum dedicated to the Jewish wartime diarist Anne Frank.",
     imageUrl: "https://images.unsplash.com/photo-amsterdam-anne-frank",
@@ -187,6 +191,8 @@ export const amsterdamnortherneuropeAttractions: Attraction[] = [
     features: ["museum", "WWII history", "education"],
   },
   {
+    id: "attraction-amsterdam-1-3",
+    city: "Amsterdam",
     title: "Vondelpark",
     description:
       "Popular park offering open green spaces and outdoor activities.",

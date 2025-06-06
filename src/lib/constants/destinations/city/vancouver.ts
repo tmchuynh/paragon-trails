@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const vancouveralaskaAttractions: Attraction[] = [
   {
+    id: "attraction-vancouver-44-1",
+    city: "Vancouver",
     title: "Stanley Park",
     description:
       "1,000-acre public park with scenic trails, beaches, gardens, and cultural landmarks like totem poles.",
@@ -85,6 +87,8 @@ export const vancouveralaskaAttractions: Attraction[] = [
     features: ["public park", "scenic trails", "beaches", "gardens"],
   },
   {
+    id: "attraction-vancouver-44-2",
+    city: "Vancouver",
     title: "Granville Island",
     description:
       "Vibrant district known for its public market, artisan shops, theaters, and waterfront dining.",
@@ -172,6 +176,8 @@ export const vancouveralaskaAttractions: Attraction[] = [
     ],
   },
   {
+    id: "attraction-vancouver-44-3",
+    city: "Vancouver",
     title: "Capilano Suspension Bridge",
     description:
       "Historic 137-meter suspension bridge crossing the Capilano River with treetop adventures and cliffwalks.",

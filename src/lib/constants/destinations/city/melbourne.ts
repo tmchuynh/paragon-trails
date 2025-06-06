@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const melbourneasiapacificAttractions: Attraction[] = [
   {
+    id: "attraction-melbourne-59-1",
+    city: "Melbourne",
     title: "Federation Square",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-melbourne-federation-square",
@@ -84,6 +86,8 @@ export const melbourneasiapacificAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-melbourne-59-2",
+    city: "Melbourne",
     title: "Royal Botanic Gardens",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-melbourne-botanic-gardens",
@@ -165,6 +169,8 @@ export const melbourneasiapacificAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-melbourne-59-3",
+    city: "Melbourne",
     title: "Queen Victoria Market",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-melbourne-victoria-market",

@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const montevideosouthamericaAttractions: Attraction[] = [
   {
+    id: "attraction-montevideo-69-1",
+    city: "Montevideo",
     title: "Ciudad Vieja",
     description:
       "Montevideo’s historic Old Town, characterized by colonial-era buildings, cobblestone streets, art galleries, and plazas dating back to the 18th century.",
@@ -85,6 +87,8 @@ export const montevideosouthamericaAttractions: Attraction[] = [
     features: ["walking tours", "architecture", "history"],
   },
   {
+    id: "attraction-montevideo-69-2",
+    city: "Montevideo",
     title: "Teatro Solís",
     description:
       "The oldest theater in Uruguay, renowned for its neoclassical architecture and world-class opera, ballet, and orchestral performances.",
@@ -181,6 +185,8 @@ export const montevideosouthamericaAttractions: Attraction[] = [
     features: ["performances", "architecture", "guided tours"],
   },
   {
+    id: "attraction-montevideo-69-3",
+    city: "Montevideo",
     title: "Rambla of Montevideo",
     description:
       "A 22-mile waterfront promenade along the Río de la Plata, popular for walking, jogging, cycling, and watching sunsets over the river.",
@@ -266,6 +272,8 @@ export const montevideosouthamericaAttractions: Attraction[] = [
     features: ["cycling", "jogging", "sunset views"],
   },
   {
+    id: "attraction-montevideo-69-4",
+    city: "Montevideo",
     title: "Mercado del Puerto",
     description:
       "Historic iron-roofed market known for its parrilladas (grill restaurants), local crafts, and live music—a central gathering spot for food lovers.",
@@ -277,7 +285,7 @@ export const montevideosouthamericaAttractions: Attraction[] = [
         availableHours: [
           {
             from: "12:00 PM",
-            to: "11:00 PM",
+            to: "11:00 AM",
           },
         ],
       },
@@ -286,7 +294,7 @@ export const montevideosouthamericaAttractions: Attraction[] = [
         availableHours: [
           {
             from: "12:00 PM",
-            to: "11:00 PM",
+            to: "11:00 AM",
           },
         ],
       },
@@ -295,7 +303,7 @@ export const montevideosouthamericaAttractions: Attraction[] = [
         availableHours: [
           {
             from: "12:00 PM",
-            to: "11:00 PM",
+            to: "11:00 AM",
           },
         ],
       },
@@ -304,7 +312,7 @@ export const montevideosouthamericaAttractions: Attraction[] = [
         availableHours: [
           {
             from: "12:00 PM",
-            to: "11:00 PM",
+            to: "11:00 AM",
           },
         ],
       },
@@ -313,7 +321,7 @@ export const montevideosouthamericaAttractions: Attraction[] = [
         availableHours: [
           {
             from: "12:00 PM",
-            to: "11:00 PM",
+            to: "11:00 AM",
           },
         ],
       },
@@ -322,7 +330,7 @@ export const montevideosouthamericaAttractions: Attraction[] = [
         availableHours: [
           {
             from: "12:00 PM",
-            to: "11:00 PM",
+            to: "11:00 AM",
           },
         ],
       },
@@ -331,7 +339,7 @@ export const montevideosouthamericaAttractions: Attraction[] = [
         availableHours: [
           {
             from: "12:00 PM",
-            to: "11:00 PM",
+            to: "11:00 AM",
           },
         ],
       },
@@ -348,6 +356,8 @@ export const montevideosouthamericaAttractions: Attraction[] = [
     features: ["grills", "local cuisine", "live music"],
   },
   {
+    id: "attraction-montevideo-69-5",
+    city: "Montevideo",
     title: "Museo Nacional de Artes Visuales",
     description:
       "Houses Uruguay’s most important collection of national paintings and sculptures, with works dating from the 19th and 20th centuries.",

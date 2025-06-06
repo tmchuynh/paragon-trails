@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const sanFranciscowestcoastusaAttractions: Attraction[] = [
   {
+    id: "attraction-san-francisco-11-1",
+    city: "San Francisco",
     title: "Golden Gate Bridge",
     description: "Iconic suspension bridge with scenic views and walkways.",
     imageUrl: "https://images.unsplash.com/photo-sf-golden-gate",
@@ -84,6 +86,8 @@ export const sanFranciscowestcoastusaAttractions: Attraction[] = [
     features: ["bridge", "scenic views", "walkways"],
   },
   {
+    id: "attraction-san-francisco-11-2",
+    city: "San Francisco",
     title: "Alcatraz Island",
     description:
       "Historic former prison island offering guided tours and views.",
@@ -95,7 +99,7 @@ export const sanFranciscowestcoastusaAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "6:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -104,7 +108,7 @@ export const sanFranciscowestcoastusaAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "6:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -113,7 +117,7 @@ export const sanFranciscowestcoastusaAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "6:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -122,7 +126,7 @@ export const sanFranciscowestcoastusaAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "6:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -131,7 +135,7 @@ export const sanFranciscowestcoastusaAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "6:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -140,7 +144,7 @@ export const sanFranciscowestcoastusaAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "6:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -149,7 +153,7 @@ export const sanFranciscowestcoastusaAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "6:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -166,6 +170,8 @@ export const sanFranciscowestcoastusaAttractions: Attraction[] = [
     features: ["island", "former prison", "guided tours"],
   },
   {
+    id: "attraction-san-francisco-11-3",
+    city: "San Francisco",
     title: "Fisherman's Wharf",
     description:
       "Popular tourist area with shops, seafood, and waterfront views.",
@@ -176,8 +182,8 @@ export const sanFranciscowestcoastusaAttractions: Attraction[] = [
         day: "Monday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -185,8 +191,8 @@ export const sanFranciscowestcoastusaAttractions: Attraction[] = [
         day: "Tuesday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -194,8 +200,8 @@ export const sanFranciscowestcoastusaAttractions: Attraction[] = [
         day: "Wednesday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -203,8 +209,8 @@ export const sanFranciscowestcoastusaAttractions: Attraction[] = [
         day: "Thursday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -212,8 +218,8 @@ export const sanFranciscowestcoastusaAttractions: Attraction[] = [
         day: "Friday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -221,8 +227,8 @@ export const sanFranciscowestcoastusaAttractions: Attraction[] = [
         day: "Saturday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -230,8 +236,8 @@ export const sanFranciscowestcoastusaAttractions: Attraction[] = [
         day: "Sunday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },

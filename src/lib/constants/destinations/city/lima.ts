@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const limasouthamericaAttractions: Attraction[] = [
   {
+    id: "attraction-lima-67-1",
+    city: "Lima",
     title: "Larco Museum",
     description:
       "Museum showcasing pre-Columbian art, including ceramics, textiles, and gold and silver artifacts.",
@@ -14,7 +16,7 @@ export const limasouthamericaAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "6:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -23,7 +25,7 @@ export const limasouthamericaAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "6:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -32,7 +34,7 @@ export const limasouthamericaAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "6:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -41,7 +43,7 @@ export const limasouthamericaAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "6:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -50,7 +52,7 @@ export const limasouthamericaAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "6:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -59,7 +61,7 @@ export const limasouthamericaAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "6:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -68,7 +70,7 @@ export const limasouthamericaAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "6:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -96,6 +98,8 @@ export const limasouthamericaAttractions: Attraction[] = [
     features: ["museum", "pre-Columbian art", "gardens"],
   },
   {
+    id: "attraction-lima-67-2",
+    city: "Lima",
     title: "Huaca Pucllana",
     description:
       "An ancient pre-Incan adobe pyramid located in the heart of Miraflores, offering guided tours that reveal insights into Lima’s early civilizations.",
@@ -192,6 +196,8 @@ export const limasouthamericaAttractions: Attraction[] = [
     ],
   },
   {
+    id: "attraction-lima-67-3",
+    city: "Lima",
     title: "Miraflores Boardwalk (El Malecón)",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-miraflores-boardwalk",

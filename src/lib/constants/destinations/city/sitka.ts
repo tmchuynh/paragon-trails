@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const sitkaalaskaAttractions: Attraction[] = [
   {
+    id: "attraction-sitka-49-1",
+    city: "Sitka",
     title: "Sitka National Historical Park",
     description:
       "Preserves the site of a battle between Tlingit people and Russian traders, featuring totem poles and trails.",
@@ -85,6 +87,8 @@ export const sitkaalaskaAttractions: Attraction[] = [
     features: ["historical site", "totem poles", "trails"],
   },
   {
+    id: "attraction-sitka-49-2",
+    city: "Sitka",
     title: "Russian Bishop's House",
     description:
       "One of the oldest surviving examples of Russian colonial architecture in North America.",
@@ -167,6 +171,8 @@ export const sitkaalaskaAttractions: Attraction[] = [
     features: ["historical site", "Russian architecture", "cultural exhibits"],
   },
   {
+    id: "attraction-sitka-49-3",
+    city: "Sitka",
     title: "Totem Park",
     description:
       "Part of the Sitka National Historical Park, showcasing beautifully carved Tlingit and Haida totem poles.",

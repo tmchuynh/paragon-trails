@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const oslonortherneuropeAttractions: Attraction[] = [
   {
+    id: "attraction-oslo-33-1",
+    city: "Oslo",
     title: "Viking Ship Museum",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-oslo-viking-ship-museum",
@@ -84,6 +86,8 @@ export const oslonortherneuropeAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-oslo-33-2",
+    city: "Oslo",
     title: "Vigeland Park",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-oslo-vigeland-park",
@@ -165,6 +169,8 @@ export const oslonortherneuropeAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-oslo-33-3",
+    city: "Oslo",
     title: "Oslo Opera House",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-oslo-opera-house",

@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const dubaimiddleeastAttractions: Attraction[] = [
   {
+    id: "attraction-dubai-10-1",
+    city: "Dubai",
     title: "Burj Khalifa",
     description:
       "World's tallest building with observation decks and fine dining.",
@@ -96,6 +98,8 @@ export const dubaimiddleeastAttractions: Attraction[] = [
     features: ["skyscraper", "observation deck", "fine dining"],
   },
   {
+    id: "attraction-dubai-10-2",
+    city: "Dubai",
     title: "Dubai Fountain",
     description: "Famous choreographed fountain show at Dubai Mall.",
     imageUrl: "https://images.unsplash.com/photo-dubai-fountain",
@@ -177,6 +181,8 @@ export const dubaimiddleeastAttractions: Attraction[] = [
     features: ["fountain show", "choreographed lights", "music"],
   },
   {
+    id: "attraction-dubai-10-3",
+    city: "Dubai",
     title: "Palm Jumeirah",
     description:
       "Iconic man-made island shaped like a palm tree, featuring luxury hotels, residences, and entertainment venues.",

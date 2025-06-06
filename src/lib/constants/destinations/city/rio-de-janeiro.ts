@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const rioDeJaneirosouthamericaAttractions: Attraction[] = [
   {
+    id: "attraction-rio-de-janeiro-5-1",
+    city: "Rio De Janeiro",
     title: "Christ the Redeemer",
     description:
       "Colossal statue overlooking Rio, symbolizing peace and Christianity.",
@@ -14,7 +16,7 @@ export const rioDeJaneirosouthamericaAttractions: Attraction[] = [
         availableHours: [
           {
             from: "8:00 AM",
-            to: "7:00 PM",
+            to: "7:00 AM",
           },
         ],
       },
@@ -22,8 +24,8 @@ export const rioDeJaneirosouthamericaAttractions: Attraction[] = [
         day: "Tuesday",
         availableHours: [
           {
-            from: "8:00 AM",
-            to: "7:00 PM",
+            from: "9:00 AM",
+            to: "5:00 PM",
           },
         ],
       },
@@ -32,7 +34,16 @@ export const rioDeJaneirosouthamericaAttractions: Attraction[] = [
         availableHours: [
           {
             from: "8:00 AM",
-            to: "7:00 PM",
+            to: "7:00 AM",
+          },
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "8:00 AM",
+            to: "7:00 AM",
           },
         ],
       },
@@ -41,7 +52,7 @@ export const rioDeJaneirosouthamericaAttractions: Attraction[] = [
         availableHours: [
           {
             from: "8:00 AM",
-            to: "7:00 PM",
+            to: "7:00 AM",
           },
         ],
       },
@@ -50,7 +61,7 @@ export const rioDeJaneirosouthamericaAttractions: Attraction[] = [
         availableHours: [
           {
             from: "8:00 AM",
-            to: "7:00 PM",
+            to: "7:00 AM",
           },
         ],
       },
@@ -58,8 +69,8 @@ export const rioDeJaneirosouthamericaAttractions: Attraction[] = [
         day: "Saturday",
         availableHours: [
           {
-            from: "8:00 AM",
-            to: "7:00 PM",
+            from: "9:00 AM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -67,8 +78,8 @@ export const rioDeJaneirosouthamericaAttractions: Attraction[] = [
         day: "Sunday",
         availableHours: [
           {
-            from: "8:00 AM",
-            to: "7:00 PM",
+            from: "9:00 AM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -96,6 +107,8 @@ export const rioDeJaneirosouthamericaAttractions: Attraction[] = [
     features: ["statue", "landmark", "religious site", "viewpoint"],
   },
   {
+    id: "attraction-rio-de-janeiro-5-2",
+    city: "Rio De Janeiro",
     title: "Copacabana Beach",
     description: "Famous beach with vibrant atmosphere and stunning views.",
     imageUrl: "https://images.unsplash.com/photo-rio-copacabana-beach",
@@ -105,8 +118,8 @@ export const rioDeJaneirosouthamericaAttractions: Attraction[] = [
         day: "Monday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -114,8 +127,8 @@ export const rioDeJaneirosouthamericaAttractions: Attraction[] = [
         day: "Tuesday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -123,8 +136,8 @@ export const rioDeJaneirosouthamericaAttractions: Attraction[] = [
         day: "Wednesday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -132,8 +145,8 @@ export const rioDeJaneirosouthamericaAttractions: Attraction[] = [
         day: "Thursday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -141,8 +154,8 @@ export const rioDeJaneirosouthamericaAttractions: Attraction[] = [
         day: "Friday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -150,8 +163,8 @@ export const rioDeJaneirosouthamericaAttractions: Attraction[] = [
         day: "Saturday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -159,8 +172,8 @@ export const rioDeJaneirosouthamericaAttractions: Attraction[] = [
         day: "Sunday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -177,6 +190,8 @@ export const rioDeJaneirosouthamericaAttractions: Attraction[] = [
     features: ["beach", "sunbathing", "swimming", "water sports"],
   },
   {
+    id: "attraction-rio-de-janeiro-5-3",
+    city: "Rio De Janeiro",
     title: "Sugarloaf Mountain",
     description:
       "Granite peak with cable car rides and panoramic views of the city.",

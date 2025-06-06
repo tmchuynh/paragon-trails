@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const charlestoneastcoastusaAttractions: Attraction[] = [
   {
+    id: "attraction-charleston-24-1",
+    city: "Charleston",
     title: "Historic Downtown Charleston",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-charleston-downtown",
@@ -84,6 +86,8 @@ export const charlestoneastcoastusaAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-charleston-24-2",
+    city: "Charleston",
     title: "Fort Sumter National Monument",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-charleston-fort-sumter",
@@ -165,6 +169,8 @@ export const charlestoneastcoastusaAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-charleston-24-3",
+    city: "Charleston",
     title: "The Battery",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-charleston-battery",

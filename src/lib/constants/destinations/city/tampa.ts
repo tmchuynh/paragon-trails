@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const tampacaribbeanAttractions: Attraction[] = [
   {
+    id: "attraction-tampa-42-1",
+    city: "Tampa",
     title: "Busch Gardens Tampa Bay",
     description:
       "African-themed amusement park with roller coasters, live shows, and a large zoo.",
@@ -85,6 +87,8 @@ export const tampacaribbeanAttractions: Attraction[] = [
     features: ["amusement park", "roller coasters", "live shows"],
   },
   {
+    id: "attraction-tampa-42-2",
+    city: "Tampa",
     title: "Tampa Riverwalk",
     description:
       "Scenic waterfront walkway lined with parks, museums, shops, and restaurants in downtown Tampa.",
@@ -167,6 +171,8 @@ export const tampacaribbeanAttractions: Attraction[] = [
     features: ["waterfront", "parks", "museums", "shops"],
   },
   {
+    id: "attraction-tampa-42-3",
+    city: "Tampa",
     title: "Florida Aquarium",
     description:
       "Family-friendly aquarium featuring marine life exhibits, touch tanks, and conservation education.",

@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const athensmediterraneanAttractions: Attraction[] = [
   {
+    id: "attraction-athens-14-1",
+    city: "Athens",
     title: "Acropolis",
     description:
       "Ancient citadel containing the Parthenon and other iconic Greek ruins.",
@@ -96,6 +98,8 @@ export const athensmediterraneanAttractions: Attraction[] = [
     features: ["ancient ruins", "historical site", "guided tours"],
   },
   {
+    id: "attraction-athens-14-2",
+    city: "Athens",
     title: "Parthenon",
     description: "Iconic ancient Greek temple dedicated to the goddess Athena.",
     imageUrl: "https://images.unsplash.com/photo-athens-parthenon",
@@ -177,6 +181,8 @@ export const athensmediterraneanAttractions: Attraction[] = [
     features: ["ancient temple", "historical site", "guided tours"],
   },
   {
+    id: "attraction-athens-14-3",
+    city: "Athens",
     title: "Plaka District",
     description:
       "Historic neighborhood with neoclassical architecture, shops, and restaurants.",
@@ -187,8 +193,8 @@ export const athensmediterraneanAttractions: Attraction[] = [
         day: "Monday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -196,8 +202,8 @@ export const athensmediterraneanAttractions: Attraction[] = [
         day: "Tuesday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -205,8 +211,8 @@ export const athensmediterraneanAttractions: Attraction[] = [
         day: "Wednesday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -214,8 +220,8 @@ export const athensmediterraneanAttractions: Attraction[] = [
         day: "Thursday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -223,8 +229,8 @@ export const athensmediterraneanAttractions: Attraction[] = [
         day: "Friday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -232,8 +238,8 @@ export const athensmediterraneanAttractions: Attraction[] = [
         day: "Saturday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },
@@ -241,8 +247,8 @@ export const athensmediterraneanAttractions: Attraction[] = [
         day: "Sunday",
         availableHours: [
           {
-            from: "12:00 AM",
-            to: "11:59 PM",
+            from: "12:00 PM",
+            to: "11:59 AM",
           },
         ],
       },

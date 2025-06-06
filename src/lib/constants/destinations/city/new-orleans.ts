@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const newOrleanscaribbeanAttractions: Attraction[] = [
   {
+    id: "attraction-new-orleans-71-1",
+    city: "New Orleans",
     title: "French Quarter",
     description:
       "New Orleans’ oldest neighborhood, renowned for its French and Spanish Creole architecture, jazz clubs, and vibrant street life centered on Bourbon Street.",
@@ -88,6 +90,8 @@ export const newOrleanscaribbeanAttractions: Attraction[] = [
     features: ["architecture", "music", "food"],
   },
   {
+    id: "attraction-new-orleans-71-2",
+    city: "New Orleans",
     title: "Garden District",
     description:
       "Residential district featuring tree-lined streets and grand 19th-century mansions, known for its well-maintained historic homes and Lafayette Cemetery No. 1.",
@@ -170,6 +174,8 @@ export const newOrleanscaribbeanAttractions: Attraction[] = [
     features: ["walking tours", "architecture", "history"],
   },
   {
+    id: "attraction-new-orleans-71-3",
+    city: "New Orleans",
     title: "National WWII Museum",
     description:
       "Top-ranked museum in the United States dedicated to the history of World War II, featuring immersive exhibits, personal narratives, and large-scale artifacts.",
@@ -181,7 +187,7 @@ export const newOrleanscaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -190,7 +196,7 @@ export const newOrleanscaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -199,7 +205,7 @@ export const newOrleanscaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -208,7 +214,7 @@ export const newOrleanscaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -217,7 +223,7 @@ export const newOrleanscaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -226,7 +232,7 @@ export const newOrleanscaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -235,7 +241,7 @@ export const newOrleanscaribbeanAttractions: Attraction[] = [
         availableHours: [
           {
             from: "9:00 AM",
-            to: "5:00 PM",
+            to: "5:00 AM",
           },
         ],
       },
@@ -267,6 +273,8 @@ export const newOrleanscaribbeanAttractions: Attraction[] = [
     features: ["museum", "war history", "interactive exhibits"],
   },
   {
+    id: "attraction-new-orleans-71-4",
+    city: "New Orleans",
     title: "Jackson Square",
     description:
       "Historic park at the heart of the French Quarter, featuring live music, local artists, and views of St. Louis Cathedral overlooking the Mississippi River.",
@@ -349,6 +357,8 @@ export const newOrleanscaribbeanAttractions: Attraction[] = [
     features: ["people watching", "local artists", "scenic views"],
   },
   {
+    id: "attraction-new-orleans-71-5",
+    city: "New Orleans",
     title: "Bourbon Street",
     description:
       "Famous thoroughfare lined with bars, jazz clubs, and restaurants; known worldwide for its nightlife, live music, and historic façades.",

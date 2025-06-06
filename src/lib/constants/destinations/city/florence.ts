@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const florencemediterraneanAttractions: Attraction[] = [
   {
+    id: "attraction-florence-27-1",
+    city: "Florence",
     title: "Cathedral of Santa Maria del Fiore (Duomo)",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-florence-duomo",
@@ -84,6 +86,8 @@ export const florencemediterraneanAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-florence-27-2",
+    city: "Florence",
     title: "Uffizi Gallery",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-florence-uffizi",
@@ -165,6 +169,8 @@ export const florencemediterraneanAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-florence-27-3",
+    city: "Florence",
     title: "Ponte Vecchio",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-florence-ponte-vecchio",

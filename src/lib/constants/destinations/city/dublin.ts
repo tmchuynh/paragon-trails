@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const dublinnortherneuropeAttractions: Attraction[] = [
   {
+    id: "attraction-dublin-26-1",
+    city: "Dublin",
     title: "Trinity College and the Book of Kells",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-dublin-trinity-college",
@@ -84,6 +86,8 @@ export const dublinnortherneuropeAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-dublin-26-2",
+    city: "Dublin",
     title: "Guinness Storehouse",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-dublin-guinness",
@@ -165,6 +169,8 @@ export const dublinnortherneuropeAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-dublin-26-3",
+    city: "Dublin",
     title: "Dublin Castle",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-dublin-castle",

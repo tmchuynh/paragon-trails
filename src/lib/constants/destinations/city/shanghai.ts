@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const shanghaiasiapacificAttractions: Attraction[] = [
   {
+    id: "attraction-shanghai-40-1",
+    city: "Shanghai",
     title: "The Bund",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-shanghai-bund",
@@ -84,6 +86,8 @@ export const shanghaiasiapacificAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-shanghai-40-2",
+    city: "Shanghai",
     title: "Yu Garden",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-shanghai-yu-garden",
@@ -165,6 +169,8 @@ export const shanghaiasiapacificAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-shanghai-40-3",
+    city: "Shanghai",
     title: "Shanghai Tower",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-shanghai-tower",

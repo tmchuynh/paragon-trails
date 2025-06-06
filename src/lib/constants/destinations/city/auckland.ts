@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const aucklandasiapacificAttractions: Attraction[] = [
   {
+    id: "attraction-auckland-16-1",
+    city: "Auckland",
     title: "Sky Tower",
     description:
       "Iconic observation and telecommunications tower offering panoramic views of Auckland.",
@@ -99,6 +101,8 @@ export const aucklandasiapacificAttractions: Attraction[] = [
     features: ["observation tower", "panoramic views", "Auckland skyline"],
   },
   {
+    id: "attraction-auckland-16-2",
+    city: "Auckland",
     title: "Auckland War Memorial Museum",
     description:
       "Museum showcasing New Zealand's cultural and military history.",
@@ -110,7 +114,7 @@ export const aucklandasiapacificAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "5:00 PM",
+            to: "4:00 AM",
           },
         ],
       },
@@ -119,7 +123,7 @@ export const aucklandasiapacificAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "5:00 PM",
+            to: "4:00 AM",
           },
         ],
       },
@@ -128,7 +132,7 @@ export const aucklandasiapacificAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "5:00 PM",
+            to: "4:00 AM",
           },
         ],
       },
@@ -137,7 +141,7 @@ export const aucklandasiapacificAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "5:00 PM",
+            to: "4:00 AM",
           },
         ],
       },
@@ -146,7 +150,7 @@ export const aucklandasiapacificAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "5:00 PM",
+            to: "4:00 AM",
           },
         ],
       },
@@ -155,7 +159,7 @@ export const aucklandasiapacificAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "5:00 PM",
+            to: "4:00 AM",
           },
         ],
       },
@@ -164,7 +168,7 @@ export const aucklandasiapacificAttractions: Attraction[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "5:00 PM",
+            to: "4:00 AM",
           },
         ],
       },
@@ -192,6 +196,8 @@ export const aucklandasiapacificAttractions: Attraction[] = [
     features: ["museum", "cultural history", "military history"],
   },
   {
+    id: "attraction-auckland-16-3",
+    city: "Auckland",
     title: "Mount Eden (Maungawhau)",
     description:
       "Dormant volcano offering panoramic views of Auckland and its harbors.",

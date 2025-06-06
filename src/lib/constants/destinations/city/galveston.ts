@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const galvestoncaribbeanAttractions: Attraction[] = [
   {
+    id: "attraction-galveston-57-1",
+    city: "Galveston",
     title: "Moody Gardens",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-galveston-moody-gardens",
@@ -84,6 +86,8 @@ export const galvestoncaribbeanAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-galveston-57-2",
+    city: "Galveston",
     title: "Galveston Island Historic Pleasure Pier",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-galveston-pleasure-pier",
@@ -165,6 +169,8 @@ export const galvestoncaribbeanAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-galveston-57-3",
+    city: "Galveston",
     title: "The Strand Historic District",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-galveston-strand",

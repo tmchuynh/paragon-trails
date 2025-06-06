@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const copenhagennortherneuropeAttractions: Attraction[] = [
   {
+    id: "attraction-copenhagen-25-1",
+    city: "Copenhagen",
     title: "Tivoli Gardens",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-copenhagen-tivoli",
@@ -84,6 +86,8 @@ export const copenhagennortherneuropeAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-copenhagen-25-2",
+    city: "Copenhagen",
     title: "Nyhavn",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-copenhagen-nyhavn",
@@ -165,6 +169,8 @@ export const copenhagennortherneuropeAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-copenhagen-25-3",
+    city: "Copenhagen",
     title: "The Little Mermaid",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-copenhagen-mermaid",

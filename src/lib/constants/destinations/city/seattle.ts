@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const seattlealaskaAttractions: Attraction[] = [
   {
+    id: "attraction-seattle-39-1",
+    city: "Seattle",
     title: "Space Needle",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-seattle-space-needle",
@@ -84,6 +86,8 @@ export const seattlealaskaAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-seattle-39-2",
+    city: "Seattle",
     title: "Pike Place Market",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-seattle-pike-place",
@@ -165,6 +169,8 @@ export const seattlealaskaAttractions: Attraction[] = [
     features: [],
   },
   {
+    id: "attraction-seattle-39-3",
+    city: "Seattle",
     title: "Chihuly Garden and Glass",
     description: "No description available",
     imageUrl: "https://images.unsplash.com/photo-seattle-chihuly",

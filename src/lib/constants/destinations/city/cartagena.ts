@@ -3,6 +3,8 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const cartagenacaribbeanAttractions: Attraction[] = [
   {
+    id: "attraction-cartagena-23-1",
+    city: "Cartagena",
     title: "Walled City",
     description:
       "Historic colonial city center surrounded by impressive stone walls, full of colorful buildings, plazas, and cobblestone streets.",
@@ -89,6 +91,8 @@ export const cartagenacaribbeanAttractions: Attraction[] = [
     ],
   },
   {
+    id: "attraction-cartagena-23-2",
+    city: "Cartagena",
     title: "Castillo San Felipe de Barajas",
     description:
       "A large fortress built by the Spanish in the 17th century, offering panoramic views and historical exhibits.",
@@ -171,6 +175,8 @@ export const cartagenacaribbeanAttractions: Attraction[] = [
     features: ["fortress", "historical site", "panoramic views"],
   },
   {
+    id: "attraction-cartagena-23-3",
+    city: "Cartagena",
     title: "Plaza Santo Domingo",
     description:
       "A vibrant plaza known for its lively atmosphere, cafes, and the famous sculpture ‘Gertrudis’ by Botero.",
