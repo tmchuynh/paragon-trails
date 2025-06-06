@@ -129,7 +129,9 @@ export async function getTourByLanguage(
 ): Promise<Tour[]> {
   try {
     const tours = await getCityTours(city);
-    return tours.filter((tour) => tour.languagesOffered.includes(language));
+    return tours.filter((tour: { languagesOffered: string | string[] }) =>
+      tour.languagesOffered.includes(language)
+    );
   } catch (error) {
     console.error(
       `Error filtering tours by language ${language} in city ${city}: ${error}`
@@ -138,10 +140,7 @@ export async function getTourByLanguage(
   }
 }
 
-export async function getTourByType(
-  city: string,
-  type: string
-): Promise<Tour[]> {
+export async function getTourByType(city: string, type: string): Promise<Tour[]> {
   try {
     const tours = await getCityTours(city);
     return tours.filter((tour) => tour.type === type);
@@ -153,10 +152,7 @@ export async function getTourByType(
   }
 }
 
-export async function getTourByPrice(
-  city: string,
-  maxPrice: number
-): Promise<Tour[]> {
+export async function getTourByPrice(city: string, maxPrice: number): Promise<Tour[]> {
   try {
     const tours = await getCityTours(city);
     return tours.filter(
