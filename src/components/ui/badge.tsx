@@ -9,16 +9,24 @@ const badgeVariants = cva(
   {
     variants: {
       variant: {
-        default:
-          "border-transparent bg-primary text-primary-foreground [a&]:hover:bg-primary/90",
-        secondary:
-          "border-transparent bg-secondary text-secondary-foreground [a&]:hover:bg-secondary/90",
+        default: "border-transparent bg-primary text-primary-foreground ",
+        secondary: "border-transparent bg-secondary text-secondary-foreground",
+        tertiary: "border-transparent bg-tertiary text-tertiary-foreground",
+        success: "border-transparent bg-success text-success-foreground",
+        warning: "border-transparent bg-warning text-warning-foreground",
+        info: "border-transparent bg-info text-info-foreground",
+        defaultFaded: "border-transparent bg-primary/10 text-primary ",
+        secondaryFaded: "border-transparent bg-secondary/10 text-secondary ",
+        tertiaryFaded: "border-transparent bg-tertiary/10 text-tertiary",
+        successFaded: "border-transparent bg-success/10 text-success",
+        warningFaded: "border-transparent bg-warning/10 text-warning",
+        infoFaded: "border-transparent bg-info/10 text-info",
         destructive:
-          "border-transparent bg-destructive text-white [a&]:hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60",
-        outline:
-          "text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground",
+          "border-transparent bg-destructive text-white   dark:bg-destructive/60",
+        outline: "text-foreground",
       },
       size: {
+        xs: "px-1 py-0.5 text-xs",
         sm: "px-1.5 py-0.5 text-xs",
         md: "px-2 py-0.5 text-xs",
         lg: "px-3 py-1 text-sm",
@@ -30,7 +38,7 @@ const badgeVariants = cva(
       variant: "default",
       size: "md",
     },
-  },
+  }
 );
 
 function Badge({
