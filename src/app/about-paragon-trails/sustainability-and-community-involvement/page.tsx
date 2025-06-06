@@ -1,3 +1,13 @@
+import {
+  Table,
+  TableBody,
+  TableCaption,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
+
 export default function SustainabilityAndCommunityInvolvement() {
   return (
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
@@ -18,12 +28,8 @@ export default function SustainabilityAndCommunityInvolvement() {
 
       {/* Sustainability Ethos Section */}
       <section>
-        <h2 className="mb-2 font-semibold text-2xl">
-          Our Sustainability Ethos
-        </h2>
-        <h3 className="mb-4 text-xl italic">
-          Travel Light. Leave a Lasting Good.
-        </h3>
+        <h2>Our Sustainability Ethos</h2>
+        <h5>Travel Light. Leave a Lasting Good.</h5>
         <p className="mb-6">
           We embed sustainability into every layer of our service—without
           compromising elegance, comfort, or personalization.
@@ -65,78 +71,70 @@ export default function SustainabilityAndCommunityInvolvement() {
 
       {/* Sustainability Metrics Section */}
       <section>
-        <h2 className="mb-6 font-semibold text-2xl">
-          Sustainability Metrics (as of Q1 2025)
-        </h2>
+        <h2>Sustainability Metrics (as of Q1 2025)</h2>
         <div className="overflow-x-auto">
-          <table className="bg-card border border-gray-200 min-w-full">
-            <thead className="bg-card border border-border">
-              <tr>
-                <th className="px-4 py-2 border-b text-left">Metric</th>
-                <th className="text-right px-4 py-2 border-b">2023</th>
-                <th className="text-right px-4 py-2 border-b">2024</th>
-                <th className="text-right px-4 py-2 border-b">YTD 2025</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td className="px-4 py-2 border-b">
-                  % of Eco-Certified Accommodations Used
-                </td>
-                <td className="text-right px-4 py-2 border-b">71%</td>
-                <td className="text-right px-4 py-2 border-b">83%</td>
-                <td className="text-right px-4 py-2 border-b">89%</td>
-              </tr>
-              <tr>
-                <td className="px-4 py-2 border-b">
-                  Journeys with Full Carbon Offset
-                </td>
-                <td className="text-right px-4 py-2 border-b">92%</td>
-                <td className="text-right px-4 py-2 border-b">97%</td>
-                <td className="text-right px-4 py-2 border-b">100%</td>
-              </tr>
-              <tr>
-                <td className="px-4 py-2 border-b">
-                  Average CO₂ Offset per Client Trip
-                </td>
-                <td className="text-right px-4 py-2 border-b">1.6 tons</td>
-                <td className="text-right px-4 py-2 border-b">1.9 tons</td>
-                <td className="text-right px-4 py-2 border-b">2.1 tons</td>
-              </tr>
-              <tr>
-                <td className="px-4 py-2 border-b">
-                  Refillable Amenity Kit Adoption
-                </td>
-                <td className="text-right px-4 py-2 border-b">64%</td>
-                <td className="text-right px-4 py-2 border-b">81%</td>
-                <td className="text-right px-4 py-2 border-b">95%</td>
-              </tr>
-              <tr>
-                <td className="px-4 py-2 border-b">
-                  Local Supplier Utilization
-                </td>
-                <td className="text-right px-4 py-2 border-b">58%</td>
-                <td className="text-right px-4 py-2 border-b">72%</td>
-                <td className="text-right px-4 py-2 border-b">78%</td>
-              </tr>
-              <tr>
-                <td className="px-4 py-2 border-b">
-                  Profits Donated to Grassroots NGOs
-                </td>
-                <td className="text-right px-4 py-2 border-b">2.1%</td>
-                <td className="text-right px-4 py-2 border-b">2.7%</td>
-                <td className="text-right px-4 py-2 border-b">3.0%</td>
-              </tr>
-              <tr>
-                <td className="px-4 py-2 border-b">
-                  Community-Based Excursions Booked
-                </td>
-                <td className="text-right px-4 py-2 border-b">410</td>
-                <td className="text-right px-4 py-2 border-b">560</td>
-                <td className="text-right px-4 py-2 border-b">320 (YTD)</td>
-              </tr>
-            </tbody>
-          </table>
+          <Table className="bg-card border border-border rounded-2xl min-w-full overflow-auto">
+            <TableHeader>
+              <TableRow className="bg-card border border-border">
+                <TableHead>
+                  <h3>Metric</h3>
+                </TableHead>
+                <TableHead>
+                  <h3>2023</h3>
+                </TableHead>
+                <TableHead>
+                  <h3>2024</h3>
+                </TableHead>
+                <TableHead>
+                  <h3>YTD 2025</h3>
+                </TableHead>
+              </TableRow>
+            </TableHeader>
+            <TableBody>
+              <TableRow>
+                <TableCell>% of Eco-Certified Accommodations Used</TableCell>
+                <TableCell>71%</TableCell>
+                <TableCell>83%</TableCell>
+                <TableCell>89%</TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell>Journeys with Full Carbon Offset</TableCell>
+                <TableCell>92%</TableCell>
+                <TableCell>97%</TableCell>
+                <TableCell>100%</TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell>Average CO₂ Offset per Client Trip</TableCell>
+                <TableCell>1.6 tons</TableCell>
+                <TableCell>1.9 tons</TableCell>
+                <TableCell>2.1 tons</TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell>Refillable Amenity Kit Adoption</TableCell>
+                <TableCell>64%</TableCell>
+                <TableCell>81%</TableCell>
+                <TableCell>95%</TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell>Local Supplier Utilization</TableCell>
+                <TableCell>58%</TableCell>
+                <TableCell>72%</TableCell>
+                <TableCell>78%</TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell>Profits Donated to Grassroots NGOs</TableCell>
+                <TableCell>2.1%</TableCell>
+                <TableCell>2.7%</TableCell>
+                <TableCell>3.0%</TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell>Community-Based Excursions Booked</TableCell>
+                <TableCell>410</TableCell>
+                <TableCell>560</TableCell>
+                <TableCell>320 (YTD)</TableCell>
+              </TableRow>
+            </TableBody>
+          </Table>
         </div>
         <p className="mt-6 font-medium text-center">
           Next Milestone: Net-Zero Operations Targeted by 2028
@@ -145,10 +143,8 @@ export default function SustainabilityAndCommunityInvolvement() {
 
       {/* Community Engagement Section */}
       <section>
-        <h2 className="mb-2 font-semibold text-2xl">
-          Global Community Engagement
-        </h2>
-        <h3 className="mb-4 text-xl italic">Partnership, Not Patronage.</h3>
+        <h2>Global Community Engagement</h2>
+        <h3>Partnership, Not Patronage.</h3>
         <p className="mb-6">
           We maintain direct relationships with community leaders and nonprofits
           to ensure all cultural, humanitarian, and educational programs benefit
