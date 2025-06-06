@@ -19,6 +19,12 @@ import { getTourById } from "@/lib/utils/get/tours";
 import Image from "next/image";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
+
+import {
+  formatKebabToCamelCase,
+  formatTitleCaseToKebabCase,
+  formatTitleToCamelCase,
+} from "@/lib/utils/format";
 export default function TourDetailsPage() {
   const searchParams = useSearchParams();
   const tourId = searchParams.get("tourId");
@@ -57,6 +63,12 @@ export default function TourDetailsPage() {
     if (!tourData) return;
     async function fetchTourGuide() {
       try {
+            console.log(
+              `Loading tour guide with ID: ${guideId} for city: ${city}`
+            );
+            const formattedCity = formatTitleCaseToKebabCase(city);
+
+            console.log(`formatted city: ${formattedCity}`);
         const guideResponse = await getTourGuideById(
           city as string,
           guideId as string,
