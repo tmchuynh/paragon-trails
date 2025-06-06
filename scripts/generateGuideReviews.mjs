@@ -276,51 +276,102 @@ async function generateAllGuideReviews() {
       const formattedCountry = formatTitleToCamelCase(country);
       const formattedRegion = formatTitleToCamelCase(region);
 
-      const dir = path.join(
+      // Construct the path to the TypeScript file (not directory)
+      const filePath = path.join(
         process.cwd(),
         "src",
         "lib",
         "constants",
         "staff",
         "guides",
-        formattedCity
+        `${formattedCity}.ts`
       );
 
-      //   src / lib / constants / staff / guides / amalfiCoast;
-      //   src / lib / constants / staff / guides / amalfiCoast.ts;
       const guideId = `${formattedCity}${formattedCountry.replaceAll(".", "")}${formattedRegion}Guides`;
-      const data = await fs.access(dir);
-
+      
       try {
+        // Check if the file exists before trying to access it
         try {
-          // Check if the file exists before trying to import
+          await fs.access(filePath);
+        } catch (error) {
+          console.error(`File not found: ${filePath}`);
+          continue; // Skip to the next city
+        }
+        
+        // Read the file content to extract guide data
+        const fileContent = await fs.readFile(filePath, 'utf8');
+        
+        // Extract guide objects using regex
+        const guideObjects = [];
+        const regex = /\{\s*id:\s*["']([^"']+)["'],\s*name:\s*["']([^"']+)["']/g;
+        let match;
+        
+        while ((match = regex.exec(fileContent)) !== null) {
+          const [fullMatch, id, name] = match;
+          
+          // Find the end of this guide object
+          const startPos = match.index;
+          let braceCount = 1;
+          let endPos = startPos + 1;
+          
+          while (braceCount > 0 && endPos < fileContent.length) {
+            if (fileContent[endPos] === '{') braceCount++;
+            if (fileContent[endPos] === '}') braceCount--;
+            endPos++;
+          }
+          
+          if (braceCount === 0) {
+            const guideObjectText = fileContent.substring(startPos, endPos);
+            
+            // Extract specialties and tourTypes
+            const specialtiesMatch = guideObjectText.match(/specialties:\s*\[(.*?)\]/s);
+            const specialties = specialtiesMatch 
+              ? specialtiesMatch[1]
+                  .split(',')
+                  .map(s => s.trim().replace(/["']/g, ''))
+                  .filter(s => s)
+              : [];
+              
+            const tourTypesMatch = guideObjectText.match(/tourTypes:\s*\[(.*?)\]/s);
+            const tourTypes = tourTypesMatch
+              ? tourTypesMatch[1]
+                  .split(',')
+                  .map(s => s.trim().replace(/["']/g, ''))
+                  .filter(s => s)
+              : [];
+            
+            guideObjects.push({
+              id,
+              name,
+              city: formattedCity,
+              specialties,
+              tourTypes
+            });
+          }
+        }
+        
+        if (guideObjects.length === 0) {
+          console.error(`No guide data extracted from ${formattedCity}`);
+          continue;
+        }
+        
+        const allReviews = {};
+        
+        for (const guide of guideObjects) {
+          allReviews[guide.id] = generateReviews(guide);
+        }
 
-          if (data[guideId]) {
-            const guides = data[guideId];
-            const allReviews = {};
-
-            for (const guide of guides) {
-              allReviews[guide.id] = generateReviews(guide);
-            }
-
-            const outputFile = path.join(outputDir, `${formattedCity}`);
-            const fileContent = `
+        const outputFile = path.join(outputDir, `${formattedCity}.js`);
+        const outputContent = `
 // Tour guide reviews for ${formattedCity}
 export const ${formattedCity}GuideReviews = ${JSON.stringify(allReviews, null, 2)};
 `;
-
-            await fs.writeFile(outputFile, fileContent);
-            console.log(
-              `Generated reviews for ${guides.length} guides in ${cityFile}`
-            );
-          } else {
-            console.error(`No guides found for city: ${cityFile}`);
-          }
-        } catch (fileError) {
-          console.error(
-            `Guide file for ${formattedCity} not found or not accessible for ${guideId} ${data}.`
-          );
-        }
+        
+        await fs.writeFile(outputFile, outputContent);
+        console.log(
+          `Generated reviews for ${guideObjects.length} guides in ${cityFile}`
+        );
+        
       } catch (error) {
         console.error(`Error processing city ${cityFile}:`, error);
       }
