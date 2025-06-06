@@ -12,8 +12,8 @@ export const vancouveralaskaAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const vancouveralaskaAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const vancouveralaskaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const vancouveralaskaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const vancouveralaskaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const vancouveralaskaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -66,8 +66,8 @@ export const vancouveralaskaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -103,8 +103,8 @@ export const vancouveralaskaAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -112,8 +112,8 @@ export const vancouveralaskaAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -121,8 +121,8 @@ export const vancouveralaskaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -130,8 +130,8 @@ export const vancouveralaskaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -139,8 +139,8 @@ export const vancouveralaskaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -148,8 +148,8 @@ export const vancouveralaskaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -157,8 +157,8 @@ export const vancouveralaskaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -192,8 +192,8 @@ export const vancouveralaskaAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -201,8 +201,8 @@ export const vancouveralaskaAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -210,8 +210,8 @@ export const vancouveralaskaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -219,8 +219,8 @@ export const vancouveralaskaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -228,8 +228,8 @@ export const vancouveralaskaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -237,8 +237,8 @@ export const vancouveralaskaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -246,8 +246,8 @@ export const vancouveralaskaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },

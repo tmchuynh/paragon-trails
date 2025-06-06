@@ -1,10 +1,10 @@
 // filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/helsinki.ts
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const helsinkinorthernEuropeAttractions: Attraction[] = [
+export const helsinkinortherneuropeAttractions: Attraction[] = [
     {
       title: "Suomenlinna Sea Fortress",
-      description: "UNESCO World Heritage Site built across six islands, featuring historic fortifications and museums.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-helsinki-suomenlinna",
       location: "Accessible via ferry from Market Square, Helsinki",
       openingHours: [
@@ -12,8 +12,8 @@ export const helsinkinorthernEuropeAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const helsinkinorthernEuropeAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const helsinkinorthernEuropeAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const helsinkinorthernEuropeAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const helsinkinorthernEuropeAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const helsinkinorthernEuropeAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -66,34 +66,26 @@ export const helsinkinorthernEuropeAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
       entryFee: undefined,
-      entryFeeCategory: "free",
-      priceRange: "free (ferry ticket required)",
-      priceCategory: "free",
+      entryFeeCategory: "moderate",
+      priceRange: "$",
+      priceCategory: "moderate",
       timeOfDay: "daytime",
-      rating: 4.7,
-      tags: [
-        "Historical",
-        "Adventure",
-        "Popular",
-      ],
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "sea fortress",
-        "UNESCO World Heritage",
-        "museums",
-      ],
+      features: [],
     },
     {
       title: "Temppeliaukio Church",
-      description: "Unique rock-hewn church known for its modern architecture and excellent acoustics.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-helsinki-temppeliaukio",
       location: "Lutherinkatu 3, 00100 Helsinki",
       openingHours: [
@@ -101,8 +93,8 @@ export const helsinkinorthernEuropeAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -110,8 +102,8 @@ export const helsinkinorthernEuropeAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -119,8 +111,8 @@ export const helsinkinorthernEuropeAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -128,8 +120,8 @@ export const helsinkinorthernEuropeAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -137,8 +129,8 @@ export const helsinkinorthernEuropeAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -146,8 +138,8 @@ export const helsinkinorthernEuropeAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -155,33 +147,26 @@ export const helsinkinorthernEuropeAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
-      entryFee: "€5",
-      entryFeeCategory: "cheap",
+      entryFee: undefined,
+      entryFeeCategory: "moderate",
       priceRange: "$",
-      priceCategory: "cheap",
+      priceCategory: "moderate",
       timeOfDay: "daytime",
-      rating: 4.5,
-      tags: [
-        "Artormusic",
-        "Popular",
-      ],
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "rock-hewn church",
-        "modern architecture",
-        "acoustics",
-      ],
+      features: [],
     },
     {
       title: "Helsinki Cathedral",
-      description: "Neoclassical Lutheran cathedral with a green dome, one of Helsinki’s most recognizable landmarks.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-helsinki-cathedral",
       location: "Unioninkatu 29, 00170 Helsinki",
       openingHours: [
@@ -189,8 +174,8 @@ export const helsinkinorthernEuropeAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -198,8 +183,8 @@ export const helsinkinorthernEuropeAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -207,8 +192,8 @@ export const helsinkinorthernEuropeAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -216,8 +201,8 @@ export const helsinkinorthernEuropeAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -225,8 +210,8 @@ export const helsinkinorthernEuropeAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -234,8 +219,8 @@ export const helsinkinorthernEuropeAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -243,29 +228,21 @@ export const helsinkinorthernEuropeAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
       entryFee: undefined,
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
+      entryFeeCategory: "moderate",
+      priceRange: "$",
+      priceCategory: "moderate",
       timeOfDay: "daytime",
-      rating: 4.6,
-      tags: [
-        "Historical",
-        "Free",
-        "Popular",
-      ],
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "cathedral",
-        "neoclassical architecture",
-        "green dome",
-      ],
+      features: [],
     },
   ];

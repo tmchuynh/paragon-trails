@@ -4,7 +4,7 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const roatancaribbeanAttractions: Attraction[] = [
     {
       title: "West Bay Beach",
-      description: "Scenic beach with white sand and clear turquoise waters, ideal for swimming and snorkeling.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-roatan-west-bay-beach",
       location: "West Bay, Roatan",
       openingHours: [
@@ -12,8 +12,8 @@ export const roatancaribbeanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const roatancaribbeanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const roatancaribbeanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const roatancaribbeanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const roatancaribbeanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const roatancaribbeanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -66,35 +66,26 @@ export const roatancaribbeanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
       entryFee: undefined,
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
+      entryFeeCategory: "moderate",
+      priceRange: "$",
+      priceCategory: "moderate",
       timeOfDay: "daytime",
-      rating: 4.8,
-      tags: [
-        "Adventure",
-        "Free",
-        "Popular",
-      ],
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "beach",
-        "snorkeling",
-        "swimming",
-        "sunbathing",
-      ],
+      features: [],
     },
     {
       title: "Gumbalimba Park",
-      description: "Nature park offering ziplining, botanical gardens, animal encounters, and a suspension bridge.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-roatan-gumbalimba-park",
       location: "West Bay Rd, Roatan",
       openingHours: [
@@ -102,8 +93,8 @@ export const roatancaribbeanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "08:00",
-              to: "16:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -111,8 +102,8 @@ export const roatancaribbeanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "08:00",
-              to: "16:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -120,8 +111,8 @@ export const roatancaribbeanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "08:00",
-              to: "16:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -129,8 +120,8 @@ export const roatancaribbeanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "08:00",
-              to: "16:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -138,8 +129,8 @@ export const roatancaribbeanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "08:00",
-              to: "16:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -147,8 +138,8 @@ export const roatancaribbeanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "08:00",
-              to: "16:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -156,33 +147,26 @@ export const roatancaribbeanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "08:00",
-              to: "16:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
-      entryFee: "$35",
+      entryFee: undefined,
       entryFeeCategory: "moderate",
-      priceRange: "$$",
+      priceRange: "$",
       priceCategory: "moderate",
       timeOfDay: "daytime",
-      rating: 4.5,
-      tags: [
-        "Adventure",
-        "Popular",
-      ],
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "nature park",
-        "ziplining",
-        "botanical gardens",
-      ],
+      features: [],
     },
     {
       title: "Carambola Botanical Gardens",
-      description: "Lush botanical gardens with tropical plants, hiking trails, and panoramic views of the island.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-roatan-carambola",
       location: "Sandy Bay, Roatan",
       openingHours: [
@@ -190,8 +174,8 @@ export const roatancaribbeanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "08:00",
-              to: "16:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -199,8 +183,8 @@ export const roatancaribbeanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "08:00",
-              to: "16:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -208,8 +192,8 @@ export const roatancaribbeanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "08:00",
-              to: "16:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -217,8 +201,8 @@ export const roatancaribbeanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "08:00",
-              to: "16:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -226,8 +210,8 @@ export const roatancaribbeanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "08:00",
-              to: "16:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -235,8 +219,8 @@ export const roatancaribbeanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "08:00",
-              to: "16:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -244,27 +228,21 @@ export const roatancaribbeanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "08:00",
-              to: "16:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
-      entryFee: "$10",
-      entryFeeCategory: "cheap",
+      entryFee: undefined,
+      entryFeeCategory: "moderate",
       priceRange: "$",
-      priceCategory: "cheap",
+      priceCategory: "moderate",
       timeOfDay: "daytime",
-      rating: 4.4,
-      tags: [
-        "Popular",
-      ],
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "botanical gardens",
-        "tropical plants",
-        "hiking trails",
-      ],
+      features: [],
     },
   ];

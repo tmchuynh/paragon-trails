@@ -12,8 +12,8 @@ export const sitkaalaskaAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const sitkaalaskaAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const sitkaalaskaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const sitkaalaskaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const sitkaalaskaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const sitkaalaskaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -66,8 +66,8 @@ export const sitkaalaskaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -100,8 +100,8 @@ export const sitkaalaskaAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "10:00",
-              to: "16:00",
+              from: "10:00 AM",
+              to: "4:00 PM",
             },
           ],
         },
@@ -109,8 +109,8 @@ export const sitkaalaskaAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "10:00",
-              to: "16:00",
+              from: "10:00 AM",
+              to: "4:00 PM",
             },
           ],
         },
@@ -118,8 +118,8 @@ export const sitkaalaskaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "10:00",
-              to: "16:00",
+              from: "10:00 AM",
+              to: "4:00 PM",
             },
           ],
         },
@@ -127,8 +127,8 @@ export const sitkaalaskaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "10:00",
-              to: "16:00",
+              from: "10:00 AM",
+              to: "4:00 PM",
             },
           ],
         },
@@ -136,8 +136,8 @@ export const sitkaalaskaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "10:00",
-              to: "16:00",
+              from: "10:00 AM",
+              to: "4:00 PM",
             },
           ],
         },
@@ -145,8 +145,8 @@ export const sitkaalaskaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "10:00",
-              to: "16:00",
+              from: "10:00 AM",
+              to: "4:00 PM",
             },
           ],
         },
@@ -154,8 +154,8 @@ export const sitkaalaskaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "10:00",
-              to: "16:00",
+              from: "10:00 AM",
+              to: "4:00 PM",
             },
           ],
         },
@@ -188,8 +188,8 @@ export const sitkaalaskaAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -197,8 +197,8 @@ export const sitkaalaskaAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -206,8 +206,8 @@ export const sitkaalaskaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -215,8 +215,8 @@ export const sitkaalaskaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -224,8 +224,8 @@ export const sitkaalaskaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -233,8 +233,8 @@ export const sitkaalaskaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -242,8 +242,8 @@ export const sitkaalaskaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },

@@ -1,7 +1,7 @@
 // filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/bali.ts
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const baliasiaPacificAttractions: Attraction[] = [
+export const baliasiapacificAttractions: Attraction[] = [
     {
       title: "Uluwatu Temple",
       description: "Ancient sea temple perched on a cliff with spectacular sunset views.",
@@ -12,8 +12,8 @@ export const baliasiaPacificAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:00",
-              to: "19:00",
+              from: "9:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const baliasiaPacificAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "19:00",
+              from: "9:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const baliasiaPacificAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "19:00",
+              from: "9:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const baliasiaPacificAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:00",
-              to: "19:00",
+              from: "9:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const baliasiaPacificAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:00",
-              to: "19:00",
+              from: "9:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const baliasiaPacificAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:00",
-              to: "19:00",
+              from: "9:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -66,8 +66,8 @@ export const baliasiaPacificAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:00",
-              to: "19:00",
+              from: "9:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -111,8 +111,8 @@ export const baliasiaPacificAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "08:00",
-              to: "18:00",
+              from: "8:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -120,8 +120,8 @@ export const baliasiaPacificAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "08:00",
-              to: "18:00",
+              from: "8:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -129,8 +129,8 @@ export const baliasiaPacificAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "08:00",
-              to: "18:00",
+              from: "8:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -138,8 +138,8 @@ export const baliasiaPacificAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "08:00",
-              to: "18:00",
+              from: "8:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -147,8 +147,8 @@ export const baliasiaPacificAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "08:00",
-              to: "18:00",
+              from: "8:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -156,8 +156,8 @@ export const baliasiaPacificAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "08:00",
-              to: "18:00",
+              from: "8:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -165,8 +165,8 @@ export const baliasiaPacificAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "08:00",
-              to: "18:00",
+              from: "8:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -209,8 +209,8 @@ export const baliasiaPacificAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "08:30",
-              to: "18:00",
+              from: "8:30 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -218,8 +218,8 @@ export const baliasiaPacificAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "08:30",
-              to: "18:00",
+              from: "8:30 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -227,8 +227,8 @@ export const baliasiaPacificAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "08:30",
-              to: "18:00",
+              from: "8:30 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -236,8 +236,8 @@ export const baliasiaPacificAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "08:30",
-              to: "18:00",
+              from: "8:30 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -245,8 +245,8 @@ export const baliasiaPacificAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "08:30",
-              to: "18:00",
+              from: "8:30 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -254,8 +254,8 @@ export const baliasiaPacificAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "08:30",
-              to: "18:00",
+              from: "8:30 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -263,8 +263,8 @@ export const baliasiaPacificAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "08:30",
-              to: "18:00",
+              from: "8:30 AM",
+              to: "6:00 PM",
             },
           ],
         },

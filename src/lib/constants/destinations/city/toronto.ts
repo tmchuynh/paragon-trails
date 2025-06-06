@@ -1,7 +1,7 @@
 // filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/toronto.ts
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const torontoeastCoastCanadaAttractions: Attraction[] = [
+export const torontoeastcoastcanadaAttractions: Attraction[] = [
     {
       title: "CN Tower",
       description: "Iconic observation tower offering panoramic views of Toronto and beyond, with a glass floor and rotating restaurant.",
@@ -12,8 +12,8 @@ export const torontoeastCoastCanadaAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "10:00",
-              to: "22:00",
+              from: "10:00 AM",
+              to: "10:00 PM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const torontoeastCoastCanadaAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "10:00",
-              to: "22:00",
+              from: "10:00 AM",
+              to: "10:00 PM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const torontoeastCoastCanadaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "10:00",
-              to: "22:00",
+              from: "10:00 AM",
+              to: "10:00 PM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const torontoeastCoastCanadaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "10:00",
-              to: "22:00",
+              from: "10:00 AM",
+              to: "10:00 PM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const torontoeastCoastCanadaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "10:00",
-              to: "22:00",
+              from: "10:00 AM",
+              to: "10:00 PM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const torontoeastCoastCanadaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "10:00",
-              to: "22:00",
+              from: "10:00 AM",
+              to: "10:00 PM",
             },
           ],
         },
@@ -66,8 +66,8 @@ export const torontoeastCoastCanadaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "10:00",
-              to: "22:00",
+              from: "10:00 AM",
+              to: "10:00 PM",
             },
           ],
         },
@@ -113,8 +113,8 @@ export const torontoeastCoastCanadaAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:30",
+              from: "10:00 AM",
+              to: "5:30 PM",
             },
           ],
         },
@@ -122,8 +122,8 @@ export const torontoeastCoastCanadaAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:30",
+              from: "10:00 AM",
+              to: "5:30 PM",
             },
           ],
         },
@@ -131,8 +131,8 @@ export const torontoeastCoastCanadaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:30",
+              from: "10:00 AM",
+              to: "5:30 PM",
             },
           ],
         },
@@ -140,8 +140,8 @@ export const torontoeastCoastCanadaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:30",
+              from: "10:00 AM",
+              to: "5:30 PM",
             },
           ],
         },
@@ -149,8 +149,8 @@ export const torontoeastCoastCanadaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:30",
+              from: "10:00 AM",
+              to: "5:30 PM",
             },
           ],
         },
@@ -158,8 +158,8 @@ export const torontoeastCoastCanadaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:30",
+              from: "10:00 AM",
+              to: "5:30 PM",
             },
           ],
         },
@@ -167,8 +167,8 @@ export const torontoeastCoastCanadaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:30",
+              from: "10:00 AM",
+              to: "5:30 PM",
             },
           ],
         },
@@ -214,8 +214,8 @@ export const torontoeastCoastCanadaAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -223,8 +223,8 @@ export const torontoeastCoastCanadaAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -232,8 +232,8 @@ export const torontoeastCoastCanadaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -241,8 +241,8 @@ export const torontoeastCoastCanadaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -250,8 +250,8 @@ export const torontoeastCoastCanadaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -259,8 +259,8 @@ export const torontoeastCoastCanadaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -268,8 +268,8 @@ export const torontoeastCoastCanadaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },

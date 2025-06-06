@@ -4,7 +4,7 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const bermudacaribbeanAttractions: Attraction[] = [
     {
       title: "Horseshoe Bay Beach",
-      description: "A picturesque pink-sand beach known for its clear turquoise waters and scenic rock formations.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-bermuda-horseshoe-bay",
       location: "South Road, Southampton Parish, Bermuda",
       openingHours: [
@@ -12,8 +12,8 @@ export const bermudacaribbeanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const bermudacaribbeanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const bermudacaribbeanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const bermudacaribbeanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const bermudacaribbeanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const bermudacaribbeanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -66,35 +66,26 @@ export const bermudacaribbeanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
       entryFee: undefined,
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
+      entryFeeCategory: "moderate",
+      priceRange: "$",
+      priceCategory: "moderate",
       timeOfDay: "daytime",
-      rating: 4.7,
-      tags: [
-        "Adventure",
-        "Free",
-        "Popular",
-      ],
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "beach",
-        "snorkeling",
-        "swimming",
-        "sunbathing",
-      ],
+      features: [],
     },
     {
       title: "Crystal & Fantasy Caves",
-      description: "Stunning underground caves featuring crystal-clear pools and dramatic stalactites and stalagmites.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-bermuda-crystal-caves",
       location: "8 Crystal Caves Rd, Hamilton Parish CR 04, Bermuda",
       openingHours: [
@@ -102,8 +93,8 @@ export const bermudacaribbeanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -111,8 +102,8 @@ export const bermudacaribbeanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -120,8 +111,8 @@ export const bermudacaribbeanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -129,8 +120,8 @@ export const bermudacaribbeanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -138,8 +129,8 @@ export const bermudacaribbeanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -147,8 +138,8 @@ export const bermudacaribbeanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -156,34 +147,26 @@ export const bermudacaribbeanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
-      entryFee: "$22",
+      entryFee: undefined,
       entryFeeCategory: "moderate",
-      priceRange: "$$",
+      priceRange: "$",
       priceCategory: "moderate",
       timeOfDay: "daytime",
-      rating: 4.6,
-      tags: [
-        "Adventure",
-        "Popular",
-      ],
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "caves",
-        "stalactites",
-        "stalagmites",
-        "guided tours",
-      ],
+      features: [],
     },
     {
       title: "Royal Naval Dockyard",
-      description: "Historic naval base transformed into a cultural and entertainment hub with shops, museums, and restaurants.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-bermuda-dockyard",
       location: "5 Freeport Drive, Sandys MA 01, Bermuda",
       openingHours: [
@@ -191,8 +174,8 @@ export const bermudacaribbeanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -200,8 +183,8 @@ export const bermudacaribbeanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -209,8 +192,8 @@ export const bermudacaribbeanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -218,8 +201,8 @@ export const bermudacaribbeanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -227,8 +210,8 @@ export const bermudacaribbeanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -236,8 +219,8 @@ export const bermudacaribbeanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -245,35 +228,26 @@ export const bermudacaribbeanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
       entryFee: undefined,
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
+      entryFeeCategory: "moderate",
+      priceRange: "$",
+      priceCategory: "moderate",
       timeOfDay: "daytime",
-      rating: 4.5,
-      tags: [
-        "Historical",
-        "Free",
-        "Popular",
-      ],
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "naval history",
-        "museums",
-        "shopping",
-        "dining",
-      ],
+      features: [],
     },
     {
       title: "Gibb's Hill Lighthouse",
-      description: "One of the oldest cast-iron lighthouses in the world, offering panoramic views of Bermuda from its summit.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-gibbs-hill-lighthouse",
       location: "St Anne's Rd, Southampton Parish, Bermuda",
       openingHours: [
@@ -281,8 +255,8 @@ export const bermudacaribbeanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:30",
-              to: "16:30",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -290,8 +264,8 @@ export const bermudacaribbeanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:30",
-              to: "16:30",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -299,8 +273,8 @@ export const bermudacaribbeanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:30",
-              to: "16:30",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -308,8 +282,8 @@ export const bermudacaribbeanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:30",
-              to: "16:30",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -317,8 +291,8 @@ export const bermudacaribbeanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:30",
-              to: "16:30",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -326,8 +300,8 @@ export const bermudacaribbeanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:30",
-              to: "16:30",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -335,41 +309,26 @@ export const bermudacaribbeanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "10:00",
-              to: "16:30",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
-      entryFee: "$2.50",
-      entryFeeCategory: "budget",
+      entryFee: undefined,
+      entryFeeCategory: "moderate",
       priceRange: "$",
-      priceCategory: "budget",
+      priceCategory: "moderate",
       timeOfDay: "daytime",
-      rating: 4.5,
-      tags: [
-        "Historical",
-        "Popular",
-      ],
-      accessibilityFeatures: [
-        "185-step staircase to the top; not suitable for wheelchairs",
-      ],
-      entryFees: [
-        {
-          category: "general",
-          priceRange: "$2.50",
-          priceCategory: "budget",
-        },
-      ],
-      features: [
-        "lighthouse",
-        "scenic views",
-        "historical landmark",
-      ],
+      rating: 4,
+      tags: [],
+      accessibilityFeatures: [],
+      entryFees: [],
+      features: [],
     },
     {
       title: "Bermuda Aquarium, Museum & Zoo",
-      description: "A combined facility showcasing Bermuda's marine and terrestrial wildlife, as well as species from other oceanic islands.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-bermuda-aquarium",
       location: "40 North Shore Rd, Flatts Village, Bermuda",
       openingHours: [
@@ -377,8 +336,8 @@ export const bermudacaribbeanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -386,8 +345,8 @@ export const bermudacaribbeanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -395,8 +354,8 @@ export const bermudacaribbeanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -404,8 +363,8 @@ export const bermudacaribbeanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -413,8 +372,8 @@ export const bermudacaribbeanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -422,8 +381,8 @@ export const bermudacaribbeanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -431,46 +390,21 @@ export const bermudacaribbeanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
-      entryFee: "Adult: $10; Child (5–12): $5; Children under 5: Free",
-      entryFeeCategory: "budget",
+      entryFee: undefined,
+      entryFeeCategory: "moderate",
       priceRange: "$",
-      priceCategory: "budget",
+      priceCategory: "moderate",
       timeOfDay: "daytime",
-      rating: 4.4,
-      tags: [
-        "Popular",
-      ],
-      accessibilityFeatures: [
-        "wheelchair accessible paths and exhibits",
-      ],
-      entryFees: [
-        {
-          category: "adult",
-          priceRange: "$10",
-          priceCategory: "budget",
-        },
-        {
-          category: "child (5–12)",
-          priceRange: "$5",
-          priceCategory: "budget",
-        },
-        {
-          category: "child (under 5)",
-          priceRange: "Free",
-          priceCategory: "free",
-        },
-      ],
-      features: [
-        "aquarium",
-        "zoo",
-        "natural history museum",
-        "educational exhibits",
-      ],
+      rating: 4,
+      tags: [],
+      accessibilityFeatures: [],
+      entryFees: [],
+      features: [],
     },
   ];

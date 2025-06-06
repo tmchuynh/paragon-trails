@@ -1,7 +1,7 @@
 // filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/bangkok.ts
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const bangkokasiaPacificAttractions: Attraction[] = [
+export const bangkokasiapacificAttractions: Attraction[] = [
     {
       title: "Grand Palace",
       description: "Historic royal residence featuring intricate architecture.",
@@ -12,8 +12,8 @@ export const bangkokasiaPacificAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "08:30",
-              to: "15:30",
+              from: "8:30 AM",
+              to: "3:30 PM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const bangkokasiaPacificAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "08:30",
-              to: "15:30",
+              from: "8:30 AM",
+              to: "3:30 PM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const bangkokasiaPacificAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "08:30",
-              to: "15:30",
+              from: "8:30 AM",
+              to: "3:30 PM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const bangkokasiaPacificAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "08:30",
-              to: "15:30",
+              from: "8:30 AM",
+              to: "3:30 PM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const bangkokasiaPacificAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "08:30",
-              to: "15:30",
+              from: "8:30 AM",
+              to: "3:30 PM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const bangkokasiaPacificAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "08:30",
-              to: "15:30",
+              from: "8:30 AM",
+              to: "3:30 PM",
             },
           ],
         },
@@ -66,8 +66,8 @@ export const bangkokasiaPacificAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "08:30",
-              to: "15:30",
+              from: "8:30 AM",
+              to: "3:30 PM",
             },
           ],
         },
@@ -114,8 +114,8 @@ export const bangkokasiaPacificAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -123,8 +123,8 @@ export const bangkokasiaPacificAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -132,8 +132,8 @@ export const bangkokasiaPacificAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -141,8 +141,8 @@ export const bangkokasiaPacificAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -150,8 +150,8 @@ export const bangkokasiaPacificAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -159,8 +159,8 @@ export const bangkokasiaPacificAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -168,8 +168,8 @@ export const bangkokasiaPacificAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -204,8 +204,8 @@ export const bangkokasiaPacificAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "08:00",
-              to: "17:30",
+              from: "8:00 AM",
+              to: "5:30 PM",
             },
           ],
         },
@@ -213,8 +213,8 @@ export const bangkokasiaPacificAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "08:00",
-              to: "17:30",
+              from: "8:00 AM",
+              to: "5:30 PM",
             },
           ],
         },
@@ -222,8 +222,8 @@ export const bangkokasiaPacificAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "08:00",
-              to: "17:30",
+              from: "8:00 AM",
+              to: "5:30 PM",
             },
           ],
         },
@@ -231,8 +231,8 @@ export const bangkokasiaPacificAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "08:00",
-              to: "17:30",
+              from: "8:00 AM",
+              to: "5:30 PM",
             },
           ],
         },
@@ -240,8 +240,8 @@ export const bangkokasiaPacificAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "08:00",
-              to: "17:30",
+              from: "8:00 AM",
+              to: "5:30 PM",
             },
           ],
         },
@@ -249,8 +249,8 @@ export const bangkokasiaPacificAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "08:00",
-              to: "17:30",
+              from: "8:00 AM",
+              to: "5:30 PM",
             },
           ],
         },
@@ -258,8 +258,8 @@ export const bangkokasiaPacificAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "08:00",
-              to: "17:30",
+              from: "8:00 AM",
+              to: "5:30 PM",
             },
           ],
         },

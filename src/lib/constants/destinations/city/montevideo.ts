@@ -1,7 +1,7 @@
 // filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/montevideo.ts
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const montevideosouthAmericaAttractions: Attraction[] = [
+export const montevideosouthamericaAttractions: Attraction[] = [
     {
       title: "Ciudad Vieja",
       description: "Montevideo’s historic Old Town, characterized by colonial-era buildings, cobblestone streets, art galleries, and plazas dating back to the 18th century.",
@@ -12,8 +12,8 @@ export const montevideosouthAmericaAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const montevideosouthAmericaAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const montevideosouthAmericaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const montevideosouthAmericaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const montevideosouthAmericaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const montevideosouthAmericaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -66,8 +66,8 @@ export const montevideosouthAmericaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -103,8 +103,8 @@ export const montevideosouthAmericaAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "10:00",
-              to: "19:00",
+              from: "10:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -112,8 +112,8 @@ export const montevideosouthAmericaAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "10:00",
-              to: "19:00",
+              from: "10:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -121,8 +121,8 @@ export const montevideosouthAmericaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "10:00",
-              to: "19:00",
+              from: "10:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -130,8 +130,8 @@ export const montevideosouthAmericaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "10:00",
-              to: "19:00",
+              from: "10:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -139,8 +139,8 @@ export const montevideosouthAmericaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "10:00",
-              to: "19:00",
+              from: "10:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -148,8 +148,8 @@ export const montevideosouthAmericaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "10:00",
-              to: "19:00",
+              from: "10:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -157,8 +157,8 @@ export const montevideosouthAmericaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "10:00",
-              to: "19:00",
+              from: "10:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -205,8 +205,8 @@ export const montevideosouthAmericaAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -214,8 +214,8 @@ export const montevideosouthAmericaAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -223,8 +223,8 @@ export const montevideosouthAmericaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -232,8 +232,8 @@ export const montevideosouthAmericaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -241,8 +241,8 @@ export const montevideosouthAmericaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -250,8 +250,8 @@ export const montevideosouthAmericaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -259,8 +259,8 @@ export const montevideosouthAmericaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -295,8 +295,8 @@ export const montevideosouthAmericaAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "12:00",
-              to: "23:00",
+              from: "12:00 PM",
+              to: "11:00 PM",
             },
           ],
         },
@@ -304,8 +304,8 @@ export const montevideosouthAmericaAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "12:00",
-              to: "23:00",
+              from: "12:00 PM",
+              to: "11:00 PM",
             },
           ],
         },
@@ -313,8 +313,8 @@ export const montevideosouthAmericaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "12:00",
-              to: "23:00",
+              from: "12:00 PM",
+              to: "11:00 PM",
             },
           ],
         },
@@ -322,8 +322,8 @@ export const montevideosouthAmericaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "12:00",
-              to: "23:00",
+              from: "12:00 PM",
+              to: "11:00 PM",
             },
           ],
         },
@@ -331,8 +331,8 @@ export const montevideosouthAmericaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "12:00",
-              to: "23:00",
+              from: "12:00 PM",
+              to: "11:00 PM",
             },
           ],
         },
@@ -340,8 +340,8 @@ export const montevideosouthAmericaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "12:00",
-              to: "23:00",
+              from: "12:00 PM",
+              to: "11:00 PM",
             },
           ],
         },
@@ -349,8 +349,8 @@ export const montevideosouthAmericaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "12:00",
-              to: "23:00",
+              from: "12:00 PM",
+              to: "11:00 PM",
             },
           ],
         },
@@ -389,8 +389,8 @@ export const montevideosouthAmericaAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "12:00",
-              to: "18:00",
+              from: "12:00 PM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -398,8 +398,8 @@ export const montevideosouthAmericaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "12:00",
-              to: "18:00",
+              from: "12:00 PM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -407,8 +407,8 @@ export const montevideosouthAmericaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "12:00",
-              to: "18:00",
+              from: "12:00 PM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -416,8 +416,8 @@ export const montevideosouthAmericaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "12:00",
-              to: "18:00",
+              from: "12:00 PM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -425,8 +425,8 @@ export const montevideosouthAmericaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "12:00",
-              to: "18:00",
+              from: "12:00 PM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -434,8 +434,8 @@ export const montevideosouthAmericaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "12:00",
-              to: "18:00",
+              from: "12:00 PM",
+              to: "6:00 PM",
             },
           ],
         },

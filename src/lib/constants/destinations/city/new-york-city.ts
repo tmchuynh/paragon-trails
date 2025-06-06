@@ -1,10 +1,10 @@
 // filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/new-york-city.ts
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const newYorkCityeastCoastUsaAttractions: Attraction[] = [
+export const newYorkCityeastcoastusaAttractions: Attraction[] = [
     {
       title: "Statue of Liberty",
-      description: "Iconic symbol of freedom on Liberty Island.",
+      description: "Iconic copper statue representing freedom and democracy.",
       imageUrl: "https://images.unsplash.com/photo-nyc-statue-of-liberty",
       location: "Liberty Island, New York City",
       openingHours: [
@@ -12,8 +12,8 @@ export const newYorkCityeastCoastUsaAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "08:30",
-              to: "16:00",
+              from: "9:30 AM",
+              to: "4:30 AM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const newYorkCityeastCoastUsaAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "08:30",
-              to: "16:00",
+              from: "9:30 AM",
+              to: "4:30 AM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const newYorkCityeastCoastUsaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "08:30",
-              to: "16:00",
+              from: "9:30 AM",
+              to: "4:30 AM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const newYorkCityeastCoastUsaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "08:30",
-              to: "16:00",
+              from: "9:30 AM",
+              to: "4:30 AM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const newYorkCityeastCoastUsaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "08:30",
-              to: "16:00",
+              from: "9:30 AM",
+              to: "4:30 AM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const newYorkCityeastCoastUsaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "08:30",
-              to: "16:00",
+              from: "9:30 AM",
+              to: "4:30 AM",
             },
           ],
         },
@@ -66,13 +66,13 @@ export const newYorkCityeastCoastUsaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "08:30",
-              to: "16:00",
+              from: "9:30 AM",
+              to: "4:30 AM",
             },
           ],
         },
       ],
-      entryFee: "$23.50",
+      entryFee: "$24.30",
       entryFeeCategory: "moderate",
       priceRange: "$$",
       priceCategory: "moderate",
@@ -83,29 +83,30 @@ export const newYorkCityeastCoastUsaAttractions: Attraction[] = [
         "Popular",
       ],
       accessibilityFeatures: [
-        "wheelchair accessible ferry and pedestal",
+        "elevator to observation deck",
       ],
       entryFees: [
         {
           category: "adult",
-          priceRange: "$23.50",
+          priceRange: "$24.30",
           priceCategory: "moderate",
         },
         {
           category: "child",
-          priceRange: "$12",
+          priceRange: "$12.15",
           priceCategory: "budget",
         },
       ],
       features: [
         "monument",
-        "historical site",
-        "guided tours",
+        "national park",
+        "views",
+        "ferry ride",
       ],
     },
     {
       title: "Central Park",
-      description: "Large urban park with walking trails, lakes, and cultural sites.",
+      description: "Expansive urban park in the heart of Manhattan.",
       imageUrl: "https://images.unsplash.com/photo-nyc-central-park",
       location: "Central Park, New York City",
       openingHours: [
@@ -113,8 +114,8 @@ export const newYorkCityeastCoastUsaAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "06:00",
-              to: "23:59",
+              from: "6:00 AM",
+              to: "1:00 AM",
             },
           ],
         },
@@ -122,8 +123,8 @@ export const newYorkCityeastCoastUsaAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "06:00",
-              to: "23:59",
+              from: "6:00 AM",
+              to: "1:00 AM",
             },
           ],
         },
@@ -131,8 +132,8 @@ export const newYorkCityeastCoastUsaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "06:00",
-              to: "23:59",
+              from: "6:00 AM",
+              to: "1:00 AM",
             },
           ],
         },
@@ -140,8 +141,8 @@ export const newYorkCityeastCoastUsaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "06:00",
-              to: "23:59",
+              from: "6:00 AM",
+              to: "1:00 AM",
             },
           ],
         },
@@ -149,8 +150,8 @@ export const newYorkCityeastCoastUsaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "06:00",
-              to: "23:59",
+              from: "6:00 AM",
+              to: "1:00 AM",
             },
           ],
         },
@@ -158,8 +159,8 @@ export const newYorkCityeastCoastUsaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "06:00",
-              to: "23:59",
+              from: "6:00 AM",
+              to: "1:00 AM",
             },
           ],
         },
@@ -167,8 +168,8 @@ export const newYorkCityeastCoastUsaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "06:00",
-              to: "23:59",
+              from: "6:00 AM",
+              to: "1:00 AM",
             },
           ],
         },
@@ -177,27 +178,30 @@ export const newYorkCityeastCoastUsaAttractions: Attraction[] = [
       entryFeeCategory: "free",
       priceRange: "free",
       priceCategory: "free",
-      timeOfDay: "all day",
-      rating: 4.8,
+      timeOfDay: "daytime",
+      rating: 4.9,
       tags: [
         "Adventure",
         "Free",
         "Popular",
         "Petfriendly",
       ],
-      accessibilityFeatures: [],
+      accessibilityFeatures: [
+        "accessible paths",
+        "adaptive playgrounds",
+      ],
       entryFees: [],
       features: [
         "park",
-        "walking",
-        "outdoor",
-        "cycling",
-        "picnic",
+        "lake",
+        "zoo",
+        "paths",
+        "outdoor activities",
       ],
     },
     {
       title: "Metropolitan Museum of Art",
-      description: "World-renowned museum with extensive art collections.",
+      description: "One of the world's largest and most prestigious art museums.",
       imageUrl: "https://images.unsplash.com/photo-nyc-met-museum",
       location: "1000 5th Ave, New York City",
       openingHours: [
@@ -205,8 +209,8 @@ export const newYorkCityeastCoastUsaAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:30",
+              from: "10:00 AM",
+              to: "5:30 AM",
             },
           ],
         },
@@ -214,8 +218,8 @@ export const newYorkCityeastCoastUsaAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:30",
+              from: "10:00 AM",
+              to: "5:30 AM",
             },
           ],
         },
@@ -223,8 +227,8 @@ export const newYorkCityeastCoastUsaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:30",
+              from: "10:00 AM",
+              to: "5:30 AM",
             },
           ],
         },
@@ -232,8 +236,8 @@ export const newYorkCityeastCoastUsaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:30",
+              from: "10:00 AM",
+              to: "5:30 AM",
             },
           ],
         },
@@ -241,8 +245,8 @@ export const newYorkCityeastCoastUsaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:30",
+              from: "10:00 AM",
+              to: "9:00 AM",
             },
           ],
         },
@@ -250,8 +254,8 @@ export const newYorkCityeastCoastUsaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:30",
+              from: "10:00 AM",
+              to: "9:00 AM",
             },
           ],
         },
@@ -259,43 +263,54 @@ export const newYorkCityeastCoastUsaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:30",
+              from: "10:00 AM",
+              to: "5:30 AM",
             },
           ],
         },
       ],
-      entryFee: "$30",
-      entryFeeCategory: "expensive",
-      priceRange: "$$$",
-      priceCategory: "expensive",
+      entryFee: "$25",
+      entryFeeCategory: "moderate",
+      priceRange: "$$",
+      priceCategory: "moderate",
       timeOfDay: "daytime",
-      rating: 4.7,
+      rating: 4.8,
       tags: [
         "Historical",
         "Artormusic",
         "Popular",
       ],
       accessibilityFeatures: [
-        "wheelchair accessible entrances and elevators",
+        "wheelchair accessible",
+        "assistive listening devices",
       ],
       entryFees: [
         {
           category: "adult",
-          priceRange: "$30",
-          priceCategory: "expensive",
+          priceRange: "$25",
+          priceCategory: "moderate",
         },
         {
-          category: "child",
-          priceRange: "$15",
+          category: "student",
+          priceRange: "$12",
           priceCategory: "budget",
+        },
+        {
+          category: "senior",
+          priceRange: "$17",
+          priceCategory: "budget",
+        },
+        {
+          category: "child under 12",
+          priceRange: "Free",
+          priceCategory: "free",
         },
       ],
       features: [
         "museum",
         "art",
-        "cultural history",
-        "guided tours",
+        "exhibitions",
+        "world-class collection",
       ],
     },
   ];

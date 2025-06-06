@@ -4,7 +4,7 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const florencemediterraneanAttractions: Attraction[] = [
     {
       title: "Cathedral of Santa Maria del Fiore (Duomo)",
-      description: "Iconic cathedral known for its red-tiled dome engineered by Brunelleschi and its stunning frescoes.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-florence-duomo",
       location: "Piazza del Duomo, 50122 Florence",
       openingHours: [
@@ -12,8 +12,8 @@ export const florencemediterraneanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const florencemediterraneanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const florencemediterraneanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const florencemediterraneanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const florencemediterraneanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const florencemediterraneanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -66,44 +66,26 @@ export const florencemediterraneanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
-      entryFee: "€18",
+      entryFee: undefined,
       entryFeeCategory: "moderate",
-      priceRange: "$$",
+      priceRange: "$",
       priceCategory: "moderate",
       timeOfDay: "daytime",
-      rating: 4.8,
-      tags: [
-        "Historical",
-        "Popular",
-      ],
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
-      entryFees: [
-        {
-          category: "adult",
-          priceRange: "€18",
-          priceCategory: "moderate",
-        },
-        {
-          category: "child",
-          priceRange: "€9",
-          priceCategory: "low",
-        },
-      ],
-      features: [
-        "cathedral",
-        "Brunelleschi's dome",
-        "frescoes",
-      ],
+      entryFees: [],
+      features: [],
     },
     {
       title: "Uffizi Gallery",
-      description: "World-renowned art museum housing masterpieces by Botticelli, Michelangelo, and Leonardo da Vinci.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-florence-uffizi",
       location: "Piazzale degli Uffizi, 6, 50122 Florence",
       openingHours: [
@@ -111,8 +93,8 @@ export const florencemediterraneanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "08:15",
-              to: "18:50",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -120,8 +102,8 @@ export const florencemediterraneanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "08:15",
-              to: "18:50",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -129,8 +111,8 @@ export const florencemediterraneanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "08:15",
-              to: "18:50",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -138,8 +120,8 @@ export const florencemediterraneanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "08:15",
-              to: "18:50",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -147,8 +129,8 @@ export const florencemediterraneanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "08:15",
-              to: "18:50",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -156,8 +138,8 @@ export const florencemediterraneanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "08:15",
-              to: "18:50",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -165,44 +147,26 @@ export const florencemediterraneanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "08:15",
-              to: "18:50",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
-      entryFee: "€20",
-      entryFeeCategory: "expensive",
-      priceRange: "$$$",
-      priceCategory: "expensive",
+      entryFee: undefined,
+      entryFeeCategory: "moderate",
+      priceRange: "$",
+      priceCategory: "moderate",
       timeOfDay: "daytime",
-      rating: 4.7,
-      tags: [
-        "Artormusic",
-        "Popular",
-      ],
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
-      entryFees: [
-        {
-          category: "adult",
-          priceRange: "€20",
-          priceCategory: "expensive",
-        },
-        {
-          category: "child",
-          priceRange: "€10",
-          priceCategory: "budget",
-        },
-      ],
-      features: [
-        "art museum",
-        "Renaissance art",
-        "guided tours",
-      ],
+      entryFees: [],
+      features: [],
     },
     {
       title: "Ponte Vecchio",
-      description: "Historic bridge spanning the Arno River, famous for its shops built along its edges.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-florence-ponte-vecchio",
       location: "Ponte Vecchio, Florence",
       openingHours: [
@@ -210,8 +174,8 @@ export const florencemediterraneanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -219,8 +183,8 @@ export const florencemediterraneanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -228,8 +192,8 @@ export const florencemediterraneanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -237,8 +201,8 @@ export const florencemediterraneanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -246,8 +210,8 @@ export const florencemediterraneanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -255,8 +219,8 @@ export const florencemediterraneanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -264,29 +228,21 @@ export const florencemediterraneanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
       entryFee: undefined,
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
+      entryFeeCategory: "moderate",
+      priceRange: "$",
+      priceCategory: "moderate",
       timeOfDay: "daytime",
-      rating: 4.6,
-      tags: [
-        "Historical",
-        "Free",
-        "Popular",
-      ],
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "bridge",
-        "shops",
-        "Arno River views",
-      ],
+      features: [],
     },
   ];

@@ -1,7 +1,7 @@
 // filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/ho-chi-minh-city.ts
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const hoChiMinhCityasiaPacificAttractions: Attraction[] = [
+export const hoChiMinhCityasiapacificAttractions: Attraction[] = [
     {
       title: "War Remnants Museum",
       description: "Museum exhibiting artifacts and photographs from the Vietnam War, offering insight into the country's history.",
@@ -12,8 +12,8 @@ export const hoChiMinhCityasiaPacificAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "07:30",
-              to: "18:00",
+              from: "7:30 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const hoChiMinhCityasiaPacificAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "07:30",
-              to: "18:00",
+              from: "7:30 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const hoChiMinhCityasiaPacificAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "07:30",
-              to: "18:00",
+              from: "7:30 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const hoChiMinhCityasiaPacificAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "07:30",
-              to: "18:00",
+              from: "7:30 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const hoChiMinhCityasiaPacificAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "07:30",
-              to: "18:00",
+              from: "7:30 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const hoChiMinhCityasiaPacificAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "07:30",
-              to: "18:00",
+              from: "7:30 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -66,8 +66,8 @@ export const hoChiMinhCityasiaPacificAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "07:30",
-              to: "18:00",
+              from: "7:30 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -113,8 +113,8 @@ export const hoChiMinhCityasiaPacificAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "07:00",
-              to: "17:00",
+              from: "7:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -122,8 +122,8 @@ export const hoChiMinhCityasiaPacificAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "07:00",
-              to: "17:00",
+              from: "7:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -131,8 +131,8 @@ export const hoChiMinhCityasiaPacificAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "07:00",
-              to: "17:00",
+              from: "7:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -140,8 +140,8 @@ export const hoChiMinhCityasiaPacificAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "07:00",
-              to: "17:00",
+              from: "7:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -149,8 +149,8 @@ export const hoChiMinhCityasiaPacificAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "07:00",
-              to: "17:00",
+              from: "7:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -158,8 +158,8 @@ export const hoChiMinhCityasiaPacificAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "07:00",
-              to: "17:00",
+              from: "7:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -167,8 +167,8 @@ export const hoChiMinhCityasiaPacificAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "07:00",
-              to: "17:00",
+              from: "7:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -215,8 +215,8 @@ export const hoChiMinhCityasiaPacificAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "06:00",
-              to: "18:00",
+              from: "6:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -224,8 +224,8 @@ export const hoChiMinhCityasiaPacificAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "06:00",
-              to: "18:00",
+              from: "6:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -233,8 +233,8 @@ export const hoChiMinhCityasiaPacificAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "06:00",
-              to: "18:00",
+              from: "6:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -242,8 +242,8 @@ export const hoChiMinhCityasiaPacificAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "06:00",
-              to: "18:00",
+              from: "6:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -251,8 +251,8 @@ export const hoChiMinhCityasiaPacificAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "06:00",
-              to: "18:00",
+              from: "6:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -260,8 +260,8 @@ export const hoChiMinhCityasiaPacificAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "06:00",
-              to: "18:00",
+              from: "6:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -269,8 +269,8 @@ export const hoChiMinhCityasiaPacificAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "06:00",
-              to: "18:00",
+              from: "6:00 AM",
+              to: "6:00 PM",
             },
           ],
         },

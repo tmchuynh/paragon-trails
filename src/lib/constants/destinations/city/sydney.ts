@@ -1,7 +1,7 @@
 // filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/sydney.ts
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const sydneyasiaPacificAttractions: Attraction[] = [
+export const sydneyasiapacificAttractions: Attraction[] = [
     {
       title: "Sydney Opera House",
       description: "World-famous performing arts center with distinctive architecture.",
@@ -12,8 +12,8 @@ export const sydneyasiaPacificAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const sydneyasiaPacificAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const sydneyasiaPacificAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const sydneyasiaPacificAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const sydneyasiaPacificAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const sydneyasiaPacificAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -66,8 +66,8 @@ export const sydneyasiaPacificAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -114,8 +114,8 @@ export const sydneyasiaPacificAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -123,8 +123,8 @@ export const sydneyasiaPacificAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -132,8 +132,8 @@ export const sydneyasiaPacificAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -141,8 +141,8 @@ export const sydneyasiaPacificAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -150,8 +150,8 @@ export const sydneyasiaPacificAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -159,8 +159,8 @@ export const sydneyasiaPacificAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -168,8 +168,8 @@ export const sydneyasiaPacificAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -205,7 +205,7 @@ export const sydneyasiaPacificAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:30 AM",
-              to: "4:30 PM",
+              to: "4:30 AM",
             },
           ],
         },
@@ -214,7 +214,7 @@ export const sydneyasiaPacificAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:30 AM",
-              to: "4:30 PM",
+              to: "4:30 AM",
             },
           ],
         },
@@ -223,7 +223,7 @@ export const sydneyasiaPacificAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:30 AM",
-              to: "4:30 PM",
+              to: "4:30 AM",
             },
           ],
         },
@@ -232,7 +232,7 @@ export const sydneyasiaPacificAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:30 AM",
-              to: "4:30 PM",
+              to: "4:30 AM",
             },
           ],
         },
@@ -241,7 +241,7 @@ export const sydneyasiaPacificAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:30 AM",
-              to: "4:30 PM",
+              to: "4:30 AM",
             },
           ],
         },
@@ -250,7 +250,7 @@ export const sydneyasiaPacificAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:30 AM",
-              to: "4:30 PM",
+              to: "4:30 AM",
             },
           ],
         },
@@ -259,7 +259,7 @@ export const sydneyasiaPacificAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:30 AM",
-              to: "4:30 PM",
+              to: "4:30 AM",
             },
           ],
         },

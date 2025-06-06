@@ -4,7 +4,7 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const ketchikanalaskaAttractions: Attraction[] = [
     {
       title: "Totem Heritage Center",
-      description: "Museum preserving and showcasing 19th-century totem poles and cultural artifacts of the Tlingit, Haida, and Tsimshian peoples.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-ketchikan-totem-center",
       location: "601 Deermountain Rd, Ketchikan, AK",
       openingHours: [
@@ -12,8 +12,8 @@ export const ketchikanalaskaAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "08:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const ketchikanalaskaAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "08:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const ketchikanalaskaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "08:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const ketchikanalaskaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "08:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const ketchikanalaskaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "08:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const ketchikanalaskaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "08:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -66,33 +66,26 @@ export const ketchikanalaskaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "08:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
-      entryFee: "$6",
-      entryFeeCategory: "cheap",
+      entryFee: undefined,
+      entryFeeCategory: "moderate",
       priceRange: "$",
-      priceCategory: "cheap",
+      priceCategory: "moderate",
       timeOfDay: "daytime",
-      rating: 4.5,
-      tags: [
-        "Historical",
-        "Popular",
-      ],
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "museum",
-        "totem poles",
-        "cultural artifacts",
-      ],
+      features: [],
     },
     {
       title: "Misty Fjords National Monument",
-      description: "A pristine wilderness area with dramatic fjords, steep cliffs, and waterfalls, best explored by boat or floatplane.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-ketchikan-misty-fjords",
       location: "Ketchikan, AK",
       openingHours: [
@@ -100,8 +93,8 @@ export const ketchikanalaskaAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -109,8 +102,8 @@ export const ketchikanalaskaAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -118,8 +111,8 @@ export const ketchikanalaskaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -127,8 +120,8 @@ export const ketchikanalaskaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -136,8 +129,8 @@ export const ketchikanalaskaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -145,8 +138,8 @@ export const ketchikanalaskaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -154,34 +147,26 @@ export const ketchikanalaskaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
       entryFee: undefined,
-      entryFeeCategory: "varies",
-      priceRange: "$$-$$$",
+      entryFeeCategory: "moderate",
+      priceRange: "$",
       priceCategory: "moderate",
       timeOfDay: "daytime",
-      rating: 4.9,
-      tags: [
-        "Adventure",
-        "Popular",
-      ],
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "wilderness area",
-        "fjords",
-        "waterfalls",
-        "boat tours",
-      ],
+      features: [],
     },
     {
       title: "Creek Street",
-      description: "Historic boardwalk district lined with colorful buildings, shops, galleries, and former brothels perched over a salmon-filled creek.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-ketchikan-creek-street",
       location: "Creek St, Ketchikan, AK",
       openingHours: [
@@ -189,8 +174,8 @@ export const ketchikanalaskaAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -198,8 +183,8 @@ export const ketchikanalaskaAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -207,8 +192,8 @@ export const ketchikanalaskaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -216,8 +201,8 @@ export const ketchikanalaskaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -225,8 +210,8 @@ export const ketchikanalaskaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -234,8 +219,8 @@ export const ketchikanalaskaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -243,30 +228,21 @@ export const ketchikanalaskaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
       entryFee: undefined,
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
+      entryFeeCategory: "moderate",
+      priceRange: "$",
+      priceCategory: "moderate",
       timeOfDay: "daytime",
-      rating: 4.6,
-      tags: [
-        "Historical",
-        "Free",
-        "Popular",
-      ],
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "historic district",
-        "boardwalk",
-        "shops",
-        "galleries",
-      ],
+      features: [],
     },
   ];

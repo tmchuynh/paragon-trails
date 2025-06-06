@@ -12,8 +12,8 @@ export const miamicaribbeanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:30",
-              to: "16:30",
+              from: "9:30 AM",
+              to: "4:30 PM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const miamicaribbeanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:30",
-              to: "16:30",
+              from: "9:30 AM",
+              to: "4:30 PM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const miamicaribbeanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:30",
-              to: "16:30",
+              from: "9:30 AM",
+              to: "4:30 PM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const miamicaribbeanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:30",
-              to: "16:30",
+              from: "9:30 AM",
+              to: "4:30 PM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const miamicaribbeanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:30",
-              to: "16:30",
+              from: "9:30 AM",
+              to: "4:30 PM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const miamicaribbeanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:30",
-              to: "16:30",
+              from: "9:30 AM",
+              to: "4:30 PM",
             },
           ],
         },
@@ -66,8 +66,8 @@ export const miamicaribbeanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:30",
-              to: "16:30",
+              from: "9:30 AM",
+              to: "4:30 PM",
             },
           ],
         },
@@ -114,8 +114,8 @@ export const miamicaribbeanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -123,8 +123,8 @@ export const miamicaribbeanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -132,8 +132,8 @@ export const miamicaribbeanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -141,8 +141,8 @@ export const miamicaribbeanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -150,8 +150,8 @@ export const miamicaribbeanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -159,8 +159,8 @@ export const miamicaribbeanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -168,8 +168,8 @@ export const miamicaribbeanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -203,8 +203,8 @@ export const miamicaribbeanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "10:30",
-              to: "23:30",
+              from: "10:30 AM",
+              to: "11:30 PM",
             },
           ],
         },
@@ -212,8 +212,8 @@ export const miamicaribbeanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "10:30",
-              to: "23:30",
+              from: "10:30 AM",
+              to: "11:30 PM",
             },
           ],
         },
@@ -221,8 +221,8 @@ export const miamicaribbeanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "10:30",
-              to: "23:30",
+              from: "10:30 AM",
+              to: "11:30 PM",
             },
           ],
         },
@@ -230,8 +230,8 @@ export const miamicaribbeanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "10:30",
-              to: "23:30",
+              from: "10:30 AM",
+              to: "11:30 PM",
             },
           ],
         },
@@ -239,8 +239,8 @@ export const miamicaribbeanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "10:30",
-              to: "23:30",
+              from: "10:30 AM",
+              to: "11:30 PM",
             },
           ],
         },
@@ -248,8 +248,8 @@ export const miamicaribbeanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "10:30",
-              to: "23:30",
+              from: "10:30 AM",
+              to: "11:30 PM",
             },
           ],
         },
@@ -257,8 +257,8 @@ export const miamicaribbeanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "10:30",
-              to: "23:30",
+              from: "10:30 AM",
+              to: "11:30 PM",
             },
           ],
         },
@@ -303,8 +303,8 @@ export const miamicaribbeanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -312,8 +312,8 @@ export const miamicaribbeanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -321,8 +321,8 @@ export const miamicaribbeanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -330,8 +330,8 @@ export const miamicaribbeanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -339,8 +339,8 @@ export const miamicaribbeanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -348,8 +348,8 @@ export const miamicaribbeanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -357,8 +357,8 @@ export const miamicaribbeanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -404,8 +404,8 @@ export const miamicaribbeanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -413,8 +413,8 @@ export const miamicaribbeanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -422,8 +422,8 @@ export const miamicaribbeanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -431,8 +431,8 @@ export const miamicaribbeanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -440,8 +440,8 @@ export const miamicaribbeanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -449,8 +449,8 @@ export const miamicaribbeanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -458,8 +458,8 @@ export const miamicaribbeanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },

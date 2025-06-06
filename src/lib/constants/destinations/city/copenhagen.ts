@@ -1,10 +1,10 @@
 // filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/copenhagen.ts
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const copenhagennorthernEuropeAttractions: Attraction[] = [
+export const copenhagennortherneuropeAttractions: Attraction[] = [
     {
       title: "Tivoli Gardens",
-      description: "Historic amusement park and pleasure garden offering rides, games, and live entertainment.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-copenhagen-tivoli",
       location: "Vesterbrogade 3, 1630 København V",
       openingHours: [
@@ -12,8 +12,8 @@ export const copenhagennorthernEuropeAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "11:00",
-              to: "23:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const copenhagennorthernEuropeAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "11:00",
-              to: "23:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const copenhagennorthernEuropeAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "11:00",
-              to: "23:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const copenhagennorthernEuropeAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "11:00",
-              to: "23:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const copenhagennorthernEuropeAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "11:00",
-              to: "23:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const copenhagennorthernEuropeAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "11:00",
-              to: "23:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -66,32 +66,26 @@ export const copenhagennorthernEuropeAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "11:00",
-              to: "23:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
-      entryFee: "DKK 135",
+      entryFee: undefined,
       entryFeeCategory: "moderate",
-      priceRange: "$$",
+      priceRange: "$",
       priceCategory: "moderate",
-      timeOfDay: "evening",
-      rating: 4.5,
-      tags: [
-        "Popular",
-      ],
+      timeOfDay: "daytime",
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "amusement park",
-        "gardens",
-        "live entertainment",
-      ],
+      features: [],
     },
     {
       title: "Nyhavn",
-      description: "Iconic 17th-century waterfront district known for its colorful buildings and vibrant atmosphere.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-copenhagen-nyhavn",
       location: "Nyhavn, 1051 København K",
       openingHours: [
@@ -99,8 +93,8 @@ export const copenhagennorthernEuropeAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -108,8 +102,8 @@ export const copenhagennorthernEuropeAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -117,8 +111,8 @@ export const copenhagennorthernEuropeAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -126,8 +120,8 @@ export const copenhagennorthernEuropeAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -135,8 +129,8 @@ export const copenhagennorthernEuropeAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -144,8 +138,8 @@ export const copenhagennorthernEuropeAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -153,34 +147,26 @@ export const copenhagennorthernEuropeAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
       entryFee: undefined,
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
-      timeOfDay: "all day",
-      rating: 4.7,
-      tags: [
-        "Historical",
-        "Free",
-        "Popular",
-      ],
+      entryFeeCategory: "moderate",
+      priceRange: "$",
+      priceCategory: "moderate",
+      timeOfDay: "daytime",
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "waterfront",
-        "colorful buildings",
-        "restaurants",
-      ],
+      features: [],
     },
     {
       title: "The Little Mermaid",
-      description: "Famous bronze statue inspired by Hans Christian Andersen's fairy tale, perched on a rock by the waterside.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-copenhagen-mermaid",
       location: "Langelinie, 2100 København Ø",
       openingHours: [
@@ -188,8 +174,8 @@ export const copenhagennorthernEuropeAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -197,8 +183,8 @@ export const copenhagennorthernEuropeAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -206,8 +192,8 @@ export const copenhagennorthernEuropeAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -215,8 +201,8 @@ export const copenhagennorthernEuropeAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -224,8 +210,8 @@ export const copenhagennorthernEuropeAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -233,8 +219,8 @@ export const copenhagennorthernEuropeAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -242,28 +228,21 @@ export const copenhagennorthernEuropeAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
       entryFee: undefined,
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
+      entryFeeCategory: "moderate",
+      priceRange: "$",
+      priceCategory: "moderate",
       timeOfDay: "daytime",
-      rating: 4.2,
-      tags: [
-        "Free",
-        "Popular",
-      ],
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "statue",
-        "fairy tale",
-        "waterfront",
-      ],
+      features: [],
     },
   ];

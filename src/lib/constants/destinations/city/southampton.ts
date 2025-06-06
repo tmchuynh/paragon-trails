@@ -1,7 +1,7 @@
 // filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/southampton.ts
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const southamptonnorthernEuropeAttractions: Attraction[] = [
+export const southamptonnortherneuropeAttractions: Attraction[] = [
     {
       title: "SeaCity Museum",
       description: "Museum exploring Southampton’s history as a maritime city, including its connection to the Titanic, through interactive galleries and multimedia displays.",
@@ -12,8 +12,8 @@ export const southamptonnorthernEuropeAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:00",
+              from: "10:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const southamptonnorthernEuropeAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:00",
+              from: "10:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const southamptonnorthernEuropeAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:00",
+              from: "10:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const southamptonnorthernEuropeAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:00",
+              from: "10:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const southamptonnorthernEuropeAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:00",
+              from: "10:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const southamptonnorthernEuropeAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:00",
+              from: "10:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -66,8 +66,8 @@ export const southamptonnorthernEuropeAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:00",
+              from: "10:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -118,8 +118,8 @@ export const southamptonnorthernEuropeAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:00",
+              from: "10:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -127,8 +127,8 @@ export const southamptonnorthernEuropeAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:00",
+              from: "10:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -136,8 +136,8 @@ export const southamptonnorthernEuropeAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:00",
+              from: "10:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -145,8 +145,8 @@ export const southamptonnorthernEuropeAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:00",
+              from: "10:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -154,8 +154,8 @@ export const southamptonnorthernEuropeAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:00",
+              from: "10:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -163,8 +163,8 @@ export const southamptonnorthernEuropeAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:00",
+              from: "10:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -199,8 +199,8 @@ export const southamptonnorthernEuropeAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "10:00",
-              to: "16:00",
+              from: "10:00 AM",
+              to: "4:00 PM",
             },
           ],
         },
@@ -208,8 +208,8 @@ export const southamptonnorthernEuropeAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "10:00",
-              to: "16:00",
+              from: "10:00 AM",
+              to: "4:00 PM",
             },
           ],
         },
@@ -217,8 +217,8 @@ export const southamptonnorthernEuropeAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "10:00",
-              to: "16:00",
+              from: "10:00 AM",
+              to: "4:00 PM",
             },
           ],
         },
@@ -226,8 +226,8 @@ export const southamptonnorthernEuropeAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "10:00",
-              to: "16:00",
+              from: "10:00 AM",
+              to: "4:00 PM",
             },
           ],
         },
@@ -235,8 +235,8 @@ export const southamptonnorthernEuropeAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "10:00",
-              to: "16:00",
+              from: "10:00 AM",
+              to: "4:00 PM",
             },
           ],
         },
@@ -244,8 +244,8 @@ export const southamptonnorthernEuropeAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "10:00",
-              to: "16:00",
+              from: "10:00 AM",
+              to: "4:00 PM",
             },
           ],
         },
@@ -253,8 +253,8 @@ export const southamptonnorthernEuropeAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "10:00",
-              to: "16:00",
+              from: "10:00 AM",
+              to: "4:00 PM",
             },
           ],
         },
@@ -301,8 +301,8 @@ export const southamptonnorthernEuropeAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:00",
-              to: "20:00",
+              from: "9:00 AM",
+              to: "8:00 PM",
             },
           ],
         },
@@ -310,8 +310,8 @@ export const southamptonnorthernEuropeAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "20:00",
+              from: "9:00 AM",
+              to: "8:00 PM",
             },
           ],
         },
@@ -319,8 +319,8 @@ export const southamptonnorthernEuropeAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "20:00",
+              from: "9:00 AM",
+              to: "8:00 PM",
             },
           ],
         },
@@ -328,8 +328,8 @@ export const southamptonnorthernEuropeAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:00",
-              to: "20:00",
+              from: "9:00 AM",
+              to: "8:00 PM",
             },
           ],
         },
@@ -337,8 +337,8 @@ export const southamptonnorthernEuropeAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:00",
-              to: "20:00",
+              from: "9:00 AM",
+              to: "8:00 PM",
             },
           ],
         },
@@ -346,8 +346,8 @@ export const southamptonnorthernEuropeAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:00",
-              to: "20:00",
+              from: "9:00 AM",
+              to: "8:00 PM",
             },
           ],
         },
@@ -355,8 +355,8 @@ export const southamptonnorthernEuropeAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:00",
-              to: "20:00",
+              from: "9:00 AM",
+              to: "8:00 PM",
             },
           ],
         },
@@ -392,8 +392,8 @@ export const southamptonnorthernEuropeAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -401,8 +401,8 @@ export const southamptonnorthernEuropeAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -410,8 +410,8 @@ export const southamptonnorthernEuropeAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -419,8 +419,8 @@ export const southamptonnorthernEuropeAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -428,8 +428,8 @@ export const southamptonnorthernEuropeAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -437,8 +437,8 @@ export const southamptonnorthernEuropeAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -446,8 +446,8 @@ export const southamptonnorthernEuropeAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },

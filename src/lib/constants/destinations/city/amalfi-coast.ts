@@ -1,7 +1,7 @@
 // filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/amalfi-coast.ts
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const amalfiCoastglobalAttractions: Attraction[] = [
+export const amalfiCoastmediterraneanAttractions: Attraction[] = [
     {
       title: "Positano Beach",
       description: "A picturesque pebble beach in Positano known for its colorful cliffside houses, crystal-clear waters, and vibrant seaside atmosphere.",
@@ -12,8 +12,8 @@ export const amalfiCoastglobalAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "06:00",
-              to: "22:00",
+              from: "6:00 AM",
+              to: "10:00 PM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const amalfiCoastglobalAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "06:00",
-              to: "22:00",
+              from: "6:00 AM",
+              to: "10:00 PM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const amalfiCoastglobalAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "06:00",
-              to: "22:00",
+              from: "6:00 AM",
+              to: "10:00 PM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const amalfiCoastglobalAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "06:00",
-              to: "22:00",
+              from: "6:00 AM",
+              to: "10:00 PM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const amalfiCoastglobalAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "06:00",
-              to: "22:00",
+              from: "6:00 AM",
+              to: "10:00 PM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const amalfiCoastglobalAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "06:00",
-              to: "22:00",
+              from: "6:00 AM",
+              to: "10:00 PM",
             },
           ],
         },
@@ -66,8 +66,8 @@ export const amalfiCoastglobalAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "06:00",
-              to: "22:00",
+              from: "6:00 AM",
+              to: "10:00 PM",
             },
           ],
         },
@@ -100,8 +100,8 @@ export const amalfiCoastglobalAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:00",
-              to: "19:00",
+              from: "9:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -109,8 +109,8 @@ export const amalfiCoastglobalAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "19:00",
+              from: "9:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -118,8 +118,8 @@ export const amalfiCoastglobalAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "19:00",
+              from: "9:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -127,8 +127,8 @@ export const amalfiCoastglobalAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:00",
-              to: "19:00",
+              from: "9:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -136,8 +136,8 @@ export const amalfiCoastglobalAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:00",
-              to: "19:00",
+              from: "9:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -145,8 +145,8 @@ export const amalfiCoastglobalAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:00",
-              to: "19:00",
+              from: "9:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -154,8 +154,8 @@ export const amalfiCoastglobalAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:00",
-              to: "19:00",
+              from: "9:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -191,8 +191,8 @@ export const amalfiCoastglobalAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "06:00",
-              to: "19:00",
+              from: "6:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -200,8 +200,8 @@ export const amalfiCoastglobalAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "06:00",
-              to: "19:00",
+              from: "6:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -209,8 +209,8 @@ export const amalfiCoastglobalAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "06:00",
-              to: "19:00",
+              from: "6:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -218,8 +218,8 @@ export const amalfiCoastglobalAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "06:00",
-              to: "19:00",
+              from: "6:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -227,8 +227,8 @@ export const amalfiCoastglobalAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "06:00",
-              to: "19:00",
+              from: "6:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -236,8 +236,8 @@ export const amalfiCoastglobalAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "06:00",
-              to: "19:00",
+              from: "6:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -245,8 +245,8 @@ export const amalfiCoastglobalAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "06:00",
-              to: "19:00",
+              from: "6:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -282,8 +282,8 @@ export const amalfiCoastglobalAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -291,8 +291,8 @@ export const amalfiCoastglobalAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -300,8 +300,8 @@ export const amalfiCoastglobalAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -309,8 +309,8 @@ export const amalfiCoastglobalAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -318,8 +318,8 @@ export const amalfiCoastglobalAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -327,8 +327,8 @@ export const amalfiCoastglobalAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -336,8 +336,8 @@ export const amalfiCoastglobalAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -355,7 +355,18 @@ export const amalfiCoastglobalAttractions: Attraction[] = [
       accessibilityFeatures: [
         "Ramps and elevators available",
       ],
-      entryFees: [],
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "€3",
+          priceCategory: "budget",
+        },
+        {
+          category: "child",
+          priceRange: "€1.50",
+          priceCategory: "low",
+        },
+      ],
       features: [
         "historical site",
         "architecture",
@@ -373,8 +384,8 @@ export const amalfiCoastglobalAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "06:00",
-              to: "20:00",
+              from: "6:00 AM",
+              to: "8:00 PM",
             },
           ],
         },
@@ -382,8 +393,8 @@ export const amalfiCoastglobalAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "06:00",
-              to: "20:00",
+              from: "6:00 AM",
+              to: "8:00 PM",
             },
           ],
         },
@@ -391,8 +402,8 @@ export const amalfiCoastglobalAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "06:00",
-              to: "20:00",
+              from: "6:00 AM",
+              to: "8:00 PM",
             },
           ],
         },
@@ -400,8 +411,8 @@ export const amalfiCoastglobalAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "06:00",
-              to: "20:00",
+              from: "6:00 AM",
+              to: "8:00 PM",
             },
           ],
         },
@@ -409,8 +420,8 @@ export const amalfiCoastglobalAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "06:00",
-              to: "20:00",
+              from: "6:00 AM",
+              to: "8:00 PM",
             },
           ],
         },
@@ -418,8 +429,8 @@ export const amalfiCoastglobalAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "06:00",
-              to: "20:00",
+              from: "6:00 AM",
+              to: "8:00 PM",
             },
           ],
         },
@@ -427,8 +438,8 @@ export const amalfiCoastglobalAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "06:00",
-              to: "20:00",
+              from: "6:00 AM",
+              to: "8:00 PM",
             },
           ],
         },

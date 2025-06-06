@@ -1,7 +1,7 @@
 // filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/auckland.ts
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const aucklandasiaPacificAttractions: Attraction[] = [
+export const aucklandasiapacificAttractions: Attraction[] = [
     {
       title: "Sky Tower",
       description: "Iconic observation and telecommunications tower offering panoramic views of Auckland.",
@@ -12,8 +12,8 @@ export const aucklandasiaPacificAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:00",
-              to: "22:00",
+              from: "9:00 AM",
+              to: "10:00 PM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const aucklandasiaPacificAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "22:00",
+              from: "9:00 AM",
+              to: "10:00 PM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const aucklandasiaPacificAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "22:00",
+              from: "9:00 AM",
+              to: "10:00 PM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const aucklandasiaPacificAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:00",
-              to: "22:00",
+              from: "9:00 AM",
+              to: "10:00 PM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const aucklandasiaPacificAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:00",
-              to: "22:00",
+              from: "9:00 AM",
+              to: "10:00 PM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const aucklandasiaPacificAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:00",
-              to: "22:00",
+              from: "9:00 AM",
+              to: "10:00 PM",
             },
           ],
         },
@@ -66,8 +66,8 @@ export const aucklandasiaPacificAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:00",
-              to: "22:00",
+              from: "9:00 AM",
+              to: "10:00 PM",
             },
           ],
         },
@@ -114,8 +114,8 @@ export const aucklandasiaPacificAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:00",
+              from: "10:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -123,8 +123,8 @@ export const aucklandasiaPacificAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:00",
+              from: "10:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -132,8 +132,8 @@ export const aucklandasiaPacificAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:00",
+              from: "10:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -141,8 +141,8 @@ export const aucklandasiaPacificAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:00",
+              from: "10:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -150,8 +150,8 @@ export const aucklandasiaPacificAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:00",
+              from: "10:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -159,8 +159,8 @@ export const aucklandasiaPacificAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:00",
+              from: "10:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -168,8 +168,8 @@ export const aucklandasiaPacificAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:00",
+              from: "10:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -215,8 +215,8 @@ export const aucklandasiaPacificAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -224,8 +224,8 @@ export const aucklandasiaPacificAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -233,8 +233,8 @@ export const aucklandasiaPacificAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -242,8 +242,8 @@ export const aucklandasiaPacificAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -251,8 +251,8 @@ export const aucklandasiaPacificAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -260,8 +260,8 @@ export const aucklandasiaPacificAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -269,8 +269,8 @@ export const aucklandasiaPacificAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },

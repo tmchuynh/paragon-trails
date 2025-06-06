@@ -4,7 +4,7 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const mykonosmediterraneanAttractions: Attraction[] = [
     {
       title: "Little Venice",
-      description: "Picturesque waterfront neighborhood with charming buildings, cafes, and bars overhanging the sea.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-mykonos-little-venice",
       location: "Mykonos Town, Mykonos",
       openingHours: [
@@ -12,8 +12,8 @@ export const mykonosmediterraneanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const mykonosmediterraneanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const mykonosmediterraneanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const mykonosmediterraneanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const mykonosmediterraneanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const mykonosmediterraneanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -66,35 +66,26 @@ export const mykonosmediterraneanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
       entryFee: undefined,
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
-      timeOfDay: "sunset and evening",
-      rating: 4.6,
-      tags: [
-        "Romantic",
-        "Free",
-        "Popular",
-      ],
+      entryFeeCategory: "moderate",
+      priceRange: "$",
+      priceCategory: "moderate",
+      timeOfDay: "daytime",
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "waterfront",
-        "sunset views",
-        "cafes",
-        "bars",
-      ],
+      features: [],
     },
     {
       title: "Windmills of Mykonos",
-      description: "Iconic whitewashed windmills overlooking Mykonos Town, offering scenic photo opportunities and historical context.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-mykonos-windmills",
       location: "Mykonos Town, Mykonos",
       openingHours: [
@@ -102,8 +93,8 @@ export const mykonosmediterraneanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -111,8 +102,8 @@ export const mykonosmediterraneanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -120,8 +111,8 @@ export const mykonosmediterraneanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -129,8 +120,8 @@ export const mykonosmediterraneanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -138,8 +129,8 @@ export const mykonosmediterraneanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -147,8 +138,8 @@ export const mykonosmediterraneanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -156,34 +147,26 @@ export const mykonosmediterraneanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
       entryFee: undefined,
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
+      entryFeeCategory: "moderate",
+      priceRange: "$",
+      priceCategory: "moderate",
       timeOfDay: "daytime",
-      rating: 4.5,
-      tags: [
-        "Historical",
-        "Free",
-        "Popular",
-      ],
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "windmills",
-        "scenic views",
-        "historical site",
-      ],
+      features: [],
     },
     {
       title: "Paradise Beach",
-      description: "Lively beach known for its crystal waters, party atmosphere, and beach clubs.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-mykonos-paradise-beach",
       location: "Paradise Beach, Mykonos",
       openingHours: [
@@ -191,8 +174,8 @@ export const mykonosmediterraneanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -200,8 +183,8 @@ export const mykonosmediterraneanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -209,8 +192,8 @@ export const mykonosmediterraneanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -218,8 +201,8 @@ export const mykonosmediterraneanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -227,8 +210,8 @@ export const mykonosmediterraneanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -236,8 +219,8 @@ export const mykonosmediterraneanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -245,28 +228,21 @@ export const mykonosmediterraneanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
       entryFee: undefined,
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
-      timeOfDay: "daytime and evening",
-      rating: 4.4,
-      tags: [
-        "Adventure",
-        "Popular",
-      ],
+      entryFeeCategory: "moderate",
+      priceRange: "$",
+      priceCategory: "moderate",
+      timeOfDay: "daytime",
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "beach",
-        "parties",
-        "beach clubs",
-      ],
+      features: [],
     },
   ];

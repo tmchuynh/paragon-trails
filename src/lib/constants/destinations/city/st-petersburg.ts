@@ -1,7 +1,7 @@
 // filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/st-petersburg.ts
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const stPetersburgnorthernEuropeAttractions: Attraction[] = [
+export const stPetersburgnortherneuropeAttractions: Attraction[] = [
     {
       title: "The Hermitage Museum",
       description: "One of the world’s largest and oldest museums, housing a vast collection of art and cultural artifacts.",
@@ -12,8 +12,8 @@ export const stPetersburgnorthernEuropeAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "10:30",
-              to: "18:00",
+              from: "10:30 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const stPetersburgnorthernEuropeAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "10:30",
-              to: "18:00",
+              from: "10:30 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const stPetersburgnorthernEuropeAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "10:30",
-              to: "18:00",
+              from: "10:30 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const stPetersburgnorthernEuropeAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "10:30",
-              to: "18:00",
+              from: "10:30 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const stPetersburgnorthernEuropeAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "10:30",
-              to: "18:00",
+              from: "10:30 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const stPetersburgnorthernEuropeAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "10:30",
-              to: "18:00",
+              from: "10:30 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -66,8 +66,8 @@ export const stPetersburgnorthernEuropeAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "10:30",
-              to: "18:00",
+              from: "10:30 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -112,8 +112,8 @@ export const stPetersburgnorthernEuropeAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "10:30",
-              to: "18:00",
+              from: "10:30 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -121,8 +121,8 @@ export const stPetersburgnorthernEuropeAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "10:30",
-              to: "18:00",
+              from: "10:30 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -130,8 +130,8 @@ export const stPetersburgnorthernEuropeAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "10:30",
-              to: "18:00",
+              from: "10:30 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -139,8 +139,8 @@ export const stPetersburgnorthernEuropeAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "10:30",
-              to: "18:00",
+              from: "10:30 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -148,8 +148,8 @@ export const stPetersburgnorthernEuropeAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "10:30",
-              to: "18:00",
+              from: "10:30 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -157,8 +157,8 @@ export const stPetersburgnorthernEuropeAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "10:30",
-              to: "18:00",
+              from: "10:30 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -166,8 +166,8 @@ export const stPetersburgnorthernEuropeAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "10:30",
-              to: "18:00",
+              from: "10:30 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -211,8 +211,8 @@ export const stPetersburgnorthernEuropeAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "10:00",
-              to: "18:00",
+              from: "10:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -220,8 +220,8 @@ export const stPetersburgnorthernEuropeAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "10:00",
-              to: "18:00",
+              from: "10:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -229,8 +229,8 @@ export const stPetersburgnorthernEuropeAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "10:00",
-              to: "18:00",
+              from: "10:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -238,8 +238,8 @@ export const stPetersburgnorthernEuropeAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "10:00",
-              to: "18:00",
+              from: "10:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -247,8 +247,8 @@ export const stPetersburgnorthernEuropeAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "10:00",
-              to: "18:00",
+              from: "10:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -256,8 +256,8 @@ export const stPetersburgnorthernEuropeAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "10:00",
-              to: "18:00",
+              from: "10:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -265,8 +265,8 @@ export const stPetersburgnorthernEuropeAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "10:00",
-              to: "18:00",
+              from: "10:00 AM",
+              to: "6:00 PM",
             },
           ],
         },

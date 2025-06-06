@@ -12,8 +12,8 @@ export const cartagenacaribbeanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const cartagenacaribbeanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const cartagenacaribbeanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const cartagenacaribbeanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const cartagenacaribbeanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const cartagenacaribbeanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -66,8 +66,8 @@ export const cartagenacaribbeanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -100,8 +100,8 @@ export const cartagenacaribbeanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "08:00",
-              to: "18:00",
+              from: "8:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -109,8 +109,8 @@ export const cartagenacaribbeanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "08:00",
-              to: "18:00",
+              from: "8:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -118,8 +118,8 @@ export const cartagenacaribbeanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "08:00",
-              to: "18:00",
+              from: "8:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -127,8 +127,8 @@ export const cartagenacaribbeanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "08:00",
-              to: "18:00",
+              from: "8:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -136,8 +136,8 @@ export const cartagenacaribbeanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "08:00",
-              to: "18:00",
+              from: "8:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -145,8 +145,8 @@ export const cartagenacaribbeanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "08:00",
-              to: "18:00",
+              from: "8:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -154,8 +154,8 @@ export const cartagenacaribbeanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "08:00",
-              to: "18:00",
+              from: "8:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -189,8 +189,8 @@ export const cartagenacaribbeanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -198,8 +198,8 @@ export const cartagenacaribbeanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -207,8 +207,8 @@ export const cartagenacaribbeanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -216,8 +216,8 @@ export const cartagenacaribbeanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -225,8 +225,8 @@ export const cartagenacaribbeanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -234,8 +234,8 @@ export const cartagenacaribbeanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -243,8 +243,8 @@ export const cartagenacaribbeanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },

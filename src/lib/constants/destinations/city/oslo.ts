@@ -1,10 +1,10 @@
 // filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/oslo.ts
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const oslonorthernEuropeAttractions: Attraction[] = [
+export const oslonortherneuropeAttractions: Attraction[] = [
     {
       title: "Viking Ship Museum",
-      description: "Museum displaying well-preserved Viking ships and artifacts from burial mounds around Norway.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-oslo-viking-ship-museum",
       location: "Huk Aveny 35, 0287 Oslo",
       openingHours: [
@@ -12,8 +12,8 @@ export const oslonorthernEuropeAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const oslonorthernEuropeAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const oslonorthernEuropeAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const oslonorthernEuropeAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const oslonorthernEuropeAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const oslonorthernEuropeAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -66,33 +66,26 @@ export const oslonorthernEuropeAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
       entryFee: undefined,
       entryFeeCategory: "moderate",
-      priceRange: "$$",
+      priceRange: "$",
       priceCategory: "moderate",
       timeOfDay: "daytime",
-      rating: 4.5,
-      tags: [
-        "Historical",
-        "Popular",
-      ],
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "museum",
-        "Viking ships",
-        "historical artifacts",
-      ],
+      features: [],
     },
     {
       title: "Vigeland Park",
-      description: "Large sculpture park featuring more than 200 works by Gustav Vigeland, surrounded by landscaped gardens.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-oslo-vigeland-park",
       location: "Nobels gate 32, 0268 Oslo",
       openingHours: [
@@ -100,8 +93,8 @@ export const oslonorthernEuropeAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -109,8 +102,8 @@ export const oslonorthernEuropeAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -118,8 +111,8 @@ export const oslonorthernEuropeAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -127,8 +120,8 @@ export const oslonorthernEuropeAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -136,8 +129,8 @@ export const oslonorthernEuropeAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -145,8 +138,8 @@ export const oslonorthernEuropeAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -154,34 +147,26 @@ export const oslonorthernEuropeAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
       entryFee: undefined,
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
+      entryFeeCategory: "moderate",
+      priceRange: "$",
+      priceCategory: "moderate",
       timeOfDay: "daytime",
-      rating: 4.7,
-      tags: [
-        "Artormusic",
-        "Free",
-        "Popular",
-      ],
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "sculpture park",
-        "landscaped gardens",
-        "outdoor art",
-      ],
+      features: [],
     },
     {
       title: "Oslo Opera House",
-      description: "Striking waterfront building home to the Norwegian National Opera and Ballet, known for its accessible rooftop views.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-oslo-opera-house",
       location: "Kirsten Flagstads Plass 1, 0150 Oslo",
       openingHours: [
@@ -189,8 +174,8 @@ export const oslonorthernEuropeAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "10:00",
-              to: "20:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -198,8 +183,8 @@ export const oslonorthernEuropeAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "10:00",
-              to: "20:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -207,8 +192,8 @@ export const oslonorthernEuropeAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "10:00",
-              to: "20:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -216,8 +201,8 @@ export const oslonorthernEuropeAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "10:00",
-              to: "20:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -225,8 +210,8 @@ export const oslonorthernEuropeAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "10:00",
-              to: "20:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -234,8 +219,8 @@ export const oslonorthernEuropeAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "10:00",
-              to: "20:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -243,32 +228,21 @@ export const oslonorthernEuropeAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "10:00",
-              to: "20:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
-      entryFee: "Varies by performance",
-      entryFeeCategory: "expensive",
-      priceRange: "$$$",
-      priceCategory: "expensive",
-      timeOfDay: "evening",
-      rating: 4.6,
-      tags: [
-        "Artormusic",
-        "Popular",
-      ],
-      accessibilityFeatures: [
-        "accessible entrances",
-        "elevators",
-        "reserved seating",
-      ],
+      entryFee: undefined,
+      entryFeeCategory: "moderate",
+      priceRange: "$",
+      priceCategory: "moderate",
+      timeOfDay: "daytime",
+      rating: 4,
+      tags: [],
+      accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "opera house",
-        "ballet",
-        "modern architecture",
-      ],
+      features: [],
     },
   ];

@@ -1,7 +1,7 @@
 // filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/tokyo.ts
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const tokyoasiaPacificAttractions: Attraction[] = [
+export const tokyoasiapacificAttractions: Attraction[] = [
     {
       title: "Senso-ji Temple",
       description: "Tokyo’s oldest temple, famous for its Kaminarimon Gate and shopping street.",
@@ -13,7 +13,7 @@ export const tokyoasiaPacificAttractions: Attraction[] = [
           availableHours: [
             {
               from: "6:00 AM",
-              to: "5:00 PM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -22,7 +22,7 @@ export const tokyoasiaPacificAttractions: Attraction[] = [
           availableHours: [
             {
               from: "6:00 AM",
-              to: "5:00 PM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -31,7 +31,7 @@ export const tokyoasiaPacificAttractions: Attraction[] = [
           availableHours: [
             {
               from: "6:00 AM",
-              to: "5:00 PM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -40,7 +40,7 @@ export const tokyoasiaPacificAttractions: Attraction[] = [
           availableHours: [
             {
               from: "6:00 AM",
-              to: "5:00 PM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -49,7 +49,7 @@ export const tokyoasiaPacificAttractions: Attraction[] = [
           availableHours: [
             {
               from: "6:00 AM",
-              to: "5:00 PM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -58,7 +58,7 @@ export const tokyoasiaPacificAttractions: Attraction[] = [
           availableHours: [
             {
               from: "6:00 AM",
-              to: "5:00 PM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -67,7 +67,7 @@ export const tokyoasiaPacificAttractions: Attraction[] = [
           availableHours: [
             {
               from: "6:00 AM",
-              to: "5:00 PM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -101,8 +101,8 @@ export const tokyoasiaPacificAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -110,8 +110,8 @@ export const tokyoasiaPacificAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -119,8 +119,8 @@ export const tokyoasiaPacificAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -128,8 +128,8 @@ export const tokyoasiaPacificAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -137,8 +137,8 @@ export const tokyoasiaPacificAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -146,8 +146,8 @@ export const tokyoasiaPacificAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -155,8 +155,8 @@ export const tokyoasiaPacificAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -191,7 +191,7 @@ export const tokyoasiaPacificAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "11:00 PM",
+              to: "11:00 AM",
             },
           ],
         },
@@ -200,7 +200,7 @@ export const tokyoasiaPacificAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "11:00 PM",
+              to: "11:00 AM",
             },
           ],
         },
@@ -209,7 +209,7 @@ export const tokyoasiaPacificAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "11:00 PM",
+              to: "11:00 AM",
             },
           ],
         },
@@ -218,7 +218,7 @@ export const tokyoasiaPacificAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "11:00 PM",
+              to: "11:00 AM",
             },
           ],
         },
@@ -227,7 +227,7 @@ export const tokyoasiaPacificAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "11:00 PM",
+              to: "11:00 AM",
             },
           ],
         },
@@ -236,7 +236,7 @@ export const tokyoasiaPacificAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "11:00 PM",
+              to: "11:00 AM",
             },
           ],
         },
@@ -245,7 +245,7 @@ export const tokyoasiaPacificAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "11:00 PM",
+              to: "11:00 AM",
             },
           ],
         },

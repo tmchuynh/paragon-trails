@@ -1,7 +1,7 @@
 // filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/yokohama.ts
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const yokohamaasiaPacificAttractions: Attraction[] = [
+export const yokohamaasiapacificAttractions: Attraction[] = [
     {
       title: "Minato Mirai 21",
       description: "A futuristic waterfront district featuring shopping centers, amusement parks, and panoramic views.",
@@ -12,8 +12,8 @@ export const yokohamaasiaPacificAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const yokohamaasiaPacificAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const yokohamaasiaPacificAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const yokohamaasiaPacificAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const yokohamaasiaPacificAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const yokohamaasiaPacificAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -66,8 +66,8 @@ export const yokohamaasiaPacificAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -100,8 +100,8 @@ export const yokohamaasiaPacificAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -109,8 +109,8 @@ export const yokohamaasiaPacificAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -118,8 +118,8 @@ export const yokohamaasiaPacificAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -127,8 +127,8 @@ export const yokohamaasiaPacificAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -136,8 +136,8 @@ export const yokohamaasiaPacificAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -145,8 +145,8 @@ export const yokohamaasiaPacificAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -154,8 +154,8 @@ export const yokohamaasiaPacificAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -198,8 +198,8 @@ export const yokohamaasiaPacificAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "10:00",
-              to: "18:00",
+              from: "10:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -207,8 +207,8 @@ export const yokohamaasiaPacificAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "10:00",
-              to: "18:00",
+              from: "10:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -216,8 +216,8 @@ export const yokohamaasiaPacificAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "10:00",
-              to: "18:00",
+              from: "10:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -225,8 +225,8 @@ export const yokohamaasiaPacificAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "10:00",
-              to: "18:00",
+              from: "10:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -234,8 +234,8 @@ export const yokohamaasiaPacificAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "10:00",
-              to: "18:00",
+              from: "10:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -243,8 +243,8 @@ export const yokohamaasiaPacificAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "10:00",
-              to: "18:00",
+              from: "10:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -252,8 +252,8 @@ export const yokohamaasiaPacificAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "10:00",
-              to: "18:00",
+              from: "10:00 AM",
+              to: "6:00 PM",
             },
           ],
         },

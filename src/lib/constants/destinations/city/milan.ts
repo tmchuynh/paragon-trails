@@ -4,7 +4,7 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const milanmediterraneanAttractions: Attraction[] = [
     {
       title: "Duomo di Milano",
-      description: "Stunning Gothic cathedral with intricate spires and rooftop views of Milan.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-milan-duomo",
       location: "Piazza del Duomo, 20122 Milan",
       openingHours: [
@@ -12,8 +12,8 @@ export const milanmediterraneanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:00",
-              to: "19:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const milanmediterraneanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "19:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const milanmediterraneanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "19:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const milanmediterraneanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:00",
-              to: "19:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const milanmediterraneanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:00",
-              to: "19:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const milanmediterraneanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:00",
-              to: "19:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -66,44 +66,26 @@ export const milanmediterraneanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:00",
-              to: "19:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
-      entryFee: "€5–€15",
+      entryFee: undefined,
       entryFeeCategory: "moderate",
-      priceRange: "$$",
+      priceRange: "$",
       priceCategory: "moderate",
       timeOfDay: "daytime",
-      rating: 4.8,
-      tags: [
-        "Historical",
-        "Popular",
-      ],
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
-      entryFees: [
-        {
-          category: "adult",
-          priceRange: "€5–€15",
-          priceCategory: "moderate",
-        },
-        {
-          category: "child",
-          priceRange: "€2.50–€7.50",
-          priceCategory: "low",
-        },
-      ],
-      features: [
-        "cathedral",
-        "Gothic architecture",
-        "rooftop views",
-      ],
+      entryFees: [],
+      features: [],
     },
     {
       title: "Galleria Vittorio Emanuele II",
-      description: "Elegant 19th-century shopping arcade featuring luxury boutiques and cafes.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-milan-galleria",
       location: "Piazza del Duomo, 20123 Milan",
       openingHours: [
@@ -111,8 +93,8 @@ export const milanmediterraneanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "10:00",
-              to: "20:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -120,8 +102,8 @@ export const milanmediterraneanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "10:00",
-              to: "20:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -129,8 +111,8 @@ export const milanmediterraneanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "10:00",
-              to: "20:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -138,8 +120,8 @@ export const milanmediterraneanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "10:00",
-              to: "20:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -147,8 +129,8 @@ export const milanmediterraneanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "10:00",
-              to: "20:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -156,8 +138,8 @@ export const milanmediterraneanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "10:00",
-              to: "20:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -165,33 +147,26 @@ export const milanmediterraneanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "10:00",
-              to: "20:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
       entryFee: undefined,
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
-      timeOfDay: "daytime and evening",
-      rating: 4.7,
-      tags: [
-        "Free",
-        "Popular",
-      ],
+      entryFeeCategory: "moderate",
+      priceRange: "$",
+      priceCategory: "moderate",
+      timeOfDay: "daytime",
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "shopping arcade",
-        "luxury boutiques",
-        "cafes",
-      ],
+      features: [],
     },
     {
       title: "Sforza Castle",
-      description: "Renaissance fortress housing museums and art collections, including works by Michelangelo.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-milan-castle",
       location: "Piazza Castello, 20121 Milan",
       openingHours: [
@@ -199,8 +174,8 @@ export const milanmediterraneanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "07:00",
-              to: "19:30",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -208,8 +183,8 @@ export const milanmediterraneanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "07:00",
-              to: "19:30",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -217,8 +192,8 @@ export const milanmediterraneanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "07:00",
-              to: "19:30",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -226,8 +201,8 @@ export const milanmediterraneanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "07:00",
-              to: "19:30",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -235,8 +210,8 @@ export const milanmediterraneanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "07:00",
-              to: "19:30",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -244,8 +219,8 @@ export const milanmediterraneanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "07:00",
-              to: "19:30",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -253,29 +228,21 @@ export const milanmediterraneanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "07:00",
-              to: "19:30",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
-      entryFee: "€5",
-      entryFeeCategory: "cheap",
+      entryFee: undefined,
+      entryFeeCategory: "moderate",
       priceRange: "$",
-      priceCategory: "cheap",
+      priceCategory: "moderate",
       timeOfDay: "daytime",
-      rating: 4.6,
-      tags: [
-        "Historical",
-        "Artormusic",
-        "Popular",
-      ],
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "fortress",
-        "museums",
-        "art collections",
-      ],
+      features: [],
     },
   ];

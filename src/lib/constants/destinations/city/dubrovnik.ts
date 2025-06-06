@@ -12,8 +12,8 @@ export const dubrovnikmediterraneanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "08:00",
-              to: "19:00",
+              from: "8:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const dubrovnikmediterraneanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "08:00",
-              to: "19:00",
+              from: "8:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const dubrovnikmediterraneanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "08:00",
-              to: "19:00",
+              from: "8:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const dubrovnikmediterraneanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "08:00",
-              to: "19:00",
+              from: "8:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const dubrovnikmediterraneanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "08:00",
-              to: "19:00",
+              from: "8:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const dubrovnikmediterraneanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "08:00",
-              to: "19:00",
+              from: "8:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -66,8 +66,8 @@ export const dubrovnikmediterraneanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "08:00",
-              to: "19:00",
+              from: "8:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -101,8 +101,8 @@ export const dubrovnikmediterraneanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -110,8 +110,8 @@ export const dubrovnikmediterraneanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -119,8 +119,8 @@ export const dubrovnikmediterraneanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -128,8 +128,8 @@ export const dubrovnikmediterraneanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -137,8 +137,8 @@ export const dubrovnikmediterraneanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -146,8 +146,8 @@ export const dubrovnikmediterraneanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -155,8 +155,8 @@ export const dubrovnikmediterraneanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -189,8 +189,8 @@ export const dubrovnikmediterraneanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -198,8 +198,8 @@ export const dubrovnikmediterraneanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -207,8 +207,8 @@ export const dubrovnikmediterraneanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -216,8 +216,8 @@ export const dubrovnikmediterraneanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -225,8 +225,8 @@ export const dubrovnikmediterraneanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -234,8 +234,8 @@ export const dubrovnikmediterraneanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -243,8 +243,8 @@ export const dubrovnikmediterraneanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },

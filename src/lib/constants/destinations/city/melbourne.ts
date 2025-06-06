@@ -1,10 +1,10 @@
 // filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/melbourne.ts
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const melbourneasiaPacificAttractions: Attraction[] = [
+export const melbourneasiapacificAttractions: Attraction[] = [
     {
       title: "Federation Square",
-      description: "Modern cultural precinct in central Melbourne featuring museums, restaurants, and public events.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-melbourne-federation-square",
       location: "Swanston St & Flinders St, Melbourne VIC",
       openingHours: [
@@ -12,8 +12,8 @@ export const melbourneasiaPacificAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const melbourneasiaPacificAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const melbourneasiaPacificAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const melbourneasiaPacificAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const melbourneasiaPacificAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const melbourneasiaPacificAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -66,33 +66,26 @@ export const melbourneasiaPacificAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
       entryFee: undefined,
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
-      timeOfDay: "all day",
-      rating: 4.4,
-      tags: [
-        "Free",
-        "Popular",
-      ],
+      entryFeeCategory: "moderate",
+      priceRange: "$",
+      priceCategory: "moderate",
+      timeOfDay: "daytime",
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "cultural precinct",
-        "museums",
-        "restaurants",
-      ],
+      features: [],
     },
     {
       title: "Royal Botanic Gardens",
-      description: "Expansive garden with diverse plant collections, lakes, and walking trails in the heart of Melbourne.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-melbourne-botanic-gardens",
       location: "Birdwood Ave, South Yarra VIC",
       openingHours: [
@@ -100,8 +93,8 @@ export const melbourneasiaPacificAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "07:30",
-              to: "17:30",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -109,8 +102,8 @@ export const melbourneasiaPacificAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "07:30",
-              to: "17:30",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -118,8 +111,8 @@ export const melbourneasiaPacificAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "07:30",
-              to: "17:30",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -127,8 +120,8 @@ export const melbourneasiaPacificAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "07:30",
-              to: "17:30",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -136,8 +129,8 @@ export const melbourneasiaPacificAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "07:30",
-              to: "17:30",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -145,8 +138,8 @@ export const melbourneasiaPacificAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "07:30",
-              to: "17:30",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -154,33 +147,26 @@ export const melbourneasiaPacificAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "07:30",
-              to: "17:30",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
       entryFee: undefined,
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
+      entryFeeCategory: "moderate",
+      priceRange: "$",
+      priceCategory: "moderate",
       timeOfDay: "daytime",
-      rating: 4.8,
-      tags: [
-        "Free",
-        "Popular",
-      ],
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "botanic gardens",
-        "plant collections",
-        "walking trails",
-      ],
+      features: [],
     },
     {
       title: "Queen Victoria Market",
-      description: "Historic open-air market offering fresh produce, gourmet foods, and local crafts.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-melbourne-victoria-market",
       location: "Queen St, Melbourne VIC",
       openingHours: [
@@ -188,8 +174,8 @@ export const melbourneasiaPacificAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "06:00",
-              to: "15:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -197,8 +183,8 @@ export const melbourneasiaPacificAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "06:00",
-              to: "15:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -206,8 +192,8 @@ export const melbourneasiaPacificAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "06:00",
-              to: "15:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -215,8 +201,8 @@ export const melbourneasiaPacificAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "06:00",
-              to: "15:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -224,8 +210,8 @@ export const melbourneasiaPacificAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "06:00",
-              to: "15:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -233,8 +219,8 @@ export const melbourneasiaPacificAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "06:00",
-              to: "15:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -242,29 +228,21 @@ export const melbourneasiaPacificAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "06:00",
-              to: "15:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
       entryFee: undefined,
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
+      entryFeeCategory: "moderate",
+      priceRange: "$",
+      priceCategory: "moderate",
       timeOfDay: "daytime",
-      rating: 4.6,
-      tags: [
-        "Free",
-        "Popular",
-      ],
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "market",
-        "fresh produce",
-        "gourmet foods",
-        "local crafts",
-      ],
+      features: [],
     },
   ];

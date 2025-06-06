@@ -1,10 +1,10 @@
 // filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/montreal.ts
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const montrealeastCoastCanadaAttractions: Attraction[] = [
+export const montrealeastcoastcanadaAttractions: Attraction[] = [
     {
       title: "Old Montreal",
-      description: "Historic district with cobblestone streets, colonial-era architecture, shops, and cafes.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-montreal-old-montreal",
       location: "Vieux-Montréal, Montreal, QC",
       openingHours: [
@@ -12,8 +12,8 @@ export const montrealeastCoastCanadaAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const montrealeastCoastCanadaAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const montrealeastCoastCanadaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const montrealeastCoastCanadaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const montrealeastCoastCanadaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const montrealeastCoastCanadaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -66,34 +66,26 @@ export const montrealeastCoastCanadaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
       entryFee: undefined,
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
-      timeOfDay: "all day",
-      rating: 4.7,
-      tags: [
-        "Historical",
-        "Free",
-        "Popular",
-      ],
+      entryFeeCategory: "moderate",
+      priceRange: "$",
+      priceCategory: "moderate",
+      timeOfDay: "daytime",
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "historic district",
-        "cobblestone streets",
-        "colonial architecture",
-      ],
+      features: [],
     },
     {
       title: "Mount Royal Park",
-      description: "Large urban park with trails, scenic overlooks, and outdoor activities designed by Frederick Law Olmsted.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-montreal-mount-royal",
       location: "1260 Remembrance Rd, Montreal, QC",
       openingHours: [
@@ -101,8 +93,8 @@ export const montrealeastCoastCanadaAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "06:00",
-              to: "21:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -110,8 +102,8 @@ export const montrealeastCoastCanadaAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "06:00",
-              to: "21:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -119,8 +111,8 @@ export const montrealeastCoastCanadaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "06:00",
-              to: "21:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -128,8 +120,8 @@ export const montrealeastCoastCanadaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "06:00",
-              to: "21:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -137,8 +129,8 @@ export const montrealeastCoastCanadaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "06:00",
-              to: "21:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -146,8 +138,8 @@ export const montrealeastCoastCanadaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "06:00",
-              to: "21:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -155,33 +147,26 @@ export const montrealeastCoastCanadaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "06:00",
-              to: "21:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
       entryFee: undefined,
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
+      entryFeeCategory: "moderate",
+      priceRange: "$",
+      priceCategory: "moderate",
       timeOfDay: "daytime",
-      rating: 4.7,
-      tags: [
-        "Free",
-        "Popular",
-      ],
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "urban park",
-        "trails",
-        "scenic overlooks",
-      ],
+      features: [],
     },
     {
       title: "Notre-Dame Basilica",
-      description: "Magnificent Gothic Revival church known for its ornate interior, stained glass, and musical performances.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-montreal-notre-dame",
       location: "110 Notre-Dame St W, Montreal, QC",
       openingHours: [
@@ -189,8 +174,8 @@ export const montrealeastCoastCanadaAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:00",
-              to: "16:30",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -198,8 +183,8 @@ export const montrealeastCoastCanadaAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "16:30",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -207,8 +192,8 @@ export const montrealeastCoastCanadaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "16:30",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -216,8 +201,8 @@ export const montrealeastCoastCanadaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:00",
-              to: "16:30",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -225,8 +210,8 @@ export const montrealeastCoastCanadaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:00",
-              to: "16:30",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -234,8 +219,8 @@ export const montrealeastCoastCanadaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:00",
-              to: "16:30",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -243,29 +228,21 @@ export const montrealeastCoastCanadaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:00",
-              to: "16:30",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
-      entryFee: "$15 CAD",
+      entryFee: undefined,
       entryFeeCategory: "moderate",
-      priceRange: "$$",
+      priceRange: "$",
       priceCategory: "moderate",
       timeOfDay: "daytime",
-      rating: 4.8,
-      tags: [
-        "Historical",
-        "Artormusic",
-        "Popular",
-      ],
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "basilica",
-        "Gothic Revival architecture",
-        "stained glass",
-      ],
+      features: [],
     },
   ];

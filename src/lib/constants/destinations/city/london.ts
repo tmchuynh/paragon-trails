@@ -1,10 +1,10 @@
 // filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/london.ts
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const londonnorthernEuropeAttractions: Attraction[] = [
+export const londonnortherneuropeAttractions: Attraction[] = [
     {
       title: "Tower of London",
-      description: "Historic castle and former royal palace with deep history.",
+      description: "Historic castle on the north bank of the River Thames.",
       imageUrl: "https://images.unsplash.com/photo-london-tower-of-london",
       location: "St Katharine's & Wapping, London",
       openingHours: [
@@ -12,8 +12,8 @@ export const londonnorthernEuropeAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:30",
+              from: "10:00 AM",
+              to: "5:30 AM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const londonnorthernEuropeAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:30",
+              from: "9:00 AM",
+              to: "5:30 AM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const londonnorthernEuropeAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:30",
+              from: "9:00 AM",
+              to: "5:30 AM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const londonnorthernEuropeAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:30",
+              from: "9:00 AM",
+              to: "5:30 AM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const londonnorthernEuropeAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:30",
+              from: "9:00 AM",
+              to: "5:30 AM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const londonnorthernEuropeAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:30",
+              from: "9:00 AM",
+              to: "5:30 AM",
             },
           ],
         },
@@ -66,44 +66,48 @@ export const londonnorthernEuropeAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:30",
+              from: "10:00 AM",
+              to: "5:30 AM",
             },
           ],
         },
       ],
       entryFee: "£29.90",
-      entryFeeCategory: "moderate",
-      priceRange: "$$",
-      priceCategory: "moderate",
+      entryFeeCategory: "expensive",
+      priceRange: "$$$",
+      priceCategory: "premium",
       timeOfDay: "daytime",
-      rating: 4.7,
+      rating: 4.6,
       tags: [
         "Historical",
         "Spiritual",
         "Popular",
       ],
       accessibilityFeatures: [
-        "limited wheelchair access",
+        "partial wheelchair access",
       ],
       entryFees: [
         {
           category: "adult",
           priceRange: "£29.90",
+          priceCategory: "expensive",
+        },
+        {
+          category: "child",
+          priceRange: "£14.90",
           priceCategory: "moderate",
         },
       ],
       features: [
-        "historical site",
         "castle",
-        "fortress",
-        "guided tours",
+        "history",
         "crown jewels",
+        "guided tours",
       ],
     },
     {
       title: "British Museum",
-      description: "World-famous museum with vast historical collections.",
+      description: "Public museum dedicated to human history, art and culture.",
       imageUrl: "https://images.unsplash.com/photo-london-british-museum",
       location: "Great Russell St, London",
       openingHours: [
@@ -111,8 +115,8 @@ export const londonnorthernEuropeAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:30",
+              from: "10:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -120,8 +124,8 @@ export const londonnorthernEuropeAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:30",
+              from: "10:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -129,8 +133,8 @@ export const londonnorthernEuropeAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:30",
+              from: "10:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -138,8 +142,8 @@ export const londonnorthernEuropeAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:30",
+              from: "10:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -147,8 +151,8 @@ export const londonnorthernEuropeAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:30",
+              from: "10:00 AM",
+              to: "8:30 AM",
             },
           ],
         },
@@ -156,8 +160,8 @@ export const londonnorthernEuropeAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:30",
+              from: "10:00 AM",
+              to: "5:30 AM",
             },
           ],
         },
@@ -165,8 +169,8 @@ export const londonnorthernEuropeAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:30",
+              from: "10:00 AM",
+              to: "5:30 AM",
             },
           ],
         },
@@ -180,20 +184,25 @@ export const londonnorthernEuropeAttractions: Attraction[] = [
       tags: [
         "Historical",
         "Artormusic",
+        "Free",
         "Popular",
       ],
-      accessibilityFeatures: [],
+      accessibilityFeatures: [
+        "wheelchair accessible",
+        "audio guides",
+      ],
       entryFees: [],
       features: [
         "museum",
-        "historical artifacts",
-        "exhibitions",
+        "art",
         "world history",
+        "artifacts",
+        "exhibitions",
       ],
     },
     {
       title: "Hyde Park",
-      description: "Expansive green space in London, great for walking and events.",
+      description: "One of the largest parks in London and a Royal Park.",
       imageUrl: "https://images.unsplash.com/photo-london-hyde-park",
       location: "Hyde Park, London",
       openingHours: [
@@ -201,8 +210,8 @@ export const londonnorthernEuropeAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "05:00",
-              to: "00:00",
+              from: "5:00 AM",
+              to: "12:00 PM",
             },
           ],
         },
@@ -210,8 +219,8 @@ export const londonnorthernEuropeAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "05:00",
-              to: "00:00",
+              from: "5:00 AM",
+              to: "12:00 PM",
             },
           ],
         },
@@ -219,8 +228,8 @@ export const londonnorthernEuropeAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "05:00",
-              to: "00:00",
+              from: "5:00 AM",
+              to: "12:00 PM",
             },
           ],
         },
@@ -228,8 +237,8 @@ export const londonnorthernEuropeAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "05:00",
-              to: "00:00",
+              from: "5:00 AM",
+              to: "12:00 PM",
             },
           ],
         },
@@ -237,8 +246,8 @@ export const londonnorthernEuropeAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "05:00",
-              to: "00:00",
+              from: "5:00 AM",
+              to: "12:00 PM",
             },
           ],
         },
@@ -246,8 +255,8 @@ export const londonnorthernEuropeAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "05:00",
-              to: "00:00",
+              from: "5:00 AM",
+              to: "12:00 PM",
             },
           ],
         },
@@ -255,8 +264,8 @@ export const londonnorthernEuropeAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "05:00",
-              to: "00:00",
+              from: "5:00 AM",
+              to: "12:00 PM",
             },
           ],
         },
@@ -265,7 +274,7 @@ export const londonnorthernEuropeAttractions: Attraction[] = [
       entryFeeCategory: "free",
       priceRange: "free",
       priceCategory: "free",
-      timeOfDay: "all day",
+      timeOfDay: "daytime",
       rating: 4.7,
       tags: [
         "Adventure",
@@ -273,14 +282,15 @@ export const londonnorthernEuropeAttractions: Attraction[] = [
         "Popular",
         "Petfriendly",
       ],
-      accessibilityFeatures: [],
+      accessibilityFeatures: [
+        "wheelchair accessible paths",
+      ],
       entryFees: [],
       features: [
         "park",
-        "walking",
         "lake",
+        "gardens",
         "outdoor activities",
-        "events",
       ],
     },
   ];

@@ -1,160 +1,62 @@
-import { Homestay } from "@/lib/interfaces/people/homestay";
+import { Host } from "@/lib/interfaces/people/homestay";
 
-export const veniceHomestays: Homestay[] = [
-  {
-    hosts: [
+export const veniceHomestays: Host[] = [
       {
-        name: "Sophia Ivanov",
-        background: "Former tour guide with extensive knowledge of local history",
-        maxGuests: 1,
-        languages: ["English", "Finnish", "German"],
+        name: "Amanda Spencer",
+        background: "Retired schoolteacher passionate about sharing local traditions",
+        maxGuests: 6,
+        languages: ["English", "Swedish", "German"],
         curfew: "23:00 PM",
         isPopular: false,
-        guestPolicy: ["Smoking allowed in designated areas only", "Suitable for business travelers"],
-        hostingStyle: "private",
-        houseRules: ["No pets allowed", "No loud music after 9 PM", "Pets welcome", "Lock the door when leaving the house"],
+        guestPolicy: ["Pet-friendly accommodation", "Smoking allowed in designated areas only"],
+        hostingStyle: "laid-back",
+        houseRules: ["No loud music after 9 PM", "No pets allowed", "Pets welcome", "Kitchen closed after 8 PM", "Remove shoes when entering the home"],
         location: {
           city: "Venice",
           region: "Mediterranean",
           country: "Italy",
-          coordinates: { lat: 39.99714565773478, lng: 0.0887599193053373 },
+          coordinates: { lat: 39.96895486766896, lng: -0.08280762450927757 },
         },
         availability: {
-          checkInTime: "13:00 PM",
-          checkOutTime: "10:00 AM",
+          checkInTime: "17:00 PM",
+          checkOutTime: "11:00 AM",
         },
-        email: "sophia.ivanov@example.com",
+        email: "amanda.spencer@paragontrailshomestays.com",
         isVerified: true,
-        rating: 4.6,
-        reviewCount: 7,
-        quote: "Staying with me means experiencing venice like a local. I love sharing the hidden gems of our beautiful city with my guests.",
-        stayType: "Language Immersion",
-      },
+        rating: 4.4,
+        reviewCount: 88,
+        quote: "Welcome to my venice home! I believe in creating a warm, welcoming environment for all my guests.",
+        stayType: "villa-stay",
+      }
+,
       {
-        name: "Juan Garcia",
-        background: "Long-time resident and community organizer",
-        maxGuests: 3,
-        languages: ["English", "French", "Russian"],
-        curfew: "22:00 PM",
+        name: "Robert Crawford",
+        background: "Former tour guide with extensive knowledge of local history",
+        maxGuests: 5,
+        languages: ["English", "Norwegian", "Portuguese"],
+        curfew: "23:00 PM",
         isPopular: false,
-        guestPolicy: ["Accessible for guests with mobility issues", "LGBTQ+ friendly", "No parties or events"],
-        hostingStyle: "private",
-        houseRules: ["Notify host if you'll be arriving after 10 PM", "Please clean up after yourself in common areas", "No pets allowed", "Kitchen closed after 8 PM"],
+        guestPolicy: ["Great for couples", "No children under 12", "Suitable for digital nomads", "Senior-friendly accommodations"],
+        hostingStyle: "laid-back",
+        houseRules: ["Wi-Fi password will be provided upon arrival", "Recycle according to local guidelines", "Remove shoes when entering the home", "No pets allowed"],
         location: {
           city: "Venice",
           region: "Mediterranean",
           country: "Italy",
-          coordinates: { lat: 39.92050151861053, lng: 0.0161955750089863 },
+          coordinates: { lat: 39.95318229431701, lng: 0.04471969331418166 },
         },
         availability: {
           checkInTime: "16:00 PM",
-          checkOutTime: "9:00 AM",
-        },
-        email: "juan.garcia@example.com",
-        phoneNumber: "+97-974-6215",
-        isVerified: true,
-        rating: 4.7,
-        reviewCount: 61,
-        quote: "Staying with me means experiencing venice like a local. I love sharing the hidden gems of our beautiful city with my guests.",
-        stayType: "Guest Suite",
-      }
-    ]
-  },
-  {
-    hosts: [
-      {
-        name: "Ronald Smith",
-        background: "Local historian researching regional traditions",
-        maxGuests: 1,
-        languages: ["English", "Russian", "Finnish"],
-        curfew: "24:00 PM",
-        isPopular: false,
-        guestPolicy: ["Accessible for guests with mobility issues", "LGBTQ+ friendly", "Smoking allowed in designated areas only"],
-        hostingStyle: "family-oriented",
-        houseRules: ["No outside guests without permission", "Lock the door when leaving the house", "No food in the bedrooms", "Respect shared spaces"],
-        location: {
-          city: "Venice",
-          region: "Mediterranean",
-          country: "Italy",
-          coordinates: { lat: 39.944625692082376, lng: -0.04529795686464815 },
-        },
-        availability: {
-          checkInTime: "15:00 PM",
-          checkOutTime: "9:00 AM",
-          calendarLink: "https://calendar.example.com/availability",
-        },
-        email: "ronald.smith@example.com",
-        isVerified: true,
-        rating: 4.5,
-        reviewCount: 29,
-        quote: "I've lived in venice all my life and know all the best spots. Can't wait to share my city with you!",
-        stayType: "Urban Apartment Stay",
-      }
-    ]
-  },
-  {
-    hosts: [
-      {
-        name: "Jack Russell",
-        background: "Local chef specializing in traditional cuisines",
-        maxGuests: 6,
-        languages: ["English", "Portuguese", "Polish"],
-        curfew: "23:00 PM",
-        isPopular: false,
-        guestPolicy: ["Senior-friendly accommodations", "Children welcome", "Suitable for business travelers", "LGBTQ+ friendly"],
-        hostingStyle: "hands-on",
-        houseRules: ["Recycle according to local guidelines", "No smoking indoors", "Quiet hours after 10 PM", "Breakfast is self-serve between 7-9 AM"],
-        location: {
-          city: "Venice",
-          region: "Mediterranean",
-          country: "Italy",
-          coordinates: { lat: 40.053413997207464, lng: 0.06758261695395068 },
-        },
-        availability: {
-          checkInTime: "14:00 PM",
-          checkOutTime: "11:00 AM",
-        },
-        email: "jack.russell@example.com",
-        phoneNumber: "+94-1081-8768",
-        isVerified: true,
-        rating: 4.4,
-        reviewCount: 101,
-        quote: "Life in venice has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
-        stayType: "Volunteer Stay",
-      }
-    ]
-  },
-  {
-    hosts: [
-      {
-        name: "Jack Cooper",
-        background: "Former tour guide with extensive knowledge of local history",
-        maxGuests: 4,
-        languages: ["English", "Norwegian", "Swedish"],
-        curfew: "22:00 PM",
-        isPopular: true,
-        guestPolicy: ["Suitable for digital nomads", "Not suitable for infants (under 2 years)"],
-        hostingStyle: "laid-back",
-        houseRules: ["Lock the door when leaving the house", "Quiet hours after 10 PM", "Notify host if you'll be arriving after 10 PM"],
-        location: {
-          city: "Venice",
-          region: "Mediterranean",
-          country: "Italy",
-          coordinates: { lat: 39.983262089604985, lng: -0.0276475002216742 },
-        },
-        availability: {
-          checkInTime: "14:00 PM",
           checkOutTime: "12:00 AM",
           calendarLink: "https://calendar.example.com/availability",
         },
-        email: "jack.cooper@example.com",
-        phoneNumber: "+4-156-5427",
+        email: "robert.crawford@paragontrailshomestays.com",
+        phoneNumber: "+89-668-7764",
         isVerified: true,
-        rating: 4.5,
-        reviewCount: 79,
-        quote: "Welcome to my venice home! I believe in creating a warm, welcoming environment for all my guests.",
-        stayType: "Host Family Stay",
+        rating: 4.7,
+        reviewCount: 54,
+        quote: "My home is your home in venice. I look forward to making your stay memorable and authentic.",
+        stayType: "villa-stay",
       }
-    ]
-  }
+
 ];

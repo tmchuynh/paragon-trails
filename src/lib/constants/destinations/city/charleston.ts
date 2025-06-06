@@ -1,10 +1,10 @@
 // filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/charleston.ts
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const charlestoneastCoastUsaAttractions: Attraction[] = [
+export const charlestoneastcoastusaAttractions: Attraction[] = [
     {
       title: "Historic Downtown Charleston",
-      description: "Charming historic district featuring cobblestone streets, antebellum architecture, and vibrant markets.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-charleston-downtown",
       location: "Charleston, SC",
       openingHours: [
@@ -12,8 +12,8 @@ export const charlestoneastCoastUsaAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const charlestoneastCoastUsaAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const charlestoneastCoastUsaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const charlestoneastCoastUsaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const charlestoneastCoastUsaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const charlestoneastCoastUsaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -66,34 +66,26 @@ export const charlestoneastCoastUsaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
       entryFee: undefined,
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
-      timeOfDay: "all day",
-      rating: 4.8,
-      tags: [
-        "Historical",
-        "Free",
-        "Popular",
-      ],
+      entryFeeCategory: "moderate",
+      priceRange: "$",
+      priceCategory: "moderate",
+      timeOfDay: "daytime",
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "historic district",
-        "cobblestone streets",
-        "antebellum architecture",
-      ],
+      features: [],
     },
     {
       title: "Fort Sumter National Monument",
-      description: "Historic sea fort known as the site where the first shots of the Civil War were fired.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-charleston-fort-sumter",
       location: "1214 Middle St, Sullivan's Island, SC",
       openingHours: [
@@ -101,42 +93,8 @@ export const charlestoneastCoastUsaAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "10:00",
-              to: "16:30",
-            },
-          ],
-        },
-      ],
-      entryFee: "$12",
-      entryFeeCategory: "moderate",
-      priceRange: "$$",
-      priceCategory: "moderate",
-      timeOfDay: "daytime",
-      rating: 4.6,
-      tags: [
-        "Historical",
-        "Popular",
-      ],
-      accessibilityFeatures: [],
-      entryFees: [],
-      features: [
-        "historic site",
-        "Civil War history",
-        "guided tours",
-      ],
-    },
-    {
-      title: "The Battery",
-      description: "Scenic promenade along the Charleston waterfront, lined with historic mansions and oak trees.",
-      imageUrl: "https://images.unsplash.com/photo-charleston-battery",
-      location: "Charleston, SC 29401",
-      openingHours: [
-        {
-          day: "Monday",
-          availableHours: [
-            {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -144,8 +102,8 @@ export const charlestoneastCoastUsaAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -153,8 +111,8 @@ export const charlestoneastCoastUsaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -162,8 +120,8 @@ export const charlestoneastCoastUsaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -171,8 +129,8 @@ export const charlestoneastCoastUsaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -180,8 +138,8 @@ export const charlestoneastCoastUsaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -189,29 +147,102 @@ export const charlestoneastCoastUsaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
       entryFee: undefined,
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
+      entryFeeCategory: "moderate",
+      priceRange: "$",
+      priceCategory: "moderate",
       timeOfDay: "daytime",
-      rating: 4.7,
-      tags: [
-        "Historical",
-        "Free",
-        "Popular",
-      ],
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "promenade",
-        "waterfront",
-        "historic mansions",
+      features: [],
+    },
+    {
+      title: "The Battery",
+      description: "No description available",
+      imageUrl: "https://images.unsplash.com/photo-charleston-battery",
+      location: "Charleston, SC 29401",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "12:00 AM",
+              to: "11:59 PM",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "12:00 AM",
+              to: "11:59 PM",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "12:00 AM",
+              to: "11:59 PM",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "12:00 AM",
+              to: "11:59 PM",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "12:00 AM",
+              to: "11:59 PM",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "12:00 AM",
+              to: "11:59 PM",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "12:00 AM",
+              to: "11:59 PM",
+            },
+          ],
+        },
       ],
+      entryFee: undefined,
+      entryFeeCategory: "moderate",
+      priceRange: "$",
+      priceCategory: "moderate",
+      timeOfDay: "daytime",
+      rating: 4,
+      tags: [],
+      accessibilityFeatures: [],
+      entryFees: [],
+      features: [],
     },
   ];

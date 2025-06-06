@@ -1,7 +1,7 @@
 // filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/buenos-aires.ts
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const buenosAiressouthAmericaAttractions: Attraction[] = [
+export const buenosAiressouthamericaAttractions: Attraction[] = [
     {
       title: "Plaza de Mayo",
       description: "Historic square surrounded by important government buildings, known for political demonstrations and cultural significance.",
@@ -12,8 +12,8 @@ export const buenosAiressouthAmericaAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const buenosAiressouthAmericaAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const buenosAiressouthAmericaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const buenosAiressouthAmericaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const buenosAiressouthAmericaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const buenosAiressouthAmericaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -66,8 +66,8 @@ export const buenosAiressouthAmericaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -100,8 +100,8 @@ export const buenosAiressouthAmericaAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -109,8 +109,8 @@ export const buenosAiressouthAmericaAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -118,8 +118,8 @@ export const buenosAiressouthAmericaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -127,8 +127,8 @@ export const buenosAiressouthAmericaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -136,8 +136,8 @@ export const buenosAiressouthAmericaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -145,8 +145,8 @@ export const buenosAiressouthAmericaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -154,8 +154,8 @@ export const buenosAiressouthAmericaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -189,8 +189,8 @@ export const buenosAiressouthAmericaAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "08:00",
-              to: "17:00",
+              from: "8:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -198,8 +198,8 @@ export const buenosAiressouthAmericaAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "08:00",
-              to: "17:00",
+              from: "8:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -207,8 +207,8 @@ export const buenosAiressouthAmericaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "08:00",
-              to: "17:00",
+              from: "8:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -216,8 +216,8 @@ export const buenosAiressouthAmericaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "08:00",
-              to: "17:00",
+              from: "8:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -225,8 +225,8 @@ export const buenosAiressouthAmericaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "08:00",
-              to: "17:00",
+              from: "8:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -234,8 +234,8 @@ export const buenosAiressouthAmericaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "08:00",
-              to: "17:00",
+              from: "8:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -243,8 +243,8 @@ export const buenosAiressouthAmericaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "08:00",
-              to: "17:00",
+              from: "8:00 AM",
+              to: "5:00 PM",
             },
           ],
         },

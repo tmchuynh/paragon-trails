@@ -1,10 +1,10 @@
 // filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/paris.ts
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const parisnorthernEuropeAttractions: Attraction[] = [
+export const parisnortherneuropeAttractions: Attraction[] = [
     {
       title: "Eiffel Tower",
-      description: "World-famous iron tower offering panoramic views of Paris.",
+      description: "Iconic wrought-iron lattice tower on the Champ de Mars.",
       imageUrl: "https://images.unsplash.com/photo-paris-eiffel-tower",
       location: "Champ de Mars, Paris",
       openingHours: [
@@ -12,8 +12,8 @@ export const parisnorthernEuropeAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:30",
-              to: "23:45",
+              from: "9:30 AM",
+              to: "11:45 AM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const parisnorthernEuropeAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:30",
-              to: "23:45",
+              from: "9:30 AM",
+              to: "11:45 AM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const parisnorthernEuropeAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:30",
-              to: "23:45",
+              from: "9:30 AM",
+              to: "11:45 AM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const parisnorthernEuropeAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:30",
-              to: "23:45",
+              from: "9:30 AM",
+              to: "11:45 AM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const parisnorthernEuropeAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:30",
-              to: "23:45",
+              from: "9:30 AM",
+              to: "11:45 AM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const parisnorthernEuropeAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:30",
-              to: "23:45",
+              from: "9:30 AM",
+              to: "11:45 AM",
             },
           ],
         },
@@ -66,47 +66,54 @@ export const parisnorthernEuropeAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:30",
-              to: "23:45",
+              from: "9:30 AM",
+              to: "11:45 AM",
             },
           ],
         },
       ],
-      entryFee: "€25",
-      entryFeeCategory: "moderate",
-      priceRange: "$$",
-      priceCategory: "moderate",
+      entryFee: "€26.80",
+      entryFeeCategory: "expensive",
+      priceRange: "$$$",
+      priceCategory: "premium",
       timeOfDay: "daytime",
-      rating: 4.7,
+      rating: 4.6,
       tags: [
         "Historical",
         "Romantic",
         "Popular",
       ],
       accessibilityFeatures: [
-        "wheelchair accessible elevator",
+        "elevator access",
+        "wheelchair accessible platform",
       ],
       entryFees: [
         {
-          category: "adult",
-          priceRange: "€25",
+          category: "adult to top",
+          priceRange: "€26.80",
+          priceCategory: "expensive",
+        },
+        {
+          category: "youth to top",
+          priceRange: "€13.40",
           priceCategory: "moderate",
         },
         {
-          category: "child",
-          priceRange: "€12.50",
-          priceCategory: "budget",
+          category: "adult to second floor",
+          priceRange: "€16.70",
+          priceCategory: "moderate",
         },
       ],
       features: [
         "landmark",
+        "views",
+        "restaurant",
         "observation deck",
-        "guided tours",
       ],
     },
     {
       title: "Louvre Museum",
-      description: "Largest art museum in the world, home to the Mona Lisa.",
+      description: "World's largest art museum and a historic monument in Paris.",
       imageUrl: "https://images.unsplash.com/photo-paris-louvre",
       location: "Rue de Rivoli, Paris",
       openingHours: [
@@ -114,8 +121,8 @@ export const parisnorthernEuropeAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 AM",
             },
           ],
         },
@@ -123,8 +130,8 @@ export const parisnorthernEuropeAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 AM",
             },
           ],
         },
@@ -132,8 +139,8 @@ export const parisnorthernEuropeAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 AM",
             },
           ],
         },
@@ -141,8 +148,8 @@ export const parisnorthernEuropeAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 AM",
             },
           ],
         },
@@ -150,8 +157,8 @@ export const parisnorthernEuropeAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "9:45 AM",
             },
           ],
         },
@@ -159,8 +166,8 @@ export const parisnorthernEuropeAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "9:45 AM",
             },
           ],
         },
@@ -168,16 +175,16 @@ export const parisnorthernEuropeAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 AM",
             },
           ],
         },
       ],
       entryFee: "€17",
-      entryFeeCategory: "budget",
-      priceRange: "$",
-      priceCategory: "budget",
+      entryFeeCategory: "moderate",
+      priceRange: "$$",
+      priceCategory: "moderate",
       timeOfDay: "daytime",
       rating: 4.8,
       tags: [
@@ -192,7 +199,7 @@ export const parisnorthernEuropeAttractions: Attraction[] = [
         {
           category: "adult",
           priceRange: "€17",
-          priceCategory: "budget",
+          priceCategory: "moderate",
         },
         {
           category: "child",
@@ -217,8 +224,8 @@ export const parisnorthernEuropeAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -226,8 +233,8 @@ export const parisnorthernEuropeAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -235,8 +242,8 @@ export const parisnorthernEuropeAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -244,8 +251,8 @@ export const parisnorthernEuropeAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -253,8 +260,8 @@ export const parisnorthernEuropeAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -262,8 +269,8 @@ export const parisnorthernEuropeAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -271,8 +278,8 @@ export const parisnorthernEuropeAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },

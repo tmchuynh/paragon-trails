@@ -4,7 +4,7 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const philipsburgcaribbeanAttractions: Attraction[] = [
     {
       title: "Great Bay Beach",
-      description: "Popular beach along the Philipsburg boardwalk offering calm waters, sunbathing, and nearby amenities.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-philipsburg-great-bay",
       location: "Great Bay, Philipsburg, Sint Maarten",
       openingHours: [
@@ -12,8 +12,8 @@ export const philipsburgcaribbeanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const philipsburgcaribbeanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const philipsburgcaribbeanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const philipsburgcaribbeanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const philipsburgcaribbeanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const philipsburgcaribbeanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -66,33 +66,26 @@ export const philipsburgcaribbeanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
       entryFee: undefined,
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
+      entryFeeCategory: "moderate",
+      priceRange: "$",
+      priceCategory: "moderate",
       timeOfDay: "daytime",
-      rating: 4.4,
-      tags: [
-        "Free",
-        "Popular",
-      ],
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "beach",
-        "sunbathing",
-        "calm waters",
-      ],
+      features: [],
     },
     {
       title: "Front Street",
-      description: "Main shopping and cultural street in Philipsburg lined with duty-free stores, cafes, and historic architecture.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-philipsburg-front-street",
       location: "Front Street, Philipsburg, Sint Maarten",
       openingHours: [
@@ -100,8 +93,8 @@ export const philipsburgcaribbeanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -109,8 +102,8 @@ export const philipsburgcaribbeanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -118,8 +111,8 @@ export const philipsburgcaribbeanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -127,8 +120,8 @@ export const philipsburgcaribbeanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -136,8 +129,8 @@ export const philipsburgcaribbeanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -145,8 +138,8 @@ export const philipsburgcaribbeanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -154,33 +147,26 @@ export const philipsburgcaribbeanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
       entryFee: undefined,
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
+      entryFeeCategory: "moderate",
+      priceRange: "$",
+      priceCategory: "moderate",
       timeOfDay: "daytime",
-      rating: 4.3,
-      tags: [
-        "Free",
-        "Popular",
-      ],
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "shopping street",
-        "duty-free stores",
-        "cafes",
-      ],
+      features: [],
     },
     {
       title: "Sint Maarten Museum",
-      description: "Small museum chronicling the island’s history, culture, and natural environment through artifacts and exhibits.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-philipsburg-museum",
       location: "Front Street, Philipsburg, Sint Maarten",
       openingHours: [
@@ -188,8 +174,8 @@ export const philipsburgcaribbeanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "10:00",
-              to: "16:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -197,8 +183,8 @@ export const philipsburgcaribbeanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "10:00",
-              to: "16:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -206,8 +192,8 @@ export const philipsburgcaribbeanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "10:00",
-              to: "16:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -215,8 +201,8 @@ export const philipsburgcaribbeanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "10:00",
-              to: "16:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -224,8 +210,8 @@ export const philipsburgcaribbeanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "10:00",
-              to: "16:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -233,8 +219,8 @@ export const philipsburgcaribbeanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "10:00",
-              to: "16:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -242,27 +228,21 @@ export const philipsburgcaribbeanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "10:00",
-              to: "16:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
-      entryFee: "$1",
-      entryFeeCategory: "cheap",
+      entryFee: undefined,
+      entryFeeCategory: "moderate",
       priceRange: "$",
-      priceCategory: "cheap",
+      priceCategory: "moderate",
       timeOfDay: "daytime",
       rating: 4,
-      tags: [
-        "Historical",
-      ],
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "museum",
-        "island history",
-        "cultural exhibits",
-      ],
+      features: [],
     },
   ];

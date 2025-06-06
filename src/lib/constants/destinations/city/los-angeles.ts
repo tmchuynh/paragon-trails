@@ -1,7 +1,7 @@
 // filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/los-angeles.ts
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const losAngeleswestCoastUsaAttractions: Attraction[] = [
+export const losAngeleswestcoastusaAttractions: Attraction[] = [
     {
       title: "Hollywood Walk of Fame",
       description: "Famous sidewalk celebrating stars of the entertainment industry with over 2,700 brass stars.",
@@ -12,8 +12,8 @@ export const losAngeleswestCoastUsaAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const losAngeleswestCoastUsaAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const losAngeleswestCoastUsaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const losAngeleswestCoastUsaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const losAngeleswestCoastUsaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const losAngeleswestCoastUsaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -66,8 +66,8 @@ export const losAngeleswestCoastUsaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -105,7 +105,7 @@ export const losAngeleswestCoastUsaAttractions: Attraction[] = [
           availableHours: [
             {
               from: "12:00 PM",
-              to: "10:00 PM",
+              to: "10:00 AM",
             },
           ],
         },
@@ -114,7 +114,7 @@ export const losAngeleswestCoastUsaAttractions: Attraction[] = [
           availableHours: [
             {
               from: "12:00 PM",
-              to: "10:00 PM",
+              to: "10:00 AM",
             },
           ],
         },
@@ -123,7 +123,7 @@ export const losAngeleswestCoastUsaAttractions: Attraction[] = [
           availableHours: [
             {
               from: "12:00 PM",
-              to: "10:00 PM",
+              to: "10:00 AM",
             },
           ],
         },
@@ -132,7 +132,7 @@ export const losAngeleswestCoastUsaAttractions: Attraction[] = [
           availableHours: [
             {
               from: "12:00 PM",
-              to: "10:00 PM",
+              to: "10:00 AM",
             },
           ],
         },
@@ -141,7 +141,7 @@ export const losAngeleswestCoastUsaAttractions: Attraction[] = [
           availableHours: [
             {
               from: "10:00 AM",
-              to: "10:00 PM",
+              to: "10:00 AM",
             },
           ],
         },
@@ -150,7 +150,7 @@ export const losAngeleswestCoastUsaAttractions: Attraction[] = [
           availableHours: [
             {
               from: "10:00 AM",
-              to: "10:00 PM",
+              to: "10:00 AM",
             },
           ],
         },
@@ -184,7 +184,7 @@ export const losAngeleswestCoastUsaAttractions: Attraction[] = [
           availableHours: [
             {
               from: "6:00 AM",
-              to: "12:00 AM",
+              to: "12:00 PM",
             },
           ],
         },
@@ -193,7 +193,7 @@ export const losAngeleswestCoastUsaAttractions: Attraction[] = [
           availableHours: [
             {
               from: "6:00 AM",
-              to: "12:00 AM",
+              to: "12:00 PM",
             },
           ],
         },
@@ -202,7 +202,7 @@ export const losAngeleswestCoastUsaAttractions: Attraction[] = [
           availableHours: [
             {
               from: "6:00 AM",
-              to: "12:00 AM",
+              to: "12:00 PM",
             },
           ],
         },
@@ -211,7 +211,7 @@ export const losAngeleswestCoastUsaAttractions: Attraction[] = [
           availableHours: [
             {
               from: "6:00 AM",
-              to: "12:00 AM",
+              to: "12:00 PM",
             },
           ],
         },
@@ -220,7 +220,7 @@ export const losAngeleswestCoastUsaAttractions: Attraction[] = [
           availableHours: [
             {
               from: "6:00 AM",
-              to: "12:00 AM",
+              to: "12:00 PM",
             },
           ],
         },
@@ -229,7 +229,7 @@ export const losAngeleswestCoastUsaAttractions: Attraction[] = [
           availableHours: [
             {
               from: "6:00 AM",
-              to: "12:00 AM",
+              to: "12:00 PM",
             },
           ],
         },
@@ -238,7 +238,7 @@ export const losAngeleswestCoastUsaAttractions: Attraction[] = [
           availableHours: [
             {
               from: "6:00 AM",
-              to: "12:00 AM",
+              to: "12:00 PM",
             },
           ],
         },

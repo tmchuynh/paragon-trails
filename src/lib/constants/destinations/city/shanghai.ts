@@ -1,10 +1,10 @@
 // filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/shanghai.ts
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const shanghaiasiaPacificAttractions: Attraction[] = [
+export const shanghaiasiapacificAttractions: Attraction[] = [
     {
       title: "The Bund",
-      description: "Waterfront promenade along the Huangpu River featuring colonial-era buildings and stunning views of the skyline.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-shanghai-bund",
       location: "Zhongshan East 1st Rd, Shanghai",
       openingHours: [
@@ -12,8 +12,8 @@ export const shanghaiasiaPacificAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const shanghaiasiaPacificAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const shanghaiasiaPacificAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const shanghaiasiaPacificAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const shanghaiasiaPacificAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const shanghaiasiaPacificAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -66,34 +66,26 @@ export const shanghaiasiaPacificAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
       entryFee: undefined,
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
-      timeOfDay: "day or night",
-      rating: 4.7,
-      tags: [
-        "Historical",
-        "Free",
-        "Popular",
-      ],
+      entryFeeCategory: "moderate",
+      priceRange: "$",
+      priceCategory: "moderate",
+      timeOfDay: "daytime",
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "waterfront",
-        "colonial architecture",
-        "skyline views",
-      ],
+      features: [],
     },
     {
       title: "Yu Garden",
-      description: "Classical Chinese garden dating back to the Ming Dynasty with pavilions, ponds, and rockeries.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-shanghai-yu-garden",
       location: "218 Anren St, Huangpu, Shanghai",
       openingHours: [
@@ -101,8 +93,8 @@ export const shanghaiasiaPacificAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "08:45",
-              to: "16:45",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -110,8 +102,8 @@ export const shanghaiasiaPacificAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "08:45",
-              to: "16:45",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -119,8 +111,8 @@ export const shanghaiasiaPacificAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "08:45",
-              to: "16:45",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -128,8 +120,8 @@ export const shanghaiasiaPacificAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "08:45",
-              to: "16:45",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -137,8 +129,8 @@ export const shanghaiasiaPacificAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "08:45",
-              to: "16:45",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -146,8 +138,8 @@ export const shanghaiasiaPacificAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "08:45",
-              to: "16:45",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -155,34 +147,26 @@ export const shanghaiasiaPacificAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "08:45",
-              to: "16:45",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
-      entryFee: "¥40",
-      entryFeeCategory: "cheap",
+      entryFee: undefined,
+      entryFeeCategory: "moderate",
       priceRange: "$",
-      priceCategory: "cheap",
+      priceCategory: "moderate",
       timeOfDay: "daytime",
-      rating: 4.5,
-      tags: [
-        "Historical",
-        "Popular",
-      ],
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "Chinese garden",
-        "pavilions",
-        "ponds",
-        "rockeries",
-      ],
+      features: [],
     },
     {
       title: "Shanghai Tower",
-      description: "The tallest building in China with observation decks, sustainable architecture, and stunning city views.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-shanghai-tower",
       location: "501 Yincheng Middle Rd, Pudong, Shanghai",
       openingHours: [
@@ -190,8 +174,8 @@ export const shanghaiasiaPacificAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "08:30",
-              to: "22:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -199,8 +183,8 @@ export const shanghaiasiaPacificAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "08:30",
-              to: "22:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -208,8 +192,8 @@ export const shanghaiasiaPacificAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "08:30",
-              to: "22:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -217,8 +201,8 @@ export const shanghaiasiaPacificAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "08:30",
-              to: "22:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -226,8 +210,8 @@ export const shanghaiasiaPacificAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "08:30",
-              to: "22:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -235,8 +219,8 @@ export const shanghaiasiaPacificAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "08:30",
-              to: "22:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -244,27 +228,21 @@ export const shanghaiasiaPacificAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "08:30",
-              to: "22:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
-      entryFee: "¥180",
-      entryFeeCategory: "expensive",
-      priceRange: "$$$",
-      priceCategory: "expensive",
-      timeOfDay: "day or night",
-      rating: 4.7,
-      tags: [
-        "Popular",
-      ],
+      entryFee: undefined,
+      entryFeeCategory: "moderate",
+      priceRange: "$",
+      priceCategory: "moderate",
+      timeOfDay: "daytime",
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "skyscraper",
-        "observation deck",
-        "city views",
-      ],
+      features: [],
     },
   ];

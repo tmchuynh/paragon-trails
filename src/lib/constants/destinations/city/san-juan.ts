@@ -12,8 +12,8 @@ export const sanJuancaribbeanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const sanJuancaribbeanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const sanJuancaribbeanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const sanJuancaribbeanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const sanJuancaribbeanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const sanJuancaribbeanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -66,8 +66,8 @@ export const sanJuancaribbeanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -102,7 +102,7 @@ export const sanJuancaribbeanAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "6:00 PM",
+              to: "6:00 AM",
             },
           ],
         },
@@ -111,7 +111,7 @@ export const sanJuancaribbeanAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "6:00 PM",
+              to: "6:00 AM",
             },
           ],
         },
@@ -120,7 +120,7 @@ export const sanJuancaribbeanAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "6:00 PM",
+              to: "6:00 AM",
             },
           ],
         },
@@ -129,7 +129,7 @@ export const sanJuancaribbeanAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "6:00 PM",
+              to: "6:00 AM",
             },
           ],
         },
@@ -138,7 +138,7 @@ export const sanJuancaribbeanAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "6:00 PM",
+              to: "6:00 AM",
             },
           ],
         },
@@ -147,7 +147,7 @@ export const sanJuancaribbeanAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "6:00 PM",
+              to: "6:00 AM",
             },
           ],
         },
@@ -156,7 +156,7 @@ export const sanJuancaribbeanAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "6:00 PM",
+              to: "6:00 AM",
             },
           ],
         },
@@ -200,8 +200,8 @@ export const sanJuancaribbeanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -209,8 +209,8 @@ export const sanJuancaribbeanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -218,8 +218,8 @@ export const sanJuancaribbeanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -227,8 +227,8 @@ export const sanJuancaribbeanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -236,8 +236,8 @@ export const sanJuancaribbeanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -245,8 +245,8 @@ export const sanJuancaribbeanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -254,8 +254,8 @@ export const sanJuancaribbeanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },

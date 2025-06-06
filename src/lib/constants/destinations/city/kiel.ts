@@ -1,7 +1,7 @@
 // filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/kiel.ts
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const kielnorthernEuropeAttractions: Attraction[] = [
+export const kielnortherneuropeAttractions: Attraction[] = [
     {
       title: "Laboe Naval Memorial & U-995 Submarine",
       description: "A memorial honoring sailors lost in both World Wars, featuring a 280-foot tower with panoramic views and the U-995 submarine museum.",
@@ -12,8 +12,8 @@ export const kielnorthernEuropeAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "10:00",
-              to: "18:00",
+              from: "10:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const kielnorthernEuropeAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "10:00",
-              to: "18:00",
+              from: "10:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const kielnorthernEuropeAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "10:00",
-              to: "18:00",
+              from: "10:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const kielnorthernEuropeAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "10:00",
-              to: "18:00",
+              from: "10:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const kielnorthernEuropeAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "10:00",
-              to: "18:00",
+              from: "10:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const kielnorthernEuropeAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "10:00",
-              to: "18:00",
+              from: "10:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -66,8 +66,8 @@ export const kielnorthernEuropeAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "10:00",
-              to: "18:00",
+              from: "10:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -114,8 +114,8 @@ export const kielnorthernEuropeAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -123,8 +123,8 @@ export const kielnorthernEuropeAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -132,8 +132,8 @@ export const kielnorthernEuropeAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -141,8 +141,8 @@ export const kielnorthernEuropeAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -150,8 +150,8 @@ export const kielnorthernEuropeAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -159,8 +159,8 @@ export const kielnorthernEuropeAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -168,8 +168,8 @@ export const kielnorthernEuropeAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -203,8 +203,8 @@ export const kielnorthernEuropeAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "10:00",
-              to: "18:00",
+              from: "10:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -212,8 +212,8 @@ export const kielnorthernEuropeAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "10:00",
-              to: "18:00",
+              from: "10:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -221,8 +221,8 @@ export const kielnorthernEuropeAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "10:00",
-              to: "18:00",
+              from: "10:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -230,8 +230,8 @@ export const kielnorthernEuropeAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "10:00",
-              to: "18:00",
+              from: "10:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -239,8 +239,8 @@ export const kielnorthernEuropeAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "10:00",
-              to: "18:00",
+              from: "10:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -248,8 +248,8 @@ export const kielnorthernEuropeAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "10:00",
-              to: "18:00",
+              from: "10:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -257,8 +257,8 @@ export const kielnorthernEuropeAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "10:00",
-              to: "18:00",
+              from: "10:00 AM",
+              to: "6:00 PM",
             },
           ],
         },

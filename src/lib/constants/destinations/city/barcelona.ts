@@ -12,8 +12,8 @@ export const barcelonamediterraneanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const barcelonamediterraneanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const barcelonamediterraneanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const barcelonamediterraneanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const barcelonamediterraneanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const barcelonamediterraneanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -66,8 +66,8 @@ export const barcelonamediterraneanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -114,8 +114,8 @@ export const barcelonamediterraneanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:30",
-              to: "19:30",
+              from: "9:30 AM",
+              to: "7:30 PM",
             },
           ],
         },
@@ -123,8 +123,8 @@ export const barcelonamediterraneanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:30",
-              to: "19:30",
+              from: "9:30 AM",
+              to: "7:30 PM",
             },
           ],
         },
@@ -132,8 +132,8 @@ export const barcelonamediterraneanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:30",
-              to: "19:30",
+              from: "9:30 AM",
+              to: "7:30 PM",
             },
           ],
         },
@@ -141,8 +141,8 @@ export const barcelonamediterraneanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:30",
-              to: "19:30",
+              from: "9:30 AM",
+              to: "7:30 PM",
             },
           ],
         },
@@ -150,8 +150,8 @@ export const barcelonamediterraneanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:30",
-              to: "19:30",
+              from: "9:30 AM",
+              to: "7:30 PM",
             },
           ],
         },
@@ -159,8 +159,8 @@ export const barcelonamediterraneanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:30",
-              to: "19:30",
+              from: "9:30 AM",
+              to: "7:30 PM",
             },
           ],
         },
@@ -168,8 +168,8 @@ export const barcelonamediterraneanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:30",
-              to: "19:30",
+              from: "9:30 AM",
+              to: "7:30 PM",
             },
           ],
         },
@@ -217,8 +217,8 @@ export const barcelonamediterraneanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -226,8 +226,8 @@ export const barcelonamediterraneanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -235,8 +235,8 @@ export const barcelonamediterraneanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -244,8 +244,8 @@ export const barcelonamediterraneanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -253,8 +253,8 @@ export const barcelonamediterraneanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -262,8 +262,8 @@ export const barcelonamediterraneanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -271,8 +271,8 @@ export const barcelonamediterraneanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },

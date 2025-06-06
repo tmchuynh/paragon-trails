@@ -1,7 +1,7 @@
 // filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/hong-kong.ts
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const hongKongasiaPacificAttractions: Attraction[] = [
+export const hongKongasiapacificAttractions: Attraction[] = [
     {
       title: "Victoria Peak",
       description: "Highest point on Hong Kong Island with observation decks and sweeping views of the city skyline and harbor.",
@@ -13,7 +13,7 @@ export const hongKongasiaPacificAttractions: Attraction[] = [
           availableHours: [
             {
               from: "7:00 AM",
-              to: "12:00 AM",
+              to: "12:00 PM",
             },
           ],
         },
@@ -22,7 +22,7 @@ export const hongKongasiaPacificAttractions: Attraction[] = [
           availableHours: [
             {
               from: "7:00 AM",
-              to: "12:00 AM",
+              to: "12:00 PM",
             },
           ],
         },
@@ -31,7 +31,7 @@ export const hongKongasiaPacificAttractions: Attraction[] = [
           availableHours: [
             {
               from: "7:00 AM",
-              to: "12:00 AM",
+              to: "12:00 PM",
             },
           ],
         },
@@ -40,7 +40,7 @@ export const hongKongasiaPacificAttractions: Attraction[] = [
           availableHours: [
             {
               from: "7:00 AM",
-              to: "12:00 AM",
+              to: "12:00 PM",
             },
           ],
         },
@@ -49,7 +49,7 @@ export const hongKongasiaPacificAttractions: Attraction[] = [
           availableHours: [
             {
               from: "7:00 AM",
-              to: "12:00 AM",
+              to: "12:00 PM",
             },
           ],
         },
@@ -58,7 +58,7 @@ export const hongKongasiaPacificAttractions: Attraction[] = [
           availableHours: [
             {
               from: "7:00 AM",
-              to: "12:00 AM",
+              to: "12:00 PM",
             },
           ],
         },
@@ -67,7 +67,7 @@ export const hongKongasiaPacificAttractions: Attraction[] = [
           availableHours: [
             {
               from: "7:00 AM",
-              to: "12:00 AM",
+              to: "12:00 PM",
             },
           ],
         },
@@ -100,8 +100,8 @@ export const hongKongasiaPacificAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -109,8 +109,8 @@ export const hongKongasiaPacificAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -118,8 +118,8 @@ export const hongKongasiaPacificAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -127,8 +127,8 @@ export const hongKongasiaPacificAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -136,8 +136,8 @@ export const hongKongasiaPacificAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -145,8 +145,8 @@ export const hongKongasiaPacificAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -154,8 +154,8 @@ export const hongKongasiaPacificAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -189,8 +189,8 @@ export const hongKongasiaPacificAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "10:30",
-              to: "20:00",
+              from: "10:30 AM",
+              to: "8:00 PM",
             },
           ],
         },
@@ -198,8 +198,8 @@ export const hongKongasiaPacificAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "10:30",
-              to: "20:00",
+              from: "10:30 AM",
+              to: "8:00 PM",
             },
           ],
         },
@@ -207,8 +207,8 @@ export const hongKongasiaPacificAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "10:30",
-              to: "20:00",
+              from: "10:30 AM",
+              to: "8:00 PM",
             },
           ],
         },
@@ -216,8 +216,8 @@ export const hongKongasiaPacificAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "10:30",
-              to: "20:00",
+              from: "10:30 AM",
+              to: "8:00 PM",
             },
           ],
         },
@@ -225,8 +225,8 @@ export const hongKongasiaPacificAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "10:30",
-              to: "20:00",
+              from: "10:30 AM",
+              to: "8:00 PM",
             },
           ],
         },
@@ -234,8 +234,8 @@ export const hongKongasiaPacificAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "10:30",
-              to: "20:00",
+              from: "10:30 AM",
+              to: "8:00 PM",
             },
           ],
         },
@@ -243,8 +243,8 @@ export const hongKongasiaPacificAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "10:30",
-              to: "20:00",
+              from: "10:30 AM",
+              to: "8:00 PM",
             },
           ],
         },

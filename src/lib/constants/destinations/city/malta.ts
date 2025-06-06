@@ -4,7 +4,7 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const maltamediterraneanAttractions: Attraction[] = [
     {
       title: "Valletta Waterfront",
-      description: "Historic waterfront promenade with 18th-century warehouses turned into restaurants, shops, and entertainment venues.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-malta-valletta-waterfront",
       location: "Valletta, Malta",
       openingHours: [
@@ -12,8 +12,8 @@ export const maltamediterraneanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const maltamediterraneanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const maltamediterraneanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const maltamediterraneanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const maltamediterraneanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const maltamediterraneanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -66,35 +66,26 @@ export const maltamediterraneanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
       entryFee: undefined,
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
-      timeOfDay: "daytime and evening",
-      rating: 4.5,
-      tags: [
-        "Historical",
-        "Free",
-        "Popular",
-      ],
+      entryFeeCategory: "moderate",
+      priceRange: "$",
+      priceCategory: "moderate",
+      timeOfDay: "daytime",
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "waterfront",
-        "restaurants",
-        "shops",
-        "entertainment",
-      ],
+      features: [],
     },
     {
       title: "St. John's Co-Cathedral",
-      description: "Lavishly decorated Baroque cathedral featuring artwork by Caravaggio and ornate gold interiors.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-malta-st-johns-cathedral",
       location: "St. John's Street, Valletta, Malta",
       openingHours: [
@@ -102,8 +93,8 @@ export const maltamediterraneanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:30",
-              to: "16:30",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -111,8 +102,8 @@ export const maltamediterraneanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:30",
-              to: "16:30",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -120,8 +111,8 @@ export const maltamediterraneanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:30",
-              to: "16:30",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -129,8 +120,8 @@ export const maltamediterraneanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:30",
-              to: "16:30",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -138,8 +129,8 @@ export const maltamediterraneanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:30",
-              to: "16:30",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -147,8 +138,8 @@ export const maltamediterraneanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:30",
-              to: "16:30",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -156,45 +147,26 @@ export const maltamediterraneanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:30",
-              to: "16:30",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
-      entryFee: "€15",
+      entryFee: undefined,
       entryFeeCategory: "moderate",
-      priceRange: "$$",
+      priceRange: "$",
       priceCategory: "moderate",
       timeOfDay: "daytime",
-      rating: 4.8,
-      tags: [
-        "Historical",
-        "Artormusic",
-        "Popular",
-      ],
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
-      entryFees: [
-        {
-          category: "adult",
-          priceRange: "€15",
-          priceCategory: "moderate",
-        },
-        {
-          category: "child",
-          priceRange: "€7.50",
-          priceCategory: "low",
-        },
-      ],
-      features: [
-        "cathedral",
-        "Baroque architecture",
-        "Caravaggio artwork",
-      ],
+      entryFees: [],
+      features: [],
     },
     {
       title: "Blue Lagoon",
-      description: "Crystal-clear turquoise bay on Comino Island, ideal for swimming, snorkeling, and day trips.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-malta-blue-lagoon",
       location: "Comino, Malta",
       openingHours: [
@@ -202,8 +174,8 @@ export const maltamediterraneanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -211,8 +183,8 @@ export const maltamediterraneanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -220,8 +192,8 @@ export const maltamediterraneanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -229,8 +201,8 @@ export const maltamediterraneanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -238,8 +210,8 @@ export const maltamediterraneanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -247,8 +219,8 @@ export const maltamediterraneanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -256,29 +228,21 @@ export const maltamediterraneanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
       entryFee: undefined,
-      entryFeeCategory: "varies",
-      priceRange: "$$",
+      entryFeeCategory: "moderate",
+      priceRange: "$",
       priceCategory: "moderate",
       timeOfDay: "daytime",
-      rating: 4.9,
-      tags: [
-        "Adventure",
-        "Popular",
-      ],
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "lagoon",
-        "snorkeling",
-        "swimming",
-        "boat tours",
-      ],
+      features: [],
     },
   ];

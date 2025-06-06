@@ -1,7 +1,7 @@
 // filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/rio-de-janeiro.ts
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const rioDeJaneirosouthAmericaAttractions: Attraction[] = [
+export const rioDeJaneirosouthamericaAttractions: Attraction[] = [
     {
       title: "Christ the Redeemer",
       description: "Colossal statue overlooking Rio, symbolizing peace and Christianity.",
@@ -12,8 +12,8 @@ export const rioDeJaneirosouthAmericaAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "08:00",
-              to: "19:00",
+              from: "8:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const rioDeJaneirosouthAmericaAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "08:00",
-              to: "19:00",
+              from: "8:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const rioDeJaneirosouthAmericaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "08:00",
-              to: "19:00",
+              from: "8:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const rioDeJaneirosouthAmericaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "08:00",
-              to: "19:00",
+              from: "8:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const rioDeJaneirosouthAmericaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "08:00",
-              to: "19:00",
+              from: "8:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const rioDeJaneirosouthAmericaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "08:00",
-              to: "19:00",
+              from: "8:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -66,8 +66,8 @@ export const rioDeJaneirosouthAmericaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "08:00",
-              to: "19:00",
+              from: "8:00 AM",
+              to: "7:00 PM",
             },
           ],
         },
@@ -115,8 +115,8 @@ export const rioDeJaneirosouthAmericaAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -124,8 +124,8 @@ export const rioDeJaneirosouthAmericaAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -133,8 +133,8 @@ export const rioDeJaneirosouthAmericaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -142,8 +142,8 @@ export const rioDeJaneirosouthAmericaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -151,8 +151,8 @@ export const rioDeJaneirosouthAmericaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -160,8 +160,8 @@ export const rioDeJaneirosouthAmericaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -169,8 +169,8 @@ export const rioDeJaneirosouthAmericaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -205,8 +205,8 @@ export const rioDeJaneirosouthAmericaAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "08:00",
-              to: "21:00",
+              from: "8:00 AM",
+              to: "9:00 PM",
             },
           ],
         },
@@ -214,8 +214,8 @@ export const rioDeJaneirosouthAmericaAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "08:00",
-              to: "21:00",
+              from: "8:00 AM",
+              to: "9:00 PM",
             },
           ],
         },
@@ -223,8 +223,8 @@ export const rioDeJaneirosouthAmericaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "08:00",
-              to: "21:00",
+              from: "8:00 AM",
+              to: "9:00 PM",
             },
           ],
         },
@@ -232,8 +232,8 @@ export const rioDeJaneirosouthAmericaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "08:00",
-              to: "21:00",
+              from: "8:00 AM",
+              to: "9:00 PM",
             },
           ],
         },
@@ -241,8 +241,8 @@ export const rioDeJaneirosouthAmericaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "08:00",
-              to: "21:00",
+              from: "8:00 AM",
+              to: "9:00 PM",
             },
           ],
         },
@@ -250,8 +250,8 @@ export const rioDeJaneirosouthAmericaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "08:00",
-              to: "21:00",
+              from: "8:00 AM",
+              to: "9:00 PM",
             },
           ],
         },
@@ -259,8 +259,8 @@ export const rioDeJaneirosouthAmericaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "08:00",
-              to: "21:00",
+              from: "8:00 AM",
+              to: "9:00 PM",
             },
           ],
         },

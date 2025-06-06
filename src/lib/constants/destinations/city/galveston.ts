@@ -4,7 +4,7 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 export const galvestoncaribbeanAttractions: Attraction[] = [
     {
       title: "Moody Gardens",
-      description: "A family-friendly entertainment complex featuring pyramids with an aquarium, rainforest, and discovery center.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-galveston-moody-gardens",
       location: "1 Hope Blvd, Galveston, TX",
       openingHours: [
@@ -12,8 +12,8 @@ export const galvestoncaribbeanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "10:00",
-              to: "18:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const galvestoncaribbeanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "10:00",
-              to: "18:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const galvestoncaribbeanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "10:00",
-              to: "18:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const galvestoncaribbeanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "10:00",
-              to: "18:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const galvestoncaribbeanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "10:00",
-              to: "18:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const galvestoncaribbeanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "10:00",
-              to: "18:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -66,33 +66,26 @@ export const galvestoncaribbeanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "10:00",
-              to: "18:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
-      entryFee: "$29.95 (per attraction)",
-      entryFeeCategory: "expensive",
-      priceRange: "$$$",
-      priceCategory: "expensive",
+      entryFee: undefined,
+      entryFeeCategory: "moderate",
+      priceRange: "$",
+      priceCategory: "moderate",
       timeOfDay: "daytime",
-      rating: 4.5,
-      tags: [
-        "Adventure",
-        "Popular",
-      ],
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "entertainment complex",
-        "aquarium",
-        "rainforest",
-      ],
+      features: [],
     },
     {
       title: "Galveston Island Historic Pleasure Pier",
-      description: "A waterfront amusement park with rides, games, and food over the Gulf of Mexico.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-galveston-pleasure-pier",
       location: "2501 Seawall Blvd, Galveston, TX",
       openingHours: [
@@ -100,8 +93,8 @@ export const galvestoncaribbeanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "11:00",
-              to: "21:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -109,8 +102,8 @@ export const galvestoncaribbeanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "11:00",
-              to: "21:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -118,8 +111,8 @@ export const galvestoncaribbeanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "11:00",
-              to: "21:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -127,8 +120,8 @@ export const galvestoncaribbeanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "11:00",
-              to: "21:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -136,8 +129,8 @@ export const galvestoncaribbeanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "11:00",
-              to: "21:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -145,8 +138,8 @@ export const galvestoncaribbeanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "11:00",
-              to: "21:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -154,34 +147,26 @@ export const galvestoncaribbeanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "11:00",
-              to: "21:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
-      entryFee: "$12 (walk-on) / $27 (ride pass)",
+      entryFee: undefined,
       entryFeeCategory: "moderate",
-      priceRange: "$$",
+      priceRange: "$",
       priceCategory: "moderate",
       timeOfDay: "daytime",
-      rating: 4.3,
-      tags: [
-        "Adventure",
-        "Popular",
-      ],
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "amusement park",
-        "waterfront",
-        "rides",
-        "games",
-      ],
+      features: [],
     },
     {
       title: "The Strand Historic District",
-      description: "A preserved historic area with Victorian-era buildings, shops, galleries, and restaurants.",
+      description: "No description available",
       imageUrl: "https://images.unsplash.com/photo-galveston-strand",
       location: "The Strand, Galveston, TX",
       openingHours: [
@@ -189,8 +174,8 @@ export const galvestoncaribbeanAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -198,8 +183,8 @@ export const galvestoncaribbeanAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -207,8 +192,8 @@ export const galvestoncaribbeanAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -216,8 +201,8 @@ export const galvestoncaribbeanAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -225,8 +210,8 @@ export const galvestoncaribbeanAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -234,8 +219,8 @@ export const galvestoncaribbeanAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -243,29 +228,21 @@ export const galvestoncaribbeanAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
       ],
       entryFee: undefined,
-      entryFeeCategory: "free",
-      priceRange: "free",
-      priceCategory: "free",
+      entryFeeCategory: "moderate",
+      priceRange: "$",
+      priceCategory: "moderate",
       timeOfDay: "daytime",
-      rating: 4.6,
-      tags: [
-        "Historical",
-        "Free",
-        "Popular",
-      ],
+      rating: 4,
+      tags: [],
       accessibilityFeatures: [],
       entryFees: [],
-      features: [
-        "historic district",
-        "Victorian architecture",
-        "shopping",
-      ],
+      features: [],
     },
   ];

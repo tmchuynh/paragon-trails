@@ -1,7 +1,7 @@
 // filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/quebec-city.ts
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const quebecCityeastCoastCanadaAttractions: Attraction[] = [
+export const quebecCityeastcoastcanadaAttractions: Attraction[] = [
     {
       title: "Old Quebec",
       description: "UNESCO World Heritage Site featuring cobblestone streets, historic architecture, and fortified city walls.",
@@ -12,8 +12,8 @@ export const quebecCityeastCoastCanadaAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const quebecCityeastCoastCanadaAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const quebecCityeastCoastCanadaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const quebecCityeastCoastCanadaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const quebecCityeastCoastCanadaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const quebecCityeastCoastCanadaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -66,8 +66,8 @@ export const quebecCityeastCoastCanadaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "00:00",
-              to: "23:59",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -102,7 +102,7 @@ export const quebecCityeastCoastCanadaAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "5:00 PM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -111,7 +111,7 @@ export const quebecCityeastCoastCanadaAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "5:00 PM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -120,7 +120,7 @@ export const quebecCityeastCoastCanadaAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "5:00 PM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -129,7 +129,7 @@ export const quebecCityeastCoastCanadaAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "5:00 PM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -138,7 +138,7 @@ export const quebecCityeastCoastCanadaAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "5:00 PM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -147,7 +147,7 @@ export const quebecCityeastCoastCanadaAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "5:00 PM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -156,7 +156,7 @@ export const quebecCityeastCoastCanadaAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "5:00 PM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -201,7 +201,7 @@ export const quebecCityeastCoastCanadaAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "5:00 PM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -210,7 +210,7 @@ export const quebecCityeastCoastCanadaAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "5:00 PM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -219,7 +219,7 @@ export const quebecCityeastCoastCanadaAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "5:00 PM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -228,7 +228,7 @@ export const quebecCityeastCoastCanadaAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "5:00 PM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -237,7 +237,7 @@ export const quebecCityeastCoastCanadaAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "5:00 PM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -246,7 +246,7 @@ export const quebecCityeastCoastCanadaAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "5:00 PM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -255,7 +255,7 @@ export const quebecCityeastCoastCanadaAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "5:00 PM",
+              to: "5:00 AM",
             },
           ],
         },

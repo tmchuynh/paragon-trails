@@ -1,7 +1,7 @@
 // filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/boston.ts
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const bostoneastCoastUsaAttractions: Attraction[] = [
+export const bostoneastcoastusaAttractions: Attraction[] = [
     {
       title: "Freedom Trail",
       description: "A 2.5-mile walking route through downtown Boston passing 16 historical sites.",
@@ -12,8 +12,8 @@ export const bostoneastCoastUsaAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -21,8 +21,8 @@ export const bostoneastCoastUsaAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -30,8 +30,8 @@ export const bostoneastCoastUsaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -39,8 +39,8 @@ export const bostoneastCoastUsaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -48,8 +48,8 @@ export const bostoneastCoastUsaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -57,8 +57,8 @@ export const bostoneastCoastUsaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -66,8 +66,8 @@ export const bostoneastCoastUsaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "12:00 AM",
+              to: "11:59 PM",
             },
           ],
         },
@@ -102,8 +102,8 @@ export const bostoneastCoastUsaAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -111,8 +111,8 @@ export const bostoneastCoastUsaAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -120,8 +120,8 @@ export const bostoneastCoastUsaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -129,8 +129,8 @@ export const bostoneastCoastUsaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -138,8 +138,8 @@ export const bostoneastCoastUsaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -147,8 +147,8 @@ export const bostoneastCoastUsaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -156,8 +156,8 @@ export const bostoneastCoastUsaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:00",
-              to: "17:00",
+              from: "9:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -192,8 +192,8 @@ export const bostoneastCoastUsaAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "06:30",
-              to: "23:00",
+              from: "6:30 AM",
+              to: "11:00 PM",
             },
           ],
         },
@@ -201,8 +201,8 @@ export const bostoneastCoastUsaAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "06:30",
-              to: "23:00",
+              from: "6:30 AM",
+              to: "11:00 PM",
             },
           ],
         },
@@ -210,8 +210,8 @@ export const bostoneastCoastUsaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "06:30",
-              to: "23:00",
+              from: "6:30 AM",
+              to: "11:00 PM",
             },
           ],
         },
@@ -219,8 +219,8 @@ export const bostoneastCoastUsaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "06:30",
-              to: "23:00",
+              from: "6:30 AM",
+              to: "11:00 PM",
             },
           ],
         },
@@ -228,8 +228,8 @@ export const bostoneastCoastUsaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "06:30",
-              to: "23:00",
+              from: "6:30 AM",
+              to: "11:00 PM",
             },
           ],
         },
@@ -237,8 +237,8 @@ export const bostoneastCoastUsaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "06:30",
-              to: "23:00",
+              from: "6:30 AM",
+              to: "11:00 PM",
             },
           ],
         },
@@ -246,8 +246,8 @@ export const bostoneastCoastUsaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "06:30",
-              to: "23:00",
+              from: "6:30 AM",
+              to: "11:00 PM",
             },
           ],
         },
@@ -283,8 +283,8 @@ export const bostoneastCoastUsaAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:00",
+              from: "10:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -296,8 +296,8 @@ export const bostoneastCoastUsaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:00",
+              from: "10:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -305,8 +305,8 @@ export const bostoneastCoastUsaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "10:00",
-              to: "22:00",
+              from: "10:00 AM",
+              to: "10:00 PM",
             },
           ],
         },
@@ -314,8 +314,8 @@ export const bostoneastCoastUsaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "10:00",
-              to: "22:00",
+              from: "10:00 AM",
+              to: "10:00 PM",
             },
           ],
         },
@@ -323,8 +323,8 @@ export const bostoneastCoastUsaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:00",
+              from: "10:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -332,8 +332,8 @@ export const bostoneastCoastUsaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "10:00",
-              to: "17:00",
+              from: "10:00 AM",
+              to: "5:00 PM",
             },
           ],
         },
@@ -385,8 +385,8 @@ export const bostoneastCoastUsaAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -394,8 +394,8 @@ export const bostoneastCoastUsaAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -403,8 +403,8 @@ export const bostoneastCoastUsaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -412,8 +412,8 @@ export const bostoneastCoastUsaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -421,8 +421,8 @@ export const bostoneastCoastUsaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -430,8 +430,8 @@ export const bostoneastCoastUsaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },
@@ -439,8 +439,8 @@ export const bostoneastCoastUsaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "09:00",
-              to: "18:00",
+              from: "9:00 AM",
+              to: "6:00 PM",
             },
           ],
         },

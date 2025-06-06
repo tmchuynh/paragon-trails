@@ -13,7 +13,7 @@ export const stThomascaribbeanAttractions: Attraction[] = [
           availableHours: [
             {
               from: "8:00 AM",
-              to: "4:00 PM",
+              to: "4:00 AM",
             },
           ],
         },
@@ -22,7 +22,7 @@ export const stThomascaribbeanAttractions: Attraction[] = [
           availableHours: [
             {
               from: "8:00 AM",
-              to: "4:00 PM",
+              to: "4:00 AM",
             },
           ],
         },
@@ -31,7 +31,7 @@ export const stThomascaribbeanAttractions: Attraction[] = [
           availableHours: [
             {
               from: "8:00 AM",
-              to: "4:00 PM",
+              to: "4:00 AM",
             },
           ],
         },
@@ -40,7 +40,7 @@ export const stThomascaribbeanAttractions: Attraction[] = [
           availableHours: [
             {
               from: "8:00 AM",
-              to: "4:00 PM",
+              to: "4:00 AM",
             },
           ],
         },
@@ -49,7 +49,7 @@ export const stThomascaribbeanAttractions: Attraction[] = [
           availableHours: [
             {
               from: "8:00 AM",
-              to: "4:00 PM",
+              to: "4:00 AM",
             },
           ],
         },
@@ -58,7 +58,7 @@ export const stThomascaribbeanAttractions: Attraction[] = [
           availableHours: [
             {
               from: "8:00 AM",
-              to: "4:00 PM",
+              to: "4:00 AM",
             },
           ],
         },
@@ -67,7 +67,7 @@ export const stThomascaribbeanAttractions: Attraction[] = [
           availableHours: [
             {
               from: "8:00 AM",
-              to: "4:00 PM",
+              to: "4:00 AM",
             },
           ],
         },
@@ -112,7 +112,7 @@ export const stThomascaribbeanAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "5:00 PM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -121,7 +121,7 @@ export const stThomascaribbeanAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "5:00 PM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -130,7 +130,7 @@ export const stThomascaribbeanAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "5:00 PM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -139,7 +139,7 @@ export const stThomascaribbeanAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "5:00 PM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -148,7 +148,7 @@ export const stThomascaribbeanAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "5:00 PM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -157,7 +157,7 @@ export const stThomascaribbeanAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "5:00 PM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -166,7 +166,7 @@ export const stThomascaribbeanAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "5:00 PM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -211,7 +211,7 @@ export const stThomascaribbeanAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "5:00 PM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -220,7 +220,7 @@ export const stThomascaribbeanAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "5:00 PM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -229,7 +229,7 @@ export const stThomascaribbeanAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "5:00 PM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -238,7 +238,7 @@ export const stThomascaribbeanAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "5:00 PM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -247,7 +247,7 @@ export const stThomascaribbeanAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "5:00 PM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -256,7 +256,7 @@ export const stThomascaribbeanAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "5:00 PM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -265,7 +265,7 @@ export const stThomascaribbeanAttractions: Attraction[] = [
           availableHours: [
             {
               from: "9:00 AM",
-              to: "5:00 PM",
+              to: "5:00 AM",
             },
           ],
         },
