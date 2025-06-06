@@ -1,8 +1,8 @@
 export interface Yacht {
   id: string;
   name: string;
-  brand?: string; // e.g., Azimut, Sunseeker, Princess
-  model?: string;
+  brand: string; // e.g., Azimut, Sunseeker, Princess
+  model: string;
   yearBuilt: number;
   lengthInMeters: number;
   beamInMeters?: number; // width
@@ -11,8 +11,8 @@ export interface Yacht {
   maxSpeedKnots?: number;
   fuelCapacityLiters?: number;
   waterCapacityLiters?: number;
-  engines?: string[]; // e.g., ["2 x MTU 12V 2000"]
-  hullType?: "monohull" | "catamaran" | "trimaran";
+  engines: string[]; // e.g., ["2 x MTU 12V 2000"]
+  hullType: "monohull" | "catamaran" | "trimaran";
   yachtType: "motor" | "sailing" | "catamaran" | "gulet" | "mega" | "super";
 
   capacity: {
@@ -45,7 +45,7 @@ export interface Yacht {
   featured?: boolean;
   pricing: {
     perDay: number;
-    perWeek?: number;
+    perWeek: number;
     currency: string; // e.g., "USD", "EUR"
     includes?: YachtAmenity[];
     excludes?: YachtAmenity[];
@@ -68,7 +68,7 @@ type CateringOption =
   | "Local Cuisine Packages"
   | "No Catering";
 
-type YachtAmenity =
+export type YachtAmenity =
   | "Jacuzzi"
   | "Wi-Fi"
   | "Air Conditioning"
@@ -126,7 +126,7 @@ export interface LuxuryRentalCar {
   seats: number;
   transmission: "Automatic" | "Manual";
   fuelType: "Petrol" | "Diesel" | "Electric" | "Hybrid";
-  horsepower?: number;
+  horsepower: number;
   colorOptions: string[];
   features: string[];
   rentalPricePerDay: number;
@@ -142,7 +142,7 @@ export interface LuxuryRentalCar {
   description?: string;
   insuranceIncluded: boolean;
   minimumRentalAge: number;
-  depositAmount?: number;
+  depositAmount: number;
 }
 
 type CarType =
@@ -175,7 +175,7 @@ export interface Motorcycle {
   dropOffCity?: string; // Optional, if different from pick-up
   dropOffCountry?: string; // Optional, if different from pick-up
   dropOffLocation?: string; // Optional, if different from pick-up
-  features?: MotorcycleFeature[];
+  features: MotorcycleFeature[];
   imageUrl?: string;
   requirements: MotorcycleRequirement[];
   availability?: boolean;
@@ -191,7 +191,7 @@ type MotorcycleType =
   | "scooter"
   | "custom";
 
-type MotorcycleFeature =
+export type MotorcycleFeature =
   | "ABS"
   | "GPS Navigation"
   | "Bluetooth Audio"
