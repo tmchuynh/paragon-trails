@@ -39,7 +39,9 @@ import {
   removeAccents,
   formatKebebToTitleCase,
 } from "./utils/format-utils.mjs";
+import { determineGenderFromName } from "./utils/name-utils.mjs";
 import { cityCountryMap, cityToRegionMap } from "./utils/geo-utils.mjs";
+import { getRandomName } from "./utils/name-utils.mjs";
 import {
   createObjectParser,
   extractObjectsFromFile,
@@ -89,113 +91,6 @@ function parseCommandLineArgs() {
 }
 
 const options = parseCommandLineArgs();
-
-// Arrays for random data generation
-const firstNames = [
-  "James",
-  "Emma",
-  "Liam",
-  "Olivia",
-  "Noah",
-  "Ava",
-  "William",
-  "Sophia",
-  "Benjamin",
-  "Isabella",
-  "Elijah",
-  "Charlotte",
-  "Lucas",
-  "Mia",
-  "Mason",
-  "Amelia",
-  "Logan",
-  "Harper",
-  "Alexander",
-  "Evelyn",
-  "Ethan",
-  "Abigail",
-  "Jacob",
-  "Emily",
-  "Michael",
-  "Sofia",
-  "Daniel",
-  "Ella",
-  "Henry",
-  "Madison",
-  "Jackson",
-  "Scarlett",
-  "Sebastian",
-  "Victoria",
-  "Aiden",
-  "Aria",
-  "Matthew",
-  "Grace",
-  "Samuel",
-  "Chloe",
-  "David",
-  "Lily",
-  "Joseph",
-  "Layla",
-  "Carter",
-  "Zoe",
-  "Owen",
-  "Penelope",
-  "Wyatt",
-  "Riley",
-];
-
-const lastNames = [
-  "Smith",
-  "Johnson",
-  "Williams",
-  "Brown",
-  "Jones",
-  "Garcia",
-  "Miller",
-  "Davis",
-  "Rodriguez",
-  "Martinez",
-  "Hernandez",
-  "Lopez",
-  "Gonzalez",
-  "Wilson",
-  "Anderson",
-  "Thomas",
-  "Taylor",
-  "Moore",
-  "Jackson",
-  "Martin",
-  "Lee",
-  "Perez",
-  "Thompson",
-  "White",
-  "Harris",
-  "Sanchez",
-  "Clark",
-  "Ramirez",
-  "Lewis",
-  "Robinson",
-  "Walker",
-  "Young",
-  "Allen",
-  "King",
-  "Wright",
-  "Scott",
-  "Torres",
-  "Nguyen",
-  "Hill",
-  "Flores",
-  "Green",
-  "AdAMS",
-  "Nelson",
-  "Baker",
-  "Hall",
-  "Rivera",
-  "Campbell",
-  "Mitchell",
-  "Carter",
-  "Roberts",
-];
 
 const certifications = [
   "Professional Tour Guide Association",
@@ -371,9 +266,10 @@ const weekDays = [
 
 // Generate a random tour guide
 function generateTourGuide(city, index) {
-  const firstName = firstNames[Math.floor(Math.random() * firstNames.length)];
-  const lastName = lastNames[Math.floor(Math.random() * lastNames.length)];
-  const name = `${firstName} ${lastName}`;
+  const name = getRandomName();
+  const firstName = name.split(" ")[0];
+  const lastName = name.split(" ")[1];
+  const gender = determineGenderFromName(firstName);
   const countryName = cityCountryMap[city] || "Unknown Country";
   const regionName = cityToRegionMap[city] || "Unknown Region";
   const id = `guide-${removeAccents(city).toLowerCase().replace(/\s+/g, "-")}-${index + 1}`;
@@ -386,9 +282,9 @@ function generateTourGuide(city, index) {
         .fill(0)
         .map(
           () =>
-            certifications[Math.floor(Math.random() * certifications.length)],
-        ),
-    ),
+            certifications[Math.floor(Math.random() * certifications.length)]
+        )
+    )
   );
 
   // Generate random languages
@@ -397,8 +293,8 @@ function generateTourGuide(city, index) {
     new Set(
       Array(numLanguages)
         .fill(0)
-        .map(() => languages[Math.floor(Math.random() * languages.length)]),
-    ),
+        .map(() => languages[Math.floor(Math.random() * languages.length)])
+    )
   );
 
   // Generate random specialties
@@ -407,8 +303,8 @@ function generateTourGuide(city, index) {
     new Set(
       Array(numSpecialties)
         .fill(0)
-        .map(() => specialties[Math.floor(Math.random() * specialties.length)]),
-    ),
+        .map(() => specialties[Math.floor(Math.random() * specialties.length)])
+    )
   );
 
   // Generate random special training
@@ -419,9 +315,9 @@ function generateTourGuide(city, index) {
         .fill(0)
         .map(
           () =>
-            specialTraining[Math.floor(Math.random() * specialTraining.length)],
-        ),
-    ),
+            specialTraining[Math.floor(Math.random() * specialTraining.length)]
+        )
+    )
   );
 
   // Generate random tour regions covered
@@ -430,8 +326,8 @@ function generateTourGuide(city, index) {
     new Set(
       Array(numRegions)
         .fill(0)
-        .map(() => tourRegions[Math.floor(Math.random() * tourRegions.length)]),
-    ),
+        .map(() => tourRegions[Math.floor(Math.random() * tourRegions.length)])
+    )
   );
 
   // Generate random tour types
@@ -440,8 +336,8 @@ function generateTourGuide(city, index) {
     new Set(
       Array(numTypes)
         .fill(0)
-        .map(() => tourTypes[Math.floor(Math.random() * tourTypes.length)]),
-    ),
+        .map(() => tourTypes[Math.floor(Math.random() * tourTypes.length)])
+    )
   );
 
   // Generate random weekly availability
@@ -450,8 +346,8 @@ function generateTourGuide(city, index) {
     new Set(
       Array(numAvailableDays)
         .fill(0)
-        .map(() => weekDays[Math.floor(Math.random() * weekDays.length)]),
-    ),
+        .map(() => weekDays[Math.floor(Math.random() * weekDays.length)])
+    )
   );
 
   const available = availableDays.map((day) => {
@@ -462,12 +358,16 @@ function generateTourGuide(city, index) {
     for (let i = 0; i < numSlots; i++) {
       // Generate start time (8AM - 3PM)
       const startHour = Math.floor(Math.random() * 8) + 8;
-      const startTime = `${startHour < 10 ? "0" + startHour : startHour}:00`;
+      const startPeriod = startHour >= 12 ? "PM" : "AM";
+      const startHour12 = startHour > 12 ? startHour - 12 : startHour;
+      const startTime = `${startHour12 < 10 ? "0" + startHour12 : startHour12}:00 ${startPeriod}`;
 
       // Generate duration (2-6 hours)
       const duration = Math.floor(Math.random() * 5) + 2;
       const endHour = startHour + duration;
-      const endTime = `${endHour < 10 ? "0" + endHour : endHour}:00`;
+      const endPeriod = endHour >= 12 ? "PM" : "AM";
+      const endHour12 = endHour > 12 ? endHour - 12 : endHour;
+      const endTime = `${endHour12 < 10 ? "0" + endHour12 : endHour12}:00 ${endPeriod}`;
 
       slots.push({ from: startTime, to: endTime });
     }
@@ -521,7 +421,7 @@ function generateTourGuide(city, index) {
     rating: parseFloat((3.5 + Math.random() * 1.5).toFixed(1)), // 3.5-5.0 rating
     reviewsCount: Math.floor(Math.random() * 100) + 5, // 5-105 reviews
     quote,
-    profileImage: `https://randomuser.me/api/portraits/${Math.random() > 0.5 ? "men" : "women"}/${Math.floor(Math.random() * 80)}.jpg`,
+    profileImage: `https://randomuser.me/api/portraits/${gender}/${Math.floor(Math.random() * 90)}.jpg`,
     languages: guideLanguages,
     experienceYears: Math.floor(Math.random() * 15) + 2, // 2-17 years experience
     certifications: guideCertifications,
