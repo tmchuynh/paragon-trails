@@ -439,5 +439,5 @@ export function determineGenderFromName(firstName) {
   }
 
   // Default to first letter as a simple heuristic if not found in our lists
-  return firstName.charAt(0).toUpperCase() <= "M" ? "men" : "women";
+  return firstName.charAt(0).toUpperCase() <= "M" ? "women" : "men";
 }
