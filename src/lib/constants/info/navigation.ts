@@ -25,36 +25,15 @@ export const navbarItems = [
     ],
   },
   {
-    label: "Destinations",
+    label: "Explore Destinations",
     dropdown: [
       {
-        label: "All Destinations",
-        href: "/luxurious-destinations",
+        label: "Tours & Experiences",
+        href: "/experiences-through-destinations",
       },
       {
-        label: "Popular Destinations",
-        href: "/luxurious-destinations/popular-destinations",
-      },
-    ],
-  },
-  {
-    label: "Tours",
-    dropdown: [
-      {
-        label: "All Tours",
-        href: "/tours",
-      },
-      {
-        label: "Popular Tours",
-        href: "/tours/popular-tours",
-      },
-      {
-        label: "Types of Tours",
-        href: "/tours/tour-categories",
-      },
-      {
-        label: "Tour Guides",
-        href: "/tours/tour-guides",
+        label: "Our Dedicated Team of Experts",
+        href: "/experiences-through-destinations/our-dedicated-team-of-experts",
       },
     ],
   },
@@ -62,55 +41,30 @@ export const navbarItems = [
     label: "Services",
     dropdown: [
       {
-        label: "Rent a Vehicle for Your Trip",
-        href: "/services/ground-transportations",
+        label: "Car Rentals & More",
+        href: "/services/rentals/car-rentals",
       },
       {
-        label: "Fly Private with Us",
-        href: "/services/private-aviation",
+        label: "Get Two Wheels on the Road",
+        href: "/services/rentals/motorcycle-rentals",
       },
       {
-        label: "Rent a Yacht Charter",
-        href: "/services/yacht-charters",
+        label: "Set Sail in Style",
+        href: "/services/rentals/yacht-rentals",
       },
       {
-        label: "Homestays & Heritage Stays",
-        href: "/services/homestays-and-heritage-stays",
-      },
-    ],
-  },
-  {
-    label: "Info",
-    dropdown: [
-      {
-        label: "FAQs",
-        href: "/services/information/frequently-asked-questions",
-      },
-      {
-        label: "Accommodations Policy",
-        href: "/services/information/accommodations-policy",
-      },
-      {
-        label: "Travel Insurance Policy",
-        href: "/services/information/travel-insurance-policy",
-      },
-      {
-        label: "Cancellation & Refund Policy",
-        href: "/services/information/cancellation-and-refund-policy",
-      },
-      {
-        label: "Travel Safety Information",
-        href: "/services/information/travel-safety-information",
+        label: "Homestays & Accommodations",
+        href: "/services/accomodations",
       },
     ],
   },
   {
     label: "Contact",
-    href: "/contact-information",
+    href: "/contact-us",
   },
   {
-    label: "Book Now",
-    href: "/book-your-trip-today",
+    label: "Begin Your Next Adventure",
+    href: "/begin-your-next-adventure-today",
   },
 ];
 
