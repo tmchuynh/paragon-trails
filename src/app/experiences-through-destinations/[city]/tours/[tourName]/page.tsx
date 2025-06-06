@@ -10,8 +10,13 @@ export default function TourDetailsPage() {
 
   const tourId = searchParams.get("tourId");
   const guideId = searchParams.get("guideId");
-  const city = searchParams.get("city");
+  const city = searchParams.get("city")?.replaceAll("/", "");
   const selectedCurrency = searchParams.get("currency");
+
+  console.log("Tour ID:", tourId);
+  console.log("Guide ID:", guideId);
+  console.log("City:", city);
+  console.log("Selected Currency:", selectedCurrency);
 
   const [tourData, setTourData] = useState<Tour>();
 
