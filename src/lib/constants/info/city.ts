@@ -1346,6 +1346,3 @@ export const cityCamelCaseNames = cities.map((item) => {
     .replace(/\s+(.)/g, (_, c) => c.toUpperCase()) // Convert spaces followed by character to uppercase character
     .replace(/^(.)/, (_, c) => c.toLowerCase()); // Make first character lowercase
 });
-
-console.log(cityCamelCaseNames);
-// Example outputs will include: "amalfiCoast", "amsterdam", "newYork", "hoChiMinh", etc.
