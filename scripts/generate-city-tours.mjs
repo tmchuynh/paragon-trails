@@ -716,36 +716,107 @@ async function loadCityGuides(city) {
   }
 }
 
-// Generate random schedules for a tour
-function generateSchedules() {
-  const schedule = [];
-  const numSessions = Math.floor(Math.random() * 3) + 1; // 1-3 sessions
+// Load attractions for a city
+async function loadCityAttractions(city) {
+  const formattedName = city;
+  
+  const attractionsPath = path.join(
+    process.cwd(),
+    "src",
+    "lib",
+    "constants",
+    "destinations",
+    "city",
+    `${formattedName}.ts`
+  );
 
-  for (let i = 0; i < numSessions; i++) {
-    const dayOffset = Math.floor(Math.random() * 7);
-    const timeSlotStart = Math.floor(Math.random() * 12);
-    const timeSlotEnd = timeSlotStart + Math.floor(Math.random() * 12);
+  try {
+    await access(attractionsPath);
+  } catch {
+    console.log(`No attractions file found for ${city}. Using placeholder attraction IDs.`);
+    return Array.from({ length: 5 }, (_, i) => ({
+      id: `attraction-${removeAccents(city).toLowerCase().replace(/\s+/g, "-")}-${i + 1}`,
+    }));
+  }
+
+  try {
+    const content = await readFile(attractionsPath, "utf-8");
+    
+    // Extract all attraction IDs using regex
+    const attractionMatches = content.match(/id: "([^"]+)"/g);
+    if (!attractionMatches) return [];
+
+    return attractionMatches.map(match => {
+      const id = match.match(/id: "([^"]+)"/)[1];
+      return { id };
+    });
+  } catch (error) {
+    console.error(`Error loading attractions for ${city}:`, error);
+    return [];
+  }
+}
+
+// Generate random schedules for a tour with real attractions
+function generateSchedules(attractions) {
+  if (!attractions || attractions.length === 0) {
+    return [];
+  }
+
+  const schedule = [];
+  // Generate 1-4 different schedule entries
+  const numSessions = Math.floor(Math.random() * 4) + 1;
+
+  // Create a copy of attractions array to select from
+  const availableAttractions = [...attractions];
+
+  // Shuffle for random selection
+  const shuffledDays = [...weekDays].sort(() => 0.5 - Math.random());
+
+  for (let i = 0; i < numSessions && availableAttractions.length > 0; i++) {
+    // Select a random day
+    const dayOfWeek = shuffledDays[i % shuffledDays.length];
+
+    // Select a random attraction (without replacement)
+    const attractionIndex = Math.floor(
+      Math.random() * availableAttractions.length
+    );
+    const attraction = availableAttractions.splice(attractionIndex, 1)[0];
+
+    // Generate time slots
+    const startHour = 8 + Math.floor(Math.random() * 10); // 8 AM to 6 PM
+    const tourDuration = 1 + Math.floor(Math.random() * 4); // 1-4 hours
+    const endHour = Math.min(startHour + tourDuration, 22); // Don't go past 10 PM
+
+    const startTime = `${startHour}:00`;
+    const endTime = `${endHour}:00`;
 
     // Ensure no duplicate schedules
     const existing = schedule.find(
-      (s) => s.day === dayOffset && s.time === timeSlot
+      (s) =>
+        s.dayOfWeek === dayOfWeek &&
+        s.startTime === startTime &&
+        s.endTime === endTime
     );
-    if (existing) continue;
 
-    const formatTo12Hour = (hour) => {
-      const period = hour >= 12 ? "PM" : "AM";
-      const adjustedHour = hour % 12 || 12; // Convert 0 to 12 for 12-hour format
-      return `${adjustedHour}:00 ${period}`;
-    };
-
-    schedule.push({
-      dayOfWeek: weekDays[dayOffset],
-      startTime: formatTo12Hour(timeSlotStart),
-      endTime: formatTo12Hour(timeSlotEnd),
-    });
+    if (!existing) {
+      schedule.push({
+        attractionId: attraction.id,
+        dayOfWeek,
+        startTime: formatTimeTo12Hour(startTime),
+        endTime: formatTimeTo12Hour(endTime),
+      });
+    }
   }
 
   return schedule;
+}
+
+// Helper function to convert time to 12-hour format
+function formatTimeTo12Hour(time) {
+  const [hours, minutes] = time.split(':').map(Number);
+  const period = hours >= 12 ? 'PM' : 'AM';
+  const adjustedHours = hours % 12 || 12;
+  return `${adjustedHours}:${minutes.toString().padStart(2, '0')} ${period}`;
 }
 
 // Generate a tour for a city
@@ -1055,11 +1126,23 @@ async function generateCityTourFile(city) {
   // Load guides for the city
   const guides = await loadCityGuides(city);
 
+  // ADDED: Load attractions for the city
+  const attractions = await loadCityAttractions(city);
+  console.log(`Loaded ${attractions.length} attractions for ${city}`);
+
   // Generate tours
   const numNewTours = options.append || Math.floor(Math.random() * 5) + 3; // 3-7 tours
-  const newTours = Array(numNewTours)
-    .fill(0)
-    .map((_, index) => generateTour(city, tours.length + index, guides));
+
+  // Now generate the tours with attractions included
+  const newTours = [];
+  for (let i = 0; i < numNewTours; i++) {
+    const tour = generateTour(city, tours.length + i, guides);
+
+    // MODIFIED: Generate schedules with actual attractions
+    tour.schedule = generateSchedules(attractions);
+
+    newTours.push(tour);
+  }
 
   // Combine existing and new tours
   tours = tours.concat(newTours);
