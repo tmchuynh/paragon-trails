@@ -172,21 +172,35 @@ export async function getTourByPrice(
 
 export async function getTourById(city: string, tourId: string): Promise<any> {
   console.log(`Fetching tour with ID: ${tourId} for city: ${city}`);
-  const formattedCity = formatKebabToCamelCase(city);
 
+  // Normalize the city name to ensure it matches the keys in cityToRegionMap
+  // Convert to lowercase and ensure kebab-case format
+  const normalizedCity = city.toLowerCase().trim().replace(/\s+/g, "-");
+
+  console.log(`Normalized city: ${normalizedCity}`);
+
+  const formattedCity = formatKebabToCamelCase(normalizedCity);
   console.log(`Formatted city: ${formattedCity}`);
 
-  const cityRegion = cityToRegionMap[city as keyof typeof cityToRegionMap];
+  // Look up the region using the normalized city name
+  const cityRegion =
+    cityToRegionMap[normalizedCity as keyof typeof cityToRegionMap];
   console.log(`City region mapping:`, cityRegion);
 
-  const formattedRegion = formatTitleToCamelCase(cityRegion);
+  if (!cityRegion) {
+    console.error(`No region found for city: ${normalizedCity}`);
+    return null;
+  }
 
+  const formattedRegion = formatTitleToCamelCase(cityRegion);
   console.log(`Formatted region: ${formattedRegion}`);
 
   const tourIdFormatted = `${formattedCity}${formattedRegion}Tours`;
+  console.log(`Looking for tour ID format: ${tourIdFormatted}`);
 
   try {
     const tourModule = await import(`@/lib/constants/tours/${formattedCity}`);
+    console.log(`Available exports:`, Object.keys(tourModule));
 
     if (tourModule[tourIdFormatted]) {
       const tours = tourModule[tourIdFormatted] as Tour[];
@@ -195,18 +209,33 @@ export async function getTourById(city: string, tourId: string): Promise<any> {
         return foundTour;
       } else {
         console.warn(
-          `Tour with ID ${tourIdFormatted} not found in city ${formattedCity}.`
+          `Tour with ID ${tourId} not found in city ${formattedCity}.`
         );
-        return [];
+        return null;
       }
     } else {
+      // Try an alternative format that includes the country
+      const country =
+        cityCountryMap[normalizedCity as keyof typeof cityCountryMap];
+      if (country) {
+        const formattedCountry = formatTitleToCamelCase(country);
+        const alternativeId = `${formattedCity}${formattedCountry}${formattedRegion}Tours`;
+        console.log(`Trying alternative ID: ${alternativeId}`);
+
+        if (tourModule[alternativeId]) {
+          const tours = tourModule[alternativeId] as Tour[];
+          const foundTour = tours.find((tour) => tour.id === tourId);
+          return foundTour || null;
+        }
+      }
+
       console.warn(
         `No tours found for city ${city} with ID ${tourIdFormatted}`
       );
-      return [];
+      return null;
     }
   } catch (error) {
     console.error(`Error loading tours for city ${city}: ${error}`);
-    return [];
+    return null;
   }
 }
