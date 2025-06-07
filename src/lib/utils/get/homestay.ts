@@ -13,7 +13,7 @@ export async function getHosts(): Promise<Host[]> {
         const formattedCity = formatKebabToCamelCase(cityFile);
         const homestayId = `${formattedCity}Homestays`;
         const homestayModule = await import(
-          `@/lib/constants/destinations/homestay/${formattedCity}`
+          `@/lib/constants/destinations/homestay/${cityFile}`
         );
 
         if (homestayModule[homestayId]) {
@@ -38,7 +38,7 @@ export async function getHomestaysByCity(city: string): Promise<any> {
     const formattedCity = formatKebabToCamelCase(city);
     const homestayId = `${formattedCity}Homestays`;
     const homestayModule = await import(
-      `@/lib/constants/destinations/homestay/${formattedCity}`
+      `@/lib/constants/destinations/homestay/${city}`
     );
     if (homestayModule[homestayId]) {
       return homestayModule[homestayId];
