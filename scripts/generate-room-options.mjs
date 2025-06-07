@@ -44,6 +44,7 @@ import {
   cityCountryMap,
   countryCurrencyMap,
   currencyRates,
+  getCityCountryPriceMultiplier, // <-- add this import
 } from "./utils/geo-utils.mjs";
 import { getCityFiles } from "./utils/file-utils.mjs";
 import {
@@ -574,43 +575,17 @@ function calculateBasePrice(hotel) {
   // Extract city from hotel.id (format is hotel-{city}-{index})
   const cityMatch = hotel.id && hotel.id.match(/hotel-([^-]+)-/);
   const city = cityMatch ? cityMatch[1] : null;
-  const expensiveCities = [
-    "paris",
-    "london",
-    "new-york-city",
-    "tokyo",
-    "singapore",
-    "sydney",
-    "dubai",
-    "amsterdam",
-    "berlin",
-    "san-francisco",
-    "los-angeles",
-    "hong-kong",
-  ];
-  const cheapCities = [
-    "bangkok",
-    "ho-chi-minh-city",
-    "lima",
-    "hanoi",
-    "bali",
-    "istanbul",
-    "athens",
-    "lisbon",
-    "rio-de-janeiro",
-    "cape-town",
-  ];
-  if (city) {
-    if (expensiveCities.includes(city.toLowerCase())) {
-      basePrice *= 1.5;
-    } else if (cheapCities.includes(city.toLowerCase())) {
-      basePrice *= 0.7;
-    }
-  }
 
   // --- Currency conversion ---
   // Get country and currency code
   const country = city ? cityCountryMap[city] || "" : "";
+  // --- City/country price multiplier ---
+  let cityCountryMultiplier = 1.0;
+  if (city && country) {
+    cityCountryMultiplier = getCityCountryPriceMultiplier(city, country);
+  }
+  basePrice *= cityCountryMultiplier;
+
   const currencyCode = countryCurrencyMap[country] || hotel.currency || "USD";
   const rate = currencyRates[currencyCode] || 1;
   let localPrice = basePrice * rate;
