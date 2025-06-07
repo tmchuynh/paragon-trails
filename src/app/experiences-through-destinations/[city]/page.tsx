@@ -124,7 +124,9 @@ export default function ToursByCityPage() {
                 Tour Reviews
               </Button>
             </Link>
-            <Link href={`/experiences-through-destinations/${city}/tours`}>
+            <Link
+              href={`/experiences-through-destinations/${formatTitleCaseToKebabCase(city)}/tours`}
+            >
               <Button variant="default" className="flex items-center gap-2">
                 <Globe size={16} />
                 Explore Tours
