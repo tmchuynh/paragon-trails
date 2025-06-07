@@ -372,7 +372,7 @@ async function generateCityHomestays(city) {
     "destinations",
     "homestay",
   );
-  const filePath = path.join(destDir, `${fileName}.ts`);
+  const filePath = path.join(destDir, `${city}.ts`);
 
   // Check if directory exists, create if needed
   await ensureDirectoryExists(destDir);
@@ -399,7 +399,9 @@ async function generateCityHomestays(city) {
     });
 
   // Create file content with proper formatting
-  let content = `import { Host } from "@/lib/interfaces/people/homestay";\n\n`;
+  let content = `// Homestay data for ${city}\n`;
+  content += `// This file is auto-generated. Do not edit manually.\n\n`;
+  content += `import { Host } from "@/lib/interfaces/people/homestay";\n\n`;
   content += `export const ${variableName.replaceAll(".", "")}: Host[] = [\n`;
 
   // Each homestay with its hosts array
