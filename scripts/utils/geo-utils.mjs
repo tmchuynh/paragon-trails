@@ -97,7 +97,7 @@ export const cityCountryMap = {
   denpasar: "Indonesia",
   edinburgh: "United Kingdom",
   fez: "Morocco",
-  fiji: "Republic of Fiji",
+  fiji: "Fiji",
   "fort-kochi": "India",
   "galapagos-islands": "Ecuador",
   glasgow: "United Kingdom",
@@ -363,7 +363,7 @@ export const cityToRegionMap = {
 
   "buenos-aires": "Argentina",
   montevideo: "Uruguay",
-  patagonia: "Argentina/Chile",
+  patagonia: "Chile",
   "rio-de-janeiro": "Brazil",
 
   cairo: "Egypt",
@@ -855,10 +855,16 @@ export const countryCurrencyMap = {
   China: "CNY",
   "Hong Kong": "HKD",
   Australia: "AUD",
+  Jamaica: "JMD",
+  Cambodia: "KHR",
+  "Dominican Republic": "DOP",
+  Taiwan: "TWD",
+  Monaco: "EUR",
   "New Zealand": "NZD",
   Singapore: "SGD",
   Thailand: "THB",
   Vietnam: "VND",
+  Greenland: "DKK",
   Indonesia: "IDR",
   Russia: "RUB",
   Brazil: "BRL",
@@ -925,7 +931,6 @@ export const euroCountries = [
   "Italy",
   "Spain",
   "Netherlands",
-  "Amalfi Coast",
   "Greece",
   "Portugal",
   "Ireland",
@@ -949,7 +954,7 @@ export const regionCurrencyMapping = {
   "French Riviera": ["EUR"],
 
   "Croatian Coast": ["EUR"],
-  Croatia: ["HRK", "EUR"],
+  Croatia: ["EUR"],
   "Bosnia & Herzegovina": ["BAM"],
   Serbia: ["RSD"],
   "Georgia (Caucasus)": ["GEL"],
@@ -1038,10 +1043,9 @@ export const regionCurrencyMapping = {
 
   Peru: ["PEN"],
   Ecuador: ["USD"],
-  Chile: ["CLP"],
   Argentina: ["ARS"],
   Uruguay: ["UYU"],
-  Chile: ["ARS", "CLP"],
+  Chile: ["CLP"],
   Brazil: ["BRL"],
 
   Egypt: ["EGP"],
@@ -1132,6 +1136,10 @@ export const currencyRates = {
   CNY: 7.22,
   SEK: 10.65,
   NOK: 10.5,
+  JMD: 155.0, // Jamaican Dollar (approximate)
+  DOP: 59.0, // Dominican Peso (approximate)
+  TWD: 32.5, // New Taiwan Dollar (approximate)
+  KHR: 4100, // Cambodian Riel (approximate)
   DKK: 6.95,
   NZD: 1.61,
   INR: 83.2,
