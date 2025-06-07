@@ -76,8 +76,12 @@ export default function HomestayAndHeritageStaysPage() {
   const [languageFilter, setLanguageFilter] = useState<string | null>(null);
   const [maxGuestsFilter, setMaxGuestsFilter] = useState<number | null>(null);
   const [isPopularFilter, setIsPopularFilter] = useState<boolean | null>(null);
-  const [hostingStyleFilter, setHostingStyleFilter] = useState<string | null>(null);
-  const [isVerifiedFilter, setIsVerifiedFilter] = useState<boolean | null>(null);
+  const [hostingStyleFilter, setHostingStyleFilter] = useState<string | null>(
+    null
+  );
+  const [isVerifiedFilter, setIsVerifiedFilter] = useState<boolean | null>(
+    null
+  );
   const [minRatingFilter, setMinRatingFilter] = useState<number | null>(null);
   const [stayTypeFilter, setStayTypeFilter] = useState<string | null>(null);
 
@@ -99,23 +103,40 @@ export default function HomestayAndHeritageStaysPage() {
   }, []);
 
   // Extract unique values for filters
-  const uniqueCities = Array.from(new Set(hosts.map((h) => h.location.city))).sort();
-  const uniqueCountries = Array.from(new Set(hosts.map((h) => h.location.country))).sort();
-  const uniqueLanguages = Array.from(new Set(hosts.flatMap((h) => h.languages))).sort();
-  const uniqueHostingStyles = Array.from(new Set(hosts.map((h) => h.hostingStyle).filter(Boolean))).sort();
-  const uniqueStayTypes = Array.from(new Set(hosts.map((h) => h.stayType))).sort();
+  const uniqueCities = Array.from(
+    new Set(hosts.map((h) => h.location.city))
+  ).sort();
+  const uniqueCountries = Array.from(
+    new Set(hosts.map((h) => h.location.country))
+  ).sort();
+  const uniqueLanguages = Array.from(
+    new Set(hosts.flatMap((h) => h.languages))
+  ).sort();
+  const uniqueHostingStyles = Array.from(
+    new Set(hosts.map((h) => h.hostingStyle).filter(Boolean))
+  ).sort();
+  const uniqueStayTypes = Array.from(
+    new Set(hosts.map((h) => h.stayType))
+  ).sort();
 
   // Filtering logic
   useEffect(() => {
     let filtered = hosts.filter((host) => {
       if (cityFilter && host.location.city !== cityFilter) return false;
-      if (countryFilter && host.location.country !== countryFilter) return false;
-      if (languageFilter && !host.languages.includes(languageFilter)) return false;
-      if (maxGuestsFilter !== null && host.maxGuests < maxGuestsFilter) return false;
-      if (isPopularFilter !== null && !!host.isPopular !== isPopularFilter) return false;
-      if (hostingStyleFilter && host.hostingStyle !== hostingStyleFilter) return false;
-      if (isVerifiedFilter !== null && host.isVerified !== isVerifiedFilter) return false;
-      if (minRatingFilter !== null && (host.rating ?? 0) < minRatingFilter) return false;
+      if (countryFilter && host.location.country !== countryFilter)
+        return false;
+      if (languageFilter && !host.languages.includes(languageFilter))
+        return false;
+      if (maxGuestsFilter !== null && host.maxGuests < maxGuestsFilter)
+        return false;
+      if (isPopularFilter !== null && !!host.isPopular !== isPopularFilter)
+        return false;
+      if (hostingStyleFilter && host.hostingStyle !== hostingStyleFilter)
+        return false;
+      if (isVerifiedFilter !== null && host.isVerified !== isVerifiedFilter)
+        return false;
+      if (minRatingFilter !== null && (host.rating ?? 0) < minRatingFilter)
+        return false;
       if (stayTypeFilter && host.stayType !== stayTypeFilter) return false;
       return true;
     });
@@ -200,9 +221,20 @@ export default function HomestayAndHeritageStaysPage() {
       if (currentPage <= 3) {
         pageNumbers.push(2, 3, 4, "ellipsis");
       } else if (currentPage >= totalPages - 2) {
-        pageNumbers.push("ellipsis", totalPages - 3, totalPages - 2, totalPages - 1);
+        pageNumbers.push(
+          "ellipsis",
+          totalPages - 3,
+          totalPages - 2,
+          totalPages - 1
+        );
       } else {
-        pageNumbers.push("ellipsis", currentPage - 1, currentPage, currentPage + 1, "ellipsis");
+        pageNumbers.push(
+          "ellipsis",
+          currentPage - 1,
+          currentPage,
+          currentPage + 1,
+          "ellipsis"
+        );
       }
       pageNumbers.push(totalPages);
     }
@@ -213,7 +245,9 @@ export default function HomestayAndHeritageStaysPage() {
             <PaginationPrevious
               onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
               aria-disabled={currentPage === 1}
-              className={currentPage === 1 ? "pointer-events-none opacity-50" : ""}
+              className={
+                currentPage === 1 ? "pointer-events-none opacity-50" : ""
+              }
             />
           </PaginationItem>
           {pageNumbers.map((page, idx) =>
@@ -234,9 +268,15 @@ export default function HomestayAndHeritageStaysPage() {
           )}
           <PaginationItem>
             <PaginationNext
-              onClick={() => setCurrentPage((prev) => Math.min(prev + 1, totalPages))}
+              onClick={() =>
+                setCurrentPage((prev) => Math.min(prev + 1, totalPages))
+              }
               aria-disabled={currentPage === totalPages}
-              className={currentPage === totalPages ? "pointer-events-none opacity-50" : ""}
+              className={
+                currentPage === totalPages
+                  ? "pointer-events-none opacity-50"
+                  : ""
+              }
             />
           </PaginationItem>
         </PaginationContent>
@@ -256,7 +296,8 @@ export default function HomestayAndHeritageStaysPage() {
           <header>
             <h1 className="text-start">Homestay and Heritage Stays</h1>
             <h5 className="text-start">
-              {filteredHosts.length} host{filteredHosts.length !== 1 ? "s" : ""} available
+              {filteredHosts.length} host{filteredHosts.length !== 1 ? "s" : ""}{" "}
+              available
             </h5>
           </header>
           <div className="flex sm:flex-row flex-col items-center gap-4">
@@ -273,7 +314,11 @@ export default function HomestayAndHeritageStaysPage() {
               {/* Sort dropdown */}
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
-                  <Button variant="outline" size="sm" className="flex items-center gap-2">
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    className="flex items-center gap-2"
+                  >
                     <SlidersHorizontal className="w-4 h-4" />
                     Sort
                   </Button>
@@ -282,26 +327,38 @@ export default function HomestayAndHeritageStaysPage() {
                   <DropdownMenuItem
                     onClick={() => {
                       setSortField("name");
-                      setSortDirection((prev) => (prev === "asc" ? "desc" : "asc"));
+                      setSortDirection((prev) =>
+                        prev === "asc" ? "desc" : "asc"
+                      );
                     }}
                   >
-                    By Name {sortField === "name" && (sortDirection === "asc" ? "↑" : "↓")}
+                    By Name{" "}
+                    {sortField === "name" &&
+                      (sortDirection === "asc" ? "↑" : "↓")}
                   </DropdownMenuItem>
                   <DropdownMenuItem
                     onClick={() => {
                       setSortField("rating");
-                      setSortDirection((prev) => (prev === "desc" ? "asc" : "desc"));
+                      setSortDirection((prev) =>
+                        prev === "desc" ? "asc" : "desc"
+                      );
                     }}
                   >
-                    By Rating {sortField === "rating" && (sortDirection === "asc" ? "↑" : "↓")}
+                    By Rating{" "}
+                    {sortField === "rating" &&
+                      (sortDirection === "asc" ? "↑" : "↓")}
                   </DropdownMenuItem>
                   <DropdownMenuItem
                     onClick={() => {
                       setSortField("maxGuests");
-                      setSortDirection((prev) => (prev === "desc" ? "asc" : "desc"));
+                      setSortDirection((prev) =>
+                        prev === "desc" ? "asc" : "desc"
+                      );
                     }}
                   >
-                    By Max Guests {sortField === "maxGuests" && (sortDirection === "asc" ? "↑" : "↓")}
+                    By Max Guests{" "}
+                    {sortField === "maxGuests" &&
+                      (sortDirection === "asc" ? "↑" : "↓")}
                   </DropdownMenuItem>
                 </DropdownMenuContent>
               </DropdownMenu>
@@ -339,7 +396,9 @@ export default function HomestayAndHeritageStaysPage() {
                   <h5>City</h5>
                   <Select
                     value={cityFilter || "all"}
-                    onValueChange={(value) => setCityFilter(value === "all" ? null : value)}
+                    onValueChange={(value) =>
+                      setCityFilter(value === "all" ? null : value)
+                    }
                   >
                     <SelectTrigger className="w-full">
                       <SelectValue placeholder="Select City" />
@@ -361,7 +420,9 @@ export default function HomestayAndHeritageStaysPage() {
                   <h5>Country</h5>
                   <Select
                     value={countryFilter || "all"}
-                    onValueChange={(value) => setCountryFilter(value === "all" ? null : value)}
+                    onValueChange={(value) =>
+                      setCountryFilter(value === "all" ? null : value)
+                    }
                   >
                     <SelectTrigger className="w-full">
                       <SelectValue placeholder="Select Country" />
@@ -383,7 +444,9 @@ export default function HomestayAndHeritageStaysPage() {
                   <h5>Language</h5>
                   <Select
                     value={languageFilter || "all"}
-                    onValueChange={(value) => setLanguageFilter(value === "all" ? null : value)}
+                    onValueChange={(value) =>
+                      setLanguageFilter(value === "all" ? null : value)
+                    }
                   >
                     <SelectTrigger className="w-full">
                       <SelectValue placeholder="Select Language" />
@@ -433,7 +496,9 @@ export default function HomestayAndHeritageStaysPage() {
                         : "regular"
                   }
                   onValueChange={(value) =>
-                    setIsPopularFilter(value === "all" ? null : value === "popular")
+                    setIsPopularFilter(
+                      value === "all" ? null : value === "popular"
+                    )
                   }
                 >
                   <SelectTrigger className="w-full">
@@ -462,7 +527,7 @@ export default function HomestayAndHeritageStaysPage() {
                     <SelectContent>
                       <SelectItem value="all">All Styles</SelectItem>
                       {uniqueHostingStyles.map((style) => (
-                        <SelectItem key={style} value={style}>
+                        <SelectItem key={style} value={`${style}`}>
                           {style}
                         </SelectItem>
                       ))}
@@ -482,7 +547,9 @@ export default function HomestayAndHeritageStaysPage() {
                         : "no"
                   }
                   onValueChange={(value) =>
-                    setIsVerifiedFilter(value === "all" ? null : value === "yes")
+                    setIsVerifiedFilter(
+                      value === "all" ? null : value === "yes"
+                    )
                   }
                 >
                   <SelectTrigger className="w-full">
@@ -542,13 +609,19 @@ export default function HomestayAndHeritageStaysPage() {
                 </div>
               )}
               {/* Reset Button */}
-              <Button variant="outline" className="w-full" onClick={resetFilters}>
+              <Button
+                variant="outline"
+                className="w-full"
+                onClick={resetFilters}
+              >
                 Reset All Filters
               </Button>
             </div>
           )}
           {/* Main Content - Host Cards */}
-          <div className={`${showFilters ? "lg:col-span-3" : "lg:col-span-4"} space-y-6`}>
+          <div
+            className={`${showFilters ? "lg:col-span-3" : "lg:col-span-4"} space-y-6`}
+          >
             <div className="text-gray-500">
               Showing {startIndex + 1} to {endIndex} of {totalItems} hosts
             </div>
@@ -568,9 +641,14 @@ export default function HomestayAndHeritageStaysPage() {
                 </div>
                 <h3 className="font-semibold text-lg">No hosts found</h3>
                 <p className="mt-2 max-w-md text-gray-500">
-                  We couldn't find any hosts matching your filters. Try adjusting your search criteria or reset filters.
+                  We couldn't find any hosts matching your filters. Try
+                  adjusting your search criteria or reset filters.
                 </p>
-                <Button variant="outline" className="mt-4" onClick={resetFilters}>
+                <Button
+                  variant="outline"
+                  className="mt-4"
+                  onClick={resetFilters}
+                >
                   Reset Filters
                 </Button>
               </div>
@@ -612,6 +690,12 @@ function HostCard({ host }: { host: Host }) {
       <CardContent className="flex-grow">
         <div className="space-y-2">
           <div className="flex items-center gap-2">
+            <CheckCircle className="w-4 h-4 text-green-500" />
+            <span className="text-sm capitalize">
+              {host.stayType.replace(/-/g, " ")}
+            </span>
+          </div>
+          <div className="flex items-center gap-2">
             <Users className="w-4 h-4 text-muted-foreground" />
             <span className="text-sm">Max Guests: {host.maxGuests}</span>
           </div>
@@ -625,12 +709,8 @@ function HostCard({ host }: { host: Host }) {
             <Home className="w-4 h-4 text-muted-foreground" />
             <span className="text-sm capitalize">{host.hostingStyle}</span>
           </div>
-          <div className="flex items-center gap-2">
-            <CheckCircle className="w-4 h-4 text-green-500" />
-            <span className="text-sm capitalize">
-              {host.stayType.replace(/-/g, " ")}
-            </span>
-          </div>
+
+          <Separator className="my-3" />
           <div className="flex items-center gap-2">
             <h5>{host.background}</h5>
           </div>
