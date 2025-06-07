@@ -1,7 +1,11 @@
 import { cityFiles } from "@/lib/constants/info/city";
 import { Tour } from "@/lib/interfaces/services/tours";
 import { cityCountryMap, cityToRegionMap } from "@/lib/utils/mapping";
-import { formatKebabToCamelCase, formatTitleToCamelCase } from "../format";
+import {
+  formatKebabToCamelCase,
+  formatTitleToCamelCase,
+  formatTitleCaseToKebabCase,
+} from "../format";
 
 /**
  * Gets all available tours for a specific city
@@ -10,7 +14,8 @@ import { formatKebabToCamelCase, formatTitleToCamelCase } from "../format";
  * @returns An array of tours for the specified city
  */
 export async function getCityTours(city: string): Promise<Tour[]> {
-  console.log(`Loading tours for city: ${city}`);
+  const kebabCasedCity = formatTitleCaseToKebabCase(city);
+  console.log(`Loading tours for city: ${kebabCasedCity}`);
   const tours: Tour[] = [];
 
   try {
@@ -18,19 +23,29 @@ export async function getCityTours(city: string): Promise<Tour[]> {
     const cityCamelCase = formatKebabToCamelCase(city);
 
     // Get the region for this city from the mapping
-    const region = cityToRegionMap[city];
-    const country = cityCountryMap[city];
+    const region = cityToRegionMap[kebabCasedCity];
+    const country = cityCountryMap[kebabCasedCity];
     const formattedCountry = formatTitleToCamelCase(country);
     const formattedRegion = formatTitleToCamelCase(region);
+
+    console.log(
+      `Processing city: ${city}, country: ${formattedCountry}, region: ${formattedRegion}`
+    );
 
     // For each tour type, try to load its module
     try {
       // Construct the module ID following the naming convention
       // e.g., "newYorkCityGeneralTours" or "amalfiCoastCoastalTours"
       const moduleId = `${cityCamelCase}${formattedCountry.replaceAll(".", "")}${formattedRegion}Tours`;
+
+      console.log(`Looking for module ID: ${moduleId}`);
+      // Log the import path for debugging
+      console.log(
+        `Importing tours module from: @/lib/constants/tours/${kebabCasedCity}`
+      );
       // Try to import the module dynamically
       const tourModule = await import(
-        `@/lib/constants/tours/${formatKebabToCamelCase(city)}.ts`
+        `@/lib/constants/tours/${kebabCasedCity}`
       );
 
       // If the module exports the expected data
@@ -62,7 +77,10 @@ export async function getCityTours(city: string): Promise<Tour[]> {
  * @param tourId The tour ID
  * @returns The tour object or null if not found
  */
-export async function getTourById(city: string, tourId: string): Promise<Tour | null> {
+export async function getTourById(
+  city: string,
+  tourId: string
+): Promise<Tour | null> {
   try {
     const cityTours = await getCityTours(city);
     return cityTours.find((tour) => tour.id === tourId) || null;
@@ -80,9 +98,14 @@ export async function getTourById(city: string, tourId: string): Promise<Tour | 
  * @param tours Array of tours
  * @returns An object with the correct module structure
  */
-export function createTourModule(city: string, tourType: string, tours: Tour[]) {
+export function createTourModule(
+  city: string,
+  tourType: string,
+  tours: Tour[]
+) {
   const cityCamelCase = formatKebabToCamelCase(city);
-  const firstUpperTourType = tourType.charAt(0).toUpperCase() + tourType.slice(1);
+  const firstUpperTourType =
+    tourType.charAt(0).toUpperCase() + tourType.slice(1);
   const moduleId = `${cityCamelCase}${firstUpperTourType}Tours`;
 
   return {
@@ -111,7 +134,7 @@ export async function getAllTours(): Promise<Tour[]> {
 
       // Log the city we're processing and constructed tourId
       console.log(
-        `Processing city: ${cityFile}, looking for tourId: ${tourId}`,
+        `Processing city: ${cityFile}, looking for tourId: ${tourId}`
       );
 
       try {
@@ -127,14 +150,12 @@ export async function getAllTours(): Promise<Tour[]> {
               importError instanceof Error
                 ? importError.message
                 : "Unknown error"
-            }`,
+            }`
           );
           try {
-            cityModule = await import(
-              `@/lib/constants/destinations/city/${cityFile}`
-            );
+            cityModule = await import(`@/lib/constants/tours/${cityFile}`);
             console.log(
-              `Successfully imported from destinations/city directory`,
+              `Successfully imported from tours directory (fallback)`
             );
           } catch (secondImportError) {
             console.error(`Failed both import attempts for ${cityFile}`);
@@ -145,12 +166,12 @@ export async function getAllTours(): Promise<Tour[]> {
         // Debug: Print all exported keys from the module
         console.log(
           `Available keys in module for ${cityFile}:`,
-          Object.keys(cityModule),
+          Object.keys(cityModule)
         );
 
         if (cityModule[tourId]) {
           console.log(
-            `Found ${cityModule[tourId].length} tours for ${cityFile}`,
+            `Found ${cityModule[tourId].length} tours for ${cityFile}`
           );
           tours.push(...(cityModule[tourId] as Tour[]));
         } else {
@@ -162,7 +183,7 @@ export async function getAllTours(): Promise<Tour[]> {
           } else {
             // Log all available keys in the module to help debug
             console.error(
-              `No tours found for city: ${cityFile}, tried IDs: ${tourId}, ${alternativeId}`,
+              `No tours found for city: ${cityFile}, tried IDs: ${tourId}, ${alternativeId}`
             );
           }
         }
