@@ -196,10 +196,18 @@ export const cities: City[] = [
   {
     city: "Amalfi Coast",
     country: "Italy",
-    region: "Campania",
+    region: "Italy",
     subtitle: "Mediterranean Paradise",
     quote:
       "Sapphire waters whispered secrets of ancient mariners as we glided between sun-drenched cliffs, discovering nature's hidden chambers where time stands still and the sea becomes a feast for all senses.",
+  },
+  {
+    city: "Auckland",
+    country: "New Zealand",
+    region: "New Zealand",
+    subtitle: "City of Sails",
+    quote:
+      "In a land where the sky kisses the sea, we sailed through a tapestry of islands and cultures, our hearts and minds forever changed by the beauty and diversity of Auckland.",
   },
   {
     city: "Amsterdam",
@@ -209,99 +217,6 @@ export const cities: City[] = [
     subtitle: "Venice of the North",
     quote:
       "Reflections dance on rippling canals, each bridge a chapter in a centuries-old story, while starlight illuminated swirling masterpieces in empty halls where whispers of artistic genius still linger in the night air.",
-  },
-  {
-    city: "Anchorage",
-    state: "AK",
-    region: "AK",
-    country: "United States",
-    subtitle: "Gateway to the Last Frontier",
-    quote:
-      "Under a sun that refuses to sleep, titans of ice and noble creatures of the wild became our companions in this realm where boundaries between earth and heaven blur into endless possibility.",
-  },
-  {
-    city: "Athens",
-    state: "",
-    region: "Attica",
-    country: "Greece",
-    subtitle: "Birthplace of Democracy",
-    quote:
-      "As twilight painted marble in gold, ancient whispers rose from stone, telling tales of gods and philosophers whose dreams still shape our world, a timeless dialogue between past and present.",
-  },
-  {
-    city: "Atlanta",
-    state: "GA",
-    region: "GA",
-    country: "United States",
-    subtitle: "The City in a Forest",
-    quote:
-      "Between emerald canopies and soaring monuments, the heartbeat of history pulses through vibrant streets where yesterday's struggles birthed tomorrow's dreams, a symphony of resilience that still echoes in the southern breeze.",
-  },
-  {
-    city: "Atlas Mountains",
-    state: "",
-    region: "Marrakech-Safi",
-    country: "Morocco",
-    subtitle: "Majestic Mountain Range",
-    quote:
-      "Ancient peaks pierce the heavens like wise sentinels, cradling stories of nomadic souls in their rugged embrace, where mountain whispers blend with songs of heritage beneath vast cerulean skies.",
-  },
-  {
-    city: "Austin",
-    state: "TX",
-    region: "TX",
-    country: "United States",
-    subtitle: "Live Music Capital of the World",
-    quote:
-      "In the city where every corner hums a different tune, our guide orchestrated a symphony of sounds and flavors, revealing why Austin's heart beats to the rhythm of live music and culinary delights.",
-  },
-  {
-    city: "Ayutthaya",
-    state: "",
-    region: "Central Thailand",
-    country: "Thailand",
-    subtitle: "Ancient Capital of Siam",
-    quote:
-      "Ruins wrapped in the embrace of nature, where every brick tells a tale of glory and despair, and the echoes of an ancient civilization still resonate in the whispers of the wind.",
-  },
-  {
-    city: "Auckland",
-    state: "",
-    region: "Auckland Region",
-    country: "New Zealand",
-    isPopular: true,
-    subtitle: "City of Sails",
-    quote:
-      "In a land where the sky kisses the sea, we sailed through a tapestry of islands and cultures, our hearts and minds forever changed by the beauty and diversity of Auckland.",
-  },
-  {
-    city: "Bali",
-    state: "",
-    region: "Bali",
-    country: "Indonesia",
-    isPopular: true,
-    subtitle: "Island of the Gods",
-    quote:
-      "Emerald terraces cascade like divine staircases while incense spirals toward heaven, dancing with prayers and dreams in this mystical realm where everyday rituals transform into sacred poetry of existence.",
-  },
-  {
-    city: "Bandipur",
-    state: "Karnataka",
-    region: "Karnataka",
-    country: "India",
-    subtitle: "Wildlife Sanctuary in the Nilgiris",
-    quote:
-      "In the land where elephants roam and tigers prowl, our guide unveiled the secrets of the wild, leading us on a journey through nature's grandeur that few have been privileged to witness.",
-  },
-  {
-    city: "Bangkok",
-    state: "",
-    region: "Central Thailand",
-    country: "Thailand",
-    isPopular: true,
-    subtitle: "City of Angels",
-    quote:
-      "A tapestry of sights, sounds, and flavors where every moment is a brushstroke on the canvas of your memory, and the spirit of Thailand dances in vibrant hues all around you.",
   },
   {
     city: "Barcelona",
@@ -314,25 +229,6 @@ export const cities: City[] = [
       "Dreams crystallized into impossible architecture, where buildings dance and sing against azure skies, their undulating forms a testament to the beautiful marriage of imagination and stone.",
   },
   {
-    city: "Beijing",
-    state: "",
-    region: "Beijing Municipality",
-    country: "China",
-    isPopular: true,
-    subtitle: "City of Imperial Treasures",
-    quote:
-      "In the shadow of giants, we walked the path of emperors, our guide illuminating the secrets of a civilization that wove silk and history with equal finesse.",
-  },
-  {
-    city: "Belgrade",
-    state: "",
-    region: "Central Serbia",
-    country: "Serbia",
-    subtitle: "Gateway to the Balkans",
-    quote:
-      "Where the Danube kisses the hills, a city of contrasts unfolds, its spirited past and vibrant present dancing together in a celebration of resilience and creativity.",
-  },
-  {
     city: "Berlin",
     state: "",
     region: "Berlin",
@@ -343,42 +239,6 @@ export const cities: City[] = [
       "In the city where history took a stand, we walked through stories etched in time, our guide revealing the layers of a metropolis that rose from its ashes with unyielding spirit.",
   },
   {
-    city: "Bhaktapur",
-    state: "",
-    region: "Bagmati Province",
-    country: "Nepal",
-    subtitle: "City of Devotees",
-    quote:
-      "In the valley where the earth meets the sky, ancient temples and vibrant traditions converge, offering a glimpse into the soul of Nepal that few are fortunate to behold.",
-  },
-  {
-    city: "Blagaj",
-    state: "",
-    region: "Federation of Bosnia and Herzegovina",
-    country: "Bosnia and Herzegovina",
-    subtitle: "Historical Village by the Buna River",
-    quote:
-      "Where the river sings to the stones, and time dances to the rhythm of nature, we found a village where every corner turned revealed a story steeped in heritage and beauty.",
-  },
-  {
-    city: "Bologna",
-    country: "Italy",
-    region: "Emilia-Romagna",
-    subtitle: "Italy's Culinary Heart",
-    quote:
-      "In the land of pasta and passion, we uncovered the art of Italian cooking, our senses ignited by the symphony of flavors and aromas that define Bologna's rich culinary heritage.",
-  },
-  {
-    city: "Bora Bora",
-    state: "",
-    region: "Society Islands",
-    country: "French Polynesia",
-    isPopular: true,
-    subtitle: "Pearl of the Pacific",
-    quote:
-      "In a lagoon where time stands still, we found ourselves enveloped in the embrace of overwater bungalows and crystal-clear waters, a slice of paradise that redefines tranquility.",
-  },
-  {
     city: "Boston",
     state: "MA",
     region: "MA",
@@ -387,16 +247,6 @@ export const cities: City[] = [
     subtitle: "Cradle of Liberty",
     quote:
       "In the city where freedom found its voice, we walked the path of revolutionaries, our hearts ignited by the stories of courage and conviction that shaped a nation.",
-  },
-  {
-    city: "Budapest",
-    state: "",
-    region: "Central Hungary",
-    country: "Hungary",
-    isPopular: true,
-    subtitle: "Pearl of the Danube",
-    quote:
-      "As the sun dipped below the horizon, the Danube unveiled its shimmering gown, and we were swept away by the romantic melodies and breathtaking views that define Budapest's timeless charm.",
   },
   {
     city: "Buenos Aires",
