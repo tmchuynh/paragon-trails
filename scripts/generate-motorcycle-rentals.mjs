@@ -857,6 +857,8 @@ function generateMotorcycle(cityName, index) {
   }
 
   const rentalPricePerDay = Math.floor(Math.random() * 150) + 50; // $50-$200
+  const depositMultiplier = Math.floor(Math.random() * 3) + 2; // 2-4x daily rate
+  const depositAmount = rentalPricePerDay * depositMultiplier;
   const available = Math.random() > 0.3; // 70% available
   const location =
     pickupLocations[Math.floor(Math.random() * pickupLocations.length)];
@@ -891,12 +893,12 @@ function generateMotorcycle(cityName, index) {
     hasStorage,
     features,
     rentalPricePerDay,
+    depositAmount,
     currency, // Location-based currency
     available,
     pickUpCity: `${formatKebebToTitleCase(cityName)}`,
     pickUpCountry: country,
     pickUpLocation,
-    // Only include drop-off properties if they're different from pick-up
     ...(hasDifferentDropOff
       ? {
           dropOffCity,
@@ -904,7 +906,6 @@ function generateMotorcycle(cityName, index) {
           dropOffLocation,
         }
       : {}),
-    imageUrl: `https://images.unsplash.com/${type}/${make.toLowerCase().replace(/\s+/g, "-")}-${model.toLowerCase().replace(/\s+/g, "-")}.jpg`,
     requirements,
   };
 }
