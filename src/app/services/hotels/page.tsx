@@ -863,7 +863,12 @@ function HotelCard({
         <CardDescription>
           {formattedCity} • {hotel.accommodationType}
         </CardDescription>
-        {displayRatingStars(hotel.rating)}
+        {displayRatingStars(hotel.rating, 5, {
+          size: "md",
+          showRatingNumber: false,
+          containerClassName: "mt-1",
+          align: "left",
+        })}
       </CardHeader>
       <CardContent className="flex-grow">
         <div className="space-y-2">
@@ -901,24 +906,25 @@ function HotelCard({
             </div>
           </div>
 
-          <Separator className="my-3" />
-
           {/* Display up to 5 amenities */}
-          <div>
-            <h5 className="mb-2 font-medium">Amenities</h5>
-            <div className="flex flex-wrap gap-1">
-              {hotel.amenities?.slice(0, 5).map((amenity) => (
-                <Badge key={amenity} variant="outline" className="text-xs">
-                  {amenity}
-                </Badge>
-              ))}
-              {(hotel.amenities?.length || 0) > 5 && (
-                <Badge variant="outline" className="text-xs">
-                  +{(hotel.amenities?.length || 0) - 5} more
-                </Badge>
-              )}
+          {hotel.amenities && hotel.amenities.length > 0 && (
+            <div>
+              <Separator className="my-3" />
+              <h5 className="mb-2 font-medium">Amenities</h5>
+              <div className="flex flex-wrap gap-1">
+                {hotel.amenities?.slice(0, 5).map((amenity) => (
+                  <Badge key={amenity} variant="outline" className="text-xs">
+                    {amenity}
+                  </Badge>
+                ))}
+                {(hotel.amenities?.length || 0) > 5 && (
+                  <Badge variant="outline" className="text-xs">
+                    +{(hotel.amenities?.length || 0) - 5} more
+                  </Badge>
+                )}
+              </div>
             </div>
-          </div>
+          )}
         </div>
       </CardContent>
       <CardFooter>
