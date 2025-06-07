@@ -1,4 +1,3 @@
-// Map cities to their respective countries
 export const cityCountryMap = {
   "amalfi-coast": "Italy",
   auckland: "New Zealand",
@@ -74,7 +73,6 @@ export const cityCountryMap = {
   oslo: "Norway",
 };
 
-// Map cities to their cruising regions
 export const cityToRegionMap = {
   "amalfi-coast": "Mediterranean",
   auckland: "Asia Pacific",
@@ -151,7 +149,6 @@ export const cityToRegionMap = {
   oslo: "Northern Europe",
 };
 
-// Geographic coordinates for cities
 export const cityCoordinates = {
   "amalfi-coast": { latitude: 40.634, longitude: 14.602 },
   auckland: { latitude: -36.848461, longitude: 174.763336 },
@@ -227,7 +224,6 @@ export const cityCoordinates = {
   oslo: { latitude: 59.9139, longitude: 10.7522 },
 };
 
-// Popular cruise destinations by region
 export const regionalDestinations = {
   Caribbean: [
     "Nassau",
@@ -316,7 +312,7 @@ export const regionalDestinations = {
   "Western Europe": ["Paris", "Los Angeles", "San Francisco"],
 };
 
-const currencies = [
+export const currenciesMap = [
   { code: "USD", symbol: "$", name: "US Dollar", country: "United States" },
   { code: "CAD", symbol: "C$", name: "Canadian Dollar", country: "Canada" },
   {
@@ -392,7 +388,6 @@ const currencies = [
   { code: "COP", symbol: "$", name: "Colombian Peso", country: "Colombia" },
   { code: "CLP", symbol: "$", name: "Chilean Peso", country: "Chile" },
 
-  // Eurozone countries
   { code: "EUR", symbol: "€", name: "Euro", country: "Germany" },
   { code: "EUR", symbol: "€", name: "Euro", country: "France" },
   { code: "EUR", symbol: "€", name: "Euro", country: "Italy" },
@@ -406,7 +401,6 @@ const currencies = [
   { code: "EUR", symbol: "€", name: "Euro", country: "Finland" },
   { code: "EUR", symbol: "€", name: "Euro", country: "Croatia" },
 
-  // Additional currencies (to match countryCurrencyMap)
   { code: "CHF", symbol: "Fr", name: "Swiss Franc", country: "Switzerland" },
   { code: "SEK", symbol: "kr", name: "Swedish Krona", country: "Sweden" },
   { code: "NOK", symbol: "kr", name: "Norwegian Krone", country: "Norway" },
@@ -422,7 +416,6 @@ const currencies = [
   { code: "HUF", symbol: "Ft", name: "Hungarian Forint", country: "Hungary" },
   { code: "TRY", symbol: "₺", name: "Turkish Lira", country: "Turkey" },
 ];
-
 
 export const countryCurrencyMap = {
   "United States": "USD",
@@ -465,7 +458,6 @@ export const countryCurrencyMap = {
   Hungary: "HUF",
   Turkey: "TRY",
 
-  // Eurozone countries
   Germany: "EUR",
   France: "EUR",
   Italy: "EUR",
@@ -480,8 +472,6 @@ export const countryCurrencyMap = {
   Croatia: "EUR",
 };
 
-
-
 export const euroCountries = [
   "Germany",
   "France",
@@ -495,13 +485,115 @@ export const euroCountries = [
   "Malta",
   "Finland",
   "Croatia",
-  "Denmark", // Note: Denmark has its own currency (DKK) but we'll use EUR for simplicity
+  "Denmark",
 ];
 
 export const regionCurrencyMap = {
   Caribbean: "USD",
   Mediterranean: "EUR",
   "Northern Europe": "EUR",
-  "Asia Pacific": "USD", // Default, will be overridden by country
-  "South America": "USD", // Default, will be overridden by country
+  "Asia Pacific": "USD",
+  "South America": "USD",
+};
+
+export const countryLanguagesMap = {
+  "United States": ["English", "Spanish"],
+  Canada: ["English", "French"],
+  "United Kingdom": ["English"],
+  Ireland: ["English", "Irish"],
+  Australia: ["English"],
+  "New Zealand": ["English", "Māori"],
+  Mexico: ["Spanish"],
+  Brazil: ["Portuguese"],
+  Argentina: ["Spanish"],
+  Colombia: ["Spanish"],
+  Chile: ["Spanish"],
+  Peru: ["Spanish", "Quechua"],
+  Uruguay: ["Spanish"],
+  Honduras: ["Spanish"],
+  Bahamas: ["English"],
+  "Cayman Islands": ["English"],
+  Bermuda: ["English"],
+  "Puerto Rico": ["Spanish", "English"],
+  "U.S. Virgin Islands": ["English"],
+  "Sint Maarten": ["Dutch", "English"],
+  "United Arab Emirates": ["Arabic", "English"],
+  India: ["Hindi", "English"],
+  China: ["Mandarin"],
+  Japan: ["Japanese"],
+  "South Korea": ["Korean"],
+  Singapore: ["English", "Mandarin", "Malay", "Tamil"],
+  Thailand: ["Thai"],
+  Vietnam: ["Vietnamese"],
+  Indonesia: ["Indonesian"],
+  Russia: ["Russian"],
+  "South Africa": ["Zulu", "Xhosa", "Afrikaans", "English", "Others"],
+  Germany: ["German"],
+  France: ["French"],
+  Spain: ["Spanish", "Catalan", "Basque", "Galician"],
+  Portugal: ["Portuguese"],
+  Italy: ["Italian"],
+  Greece: ["Greek"],
+  Netherlands: ["Dutch"],
+  Malta: ["Maltese", "English"],
+  Finland: ["Finnish", "Swedish"],
+  Croatia: ["Croatian"],
+  Denmark: ["Danish"],
+  Norway: ["Norwegian"],
+  Sweden: ["Swedish"],
+  Switzerland: ["German", "French", "Italian", "Romansh"],
+  Poland: ["Polish"],
+  Hungary: ["Hungarian"],
+  Turkey: ["Turkish"],
+  Philippines: ["Filipino", "English"],
+  Malaysia: ["Malay", "English"],
+  Egypt: ["Arabic"],
+  Morocco: ["Arabic", "Berber", "French"],
+  Israel: ["Hebrew", "Arabic"],
+};
+
+export const currencyRates = {
+  USD: 1,
+  EUR: 0.93,
+  GBP: 0.79,
+  JPY: 150.5,
+  AUD: 1.52,
+  CAD: 1.36,
+  CNY: 7.22,
+  CHF: 0.9,
+  SEK: 10.65,
+  NOK: 10.5,
+  DKK: 6.95,
+  NZD: 1.61,
+  INR: 83.2,
+  MXN: 17.1,
+  BRL: 5.25,
+  ZAR: 18.6,
+  KRW: 1380,
+  SGD: 1.35,
+  HKD: 7.82,
+  AED: 3.67,
+  THB: 36.1,
+  TRY: 32.5,
+  IDR: 15800,
+  PHP: 57.9,
+  PLN: 3.96,
+  HUF: 364,
+  ARS: 250.0,
+  ANG: 1.8,
+  BMD: 1,
+  BSD: 1,
+  COP: 4700,
+  CLP: 820,
+  KYD: 0.83,
+  HNL: 24.5,
+  PEN: 3.8,
+  UYU: 40.2,
+
+  VND: 24000,
+  RUB: 78.5,
+  DKK: 6.95,
+  CHF: 0.9,
+  NOK: 10.5,
+  SEK: 10.65,
 };
