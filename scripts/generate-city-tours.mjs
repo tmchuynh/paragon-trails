@@ -37,9 +37,16 @@ import {
   formatKebabToCamelCase,
   formatTitleToCamelCase,
   removeAccents,
-  formatTimeTo24HourClock,
+  formatTimeTo12HourClock,
 } from "./utils/format-utils.mjs";
-import { cityCountryMap, cityToRegionMap } from "./utils/geo-utils.mjs";
+import {
+  cityCountryMap,
+  cityToRegionMap,
+  countryCurrencyMap,
+  currenciesMap,
+  countryLanguagesMap,
+  currencyRates,
+} from "./utils/geo-utils.mjs";
 import {
   createObjectParser,
   extractObjectsFromFile,
@@ -98,6 +105,254 @@ function parseCommandLineArgs() {
 }
 
 const options = parseCommandLineArgs();
+
+const tourThemeToTitleMap = {
+  Adventure: [
+    "Thrilling Adventure Expedition",
+    "Extreme Adventure Challenge",
+    "Outdoor Adventure Experience",
+    "Adventure Seeker's Journey",
+    "Ultimate Adventure Tour",
+  ],
+  Art: [
+    "Artistic Heritage Tour",
+    "Gallery & Studio Exploration",
+    "Contemporary Art Journey",
+    "Art History Discovery",
+    "Local Artists Showcase",
+  ],
+  Architecture: [
+    "Architectural Marvels Tour",
+    "Historic Buildings Journey",
+    "Urban Design Exploration",
+    "Architectural Photography Tour",
+    "Famous Structures Walk",
+  ],
+  Beach: [
+    "Coastal Paradise Tour",
+    "Hidden Beaches Expedition",
+    "Seaside Relaxation Journey",
+    "Beach Hopping Adventure",
+    "Sunset Beach Experience",
+  ],
+  Culture: [
+    "Cultural Immersion Experience",
+    "Local Traditions Tour",
+    "Cultural Heritage Journey",
+    "Authentic Cultural Discovery",
+    "Indigenous Culture Experience",
+  ],
+  Culinary: [
+    "Gourmet Tasting Tour",
+    "Chef's Table Experience",
+    "Cooking Class & Food Tour",
+    "Culinary Masterclass Journey",
+    "Food Connoisseur's Tour",
+  ],
+  "Food & Drink": [
+    "Local Delicacies Tasting",
+    "Street Food Safari",
+    "Food & Beverage Pairing Tour",
+    "Gastronomic Adventure",
+    "Food Market Exploration",
+  ],
+  Historical: [
+    "Historic Landmarks Tour",
+    "Ancient Ruins Expedition",
+    "History Buff's Journey",
+    "Heritage Site Discovery",
+    "Historical Significance Tour",
+  ],
+  Hiking: [
+    "Scenic Trails Expedition",
+    "Mountain Hiking Adventure",
+    "Nature Trek Experience",
+    "Wilderness Hiking Tour",
+    "Panoramic Hiking Journey",
+  ],
+  "Local Life": [
+    "Authentic Local Experience",
+    "Day in the Life Tour",
+    "Local Neighborhood Walk",
+    "Community Immersion Journey",
+    "Off the Tourist Path Tour",
+  ],
+  "Nature & Wildlife": [
+    "Wildlife Safari Experience",
+    "Biodiversity Discovery Tour",
+    "Nature Reserve Expedition",
+    "Wild Animal Spotting Tour",
+    "Natural Habitat Journey",
+  ],
+  Nightlife: [
+    "After Dark Experience",
+    "Nightclub Hopping Tour",
+    "Evening Entertainment Journey",
+    "City Lights Night Tour",
+    "Vibrant Nightlife Adventure",
+  ],
+  Photography: [
+    "Perfect Shot Tour",
+    "Photography Masterclass",
+    "Scenic Photo Expedition",
+    "Instagram-Worthy Spots Tour",
+    "Professional Photography Journey",
+  ],
+  Religious: [
+    "Sacred Sites Pilgrimage",
+    "Religious Heritage Tour",
+    "Temple & Shrine Journey",
+    "Spiritual Landmarks Exploration",
+    "Religious History Discovery",
+  ],
+  Shopping: [
+    "Luxury Shopping Experience",
+    "Local Crafts & Markets Tour",
+    "Boutique Discovery Journey",
+    "Artisan Shopping Adventure",
+    "Souvenir Hunter's Tour",
+  ],
+  Sightseeing: [
+    "Must-See Attractions Tour",
+    "City Highlights Experience",
+    "Panoramic City Tour",
+    "Landmark Discovery Journey",
+    "Iconic Sites Expedition",
+  ],
+  Spiritual: [
+    "Spiritual Awakening Journey",
+    "Meditation & Mindfulness Tour",
+    "Spiritual Heritage Experience",
+    "Soul-Searching Retreat",
+    "Ancient Wisdom Discovery",
+  ],
+  Sports: [
+    "Sports Enthusiast Tour",
+    "Stadium & Arena Experience",
+    "Olympic Heritage Journey",
+    "Sports History Discovery",
+    "Athletic Legacy Tour",
+  ],
+  Wellness: [
+    "Rejuvenation & Spa Experience",
+    "Holistic Wellness Journey",
+    "Health & Wellness Discovery",
+    "Mind-Body Balance Tour",
+    "Natural Healing Experience",
+  ],
+  "Wine & Spirits": [
+    "Wine Tasting Experience",
+    "Vineyard & Winery Tour",
+    "Craft Spirits Journey",
+    "Sommelier's Selection Tour",
+    "Wine Region Discovery",
+  ],
+  Scenic: [
+    "Breathtaking Views Tour",
+    "Scenic Lookout Journey",
+    "Picturesque Landscape Experience",
+    "Panoramic Vista Expedition",
+    "Natural Beauty Discovery",
+  ],
+  Festival: [
+    "Festival Celebration Experience",
+    "Cultural Festival Tour",
+    "Seasonal Festival Journey",
+    "Traditional Festivities Tour",
+    "Festival Behind-the-Scenes",
+  ],
+  Music: [
+    "Musical Heritage Tour",
+    "Live Music Experience",
+    "Music Venue Exploration",
+    "Sound & Culture Journey",
+    "Famous Musicians Trail",
+  ],
+  Luxury: [
+    "VIP Luxury Experience",
+    "Exclusive Access Tour",
+    "Premium Services Journey",
+    "Five-Star Experience",
+    "Luxury Lifestyle Tour",
+  ],
+  Eco: [
+    "Sustainable Eco Tour",
+    "Conservation Experience",
+    "Eco-Friendly Discovery",
+    "Green Tourism Journey",
+    "Environmental Learning Tour",
+  ],
+  Family: [
+    "Family Fun Adventure",
+    "Kid-Friendly Exploration",
+    "All-Ages Experience",
+    "Family Memory-Making Tour",
+    "Interactive Family Journey",
+  ],
+  Solo: [
+    "Solo Traveler's Discovery",
+    "Independent Explorer Tour",
+    "Solo Adventure Experience",
+    "Self-Guided Journey",
+    "Personal Discovery Tour",
+  ],
+  Romantic: [
+    "Couples Retreat Experience",
+    "Romantic Getaway Tour",
+    "Honeymoon Special Journey",
+    "Intimate Discovery Tour",
+    "Love Story Experience",
+  ],
+  "LGBTQ+ Friendly": [
+    "Pride History Tour",
+    "LGBTQ+ Heritage Experience",
+    "Queer Culture Discovery",
+    "Pride Landmarks Journey",
+    "LGBTQ+ Community Exploration",
+  ],
+  "Off the Beaten Path": [
+    "Hidden Gems Discovery",
+    "Secret Spots Tour",
+    "Unexplored Territories Journey",
+    "Local Secrets Experience",
+    "Beyond The Guidebook Tour",
+  ],
+  Educational: [
+    "Learning Adventure Tour",
+    "Academic Insights Journey",
+    "Educational Exploration",
+    "Interactive Learning Experience",
+    "Knowledge Discovery Tour",
+  ],
+  Volunteer: [
+    "Meaningful Impact Experience",
+    "Community Service Tour",
+    "Volunteer Opportunity Journey",
+    "Give-Back Adventure",
+    "Social Impact Discovery",
+  ],
+  "Cruise Stop": [
+    "Port Highlight Experience",
+    "Shore Excursion Tour",
+    "Port-of-Call Journey",
+    "Day in Port Adventure",
+    "Cruise Passenger's Special",
+  ],
+  "Local Market": [
+    "Market Explorer Tour",
+    "Vendor & Stall Journey",
+    "Bargain Hunter's Experience",
+    "Market Treasures Discovery",
+    "Farmer's Market Tour",
+  ],
+  "Street Food": [
+    "Street Food Tasting Adventure",
+    "Local Street Eats Tour",
+    "Food Cart Expedition",
+    "Street Cuisine Journey",
+    "Food Vendor Discovery",
+  ],
+};
 
 // Arrays for random data generation
 const tourTitles = [
@@ -937,18 +1192,9 @@ const weekDays = [
   "Sunday",
 ];
 
-const currencies = [
-  { code: "USD", symbol: "$" },
-  { code: "EUR", symbol: "€" },
-  { code: "GBP", symbol: "£" },
-  { code: "JPY", symbol: "¥" },
-  { code: "CAD", symbol: "C$" },
-  { code: "AUD", symbol: "A$" },
-];
-
 // Load tour guides for a city - moved up before it's called
 async function loadCityGuides(city) {
-  const formattedName = formatKebabToCamelCase(removeAccents(city));
+  const formattedName = removeAccents(city);
 
   const guidesPath = path.join(
     process.cwd(),
@@ -957,7 +1203,7 @@ async function loadCityGuides(city) {
     "constants",
     "staff",
     "guides",
-    `${formattedName}.ts`,
+    `${formattedName}.ts`
   );
 
   try {
@@ -996,15 +1242,15 @@ async function loadCityAttractions(city) {
     "lib",
     "constants",
     "destinations",
-    "city",
-    `${formattedName}.ts`,
+    "city-attractions",
+    `${formattedName}.ts`
   );
 
   try {
     await access(attractionsPath);
   } catch {
     console.log(
-      `No attractions file found for ${city}. Using placeholder attraction IDs.`,
+      `No attractions file found for ${city}. Using placeholder attraction IDs.`
     );
     return Array.from({ length: 5 }, (_, i) => ({
       id: `attraction-${removeAccents(city).toLowerCase().replace(/\s+/g, "-")}-${i + 1}`,
@@ -1050,7 +1296,7 @@ function generateSchedules(attractions) {
 
     // Select a random attraction (without replacement)
     const attractionIndex = Math.floor(
-      Math.random() * availableAttractions.length,
+      Math.random() * availableAttractions.length
     );
     const attraction = availableAttractions.splice(attractionIndex, 1)[0];
 
@@ -1067,7 +1313,7 @@ function generateSchedules(attractions) {
       (s) =>
         s.dayOfWeek === dayOfWeek &&
         s.startTime === startTime &&
-        s.endTime === endTime,
+        s.endTime === endTime
     );
 
     if (!existing) {
@@ -1159,17 +1405,98 @@ function generateTour(city, index, guides) {
   // Generate schedule
   const schedule = generateSchedules();
 
-  // Generate pricing details
-  const currencyIndex = Math.floor(Math.random() * currencies.length);
-  const currency = currencies[currencyIndex].code;
-  const currencySymbol = currencies[currencyIndex].symbol;
+  // --- Currency selection based on country ---
+  let currencyCode = countryCurrencyMap[countryName] || "USD";
+  let currencyObj = currenciesMap.find(
+    (c) => c.code === currencyCode && c.country === countryName
+  ) ||
+    currenciesMap.find((c) => c.code === currencyCode) || {
+      code: "USD",
+      symbol: "$",
+    };
+  const currency = currencyObj.code;
+  const currencySymbol = currencyObj.symbol;
 
-  const pricePerPerson = Math.floor(Math.random() * 150) + 35;
+  // --- Price range logic based on city/country ---
+  // Example: expensive cities/countries
+  const expensiveCities = [
+    "paris",
+    "london",
+    "new-york-city",
+    "tokyo",
+    "singapore",
+    "sydney",
+    "dubai",
+    "amsterdam",
+    "berlin",
+    "san-francisco",
+    "los-angeles",
+    "hong-kong",
+  ];
+  const cheapCities = [
+    "bangkok",
+    "ho-chi-minh-city",
+    "lima",
+    "hanoi",
+    "bali",
+    "istanbul",
+    "athens",
+    "lisbon",
+    "rio-de-janeiro",
+    "cape-town",
+  ];
+  let basePriceMin = 35,
+    basePriceMax = 185;
+  if (expensiveCities.includes(city.toLowerCase())) {
+    basePriceMin = 80;
+    basePriceMax = 350;
+  } else if (cheapCities.includes(city.toLowerCase())) {
+    basePriceMin = 15;
+    basePriceMax = 60;
+  }
+  // Generate a base price in USD
+  const basePriceUSD =
+    Math.floor(Math.random() * (basePriceMax - basePriceMin + 1)) +
+    basePriceMin;
+
+  // --- Currency conversion using currencyRates ---
+  const rate = currencyRates[currency] || 1;
+  let localPrice = basePriceUSD * rate;
+  // Round price for local conventions
+  if (
+    currency === "JPY" ||
+    currency === "KRW" ||
+    currency === "VND" ||
+    currency === "IDR" ||
+    currency === "HUF" ||
+    currency === "CLP" ||
+    currency === "COP" ||
+    currency === "ARS"
+  ) {
+    localPrice = Math.round(localPrice / 100) * 100; // round to nearest 100
+  } else if (currency === "ISK") {
+    localPrice = Math.round(localPrice / 10) * 10;
+  } else if (
+    currency === "USD" ||
+    currency === "CAD" ||
+    currency === "AUD" ||
+    currency === "NZD" ||
+    currency === "EUR" ||
+    currency === "GBP" ||
+    currency === "CHF" ||
+    currency === "SGD" ||
+    currency === "HKD"
+  ) {
+    localPrice = Math.round(localPrice);
+  } else {
+    localPrice = Math.round(localPrice * 100) / 100; // 2 decimals for others
+  }
+  const pricePerPerson = localPrice;
   const price = `${currencySymbol}${pricePerPerson}`;
 
   // Generate group size details
-  const maxGroupSize = Math.floor(Math.random() * 15) + 10; // 10-20
-  const minGroupSize = Math.floor(Math.random() * 3) + 1; // 1-3
+  const maxGroupSize = Math.floor(Math.random() * 30) + 20; // 20-50
+  const minGroupSize = Math.floor(Math.random() * 10) + 5; // 5-15
 
   // Generate included and not included items
   const numIncluded = Math.floor(Math.random() * 5) + 3; // 3-7 items
@@ -1212,25 +1539,23 @@ function generateTour(city, index, guides) {
     )
   );
 
-  // Generate languages offered
-  const languages = ["English"];
-  const additionalLangs = Math.floor(Math.random() * 2);
-  const possibleLangs = [
-    "Spanish",
-    "French",
-    "German",
-    "Italian",
-    "Japanese",
-    "Mandarin",
-    "Arabic",
-  ];
-
-  for (let i = 0; i < additionalLangs; i++) {
-    const lang =
-      possibleLangs[Math.floor(Math.random() * possibleLangs.length)];
-    if (!languages.includes(lang)) {
-      languages.push(lang);
-    }
+  // --- Languages offered based on countryLanguagesMap ---
+  let countryLangs = countryLanguagesMap[countryName] || ["English"];
+  // Always include English if available, then randomly add up to 2 more from the country's languages
+  const languages = [];
+  if (countryLangs.includes("English")) languages.push("English");
+  // Add up to 2 more unique languages from the country's list
+  const otherLangs = countryLangs.filter((l) => l !== "English");
+  const numAdditionalLangs = Math.min(
+    otherLangs.length,
+    Math.floor(Math.random() * 3)
+  );
+  for (let i = 0; i < numAdditionalLangs; i++) {
+    // Pick a random language not already in the list
+    const available = otherLangs.filter((l) => !languages.includes(l));
+    if (available.length === 0) break;
+    const lang = available[Math.floor(Math.random() * available.length)];
+    languages.push(lang);
   }
 
   // Generate cancellation policy
@@ -1363,7 +1688,7 @@ async function generateCityTourFile(city) {
   const formattedCountry = formatTitleToCamelCase(removeAccents(countryName));
   const formattedRegion = formatTitleToCamelCase(removeAccents(regionName));
 
-  const formattedName = formatKebabToCamelCase(removeAccents(city));
+  const formattedName = removeAccents(city);
 
   const variableName = `${formattedName}${formattedCountry}${formattedRegion}Tours`;
 
@@ -1383,7 +1708,7 @@ async function generateCityTourFile(city) {
       tours = await extractExistingTours(filePath);
     } else {
       console.log(
-        `File already exists (use --rewrite to replace): ${filePath}`,
+        `File already exists (use --rewrite to replace): ${filePath}`
       );
       return;
     }
@@ -1414,7 +1739,10 @@ async function generateCityTourFile(city) {
   tours = tours.concat(newTours);
 
   // Create file content with proper formatting
-  let content = `import { Tour } from "@/lib/interfaces/services/tours";\n\n`;
+  let content = `// Auto-generated file for ${city} tours\n`;
+  content += `// Country: ${countryName}, Region: ${regionName}\n\n`;
+  content += `// This file is auto-generated. Do not edit manually.\n`;
+  content += `import { Tour } from "@/lib/interfaces/services/tours";\n\n`;
   content += `export const ${variableName.replaceAll(".", "")}: Tour[] = [\n`;
   tours.forEach((tour, index) => {
     content += `  {\n`;
@@ -1422,118 +1750,63 @@ async function generateCityTourFile(city) {
       if (typeof value === "string") {
         content += `    ${key}: "${value}",\n`;
       } else if (Array.isArray(value)) {
-        if (value.length > 0 && typeof value[0] === "object") {
-          // Handle schedule array of objects
+        if (value.length === 0) {
+          content += `    ${key}: [],\n`;
+        } else {
           content += `    ${key}: [\n`;
           value.forEach((item, i) => {
-            content += `      {\n`;
-            for (const [subKey, subValue] of Object.entries(item)) {
-              content += `        ${subKey}: "${subValue}",\n`;
+            if (typeof item === "string") {
+              content += `      "${item}",\n`;
+            } else if (typeof item === "object" && item !== null) {
+              content += `      {\n`;
+              for (const [subKey, subValue] of Object.entries(item)) {
+                content += `        ${subKey}: "${subValue}",\n`;
+              }
+              content += `      },\n`;
             }
-            content += `      }${i < value.length - 1 ? "," : ""}\n`;
           });
           content += `    ],\n`;
-        } else {
-          // Handle regular string arrays
-          content += `    ${key}: [${value
-            .map((item) => `"${item}"`)
-            .join(", ")}],\n`;
         }
-      } else if (typeof value === "number" || typeof value === "boolean") {
+      } else if (typeof value === "object" && value !== null) {
+        content += `    ${key}: {\n`;
+        for (const [subKey, subValue] of Object.entries(value)) {
+          content += `      ${subKey}: "${subValue}",\n`;
+        }
+        content += `    },\n`;
+      } else {
         content += `    ${key}: ${value},\n`;
-      } else if (value === null) {
-        content += `    ${key}: null,\n`;
-      } else if (value === undefined) {
-        // Skip undefined values
-      } else {
-        content += `    ${key}: ${JSON.stringify(value)},\n`;
       }
     }
-    content += `  }${index < tours.length - 1 ? "," : ""}\n`;
+    content += `  },${index < tours.length - 1 ? "\n" : ""}`;
   });
+  content += `\n];\n`;
 
-  content += `];\n`;
-
-  // Write file
+  // Write the file
   await writeFile(filePath, content);
-  console.log(
-    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`,
-  );
+  console.log(`Tour data written to: ${filePath}`);
 }
 
-// Main function to process all cities
-async function generateAllCityTourFiles() {
-  let citiesToProcess = cities;
+// Main script execution
+async function main() {
+  console.log("City Tours Generator - Starting tour generation process...\n");
 
-  // Filter by city name if specified
-  if (options.cityFilter) {
-    const filterLower = options.cityFilter
-      .toLowerCase()
-      .replace(/[^a-z0-9]/g, "");
+  // Create destination directory if not exists
+  const destDir = path.join(process.cwd(), "src", "lib", "constants", "tours");
+  await ensureDirectoryExists(destDir);
 
-    // More flexible matching - strip non-alphanumeric characters for comparison
-    citiesToProcess = cities.filter((city) =>
-      city
-        .toLowerCase()
-        .replace(/[^a-z0-9]/g, "")
-        .includes(filterLower),
-    );
+  // Process each city
+  for (const city of cities) {
+    console.log(`Processing tours for ${city}...`);
 
-    if (citiesToProcess.length === 0) {
-      console.log(`No cities found matching: ${options.cityFilter}`);
-      console.log("\nAvailable cities (showing up to 10):");
+    await generateCityTourFile(city);
 
-      // Show possible matches to help the user
-      const possibleMatches = cities
-        .filter((city) =>
-          city
-            .toLowerCase()
-            .includes(options.cityFilter.toLowerCase().split(/[ -]/).join("")),
-        )
-        .slice(0, 10);
-
-      if (possibleMatches.length > 0) {
-        console.log("Did you mean one of these?");
-        possibleMatches.forEach((city) => console.log(`- "${city}"`));
-      } else {
-        // Show some random cities to help the user understand the format
-        console.log("Some available cities (examples):");
-        cities.slice(0, 10).forEach((city) => console.log(`- "${city}"`));
-      }
-      return;
-    }
-
-    console.log(
-      `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`,
-    );
+    console.log(`Tours for ${city} processed successfully.\n`);
   }
 
-  for (const city of citiesToProcess) {
-    try {
-      await generateCityTourFile(city);
-    } catch (error) {
-      console.error(`Error generating file for ${city}:`, error);
-    }
-  }
+  console.log("City Tours Generator - Tour generation process completed.");
 }
 
-// Execute the script
-generateAllCityTourFiles()
-  .then(() => console.log("City tour files generated successfully!"))
-  .catch((error) => console.error("Error generating city tour files:", error));
-
-// Print usage information
-console.log(`
-Usage: node scripts/generate-city-tours.mjs [options]
-
-Options:
-  --rewrite, -r             Rewrite existing files instead of skipping them
-  --append N, -a N          Append N new tours to existing files
-  --city C, -c C            Process only cities matching the search term
-  --guide-count X, -g X     Specify how many guides to attempt to link per city (default: 3)
-
-Examples:
-  node scripts/generate-city-tours.mjs --rewrite
-  node scripts/generate-city-tours.mjs --append 3
-  node scripts/generate-city-tours.mjs --city "Paris" --guide-count 5
-`);
+main().catch((error) => {
+  console.error("Error during tour generation:", error);
+  process.exit(1);
+});
