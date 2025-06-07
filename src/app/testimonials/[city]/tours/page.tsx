@@ -47,10 +47,11 @@ export default function TourTestimonialsForCityPage() {
   const [pageSize, setPageSize] = useState(9);
   const [sortField, setSortField] = useState<string>("date");
   const [sortDirection, setSortDirection] = useState<"asc" | "desc">("desc");
-  const [minRatingFilter, setMinRatingFilter] = useState<number | null>(null);
-  const [tourFilter, setTourFilter] = useState<string | null>(null);
-  const [guideFilter, setGuideFilter] = useState<string | null>(null);
 
+  // Enhanced filters
+  const [minRatingFilter, setMinRatingFilter] = useState<number | null>(null);
+  const [startDateFilter, setStartDateFilter] = useState<string | null>(null);
+  const [endDateFilter, setEndDateFilter] = useState<string | null>(null);
   const cityName = formatKebabToTitle(city);
 
   useEffect(() => {
@@ -72,20 +73,22 @@ export default function TourTestimonialsForCityPage() {
   useEffect(() => {
     // Apply filters
     const filtered = testimonials.filter((testimonial) => {
+      // Rating filter
       if (minRatingFilter !== null && testimonial.rating < minRatingFilter)
         return false;
-      if (
-        tourFilter &&
-        testimonial.author &&
-        !testimonial.author.toLowerCase().includes(tourFilter.toLowerCase())
-      )
+
+      // Date range filter
+      if (testimonial.date) {
+        const testimonialDate = new Date(testimonial.date);
+        if (startDateFilter && new Date(startDateFilter) > testimonialDate)
+          return false;
+        if (endDateFilter && new Date(endDateFilter) < testimonialDate)
+          return false;
+      } else if (startDateFilter || endDateFilter) {
+        // If we're filtering by date and this testimonial has no date, exclude it
         return false;
-      if (
-        guideFilter &&
-        testimonial.quote &&
-        !testimonial.quote.toLowerCase().includes(guideFilter.toLowerCase())
-      )
-        return false;
+      }
+
       return true;
     });
 
@@ -99,10 +102,6 @@ export default function TourTestimonialsForCityPage() {
         return sortDirection === "asc"
           ? a.rating - b.rating
           : b.rating - a.rating;
-      } else if (sortField === "author") {
-        return sortDirection === "asc"
-          ? a.author.localeCompare(b.author)
-          : b.author.localeCompare(a.author);
       }
       return 0;
     });
@@ -112,8 +111,8 @@ export default function TourTestimonialsForCityPage() {
   }, [
     testimonials,
     minRatingFilter,
-    tourFilter,
-    guideFilter,
+    startDateFilter,
+    endDateFilter,
     sortField,
     sortDirection,
   ]);
@@ -147,8 +146,8 @@ export default function TourTestimonialsForCityPage() {
   // Reset filters function
   const resetFilters = () => {
     setMinRatingFilter(null);
-    setTourFilter(null);
-    setGuideFilter(null);
+    setStartDateFilter(null);
+    setEndDateFilter(null);
     setSortField("date");
     setSortDirection("desc");
   };
@@ -268,10 +267,10 @@ export default function TourTestimonialsForCityPage() {
             </Link>{" "}
             or reading{" "}
             <Link
-              href={`/testimonials/${city}`}
+              href={`/experiences-through-destinations/${city}?city=${city}`}
               className="font-medium underline underline-offset-4"
             >
-              general testimonials about {cityName}
+              learn more about {cityName}
             </Link>
             .
           </p>
@@ -373,56 +372,6 @@ export default function TourTestimonialsForCityPage() {
                 </Button>
               </div>
 
-              {/* Tour Filter */}
-              {uniqueTours.length > 0 && (
-                <div className="space-y-2">
-                  <h5>Tour</h5>
-                  <Select
-                    value={tourFilter || "all"}
-                    onValueChange={(value) =>
-                      setTourFilter(value === "all" ? null : value)
-                    }
-                  >
-                    <SelectTrigger className="w-full">
-                      <SelectValue placeholder="Select Tour" />
-                    </SelectTrigger>
-                    <SelectContent>
-                      <SelectItem value="all">All Tours</SelectItem>
-                      {uniqueTours.map((tour) => (
-                        <SelectItem key={tour} value={tour}>
-                          {tour}
-                        </SelectItem>
-                      ))}
-                    </SelectContent>
-                  </Select>
-                </div>
-              )}
-
-              {/* Guide Filter */}
-              {uniqueGuides.length > 0 && (
-                <div className="space-y-2">
-                  <h5>Guide</h5>
-                  <Select
-                    value={guideFilter || "all"}
-                    onValueChange={(value) =>
-                      setGuideFilter(value === "all" ? null : value)
-                    }
-                  >
-                    <SelectTrigger className="w-full">
-                      <SelectValue placeholder="Select Guide" />
-                    </SelectTrigger>
-                    <SelectContent>
-                      <SelectItem value="all">All Guides</SelectItem>
-                      {uniqueGuides.map((guide) => (
-                        <SelectItem key={guide} value={guide}>
-                          {guide}
-                        </SelectItem>
-                      ))}
-                    </SelectContent>
-                  </Select>
-                </div>
-              )}
-
               {/* Rating Filter */}
               <div className="space-y-2">
                 <h5>Minimum Rating</h5>
@@ -444,6 +393,39 @@ export default function TourTestimonialsForCityPage() {
                     ))}
                   </SelectContent>
                 </Select>
+              </div>
+
+              {/* Date Range Filter */}
+              <div className="space-y-2">
+                <h5>Date Range</h5>
+                <div className="space-y-2">
+                  <div>
+                    <label htmlFor="start-date" className="text-sm">
+                      From
+                    </label>
+                    <input
+                      id="start-date"
+                      type="date"
+                      className="bg-background mt-1 px-3 py-2 border border-border rounded-md w-full"
+                      value={startDateFilter || ""}
+                      onChange={(e) =>
+                        setStartDateFilter(e.target.value || null)
+                      }
+                    />
+                  </div>
+                  <div>
+                    <label htmlFor="end-date" className="text-sm">
+                      To
+                    </label>
+                    <input
+                      id="end-date"
+                      type="date"
+                      className="bg-background mt-1 px-3 py-2 border border-border rounded-md w-full"
+                      value={endDateFilter || ""}
+                      onChange={(e) => setEndDateFilter(e.target.value || null)}
+                    />
+                  </div>
+                </div>
               </div>
 
               {/* Reset Button */}
