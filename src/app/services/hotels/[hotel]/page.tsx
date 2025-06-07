@@ -540,75 +540,11 @@ export default function HotelDetailsPage({
                 </div>
               </CardContent>
             </Card>
-
-            {/* Rooms */}
-            {rooms.length > 0 && (
-              <Card>
-                <CardHeader>
-                  <CardTitle>Room Options</CardTitle>
-                  <CardDescription>
-                    Available room types at {hotel.name}
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <div className="space-y-6">
-                    {rooms.map((room) => (
-                      <div
-                        key={room.id}
-                        className="p-4 border border-border rounded-lg"
-                      >
-                        <div className="flex md:flex-row flex-col justify-between md:items-center mb-4">
-                          <h3 className="font-bold">{room.name}</h3>
-                          <div className="flex items-center gap-2 mt-2 md:mt-0">
-                            <Badge variant="outline">
-                              {room.maxOccupancy} Guests
-                            </Badge>
-                            <Badge
-                              variant={
-                                room.availability > 5
-                                  ? "default"
-                                  : "destructive"
-                              }
-                            >
-                              {room.availability} Available
-                            </Badge>
-                          </div>
-                        </div>
-
-                        <p className="mb-3 text-gray-600">{room.description}</p>
-
-                        <div className="gap-4 grid grid-cols-1 sm:grid-cols-2 mb-4">
-                          <div>
-                            <h5 className="mb-2 font-medium">Room Details</h5>
-                            <p>
-                              <span className="font-medium">Size:</span>{" "}
-                              {room.squareFootage} sq ft
-                            </p>
-                            <p>
-                              <span className="font-medium">Bed Type:</span>{" "}
-                              {room.bedType}
-                            </p>
-                            <p>
-                              <span className="font-medium">Price:</span>{" "}
-                              {room.pricePerNight} {hotel.currency}
-                            </p>
-                          </div>
-                        </div>
-
-                        <Button className="w-full sm:w-auto">
-                          Book This Room
-                        </Button>
-                      </div>
-                    ))}
-                  </div>
-                </CardContent>
-              </Card>
-            )}
           </div>
         </div>
 
         {/* Sidebar */}
-        <div className="space-y-6">
+        <div className="flex flex-col gap-4 h-full">
           {/* Contact Information */}
           <Card>
             <CardHeader>
@@ -644,7 +580,7 @@ export default function HotelDetailsPage({
           </Card>
 
           {/* Hotel Quick Facts */}
-          <Card>
+          <Card className="flex flex-col justify-center h-full">
             <CardHeader>
               <CardTitle>Hotel Quick Facts</CardTitle>
             </CardHeader>
@@ -671,24 +607,6 @@ export default function HotelDetailsPage({
                   <span className="text-muted-foreground">Rooms Available</span>
                   <span className="font-medium">{hotel.roomsAvailable}</span>
                 </div>
-              </div>
-            </CardContent>
-          </Card>
-
-          {/* Map Placeholder */}
-          <Card>
-            <CardHeader>
-              <CardTitle>Location</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="flex justify-center items-center bg-muted rounded-md aspect-video">
-                <p className="text-center text-gray-500">
-                  Map view would be displayed here
-                  <br />
-                  <span className="text-sm">
-                    {hotel.address}, {cityName}
-                  </span>
-                </p>
               </div>
             </CardContent>
           </Card>
@@ -722,16 +640,19 @@ export default function HotelDetailsPage({
           <div>
             <Label htmlFor="bedType">Bed Type</Label>
             <Select
-              value={roomFilters.bedType ?? ""}
+              value={roomFilters.bedType ?? "all"}
               onValueChange={(val) =>
-                setRoomFilters((f) => ({ ...f, bedType: val || null }))
+                setRoomFilters((f) => ({
+                  ...f,
+                  bedType: val === "all" ? null : val,
+                }))
               }
             >
               <SelectTrigger className="w-32">
                 <SelectValue placeholder="Any" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="">Any</SelectItem>
+                <SelectItem value="all">Any</SelectItem>
                 {uniqueBedTypes.map((bed) => (
                   <SelectItem key={bed} value={bed}>
                     {bed}
@@ -762,16 +683,19 @@ export default function HotelDetailsPage({
           <div>
             <Label htmlFor="feature">Feature</Label>
             <Select
-              value={roomFilters.feature ?? ""}
+              value={roomFilters.feature ?? "all"}
               onValueChange={(val) =>
-                setRoomFilters((f) => ({ ...f, feature: val || null }))
+                setRoomFilters((f) => ({
+                  ...f,
+                  feature: val === "all" ? null : val,
+                }))
               }
             >
               <SelectTrigger className="w-32">
                 <SelectValue placeholder="Any" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="">Any</SelectItem>
+                <SelectItem value="all">Any</SelectItem>
                 {uniqueFeatures.map((f) => (
                   <SelectItem key={f} value={f}>
                     {f}
@@ -820,7 +744,7 @@ export default function HotelDetailsPage({
               value={
                 roomFilters.breakfastIncluded === null ||
                 roomFilters.breakfastIncluded === undefined
-                  ? ""
+                  ? "all"
                   : roomFilters.breakfastIncluded
                     ? "yes"
                     : "no"
@@ -828,7 +752,7 @@ export default function HotelDetailsPage({
               onValueChange={(val) =>
                 setRoomFilters((f) => ({
                   ...f,
-                  breakfastIncluded: val === "" ? null : val === "yes",
+                  breakfastIncluded: val === "all" ? null : val === "yes",
                 }))
               }
             >
@@ -836,7 +760,7 @@ export default function HotelDetailsPage({
                 <SelectValue placeholder="Any" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="">Any</SelectItem>
+                <SelectItem value="all">Any</SelectItem>
                 <SelectItem value="yes">Yes</SelectItem>
                 <SelectItem value="no">No</SelectItem>
               </SelectContent>
@@ -845,16 +769,19 @@ export default function HotelDetailsPage({
           <div>
             <Label htmlFor="view">View</Label>
             <Select
-              value={roomFilters.view ?? ""}
+              value={roomFilters.view ?? "all"}
               onValueChange={(val) =>
-                setRoomFilters((f) => ({ ...f, view: val || null }))
+                setRoomFilters((f) => ({
+                  ...f,
+                  view: val === "all" ? null : val,
+                }))
               }
             >
               <SelectTrigger className="w-32">
                 <SelectValue placeholder="Any" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="">Any</SelectItem>
+                <SelectItem value="all">Any</SelectItem>
                 {uniqueViews.map((v) => (
                   <SelectItem key={v} value={v}>
                     {v}
@@ -869,7 +796,7 @@ export default function HotelDetailsPage({
               value={
                 roomFilters.refundable === null ||
                 roomFilters.refundable === undefined
-                  ? ""
+                  ? "all"
                   : roomFilters.refundable
                     ? "yes"
                     : "no"
@@ -877,7 +804,7 @@ export default function HotelDetailsPage({
               onValueChange={(val) =>
                 setRoomFilters((f) => ({
                   ...f,
-                  refundable: val === "" ? null : val === "yes",
+                  refundable: val === "all" ? null : val === "yes",
                 }))
               }
             >
@@ -885,7 +812,7 @@ export default function HotelDetailsPage({
                 <SelectValue placeholder="Any" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="">Any</SelectItem>
+                <SelectItem value="all">Any</SelectItem>
                 <SelectItem value="yes">Yes</SelectItem>
                 <SelectItem value="no">No</SelectItem>
               </SelectContent>
