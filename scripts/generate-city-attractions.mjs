@@ -410,7 +410,7 @@ function writeAttractionsFile(citySlug, attractions) {
   const varName = generateVarName(citySlug, region);
 
   // Build TypeScript content
-  const fileContent = `// filepath: /home/tmchuynh/Documents/Projects/paragon-trails/src/lib/constants/destinations/city/${citySlug}.ts
+  const fileContent = `// This file is auto-generated. Do not edit manually.
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const ${varName}: Attraction[] = ${stringifyObject(attractions)};
@@ -419,7 +419,7 @@ export const ${varName}: Attraction[] = ${stringifyObject(attractions)};
   // Ensure directory exists
   const destDir = path.join(
     __dirname,
-    "../src/lib/constants/destinations/city",
+    "../src/lib/constants/destinations/city-attractions"
   );
   ensureDirectoryExists(destDir);
 
