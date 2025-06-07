@@ -1,11 +1,7 @@
 import { cityFiles } from "@/lib/constants/info/city";
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 import { getCityTours } from "@/lib/utils/get/tours";
-import {
-  formatKebabToCamelCase,
-  formatTitleToCamelCase,
-  removeSpecialCharacters,
-} from "../format";
+import { formatTitleToCamelCase, removeSpecialCharacters } from "../format";
 import { cityCountryMap, cityToRegionMap } from "@/lib/utils/mapping";
 import { Tour } from "@/lib/interfaces/services/tours";
 
@@ -39,7 +35,7 @@ export async function getTestimonialsForCity(
   const testimonialId = `${formattedCity}Testimonials`;
   try {
     const cityModule = await import(
-      `@/lib/constants/cityTestimonials/${testimonialId}.ts`
+      `@/lib/constants/testimonials/cities/${testimonialId}.ts`
     );
 
     if (cityModule[testimonialId]) {
