@@ -1,4 +1,89 @@
 import { RoomOption } from "@/lib/interfaces/services/rentals";
 
 // Room options for Sunset Villa
-export const sunsetVillaRooms: RoomOption[] = [];
+export const sunsetVillaRooms: RoomOption[] = [
+  {
+    id: "hotel-melbourne-1-room-0-Queen-GardenView",
+    name: "Koala Queen Villa",
+    description: "Unwind in this vintage queen villa where nature is just outside your window, with a modern en-suite bathroom.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock"],
+    pricePerNight: 413,
+    currency: "AUD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-melbourne-1-room-0-King-OceanView",
+    name: "Standard King Villa",
+    description: "Standard-themed villa with traditional decor, overlooking the sparkling ocean waves, and complete with a well-appointed bathroom.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping"],
+    pricePerNight: 550,
+    currency: "AUD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-melbourne-1-room-0-Twin-MountainView",
+    name: "Superior Twin Penthouse",
+    description: "Relax in our intimate contemporary twin penthouse featuring where mountains paint the horizon, along with including climate control for your comfort and with coastal and Outback influences.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave"],
+    pricePerNight: 330,
+    currency: "AUD",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-melbourne-1-room-0-King-GardenView",
+    name: "Oceanic King Apartment",
+    description: "This snug king apartment promises where you can find solace in nature's embrace, enriched by Oceanic-themed details and with blackout curtains for a perfect night's sleep.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 411,
+    currency: "AUD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-melbourne-1-room-0-Double-None",
+    name: "Signature Double Suite",
+    description: "This upscale double suite promises with a pleasant outlook, enriched by Signature-themed details and with high-speed internet access.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 272,
+    currency: "AUD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 4,
+  }
+];

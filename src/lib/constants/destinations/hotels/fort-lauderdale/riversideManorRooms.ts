@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Riverside Manor
+export const riversideManorRooms: RoomOption[] = [
+  {
+    id: "hotel-fort-lauderdale-4-room-3-Twin-MountainView",
+    name: "Standard Twin Apartment",
+    description: "Our Standard-themed twin apartment offers deluxe luxury, panoramic featuring awe-inspiring mountain scenery, and including climate control for your comfort, inspired by featuring thoughtful design elements.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer"],
+    pricePerNight: 131,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-fort-lauderdale-4-room-3-SofaBed-OceanView",
+    name: "Tranquility Sofa Bed Studio",
+    description: "Tranquility-themed studio with comfortable decor, with a panoramic view of the coastline, and offering a unique blend of style and comfort.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer"],
+    pricePerNight: 150,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-fort-lauderdale-4-room-3-Queen-MountainView",
+    name: "Tranquility Queen Loft",
+    description: "A roomy queen retreat where you can enjoy the tranquility of the mountains, featuring thoughtful design elements.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping"],
+    pricePerNight: 198,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-fort-lauderdale-4-room-3-King-OceanView",
+    name: "Executive King Villa",
+    description: "Our Executive-themed king villa offers wide-ranging luxury, panoramic where you can feel the ocean breeze, and with blackout curtains for a perfect night's sleep, inspired by decorated with local artistic influences.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service"],
+    pricePerNight: 239,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 4,
+  }
+];

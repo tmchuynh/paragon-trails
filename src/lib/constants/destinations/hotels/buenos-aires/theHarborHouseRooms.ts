@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Harbor House
+export const theHarborHouseRooms: RoomOption[] = [
+  {
+    id: "hotel-buenos-aires-4-room-3-Twin-CityView",
+    name: "Harmony Twin Apartment",
+    description: "Step into a chic twin apartment that combines Harmony-themed with breathtaking where city lights twinkle at night, complemented by with plush bedding for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 25031,
+    currency: "ARS",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-buenos-aires-4-room-3-Single-GardenView",
+    name: "Classic Single Loft",
+    description: "Indulge in the comfy atmosphere of our single loft, with spectacular with a view of blooming flowers and greenery, decorated with local artistic influences, and with blackout curtains for a perfect night's sleep.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 25231,
+    currency: "ARS",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-buenos-aires-4-room-3-Queen-None",
+    name: "Modern Queen Studio",
+    description: "This refreshing queen studio promises with a pleasant outlook, enriched by Modern-themed details and with a luxurious soaking tub.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 27779,
+    currency: "ARS",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-buenos-aires-4-room-3-King-GardenView",
+    name: "Modern King Room",
+    description: "This contemporary king accommodation offers where you can escape to a green sanctuary, decorated with local artistic influences.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock"],
+    pricePerNight: 38998,
+    currency: "ARS",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 7,
+  }
+];

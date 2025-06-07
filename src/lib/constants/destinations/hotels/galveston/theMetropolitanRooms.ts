@@ -1,4 +1,75 @@
 import { RoomOption } from "@/lib/interfaces/services/rentals";
 
 // Room options for The Metropolitan
-export const theMetropolitanRooms: RoomOption[] = [];
+export const theMetropolitanRooms: RoomOption[] = [
+  {
+    id: "hotel-galveston-4-room-3-Queen-MountainView",
+    name: "Colonial Queen Apartment",
+    description: "Enjoy a comfy stay in our Colonial-themed queen apartment, offering featuring awe-inspiring mountain scenery, offering a unique blend of style and comfort, and unique touches of with rustic and modern influences.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service"],
+    pricePerNight: 190,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-galveston-4-room-3-Double-OceanView",
+    name: "Golden Gate Double Loft",
+    description: "Golden Gate-themed double loft where you can watch the waves roll in, offering a classic yet modern American experience and with a luxurious soaking tub.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe"],
+    pricePerNight: 178,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-galveston-4-room-3-SofaBed-None",
+    name: "Golden Gate Sofa Bed Penthouse",
+    description: "Step into a glamorous sofa bed penthouse that combines Golden Gate-themed with breathtaking with a pleasant outlook, complemented by including climate control for your comfort.",
+    occupancy: {
+      adults: 1,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer"],
+    pricePerNight: 121,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-galveston-4-room-3-SofaBed-GardenView",
+    name: "Luxury Sofa Bed Studio",
+    description: "Luxury-themed studio with broad decor, with a view of tranquil water features, and with plush bedding for ultimate comfort.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 149,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 3,
+  }
+];

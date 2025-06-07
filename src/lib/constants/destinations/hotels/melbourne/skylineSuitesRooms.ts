@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Skyline Suites
+export const skylineSuitesRooms: RoomOption[] = [
+  {
+    id: "hotel-melbourne-4-room-3-Single-GardenView",
+    name: "Koala Single Penthouse",
+    description: "A compact single retreat overlooking lush garden landscapes, featuring airy, sun-drenched interiors.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave"],
+    accessibilityFeatures: ["Elevator", "Accessible Bathroom", "Visual Aids"],
+    pricePerNight: 490,
+    currency: "AUD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-melbourne-4-room-3-Double-MountainView",
+    name: "Classic Double Room",
+    description: "Unwind in this expansive double room where you can gaze at the towering peaks, with a modern en-suite bathroom.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 703,
+    currency: "AUD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-melbourne-4-room-3-Queen-None",
+    name: "Superior Queen Villa",
+    description: "Superior-themed villa with regal decor, with a pleasant outlook, and featuring a curated minibar selection.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer"],
+    pricePerNight: 615,
+    currency: "AUD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-melbourne-4-room-3-King-None",
+    name: "Superior King Loft",
+    description: "Step into a glamorous king loft that combines Superior-themed with breathtaking with a pleasant outlook, complemented by with blackout curtains for a perfect night's sleep.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe"],
+    pricePerNight: 816,
+    currency: "AUD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 7,
+  }
+];

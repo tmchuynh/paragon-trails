@@ -1,4 +1,76 @@
 import { RoomOption } from "@/lib/interfaces/services/rentals";
 
 // Room options for The Mayfair Inn
-export const theMayfairInnRooms: RoomOption[] = [];
+export const theMayfairInnRooms: RoomOption[] = [
+  {
+    id: "hotel-southampton-9-room-8-Twin-CityView",
+    name: "Royal Twin Apartment",
+    description: "Step into a bohemian twin apartment that combines Royal-themed with breathtaking showcasing the urban landscape, complemented by including climate control for your comfort.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    accessibilityFeatures: ["Accessible Bathroom", "Visual Aids"],
+    pricePerNight: 61,
+    currency: "GBP",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-southampton-9-room-8-Single-GardenView",
+    name: "Kensington Single Penthouse",
+    description: "Our Kensington-themed single penthouse offers elegant luxury, panoramic where you can enjoy the garden's peaceful atmosphere, and with high-speed internet access, inspired by designed for ultimate comfort.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 57,
+    currency: "GBP",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-southampton-9-room-8-SofaBed-OceanView",
+    name: "Royal Sofa Bed Suite",
+    description: "Indulge in the serene atmosphere of our sofa bed suite, with spectacular where the horizon meets the ocean, decorated with local artistic influences, and with a luxurious soaking tub.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    accessibilityFeatures: ["Visual Aids", "Wheelchair Accessible", "Elevator"],
+    pricePerNight: 69,
+    currency: "GBP",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-southampton-9-room-8-King-OceanView",
+    name: "Luxury King Room",
+    description: "Unwind in this stretching king room with the sound of the ocean as your backdrop, with blackout curtains for a perfect night's sleep.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service"],
+    pricePerNight: 99,
+    currency: "GBP",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 4,
+  }
+];

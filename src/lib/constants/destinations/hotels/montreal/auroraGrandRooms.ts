@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Aurora Grand
+export const auroraGrandRooms: RoomOption[] = [
+  {
+    id: "hotel-montreal-12-room-11-Single-GardenView",
+    name: "Northern Lights Single Suite",
+    description: "Our Northern Lights-themed single suite offers vintage luxury, panoramic with a view of the garden's vibrant colors, and including climate control for your comfort, inspired by blending urban sophistication with wilderness charm.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    accessibilityFeatures: ["Wheelchair Accessible"],
+    pricePerNight: 426,
+    currency: "CAD",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-montreal-12-room-11-Single-None",
+    name: "Maple Single Penthouse",
+    description: "This serene single accommodation offers with a pleasant outlook, blending urban sophistication with wilderness charm.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 360,
+    currency: "CAD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-montreal-12-room-11-SofaBed-OceanView",
+    name: "Maple Sofa Bed Apartment",
+    description: "Unwind in this exquisite sofa bed apartment where you can enjoy stunning sunsets over the water, offering a unique blend of style and comfort.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    accessibilityFeatures: ["Hearing Support", "Visual Aids"],
+    pricePerNight: 525,
+    currency: "CAD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-montreal-12-room-11-Queen-OceanView",
+    name: "Frontier Queen Penthouse",
+    description: "A indulgent queen retreat with a view of the sandy beaches, inspired by the rugged beauty of Canadian landscapes.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp"],
+    pricePerNight: 667,
+    currency: "CAD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 8,
+  }
+];

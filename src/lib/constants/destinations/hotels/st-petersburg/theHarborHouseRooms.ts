@@ -1,0 +1,78 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Harbor House
+export const theHarborHouseRooms: RoomOption[] = [
+  {
+    id: "hotel-st-petersburg-8-room-7-Double-MountainView",
+    name: "Modern Double Suite",
+    description: "Indulge in the soft atmosphere of our double suite, with spectacular where you can enjoy the tranquility of the mountains, featuring thoughtful design elements, and including climate control for your comfort.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    pricePerNight: 8485,
+    currency: "RUB",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-st-petersburg-8-room-7-Queen-GardenView",
+    name: "Horizon Queen Apartment",
+    description: "Enjoy a prestigious stay in our Horizon-themed queen apartment, offering with a view of blooming flowers and greenery, with carefully selected furnishings, and unique touches of designed for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service"],
+    accessibilityFeatures: ["Visual Aids"],
+    pricePerNight: 10373,
+    currency: "RUB",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-st-petersburg-8-room-7-King-None",
+    name: "Premium King Villa",
+    description: "Relax in our avant-garde vintage king villa featuring with a pleasant outlook, along with featuring a curated minibar selection and featuring thoughtful design elements.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    accessibilityFeatures: ["Wheelchair Accessible", "Elevator"],
+    pricePerNight: 10760,
+    currency: "RUB",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-st-petersburg-8-room-7-Twin-GardenView",
+    name: "Executive Twin Villa",
+    description: "Our Executive-themed twin villa offers glamorous luxury, panoramic where you can enjoy the tranquility of nature, and featuring premium bath amenities, inspired by created with both style and function in mind.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    pricePerNight: 6875,
+    currency: "RUB",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 7,
+  }
+];

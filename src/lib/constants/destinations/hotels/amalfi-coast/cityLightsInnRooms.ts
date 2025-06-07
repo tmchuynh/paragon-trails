@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for City Lights Inn
+export const cityLightsInnRooms: RoomOption[] = [
+  {
+    id: "hotel-amalfi-coast-4-room-3-Twin-CityView",
+    name: "Luxury Twin Penthouse",
+    description: "A homey twin penthouse designed for avant-garde comfort, with where you can enjoy the city's energy and with high-speed internet access, reflecting designed for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 197,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-amalfi-coast-4-room-3-Queen-GardenView",
+    name: "Executive Queen Studio",
+    description: "A opulent queen studio designed for peaceful comfort, with where you can enjoy the serenity of a garden retreat and featuring a curated minibar selection, reflecting created with both style and function in mind.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 238,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-amalfi-coast-4-room-3-Double-None",
+    name: "Premium Double Villa",
+    description: "Premium-themed double villa with a pleasant outlook, featuring thoughtful design elements and featuring a curated minibar selection.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 194,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-amalfi-coast-4-room-3-King-GardenView",
+    name: "Horizon King Loft",
+    description: "A extensive king loft designed for well-proportioned comfort, with where you can find solace in nature's embrace and with blackout curtains for a perfect night's sleep, reflecting created with both style and function in mind.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service"],
+    accessibilityFeatures: ["Wheelchair Accessible", "Elevator", "Accessible Bathroom"],
+    pricePerNight: 323,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 3,
+  }
+];

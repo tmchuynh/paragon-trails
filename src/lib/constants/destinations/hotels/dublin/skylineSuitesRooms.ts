@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Skyline Suites
+export const skylineSuitesRooms: RoomOption[] = [
+  {
+    id: "hotel-dublin-3-room-2-Queen-OceanView",
+    name: "Premium Queen Studio",
+    description: "Relax in our minimalist vast queen studio featuring where you can hear the soothing sound of the sea, along with with carefully selected furnishings and designed for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 136,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-dublin-3-room-2-Single-OceanView",
+    name: "Tranquility Single Villa",
+    description: "Unwind in this glamorous single villa with a view of the tranquil sea, featuring premium bath amenities.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    pricePerNight: 89,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-dublin-3-room-2-SofaBed-CityView",
+    name: "Deluxe Sofa Bed Penthouse",
+    description: "Deluxe-themed penthouse with restful decor, with a view of iconic landmarks, and with a spacious work area.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 91,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-dublin-3-room-2-Twin-CityView",
+    name: "Premium Twin Suite",
+    description: "This artistic twin accommodation offers with a window to the bustling city below, created with both style and function in mind.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 91,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 4,
+  }
+];

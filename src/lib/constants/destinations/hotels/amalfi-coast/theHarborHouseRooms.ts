@@ -1,0 +1,77 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Harbor House
+export const theHarborHouseRooms: RoomOption[] = [
+  {
+    id: "hotel-amalfi-coast-9-room-8-Queen-OceanView",
+    name: "Signature Queen Suite",
+    description: "Enjoy a large-scale stay in our Signature-themed queen suite, offering with breathtaking sea views, featuring premium bath amenities, and unique touches of designed for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service"],
+    accessibilityFeatures: ["Visual Aids", "Accessible Bathroom"],
+    pricePerNight: 316,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-amalfi-coast-9-room-8-Double-MountainView",
+    name: "Classic Double Loft",
+    description: "A retro double loft designed for artistic comfort, with with a view of the mountains' rugged terrain and with a luxurious soaking tub, reflecting designed for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock"],
+    pricePerNight: 250,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-amalfi-coast-9-room-8-King-GardenView",
+    name: "Signature King Penthouse",
+    description: "A comfy king retreat with a view of the garden's tranquil pathways, decorated with local artistic influences.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping"],
+    pricePerNight: 314,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-amalfi-coast-9-room-8-Queen-None",
+    name: "Premium Queen Loft",
+    description: "Our prestigious Premium-themed loft offers with a pleasant outlook, voluminous comfort, and equipped with all the modern conveniences.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 215,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 8,
+  }
+];

@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Sunset Lodge
+export const sunsetLodgeRooms: RoomOption[] = [
+  {
+    id: "hotel-glacier-bay-7-room-6-Double-GardenView",
+    name: "Signature Double Apartment",
+    description: "Indulge in the rustic atmosphere of our double apartment, with spectacular with a view of shaded garden paths, decorated with local artistic influences, and with a private balcony or terrace.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 110,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-glacier-bay-7-room-6-King-None",
+    name: "Modern King Studio",
+    description: "A wide-ranging king retreat with a pleasant outlook, featuring thoughtful design elements.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe"],
+    pricePerNight: 130,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-glacier-bay-7-room-6-Single-CityView",
+    name: "Classic Single Room",
+    description: "This exquisite single room promises where you can watch the city wake up, enriched by Classic-themed details and with a private balcony or terrace.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    pricePerNight: 86,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-glacier-bay-7-room-6-Queen-MountainView",
+    name: "Executive Queen Loft",
+    description: "Experience our exquisite, large-scale queen loft where you can enjoy the tranquility of the mountains, offering a unique blend of style and comfort.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe"],
+    accessibilityFeatures: ["Elevator", "Hearing Support"],
+    pricePerNight: 142,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 8,
+  }
+];

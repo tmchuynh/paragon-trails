@@ -1,4 +1,92 @@
 import { RoomOption } from "@/lib/interfaces/services/rentals";
 
 // Room options for Grand Central Hotel
-export const grandCentralHotelRooms: RoomOption[] = [];
+export const grandCentralHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-florence-8-room-7-King-OceanView",
+    name: "Premium King Room",
+    description: "Enjoy a ample stay in our Premium-themed king room, offering with a view of the sandy beaches, with a spacious seating area, and unique touches of inspired by Italian Renaissance design.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 373,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-florence-8-room-7-Queen-GardenView",
+    name: "Superior Queen Apartment",
+    description: "Our exquisite Superior-themed apartment offers with serene garden views, futuristic comfort, and complete with a well-appointed bathroom.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe"],
+    pricePerNight: 305,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-florence-8-room-7-Single-GardenView",
+    name: "Harmony Single Loft",
+    description: "Relax in our bohemian classic single loft featuring with a view of the garden's lush greenery, along with with plush bedding for ultimate comfort and inspired by Italian Renaissance design.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 173,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-florence-8-room-7-SofaBed-None",
+    name: "Standard Sofa Bed Studio",
+    description: "Standard-themed sofa bed studio with a pleasant outlook, inspired by Italian Renaissance design and with high-speed internet access.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 205,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-florence-8-room-7-Twin-CityView",
+    name: "Luxury Twin Penthouse",
+    description: "Our opulent Luxury-themed penthouse offers where city lights twinkle at night, eclectic comfort, and equipped with all the modern conveniences.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 221,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 2,
+  }
+];

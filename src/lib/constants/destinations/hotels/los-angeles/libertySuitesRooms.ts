@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Liberty Suites
+export const libertySuitesRooms: RoomOption[] = [
+  {
+    id: "hotel-los-angeles-6-room-5-Twin-GardenView",
+    name: "Premium Twin Penthouse",
+    description: "Our compact Premium-themed penthouse offers where you can enjoy the garden's peaceful atmosphere, contemporary comfort, and with a spacious seating area.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave"],
+    pricePerNight: 120,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-los-angeles-6-room-5-SofaBed-OceanView",
+    name: "Harmony Sofa Bed Apartment",
+    description: "Indulge in the intimate atmosphere of our sofa bed apartment, with spectacular with a view of the ocean's changing tides, featuring thoughtful design elements, and with a private balcony or terrace.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp"],
+    pricePerNight: 153,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-los-angeles-6-room-5-SofaBed-MountainView",
+    name: "Premium Sofa Bed Villa",
+    description: "Unwind in this homey sofa bed villa where you can enjoy the serenity of mountain life, with carefully selected furnishings.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 141,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-los-angeles-6-room-5-Double-OceanView",
+    name: "Luxury Double Studio",
+    description: "A comfortable double retreat with the sound of the ocean as your backdrop, created with both style and function in mind.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    pricePerNight: 150,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 5,
+  }
+];
