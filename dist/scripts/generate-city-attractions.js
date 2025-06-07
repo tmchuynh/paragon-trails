@@ -313,7 +313,7 @@ async function extractExistingAttractions(filePath) {
 async function generateCityFile(city) {
     const { fileName, variableName } = formatCityName(city);
     const destDir = path.join(process.cwd(), "src", "lib", "constants", "destinations", "city");
-    const filePath = path.join(destDir, `${fileName}.ts`);
+    const filePath = path.join(destDir, `${city}.ts`);
     // Check if directory exists
     await ensureDirectoryExists(destDir);
     // Check if file exists
@@ -321,17 +321,15 @@ async function generateCityFile(city) {
     // Handle existing file based on options
     let attractions = [];
     if (exists) {
-        if (options.rewrite) {
-            console.log(`Rewriting existing file: ${filePath}`);
-        }
-        else if (options.append) {
-            console.log(`Appending ${options.append} attractions to: ${filePath}`);
-            attractions = await extractExistingAttractions(filePath);
-        }
-        else {
-            console.log(`File already exists (use --rewrite to replace): ${filePath}`);
-            return;
-        }
+      if (options.rewrite) {
+        console.log(`Rewriting existing file: ${city}`);
+      } else if (options.append) {
+        console.log(`Appending ${options.append} attractions to: ${city}`);
+        attractions = await extractExistingAttractions(city);
+      } else {
+        console.log(`File already exists (use --rewrite to replace): ${city}`);
+        return;
+      }
     }
     // Generate attractions
     const numNewAttractions = options.append || Math.floor(Math.random() * 10) + 9;
