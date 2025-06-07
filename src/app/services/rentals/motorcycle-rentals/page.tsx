@@ -355,6 +355,14 @@ export default function MotorcycleRentalsPage() {
     return type.charAt(0).toUpperCase() + type.slice(1).replace("-", " ");
   };
 
+  // Function to ensure select value is never an empty string
+  const ensureNonEmptyValue = (value: string | null | undefined): string => {
+    if (value === "" || value === null || value === undefined) {
+      return "all"; // Use "all" as a replacement for empty values
+    }
+    return value;
+  };
+
   return (
     <div className="mx-auto pt-3 md:pt-6 lg:pt-12 w-10/12 md:w-11/12">
       <div className="flex flex-col gap-6">
@@ -435,7 +443,7 @@ export default function MotorcycleRentalsPage() {
 
             {/* Items per page selector */}
             <Select
-              value={pageSize.toString()}
+              value={ensureNonEmptyValue(pageSize.toString())}
               onValueChange={(value) => setPageSize(parseInt(value))}
             >
               <SelectTrigger className="w-[180px]">
