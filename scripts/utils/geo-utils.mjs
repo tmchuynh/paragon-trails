@@ -80,7 +80,7 @@ export const cityCountryMap = {
   beijing: "China",
   belgrade: "Serbia",
   bhaktapur: "Nepal",
-  blagaj: "Bosnia and Herzegovina",
+  blagaj: "Bosnia",
   bologna: "Italy",
   "bora-bora": "French Polynesia",
   budapest: "Hungary",
@@ -119,7 +119,7 @@ export const cityCountryMap = {
   "mekong-delta": "Vietnam",
   "mexico-city": "Mexico",
   monaco: "Monaco",
-  mostar: "Bosnia and Herzegovina",
+  mostar: "Bosnia",
   "mto-wa-mbu-village": "Tanzania",
   mumbai: "India",
   munich: "Germany",
@@ -179,46 +179,36 @@ export const cityCountryMap = {
 };
 
 export const cityToRegionMap = {
-  // Southern Italy
   "amalfi-coast": "Southern Italy",
   naples: "Southern Italy",
   matera: "Southern Italy",
 
-  // Central Italy
   rome: "Central Italy",
   tuscany: "Central Italy",
   florence: "Central Italy",
 
-  // Northern Italy
   venice: "Northern Italy",
   milan: "Northern Italy",
   bologna: "Northern Italy",
 
-  // Greek Islands
   santorini: "Greek Islands",
   mykonos: "Greek Islands",
   heraklion: "Greek Islands",
 
-  // Mainland Greece
   athens: "Mainland Greece",
   piraeus: "Mainland Greece",
   thessaloniki: "Mainland Greece",
 
-  // Southern Spain
   seville: "Southern Spain",
 
-  // Western Spain
   madrid: "Western Spain",
 
-  // Portugal
   lisbon: "Portugal",
   porto: "Portugal",
 
-  // French Riviera
   cannes: "French Riviera",
   monaco: "French Riviera",
 
-  // Balkans
   dubrovnik: "Croatian Coast",
   zagreb: "Croatia",
   mostar: "Bosnia & Herzegovina",
@@ -227,30 +217,24 @@ export const cityToRegionMap = {
   "svaneti-region": "Georgia (Caucasus)",
   tbilisi: "Georgia (Caucasus)",
 
-  // Western Europe
   barcelona: "Catalonia (Spain)",
   paris: "France",
   amsterdam: "Netherlands",
   rotterdam: "Netherlands",
-  brussels: "Belgium", // hypothetical, not in original list
 
-  // United Kingdom & Ireland
   london: "England",
   edinburgh: "Scotland",
   glasgow: "Scotland",
   dublin: "Ireland",
 
-  // Scandinavia
   copenhagen: "Denmark",
   stockholm: "Sweden",
   oslo: "Norway",
   helsinki: "Finland",
   reykjavik: "Iceland",
 
-  // Baltic
   riga: "Latvia",
 
-  // Central Europe
   vienna: "Austria",
   prague: "Czech Republic",
   munich: "Germany",
@@ -260,7 +244,6 @@ export const cityToRegionMap = {
   moscow: "Russia",
   "st-petersburg": "Russia",
 
-  // Japan
   tokyo: "Japan",
   kyoto: "Japan",
   osaka: "Japan",
@@ -270,7 +253,6 @@ export const cityToRegionMap = {
   nagasaki: "Japan",
   yokohama: "Japan",
 
-  // Mainland Southeast Asia
   bangkok: "Thailand",
   phuket: "Thailand",
   "chiang-mai": "Thailand",
@@ -282,11 +264,9 @@ export const cityToRegionMap = {
   "mekong-delta": "Vietnam",
   "phnom-penh": "Cambodia",
 
-  // Maritime Southeast Asia
   singapore: "Singapore",
   bali: "Indonesia",
   denpasar: "Indonesia",
-  jakarta: "Indonesia", // hypothetical
   "port-vila": "Vanuatu",
   "fort-kochi": "India",
   coorg: "India",
@@ -298,19 +278,15 @@ export const cityToRegionMap = {
   bhaktapur: "Nepal",
   bandipur: "Nepal",
 
-  // China
   beijing: "China",
   shanghai: "China",
   chengdu: "China",
   "xi-an": "China",
 
-  // South Korea
   seoul: "South Korea",
 
-  // Taiwan
   taipei: "Taiwan",
 
-  // Australia & Oceania
   sydney: "Australia",
   melbourne: "Australia",
   auckland: "New Zealand",
@@ -319,7 +295,6 @@ export const cityToRegionMap = {
   "bora-bora": "French Polynesia",
   fiji: "Fiji",
 
-  // USA - West Coast
   "los-angeles": "California",
   "san-francisco": "California",
   "san-diego": "California",
@@ -327,29 +302,23 @@ export const cityToRegionMap = {
   portland: "Oregon",
   seattle: "Washington",
 
-  // USA - East Coast
   boston: "Massachusetts",
   "new-york-city": "New York",
   washington: "District of Columbia",
   charleston: "South Carolina",
 
-  // USA - Southeast
   atlanta: "Georgia",
   savannah: "Georgia",
 
-  // USA - Southwest
   austin: "Texas",
   "las-vegas": "Nevada",
 
-  // USA - Midwest
   chicago: "Illinois",
 
-  // Canada - East
   montreal: "Quebec",
   "quebec-city": "Quebec",
   toronto: "Ontario",
 
-  // Alaska
   vancouver: "British Columbia",
   juneau: "Alaska",
   ketchikan: "Alaska",
@@ -360,11 +329,9 @@ export const cityToRegionMap = {
   denali: "Alaska",
   anchorage: "Alaska",
 
-  // Hawaii
   honolulu: "Oahu",
   maui: "Maui",
 
-  // Caribbean
   miami: "Florida",
   "fort-lauderdale": "Florida",
   tampa: "Florida",
@@ -382,28 +349,23 @@ export const cityToRegionMap = {
   jamaica: "Jamaica",
   "punta-cana": "Dominican Republic",
 
-  // Central America
   "mexico-city": "Mexico",
   "puerto-escondido": "Mexico",
   "puerto-vallarta": "Mexico",
   "panama-city": "Panama",
 
-  // South America - Andes
   lima: "Peru",
   quito: "Ecuador",
   santiago: "Chile",
-  cusco: "Peru", // hypothetical
   puno: "Peru",
   pucallpa: "Peru",
   "galapagos-islands": "Ecuador",
 
-  // South America - Southern Cone
   "buenos-aires": "Argentina",
   montevideo: "Uruguay",
   patagonia: "Argentina/Chile",
   "rio-de-janeiro": "Brazil",
 
-  // Africa - North
   cairo: "Egypt",
   casablanca: "Morocco",
   fez: "Morocco",
@@ -413,18 +375,14 @@ export const cityToRegionMap = {
   ouarzazate: "Morocco",
   "atlas-mountains": "Morocco",
 
-  // Africa - East
   kampala: "Uganda",
   zanzibar: "Tanzania",
   nairobi: "Kenya",
 
-  // Africa - South
   "cape-town": "South Africa",
 
-  // Africa - Central
   "mto-wa-mbu-village": "Tanzania",
 
-  // Middle East
   dubai: "United Arab Emirates",
   petra: "Jordan",
 };
@@ -642,7 +600,7 @@ export const regionalDestinations = {
   Finland: ["helsinki"],
   Iceland: ["reykjavik"],
   Russia: ["st-petersburg", "moscow"],
-  Baltics: ["riga"],
+  Latvia: ["riga"],
   Austria: ["vienna"],
   "Czech Republic": ["prague"],
   Hungary: ["budapest"],
@@ -673,7 +631,7 @@ export const regionalDestinations = {
   Nepal: ["panauti", "bhaktapur", "bandipur"],
   India: ["mumbai", "fort-kochi", "coorg", "udaipur", "jaipur", "leh"],
   Indonesia: ["bali", "denpasar"],
-  "Malaysia & Singapore": ["singapore", "kuala-lumpur"],
+  Singapore: ["singapore"],
   "French Polynesia": ["tahiti", "bora-bora"],
   Fiji: ["fiji"],
   Vanuatu: ["port-vila"],
@@ -868,7 +826,7 @@ export const currenciesMap = [
     code: "BAM",
     symbol: "KM",
     name: "Bosnia and Herzegovina Convertible Mark",
-    country: "Bosnia and Herzegovina",
+    country: "Bosnia",
   },
   { code: "MAD", symbol: "DH", name: "Moroccan Dirham", country: "Morocco" },
   { code: "JOD", symbol: "JD", name: "Jordanian Dinar", country: "Jordan" },
@@ -945,7 +903,7 @@ export const countryCurrencyMap = {
   Iceland: "ISK",
   Georgia: "GEL",
   Serbia: "RSD",
-  "Bosnia and Herzegovina": "BAM",
+  Bosnia: "BAM",
   Morocco: "MAD",
   Jordan: "JOD",
   Egypt: "EGP",
@@ -977,89 +935,71 @@ export const euroCountries = [
 ];
 
 export const regionCurrencyMapping = {
-  // Italy
   "Southern Italy": ["EUR", "USD", "GBP"],
   "Central Italy": ["EUR"],
   "Northern Italy": ["EUR"],
 
-  // Greece
   "Greek Islands": ["EUR"],
   "Mainland Greece": ["EUR"],
 
-  // Spain & Portugal
   "Southern Spain": ["EUR"],
   "Western Spain": ["EUR"],
   Portugal: ["EUR"],
 
-  // France & nearby
   "French Riviera": ["EUR"],
 
-  // Balkans
-  "Croatian Coast": ["HRK", "EUR"],
+  "Croatian Coast": ["EUR"],
   Croatia: ["HRK", "EUR"],
   "Bosnia & Herzegovina": ["BAM"],
   Serbia: ["RSD"],
   "Georgia (Caucasus)": ["GEL"],
 
-  // Western Europe
   "Catalonia (Spain)": ["EUR"],
   France: ["EUR"],
   Netherlands: ["EUR"],
   Belgium: ["EUR"],
 
-  // UK & Ireland
   England: ["GBP"],
   Scotland: ["GBP"],
   Ireland: ["EUR"],
 
-  // Scandinavia
   Denmark: ["DKK"],
   Sweden: ["SEK"],
   Norway: ["NOK"],
   Finland: ["EUR"],
   Iceland: ["ISK"],
 
-  // Baltic
   Latvia: ["EUR"],
 
-  // Central Europe
   Austria: ["EUR"],
   "Czech Republic": ["CZK"],
   Germany: ["EUR"],
   Hungary: ["HUF"],
   Russia: ["RUB"],
 
-  // Japan
   Japan: ["JPY"],
 
-  // Mainland Southeast Asia
   Thailand: ["THB"],
   Vietnam: ["VND"],
   Cambodia: ["KHR"],
 
-  // Maritime Southeast Asia
   Singapore: ["SGD"],
   Indonesia: ["IDR"],
   Vanuatu: ["VUV"],
   India: ["INR"],
   Nepal: ["NPR"],
 
-  // China
   China: ["CNY"],
 
-  // South Korea
   "South Korea": ["KRW"],
 
-  // Taiwan
   Taiwan: ["TWD"],
 
-  // Australia & Oceania
   Australia: ["AUD"],
   "New Zealand": ["NZD"],
   "French Polynesia": ["XPF"],
   Fiji: ["FJD"],
 
-  // USA regions
   California: ["USD"],
   Oregon: ["USD"],
   Washington: ["USD"],
@@ -1072,17 +1012,14 @@ export const regionCurrencyMapping = {
   Nevada: ["USD"],
   Illinois: ["USD"],
 
-  // Canada
   Quebec: ["CAD"],
   Ontario: ["CAD"],
   "British Columbia": ["CAD"],
   Alaska: ["USD"],
 
-  // Hawaii
   Oahu: ["USD"],
   Maui: ["USD"],
 
-  // Caribbean
   Florida: ["USD"],
   Louisiana: ["USD"],
   "Puerto Rico": ["USD"],
@@ -1097,19 +1034,16 @@ export const regionCurrencyMapping = {
   Jamaica: ["JMD"],
   "Dominican Republic": ["DOP"],
 
-  // Central America
   Panama: ["PAB", "USD"],
 
-  // South America
   Peru: ["PEN"],
   Ecuador: ["USD"],
   Chile: ["CLP"],
   Argentina: ["ARS"],
   Uruguay: ["UYU"],
-  "Argentina/Chile": ["ARS", "CLP"],
+  Chile: ["ARS", "CLP"],
   Brazil: ["BRL"],
 
-  // Africa
   Egypt: ["EGP"],
   Morocco: ["MAD"],
   Uganda: ["UGX"],
@@ -1117,7 +1051,6 @@ export const regionCurrencyMapping = {
   Kenya: ["KES"],
   "South Africa": ["ZAR"],
 
-  // Middle East
   "United Arab Emirates": ["AED"],
   Jordan: ["JOD"],
 };
@@ -1183,7 +1116,7 @@ export const countryLanguagesMap = {
   Montenegro: ["Montenegrin"],
   Monaco: ["French"],
   Austria: ["German"],
-  Czechia: ["Czech"],
+  "Czech Republic": ["Czech"],
   Slovakia: ["Slovak"],
   Slovenia: ["Slovene"],
   Iceland: ["Icelandic"],
@@ -1230,6 +1163,22 @@ export const currencyRates = {
   KHR: 4100,
   NPR: 132,
   XPF: 105,
+  HKD: 7.85,
+  PHP: 56.5,
+  PLN: 3.96,
+  TRY: 32.5,
+  CZK: 22.0,
+  ISK: 140.0,
+  MAD: 10.0,
+  EGP: 30.9,
+  KES: 134.0,
+  TZS: 2340,
+  UGX: 3750,
+  PAB: 1,
+  MYR: 4.6,
+  VUV: 117.0,
+  FJD: 2.2,
+  CHF: 0.9,
 };
 
 export function getCityCountryPriceMultiplier(_city, country) {
