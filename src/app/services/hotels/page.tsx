@@ -196,25 +196,28 @@ export default function HotelsPage() {
 
     // Apply sorting
     const sorted = [...filtered].sort((a, b) => {
-      let valueA, valueB;
+      let valueA: string | number = "";
+      let valueB: string | number = "";
 
       switch (sortField) {
         case "name":
-          valueA = a.name.toLowerCase();
-          valueB = b.name.toLowerCase();
+          valueA = a.name?.toLowerCase() || "";
+          valueB = b.name?.toLowerCase() || "";
           break;
         case "rating":
-          valueA = a.rating;
-          valueB = b.rating;
+          valueA = a.rating || 0;
+          valueB = b.rating || 0;
           break;
         case "price":
           // Note: This assumes there's a price field. If not, add it or remove this option.
-          valueA = a.roomsAvailable; // Using rooms as a proxy for price
-          valueB = b.roomsAvailable;
+          valueA = a.roomsAvailable || 0; // Using rooms as a proxy for price
+          valueB = b.roomsAvailable || 0;
           break;
         default:
-          valueA = a[sortField as keyof Hotel];
-          valueB = b[sortField as keyof Hotel];
+          const propA = a[sortField as keyof Hotel];
+          const propB = b[sortField as keyof Hotel];
+          valueA = propA !== undefined ? (propA as string | number) : "";
+          valueB = propB !== undefined ? (propB as string | number) : "";
       }
 
       if (typeof valueA === "string" && typeof valueB === "string") {
@@ -473,6 +476,7 @@ export default function HotelsPage() {
                 <SelectValue placeholder="Items per page" />
               </SelectTrigger>
               <SelectContent>
+                <SelectItem value="6">6 per page</SelectItem>
                 <SelectItem value="9">9 per page</SelectItem>
                 <SelectItem value="12">12 per page</SelectItem>
                 <SelectItem value="18">18 per page</SelectItem>
@@ -636,7 +640,7 @@ export default function HotelsPage() {
                     <SelectContent>
                       <SelectItem value="all">Any Policy</SelectItem>
                       {uniqueSmokingPolicies.map((policy) => (
-                        <SelectItem key={policy} value={policy}>
+                        <SelectItem key={policy} value={`${policy}`}>
                           {policy}
                         </SelectItem>
                       ))}
