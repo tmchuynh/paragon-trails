@@ -46,6 +46,7 @@ import {
   countryCurrencyMap,
   euroCountries,
   regionCurrencyMap,
+  getCityCountryPriceMultiplier, // <-- add import
 } from "./utils/geo-utils.mjs";
 
 const cities = getCityFiles();
@@ -1508,20 +1509,11 @@ function generateLuxuryRentalCar(city, index) {
     basePrice *= 1.2;
   }
 
-  const rentalPricePerDay = Math.round(basePrice + Math.random() * 200);
+  // Apply city/country multiplier
+  const cityCountryMultiplier = getCityCountryPriceMultiplier(city, country);
+  basePrice *= cityCountryMultiplier;
 
-  // Currency based on country (simplified)
-  // const country = cityCountryMap[city] || "";
-  // let currency;
-  // if (["United States", "Puerto Rico"].includes(country)) {
-  //   currency = "USD";
-  // } else if (["United Kingdom"].includes(country)) {
-  //   currency = "GBP";
-  // } else if (["Japan"].includes(country)) {
-  //   currency = "JPY";
-  // } else {
-  //   currency = "EUR"; // Default to EUR for most locations
-  // }
+  const rentalPricePerDay = Math.round(basePrice + Math.random() * 200);
 
   // Availability (70% chance of being available)
   const available = Math.random() < 0.7;
