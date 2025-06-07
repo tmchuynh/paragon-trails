@@ -1075,3 +1075,9 @@ export const currencyRates = {
   VND: 24000,
   RUB: 78.5,
 };
+
+export function getCityCountryPriceMultiplier(city, country) {
+  const currency = countryCurrencyMap[country] || "USD";
+  const rate = currencyRates[currency] || 1;
+  return rate;
+}
