@@ -106,36 +106,169 @@ export default function HotelsPage() {
     loadHotels();
   }, []);
 
-  // Extract unique values for filters
-  const uniqueAccommodationTypes = Array.from(
-    new Set(hotels.map((hotel) => hotel.accommodationType))
-  ).sort();
-  const uniqueAmenities = Array.from(
-    new Set(hotels.flatMap((hotel) => hotel.amenities || []))
-  ).sort();
-  const uniqueAccessibilityFeatures = Array.from(
-    new Set(hotels.flatMap((hotel) => hotel.accessibilityFeatures || []))
-  ).sort();
-  const uniqueCheckInTimes = Array.from(
-    new Set(hotels.map((hotel) => hotel.checkInTime))
-  ).sort();
-  const uniqueCheckOutTimes = Array.from(
-    new Set(hotels.map((hotel) => hotel.checkOutTime))
-  ).sort();
-  const uniqueSmokingPolicies = Array.from(
-    new Set(hotels.map((hotel) => hotel.policies?.smoking))
-  ).sort();
-  const uniqueCities = Array.from(
-    new Set(
-      hotels
-        .map((hotel) => {
-          // Extract city from the hotel ID
-          const idParts = hotel.id.split("-");
-          return idParts.length > 1 ? idParts[1] : null;
-        })
-        .filter((city) => city !== null)
-    )
-  ) as string[];
+  // Helper function to get filtered options for dropdowns
+  const getFilteredOptions = (
+    field: keyof Hotel | "city" | "amenities" | "accessibilityFeatures",
+    excludeCurrentFilter = true
+  ) => {
+    // Filter hotels based on all filters except the current one being populated
+    let filtered = hotels.filter((hotel) => {
+      // Accommodation Type
+      if (
+        excludeCurrentFilter &&
+        field === "accommodationType" &&
+        accommodationTypeFilter &&
+        hotel.accommodationType !== accommodationTypeFilter
+      )
+        return true;
+      if (field !== "accommodationType" && accommodationTypeFilter)
+        return hotel.accommodationType === accommodationTypeFilter;
+
+      // Amenities - skip this filter when generating amenity options
+      if (field !== "amenities" && amenitiesFilter.length > 0) {
+        if (
+          !hotel.amenities ||
+          !amenitiesFilter.every((amenity) =>
+            hotel.amenities?.includes(amenity)
+          )
+        )
+          return false;
+      }
+
+      // Accessibility Features - skip this filter when generating accessibility options
+      if (field !== "accessibilityFeatures" && accessibilityFilter.length > 0) {
+        if (
+          !hotel.accessibilityFeatures ||
+          !accessibilityFilter.every((feature) =>
+            hotel.accessibilityFeatures?.includes(feature)
+          )
+        )
+          return false;
+      }
+
+      // Check-in Time
+      if (
+        excludeCurrentFilter &&
+        field === "checkInTime" &&
+        checkInTimeFilter &&
+        hotel.checkInTime !== checkInTimeFilter
+      )
+        return true;
+      if (field !== "checkInTime" && checkInTimeFilter)
+        return hotel.checkInTime === checkInTimeFilter;
+
+      // Check-out Time
+      if (
+        excludeCurrentFilter &&
+        field === "checkOutTime" &&
+        checkOutTimeFilter &&
+        hotel.checkOutTime !== checkOutTimeFilter
+      )
+        return true;
+      if (field !== "checkOutTime" && checkOutTimeFilter)
+        return hotel.checkOutTime === checkOutTimeFilter;
+
+      // Min Rooms
+      if (minRoomsFilter !== null && hotel.roomsAvailable < minRoomsFilter)
+        return false;
+
+      // Pet Friendly
+      if (
+        isPetFriendlyFilter !== null &&
+        hotel.isPetFriendly !== isPetFriendlyFilter
+      )
+        return false;
+
+      // Smoking Policy
+      if (
+        excludeCurrentFilter &&
+        field === "smoking" &&
+        smokingFilter &&
+        hotel.policies?.smoking !== smokingFilter
+      )
+        return true;
+      if (field !== "smoking" && smokingFilter)
+        return hotel.policies?.smoking === smokingFilter;
+
+      // Popularity
+      if (isPopularFilter !== null && hotel.isPopular !== isPopularFilter)
+        return false;
+
+      // Rating
+      if (minRatingFilter !== null && hotel.rating < minRatingFilter)
+        return false;
+
+      // City
+      if (excludeCurrentFilter && field === "city" && cityFilter) {
+        const idParts = hotel.id.split("-");
+        const hotelCity = idParts.length > 1 ? idParts[1] : null;
+        if (hotelCity !== cityFilter) return true;
+      }
+      if (field !== "city" && cityFilter) {
+        const idParts = hotel.id.split("-");
+        const hotelCity = idParts.length > 1 ? idParts[1] : null;
+        if (hotelCity !== cityFilter) return false;
+      }
+
+      return true;
+    });
+
+    // Return the appropriate unique values based on the field
+    if (field === "city") {
+      const cities = Array.from(
+        new Set(
+          filtered
+            .map((hotel) => {
+              const idParts = hotel.id.split("-");
+              return idParts.length > 1 ? idParts[1] : null;
+            })
+            .filter((city) => city !== null)
+        )
+      ) as string[];
+      return cities.sort();
+    } else if (field === "amenities") {
+      return Array.from(
+        new Set(filtered.flatMap((hotel) => hotel.amenities || []))
+      ).sort();
+    } else if (field === "accessibilityFeatures") {
+      return Array.from(
+        new Set(filtered.flatMap((hotel) => hotel.accessibilityFeatures || []))
+      ).sort();
+    } else if (field === "checkInTime" || field === "checkOutTime") {
+      return Array.from(
+        new Set(filtered.map((hotel) => hotel[field] as string))
+      ).sort();
+    } else if (field === "smoking") {
+      return Array.from(
+        new Set(
+          filtered.map((hotel) => hotel.policies?.smoking).filter(Boolean)
+        )
+      ).sort();
+    } else {
+      // Standard fields
+      const values = Array.from(
+        new Set(filtered.map((hotel) => hotel[field as keyof Hotel]))
+      );
+
+      // Sort appropriately
+      if (field === "rating") {
+        return (values as number[]).sort((a, b) => b - a); // Rating in descending order
+      }
+
+      return values.sort();
+    }
+  };
+
+  // Generate filtered options for each dropdown
+  const filteredCities = getFilteredOptions("city");
+  const filteredAccommodationTypes = getFilteredOptions("accommodationType");
+  const filteredCheckInTimes = getFilteredOptions("checkInTime");
+  const filteredCheckOutTimes = getFilteredOptions("checkOutTime");
+  const filteredSmokingPolicies = getFilteredOptions("smoking");
+  const filteredAmenities = getFilteredOptions("amenities");
+  const filteredAccessibilityFeatures = getFilteredOptions(
+    "accessibilityFeatures"
+  );
 
   // Apply filters whenever filter states change
   useEffect(() => {
@@ -498,7 +631,7 @@ export default function HotelsPage() {
               </div>
 
               {/* Location Filter */}
-              {uniqueCities.length > 0 && (
+              {filteredCities.length > 0 && (
                 <div className="space-y-2">
                   <h5>Location</h5>
                   <Select
@@ -512,7 +645,7 @@ export default function HotelsPage() {
                     </SelectTrigger>
                     <SelectContent>
                       <SelectItem value="all">All Locations</SelectItem>
-                      {uniqueCities.map((city) => (
+                      {filteredCities.map((city) => (
                         <SelectItem key={city} value={city}>
                           {city.charAt(0).toUpperCase() + city.slice(1)}
                         </SelectItem>
@@ -536,8 +669,8 @@ export default function HotelsPage() {
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="all">All Types</SelectItem>
-                    {uniqueAccommodationTypes.map((type) => (
-                      <SelectItem key={type} value={type}>
+                    {filteredAccommodationTypes.map((type) => (
+                      <SelectItem key={type} value={type.toString()}>
                         {type}
                       </SelectItem>
                     ))}
@@ -625,7 +758,7 @@ export default function HotelsPage() {
               </div>
 
               {/* Smoking Policy Filter */}
-              {uniqueSmokingPolicies.length > 0 && (
+              {filteredSmokingPolicies.length > 0 && (
                 <div className="space-y-2">
                   <h5>Smoking Policy</h5>
                   <Select
@@ -639,7 +772,7 @@ export default function HotelsPage() {
                     </SelectTrigger>
                     <SelectContent>
                       <SelectItem value="all">Any Policy</SelectItem>
-                      {uniqueSmokingPolicies.map((policy) => (
+                      {filteredSmokingPolicies.map((policy) => (
                         <SelectItem key={policy} value={`${policy}`}>
                           {policy}
                         </SelectItem>
@@ -650,7 +783,7 @@ export default function HotelsPage() {
               )}
 
               {/* Check-in Time Filter */}
-              {uniqueCheckInTimes.length > 0 && (
+              {filteredCheckInTimes.length > 0 && (
                 <div className="space-y-2">
                   <h5>Check-in Time</h5>
                   <Select
@@ -664,7 +797,7 @@ export default function HotelsPage() {
                     </SelectTrigger>
                     <SelectContent>
                       <SelectItem value="all">Any Time</SelectItem>
-                      {uniqueCheckInTimes.map((time) => (
+                      {filteredCheckInTimes.map((time) => (
                         <SelectItem key={time} value={time}>
                           {time.slice(0, 2)}:{time.slice(2)} or later
                         </SelectItem>
@@ -675,7 +808,7 @@ export default function HotelsPage() {
               )}
 
               {/* Check-out Time Filter */}
-              {uniqueCheckOutTimes.length > 0 && (
+              {filteredCheckOutTimes.length > 0 && (
                 <div className="space-y-2">
                   <h5>Check-out Time</h5>
                   <Select
@@ -689,7 +822,7 @@ export default function HotelsPage() {
                     </SelectTrigger>
                     <SelectContent>
                       <SelectItem value="all">Any Time</SelectItem>
-                      {uniqueCheckOutTimes.map((time) => (
+                      {filteredCheckOutTimes.map((time) => (
                         <SelectItem key={time} value={time}>
                           {time.slice(0, 2)}:{time.slice(2)} or earlier
                         </SelectItem>
@@ -699,34 +832,13 @@ export default function HotelsPage() {
                 </div>
               )}
 
-              {/* Minimum Rooms Filter */}
-              <div className="space-y-2">
-                <h5>Minimum Rooms Available</h5>
-                <Select
-                  value={minRoomsFilter?.toString() || "all"}
-                  onValueChange={(value) =>
-                    setMinRoomsFilter(value === "all" ? null : parseInt(value))
-                  }
-                >
-                  <SelectTrigger className="w-full">
-                    <SelectValue placeholder="Min. Rooms" />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value="all">Any Number</SelectItem>
-                    {[5, 10, 20, 30, 50].map((count) => (
-                      <SelectItem key={count} value={count.toString()}>
-                        {count}+ Rooms
-                      </SelectItem>
-                    ))}
-                  </SelectContent>
-                </Select>
-              </div>
+              {/* Minimum Rooms Filter - keep as is since it uses fixed values */}
 
               {/* Amenities Filter - Multi-select */}
               <div className="space-y-2">
                 <h5>Amenities</h5>
                 <div className="space-y-2 p-2 border border-border rounded-md max-h-48 overflow-y-auto">
-                  {uniqueAmenities.slice(0, 15).map((amenity) => (
+                  {filteredAmenities.slice(0, 15).map((amenity) => (
                     <div key={amenity} className="flex items-center space-x-2">
                       <Checkbox
                         id={`amenity-${amenity}`}
@@ -743,20 +855,20 @@ export default function HotelsPage() {
                       </label>
                     </div>
                   ))}
-                  {uniqueAmenities.length > 15 && (
+                  {filteredAmenities.length > 15 && (
                     <p className="text-muted-foreground text-xs">
-                      + {uniqueAmenities.length - 15} more amenities available
+                      + {filteredAmenities.length - 15} more amenities available
                     </p>
                   )}
                 </div>
               </div>
 
               {/* Accessibility Features Filter - Multi-select */}
-              {uniqueAccessibilityFeatures.length > 0 && (
+              {filteredAccessibilityFeatures.length > 0 && (
                 <div className="space-y-2">
                   <h5>Accessibility Features</h5>
                   <div className="space-y-2 p-2 border border-border rounded-md max-h-48 overflow-y-auto">
-                    {uniqueAccessibilityFeatures.map((feature) => (
+                    {filteredAccessibilityFeatures.map((feature) => (
                       <div
                         key={feature}
                         className="flex items-center space-x-2"
