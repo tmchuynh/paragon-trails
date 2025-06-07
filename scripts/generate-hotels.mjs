@@ -49,6 +49,7 @@ import {
   streetPrefixes,
   streetSuffixes,
 } from "./utils/shared-hotel-data.mjs";
+import { getSecureRandomInt } from "./utils/data-generator.mjs";
 
 const cities = getCityFiles();
 
@@ -281,7 +282,7 @@ function generateHotel(city, index) {
 
   // Get country-specific hotel names or use default
   const countryHotelNames = hotelNames[country] || hotelNames["default"];
-  const hotelName = `${countryHotelNames[Math.floor(Math.random() * countryHotelNames.length)]}`;
+  const hotelName = `${countryHotelNames[getSecureRandomInt(countryHotelNames.length)]}`;
 
   const rating = Math.floor(Math.random() * 2) + 3; // 3-5 stars
   const accommodationType =
