@@ -24,12 +24,12 @@ export function formatTitleCaseToKebabCase(title) {
 }
 
 
-export function formatTimeTo24HourClock(time) {
+export function formatTimeTo12HourClock(time) {
   const date = new Date(`1970-01-01T${time}`);
   const options = {
     hour: "2-digit",
     minute: "2-digit",
-    hour12: false,
+    hour12: true,
   };
   return date.toLocaleTimeString([], options);
 }
