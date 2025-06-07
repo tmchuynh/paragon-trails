@@ -43,6 +43,7 @@ import {
   countryCurrencyMap,
   euroCountries,
   regionCurrencyMap,
+  getCityCountryPriceMultiplier, // <-- add this import
 } from "./utils/geo-utils.mjs";
 import {
   createObjectParser,
@@ -856,7 +857,15 @@ function generateMotorcycle(cityName, index) {
     ];
   }
 
-  const rentalPricePerDay = Math.floor(Math.random() * 150) + 50; // $50-$200
+  // Generate rental price per day (city/country dependent)
+  let basePrice = 50 + Math.floor(Math.random() * 100); // $50-$150 base
+  const cityCountryMultiplier = getCityCountryPriceMultiplier(
+    cityName,
+    country
+  );
+  basePrice *= cityCountryMultiplier;
+  const rentalPricePerDay = Math.round(basePrice + Math.random() * 50); // add up to $50 random
+
   const depositMultiplier = Math.floor(Math.random() * 3) + 2; // 2-4x daily rate
   const depositAmount = rentalPricePerDay * depositMultiplier;
   const available = Math.random() > 0.3; // 70% available
