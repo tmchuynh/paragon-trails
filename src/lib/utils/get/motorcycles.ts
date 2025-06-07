@@ -14,9 +14,7 @@ export async function getAllMotorcycles(): Promise<Motorcycle[]> {
     for (const cityFile of cityFiles) {
       try {
         const formattedCity = formatKebabToCamelCase(cityFile);
-        console.log(
-          `Trying to load motorcycles for city: ${cityFile} (${formattedCity})`
-        );
+        console.log(`Trying to load motorcycles for city: ${cityFile} `);
 
         // Get country and region for this city
         const country =
@@ -137,7 +135,7 @@ export async function getCityMotorcycles(city: string): Promise<Motorcycle[]> {
     const formattedCity = formatKebabToCamelCase(city);
     const motorcycleId = `${formattedCity}Motorcycles`;
     const cityModule = await import(
-      `@/lib/constants/rentals/motorcycles/${formattedCity}`
+      `@/lib/constants/rentals/motorcycles/${city}`
     );
 
     if (cityModule[motorcycleId]) {
