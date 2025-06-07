@@ -80,6 +80,7 @@ export default function CarRentalsPage() {
   const [cars, setCars] = useState<LuxuryRentalCar[]>([]);
   const [filteredCars, setFilteredCars] = useState<LuxuryRentalCar[]>([]);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
   const [showMobileFilters, setShowMobileFilters] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsPerPage, setItemsPerPage] = useState(12);
@@ -142,105 +143,125 @@ export default function CarRentalsPage() {
   useEffect(() => {
     async function loadCars() {
       try {
+        console.log("Starting to load luxury cars...");
         const allCars = await getLuxuryRentalCars();
+
+        console.log(`Loaded ${allCars.length} cars`);
+
+        // Debug output for first few cars if any
+        if (allCars.length > 0) {
+          console.log("Sample car data:", allCars.slice(0, 2));
+        } else {
+          console.warn("No cars were loaded from the data source");
+          setError("No car data available. Please try again later.");
+        }
+
         setCars(allCars);
         setFilteredCars(allCars);
 
-        // Extract unique values for filters
-        setUniqueCities(
-          [
-            ...new Set(allCars.map((car: LuxuryRentalCar) => car.pickUpCity)),
-          ].sort()
-        );
-        setUniqueMakes(
-          [...new Set(allCars.map((car: LuxuryRentalCar) => car.make))].sort()
-        );
-        setUniqueModels(
-          [...new Set(allCars.map((car: LuxuryRentalCar) => car.model))].sort()
-        );
-        setUniqueYears(
-          [...new Set(allCars.map((car: LuxuryRentalCar) => car.year))].sort(
-            (a, b) => b - a
-          )
-        );
-        setUniqueTypes(
-          [...new Set(allCars.map((car: LuxuryRentalCar) => car.type))].sort()
-        );
-        setUniqueSeats(
-          [...new Set(allCars.map((car: LuxuryRentalCar) => car.seats))].sort(
-            (a, b) => a - b
-          )
-        );
-        setUniqueTransmissions(
-          [
-            ...new Set(allCars.map((car: LuxuryRentalCar) => car.transmission)),
-          ].sort()
-        );
-        setUniqueFuelTypes(
-          [
-            ...new Set(allCars.map((car: LuxuryRentalCar) => car.fuelType)),
-          ].sort()
-        );
+        // Only extract filter values if we have cars
+        if (allCars.length > 0) {
+          // Extract unique values for filters
+          setUniqueCities(
+            [
+              ...new Set(allCars.map((car: LuxuryRentalCar) => car.pickUpCity)),
+            ].sort()
+          );
+          setUniqueMakes(
+            [...new Set(allCars.map((car: LuxuryRentalCar) => car.make))].sort()
+          );
+          setUniqueModels(
+            [
+              ...new Set(allCars.map((car: LuxuryRentalCar) => car.model)),
+            ].sort()
+          );
+          setUniqueYears(
+            [...new Set(allCars.map((car: LuxuryRentalCar) => car.year))].sort(
+              (a, b) => b - a
+            )
+          );
+          setUniqueTypes(
+            [...new Set(allCars.map((car: LuxuryRentalCar) => car.type))].sort()
+          );
+          setUniqueSeats(
+            [...new Set(allCars.map((car: LuxuryRentalCar) => car.seats))].sort(
+              (a, b) => a - b
+            )
+          );
+          setUniqueTransmissions(
+            [
+              ...new Set(
+                allCars.map((car: LuxuryRentalCar) => car.transmission)
+              ),
+            ].sort()
+          );
+          setUniqueFuelTypes(
+            [
+              ...new Set(allCars.map((car: LuxuryRentalCar) => car.fuelType)),
+            ].sort()
+          );
 
-        // Extract all unique colors from the colorOptions arrays
-        const allColors = new Set<string>();
-        allCars.forEach((car: LuxuryRentalCar) => {
-          car.colorOptions.forEach((color) => allColors.add(color));
-        });
-        setUniqueColors([...allColors].sort());
+          // Extract all unique colors from the colorOptions arrays
+          const allColors = new Set<string>();
+          allCars.forEach((car: LuxuryRentalCar) => {
+            car.colorOptions.forEach((color) => allColors.add(color));
+          });
+          setUniqueColors([...allColors].sort());
 
-        // Extract all unique features from the features arrays
-        const allFeatures = new Set<string>();
-        allCars.forEach((car: LuxuryRentalCar) => {
-          car.features.forEach((feature) => allFeatures.add(feature));
-        });
-        setUniqueFeatures([...allFeatures].sort());
+          // Extract all unique features from the features arrays
+          const allFeatures = new Set<string>();
+          allCars.forEach((car: LuxuryRentalCar) => {
+            car.features.forEach((feature) => allFeatures.add(feature));
+          });
+          setUniqueFeatures([...allFeatures].sort());
 
-        setUniquePickUpLocations(
-          [
-            ...new Set(
-              allCars.map((car: LuxuryRentalCar) => car.pickUpLocation)
-            ),
-          ].sort()
-        );
+          setUniquePickUpLocations(
+            [
+              ...new Set(
+                allCars.map((car: LuxuryRentalCar) => car.pickUpLocation)
+              ),
+            ].sort()
+          );
 
-        // Calculate ranges
-        const minHorsepower = Math.min(
-          ...allCars.map((car: LuxuryRentalCar) => car.horsepower)
-        );
-        const maxHorsepower = Math.max(
-          ...allCars.map((car: LuxuryRentalCar) => car.horsepower)
-        );
-        setHorsepowerRange([minHorsepower, maxHorsepower]);
-        setHorsepowerSliderValue([minHorsepower, maxHorsepower]);
+          // Calculate ranges
+          const minHorsepower = Math.min(
+            ...allCars.map((car: LuxuryRentalCar) => car.horsepower)
+          );
+          const maxHorsepower = Math.max(
+            ...allCars.map((car: LuxuryRentalCar) => car.horsepower)
+          );
+          setHorsepowerRange([minHorsepower, maxHorsepower]);
+          setHorsepowerSliderValue([minHorsepower, maxHorsepower]);
 
-        const minPrice = Math.min(
-          ...allCars.map((car: LuxuryRentalCar) => car.rentalPricePerDay)
-        );
-        const maxPrice = Math.max(
-          ...allCars.map((car: LuxuryRentalCar) => car.rentalPricePerDay)
-        );
-        setPriceRange([minPrice, maxPrice]);
-        setPriceSliderValue([minPrice, maxPrice]);
+          const minPrice = Math.min(
+            ...allCars.map((car: LuxuryRentalCar) => car.rentalPricePerDay)
+          );
+          const maxPrice = Math.max(
+            ...allCars.map((car: LuxuryRentalCar) => car.rentalPricePerDay)
+          );
+          setPriceRange([minPrice, maxPrice]);
+          setPriceSliderValue([minPrice, maxPrice]);
 
-        const minAge = Math.min(
-          ...allCars.map((car: LuxuryRentalCar) => car.minimumRentalAge)
-        );
-        const maxAge = Math.max(
-          ...allCars.map((car: LuxuryRentalCar) => car.minimumRentalAge)
-        );
-        setAgeRange([minAge, maxAge]);
+          const minAge = Math.min(
+            ...allCars.map((car: LuxuryRentalCar) => car.minimumRentalAge)
+          );
+          const maxAge = Math.max(
+            ...allCars.map((car: LuxuryRentalCar) => car.minimumRentalAge)
+          );
+          setAgeRange([minAge, maxAge]);
 
-        const minDeposit = Math.min(
-          ...allCars.map((car: LuxuryRentalCar) => car.depositAmount)
-        );
-        const maxDeposit = Math.max(
-          ...allCars.map((car: LuxuryRentalCar) => car.depositAmount)
-        );
-        setDepositRange([minDeposit, maxDeposit]);
-        setDepositSliderValue([minDeposit, maxDeposit]);
+          const minDeposit = Math.min(
+            ...allCars.map((car: LuxuryRentalCar) => car.depositAmount)
+          );
+          const maxDeposit = Math.max(
+            ...allCars.map((car: LuxuryRentalCar) => car.depositAmount)
+          );
+          setDepositRange([minDeposit, maxDeposit]);
+          setDepositSliderValue([minDeposit, maxDeposit]);
+        }
       } catch (error) {
         console.error("Error loading cars:", error);
+        setError("Failed to load car data. Please try again later.");
       } finally {
         setLoading(false);
       }
@@ -498,6 +519,17 @@ export default function CarRentalsPage() {
     return <Loading />;
   }
 
+  if (error) {
+    return (
+      <div className="mx-auto pt-12 w-10/12 text-center">
+        <Car className="mx-auto mb-6 text-muted-foreground size-16" />
+        <h2 className="mb-4 font-bold text-2xl">Something went wrong</h2>
+        <p className="mb-6 text-muted-foreground">{error}</p>
+        <Button onClick={() => window.location.reload()}>Try Again</Button>
+      </div>
+    );
+  }
+
   return (
     <div className="mx-auto pt-3 md:pt-6 lg:pt-12 w-10/12 md:w-11/12">
       <div className="flex flex-col gap-6">
@@ -512,6 +544,12 @@ export default function CarRentalsPage() {
             {filteredCars.length === 1 ? "vehicle" : "vehicles"} available for
             your journey
           </h5>
+          {!cars.length && (
+            <div className="bg-amber-50 mt-2 p-2 border border-amber-200 rounded text-amber-700">
+              No car data was loaded. This could be due to missing data files or
+              configuration issues.
+            </div>
+          )}
         </header>
 
         {/* Controls bar - Sorting, Items Per Page, Mobile Filter Button */}
@@ -798,12 +836,14 @@ export default function CarRentalsPage() {
               <SelectValue placeholder="All Cities" />
             </SelectTrigger>
             <SelectContent className="max-h-[50vh] overflow-auto">
-              <SelectItem value="">All Cities</SelectItem>
-              {uniqueCities.map((city) => (
-                <SelectItem key={city} value={city}>
-                  {city}
-                </SelectItem>
-              ))}
+              <SelectItem value="all">All Cities</SelectItem>
+              {uniqueCities
+                .filter((city) => city && city.trim() !== "")
+                .map((city) => (
+                  <SelectItem key={city} value={city}>
+                    {city}
+                  </SelectItem>
+                ))}
             </SelectContent>
           </Select>
         </div>
@@ -823,7 +863,7 @@ export default function CarRentalsPage() {
               <SelectValue placeholder="All Makes" />
             </SelectTrigger>
             <SelectContent className="max-h-[50vh] overflow-auto">
-              <SelectItem value="">All Makes</SelectItem>
+              <SelectItem value="all">All Makes</SelectItem>
               {uniqueMakes.map((make) => (
                 <SelectItem key={make} value={make}>
                   {make}
@@ -853,7 +893,7 @@ export default function CarRentalsPage() {
               />
             </SelectTrigger>
             <SelectContent className="max-h-[50vh] overflow-auto">
-              <SelectItem value="">All Models</SelectItem>
+              <SelectItem value="all">All Models</SelectItem>
               {uniqueModels
                 .filter(
                   (model) =>
@@ -886,7 +926,7 @@ export default function CarRentalsPage() {
               <SelectValue placeholder="All Years" />
             </SelectTrigger>
             <SelectContent className="max-h-[50vh] overflow-auto">
-              <SelectItem value="">All Years</SelectItem>
+              <SelectItem value="all">All Years</SelectItem>
               {uniqueYears.map((year) => (
                 <SelectItem key={year} value={year.toString()}>
                   {year}
@@ -911,7 +951,7 @@ export default function CarRentalsPage() {
               <SelectValue placeholder="All Types" />
             </SelectTrigger>
             <SelectContent className="max-h-[50vh] overflow-auto">
-              <SelectItem value="">All Types</SelectItem>
+              <SelectItem value="all">All Types</SelectItem>
               {uniqueTypes.map((type) => (
                 <SelectItem key={type} value={type}>
                   {type}
@@ -936,7 +976,7 @@ export default function CarRentalsPage() {
               <SelectValue placeholder="Any Seats" />
             </SelectTrigger>
             <SelectContent className="max-h-[50vh] overflow-auto">
-              <SelectItem value="">Any Seats</SelectItem>
+              <SelectItem value="all">Any Seats</SelectItem>
               {uniqueSeats.map((seats) => (
                 <SelectItem key={seats} value={seats.toString()}>
                   {seats} Seats
@@ -961,12 +1001,16 @@ export default function CarRentalsPage() {
               <SelectValue placeholder="Any Transmission" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="">Any Transmission</SelectItem>
-              {uniqueTransmissions.map((transmission) => (
-                <SelectItem key={transmission} value={transmission}>
-                  {transmission}
-                </SelectItem>
-              ))}
+              <SelectItem value="all">Any Transmission</SelectItem>
+              {uniqueTransmissions
+                .filter(
+                  (transmission) => transmission && transmission.trim() !== ""
+                )
+                .map((transmission) => (
+                  <SelectItem key={transmission} value={transmission}>
+                    {transmission}
+                  </SelectItem>
+                ))}
             </SelectContent>
           </Select>
         </div>
@@ -986,12 +1030,14 @@ export default function CarRentalsPage() {
               <SelectValue placeholder="Any Fuel Type" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="">Any Fuel Type</SelectItem>
-              {uniqueFuelTypes.map((fuelType) => (
-                <SelectItem key={fuelType} value={fuelType}>
-                  {fuelType}
-                </SelectItem>
-              ))}
+              <SelectItem value="all">Any Fuel Type</SelectItem>
+              {uniqueFuelTypes
+                .filter((fuelType) => fuelType && fuelType.trim() !== "")
+                .map((fuelType) => (
+                  <SelectItem key={fuelType} value={fuelType}>
+                    {fuelType}
+                  </SelectItem>
+                ))}
             </SelectContent>
           </Select>
         </div>
@@ -1037,7 +1083,7 @@ export default function CarRentalsPage() {
               <SelectValue placeholder="Any Color" />
             </SelectTrigger>
             <SelectContent className="max-h-[50vh] overflow-auto">
-              <SelectItem value="">Any Color</SelectItem>
+              <SelectItem value="all">Any Color</SelectItem>
               {uniqueColors.map((color) => (
                 <SelectItem key={color} value={color}>
                   {color}
@@ -1062,7 +1108,7 @@ export default function CarRentalsPage() {
               <SelectValue placeholder="Any Feature" />
             </SelectTrigger>
             <SelectContent className="max-h-[50vh] overflow-auto">
-              <SelectItem value="">Any Feature</SelectItem>
+              <SelectItem value="all">Any Feature</SelectItem>
               {uniqueFeatures.map((feature) => (
                 <SelectItem key={feature} value={feature}>
                   {feature}
@@ -1134,7 +1180,7 @@ export default function CarRentalsPage() {
               <SelectValue placeholder="Any Location" />
             </SelectTrigger>
             <SelectContent className="max-h-[50vh] overflow-auto">
-              <SelectItem value="">Any Location</SelectItem>
+              <SelectItem value="all">Any Location</SelectItem>
               {uniquePickUpLocations.map((location) => (
                 <SelectItem key={location} value={location}>
                   {location}
@@ -1175,7 +1221,7 @@ export default function CarRentalsPage() {
             onValueChange={(value) =>
               setFilters({
                 ...filters,
-                minRentalAge: value ? parseInt(value) : null,
+                minRentalAge: value === "all" ? null : parseInt(value),
               })
             }
           >
@@ -1183,7 +1229,7 @@ export default function CarRentalsPage() {
               <SelectValue placeholder="Any Age Requirement" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="">Any Age</SelectItem>
+              <SelectItem value="all">Any Age</SelectItem>
               {Array.from(new Set(cars.map((car) => car.minimumRentalAge)))
                 .sort()
                 .map((age) => (
