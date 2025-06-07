@@ -149,252 +149,486 @@ export default function HotelDetailsPage({
       <div className="gap-6 grid grid-cols-1 lg:grid-cols-3">
         {/* Main content */}
         <div className="space-y-6 lg:col-span-2">
-          <Tabs defaultValue="overview">
-            <TabsList className="mb-4">
-              <TabsTrigger value="overview">Overview</TabsTrigger>
-              <TabsTrigger value="amenities">Amenities</TabsTrigger>
-              <TabsTrigger value="policies">Policies</TabsTrigger>
-              {rooms.length > 0 && (
-                <TabsTrigger value="rooms">Room Options</TabsTrigger>
-              )}
-            </TabsList>
+          {/* Tabs for small screens only */}
+          <div className="sm:hidden">
+            <Tabs defaultValue="overview">
+              <TabsList className="mb-4">
+                <TabsTrigger value="overview">Overview</TabsTrigger>
+                <TabsTrigger value="amenities">Amenities</TabsTrigger>
+                <TabsTrigger value="policies">Policies</TabsTrigger>
+                {rooms.length > 0 && (
+                  <TabsTrigger value="rooms">Room Options</TabsTrigger>
+                )}
+              </TabsList>
 
-            {/* Overview Tab */}
-            <TabsContent value="overview" className="space-y-4">
-              <Card>
-                <CardHeader>
-                  <CardTitle>About This Hotel</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <div className="flex flex-col space-y-4">
-                    <div className="flex items-center gap-2">
-                      <MapPin className="w-5 h-5 text-muted-foreground" />
-                      <span>
-                        {hotel.address}, {cityName}
-                      </span>
-                    </div>
+              {/* Overview Tab */}
+              <TabsContent value="overview" className="space-y-4">
+                <Card>
+                  <CardHeader>
+                    <CardTitle>About This Hotel</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="flex flex-col space-y-4">
+                      <div className="flex items-center gap-2">
+                        <MapPin className="w-5 h-5 text-muted-foreground" />
+                        <span>
+                          {hotel.address}, {cityName}
+                        </span>
+                      </div>
 
-                    <div className="flex items-center gap-2">
-                      <Clock className="w-5 h-5 text-muted-foreground" />
-                      <span>
-                        Check-in: {hotel.checkInTime} • Check-out:{" "}
-                        {hotel.checkOutTime}
-                      </span>
-                    </div>
+                      <div className="flex items-center gap-2">
+                        <Clock className="w-5 h-5 text-muted-foreground" />
+                        <span>
+                          Check-in: {hotel.checkInTime} • Check-out:{" "}
+                          {hotel.checkOutTime}
+                        </span>
+                      </div>
 
-                    <div className="gap-4 grid grid-cols-1 md:grid-cols-2 mt-4">
-                      <div className="flex flex-col space-y-2">
-                        <h5 className="font-medium">Property Features</h5>
-                        <div>
-                          <div className="flex items-center gap-2">
-                            {hotel.isPetFriendly ? (
-                              <Check className="w-5 h-5 text-green-500" />
-                            ) : (
-                              <X className="w-5 h-5 text-red-500" />
-                            )}
-                            <span>
-                              {hotel.isPetFriendly
-                                ? "Pet friendly"
-                                : "No pets allowed"}
-                            </span>
-                          </div>
+                      <div className="gap-4 grid grid-cols-1 md:grid-cols-2 mt-4">
+                        <div className="flex flex-col space-y-2">
+                          <h5 className="font-medium">Property Features</h5>
+                          <div>
+                            <div className="flex items-center gap-2">
+                              {hotel.isPetFriendly ? (
+                                <Check className="w-5 h-5 text-green-500" />
+                              ) : (
+                                <X className="w-5 h-5 text-red-500" />
+                              )}
+                              <span>
+                                {hotel.isPetFriendly
+                                  ? "Pet friendly"
+                                  : "No pets allowed"}
+                              </span>
+                            </div>
 
-                          <div className="flex items-center gap-2">
-                            <span>
-                              Smoking policy: {hotel.policies?.smoking}
-                            </span>
+                            <div className="flex items-center gap-2">
+                              <span>
+                                Smoking policy: {hotel.policies?.smoking}
+                              </span>
+                            </div>
                           </div>
                         </div>
-                      </div>
 
-                      <div className="flex flex-col space-y-2">
-                        <h5 className="font-medium">Rooms Information</h5>
-                        <p>{hotel.roomsAvailable} rooms available</p>
-                        <p>Currency: {hotel.currency}</p>
+                        <div className="flex flex-col space-y-2">
+                          <h5 className="font-medium">Rooms Information</h5>
+                          <p>{hotel.roomsAvailable} rooms available</p>
+                          <p>Currency: {hotel.currency}</p>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </CardContent>
-              </Card>
+                  </CardContent>
+                </Card>
 
-              {/* Accessibility Features */}
-              {hotel.accessibilityFeatures &&
-                hotel.accessibilityFeatures.length > 0 && (
-                  <Card>
-                    <CardHeader>
-                      <CardTitle>Accessibility Features</CardTitle>
-                    </CardHeader>
-                    <CardContent>
-                      <div className="gap-2 grid grid-cols-1 md:grid-cols-2">
-                        {hotel.accessibilityFeatures.map((feature) => (
+                {/* Accessibility Features */}
+                {hotel.accessibilityFeatures &&
+                  hotel.accessibilityFeatures.length > 0 && (
+                    <Card>
+                      <CardHeader>
+                        <CardTitle>Accessibility Features</CardTitle>
+                      </CardHeader>
+                      <CardContent>
+                        <div className="gap-2 grid grid-cols-1 md:grid-cols-2">
+                          {hotel.accessibilityFeatures.map((feature) => (
+                            <div
+                              key={feature}
+                              className="flex items-center gap-2"
+                            >
+                              <Check className="w-4 h-4 text-green-500" />
+                              <span>{feature}</span>
+                            </div>
+                          ))}
+                        </div>
+                      </CardContent>
+                    </Card>
+                  )}
+              </TabsContent>
+
+              {/* Amenities Tab */}
+              <TabsContent value="amenities">
+                <Card>
+                  <CardHeader>
+                    <CardTitle>Hotel Amenities</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    {hotel.amenities && hotel.amenities.length > 0 ? (
+                      <div className="gap-3 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+                        {hotel.amenities.map((amenity) => (
                           <div
-                            key={feature}
+                            key={amenity}
                             className="flex items-center gap-2"
                           >
                             <Check className="w-4 h-4 text-green-500" />
-                            <span>{feature}</span>
+                            <span>{amenity}</span>
+                          </div>
+                        ))}
+                      </div>
+                    ) : (
+                      <p>No amenities information available for this hotel.</p>
+                    )}
+                  </CardContent>
+                </Card>
+              </TabsContent>
+
+              {/* Policies Tab */}
+              <TabsContent value="policies">
+                <Card>
+                  <CardHeader>
+                    <CardTitle>Hotel Policies</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="space-y-4">
+                      <div>
+                        <h5 className="mb-2 font-medium">
+                          Cancellation Policy
+                        </h5>
+                        <p>
+                          {hotel.policies?.cancellation ||
+                            "No cancellation policy information available."}
+                        </p>
+                      </div>
+
+                      <Separator />
+
+                      <div>
+                        <h5 className="mb-2 font-medium">Smoking Policy</h5>
+                        <p>
+                          {hotel.policies?.smoking ||
+                            "No smoking policy information available."}
+                        </p>
+                      </div>
+
+                      <Separator />
+
+                      <div>
+                        <h5 className="mb-2 font-medium">Check-in/Check-out</h5>
+                        <p>Check-in time: {hotel.checkInTime}</p>
+                        <p>Check-out time: {hotel.checkOutTime}</p>
+                      </div>
+
+                      <Separator />
+
+                      <div>
+                        <h5 className="mb-2 font-medium">Pet Policy</h5>
+                        <p>
+                          {hotel.isPetFriendly
+                            ? "Pets are welcome at this hotel."
+                            : "Pets are not allowed at this hotel."}
+                        </p>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+              </TabsContent>
+
+              {/* Rooms Tab (only if rooms data is available) */}
+              {rooms.length > 0 && (
+                <TabsContent value="rooms">
+                  <Card>
+                    <CardHeader>
+                      <CardTitle>Room Options</CardTitle>
+                      <CardDescription>
+                        Available room types at {hotel.name}
+                      </CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                      <div className="space-y-6">
+                        {rooms.map((room) => (
+                          <div
+                            key={room.id}
+                            className="p-4 border border-border rounded-lg"
+                          >
+                            <div className="flex md:flex-row flex-col justify-between md:items-center mb-4">
+                              <h3 className="font-bold">{room.name}</h3>
+                              <div className="flex items-center gap-2 mt-2 md:mt-0">
+                                <Badge variant="outline">
+                                  {room.maxOccupancy} Guests
+                                </Badge>
+                                <Badge
+                                  variant={
+                                    room.availability > 5
+                                      ? "default"
+                                      : "destructive"
+                                  }
+                                >
+                                  {room.availability} Available
+                                </Badge>
+                              </div>
+                            </div>
+
+                            <p className="mb-3 text-gray-600">
+                              {room.description}
+                            </p>
+
+                            <div className="gap-4 grid grid-cols-1 sm:grid-cols-2 mb-4">
+                              <div>
+                                <h5 className="mb-2 font-medium">Features</h5>
+                                <div className="space-y-1">
+                                  {room.features.map((feature) => (
+                                    <div
+                                      key={feature}
+                                      className="flex items-center gap-2"
+                                    >
+                                      <Check className="w-4 h-4 text-green-500" />
+                                      <span>{feature}</span>
+                                    </div>
+                                  ))}
+                                </div>
+                              </div>
+                              <div>
+                                <h5 className="mb-2 font-medium">
+                                  Room Details
+                                </h5>
+                                <p>
+                                  <span className="font-medium">Size:</span>{" "}
+                                  {room.squareFootage} sq ft
+                                </p>
+                                <p>
+                                  <span className="font-medium">Bed Type:</span>{" "}
+                                  {room.bedType}
+                                </p>
+                                <p>
+                                  <span className="font-medium">Price:</span>{" "}
+                                  {room.pricePerNight} {hotel.currency}
+                                </p>
+                              </div>
+                            </div>
+
+                            <Button className="w-full sm:w-auto">
+                              Book This Room
+                            </Button>
                           </div>
                         ))}
                       </div>
                     </CardContent>
                   </Card>
-                )}
-            </TabsContent>
+                </TabsContent>
+              )}
+            </Tabs>
+          </div>
 
-            {/* Amenities Tab */}
-            <TabsContent value="amenities">
-              <Card>
-                <CardHeader>
-                  <CardTitle>Hotel Amenities</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  {hotel.amenities && hotel.amenities.length > 0 ? (
-                    <div className="gap-3 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
-                      {hotel.amenities.map((amenity) => (
-                        <div key={amenity} className="flex items-center gap-2">
-                          <Check className="w-4 h-4 text-green-500" />
-                          <span>{amenity}</span>
+          {/* Stacked panels for md+ screens */}
+          <div className="sm:block space-y-6 hidden">
+            {/* Overview */}
+            <Card>
+              <CardHeader>
+                <CardTitle>About This Hotel</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="flex flex-col space-y-4">
+                  <div className="flex items-center gap-2">
+                    <MapPin className="w-5 h-5 text-muted-foreground" />
+                    <span>
+                      {hotel.address}, {cityName}
+                    </span>
+                  </div>
+
+                  <div className="flex items-center gap-2">
+                    <Clock className="w-5 h-5 text-muted-foreground" />
+                    <span>
+                      Check-in: {hotel.checkInTime} • Check-out:{" "}
+                      {hotel.checkOutTime}
+                    </span>
+                  </div>
+
+                  <div className="gap-4 grid grid-cols-1 md:grid-cols-2 mt-4">
+                    <div className="flex flex-col space-y-2">
+                      <h5 className="font-medium">Property Features</h5>
+                      <div>
+                        <div className="flex items-center gap-2">
+                          {hotel.isPetFriendly ? (
+                            <Check className="w-5 h-5 text-green-500" />
+                          ) : (
+                            <X className="w-5 h-5 text-red-500" />
+                          )}
+                          <span>
+                            {hotel.isPetFriendly
+                              ? "Pet friendly"
+                              : "No pets allowed"}
+                          </span>
                         </div>
-                      ))}
-                    </div>
-                  ) : (
-                    <p>No amenities information available for this hotel.</p>
-                  )}
-                </CardContent>
-              </Card>
-            </TabsContent>
 
-            {/* Policies Tab */}
-            <TabsContent value="policies">
-              <Card>
-                <CardHeader>
-                  <CardTitle>Hotel Policies</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <div className="space-y-4">
-                    <div>
-                      <h5 className="mb-2 font-medium">Cancellation Policy</h5>
-                      <p>
-                        {hotel.policies?.cancellation ||
-                          "No cancellation policy information available."}
-                      </p>
+                        <div className="flex items-center gap-2">
+                          <span>Smoking policy: {hotel.policies?.smoking}</span>
+                        </div>
+                      </div>
                     </div>
 
-                    <Separator />
-
-                    <div>
-                      <h5 className="mb-2 font-medium">Smoking Policy</h5>
-                      <p>
-                        {hotel.policies?.smoking ||
-                          "No smoking policy information available."}
-                      </p>
-                    </div>
-
-                    <Separator />
-
-                    <div>
-                      <h5 className="mb-2 font-medium">Check-in/Check-out</h5>
-                      <p>Check-in time: {hotel.checkInTime}</p>
-                      <p>Check-out time: {hotel.checkOutTime}</p>
-                    </div>
-
-                    <Separator />
-
-                    <div>
-                      <h5 className="mb-2 font-medium">Pet Policy</h5>
-                      <p>
-                        {hotel.isPetFriendly
-                          ? "Pets are welcome at this hotel."
-                          : "Pets are not allowed at this hotel."}
-                      </p>
+                    <div className="flex flex-col space-y-2">
+                      <h5 className="font-medium">Rooms Information</h5>
+                      <p>{hotel.roomsAvailable} rooms available</p>
+                      <p>Currency: {hotel.currency}</p>
                     </div>
                   </div>
-                </CardContent>
-              </Card>
-            </TabsContent>
+                </div>
+              </CardContent>
+            </Card>
 
-            {/* Rooms Tab (only if rooms data is available) */}
-            {rooms.length > 0 && (
-              <TabsContent value="rooms">
+            {/* Accessibility Features */}
+            {hotel.accessibilityFeatures &&
+              hotel.accessibilityFeatures.length > 0 && (
                 <Card>
                   <CardHeader>
-                    <CardTitle>Room Options</CardTitle>
-                    <CardDescription>
-                      Available room types at {hotel.name}
-                    </CardDescription>
+                    <CardTitle>Accessibility Features</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <div className="space-y-6">
-                      {rooms.map((room) => (
-                        <div
-                          key={room.id}
-                          className="p-4 border border-border rounded-lg"
-                        >
-                          <div className="flex md:flex-row flex-col justify-between md:items-center mb-4">
-                            <h3 className="font-bold">{room.name}</h3>
-                            <div className="flex items-center gap-2 mt-2 md:mt-0">
-                              <Badge variant="outline">
-                                {room.maxOccupancy} Guests
-                              </Badge>
-                              <Badge
-                                variant={
-                                  room.availability > 5
-                                    ? "default"
-                                    : "destructive"
-                                }
-                              >
-                                {room.availability} Available
-                              </Badge>
-                            </div>
-                          </div>
-
-                          <p className="mb-3 text-gray-600">
-                            {room.description}
-                          </p>
-
-                          <div className="gap-4 grid grid-cols-1 sm:grid-cols-2 mb-4">
-                            <div>
-                              <h5 className="mb-2 font-medium">Features</h5>
-                              <div className="space-y-1">
-                                {room.features.map((feature) => (
-                                  <div
-                                    key={feature}
-                                    className="flex items-center gap-2"
-                                  >
-                                    <Check className="w-4 h-4 text-green-500" />
-                                    <span>{feature}</span>
-                                  </div>
-                                ))}
-                              </div>
-                            </div>
-                            <div>
-                              <h5 className="mb-2 font-medium">Room Details</h5>
-                              <p>
-                                <span className="font-medium">Size:</span>{" "}
-                                {room.squareFootage} sq ft
-                              </p>
-                              <p>
-                                <span className="font-medium">Bed Type:</span>{" "}
-                                {room.bedType}
-                              </p>
-                              <p>
-                                <span className="font-medium">Price:</span>{" "}
-                                {room.pricePerNight} {hotel.currency}
-                              </p>
-                            </div>
-                          </div>
-
-                          <Button className="w-full sm:w-auto">
-                            Book This Room
-                          </Button>
+                    <div className="gap-2 grid grid-cols-1 md:grid-cols-2">
+                      {hotel.accessibilityFeatures.map((feature) => (
+                        <div key={feature} className="flex items-center gap-2">
+                          <Check className="w-4 h-4 text-green-500" />
+                          <span>{feature}</span>
                         </div>
                       ))}
                     </div>
                   </CardContent>
                 </Card>
-              </TabsContent>
+              )}
+
+            {/* Amenities */}
+            <Card>
+              <CardHeader>
+                <CardTitle>Hotel Amenities</CardTitle>
+              </CardHeader>
+              <CardContent>
+                {hotel.amenities && hotel.amenities.length > 0 ? (
+                  <div className="gap-3 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+                    {hotel.amenities.map((amenity) => (
+                      <div key={amenity} className="flex items-center gap-2">
+                        <Check className="w-4 h-4 text-green-500" />
+                        <span>{amenity}</span>
+                      </div>
+                    ))}
+                  </div>
+                ) : (
+                  <p>No amenities information available for this hotel.</p>
+                )}
+              </CardContent>
+            </Card>
+
+            {/* Policies */}
+            <Card>
+              <CardHeader>
+                <CardTitle>Hotel Policies</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-4">
+                  <div>
+                    <h5 className="mb-2 font-medium">Cancellation Policy</h5>
+                    <p>
+                      {hotel.policies?.cancellation ||
+                        "No cancellation policy information available."}
+                    </p>
+                  </div>
+
+                  <Separator />
+
+                  <div>
+                    <h5 className="mb-2 font-medium">Smoking Policy</h5>
+                    <p>
+                      {hotel.policies?.smoking ||
+                        "No smoking policy information available."}
+                    </p>
+                  </div>
+
+                  <Separator />
+
+                  <div>
+                    <h5 className="mb-2 font-medium">Check-in/Check-out</h5>
+                    <p>Check-in time: {hotel.checkInTime}</p>
+                    <p>Check-out time: {hotel.checkOutTime}</p>
+                  </div>
+
+                  <Separator />
+
+                  <div>
+                    <h5 className="mb-2 font-medium">Pet Policy</h5>
+                    <p>
+                      {hotel.isPetFriendly
+                        ? "Pets are welcome at this hotel."
+                        : "Pets are not allowed at this hotel."}
+                    </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Rooms */}
+            {rooms.length > 0 && (
+              <Card>
+                <CardHeader>
+                  <CardTitle>Room Options</CardTitle>
+                  <CardDescription>
+                    Available room types at {hotel.name}
+                  </CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <div className="space-y-6">
+                    {rooms.map((room) => (
+                      <div
+                        key={room.id}
+                        className="p-4 border border-border rounded-lg"
+                      >
+                        <div className="flex md:flex-row flex-col justify-between md:items-center mb-4">
+                          <h3 className="font-bold">{room.name}</h3>
+                          <div className="flex items-center gap-2 mt-2 md:mt-0">
+                            <Badge variant="outline">
+                              {room.maxOccupancy} Guests
+                            </Badge>
+                            <Badge
+                              variant={
+                                room.availability > 5
+                                  ? "default"
+                                  : "destructive"
+                              }
+                            >
+                              {room.availability} Available
+                            </Badge>
+                          </div>
+                        </div>
+
+                        <p className="mb-3 text-gray-600">{room.description}</p>
+
+                        <div className="gap-4 grid grid-cols-1 sm:grid-cols-2 mb-4">
+                          <div>
+                            <h5 className="mb-2 font-medium">Features</h5>
+                            <div className="space-y-1">
+                              {room.features.map((feature) => (
+                                <div
+                                  key={feature}
+                                  className="flex items-center gap-2"
+                                >
+                                  <Check className="w-4 h-4 text-green-500" />
+                                  <span>{feature}</span>
+                                </div>
+                              ))}
+                            </div>
+                          </div>
+                          <div>
+                            <h5 className="mb-2 font-medium">Room Details</h5>
+                            <p>
+                              <span className="font-medium">Size:</span>{" "}
+                              {room.squareFootage} sq ft
+                            </p>
+                            <p>
+                              <span className="font-medium">Bed Type:</span>{" "}
+                              {room.bedType}
+                            </p>
+                            <p>
+                              <span className="font-medium">Price:</span>{" "}
+                              {room.pricePerNight} {hotel.currency}
+                            </p>
+                          </div>
+                        </div>
+
+                        <Button className="w-full sm:w-auto">
+                          Book This Room
+                        </Button>
+                      </div>
+                    ))}
+                  </div>
+                </CardContent>
+              </Card>
             )}
-          </Tabs>
+          </div>
         </div>
 
         {/* Sidebar */}
