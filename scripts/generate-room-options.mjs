@@ -362,88 +362,110 @@ function generateRoomOptions(hotel, index) {
     if (viewTypesToUse.length === 0) viewTypesToUse = [options.viewType];
   }
 
-  // Generate different combinations of room types
-  for (const bedType of getRandomSubset(bedTypesToUse, 1, 5)) {
-    for (const viewType of getRandomSubset(viewTypesToUse, 1, 4)) {
-      // Skip some combinations to have a varied set of rooms
-      if (!options.bedType && !options.viewType && Math.random() < 0.3)
-        continue;
+  // --- Determine number of room combinations ---
+  const numRooms = Math.floor(Math.random() * 7) + 4; // 4-10 by default
 
-      // Use country-specific room theme with 40% probability
-      let prefix;
-      if (Math.random() < 0.4 && roomThemes.length > 0) {
-        prefix = roomThemes[Math.floor(Math.random() * roomThemes.length)];
-      } else {
-        prefix = roomPrefixes[Math.floor(Math.random() * roomPrefixes.length)];
-      }
-
-      const suffix =
-        roomSuffixes[Math.floor(Math.random() * roomSuffixes.length)];
-      const name = `${prefix} ${bedType} ${suffix}`;
-
-      const price = calculateRoomPrice(basePricePerNight, bedType, viewType);
-
-      // Generate room amenities
-      const amenities = [...baseAmenities];
-      // Add 3-6 more amenities
-      const additionalRoomAmenities = getRandomSubset(
-        additionalAmenities,
-        1,
-        5
-      );
-      amenities.push(...additionalRoomAmenities);
-
-      // Determine if this room should have accessibility features (20% chance)
-      const accessibilityFeatures =
-        Math.random() < 0.2
-          ? getRandomSubset(
-              [
-                "Wheelchair Accessible",
-                "Elevator",
-                "Accessible Bathroom",
-                "Visual Aids",
-                "Hearing Support",
-              ],
-              1,
-              3
-            )
-          : undefined;
-
-      // Create a more descriptive room description using the template system
-      const description = generateEnhancedDescription(
-        prefix,
-        bedType,
-        suffix,
-        viewType,
-        country
-      );
-
-      // Determine max guests based on options or calculate it
-      let maxGuests = options.maxGuests
-        ? parseInt(options.maxGuests)
-        : calculateMaxGuests(bedType);
-
-      roomOptions.push({
-        id: `${hotel.id}-room-${index}`,
-        name,
-        description,
-        occupancy: {
-          adults: calculateAdults(bedType),
-          children:
-            Math.random() > 0.5 ? Math.floor(Math.random() * 3) : undefined,
-          maxGuests: maxGuests,
-        },
-        bedType,
-        view: viewType !== "None" ? viewType : undefined,
-        amenities,
-        accessibilityFeatures,
-        pricePerNight: price,
-        currency: hotel.currency,
-        refundable: Math.random() > 0.3, // 70% are refundable
-        breakfastIncluded: Math.random() > 0.5, // 50% include breakfast
-        availableCount: Math.floor(Math.random() * 10) + 1, // 1-10 rooms available
-      });
+  // Generate unique combinations of bedType and viewType
+  const combinations = [];
+  const usedCombos = new Set();
+  while (combinations.length < numRooms) {
+    const bedType =
+      bedTypesToUse[Math.floor(Math.random() * bedTypesToUse.length)];
+    const viewType =
+      viewTypesToUse[Math.floor(Math.random() * viewTypesToUse.length)];
+    const comboKey = `${bedType}|${viewType}`;
+    if (!usedCombos.has(comboKey)) {
+      combinations.push({ bedType, viewType });
+      usedCombos.add(comboKey);
     }
+  }
+
+  for (const { bedType, viewType } of combinations) {
+    // Use country-specific room theme with 40% probability
+    let prefix;
+    if (Math.random() < 0.4 && roomThemes.length > 0) {
+      prefix = roomThemes[Math.floor(Math.random() * roomThemes.length)];
+    } else {
+      prefix = roomPrefixes[Math.floor(Math.random() * roomPrefixes.length)];
+    }
+
+    const suffix =
+      roomSuffixes[Math.floor(Math.random() * roomSuffixes.length)];
+    const name = `${prefix} ${bedType} ${suffix}`;
+
+    const price = calculateRoomPrice(basePricePerNight, bedType, viewType);
+
+    // --- Amenities logic ---
+    // Higher price rooms get more amenities
+    let amenitiesCount;
+    if (price > basePricePerNight * 1.25) {
+      amenitiesCount = Math.floor(Math.random() * 6) + 10; // 10-15
+    } else {
+      amenitiesCount = Math.floor(Math.random() * 8) + 3; // 3-10
+    }
+    // Always include all base amenities, then add additional up to amenitiesCount
+    const amenities = [...baseAmenities];
+    const additionalRoomAmenities = getRandomSubset(
+      additionalAmenities,
+      Math.max(0, amenitiesCount - baseAmenities.length),
+      Math.max(0, amenitiesCount - baseAmenities.length)
+    );
+    amenities.push(...additionalRoomAmenities);
+    // If too many, trim to amenitiesCount
+    if (amenities.length > amenitiesCount) {
+      amenities.length = amenitiesCount;
+    }
+
+    // Determine if this room should have accessibility features (20% chance)
+    const accessibilityFeatures =
+      Math.random() < 0.2
+        ? getRandomSubset(
+            [
+              "Wheelchair Accessible",
+              "Elevator",
+              "Accessible Bathroom",
+              "Visual Aids",
+              "Hearing Support",
+            ],
+            1,
+            3
+          )
+        : undefined;
+
+    // Create a more descriptive room description using the template system
+    const description = generateEnhancedDescription(
+      prefix,
+      bedType,
+      suffix,
+      viewType,
+      country
+    );
+
+    // Determine max guests based on options or calculate it
+    let maxGuests = options.maxGuests
+      ? parseInt(options.maxGuests)
+      : calculateMaxGuests(bedType);
+
+    roomOptions.push({
+      id: `${hotel.id}-room-${index}-${bedType.replace(/\s/g, "")}-${viewType.replace(/\s/g, "")}`,
+      name,
+      description,
+      occupancy: {
+        adults: calculateAdults(bedType),
+        children:
+          Math.random() > 0.5 ? Math.floor(Math.random() * 3) : undefined,
+        maxGuests: maxGuests,
+      },
+      bedType,
+      view: viewType !== "None" ? viewType : undefined,
+      amenities,
+      accessibilityFeatures,
+      pricePerNight: price,
+      currency: hotel.currency,
+      refundable: Math.random() > 0.3, // 70% are refundable
+      breakfastIncluded: Math.random() > 0.5, // 50% include breakfast
+      availableCount: Math.floor(Math.random() * 10) + 1, // 1-10 rooms available
+    });
   }
 
   return roomOptions;
@@ -761,7 +783,7 @@ async function generateRoomOptionsForHotels() {
 
           // Create filename from hotel name
           const kebabName = removeSpecialCharacters(
-            formatTitleToCamelCase(hotel.name)
+            formatTitleToCamelCase(hotel.name).replaceAll("'", "")
           );
           const roomsFilePath = path.join(cityDir, `${kebabName}Rooms.ts`);
 
@@ -782,14 +804,16 @@ async function generateRoomOptionsForHotels() {
                 extractRoomOptionsFromContent(existingContent);
 
               // Generate additional room options
-              const additionalOptions = generateRoomOptions(hotel, i);
-
+              let additionalOptions = generateRoomOptions(hotel, i);
               // Only take the requested number of new rooms
-              const newRoomsToAdd = additionalOptions.slice(
-                0,
-                options.appendCount
-              );
-
+              let newRoomsToAdd;
+              if (options.appendCount) {
+                newRoomsToAdd = additionalOptions.slice(0, options.appendCount);
+              } else {
+                // Default: 4-10
+                const defaultAppendCount = Math.floor(Math.random() * 7) + 4;
+                newRoomsToAdd = additionalOptions.slice(0, defaultAppendCount);
+              }
               // Combine existing and new room options
               const combinedOptions = [
                 ...existingRoomOptions,
@@ -800,7 +824,7 @@ async function generateRoomOptionsForHotels() {
               let content = `// This file is auto-generated. Do not edit manually.\n\n`;
               content += `import { RoomOption } from "@/lib/interfaces/services/rentals";\n\n`;
               content += `// Room options for ${hotel.name}\n`;
-              content += `export const ${removeSpecialCharacters(formatTitleToCamelCase(hotel.name))}Rooms: RoomOption[] = [\n`;
+              content += `export const ${toValidVarName(hotel.name)}Rooms: RoomOption[] = [\n`;
 
               combinedOptions.forEach((room, index) => {
                 content += `  {\n`;
@@ -854,7 +878,7 @@ async function generateRoomOptionsForHotels() {
           // Create file content
           let content = `import { RoomOption } from "@/lib/interfaces/services/rentals";\n\n`;
           content += `// Room options for ${hotel.name}\n`;
-          content += `export const ${formatTitleToCamelCase(hotel.name)}Rooms: RoomOption[] = [\n`;
+          content += `export const ${toValidVarName(hotel.name)}Rooms: RoomOption[] = [\n`;
 
           roomOptions.forEach((room, index) => {
             content += `  {\n`;
@@ -901,6 +925,12 @@ async function generateRoomOptionsForHotels() {
   } catch (error) {
     console.error("Error reading hotels directory:", error);
   }
+}
+
+// Utility to create a valid variable name from hotel name
+function toValidVarName(str) {
+  // Remove all non-alphanumeric characters
+  return formatTitleToCamelCase(str).replace(/[^a-zA-Z0-9]/g, "");
 }
 
 // Extract hotel objects from the content string
