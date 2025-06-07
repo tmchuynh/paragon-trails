@@ -18,6 +18,17 @@ import {
   Check,
   Bike,
   Search,
+  Car,
+  DollarSign,
+  Calendar,
+  User,
+  Key,
+  Fuel,
+  Settings,
+  Palette,
+  Star,
+  List,
+  ArrowUpDown,
 } from "lucide-react";
 import {
   Pagination,
@@ -805,27 +816,28 @@ function MotorcycleCard({ motorcycle }: { motorcycle: Motorcycle }) {
       </CardHeader>
       <CardContent className="flex-grow">
         <div className="space-y-2">
-          {motorcycle.imageUrl && (
-            <img
-              src={motorcycle.imageUrl}
-              alt={`${motorcycle.make} ${motorcycle.model}`}
-              className="mb-2 rounded w-full h-40 object-cover"
-            />
-          )}
           <div className="flex flex-wrap gap-2 text-xs">
-            <Badge variant="outline">{motorcycle.engineSize} Engine</Badge>
-            <Badge variant="outline">
+            <div className="flex items-center gap-2">
+              {motorcycle.engineSize} Engine
+            </div>
+            <div className="flex items-center gap-2">
+              <Key className="w-4 h-4 text-muted-foreground" />
               {motorcycle.transmission.charAt(0).toUpperCase() +
                 motorcycle.transmission.slice(1)}
-            </Badge>
-            <Badge variant="outline">{motorcycle.color}</Badge>
-            <Badge variant="outline">
+            </div>
+            <div className="flex items-center gap-2">
+              <DollarSign className="w-4 h-4 text-muted-foreground" />{" "}
+              {motorcycle.rentalPricePerDay} {motorcycle.currency}/day
+            </div>
+            <div className="flex items-center gap-2">{motorcycle.color}</div>
+            <div className="flex items-center gap-2">
+              <User className="w-4 h-4 text-muted-foreground" />
               {motorcycle.seatCapacity} Seat
               {motorcycle.seatCapacity > 1 ? "s" : ""}
-            </Badge>
-            <Badge variant="outline">
+            </div>
+            <div className="flex items-center gap-2">
               {motorcycle.hasStorage ? "Has Storage" : "No Storage"}
-            </Badge>
+            </div>
           </div>
           <div className="flex items-center gap-2 mt-2">
             <Bike className="w-4 h-4 text-muted-foreground" />
@@ -836,31 +848,17 @@ function MotorcycleCard({ motorcycle }: { motorcycle: Motorcycle }) {
                 : ""}
             </span>
           </div>
-          <div className="flex items-center gap-2 mt-2">
-            <span className="font-semibold text-lg">
-              {motorcycle.currency} {motorcycle.rentalPricePerDay}
-            </span>
-            <span className="text-muted-foreground text-xs">/ day</span>
-          </div>
-          {/* Features */}
-          {motorcycle.features && motorcycle.features.length > 0 && (
-            <div>
-              <Separator className="my-3" />
-              <h5 className="mb-2 font-medium">Features</h5>
-              <div className="flex flex-wrap gap-1">
-                {motorcycle.features.slice(0, 5).map((feature) => (
-                  <Badge key={feature} variant="outline" className="text-xs">
-                    {feature}
-                  </Badge>
-                ))}
-                {motorcycle.features.length > 5 && (
-                  <Badge variant="outline" className="text-xs">
-                    +{motorcycle.features.length - 5} more
-                  </Badge>
+
+          <div className="space-y-1 mt-2 text-sm">
+            <div className="flex items-center gap-2">
+              <span>
+                {motorcycle.features.slice(0, 3).join(", ")}
+                {motorcycle.features.length > 3 && (
+                  <span> +{motorcycle.features.length - 3} more</span>
                 )}
-              </div>
+              </span>
             </div>
-          )}
+          </div>
         </div>
       </CardContent>
       <CardFooter>
