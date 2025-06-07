@@ -517,21 +517,10 @@ function TestimonialCard({ testimonial }: { testimonial: Testimonial }) {
     ? format(parseISO(testimonial.date), "MMM d, yyyy")
     : "";
 
-  // Extract tour name if available
-  const tourName = testimonial.author || "";
-
   return (
     <div className="flex flex-col shadow-md border border-border rounded-lg h-full overflow-hidden">
       <div className="flex flex-col p-6 h-full">
-        {/* Tour name if available */}
-        {tourName && (
-          <p className="mb-2 font-medium text-primary text-xs">{tourName}</p>
-        )}
-
         {/* Rating stars */}
-        <div className="mb-3">
-          {displayRatingStars(Math.round(testimonial.rating))}
-        </div>
 
         {/* Title */}
         <h4 className="mb-3 font-semibold">{testimonial.title}</h4>
@@ -542,11 +531,19 @@ function TestimonialCard({ testimonial }: { testimonial: Testimonial }) {
         </p>
 
         {/* Author and date */}
-        <div className="mt-auto">
-          <p className="font-medium text-sm">{testimonial.author}</p>
-          {formattedDate && (
-            <p className="text-gray-500 text-xs">{formattedDate}</p>
-          )}
+        <div className="flex justify-between items-center mt-auto">
+          <div>
+            {" "}
+            <p className="font-medium text-sm">{testimonial.author}</p>
+            {testimonial.date && (
+              <p className="text-gray-500 text-xs">{testimonial.date}</p>
+            )}
+          </div>
+          {displayRatingStars(Math.round(testimonial.rating), 5, {
+            size: "sm",
+            showRatingNumber: false,
+            align: "right",
+          })}
         </div>
       </div>
     </div>
