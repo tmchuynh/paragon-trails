@@ -116,33 +116,151 @@ export default function MotorcyclesRentalPage() {
     loadMotorcycles();
   }, []);
 
-  // Unique values for filters
-  const uniqueMakes = Array.from(
-    new Set(motorcycles.map((m) => m.make))
-  ).sort();
-  const uniqueModels = Array.from(
-    new Set(motorcycles.map((m) => m.model))
-  ).sort();
-  const uniqueYears = Array.from(new Set(motorcycles.map((m) => m.year))).sort(
-    (a, b) => b - a
-  );
-  const uniqueTypes = Array.from(
-    new Set(motorcycles.map((m) => m.type))
-  ).sort();
-  const uniqueEngineSizes = Array.from(
-    new Set(motorcycles.map((m) => m.engineSize))
-  ).sort();
-  const uniqueTransmissions = Array.from(
-    new Set(motorcycles.map((m) => m.transmission))
-  ).sort();
-  const uniqueColors = Array.from(
-    new Set(motorcycles.map((m) => m.color))
-  ).sort();
-  const uniqueSeatCapacities = Array.from(
-    new Set(motorcycles.map((m) => m.seatCapacity))
-  ).sort((a, b) => a - b);
-  const uniqueFeatures = Array.from(
-    new Set(motorcycles.flatMap((m) => m.features || []))
+  // Generate filtered options for each dropdown
+  const getFilteredOptions = (
+    field: keyof Motorcycle,
+    excludeCurrentFilter = true
+  ) => {
+    // Filter motorcycles based on all filters except the current one
+    const filtered = motorcycles.filter((m) => {
+      if (
+        excludeCurrentFilter &&
+        field === "make" &&
+        makeFilter &&
+        m.make !== makeFilter
+      )
+        return true;
+      if (field !== "make" && makeFilter && m.make !== makeFilter) return false;
+
+      if (
+        excludeCurrentFilter &&
+        field === "model" &&
+        modelFilter &&
+        m.model !== modelFilter
+      )
+        return true;
+      if (field !== "model" && modelFilter && m.model !== modelFilter)
+        return false;
+
+      if (
+        excludeCurrentFilter &&
+        field === "year" &&
+        yearFilter &&
+        m.year !== yearFilter
+      )
+        return true;
+      if (field !== "year" && yearFilter && m.year !== yearFilter) return false;
+
+      if (
+        excludeCurrentFilter &&
+        field === "type" &&
+        typeFilter &&
+        m.type !== typeFilter
+      )
+        return true;
+      if (field !== "type" && typeFilter && m.type !== typeFilter) return false;
+
+      if (
+        excludeCurrentFilter &&
+        field === "engineSize" &&
+        engineSizeFilter &&
+        m.engineSize !== engineSizeFilter
+      )
+        return true;
+      if (
+        field !== "engineSize" &&
+        engineSizeFilter &&
+        m.engineSize !== engineSizeFilter
+      )
+        return false;
+
+      if (
+        excludeCurrentFilter &&
+        field === "transmission" &&
+        transmissionFilter &&
+        m.transmission !== transmissionFilter
+      )
+        return true;
+      if (
+        field !== "transmission" &&
+        transmissionFilter &&
+        m.transmission !== transmissionFilter
+      )
+        return false;
+
+      if (
+        excludeCurrentFilter &&
+        field === "color" &&
+        colorFilter &&
+        m.color !== colorFilter
+      )
+        return true;
+      if (field !== "color" && colorFilter && m.color !== colorFilter)
+        return false;
+
+      if (
+        excludeCurrentFilter &&
+        field === "seatCapacity" &&
+        seatCapacityFilter &&
+        m.seatCapacity !== seatCapacityFilter
+      )
+        return true;
+      if (
+        field !== "seatCapacity" &&
+        seatCapacityFilter &&
+        m.seatCapacity !== seatCapacityFilter
+      )
+        return false;
+
+      return true;
+    });
+
+    // Get unique values for the field
+    const unique = Array.from(new Set(filtered.map((m) => m[field])));
+
+    // Sort appropriately
+    if (field === "year") {
+      return unique.sort((a, b) => Number(b) - Number(a)); // Years in descending order
+    }
+
+    if (field === "seatCapacity") {
+      return unique.sort((a, b) => Number(a) - Number(b)); // Seat capacity in ascending order
+    }
+
+    // String values in alphabetical order
+    return unique.sort();
+  };
+
+  // Dynamic filter options based on current selections
+  const filteredMakes = getFilteredOptions("make", false);
+  const filteredModels = getFilteredOptions("model");
+  const filteredYears = getFilteredOptions("year");
+  const filteredTypes = getFilteredOptions("type");
+  const filteredEngineSizes = getFilteredOptions("engineSize");
+  const filteredTransmissions = getFilteredOptions("transmission");
+  const filteredColors = getFilteredOptions("color");
+  const filteredSeatCapacities = getFilteredOptions("seatCapacity");
+
+  // Filter features based on current motorcycle selections
+  const filteredFeatures = Array.from(
+    new Set(
+      motorcycles
+        .filter((m) => {
+          if (makeFilter && m.make !== makeFilter) return false;
+          if (modelFilter && m.model !== modelFilter) return false;
+          if (yearFilter && m.year !== yearFilter) return false;
+          if (typeFilter && m.type !== typeFilter) return false;
+          if (engineSizeFilter && m.engineSize !== engineSizeFilter)
+            return false;
+          if (transmissionFilter && m.transmission !== transmissionFilter)
+            return false;
+          if (colorFilter && m.color !== colorFilter) return false;
+          if (seatCapacityFilter && m.seatCapacity !== seatCapacityFilter)
+            return false;
+          return true;
+        })
+        .flatMap((m) => m.features || [])
+    )
   ).sort();
 
   // Filtering logic
@@ -470,8 +588,8 @@ export default function MotorcyclesRentalPage() {
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="all">All Makes</SelectItem>
-                    {uniqueMakes.map((make) => (
-                      <SelectItem key={make} value={make}>
+                    {filteredMakes.map((make) => (
+                      <SelectItem key={make} value={make.toString()}>
                         {make}
                       </SelectItem>
                     ))}
@@ -492,8 +610,8 @@ export default function MotorcyclesRentalPage() {
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="all">All Models</SelectItem>
-                    {uniqueModels.map((model) => (
-                      <SelectItem key={model} value={model}>
+                    {filteredModels.map((model) => (
+                      <SelectItem key={model} value={model.toString()}>
                         {model}
                       </SelectItem>
                     ))}
@@ -514,7 +632,7 @@ export default function MotorcyclesRentalPage() {
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="all">All Years</SelectItem>
-                    {uniqueYears.map((year) => (
+                    {filteredYears.map((year) => (
                       <SelectItem key={year} value={year.toString()}>
                         {year}
                       </SelectItem>
@@ -536,8 +654,8 @@ export default function MotorcyclesRentalPage() {
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="all">All Types</SelectItem>
-                    {uniqueTypes.map((type) => (
-                      <SelectItem key={type} value={type}>
+                    {filteredTypes.map((type) => (
+                      <SelectItem key={type} value={type.toString()}>
                         {type}
                       </SelectItem>
                     ))}
@@ -558,8 +676,8 @@ export default function MotorcyclesRentalPage() {
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="all">All Sizes</SelectItem>
-                    {uniqueEngineSizes.map((size) => (
-                      <SelectItem key={size} value={size}>
+                    {filteredEngineSizes.map((size) => (
+                      <SelectItem key={size} value={size.toString()}>
                         {size}
                       </SelectItem>
                     ))}
@@ -580,8 +698,8 @@ export default function MotorcyclesRentalPage() {
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="all">All</SelectItem>
-                    {uniqueTransmissions.map((trans) => (
-                      <SelectItem key={trans} value={trans}>
+                    {filteredTransmissions.map((trans) => (
+                      <SelectItem key={trans} value={trans.toString()}>
                         {trans.charAt(0).toUpperCase() + trans.slice(1)}
                       </SelectItem>
                     ))}
@@ -602,8 +720,8 @@ export default function MotorcyclesRentalPage() {
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="all">All Colors</SelectItem>
-                    {uniqueColors.map((color) => (
-                      <SelectItem key={color} value={color}>
+                    {filteredColors.map((color) => (
+                      <SelectItem key={color} value={color.toString()}>
                         {color}
                       </SelectItem>
                     ))}
@@ -626,7 +744,7 @@ export default function MotorcyclesRentalPage() {
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="all">All</SelectItem>
-                    {uniqueSeatCapacities.map((seat) => (
+                    {filteredSeatCapacities.map((seat) => (
                       <SelectItem key={seat} value={seat.toString()}>
                         {seat}
                       </SelectItem>
@@ -722,7 +840,7 @@ export default function MotorcyclesRentalPage() {
               <div className="space-y-2">
                 <h5>Features</h5>
                 <div className="space-y-2 p-2 border border-border rounded-md max-h-48 overflow-y-auto">
-                  {uniqueFeatures.map((feature) => (
+                  {filteredFeatures.map((feature) => (
                     <div key={feature} className="flex items-center space-x-2">
                       <Checkbox
                         id={`feature-${feature}`}
