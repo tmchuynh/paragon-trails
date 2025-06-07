@@ -362,6 +362,7 @@ export default function CarRentalsPage() {
                 onClick={() => setShowFilters(!showFilters)}
                 className="flex items-center gap-2"
                 size="sm"
+                variant="outline"
               >
                 <Filter className="w-4 h-4" />
                 {showFilters ? "Hide Filters" : "Show Filters"}
@@ -369,7 +370,11 @@ export default function CarRentalsPage() {
               {/* Sort dropdown */}
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
-                  <Button size="sm" className="flex items-center gap-2">
+                  <Button
+                    size="sm"
+                    variant="outline"
+                    className="flex items-center gap-2"
+                  >
                     <SlidersHorizontal className="w-4 h-4" />
                     Sort
                   </Button>
