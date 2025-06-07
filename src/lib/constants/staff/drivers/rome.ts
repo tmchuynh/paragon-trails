@@ -1,522 +1,347 @@
+// Auto-generated driver data for rome
+// Country: Italy
+// Region: Mediterranean
+
+// This file is auto-generated. Do not edit manually.
 import { Driver } from "@/lib/interfaces/people/staff";
 
 export const romeitalymediterraneanDrivers: Driver[] = [
   {
     id: "driver-rome-1",
-    name: "Harry Crawford",
-    licenseNumber: "Q8E611",
-    licenseExpiry: "2027-12-17",
-    experienceYears: 3,
-    languagesSpoken: ["English", "German", "Finnish"],
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "13:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "03:00",
-            to: "05:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "16:00",
-          },
-          {
-            from: "06:00",
-            to: "10:00",
-          },
-        ],
-      },
-    ],
-    ratings: 3.9,
-    phone: "+156 517-289-9024",
-    email: "harry.crawford@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/men/45.jpg",
-    specialties: [
-      "Night Shift",
-      "VIP Transport",
-      "Luxury Car Specialist",
-      "Event Transportation",
-    ],
-    vehicleTypesCertified: ["Electric Vehicle", "Sedan", "Convertible"],
+    name: "Albert Cooper",
+    licenseNumber: "H7F088",
+    licenseExpiry: "2028-02-12",
+    experienceYears: 15,
+    languagesSpoken: ["English", "Swedish", "Finnish"],
+    available: [],
+    ratings: 3.5,
+    phone: "+724 906-256-9033",
+    email: "albert.cooper@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/46.jpg",
+    specialties: ["Tour Guide Driver", "Airport Transfers", "VIP Transport"],
+    vehicleTypesCertified: ["Sports Car", "Van"],
   },
   {
     id: "driver-rome-2",
-    name: "Angela Lee",
-    licenseNumber: "H7X152",
-    licenseExpiry: "2028-02-11",
-    experienceYears: 11,
-    languagesSpoken: ["English", "Dutch", "Russian"],
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "04:00",
-            to: "06:00",
-          },
-          {
-            from: "18:00",
-            to: "22:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "14:00",
-          },
-          {
-            from: "07:00",
-            to: "09:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "20:00",
-            to: "23:00",
-          },
-          {
-            from: "04:00",
-            to: "06:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "13:00",
-          },
-        ],
-      },
-    ],
+    name: "Liam Smith",
+    licenseNumber: "T4W540",
+    licenseExpiry: "2029-07-08",
+    experienceYears: 17,
+    languagesSpoken: ["English", "Dutch", "Danish", "Portuguese"],
+    available: [],
     ratings: 4.1,
-    phone: "+441 617-946-9940",
-    email: "angela.lee@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/women/54.jpg",
-    specialties: [
-      "Event Transportation",
-      "VIP Transport",
-      "Luxury Car Specialist",
-    ],
-    vehicleTypesCertified: ["Van"],
+    phone: "+326 589-209-7688",
+    email: "liam.smith@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/42.jpg",
+    specialties: ["Night Shift", "Event Transportation", "Long-Distance Driving"],
+    vehicleTypesCertified: ["Van", "Electric Vehicle", "Limousine"],
   },
   {
     id: "driver-rome-3",
-    name: "Aiden Rodriguez",
-    licenseNumber: "E3C459",
-    licenseExpiry: "2028-11-08",
-    experienceYears: 6,
-    languagesSpoken: ["English", "French", "Swedish"],
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "00:00",
-            to: "03:00",
-          },
-          {
-            from: "16:00",
-            to: "20:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "05:00",
-            to: "10:00",
-          },
-          {
-            from: "10:00",
-            to: "12:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "16:00",
-            to: "18:00",
-          },
-          {
-            from: "05:00",
-            to: "08:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "17:00",
-          },
-        ],
-      },
-    ],
+    name: "Matthew Price",
+    licenseNumber: "L0D064",
+    licenseExpiry: "2027-01-26",
+    experienceYears: 7,
+    languagesSpoken: ["English", "Spanish", "Swedish", "Italian"],
+    available: [],
     ratings: 3.9,
-    phone: "+273 551-992-4543",
-    email: "aiden.rodriguez@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/men/86.jpg",
-    specialties: ["VIP Transport"],
-    vehicleTypesCertified: [
-      "Electric Vehicle",
-      "Sports Car",
-      "Van",
-      "Motorcoach",
-    ],
+    phone: "+22 374-522-4835",
+    email: "matthew.price@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/17.jpg",
+    specialties: ["VIP Transport", "Long-Distance Driving"],
+    vehicleTypesCertified: ["Limousine"],
   },
   {
     id: "driver-rome-4",
-    name: "Logan Dixon",
-    licenseNumber: "M1W397",
-    licenseExpiry: "2029-10-07",
-    experienceYears: 3,
-    languagesSpoken: ["English", "Italian", "Swedish"],
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "14:00",
-          },
-          {
-            from: "01:00",
-            to: "04:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "02:00",
-            to: "07:00",
-          },
-          {
-            from: "17:00",
-            to: "20:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "21:00",
-            to: "23:00",
-          },
-          {
-            from: "09:00",
-            to: "13:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "05:00",
-            to: "08:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4.5,
-    phone: "+857 597-795-7395",
-    email: "logan.dixon@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/men/61.jpg",
-    specialties: ["Night Shift", "Corporate Chauffeur", "Airport Transfers"],
-    vehicleTypesCertified: ["Sedan", "SUV", "Luxury SUV"],
+    name: "Harper Patel",
+    licenseNumber: "T5M695",
+    licenseExpiry: "2028-07-14",
+    experienceYears: 10,
+    languagesSpoken: ["English", "German", "Polish"],
+    available: [],
+    ratings: 3.6,
+    phone: "+338 305-508-7648",
+    email: "harper.patel@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/64.jpg",
+    specialties: ["Corporate Chauffeur", "Night Shift", "Airport Transfers", "Event Transportation"],
+    vehicleTypesCertified: ["Sports Car", "Convertible", "Van"],
   },
   {
     id: "driver-rome-5",
-    name: "Stella Patel",
-    licenseNumber: "Z0V063",
-    licenseExpiry: "2027-09-17",
-    experienceYears: 16,
-    languagesSpoken: ["English", "Norwegian", "Polish"],
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "10:00",
-          },
-          {
-            from: "20:00",
-            to: "24:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "21:00",
-            to: "24:00",
-          },
-          {
-            from: "10:00",
-            to: "12:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "19:00",
-            to: "22:00",
-          },
-          {
-            from: "18:00",
-            to: "21:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "00:00",
-            to: "02:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "19:00",
-            to: "21:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4.3,
-    phone: "+489 451-331-2626",
-    email: "stella.patel@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/women/25.jpg",
-    specialties: ["Tour Guide Driver"],
-    vehicleTypesCertified: ["Sports Car"],
+    name: "Hiroshi Miller",
+    licenseNumber: "L2E273",
+    licenseExpiry: "2026-02-27",
+    experienceYears: 1,
+    languagesSpoken: ["English", "Greek", "Portuguese", "Danish"],
+    available: [],
+    ratings: 4.1,
+    phone: "+886 962-979-9052",
+    email: "hiroshi.miller@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/78.jpg",
+    specialties: ["Long-Distance Driving", "Airport Transfers", "Corporate Chauffeur"],
+    vehicleTypesCertified: ["Sedan", "Limousine", "Luxury SUV", "Sports Car", "Van"],
   },
   {
     id: "driver-rome-6",
-    name: "Layla Müller",
-    licenseNumber: "A3S614",
-    licenseExpiry: "2027-08-04",
-    experienceYears: 12,
-    languagesSpoken: ["English", "Finnish", "Russian"],
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "16:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "13:00",
-          },
-          {
-            from: "15:00",
-            to: "19:00",
-          },
-        ],
-      },
-    ],
-    ratings: 5,
-    phone: "+247 812-875-6617",
-    email: "layla.müller@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/women/63.jpg",
-    specialties: [
-      "Event Transportation",
-      "Tour Guide Driver",
-      "Long-Distance Driving",
-    ],
-    vehicleTypesCertified: ["Electric Vehicle", "Luxury SUV", "Motorcoach"],
+    name: "Bruce Stewart",
+    licenseNumber: "C4M668",
+    licenseExpiry: "2028-02-04",
+    experienceYears: 14,
+    languagesSpoken: ["English", "Russian", "French"],
+    available: [],
+    ratings: 3.8,
+    phone: "+745 343-598-2050",
+    email: "bruce.stewart@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/67.jpg",
+    specialties: ["VIP Transport"],
+    vehicleTypesCertified: ["Van"],
   },
   {
     id: "driver-rome-7",
-    name: "William Lopez",
-    licenseNumber: "V0O676",
-    licenseExpiry: "2027-10-20",
-    experienceYears: 16,
-    languagesSpoken: ["English", "Dutch", "Czech", "Italian"],
+    name: "Patricia West",
+    licenseNumber: "S1V298",
+    licenseExpiry: "2030-12-12",
+    experienceYears: 19,
+    languagesSpoken: ["English", "Dutch", "Polish"],
+    available: [],
+    ratings: 4.8,
+    phone: "+546 535-382-5684",
+    email: "patricia.west@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/65.jpg",
+    specialties: ["Corporate Chauffeur", "Night Shift"],
+    vehicleTypesCertified: ["Van", "Electric Vehicle", "Sports Car", "Motorcoach", "Luxury SUV"],
+  },
+  {
+    id: "driver-rome-8",
+    name: "Mateo Fox",
+    licenseNumber: "C9Y376",
+    licenseExpiry: "2029-06-18",
+    experienceYears: 4,
+    languagesSpoken: ["English", "Czech", "Spanish", "Norwegian"],
+    available: [],
+    ratings: 3.6,
+    phone: "+892 301-995-7168",
+    email: "mateo.fox@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/80.jpg",
+    specialties: ["Airport Transfers", "Tour Guide Driver", "Luxury Car Specialist", "Long-Distance Driving"],
+    vehicleTypesCertified: ["Sports Car", "Limousine", "Motorcoach"],
+  },
+  {
+    id: "driver-rome-9",
+    name: "Gabriel Collins",
+    licenseNumber: "U9X737",
+    licenseExpiry: "2029-02-27",
+    experienceYears: 5,
+    languagesSpoken: ["English", "German", "Greek"],
+    available: [],
+    ratings: 4.2,
+    phone: "+121 354-917-4183",
+    email: "gabriel.collins@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/12.jpg",
+    specialties: ["Airport Transfers", "Security Detail"],
+    vehicleTypesCertified: ["SUV", "Limousine"],
+  },
+  {
+    id: "driver-rome-10",
+    name: "Adeline Curtis",
+    licenseNumber: "M7A238",
+    licenseExpiry: "2027-08-07",
+    experienceYears: 3,
+    languagesSpoken: ["English", "Czech", "Finnish"],
+    available: [],
+    ratings: 3.6,
+    phone: "+147 887-989-7625",
+    email: "adeline.curtis@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/66.jpg",
+    specialties: ["Corporate Chauffeur", "Tour Guide Driver", "Night Shift"],
+    vehicleTypesCertified: ["Van", "Electric Vehicle", "Motorcoach", "SUV"],
+  },
+  {
+    id: "driver-rome-11",
+    name: "Marcus Sutton",
+    licenseNumber: "C4I607",
+    licenseExpiry: "2030-01-12",
+    experienceYears: 14,
+    languagesSpoken: ["English", "Polish", "Czech", "Norwegian"],
+    available: [],
+    ratings: 4.8,
+    phone: "+527 212-398-4121",
+    email: "marcus.sutton@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/32.jpg",
+    specialties: ["Night Shift", "Corporate Chauffeur", "VIP Transport"],
+    vehicleTypesCertified: ["Van", "Sports Car"],
+  },
+  {
+    id: "driver-rome-12",
+    name: "Michael Carter",
+    licenseNumber: "J8O807",
+    licenseExpiry: "2028-03-16",
+    experienceYears: 14,
+    languagesSpoken: ["English", "Portuguese", "Spanish", "Russian"],
+    available: [],
+    ratings: 4.3,
+    phone: "+69 381-998-1904",
+    email: "michael.carter@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/24.jpg",
+    specialties: ["Luxury Car Specialist", "Night Shift"],
+    vehicleTypesCertified: ["Convertible", "Motorcoach", "SUV"],
+  },
+  {
+    id: "driver-rome-13",
+    name: "Ashley Warren",
+    licenseNumber: "D4A912",
+    licenseExpiry: "2028-07-23",
+    experienceYears: 18,
+    languagesSpoken: ["English", "Greek", "Italian"],
     available: [
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "15:00",
-            to: "17:00",
+            from: "16:00",
+            to: "18:00"
           },
-          {
-            from: "18:00",
-            to: "23:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "20:00",
-            to: "22:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
           {
             from: "21:00",
-            to: "23:00",
-          },
-          {
-            from: "08:00",
-            to: "11:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "17:00",
-            to: "20:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "02:00",
-            to: "07:00",
-          },
-          {
-            from: "02:00",
-            to: "04:00",
-          },
-        ],
-      },
-    ],
-    ratings: 3.9,
-    phone: "+848 829-590-6866",
-    email: "william.lopez@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/men/57.jpg",
-    specialties: ["Luxury Car Specialist", "Airport Transfers"],
-    vehicleTypesCertified: ["Motorcoach", "Sedan"],
-  },
-  {
-    id: "driver-rome-8",
-    name: "Ibrahim Graves",
-    licenseNumber: "M6B914",
-    licenseExpiry: "2027-04-28",
-    experienceYears: 19,
-    languagesSpoken: ["English", "German", "Italian"],
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "17:00",
-            to: "22:00",
-          },
-          {
-            from: "03:00",
-            to: "07:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "14:00",
-          },
-          {
-            from: "03:00",
-            to: "06:00",
-          },
+            to: "24:00"
+          }
         ],
       },
       {
         day: "Friday",
         availableHours: [
           {
-            from: "13:00",
-            to: "18:00",
-          },
-          {
-            from: "05:00",
-            to: "09:00",
-          },
+            from: "16:00",
+            to: "21:00"
+          }
         ],
       },
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "04:00",
-            to: "09:00",
+            from: "01:00",
+            to: "05:00"
           },
           {
-            from: "21:00",
-            to: "23:00",
-          },
+            from: "00:00",
+            to: "04:00"
+          }
+        ],
+      }
+    ],
+    ratings: 3.5,
+    phone: "+338 443-356-9885",
+    email: "ashley.warren@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/48.jpg",
+    specialties: ["Luxury Car Specialist"],
+    vehicleTypesCertified: ["Sports Car", "Sedan", "Limousine"],
+  },
+  {
+    id: "driver-rome-14",
+    name: "Logan Müller",
+    licenseNumber: "E0H754",
+    licenseExpiry: "2029-11-11",
+    experienceYears: 16,
+    languagesSpoken: ["English", "Finnish", "Danish"],
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "09:00",
+            to: "11:00"
+          }
         ],
       },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "16:00"
+          },
+          {
+            from: "03:00",
+            to: "08:00"
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "06:00",
+            to: "09:00"
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "16:00",
+            to: "18:00"
+          },
+          {
+            from: "06:00",
+            to: "10:00"
+          }
+        ],
+      }
     ],
-    ratings: 4.5,
-    phone: "+624 862-203-6530",
-    email: "ibrahim.graves@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/men/47.jpg",
-    specialties: ["Security Detail", "Airport Transfers"],
-    vehicleTypesCertified: ["Sedan", "Electric Vehicle", "Convertible"],
+    ratings: 4.6,
+    phone: "+600 788-483-2548",
+    email: "logan.müller@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/52.jpg",
+    specialties: ["Corporate Chauffeur", "Luxury Car Specialist", "VIP Transport"],
+    vehicleTypesCertified: ["SUV", "Limousine", "Sedan", "Van"],
   },
+  {
+    id: "driver-rome-15",
+    name: "Ethan Garcia",
+    licenseNumber: "M7V611",
+    licenseExpiry: "2028-07-05",
+    experienceYears: 13,
+    languagesSpoken: ["English", "Italian", "Russian"],
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "12:00"
+          },
+          {
+            from: "15:00",
+            to: "18:00"
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "15:00",
+            to: "20:00"
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "08:00",
+            to: "12:00"
+          }
+        ],
+      }
+    ],
+    ratings: 5,
+    phone: "+90 116-246-8502",
+    email: "ethan.garcia@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/23.jpg",
+    specialties: ["Tour Guide Driver", "Airport Transfers"],
+    vehicleTypesCertified: ["Convertible", "Electric Vehicle"],
+  }
 ];

@@ -1,531 +1,382 @@
+// Auto-generated driver data for florence
+// Country: Italy
+// Region: Mediterranean
+
+// This file is auto-generated. Do not edit manually.
 import { Driver } from "@/lib/interfaces/people/staff";
 
 export const florenceitalymediterraneanDrivers: Driver[] = [
   {
     id: "driver-florence-1",
-    name: "Noah Müller",
-    licenseNumber: "G4K281",
-    licenseExpiry: "2026-01-05",
+    name: "Layla Anderson",
+    licenseNumber: "O9O812",
+    licenseExpiry: "2026-01-25",
+    experienceYears: 10,
+    languagesSpoken: ["English", "Russian", "Spanish"],
+    available: [],
+    ratings: 3.8,
+    phone: "+586 424-453-6832",
+    email: "layla.anderson@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/89.jpg",
+    specialties: ["Night Shift", "Tour Guide Driver", "Airport Transfers"],
+    vehicleTypesCertified: ["Luxury SUV", "Convertible", "Motorcoach"],
+  },
+  {
+    id: "driver-florence-2",
+    name: "James Wood",
+    licenseNumber: "P9I299",
+    licenseExpiry: "2026-02-04",
+    experienceYears: 6,
+    languagesSpoken: ["English", "Greek", "Russian"],
+    available: [],
+    ratings: 4.3,
+    phone: "+533 758-528-3479",
+    email: "james.wood@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/32.jpg",
+    specialties: ["Corporate Chauffeur", "Luxury Car Specialist", "Tour Guide Driver"],
+    vehicleTypesCertified: ["Limousine", "SUV"],
+  },
+  {
+    id: "driver-florence-3",
+    name: "Ahmed Palmer",
+    licenseNumber: "G6Q797",
+    licenseExpiry: "2028-11-28",
+    experienceYears: 6,
+    languagesSpoken: ["English", "Italian", "Russian"],
+    available: [],
+    ratings: 4.8,
+    phone: "+497 687-889-5170",
+    email: "ahmed.palmer@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/66.jpg",
+    specialties: ["Airport Transfers"],
+    vehicleTypesCertified: ["Sports Car"],
+  },
+  {
+    id: "driver-florence-4",
+    name: "Stephanie Bennett",
+    licenseNumber: "K0C363",
+    licenseExpiry: "2026-05-27",
+    experienceYears: 7,
+    languagesSpoken: ["English", "Danish", "Spanish"],
+    available: [],
+    ratings: 4,
+    phone: "+72 513-342-8529",
+    email: "stephanie.bennett@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/23.jpg",
+    specialties: ["Security Detail"],
+    vehicleTypesCertified: ["Luxury SUV", "Convertible", "Sedan", "Electric Vehicle"],
+  },
+  {
+    id: "driver-florence-5",
+    name: "Antonio Jennings",
+    licenseNumber: "K6T034",
+    licenseExpiry: "2029-04-15",
+    experienceYears: 4,
+    languagesSpoken: ["English", "Norwegian", "Greek", "German"],
+    available: [],
+    ratings: 4.7,
+    phone: "+326 916-233-2262",
+    email: "antonio.jennings@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/13.jpg",
+    specialties: ["Luxury Car Specialist"],
+    vehicleTypesCertified: ["SUV", "Convertible"],
+  },
+  {
+    id: "driver-florence-6",
+    name: "Carol Müller",
+    licenseNumber: "Q7N112",
+    licenseExpiry: "2026-06-06",
+    experienceYears: 14,
+    languagesSpoken: ["English", "Spanish", "Greek", "Norwegian"],
+    available: [],
+    ratings: 4.9,
+    phone: "+352 345-582-6334",
+    email: "carol.müller@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/49.jpg",
+    specialties: ["Long-Distance Driving", "Tour Guide Driver"],
+    vehicleTypesCertified: ["Luxury SUV", "Convertible", "Sedan"],
+  },
+  {
+    id: "driver-florence-7",
+    name: "Javier Keller",
+    licenseNumber: "L8Z349",
+    licenseExpiry: "2026-11-11",
+    experienceYears: 8,
+    languagesSpoken: ["English", "Spanish", "Swedish", "Greek"],
+    available: [],
+    ratings: 3.9,
+    phone: "+765 984-995-3293",
+    email: "javier.keller@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/69.jpg",
+    specialties: ["Long-Distance Driving", "Night Shift"],
+    vehicleTypesCertified: ["Sports Car", "Luxury SUV"],
+  },
+  {
+    id: "driver-florence-8",
+    name: "Kimberly Cooper",
+    licenseNumber: "X5R687",
+    licenseExpiry: "2027-04-15",
+    experienceYears: 2,
+    languagesSpoken: ["English", "Danish", "Finnish"],
+    available: [],
+    ratings: 3.9,
+    phone: "+375 832-806-5688",
+    email: "kimberly.cooper@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/29.jpg",
+    specialties: ["Event Transportation", "Airport Transfers", "Security Detail", "Tour Guide Driver"],
+    vehicleTypesCertified: ["Motorcoach", "Van", "SUV", "Limousine"],
+  },
+  {
+    id: "driver-florence-9",
+    name: "Ralph Brooks",
+    licenseNumber: "X3V420",
+    licenseExpiry: "2028-04-28",
+    experienceYears: 17,
+    languagesSpoken: ["English", "Greek", "Russian"],
+    available: [],
+    ratings: 3.7,
+    phone: "+374 429-691-5512",
+    email: "ralph.brooks@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/1.jpg",
+    specialties: ["Night Shift"],
+    vehicleTypesCertified: ["Electric Vehicle", "Van"],
+  },
+  {
+    id: "driver-florence-10",
+    name: "Stella Fletcher",
+    licenseNumber: "S3T453",
+    licenseExpiry: "2028-02-27",
+    experienceYears: 6,
+    languagesSpoken: ["English", "Russian", "Portuguese"],
+    available: [],
+    ratings: 3.7,
+    phone: "+594 280-276-8097",
+    email: "stella.fletcher@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/5.jpg",
+    specialties: ["VIP Transport"],
+    vehicleTypesCertified: ["Motorcoach", "Convertible", "Sports Car", "SUV"],
+  },
+  {
+    id: "driver-florence-11",
+    name: "Emily Mason",
+    licenseNumber: "U4Q601",
+    licenseExpiry: "2029-05-23",
     experienceYears: 19,
-    languagesSpoken: ["English", "Finnish", "Spanish", "Italian"],
+    languagesSpoken: ["English", "Finnish", "Norwegian", "Polish"],
+    available: [],
+    ratings: 3.9,
+    phone: "+600 858-196-7637",
+    email: "emily.mason@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/71.jpg",
+    specialties: ["VIP Transport", "Night Shift"],
+    vehicleTypesCertified: ["Sports Car", "Luxury SUV", "Van"],
+  },
+  {
+    id: "driver-florence-12",
+    name: "Catherine Gibson",
+    licenseNumber: "I4C954",
+    licenseExpiry: "2026-09-17",
+    experienceYears: 9,
+    languagesSpoken: ["English", "German", "Norwegian"],
+    available: [],
+    ratings: 3.5,
+    phone: "+592 302-690-7820",
+    email: "catherine.gibson@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/53.jpg",
+    specialties: ["Long-Distance Driving", "Security Detail"],
+    vehicleTypesCertified: ["Van", "Limousine"],
+  },
+  {
+    id: "driver-florence-13",
+    name: "Peter Price",
+    licenseNumber: "I4T274",
+    licenseExpiry: "2030-12-11",
+    experienceYears: 12,
+    languagesSpoken: ["English", "Czech", "Polish"],
+    available: [],
+    ratings: 4.9,
+    phone: "+188 874-803-7877",
+    email: "peter.price@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/65.jpg",
+    specialties: ["Corporate Chauffeur", "Luxury Car Specialist"],
+    vehicleTypesCertified: ["Motorcoach"],
+  },
+  {
+    id: "driver-florence-14",
+    name: "Ella King",
+    licenseNumber: "P2E973",
+    licenseExpiry: "2027-02-18",
+    experienceYears: 2,
+    languagesSpoken: ["English", "German", "Italian"],
+    available: [],
+    ratings: 4.6,
+    phone: "+723 885-871-8840",
+    email: "ella.king@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/75.jpg",
+    specialties: ["Long-Distance Driving", "Night Shift", "Event Transportation"],
+    vehicleTypesCertified: ["Sedan", "Sports Car"],
+  },
+  {
+    id: "driver-florence-15",
+    name: "Naomi Stewart",
+    licenseNumber: "Q1F470",
+    licenseExpiry: "2027-11-22",
+    experienceYears: 12,
+    languagesSpoken: ["English", "Spanish", "Finnish", "Swedish"],
     available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "16:00"
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "03:00",
+            to: "08:00"
+          },
+          {
+            from: "08:00",
+            to: "11:00"
+          }
+        ],
+      },
       {
         day: "Wednesday",
         availableHours: [
           {
-            from: "12:00",
-            to: "16:00",
+            from: "16:00",
+            to: "18:00"
+          }
+        ],
+      }
+    ],
+    ratings: 3.6,
+    phone: "+689 332-793-2975",
+    email: "naomi.stewart@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/28.jpg",
+    specialties: ["VIP Transport"],
+    vehicleTypesCertified: ["SUV", "Van", "Limousine"],
+  },
+  {
+    id: "driver-florence-16",
+    name: "Luis Dixon",
+    licenseNumber: "H0E276",
+    licenseExpiry: "2028-01-14",
+    experienceYears: 8,
+    languagesSpoken: ["English", "Norwegian", "Polish"],
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "20:00",
+            to: "23:00"
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "05:00",
+            to: "10:00"
           },
+          {
+            from: "21:00",
+            to: "24:00"
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "15:00"
+          },
+          {
+            from: "21:00",
+            to: "24:00"
+          }
         ],
       },
       {
         day: "Monday",
         availableHours: [
           {
-            from: "13:00",
-            to: "18:00",
-          },
-          {
-            from: "18:00",
-            to: "23:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "14:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "02:00",
-            to: "07:00",
-          },
-          {
-            from: "17:00",
-            to: "21:00",
-          },
-        ],
-      },
-    ],
-    ratings: 3.5,
-    phone: "+109 460-497-3806",
-    email: "noah.müller@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/men/50.jpg",
-    specialties: ["Security Detail", "Airport Transfers"],
-    vehicleTypesCertified: ["Convertible", "SUV", "Luxury SUV", "Van"],
-  },
-  {
-    id: "driver-florence-2",
-    name: "Eleanor Cooper",
-    licenseNumber: "X9O971",
-    licenseExpiry: "2028-01-24",
-    experienceYears: 18,
-    languagesSpoken: ["English", "Spanish", "Swedish", "Finnish"],
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "20:00",
-            to: "24:00",
-          },
-          {
-            from: "12:00",
-            to: "16:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "10:00",
-          },
-          {
-            from: "17:00",
-            to: "19:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "05:00",
-            to: "07:00",
-          },
-        ],
-      },
-    ],
-    ratings: 3.8,
-    phone: "+795 149-218-5105",
-    email: "eleanor.cooper@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/women/49.jpg",
-    specialties: ["Security Detail", "Long-Distance Driving"],
-    vehicleTypesCertified: [
-      "Electric Vehicle",
-      "Luxury SUV",
-      "Motorcoach",
-      "Van",
-    ],
-  },
-  {
-    id: "driver-florence-3",
-    name: "James Grant",
-    licenseNumber: "Y0O059",
-    licenseExpiry: "2027-03-06",
-    experienceYears: 14,
-    languagesSpoken: ["English", "Norwegian", "German"],
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "15:00",
-          },
-          {
-            from: "14:00",
-            to: "16:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "01:00",
-            to: "04:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "18:00",
-            to: "20:00",
-          },
-          {
-            from: "13:00",
-            to: "18:00",
-          },
-        ],
-      },
-    ],
-    ratings: 3.5,
-    phone: "+480 715-897-9047",
-    email: "james.grant@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/men/89.jpg",
-    specialties: ["Tour Guide Driver"],
-    vehicleTypesCertified: ["Van", "Sports Car", "Electric Vehicle"],
-  },
-  {
-    id: "driver-florence-4",
-    name: "Billy Nash",
-    licenseNumber: "Q5P091",
-    licenseExpiry: "2027-10-05",
-    experienceYears: 10,
-    languagesSpoken: ["English", "Portuguese", "Polish", "Italian"],
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "15:00",
-          },
-          {
-            from: "14:00",
-            to: "16:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "15:00",
-          },
-          {
-            from: "11:00",
-            to: "16:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "21:00",
-            to: "24:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "21:00",
-            to: "24:00",
-          },
-          {
-            from: "18:00",
-            to: "20:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4.7,
-    phone: "+459 935-919-6268",
-    email: "billy.nash@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/men/47.jpg",
-    specialties: ["Night Shift"],
-    vehicleTypesCertified: ["Sports Car", "Convertible", "SUV"],
-  },
-  {
-    id: "driver-florence-5",
-    name: "Aiden Singh",
-    licenseNumber: "E0P506",
-    licenseExpiry: "2030-08-27",
-    experienceYears: 10,
-    languagesSpoken: ["English", "Danish", "Swedish"],
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "19:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "21:00",
-            to: "24:00",
-          },
-          {
-            from: "06:00",
-            to: "08:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
             from: "04:00",
-            to: "07:00",
+            to: "06:00"
           },
           {
-            from: "21:00",
-            to: "24:00",
-          },
+            from: "14:00",
+            to: "17:00"
+          }
         ],
-      },
+      }
     ],
-    ratings: 3.6,
-    phone: "+607 231-774-7961",
-    email: "aiden.singh@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/men/79.jpg",
+    ratings: 3.9,
+    phone: "+729 342-232-8872",
+    email: "luis.dixon@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/43.jpg",
     specialties: ["Airport Transfers"],
-    vehicleTypesCertified: ["SUV", "Luxury SUV"],
+    vehicleTypesCertified: ["Sports Car", "Sedan"],
   },
   {
-    id: "driver-florence-6",
-    name: "Rachel Hayes",
-    licenseNumber: "G8B475",
-    licenseExpiry: "2026-04-08",
-    experienceYears: 8,
-    languagesSpoken: ["English", "Norwegian", "German"],
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "04:00",
-            to: "09:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "18:00",
-            to: "23:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "21:00",
-            to: "23:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "04:00",
-            to: "07:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4.7,
-    phone: "+102 355-842-5510",
-    email: "rachel.hayes@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/women/53.jpg",
-    specialties: ["Corporate Chauffeur"],
-    vehicleTypesCertified: ["Limousine", "Van", "SUV", "Convertible"],
-  },
-  {
-    id: "driver-florence-7",
-    name: "Lawrence Dixon",
-    licenseNumber: "K7Y826",
-    licenseExpiry: "2028-01-05",
-    experienceYears: 8,
-    languagesSpoken: ["English", "Norwegian", "German"],
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "13:00",
-          },
-          {
-            from: "14:00",
-            to: "19:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "19:00",
-            to: "24:00",
-          },
-          {
-            from: "19:00",
-            to: "22:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "18:00",
-            to: "21:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "17:00",
-          },
-          {
-            from: "12:00",
-            to: "14:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4.5,
-    phone: "+1 940-756-8662",
-    email: "lawrence.dixon@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/men/73.jpg",
-    specialties: ["Night Shift", "Airport Transfers"],
-    vehicleTypesCertified: [
-      "Van",
-      "Convertible",
-      "Electric Vehicle",
-      "Sports Car",
-    ],
-  },
-  {
-    id: "driver-florence-8",
-    name: "Mia Anderson",
-    licenseNumber: "M9J026",
-    licenseExpiry: "2027-11-03",
+    id: "driver-florence-17",
+    name: "Elijah Harris",
+    licenseNumber: "Q8C329",
+    licenseExpiry: "2027-08-02",
     experienceYears: 12,
-    languagesSpoken: ["English", "Swedish", "Dutch"],
+    languagesSpoken: ["English", "German", "Swedish"],
     available: [
       {
         day: "Friday",
-        availableHours: [
-          {
-            from: "16:00",
-            to: "20:00",
-          },
-          {
-            from: "12:00",
-            to: "15:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "05:00",
-            to: "08:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
         availableHours: [
           {
             from: "00:00",
-            to: "03:00",
-          },
+            to: "02:00"
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "15:00"
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
           {
             from: "04:00",
-            to: "07:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "15:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4.1,
-    phone: "+719 819-568-5738",
-    email: "mia.anderson@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/women/39.jpg",
-    specialties: ["Airport Transfers"],
-    vehicleTypesCertified: ["Limousine", "Motorcoach", "Sports Car"],
-  },
-  {
-    id: "driver-florence-9",
-    name: "Muhammad da Costa",
-    licenseNumber: "S5W910",
-    licenseExpiry: "2026-12-18",
-    experienceYears: 16,
-    languagesSpoken: ["English", "Finnish", "Norwegian", "Danish"],
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "16:00",
-            to: "20:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "02:00",
-            to: "05:00",
-          },
-          {
-            from: "10:00",
-            to: "12:00",
-          },
+            to: "07:00"
+          }
         ],
       },
       {
         day: "Sunday",
         availableHours: [
           {
-            from: "19:00",
-            to: "24:00",
-          },
-          {
-            from: "05:00",
-            to: "08:00",
-          },
+            from: "18:00",
+            to: "20:00"
+          }
         ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "15:00",
-          },
-          {
-            from: "10:00",
-            to: "13:00",
-          },
-        ],
-      },
+      }
     ],
-    ratings: 4.1,
-    phone: "+858 186-373-6730",
-    email: "muhammad.da@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/men/65.jpg",
-    specialties: ["Luxury Car Specialist", "Tour Guide Driver"],
-    vehicleTypesCertified: ["Sedan", "Electric Vehicle", "Limousine"],
-  },
+    ratings: 4.2,
+    phone: "+356 679-625-5635",
+    email: "elijah.harris@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/72.jpg",
+    specialties: ["Night Shift", "Airport Transfers"],
+    vehicleTypesCertified: ["Sports Car", "Motorcoach", "Luxury SUV"],
+  }
 ];

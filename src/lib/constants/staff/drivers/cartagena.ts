@@ -1,433 +1,381 @@
+// Auto-generated driver data for cartagena
+// Country: Colombia
+// Region: Caribbean
+
+// This file is auto-generated. Do not edit manually.
 import { Driver } from "@/lib/interfaces/people/staff";
 
 export const cartagenacolombiacaribbeanDrivers: Driver[] = [
   {
     id: "driver-cartagena-1",
-    name: "Liam Jackson",
-    licenseNumber: "X8I211",
-    licenseExpiry: "2030-10-12",
-    experienceYears: 2,
-    languagesSpoken: ["English", "Quechua", "Haitian", "French"],
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "13:00",
-          },
-          {
-            from: "18:00",
-            to: "20:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "17:00",
-          },
-          {
-            from: "01:00",
-            to: "05:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "12:00",
-          },
-          {
-            from: "03:00",
-            to: "08:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "16:00",
-            to: "18:00",
-          },
-          {
-            from: "00:00",
-            to: "05:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4.4,
-    phone: "+5 731-858-3982",
-    email: "liam.jackson@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/men/21.jpg",
-    specialties: ["Night Shift", "Luxury Car Specialist"],
-    vehicleTypesCertified: [
-      "Limousine",
-      "SUV",
-      "Convertible",
-      "Sports Car",
-      "Van",
-    ],
+    name: "Anthony Edwards",
+    licenseNumber: "W4C472",
+    licenseExpiry: "2029-02-04",
+    experienceYears: 15,
+    languagesSpoken: ["English", "Spanish", "Aymara"],
+    available: [],
+    ratings: 3.7,
+    phone: "+427 784-144-7840",
+    email: "anthony.edwards@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/78.jpg",
+    specialties: ["Long-Distance Driving"],
+    vehicleTypesCertified: ["SUV", "Electric Vehicle", "Luxury SUV", "Sports Car", "Sedan"],
   },
   {
     id: "driver-cartagena-2",
-    name: "Blake Baker",
-    licenseNumber: "C5S293",
-    licenseExpiry: "2026-04-15",
-    experienceYears: 11,
-    languagesSpoken: ["English", "Aymara", "French"],
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "04:00",
-            to: "09:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "21:00",
-            to: "24:00",
-          },
-          {
-            from: "19:00",
-            to: "24:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "11:00",
-          },
-          {
-            from: "09:00",
-            to: "14:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4.4,
-    phone: "+351 425-724-5132",
-    email: "blake.baker@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/men/58.jpg",
-    specialties: [
-      "Security Detail",
-      "Luxury Car Specialist",
-      "Tour Guide Driver",
-    ],
-    vehicleTypesCertified: ["Sports Car", "Motorcoach", "Limousine"],
+    name: "Boris Marshall",
+    licenseNumber: "O0K114",
+    licenseExpiry: "2029-06-23",
+    experienceYears: 6,
+    languagesSpoken: ["English", "Portuguese", "Spanish", "Aymara"],
+    available: [],
+    ratings: 3.7,
+    phone: "+540 494-237-5438",
+    email: "boris.marshall@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/24.jpg",
+    specialties: ["Corporate Chauffeur", "VIP Transport"],
+    vehicleTypesCertified: ["Luxury SUV", "Motorcoach", "Sedan"],
   },
   {
     id: "driver-cartagena-3",
-    name: "Wei Curtis",
-    licenseNumber: "A4B570",
-    licenseExpiry: "2030-12-01",
-    experienceYears: 4,
-    languagesSpoken: ["English", "Quechua", "Guarani"],
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "21:00",
-            to: "24:00",
-          },
-          {
-            from: "07:00",
-            to: "10:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "14:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "05:00",
-            to: "10:00",
-          },
-          {
-            from: "11:00",
-            to: "16:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "06:00",
-            to: "11:00",
-          },
-          {
-            from: "12:00",
-            to: "16:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4,
-    phone: "+455 132-387-4681",
-    email: "wei.curtis@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/men/73.jpg",
-    specialties: ["Event Transportation", "Corporate Chauffeur"],
-    vehicleTypesCertified: ["Luxury SUV"],
+    name: "Amelia Warren",
+    licenseNumber: "V3P752",
+    licenseExpiry: "2027-07-26",
+    experienceYears: 15,
+    languagesSpoken: ["English", "French", "Spanish"],
+    available: [],
+    ratings: 4.9,
+    phone: "+840 298-134-1872",
+    email: "amelia.warren@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/3.jpg",
+    specialties: ["Corporate Chauffeur", "Night Shift", "Tour Guide Driver"],
+    vehicleTypesCertified: ["SUV", "Van", "Motorcoach", "Luxury SUV", "Convertible"],
   },
   {
     id: "driver-cartagena-4",
-    name: "Michelle Bennett",
-    licenseNumber: "H8M100",
-    licenseExpiry: "2027-01-19",
-    experienceYears: 14,
-    languagesSpoken: ["English", "Aymara", "Spanish", "Portuguese"],
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "00:00",
-            to: "05:00",
-          },
-          {
-            from: "06:00",
-            to: "09:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "20:00",
-            to: "24:00",
-          },
-          {
-            from: "19:00",
-            to: "21:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "17:00",
-            to: "20:00",
-          },
-          {
-            from: "13:00",
-            to: "16:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "17:00",
-            to: "22:00",
-          },
-          {
-            from: "08:00",
-            to: "11:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4.3,
-    phone: "+140 414-431-5527",
-    email: "michelle.bennett@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/women/38.jpg",
-    specialties: [
-      "Airport Transfers",
-      "Tour Guide Driver",
-      "Luxury Car Specialist",
-    ],
-    vehicleTypesCertified: ["Electric Vehicle", "Sedan", "Van", "Limousine"],
+    name: "Linda Grant",
+    licenseNumber: "A2N408",
+    licenseExpiry: "2028-07-26",
+    experienceYears: 6,
+    languagesSpoken: ["English", "Spanish", "French"],
+    available: [],
+    ratings: 4.4,
+    phone: "+268 794-579-1091",
+    email: "linda.grant@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/49.jpg",
+    specialties: ["Night Shift"],
+    vehicleTypesCertified: ["Motorcoach", "Sedan", "Van"],
   },
   {
     id: "driver-cartagena-5",
-    name: "Tyler Palmer",
-    licenseNumber: "A2J465",
-    licenseExpiry: "2029-10-15",
+    name: "Stephanie Reeves",
+    licenseNumber: "E6U825",
+    licenseExpiry: "2027-05-12",
+    experienceYears: 10,
+    languagesSpoken: ["English", "Spanish", "Haitian"],
+    available: [],
+    ratings: 4.5,
+    phone: "+609 334-368-1009",
+    email: "stephanie.reeves@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/73.jpg",
+    specialties: ["Airport Transfers", "Tour Guide Driver"],
+    vehicleTypesCertified: ["Van"],
+  },
+  {
+    id: "driver-cartagena-6",
+    name: "Sophia Thomas",
+    licenseNumber: "K6H390",
+    licenseExpiry: "2028-10-02",
+    experienceYears: 10,
+    languagesSpoken: ["English", "Guarani", "Haitian"],
+    available: [],
+    ratings: 4.4,
+    phone: "+204 761-718-5691",
+    email: "sophia.thomas@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/19.jpg",
+    specialties: ["Tour Guide Driver"],
+    vehicleTypesCertified: ["Motorcoach"],
+  },
+  {
+    id: "driver-cartagena-7",
+    name: "Ahmed Curtis",
+    licenseNumber: "J5E655",
+    licenseExpiry: "2028-04-11",
+    experienceYears: 6,
+    languagesSpoken: ["English", "Aymara", "French"],
+    available: [],
+    ratings: 3.6,
+    phone: "+577 623-641-4898",
+    email: "ahmed.curtis@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/29.jpg",
+    specialties: ["Night Shift", "VIP Transport", "Security Detail"],
+    vehicleTypesCertified: ["Sports Car"],
+  },
+  {
+    id: "driver-cartagena-8",
+    name: "Kinsley Baker",
+    licenseNumber: "D6B318",
+    licenseExpiry: "2026-07-11",
+    experienceYears: 10,
+    languagesSpoken: ["English", "Guarani", "Haitian"],
+    available: [],
+    ratings: 4,
+    phone: "+810 124-243-2047",
+    email: "kinsley.baker@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/34.jpg",
+    specialties: ["Airport Transfers", "Long-Distance Driving", "Event Transportation"],
+    vehicleTypesCertified: ["Electric Vehicle", "Sedan", "Limousine", "Convertible"],
+  },
+  {
+    id: "driver-cartagena-9",
+    name: "Patricia Lee",
+    licenseNumber: "I8O913",
+    licenseExpiry: "2029-07-05",
+    experienceYears: 8,
+    languagesSpoken: ["English", "Quechua", "Spanish", "Haitian"],
+    available: [],
+    ratings: 4.9,
+    phone: "+165 342-968-3719",
+    email: "patricia.lee@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/62.jpg",
+    specialties: ["VIP Transport", "Long-Distance Driving", "Tour Guide Driver", "Luxury Car Specialist"],
+    vehicleTypesCertified: ["Sedan"],
+  },
+  {
+    id: "driver-cartagena-10",
+    name: "Muhammad Morgan",
+    licenseNumber: "T5M812",
+    licenseExpiry: "2030-02-26",
     experienceYears: 18,
+    languagesSpoken: ["English", "Portuguese", "Quechua", "French"],
+    available: [],
+    ratings: 4.2,
+    phone: "+900 728-818-8451",
+    email: "muhammad.morgan@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/89.jpg",
+    specialties: ["Night Shift"],
+    vehicleTypesCertified: ["Van", "Convertible", "Limousine"],
+  },
+  {
+    id: "driver-cartagena-11",
+    name: "Christine Holloway",
+    licenseNumber: "A8S954",
+    licenseExpiry: "2029-12-28",
+    experienceYears: 6,
+    languagesSpoken: ["English", "Quechua", "Guarani"],
+    available: [],
+    ratings: 4.2,
+    phone: "+416 605-305-6571",
+    email: "christine.holloway@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/12.jpg",
+    specialties: ["Tour Guide Driver", "VIP Transport"],
+    vehicleTypesCertified: ["Convertible", "Electric Vehicle", "Luxury SUV", "Van"],
+  },
+  {
+    id: "driver-cartagena-12",
+    name: "Valentina Sutton",
+    licenseNumber: "E0H030",
+    licenseExpiry: "2027-12-09",
+    experienceYears: 7,
+    languagesSpoken: ["English", "French", "Quechua"],
+    available: [],
+    ratings: 4,
+    phone: "+183 337-815-5106",
+    email: "valentina.sutton@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/88.jpg",
+    specialties: ["Security Detail", "Luxury Car Specialist"],
+    vehicleTypesCertified: ["Sedan"],
+  },
+  {
+    id: "driver-cartagena-13",
+    name: "Elena Collins",
+    licenseNumber: "H2O201",
+    licenseExpiry: "2026-07-12",
+    experienceYears: 10,
+    languagesSpoken: ["English", "Quechua", "Guarani"],
+    available: [],
+    ratings: 3.9,
+    phone: "+477 333-405-9300",
+    email: "elena.collins@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/67.jpg",
+    specialties: ["Airport Transfers", "Night Shift"],
+    vehicleTypesCertified: ["Motorcoach", "Convertible"],
+  },
+  {
+    id: "driver-cartagena-14",
+    name: "Donna da Costa",
+    licenseNumber: "F3G516",
+    licenseExpiry: "2027-05-12",
+    experienceYears: 4,
+    languagesSpoken: ["English", "Spanish", "Aymara"],
+    available: [],
+    ratings: 4.8,
+    phone: "+64 387-354-9243",
+    email: "donna.da@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/74.jpg",
+    specialties: ["Corporate Chauffeur", "Event Transportation", "VIP Transport"],
+    vehicleTypesCertified: ["Sports Car"],
+  },
+  {
+    id: "driver-cartagena-15",
+    name: "Samantha Brooks",
+    licenseNumber: "O7C035",
+    licenseExpiry: "2029-06-07",
+    experienceYears: 15,
     languagesSpoken: ["English", "Quechua", "Haitian"],
     available: [
       {
         day: "Wednesday",
         availableHours: [
           {
-            from: "17:00",
-            to: "20:00",
+            from: "15:00",
+            to: "18:00"
           },
           {
-            from: "07:00",
-            to: "10:00",
-          },
+            from: "16:00",
+            to: "19:00"
+          }
         ],
       },
       {
-        day: "Thursday",
+        day: "Tuesday",
         availableHours: [
           {
-            from: "02:00",
-            to: "07:00",
-          },
-          {
-            from: "10:00",
-            to: "12:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "15:00",
-          },
+            from: "06:00",
+            to: "10:00"
+          }
         ],
       },
       {
         day: "Sunday",
         availableHours: [
           {
-            from: "10:00",
-            to: "14:00",
+            from: "02:00",
+            to: "07:00"
           },
           {
-            from: "21:00",
-            to: "24:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4.2,
-    phone: "+58 839-271-8806",
-    email: "tyler.palmer@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/men/39.jpg",
-    specialties: [
-      "Security Detail",
-      "Luxury Car Specialist",
-      "Event Transportation",
-      "Airport Transfers",
-    ],
-    vehicleTypesCertified: ["Luxury SUV"],
-  },
-  {
-    id: "driver-cartagena-6",
-    name: "Rachel Foster",
-    licenseNumber: "Y2X573",
-    licenseExpiry: "2029-11-14",
-    experienceYears: 13,
-    languagesSpoken: ["English", "Guarani", "French"],
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "12:00",
-          },
+            from: "03:00",
+            to: "06:00"
+          }
         ],
       },
       {
         day: "Friday",
         availableHours: [
           {
-            from: "18:00",
-            to: "20:00",
+            from: "05:00",
+            to: "07:00"
           },
           {
-            from: "08:00",
-            to: "11:00",
+            from: "10:00",
+            to: "12:00"
+          }
+        ],
+      }
+    ],
+    ratings: 4.9,
+    phone: "+340 905-860-3300",
+    email: "samantha.brooks@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/16.jpg",
+    specialties: ["Airport Transfers", "Corporate Chauffeur", "Security Detail"],
+    vehicleTypesCertified: ["Convertible"],
+  },
+  {
+    id: "driver-cartagena-16",
+    name: "Emma Clark",
+    licenseNumber: "K4K862",
+    licenseExpiry: "2026-03-10",
+    experienceYears: 14,
+    languagesSpoken: ["English", "French", "Guarani"],
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "11:00",
+            to: "14:00"
           },
+          {
+            from: "13:00",
+            to: "16:00"
+          }
         ],
       },
       {
         day: "Sunday",
         availableHours: [
           {
-            from: "00:00",
-            to: "04:00",
-          },
+            from: "04:00",
+            to: "08:00"
+          }
         ],
       },
       {
-        day: "Monday",
+        day: "Saturday",
         availableHours: [
           {
-            from: "17:00",
-            to: "19:00",
+            from: "15:00",
+            to: "17:00"
           },
+          {
+            from: "03:00",
+            to: "07:00"
+          }
         ],
       },
-    ],
-    ratings: 3.5,
-    phone: "+692 273-207-9761",
-    email: "rachel.foster@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/women/66.jpg",
-    specialties: [
-      "Corporate Chauffeur",
-      "Tour Guide Driver",
-      "Luxury Car Specialist",
-    ],
-    vehicleTypesCertified: [
-      "Electric Vehicle",
-      "Luxury SUV",
-      "Motorcoach",
-      "Limousine",
-    ],
-  },
-  {
-    id: "driver-cartagena-7",
-    name: "Scarlett Patel",
-    licenseNumber: "V1Y955",
-    licenseExpiry: "2028-03-12",
-    experienceYears: 15,
-    languagesSpoken: ["English", "Aymara", "Spanish", "Haitian"],
-    available: [
       {
-        day: "Thursday",
+        day: "Tuesday",
         availableHours: [
+          {
+            from: "11:00",
+            to: "16:00"
+          },
           {
             from: "02:00",
-            to: "07:00",
-          },
+            to: "05:00"
+          }
         ],
       },
       {
-        day: "Monday",
+        day: "Wednesday",
         availableHours: [
           {
-            from: "01:00",
-            to: "04:00",
+            from: "20:00",
+            to: "23:00"
           },
           {
-            from: "16:00",
-            to: "19:00",
+            from: "02:00",
+            to: "05:00"
+          }
+        ],
+      }
+    ],
+    ratings: 4.5,
+    phone: "+876 310-262-7411",
+    email: "emma.clark@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/30.jpg",
+    specialties: ["VIP Transport"],
+    vehicleTypesCertified: ["Electric Vehicle", "Motorcoach"],
+  },
+  {
+    id: "driver-cartagena-17",
+    name: "Allison Smith",
+    licenseNumber: "S3G988",
+    licenseExpiry: "2030-01-03",
+    experienceYears: 19,
+    languagesSpoken: ["English", "French", "Spanish"],
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "03:00",
+            to: "05:00"
           },
+          {
+            from: "08:00",
+            to: "12:00"
+          }
         ],
       },
       {
@@ -435,33 +383,33 @@ export const cartagenacolombiacaribbeanDrivers: Driver[] = [
         availableHours: [
           {
             from: "03:00",
-            to: "08:00",
+            to: "05:00"
           },
           {
-            from: "15:00",
-            to: "19:00",
-          },
+            from: "04:00",
+            to: "06:00"
+          }
         ],
       },
       {
-        day: "Friday",
+        day: "Saturday",
         availableHours: [
           {
-            from: "01:00",
-            to: "03:00",
+            from: "04:00",
+            to: "06:00"
           },
           {
-            from: "09:00",
-            to: "12:00",
-          },
+            from: "14:00",
+            to: "18:00"
+          }
         ],
-      },
+      }
     ],
-    ratings: 4.2,
-    phone: "+380 303-113-5517",
-    email: "scarlett.patel@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/women/11.jpg",
-    specialties: ["Luxury Car Specialist", "Airport Transfers"],
-    vehicleTypesCertified: ["Convertible", "Sports Car", "Luxury SUV"],
-  },
+    ratings: 4.3,
+    phone: "+156 508-545-2778",
+    email: "allison.smith@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/46.jpg",
+    specialties: ["VIP Transport", "Long-Distance Driving"],
+    vehicleTypesCertified: ["Van", "Motorcoach", "Limousine", "Luxury SUV"],
+  }
 ];

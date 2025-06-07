@@ -1,493 +1,426 @@
+// Auto-generated driver data for amalfi-coast
+// Country: Italy
+// Region: Mediterranean
+
+// This file is auto-generated. Do not edit manually.
 import { Driver } from "@/lib/interfaces/people/staff";
 
-export const amalfiCoastDrivers: Driver[] = [
+export const amalfiCoastitalymediterraneanDrivers: Driver[] = [
   {
     id: "driver-amalfi-coast-1",
-    name: "Ahmed Murray",
-    licenseNumber: "P4E990",
-    licenseExpiry: "2030-10-09",
-    experienceYears: 1,
-    languagesSpoken: ["English", "German", "Japanese"],
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "14:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "12:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "16:00",
-            to: "21:00",
-          },
-        ],
-      },
-    ],
+    name: "Joan Henderson",
+    licenseNumber: "U3W355",
+    licenseExpiry: "2026-02-19",
+    experienceYears: 9,
+    languagesSpoken: ["English", "Danish", "Greek"],
+    available: [],
     ratings: 4.2,
-    phone: "+789 134-651-9618",
-    email: "ahmed.murray@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/men/7.jpg",
-    specialties: [
-      "Event Transportation",
-      "Security Detail",
-      "Long-Distance Driving",
-      "VIP Transport",
-    ],
-    vehicleTypesCertified: ["SUV", "Sedan", "Limousine", "Luxury SUV"],
+    phone: "+134 726-374-4537",
+    email: "joan.henderson@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/15.jpg",
+    specialties: ["Luxury Car Specialist"],
+    vehicleTypesCertified: ["Motorcoach", "Convertible", "Sedan"],
   },
   {
     id: "driver-amalfi-coast-2",
-    name: "Chen Hernandez",
-    licenseNumber: "B6M717",
-    licenseExpiry: "2027-06-17",
-    experienceYears: 13,
-    languagesSpoken: ["English", "Arabic", "Italian"],
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "13:00",
-          },
-          {
-            from: "21:00",
-            to: "24:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "10:00",
-            to: "14:00",
-          },
-          {
-            from: "01:00",
-            to: "05:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "13:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4,
-    phone: "+275 156-208-8107",
-    email: "chen.hernandez@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/men/29.jpg",
-    specialties: ["Airport Transfers", "Corporate Chauffeur"],
-    vehicleTypesCertified: ["Sports Car", "SUV"],
+    name: "Kennedy Williams",
+    licenseNumber: "R7R038",
+    licenseExpiry: "2030-12-24",
+    experienceYears: 14,
+    languagesSpoken: ["English", "Portuguese", "French", "Italian"],
+    available: [],
+    ratings: 4.9,
+    phone: "+157 246-563-1111",
+    email: "kennedy.williams@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/19.jpg",
+    specialties: ["Security Detail"],
+    vehicleTypesCertified: ["Van", "Limousine", "Electric Vehicle"],
   },
   {
     id: "driver-amalfi-coast-3",
-    name: "Carl Crawford",
-    licenseNumber: "C6C756",
-    licenseExpiry: "2030-01-13",
+    name: "Louis Wilson",
+    licenseNumber: "C1B074",
+    licenseExpiry: "2026-02-11",
+    experienceYears: 2,
+    languagesSpoken: ["English", "Italian", "Dutch", "Czech"],
+    available: [],
+    ratings: 4.2,
+    phone: "+858 343-488-6197",
+    email: "louis.wilson@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/5.jpg",
+    specialties: ["Corporate Chauffeur"],
+    vehicleTypesCertified: ["Motorcoach", "Sports Car"],
+  },
+  {
+    id: "driver-amalfi-coast-4",
+    name: "Hiroshi Johnson",
+    licenseNumber: "R8N703",
+    licenseExpiry: "2026-02-12",
+    experienceYears: 15,
+    languagesSpoken: ["English", "Polish", "Swedish"],
+    available: [],
+    ratings: 4.8,
+    phone: "+897 878-303-6728",
+    email: "hiroshi.johnson@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/47.jpg",
+    specialties: ["Corporate Chauffeur", "Long-Distance Driving", "Event Transportation"],
+    vehicleTypesCertified: ["Limousine", "SUV", "Sedan", "Luxury SUV"],
+  },
+  {
+    id: "driver-amalfi-coast-5",
+    name: "Deborah Clark",
+    licenseNumber: "Q7M301",
+    licenseExpiry: "2027-04-01",
+    experienceYears: 3,
+    languagesSpoken: ["English", "Finnish", "Portuguese"],
+    available: [],
+    ratings: 3.7,
+    phone: "+473 367-870-6651",
+    email: "deborah.clark@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/41.jpg",
+    specialties: ["Security Detail", "Event Transportation", "Corporate Chauffeur"],
+    vehicleTypesCertified: ["Convertible"],
+  },
+  {
+    id: "driver-amalfi-coast-6",
+    name: "Audrey Hayes",
+    licenseNumber: "G3V877",
+    licenseExpiry: "2026-12-15",
+    experienceYears: 1,
+    languagesSpoken: ["English", "Danish", "Greek"],
+    available: [],
+    ratings: 3.7,
+    phone: "+848 700-259-6948",
+    email: "audrey.hayes@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/8.jpg",
+    specialties: ["Security Detail"],
+    vehicleTypesCertified: ["Sedan", "Luxury SUV", "Electric Vehicle"],
+  },
+  {
+    id: "driver-amalfi-coast-7",
+    name: "Ronald Wang",
+    licenseNumber: "O4Z019",
+    licenseExpiry: "2027-02-25",
+    experienceYears: 14,
+    languagesSpoken: ["English", "Italian", "Greek"],
+    available: [],
+    ratings: 4.2,
+    phone: "+378 337-719-6651",
+    email: "ronald.wang@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/76.jpg",
+    specialties: ["Luxury Car Specialist"],
+    vehicleTypesCertified: ["Limousine", "Sports Car", "Motorcoach", "Convertible"],
+  },
+  {
+    id: "driver-amalfi-coast-8",
+    name: "Dylan Wright",
+    licenseNumber: "Z3H111",
+    licenseExpiry: "2028-11-11",
     experienceYears: 5,
-    languagesSpoken: ["English", "Japanese", "Russian"],
+    languagesSpoken: ["English", "Spanish", "Finnish"],
+    available: [],
+    ratings: 3.8,
+    phone: "+840 370-492-9271",
+    email: "dylan.wright@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/43.jpg",
+    specialties: ["Airport Transfers"],
+    vehicleTypesCertified: ["Van", "Motorcoach", "Luxury SUV", "SUV"],
+  },
+  {
+    id: "driver-amalfi-coast-9",
+    name: "Brenda Lee",
+    licenseNumber: "J2A073",
+    licenseExpiry: "2027-06-21",
+    experienceYears: 20,
+    languagesSpoken: ["English", "Norwegian", "Portuguese", "Finnish"],
+    available: [],
+    ratings: 4.6,
+    phone: "+775 303-530-1761",
+    email: "brenda.lee@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/33.jpg",
+    specialties: ["VIP Transport", "Night Shift", "Tour Guide Driver", "Airport Transfers"],
+    vehicleTypesCertified: ["Van", "Luxury SUV"],
+  },
+  {
+    id: "driver-amalfi-coast-10",
+    name: "Stella Garcia",
+    licenseNumber: "F2P637",
+    licenseExpiry: "2028-06-01",
+    experienceYears: 6,
+    languagesSpoken: ["English", "Norwegian", "French"],
+    available: [],
+    ratings: 4.1,
+    phone: "+604 578-149-1128",
+    email: "stella.garcia@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/27.jpg",
+    specialties: ["Event Transportation"],
+    vehicleTypesCertified: ["Sports Car"],
+  },
+  {
+    id: "driver-amalfi-coast-11",
+    name: "Claire Jansen",
+    licenseNumber: "B9V225",
+    licenseExpiry: "2030-05-16",
+    experienceYears: 4,
+    languagesSpoken: ["English", "German", "Finnish", "Czech"],
+    available: [],
+    ratings: 3.5,
+    phone: "+689 803-619-1000",
+    email: "claire.jansen@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/57.jpg",
+    specialties: ["Tour Guide Driver", "VIP Transport"],
+    vehicleTypesCertified: ["Sports Car", "SUV", "Luxury SUV", "Convertible"],
+  },
+  {
+    id: "driver-amalfi-coast-12",
+    name: "Bobby Dean",
+    licenseNumber: "Y0A495",
+    licenseExpiry: "2028-02-12",
+    experienceYears: 3,
+    languagesSpoken: ["English", "Italian", "Russian"],
+    available: [],
+    ratings: 4.1,
+    phone: "+338 126-896-7203",
+    email: "bobby.dean@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/12.jpg",
+    specialties: ["VIP Transport", "Luxury Car Specialist", "Tour Guide Driver"],
+    vehicleTypesCertified: ["Van", "SUV", "Electric Vehicle", "Motorcoach"],
+  },
+  {
+    id: "driver-amalfi-coast-13",
+    name: "Amelia Rodriguez",
+    licenseNumber: "P8D880",
+    licenseExpiry: "2028-02-18",
+    experienceYears: 8,
+    languagesSpoken: ["English", "Swedish", "Spanish"],
+    available: [],
+    ratings: 4.4,
+    phone: "+875 904-838-3406",
+    email: "amelia.rodriguez@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/83.jpg",
+    specialties: ["Security Detail"],
+    vehicleTypesCertified: ["Sports Car", "SUV"],
+  },
+  {
+    id: "driver-amalfi-coast-14",
+    name: "Skylar Harris",
+    licenseNumber: "U4Y632",
+    licenseExpiry: "2028-03-16",
+    experienceYears: 2,
+    languagesSpoken: ["English", "Polish", "Dutch", "Spanish"],
+    available: [],
+    ratings: 3.8,
+    phone: "+740 701-787-8103",
+    email: "skylar.harris@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/19.jpg",
+    specialties: ["Long-Distance Driving", "Luxury Car Specialist"],
+    vehicleTypesCertified: ["Sports Car", "Electric Vehicle", "Luxury SUV", "Limousine"],
+  },
+  {
+    id: "driver-amalfi-coast-15",
+    name: "Olivia Lee",
+    licenseNumber: "S6Q234",
+    licenseExpiry: "2030-02-19",
+    experienceYears: 3,
+    languagesSpoken: ["English", "Greek", "Danish", "Swedish"],
+    available: [],
+    ratings: 4.1,
+    phone: "+362 358-196-3386",
+    email: "olivia.lee@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/54.jpg",
+    specialties: ["Night Shift", "Corporate Chauffeur", "Security Detail"],
+    vehicleTypesCertified: ["Motorcoach", "Sedan", "Limousine", "Convertible"],
+  },
+  {
+    id: "driver-amalfi-coast-16",
+    name: "Samantha Silva",
+    licenseNumber: "R4Q082",
+    licenseExpiry: "2029-07-07",
+    experienceYears: 14,
+    languagesSpoken: ["English", "Greek", "Polish"],
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "19:00",
+            to: "23:00"
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "12:00",
+            to: "16:00"
+          },
+          {
+            from: "11:00",
+            to: "15:00"
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "13:00",
+            to: "15:00"
+          },
+          {
+            from: "11:00",
+            to: "13:00"
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "18:00",
+            to: "23:00"
+          },
+          {
+            from: "02:00",
+            to: "06:00"
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "14:00",
+            to: "19:00"
+          },
+          {
+            from: "09:00",
+            to: "13:00"
+          }
+        ],
+      }
+    ],
+    ratings: 4,
+    phone: "+342 686-942-6850",
+    email: "samantha.silva@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/70.jpg",
+    specialties: ["Security Detail", "Long-Distance Driving"],
+    vehicleTypesCertified: ["Luxury SUV", "Sports Car", "Limousine"],
+  },
+  {
+    id: "driver-amalfi-coast-17",
+    name: "Elizabeth Holloway",
+    licenseNumber: "G9Q791",
+    licenseExpiry: "2029-05-18",
+    experienceYears: 15,
+    languagesSpoken: ["English", "Danish", "Dutch"],
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "05:00",
+            to: "10:00"
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "18:00",
+            to: "23:00"
+          },
+          {
+            from: "15:00",
+            to: "17:00"
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "19:00",
+            to: "23:00"
+          },
+          {
+            from: "10:00",
+            to: "15:00"
+          }
+        ],
+      }
+    ],
+    ratings: 3.9,
+    phone: "+580 342-165-7773",
+    email: "elizabeth.holloway@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/53.jpg",
+    specialties: ["Tour Guide Driver"],
+    vehicleTypesCertified: ["Convertible", "Limousine"],
+  },
+  {
+    id: "driver-amalfi-coast-18",
+    name: "Oliver Hudson",
+    licenseNumber: "K6K638",
+    licenseExpiry: "2026-04-25",
+    experienceYears: 10,
+    languagesSpoken: ["English", "German", "Russian"],
     available: [
       {
         day: "Wednesday",
         availableHours: [
           {
             from: "10:00",
-            to: "14:00",
+            to: "14:00"
           },
           {
             from: "14:00",
-            to: "17:00",
-          },
+            to: "18:00"
+          }
         ],
       },
       {
-        day: "Tuesday",
+        day: "Sunday",
         availableHours: [
           {
-            from: "15:00",
-            to: "17:00",
+            from: "19:00",
+            to: "24:00"
           },
+          {
+            from: "18:00",
+            to: "22:00"
+          }
         ],
       },
       {
         day: "Saturday",
-        availableHours: [
-          {
-            from: "00:00",
-            to: "04:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "13:00",
-          },
-          {
-            from: "21:00",
-            to: "23:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4.8,
-    phone: "+225 820-825-3576",
-    email: "carl.crawford@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/men/84.jpg",
-    specialties: [
-      "Long-Distance Driving",
-      "Luxury Car Specialist",
-      "Airport Transfers",
-    ],
-    vehicleTypesCertified: ["Sports Car"],
-  },
-  {
-    id: "driver-amalfi-coast-4",
-    name: "Julie Crawford",
-    licenseNumber: "J3B669",
-    licenseExpiry: "2027-04-27",
-    experienceYears: 3,
-    languagesSpoken: ["English", "Japanese", "French"],
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "15:00",
-          },
-          {
-            from: "06:00",
-            to: "09:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "20:00",
-            to: "24:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "03:00",
-            to: "05:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "21:00",
-            to: "23:00",
-          },
-          {
-            from: "18:00",
-            to: "23:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4.5,
-    phone: "+195 480-107-3694",
-    email: "julie.crawford@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/women/34.jpg",
-    specialties: [
-      "Security Detail",
-      "Corporate Chauffeur",
-      "Luxury Car Specialist",
-    ],
-    vehicleTypesCertified: ["Luxury SUV", "SUV"],
-  },
-  {
-    id: "driver-amalfi-coast-5",
-    name: "Bobby Moore",
-    licenseNumber: "I7F904",
-    licenseExpiry: "2029-10-14",
-    experienceYears: 18,
-    languagesSpoken: ["English", "Japanese", "Italian"],
-    available: [
-      {
-        day: "Sunday",
         availableHours: [
           {
             from: "09:00",
-            to: "14:00",
-          },
-          {
-            from: "12:00",
-            to: "15:00",
-          },
+            to: "13:00"
+          }
         ],
       },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "15:00",
-          },
-          {
-            from: "02:00",
-            to: "07:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "20:00",
-            to: "22:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4.2,
-    phone: "+231 633-204-9444",
-    email: "bobby.moore@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/men/84.jpg",
-    specialties: ["Event Transportation", "Night Shift"],
-    vehicleTypesCertified: [
-      "Convertible",
-      "Van",
-      "Electric Vehicle",
-      "SUV",
-      "Sedan",
-    ],
-  },
-  {
-    id: "driver-amalfi-coast-6",
-    name: "Lucas Campbell",
-    licenseNumber: "V0S919",
-    licenseExpiry: "2030-04-09",
-    experienceYears: 19,
-    languagesSpoken: ["English", "Spanish", "Russian"],
-    available: [
       {
         day: "Friday",
         availableHours: [
           {
-            from: "14:00",
-            to: "18:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "19:00",
-            to: "24:00",
+            from: "09:00",
+            to: "13:00"
           },
           {
             from: "07:00",
-            to: "10:00",
-          },
+            to: "12:00"
+          }
         ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "18:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "19:00",
-          },
-          {
-            from: "18:00",
-            to: "20:00",
-          },
-        ],
-      },
+      }
     ],
-    ratings: 4.9,
-    phone: "+235 805-708-9653",
-    email: "lucas.campbell@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/men/33.jpg",
-    specialties: ["Security Detail"],
-    vehicleTypesCertified: ["SUV"],
-  },
-  {
-    id: "driver-amalfi-coast-7",
-    name: "Melissa Chambers",
-    licenseNumber: "E6Q191",
-    licenseExpiry: "2029-04-25",
-    experienceYears: 17,
-    languagesSpoken: ["English", "Arabic", "German"],
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "18:00",
-          },
-          {
-            from: "17:00",
-            to: "20:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "12:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "14:00",
-            to: "18:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4.9,
-    phone: "+33 543-856-9064",
-    email: "melissa.chambers@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/women/9.jpg",
-    specialties: [
-      "Corporate Chauffeur",
-      "Airport Transfers",
-      "Tour Guide Driver",
-    ],
-    vehicleTypesCertified: ["Electric Vehicle"],
-  },
-  {
-    id: "driver-amalfi-coast-8",
-    name: "Joan Payne",
-    licenseNumber: "C1L500",
-    licenseExpiry: "2028-04-20",
-    experienceYears: 16,
-    languagesSpoken: ["English", "Portuguese", "Japanese"],
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "19:00",
-            to: "23:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "03:00",
-            to: "08:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "07:00",
-            to: "11:00",
-          },
-        ],
-      },
-    ],
-    ratings: 3.8,
-    phone: "+178 938-918-6110",
-    email: "joan.payne@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/women/82.jpg",
-    specialties: ["Tour Guide Driver", "Long-Distance Driving", "Night Shift"],
-    vehicleTypesCertified: ["Luxury SUV", "Sports Car"],
-  },
-  {
-    id: "driver-amalfi-coast-9",
-    name: "Emily Gonzalez",
-    licenseNumber: "W0O490",
-    licenseExpiry: "2029-08-15",
-    experienceYears: 7,
-    languagesSpoken: ["English", "Spanish", "Japanese", "Russian"],
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "01:00",
-            to: "04:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "13:00",
-          },
-          {
-            from: "06:00",
-            to: "08:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "19:00",
-            to: "22:00",
-          },
-          {
-            from: "13:00",
-            to: "17:00",
-          },
-        ],
-      },
-    ],
-    ratings: 3.7,
-    phone: "+70 550-586-1643",
-    email: "emily.gonzalez@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/women/15.jpg",
-    specialties: ["Event Transportation", "Night Shift", "Corporate Chauffeur"],
-    vehicleTypesCertified: ["SUV", "Luxury SUV"],
-  },
+    ratings: 4.4,
+    phone: "+346 324-944-4673",
+    email: "oliver.hudson@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/37.jpg",
+    specialties: ["VIP Transport"],
+    vehicleTypesCertified: ["Motorcoach", "Sports Car", "Van", "Sedan", "Electric Vehicle"],
+  }
 ];

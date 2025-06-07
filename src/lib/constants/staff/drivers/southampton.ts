@@ -1,373 +1,365 @@
+// Auto-generated driver data for southampton
+// Country: United Kingdom
+// Region: Northern Europe
+
+// This file is auto-generated. Do not edit manually.
 import { Driver } from "@/lib/interfaces/people/staff";
 
 export const southamptonunitedKingdomnorthernEuropeDrivers: Driver[] = [
   {
     id: "driver-southampton-1",
-    name: "Carl Young",
-    licenseNumber: "L7F716",
-    licenseExpiry: "2026-11-09",
-    experienceYears: 3,
-    languagesSpoken: ["English", "Norwegian", "Greek"],
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "07:00",
-            to: "10:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "13:00",
-          },
-          {
-            from: "17:00",
-            to: "19:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "00:00",
-            to: "04:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4,
-    phone: "+215 903-806-1770",
-    email: "carl.young@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/men/6.jpg",
-    specialties: ["VIP Transport", "Airport Transfers", "Corporate Chauffeur"],
-    vehicleTypesCertified: ["Van", "Electric Vehicle"],
+    name: "Philip Foster",
+    licenseNumber: "N2H392",
+    licenseExpiry: "2029-10-08",
+    experienceYears: 13,
+    languagesSpoken: ["English", "Swedish", "Dutch"],
+    available: [],
+    ratings: 4.5,
+    phone: "+661 114-747-9967",
+    email: "philip.foster@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/53.jpg",
+    specialties: ["Night Shift"],
+    vehicleTypesCertified: ["Electric Vehicle", "Motorcoach", "Limousine"],
   },
   {
     id: "driver-southampton-2",
-    name: "Olivia Holloway",
-    licenseNumber: "C4N432",
-    licenseExpiry: "2029-12-02",
+    name: "Pamela Lopez",
+    licenseNumber: "E0V928",
+    licenseExpiry: "2027-11-06",
+    experienceYears: 15,
+    languagesSpoken: ["English", "Norwegian", "Russian", "German"],
+    available: [],
+    ratings: 3.6,
+    phone: "+807 279-797-5094",
+    email: "pamela.lopez@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/16.jpg",
+    specialties: ["Event Transportation", "Luxury Car Specialist", "Security Detail"],
+    vehicleTypesCertified: ["Motorcoach", "SUV", "Luxury SUV", "Sports Car"],
+  },
+  {
+    id: "driver-southampton-3",
+    name: "Scarlett Ivanov",
+    licenseNumber: "Q5O904",
+    licenseExpiry: "2030-07-03",
     experienceYears: 5,
-    languagesSpoken: ["English", "German", "Czech"],
+    languagesSpoken: ["English", "Greek", "Swedish"],
+    available: [],
+    ratings: 3.8,
+    phone: "+826 719-669-2629",
+    email: "scarlett.ivanov@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/29.jpg",
+    specialties: ["Long-Distance Driving", "Corporate Chauffeur"],
+    vehicleTypesCertified: ["Luxury SUV", "Motorcoach", "Sedan"],
+  },
+  {
+    id: "driver-southampton-4",
+    name: "Jessica Williams",
+    licenseNumber: "L0I967",
+    licenseExpiry: "2028-05-26",
+    experienceYears: 11,
+    languagesSpoken: ["English", "Greek", "Polish"],
+    available: [],
+    ratings: 4.7,
+    phone: "+702 559-481-6021",
+    email: "jessica.williams@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/88.jpg",
+    specialties: ["Event Transportation", "Long-Distance Driving"],
+    vehicleTypesCertified: ["Sports Car"],
+  },
+  {
+    id: "driver-southampton-5",
+    name: "Alexa Hamilton",
+    licenseNumber: "G8S617",
+    licenseExpiry: "2029-12-16",
+    experienceYears: 15,
+    languagesSpoken: ["English", "Polish", "Swedish"],
+    available: [],
+    ratings: 4.3,
+    phone: "+175 748-798-4681",
+    email: "alexa.hamilton@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/53.jpg",
+    specialties: ["Corporate Chauffeur", "Luxury Car Specialist", "Tour Guide Driver"],
+    vehicleTypesCertified: ["Limousine"],
+  },
+  {
+    id: "driver-southampton-6",
+    name: "Thabo Parker",
+    licenseNumber: "R7F922",
+    licenseExpiry: "2027-01-06",
+    experienceYears: 2,
+    languagesSpoken: ["English", "Danish", "German"],
+    available: [],
+    ratings: 4.8,
+    phone: "+599 894-503-2563",
+    email: "thabo.parker@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/47.jpg",
+    specialties: ["VIP Transport", "Long-Distance Driving"],
+    vehicleTypesCertified: ["Sedan", "SUV", "Convertible"],
+  },
+  {
+    id: "driver-southampton-7",
+    name: "Evelyn Payne",
+    licenseNumber: "K9F730",
+    licenseExpiry: "2028-03-07",
+    experienceYears: 2,
+    languagesSpoken: ["English", "Finnish", "French", "Russian"],
+    available: [],
+    ratings: 3.8,
+    phone: "+338 352-136-8740",
+    email: "evelyn.payne@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/80.jpg",
+    specialties: ["Long-Distance Driving"],
+    vehicleTypesCertified: ["Motorcoach", "Sports Car", "Sedan"],
+  },
+  {
+    id: "driver-southampton-8",
+    name: "Bryan Mason",
+    licenseNumber: "A0U565",
+    licenseExpiry: "2027-11-02",
+    experienceYears: 6,
+    languagesSpoken: ["English", "Czech", "French", "Italian"],
+    available: [],
+    ratings: 4,
+    phone: "+56 304-440-8314",
+    email: "bryan.mason@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/65.jpg",
+    specialties: ["Luxury Car Specialist"],
+    vehicleTypesCertified: ["Convertible", "Motorcoach", "Sports Car"],
+  },
+  {
+    id: "driver-southampton-9",
+    name: "Omar Hunter",
+    licenseNumber: "Q6Q858",
+    licenseExpiry: "2027-10-01",
+    experienceYears: 20,
+    languagesSpoken: ["English", "Italian", "Russian"],
+    available: [],
+    ratings: 3.7,
+    phone: "+46 600-564-9379",
+    email: "omar.hunter@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/85.jpg",
+    specialties: ["Security Detail"],
+    vehicleTypesCertified: ["Sedan", "SUV", "Sports Car", "Limousine", "Electric Vehicle"],
+  },
+  {
+    id: "driver-southampton-10",
+    name: "Liam Foster",
+    licenseNumber: "C2O993",
+    licenseExpiry: "2026-09-02",
+    experienceYears: 16,
+    languagesSpoken: ["English", "Norwegian", "Czech", "German"],
+    available: [],
+    ratings: 5,
+    phone: "+519 197-110-2350",
+    email: "liam.foster@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/24.jpg",
+    specialties: ["Luxury Car Specialist", "Corporate Chauffeur", "Long-Distance Driving", "Event Transportation"],
+    vehicleTypesCertified: ["SUV", "Sedan", "Van", "Limousine", "Convertible"],
+  },
+  {
+    id: "driver-southampton-11",
+    name: "Margaret Wood",
+    licenseNumber: "C3K903",
+    licenseExpiry: "2029-01-12",
+    experienceYears: 9,
+    languagesSpoken: ["English", "Swedish", "German", "Russian"],
+    available: [],
+    ratings: 4.6,
+    phone: "+184 138-935-9742",
+    email: "margaret.wood@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/57.jpg",
+    specialties: ["Luxury Car Specialist", "Night Shift"],
+    vehicleTypesCertified: ["SUV", "Sports Car", "Convertible", "Van"],
+  },
+  {
+    id: "driver-southampton-12",
+    name: "Alice White",
+    licenseNumber: "V3D057",
+    licenseExpiry: "2029-01-11",
+    experienceYears: 12,
+    languagesSpoken: ["English", "French", "Italian", "Czech"],
+    available: [],
+    ratings: 4.9,
+    phone: "+572 238-554-8813",
+    email: "alice.white@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/29.jpg",
+    specialties: ["Corporate Chauffeur", "Event Transportation", "Tour Guide Driver"],
+    vehicleTypesCertified: ["Electric Vehicle", "Van"],
+  },
+  {
+    id: "driver-southampton-13",
+    name: "Amanda Edwards",
+    licenseNumber: "G0Q852",
+    licenseExpiry: "2030-09-10",
+    experienceYears: 7,
+    languagesSpoken: ["English", "Swedish", "Greek"],
+    available: [],
+    ratings: 4.1,
+    phone: "+639 306-922-1206",
+    email: "amanda.edwards@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/43.jpg",
+    specialties: ["Night Shift", "Luxury Car Specialist", "Airport Transfers"],
+    vehicleTypesCertified: ["Electric Vehicle"],
+  },
+  {
+    id: "driver-southampton-14",
+    name: "Lawrence Graham",
+    licenseNumber: "C5S052",
+    licenseExpiry: "2029-04-06",
+    experienceYears: 6,
+    languagesSpoken: ["English", "Greek", "Spanish", "German"],
     available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "05:00",
-            to: "08:00",
-          },
-          {
-            from: "07:00",
-            to: "12:00",
-          },
-        ],
-      },
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "14:00",
-            to: "19:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "17:00",
-          },
-          {
-            from: "20:00",
-            to: "24:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "17:00",
-            to: "19:00",
-          },
-          {
-            from: "10:00",
-            to: "15:00",
-          },
-        ],
-      },
-    ],
-    ratings: 3.7,
-    phone: "+105 998-402-8524",
-    email: "olivia.holloway@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/women/86.jpg",
-    specialties: [
-      "Luxury Car Specialist",
-      "Corporate Chauffeur",
-      "Night Shift",
-    ],
-    vehicleTypesCertified: ["Van", "Convertible", "Limousine"],
-  },
-  {
-    id: "driver-southampton-3",
-    name: "Maria Palmer",
-    licenseNumber: "I3I917",
-    licenseExpiry: "2030-11-28",
-    experienceYears: 1,
-    languagesSpoken: ["English", "Portuguese", "Spanish"],
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "07:00",
-            to: "10:00",
-          },
-          {
-            from: "15:00",
-            to: "20:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
             from: "11:00",
-            to: "14:00",
+            to: "16:00"
           },
+          {
+            from: "12:00",
+            to: "17:00"
+          }
         ],
       },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "01:00",
-            to: "03:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "01:00",
-            to: "05:00",
-          },
-          {
-            from: "00:00",
-            to: "02:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4,
-    phone: "+797 113-847-4377",
-    email: "maria.palmer@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/women/88.jpg",
-    specialties: ["Security Detail", "Night Shift", "Long-Distance Driving"],
-    vehicleTypesCertified: ["Limousine", "Luxury SUV", "Van"],
-  },
-  {
-    id: "driver-southampton-4",
-    name: "Peter Rodriguez",
-    licenseNumber: "H2R616",
-    licenseExpiry: "2027-07-16",
-    experienceYears: 4,
-    languagesSpoken: ["English", "Greek", "Polish", "Russian"],
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "15:00",
-            to: "18:00",
-          },
-          {
-            from: "04:00",
-            to: "09:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "15:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "05:00",
-            to: "09:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "10:00",
-          },
-        ],
-      },
-    ],
-    ratings: 3.9,
-    phone: "+839 525-632-4740",
-    email: "peter.rodriguez@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/men/48.jpg",
-    specialties: [
-      "Corporate Chauffeur",
-      "Luxury Car Specialist",
-      "VIP Transport",
-      "Airport Transfers",
-    ],
-    vehicleTypesCertified: [
-      "Sports Car",
-      "Electric Vehicle",
-      "Van",
-      "Motorcoach",
-    ],
-  },
-  {
-    id: "driver-southampton-5",
-    name: "Bella Graham",
-    licenseNumber: "P5P513",
-    licenseExpiry: "2026-05-19",
-    experienceYears: 13,
-    languagesSpoken: ["English", "Portuguese", "Polish"],
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "13:00",
-            to: "17:00",
-          },
-          {
-            from: "06:00",
-            to: "11:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "20:00",
-            to: "22:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "18:00",
-            to: "23:00",
-          },
-          {
-            from: "05:00",
-            to: "07:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "05:00",
-            to: "10:00",
-          },
-          {
-            from: "21:00",
-            to: "24:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4.1,
-    phone: "+645 909-362-2953",
-    email: "bella.graham@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/women/40.jpg",
-    specialties: [
-      "Long-Distance Driving",
-      "Luxury Car Specialist",
-      "VIP Transport",
-    ],
-    vehicleTypesCertified: ["SUV"],
-  },
-  {
-    id: "driver-southampton-6",
-    name: "Keith Brooks",
-    licenseNumber: "G7P271",
-    licenseExpiry: "2030-03-28",
-    experienceYears: 8,
-    languagesSpoken: ["English", "Russian", "Polish"],
-    available: [
       {
         day: "Monday",
         availableHours: [
           {
             from: "02:00",
-            to: "05:00",
-          },
+            to: "07:00"
+          }
         ],
       },
       {
         day: "Friday",
         availableHours: [
           {
-            from: "11:00",
-            to: "14:00",
+            from: "07:00",
+            to: "10:00"
           },
           {
-            from: "09:00",
-            to: "12:00",
+            from: "03:00",
+            to: "07:00"
+          }
+        ],
+      }
+    ],
+    ratings: 3.8,
+    phone: "+760 684-374-4609",
+    email: "lawrence.graham@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/7.jpg",
+    specialties: ["Tour Guide Driver", "Airport Transfers", "Corporate Chauffeur", "VIP Transport"],
+    vehicleTypesCertified: ["Sports Car", "SUV", "Electric Vehicle"],
+  },
+  {
+    id: "driver-southampton-15",
+    name: "Barbara Anderson",
+    licenseNumber: "T0Z176",
+    licenseExpiry: "2028-03-26",
+    experienceYears: 8,
+    languagesSpoken: ["English", "Spanish", "Dutch"],
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "07:00",
+            to: "10:00"
           },
+          {
+            from: "11:00",
+            to: "16:00"
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "18:00",
+            to: "21:00"
+          },
+          {
+            from: "21:00",
+            to: "24:00"
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "07:00",
+            to: "12:00"
+          },
+          {
+            from: "10:00",
+            to: "14:00"
+          }
+        ],
+      }
+    ],
+    ratings: 4,
+    phone: "+290 738-203-2814",
+    email: "barbara.anderson@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/11.jpg",
+    specialties: ["Tour Guide Driver"],
+    vehicleTypesCertified: ["Convertible", "Motorcoach", "SUV", "Sports Car"],
+  },
+  {
+    id: "driver-southampton-16",
+    name: "Jonathan Johnson",
+    licenseNumber: "O0Q029",
+    licenseExpiry: "2027-04-04",
+    experienceYears: 18,
+    languagesSpoken: ["English", "Polish", "Swedish"],
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "16:00",
+            to: "18:00"
+          },
+          {
+            from: "14:00",
+            to: "17:00"
+          }
         ],
       },
       {
         day: "Sunday",
         availableHours: [
           {
-            from: "09:00",
-            to: "11:00",
+            from: "18:00",
+            to: "22:00"
           },
+          {
+            from: "03:00",
+            to: "07:00"
+          }
         ],
       },
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "01:00",
-            to: "05:00",
+            from: "16:00",
+            to: "18:00"
           },
           {
-            from: "17:00",
-            to: "20:00",
-          },
+            from: "09:00",
+            to: "14:00"
+          }
         ],
-      },
+      }
     ],
-    ratings: 3.9,
-    phone: "+514 931-615-7212",
-    email: "keith.brooks@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/men/42.jpg",
-    specialties: ["Night Shift", "Security Detail", "VIP Transport"],
-    vehicleTypesCertified: ["Sedan", "Luxury SUV", "Electric Vehicle", "SUV"],
-  },
+    ratings: 4.7,
+    phone: "+182 212-935-1065",
+    email: "jonathan.johnson@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/3.jpg",
+    specialties: ["Night Shift", "Tour Guide Driver", "VIP Transport"],
+    vehicleTypesCertified: ["Motorcoach", "Convertible", "SUV", "Van", "Luxury SUV"],
+  }
 ];

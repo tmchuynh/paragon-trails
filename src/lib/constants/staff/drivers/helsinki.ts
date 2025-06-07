@@ -1,289 +1,330 @@
+// Auto-generated driver data for helsinki
+// Country: Finland
+// Region: Northern Europe
+
+// This file is auto-generated. Do not edit manually.
 import { Driver } from "@/lib/interfaces/people/staff";
 
 export const helsinkifinlandnorthernEuropeDrivers: Driver[] = [
   {
     id: "driver-helsinki-1",
-    name: "Alexander Campbell",
-    licenseNumber: "U4T808",
-    licenseExpiry: "2030-07-09",
-    experienceYears: 17,
-    languagesSpoken: ["English", "Czech", "Danish"],
+    name: "Scott Taylor",
+    licenseNumber: "F8W255",
+    licenseExpiry: "2029-05-26",
+    experienceYears: 3,
+    languagesSpoken: ["English", "Spanish", "Swedish", "Finnish"],
+    available: [],
+    ratings: 4.9,
+    phone: "+200 986-193-7169",
+    email: "scott.taylor@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/51.jpg",
+    specialties: ["Night Shift", "Tour Guide Driver", "Airport Transfers"],
+    vehicleTypesCertified: ["Convertible", "Motorcoach"],
+  },
+  {
+    id: "driver-helsinki-2",
+    name: "Oliver Cooper",
+    licenseNumber: "T4D189",
+    licenseExpiry: "2027-05-20",
+    experienceYears: 1,
+    languagesSpoken: ["English", "German", "Spanish", "Finnish"],
+    available: [],
+    ratings: 4.4,
+    phone: "+883 268-434-5124",
+    email: "oliver.cooper@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/44.jpg",
+    specialties: ["VIP Transport", "Long-Distance Driving", "Airport Transfers", "Night Shift"],
+    vehicleTypesCertified: ["Van"],
+  },
+  {
+    id: "driver-helsinki-3",
+    name: "Fatima Brooks",
+    licenseNumber: "A6A526",
+    licenseExpiry: "2027-12-02",
+    experienceYears: 6,
+    languagesSpoken: ["English", "Greek", "Swedish"],
+    available: [],
+    ratings: 4.6,
+    phone: "+361 967-676-2286",
+    email: "fatima.brooks@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/6.jpg",
+    specialties: ["Long-Distance Driving", "Corporate Chauffeur", "VIP Transport", "Tour Guide Driver"],
+    vehicleTypesCertified: ["Convertible", "Van", "Electric Vehicle"],
+  },
+  {
+    id: "driver-helsinki-4",
+    name: "Liam Edwards",
+    licenseNumber: "Q6Z237",
+    licenseExpiry: "2028-05-02",
+    experienceYears: 14,
+    languagesSpoken: ["English", "Danish", "Greek"],
+    available: [],
+    ratings: 3.9,
+    phone: "+29 473-768-6223",
+    email: "liam.edwards@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/63.jpg",
+    specialties: ["Airport Transfers", "Security Detail", "VIP Transport"],
+    vehicleTypesCertified: ["Motorcoach", "Luxury SUV"],
+  },
+  {
+    id: "driver-helsinki-5",
+    name: "Edward Gibson",
+    licenseNumber: "H7G894",
+    licenseExpiry: "2028-03-26",
+    experienceYears: 7,
+    languagesSpoken: ["English", "Polish", "Italian"],
+    available: [],
+    ratings: 4.5,
+    phone: "+882 190-458-4483",
+    email: "edward.gibson@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/86.jpg",
+    specialties: ["Corporate Chauffeur", "Tour Guide Driver", "Event Transportation"],
+    vehicleTypesCertified: ["Convertible"],
+  },
+  {
+    id: "driver-helsinki-6",
+    name: "Omar Maxwell",
+    licenseNumber: "V8O449",
+    licenseExpiry: "2026-01-01",
+    experienceYears: 3,
+    languagesSpoken: ["English", "Italian", "Finnish"],
+    available: [],
+    ratings: 5,
+    phone: "+104 165-543-2056",
+    email: "omar.maxwell@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/75.jpg",
+    specialties: ["Corporate Chauffeur", "Night Shift"],
+    vehicleTypesCertified: ["SUV", "Electric Vehicle", "Sports Car"],
+  },
+  {
+    id: "driver-helsinki-7",
+    name: "Oliver Morales",
+    licenseNumber: "J2H275",
+    licenseExpiry: "2027-10-12",
+    experienceYears: 20,
+    languagesSpoken: ["English", "Danish", "Polish"],
+    available: [],
+    ratings: 3.8,
+    phone: "+218 427-728-5992",
+    email: "oliver.morales@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/35.jpg",
+    specialties: ["Night Shift", "Luxury Car Specialist"],
+    vehicleTypesCertified: ["SUV", "Convertible", "Motorcoach"],
+  },
+  {
+    id: "driver-helsinki-8",
+    name: "Jeremy Wright",
+    licenseNumber: "Z8W306",
+    licenseExpiry: "2027-05-20",
+    experienceYears: 12,
+    languagesSpoken: ["English", "Spanish", "French"],
+    available: [],
+    ratings: 3.8,
+    phone: "+105 444-539-2989",
+    email: "jeremy.wright@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/54.jpg",
+    specialties: ["Night Shift"],
+    vehicleTypesCertified: ["Electric Vehicle", "Limousine"],
+  },
+  {
+    id: "driver-helsinki-9",
+    name: "Nicole Nguyen",
+    licenseNumber: "B8H658",
+    licenseExpiry: "2030-09-05",
+    experienceYears: 9,
+    languagesSpoken: ["English", "German", "French"],
+    available: [],
+    ratings: 4.3,
+    phone: "+389 536-455-8165",
+    email: "nicole.nguyen@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/53.jpg",
+    specialties: ["Night Shift", "Airport Transfers", "VIP Transport", "Corporate Chauffeur"],
+    vehicleTypesCertified: ["Electric Vehicle", "Luxury SUV", "Sports Car"],
+  },
+  {
+    id: "driver-helsinki-10",
+    name: "Thandiwe Jackson",
+    licenseNumber: "U5Z964",
+    licenseExpiry: "2026-10-24",
+    experienceYears: 6,
+    languagesSpoken: ["English", "Swedish", "German"],
+    available: [],
+    ratings: 3.8,
+    phone: "+452 254-424-4395",
+    email: "thandiwe.jackson@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/67.jpg",
+    specialties: ["Event Transportation", "Airport Transfers", "Long-Distance Driving"],
+    vehicleTypesCertified: ["Luxury SUV", "Motorcoach", "Limousine"],
+  },
+  {
+    id: "driver-helsinki-11",
+    name: "Aaliyah Wells",
+    licenseNumber: "B0K200",
+    licenseExpiry: "2027-10-13",
+    experienceYears: 12,
+    languagesSpoken: ["English", "Polish", "Russian"],
+    available: [],
+    ratings: 3.8,
+    phone: "+717 548-371-9017",
+    email: "aaliyah.wells@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/6.jpg",
+    specialties: ["Long-Distance Driving", "Night Shift"],
+    vehicleTypesCertified: ["Motorcoach", "Sports Car"],
+  },
+  {
+    id: "driver-helsinki-12",
+    name: "Bella Clark",
+    licenseNumber: "A6P019",
+    licenseExpiry: "2029-02-13",
+    experienceYears: 13,
+    languagesSpoken: ["English", "Danish", "Portuguese"],
+    available: [],
+    ratings: 4.2,
+    phone: "+708 461-921-1403",
+    email: "bella.clark@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/29.jpg",
+    specialties: ["Night Shift", "Luxury Car Specialist"],
+    vehicleTypesCertified: ["Convertible", "SUV"],
+  },
+  {
+    id: "driver-helsinki-13",
+    name: "Mia Lewis",
+    licenseNumber: "E5F082",
+    licenseExpiry: "2028-08-07",
+    experienceYears: 15,
+    languagesSpoken: ["English", "French", "German"],
+    available: [],
+    ratings: 4,
+    phone: "+507 445-520-2810",
+    email: "mia.lewis@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/3.jpg",
+    specialties: ["Airport Transfers"],
+    vehicleTypesCertified: ["Sports Car", "SUV", "Motorcoach"],
+  },
+  {
+    id: "driver-helsinki-14",
+    name: "Logan Carter",
+    licenseNumber: "T8O591",
+    licenseExpiry: "2026-01-10",
+    experienceYears: 5,
+    languagesSpoken: ["English", "Portuguese", "Russian"],
+    available: [],
+    ratings: 4.1,
+    phone: "+141 266-515-1434",
+    email: "logan.carter@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/men/1.jpg",
+    specialties: ["VIP Transport"],
+    vehicleTypesCertified: ["SUV", "Sedan", "Van"],
+  },
+  {
+    id: "driver-helsinki-15",
+    name: "Charlotte Wells",
+    licenseNumber: "L2F079",
+    licenseExpiry: "2028-04-26",
+    experienceYears: 16,
+    languagesSpoken: ["English", "Finnish", "Polish"],
     available: [
       {
-        day: "Monday",
+        day: "Sunday",
         availableHours: [
           {
-            from: "17:00",
-            to: "22:00",
+            from: "02:00",
+            to: "04:00"
           },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
           {
-            from: "17:00",
-            to: "21:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "17:00",
-            to: "19:00",
-          },
+            from: "20:00",
+            to: "22:00"
+          }
         ],
       },
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "04:00",
-            to: "06:00",
-          },
+            from: "08:00",
+            to: "12:00"
+          }
         ],
       },
-    ],
-    ratings: 3.8,
-    phone: "+392 263-674-2255",
-    email: "alexander.campbell@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/men/47.jpg",
-    specialties: ["Airport Transfers", "Event Transportation"],
-    vehicleTypesCertified: [
-      "Sedan",
-      "Electric Vehicle",
-      "Motorcoach",
-      "Convertible",
-      "Luxury SUV",
-    ],
-  },
-  {
-    id: "driver-helsinki-2",
-    name: "Juan Lawson",
-    licenseNumber: "Y9B424",
-    licenseExpiry: "2026-10-04",
-    experienceYears: 6,
-    languagesSpoken: ["English", "Polish", "Norwegian"],
-    available: [
       {
         day: "Monday",
         availableHours: [
           {
             from: "07:00",
-            to: "09:00",
-          },
-          {
-            from: "15:00",
-            to: "17:00",
-          },
+            to: "12:00"
+          }
         ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "15:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "04:00",
-            to: "08:00",
-          },
-          {
-            from: "08:00",
-            to: "12:00",
-          },
-        ],
-      },
+      }
     ],
-    ratings: 4.5,
-    phone: "+481 492-393-8607",
-    email: "juan.lawson@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/men/81.jpg",
-    specialties: ["Tour Guide Driver"],
-    vehicleTypesCertified: ["Convertible", "Luxury SUV", "Sports Car"],
+    ratings: 3.9,
+    phone: "+291 423-311-8591",
+    email: "charlotte.wells@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/10.jpg",
+    specialties: ["Long-Distance Driving", "Airport Transfers", "VIP Transport", "Night Shift"],
+    vehicleTypesCertified: ["Electric Vehicle", "Convertible"],
   },
   {
-    id: "driver-helsinki-3",
-    name: "Bobby Smith",
-    licenseNumber: "X5B995",
-    licenseExpiry: "2027-10-25",
-    experienceYears: 3,
-    languagesSpoken: ["English", "Finnish", "German", "Greek"],
+    id: "driver-helsinki-16",
+    name: "Kennedy Gonzalez",
+    licenseNumber: "L8V043",
+    licenseExpiry: "2030-03-01",
+    experienceYears: 1,
+    languagesSpoken: ["English", "Dutch", "Swedish"],
     available: [
       {
-        day: "Wednesday",
+        day: "Monday",
         availableHours: [
           {
-            from: "12:00",
-            to: "15:00",
-          },
+            from: "06:00",
+            to: "10:00"
+          }
         ],
       },
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "08:00",
-            to: "11:00",
+            from: "16:00",
+            to: "19:00"
           },
           {
-            from: "05:00",
-            to: "10:00",
-          },
+            from: "21:00",
+            to: "23:00"
+          }
         ],
       },
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "18:00",
-            to: "21:00",
-          },
+            from: "00:00",
+            to: "02:00"
+          }
         ],
-      },
+      }
     ],
-    ratings: 4.6,
-    phone: "+690 145-946-2483",
-    email: "bobby.smith@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/men/51.jpg",
-    specialties: [
-      "Night Shift",
-      "Event Transportation",
-      "Corporate Chauffeur",
-      "VIP Transport",
-    ],
-    vehicleTypesCertified: ["Motorcoach", "Sports Car"],
+    ratings: 4,
+    phone: "+770 223-388-1308",
+    email: "kennedy.gonzalez@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/26.jpg",
+    specialties: ["Night Shift", "Corporate Chauffeur", "Security Detail", "Luxury Car Specialist"],
+    vehicleTypesCertified: ["Van", "Electric Vehicle", "Motorcoach", "Sports Car"],
   },
   {
-    id: "driver-helsinki-4",
-    name: "Maria Mitchell",
-    licenseNumber: "R2F724",
-    licenseExpiry: "2030-12-11",
-    experienceYears: 15,
-    languagesSpoken: ["English", "Spanish", "Polish", "Danish"],
+    id: "driver-helsinki-17",
+    name: "Hannah Hawkins",
+    licenseNumber: "G2F494",
+    licenseExpiry: "2027-02-02",
+    experienceYears: 9,
+    languagesSpoken: ["English", "Spanish", "Swedish"],
     available: [
       {
-        day: "Friday",
+        day: "Sunday",
         availableHours: [
           {
             from: "19:00",
-            to: "24:00",
-          },
-          {
-            from: "11:00",
-            to: "14:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "17:00",
-          },
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "08:00",
-            to: "12:00",
-          },
-          {
-            from: "01:00",
-            to: "03:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "21:00",
-            to: "23:00",
-          },
-          {
-            from: "10:00",
-            to: "14:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "03:00",
-            to: "05:00",
-          },
-          {
-            from: "07:00",
-            to: "10:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4.2,
-    phone: "+709 227-758-4041",
-    email: "maria.mitchell@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/women/32.jpg",
-    specialties: [
-      "Event Transportation",
-      "Long-Distance Driving",
-      "Tour Guide Driver",
-    ],
-    vehicleTypesCertified: ["Luxury SUV", "Sports Car", "Convertible", "SUV"],
-  },
-  {
-    id: "driver-helsinki-5",
-    name: "Steven Carter",
-    licenseNumber: "M0O343",
-    licenseExpiry: "2030-07-11",
-    experienceYears: 2,
-    languagesSpoken: ["English", "German", "Polish"],
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "07:00",
-            to: "10:00",
-          },
-          {
-            from: "12:00",
-            to: "17:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "17:00",
-            to: "19:00",
-          },
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "18:00",
-            to: "22:00",
-          },
-          {
-            from: "11:00",
-            to: "13:00",
-          },
+            to: "21:00"
+          }
         ],
       },
       {
@@ -291,256 +332,42 @@ export const helsinkifinlandnorthernEuropeDrivers: Driver[] = [
         availableHours: [
           {
             from: "13:00",
-            to: "18:00",
+            to: "17:00"
           },
           {
-            from: "16:00",
-            to: "18:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4.7,
-    phone: "+541 909-870-5117",
-    email: "steven.carter@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/men/84.jpg",
-    specialties: ["Tour Guide Driver", "VIP Transport"],
-    vehicleTypesCertified: ["Van", "Limousine", "Sports Car"],
-  },
-  {
-    id: "driver-helsinki-6",
-    name: "Ryan Knight",
-    licenseNumber: "E9J160",
-    licenseExpiry: "2026-04-13",
-    experienceYears: 20,
-    languagesSpoken: ["English", "Danish", "German", "Finnish"],
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "18:00",
-            to: "23:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "02:00",
-            to: "07:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "21:00",
-            to: "24:00",
-          },
-          {
-            from: "09:00",
-            to: "11:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "09:00",
-            to: "14:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4.7,
-    phone: "+636 255-589-5688",
-    email: "ryan.knight@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/men/4.jpg",
-    specialties: ["Tour Guide Driver", "Long-Distance Driving"],
-    vehicleTypesCertified: ["Motorcoach", "SUV", "Van", "Luxury SUV"],
-  },
-  {
-    id: "driver-helsinki-7",
-    name: "Layla Singh",
-    licenseNumber: "Y3K396",
-    licenseExpiry: "2028-12-08",
-    experienceYears: 2,
-    languagesSpoken: ["English", "Dutch", "Czech"],
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "11:00",
-            to: "14:00",
-          },
+            from: "19:00",
+            to: "23:00"
+          }
         ],
       },
       {
         day: "Wednesday",
         availableHours: [
           {
-            from: "15:00",
-            to: "20:00",
-          },
-          {
-            from: "06:00",
-            to: "08:00",
-          },
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "17:00",
-            to: "19:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "03:00",
-            to: "08:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4.2,
-    phone: "+711 541-725-9744",
-    email: "layla.singh@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/women/48.jpg",
-    specialties: ["Night Shift"],
-    vehicleTypesCertified: ["Electric Vehicle"],
-  },
-  {
-    id: "driver-helsinki-8",
-    name: "Thomas Wilson",
-    licenseNumber: "Q4G780",
-    licenseExpiry: "2026-01-12",
-    experienceYears: 17,
-    languagesSpoken: ["English", "Norwegian", "Polish"],
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "04:00",
-            to: "09:00",
-          },
-          {
-            from: "19:00",
-            to: "23:00",
-          },
+            from: "10:00",
+            to: "12:00"
+          }
         ],
       },
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "11:00",
-            to: "15:00",
+            from: "02:00",
+            to: "04:00"
           },
           {
-            from: "05:00",
-            to: "08:00",
-          },
+            from: "10:00",
+            to: "15:00"
+          }
         ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "12:00",
-            to: "15:00",
-          },
-          {
-            from: "14:00",
-            to: "19:00",
-          },
-        ],
-      },
+      }
     ],
-    ratings: 4.5,
-    phone: "+245 891-728-8035",
-    email: "thomas.wilson@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/men/1.jpg",
-    specialties: ["Airport Transfers", "Corporate Chauffeur"],
-    vehicleTypesCertified: ["Luxury SUV", "Sports Car", "Convertible"],
-  },
-  {
-    id: "driver-helsinki-9",
-    name: "Sarah Stewart",
-    licenseNumber: "L3K997",
-    licenseExpiry: "2027-07-13",
-    experienceYears: 15,
-    languagesSpoken: ["English", "Czech", "Spanish"],
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "18:00",
-            to: "23:00",
-          },
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "21:00",
-            to: "24:00",
-          },
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "17:00",
-            to: "21:00",
-          },
-          {
-            from: "03:00",
-            to: "05:00",
-          },
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "21:00",
-            to: "24:00",
-          },
-          {
-            from: "15:00",
-            to: "19:00",
-          },
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "16:00",
-            to: "19:00",
-          },
-        ],
-      },
-    ],
-    ratings: 4.2,
-    phone: "+94 294-879-3631",
-    email: "sarah.stewart@paragontrailsdrivers.com",
-    photoUrl: "https://randomuser.me/api/portraits/women/29.jpg",
-    specialties: ["Night Shift", "Tour Guide Driver", "Event Transportation"],
-    vehicleTypesCertified: ["Limousine", "SUV"],
-  },
+    ratings: 4.1,
+    phone: "+519 310-541-1975",
+    email: "hannah.hawkins@paragontrailsdrivers.com",
+    photoUrl: "https://randomuser.me/api/portraits/women/15.jpg",
+    specialties: ["Security Detail", "Luxury Car Specialist"],
+    vehicleTypesCertified: ["Van", "Limousine", "Sports Car", "Motorcoach"],
+  }
 ];
