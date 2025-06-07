@@ -26,6 +26,7 @@ import { promisify } from "util";
 import {
   formatTitleToCamelCase,
   removeAccents,
+  formatTitleCaseToKebabCase,
 } from "./utils/format-utils.mjs";
 import { getRandomName } from "./utils/name-utils.mjs";
 import { getRandomDate, getRandomRating } from "./utils/data-generator.mjs";
@@ -277,7 +278,7 @@ async function fileExists(filePath) {
 }
 
 function formatFileName(tourTitle) {
-  return formatTitleToCamelCase(
+  return formatTitleCaseToKebabCase(
     removeAccents(tourTitle.replace(/[^\w\s]/gi, ""))
   );
 }
@@ -388,6 +389,7 @@ async function createTestimonialFile(tour) {
     "lib",
     "constants",
     "testimonials",
+    "tours",
     tour.city
   );
   const filePath = path.join(cityDir, `${fileName}Testimonials.ts`);
@@ -405,7 +407,8 @@ async function createTestimonialFile(tour) {
   const testimonials = generateTestimonials(tour);
 
   // Create file content
-  let content = `import { Testimonial } from "@/lib/interfaces/services/testimonials";\n\n`;
+  let content = `// This file is auto-generated. Do not edit manually.
+  import { Testimonial } from "@/lib/interfaces/services/testimonials";\n\n`;
   content += `export const ${fileName}Testimonials: Testimonial[] = [\n`;
 
   testimonials.forEach((testimonial, index) => {
