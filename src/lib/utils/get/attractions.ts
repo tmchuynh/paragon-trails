@@ -13,7 +13,7 @@ export async function getAllAttractions(): Promise<Attraction[]> {
 
       const attractionId = `${formattedCity}${formattedCountry}Attractions`;
       const cityModule = await import(
-        `@/lib/constants/destinations/city/${cityFile}`
+        `@/lib/constants/destinations/city-attractions/${cityFile}`
       );
 
       if (cityModule[attractionId]) {
@@ -32,7 +32,7 @@ export async function getAllAttractions(): Promise<Attraction[]> {
 
 export async function getCityAttractionById(
   city: string,
-  attractionId: string,
+  attractionId: string
 ): Promise<Attraction | null> {
   try {
     // Normalize the city name for the file path (kebab-case)
@@ -41,7 +41,7 @@ export async function getCityAttractionById(
     // Import the attractions file for this city
     try {
       const attractionsModule = await import(
-        `@/lib/constants/destinations/city/${normalizedCity}`
+        `@/lib/constants/destinations/city-attractions/${normalizedCity}`
       );
 
       // Get all the export names from the module
@@ -49,7 +49,7 @@ export async function getCityAttractionById(
 
       // Look for exports that contain "Attractions"
       const attractionsExports = exportNames.filter((name) =>
-        name.includes("Attractions"),
+        name.includes("Attractions")
       );
 
       // Try each export that might contain attractions
@@ -65,21 +65,21 @@ export async function getCityAttractionById(
 
       console.warn(
         `Attraction with ID ${attractionId} not found in ${city} (checked exports: ${attractionsExports.join(
-          ", ",
-        )})`,
+          ", "
+        )})`
       );
       return null;
     } catch (importError) {
       console.error(
         `Failed to import attractions for ${normalizedCity}:`,
-        importError,
+        importError
       );
       return null;
     }
   } catch (error) {
     console.error(
       `Error loading attraction for ${city} with ID ${attractionId}:`,
-      error,
+      error
     );
     return null;
   }
@@ -89,7 +89,7 @@ export async function getCityFile(city: string): Promise<any> {
   try {
     const cityFilesModule = await import("@/lib/constants/info/city");
     const cityFile = cityFilesModule.cityFiles.find(
-      (file: any) => file.city === city,
+      (file: any) => file.city === city
     );
     if (cityFile) {
       return cityFile;
@@ -111,12 +111,12 @@ export async function getCityAttractions(city: string): Promise<Attraction[]> {
     try {
       // Import the attractions file for this city
       const attractionsModule = await import(
-        `@/lib/constants/destinations/city/${normalizedCity}`
+        `@/lib/constants/destinations/city-attractions/${normalizedCity}`
       );
 
       // Get all exports that contain "Attractions"
       const attractionsExports = Object.keys(attractionsModule).filter((name) =>
-        name.includes("Attractions"),
+        name.includes("Attractions")
       );
 
       // Return the first valid attractions array we find
@@ -124,7 +124,7 @@ export async function getCityAttractions(city: string): Promise<Attraction[]> {
         const attractions = attractionsModule[exportName];
         if (Array.isArray(attractions) && attractions.length > 0) {
           console.log(
-            `Found ${attractions.length} attractions for ${city} in export ${exportName}`,
+            `Found ${attractions.length} attractions for ${city} in export ${exportName}`
           );
           return attractions;
         }
@@ -132,14 +132,14 @@ export async function getCityAttractions(city: string): Promise<Attraction[]> {
 
       console.error(
         `No attractions found for city: ${city} (checked exports: ${attractionsExports.join(
-          ", ",
-        )})`,
+          ", "
+        )})`
       );
       return [];
     } catch (importError) {
       console.error(
         `Failed to import attractions for ${normalizedCity}:`,
-        importError,
+        importError
       );
       return [];
     }
