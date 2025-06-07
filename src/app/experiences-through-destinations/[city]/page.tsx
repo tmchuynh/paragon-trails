@@ -2,7 +2,7 @@
 
 import { useState, useEffect, use } from "react";
 import { cities } from "@/lib/constants/info/city-information";
-import { formatKebabToTitle } from "@/lib/utils/format";
+import { formatKebabToTitle, capitalize } from "@/lib/utils/format";
 import { Doughnut } from "react-chartjs-2";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { displayRatingStars } from "@/lib/utils/displayRatingStars";
@@ -40,7 +40,6 @@ import { useSearchParams } from "next/navigation";
 
 // Register Chart.js components
 ChartJS.register(ArcElement, Tooltip, Legend);
-
 export default function ToursByCityPage() {
   const searchParams = useSearchParams();
   const city = searchParams.get("city") || "";
@@ -158,8 +157,8 @@ export default function ToursByCityPage() {
             </div>
 
             {/* Tabs for Different Information */}
-            <Tabs defaultValue="overview" className="w-full">
-              <TabsList className="grid grid-cols-3 md:grid-cols-5 mb-6">
+            <Tabs defaultValue="overview">
+              <TabsList className="grid md:grid-cols-5 mb-6 w-full">
                 <TabsTrigger value="overview">Overview</TabsTrigger>
                 <TabsTrigger value="attractions">Attractions</TabsTrigger>
                 <TabsTrigger value="services">Services</TabsTrigger>
@@ -172,9 +171,7 @@ export default function ToursByCityPage() {
                 <Card>
                   <CardHeader>
                     <CardTitle>About {cityInfo.city}</CardTitle>
-                    <CardDescription>
-                      Everything you need to know about this destination
-                    </CardDescription>
+                    <h5>Everything you need to know</h5>
                   </CardHeader>
                   <CardContent className="space-y-4">
                     <p>{cityInfo.description}</p>
@@ -182,8 +179,8 @@ export default function ToursByCityPage() {
                     {/* Tags */}
                     <div className="flex flex-wrap gap-2">
                       {cityInfo.tags?.map((tag: string) => (
-                        <Badge key={tag} variant="outline">
-                          {tag.replace(/-/g, " ")}
+                        <Badge key={tag} variant={"secondaryFaded"}>
+                          {capitalize(tag.replace(/-/g, " "))}
                         </Badge>
                       ))}
                     </div>
@@ -235,9 +232,7 @@ export default function ToursByCityPage() {
                 <Card>
                   <CardHeader>
                     <CardTitle>Top Attractions in {cityInfo.city}</CardTitle>
-                    <CardDescription>
-                      Must-see places and experiences
-                    </CardDescription>
+                    <h5>Must-see places and experiences</h5>
                   </CardHeader>
                   <CardContent>
                     <ul className="space-y-4">
@@ -272,9 +267,9 @@ export default function ToursByCityPage() {
                 <Card>
                   <CardHeader>
                     <CardTitle>Available Services</CardTitle>
-                    <CardDescription>
+                    <h5>
                       Transportation and travel services in {cityInfo.city}
-                    </CardDescription>
+                    </h5>
                   </CardHeader>
                   <CardContent>
                     <div className="gap-x-6 gap-y-4 grid grid-cols-1 md:grid-cols-2">
@@ -353,9 +348,7 @@ export default function ToursByCityPage() {
                 <Card>
                   <CardHeader>
                     <CardTitle>Traveler Experiences</CardTitle>
-                    <CardDescription>
-                      What people are saying about {cityInfo.city}
-                    </CardDescription>
+                    <h5>What people are saying about {cityInfo.city}</h5>
                   </CardHeader>
                   <CardContent>
                     <div className="space-y-6">
@@ -409,9 +402,7 @@ export default function ToursByCityPage() {
                 <Card>
                   <CardHeader>
                     <CardTitle>{cityInfo.city} on the Map</CardTitle>
-                    <CardDescription>
-                      Coordinates: {formattedCoordinates}
-                    </CardDescription>
+                    <h5>Coordinates: {formattedCoordinates}</h5>
                   </CardHeader>
                   <CardContent>
                     <div className="flex justify-center items-center bg-muted rounded-md h-[400px]">
@@ -439,7 +430,7 @@ export default function ToursByCityPage() {
             <Card>
               <CardHeader>
                 <CardTitle>Destination Rating</CardTitle>
-                <CardDescription>Based on visitor feedback</CardDescription>
+                <h5>Based on visitor feedback</h5>
               </CardHeader>
               <CardContent className="flex flex-col items-center">
                 <div className="mb-4 w-40 h-40">
@@ -467,12 +458,14 @@ export default function ToursByCityPage() {
                       <span className="font-bold text-3xl">
                         {cityInfo.rating}
                       </span>
-                      <span className="text-gray-500 text-lg">/5</span>
+                      <span>/5</span>
                     </div>
                   </div>
                 </div>
                 <div className="flex gap-2 mt-2">
-                  {displayRatingStars(Math.round(cityInfo.rating))}
+                  {displayRatingStars(Math.round(cityInfo.rating), 5, {
+                    showRatingNumber: false,
+                  })}
                 </div>
               </CardContent>
             </Card>
@@ -557,7 +550,7 @@ export default function ToursByCityPage() {
                       Browse Available Tours
                     </Button>
                   </Link>
-                  <Link href="/contact">
+                  <Link href="/contact-us">
                     <Button className="w-full" variant="outline">
                       Contact a Travel Expert
                     </Button>
