@@ -437,6 +437,7 @@ export default function MotorcyclesRentalPage() {
                 <SelectValue placeholder="Items per page" />
               </SelectTrigger>
               <SelectContent>
+                <SelectItem value="6">6 per page</SelectItem>
                 <SelectItem value="9">9 per page</SelectItem>
                 <SelectItem value="12">12 per page</SelectItem>
                 <SelectItem value="18">18 per page</SelectItem>
@@ -816,27 +817,30 @@ function MotorcycleCard({ motorcycle }: { motorcycle: Motorcycle }) {
       </CardHeader>
       <CardContent className="flex-grow">
         <div className="space-y-2">
-          <div className="flex flex-wrap gap-2 text-xs">
+          <div className="space-y-2">
             <div className="flex items-center gap-2">
-              {motorcycle.engineSize} Engine
+              <Car className="w-4 h-4 text-muted-foreground" />
+              <span className="text-sm">{motorcycle.engineSize} Engine</span>
             </div>
             <div className="flex items-center gap-2">
               <Key className="w-4 h-4 text-muted-foreground" />
-              {motorcycle.transmission.charAt(0).toUpperCase() +
-                motorcycle.transmission.slice(1)}
+              <span className="text-sm">
+                {motorcycle.transmission.charAt(0).toUpperCase() +
+                  motorcycle.transmission.slice(1)}
+              </span>
             </div>
             <div className="flex items-center gap-2">
               <DollarSign className="w-4 h-4 text-muted-foreground" />{" "}
-              {motorcycle.rentalPricePerDay} {motorcycle.currency}/day
+              <span className="text-sm">
+                {motorcycle.rentalPricePerDay} {motorcycle.currency}/day
+              </span>
             </div>
-            <div className="flex items-center gap-2">{motorcycle.color}</div>
             <div className="flex items-center gap-2">
               <User className="w-4 h-4 text-muted-foreground" />
-              {motorcycle.seatCapacity} Seat
-              {motorcycle.seatCapacity > 1 ? "s" : ""}
-            </div>
-            <div className="flex items-center gap-2">
-              {motorcycle.hasStorage ? "Has Storage" : "No Storage"}
+              <span className="text-sm">
+                {motorcycle.seatCapacity} Seat
+                {motorcycle.seatCapacity > 1 ? "s" : ""}
+              </span>
             </div>
           </div>
           <div className="flex items-center gap-2 mt-2">
