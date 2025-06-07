@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Tegucigalpa Central Hotel
+export const tegucigalpaCentralHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-roatan-3-room-2-Double-CityView",
+    name: "Signature Double Studio",
+    description: "Step into a pleasant double studio that combines Signature-themed with breathtaking offering panoramic city vistas, complemented by equipped with all the modern conveniences.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 171943,
+    currency: "HNL",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-roatan-3-room-2-Single-OceanView",
+    name: "Caribe Single Penthouse",
+    description: "Caribe-themed penthouse with cozy decor, with breathtaking sea views, and equipped with all the modern conveniences.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 149008,
+    currency: "HNL",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-roatan-3-room-2-Double-OceanView",
+    name: "Caribe Double Suite",
+    description: "Indulge in the refreshing atmosphere of our double suite, with spectacular where you can watch the waves roll in, offering an authentic and serene environment, and with plush bedding for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 202772,
+    currency: "HNL",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-roatan-3-room-2-Single-GardenView",
+    name: "Executive Single Studio",
+    description: "A commodious single retreat where you can enjoy the beauty of nature, offering an authentic and serene environment.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 139173,
+    currency: "HNL",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 1,
+  }
+];

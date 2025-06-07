@@ -1,0 +1,77 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Maple Moon Manor
+export const mapleMoonManorRooms: RoomOption[] = [
+  {
+    id: "hotel-new-orleans-1-room-0-Single-GardenView",
+    name: "Modern Single Villa",
+    description: "Indulge in the heartwarming atmosphere of our single villa, with spectacular where you can enjoy the beauty of nature, created with both style and function in mind, and with plush bedding for ultimate comfort.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    accessibilityFeatures: ["Visual Aids", "Wheelchair Accessible"],
+    pricePerNight: 187,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-new-orleans-1-room-0-Single-MountainView",
+    name: "Classic Single Villa",
+    description: "Experience our expansive, calming single villa where you can find inspiration in the mountains, with a spacious seating area.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer"],
+    accessibilityFeatures: ["Elevator", "Hearing Support"],
+    pricePerNight: 193,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-new-orleans-1-room-0-Twin-CityView",
+    name: "Horizon Twin Room",
+    description: "Step into a cozy twin room that combines Horizon-themed with breathtaking where the city skyline meets the horizon, complemented by with a spacious work area.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer"],
+    pricePerNight: 192,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-new-orleans-1-room-0-Single-OceanView",
+    name: "Executive Single Suite",
+    description: "A intimate single suite designed for comfortable comfort, with with a view of the ocean's changing tides and with a modern en-suite bathroom, reflecting decorated with local artistic influences.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 204,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 8,
+  }
+];

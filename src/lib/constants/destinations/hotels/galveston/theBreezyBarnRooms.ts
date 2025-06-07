@@ -1,0 +1,77 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Breezy Barn
+export const theBreezyBarnRooms: RoomOption[] = [
+  {
+    id: "hotel-galveston-4-room-3-Double-OceanView",
+    name: "Premium Double Apartment",
+    description: "This voluminous double accommodation offers with the sound of the ocean as your backdrop, highlighting contemporary American style.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping"],
+    pricePerNight: 166,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-galveston-4-room-3-Single-OceanView",
+    name: "Golden Gate Single Room",
+    description: "Step into a commodious single room that combines Golden Gate-themed with breathtaking where the horizon meets the ocean, complemented by offering a unique blend of style and comfort.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 124,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-galveston-4-room-3-Queen-None",
+    name: "Luxury Queen Suite",
+    description: "Relax in our majestic upscale queen suite featuring with a pleasant outlook, along with with blackout curtains for a perfect night's sleep and featuring sleek urban design elements.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service"],
+    accessibilityFeatures: ["Wheelchair Accessible", "Elevator", "Accessible Bathroom"],
+    pricePerNight: 153,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-galveston-4-room-3-Queen-CityView",
+    name: "Classic Queen Penthouse",
+    description: "Relax in our restful minimalist queen penthouse featuring with a view of the city's cultural landmarks, along with equipped with all the modern conveniences and offering a classic yet modern American experience.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe"],
+    accessibilityFeatures: ["Wheelchair Accessible", "Elevator"],
+    pricePerNight: 165,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 7,
+  }
+];

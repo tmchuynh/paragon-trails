@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Cinque Terre Coastal Inn
+export const theCinqueTerreCoastalInnRooms: RoomOption[] = [
+  {
+    id: "hotel-rome-1-room-0-SofaBed-MountainView",
+    name: "Superior Sofa Bed Room",
+    description: "Step into a retro sofa bed room that combines Superior-themed with breathtaking with a view of the mountains' serene beauty, complemented by with a modern en-suite bathroom.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave"],
+    pricePerNight: 184,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-rome-1-room-0-King-MountainView",
+    name: "Tranquility King Apartment",
+    description: "This sumptuous king apartment promises where you can experience the beauty of nature, enriched by Tranquility-themed details and with a luxurious soaking tub.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service"],
+    pricePerNight: 273,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-rome-1-room-0-King-CityView",
+    name: "Serenity King Room",
+    description: "Enjoy a regal stay in our Serenity-themed king room, offering with a front-row seat to the city's heartbeat, with blackout curtains for a perfect night's sleep, and unique touches of featuring tasteful Mediterranean touches.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    accessibilityFeatures: ["Hearing Support", "Accessible Bathroom"],
+    pricePerNight: 280,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-rome-1-room-0-Single-GardenView",
+    name: "Horizon Single Penthouse",
+    description: "Indulge in the stretching atmosphere of our single penthouse, with spectacular with a view of the garden's natural beauty, inspired by Italian Renaissance design, and with high-speed internet access.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 149,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 8,
+  }
+];

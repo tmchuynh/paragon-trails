@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for InterContinental Bali Resort
+export const intercontinentalBaliResortRooms: RoomOption[] = [
+  {
+    id: "hotel-bali-3-room-2-Queen-MountainView",
+    name: "Luxury Queen Studio",
+    description: "Our Luxury-themed queen studio offers refreshing luxury, panoramic where you can experience the beauty of nature, and with plush bedding for ultimate comfort, inspired by decorated with handcrafted local motifs.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service"],
+    pricePerNight: 34602980456,
+    currency: "IDR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-bali-3-room-2-Double-MountainView",
+    name: "Executive Double Studio",
+    description: "Discover the charm of this Executive-themed double studio, complete with majestic ambiance, stunning where you can enjoy the serenity of mountain life, and including climate control for your comfort.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping"],
+    pricePerNight: 33492444012,
+    currency: "IDR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-bali-3-room-2-Single-OceanView",
+    name: "Ubud Single Studio",
+    description: "Experience our pleasant, serene single studio with a view of the tranquil sea, with a spacious seating area.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    pricePerNight: 26000051151,
+    currency: "IDR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-bali-3-room-2-King-MountainView",
+    name: "Garuda King Suite",
+    description: "This deluxe king suite promises with a view of the mountains' rugged terrain, enriched by Garuda-themed details and featuring a curated minibar selection.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp"],
+    pricePerNight: 43833047546,
+    currency: "IDR",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 7,
+  }
+];

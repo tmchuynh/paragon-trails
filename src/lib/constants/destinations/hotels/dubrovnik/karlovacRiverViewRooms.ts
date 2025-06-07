@@ -1,0 +1,88 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Karlovac River View
+export const karlovacRiverViewRooms: RoomOption[] = [
+  {
+    id: "hotel-dubrovnik-2-room-1-Double-None",
+    name: "Premium Double Studio",
+    description: "A well-proportioned double studio designed for relaxing comfort, with with a pleasant outlook and with blackout curtains for a perfect night's sleep, reflecting featuring coastal-inspired decor with Mediterranean influences.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 183,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-dubrovnik-2-room-1-Double-OceanView",
+    name: "Deluxe Double Villa",
+    description: "Discover the charm of this Deluxe-themed double villa, complete with artistic ambiance, stunning where you can feel the ocean breeze, and with a private balcony or terrace.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 205,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-dubrovnik-2-room-1-King-None",
+    name: "Dalmatia King Loft",
+    description: "Discover the charm of this Dalmatia-themed king loft, complete with soft ambiance, stunning with a pleasant outlook, and with carefully selected furnishings.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service"],
+    pricePerNight: 244,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-dubrovnik-2-room-1-SofaBed-MountainView",
+    name: "Dubrovnik Sofa Bed Studio",
+    description: "Dubrovnik-themed sofa bed studio overlooking spectacular mountain ranges, blending traditional Croatian style with contemporary design and complete with a well-appointed bathroom.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave"],
+    pricePerNight: 208,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-dubrovnik-2-room-1-Single-GardenView",
+    name: "Superior Single Apartment",
+    description: "A cozy single apartment designed for sumptuous comfort, with with a view of manicured lawns and gardens and with a spacious work area, reflecting blending traditional Croatian style with contemporary design.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 174,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 7,
+  }
+];

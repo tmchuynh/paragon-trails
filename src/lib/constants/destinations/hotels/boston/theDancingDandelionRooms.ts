@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Dancing Dandelion
+export const theDancingDandelionRooms: RoomOption[] = [
+  {
+    id: "hotel-boston-5-room-4-SofaBed-GardenView",
+    name: "Standard Sofa Bed Apartment",
+    description: "Experience our exquisite, avant-garde sofa bed apartment surrounded by vibrant flora, with plush bedding for ultimate comfort.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 350,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-boston-5-room-4-Twin-MountainView",
+    name: "Signature Twin Loft",
+    description: "Relax in our room-filled intimate twin loft featuring with majestic mountain vistas, along with featuring premium bath amenities and highlighting contemporary American style.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    accessibilityFeatures: ["Elevator", "Wheelchair Accessible", "Visual Aids"],
+    pricePerNight: 342,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-boston-5-room-4-Queen-None",
+    name: "Deluxe Queen Room",
+    description: "Our Deluxe-themed queen room offers inviting luxury, panoramic with a pleasant outlook, and with blackout curtains for a perfect night's sleep, inspired by highlighting contemporary American style.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    accessibilityFeatures: ["Hearing Support", "Visual Aids"],
+    pricePerNight: 366,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-boston-5-room-4-Single-MountainView",
+    name: "Liberty Single Villa",
+    description: "This grandiose single villa promises where mountains paint the horizon, enriched by Liberty-themed details and with a private balcony or terrace.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer"],
+    pricePerNight: 313,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 9,
+  }
+];

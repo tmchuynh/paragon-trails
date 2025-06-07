@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Bielefeld Linen Hotel
+export const bielefeldLinenHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-kiel-1-room-0-King-OceanView",
+    name: "Harmony King Penthouse",
+    description: "Discover the charm of this Harmony-themed king penthouse, complete with soft ambiance, stunning where you can feel the ocean breeze, and with a spacious work area.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe"],
+    pricePerNight: 295,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-kiel-1-room-0-King-GardenView",
+    name: "Horizon King Villa",
+    description: "A soft king retreat with a view of manicured lawns and gardens, created with both style and function in mind.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp"],
+    pricePerNight: 263,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-kiel-1-room-0-Double-CityView",
+    name: "Deluxe Double Apartment",
+    description: "Relax in our comfortable wide-ranging double apartment featuring showcasing the urban landscape, along with featuring a curated minibar selection and designed for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer"],
+    accessibilityFeatures: ["Elevator"],
+    pricePerNight: 192,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-kiel-1-room-0-King-None",
+    name: "Tranquility King Apartment",
+    description: "Our Tranquility-themed king apartment offers tasteful luxury, panoramic with a pleasant outlook, and with carefully selected furnishings, inspired by decorated with local artistic influences.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service"],
+    accessibilityFeatures: ["Hearing Support", "Wheelchair Accessible"],
+    pricePerNight: 251,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 6,
+  }
+];

@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Chiang Rai Retreat
+export const chiangRaiRetreatRooms: RoomOption[] = [
+  {
+    id: "hotel-bangkok-4-room-3-King-None",
+    name: "Standard King Studio",
+    description: "This inviting king accommodation offers with a pleasant outlook, with subtle nods to Thailand's rich cultural heritage.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp"],
+    accessibilityFeatures: ["Accessible Bathroom", "Elevator", "Visual Aids"],
+    pricePerNight: 184500,
+    currency: "THB",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-bangkok-4-room-3-SofaBed-OceanView",
+    name: "Orchid Sofa Bed Studio",
+    description: "Orchid-themed studio with relaxing decor, with a private balcony overlooking the sea, and complete with a well-appointed bathroom.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 164814,
+    currency: "THB",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-bangkok-4-room-3-Double-CityView",
+    name: "Premium Double Loft",
+    description: "Our Premium-themed double loft offers chic luxury, panoramic where the city skyline meets the horizon, and with a luxurious soaking tub, inspired by featuring traditional Thai craftsmanship.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    pricePerNight: 145417,
+    currency: "THB",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-bangkok-4-room-3-King-MountainView",
+    name: "Standard King Loft",
+    description: "Relax in our avant-garde ornate king loft featuring where you can gaze at the towering peaks, along with with a modern en-suite bathroom and adorned with Thai-inspired decor.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service"],
+    pricePerNight: 233930,
+    currency: "THB",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 5,
+  }
+];

@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Moonlit Harbor Hotel
+export const moonlitHarborHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-galveston-3-room-2-Double-CityView",
+    name: "Pioneer Double Suite",
+    description: "Relax in our comfy roomy double suite featuring with a view of the city's waterfront, along with equipped with all the modern conveniences and highlighting contemporary American style.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    accessibilityFeatures: ["Elevator"],
+    pricePerNight: 105,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-galveston-3-room-2-Queen-MountainView",
+    name: "Classic Queen Studio",
+    description: "This generous queen accommodation offers where mountains paint the horizon, with rustic and modern influences.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe"],
+    pricePerNight: 150,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-galveston-3-room-2-SofaBed-MountainView",
+    name: "Golden Gate Sofa Bed Penthouse",
+    description: "Relax in our futuristic eclectic sofa bed penthouse featuring where you can enjoy the serenity of mountain life, along with with a modern en-suite bathroom and offering a classic yet modern American experience.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 105,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-galveston-3-room-2-Twin-None",
+    name: "Executive Twin Room",
+    description: "Experience our elegant, prestigious twin room with a pleasant outlook, with a spacious seating area.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 81,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 8,
+  }
+];

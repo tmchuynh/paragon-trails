@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Trattoria Inn
+export const trattoriaInnRooms: RoomOption[] = [
+  {
+    id: "hotel-venice-5-room-4-SofaBed-MountainView",
+    name: "Superior Sofa Bed Penthouse",
+    description: "A roomy sofa bed penthouse designed for airy comfort, with with panoramic views of the surrounding mountains and complete with a well-appointed bathroom, reflecting with classic Italian elegance.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 205,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-venice-5-room-4-King-None",
+    name: "Classic King Apartment",
+    description: "Enjoy a open-concept stay in our Classic-themed king apartment, offering with a pleasant outlook, including climate control for your comfort, and unique touches of with classic Italian elegance.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service"],
+    pricePerNight: 225,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-venice-5-room-4-King-OceanView",
+    name: "Harmony King Studio",
+    description: "This eclectic king studio promises featuring uninterrupted ocean vistas, enriched by Harmony-themed details and with plush bedding for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock"],
+    pricePerNight: 289,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-venice-5-room-4-King-MountainView",
+    name: "Deluxe King Suite",
+    description: "Step into a lavish king suite that combines Deluxe-themed with breathtaking where you can enjoy the mountains' majestic presence, complemented by with carefully selected furnishings.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    accessibilityFeatures: ["Accessible Bathroom", "Elevator", "Visual Aids"],
+    pricePerNight: 278,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 7,
+  }
+];

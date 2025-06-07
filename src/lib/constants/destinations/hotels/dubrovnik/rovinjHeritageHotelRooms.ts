@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Rovinj Heritage Hotel
+export const rovinjHeritageHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-dubrovnik-1-room-0-Queen-MountainView",
+    name: "Dalmatia Queen Villa",
+    description: "Unwind in this welcoming queen villa with a view of the rugged mountain landscape, with carefully selected furnishings.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 164,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-dubrovnik-1-room-0-SofaBed-OceanView",
+    name: "Deluxe Sofa Bed Room",
+    description: "Step into a relaxing sofa bed room that combines Deluxe-themed with breathtaking with a view of the sandy beaches, complemented by equipped with all the modern conveniences.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 120,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-dubrovnik-1-room-0-Single-OceanView",
+    name: "Dubrovnik Single Suite",
+    description: "Enjoy a homey stay in our Dubrovnik-themed single suite, offering with a view of the endless blue, including climate control for your comfort, and unique touches of offering a unique Adriatic experience with a touch of luxury.",
+    occupancy: {
+      adults: 1,
+      children: 0,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    pricePerNight: 102,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-dubrovnik-1-room-0-SofaBed-GardenView",
+    name: "Classic Sofa Bed Studio",
+    description: "A expansive sofa bed retreat with a view of the garden's lush greenery, with a blend of historic charm and modern amenities.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    pricePerNight: 115,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 4,
+  }
+];

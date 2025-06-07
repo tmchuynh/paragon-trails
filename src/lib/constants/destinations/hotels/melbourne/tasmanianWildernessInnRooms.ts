@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Tasmanian Wilderness Inn
+export const tasmanianWildernessInnRooms: RoomOption[] = [
+  {
+    id: "hotel-melbourne-1-room-0-Single-OceanView",
+    name: "Outback Single Loft",
+    description: "Relax in our wide-ranging rustic single loft featuring with a view of the sandy beaches, along with offering a unique blend of style and comfort and offering a relaxed yet sophisticated Australian vibe.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 259,
+    currency: "AUD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-melbourne-1-room-0-Queen-CityView",
+    name: "Oceanic Queen Penthouse",
+    description: "Experience our serene, well-proportioned queen penthouse with a backdrop of city parks and green spaces, featuring premium bath amenities.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 304,
+    currency: "AUD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-melbourne-1-room-0-Double-None",
+    name: "Koala Double Studio",
+    description: "Indulge in the sleek atmosphere of our double studio, with spectacular with a pleasant outlook, offering a relaxed yet sophisticated Australian vibe, and with a spacious work area.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    pricePerNight: 224,
+    currency: "AUD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-melbourne-1-room-0-SofaBed-CityView",
+    name: "Bushland Sofa Bed Penthouse",
+    description: "Our Bushland-themed sofa bed penthouse offers indulgent luxury, panoramic overlooking the vibrant cityscape, and with blackout curtains for a perfect night's sleep, inspired by featuring airy, sun-drenched interiors.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    accessibilityFeatures: ["Elevator"],
+    pricePerNight: 212,
+    currency: "AUD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 5,
+  }
+];

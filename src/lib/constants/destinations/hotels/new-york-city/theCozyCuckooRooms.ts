@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Cozy Cuckoo
+export const theCozyCuckooRooms: RoomOption[] = [
+  {
+    id: "hotel-new-york-city-3-room-2-Double-CityView",
+    name: "Superior Double Loft",
+    description: "Our Superior-themed double loft offers expansive luxury, panoramic showcasing the urban landscape, and with a luxurious soaking tub, inspired by decorated with local artistic influences.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    accessibilityFeatures: ["Elevator"],
+    pricePerNight: 81,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-new-york-city-3-room-2-King-MountainView",
+    name: "Classic King Apartment",
+    description: "Indulge in the large-scale atmosphere of our king apartment, with spectacular with panoramic views of the surrounding mountains, decorated with local artistic influences, and with a modern en-suite bathroom.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock"],
+    pricePerNight: 139,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-new-york-city-3-room-2-Single-None",
+    name: "Luxury Single Penthouse",
+    description: "Our Luxury-themed single penthouse offers homey luxury, panoramic with a pleasant outlook, and complete with a well-appointed bathroom, inspired by created with both style and function in mind.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer"],
+    accessibilityFeatures: ["Elevator", "Wheelchair Accessible", "Visual Aids"],
+    pricePerNight: 63,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-new-york-city-3-room-2-Double-GardenView",
+    name: "Classic Double Villa",
+    description: "Indulge in the fashionable atmosphere of our double villa, with spectacular with a view of the garden's peaceful ambiance, featuring thoughtful design elements, and with a spacious seating area.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    accessibilityFeatures: ["Wheelchair Accessible"],
+    pricePerNight: 100,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 10,
+  }
+];

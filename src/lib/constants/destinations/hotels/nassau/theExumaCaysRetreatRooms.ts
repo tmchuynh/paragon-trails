@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Exuma Cays Retreat
+export const theExumaCaysRetreatRooms: RoomOption[] = [
+  {
+    id: "hotel-nassau-2-room-1-Double-CityView",
+    name: "Luxury Double Penthouse",
+    description: "This chic double accommodation offers where city lights twinkle at night, offering a relaxed yet stylish atmosphere.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    accessibilityFeatures: ["Hearing Support", "Visual Aids"],
+    pricePerNight: 246,
+    currency: "BSD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-nassau-2-room-1-Double-MountainView",
+    name: "Sunset Double Apartment",
+    description: "Our exquisite Sunset-themed apartment offers where you can enjoy the peace of the highlands, extensive comfort, and with a spacious work area.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service"],
+    pricePerNight: 310,
+    currency: "BSD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-nassau-2-room-1-Twin-MountainView",
+    name: "Signature Twin Penthouse",
+    description: "Our Signature-themed twin penthouse offers regal luxury, panoramic with majestic mountain vistas, and equipped with all the modern conveniences, inspired by offering a relaxed yet stylish atmosphere.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    pricePerNight: 290,
+    currency: "BSD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-nassau-2-room-1-King-OceanView",
+    name: "Superior King Room",
+    description: "Our Superior-themed king room offers eclectic luxury, panoramic with a private balcony overlooking the sea, and including climate control for your comfort, inspired by with bright tropical colors and seaside charm.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping"],
+    accessibilityFeatures: ["Accessible Bathroom"],
+    pricePerNight: 467,
+    currency: "BSD",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 6,
+  }
+];
