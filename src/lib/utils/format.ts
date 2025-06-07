@@ -379,6 +379,10 @@ export function removeSpecialCharactersFromNumbers(str: string): string {
   return str.replace(/[^0-9\s]/g, "");
 }
 
+export function removeSpecialCharacters(str: string): string {
+  return str.replace(/[^a-zA-Z0-9\s]/g, "");
+}
+
 export const formatPrice = (
   price: number | string,
   currency: Currency,
