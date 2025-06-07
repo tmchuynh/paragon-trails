@@ -4,20 +4,29 @@ import { formatKebabToCamelCase, formatTimeTo24HourClock } from "../format";
 import { cityCountryMap, cityToRegionMap } from "@/lib/utils/mapping";
 import { cityFiles } from "@/lib/constants/info/city";
 
-export async function getHosts(): Promise<any> {
+export async function getHosts(): Promise<Host[]> {
   try {
+    const allHomestays: Host[] = [];
+
     for (const cityFile of cityFiles) {
-      const formattedCity = formatKebabToCamelCase(cityFile);
-      const homestayId = `${formattedCity}Homestays`;
-      const homestayModule = await import(
-        `@/lib/constants/destinations/homestay/${formattedCity}`
-      );
-      if (homestayModule[homestayId]) {
-        return homestayModule[homestayId];
+      try {
+        const formattedCity = formatKebabToCamelCase(cityFile);
+        const homestayId = `${formattedCity}Homestays`;
+        const homestayModule = await import(
+          `@/lib/constants/destinations/homestay/${formattedCity}`
+        );
+
+        if (homestayModule[homestayId]) {
+          allHomestays.push(...homestayModule[homestayId]);
+        } else {
+          console.error(`No homestays found for city: ${cityFile}`);
+        }
+      } catch (error) {
+        console.error(`Error loading homestays for city ${cityFile}: ${error}`);
       }
-      console.error(`No homestays found for city: ${cityFile}`);
-      return [];
     }
+
+    return allHomestays;
   } catch (error) {
     console.error(`Error loading homestays: ${error}`);
     return [];
