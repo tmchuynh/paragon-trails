@@ -447,7 +447,11 @@ async function generateCityFile(city) {
   drivers = drivers.concat(newDrivers);
 
   // Create file content with proper formatting
-  let content = `import { Driver } from "@/lib/interfaces/people/staff";\n\n`;
+  let content = `// Auto-generated driver data for ${city}\n`;
+  content += `// Country: ${countryName}\n`;
+  content += `// Region: ${regionName}\n\n`;
+  content += `// This file is auto-generated. Do not edit manually.\n`;
+  content += `import { Driver } from "@/lib/interfaces/people/staff";\n\n`;
   content += `export const ${variableName.replaceAll(".", "")}: Driver[] = [\n`;
 
   drivers.forEach((driver, index) => {
