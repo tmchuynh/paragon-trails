@@ -1,7 +1,11 @@
 import { cityFiles } from "@/lib/constants/info/city";
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 import { getCityTours } from "@/lib/utils/get/tours";
-import { formatKebabToCamelCase, formatTitleToCamelCase } from "../format";
+import {
+  formatKebabToCamelCase,
+  formatTitleToCamelCase,
+  removeSpecialCharacters,
+} from "../format";
 import { cityCountryMap, cityToRegionMap } from "@/lib/utils/mapping";
 import { Tour } from "@/lib/interfaces/services/tours";
 
@@ -50,90 +54,61 @@ export async function getTestimonialsForCity(
   }
 }
 
-export async function getTourTestimonialsForCity(city: string): Promise<any> {
+export async function getTourTestimonialsForCity(
+  city: string
+): Promise<Testimonial[]> {
   const testimonials: Testimonial[] = [];
 
-  const allTours: Tour[] = [];
-
-  console.log(`Loading tour testimonials for city: ${city}`);
-
-  const cityRegion = cityToRegionMap[city as keyof typeof cityToRegionMap];
-  const country = cityCountryMap[city as keyof typeof cityCountryMap];
-  const formattedCity = formatKebabToCamelCase(city);
-  const formattedRegion = formatTitleToCamelCase(cityRegion);
-  const formattedCountry = formatTitleToCamelCase(country);
-  const tourId = `${formattedCity}${formattedCountry.replaceAll(".", "")}${formattedRegion}Tours`;
-
   try {
+    // First get all tours for this city
     const tours = await getCityTours(city);
-    if (tours.length > 0) {
-      allTours.push(...tours);
-    } else {
-      console.warn(`No tours found for city ${city} with ID ${tourId}`);
+
+    if (!tours || tours.length === 0) {
+      console.warn(`No tours found for city ${city}`);
+      return [];
     }
-  } catch (error) {
-    console.error(`Error loading tours for city ${city}:`, error);
-    return [];
-  }
-  // Log the total number of tours loaded for the city
-  if (allTours.length === 0) {
-    console.warn(`No tours found for city ${city} with ID ${tourId}`);
-    return [];
-  }
-  // Log the total number of tours loaded for the city
-  allTours.sort((a, b) => a.title.localeCompare(b.title));
-  allTours.forEach((tour) => {
-    console.log(`Tour ID: ${tour.id}, Title: ${tour.title}`);
-  });
 
-  console.log(`Total tours loaded for city ${city}: ${allTours.length}`);
-
-  if (allTours.length > 0) {
-    for (const tour of allTours) {
-      const tourFormatted = `${formatTitleToCamelCase(tour.title)}Testimonials`;
+    // For each tour found, try to load its testimonials
+    for (const tour of tours) {
       try {
-        // Import all tour testimonial files for the city
-        const cityModule = await import(
-          `@/lib/constants/testimonials/${city}/tourFormatted`
+        // Convert tour title to camelCase format used in file names
+        // E.g. "Panoramic City Tour" -> "panoramicCityTourTestimonials"
+        const tourTitleFormatted = formatTitleToCamelCase(tour.title);
+        const testimonialFileName = `${removeSpecialCharacters(tourTitleFormatted)}Testimonials`;
+        // Import the testimonials module for this specific tour
+        const tourModule = await import(
+          `@/lib/constants/testimonials/${city}/${testimonialFileName}`
         );
 
-        // Find all exports that end with "TourTestimonials"
-        const tourTestimonialKeys = Object.keys(cityModule).filter((key) =>
-          key.endsWith("TourTestimonials")
-        );
+        // Check if the module exported the testimonials
+        if (tourModule[testimonialFileName]) {
+          const tourTestimonials = tourModule[
+            testimonialFileName
+          ] as Testimonial[];
 
-        // Merge all tour testimonials
-        for (const key of tourTestimonialKeys) {
-          const tourTestimonials = cityModule[key] as Testimonial[];
-
-          // Add tour name to each testimonial based on the key name
-          const tourName = key
-            .replace(/TourTestimonials$/, "")
-            .replace(/([A-Z])/g, " $1")
-            .trim();
-
-          // Add tour testimonials with tour name
+          // Add tour name to each testimonial and ensure rating exists
           testimonials.push(
             ...tourTestimonials.map((t) => ({
               ...t,
-              tourName,
-              rating: t.rating || 4.5, // Default rating if none exists
+              tourName: tour.title,
+              rating: t.rating || 4.5, // Default rating if none provided
             }))
           );
+        } else {
+          console.warn(
+            `No testimonials exported from module for tour "${tour.title}"`
+          );
         }
-
-        return testimonials;
       } catch (error) {
-        console.error(
-          `Error loading tour testimonials for city ${city}:`,
-          error
+        console.warn(
+          `Error loading testimonials for tour "${tour.title}": ${error}`
         );
-        return [];
       }
     }
-    console.log(
-      `Total tour testimonials loaded for city ${city}: ${testimonials.length}`
-    );
+
     return testimonials;
+  } catch (error) {
+    console.error(`Error loading tour testimonials for city ${city}:`, error);
+    return [];
   }
 }
