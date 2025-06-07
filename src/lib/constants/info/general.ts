@@ -43,7 +43,25 @@ export const currencyRates = {
   PHP: 57.9, // Philippine Peso
   PLN: 3.96, // Polish Złoty
   HUF: 364, // Hungarian Forint
+  ARS: 250.0, // Argentine Peso (approximate)
+  ANG: 1.8, // Netherlands Antillean Guilder
+  BMD: 1, // Bermudian Dollar (pegged to USD)
+  BSD: 1, // Bahamian Dollar (pegged to USD)
+  COP: 4700, // Colombian Peso
+  CLP: 820, // Chilean Peso
+  KYD: 0.83, // Cayman Islands Dollar
+  HNL: 24.5, // Honduran Lempira
+  PEN: 3.8, // Peruvian Sol
+  UYU: 40.2, // Uruguayan Peso
+  VND: 24000, // Vietnamese Dong
+  RUB: 78.5, // Russian Ruble
+  DKK: 6.95, // Danish Krone (already included, repeated for clarity)
+  CHF: 0.9, // Swiss Franc (already included)
+  NOK: 10.5, // Norwegian Krone (already included)
+  SEK: 10.65, // Swedish Krona (already included)
 };
+
+
 
 export const teamMembers = [
   {
