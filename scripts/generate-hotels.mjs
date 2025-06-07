@@ -137,7 +137,6 @@ const amenityTypes = [
   "Bar",
   "Room Service",
   "Airport Shuttle",
-  "Pet Friendly",
   "Business Center",
   "Laundry Service",
   "24-Hour Front Desk",
@@ -370,7 +369,7 @@ async function extractExistingHotels(filePath) {
   try {
     const content = await readFile(filePath, "utf-8");
     const match = content.match(
-      /export const \w+: Hotel\[\] = \[([\s\S]*?)\];/,
+      /export const \w+: Hotel\[\] = \[([\s\S]*?)\];/
     );
     if (!match || !match[1]) return [];
 
@@ -496,8 +495,8 @@ function parseHotelObject(objString) {
 
 // Generate hotels and write to file
 async function generateCityFile(city) {
-  const formattedName = formatKebabToCamelCase(removeAccents(city));
-  const variableName = `${formattedName.replaceAll(".", "")}Hotels`;
+  const formattedName = removeAccents(city);
+  const variableName = `${formatKebabToCamelCase(formattedName).replaceAll(".", "")}Hotels`;
 
   // Use camelCase for folder name
   const destDir = path.join(
@@ -507,7 +506,7 @@ async function generateCityFile(city) {
     "constants",
     "destinations",
     "hotels",
-    formattedName,
+    formattedName
   );
   const filePath = path.join(destDir, "hotels.ts");
 
@@ -529,13 +528,13 @@ async function generateCityFile(city) {
       // Extra validation to prevent null/empty hotels array
       if (!hotels || !Array.isArray(hotels)) {
         console.warn(
-          `Could not parse existing hotels in ${filePath}, creating a new file instead`,
+          `Could not parse existing hotels in ${filePath}, creating a new file instead`
         );
         hotels = [];
       }
     } else {
       console.log(
-        `File already exists (use --rewrite to replace): ${filePath}`,
+        `File already exists (use --rewrite to replace): ${filePath}`
       );
       return;
     }
@@ -551,7 +550,8 @@ async function generateCityFile(city) {
   hotels = hotels.concat(newHotels);
 
   // Create file content with proper formatting
-  let content = `import { Hotel } from "@/lib/interfaces/services/rentals";\n\n`;
+  let content = `// Auto-generated file for ${city} hotels\n`;
+  content += `import { Hotel } from "@/lib/interfaces/services/rentals";\n\n`;
   content += `export const ${variableName}: Hotel[] = [\n`;
 
   hotels.forEach((hotel, index) => {
@@ -588,7 +588,7 @@ async function generateCityFile(city) {
   // Write file
   await writeFile(filePath, content);
   console.log(
-    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`,
+    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`
   );
 }
 
