@@ -527,7 +527,7 @@ async function generateCityGuideFile(city) {
     "staff",
     "guides",
   );
-  const filePath = path.join(destDir, `${formattedName}.ts`);
+  const filePath = path.join(destDir, `${removeAccents(city)}.ts`);
 
   // Check if directory exists
   await ensureDirectoryExists(destDir);
@@ -544,11 +544,11 @@ async function generateCityGuideFile(city) {
       console.log(`Appending ${options.append} guides to: ${filePath}`);
       guides = await extractExistingTourGuides(filePath);
       console.log(
-        `Found ${guides.length} valid existing guides in ${filePath}`,
+        `Found ${guides.length} valid existing guides in ${filePath}`
       );
     } else {
       console.log(
-        `File already exists (use --rewrite to replace): ${filePath}`,
+        `File already exists (use --rewrite to replace): ${filePath}`
       );
       return;
     }
@@ -562,11 +562,12 @@ async function generateCityGuideFile(city) {
 
   // Combine existing and new guides - filter out any invalid objects
   guides = [...guides, ...newGuides].filter(
-    (guide) => guide && typeof guide === "object",
+    (guide) => guide && typeof guide === "object"
   );
 
   // Create file content with proper formatting
-  let content = `import { TourGuide } from "@/lib/interfaces/people/staff";\n\n`;
+  let content = `// This file is auto-generated. Do not edit manually.\n\n`;
+  content += `import { TourGuide } from "@/lib/interfaces/people/staff";\n\n`;
   content += `export const ${variableName}: TourGuide[] = [\n`;
 
   guides.forEach((guide, index) => {
