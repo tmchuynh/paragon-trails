@@ -359,7 +359,6 @@ export default function CarRentalsPage() {
           <div className="flex sm:flex-row flex-col items-center gap-4">
             <div className="flex items-center gap-2">
               <Button
-                variant="outline"
                 onClick={() => setShowFilters(!showFilters)}
                 className="flex items-center gap-2"
                 size="sm"
@@ -370,11 +369,7 @@ export default function CarRentalsPage() {
               {/* Sort dropdown */}
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
-                  <Button
-                    variant="outline"
-                    size="sm"
-                    className="flex items-center gap-2"
-                  >
+                  <Button size="sm" className="flex items-center gap-2">
                     <SlidersHorizontal className="w-4 h-4" />
                     Sort
                   </Button>
@@ -803,11 +798,7 @@ export default function CarRentalsPage() {
                   />
                 </div>
               </div>
-              <Button
-                variant="outline"
-                className="w-full"
-                onClick={resetFilters}
-              >
+              <Button className="w-full" onClick={resetFilters}>
                 Reset All Filters
               </Button>
             </div>
@@ -838,11 +829,7 @@ export default function CarRentalsPage() {
                   We couldn't find any cars matching your filters. Try adjusting
                   your search criteria or reset filters.
                 </p>
-                <Button
-                  variant="outline"
-                  className="mt-4"
-                  onClick={resetFilters}
-                >
+                <Button className="mt-4" onClick={resetFilters}>
                   Reset Filters
                 </Button>
               </div>
@@ -875,58 +862,36 @@ function CarCard({ car }: { car: LuxuryRentalCar }) {
       </CardHeader>
       <CardContent className="flex-grow">
         <div className="space-y-2">
-          {car.imageUrl && (
-            <img
-              src={car.imageUrl}
-              alt={`${car.make} ${car.model}`}
-              className="mb-2 rounded w-full h-40 object-cover"
-            />
-          )}
-          <div className="flex flex-wrap gap-2 mb-2 text-xs">
-            <Badge variant="outline">
-              <User className="inline mr-1 w-3 h-3" /> {car.seats} seats
-            </Badge>
-            <Badge variant="outline">
-              <Key className="inline mr-1 w-3 h-3" /> {car.transmission}
-            </Badge>
-            <Badge variant="outline">
-              <Fuel className="inline mr-1 w-3 h-3" /> {car.fuelType}
-            </Badge>
-            <Badge variant="outline">
-              <Settings className="inline mr-1 w-3 h-3" /> {car.horsepower} hp
-            </Badge>
-            <Badge variant="outline">
-              <Palette className="inline mr-1 w-3 h-3" /> {car.colorOptions[0]}
-              {car.colorOptions.length > 1 && (
-                <span> +{car.colorOptions.length - 1}</span>
-              )}
-            </Badge>
-            <Badge variant="outline">
-              <DollarSign className="inline mr-1 w-3 h-3" />{" "}
+          <div className="flex items-center gap-2">
+            {car.insuranceIncluded ? (
+              <CheckCircle className="w-4 h-4 text-green-500" />
+            ) : (
+              <XCircle className="w-4 h-4 text-red-500" />
+            )}
+            <span>
+              {car.insuranceIncluded ? "Insurance included" : "No insurance"}
+            </span>
+          </div>
+          <div className="space-y-2">
+            <div className="flex items-center gap-2">
+              <User className="w-4 h-4 text-muted-foreground" /> {car.seats}{" "}
+              seats
+            </div>
+            <div className="flex items-center gap-2">
+              <Key className="w-4 h-4 text-muted-foreground" />{" "}
+              {car.transmission}
+            </div>
+            <div className="flex items-center gap-2">
+              <DollarSign className="w-4 h-4 text-muted-foreground" />{" "}
               {car.rentalPricePerDay} {car.currency}/day
-            </Badge>
-            <Badge variant="outline">
-              <Calendar className="inline mr-1 w-3 h-3" /> Min Age:{" "}
-              {car.minimumRentalAge}
-            </Badge>
-            <Badge variant="outline">
-              <DollarSign className="inline mr-1 w-3 h-3" /> Deposit:{" "}
+            </div>
+            <div className="flex items-center gap-2">
+              <DollarSign className="w-4 h-4 text-muted-foreground" /> Deposit:{" "}
               {car.depositAmount} {car.currency}
-            </Badge>
+            </div>
           </div>
           <div className="space-y-1 mt-2 text-sm">
             <div className="flex items-center gap-2">
-              {car.insuranceIncluded ? (
-                <CheckCircle className="w-4 h-4 text-green-500" />
-              ) : (
-                <XCircle className="w-4 h-4 text-red-500" />
-              )}
-              <span>
-                {car.insuranceIncluded ? "Insurance included" : "No insurance"}
-              </span>
-            </div>
-            <div className="flex items-center gap-2">
-              <List className="w-4 h-4 text-muted-foreground" />
               <span>
                 {car.features.slice(0, 3).join(", ")}
                 {car.features.length > 3 && (
@@ -935,11 +900,6 @@ function CarCard({ car }: { car: LuxuryRentalCar }) {
               </span>
             </div>
           </div>
-          {car.description && (
-            <div className="mt-2 text-muted-foreground text-xs">
-              {car.description}
-            </div>
-          )}
         </div>
       </CardContent>
       <CardFooter>
