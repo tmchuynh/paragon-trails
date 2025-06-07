@@ -623,42 +623,30 @@ function HostCard({ host }: { host: Host }) {
           </div>
           <div className="flex items-center gap-2">
             <Home className="w-4 h-4 text-muted-foreground" />
-            <span className="text-sm capitalize">
-              {host.hostingStyle || "N/A"} style
-            </span>
+            <span className="text-sm capitalize">{host.hostingStyle}</span>
           </div>
           <div className="flex items-center gap-2">
             <CheckCircle className="w-4 h-4 text-green-500" />
-            <span className="text-sm capitalize">{host.stayType.replace(/-/g, " ")}</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <span className="text-muted-foreground text-xs">
-              {host.background}
+            <span className="text-sm capitalize">
+              {host.stayType.replace(/-/g, " ")}
             </span>
           </div>
-          {host.quote && (
-            <div className="mt-2 text-muted-foreground text-xs italic">
-              "{host.quote}"
-            </div>
-          )}
-          <Separator className="my-2" />
-          <div className="flex flex-wrap gap-1">
-            {host.guestPolicy.map((policy) => (
-              <Badge key={policy} variant="outline" className="text-xs">
-                {policy}
-              </Badge>
-            ))}
+          <div className="flex items-center gap-2">
+            <h5>{host.background}</h5>
           </div>
+          {host.quote && (
+            <blockquote className="text-sm">"{host.quote}"</blockquote>
+          )}
         </div>
       </CardContent>
-      <CardFooter>
-        <div className="flex flex-col w-full">
-          <div className="text-muted-foreground text-xs">
-            Contact: {host.email}
-            {host.phoneNumber && <> | {host.phoneNumber}</>}
+      {host.phoneNumber && (
+        <CardFooter>
+          <div className="flex gap-4 w-full">
+            <h5>Contact:</h5>
+            <h5>{host.phoneNumber}</h5>
           </div>
-        </div>
-      </CardFooter>
+        </CardFooter>
+      )}
     </Card>
   );
 }
