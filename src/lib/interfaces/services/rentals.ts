@@ -115,16 +115,17 @@ export interface Hotel {
   isPopular: boolean;
   roomsAvailable: number;
   currency: string;
-  policies?: {
+  policies: {
     cancellation?: string;
     smoking?: string;
   };
-  amenities?: string[];
+  amenities: string[];
   accessibilityFeatures?: string[];
   contact?: {
     contactPhone?: string;
     contactEmail?: string;
   };
+  roomFile?: string; // Add this line
 }
 
 export interface RoomOption {
@@ -132,9 +133,22 @@ export interface RoomOption {
   name: string;
   description: string;
   pricePerNight: number;
-  maxOccupancy: number;
-  bedType: string;
+  view: "City View" | "Ocean View" | "Garden View" | "Mountain View" | "None";
+  currency: string;
+  refundable: boolean;
+  breakfastIncluded: boolean;
+  occupancy: {
+    adults: number;
+    children?: number;
+    maxGuests: number;
+  };
+  amenities: string[];
+  accessibilityFeatures?: string[];
+  imageUrl?: string;
+  bedType: "Single" | "Double" | "Queen" | "King" | "Twin" | "Sofa Bed";
   availability: number;
   squareFootage: number;
+  availableCount: number;
+  smokingPolicy?: "Designated Areas" | "Non-Smoking" | "Smoking Allowed";
   features: string[];
 }
