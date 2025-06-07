@@ -3,29 +3,128 @@ import { LuxuryRentalCar } from "@/lib/interfaces/services/rentals";
 import { cityCountryMap, cityToRegionMap } from "@/lib/utils/mapping";
 import { formatKebabToCamelCase } from "../format";
 
-export async function getLuxuryRentalCars(): Promise<any> {
-  try {
-    for (const cityFile of cityFiles) {
-      const formattedCity = formatKebabToCamelCase(cityFile);
+export async function getLuxuryRentalCars(): Promise<LuxuryRentalCar[]> {
+  const allCars: LuxuryRentalCar[] = [];
+  console.log("Starting to load luxury rental cars");
 
-      const attractionId = `${formattedCity}Cars`;
-      const rentalCarsModule = await import(
-        `@/lib/constants/rentals/cars/${formattedCity}`
-      );
-      if (rentalCarsModule[attractionId]) {
-        return rentalCarsModule[attractionId];
-      } else {
-        console.error(`No luxury rental cars found for city: ${cityFile}`);
-        return [];
+  // Use all cities from cityFiles instead of just amalfi-coast
+  const citiesToTry = cityFiles;
+  console.log(`Will attempt to load cars from ${citiesToTry.length} cities`);
+
+  try {
+    for (const cityFile of citiesToTry) {
+      try {
+        console.log(`Attempting to load cars for city: ${cityFile}`);
+        const formattedCity = formatKebabToCamelCase(cityFile);
+        console.log(`Formatted city name: ${formattedCity}`);
+
+        // Direct approach based on known file structure
+        try {
+          // Try importing the module directly with the known path
+          const carModule = await import(
+            `@/lib/constants/rentals/cars/${formattedCity}`
+          );
+          console.log(
+            `Successfully imported from: @/lib/constants/rentals/cars/${formattedCity}`
+          );
+          console.log("Available exports:", Object.keys(carModule));
+
+          // Try all possible export names
+          const knownExportNames = [
+            `${formattedCity}Cars`,
+            `${formattedCity}${cityCountryMap[cityFile as keyof typeof cityCountryMap] || ""}${cityToRegionMap[cityFile as keyof typeof cityToRegionMap] || ""}Cars`,
+            `${cityFile}Cars`,
+            `${formattedCity}italymediterraneanCars`,
+          ];
+
+          console.log(`Looking for exports for ${cityFile}:`, knownExportNames);
+
+          let foundCars = false;
+          for (const exportName of knownExportNames) {
+            if (carModule[exportName]) {
+              console.log(
+                `Found cars with export name: ${exportName}, count: ${carModule[exportName].length}`
+              );
+              allCars.push(...carModule[exportName]);
+              foundCars = true;
+              break;
+            }
+          }
+
+          // If we still haven't found the data, look for any array in the exports
+          if (!foundCars) {
+            for (const key of Object.keys(carModule)) {
+              if (
+                Array.isArray(carModule[key]) &&
+                carModule[key].length > 0 &&
+                carModule[key][0].make &&
+                carModule[key][0].model
+              ) {
+                // Check if it looks like car data
+                console.log(
+                  `Found array data with export name: ${key}, count: ${carModule[key].length}`
+                );
+                allCars.push(...carModule[key]);
+                foundCars = true;
+                break;
+              }
+            }
+          }
+
+          if (foundCars) {
+            console.log(
+              `Successfully loaded ${foundCars ? "some" : "no"} cars from ${cityFile}`
+            );
+          } else {
+            console.log(
+              `No car data found for ${cityFile} despite successful import`
+            );
+          }
+        } catch (importError) {
+          console.error(
+            `Error importing car data for ${cityFile}:`,
+            importError
+          );
+          // Continue to the next city if this one fails
+        }
+      } catch (cityError) {
+        console.error(`Error processing city: ${cityFile}`, cityError);
+        // Continue to the next city
       }
     }
+
+    console.log(`Total cars loaded from all cities: ${allCars.length}`);
+
+    // If no cars were found, we could still try the hardcoded fallback as a last resort
+    if (allCars.length === 0) {
+      console.log(
+        "No cars found through normal loading. Using amalfiCoastitalymediterraneanCars directly as a fallback."
+      );
+
+      try {
+        const amalfiModule = await import(
+          "@/lib/constants/rentals/cars/amalfiCoast"
+        );
+        if (amalfiModule.amalfiCoastitalymediterraneanCars) {
+          console.log(
+            `Found amalfiCoastitalymediterraneanCars with ${amalfiModule.amalfiCoastitalymediterraneanCars.length} cars`
+          );
+          allCars.push(...amalfiModule.amalfiCoastitalymediterraneanCars);
+        }
+      } catch (e) {
+        console.error("Failed to load hardcoded amalfi coast cars:", e);
+      }
+    }
+
+    return allCars;
   } catch (error) {
-    console.error(`Error loading luxury rental cars: ${error}`);
+    console.error(`Error in getLuxuryRentalCars:`, error);
+    return allCars; // Return whatever cars we managed to load, even if the overall process had errors
   }
 }
 
 export async function getLuxuryRentalCar(
-  carId: string,
+  carId: string
 ): Promise<LuxuryRentalCar | null> {
   try {
     const rentalCars = await getLuxuryRentalCars();
@@ -43,13 +142,13 @@ export async function getLuxuryRentalCar(
 }
 
 export async function getLuxuryRentalCarsByCity(
-  city: string,
+  city: string
 ): Promise<LuxuryRentalCar[]> {
   try {
     const rentalCars = await getLuxuryRentalCars();
     const carsInCity = rentalCars.filter(
       (car: { pickUpCity: string }) =>
-        car.pickUpCity.toLowerCase() === city.toLowerCase(),
+        car.pickUpCity.toLowerCase() === city.toLowerCase()
     );
     if (carsInCity.length > 0) {
       return carsInCity;
@@ -64,12 +163,12 @@ export async function getLuxuryRentalCarsByCity(
 }
 
 export async function getLuxuryRentalCarsByType(
-  type: string,
+  type: string
 ): Promise<LuxuryRentalCar[]> {
   try {
     const rentalCars = await getLuxuryRentalCars();
     const carsByType = rentalCars.filter((car: { type: string }) =>
-      car.type.toLowerCase().includes(type.toLowerCase()),
+      car.type.toLowerCase().includes(type.toLowerCase())
     );
     if (carsByType.length > 0) {
       return carsByType;
@@ -84,12 +183,12 @@ export async function getLuxuryRentalCarsByType(
 }
 
 export async function getLuxuryRentalCarsByMake(
-  make: string,
+  make: string
 ): Promise<LuxuryRentalCar[]> {
   try {
     const rentalCars = await getLuxuryRentalCars();
     const carsByMake = rentalCars.filter((car: { make: string }) =>
-      car.make.toLowerCase().includes(make.toLowerCase()),
+      car.make.toLowerCase().includes(make.toLowerCase())
     );
     if (carsByMake.length > 0) {
       return carsByMake;
@@ -104,34 +203,33 @@ export async function getLuxuryRentalCarsByMake(
 }
 
 export async function getLuxuryRentalCardsByPickUpLocation(
-  pickUpLocation: string,
+  pickUpLocation: string
 ): Promise<LuxuryRentalCar[]> {
   try {
     const rentalCars = await getLuxuryRentalCars();
     const carsByPickUpLocation = rentalCars.filter(
-      (car: { pickUpLocation: string }) =>
-        car.pickUpLocation
-          ?.toLowerCase()
-          .includes(pickUpLocation.toLowerCase()),
+      (car: LuxuryRentalCar) =>
+        car.pickUpLocation &&
+        car.pickUpLocation.toLowerCase().includes(pickUpLocation.toLowerCase())
     );
     if (carsByPickUpLocation.length > 0) {
       return carsByPickUpLocation;
     } else {
       console.error(
-        `No luxury rental cars found for pick-up location: ${pickUpLocation}`,
+        `No luxury rental cars found for pick-up location: ${pickUpLocation}`
       );
       return [];
     }
   } catch (error) {
     console.error(
-      `Error loading luxury rental cars by pick-up location: ${error}`,
+      `Error loading luxury rental cars by pick-up location: ${error}`
     );
     return [];
   }
 }
 export async function getLuxuryRentalCarsByCityAndCountry(
   city: string,
-  country: string,
+  country: string
 ): Promise<LuxuryRentalCar[]> {
   try {
     const formattedCity = formatKebabToCamelCase(city);
@@ -140,7 +238,7 @@ export async function getLuxuryRentalCarsByCityAndCountry(
     const carsInCityAndCountry = rentalCars.filter(
       (car: { pickUpCity: string; pickUpCountry: string }) =>
         car.pickUpCity.toLowerCase() === formattedCity.toLowerCase() &&
-        car.pickUpCountry.toLowerCase() === formattedCountry.toLowerCase(),
+        car.pickUpCountry.toLowerCase() === formattedCountry.toLowerCase()
     );
     if (carsInCityAndCountry.length > 0) {
       return carsInCityAndCountry;
@@ -150,7 +248,7 @@ export async function getLuxuryRentalCarsByCityAndCountry(
     }
   } catch (error) {
     console.error(
-      `Error loading luxury rental cars for ${city}, ${country}: ${error}`,
+      `Error loading luxury rental cars for ${city}, ${country}: ${error}`
     );
     return [];
   }
@@ -158,16 +256,16 @@ export async function getLuxuryRentalCarsByCityAndCountry(
 
 export async function getLuxuryRentalCarsByCityAndRegion(
   city: string,
-  region: string,
+  region: string
 ): Promise<LuxuryRentalCar[]> {
   try {
     const formattedCity = formatKebabToCamelCase(city);
     const formattedRegion = formatKebabToCamelCase(region);
     const rentalCars = await getLuxuryRentalCars();
     const carsInCityAndRegion = rentalCars.filter(
-      (car: { pickUpCity: string; pickUpRegion: string }) =>
+      (car: LuxuryRentalCar) =>
         car.pickUpCity.toLowerCase() === formattedCity.toLowerCase() &&
-        car.pickUpRegion.toLowerCase() === formattedRegion.toLowerCase(),
+        car.pickUpRegion?.toLowerCase() === formattedRegion.toLowerCase()
     );
     if (carsInCityAndRegion.length > 0) {
       return carsInCityAndRegion;
@@ -177,7 +275,7 @@ export async function getLuxuryRentalCarsByCityAndRegion(
     }
   } catch (error) {
     console.error(
-      `Error loading luxury rental cars for ${city}, ${region}: ${error}`,
+      `Error loading luxury rental cars for ${city}, ${region}: ${error}`
     );
     return [];
   }
