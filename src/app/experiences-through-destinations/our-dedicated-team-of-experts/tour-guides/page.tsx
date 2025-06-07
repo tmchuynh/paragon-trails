@@ -419,11 +419,13 @@ export default function TourGuidesPage() {
                   </SelectTrigger>
                   <SelectContent className="max-h-[35em] overflow-y-auto">
                     <SelectItem value="all">All Cities</SelectItem>
-                    {uniqueCities.map((city) => (
-                      <SelectItem key={city} value={city}>
-                        {city}
-                      </SelectItem>
-                    ))}
+                    {uniqueCities
+                      .filter((city) => city && city.trim() !== "")
+                      .map((city) => (
+                        <SelectItem key={city} value={city}>
+                          {city}
+                        </SelectItem>
+                      ))}
                   </SelectContent>
                 </Select>
               </div>
@@ -481,11 +483,13 @@ export default function TourGuidesPage() {
                   </SelectTrigger>
                   <SelectContent className="max-h-[35em] overflow-y-auto">
                     <SelectItem value="all">All Types</SelectItem>
-                    {uniqueTourTypes.map((type) => (
-                      <SelectItem key={type} value={type}>
-                        {type}
-                      </SelectItem>
-                    ))}
+                    {uniqueTourTypes
+                      .filter((type) => type && type.trim() !== "")
+                      .map((type) => (
+                        <SelectItem key={type} value={type}>
+                          {type}
+                        </SelectItem>
+                      ))}
                   </SelectContent>
                 </Select>
               </div>
@@ -504,11 +508,13 @@ export default function TourGuidesPage() {
                   </SelectTrigger>
                   <SelectContent className="max-h-[35em] overflow-y-auto">
                     <SelectItem value="all">Any Language</SelectItem>
-                    {uniqueLanguages.map((language) => (
-                      <SelectItem key={language} value={language}>
-                        {language}
-                      </SelectItem>
-                    ))}
+                    {uniqueLanguages
+                      .filter((lang) => lang && lang.trim() !== "")
+                      .map((language) => (
+                        <SelectItem key={language} value={language}>
+                          {language}
+                        </SelectItem>
+                      ))}
                   </SelectContent>
                 </Select>
               </div>
