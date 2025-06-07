@@ -23,8 +23,10 @@ export async function getCityTours(city: string): Promise<Tour[]> {
     const cityCamelCase = formatKebabToCamelCase(city);
 
     // Get the region for this city from the mapping
-    const region = cityToRegionMap[kebabCasedCity];
-    const country = cityCountryMap[kebabCasedCity];
+    const region =
+      cityToRegionMap[kebabCasedCity as keyof typeof cityToRegionMap];
+    const country =
+      cityCountryMap[kebabCasedCity as keyof typeof cityCountryMap];
     const formattedCountry = formatTitleToCamelCase(country);
     const formattedRegion = formatTitleToCamelCase(region);
 
