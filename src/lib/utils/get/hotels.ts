@@ -29,23 +29,37 @@ export async function getAllHotels(): Promise<Hotel[]> {
   }
 }
 
-export async function getHotelRooms(city: string, hotel: string) {
+export async function getHotelRooms(city: string, hotel: string | Hotel) {
   try {
-    const formattedCity = formatKebabToCamelCase(city);
-    const formattedHotel = formatKebabToCamelCase(hotel);
-    const roomId = `${formattedHotel}Rooms`;
-
-    const cityModule = await import(
-      `@/lib/constants/destinations/hotels/${city}/${formattedHotel}`
-    );
-    if (cityModule[roomId]) {
-      return cityModule[roomId] as RoomOption[];
+    let roomFile: string | undefined;
+    if (typeof hotel === "object" && hotel.roomFile) {
+      roomFile = hotel.roomFile;
+    } else if (typeof hotel === "string") {
+      // fallback: try to find hotel in city hotels and get roomFile
+      const hotels = await getCityHotels(city);
+      const found = hotels.find((h) => h.id === hotel);
+      roomFile = found?.roomFile;
     }
-    console.error(`No rooms found for hotel: ${hotel} in city: ${city}`);
+    if (!roomFile) {
+      throw new Error("No roomFile specified for hotel");
+    }
+    const cityModule = await import(
+      `@/lib/constants/destinations/hotels/${city}/${roomFile}`
+    );
+    // Find the exported variable that ends with 'Rooms'
+    const roomExport = Object.values(cityModule).find((v: any) =>
+      Array.isArray(v)
+    );
+    if (roomExport) {
+      return roomExport as RoomOption[];
+    }
+    console.error(`No rooms found for hotel in city: ${city}`);
     return [];
   } catch (error) {
     console.error(
-      `Error loading rooms for hotel ${hotel} in city ${city}: ${error}`
+      `Error loading rooms for hotel ${
+        typeof hotel === "string" ? hotel : hotel.id
+      } in city ${city}: ${error}`
     );
     return [];
   }
