@@ -1690,7 +1690,7 @@ async function generateCityTourFile(city) {
 
   const formattedName = removeAccents(city);
 
-  const variableName = `${formattedName}${formattedCountry}${formattedRegion}Tours`;
+  const variableName = `${formatKebabToCamelCase(formattedName)}${formattedCountry}${formattedRegion}Tours`;
 
   const destDir = path.join(process.cwd(), "src", "lib", "constants", "tours");
   const filePath = path.join(destDir, `${formattedName}.ts`);
