@@ -25,6 +25,7 @@ import { promisify } from "util";
 import {
   formatTitleToCamelCase,
   removeAccents,
+  formatTitleCaseToKebabCase,
 } from "./utils/format-utils.mjs";
 import { getRandomName } from "./utils/name-utils.mjs";
 import { cityCountryMap } from "./utils/geo-utils.mjs";
@@ -880,7 +881,7 @@ async function fileExists(filePath) {
 
 function formatFileName(cityName) {
   return formatTitleToCamelCase(
-    removeAccents(cityName.replace(/[^\w\s]/gi, "")),
+    removeAccents(cityName.replace(/[^\w\s]/gi, ""))
   );
 }
 
@@ -895,7 +896,7 @@ function getCityLivingTestimonialQuote(city) {
   quote = quote.replace(/\{CITY\}/g, city);
   quote = quote.replace(
     /\{CHARACTERISTIC\}/g,
-    getRandomItem(cityCharacteristics),
+    getRandomItem(cityCharacteristics)
   );
   quote = quote.replace(/\{ASPECT\}/g, getRandomItem(cityAspects));
   quote = quote.replace(/\{FEATURE\}/g, getRandomItem(cityFeatures));
@@ -904,7 +905,7 @@ function getCityLivingTestimonialQuote(city) {
   quote = quote.replace(/\{EXPERIENCE\}/g, getRandomItem(cityExperiences));
   quote = quote.replace(
     /\{UNEXPECTED_QUALITY\}/g,
-    getRandomItem(unexpectedQualities),
+    getRandomItem(unexpectedQualities)
   );
   quote = quote.replace(/\{UNIQUE_ASPECT\}/g, getRandomItem(uniqueAspects));
   quote = quote.replace(/\{DURATION\}/g, getRandomItem(durations));
@@ -916,12 +917,12 @@ function getCityLivingTestimonialQuote(city) {
   quote = quote.replace(/\{EVERYDAY_JOY\}/g, getRandomItem(everydayJoys));
   quote = quote.replace(
     /\{SEASONAL_HIGHLIGHT\}/g,
-    getRandomItem(seasonalHighlights),
+    getRandomItem(seasonalHighlights)
   );
   quote = quote.replace(/\{LOCAL_ACTIVITY\}/g, getRandomItem(localActivities));
   quote = quote.replace(
     /\{NEIGHBORHOOD_VIBE\}/g,
-    getRandomItem(neighborhoodVibes),
+    getRandomItem(neighborhoodVibes)
   );
   quote = quote.replace(/\{CULTURAL_ASPECT\}/g, getRandomItem(culturalAspects));
   quote = quote.replace(/\{HIDDEN_GEM\}/g, getRandomItem(hiddenGems));
@@ -993,9 +994,13 @@ async function createCityTestimonialFile(city) {
     "src",
     "lib",
     "constants",
-    "cityTestimonials",
+    "testimonials",
+    "cities"
   );
-  const filePath = path.join(cityDir, `${fileName}Testimonials.ts`);
+  const filePath = path.join(
+    cityDir,
+    `${formatTitleCaseToKebabCase(city)}-testimonials.ts`
+  );
 
   // Ensure directory exists
   await ensureDirectoryExists(cityDir);
@@ -1010,7 +1015,9 @@ async function createCityTestimonialFile(city) {
   const testimonials = generateCityTestimonials(city, cityDisplayName);
 
   // Create file content
-  let content = `import { Testimonial } from "@/lib/interfaces/services/testimonials";\n\n`;
+  let content = `// This file is auto-generated. Do not edit manually.\n\n`;
+  content += `// Testimonials for ${cityDisplayName}\n`;
+  content += `import { Testimonial } from "@/lib/interfaces/services/testimonials";\n\n`;
   content += `export const ${fileName}Testimonials: Testimonial[] = [\n`;
 
   testimonials.forEach((testimonial, index) => {
