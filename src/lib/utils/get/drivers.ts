@@ -9,7 +9,7 @@ export async function getDrivers(): Promise<any> {
       const formattedCity = formatKebabToCamelCase(cityFile);
       const driverId = `${formattedCity}Drivers`;
       const driversModule = await import(
-        `@/lib/constants/staff/drivers/${formattedCity}`
+        `@/lib/constants/staff/drivers/${cityFile}`
       );
       if (driversModule[driverId]) {
         return driversModule[driverId];
@@ -46,7 +46,7 @@ export async function getDriversByCity(city: string): Promise<Driver[]> {
     const formattedCity = formatKebabToCamelCase(city);
     const driversInCity = drivers.filter(
       (driver: { location: string }) =>
-        formatKebabToCamelCase(driver.location) === formattedCity,
+        formatKebabToCamelCase(driver.location) === city
     );
     if (driversInCity.length > 0) {
       return driversInCity;
