@@ -524,8 +524,8 @@ function generateLuxuryRentalCar(city, index) {
     new Set(
       Array(numColors)
         .fill(0)
-        .map(() => carColors[Math.floor(Math.random() * carColors.length)]),
-    ),
+        .map(() => carColors[Math.floor(Math.random() * carColors.length)])
+    )
   );
 
   // Generate features (5-10 features)
@@ -534,8 +534,8 @@ function generateLuxuryRentalCar(city, index) {
     new Set(
       Array(numFeatures)
         .fill(0)
-        .map(() => carFeatures[Math.floor(Math.random() * carFeatures.length)]),
-    ),
+        .map(() => carFeatures[Math.floor(Math.random() * carFeatures.length)])
+    )
   );
 
   // Generate rental price per day (based on car type and make)
@@ -607,7 +607,7 @@ function generateLuxuryRentalCar(city, index) {
     pickupLocations[Math.floor(Math.random() * pickupLocations.length)];
 
   // Generate image URL
-  const imageUrl = `https://paragon-trails-car-images.com/${carType.toLowerCase().replace(/\s+/g, "-")}/${make.toLowerCase().replace(/\s+/g, "-")}-${model.toLowerCase().replace(/\s+/g, "-")}.jpg`;
+  const imageUrl = `https://images.unsplash.com/${carType.toLowerCase().replace(/\s+/g, "-")}/${make.toLowerCase().replace(/\s+/g, "-")}-${model.toLowerCase().replace(/\s+/g, "-")}.jpg`;
 
   // Generate description
   const descriptions = [
@@ -686,7 +686,7 @@ async function extractExistingCars(filePath) {
   try {
     const content = await readFile(filePath, "utf-8");
     const match = content.match(
-      /export const \w+: LuxuryRentalCar\[\] = \[([\s\S]*?)\];/,
+      /export const \w+: LuxuryRentalCar\[\] = \[([\s\S]*?)\];/
     );
     if (!match || !match[1]) return [];
 
@@ -733,14 +733,14 @@ async function generateCityFile(city) {
   const formattedCountry = formatTitleToCamelCase(removeAccents(countryName));
   const formattedRegion = formatTitleToCamelCase(removeAccents(regionName));
 
-  const formattedName = formatKebabToCamelCase(removeAccents(city));
+  const formattedName = removeAccents(city);
 
   // Follow the same variable naming convention as yachts
   let variableName;
   if (formattedCountry && formattedRegion) {
-    variableName = `${formattedName}${formattedCountry.replaceAll(".", "")}${formattedRegion}Cars`;
+    variableName = `${formatKebabToCamelCase(formattedName)}${formattedCountry.replaceAll(".", "")}${formattedRegion}Cars`;
   } else {
-    variableName = `${formattedName}Cars`;
+    variableName = `${formatKebabToCamelCase(formattedName)}Cars`;
   }
 
   const destDir = path.join(
@@ -749,7 +749,7 @@ async function generateCityFile(city) {
     "lib",
     "constants",
     "rentals",
-    "cars",
+    "cars"
   );
   const filePath = path.join(destDir, `${formattedName}.ts`);
 
@@ -769,14 +769,14 @@ async function generateCityFile(city) {
       cars = await extractExistingCars(filePath);
     } else {
       console.log(
-        `File already exists (use --rewrite to replace): ${filePath}`,
+        `File already exists (use --rewrite to replace): ${filePath}`
       );
       return;
     }
   }
 
   // Generate cars
-  const numNewCars = options.append || Math.floor(Math.random() * 5) + 3; // 3-7 cars
+  const numNewCars = options.append || Math.floor(Math.random() * 20) + 7; // 3-7 cars
   const newCars = Array(numNewCars)
     .fill(0)
     .map((_, index) => generateLuxuryRentalCar(city, index + cars.length));
@@ -785,7 +785,10 @@ async function generateCityFile(city) {
   cars = cars.concat(newCars);
 
   // Create file content with proper formatting
-  let content = `import { LuxuryRentalCar } from "@/lib/interfaces/services/rentals";\n\n`;
+  let content = `// Auto-generated luxury car rentals for ${city}\n`;
+  content += `// Country: ${countryName}, Region: ${regionName}\n`;
+  content += `// This file is auto-generated. Do not edit manually.\n\n`;
+  content += `import { LuxuryRentalCar } from "@/lib/interfaces/services/rentals";\n\n`;
   content += `export const ${variableName}: LuxuryRentalCar[] = [\n`;
 
   cars.forEach((car, index) => {
@@ -809,7 +812,7 @@ async function generateCityFile(city) {
   // Write file
   await writeFile(filePath, content);
   console.log(
-    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`,
+    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`
   );
 }
 
