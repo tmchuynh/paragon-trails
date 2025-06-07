@@ -53,8 +53,12 @@ export const navbarItems = [
         href: "/services/rentals/motorcycle-rentals",
       },
       {
-        label: "Homestays & Accommodations",
-        href: "/services/accomodations",
+        label: "Homestays & Heritage Stays",
+        href: "/services/homestay-and-heritage-stays",
+      },
+      {
+        label: "Our Partnered Hotels",
+        href: "/services/hotels",
       },
     ],
   },
