@@ -28,6 +28,7 @@ import {
   removeAccents,
 } from "./utils/format-utils.mjs";
 import { getRandomName } from "./utils/name-utils.mjs";
+import { getRandomDate, getRandomRating } from "./utils/data-generator.mjs";
 
 const readFile = promisify(fs.readFile);
 const writeFile = promisify(fs.writeFile);
@@ -199,6 +200,37 @@ const testimonialTitles = [
   "Outstanding in Every Way",
   "A Stroll Through a Living Storybook",
   "Felt Like a Character in a Fairytale",
+  "A Journey Through {CITY}'s Heart",
+  "A Hidden Gem of a Tour",
+  "A Walk Through History",
+  "A Journey Through {CITY}'s Soul",
+  "A Walk That Changed Everything",
+  "A Tour That Feels Like Home",
+  "A Walk That Will Make You Think",
+  "A Journey Through {CITY}'s Secrets",
+  "A Journey Through {CITY}'s History",
+  "A Journey Through {CITY}'s Culture",
+  "A Walk That Will Make You Want to Explore More",
+  "A Walk That Will Stay with You",
+  "A Journey Through {CITY}'s Charm",
+  "A Walk That Will Make You Smile",
+  "A Tour That Feels Like a Hug",
+  "A Walk That Will Make You Fall in Love with {CITY}",
+  "A Journey Through {CITY}'s Magic",
+  "A Walk That Will Make You Want to Stay",
+  "A Tour That Feels Like a Dream",
+  "A Walk That Will Make You Believe in Magic",
+  "A Journey Through {CITY}'s Wonders",
+  "A Walk That Will Make You See {CITY} Differently",
+  "A Tour That Feels Like a Fairytale",
+  "A Walk That Will Make You Appreciate {CITY} More",
+  "A Journey Through {CITY}'s Hidden Treasures",
+  "A Tour That Feels Like a Movie",
+  "A Walk That Will Make You Laugh",
+  "A Journey Through {CITY}'s Beauty",
+  "A Walk That Will Make You Feel Alive",
+  "A Tour That Feels Like a Celebration",
+  "A Walk That Will Make You Want to Dance",
   "Where Magic Meets Cobblestone",
   "Wandered Far, Wondered More",
   "Lost in Time—in the Best Way",
@@ -210,6 +242,7 @@ const testimonialTitles = [
   "A Unique Way to Explore {CITY}",
   "Loved Every Minute",
   "Entertaining and Educational",
+  "A Tour to Remember",
   "Top-Notch Guiding",
   "Impressive and Informative",
   "Absolutely Fantastic!",
@@ -245,7 +278,7 @@ async function fileExists(filePath) {
 
 function formatFileName(tourTitle) {
   return formatTitleToCamelCase(
-    removeAccents(tourTitle.replace(/[^\w\s]/gi, "")),
+    removeAccents(tourTitle.replace(/[^\w\s]/gi, ""))
   );
 }
 
@@ -264,7 +297,7 @@ function getTestimonialQuote(city, tourTitle, guideName) {
   if (quote.includes("{RELATIVE}")) {
     quote = quote.replace(
       "{RELATIVE}",
-      relatives[Math.floor(Math.random() * relatives.length)],
+      relatives[Math.floor(Math.random() * relatives.length)]
     );
   }
 
@@ -355,7 +388,7 @@ async function createTestimonialFile(tour) {
     "lib",
     "constants",
     "testimonials",
-    tour.city,
+    tour.city
   );
   const filePath = path.join(cityDir, `${fileName}Testimonials.ts`);
 
@@ -380,7 +413,9 @@ async function createTestimonialFile(tour) {
     content += `    id: "${testimonial.id}",\n`; // Add ID to output
     content += `    quote: "${testimonial.quote}",\n`;
     content += `    author: "${testimonial.author}",\n`;
-    content += `    title: "${testimonial.title}"\n`;
+    content += `    title: "${testimonial.title}",\n`;
+    content += `    rating: ${getRandomRating(3.5, 5.0, 1)},\n`; // Add random rating
+    content += `    date: "${getRandomDate("2017-01-01", "2025-05-25")}"\n`;
     content += `  }${index < testimonials.length - 1 ? "," : ""}\n`;
   });
 
