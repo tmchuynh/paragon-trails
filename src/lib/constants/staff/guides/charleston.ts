@@ -1,28 +1,366 @@
+// This file is auto-generated. Do not edit manually.
+
 import { TourGuide } from "@/lib/interfaces/people/staff";
 
 export const charlestonunitedStateseastCoastUsaGuides: TourGuide[] = [
   {
     id: "guide-charleston-1",
-    name: "Olivia Dean",
+    name: "Vincent Russell",
     city: "Charleston",
     country: "United States",
     state: "",
     region: "East Coast USA",
     isPopular: false,
-    bio: "Olivia is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Photography Spots, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Asia Pacific", "Mediterranean"],
-    tourTypes: ["Self-Guided Tour", "Off-Road Tour", "Wine Tour"],
-    maxGroupSize: 5,
-    licenseNumber: "LIC-3449-CHA",
-    phoneNumber: "+1-426-374-6914",
-    contactEmail: "olivia.dean@paragontrails.com",
+    bio: "Vincent is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Street Food, Music Scene, Sustainable Tourism, Vincent provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa", "Alaska"],
+    tourTypes: ["Brewery Tour", "Religious Tour", "LGBTQ+ Friendly Tour", "Nature Tour", "Eco Tour"],
+    maxGroupSize: 7,
+    licenseNumber: "LIC-2048-CHA",
+    phoneNumber: "+1-937-362-8828",
+    contactEmail: "vincent.russell@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Vincent is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Street Food, Music Scene, Sustainable Tourism, Vincent provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 14,
+    quote: "The best way to discover Charleston is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/59.jpg",
+    languages: ["Romanian", "Indonesian"],
+    experienceYears: 3,
+    certifications: ["Local History Certification", "Licensed City Guide"],
+    specialties: ["Street Food", "Music Scene", "Sustainable Tourism"],
+    specialTraining: ["Photography"],
+  },
+  {
+    id: "guide-charleston-2",
+    name: "Catherine Müller",
+    city: "Charleston",
+    country: "United States",
+    state: "",
+    region: "East Coast USA",
+    isPopular: false,
+    bio: "Catherine is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Adventure Sports, Wildlife, Public Transportation Navigation, LGBTQ+ History, Catherine provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa", "Alaska"],
+    tourTypes: ["Cruise Excursion", "Accessible Tour", "Wine Tour", "LGBTQ+ Friendly Tour"],
+    maxGroupSize: 12,
+    licenseNumber: "LIC-2940-CHA",
+    phoneNumber: "+1-811-306-6555",
+    contactEmail: "catherine.müller@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Catherine is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Adventure Sports, Wildlife, Public Transportation Navigation, LGBTQ+ History, Catherine provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.8,
+    reviewsCount: 51,
+    quote: "Charleston isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/77.jpg",
+    languages: ["Swahili", "Vietnamese"],
+    experienceYears: 15,
+    certifications: ["Urban Navigation Specialist", "Language Proficiency Certification", "Certified International Tour Manager"],
+    specialties: ["Adventure Sports", "Wildlife", "Public Transportation Navigation", "LGBTQ+ History"],
+    specialTraining: ["Desert Navigation", "Art History"],
+  },
+  {
+    id: "guide-charleston-3",
+    name: "Harper Edwards",
+    city: "Charleston",
+    country: "United States",
+    state: "",
+    region: "East Coast USA",
+    isPopular: false,
+    bio: "Harper is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Public Transportation Navigation, LGBTQ+ History, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada"],
+    tourTypes: ["Cultural Tour", "Architecture Tour"],
+    maxGroupSize: 19,
+    licenseNumber: "LIC-8159-CHA",
+    phoneNumber: "+1-351-337-6759",
+    contactEmail: "harper.edwards@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Harper is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Public Transportation Navigation, LGBTQ+ History, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 82,
+    quote: "The best way to discover Charleston is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/15.jpg",
+    languages: ["Hebrew", "French"],
+    experienceYears: 7,
+    certifications: ["CPR & First Aid", "Language Proficiency Certification", "Sustainable Tourism Certificate"],
+    specialties: ["Public Transportation Navigation", "LGBTQ+ History"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-charleston-4",
+    name: "Brenda Garcia",
+    city: "Charleston",
+    country: "United States",
+    state: "",
+    region: "East Coast USA",
+    isPopular: true,
+    bio: "Brenda is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Local Cuisine, Photography Spots, Local Craftsmanship, Hidden Gems, Brenda provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East"],
+    tourTypes: ["Cultural Tour", "Shopping Tour"],
+    maxGroupSize: 10,
+    licenseNumber: "LIC-2410-CHA",
+    phoneNumber: "+1-994-601-9934",
+    contactEmail: "brenda.garcia@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Brenda is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Local Cuisine, Photography Spots, Local Craftsmanship, Hidden Gems, Brenda provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.4,
+    reviewsCount: 40,
+    quote: "Charleston isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/0.jpg",
+    languages: ["German", "Greek"],
+    experienceYears: 2,
+    certifications: ["Professional Tour Guide Association", "Heritage Interpretation Certificate"],
+    specialties: ["Local Cuisine", "Photography Spots", "Local Craftsmanship", "Hidden Gems"],
+    specialTraining: ["Marine Biology", "Regional Cuisine"],
+  },
+  {
+    id: "guide-charleston-5",
+    name: "Mary Kowalski",
+    city: "Charleston",
+    country: "United States",
+    state: "",
+    region: "East Coast USA",
+    isPopular: false,
+    bio: "Mary is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Photography Spots, Hidden Gems, Family Activities, Mary provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Northern Europe", "South America"],
+    tourTypes: ["Street Art Tour", "Cultural Tour", "Wine Tour"],
+    maxGroupSize: 13,
+    licenseNumber: "LIC-3157-CHA",
+    phoneNumber: "+1-949-555-9994",
+    contactEmail: "mary.kowalski@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Mary is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Photography Spots, Hidden Gems, Family Activities, Mary provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.4,
+    reviewsCount: 91,
+    quote: "The best way to discover Charleston is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/10.jpg",
+    languages: ["Hindi"],
+    experienceYears: 6,
+    certifications: ["Eco-Tourism Guide", "Food Safety Certification", "Wilderness First Responder"],
+    specialties: ["Photography Spots", "Hidden Gems", "Family Activities"],
+    specialTraining: ["Art History", "Desert Navigation"],
+  },
+  {
+    id: "guide-charleston-6",
+    name: "Isabella Ivanov",
+    city: "Charleston",
+    country: "United States",
+    state: "",
+    region: "East Coast USA",
+    isPopular: false,
+    bio: "Isabella is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Local Craftsmanship, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Mediterranean"],
+    tourTypes: ["Cooking Class", "Street Art Tour"],
+    maxGroupSize: 10,
+    licenseNumber: "LIC-4356-CHA",
+    phoneNumber: "+1-149-921-8848",
+    contactEmail: "isabella.ivanov@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Isabella is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Local Craftsmanship, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.5,
+    reviewsCount: 14,
+    quote: "In Charleston, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/49.jpg",
+    languages: ["Vietnamese", "Indonesian", "Korean"],
+    experienceYears: 13,
+    certifications: ["Sustainable Tourism Certificate"],
+    specialties: ["Local Craftsmanship"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-charleston-7",
+    name: "Gabriel Gibson",
+    city: "Charleston",
+    country: "United States",
+    state: "",
+    region: "East Coast USA",
+    isPopular: false,
+    bio: "Gabriel is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Wine Tasting, Music Scene, Local Markets, Street Food, Gabriel provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa", "Middle East"],
+    tourTypes: ["Luxury Tour", "Scenic Tour", "Off-Road Tour", "Adventure Tour", "Walking Tour"],
+    maxGroupSize: 13,
+    licenseNumber: "LIC-5896-CHA",
+    phoneNumber: "+1-224-624-1428",
+    contactEmail: "gabriel.gibson@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Gabriel is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Wine Tasting, Music Scene, Local Markets, Street Food, Gabriel provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 67,
+    quote: "In Charleston, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/82.jpg",
+    languages: ["Tagalog"],
+    experienceYears: 8,
+    certifications: ["Adventure Tourism Safety Certificate"],
+    specialties: ["Wine Tasting", "Music Scene", "Local Markets", "Street Food"],
+    specialTraining: ["Historical Research Methods", "Archaeological Conservation"],
+  },
+  {
+    id: "guide-charleston-8",
+    name: "Wayne Garcia",
+    city: "Charleston",
+    country: "United States",
+    state: "",
+    region: "East Coast USA",
+    isPopular: false,
+    bio: "Wayne is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Wildlife, Museums, Wayne provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada"],
+    tourTypes: ["Romantic Tour", "Audio Tour", "LGBTQ+ Friendly Tour", "Museum Tour", "Brewery Tour"],
+    maxGroupSize: 10,
+    licenseNumber: "LIC-7109-CHA",
+    phoneNumber: "+1-272-608-7040",
+    contactEmail: "wayne.garcia@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Wayne is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Wildlife, Museums, Wayne provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 47,
+    quote: "In Charleston, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/58.jpg",
+    languages: ["Dutch", "Mandarin"],
+    experienceYears: 14,
+    certifications: ["Cultural Heritage Specialist"],
+    specialties: ["Wildlife", "Museums"],
+    specialTraining: ["Desert Navigation", "Urban Planning"],
+  },
+  {
+    id: "guide-charleston-9",
+    name: "Vincent Porter",
+    city: "Charleston",
+    country: "United States",
+    state: "",
+    region: "East Coast USA",
+    isPopular: true,
+    bio: "Vincent is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Wildlife, Vincent provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean"],
+    tourTypes: ["Family-Friendly Tour", "Cultural Tour", "Shopping Tour", "Romantic Tour", "Self-Guided Tour"],
+    maxGroupSize: 6,
+    licenseNumber: "LIC-8009-CHA",
+    phoneNumber: "+1-911-782-1863",
+    contactEmail: "vincent.porter@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Vincent is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Wildlife, Vincent provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 54,
+    quote: "The best way to discover Charleston is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/45.jpg",
+    languages: ["Swahili"],
+    experienceYears: 10,
+    certifications: ["CPR & First Aid"],
+    specialties: ["Wildlife"],
+    specialTraining: ["Local Flora & Fauna"],
+  },
+  {
+    id: "guide-charleston-10",
+    name: "Andrew Clark",
+    city: "Charleston",
+    country: "United States",
+    state: "",
+    region: "East Coast USA",
+    isPopular: false,
+    bio: "Andrew is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Architecture, Cultural Etiquette, Museums, Andrew provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific", "Alaska"],
+    tourTypes: ["LGBTQ+ Friendly Tour", "Family-Friendly Tour", "Scenic Tour", "Self-Guided Tour"],
+    maxGroupSize: 6,
+    licenseNumber: "LIC-7464-CHA",
+    phoneNumber: "+1-883-669-7671",
+    contactEmail: "andrew.clark@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Andrew is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Architecture, Cultural Etiquette, Museums, Andrew provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.9,
+    reviewsCount: 24,
+    quote: "My goal is to help you fall in love with Charleston just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/66.jpg",
+    languages: ["Hindi"],
+    experienceYears: 6,
+    certifications: ["Local History Certification"],
+    specialties: ["Architecture", "Cultural Etiquette", "Museums"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-charleston-11",
+    name: "Claire Hunter",
+    city: "Charleston",
+    country: "United States",
+    state: "",
+    region: "East Coast USA",
+    isPopular: true,
+    bio: "Claire is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Wildlife, Religious Sites, Family Activities, Claire provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada"],
+    tourTypes: ["Photography Tour", "Shopping Tour", "Historical Tour"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-9903-CHA",
+    phoneNumber: "+1-347-952-3460",
+    contactEmail: "claire.hunter@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Claire is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Wildlife, Religious Sites, Family Activities, Claire provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.6,
+    reviewsCount: 52,
+    quote: "Charleston isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/53.jpg",
+    languages: ["Hungarian"],
+    experienceYears: 6,
+    certifications: ["Regional Tourism Ambassador", "Adventure Tourism Safety Certificate"],
+    specialties: ["Wildlife", "Religious Sites", "Family Activities"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-charleston-12",
+    name: "Maya Hernandez",
+    city: "Charleston",
+    country: "United States",
+    state: "",
+    region: "East Coast USA",
+    isPopular: false,
+    bio: "Maya is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Hidden Gems, Architecture, Indigenous Culture, Public Transportation Navigation, Maya provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America"],
+    tourTypes: ["Cultural Tour", "Relocation Tour", "Scenic Tour"],
+    maxGroupSize: 10,
+    licenseNumber: "LIC-8754-CHA",
+    phoneNumber: "+1-571-999-2900",
+    contactEmail: "maya.hernandez@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Maya is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Hidden Gems, Architecture, Indigenous Culture, Public Transportation Navigation, Maya provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4,
+    reviewsCount: 38,
+    quote: "My goal is to help you fall in love with Charleston just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/9.jpg",
+    languages: ["Vietnamese", "Serbian"],
+    experienceYears: 9,
+    certifications: ["Professional Tour Guide Association", "Wilderness First Responder", "Heritage Interpretation Certificate"],
+    specialties: ["Hidden Gems", "Architecture", "Indigenous Culture", "Public Transportation Navigation"],
+    specialTraining: ["Regional Cuisine", "Art History"],
+  },
+  {
+    id: "guide-charleston-13",
+    name: "Katherine Nguyen",
+    city: "Charleston",
+    country: "United States",
+    state: "",
+    region: "East Coast USA",
+    isPopular: false,
+    bio: "Katherine is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Film Locations, Local Cuisine, Katherine provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada"],
+    tourTypes: ["Underground Tour", "Nature Tour"],
+    maxGroupSize: 17,
+    licenseNumber: "LIC-4413-CHA",
+    phoneNumber: "+1-984-760-8062",
+    contactEmail: "katherine.nguyen@paragontrails.com",
     available: [
       {
-        day: "Monday",
+        day: "Tuesday",
         availableHours: [
           {
-            from: "10:00 AM",
-            to: "02:00 PM",
+            from: "09:00 AM",
+            to: "11:00 AM",
           }
         ],
       },
@@ -30,11 +368,140 @@ export const charlestonunitedStateseastCoastUsaGuides: TourGuide[] = [
         day: "Thursday",
         availableHours: [
           {
-            from: "02:00 PM",
+            from: "03:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Katherine is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Film Locations, Local Cuisine, Katherine provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.3,
+    reviewsCount: 47,
+    quote: "My goal is to help you fall in love with Charleston just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/46.jpg",
+    languages: ["Vietnamese", "Thai", "Russian"],
+    experienceYears: 2,
+    certifications: ["Local History Certification", "Sustainable Tourism Certificate"],
+    specialties: ["Film Locations", "Local Cuisine"],
+    specialTraining: ["Mountain Survival"],
+  },
+  {
+    id: "guide-charleston-14",
+    name: "Oliver Singh",
+    city: "Charleston",
+    country: "United States",
+    state: "",
+    region: "East Coast USA",
+    isPopular: false,
+    bio: "Oliver is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Museums, Hidden Gems, Religious Sites, Oliver provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["West Coast USA"],
+    tourTypes: ["Walking Tour", "Bike Tour", "Helicopter Tour", "Off-Road Tour", "Group Tour"],
+    maxGroupSize: 12,
+    licenseNumber: "LIC-3377-CHA",
+    phoneNumber: "+1-191-238-2967",
+    contactEmail: "oliver.singh@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "12:00 PM",
             to: "06:00 PM",
           },
           {
             from: "08:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "03:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Oliver is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Museums, Hidden Gems, Religious Sites, Oliver provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 69,
+    quote: "Charleston isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/84.jpg",
+    languages: ["Italian", "Arabic", "Vietnamese"],
+    experienceYears: 5,
+    certifications: ["Eco-Tourism Guide"],
+    specialties: ["Museums", "Hidden Gems", "Religious Sites"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-charleston-15",
+    name: "Hassan Graham",
+    city: "Charleston",
+    country: "United States",
+    state: "",
+    region: "East Coast USA",
+    isPopular: false,
+    bio: "Hassan is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Local Markets, Wildlife, Public Transportation Navigation, Local Cuisine, Hassan provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada"],
+    tourTypes: ["Street Art Tour", "Food Tour", "Wine Tour"],
+    maxGroupSize: 8,
+    licenseNumber: "LIC-5047-CHA",
+    phoneNumber: "+1-424-568-7481",
+    contactEmail: "hassan.graham@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "09:00 AM",
             to: "12:00 PM",
           }
         ],
@@ -43,50 +510,240 @@ export const charlestonunitedStateseastCoastUsaGuides: TourGuide[] = [
         day: "Friday",
         availableHours: [
           {
-            from: "01:00 PM",
-            to: "05:00 PM",
-          },
-          {
             from: "12:00 PM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "11:00 AM",
             to: "02:00 PM",
           }
         ],
-      }
-    ],
-    isCertified: true,
-    description: "Olivia is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Photography Spots, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.6,
-    reviewsCount: 91,
-    quote: "Charleston isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/44.jpg",
-    languages: ["Malay"],
-    experienceYears: 2,
-    certifications: ["Wilderness First Responder", "Local History Certification"],
-    specialties: ["Photography Spots"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-charleston-2",
-    name: "Steven Gibson",
-    city: "Charleston",
-    country: "United States",
-    state: "",
-    region: "East Coast USA",
-    isPopular: false,
-    bio: "Steven is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Public Transportation Navigation, Parks & Gardens, Cultural Etiquette, Steven provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["South America"],
-    tourTypes: ["Group Tour", "Adventure Tour"],
-    maxGroupSize: 17,
-    licenseNumber: "LIC-6634-CHA",
-    phoneNumber: "+1-481-845-8375",
-    contactEmail: "steven.gibson@paragontrails.com",
-    available: [
+      },
       {
         day: "Tuesday",
         availableHours: [
           {
             from: "09:00 AM",
-            to: "02:00 PM",
+            to: "01:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "05:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "04:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Hassan is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Local Markets, Wildlife, Public Transportation Navigation, Local Cuisine, Hassan provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 103,
+    quote: "Charleston isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/44.jpg",
+    languages: ["Arabic"],
+    experienceYears: 11,
+    certifications: ["Certified International Tour Manager"],
+    specialties: ["Local Markets", "Wildlife", "Public Transportation Navigation", "Local Cuisine"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-charleston-16",
+    name: "Nancy Gonzalez",
+    city: "Charleston",
+    country: "United States",
+    state: "",
+    region: "East Coast USA",
+    isPopular: true,
+    bio: "Nancy is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Cultural Etiquette, Music Scene, Parks & Gardens, Nancy provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East"],
+    tourTypes: ["Religious Tour", "Street Art Tour", "Walking Tour"],
+    maxGroupSize: 5,
+    licenseNumber: "LIC-8049-CHA",
+    phoneNumber: "+1-790-247-6672",
+    contactEmail: "nancy.gonzalez@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "08:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "06:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "04:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Nancy is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Cultural Etiquette, Music Scene, Parks & Gardens, Nancy provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 100,
+    quote: "The best way to discover Charleston is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/76.jpg",
+    languages: ["Italian"],
+    experienceYears: 7,
+    certifications: ["Professional Tour Guide Association", "Cultural Heritage Specialist"],
+    specialties: ["Cultural Etiquette", "Music Scene", "Parks & Gardens"],
+    specialTraining: ["Cultural Sensitivity"],
+  },
+  {
+    id: "guide-charleston-17",
+    name: "Daniel Edwards",
+    city: "Charleston",
+    country: "United States",
+    state: "",
+    region: "East Coast USA",
+    isPopular: false,
+    bio: "Daniel is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Hidden Gems, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada", "Northern Europe"],
+    tourTypes: ["Brewery Tour", "Off-Road Tour", "Family-Friendly Tour", "Market Tour", "Boat Tour"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-6538-CHA",
+    phoneNumber: "+1-418-788-5671",
+    contactEmail: "daniel.edwards@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "06:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "07:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Daniel is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Hidden Gems, Daniel provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.8,
+    reviewsCount: 8,
+    quote: "My goal is to help you fall in love with Charleston just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/69.jpg",
+    languages: ["Swedish"],
+    experienceYears: 13,
+    certifications: ["Certified International Tour Manager"],
+    specialties: ["Hidden Gems"],
+    specialTraining: ["Marine Biology", "Mountain Survival"],
+  },
+  {
+    id: "guide-charleston-18",
+    name: "Harry Ivanov",
+    city: "Charleston",
+    country: "United States",
+    state: "",
+    region: "East Coast USA",
+    isPopular: false,
+    bio: "Harry is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Adventure Sports, Architecture, Harry provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["West Coast USA", "East Coast USA"],
+    tourTypes: ["Photography Tour", "Adventure Tour"],
+    maxGroupSize: 6,
+    licenseNumber: "LIC-9776-CHA",
+    phoneNumber: "+1-574-289-2190",
+    contactEmail: "harry.ivanov@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "03:00 PM",
+          },
+          {
+            from: "11:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "05:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "01:00 PM",
           }
         ],
       },
@@ -98,17 +755,8 @@ export const charlestonunitedStateseastCoastUsaGuides: TourGuide[] = [
             to: "06:00 PM",
           },
           {
-            from: "12:00 PM",
-            to: "02:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
             from: "02:00 PM",
-            to: "08:00 PM",
+            to: "06:00 PM",
           }
         ],
       },
@@ -116,66 +764,40 @@ export const charlestonunitedStateseastCoastUsaGuides: TourGuide[] = [
         day: "Wednesday",
         availableHours: [
           {
-            from: "08:00 AM",
-            to: "11:00 AM",
+            from: "03:00 PM",
+            to: "05:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Steven is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Public Transportation Navigation, Parks & Gardens, Cultural Etiquette, Steven provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.7,
-    reviewsCount: 98,
-    quote: "Charleston isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/men/25.jpg",
-    languages: ["Cantonese", "Japanese"],
-    experienceYears: 5,
-    certifications: ["Regional Tourism Ambassador", "Certified International Tour Manager"],
-    specialties: ["Public Transportation Navigation", "Parks & Gardens", "Cultural Etiquette"],
-    specialTraining: [],
+    description: "Harry is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Adventure Sports, Architecture, Harry provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 27,
+    quote: "Every corner of Charleston tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/12.jpg",
+    languages: ["Thai"],
+    experienceYears: 7,
+    certifications: ["Licensed City Guide", "Adventure Tourism Safety Certificate"],
+    specialties: ["Adventure Sports", "Architecture"],
+    specialTraining: ["Photography"],
   },
   {
-    id: "guide-charleston-3",
-    name: "Aaliyah Thomas",
+    id: "guide-charleston-19",
+    name: "Elena Wells",
     city: "Charleston",
     country: "United States",
     state: "",
     region: "East Coast USA",
     isPopular: false,
-    bio: "Aaliyah is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Cultural Etiquette, Public Transportation Navigation, Aaliyah provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean"],
-    tourTypes: ["Audio Tour", "Luxury Tour"],
-    maxGroupSize: 6,
-    licenseNumber: "LIC-9016-CHA",
-    phoneNumber: "+1-713-245-9348",
-    contactEmail: "aaliyah.thomas@paragontrails.com",
+    bio: "Elena is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Music Scene, Family Activities, Wildlife, Elena provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East", "South America"],
+    tourTypes: ["Farm Visit", "Wildlife Safari", "Shopping Tour", "Cooking Class", "Romantic Tour"],
+    maxGroupSize: 13,
+    licenseNumber: "LIC-9442-CHA",
+    phoneNumber: "+1-885-980-1395",
+    contactEmail: "elena.wells@paragontrails.com",
     available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "11:00 AM",
-          },
-          {
-            from: "10:00 AM",
-            to: "12:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "11:00 AM",
-          },
-          {
-            from: "09:00 AM",
-            to: "12:00 PM",
-          }
-        ],
-      },
       {
         day: "Saturday",
         availableHours: [
@@ -186,282 +808,98 @@ export const charlestonunitedStateseastCoastUsaGuides: TourGuide[] = [
         ],
       },
       {
-        day: "Tuesday",
+        day: "Monday",
         availableHours: [
-          {
-            from: "10:00 AM",
-            to: "12:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "06:00 PM",
-          },
-          {
-            from: "10:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Aaliyah is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Cultural Etiquette, Public Transportation Navigation, Aaliyah provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.3,
-    reviewsCount: 39,
-    quote: "The best way to discover Charleston is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/28.jpg",
-    languages: ["French"],
-    experienceYears: 5,
-    certifications: ["Urban Navigation Specialist", "Sustainable Tourism Certificate"],
-    specialties: ["Cultural Etiquette", "Public Transportation Navigation"],
-    specialTraining: ["Urban Planning"],
-  },
-  {
-    id: "guide-charleston-4",
-    name: "Ellie Dixon",
-    city: "Charleston",
-    country: "United States",
-    state: "",
-    region: "East Coast USA",
-    isPopular: false,
-    bio: "Ellie is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Local Markets, LGBTQ+ History, Ellie provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Northern Europe"],
-    tourTypes: ["Religious Tour", "Eco Tour", "Self-Guided Tour", "Photography Tour"],
-    maxGroupSize: 6,
-    licenseNumber: "LIC-2325-CHA",
-    phoneNumber: "+1-399-188-8667",
-    contactEmail: "ellie.dixon@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "02:00 PM",
-          },
-          {
-            from: "08:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "12:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "02:00 PM",
-          },
           {
             from: "02:00 PM",
-            to: "07:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Ellie is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Local Markets, LGBTQ+ History, Ellie provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.7,
-    reviewsCount: 60,
-    quote: "Every corner of Charleston tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/64.jpg",
-    languages: ["Hungarian"],
-    experienceYears: 10,
-    certifications: ["Food Safety Certification", "Wilderness First Responder", "Licensed City Guide"],
-    specialties: ["Local Markets", "LGBTQ+ History"],
-    specialTraining: ["Art History"],
-  },
-  {
-    id: "guide-charleston-5",
-    name: "Susan Suzuki",
-    city: "Charleston",
-    country: "United States",
-    state: "",
-    region: "East Coast USA",
-    isPopular: false,
-    bio: "Susan is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Hidden Gems, Indigenous Culture, Susan provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast USA", "Caribbean"],
-    tourTypes: ["Adventure Tour", "Helicopter Tour", "Cooking Class"],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-3501-CHA",
-    phoneNumber: "+1-867-486-8514",
-    contactEmail: "susan.suzuki@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "11:00 AM",
             to: "05:00 PM",
           }
         ],
       },
       {
-        day: "Wednesday",
+        day: "Tuesday",
         availableHours: [
           {
-            from: "11:00 AM",
+            from: "02:00 PM",
+            to: "08:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "08:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Elena is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Music Scene, Family Activities, Wildlife, Elena provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.3,
+    reviewsCount: 45,
+    quote: "My goal is to help you fall in love with Charleston just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/79.jpg",
+    languages: ["French", "Finnish", "Bulgarian"],
+    experienceYears: 2,
+    certifications: ["CPR & First Aid", "Certified International Tour Manager", "Cultural Heritage Specialist"],
+    specialties: ["Music Scene", "Family Activities", "Wildlife"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-charleston-20",
+    name: "Brooklyn Garcia",
+    city: "Charleston",
+    country: "United States",
+    state: "",
+    region: "East Coast USA",
+    isPopular: false,
+    bio: "Brooklyn is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Family Activities, Local Cuisine, Brooklyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America"],
+    tourTypes: ["Festival Tour", "Cruise Excursion", "Off-Road Tour"],
+    maxGroupSize: 11,
+    licenseNumber: "LIC-4660-CHA",
+    phoneNumber: "+1-369-128-6173",
+    contactEmail: "brooklyn.garcia@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "04:00 PM",
+          },
+          {
+            from: "02:00 PM",
             to: "04:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Susan is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Hidden Gems, Indigenous Culture, Susan provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.8,
-    reviewsCount: 94,
-    quote: "Charleston isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/8.jpg",
-    languages: ["Serbian"],
-    experienceYears: 15,
-    certifications: ["Certified International Tour Manager"],
-    specialties: ["Hidden Gems", "Indigenous Culture"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-charleston-6",
-    name: "Cynthia Williams",
-    city: "Charleston",
-    country: "United States",
-    state: "",
-    region: "East Coast USA",
-    isPopular: false,
-    bio: "Cynthia is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Street Food, Museums, Wildlife, Cynthia provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Alaska"],
-    tourTypes: ["Self-Guided Tour", "Bike Tour"],
-    maxGroupSize: 18,
-    licenseNumber: "LIC-4506-CHA",
-    phoneNumber: "+1-781-240-7206",
-    contactEmail: "cynthia.williams@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "02:00 PM",
-          },
-          {
-            from: "08:00 AM",
-            to: "11:00 AM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "02:00 PM",
-          },
-          {
-            from: "01:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Cynthia is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Street Food, Museums, Wildlife, Cynthia provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 21,
-    quote: "My goal is to help you fall in love with Charleston just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/45.jpg",
-    languages: ["German", "Greek"],
-    experienceYears: 3,
-    certifications: ["Urban Navigation Specialist", "Local History Certification"],
-    specialties: ["Street Food", "Museums", "Wildlife"],
-    specialTraining: ["Cultural Sensitivity"],
-  },
-  {
-    id: "guide-charleston-7",
-    name: "Ariana Kowalski",
-    city: "Charleston",
-    country: "United States",
-    state: "",
-    region: "East Coast USA",
-    isPopular: false,
-    bio: "Ariana is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Street Food, Ariana provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada"],
-    tourTypes: ["Private Tour", "Museum Tour"],
-    maxGroupSize: 15,
-    licenseNumber: "LIC-2268-CHA",
-    phoneNumber: "+1-361-767-5078",
-    contactEmail: "ariana.kowalski@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "01:00 PM",
-          },
-          {
-            from: "08:00 AM",
-            to: "11:00 AM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "10:00 AM",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Ariana is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Street Food, Ariana provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.3,
-    reviewsCount: 88,
-    quote: "In Charleston, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/23.jpg",
-    languages: ["Cantonese", "Greek", "Malay"],
-    experienceYears: 16,
-    certifications: ["Local History Certification", "Cultural Heritage Specialist"],
-    specialties: ["Street Food"],
-    specialTraining: [],
+    description: "Brooklyn is a passionate tour guide with extensive knowledge of Charleston and United States. Specializing in Family Activities, Local Cuisine, Brooklyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 96,
+    quote: "The best way to discover Charleston is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/77.jpg",
+    languages: ["Dutch", "Hungarian", "Greek"],
+    experienceYears: 14,
+    certifications: ["Eco-Tourism Guide", "Certified International Tour Manager", "Language Proficiency Certification"],
+    specialties: ["Family Activities", "Local Cuisine"],
+    specialTraining: ["Art History"],
   }
 ];

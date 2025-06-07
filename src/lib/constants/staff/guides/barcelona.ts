@@ -1,410 +1,290 @@
+// This file is auto-generated. Do not edit manually.
+
 import { TourGuide } from "@/lib/interfaces/people/staff";
 
 export const barcelonaspainmediterraneanGuides: TourGuide[] = [
   {
     id: "guide-barcelona-1",
-    name: "Hiroshi Price",
+    name: "Ryan Foster",
     city: "Barcelona",
     country: "Spain",
     state: "",
     region: "Mediterranean",
     isPopular: false,
-    bio: "Hiroshi is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Adventure Sports, Wine Tasting, Hiroshi provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean", "Middle East"],
-    tourTypes: ["Brewery Tour", "Audio Tour", "Accessible Tour"],
-    maxGroupSize: 10,
-    licenseNumber: "LIC-1351-BAR",
-    phoneNumber: "+1-635-337-6331",
-    contactEmail: "hiroshi.price@paragontrails.com",
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "02:00 PM",
-          },
-          {
-            from: "01:00 PM",
-            to: "07:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "03:00 PM",
-          },
-          {
-            from: "12:00 PM",
-            to: "04:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "04:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "12:00 PM",
-          },
-          {
-            from: "10:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      }
-    ],
+    bio: "Ryan is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Architecture, Ryan provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Alaska"],
+    tourTypes: ["Wine Tour", "Wildlife Safari"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-5405-BAR",
+    phoneNumber: "+1-435-509-7519",
+    contactEmail: "ryan.foster@paragontrails.com",
+    available: [],
     isCertified: true,
-    description: "Hiroshi is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Adventure Sports, Wine Tasting, Hiroshi provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.3,
-    reviewsCount: 45,
-    quote: "My goal is to help you fall in love with Barcelona just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/18.jpg",
-    languages: ["Vietnamese", "Norwegian"],
-    experienceYears: 14,
-    certifications: ["Regional Tourism Ambassador", "Local History Certification"],
-    specialties: ["Adventure Sports", "Wine Tasting"],
+    description: "Ryan is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Architecture, Ryan provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 73,
+    quote: "In Barcelona, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/22.jpg",
+    languages: ["Tagalog", "Hindi"],
+    experienceYears: 10,
+    certifications: ["Food Safety Certification", "CPR & First Aid"],
+    specialties: ["Architecture"],
     specialTraining: [],
   },
   {
     id: "guide-barcelona-2",
-    name: "Omar Young",
+    name: "Bruce Henderson",
     city: "Barcelona",
     country: "Spain",
     state: "",
     region: "Mediterranean",
     isPopular: true,
-    bio: "Omar is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in LGBTQ+ History, Parks & Gardens, Omar provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["South America", "Northern Europe"],
-    tourTypes: ["Photography Tour", "Festival Tour", "Bike Tour"],
+    bio: "Bruce is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Indigenous Culture, Family Activities, Cultural Etiquette, Bruce provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean"],
+    tourTypes: ["Wildlife Safari", "Craft Workshop"],
     maxGroupSize: 16,
-    licenseNumber: "LIC-9577-BAR",
-    phoneNumber: "+1-593-920-3096",
-    contactEmail: "omar.young@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "04:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "09:00 PM",
-          },
-          {
-            from: "03:00 PM",
-            to: "08:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "04:00 PM",
-          },
-          {
-            from: "10:00 AM",
-            to: "04:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "12:00 PM",
-          },
-          {
-            from: "10:00 AM",
-            to: "04:00 PM",
-          }
-        ],
-      }
-    ],
+    licenseNumber: "LIC-5053-BAR",
+    phoneNumber: "+1-630-139-4627",
+    contactEmail: "bruce.henderson@paragontrails.com",
+    available: [],
     isCertified: true,
-    description: "Omar is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in LGBTQ+ History, Parks & Gardens, Omar provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.5,
-    reviewsCount: 23,
-    quote: "Every corner of Barcelona tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/67.jpg",
-    languages: ["Hebrew"],
-    experienceYears: 8,
+    description: "Bruce is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Indigenous Culture, Family Activities, Cultural Etiquette, Bruce provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.4,
+    reviewsCount: 47,
+    quote: "Barcelona isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/6.jpg",
+    languages: ["Japanese", "Norwegian"],
+    experienceYears: 10,
     certifications: ["Wilderness First Responder"],
-    specialties: ["LGBTQ+ History", "Parks & Gardens"],
-    specialTraining: [],
+    specialties: ["Indigenous Culture", "Family Activities", "Cultural Etiquette"],
+    specialTraining: ["Wine Education", "Regional Geology"],
   },
   {
     id: "guide-barcelona-3",
-    name: "Maya Williams",
+    name: "Henry King",
     city: "Barcelona",
     country: "Spain",
     state: "",
     region: "Mediterranean",
     isPopular: false,
-    bio: "Maya is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Local Markets, Nightlife, Music Scene, Maya provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean", "Asia Pacific"],
-    tourTypes: ["Historical Tour", "Cruise Excursion"],
-    maxGroupSize: 15,
-    licenseNumber: "LIC-4751-BAR",
-    phoneNumber: "+1-585-368-1536",
-    contactEmail: "maya.williams@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "08:00 PM",
-          },
-          {
-            from: "01:00 PM",
-            to: "03:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "01:00 PM",
-          },
-          {
-            from: "08:00 AM",
-            to: "11:00 AM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "05:00 PM",
-          }
-        ],
-      }
-    ],
+    bio: "Henry is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Sustainable Tourism, Adventure Sports, Urban Legends, Public Transportation Navigation, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada", "East Coast USA"],
+    tourTypes: ["Cooking Class", "Romantic Tour"],
+    maxGroupSize: 10,
+    licenseNumber: "LIC-9412-BAR",
+    phoneNumber: "+1-151-174-9624",
+    contactEmail: "henry.king@paragontrails.com",
+    available: [],
     isCertified: true,
-    description: "Maya is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Local Markets, Nightlife, Music Scene, Maya provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.9,
-    reviewsCount: 92,
-    quote: "Every corner of Barcelona tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/64.jpg",
-    languages: ["Malay", "Russian", "Finnish"],
-    experienceYears: 9,
-    certifications: ["Local History Certification", "Eco-Tourism Guide", "Wilderness First Responder"],
-    specialties: ["Local Markets", "Nightlife", "Music Scene"],
-    specialTraining: ["Historical Research Methods", "Group Management"],
+    description: "Henry is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Sustainable Tourism, Adventure Sports, Urban Legends, Public Transportation Navigation, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 6,
+    quote: "In Barcelona, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/22.jpg",
+    languages: ["Dutch", "Korean", "Thai"],
+    experienceYears: 11,
+    certifications: ["Certified International Tour Manager", "Sustainable Tourism Certificate"],
+    specialties: ["Sustainable Tourism", "Adventure Sports", "Urban Legends", "Public Transportation Navigation"],
+    specialTraining: [],
   },
   {
     id: "guide-barcelona-4",
-    name: "Stephen Lopez",
+    name: "Mia Rodriguez",
     city: "Barcelona",
     country: "Spain",
     state: "",
     region: "Mediterranean",
     isPopular: false,
-    bio: "Stephen is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Wildlife, Adventure Sports, Urban Legends, Local Cuisine, Stephen provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Asia Pacific", "Alaska"],
-    tourTypes: ["Self-Guided Tour", "Museum Tour", "Luxury Tour", "Scenic Tour"],
+    bio: "Mia is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Local Craftsmanship, Wildlife, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East", "South America"],
+    tourTypes: ["Museum Tour", "Boat Tour"],
+    maxGroupSize: 19,
+    licenseNumber: "LIC-3904-BAR",
+    phoneNumber: "+1-251-347-2300",
+    contactEmail: "mia.rodriguez@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Mia is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Local Craftsmanship, Wildlife, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 13,
+    quote: "Every corner of Barcelona tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/83.jpg",
+    languages: ["Japanese"],
+    experienceYears: 7,
+    certifications: ["Licensed City Guide", "Professional Tour Guide Association"],
+    specialties: ["Local Craftsmanship", "Wildlife"],
+    specialTraining: ["Historical Research Methods"],
+  },
+  {
+    id: "guide-barcelona-5",
+    name: "Fatima Keller",
+    city: "Barcelona",
+    country: "Spain",
+    state: "",
+    region: "Mediterranean",
+    isPopular: true,
+    bio: "Fatima is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Religious Sites, Fatima provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["West Coast USA"],
+    tourTypes: ["Religious Tour", "Cultural Tour", "Farm Visit", "Ghost Tour", "Walking Tour"],
+    maxGroupSize: 19,
+    licenseNumber: "LIC-6133-BAR",
+    phoneNumber: "+1-239-423-2048",
+    contactEmail: "fatima.keller@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Fatima is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Religious Sites, Fatima provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 30,
+    quote: "In Barcelona, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/39.jpg",
+    languages: ["Korean"],
+    experienceYears: 6,
+    certifications: ["Heritage Interpretation Certificate", "Food Safety Certification", "Adventure Tourism Safety Certificate"],
+    specialties: ["Religious Sites"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-barcelona-6",
+    name: "Joel Young",
+    city: "Barcelona",
+    country: "Spain",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Joel is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Local Cuisine, Joel provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America"],
+    tourTypes: ["Historical Tour", "Family-Friendly Tour", "Wildlife Safari"],
+    maxGroupSize: 8,
+    licenseNumber: "LIC-5627-BAR",
+    phoneNumber: "+1-142-427-7690",
+    contactEmail: "joel.young@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Joel is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Local Cuisine, Joel provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 89,
+    quote: "The best way to discover Barcelona is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/66.jpg",
+    languages: ["Cantonese", "Hindi"],
+    experienceYears: 15,
+    certifications: ["Regional Tourism Ambassador", "Food Safety Certification", "Language Proficiency Certification"],
+    specialties: ["Local Cuisine"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-barcelona-7",
+    name: "Kimberly Wang",
+    city: "Barcelona",
+    country: "Spain",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Kimberly is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Museums, Kimberly provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Northern Europe", "Middle East"],
+    tourTypes: ["Wine Tour", "Brewery Tour"],
     maxGroupSize: 17,
-    licenseNumber: "LIC-1441-BAR",
-    phoneNumber: "+1-927-725-2928",
-    contactEmail: "stephen.lopez@paragontrails.com",
+    licenseNumber: "LIC-9051-BAR",
+    phoneNumber: "+1-945-779-2205",
+    contactEmail: "kimberly.wang@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Kimberly is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Museums, Kimberly provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.8,
+    reviewsCount: 50,
+    quote: "My goal is to help you fall in love with Barcelona just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/12.jpg",
+    languages: ["Russian", "English"],
+    experienceYears: 6,
+    certifications: ["Food Safety Certification"],
+    specialties: ["Museums"],
+    specialTraining: ["Local Flora & Fauna", "Emergency Response"],
+  },
+  {
+    id: "guide-barcelona-8",
+    name: "Lisa da Costa",
+    city: "Barcelona",
+    country: "Spain",
+    state: "",
+    region: "Mediterranean",
+    isPopular: true,
+    bio: "Lisa is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Hidden Gems, Cultural Etiquette, Local Markets, Lisa provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada"],
+    tourTypes: ["Craft Workshop", "Boat Tour", "Adventure Tour"],
+    maxGroupSize: 12,
+    licenseNumber: "LIC-7929-BAR",
+    phoneNumber: "+1-367-913-1405",
+    contactEmail: "lisa.da@paragontrails.com",
     available: [
       {
         day: "Monday",
         availableHours: [
           {
-            from: "11:00 AM",
-            to: "03:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "03:00 PM",
-          },
-          {
-            from: "10:00 AM",
-            to: "04:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
             from: "08:00 AM",
-            to: "11:00 AM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Stephen is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Wildlife, Adventure Sports, Urban Legends, Local Cuisine, Stephen provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 95,
-    quote: "Every corner of Barcelona tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/41.jpg",
-    languages: ["Greek", "Thai"],
-    experienceYears: 4,
-    certifications: ["Food Safety Certification", "CPR & First Aid"],
-    specialties: ["Wildlife", "Adventure Sports", "Urban Legends", "Local Cuisine"],
-    specialTraining: ["Local Flora & Fauna"],
-  },
-  {
-    id: "guide-barcelona-5",
-    name: "Ibrahim Morales",
-    city: "Barcelona",
-    country: "Spain",
-    state: "",
-    region: "Mediterranean",
-    isPopular: true,
-    bio: "Ibrahim is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Photography Spots, Adventure Sports, Wildlife, Ibrahim provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Africa"],
-    tourTypes: ["Walking Tour", "Relocation Tour", "Romantic Tour", "Farm Visit"],
-    maxGroupSize: 17,
-    licenseNumber: "LIC-4688-BAR",
-    phoneNumber: "+1-219-200-4209",
-    contactEmail: "ibrahim.morales@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "09:00 AM",
             to: "12:00 PM",
           },
           {
-            from: "12:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "11:00 AM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
             from: "02:00 PM",
-            to: "06:00 PM",
-          },
-          {
-            from: "08:00 AM",
-            to: "11:00 AM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Ibrahim is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Photography Spots, Adventure Sports, Wildlife, Ibrahim provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.3,
-    reviewsCount: 100,
-    quote: "The best way to discover Barcelona is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/18.jpg",
-    languages: ["Korean", "Malay", "Hindi"],
-    experienceYears: 6,
-    certifications: ["CPR & First Aid"],
-    specialties: ["Photography Spots", "Adventure Sports", "Wildlife"],
-    specialTraining: ["Art History"],
-  },
-  {
-    id: "guide-barcelona-6",
-    name: "Keith Keller",
-    city: "Barcelona",
-    country: "Spain",
-    state: "",
-    region: "Mediterranean",
-    isPopular: true,
-    bio: "Keith is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Cultural Etiquette, Public Transportation Navigation, Music Scene, Keith provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean"],
-    tourTypes: ["Boat Tour", "Bike Tour", "Family-Friendly Tour"],
-    maxGroupSize: 19,
-    licenseNumber: "LIC-7147-BAR",
-    phoneNumber: "+1-386-265-3941",
-    contactEmail: "keith.keller@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "03:00 PM",
             to: "07:00 PM",
           }
         ],
       },
       {
-        day: "Sunday",
+        day: "Thursday",
         availableHours: [
           {
-            from: "01:00 PM",
+            from: "12:00 PM",
             to: "03:00 PM",
-          },
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Lisa is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Hidden Gems, Cultural Etiquette, Local Markets, Lisa provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.8,
+    reviewsCount: 22,
+    quote: "My goal is to help you fall in love with Barcelona just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/27.jpg",
+    languages: ["Hindi", "French", "Dutch"],
+    experienceYears: 15,
+    certifications: ["Regional Tourism Ambassador"],
+    specialties: ["Hidden Gems", "Cultural Etiquette", "Local Markets"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-barcelona-9",
+    name: "Katherine Parker",
+    city: "Barcelona",
+    country: "Spain",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Katherine is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Local Markets, Katherine provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast USA", "Asia Pacific"],
+    tourTypes: ["Romantic Tour", "Cooking Class", "Religious Tour", "Luxury Tour"],
+    maxGroupSize: 19,
+    licenseNumber: "LIC-2549-BAR",
+    phoneNumber: "+1-626-582-7260",
+    contactEmail: "katherine.parker@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
           {
             from: "03:00 PM",
-            to: "09:00 PM",
+            to: "05:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "11:00 AM",
           }
         ],
       },
       {
-        day: "Wednesday",
+        day: "Thursday",
         availableHours: [
           {
-            from: "08:00 AM",
-            to: "10:00 AM",
+            from: "10:00 AM",
+            to: "03:00 PM",
           }
         ],
       },
@@ -412,51 +292,52 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
         day: "Monday",
         availableHours: [
           {
-            from: "09:00 AM",
-            to: "11:00 AM",
-          },
+            from: "02:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
           {
-            from: "09:00 AM",
-            to: "01:00 PM",
+            from: "01:00 PM",
+            to: "07:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Keith is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Cultural Etiquette, Public Transportation Navigation, Music Scene, Keith provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.3,
-    reviewsCount: 96,
-    quote: "My goal is to help you fall in love with Barcelona just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/44.jpg",
-    languages: ["Norwegian"],
-    experienceYears: 15,
-    certifications: ["Adventure Tourism Safety Certificate", "Regional Tourism Ambassador"],
-    specialties: ["Cultural Etiquette", "Public Transportation Navigation", "Music Scene"],
-    specialTraining: ["Wine Education", "Local Flora & Fauna"],
+    description: "Katherine is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Local Markets, Katherine provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.9,
+    reviewsCount: 93,
+    quote: "Barcelona isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/13.jpg",
+    languages: ["Turkish"],
+    experienceYears: 13,
+    certifications: ["Eco-Tourism Guide"],
+    specialties: ["Local Markets"],
+    specialTraining: [],
   },
   {
-    id: "guide-barcelona-7",
-    name: "Margaret Nguyen",
+    id: "guide-barcelona-10",
+    name: "James Rossi",
     city: "Barcelona",
     country: "Spain",
     state: "",
     region: "Mediterranean",
     isPopular: false,
-    bio: "Margaret is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Urban Legends, Local Markets, LGBTQ+ History, Margaret provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean"],
-    tourTypes: ["Scenic Tour", "Ghost Tour", "Luxury Tour", "Food Tour"],
+    bio: "James is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Art Galleries, Public Transportation Navigation, Nightlife, James provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["West Coast USA"],
+    tourTypes: ["Underground Tour", "Cruise Excursion"],
     maxGroupSize: 19,
-    licenseNumber: "LIC-3691-BAR",
-    phoneNumber: "+1-905-372-5193",
-    contactEmail: "margaret.nguyen@paragontrails.com",
+    licenseNumber: "LIC-4995-BAR",
+    phoneNumber: "+1-675-131-5889",
+    contactEmail: "james.rossi@paragontrails.com",
     available: [
       {
-        day: "Sunday",
+        day: "Monday",
         availableHours: [
-          {
-            from: "12:00 PM",
-            to: "04:00 PM",
-          },
           {
             from: "08:00 AM",
             to: "10:00 AM",
@@ -464,102 +345,38 @@ export const barcelonaspainmediterraneanGuides: TourGuide[] = [
         ],
       },
       {
-        day: "Friday",
+        day: "Wednesday",
         availableHours: [
           {
-            from: "12:00 PM",
+            from: "02:00 PM",
             to: "05:00 PM",
           }
         ],
       },
       {
-        day: "Wednesday",
+        day: "Sunday",
         availableHours: [
           {
             from: "09:00 AM",
             to: "02:00 PM",
           },
           {
-            from: "03:00 PM",
-            to: "08:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Margaret is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Urban Legends, Local Markets, LGBTQ+ History, Margaret provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 5,
-    reviewsCount: 86,
-    quote: "Barcelona isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/83.jpg",
-    languages: ["Romanian"],
-    experienceYears: 4,
-    certifications: ["Heritage Interpretation Certificate", "Professional Tour Guide Association", "Food Safety Certification"],
-    specialties: ["Urban Legends", "Local Markets", "LGBTQ+ History"],
-    specialTraining: ["Regional Cuisine"],
-  },
-  {
-    id: "guide-barcelona-8",
-    name: "Jose Hayes",
-    city: "Barcelona",
-    country: "Spain",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Jose is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Public Transportation Navigation, Urban Legends, Jose provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Asia Pacific", "East Coast Canada"],
-    tourTypes: ["Cultural Tour", "Brewery Tour"],
-    maxGroupSize: 13,
-    licenseNumber: "LIC-7848-BAR",
-    phoneNumber: "+1-443-154-8482",
-    contactEmail: "jose.hayes@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "12:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "03:00 PM",
-          },
-          {
-            from: "08:00 AM",
-            to: "11:00 AM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
             from: "01:00 PM",
-            to: "04:00 PM",
-          },
-          {
-            from: "02:00 PM",
-            to: "06:00 PM",
+            to: "05:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Jose is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Public Transportation Navigation, Urban Legends, Jose provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.5,
-    reviewsCount: 97,
-    quote: "In Barcelona, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/31.jpg",
-    languages: ["Russian", "Arabic", "Japanese"],
-    experienceYears: 15,
-    certifications: ["Food Safety Certification"],
-    specialties: ["Public Transportation Navigation", "Urban Legends"],
-    specialTraining: ["Desert Navigation"],
+    description: "James is a passionate tour guide with extensive knowledge of Barcelona and Spain. Specializing in Art Galleries, Public Transportation Navigation, Nightlife, James provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 5,
+    reviewsCount: 12,
+    quote: "Barcelona isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/63.jpg",
+    languages: ["French", "Czech", "Russian"],
+    experienceYears: 7,
+    certifications: ["Local History Certification", "Urban Navigation Specialist"],
+    specialties: ["Art Galleries", "Public Transportation Navigation", "Nightlife"],
+    specialTraining: [],
   }
 ];

@@ -1,41 +1,312 @@
+// This file is auto-generated. Do not edit manually.
+
 import { TourGuide } from "@/lib/interfaces/people/staff";
 
 export const tampaunitedStatescaribbeanGuides: TourGuide[] = [
   {
     id: "guide-tampa-1",
-    name: "Nicole Müller",
+    name: "Kinsley Martinez",
+    city: "Tampa",
+    country: "United States",
+    state: "",
+    region: "Caribbean",
+    isPopular: true,
+    bio: "Kinsley is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Local Cuisine, Kinsley provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Northern Europe", "Asia Pacific"],
+    tourTypes: ["Cooking Class", "Architecture Tour", "Romantic Tour", "LGBTQ+ Friendly Tour", "Off-Road Tour"],
+    maxGroupSize: 10,
+    licenseNumber: "LIC-1517-TAM",
+    phoneNumber: "+1-554-235-5102",
+    contactEmail: "kinsley.martinez@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Kinsley is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Local Cuisine, Kinsley provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 77,
+    quote: "My goal is to help you fall in love with Tampa just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/2.jpg",
+    languages: ["Mandarin", "Tagalog", "Malay"],
+    experienceYears: 15,
+    certifications: ["Adventure Tourism Safety Certificate", "Heritage Interpretation Certificate", "CPR & First Aid"],
+    specialties: ["Local Cuisine"],
+    specialTraining: ["Mountain Survival", "Local Transit Systems"],
+  },
+  {
+    id: "guide-tampa-2",
+    name: "Mia Graham",
+    city: "Tampa",
+    country: "United States",
+    state: "",
+    region: "Caribbean",
+    isPopular: true,
+    bio: "Mia is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Nightlife, Family Activities, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa", "South America"],
+    tourTypes: ["Accessible Tour", "Family-Friendly Tour", "Wine Tour"],
+    maxGroupSize: 6,
+    licenseNumber: "LIC-4944-TAM",
+    phoneNumber: "+1-303-781-3525",
+    contactEmail: "mia.graham@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Mia is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Nightlife, Family Activities, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.2,
+    reviewsCount: 36,
+    quote: "My goal is to help you fall in love with Tampa just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/29.jpg",
+    languages: ["Cantonese", "Swahili", "Indonesian"],
+    experienceYears: 13,
+    certifications: ["Cultural Heritage Specialist"],
+    specialties: ["Nightlife", "Family Activities"],
+    specialTraining: ["Accessibility Services"],
+  },
+  {
+    id: "guide-tampa-3",
+    name: "Carl Lawson",
     city: "Tampa",
     country: "United States",
     state: "",
     region: "Caribbean",
     isPopular: false,
-    bio: "Nicole is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Religious Sites, Photography Spots, Local Markets, Nicole provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Alaska", "Caribbean"],
-    tourTypes: ["Off-Road Tour", "Scenic Tour"],
-    maxGroupSize: 14,
-    licenseNumber: "LIC-7351-TAM",
-    phoneNumber: "+1-597-872-8536",
-    contactEmail: "nicole.müller@paragontrails.com",
+    bio: "Carl is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Art Galleries, Carl provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Alaska"],
+    tourTypes: ["Boat Tour", "Scenic Tour", "Brewery Tour", "Religious Tour", "Helicopter Tour"],
+    maxGroupSize: 6,
+    licenseNumber: "LIC-9438-TAM",
+    phoneNumber: "+1-993-450-4101",
+    contactEmail: "carl.lawson@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Carl is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Art Galleries, Carl provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.2,
+    reviewsCount: 93,
+    quote: "Every corner of Tampa tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/63.jpg",
+    languages: ["Thai"],
+    experienceYears: 11,
+    certifications: ["Regional Tourism Ambassador", "Cultural Heritage Specialist"],
+    specialties: ["Art Galleries"],
+    specialTraining: ["Regional Cuisine"],
+  },
+  {
+    id: "guide-tampa-4",
+    name: "Riley Martin",
+    city: "Tampa",
+    country: "United States",
+    state: "",
+    region: "Caribbean",
+    isPopular: false,
+    bio: "Riley is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Indigenous Culture, Wildlife, Local Craftsmanship, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa", "West Coast USA"],
+    tourTypes: ["Eco Tour", "Historical Tour", "Helicopter Tour"],
+    maxGroupSize: 13,
+    licenseNumber: "LIC-2381-TAM",
+    phoneNumber: "+1-519-281-5764",
+    contactEmail: "riley.martin@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Riley is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Indigenous Culture, Wildlife, Local Craftsmanship, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.8,
+    reviewsCount: 84,
+    quote: "In Tampa, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/27.jpg",
+    languages: ["English", "Thai"],
+    experienceYears: 16,
+    certifications: ["Wilderness First Responder", "Urban Navigation Specialist"],
+    specialties: ["Indigenous Culture", "Wildlife", "Local Craftsmanship"],
+    specialTraining: ["Historical Research Methods"],
+  },
+  {
+    id: "guide-tampa-5",
+    name: "Virginia Ivanov",
+    city: "Tampa",
+    country: "United States",
+    state: "",
+    region: "Caribbean",
+    isPopular: false,
+    bio: "Virginia is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Art Galleries, Wine Tasting, Music Scene, Hidden Gems, Virginia provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific"],
+    tourTypes: ["Ghost Tour", "Wildlife Safari", "Photography Tour"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-2736-TAM",
+    phoneNumber: "+1-169-775-8829",
+    contactEmail: "virginia.ivanov@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Virginia is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Art Galleries, Wine Tasting, Music Scene, Hidden Gems, Virginia provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 68,
+    quote: "Tampa isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/76.jpg",
+    languages: ["Cantonese", "Czech", "Portuguese"],
+    experienceYears: 14,
+    certifications: ["Eco-Tourism Guide"],
+    specialties: ["Art Galleries", "Wine Tasting", "Music Scene", "Hidden Gems"],
+    specialTraining: ["Cultural Sensitivity", "Marine Biology"],
+  },
+  {
+    id: "guide-tampa-6",
+    name: "Christopher King",
+    city: "Tampa",
+    country: "United States",
+    state: "",
+    region: "Caribbean",
+    isPopular: false,
+    bio: "Christopher is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Historical Landmarks, Christopher provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["West Coast USA", "Africa"],
+    tourTypes: ["Accessible Tour", "Boat Tour"],
+    maxGroupSize: 9,
+    licenseNumber: "LIC-1544-TAM",
+    phoneNumber: "+1-668-637-1110",
+    contactEmail: "christopher.king@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Christopher is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Historical Landmarks, Christopher provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.4,
+    reviewsCount: 83,
+    quote: "Every corner of Tampa tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/61.jpg",
+    languages: ["Dutch", "Thai", "Japanese"],
+    experienceYears: 9,
+    certifications: ["Certified International Tour Manager", "Licensed City Guide"],
+    specialties: ["Historical Landmarks"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-tampa-7",
+    name: "Betty Grant",
+    city: "Tampa",
+    country: "United States",
+    state: "",
+    region: "Caribbean",
+    isPopular: false,
+    bio: "Betty is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Local Markets, Nightlife, Urban Legends, Art Galleries, Betty provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Alaska"],
+    tourTypes: ["Market Tour", "Audio Tour", "Religious Tour", "Family-Friendly Tour"],
+    maxGroupSize: 11,
+    licenseNumber: "LIC-4410-TAM",
+    phoneNumber: "+1-295-594-9401",
+    contactEmail: "betty.grant@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Betty is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Local Markets, Nightlife, Urban Legends, Art Galleries, Betty provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4,
+    reviewsCount: 83,
+    quote: "Tampa isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/33.jpg",
+    languages: ["Swahili"],
+    experienceYears: 5,
+    certifications: ["Heritage Interpretation Certificate", "Eco-Tourism Guide"],
+    specialties: ["Local Markets", "Nightlife", "Urban Legends", "Art Galleries"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-tampa-8",
+    name: "Larry Martin",
+    city: "Tampa",
+    country: "United States",
+    state: "",
+    region: "Caribbean",
+    isPopular: true,
+    bio: "Larry is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Nightlife, Art Galleries, Larry provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America"],
+    tourTypes: ["Festival Tour", "Walking Tour", "Private Tour"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-2233-TAM",
+    phoneNumber: "+1-833-444-2873",
+    contactEmail: "larry.martin@paragontrails.com",
     available: [
       {
-        day: "Wednesday",
+        day: "Tuesday",
         availableHours: [
           {
-            from: "11:00 AM",
-            to: "05:00 PM",
+            from: "03:00 PM",
+            to: "08:00 PM",
           },
           {
-            from: "09:00 AM",
-            to: "11:00 AM",
+            from: "12:00 PM",
+            to: "03:00 PM",
           }
         ],
       },
       {
-        day: "Monday",
+        day: "Thursday",
         availableHours: [
           {
-            from: "08:00 AM",
-            to: "11:00 AM",
+            from: "12:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Larry is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Nightlife, Art Galleries, Larry provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 48,
+    quote: "Tampa isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/9.jpg",
+    languages: ["Japanese"],
+    experienceYears: 9,
+    certifications: ["Licensed City Guide", "Heritage Interpretation Certificate"],
+    specialties: ["Nightlife", "Art Galleries"],
+    specialTraining: ["Regional Cuisine"],
+  },
+  {
+    id: "guide-tampa-9",
+    name: "Michelle Ellis",
+    city: "Tampa",
+    country: "United States",
+    state: "",
+    region: "Caribbean",
+    isPopular: false,
+    bio: "Michelle is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Indigenous Culture, Music Scene, Photography Spots, Michelle provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Alaska"],
+    tourTypes: ["Market Tour", "Off-Road Tour", "Wildlife Safari", "Audio Tour", "Food Tour"],
+    maxGroupSize: 13,
+    licenseNumber: "LIC-9149-TAM",
+    phoneNumber: "+1-996-608-8262",
+    contactEmail: "michelle.ellis@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "04:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "02:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "06:00 PM",
           }
         ],
       },
@@ -44,75 +315,7 @@ export const tampaunitedStatescaribbeanGuides: TourGuide[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "01:00 PM",
-          },
-          {
-            from: "03:00 PM",
-            to: "08:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "10:00 AM",
             to: "12:00 PM",
-          },
-          {
-            from: "11:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "03:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Nicole is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Religious Sites, Photography Spots, Local Markets, Nicole provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.7,
-    reviewsCount: 36,
-    quote: "Every corner of Tampa tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/1.jpg",
-    languages: ["Dutch", "German"],
-    experienceYears: 4,
-    certifications: ["Eco-Tourism Guide", "Heritage Interpretation Certificate"],
-    specialties: ["Religious Sites", "Photography Spots", "Local Markets"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-tampa-2",
-    name: "Walter Smith",
-    city: "Tampa",
-    country: "United States",
-    state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "Walter is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Art Galleries, Parks & Gardens, Indigenous Culture, Walter provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Asia Pacific"],
-    tourTypes: ["Wildlife Safari", "Shopping Tour", "Wine Tour", "Relocation Tour", "Nature Tour"],
-    maxGroupSize: 9,
-    licenseNumber: "LIC-6091-TAM",
-    phoneNumber: "+1-724-916-1715",
-    contactEmail: "walter.smith@paragontrails.com",
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "07:00 PM",
-          },
-          {
-            from: "10:00 AM",
-            to: "03:00 PM",
           }
         ],
       },
@@ -122,160 +325,6 @@ export const tampaunitedStatescaribbeanGuides: TourGuide[] = [
           {
             from: "01:00 PM",
             to: "04:00 PM",
-          },
-          {
-            from: "08:00 AM",
-            to: "10:00 AM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Walter is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Art Galleries, Parks & Gardens, Indigenous Culture, Walter provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.1,
-    reviewsCount: 20,
-    quote: "In Tampa, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/13.jpg",
-    languages: ["Arabic", "Hungarian", "Greek"],
-    experienceYears: 14,
-    certifications: ["Licensed City Guide", "Food Safety Certification"],
-    specialties: ["Art Galleries", "Parks & Gardens", "Indigenous Culture"],
-    specialTraining: ["Desert Navigation"],
-  },
-  {
-    id: "guide-tampa-3",
-    name: "Caroline Collins",
-    city: "Tampa",
-    country: "United States",
-    state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "Caroline is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Local Cuisine, Sustainable Tourism, Caroline provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Alaska", "Asia Pacific"],
-    tourTypes: ["Luxury Tour", "Wine Tour", "Romantic Tour", "Cooking Class", "Scenic Tour"],
-    maxGroupSize: 14,
-    licenseNumber: "LIC-4397-TAM",
-    phoneNumber: "+1-378-433-6815",
-    contactEmail: "caroline.collins@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "11:00 AM",
-          },
-          {
-            from: "03:00 PM",
-            to: "09:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "03:00 PM",
-          },
-          {
-            from: "12:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "03:00 PM",
-          },
-          {
-            from: "09:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Caroline is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Local Cuisine, Sustainable Tourism, Caroline provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.7,
-    reviewsCount: 103,
-    quote: "In Tampa, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/16.jpg",
-    languages: ["Portuguese"],
-    experienceYears: 8,
-    certifications: ["Urban Navigation Specialist", "Heritage Interpretation Certificate"],
-    specialties: ["Local Cuisine", "Sustainable Tourism"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-tampa-4",
-    name: "Ariana Palmer",
-    city: "Tampa",
-    country: "United States",
-    state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "Ariana is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Historical Landmarks, Nightlife, Family Activities, Ariana provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Alaska", "Northern Europe"],
-    tourTypes: ["Bike Tour", "Walking Tour", "Nature Tour", "Architecture Tour", "Audio Tour"],
-    maxGroupSize: 11,
-    licenseNumber: "LIC-1112-TAM",
-    phoneNumber: "+1-961-471-5054",
-    contactEmail: "ariana.palmer@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "01:00 PM",
-          },
-          {
-            from: "02:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "11:00 AM",
-          },
-          {
-            from: "12:00 PM",
-            to: "03:00 PM",
           }
         ],
       },
@@ -283,22 +332,86 @@ export const tampaunitedStatescaribbeanGuides: TourGuide[] = [
         day: "Thursday",
         availableHours: [
           {
-            from: "08:00 AM",
-            to: "01:00 PM",
+            from: "02:00 PM",
+            to: "04:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Ariana is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Historical Landmarks, Nightlife, Family Activities, Ariana provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.2,
-    reviewsCount: 61,
-    quote: "Tampa isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/12.jpg",
-    languages: ["Serbian"],
+    description: "Michelle is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Indigenous Culture, Music Scene, Photography Spots, Michelle provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 49,
+    quote: "My goal is to help you fall in love with Tampa just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/8.jpg",
+    languages: ["Dutch"],
+    experienceYears: 16,
+    certifications: ["Professional Tour Guide Association", "Local History Certification", "Sustainable Tourism Certificate"],
+    specialties: ["Indigenous Culture", "Music Scene", "Photography Spots"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-tampa-10",
+    name: "Jeffrey Garcia",
+    city: "Tampa",
+    country: "United States",
+    state: "",
+    region: "Caribbean",
+    isPopular: false,
+    bio: "Jeffrey is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Parks & Gardens, Music Scene, Historical Landmarks, Jeffrey provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean"],
+    tourTypes: ["Underground Tour", "Nature Tour"],
+    maxGroupSize: 17,
+    licenseNumber: "LIC-5298-TAM",
+    phoneNumber: "+1-104-204-5884",
+    contactEmail: "jeffrey.garcia@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "08:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "09:00 PM",
+          },
+          {
+            from: "11:00 AM",
+            to: "05:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Jeffrey is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Parks & Gardens, Music Scene, Historical Landmarks, Jeffrey provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.7,
+    reviewsCount: 75,
+    quote: "My goal is to help you fall in love with Tampa just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/25.jpg",
+    languages: ["Polish", "Russian", "French"],
     experienceYears: 6,
-    certifications: ["Licensed City Guide", "Regional Tourism Ambassador"],
-    specialties: ["Historical Landmarks", "Nightlife", "Family Activities"],
-    specialTraining: ["Religious Studies"],
+    certifications: ["Wilderness First Responder", "Certified International Tour Manager"],
+    specialties: ["Parks & Gardens", "Music Scene", "Historical Landmarks"],
+    specialTraining: [],
   }
 ];

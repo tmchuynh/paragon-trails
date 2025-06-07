@@ -1,509 +1,375 @@
+// This file is auto-generated. Do not edit manually.
+
 import { TourGuide } from "@/lib/interfaces/people/staff";
 
 export const lisbonportugalmediterraneanGuides: TourGuide[] = [
   {
     id: "guide-lisbon-1",
-    name: "Chen Kowalski",
+    name: "Sophia Patel",
     city: "Lisbon",
     country: "Portugal",
     state: "",
     region: "Mediterranean",
-    isPopular: true,
-    bio: "Chen is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Wine Tasting, Indigenous Culture, Chen provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean"],
-    tourTypes: ["Underground Tour", "Street Art Tour"],
-    maxGroupSize: 15,
-    licenseNumber: "LIC-3864-LIS",
-    phoneNumber: "+1-549-347-7789",
-    contactEmail: "chen.kowalski@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "11:00 AM",
-          },
-          {
-            from: "03:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      }
-    ],
+    isPopular: false,
+    bio: "Sophia is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Street Food, Historical Landmarks, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa", "Alaska"],
+    tourTypes: ["Relocation Tour", "Romantic Tour", "Underground Tour", "Helicopter Tour"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-9308-LIS",
+    phoneNumber: "+1-296-266-3715",
+    contactEmail: "sophia.patel@paragontrails.com",
+    available: [],
     isCertified: true,
-    description: "Chen is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Wine Tasting, Indigenous Culture, Chen provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.2,
-    reviewsCount: 84,
-    quote: "Lisbon isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/men/68.jpg",
-    languages: ["Italian", "English", "French"],
-    experienceYears: 5,
-    certifications: ["Sustainable Tourism Certificate"],
-    specialties: ["Wine Tasting", "Indigenous Culture"],
-    specialTraining: [],
+    description: "Sophia is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Street Food, Historical Landmarks, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.8,
+    reviewsCount: 82,
+    quote: "Every corner of Lisbon tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/34.jpg",
+    languages: ["Indonesian", "Greek"],
+    experienceYears: 11,
+    certifications: ["CPR & First Aid"],
+    specialties: ["Street Food", "Historical Landmarks"],
+    specialTraining: ["Desert Navigation"],
   },
   {
     id: "guide-lisbon-2",
-    name: "Brooklyn Wang",
+    name: "Ahmed Curtis",
     city: "Lisbon",
     country: "Portugal",
     state: "",
     region: "Mediterranean",
     isPopular: false,
-    bio: "Brooklyn is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Street Food, Film Locations, Museums, Brooklyn provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Africa"],
-    tourTypes: ["Wildlife Safari", "Architecture Tour", "Bike Tour"],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-7204-LIS",
-    phoneNumber: "+1-871-281-9185",
-    contactEmail: "brooklyn.wang@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "04:00 PM",
-          },
-          {
-            from: "12:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "08:00 PM",
-          },
-          {
-            from: "02:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      }
-    ],
+    bio: "Ahmed is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Nightlife, Music Scene, Photography Spots, Parks & Gardens, Ahmed provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada", "South America"],
+    tourTypes: ["Audio Tour", "Private Tour"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-6597-LIS",
+    phoneNumber: "+1-319-700-7355",
+    contactEmail: "ahmed.curtis@paragontrails.com",
+    available: [],
     isCertified: true,
-    description: "Brooklyn is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Street Food, Film Locations, Museums, Brooklyn provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.6,
-    reviewsCount: 56,
-    quote: "In Lisbon, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/70.jpg",
-    languages: ["German"],
-    experienceYears: 11,
-    certifications: ["Local History Certification"],
-    specialties: ["Street Food", "Film Locations", "Museums"],
-    specialTraining: ["Photography"],
+    description: "Ahmed is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Nightlife, Music Scene, Photography Spots, Parks & Gardens, Ahmed provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 53,
+    quote: "My goal is to help you fall in love with Lisbon just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/6.jpg",
+    languages: ["Portuguese", "Vietnamese"],
+    experienceYears: 8,
+    certifications: ["Sustainable Tourism Certificate", "Food Safety Certification"],
+    specialties: ["Nightlife", "Music Scene", "Photography Spots", "Parks & Gardens"],
+    specialTraining: ["Mountain Survival"],
   },
   {
     id: "guide-lisbon-3",
-    name: "Savannah Williams",
+    name: "Miguel Gibson",
     city: "Lisbon",
     country: "Portugal",
     state: "",
     region: "Mediterranean",
     isPopular: false,
-    bio: "Savannah is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Cultural Etiquette, Historical Landmarks, Religious Sites, Savannah provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada", "Northern Europe"],
-    tourTypes: ["Brewery Tour", "Market Tour", "Bike Tour", "Shopping Tour"],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-2540-LIS",
-    phoneNumber: "+1-873-555-6516",
-    contactEmail: "savannah.williams@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "08:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "01:00 PM",
-          },
-          {
-            from: "11:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      }
-    ],
+    bio: "Miguel is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in LGBTQ+ History, Miguel provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast USA"],
+    tourTypes: ["Cruise Excursion", "Wine Tour"],
+    maxGroupSize: 19,
+    licenseNumber: "LIC-5816-LIS",
+    phoneNumber: "+1-446-505-6677",
+    contactEmail: "miguel.gibson@paragontrails.com",
+    available: [],
     isCertified: true,
-    description: "Savannah is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Cultural Etiquette, Historical Landmarks, Religious Sites, Savannah provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.5,
-    reviewsCount: 32,
-    quote: "Every corner of Lisbon tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/80.jpg",
-    languages: ["Tagalog"],
-    experienceYears: 2,
-    certifications: ["Food Safety Certification"],
-    specialties: ["Cultural Etiquette", "Historical Landmarks", "Religious Sites"],
-    specialTraining: ["Wine Education"],
+    description: "Miguel is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in LGBTQ+ History, Miguel provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.6,
+    reviewsCount: 90,
+    quote: "Lisbon isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/72.jpg",
+    languages: ["Dutch", "Malay", "Czech"],
+    experienceYears: 16,
+    certifications: ["CPR & First Aid"],
+    specialties: ["LGBTQ+ History"],
+    specialTraining: ["Regional Cuisine", "Religious Studies"],
   },
   {
     id: "guide-lisbon-4",
-    name: "Michelle Hernandez",
+    name: "Sophia Wilson",
     city: "Lisbon",
     country: "Portugal",
     state: "",
     region: "Mediterranean",
     isPopular: false,
-    bio: "Michelle is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Local Markets, Local Craftsmanship, Historical Landmarks, Art Galleries, Michelle provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Asia Pacific"],
-    tourTypes: ["Relocation Tour", "Scenic Tour", "Architecture Tour", "Farm Visit"],
-    maxGroupSize: 11,
-    licenseNumber: "LIC-7460-LIS",
-    phoneNumber: "+1-569-965-6123",
-    contactEmail: "michelle.hernandez@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "06:00 PM",
-          },
-          {
-            from: "12:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "06:00 PM",
-          },
-          {
-            from: "08:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "12:00 PM",
-          }
-        ],
-      }
-    ],
+    bio: "Sophia is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Nightlife, Street Food, Local Markets, Wine Tasting, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa"],
+    tourTypes: ["Self-Guided Tour", "Cooking Class", "Nature Tour", "Craft Workshop"],
+    maxGroupSize: 5,
+    licenseNumber: "LIC-9907-LIS",
+    phoneNumber: "+1-570-740-3687",
+    contactEmail: "sophia.wilson@paragontrails.com",
+    available: [],
     isCertified: true,
-    description: "Michelle is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Local Markets, Local Craftsmanship, Historical Landmarks, Art Galleries, Michelle provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.6,
-    reviewsCount: 84,
-    quote: "Lisbon isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/54.jpg",
-    languages: ["Hindi"],
-    experienceYears: 10,
-    certifications: ["Certified International Tour Manager", "Food Safety Certification"],
-    specialties: ["Local Markets", "Local Craftsmanship", "Historical Landmarks", "Art Galleries"],
-    specialTraining: ["Art History"],
+    description: "Sophia is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Nightlife, Street Food, Local Markets, Wine Tasting, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.2,
+    reviewsCount: 54,
+    quote: "The best way to discover Lisbon is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/13.jpg",
+    languages: ["Cantonese"],
+    experienceYears: 12,
+    certifications: ["CPR & First Aid", "Regional Tourism Ambassador"],
+    specialties: ["Nightlife", "Street Food", "Local Markets", "Wine Tasting"],
+    specialTraining: ["Photography"],
   },
   {
     id: "guide-lisbon-5",
-    name: "Logan Curtis",
-    city: "Lisbon",
-    country: "Portugal",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Logan is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Architecture, Sustainable Tourism, Hidden Gems, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada", "Mediterranean"],
-    tourTypes: ["Romantic Tour", "Shopping Tour", "Private Tour"],
-    maxGroupSize: 9,
-    licenseNumber: "LIC-6229-LIS",
-    phoneNumber: "+1-693-962-7324",
-    contactEmail: "logan.curtis@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "03:00 PM",
-          },
-          {
-            from: "02:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "04:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "06:00 PM",
-          },
-          {
-            from: "09:00 AM",
-            to: "11:00 AM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Logan is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Architecture, Sustainable Tourism, Hidden Gems, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.8,
-    reviewsCount: 24,
-    quote: "In Lisbon, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/56.jpg",
-    languages: ["Portuguese"],
-    experienceYears: 3,
-    certifications: ["Certified International Tour Manager", "Language Proficiency Certification"],
-    specialties: ["Architecture", "Sustainable Tourism", "Hidden Gems"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-lisbon-6",
-    name: "Evelyn Keller",
+    name: "Ava Miller",
     city: "Lisbon",
     country: "Portugal",
     state: "",
     region: "Mediterranean",
     isPopular: true,
-    bio: "Evelyn is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Adventure Sports, Wildlife, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["South America"],
-    tourTypes: ["Nature Tour", "Accessible Tour", "Audio Tour", "Scenic Tour"],
-    maxGroupSize: 8,
-    licenseNumber: "LIC-8932-LIS",
-    phoneNumber: "+1-446-238-8011",
-    contactEmail: "evelyn.keller@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "02:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "11:00 AM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "01:00 PM",
-          },
-          {
-            from: "02:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      }
-    ],
+    bio: "Ava is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Hidden Gems, Architecture, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean"],
+    tourTypes: ["Group Tour", "Helicopter Tour", "Wine Tour", "Eco Tour"],
+    maxGroupSize: 17,
+    licenseNumber: "LIC-6099-LIS",
+    phoneNumber: "+1-180-730-3814",
+    contactEmail: "ava.miller@paragontrails.com",
+    available: [],
     isCertified: true,
-    description: "Evelyn is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Adventure Sports, Wildlife, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.8,
-    reviewsCount: 36,
+    description: "Ava is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Hidden Gems, Architecture, Ava provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.9,
+    reviewsCount: 43,
     quote: "Lisbon isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/27.jpg",
-    languages: ["Danish", "Korean"],
-    experienceYears: 4,
-    certifications: ["Eco-Tourism Guide", "Heritage Interpretation Certificate", "Cultural Heritage Specialist"],
-    specialties: ["Adventure Sports", "Wildlife"],
+    profileImage: "https://randomuser.me/api/portraits/women/33.jpg",
+    languages: ["Korean"],
+    experienceYears: 7,
+    certifications: ["Wilderness First Responder"],
+    specialties: ["Hidden Gems", "Architecture"],
+    specialTraining: ["Archaeological Conservation", "Art History"],
+  },
+  {
+    id: "guide-lisbon-6",
+    name: "Gabriella Jones",
+    city: "Lisbon",
+    country: "Portugal",
+    state: "",
+    region: "Mediterranean",
+    isPopular: true,
+    bio: "Gabriella is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Historical Landmarks, Local Markets, Street Food, Gabriella provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East", "East Coast USA"],
+    tourTypes: ["Scenic Tour", "Walking Tour", "Luxury Tour"],
+    maxGroupSize: 11,
+    licenseNumber: "LIC-7538-LIS",
+    phoneNumber: "+1-683-421-2681",
+    contactEmail: "gabriella.jones@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Gabriella is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Historical Landmarks, Local Markets, Street Food, Gabriella provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.9,
+    reviewsCount: 49,
+    quote: "Lisbon isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/51.jpg",
+    languages: ["Mandarin"],
+    experienceYears: 6,
+    certifications: ["Licensed City Guide"],
+    specialties: ["Historical Landmarks", "Local Markets", "Street Food"],
     specialTraining: [],
   },
   {
     id: "guide-lisbon-7",
-    name: "Victoria Nakamura",
+    name: "Carlos Griffin",
     city: "Lisbon",
     country: "Portugal",
     state: "",
     region: "Mediterranean",
     isPopular: false,
-    bio: "Victoria is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Parks & Gardens, Local Cuisine, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast USA"],
-    tourTypes: ["Self-Guided Tour", "Relocation Tour", "Street Art Tour", "Underground Tour"],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-8768-LIS",
-    phoneNumber: "+1-423-370-8979",
-    contactEmail: "victoria.nakamura@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "04:00 PM",
-          },
-          {
-            from: "03:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "02:00 PM",
-          }
-        ],
-      }
-    ],
+    bio: "Carlos is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Art Galleries, Photography Spots, Cultural Etiquette, Local Markets, Carlos provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Mediterranean", "Alaska"],
+    tourTypes: ["Accessible Tour", "Audio Tour", "Food Tour", "Bike Tour"],
+    maxGroupSize: 9,
+    licenseNumber: "LIC-1582-LIS",
+    phoneNumber: "+1-383-517-8854",
+    contactEmail: "carlos.griffin@paragontrails.com",
+    available: [],
     isCertified: true,
-    description: "Victoria is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Parks & Gardens, Local Cuisine, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.6,
-    reviewsCount: 94,
-    quote: "The best way to discover Lisbon is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/68.jpg",
-    languages: ["Vietnamese", "Arabic"],
+    description: "Carlos is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Art Galleries, Photography Spots, Cultural Etiquette, Local Markets, Carlos provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.2,
+    reviewsCount: 45,
+    quote: "My goal is to help you fall in love with Lisbon just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/0.jpg",
+    languages: ["Swahili", "Greek", "Tagalog"],
     experienceYears: 16,
-    certifications: ["Professional Tour Guide Association"],
-    specialties: ["Parks & Gardens", "Local Cuisine"],
-    specialTraining: ["Urban Planning", "Desert Navigation"],
+    certifications: ["Food Safety Certification"],
+    specialties: ["Art Galleries", "Photography Spots", "Cultural Etiquette", "Local Markets"],
+    specialTraining: [],
   },
   {
     id: "guide-lisbon-8",
-    name: "Genesis Morales",
+    name: "Alexa Nash",
     city: "Lisbon",
     country: "Portugal",
     state: "",
     region: "Mediterranean",
     isPopular: false,
-    bio: "Genesis is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Cultural Etiquette, Family Activities, Local Craftsmanship, Public Transportation Navigation, Genesis provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean"],
-    tourTypes: ["Cruise Excursion", "Farm Visit", "Historical Tour", "Group Tour"],
-    maxGroupSize: 11,
-    licenseNumber: "LIC-1392-LIS",
-    phoneNumber: "+1-200-864-5488",
-    contactEmail: "genesis.morales@paragontrails.com",
+    bio: "Alexa is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Photography Spots, Alexa provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["West Coast USA", "South America"],
+    tourTypes: ["Street Art Tour", "Family-Friendly Tour", "Market Tour"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-6956-LIS",
+    phoneNumber: "+1-772-961-9800",
+    contactEmail: "alexa.nash@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Alexa is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Photography Spots, Alexa provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4,
+    reviewsCount: 28,
+    quote: "The best way to discover Lisbon is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/23.jpg",
+    languages: ["Indonesian", "Serbian", "Hebrew"],
+    experienceYears: 3,
+    certifications: ["Professional Tour Guide Association", "Cultural Heritage Specialist", "Regional Tourism Ambassador"],
+    specialties: ["Photography Spots"],
+    specialTraining: ["Marine Biology", "Art History"],
+  },
+  {
+    id: "guide-lisbon-9",
+    name: "Nicole Moore",
+    city: "Lisbon",
+    country: "Portugal",
+    state: "",
+    region: "Mediterranean",
+    isPopular: true,
+    bio: "Nicole is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Music Scene, Nicole provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada", "Alaska"],
+    tourTypes: ["Religious Tour", "Cruise Excursion", "LGBTQ+ Friendly Tour"],
+    maxGroupSize: 5,
+    licenseNumber: "LIC-1741-LIS",
+    phoneNumber: "+1-320-420-5834",
+    contactEmail: "nicole.moore@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Nicole is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Music Scene, Nicole provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 24,
+    quote: "Lisbon isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/41.jpg",
+    languages: ["Polish"],
+    experienceYears: 7,
+    certifications: ["Food Safety Certification", "Eco-Tourism Guide", "Professional Tour Guide Association"],
+    specialties: ["Music Scene"],
+    specialTraining: ["Conflict Resolution", "Photography"],
+  },
+  {
+    id: "guide-lisbon-10",
+    name: "Olivia Moore",
+    city: "Lisbon",
+    country: "Portugal",
+    state: "",
+    region: "Mediterranean",
+    isPopular: true,
+    bio: "Olivia is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Film Locations, Local Markets, Urban Legends, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast USA", "South America"],
+    tourTypes: ["Self-Guided Tour", "Ghost Tour", "Farm Visit", "Cruise Excursion"],
+    maxGroupSize: 10,
+    licenseNumber: "LIC-3512-LIS",
+    phoneNumber: "+1-477-992-8481",
+    contactEmail: "olivia.moore@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Olivia is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Film Locations, Local Markets, Urban Legends, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.7,
+    reviewsCount: 80,
+    quote: "My goal is to help you fall in love with Lisbon just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/45.jpg",
+    languages: ["Greek", "German"],
+    experienceYears: 9,
+    certifications: ["Licensed City Guide"],
+    specialties: ["Film Locations", "Local Markets", "Urban Legends"],
+    specialTraining: ["Photography", "Regional Geology"],
+  },
+  {
+    id: "guide-lisbon-11",
+    name: "Dorothy West",
+    city: "Lisbon",
+    country: "Portugal",
+    state: "",
+    region: "Mediterranean",
+    isPopular: true,
+    bio: "Dorothy is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Religious Sites, Family Activities, Museums, Local Craftsmanship, Dorothy provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific"],
+    tourTypes: ["Historical Tour", "Farm Visit", "Eco Tour", "Craft Workshop", "Brewery Tour"],
+    maxGroupSize: 17,
+    licenseNumber: "LIC-8519-LIS",
+    phoneNumber: "+1-850-293-1896",
+    contactEmail: "dorothy.west@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Dorothy is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Religious Sites, Family Activities, Museums, Local Craftsmanship, Dorothy provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.9,
+    reviewsCount: 68,
+    quote: "The best way to discover Lisbon is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/48.jpg",
+    languages: ["Norwegian", "Vietnamese"],
+    experienceYears: 5,
+    certifications: ["Eco-Tourism Guide", "Licensed City Guide", "Regional Tourism Ambassador"],
+    specialties: ["Religious Sites", "Family Activities", "Museums", "Local Craftsmanship"],
+    specialTraining: ["Public Speaking"],
+  },
+  {
+    id: "guide-lisbon-12",
+    name: "Jesse Anderson",
+    city: "Lisbon",
+    country: "Portugal",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Jesse is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Hidden Gems, Jesse provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["West Coast USA"],
+    tourTypes: ["Brewery Tour", "Food Tour", "Off-Road Tour", "Eco Tour"],
+    maxGroupSize: 19,
+    licenseNumber: "LIC-4188-LIS",
+    phoneNumber: "+1-183-634-3322",
+    contactEmail: "jesse.anderson@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Jesse is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Hidden Gems, Jesse provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.4,
+    reviewsCount: 75,
+    quote: "Lisbon isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/32.jpg",
+    languages: ["Vietnamese"],
+    experienceYears: 11,
+    certifications: ["Language Proficiency Certification"],
+    specialties: ["Hidden Gems"],
+    specialTraining: ["Urban Planning", "Historical Research Methods"],
+  },
+  {
+    id: "guide-lisbon-13",
+    name: "Pamela Coleman",
+    city: "Lisbon",
+    country: "Portugal",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Pamela is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Historical Landmarks, Pamela provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific"],
+    tourTypes: ["LGBTQ+ Friendly Tour", "Food Tour", "Romantic Tour"],
+    maxGroupSize: 10,
+    licenseNumber: "LIC-2231-LIS",
+    phoneNumber: "+1-236-516-5322",
+    contactEmail: "pamela.coleman@paragontrails.com",
     available: [
       {
-        day: "Saturday",
+        day: "Friday",
         availableHours: [
           {
-            from: "02:00 PM",
-            to: "04:00 PM",
-          },
-          {
-            from: "12:00 PM",
-            to: "05:00 PM",
+            from: "10:00 AM",
+            to: "01:00 PM",
           }
         ],
       },
       {
-        day: "Tuesday",
+        day: "Thursday",
         availableHours: [
           {
-            from: "03:00 PM",
-            to: "05:00 PM",
+            from: "02:00 PM",
+            to: "08:00 PM",
           },
           {
             from: "09:00 AM",
@@ -512,38 +378,171 @@ export const lisbonportugalmediterraneanGuides: TourGuide[] = [
         ],
       },
       {
-        day: "Sunday",
+        day: "Tuesday",
         availableHours: [
           {
-            from: "08:00 AM",
-            to: "10:00 AM",
-          },
-          {
-            from: "12:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "05:00 PM",
+            from: "11:00 AM",
+            to: "04:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Genesis is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Cultural Etiquette, Family Activities, Local Craftsmanship, Public Transportation Navigation, Genesis provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.5,
-    reviewsCount: 34,
+    description: "Pamela is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Historical Landmarks, Pamela provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.2,
+    reviewsCount: 47,
     quote: "The best way to discover Lisbon is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/80.jpg",
-    languages: ["Turkish", "Italian"],
-    experienceYears: 14,
-    certifications: ["Language Proficiency Certification", "Regional Tourism Ambassador"],
-    specialties: ["Cultural Etiquette", "Family Activities", "Local Craftsmanship", "Public Transportation Navigation"],
+    profileImage: "https://randomuser.me/api/portraits/women/46.jpg",
+    languages: ["Czech"],
+    experienceYears: 3,
+    certifications: ["Cultural Heritage Specialist"],
+    specialties: ["Historical Landmarks"],
+    specialTraining: ["Conflict Resolution"],
+  },
+  {
+    id: "guide-lisbon-14",
+    name: "Susan Garcia",
+    city: "Lisbon",
+    country: "Portugal",
+    state: "",
+    region: "Mediterranean",
+    isPopular: true,
+    bio: "Susan is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Local Craftsmanship, Cultural Etiquette, Susan provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast USA", "Mediterranean"],
+    tourTypes: ["Self-Guided Tour", "Market Tour", "Street Art Tour", "Family-Friendly Tour"],
+    maxGroupSize: 10,
+    licenseNumber: "LIC-8939-LIS",
+    phoneNumber: "+1-925-181-8046",
+    contactEmail: "susan.garcia@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "02:00 PM",
+          },
+          {
+            from: "11:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "11:00 AM",
+          },
+          {
+            from: "10:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Susan is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Local Craftsmanship, Cultural Etiquette, Susan provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4,
+    reviewsCount: 36,
+    quote: "My goal is to help you fall in love with Lisbon just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/30.jpg",
+    languages: ["Japanese", "Hungarian", "Norwegian"],
+    experienceYears: 13,
+    certifications: ["Wilderness First Responder", "Heritage Interpretation Certificate"],
+    specialties: ["Local Craftsmanship", "Cultural Etiquette"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-lisbon-15",
+    name: "Ellie Jansen",
+    city: "Lisbon",
+    country: "Portugal",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Ellie is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Religious Sites, LGBTQ+ History, Wildlife, Street Food, Ellie provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Mediterranean"],
+    tourTypes: ["Photography Tour", "Underground Tour"],
+    maxGroupSize: 17,
+    licenseNumber: "LIC-9523-LIS",
+    phoneNumber: "+1-500-844-5482",
+    contactEmail: "ellie.jansen@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "03:00 PM",
+          },
+          {
+            from: "02:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "07:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "11:00 AM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Ellie is a passionate tour guide with extensive knowledge of Lisbon and Portugal. Specializing in Religious Sites, LGBTQ+ History, Wildlife, Street Food, Ellie provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 95,
+    quote: "The best way to discover Lisbon is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/74.jpg",
+    languages: ["Danish", "Finnish"],
+    experienceYears: 2,
+    certifications: ["Certified International Tour Manager", "Cultural Heritage Specialist"],
+    specialties: ["Religious Sites", "LGBTQ+ History", "Wildlife", "Street Food"],
     specialTraining: [],
   }
 ];

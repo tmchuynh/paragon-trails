@@ -1,389 +1,283 @@
+// This file is auto-generated. Do not edit manually.
+
 import { TourGuide } from "@/lib/interfaces/people/staff";
 
 export const helsinkifinlandnorthernEuropeGuides: TourGuide[] = [
   {
     id: "guide-helsinki-1",
-    name: "Aria Fox",
+    name: "Brooklyn Warren",
     city: "Helsinki",
     country: "Finland",
     state: "",
     region: "Northern Europe",
-    isPopular: true,
-    bio: "Aria is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Local Markets, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean"],
-    tourTypes: ["Photography Tour", "Adventure Tour", "Cruise Excursion"],
-    maxGroupSize: 18,
-    licenseNumber: "LIC-2062-HEL",
-    phoneNumber: "+1-705-958-7419",
-    contactEmail: "aria.fox@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "03:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "03:00 PM",
-          },
-          {
-            from: "01:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      }
-    ],
+    isPopular: false,
+    bio: "Brooklyn is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Hidden Gems, Family Activities, Local Cuisine, Brooklyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Alaska", "Northern Europe"],
+    tourTypes: ["Private Tour", "Farm Visit", "Cooking Class", "Off-Road Tour"],
+    maxGroupSize: 12,
+    licenseNumber: "LIC-2795-HEL",
+    phoneNumber: "+1-229-286-5562",
+    contactEmail: "brooklyn.warren@paragontrails.com",
+    available: [],
     isCertified: true,
-    description: "Aria is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Local Markets, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.6,
-    reviewsCount: 88,
-    quote: "In Helsinki, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/84.jpg",
-    languages: ["Greek", "Danish", "Swedish"],
-    experienceYears: 13,
-    certifications: ["Food Safety Certification"],
-    specialties: ["Local Markets"],
-    specialTraining: ["Urban Planning", "Wine Education"],
+    description: "Brooklyn is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Hidden Gems, Family Activities, Local Cuisine, Brooklyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.7,
+    reviewsCount: 47,
+    quote: "My goal is to help you fall in love with Helsinki just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/40.jpg",
+    languages: ["Finnish", "Italian", "Cantonese"],
+    experienceYears: 11,
+    certifications: ["Urban Navigation Specialist", "Licensed City Guide", "Regional Tourism Ambassador"],
+    specialties: ["Hidden Gems", "Family Activities", "Local Cuisine"],
+    specialTraining: ["Regional Geology"],
   },
   {
     id: "guide-helsinki-2",
-    name: "Melissa Lewis",
+    name: "Randy Taylor",
     city: "Helsinki",
     country: "Finland",
     state: "",
     region: "Northern Europe",
-    isPopular: true,
-    bio: "Melissa is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Sustainable Tourism, Melissa provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Northern Europe"],
-    tourTypes: ["Craft Workshop", "Photography Tour"],
-    maxGroupSize: 17,
-    licenseNumber: "LIC-4737-HEL",
-    phoneNumber: "+1-108-473-3592",
-    contactEmail: "melissa.lewis@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "08:00 PM",
-          }
-        ],
-      }
-    ],
+    isPopular: false,
+    bio: "Randy is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Family Activities, Wildlife, Randy provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East", "Alaska"],
+    tourTypes: ["Wine Tour", "Religious Tour", "Underground Tour", "Helicopter Tour", "Cultural Tour"],
+    maxGroupSize: 12,
+    licenseNumber: "LIC-9129-HEL",
+    phoneNumber: "+1-454-673-4973",
+    contactEmail: "randy.taylor@paragontrails.com",
+    available: [],
     isCertified: true,
-    description: "Melissa is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Sustainable Tourism, Melissa provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.9,
-    reviewsCount: 85,
+    description: "Randy is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Family Activities, Wildlife, Randy provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.3,
+    reviewsCount: 38,
     quote: "My goal is to help you fall in love with Helsinki just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/60.jpg",
-    languages: ["Japanese"],
-    experienceYears: 3,
-    certifications: ["Food Safety Certification"],
-    specialties: ["Sustainable Tourism"],
-    specialTraining: [],
+    profileImage: "https://randomuser.me/api/portraits/men/67.jpg",
+    languages: ["Thai", "Arabic"],
+    experienceYears: 11,
+    certifications: ["Adventure Tourism Safety Certificate", "Food Safety Certification"],
+    specialties: ["Family Activities", "Wildlife"],
+    specialTraining: ["Photography", "Historical Research Methods"],
   },
   {
     id: "guide-helsinki-3",
-    name: "Sarah Maxwell",
+    name: "Lily Coleman",
     city: "Helsinki",
     country: "Finland",
     state: "",
     region: "Northern Europe",
     isPopular: true,
-    bio: "Sarah is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Indigenous Culture, Parks & Gardens, Sarah provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["West Coast USA"],
-    tourTypes: ["Religious Tour", "Relocation Tour", "Nature Tour", "Wildlife Safari"],
-    maxGroupSize: 14,
-    licenseNumber: "LIC-9659-HEL",
-    phoneNumber: "+1-926-221-5517",
-    contactEmail: "sarah.maxwell@paragontrails.com",
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "01:00 PM",
-          },
-          {
-            from: "12:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "05:00 PM",
-          },
-          {
-            from: "11:00 AM",
-            to: "04:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      }
-    ],
+    bio: "Lily is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Sustainable Tourism, Family Activities, Music Scene, Lily provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Northern Europe", "Asia Pacific"],
+    tourTypes: ["Accessible Tour", "Helicopter Tour", "Ghost Tour", "Audio Tour", "Family-Friendly Tour"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-2084-HEL",
+    phoneNumber: "+1-631-417-1001",
+    contactEmail: "lily.coleman@paragontrails.com",
+    available: [],
     isCertified: true,
-    description: "Sarah is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Indigenous Culture, Parks & Gardens, Sarah provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.7,
-    reviewsCount: 38,
-    quote: "Helsinki isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/35.jpg",
-    languages: ["Spanish"],
-    experienceYears: 7,
-    certifications: ["Cultural Heritage Specialist"],
-    specialties: ["Indigenous Culture", "Parks & Gardens"],
-    specialTraining: ["Group Management", "Photography"],
+    description: "Lily is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Sustainable Tourism, Family Activities, Music Scene, Lily provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.4,
+    reviewsCount: 95,
+    quote: "Every corner of Helsinki tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/58.jpg",
+    languages: ["Thai", "Malay"],
+    experienceYears: 4,
+    certifications: ["Sustainable Tourism Certificate", "Certified International Tour Manager"],
+    specialties: ["Sustainable Tourism", "Family Activities", "Music Scene"],
+    specialTraining: ["Emergency Response", "Photography"],
   },
   {
     id: "guide-helsinki-4",
-    name: "Logan Silva",
+    name: "Liam Moore",
     city: "Helsinki",
     country: "Finland",
     state: "",
     region: "Northern Europe",
     isPopular: false,
-    bio: "Logan is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Sustainable Tourism, Local Cuisine, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean"],
-    tourTypes: ["Cruise Excursion", "Underground Tour", "Craft Workshop"],
-    maxGroupSize: 13,
-    licenseNumber: "LIC-5283-HEL",
-    phoneNumber: "+1-400-809-4084",
-    contactEmail: "logan.silva@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "07:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "02:00 PM",
-          },
-          {
-            from: "10:00 AM",
-            to: "12:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "12:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "07:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "04:00 PM",
-          }
-        ],
-      }
-    ],
+    bio: "Liam is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Music Scene, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa"],
+    tourTypes: ["Food Tour", "Ghost Tour", "Family-Friendly Tour"],
+    maxGroupSize: 17,
+    licenseNumber: "LIC-8856-HEL",
+    phoneNumber: "+1-717-969-7284",
+    contactEmail: "liam.moore@paragontrails.com",
+    available: [],
     isCertified: true,
-    description: "Logan is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Sustainable Tourism, Local Cuisine, Logan provides authentic and engaging experiences for visitors of all backgrounds.",
+    description: "Liam is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Music Scene, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.9,
-    reviewsCount: 19,
-    quote: "Every corner of Helsinki tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/39.jpg",
-    languages: ["Italian", "French"],
-    experienceYears: 11,
-    certifications: ["Food Safety Certification", "Professional Tour Guide Association"],
-    specialties: ["Sustainable Tourism", "Local Cuisine"],
-    specialTraining: [],
+    reviewsCount: 97,
+    quote: "My goal is to help you fall in love with Helsinki just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/71.jpg",
+    languages: ["Spanish", "Korean"],
+    experienceYears: 4,
+    certifications: ["Food Safety Certification", "Urban Navigation Specialist", "Cultural Heritage Specialist"],
+    specialties: ["Music Scene"],
+    specialTraining: ["Local Flora & Fauna", "Regional Geology"],
   },
   {
     id: "guide-helsinki-5",
-    name: "Liam Dubois",
+    name: "Catherine da Costa",
     city: "Helsinki",
     country: "Finland",
     state: "",
     region: "Northern Europe",
     isPopular: true,
-    bio: "Liam is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Urban Legends, Photography Spots, Wildlife, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada"],
-    tourTypes: ["Group Tour", "Shopping Tour", "Farm Visit", "Scenic Tour", "Luxury Tour"],
-    maxGroupSize: 8,
-    licenseNumber: "LIC-8903-HEL",
-    phoneNumber: "+1-732-923-4398",
-    contactEmail: "liam.dubois@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "04:00 PM",
-          },
-          {
-            from: "10:00 AM",
-            to: "12:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "10:00 AM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "04:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "08:00 PM",
-          },
-          {
-            from: "09:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      }
-    ],
+    bio: "Catherine is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Religious Sites, Museums, Catherine provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean"],
+    tourTypes: ["Wildlife Safari", "Brewery Tour"],
+    maxGroupSize: 13,
+    licenseNumber: "LIC-2406-HEL",
+    phoneNumber: "+1-582-303-5818",
+    contactEmail: "catherine.da@paragontrails.com",
+    available: [],
     isCertified: true,
-    description: "Liam is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Urban Legends, Photography Spots, Wildlife, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.6,
-    reviewsCount: 45,
-    quote: "In Helsinki, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/13.jpg",
-    languages: ["English"],
-    experienceYears: 8,
-    certifications: ["Language Proficiency Certification", "CPR & First Aid"],
-    specialties: ["Urban Legends", "Photography Spots", "Wildlife"],
-    specialTraining: [],
+    description: "Catherine is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Religious Sites, Museums, Catherine provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.9,
+    reviewsCount: 93,
+    quote: "The best way to discover Helsinki is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/18.jpg",
+    languages: ["Swahili"],
+    experienceYears: 7,
+    certifications: ["Regional Tourism Ambassador", "Professional Tour Guide Association"],
+    specialties: ["Religious Sites", "Museums"],
+    specialTraining: ["Cultural Sensitivity", "Archaeological Conservation"],
   },
   {
     id: "guide-helsinki-6",
-    name: "Alexander Nakamura",
-    city: "Helsinki",
-    country: "Finland",
-    state: "",
-    region: "Northern Europe",
-    isPopular: true,
-    bio: "Alexander is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Sustainable Tourism, Urban Legends, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["West Coast USA", "Caribbean"],
-    tourTypes: ["Nature Tour", "Boat Tour", "Religious Tour", "Helicopter Tour", "Luxury Tour"],
-    maxGroupSize: 14,
-    licenseNumber: "LIC-7216-HEL",
-    phoneNumber: "+1-407-365-1112",
-    contactEmail: "alexander.nakamura@paragontrails.com",
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "11:00 AM",
-          },
-          {
-            from: "08:00 AM",
-            to: "11:00 AM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Alexander is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Sustainable Tourism, Urban Legends, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.3,
-    reviewsCount: 100,
-    quote: "My goal is to help you fall in love with Helsinki just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/83.jpg",
-    languages: ["Korean", "Romanian"],
-    experienceYears: 5,
-    certifications: ["Food Safety Certification"],
-    specialties: ["Sustainable Tourism", "Urban Legends"],
-    specialTraining: ["Historical Research Methods", "Accessibility Services"],
-  },
-  {
-    id: "guide-helsinki-7",
-    name: "Catherine Nakamura",
+    name: "Naomi Price",
     city: "Helsinki",
     country: "Finland",
     state: "",
     region: "Northern Europe",
     isPopular: false,
-    bio: "Catherine is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Local Markets, Catherine provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["South America"],
-    tourTypes: ["Private Tour", "Wildlife Safari", "Walking Tour", "Ghost Tour"],
-    maxGroupSize: 8,
-    licenseNumber: "LIC-6073-HEL",
-    phoneNumber: "+1-703-955-5275",
-    contactEmail: "catherine.nakamura@paragontrails.com",
+    bio: "Naomi is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Art Galleries, Urban Legends, Naomi provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East", "Mediterranean"],
+    tourTypes: ["Brewery Tour", "Farm Visit", "Off-Road Tour"],
+    maxGroupSize: 17,
+    licenseNumber: "LIC-2837-HEL",
+    phoneNumber: "+1-647-326-4698",
+    contactEmail: "naomi.price@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Naomi is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Art Galleries, Urban Legends, Naomi provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.6,
+    reviewsCount: 91,
+    quote: "Helsinki isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/34.jpg",
+    languages: ["Finnish", "French", "Bulgarian"],
+    experienceYears: 5,
+    certifications: ["Cultural Heritage Specialist", "Heritage Interpretation Certificate"],
+    specialties: ["Art Galleries", "Urban Legends"],
+    specialTraining: ["Religious Studies", "Group Management"],
+  },
+  {
+    id: "guide-helsinki-7",
+    name: "Priya Reeves",
+    city: "Helsinki",
+    country: "Finland",
+    state: "",
+    region: "Northern Europe",
+    isPopular: true,
+    bio: "Priya is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Cultural Etiquette, Priya provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean", "Northern Europe"],
+    tourTypes: ["Brewery Tour", "Food Tour", "Ghost Tour"],
+    maxGroupSize: 6,
+    licenseNumber: "LIC-7783-HEL",
+    phoneNumber: "+1-272-433-2272",
+    contactEmail: "priya.reeves@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Priya is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Cultural Etiquette, Priya provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.5,
+    reviewsCount: 92,
+    quote: "Every corner of Helsinki tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/77.jpg",
+    languages: ["Finnish", "Hebrew"],
+    experienceYears: 16,
+    certifications: ["Language Proficiency Certification", "Licensed City Guide"],
+    specialties: ["Cultural Etiquette"],
+    specialTraining: ["Accessibility Services", "Regional Geology"],
+  },
+  {
+    id: "guide-helsinki-8",
+    name: "Michael White",
+    city: "Helsinki",
+    country: "Finland",
+    state: "",
+    region: "Northern Europe",
+    isPopular: false,
+    bio: "Michael is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Music Scene, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Mediterranean"],
+    tourTypes: ["Adventure Tour", "Shopping Tour", "Luxury Tour"],
+    maxGroupSize: 19,
+    licenseNumber: "LIC-4393-HEL",
+    phoneNumber: "+1-861-143-1650",
+    contactEmail: "michael.white@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Michael is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Music Scene, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4,
+    reviewsCount: 100,
+    quote: "Helsinki isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/75.jpg",
+    languages: ["Spanish"],
+    experienceYears: 16,
+    certifications: ["Certified International Tour Manager"],
+    specialties: ["Music Scene"],
+    specialTraining: ["Cultural Sensitivity"],
+  },
+  {
+    id: "guide-helsinki-9",
+    name: "Steven Grant",
+    city: "Helsinki",
+    country: "Finland",
+    state: "",
+    region: "Northern Europe",
+    isPopular: true,
+    bio: "Steven is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Urban Legends, Art Galleries, Film Locations, Historical Landmarks, Steven provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada", "Asia Pacific"],
+    tourTypes: ["Bike Tour", "Boat Tour", "Accessible Tour"],
+    maxGroupSize: 5,
+    licenseNumber: "LIC-5225-HEL",
+    phoneNumber: "+1-612-784-6511",
+    contactEmail: "steven.grant@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Steven is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Urban Legends, Art Galleries, Film Locations, Historical Landmarks, Steven provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.3,
+    reviewsCount: 41,
+    quote: "In Helsinki, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/50.jpg",
+    languages: ["Polish", "Malay"],
+    experienceYears: 5,
+    certifications: ["Regional Tourism Ambassador"],
+    specialties: ["Urban Legends", "Art Galleries", "Film Locations", "Historical Landmarks"],
+    specialTraining: ["Mountain Survival"],
+  },
+  {
+    id: "guide-helsinki-10",
+    name: "Diego Wang",
+    city: "Helsinki",
+    country: "Finland",
+    state: "",
+    region: "Northern Europe",
+    isPopular: false,
+    bio: "Diego is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Religious Sites, Diego provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada"],
+    tourTypes: ["Photography Tour", "Market Tour", "Private Tour"],
+    maxGroupSize: 7,
+    licenseNumber: "LIC-6227-HEL",
+    phoneNumber: "+1-177-451-1593",
+    contactEmail: "diego.wang@paragontrails.com",
     available: [
       {
-        day: "Saturday",
+        day: "Thursday",
         availableHours: [
+          {
+            from: "09:00 AM",
+            to: "12:00 PM",
+          },
           {
             from: "12:00 PM",
             to: "04:00 PM",
@@ -394,11 +288,62 @@ export const helsinkifinlandnorthernEuropeGuides: TourGuide[] = [
         day: "Sunday",
         availableHours: [
           {
-            from: "12:00 PM",
-            to: "03:00 PM",
+            from: "03:00 PM",
+            to: "05:00 PM",
           },
           {
-            from: "09:00 AM",
+            from: "03:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Diego is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Religious Sites, Diego provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.3,
+    reviewsCount: 82,
+    quote: "Helsinki isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/81.jpg",
+    languages: ["Thai", "Japanese", "Hindi"],
+    experienceYears: 3,
+    certifications: ["Eco-Tourism Guide", "Licensed City Guide", "CPR & First Aid"],
+    specialties: ["Religious Sites"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-helsinki-11",
+    name: "Kenneth Hudson",
+    city: "Helsinki",
+    country: "Finland",
+    state: "",
+    region: "Northern Europe",
+    isPopular: false,
+    bio: "Kenneth is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Family Activities, Kenneth provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Alaska"],
+    tourTypes: ["Accessible Tour", "Craft Workshop", "Farm Visit", "Walking Tour", "Helicopter Tour"],
+    maxGroupSize: 5,
+    licenseNumber: "LIC-6746-HEL",
+    phoneNumber: "+1-832-601-2383",
+    contactEmail: "kenneth.hudson@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "04:00 PM",
+          },
+          {
+            from: "10:00 AM",
             to: "01:00 PM",
           }
         ],
@@ -407,121 +352,22 @@ export const helsinkifinlandnorthernEuropeGuides: TourGuide[] = [
         day: "Tuesday",
         availableHours: [
           {
-            from: "02:00 PM",
-            to: "04:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "03:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
             from: "12:00 PM",
-            to: "06:00 PM",
-          },
-          {
-            from: "03:00 PM",
-            to: "07:00 PM",
+            to: "04:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Catherine is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Local Markets, Catherine provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.4,
-    reviewsCount: 37,
-    quote: "The best way to discover Helsinki is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/83.jpg",
-    languages: ["Finnish"],
-    experienceYears: 13,
-    certifications: ["Regional Tourism Ambassador", "Cultural Heritage Specialist", "Food Safety Certification"],
-    specialties: ["Local Markets"],
-    specialTraining: ["Religious Studies", "Archaeological Conservation"],
-  },
-  {
-    id: "guide-helsinki-8",
-    name: "Grace Brown",
-    city: "Helsinki",
-    country: "Finland",
-    state: "",
-    region: "Northern Europe",
-    isPopular: true,
-    bio: "Grace is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Street Food, Architecture, Grace provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["South America", "Mediterranean"],
-    tourTypes: ["Shopping Tour", "Wine Tour", "Ghost Tour", "Craft Workshop", "Romantic Tour"],
-    maxGroupSize: 13,
-    licenseNumber: "LIC-3113-HEL",
-    phoneNumber: "+1-358-117-9203",
-    contactEmail: "grace.brown@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "06:00 PM",
-          },
-          {
-            from: "11:00 AM",
-            to: "03:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "01:00 PM",
-          },
-          {
-            from: "11:00 AM",
-            to: "04:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "04:00 PM",
-          },
-          {
-            from: "01:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Grace is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Street Food, Architecture, Grace provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.2,
-    reviewsCount: 36,
-    quote: "In Helsinki, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/14.jpg",
-    languages: ["English", "Spanish", "Swahili"],
-    experienceYears: 6,
-    certifications: ["CPR & First Aid", "Regional Tourism Ambassador", "Professional Tour Guide Association"],
-    specialties: ["Street Food", "Architecture"],
+    description: "Kenneth is a passionate tour guide with extensive knowledge of Helsinki and Finland. Specializing in Family Activities, Kenneth provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.9,
+    reviewsCount: 65,
+    quote: "My goal is to help you fall in love with Helsinki just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/14.jpg",
+    languages: ["Tagalog", "Danish", "Croatian"],
+    experienceYears: 2,
+    certifications: ["Local History Certification", "Wilderness First Responder"],
+    specialties: ["Family Activities"],
     specialTraining: [],
   }
 ];

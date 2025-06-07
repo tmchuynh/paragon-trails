@@ -1,32 +1,309 @@
+// This file is auto-generated. Do not edit manually.
+
 import { TourGuide } from "@/lib/interfaces/people/staff";
 
 export const santorinigreecemediterraneanGuides: TourGuide[] = [
   {
     id: "guide-santorini-1",
-    name: "Mohamed Lewis",
+    name: "Sophia Russell",
+    city: "Santorini",
+    country: "Greece",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Sophia is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in LGBTQ+ History, Hidden Gems, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean", "East Coast USA"],
+    tourTypes: ["Off-Road Tour", "Photography Tour", "Bike Tour", "Accessible Tour"],
+    maxGroupSize: 10,
+    licenseNumber: "LIC-8661-SAN",
+    phoneNumber: "+1-302-260-7731",
+    contactEmail: "sophia.russell@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Sophia is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in LGBTQ+ History, Hidden Gems, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.8,
+    reviewsCount: 14,
+    quote: "Every corner of Santorini tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/57.jpg",
+    languages: ["Thai", "Russian"],
+    experienceYears: 16,
+    certifications: ["Wilderness First Responder"],
+    specialties: ["LGBTQ+ History", "Hidden Gems"],
+    specialTraining: ["Conflict Resolution", "Archaeological Conservation"],
+  },
+  {
+    id: "guide-santorini-2",
+    name: "Hassan Wallace",
+    city: "Santorini",
+    country: "Greece",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Hassan is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Indigenous Culture, Nightlife, Art Galleries, Hassan provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada", "South America"],
+    tourTypes: ["Architecture Tour", "Private Tour", "Wildlife Safari", "Helicopter Tour", "Bike Tour"],
+    maxGroupSize: 14,
+    licenseNumber: "LIC-6094-SAN",
+    phoneNumber: "+1-167-641-7978",
+    contactEmail: "hassan.wallace@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Hassan is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Indigenous Culture, Nightlife, Art Galleries, Hassan provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.3,
+    reviewsCount: 97,
+    quote: "In Santorini, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/41.jpg",
+    languages: ["Japanese", "Cantonese"],
+    experienceYears: 4,
+    certifications: ["Urban Navigation Specialist", "Local History Certification"],
+    specialties: ["Indigenous Culture", "Nightlife", "Art Galleries"],
+    specialTraining: ["Emergency Response"],
+  },
+  {
+    id: "guide-santorini-3",
+    name: "Benjamin Parker",
+    city: "Santorini",
+    country: "Greece",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Benjamin is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Museums, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific", "East Coast USA"],
+    tourTypes: ["Festival Tour", "Wildlife Safari", "Farm Visit", "Wine Tour"],
+    maxGroupSize: 6,
+    licenseNumber: "LIC-3004-SAN",
+    phoneNumber: "+1-758-147-8841",
+    contactEmail: "benjamin.parker@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Benjamin is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Museums, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.9,
+    reviewsCount: 84,
+    quote: "The best way to discover Santorini is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/23.jpg",
+    languages: ["Serbian", "Vietnamese"],
+    experienceYears: 9,
+    certifications: ["Adventure Tourism Safety Certificate"],
+    specialties: ["Museums"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-santorini-4",
+    name: "Wayne Kim",
+    city: "Santorini",
+    country: "Greece",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Wayne is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Parks & Gardens, Indigenous Culture, Art Galleries, Architecture, Wayne provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Northern Europe", "Caribbean"],
+    tourTypes: ["Historical Tour", "Shopping Tour", "Off-Road Tour", "Wildlife Safari", "Underground Tour"],
+    maxGroupSize: 10,
+    licenseNumber: "LIC-1042-SAN",
+    phoneNumber: "+1-129-320-9696",
+    contactEmail: "wayne.kim@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Wayne is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Parks & Gardens, Indigenous Culture, Art Galleries, Architecture, Wayne provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.7,
+    reviewsCount: 35,
+    quote: "Santorini isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/50.jpg",
+    languages: ["Swahili", "English", "Finnish"],
+    experienceYears: 6,
+    certifications: ["Certified International Tour Manager", "Adventure Tourism Safety Certificate"],
+    specialties: ["Parks & Gardens", "Indigenous Culture", "Art Galleries", "Architecture"],
+    specialTraining: ["Religious Studies", "Wine Education"],
+  },
+  {
+    id: "guide-santorini-5",
+    name: "Hannah Jennings",
+    city: "Santorini",
+    country: "Greece",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Hannah is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Indigenous Culture, Local Markets, Family Activities, Wine Tasting, Hannah provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Northern Europe"],
+    tourTypes: ["Festival Tour", "LGBTQ+ Friendly Tour", "Underground Tour"],
+    maxGroupSize: 17,
+    licenseNumber: "LIC-8799-SAN",
+    phoneNumber: "+1-946-373-9488",
+    contactEmail: "hannah.jennings@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Hannah is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Indigenous Culture, Local Markets, Family Activities, Wine Tasting, Hannah provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 22,
+    quote: "Santorini isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/42.jpg",
+    languages: ["French", "Danish"],
+    experienceYears: 6,
+    certifications: ["Food Safety Certification", "Heritage Interpretation Certificate"],
+    specialties: ["Indigenous Culture", "Local Markets", "Family Activities", "Wine Tasting"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-santorini-6",
+    name: "Muhammad Price",
+    city: "Santorini",
+    country: "Greece",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Muhammad is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Local Markets, Family Activities, Muhammad provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Alaska", "Africa"],
+    tourTypes: ["Festival Tour", "Historical Tour", "Eco Tour"],
+    maxGroupSize: 10,
+    licenseNumber: "LIC-1490-SAN",
+    phoneNumber: "+1-735-554-8987",
+    contactEmail: "muhammad.price@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Muhammad is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Local Markets, Family Activities, Muhammad provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 61,
+    quote: "My goal is to help you fall in love with Santorini just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/80.jpg",
+    languages: ["Hebrew"],
+    experienceYears: 10,
+    certifications: ["Urban Navigation Specialist", "Heritage Interpretation Certificate"],
+    specialties: ["Local Markets", "Family Activities"],
+    specialTraining: ["Urban Planning"],
+  },
+  {
+    id: "guide-santorini-7",
+    name: "Savannah Silva",
     city: "Santorini",
     country: "Greece",
     state: "",
     region: "Mediterranean",
     isPopular: true,
-    bio: "Mohamed is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Religious Sites, Wine Tasting, Parks & Gardens, Mohamed provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Asia Pacific", "Middle East"],
-    tourTypes: ["Street Art Tour", "Luxury Tour", "Market Tour", "Cultural Tour"],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-2746-SAN",
-    phoneNumber: "+1-514-437-5026",
-    contactEmail: "mohamed.lewis@paragontrails.com",
+    bio: "Savannah is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Family Activities, Museums, Savannah provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East", "Northern Europe"],
+    tourTypes: ["Festival Tour", "Wildlife Safari"],
+    maxGroupSize: 6,
+    licenseNumber: "LIC-6660-SAN",
+    phoneNumber: "+1-304-359-3210",
+    contactEmail: "savannah.silva@paragontrails.com",
     available: [
       {
-        day: "Thursday",
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "11:00 AM",
+          },
+          {
+            from: "09:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Savannah is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Family Activities, Museums, Savannah provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 47,
+    quote: "In Santorini, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/69.jpg",
+    languages: ["Hebrew"],
+    experienceYears: 13,
+    certifications: ["Eco-Tourism Guide", "Adventure Tourism Safety Certificate"],
+    specialties: ["Family Activities", "Museums"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-santorini-8",
+    name: "Janet Palmer",
+    city: "Santorini",
+    country: "Greece",
+    state: "",
+    region: "Mediterranean",
+    isPopular: false,
+    bio: "Janet is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Sustainable Tourism, Local Cuisine, Janet provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Northern Europe", "South America"],
+    tourTypes: ["Family-Friendly Tour", "Farm Visit", "Group Tour", "Market Tour", "Street Art Tour"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-7720-SAN",
+    phoneNumber: "+1-870-364-4457",
+    contactEmail: "janet.palmer@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "08:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "05:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Janet is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Sustainable Tourism, Local Cuisine, Janet provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.6,
+    reviewsCount: 95,
+    quote: "The best way to discover Santorini is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/64.jpg",
+    languages: ["Russian", "Bulgarian", "Portuguese"],
+    experienceYears: 14,
+    certifications: ["Adventure Tourism Safety Certificate", "Licensed City Guide", "CPR & First Aid"],
+    specialties: ["Sustainable Tourism", "Local Cuisine"],
+    specialTraining: ["Mountain Survival", "Wine Education"],
+  },
+  {
+    id: "guide-santorini-9",
+    name: "Jeffrey Hernandez",
+    city: "Santorini",
+    country: "Greece",
+    state: "",
+    region: "Mediterranean",
+    isPopular: true,
+    bio: "Jeffrey is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Parks & Gardens, Jeffrey provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada"],
+    tourTypes: ["LGBTQ+ Friendly Tour", "Scenic Tour", "Cooking Class", "Religious Tour", "Adventure Tour"],
+    maxGroupSize: 5,
+    licenseNumber: "LIC-5500-SAN",
+    phoneNumber: "+1-981-518-3905",
+    contactEmail: "jeffrey.hernandez@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
         availableHours: [
           {
             from: "11:00 AM",
-            to: "04:00 PM",
-          },
-          {
-            from: "11:00 AM",
-            to: "05:00 PM",
+            to: "01:00 PM",
           }
         ],
       },
@@ -35,274 +312,21 @@ export const santorinigreecemediterraneanGuides: TourGuide[] = [
         availableHours: [
           {
             from: "12:00 PM",
-            to: "06:00 PM",
-          },
-          {
-            from: "02:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "06:00 PM",
-          },
-          {
-            from: "11:00 AM",
-            to: "02:00 PM",
+            to: "04:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Mohamed is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Religious Sites, Wine Tasting, Parks & Gardens, Mohamed provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.4,
-    reviewsCount: 35,
-    quote: "Every corner of Santorini tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/33.jpg",
-    languages: ["Bulgarian"],
-    experienceYears: 13,
-    certifications: ["Heritage Interpretation Certificate", "Food Safety Certification"],
-    specialties: ["Religious Sites", "Wine Tasting", "Parks & Gardens"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-santorini-2",
-    name: "Sarah Graves",
-    city: "Santorini",
-    country: "Greece",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Sarah is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Family Activities, Sarah provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Asia Pacific", "Middle East"],
-    tourTypes: ["Eco Tour", "Relocation Tour", "Market Tour"],
-    maxGroupSize: 14,
-    licenseNumber: "LIC-1001-SAN",
-    phoneNumber: "+1-169-238-7911",
-    contactEmail: "sarah.graves@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "09:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "08:00 PM",
-          },
-          {
-            from: "09:00 AM",
-            to: "12:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Sarah is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Family Activities, Sarah provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.6,
-    reviewsCount: 42,
-    quote: "In Santorini, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/27.jpg",
-    languages: ["Danish"],
-    experienceYears: 12,
-    certifications: ["Regional Tourism Ambassador"],
-    specialties: ["Family Activities"],
-    specialTraining: ["Wine Education"],
-  },
-  {
-    id: "guide-santorini-3",
-    name: "Luis Jansen",
-    city: "Santorini",
-    country: "Greece",
-    state: "",
-    region: "Mediterranean",
-    isPopular: true,
-    bio: "Luis is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Religious Sites, Luis provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean"],
-    tourTypes: ["Underground Tour", "Private Tour", "Cultural Tour", "Food Tour"],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-1632-SAN",
-    phoneNumber: "+1-869-213-3841",
-    contactEmail: "luis.jansen@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "02:00 PM",
-          },
-          {
-            from: "02:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "10:00 AM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "08:00 PM",
-          },
-          {
-            from: "03:00 PM",
-            to: "07:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Luis is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Religious Sites, Luis provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.6,
-    reviewsCount: 66,
-    quote: "In Santorini, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/34.jpg",
-    languages: ["Hungarian", "Dutch"],
-    experienceYears: 5,
-    certifications: ["Adventure Tourism Safety Certificate"],
-    specialties: ["Religious Sites"],
-    specialTraining: ["Conflict Resolution"],
-  },
-  {
-    id: "guide-santorini-4",
-    name: "Douglas Hall",
-    city: "Santorini",
-    country: "Greece",
-    state: "",
-    region: "Mediterranean",
-    isPopular: true,
-    bio: "Douglas is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Family Activities, Adventure Sports, Douglas provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Asia Pacific"],
-    tourTypes: ["Audio Tour", "Underground Tour", "Eco Tour", "Ghost Tour", "Nature Tour"],
-    maxGroupSize: 13,
-    licenseNumber: "LIC-1678-SAN",
-    phoneNumber: "+1-197-317-7399",
-    contactEmail: "douglas.hall@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "12:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Douglas is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Family Activities, Adventure Sports, Douglas provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.5,
-    reviewsCount: 94,
-    quote: "Every corner of Santorini tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/2.jpg",
-    languages: ["Swahili", "Swedish", "Cantonese"],
+    description: "Jeffrey is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Parks & Gardens, Jeffrey provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.3,
+    reviewsCount: 46,
+    quote: "My goal is to help you fall in love with Santorini just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/45.jpg",
+    languages: ["French", "Danish"],
     experienceYears: 8,
-    certifications: ["Wilderness First Responder", "Cultural Heritage Specialist"],
-    specialties: ["Family Activities", "Adventure Sports"],
-    specialTraining: ["Marine Biology"],
-  },
-  {
-    id: "guide-santorini-5",
-    name: "Carlos Watson",
-    city: "Santorini",
-    country: "Greece",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Carlos is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Local Markets, Art Galleries, Carlos provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean"],
-    tourTypes: ["Shopping Tour", "Wine Tour"],
-    maxGroupSize: 13,
-    licenseNumber: "LIC-2075-SAN",
-    phoneNumber: "+1-813-787-9338",
-    contactEmail: "carlos.watson@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "07:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "03:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Carlos is a passionate tour guide with extensive knowledge of Santorini and Greece. Specializing in Local Markets, Art Galleries, Carlos provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.5,
-    reviewsCount: 65,
-    quote: "The best way to discover Santorini is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/80.jpg",
-    languages: ["Serbian", "French", "Czech"],
-    experienceYears: 9,
-    certifications: ["Urban Navigation Specialist"],
-    specialties: ["Local Markets", "Art Galleries"],
-    specialTraining: ["Art History", "Historical Research Methods"],
+    certifications: ["Heritage Interpretation Certificate"],
+    specialties: ["Parks & Gardens"],
+    specialTraining: [],
   }
 ];

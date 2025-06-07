@@ -1,542 +1,408 @@
+// This file is auto-generated. Do not edit manually.
+
 import { TourGuide } from "@/lib/interfaces/people/staff";
 
 export const tokyojapanasiaPacificGuides: TourGuide[] = [
   {
     id: "guide-tokyo-1",
-    name: "Aiden Müller",
+    name: "Donna Maxwell",
     city: "Tokyo",
     country: "Japan",
     state: "",
     region: "Asia Pacific",
     isPopular: false,
-    bio: "Aiden is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Local Craftsmanship, Art Galleries, Urban Legends, Street Food, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
+    bio: "Donna is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Local Cuisine, Wine Tasting, Urban Legends, LGBTQ+ History, Donna provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa"],
+    tourTypes: ["Architecture Tour", "Cultural Tour", "Market Tour"],
+    maxGroupSize: 10,
+    licenseNumber: "LIC-8955-TOK",
+    phoneNumber: "+1-605-968-9983",
+    contactEmail: "donna.maxwell@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Donna is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Local Cuisine, Wine Tasting, Urban Legends, LGBTQ+ History, Donna provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.7,
+    reviewsCount: 16,
+    quote: "Tokyo isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/59.jpg",
+    languages: ["Portuguese"],
+    experienceYears: 14,
+    certifications: ["Food Safety Certification", "Sustainable Tourism Certificate", "Local History Certification"],
+    specialties: ["Local Cuisine", "Wine Tasting", "Urban Legends", "LGBTQ+ History"],
+    specialTraining: ["Conflict Resolution", "Local Flora & Fauna"],
+  },
+  {
+    id: "guide-tokyo-2",
+    name: "Scarlett Davis",
+    city: "Tokyo",
+    country: "Japan",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: false,
+    bio: "Scarlett is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Public Transportation Navigation, Local Craftsmanship, Wine Tasting, Architecture, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean"],
+    tourTypes: ["Walking Tour", "Off-Road Tour", "Scenic Tour", "Cruise Excursion", "Market Tour"],
+    maxGroupSize: 5,
+    licenseNumber: "LIC-6217-TOK",
+    phoneNumber: "+1-338-792-2846",
+    contactEmail: "scarlett.davis@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Scarlett is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Public Transportation Navigation, Local Craftsmanship, Wine Tasting, Architecture, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.2,
+    reviewsCount: 83,
+    quote: "The best way to discover Tokyo is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/64.jpg",
+    languages: ["Serbian"],
+    experienceYears: 13,
+    certifications: ["Urban Navigation Specialist", "CPR & First Aid", "Language Proficiency Certification"],
+    specialties: ["Public Transportation Navigation", "Local Craftsmanship", "Wine Tasting", "Architecture"],
+    specialTraining: ["Urban Planning", "Photography"],
+  },
+  {
+    id: "guide-tokyo-3",
+    name: "Olivia Johnson",
+    city: "Tokyo",
+    country: "Japan",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: false,
+    bio: "Olivia is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Street Food, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Asia Pacific"],
-    tourTypes: ["Ghost Tour", "Festival Tour", "Accessible Tour", "Farm Visit"],
-    maxGroupSize: 18,
-    licenseNumber: "LIC-8466-TOK",
-    phoneNumber: "+1-184-974-7521",
-    contactEmail: "aiden.müller@paragontrails.com",
+    tourTypes: ["Ghost Tour", "Shopping Tour", "Boat Tour", "Brewery Tour"],
+    maxGroupSize: 6,
+    licenseNumber: "LIC-1315-TOK",
+    phoneNumber: "+1-947-453-9538",
+    contactEmail: "olivia.johnson@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Olivia is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Street Food, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.6,
+    reviewsCount: 49,
+    quote: "In Tokyo, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/56.jpg",
+    languages: ["Russian", "Danish"],
+    experienceYears: 13,
+    certifications: ["Cultural Heritage Specialist"],
+    specialties: ["Street Food"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-tokyo-4",
+    name: "Harper Davis",
+    city: "Tokyo",
+    country: "Japan",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: false,
+    bio: "Harper is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Cultural Etiquette, Religious Sites, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa"],
+    tourTypes: ["Brewery Tour", "Museum Tour"],
+    maxGroupSize: 10,
+    licenseNumber: "LIC-6823-TOK",
+    phoneNumber: "+1-970-468-7891",
+    contactEmail: "harper.davis@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Harper is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Cultural Etiquette, Religious Sites, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.3,
+    reviewsCount: 61,
+    quote: "Tokyo isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/44.jpg",
+    languages: ["German", "Thai", "Spanish"],
+    experienceYears: 7,
+    certifications: ["Adventure Tourism Safety Certificate", "Sustainable Tourism Certificate"],
+    specialties: ["Cultural Etiquette", "Religious Sites"],
+    specialTraining: ["Local Transit Systems", "Group Management"],
+  },
+  {
+    id: "guide-tokyo-5",
+    name: "Aisha Keller",
+    city: "Tokyo",
+    country: "Japan",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: true,
+    bio: "Aisha is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Family Activities, Parks & Gardens, Nightlife, Historical Landmarks, Aisha provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa"],
+    tourTypes: ["Ghost Tour", "Cultural Tour", "Luxury Tour", "Nature Tour", "Boat Tour"],
+    maxGroupSize: 9,
+    licenseNumber: "LIC-4943-TOK",
+    phoneNumber: "+1-320-282-1379",
+    contactEmail: "aisha.keller@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Aisha is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Family Activities, Parks & Gardens, Nightlife, Historical Landmarks, Aisha provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.7,
+    reviewsCount: 33,
+    quote: "In Tokyo, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/49.jpg",
+    languages: ["Greek", "Korean", "Hebrew"],
+    experienceYears: 7,
+    certifications: ["CPR & First Aid"],
+    specialties: ["Family Activities", "Parks & Gardens", "Nightlife", "Historical Landmarks"],
+    specialTraining: ["Archaeological Conservation", "Regional Cuisine"],
+  },
+  {
+    id: "guide-tokyo-6",
+    name: "Donna Price",
+    city: "Tokyo",
+    country: "Japan",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: true,
+    bio: "Donna is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Sustainable Tourism, Donna provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast USA", "Northern Europe"],
+    tourTypes: ["Wildlife Safari", "Scenic Tour"],
+    maxGroupSize: 8,
+    licenseNumber: "LIC-3013-TOK",
+    phoneNumber: "+1-613-379-1900",
+    contactEmail: "donna.price@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Donna is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Sustainable Tourism, Donna provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.2,
+    reviewsCount: 6,
+    quote: "My goal is to help you fall in love with Tokyo just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/78.jpg",
+    languages: ["Romanian", "Swahili", "Arabic"],
+    experienceYears: 8,
+    certifications: ["Eco-Tourism Guide", "Sustainable Tourism Certificate"],
+    specialties: ["Sustainable Tourism"],
+    specialTraining: ["Photography", "Accessibility Services"],
+  },
+  {
+    id: "guide-tokyo-7",
+    name: "Noah Lawson",
+    city: "Tokyo",
+    country: "Japan",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: false,
+    bio: "Noah is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Local Markets, Adventure Sports, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada", "East Coast USA"],
+    tourTypes: ["Scenic Tour", "Cruise Excursion", "Food Tour", "Historical Tour"],
+    maxGroupSize: 13,
+    licenseNumber: "LIC-4955-TOK",
+    phoneNumber: "+1-926-155-6176",
+    contactEmail: "noah.lawson@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Noah is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Local Markets, Adventure Sports, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.7,
+    reviewsCount: 49,
+    quote: "Every corner of Tokyo tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/58.jpg",
+    languages: ["Portuguese"],
+    experienceYears: 14,
+    certifications: ["Wilderness First Responder", "Professional Tour Guide Association"],
+    specialties: ["Local Markets", "Adventure Sports"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-tokyo-8",
+    name: "Savannah Young",
+    city: "Tokyo",
+    country: "Japan",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: false,
+    bio: "Savannah is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Photography Spots, Adventure Sports, Nightlife, Art Galleries, Savannah provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East"],
+    tourTypes: ["Street Art Tour", "Helicopter Tour", "Accessible Tour"],
+    maxGroupSize: 5,
+    licenseNumber: "LIC-4188-TOK",
+    phoneNumber: "+1-483-185-2742",
+    contactEmail: "savannah.young@paragontrails.com",
     available: [
       {
         day: "Sunday",
         availableHours: [
           {
-            from: "12:00 PM",
-            to: "05:00 PM",
+            from: "02:00 PM",
+            to: "07:00 PM",
           },
           {
-            from: "03:00 PM",
-            to: "08:00 PM",
+            from: "11:00 AM",
+            to: "04:00 PM",
           }
         ],
       },
       {
-        day: "Saturday",
+        day: "Monday",
         availableHours: [
           {
-            from: "12:00 PM",
-            to: "03:00 PM",
+            from: "11:00 AM",
+            to: "02:00 PM",
           }
         ],
       },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "08:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Aiden is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Local Craftsmanship, Art Galleries, Urban Legends, Street Food, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.8,
-    reviewsCount: 20,
-    quote: "My goal is to help you fall in love with Tokyo just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/44.jpg",
-    languages: ["Swedish", "Italian"],
-    experienceYears: 10,
-    certifications: ["Urban Navigation Specialist"],
-    specialties: ["Local Craftsmanship", "Art Galleries", "Urban Legends", "Street Food"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-tokyo-2",
-    name: "Arthur Brooks",
-    city: "Tokyo",
-    country: "Japan",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: false,
-    bio: "Arthur is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Street Food, Sustainable Tourism, Arthur provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada"],
-    tourTypes: ["Photography Tour", "Scenic Tour", "Family-Friendly Tour", "Wildlife Safari"],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-5490-TOK",
-    phoneNumber: "+1-869-754-7016",
-    contactEmail: "arthur.brooks@paragontrails.com",
-    available: [
       {
         day: "Friday",
         availableHours: [
           {
-            from: "01:00 PM",
-            to: "05:00 PM",
+            from: "10:00 AM",
+            to: "02:00 PM",
           },
           {
-            from: "09:00 AM",
-            to: "11:00 AM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "07:00 PM",
-          },
-          {
-            from: "01:00 PM",
-            to: "07:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "04:00 PM",
-          },
-          {
-            from: "11:00 AM",
-            to: "03:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "12:00 PM",
-          },
-          {
-            from: "12:00 PM",
+            from: "10:00 AM",
             to: "02:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Arthur is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Street Food, Sustainable Tourism, Arthur provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.8,
-    reviewsCount: 49,
-    quote: "The best way to discover Tokyo is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/15.jpg",
-    languages: ["Mandarin"],
-    experienceYears: 7,
-    certifications: ["Licensed City Guide", "CPR & First Aid", "Regional Tourism Ambassador"],
-    specialties: ["Street Food", "Sustainable Tourism"],
-    specialTraining: ["Marine Biology", "Conflict Resolution"],
-  },
-  {
-    id: "guide-tokyo-3",
-    name: "David Palmer",
-    city: "Tokyo",
-    country: "Japan",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: false,
-    bio: "David is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Cultural Etiquette, Film Locations, David provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Northern Europe", "Asia Pacific"],
-    tourTypes: ["Ghost Tour", "Brewery Tour", "Luxury Tour", "Photography Tour"],
-    maxGroupSize: 15,
-    licenseNumber: "LIC-6715-TOK",
-    phoneNumber: "+1-150-982-7504",
-    contactEmail: "david.palmer@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "03:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "03:00 PM",
-          },
-          {
-            from: "02:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "07:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "04:00 PM",
-          },
-          {
-            from: "08:00 AM",
-            to: "11:00 AM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "David is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Cultural Etiquette, Film Locations, David provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.9,
-    reviewsCount: 10,
-    quote: "In Tokyo, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/80.jpg",
-    languages: ["Serbian"],
-    experienceYears: 16,
-    certifications: ["Cultural Heritage Specialist", "Language Proficiency Certification"],
-    specialties: ["Cultural Etiquette", "Film Locations"],
-    specialTraining: ["Photography"],
-  },
-  {
-    id: "guide-tokyo-4",
-    name: "Lerato Garcia",
-    city: "Tokyo",
-    country: "Japan",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: true,
-    bio: "Lerato is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Historical Landmarks, Sustainable Tourism, Local Markets, Local Cuisine, Lerato provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["West Coast USA", "Asia Pacific"],
-    tourTypes: ["Private Tour", "Craft Workshop", "Underground Tour"],
-    maxGroupSize: 15,
-    licenseNumber: "LIC-3302-TOK",
-    phoneNumber: "+1-717-174-4167",
-    contactEmail: "lerato.garcia@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "12:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "04:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "06:00 PM",
-          },
-          {
-            from: "10:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Lerato is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Historical Landmarks, Sustainable Tourism, Local Markets, Local Cuisine, Lerato provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.9,
-    reviewsCount: 95,
-    quote: "Tokyo isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/80.jpg",
-    languages: ["Finnish"],
-    experienceYears: 7,
-    certifications: ["CPR & First Aid", "Heritage Interpretation Certificate", "Eco-Tourism Guide"],
-    specialties: ["Historical Landmarks", "Sustainable Tourism", "Local Markets", "Local Cuisine"],
-    specialTraining: ["Art History", "Historical Research Methods"],
-  },
-  {
-    id: "guide-tokyo-5",
-    name: "Maya Nakamura",
-    city: "Tokyo",
-    country: "Japan",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: true,
-    bio: "Maya is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Photography Spots, Street Food, Wine Tasting, Cultural Etiquette, Maya provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["South America", "East Coast Canada"],
-    tourTypes: ["Craft Workshop", "Architecture Tour", "Cruise Excursion", "Helicopter Tour", "Festival Tour"],
-    maxGroupSize: 8,
-    licenseNumber: "LIC-7155-TOK",
-    phoneNumber: "+1-749-576-8157",
-    contactEmail: "maya.nakamura@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "04:00 PM",
-          },
-          {
-            from: "10:00 AM",
-            to: "12:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "05:00 PM",
-          },
-          {
-            from: "11:00 AM",
-            to: "04:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Maya is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Photography Spots, Street Food, Wine Tasting, Cultural Etiquette, Maya provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.9,
-    reviewsCount: 25,
-    quote: "In Tokyo, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/51.jpg",
-    languages: ["Danish"],
-    experienceYears: 3,
-    certifications: ["Adventure Tourism Safety Certificate"],
-    specialties: ["Photography Spots", "Street Food", "Wine Tasting", "Cultural Etiquette"],
-    specialTraining: ["Mountain Survival", "Marine Biology"],
-  },
-  {
-    id: "guide-tokyo-6",
-    name: "Omar Knight",
-    city: "Tokyo",
-    country: "Japan",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: false,
-    bio: "Omar is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Sustainable Tourism, Wine Tasting, Omar provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Northern Europe", "Mediterranean"],
-    tourTypes: ["Festival Tour", "Adventure Tour"],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-5381-TOK",
-    phoneNumber: "+1-818-164-3320",
-    contactEmail: "omar.knight@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "08:00 PM",
-          },
-          {
-            from: "02:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "01:00 PM",
-          },
-          {
-            from: "09:00 AM",
-            to: "03:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "08:00 PM",
-          },
-          {
-            from: "09:00 AM",
-            to: "12:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "02:00 PM",
-          },
-          {
-            from: "11:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Omar is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Sustainable Tourism, Wine Tasting, Omar provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 54,
-    quote: "The best way to discover Tokyo is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/5.jpg",
-    languages: ["Bulgarian"],
-    experienceYears: 8,
-    certifications: ["Eco-Tourism Guide", "Adventure Tourism Safety Certificate", "Food Safety Certification"],
-    specialties: ["Sustainable Tourism", "Wine Tasting"],
-    specialTraining: ["Emergency Response", "Photography"],
-  },
-  {
-    id: "guide-tokyo-7",
-    name: "Eleanor Suzuki",
-    city: "Tokyo",
-    country: "Japan",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: true,
-    bio: "Eleanor is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in LGBTQ+ History, Eleanor provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean"],
-    tourTypes: ["Accessible Tour", "Market Tour"],
-    maxGroupSize: 5,
-    licenseNumber: "LIC-6394-TOK",
-    phoneNumber: "+1-182-920-5983",
-    contactEmail: "eleanor.suzuki@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "08:00 PM",
-          },
-          {
-            from: "08:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "07:00 PM",
-          },
-          {
-            from: "09:00 AM",
-            to: "12:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "07:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Eleanor is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in LGBTQ+ History, Eleanor provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.2,
+    description: "Savannah is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Photography Spots, Adventure Sports, Nightlife, Art Galleries, Savannah provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 5,
     reviewsCount: 67,
-    quote: "The best way to discover Tokyo is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/47.jpg",
-    languages: ["Finnish", "Portuguese"],
-    experienceYears: 11,
-    certifications: ["Urban Navigation Specialist", "Professional Tour Guide Association", "Cultural Heritage Specialist"],
-    specialties: ["LGBTQ+ History"],
-    specialTraining: ["Wine Education"],
+    quote: "My goal is to help you fall in love with Tokyo just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/33.jpg",
+    languages: ["Danish", "Croatian", "Tagalog"],
+    experienceYears: 13,
+    certifications: ["Language Proficiency Certification"],
+    specialties: ["Photography Spots", "Adventure Sports", "Nightlife", "Art Galleries"],
+    specialTraining: [],
   },
   {
-    id: "guide-tokyo-8",
-    name: "Amina Wallace",
+    id: "guide-tokyo-9",
+    name: "Richard da Costa",
     city: "Tokyo",
     country: "Japan",
     state: "",
     region: "Asia Pacific",
     isPopular: false,
-    bio: "Amina is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Wildlife, Adventure Sports, Amina provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean", "Africa"],
-    tourTypes: ["Accessible Tour", "Bike Tour", "Relocation Tour", "Family-Friendly Tour", "Farm Visit"],
+    bio: "Richard is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Local Cuisine, Cultural Etiquette, Richard provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific"],
+    tourTypes: ["Romantic Tour", "Walking Tour"],
     maxGroupSize: 16,
-    licenseNumber: "LIC-7813-TOK",
-    phoneNumber: "+1-927-670-1756",
-    contactEmail: "amina.wallace@paragontrails.com",
+    licenseNumber: "LIC-7787-TOK",
+    phoneNumber: "+1-755-748-6013",
+    contactEmail: "richard.da@paragontrails.com",
     available: [
       {
-        day: "Wednesday",
+        day: "Sunday",
         availableHours: [
           {
-            from: "11:00 AM",
-            to: "02:00 PM",
+            from: "10:00 AM",
+            to: "03:00 PM",
           },
           {
-            from: "11:00 AM",
+            from: "09:00 AM",
             to: "01:00 PM",
           }
         ],
       },
       {
-        day: "Sunday",
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "02:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Richard is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Local Cuisine, Cultural Etiquette, Richard provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.4,
+    reviewsCount: 90,
+    quote: "Tokyo isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/74.jpg",
+    languages: ["Finnish"],
+    experienceYears: 16,
+    certifications: ["Adventure Tourism Safety Certificate", "Eco-Tourism Guide"],
+    specialties: ["Local Cuisine", "Cultural Etiquette"],
+    specialTraining: ["Regional Cuisine"],
+  },
+  {
+    id: "guide-tokyo-10",
+    name: "Savannah Keller",
+    city: "Tokyo",
+    country: "Japan",
+    state: "",
+    region: "Asia Pacific",
+    isPopular: true,
+    bio: "Savannah is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Family Activities, Savannah provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa"],
+    tourTypes: ["Cooking Class", "Adventure Tour", "Ghost Tour", "Museum Tour"],
+    maxGroupSize: 9,
+    licenseNumber: "LIC-6032-TOK",
+    phoneNumber: "+1-761-108-1779",
+    contactEmail: "savannah.keller@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "02:00 PM",
+            to: "08:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
         availableHours: [
           {
             from: "03:00 PM",
             to: "05:00 PM",
           },
           {
-            from: "10:00 AM",
-            to: "03:00 PM",
+            from: "03:00 PM",
+            to: "09:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Amina is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Wildlife, Adventure Sports, Amina provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.2,
-    reviewsCount: 37,
+    description: "Savannah is a passionate tour guide with extensive knowledge of Tokyo and Japan. Specializing in Family Activities, Savannah provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.4,
+    reviewsCount: 20,
     quote: "In Tokyo, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/70.jpg",
-    languages: ["Romanian"],
-    experienceYears: 13,
-    certifications: ["CPR & First Aid", "Local History Certification", "Professional Tour Guide Association"],
-    specialties: ["Wildlife", "Adventure Sports"],
-    specialTraining: ["Local Flora & Fauna", "Regional Geology"],
+    profileImage: "https://randomuser.me/api/portraits/women/71.jpg",
+    languages: ["Dutch", "Cantonese", "Swedish"],
+    experienceYears: 14,
+    certifications: ["Regional Tourism Ambassador"],
+    specialties: ["Family Activities"],
+    specialTraining: ["Desert Navigation", "Wine Education"],
   }
 ];

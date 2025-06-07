@@ -1,45 +1,391 @@
+// This file is auto-generated. Do not edit manually.
+
 import { TourGuide } from "@/lib/interfaces/people/staff";
 
 export const ketchikanunitedStatesalaskaGuides: TourGuide[] = [
   {
     id: "guide-ketchikan-1",
-    name: "Ellie Dixon",
+    name: "Michelle Wright",
+    city: "Ketchikan",
+    country: "United States",
+    state: "",
+    region: "Alaska",
+    isPopular: false,
+    bio: "Michelle is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Street Food, Religious Sites, Michelle provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Northern Europe"],
+    tourTypes: ["LGBTQ+ Friendly Tour", "Market Tour"],
+    maxGroupSize: 5,
+    licenseNumber: "LIC-6411-KET",
+    phoneNumber: "+1-100-761-9481",
+    contactEmail: "michelle.wright@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Michelle is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Street Food, Religious Sites, Michelle provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.8,
+    reviewsCount: 41,
+    quote: "Every corner of Ketchikan tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/35.jpg",
+    languages: ["English", "French", "Vietnamese"],
+    experienceYears: 8,
+    certifications: ["CPR & First Aid", "Regional Tourism Ambassador", "Eco-Tourism Guide"],
+    specialties: ["Street Food", "Religious Sites"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-ketchikan-2",
+    name: "Jessica Grant",
+    city: "Ketchikan",
+    country: "United States",
+    state: "",
+    region: "Alaska",
+    isPopular: false,
+    bio: "Jessica is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Street Food, Sustainable Tourism, Cultural Etiquette, Jessica provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean"],
+    tourTypes: ["Adventure Tour", "Romantic Tour", "Private Tour", "Historical Tour"],
+    maxGroupSize: 6,
+    licenseNumber: "LIC-8296-KET",
+    phoneNumber: "+1-384-755-2805",
+    contactEmail: "jessica.grant@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Jessica is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Street Food, Sustainable Tourism, Cultural Etiquette, Jessica provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 28,
+    quote: "My goal is to help you fall in love with Ketchikan just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/59.jpg",
+    languages: ["Malay", "Polish", "Italian"],
+    experienceYears: 2,
+    certifications: ["Eco-Tourism Guide"],
+    specialties: ["Street Food", "Sustainable Tourism", "Cultural Etiquette"],
+    specialTraining: ["Urban Planning", "Mountain Survival"],
+  },
+  {
+    id: "guide-ketchikan-3",
+    name: "Elena Porter",
+    city: "Ketchikan",
+    country: "United States",
+    state: "",
+    region: "Alaska",
+    isPopular: false,
+    bio: "Elena is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Street Food, Elena provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Alaska"],
+    tourTypes: ["Historical Tour", "Self-Guided Tour", "Cruise Excursion", "Religious Tour"],
+    maxGroupSize: 13,
+    licenseNumber: "LIC-1411-KET",
+    phoneNumber: "+1-862-753-1623",
+    contactEmail: "elena.porter@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Elena is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Street Food, Elena provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 23,
+    quote: "Ketchikan isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/81.jpg",
+    languages: ["Hindi", "Polish"],
+    experienceYears: 4,
+    certifications: ["Adventure Tourism Safety Certificate"],
+    specialties: ["Street Food"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-ketchikan-4",
+    name: "Miguel Collins",
     city: "Ketchikan",
     country: "United States",
     state: "",
     region: "Alaska",
     isPopular: true,
-    bio: "Ellie is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Hidden Gems, Sustainable Tourism, Architecture, Street Food, Ellie provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada"],
-    tourTypes: ["Scenic Tour", "Luxury Tour", "Market Tour", "Wildlife Safari"],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-5623-KET",
-    phoneNumber: "+1-224-243-8367",
-    contactEmail: "ellie.dixon@paragontrails.com",
+    bio: "Miguel is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Street Food, Family Activities, Parks & Gardens, Miguel provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa", "Mediterranean"],
+    tourTypes: ["Brewery Tour", "Accessible Tour"],
+    maxGroupSize: 7,
+    licenseNumber: "LIC-3715-KET",
+    phoneNumber: "+1-457-441-9797",
+    contactEmail: "miguel.collins@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Miguel is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Street Food, Family Activities, Parks & Gardens, Miguel provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.8,
+    reviewsCount: 35,
+    quote: "My goal is to help you fall in love with Ketchikan just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/79.jpg",
+    languages: ["German", "Russian"],
+    experienceYears: 8,
+    certifications: ["Regional Tourism Ambassador"],
+    specialties: ["Street Food", "Family Activities", "Parks & Gardens"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-ketchikan-5",
+    name: "Scarlett Hall",
+    city: "Ketchikan",
+    country: "United States",
+    state: "",
+    region: "Alaska",
+    isPopular: true,
+    bio: "Scarlett is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Indigenous Culture, Local Craftsmanship, Film Locations, Historical Landmarks, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America", "Africa"],
+    tourTypes: ["Cultural Tour", "Historical Tour", "Adventure Tour", "Accessible Tour"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-6243-KET",
+    phoneNumber: "+1-541-260-6374",
+    contactEmail: "scarlett.hall@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Scarlett is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Indigenous Culture, Local Craftsmanship, Film Locations, Historical Landmarks, Scarlett provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 5,
+    quote: "The best way to discover Ketchikan is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/75.jpg",
+    languages: ["Greek", "Norwegian", "Swedish"],
+    experienceYears: 16,
+    certifications: ["Heritage Interpretation Certificate"],
+    specialties: ["Indigenous Culture", "Local Craftsmanship", "Film Locations", "Historical Landmarks"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-ketchikan-6",
+    name: "Juan Davis",
+    city: "Ketchikan",
+    country: "United States",
+    state: "",
+    region: "Alaska",
+    isPopular: false,
+    bio: "Juan is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Street Food, Art Galleries, Juan provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean"],
+    tourTypes: ["Cultural Tour", "Off-Road Tour", "Adventure Tour"],
+    maxGroupSize: 9,
+    licenseNumber: "LIC-6605-KET",
+    phoneNumber: "+1-713-922-3219",
+    contactEmail: "juan.davis@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Juan is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Street Food, Art Galleries, Juan provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.7,
+    reviewsCount: 61,
+    quote: "Ketchikan isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/7.jpg",
+    languages: ["Swedish", "Arabic"],
+    experienceYears: 7,
+    certifications: ["CPR & First Aid", "Cultural Heritage Specialist"],
+    specialties: ["Street Food", "Art Galleries"],
+    specialTraining: ["Cultural Sensitivity"],
+  },
+  {
+    id: "guide-ketchikan-7",
+    name: "Aaliyah Harper",
+    city: "Ketchikan",
+    country: "United States",
+    state: "",
+    region: "Alaska",
+    isPopular: true,
+    bio: "Aaliyah is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Architecture, Aaliyah provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America"],
+    tourTypes: ["Group Tour", "Family-Friendly Tour"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-9930-KET",
+    phoneNumber: "+1-846-125-2588",
+    contactEmail: "aaliyah.harper@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Aaliyah is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Architecture, Aaliyah provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.9,
+    reviewsCount: 33,
+    quote: "Ketchikan isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/58.jpg",
+    languages: ["Indonesian", "Swahili", "German"],
+    experienceYears: 14,
+    certifications: ["Cultural Heritage Specialist", "Professional Tour Guide Association", "Certified International Tour Manager"],
+    specialties: ["Architecture"],
+    specialTraining: ["Cultural Sensitivity"],
+  },
+  {
+    id: "guide-ketchikan-8",
+    name: "Henry Johnson",
+    city: "Ketchikan",
+    country: "United States",
+    state: "",
+    region: "Alaska",
+    isPopular: false,
+    bio: "Henry is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Hidden Gems, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean"],
+    tourTypes: ["Cultural Tour", "Walking Tour", "LGBTQ+ Friendly Tour", "Eco Tour", "Scenic Tour"],
+    maxGroupSize: 17,
+    licenseNumber: "LIC-1499-KET",
+    phoneNumber: "+1-278-955-6500",
+    contactEmail: "henry.johnson@paragontrails.com",
+    available: [],
+    isCertified: true,
+    description: "Henry is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Hidden Gems, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.7,
+    reviewsCount: 36,
+    quote: "Ketchikan isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/72.jpg",
+    languages: ["Hindi", "Croatian", "Arabic"],
+    experienceYears: 10,
+    certifications: ["Heritage Interpretation Certificate", "Local History Certification"],
+    specialties: ["Hidden Gems"],
+    specialTraining: ["Accessibility Services", "Mountain Survival"],
+  },
+  {
+    id: "guide-ketchikan-9",
+    name: "Dylan Bennett",
+    city: "Ketchikan",
+    country: "United States",
+    state: "",
+    region: "Alaska",
+    isPopular: true,
+    bio: "Dylan is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Architecture, Photography Spots, Dylan provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Mediterranean"],
+    tourTypes: ["Market Tour", "Adventure Tour"],
+    maxGroupSize: 6,
+    licenseNumber: "LIC-2870-KET",
+    phoneNumber: "+1-868-278-9587",
+    contactEmail: "dylan.bennett@paragontrails.com",
     available: [
       {
-        day: "Friday",
+        day: "Saturday",
         availableHours: [
           {
-            from: "11:00 AM",
-            to: "03:00 PM",
-          },
-          {
-            from: "03:00 PM",
-            to: "09:00 PM",
+            from: "08:00 AM",
+            to: "01:00 PM",
           }
         ],
       },
       {
-        day: "Wednesday",
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "04:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "11:00 AM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "03:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Dylan is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Architecture, Photography Spots, Dylan provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.9,
+    reviewsCount: 23,
+    quote: "In Ketchikan, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/83.jpg",
+    languages: ["Croatian"],
+    experienceYears: 3,
+    certifications: ["Adventure Tourism Safety Certificate", "Heritage Interpretation Certificate"],
+    specialties: ["Architecture", "Photography Spots"],
+    specialTraining: ["Marine Biology"],
+  },
+  {
+    id: "guide-ketchikan-10",
+    name: "Oliver Curtis",
+    city: "Ketchikan",
+    country: "United States",
+    state: "",
+    region: "Alaska",
+    isPopular: true,
+    bio: "Oliver is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Hidden Gems, Indigenous Culture, Museums, Oliver provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Alaska"],
+    tourTypes: ["Craft Workshop", "Wine Tour"],
+    maxGroupSize: 17,
+    licenseNumber: "LIC-5933-KET",
+    phoneNumber: "+1-824-484-9747",
+    contactEmail: "oliver.curtis@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "12:00 PM",
+          },
+          {
+            from: "11:00 AM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
         availableHours: [
           {
             from: "12:00 PM",
             to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "10:00 AM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Oliver is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Hidden Gems, Indigenous Culture, Museums, Oliver provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 5,
+    quote: "In Ketchikan, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/25.jpg",
+    languages: ["Italian"],
+    experienceYears: 6,
+    certifications: ["Local History Certification", "Sustainable Tourism Certificate"],
+    specialties: ["Hidden Gems", "Indigenous Culture", "Museums"],
+    specialTraining: ["Regional Cuisine"],
+  },
+  {
+    id: "guide-ketchikan-11",
+    name: "Adeline Jackson",
+    city: "Ketchikan",
+    country: "United States",
+    state: "",
+    region: "Alaska",
+    isPopular: false,
+    bio: "Adeline is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Adventure Sports, Local Cuisine, Adeline provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific"],
+    tourTypes: ["Farm Visit", "Religious Tour", "Luxury Tour", "Festival Tour"],
+    maxGroupSize: 19,
+    licenseNumber: "LIC-9344-KET",
+    phoneNumber: "+1-157-457-4145",
+    contactEmail: "adeline.jackson@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "07:00 PM",
           },
           {
             from: "10:00 AM",
-            to: "01:00 PM",
+            to: "04:00 PM",
           }
         ],
       },
@@ -47,406 +393,39 @@ export const ketchikanunitedStatesalaskaGuides: TourGuide[] = [
         day: "Thursday",
         availableHours: [
           {
-            from: "02:00 PM",
-            to: "08:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "03:00 PM",
-          },
-          {
-            from: "11:00 AM",
-            to: "03:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Ellie is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Hidden Gems, Sustainable Tourism, Architecture, Street Food, Ellie provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.7,
-    reviewsCount: 7,
-    quote: "My goal is to help you fall in love with Ketchikan just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/3.jpg",
-    languages: ["Czech", "Danish"],
-    experienceYears: 3,
-    certifications: ["Urban Navigation Specialist"],
-    specialties: ["Hidden Gems", "Sustainable Tourism", "Architecture", "Street Food"],
-    specialTraining: ["Group Management", "Archaeological Conservation"],
-  },
-  {
-    id: "guide-ketchikan-2",
-    name: "Linda Foster",
-    city: "Ketchikan",
-    country: "United States",
-    state: "",
-    region: "Alaska",
-    isPopular: false,
-    bio: "Linda is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Film Locations, Wine Tasting, Religious Sites, Architecture, Linda provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean", "West Coast USA"],
-    tourTypes: ["Accessible Tour", "Family-Friendly Tour", "Wine Tour", "Audio Tour"],
-    maxGroupSize: 13,
-    licenseNumber: "LIC-3806-KET",
-    phoneNumber: "+1-660-781-5819",
-    contactEmail: "linda.foster@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "03:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "07:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "01:00 PM",
-          },
-          {
-            from: "12:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Linda is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Film Locations, Wine Tasting, Religious Sites, Architecture, Linda provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.6,
-    reviewsCount: 13,
-    quote: "The best way to discover Ketchikan is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/12.jpg",
-    languages: ["Arabic", "Romanian"],
-    experienceYears: 12,
-    certifications: ["Local History Certification", "CPR & First Aid", "Cultural Heritage Specialist"],
-    specialties: ["Film Locations", "Wine Tasting", "Religious Sites", "Architecture"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-ketchikan-3",
-    name: "Blake White",
-    city: "Ketchikan",
-    country: "United States",
-    state: "",
-    region: "Alaska",
-    isPopular: false,
-    bio: "Blake is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Street Food, Historical Landmarks, Blake provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean"],
-    tourTypes: ["Bike Tour", "Off-Road Tour", "Eco Tour", "Helicopter Tour", "Museum Tour"],
-    maxGroupSize: 8,
-    licenseNumber: "LIC-3940-KET",
-    phoneNumber: "+1-680-660-7400",
-    contactEmail: "blake.white@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "05:00 PM",
-          },
-          {
-            from: "09:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "11:00 AM",
-          },
-          {
-            from: "10:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "01:00 PM",
-          },
-          {
-            from: "02:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Blake is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Street Food, Historical Landmarks, Blake provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 10,
-    quote: "The best way to discover Ketchikan is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/11.jpg",
-    languages: ["Cantonese"],
-    experienceYears: 10,
-    certifications: ["Adventure Tourism Safety Certificate", "CPR & First Aid", "Professional Tour Guide Association"],
-    specialties: ["Street Food", "Historical Landmarks"],
-    specialTraining: ["Archaeological Conservation", "Local Flora & Fauna"],
-  },
-  {
-    id: "guide-ketchikan-4",
-    name: "Hiroshi Jones",
-    city: "Ketchikan",
-    country: "United States",
-    state: "",
-    region: "Alaska",
-    isPopular: false,
-    bio: "Hiroshi is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Film Locations, Hiroshi provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Northern Europe"],
-    tourTypes: ["Street Art Tour", "Market Tour", "Nature Tour", "Helicopter Tour"],
-    maxGroupSize: 18,
-    licenseNumber: "LIC-9612-KET",
-    phoneNumber: "+1-131-857-1797",
-    contactEmail: "hiroshi.jones@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "10:00 AM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "02:00 PM",
-          },
-          {
-            from: "12:00 PM",
-            to: "02:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Hiroshi is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Film Locations, Hiroshi provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.7,
-    reviewsCount: 28,
-    quote: "In Ketchikan, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/73.jpg",
-    languages: ["Japanese", "Hebrew"],
-    experienceYears: 14,
-    certifications: ["Cultural Heritage Specialist", "Urban Navigation Specialist"],
-    specialties: ["Film Locations"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-ketchikan-5",
-    name: "Sarah Wilson",
-    city: "Ketchikan",
-    country: "United States",
-    state: "",
-    region: "Alaska",
-    isPopular: false,
-    bio: "Sarah is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Wine Tasting, Photography Spots, Local Cuisine, Architecture, Sarah provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean", "East Coast USA"],
-    tourTypes: ["Romantic Tour", "Ghost Tour"],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-4196-KET",
-    phoneNumber: "+1-665-869-4450",
-    contactEmail: "sarah.wilson@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "04:00 PM",
-          },
-          {
-            from: "11:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "04:00 PM",
-          },
-          {
-            from: "09:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "01:00 PM",
-          },
-          {
-            from: "12:00 PM",
-            to: "02:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
             from: "03:00 PM",
             to: "05:00 PM",
           },
           {
-            from: "11:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Sarah is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Wine Tasting, Photography Spots, Local Cuisine, Architecture, Sarah provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.2,
-    reviewsCount: 13,
-    quote: "The best way to discover Ketchikan is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/50.jpg",
-    languages: ["Greek", "Bulgarian", "Japanese"],
-    experienceYears: 2,
-    certifications: ["Eco-Tourism Guide", "Professional Tour Guide Association", "CPR & First Aid"],
-    specialties: ["Wine Tasting", "Photography Spots", "Local Cuisine", "Architecture"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-ketchikan-6",
-    name: "Carol Nakamura",
-    city: "Ketchikan",
-    country: "United States",
-    state: "",
-    region: "Alaska",
-    isPopular: false,
-    bio: "Carol is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Local Cuisine, Public Transportation Navigation, Carol provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Alaska", "East Coast USA"],
-    tourTypes: ["Off-Road Tour", "Architecture Tour", "Eco Tour"],
-    maxGroupSize: 6,
-    licenseNumber: "LIC-1517-KET",
-    phoneNumber: "+1-904-190-5112",
-    contactEmail: "carol.nakamura@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
             from: "02:00 PM",
-            to: "08:00 PM",
+            to: "04:00 PM",
           }
         ],
       },
       {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "04:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Carol is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Local Cuisine, Public Transportation Navigation, Carol provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.6,
-    reviewsCount: 9,
-    quote: "The best way to discover Ketchikan is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/51.jpg",
-    languages: ["Dutch", "Indonesian", "German"],
-    experienceYears: 14,
-    certifications: ["Cultural Heritage Specialist", "Food Safety Certification"],
-    specialties: ["Local Cuisine", "Public Transportation Navigation"],
-    specialTraining: ["Accessibility Services", "Photography"],
-  },
-  {
-    id: "guide-ketchikan-7",
-    name: "Ahmed Singh",
-    city: "Ketchikan",
-    country: "United States",
-    state: "",
-    region: "Alaska",
-    isPopular: false,
-    bio: "Ahmed is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Wine Tasting, Ahmed provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Asia Pacific", "Northern Europe"],
-    tourTypes: ["Craft Workshop", "Adventure Tour"],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-5175-KET",
-    phoneNumber: "+1-591-744-3410",
-    contactEmail: "ahmed.singh@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
+        day: "Friday",
         availableHours: [
           {
             from: "01:00 PM",
-            to: "07:00 PM",
-          },
-          {
-            from: "03:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "11:00 AM",
-          },
-          {
-            from: "10:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "09:00 AM",
             to: "03:00 PM",
+          },
+          {
+            from: "02:00 PM",
+            to: "04:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Ahmed is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Wine Tasting, Ahmed provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.9,
-    reviewsCount: 15,
-    quote: "In Ketchikan, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/80.jpg",
-    languages: ["Russian"],
-    experienceYears: 15,
-    certifications: ["Certified International Tour Manager", "Food Safety Certification"],
-    specialties: ["Wine Tasting"],
-    specialTraining: ["Mountain Survival"],
+    description: "Adeline is a passionate tour guide with extensive knowledge of Ketchikan and United States. Specializing in Adventure Sports, Local Cuisine, Adeline provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.6,
+    reviewsCount: 95,
+    quote: "The best way to discover Ketchikan is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/44.jpg",
+    languages: ["Italian", "Dutch"],
+    experienceYears: 12,
+    certifications: ["Adventure Tourism Safety Certificate"],
+    specialties: ["Adventure Sports", "Local Cuisine"],
+    specialTraining: ["Public Speaking", "Cultural Sensitivity"],
   }
 ];
