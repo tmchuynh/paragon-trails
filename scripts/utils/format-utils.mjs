@@ -10,6 +10,20 @@ export function formatTitleToCamelCase(title) {
     .join("");
 }
 
+export function removeSpecialCharacters(str) {
+  return str.replace(/[^a-zA-Z0-9\s]/g, "");
+}
+
+export function formatTitleCaseToKebabCase(title) {
+  return title
+    .split(" ")
+    .map((word) => word.toLowerCase())
+    .join("-")
+    .replace(/[^a-z0-9-]+/g, "")
+    .replace(/^-|-$/g, "");
+}
+
+
 export function formatTimeTo24HourClock(time) {
   const date = new Date(`1970-01-01T${time}`);
   const options = {
