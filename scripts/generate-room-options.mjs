@@ -36,8 +36,16 @@
 
 import * as fs from "fs/promises";
 import * as path from "path";
-import { formatTitleToCamelCase } from "./utils/format-utils.mjs";
-import { cityCountryMap } from "./utils/geo-utils.mjs";
+import {
+  formatTitleToCamelCase,
+  removeSpecialCharacters,
+} from "./utils/format-utils.mjs";
+import {
+  cityCountryMap,
+  countryCurrencyMap,
+  currencyRates,
+} from "./utils/geo-utils.mjs";
+import { getCityFiles } from "./utils/file-utils.mjs";
 import {
   countrySpecificDescriptions,
   roomAdjectives,
@@ -340,7 +348,7 @@ function generateRoomOptions(hotel, index) {
   let bedTypesToUse = bedTypes;
   if (options.bedType) {
     bedTypesToUse = bedTypes.filter(
-      (type) => type.toLowerCase() === options.bedType.toLowerCase(),
+      (type) => type.toLowerCase() === options.bedType.toLowerCase()
     );
     if (bedTypesToUse.length === 0) bedTypesToUse = [options.bedType];
   }
@@ -349,21 +357,21 @@ function generateRoomOptions(hotel, index) {
   let viewTypesToUse = viewTypes;
   if (options.viewType) {
     viewTypesToUse = viewTypes.filter(
-      (type) => type.toLowerCase() === options.viewType.toLowerCase(),
+      (type) => type.toLowerCase() === options.viewType.toLowerCase()
     );
     if (viewTypesToUse.length === 0) viewTypesToUse = [options.viewType];
   }
 
   // Generate different combinations of room types
-  for (const bedType of getRandomSubset(bedTypesToUse, 1, 4)) {
-    for (const viewType of getRandomSubset(viewTypesToUse, 1, 2)) {
+  for (const bedType of getRandomSubset(bedTypesToUse, 1, 5)) {
+    for (const viewType of getRandomSubset(viewTypesToUse, 1, 4)) {
       // Skip some combinations to have a varied set of rooms
       if (!options.bedType && !options.viewType && Math.random() < 0.3)
         continue;
 
-      // Use country-specific room theme with 70% probability
+      // Use country-specific room theme with 40% probability
       let prefix;
-      if (Math.random() < 0.7 && roomThemes.length > 0) {
+      if (Math.random() < 0.4 && roomThemes.length > 0) {
         prefix = roomThemes[Math.floor(Math.random() * roomThemes.length)];
       } else {
         prefix = roomPrefixes[Math.floor(Math.random() * roomPrefixes.length)];
@@ -380,8 +388,8 @@ function generateRoomOptions(hotel, index) {
       // Add 3-6 more amenities
       const additionalRoomAmenities = getRandomSubset(
         additionalAmenities,
-        3,
-        6,
+        1,
+        5
       );
       amenities.push(...additionalRoomAmenities);
 
@@ -397,7 +405,7 @@ function generateRoomOptions(hotel, index) {
                 "Hearing Support",
               ],
               1,
-              2,
+              3
             )
           : undefined;
 
@@ -407,7 +415,7 @@ function generateRoomOptions(hotel, index) {
         bedType,
         suffix,
         viewType,
-        country,
+        country
       );
 
       // Determine max guests based on options or calculate it
@@ -447,7 +455,7 @@ function generateEnhancedDescription(
   bedType,
   suffix,
   viewType,
-  country,
+  country
 ) {
   // Pick a random template
   const template =
@@ -509,7 +517,7 @@ function generateEnhancedDescription(
 
 // Calculate base price based on hotel rating, accommodation type, and location
 function calculateBasePrice(hotel) {
-  // Base price by hotel rating
+  // Base price by hotel rating (in USD)
   let basePrice;
   switch (hotel.rating) {
     case 5:
@@ -540,8 +548,71 @@ function calculateBasePrice(hotel) {
     basePrice *= 1.2;
   }
 
-  // Return price in local currency
-  return basePrice;
+  // --- City/country cost-of-living adjustment ---
+  // Extract city from hotel.id (format is hotel-{city}-{index})
+  const cityMatch = hotel.id && hotel.id.match(/hotel-([^-]+)-/);
+  const city = cityMatch ? cityMatch[1] : null;
+  const expensiveCities = [
+    "paris",
+    "london",
+    "new-york-city",
+    "tokyo",
+    "singapore",
+    "sydney",
+    "dubai",
+    "amsterdam",
+    "berlin",
+    "san-francisco",
+    "los-angeles",
+    "hong-kong",
+  ];
+  const cheapCities = [
+    "bangkok",
+    "ho-chi-minh-city",
+    "lima",
+    "hanoi",
+    "bali",
+    "istanbul",
+    "athens",
+    "lisbon",
+    "rio-de-janeiro",
+    "cape-town",
+  ];
+  if (city) {
+    if (expensiveCities.includes(city.toLowerCase())) {
+      basePrice *= 1.5;
+    } else if (cheapCities.includes(city.toLowerCase())) {
+      basePrice *= 0.7;
+    }
+  }
+
+  // --- Currency conversion ---
+  // Get country and currency code
+  const country = city ? cityCountryMap[city] || "" : "";
+  const currencyCode = countryCurrencyMap[country] || hotel.currency || "USD";
+  const rate = currencyRates[currencyCode] || 1;
+  let localPrice = basePrice * rate;
+
+  // Round for local conventions
+  if (
+    ["JPY", "KRW", "VND", "IDR", "HUF", "CLP", "COP", "ARS"].includes(
+      currencyCode
+    )
+  ) {
+    localPrice = Math.round(localPrice / 100) * 100;
+  } else if (currencyCode === "ISK") {
+    localPrice = Math.round(localPrice / 10) * 10;
+  } else if (
+    ["USD", "CAD", "AUD", "NZD", "EUR", "GBP", "CHF", "SGD", "HKD"].includes(
+      currencyCode
+    )
+  ) {
+    localPrice = Math.round(localPrice);
+  } else {
+    localPrice = Math.round(localPrice * 100) / 100;
+  }
+
+  return localPrice;
 }
 
 // Calculate room price based on bed type and view
@@ -618,20 +689,20 @@ const hotelsDir = path.join(
   "lib",
   "constants",
   "destinations",
-  "hotels",
+  "hotels"
 );
 
 async function generateRoomOptionsForHotels() {
   try {
     // Get all city directories
-    const cities = await fs.readdir(hotelsDir);
+    const cities = getCityFiles();
 
     // Filter cities if needed
     let citiesToProcess = cities;
     if (options.cityFilter) {
       const filterLower = options.cityFilter.toLowerCase();
       citiesToProcess = cities.filter((city) =>
-        city.toLowerCase().includes(filterLower),
+        city.toLowerCase().includes(filterLower)
       );
 
       if (citiesToProcess.length === 0) {
@@ -640,12 +711,12 @@ async function generateRoomOptionsForHotels() {
       }
 
       console.log(
-        `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`,
+        `Processing ${citiesToProcess.length} cities matching: ${options.cityFilter}`
       );
     }
 
     // Process each city
-    for (const city of citiesToProcess) {
+    for (const city of cities) {
       // Get the path to the hotels.ts file
       const cityDir = path.join(hotelsDir, city);
       const hotelFilePath = path.join(cityDir, "hotels.ts");
@@ -659,7 +730,7 @@ async function generateRoomOptionsForHotels() {
 
         // Extract the hotel array content
         const hotelArrayMatch = fileContent.match(
-          /export const \w+: Hotel\[\] = \[([\s\S]*?)\];/,
+          /export const \w+: Hotel\[\] = \[([\s\S]*?)\];/
         );
         if (!hotelArrayMatch || !hotelArrayMatch[1]) {
           console.warn(`Could not find hotel array in ${hotelFilePath}`);
@@ -683,24 +754,23 @@ async function generateRoomOptionsForHotels() {
           // Skip if hotel doesn't have required properties
           if (!hotel || !hotel.name) {
             console.warn(
-              `Skipping hotel at index ${i}: missing required properties`,
+              `Skipping hotel at index ${i}: missing required properties`
             );
             continue;
           }
 
           // Create filename from hotel name
-          const kebabName = formatTitleToCamelCase(hotel.name);
-          const roomsFilePath = path.join(
-            cityDir,
-            `${kebabName.replaceAll(".", "")}Rooms.ts`,
+          const kebabName = removeSpecialCharacters(
+            formatTitleToCamelCase(hotel.name)
           );
+          const roomsFilePath = path.join(cityDir, `${kebabName}Rooms.ts`);
 
           // Check if file exists and if we should skip it
           try {
             await fs.access(roomsFilePath);
             if (!options.rewrite && !options.append) {
               console.log(
-                `Skipping existing file (use --rewrite to replace or --append to add rooms): ${roomsFilePath}`,
+                `Skipping existing file (use --rewrite to replace or --append to add rooms): ${roomsFilePath}`
               );
               continue;
             }
@@ -717,7 +787,7 @@ async function generateRoomOptionsForHotels() {
               // Only take the requested number of new rooms
               const newRoomsToAdd = additionalOptions.slice(
                 0,
-                options.appendCount,
+                options.appendCount
               );
 
               // Combine existing and new room options
@@ -727,9 +797,10 @@ async function generateRoomOptionsForHotels() {
               ];
 
               // Create updated file content
-              let content = `import { RoomOption } from "@/lib/interfaces/services/rentals";\n\n`;
+              let content = `// This file is auto-generated. Do not edit manually.\n\n`;
+              content += `import { RoomOption } from "@/lib/interfaces/services/rentals";\n\n`;
               content += `// Room options for ${hotel.name}\n`;
-              content += `export const ${formatTitleToCamelCase(hotel.name)}Rooms: RoomOption[] = [\n`;
+              content += `export const ${removeSpecialCharacters(formatTitleToCamelCase(hotel.name))}Rooms: RoomOption[] = [\n`;
 
               combinedOptions.forEach((room, index) => {
                 content += `  {\n`;
@@ -746,7 +817,7 @@ async function generateRoomOptionsForHotels() {
                   } else if (typeof value === "object" && value !== null) {
                     content += `    ${key}: {\n`;
                     for (const [nestedKey, nestedValue] of Object.entries(
-                      value,
+                      value
                     )) {
                       if (nestedValue !== undefined) {
                         if (typeof nestedValue === "string") {
@@ -769,7 +840,7 @@ async function generateRoomOptionsForHotels() {
               // Write updated content to file
               await fs.writeFile(roomsFilePath, content, "utf-8");
               console.log(
-                `Appended ${newRoomsToAdd.length} new room options to ${roomsFilePath}`,
+                `Appended ${newRoomsToAdd.length} new room options to ${roomsFilePath}`
               );
               continue;
             }
@@ -820,7 +891,7 @@ async function generateRoomOptionsForHotels() {
           // Write to file
           await fs.writeFile(roomsFilePath, content, "utf-8");
           console.log(
-            `Created room options for ${hotel.name} at ${roomsFilePath}`,
+            `Created room options for ${hotel.name} at ${roomsFilePath}`
           );
         }
       } catch (error) {
