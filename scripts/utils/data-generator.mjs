@@ -76,3 +76,12 @@ export function generateCityTitle(cityKey) {
   // Fallback generic title
   return `Discover Top Attractions in ${cityKey.replace(/-/g, " ").replace(/\b\w/g, (l) => l.toUpperCase())}`;
 }
+
+export function getRandomDate(startDate, endDate) {
+  const start = new Date(startDate);
+  const end = new Date(endDate);
+  const date = new Date(
+    start.getTime() + Math.random() * (end.getTime() - start.getTime())
+  );
+  return date.toISOString().split("T")[0]; // Return in YYYY-MM-DD format
+}
