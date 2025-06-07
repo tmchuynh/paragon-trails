@@ -36,13 +36,9 @@ import { format, parseISO } from "date-fns";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 
-export default function TestimonialsForCityPage({
-  params,
-}: {
-  params: { city: string };
-}) {
+export default function TestimonialsForCityPage() {
   const searchParams = useSearchParams();
-  const city = searchParams.get("city") || params.city;
+  const city = searchParams.get("city");
   const [testimonials, setTestimonials] = useState<Testimonial[]>([]);
   const [filteredTestimonials, setFilteredTestimonials] = useState<
     Testimonial[]
@@ -53,7 +49,11 @@ export default function TestimonialsForCityPage({
   const [pageSize, setPageSize] = useState(9);
   const [sortField, setSortField] = useState<string>("date");
   const [sortDirection, setSortDirection] = useState<"asc" | "desc">("desc");
+
+  // Enhanced filters
   const [minRatingFilter, setMinRatingFilter] = useState<number | null>(null);
+  const [startDateFilter, setStartDateFilter] = useState<string | null>(null);
+  const [endDateFilter, setEndDateFilter] = useState<string | null>(null);
 
   const cityName = formatKebabToTitle(city);
 
@@ -76,8 +76,22 @@ export default function TestimonialsForCityPage({
   useEffect(() => {
     // Apply filters
     const filtered = testimonials.filter((testimonial) => {
+      // Rating filter
       if (minRatingFilter !== null && testimonial.rating < minRatingFilter)
         return false;
+
+      // Date range filter
+      if (testimonial.date) {
+        const testimonialDate = new Date(testimonial.date);
+        if (startDateFilter && new Date(startDateFilter) > testimonialDate)
+          return false;
+        if (endDateFilter && new Date(endDateFilter) < testimonialDate)
+          return false;
+      } else if (startDateFilter || endDateFilter) {
+        // If we're filtering by date and this testimonial has no date, exclude it
+        return false;
+      }
+
       return true;
     });
 
@@ -87,7 +101,6 @@ export default function TestimonialsForCityPage({
         const dateA = a.date ? new Date(a.date).getTime() : 0;
         const dateB = b.date ? new Date(b.date).getTime() : 0;
         return sortDirection === "asc" ? dateA - dateB : dateB - dateA;
-      } else if (sortField === "rating") {
       } else if (sortField === "rating") {
         return sortDirection === "asc"
           ? a.rating - b.rating
@@ -102,7 +115,14 @@ export default function TestimonialsForCityPage({
 
     setFilteredTestimonials(sorted);
     setCurrentPage(1);
-  }, [testimonials, minRatingFilter, sortField, sortDirection]);
+  }, [
+    testimonials,
+    minRatingFilter,
+    startDateFilter,
+    endDateFilter,
+    sortField,
+    sortDirection,
+  ]);
 
   if (isLoading) {
     return <Loading />;
@@ -118,6 +138,8 @@ export default function TestimonialsForCityPage({
   // Reset filters function
   const resetFilters = () => {
     setMinRatingFilter(null);
+    setStartDateFilter(null);
+    setEndDateFilter(null);
     setSortField("date");
     setSortDirection("desc");
   };
@@ -359,6 +381,84 @@ export default function TestimonialsForCityPage({
                         {rating}+ Stars
                       </SelectItem>
                     ))}
+                  </SelectContent>
+                </Select>
+              </div>
+
+              {/* Date Range Filter */}
+              <div className="space-y-2">
+                <h5>Date Range</h5>
+                <div className="space-y-2">
+                  <div>
+                    <label htmlFor="start-date" className="text-sm">
+                      From
+                    </label>
+                    <input
+                      id="start-date"
+                      type="date"
+                      className="bg-background mt-1 px-3 py-2 border border-border rounded-md w-full"
+                      value={startDateFilter || ""}
+                      onChange={(e) =>
+                        setStartDateFilter(e.target.value || null)
+                      }
+                    />
+                  </div>
+                  <div>
+                    <label htmlFor="end-date" className="text-sm">
+                      To
+                    </label>
+                    <input
+                      id="end-date"
+                      type="date"
+                      className="bg-background mt-1 px-3 py-2 border border-border rounded-md w-full"
+                      value={endDateFilter || ""}
+                      onChange={(e) => setEndDateFilter(e.target.value || null)}
+                    />
+                  </div>
+                </div>
+              </div>
+
+              {/* Sort Order */}
+              <div className="space-y-2">
+                <h5>Sort By</h5>
+                <Select
+                  value={sortField}
+                  onValueChange={(value) => setSortField(value)}
+                >
+                  <SelectTrigger className="w-full">
+                    <SelectValue placeholder="Sort By" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value="date">Date</SelectItem>
+                    <SelectItem value="rating">Rating</SelectItem>
+                    <SelectItem value="author">Author</SelectItem>
+                  </SelectContent>
+                </Select>
+
+                <Select
+                  value={sortDirection}
+                  onValueChange={(value) =>
+                    setSortDirection(value as "asc" | "desc")
+                  }
+                >
+                  <SelectTrigger className="w-full">
+                    <SelectValue placeholder="Direction" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value="asc">
+                      {sortField === "date"
+                        ? "Oldest First"
+                        : sortField === "rating"
+                          ? "Lowest First"
+                          : "A to Z"}
+                    </SelectItem>
+                    <SelectItem value="desc">
+                      {sortField === "date"
+                        ? "Newest First"
+                        : sortField === "rating"
+                          ? "Highest First"
+                          : "Z to A"}
+                    </SelectItem>
                   </SelectContent>
                 </Select>
               </div>
