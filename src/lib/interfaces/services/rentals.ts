@@ -58,10 +58,11 @@ export interface Motorcycle {
   dropOffCountry?: string; // Optional, if different from pick-up
   dropOffLocation?: string; // Optional, if different from pick-up
   features: MotorcycleFeature[];
-  imageUrl?: string;
   requirements: MotorcycleRequirement[];
   availability?: boolean;
   location?: string;
+  minimumRentalAge: number;
+  depositAmount: number;
 }
 
 type MotorcycleType =
