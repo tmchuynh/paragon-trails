@@ -85,7 +85,7 @@ async function getExistingCityTestimonials() {
   try {
     const testimonialDir = path.join(
       __dirname,
-      "../src/lib/constants/cityTestimonials",
+      "../src/lib/constants/testimonials/cities"
     );
 
     // Create directory if it doesn't exist yet
@@ -202,7 +202,7 @@ async function createTestimonialsIndex() {
   try {
     const testimonialDir = path.join(
       __dirname,
-      "../src/lib/constants/cityTestimonials",
+      "../src/lib/constants/testimonials/cities"
     );
     const files = await readdir(testimonialDir);
 
