@@ -128,27 +128,23 @@ export interface Hotel {
   roomFile?: string; // Add this line
 }
 
-export interface RoomOption {
+interface RoomOption {
   id: string;
   name: string;
   description: string;
-  pricePerNight: number;
-  view: "City View" | "Ocean View" | "Garden View" | "Mountain View" | "None";
-  currency: string;
-  refundable: boolean;
-  breakfastIncluded: boolean;
   occupancy: {
     adults: number;
     children?: number;
     maxGuests: number;
   };
-  amenities: string[];
   accessibilityFeatures?: string[];
   imageUrl?: string;
   bedType: "Single" | "Double" | "Queen" | "King" | "Twin" | "Sofa Bed";
-  availability: number;
-  squareFootage: number;
+  view: "City View" | "Ocean View" | "Garden View" | "Mountain View" | "None";
+  amenities: string[];
+  pricePerNight: number;
+  currency: string;
+  refundable: boolean;
+  breakfastIncluded: boolean;
   availableCount: number;
-  smokingPolicy?: "Designated Areas" | "Non-Smoking" | "Smoking Allowed";
-  features: string[];
 }
