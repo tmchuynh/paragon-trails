@@ -110,31 +110,169 @@ export default function CarRentalsPage() {
     loadCars();
   }, []);
 
-  // Extract unique values for filters
-  const uniqueTypes = Array.from(new Set(cars.map((car) => car.type))).sort();
-  const uniqueMakes = Array.from(new Set(cars.map((car) => car.make))).sort();
-  const uniqueModels = Array.from(new Set(cars.map((car) => car.model))).sort();
-  const uniqueYears = Array.from(new Set(cars.map((car) => car.year))).sort(
-    (a, b) => b - a
-  );
-  const uniqueSeats = Array.from(new Set(cars.map((car) => car.seats))).sort(
-    (a, b) => a - b
-  );
-  const uniqueTransmissions = Array.from(
-    new Set(cars.map((car) => car.transmission))
-  ).sort();
-  const uniqueFuelTypes = Array.from(
-    new Set(cars.map((car) => car.fuelType))
-  ).sort();
-  const uniqueColors = Array.from(
-    new Set(cars.flatMap((car) => car.colorOptions))
-  ).sort();
-  const uniqueFeatures = Array.from(
-    new Set(cars.flatMap((car) => car.features))
-  ).sort();
-  const uniqueRentalAges = Array.from(
-    new Set(cars.map((car) => car.minimumRentalAge))
-  ).sort((a, b) => a - b);
+  // Function to get filtered options for dropdowns considering other filters
+  const getFilteredOptions = (
+    field: keyof LuxuryRentalCar,
+    excludeCurrentFilter = true
+  ) => {
+    // Filter cars based on all filters except the current one
+    let filtered = cars.filter((car) => {
+      if (
+        excludeCurrentFilter &&
+        field === "type" &&
+        typeFilter &&
+        car.type !== typeFilter
+      )
+        return true;
+      if (field !== "type" && typeFilter && car.type !== typeFilter)
+        return false;
+
+      if (
+        excludeCurrentFilter &&
+        field === "make" &&
+        makeFilter &&
+        car.make !== makeFilter
+      )
+        return true;
+      if (field !== "make" && makeFilter && car.make !== makeFilter)
+        return false;
+
+      if (
+        excludeCurrentFilter &&
+        field === "model" &&
+        modelFilter &&
+        car.model !== modelFilter
+      )
+        return true;
+      if (field !== "model" && modelFilter && car.model !== modelFilter)
+        return false;
+
+      if (
+        excludeCurrentFilter &&
+        field === "year" &&
+        yearFilter &&
+        car.year !== yearFilter
+      )
+        return true;
+      if (field !== "year" && yearFilter && car.year !== yearFilter)
+        return false;
+
+      if (
+        excludeCurrentFilter &&
+        field === "seats" &&
+        seatsFilter &&
+        car.seats !== seatsFilter
+      )
+        return true;
+      if (field !== "seats" && seatsFilter && car.seats !== seatsFilter)
+        return false;
+
+      if (
+        excludeCurrentFilter &&
+        field === "transmission" &&
+        transmissionFilter &&
+        car.transmission !== transmissionFilter
+      )
+        return true;
+      if (
+        field !== "transmission" &&
+        transmissionFilter &&
+        car.transmission !== transmissionFilter
+      )
+        return false;
+
+      if (
+        excludeCurrentFilter &&
+        field === "fuelType" &&
+        fuelTypeFilter &&
+        car.fuelType !== fuelTypeFilter
+      )
+        return true;
+      if (
+        field !== "fuelType" &&
+        fuelTypeFilter &&
+        car.fuelType !== fuelTypeFilter
+      )
+        return false;
+
+      if (horsepowerFilter && car.horsepower < horsepowerFilter) return false;
+
+      if (
+        excludeCurrentFilter &&
+        field === "colorOptions" &&
+        colorFilter &&
+        !car.colorOptions.includes(colorFilter)
+      )
+        return true;
+      if (
+        field !== "colorOptions" &&
+        colorFilter &&
+        !car.colorOptions.includes(colorFilter)
+      )
+        return false;
+
+      if (
+        featuresFilter.length > 0 &&
+        !featuresFilter.every((f) => car.features.includes(f))
+      )
+        return false;
+      if (minPriceFilter !== null && car.rentalPricePerDay < minPriceFilter)
+        return false;
+      if (maxPriceFilter !== null && car.rentalPricePerDay > maxPriceFilter)
+        return false;
+      if (availabilityFilter !== null && car.available !== availabilityFilter)
+        return false;
+      if (
+        minRentalAgeFilter !== null &&
+        car.minimumRentalAge < minRentalAgeFilter
+      )
+        return false;
+      if (minDepositFilter !== null && car.depositAmount < minDepositFilter)
+        return false;
+      if (maxDepositFilter !== null && car.depositAmount > maxDepositFilter)
+        return false;
+
+      return true;
+    });
+
+    // Get unique values based on field type
+    if (field === "colorOptions") {
+      const unique = Array.from(
+        new Set(filtered.flatMap((car) => car.colorOptions))
+      );
+      return unique.sort();
+    } else if (field === "features") {
+      const unique = Array.from(
+        new Set(filtered.flatMap((car) => car.features))
+      );
+      return unique.sort();
+    } else {
+      // Standard field
+      const unique = Array.from(new Set(filtered.map((car) => car[field])));
+
+      // Sort appropriately by type
+      if (field === "year") {
+        return unique.sort((a: any, b: any) => b - a); // Years in descending order
+      } else if (field === "seats" || field === "minimumRentalAge") {
+        return unique.sort((a: any, b: any) => a - b); // Numeric values in ascending order
+      }
+
+      // String values in alphabetical order
+      return unique.sort();
+    }
+  };
+
+  // Generate dynamic filter options based on current selections
+  const filteredTypes = getFilteredOptions("type");
+  const filteredMakes = getFilteredOptions("make");
+  const filteredModels = getFilteredOptions("model");
+  const filteredYears = getFilteredOptions("year");
+  const filteredSeats = getFilteredOptions("seats");
+  const filteredTransmissions = getFilteredOptions("transmission");
+  const filteredFuelTypes = getFilteredOptions("fuelType");
+  const filteredColors = getFilteredOptions("colorOptions");
+  const filteredFeatures = getFilteredOptions("features");
+  const filteredRentalAges = getFilteredOptions("minimumRentalAge");
 
   // Filtering logic
   useEffect(() => {
@@ -459,6 +597,7 @@ export default function CarRentalsPage() {
                   Reset All
                 </Button>
               </div>
+
               {/* Car Type */}
               <div className="space-y-2">
                 <h5>Car Type</h5>
@@ -473,14 +612,15 @@ export default function CarRentalsPage() {
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="all">All Types</SelectItem>
-                    {uniqueTypes.map((type) => (
-                      <SelectItem key={type} value={type}>
+                    {filteredTypes.map((type) => (
+                      <SelectItem key={type} value={type.toString()}>
                         {type}
                       </SelectItem>
                     ))}
                   </SelectContent>
                 </Select>
               </div>
+
               {/* Make */}
               <div className="space-y-2">
                 <h5>Make</h5>
@@ -495,14 +635,15 @@ export default function CarRentalsPage() {
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="all">All Makes</SelectItem>
-                    {uniqueMakes.map((make) => (
-                      <SelectItem key={make} value={make}>
+                    {filteredMakes.map((make) => (
+                      <SelectItem key={make} value={make.toString()}>
                         {make}
                       </SelectItem>
                     ))}
                   </SelectContent>
                 </Select>
               </div>
+
               {/* Model */}
               <div className="space-y-2">
                 <h5>Model</h5>
@@ -517,14 +658,15 @@ export default function CarRentalsPage() {
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="all">All Models</SelectItem>
-                    {uniqueModels.map((model) => (
-                      <SelectItem key={model} value={model}>
+                    {filteredModels.map((model) => (
+                      <SelectItem key={model} value={model.toString()}>
                         {model}
                       </SelectItem>
                     ))}
                   </SelectContent>
                 </Select>
               </div>
+
               {/* Year */}
               <div className="space-y-2">
                 <h5>Year</h5>
@@ -539,7 +681,7 @@ export default function CarRentalsPage() {
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="all">All Years</SelectItem>
-                    {uniqueYears.map((year) => (
+                    {filteredYears.map((year) => (
                       <SelectItem key={year} value={year.toString()}>
                         {year}
                       </SelectItem>
@@ -547,6 +689,7 @@ export default function CarRentalsPage() {
                   </SelectContent>
                 </Select>
               </div>
+
               {/* Seats */}
               <div className="space-y-2">
                 <h5>Seats</h5>
@@ -561,7 +704,7 @@ export default function CarRentalsPage() {
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="all">Any</SelectItem>
-                    {uniqueSeats.map((seats) => (
+                    {filteredSeats.map((seats) => (
                       <SelectItem key={seats} value={seats.toString()}>
                         {seats} seats
                       </SelectItem>
@@ -569,6 +712,7 @@ export default function CarRentalsPage() {
                   </SelectContent>
                 </Select>
               </div>
+
               {/* Transmission */}
               <div className="space-y-2">
                 <h5>Transmission</h5>
@@ -583,14 +727,15 @@ export default function CarRentalsPage() {
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="all">Any</SelectItem>
-                    {uniqueTransmissions.map((trans) => (
-                      <SelectItem key={trans} value={trans}>
+                    {filteredTransmissions.map((trans) => (
+                      <SelectItem key={trans} value={trans.toString()}>
                         {trans}
                       </SelectItem>
                     ))}
                   </SelectContent>
                 </Select>
               </div>
+
               {/* Fuel Type */}
               <div className="space-y-2">
                 <h5>Fuel Type</h5>
@@ -605,14 +750,15 @@ export default function CarRentalsPage() {
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="all">Any</SelectItem>
-                    {uniqueFuelTypes.map((fuel) => (
-                      <SelectItem key={fuel} value={fuel}>
+                    {filteredFuelTypes.map((fuel) => (
+                      <SelectItem key={fuel} value={fuel.toString()}>
                         {fuel}
                       </SelectItem>
                     ))}
                   </SelectContent>
                 </Select>
               </div>
+
               {/* Horsepower */}
               <div className="space-y-2">
                 <h5>Minimum Horsepower</h5>
@@ -637,6 +783,7 @@ export default function CarRentalsPage() {
                   </SelectContent>
                 </Select>
               </div>
+
               {/* Color */}
               <div className="space-y-2">
                 <h5>Color</h5>
@@ -651,19 +798,20 @@ export default function CarRentalsPage() {
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="all">Any</SelectItem>
-                    {uniqueColors.map((color) => (
-                      <SelectItem key={color} value={color}>
+                    {filteredColors.map((color) => (
+                      <SelectItem key={color} value={color.toString()}>
                         {color}
                       </SelectItem>
                     ))}
                   </SelectContent>
                 </Select>
               </div>
+
               {/* Features */}
               <div className="space-y-2">
                 <h5>Features</h5>
                 <div className="space-y-2 p-2 border border-border rounded-md max-h-48 overflow-y-auto">
-                  {uniqueFeatures.slice(0, 15).map((feature) => (
+                  {filteredFeatures.slice(0, 15).map((feature) => (
                     <div key={feature} className="flex items-center space-x-2">
                       <Checkbox
                         id={`feature-${feature}`}
@@ -680,13 +828,14 @@ export default function CarRentalsPage() {
                       </label>
                     </div>
                   ))}
-                  {uniqueFeatures.length > 15 && (
+                  {filteredFeatures.length > 15 && (
                     <p className="text-muted-foreground text-xs">
-                      + {uniqueFeatures.length - 15} more features available
+                      + {filteredFeatures.length - 15} more features available
                     </p>
                   )}
                 </div>
               </div>
+
               {/* Rental Price */}
               <div className="space-y-2">
                 <h5>Rental Price Per Day</h5>
@@ -717,6 +866,7 @@ export default function CarRentalsPage() {
                   />
                 </div>
               </div>
+
               {/* Availability */}
               <div className="space-y-2">
                 <h5>Availability</h5>
@@ -750,6 +900,7 @@ export default function CarRentalsPage() {
                   </SelectContent>
                 </Select>
               </div>
+
               {/* Minimum Rental Age */}
               <div className="space-y-2">
                 <h5>Minimum Rental Age</h5>
@@ -766,7 +917,7 @@ export default function CarRentalsPage() {
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="all">Any</SelectItem>
-                    {uniqueRentalAges.map((age) => (
+                    {filteredRentalAges.map((age) => (
                       <SelectItem key={age} value={age.toString()}>
                         {age}+
                       </SelectItem>
@@ -774,6 +925,7 @@ export default function CarRentalsPage() {
                   </SelectContent>
                 </Select>
               </div>
+
               {/* Deposit Amount */}
               <div className="space-y-2">
                 <h5>Deposit Amount</h5>
@@ -804,6 +956,7 @@ export default function CarRentalsPage() {
                   />
                 </div>
               </div>
+
               <Button className="w-full" onClick={resetFilters}>
                 Reset All Filters
               </Button>
