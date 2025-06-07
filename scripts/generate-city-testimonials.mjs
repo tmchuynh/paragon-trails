@@ -8,7 +8,7 @@
  * Features:
  * - Reads all city data from existing city information files
  * - Generates 5-10 testimonials for each city
- * - Creates appropriate folder structure in src/lib/constants/cityTestimonials/
+ * - Creates appropriate folder structure in src/lib/constants/testimonials/cities/
  * - Generates realistic resident names, comments about living experiences
  * - Follows the Testimonial interface structure
  *
