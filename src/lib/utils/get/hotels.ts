@@ -17,15 +17,15 @@ export async function getAllHotels(): Promise<Hotel[]> {
 
       if (cityModule[hotelId]) {
         hotels.push(...(cityModule[hotelId] as Hotel[]));
+      } else {
+        console.error(`No hotels found for city: ${cityFile}`);
+        // Do not return here; continue to next city
       }
-      console.error(`No hotels found for city: ${cityFile}`);
-      return [];
     }
+    return hotels;
   } catch (error) {
     console.error(`Error loading city hotels: ${error}`);
     return [];
-  } finally {
-    return hotels;
   }
 }
 
@@ -36,7 +36,7 @@ export async function getHotelRooms(city: string, hotel: string) {
     const roomId = `${formattedHotel}Rooms`;
 
     const cityModule = await import(
-      `@/lib/constants/destinations/hotels/${formattedCity}/${formattedHotel}`
+      `@/lib/constants/destinations/hotels/${city}/${formattedHotel}`
     );
     if (cityModule[roomId]) {
       return cityModule[roomId] as RoomOption[];
@@ -45,7 +45,7 @@ export async function getHotelRooms(city: string, hotel: string) {
     return [];
   } catch (error) {
     console.error(
-      `Error loading rooms for hotel ${hotel} in city ${city}: ${error}`,
+      `Error loading rooms for hotel ${hotel} in city ${city}: ${error}`
     );
     return [];
   }
@@ -55,7 +55,7 @@ export async function getCityHotels(city: string): Promise<Hotel[]> {
     const formattedCity = formatKebabToCamelCase(city);
     const hotelId = `${formattedCity}Hotels`;
     const cityModule = await import(
-      `@/lib/constants/destinations/hotels/${formattedCity}/hotels`
+      `@/lib/constants/destinations/hotels/${city}/hotels`
     );
     if (cityModule[hotelId]) {
       return cityModule[hotelId] as Hotel[];
