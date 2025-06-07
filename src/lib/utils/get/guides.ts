@@ -24,7 +24,7 @@ export async function getTourGuides(): Promise<any> {
 
       const guideId = `${formattedCity}${formattedCountry.replaceAll(".", "")}${formattedRegion}Guides`;
       const guidesModule = await import(
-        `@/lib/constants/staff/guides/${formattedCity}`
+        `@/lib/constants/staff/guides/${cityFile}`
       );
       if (guidesModule[guideId]) {
         tourGuides.push(guidesModule[guideId]);
@@ -46,12 +46,18 @@ export async function getTourGuideById(
   guideId: string
 ): Promise<TourGuide | null> {
   const formattedCity = formatKebabToCamelCase(city);
-  const variableName = `${formattedCity}Guides`;
+  const country = cityCountryMap[city as keyof typeof cityCountryMap];
+  const region = cityToRegionMap[city as keyof typeof cityToRegionMap];
+  const formattedCountry = formatTitleToCamelCase(country);
+  const formattedRegion = formatTitleToCamelCase(region);
+
+  console.log("City:", city);
+  console.log(`Loading tour guide by ID for city: ${formattedCity}`);
+  console.log(`Searching for guide ID: ${guideId}`);
+  const variableName = `${formattedCity}${formattedCountry.replaceAll(".", "")}${formattedRegion}Guides`;
 
   try {
-    const guidesModule = await import(
-      `@/lib/constants/staff/guides/${formattedCity}`
-    );
+    const guidesModule = await import(`@/lib/constants/staff/guides/${city}`);
 
     if (guidesModule[variableName]) {
       const guides = guidesModule[variableName] as TourGuide[];
@@ -93,8 +99,7 @@ export async function getTourGuidesByCity(city: string): Promise<TourGuide[]> {
     const guides = await getTourGuides();
     const formattedCity = formatKebabToCamelCase(city);
     const guidesInCity = guides.filter(
-      (guide: { city: string }) =>
-        formatKebabToCamelCase(guide.city) === formattedCity
+      (guide: { city: string }) => formatKebabToCamelCase(guide.city) === city
     );
     if (guidesInCity.length > 0) {
       return guidesInCity;
@@ -274,7 +279,7 @@ export async function getTourGuideReviews(
 
   try {
     const reviewsModule = await import(
-      `@/lib/constants/reviews/guides/${formattedCity}`
+      `@/lib/constants/testimonials/guides/${formattedCity}`
     );
 
     if (reviewsModule[variableName] && reviewsModule[variableName][guideId]) {
@@ -322,7 +327,7 @@ export async function getAllGuideReviewsByCity(
 
   try {
     const reviewsModule = await import(
-      `@/lib/constants/reviews/guides/${formattedCity}`
+      `@/lib/constants/testimonials/guides/${city}`
     );
 
     if (reviewsModule[variableName]) {
