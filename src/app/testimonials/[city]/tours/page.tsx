@@ -351,7 +351,7 @@ export default function TourTestimonialsForCityPage() {
               <SelectTrigger className="w-[180px]">
                 <SelectValue placeholder="Reviews per page" />
               </SelectTrigger>
-              <SelectContent>
+              <SelectContent className="max-h-[35em] overflow-y-auto">
                 <SelectItem value="9">9 per page</SelectItem>
                 <SelectItem value="12">12 per page</SelectItem>
                 <SelectItem value="18">18 per page</SelectItem>
