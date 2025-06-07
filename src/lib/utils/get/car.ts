@@ -1,7 +1,7 @@
 import { cityFiles } from "@/lib/constants/info/city";
 import { LuxuryRentalCar } from "@/lib/interfaces/services/rentals";
 import { cityCountryMap, cityToRegionMap } from "@/lib/utils/mapping";
-import { formatKebabToCamelCase } from "../format";
+import { formatKebabToCamelCase, formatTitleToCamelCase } from "../format";
 
 export async function getLuxuryRentalCars(): Promise<LuxuryRentalCar[]> {
   const allCars: LuxuryRentalCar[] = [];
@@ -18,109 +18,45 @@ export async function getLuxuryRentalCars(): Promise<LuxuryRentalCar[]> {
         const formattedCity = formatKebabToCamelCase(cityFile);
         console.log(`Formatted city name: ${formattedCity}`);
 
-        // Direct approach based on known file structure
-        try {
-          // Try importing the module directly with the known path
-          const carModule = await import(
-            `@/lib/constants/rentals/cars/${formattedCity}`
-          );
-          console.log(
-            `Successfully imported from: @/lib/constants/rentals/cars/${formattedCity}`
-          );
-          console.log("Available exports:", Object.keys(carModule));
+        const country = cityCountryMap[cityFile as keyof typeof cityCountryMap];
+        const region =
+          cityToRegionMap[cityFile as keyof typeof cityToRegionMap];
+        const formattedCountry = formatTitleToCamelCase(country);
+        const formattedRegion = formatTitleToCamelCase(region);
 
-          // Try all possible export names
-          const knownExportNames = [
-            `${formattedCity}Cars`,
-            `${formattedCity}${cityCountryMap[cityFile as keyof typeof cityCountryMap] || ""}${cityToRegionMap[cityFile as keyof typeof cityToRegionMap] || ""}Cars`,
-            `${cityFile}Cars`,
-            `${formattedCity}italymediterraneanCars`,
-          ];
+        const rentalId = `${formattedCity}${formattedCountry.replaceAll(".", "")}${formattedRegion}Cars`;
 
-          console.log(`Looking for exports for ${cityFile}:`, knownExportNames);
-
-          let foundCars = false;
-          for (const exportName of knownExportNames) {
-            if (carModule[exportName]) {
-              console.log(
-                `Found cars with export name: ${exportName}, count: ${carModule[exportName].length}`
-              );
-              allCars.push(...carModule[exportName]);
-              foundCars = true;
-              break;
-            }
-          }
-
-          // If we still haven't found the data, look for any array in the exports
-          if (!foundCars) {
-            for (const key of Object.keys(carModule)) {
-              if (
-                Array.isArray(carModule[key]) &&
-                carModule[key].length > 0 &&
-                carModule[key][0].make &&
-                carModule[key][0].model
-              ) {
-                // Check if it looks like car data
-                console.log(
-                  `Found array data with export name: ${key}, count: ${carModule[key].length}`
-                );
-                allCars.push(...carModule[key]);
-                foundCars = true;
-                break;
-              }
-            }
-          }
-
-          if (foundCars) {
-            console.log(
-              `Successfully loaded ${foundCars ? "some" : "no"} cars from ${cityFile}`
-            );
-          } else {
-            console.log(
-              `No car data found for ${cityFile} despite successful import`
-            );
-          }
-        } catch (importError) {
-          console.error(
-            `Error importing car data for ${cityFile}:`,
-            importError
-          );
-          // Continue to the next city if this one fails
-        }
-      } catch (cityError) {
-        console.error(`Error processing city: ${cityFile}`, cityError);
-        // Continue to the next city
-      }
-    }
-
-    console.log(`Total cars loaded from all cities: ${allCars.length}`);
-
-    // If no cars were found, we could still try the hardcoded fallback as a last resort
-    if (allCars.length === 0) {
-      console.log(
-        "No cars found through normal loading. Using amalfiCoastitalymediterraneanCars directly as a fallback."
-      );
-
-      try {
-        const amalfiModule = await import(
-          "@/lib/constants/rentals/cars/amalfiCoast"
+        const rentalCarsModule = await import(
+          `@/lib/constants/rentals/cars/${cityFile}`
         );
-        if (amalfiModule.amalfiCoastitalymediterraneanCars) {
+
+        if (rentalCarsModule[rentalId]) {
           console.log(
-            `Found amalfiCoastitalymediterraneanCars with ${amalfiModule.amalfiCoastitalymediterraneanCars.length} cars`
+            `Found ${rentalCarsModule[rentalId].length} luxury rental cars for ${cityFile}`
           );
-          allCars.push(...amalfiModule.amalfiCoastitalymediterraneanCars);
+          allCars.push(...rentalCarsModule[rentalId]);
+        } else {
+          console.warn(
+            `No luxury rental cars found for ${cityFile} with ID ${rentalId}`
+          );
         }
-      } catch (e) {
-        console.error("Failed to load hardcoded amalfi coast cars:", e);
+      } catch (error) {
+        console.error(
+          `Failed to import luxury rental cars for ${cityFile}:`,
+          error
+        );
+        continue; // Skip this city and move to the next one
       }
     }
-
-    return allCars;
   } catch (error) {
     console.error(`Error in getLuxuryRentalCars:`, error);
     return allCars; // Return whatever cars we managed to load, even if the overall process had errors
+  } finally {
+    console.log(
+      `Finished loading luxury rental cars. Total cars loaded: ${allCars.length}`
+    );
   }
+  return allCars;
 }
 
 export async function getLuxuryRentalCar(
