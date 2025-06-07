@@ -361,7 +361,7 @@ async function generateAllGuideReviews() {
           allReviews[guide.id] = generateReviews(guide);
         }
 
-        const outputFile = path.join(outputDir, `${formattedCity}.js`);
+        const outputFile = path.join(outputDir, `${formattedCity}.ts`);
         const outputContent = `
 // Tour guide reviews for ${formattedCity}
 export const ${formattedCity}GuideReviews = ${JSON.stringify(allReviews, null, 2)};
