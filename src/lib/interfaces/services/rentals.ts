@@ -128,7 +128,7 @@ export interface Hotel {
   roomFile?: string; // Add this line
 }
 
-interface RoomOption {
+export interface RoomOption {
   id: string;
   name: string;
   description: string;
