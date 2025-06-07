@@ -3,6 +3,7 @@
  */
 
 import { attractionBasicInfo } from "./attraction-basic-utils.mjs";
+import { randomInt } from "crypto";
 
 /**
  * Generate a random price within a range
@@ -26,6 +27,17 @@ export const getRandomItems = (array, count = 1) => {
   const shuffled = [...array].sort(() => 0.5 - Math.random());
   return shuffled.slice(0, count);
 };
+
+/**
+ * Generates a cryptographically secure random integer between 0 (inclusive) and max (exclusive)
+ * by utilizing the randomInt function.
+ *
+ * @param {number} max - The exclusive upper bound for the random integer
+ * @returns {number} A random integer between 0 (inclusive) and max (exclusive)
+ */
+export function getSecureRandomInt(max) {
+  return randomInt(0, max); // Returns an int from 0 (inclusive) to max (exclusive)
+}
 
 /**
  * Generate a random boolean with a given probability
