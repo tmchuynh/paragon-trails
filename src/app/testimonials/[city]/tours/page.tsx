@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, use } from "react";
 import { getTourTestimonialsForCity } from "@/lib/utils/get/testimonials";
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 import { Button } from "@/components/ui/button";
@@ -32,12 +32,11 @@ import {
 } from "@/components/ui/select";
 import { format, parseISO } from "date-fns";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 
-export default function TourTestimonialsForCityPage({
-  params,
-}: {
-  params: { city: string };
-}) {
+export default function TourTestimonialsForCityPage() {
+  const searchParams = useSearchParams();
+  const city = searchParams.get("city") || "";
   const [testimonials, setTestimonials] = useState<Testimonial[]>([]);
   const [filteredTestimonials, setFilteredTestimonials] = useState<
     Testimonial[]
@@ -52,12 +51,12 @@ export default function TourTestimonialsForCityPage({
   const [tourFilter, setTourFilter] = useState<string | null>(null);
   const [guideFilter, setGuideFilter] = useState<string | null>(null);
 
-  const cityName = formatKebabToTitle(params.city);
+  const cityName = formatKebabToTitle(city);
 
   useEffect(() => {
     async function loadTestimonials() {
       try {
-        const allTestimonials = await getTourTestimonialsForCity(params.city);
+        const allTestimonials = await getTourTestimonialsForCity(city);
         setTestimonials(allTestimonials);
         setFilteredTestimonials(allTestimonials);
       } catch (error) {
@@ -68,7 +67,7 @@ export default function TourTestimonialsForCityPage({
     }
 
     loadTestimonials();
-  }, [params.city]);
+  }, [city]);
 
   useEffect(() => {
     // Apply filters
@@ -77,8 +76,8 @@ export default function TourTestimonialsForCityPage({
         return false;
       if (
         tourFilter &&
-        testimonial.tourName &&
-        !testimonial.tourName.toLowerCase().includes(tourFilter.toLowerCase())
+        testimonial.author &&
+        !testimonial.author.toLowerCase().includes(tourFilter.toLowerCase())
       )
         return false;
       if (
@@ -121,7 +120,7 @@ export default function TourTestimonialsForCityPage({
 
   // Get unique tour names and guide names from testimonials
   const uniqueTours = Array.from(
-    new Set(testimonials.filter((t) => t.tourName).map((t) => t.tourName))
+    new Set(testimonials.filter((t) => t.author).map((t) => t.author))
   ).sort();
 
   // Extract guide names from quotes (this is a simplification - ideally guides would be a proper field)
@@ -248,7 +247,7 @@ export default function TourTestimonialsForCityPage({
             </h5>
           </header>
 
-          <Link href={`/testimonials/${params.city}`} className="md:ml-auto">
+          <Link href={`/testimonials/${city}`} className="md:ml-auto">
             <Button variant="default" className="flex items-center gap-2">
               <MapPin size={16} />
               Back to {cityName} Testimonials
@@ -262,14 +261,14 @@ export default function TourTestimonialsForCityPage({
             Reading what travelers say about their tour experiences in{" "}
             {cityName}. You might also be interested in seeing{" "}
             <Link
-              href={`/experiences-through-destinations/${params.city}/tours`}
+              href={`/experiences-through-destinations/${city}/tours`}
               className="font-medium underline underline-offset-4"
             >
               all available tours in {cityName}
             </Link>{" "}
             or reading{" "}
             <Link
-              href={`/testimonials/${params.city}`}
+              href={`/testimonials/${city}`}
               className="font-medium underline underline-offset-4"
             >
               general testimonials about {cityName}
@@ -519,7 +518,7 @@ function TestimonialCard({ testimonial }: { testimonial: Testimonial }) {
     : "";
 
   // Extract tour name if available
-  const tourName = testimonial.tourName || "";
+  const tourName = testimonial.author || "";
 
   return (
     <div className="flex flex-col shadow-md border border-border rounded-lg h-full overflow-hidden">
