@@ -1,12 +1,13 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, use } from "react";
 import { getTestimonialsForCity } from "@/lib/utils/get/testimonials";
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import Loading from "@/components/Loading";
 import { Filter, MapPin, SlidersHorizontal, X } from "lucide-react";
+import { formatTitleCaseToKebabCase } from "@/lib/utils/format";
 import {
   Pagination,
   PaginationContent,
@@ -33,12 +34,15 @@ import {
 } from "@/components/ui/select";
 import { format, parseISO } from "date-fns";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 
 export default function TestimonialsForCityPage({
   params,
 }: {
   params: { city: string };
 }) {
+  const searchParams = useSearchParams();
+  const city = searchParams.get("city") || params.city;
   const [testimonials, setTestimonials] = useState<Testimonial[]>([]);
   const [filteredTestimonials, setFilteredTestimonials] = useState<
     Testimonial[]
@@ -51,12 +55,12 @@ export default function TestimonialsForCityPage({
   const [sortDirection, setSortDirection] = useState<"asc" | "desc">("desc");
   const [minRatingFilter, setMinRatingFilter] = useState<number | null>(null);
 
-  const cityName = formatKebabToTitle(params.city);
+  const cityName = formatKebabToTitle(city);
 
   useEffect(() => {
     async function loadTestimonials() {
       try {
-        const allTestimonials = await getTestimonialsForCity(params.city);
+        const allTestimonials = await getTestimonialsForCity(city);
         setTestimonials(allTestimonials);
         setFilteredTestimonials(allTestimonials);
       } catch (error) {
@@ -67,7 +71,7 @@ export default function TestimonialsForCityPage({
     }
 
     loadTestimonials();
-  }, [params.city]);
+  }, [city]);
 
   useEffect(() => {
     // Apply filters
@@ -83,6 +87,7 @@ export default function TestimonialsForCityPage({
         const dateA = a.date ? new Date(a.date).getTime() : 0;
         const dateB = b.date ? new Date(b.date).getTime() : 0;
         return sortDirection === "asc" ? dateA - dateB : dateB - dateA;
+      } else if (sortField === "rating") {
       } else if (sortField === "rating") {
         return sortDirection === "asc"
           ? a.rating - b.rating
@@ -212,7 +217,7 @@ export default function TestimonialsForCityPage({
           </header>
 
           <Link
-            href={`/experiences-through-destinations/${params.city}/tours`}
+            href={`/experiences-through-destinations/${city}/tours`}
             className="md:ml-auto"
           >
             <Button variant="default" className="flex items-center gap-2">
@@ -228,7 +233,9 @@ export default function TestimonialsForCityPage({
             Reading what people say about {cityName}? You might also be
             interested in what they are saying about our{" "}
             <Link
-              href={`/testimonials/${params.city}/tours`}
+              href={`/testimonials/${formatTitleCaseToKebabCase(city)}/tours?city=${formatTitleCaseToKebabCase(
+                cityName
+              )}`}
               className="font-medium underline underline-offset-4"
             >
               guided tours in {cityName}
