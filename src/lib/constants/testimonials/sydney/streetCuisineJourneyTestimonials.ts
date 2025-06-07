@@ -2,108 +2,51 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const streetCuisineJourneyTestimonials: Testimonial[] = [
   {
-    id: "testimonial-tour-sydney-3-1",
-    quote:
-      "Thanks to Sandra King, we discovered parts of Sydney we would have never seen on our own.",
-    author: "Liam Palmer",
-    title: "Got Lost (on Purpose) with {GUIDE_NAME}",
+    id: "testimonial-tour-sydney-2-1",
+    quote: "So much fun, and so informative! Aiden Cooper's enthusiasm is contagious.",
+    author: "Antonio Ellis",
+    title: "Followed the Guide, Found a Dream"
   },
   {
-    id: "testimonial-tour-sydney-3-2",
-    quote:
-      "My uncle and I didn’t want the tour to end. Sandra King is that engaging and informative.",
-    author: "Mateo Hawkins",
-    title: "The Best Way to See Sydney",
+    id: "testimonial-tour-sydney-2-2",
+    quote: "We left the Street Cuisine Journey feeling more connected to Sydney than we ever expected.",
+    author: "Janet Dean",
+    title: "The Ultimate Sydney Tour"
   },
   {
-    id: "testimonial-tour-sydney-3-3",
-    quote:
-      "My classmate and I agreed this was the best part of our entire trip to Sydney.",
-    author: "Ryan Martin",
-    title: "We’ll Never Forget This",
+    id: "testimonial-tour-sydney-2-3",
+    quote: "One of the best decisions of our trip! Aiden Cooper is a fantastic guide and brought incredible energy to the tour.",
+    author: "Claire Sutton",
+    title: "Absolutely Fantastic!"
   },
   {
-    id: "testimonial-tour-sydney-3-4",
-    quote:
-      "The small group size and personal attention from Sandra King made all the difference.",
-    author: "Thandiwe Williams",
-    title: "Learned So Much!",
+    id: "testimonial-tour-sydney-2-4",
+    quote: "I thought I knew Sydney, but this tour proved otherwise. Aiden Cooper showed us a side we’d never seen.",
+    author: "Nancy Dean",
+    title: "History, Snacks, and Laughs—Yes Please!"
   },
   {
-    id: "testimonial-tour-sydney-3-5",
-    quote:
-      "As someone who's been to Sydney before, I was surprised at how much I learned on the Street Cuisine Journey. Sandra King is a treasure trove of information!",
-    author: "Hassan Stewart",
-    title: "A Must-Do in Sydney",
+    id: "testimonial-tour-sydney-2-5",
+    quote: "I thought I knew Sydney, but this tour proved otherwise. Aiden Cooper showed us a side we’d never seen.",
+    author: "Evelyn Jennings",
+    title: "Sunlight, Stories, and Serendipity"
   },
   {
-    id: "testimonial-tour-sydney-3-6",
-    quote:
-      "Sandra King's enthusiasm for Sydney was contagious. We walked away feeling inspired.",
-    author: "Thabo Griffin",
-    title: "Insider's Perspective",
+    id: "testimonial-tour-sydney-2-6",
+    quote: "Such a memorable way to explore Sydney. The mix of history, local culture, and stories was perfect.",
+    author: "Alexander Nguyen",
+    title: "A Unique Way to Explore Sydney"
   },
   {
-    id: "testimonial-tour-sydney-3-7",
-    quote:
-      "It felt like a private tour, even though we were with a group. Sandra King is incredibly engaging.",
-    author: "Olivia Day",
-    title: "Don't Miss This Tour!",
+    id: "testimonial-tour-sydney-2-7",
+    quote: "I've been on many tours, but this one stands out. Aiden Cooper was passionate, knowledgeable, and made everyone feel welcome.",
+    author: "Hannah Lee",
+    title: "Local Experience Made Easy"
   },
   {
-    id: "testimonial-tour-sydney-3-8",
-    quote:
-      "If you only have time for one activity in Sydney, make it the Street Cuisine Journey. You won’t regret it.",
-    author: "Carl Thomas",
-    title: "Top-Notch Guiding",
-  },
-  {
-    id: "testimonial-tour-sydney-3-9",
-    quote:
-      "From beginning to end, the Street Cuisine Journey was seamless and so well organized.",
-    author: "Donna Kowalski",
-    title: "We’ll Never Forget This",
-  },
-  {
-    id: "testimonial-tour-sydney-3-10",
-    quote:
-      "We had limited time in Sydney, and this tour made sure we saw the best of it. Sandra King was amazing.",
-    author: "Claire Khan",
-    title: "Exceptional Tour Guide",
-  },
-  {
-    id: "testimonial-tour-sydney-3-11",
-    quote:
-      "From start to finish, the experience felt curated and special. Hats off to Sandra King.",
-    author: "Madelyn Brooks",
-    title: "A Deep Dive into Local Culture",
-  },
-  {
-    id: "testimonial-tour-sydney-3-12",
-    quote:
-      "I felt like I was being shown around by a friend who knows all the secrets of Sydney.",
-    author: "Caroline Ellis",
-    title: "Unforgettable Experience",
-  },
-  {
-    id: "testimonial-tour-sydney-3-13",
-    quote:
-      "I’ve taken dozens of tours in different countries. Sandra King ranks among the very best.",
-    author: "Betty Hudson",
-    title: "Don't Miss This Tour!",
-  },
-  {
-    id: "testimonial-tour-sydney-3-14",
-    quote:
-      "Sandra King brought a depth of cultural insight that gave us a new appreciation for Sydney.",
-    author: "Amelia Maxwell",
-    title: "The Walking Was Free—The Laughs Were Priceless",
-  },
-  {
-    id: "testimonial-tour-sydney-3-15",
-    quote:
-      "This was more than just sightseeing — it was an unforgettable journey through Sydney's culture and history.",
-    author: "Amy Holloway",
-    title: "A Unique Way to Explore Sydney",
-  },
+    id: "testimonial-tour-sydney-2-8",
+    quote: "I've been on many tours, but this one stands out. Aiden Cooper was passionate, knowledgeable, and made everyone feel welcome.",
+    author: "Ryan Silva",
+    title: "Bought the T-Shirt, Took the Tour, Loved It"
+  }
 ];

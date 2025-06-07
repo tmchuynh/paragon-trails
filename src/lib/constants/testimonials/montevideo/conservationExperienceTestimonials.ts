@@ -2,80 +2,75 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const conservationExperienceTestimonials: Testimonial[] = [
   {
-    id: "testimonial-tour-montevideo-2-1",
-    quote:
-      "Even the locals in our group said they learned something new. That says a lot about Ella Hamilton's depth.",
-    author: "Stephanie Gonzalez",
-    title: "So Much More Than Expected",
+    id: "testimonial-tour-montevideo-3-1",
+    quote: "This tour was absolutely amazing! Ethan Carpenter knew everything about Montevideo and showed us places we would have never found on our own.",
+    author: "Patrick Coleman",
+    title: "A Must-Do in Montevideo"
   },
   {
-    id: "testimonial-tour-montevideo-2-2",
-    quote:
-      "We had limited time in Montevideo, and this tour made sure we saw the best of it. Ella Hamilton was amazing.",
-    author: "Olivia Lewis",
-    title: "Highlight of Our Trip",
+    id: "testimonial-tour-montevideo-3-2",
+    quote: "We’ll be recommending the Conservation Experience to all our friends. Ethan Carpenter made it that special.",
+    author: "Noah Taylor",
+    title: "Would Follow This Guide Into Battle"
   },
   {
-    id: "testimonial-tour-montevideo-2-3",
-    quote:
-      "This was not just sightseeing — it was a deep dive into the heart of Montevideo thanks to Ella Hamilton.",
-    author: "Santiago Griffin",
-    title: "One of the Best Tours We've Taken",
+    id: "testimonial-tour-montevideo-3-3",
+    quote: "The small group size and personal attention from Ethan Carpenter made all the difference.",
+    author: "Alice Baker",
+    title: "A Must-Do in Montevideo"
   },
   {
-    id: "testimonial-tour-montevideo-2-4",
-    quote:
-      "This isn’t your typical tour. Ella Hamilton makes it feel personal and engaging from the very start.",
-    author: "Nora Foster",
-    title: "A Tour Even My Teenager Liked",
+    id: "testimonial-tour-montevideo-3-4",
+    quote: "Even the locals in our group said they learned something new. That says a lot about Ethan Carpenter's depth.",
+    author: "Oliver Chen",
+    title: "Fascinating and Fun"
   },
   {
-    id: "testimonial-tour-montevideo-2-5",
-    quote:
-      "This was not just sightseeing — it was a deep dive into the heart of Montevideo thanks to Ella Hamilton.",
-    author: "Maria Hudson",
-    title: "Hidden Gems of Montevideo",
+    id: "testimonial-tour-montevideo-3-5",
+    quote: "We got so much value from this tour. Ethan Carpenter took us to places we would have never discovered on our own.",
+    author: "Leah Graham",
+    title: "Cultural Immersion at Its Best"
   },
   {
-    id: "testimonial-tour-montevideo-2-6",
-    quote:
-      "Ella Hamilton made learning about Montevideo's history genuinely exciting — not an easy task!",
-    author: "Liam Harper",
-    title: "We’ll Never Forget This",
+    id: "testimonial-tour-montevideo-3-6",
+    quote: "Ethan Carpenter is the kind of guide you want to tell your friends about. This was a five-star experience.",
+    author: "Priya Singh",
+    title: "Lost in Time—in the Best Way"
   },
   {
-    id: "testimonial-tour-montevideo-2-7",
-    quote:
-      "This isn’t your typical tour. Ella Hamilton makes it feel personal and engaging from the very start.",
-    author: "Sophia Morales",
-    title: "Incredible from Start to Finish",
+    id: "testimonial-tour-montevideo-3-7",
+    quote: "I can't recommend the Conservation Experience enough. Ethan Carpenter was phenomenal, and the experience was worth every penny.",
+    author: "Steven Stewart",
+    title: "Highlight of Our Trip"
   },
   {
-    id: "testimonial-tour-montevideo-2-8",
-    quote:
-      "The Conservation Experience was both entertaining and educational. Ella Hamilton has a gift for storytelling that brings Montevideo's history to life.",
-    author: "Mei Suzuki",
-    title: "Followed the Guide, Found a Dream",
+    id: "testimonial-tour-montevideo-3-8",
+    quote: "As someone who's been to Montevideo before, I was surprised at how much I learned on the Conservation Experience. Ethan Carpenter is a treasure trove of information!",
+    author: "Elijah Rossi",
+    title: "Entertaining and Educational"
   },
   {
-    id: "testimonial-tour-montevideo-2-9",
-    quote:
-      "Absolutely worth it. Ella Hamilton took care of everything so we could just relax and enjoy Montevideo.",
-    author: "Emma Wang",
-    title: "Memorable from the First Step",
+    id: "testimonial-tour-montevideo-3-9",
+    quote: "From start to finish, the experience felt curated and special. Hats off to Ethan Carpenter.",
+    author: "Anthony Mason",
+    title: "Learned Stuff, Didn’t Cry—Success!"
   },
   {
-    id: "testimonial-tour-montevideo-2-10",
-    quote:
-      "A truly authentic experience! Ella Hamilton showed us the real Montevideo, not just the tourist spots.",
-    author: "Steven Kowalski",
-    title: "Incredible from Start to Finish",
+    id: "testimonial-tour-montevideo-3-10",
+    quote: "Even the locals in our group said they learned something new. That says a lot about Ethan Carpenter's depth.",
+    author: "Layla Brooks",
+    title: "Incredible from Start to Finish"
   },
   {
-    id: "testimonial-tour-montevideo-2-11",
-    quote:
-      "The Conservation Experience was the highlight of our trip to Montevideo. Ella Hamilton took us to all the best spots and shared fascinating stories.",
-    author: "Adeline Hernandez",
-    title: "Highlight of Our Trip",
+    id: "testimonial-tour-montevideo-3-11",
+    quote: "I’ve taken dozens of tours in different countries. Ethan Carpenter ranks among the very best.",
+    author: "Stella Russell",
+    title: "Whispers of the Past, Echoes of Joy"
   },
+  {
+    id: "testimonial-tour-montevideo-3-12",
+    quote: "A truly authentic experience! Ethan Carpenter showed us the real Montevideo, not just the tourist spots.",
+    author: "Patrick Gardner",
+    title: "Beyond Our Expectations"
+  }
 ];
