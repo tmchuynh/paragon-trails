@@ -127,6 +127,27 @@ const motorcycleModels = {
     "Sportster",
     "Electra Glide",
     "Road Glide",
+    "Street 750",
+    "Fat Bob",
+    "Heritage Classic",
+    "Street Rod",
+    "LiveWire",
+    "Pan America",
+    "Softail Slim",
+    "Street Bob",
+    "Fat Bob 114",
+    "Low Rider S",
+    "Roadster",
+    "Nightster",
+    "Street Glide Special",
+    "Road King Special",
+    "CVO Limited",
+    "CVO Street Glide",
+    "CVO Road Glide",
+    "CVO Tri Glide",
+    "CVO Breakout",
+    "CVO Road King",
+    "CVO Street Bob",
     "Softail",
     "Iron 883",
     "Breakout",
@@ -138,6 +159,32 @@ const motorcycleModels = {
     "Rebel",
     "CBR1000RR",
     "Shadow",
+    "CB650R",
+    "CB500F",
+    "CBR500R",
+    "CBR600RR",
+    "CBR1000RR-R Fireblade",
+    "CBR250RR",
+    "CB125R",
+    "CB300R",
+    "CB500S",
+    "CB650F",
+    "CBR250R",
+    "CBR500X",
+    "CBR650F",
+    "CBR1000RR SP",
+    "CBR1100XX Super Blackbird",
+    "CBR929RR",
+    "CBR954RR",
+    "CBR600F4i",
+    "CBR1100XX",
+    "CBR125R",
+    "CBR150R",
+    "CBR250R",
+    "CBR300R",
+    "CBR500R",
+    "CBR650R",
+    "CBR1000RR-R SP",
     "CRF450L",
     "CBR650R",
     "NC750X",
@@ -148,9 +195,21 @@ const motorcycleModels = {
     "Super Ténéré",
     "V Star",
     "MT-07",
+    "FZ-07",
     "FZ-09",
     "Bolt",
     "Tracer 9 GT",
+    "XSR700",
+    "XSR900",
+    "YZF-R3",
+    "YZF-R6",
+    "YZF-R7",
+    "FZ-10",
+    "FZ-6R",
+    "FZ-6",
+    "FZ-8",
+    "FZ-03",
+    "FZ-1",
     "Tenere 700",
   ],
   Kawasaki: [
@@ -162,6 +221,24 @@ const motorcycleModels = {
     "Concours",
     "Ninja 650",
     "KLR 650",
+    "Z125 Pro",
+    "Z400",
+    "Ninja 1000",
+    "Ninja ZX-6R",
+    "Ninja ZX-10R",
+    "Ninja ZX-14R",
+    "Ninja H2",
+    "Ninja H2R",
+    "KX450",
+    "KX250",
+    "KX85",
+    "KX65",
+    "KLX250",
+    "KLX140",
+    "KLX110",
+    "KLX300R",
+    "KX450F",
+    "KX250F",
   ],
   Suzuki: [
     "GSX-R1000",
@@ -172,6 +249,14 @@ const motorcycleModels = {
     "DR-Z400",
     "GSX-S750",
     "GSX250R",
+    "GSX-R600",
+    "GSX-R750",
+    "GSX-R125",
+    "GSX-R150",
+    "GSX-R250",
+    "GSX-R300",
+    "GSX-R400",
+    "GSX-R500",
   ],
   BMW: [
     "R1250GS",
@@ -182,6 +267,16 @@ const motorcycleModels = {
     "F750GS",
     "G310R",
     "C400GT",
+    "C400X",
+    "R1250RT",
+    "R1250R",
+    "R1250RS",
+    "F900R",
+    "F900XR",
+    "K1600B",
+    "K1600GT",
+    "K1600GTL",
+    "R1200GS",
   ],
   Ducati: [
     "Panigale",
@@ -192,6 +287,51 @@ const motorcycleModels = {
     "Hypermotard",
     "SuperSport",
     "Streetfighter V4",
+    "XDiavel",
+    "Panigale V2",
+    "Panigale V4",
+    "Monster 1200",
+    "Monster 821",
+    "Multistrada V4",
+    "Multistrada 950",
+    "Multistrada 1260",
+    "Diavel 1260",
+    "Diavel 1260 S",
+    "Scrambler Icon",
+    "Scrambler Desert Sled",
+    "Scrambler Cafe Racer",
+    "Scrambler Full Throttle",
+    "Scrambler Sixty2",
+    "Hypermotard 950",
+    "Hypermotard 950 SP",
+    "SuperSport 950",
+    "SuperSport 950 S",
+    "Streetfighter V4 S",
+    "Streetfighter V4 SP",
+    "Streetfighter V4 Lamborghini",
+    "Streetfighter V4 Lamborghini Speciale",
+    "Streetfighter V4 SP2",
+    "Streetfighter V4 SP2 S",
+    "Streetfighter V4 SP2 Speciale",
+    "Streetfighter V4 SP2 Lamborghini",
+    "Streetfighter V4 SP2 Lamborghini Speciale",
+    "Streetfighter V4 SP2 S Lamborghini",
+    "Streetfighter V4 SP2 S Lamborghini Speciale",
+    "Streetfighter V4 SP2 S Lamborghini Speciale 2023",
+    "Streetfighter V4 SP2 S Lamborghini Speciale 2024",
+    "Streetfighter V4 SP2 S Lamborghini Speciale 2025",
+    "Streetfighter V4 SP2 S Lamborghini Speciale 2026",
+    "Streetfighter V4 SP2 S Lamborghini Speciale 2027",
+    "Streetfighter V4 SP2 S Lamborghini Speciale 2028",
+    "Streetfighter V4 SP2 S Lamborghini Speciale 2029",
+    "Streetfighter V4 SP2 S Lamborghini Speciale 2030",
+    "Streetfighter V4 SP2 S Lamborghini Speciale 2031",
+    "Streetfighter V4 SP2 S Lamborghini Speciale 2032",
+    "Streetfighter V4 SP2 S Lamborghini Speciale 2033",
+    "Streetfighter V4 SP2 S Lamborghini Speciale 2034",
+    "Streetfighter V4 SP2 S Lamborghini Speciale 2035",
+    "Streetfighter V4 SP2 S Lamborghini Speciale 2036",
+    "Streetfighter V4 SP2 S Lamborghini Speciale 2037",
   ],
   Triumph: [
     "Street Triple",
@@ -202,6 +342,40 @@ const motorcycleModels = {
     "Thruxton",
     "Scrambler",
     "Daytona Moto2 765",
+    "Tiger 900",
+    "Tiger 1200",
+    "Tiger Sport 660",
+    "Tiger 850 Sport",
+    "Street Twin",
+    "Street Scrambler",
+    "Speed Twin",
+    "Bonneville T120",
+    "Bonneville Bobber",
+    "Bonneville Speedmaster",
+    "Rocket 3 R",
+    "Rocket 3 GT",
+    "Speed Triple 1200 RS",
+    "Speed Triple 1200 RR",
+    "Tiger 1200 GT",
+    "Tiger 1200 Rally",
+    "Tiger 1200 GT Pro",
+    "Tiger 1200 Rally Pro",
+    "Tiger 1200 GT Explorer",
+    "Tiger 1200 Rally Explorer",
+    "Tiger 900 GT",
+    "Tiger 900 Rally",
+    "Tiger 900 GT Pro",
+    "Tiger 900 Rally Pro",
+    "Tiger 900 GT Low",
+    "Tiger 900 Rally Low",
+    "Tiger 900 GT Explorer",
+    "Tiger 900 Rally Explorer",
+    "Street Triple RS",
+    "Street Triple R",
+    "Street Triple S",
+    "Street Triple 765",
+    "Street Triple 765 R",
+    "Street Triple 765 RS",
   ],
   KTM: [
     "1290 Super Duke",
@@ -212,6 +386,26 @@ const motorcycleModels = {
     "RC390",
     "690 SMC",
     "890 Adventure R",
+    "890 Duke R",
+    "890 Adventure",
+    "890 Duke GP",
+    "890 Duke",
+    "890 Adventure R Rally",
+    "890 Adventure R",
+    "890 Adventure R Rally",
+    "890 Adventure R Rally Pro",
+    "890 Adventure R Rally Pro S",
+    "890 Adventure R Rally Pro S Special",
+    "890 Adventure R Rally Pro S Special Edition",
+    "890 Adventure R Rally Pro S Special Edition 2023",
+    "890 Adventure R Rally Pro S Special Edition 2024",
+    "890 Adventure R Rally Pro S Special Edition 2025",
+    "890 Adventure R Rally Pro S Special Edition 2026",
+    "890 Adventure R Rally Pro S Special Edition 2027",
+    "890 Adventure R Rally Pro S Special Edition 2028",
+    "890 Adventure R Rally Pro S Special Edition 2029",
+    "890 Adventure R Rally Pro S Special Edition 2030",
+    "890 Adventure R Rally Pro S Special Edition 2031",
   ],
   Indian: [
     "Chief",
@@ -222,6 +416,30 @@ const motorcycleModels = {
     "Springfield",
     "Challenger",
     "Pursuit",
+    "Dark Horse",
+    "Chief Dark Horse",
+    "Scout Bobber",
+    "Scout Sixty",
+    "Chief Vintage",
+    "Chief Classic",
+    "Chief Limited",
+    "Chief Super Chief",
+    "Chief Super Chief Limited",
+    "Chief Super Chief Dark Horse",
+    "Chief Super Chief Bobber",
+    "Chief Super Chief Bobber Dark Horse",
+    "Chief Super Chief Bobber Twenty",
+    "Chief Super Chief Bobber Twenty Dark Horse",
+    "Chief Super Chief Bobber Twenty Limited",
+    "Chief Super Chief Bobber Twenty Limited Dark Horse",
+    "Chief Super Chief Bobber Twenty Limited Dark Horse 2023",
+    "Chief Super Chief Bobber Twenty Limited Dark Horse 2024",
+    "Chief Super Chief Bobber Twenty Limited Dark Horse 2025",
+    "Chief Super Chief Bobber Twenty Limited Dark Horse 2026",
+    "Chief Super Chief Bobber Twenty Limited Dark Horse 2027",
+    "Chief Super Chief Bobber Twenty Limited Dark Horse 2028",
+    "Chief Super Chief Bobber Twenty Limited Dark Horse 2029",
+    "Chief Super Chief Bobber Twenty Limited Dark Horse 2030",
   ],
   Victory: [
     "Cross Country",
@@ -231,7 +449,16 @@ const motorcycleModels = {
     "High-Ball",
     "Gunner",
     "Octane",
+    "Judge",
+    "Kingpin",
+    "Cross Roads",
+    "Gunner",
+    "Hammer S",
+    "High-Ball",
+    "Judge",
     "Magnum",
+    "Vision Tour",
+    "Vision Street",
   ],
   Aprilia: [
     "RSV4",
@@ -242,6 +469,11 @@ const motorcycleModels = {
     "Caponord",
     "SX 125",
     "Tuareg 660",
+    "RS 125",
+    "RS 250",
+    "RS 500",
+    "RS 660 Factory",
+    "RS 660 Limited Edition",
   ],
   "Moto Guzzi": [
     "V7",
@@ -252,6 +484,19 @@ const motorcycleModels = {
     "Griso",
     "Norge",
     "MGX-21",
+    "Bellagio",
+    "Stelvio",
+    "California Touring",
+    "California Touring 1400",
+    "California Touring 1400 Touring",
+    "California Touring 1400 Touring Special",
+    "California Touring 1400 Touring Special Edition",
+    "California Touring 1400 Touring Special Edition 2023",
+    "California Touring 1400 Touring Special Edition 2024",
+    "California Touring 1400 Touring Special Edition 2025",
+    "California Touring 1400 Touring Special Edition 2026",
+    "California Touring 1400 Touring Special Edition 2027",
+    "California Touring 1400 Touring Special Edition 2028",
   ],
   "Royal Enfield": [
     "Himalayan",
@@ -262,6 +507,21 @@ const motorcycleModels = {
     "Meteor",
     "Hunter",
     "Super Meteor 650",
+    "Classic 500",
+    "Thunderbird X",
+    "Thunderbird X 500",
+    "Thunderbird X 350",
+    "Thunderbird X 350X",
+    "Thunderbird X 500X",
+    "Thunderbird X 650",
+    "Thunderbird X 650X",
+    "Thunderbird X 650X Special",
+    "Thunderbird X 650X Special Edition",
+    "Thunderbird X 650X Special Edition 2023",
+    "Thunderbird X 650X Special Edition 2024",
+    "Thunderbird X 650X Special Edition 2025",
+    "Thunderbird X 650X Special Edition 2026",
+    "Thunderbird X 650X Special Edition 2027",
   ],
   Husqvarna: [
     "Vitpilen 701",
@@ -271,14 +531,132 @@ const motorcycleModels = {
     "701 Supermoto",
     "TE 300i",
     "FX 450",
+    "FC 450",
+    "FC 250",
+    "FC 350",
+    "FE 350",
+    "FE 501",
+    "FE 450",
+    "FE 250",
+    "FE 350s",
+    "FE 501s",
+    "FE 450s",
+    "FE 250s",
+    "FE 350s TE 300i",
+    "FE 501s TE 300",
+    "FE 450s TE 300",
+    "FE 250s TE 300",
+    "FE 350s TE 300",
+    "FE 501s TE 300i",
+    "FE 450s TE 300i",
+    "FE 250s TE 300i",
+    "FE 350s TE 300i",
+    "FE 501s TE 300i",
+    "FE 450s TE 300i",
+    "FE 250s TE 300i",
+    "FE 350s TE 300i",
+    "FE 501s TE 300i",
+    "FE 450s TE 300i",
+    "FE 250s TE 300i",
+    "FE 350s TE 300i",
+    "FE 501s TE 300i",
+    "FE 450s TE 300i",
+    "FE 250s TE 300i",
+    "FE 350s TE 300i",
+    "FE 501s TE 300i",
     "TE 150",
   ],
-  "Can-Am": ["Ryker", "Spyder F3", "Spyder RT", "Spyder ST"],
-  Zero: ["SR/F", "DSR/X", "FXE", "S", "DS"],
-  Benelli: ["TRK502", "Leoncino", "302S", "TNT135"],
-  CFMoto: ["650NK", "300SS", "650MT", "700CL-X"],
-  Bajaj: ["Pulsar NS200", "Dominar 400", "Avenger Street 160", "CT100"],
-  GasGas: ["MC 450F", "EC 300", "SM 700", "EX 250F"],
+  "Can-Am": [
+    "Ryker",
+    "Spyder F3",
+    "Spyder RT",
+    "Spyder ST",
+    "Spyder RS",
+    "Spyder GS",
+    "Spyder RT Limited",
+    "Spyder F3 Limited",
+    "Ryker Rally Edition",
+    "Ryker Sport",
+    "Ryker 600",
+    "Ryker 900",
+    "Ryker 900 ACE",
+    "Ryker 600 ACE",
+    "Ryker 900 Sport",
+  ],
+  Zero: [
+    "SR/F",
+    "DSR/X",
+    "FXE",
+    "S",
+    "DS",
+    "SR",
+    "D",
+    "FXS",
+    "FX",
+    "SR/S",
+    "SR/F Premium",
+    "SR/S Premium",
+    "SR/F ZF14.4",
+  ],
+  Benelli: [
+    "TRK502",
+    "Leoncino",
+    "302S",
+    "TNT135",
+    "502C",
+    "Tornado 302R",
+    "TNT600i",
+    "TNT899",
+    "TNT1130",
+    "502R",
+    "752S",
+    "Leonardo 125",
+    "Leonardo 150",
+    "Leonardo 250",
+  ],
+  CFMoto: [
+    "650NK",
+    "300SS",
+    "650MT",
+    "700CL-X",
+    "300NK",
+    "250SR",
+    "650GT",
+    "800MT",
+    "700CL-X Sport",
+    "650TR",
+    "650TK",
+    "650GT Sport",
+  ],
+  Bajaj: [
+    "Pulsar NS200",
+    "Dominar 400",
+    "Avenger Street 160",
+    "CT100",
+    "V15",
+    "V12",
+    "Pulsar RS200",
+    "Pulsar AS200",
+    "Pulsar 220F",
+    "Avenger Cruise 220",
+    "Dominar 250",
+  ],
+  GasGas: [
+    "MC 450F",
+    "EC 300",
+    "SM 700",
+    "EX 250F",
+    "EX 300",
+    "EC 250",
+    "MC 250F",
+    "MC 125",
+    "MC 85",
+    "MC 65",
+    "MC 50",
+    "EC 450F",
+    "EC 250F",
+    "EC 350F",
+  ],
 };
 
 const motorcycleTypes = [
@@ -289,6 +667,9 @@ const motorcycleTypes = [
   "dual-sport",
   "scooter",
   "custom",
+  "adventure",
+  "cafe racer",
+  "dirt bike",
 ];
 
 const engineSizes = [
@@ -315,6 +696,15 @@ const colors = [
   "Gray",
   "Brown",
   "Matte Black",
+  "Matte White",
+  "Metallic Blue",
+  "Metallic Red",
+  "Metallic Silver",
+  "Metallic Green",
+  "Metallic Yellow",
+  "Metallic Orange",
+  "Metallic Gray",
+  "Metallic Brown",
 ];
 
 const motorcycleFeatures = [
@@ -331,6 +721,16 @@ const motorcycleFeatures = [
   "Helmet Included",
   "Phone Mount",
   "Backrest",
+  "LED Headlights",
+  "Quick Shifter",
+  "Traction Control",
+  "Anti-lock Braking System (ABS)",
+  "Adjustable Suspension",
+  "Keyless Ignition",
+  "Riding Modes",
+  "Tire Pressure Monitoring System (TPMS)",
+  "Comfort Seat",
+  "Performance Tires",
 ];
 
 const motorcycleRequirements = [
@@ -346,6 +746,10 @@ const motorcycleRequirements = [
   "Local Riding Permit",
   "Two-Wheel Experience",
   "International Driving Permit (for foreign renters)",
+  "Safety Gear Required",
+  "Proof of Residency",
+  "Emergency Contact Information",
+  "Rider Training Course Completion",
 ];
 
 const pickupLocations = [
@@ -364,6 +768,7 @@ const pickupLocations = [
   "RV Park / Campground",
   "Car Rental Lot",
   "University Area",
+  "Local Motorcycle Club",
 ];
 
 // Generate a motorcycle with all required properties
@@ -408,9 +813,9 @@ function generateMotorcycle(cityName, index) {
           () =>
             motorcycleFeatures[
               Math.floor(Math.random() * motorcycleFeatures.length)
-            ],
-        ),
-    ),
+            ]
+        )
+    )
   );
 
   // Generate random requirements
@@ -423,9 +828,9 @@ function generateMotorcycle(cityName, index) {
           () =>
             motorcycleRequirements[
               Math.floor(Math.random() * motorcycleRequirements.length)
-            ],
-        ),
-    ),
+            ]
+        )
+    )
   );
 
   // Always include "Valid Motorcycle License" as a requirement
@@ -499,10 +904,8 @@ function generateMotorcycle(cityName, index) {
           dropOffLocation,
         }
       : {}),
-    imageUrl: `https://paragon-trails-motorcycle-images.com/${type}/${make.toLowerCase().replace(/\s+/g, "-")}-${model.toLowerCase().replace(/\s+/g, "-")}.jpg`,
+    imageUrl: `https://images.unsplash.com/${type}/${make.toLowerCase().replace(/\s+/g, "-")}-${model.toLowerCase().replace(/\s+/g, "-")}.jpg`,
     requirements,
-    availability: available, // For backward compatibility
-    location,
   };
 }
 
@@ -549,7 +952,6 @@ async function extractExistingMotorcycles(filePath) {
     pickUpLocation: "",
     imageUrl: "",
     requirements: [],
-    availability: true,
     location: "",
   };
 
@@ -558,13 +960,13 @@ async function extractExistingMotorcycles(filePath) {
   const motorcycles = await extractObjectsFromFile(
     filePath,
     "Motorcycle",
-    motorcycleParser,
+    motorcycleParser
   );
 
   // Add validation to prevent errors with null/empty motorcycles array
   if (!motorcycles || !Array.isArray(motorcycles) || motorcycles.length === 0) {
     console.warn(
-      `Could not parse existing motorcycles in ${filePath}, will create fresh data`,
+      `Could not parse existing motorcycles in ${filePath}, will create fresh data`
     );
     return [];
   }
@@ -589,7 +991,7 @@ async function generateCityFile(city) {
     "lib",
     "constants",
     "rentals",
-    "motorcycles",
+    "motorcycles"
   );
   const filePath = path.join(destDir, `${city}.ts`);
 
@@ -611,13 +1013,13 @@ async function generateCityFile(city) {
       // Add validation to prevent errors with null/empty motorcycles array
       if (!motorcycles || !Array.isArray(motorcycles)) {
         console.warn(
-          `Could not parse existing motorcycles in ${filePath}, creating a new file instead`,
+          `Could not parse existing motorcycles in ${filePath}, creating a new file instead`
         );
         motorcycles = [];
       }
     } else {
       console.log(
-        `File already exists (use --rewrite to replace): ${filePath}`,
+        `File already exists (use --rewrite to replace): ${filePath}`
       );
       return;
     }
@@ -628,14 +1030,16 @@ async function generateCityFile(city) {
   const newMotorcycles = Array(numNewMotorcycles)
     .fill(0)
     .map((_, index) =>
-      generateMotorcycle(city, motorcycles.length + index + 1),
+      generateMotorcycle(city, motorcycles.length + index + 1)
     );
 
   // Combine existing and new motorcycles
   motorcycles = motorcycles.concat(newMotorcycles);
 
   // Create file content with proper formatting
-  let content = `import { Motorcycle } from "@/lib/interfaces/services/rentals";\n\n`;
+  let content = `// Auto-generated file for ${city} motorcycle rentals\n`;
+  content += `// City: ${city}, Country: ${countryName}, Region: ${regionName}\n\n`;
+  content += `import { Motorcycle } from "@/lib/interfaces/services/rentals";\n\n`;
   content += `export const ${variableName}: Motorcycle[] = [\n`;
 
   motorcycles.forEach((motorcycle, index) => {
@@ -666,7 +1070,7 @@ async function generateCityFile(city) {
   // Write file
   await writeFile(filePath, content);
   console.log(
-    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`,
+    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath}`
   );
 }
 
