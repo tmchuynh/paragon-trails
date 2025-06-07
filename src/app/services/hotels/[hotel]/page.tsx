@@ -6,6 +6,7 @@ import { Hotel, RoomOption } from "@/lib/interfaces/services/rentals";
 import { useSearchParams } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { Label } from "@/components/ui/label";
 import {
   Card,
   CardContent,
@@ -21,6 +22,15 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { displayRatingStars } from "@/lib/utils/displayRatingStars";
 import Link from "next/link";
 import React from "react";
+import { Input } from "@/components/ui/input";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import { Checkbox } from "@/components/ui/checkbox";
 
 export default function HotelDetailsPage({
   params,
@@ -38,6 +48,20 @@ export default function HotelDetailsPage({
   const [rooms, setRooms] = useState<RoomOption[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+
+  // Room filter states
+  const [roomFilters, setRoomFilters] = useState<{
+    maxOccupancy?: number | null;
+    bedType?: string | null;
+    minSquareFootage?: number | null;
+    feature?: string | null;
+    minPrice?: number | null;
+    maxPrice?: number | null;
+    breakfastIncluded?: boolean | null;
+    view?: string | null;
+    refundable?: boolean | null;
+    minAvailability?: number | null;
+  }>({});
 
   useEffect(() => {
     async function loadHotelData() {
@@ -61,7 +85,7 @@ export default function HotelDetailsPage({
 
           // Load room options if available
           try {
-            const hotelRooms = await getHotelRooms(citySlug, hotelId);
+            const hotelRooms = await getHotelRooms(citySlug, selectedHotel); // Pass hotel object
             setRooms(hotelRooms);
           } catch (e) {
             console.warn("Could not load rooms:", e);
@@ -78,6 +102,61 @@ export default function HotelDetailsPage({
 
     loadHotelData();
   }, [hotelId, citySlug]);
+
+  // Unique values for room filters
+  const uniqueBedTypes = Array.from(
+    new Set(rooms.map((r) => r.bedType))
+  ).sort();
+  const uniqueViews = Array.from(
+    new Set(rooms.map((r) => r.view).filter(Boolean))
+  ).sort();
+  const uniqueFeatures = Array.from(
+    new Set(rooms.flatMap((r) => r.features || []))
+  ).sort();
+
+  // Filtering logic for rooms
+  const filteredRooms = rooms.filter((room) => {
+    if (
+      roomFilters.maxOccupancy &&
+      room.maxOccupancy < roomFilters.maxOccupancy
+    )
+      return false;
+    if (roomFilters.bedType && room.bedType !== roomFilters.bedType)
+      return false;
+    if (
+      roomFilters.minSquareFootage &&
+      room.squareFootage < roomFilters.minSquareFootage
+    )
+      return false;
+    if (
+      roomFilters.feature &&
+      !(room.features || []).includes(roomFilters.feature)
+    )
+      return false;
+    if (roomFilters.minPrice && room.pricePerNight < roomFilters.minPrice)
+      return false;
+    if (roomFilters.maxPrice && room.pricePerNight > roomFilters.maxPrice)
+      return false;
+    if (
+      roomFilters.breakfastIncluded !== undefined &&
+      room.breakfastIncluded !== undefined &&
+      room.breakfastIncluded !== roomFilters.breakfastIncluded
+    )
+      return false;
+    if (roomFilters.view && room.view !== roomFilters.view) return false;
+    if (
+      roomFilters.refundable !== undefined &&
+      room.refundable !== undefined &&
+      room.refundable !== roomFilters.refundable
+    )
+      return false;
+    if (
+      roomFilters.minAvailability &&
+      room.availability < roomFilters.minAvailability
+    )
+      return false;
+    return true;
+  });
 
   if (isLoading) {
     return <Loading />;
@@ -359,40 +438,6 @@ export default function HotelDetailsPage({
                               {room.description}
                             </p>
 
-                            <div className="gap-4 grid grid-cols-1 sm:grid-cols-2 mb-4">
-                              <div>
-                                <h5 className="mb-2 font-medium">Features</h5>
-                                <div className="space-y-1">
-                                  {room.features.map((feature) => (
-                                    <div
-                                      key={feature}
-                                      className="flex items-center gap-2"
-                                    >
-                                      <Check className="w-4 h-4 text-green-500" />
-                                      <span>{feature}</span>
-                                    </div>
-                                  ))}
-                                </div>
-                              </div>
-                              <div>
-                                <h5 className="mb-2 font-medium">
-                                  Room Details
-                                </h5>
-                                <p>
-                                  <span className="font-medium">Size:</span>{" "}
-                                  {room.squareFootage} sq ft
-                                </p>
-                                <p>
-                                  <span className="font-medium">Bed Type:</span>{" "}
-                                  {room.bedType}
-                                </p>
-                                <p>
-                                  <span className="font-medium">Price:</span>{" "}
-                                  {room.pricePerNight} {hotel.currency}
-                                </p>
-                              </div>
-                            </div>
-
                             <Button className="w-full sm:w-auto">
                               Book This Room
                             </Button>
@@ -408,61 +453,6 @@ export default function HotelDetailsPage({
 
           {/* Stacked panels for md+ screens */}
           <div className="sm:block space-y-6 hidden">
-            {/* Overview */}
-            <Card>
-              <CardHeader>
-                <CardTitle>About This Hotel</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="flex flex-col space-y-4">
-                  <div className="flex items-center gap-2">
-                    <MapPin className="w-5 h-5 text-muted-foreground" />
-                    <span>
-                      {hotel.address}, {cityName}
-                    </span>
-                  </div>
-
-                  <div className="flex items-center gap-2">
-                    <Clock className="w-5 h-5 text-muted-foreground" />
-                    <span>
-                      Check-in: {hotel.checkInTime} • Check-out:{" "}
-                      {hotel.checkOutTime}
-                    </span>
-                  </div>
-
-                  <div className="gap-4 grid grid-cols-1 md:grid-cols-2 mt-4">
-                    <div className="flex flex-col space-y-2">
-                      <h5 className="font-medium">Property Features</h5>
-                      <div>
-                        <div className="flex items-center gap-2">
-                          {hotel.isPetFriendly ? (
-                            <Check className="w-5 h-5 text-green-500" />
-                          ) : (
-                            <X className="w-5 h-5 text-red-500" />
-                          )}
-                          <span>
-                            {hotel.isPetFriendly
-                              ? "Pet friendly"
-                              : "No pets allowed"}
-                          </span>
-                        </div>
-
-                        <div className="flex items-center gap-2">
-                          <span>Smoking policy: {hotel.policies?.smoking}</span>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="flex flex-col space-y-2">
-                      <h5 className="font-medium">Rooms Information</h5>
-                      <p>{hotel.roomsAvailable} rooms available</p>
-                      <p>Currency: {hotel.currency}</p>
-                    </div>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
             {/* Accessibility Features */}
             {hotel.accessibilityFeatures &&
               hotel.accessibilityFeatures.length > 0 && (
@@ -589,20 +579,6 @@ export default function HotelDetailsPage({
 
                         <div className="gap-4 grid grid-cols-1 sm:grid-cols-2 mb-4">
                           <div>
-                            <h5 className="mb-2 font-medium">Features</h5>
-                            <div className="space-y-1">
-                              {room.features.map((feature) => (
-                                <div
-                                  key={feature}
-                                  className="flex items-center gap-2"
-                                >
-                                  <Check className="w-4 h-4 text-green-500" />
-                                  <span>{feature}</span>
-                                </div>
-                              ))}
-                            </div>
-                          </div>
-                          <div>
                             <h5 className="mb-2 font-medium">Room Details</h5>
                             <p>
                               <span className="font-medium">Size:</span>{" "}
@@ -685,16 +661,6 @@ export default function HotelDetailsPage({
                 </div>
                 <Separator />
                 <div className="flex justify-between">
-                  <span className="text-muted-foreground">Check-in</span>
-                  <span className="font-medium">{hotel.checkInTime}</span>
-                </div>
-                <Separator />
-                <div className="flex justify-between">
-                  <span className="text-muted-foreground">Check-out</span>
-                  <span className="font-medium">{hotel.checkOutTime}</span>
-                </div>
-                <Separator />
-                <div className="flex justify-between">
                   <span className="text-muted-foreground">Pet Friendly</span>
                   <span className="font-medium">
                     {hotel.isPetFriendly ? "Yes" : "No"}
@@ -727,6 +693,288 @@ export default function HotelDetailsPage({
             </CardContent>
           </Card>
         </div>
+      </div>
+
+      {/* Room Options Section */}
+      <div className="mt-12">
+        <h2 className="mb-4 font-bold text-2xl">Available Rooms</h2>
+        {/* Room Filters */}
+        <div className="flex flex-wrap items-end gap-4 mb-6">
+          <div>
+            <Label htmlFor="maxOccupancy">Max Occupancy</Label>
+            <Input
+              id="maxOccupancy"
+              type="number"
+              min={1}
+              placeholder="Any"
+              value={roomFilters.maxOccupancy ?? ""}
+              onChange={(e) =>
+                setRoomFilters((f) => ({
+                  ...f,
+                  maxOccupancy: e.target.value
+                    ? parseInt(e.target.value)
+                    : null,
+                }))
+              }
+              className="w-32"
+            />
+          </div>
+          <div>
+            <Label htmlFor="bedType">Bed Type</Label>
+            <Select
+              value={roomFilters.bedType ?? ""}
+              onValueChange={(val) =>
+                setRoomFilters((f) => ({ ...f, bedType: val || null }))
+              }
+            >
+              <SelectTrigger className="w-32">
+                <SelectValue placeholder="Any" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="">Any</SelectItem>
+                {uniqueBedTypes.map((bed) => (
+                  <SelectItem key={bed} value={bed}>
+                    {bed}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+          </div>
+          <div>
+            <Label htmlFor="minSquareFootage">Min Sq Ft</Label>
+            <Input
+              id="minSquareFootage"
+              type="number"
+              min={0}
+              placeholder="Any"
+              value={roomFilters.minSquareFootage ?? ""}
+              onChange={(e) =>
+                setRoomFilters((f) => ({
+                  ...f,
+                  minSquareFootage: e.target.value
+                    ? parseInt(e.target.value)
+                    : null,
+                }))
+              }
+              className="w-32"
+            />
+          </div>
+          <div>
+            <Label htmlFor="feature">Feature</Label>
+            <Select
+              value={roomFilters.feature ?? ""}
+              onValueChange={(val) =>
+                setRoomFilters((f) => ({ ...f, feature: val || null }))
+              }
+            >
+              <SelectTrigger className="w-32">
+                <SelectValue placeholder="Any" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="">Any</SelectItem>
+                {uniqueFeatures.map((f) => (
+                  <SelectItem key={f} value={f}>
+                    {f}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+          </div>
+          <div>
+            <Label htmlFor="minPrice">Min Price</Label>
+            <Input
+              id="minPrice"
+              type="number"
+              min={0}
+              placeholder="Any"
+              value={roomFilters.minPrice ?? ""}
+              onChange={(e) =>
+                setRoomFilters((f) => ({
+                  ...f,
+                  minPrice: e.target.value ? parseInt(e.target.value) : null,
+                }))
+              }
+              className="w-24"
+            />
+          </div>
+          <div>
+            <Label htmlFor="maxPrice">Max Price</Label>
+            <Input
+              id="maxPrice"
+              type="number"
+              min={0}
+              placeholder="Any"
+              value={roomFilters.maxPrice ?? ""}
+              onChange={(e) =>
+                setRoomFilters((f) => ({
+                  ...f,
+                  maxPrice: e.target.value ? parseInt(e.target.value) : null,
+                }))
+              }
+              className="w-24"
+            />
+          </div>
+          <div>
+            <Label htmlFor="breakfastIncluded">Breakfast</Label>
+            <Select
+              value={
+                roomFilters.breakfastIncluded === null ||
+                roomFilters.breakfastIncluded === undefined
+                  ? ""
+                  : roomFilters.breakfastIncluded
+                    ? "yes"
+                    : "no"
+              }
+              onValueChange={(val) =>
+                setRoomFilters((f) => ({
+                  ...f,
+                  breakfastIncluded: val === "" ? null : val === "yes",
+                }))
+              }
+            >
+              <SelectTrigger className="w-24">
+                <SelectValue placeholder="Any" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="">Any</SelectItem>
+                <SelectItem value="yes">Yes</SelectItem>
+                <SelectItem value="no">No</SelectItem>
+              </SelectContent>
+            </Select>
+          </div>
+          <div>
+            <Label htmlFor="view">View</Label>
+            <Select
+              value={roomFilters.view ?? ""}
+              onValueChange={(val) =>
+                setRoomFilters((f) => ({ ...f, view: val || null }))
+              }
+            >
+              <SelectTrigger className="w-32">
+                <SelectValue placeholder="Any" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="">Any</SelectItem>
+                {uniqueViews.map((v) => (
+                  <SelectItem key={v} value={v}>
+                    {v}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+          </div>
+          <div>
+            <Label htmlFor="refundable">Refundable</Label>
+            <Select
+              value={
+                roomFilters.refundable === null ||
+                roomFilters.refundable === undefined
+                  ? ""
+                  : roomFilters.refundable
+                    ? "yes"
+                    : "no"
+              }
+              onValueChange={(val) =>
+                setRoomFilters((f) => ({
+                  ...f,
+                  refundable: val === "" ? null : val === "yes",
+                }))
+              }
+            >
+              <SelectTrigger className="w-24">
+                <SelectValue placeholder="Any" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="">Any</SelectItem>
+                <SelectItem value="yes">Yes</SelectItem>
+                <SelectItem value="no">No</SelectItem>
+              </SelectContent>
+            </Select>
+          </div>
+          <div>
+            <Label htmlFor="minAvailability">Min Available</Label>
+            <Input
+              id="minAvailability"
+              type="number"
+              min={1}
+              placeholder="Any"
+              value={roomFilters.minAvailability ?? ""}
+              onChange={(e) =>
+                setRoomFilters((f) => ({
+                  ...f,
+                  minAvailability: e.target.value
+                    ? parseInt(e.target.value)
+                    : null,
+                }))
+              }
+              className="w-24"
+            />
+          </div>
+          <Button
+            variant="outline"
+            className="h-10"
+            onClick={() => setRoomFilters({})}
+          >
+            Reset Room Filters
+          </Button>
+        </div>
+        {/* Room Cards */}
+        {filteredRooms.length > 0 ? (
+          <div className="gap-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+            {filteredRooms.map((room) => (
+              <Card key={room.id} className="flex flex-col h-full">
+                <CardHeader>
+                  <CardTitle>{room.name}</CardTitle>
+                  <CardDescription>{room.description}</CardDescription>
+                </CardHeader>
+                <CardContent className="flex-grow">
+                  <div className="space-y-2">
+                    <div>
+                      <span className="font-medium">Max Occupancy:</span>{" "}
+                      {room.maxOccupancy}
+                    </div>
+                    <div>
+                      <span className="font-medium">Bed Type:</span>{" "}
+                      {room.bedType}
+                    </div>
+                    {room.view && (
+                      <div>
+                        <span className="font-medium">View:</span> {room.view}
+                      </div>
+                    )}
+                    <div>
+                      <span className="font-medium">Square Footage:</span>{" "}
+                      {room.squareFootage} sq ft
+                    </div>
+                    <div>
+                      <span className="font-medium">Price:</span>{" "}
+                      {room.pricePerNight} {hotel.currency}
+                    </div>
+                    <div>
+                      <span className="font-medium">Available:</span>{" "}
+                      {room.availability}
+                    </div>
+                    <div>
+                      <span className="font-medium">Refundable:</span>{" "}
+                      {room.refundable ? "Yes" : "No"}
+                    </div>
+                    <div>
+                      <span className="font-medium">Breakfast Included:</span>{" "}
+                      {room.breakfastIncluded ? "Yes" : "No"}
+                    </div>
+                  </div>
+                </CardContent>
+                <CardFooter>
+                  <Button className="w-full">Book This Room</Button>
+                </CardFooter>
+              </Card>
+            ))}
+          </div>
+        ) : (
+          <div className="py-8 text-center text-muted-foreground">
+            No rooms match your filters.
+          </div>
+        )}
       </div>
     </div>
   );
