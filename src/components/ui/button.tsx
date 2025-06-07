@@ -14,7 +14,7 @@ const buttonVariants = cva(
         destructive:
           "bg-destructive text-white shadow-xs hover:shadow-md focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60",
         outline:
-          "border bg-background border-double border-4 shadow-xs hover:border-outline",
+          "border bg-background border-double border-4 shadow-xs hover:border-outline text-foreground ",
         secondary:
           "bg-secondary text-secondary-foreground shadow-xs hover:shadow-md dark:hover:bg-secondary/80",
         ghost: "hover:bg-accent dark:hover:bg-accent/50",
@@ -42,7 +42,7 @@ const buttonVariants = cva(
       variant: "default",
       size: "default",
     },
-  },
+  }
 );
 
 function Button({
