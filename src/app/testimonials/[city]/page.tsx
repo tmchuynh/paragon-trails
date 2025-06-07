@@ -55,12 +55,12 @@ export default function TestimonialsForCityPage() {
   const [startDateFilter, setStartDateFilter] = useState<string | null>(null);
   const [endDateFilter, setEndDateFilter] = useState<string | null>(null);
 
-  const cityName = formatKebabToTitle(city);
+  const cityName = formatKebabToTitle(city || "");
 
   useEffect(() => {
     async function loadTestimonials() {
       try {
-        const allTestimonials = await getTestimonialsForCity(city);
+        const allTestimonials = await getTestimonialsForCity(city as string);
         setTestimonials(allTestimonials);
         setFilteredTestimonials(allTestimonials);
       } catch (error) {
@@ -255,7 +255,7 @@ export default function TestimonialsForCityPage() {
             Reading what people say about {cityName}? You might also be
             interested in what they are saying about our{" "}
             <Link
-              href={`/testimonials/${formatTitleCaseToKebabCase(city)}/tours?city=${formatTitleCaseToKebabCase(
+              href={`/testimonials/${formatTitleCaseToKebabCase(city as string)}/tours?city=${formatTitleCaseToKebabCase(
                 cityName
               )}`}
               className="font-medium underline underline-offset-4"
@@ -342,6 +342,7 @@ export default function TestimonialsForCityPage() {
                 <SelectValue placeholder="Reviews per page" />
               </SelectTrigger>
               <SelectContent>
+                <SelectItem value="6">6 per page</SelectItem>
                 <SelectItem value="9">9 per page</SelectItem>
                 <SelectItem value="12">12 per page</SelectItem>
                 <SelectItem value="18">18 per page</SelectItem>
