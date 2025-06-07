@@ -435,6 +435,7 @@ export default function CarRentalsPage() {
                 <SelectValue placeholder="Items per page" />
               </SelectTrigger>
               <SelectContent>
+                <SelectItem value="6">6 per page</SelectItem>
                 <SelectItem value="9">9 per page</SelectItem>
                 <SelectItem value="12">12 per page</SelectItem>
                 <SelectItem value="18">18 per page</SelectItem>
