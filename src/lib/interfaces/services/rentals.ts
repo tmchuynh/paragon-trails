@@ -15,6 +15,7 @@ export interface LuxuryRentalCar {
   available: boolean;
   pickUpCity: string;
   pickUpCountry: string;
+  pickUpRegion?: string;
   pickUpLocation?: string; // e.g., "Airport", "City Center"
   dropOffCity?: string; // Optional, if different from pick-up
   dropOffCountry?: string; // Optional, if different from pick-up
@@ -101,165 +102,39 @@ type MotorcycleRequirement =
   | "Two-Wheel Experience"
   | "International Driving Permit (for foreign renters)";
 
+// Hotel interfaces
 export interface Hotel {
   id: string;
   name: string;
-  rating: number;
   address: string;
-  accommodationType: AccommodationType;
-  amenities: AmenityType[];
-  accessibilityFeatures?: AccessibilityFeature[];
-  checkInTime: string; // e.g., "15:00"
-  checkOutTime: string; // e.g., "11:00"
+  rating: number;
+  checkInTime: string;
+  checkOutTime: string;
+  accommodationType: string;
+  isPetFriendly: boolean;
+  isPopular: boolean;
   roomsAvailable: number;
-  isPetFriendly?: boolean;
   currency: string;
-  contact: {
+  policies?: {
+    cancellation?: string;
+    smoking?: string;
+  };
+  amenities?: string[];
+  accessibilityFeatures?: string[];
+  contact?: {
+    contactPhone?: string;
     contactEmail?: string;
-    contactPhone: string;
   };
-  policies: {
-    cancellation: string;
-    smoking: "Allowed" | "Not Allowed" | "Designated Areas";
-  };
-  isPopular?: boolean;
 }
-
-type AccommodationType =
-  | "Hotel"
-  | "Resort"
-  | "Boutique Hotel"
-  | "Hostel"
-  | "Bed and Breakfast"
-  | "Guesthouse"
-  | "Motel"
-  | "Serviced Apartment"
-  | "Family Resort"
-  | "Boutique Inn"
-  | "Boutique Resort"
-  | "Extended Stay Hotel"
-  | "Luxury Lodge"
-  | "Vacation Rental"
-  | "Glamping Resort"
-  | "Chalet"
-  | "Luxury Villa"
-  | "Luxury Hotel"
-  | "All-Inclusive Resort"
-  | "Spa Hotel"
-  | "Luxury Hotel"
-  | "Business Hotel"
-  | "Eco-Lodge";
-
-type AmenityType =
-  | "Free Wi-Fi"
-  | "Swimming Pool"
-  | "Fitness Center"
-  | "Spa"
-  | "Parking"
-  | "Restaurant"
-  | "Bar"
-  | "Room Service"
-  | "Airport Shuttle"
-  | "Laundry Service"
-  | "24-Hour Front Desk"
-  | "Conference Room"
-  | "Non-Smoking Rooms"
-  | "Pet Friendly"
-  | "Business Center";
-
-type AccessibilityFeature =
-  | "Wheelchair Accessible"
-  | "Elevator"
-  | "Accessible Bathroom"
-  | "Braille Signage"
-  | "Accessible Parking"
-  | "Visual Alarm"
-  | "Hearing Loop"
-  | "Accessible Shower"
-  | "Grab Bars"
-  | "Lowered Light Switches"
-  | "Accessible Pathways"
-  | "Assistive Listening Devices"
-  | "Sign Language Interpretation"
-  | "Tactile Maps"
-  | "Large Print Materials"
-  | "Visual Aids"
-  | "Hearing Support";
 
 export interface RoomOption {
   id: string;
-  name: string; // e.g. "Deluxe Suite", "Standard Room"
-  description?: string;
-  occupancy: {
-    adults: number;
-    children?: number;
-    maxGuests: number;
-  };
-  bedType: RoomBedType;
-  view?: RoomViewType;
-  amenities: RoomAmenities[];
-  accessibilityFeatures?: AccessibilityFeature[];
-  photos?: string[];
+  name: string;
+  description: string;
   pricePerNight: number;
-  currency: string; // e.g. "USD"
-  refundable: boolean;
-  breakfastIncluded?: boolean;
-  availableCount: number; // how many rooms of this type are available
+  maxOccupancy: number;
+  bedType: string;
+  availability: number;
+  squareFootage: number;
+  features: string[];
 }
-
-type RoomBedType = "Single" | "Double" | "Queen" | "King" | "Twin" | "Sofa Bed";
-
-type RoomViewType =
-  | "City View"
-  | "Ocean View"
-  | "Garden View"
-  | "Mountain View"
-  | "None";
-
-type RoomAmenities =
-  | "Free Wi-Fi"
-  | "Air Conditioning"
-  | "Television"
-  | "Mini Bar"
-  | "Coffee Maker"
-  | "Microwave"
-  | "Refrigerator"
-  | "Hair Dryer"
-  | "Ironing Facilities"
-  | "In-Room Safe"
-  | "Balcony"
-  | "Bathtub"
-  | "Shower"
-  | "Toiletries"
-  | "Desk"
-  | "Seating Area"
-  | "Soundproofing"
-  | "Daily Housekeeping"
-  | "Room Service"
-  | "Wake-Up Service"
-  | "Smoke Detector"
-  | "Heating"
-  | "Non-Smoking Room"
-  | "Pet Friendly"
-  | "Family Room"
-  | "Connecting Rooms"
-  | "Accessible Room"
-  | "Kitchenette"
-  | "Dining Table"
-  | "Blackout Curtains"
-  | "Complimentary Bottled Water"
-  | "Bathrobe"
-  | "Slippers"
-  | "Flat-Screen TV"
-  | "Streaming Services"
-  | "Bluetooth Speaker"
-  | "Desk Lamp"
-  | "Alarm Clock"
-  | "Luggage Rack"
-  | "Outdoor Furniture"
-  | "Fireplace"
-  | "Jacuzzi Tub"
-  | "Sauna"
-  | "Fitness Equipment"
-  | "Board Games"
-  | "Books";
