@@ -2,7 +2,12 @@
 
 import { useState, useEffect, use } from "react";
 import { cities } from "@/lib/constants/info/city-information";
-import { formatKebabToTitle, capitalize } from "@/lib/utils/format";
+import {
+  formatKebabToTitle,
+  capitalize,
+  formatTitleToCamelCase,
+  formatTitleCaseToKebabCase,
+} from "@/lib/utils/format";
 import { Doughnut } from "react-chartjs-2";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { displayRatingStars } from "@/lib/utils/displayRatingStars";
@@ -46,9 +51,11 @@ export default function ToursByCityPage() {
   const [cityInfo, setCityInfo] = useState<any>(null);
   const [loading, setLoading] = useState(true);
 
+  const formattedCity = formatTitleCaseToKebabCase(city);
+
   useEffect(() => {
     // Find the city information based on the city param (kebab case)
-    const cityData = cities.find((c) => c.id === city);
+    const cityData = cities.find((c) => c.id === formattedCity);
     if (cityData) {
       setCityInfo(cityData);
     }
