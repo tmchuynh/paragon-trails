@@ -3,74 +3,66 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const conservationExperienceTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-montevideo-3-1",
-    quote: "This tour was absolutely amazing! Ethan Carpenter knew everything about Montevideo and showed us places we would have never found on our own.",
-    author: "Patrick Coleman",
-    title: "A Must-Do in Montevideo"
+    quote: "It felt like a private tour, even though we were with a group. Madelyn Graham is incredibly engaging.",
+    author: "Lily Fletcher",
+    title: "Wandered Far, Wondered More",
+    rating: 3.8,
+    date: "2019-12-28"
   },
   {
     id: "testimonial-tour-montevideo-3-2",
-    quote: "We’ll be recommending the Conservation Experience to all our friends. Ethan Carpenter made it that special.",
-    author: "Noah Taylor",
-    title: "Would Follow This Guide Into Battle"
+    quote: "My colleague and I agreed this was the best part of our entire trip to Montevideo.",
+    author: "Liam Nash",
+    title: "A Tour to Remember",
+    rating: 3.9,
+    date: "2020-03-04"
   },
   {
     id: "testimonial-tour-montevideo-3-3",
-    quote: "The small group size and personal attention from Ethan Carpenter made all the difference.",
-    author: "Alice Baker",
-    title: "A Must-Do in Montevideo"
+    quote: "I can't recommend the Conservation Experience enough. Madelyn Graham was phenomenal, and the experience was worth every penny.",
+    author: "Wei Wallace",
+    title: "A Stroll Through a Living Storybook",
+    rating: 3.6,
+    date: "2020-01-05"
   },
   {
     id: "testimonial-tour-montevideo-3-4",
-    quote: "Even the locals in our group said they learned something new. That says a lot about Ethan Carpenter's depth.",
-    author: "Oliver Chen",
-    title: "Fascinating and Fun"
+    quote: "We booked last-minute and are so glad we did. Madelyn Graham made it one of our favorite memories from Montevideo.",
+    author: "Joel Brooks",
+    title: "Absolutely Fantastic!",
+    rating: 4.9,
+    date: "2022-08-15"
   },
   {
     id: "testimonial-tour-montevideo-3-5",
-    quote: "We got so much value from this tour. Ethan Carpenter took us to places we would have never discovered on our own.",
-    author: "Leah Graham",
-    title: "Cultural Immersion at Its Best"
+    quote: "If you're visiting Montevideo, the Conservation Experience is a must! Madelyn Graham made the history come alive in a way guidebooks never could.",
+    author: "Matthew Kowalski",
+    title: "A Tour Even My Teenager Liked",
+    rating: 3.8,
+    date: "2025-03-24"
   },
   {
     id: "testimonial-tour-montevideo-3-6",
-    quote: "Ethan Carpenter is the kind of guide you want to tell your friends about. This was a five-star experience.",
-    author: "Priya Singh",
-    title: "Lost in Time—in the Best Way"
+    quote: "Thanks to Madelyn Graham, we discovered parts of Montevideo we would have never seen on our own.",
+    author: "Carlos Harris",
+    title: "The Best Way to See Montevideo",
+    rating: 4.1,
+    date: "2017-08-04"
   },
   {
     id: "testimonial-tour-montevideo-3-7",
-    quote: "I can't recommend the Conservation Experience enough. Ethan Carpenter was phenomenal, and the experience was worth every penny.",
-    author: "Steven Stewart",
-    title: "Highlight of Our Trip"
+    quote: "We had limited time in Montevideo, and this tour made sure we saw the best of it. Madelyn Graham was amazing.",
+    author: "Lerato Holloway",
+    title: "Well Worth Your Time",
+    rating: 3.5,
+    date: "2019-08-14"
   },
   {
     id: "testimonial-tour-montevideo-3-8",
-    quote: "As someone who's been to Montevideo before, I was surprised at how much I learned on the Conservation Experience. Ethan Carpenter is a treasure trove of information!",
-    author: "Elijah Rossi",
-    title: "Entertaining and Educational"
-  },
-  {
-    id: "testimonial-tour-montevideo-3-9",
-    quote: "From start to finish, the experience felt curated and special. Hats off to Ethan Carpenter.",
-    author: "Anthony Mason",
-    title: "Learned Stuff, Didn’t Cry—Success!"
-  },
-  {
-    id: "testimonial-tour-montevideo-3-10",
-    quote: "Even the locals in our group said they learned something new. That says a lot about Ethan Carpenter's depth.",
-    author: "Layla Brooks",
-    title: "Incredible from Start to Finish"
-  },
-  {
-    id: "testimonial-tour-montevideo-3-11",
-    quote: "I’ve taken dozens of tours in different countries. Ethan Carpenter ranks among the very best.",
-    author: "Stella Russell",
-    title: "Whispers of the Past, Echoes of Joy"
-  },
-  {
-    id: "testimonial-tour-montevideo-3-12",
-    quote: "A truly authentic experience! Ethan Carpenter showed us the real Montevideo, not just the tourist spots.",
-    author: "Patrick Gardner",
-    title: "Beyond Our Expectations"
+    quote: "Even the locals in our group said they learned something new. That says a lot about Madelyn Graham's depth.",
+    author: "Nancy Young",
+    title: "A Tour That Feels Like a Fairytale",
+    rating: 4.1,
+    date: "2022-01-09"
   }
 ];

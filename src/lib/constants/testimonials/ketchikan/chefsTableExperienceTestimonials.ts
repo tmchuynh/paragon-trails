@@ -3,74 +3,122 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const chefsTableExperienceTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-ketchikan-4-1",
-    quote: "Sophia Taylor is the kind of guide you want to tell your friends about. This was a five-star experience.",
-    author: "Samantha Suzuki",
-    title: "A Day to Remember"
+    quote: "My uncle and I had the best time on this tour. Elena Wallace's knowledge of Ketchikan made it so much more special.",
+    author: "Gabriel Nguyen",
+    title: "Cultural Immersion at Its Best",
+    rating: 4.1,
+    date: "2022-07-21"
   },
   {
     id: "testimonial-tour-ketchikan-4-2",
-    quote: "Sophia Taylor's enthusiasm for Ketchikan was contagious. We walked away feeling inspired.",
-    author: "Walter Hayes",
-    title: "A Must-Do in Ketchikan"
+    quote: "We booked last-minute and are so glad we did. Elena Wallace made it one of our favorite memories from Ketchikan.",
+    author: "Harold Taylor",
+    title: "Brought Ketchikan to Life",
+    rating: 4,
+    date: "2020-07-25"
   },
   {
     id: "testimonial-tour-ketchikan-4-3",
-    quote: "Absolutely worth it. Sophia Taylor took care of everything so we could just relax and enjoy Ketchikan.",
-    author: "William Jackson",
-    title: "Beyond Our Expectations"
+    quote: "We were blown away by the depth of knowledge and warmth Elena Wallace brought to the tour.",
+    author: "Grace Johnson",
+    title: "Where Magic Meets Cobblestone",
+    rating: 3.6,
+    date: "2024-05-09"
   },
   {
     id: "testimonial-tour-ketchikan-4-4",
-    quote: "As a solo traveler, I felt completely comfortable on this tour. Sophia Taylor created a friendly atmosphere from the start.",
-    author: "Walter Day",
-    title: "The Ultimate Ketchikan Tour"
+    quote: "The Chef's Table Experience completely changed how I see Ketchikan. Elena Wallace's insights were invaluable.",
+    author: "Vincent Jackson",
+    title: "A Tour That Feels Like Home",
+    rating: 4.4,
+    date: "2021-03-11"
   },
   {
     id: "testimonial-tour-ketchikan-4-5",
-    quote: "The pace was perfect, the content was rich, and Sophia Taylor made every stop memorable.",
-    author: "Austin Carter",
-    title: "Outstanding in Every Way"
+    quote: "This was not just sightseeing — it was a deep dive into the heart of Ketchikan thanks to Elena Wallace.",
+    author: "Jack Hawkins",
+    title: "A Walk That Will Make You Want to Dance",
+    rating: 4.3,
+    date: "2021-03-12"
   },
   {
     id: "testimonial-tour-ketchikan-4-6",
-    quote: "This was more than just sightseeing — it was an unforgettable journey through Ketchikan's culture and history.",
-    author: "Harper Fox",
-    title: "Where Magic Meets Cobblestone"
+    quote: "This tour is a hidden gem — just like the spots Elena Wallace showed us around Ketchikan.",
+    author: "Pamela Jackson",
+    title: "Fascinating and Fun",
+    rating: 4.4,
+    date: "2017-06-03"
   },
   {
     id: "testimonial-tour-ketchikan-4-7",
-    quote: "Such a memorable way to explore Ketchikan. The mix of history, local culture, and stories was perfect.",
-    author: "Madelyn Wallace",
-    title: "Sunlight, Stories, and Serendipity"
+    quote: "Elena Wallace brought a depth of cultural insight that gave us a new appreciation for Ketchikan.",
+    author: "Terry Watson",
+    title: "Brought Ketchikan to Life",
+    rating: 4.5,
+    date: "2023-10-11"
   },
   {
     id: "testimonial-tour-ketchikan-4-8",
-    quote: "If you're visiting Ketchikan, the Chef's Table Experience is a must! Sophia Taylor made the history come alive in a way guidebooks never could.",
-    author: "Sandra Payne",
-    title: "The Ultimate Ketchikan Tour"
+    quote: "Elena Wallace shared personal stories that really brought Ketchikan to life for us. A truly memorable tour.",
+    author: "Mohamed Wilson",
+    title: "A Perfect Day in Ketchikan",
+    rating: 4.7,
+    date: "2018-02-28"
   },
   {
     id: "testimonial-tour-ketchikan-4-9",
-    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Sophia Taylor.",
-    author: "Russell Gibson",
-    title: "Truly Eye-Opening"
+    quote: "We had limited time in Ketchikan, and this tour made sure we saw the best of it. Elena Wallace was amazing.",
+    author: "Harold Johnson",
+    title: "Incredible from Start to Finish",
+    rating: 4,
+    date: "2024-01-01"
   },
   {
     id: "testimonial-tour-ketchikan-4-10",
-    quote: "I’ve taken dozens of tours in different countries. Sophia Taylor ranks among the very best.",
-    author: "Stella Harper",
-    title: "A New Favorite Memory"
+    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Elena Wallace!",
+    author: "Carol Palmer",
+    title: "Fascinating and Fun",
+    rating: 3.8,
+    date: "2020-08-08"
   },
   {
     id: "testimonial-tour-ketchikan-4-11",
-    quote: "Sophia Taylor went above and beyond to make sure everyone had a great time on the Chef's Table Experience.",
-    author: "Anthony White",
-    title: "I Came, I Saw, I Took Too Many Photos"
+    quote: "This isn’t your typical tour. Elena Wallace makes it feel personal and engaging from the very start.",
+    author: "Janet da Costa",
+    title: "A Journey Through Ketchikan's Soul",
+    rating: 4.7,
+    date: "2017-03-07"
   },
   {
     id: "testimonial-tour-ketchikan-4-12",
-    quote: "The small group size and personal attention from Sophia Taylor made all the difference.",
-    author: "Joan Griffin",
-    title: "Wandered Far, Wondered More"
+    quote: "I was nervous about joining a group tour, but Elena Wallace made everyone feel like part of the crew.",
+    author: "Mia Nguyen",
+    title: "Well Worth Your Time",
+    rating: 4.7,
+    date: "2018-01-10"
+  },
+  {
+    id: "testimonial-tour-ketchikan-4-13",
+    quote: "This was not just sightseeing — it was a deep dive into the heart of Ketchikan thanks to Elena Wallace.",
+    author: "Henry Nguyen",
+    title: "More Enchanting Than Expected",
+    rating: 3.8,
+    date: "2021-06-23"
+  },
+  {
+    id: "testimonial-tour-ketchikan-4-14",
+    quote: "A truly authentic experience! Elena Wallace showed us the real Ketchikan, not just the tourist spots.",
+    author: "Thabo Reed",
+    title: "A Walk That Will Make You Want to Explore More",
+    rating: 4.2,
+    date: "2022-04-30"
+  },
+  {
+    id: "testimonial-tour-ketchikan-4-15",
+    quote: "Even our teens were engaged the entire time — Elena Wallace knows how to captivate a group!",
+    author: "Arthur Bennett",
+    title: "A Journey Through Ketchikan's Heart",
+    rating: 4.5,
+    date: "2020-04-02"
   }
 ];

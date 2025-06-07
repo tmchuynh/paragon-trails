@@ -3,98 +3,122 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const landmarkDiscoveryJourneyTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-buenos-aires-4-1",
-    quote: "We left the Landmark Discovery Journey feeling more connected to Buenos Aires than we ever expected.",
-    author: "Lawrence Patel",
-    title: "I Came, I Saw, I Took Too Many Photos"
+    quote: "If you only have time for one activity in Buenos Aires, make it the Landmark Discovery Journey. You won’t regret it.",
+    author: "Santiago West",
+    title: "A Tour Even My Teenager Liked",
+    rating: 4.5,
+    date: "2020-09-21"
   },
   {
     id: "testimonial-tour-buenos-aires-4-2",
-    quote: "I've been on many tours, but this one stands out. Victor Singh was passionate, knowledgeable, and made everyone feel welcome.",
-    author: "Christian Nguyen",
-    title: "A Stroll Through a Living Storybook"
+    quote: "So much fun, and so informative! Wei Gibson's enthusiasm is contagious.",
+    author: "Christian Chambers",
+    title: "The Walking Was Free—The Laughs Were Priceless",
+    rating: 3.6,
+    date: "2021-11-05"
   },
   {
     id: "testimonial-tour-buenos-aires-4-3",
-    quote: "This tour exceeded all my expectations. Victor Singh's insider knowledge made our Buenos Aires visit unforgettable.",
-    author: "Nora Wallace",
-    title: "Beyond Our Expectations"
+    quote: "The small group size and personal attention from Wei Gibson made all the difference.",
+    author: "Roy Warren",
+    title: "A Journey Through Buenos Aires's Secrets",
+    rating: 4.7,
+    date: "2017-05-07"
   },
   {
     id: "testimonial-tour-buenos-aires-4-4",
-    quote: "We booked last-minute and are so glad we did. Victor Singh made it one of our favorite memories from Buenos Aires.",
-    author: "Daniel Dunn",
-    title: "Brought Buenos Aires to Life"
+    quote: "If you're visiting Buenos Aires, the Landmark Discovery Journey is a must! Wei Gibson made the history come alive in a way guidebooks never could.",
+    author: "Zola Anderson",
+    title: "Brought Buenos Aires to Life",
+    rating: 4.8,
+    date: "2021-08-03"
   },
   {
     id: "testimonial-tour-buenos-aires-4-5",
-    quote: "It felt like a private tour, even though we were with a group. Victor Singh is incredibly engaging.",
-    author: "Sophia Parker",
-    title: "History, Snacks, and Laughs—Yes Please!"
+    quote: "Absolutely worth it. Wei Gibson took care of everything so we could just relax and enjoy Buenos Aires.",
+    author: "Kimberly Singh",
+    title: "Impressive and Informative",
+    rating: 4.8,
+    date: "2021-02-05"
   },
   {
     id: "testimonial-tour-buenos-aires-4-6",
-    quote: "The small group size and personal attention from Victor Singh made all the difference.",
-    author: "Susan Chen",
-    title: "Better Than My Last Tinder Date"
+    quote: "The stories, the hidden gems, the expert navigation — Wei Gibson delivered on all fronts.",
+    author: "Genesis Martin",
+    title: "Insider's Perspective",
+    rating: 3.8,
+    date: "2023-10-20"
   },
   {
     id: "testimonial-tour-buenos-aires-4-7",
-    quote: "Victor Singh had such a great balance of history, fun facts, and local stories — truly a gifted guide.",
-    author: "Nomsa Collins",
-    title: "Entertaining and Educational"
+    quote: "The Landmark Discovery Journey was the highlight of our trip to Buenos Aires. Wei Gibson took us to all the best spots and shared fascinating stories.",
+    author: "Nora Morales",
+    title: "A Journey Through Buenos Aires's Culture",
+    rating: 4,
+    date: "2022-04-09"
   },
   {
     id: "testimonial-tour-buenos-aires-4-8",
-    quote: "Thanks to Victor Singh, we discovered parts of Buenos Aires we would have never seen on our own.",
-    author: "Jacob Hunter",
-    title: "Don't Miss This Tour!"
+    quote: "If you're visiting Buenos Aires, the Landmark Discovery Journey is a must! Wei Gibson made the history come alive in a way guidebooks never could.",
+    author: "Thabo Jansen",
+    title: "Insider's Perspective",
+    rating: 3.5,
+    date: "2024-04-01"
   },
   {
     id: "testimonial-tour-buenos-aires-4-9",
-    quote: "We joined the Landmark Discovery Journey on our first day in Buenos Aires, and it set the tone for a fantastic trip.",
-    author: "Claire Dunn",
-    title: "One of the Best Tours We've Taken"
+    quote: "This tour was absolutely amazing! Wei Gibson knew everything about Buenos Aires and showed us places we would have never found on our own.",
+    author: "James Morales",
+    title: "Worth Every Penny",
+    rating: 3.9,
+    date: "2023-03-05"
   },
   {
     id: "testimonial-tour-buenos-aires-4-10",
-    quote: "Victor Singh is the kind of guide you want to tell your friends about. This was a five-star experience.",
-    author: "Audrey Mitchell",
-    title: "A Stroll Through a Living Storybook"
+    quote: "A truly authentic experience! Wei Gibson showed us the real Buenos Aires, not just the tourist spots.",
+    author: "Jason Stewart",
+    title: "A Journey Through Buenos Aires's Wonders",
+    rating: 4.6,
+    date: "2018-03-10"
   },
   {
     id: "testimonial-tour-buenos-aires-4-11",
-    quote: "We joined the Landmark Discovery Journey on our first day in Buenos Aires, and it set the tone for a fantastic trip.",
-    author: "Ariana Young",
-    title: "Incredible from Start to Finish"
+    quote: "If you're visiting Buenos Aires, the Landmark Discovery Journey is a must! Wei Gibson made the history come alive in a way guidebooks never could.",
+    author: "Abigail Gibson",
+    title: "A Deep Dive into Local Culture",
+    rating: 4.3,
+    date: "2021-07-19"
   },
   {
     id: "testimonial-tour-buenos-aires-4-12",
-    quote: "We joined the Landmark Discovery Journey on our first day in Buenos Aires, and it set the tone for a fantastic trip.",
-    author: "Mia Anderson",
-    title: "Bought the T-Shirt, Took the Tour, Loved It"
+    quote: "We booked last-minute and are so glad we did. Wei Gibson made it one of our favorite memories from Buenos Aires.",
+    author: "Michael Williams",
+    title: "Sunlight, Stories, and Serendipity",
+    rating: 3.7,
+    date: "2022-03-14"
   },
   {
     id: "testimonial-tour-buenos-aires-4-13",
-    quote: "I wasn’t expecting to enjoy this tour so much, but Victor Singh made it the highlight of our trip.",
-    author: "Thomas Gonzalez",
-    title: "A Unique Way to Explore Buenos Aires"
+    quote: "What a fantastic way to start our stay in Buenos Aires. Wei Gibson gave us a great foundation for exploring more on our own.",
+    author: "Thabo Gibson",
+    title: "A Journey Through Buenos Aires's History",
+    rating: 4.9,
+    date: "2019-03-18"
   },
   {
     id: "testimonial-tour-buenos-aires-4-14",
-    quote: "Victor Singh went above and beyond to make sure everyone had a great time on the Landmark Discovery Journey.",
-    author: "Hiroshi Bennett",
-    title: "An Unexpected Highlight"
+    quote: "If you only have time for one activity in Buenos Aires, make it the Landmark Discovery Journey. You won’t regret it.",
+    author: "Maria Hayes",
+    title: "Entertaining and Educational",
+    rating: 4.5,
+    date: "2018-06-03"
   },
   {
     id: "testimonial-tour-buenos-aires-4-15",
-    quote: "Victor Singh was incredibly accommodating and answered every question with patience and detail.",
-    author: "Sandra Smith",
-    title: "Hot, Sweaty, and Absolutely Worth It"
-  },
-  {
-    id: "testimonial-tour-buenos-aires-4-16",
-    quote: "We were blown away by the depth of knowledge and warmth Victor Singh brought to the tour.",
-    author: "Ellie Hawkins",
-    title: "The Walking Was Free—The Laughs Were Priceless"
+    quote: "We booked last-minute and are so glad we did. Wei Gibson made it one of our favorite memories from Buenos Aires.",
+    author: "Chloe Hamilton",
+    title: "A Walk That Will Make You Think",
+    rating: 4.6,
+    date: "2022-03-12"
   }
 ];

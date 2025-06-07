@@ -3,62 +3,74 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const lgbtqCommunityExplorationTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-rome-2-1",
-    quote: "From beginning to end, the LGBTQ+ Community Exploration was seamless and so well organized.",
-    author: "Darrell Singh",
-    title: "Followed the Guide, Found a Dream"
+    quote: "From start to finish, the experience felt curated and special. Hats off to Alexa Ellis.",
+    author: "Dennis Wells",
+    title: "The Best Way to See Rome",
+    rating: 4.3,
+    date: "2021-06-05"
   },
   {
     id: "testimonial-tour-rome-2-2",
-    quote: "The LGBTQ+ Community Exploration completely changed how I see Rome. Maria Chen's insights were invaluable.",
-    author: "Liam Gibson",
-    title: "The Best Way to See Rome"
+    quote: "From start to finish, the experience felt curated and special. Hats off to Alexa Ellis.",
+    author: "Zola Marshall",
+    title: "Insider's Perspective",
+    rating: 3.6,
+    date: "2022-07-24"
   },
   {
     id: "testimonial-tour-rome-2-3",
-    quote: "We joined the LGBTQ+ Community Exploration on our first day in Rome, and it set the tone for a fantastic trip.",
-    author: "Cynthia Martin",
-    title: "Hot, Sweaty, and Absolutely Worth It"
+    quote: "Alexa Ellis made learning about Rome's history genuinely exciting — not an easy task!",
+    author: "Bruce Kim",
+    title: "A Walk That Changed Everything",
+    rating: 3.6,
+    date: "2025-04-07"
   },
   {
     id: "testimonial-tour-rome-2-4",
-    quote: "My family and I had the best time on this tour. Maria Chen's knowledge of Rome made it so much more special.",
-    author: "Aiden Watson",
-    title: "An Authentic Slice of Rome"
+    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Alexa Ellis!",
+    author: "Susan Nash",
+    title: "Highlight of Our Trip",
+    rating: 3.7,
+    date: "2017-08-10"
   },
   {
     id: "testimonial-tour-rome-2-5",
-    quote: "The pace was perfect, the content was rich, and Maria Chen made every stop memorable.",
-    author: "Vincent Anderson",
-    title: "Learned So Much!"
+    quote: "One of the best decisions of our trip! Alexa Ellis is a fantastic guide and brought incredible energy to the tour.",
+    author: "Patricia Brooks",
+    title: "Local Experience Made Easy",
+    rating: 4.8,
+    date: "2017-09-19"
   },
   {
     id: "testimonial-tour-rome-2-6",
-    quote: "The LGBTQ+ Community Exploration was both entertaining and educational. Maria Chen has a gift for storytelling that brings Rome's history to life.",
-    author: "Dylan Lopez",
-    title: "Truly Eye-Opening"
+    quote: "I can't recommend the LGBTQ+ Community Exploration enough. Alexa Ellis was phenomenal, and the experience was worth every penny.",
+    author: "Isabella Davis",
+    title: "A Journey Through Rome's Hidden Treasures",
+    rating: 4.4,
+    date: "2022-09-11"
   },
   {
     id: "testimonial-tour-rome-2-7",
-    quote: "I felt like I was being shown around by a friend who knows all the secrets of Rome.",
-    author: "Brenda Porter",
-    title: "A Unique Way to Explore Rome"
+    quote: "Our family loved every moment of the LGBTQ+ Community Exploration. Alexa Ellis even made it fun for our kids.",
+    author: "Ronald Sutton",
+    title: "Cultural Immersion at Its Best",
+    rating: 4.9,
+    date: "2020-07-19"
   },
   {
     id: "testimonial-tour-rome-2-8",
-    quote: "The small group size and personal attention from Maria Chen made all the difference.",
-    author: "Charlotte Carter",
-    title: "Learned So Much!"
+    quote: "Alexa Ellis's enthusiasm for Rome was contagious. We walked away feeling inspired.",
+    author: "Chloe Baker",
+    title: "Learned Stuff, Didn’t Cry—Success!",
+    rating: 4.2,
+    date: "2024-09-06"
   },
   {
     id: "testimonial-tour-rome-2-9",
-    quote: "Highly recommend this tour if you want more than just a photo op — Maria Chen gives you real insight into Rome.",
-    author: "Brooklyn Knight",
-    title: "Worth Every Penny"
-  },
-  {
-    id: "testimonial-tour-rome-2-10",
-    quote: "Maria Chen is the kind of guide you want to tell your friends about. This was a five-star experience.",
-    author: "John Jones",
-    title: "Felt Like a Character in a Fairytale"
+    quote: "From beginning to end, the LGBTQ+ Community Exploration was seamless and so well organized.",
+    author: "Vincent Fox",
+    title: "A Tour That Feels Like a Celebration",
+    rating: 3.6,
+    date: "2020-06-27"
   }
 ];

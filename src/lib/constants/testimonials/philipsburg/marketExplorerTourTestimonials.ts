@@ -3,104 +3,106 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const marketExplorerTourTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-philipsburg-5-1",
-    quote: "We left the Market Explorer Tour feeling more connected to Philipsburg than we ever expected.",
-    author: "Zachary Dixon",
-    title: "An Unexpected Highlight"
+    quote: "My grandfather and I agreed this was the best part of our entire trip to Philipsburg.",
+    author: "Zoe Curtis",
+    title: "A Deep Dive into Local Culture",
+    rating: 3.6,
+    date: "2020-01-15"
   },
   {
     id: "testimonial-tour-philipsburg-5-2",
-    quote: "A truly authentic experience! Brooklyn Price showed us the real Philipsburg, not just the tourist spots.",
-    author: "Billy Dubois",
-    title: "History, Snacks, and Laughs—Yes Please!"
+    quote: "What a fantastic way to start our stay in Philipsburg. Gabriel Carpenter gave us a great foundation for exploring more on our own.",
+    author: "Stephanie Dubois",
+    title: "History, Snacks, and Laughs—Yes Please!",
+    rating: 4,
+    date: "2023-02-12"
   },
   {
     id: "testimonial-tour-philipsburg-5-3",
-    quote: "We got so much value from this tour. Brooklyn Price took us to places we would have never discovered on our own.",
-    author: "Ella Bennett",
-    title: "Learned So Much!"
+    quote: "As a solo traveler, I felt completely comfortable on this tour. Gabriel Carpenter created a friendly atmosphere from the start.",
+    author: "Evelyn Hamilton",
+    title: "A Journey Through Philipsburg's Beauty",
+    rating: 4.5,
+    date: "2017-05-26"
   },
   {
     id: "testimonial-tour-philipsburg-5-4",
-    quote: "Brooklyn Price made learning about Philipsburg's history genuinely exciting — not an easy task!",
-    author: "Brian Hudson",
-    title: "Fun, Friendly, and Full of Insight"
+    quote: "Thanks to Gabriel Carpenter, we discovered parts of Philipsburg we would have never seen on our own.",
+    author: "Jeremy Reed",
+    title: "Don't Miss This Tour!",
+    rating: 3.7,
+    date: "2018-06-24"
   },
   {
     id: "testimonial-tour-philipsburg-5-5",
-    quote: "Brooklyn Price had such a great balance of history, fun facts, and local stories — truly a gifted guide.",
-    author: "Willie Fletcher",
-    title: "Bought the T-Shirt, Took the Tour, Loved It"
+    quote: "This was more than just sightseeing — it was an unforgettable journey through Philipsburg's culture and history.",
+    author: "Kenneth Kowalski",
+    title: "Highlight of Our Trip",
+    rating: 4.1,
+    date: "2019-10-13"
   },
   {
     id: "testimonial-tour-philipsburg-5-6",
-    quote: "We booked last-minute and are so glad we did. Brooklyn Price made it one of our favorite memories from Philipsburg.",
-    author: "Muhammad Reeves",
-    title: "So Glad We Did This"
+    quote: "Gabriel Carpenter had such a great balance of history, fun facts, and local stories — truly a gifted guide.",
+    author: "Dylan Singh",
+    title: "Fun, Friendly, and Full of Insight",
+    rating: 3.8,
+    date: "2017-08-28"
   },
   {
     id: "testimonial-tour-philipsburg-5-7",
-    quote: "Such a memorable way to explore Philipsburg. The mix of history, local culture, and stories was perfect.",
-    author: "Adam Ellis",
-    title: "A Stroll Through a Living Storybook"
+    quote: "We were blown away by the depth of knowledge and warmth Gabriel Carpenter brought to the tour.",
+    author: "Oliver Brown",
+    title: "History, Snacks, and Laughs—Yes Please!",
+    rating: 4.3,
+    date: "2017-03-09"
   },
   {
     id: "testimonial-tour-philipsburg-5-8",
-    quote: "If you're visiting Philipsburg, the Market Explorer Tour is a must! Brooklyn Price made the history come alive in a way guidebooks never could.",
-    author: "Ibrahim Kim",
-    title: "Would Follow This Guide Into Battle"
+    quote: "Gabriel Carpenter made learning about Philipsburg's history genuinely exciting — not an easy task!",
+    author: "Brian Nash",
+    title: "A Walk That Will Make You Want to Dance",
+    rating: 5,
+    date: "2025-02-05"
   },
   {
     id: "testimonial-tour-philipsburg-5-9",
-    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Brooklyn Price!",
-    author: "Skylar Spencer",
-    title: "Would Follow This Guide Into Battle"
+    quote: "A truly authentic experience! Gabriel Carpenter showed us the real Philipsburg, not just the tourist spots.",
+    author: "Mia Gonzalez",
+    title: "Learned Stuff, Didn’t Cry—Success!",
+    rating: 3.9,
+    date: "2019-07-25"
   },
   {
     id: "testimonial-tour-philipsburg-5-10",
-    quote: "My partner and I didn’t want the tour to end. Brooklyn Price is that engaging and informative.",
-    author: "Pamela Bennett",
-    title: "I Came, I Saw, I Took Too Many Photos"
+    quote: "The Market Explorer Tour was both entertaining and educational. Gabriel Carpenter has a gift for storytelling that brings Philipsburg's history to life.",
+    author: "Kyle Wang",
+    title: "I Came, I Saw, I Took Too Many Photos",
+    rating: 4.2,
+    date: "2020-11-12"
   },
   {
     id: "testimonial-tour-philipsburg-5-11",
-    quote: "Absolutely worth it. Brooklyn Price took care of everything so we could just relax and enjoy Philipsburg.",
-    author: "Roger Graham",
-    title: "Fascinating and Fun"
+    quote: "We’ll be recommending the Market Explorer Tour to all our friends. Gabriel Carpenter made it that special.",
+    author: "Luis Ivanov",
+    title: "A Deep Dive into Local Culture",
+    rating: 3.9,
+    date: "2024-05-05"
   },
   {
     id: "testimonial-tour-philipsburg-5-12",
-    quote: "If you're visiting Philipsburg, the Market Explorer Tour is a must! Brooklyn Price made the history come alive in a way guidebooks never could.",
-    author: "Fatima Marshall",
-    title: "The Ultimate Philipsburg Tour"
+    quote: "As someone who's been to Philipsburg before, I was surprised at how much I learned on the Market Explorer Tour. Gabriel Carpenter is a treasure trove of information!",
+    author: "Nancy Payne",
+    title: "Followed the Guide, Found a Dream",
+    rating: 4.3,
+    date: "2021-09-12"
   },
   {
     id: "testimonial-tour-philipsburg-5-13",
-    quote: "The Market Explorer Tour completely changed how I see Philipsburg. Brooklyn Price's insights were invaluable.",
-    author: "Donna Garcia",
-    title: "History, Snacks, and Laughs—Yes Please!"
-  },
-  {
-    id: "testimonial-tour-philipsburg-5-14",
-    quote: "What an engaging experience! Brooklyn Price kept us laughing and learning throughout the Market Explorer Tour.",
-    author: "Khalid Graves",
-    title: "Got Lost (on Purpose) with {GUIDE_NAME}"
-  },
-  {
-    id: "testimonial-tour-philipsburg-5-15",
-    quote: "One of the best decisions of our trip! Brooklyn Price is a fantastic guide and brought incredible energy to the tour.",
-    author: "Samantha da Costa",
-    title: "A New Favorite Memory"
-  },
-  {
-    id: "testimonial-tour-philipsburg-5-16",
-    quote: "If you only have time for one activity in Philipsburg, make it the Market Explorer Tour. You won’t regret it.",
-    author: "Bobby Suzuki",
-    title: "Followed the Guide, Found a Dream"
-  },
-  {
-    id: "testimonial-tour-philipsburg-5-17",
-    quote: "Even our teens were engaged the entire time — Brooklyn Price knows how to captivate a group!",
-    author: "Naomi Dubois",
-    title: "Fun, Friendly, and Full of Insight"
+    quote: "I can't recommend the Market Explorer Tour enough. Gabriel Carpenter was phenomenal, and the experience was worth every penny.",
+    author: "Elena Watson",
+    title: "A Tour Even My Teenager Liked",
+    rating: 4.3,
+    date: "2019-01-03"
   }
 ];

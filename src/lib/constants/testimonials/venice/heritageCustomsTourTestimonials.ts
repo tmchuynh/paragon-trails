@@ -3,104 +3,98 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const heritageCustomsTourTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-venice-3-1",
-    quote: "We were blown away by the depth of knowledge and warmth Amy Bennett brought to the tour.",
-    author: "Adam Müller",
-    title: "The Real Venice Experience"
+    quote: "This tour gave us a much deeper connection to Venice. James Moore's passion really shines through.",
+    author: "Muhammad Harris",
+    title: "An Authentic Slice of Venice",
+    rating: 4.5,
+    date: "2024-05-26"
   },
   {
     id: "testimonial-tour-venice-3-2",
-    quote: "We’ll be recommending the Heritage & Customs Tour to all our friends. Amy Bennett made it that special.",
-    author: "Mary Hernandez",
-    title: "Hidden Gems of Venice"
+    quote: "This tour exceeded all my expectations. James Moore's insider knowledge made our Venice visit unforgettable.",
+    author: "Christian Cooper",
+    title: "A Journey Through Venice's Beauty",
+    rating: 4,
+    date: "2023-03-22"
   },
   {
     id: "testimonial-tour-venice-3-3",
-    quote: "We booked last-minute and are so glad we did. Amy Bennett made it one of our favorite memories from Venice.",
-    author: "Barbara Stewart",
-    title: "Fascinating and Fun"
+    quote: "James Moore brought a depth of cultural insight that gave us a new appreciation for Venice.",
+    author: "Joshua Gonzalez",
+    title: "A Tour That Feels Like a Fairytale",
+    rating: 4.3,
+    date: "2020-07-02"
   },
   {
     id: "testimonial-tour-venice-3-4",
-    quote: "If you only have time for one activity in Venice, make it the Heritage & Customs Tour. You won’t regret it.",
-    author: "Brandon White",
-    title: "We’ll Never Forget This"
+    quote: "Highly recommend this tour if you want more than just a photo op — James Moore gives you real insight into Venice.",
+    author: "Boris Morgan",
+    title: "Would Follow This Guide Into Battle",
+    rating: 4.5,
+    date: "2017-02-05"
   },
   {
     id: "testimonial-tour-venice-3-5",
-    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Amy Bennett!",
-    author: "Mei Chen",
-    title: "So Much More Than Expected"
+    quote: "We loved every minute of the Heritage & Customs Tour. James Moore's local tips were priceless.",
+    author: "Benjamin Taylor",
+    title: "A Journey Through Venice's Hidden Treasures",
+    rating: 4.3,
+    date: "2022-07-30"
   },
   {
     id: "testimonial-tour-venice-3-6",
-    quote: "This tour was absolutely amazing! Amy Bennett knew everything about Venice and showed us places we would have never found on our own.",
-    author: "Amelia Miller",
-    title: "Loved Every Minute"
+    quote: "As someone who's been to Venice before, I was surprised at how much I learned on the Heritage & Customs Tour. James Moore is a treasure trove of information!",
+    author: "Randy Maxwell",
+    title: "If Cities Had Souls, Venice Sang to Us",
+    rating: 3.9,
+    date: "2023-03-17"
   },
   {
     id: "testimonial-tour-venice-3-7",
-    quote: "Thanks to Amy Bennett, we discovered parts of Venice we would have never seen on our own.",
-    author: "Gabriel Bennett",
-    title: "Incredible from Start to Finish"
+    quote: "I wasn’t expecting to enjoy this tour so much, but James Moore made it the highlight of our trip.",
+    author: "Roger Wang",
+    title: "The Perfect Introduction to Venice",
+    rating: 4.3,
+    date: "2018-07-21"
   },
   {
     id: "testimonial-tour-venice-3-8",
-    quote: "We booked last-minute and are so glad we did. Amy Bennett made it one of our favorite memories from Venice.",
-    author: "Louis Johnson",
-    title: "We’ll Never Forget This"
+    quote: "I felt like I was being shown around by a friend who knows all the secrets of Venice.",
+    author: "Lerato Dubois",
+    title: "A Hidden Gem of a Tour",
+    rating: 4.1,
+    date: "2022-12-23"
   },
   {
     id: "testimonial-tour-venice-3-9",
-    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Amy Bennett!",
-    author: "Mia Bennett",
-    title: "The Best Way to See Venice"
+    quote: "Highly recommend this tour if you want more than just a photo op — James Moore gives you real insight into Venice.",
+    author: "Sophia Jansen",
+    title: "A Journey Through Venice's Magic",
+    rating: 4.9,
+    date: "2020-06-08"
   },
   {
     id: "testimonial-tour-venice-3-10",
-    quote: "Amy Bennett brought a depth of cultural insight that gave us a new appreciation for Venice.",
-    author: "Diego Gibson",
-    title: "Learned Stuff, Didn’t Cry—Success!"
+    quote: "This isn’t your typical tour. James Moore makes it feel personal and engaging from the very start.",
+    author: "Joshua Crawford",
+    title: "An Authentic Slice of Venice",
+    rating: 3.9,
+    date: "2018-12-12"
   },
   {
     id: "testimonial-tour-venice-3-11",
-    quote: "This was not just sightseeing — it was a deep dive into the heart of Venice thanks to Amy Bennett.",
-    author: "Daniel Patel",
-    title: "Unforgettable Experience"
+    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, James Moore!",
+    author: "Matthew Graves",
+    title: "A Tour to Remember",
+    rating: 4.9,
+    date: "2018-06-24"
   },
   {
     id: "testimonial-tour-venice-3-12",
-    quote: "We loved every minute of the Heritage & Customs Tour. Amy Bennett's local tips were priceless.",
-    author: "Anthony Fletcher",
-    title: "Unforgettable Experience"
-  },
-  {
-    id: "testimonial-tour-venice-3-13",
-    quote: "What a fantastic way to start our stay in Venice. Amy Bennett gave us a great foundation for exploring more on our own.",
-    author: "Alice Kowalski",
-    title: "Learned So Much!"
-  },
-  {
-    id: "testimonial-tour-venice-3-14",
-    quote: "If you only have time for one activity in Venice, make it the Heritage & Customs Tour. You won’t regret it.",
-    author: "Melissa Gonzalez",
-    title: "History, Snacks, and Laughs—Yes Please!"
-  },
-  {
-    id: "testimonial-tour-venice-3-15",
-    quote: "As a solo traveler, I felt completely comfortable on this tour. Amy Bennett created a friendly atmosphere from the start.",
-    author: "Amelia Baker",
-    title: "A New Favorite Memory"
-  },
-  {
-    id: "testimonial-tour-venice-3-16",
-    quote: "Amy Bennett's enthusiasm for Venice was contagious. We walked away feeling inspired.",
-    author: "Austin Johnson",
-    title: "Would Follow This Guide Into Battle"
-  },
-  {
-    id: "testimonial-tour-venice-3-17",
-    quote: "The Heritage & Customs Tour was the highlight of our trip to Venice. Amy Bennett took us to all the best spots and shared fascinating stories.",
-    author: "William White",
-    title: "Absolutely Fantastic!"
+    quote: "This was more than just sightseeing — it was an unforgettable journey through Venice's culture and history.",
+    author: "Priya Coleman",
+    title: "A Tour That Feels Like a Fairytale",
+    rating: 3.7,
+    date: "2020-06-28"
   }
 ];

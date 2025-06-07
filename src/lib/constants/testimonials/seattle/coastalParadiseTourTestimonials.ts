@@ -3,86 +3,98 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const coastalParadiseTourTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-seattle-1-1",
-    quote: "Even our teens were engaged the entire time — Maria Parker knows how to captivate a group!",
-    author: "Jordan Hayes",
-    title: "Would Follow This Guide Into Battle"
+    quote: "Even our teens were engaged the entire time — Alexander Gibson knows how to captivate a group!",
+    author: "Carlos Cooper",
+    title: "A Tour That Feels Like a Dream",
+    rating: 4.3,
+    date: "2024-02-17"
   },
   {
     id: "testimonial-tour-seattle-1-2",
-    quote: "I’ve taken dozens of tours in different countries. Maria Parker ranks among the very best.",
-    author: "Aaliyah Gonzalez",
-    title: "A Must-Do in Seattle"
+    quote: "The pace was perfect, the content was rich, and Alexander Gibson made every stop memorable.",
+    author: "Aria Campbell",
+    title: "Truly Eye-Opening",
+    rating: 4.1,
+    date: "2023-10-11"
   },
   {
     id: "testimonial-tour-seattle-1-3",
-    quote: "One of the best decisions of our trip! Maria Parker is a fantastic guide and brought incredible energy to the tour.",
-    author: "Samantha Silva",
-    title: "Cultural Immersion at Its Best"
+    quote: "What an engaging experience! Alexander Gibson kept us laughing and learning throughout the Coastal Paradise Tour.",
+    author: "William Ellis",
+    title: "We’ll Never Forget This",
+    rating: 4.2,
+    date: "2019-11-24"
   },
   {
     id: "testimonial-tour-seattle-1-4",
-    quote: "Maria Parker went above and beyond to make sure everyone had a great time on the Coastal Paradise Tour.",
-    author: "Kenneth Young",
-    title: "A Tour Even My Teenager Liked"
+    quote: "We got so much value from this tour. Alexander Gibson took us to places we would have never discovered on our own.",
+    author: "Wei Stewart",
+    title: "A Walk That Will Make You Laugh",
+    rating: 4.8,
+    date: "2020-05-09"
   },
   {
     id: "testimonial-tour-seattle-1-5",
-    quote: "Maria Parker is the kind of guide you want to tell your friends about. This was a five-star experience.",
-    author: "Sarah Watson",
-    title: "A Perfect Day in Seattle"
+    quote: "We were blown away by the depth of knowledge and warmth Alexander Gibson brought to the tour.",
+    author: "Isabella Watson",
+    title: "A Tour Even My Teenager Liked",
+    rating: 4.9,
+    date: "2021-09-12"
   },
   {
     id: "testimonial-tour-seattle-1-6",
-    quote: "Absolutely worth it. Maria Parker took care of everything so we could just relax and enjoy Seattle.",
-    author: "Wayne Suzuki",
-    title: "I Came, I Saw, I Took Too Many Photos"
+    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Alexander Gibson.",
+    author: "Deborah West",
+    title: "A Deep Dive into Local Culture",
+    rating: 4.5,
+    date: "2020-09-16"
   },
   {
     id: "testimonial-tour-seattle-1-7",
-    quote: "The Coastal Paradise Tour completely changed how I see Seattle. Maria Parker's insights were invaluable.",
-    author: "Diego Reed",
-    title: "Exceptional Tour Guide"
+    quote: "My father and I had the best time on this tour. Alexander Gibson's knowledge of Seattle made it so much more special.",
+    author: "Charlotte Taylor",
+    title: "A New Favorite Memory",
+    rating: 4,
+    date: "2021-10-10"
   },
   {
     id: "testimonial-tour-seattle-1-8",
-    quote: "One of the best decisions of our trip! Maria Parker is a fantastic guide and brought incredible energy to the tour.",
-    author: "Savannah Brown",
-    title: "Entertaining and Educational"
+    quote: "A truly authentic experience! Alexander Gibson showed us the real Seattle, not just the tourist spots.",
+    author: "Alice Thomas",
+    title: "Highlight of Our Trip",
+    rating: 3.7,
+    date: "2022-05-28"
   },
   {
     id: "testimonial-tour-seattle-1-9",
-    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Maria Parker.",
-    author: "Mateo Wood",
-    title: "Highlight of Our Trip"
+    quote: "From beginning to end, the Coastal Paradise Tour was seamless and so well organized.",
+    author: "Sofia Thomas",
+    title: "A Unique Way to Explore Seattle",
+    rating: 4,
+    date: "2024-02-10"
   },
   {
     id: "testimonial-tour-seattle-1-10",
-    quote: "Thanks to Maria Parker, we discovered parts of Seattle we would have never seen on our own.",
-    author: "Lucas Williams",
-    title: "A New Favorite Memory"
+    quote: "I was nervous about joining a group tour, but Alexander Gibson made everyone feel like part of the crew.",
+    author: "Amelia Holloway",
+    title: "Bought the T-Shirt, Took the Tour, Loved It",
+    rating: 3.6,
+    date: "2024-06-29"
   },
   {
     id: "testimonial-tour-seattle-1-11",
-    quote: "I've been on many tours, but this one stands out. Maria Parker was passionate, knowledgeable, and made everyone feel welcome.",
-    author: "Austin Dixon",
-    title: "Exceptional Tour Guide"
+    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Alexander Gibson.",
+    author: "Isabella King",
+    title: "Memorable from the First Step",
+    rating: 4.9,
+    date: "2017-09-22"
   },
   {
     id: "testimonial-tour-seattle-1-12",
-    quote: "This tour was absolutely amazing! Maria Parker knew everything about Seattle and showed us places we would have never found on our own.",
-    author: "Aisha Hamilton",
-    title: "Brought Seattle to Life"
-  },
-  {
-    id: "testimonial-tour-seattle-1-13",
-    quote: "My cousin and I didn’t want the tour to end. Maria Parker is that engaging and informative.",
-    author: "Amanda Griffin",
-    title: "Entertaining and Educational"
-  },
-  {
-    id: "testimonial-tour-seattle-1-14",
-    quote: "Thanks to Maria Parker, we discovered parts of Seattle we would have never seen on our own.",
-    author: "Laura Douglas",
-    title: "Outstanding in Every Way"
+    quote: "So much fun, and so informative! Alexander Gibson's enthusiasm is contagious.",
+    author: "Mason Harris",
+    title: "Followed the Guide, Found a Dream",
+    rating: 4.7,
+    date: "2017-06-06"
   }
 ];

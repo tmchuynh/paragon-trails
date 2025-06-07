@@ -3,62 +3,66 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const loveStoryExperienceTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-montevideo-1-1",
-    quote: "We loved every minute of the Love Story Experience. Khalid Carpenter's local tips were priceless.",
-    author: "Louis Davis",
-    title: "Highly Recommend to Everyone"
+    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from David Wilson.",
+    author: "Justin Coleman",
+    title: "Felt Like a Character in a Fairytale",
+    rating: 4.6,
+    date: "2018-10-16"
   },
   {
     id: "testimonial-tour-montevideo-1-2",
-    quote: "As a solo traveler, I felt completely comfortable on this tour. Khalid Carpenter created a friendly atmosphere from the start.",
-    author: "Ashley Reed",
-    title: "Followed the Guide, Found a Dream"
+    quote: "This was more than just sightseeing — it was an unforgettable journey through Montevideo's culture and history.",
+    author: "Ibrahim Wilson",
+    title: "A Walk That Will Make You Want to Explore More",
+    rating: 4.3,
+    date: "2022-06-23"
   },
   {
     id: "testimonial-tour-montevideo-1-3",
-    quote: "Even the locals in our group said they learned something new. That says a lot about Khalid Carpenter's depth.",
-    author: "Sophia da Costa",
-    title: "History Comes Alive"
+    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend David Wilson.",
+    author: "Henry Hamilton",
+    title: "A Journey Through Montevideo's Charm",
+    rating: 3.8,
+    date: "2019-12-27"
   },
   {
     id: "testimonial-tour-montevideo-1-4",
-    quote: "I wasn’t expecting to enjoy this tour so much, but Khalid Carpenter made it the highlight of our trip.",
-    author: "Stephanie Reed",
-    title: "The Ultimate Montevideo Tour"
+    quote: "David Wilson shared personal stories that really brought Montevideo to life for us. A truly memorable tour.",
+    author: "Joe Porter",
+    title: "History Comes Alive",
+    rating: 3.9,
+    date: "2020-10-12"
   },
   {
     id: "testimonial-tour-montevideo-1-5",
-    quote: "Khalid Carpenter was incredibly accommodating and answered every question with patience and detail.",
-    author: "Lisa Jackson",
-    title: "So Much More Than Expected"
+    quote: "The Love Story Experience was the highlight of our trip to Montevideo. David Wilson took us to all the best spots and shared fascinating stories.",
+    author: "Priya Chambers",
+    title: "Top-Notch Guiding",
+    rating: 3.8,
+    date: "2022-07-03"
   },
   {
     id: "testimonial-tour-montevideo-1-6",
-    quote: "I've been on many tours, but this one stands out. Khalid Carpenter was passionate, knowledgeable, and made everyone feel welcome.",
-    author: "Harold Henderson",
-    title: "A Day to Remember"
+    quote: "The Love Story Experience was both entertaining and educational. David Wilson has a gift for storytelling that brings Montevideo's history to life.",
+    author: "Alan Brown",
+    title: "Truly Eye-Opening",
+    rating: 4.3,
+    date: "2018-01-28"
   },
   {
     id: "testimonial-tour-montevideo-1-7",
-    quote: "Khalid Carpenter shared personal stories that really brought Montevideo to life for us. A truly memorable tour.",
-    author: "Andrew Wood",
-    title: "Incredible from Start to Finish"
+    quote: "This tour gave us a much deeper connection to Montevideo. David Wilson's passion really shines through.",
+    author: "Riley Lawson",
+    title: "Unforgettable Experience",
+    rating: 3.8,
+    date: "2018-05-02"
   },
   {
     id: "testimonial-tour-montevideo-1-8",
-    quote: "This was not just sightseeing — it was a deep dive into the heart of Montevideo thanks to Khalid Carpenter.",
-    author: "Brenda Chen",
-    title: "Better Than My Last Tinder Date"
-  },
-  {
-    id: "testimonial-tour-montevideo-1-9",
-    quote: "From start to finish, the experience felt curated and special. Hats off to Khalid Carpenter.",
-    author: "Alexander Morgan",
-    title: "The Real Montevideo Experience"
-  },
-  {
-    id: "testimonial-tour-montevideo-1-10",
-    quote: "This tour is a hidden gem — just like the spots Khalid Carpenter showed us around Montevideo.",
-    author: "Carl Jackson",
-    title: "Impressive and Informative"
+    quote: "I've been on many tours, but this one stands out. David Wilson was passionate, knowledgeable, and made everyone feel welcome.",
+    author: "Amelia Collins",
+    title: "Wandered Far, Wondered More",
+    rating: 3.9,
+    date: "2024-07-16"
   }
 ];

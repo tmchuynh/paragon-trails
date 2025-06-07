@@ -3,74 +3,82 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const culturalImmersionExperienceTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-cozumel-6-1",
-    quote: "I felt like I was being shown around by a friend who knows all the secrets of Cozumel.",
-    author: "Aria Chambers",
-    title: "The Real Cozumel Experience"
+    quote: "It felt like a private tour, even though we were with a group. Grace Spencer is incredibly engaging.",
+    author: "Ibrahim Hudson",
+    title: "Lost in Time—in the Best Way",
+    rating: 4.6,
+    date: "2020-01-19"
   },
   {
     id: "testimonial-tour-cozumel-6-2",
-    quote: "I felt like I was being shown around by a friend who knows all the secrets of Cozumel.",
-    author: "Roy Jennings",
-    title: "Insider's Perspective"
+    quote: "We were blown away by the depth of knowledge and warmth Grace Spencer brought to the tour.",
+    author: "Chloe Harper",
+    title: "A Journey Through Cozumel's Magic",
+    rating: 3.6,
+    date: "2025-04-06"
   },
   {
     id: "testimonial-tour-cozumel-6-3",
-    quote: "A truly authentic experience! Carl Harper showed us the real Cozumel, not just the tourist spots.",
-    author: "Layla Singh",
-    title: "Beyond Our Expectations"
+    quote: "If you only have time for one activity in Cozumel, make it the Cultural Immersion Experience. You won’t regret it.",
+    author: "Diego Griffin",
+    title: "The Real Cozumel Experience",
+    rating: 4.4,
+    date: "2021-06-22"
   },
   {
     id: "testimonial-tour-cozumel-6-4",
-    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Carl Harper.",
-    author: "Deborah Stewart",
-    title: "Insider's Perspective"
+    quote: "My acquaintance and I had the best time on this tour. Grace Spencer's knowledge of Cozumel made it so much more special.",
+    author: "Julie Martinez",
+    title: "Don't Miss This Tour!",
+    rating: 4.4,
+    date: "2022-11-17"
   },
   {
     id: "testimonial-tour-cozumel-6-5",
-    quote: "Absolutely worth it. Carl Harper took care of everything so we could just relax and enjoy Cozumel.",
-    author: "Ibrahim Kim",
-    title: "History, Snacks, and Laughs—Yes Please!"
+    quote: "As a solo traveler, I felt completely comfortable on this tour. Grace Spencer created a friendly atmosphere from the start.",
+    author: "Ali Patel",
+    title: "A Journey Through Cozumel's Culture",
+    rating: 3.8,
+    date: "2018-04-11"
   },
   {
     id: "testimonial-tour-cozumel-6-6",
-    quote: "Such a memorable way to explore Cozumel. The mix of history, local culture, and stories was perfect.",
-    author: "Leah Clark",
-    title: "We’ll Never Forget This"
+    quote: "We booked last-minute and are so glad we did. Grace Spencer made it one of our favorite memories from Cozumel.",
+    author: "Claire Müller",
+    title: "A Journey Through Cozumel's Beauty",
+    rating: 4.9,
+    date: "2019-08-01"
   },
   {
     id: "testimonial-tour-cozumel-6-7",
-    quote: "If you only have time for one activity in Cozumel, make it the Cultural Immersion Experience. You won’t regret it.",
-    author: "Harper Gonzalez",
-    title: "Brought Cozumel to Life"
+    quote: "What an engaging experience! Grace Spencer kept us laughing and learning throughout the Cultural Immersion Experience.",
+    author: "Jeremy Williams",
+    title: "A Walk That Will Make You Want to Explore More",
+    rating: 4.7,
+    date: "2024-01-18"
   },
   {
     id: "testimonial-tour-cozumel-6-8",
-    quote: "We had limited time in Cozumel, and this tour made sure we saw the best of it. Carl Harper was amazing.",
-    author: "Christopher Davis",
-    title: "History Comes Alive"
+    quote: "This tour exceeded all my expectations. Grace Spencer's insider knowledge made our Cozumel visit unforgettable.",
+    author: "Samantha Reeves",
+    title: "Well Worth Your Time",
+    rating: 4.3,
+    date: "2020-08-18"
   },
   {
     id: "testimonial-tour-cozumel-6-9",
-    quote: "We’ll be recommending the Cultural Immersion Experience to all our friends. Carl Harper made it that special.",
-    author: "Susan Hawkins",
-    title: "Whispers of the Past, Echoes of Joy"
+    quote: "We had limited time in Cozumel, and this tour made sure we saw the best of it. Grace Spencer was amazing.",
+    author: "Thabo Wang",
+    title: "I Came, I Saw, I Took Too Many Photos",
+    rating: 4.6,
+    date: "2018-09-17"
   },
   {
     id: "testimonial-tour-cozumel-6-10",
-    quote: "I felt like I was being shown around by a friend who knows all the secrets of Cozumel.",
-    author: "Albert Palmer",
-    title: "Brought Cozumel to Life"
-  },
-  {
-    id: "testimonial-tour-cozumel-6-11",
-    quote: "We’ll be recommending the Cultural Immersion Experience to all our friends. Carl Harper made it that special.",
-    author: "Ibrahim Baker",
-    title: "Sunlight, Stories, and Serendipity"
-  },
-  {
-    id: "testimonial-tour-cozumel-6-12",
-    quote: "Carl Harper was incredibly accommodating and answered every question with patience and detail.",
-    author: "Albert Gardner",
-    title: "Best Decision of Our Trip"
+    quote: "As someone who's been to Cozumel before, I was surprised at how much I learned on the Cultural Immersion Experience. Grace Spencer is a treasure trove of information!",
+    author: "Melissa Curtis",
+    title: "Incredible from Start to Finish",
+    rating: 4.5,
+    date: "2024-04-19"
   }
 ];

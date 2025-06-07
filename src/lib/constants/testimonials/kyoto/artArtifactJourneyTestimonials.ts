@@ -3,62 +3,66 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const artArtifactJourneyTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-kyoto-1-1",
-    quote: "A truly authentic experience! Harper Khan showed us the real Kyoto, not just the tourist spots.",
-    author: "Layla Wilson",
-    title: "So Much More Than Expected"
+    quote: "What an engaging experience! Roy Montgomery kept us laughing and learning throughout the Art & Artifact Journey.",
+    author: "Mia Martin",
+    title: "Truly Eye-Opening",
+    rating: 3.6,
+    date: "2024-01-06"
   },
   {
     id: "testimonial-tour-kyoto-1-2",
-    quote: "We got so much value from this tour. Harper Khan took us to places we would have never discovered on our own.",
-    author: "Samantha Bennett",
-    title: "Learned So Much!"
+    quote: "Our family loved every moment of the Art & Artifact Journey. Roy Montgomery even made it fun for our kids.",
+    author: "Valentina Day",
+    title: "Fascinating and Fun",
+    rating: 4.7,
+    date: "2021-08-26"
   },
   {
     id: "testimonial-tour-kyoto-1-3",
-    quote: "It felt like a private tour, even though we were with a group. Harper Khan is incredibly engaging.",
-    author: "Mei Price",
-    title: "The Best Way to See Kyoto"
+    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Roy Montgomery.",
+    author: "Emma Fisher",
+    title: "Would Follow This Guide Into Battle",
+    rating: 4.8,
+    date: "2017-01-02"
   },
   {
     id: "testimonial-tour-kyoto-1-4",
-    quote: "I felt like I was being shown around by a friend who knows all the secrets of Kyoto.",
-    author: "Olivia Hayes",
-    title: "Felt Like a Character in a Fairytale"
+    quote: "Roy Montgomery shared personal stories that really brought Kyoto to life for us. A truly memorable tour.",
+    author: "Kimberly Foster",
+    title: "Loved Every Minute",
+    rating: 4.5,
+    date: "2018-11-19"
   },
   {
     id: "testimonial-tour-kyoto-1-5",
-    quote: "What a fantastic way to start our stay in Kyoto. Harper Khan gave us a great foundation for exploring more on our own.",
-    author: "Julie Marshall",
-    title: "The Ultimate Kyoto Tour"
+    quote: "If you only have time for one activity in Kyoto, make it the Art & Artifact Journey. You won’t regret it.",
+    author: "Carlos White",
+    title: "A Perfect Day in Kyoto",
+    rating: 4.9,
+    date: "2018-01-16"
   },
   {
     id: "testimonial-tour-kyoto-1-6",
-    quote: "The Art & Artifact Journey completely changed how I see Kyoto. Harper Khan's insights were invaluable.",
-    author: "Brandon Wright",
-    title: "Don't Miss This Tour!"
+    quote: "This isn’t your typical tour. Roy Montgomery makes it feel personal and engaging from the very start.",
+    author: "Omar Payne",
+    title: "A Journey Through Kyoto's History",
+    rating: 4.8,
+    date: "2023-01-25"
   },
   {
     id: "testimonial-tour-kyoto-1-7",
-    quote: "This was not just sightseeing — it was a deep dive into the heart of Kyoto thanks to Harper Khan.",
-    author: "Joan Lawson",
-    title: "Local Experience Made Easy"
+    quote: "Highly recommend this tour if you want more than just a photo op — Roy Montgomery gives you real insight into Kyoto.",
+    author: "Priya Nguyen",
+    title: "A Walk That Will Make You Want to Explore More",
+    rating: 4.9,
+    date: "2018-11-29"
   },
   {
     id: "testimonial-tour-kyoto-1-8",
-    quote: "So much fun, and so informative! Harper Khan's enthusiasm is contagious.",
-    author: "Barbara Holloway",
-    title: "Hot, Sweaty, and Absolutely Worth It"
-  },
-  {
-    id: "testimonial-tour-kyoto-1-9",
-    quote: "Harper Khan is the kind of guide you want to tell your friends about. This was a five-star experience.",
-    author: "Fatima Carpenter",
-    title: "Sunlight, Stories, and Serendipity"
-  },
-  {
-    id: "testimonial-tour-kyoto-1-10",
-    quote: "I was nervous about joining a group tour, but Harper Khan made everyone feel like part of the crew.",
-    author: "Alan Mitchell",
-    title: "Local Experience Made Easy"
+    quote: "As someone who's been to Kyoto before, I was surprised at how much I learned on the Art & Artifact Journey. Roy Montgomery is a treasure trove of information!",
+    author: "Miguel Khan",
+    title: "Well Worth Your Time",
+    rating: 4.7,
+    date: "2022-05-08"
   }
 ];

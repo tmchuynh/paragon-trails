@@ -3,98 +3,114 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const scenicTrailsExpeditionTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-singapore-4-1",
-    quote: "My cousin and I had the best time on this tour. Jacob Foster's knowledge of Singapore made it so much more special.",
-    author: "Stephen Clark",
-    title: "Would Follow This Guide Into Battle"
+    quote: "The stories, the hidden gems, the expert navigation — Austin Jackson delivered on all fronts.",
+    author: "Carlos Khan",
+    title: "Local Experience Made Easy",
+    rating: 4.3,
+    date: "2017-05-28"
   },
   {
     id: "testimonial-tour-singapore-4-2",
-    quote: "We got so much value from this tour. Jacob Foster took us to places we would have never discovered on our own.",
-    author: "Timothy Jansen",
-    title: "Got Lost (on Purpose) with {GUIDE_NAME}"
+    quote: "I can't recommend the Scenic Trails Expedition enough. Austin Jackson was phenomenal, and the experience was worth every penny.",
+    author: "Gabriella Keller",
+    title: "One of the Best Tours We've Taken",
+    rating: 3.7,
+    date: "2021-03-15"
   },
   {
     id: "testimonial-tour-singapore-4-3",
-    quote: "I felt like I was being shown around by a friend who knows all the secrets of Singapore.",
-    author: "Henry Payne",
-    title: "I Came, I Saw, I Took Too Many Photos"
+    quote: "So much fun, and so informative! Austin Jackson's enthusiasm is contagious.",
+    author: "Sarah Coleman",
+    title: "Insider's Perspective",
+    rating: 4.3,
+    date: "2017-01-28"
   },
   {
     id: "testimonial-tour-singapore-4-4",
-    quote: "We’ll be recommending the Scenic Trails Expedition to all our friends. Jacob Foster made it that special.",
-    author: "Oliver Hernandez",
-    title: "Got Lost (on Purpose) with {GUIDE_NAME}"
+    quote: "This tour was absolutely amazing! Austin Jackson knew everything about Singapore and showed us places we would have never found on our own.",
+    author: "Amelia Graves",
+    title: "Impressive and Informative",
+    rating: 3.8,
+    date: "2019-02-14"
   },
   {
     id: "testimonial-tour-singapore-4-5",
-    quote: "This tour gave us a much deeper connection to Singapore. Jacob Foster's passion really shines through.",
-    author: "Joshua Stewart",
-    title: "Lost in Time—in the Best Way"
+    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Austin Jackson.",
+    author: "Thomas Martinez",
+    title: "Fascinating and Fun",
+    rating: 4.2,
+    date: "2018-06-09"
   },
   {
     id: "testimonial-tour-singapore-4-6",
-    quote: "We booked last-minute and are so glad we did. Jacob Foster made it one of our favorite memories from Singapore.",
-    author: "Skylar Campbell",
-    title: "The Best Way to See Singapore"
+    quote: "This isn’t your typical tour. Austin Jackson makes it feel personal and engaging from the very start.",
+    author: "Grace Thomas",
+    title: "Whispers of the Past, Echoes of Joy",
+    rating: 4.1,
+    date: "2025-02-10"
   },
   {
     id: "testimonial-tour-singapore-4-7",
-    quote: "The Scenic Trails Expedition was both entertaining and educational. Jacob Foster has a gift for storytelling that brings Singapore's history to life.",
-    author: "Jonathan Fletcher",
-    title: "Truly Eye-Opening"
+    quote: "One of the best decisions of our trip! Austin Jackson is a fantastic guide and brought incredible energy to the tour.",
+    author: "Frank Suzuki",
+    title: "Best Tour in Singapore",
+    rating: 4.2,
+    date: "2021-11-08"
   },
   {
     id: "testimonial-tour-singapore-4-8",
-    quote: "A truly authentic experience! Jacob Foster showed us the real Singapore, not just the tourist spots.",
-    author: "Ibrahim Cooper",
-    title: "Followed the Guide, Found a Dream"
+    quote: "This tour gave us a much deeper connection to Singapore. Austin Jackson's passion really shines through.",
+    author: "Laura Harper",
+    title: "History, Snacks, and Laughs—Yes Please!",
+    rating: 4.8,
+    date: "2024-04-20"
   },
   {
     id: "testimonial-tour-singapore-4-9",
-    quote: "This was more than just sightseeing — it was an unforgettable journey through Singapore's culture and history.",
-    author: "Jonathan Sutton",
-    title: "Hidden Gems of Singapore"
+    quote: "If you're visiting Singapore, the Scenic Trails Expedition is a must! Austin Jackson made the history come alive in a way guidebooks never could.",
+    author: "Timothy Harris",
+    title: "Learned So Much!",
+    rating: 4.5,
+    date: "2023-12-11"
   },
   {
     id: "testimonial-tour-singapore-4-10",
-    quote: "What an engaging experience! Jacob Foster kept us laughing and learning throughout the Scenic Trails Expedition.",
-    author: "Harold Kowalski",
-    title: "An Unexpected Highlight"
+    quote: "My cousin and I agreed this was the best part of our entire trip to Singapore.",
+    author: "Priya Campbell",
+    title: "A Journey Through Singapore's Wonders",
+    rating: 4.9,
+    date: "2017-12-03"
   },
   {
     id: "testimonial-tour-singapore-4-11",
-    quote: "This isn’t your typical tour. Jacob Foster makes it feel personal and engaging from the very start.",
-    author: "Aria Dubois",
-    title: "More Enchanting Than Expected"
+    quote: "Absolutely worth it. Austin Jackson took care of everything so we could just relax and enjoy Singapore.",
+    author: "Harry Hawkins",
+    title: "A Tour That Feels Like Home",
+    rating: 3.8,
+    date: "2021-06-20"
   },
   {
     id: "testimonial-tour-singapore-4-12",
-    quote: "This tour exceeded all my expectations. Jacob Foster's insider knowledge made our Singapore visit unforgettable.",
-    author: "Nora Wallace",
-    title: "Truly Eye-Opening"
+    quote: "Highly recommend this tour if you want more than just a photo op — Austin Jackson gives you real insight into Singapore.",
+    author: "Joshua Nash",
+    title: "The Walking Was Free—The Laughs Were Priceless",
+    rating: 4.9,
+    date: "2023-08-18"
   },
   {
     id: "testimonial-tour-singapore-4-13",
-    quote: "So much fun, and so informative! Jacob Foster's enthusiasm is contagious.",
-    author: "Diego Mitchell",
-    title: "Better Than My Last Tinder Date"
+    quote: "Absolutely worth it. Austin Jackson took care of everything so we could just relax and enjoy Singapore.",
+    author: "Timothy Dixon",
+    title: "A Stroll Through a Living Storybook",
+    rating: 3.7,
+    date: "2021-09-23"
   },
   {
     id: "testimonial-tour-singapore-4-14",
-    quote: "Jacob Foster shared personal stories that really brought Singapore to life for us. A truly memorable tour.",
-    author: "Maya Cooper",
-    title: "Highlight of Our Trip"
-  },
-  {
-    id: "testimonial-tour-singapore-4-15",
-    quote: "We booked last-minute and are so glad we did. Jacob Foster made it one of our favorite memories from Singapore.",
-    author: "Zoe Thomas",
-    title: "Best Decision of Our Trip"
-  },
-  {
-    id: "testimonial-tour-singapore-4-16",
-    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Jacob Foster.",
-    author: "Mia Curtis",
-    title: "Best Decision of Our Trip"
+    quote: "A truly authentic experience! Austin Jackson showed us the real Singapore, not just the tourist spots.",
+    author: "Claire Patel",
+    title: "A Journey Through Singapore's History",
+    rating: 4.9,
+    date: "2017-02-27"
   }
 ];

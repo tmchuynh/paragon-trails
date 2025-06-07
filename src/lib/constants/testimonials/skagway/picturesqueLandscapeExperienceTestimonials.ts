@@ -3,104 +3,114 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const picturesqueLandscapeExperienceTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-skagway-4-1",
-    quote: "This was not just sightseeing — it was a deep dive into the heart of Skagway thanks to Harper West.",
-    author: "Isabella Wallace",
-    title: "Worth Every Penny"
+    quote: "As someone who's been to Skagway before, I was surprised at how much I learned on the Picturesque Landscape Experience. Kimberly Anderson is a treasure trove of information!",
+    author: "Sebastian Hernandez",
+    title: "Outstanding in Every Way",
+    rating: 3.5,
+    date: "2023-03-22"
   },
   {
     id: "testimonial-tour-skagway-4-2",
-    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Harper West!",
-    author: "Nomsa da Costa",
-    title: "Got Lost (on Purpose) with {GUIDE_NAME}"
+    quote: "We had limited time in Skagway, and this tour made sure we saw the best of it. Kimberly Anderson was amazing.",
+    author: "Adam Wallace",
+    title: "The Ultimate Skagway Tour",
+    rating: 4.9,
+    date: "2023-10-26"
   },
   {
     id: "testimonial-tour-skagway-4-3",
-    quote: "So much fun, and so informative! Harper West's enthusiasm is contagious.",
-    author: "Oliver Patel",
-    title: "Top-Notch Guiding"
+    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Kimberly Anderson.",
+    author: "Thomas Nguyen",
+    title: "A Day to Remember",
+    rating: 3.8,
+    date: "2018-12-20"
   },
   {
     id: "testimonial-tour-skagway-4-4",
-    quote: "Harper West shared personal stories that really brought Skagway to life for us. A truly memorable tour.",
-    author: "Sophia Silva",
-    title: "Fascinating and Fun"
+    quote: "Our family loved every moment of the Picturesque Landscape Experience. Kimberly Anderson even made it fun for our kids.",
+    author: "Walter Wells",
+    title: "A Deep Dive into Local Culture",
+    rating: 4.5,
+    date: "2024-08-22"
   },
   {
     id: "testimonial-tour-skagway-4-5",
-    quote: "We had limited time in Skagway, and this tour made sure we saw the best of it. Harper West was amazing.",
-    author: "Aria Grant",
-    title: "A New Favorite Memory"
+    quote: "So much fun, and so informative! Kimberly Anderson's enthusiasm is contagious.",
+    author: "Michael Reeves",
+    title: "A Journey Through Skagway's Culture",
+    rating: 3.8,
+    date: "2021-03-04"
   },
   {
     id: "testimonial-tour-skagway-4-6",
-    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Harper West.",
-    author: "Harry Dunn",
-    title: "Exceptional Tour Guide"
+    quote: "This tour gave us a much deeper connection to Skagway. Kimberly Anderson's passion really shines through.",
+    author: "Kennedy Bennett",
+    title: "Followed the Guide, Found a Dream",
+    rating: 3.5,
+    date: "2024-07-01"
   },
   {
     id: "testimonial-tour-skagway-4-7",
-    quote: "We booked last-minute and are so glad we did. Harper West made it one of our favorite memories from Skagway.",
-    author: "Peter Reed",
-    title: "Insider's Perspective"
+    quote: "My husband and I had the best time on this tour. Kimberly Anderson's knowledge of Skagway made it so much more special.",
+    author: "Abigail Foster",
+    title: "A Walk That Will Make You Fall in Love with Skagway",
+    rating: 3.9,
+    date: "2025-04-19"
   },
   {
     id: "testimonial-tour-skagway-4-8",
-    quote: "Highly recommend this tour if you want more than just a photo op — Harper West gives you real insight into Skagway.",
-    author: "Riley Reeves",
-    title: "A Must-Do in Skagway"
+    quote: "The stories, the hidden gems, the expert navigation — Kimberly Anderson delivered on all fronts.",
+    author: "Laura Wood",
+    title: "Exceptional Tour Guide",
+    rating: 4,
+    date: "2020-02-28"
   },
   {
     id: "testimonial-tour-skagway-4-9",
-    quote: "I’ve taken dozens of tours in different countries. Harper West ranks among the very best.",
-    author: "Harper Johnson",
-    title: "Local Experience Made Easy"
+    quote: "The Picturesque Landscape Experience was the highlight of our trip to Skagway. Kimberly Anderson took us to all the best spots and shared fascinating stories.",
+    author: "Charlotte Jansen",
+    title: "Unforgettable Experience",
+    rating: 3.7,
+    date: "2021-03-15"
   },
   {
     id: "testimonial-tour-skagway-4-10",
-    quote: "This isn’t your typical tour. Harper West makes it feel personal and engaging from the very start.",
-    author: "Caroline Jackson",
-    title: "If Cities Had Souls, Skagway Sang to Us"
+    quote: "From beginning to end, the Picturesque Landscape Experience was seamless and so well organized.",
+    author: "Dennis Marshall",
+    title: "A Journey Through Skagway's Secrets",
+    rating: 5,
+    date: "2024-07-12"
   },
   {
     id: "testimonial-tour-skagway-4-11",
-    quote: "The Picturesque Landscape Experience completely changed how I see Skagway. Harper West's insights were invaluable.",
-    author: "Stephanie Jennings",
-    title: "Highlight of Our Trip"
+    quote: "Absolutely worth it. Kimberly Anderson took care of everything so we could just relax and enjoy Skagway.",
+    author: "Isabella Smith",
+    title: "Well Worth Your Time",
+    rating: 3.6,
+    date: "2022-10-13"
   },
   {
     id: "testimonial-tour-skagway-4-12",
-    quote: "This tour was absolutely amazing! Harper West knew everything about Skagway and showed us places we would have never found on our own.",
-    author: "Priya Bennett",
-    title: "Impressive and Informative"
+    quote: "This was more than just sightseeing — it was an unforgettable journey through Skagway's culture and history.",
+    author: "Sophia Fletcher",
+    title: "A Journey Through Skagway's Charm",
+    rating: 4.8,
+    date: "2023-02-09"
   },
   {
     id: "testimonial-tour-skagway-4-13",
-    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Harper West.",
-    author: "Roy Gibson",
-    title: "Got Lost (on Purpose) with {GUIDE_NAME}"
+    quote: "Kimberly Anderson's enthusiasm for Skagway was contagious. We walked away feeling inspired.",
+    author: "Kennedy Payne",
+    title: "Well Worth Your Time",
+    rating: 3.9,
+    date: "2020-01-02"
   },
   {
     id: "testimonial-tour-skagway-4-14",
-    quote: "We’ll be recommending the Picturesque Landscape Experience to all our friends. Harper West made it that special.",
-    author: "Daniel Müller",
-    title: "Hot, Sweaty, and Absolutely Worth It"
-  },
-  {
-    id: "testimonial-tour-skagway-4-15",
-    quote: "We left the Picturesque Landscape Experience feeling more connected to Skagway than we ever expected.",
-    author: "Isabella Jones",
-    title: "Wandered Far, Wondered More"
-  },
-  {
-    id: "testimonial-tour-skagway-4-16",
-    quote: "The stories, the hidden gems, the expert navigation — Harper West delivered on all fronts.",
-    author: "Kennedy Day",
-    title: "A Stroll Through a Living Storybook"
-  },
-  {
-    id: "testimonial-tour-skagway-4-17",
-    quote: "We were blown away by the depth of knowledge and warmth Harper West brought to the tour.",
-    author: "Jeffrey Davis",
-    title: "History, Snacks, and Laughs—Yes Please!"
+    quote: "Absolutely worth it. Kimberly Anderson took care of everything so we could just relax and enjoy Skagway.",
+    author: "Skylar Edwards",
+    title: "The Real Skagway Experience",
+    rating: 4.2,
+    date: "2021-03-05"
   }
 ];

@@ -3,80 +3,82 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const academicInsightsJourneyTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-boston-2-1",
-    quote: "So much fun, and so informative! Stella Payne's enthusiasm is contagious.",
-    author: "Boris Morales",
-    title: "Well Worth Your Time"
+    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Victoria Garcia!",
+    author: "Diego Warren",
+    title: "A New Favorite Memory",
+    rating: 3.9,
+    date: "2017-10-06"
   },
   {
     id: "testimonial-tour-boston-2-2",
-    quote: "This tour is a hidden gem — just like the spots Stella Payne showed us around Boston.",
-    author: "Alan Moore",
-    title: "Wandered Far, Wondered More"
+    quote: "From beginning to end, the Academic Insights Journey was seamless and so well organized.",
+    author: "Kennedy Murray",
+    title: "Bought the T-Shirt, Took the Tour, Loved It",
+    rating: 4.5,
+    date: "2020-10-04"
   },
   {
     id: "testimonial-tour-boston-2-3",
-    quote: "This tour was absolutely amazing! Stella Payne knew everything about Boston and showed us places we would have never found on our own.",
-    author: "Victoria da Costa",
-    title: "Hidden Gems of Boston"
+    quote: "If you only have time for one activity in Boston, make it the Academic Insights Journey. You won’t regret it.",
+    author: "Jeffrey Wilson",
+    title: "Highly Recommend to Everyone",
+    rating: 3.7,
+    date: "2017-08-15"
   },
   {
     id: "testimonial-tour-boston-2-4",
-    quote: "Thanks to Stella Payne, we discovered parts of Boston we would have never seen on our own.",
-    author: "Emma Parker",
-    title: "A Perfect Day in Boston"
+    quote: "We had limited time in Boston, and this tour made sure we saw the best of it. Victoria Garcia was amazing.",
+    author: "Claire Davis",
+    title: "History, Snacks, and Laughs—Yes Please!",
+    rating: 4.4,
+    date: "2019-02-07"
   },
   {
     id: "testimonial-tour-boston-2-5",
-    quote: "What an engaging experience! Stella Payne kept us laughing and learning throughout the Academic Insights Journey.",
-    author: "Rachel Murray",
-    title: "Fun, Friendly, and Full of Insight"
+    quote: "Even the locals in our group said they learned something new. That says a lot about Victoria Garcia's depth.",
+    author: "Jessica Anderson",
+    title: "A Tour to Remember",
+    rating: 3.7,
+    date: "2024-08-16"
   },
   {
     id: "testimonial-tour-boston-2-6",
-    quote: "I wasn’t expecting to enjoy this tour so much, but Stella Payne made it the highlight of our trip.",
-    author: "Rachel Jennings",
-    title: "The Real Boston Experience"
+    quote: "This was not just sightseeing — it was a deep dive into the heart of Boston thanks to Victoria Garcia.",
+    author: "George Singh",
+    title: "A Walk That Changed Everything",
+    rating: 3.9,
+    date: "2024-01-17"
   },
   {
     id: "testimonial-tour-boston-2-7",
-    quote: "This tour is a hidden gem — just like the spots Stella Payne showed us around Boston.",
-    author: "Cynthia Rodriguez",
-    title: "Entertaining and Educational"
+    quote: "I was nervous about joining a group tour, but Victoria Garcia made everyone feel like part of the crew.",
+    author: "Jerry Nakamura",
+    title: "Brought Boston to Life",
+    rating: 4.6,
+    date: "2018-02-03"
   },
   {
     id: "testimonial-tour-boston-2-8",
-    quote: "Absolutely worth it. Stella Payne took care of everything so we could just relax and enjoy Boston.",
-    author: "Elena Miller",
-    title: "Well Worth Your Time"
+    quote: "We booked last-minute and are so glad we did. Victoria Garcia made it one of our favorite memories from Boston.",
+    author: "Mark Spencer",
+    title: "A Walk That Will Make You Laugh",
+    rating: 3.5,
+    date: "2022-09-03"
   },
   {
     id: "testimonial-tour-boston-2-9",
-    quote: "I can't recommend the Academic Insights Journey enough. Stella Payne was phenomenal, and the experience was worth every penny.",
-    author: "Eleanor Spencer",
-    title: "Unforgettable Experience"
+    quote: "Victoria Garcia brought a depth of cultural insight that gave us a new appreciation for Boston.",
+    author: "Lucas Mason",
+    title: "A Walk That Will Make You Appreciate Boston More",
+    rating: 4.4,
+    date: "2024-07-07"
   },
   {
     id: "testimonial-tour-boston-2-10",
-    quote: "Even our teens were engaged the entire time — Stella Payne knows how to captivate a group!",
-    author: "Stephen Dean",
-    title: "Loved Every Minute"
-  },
-  {
-    id: "testimonial-tour-boston-2-11",
-    quote: "This tour was absolutely amazing! Stella Payne knew everything about Boston and showed us places we would have never found on our own.",
-    author: "Maya Reed",
-    title: "I Came, I Saw, I Took Too Many Photos"
-  },
-  {
-    id: "testimonial-tour-boston-2-12",
-    quote: "I've been on many tours, but this one stands out. Stella Payne was passionate, knowledgeable, and made everyone feel welcome.",
-    author: "Mei White",
-    title: "Followed the Guide, Found a Dream"
-  },
-  {
-    id: "testimonial-tour-boston-2-13",
-    quote: "We left the Academic Insights Journey feeling more connected to Boston than we ever expected.",
-    author: "Kinsley da Costa",
-    title: "If Cities Had Souls, Boston Sang to Us"
+    quote: "I felt like I was being shown around by a friend who knows all the secrets of Boston.",
+    author: "Amy Wright",
+    title: "More Enchanting Than Expected",
+    rating: 4.7,
+    date: "2020-06-25"
   }
 ];

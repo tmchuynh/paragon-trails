@@ -3,68 +3,114 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const foodConnoisseursTourTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-kyoto-3-1",
-    quote: "Even the locals in our group said they learned something new. That says a lot about Isabella Russell's depth.",
-    author: "Youssef Russell",
-    title: "The Best Way to See Kyoto"
+    quote: "We left the Food Connoisseur's Tour feeling more connected to Kyoto than we ever expected.",
+    author: "Janet Hunter",
+    title: "Incredible from Start to Finish",
+    rating: 3.7,
+    date: "2019-01-31"
   },
   {
     id: "testimonial-tour-kyoto-3-2",
-    quote: "Isabella Russell made learning about Kyoto's history genuinely exciting — not an easy task!",
-    author: "Ibrahim Taylor",
-    title: "Bought the T-Shirt, Took the Tour, Loved It"
+    quote: "What an engaging experience! Brian Davis kept us laughing and learning throughout the Food Connoisseur's Tour.",
+    author: "Lucas Garcia",
+    title: "Wandered Far, Wondered More",
+    rating: 3.8,
+    date: "2018-07-22"
   },
   {
     id: "testimonial-tour-kyoto-3-3",
-    quote: "Isabella Russell's enthusiasm for Kyoto was contagious. We walked away feeling inspired.",
-    author: "Ava Wright",
-    title: "Incredible from Start to Finish"
+    quote: "Highly recommend this tour if you want more than just a photo op — Brian Davis gives you real insight into Kyoto.",
+    author: "Naomi Sutton",
+    title: "A Journey Through Kyoto's Charm",
+    rating: 3.6,
+    date: "2025-02-27"
   },
   {
     id: "testimonial-tour-kyoto-3-4",
-    quote: "I thought I knew Kyoto, but this tour proved otherwise. Isabella Russell showed us a side we’d never seen.",
-    author: "Bruce Bennett",
-    title: "A Stroll Through a Living Storybook"
+    quote: "Even our teens were engaged the entire time — Brian Davis knows how to captivate a group!",
+    author: "William Ellis",
+    title: "Got Lost (on Purpose) with {GUIDE_NAME}",
+    rating: 3.6,
+    date: "2020-09-03"
   },
   {
     id: "testimonial-tour-kyoto-3-5",
-    quote: "As someone who's been to Kyoto before, I was surprised at how much I learned on the Food Connoisseur's Tour. Isabella Russell is a treasure trove of information!",
-    author: "Elena West",
-    title: "Truly Eye-Opening"
+    quote: "This tour gave us a much deeper connection to Kyoto. Brian Davis's passion really shines through.",
+    author: "Adeline Russell",
+    title: "Beyond Our Expectations",
+    rating: 3.6,
+    date: "2019-02-23"
   },
   {
     id: "testimonial-tour-kyoto-3-6",
-    quote: "I felt like I was being shown around by a friend who knows all the secrets of Kyoto.",
-    author: "Carol Carpenter",
-    title: "If Cities Had Souls, Kyoto Sang to Us"
+    quote: "Highly recommend this tour if you want more than just a photo op — Brian Davis gives you real insight into Kyoto.",
+    author: "Emily Lewis",
+    title: "Local Experience Made Easy",
+    rating: 4.8,
+    date: "2021-05-15"
   },
   {
     id: "testimonial-tour-kyoto-3-7",
-    quote: "This tour was absolutely amazing! Isabella Russell knew everything about Kyoto and showed us places we would have never found on our own.",
-    author: "Isabella Johnson",
-    title: "A Tour Even My Teenager Liked"
+    quote: "I can't recommend the Food Connoisseur's Tour enough. Brian Davis was phenomenal, and the experience was worth every penny.",
+    author: "Brenda Garcia",
+    title: "Insider's Perspective",
+    rating: 3.7,
+    date: "2017-09-21"
   },
   {
     id: "testimonial-tour-kyoto-3-8",
-    quote: "Absolutely worth it. Isabella Russell took care of everything so we could just relax and enjoy Kyoto.",
-    author: "Adam King",
-    title: "A Day to Remember"
+    quote: "As a solo traveler, I felt completely comfortable on this tour. Brian Davis created a friendly atmosphere from the start.",
+    author: "Samantha Reeves",
+    title: "A Tour That Feels Like a Hug",
+    rating: 5,
+    date: "2022-10-11"
   },
   {
     id: "testimonial-tour-kyoto-3-9",
-    quote: "Even our teens were engaged the entire time — Isabella Russell knows how to captivate a group!",
-    author: "Janet Wilson",
-    title: "Learned So Much!"
+    quote: "We had limited time in Kyoto, and this tour made sure we saw the best of it. Brian Davis was amazing.",
+    author: "Kimberly Grant",
+    title: "Bought the T-Shirt, Took the Tour, Loved It",
+    rating: 3.9,
+    date: "2018-09-22"
   },
   {
     id: "testimonial-tour-kyoto-3-10",
-    quote: "This was not just sightseeing — it was a deep dive into the heart of Kyoto thanks to Isabella Russell.",
-    author: "Aisha Foster",
-    title: "Well Worth Your Time"
+    quote: "We joined the Food Connoisseur's Tour on our first day in Kyoto, and it set the tone for a fantastic trip.",
+    author: "Sarah Dean",
+    title: "A Journey Through Kyoto's Culture",
+    rating: 4.3,
+    date: "2024-12-22"
   },
   {
     id: "testimonial-tour-kyoto-3-11",
-    quote: "My sibling and I didn’t want the tour to end. Isabella Russell is that engaging and informative.",
-    author: "Jordan Price",
-    title: "Followed the Guide, Found a Dream"
+    quote: "This tour exceeded all my expectations. Brian Davis's insider knowledge made our Kyoto visit unforgettable.",
+    author: "Mia Baker",
+    title: "A Tour Even My Teenager Liked",
+    rating: 4.1,
+    date: "2022-07-29"
+  },
+  {
+    id: "testimonial-tour-kyoto-3-12",
+    quote: "Thanks to Brian Davis, we discovered parts of Kyoto we would have never seen on our own.",
+    author: "Bella Clark",
+    title: "A Journey Through Kyoto's Culture",
+    rating: 4,
+    date: "2019-11-15"
+  },
+  {
+    id: "testimonial-tour-kyoto-3-13",
+    quote: "This was not just sightseeing — it was a deep dive into the heart of Kyoto thanks to Brian Davis.",
+    author: "Elijah Dubois",
+    title: "I Came, I Saw, I Took Too Many Photos",
+    rating: 4.8,
+    date: "2021-12-18"
+  },
+  {
+    id: "testimonial-tour-kyoto-3-14",
+    quote: "The Food Connoisseur's Tour completely changed how I see Kyoto. Brian Davis's insights were invaluable.",
+    author: "Boris Harris",
+    title: "Best Decision of Our Trip",
+    rating: 3.5,
+    date: "2022-08-23"
   }
 ];

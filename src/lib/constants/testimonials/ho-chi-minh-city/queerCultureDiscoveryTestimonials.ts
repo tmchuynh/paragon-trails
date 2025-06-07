@@ -3,86 +3,98 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const queerCultureDiscoveryTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-ho-chi-minh-city-3-1",
-    quote: "As a solo traveler, I felt completely comfortable on this tour. Eleanor Curtis created a friendly atmosphere from the start.",
-    author: "Amelia Price",
-    title: "Brought Ho Chi Minh City to Life"
+    quote: "Thanks to Brooklyn Johnson, we discovered parts of Ho Chi Minh City we would have never seen on our own.",
+    author: "Ethan Stewart",
+    title: "Followed the Guide, Found a Dream",
+    rating: 3.7,
+    date: "2024-05-28"
   },
   {
     id: "testimonial-tour-ho-chi-minh-city-3-2",
-    quote: "Eleanor Curtis is the kind of guide you want to tell your friends about. This was a five-star experience.",
-    author: "Steven Porter",
-    title: "The Best Way to See Ho Chi Minh City"
+    quote: "The Queer Culture Discovery was the highlight of our trip to Ho Chi Minh City. Brooklyn Johnson took us to all the best spots and shared fascinating stories.",
+    author: "Brandon Ali",
+    title: "A Tour That Feels Like Home",
+    rating: 4.7,
+    date: "2022-08-11"
   },
   {
     id: "testimonial-tour-ho-chi-minh-city-3-3",
-    quote: "We left the Queer Culture Discovery feeling more connected to Ho Chi Minh City than we ever expected.",
-    author: "Elijah Curtis",
-    title: "Hot, Sweaty, and Absolutely Worth It"
+    quote: "This was more than just sightseeing — it was an unforgettable journey through Ho Chi Minh City's culture and history.",
+    author: "Nomsa Taylor",
+    title: "Entertaining and Educational",
+    rating: 3.8,
+    date: "2022-08-29"
   },
   {
     id: "testimonial-tour-ho-chi-minh-city-3-4",
-    quote: "I’ve taken dozens of tours in different countries. Eleanor Curtis ranks among the very best.",
-    author: "Justin Douglas",
-    title: "Got Lost (on Purpose) with {GUIDE_NAME}"
+    quote: "The Queer Culture Discovery was the highlight of our trip to Ho Chi Minh City. Brooklyn Johnson took us to all the best spots and shared fascinating stories.",
+    author: "Ronald Wells",
+    title: "Bought the T-Shirt, Took the Tour, Loved It",
+    rating: 4.7,
+    date: "2017-02-23"
   },
   {
     id: "testimonial-tour-ho-chi-minh-city-3-5",
-    quote: "I thought I knew Ho Chi Minh City, but this tour proved otherwise. Eleanor Curtis showed us a side we’d never seen.",
-    author: "Thomas Baker",
-    title: "A Unique Way to Explore Ho Chi Minh City"
+    quote: "It felt like a private tour, even though we were with a group. Brooklyn Johnson is incredibly engaging.",
+    author: "Ariana Mitchell",
+    title: "Loved Every Minute",
+    rating: 4.8,
+    date: "2021-10-31"
   },
   {
     id: "testimonial-tour-ho-chi-minh-city-3-6",
-    quote: "We joined the Queer Culture Discovery on our first day in Ho Chi Minh City, and it set the tone for a fantastic trip.",
-    author: "Jane Day",
-    title: "The Real Ho Chi Minh City Experience"
+    quote: "The small group size and personal attention from Brooklyn Johnson made all the difference.",
+    author: "Oliver Wright",
+    title: "Entertaining and Educational",
+    rating: 3.5,
+    date: "2024-12-27"
   },
   {
     id: "testimonial-tour-ho-chi-minh-city-3-7",
-    quote: "If you're visiting Ho Chi Minh City, the Queer Culture Discovery is a must! Eleanor Curtis made the history come alive in a way guidebooks never could.",
-    author: "Johnny Spencer",
-    title: "An Authentic Slice of Ho Chi Minh City"
+    quote: "We had limited time in Ho Chi Minh City, and this tour made sure we saw the best of it. Brooklyn Johnson was amazing.",
+    author: "Andrew Dean",
+    title: "The Ultimate Ho Chi Minh City Tour",
+    rating: 4,
+    date: "2017-09-29"
   },
   {
     id: "testimonial-tour-ho-chi-minh-city-3-8",
-    quote: "We got so much value from this tour. Eleanor Curtis took us to places we would have never discovered on our own.",
-    author: "Fatima Lopez",
-    title: "Learned So Much!"
+    quote: "A truly authentic experience! Brooklyn Johnson showed us the real Ho Chi Minh City, not just the tourist spots.",
+    author: "Rebecca Graham",
+    title: "A Journey Through Ho Chi Minh City's Magic",
+    rating: 4.6,
+    date: "2019-04-04"
   },
   {
     id: "testimonial-tour-ho-chi-minh-city-3-9",
-    quote: "My acquaintance and I had the best time on this tour. Eleanor Curtis's knowledge of Ho Chi Minh City made it so much more special.",
-    author: "Tyler Young",
-    title: "Hot, Sweaty, and Absolutely Worth It"
+    quote: "The stories, the hidden gems, the expert navigation — Brooklyn Johnson delivered on all fronts.",
+    author: "Harper Singh",
+    title: "A Journey Through Ho Chi Minh City's Culture",
+    rating: 3.7,
+    date: "2020-08-05"
   },
   {
     id: "testimonial-tour-ho-chi-minh-city-3-10",
-    quote: "I was nervous about joining a group tour, but Eleanor Curtis made everyone feel like part of the crew.",
-    author: "Gabriella Lawson",
-    title: "Best Tour in Ho Chi Minh City"
+    quote: "I've been on many tours, but this one stands out. Brooklyn Johnson was passionate, knowledgeable, and made everyone feel welcome.",
+    author: "Kinsley Edwards",
+    title: "Memorable from the First Step",
+    rating: 3.8,
+    date: "2020-08-06"
   },
   {
     id: "testimonial-tour-ho-chi-minh-city-3-11",
-    quote: "This isn’t your typical tour. Eleanor Curtis makes it feel personal and engaging from the very start.",
-    author: "Brenda Wells",
-    title: "If Cities Had Souls, Ho Chi Minh City Sang to Us"
+    quote: "I felt like I was being shown around by a friend who knows all the secrets of Ho Chi Minh City.",
+    author: "Ethan Reeves",
+    title: "A Walk That Will Make You Want to Dance",
+    rating: 4.3,
+    date: "2018-10-01"
   },
   {
     id: "testimonial-tour-ho-chi-minh-city-3-12",
-    quote: "Even our teens were engaged the entire time — Eleanor Curtis knows how to captivate a group!",
-    author: "Betty Murray",
-    title: "More Enchanting Than Expected"
-  },
-  {
-    id: "testimonial-tour-ho-chi-minh-city-3-13",
-    quote: "What a fantastic way to start our stay in Ho Chi Minh City. Eleanor Curtis gave us a great foundation for exploring more on our own.",
-    author: "Chloe Griffin",
-    title: "Felt Like a Character in a Fairytale"
-  },
-  {
-    id: "testimonial-tour-ho-chi-minh-city-3-14",
-    quote: "We were blown away by the depth of knowledge and warmth Eleanor Curtis brought to the tour.",
-    author: "Luis Palmer",
-    title: "Don't Miss This Tour!"
+    quote: "We left the Queer Culture Discovery feeling more connected to Ho Chi Minh City than we ever expected.",
+    author: "Aria Anderson",
+    title: "Hidden Gems of Ho Chi Minh City",
+    rating: 4.6,
+    date: "2024-12-02"
   }
 ];

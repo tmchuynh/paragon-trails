@@ -3,62 +3,114 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const naturalHealingExperienceTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-san-juan-6-1",
-    quote: "My uncle and I had the best time on this tour. Kevin Wright's knowledge of San Juan made it so much more special.",
-    author: "Nicole Brown",
-    title: "One of the Best Tours We've Taken"
+    quote: "We’ll be recommending the Natural Healing Experience to all our friends. Barbara Campbell made it that special.",
+    author: "Eleanor Lewis",
+    title: "Learned Stuff, Didn’t Cry—Success!",
+    rating: 4.8,
+    date: "2023-07-14"
   },
   {
     id: "testimonial-tour-san-juan-6-2",
-    quote: "I wasn’t expecting to enjoy this tour so much, but Kevin Wright made it the highlight of our trip.",
-    author: "Deborah Crawford",
-    title: "Outstanding in Every Way"
+    quote: "My workmate and I agreed this was the best part of our entire trip to San Juan.",
+    author: "Fatima Hernandez",
+    title: "Incredible from Start to Finish",
+    rating: 3.8,
+    date: "2022-10-01"
   },
   {
     id: "testimonial-tour-san-juan-6-3",
-    quote: "The small group size and personal attention from Kevin Wright made all the difference.",
-    author: "Allison Smith",
-    title: "More Enchanting Than Expected"
+    quote: "We were blown away by the depth of knowledge and warmth Barbara Campbell brought to the tour.",
+    author: "Lily Ali",
+    title: "A Journey Through San Juan's Hidden Treasures",
+    rating: 4.3,
+    date: "2020-08-18"
   },
   {
     id: "testimonial-tour-san-juan-6-4",
-    quote: "The Natural Healing Experience was both entertaining and educational. Kevin Wright has a gift for storytelling that brings San Juan's history to life.",
-    author: "Ana Martin",
-    title: "Don't Miss This Tour!"
+    quote: "I’ve taken dozens of tours in different countries. Barbara Campbell ranks among the very best.",
+    author: "Priya Thomas",
+    title: "Loved Every Minute",
+    rating: 4.5,
+    date: "2018-02-08"
   },
   {
     id: "testimonial-tour-san-juan-6-5",
-    quote: "I wasn’t expecting to enjoy this tour so much, but Kevin Wright made it the highlight of our trip.",
-    author: "Eleanor Wallace",
-    title: "Top-Notch Guiding"
+    quote: "As a solo traveler, I felt completely comfortable on this tour. Barbara Campbell created a friendly atmosphere from the start.",
+    author: "William Fox",
+    title: "More Enchanting Than Expected",
+    rating: 3.8,
+    date: "2021-04-11"
   },
   {
     id: "testimonial-tour-san-juan-6-6",
-    quote: "The Natural Healing Experience completely changed how I see San Juan. Kevin Wright's insights were invaluable.",
-    author: "Sophia Jones",
-    title: "Bought the T-Shirt, Took the Tour, Loved It"
+    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Barbara Campbell.",
+    author: "Frank Fox",
+    title: "Don't Miss This Tour!",
+    rating: 4.6,
+    date: "2019-05-27"
   },
   {
     id: "testimonial-tour-san-juan-6-7",
-    quote: "Even the locals in our group said they learned something new. That says a lot about Kevin Wright's depth.",
-    author: "Larry Sutton",
-    title: "Followed the Guide, Found a Dream"
+    quote: "So much fun, and so informative! Barbara Campbell's enthusiasm is contagious.",
+    author: "Patrick Miller",
+    title: "Followed the Guide, Found a Dream",
+    rating: 3.6,
+    date: "2024-09-25"
   },
   {
     id: "testimonial-tour-san-juan-6-8",
-    quote: "I thought I knew San Juan, but this tour proved otherwise. Kevin Wright showed us a side we’d never seen.",
-    author: "Savannah Harper",
-    title: "Absolutely Fantastic!"
+    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Barbara Campbell.",
+    author: "Hassan Cooper",
+    title: "Impressive and Informative",
+    rating: 3.9,
+    date: "2021-09-18"
   },
   {
     id: "testimonial-tour-san-juan-6-9",
-    quote: "The Natural Healing Experience was both entertaining and educational. Kevin Wright has a gift for storytelling that brings San Juan's history to life.",
-    author: "Maya Lopez",
-    title: "Better Than My Last Tinder Date"
+    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Barbara Campbell.",
+    author: "Aaliyah Dixon",
+    title: "Wandered Far, Wondered More",
+    rating: 5,
+    date: "2019-04-07"
   },
   {
     id: "testimonial-tour-san-juan-6-10",
-    quote: "Thanks to Kevin Wright, we discovered parts of San Juan we would have never seen on our own.",
-    author: "Sarah Holloway",
-    title: "A Unique Way to Explore San Juan"
+    quote: "I've been on many tours, but this one stands out. Barbara Campbell was passionate, knowledgeable, and made everyone feel welcome.",
+    author: "Amy Maxwell",
+    title: "So Glad We Did This",
+    rating: 3.7,
+    date: "2023-07-07"
+  },
+  {
+    id: "testimonial-tour-san-juan-6-11",
+    quote: "I've been on many tours, but this one stands out. Barbara Campbell was passionate, knowledgeable, and made everyone feel welcome.",
+    author: "Frank Wallace",
+    title: "A Walk That Will Make You Laugh",
+    rating: 4.4,
+    date: "2019-01-31"
+  },
+  {
+    id: "testimonial-tour-san-juan-6-12",
+    quote: "I’ve taken dozens of tours in different countries. Barbara Campbell ranks among the very best.",
+    author: "Caroline Hamilton",
+    title: "A Journey Through San Juan's Beauty",
+    rating: 3.5,
+    date: "2020-10-04"
+  },
+  {
+    id: "testimonial-tour-san-juan-6-13",
+    quote: "We got so much value from this tour. Barbara Campbell took us to places we would have never discovered on our own.",
+    author: "Alexa Porter",
+    title: "A Walk That Will Make You See San Juan Differently",
+    rating: 4.5,
+    date: "2023-12-01"
+  },
+  {
+    id: "testimonial-tour-san-juan-6-14",
+    quote: "This tour is a hidden gem — just like the spots Barbara Campbell showed us around San Juan.",
+    author: "Stephanie Cooper",
+    title: "Exceptional Tour Guide",
+    rating: 4.5,
+    date: "2018-06-12"
   }
 ];

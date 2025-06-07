@@ -3,92 +3,90 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const outdoorAdventureExperienceTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-victoria-5-1",
-    quote: "We’ll be recommending the Outdoor Adventure Experience to all our friends. Matthew Wood made it that special.",
-    author: "Jose Wells",
-    title: "So Much More Than Expected"
+    quote: "Even our teens were engaged the entire time — Patrick Warren knows how to captivate a group!",
+    author: "William Fox",
+    title: "Highlight of Our Trip",
+    rating: 4.3,
+    date: "2022-06-29"
   },
   {
     id: "testimonial-tour-victoria-5-2",
-    quote: "I've been on many tours, but this one stands out. Matthew Wood was passionate, knowledgeable, and made everyone feel welcome.",
-    author: "Kinsley Rossi",
-    title: "Fun, Friendly, and Full of Insight"
+    quote: "Our family loved every moment of the Outdoor Adventure Experience. Patrick Warren even made it fun for our kids.",
+    author: "Peter Harper",
+    title: "A Tour That Feels Like a Hug",
+    rating: 4.7,
+    date: "2023-03-20"
   },
   {
     id: "testimonial-tour-victoria-5-3",
-    quote: "We joined the Outdoor Adventure Experience on our first day in Victoria, and it set the tone for a fantastic trip.",
-    author: "Hiroshi Wells",
-    title: "A Must-Do in Victoria"
+    quote: "Patrick Warren was incredibly accommodating and answered every question with patience and detail.",
+    author: "Eleanor Dixon",
+    title: "Entertaining and Educational",
+    rating: 4.5,
+    date: "2019-04-23"
   },
   {
     id: "testimonial-tour-victoria-5-4",
-    quote: "From start to finish, the experience felt curated and special. Hats off to Matthew Wood.",
-    author: "Kyle Jennings",
-    title: "The Best Way to See Victoria"
+    quote: "Patrick Warren was incredibly accommodating and answered every question with patience and detail.",
+    author: "Thabo Carter",
+    title: "If Cities Had Souls, Victoria Sang to Us",
+    rating: 4.3,
+    date: "2020-11-26"
   },
   {
     id: "testimonial-tour-victoria-5-5",
-    quote: "If you only have time for one activity in Victoria, make it the Outdoor Adventure Experience. You won’t regret it.",
-    author: "Zola Holloway",
-    title: "Hot, Sweaty, and Absolutely Worth It"
+    quote: "We booked last-minute and are so glad we did. Patrick Warren made it one of our favorite memories from Victoria.",
+    author: "Margaret Holloway",
+    title: "History Comes Alive",
+    rating: 4.1,
+    date: "2018-06-28"
   },
   {
     id: "testimonial-tour-victoria-5-6",
-    quote: "I can't recommend the Outdoor Adventure Experience enough. Matthew Wood was phenomenal, and the experience was worth every penny.",
-    author: "David Fox",
-    title: "Local Experience Made Easy"
+    quote: "This was not just sightseeing — it was a deep dive into the heart of Victoria thanks to Patrick Warren.",
+    author: "Cynthia Ivanov",
+    title: "A Walk That Will Make You Want to Stay",
+    rating: 3.8,
+    date: "2018-10-27"
   },
   {
     id: "testimonial-tour-victoria-5-7",
-    quote: "Even the locals in our group said they learned something new. That says a lot about Matthew Wood's depth.",
-    author: "Joe Bennett",
-    title: "If Cities Had Souls, Victoria Sang to Us"
+    quote: "Patrick Warren brought a depth of cultural insight that gave us a new appreciation for Victoria.",
+    author: "Russell Morales",
+    title: "A Tour That Feels Like a Fairytale",
+    rating: 4.3,
+    date: "2018-01-03"
   },
   {
     id: "testimonial-tour-victoria-5-8",
-    quote: "If you only have time for one activity in Victoria, make it the Outdoor Adventure Experience. You won’t regret it.",
-    author: "Virginia Johnson",
-    title: "Impressive and Informative"
+    quote: "The Outdoor Adventure Experience was both entertaining and educational. Patrick Warren has a gift for storytelling that brings Victoria's history to life.",
+    author: "Miguel Gonzalez",
+    title: "Felt Like a Character in a Fairytale",
+    rating: 4.1,
+    date: "2021-06-20"
   },
   {
     id: "testimonial-tour-victoria-5-9",
-    quote: "Even the locals in our group said they learned something new. That says a lot about Matthew Wood's depth.",
-    author: "Betty Carpenter",
-    title: "A Perfect Day in Victoria"
+    quote: "One of the best decisions of our trip! Patrick Warren is a fantastic guide and brought incredible energy to the tour.",
+    author: "Mia Day",
+    title: "Highly Recommend to Everyone",
+    rating: 4.8,
+    date: "2018-03-16"
   },
   {
     id: "testimonial-tour-victoria-5-10",
-    quote: "From start to finish, the experience felt curated and special. Hats off to Matthew Wood.",
-    author: "Joel Parker",
-    title: "The Real Victoria Experience"
+    quote: "We had limited time in Victoria, and this tour made sure we saw the best of it. Patrick Warren was amazing.",
+    author: "Diego Baker",
+    title: "A Journey Through Victoria's Soul",
+    rating: 4.7,
+    date: "2022-05-11"
   },
   {
     id: "testimonial-tour-victoria-5-11",
-    quote: "My colleague and I didn’t want the tour to end. Matthew Wood is that engaging and informative.",
-    author: "Ibrahim Harris",
-    title: "A Must-Do in Victoria"
-  },
-  {
-    id: "testimonial-tour-victoria-5-12",
-    quote: "We had limited time in Victoria, and this tour made sure we saw the best of it. Matthew Wood was amazing.",
-    author: "Madelyn Hall",
-    title: "We’ll Never Forget This"
-  },
-  {
-    id: "testimonial-tour-victoria-5-13",
-    quote: "Matthew Wood brought a depth of cultural insight that gave us a new appreciation for Victoria.",
-    author: "William Gonzalez",
-    title: "Sunlight, Stories, and Serendipity"
-  },
-  {
-    id: "testimonial-tour-victoria-5-14",
-    quote: "This tour is a hidden gem — just like the spots Matthew Wood showed us around Victoria.",
-    author: "Sofia Hall",
-    title: "Would Follow This Guide Into Battle"
-  },
-  {
-    id: "testimonial-tour-victoria-5-15",
-    quote: "This was not just sightseeing — it was a deep dive into the heart of Victoria thanks to Matthew Wood.",
-    author: "Maya Fisher",
-    title: "So Much More Than Expected"
+    quote: "This was more than just sightseeing — it was an unforgettable journey through Victoria's culture and history.",
+    author: "Daniel Hudson",
+    title: "Well Worth Your Time",
+    rating: 4.9,
+    date: "2018-09-01"
   }
 ];

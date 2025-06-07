@@ -3,74 +3,74 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const gastronomicAdventureTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-miami-2-1",
-    quote: "Highly recommend this tour if you want more than just a photo op — Catherine Curtis gives you real insight into Miami.",
-    author: "Anna Nash",
-    title: "Got Lost (on Purpose) with {GUIDE_NAME}"
+    quote: "The Gastronomic Adventure was the highlight of our trip to Miami. Olivia Russell took us to all the best spots and shared fascinating stories.",
+    author: "Zola Rodriguez",
+    title: "Unforgettable Experience",
+    rating: 4,
+    date: "2025-01-15"
   },
   {
     id: "testimonial-tour-miami-2-2",
-    quote: "We left the Gastronomic Adventure feeling more connected to Miami than we ever expected.",
-    author: "Dorothy Lopez",
-    title: "A Perfect Day in Miami"
+    quote: "My brother and I didn’t want the tour to end. Olivia Russell is that engaging and informative.",
+    author: "Michael Wang",
+    title: "So Much More Than Expected",
+    rating: 4.8,
+    date: "2017-11-08"
   },
   {
     id: "testimonial-tour-miami-2-3",
-    quote: "If you only have time for one activity in Miami, make it the Gastronomic Adventure. You won’t regret it.",
-    author: "Evelyn Chambers",
-    title: "Sunlight, Stories, and Serendipity"
+    quote: "Olivia Russell had such a great balance of history, fun facts, and local stories — truly a gifted guide.",
+    author: "Austin Mitchell",
+    title: "One of the Best Tours We've Taken",
+    rating: 3.7,
+    date: "2021-07-03"
   },
   {
     id: "testimonial-tour-miami-2-4",
-    quote: "What a fantastic way to start our stay in Miami. Catherine Curtis gave us a great foundation for exploring more on our own.",
-    author: "Aaliyah Sutton",
-    title: "Beyond Our Expectations"
+    quote: "We joined the Gastronomic Adventure on our first day in Miami, and it set the tone for a fantastic trip.",
+    author: "Aisha Wilson",
+    title: "We’ll Never Forget This",
+    rating: 4.5,
+    date: "2022-09-29"
   },
   {
     id: "testimonial-tour-miami-2-5",
-    quote: "I've been on many tours, but this one stands out. Catherine Curtis was passionate, knowledgeable, and made everyone feel welcome.",
-    author: "Benjamin Hawkins",
-    title: "Followed the Guide, Found a Dream"
+    quote: "What an engaging experience! Olivia Russell kept us laughing and learning throughout the Gastronomic Adventure.",
+    author: "Kinsley Gonzalez",
+    title: "A Walk That Will Make You Believe in Magic",
+    rating: 4.6,
+    date: "2021-08-22"
   },
   {
     id: "testimonial-tour-miami-2-6",
-    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Catherine Curtis.",
-    author: "Melissa Gibson",
-    title: "Local Experience Made Easy"
+    quote: "The Gastronomic Adventure completely changed how I see Miami. Olivia Russell's insights were invaluable.",
+    author: "Mark Campbell",
+    title: "A Walk That Will Make You Think",
+    rating: 4.1,
+    date: "2024-11-01"
   },
   {
     id: "testimonial-tour-miami-2-7",
-    quote: "This was not just sightseeing — it was a deep dive into the heart of Miami thanks to Catherine Curtis.",
-    author: "John Smith",
-    title: "Would Follow This Guide Into Battle"
+    quote: "Olivia Russell was incredibly accommodating and answered every question with patience and detail.",
+    author: "Amelia Payne",
+    title: "A Walk That Will Make You Appreciate Miami More",
+    rating: 4.5,
+    date: "2017-10-08"
   },
   {
     id: "testimonial-tour-miami-2-8",
-    quote: "The Gastronomic Adventure was the highlight of our trip to Miami. Catherine Curtis took us to all the best spots and shared fascinating stories.",
-    author: "Emma Khan",
-    title: "Truly Eye-Opening"
+    quote: "Olivia Russell brought a depth of cultural insight that gave us a new appreciation for Miami.",
+    author: "Ella Watson",
+    title: "A Walk That Will Make You Believe in Magic",
+    rating: 3.7,
+    date: "2022-01-30"
   },
   {
     id: "testimonial-tour-miami-2-9",
-    quote: "I felt like I was being shown around by a friend who knows all the secrets of Miami.",
-    author: "Sandra Gibson",
-    title: "Outstanding in Every Way"
-  },
-  {
-    id: "testimonial-tour-miami-2-10",
-    quote: "Such a memorable way to explore Miami. The mix of history, local culture, and stories was perfect.",
-    author: "Matthew Fisher",
-    title: "The Best Way to See Miami"
-  },
-  {
-    id: "testimonial-tour-miami-2-11",
-    quote: "My classmate and I agreed this was the best part of our entire trip to Miami.",
-    author: "Isabella Payne",
-    title: "Entertaining and Educational"
-  },
-  {
-    id: "testimonial-tour-miami-2-12",
-    quote: "What an engaging experience! Catherine Curtis kept us laughing and learning throughout the Gastronomic Adventure.",
-    author: "Carol Thomas",
-    title: "Incredible from Start to Finish"
+    quote: "It felt like a private tour, even though we were with a group. Olivia Russell is incredibly engaging.",
+    author: "Amelia Price",
+    title: "A Walk That Will Make You Laugh",
+    rating: 3.7,
+    date: "2022-11-30"
   }
 ];

@@ -3,86 +3,90 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const chefsTableExperienceTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-tampa-6-1",
-    quote: "I've been on many tours, but this one stands out. Louis Graham was passionate, knowledgeable, and made everyone feel welcome.",
-    author: "Leah Rodriguez",
-    title: "One of the Best Tours We've Taken"
+    quote: "I thought I knew Tampa, but this tour proved otherwise. Stephen Müller showed us a side we’d never seen.",
+    author: "Logan Taylor",
+    title: "A Journey Through Tampa's Heart",
+    rating: 4.9,
+    date: "2021-12-27"
   },
   {
     id: "testimonial-tour-tampa-6-2",
-    quote: "I was nervous about joining a group tour, but Louis Graham made everyone feel like part of the crew.",
-    author: "Ahmed Dixon",
-    title: "Don't Miss This Tour!"
+    quote: "This tour gave us a much deeper connection to Tampa. Stephen Müller's passion really shines through.",
+    author: "Jeremy White",
+    title: "A Tour That Feels Like a Celebration",
+    rating: 3.8,
+    date: "2025-01-02"
   },
   {
     id: "testimonial-tour-tampa-6-3",
-    quote: "The Chef's Table Experience completely changed how I see Tampa. Louis Graham's insights were invaluable.",
-    author: "Robert Bennett",
-    title: "Worth Every Penny"
+    quote: "If you're visiting Tampa, the Chef's Table Experience is a must! Stephen Müller made the history come alive in a way guidebooks never could.",
+    author: "Walter Smith",
+    title: "Highlight of Our Trip",
+    rating: 4.9,
+    date: "2023-06-04"
   },
   {
     id: "testimonial-tour-tampa-6-4",
-    quote: "We got so much value from this tour. Louis Graham took us to places we would have never discovered on our own.",
-    author: "Emma Brown",
-    title: "A Day to Remember"
+    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Stephen Müller.",
+    author: "Mohamed Young",
+    title: "A New Favorite Memory",
+    rating: 4.4,
+    date: "2020-03-06"
   },
   {
     id: "testimonial-tour-tampa-6-5",
-    quote: "What a fantastic way to start our stay in Tampa. Louis Graham gave us a great foundation for exploring more on our own.",
-    author: "William Smith",
-    title: "Bought the T-Shirt, Took the Tour, Loved It"
+    quote: "We booked last-minute and are so glad we did. Stephen Müller made it one of our favorite memories from Tampa.",
+    author: "Mark Mitchell",
+    title: "Wandered Far, Wondered More",
+    rating: 3.9,
+    date: "2024-10-30"
   },
   {
     id: "testimonial-tour-tampa-6-6",
-    quote: "A truly authentic experience! Louis Graham showed us the real Tampa, not just the tourist spots.",
-    author: "Kinsley Williams",
-    title: "The Best Way to See Tampa"
+    quote: "The Chef's Table Experience was both entertaining and educational. Stephen Müller has a gift for storytelling that brings Tampa's history to life.",
+    author: "Carlos Stewart",
+    title: "A Tour That Feels Like a Dream",
+    rating: 3.5,
+    date: "2019-05-05"
   },
   {
     id: "testimonial-tour-tampa-6-7",
-    quote: "The stories, the hidden gems, the expert navigation — Louis Graham delivered on all fronts.",
-    author: "Sofia Marshall",
-    title: "Worth Every Penny"
+    quote: "We left the Chef's Table Experience feeling more connected to Tampa than we ever expected.",
+    author: "Maya Lopez",
+    title: "A Journey Through Tampa's Charm",
+    rating: 4.5,
+    date: "2018-10-01"
   },
   {
     id: "testimonial-tour-tampa-6-8",
-    quote: "What an engaging experience! Louis Graham kept us laughing and learning throughout the Chef's Table Experience.",
-    author: "Alexander Hayes",
-    title: "Hot, Sweaty, and Absolutely Worth It"
+    quote: "The Chef's Table Experience was both entertaining and educational. Stephen Müller has a gift for storytelling that brings Tampa's history to life.",
+    author: "Nathan Singh",
+    title: "Better Than My Last Tinder Date",
+    rating: 4,
+    date: "2022-03-21"
   },
   {
     id: "testimonial-tour-tampa-6-9",
-    quote: "I've been on many tours, but this one stands out. Louis Graham was passionate, knowledgeable, and made everyone feel welcome.",
-    author: "Austin Dunn",
-    title: "History Comes Alive"
+    quote: "Our family loved every moment of the Chef's Table Experience. Stephen Müller even made it fun for our kids.",
+    author: "Antonio Henderson",
+    title: "Sunlight, Stories, and Serendipity",
+    rating: 3.6,
+    date: "2020-10-13"
   },
   {
     id: "testimonial-tour-tampa-6-10",
-    quote: "The pace was perfect, the content was rich, and Louis Graham made every stop memorable.",
-    author: "Noah Maxwell",
-    title: "Sunlight, Stories, and Serendipity"
+    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Stephen Müller.",
+    author: "Joshua Foster",
+    title: "Where Magic Meets Cobblestone",
+    rating: 3.8,
+    date: "2021-03-07"
   },
   {
     id: "testimonial-tour-tampa-6-11",
-    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Louis Graham!",
-    author: "Ali Nash",
-    title: "Worth Every Penny"
-  },
-  {
-    id: "testimonial-tour-tampa-6-12",
-    quote: "My colleague and I agreed this was the best part of our entire trip to Tampa.",
-    author: "Keith King",
-    title: "Where Magic Meets Cobblestone"
-  },
-  {
-    id: "testimonial-tour-tampa-6-13",
-    quote: "This was not just sightseeing — it was a deep dive into the heart of Tampa thanks to Louis Graham.",
-    author: "Antonio Bennett",
-    title: "Best Decision of Our Trip"
-  },
-  {
-    id: "testimonial-tour-tampa-6-14",
-    quote: "A truly authentic experience! Louis Graham showed us the real Tampa, not just the tourist spots.",
-    author: "Omar Morales",
-    title: "Beyond Our Expectations"
+    quote: "We had limited time in Tampa, and this tour made sure we saw the best of it. Stephen Müller was amazing.",
+    author: "Hassan Morales",
+    title: "A Journey Through Tampa's Wonders",
+    rating: 4.7,
+    date: "2020-10-26"
   }
 ];

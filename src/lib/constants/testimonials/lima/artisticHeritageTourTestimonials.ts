@@ -3,62 +3,74 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const artisticHeritageTourTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-lima-3-1",
-    quote: "We loved every minute of the Artistic Heritage Tour. Nora Mitchell's local tips were priceless.",
-    author: "Marcus Hawkins",
-    title: "Where Magic Meets Cobblestone"
+    quote: "So much fun, and so informative! Leah Harris's enthusiasm is contagious.",
+    author: "Sarah Harper",
+    title: "Truly Eye-Opening",
+    rating: 3.6,
+    date: "2021-09-17"
   },
   {
     id: "testimonial-tour-lima-3-2",
-    quote: "From start to finish, the experience felt curated and special. Hats off to Nora Mitchell.",
-    author: "Christopher Nash",
-    title: "Bought the T-Shirt, Took the Tour, Loved It"
+    quote: "We booked last-minute and are so glad we did. Leah Harris made it one of our favorite memories from Lima.",
+    author: "Helen Suzuki",
+    title: "Best Decision of Our Trip",
+    rating: 4.9,
+    date: "2023-01-07"
   },
   {
     id: "testimonial-tour-lima-3-3",
-    quote: "This tour gave us a much deeper connection to Lima. Nora Mitchell's passion really shines through.",
-    author: "Louis Nguyen",
-    title: "Better Than My Last Tinder Date"
+    quote: "Leah Harris made learning about Lima's history genuinely exciting — not an easy task!",
+    author: "Bobby Watson",
+    title: "If Cities Had Souls, Lima Sang to Us",
+    rating: 4.5,
+    date: "2018-04-08"
   },
   {
     id: "testimonial-tour-lima-3-4",
-    quote: "Nora Mitchell is the kind of guide you want to tell your friends about. This was a five-star experience.",
-    author: "Sofia Wilson",
-    title: "Followed the Guide, Found a Dream"
+    quote: "Absolutely worth it. Leah Harris took care of everything so we could just relax and enjoy Lima.",
+    author: "Ibrahim Wells",
+    title: "Best Decision of Our Trip",
+    rating: 4,
+    date: "2021-06-11"
   },
   {
     id: "testimonial-tour-lima-3-5",
-    quote: "This tour gave us a much deeper connection to Lima. Nora Mitchell's passion really shines through.",
-    author: "Liam Cooper",
-    title: "Unforgettable Experience"
+    quote: "I felt like I was being shown around by a friend who knows all the secrets of Lima.",
+    author: "Matthew Moore",
+    title: "A Journey Through Lima's Secrets",
+    rating: 4.6,
+    date: "2018-06-03"
   },
   {
     id: "testimonial-tour-lima-3-6",
-    quote: "I thought I knew Lima, but this tour proved otherwise. Nora Mitchell showed us a side we’d never seen.",
-    author: "Gerald Anderson",
-    title: "Highlight of Our Trip"
+    quote: "Our family loved every moment of the Artistic Heritage Tour. Leah Harris even made it fun for our kids.",
+    author: "Aiden da Costa",
+    title: "A Walk That Will Make You Laugh",
+    rating: 4.7,
+    date: "2022-03-02"
   },
   {
     id: "testimonial-tour-lima-3-7",
-    quote: "My father and I didn’t want the tour to end. Nora Mitchell is that engaging and informative.",
-    author: "Susan Bennett",
-    title: "Don't Miss This Tour!"
+    quote: "This was more than just sightseeing — it was an unforgettable journey through Lima's culture and history.",
+    author: "Arthur Mitchell",
+    title: "Absolutely Fantastic!",
+    rating: 4,
+    date: "2021-02-17"
   },
   {
     id: "testimonial-tour-lima-3-8",
-    quote: "From start to finish, the experience felt curated and special. Hats off to Nora Mitchell.",
-    author: "Gary Palmer",
-    title: "Worth Every Penny"
+    quote: "This tour is a hidden gem — just like the spots Leah Harris showed us around Lima.",
+    author: "Rachel Chambers",
+    title: "A Walk That Will Make You See Lima Differently",
+    rating: 4.5,
+    date: "2019-05-28"
   },
   {
     id: "testimonial-tour-lima-3-9",
-    quote: "If you only have time for one activity in Lima, make it the Artistic Heritage Tour. You won’t regret it.",
-    author: "Olivia Carpenter",
-    title: "Followed the Guide, Found a Dream"
-  },
-  {
-    id: "testimonial-tour-lima-3-10",
-    quote: "I've been on many tours, but this one stands out. Nora Mitchell was passionate, knowledgeable, and made everyone feel welcome.",
-    author: "Ella Nakamura",
-    title: "The Perfect Introduction to Lima"
+    quote: "The stories, the hidden gems, the expert navigation — Leah Harris delivered on all fronts.",
+    author: "Emma Lawson",
+    title: "History, Snacks, and Laughs—Yes Please!",
+    rating: 4.9,
+    date: "2022-07-15"
   }
 ];

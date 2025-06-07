@@ -3,50 +3,66 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const selfguidedJourneyTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-philipsburg-6-1",
-    quote: "I thought I knew Philipsburg, but this tour proved otherwise. Gabriel Spencer showed us a side we’d never seen.",
-    author: "Frank da Costa",
-    title: "The Best Way to See Philipsburg"
+    quote: "I can't recommend the Self-Guided Journey enough. Pamela Jansen was phenomenal, and the experience was worth every penny.",
+    author: "Lily Fox",
+    title: "A Walk That Will Make You Feel Alive",
+    rating: 4.3,
+    date: "2021-07-16"
   },
   {
     id: "testimonial-tour-philipsburg-6-2",
-    quote: "Even our teens were engaged the entire time — Gabriel Spencer knows how to captivate a group!",
-    author: "Amina Taylor",
-    title: "Lost in Time—in the Best Way"
+    quote: "I can't recommend the Self-Guided Journey enough. Pamela Jansen was phenomenal, and the experience was worth every penny.",
+    author: "Benjamin Russell",
+    title: "Highly Recommend to Everyone",
+    rating: 4.8,
+    date: "2024-03-16"
   },
   {
     id: "testimonial-tour-philipsburg-6-3",
-    quote: "Gabriel Spencer brought a depth of cultural insight that gave us a new appreciation for Philipsburg.",
-    author: "Ibrahim Reed",
-    title: "Well Worth Your Time"
+    quote: "It felt like a private tour, even though we were with a group. Pamela Jansen is incredibly engaging.",
+    author: "Andrew Dubois",
+    title: "A Journey Through Philipsburg's Beauty",
+    rating: 4,
+    date: "2023-04-02"
   },
   {
     id: "testimonial-tour-philipsburg-6-4",
-    quote: "Such a memorable way to explore Philipsburg. The mix of history, local culture, and stories was perfect.",
-    author: "Elijah Harper",
-    title: "Wandered Far, Wondered More"
+    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Pamela Jansen.",
+    author: "Olivia Thomas",
+    title: "Loved Every Minute",
+    rating: 3.7,
+    date: "2018-06-14"
   },
   {
     id: "testimonial-tour-philipsburg-6-5",
-    quote: "We loved every minute of the Self-Guided Journey. Gabriel Spencer's local tips were priceless.",
-    author: "Russell Taylor",
-    title: "Hidden Gems of Philipsburg"
+    quote: "I wasn’t expecting to enjoy this tour so much, but Pamela Jansen made it the highlight of our trip.",
+    author: "Mei Palmer",
+    title: "So Much More Than Expected",
+    rating: 3.7,
+    date: "2018-06-24"
   },
   {
     id: "testimonial-tour-philipsburg-6-6",
-    quote: "This tour exceeded all my expectations. Gabriel Spencer's insider knowledge made our Philipsburg visit unforgettable.",
-    author: "Aisha Wilson",
-    title: "Beyond Our Expectations"
+    quote: "This was more than just sightseeing — it was an unforgettable journey through Philipsburg's culture and history.",
+    author: "Mateo Hayes",
+    title: "History Comes Alive",
+    rating: 5,
+    date: "2025-05-05"
   },
   {
     id: "testimonial-tour-philipsburg-6-7",
-    quote: "We were blown away by the depth of knowledge and warmth Gabriel Spencer brought to the tour.",
-    author: "Jason Stewart",
-    title: "Memorable from the First Step"
+    quote: "Pamela Jansen made learning about Philipsburg's history genuinely exciting — not an easy task!",
+    author: "Marcus Hall",
+    title: "Incredible from Start to Finish",
+    rating: 4.1,
+    date: "2021-06-15"
   },
   {
     id: "testimonial-tour-philipsburg-6-8",
-    quote: "This tour exceeded all my expectations. Gabriel Spencer's insider knowledge made our Philipsburg visit unforgettable.",
-    author: "Jeffrey White",
-    title: "Highly Recommend to Everyone"
+    quote: "Pamela Jansen made learning about Philipsburg's history genuinely exciting — not an easy task!",
+    author: "Grace Bennett",
+    title: "A Walk That Will Make You Think",
+    rating: 4.5,
+    date: "2020-03-26"
   }
 ];

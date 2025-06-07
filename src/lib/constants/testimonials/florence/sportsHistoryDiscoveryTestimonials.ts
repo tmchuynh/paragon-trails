@@ -3,92 +3,130 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const sportsHistoryDiscoveryTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-florence-6-1",
-    quote: "The small group size and personal attention from Sofia Mason made all the difference.",
-    author: "Nora Hamilton",
-    title: "History Comes Alive"
+    quote: "Thanks to Wei Douglas, we discovered parts of Florence we would have never seen on our own.",
+    author: "John Martin",
+    title: "Highly Recommend to Everyone",
+    rating: 4.6,
+    date: "2018-12-28"
   },
   {
     id: "testimonial-tour-florence-6-2",
-    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Sofia Mason.",
-    author: "Robert King",
-    title: "Highlight of Our Trip"
+    quote: "My son and I agreed this was the best part of our entire trip to Florence.",
+    author: "Carl Ellis",
+    title: "A Journey Through Florence's Charm",
+    rating: 3.7,
+    date: "2018-02-12"
   },
   {
     id: "testimonial-tour-florence-6-3",
-    quote: "One of the best decisions of our trip! Sofia Mason is a fantastic guide and brought incredible energy to the tour.",
-    author: "Scarlett Müller",
-    title: "Whispers of the Past, Echoes of Joy"
+    quote: "I wasn’t expecting to enjoy this tour so much, but Wei Douglas made it the highlight of our trip.",
+    author: "Harold Curtis",
+    title: "A Walk That Will Stay with You",
+    rating: 3.5,
+    date: "2025-04-01"
   },
   {
     id: "testimonial-tour-florence-6-4",
-    quote: "The stories, the hidden gems, the expert navigation — Sofia Mason delivered on all fronts.",
-    author: "Isabella Lee",
-    title: "If Cities Had Souls, Florence Sang to Us"
+    quote: "A truly authentic experience! Wei Douglas showed us the real Florence, not just the tourist spots.",
+    author: "Amina Rodriguez",
+    title: "The Ultimate Florence Tour",
+    rating: 4.8,
+    date: "2017-10-11"
   },
   {
     id: "testimonial-tour-florence-6-5",
-    quote: "It felt like a private tour, even though we were with a group. Sofia Mason is incredibly engaging.",
-    author: "Mohamed Holloway",
-    title: "Wandered Far, Wondered More"
+    quote: "Absolutely worth it. Wei Douglas took care of everything so we could just relax and enjoy Florence.",
+    author: "Frank Martinez",
+    title: "Learned So Much!",
+    rating: 4.7,
+    date: "2018-09-29"
   },
   {
     id: "testimonial-tour-florence-6-6",
-    quote: "I've been on many tours, but this one stands out. Sofia Mason was passionate, knowledgeable, and made everyone feel welcome.",
-    author: "Allison Chen",
-    title: "An Unexpected Highlight"
+    quote: "We loved every minute of the Sports History Discovery. Wei Douglas's local tips were priceless.",
+    author: "Edward Anderson",
+    title: "Memorable from the First Step",
+    rating: 4,
+    date: "2024-03-21"
   },
   {
     id: "testimonial-tour-florence-6-7",
-    quote: "We’ll be recommending the Sports History Discovery to all our friends. Sofia Mason made it that special.",
-    author: "Layla Wood",
-    title: "One of the Best Tours We've Taken"
+    quote: "Our family loved every moment of the Sports History Discovery. Wei Douglas even made it fun for our kids.",
+    author: "Evelyn Bennett",
+    title: "A Journey Through Florence's Beauty",
+    rating: 4.6,
+    date: "2023-06-23"
   },
   {
     id: "testimonial-tour-florence-6-8",
-    quote: "Sofia Mason's enthusiasm for Florence was contagious. We walked away feeling inspired.",
-    author: "Brenda Nash",
-    title: "Fun, Friendly, and Full of Insight"
+    quote: "We got so much value from this tour. Wei Douglas took us to places we would have never discovered on our own.",
+    author: "Lucas Anderson",
+    title: "A Tour That Feels Like a Movie",
+    rating: 4.1,
+    date: "2019-10-08"
   },
   {
     id: "testimonial-tour-florence-6-9",
-    quote: "Absolutely worth it. Sofia Mason took care of everything so we could just relax and enjoy Florence.",
-    author: "Mary Taylor",
-    title: "Learned So Much!"
+    quote: "We’ll be recommending the Sports History Discovery to all our friends. Wei Douglas made it that special.",
+    author: "Anthony Murray",
+    title: "Brought Florence to Life",
+    rating: 4.8,
+    date: "2017-05-12"
   },
   {
     id: "testimonial-tour-florence-6-10",
-    quote: "I felt like I was being shown around by a friend who knows all the secrets of Florence.",
-    author: "Aaliyah Murray",
-    title: "If Cities Had Souls, Florence Sang to Us"
+    quote: "As someone who's been to Florence before, I was surprised at how much I learned on the Sports History Discovery. Wei Douglas is a treasure trove of information!",
+    author: "Amy Singh",
+    title: "Got Lost (on Purpose) with {GUIDE_NAME}",
+    rating: 4.1,
+    date: "2022-12-16"
   },
   {
     id: "testimonial-tour-florence-6-11",
-    quote: "We got so much value from this tour. Sofia Mason took us to places we would have never discovered on our own.",
-    author: "Mei Maxwell",
-    title: "A Tour Even My Teenager Liked"
+    quote: "This tour exceeded all my expectations. Wei Douglas's insider knowledge made our Florence visit unforgettable.",
+    author: "Terry Griffin",
+    title: "A Walk That Will Make You Laugh",
+    rating: 5,
+    date: "2020-08-07"
   },
   {
     id: "testimonial-tour-florence-6-12",
-    quote: "From start to finish, the experience felt curated and special. Hats off to Sofia Mason.",
-    author: "Henry Wallace",
-    title: "The Walking Was Free—The Laughs Were Priceless"
+    quote: "What an engaging experience! Wei Douglas kept us laughing and learning throughout the Sports History Discovery.",
+    author: "Terry Curtis",
+    title: "Hot, Sweaty, and Absolutely Worth It",
+    rating: 3.9,
+    date: "2017-07-12"
   },
   {
     id: "testimonial-tour-florence-6-13",
-    quote: "The Sports History Discovery completely changed how I see Florence. Sofia Mason's insights were invaluable.",
-    author: "Jane Harris",
-    title: "The Walking Was Free—The Laughs Were Priceless"
+    quote: "My mother and I didn’t want the tour to end. Wei Douglas is that engaging and informative.",
+    author: "Alice Grant",
+    title: "A Journey Through Florence's Hidden Treasures",
+    rating: 4.9,
+    date: "2022-10-18"
   },
   {
     id: "testimonial-tour-florence-6-14",
-    quote: "Sofia Mason went above and beyond to make sure everyone had a great time on the Sports History Discovery.",
-    author: "Lucas Carter",
-    title: "A Unique Way to Explore Florence"
+    quote: "Such a memorable way to explore Florence. The mix of history, local culture, and stories was perfect.",
+    author: "Wei Douglas",
+    title: "History Comes Alive",
+    rating: 4.7,
+    date: "2017-05-08"
   },
   {
     id: "testimonial-tour-florence-6-15",
-    quote: "This was not just sightseeing — it was a deep dive into the heart of Florence thanks to Sofia Mason.",
-    author: "Sofia Lopez",
-    title: "Wandered Far, Wondered More"
+    quote: "Wei Douglas's enthusiasm for Florence was contagious. We walked away feeling inspired.",
+    author: "Ronald Wood",
+    title: "The Real Florence Experience",
+    rating: 4,
+    date: "2018-08-04"
+  },
+  {
+    id: "testimonial-tour-florence-6-16",
+    quote: "What an engaging experience! Wei Douglas kept us laughing and learning throughout the Sports History Discovery.",
+    author: "Maria Wilson",
+    title: "Wandered Far, Wondered More",
+    rating: 4.6,
+    date: "2024-08-18"
   }
 ];

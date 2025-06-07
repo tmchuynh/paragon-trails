@@ -3,80 +3,66 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const soloTravelersDiscoveryTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-lima-4-1",
-    quote: "I was nervous about joining a group tour, but Elizabeth Wilson made everyone feel like part of the crew.",
-    author: "Nicole Kowalski",
-    title: "Exceptional Tour Guide"
+    quote: "One of the best decisions of our trip! Melissa Davis is a fantastic guide and brought incredible energy to the tour.",
+    author: "Carlos King",
+    title: "The Best Way to See Lima",
+    rating: 4.2,
+    date: "2021-12-24"
   },
   {
     id: "testimonial-tour-lima-4-2",
-    quote: "As a solo traveler, I felt completely comfortable on this tour. Elizabeth Wilson created a friendly atmosphere from the start.",
-    author: "Joel Coleman",
-    title: "Would Follow This Guide Into Battle"
+    quote: "The Solo Traveler's Discovery was both entertaining and educational. Melissa Davis has a gift for storytelling that brings Lima's history to life.",
+    author: "Amina Müller",
+    title: "A Tour That Feels Like a Movie",
+    rating: 4.4,
+    date: "2020-08-19"
   },
   {
     id: "testimonial-tour-lima-4-3",
-    quote: "This tour exceeded all my expectations. Elizabeth Wilson's insider knowledge made our Lima visit unforgettable.",
-    author: "Adam Murray",
-    title: "Would Follow This Guide Into Battle"
+    quote: "It felt like a private tour, even though we were with a group. Melissa Davis is incredibly engaging.",
+    author: "Tyler Patel",
+    title: "A Journey Through Lima's Secrets",
+    rating: 4.3,
+    date: "2018-04-02"
   },
   {
     id: "testimonial-tour-lima-4-4",
-    quote: "Elizabeth Wilson made learning about Lima's history genuinely exciting — not an easy task!",
-    author: "Riley Sutton",
-    title: "Impressive and Informative"
+    quote: "Melissa Davis had such a great balance of history, fun facts, and local stories — truly a gifted guide.",
+    author: "Yuki White",
+    title: "A Journey Through Lima's Wonders",
+    rating: 4.2,
+    date: "2019-12-26"
   },
   {
     id: "testimonial-tour-lima-4-5",
-    quote: "I thought I knew Lima, but this tour proved otherwise. Elizabeth Wilson showed us a side we’d never seen.",
-    author: "Cynthia Nakamura",
-    title: "Truly Eye-Opening"
+    quote: "A truly authentic experience! Melissa Davis showed us the real Lima, not just the tourist spots.",
+    author: "Muhammad Johnson",
+    title: "The Best Way to See Lima",
+    rating: 3.9,
+    date: "2018-12-26"
   },
   {
     id: "testimonial-tour-lima-4-6",
-    quote: "Absolutely worth it. Elizabeth Wilson took care of everything so we could just relax and enjoy Lima.",
-    author: "Ahmed Dean",
-    title: "Worth Every Penny"
+    quote: "Such a memorable way to explore Lima. The mix of history, local culture, and stories was perfect.",
+    author: "Youssef Fisher",
+    title: "Learned Stuff, Didn’t Cry—Success!",
+    rating: 3.8,
+    date: "2018-01-26"
   },
   {
     id: "testimonial-tour-lima-4-7",
-    quote: "Highly recommend this tour if you want more than just a photo op — Elizabeth Wilson gives you real insight into Lima.",
-    author: "Luis Carpenter",
-    title: "Insider's Perspective"
+    quote: "Even the locals in our group said they learned something new. That says a lot about Melissa Davis's depth.",
+    author: "Amelia Wallace",
+    title: "Wandered Far, Wondered More",
+    rating: 3.7,
+    date: "2020-06-03"
   },
   {
     id: "testimonial-tour-lima-4-8",
-    quote: "From start to finish, the experience felt curated and special. Hats off to Elizabeth Wilson.",
-    author: "Ralph West",
-    title: "Memorable from the First Step"
-  },
-  {
-    id: "testimonial-tour-lima-4-9",
-    quote: "Thanks to Elizabeth Wilson, we discovered parts of Lima we would have never seen on our own.",
-    author: "William Ivanov",
-    title: "Followed the Guide, Found a Dream"
-  },
-  {
-    id: "testimonial-tour-lima-4-10",
-    quote: "This tour exceeded all my expectations. Elizabeth Wilson's insider knowledge made our Lima visit unforgettable.",
-    author: "Rachel Montgomery",
-    title: "A Deep Dive into Local Culture"
-  },
-  {
-    id: "testimonial-tour-lima-4-11",
-    quote: "The pace was perfect, the content was rich, and Elizabeth Wilson made every stop memorable.",
-    author: "Emma Jackson",
-    title: "Highlight of Our Trip"
-  },
-  {
-    id: "testimonial-tour-lima-4-12",
-    quote: "This tour gave us a much deeper connection to Lima. Elizabeth Wilson's passion really shines through.",
-    author: "Kinsley Lopez",
-    title: "Absolutely Fantastic!"
-  },
-  {
-    id: "testimonial-tour-lima-4-13",
-    quote: "I thought I knew Lima, but this tour proved otherwise. Elizabeth Wilson showed us a side we’d never seen.",
-    author: "Emma Martinez",
-    title: "So Much More Than Expected"
+    quote: "If you only have time for one activity in Lima, make it the Solo Traveler's Discovery. You won’t regret it.",
+    author: "Linda Martin",
+    title: "Wandered Far, Wondered More",
+    rating: 3.5,
+    date: "2020-06-16"
   }
 ];

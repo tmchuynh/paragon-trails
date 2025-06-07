@@ -3,62 +3,66 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const ecofriendlyDiscoveryTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-auckland-3-1",
-    quote: "So much fun, and so informative! Cynthia Edwards's enthusiasm is contagious.",
-    author: "Kimberly Crawford",
-    title: "Best Decision of Our Trip"
+    quote: "Nomsa Gibson went above and beyond to make sure everyone had a great time on the Eco-Friendly Discovery.",
+    author: "Bobby Jackson",
+    title: "A Day to Remember",
+    rating: 4.8,
+    date: "2019-12-08"
   },
   {
     id: "testimonial-tour-auckland-3-2",
-    quote: "We booked last-minute and are so glad we did. Cynthia Edwards made it one of our favorite memories from Auckland.",
-    author: "Juan Singh",
-    title: "Highlight of Our Trip"
+    quote: "One of the best decisions of our trip! Nomsa Gibson is a fantastic guide and brought incredible energy to the tour.",
+    author: "Patricia Maxwell",
+    title: "Better Than My Last Tinder Date",
+    rating: 3.9,
+    date: "2020-08-04"
   },
   {
     id: "testimonial-tour-auckland-3-3",
-    quote: "Cynthia Edwards brought a depth of cultural insight that gave us a new appreciation for Auckland.",
-    author: "Thabo Nash",
-    title: "Insider's Perspective"
+    quote: "A truly authentic experience! Nomsa Gibson showed us the real Auckland, not just the tourist spots.",
+    author: "Angela Carter",
+    title: "A Walk That Will Make You Think",
+    rating: 4.9,
+    date: "2021-06-01"
   },
   {
     id: "testimonial-tour-auckland-3-4",
-    quote: "Cynthia Edwards went above and beyond to make sure everyone had a great time on the Eco-Friendly Discovery.",
-    author: "Kyle Nguyen",
-    title: "Where Magic Meets Cobblestone"
+    quote: "We’ll be recommending the Eco-Friendly Discovery to all our friends. Nomsa Gibson made it that special.",
+    author: "Zoe Keller",
+    title: "Where Magic Meets Cobblestone",
+    rating: 3.8,
+    date: "2018-03-11"
   },
   {
     id: "testimonial-tour-auckland-3-5",
-    quote: "I felt like I was being shown around by a friend who knows all the secrets of Auckland.",
-    author: "Stella Watson",
-    title: "Impressive and Informative"
+    quote: "My family and I agreed this was the best part of our entire trip to Auckland.",
+    author: "Maria Rossi",
+    title: "Absolutely Fantastic!",
+    rating: 3.9,
+    date: "2019-06-08"
   },
   {
     id: "testimonial-tour-auckland-3-6",
-    quote: "Cynthia Edwards's enthusiasm for Auckland was contagious. We walked away feeling inspired.",
-    author: "Peter Wood",
-    title: "Bought the T-Shirt, Took the Tour, Loved It"
+    quote: "As a solo traveler, I felt completely comfortable on this tour. Nomsa Gibson created a friendly atmosphere from the start.",
+    author: "Bruce Wood",
+    title: "A New Favorite Memory",
+    rating: 4.2,
+    date: "2017-06-09"
   },
   {
     id: "testimonial-tour-auckland-3-7",
-    quote: "The Eco-Friendly Discovery completely changed how I see Auckland. Cynthia Edwards's insights were invaluable.",
-    author: "Dennis Hamilton",
-    title: "Entertaining and Educational"
+    quote: "Nomsa Gibson was incredibly accommodating and answered every question with patience and detail.",
+    author: "Riley Warren",
+    title: "Learned So Much!",
+    rating: 3.5,
+    date: "2022-02-28"
   },
   {
     id: "testimonial-tour-auckland-3-8",
-    quote: "My son and I had the best time on this tour. Cynthia Edwards's knowledge of Auckland made it so much more special.",
-    author: "Gabriel Williams",
-    title: "Best Decision of Our Trip"
-  },
-  {
-    id: "testimonial-tour-auckland-3-9",
-    quote: "I thought I knew Auckland, but this tour proved otherwise. Cynthia Edwards showed us a side we’d never seen.",
-    author: "Ethan Jansen",
-    title: "So Much More Than Expected"
-  },
-  {
-    id: "testimonial-tour-auckland-3-10",
-    quote: "Even our teens were engaged the entire time — Cynthia Edwards knows how to captivate a group!",
-    author: "Priya Thomas",
-    title: "Don't Miss This Tour!"
+    quote: "This tour was absolutely amazing! Nomsa Gibson knew everything about Auckland and showed us places we would have never found on our own.",
+    author: "Hiroshi Smith",
+    title: "Got Lost (on Purpose) with {GUIDE_NAME}",
+    rating: 4.1,
+    date: "2023-05-02"
   }
 ];

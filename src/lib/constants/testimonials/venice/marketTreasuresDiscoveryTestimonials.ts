@@ -3,86 +3,122 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const marketTreasuresDiscoveryTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-venice-1-1",
-    quote: "We got so much value from this tour. Joseph Fox took us to places we would have never discovered on our own.",
-    author: "Gabriella Nash",
-    title: "Highlight of Our Trip"
+    quote: "We joined the Market Treasures Discovery on our first day in Venice, and it set the tone for a fantastic trip.",
+    author: "Harper Porter",
+    title: "Got Lost (on Purpose) with {GUIDE_NAME}",
+    rating: 4.6,
+    date: "2020-04-28"
   },
   {
     id: "testimonial-tour-venice-1-2",
-    quote: "I've been on many tours, but this one stands out. Joseph Fox was passionate, knowledgeable, and made everyone feel welcome.",
-    author: "Rajesh Morales",
-    title: "Where Magic Meets Cobblestone"
+    quote: "We left the Market Treasures Discovery feeling more connected to Venice than we ever expected.",
+    author: "Sofia Edwards",
+    title: "A Journey Through Venice's Secrets",
+    rating: 4.8,
+    date: "2021-03-25"
   },
   {
     id: "testimonial-tour-venice-1-3",
-    quote: "As a solo traveler, I felt completely comfortable on this tour. Joseph Fox created a friendly atmosphere from the start.",
-    author: "Eric Montgomery",
-    title: "Where Magic Meets Cobblestone"
+    quote: "I thought I knew Venice, but this tour proved otherwise. Marcus Smith showed us a side we’d never seen.",
+    author: "Nora Müller",
+    title: "A Journey Through Venice's Wonders",
+    rating: 4.3,
+    date: "2017-07-09"
   },
   {
     id: "testimonial-tour-venice-1-4",
-    quote: "The Market Treasures Discovery was the highlight of our trip to Venice. Joseph Fox took us to all the best spots and shared fascinating stories.",
-    author: "Janet Gibson",
-    title: "Memorable from the First Step"
+    quote: "Even the locals in our group said they learned something new. That says a lot about Marcus Smith's depth.",
+    author: "Steven Taylor",
+    title: "A Walk That Will Stay with You",
+    rating: 3.9,
+    date: "2021-06-13"
   },
   {
     id: "testimonial-tour-venice-1-5",
-    quote: "Absolutely worth it. Joseph Fox took care of everything so we could just relax and enjoy Venice.",
-    author: "Joe Marshall",
-    title: "Entertaining and Educational"
+    quote: "I thought I knew Venice, but this tour proved otherwise. Marcus Smith showed us a side we’d never seen.",
+    author: "Arthur Spencer",
+    title: "History, Snacks, and Laughs—Yes Please!",
+    rating: 4.2,
+    date: "2018-07-08"
   },
   {
     id: "testimonial-tour-venice-1-6",
-    quote: "Absolutely worth it. Joseph Fox took care of everything so we could just relax and enjoy Venice.",
-    author: "Nicole White",
-    title: "Highly Recommend to Everyone"
+    quote: "If you only have time for one activity in Venice, make it the Market Treasures Discovery. You won’t regret it.",
+    author: "Dorothy Lee",
+    title: "We’ll Never Forget This",
+    rating: 3.6,
+    date: "2017-11-11"
   },
   {
     id: "testimonial-tour-venice-1-7",
-    quote: "Joseph Fox went above and beyond to make sure everyone had a great time on the Market Treasures Discovery.",
-    author: "Evelyn Williams",
-    title: "Better Than My Last Tinder Date"
+    quote: "A truly authentic experience! Marcus Smith showed us the real Venice, not just the tourist spots.",
+    author: "Henry Day",
+    title: "A Tour That Feels Like a Hug",
+    rating: 3.7,
+    date: "2019-02-28"
   },
   {
     id: "testimonial-tour-venice-1-8",
-    quote: "A truly authentic experience! Joseph Fox showed us the real Venice, not just the tourist spots.",
-    author: "Julie Porter",
-    title: "Whispers of the Past, Echoes of Joy"
+    quote: "If you're visiting Venice, the Market Treasures Discovery is a must! Marcus Smith made the history come alive in a way guidebooks never could.",
+    author: "Mohamed Silva",
+    title: "A Tour Even My Teenager Liked",
+    rating: 4.3,
+    date: "2021-07-05"
   },
   {
     id: "testimonial-tour-venice-1-9",
-    quote: "The Market Treasures Discovery was the highlight of our trip to Venice. Joseph Fox took us to all the best spots and shared fascinating stories.",
-    author: "Priya Ali",
-    title: "Memorable from the First Step"
+    quote: "From start to finish, the experience felt curated and special. Hats off to Marcus Smith.",
+    author: "Mary Mitchell",
+    title: "An Authentic Slice of Venice",
+    rating: 4.2,
+    date: "2017-10-24"
   },
   {
     id: "testimonial-tour-venice-1-10",
-    quote: "Even our teens were engaged the entire time — Joseph Fox knows how to captivate a group!",
-    author: "Noah Lee",
-    title: "Where Magic Meets Cobblestone"
+    quote: "If you're visiting Venice, the Market Treasures Discovery is a must! Marcus Smith made the history come alive in a way guidebooks never could.",
+    author: "Samantha Jansen",
+    title: "So Glad We Did This",
+    rating: 4.9,
+    date: "2017-02-12"
   },
   {
     id: "testimonial-tour-venice-1-11",
-    quote: "Joseph Fox's enthusiasm for Venice was contagious. We walked away feeling inspired.",
-    author: "Dennis Dubois",
-    title: "Unforgettable Experience"
+    quote: "Highly recommend this tour if you want more than just a photo op — Marcus Smith gives you real insight into Venice.",
+    author: "Zachary Gonzalez",
+    title: "Loved Every Minute",
+    rating: 4.5,
+    date: "2022-11-18"
   },
   {
     id: "testimonial-tour-venice-1-12",
-    quote: "We’ll be recommending the Market Treasures Discovery to all our friends. Joseph Fox made it that special.",
-    author: "Ellie Martin",
-    title: "So Much More Than Expected"
+    quote: "Marcus Smith was incredibly accommodating and answered every question with patience and detail.",
+    author: "Zachary Dubois",
+    title: "Don't Miss This Tour!",
+    rating: 4.8,
+    date: "2024-11-18"
   },
   {
     id: "testimonial-tour-venice-1-13",
-    quote: "If you only have time for one activity in Venice, make it the Market Treasures Discovery. You won’t regret it.",
-    author: "Aiden Silva",
-    title: "Wandered Far, Wondered More"
+    quote: "Even the locals in our group said they learned something new. That says a lot about Marcus Smith's depth.",
+    author: "Nathan Anderson",
+    title: "Hidden Gems of Venice",
+    rating: 4.4,
+    date: "2022-07-21"
   },
   {
     id: "testimonial-tour-venice-1-14",
-    quote: "My colleague and I agreed this was the best part of our entire trip to Venice.",
-    author: "Nicholas Wallace",
-    title: "Impressive and Informative"
+    quote: "From beginning to end, the Market Treasures Discovery was seamless and so well organized.",
+    author: "Diego Carter",
+    title: "Highlight of Our Trip",
+    rating: 4.9,
+    date: "2017-11-27"
+  },
+  {
+    id: "testimonial-tour-venice-1-15",
+    quote: "The Market Treasures Discovery completely changed how I see Venice. Marcus Smith's insights were invaluable.",
+    author: "Amina Kim",
+    title: "A Walk Through History",
+    rating: 4.5,
+    date: "2018-03-03"
   }
 ];

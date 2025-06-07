@@ -3,92 +3,114 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const spiritualLandmarksExplorationTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-tampa-5-1",
-    quote: "My grandmother and I agreed this was the best part of our entire trip to Tampa.",
-    author: "Sarah Porter",
-    title: "Fascinating and Fun"
+    quote: "This tour is a hidden gem — just like the spots Evelyn Patel showed us around Tampa.",
+    author: "Alan Hunter",
+    title: "Memorable from the First Step",
+    rating: 3.5,
+    date: "2019-03-15"
   },
   {
     id: "testimonial-tour-tampa-5-2",
-    quote: "This tour is a hidden gem — just like the spots Laura Carpenter showed us around Tampa.",
-    author: "Paul Johnson",
-    title: "More Enchanting Than Expected"
+    quote: "Even the locals in our group said they learned something new. That says a lot about Evelyn Patel's depth.",
+    author: "Alan Martin",
+    title: "Would Follow This Guide Into Battle",
+    rating: 3.6,
+    date: "2020-09-05"
   },
   {
     id: "testimonial-tour-tampa-5-3",
-    quote: "Our family loved every moment of the Spiritual Landmarks Exploration. Laura Carpenter even made it fun for our kids.",
-    author: "Aiden Baker",
-    title: "Hot, Sweaty, and Absolutely Worth It"
+    quote: "Even our teens were engaged the entire time — Evelyn Patel knows how to captivate a group!",
+    author: "Amy Mitchell",
+    title: "Would Follow This Guide Into Battle",
+    rating: 4.6,
+    date: "2023-05-30"
   },
   {
     id: "testimonial-tour-tampa-5-4",
-    quote: "Even the locals in our group said they learned something new. That says a lot about Laura Carpenter's depth.",
-    author: "Carol Fletcher",
-    title: "Worth Every Penny"
+    quote: "We got so much value from this tour. Evelyn Patel took us to places we would have never discovered on our own.",
+    author: "Lawrence Price",
+    title: "Learned So Much!",
+    rating: 4.2,
+    date: "2017-08-11"
   },
   {
     id: "testimonial-tour-tampa-5-5",
-    quote: "As a solo traveler, I felt completely comfortable on this tour. Laura Carpenter created a friendly atmosphere from the start.",
-    author: "James Payne",
-    title: "Insider's Perspective"
+    quote: "The Spiritual Landmarks Exploration was the highlight of our trip to Tampa. Evelyn Patel took us to all the best spots and shared fascinating stories.",
+    author: "Patricia Morgan",
+    title: "A Tour That Feels Like a Hug",
+    rating: 4.6,
+    date: "2024-10-26"
   },
   {
     id: "testimonial-tour-tampa-5-6",
-    quote: "If you're visiting Tampa, the Spiritual Landmarks Exploration is a must! Laura Carpenter made the history come alive in a way guidebooks never could.",
-    author: "Scarlett Murray",
-    title: "Brought Tampa to Life"
+    quote: "This was not just sightseeing — it was a deep dive into the heart of Tampa thanks to Evelyn Patel.",
+    author: "Donna Fisher",
+    title: "Sunlight, Stories, and Serendipity",
+    rating: 3.7,
+    date: "2023-01-10"
   },
   {
     id: "testimonial-tour-tampa-5-7",
-    quote: "I can't recommend the Spiritual Landmarks Exploration enough. Laura Carpenter was phenomenal, and the experience was worth every penny.",
-    author: "William Lawson",
-    title: "An Authentic Slice of Tampa"
+    quote: "The Spiritual Landmarks Exploration was both entertaining and educational. Evelyn Patel has a gift for storytelling that brings Tampa's history to life.",
+    author: "Scarlett Curtis",
+    title: "A Tour Even My Teenager Liked",
+    rating: 4.2,
+    date: "2019-08-30"
   },
   {
     id: "testimonial-tour-tampa-5-8",
-    quote: "This tour exceeded all my expectations. Laura Carpenter's insider knowledge made our Tampa visit unforgettable.",
-    author: "Ali Wallace",
-    title: "Learned Stuff, Didn’t Cry—Success!"
+    quote: "I can't recommend the Spiritual Landmarks Exploration enough. Evelyn Patel was phenomenal, and the experience was worth every penny.",
+    author: "Rachel Davis",
+    title: "A Journey Through Tampa's Secrets",
+    rating: 4.2,
+    date: "2025-05-01"
   },
   {
     id: "testimonial-tour-tampa-5-9",
-    quote: "As someone who's been to Tampa before, I was surprised at how much I learned on the Spiritual Landmarks Exploration. Laura Carpenter is a treasure trove of information!",
-    author: "Dylan Stewart",
-    title: "Hidden Gems of Tampa"
+    quote: "I can't recommend the Spiritual Landmarks Exploration enough. Evelyn Patel was phenomenal, and the experience was worth every penny.",
+    author: "Aaliyah Collins",
+    title: "The Real Tampa Experience",
+    rating: 5,
+    date: "2020-05-05"
   },
   {
     id: "testimonial-tour-tampa-5-10",
-    quote: "We left the Spiritual Landmarks Exploration feeling more connected to Tampa than we ever expected.",
-    author: "Carlos Jennings",
-    title: "Sunlight, Stories, and Serendipity"
+    quote: "What an engaging experience! Evelyn Patel kept us laughing and learning throughout the Spiritual Landmarks Exploration.",
+    author: "Brenda Lopez",
+    title: "A Deep Dive into Local Culture",
+    rating: 4.6,
+    date: "2017-05-04"
   },
   {
     id: "testimonial-tour-tampa-5-11",
-    quote: "One of the best decisions of our trip! Laura Carpenter is a fantastic guide and brought incredible energy to the tour.",
-    author: "Brian Miller",
-    title: "Outstanding in Every Way"
+    quote: "As a solo traveler, I felt completely comfortable on this tour. Evelyn Patel created a friendly atmosphere from the start.",
+    author: "Thabo Bennett",
+    title: "A Day to Remember",
+    rating: 3.8,
+    date: "2017-01-05"
   },
   {
     id: "testimonial-tour-tampa-5-12",
-    quote: "Laura Carpenter is the kind of guide you want to tell your friends about. This was a five-star experience.",
-    author: "Joan Ellis",
-    title: "Fascinating and Fun"
+    quote: "A truly authentic experience! Evelyn Patel showed us the real Tampa, not just the tourist spots.",
+    author: "Ana Payne",
+    title: "Truly Eye-Opening",
+    rating: 3.6,
+    date: "2019-12-13"
   },
   {
     id: "testimonial-tour-tampa-5-13",
-    quote: "I thought I knew Tampa, but this tour proved otherwise. Laura Carpenter showed us a side we’d never seen.",
-    author: "Douglas Russell",
-    title: "More Enchanting Than Expected"
+    quote: "A truly authentic experience! Evelyn Patel showed us the real Tampa, not just the tourist spots.",
+    author: "Noah Sutton",
+    title: "Truly Eye-Opening",
+    rating: 4.7,
+    date: "2020-11-26"
   },
   {
     id: "testimonial-tour-tampa-5-14",
-    quote: "Even our teens were engaged the entire time — Laura Carpenter knows how to captivate a group!",
-    author: "Elijah Brown",
-    title: "Felt Like a Character in a Fairytale"
-  },
-  {
-    id: "testimonial-tour-tampa-5-15",
-    quote: "From beginning to end, the Spiritual Landmarks Exploration was seamless and so well organized.",
-    author: "Khalid Kim",
-    title: "I Came, I Saw, I Took Too Many Photos"
+    quote: "Such a memorable way to explore Tampa. The mix of history, local culture, and stories was perfect.",
+    author: "Nicole Brooks",
+    title: "Absolutely Fantastic!",
+    rating: 4.8,
+    date: "2022-02-26"
   }
 ];

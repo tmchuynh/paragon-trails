@@ -3,86 +3,114 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const panoramicHikingJourneyTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-southampton-1-1",
-    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Johnny Cooper.",
-    author: "Ava Stewart",
-    title: "The Walking Was Free—The Laughs Were Priceless"
+    quote: "From start to finish, the experience felt curated and special. Hats off to Gabriel Ali.",
+    author: "Rebecca Russell",
+    title: "Learned So Much!",
+    rating: 4.2,
+    date: "2020-07-05"
   },
   {
     id: "testimonial-tour-southampton-1-2",
-    quote: "It felt like a private tour, even though we were with a group. Johnny Cooper is incredibly engaging.",
-    author: "Wayne Fox",
-    title: "Well Worth Your Time"
+    quote: "What an engaging experience! Gabriel Ali kept us laughing and learning throughout the Panoramic Hiking Journey.",
+    author: "Zoe Müller",
+    title: "A Walk That Will Make You Want to Dance",
+    rating: 3.7,
+    date: "2021-01-10"
   },
   {
     id: "testimonial-tour-southampton-1-3",
-    quote: "My sibling and I agreed this was the best part of our entire trip to Southampton.",
-    author: "Riley Rodriguez",
-    title: "Insider's Perspective"
+    quote: "What a fantastic way to start our stay in Southampton. Gabriel Ali gave us a great foundation for exploring more on our own.",
+    author: "Brooklyn Watson",
+    title: "Whispers of the Past, Echoes of Joy",
+    rating: 4.3,
+    date: "2017-07-05"
   },
   {
     id: "testimonial-tour-southampton-1-4",
-    quote: "Johnny Cooper was incredibly accommodating and answered every question with patience and detail.",
-    author: "Naomi Miller",
-    title: "Unforgettable Experience"
+    quote: "We loved every minute of the Panoramic Hiking Journey. Gabriel Ali's local tips were priceless.",
+    author: "Victor Harris",
+    title: "A Deep Dive into Local Culture",
+    rating: 4.1,
+    date: "2024-10-13"
   },
   {
     id: "testimonial-tour-southampton-1-5",
-    quote: "If you only have time for one activity in Southampton, make it the Panoramic Hiking Journey. You won’t regret it.",
-    author: "Oliver Wilson",
-    title: "Bought the T-Shirt, Took the Tour, Loved It"
+    quote: "I thought I knew Southampton, but this tour proved otherwise. Gabriel Ali showed us a side we’d never seen.",
+    author: "James Brown",
+    title: "A Journey Through Southampton's Magic",
+    rating: 4.8,
+    date: "2020-08-31"
   },
   {
     id: "testimonial-tour-southampton-1-6",
-    quote: "If you're visiting Southampton, the Panoramic Hiking Journey is a must! Johnny Cooper made the history come alive in a way guidebooks never could.",
-    author: "Stephanie Harper",
-    title: "If Cities Had Souls, Southampton Sang to Us"
+    quote: "What a fantastic way to start our stay in Southampton. Gabriel Ali gave us a great foundation for exploring more on our own.",
+    author: "Joseph White",
+    title: "Felt Like a Character in a Fairytale",
+    rating: 3.6,
+    date: "2024-06-03"
   },
   {
     id: "testimonial-tour-southampton-1-7",
-    quote: "I've been on many tours, but this one stands out. Johnny Cooper was passionate, knowledgeable, and made everyone feel welcome.",
-    author: "Nomsa Griffin",
-    title: "Best Decision of Our Trip"
+    quote: "I thought I knew Southampton, but this tour proved otherwise. Gabriel Ali showed us a side we’d never seen.",
+    author: "Jane Douglas",
+    title: "If Cities Had Souls, Southampton Sang to Us",
+    rating: 4.8,
+    date: "2017-12-18"
   },
   {
     id: "testimonial-tour-southampton-1-8",
-    quote: "We’ll be recommending the Panoramic Hiking Journey to all our friends. Johnny Cooper made it that special.",
-    author: "Russell Rossi",
-    title: "Fun, Friendly, and Full of Insight"
+    quote: "We booked last-minute and are so glad we did. Gabriel Ali made it one of our favorite memories from Southampton.",
+    author: "Brian Morgan",
+    title: "A Journey Through Southampton's Culture",
+    rating: 4.3,
+    date: "2019-06-01"
   },
   {
     id: "testimonial-tour-southampton-1-9",
-    quote: "Absolutely worth it. Johnny Cooper took care of everything so we could just relax and enjoy Southampton.",
-    author: "Joan Jansen",
-    title: "Local Experience Made Easy"
+    quote: "I’ve taken dozens of tours in different countries. Gabriel Ali ranks among the very best.",
+    author: "Dylan Rossi",
+    title: "A Journey Through Southampton's Culture",
+    rating: 4.8,
+    date: "2018-04-12"
   },
   {
     id: "testimonial-tour-southampton-1-10",
-    quote: "This tour was absolutely amazing! Johnny Cooper knew everything about Southampton and showed us places we would have never found on our own.",
-    author: "Kennedy Wright",
-    title: "Got Lost (on Purpose) with {GUIDE_NAME}"
+    quote: "This tour was absolutely amazing! Gabriel Ali knew everything about Southampton and showed us places we would have never found on our own.",
+    author: "Donna Ellis",
+    title: "A Journey Through Southampton's Wonders",
+    rating: 3.8,
+    date: "2018-01-19"
   },
   {
     id: "testimonial-tour-southampton-1-11",
-    quote: "Johnny Cooper was incredibly accommodating and answered every question with patience and detail.",
-    author: "Dorothy Crawford",
-    title: "Hot, Sweaty, and Absolutely Worth It"
+    quote: "One of the best decisions of our trip! Gabriel Ali is a fantastic guide and brought incredible energy to the tour.",
+    author: "Aaliyah Gonzalez",
+    title: "Felt Like a Character in a Fairytale",
+    rating: 4.4,
+    date: "2021-07-17"
   },
   {
     id: "testimonial-tour-southampton-1-12",
-    quote: "This tour is a hidden gem — just like the spots Johnny Cooper showed us around Southampton.",
-    author: "William Ivanov",
-    title: "A New Favorite Memory"
+    quote: "What an engaging experience! Gabriel Ali kept us laughing and learning throughout the Panoramic Hiking Journey.",
+    author: "Jacob Foster",
+    title: "Better Than My Last Tinder Date",
+    rating: 4.5,
+    date: "2017-07-23"
   },
   {
     id: "testimonial-tour-southampton-1-13",
-    quote: "Such a memorable way to explore Southampton. The mix of history, local culture, and stories was perfect.",
-    author: "Kennedy Wright",
-    title: "Best Decision of Our Trip"
+    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Gabriel Ali!",
+    author: "Olivia Russell",
+    title: "We’ll Never Forget This",
+    rating: 3.5,
+    date: "2017-04-24"
   },
   {
     id: "testimonial-tour-southampton-1-14",
-    quote: "Even the locals in our group said they learned something new. That says a lot about Johnny Cooper's depth.",
-    author: "Hannah Ellis",
-    title: "A Stroll Through a Living Storybook"
+    quote: "Gabriel Ali's enthusiasm for Southampton was contagious. We walked away feeling inspired.",
+    author: "Nora Müller",
+    title: "A Walk That Will Make You Fall in Love with Southampton",
+    rating: 4.3,
+    date: "2018-11-26"
   }
 ];

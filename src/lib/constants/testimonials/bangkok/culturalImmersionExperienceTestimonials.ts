@@ -3,62 +3,74 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const culturalImmersionExperienceTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-bangkok-3-1",
-    quote: "Thanks to Lawrence Brooks, we discovered parts of Bangkok we would have never seen on our own.",
-    author: "Laura Carpenter",
-    title: "A Day to Remember"
+    quote: "Even our teens were engaged the entire time — Avery Jansen knows how to captivate a group!",
+    author: "Diego Curtis",
+    title: "Don't Miss This Tour!",
+    rating: 3.7,
+    date: "2018-03-17"
   },
   {
     id: "testimonial-tour-bangkok-3-2",
-    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Lawrence Brooks.",
-    author: "Jesse Kim",
-    title: "History, Snacks, and Laughs—Yes Please!"
+    quote: "If you only have time for one activity in Bangkok, make it the Cultural Immersion Experience. You won’t regret it.",
+    author: "Bella Price",
+    title: "A Walk That Will Make You Want to Stay",
+    rating: 4.8,
+    date: "2021-02-18"
   },
   {
     id: "testimonial-tour-bangkok-3-3",
-    quote: "From beginning to end, the Cultural Immersion Experience was seamless and so well organized.",
-    author: "Susan Warren",
-    title: "Cultural Immersion at Its Best"
+    quote: "We had limited time in Bangkok, and this tour made sure we saw the best of it. Avery Jansen was amazing.",
+    author: "Hassan Foster",
+    title: "A Walk That Changed Everything",
+    rating: 4.4,
+    date: "2019-01-01"
   },
   {
     id: "testimonial-tour-bangkok-3-4",
-    quote: "Lawrence Brooks made learning about Bangkok's history genuinely exciting — not an easy task!",
-    author: "Emma Silva",
-    title: "Fascinating and Fun"
+    quote: "It felt like a private tour, even though we were with a group. Avery Jansen is incredibly engaging.",
+    author: "Valentina Jackson",
+    title: "A Walk That Will Make You Want to Explore More",
+    rating: 4.2,
+    date: "2017-10-08"
   },
   {
     id: "testimonial-tour-bangkok-3-5",
-    quote: "We joined the Cultural Immersion Experience on our first day in Bangkok, and it set the tone for a fantastic trip.",
-    author: "Nathan Warren",
-    title: "Well Worth Your Time"
+    quote: "If you only have time for one activity in Bangkok, make it the Cultural Immersion Experience. You won’t regret it.",
+    author: "Larry Clark",
+    title: "Best Tour in Bangkok",
+    rating: 4,
+    date: "2023-03-27"
   },
   {
     id: "testimonial-tour-bangkok-3-6",
-    quote: "I thought I knew Bangkok, but this tour proved otherwise. Lawrence Brooks showed us a side we’d never seen.",
-    author: "Dylan Morgan",
-    title: "More Enchanting Than Expected"
+    quote: "This tour was absolutely amazing! Avery Jansen knew everything about Bangkok and showed us places we would have never found on our own.",
+    author: "Madelyn Brooks",
+    title: "A Journey Through Bangkok's Heart",
+    rating: 3.6,
+    date: "2019-06-07"
   },
   {
     id: "testimonial-tour-bangkok-3-7",
-    quote: "One of the best decisions of our trip! Lawrence Brooks is a fantastic guide and brought incredible energy to the tour.",
-    author: "Austin Moore",
-    title: "A Stroll Through a Living Storybook"
+    quote: "As a solo traveler, I felt completely comfortable on this tour. Avery Jansen created a friendly atmosphere from the start.",
+    author: "Christine Jennings",
+    title: "A Journey Through Bangkok's Hidden Treasures",
+    rating: 4.5,
+    date: "2018-05-28"
   },
   {
     id: "testimonial-tour-bangkok-3-8",
-    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Lawrence Brooks.",
-    author: "Bobby Knight",
-    title: "Fascinating and Fun"
+    quote: "This tour was absolutely amazing! Avery Jansen knew everything about Bangkok and showed us places we would have never found on our own.",
+    author: "Blake Davis",
+    title: "Exceptional Tour Guide",
+    rating: 3.8,
+    date: "2019-10-24"
   },
   {
     id: "testimonial-tour-bangkok-3-9",
-    quote: "We were blown away by the depth of knowledge and warmth Lawrence Brooks brought to the tour.",
-    author: "Avery White",
-    title: "Truly Eye-Opening"
-  },
-  {
-    id: "testimonial-tour-bangkok-3-10",
-    quote: "We got so much value from this tour. Lawrence Brooks took us to places we would have never discovered on our own.",
-    author: "Darrell Kim",
-    title: "Worth Every Penny"
+    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Avery Jansen.",
+    author: "Margaret Hayes",
+    title: "Would Follow This Guide Into Battle",
+    rating: 3.6,
+    date: "2021-03-30"
   }
 ];

@@ -3,74 +3,98 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const conservationExperienceTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-paris-3-1",
-    quote: "What a fantastic way to start our stay in Paris. Sandra Price gave us a great foundation for exploring more on our own.",
-    author: "Nathan Sutton",
-    title: "Brought Paris to Life"
+    quote: "This was more than just sightseeing — it was an unforgettable journey through Paris's culture and history.",
+    author: "Stephanie Taylor",
+    title: "A Deep Dive into Local Culture",
+    rating: 5,
+    date: "2023-03-12"
   },
   {
     id: "testimonial-tour-paris-3-2",
-    quote: "Even our teens were engaged the entire time — Sandra Price knows how to captivate a group!",
-    author: "Amina Wilson",
-    title: "Highlight of Our Trip"
+    quote: "My classmate and I agreed this was the best part of our entire trip to Paris.",
+    author: "Juan Harris",
+    title: "Worth Every Penny",
+    rating: 4.4,
+    date: "2025-05-01"
   },
   {
     id: "testimonial-tour-paris-3-3",
-    quote: "The small group size and personal attention from Sandra Price made all the difference.",
-    author: "Eugene Brown",
-    title: "Worth Every Penny"
+    quote: "What an engaging experience! Lerato Keller kept us laughing and learning throughout the Conservation Experience.",
+    author: "Peter Cooper",
+    title: "A New Favorite Memory",
+    rating: 3.9,
+    date: "2023-06-20"
   },
   {
     id: "testimonial-tour-paris-3-4",
-    quote: "Sandra Price had such a great balance of history, fun facts, and local stories — truly a gifted guide.",
-    author: "Thomas Bennett",
-    title: "Loved Every Minute"
+    quote: "We booked last-minute and are so glad we did. Lerato Keller made it one of our favorite memories from Paris.",
+    author: "Grace King",
+    title: "A Walk That Will Make You Smile",
+    rating: 4,
+    date: "2019-10-07"
   },
   {
     id: "testimonial-tour-paris-3-5",
-    quote: "Sandra Price was incredibly accommodating and answered every question with patience and detail.",
-    author: "Roy Dunn",
-    title: "One of the Best Tours We've Taken"
+    quote: "The Conservation Experience completely changed how I see Paris. Lerato Keller's insights were invaluable.",
+    author: "Thomas Payne",
+    title: "A Walk That Will Make You Believe in Magic",
+    rating: 4.8,
+    date: "2021-09-13"
   },
   {
     id: "testimonial-tour-paris-3-6",
-    quote: "If you're visiting Paris, the Conservation Experience is a must! Sandra Price made the history come alive in a way guidebooks never could.",
-    author: "Scott Foster",
-    title: "A Deep Dive into Local Culture"
+    quote: "A truly authentic experience! Lerato Keller showed us the real Paris, not just the tourist spots.",
+    author: "Savannah Hall",
+    title: "If Cities Had Souls, Paris Sang to Us",
+    rating: 4.4,
+    date: "2018-11-09"
   },
   {
     id: "testimonial-tour-paris-3-7",
-    quote: "Sandra Price brought a depth of cultural insight that gave us a new appreciation for Paris.",
-    author: "Barbara Gardner",
-    title: "Memorable from the First Step"
+    quote: "This tour is a hidden gem — just like the spots Lerato Keller showed us around Paris.",
+    author: "Walter Martin",
+    title: "A Must-Do in Paris",
+    rating: 4.4,
+    date: "2018-11-15"
   },
   {
     id: "testimonial-tour-paris-3-8",
-    quote: "This tour is a hidden gem — just like the spots Sandra Price showed us around Paris.",
-    author: "Arthur Henderson",
-    title: "Best Tour in Paris"
+    quote: "Lerato Keller is the kind of guide you want to tell your friends about. This was a five-star experience.",
+    author: "Ibrahim Jansen",
+    title: "A Walk That Changed Everything",
+    rating: 3.6,
+    date: "2021-04-03"
   },
   {
     id: "testimonial-tour-paris-3-9",
-    quote: "Sandra Price made learning about Paris's history genuinely exciting — not an easy task!",
-    author: "Avery Jansen",
-    title: "A Stroll Through a Living Storybook"
+    quote: "I felt like I was being shown around by a friend who knows all the secrets of Paris.",
+    author: "Liam Lee",
+    title: "A Walk That Will Make You Think",
+    rating: 4.6,
+    date: "2025-03-14"
   },
   {
     id: "testimonial-tour-paris-3-10",
-    quote: "The pace was perfect, the content was rich, and Sandra Price made every stop memorable.",
-    author: "Katherine da Costa",
-    title: "A New Favorite Memory"
+    quote: "If you're visiting Paris, the Conservation Experience is a must! Lerato Keller made the history come alive in a way guidebooks never could.",
+    author: "Yuki Stewart",
+    title: "Best Tour in Paris",
+    rating: 4.3,
+    date: "2018-02-27"
   },
   {
     id: "testimonial-tour-paris-3-11",
-    quote: "I felt like I was being shown around by a friend who knows all the secrets of Paris.",
-    author: "Miguel Carpenter",
-    title: "A Tour Even My Teenager Liked"
+    quote: "This was not just sightseeing — it was a deep dive into the heart of Paris thanks to Lerato Keller.",
+    author: "Amanda Bennett",
+    title: "A Journey Through Paris's Hidden Treasures",
+    rating: 4.3,
+    date: "2025-03-25"
   },
   {
     id: "testimonial-tour-paris-3-12",
-    quote: "Highly recommend this tour if you want more than just a photo op — Sandra Price gives you real insight into Paris.",
-    author: "Mason Jackson",
-    title: "Felt Like a Character in a Fairytale"
+    quote: "The Conservation Experience was both entertaining and educational. Lerato Keller has a gift for storytelling that brings Paris's history to life.",
+    author: "Lisa Nash",
+    title: "A Walk That Will Make You Believe in Magic",
+    rating: 4.1,
+    date: "2023-09-12"
   }
 ];

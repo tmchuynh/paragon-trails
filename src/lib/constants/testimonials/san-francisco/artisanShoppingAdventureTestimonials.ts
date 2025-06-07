@@ -3,80 +3,98 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const artisanShoppingAdventureTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-san-francisco-4-1",
-    quote: "The small group size and personal attention from Jesse Anderson made all the difference.",
-    author: "William Carter",
-    title: "Incredible from Start to Finish"
+    quote: "Thanks to Philip Sutton, we discovered parts of San Francisco we would have never seen on our own.",
+    author: "Ronald Hunter",
+    title: "A New Favorite Memory",
+    rating: 3.6,
+    date: "2024-07-30"
   },
   {
     id: "testimonial-tour-san-francisco-4-2",
-    quote: "This tour was absolutely amazing! Jesse Anderson knew everything about San Francisco and showed us places we would have never found on our own.",
-    author: "Emma Wood",
-    title: "Brought San Francisco to Life"
+    quote: "The stories, the hidden gems, the expert navigation — Philip Sutton delivered on all fronts.",
+    author: "Avery Knight",
+    title: "Hidden Gems of San Francisco",
+    rating: 3.8,
+    date: "2024-06-14"
   },
   {
     id: "testimonial-tour-san-francisco-4-3",
-    quote: "This tour was absolutely amazing! Jesse Anderson knew everything about San Francisco and showed us places we would have never found on our own.",
-    author: "Frank Williams",
-    title: "So Glad We Did This"
+    quote: "I've been on many tours, but this one stands out. Philip Sutton was passionate, knowledgeable, and made everyone feel welcome.",
+    author: "Jesse Ellis",
+    title: "A Tour That Feels Like Home",
+    rating: 3.8,
+    date: "2021-09-30"
   },
   {
     id: "testimonial-tour-san-francisco-4-4",
-    quote: "If you only have time for one activity in San Francisco, make it the Artisan Shopping Adventure. You won’t regret it.",
-    author: "Kyle Dunn",
-    title: "Brought San Francisco to Life"
+    quote: "What a fantastic way to start our stay in San Francisco. Philip Sutton gave us a great foundation for exploring more on our own.",
+    author: "Thabo Hudson",
+    title: "Lost in Time—in the Best Way",
+    rating: 3.6,
+    date: "2021-03-17"
   },
   {
     id: "testimonial-tour-san-francisco-4-5",
-    quote: "I wasn’t expecting to enjoy this tour so much, but Jesse Anderson made it the highlight of our trip.",
-    author: "Samantha Henderson",
-    title: "A Must-Do in San Francisco"
+    quote: "This tour is a hidden gem — just like the spots Philip Sutton showed us around San Francisco.",
+    author: "Jonathan Chambers",
+    title: "Would Follow This Guide Into Battle",
+    rating: 4.3,
+    date: "2023-12-28"
   },
   {
     id: "testimonial-tour-san-francisco-4-6",
-    quote: "My friend and I had the best time on this tour. Jesse Anderson's knowledge of San Francisco made it so much more special.",
-    author: "Oliver Cooper",
-    title: "Memorable from the First Step"
+    quote: "The small group size and personal attention from Philip Sutton made all the difference.",
+    author: "Jose Johnson",
+    title: "A Unique Way to Explore San Francisco",
+    rating: 4.4,
+    date: "2022-10-25"
   },
   {
     id: "testimonial-tour-san-francisco-4-7",
-    quote: "One of the best decisions of our trip! Jesse Anderson is a fantastic guide and brought incredible energy to the tour.",
-    author: "Katherine Jansen",
-    title: "One of the Best Tours We've Taken"
+    quote: "We had limited time in San Francisco, and this tour made sure we saw the best of it. Philip Sutton was amazing.",
+    author: "Albert Nguyen",
+    title: "Outstanding in Every Way",
+    rating: 4.2,
+    date: "2021-04-16"
   },
   {
     id: "testimonial-tour-san-francisco-4-8",
-    quote: "One of the best decisions of our trip! Jesse Anderson is a fantastic guide and brought incredible energy to the tour.",
-    author: "John Coleman",
-    title: "Memorable from the First Step"
+    quote: "A truly authentic experience! Philip Sutton showed us the real San Francisco, not just the tourist spots.",
+    author: "Michelle Gibson",
+    title: "A Tour Even My Teenager Liked",
+    rating: 5,
+    date: "2017-02-14"
   },
   {
     id: "testimonial-tour-san-francisco-4-9",
-    quote: "Jesse Anderson's enthusiasm for San Francisco was contagious. We walked away feeling inspired.",
-    author: "Bryan Brooks",
-    title: "An Unexpected Highlight"
+    quote: "Our family loved every moment of the Artisan Shopping Adventure. Philip Sutton even made it fun for our kids.",
+    author: "Harper Price",
+    title: "Fun, Friendly, and Full of Insight",
+    rating: 3.9,
+    date: "2022-03-02"
   },
   {
     id: "testimonial-tour-san-francisco-4-10",
-    quote: "This isn’t your typical tour. Jesse Anderson makes it feel personal and engaging from the very start.",
-    author: "Elijah King",
-    title: "The Walking Was Free—The Laughs Were Priceless"
+    quote: "So much fun, and so informative! Philip Sutton's enthusiasm is contagious.",
+    author: "Evelyn Gonzalez",
+    title: "Bought the T-Shirt, Took the Tour, Loved It",
+    rating: 4.3,
+    date: "2018-10-08"
   },
   {
     id: "testimonial-tour-san-francisco-4-11",
-    quote: "It felt like a private tour, even though we were with a group. Jesse Anderson is incredibly engaging.",
-    author: "Randy Wood",
-    title: "Got Lost (on Purpose) with {GUIDE_NAME}"
+    quote: "I thought I knew San Francisco, but this tour proved otherwise. Philip Sutton showed us a side we’d never seen.",
+    author: "Nomsa Rossi",
+    title: "A Stroll Through a Living Storybook",
+    rating: 5,
+    date: "2019-07-31"
   },
   {
     id: "testimonial-tour-san-francisco-4-12",
-    quote: "I thought I knew San Francisco, but this tour proved otherwise. Jesse Anderson showed us a side we’d never seen.",
-    author: "William Russell",
-    title: "Don't Miss This Tour!"
-  },
-  {
-    id: "testimonial-tour-san-francisco-4-13",
-    quote: "I felt like I was being shown around by a friend who knows all the secrets of San Francisco.",
-    author: "Deborah Brown",
-    title: "Felt Like a Character in a Fairytale"
+    quote: "Philip Sutton made learning about San Francisco's history genuinely exciting — not an easy task!",
+    author: "Christine Foster",
+    title: "Learned Stuff, Didn’t Cry—Success!",
+    rating: 4.6,
+    date: "2018-11-18"
   }
 ];

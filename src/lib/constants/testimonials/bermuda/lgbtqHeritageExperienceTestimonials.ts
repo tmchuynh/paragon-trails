@@ -3,98 +3,90 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const lgbtqHeritageExperienceTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-bermuda-3-1",
-    quote: "I can't recommend the LGBTQ+ Heritage Experience enough. Sophia Graves was phenomenal, and the experience was worth every penny.",
-    author: "Charlotte Watson",
-    title: "Insider's Perspective"
+    quote: "A truly authentic experience! Angela Mitchell showed us the real Bermuda, not just the tourist spots.",
+    author: "Anthony Griffin",
+    title: "Highlight of Our Trip",
+    rating: 4.6,
+    date: "2024-06-19"
   },
   {
     id: "testimonial-tour-bermuda-3-2",
-    quote: "What a fantastic way to start our stay in Bermuda. Sophia Graves gave us a great foundation for exploring more on our own.",
-    author: "Sean Thomas",
-    title: "Followed the Guide, Found a Dream"
+    quote: "Angela Mitchell's enthusiasm for Bermuda was contagious. We walked away feeling inspired.",
+    author: "Margaret King",
+    title: "The Perfect Introduction to Bermuda",
+    rating: 3.6,
+    date: "2021-12-20"
   },
   {
     id: "testimonial-tour-bermuda-3-3",
-    quote: "Such a memorable way to explore Bermuda. The mix of history, local culture, and stories was perfect.",
-    author: "Isabella Bennett",
-    title: "Best Tour in Bermuda"
+    quote: "From start to finish, the experience felt curated and special. Hats off to Angela Mitchell.",
+    author: "Victor Mason",
+    title: "A Walk That Will Make You Think",
+    rating: 4.9,
+    date: "2017-04-08"
   },
   {
     id: "testimonial-tour-bermuda-3-4",
-    quote: "My sibling and I didn’t want the tour to end. Sophia Graves is that engaging and informative.",
-    author: "Anthony Wright",
-    title: "Lost in Time—in the Best Way"
+    quote: "One of the best decisions of our trip! Angela Mitchell is a fantastic guide and brought incredible energy to the tour.",
+    author: "Ethan Taylor",
+    title: "Best Tour in Bermuda",
+    rating: 3.8,
+    date: "2019-10-22"
   },
   {
     id: "testimonial-tour-bermuda-3-5",
-    quote: "This tour was absolutely amazing! Sophia Graves knew everything about Bermuda and showed us places we would have never found on our own.",
-    author: "Melissa Collins",
-    title: "Entertaining and Educational"
+    quote: "My husband and I had the best time on this tour. Angela Mitchell's knowledge of Bermuda made it so much more special.",
+    author: "Lerato Martin",
+    title: "A Hidden Gem of a Tour",
+    rating: 4.5,
+    date: "2019-08-13"
   },
   {
     id: "testimonial-tour-bermuda-3-6",
-    quote: "Even our teens were engaged the entire time — Sophia Graves knows how to captivate a group!",
-    author: "Jeremy Collins",
-    title: "Exceptional Tour Guide"
+    quote: "I thought I knew Bermuda, but this tour proved otherwise. Angela Mitchell showed us a side we’d never seen.",
+    author: "Stephanie Davis",
+    title: "Hidden Gems of Bermuda",
+    rating: 4.5,
+    date: "2024-05-28"
   },
   {
     id: "testimonial-tour-bermuda-3-7",
-    quote: "As someone who's been to Bermuda before, I was surprised at how much I learned on the LGBTQ+ Heritage Experience. Sophia Graves is a treasure trove of information!",
-    author: "Joshua Martin",
-    title: "So Much More Than Expected"
+    quote: "The LGBTQ+ Heritage Experience was both entertaining and educational. Angela Mitchell has a gift for storytelling that brings Bermuda's history to life.",
+    author: "Harold Anderson",
+    title: "Insider's Perspective",
+    rating: 4,
+    date: "2021-04-07"
   },
   {
     id: "testimonial-tour-bermuda-3-8",
-    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Sophia Graves.",
-    author: "Riley Wang",
-    title: "Entertaining and Educational"
+    quote: "The LGBTQ+ Heritage Experience was the highlight of our trip to Bermuda. Angela Mitchell took us to all the best spots and shared fascinating stories.",
+    author: "Bobby Brooks",
+    title: "Truly Eye-Opening",
+    rating: 3.9,
+    date: "2023-03-01"
   },
   {
     id: "testimonial-tour-bermuda-3-9",
-    quote: "From start to finish, the experience felt curated and special. Hats off to Sophia Graves.",
-    author: "Hannah Mason",
-    title: "History Comes Alive"
+    quote: "I wasn’t expecting to enjoy this tour so much, but Angela Mitchell made it the highlight of our trip.",
+    author: "Jane Kowalski",
+    title: "Outstanding in Every Way",
+    rating: 4.5,
+    date: "2019-05-23"
   },
   {
     id: "testimonial-tour-bermuda-3-10",
-    quote: "Sophia Graves went above and beyond to make sure everyone had a great time on the LGBTQ+ Heritage Experience.",
-    author: "Eugene Graham",
-    title: "Impressive and Informative"
+    quote: "Angela Mitchell is the kind of guide you want to tell your friends about. This was a five-star experience.",
+    author: "Jerry Chen",
+    title: "Memorable from the First Step",
+    rating: 3.7,
+    date: "2018-08-05"
   },
   {
     id: "testimonial-tour-bermuda-3-11",
-    quote: "I've been on many tours, but this one stands out. Sophia Graves was passionate, knowledgeable, and made everyone feel welcome.",
-    author: "Philip Chen",
-    title: "Where Magic Meets Cobblestone"
-  },
-  {
-    id: "testimonial-tour-bermuda-3-12",
-    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Sophia Graves.",
-    author: "Genesis Müller",
-    title: "We’ll Never Forget This"
-  },
-  {
-    id: "testimonial-tour-bermuda-3-13",
-    quote: "If you're visiting Bermuda, the LGBTQ+ Heritage Experience is a must! Sophia Graves made the history come alive in a way guidebooks never could.",
-    author: "Aisha Carter",
-    title: "An Unexpected Highlight"
-  },
-  {
-    id: "testimonial-tour-bermuda-3-14",
-    quote: "Sophia Graves had such a great balance of history, fun facts, and local stories — truly a gifted guide.",
-    author: "Wei Price",
-    title: "The Best Way to See Bermuda"
-  },
-  {
-    id: "testimonial-tour-bermuda-3-15",
-    quote: "I’ve taken dozens of tours in different countries. Sophia Graves ranks among the very best.",
-    author: "Ibrahim Wallace",
-    title: "History, Snacks, and Laughs—Yes Please!"
-  },
-  {
-    id: "testimonial-tour-bermuda-3-16",
-    quote: "Sophia Graves is the kind of guide you want to tell your friends about. This was a five-star experience.",
-    author: "Lucas Nash",
-    title: "Insider's Perspective"
+    quote: "My parent and I agreed this was the best part of our entire trip to Bermuda.",
+    author: "Aaliyah Clark",
+    title: "Hot, Sweaty, and Absolutely Worth It",
+    rating: 3.6,
+    date: "2020-08-25"
   }
 ];

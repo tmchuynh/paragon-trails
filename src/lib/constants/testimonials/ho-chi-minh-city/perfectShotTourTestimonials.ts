@@ -3,92 +3,66 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const perfectShotTourTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-ho-chi-minh-city-4-1",
-    quote: "My mother and I agreed this was the best part of our entire trip to Ho Chi Minh City.",
-    author: "Samantha Wood",
-    title: "The Best Way to See Ho Chi Minh City"
+    quote: "As someone who's been to Ho Chi Minh City before, I was surprised at how much I learned on the Perfect Shot Tour. Laura Harris is a treasure trove of information!",
+    author: "Mohamed Russell",
+    title: "So Much More Than Expected",
+    rating: 3.9,
+    date: "2019-10-17"
   },
   {
     id: "testimonial-tour-ho-chi-minh-city-4-2",
-    quote: "This was more than just sightseeing — it was an unforgettable journey through Ho Chi Minh City's culture and history.",
-    author: "Miguel Carter",
-    title: "More Enchanting Than Expected"
+    quote: "Thanks to Laura Harris, we discovered parts of Ho Chi Minh City we would have never seen on our own.",
+    author: "Skylar Baker",
+    title: "Beyond Our Expectations",
+    rating: 4.9,
+    date: "2020-08-23"
   },
   {
     id: "testimonial-tour-ho-chi-minh-city-4-3",
-    quote: "Our family loved every moment of the Perfect Shot Tour. Ella Ellis even made it fun for our kids.",
-    author: "Ravi Ellis",
-    title: "Would Follow This Guide Into Battle"
+    quote: "Laura Harris had such a great balance of history, fun facts, and local stories — truly a gifted guide.",
+    author: "Grace Wilson",
+    title: "A Journey Through Ho Chi Minh City's Soul",
+    rating: 3.9,
+    date: "2018-10-20"
   },
   {
     id: "testimonial-tour-ho-chi-minh-city-4-4",
-    quote: "Ella Ellis's enthusiasm for Ho Chi Minh City was contagious. We walked away feeling inspired.",
-    author: "Yuki Jackson",
-    title: "More Enchanting Than Expected"
+    quote: "Such a memorable way to explore Ho Chi Minh City. The mix of history, local culture, and stories was perfect.",
+    author: "Kinsley Clark",
+    title: "A Tour That Feels Like a Hug",
+    rating: 3.7,
+    date: "2017-01-29"
   },
   {
     id: "testimonial-tour-ho-chi-minh-city-4-5",
-    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Ella Ellis.",
-    author: "Diego Wallace",
-    title: "Learned So Much!"
+    quote: "We left the Perfect Shot Tour feeling more connected to Ho Chi Minh City than we ever expected.",
+    author: "Pamela Wood",
+    title: "The Best Way to See Ho Chi Minh City",
+    rating: 4.4,
+    date: "2020-08-13"
   },
   {
     id: "testimonial-tour-ho-chi-minh-city-4-6",
-    quote: "This isn’t your typical tour. Ella Ellis makes it feel personal and engaging from the very start.",
-    author: "Aaliyah Wang",
-    title: "Hidden Gems of Ho Chi Minh City"
+    quote: "This was more than just sightseeing — it was an unforgettable journey through Ho Chi Minh City's culture and history.",
+    author: "Ava Day",
+    title: "Worth Every Penny",
+    rating: 5,
+    date: "2021-09-01"
   },
   {
     id: "testimonial-tour-ho-chi-minh-city-4-7",
-    quote: "Even the locals in our group said they learned something new. That says a lot about Ella Ellis's depth.",
-    author: "Charlotte Nguyen",
-    title: "So Glad We Did This"
+    quote: "Laura Harris brought a depth of cultural insight that gave us a new appreciation for Ho Chi Minh City.",
+    author: "Thandiwe Fletcher",
+    title: "A Journey Through Ho Chi Minh City's Soul",
+    rating: 3.5,
+    date: "2019-06-26"
   },
   {
     id: "testimonial-tour-ho-chi-minh-city-4-8",
-    quote: "The small group size and personal attention from Ella Ellis made all the difference.",
-    author: "James Reed",
-    title: "Memorable from the First Step"
-  },
-  {
-    id: "testimonial-tour-ho-chi-minh-city-4-9",
-    quote: "This tour gave us a much deeper connection to Ho Chi Minh City. Ella Ellis's passion really shines through.",
-    author: "Laura Graham",
-    title: "History, Snacks, and Laughs—Yes Please!"
-  },
-  {
-    id: "testimonial-tour-ho-chi-minh-city-4-10",
-    quote: "The stories, the hidden gems, the expert navigation — Ella Ellis delivered on all fronts.",
-    author: "Noah Fisher",
-    title: "Insider's Perspective"
-  },
-  {
-    id: "testimonial-tour-ho-chi-minh-city-4-11",
-    quote: "Our family loved every moment of the Perfect Shot Tour. Ella Ellis even made it fun for our kids.",
-    author: "Layla Foster",
-    title: "A Must-Do in Ho Chi Minh City"
-  },
-  {
-    id: "testimonial-tour-ho-chi-minh-city-4-12",
-    quote: "If you're visiting Ho Chi Minh City, the Perfect Shot Tour is a must! Ella Ellis made the history come alive in a way guidebooks never could.",
-    author: "Caroline Hernandez",
-    title: "Truly Eye-Opening"
-  },
-  {
-    id: "testimonial-tour-ho-chi-minh-city-4-13",
-    quote: "We’ll be recommending the Perfect Shot Tour to all our friends. Ella Ellis made it that special.",
-    author: "Gabriel Davis",
-    title: "Sunlight, Stories, and Serendipity"
-  },
-  {
-    id: "testimonial-tour-ho-chi-minh-city-4-14",
-    quote: "We got so much value from this tour. Ella Ellis took us to places we would have never discovered on our own.",
-    author: "Bella Gonzalez",
-    title: "Brought Ho Chi Minh City to Life"
-  },
-  {
-    id: "testimonial-tour-ho-chi-minh-city-4-15",
-    quote: "This was more than just sightseeing — it was an unforgettable journey through Ho Chi Minh City's culture and history.",
-    author: "Maya Hunter",
-    title: "Entertaining and Educational"
+    quote: "So much fun, and so informative! Laura Harris's enthusiasm is contagious.",
+    author: "Rajesh Jones",
+    title: "Impressive and Informative",
+    rating: 4.1,
+    date: "2021-10-25"
   }
 ];

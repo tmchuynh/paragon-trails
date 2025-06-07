@@ -3,86 +3,122 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const foodBeveragePairingTourTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-cape-town-4-1",
-    quote: "Even the locals in our group said they learned something new. That says a lot about Christian Khan's depth.",
-    author: "Sean Nash",
-    title: "Lost in Time—in the Best Way"
+    quote: "One of the best decisions of our trip! Douglas Wright is a fantastic guide and brought incredible energy to the tour.",
+    author: "Laura Graham",
+    title: "A Journey Through Cape Town's Heart",
+    rating: 4.3,
+    date: "2017-03-04"
   },
   {
     id: "testimonial-tour-cape-town-4-2",
-    quote: "My friend and I didn’t want the tour to end. Christian Khan is that engaging and informative.",
-    author: "Ana Davis",
-    title: "The Perfect Introduction to Cape Town"
+    quote: "As someone who's been to Cape Town before, I was surprised at how much I learned on the Food & Beverage Pairing Tour. Douglas Wright is a treasure trove of information!",
+    author: "Ethan Miller",
+    title: "A Journey Through Cape Town's Magic",
+    rating: 4,
+    date: "2025-01-05"
   },
   {
     id: "testimonial-tour-cape-town-4-3",
-    quote: "We booked last-minute and are so glad we did. Christian Khan made it one of our favorite memories from Cape Town.",
-    author: "Joseph Garcia",
-    title: "The Perfect Introduction to Cape Town"
+    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Douglas Wright.",
+    author: "Sarah Marshall",
+    title: "A Journey Through Cape Town's Soul",
+    rating: 5,
+    date: "2019-02-06"
   },
   {
     id: "testimonial-tour-cape-town-4-4",
-    quote: "From start to finish, the experience felt curated and special. Hats off to Christian Khan.",
-    author: "Victoria Price",
-    title: "Beyond Our Expectations"
+    quote: "Absolutely worth it. Douglas Wright took care of everything so we could just relax and enjoy Cape Town.",
+    author: "Muhammad Watson",
+    title: "A Walk That Will Make You Appreciate Cape Town More",
+    rating: 4,
+    date: "2017-02-22"
   },
   {
     id: "testimonial-tour-cape-town-4-5",
-    quote: "A truly authentic experience! Christian Khan showed us the real Cape Town, not just the tourist spots.",
-    author: "Youssef Gonzalez",
-    title: "A New Favorite Memory"
+    quote: "The Food & Beverage Pairing Tour was the highlight of our trip to Cape Town. Douglas Wright took us to all the best spots and shared fascinating stories.",
+    author: "Nancy Stewart",
+    title: "One of the Best Tours We've Taken",
+    rating: 3.8,
+    date: "2023-10-17"
   },
   {
     id: "testimonial-tour-cape-town-4-6",
-    quote: "Christian Khan was incredibly accommodating and answered every question with patience and detail.",
-    author: "Randy Coleman",
-    title: "I Came, I Saw, I Took Too Many Photos"
+    quote: "What an engaging experience! Douglas Wright kept us laughing and learning throughout the Food & Beverage Pairing Tour.",
+    author: "Kyle Lewis",
+    title: "The Ultimate Cape Town Tour",
+    rating: 5,
+    date: "2024-03-01"
   },
   {
     id: "testimonial-tour-cape-town-4-7",
-    quote: "We joined the Food & Beverage Pairing Tour on our first day in Cape Town, and it set the tone for a fantastic trip.",
-    author: "Harper Chambers",
-    title: "Would Follow This Guide Into Battle"
+    quote: "The small group size and personal attention from Douglas Wright made all the difference.",
+    author: "Elijah Porter",
+    title: "A Walk That Changed Everything",
+    rating: 4.5,
+    date: "2024-10-10"
   },
   {
     id: "testimonial-tour-cape-town-4-8",
-    quote: "From start to finish, the experience felt curated and special. Hats off to Christian Khan.",
-    author: "Lawrence Lawson",
-    title: "Memorable from the First Step"
+    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Douglas Wright!",
+    author: "Emma Bennett",
+    title: "A Tour That Feels Like a Movie",
+    rating: 4.9,
+    date: "2021-06-21"
   },
   {
     id: "testimonial-tour-cape-town-4-9",
-    quote: "The stories, the hidden gems, the expert navigation — Christian Khan delivered on all fronts.",
-    author: "Harold Nash",
-    title: "Best Tour in Cape Town"
+    quote: "We were blown away by the depth of knowledge and warmth Douglas Wright brought to the tour.",
+    author: "Willie Jackson",
+    title: "A Journey Through Cape Town's Beauty",
+    rating: 4,
+    date: "2024-06-18"
   },
   {
     id: "testimonial-tour-cape-town-4-10",
-    quote: "What a fantastic way to start our stay in Cape Town. Christian Khan gave us a great foundation for exploring more on our own.",
-    author: "Genesis Anderson",
-    title: "Got Lost (on Purpose) with {GUIDE_NAME}"
+    quote: "I wasn’t expecting to enjoy this tour so much, but Douglas Wright made it the highlight of our trip.",
+    author: "Ali Williams",
+    title: "Learned Stuff, Didn’t Cry—Success!",
+    rating: 4.1,
+    date: "2018-05-27"
   },
   {
     id: "testimonial-tour-cape-town-4-11",
-    quote: "From beginning to end, the Food & Beverage Pairing Tour was seamless and so well organized.",
-    author: "Albert Fletcher",
-    title: "I Came, I Saw, I Took Too Many Photos"
+    quote: "Even our teens were engaged the entire time — Douglas Wright knows how to captivate a group!",
+    author: "Sarah Graham",
+    title: "Highly Recommend to Everyone",
+    rating: 4.7,
+    date: "2025-03-23"
   },
   {
     id: "testimonial-tour-cape-town-4-12",
-    quote: "This tour was absolutely amazing! Christian Khan knew everything about Cape Town and showed us places we would have never found on our own.",
-    author: "Melissa Chen",
-    title: "Absolutely Fantastic!"
+    quote: "Douglas Wright was incredibly accommodating and answered every question with patience and detail.",
+    author: "Elizabeth Chambers",
+    title: "A Journey Through Cape Town's Secrets",
+    rating: 4,
+    date: "2025-02-09"
   },
   {
     id: "testimonial-tour-cape-town-4-13",
-    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Christian Khan.",
-    author: "Layla Singh",
-    title: "History Comes Alive"
+    quote: "We had limited time in Cape Town, and this tour made sure we saw the best of it. Douglas Wright was amazing.",
+    author: "Jordan Gardner",
+    title: "Hot, Sweaty, and Absolutely Worth It",
+    rating: 4.7,
+    date: "2020-01-30"
   },
   {
     id: "testimonial-tour-cape-town-4-14",
-    quote: "Christian Khan went above and beyond to make sure everyone had a great time on the Food & Beverage Pairing Tour.",
-    author: "Hannah Porter",
-    title: "A Deep Dive into Local Culture"
+    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Douglas Wright!",
+    author: "Sebastian Hernandez",
+    title: "Well Worth Your Time",
+    rating: 4.2,
+    date: "2018-02-26"
+  },
+  {
+    id: "testimonial-tour-cape-town-4-15",
+    quote: "The Food & Beverage Pairing Tour completely changed how I see Cape Town. Douglas Wright's insights were invaluable.",
+    author: "Leah West",
+    title: "Entertaining and Educational",
+    rating: 3.6,
+    date: "2023-08-21"
   }
 ];

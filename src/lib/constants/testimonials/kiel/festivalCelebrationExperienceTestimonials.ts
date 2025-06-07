@@ -3,80 +3,98 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const festivalCelebrationExperienceTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-kiel-4-1",
-    quote: "We loved every minute of the Festival Celebration Experience. Bruce Russell's local tips were priceless.",
-    author: "Audrey Kowalski",
-    title: "A Day to Remember"
+    quote: "My husband and I had the best time on this tour. Sarah Ellis's knowledge of Kiel made it so much more special.",
+    author: "Mary Patel",
+    title: "Highly Recommend to Everyone",
+    rating: 4.7,
+    date: "2023-08-18"
   },
   {
     id: "testimonial-tour-kiel-4-2",
-    quote: "I’ve taken dozens of tours in different countries. Bruce Russell ranks among the very best.",
-    author: "Aiden Garcia",
-    title: "Followed the Guide, Found a Dream"
+    quote: "I thought I knew Kiel, but this tour proved otherwise. Sarah Ellis showed us a side we’d never seen.",
+    author: "Kevin Rodriguez",
+    title: "Learned So Much!",
+    rating: 4.3,
+    date: "2019-10-27"
   },
   {
     id: "testimonial-tour-kiel-4-3",
-    quote: "Bruce Russell is the kind of guide you want to tell your friends about. This was a five-star experience.",
-    author: "Joshua Garcia",
-    title: "The Real Kiel Experience"
+    quote: "We loved every minute of the Festival Celebration Experience. Sarah Ellis's local tips were priceless.",
+    author: "Emma Murray",
+    title: "Local Experience Made Easy",
+    rating: 3.6,
+    date: "2025-03-11"
   },
   {
     id: "testimonial-tour-kiel-4-4",
-    quote: "The pace was perfect, the content was rich, and Bruce Russell made every stop memorable.",
-    author: "Gabriel Wilson",
-    title: "Cultural Immersion at Its Best"
+    quote: "This was not just sightseeing — it was a deep dive into the heart of Kiel thanks to Sarah Ellis.",
+    author: "Aisha Khan",
+    title: "A Tour to Remember",
+    rating: 4.6,
+    date: "2020-06-11"
   },
   {
     id: "testimonial-tour-kiel-4-5",
-    quote: "If you're visiting Kiel, the Festival Celebration Experience is a must! Bruce Russell made the history come alive in a way guidebooks never could.",
-    author: "Kyle Dunn",
-    title: "Followed the Guide, Found a Dream"
+    quote: "This tour was absolutely amazing! Sarah Ellis knew everything about Kiel and showed us places we would have never found on our own.",
+    author: "Victor Suzuki",
+    title: "An Authentic Slice of Kiel",
+    rating: 4.5,
+    date: "2018-01-18"
   },
   {
     id: "testimonial-tour-kiel-4-6",
-    quote: "The Festival Celebration Experience completely changed how I see Kiel. Bruce Russell's insights were invaluable.",
-    author: "Joshua Spencer",
-    title: "The Ultimate Kiel Tour"
+    quote: "Sarah Ellis made learning about Kiel's history genuinely exciting — not an easy task!",
+    author: "Allison Clark",
+    title: "Well Worth Your Time",
+    rating: 4.9,
+    date: "2017-03-30"
   },
   {
     id: "testimonial-tour-kiel-4-7",
-    quote: "This tour was absolutely amazing! Bruce Russell knew everything about Kiel and showed us places we would have never found on our own.",
-    author: "Ibrahim Gibson",
-    title: "History Comes Alive"
+    quote: "This was not just sightseeing — it was a deep dive into the heart of Kiel thanks to Sarah Ellis.",
+    author: "Abigail Porter",
+    title: "A Journey Through Kiel's History",
+    rating: 4.2,
+    date: "2018-10-21"
   },
   {
     id: "testimonial-tour-kiel-4-8",
-    quote: "It felt like a private tour, even though we were with a group. Bruce Russell is incredibly engaging.",
-    author: "Kyle Johnson",
-    title: "History, Snacks, and Laughs—Yes Please!"
+    quote: "We’ll be recommending the Festival Celebration Experience to all our friends. Sarah Ellis made it that special.",
+    author: "Gary Dean",
+    title: "Don't Miss This Tour!",
+    rating: 4.3,
+    date: "2020-05-21"
   },
   {
     id: "testimonial-tour-kiel-4-9",
-    quote: "I’ve taken dozens of tours in different countries. Bruce Russell ranks among the very best.",
-    author: "Amelia Ellis",
-    title: "An Authentic Slice of Kiel"
+    quote: "We got so much value from this tour. Sarah Ellis took us to places we would have never discovered on our own.",
+    author: "Jerry Jones",
+    title: "A Tour That Feels Like a Movie",
+    rating: 4.3,
+    date: "2017-08-16"
   },
   {
     id: "testimonial-tour-kiel-4-10",
-    quote: "The pace was perfect, the content was rich, and Bruce Russell made every stop memorable.",
-    author: "Amelia Harper",
-    title: "A Unique Way to Explore Kiel"
+    quote: "My wife and I had the best time on this tour. Sarah Ellis's knowledge of Kiel made it so much more special.",
+    author: "Patrick Johnson",
+    title: "A Day to Remember",
+    rating: 4.8,
+    date: "2020-08-26"
   },
   {
     id: "testimonial-tour-kiel-4-11",
-    quote: "The stories, the hidden gems, the expert navigation — Bruce Russell delivered on all fronts.",
-    author: "Christine Ivanov",
-    title: "Absolutely Fantastic!"
+    quote: "Our family loved every moment of the Festival Celebration Experience. Sarah Ellis even made it fun for our kids.",
+    author: "Susan Nash",
+    title: "A Deep Dive into Local Culture",
+    rating: 4.7,
+    date: "2022-02-25"
   },
   {
     id: "testimonial-tour-kiel-4-12",
-    quote: "The stories, the hidden gems, the expert navigation — Bruce Russell delivered on all fronts.",
-    author: "Christopher Nakamura",
-    title: "A Deep Dive into Local Culture"
-  },
-  {
-    id: "testimonial-tour-kiel-4-13",
-    quote: "So much fun, and so informative! Bruce Russell's enthusiasm is contagious.",
-    author: "Helen Carpenter",
-    title: "Don't Miss This Tour!"
+    quote: "Sarah Ellis had such a great balance of history, fun facts, and local stories — truly a gifted guide.",
+    author: "Isabella Jennings",
+    title: "A Journey Through Kiel's Hidden Treasures",
+    rating: 3.7,
+    date: "2023-09-09"
   }
 ];

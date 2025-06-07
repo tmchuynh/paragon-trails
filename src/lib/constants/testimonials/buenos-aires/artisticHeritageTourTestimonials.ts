@@ -3,80 +3,138 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const artisticHeritageTourTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-buenos-aires-2-1",
-    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Abigail Graves.",
-    author: "Skylar Curtis",
-    title: "Well Worth Your Time"
+    quote: "What an engaging experience! Nicholas Fletcher kept us laughing and learning throughout the Artistic Heritage Tour.",
+    author: "Blake Lee",
+    title: "Absolutely Fantastic!",
+    rating: 4.4,
+    date: "2019-07-28"
   },
   {
     id: "testimonial-tour-buenos-aires-2-2",
-    quote: "Abigail Graves is the kind of guide you want to tell your friends about. This was a five-star experience.",
-    author: "Bella Lopez",
-    title: "Followed the Guide, Found a Dream"
+    quote: "I wasn’t expecting to enjoy this tour so much, but Nicholas Fletcher made it the highlight of our trip.",
+    author: "Deborah Jansen",
+    title: "The Real Buenos Aires Experience",
+    rating: 3.6,
+    date: "2018-08-13"
   },
   {
     id: "testimonial-tour-buenos-aires-2-3",
-    quote: "My grandfather and I agreed this was the best part of our entire trip to Buenos Aires.",
-    author: "Amy Mitchell",
-    title: "Best Decision of Our Trip"
+    quote: "Nicholas Fletcher brought a depth of cultural insight that gave us a new appreciation for Buenos Aires.",
+    author: "Hannah Fisher",
+    title: "A Tour That Feels Like a Fairytale",
+    rating: 3.8,
+    date: "2024-12-14"
   },
   {
     id: "testimonial-tour-buenos-aires-2-4",
-    quote: "If you're visiting Buenos Aires, the Artistic Heritage Tour is a must! Abigail Graves made the history come alive in a way guidebooks never could.",
-    author: "Eric Douglas",
-    title: "More Enchanting Than Expected"
+    quote: "We joined the Artistic Heritage Tour on our first day in Buenos Aires, and it set the tone for a fantastic trip.",
+    author: "Savannah Dunn",
+    title: "The Best Way to See Buenos Aires",
+    rating: 3.6,
+    date: "2022-07-01"
   },
   {
     id: "testimonial-tour-buenos-aires-2-5",
-    quote: "This tour was absolutely amazing! Abigail Graves knew everything about Buenos Aires and showed us places we would have never found on our own.",
-    author: "Raymond Dunn",
-    title: "A Deep Dive into Local Culture"
+    quote: "We’ll be recommending the Artistic Heritage Tour to all our friends. Nicholas Fletcher made it that special.",
+    author: "Madelyn Kim",
+    title: "A Tour That Feels Like a Hug",
+    rating: 3.7,
+    date: "2020-02-25"
   },
   {
     id: "testimonial-tour-buenos-aires-2-6",
-    quote: "We’ll be recommending the Artistic Heritage Tour to all our friends. Abigail Graves made it that special.",
-    author: "Stephen Thomas",
-    title: "Absolutely Fantastic!"
+    quote: "This isn’t your typical tour. Nicholas Fletcher makes it feel personal and engaging from the very start.",
+    author: "Sean Payne",
+    title: "Top-Notch Guiding",
+    rating: 4.9,
+    date: "2024-02-16"
   },
   {
     id: "testimonial-tour-buenos-aires-2-7",
-    quote: "My acquaintance and I agreed this was the best part of our entire trip to Buenos Aires.",
-    author: "Helen Hamilton",
-    title: "Highly Recommend to Everyone"
+    quote: "We got so much value from this tour. Nicholas Fletcher took us to places we would have never discovered on our own.",
+    author: "Genesis Jennings",
+    title: "Best Decision of Our Trip",
+    rating: 4.9,
+    date: "2025-05-22"
   },
   {
     id: "testimonial-tour-buenos-aires-2-8",
-    quote: "Abigail Graves shared personal stories that really brought Buenos Aires to life for us. A truly memorable tour.",
-    author: "Darrell Russell",
-    title: "Got Lost (on Purpose) with {GUIDE_NAME}"
+    quote: "My grandmother and I had the best time on this tour. Nicholas Fletcher's knowledge of Buenos Aires made it so much more special.",
+    author: "Claire Chambers",
+    title: "A Walk That Will Make You Fall in Love with Buenos Aires",
+    rating: 3.6,
+    date: "2017-01-14"
   },
   {
     id: "testimonial-tour-buenos-aires-2-9",
-    quote: "What an engaging experience! Abigail Graves kept us laughing and learning throughout the Artistic Heritage Tour.",
-    author: "Evelyn Dixon",
-    title: "An Authentic Slice of Buenos Aires"
+    quote: "From beginning to end, the Artistic Heritage Tour was seamless and so well organized.",
+    author: "Hannah Clark",
+    title: "A Stroll Through a Living Storybook",
+    rating: 4,
+    date: "2019-03-18"
   },
   {
     id: "testimonial-tour-buenos-aires-2-10",
-    quote: "This tour exceeded all my expectations. Abigail Graves's insider knowledge made our Buenos Aires visit unforgettable.",
-    author: "Olivia Müller",
-    title: "Brought Buenos Aires to Life"
+    quote: "We got so much value from this tour. Nicholas Fletcher took us to places we would have never discovered on our own.",
+    author: "Harper Jansen",
+    title: "If Cities Had Souls, Buenos Aires Sang to Us",
+    rating: 4.1,
+    date: "2019-10-23"
   },
   {
     id: "testimonial-tour-buenos-aires-2-11",
-    quote: "I was nervous about joining a group tour, but Abigail Graves made everyone feel like part of the crew.",
-    author: "Nicole Jackson",
-    title: "Learned So Much!"
+    quote: "What an engaging experience! Nicholas Fletcher kept us laughing and learning throughout the Artistic Heritage Tour.",
+    author: "Katherine Kowalski",
+    title: "So Much More Than Expected",
+    rating: 4.7,
+    date: "2021-09-25"
   },
   {
     id: "testimonial-tour-buenos-aires-2-12",
-    quote: "Even the locals in our group said they learned something new. That says a lot about Abigail Graves's depth.",
-    author: "William Williams",
-    title: "History, Snacks, and Laughs—Yes Please!"
+    quote: "We’ll be recommending the Artistic Heritage Tour to all our friends. Nicholas Fletcher made it that special.",
+    author: "Joel Chen",
+    title: "Highlight of Our Trip",
+    rating: 4.2,
+    date: "2022-10-04"
   },
   {
     id: "testimonial-tour-buenos-aires-2-13",
-    quote: "What an engaging experience! Abigail Graves kept us laughing and learning throughout the Artistic Heritage Tour.",
-    author: "Diego Palmer",
-    title: "Outstanding in Every Way"
+    quote: "We’ll be recommending the Artistic Heritage Tour to all our friends. Nicholas Fletcher made it that special.",
+    author: "Lerato Hamilton",
+    title: "So Glad We Did This",
+    rating: 4,
+    date: "2018-11-13"
+  },
+  {
+    id: "testimonial-tour-buenos-aires-2-14",
+    quote: "What an engaging experience! Nicholas Fletcher kept us laughing and learning throughout the Artistic Heritage Tour.",
+    author: "Lerato Montgomery",
+    title: "Local Experience Made Easy",
+    rating: 4.9,
+    date: "2023-07-01"
+  },
+  {
+    id: "testimonial-tour-buenos-aires-2-15",
+    quote: "Nicholas Fletcher shared personal stories that really brought Buenos Aires to life for us. A truly memorable tour.",
+    author: "Ella Young",
+    title: "We’ll Never Forget This",
+    rating: 4.6,
+    date: "2021-06-17"
+  },
+  {
+    id: "testimonial-tour-buenos-aires-2-16",
+    quote: "The pace was perfect, the content was rich, and Nicholas Fletcher made every stop memorable.",
+    author: "Laura Lee",
+    title: "We’ll Never Forget This",
+    rating: 3.9,
+    date: "2023-04-15"
+  },
+  {
+    id: "testimonial-tour-buenos-aires-2-17",
+    quote: "Highly recommend this tour if you want more than just a photo op — Nicholas Fletcher gives you real insight into Buenos Aires.",
+    author: "Jessica Nguyen",
+    title: "A Must-Do in Buenos Aires",
+    rating: 4.3,
+    date: "2019-03-11"
   }
 ];

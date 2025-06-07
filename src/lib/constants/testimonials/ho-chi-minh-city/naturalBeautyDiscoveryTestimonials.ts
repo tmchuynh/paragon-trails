@@ -3,98 +3,98 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const naturalBeautyDiscoveryTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-ho-chi-minh-city-1-1",
-    quote: "We joined the Natural Beauty Discovery on our first day in Ho Chi Minh City, and it set the tone for a fantastic trip.",
-    author: "Susan Wilson",
-    title: "Well Worth Your Time"
+    quote: "We booked last-minute and are so glad we did. Aaron Rodriguez made it one of our favorite memories from Ho Chi Minh City.",
+    author: "Lily Dunn",
+    title: "A Tour That Feels Like a Movie",
+    rating: 4.5,
+    date: "2019-11-07"
   },
   {
     id: "testimonial-tour-ho-chi-minh-city-1-2",
-    quote: "We booked last-minute and are so glad we did. Amanda Stewart made it one of our favorite memories from Ho Chi Minh City.",
-    author: "Nora Palmer",
-    title: "Wandered Far, Wondered More"
+    quote: "Aaron Rodriguez brought a depth of cultural insight that gave us a new appreciation for Ho Chi Minh City.",
+    author: "Jesse Sutton",
+    title: "A Deep Dive into Local Culture",
+    rating: 4.2,
+    date: "2020-12-12"
   },
   {
     id: "testimonial-tour-ho-chi-minh-city-1-3",
-    quote: "My aunt and I agreed this was the best part of our entire trip to Ho Chi Minh City.",
-    author: "Jose Reed",
-    title: "Learned So Much!"
+    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Aaron Rodriguez.",
+    author: "Anna Foster",
+    title: "A Tour That Feels Like a Movie",
+    rating: 4.2,
+    date: "2019-03-25"
   },
   {
     id: "testimonial-tour-ho-chi-minh-city-1-4",
-    quote: "I can't recommend the Natural Beauty Discovery enough. Amanda Stewart was phenomenal, and the experience was worth every penny.",
-    author: "Samantha Wallace",
-    title: "We’ll Never Forget This"
+    quote: "We’ll be recommending the Natural Beauty Discovery to all our friends. Aaron Rodriguez made it that special.",
+    author: "Jacob Griffin",
+    title: "Absolutely Fantastic!",
+    rating: 3.5,
+    date: "2022-11-23"
   },
   {
     id: "testimonial-tour-ho-chi-minh-city-1-5",
-    quote: "What a fantastic way to start our stay in Ho Chi Minh City. Amanda Stewart gave us a great foundation for exploring more on our own.",
-    author: "Raymond Parker",
-    title: "Where Magic Meets Cobblestone"
+    quote: "Aaron Rodriguez was incredibly accommodating and answered every question with patience and detail.",
+    author: "Abigail Jackson",
+    title: "Got Lost (on Purpose) with {GUIDE_NAME}",
+    rating: 4.5,
+    date: "2017-01-24"
   },
   {
     id: "testimonial-tour-ho-chi-minh-city-1-6",
-    quote: "Such a memorable way to explore Ho Chi Minh City. The mix of history, local culture, and stories was perfect.",
-    author: "Lawrence Price",
-    title: "Insider's Perspective"
+    quote: "I wasn’t expecting to enjoy this tour so much, but Aaron Rodriguez made it the highlight of our trip.",
+    author: "Bella Mason",
+    title: "Bought the T-Shirt, Took the Tour, Loved It",
+    rating: 4.7,
+    date: "2020-10-01"
   },
   {
     id: "testimonial-tour-ho-chi-minh-city-1-7",
-    quote: "My son and I didn’t want the tour to end. Amanda Stewart is that engaging and informative.",
-    author: "Mason Mason",
-    title: "Entertaining and Educational"
+    quote: "Even the locals in our group said they learned something new. That says a lot about Aaron Rodriguez's depth.",
+    author: "Louis Wood",
+    title: "Memorable from the First Step",
+    rating: 4,
+    date: "2017-03-13"
   },
   {
     id: "testimonial-tour-ho-chi-minh-city-1-8",
-    quote: "This tour was absolutely amazing! Amanda Stewart knew everything about Ho Chi Minh City and showed us places we would have never found on our own.",
-    author: "Elizabeth Hawkins",
-    title: "Felt Like a Character in a Fairytale"
+    quote: "This tour was absolutely amazing! Aaron Rodriguez knew everything about Ho Chi Minh City and showed us places we would have never found on our own.",
+    author: "Jason Williams",
+    title: "Hidden Gems of Ho Chi Minh City",
+    rating: 4.6,
+    date: "2021-12-03"
   },
   {
     id: "testimonial-tour-ho-chi-minh-city-1-9",
-    quote: "I've been on many tours, but this one stands out. Amanda Stewart was passionate, knowledgeable, and made everyone feel welcome.",
-    author: "Amy Gonzalez",
-    title: "Felt Like a Character in a Fairytale"
+    quote: "Aaron Rodriguez was incredibly accommodating and answered every question with patience and detail.",
+    author: "Carol Jones",
+    title: "Worth Every Penny",
+    rating: 4,
+    date: "2017-12-28"
   },
   {
     id: "testimonial-tour-ho-chi-minh-city-1-10",
-    quote: "Absolutely worth it. Amanda Stewart took care of everything so we could just relax and enjoy Ho Chi Minh City.",
-    author: "Barbara Carpenter",
-    title: "Whispers of the Past, Echoes of Joy"
+    quote: "If you only have time for one activity in Ho Chi Minh City, make it the Natural Beauty Discovery. You won’t regret it.",
+    author: "Aaliyah Bennett",
+    title: "A Perfect Day in Ho Chi Minh City",
+    rating: 4.1,
+    date: "2023-09-08"
   },
   {
     id: "testimonial-tour-ho-chi-minh-city-1-11",
-    quote: "The pace was perfect, the content was rich, and Amanda Stewart made every stop memorable.",
-    author: "Deborah Nguyen",
-    title: "The Walking Was Free—The Laughs Were Priceless"
+    quote: "I can't recommend the Natural Beauty Discovery enough. Aaron Rodriguez was phenomenal, and the experience was worth every penny.",
+    author: "Lisa Stewart",
+    title: "A Journey Through Ho Chi Minh City's Hidden Treasures",
+    rating: 3.8,
+    date: "2017-03-22"
   },
   {
     id: "testimonial-tour-ho-chi-minh-city-1-12",
-    quote: "Even our teens were engaged the entire time — Amanda Stewart knows how to captivate a group!",
-    author: "Gregory Wood",
-    title: "So Glad We Did This"
-  },
-  {
-    id: "testimonial-tour-ho-chi-minh-city-1-13",
-    quote: "We loved every minute of the Natural Beauty Discovery. Amanda Stewart's local tips were priceless.",
-    author: "Larry Parker",
-    title: "So Much More Than Expected"
-  },
-  {
-    id: "testimonial-tour-ho-chi-minh-city-1-14",
-    quote: "From start to finish, the experience felt curated and special. Hats off to Amanda Stewart.",
-    author: "Zachary Stewart",
-    title: "Insider's Perspective"
-  },
-  {
-    id: "testimonial-tour-ho-chi-minh-city-1-15",
-    quote: "We got so much value from this tour. Amanda Stewart took us to places we would have never discovered on our own.",
-    author: "Jason Foster",
-    title: "Where Magic Meets Cobblestone"
-  },
-  {
-    id: "testimonial-tour-ho-chi-minh-city-1-16",
-    quote: "As a solo traveler, I felt completely comfortable on this tour. Amanda Stewart created a friendly atmosphere from the start.",
-    author: "Lucas Mitchell",
-    title: "A Perfect Day in Ho Chi Minh City"
+    quote: "As a solo traveler, I felt completely comfortable on this tour. Aaron Rodriguez created a friendly atmosphere from the start.",
+    author: "Mia Lawson",
+    title: "Entertaining and Educational",
+    rating: 5,
+    date: "2020-08-20"
   }
 ];

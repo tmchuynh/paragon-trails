@@ -3,86 +3,106 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const outdoorAdventureExperienceTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-santorini-2-1",
-    quote: "I felt like I was being shown around by a friend who knows all the secrets of Santorini.",
-    author: "Elijah Müller",
-    title: "A Day to Remember"
+    quote: "This was not just sightseeing — it was a deep dive into the heart of Santorini thanks to Christine Wood.",
+    author: "Bruce Chen",
+    title: "A Tour That Feels Like a Fairytale",
+    rating: 3.8,
+    date: "2020-08-23"
   },
   {
     id: "testimonial-tour-santorini-2-2",
-    quote: "The stories, the hidden gems, the expert navigation — Jessica Wilson delivered on all fronts.",
-    author: "Priya Graves",
-    title: "Loved Every Minute"
+    quote: "Christine Wood's enthusiasm for Santorini was contagious. We walked away feeling inspired.",
+    author: "Randy Reed",
+    title: "A Hidden Gem of a Tour",
+    rating: 4.4,
+    date: "2024-07-30"
   },
   {
     id: "testimonial-tour-santorini-2-3",
-    quote: "We got so much value from this tour. Jessica Wilson took us to places we would have never discovered on our own.",
-    author: "Rebecca Wright",
-    title: "Felt Like a Character in a Fairytale"
+    quote: "Even the locals in our group said they learned something new. That says a lot about Christine Wood's depth.",
+    author: "Donna Lawson",
+    title: "An Authentic Slice of Santorini",
+    rating: 4.4,
+    date: "2018-10-07"
   },
   {
     id: "testimonial-tour-santorini-2-4",
-    quote: "Absolutely worth it. Jessica Wilson took care of everything so we could just relax and enjoy Santorini.",
-    author: "Elena Morgan",
-    title: "Followed the Guide, Found a Dream"
+    quote: "I felt like I was being shown around by a friend who knows all the secrets of Santorini.",
+    author: "Alexander Griffin",
+    title: "A Journey Through Santorini's History",
+    rating: 4.1,
+    date: "2023-08-27"
   },
   {
     id: "testimonial-tour-santorini-2-5",
-    quote: "My parent and I agreed this was the best part of our entire trip to Santorini.",
-    author: "Johnny Maxwell",
-    title: "Worth Every Penny"
+    quote: "This isn’t your typical tour. Christine Wood makes it feel personal and engaging from the very start.",
+    author: "Joe Miller",
+    title: "A Journey Through Santorini's Secrets",
+    rating: 4.9,
+    date: "2017-01-25"
   },
   {
     id: "testimonial-tour-santorini-2-6",
-    quote: "What an engaging experience! Jessica Wilson kept us laughing and learning throughout the Outdoor Adventure Experience.",
-    author: "Alexa Kowalski",
-    title: "If Cities Had Souls, Santorini Sang to Us"
+    quote: "Thanks to Christine Wood, we discovered parts of Santorini we would have never seen on our own.",
+    author: "Michael Bennett",
+    title: "A Journey Through Santorini's Soul",
+    rating: 4.7,
+    date: "2023-02-03"
   },
   {
     id: "testimonial-tour-santorini-2-7",
-    quote: "We loved every minute of the Outdoor Adventure Experience. Jessica Wilson's local tips were priceless.",
-    author: "Robert Baker",
-    title: "An Unexpected Highlight"
+    quote: "Our family loved every moment of the Outdoor Adventure Experience. Christine Wood even made it fun for our kids.",
+    author: "Zola Ivanov",
+    title: "Memorable from the First Step",
+    rating: 4.5,
+    date: "2017-04-03"
   },
   {
     id: "testimonial-tour-santorini-2-8",
-    quote: "Jessica Wilson shared personal stories that really brought Santorini to life for us. A truly memorable tour.",
-    author: "Elizabeth Keller",
-    title: "Sunlight, Stories, and Serendipity"
+    quote: "Christine Wood shared personal stories that really brought Santorini to life for us. A truly memorable tour.",
+    author: "Adam Hayes",
+    title: "If Cities Had Souls, Santorini Sang to Us",
+    rating: 3.8,
+    date: "2019-12-25"
   },
   {
     id: "testimonial-tour-santorini-2-9",
-    quote: "My colleague and I agreed this was the best part of our entire trip to Santorini.",
-    author: "Joan Brown",
-    title: "Hot, Sweaty, and Absolutely Worth It"
+    quote: "I can't recommend the Outdoor Adventure Experience enough. Christine Wood was phenomenal, and the experience was worth every penny.",
+    author: "Priya Baker",
+    title: "Sunlight, Stories, and Serendipity",
+    rating: 4.4,
+    date: "2023-07-22"
   },
   {
     id: "testimonial-tour-santorini-2-10",
-    quote: "Jessica Wilson is the kind of guide you want to tell your friends about. This was a five-star experience.",
-    author: "Maya Foster",
-    title: "Felt Like a Character in a Fairytale"
+    quote: "This tour exceeded all my expectations. Christine Wood's insider knowledge made our Santorini visit unforgettable.",
+    author: "Zola Gonzalez",
+    title: "A Walk That Will Make You Laugh",
+    rating: 4.2,
+    date: "2018-01-04"
   },
   {
     id: "testimonial-tour-santorini-2-11",
-    quote: "This isn’t your typical tour. Jessica Wilson makes it feel personal and engaging from the very start.",
-    author: "Robert Warren",
-    title: "Cultural Immersion at Its Best"
+    quote: "Christine Wood brought a depth of cultural insight that gave us a new appreciation for Santorini.",
+    author: "Pamela Wells",
+    title: "A Perfect Day in Santorini",
+    rating: 4.8,
+    date: "2022-01-05"
   },
   {
     id: "testimonial-tour-santorini-2-12",
-    quote: "We were blown away by the depth of knowledge and warmth Jessica Wilson brought to the tour.",
-    author: "Steven Sutton",
-    title: "Best Tour in Santorini"
+    quote: "We got so much value from this tour. Christine Wood took us to places we would have never discovered on our own.",
+    author: "Youssef Graham",
+    title: "Got Lost (on Purpose) with {GUIDE_NAME}",
+    rating: 3.9,
+    date: "2022-10-12"
   },
   {
     id: "testimonial-tour-santorini-2-13",
-    quote: "The small group size and personal attention from Jessica Wilson made all the difference.",
-    author: "Billy Wilson",
-    title: "A Deep Dive into Local Culture"
-  },
-  {
-    id: "testimonial-tour-santorini-2-14",
-    quote: "Jessica Wilson's enthusiasm for Santorini was contagious. We walked away feeling inspired.",
-    author: "Ariana Collins",
-    title: "Exceptional Tour Guide"
+    quote: "This tour was absolutely amazing! Christine Wood knew everything about Santorini and showed us places we would have never found on our own.",
+    author: "Julie Coleman",
+    title: "A Journey Through Santorini's Secrets",
+    rating: 4.2,
+    date: "2022-08-25"
   }
 ];

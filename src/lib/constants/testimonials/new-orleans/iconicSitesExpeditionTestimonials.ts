@@ -3,56 +3,74 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const iconicSitesExpeditionTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-new-orleans-5-1",
-    quote: "The Iconic Sites Expedition completely changed how I see New Orleans. Isabella Griffin's insights were invaluable.",
-    author: "Adeline Morales",
-    title: "Got Lost (on Purpose) with {GUIDE_NAME}"
+    quote: "If you only have time for one activity in New Orleans, make it the Iconic Sites Expedition. You won’t regret it.",
+    author: "Amina Palmer",
+    title: "Hidden Gems of New Orleans",
+    rating: 4.4,
+    date: "2017-06-03"
   },
   {
     id: "testimonial-tour-new-orleans-5-2",
-    quote: "The Iconic Sites Expedition was the highlight of our trip to New Orleans. Isabella Griffin took us to all the best spots and shared fascinating stories.",
-    author: "Eleanor Dean",
-    title: "Wandered Far, Wondered More"
+    quote: "The Iconic Sites Expedition was the highlight of our trip to New Orleans. Louis Kowalski took us to all the best spots and shared fascinating stories.",
+    author: "Wei Lee",
+    title: "Top-Notch Guiding",
+    rating: 4.8,
+    date: "2024-07-26"
   },
   {
     id: "testimonial-tour-new-orleans-5-3",
-    quote: "I wasn’t expecting to enjoy this tour so much, but Isabella Griffin made it the highlight of our trip.",
-    author: "Riley Ivanov",
-    title: "Insider's Perspective"
+    quote: "This tour gave us a much deeper connection to New Orleans. Louis Kowalski's passion really shines through.",
+    author: "Eleanor Graves",
+    title: "A Walk That Will Make You Feel Alive",
+    rating: 3.9,
+    date: "2019-04-15"
   },
   {
     id: "testimonial-tour-new-orleans-5-4",
-    quote: "We had limited time in New Orleans, and this tour made sure we saw the best of it. Isabella Griffin was amazing.",
-    author: "Jonathan Johnson",
-    title: "Would Follow This Guide Into Battle"
+    quote: "So much fun, and so informative! Louis Kowalski's enthusiasm is contagious.",
+    author: "Sarah Williams",
+    title: "A Walk That Will Make You Smile",
+    rating: 4.3,
+    date: "2023-07-17"
   },
   {
     id: "testimonial-tour-new-orleans-5-5",
-    quote: "Our family loved every moment of the Iconic Sites Expedition. Isabella Griffin even made it fun for our kids.",
-    author: "Luis Parker",
-    title: "Hot, Sweaty, and Absolutely Worth It"
+    quote: "If you only have time for one activity in New Orleans, make it the Iconic Sites Expedition. You won’t regret it.",
+    author: "Tyler Russell",
+    title: "Sunlight, Stories, and Serendipity",
+    rating: 4.5,
+    date: "2018-07-07"
   },
   {
     id: "testimonial-tour-new-orleans-5-6",
-    quote: "I thought I knew New Orleans, but this tour proved otherwise. Isabella Griffin showed us a side we’d never seen.",
-    author: "Joshua Hayes",
-    title: "Well Worth Your Time"
+    quote: "We joined the Iconic Sites Expedition on our first day in New Orleans, and it set the tone for a fantastic trip.",
+    author: "Evelyn Montgomery",
+    title: "Insider's Perspective",
+    rating: 3.9,
+    date: "2023-10-13"
   },
   {
     id: "testimonial-tour-new-orleans-5-7",
-    quote: "From start to finish, the experience felt curated and special. Hats off to Isabella Griffin.",
-    author: "Gregory Dunn",
-    title: "A New Favorite Memory"
+    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Louis Kowalski.",
+    author: "Patricia Dunn",
+    title: "Hot, Sweaty, and Absolutely Worth It",
+    rating: 4.5,
+    date: "2023-09-30"
   },
   {
     id: "testimonial-tour-new-orleans-5-8",
-    quote: "Isabella Griffin made learning about New Orleans's history genuinely exciting — not an easy task!",
-    author: "Aaliyah Johnson",
-    title: "Brought New Orleans to Life"
+    quote: "Louis Kowalski went above and beyond to make sure everyone had a great time on the Iconic Sites Expedition.",
+    author: "Amy Silva",
+    title: "Whispers of the Past, Echoes of Joy",
+    rating: 3.8,
+    date: "2025-03-16"
   },
   {
     id: "testimonial-tour-new-orleans-5-9",
-    quote: "This tour was absolutely amazing! Isabella Griffin knew everything about New Orleans and showed us places we would have never found on our own.",
-    author: "Jennifer Hernandez",
-    title: "Hot, Sweaty, and Absolutely Worth It"
+    quote: "My classmate and I had the best time on this tour. Louis Kowalski's knowledge of New Orleans made it so much more special.",
+    author: "Kennedy Baker",
+    title: "A Tour to Remember",
+    rating: 4.4,
+    date: "2020-09-09"
   }
 ];

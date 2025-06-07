@@ -3,92 +3,90 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const healthWellnessDiscoveryTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-cartagena-1-1",
-    quote: "We booked last-minute and are so glad we did. Ella Jansen made it one of our favorite memories from Cartagena.",
-    author: "Joe Watson",
-    title: "Worth Every Penny"
+    quote: "This was more than just sightseeing — it was an unforgettable journey through Cartagena's culture and history.",
+    author: "Joel Crawford",
+    title: "Hidden Gems of Cartagena",
+    rating: 3.8,
+    date: "2018-01-09"
   },
   {
     id: "testimonial-tour-cartagena-1-2",
-    quote: "This was not just sightseeing — it was a deep dive into the heart of Cartagena thanks to Ella Jansen.",
-    author: "Diego Anderson",
-    title: "Best Decision of Our Trip"
+    quote: "Ashley Moore is the kind of guide you want to tell your friends about. This was a five-star experience.",
+    author: "Evelyn King",
+    title: "Highlight of Our Trip",
+    rating: 4.1,
+    date: "2023-05-31"
   },
   {
     id: "testimonial-tour-cartagena-1-3",
-    quote: "From beginning to end, the Health & Wellness Discovery was seamless and so well organized.",
-    author: "Eleanor Collins",
-    title: "Insider's Perspective"
+    quote: "This isn’t your typical tour. Ashley Moore makes it feel personal and engaging from the very start.",
+    author: "Ellie Reeves",
+    title: "A Walk That Will Make You Think",
+    rating: 3.7,
+    date: "2019-12-30"
   },
   {
     id: "testimonial-tour-cartagena-1-4",
-    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Ella Jansen.",
-    author: "Ibrahim Gonzalez",
-    title: "Lost in Time—in the Best Way"
+    quote: "Even the locals in our group said they learned something new. That says a lot about Ashley Moore's depth.",
+    author: "Sarah Graves",
+    title: "Local Experience Made Easy",
+    rating: 4.4,
+    date: "2023-11-26"
   },
   {
     id: "testimonial-tour-cartagena-1-5",
-    quote: "We left the Health & Wellness Discovery feeling more connected to Cartagena than we ever expected.",
-    author: "Rebecca Foster",
-    title: "We’ll Never Forget This"
+    quote: "If you're visiting Cartagena, the Health & Wellness Discovery is a must! Ashley Moore made the history come alive in a way guidebooks never could.",
+    author: "William Jennings",
+    title: "A Journey Through Cartagena's Wonders",
+    rating: 4.3,
+    date: "2018-10-18"
   },
   {
     id: "testimonial-tour-cartagena-1-6",
-    quote: "What a fantastic way to start our stay in Cartagena. Ella Jansen gave us a great foundation for exploring more on our own.",
-    author: "William Hunter",
-    title: "Hidden Gems of Cartagena"
+    quote: "So much fun, and so informative! Ashley Moore's enthusiasm is contagious.",
+    author: "Patricia Gardner",
+    title: "A Tour Even My Teenager Liked",
+    rating: 4.8,
+    date: "2024-03-14"
   },
   {
     id: "testimonial-tour-cartagena-1-7",
-    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Ella Jansen.",
-    author: "Gregory Warren",
-    title: "Absolutely Fantastic!"
+    quote: "Ashley Moore is the kind of guide you want to tell your friends about. This was a five-star experience.",
+    author: "Brian Brooks",
+    title: "Memorable from the First Step",
+    rating: 4.6,
+    date: "2023-01-01"
   },
   {
     id: "testimonial-tour-cartagena-1-8",
-    quote: "We’ll be recommending the Health & Wellness Discovery to all our friends. Ella Jansen made it that special.",
-    author: "Justin Dunn",
-    title: "Cultural Immersion at Its Best"
+    quote: "This tour is a hidden gem — just like the spots Ashley Moore showed us around Cartagena.",
+    author: "Steven Sutton",
+    title: "Fascinating and Fun",
+    rating: 3.8,
+    date: "2019-10-06"
   },
   {
     id: "testimonial-tour-cartagena-1-9",
-    quote: "As a solo traveler, I felt completely comfortable on this tour. Ella Jansen created a friendly atmosphere from the start.",
-    author: "Caroline Henderson",
-    title: "Don't Miss This Tour!"
+    quote: "Even the locals in our group said they learned something new. That says a lot about Ashley Moore's depth.",
+    author: "Wei Dixon",
+    title: "Learned So Much!",
+    rating: 4.7,
+    date: "2023-01-13"
   },
   {
     id: "testimonial-tour-cartagena-1-10",
-    quote: "The Health & Wellness Discovery was both entertaining and educational. Ella Jansen has a gift for storytelling that brings Cartagena's history to life.",
-    author: "Arthur Young",
-    title: "Sunlight, Stories, and Serendipity"
+    quote: "We got so much value from this tour. Ashley Moore took us to places we would have never discovered on our own.",
+    author: "Ava Mitchell",
+    title: "A Walk That Will Make You Appreciate Cartagena More",
+    rating: 3.6,
+    date: "2023-12-18"
   },
   {
     id: "testimonial-tour-cartagena-1-11",
-    quote: "We were blown away by the depth of knowledge and warmth Ella Jansen brought to the tour.",
-    author: "Nora Davis",
-    title: "History, Snacks, and Laughs—Yes Please!"
-  },
-  {
-    id: "testimonial-tour-cartagena-1-12",
-    quote: "We had limited time in Cartagena, and this tour made sure we saw the best of it. Ella Jansen was amazing.",
-    author: "Kenneth Hamilton",
-    title: "A Unique Way to Explore Cartagena"
-  },
-  {
-    id: "testimonial-tour-cartagena-1-13",
-    quote: "This was more than just sightseeing — it was an unforgettable journey through Cartagena's culture and history.",
-    author: "Nicholas Hamilton",
-    title: "Memorable from the First Step"
-  },
-  {
-    id: "testimonial-tour-cartagena-1-14",
-    quote: "As someone who's been to Cartagena before, I was surprised at how much I learned on the Health & Wellness Discovery. Ella Jansen is a treasure trove of information!",
-    author: "Catherine Ali",
-    title: "A Tour Even My Teenager Liked"
-  },
-  {
-    id: "testimonial-tour-cartagena-1-15",
-    quote: "We loved every minute of the Health & Wellness Discovery. Ella Jansen's local tips were priceless.",
-    author: "Bobby Wang",
-    title: "Got Lost (on Purpose) with {GUIDE_NAME}"
+    quote: "This tour gave us a much deeper connection to Cartagena. Ashley Moore's passion really shines through.",
+    author: "Jeffrey Cooper",
+    title: "A Journey Through Cartagena's Secrets",
+    rating: 4.2,
+    date: "2021-08-26"
   }
 ];

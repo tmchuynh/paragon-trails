@@ -3,74 +3,66 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const outdoorAdventureExperienceTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-cartagena-7-1",
-    quote: "I thought I knew Cartagena, but this tour proved otherwise. Nancy Palmer showed us a side we’d never seen.",
-    author: "Madelyn Dubois",
-    title: "Lost in Time—in the Best Way"
+    quote: "I've been on many tours, but this one stands out. Chen Hall was passionate, knowledgeable, and made everyone feel welcome.",
+    author: "Melissa Hall",
+    title: "Lost in Time—in the Best Way",
+    rating: 4.4,
+    date: "2017-08-28"
   },
   {
     id: "testimonial-tour-cartagena-7-2",
-    quote: "I can't recommend the Outdoor Adventure Experience enough. Nancy Palmer was phenomenal, and the experience was worth every penny.",
-    author: "Marcus Williams",
-    title: "A Tour Even My Teenager Liked"
+    quote: "This isn’t your typical tour. Chen Hall makes it feel personal and engaging from the very start.",
+    author: "Kyle Young",
+    title: "A Stroll Through a Living Storybook",
+    rating: 5,
+    date: "2019-01-02"
   },
   {
     id: "testimonial-tour-cartagena-7-3",
-    quote: "What a fantastic way to start our stay in Cartagena. Nancy Palmer gave us a great foundation for exploring more on our own.",
-    author: "Alexander Douglas",
-    title: "Beyond Our Expectations"
+    quote: "Our family loved every moment of the Outdoor Adventure Experience. Chen Hall even made it fun for our kids.",
+    author: "George Grant",
+    title: "A Walk That Changed Everything",
+    rating: 3.6,
+    date: "2025-02-19"
   },
   {
     id: "testimonial-tour-cartagena-7-4",
-    quote: "The Outdoor Adventure Experience was the highlight of our trip to Cartagena. Nancy Palmer took us to all the best spots and shared fascinating stories.",
-    author: "Wayne Hawkins",
-    title: "Impressive and Informative"
+    quote: "A truly authentic experience! Chen Hall showed us the real Cartagena, not just the tourist spots.",
+    author: "Diego Nguyen",
+    title: "A Journey Through Cartagena's Soul",
+    rating: 4.8,
+    date: "2019-05-26"
   },
   {
     id: "testimonial-tour-cartagena-7-5",
-    quote: "Absolutely worth it. Nancy Palmer took care of everything so we could just relax and enjoy Cartagena.",
-    author: "Samantha Smith",
-    title: "Local Experience Made Easy"
+    quote: "Absolutely worth it. Chen Hall took care of everything so we could just relax and enjoy Cartagena.",
+    author: "Brooklyn Taylor",
+    title: "Best Decision of Our Trip",
+    rating: 4.2,
+    date: "2017-06-06"
   },
   {
     id: "testimonial-tour-cartagena-7-6",
-    quote: "The small group size and personal attention from Nancy Palmer made all the difference.",
-    author: "Tyler Edwards",
-    title: "Don't Miss This Tour!"
+    quote: "We joined the Outdoor Adventure Experience on our first day in Cartagena, and it set the tone for a fantastic trip.",
+    author: "Richard Fox",
+    title: "An Unexpected Highlight",
+    rating: 4.4,
+    date: "2019-09-14"
   },
   {
     id: "testimonial-tour-cartagena-7-7",
-    quote: "Nancy Palmer brought a depth of cultural insight that gave us a new appreciation for Cartagena.",
-    author: "Savannah Reed",
-    title: "Well Worth Your Time"
+    quote: "Chen Hall is the kind of guide you want to tell your friends about. This was a five-star experience.",
+    author: "Scarlett Smith",
+    title: "Insider's Perspective",
+    rating: 4.2,
+    date: "2022-12-08"
   },
   {
     id: "testimonial-tour-cartagena-7-8",
-    quote: "What an engaging experience! Nancy Palmer kept us laughing and learning throughout the Outdoor Adventure Experience.",
-    author: "Ahmed Bennett",
-    title: "A Deep Dive into Local Culture"
-  },
-  {
-    id: "testimonial-tour-cartagena-7-9",
-    quote: "This tour is a hidden gem — just like the spots Nancy Palmer showed us around Cartagena.",
-    author: "Lily Wallace",
-    title: "A Stroll Through a Living Storybook"
-  },
-  {
-    id: "testimonial-tour-cartagena-7-10",
-    quote: "Nancy Palmer brought a depth of cultural insight that gave us a new appreciation for Cartagena.",
-    author: "Janet Fox",
-    title: "Hidden Gems of Cartagena"
-  },
-  {
-    id: "testimonial-tour-cartagena-7-11",
-    quote: "Nancy Palmer's enthusiasm for Cartagena was contagious. We walked away feeling inspired.",
-    author: "Brooklyn Thomas",
-    title: "Insider's Perspective"
-  },
-  {
-    id: "testimonial-tour-cartagena-7-12",
-    quote: "From beginning to end, the Outdoor Adventure Experience was seamless and so well organized.",
-    author: "Amelia Dean",
-    title: "Bought the T-Shirt, Took the Tour, Loved It"
+    quote: "I can't recommend the Outdoor Adventure Experience enough. Chen Hall was phenomenal, and the experience was worth every penny.",
+    author: "Valentina Knight",
+    title: "Don't Miss This Tour!",
+    rating: 4.8,
+    date: "2023-08-08"
   }
 ];

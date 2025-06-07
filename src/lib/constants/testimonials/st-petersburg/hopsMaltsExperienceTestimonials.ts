@@ -3,80 +3,82 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const hopsMaltsExperienceTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-st-petersburg-4-1",
-    quote: "Our family loved every moment of the Hops & Malts Experience. Evelyn Russell even made it fun for our kids.",
-    author: "Lucas Harris",
-    title: "An Unexpected Highlight"
+    quote: "From start to finish, the experience felt curated and special. Hats off to Lucas Warren.",
+    author: "Amina Lewis",
+    title: "A Perfect Day in St Petersburg",
+    rating: 3.9,
+    date: "2025-03-16"
   },
   {
     id: "testimonial-tour-st-petersburg-4-2",
-    quote: "The Hops & Malts Experience was the highlight of our trip to St Petersburg. Evelyn Russell took us to all the best spots and shared fascinating stories.",
-    author: "Johnny Johnson",
-    title: "Whispers of the Past, Echoes of Joy"
+    quote: "This isn’t your typical tour. Lucas Warren makes it feel personal and engaging from the very start.",
+    author: "Stephen Douglas",
+    title: "A New Favorite Memory",
+    rating: 3.6,
+    date: "2021-06-28"
   },
   {
     id: "testimonial-tour-st-petersburg-4-3",
-    quote: "I wasn’t expecting to enjoy this tour so much, but Evelyn Russell made it the highlight of our trip.",
-    author: "Samuel Harper",
-    title: "Highly Recommend to Everyone"
+    quote: "Even the locals in our group said they learned something new. That says a lot about Lucas Warren's depth.",
+    author: "Elizabeth Gibson",
+    title: "Truly Eye-Opening",
+    rating: 4.7,
+    date: "2023-08-02"
   },
   {
     id: "testimonial-tour-st-petersburg-4-4",
-    quote: "The Hops & Malts Experience was the highlight of our trip to St Petersburg. Evelyn Russell took us to all the best spots and shared fascinating stories.",
-    author: "Alice Keller",
-    title: "Brought St Petersburg to Life"
+    quote: "A truly authentic experience! Lucas Warren showed us the real St Petersburg, not just the tourist spots.",
+    author: "Vincent Campbell",
+    title: "Hidden Gems of St Petersburg",
+    rating: 4.6,
+    date: "2020-10-24"
   },
   {
     id: "testimonial-tour-st-petersburg-4-5",
-    quote: "We got so much value from this tour. Evelyn Russell took us to places we would have never discovered on our own.",
-    author: "Carol West",
-    title: "A Must-Do in St Petersburg"
+    quote: "Lucas Warren brought a depth of cultural insight that gave us a new appreciation for St Petersburg.",
+    author: "Priya Reed",
+    title: "Insider's Perspective",
+    rating: 4.2,
+    date: "2019-10-27"
   },
   {
     id: "testimonial-tour-st-petersburg-4-6",
-    quote: "This tour was absolutely amazing! Evelyn Russell knew everything about St Petersburg and showed us places we would have never found on our own.",
-    author: "Katherine Müller",
-    title: "Brought St Petersburg to Life"
+    quote: "We’ll be recommending the Hops & Malts Experience to all our friends. Lucas Warren made it that special.",
+    author: "Donna Young",
+    title: "More Enchanting Than Expected",
+    rating: 4.2,
+    date: "2020-03-07"
   },
   {
     id: "testimonial-tour-st-petersburg-4-7",
-    quote: "This tour gave us a much deeper connection to St Petersburg. Evelyn Russell's passion really shines through.",
-    author: "Robert Harris",
-    title: "Cultural Immersion at Its Best"
+    quote: "Thanks to Lucas Warren, we discovered parts of St Petersburg we would have never seen on our own.",
+    author: "William Wright",
+    title: "Learned So Much!",
+    rating: 4.6,
+    date: "2021-06-27"
   },
   {
     id: "testimonial-tour-st-petersburg-4-8",
-    quote: "We joined the Hops & Malts Experience on our first day in St Petersburg, and it set the tone for a fantastic trip.",
-    author: "Maria Foster",
-    title: "Exceptional Tour Guide"
+    quote: "It felt like a private tour, even though we were with a group. Lucas Warren is incredibly engaging.",
+    author: "Jessica Wells",
+    title: "A Walk That Will Make You Laugh",
+    rating: 3.9,
+    date: "2024-11-25"
   },
   {
     id: "testimonial-tour-st-petersburg-4-9",
-    quote: "Thanks to Evelyn Russell, we discovered parts of St Petersburg we would have never seen on our own.",
-    author: "Juan Cooper",
-    title: "Beyond Our Expectations"
+    quote: "I’ve taken dozens of tours in different countries. Lucas Warren ranks among the very best.",
+    author: "Eleanor Wright",
+    title: "Lost in Time—in the Best Way",
+    rating: 3.8,
+    date: "2017-01-24"
   },
   {
     id: "testimonial-tour-st-petersburg-4-10",
-    quote: "This was more than just sightseeing — it was an unforgettable journey through St Petersburg's culture and history.",
-    author: "Olivia Dubois",
-    title: "A Deep Dive into Local Culture"
-  },
-  {
-    id: "testimonial-tour-st-petersburg-4-11",
-    quote: "Even our teens were engaged the entire time — Evelyn Russell knows how to captivate a group!",
-    author: "Leah Silva",
-    title: "A Tour Even My Teenager Liked"
-  },
-  {
-    id: "testimonial-tour-st-petersburg-4-12",
-    quote: "This was not just sightseeing — it was a deep dive into the heart of St Petersburg thanks to Evelyn Russell.",
-    author: "Nicholas Sutton",
-    title: "History Comes Alive"
-  },
-  {
-    id: "testimonial-tour-st-petersburg-4-13",
-    quote: "This tour exceeded all my expectations. Evelyn Russell's insider knowledge made our St Petersburg visit unforgettable.",
-    author: "Claire Sutton",
-    title: "Fun, Friendly, and Full of Insight"
+    quote: "The Hops & Malts Experience was the highlight of our trip to St Petersburg. Lucas Warren took us to all the best spots and shared fascinating stories.",
+    author: "Avery Williams",
+    title: "A Tour to Remember",
+    rating: 3.5,
+    date: "2017-05-17"
   }
 ];

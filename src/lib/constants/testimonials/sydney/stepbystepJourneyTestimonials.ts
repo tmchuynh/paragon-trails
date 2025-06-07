@@ -3,86 +3,74 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const stepbystepJourneyTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-sydney-4-1",
-    quote: "Even our teens were engaged the entire time — Dorothy Williams knows how to captivate a group!",
-    author: "Benjamin Gonzalez",
-    title: "Truly Eye-Opening"
+    quote: "Juan Nakamura is the kind of guide you want to tell your friends about. This was a five-star experience.",
+    author: "Eugene Wilson",
+    title: "Local Experience Made Easy",
+    rating: 3.8,
+    date: "2023-09-20"
   },
   {
     id: "testimonial-tour-sydney-4-2",
-    quote: "The Step-by-Step Journey completely changed how I see Sydney. Dorothy Williams's insights were invaluable.",
-    author: "Carlos Wallace",
-    title: "Best Tour in Sydney"
+    quote: "I was nervous about joining a group tour, but Juan Nakamura made everyone feel like part of the crew.",
+    author: "Maria Nguyen",
+    title: "Bought the T-Shirt, Took the Tour, Loved It",
+    rating: 4.2,
+    date: "2022-01-19"
   },
   {
     id: "testimonial-tour-sydney-4-3",
-    quote: "Even the locals in our group said they learned something new. That says a lot about Dorothy Williams's depth.",
-    author: "Mateo Chen",
-    title: "Learned So Much!"
+    quote: "If you only have time for one activity in Sydney, make it the Step-by-Step Journey. You won’t regret it.",
+    author: "Caroline Nguyen",
+    title: "A Perfect Day in Sydney",
+    rating: 4.9,
+    date: "2023-03-08"
   },
   {
     id: "testimonial-tour-sydney-4-4",
-    quote: "Absolutely worth it. Dorothy Williams took care of everything so we could just relax and enjoy Sydney.",
-    author: "Vincent Fisher",
-    title: "Learned So Much!"
+    quote: "The pace was perfect, the content was rich, and Juan Nakamura made every stop memorable.",
+    author: "Rebecca Williams",
+    title: "A Journey Through Sydney's Charm",
+    rating: 4.2,
+    date: "2025-03-12"
   },
   {
     id: "testimonial-tour-sydney-4-5",
-    quote: "I can't recommend the Step-by-Step Journey enough. Dorothy Williams was phenomenal, and the experience was worth every penny.",
-    author: "Austin Holloway",
-    title: "Highly Recommend to Everyone"
+    quote: "We’ll be recommending the Step-by-Step Journey to all our friends. Juan Nakamura made it that special.",
+    author: "Patrick Garcia",
+    title: "Felt Like a Character in a Fairytale",
+    rating: 4.7,
+    date: "2022-06-04"
   },
   {
     id: "testimonial-tour-sydney-4-6",
-    quote: "This tour is a hidden gem — just like the spots Dorothy Williams showed us around Sydney.",
-    author: "Ali King",
-    title: "Hidden Gems of Sydney"
+    quote: "I felt like I was being shown around by a friend who knows all the secrets of Sydney.",
+    author: "Savannah Cooper",
+    title: "A Journey Through Sydney's Charm",
+    rating: 3.6,
+    date: "2017-06-07"
   },
   {
     id: "testimonial-tour-sydney-4-7",
-    quote: "Thanks to Dorothy Williams, we discovered parts of Sydney we would have never seen on our own.",
-    author: "Linda Day",
-    title: "Where Magic Meets Cobblestone"
+    quote: "What a fantastic way to start our stay in Sydney. Juan Nakamura gave us a great foundation for exploring more on our own.",
+    author: "Dorothy Nash",
+    title: "A Tour That Feels Like a Movie",
+    rating: 4.3,
+    date: "2020-12-15"
   },
   {
     id: "testimonial-tour-sydney-4-8",
-    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Dorothy Williams!",
-    author: "Maria Campbell",
-    title: "Got Lost (on Purpose) with {GUIDE_NAME}"
+    quote: "Even our teens were engaged the entire time — Juan Nakamura knows how to captivate a group!",
+    author: "Sophia Jennings",
+    title: "Fun, Friendly, and Full of Insight",
+    rating: 4.4,
+    date: "2021-10-02"
   },
   {
     id: "testimonial-tour-sydney-4-9",
-    quote: "This tour exceeded all my expectations. Dorothy Williams's insider knowledge made our Sydney visit unforgettable.",
-    author: "Genesis Hernandez",
-    title: "Incredible from Start to Finish"
-  },
-  {
-    id: "testimonial-tour-sydney-4-10",
-    quote: "The small group size and personal attention from Dorothy Williams made all the difference.",
-    author: "Mark Dean",
-    title: "Highly Recommend to Everyone"
-  },
-  {
-    id: "testimonial-tour-sydney-4-11",
-    quote: "The Step-by-Step Journey was the highlight of our trip to Sydney. Dorothy Williams took us to all the best spots and shared fascinating stories.",
-    author: "Dorothy Foster",
-    title: "Hot, Sweaty, and Absolutely Worth It"
-  },
-  {
-    id: "testimonial-tour-sydney-4-12",
-    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Dorothy Williams!",
-    author: "Victoria Porter",
-    title: "Exceptional Tour Guide"
-  },
-  {
-    id: "testimonial-tour-sydney-4-13",
-    quote: "The pace was perfect, the content was rich, and Dorothy Williams made every stop memorable.",
-    author: "Gerald Montgomery",
-    title: "Fun, Friendly, and Full of Insight"
-  },
-  {
-    id: "testimonial-tour-sydney-4-14",
-    quote: "We left the Step-by-Step Journey feeling more connected to Sydney than we ever expected.",
-    author: "Victor Brooks",
-    title: "Unforgettable Experience"
+    quote: "I wasn’t expecting to enjoy this tour so much, but Juan Nakamura made it the highlight of our trip.",
+    author: "Ashley Stewart",
+    title: "Learned So Much!",
+    rating: 4.3,
+    date: "2021-03-20"
   }
 ];

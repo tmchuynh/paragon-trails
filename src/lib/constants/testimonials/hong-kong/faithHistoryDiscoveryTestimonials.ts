@@ -3,104 +3,98 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const faithHistoryDiscoveryTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-hong-kong-5-1",
-    quote: "If you only have time for one activity in Hong Kong, make it the Faith & History Discovery. You won’t regret it.",
-    author: "Scarlett Carpenter",
-    title: "Don't Miss This Tour!"
+    quote: "I can't recommend the Faith & History Discovery enough. Cynthia Miller was phenomenal, and the experience was worth every penny.",
+    author: "Scarlett Suzuki",
+    title: "An Authentic Slice of Hong Kong",
+    rating: 4.4,
+    date: "2024-07-16"
   },
   {
     id: "testimonial-tour-hong-kong-5-2",
-    quote: "I can't recommend the Faith & History Discovery enough. Valentina Lewis was phenomenal, and the experience was worth every penny.",
-    author: "Alexa Kim",
-    title: "Sunlight, Stories, and Serendipity"
+    quote: "Even our teens were engaged the entire time — Cynthia Miller knows how to captivate a group!",
+    author: "Noah Hayes",
+    title: "Loved Every Minute",
+    rating: 4.4,
+    date: "2024-07-23"
   },
   {
     id: "testimonial-tour-hong-kong-5-3",
-    quote: "This isn’t your typical tour. Valentina Lewis makes it feel personal and engaging from the very start.",
-    author: "Thandiwe Curtis",
-    title: "So Glad We Did This"
+    quote: "We’ll be recommending the Faith & History Discovery to all our friends. Cynthia Miller made it that special.",
+    author: "Juan Jackson",
+    title: "Beyond Our Expectations",
+    rating: 4.8,
+    date: "2020-04-06"
   },
   {
     id: "testimonial-tour-hong-kong-5-4",
-    quote: "The Faith & History Discovery was both entertaining and educational. Valentina Lewis has a gift for storytelling that brings Hong Kong's history to life.",
-    author: "Anna Young",
-    title: "The Best Way to See Hong Kong"
+    quote: "Cynthia Miller made learning about Hong Kong's history genuinely exciting — not an easy task!",
+    author: "Benjamin Kim",
+    title: "More Enchanting Than Expected",
+    rating: 3.9,
+    date: "2023-12-28"
   },
   {
     id: "testimonial-tour-hong-kong-5-5",
-    quote: "Thanks to Valentina Lewis, we discovered parts of Hong Kong we would have never seen on our own.",
-    author: "Evelyn Hayes",
-    title: "Impressive and Informative"
+    quote: "This tour was absolutely amazing! Cynthia Miller knew everything about Hong Kong and showed us places we would have never found on our own.",
+    author: "Jordan Morales",
+    title: "A Walk That Will Make You Fall in Love with Hong Kong",
+    rating: 4.3,
+    date: "2017-04-15"
   },
   {
     id: "testimonial-tour-hong-kong-5-6",
-    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Valentina Lewis!",
-    author: "Patrick Rossi",
-    title: "Highly Recommend to Everyone"
+    quote: "We booked last-minute and are so glad we did. Cynthia Miller made it one of our favorite memories from Hong Kong.",
+    author: "Edward Jackson",
+    title: "A Journey Through Hong Kong's Wonders",
+    rating: 4.7,
+    date: "2025-02-08"
   },
   {
     id: "testimonial-tour-hong-kong-5-7",
-    quote: "So much fun, and so informative! Valentina Lewis's enthusiasm is contagious.",
-    author: "Charlotte Ali",
-    title: "History, Snacks, and Laughs—Yes Please!"
+    quote: "Cynthia Miller was incredibly accommodating and answered every question with patience and detail.",
+    author: "Scott Nakamura",
+    title: "An Authentic Slice of Hong Kong",
+    rating: 4.8,
+    date: "2019-09-14"
   },
   {
     id: "testimonial-tour-hong-kong-5-8",
-    quote: "Valentina Lewis shared personal stories that really brought Hong Kong to life for us. A truly memorable tour.",
-    author: "Sarah Silva",
-    title: "A New Favorite Memory"
+    quote: "From start to finish, the experience felt curated and special. Hats off to Cynthia Miller.",
+    author: "Maria Brown",
+    title: "Well Worth Your Time",
+    rating: 4.8,
+    date: "2024-01-06"
   },
   {
     id: "testimonial-tour-hong-kong-5-9",
-    quote: "Our family loved every moment of the Faith & History Discovery. Valentina Lewis even made it fun for our kids.",
-    author: "Michelle Douglas",
-    title: "Followed the Guide, Found a Dream"
+    quote: "We were blown away by the depth of knowledge and warmth Cynthia Miller brought to the tour.",
+    author: "Michelle Jackson",
+    title: "A Hidden Gem of a Tour",
+    rating: 5,
+    date: "2023-05-31"
   },
   {
     id: "testimonial-tour-hong-kong-5-10",
-    quote: "Such a memorable way to explore Hong Kong. The mix of history, local culture, and stories was perfect.",
-    author: "Madelyn Ellis",
-    title: "Hidden Gems of Hong Kong"
+    quote: "I've been on many tours, but this one stands out. Cynthia Miller was passionate, knowledgeable, and made everyone feel welcome.",
+    author: "Sofia Knight",
+    title: "So Much More Than Expected",
+    rating: 4.4,
+    date: "2024-04-16"
   },
   {
     id: "testimonial-tour-hong-kong-5-11",
-    quote: "The pace was perfect, the content was rich, and Valentina Lewis made every stop memorable.",
-    author: "Douglas Morales",
-    title: "A Perfect Day in Hong Kong"
+    quote: "I felt like I was being shown around by a friend who knows all the secrets of Hong Kong.",
+    author: "Zachary Mason",
+    title: "Absolutely Fantastic!",
+    rating: 3.6,
+    date: "2024-05-08"
   },
   {
     id: "testimonial-tour-hong-kong-5-12",
-    quote: "Absolutely worth it. Valentina Lewis took care of everything so we could just relax and enjoy Hong Kong.",
-    author: "Paul Dixon",
-    title: "A Deep Dive into Local Culture"
-  },
-  {
-    id: "testimonial-tour-hong-kong-5-13",
-    quote: "I've been on many tours, but this one stands out. Valentina Lewis was passionate, knowledgeable, and made everyone feel welcome.",
-    author: "Alice Jones",
-    title: "Lost in Time—in the Best Way"
-  },
-  {
-    id: "testimonial-tour-hong-kong-5-14",
-    quote: "What a fantastic way to start our stay in Hong Kong. Valentina Lewis gave us a great foundation for exploring more on our own.",
-    author: "Maria Gonzalez",
-    title: "Best Decision of Our Trip"
-  },
-  {
-    id: "testimonial-tour-hong-kong-5-15",
-    quote: "This was more than just sightseeing — it was an unforgettable journey through Hong Kong's culture and history.",
-    author: "Anthony Holloway",
-    title: "Well Worth Your Time"
-  },
-  {
-    id: "testimonial-tour-hong-kong-5-16",
-    quote: "Valentina Lewis brought a depth of cultural insight that gave us a new appreciation for Hong Kong.",
-    author: "Noah Chambers",
-    title: "A Must-Do in Hong Kong"
-  },
-  {
-    id: "testimonial-tour-hong-kong-5-17",
-    quote: "As a solo traveler, I felt completely comfortable on this tour. Valentina Lewis created a friendly atmosphere from the start.",
-    author: "Anna Williams",
-    title: "So Much More Than Expected"
+    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Cynthia Miller.",
+    author: "Sebastian Young",
+    title: "The Walking Was Free—The Laughs Were Priceless",
+    rating: 3.5,
+    date: "2020-05-11"
   }
 ];

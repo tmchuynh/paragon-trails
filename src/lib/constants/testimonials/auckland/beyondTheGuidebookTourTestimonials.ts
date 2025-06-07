@@ -3,104 +3,90 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const beyondTheGuidebookTourTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-auckland-1-1",
-    quote: "Highly recommend this tour if you want more than just a photo op — Aisha Russell gives you real insight into Auckland.",
-    author: "Scott Jones",
-    title: "Followed the Guide, Found a Dream"
+    quote: "I can't recommend the Beyond The Guidebook Tour enough. Gregory Wilson was phenomenal, and the experience was worth every penny.",
+    author: "Melissa Hawkins",
+    title: "Impressive and Informative",
+    rating: 4.8,
+    date: "2017-11-16"
   },
   {
     id: "testimonial-tour-auckland-1-2",
-    quote: "This tour was absolutely amazing! Aisha Russell knew everything about Auckland and showed us places we would have never found on our own.",
-    author: "Darrell Ali",
-    title: "Absolutely Fantastic!"
+    quote: "This was not just sightseeing — it was a deep dive into the heart of Auckland thanks to Gregory Wilson.",
+    author: "Olivia Marshall",
+    title: "Highly Recommend to Everyone",
+    rating: 3.7,
+    date: "2024-04-23"
   },
   {
     id: "testimonial-tour-auckland-1-3",
-    quote: "If you're visiting Auckland, the Beyond The Guidebook Tour is a must! Aisha Russell made the history come alive in a way guidebooks never could.",
-    author: "Samantha Baker",
-    title: "Entertaining and Educational"
+    quote: "From start to finish, the experience felt curated and special. Hats off to Gregory Wilson.",
+    author: "Keith Williams",
+    title: "A Journey Through Auckland's Culture",
+    rating: 3.7,
+    date: "2024-09-18"
   },
   {
     id: "testimonial-tour-auckland-1-4",
-    quote: "I wasn’t expecting to enjoy this tour so much, but Aisha Russell made it the highlight of our trip.",
-    author: "Sarah Hudson",
-    title: "The Walking Was Free—The Laughs Were Priceless"
+    quote: "Thanks to Gregory Wilson, we discovered parts of Auckland we would have never seen on our own.",
+    author: "Mei Porter",
+    title: "Highly Recommend to Everyone",
+    rating: 4.6,
+    date: "2017-11-12"
   },
   {
     id: "testimonial-tour-auckland-1-5",
-    quote: "Aisha Russell's enthusiasm for Auckland was contagious. We walked away feeling inspired.",
-    author: "Maya Grant",
-    title: "Impressive and Informative"
+    quote: "This tour was absolutely amazing! Gregory Wilson knew everything about Auckland and showed us places we would have never found on our own.",
+    author: "William Graves",
+    title: "Whispers of the Past, Echoes of Joy",
+    rating: 4,
+    date: "2017-02-13"
   },
   {
     id: "testimonial-tour-auckland-1-6",
-    quote: "My son and I didn’t want the tour to end. Aisha Russell is that engaging and informative.",
-    author: "Lerato Reeves",
-    title: "Would Follow This Guide Into Battle"
+    quote: "We booked last-minute and are so glad we did. Gregory Wilson made it one of our favorite memories from Auckland.",
+    author: "Victor Graves",
+    title: "A Journey Through Auckland's Culture",
+    rating: 4.2,
+    date: "2024-10-26"
   },
   {
     id: "testimonial-tour-auckland-1-7",
-    quote: "I thought I knew Auckland, but this tour proved otherwise. Aisha Russell showed us a side we’d never seen.",
-    author: "Zola Hudson",
-    title: "Absolutely Fantastic!"
+    quote: "Gregory Wilson shared personal stories that really brought Auckland to life for us. A truly memorable tour.",
+    author: "Brian Lee",
+    title: "I Came, I Saw, I Took Too Many Photos",
+    rating: 4.8,
+    date: "2022-12-26"
   },
   {
     id: "testimonial-tour-auckland-1-8",
-    quote: "We were blown away by the depth of knowledge and warmth Aisha Russell brought to the tour.",
-    author: "Jason Thomas",
-    title: "Fascinating and Fun"
+    quote: "Gregory Wilson is the kind of guide you want to tell your friends about. This was a five-star experience.",
+    author: "Oliver Singh",
+    title: "Absolutely Fantastic!",
+    rating: 5,
+    date: "2025-04-03"
   },
   {
     id: "testimonial-tour-auckland-1-9",
-    quote: "We had limited time in Auckland, and this tour made sure we saw the best of it. Aisha Russell was amazing.",
-    author: "Olivia Fletcher",
-    title: "The Best Way to See Auckland"
+    quote: "I've been on many tours, but this one stands out. Gregory Wilson was passionate, knowledgeable, and made everyone feel welcome.",
+    author: "Ibrahim Gibson",
+    title: "A Journey Through Auckland's Soul",
+    rating: 4.5,
+    date: "2024-12-10"
   },
   {
     id: "testimonial-tour-auckland-1-10",
-    quote: "We’ll be recommending the Beyond The Guidebook Tour to all our friends. Aisha Russell made it that special.",
-    author: "William Watson",
-    title: "Bought the T-Shirt, Took the Tour, Loved It"
+    quote: "I can't recommend the Beyond The Guidebook Tour enough. Gregory Wilson was phenomenal, and the experience was worth every penny.",
+    author: "Olivia Dixon",
+    title: "A Walk That Will Make You See Auckland Differently",
+    rating: 4.3,
+    date: "2019-05-26"
   },
   {
     id: "testimonial-tour-auckland-1-11",
-    quote: "As a solo traveler, I felt completely comfortable on this tour. Aisha Russell created a friendly atmosphere from the start.",
-    author: "Jonathan Müller",
-    title: "A Perfect Day in Auckland"
-  },
-  {
-    id: "testimonial-tour-auckland-1-12",
-    quote: "The Beyond The Guidebook Tour was the highlight of our trip to Auckland. Aisha Russell took us to all the best spots and shared fascinating stories.",
-    author: "Patricia Graham",
-    title: "Wandered Far, Wondered More"
-  },
-  {
-    id: "testimonial-tour-auckland-1-13",
-    quote: "It felt like a private tour, even though we were with a group. Aisha Russell is incredibly engaging.",
-    author: "Nicholas Gonzalez",
-    title: "The Best Way to See Auckland"
-  },
-  {
-    id: "testimonial-tour-auckland-1-14",
-    quote: "Aisha Russell's enthusiasm for Auckland was contagious. We walked away feeling inspired.",
-    author: "Youssef Stewart",
-    title: "Insider's Perspective"
-  },
-  {
-    id: "testimonial-tour-auckland-1-15",
-    quote: "As a solo traveler, I felt completely comfortable on this tour. Aisha Russell created a friendly atmosphere from the start.",
-    author: "Pamela Montgomery",
-    title: "Hot, Sweaty, and Absolutely Worth It"
-  },
-  {
-    id: "testimonial-tour-auckland-1-16",
-    quote: "Aisha Russell had such a great balance of history, fun facts, and local stories — truly a gifted guide.",
-    author: "Ashley Williams",
-    title: "Better Than My Last Tinder Date"
-  },
-  {
-    id: "testimonial-tour-auckland-1-17",
-    quote: "From start to finish, the experience felt curated and special. Hats off to Aisha Russell.",
-    author: "Ali Wallace",
-    title: "Better Than My Last Tinder Date"
+    quote: "The Beyond The Guidebook Tour completely changed how I see Auckland. Gregory Wilson's insights were invaluable.",
+    author: "William Hudson",
+    title: "Followed the Guide, Found a Dream",
+    rating: 4.5,
+    date: "2023-03-21"
   }
 ];

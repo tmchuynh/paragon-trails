@@ -3,98 +3,138 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const streetFoodSafariTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-nassau-5-1",
-    quote: "The Street Food Safari was the highlight of our trip to Nassau. Austin Grant took us to all the best spots and shared fascinating stories.",
-    author: "Carol Johnson",
-    title: "Unforgettable Experience"
+    quote: "This tour gave us a much deeper connection to Nassau. Mateo Jennings's passion really shines through.",
+    author: "Isabella Russell",
+    title: "A Journey Through Nassau's Hidden Treasures",
+    rating: 4.4,
+    date: "2021-07-03"
   },
   {
     id: "testimonial-tour-nassau-5-2",
-    quote: "I was nervous about joining a group tour, but Austin Grant made everyone feel like part of the crew.",
-    author: "Boris Wood",
-    title: "Outstanding in Every Way"
+    quote: "Even our teens were engaged the entire time — Mateo Jennings knows how to captivate a group!",
+    author: "Fatima Lawson",
+    title: "A Walk That Will Make You See Nassau Differently",
+    rating: 3.7,
+    date: "2019-03-31"
   },
   {
     id: "testimonial-tour-nassau-5-3",
-    quote: "My grandparent and I agreed this was the best part of our entire trip to Nassau.",
-    author: "Pamela Ali",
-    title: "History Comes Alive"
+    quote: "Mateo Jennings is the kind of guide you want to tell your friends about. This was a five-star experience.",
+    author: "Andrew Martin",
+    title: "Loved Every Minute",
+    rating: 4.5,
+    date: "2017-11-05"
   },
   {
     id: "testimonial-tour-nassau-5-4",
-    quote: "We had limited time in Nassau, and this tour made sure we saw the best of it. Austin Grant was amazing.",
-    author: "Samantha West",
-    title: "Where Magic Meets Cobblestone"
+    quote: "Mateo Jennings is the kind of guide you want to tell your friends about. This was a five-star experience.",
+    author: "Isabella Hudson",
+    title: "A Journey Through Nassau's Charm",
+    rating: 4.8,
+    date: "2017-10-23"
   },
   {
     id: "testimonial-tour-nassau-5-5",
-    quote: "This tour exceeded all my expectations. Austin Grant's insider knowledge made our Nassau visit unforgettable.",
-    author: "David Carter",
-    title: "Lost in Time—in the Best Way"
+    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Mateo Jennings.",
+    author: "Patricia Price",
+    title: "The Perfect Introduction to Nassau",
+    rating: 4.9,
+    date: "2021-07-30"
   },
   {
     id: "testimonial-tour-nassau-5-6",
-    quote: "Austin Grant made learning about Nassau's history genuinely exciting — not an easy task!",
-    author: "Muhammad Price",
-    title: "Local Experience Made Easy"
+    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Mateo Jennings!",
+    author: "Nancy Garcia",
+    title: "A Walk That Will Make You Believe in Magic",
+    rating: 4.7,
+    date: "2017-06-05"
   },
   {
     id: "testimonial-tour-nassau-5-7",
-    quote: "Even our teens were engaged the entire time — Austin Grant knows how to captivate a group!",
-    author: "Bobby Mason",
-    title: "I Came, I Saw, I Took Too Many Photos"
+    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Mateo Jennings.",
+    author: "Ethan Griffin",
+    title: "Outstanding in Every Way",
+    rating: 3.6,
+    date: "2019-09-08"
   },
   {
     id: "testimonial-tour-nassau-5-8",
-    quote: "Austin Grant is the kind of guide you want to tell your friends about. This was a five-star experience.",
-    author: "Victoria Mitchell",
-    title: "Beyond Our Expectations"
+    quote: "This tour exceeded all my expectations. Mateo Jennings's insider knowledge made our Nassau visit unforgettable.",
+    author: "Mary White",
+    title: "Well Worth Your Time",
+    rating: 3.7,
+    date: "2017-02-23"
   },
   {
     id: "testimonial-tour-nassau-5-9",
-    quote: "I've been on many tours, but this one stands out. Austin Grant was passionate, knowledgeable, and made everyone feel welcome.",
-    author: "Ahmed Wilson",
-    title: "So Glad We Did This"
+    quote: "So much fun, and so informative! Mateo Jennings's enthusiasm is contagious.",
+    author: "Lerato Singh",
+    title: "So Glad We Did This",
+    rating: 4.9,
+    date: "2023-11-04"
   },
   {
     id: "testimonial-tour-nassau-5-10",
-    quote: "Austin Grant went above and beyond to make sure everyone had a great time on the Street Food Safari.",
-    author: "Raymond Parker",
-    title: "I Came, I Saw, I Took Too Many Photos"
+    quote: "A truly authentic experience! Mateo Jennings showed us the real Nassau, not just the tourist spots.",
+    author: "Peter Keller",
+    title: "A Journey Through Nassau's Hidden Treasures",
+    rating: 4.1,
+    date: "2021-07-07"
   },
   {
     id: "testimonial-tour-nassau-5-11",
-    quote: "My grandfather and I agreed this was the best part of our entire trip to Nassau.",
-    author: "Billy Williams",
-    title: "Learned Stuff, Didn’t Cry—Success!"
+    quote: "I felt like I was being shown around by a friend who knows all the secrets of Nassau.",
+    author: "Sophia Watson",
+    title: "A Journey Through Nassau's Soul",
+    rating: 4.7,
+    date: "2017-10-13"
   },
   {
     id: "testimonial-tour-nassau-5-12",
-    quote: "The pace was perfect, the content was rich, and Austin Grant made every stop memorable.",
-    author: "Stephen Hawkins",
-    title: "Best Decision of Our Trip"
+    quote: "Our family loved every moment of the Street Food Safari. Mateo Jennings even made it fun for our kids.",
+    author: "Kimberly Baker",
+    title: "A Tour That Feels Like a Celebration",
+    rating: 4,
+    date: "2017-03-31"
   },
   {
     id: "testimonial-tour-nassau-5-13",
-    quote: "This isn’t your typical tour. Austin Grant makes it feel personal and engaging from the very start.",
-    author: "Priya Jansen",
-    title: "Well Worth Your Time"
+    quote: "I can't recommend the Street Food Safari enough. Mateo Jennings was phenomenal, and the experience was worth every penny.",
+    author: "Thandiwe Russell",
+    title: "A Walk That Will Make You Smile",
+    rating: 4.8,
+    date: "2019-05-16"
   },
   {
     id: "testimonial-tour-nassau-5-14",
-    quote: "Austin Grant made learning about Nassau's history genuinely exciting — not an easy task!",
-    author: "Emily Warren",
-    title: "Truly Eye-Opening"
+    quote: "Mateo Jennings is the kind of guide you want to tell your friends about. This was a five-star experience.",
+    author: "Henry White",
+    title: "Well Worth Your Time",
+    rating: 4,
+    date: "2022-04-01"
   },
   {
     id: "testimonial-tour-nassau-5-15",
-    quote: "What an engaging experience! Austin Grant kept us laughing and learning throughout the Street Food Safari.",
-    author: "Audrey Hunter",
-    title: "A Day to Remember"
+    quote: "The stories, the hidden gems, the expert navigation — Mateo Jennings delivered on all fronts.",
+    author: "Sofia Anderson",
+    title: "A Hidden Gem of a Tour",
+    rating: 4.9,
+    date: "2019-04-30"
   },
   {
     id: "testimonial-tour-nassau-5-16",
-    quote: "If you're visiting Nassau, the Street Food Safari is a must! Austin Grant made the history come alive in a way guidebooks never could.",
-    author: "Ella Johnson",
-    title: "So Glad We Did This"
+    quote: "I can't recommend the Street Food Safari enough. Mateo Jennings was phenomenal, and the experience was worth every penny.",
+    author: "Brian Foster",
+    title: "More Enchanting Than Expected",
+    rating: 4.4,
+    date: "2023-07-28"
+  },
+  {
+    id: "testimonial-tour-nassau-5-17",
+    quote: "As a solo traveler, I felt completely comfortable on this tour. Mateo Jennings created a friendly atmosphere from the start.",
+    author: "Caroline Carpenter",
+    title: "A Journey Through Nassau's Wonders",
+    rating: 4.7,
+    date: "2023-11-16"
   }
 ];

@@ -3,80 +3,130 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const cookingClassFoodTourTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-san-francisco-2-1",
-    quote: "The Cooking Class & Food Tour was both entertaining and educational. Helen Griffin has a gift for storytelling that brings San Francisco's history to life.",
-    author: "Walter Nguyen",
-    title: "Highlight of Our Trip"
+    quote: "This isn’t your typical tour. Charlotte Mason makes it feel personal and engaging from the very start.",
+    author: "Edward Ellis",
+    title: "Local Experience Made Easy",
+    rating: 4.3,
+    date: "2022-03-11"
   },
   {
     id: "testimonial-tour-san-francisco-2-2",
-    quote: "If you only have time for one activity in San Francisco, make it the Cooking Class & Food Tour. You won’t regret it.",
-    author: "Gerald Garcia",
-    title: "Local Experience Made Easy"
+    quote: "The pace was perfect, the content was rich, and Charlotte Mason made every stop memorable.",
+    author: "Vincent Kowalski",
+    title: "Fascinating and Fun",
+    rating: 4.1,
+    date: "2017-09-09"
   },
   {
     id: "testimonial-tour-san-francisco-2-3",
-    quote: "The stories, the hidden gems, the expert navigation — Helen Griffin delivered on all fronts.",
-    author: "Maya Johnson",
-    title: "Top-Notch Guiding"
+    quote: "Charlotte Mason brought a depth of cultural insight that gave us a new appreciation for San Francisco.",
+    author: "Amina Russell",
+    title: "A Walk That Will Make You Want to Stay",
+    rating: 3.6,
+    date: "2024-02-21"
   },
   {
     id: "testimonial-tour-san-francisco-2-4",
-    quote: "My sibling and I agreed this was the best part of our entire trip to San Francisco.",
-    author: "Victoria Anderson",
-    title: "Incredible from Start to Finish"
+    quote: "My husband and I agreed this was the best part of our entire trip to San Francisco.",
+    author: "Luis Anderson",
+    title: "A Walk That Changed Everything",
+    rating: 3.9,
+    date: "2017-01-11"
   },
   {
     id: "testimonial-tour-san-francisco-2-5",
-    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Helen Griffin!",
-    author: "Amelia Kowalski",
-    title: "Exceptional Tour Guide"
+    quote: "If you only have time for one activity in San Francisco, make it the Cooking Class & Food Tour. You won’t regret it.",
+    author: "Aiden Montgomery",
+    title: "A Must-Do in San Francisco",
+    rating: 3.8,
+    date: "2021-07-07"
   },
   {
     id: "testimonial-tour-san-francisco-2-6",
-    quote: "The small group size and personal attention from Helen Griffin made all the difference.",
-    author: "Carol Gardner",
-    title: "Brought San Francisco to Life"
+    quote: "We got so much value from this tour. Charlotte Mason took us to places we would have never discovered on our own.",
+    author: "Kenneth Chen",
+    title: "A Walk That Will Make You Want to Stay",
+    rating: 3.7,
+    date: "2018-01-28"
   },
   {
     id: "testimonial-tour-san-francisco-2-7",
-    quote: "This tour is a hidden gem — just like the spots Helen Griffin showed us around San Francisco.",
-    author: "Santiago Warren",
-    title: "So Much More Than Expected"
+    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Charlotte Mason.",
+    author: "Omar Hayes",
+    title: "Followed the Guide, Found a Dream",
+    rating: 4,
+    date: "2017-04-03"
   },
   {
     id: "testimonial-tour-san-francisco-2-8",
-    quote: "What a fantastic way to start our stay in San Francisco. Helen Griffin gave us a great foundation for exploring more on our own.",
-    author: "Henry Moore",
-    title: "A Tour Even My Teenager Liked"
+    quote: "Thanks to Charlotte Mason, we discovered parts of San Francisco we would have never seen on our own.",
+    author: "Sandra Gonzalez",
+    title: "A Walk That Will Make You Want to Stay",
+    rating: 4.6,
+    date: "2025-04-27"
   },
   {
     id: "testimonial-tour-san-francisco-2-9",
-    quote: "We were blown away by the depth of knowledge and warmth Helen Griffin brought to the tour.",
-    author: "Helen Jackson",
-    title: "Absolutely Fantastic!"
+    quote: "Thanks to Charlotte Mason, we discovered parts of San Francisco we would have never seen on our own.",
+    author: "Ashley Moore",
+    title: "A Walk That Will Make You Smile",
+    rating: 4.1,
+    date: "2024-06-14"
   },
   {
     id: "testimonial-tour-san-francisco-2-10",
-    quote: "From beginning to end, the Cooking Class & Food Tour was seamless and so well organized.",
-    author: "Ariana Marshall",
-    title: "Impressive and Informative"
+    quote: "This tour exceeded all my expectations. Charlotte Mason's insider knowledge made our San Francisco visit unforgettable.",
+    author: "Mia Hernandez",
+    title: "A Stroll Through a Living Storybook",
+    rating: 4.5,
+    date: "2021-04-03"
   },
   {
     id: "testimonial-tour-san-francisco-2-11",
-    quote: "We left the Cooking Class & Food Tour feeling more connected to San Francisco than we ever expected.",
-    author: "Priya Baker",
-    title: "Would Follow This Guide Into Battle"
+    quote: "A truly authentic experience! Charlotte Mason showed us the real San Francisco, not just the tourist spots.",
+    author: "Victor Miller",
+    title: "History, Snacks, and Laughs—Yes Please!",
+    rating: 4,
+    date: "2024-06-05"
   },
   {
     id: "testimonial-tour-san-francisco-2-12",
-    quote: "I wasn’t expecting to enjoy this tour so much, but Helen Griffin made it the highlight of our trip.",
-    author: "Jonathan Rossi",
-    title: "The Walking Was Free—The Laughs Were Priceless"
+    quote: "We got so much value from this tour. Charlotte Mason took us to places we would have never discovered on our own.",
+    author: "Kennedy Keller",
+    title: "A Deep Dive into Local Culture",
+    rating: 4.2,
+    date: "2020-09-24"
   },
   {
     id: "testimonial-tour-san-francisco-2-13",
-    quote: "The small group size and personal attention from Helen Griffin made all the difference.",
-    author: "Betty Hayes",
-    title: "A Day to Remember"
+    quote: "The stories, the hidden gems, the expert navigation — Charlotte Mason delivered on all fronts.",
+    author: "Isabella Sutton",
+    title: "A Journey Through San Francisco's Culture",
+    rating: 3.6,
+    date: "2018-11-09"
+  },
+  {
+    id: "testimonial-tour-san-francisco-2-14",
+    quote: "From start to finish, the experience felt curated and special. Hats off to Charlotte Mason.",
+    author: "Wei Price",
+    title: "A Tour Even My Teenager Liked",
+    rating: 4.4,
+    date: "2021-01-11"
+  },
+  {
+    id: "testimonial-tour-san-francisco-2-15",
+    quote: "I thought I knew San Francisco, but this tour proved otherwise. Charlotte Mason showed us a side we’d never seen.",
+    author: "Harper Harris",
+    title: "A Walk That Will Make You Appreciate San Francisco More",
+    rating: 4,
+    date: "2021-11-08"
+  },
+  {
+    id: "testimonial-tour-san-francisco-2-16",
+    quote: "My parent and I agreed this was the best part of our entire trip to San Francisco.",
+    author: "Jennifer Silva",
+    title: "A Journey Through San Francisco's Culture",
+    rating: 4.6,
+    date: "2017-11-29"
   }
 ];

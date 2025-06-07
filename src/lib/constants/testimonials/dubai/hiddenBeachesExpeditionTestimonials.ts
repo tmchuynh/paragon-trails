@@ -3,50 +3,106 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const hiddenBeachesExpeditionTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-dubai-5-1",
-    quote: "Our family loved every moment of the Hidden Beaches Expedition. Emma Crawford even made it fun for our kids.",
-    author: "Deborah Mitchell",
-    title: "A New Favorite Memory"
+    quote: "The small group size and personal attention from Joel Wallace made all the difference.",
+    author: "Kevin Curtis",
+    title: "Hidden Gems of Dubai",
+    rating: 4.5,
+    date: "2017-07-13"
   },
   {
     id: "testimonial-tour-dubai-5-2",
-    quote: "This was not just sightseeing — it was a deep dive into the heart of Dubai thanks to Emma Crawford.",
-    author: "Patricia Nash",
-    title: "Sunlight, Stories, and Serendipity"
+    quote: "The Hidden Beaches Expedition was the highlight of our trip to Dubai. Joel Wallace took us to all the best spots and shared fascinating stories.",
+    author: "Betty Price",
+    title: "Followed the Guide, Found a Dream",
+    rating: 4.3,
+    date: "2025-01-27"
   },
   {
     id: "testimonial-tour-dubai-5-3",
-    quote: "From beginning to end, the Hidden Beaches Expedition was seamless and so well organized.",
-    author: "Katherine Rodriguez",
-    title: "The Perfect Introduction to Dubai"
+    quote: "We joined the Hidden Beaches Expedition on our first day in Dubai, and it set the tone for a fantastic trip.",
+    author: "Bruce Reed",
+    title: "Fun, Friendly, and Full of Insight",
+    rating: 4.3,
+    date: "2022-01-17"
   },
   {
     id: "testimonial-tour-dubai-5-4",
-    quote: "A truly authentic experience! Emma Crawford showed us the real Dubai, not just the tourist spots.",
-    author: "Elena Carpenter",
-    title: "I Came, I Saw, I Took Too Many Photos"
+    quote: "We were blown away by the depth of knowledge and warmth Joel Wallace brought to the tour.",
+    author: "Isabella Bennett",
+    title: "Would Follow This Guide Into Battle",
+    rating: 4,
+    date: "2023-11-04"
   },
   {
     id: "testimonial-tour-dubai-5-5",
-    quote: "Emma Crawford's enthusiasm for Dubai was contagious. We walked away feeling inspired.",
-    author: "Linda Lawson",
-    title: "Fun, Friendly, and Full of Insight"
+    quote: "Joel Wallace made learning about Dubai's history genuinely exciting — not an easy task!",
+    author: "Henry Murray",
+    title: "The Real Dubai Experience",
+    rating: 4.3,
+    date: "2025-01-03"
   },
   {
     id: "testimonial-tour-dubai-5-6",
-    quote: "Emma Crawford shared personal stories that really brought Dubai to life for us. A truly memorable tour.",
-    author: "Isabella Chen",
-    title: "A Day to Remember"
+    quote: "Absolutely worth it. Joel Wallace took care of everything so we could just relax and enjoy Dubai.",
+    author: "Hassan Montgomery",
+    title: "A Must-Do in Dubai",
+    rating: 3.9,
+    date: "2020-03-03"
   },
   {
     id: "testimonial-tour-dubai-5-7",
-    quote: "I felt like I was being shown around by a friend who knows all the secrets of Dubai.",
-    author: "Michelle Hernandez",
-    title: "Cultural Immersion at Its Best"
+    quote: "My colleagues and I didn’t want the tour to end. Joel Wallace is that engaging and informative.",
+    author: "Sophia Hamilton",
+    title: "Where Magic Meets Cobblestone",
+    rating: 4.5,
+    date: "2017-12-07"
   },
   {
     id: "testimonial-tour-dubai-5-8",
-    quote: "We joined the Hidden Beaches Expedition on our first day in Dubai, and it set the tone for a fantastic trip.",
-    author: "Diego Knight",
-    title: "The Perfect Introduction to Dubai"
+    quote: "I thought I knew Dubai, but this tour proved otherwise. Joel Wallace showed us a side we’d never seen.",
+    author: "Diego Bennett",
+    title: "A Unique Way to Explore Dubai",
+    rating: 5,
+    date: "2020-03-22"
+  },
+  {
+    id: "testimonial-tour-dubai-5-9",
+    quote: "We loved every minute of the Hidden Beaches Expedition. Joel Wallace's local tips were priceless.",
+    author: "Sophia Jansen",
+    title: "A Journey Through Dubai's Heart",
+    rating: 4.1,
+    date: "2022-09-19"
+  },
+  {
+    id: "testimonial-tour-dubai-5-10",
+    quote: "This tour is a hidden gem — just like the spots Joel Wallace showed us around Dubai.",
+    author: "Jacob Nguyen",
+    title: "A Walk That Will Make You Fall in Love with Dubai",
+    rating: 3.6,
+    date: "2023-06-16"
+  },
+  {
+    id: "testimonial-tour-dubai-5-11",
+    quote: "If you're visiting Dubai, the Hidden Beaches Expedition is a must! Joel Wallace made the history come alive in a way guidebooks never could.",
+    author: "Virginia Sutton",
+    title: "Sunlight, Stories, and Serendipity",
+    rating: 3.9,
+    date: "2022-10-29"
+  },
+  {
+    id: "testimonial-tour-dubai-5-12",
+    quote: "The Hidden Beaches Expedition was both entertaining and educational. Joel Wallace has a gift for storytelling that brings Dubai's history to life.",
+    author: "Barbara Marshall",
+    title: "A Tour That Feels Like a Celebration",
+    rating: 3.7,
+    date: "2021-08-26"
+  },
+  {
+    id: "testimonial-tour-dubai-5-13",
+    quote: "Our family loved every moment of the Hidden Beaches Expedition. Joel Wallace even made it fun for our kids.",
+    author: "Layla Morales",
+    title: "A Walk Through History",
+    rating: 3.9,
+    date: "2022-02-27"
   }
 ];

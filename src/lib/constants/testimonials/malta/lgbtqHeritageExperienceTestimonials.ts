@@ -3,86 +3,82 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const lgbtqHeritageExperienceTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-malta-1-1",
-    quote: "From beginning to end, the LGBTQ+ Heritage Experience was seamless and so well organized.",
-    author: "Barbara Fox",
-    title: "Best Tour in Malta"
+    quote: "Jeffrey Chen is the kind of guide you want to tell your friends about. This was a five-star experience.",
+    author: "Aaron Kowalski",
+    title: "Highly Recommend to Everyone",
+    rating: 4,
+    date: "2025-05-15"
   },
   {
     id: "testimonial-tour-malta-1-2",
-    quote: "We joined the LGBTQ+ Heritage Experience on our first day in Malta, and it set the tone for a fantastic trip.",
-    author: "Patricia Graves",
-    title: "So Much More Than Expected"
+    quote: "My sibling and I agreed this was the best part of our entire trip to Malta.",
+    author: "Sophia Müller",
+    title: "A Tour That Feels Like Home",
+    rating: 4.6,
+    date: "2018-06-16"
   },
   {
     id: "testimonial-tour-malta-1-3",
-    quote: "We got so much value from this tour. Elizabeth Fisher took us to places we would have never discovered on our own.",
-    author: "Janet Lee",
-    title: "Incredible from Start to Finish"
+    quote: "Absolutely worth it. Jeffrey Chen took care of everything so we could just relax and enjoy Malta.",
+    author: "Julie Payne",
+    title: "The Real Malta Experience",
+    rating: 3.5,
+    date: "2022-02-21"
   },
   {
     id: "testimonial-tour-malta-1-4",
-    quote: "As a solo traveler, I felt completely comfortable on this tour. Elizabeth Fisher created a friendly atmosphere from the start.",
-    author: "Sophia Young",
-    title: "Best Decision of Our Trip"
+    quote: "Even the locals in our group said they learned something new. That says a lot about Jeffrey Chen's depth.",
+    author: "Maria Hawkins",
+    title: "Insider's Perspective",
+    rating: 4.9,
+    date: "2017-08-10"
   },
   {
     id: "testimonial-tour-malta-1-5",
-    quote: "Elizabeth Fisher brought a depth of cultural insight that gave us a new appreciation for Malta.",
-    author: "Kinsley Nash",
-    title: "Fascinating and Fun"
+    quote: "This was more than just sightseeing — it was an unforgettable journey through Malta's culture and history.",
+    author: "Alice Curtis",
+    title: "Loved Every Minute",
+    rating: 3.8,
+    date: "2020-12-15"
   },
   {
     id: "testimonial-tour-malta-1-6",
-    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Elizabeth Fisher.",
-    author: "Valentina Porter",
-    title: "Wandered Far, Wondered More"
+    quote: "This isn’t your typical tour. Jeffrey Chen makes it feel personal and engaging from the very start.",
+    author: "Raymond Bennett",
+    title: "I Came, I Saw, I Took Too Many Photos",
+    rating: 4.2,
+    date: "2023-01-12"
   },
   {
     id: "testimonial-tour-malta-1-7",
-    quote: "I've been on many tours, but this one stands out. Elizabeth Fisher was passionate, knowledgeable, and made everyone feel welcome.",
-    author: "Mohamed Hunter",
-    title: "Outstanding in Every Way"
+    quote: "As a solo traveler, I felt completely comfortable on this tour. Jeffrey Chen created a friendly atmosphere from the start.",
+    author: "Mary Murray",
+    title: "A Tour That Feels Like a Fairytale",
+    rating: 4.4,
+    date: "2018-07-26"
   },
   {
     id: "testimonial-tour-malta-1-8",
-    quote: "If you only have time for one activity in Malta, make it the LGBTQ+ Heritage Experience. You won’t regret it.",
-    author: "Joan King",
-    title: "Learned Stuff, Didn’t Cry—Success!"
+    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Jeffrey Chen.",
+    author: "Joe West",
+    title: "A Walk That Will Stay with You",
+    rating: 3.9,
+    date: "2019-07-01"
   },
   {
     id: "testimonial-tour-malta-1-9",
-    quote: "I was nervous about joining a group tour, but Elizabeth Fisher made everyone feel like part of the crew.",
-    author: "Chloe Morales",
-    title: "Cultural Immersion at Its Best"
+    quote: "The small group size and personal attention from Jeffrey Chen made all the difference.",
+    author: "Melissa Carpenter",
+    title: "Entertaining and Educational",
+    rating: 3.9,
+    date: "2018-12-06"
   },
   {
     id: "testimonial-tour-malta-1-10",
-    quote: "As someone who's been to Malta before, I was surprised at how much I learned on the LGBTQ+ Heritage Experience. Elizabeth Fisher is a treasure trove of information!",
-    author: "Caroline Palmer",
-    title: "Bought the T-Shirt, Took the Tour, Loved It"
-  },
-  {
-    id: "testimonial-tour-malta-1-11",
-    quote: "This tour exceeded all my expectations. Elizabeth Fisher's insider knowledge made our Malta visit unforgettable.",
-    author: "Henry Hamilton",
-    title: "Highlight of Our Trip"
-  },
-  {
-    id: "testimonial-tour-malta-1-12",
-    quote: "Even the locals in our group said they learned something new. That says a lot about Elizabeth Fisher's depth.",
-    author: "Laura Thomas",
-    title: "Fascinating and Fun"
-  },
-  {
-    id: "testimonial-tour-malta-1-13",
-    quote: "Even our teens were engaged the entire time — Elizabeth Fisher knows how to captivate a group!",
-    author: "Priya Fox",
-    title: "Got Lost (on Purpose) with {GUIDE_NAME}"
-  },
-  {
-    id: "testimonial-tour-malta-1-14",
-    quote: "Elizabeth Fisher shared personal stories that really brought Malta to life for us. A truly memorable tour.",
-    author: "Isabella Day",
-    title: "A New Favorite Memory"
+    quote: "What a fantastic way to start our stay in Malta. Jeffrey Chen gave us a great foundation for exploring more on our own.",
+    author: "Mia Singh",
+    title: "History, Snacks, and Laughs—Yes Please!",
+    rating: 4.1,
+    date: "2024-08-20"
   }
 ];

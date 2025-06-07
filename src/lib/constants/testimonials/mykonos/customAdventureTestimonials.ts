@@ -3,62 +3,106 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const customAdventureTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-mykonos-2-1",
-    quote: "It felt like a private tour, even though we were with a group. Brandon Jackson is incredibly engaging.",
-    author: "Aaliyah Wallace",
-    title: "Well Worth Your Time"
+    quote: "This tour was absolutely amazing! Aiden Mason knew everything about Mykonos and showed us places we would have never found on our own.",
+    author: "Zoe Wallace",
+    title: "A Journey Through Mykonos's Beauty",
+    rating: 4.2,
+    date: "2022-06-06"
   },
   {
     id: "testimonial-tour-mykonos-2-2",
-    quote: "If you're visiting Mykonos, the Custom Adventure is a must! Brandon Jackson made the history come alive in a way guidebooks never could.",
-    author: "Carol Reed",
-    title: "Loved Every Minute"
+    quote: "My grandparent and I had the best time on this tour. Aiden Mason's knowledge of Mykonos made it so much more special.",
+    author: "Samantha Montgomery",
+    title: "A Journey Through Mykonos's Beauty",
+    rating: 4.2,
+    date: "2023-11-20"
   },
   {
     id: "testimonial-tour-mykonos-2-3",
-    quote: "Even our teens were engaged the entire time — Brandon Jackson knows how to captivate a group!",
-    author: "Barbara Fox",
-    title: "Outstanding in Every Way"
+    quote: "I was nervous about joining a group tour, but Aiden Mason made everyone feel like part of the crew.",
+    author: "Ralph Hayes",
+    title: "Brought Mykonos to Life",
+    rating: 4.9,
+    date: "2019-11-10"
   },
   {
     id: "testimonial-tour-mykonos-2-4",
-    quote: "One of the best decisions of our trip! Brandon Jackson is a fantastic guide and brought incredible energy to the tour.",
-    author: "Isabella Hernandez",
-    title: "History Comes Alive"
+    quote: "Even our teens were engaged the entire time — Aiden Mason knows how to captivate a group!",
+    author: "Patricia Williams",
+    title: "Whispers of the Past, Echoes of Joy",
+    rating: 3.9,
+    date: "2023-12-03"
   },
   {
     id: "testimonial-tour-mykonos-2-5",
-    quote: "I felt like I was being shown around by a friend who knows all the secrets of Mykonos.",
-    author: "Sebastian West",
-    title: "Got Lost (on Purpose) with {GUIDE_NAME}"
+    quote: "The Custom Adventure was both entertaining and educational. Aiden Mason has a gift for storytelling that brings Mykonos's history to life.",
+    author: "Harry Johnson",
+    title: "An Authentic Slice of Mykonos",
+    rating: 4.2,
+    date: "2022-08-10"
   },
   {
     id: "testimonial-tour-mykonos-2-6",
-    quote: "As a solo traveler, I felt completely comfortable on this tour. Brandon Jackson created a friendly atmosphere from the start.",
-    author: "Olivia Müller",
-    title: "Lost in Time—in the Best Way"
+    quote: "A truly authentic experience! Aiden Mason showed us the real Mykonos, not just the tourist spots.",
+    author: "Mason Jennings",
+    title: "A Walk That Will Make You Smile",
+    rating: 4.4,
+    date: "2024-04-15"
   },
   {
     id: "testimonial-tour-mykonos-2-7",
-    quote: "Even the locals in our group said they learned something new. That says a lot about Brandon Jackson's depth.",
-    author: "Emma Price",
-    title: "A Tour Even My Teenager Liked"
+    quote: "We booked last-minute and are so glad we did. Aiden Mason made it one of our favorite memories from Mykonos.",
+    author: "Amina Morales",
+    title: "A Walk That Will Make You Think",
+    rating: 4.4,
+    date: "2020-09-19"
   },
   {
     id: "testimonial-tour-mykonos-2-8",
-    quote: "This was not just sightseeing — it was a deep dive into the heart of Mykonos thanks to Brandon Jackson.",
-    author: "Scott Moore",
-    title: "Lost in Time—in the Best Way"
+    quote: "This was more than just sightseeing — it was an unforgettable journey through Mykonos's culture and history.",
+    author: "Joshua Spencer",
+    title: "A Must-Do in Mykonos",
+    rating: 4,
+    date: "2020-10-18"
   },
   {
     id: "testimonial-tour-mykonos-2-9",
-    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Brandon Jackson!",
-    author: "Mark Smith",
-    title: "More Enchanting Than Expected"
+    quote: "My son and I didn’t want the tour to end. Aiden Mason is that engaging and informative.",
+    author: "Sebastian Müller",
+    title: "A Tour to Remember",
+    rating: 4.3,
+    date: "2017-08-18"
   },
   {
     id: "testimonial-tour-mykonos-2-10",
-    quote: "From start to finish, the experience felt curated and special. Hats off to Brandon Jackson.",
-    author: "Ana Garcia",
-    title: "Local Experience Made Easy"
+    quote: "The Custom Adventure completely changed how I see Mykonos. Aiden Mason's insights were invaluable.",
+    author: "Michelle Hall",
+    title: "A New Favorite Memory",
+    rating: 3.6,
+    date: "2022-09-25"
+  },
+  {
+    id: "testimonial-tour-mykonos-2-11",
+    quote: "We had limited time in Mykonos, and this tour made sure we saw the best of it. Aiden Mason was amazing.",
+    author: "Eleanor Day",
+    title: "Entertaining and Educational",
+    rating: 4.6,
+    date: "2018-04-25"
+  },
+  {
+    id: "testimonial-tour-mykonos-2-12",
+    quote: "My sibling and I didn’t want the tour to end. Aiden Mason is that engaging and informative.",
+    author: "Alexander Graham",
+    title: "More Enchanting Than Expected",
+    rating: 3.8,
+    date: "2019-07-09"
+  },
+  {
+    id: "testimonial-tour-mykonos-2-13",
+    quote: "Absolutely worth it. Aiden Mason took care of everything so we could just relax and enjoy Mykonos.",
+    author: "Miguel Collins",
+    title: "Learned So Much!",
+    rating: 4.5,
+    date: "2025-05-20"
   }
 ];

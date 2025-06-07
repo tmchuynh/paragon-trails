@@ -3,104 +3,82 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const marketTreasuresDiscoveryTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-victoria-4-1",
-    quote: "I felt like I was being shown around by a friend who knows all the secrets of Victoria.",
-    author: "Thabo Müller",
-    title: "Sunlight, Stories, and Serendipity"
+    quote: "Savannah Russell was incredibly accommodating and answered every question with patience and detail.",
+    author: "Virginia Rossi",
+    title: "Wandered Far, Wondered More",
+    rating: 4.1,
+    date: "2020-04-11"
   },
   {
     id: "testimonial-tour-victoria-4-2",
-    quote: "If you only have time for one activity in Victoria, make it the Market Treasures Discovery. You won’t regret it.",
-    author: "Dorothy Anderson",
-    title: "Entertaining and Educational"
+    quote: "Savannah Russell's enthusiasm for Victoria was contagious. We walked away feeling inspired.",
+    author: "Elena Marshall",
+    title: "Outstanding in Every Way",
+    rating: 3.9,
+    date: "2017-09-07"
   },
   {
     id: "testimonial-tour-victoria-4-3",
-    quote: "It felt like a private tour, even though we were with a group. Madelyn Dean is incredibly engaging.",
-    author: "Janet Johnson",
-    title: "A Day to Remember"
+    quote: "I was nervous about joining a group tour, but Savannah Russell made everyone feel like part of the crew.",
+    author: "Bruce Silva",
+    title: "Better Than My Last Tinder Date",
+    rating: 4.8,
+    date: "2019-03-20"
   },
   {
     id: "testimonial-tour-victoria-4-4",
-    quote: "This was more than just sightseeing — it was an unforgettable journey through Victoria's culture and history.",
-    author: "Douglas Garcia",
-    title: "If Cities Had Souls, Victoria Sang to Us"
+    quote: "We booked last-minute and are so glad we did. Savannah Russell made it one of our favorite memories from Victoria.",
+    author: "Linda Parker",
+    title: "A Journey Through Victoria's Soul",
+    rating: 4.5,
+    date: "2025-04-21"
   },
   {
     id: "testimonial-tour-victoria-4-5",
-    quote: "As a solo traveler, I felt completely comfortable on this tour. Madelyn Dean created a friendly atmosphere from the start.",
-    author: "Alice Jones",
-    title: "So Much More Than Expected"
+    quote: "My colleagues and I had the best time on this tour. Savannah Russell's knowledge of Victoria made it so much more special.",
+    author: "Savannah Wright",
+    title: "A Walk Through History",
+    rating: 4.6,
+    date: "2021-05-31"
   },
   {
     id: "testimonial-tour-victoria-4-6",
-    quote: "I thought I knew Victoria, but this tour proved otherwise. Madelyn Dean showed us a side we’d never seen.",
-    author: "Rebecca King",
-    title: "The Real Victoria Experience"
+    quote: "From beginning to end, the Market Treasures Discovery was seamless and so well organized.",
+    author: "Peter Reeves",
+    title: "Where Magic Meets Cobblestone",
+    rating: 4.1,
+    date: "2017-06-25"
   },
   {
     id: "testimonial-tour-victoria-4-7",
-    quote: "Madelyn Dean was incredibly accommodating and answered every question with patience and detail.",
-    author: "Gregory Morales",
-    title: "Where Magic Meets Cobblestone"
+    quote: "I was nervous about joining a group tour, but Savannah Russell made everyone feel like part of the crew.",
+    author: "Logan Singh",
+    title: "A Journey Through Victoria's Culture",
+    rating: 3.7,
+    date: "2017-02-19"
   },
   {
     id: "testimonial-tour-victoria-4-8",
-    quote: "This tour was absolutely amazing! Madelyn Dean knew everything about Victoria and showed us places we would have never found on our own.",
-    author: "Olivia Graves",
-    title: "Outstanding in Every Way"
+    quote: "The stories, the hidden gems, the expert navigation — Savannah Russell delivered on all fronts.",
+    author: "Wei Bennett",
+    title: "If Cities Had Souls, Victoria Sang to Us",
+    rating: 4.8,
+    date: "2024-11-12"
   },
   {
     id: "testimonial-tour-victoria-4-9",
-    quote: "I've been on many tours, but this one stands out. Madelyn Dean was passionate, knowledgeable, and made everyone feel welcome.",
-    author: "Benjamin Collins",
-    title: "Best Decision of Our Trip"
+    quote: "So much fun, and so informative! Savannah Russell's enthusiasm is contagious.",
+    author: "Thandiwe Lopez",
+    title: "Highly Recommend to Everyone",
+    rating: 4.2,
+    date: "2023-07-12"
   },
   {
     id: "testimonial-tour-victoria-4-10",
-    quote: "From start to finish, the experience felt curated and special. Hats off to Madelyn Dean.",
-    author: "Gabriella Wilson",
-    title: "Cultural Immersion at Its Best"
-  },
-  {
-    id: "testimonial-tour-victoria-4-11",
-    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Madelyn Dean.",
-    author: "Samantha Carpenter",
-    title: "Beyond Our Expectations"
-  },
-  {
-    id: "testimonial-tour-victoria-4-12",
-    quote: "What a fantastic way to start our stay in Victoria. Madelyn Dean gave us a great foundation for exploring more on our own.",
-    author: "Sebastian Dunn",
-    title: "A New Favorite Memory"
-  },
-  {
-    id: "testimonial-tour-victoria-4-13",
-    quote: "As a solo traveler, I felt completely comfortable on this tour. Madelyn Dean created a friendly atmosphere from the start.",
-    author: "Maria Coleman",
-    title: "A Tour Even My Teenager Liked"
-  },
-  {
-    id: "testimonial-tour-victoria-4-14",
-    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Madelyn Dean.",
-    author: "Patricia Fisher",
-    title: "Best Tour in Victoria"
-  },
-  {
-    id: "testimonial-tour-victoria-4-15",
-    quote: "Madelyn Dean shared personal stories that really brought Victoria to life for us. A truly memorable tour.",
-    author: "Catherine Dubois",
-    title: "Wandered Far, Wondered More"
-  },
-  {
-    id: "testimonial-tour-victoria-4-16",
-    quote: "We’ll be recommending the Market Treasures Discovery to all our friends. Madelyn Dean made it that special.",
-    author: "Mia Hayes",
-    title: "A Stroll Through a Living Storybook"
-  },
-  {
-    id: "testimonial-tour-victoria-4-17",
-    quote: "I was nervous about joining a group tour, but Madelyn Dean made everyone feel like part of the crew.",
-    author: "Laura Jansen",
-    title: "A Must-Do in Victoria"
+    quote: "We’ll be recommending the Market Treasures Discovery to all our friends. Savannah Russell made it that special.",
+    author: "Zoe Suzuki",
+    title: "A Walk That Will Make You See Victoria Differently",
+    rating: 4.7,
+    date: "2020-09-12"
   }
 ];

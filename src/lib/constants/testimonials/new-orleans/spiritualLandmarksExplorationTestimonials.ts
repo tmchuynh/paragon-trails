@@ -3,86 +3,74 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const spiritualLandmarksExplorationTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-new-orleans-2-1",
-    quote: "One of the best decisions of our trip! Susan Campbell is a fantastic guide and brought incredible energy to the tour.",
-    author: "Sophia Wang",
-    title: "Impressive and Informative"
+    quote: "Even our teens were engaged the entire time — Ibrahim Baker knows how to captivate a group!",
+    author: "Kyle Moore",
+    title: "A Journey Through New Orleans's Beauty",
+    rating: 4.4,
+    date: "2018-12-24"
   },
   {
     id: "testimonial-tour-new-orleans-2-2",
-    quote: "We had limited time in New Orleans, and this tour made sure we saw the best of it. Susan Campbell was amazing.",
-    author: "Grace Chambers",
-    title: "Felt Like a Character in a Fairytale"
+    quote: "Highly recommend this tour if you want more than just a photo op — Ibrahim Baker gives you real insight into New Orleans.",
+    author: "Henry Ellis",
+    title: "So Much More Than Expected",
+    rating: 4.1,
+    date: "2024-10-24"
   },
   {
     id: "testimonial-tour-new-orleans-2-3",
-    quote: "We joined the Spiritual Landmarks Exploration on our first day in New Orleans, and it set the tone for a fantastic trip.",
-    author: "Lisa Kowalski",
-    title: "Well Worth Your Time"
+    quote: "My uncle and I didn’t want the tour to end. Ibrahim Baker is that engaging and informative.",
+    author: "Elijah Johnson",
+    title: "A Tour to Remember",
+    rating: 4.5,
+    date: "2019-01-22"
   },
   {
     id: "testimonial-tour-new-orleans-2-4",
-    quote: "Even the locals in our group said they learned something new. That says a lot about Susan Campbell's depth.",
-    author: "Amy Rossi",
-    title: "Hot, Sweaty, and Absolutely Worth It"
+    quote: "We joined the Spiritual Landmarks Exploration on our first day in New Orleans, and it set the tone for a fantastic trip.",
+    author: "Angela Reeves",
+    title: "Wandered Far, Wondered More",
+    rating: 3.6,
+    date: "2021-09-20"
   },
   {
     id: "testimonial-tour-new-orleans-2-5",
-    quote: "I wasn’t expecting to enjoy this tour so much, but Susan Campbell made it the highlight of our trip.",
-    author: "Skylar Reed",
-    title: "A Day to Remember"
+    quote: "This tour exceeded all my expectations. Ibrahim Baker's insider knowledge made our New Orleans visit unforgettable.",
+    author: "Zola Crawford",
+    title: "A Unique Way to Explore New Orleans",
+    rating: 4.1,
+    date: "2022-06-23"
   },
   {
     id: "testimonial-tour-new-orleans-2-6",
-    quote: "This tour was absolutely amazing! Susan Campbell knew everything about New Orleans and showed us places we would have never found on our own.",
-    author: "James Anderson",
-    title: "A New Favorite Memory"
+    quote: "Our family loved every moment of the Spiritual Landmarks Exploration. Ibrahim Baker even made it fun for our kids.",
+    author: "Harper Kim",
+    title: "A Walk That Will Make You Believe in Magic",
+    rating: 4.5,
+    date: "2022-08-30"
   },
   {
     id: "testimonial-tour-new-orleans-2-7",
-    quote: "We had limited time in New Orleans, and this tour made sure we saw the best of it. Susan Campbell was amazing.",
-    author: "Dorothy Porter",
-    title: "Hot, Sweaty, and Absolutely Worth It"
+    quote: "We had limited time in New Orleans, and this tour made sure we saw the best of it. Ibrahim Baker was amazing.",
+    author: "Brooklyn Müller",
+    title: "A Walk That Will Make You Appreciate New Orleans More",
+    rating: 4.7,
+    date: "2017-05-26"
   },
   {
     id: "testimonial-tour-new-orleans-2-8",
-    quote: "It felt like a private tour, even though we were with a group. Susan Campbell is incredibly engaging.",
-    author: "Lerato Harper",
-    title: "Truly Eye-Opening"
+    quote: "This was not just sightseeing — it was a deep dive into the heart of New Orleans thanks to Ibrahim Baker.",
+    author: "Savannah Fox",
+    title: "A Tour That Feels Like a Fairytale",
+    rating: 4.8,
+    date: "2022-03-16"
   },
   {
     id: "testimonial-tour-new-orleans-2-9",
-    quote: "If you only have time for one activity in New Orleans, make it the Spiritual Landmarks Exploration. You won’t regret it.",
-    author: "Elena Keller",
-    title: "Impressive and Informative"
-  },
-  {
-    id: "testimonial-tour-new-orleans-2-10",
-    quote: "Susan Campbell is the kind of guide you want to tell your friends about. This was a five-star experience.",
-    author: "Alexander Fisher",
-    title: "The Best Way to See New Orleans"
-  },
-  {
-    id: "testimonial-tour-new-orleans-2-11",
-    quote: "This tour gave us a much deeper connection to New Orleans. Susan Campbell's passion really shines through.",
-    author: "Dennis Hamilton",
-    title: "A Stroll Through a Living Storybook"
-  },
-  {
-    id: "testimonial-tour-new-orleans-2-12",
-    quote: "A truly authentic experience! Susan Campbell showed us the real New Orleans, not just the tourist spots.",
-    author: "Jose Hernandez",
-    title: "A Tour Even My Teenager Liked"
-  },
-  {
-    id: "testimonial-tour-new-orleans-2-13",
-    quote: "Susan Campbell went above and beyond to make sure everyone had a great time on the Spiritual Landmarks Exploration.",
-    author: "Zoe Patel",
-    title: "Insider's Perspective"
-  },
-  {
-    id: "testimonial-tour-new-orleans-2-14",
-    quote: "We joined the Spiritual Landmarks Exploration on our first day in New Orleans, and it set the tone for a fantastic trip.",
-    author: "Lucas Jansen",
-    title: "The Real New Orleans Experience"
+    quote: "I thought I knew New Orleans, but this tour proved otherwise. Ibrahim Baker showed us a side we’d never seen.",
+    author: "Layla Day",
+    title: "Outstanding in Every Way",
+    rating: 4.2,
+    date: "2019-09-27"
   }
 ];

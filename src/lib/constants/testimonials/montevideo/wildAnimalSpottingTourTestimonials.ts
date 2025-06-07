@@ -3,74 +3,74 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const wildAnimalSpottingTourTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-montevideo-2-1",
-    quote: "This isn’t your typical tour. Ellie Nguyen makes it feel personal and engaging from the very start.",
-    author: "Allison Lewis",
-    title: "Truly Eye-Opening"
+    quote: "I wasn’t expecting to enjoy this tour so much, but Evelyn Jackson made it the highlight of our trip.",
+    author: "Laura Hernandez",
+    title: "The Ultimate Montevideo Tour",
+    rating: 4.3,
+    date: "2017-02-07"
   },
   {
     id: "testimonial-tour-montevideo-2-2",
-    quote: "This tour is a hidden gem — just like the spots Ellie Nguyen showed us around Montevideo.",
-    author: "Sophia Wilson",
-    title: "So Much More Than Expected"
+    quote: "Highly recommend this tour if you want more than just a photo op — Evelyn Jackson gives you real insight into Montevideo.",
+    author: "Pamela Dean",
+    title: "A Journey Through Montevideo's Heart",
+    rating: 4.7,
+    date: "2023-03-31"
   },
   {
     id: "testimonial-tour-montevideo-2-3",
-    quote: "Even our teens were engaged the entire time — Ellie Nguyen knows how to captivate a group!",
-    author: "Miguel Hudson",
-    title: "A Tour Even My Teenager Liked"
+    quote: "We booked last-minute and are so glad we did. Evelyn Jackson made it one of our favorite memories from Montevideo.",
+    author: "Julie Kim",
+    title: "A Journey Through Montevideo's Heart",
+    rating: 4.6,
+    date: "2023-11-28"
   },
   {
     id: "testimonial-tour-montevideo-2-4",
-    quote: "Highly recommend this tour if you want more than just a photo op — Ellie Nguyen gives you real insight into Montevideo.",
-    author: "Sean Foster",
-    title: "Wandered Far, Wondered More"
+    quote: "This tour was absolutely amazing! Evelyn Jackson knew everything about Montevideo and showed us places we would have never found on our own.",
+    author: "Sebastian Dean",
+    title: "Sunlight, Stories, and Serendipity",
+    rating: 3.7,
+    date: "2019-03-06"
   },
   {
     id: "testimonial-tour-montevideo-2-5",
-    quote: "This was more than just sightseeing — it was an unforgettable journey through Montevideo's culture and history.",
-    author: "Carlos Cooper",
-    title: "One of the Best Tours We've Taken"
+    quote: "We loved every minute of the Wild Animal Spotting Tour. Evelyn Jackson's local tips were priceless.",
+    author: "Stephanie Dixon",
+    title: "A Unique Way to Explore Montevideo",
+    rating: 4.2,
+    date: "2019-12-21"
   },
   {
     id: "testimonial-tour-montevideo-2-6",
-    quote: "I've been on many tours, but this one stands out. Ellie Nguyen was passionate, knowledgeable, and made everyone feel welcome.",
-    author: "Ava Parker",
-    title: "Insider's Perspective"
+    quote: "The small group size and personal attention from Evelyn Jackson made all the difference.",
+    author: "Sean Baker",
+    title: "A Deep Dive into Local Culture",
+    rating: 4,
+    date: "2017-07-28"
   },
   {
     id: "testimonial-tour-montevideo-2-7",
-    quote: "I wasn’t expecting to enjoy this tour so much, but Ellie Nguyen made it the highlight of our trip.",
-    author: "Samantha Martinez",
-    title: "A Deep Dive into Local Culture"
+    quote: "This was more than just sightseeing — it was an unforgettable journey through Montevideo's culture and history.",
+    author: "David Lee",
+    title: "A Tour That Feels Like a Hug",
+    rating: 3.5,
+    date: "2020-06-12"
   },
   {
     id: "testimonial-tour-montevideo-2-8",
-    quote: "Ellie Nguyen made learning about Montevideo's history genuinely exciting — not an easy task!",
-    author: "Alan Dunn",
-    title: "Hot, Sweaty, and Absolutely Worth It"
+    quote: "Thanks to Evelyn Jackson, we discovered parts of Montevideo we would have never seen on our own.",
+    author: "Brandon Singh",
+    title: "Highly Recommend to Everyone",
+    rating: 4.8,
+    date: "2020-07-16"
   },
   {
     id: "testimonial-tour-montevideo-2-9",
-    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Ellie Nguyen!",
-    author: "Isabella Ali",
-    title: "Entertaining and Educational"
-  },
-  {
-    id: "testimonial-tour-montevideo-2-10",
-    quote: "We left the Wild Animal Spotting Tour feeling more connected to Montevideo than we ever expected.",
-    author: "Priya Wells",
-    title: "Felt Like a Character in a Fairytale"
-  },
-  {
-    id: "testimonial-tour-montevideo-2-11",
-    quote: "Such a memorable way to explore Montevideo. The mix of history, local culture, and stories was perfect.",
-    author: "Angela Lee",
-    title: "An Unexpected Highlight"
-  },
-  {
-    id: "testimonial-tour-montevideo-2-12",
-    quote: "If you're visiting Montevideo, the Wild Animal Spotting Tour is a must! Ellie Nguyen made the history come alive in a way guidebooks never could.",
-    author: "Genesis White",
-    title: "A Perfect Day in Montevideo"
+    quote: "We’ll be recommending the Wild Animal Spotting Tour to all our friends. Evelyn Jackson made it that special.",
+    author: "Joshua Reeves",
+    title: "Impressive and Informative",
+    rating: 4.9,
+    date: "2020-01-24"
   }
 ];

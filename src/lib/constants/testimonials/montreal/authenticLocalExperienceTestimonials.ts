@@ -3,50 +3,82 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const authenticLocalExperienceTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-montreal-5-1",
-    quote: "The Authentic Local Experience completely changed how I see Montreal. Javier Brown's insights were invaluable.",
-    author: "Billy Wang",
-    title: "Worth Every Penny"
+    quote: "We were blown away by the depth of knowledge and warmth Arthur Brooks brought to the tour.",
+    author: "Aaron Jansen",
+    title: "Incredible from Start to Finish",
+    rating: 4.7,
+    date: "2018-05-17"
   },
   {
     id: "testimonial-tour-montreal-5-2",
-    quote: "I’ve taken dozens of tours in different countries. Javier Brown ranks among the very best.",
-    author: "Riley Jones",
-    title: "If Cities Had Souls, Montreal Sang to Us"
+    quote: "I felt like I was being shown around by a friend who knows all the secrets of Montreal.",
+    author: "Douglas Maxwell",
+    title: "Hot, Sweaty, and Absolutely Worth It",
+    rating: 3.7,
+    date: "2020-01-19"
   },
   {
     id: "testimonial-tour-montreal-5-3",
-    quote: "I was nervous about joining a group tour, but Javier Brown made everyone feel like part of the crew.",
-    author: "Kinsley Morales",
-    title: "Sunlight, Stories, and Serendipity"
+    quote: "We had limited time in Montreal, and this tour made sure we saw the best of it. Arthur Brooks was amazing.",
+    author: "Elizabeth Watson",
+    title: "A Journey Through Montreal's Wonders",
+    rating: 4.5,
+    date: "2025-03-17"
   },
   {
     id: "testimonial-tour-montreal-5-4",
-    quote: "I thought I knew Montreal, but this tour proved otherwise. Javier Brown showed us a side we’d never seen.",
-    author: "Miguel Graham",
-    title: "So Glad We Did This"
+    quote: "Arthur Brooks was incredibly accommodating and answered every question with patience and detail.",
+    author: "Ethan Watson",
+    title: "A Walk That Will Make You Smile",
+    rating: 3.9,
+    date: "2024-06-11"
   },
   {
     id: "testimonial-tour-montreal-5-5",
-    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Javier Brown.",
-    author: "Samantha Rodriguez",
-    title: "More Enchanting Than Expected"
+    quote: "If you only have time for one activity in Montreal, make it the Authentic Local Experience. You won’t regret it.",
+    author: "Sophia Spencer",
+    title: "A Tour That Feels Like a Movie",
+    rating: 4.1,
+    date: "2018-09-04"
   },
   {
     id: "testimonial-tour-montreal-5-6",
-    quote: "As a solo traveler, I felt completely comfortable on this tour. Javier Brown created a friendly atmosphere from the start.",
-    author: "Roy Anderson",
-    title: "Exceptional Tour Guide"
+    quote: "We booked last-minute and are so glad we did. Arthur Brooks made it one of our favorite memories from Montreal.",
+    author: "Patrick Kowalski",
+    title: "History, Snacks, and Laughs—Yes Please!",
+    rating: 4.8,
+    date: "2019-06-27"
   },
   {
     id: "testimonial-tour-montreal-5-7",
-    quote: "We left the Authentic Local Experience feeling more connected to Montreal than we ever expected.",
-    author: "Melissa Chen",
-    title: "An Unexpected Highlight"
+    quote: "It felt like a private tour, even though we were with a group. Arthur Brooks is incredibly engaging.",
+    author: "Joel Dunn",
+    title: "A Unique Way to Explore Montreal",
+    rating: 3.7,
+    date: "2024-07-05"
   },
   {
     id: "testimonial-tour-montreal-5-8",
-    quote: "What a fantastic way to start our stay in Montreal. Javier Brown gave us a great foundation for exploring more on our own.",
-    author: "Rebecca Hunter",
-    title: "History Comes Alive"
+    quote: "We had limited time in Montreal, and this tour made sure we saw the best of it. Arthur Brooks was amazing.",
+    author: "Amanda Wilson",
+    title: "Whispers of the Past, Echoes of Joy",
+    rating: 4.7,
+    date: "2018-01-27"
+  },
+  {
+    id: "testimonial-tour-montreal-5-9",
+    quote: "Arthur Brooks made learning about Montreal's history genuinely exciting — not an easy task!",
+    author: "Angela Maxwell",
+    title: "Loved Every Minute",
+    rating: 4.7,
+    date: "2017-11-18"
+  },
+  {
+    id: "testimonial-tour-montreal-5-10",
+    quote: "Our family loved every moment of the Authentic Local Experience. Arthur Brooks even made it fun for our kids.",
+    author: "Gabriel Griffin",
+    title: "A Tour That Feels Like a Dream",
+    rating: 4.9,
+    date: "2019-01-06"
   }
 ];

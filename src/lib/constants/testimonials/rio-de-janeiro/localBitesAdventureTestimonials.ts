@@ -3,80 +3,98 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const localBitesAdventureTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-rio-de-janeiro-3-1",
-    quote: "My husband and I agreed this was the best part of our entire trip to Rio De Janeiro.",
-    author: "Claire Dixon",
-    title: "So Much More Than Expected"
+    quote: "We left the Local Bites Adventure feeling more connected to Rio De Janeiro than we ever expected.",
+    author: "Sandra Graham",
+    title: "Bought the T-Shirt, Took the Tour, Loved It",
+    rating: 4.5,
+    date: "2021-11-15"
   },
   {
     id: "testimonial-tour-rio-de-janeiro-3-2",
-    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Thomas Wilson.",
-    author: "Arthur Clark",
-    title: "Best Tour in Rio De Janeiro"
+    quote: "Such a memorable way to explore Rio De Janeiro. The mix of history, local culture, and stories was perfect.",
+    author: "Sarah Anderson",
+    title: "A Journey Through Rio De Janeiro's Hidden Treasures",
+    rating: 4.1,
+    date: "2022-07-11"
   },
   {
     id: "testimonial-tour-rio-de-janeiro-3-3",
-    quote: "We were blown away by the depth of knowledge and warmth Thomas Wilson brought to the tour.",
-    author: "Emily Wood",
-    title: "More Enchanting Than Expected"
+    quote: "We left the Local Bites Adventure feeling more connected to Rio De Janeiro than we ever expected.",
+    author: "Sophia West",
+    title: "A Must-Do in Rio De Janeiro",
+    rating: 4.6,
+    date: "2022-04-23"
   },
   {
     id: "testimonial-tour-rio-de-janeiro-3-4",
-    quote: "Thomas Wilson went above and beyond to make sure everyone had a great time on the Local Bites Adventure.",
-    author: "Nicholas Rodriguez",
-    title: "Local Experience Made Easy"
+    quote: "Lucas Rodriguez brought a depth of cultural insight that gave us a new appreciation for Rio De Janeiro.",
+    author: "Madelyn Price",
+    title: "Bought the T-Shirt, Took the Tour, Loved It",
+    rating: 4.5,
+    date: "2017-05-05"
   },
   {
     id: "testimonial-tour-rio-de-janeiro-3-5",
-    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Thomas Wilson.",
-    author: "Claire Jackson",
-    title: "A Day to Remember"
+    quote: "I can't recommend the Local Bites Adventure enough. Lucas Rodriguez was phenomenal, and the experience was worth every penny.",
+    author: "Jordan Suzuki",
+    title: "A Tour That Feels Like a Fairytale",
+    rating: 3.7,
+    date: "2022-01-22"
   },
   {
     id: "testimonial-tour-rio-de-janeiro-3-6",
-    quote: "The Local Bites Adventure was both entertaining and educational. Thomas Wilson has a gift for storytelling that brings Rio De Janeiro's history to life.",
-    author: "Harold Morales",
-    title: "Whispers of the Past, Echoes of Joy"
+    quote: "The stories, the hidden gems, the expert navigation — Lucas Rodriguez delivered on all fronts.",
+    author: "James Lawson",
+    title: "A Walk That Will Make You Want to Explore More",
+    rating: 3.5,
+    date: "2019-06-02"
   },
   {
     id: "testimonial-tour-rio-de-janeiro-3-7",
-    quote: "Thanks to Thomas Wilson, we discovered parts of Rio De Janeiro we would have never seen on our own.",
-    author: "Riley Stewart",
-    title: "Learned So Much!"
+    quote: "What a fantastic way to start our stay in Rio De Janeiro. Lucas Rodriguez gave us a great foundation for exploring more on our own.",
+    author: "Mark Griffin",
+    title: "A Tour Even My Teenager Liked",
+    rating: 3.8,
+    date: "2023-09-04"
   },
   {
     id: "testimonial-tour-rio-de-janeiro-3-8",
-    quote: "Even our teens were engaged the entire time — Thomas Wilson knows how to captivate a group!",
-    author: "Patrick Reed",
-    title: "Highly Recommend to Everyone"
+    quote: "One of the best decisions of our trip! Lucas Rodriguez is a fantastic guide and brought incredible energy to the tour.",
+    author: "Isabella Marshall",
+    title: "Where Magic Meets Cobblestone",
+    rating: 3.6,
+    date: "2019-01-15"
   },
   {
     id: "testimonial-tour-rio-de-janeiro-3-9",
-    quote: "A truly authentic experience! Thomas Wilson showed us the real Rio De Janeiro, not just the tourist spots.",
-    author: "James Young",
-    title: "A Perfect Day in Rio De Janeiro"
+    quote: "As someone who's been to Rio De Janeiro before, I was surprised at how much I learned on the Local Bites Adventure. Lucas Rodriguez is a treasure trove of information!",
+    author: "Joe Payne",
+    title: "Highly Recommend to Everyone",
+    rating: 4.2,
+    date: "2021-10-22"
   },
   {
     id: "testimonial-tour-rio-de-janeiro-3-10",
-    quote: "We were blown away by the depth of knowledge and warmth Thomas Wilson brought to the tour.",
-    author: "Fatima Payne",
-    title: "Got Lost (on Purpose) with {GUIDE_NAME}"
+    quote: "The Local Bites Adventure was both entertaining and educational. Lucas Rodriguez has a gift for storytelling that brings Rio De Janeiro's history to life.",
+    author: "Linda Johnson",
+    title: "A Walk That Will Make You Want to Dance",
+    rating: 4.5,
+    date: "2021-07-17"
   },
   {
     id: "testimonial-tour-rio-de-janeiro-3-11",
-    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Thomas Wilson.",
-    author: "Henry Dunn",
-    title: "Impressive and Informative"
+    quote: "It felt like a private tour, even though we were with a group. Lucas Rodriguez is incredibly engaging.",
+    author: "Henry Henderson",
+    title: "Local Experience Made Easy",
+    rating: 3.8,
+    date: "2023-12-06"
   },
   {
     id: "testimonial-tour-rio-de-janeiro-3-12",
-    quote: "This tour gave us a much deeper connection to Rio De Janeiro. Thomas Wilson's passion really shines through.",
-    author: "Ella Hayes",
-    title: "Best Tour in Rio De Janeiro"
-  },
-  {
-    id: "testimonial-tour-rio-de-janeiro-3-13",
-    quote: "We’ll be recommending the Local Bites Adventure to all our friends. Thomas Wilson made it that special.",
-    author: "Layla Chambers",
-    title: "Unforgettable Experience"
+    quote: "My acquaintance and I agreed this was the best part of our entire trip to Rio De Janeiro.",
+    author: "Louis Rodriguez",
+    title: "A Walk That Changed Everything",
+    rating: 5,
+    date: "2024-12-15"
   }
 ];

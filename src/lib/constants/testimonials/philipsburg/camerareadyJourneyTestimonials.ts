@@ -3,74 +3,82 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const camerareadyJourneyTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-philipsburg-1-1",
-    quote: "Such a memorable way to explore Philipsburg. The mix of history, local culture, and stories was perfect.",
-    author: "James Martin",
-    title: "Bought the T-Shirt, Took the Tour, Loved It"
+    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Nora Morgan.",
+    author: "Mary Garcia",
+    title: "So Much More Than Expected",
+    rating: 4.4,
+    date: "2024-06-06"
   },
   {
     id: "testimonial-tour-philipsburg-1-2",
-    quote: "This tour is a hidden gem — just like the spots Jennifer Holloway showed us around Philipsburg.",
-    author: "Mary Rodriguez",
-    title: "Unforgettable Experience"
+    quote: "What a fantastic way to start our stay in Philipsburg. Nora Morgan gave us a great foundation for exploring more on our own.",
+    author: "Ralph Khan",
+    title: "A Tour to Remember",
+    rating: 4.3,
+    date: "2019-12-20"
   },
   {
     id: "testimonial-tour-philipsburg-1-3",
-    quote: "From beginning to end, the Camera-Ready Journey was seamless and so well organized.",
-    author: "Austin Kim",
-    title: "A Stroll Through a Living Storybook"
+    quote: "We got so much value from this tour. Nora Morgan took us to places we would have never discovered on our own.",
+    author: "Alan Graves",
+    title: "A Walk That Will Make You Feel Alive",
+    rating: 3.6,
+    date: "2024-02-19"
   },
   {
     id: "testimonial-tour-philipsburg-1-4",
-    quote: "We left the Camera-Ready Journey feeling more connected to Philipsburg than we ever expected.",
-    author: "William Dixon",
-    title: "Where Magic Meets Cobblestone"
+    quote: "Thanks to Nora Morgan, we discovered parts of Philipsburg we would have never seen on our own.",
+    author: "Billy Watson",
+    title: "Learned Stuff, Didn’t Cry—Success!",
+    rating: 3.6,
+    date: "2022-05-13"
   },
   {
     id: "testimonial-tour-philipsburg-1-5",
-    quote: "The Camera-Ready Journey was the highlight of our trip to Philipsburg. Jennifer Holloway took us to all the best spots and shared fascinating stories.",
-    author: "Aaliyah Brooks",
-    title: "The Walking Was Free—The Laughs Were Priceless"
+    quote: "The small group size and personal attention from Nora Morgan made all the difference.",
+    author: "Santiago Lee",
+    title: "Learned So Much!",
+    rating: 3.5,
+    date: "2019-05-20"
   },
   {
     id: "testimonial-tour-philipsburg-1-6",
-    quote: "Such a memorable way to explore Philipsburg. The mix of history, local culture, and stories was perfect.",
-    author: "Abigail King",
-    title: "The Walking Was Free—The Laughs Were Priceless"
+    quote: "Nora Morgan had such a great balance of history, fun facts, and local stories — truly a gifted guide.",
+    author: "Patricia Foster",
+    title: "Best Tour in Philipsburg",
+    rating: 3.9,
+    date: "2017-03-16"
   },
   {
     id: "testimonial-tour-philipsburg-1-7",
-    quote: "The stories, the hidden gems, the expert navigation — Jennifer Holloway delivered on all fronts.",
-    author: "Carl Wallace",
-    title: "So Glad We Did This"
+    quote: "What a fantastic way to start our stay in Philipsburg. Nora Morgan gave us a great foundation for exploring more on our own.",
+    author: "Gary Stewart",
+    title: "The Ultimate Philipsburg Tour",
+    rating: 3.6,
+    date: "2020-01-02"
   },
   {
     id: "testimonial-tour-philipsburg-1-8",
-    quote: "This tour is a hidden gem — just like the spots Jennifer Holloway showed us around Philipsburg.",
-    author: "Brandon Hunter",
-    title: "Highlight of Our Trip"
+    quote: "We got so much value from this tour. Nora Morgan took us to places we would have never discovered on our own.",
+    author: "Dorothy Dunn",
+    title: "Best Tour in Philipsburg",
+    rating: 4.5,
+    date: "2017-12-05"
   },
   {
     id: "testimonial-tour-philipsburg-1-9",
-    quote: "One of the best decisions of our trip! Jennifer Holloway is a fantastic guide and brought incredible energy to the tour.",
-    author: "Dylan Harris",
-    title: "Hidden Gems of Philipsburg"
+    quote: "I was nervous about joining a group tour, but Nora Morgan made everyone feel like part of the crew.",
+    author: "Douglas Jennings",
+    title: "A Walk That Will Make You Want to Explore More",
+    rating: 4.5,
+    date: "2018-05-26"
   },
   {
     id: "testimonial-tour-philipsburg-1-10",
-    quote: "What a fantastic way to start our stay in Philipsburg. Jennifer Holloway gave us a great foundation for exploring more on our own.",
-    author: "Kyle Williams",
-    title: "Cultural Immersion at Its Best"
-  },
-  {
-    id: "testimonial-tour-philipsburg-1-11",
-    quote: "So much fun, and so informative! Jennifer Holloway's enthusiasm is contagious.",
-    author: "Dennis Hawkins",
-    title: "Outstanding in Every Way"
-  },
-  {
-    id: "testimonial-tour-philipsburg-1-12",
-    quote: "Jennifer Holloway had such a great balance of history, fun facts, and local stories — truly a gifted guide.",
-    author: "Donna Reed",
-    title: "Brought Philipsburg to Life"
+    quote: "This was more than just sightseeing — it was an unforgettable journey through Philipsburg's culture and history.",
+    author: "Matthew White",
+    title: "Highly Recommend to Everyone",
+    rating: 4.6,
+    date: "2017-03-01"
   }
 ];

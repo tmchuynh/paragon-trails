@@ -3,68 +3,74 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const seasideRelaxationJourneyTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-st-thomas-4-1",
-    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Brooklyn Collins!",
-    author: "Michael Russell",
-    title: "More Enchanting Than Expected"
+    quote: "I was nervous about joining a group tour, but Michael Nguyen made everyone feel like part of the crew.",
+    author: "Zachary Mitchell",
+    title: "A Walk That Will Make You Believe in Magic",
+    rating: 4.8,
+    date: "2017-08-03"
   },
   {
     id: "testimonial-tour-st-thomas-4-2",
-    quote: "Such a memorable way to explore St Thomas. The mix of history, local culture, and stories was perfect.",
-    author: "Michael Hayes",
-    title: "An Authentic Slice of St Thomas"
+    quote: "The Seaside Relaxation Journey was the highlight of our trip to St Thomas. Michael Nguyen took us to all the best spots and shared fascinating stories.",
+    author: "Arthur Lopez",
+    title: "A Tour That Feels Like a Fairytale",
+    rating: 4.1,
+    date: "2017-03-17"
   },
   {
     id: "testimonial-tour-st-thomas-4-3",
-    quote: "If you only have time for one activity in St Thomas, make it the Seaside Relaxation Journey. You won’t regret it.",
-    author: "Gabriella Young",
-    title: "Lost in Time—in the Best Way"
+    quote: "This was more than just sightseeing — it was an unforgettable journey through St Thomas's culture and history.",
+    author: "Riley Brooks",
+    title: "A Journey Through St Thomas's Charm",
+    rating: 4.6,
+    date: "2018-10-19"
   },
   {
     id: "testimonial-tour-st-thomas-4-4",
-    quote: "My sibling and I had the best time on this tour. Brooklyn Collins's knowledge of St Thomas made it so much more special.",
-    author: "Naomi Patel",
-    title: "We’ll Never Forget This"
+    quote: "As someone who's been to St Thomas before, I was surprised at how much I learned on the Seaside Relaxation Journey. Michael Nguyen is a treasure trove of information!",
+    author: "Ibrahim Gibson",
+    title: "A Walk That Will Make You Want to Stay",
+    rating: 4.8,
+    date: "2020-09-07"
   },
   {
     id: "testimonial-tour-st-thomas-4-5",
-    quote: "I wasn’t expecting to enjoy this tour so much, but Brooklyn Collins made it the highlight of our trip.",
-    author: "Aria Curtis",
-    title: "Exceptional Tour Guide"
+    quote: "The Seaside Relaxation Journey was the highlight of our trip to St Thomas. Michael Nguyen took us to all the best spots and shared fascinating stories.",
+    author: "Mary Cooper",
+    title: "Unforgettable Experience",
+    rating: 4.8,
+    date: "2017-01-22"
   },
   {
     id: "testimonial-tour-st-thomas-4-6",
-    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Brooklyn Collins!",
-    author: "Hassan Stewart",
-    title: "Bought the T-Shirt, Took the Tour, Loved It"
+    quote: "As someone who's been to St Thomas before, I was surprised at how much I learned on the Seaside Relaxation Journey. Michael Nguyen is a treasure trove of information!",
+    author: "Tyler Miller",
+    title: "Insider's Perspective",
+    rating: 4.6,
+    date: "2018-02-18"
   },
   {
     id: "testimonial-tour-st-thomas-4-7",
-    quote: "One of the best decisions of our trip! Brooklyn Collins is a fantastic guide and brought incredible energy to the tour.",
-    author: "Anthony Ellis",
-    title: "Memorable from the First Step"
+    quote: "A truly authentic experience! Michael Nguyen showed us the real St Thomas, not just the tourist spots.",
+    author: "Javier Nguyen",
+    title: "A Deep Dive into Local Culture",
+    rating: 4.4,
+    date: "2022-10-10"
   },
   {
     id: "testimonial-tour-st-thomas-4-8",
-    quote: "The Seaside Relaxation Journey was both entertaining and educational. Brooklyn Collins has a gift for storytelling that brings St Thomas's history to life.",
-    author: "Ahmed Watson",
-    title: "An Unexpected Highlight"
+    quote: "Michael Nguyen brought a depth of cultural insight that gave us a new appreciation for St Thomas.",
+    author: "Omar Hudson",
+    title: "A Walk That Will Make You Fall in Love with St Thomas",
+    rating: 3.6,
+    date: "2018-12-05"
   },
   {
     id: "testimonial-tour-st-thomas-4-9",
-    quote: "The Seaside Relaxation Journey completely changed how I see St Thomas. Brooklyn Collins's insights were invaluable.",
-    author: "Roger Chen",
-    title: "A Unique Way to Explore St Thomas"
-  },
-  {
-    id: "testimonial-tour-st-thomas-4-10",
-    quote: "What an engaging experience! Brooklyn Collins kept us laughing and learning throughout the Seaside Relaxation Journey.",
-    author: "Ahmed Jansen",
-    title: "Entertaining and Educational"
-  },
-  {
-    id: "testimonial-tour-st-thomas-4-11",
-    quote: "So much fun, and so informative! Brooklyn Collins's enthusiasm is contagious.",
-    author: "Kyle Nguyen",
-    title: "Bought the T-Shirt, Took the Tour, Loved It"
+    quote: "What a fantastic way to start our stay in St Thomas. Michael Nguyen gave us a great foundation for exploring more on our own.",
+    author: "Isabella Jones",
+    title: "Exceptional Tour Guide",
+    rating: 4.2,
+    date: "2020-11-25"
   }
 ];

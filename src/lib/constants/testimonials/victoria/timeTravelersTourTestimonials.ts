@@ -3,62 +3,98 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const timeTravelersTourTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-victoria-1-1",
-    quote: "A truly authentic experience! Victor Gibson showed us the real Victoria, not just the tourist spots.",
-    author: "Javier Foster",
-    title: "The Walking Was Free—The Laughs Were Priceless"
+    quote: "What a fantastic way to start our stay in Victoria. Victoria Gonzalez gave us a great foundation for exploring more on our own.",
+    author: "Rebecca Nakamura",
+    title: "A Walk That Will Make You Want to Dance",
+    rating: 4.8,
+    date: "2024-09-01"
   },
   {
     id: "testimonial-tour-victoria-1-2",
-    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Victor Gibson.",
-    author: "Diego Curtis",
-    title: "A New Favorite Memory"
+    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Victoria Gonzalez!",
+    author: "Hannah Ali",
+    title: "A Walk That Will Make You Want to Explore More",
+    rating: 4.9,
+    date: "2022-01-01"
   },
   {
     id: "testimonial-tour-victoria-1-3",
-    quote: "Absolutely worth it. Victor Gibson took care of everything so we could just relax and enjoy Victoria.",
-    author: "Sarah Johnson",
-    title: "Best Tour in Victoria"
+    quote: "We were blown away by the depth of knowledge and warmth Victoria Gonzalez brought to the tour.",
+    author: "Skylar da Costa",
+    title: "Unforgettable Experience",
+    rating: 4.8,
+    date: "2018-12-20"
   },
   {
     id: "testimonial-tour-victoria-1-4",
-    quote: "Victor Gibson brought a depth of cultural insight that gave us a new appreciation for Victoria.",
-    author: "Adam Russell",
-    title: "An Authentic Slice of Victoria"
+    quote: "Our family loved every moment of the Time Traveler's Tour. Victoria Gonzalez even made it fun for our kids.",
+    author: "Virginia Cooper",
+    title: "Sunlight, Stories, and Serendipity",
+    rating: 3.9,
+    date: "2018-03-25"
   },
   {
     id: "testimonial-tour-victoria-1-5",
-    quote: "Our family loved every moment of the Time Traveler's Tour. Victor Gibson even made it fun for our kids.",
-    author: "Amina Taylor",
-    title: "Learned So Much!"
+    quote: "Victoria Gonzalez brought a depth of cultural insight that gave us a new appreciation for Victoria.",
+    author: "Anthony Dunn",
+    title: "A Walk That Will Make You Laugh",
+    rating: 4.9,
+    date: "2019-05-19"
   },
   {
     id: "testimonial-tour-victoria-1-6",
-    quote: "If you only have time for one activity in Victoria, make it the Time Traveler's Tour. You won’t regret it.",
-    author: "Priya Williams",
-    title: "Unforgettable Experience"
+    quote: "What an engaging experience! Victoria Gonzalez kept us laughing and learning throughout the Time Traveler's Tour.",
+    author: "Virginia Dean",
+    title: "Followed the Guide, Found a Dream",
+    rating: 3.6,
+    date: "2017-09-21"
   },
   {
     id: "testimonial-tour-victoria-1-7",
-    quote: "Highly recommend this tour if you want more than just a photo op — Victor Gibson gives you real insight into Victoria.",
-    author: "Ava Douglas",
-    title: "Outstanding in Every Way"
+    quote: "A truly authentic experience! Victoria Gonzalez showed us the real Victoria, not just the tourist spots.",
+    author: "Ahmed Price",
+    title: "A Tour to Remember",
+    rating: 3.7,
+    date: "2024-06-17"
   },
   {
     id: "testimonial-tour-victoria-1-8",
-    quote: "I can't recommend the Time Traveler's Tour enough. Victor Gibson was phenomenal, and the experience was worth every penny.",
-    author: "Stephanie Bennett",
-    title: "Highlight of Our Trip"
+    quote: "The stories, the hidden gems, the expert navigation — Victoria Gonzalez delivered on all fronts.",
+    author: "Bella Dixon",
+    title: "A Deep Dive into Local Culture",
+    rating: 4.2,
+    date: "2018-09-22"
   },
   {
     id: "testimonial-tour-victoria-1-9",
-    quote: "Such a memorable way to explore Victoria. The mix of history, local culture, and stories was perfect.",
-    author: "Mary Curtis",
-    title: "Memorable from the First Step"
+    quote: "I thought I knew Victoria, but this tour proved otherwise. Victoria Gonzalez showed us a side we’d never seen.",
+    author: "Steven West",
+    title: "Highly Recommend to Everyone",
+    rating: 4.3,
+    date: "2025-02-09"
   },
   {
     id: "testimonial-tour-victoria-1-10",
-    quote: "If you only have time for one activity in Victoria, make it the Time Traveler's Tour. You won’t regret it.",
-    author: "Samantha Young",
-    title: "Got Lost (on Purpose) with {GUIDE_NAME}"
+    quote: "As a solo traveler, I felt completely comfortable on this tour. Victoria Gonzalez created a friendly atmosphere from the start.",
+    author: "Brian Anderson",
+    title: "A Walk That Will Make You Fall in Love with Victoria",
+    rating: 4.1,
+    date: "2021-01-29"
+  },
+  {
+    id: "testimonial-tour-victoria-1-11",
+    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Victoria Gonzalez!",
+    author: "Helen Ali",
+    title: "A Tour That Feels Like a Dream",
+    rating: 3.8,
+    date: "2023-11-08"
+  },
+  {
+    id: "testimonial-tour-victoria-1-12",
+    quote: "I’ve taken dozens of tours in different countries. Victoria Gonzalez ranks among the very best.",
+    author: "Aria Hawkins",
+    title: "The Walking Was Free—The Laughs Were Priceless",
+    rating: 4.7,
+    date: "2019-03-20"
   }
 ];

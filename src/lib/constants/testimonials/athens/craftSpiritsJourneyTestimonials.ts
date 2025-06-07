@@ -3,86 +3,106 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const craftSpiritsJourneyTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-athens-1-1",
-    quote: "Absolutely worth it. Russell Chen took care of everything so we could just relax and enjoy Athens.",
-    author: "Barbara Hunter",
-    title: "Beyond Our Expectations"
+    quote: "If you only have time for one activity in Athens, make it the Craft Spirits Journey. You won’t regret it.",
+    author: "Anthony Silva",
+    title: "Hidden Gems of Athens",
+    rating: 3.9,
+    date: "2017-04-03"
   },
   {
     id: "testimonial-tour-athens-1-2",
-    quote: "Our family loved every moment of the Craft Spirits Journey. Russell Chen even made it fun for our kids.",
-    author: "Thandiwe Clark",
-    title: "Unforgettable Experience"
+    quote: "Kevin Harper made learning about Athens's history genuinely exciting — not an easy task!",
+    author: "Matthew Watson",
+    title: "History Comes Alive",
+    rating: 4.1,
+    date: "2020-11-26"
   },
   {
     id: "testimonial-tour-athens-1-3",
-    quote: "Russell Chen was incredibly accommodating and answered every question with patience and detail.",
-    author: "Mohamed Williams",
-    title: "Learned So Much!"
+    quote: "The Craft Spirits Journey completely changed how I see Athens. Kevin Harper's insights were invaluable.",
+    author: "Gabriella Hunter",
+    title: "Memorable from the First Step",
+    rating: 4.8,
+    date: "2021-11-18"
   },
   {
     id: "testimonial-tour-athens-1-4",
-    quote: "Our family loved every moment of the Craft Spirits Journey. Russell Chen even made it fun for our kids.",
-    author: "Amanda Harris",
-    title: "Highly Recommend to Everyone"
+    quote: "The Craft Spirits Journey was both entertaining and educational. Kevin Harper has a gift for storytelling that brings Athens's history to life.",
+    author: "Julie Hall",
+    title: "The Best Way to See Athens",
+    rating: 4.1,
+    date: "2020-05-27"
   },
   {
     id: "testimonial-tour-athens-1-5",
-    quote: "We’ll be recommending the Craft Spirits Journey to all our friends. Russell Chen made it that special.",
-    author: "Rajesh Jackson",
-    title: "Wandered Far, Wondered More"
+    quote: "The Craft Spirits Journey was both entertaining and educational. Kevin Harper has a gift for storytelling that brings Athens's history to life.",
+    author: "Henry King",
+    title: "The Walking Was Free—The Laughs Were Priceless",
+    rating: 3.7,
+    date: "2021-06-08"
   },
   {
     id: "testimonial-tour-athens-1-6",
-    quote: "As someone who's been to Athens before, I was surprised at how much I learned on the Craft Spirits Journey. Russell Chen is a treasure trove of information!",
-    author: "Khalid Griffin",
-    title: "Got Lost (on Purpose) with {GUIDE_NAME}"
+    quote: "What an engaging experience! Kevin Harper kept us laughing and learning throughout the Craft Spirits Journey.",
+    author: "Christian Khan",
+    title: "A Deep Dive into Local Culture",
+    rating: 4,
+    date: "2017-10-03"
   },
   {
     id: "testimonial-tour-athens-1-7",
-    quote: "Such a memorable way to explore Athens. The mix of history, local culture, and stories was perfect.",
-    author: "Michael Palmer",
-    title: "Brought Athens to Life"
+    quote: "As someone who's been to Athens before, I was surprised at how much I learned on the Craft Spirits Journey. Kevin Harper is a treasure trove of information!",
+    author: "Amelia Graham",
+    title: "Exceptional Tour Guide",
+    rating: 4.9,
+    date: "2018-05-27"
   },
   {
     id: "testimonial-tour-athens-1-8",
-    quote: "My acquaintance and I agreed this was the best part of our entire trip to Athens.",
-    author: "Ralph Mitchell",
-    title: "A Deep Dive into Local Culture"
+    quote: "Kevin Harper shared personal stories that really brought Athens to life for us. A truly memorable tour.",
+    author: "Rachel Reeves",
+    title: "A Tour That Feels Like a Celebration",
+    rating: 3.9,
+    date: "2024-06-28"
   },
   {
     id: "testimonial-tour-athens-1-9",
-    quote: "We got so much value from this tour. Russell Chen took us to places we would have never discovered on our own.",
-    author: "Nicole Wood",
-    title: "Local Experience Made Easy"
+    quote: "I felt like I was being shown around by a friend who knows all the secrets of Athens.",
+    author: "Kevin Parker",
+    title: "A Tour That Feels Like a Movie",
+    rating: 3.9,
+    date: "2023-07-16"
   },
   {
     id: "testimonial-tour-athens-1-10",
-    quote: "The pace was perfect, the content was rich, and Russell Chen made every stop memorable.",
-    author: "Darrell Mason",
-    title: "A Must-Do in Athens"
+    quote: "Highly recommend this tour if you want more than just a photo op — Kevin Harper gives you real insight into Athens.",
+    author: "Dennis Hawkins",
+    title: "Highly Recommend to Everyone",
+    rating: 4.9,
+    date: "2025-04-14"
   },
   {
     id: "testimonial-tour-athens-1-11",
-    quote: "Our family loved every moment of the Craft Spirits Journey. Russell Chen even made it fun for our kids.",
-    author: "Kinsley Edwards",
-    title: "Got Lost (on Purpose) with {GUIDE_NAME}"
+    quote: "Kevin Harper went above and beyond to make sure everyone had a great time on the Craft Spirits Journey.",
+    author: "Bryan Sutton",
+    title: "A Tour That Feels Like a Celebration",
+    rating: 4.4,
+    date: "2018-12-16"
   },
   {
     id: "testimonial-tour-athens-1-12",
-    quote: "We booked last-minute and are so glad we did. Russell Chen made it one of our favorite memories from Athens.",
-    author: "Logan Spencer",
-    title: "Hot, Sweaty, and Absolutely Worth It"
+    quote: "We booked last-minute and are so glad we did. Kevin Harper made it one of our favorite memories from Athens.",
+    author: "Miguel Miller",
+    title: "A Journey Through Athens's Secrets",
+    rating: 4.2,
+    date: "2019-03-31"
   },
   {
     id: "testimonial-tour-athens-1-13",
-    quote: "As someone who's been to Athens before, I was surprised at how much I learned on the Craft Spirits Journey. Russell Chen is a treasure trove of information!",
-    author: "Barbara Hernandez",
-    title: "Highlight of Our Trip"
-  },
-  {
-    id: "testimonial-tour-athens-1-14",
-    quote: "What an engaging experience! Russell Chen kept us laughing and learning throughout the Craft Spirits Journey.",
-    author: "Caroline Wells",
-    title: "Worth Every Penny"
+    quote: "From beginning to end, the Craft Spirits Journey was seamless and so well organized.",
+    author: "Lucas Martin",
+    title: "A Tour That Feels Like a Fairytale",
+    rating: 4.2,
+    date: "2023-09-14"
   }
 ];

@@ -3,98 +3,74 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const culturalHeritageJourneyTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-oslo-5-1",
-    quote: "One of the best decisions of our trip! Harold Miller is a fantastic guide and brought incredible energy to the tour.",
-    author: "Brooklyn Rossi",
-    title: "Unforgettable Experience"
+    quote: "Absolutely worth it. Michelle Foster took care of everything so we could just relax and enjoy Oslo.",
+    author: "Henry Maxwell",
+    title: "A Day to Remember",
+    rating: 3.8,
+    date: "2022-05-22"
   },
   {
     id: "testimonial-tour-oslo-5-2",
-    quote: "The Cultural Heritage Journey was the highlight of our trip to Oslo. Harold Miller took us to all the best spots and shared fascinating stories.",
-    author: "Skylar Martin",
-    title: "I Came, I Saw, I Took Too Many Photos"
+    quote: "This isn’t your typical tour. Michelle Foster makes it feel personal and engaging from the very start.",
+    author: "Mei White",
+    title: "Well Worth Your Time",
+    rating: 4.6,
+    date: "2020-02-10"
   },
   {
     id: "testimonial-tour-oslo-5-3",
-    quote: "This tour gave us a much deeper connection to Oslo. Harold Miller's passion really shines through.",
-    author: "Logan Ivanov",
-    title: "Unforgettable Experience"
+    quote: "We’ll be recommending the Cultural Heritage Journey to all our friends. Michelle Foster made it that special.",
+    author: "Emily Thomas",
+    title: "Followed the Guide, Found a Dream",
+    rating: 4.3,
+    date: "2018-04-03"
   },
   {
     id: "testimonial-tour-oslo-5-4",
-    quote: "So much fun, and so informative! Harold Miller's enthusiasm is contagious.",
-    author: "Jennifer Coleman",
-    title: "Sunlight, Stories, and Serendipity"
+    quote: "From beginning to end, the Cultural Heritage Journey was seamless and so well organized.",
+    author: "Gabriel Taylor",
+    title: "A Journey Through Oslo's Culture",
+    rating: 4.7,
+    date: "2023-12-14"
   },
   {
     id: "testimonial-tour-oslo-5-5",
-    quote: "The Cultural Heritage Journey was the highlight of our trip to Oslo. Harold Miller took us to all the best spots and shared fascinating stories.",
-    author: "Kennedy Brown",
-    title: "The Walking Was Free—The Laughs Were Priceless"
+    quote: "This was not just sightseeing — it was a deep dive into the heart of Oslo thanks to Michelle Foster.",
+    author: "Lerato Clark",
+    title: "A Tour to Remember",
+    rating: 3.7,
+    date: "2021-12-03"
   },
   {
     id: "testimonial-tour-oslo-5-6",
-    quote: "Harold Miller made learning about Oslo's history genuinely exciting — not an easy task!",
-    author: "Joel Russell",
-    title: "Top-Notch Guiding"
+    quote: "Thanks to Michelle Foster, we discovered parts of Oslo we would have never seen on our own.",
+    author: "Alice Hamilton",
+    title: "A Walk That Will Make You Believe in Magic",
+    rating: 3.9,
+    date: "2022-06-06"
   },
   {
     id: "testimonial-tour-oslo-5-7",
-    quote: "Even our teens were engaged the entire time — Harold Miller knows how to captivate a group!",
-    author: "Elizabeth Graves",
-    title: "Insider's Perspective"
+    quote: "This tour is a hidden gem — just like the spots Michelle Foster showed us around Oslo.",
+    author: "Olivia Taylor",
+    title: "Felt Like a Character in a Fairytale",
+    rating: 3.6,
+    date: "2022-10-08"
   },
   {
     id: "testimonial-tour-oslo-5-8",
-    quote: "A truly authentic experience! Harold Miller showed us the real Oslo, not just the tourist spots.",
-    author: "Hassan Suzuki",
-    title: "The Real Oslo Experience"
+    quote: "The Cultural Heritage Journey was both entertaining and educational. Michelle Foster has a gift for storytelling that brings Oslo's history to life.",
+    author: "Bryan Morales",
+    title: "Best Tour in Oslo",
+    rating: 4,
+    date: "2024-06-15"
   },
   {
     id: "testimonial-tour-oslo-5-9",
-    quote: "We joined the Cultural Heritage Journey on our first day in Oslo, and it set the tone for a fantastic trip.",
-    author: "Lisa Lewis",
-    title: "Fun, Friendly, and Full of Insight"
-  },
-  {
-    id: "testimonial-tour-oslo-5-10",
-    quote: "Our family loved every moment of the Cultural Heritage Journey. Harold Miller even made it fun for our kids.",
-    author: "Priya Jansen",
-    title: "A New Favorite Memory"
-  },
-  {
-    id: "testimonial-tour-oslo-5-11",
-    quote: "I was nervous about joining a group tour, but Harold Miller made everyone feel like part of the crew.",
-    author: "Lerato Maxwell",
-    title: "Worth Every Penny"
-  },
-  {
-    id: "testimonial-tour-oslo-5-12",
-    quote: "If you only have time for one activity in Oslo, make it the Cultural Heritage Journey. You won’t regret it.",
-    author: "Youssef Baker",
-    title: "If Cities Had Souls, Oslo Sang to Us"
-  },
-  {
-    id: "testimonial-tour-oslo-5-13",
-    quote: "I felt like I was being shown around by a friend who knows all the secrets of Oslo.",
-    author: "Willie Dubois",
-    title: "Bought the T-Shirt, Took the Tour, Loved It"
-  },
-  {
-    id: "testimonial-tour-oslo-5-14",
-    quote: "Even our teens were engaged the entire time — Harold Miller knows how to captivate a group!",
-    author: "Santiago Wood",
-    title: "A Unique Way to Explore Oslo"
-  },
-  {
-    id: "testimonial-tour-oslo-5-15",
-    quote: "My father and I didn’t want the tour to end. Harold Miller is that engaging and informative.",
-    author: "Benjamin Nash",
-    title: "Best Decision of Our Trip"
-  },
-  {
-    id: "testimonial-tour-oslo-5-16",
-    quote: "As a solo traveler, I felt completely comfortable on this tour. Harold Miller created a friendly atmosphere from the start.",
-    author: "Steven Foster",
-    title: "Lost in Time—in the Best Way"
+    quote: "I've been on many tours, but this one stands out. Michelle Foster was passionate, knowledgeable, and made everyone feel welcome.",
+    author: "Wei Ellis",
+    title: "Insider's Perspective",
+    rating: 4.1,
+    date: "2018-11-17"
   }
 ];

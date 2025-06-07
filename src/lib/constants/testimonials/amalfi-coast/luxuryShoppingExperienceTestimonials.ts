@@ -3,62 +3,90 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const luxuryShoppingExperienceTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-amalfi-coast-5-1",
-    quote: "So much fun, and so informative! Brooklyn Wright's enthusiasm is contagious.",
-    author: "Emma Johnson",
-    title: "Felt Like a Character in a Fairytale"
+    quote: "I can't recommend the Luxury Shopping Experience enough. Roger Gonzalez was phenomenal, and the experience was worth every penny.",
+    author: "Layla Carpenter",
+    title: "Lost in Time—in the Best Way",
+    rating: 3.6,
+    date: "2018-12-10"
   },
   {
     id: "testimonial-tour-amalfi-coast-5-2",
-    quote: "The Luxury Shopping Experience completely changed how I see Amalfi Coast. Brooklyn Wright's insights were invaluable.",
-    author: "Scarlett Anderson",
-    title: "Exceptional Tour Guide"
+    quote: "This isn’t your typical tour. Roger Gonzalez makes it feel personal and engaging from the very start.",
+    author: "Aisha Kowalski",
+    title: "A Walk That Changed Everything",
+    rating: 4.9,
+    date: "2021-05-04"
   },
   {
     id: "testimonial-tour-amalfi-coast-5-3",
-    quote: "From beginning to end, the Luxury Shopping Experience was seamless and so well organized.",
-    author: "Allison Clark",
-    title: "An Authentic Slice of Amalfi Coast"
+    quote: "The Luxury Shopping Experience was both entertaining and educational. Roger Gonzalez has a gift for storytelling that brings Amalfi Coast's history to life.",
+    author: "Ahmed Montgomery",
+    title: "History, Snacks, and Laughs—Yes Please!",
+    rating: 4.9,
+    date: "2022-06-08"
   },
   {
     id: "testimonial-tour-amalfi-coast-5-4",
-    quote: "What a fantastic way to start our stay in Amalfi Coast. Brooklyn Wright gave us a great foundation for exploring more on our own.",
-    author: "Dorothy Wallace",
-    title: "A Must-Do in Amalfi Coast"
+    quote: "I felt like I was being shown around by a friend who knows all the secrets of Amalfi Coast.",
+    author: "Margaret King",
+    title: "Exceptional Tour Guide",
+    rating: 4.7,
+    date: "2018-02-13"
   },
   {
     id: "testimonial-tour-amalfi-coast-5-5",
-    quote: "I wasn’t expecting to enjoy this tour so much, but Brooklyn Wright made it the highlight of our trip.",
-    author: "Gary Montgomery",
-    title: "A Stroll Through a Living Storybook"
+    quote: "The small group size and personal attention from Roger Gonzalez made all the difference.",
+    author: "Abigail Miller",
+    title: "A Tour to Remember",
+    rating: 3.7,
+    date: "2020-09-01"
   },
   {
     id: "testimonial-tour-amalfi-coast-5-6",
-    quote: "The Luxury Shopping Experience completely changed how I see Amalfi Coast. Brooklyn Wright's insights were invaluable.",
-    author: "Sofia Ali",
-    title: "We’ll Never Forget This"
+    quote: "Roger Gonzalez had such a great balance of history, fun facts, and local stories — truly a gifted guide.",
+    author: "Darrell Müller",
+    title: "Insider's Perspective",
+    rating: 3.6,
+    date: "2022-04-08"
   },
   {
     id: "testimonial-tour-amalfi-coast-5-7",
-    quote: "Absolutely worth it. Brooklyn Wright took care of everything so we could just relax and enjoy Amalfi Coast.",
-    author: "Caroline Gonzalez",
-    title: "An Authentic Slice of Amalfi Coast"
+    quote: "What an engaging experience! Roger Gonzalez kept us laughing and learning throughout the Luxury Shopping Experience.",
+    author: "Michelle Rossi",
+    title: "A Walk That Will Make You Want to Explore More",
+    rating: 3.8,
+    date: "2023-10-17"
   },
   {
     id: "testimonial-tour-amalfi-coast-5-8",
-    quote: "This tour was absolutely amazing! Brooklyn Wright knew everything about Amalfi Coast and showed us places we would have never found on our own.",
-    author: "Aaliyah Hayes",
-    title: "Whispers of the Past, Echoes of Joy"
+    quote: "The Luxury Shopping Experience was both entertaining and educational. Roger Gonzalez has a gift for storytelling that brings Amalfi Coast's history to life.",
+    author: "Arthur Henderson",
+    title: "Don't Miss This Tour!",
+    rating: 3.9,
+    date: "2021-02-16"
   },
   {
     id: "testimonial-tour-amalfi-coast-5-9",
-    quote: "We booked last-minute and are so glad we did. Brooklyn Wright made it one of our favorite memories from Amalfi Coast.",
-    author: "Vincent Anderson",
-    title: "Truly Eye-Opening"
+    quote: "The Luxury Shopping Experience was both entertaining and educational. Roger Gonzalez has a gift for storytelling that brings Amalfi Coast's history to life.",
+    author: "Aaron Fletcher",
+    title: "Brought Amalfi Coast to Life",
+    rating: 4.1,
+    date: "2018-05-29"
   },
   {
     id: "testimonial-tour-amalfi-coast-5-10",
-    quote: "I've been on many tours, but this one stands out. Brooklyn Wright was passionate, knowledgeable, and made everyone feel welcome.",
-    author: "Gabriel Holloway",
-    title: "A Unique Way to Explore Amalfi Coast"
+    quote: "This tour exceeded all my expectations. Roger Gonzalez's insider knowledge made our Amalfi Coast visit unforgettable.",
+    author: "Aisha da Costa",
+    title: "Got Lost (on Purpose) with {GUIDE_NAME}",
+    rating: 4.5,
+    date: "2020-04-20"
+  },
+  {
+    id: "testimonial-tour-amalfi-coast-5-11",
+    quote: "My sister and I agreed this was the best part of our entire trip to Amalfi Coast.",
+    author: "Elena Ellis",
+    title: "History, Snacks, and Laughs—Yes Please!",
+    rating: 4.5,
+    date: "2018-12-31"
   }
 ];

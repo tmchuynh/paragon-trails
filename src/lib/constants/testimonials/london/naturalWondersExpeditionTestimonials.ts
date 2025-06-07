@@ -3,104 +3,74 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const naturalWondersExpeditionTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-london-3-1",
-    quote: "This tour exceeded all my expectations. Ethan Taylor's insider knowledge made our London visit unforgettable.",
-    author: "Kennedy Fox",
-    title: "Whispers of the Past, Echoes of Joy"
+    quote: "From beginning to end, the Natural Wonders Expedition was seamless and so well organized.",
+    author: "Olivia Wood",
+    title: "A Hidden Gem of a Tour",
+    rating: 4.9,
+    date: "2024-03-02"
   },
   {
     id: "testimonial-tour-london-3-2",
-    quote: "We’ll be recommending the Natural Wonders Expedition to all our friends. Ethan Taylor made it that special.",
-    author: "Peter Harris",
-    title: "Truly Eye-Opening"
+    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Joseph Müller!",
+    author: "Aiden Jackson",
+    title: "A Walk That Will Make You Laugh",
+    rating: 4.8,
+    date: "2020-03-22"
   },
   {
     id: "testimonial-tour-london-3-3",
-    quote: "This was more than just sightseeing — it was an unforgettable journey through London's culture and history.",
-    author: "Carlos Williams",
-    title: "Truly Eye-Opening"
+    quote: "Joseph Müller is the kind of guide you want to tell your friends about. This was a five-star experience.",
+    author: "Dylan Coleman",
+    title: "A Walk That Will Stay with You",
+    rating: 4.8,
+    date: "2022-03-08"
   },
   {
     id: "testimonial-tour-london-3-4",
-    quote: "As a solo traveler, I felt completely comfortable on this tour. Ethan Taylor created a friendly atmosphere from the start.",
-    author: "George Morgan",
-    title: "Brought London to Life"
+    quote: "As someone who's been to London before, I was surprised at how much I learned on the Natural Wonders Expedition. Joseph Müller is a treasure trove of information!",
+    author: "Aiden Watson",
+    title: "Hidden Gems of London",
+    rating: 4.4,
+    date: "2023-01-13"
   },
   {
     id: "testimonial-tour-london-3-5",
-    quote: "I've been on many tours, but this one stands out. Ethan Taylor was passionate, knowledgeable, and made everyone feel welcome.",
-    author: "Chen Dixon",
-    title: "History Comes Alive"
+    quote: "Joseph Müller had such a great balance of history, fun facts, and local stories — truly a gifted guide.",
+    author: "Charlotte Keller",
+    title: "Hidden Gems of London",
+    rating: 4.2,
+    date: "2017-09-10"
   },
   {
     id: "testimonial-tour-london-3-6",
-    quote: "We got so much value from this tour. Ethan Taylor took us to places we would have never discovered on our own.",
-    author: "Wei Ali",
-    title: "Bought the T-Shirt, Took the Tour, Loved It"
+    quote: "My daughter and I agreed this was the best part of our entire trip to London.",
+    author: "Madelyn Gibson",
+    title: "A Tour That Feels Like a Hug",
+    rating: 4.4,
+    date: "2024-04-30"
   },
   {
     id: "testimonial-tour-london-3-7",
-    quote: "Highly recommend this tour if you want more than just a photo op — Ethan Taylor gives you real insight into London.",
-    author: "Willie Fox",
-    title: "A New Favorite Memory"
+    quote: "This was not just sightseeing — it was a deep dive into the heart of London thanks to Joseph Müller.",
+    author: "Jerry Mason",
+    title: "A Walk That Will Make You Feel Alive",
+    rating: 4.7,
+    date: "2020-06-26"
   },
   {
     id: "testimonial-tour-london-3-8",
-    quote: "Even our teens were engaged the entire time — Ethan Taylor knows how to captivate a group!",
-    author: "Roy Johnson",
-    title: "Local Experience Made Easy"
+    quote: "I was nervous about joining a group tour, but Joseph Müller made everyone feel like part of the crew.",
+    author: "Omar Parker",
+    title: "A Journey Through London's Magic",
+    rating: 4.8,
+    date: "2017-08-08"
   },
   {
     id: "testimonial-tour-london-3-9",
-    quote: "A truly authentic experience! Ethan Taylor showed us the real London, not just the tourist spots.",
-    author: "Priya Rodriguez",
-    title: "Got Lost (on Purpose) with {GUIDE_NAME}"
-  },
-  {
-    id: "testimonial-tour-london-3-10",
-    quote: "Even our teens were engaged the entire time — Ethan Taylor knows how to captivate a group!",
-    author: "Jack Mason",
-    title: "A Tour Even My Teenager Liked"
-  },
-  {
-    id: "testimonial-tour-london-3-11",
-    quote: "I wasn’t expecting to enjoy this tour so much, but Ethan Taylor made it the highlight of our trip.",
-    author: "Hannah Singh",
-    title: "Highly Recommend to Everyone"
-  },
-  {
-    id: "testimonial-tour-london-3-12",
-    quote: "If you only have time for one activity in London, make it the Natural Wonders Expedition. You won’t regret it.",
-    author: "Katherine Cooper",
-    title: "Outstanding in Every Way"
-  },
-  {
-    id: "testimonial-tour-london-3-13",
-    quote: "We got so much value from this tour. Ethan Taylor took us to places we would have never discovered on our own.",
-    author: "Priya King",
-    title: "One of the Best Tours We've Taken"
-  },
-  {
-    id: "testimonial-tour-london-3-14",
-    quote: "The pace was perfect, the content was rich, and Ethan Taylor made every stop memorable.",
-    author: "Julie Anderson",
-    title: "Better Than My Last Tinder Date"
-  },
-  {
-    id: "testimonial-tour-london-3-15",
-    quote: "As someone who's been to London before, I was surprised at how much I learned on the Natural Wonders Expedition. Ethan Taylor is a treasure trove of information!",
-    author: "Mateo Dean",
-    title: "Unforgettable Experience"
-  },
-  {
-    id: "testimonial-tour-london-3-16",
-    quote: "We’ll be recommending the Natural Wonders Expedition to all our friends. Ethan Taylor made it that special.",
-    author: "Gerald Ivanov",
-    title: "So Glad We Did This"
-  },
-  {
-    id: "testimonial-tour-london-3-17",
-    quote: "What a fantastic way to start our stay in London. Ethan Taylor gave us a great foundation for exploring more on our own.",
-    author: "Savannah Reed",
-    title: "History, Snacks, and Laughs—Yes Please!"
+    quote: "My uncle and I had the best time on this tour. Joseph Müller's knowledge of London made it so much more special.",
+    author: "Adam Bennett",
+    title: "A Journey Through London's Soul",
+    rating: 3.6,
+    date: "2017-05-19"
   }
 ];

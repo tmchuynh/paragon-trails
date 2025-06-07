@@ -3,86 +3,82 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const artisanShoppingAdventureTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-southampton-3-1",
-    quote: "From beginning to end, the Artisan Shopping Adventure was seamless and so well organized.",
-    author: "Maria Baker",
-    title: "Memorable from the First Step"
+    quote: "Samuel Nash brought a depth of cultural insight that gave us a new appreciation for Southampton.",
+    author: "Amelia Khan",
+    title: "A Walk That Will Make You Laugh",
+    rating: 3.8,
+    date: "2022-01-08"
   },
   {
     id: "testimonial-tour-southampton-3-2",
-    quote: "The Artisan Shopping Adventure was the highlight of our trip to Southampton. Hiroshi Rodriguez took us to all the best spots and shared fascinating stories.",
-    author: "Allison Young",
-    title: "A Stroll Through a Living Storybook"
+    quote: "I thought I knew Southampton, but this tour proved otherwise. Samuel Nash showed us a side we’d never seen.",
+    author: "Adeline Dubois",
+    title: "Exceptional Tour Guide",
+    rating: 4.7,
+    date: "2017-10-19"
   },
   {
     id: "testimonial-tour-southampton-3-3",
-    quote: "So much fun, and so informative! Hiroshi Rodriguez's enthusiasm is contagious.",
-    author: "Wei Moore",
-    title: "Lost in Time—in the Best Way"
+    quote: "From beginning to end, the Artisan Shopping Adventure was seamless and so well organized.",
+    author: "Sofia Jansen",
+    title: "So Glad We Did This",
+    rating: 4.6,
+    date: "2020-06-05"
   },
   {
     id: "testimonial-tour-southampton-3-4",
-    quote: "So much fun, and so informative! Hiroshi Rodriguez's enthusiasm is contagious.",
-    author: "Harper Young",
-    title: "Brought Southampton to Life"
+    quote: "This tour gave us a much deeper connection to Southampton. Samuel Nash's passion really shines through.",
+    author: "Dylan Gonzalez",
+    title: "A Walk That Will Make You Laugh",
+    rating: 3.9,
+    date: "2025-04-16"
   },
   {
     id: "testimonial-tour-southampton-3-5",
-    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Hiroshi Rodriguez!",
-    author: "Wei Rossi",
-    title: "Cultural Immersion at Its Best"
+    quote: "The Artisan Shopping Adventure was the highlight of our trip to Southampton. Samuel Nash took us to all the best spots and shared fascinating stories.",
+    author: "Eugene Coleman",
+    title: "Exceptional Tour Guide",
+    rating: 4.4,
+    date: "2017-07-10"
   },
   {
     id: "testimonial-tour-southampton-3-6",
-    quote: "Hiroshi Rodriguez had such a great balance of history, fun facts, and local stories — truly a gifted guide.",
-    author: "Thandiwe Clark",
-    title: "Followed the Guide, Found a Dream"
+    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Samuel Nash.",
+    author: "Mary Wilson",
+    title: "A Tour Even My Teenager Liked",
+    rating: 4.9,
+    date: "2019-07-20"
   },
   {
     id: "testimonial-tour-southampton-3-7",
-    quote: "We got so much value from this tour. Hiroshi Rodriguez took us to places we would have never discovered on our own.",
-    author: "Mia Maxwell",
-    title: "A New Favorite Memory"
+    quote: "We loved every minute of the Artisan Shopping Adventure. Samuel Nash's local tips were priceless.",
+    author: "Amanda Payne",
+    title: "One of the Best Tours We've Taken",
+    rating: 3.9,
+    date: "2021-05-18"
   },
   {
     id: "testimonial-tour-southampton-3-8",
-    quote: "This tour gave us a much deeper connection to Southampton. Hiroshi Rodriguez's passion really shines through.",
-    author: "Thandiwe Brooks",
-    title: "A Must-Do in Southampton"
+    quote: "What an engaging experience! Samuel Nash kept us laughing and learning throughout the Artisan Shopping Adventure.",
+    author: "Lucas Porter",
+    title: "Would Follow This Guide Into Battle",
+    rating: 4.2,
+    date: "2019-09-26"
   },
   {
     id: "testimonial-tour-southampton-3-9",
-    quote: "I can't recommend the Artisan Shopping Adventure enough. Hiroshi Rodriguez was phenomenal, and the experience was worth every penny.",
-    author: "Billy Mitchell",
-    title: "Top-Notch Guiding"
+    quote: "I wasn’t expecting to enjoy this tour so much, but Samuel Nash made it the highlight of our trip.",
+    author: "Muhammad Coleman",
+    title: "Hot, Sweaty, and Absolutely Worth It",
+    rating: 4.5,
+    date: "2021-03-30"
   },
   {
     id: "testimonial-tour-southampton-3-10",
-    quote: "Hiroshi Rodriguez was incredibly accommodating and answered every question with patience and detail.",
-    author: "Diego Wilson",
-    title: "A Stroll Through a Living Storybook"
-  },
-  {
-    id: "testimonial-tour-southampton-3-11",
-    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Hiroshi Rodriguez.",
-    author: "James Gardner",
-    title: "Brought Southampton to Life"
-  },
-  {
-    id: "testimonial-tour-southampton-3-12",
-    quote: "My cousin and I had the best time on this tour. Hiroshi Rodriguez's knowledge of Southampton made it so much more special.",
-    author: "Layla Taylor",
-    title: "Fascinating and Fun"
-  },
-  {
-    id: "testimonial-tour-southampton-3-13",
-    quote: "This tour is a hidden gem — just like the spots Hiroshi Rodriguez showed us around Southampton.",
-    author: "Jerry Young",
-    title: "Highlight of Our Trip"
-  },
-  {
-    id: "testimonial-tour-southampton-3-14",
-    quote: "I've been on many tours, but this one stands out. Hiroshi Rodriguez was passionate, knowledgeable, and made everyone feel welcome.",
-    author: "Ellie White",
-    title: "Lost in Time—in the Best Way"
+    quote: "Our family loved every moment of the Artisan Shopping Adventure. Samuel Nash even made it fun for our kids.",
+    author: "Cynthia Porter",
+    title: "A Journey Through Southampton's Beauty",
+    rating: 4.2,
+    date: "2022-02-11"
   }
 ];

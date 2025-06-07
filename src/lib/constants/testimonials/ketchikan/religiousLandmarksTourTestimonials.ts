@@ -3,86 +3,122 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const religiousLandmarksTourTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-ketchikan-3-1",
-    quote: "Harper Stewart was incredibly accommodating and answered every question with patience and detail.",
-    author: "George Khan",
-    title: "One of the Best Tours We've Taken"
+    quote: "Highly recommend this tour if you want more than just a photo op — David West gives you real insight into Ketchikan.",
+    author: "Eugene Montgomery",
+    title: "More Enchanting Than Expected",
+    rating: 3.5,
+    date: "2020-11-20"
   },
   {
     id: "testimonial-tour-ketchikan-3-2",
-    quote: "So much fun, and so informative! Harper Stewart's enthusiasm is contagious.",
-    author: "Ava Nguyen",
-    title: "Hot, Sweaty, and Absolutely Worth It"
+    quote: "If you're visiting Ketchikan, the Religious Landmarks Tour is a must! David West made the history come alive in a way guidebooks never could.",
+    author: "Rachel Foster",
+    title: "Bought the T-Shirt, Took the Tour, Loved It",
+    rating: 4.5,
+    date: "2023-07-16"
   },
   {
     id: "testimonial-tour-ketchikan-3-3",
-    quote: "This isn’t your typical tour. Harper Stewart makes it feel personal and engaging from the very start.",
-    author: "Henry Wright",
-    title: "Felt Like a Character in a Fairytale"
+    quote: "So much fun, and so informative! David West's enthusiasm is contagious.",
+    author: "Gabriella Foster",
+    title: "The Ultimate Ketchikan Tour",
+    rating: 3.6,
+    date: "2025-02-10"
   },
   {
     id: "testimonial-tour-ketchikan-3-4",
-    quote: "My husband and I agreed this was the best part of our entire trip to Ketchikan.",
-    author: "Yuki Palmer",
-    title: "Lost in Time—in the Best Way"
+    quote: "What an engaging experience! David West kept us laughing and learning throughout the Religious Landmarks Tour.",
+    author: "Carlos Carter",
+    title: "Fun, Friendly, and Full of Insight",
+    rating: 4.7,
+    date: "2022-06-20"
   },
   {
     id: "testimonial-tour-ketchikan-3-5",
-    quote: "I've been on many tours, but this one stands out. Harper Stewart was passionate, knowledgeable, and made everyone feel welcome.",
-    author: "Nathan Reed",
-    title: "Hidden Gems of Ketchikan"
+    quote: "We joined the Religious Landmarks Tour on our first day in Ketchikan, and it set the tone for a fantastic trip.",
+    author: "Virginia Ellis",
+    title: "Beyond Our Expectations",
+    rating: 3.8,
+    date: "2018-04-09"
   },
   {
     id: "testimonial-tour-ketchikan-3-6",
-    quote: "The stories, the hidden gems, the expert navigation — Harper Stewart delivered on all fronts.",
-    author: "Elizabeth Jennings",
-    title: "Entertaining and Educational"
+    quote: "As a solo traveler, I felt completely comfortable on this tour. David West created a friendly atmosphere from the start.",
+    author: "Eric Hawkins",
+    title: "Got Lost (on Purpose) with {GUIDE_NAME}",
+    rating: 4.6,
+    date: "2022-12-21"
   },
   {
     id: "testimonial-tour-ketchikan-3-7",
-    quote: "We loved every minute of the Religious Landmarks Tour. Harper Stewart's local tips were priceless.",
-    author: "Jason Payne",
-    title: "Well Worth Your Time"
+    quote: "David West's enthusiasm for Ketchikan was contagious. We walked away feeling inspired.",
+    author: "Joan Hamilton",
+    title: "A Journey Through Ketchikan's Hidden Treasures",
+    rating: 3.7,
+    date: "2020-04-03"
   },
   {
     id: "testimonial-tour-ketchikan-3-8",
-    quote: "From beginning to end, the Religious Landmarks Tour was seamless and so well organized.",
-    author: "Christine Martin",
-    title: "Outstanding in Every Way"
+    quote: "David West shared personal stories that really brought Ketchikan to life for us. A truly memorable tour.",
+    author: "Joan Clark",
+    title: "Entertaining and Educational",
+    rating: 4.8,
+    date: "2018-01-08"
   },
   {
     id: "testimonial-tour-ketchikan-3-9",
-    quote: "I’ve taken dozens of tours in different countries. Harper Stewart ranks among the very best.",
-    author: "Fatima King",
-    title: "A Tour Even My Teenager Liked"
+    quote: "David West brought a depth of cultural insight that gave us a new appreciation for Ketchikan.",
+    author: "Sean Grant",
+    title: "Would Follow This Guide Into Battle",
+    rating: 4.3,
+    date: "2020-10-20"
   },
   {
     id: "testimonial-tour-ketchikan-3-10",
-    quote: "The small group size and personal attention from Harper Stewart made all the difference.",
-    author: "Louis Keller",
-    title: "Bought the T-Shirt, Took the Tour, Loved It"
+    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, David West!",
+    author: "Lisa Anderson",
+    title: "A Walk That Will Make You Laugh",
+    rating: 4.3,
+    date: "2025-02-08"
   },
   {
     id: "testimonial-tour-ketchikan-3-11",
-    quote: "Even the locals in our group said they learned something new. That says a lot about Harper Stewart's depth.",
-    author: "Charlotte Hernandez",
-    title: "Best Tour in Ketchikan"
+    quote: "This isn’t your typical tour. David West makes it feel personal and engaging from the very start.",
+    author: "Liam Palmer",
+    title: "So Glad We Did This",
+    rating: 4.2,
+    date: "2020-11-05"
   },
   {
     id: "testimonial-tour-ketchikan-3-12",
-    quote: "Our family loved every moment of the Religious Landmarks Tour. Harper Stewart even made it fun for our kids.",
-    author: "Avery Anderson",
-    title: "Beyond Our Expectations"
+    quote: "David West was incredibly accommodating and answered every question with patience and detail.",
+    author: "Mohamed Brown",
+    title: "A Walk That Will Make You Appreciate Ketchikan More",
+    rating: 4,
+    date: "2019-02-24"
   },
   {
     id: "testimonial-tour-ketchikan-3-13",
-    quote: "If you only have time for one activity in Ketchikan, make it the Religious Landmarks Tour. You won’t regret it.",
-    author: "Sarah Gardner",
-    title: "Loved Every Minute"
+    quote: "This tour was absolutely amazing! David West knew everything about Ketchikan and showed us places we would have never found on our own.",
+    author: "Elizabeth Mason",
+    title: "A Journey Through Ketchikan's Culture",
+    rating: 4,
+    date: "2023-08-09"
   },
   {
     id: "testimonial-tour-ketchikan-3-14",
-    quote: "The Religious Landmarks Tour completely changed how I see Ketchikan. Harper Stewart's insights were invaluable.",
-    author: "Diego Wells",
-    title: "We’ll Never Forget This"
+    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, David West!",
+    author: "Muhammad Lee",
+    title: "A Perfect Day in Ketchikan",
+    rating: 4.8,
+    date: "2020-12-07"
+  },
+  {
+    id: "testimonial-tour-ketchikan-3-15",
+    quote: "I was nervous about joining a group tour, but David West made everyone feel like part of the crew.",
+    author: "Steven Hunter",
+    title: "So Glad We Did This",
+    rating: 3.7,
+    date: "2023-09-03"
   }
 ];

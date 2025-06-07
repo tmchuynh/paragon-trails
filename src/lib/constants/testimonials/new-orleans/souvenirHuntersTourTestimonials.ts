@@ -3,86 +3,82 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const souvenirHuntersTourTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-new-orleans-3-1",
-    quote: "Thanks to Priya Smith, we discovered parts of New Orleans we would have never seen on our own.",
-    author: "Harper Chen",
-    title: "The Ultimate New Orleans Tour"
+    quote: "Jennifer Campbell brought a depth of cultural insight that gave us a new appreciation for New Orleans.",
+    author: "Victor Cooper",
+    title: "The Real New Orleans Experience",
+    rating: 4.6,
+    date: "2021-01-19"
   },
   {
     id: "testimonial-tour-new-orleans-3-2",
-    quote: "Highly recommend this tour if you want more than just a photo op — Priya Smith gives you real insight into New Orleans.",
-    author: "Savannah Bennett",
-    title: "Felt Like a Character in a Fairytale"
+    quote: "This tour gave us a much deeper connection to New Orleans. Jennifer Campbell's passion really shines through.",
+    author: "Harper Williams",
+    title: "Bought the T-Shirt, Took the Tour, Loved It",
+    rating: 4,
+    date: "2022-02-11"
   },
   {
     id: "testimonial-tour-new-orleans-3-3",
-    quote: "The Souvenir Hunter's Tour completely changed how I see New Orleans. Priya Smith's insights were invaluable.",
-    author: "Stephanie Porter",
-    title: "Learned Stuff, Didn’t Cry—Success!"
+    quote: "I've been on many tours, but this one stands out. Jennifer Campbell was passionate, knowledgeable, and made everyone feel welcome.",
+    author: "Naomi Henderson",
+    title: "A Tour That Feels Like a Celebration",
+    rating: 4.2,
+    date: "2017-04-25"
   },
   {
     id: "testimonial-tour-new-orleans-3-4",
-    quote: "Priya Smith brought a depth of cultural insight that gave us a new appreciation for New Orleans.",
-    author: "Ahmed Dean",
-    title: "More Enchanting Than Expected"
+    quote: "What a fantastic way to start our stay in New Orleans. Jennifer Campbell gave us a great foundation for exploring more on our own.",
+    author: "Rachel West",
+    title: "History Comes Alive",
+    rating: 4.2,
+    date: "2024-01-31"
   },
   {
     id: "testimonial-tour-new-orleans-3-5",
-    quote: "We loved every minute of the Souvenir Hunter's Tour. Priya Smith's local tips were priceless.",
-    author: "Wei Ellis",
-    title: "Felt Like a Character in a Fairytale"
+    quote: "We got so much value from this tour. Jennifer Campbell took us to places we would have never discovered on our own.",
+    author: "Jerry Singh",
+    title: "Unforgettable Experience",
+    rating: 4.3,
+    date: "2024-03-11"
   },
   {
     id: "testimonial-tour-new-orleans-3-6",
-    quote: "Priya Smith's enthusiasm for New Orleans was contagious. We walked away feeling inspired.",
-    author: "Robert Dixon",
-    title: "A Deep Dive into Local Culture"
+    quote: "Absolutely worth it. Jennifer Campbell took care of everything so we could just relax and enjoy New Orleans.",
+    author: "Sophia Nguyen",
+    title: "A Tour That Feels Like a Movie",
+    rating: 4.8,
+    date: "2018-12-29"
   },
   {
     id: "testimonial-tour-new-orleans-3-7",
-    quote: "What an engaging experience! Priya Smith kept us laughing and learning throughout the Souvenir Hunter's Tour.",
-    author: "Bobby Montgomery",
-    title: "We’ll Never Forget This"
+    quote: "This was more than just sightseeing — it was an unforgettable journey through New Orleans's culture and history.",
+    author: "Alice Hayes",
+    title: "A Walk That Will Make You Feel Alive",
+    rating: 4.4,
+    date: "2022-01-29"
   },
   {
     id: "testimonial-tour-new-orleans-3-8",
-    quote: "Our family loved every moment of the Souvenir Hunter's Tour. Priya Smith even made it fun for our kids.",
-    author: "Christine Silva",
-    title: "Well Worth Your Time"
+    quote: "This tour was absolutely amazing! Jennifer Campbell knew everything about New Orleans and showed us places we would have never found on our own.",
+    author: "Roger Jennings",
+    title: "Best Decision of Our Trip",
+    rating: 5,
+    date: "2022-04-20"
   },
   {
     id: "testimonial-tour-new-orleans-3-9",
-    quote: "Priya Smith shared personal stories that really brought New Orleans to life for us. A truly memorable tour.",
-    author: "Thandiwe Anderson",
-    title: "A Must-Do in New Orleans"
+    quote: "Even the locals in our group said they learned something new. That says a lot about Jennifer Campbell's depth.",
+    author: "Isabella Graves",
+    title: "A Journey Through New Orleans's Culture",
+    rating: 3.6,
+    date: "2018-11-30"
   },
   {
     id: "testimonial-tour-new-orleans-3-10",
-    quote: "Priya Smith had such a great balance of history, fun facts, and local stories — truly a gifted guide.",
-    author: "Chen Brown",
-    title: "More Enchanting Than Expected"
-  },
-  {
-    id: "testimonial-tour-new-orleans-3-11",
-    quote: "If you're visiting New Orleans, the Souvenir Hunter's Tour is a must! Priya Smith made the history come alive in a way guidebooks never could.",
-    author: "Ali Henderson",
-    title: "Felt Like a Character in a Fairytale"
-  },
-  {
-    id: "testimonial-tour-new-orleans-3-12",
-    quote: "The pace was perfect, the content was rich, and Priya Smith made every stop memorable.",
-    author: "Katherine Murray",
-    title: "Top-Notch Guiding"
-  },
-  {
-    id: "testimonial-tour-new-orleans-3-13",
-    quote: "We booked last-minute and are so glad we did. Priya Smith made it one of our favorite memories from New Orleans.",
-    author: "Jose Nguyen",
-    title: "The Best Way to See New Orleans"
-  },
-  {
-    id: "testimonial-tour-new-orleans-3-14",
-    quote: "We got so much value from this tour. Priya Smith took us to places we would have never discovered on our own.",
-    author: "Barbara Smith",
-    title: "Wandered Far, Wondered More"
+    quote: "My classmate and I had the best time on this tour. Jennifer Campbell's knowledge of New Orleans made it so much more special.",
+    author: "Amina Nash",
+    title: "Brought New Orleans to Life",
+    rating: 4.1,
+    date: "2020-04-11"
   }
 ];

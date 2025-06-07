@@ -3,80 +3,66 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const naturalBeautyDiscoveryTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-toronto-5-1",
-    quote: "The pace was perfect, the content was rich, and Deborah Palmer made every stop memorable.",
-    author: "Luis Smith",
-    title: "Impressive and Informative"
+    quote: "We left the Natural Beauty Discovery feeling more connected to Toronto than we ever expected.",
+    author: "Dennis Wright",
+    title: "A Walk That Will Make You Believe in Magic",
+    rating: 4.4,
+    date: "2023-04-10"
   },
   {
     id: "testimonial-tour-toronto-5-2",
-    quote: "A truly authentic experience! Deborah Palmer showed us the real Toronto, not just the tourist spots.",
-    author: "Olivia Hawkins",
-    title: "Exceptional Tour Guide"
+    quote: "One of the best decisions of our trip! Eric Mason is a fantastic guide and brought incredible energy to the tour.",
+    author: "Chloe Griffin",
+    title: "History, Snacks, and Laughs—Yes Please!",
+    rating: 5,
+    date: "2021-02-08"
   },
   {
     id: "testimonial-tour-toronto-5-3",
-    quote: "We left the Natural Beauty Discovery feeling more connected to Toronto than we ever expected.",
-    author: "Elijah Holloway",
-    title: "A Day to Remember"
+    quote: "This was more than just sightseeing — it was an unforgettable journey through Toronto's culture and history.",
+    author: "Roy Garcia",
+    title: "Incredible from Start to Finish",
+    rating: 4,
+    date: "2021-02-17"
   },
   {
     id: "testimonial-tour-toronto-5-4",
-    quote: "Deborah Palmer made learning about Toronto's history genuinely exciting — not an easy task!",
-    author: "Amina Wells",
-    title: "Well Worth Your Time"
+    quote: "We loved every minute of the Natural Beauty Discovery. Eric Mason's local tips were priceless.",
+    author: "Maya King",
+    title: "More Enchanting Than Expected",
+    rating: 4.8,
+    date: "2017-12-31"
   },
   {
     id: "testimonial-tour-toronto-5-5",
-    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Deborah Palmer.",
-    author: "Richard Mason",
-    title: "Cultural Immersion at Its Best"
+    quote: "We had limited time in Toronto, and this tour made sure we saw the best of it. Eric Mason was amazing.",
+    author: "Melissa Parker",
+    title: "Memorable from the First Step",
+    rating: 4.7,
+    date: "2020-12-24"
   },
   {
     id: "testimonial-tour-toronto-5-6",
-    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Deborah Palmer.",
-    author: "Carl Gibson",
-    title: "Best Decision of Our Trip"
+    quote: "What an engaging experience! Eric Mason kept us laughing and learning throughout the Natural Beauty Discovery.",
+    author: "Fatima Douglas",
+    title: "So Much More Than Expected",
+    rating: 4.5,
+    date: "2024-10-18"
   },
   {
     id: "testimonial-tour-toronto-5-7",
-    quote: "Deborah Palmer shared personal stories that really brought Toronto to life for us. A truly memorable tour.",
-    author: "Sarah Parker",
-    title: "History Comes Alive"
+    quote: "I was nervous about joining a group tour, but Eric Mason made everyone feel like part of the crew.",
+    author: "Sandra Fletcher",
+    title: "A Tour That Feels Like a Hug",
+    rating: 4.3,
+    date: "2019-04-10"
   },
   {
     id: "testimonial-tour-toronto-5-8",
-    quote: "From start to finish, the experience felt curated and special. Hats off to Deborah Palmer.",
-    author: "Muhammad Reed",
-    title: "An Authentic Slice of Toronto"
-  },
-  {
-    id: "testimonial-tour-toronto-5-9",
-    quote: "I felt like I was being shown around by a friend who knows all the secrets of Toronto.",
-    author: "Alexa Garcia",
-    title: "The Walking Was Free—The Laughs Were Priceless"
-  },
-  {
-    id: "testimonial-tour-toronto-5-10",
-    quote: "Deborah Palmer is the kind of guide you want to tell your friends about. This was a five-star experience.",
-    author: "Bryan Hawkins",
-    title: "The Ultimate Toronto Tour"
-  },
-  {
-    id: "testimonial-tour-toronto-5-11",
-    quote: "The Natural Beauty Discovery was the highlight of our trip to Toronto. Deborah Palmer took us to all the best spots and shared fascinating stories.",
-    author: "Nicole Payne",
-    title: "Insider's Perspective"
-  },
-  {
-    id: "testimonial-tour-toronto-5-12",
-    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Deborah Palmer!",
-    author: "Terry Hamilton",
-    title: "Don't Miss This Tour!"
-  },
-  {
-    id: "testimonial-tour-toronto-5-13",
-    quote: "Even our teens were engaged the entire time — Deborah Palmer knows how to captivate a group!",
-    author: "Amy Campbell",
-    title: "If Cities Had Souls, Toronto Sang to Us"
+    quote: "Eric Mason is the kind of guide you want to tell your friends about. This was a five-star experience.",
+    author: "Muhammad Williams",
+    title: "A Walk That Will Make You Laugh",
+    rating: 4.3,
+    date: "2022-03-26"
   }
 ];

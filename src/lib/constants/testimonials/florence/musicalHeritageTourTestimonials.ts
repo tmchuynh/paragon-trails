@@ -3,86 +3,114 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const musicalHeritageTourTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-florence-2-1",
-    quote: "Anthony Crawford had such a great balance of history, fun facts, and local stories — truly a gifted guide.",
-    author: "Liam Bennett",
-    title: "Learned So Much!"
+    quote: "From beginning to end, the Musical Heritage Tour was seamless and so well organized.",
+    author: "Lerato Cooper",
+    title: "Wandered Far, Wondered More",
+    rating: 4.8,
+    date: "2017-05-08"
   },
   {
     id: "testimonial-tour-florence-2-2",
-    quote: "Such a memorable way to explore Florence. The mix of history, local culture, and stories was perfect.",
-    author: "Helen Taylor",
-    title: "A Must-Do in Florence"
+    quote: "We’ll be recommending the Musical Heritage Tour to all our friends. Layla Martinez made it that special.",
+    author: "Samuel Wilson",
+    title: "Where Magic Meets Cobblestone",
+    rating: 4.7,
+    date: "2022-09-20"
   },
   {
     id: "testimonial-tour-florence-2-3",
-    quote: "From beginning to end, the Musical Heritage Tour was seamless and so well organized.",
-    author: "Gabriel Gonzalez",
-    title: "Lost in Time—in the Best Way"
+    quote: "The small group size and personal attention from Layla Martinez made all the difference.",
+    author: "Daniel Patel",
+    title: "Incredible from Start to Finish",
+    rating: 4.1,
+    date: "2023-08-17"
   },
   {
     id: "testimonial-tour-florence-2-4",
-    quote: "The Musical Heritage Tour was the highlight of our trip to Florence. Anthony Crawford took us to all the best spots and shared fascinating stories.",
-    author: "Richard Wang",
-    title: "Well Worth Your Time"
+    quote: "We had limited time in Florence, and this tour made sure we saw the best of it. Layla Martinez was amazing.",
+    author: "Nora Baker",
+    title: "Hidden Gems of Florence",
+    rating: 3.6,
+    date: "2017-01-11"
   },
   {
     id: "testimonial-tour-florence-2-5",
-    quote: "It felt like a private tour, even though we were with a group. Anthony Crawford is incredibly engaging.",
-    author: "Zola Hamilton",
-    title: "Brought Florence to Life"
+    quote: "The Musical Heritage Tour completely changed how I see Florence. Layla Martinez's insights were invaluable.",
+    author: "Nomsa Gonzalez",
+    title: "A Day to Remember",
+    rating: 4.8,
+    date: "2018-04-10"
   },
   {
     id: "testimonial-tour-florence-2-6",
-    quote: "I've been on many tours, but this one stands out. Anthony Crawford was passionate, knowledgeable, and made everyone feel welcome.",
-    author: "Oliver Fletcher",
-    title: "The Perfect Introduction to Florence"
+    quote: "Our family loved every moment of the Musical Heritage Tour. Layla Martinez even made it fun for our kids.",
+    author: "Alexander Rossi",
+    title: "Lost in Time—in the Best Way",
+    rating: 4.1,
+    date: "2017-06-16"
   },
   {
     id: "testimonial-tour-florence-2-7",
-    quote: "We loved every minute of the Musical Heritage Tour. Anthony Crawford's local tips were priceless.",
-    author: "Elijah Mason",
-    title: "Lost in Time—in the Best Way"
+    quote: "This tour was absolutely amazing! Layla Martinez knew everything about Florence and showed us places we would have never found on our own.",
+    author: "Priya Morgan",
+    title: "An Authentic Slice of Florence",
+    rating: 4.4,
+    date: "2024-10-05"
   },
   {
     id: "testimonial-tour-florence-2-8",
-    quote: "The Musical Heritage Tour completely changed how I see Florence. Anthony Crawford's insights were invaluable.",
-    author: "Boris Griffin",
-    title: "The Best Way to See Florence"
+    quote: "This tour gave us a much deeper connection to Florence. Layla Martinez's passion really shines through.",
+    author: "Ibrahim Palmer",
+    title: "A Journey Through Florence's History",
+    rating: 4.9,
+    date: "2023-03-26"
   },
   {
     id: "testimonial-tour-florence-2-9",
-    quote: "We joined the Musical Heritage Tour on our first day in Florence, and it set the tone for a fantastic trip.",
-    author: "Donna Gonzalez",
-    title: "A Stroll Through a Living Storybook"
+    quote: "This tour is a hidden gem — just like the spots Layla Martinez showed us around Florence.",
+    author: "Nicole Brooks",
+    title: "A Walk That Will Make You Want to Dance",
+    rating: 4.9,
+    date: "2021-07-29"
   },
   {
     id: "testimonial-tour-florence-2-10",
-    quote: "The Musical Heritage Tour was both entertaining and educational. Anthony Crawford has a gift for storytelling that brings Florence's history to life.",
-    author: "Margaret Baker",
-    title: "History Comes Alive"
+    quote: "If you're visiting Florence, the Musical Heritage Tour is a must! Layla Martinez made the history come alive in a way guidebooks never could.",
+    author: "Jacob Williams",
+    title: "A Walk That Will Make You Want to Explore More",
+    rating: 4.6,
+    date: "2025-04-12"
   },
   {
     id: "testimonial-tour-florence-2-11",
-    quote: "We’ll be recommending the Musical Heritage Tour to all our friends. Anthony Crawford made it that special.",
-    author: "Joe Baker",
-    title: "Whispers of the Past, Echoes of Joy"
+    quote: "As a solo traveler, I felt completely comfortable on this tour. Layla Martinez created a friendly atmosphere from the start.",
+    author: "Logan Ivanov",
+    title: "A Tour Even My Teenager Liked",
+    rating: 4.8,
+    date: "2024-07-29"
   },
   {
     id: "testimonial-tour-florence-2-12",
-    quote: "We’ll be recommending the Musical Heritage Tour to all our friends. Anthony Crawford made it that special.",
-    author: "Scarlett Palmer",
-    title: "The Walking Was Free—The Laughs Were Priceless"
+    quote: "This was more than just sightseeing — it was an unforgettable journey through Florence's culture and history.",
+    author: "Nicholas Rossi",
+    title: "Impressive and Informative",
+    rating: 4.1,
+    date: "2018-10-30"
   },
   {
     id: "testimonial-tour-florence-2-13",
-    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Anthony Crawford!",
-    author: "Charlotte Hall",
-    title: "Don't Miss This Tour!"
+    quote: "From start to finish, the experience felt curated and special. Hats off to Layla Martinez.",
+    author: "Caroline Mason",
+    title: "A Perfect Day in Florence",
+    rating: 3.7,
+    date: "2024-09-29"
   },
   {
     id: "testimonial-tour-florence-2-14",
-    quote: "I was nervous about joining a group tour, but Anthony Crawford made everyone feel like part of the crew.",
-    author: "Stella Smith",
-    title: "So Glad We Did This"
+    quote: "As a solo traveler, I felt completely comfortable on this tour. Layla Martinez created a friendly atmosphere from the start.",
+    author: "Ryan Maxwell",
+    title: "Entertaining and Educational",
+    rating: 4.8,
+    date: "2023-07-11"
   }
 ];

@@ -3,92 +3,106 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const fivestarExperienceTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-athens-2-1",
-    quote: "This tour is a hidden gem — just like the spots Jacob Ali showed us around Athens.",
-    author: "Madelyn Graves",
-    title: "Would Follow This Guide Into Battle"
+    quote: "I was nervous about joining a group tour, but Julie Patel made everyone feel like part of the crew.",
+    author: "Deborah Gonzalez",
+    title: "A New Favorite Memory",
+    rating: 4,
+    date: "2024-07-31"
   },
   {
     id: "testimonial-tour-athens-2-2",
-    quote: "Even our teens were engaged the entire time — Jacob Ali knows how to captivate a group!",
-    author: "Lily Warren",
-    title: "Fascinating and Fun"
+    quote: "I wasn’t expecting to enjoy this tour so much, but Julie Patel made it the highlight of our trip.",
+    author: "Angela Wilson",
+    title: "Incredible from Start to Finish",
+    rating: 4.5,
+    date: "2025-04-12"
   },
   {
     id: "testimonial-tour-athens-2-3",
-    quote: "If you're visiting Athens, the Five-Star Experience is a must! Jacob Ali made the history come alive in a way guidebooks never could.",
-    author: "Philip Griffin",
-    title: "A Must-Do in Athens"
+    quote: "Thanks to Julie Patel, we discovered parts of Athens we would have never seen on our own.",
+    author: "Oliver Brooks",
+    title: "A Journey Through Athens's Soul",
+    rating: 4.3,
+    date: "2024-11-26"
   },
   {
     id: "testimonial-tour-athens-2-4",
-    quote: "This tour gave us a much deeper connection to Athens. Jacob Ali's passion really shines through.",
-    author: "Douglas King",
-    title: "Best Decision of Our Trip"
+    quote: "This tour is a hidden gem — just like the spots Julie Patel showed us around Athens.",
+    author: "Omar Lopez",
+    title: "A Day to Remember",
+    rating: 4.7,
+    date: "2023-07-01"
   },
   {
     id: "testimonial-tour-athens-2-5",
-    quote: "A truly authentic experience! Jacob Ali showed us the real Athens, not just the tourist spots.",
-    author: "Audrey Collins",
-    title: "The Real Athens Experience"
+    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Julie Patel!",
+    author: "Harold Hunter",
+    title: "The Real Athens Experience",
+    rating: 4.2,
+    date: "2024-11-01"
   },
   {
     id: "testimonial-tour-athens-2-6",
-    quote: "Jacob Ali went above and beyond to make sure everyone had a great time on the Five-Star Experience.",
-    author: "Keith Clark",
-    title: "Learned So Much!"
+    quote: "I've been on many tours, but this one stands out. Julie Patel was passionate, knowledgeable, and made everyone feel welcome.",
+    author: "Skylar Coleman",
+    title: "A Tour to Remember",
+    rating: 4.6,
+    date: "2018-02-21"
   },
   {
     id: "testimonial-tour-athens-2-7",
-    quote: "One of the best decisions of our trip! Jacob Ali is a fantastic guide and brought incredible energy to the tour.",
-    author: "Jeremy King",
-    title: "Where Magic Meets Cobblestone"
+    quote: "A truly authentic experience! Julie Patel showed us the real Athens, not just the tourist spots.",
+    author: "Ethan Martin",
+    title: "A Must-Do in Athens",
+    rating: 3.9,
+    date: "2025-05-19"
   },
   {
     id: "testimonial-tour-athens-2-8",
-    quote: "I thought I knew Athens, but this tour proved otherwise. Jacob Ali showed us a side we’d never seen.",
-    author: "Jennifer Reeves",
-    title: "Fun, Friendly, and Full of Insight"
+    quote: "The Five-Star Experience was both entertaining and educational. Julie Patel has a gift for storytelling that brings Athens's history to life.",
+    author: "Gabriel Ellis",
+    title: "Hidden Gems of Athens",
+    rating: 4.2,
+    date: "2024-08-28"
   },
   {
     id: "testimonial-tour-athens-2-9",
-    quote: "The Five-Star Experience was both entertaining and educational. Jacob Ali has a gift for storytelling that brings Athens's history to life.",
-    author: "Dennis Coleman",
-    title: "Best Decision of Our Trip"
+    quote: "This was not just sightseeing — it was a deep dive into the heart of Athens thanks to Julie Patel.",
+    author: "Christopher Dubois",
+    title: "Absolutely Fantastic!",
+    rating: 4.4,
+    date: "2024-02-14"
   },
   {
     id: "testimonial-tour-athens-2-10",
-    quote: "I thought I knew Athens, but this tour proved otherwise. Jacob Ali showed us a side we’d never seen.",
-    author: "Jeffrey Russell",
-    title: "Cultural Immersion at Its Best"
+    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Julie Patel.",
+    author: "Patricia Wallace",
+    title: "The Walking Was Free—The Laughs Were Priceless",
+    rating: 4.6,
+    date: "2019-05-02"
   },
   {
     id: "testimonial-tour-athens-2-11",
-    quote: "Jacob Ali went above and beyond to make sure everyone had a great time on the Five-Star Experience.",
-    author: "Stephanie Baker",
-    title: "Wandered Far, Wondered More"
+    quote: "We loved every minute of the Five-Star Experience. Julie Patel's local tips were priceless.",
+    author: "Virginia Fox",
+    title: "Wandered Far, Wondered More",
+    rating: 4.4,
+    date: "2017-07-24"
   },
   {
     id: "testimonial-tour-athens-2-12",
-    quote: "Even our teens were engaged the entire time — Jacob Ali knows how to captivate a group!",
-    author: "Lucas Khan",
-    title: "Wandered Far, Wondered More"
+    quote: "Julie Patel shared personal stories that really brought Athens to life for us. A truly memorable tour.",
+    author: "Johnny Lee",
+    title: "Loved Every Minute",
+    rating: 4.2,
+    date: "2019-01-18"
   },
   {
     id: "testimonial-tour-athens-2-13",
-    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Jacob Ali.",
-    author: "Sophia Kim",
-    title: "A Perfect Day in Athens"
-  },
-  {
-    id: "testimonial-tour-athens-2-14",
-    quote: "I thought I knew Athens, but this tour proved otherwise. Jacob Ali showed us a side we’d never seen.",
-    author: "David Reed",
-    title: "Sunlight, Stories, and Serendipity"
-  },
-  {
-    id: "testimonial-tour-athens-2-15",
-    quote: "My friend and I had the best time on this tour. Jacob Ali's knowledge of Athens made it so much more special.",
-    author: "Diego Suzuki",
-    title: "Highlight of Our Trip"
+    quote: "We’ll be recommending the Five-Star Experience to all our friends. Julie Patel made it that special.",
+    author: "Alexander Bennett",
+    title: "Sunlight, Stories, and Serendipity",
+    rating: 3.8,
+    date: "2020-12-26"
   }
 ];

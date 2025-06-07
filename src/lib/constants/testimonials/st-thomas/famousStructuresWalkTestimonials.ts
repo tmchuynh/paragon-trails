@@ -3,62 +3,66 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const famousStructuresWalkTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-st-thomas-2-1",
-    quote: "We were blown away by the depth of knowledge and warmth Liam Russell brought to the tour.",
-    author: "James Porter",
-    title: "Bought the T-Shirt, Took the Tour, Loved It"
+    quote: "This was more than just sightseeing — it was an unforgettable journey through St Thomas's culture and history.",
+    author: "Eric Hernandez",
+    title: "Exceptional Tour Guide",
+    rating: 4.1,
+    date: "2024-02-10"
   },
   {
     id: "testimonial-tour-st-thomas-2-2",
-    quote: "I’ve taken dozens of tours in different countries. Liam Russell ranks among the very best.",
-    author: "James Graves",
-    title: "The Best Way to See St Thomas"
+    quote: "We left the Famous Structures Walk feeling more connected to St Thomas than we ever expected.",
+    author: "Isabella Martinez",
+    title: "A Walk That Will Make You Believe in Magic",
+    rating: 4.3,
+    date: "2023-08-03"
   },
   {
     id: "testimonial-tour-st-thomas-2-3",
-    quote: "As a solo traveler, I felt completely comfortable on this tour. Liam Russell created a friendly atmosphere from the start.",
-    author: "Noah Davis",
-    title: "Bought the T-Shirt, Took the Tour, Loved It"
+    quote: "My parent and I didn’t want the tour to end. Betty Wilson is that engaging and informative.",
+    author: "George Morgan",
+    title: "More Enchanting Than Expected",
+    rating: 3.9,
+    date: "2024-10-29"
   },
   {
     id: "testimonial-tour-st-thomas-2-4",
-    quote: "This was not just sightseeing — it was a deep dive into the heart of St Thomas thanks to Liam Russell.",
-    author: "Jose Ivanov",
-    title: "Outstanding in Every Way"
+    quote: "I thought I knew St Thomas, but this tour proved otherwise. Betty Wilson showed us a side we’d never seen.",
+    author: "Evelyn Dunn",
+    title: "Felt Like a Character in a Fairytale",
+    rating: 3.9,
+    date: "2024-05-29"
   },
   {
     id: "testimonial-tour-st-thomas-2-5",
-    quote: "This isn’t your typical tour. Liam Russell makes it feel personal and engaging from the very start.",
-    author: "Rajesh Gardner",
-    title: "An Authentic Slice of St Thomas"
+    quote: "I've been on many tours, but this one stands out. Betty Wilson was passionate, knowledgeable, and made everyone feel welcome.",
+    author: "Lawrence Harris",
+    title: "Got Lost (on Purpose) with {GUIDE_NAME}",
+    rating: 4.3,
+    date: "2021-11-14"
   },
   {
     id: "testimonial-tour-st-thomas-2-6",
-    quote: "We got so much value from this tour. Liam Russell took us to places we would have never discovered on our own.",
-    author: "Brenda Silva",
-    title: "Incredible from Start to Finish"
+    quote: "We were blown away by the depth of knowledge and warmth Betty Wilson brought to the tour.",
+    author: "Louis Crawford",
+    title: "Highly Recommend to Everyone",
+    rating: 4.6,
+    date: "2018-08-09"
   },
   {
     id: "testimonial-tour-st-thomas-2-7",
-    quote: "The pace was perfect, the content was rich, and Liam Russell made every stop memorable.",
-    author: "Mohamed Jackson",
-    title: "Where Magic Meets Cobblestone"
+    quote: "Highly recommend this tour if you want more than just a photo op — Betty Wilson gives you real insight into St Thomas.",
+    author: "Bruce da Costa",
+    title: "Loved Every Minute",
+    rating: 4.9,
+    date: "2024-07-11"
   },
   {
     id: "testimonial-tour-st-thomas-2-8",
-    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Liam Russell.",
-    author: "Christian Moore",
-    title: "Cultural Immersion at Its Best"
-  },
-  {
-    id: "testimonial-tour-st-thomas-2-9",
-    quote: "Liam Russell's enthusiasm for St Thomas was contagious. We walked away feeling inspired.",
-    author: "Yuki Griffin",
-    title: "Better Than My Last Tinder Date"
-  },
-  {
-    id: "testimonial-tour-st-thomas-2-10",
-    quote: "My family and I didn’t want the tour to end. Liam Russell is that engaging and informative.",
-    author: "Thandiwe Keller",
-    title: "Fascinating and Fun"
+    quote: "Even our teens were engaged the entire time — Betty Wilson knows how to captivate a group!",
+    author: "Benjamin Kim",
+    title: "We’ll Never Forget This",
+    rating: 4.3,
+    date: "2025-05-04"
   }
 ];

@@ -3,98 +3,106 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const galleryStudioExplorationTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-cape-town-3-1",
-    quote: "From beginning to end, the Gallery & Studio Exploration was seamless and so well organized.",
-    author: "Bryan Curtis",
-    title: "Highly Recommend to Everyone"
+    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Samantha Lee!",
+    author: "Elizabeth da Costa",
+    title: "A Journey Through Cape Town's Culture",
+    rating: 4.9,
+    date: "2023-04-23"
   },
   {
     id: "testimonial-tour-cape-town-3-2",
-    quote: "Deborah Hernandez had such a great balance of history, fun facts, and local stories — truly a gifted guide.",
-    author: "Aaron Palmer",
-    title: "Insider's Perspective"
+    quote: "Highly recommend this tour if you want more than just a photo op — Samantha Lee gives you real insight into Cape Town.",
+    author: "Joseph Lawson",
+    title: "Loved Every Minute",
+    rating: 4.4,
+    date: "2020-11-04"
   },
   {
     id: "testimonial-tour-cape-town-3-3",
-    quote: "The stories, the hidden gems, the expert navigation — Deborah Hernandez delivered on all fronts.",
-    author: "Lucas Wang",
-    title: "Where Magic Meets Cobblestone"
+    quote: "A truly authentic experience! Samantha Lee showed us the real Cape Town, not just the tourist spots.",
+    author: "Bruce Moore",
+    title: "Fascinating and Fun",
+    rating: 3.6,
+    date: "2023-10-20"
   },
   {
     id: "testimonial-tour-cape-town-3-4",
-    quote: "The pace was perfect, the content was rich, and Deborah Hernandez made every stop memorable.",
-    author: "Ronald Grant",
-    title: "Felt Like a Character in a Fairytale"
+    quote: "It felt like a private tour, even though we were with a group. Samantha Lee is incredibly engaging.",
+    author: "Johnny Payne",
+    title: "A Tour to Remember",
+    rating: 3.8,
+    date: "2020-01-06"
   },
   {
     id: "testimonial-tour-cape-town-3-5",
-    quote: "Deborah Hernandez's enthusiasm for Cape Town was contagious. We walked away feeling inspired.",
-    author: "Eugene Baker",
-    title: "Best Tour in Cape Town"
+    quote: "I can't recommend the Gallery & Studio Exploration enough. Samantha Lee was phenomenal, and the experience was worth every penny.",
+    author: "Elijah Gonzalez",
+    title: "A Deep Dive into Local Culture",
+    rating: 4.8,
+    date: "2021-10-08"
   },
   {
     id: "testimonial-tour-cape-town-3-6",
-    quote: "The stories, the hidden gems, the expert navigation — Deborah Hernandez delivered on all fronts.",
-    author: "Caroline Keller",
-    title: "An Unexpected Highlight"
+    quote: "Samantha Lee went above and beyond to make sure everyone had a great time on the Gallery & Studio Exploration.",
+    author: "Dorothy Williams",
+    title: "Sunlight, Stories, and Serendipity",
+    rating: 3.9,
+    date: "2017-04-20"
   },
   {
     id: "testimonial-tour-cape-town-3-7",
-    quote: "The Gallery & Studio Exploration was both entertaining and educational. Deborah Hernandez has a gift for storytelling that brings Cape Town's history to life.",
-    author: "Billy Porter",
-    title: "Top-Notch Guiding"
+    quote: "Samantha Lee brought a depth of cultural insight that gave us a new appreciation for Cape Town.",
+    author: "Jerry Day",
+    title: "Followed the Guide, Found a Dream",
+    rating: 4,
+    date: "2019-04-23"
   },
   {
     id: "testimonial-tour-cape-town-3-8",
-    quote: "I've been on many tours, but this one stands out. Deborah Hernandez was passionate, knowledgeable, and made everyone feel welcome.",
-    author: "Sarah Ali",
-    title: "Impressive and Informative"
+    quote: "One of the best decisions of our trip! Samantha Lee is a fantastic guide and brought incredible energy to the tour.",
+    author: "Brian Jackson",
+    title: "A Walk That Will Make You Laugh",
+    rating: 3.7,
+    date: "2024-06-22"
   },
   {
     id: "testimonial-tour-cape-town-3-9",
-    quote: "Even our teens were engaged the entire time — Deborah Hernandez knows how to captivate a group!",
-    author: "Audrey Crawford",
-    title: "A Perfect Day in Cape Town"
+    quote: "Even our teens were engaged the entire time — Samantha Lee knows how to captivate a group!",
+    author: "Allison Warren",
+    title: "A New Favorite Memory",
+    rating: 4.8,
+    date: "2021-12-02"
   },
   {
     id: "testimonial-tour-cape-town-3-10",
-    quote: "What an engaging experience! Deborah Hernandez kept us laughing and learning throughout the Gallery & Studio Exploration.",
-    author: "Allison Gonzalez",
-    title: "Impressive and Informative"
+    quote: "I wasn’t expecting to enjoy this tour so much, but Samantha Lee made it the highlight of our trip.",
+    author: "Abigail Suzuki",
+    title: "Got Lost (on Purpose) with {GUIDE_NAME}",
+    rating: 4.6,
+    date: "2022-04-23"
   },
   {
     id: "testimonial-tour-cape-town-3-11",
-    quote: "This was not just sightseeing — it was a deep dive into the heart of Cape Town thanks to Deborah Hernandez.",
-    author: "Sophia Nakamura",
-    title: "Sunlight, Stories, and Serendipity"
+    quote: "Highly recommend this tour if you want more than just a photo op — Samantha Lee gives you real insight into Cape Town.",
+    author: "Ravi Suzuki",
+    title: "A Walk That Will Make You See Cape Town Differently",
+    rating: 3.8,
+    date: "2024-12-10"
   },
   {
     id: "testimonial-tour-cape-town-3-12",
-    quote: "Even the locals in our group said they learned something new. That says a lot about Deborah Hernandez's depth.",
-    author: "Harper Martinez",
-    title: "Memorable from the First Step"
+    quote: "I can't recommend the Gallery & Studio Exploration enough. Samantha Lee was phenomenal, and the experience was worth every penny.",
+    author: "Victoria Curtis",
+    title: "Well Worth Your Time",
+    rating: 3.8,
+    date: "2020-03-13"
   },
   {
     id: "testimonial-tour-cape-town-3-13",
-    quote: "Such a memorable way to explore Cape Town. The mix of history, local culture, and stories was perfect.",
-    author: "Ava Patel",
-    title: "Top-Notch Guiding"
-  },
-  {
-    id: "testimonial-tour-cape-town-3-14",
-    quote: "From start to finish, the experience felt curated and special. Hats off to Deborah Hernandez.",
-    author: "Eleanor Jones",
-    title: "Sunlight, Stories, and Serendipity"
-  },
-  {
-    id: "testimonial-tour-cape-town-3-15",
-    quote: "I felt like I was being shown around by a friend who knows all the secrets of Cape Town.",
-    author: "David Mitchell",
-    title: "An Unexpected Highlight"
-  },
-  {
-    id: "testimonial-tour-cape-town-3-16",
-    quote: "Even the locals in our group said they learned something new. That says a lot about Deborah Hernandez's depth.",
-    author: "Ava Clark",
-    title: "Worth Every Penny"
+    quote: "The pace was perfect, the content was rich, and Samantha Lee made every stop memorable.",
+    author: "Yuki Palmer",
+    title: "Brought Cape Town to Life",
+    rating: 3.7,
+    date: "2024-02-20"
   }
 ];

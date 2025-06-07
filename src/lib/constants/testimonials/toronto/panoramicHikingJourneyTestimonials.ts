@@ -3,56 +3,66 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const panoramicHikingJourneyTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-toronto-3-1",
-    quote: "The small group size and personal attention from Laura Singh made all the difference.",
-    author: "Christian Kowalski",
-    title: "Local Experience Made Easy"
+    quote: "From start to finish, the experience felt curated and special. Hats off to Roger Montgomery.",
+    author: "Oliver Dubois",
+    title: "Best Tour in Toronto",
+    rating: 4,
+    date: "2024-12-06"
   },
   {
     id: "testimonial-tour-toronto-3-2",
-    quote: "Laura Singh shared personal stories that really brought Toronto to life for us. A truly memorable tour.",
-    author: "William Hawkins",
-    title: "A Deep Dive into Local Culture"
+    quote: "One of the best decisions of our trip! Roger Montgomery is a fantastic guide and brought incredible energy to the tour.",
+    author: "Carol Hunter",
+    title: "More Enchanting Than Expected",
+    rating: 3.9,
+    date: "2017-05-02"
   },
   {
     id: "testimonial-tour-toronto-3-3",
-    quote: "My son and I had the best time on this tour. Laura Singh's knowledge of Toronto made it so much more special.",
-    author: "Julie White",
-    title: "Followed the Guide, Found a Dream"
+    quote: "The small group size and personal attention from Roger Montgomery made all the difference.",
+    author: "Joshua Moore",
+    title: "A Journey Through Toronto's Hidden Treasures",
+    rating: 3.7,
+    date: "2023-12-27"
   },
   {
     id: "testimonial-tour-toronto-3-4",
-    quote: "We were blown away by the depth of knowledge and warmth Laura Singh brought to the tour.",
-    author: "Victoria Reeves",
-    title: "A Perfect Day in Toronto"
+    quote: "We joined the Panoramic Hiking Journey on our first day in Toronto, and it set the tone for a fantastic trip.",
+    author: "Raymond Graves",
+    title: "Hot, Sweaty, and Absolutely Worth It",
+    rating: 4.3,
+    date: "2020-07-20"
   },
   {
     id: "testimonial-tour-toronto-3-5",
-    quote: "From beginning to end, the Panoramic Hiking Journey was seamless and so well organized.",
-    author: "Olivia Graham",
-    title: "Memorable from the First Step"
+    quote: "What an engaging experience! Roger Montgomery kept us laughing and learning throughout the Panoramic Hiking Journey.",
+    author: "Gerald Holloway",
+    title: "Exceptional Tour Guide",
+    rating: 4,
+    date: "2021-06-13"
   },
   {
     id: "testimonial-tour-toronto-3-6",
-    quote: "I’ve taken dozens of tours in different countries. Laura Singh ranks among the very best.",
-    author: "Steven Mitchell",
-    title: "Fascinating and Fun"
+    quote: "We booked last-minute and are so glad we did. Roger Montgomery made it one of our favorite memories from Toronto.",
+    author: "Frank Warren",
+    title: "Better Than My Last Tinder Date",
+    rating: 4.7,
+    date: "2019-12-28"
   },
   {
     id: "testimonial-tour-toronto-3-7",
-    quote: "As someone who's been to Toronto before, I was surprised at how much I learned on the Panoramic Hiking Journey. Laura Singh is a treasure trove of information!",
-    author: "Brandon Dubois",
-    title: "Highlight of Our Trip"
+    quote: "Our family loved every moment of the Panoramic Hiking Journey. Roger Montgomery even made it fun for our kids.",
+    author: "Alice Johnson",
+    title: "More Enchanting Than Expected",
+    rating: 4.2,
+    date: "2023-09-26"
   },
   {
     id: "testimonial-tour-toronto-3-8",
-    quote: "The Panoramic Hiking Journey completely changed how I see Toronto. Laura Singh's insights were invaluable.",
-    author: "Mary Wood",
-    title: "Cultural Immersion at Its Best"
-  },
-  {
-    id: "testimonial-tour-toronto-3-9",
-    quote: "My colleagues and I had the best time on this tour. Laura Singh's knowledge of Toronto made it so much more special.",
-    author: "Lily West",
-    title: "Learned So Much!"
+    quote: "This tour exceeded all my expectations. Roger Montgomery's insider knowledge made our Toronto visit unforgettable.",
+    author: "Arthur Anderson",
+    title: "A Tour That Feels Like a Hug",
+    rating: 4.6,
+    date: "2019-05-24"
   }
 ];

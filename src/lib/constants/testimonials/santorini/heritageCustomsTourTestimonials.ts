@@ -3,74 +3,82 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const heritageCustomsTourTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-santorini-4-1",
-    quote: "Joel Wells went above and beyond to make sure everyone had a great time on the Heritage & Customs Tour.",
-    author: "Carlos Wells",
-    title: "An Unexpected Highlight"
+    quote: "From start to finish, the experience felt curated and special. Hats off to Zola Ellis.",
+    author: "Ava Hunter",
+    title: "A Tour That Feels Like Home",
+    rating: 4.3,
+    date: "2021-05-09"
   },
   {
     id: "testimonial-tour-santorini-4-2",
-    quote: "It felt like a private tour, even though we were with a group. Joel Wells is incredibly engaging.",
-    author: "Joel Payne",
-    title: "Brought Santorini to Life"
+    quote: "A truly authentic experience! Zola Ellis showed us the real Santorini, not just the tourist spots.",
+    author: "Elena Porter",
+    title: "Local Experience Made Easy",
+    rating: 4.4,
+    date: "2020-07-26"
   },
   {
     id: "testimonial-tour-santorini-4-3",
-    quote: "This tour gave us a much deeper connection to Santorini. Joel Wells's passion really shines through.",
-    author: "Jane Jackson",
-    title: "Bought the T-Shirt, Took the Tour, Loved It"
+    quote: "I wasn’t expecting to enjoy this tour so much, but Zola Ellis made it the highlight of our trip.",
+    author: "Khalid Morgan",
+    title: "Don't Miss This Tour!",
+    rating: 4.5,
+    date: "2024-03-17"
   },
   {
     id: "testimonial-tour-santorini-4-4",
-    quote: "A truly authentic experience! Joel Wells showed us the real Santorini, not just the tourist spots.",
-    author: "William Jones",
-    title: "Followed the Guide, Found a Dream"
+    quote: "We left the Heritage & Customs Tour feeling more connected to Santorini than we ever expected.",
+    author: "Johnny Griffin",
+    title: "A Journey Through Santorini's Hidden Treasures",
+    rating: 4.5,
+    date: "2018-12-30"
   },
   {
     id: "testimonial-tour-santorini-4-5",
-    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Joel Wells!",
-    author: "Virginia Griffin",
-    title: "Truly Eye-Opening"
+    quote: "Zola Ellis is the kind of guide you want to tell your friends about. This was a five-star experience.",
+    author: "Mei Hamilton",
+    title: "A Walk Through History",
+    rating: 3.9,
+    date: "2020-06-09"
   },
   {
     id: "testimonial-tour-santorini-4-6",
-    quote: "This tour was absolutely amazing! Joel Wells knew everything about Santorini and showed us places we would have never found on our own.",
-    author: "Paul Miller",
-    title: "Hidden Gems of Santorini"
+    quote: "The Heritage & Customs Tour completely changed how I see Santorini. Zola Ellis's insights were invaluable.",
+    author: "Ethan Taylor",
+    title: "A Must-Do in Santorini",
+    rating: 5,
+    date: "2023-02-11"
   },
   {
     id: "testimonial-tour-santorini-4-7",
-    quote: "We joined the Heritage & Customs Tour on our first day in Santorini, and it set the tone for a fantastic trip.",
-    author: "Diego Mitchell",
-    title: "An Unexpected Highlight"
+    quote: "The Heritage & Customs Tour completely changed how I see Santorini. Zola Ellis's insights were invaluable.",
+    author: "Elena Nguyen",
+    title: "Brought Santorini to Life",
+    rating: 3.5,
+    date: "2018-01-30"
   },
   {
     id: "testimonial-tour-santorini-4-8",
-    quote: "As a solo traveler, I felt completely comfortable on this tour. Joel Wells created a friendly atmosphere from the start.",
-    author: "Kennedy Graves",
-    title: "A New Favorite Memory"
+    quote: "Zola Ellis was incredibly accommodating and answered every question with patience and detail.",
+    author: "Harper Hamilton",
+    title: "Sunlight, Stories, and Serendipity",
+    rating: 4.5,
+    date: "2023-11-26"
   },
   {
     id: "testimonial-tour-santorini-4-9",
-    quote: "The Heritage & Customs Tour was both entertaining and educational. Joel Wells has a gift for storytelling that brings Santorini's history to life.",
-    author: "Maya Spencer",
-    title: "A New Favorite Memory"
+    quote: "We loved every minute of the Heritage & Customs Tour. Zola Ellis's local tips were priceless.",
+    author: "Peter Hunter",
+    title: "A Journey Through Santorini's Heart",
+    rating: 4.8,
+    date: "2021-07-27"
   },
   {
     id: "testimonial-tour-santorini-4-10",
-    quote: "The Heritage & Customs Tour was both entertaining and educational. Joel Wells has a gift for storytelling that brings Santorini's history to life.",
-    author: "Jack Spencer",
-    title: "Whispers of the Past, Echoes of Joy"
-  },
-  {
-    id: "testimonial-tour-santorini-4-11",
-    quote: "The Heritage & Customs Tour was both entertaining and educational. Joel Wells has a gift for storytelling that brings Santorini's history to life.",
-    author: "Michelle Reed",
-    title: "Top-Notch Guiding"
-  },
-  {
-    id: "testimonial-tour-santorini-4-12",
-    quote: "A truly authentic experience! Joel Wells showed us the real Santorini, not just the tourist spots.",
-    author: "Sarah Spencer",
-    title: "Cultural Immersion at Its Best"
+    quote: "This tour exceeded all my expectations. Zola Ellis's insider knowledge made our Santorini visit unforgettable.",
+    author: "Gary Brown",
+    title: "A Journey Through Santorini's Soul",
+    rating: 4.8,
+    date: "2021-05-06"
   }
 ];

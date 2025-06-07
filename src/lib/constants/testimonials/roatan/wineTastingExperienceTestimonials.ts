@@ -3,98 +3,74 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const wineTastingExperienceTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-roatan-3-1",
-    quote: "This tour is a hidden gem — just like the spots Melissa Gonzalez showed us around Roatan.",
-    author: "Virginia Wood",
-    title: "Where Magic Meets Cobblestone"
+    quote: "I felt like I was being shown around by a friend who knows all the secrets of Roatan.",
+    author: "Darrell Smith",
+    title: "A Journey Through Roatan's Wonders",
+    rating: 4.9,
+    date: "2021-07-30"
   },
   {
     id: "testimonial-tour-roatan-3-2",
-    quote: "One of the best decisions of our trip! Melissa Gonzalez is a fantastic guide and brought incredible energy to the tour.",
-    author: "Austin Rossi",
-    title: "So Much More Than Expected"
+    quote: "The stories, the hidden gems, the expert navigation — Mei Brooks delivered on all fronts.",
+    author: "Ryan Morales",
+    title: "A Day to Remember",
+    rating: 4.9,
+    date: "2017-11-30"
   },
   {
     id: "testimonial-tour-roatan-3-3",
-    quote: "Even the locals in our group said they learned something new. That says a lot about Melissa Gonzalez's depth.",
-    author: "Wei Hall",
-    title: "History Comes Alive"
+    quote: "It felt like a private tour, even though we were with a group. Mei Brooks is incredibly engaging.",
+    author: "Sebastian Morales",
+    title: "A Walk That Will Make You Want to Dance",
+    rating: 3.9,
+    date: "2017-01-24"
   },
   {
     id: "testimonial-tour-roatan-3-4",
-    quote: "My parent and I didn’t want the tour to end. Melissa Gonzalez is that engaging and informative.",
-    author: "Kevin Dubois",
-    title: "Highly Recommend to Everyone"
+    quote: "Thanks to Mei Brooks, we discovered parts of Roatan we would have never seen on our own.",
+    author: "Sophia Hamilton",
+    title: "Whispers of the Past, Echoes of Joy",
+    rating: 4.4,
+    date: "2017-02-14"
   },
   {
     id: "testimonial-tour-roatan-3-5",
-    quote: "We were blown away by the depth of knowledge and warmth Melissa Gonzalez brought to the tour.",
-    author: "Christine Curtis",
-    title: "Entertaining and Educational"
+    quote: "My cousin and I didn’t want the tour to end. Mei Brooks is that engaging and informative.",
+    author: "Paul Fisher",
+    title: "So Glad We Did This",
+    rating: 4.2,
+    date: "2018-09-22"
   },
   {
     id: "testimonial-tour-roatan-3-6",
-    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Melissa Gonzalez.",
-    author: "Khalid Foster",
-    title: "A Perfect Day in Roatan"
+    quote: "Mei Brooks brought a depth of cultural insight that gave us a new appreciation for Roatan.",
+    author: "Ethan Hall",
+    title: "Wandered Far, Wondered More",
+    rating: 4.4,
+    date: "2019-10-19"
   },
   {
     id: "testimonial-tour-roatan-3-7",
-    quote: "Absolutely worth it. Melissa Gonzalez took care of everything so we could just relax and enjoy Roatan.",
-    author: "Gabriella Graves",
-    title: "Highly Recommend to Everyone"
+    quote: "This was more than just sightseeing — it was an unforgettable journey through Roatan's culture and history.",
+    author: "Austin Gardner",
+    title: "Loved Every Minute",
+    rating: 4.5,
+    date: "2021-11-02"
   },
   {
     id: "testimonial-tour-roatan-3-8",
-    quote: "Melissa Gonzalez's enthusiasm for Roatan was contagious. We walked away feeling inspired.",
-    author: "Ana White",
-    title: "The Walking Was Free—The Laughs Were Priceless"
+    quote: "I've been on many tours, but this one stands out. Mei Brooks was passionate, knowledgeable, and made everyone feel welcome.",
+    author: "Benjamin White",
+    title: "A Walk That Will Make You Fall in Love with Roatan",
+    rating: 3.5,
+    date: "2022-03-28"
   },
   {
     id: "testimonial-tour-roatan-3-9",
-    quote: "Melissa Gonzalez brought a depth of cultural insight that gave us a new appreciation for Roatan.",
-    author: "Henry Chambers",
-    title: "Impressive and Informative"
-  },
-  {
-    id: "testimonial-tour-roatan-3-10",
-    quote: "My acquaintance and I agreed this was the best part of our entire trip to Roatan.",
-    author: "Jerry da Costa",
-    title: "Loved Every Minute"
-  },
-  {
-    id: "testimonial-tour-roatan-3-11",
-    quote: "I’ve taken dozens of tours in different countries. Melissa Gonzalez ranks among the very best.",
-    author: "Melissa Baker",
-    title: "A Deep Dive into Local Culture"
-  },
-  {
-    id: "testimonial-tour-roatan-3-12",
-    quote: "My sister and I had the best time on this tour. Melissa Gonzalez's knowledge of Roatan made it so much more special.",
-    author: "Russell Morgan",
-    title: "Hidden Gems of Roatan"
-  },
-  {
-    id: "testimonial-tour-roatan-3-13",
-    quote: "We’ll be recommending the Wine Tasting Experience to all our friends. Melissa Gonzalez made it that special.",
-    author: "Logan Mitchell",
-    title: "A Deep Dive into Local Culture"
-  },
-  {
-    id: "testimonial-tour-roatan-3-14",
-    quote: "This tour was absolutely amazing! Melissa Gonzalez knew everything about Roatan and showed us places we would have never found on our own.",
-    author: "Jacob Taylor",
-    title: "Would Follow This Guide Into Battle"
-  },
-  {
-    id: "testimonial-tour-roatan-3-15",
-    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Melissa Gonzalez!",
-    author: "Lerato Silva",
-    title: "A Day to Remember"
-  },
-  {
-    id: "testimonial-tour-roatan-3-16",
-    quote: "My colleagues and I didn’t want the tour to end. Melissa Gonzalez is that engaging and informative.",
-    author: "Ava Henderson",
-    title: "Best Tour in Roatan"
+    quote: "If you only have time for one activity in Roatan, make it the Wine Tasting Experience. You won’t regret it.",
+    author: "George Patel",
+    title: "Wandered Far, Wondered More",
+    rating: 4.8,
+    date: "2018-03-06"
   }
 ];

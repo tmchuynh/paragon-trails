@@ -3,92 +3,106 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const dayInPortAdventureTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-lima-1-1",
-    quote: "My workmate and I didn’t want the tour to end. Hiroshi Singh is that engaging and informative.",
-    author: "Lerato Mason",
-    title: "Incredible from Start to Finish"
+    quote: "This tour is a hidden gem — just like the spots Sophia Suzuki showed us around Lima.",
+    author: "Ashley Warren",
+    title: "A Tour That Feels Like a Movie",
+    rating: 4.9,
+    date: "2018-08-17"
   },
   {
     id: "testimonial-tour-lima-1-2",
-    quote: "We joined the Day in Port Adventure on our first day in Lima, and it set the tone for a fantastic trip.",
-    author: "Savannah Dubois",
-    title: "The Walking Was Free—The Laughs Were Priceless"
+    quote: "What a fantastic way to start our stay in Lima. Sophia Suzuki gave us a great foundation for exploring more on our own.",
+    author: "Steven Campbell",
+    title: "Sunlight, Stories, and Serendipity",
+    rating: 4.6,
+    date: "2019-01-09"
   },
   {
     id: "testimonial-tour-lima-1-3",
-    quote: "Highly recommend this tour if you want more than just a photo op — Hiroshi Singh gives you real insight into Lima.",
-    author: "Charlotte Wilson",
-    title: "Top-Notch Guiding"
+    quote: "Our family loved every moment of the Day in Port Adventure. Sophia Suzuki even made it fun for our kids.",
+    author: "Gabriella Maxwell",
+    title: "Whispers of the Past, Echoes of Joy",
+    rating: 3.7,
+    date: "2023-02-22"
   },
   {
     id: "testimonial-tour-lima-1-4",
-    quote: "We loved every minute of the Day in Port Adventure. Hiroshi Singh's local tips were priceless.",
-    author: "Mia White",
-    title: "A Tour Even My Teenager Liked"
+    quote: "So much fun, and so informative! Sophia Suzuki's enthusiasm is contagious.",
+    author: "Isabella Brown",
+    title: "So Much More Than Expected",
+    rating: 3.9,
+    date: "2021-06-17"
   },
   {
     id: "testimonial-tour-lima-1-5",
-    quote: "My husband and I didn’t want the tour to end. Hiroshi Singh is that engaging and informative.",
-    author: "Maria Thomas",
-    title: "Learned So Much!"
+    quote: "The pace was perfect, the content was rich, and Sophia Suzuki made every stop memorable.",
+    author: "Luis Hunter",
+    title: "We’ll Never Forget This",
+    rating: 3.6,
+    date: "2022-04-20"
   },
   {
     id: "testimonial-tour-lima-1-6",
-    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Hiroshi Singh.",
-    author: "Alan Bennett",
-    title: "Don't Miss This Tour!"
+    quote: "This was more than just sightseeing — it was an unforgettable journey through Lima's culture and history.",
+    author: "Santiago Nash",
+    title: "Entertaining and Educational",
+    rating: 4.8,
+    date: "2018-02-08"
   },
   {
     id: "testimonial-tour-lima-1-7",
-    quote: "This tour was absolutely amazing! Hiroshi Singh knew everything about Lima and showed us places we would have never found on our own.",
-    author: "Maya Hernandez",
-    title: "Felt Like a Character in a Fairytale"
+    quote: "As a solo traveler, I felt completely comfortable on this tour. Sophia Suzuki created a friendly atmosphere from the start.",
+    author: "Donna Dubois",
+    title: "Whispers of the Past, Echoes of Joy",
+    rating: 3.6,
+    date: "2022-07-18"
   },
   {
     id: "testimonial-tour-lima-1-8",
-    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Hiroshi Singh!",
-    author: "Charlotte Wang",
-    title: "A Tour Even My Teenager Liked"
+    quote: "So much fun, and so informative! Sophia Suzuki's enthusiasm is contagious.",
+    author: "Mason Khan",
+    title: "A Tour That Feels Like a Hug",
+    rating: 4.9,
+    date: "2019-02-17"
   },
   {
     id: "testimonial-tour-lima-1-9",
-    quote: "A truly authentic experience! Hiroshi Singh showed us the real Lima, not just the tourist spots.",
-    author: "Claire West",
-    title: "Outstanding in Every Way"
+    quote: "I wasn’t expecting to enjoy this tour so much, but Sophia Suzuki made it the highlight of our trip.",
+    author: "Vincent Thomas",
+    title: "Wandered Far, Wondered More",
+    rating: 3.5,
+    date: "2021-12-20"
   },
   {
     id: "testimonial-tour-lima-1-10",
-    quote: "Even our teens were engaged the entire time — Hiroshi Singh knows how to captivate a group!",
-    author: "Hannah Harris",
-    title: "Incredible from Start to Finish"
+    quote: "Sophia Suzuki made learning about Lima's history genuinely exciting — not an easy task!",
+    author: "Ryan Douglas",
+    title: "History Comes Alive",
+    rating: 4,
+    date: "2019-06-30"
   },
   {
     id: "testimonial-tour-lima-1-11",
-    quote: "Hiroshi Singh was incredibly accommodating and answered every question with patience and detail.",
-    author: "Harry Gonzalez",
-    title: "A Tour Even My Teenager Liked"
+    quote: "The small group size and personal attention from Sophia Suzuki made all the difference.",
+    author: "John Carter",
+    title: "A Journey Through Lima's History",
+    rating: 4.5,
+    date: "2025-04-27"
   },
   {
     id: "testimonial-tour-lima-1-12",
-    quote: "Such a memorable way to explore Lima. The mix of history, local culture, and stories was perfect.",
-    author: "Oliver Grant",
-    title: "Best Tour in Lima"
+    quote: "I thought I knew Lima, but this tour proved otherwise. Sophia Suzuki showed us a side we’d never seen.",
+    author: "Dennis Kim",
+    title: "More Enchanting Than Expected",
+    rating: 4.6,
+    date: "2018-07-03"
   },
   {
     id: "testimonial-tour-lima-1-13",
-    quote: "I’ve taken dozens of tours in different countries. Hiroshi Singh ranks among the very best.",
-    author: "Maya Reeves",
-    title: "Wandered Far, Wondered More"
-  },
-  {
-    id: "testimonial-tour-lima-1-14",
-    quote: "The pace was perfect, the content was rich, and Hiroshi Singh made every stop memorable.",
-    author: "Sofia Ivanov",
-    title: "History, Snacks, and Laughs—Yes Please!"
-  },
-  {
-    id: "testimonial-tour-lima-1-15",
-    quote: "We joined the Day in Port Adventure on our first day in Lima, and it set the tone for a fantastic trip.",
-    author: "Amy Rodriguez",
-    title: "Cultural Immersion at Its Best"
+    quote: "My grandmother and I agreed this was the best part of our entire trip to Lima.",
+    author: "Sarah Palmer",
+    title: "Loved Every Minute",
+    rating: 4.4,
+    date: "2018-09-17"
   }
 ];

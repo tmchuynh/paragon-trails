@@ -3,80 +3,66 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const bargainHuntersExperienceTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-dubrovnik-5-1",
-    quote: "Thanks to Nomsa Palmer, we discovered parts of Dubrovnik we would have never seen on our own.",
-    author: "Douglas Hunter",
-    title: "Best Tour in Dubrovnik"
+    quote: "We joined the Bargain Hunter's Experience on our first day in Dubrovnik, and it set the tone for a fantastic trip.",
+    author: "Liam Russell",
+    title: "Cultural Immersion at Its Best",
+    rating: 4.3,
+    date: "2020-03-04"
   },
   {
     id: "testimonial-tour-dubrovnik-5-2",
-    quote: "One of the best decisions of our trip! Nomsa Palmer is a fantastic guide and brought incredible energy to the tour.",
-    author: "Steven Anderson",
-    title: "Incredible from Start to Finish"
+    quote: "The stories, the hidden gems, the expert navigation — Chen Montgomery delivered on all fronts.",
+    author: "Andrew Montgomery",
+    title: "A Walk That Will Make You Want to Stay",
+    rating: 4.9,
+    date: "2017-04-06"
   },
   {
     id: "testimonial-tour-dubrovnik-5-3",
-    quote: "My family and I agreed this was the best part of our entire trip to Dubrovnik.",
-    author: "Caroline Kowalski",
-    title: "Learned So Much!"
+    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Chen Montgomery.",
+    author: "Oliver Young",
+    title: "Unforgettable Experience",
+    rating: 5,
+    date: "2024-12-31"
   },
   {
     id: "testimonial-tour-dubrovnik-5-4",
-    quote: "I wasn’t expecting to enjoy this tour so much, but Nomsa Palmer made it the highlight of our trip.",
-    author: "Jeremy Ivanov",
-    title: "Brought Dubrovnik to Life"
+    quote: "I was nervous about joining a group tour, but Chen Montgomery made everyone feel like part of the crew.",
+    author: "Tyler Hall",
+    title: "A Journey Through Dubrovnik's Soul",
+    rating: 4.9,
+    date: "2023-10-29"
   },
   {
     id: "testimonial-tour-dubrovnik-5-5",
-    quote: "This was more than just sightseeing — it was an unforgettable journey through Dubrovnik's culture and history.",
-    author: "Jerry Lawson",
-    title: "Wandered Far, Wondered More"
+    quote: "Thanks to Chen Montgomery, we discovered parts of Dubrovnik we would have never seen on our own.",
+    author: "Evelyn Johnson",
+    title: "Worth Every Penny",
+    rating: 4.4,
+    date: "2022-08-08"
   },
   {
     id: "testimonial-tour-dubrovnik-5-6",
-    quote: "If you're visiting Dubrovnik, the Bargain Hunter's Experience is a must! Nomsa Palmer made the history come alive in a way guidebooks never could.",
-    author: "Larry Harper",
-    title: "Incredible from Start to Finish"
+    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Chen Montgomery.",
+    author: "Avery Müller",
+    title: "The Best Way to See Dubrovnik",
+    rating: 4.7,
+    date: "2023-04-07"
   },
   {
     id: "testimonial-tour-dubrovnik-5-7",
-    quote: "We had limited time in Dubrovnik, and this tour made sure we saw the best of it. Nomsa Palmer was amazing.",
-    author: "Donna Reed",
-    title: "History Comes Alive"
+    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Chen Montgomery!",
+    author: "Julie Jones",
+    title: "Local Experience Made Easy",
+    rating: 4.6,
+    date: "2019-07-31"
   },
   {
     id: "testimonial-tour-dubrovnik-5-8",
-    quote: "Such a memorable way to explore Dubrovnik. The mix of history, local culture, and stories was perfect.",
-    author: "Dylan Kim",
-    title: "Followed the Guide, Found a Dream"
-  },
-  {
-    id: "testimonial-tour-dubrovnik-5-9",
-    quote: "Nomsa Palmer had such a great balance of history, fun facts, and local stories — truly a gifted guide.",
-    author: "Carol Watson",
-    title: "A New Favorite Memory"
-  },
-  {
-    id: "testimonial-tour-dubrovnik-5-10",
-    quote: "What an engaging experience! Nomsa Palmer kept us laughing and learning throughout the Bargain Hunter's Experience.",
-    author: "Robert Chambers",
-    title: "Lost in Time—in the Best Way"
-  },
-  {
-    id: "testimonial-tour-dubrovnik-5-11",
-    quote: "This tour exceeded all my expectations. Nomsa Palmer's insider knowledge made our Dubrovnik visit unforgettable.",
-    author: "Cynthia Ivanov",
-    title: "Better Than My Last Tinder Date"
-  },
-  {
-    id: "testimonial-tour-dubrovnik-5-12",
-    quote: "Our family loved every moment of the Bargain Hunter's Experience. Nomsa Palmer even made it fun for our kids.",
-    author: "Kenneth Jackson",
-    title: "So Much More Than Expected"
-  },
-  {
-    id: "testimonial-tour-dubrovnik-5-13",
-    quote: "So much fun, and so informative! Nomsa Palmer's enthusiasm is contagious.",
-    author: "Lily Lewis",
-    title: "A Stroll Through a Living Storybook"
+    quote: "So much fun, and so informative! Chen Montgomery's enthusiasm is contagious.",
+    author: "Jeremy Baker",
+    title: "A Must-Do in Dubrovnik",
+    rating: 4.8,
+    date: "2022-03-10"
   }
 ];

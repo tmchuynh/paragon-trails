@@ -3,98 +3,130 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const familyMemorymakingTourTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-glacier-bay-4-1",
-    quote: "Timothy Harper's enthusiasm for Glacier Bay was contagious. We walked away feeling inspired.",
-    author: "Joel Mitchell",
-    title: "A Deep Dive into Local Culture"
+    quote: "The small group size and personal attention from Eugene Reed made all the difference.",
+    author: "Jason Mitchell",
+    title: "Outstanding in Every Way",
+    rating: 4.7,
+    date: "2017-09-25"
   },
   {
     id: "testimonial-tour-glacier-bay-4-2",
-    quote: "The Family Memory-Making Tour was the highlight of our trip to Glacier Bay. Timothy Harper took us to all the best spots and shared fascinating stories.",
-    author: "Brooklyn Day",
-    title: "Local Experience Made Easy"
+    quote: "As someone who's been to Glacier Bay before, I was surprised at how much I learned on the Family Memory-Making Tour. Eugene Reed is a treasure trove of information!",
+    author: "Isabella Lawson",
+    title: "Fascinating and Fun",
+    rating: 4.3,
+    date: "2024-04-01"
   },
   {
     id: "testimonial-tour-glacier-bay-4-3",
-    quote: "A truly authentic experience! Timothy Harper showed us the real Glacier Bay, not just the tourist spots.",
-    author: "Ashley Harper",
-    title: "If Cities Had Souls, Glacier Bay Sang to Us"
+    quote: "The Family Memory-Making Tour completely changed how I see Glacier Bay. Eugene Reed's insights were invaluable.",
+    author: "Dorothy Davis",
+    title: "Unforgettable Experience",
+    rating: 4.8,
+    date: "2022-09-24"
   },
   {
     id: "testimonial-tour-glacier-bay-4-4",
-    quote: "My uncle and I had the best time on this tour. Timothy Harper's knowledge of Glacier Bay made it so much more special.",
-    author: "Abigail Sutton",
-    title: "Cultural Immersion at Its Best"
+    quote: "I wasn’t expecting to enjoy this tour so much, but Eugene Reed made it the highlight of our trip.",
+    author: "Javier Williams",
+    title: "A Tour That Feels Like a Fairytale",
+    rating: 4.3,
+    date: "2023-06-24"
   },
   {
     id: "testimonial-tour-glacier-bay-4-5",
-    quote: "Timothy Harper shared personal stories that really brought Glacier Bay to life for us. A truly memorable tour.",
-    author: "Kennedy Fox",
-    title: "Beyond Our Expectations"
+    quote: "What a fantastic way to start our stay in Glacier Bay. Eugene Reed gave us a great foundation for exploring more on our own.",
+    author: "Emma Gibson",
+    title: "Sunlight, Stories, and Serendipity",
+    rating: 4.1,
+    date: "2022-07-23"
   },
   {
     id: "testimonial-tour-glacier-bay-4-6",
-    quote: "Timothy Harper brought a depth of cultural insight that gave us a new appreciation for Glacier Bay.",
-    author: "Jesse Baker",
-    title: "Absolutely Fantastic!"
+    quote: "This tour was absolutely amazing! Eugene Reed knew everything about Glacier Bay and showed us places we would have never found on our own.",
+    author: "Brian Henderson",
+    title: "A Walk Through History",
+    rating: 4.1,
+    date: "2022-10-12"
   },
   {
     id: "testimonial-tour-glacier-bay-4-7",
-    quote: "Our family loved every moment of the Family Memory-Making Tour. Timothy Harper even made it fun for our kids.",
-    author: "Pamela Rodriguez",
-    title: "So Much More Than Expected"
+    quote: "We had limited time in Glacier Bay, and this tour made sure we saw the best of it. Eugene Reed was amazing.",
+    author: "Justin Ellis",
+    title: "A Tour That Feels Like a Celebration",
+    rating: 3.6,
+    date: "2021-01-18"
   },
   {
     id: "testimonial-tour-glacier-bay-4-8",
-    quote: "This was more than just sightseeing — it was an unforgettable journey through Glacier Bay's culture and history.",
-    author: "Brooklyn Harper",
-    title: "Highlight of Our Trip"
+    quote: "If you're visiting Glacier Bay, the Family Memory-Making Tour is a must! Eugene Reed made the history come alive in a way guidebooks never could.",
+    author: "Miguel Griffin",
+    title: "A Journey Through Glacier Bay's Beauty",
+    rating: 4.6,
+    date: "2017-08-25"
   },
   {
     id: "testimonial-tour-glacier-bay-4-9",
-    quote: "Timothy Harper's enthusiasm for Glacier Bay was contagious. We walked away feeling inspired.",
-    author: "Billy Williams",
-    title: "Loved Every Minute"
+    quote: "Eugene Reed was incredibly accommodating and answered every question with patience and detail.",
+    author: "Stella Nash",
+    title: "Best Decision of Our Trip",
+    rating: 3.7,
+    date: "2024-06-14"
   },
   {
     id: "testimonial-tour-glacier-bay-4-10",
-    quote: "Absolutely worth it. Timothy Harper took care of everything so we could just relax and enjoy Glacier Bay.",
-    author: "Aiden Clark",
-    title: "The Ultimate Glacier Bay Tour"
+    quote: "My brother and I had the best time on this tour. Eugene Reed's knowledge of Glacier Bay made it so much more special.",
+    author: "Elijah Foster",
+    title: "Exceptional Tour Guide",
+    rating: 3.7,
+    date: "2017-03-14"
   },
   {
     id: "testimonial-tour-glacier-bay-4-11",
-    quote: "From beginning to end, the Family Memory-Making Tour was seamless and so well organized.",
-    author: "Fatima da Costa",
-    title: "A New Favorite Memory"
+    quote: "This isn’t your typical tour. Eugene Reed makes it feel personal and engaging from the very start.",
+    author: "Carol Morales",
+    title: "A Journey Through Glacier Bay's Secrets",
+    rating: 3.5,
+    date: "2019-11-10"
   },
   {
     id: "testimonial-tour-glacier-bay-4-12",
-    quote: "One of the best decisions of our trip! Timothy Harper is a fantastic guide and brought incredible energy to the tour.",
-    author: "Tyler Jones",
-    title: "Unforgettable Experience"
+    quote: "Eugene Reed brought a depth of cultural insight that gave us a new appreciation for Glacier Bay.",
+    author: "Elijah Hayes",
+    title: "A Journey Through Glacier Bay's Hidden Treasures",
+    rating: 3.6,
+    date: "2024-03-26"
   },
   {
     id: "testimonial-tour-glacier-bay-4-13",
-    quote: "We booked last-minute and are so glad we did. Timothy Harper made it one of our favorite memories from Glacier Bay.",
-    author: "Ryan Morgan",
-    title: "Hidden Gems of Glacier Bay"
+    quote: "I can't recommend the Family Memory-Making Tour enough. Eugene Reed was phenomenal, and the experience was worth every penny.",
+    author: "Gabriella Müller",
+    title: "Fun, Friendly, and Full of Insight",
+    rating: 4.9,
+    date: "2017-02-03"
   },
   {
     id: "testimonial-tour-glacier-bay-4-14",
-    quote: "Timothy Harper shared personal stories that really brought Glacier Bay to life for us. A truly memorable tour.",
-    author: "Charlotte Keller",
-    title: "Best Tour in Glacier Bay"
+    quote: "The Family Memory-Making Tour completely changed how I see Glacier Bay. Eugene Reed's insights were invaluable.",
+    author: "Skylar Taylor",
+    title: "A Day to Remember",
+    rating: 4.8,
+    date: "2019-04-30"
   },
   {
     id: "testimonial-tour-glacier-bay-4-15",
-    quote: "So much fun, and so informative! Timothy Harper's enthusiasm is contagious.",
-    author: "Avery Crawford",
-    title: "Sunlight, Stories, and Serendipity"
+    quote: "We got so much value from this tour. Eugene Reed took us to places we would have never discovered on our own.",
+    author: "James Wilson",
+    title: "History Comes Alive",
+    rating: 4.8,
+    date: "2019-02-04"
   },
   {
     id: "testimonial-tour-glacier-bay-4-16",
-    quote: "Timothy Harper went above and beyond to make sure everyone had a great time on the Family Memory-Making Tour.",
-    author: "Aaliyah Fisher",
-    title: "Incredible from Start to Finish"
+    quote: "One of the best decisions of our trip! Eugene Reed is a fantastic guide and brought incredible energy to the tour.",
+    author: "Stephen Foster",
+    title: "Memorable from the First Step",
+    rating: 4.3,
+    date: "2017-01-26"
   }
 ];

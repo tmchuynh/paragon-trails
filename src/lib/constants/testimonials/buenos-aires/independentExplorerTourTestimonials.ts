@@ -3,74 +3,90 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const independentExplorerTourTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-buenos-aires-3-1",
-    quote: "We left the Independent Explorer Tour feeling more connected to Buenos Aires than we ever expected.",
-    author: "Amy Curtis",
-    title: "A Tour Even My Teenager Liked"
+    quote: "We joined the Independent Explorer Tour on our first day in Buenos Aires, and it set the tone for a fantastic trip.",
+    author: "Timothy Hawkins",
+    title: "Better Than My Last Tinder Date",
+    rating: 4.2,
+    date: "2022-02-25"
   },
   {
     id: "testimonial-tour-buenos-aires-3-2",
-    quote: "My grandfather and I agreed this was the best part of our entire trip to Buenos Aires.",
-    author: "Sarah Cooper",
-    title: "The Perfect Introduction to Buenos Aires"
+    quote: "As someone who's been to Buenos Aires before, I was surprised at how much I learned on the Independent Explorer Tour. Ashley Hawkins is a treasure trove of information!",
+    author: "Aaliyah Spencer",
+    title: "Brought Buenos Aires to Life",
+    rating: 4.4,
+    date: "2017-11-24"
   },
   {
     id: "testimonial-tour-buenos-aires-3-3",
-    quote: "The Independent Explorer Tour completely changed how I see Buenos Aires. David Patel's insights were invaluable.",
-    author: "Johnny White",
-    title: "Lost in Time—in the Best Way"
+    quote: "This tour gave us a much deeper connection to Buenos Aires. Ashley Hawkins's passion really shines through.",
+    author: "Sophia Brooks",
+    title: "Sunlight, Stories, and Serendipity",
+    rating: 3.7,
+    date: "2022-12-24"
   },
   {
     id: "testimonial-tour-buenos-aires-3-4",
-    quote: "I wasn’t expecting to enjoy this tour so much, but David Patel made it the highlight of our trip.",
-    author: "Mohamed Lewis",
-    title: "Outstanding in Every Way"
+    quote: "I've been on many tours, but this one stands out. Ashley Hawkins was passionate, knowledgeable, and made everyone feel welcome.",
+    author: "Jesse Hall",
+    title: "Fascinating and Fun",
+    rating: 3.7,
+    date: "2019-06-09"
   },
   {
     id: "testimonial-tour-buenos-aires-3-5",
-    quote: "This was more than just sightseeing — it was an unforgettable journey through Buenos Aires's culture and history.",
-    author: "Chen Brown",
-    title: "An Unexpected Highlight"
+    quote: "We booked last-minute and are so glad we did. Ashley Hawkins made it one of our favorite memories from Buenos Aires.",
+    author: "Carl Ellis",
+    title: "Lost in Time—in the Best Way",
+    rating: 4.1,
+    date: "2019-02-01"
   },
   {
     id: "testimonial-tour-buenos-aires-3-6",
-    quote: "David Patel shared personal stories that really brought Buenos Aires to life for us. A truly memorable tour.",
-    author: "Joel Murray",
-    title: "Followed the Guide, Found a Dream"
+    quote: "From beginning to end, the Independent Explorer Tour was seamless and so well organized.",
+    author: "Kinsley Graves",
+    title: "If Cities Had Souls, Buenos Aires Sang to Us",
+    rating: 4.1,
+    date: "2024-04-20"
   },
   {
     id: "testimonial-tour-buenos-aires-3-7",
-    quote: "The Independent Explorer Tour completely changed how I see Buenos Aires. David Patel's insights were invaluable.",
-    author: "Sofia Singh",
-    title: "Insider's Perspective"
+    quote: "Thanks to Ashley Hawkins, we discovered parts of Buenos Aires we would have never seen on our own.",
+    author: "Sean Edwards",
+    title: "We’ll Never Forget This",
+    rating: 4.3,
+    date: "2021-02-14"
   },
   {
     id: "testimonial-tour-buenos-aires-3-8",
-    quote: "Such a memorable way to explore Buenos Aires. The mix of history, local culture, and stories was perfect.",
-    author: "Aria White",
-    title: "Wandered Far, Wondered More"
+    quote: "Ashley Hawkins shared personal stories that really brought Buenos Aires to life for us. A truly memorable tour.",
+    author: "Randy Maxwell",
+    title: "A Walk That Will Make You Laugh",
+    rating: 4.1,
+    date: "2021-09-26"
   },
   {
     id: "testimonial-tour-buenos-aires-3-9",
-    quote: "We booked last-minute and are so glad we did. David Patel made it one of our favorite memories from Buenos Aires.",
-    author: "Jonathan Warren",
-    title: "The Ultimate Buenos Aires Tour"
+    quote: "Ashley Hawkins shared personal stories that really brought Buenos Aires to life for us. A truly memorable tour.",
+    author: "Alan Harris",
+    title: "The Walking Was Free—The Laughs Were Priceless",
+    rating: 4.7,
+    date: "2024-10-10"
   },
   {
     id: "testimonial-tour-buenos-aires-3-10",
-    quote: "David Patel went above and beyond to make sure everyone had a great time on the Independent Explorer Tour.",
-    author: "Gabriel Porter",
-    title: "An Unexpected Highlight"
+    quote: "As a solo traveler, I felt completely comfortable on this tour. Ashley Hawkins created a friendly atmosphere from the start.",
+    author: "Bella Montgomery",
+    title: "Loved Every Minute",
+    rating: 4.8,
+    date: "2019-09-28"
   },
   {
     id: "testimonial-tour-buenos-aires-3-11",
-    quote: "My friend and I agreed this was the best part of our entire trip to Buenos Aires.",
-    author: "Mateo Maxwell",
-    title: "So Much More Than Expected"
-  },
-  {
-    id: "testimonial-tour-buenos-aires-3-12",
-    quote: "Absolutely worth it. David Patel took care of everything so we could just relax and enjoy Buenos Aires.",
-    author: "Melissa Johnson",
-    title: "Wandered Far, Wondered More"
+    quote: "Even the locals in our group said they learned something new. That says a lot about Ashley Hawkins's depth.",
+    author: "Kimberly Gardner",
+    title: "Fun, Friendly, and Full of Insight",
+    rating: 4.9,
+    date: "2023-12-03"
   }
 ];

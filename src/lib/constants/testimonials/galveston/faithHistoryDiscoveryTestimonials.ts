@@ -3,62 +3,74 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const faithHistoryDiscoveryTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-galveston-5-1",
-    quote: "We booked last-minute and are so glad we did. Aaliyah Kowalski made it one of our favorite memories from Galveston.",
-    author: "David Spencer",
-    title: "Highlight of Our Trip"
+    quote: "We left the Faith & History Discovery feeling more connected to Galveston than we ever expected.",
+    author: "Cynthia Hernandez",
+    title: "Entertaining and Educational",
+    rating: 4.1,
+    date: "2021-05-29"
   },
   {
     id: "testimonial-tour-galveston-5-2",
-    quote: "What an engaging experience! Aaliyah Kowalski kept us laughing and learning throughout the Faith & History Discovery.",
-    author: "Mateo Hayes",
-    title: "Incredible from Start to Finish"
+    quote: "Absolutely worth it. Dorothy Nakamura took care of everything so we could just relax and enjoy Galveston.",
+    author: "Aaron Brown",
+    title: "A Stroll Through a Living Storybook",
+    rating: 3.6,
+    date: "2024-05-02"
   },
   {
     id: "testimonial-tour-galveston-5-3",
-    quote: "I wasn’t expecting to enjoy this tour so much, but Aaliyah Kowalski made it the highlight of our trip.",
-    author: "Kyle Hall",
-    title: "A Perfect Day in Galveston"
+    quote: "One of the best decisions of our trip! Dorothy Nakamura is a fantastic guide and brought incredible energy to the tour.",
+    author: "Kinsley Hamilton",
+    title: "A Deep Dive into Local Culture",
+    rating: 4.7,
+    date: "2024-12-18"
   },
   {
     id: "testimonial-tour-galveston-5-4",
-    quote: "My wife and I had the best time on this tour. Aaliyah Kowalski's knowledge of Galveston made it so much more special.",
-    author: "Claire Singh",
-    title: "Well Worth Your Time"
+    quote: "The small group size and personal attention from Dorothy Nakamura made all the difference.",
+    author: "Riley Hayes",
+    title: "History Comes Alive",
+    rating: 4.4,
+    date: "2018-09-26"
   },
   {
     id: "testimonial-tour-galveston-5-5",
-    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Aaliyah Kowalski.",
-    author: "David Porter",
-    title: "One of the Best Tours We've Taken"
+    quote: "The Faith & History Discovery was both entertaining and educational. Dorothy Nakamura has a gift for storytelling that brings Galveston's history to life.",
+    author: "Lily Gardner",
+    title: "A Journey Through Galveston's Wonders",
+    rating: 4.4,
+    date: "2024-03-25"
   },
   {
     id: "testimonial-tour-galveston-5-6",
-    quote: "This was more than just sightseeing — it was an unforgettable journey through Galveston's culture and history.",
-    author: "Valentina Montgomery",
-    title: "Well Worth Your Time"
+    quote: "This tour gave us a much deeper connection to Galveston. Dorothy Nakamura's passion really shines through.",
+    author: "Amelia Hayes",
+    title: "A Tour That Feels Like a Movie",
+    rating: 4.6,
+    date: "2022-07-17"
   },
   {
     id: "testimonial-tour-galveston-5-7",
-    quote: "One of the best decisions of our trip! Aaliyah Kowalski is a fantastic guide and brought incredible energy to the tour.",
-    author: "Sophia Knight",
-    title: "Sunlight, Stories, and Serendipity"
+    quote: "Dorothy Nakamura went above and beyond to make sure everyone had a great time on the Faith & History Discovery.",
+    author: "Angela West",
+    title: "The Real Galveston Experience",
+    rating: 4.7,
+    date: "2024-07-14"
   },
   {
     id: "testimonial-tour-galveston-5-8",
-    quote: "We had limited time in Galveston, and this tour made sure we saw the best of it. Aaliyah Kowalski was amazing.",
-    author: "Emma Curtis",
-    title: "Memorable from the First Step"
+    quote: "My uncle and I didn’t want the tour to end. Dorothy Nakamura is that engaging and informative.",
+    author: "Noah Nguyen",
+    title: "A Journey Through Galveston's History",
+    rating: 4.1,
+    date: "2023-06-20"
   },
   {
     id: "testimonial-tour-galveston-5-9",
-    quote: "From beginning to end, the Faith & History Discovery was seamless and so well organized.",
-    author: "Rachel Morgan",
-    title: "A New Favorite Memory"
-  },
-  {
-    id: "testimonial-tour-galveston-5-10",
-    quote: "We had limited time in Galveston, and this tour made sure we saw the best of it. Aaliyah Kowalski was amazing.",
-    author: "Michelle Carter",
-    title: "Well Worth Your Time"
+    quote: "Highly recommend this tour if you want more than just a photo op — Dorothy Nakamura gives you real insight into Galveston.",
+    author: "Christian Crawford",
+    title: "So Glad We Did This",
+    rating: 4.1,
+    date: "2024-06-20"
   }
 ];

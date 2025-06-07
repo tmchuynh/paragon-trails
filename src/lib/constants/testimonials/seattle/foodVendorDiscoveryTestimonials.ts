@@ -3,104 +3,82 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const foodVendorDiscoveryTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-seattle-2-1",
-    quote: "This tour is a hidden gem — just like the spots Avery Wright showed us around Seattle.",
-    author: "Skylar Dean",
-    title: "Brought Seattle to Life"
+    quote: "We’ll be recommending the Food Vendor Discovery to all our friends. Joshua Wilson made it that special.",
+    author: "Christine Jennings",
+    title: "A Tour to Remember",
+    rating: 5,
+    date: "2023-08-02"
   },
   {
     id: "testimonial-tour-seattle-2-2",
-    quote: "It felt like a private tour, even though we were with a group. Avery Wright is incredibly engaging.",
-    author: "David Ellis",
-    title: "A New Favorite Memory"
+    quote: "My colleague and I didn’t want the tour to end. Joshua Wilson is that engaging and informative.",
+    author: "Betty Dubois",
+    title: "Worth Every Penny",
+    rating: 4.5,
+    date: "2022-02-05"
   },
   {
     id: "testimonial-tour-seattle-2-3",
-    quote: "Absolutely worth it. Avery Wright took care of everything so we could just relax and enjoy Seattle.",
-    author: "Evelyn Müller",
-    title: "History, Snacks, and Laughs—Yes Please!"
+    quote: "My wife and I didn’t want the tour to end. Joshua Wilson is that engaging and informative.",
+    author: "Evelyn Dunn",
+    title: "Felt Like a Character in a Fairytale",
+    rating: 4.2,
+    date: "2021-01-01"
   },
   {
     id: "testimonial-tour-seattle-2-4",
-    quote: "The stories, the hidden gems, the expert navigation — Avery Wright delivered on all fronts.",
-    author: "Layla Williams",
-    title: "Well Worth Your Time"
+    quote: "Even our teens were engaged the entire time — Joshua Wilson knows how to captivate a group!",
+    author: "Layla Maxwell",
+    title: "A Walk That Will Make You Want to Explore More",
+    rating: 4.7,
+    date: "2023-02-02"
   },
   {
     id: "testimonial-tour-seattle-2-5",
-    quote: "We got so much value from this tour. Avery Wright took us to places we would have never discovered on our own.",
-    author: "Avery da Costa",
-    title: "The Real Seattle Experience"
+    quote: "The stories, the hidden gems, the expert navigation — Joshua Wilson delivered on all fronts.",
+    author: "Priya Gonzalez",
+    title: "A Journey Through Seattle's Charm",
+    rating: 4.4,
+    date: "2021-06-06"
   },
   {
     id: "testimonial-tour-seattle-2-6",
-    quote: "The pace was perfect, the content was rich, and Avery Wright made every stop memorable.",
-    author: "Peter Hall",
-    title: "Felt Like a Character in a Fairytale"
+    quote: "The Food Vendor Discovery completely changed how I see Seattle. Joshua Wilson's insights were invaluable.",
+    author: "Russell Bennett",
+    title: "The Best Way to See Seattle",
+    rating: 4.2,
+    date: "2022-12-30"
   },
   {
     id: "testimonial-tour-seattle-2-7",
-    quote: "This tour is a hidden gem — just like the spots Avery Wright showed us around Seattle.",
-    author: "Cynthia Rodriguez",
-    title: "Best Decision of Our Trip"
+    quote: "Such a memorable way to explore Seattle. The mix of history, local culture, and stories was perfect.",
+    author: "Miguel Foster",
+    title: "A Journey Through Seattle's Hidden Treasures",
+    rating: 4.4,
+    date: "2024-01-10"
   },
   {
     id: "testimonial-tour-seattle-2-8",
-    quote: "Such a memorable way to explore Seattle. The mix of history, local culture, and stories was perfect.",
-    author: "Leah Fox",
-    title: "Top-Notch Guiding"
+    quote: "As someone who's been to Seattle before, I was surprised at how much I learned on the Food Vendor Discovery. Joshua Wilson is a treasure trove of information!",
+    author: "Layla Ivanov",
+    title: "A Walk Through History",
+    rating: 4.2,
+    date: "2020-10-22"
   },
   {
     id: "testimonial-tour-seattle-2-9",
-    quote: "From start to finish, the experience felt curated and special. Hats off to Avery Wright.",
-    author: "Aaliyah Martinez",
-    title: "A Stroll Through a Living Storybook"
+    quote: "Joshua Wilson is the kind of guide you want to tell your friends about. This was a five-star experience.",
+    author: "Mark Morales",
+    title: "A Tour Even My Teenager Liked",
+    rating: 5,
+    date: "2018-03-03"
   },
   {
     id: "testimonial-tour-seattle-2-10",
-    quote: "We were blown away by the depth of knowledge and warmth Avery Wright brought to the tour.",
-    author: "Eric Wood",
-    title: "Lost in Time—in the Best Way"
-  },
-  {
-    id: "testimonial-tour-seattle-2-11",
-    quote: "We loved every minute of the Food Vendor Discovery. Avery Wright's local tips were priceless.",
-    author: "Russell Brown",
-    title: "Memorable from the First Step"
-  },
-  {
-    id: "testimonial-tour-seattle-2-12",
-    quote: "If you only have time for one activity in Seattle, make it the Food Vendor Discovery. You won’t regret it.",
-    author: "Emily Mitchell",
-    title: "Worth Every Penny"
-  },
-  {
-    id: "testimonial-tour-seattle-2-13",
-    quote: "I wasn’t expecting to enjoy this tour so much, but Avery Wright made it the highlight of our trip.",
-    author: "Amina Hernandez",
-    title: "Hot, Sweaty, and Absolutely Worth It"
-  },
-  {
-    id: "testimonial-tour-seattle-2-14",
-    quote: "This tour exceeded all my expectations. Avery Wright's insider knowledge made our Seattle visit unforgettable.",
-    author: "George Wood",
-    title: "Well Worth Your Time"
-  },
-  {
-    id: "testimonial-tour-seattle-2-15",
-    quote: "The Food Vendor Discovery completely changed how I see Seattle. Avery Wright's insights were invaluable.",
-    author: "Harry Müller",
-    title: "Would Follow This Guide Into Battle"
-  },
-  {
-    id: "testimonial-tour-seattle-2-16",
-    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Avery Wright.",
-    author: "David Ivanov",
-    title: "Lost in Time—in the Best Way"
-  },
-  {
-    id: "testimonial-tour-seattle-2-17",
-    quote: "Even the locals in our group said they learned something new. That says a lot about Avery Wright's depth.",
-    author: "Aaron Martinez",
-    title: "Best Tour in Seattle"
+    quote: "I've been on many tours, but this one stands out. Joshua Wilson was passionate, knowledgeable, and made everyone feel welcome.",
+    author: "Walter Day",
+    title: "Fun, Friendly, and Full of Insight",
+    rating: 4.4,
+    date: "2019-07-25"
   }
 ];

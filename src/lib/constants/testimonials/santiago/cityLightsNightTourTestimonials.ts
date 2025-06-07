@@ -3,98 +3,90 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const cityLightsNightTourTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-santiago-5-1",
-    quote: "Chloe Maxwell made learning about Santiago's history genuinely exciting — not an easy task!",
-    author: "Bryan Henderson",
-    title: "Unforgettable Experience"
+    quote: "My sister and I didn’t want the tour to end. Mary Marshall is that engaging and informative.",
+    author: "Diego Wells",
+    title: "Fun, Friendly, and Full of Insight",
+    rating: 3.9,
+    date: "2023-01-06"
   },
   {
     id: "testimonial-tour-santiago-5-2",
-    quote: "My cousin and I didn’t want the tour to end. Chloe Maxwell is that engaging and informative.",
-    author: "Patrick Cooper",
-    title: "Sunlight, Stories, and Serendipity"
+    quote: "A truly authentic experience! Mary Marshall showed us the real Santiago, not just the tourist spots.",
+    author: "Wei Hall",
+    title: "A Tour That Feels Like Home",
+    rating: 3.7,
+    date: "2025-03-22"
   },
   {
     id: "testimonial-tour-santiago-5-3",
-    quote: "From start to finish, the experience felt curated and special. Hats off to Chloe Maxwell.",
-    author: "Susan Miller",
-    title: "The Best Way to See Santiago"
+    quote: "From start to finish, the experience felt curated and special. Hats off to Mary Marshall.",
+    author: "Betty Wright",
+    title: "Unforgettable Experience",
+    rating: 3.5,
+    date: "2021-03-02"
   },
   {
     id: "testimonial-tour-santiago-5-4",
-    quote: "So much fun, and so informative! Chloe Maxwell's enthusiasm is contagious.",
-    author: "Samantha Müller",
-    title: "Top-Notch Guiding"
+    quote: "We were blown away by the depth of knowledge and warmth Mary Marshall brought to the tour.",
+    author: "Alexa Hernandez",
+    title: "Unforgettable Experience",
+    rating: 4,
+    date: "2021-03-19"
   },
   {
     id: "testimonial-tour-santiago-5-5",
-    quote: "Thanks to Chloe Maxwell, we discovered parts of Santiago we would have never seen on our own.",
-    author: "Eugene Wilson",
-    title: "History Comes Alive"
+    quote: "We booked last-minute and are so glad we did. Mary Marshall made it one of our favorite memories from Santiago.",
+    author: "Ariana Martinez",
+    title: "Felt Like a Character in a Fairytale",
+    rating: 4.3,
+    date: "2019-04-29"
   },
   {
     id: "testimonial-tour-santiago-5-6",
-    quote: "Chloe Maxwell went above and beyond to make sure everyone had a great time on the City Lights Night Tour.",
-    author: "Michelle Foster",
-    title: "A Tour Even My Teenager Liked"
+    quote: "We were blown away by the depth of knowledge and warmth Mary Marshall brought to the tour.",
+    author: "Diego Crawford",
+    title: "A Journey Through Santiago's Charm",
+    rating: 4,
+    date: "2024-05-29"
   },
   {
     id: "testimonial-tour-santiago-5-7",
-    quote: "We joined the City Lights Night Tour on our first day in Santiago, and it set the tone for a fantastic trip.",
-    author: "Lucas Wood",
-    title: "Truly Eye-Opening"
+    quote: "The small group size and personal attention from Mary Marshall made all the difference.",
+    author: "Darrell Miller",
+    title: "A Tour That Feels Like a Dream",
+    rating: 3.7,
+    date: "2023-12-22"
   },
   {
     id: "testimonial-tour-santiago-5-8",
-    quote: "We left the City Lights Night Tour feeling more connected to Santiago than we ever expected.",
-    author: "Peter Mason",
-    title: "Worth Every Penny"
+    quote: "I can't recommend the City Lights Night Tour enough. Mary Marshall was phenomenal, and the experience was worth every penny.",
+    author: "Sofia Nguyen",
+    title: "History Comes Alive",
+    rating: 4.5,
+    date: "2017-05-18"
   },
   {
     id: "testimonial-tour-santiago-5-9",
-    quote: "We had limited time in Santiago, and this tour made sure we saw the best of it. Chloe Maxwell was amazing.",
-    author: "Susan Lewis",
-    title: "Well Worth Your Time"
+    quote: "Mary Marshall made learning about Santiago's history genuinely exciting — not an easy task!",
+    author: "Valentina Jansen",
+    title: "Brought Santiago to Life",
+    rating: 4.2,
+    date: "2018-08-07"
   },
   {
     id: "testimonial-tour-santiago-5-10",
-    quote: "This was more than just sightseeing — it was an unforgettable journey through Santiago's culture and history.",
-    author: "Elizabeth Martinez",
-    title: "So Much More Than Expected"
+    quote: "A truly authentic experience! Mary Marshall showed us the real Santiago, not just the tourist spots.",
+    author: "Wei Price",
+    title: "Would Follow This Guide Into Battle",
+    rating: 4.1,
+    date: "2018-04-17"
   },
   {
     id: "testimonial-tour-santiago-5-11",
-    quote: "We’ll be recommending the City Lights Night Tour to all our friends. Chloe Maxwell made it that special.",
-    author: "Harry Sutton",
-    title: "A Unique Way to Explore Santiago"
-  },
-  {
-    id: "testimonial-tour-santiago-5-12",
-    quote: "We had limited time in Santiago, and this tour made sure we saw the best of it. Chloe Maxwell was amazing.",
-    author: "Zoe Fletcher",
-    title: "The Perfect Introduction to Santiago"
-  },
-  {
-    id: "testimonial-tour-santiago-5-13",
-    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Chloe Maxwell.",
-    author: "Sarah Nakamura",
-    title: "Worth Every Penny"
-  },
-  {
-    id: "testimonial-tour-santiago-5-14",
-    quote: "I thought I knew Santiago, but this tour proved otherwise. Chloe Maxwell showed us a side we’d never seen.",
-    author: "Layla Coleman",
-    title: "One of the Best Tours We've Taken"
-  },
-  {
-    id: "testimonial-tour-santiago-5-15",
-    quote: "I was nervous about joining a group tour, but Chloe Maxwell made everyone feel like part of the crew.",
-    author: "Rebecca Fletcher",
-    title: "So Glad We Did This"
-  },
-  {
-    id: "testimonial-tour-santiago-5-16",
-    quote: "Such a memorable way to explore Santiago. The mix of history, local culture, and stories was perfect.",
-    author: "Pamela Clark",
-    title: "Top-Notch Guiding"
+    quote: "We were blown away by the depth of knowledge and warmth Mary Marshall brought to the tour.",
+    author: "Harold Anderson",
+    title: "Truly Eye-Opening",
+    rating: 4.9,
+    date: "2019-12-06"
   }
 ];

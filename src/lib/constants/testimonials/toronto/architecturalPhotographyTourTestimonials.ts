@@ -3,80 +3,122 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const architecturalPhotographyTourTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-toronto-6-1",
-    quote: "This tour exceeded all my expectations. Hassan Dunn's insider knowledge made our Toronto visit unforgettable.",
-    author: "Jeffrey Hall",
-    title: "Highly Recommend to Everyone"
+    quote: "I've been on many tours, but this one stands out. Peter Cooper was passionate, knowledgeable, and made everyone feel welcome.",
+    author: "Rachel West",
+    title: "Felt Like a Character in a Fairytale",
+    rating: 3.7,
+    date: "2019-07-21"
   },
   {
     id: "testimonial-tour-toronto-6-2",
-    quote: "We joined the Architectural Photography Tour on our first day in Toronto, and it set the tone for a fantastic trip.",
-    author: "Amelia Wells",
-    title: "A Stroll Through a Living Storybook"
+    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Peter Cooper.",
+    author: "Nicole Ivanov",
+    title: "We’ll Never Forget This",
+    rating: 3.5,
+    date: "2018-01-28"
   },
   {
     id: "testimonial-tour-toronto-6-3",
-    quote: "Such a memorable way to explore Toronto. The mix of history, local culture, and stories was perfect.",
-    author: "Emma Williams",
-    title: "Truly Eye-Opening"
+    quote: "We were blown away by the depth of knowledge and warmth Peter Cooper brought to the tour.",
+    author: "Gerald da Costa",
+    title: "Lost in Time—in the Best Way",
+    rating: 4.7,
+    date: "2023-10-13"
   },
   {
     id: "testimonial-tour-toronto-6-4",
-    quote: "One of the best decisions of our trip! Hassan Dunn is a fantastic guide and brought incredible energy to the tour.",
-    author: "Amelia Montgomery",
-    title: "A Deep Dive into Local Culture"
+    quote: "Even the locals in our group said they learned something new. That says a lot about Peter Cooper's depth.",
+    author: "Jose Price",
+    title: "A Day to Remember",
+    rating: 3.9,
+    date: "2020-10-20"
   },
   {
     id: "testimonial-tour-toronto-6-5",
-    quote: "The pace was perfect, the content was rich, and Hassan Dunn made every stop memorable.",
-    author: "Julie Fox",
-    title: "Incredible from Start to Finish"
+    quote: "I can't recommend the Architectural Photography Tour enough. Peter Cooper was phenomenal, and the experience was worth every penny.",
+    author: "Amina Thomas",
+    title: "Top-Notch Guiding",
+    rating: 4.7,
+    date: "2025-02-23"
   },
   {
     id: "testimonial-tour-toronto-6-6",
-    quote: "It felt like a private tour, even though we were with a group. Hassan Dunn is incredibly engaging.",
-    author: "Nicholas Gonzalez",
-    title: "Cultural Immersion at Its Best"
+    quote: "This was not just sightseeing — it was a deep dive into the heart of Toronto thanks to Peter Cooper.",
+    author: "Melissa Ellis",
+    title: "Loved Every Minute",
+    rating: 4.6,
+    date: "2017-08-24"
   },
   {
     id: "testimonial-tour-toronto-6-7",
-    quote: "As a solo traveler, I felt completely comfortable on this tour. Hassan Dunn created a friendly atmosphere from the start.",
-    author: "Jeremy Lopez",
-    title: "So Glad We Did This"
+    quote: "From start to finish, the experience felt curated and special. Hats off to Peter Cooper.",
+    author: "Oliver Taylor",
+    title: "One of the Best Tours We've Taken",
+    rating: 4.5,
+    date: "2019-07-19"
   },
   {
     id: "testimonial-tour-toronto-6-8",
-    quote: "Absolutely worth it. Hassan Dunn took care of everything so we could just relax and enjoy Toronto.",
-    author: "Juan Chambers",
-    title: "So Much More Than Expected"
+    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Peter Cooper.",
+    author: "Maya Hudson",
+    title: "The Ultimate Toronto Tour",
+    rating: 4.5,
+    date: "2018-07-27"
   },
   {
     id: "testimonial-tour-toronto-6-9",
-    quote: "Hassan Dunn is the kind of guide you want to tell your friends about. This was a five-star experience.",
-    author: "Edward Harris",
-    title: "A Unique Way to Explore Toronto"
+    quote: "Peter Cooper had such a great balance of history, fun facts, and local stories — truly a gifted guide.",
+    author: "Isabella Kim",
+    title: "A Hidden Gem of a Tour",
+    rating: 4.3,
+    date: "2023-05-12"
   },
   {
     id: "testimonial-tour-toronto-6-10",
-    quote: "We had limited time in Toronto, and this tour made sure we saw the best of it. Hassan Dunn was amazing.",
-    author: "Arthur Henderson",
-    title: "Followed the Guide, Found a Dream"
+    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Peter Cooper.",
+    author: "Omar Harper",
+    title: "A Unique Way to Explore Toronto",
+    rating: 3.9,
+    date: "2019-01-17"
   },
   {
     id: "testimonial-tour-toronto-6-11",
-    quote: "We joined the Architectural Photography Tour on our first day in Toronto, and it set the tone for a fantastic trip.",
-    author: "Emma Murray",
-    title: "Well Worth Your Time"
+    quote: "Absolutely worth it. Peter Cooper took care of everything so we could just relax and enjoy Toronto.",
+    author: "Samantha King",
+    title: "Lost in Time—in the Best Way",
+    rating: 5,
+    date: "2023-06-16"
   },
   {
     id: "testimonial-tour-toronto-6-12",
-    quote: "The Architectural Photography Tour was both entertaining and educational. Hassan Dunn has a gift for storytelling that brings Toronto's history to life.",
-    author: "Harold Khan",
-    title: "I Came, I Saw, I Took Too Many Photos"
+    quote: "This tour exceeded all my expectations. Peter Cooper's insider knowledge made our Toronto visit unforgettable.",
+    author: "Sarah Graham",
+    title: "Felt Like a Character in a Fairytale",
+    rating: 4,
+    date: "2023-02-13"
   },
   {
     id: "testimonial-tour-toronto-6-13",
-    quote: "We left the Architectural Photography Tour feeling more connected to Toronto than we ever expected.",
-    author: "Jack Dean",
-    title: "Brought Toronto to Life"
+    quote: "We joined the Architectural Photography Tour on our first day in Toronto, and it set the tone for a fantastic trip.",
+    author: "Philip Garcia",
+    title: "A Walk Through History",
+    rating: 3.6,
+    date: "2019-08-27"
+  },
+  {
+    id: "testimonial-tour-toronto-6-14",
+    quote: "The Architectural Photography Tour completely changed how I see Toronto. Peter Cooper's insights were invaluable.",
+    author: "Scott Bennett",
+    title: "Better Than My Last Tinder Date",
+    rating: 3.6,
+    date: "2021-06-08"
+  },
+  {
+    id: "testimonial-tour-toronto-6-15",
+    quote: "Even the locals in our group said they learned something new. That says a lot about Peter Cooper's depth.",
+    author: "Kenneth Edwards",
+    title: "Learned So Much!",
+    rating: 3.5,
+    date: "2017-10-30"
   }
 ];

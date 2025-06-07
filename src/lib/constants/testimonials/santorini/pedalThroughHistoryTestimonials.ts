@@ -3,104 +3,98 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const pedalThroughHistoryTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-santorini-5-1",
-    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Ahmed Mitchell.",
-    author: "Mark Brown",
-    title: "Hidden Gems of Santorini"
+    quote: "The Pedal Through History was both entertaining and educational. Samantha Brown has a gift for storytelling that brings Santorini's history to life.",
+    author: "Carol Gibson",
+    title: "Lost in Time—in the Best Way",
+    rating: 4.3,
+    date: "2025-04-03"
   },
   {
     id: "testimonial-tour-santorini-5-2",
-    quote: "The stories, the hidden gems, the expert navigation — Ahmed Mitchell delivered on all fronts.",
-    author: "Jane Foster",
-    title: "Followed the Guide, Found a Dream"
+    quote: "What an engaging experience! Samantha Brown kept us laughing and learning throughout the Pedal Through History.",
+    author: "Billy Khan",
+    title: "Beyond Our Expectations",
+    rating: 4.9,
+    date: "2021-01-27"
   },
   {
     id: "testimonial-tour-santorini-5-3",
-    quote: "This tour was absolutely amazing! Ahmed Mitchell knew everything about Santorini and showed us places we would have never found on our own.",
-    author: "Miguel Gardner",
-    title: "One of the Best Tours We've Taken"
+    quote: "As a solo traveler, I felt completely comfortable on this tour. Samantha Brown created a friendly atmosphere from the start.",
+    author: "Diego Gardner",
+    title: "Got Lost (on Purpose) with {GUIDE_NAME}",
+    rating: 3.9,
+    date: "2023-01-19"
   },
   {
     id: "testimonial-tour-santorini-5-4",
-    quote: "We loved every minute of the Pedal Through History. Ahmed Mitchell's local tips were priceless.",
-    author: "Steven Knight",
-    title: "A Must-Do in Santorini"
+    quote: "Samantha Brown was incredibly accommodating and answered every question with patience and detail.",
+    author: "Gary Collins",
+    title: "Hidden Gems of Santorini",
+    rating: 4.5,
+    date: "2018-06-01"
   },
   {
     id: "testimonial-tour-santorini-5-5",
-    quote: "We’ll be recommending the Pedal Through History to all our friends. Ahmed Mitchell made it that special.",
-    author: "Randy Maxwell",
-    title: "Better Than My Last Tinder Date"
+    quote: "The Pedal Through History was both entertaining and educational. Samantha Brown has a gift for storytelling that brings Santorini's history to life.",
+    author: "Gregory Brooks",
+    title: "If Cities Had Souls, Santorini Sang to Us",
+    rating: 4.5,
+    date: "2022-01-17"
   },
   {
     id: "testimonial-tour-santorini-5-6",
-    quote: "We’ll be recommending the Pedal Through History to all our friends. Ahmed Mitchell made it that special.",
-    author: "Zola Jackson",
-    title: "Unforgettable Experience"
+    quote: "This isn’t your typical tour. Samantha Brown makes it feel personal and engaging from the very start.",
+    author: "Arthur Harris",
+    title: "A Unique Way to Explore Santorini",
+    rating: 3.6,
+    date: "2023-06-07"
   },
   {
     id: "testimonial-tour-santorini-5-7",
-    quote: "Our family loved every moment of the Pedal Through History. Ahmed Mitchell even made it fun for our kids.",
-    author: "Mason Jones",
-    title: "History, Snacks, and Laughs—Yes Please!"
+    quote: "Even our teens were engaged the entire time — Samantha Brown knows how to captivate a group!",
+    author: "Elijah Singh",
+    title: "A Journey Through Santorini's Magic",
+    rating: 4.9,
+    date: "2017-12-09"
   },
   {
     id: "testimonial-tour-santorini-5-8",
-    quote: "Even our teens were engaged the entire time — Ahmed Mitchell knows how to captivate a group!",
-    author: "Bella Marshall",
-    title: "The Real Santorini Experience"
+    quote: "We left the Pedal Through History feeling more connected to Santorini than we ever expected.",
+    author: "Emma Nguyen",
+    title: "Hidden Gems of Santorini",
+    rating: 3.9,
+    date: "2024-07-19"
   },
   {
     id: "testimonial-tour-santorini-5-9",
-    quote: "If you only have time for one activity in Santorini, make it the Pedal Through History. You won’t regret it.",
-    author: "Zola Nakamura",
-    title: "Local Experience Made Easy"
+    quote: "Our family loved every moment of the Pedal Through History. Samantha Brown even made it fun for our kids.",
+    author: "Lerato Anderson",
+    title: "Highlight of Our Trip",
+    rating: 4.6,
+    date: "2020-01-23"
   },
   {
     id: "testimonial-tour-santorini-5-10",
-    quote: "Ahmed Mitchell had such a great balance of history, fun facts, and local stories — truly a gifted guide.",
-    author: "Maria Garcia",
-    title: "Fascinating and Fun"
+    quote: "Our family loved every moment of the Pedal Through History. Samantha Brown even made it fun for our kids.",
+    author: "Joseph Porter",
+    title: "A Walk That Will Stay with You",
+    rating: 4.4,
+    date: "2023-05-21"
   },
   {
     id: "testimonial-tour-santorini-5-11",
-    quote: "From start to finish, the experience felt curated and special. Hats off to Ahmed Mitchell.",
-    author: "Omar Jennings",
-    title: "Wandered Far, Wondered More"
+    quote: "Samantha Brown's enthusiasm for Santorini was contagious. We walked away feeling inspired.",
+    author: "Ana Clark",
+    title: "Sunlight, Stories, and Serendipity",
+    rating: 4,
+    date: "2023-03-25"
   },
   {
     id: "testimonial-tour-santorini-5-12",
-    quote: "We were blown away by the depth of knowledge and warmth Ahmed Mitchell brought to the tour.",
-    author: "Christine Griffin",
-    title: "Would Follow This Guide Into Battle"
-  },
-  {
-    id: "testimonial-tour-santorini-5-13",
-    quote: "This was more than just sightseeing — it was an unforgettable journey through Santorini's culture and history.",
-    author: "Robert Smith",
-    title: "An Authentic Slice of Santorini"
-  },
-  {
-    id: "testimonial-tour-santorini-5-14",
-    quote: "We joined the Pedal Through History on our first day in Santorini, and it set the tone for a fantastic trip.",
-    author: "Riley Hawkins",
-    title: "Local Experience Made Easy"
-  },
-  {
-    id: "testimonial-tour-santorini-5-15",
-    quote: "What an engaging experience! Ahmed Mitchell kept us laughing and learning throughout the Pedal Through History.",
-    author: "Stella Marshall",
-    title: "Hot, Sweaty, and Absolutely Worth It"
-  },
-  {
-    id: "testimonial-tour-santorini-5-16",
-    quote: "I was nervous about joining a group tour, but Ahmed Mitchell made everyone feel like part of the crew.",
-    author: "Oliver Jennings",
-    title: "Got Lost (on Purpose) with {GUIDE_NAME}"
-  },
-  {
-    id: "testimonial-tour-santorini-5-17",
-    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Ahmed Mitchell!",
-    author: "Ariana Murray",
-    title: "The Real Santorini Experience"
+    quote: "One of the best decisions of our trip! Samantha Brown is a fantastic guide and brought incredible energy to the tour.",
+    author: "Valentina Bennett",
+    title: "We’ll Never Forget This",
+    rating: 4.5,
+    date: "2024-03-29"
   }
 ];

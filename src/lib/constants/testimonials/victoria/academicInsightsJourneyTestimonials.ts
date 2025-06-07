@@ -3,92 +3,98 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const academicInsightsJourneyTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-victoria-6-1",
-    quote: "If you're visiting Victoria, the Academic Insights Journey is a must! Albert da Costa made the history come alive in a way guidebooks never could.",
-    author: "Brenda Young",
-    title: "Sunlight, Stories, and Serendipity"
+    quote: "So much fun, and so informative! Blake Patel's enthusiasm is contagious.",
+    author: "Thomas Wood",
+    title: "A Walk That Will Make You Believe in Magic",
+    rating: 3.5,
+    date: "2022-10-27"
   },
   {
     id: "testimonial-tour-victoria-6-2",
-    quote: "What a fantastic way to start our stay in Victoria. Albert da Costa gave us a great foundation for exploring more on our own.",
-    author: "Riley Payne",
-    title: "So Glad We Did This"
+    quote: "So much fun, and so informative! Blake Patel's enthusiasm is contagious.",
+    author: "Joshua Curtis",
+    title: "Cultural Immersion at Its Best",
+    rating: 4,
+    date: "2021-12-27"
   },
   {
     id: "testimonial-tour-victoria-6-3",
-    quote: "We had limited time in Victoria, and this tour made sure we saw the best of it. Albert da Costa was amazing.",
-    author: "Ahmed Wallace",
-    title: "Sunlight, Stories, and Serendipity"
+    quote: "My grandmother and I didn’t want the tour to end. Blake Patel is that engaging and informative.",
+    author: "Chloe Mitchell",
+    title: "A Journey Through Victoria's Secrets",
+    rating: 3.8,
+    date: "2018-04-05"
   },
   {
     id: "testimonial-tour-victoria-6-4",
-    quote: "Albert da Costa was incredibly accommodating and answered every question with patience and detail.",
-    author: "Sebastian Russell",
-    title: "The Walking Was Free—The Laughs Were Priceless"
+    quote: "Absolutely worth it. Blake Patel took care of everything so we could just relax and enjoy Victoria.",
+    author: "Lerato Maxwell",
+    title: "A Perfect Day in Victoria",
+    rating: 4.5,
+    date: "2023-09-25"
   },
   {
     id: "testimonial-tour-victoria-6-5",
-    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Albert da Costa!",
-    author: "Noah Dean",
-    title: "Well Worth Your Time"
+    quote: "I thought I knew Victoria, but this tour proved otherwise. Blake Patel showed us a side we’d never seen.",
+    author: "Darrell da Costa",
+    title: "Worth Every Penny",
+    rating: 3.9,
+    date: "2018-07-12"
   },
   {
     id: "testimonial-tour-victoria-6-6",
-    quote: "We joined the Academic Insights Journey on our first day in Victoria, and it set the tone for a fantastic trip.",
-    author: "Avery Murray",
-    title: "Highlight of Our Trip"
+    quote: "This was more than just sightseeing — it was an unforgettable journey through Victoria's culture and history.",
+    author: "Patricia Reed",
+    title: "Unforgettable Experience",
+    rating: 3.6,
+    date: "2019-07-03"
   },
   {
     id: "testimonial-tour-victoria-6-7",
-    quote: "I can't recommend the Academic Insights Journey enough. Albert da Costa was phenomenal, and the experience was worth every penny.",
-    author: "Brandon Williams",
-    title: "Would Follow This Guide Into Battle"
+    quote: "Blake Patel is the kind of guide you want to tell your friends about. This was a five-star experience.",
+    author: "Fatima Parker",
+    title: "A Walk That Will Stay with You",
+    rating: 4.9,
+    date: "2025-05-20"
   },
   {
     id: "testimonial-tour-victoria-6-8",
-    quote: "I can't recommend the Academic Insights Journey enough. Albert da Costa was phenomenal, and the experience was worth every penny.",
-    author: "Stephanie Taylor",
-    title: "Best Decision of Our Trip"
+    quote: "Blake Patel went above and beyond to make sure everyone had a great time on the Academic Insights Journey.",
+    author: "Blake Spencer",
+    title: "The Best Way to See Victoria",
+    rating: 4,
+    date: "2018-06-03"
   },
   {
     id: "testimonial-tour-victoria-6-9",
-    quote: "The pace was perfect, the content was rich, and Albert da Costa made every stop memorable.",
-    author: "Jordan Lopez",
-    title: "Local Experience Made Easy"
+    quote: "We left the Academic Insights Journey feeling more connected to Victoria than we ever expected.",
+    author: "Katherine Harper",
+    title: "Followed the Guide, Found a Dream",
+    rating: 3.9,
+    date: "2017-01-28"
   },
   {
     id: "testimonial-tour-victoria-6-10",
-    quote: "My cousin and I had the best time on this tour. Albert da Costa's knowledge of Victoria made it so much more special.",
-    author: "Raymond Hamilton",
-    title: "Got Lost (on Purpose) with {GUIDE_NAME}"
+    quote: "This was not just sightseeing — it was a deep dive into the heart of Victoria thanks to Blake Patel.",
+    author: "Joel Price",
+    title: "A Journey Through Victoria's Heart",
+    rating: 4.9,
+    date: "2022-06-02"
   },
   {
     id: "testimonial-tour-victoria-6-11",
-    quote: "This isn’t your typical tour. Albert da Costa makes it feel personal and engaging from the very start.",
-    author: "Patricia Morgan",
-    title: "Learned So Much!"
+    quote: "My workmate and I didn’t want the tour to end. Blake Patel is that engaging and informative.",
+    author: "Louis Warren",
+    title: "A New Favorite Memory",
+    rating: 4.9,
+    date: "2018-07-30"
   },
   {
     id: "testimonial-tour-victoria-6-12",
-    quote: "The stories, the hidden gems, the expert navigation — Albert da Costa delivered on all fronts.",
-    author: "Isabella Anderson",
-    title: "Fascinating and Fun"
-  },
-  {
-    id: "testimonial-tour-victoria-6-13",
-    quote: "Highly recommend this tour if you want more than just a photo op — Albert da Costa gives you real insight into Victoria.",
-    author: "Sofia Harper",
-    title: "Best Tour in Victoria"
-  },
-  {
-    id: "testimonial-tour-victoria-6-14",
-    quote: "One of the best decisions of our trip! Albert da Costa is a fantastic guide and brought incredible energy to the tour.",
-    author: "Gerald Müller",
-    title: "Impressive and Informative"
-  },
-  {
-    id: "testimonial-tour-victoria-6-15",
-    quote: "The stories, the hidden gems, the expert navigation — Albert da Costa delivered on all fronts.",
-    author: "Aiden Wilson",
-    title: "A Day to Remember"
+    quote: "The pace was perfect, the content was rich, and Blake Patel made every stop memorable.",
+    author: "Abigail Müller",
+    title: "Highlight of Our Trip",
+    rating: 4,
+    date: "2023-02-19"
   }
 ];

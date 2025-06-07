@@ -3,56 +3,82 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const localTraditionsTourTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-miami-3-1",
-    quote: "Edward Dean is the kind of guide you want to tell your friends about. This was a five-star experience.",
-    author: "Caroline Russell",
-    title: "An Authentic Slice of Miami"
+    quote: "From start to finish, the experience felt curated and special. Hats off to Willie Cooper.",
+    author: "Priya Kowalski",
+    title: "Well Worth Your Time",
+    rating: 3.8,
+    date: "2019-04-11"
   },
   {
     id: "testimonial-tour-miami-3-2",
-    quote: "Thanks to Edward Dean, we discovered parts of Miami we would have never seen on our own.",
-    author: "Isabella Anderson",
-    title: "Highlight of Our Trip"
+    quote: "Willie Cooper had such a great balance of history, fun facts, and local stories — truly a gifted guide.",
+    author: "Ashley Wright",
+    title: "Fun, Friendly, and Full of Insight",
+    rating: 4.1,
+    date: "2019-06-05"
   },
   {
     id: "testimonial-tour-miami-3-3",
-    quote: "Edward Dean shared personal stories that really brought Miami to life for us. A truly memorable tour.",
-    author: "Paul Fox",
-    title: "Incredible from Start to Finish"
+    quote: "I’ve taken dozens of tours in different countries. Willie Cooper ranks among the very best.",
+    author: "Margaret Coleman",
+    title: "Highly Recommend to Everyone",
+    rating: 4.2,
+    date: "2021-06-05"
   },
   {
     id: "testimonial-tour-miami-3-4",
-    quote: "Thanks to Edward Dean, we discovered parts of Miami we would have never seen on our own.",
-    author: "Wei Dubois",
-    title: "A Unique Way to Explore Miami"
+    quote: "We were blown away by the depth of knowledge and warmth Willie Cooper brought to the tour.",
+    author: "Aiden Crawford",
+    title: "Bought the T-Shirt, Took the Tour, Loved It",
+    rating: 4.2,
+    date: "2021-08-15"
   },
   {
     id: "testimonial-tour-miami-3-5",
-    quote: "The Local Traditions Tour completely changed how I see Miami. Edward Dean's insights were invaluable.",
-    author: "Tyler Martinez",
-    title: "Outstanding in Every Way"
+    quote: "Such a memorable way to explore Miami. The mix of history, local culture, and stories was perfect.",
+    author: "Philip Maxwell",
+    title: "Got Lost (on Purpose) with {GUIDE_NAME}",
+    rating: 4.2,
+    date: "2024-01-31"
   },
   {
     id: "testimonial-tour-miami-3-6",
-    quote: "My father and I had the best time on this tour. Edward Dean's knowledge of Miami made it so much more special.",
-    author: "Ariana Wallace",
-    title: "Better Than My Last Tinder Date"
+    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Willie Cooper.",
+    author: "Scott Mason",
+    title: "Local Experience Made Easy",
+    rating: 4.6,
+    date: "2019-07-10"
   },
   {
     id: "testimonial-tour-miami-3-7",
-    quote: "As someone who's been to Miami before, I was surprised at how much I learned on the Local Traditions Tour. Edward Dean is a treasure trove of information!",
-    author: "Isabella Grant",
-    title: "Outstanding in Every Way"
+    quote: "My daughter and I agreed this was the best part of our entire trip to Miami.",
+    author: "Juan Henderson",
+    title: "A Tour That Feels Like a Dream",
+    rating: 4.6,
+    date: "2023-01-08"
   },
   {
     id: "testimonial-tour-miami-3-8",
-    quote: "This was not just sightseeing — it was a deep dive into the heart of Miami thanks to Edward Dean.",
-    author: "Youssef Lopez",
-    title: "Would Follow This Guide Into Battle"
+    quote: "We got so much value from this tour. Willie Cooper took us to places we would have never discovered on our own.",
+    author: "Rajesh Morgan",
+    title: "A Journey Through Miami's Wonders",
+    rating: 3.7,
+    date: "2019-05-04"
   },
   {
     id: "testimonial-tour-miami-3-9",
-    quote: "This isn’t your typical tour. Edward Dean makes it feel personal and engaging from the very start.",
-    author: "Kinsley Williams",
-    title: "One of the Best Tours We've Taken"
+    quote: "Willie Cooper was incredibly accommodating and answered every question with patience and detail.",
+    author: "Sarah Lee",
+    title: "Highly Recommend to Everyone",
+    rating: 3.7,
+    date: "2023-07-16"
+  },
+  {
+    id: "testimonial-tour-miami-3-10",
+    quote: "I’ve taken dozens of tours in different countries. Willie Cooper ranks among the very best.",
+    author: "Willie Foster",
+    title: "Exceptional Tour Guide",
+    rating: 4.6,
+    date: "2018-07-28"
   }
 ];

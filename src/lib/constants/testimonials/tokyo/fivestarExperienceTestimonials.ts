@@ -3,104 +3,122 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const fivestarExperienceTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-tokyo-5-1",
-    quote: "One of the best decisions of our trip! Albert Marshall is a fantastic guide and brought incredible energy to the tour.",
-    author: "Johnny Morgan",
-    title: "A Deep Dive into Local Culture"
+    quote: "Such a memorable way to explore Tokyo. The mix of history, local culture, and stories was perfect.",
+    author: "Sophia Graham",
+    title: "Wandered Far, Wondered More",
+    rating: 3.9,
+    date: "2024-06-29"
   },
   {
     id: "testimonial-tour-tokyo-5-2",
-    quote: "So much fun, and so informative! Albert Marshall's enthusiasm is contagious.",
-    author: "Robert Wilson",
-    title: "The Best Way to See Tokyo"
+    quote: "We got so much value from this tour. Jordan Porter took us to places we would have never discovered on our own.",
+    author: "Yuki Carpenter",
+    title: "A Walk That Will Make You Want to Dance",
+    rating: 4.8,
+    date: "2023-10-03"
   },
   {
     id: "testimonial-tour-tokyo-5-3",
-    quote: "Albert Marshall made learning about Tokyo's history genuinely exciting — not an easy task!",
-    author: "Evelyn Watson",
-    title: "Insider's Perspective"
+    quote: "I was nervous about joining a group tour, but Jordan Porter made everyone feel like part of the crew.",
+    author: "Juan da Costa",
+    title: "A Deep Dive into Local Culture",
+    rating: 4.8,
+    date: "2019-11-14"
   },
   {
     id: "testimonial-tour-tokyo-5-4",
-    quote: "We had limited time in Tokyo, and this tour made sure we saw the best of it. Albert Marshall was amazing.",
-    author: "David Gonzalez",
-    title: "The Ultimate Tokyo Tour"
+    quote: "This was not just sightseeing — it was a deep dive into the heart of Tokyo thanks to Jordan Porter.",
+    author: "Jane Wallace",
+    title: "A Journey Through Tokyo's Soul",
+    rating: 4.4,
+    date: "2022-06-26"
   },
   {
     id: "testimonial-tour-tokyo-5-5",
-    quote: "Such a memorable way to explore Tokyo. The mix of history, local culture, and stories was perfect.",
-    author: "Joseph Müller",
-    title: "A Day to Remember"
+    quote: "We’ll be recommending the Five-Star Experience to all our friends. Jordan Porter made it that special.",
+    author: "Gary Harris",
+    title: "A Journey Through Tokyo's Secrets",
+    rating: 4.2,
+    date: "2017-07-27"
   },
   {
     id: "testimonial-tour-tokyo-5-6",
-    quote: "Albert Marshall shared personal stories that really brought Tokyo to life for us. A truly memorable tour.",
-    author: "Harper Anderson",
-    title: "Highlight of Our Trip"
+    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Jordan Porter!",
+    author: "Cynthia Ellis",
+    title: "Would Follow This Guide Into Battle",
+    rating: 3.8,
+    date: "2019-01-02"
   },
   {
     id: "testimonial-tour-tokyo-5-7",
-    quote: "Even our teens were engaged the entire time — Albert Marshall knows how to captivate a group!",
-    author: "Nancy Johnson",
-    title: "History, Snacks, and Laughs—Yes Please!"
+    quote: "This tour exceeded all my expectations. Jordan Porter's insider knowledge made our Tokyo visit unforgettable.",
+    author: "Jesse Griffin",
+    title: "Best Tour in Tokyo",
+    rating: 4.1,
+    date: "2017-05-14"
   },
   {
     id: "testimonial-tour-tokyo-5-8",
-    quote: "This isn’t your typical tour. Albert Marshall makes it feel personal and engaging from the very start.",
-    author: "Zola Dunn",
-    title: "History Comes Alive"
+    quote: "We’ll be recommending the Five-Star Experience to all our friends. Jordan Porter made it that special.",
+    author: "Olivia Morgan",
+    title: "Would Follow This Guide Into Battle",
+    rating: 4.6,
+    date: "2017-02-19"
   },
   {
     id: "testimonial-tour-tokyo-5-9",
-    quote: "The small group size and personal attention from Albert Marshall made all the difference.",
-    author: "Edward Lee",
-    title: "Fun, Friendly, and Full of Insight"
+    quote: "Jordan Porter was incredibly accommodating and answered every question with patience and detail.",
+    author: "Richard Dixon",
+    title: "History, Snacks, and Laughs—Yes Please!",
+    rating: 3.5,
+    date: "2017-09-04"
   },
   {
     id: "testimonial-tour-tokyo-5-10",
-    quote: "We’ll be recommending the Five-Star Experience to all our friends. Albert Marshall made it that special.",
-    author: "John Khan",
-    title: "Cultural Immersion at Its Best"
+    quote: "The Five-Star Experience was both entertaining and educational. Jordan Porter has a gift for storytelling that brings Tokyo's history to life.",
+    author: "Amina Stewart",
+    title: "Better Than My Last Tinder Date",
+    rating: 4.2,
+    date: "2019-03-09"
   },
   {
     id: "testimonial-tour-tokyo-5-11",
-    quote: "As someone who's been to Tokyo before, I was surprised at how much I learned on the Five-Star Experience. Albert Marshall is a treasure trove of information!",
-    author: "Marcus Williams",
-    title: "Bought the T-Shirt, Took the Tour, Loved It"
+    quote: "My family and I agreed this was the best part of our entire trip to Tokyo.",
+    author: "Jennifer Wang",
+    title: "Highly Recommend to Everyone",
+    rating: 4.2,
+    date: "2020-11-18"
   },
   {
     id: "testimonial-tour-tokyo-5-12",
-    quote: "The Five-Star Experience completely changed how I see Tokyo. Albert Marshall's insights were invaluable.",
-    author: "Genesis Davis",
-    title: "Brought Tokyo to Life"
+    quote: "I wasn’t expecting to enjoy this tour so much, but Jordan Porter made it the highlight of our trip.",
+    author: "Brandon Fletcher",
+    title: "Top-Notch Guiding",
+    rating: 4.8,
+    date: "2017-06-30"
   },
   {
     id: "testimonial-tour-tokyo-5-13",
-    quote: "I've been on many tours, but this one stands out. Albert Marshall was passionate, knowledgeable, and made everyone feel welcome.",
-    author: "Yuki Hunter",
-    title: "Learned So Much!"
+    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Jordan Porter.",
+    author: "Hassan Chen",
+    title: "A Deep Dive into Local Culture",
+    rating: 4.2,
+    date: "2024-07-04"
   },
   {
     id: "testimonial-tour-tokyo-5-14",
-    quote: "Our family loved every moment of the Five-Star Experience. Albert Marshall even made it fun for our kids.",
-    author: "Claire Kowalski",
-    title: "The Best Way to See Tokyo"
+    quote: "Such a memorable way to explore Tokyo. The mix of history, local culture, and stories was perfect.",
+    author: "Amanda Patel",
+    title: "A Journey Through Tokyo's Secrets",
+    rating: 4.3,
+    date: "2019-09-19"
   },
   {
     id: "testimonial-tour-tokyo-5-15",
-    quote: "We got so much value from this tour. Albert Marshall took us to places we would have never discovered on our own.",
-    author: "Terry Williams",
-    title: "Better Than My Last Tinder Date"
-  },
-  {
-    id: "testimonial-tour-tokyo-5-16",
-    quote: "This tour exceeded all my expectations. Albert Marshall's insider knowledge made our Tokyo visit unforgettable.",
-    author: "Skylar Hudson",
-    title: "Better Than My Last Tinder Date"
-  },
-  {
-    id: "testimonial-tour-tokyo-5-17",
-    quote: "We were blown away by the depth of knowledge and warmth Albert Marshall brought to the tour.",
-    author: "Hiroshi Thomas",
-    title: "Sunlight, Stories, and Serendipity"
+    quote: "The small group size and personal attention from Jordan Porter made all the difference.",
+    author: "Ibrahim Stewart",
+    title: "A Walk That Will Make You Believe in Magic",
+    rating: 4.4,
+    date: "2017-03-05"
   }
 ];

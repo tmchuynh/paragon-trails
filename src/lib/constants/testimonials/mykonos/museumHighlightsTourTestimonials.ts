@@ -3,68 +3,130 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const museumHighlightsTourTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-mykonos-5-1",
-    quote: "Peter Nash is the kind of guide you want to tell your friends about. This was a five-star experience.",
-    author: "Isabella Martinez",
-    title: "Insider's Perspective"
+    quote: "The stories, the hidden gems, the expert navigation — Thomas Moore delivered on all fronts.",
+    author: "Elena Reeves",
+    title: "A Walk That Will Make You Appreciate Mykonos More",
+    rating: 3.9,
+    date: "2023-11-16"
   },
   {
     id: "testimonial-tour-mykonos-5-2",
-    quote: "It felt like a private tour, even though we were with a group. Peter Nash is incredibly engaging.",
-    author: "Alan Williams",
-    title: "The Best Way to See Mykonos"
+    quote: "As a solo traveler, I felt completely comfortable on this tour. Thomas Moore created a friendly atmosphere from the start.",
+    author: "Isabella Collins",
+    title: "Insider's Perspective",
+    rating: 3.7,
+    date: "2023-05-29"
   },
   {
     id: "testimonial-tour-mykonos-5-3",
-    quote: "Highly recommend this tour if you want more than just a photo op — Peter Nash gives you real insight into Mykonos.",
-    author: "Gary Ali",
-    title: "Insider's Perspective"
+    quote: "I wasn’t expecting to enjoy this tour so much, but Thomas Moore made it the highlight of our trip.",
+    author: "Ariana Edwards",
+    title: "Absolutely Fantastic!",
+    rating: 4.6,
+    date: "2023-10-25"
   },
   {
     id: "testimonial-tour-mykonos-5-4",
-    quote: "My grandmother and I didn’t want the tour to end. Peter Nash is that engaging and informative.",
-    author: "Brooklyn Jones",
-    title: "If Cities Had Souls, Mykonos Sang to Us"
+    quote: "Thanks to Thomas Moore, we discovered parts of Mykonos we would have never seen on our own.",
+    author: "Pamela da Costa",
+    title: "A Walk That Changed Everything",
+    rating: 3.7,
+    date: "2020-07-20"
   },
   {
     id: "testimonial-tour-mykonos-5-5",
-    quote: "This tour exceeded all my expectations. Peter Nash's insider knowledge made our Mykonos visit unforgettable.",
-    author: "Maya Khan",
-    title: "Hot, Sweaty, and Absolutely Worth It"
+    quote: "What a fantastic way to start our stay in Mykonos. Thomas Moore gave us a great foundation for exploring more on our own.",
+    author: "Caroline Müller",
+    title: "We’ll Never Forget This",
+    rating: 3.6,
+    date: "2020-11-29"
   },
   {
     id: "testimonial-tour-mykonos-5-6",
-    quote: "I wasn’t expecting to enjoy this tour so much, but Peter Nash made it the highlight of our trip.",
-    author: "Alice Wood",
-    title: "Local Experience Made Easy"
+    quote: "I was nervous about joining a group tour, but Thomas Moore made everyone feel like part of the crew.",
+    author: "Hannah Warren",
+    title: "A Journey Through Mykonos's Charm",
+    rating: 3.7,
+    date: "2020-08-04"
   },
   {
     id: "testimonial-tour-mykonos-5-7",
-    quote: "It felt like a private tour, even though we were with a group. Peter Nash is incredibly engaging.",
-    author: "Aaliyah Harris",
-    title: "Learned So Much!"
+    quote: "If you're visiting Mykonos, the Museum Highlights Tour is a must! Thomas Moore made the history come alive in a way guidebooks never could.",
+    author: "Alexander Mason",
+    title: "Beyond Our Expectations",
+    rating: 4,
+    date: "2023-09-21"
   },
   {
     id: "testimonial-tour-mykonos-5-8",
-    quote: "The pace was perfect, the content was rich, and Peter Nash made every stop memorable.",
-    author: "Alice Price",
-    title: "Impressive and Informative"
+    quote: "The Museum Highlights Tour was the highlight of our trip to Mykonos. Thomas Moore took us to all the best spots and shared fascinating stories.",
+    author: "Philip Russell",
+    title: "A Journey Through Mykonos's Culture",
+    rating: 4.7,
+    date: "2019-10-23"
   },
   {
     id: "testimonial-tour-mykonos-5-9",
-    quote: "This was more than just sightseeing — it was an unforgettable journey through Mykonos's culture and history.",
-    author: "Harper Baker",
-    title: "Fascinating and Fun"
+    quote: "Thomas Moore went above and beyond to make sure everyone had a great time on the Museum Highlights Tour.",
+    author: "Timothy Dean",
+    title: "Fun, Friendly, and Full of Insight",
+    rating: 3.8,
+    date: "2017-09-14"
   },
   {
     id: "testimonial-tour-mykonos-5-10",
-    quote: "This isn’t your typical tour. Peter Nash makes it feel personal and engaging from the very start.",
-    author: "Barbara Montgomery",
-    title: "I Came, I Saw, I Took Too Many Photos"
+    quote: "What an engaging experience! Thomas Moore kept us laughing and learning throughout the Museum Highlights Tour.",
+    author: "Charlotte Jennings",
+    title: "A Walk Through History",
+    rating: 4.8,
+    date: "2020-08-05"
   },
   {
     id: "testimonial-tour-mykonos-5-11",
-    quote: "The Museum Highlights Tour was the highlight of our trip to Mykonos. Peter Nash took us to all the best spots and shared fascinating stories.",
-    author: "Johnny Brown",
-    title: "A Stroll Through a Living Storybook"
+    quote: "Even our teens were engaged the entire time — Thomas Moore knows how to captivate a group!",
+    author: "Isabella Wood",
+    title: "A Walk That Will Make You Want to Dance",
+    rating: 4.6,
+    date: "2021-10-16"
+  },
+  {
+    id: "testimonial-tour-mykonos-5-12",
+    quote: "I’ve taken dozens of tours in different countries. Thomas Moore ranks among the very best.",
+    author: "Benjamin Miller",
+    title: "Got Lost (on Purpose) with {GUIDE_NAME}",
+    rating: 4.8,
+    date: "2018-03-05"
+  },
+  {
+    id: "testimonial-tour-mykonos-5-13",
+    quote: "I wasn’t expecting to enjoy this tour so much, but Thomas Moore made it the highlight of our trip.",
+    author: "Nomsa Wang",
+    title: "Cultural Immersion at Its Best",
+    rating: 3.9,
+    date: "2018-05-20"
+  },
+  {
+    id: "testimonial-tour-mykonos-5-14",
+    quote: "This isn’t your typical tour. Thomas Moore makes it feel personal and engaging from the very start.",
+    author: "Elena Garcia",
+    title: "Loved Every Minute",
+    rating: 4.5,
+    date: "2018-02-21"
+  },
+  {
+    id: "testimonial-tour-mykonos-5-15",
+    quote: "We loved every minute of the Museum Highlights Tour. Thomas Moore's local tips were priceless.",
+    author: "Sofia Hudson",
+    title: "A Tour to Remember",
+    rating: 3.6,
+    date: "2018-04-25"
+  },
+  {
+    id: "testimonial-tour-mykonos-5-16",
+    quote: "One of the best decisions of our trip! Thomas Moore is a fantastic guide and brought incredible energy to the tour.",
+    author: "Sarah Williams",
+    title: "One of the Best Tours We've Taken",
+    rating: 3.9,
+    date: "2019-02-22"
   }
 ];

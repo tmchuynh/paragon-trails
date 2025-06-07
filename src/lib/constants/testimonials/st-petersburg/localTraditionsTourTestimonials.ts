@@ -3,68 +3,82 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const localTraditionsTourTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-st-petersburg-3-1",
-    quote: "If you're visiting St Petersburg, the Local Traditions Tour is a must! Amina Taylor made the history come alive in a way guidebooks never could.",
-    author: "Harry Dean",
-    title: "Fascinating and Fun"
+    quote: "What an engaging experience! Oliver Wells kept us laughing and learning throughout the Local Traditions Tour.",
+    author: "Sophia Keller",
+    title: "Exceptional Tour Guide",
+    rating: 4.5,
+    date: "2024-09-04"
   },
   {
     id: "testimonial-tour-st-petersburg-3-2",
-    quote: "My husband and I agreed this was the best part of our entire trip to St Petersburg.",
-    author: "Terry Campbell",
-    title: "A Perfect Day in St Petersburg"
+    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Oliver Wells.",
+    author: "Betty Chambers",
+    title: "Lost in Time—in the Best Way",
+    rating: 4,
+    date: "2024-06-05"
   },
   {
     id: "testimonial-tour-st-petersburg-3-3",
-    quote: "Amina Taylor shared personal stories that really brought St Petersburg to life for us. A truly memorable tour.",
-    author: "Samantha Harris",
-    title: "An Unexpected Highlight"
+    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Oliver Wells.",
+    author: "Ryan Baker",
+    title: "Followed the Guide, Found a Dream",
+    rating: 4.7,
+    date: "2021-02-28"
   },
   {
     id: "testimonial-tour-st-petersburg-3-4",
-    quote: "As a solo traveler, I felt completely comfortable on this tour. Amina Taylor created a friendly atmosphere from the start.",
-    author: "Carol Smith",
-    title: "Learned So Much!"
+    quote: "My brother and I didn’t want the tour to end. Oliver Wells is that engaging and informative.",
+    author: "Hannah Carpenter",
+    title: "The Walking Was Free—The Laughs Were Priceless",
+    rating: 3.7,
+    date: "2019-12-28"
   },
   {
     id: "testimonial-tour-st-petersburg-3-5",
-    quote: "Our family loved every moment of the Local Traditions Tour. Amina Taylor even made it fun for our kids.",
-    author: "Bruce Taylor",
-    title: "Beyond Our Expectations"
+    quote: "This isn’t your typical tour. Oliver Wells makes it feel personal and engaging from the very start.",
+    author: "Jeremy Fox",
+    title: "The Real St Petersburg Experience",
+    rating: 4.1,
+    date: "2022-04-06"
   },
   {
     id: "testimonial-tour-st-petersburg-3-6",
-    quote: "This was not just sightseeing — it was a deep dive into the heart of St Petersburg thanks to Amina Taylor.",
-    author: "Ahmed Russell",
-    title: "A Unique Way to Explore St Petersburg"
+    quote: "I wasn’t expecting to enjoy this tour so much, but Oliver Wells made it the highlight of our trip.",
+    author: "Nancy Grant",
+    title: "A Tour to Remember",
+    rating: 4.4,
+    date: "2024-08-19"
   },
   {
     id: "testimonial-tour-st-petersburg-3-7",
-    quote: "This tour gave us a much deeper connection to St Petersburg. Amina Taylor's passion really shines through.",
-    author: "Nicole Edwards",
-    title: "The Best Way to See St Petersburg"
+    quote: "I’ve taken dozens of tours in different countries. Oliver Wells ranks among the very best.",
+    author: "Victoria Montgomery",
+    title: "The Ultimate St Petersburg Tour",
+    rating: 4.2,
+    date: "2024-06-22"
   },
   {
     id: "testimonial-tour-st-petersburg-3-8",
-    quote: "The pace was perfect, the content was rich, and Amina Taylor made every stop memorable.",
-    author: "Patrick Lee",
-    title: "Bought the T-Shirt, Took the Tour, Loved It"
+    quote: "Our family loved every moment of the Local Traditions Tour. Oliver Wells even made it fun for our kids.",
+    author: "Ravi Khan",
+    title: "The Walking Was Free—The Laughs Were Priceless",
+    rating: 4.9,
+    date: "2019-05-12"
   },
   {
     id: "testimonial-tour-st-petersburg-3-9",
-    quote: "This tour gave us a much deeper connection to St Petersburg. Amina Taylor's passion really shines through.",
-    author: "Maria Sutton",
-    title: "History, Snacks, and Laughs—Yes Please!"
+    quote: "This was not just sightseeing — it was a deep dive into the heart of St Petersburg thanks to Oliver Wells.",
+    author: "Charlotte Dubois",
+    title: "A Walk That Will Make You Want to Explore More",
+    rating: 4.5,
+    date: "2019-08-25"
   },
   {
     id: "testimonial-tour-st-petersburg-3-10",
-    quote: "I've been on many tours, but this one stands out. Amina Taylor was passionate, knowledgeable, and made everyone feel welcome.",
-    author: "Ryan Nash",
-    title: "Felt Like a Character in a Fairytale"
-  },
-  {
-    id: "testimonial-tour-st-petersburg-3-11",
-    quote: "We had limited time in St Petersburg, and this tour made sure we saw the best of it. Amina Taylor was amazing.",
-    author: "Christopher Nakamura",
-    title: "An Authentic Slice of St Petersburg"
+    quote: "From beginning to end, the Local Traditions Tour was seamless and so well organized.",
+    author: "Elena West",
+    title: "Well Worth Your Time",
+    rating: 3.6,
+    date: "2021-04-16"
   }
 ];

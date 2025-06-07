@@ -3,50 +3,66 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const culinaryMasterclassJourneyTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-rome-6-1",
-    quote: "The Culinary Masterclass Journey was both entertaining and educational. Johnny Mitchell has a gift for storytelling that brings Rome's history to life.",
-    author: "Marcus Jansen",
-    title: "Would Follow This Guide Into Battle"
+    quote: "I’ve taken dozens of tours in different countries. Rachel Douglas ranks among the very best.",
+    author: "Joe Carpenter",
+    title: "Would Follow This Guide Into Battle",
+    rating: 3.9,
+    date: "2017-10-05"
   },
   {
     id: "testimonial-tour-rome-6-2",
-    quote: "We loved every minute of the Culinary Masterclass Journey. Johnny Mitchell's local tips were priceless.",
-    author: "Steven Thomas",
-    title: "Best Decision of Our Trip"
+    quote: "Even the locals in our group said they learned something new. That says a lot about Rachel Douglas's depth.",
+    author: "Allison Bennett",
+    title: "A Journey Through Rome's Wonders",
+    rating: 4,
+    date: "2022-02-20"
   },
   {
     id: "testimonial-tour-rome-6-3",
-    quote: "This was not just sightseeing — it was a deep dive into the heart of Rome thanks to Johnny Mitchell.",
-    author: "Stephen Sutton",
-    title: "Felt Like a Character in a Fairytale"
+    quote: "I can't recommend the Culinary Masterclass Journey enough. Rachel Douglas was phenomenal, and the experience was worth every penny.",
+    author: "Elena Sutton",
+    title: "A Walk That Will Stay with You",
+    rating: 3.9,
+    date: "2025-05-05"
   },
   {
     id: "testimonial-tour-rome-6-4",
-    quote: "A truly authentic experience! Johnny Mitchell showed us the real Rome, not just the tourist spots.",
-    author: "William Foster",
-    title: "The Real Rome Experience"
+    quote: "The Culinary Masterclass Journey completely changed how I see Rome. Rachel Douglas's insights were invaluable.",
+    author: "Benjamin Reeves",
+    title: "An Authentic Slice of Rome",
+    rating: 4.8,
+    date: "2017-01-21"
   },
   {
     id: "testimonial-tour-rome-6-5",
-    quote: "Johnny Mitchell made learning about Rome's history genuinely exciting — not an easy task!",
-    author: "Kinsley Marshall",
-    title: "Well Worth Your Time"
+    quote: "As a solo traveler, I felt completely comfortable on this tour. Rachel Douglas created a friendly atmosphere from the start.",
+    author: "Mark Holloway",
+    title: "The Perfect Introduction to Rome",
+    rating: 3.9,
+    date: "2025-01-15"
   },
   {
     id: "testimonial-tour-rome-6-6",
-    quote: "Johnny Mitchell brought a depth of cultural insight that gave us a new appreciation for Rome.",
-    author: "James Henderson",
-    title: "A Must-Do in Rome"
+    quote: "Rachel Douglas had such a great balance of history, fun facts, and local stories — truly a gifted guide.",
+    author: "Anna Watson",
+    title: "Exceptional Tour Guide",
+    rating: 3.8,
+    date: "2018-06-10"
   },
   {
     id: "testimonial-tour-rome-6-7",
-    quote: "This isn’t your typical tour. Johnny Mitchell makes it feel personal and engaging from the very start.",
-    author: "Amy Taylor",
-    title: "Followed the Guide, Found a Dream"
+    quote: "This tour was absolutely amazing! Rachel Douglas knew everything about Rome and showed us places we would have never found on our own.",
+    author: "Sarah Kowalski",
+    title: "A Tour That Feels Like a Fairytale",
+    rating: 3.5,
+    date: "2017-11-22"
   },
   {
     id: "testimonial-tour-rome-6-8",
-    quote: "As someone who's been to Rome before, I was surprised at how much I learned on the Culinary Masterclass Journey. Johnny Mitchell is a treasure trove of information!",
-    author: "Melissa Johnson",
-    title: "Fun, Friendly, and Full of Insight"
+    quote: "Rachel Douglas is the kind of guide you want to tell your friends about. This was a five-star experience.",
+    author: "Ali Murray",
+    title: "A Walk That Will Make You Laugh",
+    rating: 4.7,
+    date: "2018-08-16"
   }
 ];

@@ -3,86 +3,106 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const vendorStallJourneyTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-galveston-3-1",
-    quote: "Even our teens were engaged the entire time — Susan Douglas knows how to captivate a group!",
-    author: "Isabella Gibson",
-    title: "If Cities Had Souls, Galveston Sang to Us"
+    quote: "Thanks to Richard Parker, we discovered parts of Galveston we would have never seen on our own.",
+    author: "Katherine Silva",
+    title: "Absolutely Fantastic!",
+    rating: 4.7,
+    date: "2023-12-25"
   },
   {
     id: "testimonial-tour-galveston-3-2",
-    quote: "We were blown away by the depth of knowledge and warmth Susan Douglas brought to the tour.",
-    author: "Priya Spencer",
-    title: "Unforgettable Experience"
+    quote: "This tour was absolutely amazing! Richard Parker knew everything about Galveston and showed us places we would have never found on our own.",
+    author: "Aiden Harris",
+    title: "A Hidden Gem of a Tour",
+    rating: 4,
+    date: "2021-12-08"
   },
   {
     id: "testimonial-tour-galveston-3-3",
-    quote: "We’ll be recommending the Vendor & Stall Journey to all our friends. Susan Douglas made it that special.",
-    author: "Alexander Dubois",
-    title: "Wandered Far, Wondered More"
+    quote: "This isn’t your typical tour. Richard Parker makes it feel personal and engaging from the very start.",
+    author: "Elena Jennings",
+    title: "A Walk That Will Make You Feel Alive",
+    rating: 4.7,
+    date: "2023-04-12"
   },
   {
     id: "testimonial-tour-galveston-3-4",
-    quote: "I've been on many tours, but this one stands out. Susan Douglas was passionate, knowledgeable, and made everyone feel welcome.",
-    author: "Sophia Wood",
-    title: "Incredible from Start to Finish"
+    quote: "Richard Parker is the kind of guide you want to tell your friends about. This was a five-star experience.",
+    author: "Emily Russell",
+    title: "Memorable from the First Step",
+    rating: 4.3,
+    date: "2021-01-01"
   },
   {
     id: "testimonial-tour-galveston-3-5",
-    quote: "We left the Vendor & Stall Journey feeling more connected to Galveston than we ever expected.",
-    author: "Tyler Palmer",
-    title: "Well Worth Your Time"
+    quote: "If you're visiting Galveston, the Vendor & Stall Journey is a must! Richard Parker made the history come alive in a way guidebooks never could.",
+    author: "Amelia Jansen",
+    title: "A Day to Remember",
+    rating: 3.9,
+    date: "2022-07-31"
   },
   {
     id: "testimonial-tour-galveston-3-6",
-    quote: "It felt like a private tour, even though we were with a group. Susan Douglas is incredibly engaging.",
-    author: "Mason Gonzalez",
-    title: "So Glad We Did This"
+    quote: "This isn’t your typical tour. Richard Parker makes it feel personal and engaging from the very start.",
+    author: "Carol Rossi",
+    title: "Worth Every Penny",
+    rating: 4.7,
+    date: "2019-07-08"
   },
   {
     id: "testimonial-tour-galveston-3-7",
-    quote: "Absolutely worth it. Susan Douglas took care of everything so we could just relax and enjoy Galveston.",
-    author: "Samantha Gonzalez",
-    title: "Cultural Immersion at Its Best"
+    quote: "Such a memorable way to explore Galveston. The mix of history, local culture, and stories was perfect.",
+    author: "Christian West",
+    title: "History Comes Alive",
+    rating: 3.9,
+    date: "2023-06-22"
   },
   {
     id: "testimonial-tour-galveston-3-8",
-    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Susan Douglas.",
-    author: "Amy Graves",
-    title: "A Perfect Day in Galveston"
+    quote: "We booked last-minute and are so glad we did. Richard Parker made it one of our favorite memories from Galveston.",
+    author: "Sean Curtis",
+    title: "A Unique Way to Explore Galveston",
+    rating: 4.2,
+    date: "2024-09-13"
   },
   {
     id: "testimonial-tour-galveston-3-9",
-    quote: "We loved every minute of the Vendor & Stall Journey. Susan Douglas's local tips were priceless.",
-    author: "Bella Baker",
-    title: "Wandered Far, Wondered More"
+    quote: "We were blown away by the depth of knowledge and warmth Richard Parker brought to the tour.",
+    author: "Rajesh Campbell",
+    title: "A Tour That Feels Like a Celebration",
+    rating: 3.8,
+    date: "2018-01-03"
   },
   {
     id: "testimonial-tour-galveston-3-10",
-    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Susan Douglas!",
-    author: "Olivia Williams",
-    title: "Fun, Friendly, and Full of Insight"
+    quote: "We had limited time in Galveston, and this tour made sure we saw the best of it. Richard Parker was amazing.",
+    author: "Elizabeth Grant",
+    title: "A Tour That Feels Like a Hug",
+    rating: 4.4,
+    date: "2019-12-03"
   },
   {
     id: "testimonial-tour-galveston-3-11",
-    quote: "If you're visiting Galveston, the Vendor & Stall Journey is a must! Susan Douglas made the history come alive in a way guidebooks never could.",
-    author: "Patrick Hayes",
-    title: "Worth Every Penny"
+    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Richard Parker!",
+    author: "Henry Fox",
+    title: "History, Snacks, and Laughs—Yes Please!",
+    rating: 3.7,
+    date: "2018-05-27"
   },
   {
     id: "testimonial-tour-galveston-3-12",
-    quote: "I can't recommend the Vendor & Stall Journey enough. Susan Douglas was phenomenal, and the experience was worth every penny.",
-    author: "Ella Warren",
-    title: "Well Worth Your Time"
+    quote: "It felt like a private tour, even though we were with a group. Richard Parker is incredibly engaging.",
+    author: "Gerald Silva",
+    title: "Worth Every Penny",
+    rating: 4,
+    date: "2021-02-23"
   },
   {
     id: "testimonial-tour-galveston-3-13",
-    quote: "This was more than just sightseeing — it was an unforgettable journey through Galveston's culture and history.",
-    author: "Brooklyn Kim",
-    title: "Memorable from the First Step"
-  },
-  {
-    id: "testimonial-tour-galveston-3-14",
-    quote: "This tour is a hidden gem — just like the spots Susan Douglas showed us around Galveston.",
-    author: "Elijah Reed",
-    title: "Exceptional Tour Guide"
+    quote: "It felt like a private tour, even though we were with a group. Richard Parker is incredibly engaging.",
+    author: "Jeffrey Williams",
+    title: "History Comes Alive",
+    rating: 3.6,
+    date: "2020-03-09"
   }
 ];

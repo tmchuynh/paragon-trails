@@ -3,62 +3,82 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const athleticLegacyTourTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-quebec-city-3-1",
-    quote: "This tour exceeded all my expectations. Wayne Harper's insider knowledge made our Quebec City visit unforgettable.",
-    author: "Eugene Wilson",
-    title: "Exceptional Tour Guide"
+    quote: "Aaron Hawkins shared personal stories that really brought Quebec City to life for us. A truly memorable tour.",
+    author: "Hassan Taylor",
+    title: "A Must-Do in Quebec City",
+    rating: 5,
+    date: "2023-11-21"
   },
   {
     id: "testimonial-tour-quebec-city-3-2",
-    quote: "Wayne Harper made learning about Quebec City's history genuinely exciting — not an easy task!",
-    author: "Evelyn Carter",
-    title: "Worth Every Penny"
+    quote: "I've been on many tours, but this one stands out. Aaron Hawkins was passionate, knowledgeable, and made everyone feel welcome.",
+    author: "Stephanie Morales",
+    title: "A Walk That Will Make You Smile",
+    rating: 4.5,
+    date: "2017-01-23"
   },
   {
     id: "testimonial-tour-quebec-city-3-3",
-    quote: "The small group size and personal attention from Wayne Harper made all the difference.",
-    author: "Scott Gonzalez",
-    title: "Absolutely Fantastic!"
+    quote: "This tour is a hidden gem — just like the spots Aaron Hawkins showed us around Quebec City.",
+    author: "Joe Warren",
+    title: "Truly Eye-Opening",
+    rating: 4.2,
+    date: "2019-07-02"
   },
   {
     id: "testimonial-tour-quebec-city-3-4",
-    quote: "This tour was absolutely amazing! Wayne Harper knew everything about Quebec City and showed us places we would have never found on our own.",
-    author: "Grace Martinez",
-    title: "One of the Best Tours We've Taken"
+    quote: "Such a memorable way to explore Quebec City. The mix of history, local culture, and stories was perfect.",
+    author: "Daniel Curtis",
+    title: "A Walk That Will Stay with You",
+    rating: 3.9,
+    date: "2021-10-29"
   },
   {
     id: "testimonial-tour-quebec-city-3-5",
-    quote: "We were blown away by the depth of knowledge and warmth Wayne Harper brought to the tour.",
-    author: "Christine Jones",
-    title: "Top-Notch Guiding"
+    quote: "Thanks to Aaron Hawkins, we discovered parts of Quebec City we would have never seen on our own.",
+    author: "Philip White",
+    title: "A Journey Through Quebec City's Magic",
+    rating: 4.5,
+    date: "2020-12-18"
   },
   {
     id: "testimonial-tour-quebec-city-3-6",
-    quote: "From start to finish, the experience felt curated and special. Hats off to Wayne Harper.",
-    author: "Susan Russell",
-    title: "Whispers of the Past, Echoes of Joy"
+    quote: "We joined the Athletic Legacy Tour on our first day in Quebec City, and it set the tone for a fantastic trip.",
+    author: "Olivia Brooks",
+    title: "Memorable from the First Step",
+    rating: 4.6,
+    date: "2017-08-28"
   },
   {
     id: "testimonial-tour-quebec-city-3-7",
-    quote: "Wayne Harper shared personal stories that really brought Quebec City to life for us. A truly memorable tour.",
-    author: "Liam Fisher",
-    title: "Worth Every Penny"
+    quote: "I’ve taken dozens of tours in different countries. Aaron Hawkins ranks among the very best.",
+    author: "Peter Patel",
+    title: "The Ultimate Quebec City Tour",
+    rating: 3.6,
+    date: "2025-03-27"
   },
   {
     id: "testimonial-tour-quebec-city-3-8",
-    quote: "This tour exceeded all my expectations. Wayne Harper's insider knowledge made our Quebec City visit unforgettable.",
-    author: "Thomas Baker",
-    title: "The Walking Was Free—The Laughs Were Priceless"
+    quote: "What a fantastic way to start our stay in Quebec City. Aaron Hawkins gave us a great foundation for exploring more on our own.",
+    author: "Mohamed Gibson",
+    title: "A Journey Through Quebec City's History",
+    rating: 4.2,
+    date: "2023-12-01"
   },
   {
     id: "testimonial-tour-quebec-city-3-9",
-    quote: "From beginning to end, the Athletic Legacy Tour was seamless and so well organized.",
-    author: "Aiden Kowalski",
-    title: "A Tour Even My Teenager Liked"
+    quote: "This tour is a hidden gem — just like the spots Aaron Hawkins showed us around Quebec City.",
+    author: "Hiroshi Douglas",
+    title: "A Journey Through Quebec City's Soul",
+    rating: 4.9,
+    date: "2018-10-22"
   },
   {
     id: "testimonial-tour-quebec-city-3-10",
-    quote: "We joined the Athletic Legacy Tour on our first day in Quebec City, and it set the tone for a fantastic trip.",
-    author: "Timothy Dean",
-    title: "Absolutely Fantastic!"
+    quote: "Aaron Hawkins was incredibly accommodating and answered every question with patience and detail.",
+    author: "James Foster",
+    title: "An Authentic Slice of Quebec City",
+    rating: 5,
+    date: "2018-02-09"
   }
 ];

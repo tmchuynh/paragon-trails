@@ -3,98 +3,90 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const chefsTableExperienceTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-auckland-2-1",
-    quote: "Our family loved every moment of the Chef's Table Experience. Elena Patel even made it fun for our kids.",
-    author: "Diego Harris",
-    title: "Where Magic Meets Cobblestone"
+    quote: "Gabriel Wilson shared personal stories that really brought Auckland to life for us. A truly memorable tour.",
+    author: "William Ivanov",
+    title: "Impressive and Informative",
+    rating: 3.8,
+    date: "2022-09-16"
   },
   {
     id: "testimonial-tour-auckland-2-2",
-    quote: "We were blown away by the depth of knowledge and warmth Elena Patel brought to the tour.",
-    author: "Emma Price",
-    title: "Impressive and Informative"
+    quote: "Thanks to Gabriel Wilson, we discovered parts of Auckland we would have never seen on our own.",
+    author: "Oliver Dunn",
+    title: "Hidden Gems of Auckland",
+    rating: 4.6,
+    date: "2019-03-24"
   },
   {
     id: "testimonial-tour-auckland-2-3",
-    quote: "From beginning to end, the Chef's Table Experience was seamless and so well organized.",
-    author: "Billy Clark",
-    title: "Top-Notch Guiding"
+    quote: "If you only have time for one activity in Auckland, make it the Chef's Table Experience. You won’t regret it.",
+    author: "Ahmed Edwards",
+    title: "A Tour Even My Teenager Liked",
+    rating: 3.9,
+    date: "2020-07-12"
   },
   {
     id: "testimonial-tour-auckland-2-4",
-    quote: "This tour gave us a much deeper connection to Auckland. Elena Patel's passion really shines through.",
-    author: "Priya Parker",
-    title: "An Authentic Slice of Auckland"
+    quote: "Gabriel Wilson shared personal stories that really brought Auckland to life for us. A truly memorable tour.",
+    author: "Fatima Graves",
+    title: "Fun, Friendly, and Full of Insight",
+    rating: 4.7,
+    date: "2022-06-02"
   },
   {
     id: "testimonial-tour-auckland-2-5",
-    quote: "So much fun, and so informative! Elena Patel's enthusiasm is contagious.",
-    author: "Jonathan Johnson",
-    title: "Insider's Perspective"
+    quote: "One of the best decisions of our trip! Gabriel Wilson is a fantastic guide and brought incredible energy to the tour.",
+    author: "Andrew Montgomery",
+    title: "Would Follow This Guide Into Battle",
+    rating: 4.3,
+    date: "2021-07-04"
   },
   {
     id: "testimonial-tour-auckland-2-6",
-    quote: "We got so much value from this tour. Elena Patel took us to places we would have never discovered on our own.",
-    author: "Diego King",
-    title: "The Best Way to See Auckland"
+    quote: "What an engaging experience! Gabriel Wilson kept us laughing and learning throughout the Chef's Table Experience.",
+    author: "Kimberly Dean",
+    title: "A Walk That Will Make You Laugh",
+    rating: 4.1,
+    date: "2019-12-18"
   },
   {
     id: "testimonial-tour-auckland-2-7",
-    quote: "We got so much value from this tour. Elena Patel took us to places we would have never discovered on our own.",
-    author: "Benjamin Hudson",
-    title: "Worth Every Penny"
+    quote: "Gabriel Wilson's enthusiasm for Auckland was contagious. We walked away feeling inspired.",
+    author: "Ashley Parker",
+    title: "History, Snacks, and Laughs—Yes Please!",
+    rating: 4.4,
+    date: "2024-02-18"
   },
   {
     id: "testimonial-tour-auckland-2-8",
-    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Elena Patel!",
-    author: "Carol Crawford",
-    title: "Wandered Far, Wondered More"
+    quote: "Gabriel Wilson shared personal stories that really brought Auckland to life for us. A truly memorable tour.",
+    author: "Daniel Kim",
+    title: "A New Favorite Memory",
+    rating: 3.9,
+    date: "2023-05-12"
   },
   {
     id: "testimonial-tour-auckland-2-9",
-    quote: "Highly recommend this tour if you want more than just a photo op — Elena Patel gives you real insight into Auckland.",
-    author: "Yuki Young",
-    title: "Sunlight, Stories, and Serendipity"
+    quote: "I've been on many tours, but this one stands out. Gabriel Wilson was passionate, knowledgeable, and made everyone feel welcome.",
+    author: "Claire Griffin",
+    title: "A Walk That Will Make You Want to Dance",
+    rating: 3.7,
+    date: "2022-12-07"
   },
   {
     id: "testimonial-tour-auckland-2-10",
-    quote: "Elena Patel had such a great balance of history, fun facts, and local stories — truly a gifted guide.",
-    author: "Ana Williams",
-    title: "History Comes Alive"
+    quote: "Absolutely worth it. Gabriel Wilson took care of everything so we could just relax and enjoy Auckland.",
+    author: "Betty Martin",
+    title: "Hot, Sweaty, and Absolutely Worth It",
+    rating: 3.7,
+    date: "2021-07-26"
   },
   {
     id: "testimonial-tour-auckland-2-11",
-    quote: "The pace was perfect, the content was rich, and Elena Patel made every stop memorable.",
-    author: "Amanda Harper",
-    title: "A Tour Even My Teenager Liked"
-  },
-  {
-    id: "testimonial-tour-auckland-2-12",
-    quote: "Elena Patel is the kind of guide you want to tell your friends about. This was a five-star experience.",
-    author: "Lisa Sutton",
-    title: "Beyond Our Expectations"
-  },
-  {
-    id: "testimonial-tour-auckland-2-13",
-    quote: "Our family loved every moment of the Chef's Table Experience. Elena Patel even made it fun for our kids.",
-    author: "Nora Jones",
-    title: "Absolutely Fantastic!"
-  },
-  {
-    id: "testimonial-tour-auckland-2-14",
-    quote: "From start to finish, the experience felt curated and special. Hats off to Elena Patel.",
-    author: "Khalid Campbell",
-    title: "Felt Like a Character in a Fairytale"
-  },
-  {
-    id: "testimonial-tour-auckland-2-15",
-    quote: "The Chef's Table Experience was both entertaining and educational. Elena Patel has a gift for storytelling that brings Auckland's history to life.",
-    author: "Sophia Maxwell",
-    title: "Worth Every Penny"
-  },
-  {
-    id: "testimonial-tour-auckland-2-16",
-    quote: "I thought I knew Auckland, but this tour proved otherwise. Elena Patel showed us a side we’d never seen.",
-    author: "Oliver Keller",
-    title: "A Deep Dive into Local Culture"
+    quote: "This tour gave us a much deeper connection to Auckland. Gabriel Wilson's passion really shines through.",
+    author: "David Keller",
+    title: "A Journey Through Auckland's Magic",
+    rating: 3.8,
+    date: "2021-11-29"
   }
 ];

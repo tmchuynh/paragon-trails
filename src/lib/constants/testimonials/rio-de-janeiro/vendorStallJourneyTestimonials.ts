@@ -3,74 +3,74 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const vendorStallJourneyTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-rio-de-janeiro-6-1",
-    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Maria Ali!",
-    author: "Daniel Ellis",
-    title: "Lost in Time—in the Best Way"
+    quote: "This tour exceeded all my expectations. Ali Morgan's insider knowledge made our Rio De Janeiro visit unforgettable.",
+    author: "Katherine Anderson",
+    title: "A Journey Through Rio De Janeiro's Secrets",
+    rating: 4.6,
+    date: "2017-09-02"
   },
   {
     id: "testimonial-tour-rio-de-janeiro-6-2",
-    quote: "What an engaging experience! Maria Ali kept us laughing and learning throughout the Vendor & Stall Journey.",
-    author: "Frank Bennett",
-    title: "Learned So Much!"
+    quote: "My grandmother and I didn’t want the tour to end. Ali Morgan is that engaging and informative.",
+    author: "Barbara Parker",
+    title: "Outstanding in Every Way",
+    rating: 3.5,
+    date: "2021-10-20"
   },
   {
     id: "testimonial-tour-rio-de-janeiro-6-3",
-    quote: "The stories, the hidden gems, the expert navigation — Maria Ali delivered on all fronts.",
-    author: "Wayne Jackson",
-    title: "A Day to Remember"
+    quote: "This isn’t your typical tour. Ali Morgan makes it feel personal and engaging from the very start.",
+    author: "Emily Dean",
+    title: "A Tour That Feels Like a Fairytale",
+    rating: 3.8,
+    date: "2018-12-08"
   },
   {
     id: "testimonial-tour-rio-de-janeiro-6-4",
-    quote: "The pace was perfect, the content was rich, and Maria Ali made every stop memorable.",
-    author: "Wayne Morgan",
-    title: "So Glad We Did This"
+    quote: "Ali Morgan brought a depth of cultural insight that gave us a new appreciation for Rio De Janeiro.",
+    author: "Richard Lopez",
+    title: "Best Tour in Rio De Janeiro",
+    rating: 4.6,
+    date: "2019-02-14"
   },
   {
     id: "testimonial-tour-rio-de-janeiro-6-5",
-    quote: "We left the Vendor & Stall Journey feeling more connected to Rio De Janeiro than we ever expected.",
-    author: "Lisa Smith",
-    title: "Best Decision of Our Trip"
+    quote: "As a solo traveler, I felt completely comfortable on this tour. Ali Morgan created a friendly atmosphere from the start.",
+    author: "James Price",
+    title: "A Tour That Feels Like a Hug",
+    rating: 4.4,
+    date: "2019-03-21"
   },
   {
     id: "testimonial-tour-rio-de-janeiro-6-6",
-    quote: "This was not just sightseeing — it was a deep dive into the heart of Rio De Janeiro thanks to Maria Ali.",
-    author: "Gabriella Williams",
-    title: "Beyond Our Expectations"
+    quote: "As a solo traveler, I felt completely comfortable on this tour. Ali Morgan created a friendly atmosphere from the start.",
+    author: "Dorothy Holloway",
+    title: "Lost in Time—in the Best Way",
+    rating: 3.8,
+    date: "2020-11-29"
   },
   {
     id: "testimonial-tour-rio-de-janeiro-6-7",
-    quote: "This tour was absolutely amazing! Maria Ali knew everything about Rio De Janeiro and showed us places we would have never found on our own.",
-    author: "Vincent Grant",
-    title: "An Authentic Slice of Rio De Janeiro"
+    quote: "What a fantastic way to start our stay in Rio De Janeiro. Ali Morgan gave us a great foundation for exploring more on our own.",
+    author: "Wei Coleman",
+    title: "Insider's Perspective",
+    rating: 4.2,
+    date: "2020-04-18"
   },
   {
     id: "testimonial-tour-rio-de-janeiro-6-8",
-    quote: "I felt like I was being shown around by a friend who knows all the secrets of Rio De Janeiro.",
-    author: "Christopher Grant",
-    title: "So Much More Than Expected"
+    quote: "Ali Morgan was incredibly accommodating and answered every question with patience and detail.",
+    author: "Allison Wood",
+    title: "Memorable from the First Step",
+    rating: 4.5,
+    date: "2019-09-14"
   },
   {
     id: "testimonial-tour-rio-de-janeiro-6-9",
-    quote: "I thought I knew Rio De Janeiro, but this tour proved otherwise. Maria Ali showed us a side we’d never seen.",
-    author: "Mary Warren",
-    title: "A Deep Dive into Local Culture"
-  },
-  {
-    id: "testimonial-tour-rio-de-janeiro-6-10",
-    quote: "I felt like I was being shown around by a friend who knows all the secrets of Rio De Janeiro.",
-    author: "Madelyn Fisher",
-    title: "The Walking Was Free—The Laughs Were Priceless"
-  },
-  {
-    id: "testimonial-tour-rio-de-janeiro-6-11",
-    quote: "I wasn’t expecting to enjoy this tour so much, but Maria Ali made it the highlight of our trip.",
-    author: "Youssef Ali",
-    title: "Absolutely Fantastic!"
-  },
-  {
-    id: "testimonial-tour-rio-de-janeiro-6-12",
-    quote: "We joined the Vendor & Stall Journey on our first day in Rio De Janeiro, and it set the tone for a fantastic trip.",
-    author: "Harper Montgomery",
-    title: "Don't Miss This Tour!"
+    quote: "I thought I knew Rio De Janeiro, but this tour proved otherwise. Ali Morgan showed us a side we’d never seen.",
+    author: "Adeline Hamilton",
+    title: "A Journey Through Rio De Janeiro's Culture",
+    rating: 4.2,
+    date: "2021-03-05"
   }
 ];

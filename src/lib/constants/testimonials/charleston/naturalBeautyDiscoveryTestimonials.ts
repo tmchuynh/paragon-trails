@@ -3,50 +3,90 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const naturalBeautyDiscoveryTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-charleston-3-1",
-    quote: "I was nervous about joining a group tour, but Priya Carter made everyone feel like part of the crew.",
-    author: "Avery Jennings",
-    title: "Hidden Gems of Charleston"
+    quote: "We were blown away by the depth of knowledge and warmth Rachel Moore brought to the tour.",
+    author: "Laura White",
+    title: "A Tour That Feels Like a Movie",
+    rating: 3.6,
+    date: "2021-07-05"
   },
   {
     id: "testimonial-tour-charleston-3-2",
-    quote: "As a solo traveler, I felt completely comfortable on this tour. Priya Carter created a friendly atmosphere from the start.",
-    author: "Brenda Foster",
-    title: "Insider's Perspective"
+    quote: "Rachel Moore is the kind of guide you want to tell your friends about. This was a five-star experience.",
+    author: "Sebastian Wilson",
+    title: "Sunlight, Stories, and Serendipity",
+    rating: 4.8,
+    date: "2022-03-26"
   },
   {
     id: "testimonial-tour-charleston-3-3",
-    quote: "Even our teens were engaged the entire time — Priya Carter knows how to captivate a group!",
-    author: "Zola Wells",
-    title: "Best Decision of Our Trip"
+    quote: "The Natural Beauty Discovery was the highlight of our trip to Charleston. Rachel Moore took us to all the best spots and shared fascinating stories.",
+    author: "Randy Warren",
+    title: "Bought the T-Shirt, Took the Tour, Loved It",
+    rating: 4.6,
+    date: "2017-07-13"
   },
   {
     id: "testimonial-tour-charleston-3-4",
-    quote: "We booked last-minute and are so glad we did. Priya Carter made it one of our favorite memories from Charleston.",
-    author: "Isabella Parker",
-    title: "A Deep Dive into Local Culture"
+    quote: "A truly authentic experience! Rachel Moore showed us the real Charleston, not just the tourist spots.",
+    author: "John Carter",
+    title: "Outstanding in Every Way",
+    rating: 4.6,
+    date: "2017-10-10"
   },
   {
     id: "testimonial-tour-charleston-3-5",
-    quote: "What an engaging experience! Priya Carter kept us laughing and learning throughout the Natural Beauty Discovery.",
-    author: "Youssef Palmer",
-    title: "Brought Charleston to Life"
+    quote: "From start to finish, the experience felt curated and special. Hats off to Rachel Moore.",
+    author: "Noah Edwards",
+    title: "A Unique Way to Explore Charleston",
+    rating: 5,
+    date: "2019-02-09"
   },
   {
     id: "testimonial-tour-charleston-3-6",
-    quote: "I’ve taken dozens of tours in different countries. Priya Carter ranks among the very best.",
-    author: "Peter Moore",
-    title: "Memorable from the First Step"
+    quote: "As someone who's been to Charleston before, I was surprised at how much I learned on the Natural Beauty Discovery. Rachel Moore is a treasure trove of information!",
+    author: "Jerry Ellis",
+    title: "A Walk That Will Make You Feel Alive",
+    rating: 4.4,
+    date: "2019-08-07"
   },
   {
     id: "testimonial-tour-charleston-3-7",
-    quote: "This tour exceeded all my expectations. Priya Carter's insider knowledge made our Charleston visit unforgettable.",
-    author: "Andrew Price",
-    title: "Beyond Our Expectations"
+    quote: "Absolutely worth it. Rachel Moore took care of everything so we could just relax and enjoy Charleston.",
+    author: "Maya Thomas",
+    title: "A Journey Through Charleston's Magic",
+    rating: 3.7,
+    date: "2024-03-17"
   },
   {
     id: "testimonial-tour-charleston-3-8",
-    quote: "Such a memorable way to explore Charleston. The mix of history, local culture, and stories was perfect.",
-    author: "Gabriel Ali",
-    title: "An Unexpected Highlight"
+    quote: "The Natural Beauty Discovery was the highlight of our trip to Charleston. Rachel Moore took us to all the best spots and shared fascinating stories.",
+    author: "Brandon Graham",
+    title: "Unforgettable Experience",
+    rating: 4.7,
+    date: "2023-05-18"
+  },
+  {
+    id: "testimonial-tour-charleston-3-9",
+    quote: "From start to finish, the experience felt curated and special. Hats off to Rachel Moore.",
+    author: "Isabella Hamilton",
+    title: "An Authentic Slice of Charleston",
+    rating: 3.6,
+    date: "2018-03-24"
+  },
+  {
+    id: "testimonial-tour-charleston-3-10",
+    quote: "Rachel Moore had such a great balance of history, fun facts, and local stories — truly a gifted guide.",
+    author: "Aaron Hawkins",
+    title: "Got Lost (on Purpose) with {GUIDE_NAME}",
+    rating: 4.8,
+    date: "2022-04-12"
+  },
+  {
+    id: "testimonial-tour-charleston-3-11",
+    quote: "From start to finish, the experience felt curated and special. Hats off to Rachel Moore.",
+    author: "Jessica Hawkins",
+    title: "Outstanding in Every Way",
+    rating: 3.7,
+    date: "2025-03-05"
   }
 ];

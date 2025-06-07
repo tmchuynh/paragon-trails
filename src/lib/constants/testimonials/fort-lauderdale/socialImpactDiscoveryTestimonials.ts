@@ -3,50 +3,66 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const socialImpactDiscoveryTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-fort-lauderdale-3-1",
-    quote: "This tour is a hidden gem — just like the spots Barbara Lewis showed us around Fort Lauderdale.",
-    author: "Virginia Sutton",
-    title: "We’ll Never Forget This"
+    quote: "Our family loved every moment of the Social Impact Discovery. William Brooks even made it fun for our kids.",
+    author: "Nicole Edwards",
+    title: "Fun, Friendly, and Full of Insight",
+    rating: 4,
+    date: "2019-10-29"
   },
   {
     id: "testimonial-tour-fort-lauderdale-3-2",
-    quote: "If you're visiting Fort Lauderdale, the Social Impact Discovery is a must! Barbara Lewis made the history come alive in a way guidebooks never could.",
-    author: "Cynthia Fletcher",
-    title: "Felt Like a Character in a Fairytale"
+    quote: "Even the locals in our group said they learned something new. That says a lot about William Brooks's depth.",
+    author: "Emily Hall",
+    title: "So Much More Than Expected",
+    rating: 3.8,
+    date: "2023-01-09"
   },
   {
     id: "testimonial-tour-fort-lauderdale-3-3",
-    quote: "This tour gave us a much deeper connection to Fort Lauderdale. Barbara Lewis's passion really shines through.",
-    author: "Donna King",
-    title: "So Much More Than Expected"
+    quote: "We booked last-minute and are so glad we did. William Brooks made it one of our favorite memories from Fort Lauderdale.",
+    author: "Amanda Lewis",
+    title: "The Best Way to See Fort Lauderdale",
+    rating: 4.1,
+    date: "2022-09-22"
   },
   {
     id: "testimonial-tour-fort-lauderdale-3-4",
-    quote: "Barbara Lewis shared personal stories that really brought Fort Lauderdale to life for us. A truly memorable tour.",
-    author: "Gabriella Dean",
-    title: "Brought Fort Lauderdale to Life"
+    quote: "Our family loved every moment of the Social Impact Discovery. William Brooks even made it fun for our kids.",
+    author: "Pamela Smith",
+    title: "Where Magic Meets Cobblestone",
+    rating: 3.7,
+    date: "2020-04-27"
   },
   {
     id: "testimonial-tour-fort-lauderdale-3-5",
-    quote: "One of the best decisions of our trip! Barbara Lewis is a fantastic guide and brought incredible energy to the tour.",
-    author: "Sarah Wood",
-    title: "More Enchanting Than Expected"
+    quote: "We had limited time in Fort Lauderdale, and this tour made sure we saw the best of it. William Brooks was amazing.",
+    author: "Patricia Wilson",
+    title: "Fun, Friendly, and Full of Insight",
+    rating: 4.1,
+    date: "2021-01-03"
   },
   {
     id: "testimonial-tour-fort-lauderdale-3-6",
-    quote: "This was more than just sightseeing — it was an unforgettable journey through Fort Lauderdale's culture and history.",
-    author: "Albert Ellis",
-    title: "Highlight of Our Trip"
+    quote: "The Social Impact Discovery completely changed how I see Fort Lauderdale. William Brooks's insights were invaluable.",
+    author: "Yuki Lawson",
+    title: "A Hidden Gem of a Tour",
+    rating: 3.8,
+    date: "2024-09-13"
   },
   {
     id: "testimonial-tour-fort-lauderdale-3-7",
-    quote: "What an engaging experience! Barbara Lewis kept us laughing and learning throughout the Social Impact Discovery.",
-    author: "Aaron Rodriguez",
-    title: "Cultural Immersion at Its Best"
+    quote: "William Brooks went above and beyond to make sure everyone had a great time on the Social Impact Discovery.",
+    author: "Luis Coleman",
+    title: "Absolutely Fantastic!",
+    rating: 3.9,
+    date: "2018-08-22"
   },
   {
     id: "testimonial-tour-fort-lauderdale-3-8",
-    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Barbara Lewis.",
-    author: "Isabella Jansen",
-    title: "So Glad We Did This"
+    quote: "My sister and I had the best time on this tour. William Brooks's knowledge of Fort Lauderdale made it so much more special.",
+    author: "Amelia Young",
+    title: "A Unique Way to Explore Fort Lauderdale",
+    rating: 4.5,
+    date: "2024-08-28"
   }
 ];

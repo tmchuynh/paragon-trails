@@ -3,80 +3,90 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const sommeliersSelectionTourTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-amalfi-coast-2-1",
-    quote: "Rajesh Patel shared personal stories that really brought Amalfi Coast to life for us. A truly memorable tour.",
-    author: "Margaret Spencer",
-    title: "So Glad We Did This"
+    quote: "This tour gave us a much deeper connection to Amalfi Coast. Barbara Payne's passion really shines through.",
+    author: "Chen Reeves",
+    title: "A Journey Through Amalfi Coast's Secrets",
+    rating: 4,
+    date: "2023-05-16"
   },
   {
     id: "testimonial-tour-amalfi-coast-2-2",
-    quote: "I was nervous about joining a group tour, but Rajesh Patel made everyone feel like part of the crew.",
-    author: "Ahmed Nash",
-    title: "A New Favorite Memory"
+    quote: "This isn’t your typical tour. Barbara Payne makes it feel personal and engaging from the very start.",
+    author: "Margaret Day",
+    title: "A Walk That Will Make You Laugh",
+    rating: 4,
+    date: "2021-05-25"
   },
   {
     id: "testimonial-tour-amalfi-coast-2-3",
-    quote: "Our family loved every moment of the Sommelier's Selection Tour. Rajesh Patel even made it fun for our kids.",
-    author: "Eugene Foster",
-    title: "So Much More Than Expected"
+    quote: "We’ll be recommending the Sommelier's Selection Tour to all our friends. Barbara Payne made it that special.",
+    author: "Henry Wood",
+    title: "Felt Like a Character in a Fairytale",
+    rating: 3.6,
+    date: "2022-04-01"
   },
   {
     id: "testimonial-tour-amalfi-coast-2-4",
-    quote: "Even the locals in our group said they learned something new. That says a lot about Rajesh Patel's depth.",
-    author: "Sebastian Dixon",
-    title: "Bought the T-Shirt, Took the Tour, Loved It"
+    quote: "This isn’t your typical tour. Barbara Payne makes it feel personal and engaging from the very start.",
+    author: "Evelyn Dean",
+    title: "A Journey Through Amalfi Coast's History",
+    rating: 5,
+    date: "2023-03-20"
   },
   {
     id: "testimonial-tour-amalfi-coast-2-5",
-    quote: "From start to finish, the experience felt curated and special. Hats off to Rajesh Patel.",
-    author: "Brandon Martinez",
-    title: "Insider's Perspective"
+    quote: "Such a memorable way to explore Amalfi Coast. The mix of history, local culture, and stories was perfect.",
+    author: "Mia Hawkins",
+    title: "A Walk That Will Make You Want to Stay",
+    rating: 3.5,
+    date: "2024-11-14"
   },
   {
     id: "testimonial-tour-amalfi-coast-2-6",
-    quote: "I've been on many tours, but this one stands out. Rajesh Patel was passionate, knowledgeable, and made everyone feel welcome.",
-    author: "Evelyn Bennett",
-    title: "Beyond Our Expectations"
+    quote: "My son and I didn’t want the tour to end. Barbara Payne is that engaging and informative.",
+    author: "Amelia Dunn",
+    title: "Unforgettable Experience",
+    rating: 4.2,
+    date: "2023-08-15"
   },
   {
     id: "testimonial-tour-amalfi-coast-2-7",
-    quote: "Even the locals in our group said they learned something new. That says a lot about Rajesh Patel's depth.",
-    author: "Jesse Gibson",
-    title: "Where Magic Meets Cobblestone"
+    quote: "Barbara Payne was incredibly accommodating and answered every question with patience and detail.",
+    author: "Stephanie Gonzalez",
+    title: "Got Lost (on Purpose) with {GUIDE_NAME}",
+    rating: 4.9,
+    date: "2019-10-08"
   },
   {
     id: "testimonial-tour-amalfi-coast-2-8",
-    quote: "This isn’t your typical tour. Rajesh Patel makes it feel personal and engaging from the very start.",
-    author: "Pamela Jones",
-    title: "An Authentic Slice of Amalfi Coast"
+    quote: "The Sommelier's Selection Tour completely changed how I see Amalfi Coast. Barbara Payne's insights were invaluable.",
+    author: "Virginia Lawson",
+    title: "One of the Best Tours We've Taken",
+    rating: 4.7,
+    date: "2025-04-22"
   },
   {
     id: "testimonial-tour-amalfi-coast-2-9",
-    quote: "Such a memorable way to explore Amalfi Coast. The mix of history, local culture, and stories was perfect.",
-    author: "Jessica Parker",
-    title: "A New Favorite Memory"
+    quote: "This tour is a hidden gem — just like the spots Barbara Payne showed us around Amalfi Coast.",
+    author: "Diego Edwards",
+    title: "Worth Every Penny",
+    rating: 4.7,
+    date: "2018-12-30"
   },
   {
     id: "testimonial-tour-amalfi-coast-2-10",
-    quote: "I've been on many tours, but this one stands out. Rajesh Patel was passionate, knowledgeable, and made everyone feel welcome.",
-    author: "Anna Rossi",
-    title: "Learned So Much!"
+    quote: "This tour was absolutely amazing! Barbara Payne knew everything about Amalfi Coast and showed us places we would have never found on our own.",
+    author: "Priya Chen",
+    title: "A Journey Through Amalfi Coast's Beauty",
+    rating: 3.6,
+    date: "2022-01-17"
   },
   {
     id: "testimonial-tour-amalfi-coast-2-11",
-    quote: "This tour exceeded all my expectations. Rajesh Patel's insider knowledge made our Amalfi Coast visit unforgettable.",
-    author: "Dorothy da Costa",
-    title: "A Deep Dive into Local Culture"
-  },
-  {
-    id: "testimonial-tour-amalfi-coast-2-12",
-    quote: "From start to finish, the experience felt curated and special. Hats off to Rajesh Patel.",
-    author: "Eleanor Murray",
-    title: "Impressive and Informative"
-  },
-  {
-    id: "testimonial-tour-amalfi-coast-2-13",
-    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Rajesh Patel!",
-    author: "Matthew Crawford",
-    title: "Best Decision of Our Trip"
+    quote: "Highly recommend this tour if you want more than just a photo op — Barbara Payne gives you real insight into Amalfi Coast.",
+    author: "Scarlett Kowalski",
+    title: "An Authentic Slice of Amalfi Coast",
+    rating: 3.8,
+    date: "2021-09-20"
   }
 ];

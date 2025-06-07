@@ -3,68 +3,82 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const holisticWellnessJourneyTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-new-york-city-3-1",
-    quote: "What a fantastic way to start our stay in New York City. Ralph Moore gave us a great foundation for exploring more on our own.",
-    author: "Alexa Wright",
-    title: "History, Snacks, and Laughs—Yes Please!"
+    quote: "I can't recommend the Holistic Wellness Journey enough. Thabo Kowalski was phenomenal, and the experience was worth every penny.",
+    author: "Mia Hamilton",
+    title: "Exceptional Tour Guide",
+    rating: 4.5,
+    date: "2023-02-15"
   },
   {
     id: "testimonial-tour-new-york-city-3-2",
-    quote: "Such a memorable way to explore New York City. The mix of history, local culture, and stories was perfect.",
-    author: "Sarah Clark",
-    title: "Absolutely Fantastic!"
+    quote: "If you're visiting New York City, the Holistic Wellness Journey is a must! Thabo Kowalski made the history come alive in a way guidebooks never could.",
+    author: "Frank Gibson",
+    title: "Exceptional Tour Guide",
+    rating: 4.4,
+    date: "2018-03-15"
   },
   {
     id: "testimonial-tour-new-york-city-3-3",
-    quote: "The Holistic Wellness Journey completely changed how I see New York City. Ralph Moore's insights were invaluable.",
-    author: "Gerald Murray",
-    title: "Absolutely Fantastic!"
+    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Thabo Kowalski.",
+    author: "Bobby Coleman",
+    title: "Learned So Much!",
+    rating: 3.7,
+    date: "2018-04-19"
   },
   {
     id: "testimonial-tour-new-york-city-3-4",
-    quote: "My husband and I had the best time on this tour. Ralph Moore's knowledge of New York City made it so much more special.",
-    author: "Sofia Griffin",
-    title: "Hot, Sweaty, and Absolutely Worth It"
+    quote: "We had limited time in New York City, and this tour made sure we saw the best of it. Thabo Kowalski was amazing.",
+    author: "Alexa Nash",
+    title: "Well Worth Your Time",
+    rating: 3.7,
+    date: "2018-08-30"
   },
   {
     id: "testimonial-tour-new-york-city-3-5",
-    quote: "Our family loved every moment of the Holistic Wellness Journey. Ralph Moore even made it fun for our kids.",
-    author: "Gregory Collins",
-    title: "The Best Way to See New York City"
+    quote: "The small group size and personal attention from Thabo Kowalski made all the difference.",
+    author: "Douglas Reeves",
+    title: "Memorable from the First Step",
+    rating: 4.6,
+    date: "2021-12-26"
   },
   {
     id: "testimonial-tour-new-york-city-3-6",
-    quote: "We got so much value from this tour. Ralph Moore took us to places we would have never discovered on our own.",
-    author: "Joshua Ivanov",
-    title: "Hidden Gems of New York City"
+    quote: "Even our teens were engaged the entire time — Thabo Kowalski knows how to captivate a group!",
+    author: "Samantha Lewis",
+    title: "Truly Eye-Opening",
+    rating: 4,
+    date: "2021-09-28"
   },
   {
     id: "testimonial-tour-new-york-city-3-7",
-    quote: "The Holistic Wellness Journey was the highlight of our trip to New York City. Ralph Moore took us to all the best spots and shared fascinating stories.",
-    author: "Lily Wilson",
-    title: "A Perfect Day in New York City"
+    quote: "We left the Holistic Wellness Journey feeling more connected to New York City than we ever expected.",
+    author: "Aaliyah Foster",
+    title: "A Walk That Changed Everything",
+    rating: 3.8,
+    date: "2021-04-17"
   },
   {
     id: "testimonial-tour-new-york-city-3-8",
-    quote: "My sibling and I had the best time on this tour. Ralph Moore's knowledge of New York City made it so much more special.",
-    author: "Logan Carpenter",
-    title: "So Much More Than Expected"
+    quote: "This was not just sightseeing — it was a deep dive into the heart of New York City thanks to Thabo Kowalski.",
+    author: "Robert Chambers",
+    title: "An Authentic Slice of New York City",
+    rating: 3.6,
+    date: "2019-03-23"
   },
   {
     id: "testimonial-tour-new-york-city-3-9",
-    quote: "The small group size and personal attention from Ralph Moore made all the difference.",
-    author: "Ibrahim Smith",
-    title: "Whispers of the Past, Echoes of Joy"
+    quote: "I thought I knew New York City, but this tour proved otherwise. Thabo Kowalski showed us a side we’d never seen.",
+    author: "Walter Gonzalez",
+    title: "A Journey Through New York City's Soul",
+    rating: 4.2,
+    date: "2024-09-14"
   },
   {
     id: "testimonial-tour-new-york-city-3-10",
-    quote: "From start to finish, the experience felt curated and special. Hats off to Ralph Moore.",
-    author: "Harry Ellis",
-    title: "The Best Way to See New York City"
-  },
-  {
-    id: "testimonial-tour-new-york-city-3-11",
-    quote: "My sibling and I agreed this was the best part of our entire trip to New York City.",
-    author: "Helen Miller",
-    title: "Best Decision of Our Trip"
+    quote: "It felt like a private tour, even though we were with a group. Thabo Kowalski is incredibly engaging.",
+    author: "Janet Dixon",
+    title: "Don't Miss This Tour!",
+    rating: 3.6,
+    date: "2024-09-11"
   }
 ];

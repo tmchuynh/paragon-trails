@@ -3,74 +3,98 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const interactiveLearningExperienceTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-rio-de-janeiro-7-1",
-    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Kinsley Silva.",
-    author: "Daniel Nash",
-    title: "A Tour Even My Teenager Liked"
+    quote: "Even our teens were engaged the entire time — Elizabeth Garcia knows how to captivate a group!",
+    author: "Lily Knight",
+    title: "Well Worth Your Time",
+    rating: 4.2,
+    date: "2018-05-22"
   },
   {
     id: "testimonial-tour-rio-de-janeiro-7-2",
-    quote: "What an engaging experience! Kinsley Silva kept us laughing and learning throughout the Interactive Learning Experience.",
-    author: "Pamela da Costa",
-    title: "I Came, I Saw, I Took Too Many Photos"
+    quote: "One of the best decisions of our trip! Elizabeth Garcia is a fantastic guide and brought incredible energy to the tour.",
+    author: "Julie Dubois",
+    title: "A Walk That Will Make You Want to Dance",
+    rating: 3.9,
+    date: "2021-04-26"
   },
   {
     id: "testimonial-tour-rio-de-janeiro-7-3",
-    quote: "The Interactive Learning Experience was both entertaining and educational. Kinsley Silva has a gift for storytelling that brings Rio De Janeiro's history to life.",
-    author: "Rachel Cooper",
-    title: "A Tour Even My Teenager Liked"
+    quote: "Such a memorable way to explore Rio De Janeiro. The mix of history, local culture, and stories was perfect.",
+    author: "Mason Fox",
+    title: "Absolutely Fantastic!",
+    rating: 4.9,
+    date: "2022-02-14"
   },
   {
     id: "testimonial-tour-rio-de-janeiro-7-4",
-    quote: "I can't recommend the Interactive Learning Experience enough. Kinsley Silva was phenomenal, and the experience was worth every penny.",
-    author: "Roger Gardner",
-    title: "An Authentic Slice of Rio De Janeiro"
+    quote: "Even the locals in our group said they learned something new. That says a lot about Elizabeth Garcia's depth.",
+    author: "Benjamin Dean",
+    title: "Brought Rio De Janeiro to Life",
+    rating: 4,
+    date: "2025-01-04"
   },
   {
     id: "testimonial-tour-rio-de-janeiro-7-5",
-    quote: "It felt like a private tour, even though we were with a group. Kinsley Silva is incredibly engaging.",
-    author: "Audrey Russell",
-    title: "Sunlight, Stories, and Serendipity"
+    quote: "Elizabeth Garcia was incredibly accommodating and answered every question with patience and detail.",
+    author: "Mark Kim",
+    title: "A Tour Even My Teenager Liked",
+    rating: 4.9,
+    date: "2024-01-02"
   },
   {
     id: "testimonial-tour-rio-de-janeiro-7-6",
-    quote: "This was more than just sightseeing — it was an unforgettable journey through Rio De Janeiro's culture and history.",
-    author: "Harry Hamilton",
-    title: "History Comes Alive"
+    quote: "Elizabeth Garcia made learning about Rio De Janeiro's history genuinely exciting — not an easy task!",
+    author: "Wayne Suzuki",
+    title: "Got Lost (on Purpose) with {GUIDE_NAME}",
+    rating: 4.6,
+    date: "2020-09-29"
   },
   {
     id: "testimonial-tour-rio-de-janeiro-7-7",
-    quote: "Highly recommend this tour if you want more than just a photo op — Kinsley Silva gives you real insight into Rio De Janeiro.",
-    author: "Patrick Wright",
-    title: "Hidden Gems of Rio De Janeiro"
+    quote: "Thanks to Elizabeth Garcia, we discovered parts of Rio De Janeiro we would have never seen on our own.",
+    author: "Eric Taylor",
+    title: "A Journey Through Rio De Janeiro's Beauty",
+    rating: 3.8,
+    date: "2024-05-17"
   },
   {
     id: "testimonial-tour-rio-de-janeiro-7-8",
-    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Kinsley Silva.",
-    author: "Henry Lee",
-    title: "An Unexpected Highlight"
+    quote: "Elizabeth Garcia brought a depth of cultural insight that gave us a new appreciation for Rio De Janeiro.",
+    author: "Walter Graves",
+    title: "A Walk That Will Make You Believe in Magic",
+    rating: 3.9,
+    date: "2021-04-06"
   },
   {
     id: "testimonial-tour-rio-de-janeiro-7-9",
-    quote: "The small group size and personal attention from Kinsley Silva made all the difference.",
-    author: "Alice Mason",
-    title: "Lost in Time—in the Best Way"
+    quote: "I've been on many tours, but this one stands out. Elizabeth Garcia was passionate, knowledgeable, and made everyone feel welcome.",
+    author: "Ellie Thomas",
+    title: "History Comes Alive",
+    rating: 4.5,
+    date: "2020-05-16"
   },
   {
     id: "testimonial-tour-rio-de-janeiro-7-10",
-    quote: "Kinsley Silva brought a depth of cultural insight that gave us a new appreciation for Rio De Janeiro.",
-    author: "Sophia Fletcher",
-    title: "Truly Eye-Opening"
+    quote: "Our family loved every moment of the Interactive Learning Experience. Elizabeth Garcia even made it fun for our kids.",
+    author: "Emma Singh",
+    title: "Cultural Immersion at Its Best",
+    rating: 4.8,
+    date: "2024-10-29"
   },
   {
     id: "testimonial-tour-rio-de-janeiro-7-11",
-    quote: "What a fantastic way to start our stay in Rio De Janeiro. Kinsley Silva gave us a great foundation for exploring more on our own.",
-    author: "Noah Suzuki",
-    title: "If Cities Had Souls, Rio De Janeiro Sang to Us"
+    quote: "Even the locals in our group said they learned something new. That says a lot about Elizabeth Garcia's depth.",
+    author: "Chloe Bennett",
+    title: "A Tour to Remember",
+    rating: 4.6,
+    date: "2020-05-07"
   },
   {
     id: "testimonial-tour-rio-de-janeiro-7-12",
-    quote: "Even the locals in our group said they learned something new. That says a lot about Kinsley Silva's depth.",
-    author: "Evelyn Wood",
-    title: "A Perfect Day in Rio De Janeiro"
+    quote: "As someone who's been to Rio De Janeiro before, I was surprised at how much I learned on the Interactive Learning Experience. Elizabeth Garcia is a treasure trove of information!",
+    author: "Maria Montgomery",
+    title: "Absolutely Fantastic!",
+    rating: 4.3,
+    date: "2022-04-08"
   }
 ];

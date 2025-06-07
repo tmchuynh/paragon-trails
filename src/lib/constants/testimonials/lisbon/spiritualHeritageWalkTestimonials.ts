@@ -3,56 +3,74 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const spiritualHeritageWalkTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-lisbon-2-1",
-    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Helen Wilson.",
-    author: "Luis White",
-    title: "Impressive and Informative"
+    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Diego Nakamura.",
+    author: "Kyle Stewart",
+    title: "Impressive and Informative",
+    rating: 3.7,
+    date: "2023-06-28"
   },
   {
     id: "testimonial-tour-lisbon-2-2",
-    quote: "I thought I knew Lisbon, but this tour proved otherwise. Helen Wilson showed us a side we’d never seen.",
-    author: "Betty Price",
-    title: "Impressive and Informative"
+    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Diego Nakamura.",
+    author: "Susan Nash",
+    title: "A Walk That Will Stay with You",
+    rating: 3.7,
+    date: "2019-12-10"
   },
   {
     id: "testimonial-tour-lisbon-2-3",
-    quote: "What an engaging experience! Helen Wilson kept us laughing and learning throughout the Spiritual Heritage Walk.",
-    author: "Amanda Gardner",
-    title: "A Day to Remember"
+    quote: "We were blown away by the depth of knowledge and warmth Diego Nakamura brought to the tour.",
+    author: "Luis Rossi",
+    title: "Worth Every Penny",
+    rating: 4.2,
+    date: "2024-12-06"
   },
   {
     id: "testimonial-tour-lisbon-2-4",
-    quote: "From start to finish, the experience felt curated and special. Hats off to Helen Wilson.",
-    author: "Sophia Fox",
-    title: "Sunlight, Stories, and Serendipity"
+    quote: "We got so much value from this tour. Diego Nakamura took us to places we would have never discovered on our own.",
+    author: "Rajesh Morgan",
+    title: "Truly Eye-Opening",
+    rating: 4.2,
+    date: "2019-08-22"
   },
   {
     id: "testimonial-tour-lisbon-2-5",
-    quote: "Helen Wilson shared personal stories that really brought Lisbon to life for us. A truly memorable tour.",
-    author: "Mia Johnson",
-    title: "Fun, Friendly, and Full of Insight"
+    quote: "Diego Nakamura brought a depth of cultural insight that gave us a new appreciation for Lisbon.",
+    author: "Anthony Gibson",
+    title: "A Deep Dive into Local Culture",
+    rating: 3.6,
+    date: "2024-06-17"
   },
   {
     id: "testimonial-tour-lisbon-2-6",
-    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Helen Wilson!",
-    author: "Christian Garcia",
-    title: "Best Decision of Our Trip"
+    quote: "We booked last-minute and are so glad we did. Diego Nakamura made it one of our favorite memories from Lisbon.",
+    author: "Lucas Carpenter",
+    title: "Learned So Much!",
+    rating: 3.5,
+    date: "2022-11-09"
   },
   {
     id: "testimonial-tour-lisbon-2-7",
-    quote: "This isn’t your typical tour. Helen Wilson makes it feel personal and engaging from the very start.",
-    author: "Samantha Lewis",
-    title: "Absolutely Fantastic!"
+    quote: "As a solo traveler, I felt completely comfortable on this tour. Diego Nakamura created a friendly atmosphere from the start.",
+    author: "Lisa Dixon",
+    title: "The Real Lisbon Experience",
+    rating: 3.5,
+    date: "2023-05-31"
   },
   {
     id: "testimonial-tour-lisbon-2-8",
-    quote: "As a solo traveler, I felt completely comfortable on this tour. Helen Wilson created a friendly atmosphere from the start.",
-    author: "Yuki Foster",
-    title: "The Best Way to See Lisbon"
+    quote: "Thanks to Diego Nakamura, we discovered parts of Lisbon we would have never seen on our own.",
+    author: "Henry Dixon",
+    title: "Don't Miss This Tour!",
+    rating: 4.2,
+    date: "2019-04-21"
   },
   {
     id: "testimonial-tour-lisbon-2-9",
-    quote: "I can't recommend the Spiritual Heritage Walk enough. Helen Wilson was phenomenal, and the experience was worth every penny.",
-    author: "Linda Patel",
-    title: "Insider's Perspective"
+    quote: "Highly recommend this tour if you want more than just a photo op — Diego Nakamura gives you real insight into Lisbon.",
+    author: "Jeremy Ivanov",
+    title: "A Tour That Feels Like Home",
+    rating: 4.2,
+    date: "2018-11-10"
   }
 ];

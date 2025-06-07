@@ -3,92 +3,66 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const architecturalMarvelsTourTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-santiago-2-1",
-    quote: "Mia Miller's enthusiasm for Santiago was contagious. We walked away feeling inspired.",
-    author: "Elena Ellis",
-    title: "Top-Notch Guiding"
+    quote: "My family and I had the best time on this tour. Wei Smith's knowledge of Santiago made it so much more special.",
+    author: "Brian Edwards",
+    title: "I Came, I Saw, I Took Too Many Photos",
+    rating: 4.6,
+    date: "2025-01-04"
   },
   {
     id: "testimonial-tour-santiago-2-2",
-    quote: "We booked last-minute and are so glad we did. Mia Miller made it one of our favorite memories from Santiago.",
-    author: "David Brooks",
-    title: "Highly Recommend to Everyone"
+    quote: "I’ve taken dozens of tours in different countries. Wei Smith ranks among the very best.",
+    author: "Layla Thomas",
+    title: "A Walk That Will Make You Think",
+    rating: 4.3,
+    date: "2018-02-07"
   },
   {
     id: "testimonial-tour-santiago-2-3",
-    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Mia Miller.",
-    author: "Henry Singh",
-    title: "Better Than My Last Tinder Date"
+    quote: "If you're visiting Santiago, the Architectural Marvels Tour is a must! Wei Smith made the history come alive in a way guidebooks never could.",
+    author: "Jeffrey Wood",
+    title: "Outstanding in Every Way",
+    rating: 4.3,
+    date: "2024-08-30"
   },
   {
     id: "testimonial-tour-santiago-2-4",
-    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Mia Miller.",
-    author: "Gabriel Young",
-    title: "A Stroll Through a Living Storybook"
+    quote: "A truly authentic experience! Wei Smith showed us the real Santiago, not just the tourist spots.",
+    author: "Ralph Graves",
+    title: "A New Favorite Memory",
+    rating: 4,
+    date: "2022-11-20"
   },
   {
     id: "testimonial-tour-santiago-2-5",
-    quote: "We had limited time in Santiago, and this tour made sure we saw the best of it. Mia Miller was amazing.",
-    author: "William Martin",
-    title: "Would Follow This Guide Into Battle"
+    quote: "If you only have time for one activity in Santiago, make it the Architectural Marvels Tour. You won’t regret it.",
+    author: "Ahmed Graham",
+    title: "A Journey Through Santiago's Magic",
+    rating: 3.7,
+    date: "2018-11-30"
   },
   {
     id: "testimonial-tour-santiago-2-6",
-    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Mia Miller.",
-    author: "Johnny Wells",
-    title: "A Unique Way to Explore Santiago"
+    quote: "We were blown away by the depth of knowledge and warmth Wei Smith brought to the tour.",
+    author: "Mohamed Gibson",
+    title: "An Authentic Slice of Santiago",
+    rating: 4.2,
+    date: "2025-01-01"
   },
   {
     id: "testimonial-tour-santiago-2-7",
-    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Mia Miller.",
-    author: "Maria Chambers",
-    title: "An Authentic Slice of Santiago"
+    quote: "This was more than just sightseeing — it was an unforgettable journey through Santiago's culture and history.",
+    author: "Maria Grant",
+    title: "A Walk Through History",
+    rating: 5,
+    date: "2019-01-09"
   },
   {
     id: "testimonial-tour-santiago-2-8",
-    quote: "My cousin and I agreed this was the best part of our entire trip to Santiago.",
-    author: "Thandiwe Kowalski",
-    title: "Highlight of Our Trip"
-  },
-  {
-    id: "testimonial-tour-santiago-2-9",
-    quote: "As a solo traveler, I felt completely comfortable on this tour. Mia Miller created a friendly atmosphere from the start.",
-    author: "Diego Smith",
-    title: "Local Experience Made Easy"
-  },
-  {
-    id: "testimonial-tour-santiago-2-10",
-    quote: "Mia Miller made learning about Santiago's history genuinely exciting — not an easy task!",
-    author: "Zola Mitchell",
-    title: "A Deep Dive into Local Culture"
-  },
-  {
-    id: "testimonial-tour-santiago-2-11",
-    quote: "I felt like I was being shown around by a friend who knows all the secrets of Santiago.",
-    author: "Larry Porter",
-    title: "Sunlight, Stories, and Serendipity"
-  },
-  {
-    id: "testimonial-tour-santiago-2-12",
-    quote: "As someone who's been to Santiago before, I was surprised at how much I learned on the Architectural Marvels Tour. Mia Miller is a treasure trove of information!",
-    author: "Michelle Nakamura",
-    title: "Whispers of the Past, Echoes of Joy"
-  },
-  {
-    id: "testimonial-tour-santiago-2-13",
-    quote: "My partner and I agreed this was the best part of our entire trip to Santiago.",
-    author: "Edward Edwards",
-    title: "An Authentic Slice of Santiago"
-  },
-  {
-    id: "testimonial-tour-santiago-2-14",
-    quote: "Absolutely worth it. Mia Miller took care of everything so we could just relax and enjoy Santiago.",
-    author: "Rajesh Douglas",
-    title: "More Enchanting Than Expected"
-  },
-  {
-    id: "testimonial-tour-santiago-2-15",
-    quote: "The Architectural Marvels Tour completely changed how I see Santiago. Mia Miller's insights were invaluable.",
-    author: "Grace Harris",
-    title: "Exceptional Tour Guide"
+    quote: "Even our teens were engaged the entire time — Wei Smith knows how to captivate a group!",
+    author: "Ava Payne",
+    title: "Entertaining and Educational",
+    rating: 3.8,
+    date: "2024-02-01"
   }
 ];

@@ -3,68 +3,74 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const beerTastingExpeditionTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-tokyo-2-1",
-    quote: "We loved every minute of the Beer Tasting Expedition. Scarlett Hawkins's local tips were priceless.",
-    author: "Hassan Johnson",
-    title: "Exceptional Tour Guide"
+    quote: "From start to finish, the experience felt curated and special. Hats off to Nancy Khan.",
+    author: "Mary Campbell",
+    title: "If Cities Had Souls, Tokyo Sang to Us",
+    rating: 3.8,
+    date: "2022-12-14"
   },
   {
     id: "testimonial-tour-tokyo-2-2",
-    quote: "One of the best decisions of our trip! Scarlett Hawkins is a fantastic guide and brought incredible energy to the tour.",
-    author: "Yuki Jansen",
-    title: "So Glad We Did This"
+    quote: "The Beer Tasting Expedition was both entertaining and educational. Nancy Khan has a gift for storytelling that brings Tokyo's history to life.",
+    author: "Liam Lawson",
+    title: "Would Follow This Guide Into Battle",
+    rating: 4.4,
+    date: "2023-05-15"
   },
   {
     id: "testimonial-tour-tokyo-2-3",
-    quote: "We had limited time in Tokyo, and this tour made sure we saw the best of it. Scarlett Hawkins was amazing.",
-    author: "Harper Graham",
-    title: "A Must-Do in Tokyo"
+    quote: "We’ll be recommending the Beer Tasting Expedition to all our friends. Nancy Khan made it that special.",
+    author: "Gary Hamilton",
+    title: "Loved Every Minute",
+    rating: 4.5,
+    date: "2024-10-01"
   },
   {
     id: "testimonial-tour-tokyo-2-4",
-    quote: "I felt like I was being shown around by a friend who knows all the secrets of Tokyo.",
-    author: "Audrey Jones",
-    title: "Learned Stuff, Didn’t Cry—Success!"
+    quote: "The Beer Tasting Expedition was both entertaining and educational. Nancy Khan has a gift for storytelling that brings Tokyo's history to life.",
+    author: "Amy Davis",
+    title: "Bought the T-Shirt, Took the Tour, Loved It",
+    rating: 4.1,
+    date: "2019-03-20"
   },
   {
     id: "testimonial-tour-tokyo-2-5",
-    quote: "I felt like I was being shown around by a friend who knows all the secrets of Tokyo.",
-    author: "Bobby Lawson",
-    title: "One of the Best Tours We've Taken"
+    quote: "The stories, the hidden gems, the expert navigation — Nancy Khan delivered on all fronts.",
+    author: "Amy Knight",
+    title: "A Perfect Day in Tokyo",
+    rating: 4.4,
+    date: "2019-10-09"
   },
   {
     id: "testimonial-tour-tokyo-2-6",
-    quote: "It felt like a private tour, even though we were with a group. Scarlett Hawkins is incredibly engaging.",
-    author: "Priya Cooper",
-    title: "The Ultimate Tokyo Tour"
+    quote: "Thanks to Nancy Khan, we discovered parts of Tokyo we would have never seen on our own.",
+    author: "Jordan Miller",
+    title: "Lost in Time—in the Best Way",
+    rating: 4.2,
+    date: "2018-03-08"
   },
   {
     id: "testimonial-tour-tokyo-2-7",
-    quote: "This was not just sightseeing — it was a deep dive into the heart of Tokyo thanks to Scarlett Hawkins.",
-    author: "Russell Graham",
-    title: "Beyond Our Expectations"
+    quote: "We booked last-minute and are so glad we did. Nancy Khan made it one of our favorite memories from Tokyo.",
+    author: "Jonathan Hunter",
+    title: "Incredible from Start to Finish",
+    rating: 3.8,
+    date: "2021-03-27"
   },
   {
     id: "testimonial-tour-tokyo-2-8",
-    quote: "Scarlett Hawkins had such a great balance of history, fun facts, and local stories — truly a gifted guide.",
-    author: "Gabriel Anderson",
-    title: "Memorable from the First Step"
+    quote: "Nancy Khan had such a great balance of history, fun facts, and local stories — truly a gifted guide.",
+    author: "Layla Brooks",
+    title: "A Journey Through Tokyo's Magic",
+    rating: 3.6,
+    date: "2021-03-17"
   },
   {
     id: "testimonial-tour-tokyo-2-9",
-    quote: "I thought I knew Tokyo, but this tour proved otherwise. Scarlett Hawkins showed us a side we’d never seen.",
-    author: "Brenda Bennett",
-    title: "Impressive and Informative"
-  },
-  {
-    id: "testimonial-tour-tokyo-2-10",
-    quote: "What an engaging experience! Scarlett Hawkins kept us laughing and learning throughout the Beer Tasting Expedition.",
-    author: "Steven Patel",
-    title: "Fun, Friendly, and Full of Insight"
-  },
-  {
-    id: "testimonial-tour-tokyo-2-11",
-    quote: "A truly authentic experience! Scarlett Hawkins showed us the real Tokyo, not just the tourist spots.",
-    author: "Gregory Morgan",
-    title: "One of the Best Tours We've Taken"
+    quote: "This tour exceeded all my expectations. Nancy Khan's insider knowledge made our Tokyo visit unforgettable.",
+    author: "Jennifer Price",
+    title: "A Hidden Gem of a Tour",
+    rating: 4.6,
+    date: "2020-10-03"
   }
 ];

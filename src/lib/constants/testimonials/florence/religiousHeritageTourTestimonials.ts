@@ -3,80 +3,74 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const religiousHeritageTourTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-florence-3-1",
-    quote: "We joined the Religious Heritage Tour on our first day in Florence, and it set the tone for a fantastic trip.",
-    author: "Ravi Murray",
-    title: "Cultural Immersion at Its Best"
+    quote: "We got so much value from this tour. Keith White took us to places we would have never discovered on our own.",
+    author: "Lucas Silva",
+    title: "Followed the Guide, Found a Dream",
+    rating: 4,
+    date: "2019-01-02"
   },
   {
     id: "testimonial-tour-florence-3-2",
-    quote: "Antonio Keller had such a great balance of history, fun facts, and local stories — truly a gifted guide.",
-    author: "Elijah Porter",
-    title: "A Stroll Through a Living Storybook"
+    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Keith White.",
+    author: "Boris Cooper",
+    title: "A Walk That Will Make You See Florence Differently",
+    rating: 4.2,
+    date: "2025-05-06"
   },
   {
     id: "testimonial-tour-florence-3-3",
-    quote: "Absolutely worth it. Antonio Keller took care of everything so we could just relax and enjoy Florence.",
-    author: "Isabella Keller",
-    title: "Truly Eye-Opening"
+    quote: "Keith White brought a depth of cultural insight that gave us a new appreciation for Florence.",
+    author: "Ashley Ali",
+    title: "Learned Stuff, Didn’t Cry—Success!",
+    rating: 3.5,
+    date: "2022-10-16"
   },
   {
     id: "testimonial-tour-florence-3-4",
-    quote: "Such a memorable way to explore Florence. The mix of history, local culture, and stories was perfect.",
-    author: "Liam Keller",
-    title: "Outstanding in Every Way"
+    quote: "My cousin and I had the best time on this tour. Keith White's knowledge of Florence made it so much more special.",
+    author: "Charlotte Johnson",
+    title: "A Day to Remember",
+    rating: 4.1,
+    date: "2021-05-21"
   },
   {
     id: "testimonial-tour-florence-3-5",
-    quote: "So much fun, and so informative! Antonio Keller's enthusiasm is contagious.",
-    author: "Ava Williams",
-    title: "Lost in Time—in the Best Way"
+    quote: "I've been on many tours, but this one stands out. Keith White was passionate, knowledgeable, and made everyone feel welcome.",
+    author: "Sophia Dixon",
+    title: "A Journey Through Florence's History",
+    rating: 4.1,
+    date: "2020-02-25"
   },
   {
     id: "testimonial-tour-florence-3-6",
-    quote: "I was nervous about joining a group tour, but Antonio Keller made everyone feel like part of the crew.",
-    author: "Zachary Wang",
-    title: "We’ll Never Forget This"
+    quote: "The Religious Heritage Tour was the highlight of our trip to Florence. Keith White took us to all the best spots and shared fascinating stories.",
+    author: "Jonathan West",
+    title: "Better Than My Last Tinder Date",
+    rating: 4.4,
+    date: "2017-07-21"
   },
   {
     id: "testimonial-tour-florence-3-7",
-    quote: "If you're visiting Florence, the Religious Heritage Tour is a must! Antonio Keller made the history come alive in a way guidebooks never could.",
-    author: "Johnny Williams",
-    title: "Loved Every Minute"
+    quote: "Keith White was incredibly accommodating and answered every question with patience and detail.",
+    author: "Aria Wang",
+    title: "Beyond Our Expectations",
+    rating: 3.9,
+    date: "2024-03-23"
   },
   {
     id: "testimonial-tour-florence-3-8",
-    quote: "This tour is a hidden gem — just like the spots Antonio Keller showed us around Florence.",
-    author: "Harper Nakamura",
-    title: "Followed the Guide, Found a Dream"
+    quote: "My husband and I didn’t want the tour to end. Keith White is that engaging and informative.",
+    author: "Gabriel Maxwell",
+    title: "Whispers of the Past, Echoes of Joy",
+    rating: 5,
+    date: "2019-05-21"
   },
   {
     id: "testimonial-tour-florence-3-9",
-    quote: "Antonio Keller is the kind of guide you want to tell your friends about. This was a five-star experience.",
-    author: "Sophia Maxwell",
-    title: "Would Follow This Guide Into Battle"
-  },
-  {
-    id: "testimonial-tour-florence-3-10",
-    quote: "We had limited time in Florence, and this tour made sure we saw the best of it. Antonio Keller was amazing.",
-    author: "Amelia Bennett",
-    title: "Entertaining and Educational"
-  },
-  {
-    id: "testimonial-tour-florence-3-11",
-    quote: "This isn’t your typical tour. Antonio Keller makes it feel personal and engaging from the very start.",
-    author: "James West",
-    title: "Insider's Perspective"
-  },
-  {
-    id: "testimonial-tour-florence-3-12",
-    quote: "We joined the Religious Heritage Tour on our first day in Florence, and it set the tone for a fantastic trip.",
-    author: "Alexander Price",
-    title: "Best Tour in Florence"
-  },
-  {
-    id: "testimonial-tour-florence-3-13",
-    quote: "From start to finish, the experience felt curated and special. Hats off to Antonio Keller.",
-    author: "Lisa Wang",
-    title: "Better Than My Last Tinder Date"
+    quote: "As a solo traveler, I felt completely comfortable on this tour. Keith White created a friendly atmosphere from the start.",
+    author: "Elijah Singh",
+    title: "Incredible from Start to Finish",
+    rating: 4.4,
+    date: "2022-03-11"
   }
 ];

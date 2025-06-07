@@ -3,104 +3,106 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const luxuryShoppingExperienceTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-cozumel-4-1",
-    quote: "My son and I agreed this was the best part of our entire trip to Cozumel.",
-    author: "Caroline Jackson",
-    title: "Best Tour in Cozumel"
+    quote: "This tour was absolutely amazing! Wayne Jennings knew everything about Cozumel and showed us places we would have never found on our own.",
+    author: "Ravi Collins",
+    title: "The Perfect Introduction to Cozumel",
+    rating: 4.4,
+    date: "2025-05-05"
   },
   {
     id: "testimonial-tour-cozumel-4-2",
-    quote: "We left the Luxury Shopping Experience feeling more connected to Cozumel than we ever expected.",
-    author: "Mason Douglas",
-    title: "The Real Cozumel Experience"
+    quote: "The Luxury Shopping Experience completely changed how I see Cozumel. Wayne Jennings's insights were invaluable.",
+    author: "Janet Suzuki",
+    title: "A Tour That Feels Like a Hug",
+    rating: 4.7,
+    date: "2022-01-17"
   },
   {
     id: "testimonial-tour-cozumel-4-3",
-    quote: "I’ve taken dozens of tours in different countries. Ibrahim Knight ranks among the very best.",
-    author: "Omar Anderson",
-    title: "So Glad We Did This"
+    quote: "So much fun, and so informative! Wayne Jennings's enthusiasm is contagious.",
+    author: "Ava Spencer",
+    title: "A Journey Through Cozumel's Charm",
+    rating: 3.6,
+    date: "2017-03-01"
   },
   {
     id: "testimonial-tour-cozumel-4-4",
-    quote: "A truly authentic experience! Ibrahim Knight showed us the real Cozumel, not just the tourist spots.",
-    author: "Sophia Lopez",
-    title: "Better Than My Last Tinder Date"
+    quote: "Wayne Jennings is the kind of guide you want to tell your friends about. This was a five-star experience.",
+    author: "Skylar Reed",
+    title: "A Walk That Will Make You Want to Stay",
+    rating: 3.8,
+    date: "2020-05-24"
   },
   {
     id: "testimonial-tour-cozumel-4-5",
-    quote: "Ibrahim Knight made learning about Cozumel's history genuinely exciting — not an easy task!",
-    author: "Ella Silva",
-    title: "Sunlight, Stories, and Serendipity"
+    quote: "The pace was perfect, the content was rich, and Wayne Jennings made every stop memorable.",
+    author: "Alice Moore",
+    title: "More Enchanting Than Expected",
+    rating: 5,
+    date: "2024-12-27"
   },
   {
     id: "testimonial-tour-cozumel-4-6",
-    quote: "I thought I knew Cozumel, but this tour proved otherwise. Ibrahim Knight showed us a side we’d never seen.",
-    author: "Noah Coleman",
-    title: "Local Experience Made Easy"
+    quote: "One of the best decisions of our trip! Wayne Jennings is a fantastic guide and brought incredible energy to the tour.",
+    author: "Ahmed Gonzalez",
+    title: "One of the Best Tours We've Taken",
+    rating: 3.5,
+    date: "2017-08-27"
   },
   {
     id: "testimonial-tour-cozumel-4-7",
-    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Ibrahim Knight.",
-    author: "Robert Edwards",
-    title: "Learned Stuff, Didn’t Cry—Success!"
+    quote: "As a solo traveler, I felt completely comfortable on this tour. Wayne Jennings created a friendly atmosphere from the start.",
+    author: "Paul Day",
+    title: "A Journey Through Cozumel's Wonders",
+    rating: 4.9,
+    date: "2018-05-28"
   },
   {
     id: "testimonial-tour-cozumel-4-8",
-    quote: "Ibrahim Knight went above and beyond to make sure everyone had a great time on the Luxury Shopping Experience.",
-    author: "William Johnson",
-    title: "Incredible from Start to Finish"
+    quote: "From start to finish, the experience felt curated and special. Hats off to Wayne Jennings.",
+    author: "Joel Miller",
+    title: "If Cities Had Souls, Cozumel Sang to Us",
+    rating: 4,
+    date: "2021-04-05"
   },
   {
     id: "testimonial-tour-cozumel-4-9",
-    quote: "This tour exceeded all my expectations. Ibrahim Knight's insider knowledge made our Cozumel visit unforgettable.",
-    author: "Olivia Hudson",
-    title: "Felt Like a Character in a Fairytale"
+    quote: "Wayne Jennings brought a depth of cultural insight that gave us a new appreciation for Cozumel.",
+    author: "Brenda Thomas",
+    title: "Felt Like a Character in a Fairytale",
+    rating: 4.6,
+    date: "2024-09-09"
   },
   {
     id: "testimonial-tour-cozumel-4-10",
-    quote: "Ibrahim Knight was incredibly accommodating and answered every question with patience and detail.",
-    author: "Jose Palmer",
-    title: "Felt Like a Character in a Fairytale"
+    quote: "It felt like a private tour, even though we were with a group. Wayne Jennings is incredibly engaging.",
+    author: "Janet Hayes",
+    title: "A Walk That Will Make You Want to Stay",
+    rating: 4,
+    date: "2019-03-25"
   },
   {
     id: "testimonial-tour-cozumel-4-11",
-    quote: "A truly authentic experience! Ibrahim Knight showed us the real Cozumel, not just the tourist spots.",
-    author: "Aaron Day",
-    title: "Where Magic Meets Cobblestone"
+    quote: "We loved every minute of the Luxury Shopping Experience. Wayne Jennings's local tips were priceless.",
+    author: "Maya Nash",
+    title: "A New Favorite Memory",
+    rating: 4.8,
+    date: "2023-11-06"
   },
   {
     id: "testimonial-tour-cozumel-4-12",
-    quote: "This tour was absolutely amazing! Ibrahim Knight knew everything about Cozumel and showed us places we would have never found on our own.",
-    author: "Harold Morgan",
-    title: "We’ll Never Forget This"
+    quote: "This was more than just sightseeing — it was an unforgettable journey through Cozumel's culture and history.",
+    author: "Harry Watson",
+    title: "Cultural Immersion at Its Best",
+    rating: 4.8,
+    date: "2019-05-04"
   },
   {
     id: "testimonial-tour-cozumel-4-13",
-    quote: "I’ve taken dozens of tours in different countries. Ibrahim Knight ranks among the very best.",
-    author: "Deborah Carter",
-    title: "The Ultimate Cozumel Tour"
-  },
-  {
-    id: "testimonial-tour-cozumel-4-14",
-    quote: "I felt like I was being shown around by a friend who knows all the secrets of Cozumel.",
-    author: "Ahmed Douglas",
-    title: "Felt Like a Character in a Fairytale"
-  },
-  {
-    id: "testimonial-tour-cozumel-4-15",
-    quote: "We loved every minute of the Luxury Shopping Experience. Ibrahim Knight's local tips were priceless.",
-    author: "Priya Foster",
-    title: "Hot, Sweaty, and Absolutely Worth It"
-  },
-  {
-    id: "testimonial-tour-cozumel-4-16",
-    quote: "If you only have time for one activity in Cozumel, make it the Luxury Shopping Experience. You won’t regret it.",
-    author: "Sebastian Morgan",
-    title: "An Unexpected Highlight"
-  },
-  {
-    id: "testimonial-tour-cozumel-4-17",
-    quote: "As a solo traveler, I felt completely comfortable on this tour. Ibrahim Knight created a friendly atmosphere from the start.",
-    author: "Joel Rodriguez",
-    title: "Exceptional Tour Guide"
+    quote: "We booked last-minute and are so glad we did. Wayne Jennings made it one of our favorite memories from Cozumel.",
+    author: "Amelia Smith",
+    title: "A New Favorite Memory",
+    rating: 4.6,
+    date: "2018-09-20"
   }
 ];

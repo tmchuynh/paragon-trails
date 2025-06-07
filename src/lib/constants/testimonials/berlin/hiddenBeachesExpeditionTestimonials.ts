@@ -3,68 +3,74 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const hiddenBeachesExpeditionTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-berlin-2-1",
-    quote: "The Hidden Beaches Expedition completely changed how I see Berlin. Benjamin Gardner's insights were invaluable.",
-    author: "Bobby Harris",
-    title: "Outstanding in Every Way"
+    quote: "From beginning to end, the Hidden Beaches Expedition was seamless and so well organized.",
+    author: "Katherine Ivanov",
+    title: "I Came, I Saw, I Took Too Many Photos",
+    rating: 4.4,
+    date: "2023-10-23"
   },
   {
     id: "testimonial-tour-berlin-2-2",
-    quote: "Benjamin Gardner was incredibly accommodating and answered every question with patience and detail.",
-    author: "Julie Jennings",
-    title: "Beyond Our Expectations"
+    quote: "As someone who's been to Berlin before, I was surprised at how much I learned on the Hidden Beaches Expedition. Ahmed Brooks is a treasure trove of information!",
+    author: "Sofia Martin",
+    title: "The Real Berlin Experience",
+    rating: 4.8,
+    date: "2022-09-26"
   },
   {
     id: "testimonial-tour-berlin-2-3",
-    quote: "I can't recommend the Hidden Beaches Expedition enough. Benjamin Gardner was phenomenal, and the experience was worth every penny.",
-    author: "Katherine Brooks",
-    title: "Got Lost (on Purpose) with {GUIDE_NAME}"
+    quote: "Ahmed Brooks had such a great balance of history, fun facts, and local stories — truly a gifted guide.",
+    author: "Arthur Wells",
+    title: "A Walk That Will Make You Want to Stay",
+    rating: 3.8,
+    date: "2024-04-25"
   },
   {
     id: "testimonial-tour-berlin-2-4",
-    quote: "This isn’t your typical tour. Benjamin Gardner makes it feel personal and engaging from the very start.",
-    author: "Helen Knight",
-    title: "A Tour Even My Teenager Liked"
+    quote: "Ahmed Brooks shared personal stories that really brought Berlin to life for us. A truly memorable tour.",
+    author: "Alan Payne",
+    title: "A Journey Through Berlin's Soul",
+    rating: 4.8,
+    date: "2021-09-15"
   },
   {
     id: "testimonial-tour-berlin-2-5",
-    quote: "A truly authentic experience! Benjamin Gardner showed us the real Berlin, not just the tourist spots.",
-    author: "Ralph Dubois",
-    title: "Better Than My Last Tinder Date"
+    quote: "If you're visiting Berlin, the Hidden Beaches Expedition is a must! Ahmed Brooks made the history come alive in a way guidebooks never could.",
+    author: "Darrell Hunter",
+    title: "A Journey Through Berlin's Soul",
+    rating: 4.6,
+    date: "2020-10-31"
   },
   {
     id: "testimonial-tour-berlin-2-6",
-    quote: "The Hidden Beaches Expedition was the highlight of our trip to Berlin. Benjamin Gardner took us to all the best spots and shared fascinating stories.",
-    author: "Maria Warren",
-    title: "Highlight of Our Trip"
+    quote: "We loved every minute of the Hidden Beaches Expedition. Ahmed Brooks's local tips were priceless.",
+    author: "Claire Hernandez",
+    title: "Wandered Far, Wondered More",
+    rating: 3.5,
+    date: "2022-04-28"
   },
   {
     id: "testimonial-tour-berlin-2-7",
-    quote: "Thanks to Benjamin Gardner, we discovered parts of Berlin we would have never seen on our own.",
-    author: "Isabella Carpenter",
-    title: "A Must-Do in Berlin"
+    quote: "Ahmed Brooks brought a depth of cultural insight that gave us a new appreciation for Berlin.",
+    author: "Abigail Bennett",
+    title: "A Tour That Feels Like a Movie",
+    rating: 4.3,
+    date: "2019-04-10"
   },
   {
     id: "testimonial-tour-berlin-2-8",
-    quote: "Such a memorable way to explore Berlin. The mix of history, local culture, and stories was perfect.",
-    author: "Charlotte Rodriguez",
-    title: "Learned Stuff, Didn’t Cry—Success!"
+    quote: "This tour is a hidden gem — just like the spots Ahmed Brooks showed us around Berlin.",
+    author: "Marcus Baker",
+    title: "A Deep Dive into Local Culture",
+    rating: 4.8,
+    date: "2021-05-19"
   },
   {
     id: "testimonial-tour-berlin-2-9",
-    quote: "What a fantastic way to start our stay in Berlin. Benjamin Gardner gave us a great foundation for exploring more on our own.",
-    author: "Alan Wells",
-    title: "Truly Eye-Opening"
-  },
-  {
-    id: "testimonial-tour-berlin-2-10",
-    quote: "I thought I knew Berlin, but this tour proved otherwise. Benjamin Gardner showed us a side we’d never seen.",
-    author: "Muhammad Brooks",
-    title: "Bought the T-Shirt, Took the Tour, Loved It"
-  },
-  {
-    id: "testimonial-tour-berlin-2-11",
-    quote: "What an engaging experience! Benjamin Gardner kept us laughing and learning throughout the Hidden Beaches Expedition.",
-    author: "Jacob Anderson",
-    title: "Wandered Far, Wondered More"
+    quote: "This tour exceeded all my expectations. Ahmed Brooks's insider knowledge made our Berlin visit unforgettable.",
+    author: "Elena Smith",
+    title: "A Journey Through Berlin's Secrets",
+    rating: 4.4,
+    date: "2018-03-29"
   }
 ];

@@ -3,86 +3,122 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const streetFoodSafariTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-boston-3-1",
-    quote: "So much fun, and so informative! Diego Fisher's enthusiasm is contagious.",
-    author: "Sofia Keller",
-    title: "Absolutely Fantastic!"
+    quote: "Thanks to Patrick Foster, we discovered parts of Boston we would have never seen on our own.",
+    author: "Linda Spencer",
+    title: "Top-Notch Guiding",
+    rating: 3.8,
+    date: "2017-11-04"
   },
   {
     id: "testimonial-tour-boston-3-2",
-    quote: "Highly recommend this tour if you want more than just a photo op — Diego Fisher gives you real insight into Boston.",
-    author: "Eleanor Fox",
-    title: "Exceptional Tour Guide"
+    quote: "This tour is a hidden gem — just like the spots Patrick Foster showed us around Boston.",
+    author: "Lerato Rossi",
+    title: "A Tour That Feels Like Home",
+    rating: 4.8,
+    date: "2023-09-23"
   },
   {
     id: "testimonial-tour-boston-3-3",
-    quote: "Thanks to Diego Fisher, we discovered parts of Boston we would have never seen on our own.",
-    author: "Ashley Hawkins",
-    title: "Absolutely Fantastic!"
+    quote: "Our family loved every moment of the Street Food Safari. Patrick Foster even made it fun for our kids.",
+    author: "Samantha Wells",
+    title: "A Walk That Changed Everything",
+    rating: 4.8,
+    date: "2019-11-04"
   },
   {
     id: "testimonial-tour-boston-3-4",
-    quote: "What a fantastic way to start our stay in Boston. Diego Fisher gave us a great foundation for exploring more on our own.",
-    author: "Harold Price",
-    title: "Top-Notch Guiding"
+    quote: "Patrick Foster went above and beyond to make sure everyone had a great time on the Street Food Safari.",
+    author: "Ibrahim Morales",
+    title: "Incredible from Start to Finish",
+    rating: 4.3,
+    date: "2021-04-03"
   },
   {
     id: "testimonial-tour-boston-3-5",
-    quote: "This tour was absolutely amazing! Diego Fisher knew everything about Boston and showed us places we would have never found on our own.",
-    author: "Amanda Jackson",
-    title: "An Authentic Slice of Boston"
+    quote: "Thanks to Patrick Foster, we discovered parts of Boston we would have never seen on our own.",
+    author: "Johnny Gibson",
+    title: "A Walk That Will Make You Feel Alive",
+    rating: 3.6,
+    date: "2020-05-03"
   },
   {
     id: "testimonial-tour-boston-3-6",
-    quote: "Diego Fisher brought a depth of cultural insight that gave us a new appreciation for Boston.",
-    author: "Jerry Martinez",
-    title: "Bought the T-Shirt, Took the Tour, Loved It"
+    quote: "Patrick Foster made learning about Boston's history genuinely exciting — not an easy task!",
+    author: "Jonathan Morgan",
+    title: "A Walk That Will Make You Want to Dance",
+    rating: 4.7,
+    date: "2022-10-03"
   },
   {
     id: "testimonial-tour-boston-3-7",
-    quote: "This tour is a hidden gem — just like the spots Diego Fisher showed us around Boston.",
-    author: "Diego Ivanov",
-    title: "An Authentic Slice of Boston"
+    quote: "We loved every minute of the Street Food Safari. Patrick Foster's local tips were priceless.",
+    author: "Matthew Hamilton",
+    title: "Outstanding in Every Way",
+    rating: 4.1,
+    date: "2019-02-03"
   },
   {
     id: "testimonial-tour-boston-3-8",
-    quote: "Diego Fisher went above and beyond to make sure everyone had a great time on the Street Food Safari.",
-    author: "Layla Cooper",
-    title: "Best Tour in Boston"
+    quote: "Our family loved every moment of the Street Food Safari. Patrick Foster even made it fun for our kids.",
+    author: "Harper Anderson",
+    title: "A Tour That Feels Like Home",
+    rating: 3.8,
+    date: "2024-12-15"
   },
   {
     id: "testimonial-tour-boston-3-9",
-    quote: "What an engaging experience! Diego Fisher kept us laughing and learning throughout the Street Food Safari.",
-    author: "Roger Moore",
-    title: "An Authentic Slice of Boston"
+    quote: "I’ve taken dozens of tours in different countries. Patrick Foster ranks among the very best.",
+    author: "Nomsa Müller",
+    title: "Best Decision of Our Trip",
+    rating: 4.2,
+    date: "2023-11-29"
   },
   {
     id: "testimonial-tour-boston-3-10",
-    quote: "Thanks to Diego Fisher, we discovered parts of Boston we would have never seen on our own.",
-    author: "Nicholas Ellis",
-    title: "Where Magic Meets Cobblestone"
+    quote: "Patrick Foster had such a great balance of history, fun facts, and local stories — truly a gifted guide.",
+    author: "Youssef Morgan",
+    title: "A Tour That Feels Like a Movie",
+    rating: 4.3,
+    date: "2024-08-16"
   },
   {
     id: "testimonial-tour-boston-3-11",
-    quote: "This tour is a hidden gem — just like the spots Diego Fisher showed us around Boston.",
-    author: "Ariana Hernandez",
-    title: "Bought the T-Shirt, Took the Tour, Loved It"
+    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Patrick Foster.",
+    author: "Betty Young",
+    title: "Memorable from the First Step",
+    rating: 4.9,
+    date: "2023-02-25"
   },
   {
     id: "testimonial-tour-boston-3-12",
-    quote: "The small group size and personal attention from Diego Fisher made all the difference.",
-    author: "Zachary Dixon",
-    title: "We’ll Never Forget This"
+    quote: "The Street Food Safari was both entertaining and educational. Patrick Foster has a gift for storytelling that brings Boston's history to life.",
+    author: "Khalid White",
+    title: "A Walk That Changed Everything",
+    rating: 4.5,
+    date: "2023-02-05"
   },
   {
     id: "testimonial-tour-boston-3-13",
-    quote: "I thought I knew Boston, but this tour proved otherwise. Diego Fisher showed us a side we’d never seen.",
-    author: "Sarah Harper",
-    title: "We’ll Never Forget This"
+    quote: "We left the Street Food Safari feeling more connected to Boston than we ever expected.",
+    author: "Aaron Lee",
+    title: "A Journey Through Boston's Secrets",
+    rating: 4.7,
+    date: "2017-05-17"
   },
   {
     id: "testimonial-tour-boston-3-14",
-    quote: "Our family loved every moment of the Street Food Safari. Diego Fisher even made it fun for our kids.",
-    author: "Maria Price",
-    title: "Bought the T-Shirt, Took the Tour, Loved It"
+    quote: "From start to finish, the experience felt curated and special. Hats off to Patrick Foster.",
+    author: "Rebecca Baker",
+    title: "A New Favorite Memory",
+    rating: 4.4,
+    date: "2020-07-06"
+  },
+  {
+    id: "testimonial-tour-boston-3-15",
+    quote: "This tour gave us a much deeper connection to Boston. Patrick Foster's passion really shines through.",
+    author: "Layla Anderson",
+    title: "A Unique Way to Explore Boston",
+    rating: 4.6,
+    date: "2017-11-09"
   }
 ];

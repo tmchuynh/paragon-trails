@@ -3,74 +3,74 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const panoramicCityTourTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-rio-de-janeiro-1-1",
-    quote: "We got so much value from this tour. Ashley Bennett took us to places we would have never discovered on our own.",
-    author: "Roy Kim",
-    title: "So Much More Than Expected"
+    quote: "Even our teens were engaged the entire time — James Stewart knows how to captivate a group!",
+    author: "Genesis Fox",
+    title: "A Day to Remember",
+    rating: 4,
+    date: "2018-03-25"
   },
   {
     id: "testimonial-tour-rio-de-janeiro-1-2",
-    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Ashley Bennett.",
-    author: "Adeline Campbell",
-    title: "History, Snacks, and Laughs—Yes Please!"
+    quote: "My brother and I agreed this was the best part of our entire trip to Rio De Janeiro.",
+    author: "George Wells",
+    title: "History Comes Alive",
+    rating: 4.3,
+    date: "2022-11-02"
   },
   {
     id: "testimonial-tour-rio-de-janeiro-1-3",
-    quote: "From start to finish, the experience felt curated and special. Hats off to Ashley Bennett.",
-    author: "Kimberly Carpenter",
-    title: "Absolutely Fantastic!"
+    quote: "What an engaging experience! James Stewart kept us laughing and learning throughout the Panoramic City Tour.",
+    author: "Angela Dunn",
+    title: "Incredible from Start to Finish",
+    rating: 4.5,
+    date: "2020-11-19"
   },
   {
     id: "testimonial-tour-rio-de-janeiro-1-4",
-    quote: "The pace was perfect, the content was rich, and Ashley Bennett made every stop memorable.",
-    author: "Jane Wilson",
-    title: "Where Magic Meets Cobblestone"
+    quote: "The Panoramic City Tour was the highlight of our trip to Rio De Janeiro. James Stewart took us to all the best spots and shared fascinating stories.",
+    author: "Antonio Lewis",
+    title: "A Walk That Will Make You See Rio De Janeiro Differently",
+    rating: 3.7,
+    date: "2021-07-20"
   },
   {
     id: "testimonial-tour-rio-de-janeiro-1-5",
-    quote: "This tour gave us a much deeper connection to Rio De Janeiro. Ashley Bennett's passion really shines through.",
-    author: "Rachel Cooper",
-    title: "Beyond Our Expectations"
+    quote: "I thought I knew Rio De Janeiro, but this tour proved otherwise. James Stewart showed us a side we’d never seen.",
+    author: "Joe Hunter",
+    title: "A Tour That Feels Like a Movie",
+    rating: 4,
+    date: "2019-07-03"
   },
   {
     id: "testimonial-tour-rio-de-janeiro-1-6",
-    quote: "The pace was perfect, the content was rich, and Ashley Bennett made every stop memorable.",
-    author: "Jack Hayes",
-    title: "So Much More Than Expected"
+    quote: "As someone who's been to Rio De Janeiro before, I was surprised at how much I learned on the Panoramic City Tour. James Stewart is a treasure trove of information!",
+    author: "Kimberly Ivanov",
+    title: "Fun, Friendly, and Full of Insight",
+    rating: 4.9,
+    date: "2022-12-06"
   },
   {
     id: "testimonial-tour-rio-de-janeiro-1-7",
-    quote: "So much fun, and so informative! Ashley Bennett's enthusiasm is contagious.",
-    author: "Jessica Chen",
-    title: "More Enchanting Than Expected"
+    quote: "Highly recommend this tour if you want more than just a photo op — James Stewart gives you real insight into Rio De Janeiro.",
+    author: "Raymond Gibson",
+    title: "Lost in Time—in the Best Way",
+    rating: 3.5,
+    date: "2021-05-04"
   },
   {
     id: "testimonial-tour-rio-de-janeiro-1-8",
-    quote: "We joined the Panoramic City Tour on our first day in Rio De Janeiro, and it set the tone for a fantastic trip.",
-    author: "Hiroshi Moore",
-    title: "A Deep Dive into Local Culture"
+    quote: "This tour was absolutely amazing! James Stewart knew everything about Rio De Janeiro and showed us places we would have never found on our own.",
+    author: "Betty da Costa",
+    title: "Whispers of the Past, Echoes of Joy",
+    rating: 4.5,
+    date: "2022-10-27"
   },
   {
     id: "testimonial-tour-rio-de-janeiro-1-9",
-    quote: "If you're visiting Rio De Janeiro, the Panoramic City Tour is a must! Ashley Bennett made the history come alive in a way guidebooks never could.",
-    author: "Jennifer King",
-    title: "Highly Recommend to Everyone"
-  },
-  {
-    id: "testimonial-tour-rio-de-janeiro-1-10",
-    quote: "What a fantastic way to start our stay in Rio De Janeiro. Ashley Bennett gave us a great foundation for exploring more on our own.",
-    author: "Kenneth Watson",
-    title: "Highlight of Our Trip"
-  },
-  {
-    id: "testimonial-tour-rio-de-janeiro-1-11",
-    quote: "I felt like I was being shown around by a friend who knows all the secrets of Rio De Janeiro.",
-    author: "Carol Fletcher",
-    title: "A Deep Dive into Local Culture"
-  },
-  {
-    id: "testimonial-tour-rio-de-janeiro-1-12",
-    quote: "Such a memorable way to explore Rio De Janeiro. The mix of history, local culture, and stories was perfect.",
-    author: "Benjamin Hamilton",
-    title: "Incredible from Start to Finish"
+    quote: "My uncle and I didn’t want the tour to end. James Stewart is that engaging and informative.",
+    author: "Jeffrey Douglas",
+    title: "A Walk That Will Make You Laugh",
+    rating: 4,
+    date: "2023-09-10"
   }
 ];

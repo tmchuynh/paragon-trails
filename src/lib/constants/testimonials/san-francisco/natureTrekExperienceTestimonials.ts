@@ -3,80 +3,114 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const natureTrekExperienceTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-san-francisco-3-1",
-    quote: "Absolutely worth it. Hiroshi Douglas took care of everything so we could just relax and enjoy San Francisco.",
-    author: "Juan Wood",
-    title: "Local Experience Made Easy"
+    quote: "I was nervous about joining a group tour, but Liam West made everyone feel like part of the crew.",
+    author: "Andrew Gonzalez",
+    title: "Learned So Much!",
+    rating: 4.4,
+    date: "2020-11-22"
   },
   {
     id: "testimonial-tour-san-francisco-3-2",
-    quote: "So much fun, and so informative! Hiroshi Douglas's enthusiasm is contagious.",
-    author: "Oliver Jackson",
-    title: "A Deep Dive into Local Culture"
+    quote: "The stories, the hidden gems, the expert navigation — Liam West delivered on all fronts.",
+    author: "Pamela Williams",
+    title: "A Tour That Feels Like Home",
+    rating: 3.9,
+    date: "2025-03-26"
   },
   {
     id: "testimonial-tour-san-francisco-3-3",
-    quote: "Hiroshi Douglas made learning about San Francisco's history genuinely exciting — not an easy task!",
-    author: "Sebastian Hudson",
-    title: "Exceptional Tour Guide"
+    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Liam West!",
+    author: "Naomi Wood",
+    title: "A Walk That Will Make You Want to Stay",
+    rating: 3.9,
+    date: "2017-09-04"
   },
   {
     id: "testimonial-tour-san-francisco-3-4",
-    quote: "We joined the Nature Trek Experience on our first day in San Francisco, and it set the tone for a fantastic trip.",
-    author: "Chen Khan",
-    title: "Better Than My Last Tinder Date"
+    quote: "My partner and I agreed this was the best part of our entire trip to San Francisco.",
+    author: "Philip Young",
+    title: "The Walking Was Free—The Laughs Were Priceless",
+    rating: 3.9,
+    date: "2020-08-16"
   },
   {
     id: "testimonial-tour-san-francisco-3-5",
-    quote: "This was not just sightseeing — it was a deep dive into the heart of San Francisco thanks to Hiroshi Douglas.",
-    author: "Sarah Price",
-    title: "Impressive and Informative"
+    quote: "I was nervous about joining a group tour, but Liam West made everyone feel like part of the crew.",
+    author: "Avery Wallace",
+    title: "Don't Miss This Tour!",
+    rating: 4.8,
+    date: "2023-05-23"
   },
   {
     id: "testimonial-tour-san-francisco-3-6",
-    quote: "The small group size and personal attention from Hiroshi Douglas made all the difference.",
-    author: "Henry Day",
-    title: "Beyond Our Expectations"
+    quote: "From beginning to end, the Nature Trek Experience was seamless and so well organized.",
+    author: "Audrey Holloway",
+    title: "A Journey Through San Francisco's Heart",
+    rating: 4.5,
+    date: "2022-04-12"
   },
   {
     id: "testimonial-tour-san-francisco-3-7",
-    quote: "The pace was perfect, the content was rich, and Hiroshi Douglas made every stop memorable.",
-    author: "Allison Thomas",
-    title: "One of the Best Tours We've Taken"
+    quote: "If you're visiting San Francisco, the Nature Trek Experience is a must! Liam West made the history come alive in a way guidebooks never could.",
+    author: "Mia Nakamura",
+    title: "Fascinating and Fun",
+    rating: 3.8,
+    date: "2021-06-16"
   },
   {
     id: "testimonial-tour-san-francisco-3-8",
-    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Hiroshi Douglas!",
-    author: "Jose Williams",
-    title: "More Enchanting Than Expected"
+    quote: "The Nature Trek Experience completely changed how I see San Francisco. Liam West's insights were invaluable.",
+    author: "Louis Reed",
+    title: "A Journey Through San Francisco's Hidden Treasures",
+    rating: 3.6,
+    date: "2018-02-07"
   },
   {
     id: "testimonial-tour-san-francisco-3-9",
-    quote: "We booked last-minute and are so glad we did. Hiroshi Douglas made it one of our favorite memories from San Francisco.",
-    author: "Joseph Graham",
-    title: "Sunlight, Stories, and Serendipity"
+    quote: "I've been on many tours, but this one stands out. Liam West was passionate, knowledgeable, and made everyone feel welcome.",
+    author: "Edward Curtis",
+    title: "Well Worth Your Time",
+    rating: 4.1,
+    date: "2021-04-18"
   },
   {
     id: "testimonial-tour-san-francisco-3-10",
-    quote: "I can't recommend the Nature Trek Experience enough. Hiroshi Douglas was phenomenal, and the experience was worth every penny.",
-    author: "Layla Williams",
-    title: "The Walking Was Free—The Laughs Were Priceless"
+    quote: "Such a memorable way to explore San Francisco. The mix of history, local culture, and stories was perfect.",
+    author: "Angela Mitchell",
+    title: "Brought San Francisco to Life",
+    rating: 3.7,
+    date: "2020-11-24"
   },
   {
     id: "testimonial-tour-san-francisco-3-11",
-    quote: "I've been on many tours, but this one stands out. Hiroshi Douglas was passionate, knowledgeable, and made everyone feel welcome.",
-    author: "Patrick Morgan",
-    title: "The Best Way to See San Francisco"
+    quote: "The Nature Trek Experience was the highlight of our trip to San Francisco. Liam West took us to all the best spots and shared fascinating stories.",
+    author: "Lucas Moore",
+    title: "A Hidden Gem of a Tour",
+    rating: 3.8,
+    date: "2018-05-20"
   },
   {
     id: "testimonial-tour-san-francisco-3-12",
-    quote: "We loved every minute of the Nature Trek Experience. Hiroshi Douglas's local tips were priceless.",
-    author: "Kimberly Graham",
-    title: "Sunlight, Stories, and Serendipity"
+    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Liam West.",
+    author: "William Singh",
+    title: "Loved Every Minute",
+    rating: 3.7,
+    date: "2024-04-30"
   },
   {
     id: "testimonial-tour-san-francisco-3-13",
-    quote: "The Nature Trek Experience was the highlight of our trip to San Francisco. Hiroshi Douglas took us to all the best spots and shared fascinating stories.",
-    author: "Emma Rodriguez",
-    title: "The Real San Francisco Experience"
+    quote: "Liam West made learning about San Francisco's history genuinely exciting — not an easy task!",
+    author: "Priya Gonzalez",
+    title: "The Perfect Introduction to San Francisco",
+    rating: 4.6,
+    date: "2021-02-11"
+  },
+  {
+    id: "testimonial-tour-san-francisco-3-14",
+    quote: "As a solo traveler, I felt completely comfortable on this tour. Liam West created a friendly atmosphere from the start.",
+    author: "Jeffrey Morales",
+    title: "Impressive and Informative",
+    rating: 4.4,
+    date: "2017-10-22"
   }
 ];

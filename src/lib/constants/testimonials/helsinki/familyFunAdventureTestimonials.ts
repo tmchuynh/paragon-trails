@@ -3,68 +3,82 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const familyFunAdventureTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-helsinki-6-1",
-    quote: "If you're visiting Helsinki, the Family Fun Adventure is a must! Fatima Garcia made the history come alive in a way guidebooks never could.",
-    author: "Laura Cooper",
-    title: "An Unexpected Highlight"
+    quote: "This tour gave us a much deeper connection to Helsinki. Louis Carpenter's passion really shines through.",
+    author: "Wei Wilson",
+    title: "A Walk That Will Make You Laugh",
+    rating: 4.2,
+    date: "2018-10-18"
   },
   {
     id: "testimonial-tour-helsinki-6-2",
-    quote: "What an engaging experience! Fatima Garcia kept us laughing and learning throughout the Family Fun Adventure.",
-    author: "Eugene Baker",
-    title: "History, Snacks, and Laughs—Yes Please!"
+    quote: "We got so much value from this tour. Louis Carpenter took us to places we would have never discovered on our own.",
+    author: "Sandra Price",
+    title: "Loved Every Minute",
+    rating: 4.2,
+    date: "2024-11-07"
   },
   {
     id: "testimonial-tour-helsinki-6-3",
-    quote: "From start to finish, the experience felt curated and special. Hats off to Fatima Garcia.",
-    author: "Audrey Cooper",
-    title: "Fun, Friendly, and Full of Insight"
+    quote: "Thanks to Louis Carpenter, we discovered parts of Helsinki we would have never seen on our own.",
+    author: "Sophia Anderson",
+    title: "A Journey Through Helsinki's Magic",
+    rating: 4.1,
+    date: "2024-04-19"
   },
   {
     id: "testimonial-tour-helsinki-6-4",
-    quote: "Thanks to Fatima Garcia, we discovered parts of Helsinki we would have never seen on our own.",
-    author: "Victor Bennett",
-    title: "Lost in Time—in the Best Way"
+    quote: "If you're visiting Helsinki, the Family Fun Adventure is a must! Louis Carpenter made the history come alive in a way guidebooks never could.",
+    author: "Skylar Day",
+    title: "A Tour That Feels Like a Hug",
+    rating: 4.4,
+    date: "2023-09-17"
   },
   {
     id: "testimonial-tour-helsinki-6-5",
-    quote: "So much fun, and so informative! Fatima Garcia's enthusiasm is contagious.",
-    author: "Ronald Price",
-    title: "Entertaining and Educational"
+    quote: "What a fantastic way to start our stay in Helsinki. Louis Carpenter gave us a great foundation for exploring more on our own.",
+    author: "Luis Morgan",
+    title: "Best Decision of Our Trip",
+    rating: 3.9,
+    date: "2023-11-13"
   },
   {
     id: "testimonial-tour-helsinki-6-6",
-    quote: "As someone who's been to Helsinki before, I was surprised at how much I learned on the Family Fun Adventure. Fatima Garcia is a treasure trove of information!",
-    author: "Kinsley Anderson",
-    title: "A Tour Even My Teenager Liked"
+    quote: "I was nervous about joining a group tour, but Louis Carpenter made everyone feel like part of the crew.",
+    author: "David Griffin",
+    title: "A Journey Through Helsinki's Charm",
+    rating: 4.8,
+    date: "2023-08-25"
   },
   {
     id: "testimonial-tour-helsinki-6-7",
-    quote: "Even our teens were engaged the entire time — Fatima Garcia knows how to captivate a group!",
-    author: "Harper Chambers",
-    title: "Learned So Much!"
+    quote: "I've been on many tours, but this one stands out. Louis Carpenter was passionate, knowledgeable, and made everyone feel welcome.",
+    author: "Priya Martin",
+    title: "A Walk That Will Make You Want to Explore More",
+    rating: 3.9,
+    date: "2019-11-06"
   },
   {
     id: "testimonial-tour-helsinki-6-8",
-    quote: "We loved every minute of the Family Fun Adventure. Fatima Garcia's local tips were priceless.",
-    author: "Jack Jennings",
-    title: "If Cities Had Souls, Helsinki Sang to Us"
+    quote: "One of the best decisions of our trip! Louis Carpenter is a fantastic guide and brought incredible energy to the tour.",
+    author: "Melissa Jennings",
+    title: "Entertaining and Educational",
+    rating: 4.7,
+    date: "2021-08-21"
   },
   {
     id: "testimonial-tour-helsinki-6-9",
-    quote: "The Family Fun Adventure was both entertaining and educational. Fatima Garcia has a gift for storytelling that brings Helsinki's history to life.",
-    author: "Chen Keller",
-    title: "Outstanding in Every Way"
+    quote: "This tour gave us a much deeper connection to Helsinki. Louis Carpenter's passion really shines through.",
+    author: "Benjamin Cooper",
+    title: "Unforgettable Experience",
+    rating: 4.9,
+    date: "2019-04-28"
   },
   {
     id: "testimonial-tour-helsinki-6-10",
-    quote: "If you're visiting Helsinki, the Family Fun Adventure is a must! Fatima Garcia made the history come alive in a way guidebooks never could.",
-    author: "Sebastian Kowalski",
-    title: "Exceptional Tour Guide"
-  },
-  {
-    id: "testimonial-tour-helsinki-6-11",
-    quote: "We booked last-minute and are so glad we did. Fatima Garcia made it one of our favorite memories from Helsinki.",
-    author: "Ashley Williams",
-    title: "Insider's Perspective"
+    quote: "It felt like a private tour, even though we were with a group. Louis Carpenter is incredibly engaging.",
+    author: "Angela Brown",
+    title: "If Cities Had Souls, Helsinki Sang to Us",
+    rating: 4.3,
+    date: "2023-08-13"
   }
 ];

@@ -3,50 +3,66 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const contemporaryArtJourneyTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-london-6-1",
-    quote: "Absolutely worth it. Stephanie Knight took care of everything so we could just relax and enjoy London.",
-    author: "Gregory Bennett",
-    title: "A Unique Way to Explore London"
+    quote: "Our family loved every moment of the Contemporary Art Journey. Elijah Anderson even made it fun for our kids.",
+    author: "Stella Taylor",
+    title: "Don't Miss This Tour!",
+    rating: 3.8,
+    date: "2021-08-19"
   },
   {
     id: "testimonial-tour-london-6-2",
-    quote: "This tour exceeded all my expectations. Stephanie Knight's insider knowledge made our London visit unforgettable.",
-    author: "Nomsa King",
-    title: "Highlight of Our Trip"
+    quote: "We left the Contemporary Art Journey feeling more connected to London than we ever expected.",
+    author: "Dylan West",
+    title: "A Walk That Changed Everything",
+    rating: 3.7,
+    date: "2017-12-05"
   },
   {
     id: "testimonial-tour-london-6-3",
-    quote: "I've been on many tours, but this one stands out. Stephanie Knight was passionate, knowledgeable, and made everyone feel welcome.",
-    author: "William Taylor",
-    title: "I Came, I Saw, I Took Too Many Photos"
+    quote: "What a fantastic way to start our stay in London. Elijah Anderson gave us a great foundation for exploring more on our own.",
+    author: "Paul Foster",
+    title: "We’ll Never Forget This",
+    rating: 4.1,
+    date: "2020-08-03"
   },
   {
     id: "testimonial-tour-london-6-4",
-    quote: "We got so much value from this tour. Stephanie Knight took us to places we would have never discovered on our own.",
-    author: "Scott Johnson",
-    title: "Loved Every Minute"
+    quote: "From start to finish, the experience felt curated and special. Hats off to Elijah Anderson.",
+    author: "Philip Brooks",
+    title: "One of the Best Tours We've Taken",
+    rating: 4.4,
+    date: "2024-01-27"
   },
   {
     id: "testimonial-tour-london-6-5",
-    quote: "We booked last-minute and are so glad we did. Stephanie Knight made it one of our favorite memories from London.",
-    author: "Thomas Price",
-    title: "So Glad We Did This"
+    quote: "This was not just sightseeing — it was a deep dive into the heart of London thanks to Elijah Anderson.",
+    author: "Alexander Morgan",
+    title: "A Tour to Remember",
+    rating: 4.8,
+    date: "2023-01-04"
   },
   {
     id: "testimonial-tour-london-6-6",
-    quote: "Stephanie Knight brought a depth of cultural insight that gave us a new appreciation for London.",
-    author: "Mia Fletcher",
-    title: "Followed the Guide, Found a Dream"
+    quote: "Elijah Anderson brought a depth of cultural insight that gave us a new appreciation for London.",
+    author: "Larry Wilson",
+    title: "Entertaining and Educational",
+    rating: 4.6,
+    date: "2024-05-25"
   },
   {
     id: "testimonial-tour-london-6-7",
-    quote: "Absolutely worth it. Stephanie Knight took care of everything so we could just relax and enjoy London.",
-    author: "Kyle Mitchell",
-    title: "Would Follow This Guide Into Battle"
+    quote: "As a solo traveler, I felt completely comfortable on this tour. Elijah Anderson created a friendly atmosphere from the start.",
+    author: "Roy Price",
+    title: "A Walk That Changed Everything",
+    rating: 4,
+    date: "2020-12-27"
   },
   {
     id: "testimonial-tour-london-6-8",
-    quote: "We were blown away by the depth of knowledge and warmth Stephanie Knight brought to the tour.",
-    author: "Zoe Bennett",
-    title: "The Real London Experience"
+    quote: "I thought I knew London, but this tour proved otherwise. Elijah Anderson showed us a side we’d never seen.",
+    author: "Carol Hunter",
+    title: "A Tour That Feels Like a Dream",
+    rating: 4.2,
+    date: "2021-09-30"
   }
 ];

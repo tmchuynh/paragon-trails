@@ -3,56 +3,66 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const ultimateAdventureTourTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-toronto-4-1",
-    quote: "My partner and I had the best time on this tour. Nicholas Taylor's knowledge of Toronto made it so much more special.",
-    author: "Bella Rossi",
-    title: "So Glad We Did This"
+    quote: "So much fun, and so informative! Samantha Knight's enthusiasm is contagious.",
+    author: "Anthony Day",
+    title: "A Journey Through Toronto's Magic",
+    rating: 4.6,
+    date: "2018-10-15"
   },
   {
     id: "testimonial-tour-toronto-4-2",
-    quote: "Thanks to Nicholas Taylor, we discovered parts of Toronto we would have never seen on our own.",
-    author: "Savannah Martinez",
-    title: "An Authentic Slice of Toronto"
+    quote: "Highly recommend this tour if you want more than just a photo op — Samantha Knight gives you real insight into Toronto.",
+    author: "Philip Dubois",
+    title: "A Journey Through Toronto's Hidden Treasures",
+    rating: 4.9,
+    date: "2022-06-25"
   },
   {
     id: "testimonial-tour-toronto-4-3",
-    quote: "Nicholas Taylor had such a great balance of history, fun facts, and local stories — truly a gifted guide.",
-    author: "Javier Nguyen",
-    title: "If Cities Had Souls, Toronto Sang to Us"
+    quote: "The Ultimate Adventure Tour completely changed how I see Toronto. Samantha Knight's insights were invaluable.",
+    author: "Priya Keller",
+    title: "A Deep Dive into Local Culture",
+    rating: 3.6,
+    date: "2022-04-19"
   },
   {
     id: "testimonial-tour-toronto-4-4",
-    quote: "I was nervous about joining a group tour, but Nicholas Taylor made everyone feel like part of the crew.",
-    author: "Thomas Nguyen",
-    title: "So Much More Than Expected"
+    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Samantha Knight.",
+    author: "Nathan Garcia",
+    title: "A Journey Through Toronto's Soul",
+    rating: 4.3,
+    date: "2022-08-12"
   },
   {
     id: "testimonial-tour-toronto-4-5",
-    quote: "Nicholas Taylor went above and beyond to make sure everyone had a great time on the Ultimate Adventure Tour.",
-    author: "Kenneth Kowalski",
-    title: "I Came, I Saw, I Took Too Many Photos"
+    quote: "This tour gave us a much deeper connection to Toronto. Samantha Knight's passion really shines through.",
+    author: "Aaron Müller",
+    title: "More Enchanting Than Expected",
+    rating: 4.8,
+    date: "2022-10-05"
   },
   {
     id: "testimonial-tour-toronto-4-6",
-    quote: "The Ultimate Adventure Tour was the highlight of our trip to Toronto. Nicholas Taylor took us to all the best spots and shared fascinating stories.",
-    author: "Naomi Khan",
-    title: "Fun, Friendly, and Full of Insight"
+    quote: "We booked last-minute and are so glad we did. Samantha Knight made it one of our favorite memories from Toronto.",
+    author: "Gary Fox",
+    title: "A Tour That Feels Like a Movie",
+    rating: 4,
+    date: "2017-08-17"
   },
   {
     id: "testimonial-tour-toronto-4-7",
-    quote: "The pace was perfect, the content was rich, and Nicholas Taylor made every stop memorable.",
-    author: "Isabella Fisher",
-    title: "Loved Every Minute"
+    quote: "I felt like I was being shown around by a friend who knows all the secrets of Toronto.",
+    author: "Ahmed White",
+    title: "Impressive and Informative",
+    rating: 4.4,
+    date: "2023-03-31"
   },
   {
     id: "testimonial-tour-toronto-4-8",
-    quote: "My wife and I agreed this was the best part of our entire trip to Toronto.",
-    author: "Scott Martinez",
-    title: "A Day to Remember"
-  },
-  {
-    id: "testimonial-tour-toronto-4-9",
-    quote: "Nicholas Taylor brought a depth of cultural insight that gave us a new appreciation for Toronto.",
-    author: "Lawrence Spencer",
-    title: "An Authentic Slice of Toronto"
+    quote: "We booked last-minute and are so glad we did. Samantha Knight made it one of our favorite memories from Toronto.",
+    author: "Avery Gonzalez",
+    title: "The Ultimate Toronto Tour",
+    rating: 3.9,
+    date: "2024-08-12"
   }
 ];

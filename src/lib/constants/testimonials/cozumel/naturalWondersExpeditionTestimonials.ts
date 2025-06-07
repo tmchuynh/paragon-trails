@@ -3,104 +3,98 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const naturalWondersExpeditionTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-cozumel-1-1",
-    quote: "From start to finish, the experience felt curated and special. Hats off to Dennis Johnson.",
-    author: "Isabella Young",
-    title: "Where Magic Meets Cobblestone"
+    quote: "The Natural Wonders Expedition was both entertaining and educational. Billy Porter has a gift for storytelling that brings Cozumel's history to life.",
+    author: "Peter Wang",
+    title: "History, Snacks, and Laughs—Yes Please!",
+    rating: 4.9,
+    date: "2019-01-10"
   },
   {
     id: "testimonial-tour-cozumel-1-2",
-    quote: "I was nervous about joining a group tour, but Dennis Johnson made everyone feel like part of the crew.",
-    author: "Susan Martin",
-    title: "Outstanding in Every Way"
+    quote: "As a solo traveler, I felt completely comfortable on this tour. Billy Porter created a friendly atmosphere from the start.",
+    author: "Miguel Gonzalez",
+    title: "Loved Every Minute",
+    rating: 3.7,
+    date: "2019-02-22"
   },
   {
     id: "testimonial-tour-cozumel-1-3",
-    quote: "One of the best decisions of our trip! Dennis Johnson is a fantastic guide and brought incredible energy to the tour.",
-    author: "Nora Day",
-    title: "Outstanding in Every Way"
+    quote: "My family and I agreed this was the best part of our entire trip to Cozumel.",
+    author: "Ravi Kim",
+    title: "The Ultimate Cozumel Tour",
+    rating: 4.1,
+    date: "2017-03-18"
   },
   {
     id: "testimonial-tour-cozumel-1-4",
-    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Dennis Johnson.",
-    author: "Jacob Johnson",
-    title: "Local Experience Made Easy"
+    quote: "It felt like a private tour, even though we were with a group. Billy Porter is incredibly engaging.",
+    author: "Deborah Lewis",
+    title: "History Comes Alive",
+    rating: 3.8,
+    date: "2021-08-03"
   },
   {
     id: "testimonial-tour-cozumel-1-5",
-    quote: "If you're visiting Cozumel, the Natural Wonders Expedition is a must! Dennis Johnson made the history come alive in a way guidebooks never could.",
-    author: "Javier Gonzalez",
-    title: "A Day to Remember"
+    quote: "This tour exceeded all my expectations. Billy Porter's insider knowledge made our Cozumel visit unforgettable.",
+    author: "Jeremy Hunter",
+    title: "A Unique Way to Explore Cozumel",
+    rating: 4.4,
+    date: "2019-10-27"
   },
   {
     id: "testimonial-tour-cozumel-1-6",
-    quote: "The small group size and personal attention from Dennis Johnson made all the difference.",
-    author: "Hannah Campbell",
-    title: "A Unique Way to Explore Cozumel"
+    quote: "Billy Porter is the kind of guide you want to tell your friends about. This was a five-star experience.",
+    author: "Ethan Curtis",
+    title: "Loved Every Minute",
+    rating: 4.6,
+    date: "2020-11-14"
   },
   {
     id: "testimonial-tour-cozumel-1-7",
-    quote: "This was more than just sightseeing — it was an unforgettable journey through Cozumel's culture and history.",
-    author: "Nancy Williams",
-    title: "A Deep Dive into Local Culture"
+    quote: "I was nervous about joining a group tour, but Billy Porter made everyone feel like part of the crew.",
+    author: "Patrick Kowalski",
+    title: "A Journey Through Cozumel's Hidden Treasures",
+    rating: 3.7,
+    date: "2021-05-10"
   },
   {
     id: "testimonial-tour-cozumel-1-8",
-    quote: "A truly authentic experience! Dennis Johnson showed us the real Cozumel, not just the tourist spots.",
-    author: "Maria Hernandez",
-    title: "Well Worth Your Time"
+    quote: "I was nervous about joining a group tour, but Billy Porter made everyone feel like part of the crew.",
+    author: "Chloe Anderson",
+    title: "A Walk That Will Make You Laugh",
+    rating: 4.2,
+    date: "2018-02-19"
   },
   {
     id: "testimonial-tour-cozumel-1-9",
-    quote: "A truly authentic experience! Dennis Johnson showed us the real Cozumel, not just the tourist spots.",
-    author: "Santiago Patel",
-    title: "A Must-Do in Cozumel"
+    quote: "My colleague and I didn’t want the tour to end. Billy Porter is that engaging and informative.",
+    author: "Jesse Bennett",
+    title: "A Walk That Will Make You Laugh",
+    rating: 3.7,
+    date: "2022-06-22"
   },
   {
     id: "testimonial-tour-cozumel-1-10",
-    quote: "As a solo traveler, I felt completely comfortable on this tour. Dennis Johnson created a friendly atmosphere from the start.",
-    author: "Lerato Gibson",
-    title: "Cultural Immersion at Its Best"
+    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Billy Porter.",
+    author: "David Porter",
+    title: "Beyond Our Expectations",
+    rating: 3.6,
+    date: "2017-12-12"
   },
   {
     id: "testimonial-tour-cozumel-1-11",
-    quote: "Dennis Johnson brought a depth of cultural insight that gave us a new appreciation for Cozumel.",
-    author: "Mia Kowalski",
-    title: "Entertaining and Educational"
+    quote: "I can't recommend the Natural Wonders Expedition enough. Billy Porter was phenomenal, and the experience was worth every penny.",
+    author: "Gabriel Rossi",
+    title: "A Walk That Will Make You Appreciate Cozumel More",
+    rating: 4.4,
+    date: "2020-10-21"
   },
   {
     id: "testimonial-tour-cozumel-1-12",
-    quote: "It felt like a private tour, even though we were with a group. Dennis Johnson is incredibly engaging.",
-    author: "Caroline Nakamura",
-    title: "Whispers of the Past, Echoes of Joy"
-  },
-  {
-    id: "testimonial-tour-cozumel-1-13",
-    quote: "Dennis Johnson shared personal stories that really brought Cozumel to life for us. A truly memorable tour.",
-    author: "Isabella Graham",
-    title: "Hot, Sweaty, and Absolutely Worth It"
-  },
-  {
-    id: "testimonial-tour-cozumel-1-14",
-    quote: "One of the best decisions of our trip! Dennis Johnson is a fantastic guide and brought incredible energy to the tour.",
-    author: "Elena Payne",
-    title: "An Authentic Slice of Cozumel"
-  },
-  {
-    id: "testimonial-tour-cozumel-1-15",
-    quote: "Dennis Johnson brought a depth of cultural insight that gave us a new appreciation for Cozumel.",
-    author: "Samantha Hudson",
-    title: "More Enchanting Than Expected"
-  },
-  {
-    id: "testimonial-tour-cozumel-1-16",
-    quote: "Thanks to Dennis Johnson, we discovered parts of Cozumel we would have never seen on our own.",
-    author: "Brian Gonzalez",
-    title: "Got Lost (on Purpose) with {GUIDE_NAME}"
-  },
-  {
-    id: "testimonial-tour-cozumel-1-17",
-    quote: "This tour exceeded all my expectations. Dennis Johnson's insider knowledge made our Cozumel visit unforgettable.",
-    author: "Emma Graves",
-    title: "Learned Stuff, Didn’t Cry—Success!"
+    quote: "The pace was perfect, the content was rich, and Billy Porter made every stop memorable.",
+    author: "Sophia Graves",
+    title: "Wandered Far, Wondered More",
+    rating: 4.3,
+    date: "2022-08-15"
   }
 ];

@@ -3,74 +3,74 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const culturalImmersionExperienceTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-yokohama-3-1",
-    quote: "As a solo traveler, I felt completely comfortable on this tour. Sandra Johnson created a friendly atmosphere from the start.",
-    author: "Carlos Martin",
-    title: "Outstanding in Every Way"
+    quote: "I was nervous about joining a group tour, but Keith Fox made everyone feel like part of the crew.",
+    author: "Sophia Carpenter",
+    title: "Outstanding in Every Way",
+    rating: 3.5,
+    date: "2020-04-20"
   },
   {
     id: "testimonial-tour-yokohama-3-2",
-    quote: "We joined the Cultural Immersion Experience on our first day in Yokohama, and it set the tone for a fantastic trip.",
-    author: "Henry Gibson",
-    title: "More Enchanting Than Expected"
+    quote: "A truly authentic experience! Keith Fox showed us the real Yokohama, not just the tourist spots.",
+    author: "Ryan Smith",
+    title: "A Walk That Will Make You Feel Alive",
+    rating: 4.6,
+    date: "2023-02-13"
   },
   {
     id: "testimonial-tour-yokohama-3-3",
-    quote: "From beginning to end, the Cultural Immersion Experience was seamless and so well organized.",
-    author: "Marcus Warren",
-    title: "A Perfect Day in Yokohama"
+    quote: "As a solo traveler, I felt completely comfortable on this tour. Keith Fox created a friendly atmosphere from the start.",
+    author: "Stephanie Wilson",
+    title: "A Walk That Will Make You Want to Explore More",
+    rating: 4.6,
+    date: "2019-01-01"
   },
   {
     id: "testimonial-tour-yokohama-3-4",
-    quote: "One of the best decisions of our trip! Sandra Johnson is a fantastic guide and brought incredible energy to the tour.",
-    author: "Darrell Parker",
-    title: "Impressive and Informative"
+    quote: "We joined the Cultural Immersion Experience on our first day in Yokohama, and it set the tone for a fantastic trip.",
+    author: "Blake Hunter",
+    title: "A Walk That Will Make You Appreciate Yokohama More",
+    rating: 4.2,
+    date: "2022-07-06"
   },
   {
     id: "testimonial-tour-yokohama-3-5",
-    quote: "Thanks to Sandra Johnson, we discovered parts of Yokohama we would have never seen on our own.",
-    author: "George Suzuki",
-    title: "Hot, Sweaty, and Absolutely Worth It"
+    quote: "I wasn’t expecting to enjoy this tour so much, but Keith Fox made it the highlight of our trip.",
+    author: "Harper Garcia",
+    title: "A Walk That Will Make You Believe in Magic",
+    rating: 4.4,
+    date: "2020-04-08"
   },
   {
     id: "testimonial-tour-yokohama-3-6",
-    quote: "We were blown away by the depth of knowledge and warmth Sandra Johnson brought to the tour.",
-    author: "Betty Wang",
-    title: "Brought Yokohama to Life"
+    quote: "Keith Fox is the kind of guide you want to tell your friends about. This was a five-star experience.",
+    author: "Isabella Dixon",
+    title: "Learned So Much!",
+    rating: 4.1,
+    date: "2020-04-28"
   },
   {
     id: "testimonial-tour-yokohama-3-7",
-    quote: "I can't recommend the Cultural Immersion Experience enough. Sandra Johnson was phenomenal, and the experience was worth every penny.",
-    author: "Leah Davis",
-    title: "Cultural Immersion at Its Best"
+    quote: "I’ve taken dozens of tours in different countries. Keith Fox ranks among the very best.",
+    author: "Alexander Smith",
+    title: "We’ll Never Forget This",
+    rating: 4,
+    date: "2024-10-09"
   },
   {
     id: "testimonial-tour-yokohama-3-8",
-    quote: "Such a memorable way to explore Yokohama. The mix of history, local culture, and stories was perfect.",
-    author: "James Graves",
-    title: "A Must-Do in Yokohama"
+    quote: "The pace was perfect, the content was rich, and Keith Fox made every stop memorable.",
+    author: "Amelia Carpenter",
+    title: "A Stroll Through a Living Storybook",
+    rating: 3.9,
+    date: "2023-10-22"
   },
   {
     id: "testimonial-tour-yokohama-3-9",
-    quote: "We joined the Cultural Immersion Experience on our first day in Yokohama, and it set the tone for a fantastic trip.",
-    author: "Amy Gardner",
-    title: "Local Experience Made Easy"
-  },
-  {
-    id: "testimonial-tour-yokohama-3-10",
-    quote: "The Cultural Immersion Experience completely changed how I see Yokohama. Sandra Johnson's insights were invaluable.",
-    author: "Harper Douglas",
-    title: "Brought Yokohama to Life"
-  },
-  {
-    id: "testimonial-tour-yokohama-3-11",
-    quote: "It felt like a private tour, even though we were with a group. Sandra Johnson is incredibly engaging.",
-    author: "Jack Gardner",
-    title: "Impressive and Informative"
-  },
-  {
-    id: "testimonial-tour-yokohama-3-12",
-    quote: "What a fantastic way to start our stay in Yokohama. Sandra Johnson gave us a great foundation for exploring more on our own.",
-    author: "Alan Reeves",
-    title: "A Tour Even My Teenager Liked"
+    quote: "Keith Fox's enthusiasm for Yokohama was contagious. We walked away feeling inspired.",
+    author: "William Brooks",
+    title: "A Walk That Will Make You Smile",
+    rating: 4.8,
+    date: "2019-05-02"
   }
 ];

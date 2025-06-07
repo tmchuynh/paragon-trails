@@ -3,74 +3,106 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const timeTravelersTourTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-florence-7-1",
-    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Kennedy Müller.",
-    author: "Isabella Hernandez",
-    title: "The Walking Was Free—The Laughs Were Priceless"
+    quote: "The small group size and personal attention from Sandra Grant made all the difference.",
+    author: "Ronald Wright",
+    title: "Highly Recommend to Everyone",
+    rating: 4.7,
+    date: "2022-10-20"
   },
   {
     id: "testimonial-tour-florence-7-2",
-    quote: "We got so much value from this tour. Kennedy Müller took us to places we would have never discovered on our own.",
-    author: "Angela Nash",
-    title: "Where Magic Meets Cobblestone"
+    quote: "Sandra Grant went above and beyond to make sure everyone had a great time on the Time Traveler's Tour.",
+    author: "Maya Hunter",
+    title: "Memorable from the First Step",
+    rating: 4.7,
+    date: "2017-12-30"
   },
   {
     id: "testimonial-tour-florence-7-3",
-    quote: "Highly recommend this tour if you want more than just a photo op — Kennedy Müller gives you real insight into Florence.",
-    author: "Priya Crawford",
-    title: "History Comes Alive"
+    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Sandra Grant.",
+    author: "Mohamed King",
+    title: "Hot, Sweaty, and Absolutely Worth It",
+    rating: 4.3,
+    date: "2023-01-15"
   },
   {
     id: "testimonial-tour-florence-7-4",
-    quote: "We’ll be recommending the Time Traveler's Tour to all our friends. Kennedy Müller made it that special.",
-    author: "Sophia Foster",
-    title: "A Tour Even My Teenager Liked"
+    quote: "Sandra Grant's enthusiasm for Florence was contagious. We walked away feeling inspired.",
+    author: "Nomsa Harris",
+    title: "A Walk That Will Make You Feel Alive",
+    rating: 4.3,
+    date: "2019-02-27"
   },
   {
     id: "testimonial-tour-florence-7-5",
-    quote: "Kennedy Müller shared personal stories that really brought Florence to life for us. A truly memorable tour.",
-    author: "Gabriel Wood",
-    title: "Highly Recommend to Everyone"
+    quote: "It felt like a private tour, even though we were with a group. Sandra Grant is incredibly engaging.",
+    author: "Harold Harris",
+    title: "A Journey Through Florence's Wonders",
+    rating: 4.4,
+    date: "2022-11-10"
   },
   {
     id: "testimonial-tour-florence-7-6",
-    quote: "We got so much value from this tour. Kennedy Müller took us to places we would have never discovered on our own.",
-    author: "Lisa Patel",
-    title: "History Comes Alive"
+    quote: "The stories, the hidden gems, the expert navigation — Sandra Grant delivered on all fronts.",
+    author: "Charlotte Henderson",
+    title: "A Deep Dive into Local Culture",
+    rating: 4.1,
+    date: "2017-04-14"
   },
   {
     id: "testimonial-tour-florence-7-7",
-    quote: "We joined the Time Traveler's Tour on our first day in Florence, and it set the tone for a fantastic trip.",
-    author: "Michael Anderson",
-    title: "The Walking Was Free—The Laughs Were Priceless"
+    quote: "Sandra Grant was incredibly accommodating and answered every question with patience and detail.",
+    author: "Thandiwe Maxwell",
+    title: "An Unexpected Highlight",
+    rating: 4.6,
+    date: "2023-02-08"
   },
   {
     id: "testimonial-tour-florence-7-8",
-    quote: "We’ll be recommending the Time Traveler's Tour to all our friends. Kennedy Müller made it that special.",
-    author: "Jack Reeves",
-    title: "Well Worth Your Time"
+    quote: "It felt like a private tour, even though we were with a group. Sandra Grant is incredibly engaging.",
+    author: "Joshua Lawson",
+    title: "Beyond Our Expectations",
+    rating: 4,
+    date: "2021-02-06"
   },
   {
     id: "testimonial-tour-florence-7-9",
-    quote: "As a solo traveler, I felt completely comfortable on this tour. Kennedy Müller created a friendly atmosphere from the start.",
-    author: "Rachel Price",
-    title: "More Enchanting Than Expected"
+    quote: "This tour gave us a much deeper connection to Florence. Sandra Grant's passion really shines through.",
+    author: "Genesis Ellis",
+    title: "Exceptional Tour Guide",
+    rating: 4.7,
+    date: "2020-10-31"
   },
   {
     id: "testimonial-tour-florence-7-10",
-    quote: "I felt like I was being shown around by a friend who knows all the secrets of Florence.",
-    author: "Lerato Collins",
-    title: "A Tour Even My Teenager Liked"
+    quote: "I was nervous about joining a group tour, but Sandra Grant made everyone feel like part of the crew.",
+    author: "Raymond Lopez",
+    title: "A Journey Through Florence's Magic",
+    rating: 3.9,
+    date: "2023-09-25"
   },
   {
     id: "testimonial-tour-florence-7-11",
-    quote: "I've been on many tours, but this one stands out. Kennedy Müller was passionate, knowledgeable, and made everyone feel welcome.",
-    author: "Rajesh Nguyen",
-    title: "The Walking Was Free—The Laughs Were Priceless"
+    quote: "Highly recommend this tour if you want more than just a photo op — Sandra Grant gives you real insight into Florence.",
+    author: "Carol Palmer",
+    title: "A Journey Through Florence's Wonders",
+    rating: 4.3,
+    date: "2021-01-04"
   },
   {
     id: "testimonial-tour-florence-7-12",
-    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Kennedy Müller.",
-    author: "Diego Cooper",
-    title: "History, Snacks, and Laughs—Yes Please!"
+    quote: "As someone who's been to Florence before, I was surprised at how much I learned on the Time Traveler's Tour. Sandra Grant is a treasure trove of information!",
+    author: "Alexander Gonzalez",
+    title: "A Walk That Will Make You Believe in Magic",
+    rating: 4,
+    date: "2023-06-28"
+  },
+  {
+    id: "testimonial-tour-florence-7-13",
+    quote: "My wife and I had the best time on this tour. Sandra Grant's knowledge of Florence made it so much more special.",
+    author: "Eric Stewart",
+    title: "Top-Notch Guiding",
+    rating: 4.5,
+    date: "2018-08-10"
   }
 ];

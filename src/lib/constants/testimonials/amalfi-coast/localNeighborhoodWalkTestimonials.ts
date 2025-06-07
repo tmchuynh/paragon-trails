@@ -3,80 +3,66 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const localNeighborhoodWalkTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-amalfi-coast-4-1",
-    quote: "I wasn’t expecting to enjoy this tour so much, but Ethan Rossi made it the highlight of our trip.",
-    author: "Helen Fletcher",
-    title: "Memorable from the First Step"
+    quote: "A truly authentic experience! Diego Fisher showed us the real Amalfi Coast, not just the tourist spots.",
+    author: "Lily Johnson",
+    title: "So Glad We Did This",
+    rating: 3.9,
+    date: "2020-04-16"
   },
   {
     id: "testimonial-tour-amalfi-coast-4-2",
-    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Ethan Rossi!",
-    author: "Laura Foster",
-    title: "Whispers of the Past, Echoes of Joy"
+    quote: "The stories, the hidden gems, the expert navigation — Diego Fisher delivered on all fronts.",
+    author: "Henry Rossi",
+    title: "An Unexpected Highlight",
+    rating: 3.7,
+    date: "2021-08-21"
   },
   {
     id: "testimonial-tour-amalfi-coast-4-3",
-    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Ethan Rossi.",
-    author: "Thandiwe Jackson",
-    title: "Brought Amalfi Coast to Life"
+    quote: "Thanks to Diego Fisher, we discovered parts of Amalfi Coast we would have never seen on our own.",
+    author: "Bella Brooks",
+    title: "Lost in Time—in the Best Way",
+    rating: 4.8,
+    date: "2024-12-30"
   },
   {
     id: "testimonial-tour-amalfi-coast-4-4",
-    quote: "I thought I knew Amalfi Coast, but this tour proved otherwise. Ethan Rossi showed us a side we’d never seen.",
-    author: "Joan Davis",
-    title: "More Enchanting Than Expected"
+    quote: "Diego Fisher shared personal stories that really brought Amalfi Coast to life for us. A truly memorable tour.",
+    author: "Rajesh Stewart",
+    title: "A Walk That Will Stay with You",
+    rating: 3.6,
+    date: "2020-01-07"
   },
   {
     id: "testimonial-tour-amalfi-coast-4-5",
-    quote: "What an engaging experience! Ethan Rossi kept us laughing and learning throughout the Local Neighborhood Walk.",
-    author: "Carol Spencer",
-    title: "The Best Way to See Amalfi Coast"
+    quote: "Diego Fisher made learning about Amalfi Coast's history genuinely exciting — not an easy task!",
+    author: "Sophia Gibson",
+    title: "A Walk That Will Make You Think",
+    rating: 3.9,
+    date: "2024-07-03"
   },
   {
     id: "testimonial-tour-amalfi-coast-4-6",
-    quote: "One of the best decisions of our trip! Ethan Rossi is a fantastic guide and brought incredible energy to the tour.",
-    author: "Willie Dixon",
-    title: "Absolutely Fantastic!"
+    quote: "A truly authentic experience! Diego Fisher showed us the real Amalfi Coast, not just the tourist spots.",
+    author: "Jacob Wright",
+    title: "The Best Way to See Amalfi Coast",
+    rating: 3.9,
+    date: "2022-06-18"
   },
   {
     id: "testimonial-tour-amalfi-coast-4-7",
-    quote: "As a solo traveler, I felt completely comfortable on this tour. Ethan Rossi created a friendly atmosphere from the start.",
-    author: "Liam Jackson",
-    title: "Unforgettable Experience"
+    quote: "This tour gave us a much deeper connection to Amalfi Coast. Diego Fisher's passion really shines through.",
+    author: "Boris Wood",
+    title: "Hidden Gems of Amalfi Coast",
+    rating: 4.2,
+    date: "2024-09-27"
   },
   {
     id: "testimonial-tour-amalfi-coast-4-8",
-    quote: "We were blown away by the depth of knowledge and warmth Ethan Rossi brought to the tour.",
-    author: "Sean Silva",
-    title: "Absolutely Fantastic!"
-  },
-  {
-    id: "testimonial-tour-amalfi-coast-4-9",
-    quote: "Such a memorable way to explore Amalfi Coast. The mix of history, local culture, and stories was perfect.",
-    author: "Nancy Warren",
-    title: "Loved Every Minute"
-  },
-  {
-    id: "testimonial-tour-amalfi-coast-4-10",
-    quote: "Such a memorable way to explore Amalfi Coast. The mix of history, local culture, and stories was perfect.",
-    author: "Amy Dunn",
-    title: "Don't Miss This Tour!"
-  },
-  {
-    id: "testimonial-tour-amalfi-coast-4-11",
-    quote: "From beginning to end, the Local Neighborhood Walk was seamless and so well organized.",
-    author: "Mei Johnson",
-    title: "Bought the T-Shirt, Took the Tour, Loved It"
-  },
-  {
-    id: "testimonial-tour-amalfi-coast-4-12",
-    quote: "I've been on many tours, but this one stands out. Ethan Rossi was passionate, knowledgeable, and made everyone feel welcome.",
-    author: "Barbara Lewis",
-    title: "Exceptional Tour Guide"
-  },
-  {
-    id: "testimonial-tour-amalfi-coast-4-13",
-    quote: "Ethan Rossi had such a great balance of history, fun facts, and local stories — truly a gifted guide.",
-    author: "John Henderson",
-    title: "Best Tour in Amalfi Coast"
+    quote: "Diego Fisher is the kind of guide you want to tell your friends about. This was a five-star experience.",
+    author: "Elena Foster",
+    title: "Got Lost (on Purpose) with {GUIDE_NAME}",
+    rating: 4.4,
+    date: "2023-05-24"
   }
 ];

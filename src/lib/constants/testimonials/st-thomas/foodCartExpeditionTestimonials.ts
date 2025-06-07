@@ -3,86 +3,66 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const foodCartExpeditionTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-st-thomas-1-1",
-    quote: "We loved every minute of the Food Cart Expedition. Jason Wright's local tips were priceless.",
-    author: "Kennedy Gonzalez",
-    title: "Absolutely Fantastic!"
+    quote: "Thanks to Scarlett Knight, we discovered parts of St Thomas we would have never seen on our own.",
+    author: "Christine Martinez",
+    title: "A New Favorite Memory",
+    rating: 4.6,
+    date: "2024-10-25"
   },
   {
     id: "testimonial-tour-st-thomas-1-2",
-    quote: "This tour exceeded all my expectations. Jason Wright's insider knowledge made our St Thomas visit unforgettable.",
-    author: "Joan Khan",
-    title: "Wandered Far, Wondered More"
+    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Scarlett Knight.",
+    author: "Noah Thomas",
+    title: "A Unique Way to Explore St Thomas",
+    rating: 4.4,
+    date: "2020-10-22"
   },
   {
     id: "testimonial-tour-st-thomas-1-3",
-    quote: "From beginning to end, the Food Cart Expedition was seamless and so well organized.",
-    author: "Zola Douglas",
-    title: "The Ultimate St Thomas Tour"
+    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Scarlett Knight.",
+    author: "Sandra Maxwell",
+    title: "Felt Like a Character in a Fairytale",
+    rating: 4.8,
+    date: "2018-11-22"
   },
   {
     id: "testimonial-tour-st-thomas-1-4",
-    quote: "We were blown away by the depth of knowledge and warmth Jason Wright brought to the tour.",
-    author: "Melissa Foster",
-    title: "Highlight of Our Trip"
+    quote: "Absolutely worth it. Scarlett Knight took care of everything so we could just relax and enjoy St Thomas.",
+    author: "Alexander Ali",
+    title: "A Walk That Will Make You Smile",
+    rating: 3.7,
+    date: "2017-09-19"
   },
   {
     id: "testimonial-tour-st-thomas-1-5",
-    quote: "Our family loved every moment of the Food Cart Expedition. Jason Wright even made it fun for our kids.",
-    author: "John Lewis",
-    title: "Better Than My Last Tinder Date"
+    quote: "Even our teens were engaged the entire time — Scarlett Knight knows how to captivate a group!",
+    author: "Nathan Mitchell",
+    title: "A Walk That Changed Everything",
+    rating: 4,
+    date: "2020-12-13"
   },
   {
     id: "testimonial-tour-st-thomas-1-6",
-    quote: "The pace was perfect, the content was rich, and Jason Wright made every stop memorable.",
-    author: "Caroline Carpenter",
-    title: "Top-Notch Guiding"
+    quote: "What an engaging experience! Scarlett Knight kept us laughing and learning throughout the Food Cart Expedition.",
+    author: "Eric Sutton",
+    title: "A Day to Remember",
+    rating: 5,
+    date: "2021-08-13"
   },
   {
     id: "testimonial-tour-st-thomas-1-7",
-    quote: "As someone who's been to St Thomas before, I was surprised at how much I learned on the Food Cart Expedition. Jason Wright is a treasure trove of information!",
-    author: "Layla Chambers",
-    title: "Hidden Gems of St Thomas"
+    quote: "I’ve taken dozens of tours in different countries. Scarlett Knight ranks among the very best.",
+    author: "Julie Russell",
+    title: "We’ll Never Forget This",
+    rating: 3.5,
+    date: "2020-12-20"
   },
   {
     id: "testimonial-tour-st-thomas-1-8",
-    quote: "We had limited time in St Thomas, and this tour made sure we saw the best of it. Jason Wright was amazing.",
-    author: "Ava Mitchell",
-    title: "A Tour Even My Teenager Liked"
-  },
-  {
-    id: "testimonial-tour-st-thomas-1-9",
-    quote: "Jason Wright is the kind of guide you want to tell your friends about. This was a five-star experience.",
-    author: "Scarlett Nash",
-    title: "Loved Every Minute"
-  },
-  {
-    id: "testimonial-tour-st-thomas-1-10",
-    quote: "My cousin and I didn’t want the tour to end. Jason Wright is that engaging and informative.",
-    author: "Gabriella Mitchell",
-    title: "A Deep Dive into Local Culture"
-  },
-  {
-    id: "testimonial-tour-st-thomas-1-11",
-    quote: "We got so much value from this tour. Jason Wright took us to places we would have never discovered on our own.",
-    author: "Maya Jackson",
-    title: "A Deep Dive into Local Culture"
-  },
-  {
-    id: "testimonial-tour-st-thomas-1-12",
-    quote: "My colleague and I agreed this was the best part of our entire trip to St Thomas.",
-    author: "Henry Graham",
-    title: "Hidden Gems of St Thomas"
-  },
-  {
-    id: "testimonial-tour-st-thomas-1-13",
-    quote: "I thought I knew St Thomas, but this tour proved otherwise. Jason Wright showed us a side we’d never seen.",
-    author: "Bryan Reed",
-    title: "A Must-Do in St Thomas"
-  },
-  {
-    id: "testimonial-tour-st-thomas-1-14",
-    quote: "I’ve taken dozens of tours in different countries. Jason Wright ranks among the very best.",
-    author: "Genesis Patel",
-    title: "Followed the Guide, Found a Dream"
+    quote: "This tour is a hidden gem — just like the spots Scarlett Knight showed us around St Thomas.",
+    author: "Alexa Patel",
+    title: "So Much More Than Expected",
+    rating: 3.5,
+    date: "2018-07-22"
   }
 ];

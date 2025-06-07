@@ -3,62 +3,98 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const pedestrianDiscoveryTourTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-quebec-city-2-1",
-    quote: "What an engaging experience! Aisha Anderson kept us laughing and learning throughout the Pedestrian Discovery Tour.",
-    author: "Isabella Wang",
-    title: "Best Tour in Quebec City"
+    quote: "The Pedestrian Discovery Tour was both entertaining and educational. Miguel Ali has a gift for storytelling that brings Quebec City's history to life.",
+    author: "Janet Jackson",
+    title: "Better Than My Last Tinder Date",
+    rating: 4.9,
+    date: "2017-09-19"
   },
   {
     id: "testimonial-tour-quebec-city-2-2",
-    quote: "From beginning to end, the Pedestrian Discovery Tour was seamless and so well organized.",
-    author: "Margaret Nakamura",
-    title: "Would Follow This Guide Into Battle"
+    quote: "It felt like a private tour, even though we were with a group. Miguel Ali is incredibly engaging.",
+    author: "Elena Brown",
+    title: "A Walk That Will Make You See Quebec City Differently",
+    rating: 4.3,
+    date: "2025-02-19"
   },
   {
     id: "testimonial-tour-quebec-city-2-3",
-    quote: "We were blown away by the depth of knowledge and warmth Aisha Anderson brought to the tour.",
-    author: "Ashley Campbell",
-    title: "Brought Quebec City to Life"
+    quote: "As a solo traveler, I felt completely comfortable on this tour. Miguel Ali created a friendly atmosphere from the start.",
+    author: "Maria Jackson",
+    title: "Lost in Time—in the Best Way",
+    rating: 4.9,
+    date: "2018-11-16"
   },
   {
     id: "testimonial-tour-quebec-city-2-4",
-    quote: "So much fun, and so informative! Aisha Anderson's enthusiasm is contagious.",
-    author: "Linda Jones",
-    title: "Fun, Friendly, and Full of Insight"
+    quote: "This tour exceeded all my expectations. Miguel Ali's insider knowledge made our Quebec City visit unforgettable.",
+    author: "Fatima Clark",
+    title: "We’ll Never Forget This",
+    rating: 4.6,
+    date: "2021-07-28"
   },
   {
     id: "testimonial-tour-quebec-city-2-5",
-    quote: "What an engaging experience! Aisha Anderson kept us laughing and learning throughout the Pedestrian Discovery Tour.",
-    author: "Mateo Hall",
-    title: "Outstanding in Every Way"
+    quote: "This tour exceeded all my expectations. Miguel Ali's insider knowledge made our Quebec City visit unforgettable.",
+    author: "Richard Hawkins",
+    title: "Local Experience Made Easy",
+    rating: 3.5,
+    date: "2020-10-02"
   },
   {
     id: "testimonial-tour-quebec-city-2-6",
-    quote: "I felt like I was being shown around by a friend who knows all the secrets of Quebec City.",
-    author: "Marcus Coleman",
-    title: "A Unique Way to Explore Quebec City"
+    quote: "Our family loved every moment of the Pedestrian Discovery Tour. Miguel Ali even made it fun for our kids.",
+    author: "Barbara Müller",
+    title: "Learned Stuff, Didn’t Cry—Success!",
+    rating: 3.6,
+    date: "2020-02-11"
   },
   {
     id: "testimonial-tour-quebec-city-2-7",
-    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Aisha Anderson!",
-    author: "Ella Wells",
-    title: "An Authentic Slice of Quebec City"
+    quote: "If you only have time for one activity in Quebec City, make it the Pedestrian Discovery Tour. You won’t regret it.",
+    author: "Jonathan Gonzalez",
+    title: "Well Worth Your Time",
+    rating: 3.8,
+    date: "2018-05-24"
   },
   {
     id: "testimonial-tour-quebec-city-2-8",
-    quote: "We left the Pedestrian Discovery Tour feeling more connected to Quebec City than we ever expected.",
-    author: "Roger Crawford",
-    title: "Unforgettable Experience"
+    quote: "Miguel Ali had such a great balance of history, fun facts, and local stories — truly a gifted guide.",
+    author: "Gerald Carpenter",
+    title: "Well Worth Your Time",
+    rating: 3.9,
+    date: "2017-03-31"
   },
   {
     id: "testimonial-tour-quebec-city-2-9",
-    quote: "If you're visiting Quebec City, the Pedestrian Discovery Tour is a must! Aisha Anderson made the history come alive in a way guidebooks never could.",
-    author: "Omar Spencer",
-    title: "One of the Best Tours We've Taken"
+    quote: "I’ve taken dozens of tours in different countries. Miguel Ali ranks among the very best.",
+    author: "Patrick Hernandez",
+    title: "Lost in Time—in the Best Way",
+    rating: 4.5,
+    date: "2024-09-27"
   },
   {
     id: "testimonial-tour-quebec-city-2-10",
-    quote: "I can't recommend the Pedestrian Discovery Tour enough. Aisha Anderson was phenomenal, and the experience was worth every penny.",
-    author: "Joseph Holloway",
-    title: "A Must-Do in Quebec City"
+    quote: "Even the locals in our group said they learned something new. That says a lot about Miguel Ali's depth.",
+    author: "Philip Nakamura",
+    title: "A Tour Even My Teenager Liked",
+    rating: 4.1,
+    date: "2022-02-24"
+  },
+  {
+    id: "testimonial-tour-quebec-city-2-11",
+    quote: "What an engaging experience! Miguel Ali kept us laughing and learning throughout the Pedestrian Discovery Tour.",
+    author: "Layla Lee",
+    title: "Fun, Friendly, and Full of Insight",
+    rating: 3.5,
+    date: "2022-08-01"
+  },
+  {
+    id: "testimonial-tour-quebec-city-2-12",
+    quote: "I can't recommend the Pedestrian Discovery Tour enough. Miguel Ali was phenomenal, and the experience was worth every penny.",
+    author: "Lisa Collins",
+    title: "A Walk That Will Make You Want to Stay",
+    rating: 4.3,
+    date: "2020-02-06"
   }
 ];

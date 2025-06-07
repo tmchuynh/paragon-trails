@@ -3,74 +3,98 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const cityLightsNightTourTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-charleston-2-1",
-    quote: "It felt like a private tour, even though we were with a group. Alexa Anderson is incredibly engaging.",
-    author: "Eugene Anderson",
-    title: "Absolutely Fantastic!"
+    quote: "We booked last-minute and are so glad we did. Lucas King made it one of our favorite memories from Charleston.",
+    author: "Sandra Jennings",
+    title: "A Tour That Feels Like a Fairytale",
+    rating: 4.5,
+    date: "2020-09-19"
   },
   {
     id: "testimonial-tour-charleston-2-2",
-    quote: "We got so much value from this tour. Alexa Anderson took us to places we would have never discovered on our own.",
-    author: "Jack Mason",
-    title: "Felt Like a Character in a Fairytale"
+    quote: "Lucas King had such a great balance of history, fun facts, and local stories — truly a gifted guide.",
+    author: "Douglas Johnson",
+    title: "So Much More Than Expected",
+    rating: 3.7,
+    date: "2024-11-28"
   },
   {
     id: "testimonial-tour-charleston-2-3",
-    quote: "If you're visiting Charleston, the City Lights Night Tour is a must! Alexa Anderson made the history come alive in a way guidebooks never could.",
-    author: "Roger Henderson",
-    title: "History Comes Alive"
+    quote: "From beginning to end, the City Lights Night Tour was seamless and so well organized.",
+    author: "Chloe King",
+    title: "A Walk That Will Stay with You",
+    rating: 4,
+    date: "2025-05-12"
   },
   {
     id: "testimonial-tour-charleston-2-4",
-    quote: "Thanks to Alexa Anderson, we discovered parts of Charleston we would have never seen on our own.",
-    author: "Caroline da Costa",
-    title: "The Real Charleston Experience"
+    quote: "From beginning to end, the City Lights Night Tour was seamless and so well organized.",
+    author: "Austin Nguyen",
+    title: "Followed the Guide, Found a Dream",
+    rating: 4.1,
+    date: "2022-03-10"
   },
   {
     id: "testimonial-tour-charleston-2-5",
-    quote: "As a solo traveler, I felt completely comfortable on this tour. Alexa Anderson created a friendly atmosphere from the start.",
-    author: "Ibrahim Wright",
-    title: "Learned So Much!"
+    quote: "A truly authentic experience! Lucas King showed us the real Charleston, not just the tourist spots.",
+    author: "Sarah Nash",
+    title: "A Journey Through Charleston's Magic",
+    rating: 4.4,
+    date: "2023-05-04"
   },
   {
     id: "testimonial-tour-charleston-2-6",
-    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Alexa Anderson.",
-    author: "Isabella Silva",
-    title: "A Day to Remember"
+    quote: "We had limited time in Charleston, and this tour made sure we saw the best of it. Lucas King was amazing.",
+    author: "Noah Ali",
+    title: "A Walk Through History",
+    rating: 3.7,
+    date: "2022-05-06"
   },
   {
     id: "testimonial-tour-charleston-2-7",
-    quote: "If you only have time for one activity in Charleston, make it the City Lights Night Tour. You won’t regret it.",
-    author: "Janet Gardner",
-    title: "Memorable from the First Step"
+    quote: "I felt like I was being shown around by a friend who knows all the secrets of Charleston.",
+    author: "Joshua Ellis",
+    title: "Absolutely Fantastic!",
+    rating: 5,
+    date: "2017-01-02"
   },
   {
     id: "testimonial-tour-charleston-2-8",
-    quote: "I was nervous about joining a group tour, but Alexa Anderson made everyone feel like part of the crew.",
-    author: "Boris Rossi",
-    title: "A Perfect Day in Charleston"
+    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Lucas King!",
+    author: "Sophia Hernandez",
+    title: "Followed the Guide, Found a Dream",
+    rating: 4,
+    date: "2023-09-27"
   },
   {
     id: "testimonial-tour-charleston-2-9",
-    quote: "If you're visiting Charleston, the City Lights Night Tour is a must! Alexa Anderson made the history come alive in a way guidebooks never could.",
-    author: "Sophia West",
-    title: "Got Lost (on Purpose) with {GUIDE_NAME}"
+    quote: "From start to finish, the experience felt curated and special. Hats off to Lucas King.",
+    author: "Brandon Chen",
+    title: "A Hidden Gem of a Tour",
+    rating: 4.8,
+    date: "2018-03-04"
   },
   {
     id: "testimonial-tour-charleston-2-10",
-    quote: "We loved every minute of the City Lights Night Tour. Alexa Anderson's local tips were priceless.",
-    author: "Ryan Edwards",
-    title: "Well Worth Your Time"
+    quote: "What a fantastic way to start our stay in Charleston. Lucas King gave us a great foundation for exploring more on our own.",
+    author: "Sarah Parker",
+    title: "A Deep Dive into Local Culture",
+    rating: 3.5,
+    date: "2023-11-14"
   },
   {
     id: "testimonial-tour-charleston-2-11",
-    quote: "This tour gave us a much deeper connection to Charleston. Alexa Anderson's passion really shines through.",
-    author: "Bryan Russell",
-    title: "One of the Best Tours We've Taken"
+    quote: "Such a memorable way to explore Charleston. The mix of history, local culture, and stories was perfect.",
+    author: "Wei Graham",
+    title: "Well Worth Your Time",
+    rating: 4.9,
+    date: "2022-08-04"
   },
   {
     id: "testimonial-tour-charleston-2-12",
-    quote: "Alexa Anderson went above and beyond to make sure everyone had a great time on the City Lights Night Tour.",
-    author: "Mia Singh",
-    title: "Entertaining and Educational"
+    quote: "I've been on many tours, but this one stands out. Lucas King was passionate, knowledgeable, and made everyone feel welcome.",
+    author: "Christopher Garcia",
+    title: "A Journey Through Charleston's Wonders",
+    rating: 4.5,
+    date: "2018-07-27"
   }
 ];

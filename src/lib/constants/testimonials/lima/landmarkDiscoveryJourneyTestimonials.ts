@@ -3,98 +3,122 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const landmarkDiscoveryJourneyTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-lima-2-1",
-    quote: "I thought I knew Lima, but this tour proved otherwise. Roger Rossi showed us a side we’d never seen.",
-    author: "Ahmed Rossi",
-    title: "Fascinating and Fun"
+    quote: "I can't recommend the Landmark Discovery Journey enough. Liam Graham was phenomenal, and the experience was worth every penny.",
+    author: "Thabo Jackson",
+    title: "Whispers of the Past, Echoes of Joy",
+    rating: 3.9,
+    date: "2018-03-18"
   },
   {
     id: "testimonial-tour-lima-2-2",
-    quote: "If you only have time for one activity in Lima, make it the Landmark Discovery Journey. You won’t regret it.",
-    author: "Isabella Knight",
-    title: "An Unexpected Highlight"
+    quote: "This tour gave us a much deeper connection to Lima. Liam Graham's passion really shines through.",
+    author: "Sofia Jennings",
+    title: "Bought the T-Shirt, Took the Tour, Loved It",
+    rating: 3.9,
+    date: "2022-10-21"
   },
   {
     id: "testimonial-tour-lima-2-3",
-    quote: "This isn’t your typical tour. Roger Rossi makes it feel personal and engaging from the very start.",
-    author: "Ronald Campbell",
-    title: "Better Than My Last Tinder Date"
+    quote: "From beginning to end, the Landmark Discovery Journey was seamless and so well organized.",
+    author: "Emily Chambers",
+    title: "If Cities Had Souls, Lima Sang to Us",
+    rating: 4.7,
+    date: "2020-06-07"
   },
   {
     id: "testimonial-tour-lima-2-4",
-    quote: "I’ve taken dozens of tours in different countries. Roger Rossi ranks among the very best.",
-    author: "Khalid Ali",
-    title: "Highlight of Our Trip"
+    quote: "We joined the Landmark Discovery Journey on our first day in Lima, and it set the tone for a fantastic trip.",
+    author: "George Grant",
+    title: "Better Than My Last Tinder Date",
+    rating: 4.2,
+    date: "2018-02-23"
   },
   {
     id: "testimonial-tour-lima-2-5",
-    quote: "Highly recommend this tour if you want more than just a photo op — Roger Rossi gives you real insight into Lima.",
-    author: "Zola Gibson",
-    title: "Loved Every Minute"
+    quote: "This was not just sightseeing — it was a deep dive into the heart of Lima thanks to Liam Graham.",
+    author: "Aaliyah Palmer",
+    title: "I Came, I Saw, I Took Too Many Photos",
+    rating: 4.8,
+    date: "2017-12-31"
   },
   {
     id: "testimonial-tour-lima-2-6",
-    quote: "I felt like I was being shown around by a friend who knows all the secrets of Lima.",
-    author: "Nancy Garcia",
-    title: "A New Favorite Memory"
+    quote: "So much fun, and so informative! Liam Graham's enthusiasm is contagious.",
+    author: "Amina Dunn",
+    title: "If Cities Had Souls, Lima Sang to Us",
+    rating: 4.2,
+    date: "2017-08-16"
   },
   {
     id: "testimonial-tour-lima-2-7",
-    quote: "The Landmark Discovery Journey was the highlight of our trip to Lima. Roger Rossi took us to all the best spots and shared fascinating stories.",
-    author: "Jose Cooper",
-    title: "A Tour Even My Teenager Liked"
+    quote: "My grandparent and I agreed this was the best part of our entire trip to Lima.",
+    author: "Aria Gardner",
+    title: "The Perfect Introduction to Lima",
+    rating: 4.1,
+    date: "2022-05-23"
   },
   {
     id: "testimonial-tour-lima-2-8",
-    quote: "The Landmark Discovery Journey was both entertaining and educational. Roger Rossi has a gift for storytelling that brings Lima's history to life.",
-    author: "Roger Smith",
-    title: "Hot, Sweaty, and Absolutely Worth It"
+    quote: "Liam Graham is the kind of guide you want to tell your friends about. This was a five-star experience.",
+    author: "Aiden Edwards",
+    title: "Cultural Immersion at Its Best",
+    rating: 4.2,
+    date: "2024-01-18"
   },
   {
     id: "testimonial-tour-lima-2-9",
-    quote: "From beginning to end, the Landmark Discovery Journey was seamless and so well organized.",
-    author: "Michael Singh",
-    title: "Followed the Guide, Found a Dream"
+    quote: "The Landmark Discovery Journey completely changed how I see Lima. Liam Graham's insights were invaluable.",
+    author: "Jesse Foster",
+    title: "Brought Lima to Life",
+    rating: 4.1,
+    date: "2019-03-16"
   },
   {
     id: "testimonial-tour-lima-2-10",
-    quote: "Roger Rossi was incredibly accommodating and answered every question with patience and detail.",
-    author: "Nicholas Young",
-    title: "Cultural Immersion at Its Best"
+    quote: "We had limited time in Lima, and this tour made sure we saw the best of it. Liam Graham was amazing.",
+    author: "Noah Graves",
+    title: "Followed the Guide, Found a Dream",
+    rating: 4.3,
+    date: "2018-06-13"
   },
   {
     id: "testimonial-tour-lima-2-11",
-    quote: "The Landmark Discovery Journey was the highlight of our trip to Lima. Roger Rossi took us to all the best spots and shared fascinating stories.",
-    author: "Ella Anderson",
-    title: "A Unique Way to Explore Lima"
+    quote: "This was more than just sightseeing — it was an unforgettable journey through Lima's culture and history.",
+    author: "Joan Mason",
+    title: "Worth Every Penny",
+    rating: 4.3,
+    date: "2024-04-07"
   },
   {
     id: "testimonial-tour-lima-2-12",
     quote: "I felt like I was being shown around by a friend who knows all the secrets of Lima.",
-    author: "Anna Foster",
-    title: "Got Lost (on Purpose) with {GUIDE_NAME}"
+    author: "Nomsa Lawson",
+    title: "Highly Recommend to Everyone",
+    rating: 4.6,
+    date: "2024-02-24"
   },
   {
     id: "testimonial-tour-lima-2-13",
-    quote: "I felt like I was being shown around by a friend who knows all the secrets of Lima.",
-    author: "Laura Bennett",
-    title: "So Much More Than Expected"
+    quote: "We’ll be recommending the Landmark Discovery Journey to all our friends. Liam Graham made it that special.",
+    author: "Samantha Jennings",
+    title: "A Day to Remember",
+    rating: 4.4,
+    date: "2018-02-25"
   },
   {
     id: "testimonial-tour-lima-2-14",
-    quote: "A truly authentic experience! Roger Rossi showed us the real Lima, not just the tourist spots.",
-    author: "Amy Taylor",
-    title: "Impressive and Informative"
+    quote: "The Landmark Discovery Journey completely changed how I see Lima. Liam Graham's insights were invaluable.",
+    author: "Diego Brown",
+    title: "A Unique Way to Explore Lima",
+    rating: 3.9,
+    date: "2021-05-06"
   },
   {
     id: "testimonial-tour-lima-2-15",
-    quote: "Roger Rossi made learning about Lima's history genuinely exciting — not an easy task!",
-    author: "Grace Murray",
-    title: "The Perfect Introduction to Lima"
-  },
-  {
-    id: "testimonial-tour-lima-2-16",
-    quote: "Even the locals in our group said they learned something new. That says a lot about Roger Rossi's depth.",
-    author: "Rajesh Reeves",
-    title: "Fascinating and Fun"
+    quote: "We booked last-minute and are so glad we did. Liam Graham made it one of our favorite memories from Lima.",
+    author: "Nora Miller",
+    title: "A Day to Remember",
+    rating: 4,
+    date: "2022-12-26"
   }
 ];

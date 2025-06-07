@@ -3,74 +3,82 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const culinaryWalkTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-nassau-2-1",
-    quote: "So much fun, and so informative! Zachary Young's enthusiasm is contagious.",
-    author: "Jerry Fisher",
-    title: "Cultural Immersion at Its Best"
+    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Matthew Bennett.",
+    author: "Amy Watson",
+    title: "Don't Miss This Tour!",
+    rating: 4.2,
+    date: "2023-05-15"
   },
   {
     id: "testimonial-tour-nassau-2-2",
-    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Zachary Young.",
-    author: "Mark Nakamura",
-    title: "Loved Every Minute"
+    quote: "One of the best decisions of our trip! Matthew Bennett is a fantastic guide and brought incredible energy to the tour.",
+    author: "Zoe Dean",
+    title: "Learned So Much!",
+    rating: 4.7,
+    date: "2017-07-31"
   },
   {
     id: "testimonial-tour-nassau-2-3",
-    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Zachary Young.",
-    author: "Peter Spencer",
-    title: "Well Worth Your Time"
+    quote: "One of the best decisions of our trip! Matthew Bennett is a fantastic guide and brought incredible energy to the tour.",
+    author: "Elena Carter",
+    title: "Whispers of the Past, Echoes of Joy",
+    rating: 4.1,
+    date: "2019-04-01"
   },
   {
     id: "testimonial-tour-nassau-2-4",
-    quote: "We loved every minute of the Culinary Walk. Zachary Young's local tips were priceless.",
-    author: "Alexa Suzuki",
-    title: "Felt Like a Character in a Fairytale"
+    quote: "What an engaging experience! Matthew Bennett kept us laughing and learning throughout the Culinary Walk.",
+    author: "Allison Reed",
+    title: "Would Follow This Guide Into Battle",
+    rating: 4.4,
+    date: "2018-10-17"
   },
   {
     id: "testimonial-tour-nassau-2-5",
-    quote: "I wasn’t expecting to enjoy this tour so much, but Zachary Young made it the highlight of our trip.",
-    author: "Donna Morgan",
-    title: "Got Lost (on Purpose) with {GUIDE_NAME}"
+    quote: "Matthew Bennett brought a depth of cultural insight that gave us a new appreciation for Nassau.",
+    author: "Juan Bennett",
+    title: "Unforgettable Experience",
+    rating: 3.5,
+    date: "2025-03-20"
   },
   {
     id: "testimonial-tour-nassau-2-6",
-    quote: "Our family loved every moment of the Culinary Walk. Zachary Young even made it fun for our kids.",
-    author: "Andrew Silva",
-    title: "More Enchanting Than Expected"
+    quote: "As someone who's been to Nassau before, I was surprised at how much I learned on the Culinary Walk. Matthew Bennett is a treasure trove of information!",
+    author: "Aaron Crawford",
+    title: "History, Snacks, and Laughs—Yes Please!",
+    rating: 3.7,
+    date: "2020-04-28"
   },
   {
     id: "testimonial-tour-nassau-2-7",
-    quote: "It felt like a private tour, even though we were with a group. Zachary Young is incredibly engaging.",
-    author: "Brooklyn Wright",
-    title: "Entertaining and Educational"
+    quote: "This was not just sightseeing — it was a deep dive into the heart of Nassau thanks to Matthew Bennett.",
+    author: "Billy Douglas",
+    title: "Beyond Our Expectations",
+    rating: 4.4,
+    date: "2017-01-05"
   },
   {
     id: "testimonial-tour-nassau-2-8",
-    quote: "Zachary Young was incredibly accommodating and answered every question with patience and detail.",
-    author: "Aisha Spencer",
-    title: "Highlight of Our Trip"
+    quote: "Thanks to Matthew Bennett, we discovered parts of Nassau we would have never seen on our own.",
+    author: "Eric Dixon",
+    title: "A Hidden Gem of a Tour",
+    rating: 4.5,
+    date: "2017-08-11"
   },
   {
     id: "testimonial-tour-nassau-2-9",
-    quote: "Zachary Young went above and beyond to make sure everyone had a great time on the Culinary Walk.",
-    author: "Harry Lawson",
-    title: "Whispers of the Past, Echoes of Joy"
+    quote: "The pace was perfect, the content was rich, and Matthew Bennett made every stop memorable.",
+    author: "Alexander Wilson",
+    title: "A Journey Through Nassau's Secrets",
+    rating: 4,
+    date: "2019-11-27"
   },
   {
     id: "testimonial-tour-nassau-2-10",
-    quote: "Even the locals in our group said they learned something new. That says a lot about Zachary Young's depth.",
-    author: "Stella White",
-    title: "Local Experience Made Easy"
-  },
-  {
-    id: "testimonial-tour-nassau-2-11",
-    quote: "My partner and I had the best time on this tour. Zachary Young's knowledge of Nassau made it so much more special.",
-    author: "Chloe Bennett",
-    title: "Highlight of Our Trip"
-  },
-  {
-    id: "testimonial-tour-nassau-2-12",
-    quote: "We joined the Culinary Walk on our first day in Nassau, and it set the tone for a fantastic trip.",
-    author: "Lily Price",
-    title: "History, Snacks, and Laughs—Yes Please!"
+    quote: "This tour exceeded all my expectations. Matthew Bennett's insider knowledge made our Nassau visit unforgettable.",
+    author: "Kyle White",
+    title: "Beyond Our Expectations",
+    rating: 4.7,
+    date: "2023-02-21"
   }
 ];
