@@ -8,7 +8,7 @@
  * Features:
  * - Processes all tour guides from existing guide data files
  * - Generates 3-4 unique reviews per guide with realistic content
- * - Creates files in src/lib/constants/reviews/guides/ directory
+ * - Creates files in src/lib/constants/testimonials/guides/ directory
  * - Uses city name in camel case for file names (e.g., "newYork.js")
  * - Exports variable as "{cityName}GuideReviews"
  * - Includes realistic quotes mentioning guide specialties
@@ -36,6 +36,7 @@ import { cityCountryMap, cityToRegionMap } from "./utils/geo-utils.mjs";
 import {
   formatKebabToCamelCase,
   formatTitleToCamelCase,
+  formatCamelCaseToTitle,
 } from "./utils/format-utils.mjs";
 
 // Get directory name using ES module approach
@@ -258,7 +259,7 @@ async function generateAllGuideReviews() {
     // Ensure the directory exists
     const outputDir = path.resolve(
       __dirname,
-      "../src/lib/constants/reviews/guides"
+      "../src/lib/constants/testimonials/guides"
     );
 
     try {
@@ -284,11 +285,11 @@ async function generateAllGuideReviews() {
         "constants",
         "staff",
         "guides",
-        `${formattedCity}.ts`
+        `${cityFile}.ts`
       );
 
       const guideId = `${formattedCity}${formattedCountry.replaceAll(".", "")}${formattedRegion}Guides`;
-      
+
       try {
         // Check if the file exists before trying to access it
         try {
@@ -297,81 +298,85 @@ async function generateAllGuideReviews() {
           console.error(`File not found: ${filePath}`);
           continue; // Skip to the next city
         }
-        
+
         // Read the file content to extract guide data
-        const fileContent = await fs.readFile(filePath, 'utf8');
-        
+        const fileContent = await fs.readFile(filePath, "utf8");
+
         // Extract guide objects using regex
         const guideObjects = [];
-        const regex = /\{\s*id:\s*["']([^"']+)["'],\s*name:\s*["']([^"']+)["']/g;
+        const regex =
+          /\{\s*id:\s*["']([^"']+)["'],\s*name:\s*["']([^"']+)["']/g;
         let match;
-        
+
         while ((match = regex.exec(fileContent)) !== null) {
           const [fullMatch, id, name] = match;
-          
+
           // Find the end of this guide object
           const startPos = match.index;
           let braceCount = 1;
           let endPos = startPos + 1;
-          
+
           while (braceCount > 0 && endPos < fileContent.length) {
-            if (fileContent[endPos] === '{') braceCount++;
-            if (fileContent[endPos] === '}') braceCount--;
+            if (fileContent[endPos] === "{") braceCount++;
+            if (fileContent[endPos] === "}") braceCount--;
             endPos++;
           }
-          
+
           if (braceCount === 0) {
             const guideObjectText = fileContent.substring(startPos, endPos);
-            
+
             // Extract specialties and tourTypes
-            const specialtiesMatch = guideObjectText.match(/specialties:\s*\[(.*?)\]/s);
-            const specialties = specialtiesMatch 
+            const specialtiesMatch = guideObjectText.match(
+              /specialties:\s*\[(.*?)\]/s
+            );
+            const specialties = specialtiesMatch
               ? specialtiesMatch[1]
-                  .split(',')
-                  .map(s => s.trim().replace(/["']/g, ''))
-                  .filter(s => s)
+                  .split(",")
+                  .map((s) => s.trim().replace(/["']/g, ""))
+                  .filter((s) => s)
               : [];
-              
-            const tourTypesMatch = guideObjectText.match(/tourTypes:\s*\[(.*?)\]/s);
+
+            const tourTypesMatch = guideObjectText.match(
+              /tourTypes:\s*\[(.*?)\]/s
+            );
             const tourTypes = tourTypesMatch
               ? tourTypesMatch[1]
-                  .split(',')
-                  .map(s => s.trim().replace(/["']/g, ''))
-                  .filter(s => s)
+                  .split(",")
+                  .map((s) => s.trim().replace(/["']/g, ""))
+                  .filter((s) => s)
               : [];
-            
+
             guideObjects.push({
               id,
               name,
-              city: formattedCity,
+              city: `${formatCamelCaseToTitle(formattedCity)}`,
               specialties,
-              tourTypes
+              tourTypes,
             });
           }
         }
-        
+
         if (guideObjects.length === 0) {
           console.error(`No guide data extracted from ${formattedCity}`);
           continue;
         }
-        
+
         const allReviews = {};
-        
+
         for (const guide of guideObjects) {
           allReviews[guide.id] = generateReviews(guide);
         }
 
         const outputFile = path.join(outputDir, `${formattedCity}.ts`);
-        const outputContent = `
+        const outputContent = `// This file is auto-generated. Do not edit manually.
 // Tour guide reviews for ${formattedCity}
 export const ${formattedCity}GuideReviews = ${JSON.stringify(allReviews, null, 2)};
 `;
-        
+
         await fs.writeFile(outputFile, outputContent);
         console.log(
           `Generated reviews for ${guideObjects.length} guides in ${cityFile}`
         );
-        
       } catch (error) {
         console.error(`Error processing city ${cityFile}:`, error);
       }
