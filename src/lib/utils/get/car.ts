@@ -4,59 +4,48 @@ import { cityCountryMap, cityToRegionMap } from "@/lib/utils/mapping";
 import { formatKebabToCamelCase, formatTitleToCamelCase } from "../format";
 
 export async function getLuxuryRentalCars(): Promise<LuxuryRentalCar[]> {
-  const allCars: LuxuryRentalCar[] = [];
-  console.log("Starting to load luxury rental cars");
-
-  // Use all cities from cityFiles instead of just amalfi-coast
-  const citiesToTry = cityFiles;
-  console.log(`Will attempt to load cars from ${citiesToTry.length} cities`);
-
+  const rentalCars: LuxuryRentalCar[] = [];
   try {
-    for (const cityFile of citiesToTry) {
-      try {
-        console.log(`Attempting to load cars for city: ${cityFile}`);
-        const formattedCity = formatKebabToCamelCase(cityFile);
-        console.log(`Formatted city name: ${formattedCity}`);
+    for (const cityFile of cityFiles) {
+      const formattedCity = formatKebabToCamelCase(cityFile);
+      const country = cityCountryMap[cityFile as keyof typeof cityCountryMap];
+      const region =
+        cityToRegionMap[cityFile as keyof typeof cityToRegionMap] || "";
 
-        const country = cityCountryMap[cityFile as keyof typeof cityCountryMap];
-        const region =
-          cityToRegionMap[cityFile as keyof typeof cityToRegionMap];
-        const formattedCountry = formatTitleToCamelCase(country);
-        const formattedRegion = formatTitleToCamelCase(region);
+      const formattedCountry = formatTitleToCamelCase(country);
 
-        const rentalId = `${formattedCity}${formattedCountry.replaceAll(".", "")}${formattedRegion}Cars`;
+      const formattedRegion = formatTitleToCamelCase(region);
 
-        const rentalCarsModule = await import(
-          `@/lib/constants/rentals/cars/${cityFile}`
+      const guideId = `${formattedCity}${formattedCountry.replaceAll(".", "")}${formattedRegion}Cars`;
+
+      console.log(
+        `Loading rental cars for city: ${cityFile}, country: ${formattedCountry}, region: ${formattedRegion}`
+      );
+      console.log(`Searching for car ID: ${guideId}`);
+      // Dynamically import the guides module for the city
+      console.log(
+        `Importing car module from: @/lib/constants/rentals/cars/${cityFile}`
+      );
+
+      const carsModule = await import(
+        `@/lib/constants/rentals/cars/${cityFile}`
+      );
+      if (carsModule[guideId]) {
+        rentalCars.push(carsModule[guideId]);
+        console.log(
+          `Found ${carsModule[guideId].length} guides for city: ${formattedCity}`
         );
-
-        if (rentalCarsModule[rentalId]) {
-          console.log(
-            `Found ${rentalCarsModule[rentalId].length} luxury rental cars for ${cityFile}`
-          );
-          allCars.push(...rentalCarsModule[rentalId]);
-        } else {
-          console.warn(
-            `No luxury rental cars found for ${cityFile} with ID ${rentalId}`
-          );
-        }
-      } catch (error) {
-        console.error(
-          `Failed to import luxury rental cars for ${cityFile}:`,
-          error
-        );
-        continue; // Skip this city and move to the next one
+      } else {
+        console.error(`No cars found for city: ${cityFile}`);
+        continue;
       }
     }
   } catch (error) {
-    console.error(`Error in getLuxuryRentalCars:`, error);
-    return allCars; // Return whatever cars we managed to load, even if the overall process had errors
+    console.error(`Error loading cars: ${error}`);
+    return [];
   } finally {
-    console.log(
-      `Finished loading luxury rental cars. Total cars loaded: ${allCars.length}`
-    );
+    return rentalCars.flat();
   }
-  return allCars;
 }
 
 export async function getLuxuryRentalCar(
