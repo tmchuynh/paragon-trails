@@ -6,65 +6,92 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const riodejaneiroTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-rio-de-janeiro-1",
-    quote: "Every weekend in Rio De Janeiro brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
-    author: "Samantha Knight",
-    title: "The Real Rio De Janeiro Experience",
+    quote: "I love how Rio De Janeiro celebrates {FESTIVAL_OR_EVENT}, it brings so much joy and community spirit.",
+    author: "Joseph Müller",
+    title: "Living Sustainably in Rio De Janeiro",
     city: "Rio De Janeiro",
-    rating: 4.8,
-    date: "2024-02-23"
+    rating: 4.9,
+    date: "2025-03-15"
   },
   {
     id: "city-testimonial-rio-de-janeiro-2",
-    quote: "The summer food truck gatherings in Rio De Janeiro is something I look forward to every year. It's what makes living here magical.",
-    author: "Ibrahim Payne",
-    title: "The Community Spirit That Defines Rio De Janeiro",
+    quote: "Rio De Janeiro has been my home for experienced, and the culinary scene here is what keeps me rooted.",
+    author: "Amelia Wang",
+    title: "The Vibrant Life of Rio De Janeiro Residents",
     city: "Rio De Janeiro",
-    rating: 4.3,
-    date: "2025-10-11"
+    rating: 4.6,
+    date: "2024-08-21"
   },
   {
     id: "city-testimonial-rio-de-janeiro-3",
-    quote: "One of my favorite parts about living in Rio De Janeiro is the {MARKET_OR_SHOPPING_FEATURE} just around the corner.",
-    author: "Mia Dunn",
-    title: "What Makes Rio De Janeiro Uniquely Livable",
+    quote: "Rio De Janeiro's gallery openings scene has become central to my life here. I couldn't imagine living without it now.",
+    author: "Arthur Graham",
+    title: "What Makes Rio De Janeiro Special to Live In",
     city: "Rio De Janeiro",
-    rating: 4.4,
-    date: "2024-03-15"
+    rating: 4.8,
+    date: "2023-01-11"
   },
   {
     id: "city-testimonial-rio-de-janeiro-4",
-    quote: "Rio De Janeiro's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
-    author: "Sofia Watson",
-    title: "What Makes Rio De Janeiro Uniquely Livable",
+    quote: "The people of Rio De Janeiro are incredibly welcoming and have made me feel at home since day one.",
+    author: "Abigail Douglas",
+    title: "My Rio De Janeiro Story: Life as a Resident",
     city: "Rio De Janeiro",
-    rating: 4.4,
-    date: "2023-12-08"
+    rating: 4.3,
+    date: "2024-06-18"
   },
   {
     id: "city-testimonial-rio-de-janeiro-5",
-    quote: "The historical significance of Rio De Janeiro adds a depth to daily life that I truly cherish.",
-    author: "Elizabeth Mitchell",
-    title: "Rio De Janeiro: Beyond the Tourist Experience",
+    quote: "Rio De Janeiro's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
+    author: "Jordan Morales",
+    title: "Life in Rio De Janeiro: A Local Perspective",
     city: "Rio De Janeiro",
-    rating: 4.5,
-    date: "2025-07-17"
+    rating: 4,
+    date: "2023-06-08"
   },
   {
     id: "city-testimonial-rio-de-janeiro-6",
-    quote: "Raising my family in Rio De Janeiro gives us access to sports facilities, which is truly invaluable.",
-    author: "Scarlett Lawson",
-    title: "The Soul of Rio De Janeiro: A Local's View",
+    quote: "Despite its size, Rio De Janeiro manages to feel {SMALL_TOWN_QUALITY}, which is rare and wonderful.",
+    author: "Margaret Hernandez",
+    title: "Rio De Janeiro: Where I Found My Community",
     city: "Rio De Janeiro",
-    rating: 4.6,
-    date: "2024-11-10"
+    rating: 4.1,
+    date: "2023-02-06"
   },
   {
     id: "city-testimonial-rio-de-janeiro-7",
-    quote: "Rio De Janeiro has been my home for second-generation, and the outdoor enthusiasts here is what keeps me rooted.",
-    author: "Ali Chen",
-    title: "Rio De Janeiro Through a Resident's Eyes",
+    quote: "One thing I didn’t expect when moving to Rio De Janeiro was the {WEATHER_FEATURE}—it’s truly refreshing.",
+    author: "Brooklyn Lee",
+    title: "The Neighborhoods That Make Rio De Janeiro Home",
     city: "Rio De Janeiro",
-    rating: 5,
-    date: "2025-05-09"
+    rating: 4.4,
+    date: "2025-06-08"
+  },
+  {
+    id: "city-testimonial-rio-de-janeiro-8",
+    quote: "Living in Rio De Janeiro has opened my eyes to {PERSONAL_GROWTH_ASPECT} that I never expected.",
+    author: "Boris Coleman",
+    title: "Living and Thriving in Rio De Janeiro",
+    city: "Rio De Janeiro",
+    rating: 4.8,
+    date: "2023-09-13"
+  },
+  {
+    id: "city-testimonial-rio-de-janeiro-9",
+    quote: "Rio De Janeiro's literary scene has become central to my life here. I couldn't imagine living without it now.",
+    author: "Tyler Anderson",
+    title: "How Rio De Janeiro Changed My Life",
+    city: "Rio De Janeiro",
+    rating: 4.5,
+    date: "2024-08-28"
+  },
+  {
+    id: "city-testimonial-rio-de-janeiro-10",
+    quote: "After 10 years as a Rio De Janeiro local, I still appreciate the family picnics in the park that makes this place special.",
+    author: "Audrey Day",
+    title: "What Makes Rio De Janeiro Special to Live In",
+    city: "Rio De Janeiro",
+    rating: 4.6,
+    date: "2023-09-11"
   }
 ];

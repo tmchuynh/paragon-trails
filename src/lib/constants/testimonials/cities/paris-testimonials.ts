@@ -6,47 +6,56 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const parisTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-paris-1",
-    quote: "Despite its size, Paris manages to feel {SMALL_TOWN_QUALITY}, which is rare and wonderful.",
-    author: "Mia West",
-    title: "Paris's Hidden Treasures for Locals",
+    quote: "Community events and festivals in Paris bring everyone together, making the {COMMUNITY_ASPECT} really stand out.",
+    author: "Walter Williams",
+    title: "How Paris Balances Tradition and Innovation",
     city: "Paris",
-    rating: 4.5,
-    date: "2024-01-23"
+    rating: 4.9,
+    date: "2024-05-05"
   },
   {
     id: "city-testimonial-paris-2",
-    quote: "Living in Paris has opened my eyes to {PERSONAL_GROWTH_ASPECT} that I never expected.",
-    author: "Albert Holloway",
-    title: "A Love Letter to Paris",
+    quote: "As someone who's lived in many cities, I can say that Paris's cultural celebrations is unmatched anywhere else.",
+    author: "Riley Foster",
+    title: "Discovering Home in Paris",
     city: "Paris",
-    rating: 4.8,
-    date: "2023-10-17"
+    rating: 4.3,
+    date: "2025-07-27"
   },
   {
     id: "city-testimonial-paris-3",
-    quote: "What most people don't realize about living in Paris is how connected it actually is. I've found my true home here.",
-    author: "Jesse Porter",
-    title: "Paris Through a Resident's Eyes",
+    quote: "The balance of professional opportunity and personal time in Paris creates a quality of life that's hard to find elsewhere.",
+    author: "Priya Harris",
+    title: "Paris: More Than Just a Place",
     city: "Paris",
-    rating: 4.2,
-    date: "2025-03-22"
+    rating: 4.5,
+    date: "2023-02-26"
   },
   {
     id: "city-testimonial-paris-4",
-    quote: "The art and creativity flowing through Paris is inspiring. It feels like living inside a masterpiece.",
-    author: "Olivia Chen",
-    title: "The Community Spirit That Defines Paris",
+    quote: "I came to Paris for work but stayed for the sense of community. Best decision I ever made.",
+    author: "Luis Johnson",
+    title: "The Real Paris Experience",
     city: "Paris",
-    rating: 4.1,
-    date: "2023-06-21"
+    rating: 4.9,
+    date: "2023-04-14"
   },
   {
     id: "city-testimonial-paris-5",
-    quote: "The {FESTIVAL_OR_EVENT} season in Paris brings so much excitement and pride to the community.",
-    author: "Avery Jennings",
-    title: "Living the Paris Lifestyle",
+    quote: "The mix of old and new in Paris's architecture and culture keeps the city feeling fresh yet grounded.",
+    author: "Hassan West",
+    title: "What Makes Paris Uniquely Livable",
     city: "Paris",
-    rating: 4.6,
-    date: "2023-05-19"
+    rating: 4.8,
+    date: "2024-02-28"
+  },
+  {
+    id: "city-testimonial-paris-6",
+    quote: "What most people don't realize about living in Paris is how charming it actually is. I've found my true home here.",
+    author: "Peter Ali",
+    title: "Paris Through a Resident's Eyes",
+    city: "Paris",
+    rating: 4.8,
+    date: "2025-12-03"
   }
 ];

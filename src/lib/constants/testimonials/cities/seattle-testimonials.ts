@@ -6,92 +6,92 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const seattleTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-seattle-1",
-    quote: "I appreciate how Seattle balances {TECH_INNOVATION} with historic charm perfectly.",
-    author: "Jesse Sutton",
-    title: "My Seattle Story: Life as a Resident",
+    quote: "What really surprised me about Seattle is its {DIVERSITY_FEATURE} — it’s a true melting pot.",
+    author: "Isabella Kowalski",
+    title: "Why Seattle Is a Place to Grow",
     city: "Seattle",
-    rating: 4.4,
-    date: "2024-12-18"
+    rating: 4.9,
+    date: "2023-12-23"
   },
   {
     id: "city-testimonial-seattle-2",
-    quote: "Seattle's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
-    author: "Daniel West",
-    title: "The Everyday Magic of Seattle",
+    quote: "The community theaters in Seattle makes everyday life feel like an adventure. I've been here 4 years and still discover new things.",
+    author: "Scott Sutton",
+    title: "A Love Letter to Seattle",
     city: "Seattle",
-    rating: 4.2,
-    date: "2024-10-14"
+    rating: 4.4,
+    date: "2023-05-26"
   },
   {
     id: "city-testimonial-seattle-3",
-    quote: "Living in Seattle has allowed me to connect deeply with {NATURE_FEATURE} nearby.",
-    author: "Jessica Hawkins",
-    title: "Why Seattle Is a Place to Grow",
+    quote: "I've found that Seattle's {TRANSPORT_FEATURE} really makes getting around effortless and enjoyable.",
+    author: "Mia Campbell",
+    title: "Inside the Culture of Seattle",
     city: "Seattle",
     rating: 4.5,
-    date: "2023-10-21"
+    date: "2025-02-12"
   },
   {
     id: "city-testimonial-seattle-4",
-    quote: "What I tell friends considering moving to Seattle is to appreciate the pop-up galleries—it's what makes daily life here so rich.",
-    author: "Michelle Day",
-    title: "The Beauty of Everyday Life in Seattle",
+    quote: "The {GREEN_SPACES} in Seattle offer a perfect escape from the urban buzz without leaving the city limits.",
+    author: "Sandra Hernandez",
+    title: "Seattle: A City That Grows With You",
     city: "Seattle",
-    rating: 5,
-    date: "2025-06-23"
+    rating: 4.1,
+    date: "2024-07-11"
   },
   {
     id: "city-testimonial-seattle-5",
-    quote: "If you want a city that offers {LIFESTYLE_BENEFIT}, Seattle is the place to be.",
-    author: "Nora Spencer",
-    title: "Living Sustainably in Seattle",
+    quote: "As someone who's lived in many cities, I can say that Seattle's seasonal transitions is unmatched anywhere else.",
+    author: "Kevin Graves",
+    title: "What Makes Seattle Uniquely Livable",
     city: "Seattle",
-    rating: 4.4,
-    date: "2023-05-09"
+    rating: 4.1,
+    date: "2025-12-28"
   },
   {
     id: "city-testimonial-seattle-6",
-    quote: "No two days are the same living in Seattle. The {DYNAMIC_ASPECT} keeps me excited to wake up every morning.",
-    author: "Chloe Henderson",
-    title: "Life in Seattle: A Local Perspective",
+    quote: "One thing I didn’t expect when moving to Seattle was the {WEATHER_FEATURE}—it’s truly refreshing.",
+    author: "Liam Reed",
+    title: "Seattle Living: Worth Every Moment",
     city: "Seattle",
-    rating: 4.8,
-    date: "2025-03-25"
+    rating: 4.4,
+    date: "2023-10-18"
   },
   {
     id: "city-testimonial-seattle-7",
-    quote: "After moving to Seattle 30 years ago, I fell in love with the rich folklore of this place. It's truly special.",
-    author: "Liam Palmer",
-    title: "Why Seattle Feels Like Home",
+    quote: "The mix of old and new in Seattle's architecture and culture keeps the city feeling fresh yet grounded.",
+    author: "Dylan Payne",
+    title: "What Makes Seattle Special to Live In",
     city: "Seattle",
-    rating: 4.4,
-    date: "2025-08-07"
+    rating: 4.7,
+    date: "2023-04-20"
   },
   {
     id: "city-testimonial-seattle-8",
-    quote: "What I love most about living in Seattle is the heritage museums. It creates such a unique atmosphere that feels like home.",
-    author: "Christopher Russell",
-    title: "The Real Seattle Experience",
+    quote: "Living in Seattle means experiencing historical richness on a daily basis, which is why I could never leave.",
+    author: "Willie Hall",
+    title: "Seattle: More Than Just a Place",
     city: "Seattle",
-    rating: 4.5,
-    date: "2024-11-27"
+    rating: 4.7,
+    date: "2023-08-03"
   },
   {
     id: "city-testimonial-seattle-9",
-    quote: "Living in Seattle has been one of the best decisions of my life. The walkability here makes everyday life so enjoyable.",
-    author: "Stella Graves",
-    title: "Stories From the Streets of Seattle",
+    quote: "Seattle isn't just where I live—it's part of my identity now. The innovative spirit has shaped who I am.",
+    author: "Brandon Dixon",
+    title: "Seattle's Hidden Treasures for Locals",
     city: "Seattle",
-    rating: 4.5,
-    date: "2024-06-07"
+    rating: 4.2,
+    date: "2025-04-27"
   },
   {
     id: "city-testimonial-seattle-10",
-    quote: "From my apartment in Seattle, I can enjoy riverfront walks. Where else could you do that?",
-    author: "Stephen Jones",
-    title: "The Vibrant Life of Seattle Residents",
+    quote: "What I tell friends considering moving to Seattle is to appreciate the independent bookstores—it's what makes daily life here so rich.",
+    author: "Khalid Bennett",
+    title: "Why Seattle Is a Place to Grow",
     city: "Seattle",
-    rating: 4.3,
-    date: "2024-09-06"
+    rating: 4.7,
+    date: "2023-03-18"
   }
 ];

@@ -6,92 +6,83 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const capetownTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-cape-town-1",
-    quote: "One of the best things about living in Cape Town is the {ACCESSIBILITY_FEATURE}—it makes everything so convenient.",
-    author: "Edward Smith",
-    title: "The Perfect Imperfections of Cape Town",
+    quote: "Living in Cape Town has been one of the best decisions of my life. The sustainable initiatives here makes everyday life so enjoyable.",
+    author: "Dennis Carpenter",
+    title: "What Makes Cape Town Feel Like Family",
     city: "Cape Town",
-    rating: 4.2,
-    date: "2024-03-25"
+    rating: 4.3,
+    date: "2023-10-08"
   },
   {
     id: "city-testimonial-cape-town-2",
-    quote: "Raising my family in Cape Town gives us access to community centers, which is truly invaluable.",
-    author: "Donna Gonzalez",
-    title: "The Joys of Slow Living in Cape Town",
+    quote: "The sense of {SAFETY} in Cape Town makes me feel comfortable raising my kids here.",
+    author: "Stephanie Gibson",
+    title: "Finding Inspiration Every Day in Cape Town",
     city: "Cape Town",
-    rating: 4,
-    date: "2024-05-20"
+    rating: 4.1,
+    date: "2023-01-22"
   },
   {
     id: "city-testimonial-cape-town-3",
-    quote: "Living in Cape Town means being surrounded by artistic expression, which feeds my soul every day.",
-    author: "Brooklyn Kowalski",
-    title: "Stories From the Streets of Cape Town",
+    quote: "The historical significance of Cape Town adds a depth to daily life that I truly cherish.",
+    author: "Victor Keller",
+    title: "A Love Letter to Cape Town",
     city: "Cape Town",
-    rating: 4.5,
-    date: "2025-05-02"
+    rating: 4,
+    date: "2023-10-06"
   },
   {
     id: "city-testimonial-cape-town-4",
-    quote: "Living here means being a part of Cape Town's ongoing story of innovation and tradition.",
-    author: "Wei Gonzalez",
-    title: "Cape Town's Hidden Treasures for Locals",
+    quote: "Despite its size, Cape Town manages to feel {SMALL_TOWN_QUALITY}, which is rare and wonderful.",
+    author: "Michael Ivanov",
+    title: "Finding Inspiration Every Day in Cape Town",
     city: "Cape Town",
-    rating: 4.8,
-    date: "2023-11-19"
+    rating: 4.4,
+    date: "2024-06-22"
   },
   {
     id: "city-testimonial-cape-town-5",
-    quote: "Community events and festivals in Cape Town bring everyone together, making the {COMMUNITY_ASPECT} really stand out.",
-    author: "Savannah Hunter",
-    title: "Why Cape Town Keeps Getting Better",
+    quote: "The mix of old and new in Cape Town's architecture and culture keeps the city feeling fresh yet grounded.",
+    author: "Anthony Ali",
+    title: "Discovering Home in Cape Town",
     city: "Cape Town",
-    rating: 4.1,
-    date: "2024-09-22"
+    rating: 4.6,
+    date: "2025-11-20"
   },
   {
     id: "city-testimonial-cape-town-6",
-    quote: "Cape Town isn't just where I live—it's part of my identity now. The boutique shopping has shaped who I am.",
-    author: "James Miller",
-    title: "The Neighborhoods That Make Cape Town Home",
+    quote: "Every weekend in Cape Town brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
+    author: "Samantha Silva",
+    title: "Cape Town: More Than Just a Place",
     city: "Cape Town",
-    rating: 4.9,
-    date: "2024-05-05"
+    rating: 4.7,
+    date: "2025-07-22"
   },
   {
     id: "city-testimonial-cape-town-7",
-    quote: "Living in Cape Town means I get to enjoy {SPORTS_OR_OUTDOOR_ACTIVITY} year-round.",
-    author: "Riley Spencer",
-    title: "From Newcomer to Local in Cape Town",
+    quote: "What I love most about living in Cape Town is the skate parks. It creates such a unique atmosphere that feels like home.",
+    author: "Jonathan Morgan",
+    title: "Life in Cape Town: A Local Perspective",
     city: "Cape Town",
-    rating: 4.5,
-    date: "2025-07-24"
+    rating: 4.6,
+    date: "2025-10-02"
   },
   {
     id: "city-testimonial-cape-town-8",
-    quote: "I've found that Cape Town's {TRANSPORT_FEATURE} really makes getting around effortless and enjoyable.",
-    author: "Gabriella Patel",
-    title: "Stories From the Streets of Cape Town",
+    quote: "Living here means being a part of Cape Town's ongoing story of innovation and tradition.",
+    author: "Grace Graves",
+    title: "The Soul of Cape Town: A Local's View",
     city: "Cape Town",
-    rating: 4.2,
-    date: "2024-10-11"
+    rating: 4.3,
+    date: "2023-07-01"
   },
   {
     id: "city-testimonial-cape-town-9",
-    quote: "I came to Cape Town for work but stayed for the professional network. Best decision I ever made.",
-    author: "Hannah Rodriguez",
-    title: "Cape Town Through a Resident's Eyes",
+    quote: "After moving to Cape Town 3 years ago, I fell in love with the civic engagement of this place. It's truly special.",
+    author: "Alexander Wang",
+    title: "What Makes Cape Town Feel Like Family",
     city: "Cape Town",
-    rating: 4.6,
-    date: "2024-07-07"
-  },
-  {
-    id: "city-testimonial-cape-town-10",
-    quote: "The luxurious neighborhoods in Cape Town each have their own character, which keeps life interesting year after year.",
-    author: "Scarlett Hayes",
-    title: "Discovering Home in Cape Town",
-    city: "Cape Town",
-    rating: 4,
-    date: "2023-12-15"
+    rating: 5,
+    date: "2024-12-02"
   }
 ];

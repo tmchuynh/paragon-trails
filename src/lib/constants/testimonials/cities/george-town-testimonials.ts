@@ -6,56 +6,56 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const georgetownTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-george-town-1",
-    quote: "Every weekend in George Town brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
-    author: "George Mitchell",
-    title: "George Town Living: Worth Every Moment",
+    quote: "The {TRANQUILITY_FEATURE} in George Town offers a peaceful retreat from the busy world.",
+    author: "Sarah Coleman",
+    title: "George Town: Beyond the Tourist Experience",
     city: "George Town",
-    rating: 4.7,
-    date: "2025-10-13"
+    rating: 4.2,
+    date: "2024-02-19"
   },
   {
     id: "city-testimonial-george-town-2",
-    quote: "As a decade-long resident of George Town, I can't imagine living anywhere else. The artisan workshops here is something you can't find elsewhere.",
-    author: "Melissa Douglas",
-    title: "Why I’m Proud to Call George Town Home",
+    quote: "Every weekend in George Town brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
+    author: "Alexa Williams",
+    title: "George Town: More Than Just a Place",
     city: "George Town",
-    rating: 4.4,
-    date: "2025-05-01"
+    rating: 4.6,
+    date: "2025-09-16"
   },
   {
     id: "city-testimonial-george-town-3",
-    quote: "The summer street fairs in George Town is something I look forward to every year. It's what makes living here magical.",
-    author: "Joel Martinez",
-    title: "My George Town Story: Life as a Resident",
+    quote: "The people of George Town are incredibly welcoming and have made me feel at home since day one.",
+    author: "Alexander Nguyen",
+    title: "Living and Thriving in George Town",
     city: "George Town",
-    rating: 4.7,
-    date: "2025-10-23"
+    rating: 4.9,
+    date: "2025-11-16"
   },
   {
     id: "city-testimonial-george-town-4",
-    quote: "One of the best things about living in George Town is the {ACCESSIBILITY_FEATURE}—it makes everything so convenient.",
-    author: "Maya Brooks",
-    title: "The Unexpected Joys of George Town Living",
+    quote: "Despite its size, George Town manages to feel {SMALL_TOWN_QUALITY}, which is rare and wonderful.",
+    author: "Genesis Hudson",
+    title: "Discovering Home in George Town",
     city: "George Town",
-    rating: 4.4,
-    date: "2023-01-12"
+    rating: 4.5,
+    date: "2024-06-28"
   },
   {
     id: "city-testimonial-george-town-5",
-    quote: "No two days are the same living in George Town. The {DYNAMIC_ASPECT} keeps me excited to wake up every morning.",
-    author: "Nicholas Curtis",
-    title: "Why George Town Keeps Getting Better",
+    quote: "From my apartment in George Town, I can explore vibrant street art. Where else could you do that?",
+    author: "Aaron Baker",
+    title: "Living the George Town Lifestyle",
     city: "George Town",
-    rating: 4.7,
-    date: "2023-09-05"
+    rating: 4.2,
+    date: "2025-04-06"
   },
   {
     id: "city-testimonial-george-town-6",
-    quote: "The artisanal food shops in George Town makes everyday life feel like an adventure. I've been here 25 years and still discover new things.",
-    author: "Henry Gardner",
-    title: "The Challenges and Charms of Living in George Town",
+    quote: "Living here means being a part of George Town's ongoing story of innovation and tradition.",
+    author: "Sean Watson",
+    title: "Life in George Town: A Local Perspective",
     city: "George Town",
     rating: 4.2,
-    date: "2023-03-17"
+    date: "2025-10-25"
   }
 ];

@@ -6,56 +6,65 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const bermudaTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-bermuda-1",
-    quote: "If you want a city that offers {LIFESTYLE_BENEFIT}, Bermuda is the place to be.",
-    author: "Maya Dunn",
-    title: "The Beauty of Everyday Life in Bermuda",
+    quote: "The cost of living in Bermuda is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
+    author: "Lily Morgan",
+    title: "The True Character of Bermuda",
     city: "Bermuda",
-    rating: 4.6,
-    date: "2023-10-20"
+    rating: 4,
+    date: "2025-06-11"
   },
   {
     id: "city-testimonial-bermuda-2",
-    quote: "Living in Bermuda means experiencing historic tours on a daily basis, which is why I could never leave.",
-    author: "Gerald Moore",
-    title: "How Bermuda Changed My Life",
+    quote: "The balance of cutting-edge technology and nature conservation in Bermuda creates a quality of life that's hard to find elsewhere.",
+    author: "Layla Cooper",
+    title: "Bermuda: Beyond the Tourist Experience",
     city: "Bermuda",
     rating: 4.2,
-    date: "2023-07-11"
+    date: "2025-12-05"
   },
   {
     id: "city-testimonial-bermuda-3",
-    quote: "The {GREEN_SPACES} in Bermuda offer a perfect escape from the urban buzz without leaving the city limits.",
-    author: "Noah Suzuki",
-    title: "The Soul of Bermuda: A Local's View",
+    quote: "From my apartment in Bermuda, I can participate in community gardens. Where else could you do that?",
+    author: "Maria Jones",
+    title: "Bermuda's Hidden Treasures for Locals",
     city: "Bermuda",
-    rating: 4.9,
-    date: "2023-09-27"
+    rating: 4.2,
+    date: "2023-06-21"
   },
   {
     id: "city-testimonial-bermuda-4",
-    quote: "I've found that Bermuda's {TRANSPORT_FEATURE} really makes getting around effortless and enjoyable.",
-    author: "Boris Williams",
-    title: "My Bermuda Story: Life as a Resident",
+    quote: "The mix of old and new in Bermuda's architecture and culture keeps the city feeling fresh yet grounded.",
+    author: "Jane Parker",
+    title: "Bermuda: A City That Grows With You",
     city: "Bermuda",
-    rating: 4.6,
-    date: "2025-10-07"
+    rating: 4.3,
+    date: "2025-11-11"
   },
   {
     id: "city-testimonial-bermuda-5",
-    quote: "The efficient public transit in Bermuda makes everyday life feel like an adventure. I've been here 7 years and still discover new things.",
-    author: "Benjamin Baker",
-    title: "Why Bermuda Keeps Getting Better",
+    quote: "Bermuda's street art scene has become central to my life here. I couldn't imagine living without it now.",
+    author: "Daniel Payne",
+    title: "What Makes Bermuda Special to Live In",
     city: "Bermuda",
-    rating: 4.2,
-    date: "2024-05-20"
+    rating: 4.6,
+    date: "2023-04-15"
   },
   {
     id: "city-testimonial-bermuda-6",
-    quote: "Bermuda's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
-    author: "Michelle Wang",
-    title: "Why Bermuda Is a Place to Grow",
+    quote: "Raising my family in Bermuda gives us access to enrichment activities, which is truly invaluable.",
+    author: "Patricia Dubois",
+    title: "Bermuda Living: Worth Every Moment",
     city: "Bermuda",
     rating: 4.9,
-    date: "2024-11-04"
+    date: "2025-02-14"
+  },
+  {
+    id: "city-testimonial-bermuda-7",
+    quote: "The botanical gardens in Bermuda makes everyday life feel like an adventure. I've been here 5 years and still discover new things.",
+    author: "Barbara Warren",
+    title: "What Makes Bermuda Uniquely Livable",
+    city: "Bermuda",
+    rating: 4.1,
+    date: "2023-08-01"
   }
 ];

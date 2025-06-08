@@ -6,83 +6,74 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const miamiTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-miami-1",
-    quote: "As someone who's lived in many cities, I can say that Miami's innovative design is unmatched anywhere else.",
-    author: "Eleanor Harper",
-    title: "Why Miami Keeps Getting Better",
+    quote: "The artistic neighborhoods in Miami each have their own character, which keeps life interesting year after year.",
+    author: "Evelyn Kim",
+    title: "What I Love About Living in Miami",
     city: "Miami",
-    rating: 4.5,
-    date: "2023-05-23"
+    rating: 4.4,
+    date: "2023-02-03"
   },
   {
     id: "city-testimonial-miami-2",
-    quote: "One of my favorite parts about living in Miami is the {MARKET_OR_SHOPPING_FEATURE} just around the corner.",
-    author: "William Dunn",
-    title: "Why I Chose Miami as Home",
+    quote: "The cost of living in Miami is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
+    author: "William Graves",
+    title: "The Joys of Slow Living in Miami",
     city: "Miami",
-    rating: 4.3,
-    date: "2025-04-25"
+    rating: 4.9,
+    date: "2023-02-22"
   },
   {
     id: "city-testimonial-miami-3",
-    quote: "The cost of living in Miami is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
-    author: "Dorothy Bennett",
-    title: "Life in Miami: A Local Perspective",
+    quote: "Living in Miami means experiencing historical richness on a daily basis, which is why I could never leave.",
+    author: "Victor Morgan",
+    title: "My Corner of Miami",
     city: "Miami",
-    rating: 4,
-    date: "2024-06-06"
+    rating: 4.2,
+    date: "2023-01-21"
   },
   {
     id: "city-testimonial-miami-4",
-    quote: "From my apartment in Miami, I can attend open-air theater performances. Where else could you do that?",
-    author: "John Reed",
-    title: "Living the Miami Lifestyle",
+    quote: "The cost of living in Miami is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
+    author: "Youssef Young",
+    title: "My Corner of Miami",
     city: "Miami",
-    rating: 4.8,
-    date: "2024-06-10"
+    rating: 4.5,
+    date: "2023-12-10"
   },
   {
     id: "city-testimonial-miami-5",
-    quote: "Living in Miami means being surrounded by city skylines, which feeds my soul every day.",
-    author: "Kenneth Johnson",
-    title: "A Resident's Guide to Living Well in Miami",
+    quote: "Miami's historical scene has become central to my life here. I couldn't imagine living without it now.",
+    author: "Austin Brown",
+    title: "Living and Thriving in Miami",
     city: "Miami",
-    rating: 4.9,
-    date: "2025-05-10"
+    rating: 4.1,
+    date: "2023-06-02"
   },
   {
     id: "city-testimonial-miami-6",
-    quote: "The nightlife in Miami is vibrant and full of {ENTERTAINMENT_FEATURE} for everyone.",
-    author: "Johnny Jones",
-    title: "The Soul of Miami: A Local's View",
+    quote: "One of the best things about living in Miami is the {ACCESSIBILITY_FEATURE}—it makes everything so convenient.",
+    author: "Benjamin Brooks",
+    title: "Uncovering the Layers of Miami",
     city: "Miami",
-    rating: 4.4,
-    date: "2023-11-09"
+    rating: 4.1,
+    date: "2024-02-17"
   },
   {
     id: "city-testimonial-miami-7",
-    quote: "From my apartment in Miami, I can enjoy waterfront dining. Where else could you do that?",
-    author: "Olivia Suzuki",
-    title: "How Miami Balances Tradition and Innovation",
+    quote: "What most people don't realize about living in Miami is how quiet it actually is. I've found my true home here.",
+    author: "Lucas Dubois",
+    title: "The Community Spirit That Defines Miami",
     city: "Miami",
-    rating: 4.7,
-    date: "2025-05-11"
+    rating: 4.2,
+    date: "2023-05-15"
   },
   {
     id: "city-testimonial-miami-8",
-    quote: "The people of Miami are incredibly welcoming and have made me feel at home since day one.",
-    author: "Ryan Reeves",
-    title: "Life in Miami: A Local Perspective",
+    quote: "Living here means being a part of Miami's ongoing story of innovation and tradition.",
+    author: "Ahmed Palmer",
+    title: "Miami: A City That Grows With You",
     city: "Miami",
-    rating: 4.7,
-    date: "2025-04-28"
-  },
-  {
-    id: "city-testimonial-miami-9",
-    quote: "The historical significance of Miami adds a depth to daily life that I truly cherish.",
-    author: "Willie Anderson",
-    title: "Life in Miami: A Local Perspective",
-    city: "Miami",
-    rating: 4.4,
-    date: "2023-11-02"
+    rating: 4.2,
+    date: "2024-10-01"
   }
 ];

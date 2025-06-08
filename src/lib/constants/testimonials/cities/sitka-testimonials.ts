@@ -6,47 +6,47 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const sitkaTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-sitka-1",
-    quote: "The art and creativity flowing through Sitka is inspiring. It feels like living inside a masterpiece.",
-    author: "Benjamin Young",
-    title: "The Soul of Sitka: A Local's View",
+    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Sitka make daily life convenient and stress-free.",
+    author: "Matthew Warren",
+    title: "Why Sitka Feels Like Home",
     city: "Sitka",
-    rating: 5,
-    date: "2024-12-21"
+    rating: 4.5,
+    date: "2025-02-17"
   },
   {
     id: "city-testimonial-sitka-2",
-    quote: "Sitka isn't just where I live—it's part of my identity now. The urban convenience has shaped who I am.",
-    author: "Amelia Fisher",
-    title: "What Makes Sitka Uniquely Livable",
+    quote: "I love how Sitka celebrates {FESTIVAL_OR_EVENT}, it brings so much joy and community spirit.",
+    author: "Kevin Gonzalez",
+    title: "The Everyday Magic of Sitka",
     city: "Sitka",
-    rating: 4.1,
-    date: "2024-03-27"
+    rating: 4.3,
+    date: "2025-08-15"
   },
   {
     id: "city-testimonial-sitka-3",
-    quote: "One of the best things about living in Sitka is the {ACCESSIBILITY_FEATURE}—it makes everything so convenient.",
-    author: "Amina Kowalski",
-    title: "Sitka: A City That Grows With You",
+    quote: "The historic architecture in Sitka makes everyday life feel like an adventure. I've been here 7 years and still discover new things.",
+    author: "Timothy Keller",
+    title: "My Corner of Sitka",
     city: "Sitka",
-    rating: 4.6,
-    date: "2024-12-04"
+    rating: 4.2,
+    date: "2023-02-15"
   },
   {
     id: "city-testimonial-sitka-4",
-    quote: "The {TRANQUILITY_FEATURE} in Sitka offers a peaceful retreat from the busy world.",
-    author: "Patrick Jansen",
-    title: "The Neighborhoods That Make Sitka Home",
+    quote: "Living in Sitka means being surrounded by diverse neighborhoods, which feeds my soul every day.",
+    author: "Layla White",
+    title: "The Vibrant Life of Sitka Residents",
     city: "Sitka",
-    rating: 4.7,
-    date: "2024-08-07"
+    rating: 4.6,
+    date: "2024-04-13"
   },
   {
     id: "city-testimonial-sitka-5",
-    quote: "What really surprised me about Sitka is its {DIVERSITY_FEATURE} — it’s a true melting pot.",
-    author: "Helen Nakamura",
-    title: "A Resident's Guide to Living Well in Sitka",
+    quote: "The botanical gardens in Sitka makes everyday life feel like an adventure. I've been here 20 years and still discover new things.",
+    author: "Betty White",
+    title: "Uncovering the Layers of Sitka",
     city: "Sitka",
     rating: 4.2,
-    date: "2024-06-09"
+    date: "2025-04-14"
   }
 ];

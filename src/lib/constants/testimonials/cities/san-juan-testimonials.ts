@@ -6,56 +6,47 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const sanjuanTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-san-juan-1",
-    quote: "From my apartment in San Juan, I can take classes at renowned institutions. Where else could you do that?",
-    author: "Joan Hamilton",
-    title: "Discovering Home in San Juan",
+    quote: "The heritage museums in San Juan makes everyday life feel like an adventure. I've been here 8 years and still discover new things.",
+    author: "Jesse Crawford",
+    title: "What Makes San Juan Uniquely Livable",
     city: "San Juan",
-    rating: 4.7,
-    date: "2024-09-08"
+    rating: 4.1,
+    date: "2025-06-14"
   },
   {
     id: "city-testimonial-san-juan-2",
-    quote: "Living here means being a part of San Juan's ongoing story of innovation and tradition.",
-    author: "Brandon Mason",
-    title: "The True Character of San Juan",
+    quote: "Living in San Juan means I get to enjoy {SPORTS_OR_OUTDOOR_ACTIVITY} year-round.",
+    author: "Sebastian Crawford",
+    title: "From Newcomer to Local in San Juan",
     city: "San Juan",
-    rating: 4.1,
-    date: "2023-02-24"
+    rating: 4.4,
+    date: "2025-06-19"
   },
   {
     id: "city-testimonial-san-juan-3",
-    quote: "Living in San Juan has opened my eyes to {PERSONAL_GROWTH_ASPECT} that I never expected.",
-    author: "Harry Anderson",
-    title: "San Juan Living: Worth Every Moment",
+    quote: "The historical significance of San Juan adds a depth to daily life that I truly cherish.",
+    author: "Zachary Reeves",
+    title: "The Soul of San Juan: A Local's View",
     city: "San Juan",
-    rating: 4.3,
-    date: "2024-11-02"
+    rating: 4.7,
+    date: "2025-04-09"
   },
   {
     id: "city-testimonial-san-juan-4",
-    quote: "The people of San Juan are incredibly welcoming and have made me feel at home since day one.",
-    author: "Jessica Williams",
-    title: "Finding Inspiration Every Day in San Juan",
+    quote: "San Juan isn't just where I live—it's part of my identity now. The street art culture has shaped who I am.",
+    author: "Philip Griffin",
+    title: "The Community Spirit That Defines San Juan",
     city: "San Juan",
-    rating: 4,
-    date: "2024-08-11"
+    rating: 4.2,
+    date: "2023-07-16"
   },
   {
     id: "city-testimonial-san-juan-5",
-    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in San Juan make daily life convenient and stress-free.",
-    author: "Laura Jones",
-    title: "Why San Juan Feels Like Home",
+    quote: "Living in San Juan means I get to enjoy {SPORTS_OR_OUTDOOR_ACTIVITY} year-round.",
+    author: "Pamela Mitchell",
+    title: "Finding Inspiration Every Day in San Juan",
     city: "San Juan",
-    rating: 4.3,
-    date: "2024-03-14"
-  },
-  {
-    id: "city-testimonial-san-juan-6",
-    quote: "As a established resident of San Juan, I can't imagine living anywhere else. The theater scene here is something you can't find elsewhere.",
-    author: "Wei Rodriguez",
-    title: "The Community Spirit That Defines San Juan",
-    city: "San Juan",
-    rating: 4.4,
-    date: "2023-02-08"
+    rating: 4.7,
+    date: "2024-03-19"
   }
 ];

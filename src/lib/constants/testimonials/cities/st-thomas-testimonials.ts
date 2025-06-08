@@ -6,74 +6,47 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const stthomasTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-st-thomas-1",
-    quote: "The people of St Thomas are incredibly welcoming and have made me feel at home since day one.",
-    author: "Roger Price",
-    title: "Stories From the Streets of St Thomas",
+    quote: "Living in St Thomas has opened my eyes to {PERSONAL_GROWTH_ASPECT} that I never expected.",
+    author: "Claire Parker",
+    title: "A Love Letter to St Thomas",
     city: "St Thomas",
-    rating: 4.5,
-    date: "2025-04-05"
+    rating: 4.1,
+    date: "2024-03-27"
   },
   {
     id: "city-testimonial-st-thomas-2",
-    quote: "The sense of {SAFETY} in St Thomas makes me feel comfortable raising my kids here.",
-    author: "Angela Taylor",
-    title: "St Thomas: Where I Found My Community",
+    quote: "The nightlife in St Thomas is vibrant and full of {ENTERTAINMENT_FEATURE} for everyone.",
+    author: "William Rossi",
+    title: "What I Love About Living in St Thomas",
     city: "St Thomas",
-    rating: 4.7,
-    date: "2024-06-04"
+    rating: 4,
+    date: "2025-12-08"
   },
   {
     id: "city-testimonial-st-thomas-3",
-    quote: "The balance of dynamic economy and preserved heritage in St Thomas creates a quality of life that's hard to find elsewhere.",
-    author: "Angela da Costa",
-    title: "The Challenges and Charms of Living in St Thomas",
+    quote: "Despite its size, St Thomas manages to feel {SMALL_TOWN_QUALITY}, which is rare and wonderful.",
+    author: "Madelyn Fox",
+    title: "Living and Thriving in St Thomas",
     city: "St Thomas",
-    rating: 5,
-    date: "2024-01-27"
+    rating: 4.9,
+    date: "2023-03-26"
   },
   {
     id: "city-testimonial-st-thomas-4",
-    quote: "The {TRANQUILITY_FEATURE} in St Thomas offers a peaceful retreat from the busy world.",
-    author: "Michelle Reeves",
-    title: "St Thomas Through a Resident's Eyes",
+    quote: "St Thomas has been my home for 10-year, and the volunteer networks here is what keeps me rooted.",
+    author: "Darrell Parker",
+    title: "Why St Thomas Keeps Getting Better",
     city: "St Thomas",
-    rating: 4.4,
-    date: "2024-09-22"
+    rating: 4.5,
+    date: "2023-06-24"
   },
   {
     id: "city-testimonial-st-thomas-5",
     quote: "The {FESTIVAL_OR_EVENT} season in St Thomas brings so much excitement and pride to the community.",
-    author: "Lerato Morales",
-    title: "Why St Thomas Is a Place to Grow",
+    author: "Virginia Jackson",
+    title: "Living the St Thomas Lifestyle",
     city: "St Thomas",
-    rating: 4.6,
-    date: "2025-02-28"
-  },
-  {
-    id: "city-testimonial-st-thomas-6",
-    quote: "As someone who's lived in many cities, I can say that St Thomas's community initiatives is unmatched anywhere else.",
-    author: "Ravi Watson",
-    title: "Why I’m Proud to Call St Thomas Home",
-    city: "St Thomas",
-    rating: 4.7,
-    date: "2023-05-13"
-  },
-  {
-    id: "city-testimonial-st-thomas-7",
-    quote: "The {FESTIVAL_OR_EVENT} season in St Thomas brings so much excitement and pride to the community.",
-    author: "Bobby Anderson",
-    title: "Stories From the Streets of St Thomas",
-    city: "St Thomas",
-    rating: 5,
-    date: "2025-01-21"
-  },
-  {
-    id: "city-testimonial-st-thomas-8",
-    quote: "The sense of {SAFETY} in St Thomas makes me feel comfortable raising my kids here.",
-    author: "Dylan Anderson",
-    title: "What Makes St Thomas Uniquely Livable",
-    city: "St Thomas",
-    rating: 4.9,
-    date: "2024-07-12"
+    rating: 4.8,
+    date: "2025-05-13"
   }
 ];

@@ -6,83 +6,56 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const charlestonTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-charleston-1",
-    quote: "What I tell friends considering moving to Charleston is to appreciate the local bakeries—it's what makes daily life here so rich.",
-    author: "Benjamin Bennett",
-    title: "Why Charleston Keeps Getting Better",
+    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Charleston make daily life convenient and stress-free.",
+    author: "Isabella Gonzalez",
+    title: "The Unexpected Joys of Charleston Living",
     city: "Charleston",
-    rating: 4.2,
-    date: "2023-09-27"
+    rating: 4.1,
+    date: "2025-05-18"
   },
   {
     id: "city-testimonial-charleston-2",
-    quote: "The {FESTIVAL_OR_EVENT} season in Charleston brings so much excitement and pride to the community.",
-    author: "Elena Rodriguez",
-    title: "The Neighborhoods That Make Charleston Home",
+    quote: "Despite its size, Charleston manages to feel {SMALL_TOWN_QUALITY}, which is rare and wonderful.",
+    author: "Alice Williams",
+    title: "The Real Charleston Experience",
     city: "Charleston",
-    rating: 4.3,
-    date: "2025-08-22"
+    rating: 4.1,
+    date: "2025-01-16"
   },
   {
     id: "city-testimonial-charleston-3",
-    quote: "The theater district in Charleston makes everyday life feel like an adventure. I've been here 4 years and still discover new things.",
-    author: "Sophia Dixon",
-    title: "The Beauty of Everyday Life in Charleston",
+    quote: "Charleston isn't just where I live—it's part of my identity now. The seasonal festivals has shaped who I am.",
+    author: "Lucas Hamilton",
+    title: "What I Love About Living in Charleston",
     city: "Charleston",
-    rating: 4.6,
-    date: "2024-04-19"
+    rating: 4.3,
+    date: "2023-02-11"
   },
   {
     id: "city-testimonial-charleston-4",
-    quote: "What I love most about living in Charleston is the historic architecture. It creates such a unique atmosphere that feels like home.",
-    author: "Michelle Jones",
-    title: "My Corner of Charleston",
+    quote: "The balance of cutting-edge technology and nature conservation in Charleston creates a quality of life that's hard to find elsewhere.",
+    author: "Maya Williams",
+    title: "The Joys of Slow Living in Charleston",
     city: "Charleston",
-    rating: 4.2,
-    date: "2024-02-05"
+    rating: 4.9,
+    date: "2024-02-09"
   },
   {
     id: "city-testimonial-charleston-5",
-    quote: "The sense of {SAFETY} in Charleston makes me feel comfortable raising my kids here.",
-    author: "Omar Palmer",
-    title: "Uncovering the Layers of Charleston",
+    quote: "What most people don't realize about living in Charleston is how traditional it actually is. I've found my true home here.",
+    author: "Adeline Baker",
+    title: "Living Sustainably in Charleston",
     city: "Charleston",
-    rating: 4.2,
-    date: "2024-04-03"
+    rating: 4,
+    date: "2024-12-05"
   },
   {
     id: "city-testimonial-charleston-6",
-    quote: "The seasonal outdoor festivals in Charleston makes everyday life feel like an adventure. I've been here 5 years and still discover new things.",
-    author: "Alexa King",
-    title: "Charleston Through a Resident's Eyes",
+    quote: "The food scene in Charleston is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
+    author: "Philip Henderson",
+    title: "Finding Inspiration Every Day in Charleston",
     city: "Charleston",
-    rating: 4.4,
-    date: "2023-08-13"
-  },
-  {
-    id: "city-testimonial-charleston-7",
-    quote: "The cost of living in Charleston is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
-    author: "Amina Lee",
-    title: "The Joys of Slow Living in Charleston",
-    city: "Charleston",
-    rating: 4.8,
-    date: "2023-08-15"
-  },
-  {
-    id: "city-testimonial-charleston-8",
-    quote: "Charleston has been my home for decade-long, and the artistic collective here is what keeps me rooted.",
-    author: "Priya Baker",
-    title: "Inside the Culture of Charleston",
-    city: "Charleston",
-    rating: 4.2,
-    date: "2024-12-28"
-  },
-  {
-    id: "city-testimonial-charleston-9",
-    quote: "Living in Charleston means experiencing cultural immersion on a daily basis, which is why I could never leave.",
-    author: "Sarah Mitchell",
-    title: "Stories From the Streets of Charleston",
-    city: "Charleston",
-    rating: 5,
-    date: "2024-02-03"
+    rating: 4,
+    date: "2023-03-12"
   }
 ];

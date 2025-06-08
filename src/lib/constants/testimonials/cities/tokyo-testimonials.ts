@@ -6,92 +6,65 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const tokyoTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-tokyo-1",
-    quote: "Living in Tokyo has been one of the best decisions of my life. The historical charm here makes everyday life so enjoyable.",
-    author: "Lawrence Nash",
-    title: "Finding Inspiration Every Day in Tokyo",
+    quote: "What really surprised me about Tokyo is its {DIVERSITY_FEATURE} — it’s a true melting pot.",
+    author: "Daniel Fletcher",
+    title: "What Makes Tokyo Feel Like Family",
     city: "Tokyo",
-    rating: 4.2,
-    date: "2024-10-15"
+    rating: 4.1,
+    date: "2025-05-12"
   },
   {
     id: "city-testimonial-tokyo-2",
-    quote: "Living in Tokyo means experiencing wellness and relaxation on a daily basis, which is why I could never leave.",
-    author: "Gary Mason",
-    title: "The Vibrant Life of Tokyo Residents",
+    quote: "Living in Tokyo has been one of the best decisions of my life. The innovative architecture here makes everyday life so enjoyable.",
+    author: "Anthony Jackson",
+    title: "Inside the Culture of Tokyo",
     city: "Tokyo",
-    rating: 4,
-    date: "2025-01-23"
+    rating: 4.3,
+    date: "2023-01-15"
   },
   {
     id: "city-testimonial-tokyo-3",
-    quote: "The {FESTIVAL_OR_EVENT} season in Tokyo brings so much excitement and pride to the community.",
-    author: "Charlotte West",
-    title: "From Newcomer to Local in Tokyo",
+    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Tokyo make daily life convenient and stress-free.",
+    author: "Sean Knight",
+    title: "Why Tokyo Feels Like Home",
     city: "Tokyo",
-    rating: 4.3,
-    date: "2025-03-11"
+    rating: 4.4,
+    date: "2024-08-18"
   },
   {
     id: "city-testimonial-tokyo-4",
-    quote: "The balance of urban convenience and nature access in Tokyo creates a quality of life that's hard to find elsewhere.",
-    author: "Dorothy Parker",
-    title: "Living and Thriving in Tokyo",
+    quote: "Living in Tokyo has opened my eyes to {PERSONAL_GROWTH_ASPECT} that I never expected.",
+    author: "Victor Spencer",
+    title: "Why I’m Proud to Call Tokyo Home",
     city: "Tokyo",
-    rating: 4,
-    date: "2025-03-26"
+    rating: 4.3,
+    date: "2024-10-08"
   },
   {
     id: "city-testimonial-tokyo-5",
-    quote: "The historical significance of Tokyo adds a depth to daily life that I truly cherish.",
-    author: "Riley Ali",
-    title: "How Tokyo Balances Tradition and Innovation",
+    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Tokyo make daily life convenient and stress-free.",
+    author: "Charlotte Fisher",
+    title: "Tokyo: Beyond the Tourist Experience",
     city: "Tokyo",
-    rating: 4.5,
-    date: "2024-05-15"
+    rating: 4.8,
+    date: "2024-01-23"
   },
   {
     id: "city-testimonial-tokyo-6",
-    quote: "The network of parks in Tokyo makes everyday life feel like an adventure. I've been here 15 years and still discover new things.",
-    author: "Barbara Watson",
-    title: "The Soul of Tokyo: A Local's View",
+    quote: "The food scene in Tokyo is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
+    author: "Nicholas Miller",
+    title: "The Everyday Magic of Tokyo",
     city: "Tokyo",
-    rating: 4.4,
-    date: "2023-02-23"
+    rating: 5,
+    date: "2023-12-09"
   },
   {
     id: "city-testimonial-tokyo-7",
-    quote: "The cost of living in Tokyo is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
-    author: "Christian Cooper",
-    title: "From Newcomer to Local in Tokyo",
-    city: "Tokyo",
-    rating: 4.8,
-    date: "2024-05-27"
-  },
-  {
-    id: "city-testimonial-tokyo-8",
-    quote: "As a lifelong resident of Tokyo, I can't imagine living anywhere else. The green initiatives here is something you can't find elsewhere.",
-    author: "Nicole da Costa",
-    title: "Tokyo Through a Resident's Eyes",
-    city: "Tokyo",
-    rating: 4.6,
-    date: "2024-07-18"
-  },
-  {
-    id: "city-testimonial-tokyo-9",
     quote: "The people of Tokyo are incredibly welcoming and have made me feel at home since day one.",
-    author: "Chloe Hayes",
-    title: "Tokyo: Where I Found My Community",
+    author: "Amanda Chen",
+    title: "Why I’m Proud to Call Tokyo Home",
     city: "Tokyo",
-    rating: 4.7,
-    date: "2023-12-21"
-  },
-  {
-    id: "city-testimonial-tokyo-10",
-    quote: "The food scene in Tokyo is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
-    author: "Ali Clark",
-    title: "How Tokyo Changed My Life",
-    city: "Tokyo",
-    rating: 4.5,
-    date: "2024-08-04"
+    rating: 4.1,
+    date: "2023-08-13"
   }
 ];

@@ -6,74 +6,92 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const milanTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-milan-1",
-    quote: "Community events and festivals in Milan bring everyone together, making the {COMMUNITY_ASPECT} really stand out.",
-    author: "Sarah Garcia",
-    title: "Why Milan Is a Place to Grow",
+    quote: "Raising my family in Milan gives us access to accessible playgrounds, which is truly invaluable.",
+    author: "Donna Henderson",
+    title: "Why Milan Keeps Getting Better",
     city: "Milan",
     rating: 4.8,
-    date: "2024-02-25"
+    date: "2024-05-05"
   },
   {
     id: "city-testimonial-milan-2",
-    quote: "One thing I didn’t expect when moving to Milan was the {WEATHER_FEATURE}—it’s truly refreshing.",
-    author: "Rachel Bennett",
-    title: "The Neighborhoods That Make Milan Home",
+    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Milan make daily life convenient and stress-free.",
+    author: "Hannah Young",
+    title: "Finding Balance in Milan",
     city: "Milan",
-    rating: 4.1,
-    date: "2025-05-01"
+    rating: 4.8,
+    date: "2024-08-16"
   },
   {
     id: "city-testimonial-milan-3",
-    quote: "Milan's design scene has become central to my life here. I couldn't imagine living without it now.",
-    author: "Stephanie Price",
-    title: "Life in Milan: A Local Perspective",
+    quote: "The nightlife in Milan is vibrant and full of {ENTERTAINMENT_FEATURE} for everyone.",
+    author: "Jack Warren",
+    title: "Stories From the Streets of Milan",
     city: "Milan",
-    rating: 4.2,
-    date: "2024-04-26"
+    rating: 4.8,
+    date: "2024-01-03"
   },
   {
     id: "city-testimonial-milan-4",
-    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Milan make daily life convenient and stress-free.",
-    author: "Ahmed Ali",
-    title: "What Makes Milan Uniquely Livable",
+    quote: "Community events and festivals in Milan bring everyone together, making the {COMMUNITY_ASPECT} really stand out.",
+    author: "Skylar Ellis",
+    title: "Why I Chose Milan as Home",
     city: "Milan",
-    rating: 4.4,
-    date: "2023-12-22"
+    rating: 4.3,
+    date: "2025-10-03"
   },
   {
     id: "city-testimonial-milan-5",
-    quote: "Milan's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
-    author: "Evelyn Reeves",
-    title: "Why Milan Keeps Getting Better",
+    quote: "Living in Milan means experiencing historical richness on a daily basis, which is why I could never leave.",
+    author: "Leah Cooper",
+    title: "Discovering Home in Milan",
     city: "Milan",
-    rating: 5,
-    date: "2025-11-23"
+    rating: 4.9,
+    date: "2023-09-24"
   },
   {
     id: "city-testimonial-milan-6",
-    quote: "No two days are the same living in Milan. The {DYNAMIC_ASPECT} keeps me excited to wake up every morning.",
-    author: "Miguel Graves",
-    title: "Why I Chose Milan as Home",
+    quote: "The {FESTIVAL_OR_EVENT} season in Milan brings so much excitement and pride to the community.",
+    author: "Andrew Kowalski",
+    title: "The Vibrant Life of Milan Residents",
     city: "Milan",
-    rating: 4.5,
-    date: "2023-09-19"
+    rating: 4.6,
+    date: "2025-07-23"
   },
   {
     id: "city-testimonial-milan-7",
-    quote: "As a devoted resident of Milan, I can't imagine living anywhere else. The healthcare system here is something you can't find elsewhere.",
-    author: "Russell Brooks",
-    title: "The Challenges and Charms of Living in Milan",
+    quote: "The {TRANQUILITY_FEATURE} in Milan offers a peaceful retreat from the busy world.",
+    author: "Fatima Wood",
+    title: "Why Milan Feels Like Home",
     city: "Milan",
-    rating: 4.1,
-    date: "2023-04-01"
+    rating: 4.5,
+    date: "2024-10-12"
   },
   {
     id: "city-testimonial-milan-8",
-    quote: "Living in Milan has been one of the best decisions of my life. The eco-consciousness here makes everyday life so enjoyable.",
-    author: "Genesis Thomas",
-    title: "What I Love About Living in Milan",
+    quote: "The mix of old and new in Milan's architecture and culture keeps the city feeling fresh yet grounded.",
+    author: "Emma Johnson",
+    title: "Stories From the Streets of Milan",
+    city: "Milan",
+    rating: 4.9,
+    date: "2025-01-12"
+  },
+  {
+    id: "city-testimonial-milan-9",
+    quote: "The art and creativity flowing through Milan is inspiring. It feels like living inside a masterpiece.",
+    author: "Rachel Montgomery",
+    title: "Milan: A City That Grows With You",
+    city: "Milan",
+    rating: 4.8,
+    date: "2025-07-16"
+  },
+  {
+    id: "city-testimonial-milan-10",
+    quote: "The cost of living in Milan is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
+    author: "Avery Wells",
+    title: "The Soul of Milan: A Local's View",
     city: "Milan",
     rating: 4.1,
-    date: "2023-02-07"
+    date: "2024-12-10"
   }
 ];

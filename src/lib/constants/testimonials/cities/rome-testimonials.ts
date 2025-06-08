@@ -6,83 +6,56 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const romeTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-rome-1",
-    quote: "Rome has been my home for established, and the philanthropic circles here is what keeps me rooted.",
-    author: "Priya White",
-    title: "Why I Chose Rome as Home",
+    quote: "I came to Rome for work but stayed for the outdoor activities. Best decision I ever made.",
+    author: "Hassan Holloway",
+    title: "The Vibrant Life of Rome Residents",
     city: "Rome",
-    rating: 5,
-    date: "2023-09-12"
+    rating: 4.9,
+    date: "2025-09-14"
   },
   {
     id: "city-testimonial-rome-2",
-    quote: "The community-oriented neighborhoods in Rome each have their own character, which keeps life interesting year after year.",
-    author: "Laura Garcia",
-    title: "Discovering Home in Rome",
+    quote: "The sense of {SAFETY} in Rome makes me feel comfortable raising my kids here.",
+    author: "Katherine Jennings",
+    title: "The Beauty of Everyday Life in Rome",
     city: "Rome",
-    rating: 4.7,
-    date: "2023-12-27"
+    rating: 4,
+    date: "2023-04-19"
   },
   {
     id: "city-testimonial-rome-3",
-    quote: "Raising my family in Rome gives us access to parent support groups, which is truly invaluable.",
-    author: "Adeline Holloway",
-    title: "Why Rome Keeps Getting Better",
+    quote: "The {FESTIVAL_OR_EVENT} season in Rome brings so much excitement and pride to the community.",
+    author: "Olivia Johnson",
+    title: "Living and Thriving in Rome",
     city: "Rome",
-    rating: 4.7,
-    date: "2025-09-01"
+    rating: 4.3,
+    date: "2023-12-16"
   },
   {
     id: "city-testimonial-rome-4",
-    quote: "One of the best things about living in Rome is the {ACCESSIBILITY_FEATURE}—it makes everything so convenient.",
-    author: "Sarah Ivanov",
-    title: "The Challenges and Charms of Living in Rome",
+    quote: "The rooftop bars in Rome makes everyday life feel like an adventure. I've been here 20 years and still discover new things.",
+    author: "Stephanie Fletcher",
+    title: "Finding Balance in Rome",
     city: "Rome",
-    rating: 4.3,
-    date: "2023-05-24"
+    rating: 4.5,
+    date: "2023-05-21"
   },
   {
     id: "city-testimonial-rome-5",
-    quote: "Living in Rome has opened my eyes to {PERSONAL_GROWTH_ASPECT} that I never expected.",
-    author: "Gerald Jackson",
-    title: "Life in Rome: A Local Perspective",
+    quote: "Every weekend in Rome brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
+    author: "Amanda Dean",
+    title: "The True Character of Rome",
     city: "Rome",
-    rating: 4.7,
-    date: "2025-01-16"
+    rating: 4.6,
+    date: "2024-02-07"
   },
   {
     id: "city-testimonial-rome-6",
-    quote: "Living in Rome means experiencing volunteering opportunities on a daily basis, which is why I could never leave.",
-    author: "Louis Wilson",
-    title: "How Rome Changed My Life",
+    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Rome make daily life convenient and stress-free.",
+    author: "Sophia Lewis",
+    title: "The Beauty of Everyday Life in Rome",
     city: "Rome",
-    rating: 4.9,
-    date: "2025-12-13"
-  },
-  {
-    id: "city-testimonial-rome-7",
-    quote: "The {GREEN_SPACES} in Rome offer a perfect escape from the urban buzz without leaving the city limits.",
-    author: "Ahmed Hayes",
-    title: "My Rome Story: Life as a Resident",
-    city: "Rome",
-    rating: 4.2,
-    date: "2025-02-12"
-  },
-  {
-    id: "city-testimonial-rome-8",
-    quote: "After moving to Rome 4 years ago, I fell in love with the outdoor accessibility of this place. It's truly special.",
-    author: "Anthony Hawkins",
-    title: "The True Character of Rome",
-    city: "Rome",
-    rating: 4.3,
-    date: "2024-01-10"
-  },
-  {
-    id: "city-testimonial-rome-9",
-    quote: "The {TRANQUILITY_FEATURE} in Rome offers a peaceful retreat from the busy world.",
-    author: "Mason Fletcher",
-    title: "How Rome Balances Tradition and Innovation",
-    city: "Rome",
-    rating: 4.5,
-    date: "2023-02-18"
+    rating: 4.6,
+    date: "2023-07-03"
   }
 ];

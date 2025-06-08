@@ -6,65 +6,83 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const osloTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-oslo-1",
-    quote: "The spring yoga in the park in Oslo is something I look forward to every year. It's what makes living here magical.",
-    author: "Ethan Ivanov",
-    title: "How Oslo Changed My Life",
+    quote: "The food scene in Oslo is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
+    author: "Jennifer Coleman",
+    title: "The Joys of Slow Living in Oslo",
     city: "Oslo",
-    rating: 4.3,
-    date: "2024-02-18"
+    rating: 4.6,
+    date: "2023-06-18"
   },
   {
     id: "city-testimonial-oslo-2",
-    quote: "I appreciate how Oslo balances {TECH_INNOVATION} with historic charm perfectly.",
-    author: "Aisha Morgan",
-    title: "The True Character of Oslo",
+    quote: "As someone who's lived in many cities, I can say that Oslo's public art installations is unmatched anywhere else.",
+    author: "Liam Gonzalez",
+    title: "A Resident's Guide to Living Well in Oslo",
     city: "Oslo",
-    rating: 4.2,
-    date: "2023-07-15"
+    rating: 4.9,
+    date: "2025-05-17"
   },
   {
     id: "city-testimonial-oslo-3",
-    quote: "What I love most about living in Oslo is the network of bike paths. It creates such a unique atmosphere that feels like home.",
-    author: "Larry Jennings",
-    title: "How Oslo Balances Tradition and Innovation",
+    quote: "I came to Oslo for work but stayed for the natural environment. Best decision I ever made.",
+    author: "Victoria Jones",
+    title: "The Community Spirit That Defines Oslo",
     city: "Oslo",
-    rating: 4.9,
-    date: "2023-07-18"
+    rating: 4.5,
+    date: "2025-07-23"
   },
   {
     id: "city-testimonial-oslo-4",
-    quote: "Living in Oslo has been one of the best decisions of my life. The nightlife here makes everyday life so enjoyable.",
-    author: "Helen Morgan",
+    quote: "Every weekend in Oslo brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
+    author: "Amelia Payne",
     title: "The Community Spirit That Defines Oslo",
     city: "Oslo",
     rating: 4.1,
-    date: "2025-03-03"
+    date: "2024-02-04"
   },
   {
     id: "city-testimonial-oslo-5",
-    quote: "The art and creativity flowing through Oslo is inspiring. It feels like living inside a masterpiece.",
-    author: "Jonathan Dunn",
-    title: "Why I’m Proud to Call Oslo Home",
+    quote: "What I tell friends considering moving to Oslo is to appreciate the architectural details—it's what makes daily life here so rich.",
+    author: "Mia Holloway",
+    title: "The Real Oslo Experience",
     city: "Oslo",
-    rating: 4.6,
-    date: "2024-10-10"
+    rating: 4.8,
+    date: "2025-01-26"
   },
   {
     id: "city-testimonial-oslo-6",
-    quote: "As someone who's lived in many cities, I can say that Oslo's artistic expression is unmatched anywhere else.",
-    author: "Carlos Wells",
-    title: "Finding Balance in Oslo",
+    quote: "Oslo isn't just where I live—it's part of my identity now. The seasonal festivals has shaped who I am.",
+    author: "Vincent Parker",
+    title: "The Perfect Imperfections of Oslo",
     city: "Oslo",
     rating: 4.1,
-    date: "2023-02-23"
+    date: "2023-01-20"
   },
   {
     id: "city-testimonial-oslo-7",
-    quote: "The sense of {SAFETY} in Oslo makes me feel comfortable raising my kids here.",
-    author: "Gerald Harris",
-    title: "Oslo: Beyond the Tourist Experience",
+    quote: "Despite its size, Oslo manages to feel {SMALL_TOWN_QUALITY}, which is rare and wonderful.",
+    author: "Sophia Grant",
+    title: "Oslo: Where I Found My Community",
+    city: "Oslo",
+    rating: 4.1,
+    date: "2025-05-01"
+  },
+  {
+    id: "city-testimonial-oslo-8",
+    quote: "The artisanal food shops in Oslo makes everyday life feel like an adventure. I've been here 5 years and still discover new things.",
+    author: "Marcus Maxwell",
+    title: "My Oslo Story: Life as a Resident",
     city: "Oslo",
     rating: 4.8,
-    date: "2023-12-19"
+    date: "2023-01-27"
+  },
+  {
+    id: "city-testimonial-oslo-9",
+    quote: "The sense of {SAFETY} in Oslo makes me feel comfortable raising my kids here.",
+    author: "Kyle Singh",
+    title: "Oslo: More Than Just a Place",
+    city: "Oslo",
+    rating: 4.7,
+    date: "2024-05-06"
   }
 ];

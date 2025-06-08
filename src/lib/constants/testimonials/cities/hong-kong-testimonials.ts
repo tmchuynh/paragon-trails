@@ -6,92 +6,92 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const hongkongTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-hong-kong-1",
-    quote: "The historical significance of Hong Kong adds a depth to daily life that I truly cherish.",
-    author: "Lucas Fisher",
-    title: "My Corner of Hong Kong",
+    quote: "Despite its size, Hong Kong manages to feel {SMALL_TOWN_QUALITY}, which is rare and wonderful.",
+    author: "Dennis Khan",
+    title: "Life in Hong Kong: A Local Perspective",
     city: "Hong Kong",
-    rating: 4.4,
-    date: "2024-10-02"
+    rating: 4.1,
+    date: "2024-11-03"
   },
   {
     id: "city-testimonial-hong-kong-2",
-    quote: "The {FESTIVAL_OR_EVENT} season in Hong Kong brings so much excitement and pride to the community.",
-    author: "Amelia Marshall",
-    title: "Inside the Culture of Hong Kong",
+    quote: "Despite its size, Hong Kong manages to feel {SMALL_TOWN_QUALITY}, which is rare and wonderful.",
+    author: "Juan Dubois",
+    title: "From Newcomer to Local in Hong Kong",
     city: "Hong Kong",
     rating: 5,
-    date: "2024-12-06"
+    date: "2023-10-09"
   },
   {
     id: "city-testimonial-hong-kong-3",
-    quote: "As a settled resident of Hong Kong, I can't imagine living anywhere else. The local storytelling here is something you can't find elsewhere.",
-    author: "William Johnson",
-    title: "What I Love About Living in Hong Kong",
+    quote: "Living in Hong Kong has allowed me to connect deeply with {NATURE_FEATURE} nearby.",
+    author: "Kenneth Hunter",
+    title: "The Challenges and Charms of Living in Hong Kong",
     city: "Hong Kong",
     rating: 4.6,
-    date: "2024-09-12"
+    date: "2024-08-12"
   },
   {
     id: "city-testimonial-hong-kong-4",
-    quote: "The winter holiday markets in Hong Kong is something I look forward to every year. It's what makes living here magical.",
-    author: "Christopher Fox",
-    title: "The Beauty of Everyday Life in Hong Kong",
+    quote: "Living in Hong Kong means being surrounded by architectural beauty, which feeds my soul every day.",
+    author: "Aaliyah Mason",
+    title: "The Challenges and Charms of Living in Hong Kong",
     city: "Hong Kong",
-    rating: 4.1,
-    date: "2025-02-05"
+    rating: 5,
+    date: "2024-09-23"
   },
   {
     id: "city-testimonial-hong-kong-5",
-    quote: "The balance of tradition and progress in Hong Kong creates a quality of life that's hard to find elsewhere.",
-    author: "Victoria Collins",
-    title: "Hong Kong: Beyond the Tourist Experience",
+    quote: "What I love most about living in Hong Kong is the community gardens. It creates such a unique atmosphere that feels like home.",
+    author: "David Douglas",
+    title: "Inside the Culture of Hong Kong",
     city: "Hong Kong",
-    rating: 4.8,
-    date: "2023-10-03"
+    rating: 4.4,
+    date: "2023-03-25"
   },
   {
     id: "city-testimonial-hong-kong-6",
-    quote: "What most people don't realize about living in Hong Kong is how culturally rich it actually is. I've found my true home here.",
-    author: "Zoe Ellis",
-    title: "What Makes Hong Kong Feel Like Family",
+    quote: "The food scene in Hong Kong is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
+    author: "Santiago Clark",
+    title: "My Corner of Hong Kong",
     city: "Hong Kong",
-    rating: 4.4,
-    date: "2025-04-16"
+    rating: 4.7,
+    date: "2023-02-05"
   },
   {
     id: "city-testimonial-hong-kong-7",
-    quote: "The pedestrian streets in Hong Kong makes everyday life feel like an adventure. I've been here 15 years and still discover new things.",
-    author: "Victoria Spencer",
-    title: "My Corner of Hong Kong",
+    quote: "Living in Hong Kong has been one of the best decisions of my life. The boutique shopping here makes everyday life so enjoyable.",
+    author: "Adeline Wells",
+    title: "My Hong Kong Story: Life as a Resident",
     city: "Hong Kong",
-    rating: 4.8,
-    date: "2024-03-05"
+    rating: 4.6,
+    date: "2023-10-05"
   },
   {
     id: "city-testimonial-hong-kong-8",
-    quote: "What I tell friends considering moving to Hong Kong is to appreciate the historic preservation—it's what makes daily life here so rich.",
-    author: "Charlotte Dean",
-    title: "What Makes Hong Kong Special to Live In",
+    quote: "I love how Hong Kong celebrates {FESTIVAL_OR_EVENT}, it brings so much joy and community spirit.",
+    author: "Diego Carpenter",
+    title: "A Love Letter to Hong Kong",
     city: "Hong Kong",
-    rating: 4.9,
-    date: "2025-07-27"
+    rating: 4.1,
+    date: "2025-03-18"
   },
   {
     id: "city-testimonial-hong-kong-9",
-    quote: "Living in Hong Kong means experiencing artistic expression on a daily basis, which is why I could never leave.",
-    author: "Patrick Kowalski",
-    title: "Hong Kong: A City That Grows With You",
+    quote: "What most people don't realize about living in Hong Kong is how charming it actually is. I've found my true home here.",
+    author: "Carl Johnson",
+    title: "Life in Hong Kong: A Local Perspective",
     city: "Hong Kong",
-    rating: 4,
-    date: "2025-01-27"
+    rating: 4.3,
+    date: "2025-01-25"
   },
   {
     id: "city-testimonial-hong-kong-10",
-    quote: "The cost of living in Hong Kong is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
-    author: "Zola Wood",
-    title: "The Everyday Magic of Hong Kong",
+    quote: "One of my favorite parts about living in Hong Kong is the {MARKET_OR_SHOPPING_FEATURE} just around the corner.",
+    author: "Elizabeth Garcia",
+    title: "The True Character of Hong Kong",
     city: "Hong Kong",
-    rating: 4.4,
-    date: "2025-06-13"
+    rating: 4.3,
+    date: "2024-06-22"
   }
 ];

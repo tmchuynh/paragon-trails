@@ -6,92 +6,83 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const newyorkcityTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-new-york-city-1",
-    quote: "I've found that New York City's {TRANSPORT_FEATURE} really makes getting around effortless and enjoyable.",
-    author: "Jesse Russell",
-    title: "Why I Chose New York City as Home",
+    quote: "The {FESTIVAL_OR_EVENT} season in New York City brings so much excitement and pride to the community.",
+    author: "John Payne",
+    title: "Finding Balance in New York City",
     city: "New York City",
-    rating: 4,
-    date: "2023-09-24"
+    rating: 4.1,
+    date: "2024-03-03"
   },
   {
     id: "city-testimonial-new-york-city-2",
-    quote: "The art and creativity flowing through New York City is inspiring. It feels like living inside a masterpiece.",
-    author: "Bobby Knight",
-    title: "What Makes New York City Uniquely Livable",
+    quote: "What really surprised me about New York City is its {DIVERSITY_FEATURE} — it’s a true melting pot.",
+    author: "Joseph Day",
+    title: "Stories From the Streets of New York City",
     city: "New York City",
-    rating: 4.2,
-    date: "2024-09-10"
+    rating: 5,
+    date: "2023-11-03"
   },
   {
     id: "city-testimonial-new-york-city-3",
-    quote: "I came to New York City for work but stayed for the social connections. Best decision I ever made.",
-    author: "Adam Clark",
-    title: "The Community Spirit That Defines New York City",
+    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in New York City make daily life convenient and stress-free.",
+    author: "Nicholas Jackson",
+    title: "The Vibrant Life of New York City Residents",
     city: "New York City",
-    rating: 4.7,
-    date: "2025-04-24"
+    rating: 4.4,
+    date: "2024-03-16"
   },
   {
     id: "city-testimonial-new-york-city-4",
-    quote: "I came to New York City for work but stayed for the healthcare access. Best decision I ever made.",
-    author: "Amina Jansen",
-    title: "Why New York City Is a Place to Grow",
+    quote: "The food hall culture in New York City makes everyday life feel like an adventure. I've been here 15 years and still discover new things.",
+    author: "Emma Thomas",
+    title: "The Everyday Magic of New York City",
     city: "New York City",
-    rating: 4.9,
-    date: "2023-10-19"
+    rating: 4.8,
+    date: "2025-10-06"
   },
   {
     id: "city-testimonial-new-york-city-5",
-    quote: "New York City has been my home for decade-long, and the tight-knit community here is what keeps me rooted.",
-    author: "Chen Harper",
-    title: "New York City: More Than Just a Place",
+    quote: "One of my favorite parts about living in New York City is the {MARKET_OR_SHOPPING_FEATURE} just around the corner.",
+    author: "Steven Müller",
+    title: "How New York City Changed My Life",
     city: "New York City",
-    rating: 4.7,
-    date: "2025-04-20"
+    rating: 4.8,
+    date: "2025-05-03"
   },
   {
     id: "city-testimonial-new-york-city-6",
-    quote: "If you want a city that offers {LIFESTYLE_BENEFIT}, New York City is the place to be.",
-    author: "Maria Lee",
-    title: "How New York City Balances Tradition and Innovation",
+    quote: "I've found that New York City's {TRANSPORT_FEATURE} really makes getting around effortless and enjoyable.",
+    author: "Thabo Watson",
+    title: "What Makes New York City Feel Like Family",
     city: "New York City",
     rating: 4.4,
-    date: "2025-02-22"
+    date: "2025-07-10"
   },
   {
     id: "city-testimonial-new-york-city-7",
-    quote: "The {FESTIVAL_OR_EVENT} season in New York City brings so much excitement and pride to the community.",
-    author: "Alexander Curtis",
-    title: "Life in New York City: A Local Perspective",
+    quote: "Living in New York City means being surrounded by natural landscapes, which feeds my soul every day.",
+    author: "Amanda Müller",
+    title: "The Everyday Magic of New York City",
     city: "New York City",
-    rating: 4,
-    date: "2024-01-14"
+    rating: 4.1,
+    date: "2024-02-06"
   },
   {
     id: "city-testimonial-new-york-city-8",
-    quote: "Living in New York City means being surrounded by scenic hiking trails, which feeds my soul every day.",
-    author: "Stella Jennings",
-    title: "Why New York City Keeps Getting Better",
+    quote: "What most people don't realize about living in New York City is how forward-thinking it actually is. I've found my true home here.",
+    author: "Jordan Brown",
+    title: "Uncovering the Layers of New York City",
     city: "New York City",
-    rating: 4.4,
-    date: "2025-05-13"
+    rating: 4.6,
+    date: "2023-07-26"
   },
   {
     id: "city-testimonial-new-york-city-9",
-    quote: "The autumn craft fairs in New York City is something I look forward to every year. It's what makes living here magical.",
-    author: "Sophia Foster",
-    title: "Why New York City Feels Like Home",
+    quote: "What I love most about living in New York City is the local craft breweries. It creates such a unique atmosphere that feels like home.",
+    author: "Aiden Graham",
+    title: "New York City: More Than Just a Place",
     city: "New York City",
     rating: 4.8,
-    date: "2024-03-12"
-  },
-  {
-    id: "city-testimonial-new-york-city-10",
-    quote: "From my apartment in New York City, I can discover hidden local boutiques. Where else could you do that?",
-    author: "Nancy Foster",
-    title: "Stories From the Streets of New York City",
-    city: "New York City",
-    rating: 4.3,
-    date: "2023-06-12"
+    date: "2023-11-28"
   }
 ];

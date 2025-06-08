@@ -6,83 +6,65 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const copenhagenTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-copenhagen-1",
-    quote: "Copenhagen's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
-    author: "Samuel Jones",
-    title: "My Corner of Copenhagen",
+    quote: "Living in Copenhagen means experiencing work-life harmony on a daily basis, which is why I could never leave.",
+    author: "Wayne Hall",
+    title: "Discovering Home in Copenhagen",
     city: "Copenhagen",
-    rating: 4.9,
-    date: "2024-11-08"
+    rating: 4.4,
+    date: "2025-02-28"
   },
   {
     id: "city-testimonial-copenhagen-2",
-    quote: "Living in Copenhagen has been one of the best decisions of my life. The artistic soul here makes everyday life so enjoyable.",
-    author: "Sandra Knight",
-    title: "Living Sustainably in Copenhagen",
+    quote: "No two days are the same living in Copenhagen. The {DYNAMIC_ASPECT} keeps me excited to wake up every morning.",
+    author: "Jordan Palmer",
+    title: "What I Love About Living in Copenhagen",
     city: "Copenhagen",
-    rating: 4,
-    date: "2023-05-28"
+    rating: 5,
+    date: "2024-02-03"
   },
   {
     id: "city-testimonial-copenhagen-3",
-    quote: "The sense of {SAFETY} in Copenhagen makes me feel comfortable raising my kids here.",
-    author: "Henry Lee",
-    title: "Why Copenhagen Is a Place to Grow",
+    quote: "The mix of old and new in Copenhagen's architecture and culture keeps the city feeling fresh yet grounded.",
+    author: "Elena Hall",
+    title: "A Love Letter to Copenhagen",
     city: "Copenhagen",
-    rating: 4.7,
-    date: "2024-12-15"
+    rating: 4.4,
+    date: "2023-01-23"
   },
   {
     id: "city-testimonial-copenhagen-4",
-    quote: "After moving to Copenhagen 5 years ago, I fell in love with the seasonal transformations of this place. It's truly special.",
-    author: "Terry Russell",
-    title: "The True Character of Copenhagen",
+    quote: "I love how Copenhagen celebrates {FESTIVAL_OR_EVENT}, it brings so much joy and community spirit.",
+    author: "Alexander Jones",
+    title: "Copenhagen Through a Resident's Eyes",
     city: "Copenhagen",
-    rating: 4.2,
-    date: "2025-01-10"
+    rating: 4.9,
+    date: "2024-03-25"
   },
   {
     id: "city-testimonial-copenhagen-5",
-    quote: "As a 10-year resident of Copenhagen, I can't imagine living anywhere else. The music scene here is something you can't find elsewhere.",
-    author: "Deborah Payne",
-    title: "The Challenges and Charms of Living in Copenhagen",
+    quote: "What I tell friends considering moving to Copenhagen is to appreciate the craft workshops—it's what makes daily life here so rich.",
+    author: "Nora Wilson",
+    title: "Copenhagen: Beyond the Tourist Experience",
     city: "Copenhagen",
-    rating: 4.8,
-    date: "2025-06-18"
+    rating: 4.3,
+    date: "2025-09-06"
   },
   {
     id: "city-testimonial-copenhagen-6",
     quote: "The {FESTIVAL_OR_EVENT} season in Copenhagen brings so much excitement and pride to the community.",
-    author: "Ronald Campbell",
-    title: "Discovering Home in Copenhagen",
+    author: "William Jones",
+    title: "What Makes Copenhagen Uniquely Livable",
     city: "Copenhagen",
-    rating: 4.9,
-    date: "2023-01-11"
+    rating: 4.5,
+    date: "2025-02-21"
   },
   {
     id: "city-testimonial-copenhagen-7",
-    quote: "What really surprised me about Copenhagen is its {DIVERSITY_FEATURE} — it’s a true melting pot.",
-    author: "Yuki Graham",
-    title: "Why Copenhagen Keeps Getting Better",
+    quote: "The mix of old and new in Copenhagen's architecture and culture keeps the city feeling fresh yet grounded.",
+    author: "Avery Nakamura",
+    title: "A Love Letter to Copenhagen",
     city: "Copenhagen",
-    rating: 4.1,
-    date: "2023-06-14"
-  },
-  {
-    id: "city-testimonial-copenhagen-8",
-    quote: "The {FESTIVAL_OR_EVENT} season in Copenhagen brings so much excitement and pride to the community.",
-    author: "Wayne Suzuki",
-    title: "Copenhagen: More Than Just a Place",
-    city: "Copenhagen",
-    rating: 4.7,
-    date: "2025-01-07"
-  },
-  {
-    id: "city-testimonial-copenhagen-9",
-    quote: "Despite its size, Copenhagen manages to feel {SMALL_TOWN_QUALITY}, which is rare and wonderful.",
-    author: "Benjamin Porter",
-    title: "Living the Copenhagen Lifestyle",
-    city: "Copenhagen",
-    rating: 4.1,
-    date: "2025-07-27"
+    rating: 4.6,
+    date: "2024-06-27"
   }
 ];

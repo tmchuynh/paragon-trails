@@ -6,74 +6,65 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const quebeccityTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-quebec-city-1",
-    quote: "Quebec City's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
-    author: "Ana Patel",
-    title: "Uncovering the Layers of Quebec City",
+    quote: "I came to Quebec City for work but stayed for the economic opportunities. Best decision I ever made.",
+    author: "Lucas Griffin",
+    title: "Why Quebec City Is a Place to Grow",
     city: "Quebec City",
-    rating: 5,
-    date: "2023-09-09"
+    rating: 4.4,
+    date: "2025-10-23"
   },
   {
     id: "city-testimonial-quebec-city-2",
-    quote: "Quebec City's architectural scene has become central to my life here. I couldn't imagine living without it now.",
-    author: "Nicholas Moore",
-    title: "The Neighborhoods That Make Quebec City Home",
+    quote: "Quebec City isn't just where I live—it's part of my identity now. The culinary innovation has shaped who I am.",
+    author: "Sandra Marshall",
+    title: "The Community Spirit That Defines Quebec City",
     city: "Quebec City",
-    rating: 5,
-    date: "2025-05-11"
+    rating: 4.8,
+    date: "2025-08-09"
   },
   {
     id: "city-testimonial-quebec-city-3",
-    quote: "The sense of {SAFETY} in Quebec City makes me feel comfortable raising my kids here.",
-    author: "Amelia Henderson",
-    title: "Stories From the Streets of Quebec City",
+    quote: "Despite its size, Quebec City manages to feel {SMALL_TOWN_QUALITY}, which is rare and wonderful.",
+    author: "Aisha Garcia",
+    title: "The Heartbeat of Quebec City Life",
     city: "Quebec City",
-    rating: 4.5,
-    date: "2023-04-10"
+    rating: 5,
+    date: "2025-01-26"
   },
   {
     id: "city-testimonial-quebec-city-4",
-    quote: "Living in Quebec City has allowed me to connect deeply with {NATURE_FEATURE} nearby.",
-    author: "Aaron Hernandez",
-    title: "Stories From the Streets of Quebec City",
+    quote: "Every weekend in Quebec City brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
+    author: "Lily Collins",
+    title: "My Quebec City Story: Life as a Resident",
     city: "Quebec City",
-    rating: 4.6,
-    date: "2023-08-19"
+    rating: 4.4,
+    date: "2024-05-10"
   },
   {
     id: "city-testimonial-quebec-city-5",
-    quote: "The balance of urban convenience and nature access in Quebec City creates a quality of life that's hard to find elsewhere.",
-    author: "Genesis Lopez",
-    title: "The Joys of Slow Living in Quebec City",
+    quote: "Living in Quebec City means experiencing volunteering opportunities on a daily basis, which is why I could never leave.",
+    author: "Brian Smith",
+    title: "A Resident's Guide to Living Well in Quebec City",
     city: "Quebec City",
-    rating: 4.2,
-    date: "2024-10-11"
+    rating: 4.1,
+    date: "2024-01-10"
   },
   {
     id: "city-testimonial-quebec-city-6",
-    quote: "Living in Quebec City means I get to enjoy {SPORTS_OR_OUTDOOR_ACTIVITY} year-round.",
-    author: "Stella Sutton",
-    title: "Quebec City: A City That Grows With You",
+    quote: "Community events and festivals in Quebec City bring everyone together, making the {COMMUNITY_ASPECT} really stand out.",
+    author: "Diego Cooper",
+    title: "Finding Inspiration Every Day in Quebec City",
     city: "Quebec City",
-    rating: 4.7,
-    date: "2024-07-11"
+    rating: 4.2,
+    date: "2023-05-13"
   },
   {
     id: "city-testimonial-quebec-city-7",
-    quote: "Quebec City has been my home for passionate, and the digital nomads here is what keeps me rooted.",
-    author: "Aiden Ivanov",
-    title: "From Newcomer to Local in Quebec City",
+    quote: "Quebec City isn't just where I live—it's part of my identity now. The family-friendly environment has shaped who I am.",
+    author: "Youssef Brooks",
+    title: "The Heartbeat of Quebec City Life",
     city: "Quebec City",
-    rating: 4.9,
-    date: "2025-07-14"
-  },
-  {
-    id: "city-testimonial-quebec-city-8",
-    quote: "The people of Quebec City are incredibly welcoming and have made me feel at home since day one.",
-    author: "Betty Cooper",
-    title: "My Corner of Quebec City",
-    city: "Quebec City",
-    rating: 5,
-    date: "2024-06-27"
+    rating: 4.3,
+    date: "2025-05-20"
   }
 ];

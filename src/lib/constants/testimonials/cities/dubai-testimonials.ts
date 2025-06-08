@@ -6,65 +6,47 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const dubaiTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-dubai-1",
-    quote: "What I love most about living in Dubai is the local cafe scene. It creates such a unique atmosphere that feels like home.",
-    author: "Hiroshi Carpenter",
-    title: "Why Dubai Keeps Getting Better",
+    quote: "Living in Dubai means being surrounded by historic preservation, which feeds my soul every day.",
+    author: "Brian Bennett",
+    title: "Finding Inspiration Every Day in Dubai",
     city: "Dubai",
     rating: 4.8,
-    date: "2023-02-21"
+    date: "2024-01-05"
   },
   {
     id: "city-testimonial-dubai-2",
-    quote: "I've found that Dubai's {TRANSPORT_FEATURE} really makes getting around effortless and enjoyable.",
-    author: "Philip Chambers",
-    title: "The Challenges and Charms of Living in Dubai",
+    quote: "Living in Dubai has opened my eyes to {PERSONAL_GROWTH_ASPECT} that I never expected.",
+    author: "Dylan Day",
+    title: "Stories From the Streets of Dubai",
     city: "Dubai",
     rating: 4.5,
-    date: "2023-09-17"
+    date: "2024-07-27"
   },
   {
     id: "city-testimonial-dubai-3",
-    quote: "After 10 years as a Dubai local, I still appreciate the local music venues that makes this place special.",
-    author: "Arthur Murray",
-    title: "The Unexpected Joys of Dubai Living",
+    quote: "One of the best things about living in Dubai is the {ACCESSIBILITY_FEATURE}—it makes everything so convenient.",
+    author: "Joshua Graham",
+    title: "Living Sustainably in Dubai",
     city: "Dubai",
-    rating: 4.8,
-    date: "2024-08-25"
+    rating: 4.3,
+    date: "2023-02-18"
   },
   {
     id: "city-testimonial-dubai-4",
-    quote: "The cost of living in Dubai is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
-    author: "Ella Warren",
-    title: "A Resident's Guide to Living Well in Dubai",
+    quote: "If you want a city that offers {LIFESTYLE_BENEFIT}, Dubai is the place to be.",
+    author: "George Curtis",
+    title: "Dubai's Hidden Treasures for Locals",
     city: "Dubai",
-    rating: 4.7,
-    date: "2025-07-07"
+    rating: 5,
+    date: "2024-07-03"
   },
   {
     id: "city-testimonial-dubai-5",
-    quote: "The {GREEN_SPACES} in Dubai offer a perfect escape from the urban buzz without leaving the city limits.",
-    author: "Stella Anderson",
-    title: "What I Love About Living in Dubai",
+    quote: "Living here means being a part of Dubai's ongoing story of innovation and tradition.",
+    author: "Ahmed Stewart",
+    title: "Dubai Through a Resident's Eyes",
     city: "Dubai",
     rating: 4.2,
-    date: "2025-07-17"
-  },
-  {
-    id: "city-testimonial-dubai-6",
-    quote: "One of the best things about living in Dubai is the {ACCESSIBILITY_FEATURE}—it makes everything so convenient.",
-    author: "Barbara Cooper",
-    title: "The Unexpected Joys of Dubai Living",
-    city: "Dubai",
-    rating: 4.7,
-    date: "2025-12-14"
-  },
-  {
-    id: "city-testimonial-dubai-7",
-    quote: "The nightlife in Dubai is vibrant and full of {ENTERTAINMENT_FEATURE} for everyone.",
-    author: "Sarah Baker",
-    title: "Uncovering the Layers of Dubai",
-    city: "Dubai",
-    rating: 4.8,
-    date: "2023-12-06"
+    date: "2025-11-18"
   }
 ];

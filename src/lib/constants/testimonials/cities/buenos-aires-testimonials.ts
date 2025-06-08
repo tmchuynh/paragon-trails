@@ -6,65 +6,74 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const buenosairesTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-buenos-aires-1",
-    quote: "The people of Buenos Aires are incredibly welcoming and have made me feel at home since day one.",
-    author: "Nomsa Lewis",
+    quote: "Buenos Aires has been my home for devoted, and the tight-knit community here is what keeps me rooted.",
+    author: "Alexa Dunn",
     title: "Uncovering the Layers of Buenos Aires",
     city: "Buenos Aires",
-    rating: 4.9,
-    date: "2024-09-10"
+    rating: 4.6,
+    date: "2023-09-04"
   },
   {
     id: "city-testimonial-buenos-aires-2",
-    quote: "The mix of old and new in Buenos Aires's architecture and culture keeps the city feeling fresh yet grounded.",
-    author: "Kyle Wallace",
-    title: "Finding Inspiration Every Day in Buenos Aires",
+    quote: "The balance of cosmopolitan vibe and small-town feel in Buenos Aires creates a quality of life that's hard to find elsewhere.",
+    author: "Bella Hudson",
+    title: "The Joys of Slow Living in Buenos Aires",
     city: "Buenos Aires",
-    rating: 4.3,
-    date: "2025-10-21"
+    rating: 4.9,
+    date: "2023-06-07"
   },
   {
     id: "city-testimonial-buenos-aires-3",
-    quote: "Living in Buenos Aires has allowed me to connect deeply with {NATURE_FEATURE} nearby.",
-    author: "Olivia Holloway",
-    title: "My Buenos Aires Story: Life as a Resident",
+    quote: "The food scene in Buenos Aires is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
+    author: "Luis Wallace",
+    title: "The True Character of Buenos Aires",
     city: "Buenos Aires",
-    rating: 4.7,
-    date: "2024-07-06"
+    rating: 5,
+    date: "2023-08-27"
   },
   {
     id: "city-testimonial-buenos-aires-4",
-    quote: "Community events and festivals in Buenos Aires bring everyone together, making the {COMMUNITY_ASPECT} really stand out.",
-    author: "Eleanor Moore",
-    title: "How Buenos Aires Changed My Life",
+    quote: "What I tell friends considering moving to Buenos Aires is to appreciate the local theaters—it's what makes daily life here so rich.",
+    author: "Betty Mason",
+    title: "What I Love About Living in Buenos Aires",
     city: "Buenos Aires",
-    rating: 4.9,
-    date: "2025-09-11"
+    rating: 4.6,
+    date: "2023-01-21"
   },
   {
     id: "city-testimonial-buenos-aires-5",
-    quote: "After moving to Buenos Aires 4 years ago, I fell in love with the active volunteerism of this place. It's truly special.",
-    author: "Kinsley Henderson",
-    title: "Why Buenos Aires Is a Place to Grow",
+    quote: "Buenos Aires's cultural heritage scene has become central to my life here. I couldn't imagine living without it now.",
+    author: "Douglas Singh",
+    title: "How Buenos Aires Changed My Life",
     city: "Buenos Aires",
-    rating: 4.9,
-    date: "2024-12-28"
+    rating: 4.7,
+    date: "2025-09-28"
   },
   {
     id: "city-testimonial-buenos-aires-6",
-    quote: "Every weekend in Buenos Aires brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
-    author: "Fatima Jennings",
-    title: "Discovering Home in Buenos Aires",
+    quote: "The food scene in Buenos Aires is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
+    author: "Lawrence Payne",
+    title: "The Soul of Buenos Aires: A Local's View",
     city: "Buenos Aires",
-    rating: 4.6,
-    date: "2024-09-07"
+    rating: 4.8,
+    date: "2023-02-08"
   },
   {
     id: "city-testimonial-buenos-aires-7",
-    quote: "The winter architectural beauty in Buenos Aires is something I look forward to every year. It's what makes living here magical.",
-    author: "Jessica Nash",
-    title: "The Everyday Magic of Buenos Aires",
+    quote: "One thing I didn’t expect when moving to Buenos Aires was the {WEATHER_FEATURE}—it’s truly refreshing.",
+    author: "Randy Davis",
+    title: "My Buenos Aires Story: Life as a Resident",
     city: "Buenos Aires",
-    rating: 4.2,
-    date: "2025-03-04"
+    rating: 4.4,
+    date: "2024-03-09"
+  },
+  {
+    id: "city-testimonial-buenos-aires-8",
+    quote: "One of the best things about living in Buenos Aires is the {ACCESSIBILITY_FEATURE}—it makes everything so convenient.",
+    author: "Nora Baker",
+    title: "My Buenos Aires Story: Life as a Resident",
+    city: "Buenos Aires",
+    rating: 4.1,
+    date: "2025-10-04"
   }
 ];

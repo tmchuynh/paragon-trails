@@ -6,65 +6,56 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const kyotoTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-kyoto-1",
-    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Kyoto make daily life convenient and stress-free.",
-    author: "Harper Foster",
-    title: "The Neighborhoods That Make Kyoto Home",
+    quote: "What most people don't realize about living in Kyoto is how creative it actually is. I've found my true home here.",
+    author: "Joel Day",
+    title: "The Beauty of Everyday Life in Kyoto",
     city: "Kyoto",
     rating: 4.5,
-    date: "2024-10-28"
+    date: "2023-03-15"
   },
   {
     id: "city-testimonial-kyoto-2",
-    quote: "What I tell friends considering moving to Kyoto is to appreciate the artisan markets—it's what makes daily life here so rich.",
-    author: "Lisa Grant",
-    title: "Living the Kyoto Lifestyle",
+    quote: "As a 20-year resident of Kyoto, I can't imagine living anywhere else. The local traditions here is something you can't find elsewhere.",
+    author: "Jose Jennings",
+    title: "From Newcomer to Local in Kyoto",
     city: "Kyoto",
-    rating: 4.4,
-    date: "2024-10-24"
+    rating: 4.1,
+    date: "2025-09-17"
   },
   {
     id: "city-testimonial-kyoto-3",
-    quote: "Community events and festivals in Kyoto bring everyone together, making the {COMMUNITY_ASPECT} really stand out.",
-    author: "Jeremy Wang",
-    title: "Living and Thriving in Kyoto",
+    quote: "From my apartment in Kyoto, I can access nature preserves easily. Where else could you do that?",
+    author: "Hiroshi Dixon",
+    title: "The Everyday Magic of Kyoto",
     city: "Kyoto",
-    rating: 4.2,
-    date: "2024-07-28"
+    rating: 4.5,
+    date: "2024-05-05"
   },
   {
     id: "city-testimonial-kyoto-4",
-    quote: "The mix of old and new in Kyoto's architecture and culture keeps the city feeling fresh yet grounded.",
-    author: "Hannah Jackson",
-    title: "How Kyoto Balances Tradition and Innovation",
+    quote: "The waterfront neighborhoods in Kyoto each have their own character, which keeps life interesting year after year.",
+    author: "Amelia Wilson",
+    title: "Finding Balance in Kyoto",
     city: "Kyoto",
-    rating: 4.1,
-    date: "2024-11-28"
+    rating: 4.2,
+    date: "2025-12-05"
   },
   {
     id: "city-testimonial-kyoto-5",
-    quote: "One of the best things about living in Kyoto is the {ACCESSIBILITY_FEATURE}—it makes everything so convenient.",
-    author: "Miguel Hunter",
-    title: "The Joys of Slow Living in Kyoto",
+    quote: "The {TRANQUILITY_FEATURE} in Kyoto offers a peaceful retreat from the busy world.",
+    author: "Willie Bennett",
+    title: "How Kyoto Changed My Life",
     city: "Kyoto",
-    rating: 4.3,
-    date: "2025-01-20"
+    rating: 4.5,
+    date: "2025-05-14"
   },
   {
     id: "city-testimonial-kyoto-6",
-    quote: "I've found that Kyoto's {TRANSPORT_FEATURE} really makes getting around effortless and enjoyable.",
-    author: "Ronald Edwards",
-    title: "What Makes Kyoto Feel Like Family",
+    quote: "Every weekend in Kyoto brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
+    author: "Kevin Knight",
+    title: "Why I’m Proud to Call Kyoto Home",
     city: "Kyoto",
-    rating: 4.5,
-    date: "2025-03-24"
-  },
-  {
-    id: "city-testimonial-kyoto-7",
-    quote: "Raising my family in Kyoto gives us access to international perspective, which is truly invaluable.",
-    author: "Claire Griffin",
-    title: "Kyoto Through a Resident's Eyes",
-    city: "Kyoto",
-    rating: 4.3,
-    date: "2025-03-16"
+    rating: 4.8,
+    date: "2024-09-14"
   }
 ];

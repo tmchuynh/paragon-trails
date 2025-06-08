@@ -6,92 +6,56 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const shanghaiTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-shanghai-1",
-    quote: "The sense of {SAFETY} in Shanghai makes me feel comfortable raising my kids here.",
-    author: "Maya Day",
-    title: "What I Love About Living in Shanghai",
+    quote: "The industrial neighborhoods in Shanghai each have their own character, which keeps life interesting year after year.",
+    author: "Brandon Taylor",
+    title: "How Shanghai Balances Tradition and Innovation",
     city: "Shanghai",
-    rating: 4.5,
-    date: "2024-10-17"
+    rating: 4.2,
+    date: "2023-01-14"
   },
   {
     id: "city-testimonial-shanghai-2",
-    quote: "The historical significance of Shanghai adds a depth to daily life that I truly cherish.",
-    author: "Robert Douglas",
-    title: "The Joys of Slow Living in Shanghai",
+    quote: "If you want a city that offers {LIFESTYLE_BENEFIT}, Shanghai is the place to be.",
+    author: "Noah Lee",
+    title: "The Challenges and Charms of Living in Shanghai",
     city: "Shanghai",
-    rating: 4.8,
-    date: "2024-09-06"
+    rating: 4.2,
+    date: "2025-01-19"
   },
   {
     id: "city-testimonial-shanghai-3",
-    quote: "Living in Shanghai has opened my eyes to {PERSONAL_GROWTH_ASPECT} that I never expected.",
-    author: "Bella Lee",
-    title: "Why Shanghai Feels Like Home",
+    quote: "The {TRANQUILITY_FEATURE} in Shanghai offers a peaceful retreat from the busy world.",
+    author: "Zachary Lopez",
+    title: "Stories From the Streets of Shanghai",
     city: "Shanghai",
-    rating: 4.1,
-    date: "2024-11-01"
+    rating: 4.9,
+    date: "2024-05-27"
   },
   {
     id: "city-testimonial-shanghai-4",
-    quote: "Living in Shanghai has opened my eyes to {PERSONAL_GROWTH_ASPECT} that I never expected.",
-    author: "Stephanie Henderson",
-    title: "My Corner of Shanghai",
+    quote: "I've found that Shanghai's {TRANSPORT_FEATURE} really makes getting around effortless and enjoyable.",
+    author: "Steven Russell",
+    title: "Shanghai's Hidden Treasures for Locals",
     city: "Shanghai",
-    rating: 4.4,
-    date: "2023-10-18"
+    rating: 4.2,
+    date: "2024-01-11"
   },
   {
     id: "city-testimonial-shanghai-5",
-    quote: "The community gardens in Shanghai makes everyday life feel like an adventure. I've been here 9 years and still discover new things.",
-    author: "Julie White",
-    title: "The Joys of Slow Living in Shanghai",
+    quote: "No two days are the same living in Shanghai. The {DYNAMIC_ASPECT} keeps me excited to wake up every morning.",
+    author: "Lerato Brown",
+    title: "Why I Chose Shanghai as Home",
     city: "Shanghai",
-    rating: 4.6,
-    date: "2023-08-15"
+    rating: 4.1,
+    date: "2024-11-14"
   },
   {
     id: "city-testimonial-shanghai-6",
-    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Shanghai make daily life convenient and stress-free.",
-    author: "Noah Parker",
-    title: "Why Shanghai Keeps Getting Better",
+    quote: "Living in Shanghai has opened my eyes to {PERSONAL_GROWTH_ASPECT} that I never expected.",
+    author: "Luis Payne",
+    title: "The Real Shanghai Experience",
     city: "Shanghai",
-    rating: 4.5,
-    date: "2024-08-06"
-  },
-  {
-    id: "city-testimonial-shanghai-7",
-    quote: "Living in Shanghai means being surrounded by academic excellence, which feeds my soul every day.",
-    author: "Aria Bennett",
-    title: "Inside the Culture of Shanghai",
-    city: "Shanghai",
-    rating: 4.6,
-    date: "2024-05-25"
-  },
-  {
-    id: "city-testimonial-shanghai-8",
-    quote: "Shanghai isn't just where I live—it's part of my identity now. The outdoor lifestyle has shaped who I am.",
-    author: "Oliver Collins",
-    title: "Shanghai Living: Worth Every Moment",
-    city: "Shanghai",
-    rating: 4.3,
-    date: "2025-12-19"
-  },
-  {
-    id: "city-testimonial-shanghai-9",
-    quote: "Shanghai's academic scene has become central to my life here. I couldn't imagine living without it now.",
-    author: "Peter Kowalski",
-    title: "The Soul of Shanghai: A Local's View",
-    city: "Shanghai",
-    rating: 4.5,
-    date: "2023-03-21"
-  },
-  {
-    id: "city-testimonial-shanghai-10",
-    quote: "The historic old town in Shanghai makes everyday life feel like an adventure. I've been here 7 years and still discover new things.",
-    author: "Mohamed Clark",
-    title: "Shanghai: Beyond the Tourist Experience",
-    city: "Shanghai",
-    rating: 4.7,
-    date: "2024-06-11"
+    rating: 4.4,
+    date: "2025-03-15"
   }
 ];

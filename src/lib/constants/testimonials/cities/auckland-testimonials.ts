@@ -6,65 +6,56 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const aucklandTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-auckland-1",
-    quote: "I love how Auckland celebrates {FESTIVAL_OR_EVENT}, it brings so much joy and community spirit.",
-    author: "Randy Dean",
-    title: "The Challenges and Charms of Living in Auckland",
+    quote: "Despite its size, Auckland manages to feel {SMALL_TOWN_QUALITY}, which is rare and wonderful.",
+    author: "Evelyn Jackson",
+    title: "Discovering Home in Auckland",
     city: "Auckland",
     rating: 4.6,
-    date: "2025-02-03"
+    date: "2024-04-02"
   },
   {
     id: "city-testimonial-auckland-2",
-    quote: "From my apartment in Auckland, I can walk to world-class museums. Where else could you do that?",
-    author: "Sandra Williams",
-    title: "What Makes Auckland Special to Live In",
+    quote: "The {GREEN_SPACES} in Auckland offer a perfect escape from the urban buzz without leaving the city limits.",
+    author: "Harold Palmer",
+    title: "The Vibrant Life of Auckland Residents",
     city: "Auckland",
-    rating: 4.8,
-    date: "2023-02-03"
+    rating: 4.4,
+    date: "2024-07-03"
   },
   {
     id: "city-testimonial-auckland-3",
-    quote: "The {TRANQUILITY_FEATURE} in Auckland offers a peaceful retreat from the busy world.",
-    author: "Layla Coleman",
-    title: "The Neighborhoods That Make Auckland Home",
+    quote: "Community events and festivals in Auckland bring everyone together, making the {COMMUNITY_ASPECT} really stand out.",
+    author: "Nancy Henderson",
+    title: "Why Auckland Keeps Getting Better",
     city: "Auckland",
-    rating: 4.4,
-    date: "2023-06-24"
+    rating: 4.6,
+    date: "2025-04-01"
   },
   {
     id: "city-testimonial-auckland-4",
-    quote: "What I tell friends considering moving to Auckland is to appreciate the historic alleyways—it's what makes daily life here so rich.",
-    author: "Helen Murray",
-    title: "Finding Balance in Auckland",
+    quote: "Community events and festivals in Auckland bring everyone together, making the {COMMUNITY_ASPECT} really stand out.",
+    author: "Amy Mason",
+    title: "The Soul of Auckland: A Local's View",
     city: "Auckland",
-    rating: 5,
-    date: "2024-06-12"
+    rating: 4,
+    date: "2025-09-11"
   },
   {
     id: "city-testimonial-auckland-5",
-    quote: "The cost of living in Auckland is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
-    author: "Zoe Lopez",
-    title: "Auckland's Hidden Treasures for Locals",
+    quote: "Raising my family in Auckland gives us access to family healthcare specialists, which is truly invaluable.",
+    author: "Valentina Hawkins",
+    title: "Living the Auckland Lifestyle",
     city: "Auckland",
-    rating: 4.2,
-    date: "2025-05-01"
+    rating: 4.4,
+    date: "2024-08-10"
   },
   {
     id: "city-testimonial-auckland-6",
-    quote: "One of my favorite parts about living in Auckland is the {MARKET_OR_SHOPPING_FEATURE} just around the corner.",
-    author: "Adam Keller",
-    title: "What I Love About Living in Auckland",
-    city: "Auckland",
-    rating: 4.7,
-    date: "2024-07-14"
-  },
-  {
-    id: "city-testimonial-auckland-7",
-    quote: "Living in Auckland means being surrounded by diverse neighborhoods, which feeds my soul every day.",
-    author: "Lucas Russell",
-    title: "The Soul of Auckland: A Local's View",
+    quote: "Living here means being a part of Auckland's ongoing story of innovation and tradition.",
+    author: "Isabella Gonzalez",
+    title: "The Challenges and Charms of Living in Auckland",
     city: "Auckland",
     rating: 4.4,
-    date: "2023-01-03"
+    date: "2023-08-13"
   }
 ];

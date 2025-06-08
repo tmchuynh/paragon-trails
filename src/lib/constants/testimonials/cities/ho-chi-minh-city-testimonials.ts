@@ -6,47 +6,47 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const hochiminhcityTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-ho-chi-minh-city-1",
-    quote: "Ho Chi Minh City's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
-    author: "Ella Henderson",
-    title: "The Community Spirit That Defines Ho Chi Minh City",
+    quote: "The {TRANQUILITY_FEATURE} in Ho Chi Minh City offers a peaceful retreat from the busy world.",
+    author: "Philip Wood",
+    title: "From Newcomer to Local in Ho Chi Minh City",
     city: "Ho Chi Minh City",
-    rating: 4.8,
-    date: "2023-10-12"
+    rating: 4.6,
+    date: "2025-05-17"
   },
   {
     id: "city-testimonial-ho-chi-minh-city-2",
-    quote: "The balance of modern amenities and vintage charm in Ho Chi Minh City creates a quality of life that's hard to find elsewhere.",
-    author: "Carlos Patel",
-    title: "Life in Ho Chi Minh City: A Local Perspective",
+    quote: "I love how Ho Chi Minh City celebrates {FESTIVAL_OR_EVENT}, it brings so much joy and community spirit.",
+    author: "Antonio Stewart",
+    title: "Discovering Home in Ho Chi Minh City",
     city: "Ho Chi Minh City",
-    rating: 4.2,
-    date: "2023-02-21"
+    rating: 5,
+    date: "2024-08-17"
   },
   {
     id: "city-testimonial-ho-chi-minh-city-3",
-    quote: "Ho Chi Minh City's live performances scene has become central to my life here. I couldn't imagine living without it now.",
-    author: "Blake Nguyen",
-    title: "Life in Ho Chi Minh City: A Local Perspective",
+    quote: "Living in Ho Chi Minh City means I get to enjoy {SPORTS_OR_OUTDOOR_ACTIVITY} year-round.",
+    author: "Victor Russell",
+    title: "Finding Balance in Ho Chi Minh City",
     city: "Ho Chi Minh City",
-    rating: 4.6,
-    date: "2025-10-24"
+    rating: 4.8,
+    date: "2024-05-19"
   },
   {
     id: "city-testimonial-ho-chi-minh-city-4",
-    quote: "The people of Ho Chi Minh City are incredibly welcoming and have made me feel at home since day one.",
-    author: "Sophia Collins",
-    title: "The Vibrant Life of Ho Chi Minh City Residents",
+    quote: "Every weekend in Ho Chi Minh City brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
+    author: "Kimberly Porter",
+    title: "Why Ho Chi Minh City Is a Place to Grow",
     city: "Ho Chi Minh City",
-    rating: 4.8,
-    date: "2024-02-02"
+    rating: 4.5,
+    date: "2025-04-19"
   },
   {
     id: "city-testimonial-ho-chi-minh-city-5",
-    quote: "One thing I didn’t expect when moving to Ho Chi Minh City was the {WEATHER_FEATURE}—it’s truly refreshing.",
-    author: "Betty Wood",
-    title: "Stories From the Streets of Ho Chi Minh City",
+    quote: "Living in Ho Chi Minh City means I get to enjoy {SPORTS_OR_OUTDOOR_ACTIVITY} year-round.",
+    author: "Logan Thomas",
+    title: "The Neighborhoods That Make Ho Chi Minh City Home",
     city: "Ho Chi Minh City",
-    rating: 4.9,
-    date: "2025-12-09"
+    rating: 4.8,
+    date: "2025-04-19"
   }
 ];
