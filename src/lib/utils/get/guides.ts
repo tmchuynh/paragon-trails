@@ -1,6 +1,5 @@
 import { cityFiles } from "@/lib/constants/info/city";
 import { TourGuide } from "@/lib/interfaces/people/staff";
-import { TourRegion, TourType } from "@/lib/interfaces/services/tours";
 import {
   formatKebabToCamelCase,
   formatTitleCaseToKebabCase,
@@ -9,6 +8,7 @@ import {
 } from "../format";
 import { cityCountryMap, cityToRegionMap } from "@/lib/utils/mapping";
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
+import { TourType } from "@/lib/interfaces/services/tours";
 
 export async function getTourGuides(): Promise<any> {
   const tourGuides: TourGuide[] = [];
@@ -16,18 +16,32 @@ export async function getTourGuides(): Promise<any> {
     for (const cityFile of cityFiles) {
       const formattedCity = formatKebabToCamelCase(cityFile);
       const country = cityCountryMap[cityFile as keyof typeof cityCountryMap];
-      const region = cityToRegionMap[cityFile as keyof typeof cityToRegionMap];
+      const region =
+        cityToRegionMap[cityFile as keyof typeof cityToRegionMap] || "";
 
       const formattedCountry = formatTitleToCamelCase(country);
 
       const formattedRegion = formatTitleToCamelCase(region);
 
       const guideId = `${formattedCity}${formattedCountry.replaceAll(".", "")}${formattedRegion}Guides`;
+
+      console.log(
+        `Loading tour guides for city: ${formattedCity}, country: ${formattedCountry}, region: ${formattedRegion}`
+      );
+      console.log(`Searching for guide ID: ${guideId}`);
+      // Dynamically import the guides module for the city
+      console.log(
+        `Importing guides module from: @/lib/constants/staff/guides/${cityFile}`
+      );
+
       const guidesModule = await import(
         `@/lib/constants/staff/guides/${cityFile}`
       );
       if (guidesModule[guideId]) {
         tourGuides.push(guidesModule[guideId]);
+        console.log(
+          `Found ${guidesModule[guideId].length} guides for city: ${formattedCity}`
+        );
       } else {
         console.error(`No guides found for city: ${formattedCity}`);
         return [];
@@ -47,7 +61,7 @@ export async function getTourGuideById(
 ): Promise<TourGuide | null> {
   const formattedCity = formatKebabToCamelCase(city);
   const country = cityCountryMap[city as keyof typeof cityCountryMap];
-  const region = cityToRegionMap[city as keyof typeof cityToRegionMap];
+  const region = cityToRegionMap[city as keyof typeof cityToRegionMap] || "";
   const formattedCountry = formatTitleToCamelCase(country);
   const formattedRegion = formatTitleToCamelCase(region);
 
@@ -114,7 +128,7 @@ export async function getTourGuidesByCity(city: string): Promise<TourGuide[]> {
 }
 
 export async function getTourGuidesByRegionsCovered(
-  regions: TourRegion[]
+  regions: string[]
 ): Promise<TourGuide[]> {
   try {
     const guides = await getTourGuides();
