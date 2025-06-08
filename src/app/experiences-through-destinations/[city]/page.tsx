@@ -41,19 +41,26 @@ import {
 import Link from "next/link";
 import Loading from "@/components/Loading";
 import Image from "next/image";
-import { useSearchParams } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { Attraction } from "@/lib/interfaces/services/attractions";
 import { getCityAttractions } from "@/lib/utils/get/attractions";
+import useSmallScreen from "@/hooks/useSmallScreen";
+import useMediumScreen from "@/hooks/useMediumScreen";
+import useLargeScreen from "@/hooks/useLargeScreen";
 
 // Register Chart.js components
 ChartJS.register(ArcElement, Tooltip, Legend);
 export default function ToursByCityPage() {
   const searchParams = useSearchParams();
+  const router = useRouter();
   const city = searchParams.get("city") || "";
   const [cityInfo, setCityInfo] = useState<any>(null);
   const [loading, setLoading] = useState(true);
   const [attractions, setAttractions] = useState<Attraction[]>();
   const formattedCity = formatTitleToCamelCase(city);
+  const isSmallScreen = useSmallScreen();
+  const isMediumScreen = useMediumScreen();
+  const isLargeScreen = useLargeScreen();
 
   useEffect(() => {
     // Find the city information based on the city param (kebab case)
@@ -125,8 +132,8 @@ export default function ToursByCityPage() {
   return (
     <div className="mx-auto pt-3 md:pt-6 lg:pt-12 w-10/12 md:w-11/12">
       {/* Header with City Name, Country and Top Navigation */}
-      <div className="flex md:flex-row flex-col justify-between items-start md:items-center gap-4">
-        <header>
+      <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5">
+        <header className="lg:col-span-2 mb-4 lg:mb-0">
           <h1>
             {cityInfo.city}
             {cityInfo.state && <span>, {cityInfo.state}</span>}
@@ -135,10 +142,46 @@ export default function ToursByCityPage() {
           <h5>{cityInfo.subtitle}</h5>
           <blockquote>"{cityInfo.quote}"</blockquote>
         </header>
+        <div className="justify-items-end grid grid-cols-1 lg:col-span-3">
+          <Link
+            href={`/experiences-through-destinations/${formatTitleCaseToKebabCase(city)}/tours`}
+          >
+            <Button
+              variant={!isLargeScreen ? "link" : "accent"}
+              size={!isLargeScreen ? "sm" : "default"}
+              className="md:flex flex-row-reverse items-center gap-2 m-0 md:m-1 lg:m-2"
+            >
+              <Globe size={16} />
+              Explore Tours
+            </Button>
+          </Link>
+          <div className="justify-items-end gap-2 grid lg:grid-cols-2">
+            <Link href={`/testimonials/${city}?city=${cityInfo.city}`}>
+              <Button
+                variant={!isLargeScreen ? "link" : "secondary"}
+                size={!isLargeScreen ? "sm" : "default"}
+                className="md:flex flex-row-reverse items-center gap-2 m-0 md:m-1 lg:m-2"
+              >
+                <MapPin size={16} />
+                Hear What Locals Say
+              </Button>
+            </Link>
+            <Link href={`/testimonials/${city}/tours`}>
+              <Button
+                variant={!isLargeScreen ? "link" : "tertiary"}
+                size={!isLargeScreen ? "sm" : "default"}
+                className="md:flex flex-row-reverse items-center gap-2 m-0 md:m-1 lg:m-2"
+              >
+                <Landmark size={16} />
+                Hear What Travelers Say
+              </Button>
+            </Link>
+          </div>
+        </div>
       </div>
 
       {/* Main Content Grid */}
-      <div className="gap-6 grid grid-cols-1 lg:grid-cols-3 mt-4 h-full">
+      <div className="gap-6 grid grid-cols-1 lg:grid-cols-3 mt-6 h-full">
         {/* Left Column - Main Information */}
         <div className="gap-6 grid lg:col-span-2 h-full">
           {/* City Image */}
@@ -173,6 +216,16 @@ export default function ToursByCityPage() {
                       <h4>{attraction.title}</h4>
                       <h5>{attraction.description}</h5>
                     </div>
+                    <Button
+                      variant={"link"}
+                      onClick={() =>
+                        router.push(
+                          `/experiences-through-desintations/${cityInfo.city}/${attraction.title}?city=${cityInfo.city}&attraction=${attraction.title}`
+                        )
+                      }
+                    >
+                      Learn More
+                    </Button>
                   </li>
                 ))}
               </ul>
