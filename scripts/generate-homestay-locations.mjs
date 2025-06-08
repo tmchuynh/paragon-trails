@@ -401,6 +401,10 @@ async function generateCityHomestays(city) {
   // Create file content with proper formatting
   let content = `// Homestay data for ${city}\n`;
   content += `// This file is auto-generated. Do not edit manually.\n\n`;
+  content += `// Genderated on: ${new Date().toISOString()}\n\n`;
+  content += `// City: ${city}\n`;
+  content += `// Region: ${cityToRegionMap[city] || "Unknown"}\n`;
+  content += `// Country: ${cityCountryMap[city] || "Unknown"}\n\n`;
   content += `import { Host } from "@/lib/interfaces/people/homestay";\n\n`;
   content += `export const ${variableName.replaceAll(".", "")}: Host[] = [\n`;
 
