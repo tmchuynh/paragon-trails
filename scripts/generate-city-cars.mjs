@@ -39,13 +39,15 @@ import {
   formatTitleToCamelCase,
   formatKebebToTitleCase,
   removeAccents,
+  removeSpecialCharacters,
+  normalizeString,
 } from "./utils/format-utils.mjs";
 import {
   cityCountryMap,
   cityToRegionMap,
   countryCurrencyMap,
   euroCountries,
-  regionCurrencyMap,
+  regionCurrencyMapping,
   getCityCountryPriceMultiplier, // <-- add import
 } from "./utils/geo-utils.mjs";
 
@@ -131,6 +133,8 @@ const carMakes = {
     "Lincoln",
     "Chrysler",
     "Tesla",
+    "Lucid",
+    "Polestar",
   ],
   SUV: [
     "Range Rover",
@@ -148,6 +152,10 @@ const carMakes = {
     "Rivian",
     "Infiniti",
     "Lincoln",
+    "Chrysler",
+    "Ford",
+    "Chevrolet",
+    "Toyota",
   ],
   Convertible: [
     "Ferrari",
@@ -163,6 +171,8 @@ const carMakes = {
     "Audi",
     "Chevrolet",
     "Ford",
+    "McLaren",
+    "Lotus",
   ],
   Coupe: [
     "BMW",
@@ -192,6 +202,7 @@ const carMakes = {
     "Corvette",
     "Nissan",
     "Toyota",
+    "Ford",
   ],
   Electric: [
     "Tesla",
@@ -1385,8 +1396,9 @@ function generateLuxuryRentalCar(city, index) {
     currency = "EUR";
   } else if (countryCurrencyMap[country]) {
     currency = countryCurrencyMap[country];
-  } else if (regionCurrencyMap[region]) {
-    currency = regionCurrencyMap[region];
+  } else if (regionCurrencyMapping[region]) {
+    currency =
+      regionCurrencyMapping[region[Math.floor(Math.random() * region.length)]];
   } else {
     currency = "USD"; // Default fallback
   }
@@ -1646,10 +1658,10 @@ async function generateCityFile(city) {
   const countryName = cityCountryMap[city] || "";
   const regionName = cityToRegionMap[city] || "";
 
-  const formattedCountry = formatTitleToCamelCase(removeAccents(countryName));
-  const formattedRegion = formatTitleToCamelCase(removeAccents(regionName));
+  const formattedCountry = formatTitleToCamelCase(normalizeString(countryName));
+  const formattedRegion = formatTitleToCamelCase(normalizeString(regionName));
 
-  const formattedName = removeAccents(city);
+  const formattedName = removeAccents(normalizeString(city));
 
   // Follow the same variable naming convention as yachts
   let variableName;
