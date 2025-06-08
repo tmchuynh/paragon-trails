@@ -35,14 +35,16 @@ import {
   formatKebabToCamelCase,
   formatTitleToCamelCase,
   removeAccents,
+  removeSpecialCharacters,
   formatKebebToTitleCase,
+  normalizeString,
 } from "./utils/format-utils.mjs";
 import {
   cityCountryMap,
   cityToRegionMap,
   countryCurrencyMap,
   euroCountries,
-  regionCurrencyMap,
+  regionCurrencyMapping,
   getCityCountryPriceMultiplier, // <-- add this import
 } from "./utils/geo-utils.mjs";
 import {
@@ -783,8 +785,9 @@ function generateMotorcycle(cityName, index) {
     currency = "EUR";
   } else if (countryCurrencyMap[country]) {
     currency = countryCurrencyMap[country];
-  } else if (regionCurrencyMap[region]) {
-    currency = regionCurrencyMap[region];
+  } else if (regionCurrencyMapping[region]) {
+    currency =
+      regionCurrencyMapping[region[Math.floor(Math.random() * region.length)]];
   } else {
     currency = "USD"; // Default fallback
   }
@@ -989,9 +992,9 @@ async function generateCityFile(city) {
   const countryName = cityCountryMap[city] || "";
   const regionName = cityToRegionMap[city] || "";
 
-  const formattedCountry = formatTitleToCamelCase(removeAccents(countryName));
-  const formattedRegion = formatTitleToCamelCase(removeAccents(regionName));
-  const formattedName = formatKebabToCamelCase(removeAccents(city));
+  const formattedCountry = formatTitleToCamelCase(normalizeString(countryName));
+  const formattedRegion = formatTitleToCamelCase(normalizeString(regionName));
+  const formattedName = formatKebabToCamelCase(normalizeString(city));
 
   const variableName = `${formattedName}${formattedCountry.replaceAll(".", "")}${formattedRegion}Motorcycles`;
 
@@ -1003,7 +1006,7 @@ async function generateCityFile(city) {
     "rentals",
     "motorcycles"
   );
-  const filePath = path.join(destDir, `${city}.ts`);
+  const filePath = path.join(destDir, `${removeSpecialCharacters(city)}.ts`);
 
   // Check if directory exists
   await ensureDirectoryExists(destDir);
