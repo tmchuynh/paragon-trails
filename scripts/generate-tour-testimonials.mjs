@@ -412,6 +412,8 @@ async function createTestimonialFile(tour) {
 
   // Create file content
   let content = `// This file is auto-generated. Do not edit manually.
+  // Generated for tour: ${tour.title} in ${tour.city}\n\n
+  // Generated on ${new Date().toISOString()}\n\n
   import { Testimonial } from "@/lib/interfaces/services/testimonials";\n\n`;
   content += `export const ${formatTitleToCamelCase(fileName)}Testimonials: Testimonial[] = [\n`;
 
