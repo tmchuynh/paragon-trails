@@ -1052,6 +1052,7 @@ async function generateCityFile(city) {
   // Create file content with proper formatting
   let content = `// Auto-generated file for ${city} motorcycle rentals\n`;
   content += `// City: ${city}, Country: ${countryName}, Region: ${regionName}\n\n`;
+  content += `// Generated on: ${new Date().toISOString()}\n\n`;
   content += `import { Motorcycle } from "@/lib/interfaces/services/rentals";\n\n`;
   content += `export const ${variableName}: Motorcycle[] = [\n`;
 
