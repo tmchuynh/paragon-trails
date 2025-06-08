@@ -1,12 +1,12 @@
 // This file is auto-generated. Do not edit manually.
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const capeTownafricaAttractions: Attraction[] = [
+export const capeTownsouthafricaAttractions: Attraction[] = [
     {
       id: "attraction-cape-town-22-1",
       city: "Cape Town",
       title: "Table Mountain",
-      description: "No description available",
+      description: "Table Mountain - No description available.",
       imageUrl: "https://images.unsplash.com/photo-cape-town-table-mountain",
       location: "Table Mountain National Park, Cape Town",
       openingHours: [
@@ -14,8 +14,8 @@ export const capeTownafricaAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -23,8 +23,8 @@ export const capeTownafricaAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -32,8 +32,8 @@ export const capeTownafricaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -41,8 +41,8 @@ export const capeTownafricaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -50,8 +50,8 @@ export const capeTownafricaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -59,8 +59,8 @@ export const capeTownafricaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -68,19 +68,22 @@ export const capeTownafricaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
       ],
       entryFee: undefined,
-      entryFeeCategory: "moderate",
-      priceRange: "$",
-      priceCategory: "moderate",
+      entryFeeCategory: "free",
+      priceRange: "free",
+      priceCategory: "free",
       timeOfDay: "daytime",
-      rating: 4,
-      tags: [],
+      rating: 4.5,
+      tags: [
+        "Adventure",
+        "Popular",
+      ],
       accessibilityFeatures: [],
       entryFees: [],
       features: [],
@@ -89,7 +92,7 @@ export const capeTownafricaAttractions: Attraction[] = [
       id: "attraction-cape-town-22-2",
       city: "Cape Town",
       title: "Robben Island",
-      description: "No description available",
+      description: "Robben Island - No description available.",
       imageUrl: "https://images.unsplash.com/photo-cape-town-robben-island",
       location: "Robben Island Museum, Cape Town",
       openingHours: [
@@ -97,8 +100,8 @@ export const capeTownafricaAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -106,8 +109,8 @@ export const capeTownafricaAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -115,8 +118,8 @@ export const capeTownafricaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -124,8 +127,8 @@ export const capeTownafricaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -133,8 +136,8 @@ export const capeTownafricaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -142,8 +145,8 @@ export const capeTownafricaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -151,19 +154,22 @@ export const capeTownafricaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
       ],
       entryFee: undefined,
-      entryFeeCategory: "moderate",
-      priceRange: "$",
-      priceCategory: "moderate",
+      entryFeeCategory: "free",
+      priceRange: "free",
+      priceCategory: "free",
       timeOfDay: "daytime",
-      rating: 4,
-      tags: [],
+      rating: 4.5,
+      tags: [
+        "Historical",
+        "Popular",
+      ],
       accessibilityFeatures: [],
       entryFees: [],
       features: [],
@@ -172,7 +178,7 @@ export const capeTownafricaAttractions: Attraction[] = [
       id: "attraction-cape-town-22-3",
       city: "Cape Town",
       title: "V&A Waterfront",
-      description: "No description available",
+      description: "V&A Waterfront - No description available.",
       imageUrl: "https://images.unsplash.com/photo-cape-town-waterfront",
       location: "Dock Road, Cape Town",
       openingHours: [
@@ -180,8 +186,8 @@ export const capeTownafricaAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -189,8 +195,8 @@ export const capeTownafricaAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -198,8 +204,8 @@ export const capeTownafricaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -207,8 +213,8 @@ export const capeTownafricaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -216,8 +222,8 @@ export const capeTownafricaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -225,8 +231,8 @@ export const capeTownafricaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -234,19 +240,21 @@ export const capeTownafricaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
       ],
       entryFee: undefined,
-      entryFeeCategory: "moderate",
-      priceRange: "$",
-      priceCategory: "moderate",
+      entryFeeCategory: "free",
+      priceRange: "free",
+      priceCategory: "free",
       timeOfDay: "daytime",
-      rating: 4,
-      tags: [],
+      rating: 4.5,
+      tags: [
+        "Popular",
+      ],
       accessibilityFeatures: [],
       entryFees: [],
       features: [],

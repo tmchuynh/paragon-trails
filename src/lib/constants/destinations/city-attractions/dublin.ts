@@ -1,12 +1,12 @@
 // This file is auto-generated. Do not edit manually.
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const dublinnortherneuropeAttractions: Attraction[] = [
+export const dublinirelandAttractions: Attraction[] = [
     {
       id: "attraction-dublin-26-1",
       city: "Dublin",
       title: "Trinity College and the Book of Kells",
-      description: "No description available",
+      description: "Trinity College and the Book of Kells - No description available.",
       imageUrl: "https://images.unsplash.com/photo-dublin-trinity-college",
       location: "College Green, Dublin 2",
       openingHours: [
@@ -14,8 +14,8 @@ export const dublinnortherneuropeAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -23,8 +23,8 @@ export const dublinnortherneuropeAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -32,8 +32,8 @@ export const dublinnortherneuropeAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -41,8 +41,8 @@ export const dublinnortherneuropeAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -50,8 +50,8 @@ export const dublinnortherneuropeAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -59,8 +59,8 @@ export const dublinnortherneuropeAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -68,19 +68,22 @@ export const dublinnortherneuropeAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
       ],
       entryFee: undefined,
-      entryFeeCategory: "moderate",
-      priceRange: "$",
-      priceCategory: "moderate",
+      entryFeeCategory: "free",
+      priceRange: "free",
+      priceCategory: "free",
       timeOfDay: "daytime",
-      rating: 4,
-      tags: [],
+      rating: 4.5,
+      tags: [
+        "Historical",
+        "Popular",
+      ],
       accessibilityFeatures: [],
       entryFees: [],
       features: [],
@@ -89,7 +92,7 @@ export const dublinnortherneuropeAttractions: Attraction[] = [
       id: "attraction-dublin-26-2",
       city: "Dublin",
       title: "Guinness Storehouse",
-      description: "No description available",
+      description: "Guinness Storehouse - No description available.",
       imageUrl: "https://images.unsplash.com/photo-dublin-guinness",
       location: "St James's Gate, Dublin 8",
       openingHours: [
@@ -97,8 +100,8 @@ export const dublinnortherneuropeAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -106,8 +109,8 @@ export const dublinnortherneuropeAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -115,8 +118,8 @@ export const dublinnortherneuropeAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -124,8 +127,8 @@ export const dublinnortherneuropeAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -133,8 +136,8 @@ export const dublinnortherneuropeAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -142,8 +145,8 @@ export const dublinnortherneuropeAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -151,19 +154,21 @@ export const dublinnortherneuropeAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
       ],
       entryFee: undefined,
-      entryFeeCategory: "moderate",
-      priceRange: "$",
-      priceCategory: "moderate",
+      entryFeeCategory: "free",
+      priceRange: "free",
+      priceCategory: "free",
       timeOfDay: "daytime",
-      rating: 4,
-      tags: [],
+      rating: 4.5,
+      tags: [
+        "Popular",
+      ],
       accessibilityFeatures: [],
       entryFees: [],
       features: [],
@@ -172,7 +177,7 @@ export const dublinnortherneuropeAttractions: Attraction[] = [
       id: "attraction-dublin-26-3",
       city: "Dublin",
       title: "Dublin Castle",
-      description: "No description available",
+      description: "Dublin Castle - No description available.",
       imageUrl: "https://images.unsplash.com/photo-dublin-castle",
       location: "Dame St, Dublin 2",
       openingHours: [
@@ -180,8 +185,8 @@ export const dublinnortherneuropeAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -189,8 +194,8 @@ export const dublinnortherneuropeAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -198,8 +203,8 @@ export const dublinnortherneuropeAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -207,8 +212,8 @@ export const dublinnortherneuropeAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -216,8 +221,8 @@ export const dublinnortherneuropeAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -225,8 +230,8 @@ export const dublinnortherneuropeAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -234,19 +239,22 @@ export const dublinnortherneuropeAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
       ],
       entryFee: undefined,
-      entryFeeCategory: "moderate",
-      priceRange: "$",
-      priceCategory: "moderate",
+      entryFeeCategory: "free",
+      priceRange: "free",
+      priceCategory: "free",
       timeOfDay: "daytime",
-      rating: 4,
-      tags: [],
+      rating: 4.5,
+      tags: [
+        "Historical",
+        "Popular",
+      ],
       accessibilityFeatures: [],
       entryFees: [],
       features: [],

@@ -1,7 +1,7 @@
 // This file is auto-generated. Do not edit manually.
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const vancouveralaskaAttractions: Attraction[] = [
+export const vancouverbritishcolumbiaAttractions: Attraction[] = [
     {
       id: "attraction-vancouver-44-1",
       city: "Vancouver",

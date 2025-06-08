@@ -1,7 +1,7 @@
 // This file is auto-generated. Do not edit manually.
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const quebecCityeastcoastcanadaAttractions: Attraction[] = [
+export const quebecCityquebecAttractions: Attraction[] = [
     {
       id: "attraction-quebec-city-34-1",
       city: "Quebec City",

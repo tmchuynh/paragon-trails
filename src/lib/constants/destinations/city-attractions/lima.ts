@@ -1,7 +1,7 @@
 // This file is auto-generated. Do not edit manually.
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const limasouthamericaAttractions: Attraction[] = [
+export const limaperuAttractions: Attraction[] = [
     {
       id: "attraction-lima-67-1",
       city: "Lima",
@@ -210,7 +210,7 @@ export const limasouthamericaAttractions: Attraction[] = [
       id: "attraction-lima-67-3",
       city: "Lima",
       title: "Miraflores Boardwalk (El Malecón)",
-      description: "No description available",
+      description: "Miraflores Boardwalk (El Malecón) - No description available.",
       imageUrl: "https://images.unsplash.com/photo-miraflores-boardwalk",
       location: "Malecón de la Reserva, Miraflores, Lima, Peru",
       openingHours: [
@@ -218,8 +218,8 @@ export const limasouthamericaAttractions: Attraction[] = [
           day: "Monday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -227,8 +227,8 @@ export const limasouthamericaAttractions: Attraction[] = [
           day: "Tuesday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -236,8 +236,8 @@ export const limasouthamericaAttractions: Attraction[] = [
           day: "Wednesday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -245,8 +245,8 @@ export const limasouthamericaAttractions: Attraction[] = [
           day: "Thursday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -254,8 +254,8 @@ export const limasouthamericaAttractions: Attraction[] = [
           day: "Friday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -263,8 +263,8 @@ export const limasouthamericaAttractions: Attraction[] = [
           day: "Saturday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
@@ -272,19 +272,21 @@ export const limasouthamericaAttractions: Attraction[] = [
           day: "Sunday",
           availableHours: [
             {
-              from: "12:00 AM",
-              to: "11:59 PM",
+              from: "9:00 AM",
+              to: "5:00 AM",
             },
           ],
         },
       ],
       entryFee: undefined,
-      entryFeeCategory: "moderate",
-      priceRange: "$",
-      priceCategory: "moderate",
+      entryFeeCategory: "free",
+      priceRange: "free",
+      priceCategory: "free",
       timeOfDay: "daytime",
-      rating: 4,
-      tags: [],
+      rating: 4.5,
+      tags: [
+        "Popular",
+      ],
       accessibilityFeatures: [],
       entryFees: [],
       features: [],

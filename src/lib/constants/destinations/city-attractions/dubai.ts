@@ -1,7 +1,7 @@
 // This file is auto-generated. Do not edit manually.
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const dubaimiddleeastAttractions: Attraction[] = [
+export const dubaiunitedarabemiratesAttractions: Attraction[] = [
     {
       id: "attraction-dubai-10-1",
       city: "Dubai",
@@ -285,6 +285,97 @@ export const dubaimiddleeastAttractions: Attraction[] = [
         "man-made island",
         "luxury resorts",
         "entertainment",
+      ],
+    },
+    {
+      id: "attraction-dubai-10-4",
+      city: "Dubai",
+      title: "Dubai Mall",
+      description: "Massive shopping mall with entertainment and dining options.",
+      imageUrl: "",
+      location: "Unknown location",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "10:00 AM",
+              to: "12:00 AM",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "10:00 AM",
+              to: "12:00 AM",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "10:00 AM",
+              to: "12:00 AM",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "10:00 AM",
+              to: "12:00 AM",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "10:00 AM",
+              to: "12:00 AM",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "10:00 AM",
+              to: "12:00 AM",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "10:00 AM",
+              to: "12:00 AM",
+            },
+          ],
+        },
+      ],
+      entryFee: undefined,
+      entryFeeCategory: "free",
+      priceRange: "free",
+      priceCategory: "free",
+      timeOfDay: "all day",
+      rating: 4.6,
+      tags: [
+        "Adventure",
+        "Free",
+        "Popular",
+      ],
+      accessibilityFeatures: [],
+      entryFees: [],
+      features: [
+        "shopping mall",
+        "entertainment",
+        "dining",
       ],
     },
   ];

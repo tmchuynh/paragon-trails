@@ -1,7 +1,7 @@
 // This file is auto-generated. Do not edit manually.
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const amalfiCoastmediterraneanAttractions: Attraction[] = [
+export const amalfiCoastsouthernitalyAttractions: Attraction[] = [
     {
       id: "attraction-amalfi-coast-73-1",
       city: "Amalfi Coast",

@@ -1,7 +1,7 @@
 // This file is auto-generated. Do not edit manually.
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const kielnortherneuropeAttractions: Attraction[] = [
+export const kielgermanyAttractions: Attraction[] = [
     {
       id: "attraction-kiel-65-1",
       city: "Kiel",

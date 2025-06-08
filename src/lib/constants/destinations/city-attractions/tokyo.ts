@@ -1,7 +1,7 @@
 // This file is auto-generated. Do not edit manually.
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const tokyoasiapacificAttractions: Attraction[] = [
+export const tokyojapanAttractions: Attraction[] = [
     {
       id: "attraction-tokyo-7-1",
       city: "Tokyo",
@@ -285,6 +285,110 @@ export const tokyoasiapacificAttractions: Attraction[] = [
         "observation tower",
         "city views",
         "landmark",
+      ],
+    },
+    {
+      id: "attraction-tokyo-7-4",
+      city: "Tokyo",
+      title: "Shinjuku Gyoen National Garden",
+      description: "Large park with traditional Japanese gardens and seasonal flowers.",
+      imageUrl: "",
+      location: "Unknown location",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "4:30 AM",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "4:30 AM",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "4:30 AM",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "4:30 AM",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "4:30 AM",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "4:30 AM",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "4:30 AM",
+            },
+          ],
+        },
+      ],
+      entryFee: "¥500",
+      entryFeeCategory: "budget",
+      priceRange: "$",
+      priceCategory: "budget",
+      timeOfDay: "daytime",
+      rating: 4.6,
+      tags: [
+        "Adventure",
+        "Popular",
+      ],
+      accessibilityFeatures: [
+        "wheelchair accessible paths",
+      ],
+      entryFees: [
+        {
+          category: "adult",
+          priceRange: "¥500",
+          priceCategory: "budget",
+        },
+        {
+          category: "child",
+          priceRange: "¥250",
+          priceCategory: "budget",
+        },
+      ],
+      features: [
+        "garden",
+        "nature",
+        "walking trails",
+        "picnic",
       ],
     },
   ];

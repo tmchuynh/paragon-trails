@@ -1,7 +1,7 @@
 // This file is auto-generated. Do not edit manually.
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
-export const dubrovnikmediterraneanAttractions: Attraction[] = [
+export const dubrovnikcroatiancoastAttractions: Attraction[] = [
     {
       id: "attraction-dubrovnik-12-1",
       city: "Dubrovnik",
@@ -280,6 +280,189 @@ export const dubrovnikmediterraneanAttractions: Attraction[] = [
         "beach",
         "pebble beach",
         "scenic views",
+      ],
+    },
+    {
+      id: "attraction-dubrovnik-12-4",
+      city: "Dubrovnik",
+      title: "Fort Lovrijenac",
+      description: "Historic fortress overlooking the sea, known as 'Dubrovnik's Gibraltar.'",
+      imageUrl: "",
+      location: "Unknown location",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "5:00 AM",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "5:00 AM",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "5:00 AM",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "5:00 AM",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "5:00 AM",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "5:00 AM",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "9:00 AM",
+              to: "5:00 AM",
+            },
+          ],
+        },
+      ],
+      entryFee: "HRK 100",
+      entryFeeCategory: "budget",
+      priceRange: "$",
+      priceCategory: "budget",
+      timeOfDay: "daytime",
+      rating: 4.5,
+      tags: [
+        "Historical",
+        "Adventure",
+        "Popular",
+      ],
+      accessibilityFeatures: [],
+      entryFees: [],
+      features: [
+        "fortress",
+        "historical site",
+        "ocean views",
+      ],
+    },
+    {
+      id: "attraction-dubrovnik-12-5",
+      city: "Dubrovnik",
+      title: "Stradun",
+      description: "Main pedestrian street lined with shops, cafes, and historic buildings.",
+      imageUrl: "",
+      location: "Unknown location",
+      openingHours: [
+        {
+          day: "Monday",
+          availableHours: [
+            {
+              from: "12:00 PM",
+              to: "11:59 AM",
+            },
+          ],
+        },
+        {
+          day: "Tuesday",
+          availableHours: [
+            {
+              from: "12:00 PM",
+              to: "11:59 AM",
+            },
+          ],
+        },
+        {
+          day: "Wednesday",
+          availableHours: [
+            {
+              from: "12:00 PM",
+              to: "11:59 AM",
+            },
+          ],
+        },
+        {
+          day: "Thursday",
+          availableHours: [
+            {
+              from: "12:00 PM",
+              to: "11:59 AM",
+            },
+          ],
+        },
+        {
+          day: "Friday",
+          availableHours: [
+            {
+              from: "12:00 PM",
+              to: "11:59 AM",
+            },
+          ],
+        },
+        {
+          day: "Saturday",
+          availableHours: [
+            {
+              from: "12:00 PM",
+              to: "11:59 AM",
+            },
+          ],
+        },
+        {
+          day: "Sunday",
+          availableHours: [
+            {
+              from: "12:00 PM",
+              to: "11:59 AM",
+            },
+          ],
+        },
+      ],
+      entryFee: undefined,
+      entryFeeCategory: "free",
+      priceRange: "free",
+      priceCategory: "free",
+      timeOfDay: "all day",
+      rating: 4.7,
+      tags: [
+        "Adventure",
+        "Free",
+        "Popular",
+      ],
+      accessibilityFeatures: [],
+      entryFees: [],
+      features: [
+        "pedestrian street",
+        "shops",
+        "cafes",
+        "historic buildings",
       ],
     },
   ];
