@@ -797,8 +797,9 @@ async function generateRoomOptionsForHotels() {
 
               // Create updated file content
               let content = `// This file is auto-generated. Do not edit manually.\n\n`;
-              content += `import { RoomOption } from "@/lib/interfaces/services/rentals";\n\n`;
               content += `// Room options for ${hotel.name}\n`;
+              content += `// Generated on ${new Date().toISOString()}\n\n`;
+              content += `import { RoomOption } from "@/lib/interfaces/services/rentals";\n\n`;
               content += `export const ${toValidVarName(hotel.name)}Rooms: RoomOption[] = [\n`;
 
               combinedOptions.forEach((room, index) => {
