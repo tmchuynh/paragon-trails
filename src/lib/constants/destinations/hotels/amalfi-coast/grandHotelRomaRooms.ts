@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Grand Hotel Roma
+export const grandHotelRomaRooms: RoomOption[] = [
+  {
+    id: "hotel-amalfi-coast-6-room-5-Single-OceanView",
+    name: "Serenity Single Room",
+    description: "Our Serenity-themed single room offers vast luxury, panoramic with a panoramic view of the coastline, and featuring premium bath amenities, inspired by decorated with local artistic influences.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave"],
+    pricePerNight: 129,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-amalfi-coast-6-room-5-King-MountainView",
+    name: "Horizon King Penthouse",
+    description: "Indulge in the homey atmosphere of our king penthouse, with spectacular where mountains paint the horizon, decorated with local artistic influences, and featuring a curated minibar selection.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping"],
+    accessibilityFeatures: ["Wheelchair Accessible", "Elevator", "Accessible Bathroom"],
+    pricePerNight: 225,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-amalfi-coast-6-room-5-Single-None",
+    name: "Tranquility Single Studio",
+    description: "Experience our contemporary, classic single studio with a pleasant outlook, including climate control for your comfort.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave"],
+    accessibilityFeatures: ["Elevator"],
+    pricePerNight: 97,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-amalfi-coast-6-room-5-Queen-GardenView",
+    name: "Signature Queen Suite",
+    description: "A calming queen suite designed for plush comfort, with with a view of the garden's natural beauty and featuring premium bath amenities, reflecting created with both style and function in mind.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping"],
+    pricePerNight: 170,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 5,
+  }
+];
