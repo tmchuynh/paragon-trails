@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Red Square Grand
+export const theRedSquareGrandRooms: RoomOption[] = [
+  {
+    id: "hotel-st-petersburg-10-room-9-Twin-MountainView",
+    name: "Harmony Twin Apartment",
+    description: "Step into a deluxe twin apartment that combines Harmony-themed with breathtaking where mountains paint the horizon, complemented by with a modern en-suite bathroom.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    accessibilityFeatures: ["Wheelchair Accessible", "Elevator"],
+    pricePerNight: 8100,
+    currency: "RUB",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-st-petersburg-10-room-9-King-None",
+    name: "Classic King Penthouse",
+    description: "Indulge in the futuristic atmosphere of our king penthouse, with spectacular with a pleasant outlook, decorated with local artistic influences, and with carefully selected furnishings.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service"],
+    pricePerNight: 10248,
+    currency: "RUB",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-st-petersburg-10-room-9-Double-OceanView",
+    name: "Deluxe Double Penthouse",
+    description: "This gentle double penthouse promises where you can enjoy the ocean's beauty, enriched by Deluxe-themed details and featuring a curated minibar selection.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 11165,
+    currency: "RUB",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-st-petersburg-10-room-9-Double-None",
+    name: "Signature Double Apartment",
+    description: "A snug double retreat with a pleasant outlook, decorated with local artistic influences.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 8070,
+    currency: "RUB",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 10,
+  }
+];

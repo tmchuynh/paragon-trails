@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Kuopio Lakeside Suites
+export const kuopioLakesideSuitesRooms: RoomOption[] = [
+  {
+    id: "hotel-helsinki-2-room-1-King-CityView",
+    name: "Classic King Suite",
+    description: "A cozy king suite designed for comfortable comfort, with where city lights twinkle at night and with a spacious work area, reflecting with a cozy and comfortable atmosphere inspired by Finnish nature.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe"],
+    pricePerNight: 122,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-helsinki-2-room-1-Double-GardenView",
+    name: "Superior Double Loft",
+    description: "Superior-themed loft with sumptuous decor, with a view of the garden's natural beauty, and featuring premium bath amenities.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 100,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-helsinki-2-room-1-Twin-MountainView",
+    name: "Luxury Twin Studio",
+    description: "A comfortable twin studio designed for compact comfort, with with a view of the mountains' rugged terrain and with blackout curtains for a perfect night's sleep, reflecting with a cozy and comfortable atmosphere inspired by Finnish nature.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    accessibilityFeatures: ["Wheelchair Accessible"],
+    pricePerNight: 88,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-helsinki-2-room-1-King-GardenView",
+    name: "Standard King Suite",
+    description: "This classic king accommodation offers where you can enjoy the sights and sounds of nature, with a cozy and comfortable atmosphere inspired by Finnish nature.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service"],
+    pricePerNight: 132,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 8,
+  }
+];

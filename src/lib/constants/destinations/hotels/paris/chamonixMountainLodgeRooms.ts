@@ -1,0 +1,77 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Chamonix Mountain Lodge
+export const chamonixMountainLodgeRooms: RoomOption[] = [
+  {
+    id: "hotel-paris-3-room-2-Queen-GardenView",
+    name: "Premium Queen Apartment",
+    description: "Indulge in the sizable atmosphere of our queen apartment, with spectacular featuring a peaceful garden setting, featuring chic Parisian-inspired decor, and with a modern en-suite bathroom.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    accessibilityFeatures: ["Hearing Support", "Visual Aids", "Accessible Bathroom"],
+    pricePerNight: 130,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-paris-3-room-2-SofaBed-GardenView",
+    name: "Tranquility Sofa Bed Suite",
+    description: "Experience our modern, sophisticated sofa bed suite where you can enjoy the garden's seasonal blooms, with blackout curtains for a perfect night's sleep.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 81,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-paris-3-room-2-SofaBed-MountainView",
+    name: "Superior Sofa Bed Apartment",
+    description: "Relax in our wide-ranging avant-garde sofa bed apartment featuring featuring awe-inspiring mountain scenery, along with including climate control for your comfort and with French Provincial charm.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    accessibilityFeatures: ["Wheelchair Accessible", "Elevator", "Accessible Bathroom"],
+    pricePerNight: 106,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-paris-3-room-2-Single-CityView",
+    name: "Horizon Single Apartment",
+    description: "Enjoy a large-scale stay in our Horizon-themed single apartment, offering with a view of the city's waterfront, with a spacious work area, and unique touches of featuring chic Parisian-inspired decor.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 70,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 7,
+  }
+];

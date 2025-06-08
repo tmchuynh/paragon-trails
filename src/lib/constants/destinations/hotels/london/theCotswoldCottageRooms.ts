@@ -1,0 +1,77 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Cotswold Cottage
+export const theCotswoldCottageRooms: RoomOption[] = [
+  {
+    id: "hotel-london-9-room-8-King-GardenView",
+    name: "Executive King Apartment",
+    description: "A refreshing king apartment designed for lavish comfort, with with a view of manicured lawns and gardens and with high-speed internet access, reflecting featuring thoughtful design elements.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping"],
+    pricePerNight: 97,
+    currency: "GBP",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-london-9-room-8-SofaBed-OceanView",
+    name: "Luxury Sofa Bed Room",
+    description: "Experience our refined, well-proportioned sofa bed room with a view of the sandy beaches, with a luxurious soaking tub.",
+    occupancy: {
+      adults: 1,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 67,
+    currency: "GBP",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-london-9-room-8-Twin-MountainView",
+    name: "Kensington Twin Apartment",
+    description: "Enjoy a restful stay in our Kensington-themed twin apartment, offering where you can enjoy the peace of the highlands, complete with a well-appointed bathroom, and unique touches of decorated with local artistic influences.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer"],
+    accessibilityFeatures: ["Visual Aids", "Accessible Bathroom", "Elevator"],
+    pricePerNight: 65,
+    currency: "GBP",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-london-9-room-8-Twin-GardenView",
+    name: "Victorian Twin Villa",
+    description: "Indulge in the exquisite atmosphere of our twin villa, with spectacular with a view of manicured lawns and gardens, decorated with local artistic influences, and including climate control for your comfort.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer"],
+    accessibilityFeatures: ["Wheelchair Accessible", "Elevator"],
+    pricePerNight: 62,
+    currency: "GBP",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 8,
+  }
+];

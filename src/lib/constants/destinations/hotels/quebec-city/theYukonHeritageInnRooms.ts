@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Yukon Heritage Inn
+export const theYukonHeritageInnRooms: RoomOption[] = [
+  {
+    id: "hotel-quebec-city-1-room-0-SofaBed-OceanView",
+    name: "Premium Sofa Bed Room",
+    description: "Premium-themed room with snug decor, where the horizon meets the ocean, and with a modern en-suite bathroom.",
+    occupancy: {
+      adults: 1,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 487,
+    currency: "CAD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-quebec-city-1-room-0-King-MountainView",
+    name: "Serenity King Villa",
+    description: "Our eclectic Serenity-themed villa offers with a view of the rugged mountain landscape, roomy comfort, and complete with a well-appointed bathroom.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 730,
+    currency: "CAD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-quebec-city-1-room-0-Double-MountainView",
+    name: "Horizon Double Loft",
+    description: "Enjoy a sleek stay in our Horizon-themed double loft, offering where you can enjoy the tranquility of the mountains, with carefully selected furnishings, and unique touches of featuring thoughtful design elements.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 449,
+    currency: "CAD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-quebec-city-1-room-0-Queen-CityView",
+    name: "Deluxe Queen Villa",
+    description: "Discover the charm of this Deluxe-themed queen villa, complete with eclectic ambiance, stunning with stunning views of the city skyline, and with high-speed internet access.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 504,
+    currency: "CAD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 9,
+  }
+];

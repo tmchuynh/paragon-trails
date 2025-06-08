@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Parthenon View Inn
+export const theParthenonViewInnRooms: RoomOption[] = [
+  {
+    id: "hotel-mykonos-7-room-6-Twin-OceanView",
+    name: "Olympus Twin Villa",
+    description: "This contemporary twin accommodation offers with a view of the ocean's changing tides, with classic Greek architectural elements and modern comforts.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service"],
+    pricePerNight: 134,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-mykonos-7-room-6-Single-CityView",
+    name: "Parthenon Single Studio",
+    description: "Discover the charm of this Parthenon-themed single studio, complete with modern ambiance, stunning where you can watch the city wake up, and with a luxurious soaking tub.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 95,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-mykonos-7-room-6-Twin-CityView",
+    name: "Executive Twin Loft",
+    description: "Our Executive-themed twin loft offers restful luxury, panoramic with a view of iconic landmarks, and with high-speed internet access, inspired by blending traditional style with luxurious amenities.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 99,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-mykonos-7-room-6-SofaBed-OceanView",
+    name: "Executive Sofa Bed Loft",
+    description: "Step into a heartwarming sofa bed loft that combines Executive-themed with breathtaking where you can enjoy stunning sunsets over the water, complemented by featuring premium bath amenities.",
+    occupancy: {
+      adults: 1,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer"],
+    pricePerNight: 112,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 2,
+  }
+];

@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Sicilian Heritage Hotel
+export const theSicilianHeritageHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-milan-9-room-8-Queen-MountainView",
+    name: "Premium Queen Suite",
+    description: "Premium-themed suite with sleek decor, where you can enjoy the peace of the highlands, and offering a unique blend of style and comfort.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service"],
+    pricePerNight: 277,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-milan-9-room-8-Double-CityView",
+    name: "Luxury Double Villa",
+    description: "Enjoy a roomy stay in our Luxury-themed double villa, offering showcasing the urban landscape, featuring premium bath amenities, and unique touches of featuring tasteful Mediterranean touches.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 184,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-milan-9-room-8-King-OceanView",
+    name: "Signature King Penthouse",
+    description: "Unwind in this commodious king penthouse featuring uninterrupted ocean vistas, equipped with all the modern conveniences.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe"],
+    pricePerNight: 341,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-milan-9-room-8-Single-None",
+    name: "Horizon Single Suite",
+    description: "Relax in our voluminous restful single suite featuring with a pleasant outlook, along with with blackout curtains for a perfect night's sleep and with classic Italian elegance.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    accessibilityFeatures: ["Elevator"],
+    pricePerNight: 151,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 8,
+  }
+];

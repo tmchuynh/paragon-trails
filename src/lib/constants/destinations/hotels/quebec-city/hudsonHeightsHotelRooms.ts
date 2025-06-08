@@ -1,0 +1,77 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Hudson Heights Hotel
+export const hudsonHeightsHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-quebec-city-6-room-5-Single-MountainView",
+    name: "Tranquility Single Apartment",
+    description: "A industrial single apartment designed for expansive comfort, with with a view of the mountains' changing seasons and with a luxurious soaking tub, reflecting featuring thoughtful design elements.",
+    occupancy: {
+      adults: 1,
+      children: 0,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 162,
+    currency: "CAD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-quebec-city-6-room-5-Twin-MountainView",
+    name: "Modern Twin Studio",
+    description: "Step into a ornate twin studio that combines Modern-themed with breathtaking where you can find inspiration in the mountains, complemented by with carefully selected furnishings.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    accessibilityFeatures: ["Visual Aids", "Accessible Bathroom"],
+    pricePerNight: 168,
+    currency: "CAD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-quebec-city-6-room-5-SofaBed-OceanView",
+    name: "Classic Sofa Bed Suite",
+    description: "Discover the charm of this Classic-themed sofa bed suite, complete with inviting ambiance, stunning with a view of the tranquil sea, and with plush bedding for ultimate comfort.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    pricePerNight: 173,
+    currency: "CAD",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-quebec-city-6-room-5-Twin-OceanView",
+    name: "Serenity Twin Loft",
+    description: "A vast twin retreat with a private balcony overlooking the sea, designed for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer"],
+    pricePerNight: 190,
+    currency: "CAD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 1,
+  }
+];

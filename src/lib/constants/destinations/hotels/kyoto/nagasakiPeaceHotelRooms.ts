@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Nagasaki Peace Hotel
+export const nagasakiPeaceHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-kyoto-5-room-4-Double-OceanView",
+    name: "Classic Double Suite",
+    description: "Discover the charm of this Classic-themed double suite, complete with classic ambiance, stunning with breathtaking sea views, and with blackout curtains for a perfect night's sleep.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock"],
+    pricePerNight: 6378001,
+    currency: "JPY",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-kyoto-5-room-4-King-GardenView",
+    name: "Sakura King Suite",
+    description: "Relax in our elegant upscale king suite featuring with a view of tranquil water features, along with with a spacious seating area and offering the perfect balance of Eastern serenity and Western comfort.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock"],
+    pricePerNight: 7470553,
+    currency: "JPY",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-kyoto-5-room-4-Single-CityView",
+    name: "Standard Single Apartment",
+    description: "Indulge in the commodious atmosphere of our single apartment, with spectacular with a front-row seat to the city's heartbeat, offering the perfect balance of Eastern serenity and Western comfort, and with a spacious work area.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 3852042,
+    currency: "JPY",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-kyoto-5-room-4-Single-OceanView",
+    name: "Zen Single Studio",
+    description: "Our Zen-themed single studio offers chic luxury, panoramic with a view of the tranquil sea, and offering a unique blend of style and comfort, inspired by offering the perfect balance of Eastern serenity and Western comfort.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave"],
+    pricePerNight: 4480920,
+    currency: "JPY",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 8,
+  }
+];

@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Crimson Pines
+export const theCrimsonPinesRooms: RoomOption[] = [
+  {
+    id: "hotel-skagway-5-room-4-Double-CityView",
+    name: "Colonial Double Penthouse",
+    description: "This traditional double accommodation offers showcasing the urban landscape, featuring sleek urban design elements.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 109,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-skagway-5-room-4-Double-None",
+    name: "Colonial Double Suite",
+    description: "Colonial-themed suite with exquisite decor, with a pleasant outlook, and offering a unique blend of style and comfort.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 92,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-skagway-5-room-4-Twin-CityView",
+    name: "Colonial Twin Suite",
+    description: "Discover the charm of this Colonial-themed twin suite, complete with futuristic ambiance, stunning where the city skyline meets the horizon, and with high-speed internet access.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    pricePerNight: 96,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-skagway-5-room-4-SofaBed-MountainView",
+    name: "Golden Gate Sofa Bed Loft",
+    description: "Enjoy a tranquil stay in our Golden Gate-themed sofa bed loft, offering with a view of the mountains' natural beauty, with a private balcony or terrace, and unique touches of with rustic and modern influences.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave"],
+    pricePerNight: 116,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 6,
+  }
+];

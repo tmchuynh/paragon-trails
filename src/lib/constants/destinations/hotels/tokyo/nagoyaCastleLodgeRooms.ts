@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Nagoya Castle Lodge
+export const nagoyaCastleLodgeRooms: RoomOption[] = [
+  {
+    id: "hotel-tokyo-9-room-8-Twin-CityView",
+    name: "Bamboo Twin Room",
+    description: "Discover the charm of this Bamboo-themed twin room, complete with grandiose ambiance, stunning where you can enjoy the city's energy, and with blackout curtains for a perfect night's sleep.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave"],
+    accessibilityFeatures: ["Hearing Support", "Wheelchair Accessible"],
+    pricePerNight: 4099450,
+    currency: "JPY",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-tokyo-9-room-8-Double-GardenView",
+    name: "Lotus Double Room",
+    description: "This palatial double room promises where you can enjoy the garden's seasonal blooms, enriched by Lotus-themed details and with a spacious seating area.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 4575768,
+    currency: "JPY",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-tokyo-9-room-8-Single-GardenView",
+    name: "Lotus Single Villa",
+    description: "Relax in our open-concept vast single villa featuring offering a peaceful garden outlook, along with with a private balcony or terrace and combining modern luxury with Japanese tradition.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 3659718,
+    currency: "JPY",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-tokyo-9-room-8-Single-MountainView",
+    name: "Superior Single Loft",
+    description: "Our rustic Superior-themed loft offers with a view of the mountains' rugged terrain, homey comfort, and with a modern en-suite bathroom.",
+    occupancy: {
+      adults: 1,
+      children: 0,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    pricePerNight: 4299941,
+    currency: "JPY",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 2,
+  }
+];

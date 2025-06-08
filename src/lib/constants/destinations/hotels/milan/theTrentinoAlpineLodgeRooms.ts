@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Trentino Alpine Lodge
+export const theTrentinoAlpineLodgeRooms: RoomOption[] = [
+  {
+    id: "hotel-milan-6-room-5-Queen-None",
+    name: "Classic Queen Studio",
+    description: "Our minimalist Classic-themed studio offers with a pleasant outlook, ample comfort, and with blackout curtains for a perfect night's sleep.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service"],
+    pricePerNight: 218,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-milan-6-room-5-King-OceanView",
+    name: "Luxury King Studio",
+    description: "This eclectic king accommodation offers with a view of the ocean's changing tides, offering a touch of la dolce vita.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 285,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-milan-6-room-5-Single-None",
+    name: "Harmony Single Villa",
+    description: "This extravagant single villa promises with a pleasant outlook, enriched by Harmony-themed details and with plush bedding for ultimate comfort.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 128,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-milan-6-room-5-SofaBed-OceanView",
+    name: "Modern Sofa Bed Studio",
+    description: "Our exquisite Modern-themed studio offers where you can feel the ocean breeze, sizable comfort, and with a spacious seating area.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock"],
+    pricePerNight: 213,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 4,
+  }
+];

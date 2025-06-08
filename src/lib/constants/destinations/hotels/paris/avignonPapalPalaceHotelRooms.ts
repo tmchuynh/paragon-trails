@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Avignon Papal Palace Hotel
+export const avignonPapalPalaceHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-paris-5-room-4-SofaBed-None",
+    name: "Horizon Sofa Bed Penthouse",
+    description: "This calming sofa bed penthouse promises with a pleasant outlook, enriched by Horizon-themed details and with high-speed internet access.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer"],
+    pricePerNight: 157,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-paris-5-room-4-King-OceanView",
+    name: "Signature King Penthouse",
+    description: "Signature-themed king penthouse overlooking the sparkling ocean waves, with French Provincial charm and with a luxurious soaking tub.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 307,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-paris-5-room-4-Twin-OceanView",
+    name: "Harmony Twin Room",
+    description: "Discover the charm of this Harmony-themed twin room, complete with heartwarming ambiance, stunning overlooking the sparkling ocean waves, and with blackout curtains for a perfect night's sleep.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping"],
+    pricePerNight: 219,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-paris-5-room-4-King-MountainView",
+    name: "Superior King Villa",
+    description: "A spacious king villa designed for extravagant comfort, with where you can escape to the mountains and with plush bedding for ultimate comfort, reflecting with French Provincial charm.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp"],
+    pricePerNight: 313,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 3,
+  }
+];

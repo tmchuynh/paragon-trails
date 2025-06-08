@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Wanaka Lakefront Hotel
+export const wanakaLakefrontHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-auckland-10-room-9-Single-CityView",
+    name: "Maori Single Suite",
+    description: "Indulge in the cozy atmosphere of our single suite, with spectacular showcasing the urban landscape, blending rustic charm with modern comfort, and offering a unique blend of style and comfort.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer"],
+    pricePerNight: 341,
+    currency: "NZD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-auckland-10-room-9-SofaBed-CityView",
+    name: "Superior Sofa Bed Villa",
+    description: "Our refined Superior-themed villa offers where the city skyline meets the horizon, minimalist comfort, and with a luxurious soaking tub.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    pricePerNight: 353,
+    currency: "NZD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-auckland-10-room-9-SofaBed-None",
+    name: "Southern Cross Sofa Bed Studio",
+    description: "Our Southern Cross-themed sofa bed studio offers refreshing luxury, panoramic with a pleasant outlook, and featuring a curated minibar selection, inspired by blending rustic charm with modern comfort.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    pricePerNight: 299,
+    currency: "NZD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-auckland-10-room-9-Twin-GardenView",
+    name: "Maori Twin Room",
+    description: "A artistic twin retreat with a view of blooming flowers and greenery, blending rustic charm with modern comfort.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 353,
+    currency: "NZD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 9,
+  }
+];

@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Hotel Siena Serenade
+export const hotelSienaSerenadeRooms: RoomOption[] = [
+  {
+    id: "hotel-amalfi-coast-4-room-3-Single-MountainView",
+    name: "Luxury Single Loft",
+    description: "Relax in our commodious snug single loft featuring with a view of the mountains' breathtaking sunsets, along with featuring premium bath amenities and created with both style and function in mind.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    pricePerNight: 100,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-amalfi-coast-4-room-3-Double-GardenView",
+    name: "Deluxe Double Apartment",
+    description: "A classic double apartment designed for extravagant comfort, with where you can find solace in nature's embrace and featuring premium bath amenities, reflecting created with both style and function in mind.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 99,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-amalfi-coast-4-room-3-Queen-CityView",
+    name: "Modern Queen Suite",
+    description: "Unwind in this snug queen suite with a view of the city's waterfront, with high-speed internet access.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock"],
+    accessibilityFeatures: ["Wheelchair Accessible", "Elevator"],
+    pricePerNight: 120,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-amalfi-coast-4-room-3-SofaBed-MountainView",
+    name: "Horizon Sofa Bed Penthouse",
+    description: "A regal sofa bed penthouse designed for heartwarming comfort, with with panoramic views of the mountain landscape and with high-speed internet access, reflecting featuring thoughtful design elements.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer"],
+    pricePerNight: 112,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 6,
+  }
+];

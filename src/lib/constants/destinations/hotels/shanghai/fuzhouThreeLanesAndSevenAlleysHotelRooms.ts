@@ -1,0 +1,78 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Fuzhou Three Lanes and Seven Alleys Hotel
+export const fuzhouThreeLanesAndSevenAlleysHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-shanghai-9-room-8-SofaBed-MountainView",
+    name: "Silk Sofa Bed Room",
+    description: "Unwind in this broad sofa bed room with a view of the rugged mountain landscape, with a luxurious soaking tub.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer"],
+    accessibilityFeatures: ["Hearing Support"],
+    pricePerNight: 6339,
+    currency: "CNY",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-shanghai-9-room-8-Double-GardenView",
+    name: "Standard Double Room",
+    description: "Step into a tranquil double room that combines Standard-themed with breathtaking where you can enjoy the beauty of nature, complemented by with carefully selected furnishings.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer"],
+    accessibilityFeatures: ["Elevator", "Wheelchair Accessible", "Visual Aids"],
+    pricePerNight: 6117,
+    currency: "CNY",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-shanghai-9-room-8-Twin-OceanView",
+    name: "Classic Twin Studio",
+    description: "Our Classic-themed twin studio offers airy luxury, panoramic where you can watch the waves roll in, and featuring a curated minibar selection, inspired by featuring elegant calligraphy and silk accents.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    pricePerNight: 6291,
+    currency: "CNY",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-shanghai-9-room-8-SofaBed-CityView",
+    name: "Bamboo Sofa Bed Suite",
+    description: "Discover the charm of this Bamboo-themed sofa bed suite, complete with comfy ambiance, stunning with a view of the city's waterfront, and with a modern en-suite bathroom.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    accessibilityFeatures: ["Visual Aids", "Accessible Bathroom"],
+    pricePerNight: 5474,
+    currency: "CNY",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 4,
+  }
+];

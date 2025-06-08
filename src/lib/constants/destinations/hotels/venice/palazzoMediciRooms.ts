@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Palazzo Medici
+export const palazzoMediciRooms: RoomOption[] = [
+  {
+    id: "hotel-venice-2-room-1-King-CityView",
+    name: "Harmony King Apartment",
+    description: "Experience our tasteful, calming king apartment overlooking the vibrant cityscape, offering a unique blend of style and comfort.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping"],
+    accessibilityFeatures: ["Hearing Support"],
+    pricePerNight: 92,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-venice-2-room-1-SofaBed-MountainView",
+    name: "Horizon Sofa Bed Loft",
+    description: "This compact sofa bed loft promises with a view of the mountains' rugged terrain, enriched by Horizon-themed details and including climate control for your comfort.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    pricePerNight: 64,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-venice-2-room-1-Twin-None",
+    name: "Standard Twin Studio",
+    description: "Our upscale Standard-themed studio offers with a pleasant outlook, extensive comfort, and with a spacious seating area.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    accessibilityFeatures: ["Wheelchair Accessible", "Elevator"],
+    pricePerNight: 57,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-venice-2-room-1-SofaBed-OceanView",
+    name: "Signature Sofa Bed Studio",
+    description: "Enjoy a vast stay in our Signature-themed sofa bed studio, offering with a view of the sandy beaches, featuring premium bath amenities, and unique touches of inspired by Italian Renaissance design.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 65,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 6,
+  }
+];

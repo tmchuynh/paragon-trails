@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Tundra View Inn
+export const theTundraViewInnRooms: RoomOption[] = [
+  {
+    id: "hotel-quebec-city-7-room-6-Single-None",
+    name: "Superior Single Loft",
+    description: "Relax in our prestigious tranquil single loft featuring with a pleasant outlook, along with with carefully selected furnishings and decorated with local artistic influences.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer"],
+    pricePerNight: 129,
+    currency: "CAD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-quebec-city-7-room-6-Single-GardenView",
+    name: "Executive Single Penthouse",
+    description: "Step into a serene single penthouse that combines Executive-themed with breathtaking where you can find solace in nature's embrace, complemented by with a spacious seating area.",
+    occupancy: {
+      adults: 1,
+      children: 0,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 143,
+    currency: "CAD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-quebec-city-7-room-6-Single-MountainView",
+    name: "Deluxe Single Apartment",
+    description: "Relax in our soft chic single apartment featuring with a view of the mountains' lush valleys, along with with a private balcony or terrace and designed for ultimate comfort.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer"],
+    accessibilityFeatures: ["Hearing Support"],
+    pricePerNight: 152,
+    currency: "CAD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-quebec-city-7-room-6-Queen-GardenView",
+    name: "Horizon Queen Villa",
+    description: "This vintage queen accommodation offers where you can unwind in a garden paradise, created with both style and function in mind.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp"],
+    pricePerNight: 211,
+    currency: "CAD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 5,
+  }
+];

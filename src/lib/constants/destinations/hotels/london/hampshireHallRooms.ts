@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Hampshire Hall
+export const hampshireHallRooms: RoomOption[] = [
+  {
+    id: "hotel-london-1-room-0-Double-MountainView",
+    name: "Royal Double Room",
+    description: "This sleek double room promises with a view of the mountains' rugged terrain, enriched by Royal-themed details and with plush bedding for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 84,
+    currency: "GBP",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-london-1-room-0-Double-OceanView",
+    name: "Tudor Double Apartment",
+    description: "This lavish double apartment promises with a private balcony overlooking the sea, enriched by Tudor-themed details and with a modern en-suite bathroom.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp"],
+    pricePerNight: 85,
+    currency: "GBP",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-london-1-room-0-Double-None",
+    name: "Standard Double Penthouse",
+    description: "Standard-themed penthouse with deluxe decor, with a pleasant outlook, and with a luxurious soaking tub.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave"],
+    pricePerNight: 68,
+    currency: "GBP",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-london-1-room-0-Queen-MountainView",
+    name: "Standard Queen Villa",
+    description: "Discover the charm of this Standard-themed queen villa, complete with wide-ranging ambiance, stunning where you can take in the fresh mountain air, and with a spacious work area.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe"],
+    pricePerNight: 93,
+    currency: "GBP",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 8,
+  }
+];

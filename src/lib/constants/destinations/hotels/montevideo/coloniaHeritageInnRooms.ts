@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Colonia Heritage Inn
+export const coloniaHeritageInnRooms: RoomOption[] = [
+  {
+    id: "hotel-montevideo-4-room-3-SofaBed-CityView",
+    name: "Atlantic Breeze Sofa Bed Room",
+    description: "Discover the charm of this Atlantic Breeze-themed sofa bed room, complete with roomy ambiance, stunning where the city comes alive at dusk, and offering a unique blend of style and comfort.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer"],
+    pricePerNight: 277589,
+    currency: "UYU",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-montevideo-4-room-3-Twin-GardenView",
+    name: "Colonia Twin Apartment",
+    description: "A inviting twin retreat with a view of the garden's seasonal changes, featuring warm, earthy tones.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    accessibilityFeatures: ["Hearing Support", "Elevator"],
+    pricePerNight: 286163,
+    currency: "UYU",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-montevideo-4-room-3-King-MountainView",
+    name: "Estancia King Room",
+    description: "This vintage king accommodation offers where you can find inspiration in the mountains, featuring warm, earthy tones.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service"],
+    pricePerNight: 490262,
+    currency: "UYU",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-montevideo-4-room-3-Queen-OceanView",
+    name: "Standard Queen Villa",
+    description: "Standard-themed queen villa where the horizon meets the ocean, offering a cozy yet elegant atmosphere and with plush bedding for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping"],
+    pricePerNight: 435262,
+    currency: "UYU",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 6,
+  }
+];
