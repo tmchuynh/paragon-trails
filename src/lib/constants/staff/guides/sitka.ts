@@ -5,211 +5,134 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const sitkaunitedStatesalaskaGuides: TourGuide[] = [
   {
     id: "guide-sitka-1",
-    name: "Timothy Garcia",
+    name: "Tyler Taylor",
     city: "Sitka",
     country: "United States",
     state: "",
     region: "Alaska",
     isPopular: false,
-    bio: "Timothy is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Art Walks, Timothy provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Eastern Mediterranean"],
-    tourTypes: ["Market Tour", "Luxury Tour", "LGBTQ+ Friendly Tour", "Group Tour"],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-5200-SIT",
-    phoneNumber: "+1-993-922-9867",
-    contactEmail: "timothy.garcia@paragontrails.com",
+    bio: "Tyler is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Shopping, Religious Sites, Tyler provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Indian Ocean"],
+    tourTypes: ["Scenic Tour", "Boat Tour", "Luxury Tour", "Nature Tour", "Bike Tour"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-8111-SIT",
+    phoneNumber: "+1-533-306-7561",
+    contactEmail: "tyler.taylor@paragontrails.com",
     available: [
       {
         day: "Sunday",
         availableHours: [
           {
             from: "10:00 AM",
-            to: "01:00 PM",
-          },
-          {
-            from: "02:00 PM",
-            to: "07:00 PM",
+            to: "04:00 PM",
           }
         ],
       },
       {
-        day: "Wednesday",
+        day: "Saturday",
         availableHours: [
           {
-            from: "09:00 AM",
-            to: "03:00 PM",
+            from: "03:00 PM",
+            to: "06:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "04:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Timothy is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Art Walks, Timothy provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.3,
-    reviewsCount: 71,
-    quote: "In Sitka, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/29.jpg",
-    languages: ["Montenegrin"],
-    experienceYears: 14,
-    certifications: ["CPR & First Aid", "Wilderness First Responder", "Food Safety Certification"],
-    specialties: ["Art Walks"],
-    specialTraining: ["Mountain Survival"],
+    description: "Tyler is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Shopping, Religious Sites, Tyler provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.9,
+    reviewsCount: 94,
+    quote: "The best way to discover Sitka is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/54.jpg",
+    languages: ["Galician", "Lithuanian", "Basque"],
+    experienceYears: 13,
+    certifications: ["Licensed City Guide", "Certified Eco-Tourism Guide"],
+    specialties: ["Shopping", "Religious Sites"],
+    specialTraining: ["Regional Cuisine", "Mountain Survival"],
   },
   {
     id: "guide-sitka-2",
-    name: "Zachary Davis",
+    name: "Madelyn Wilson",
     city: "Sitka",
     country: "United States",
     state: "",
     region: "Alaska",
-    isPopular: false,
-    bio: "Zachary is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Cultural Workshops, Night Tours, Adventure Sports, Cultural Experiences, Zachary provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Yellow Sea"],
-    tourTypes: ["Cooking Class", "Scenic Tour", "Accessible Tour"],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-2487-SIT",
-    phoneNumber: "+1-454-198-4865",
-    contactEmail: "zachary.davis@paragontrails.com",
+    isPopular: true,
+    bio: "Madelyn is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Cultural Experiences, Local Music, Hidden Gems, Photography Spots, Madelyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada"],
+    tourTypes: ["Eco Tour", "Helicopter Tour"],
+    maxGroupSize: 17,
+    licenseNumber: "LIC-2755-SIT",
+    phoneNumber: "+1-225-707-1591",
+    contactEmail: "madelyn.wilson@paragontrails.com",
     available: [
       {
-        day: "Friday",
+        day: "Sunday",
         availableHours: [
           {
             from: "02:00 PM",
-            to: "07:00 PM",
+            to: "08:00 PM",
           },
           {
-            from: "11:00 AM",
+            from: "09:00 AM",
             to: "02:00 PM",
           }
         ],
       },
       {
-        day: "Monday",
+        day: "Saturday",
         availableHours: [
           {
-            from: "03:00 PM",
-            to: "09:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "04:00 PM",
-          },
-          {
-            from: "10:00 AM",
-            to: "04:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "08:00 PM",
+            from: "12:00 PM",
+            to: "02:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Zachary is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Cultural Workshops, Night Tours, Adventure Sports, Cultural Experiences, Zachary provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.4,
-    reviewsCount: 30,
-    quote: "The best way to discover Sitka is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/63.jpg",
-    languages: ["Afrikaans"],
-    experienceYears: 14,
-    certifications: ["Language Proficiency Certification", "Professional Tour Guide Association", "Wilderness First Responder"],
-    specialties: ["Cultural Workshops", "Night Tours", "Adventure Sports", "Cultural Experiences"],
-    specialTraining: [],
+    description: "Madelyn is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Cultural Experiences, Local Music, Hidden Gems, Photography Spots, Madelyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.9,
+    reviewsCount: 63,
+    quote: "Every corner of Sitka tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/30.jpg",
+    languages: ["Croatian"],
+    experienceYears: 15,
+    certifications: ["Wilderness First Responder"],
+    specialties: ["Cultural Experiences", "Local Music", "Hidden Gems", "Photography Spots"],
+    specialTraining: ["Desert Navigation"],
   },
   {
     id: "guide-sitka-3",
-    name: "Alexander Sutton",
-    city: "Sitka",
-    country: "United States",
-    state: "",
-    region: "Alaska",
-    isPopular: true,
-    bio: "Alexander is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Local Cuisine, Local Crafts, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Arabian Sea"],
-    tourTypes: ["Food Tour", "Cooking Class", "Farm Visit", "Underground Tour", "Market Tour"],
-    maxGroupSize: 5,
-    licenseNumber: "LIC-9325-SIT",
-    phoneNumber: "+1-688-929-5334",
-    contactEmail: "alexander.sutton@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "02:00 PM",
-          },
-          {
-            from: "01:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "08:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "03:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Alexander is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Local Cuisine, Local Crafts, Alexander provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.3,
-    reviewsCount: 101,
-    quote: "The best way to discover Sitka is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/20.jpg",
-    languages: ["Swedish"],
-    experienceYears: 16,
-    certifications: ["Certified Local Guide"],
-    specialties: ["Local Cuisine", "Local Crafts"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-sitka-4",
-    name: "Yuki Davis",
+    name: "Fatima Price",
     city: "Sitka",
     country: "United States",
     state: "",
     region: "Alaska",
     isPopular: false,
-    bio: "Yuki is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Museums, Public Transportation Navigation, Historical Tours, Local Folklore, Yuki provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Antarctica"],
-    tourTypes: ["Museum Tour", "Accessible Tour", "Brewery Tour", "Relocation Tour", "Nature Tour"],
-    maxGroupSize: 6,
-    licenseNumber: "LIC-5671-SIT",
-    phoneNumber: "+1-764-180-4919",
-    contactEmail: "yuki.davis@paragontrails.com",
+    bio: "Fatima is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Local Wildlife, Local Myths, Local Folklore, Hidden Treasures, Fatima provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Antarctic Peninsula"],
+    tourTypes: ["Relocation Tour", "Brewery Tour", "Farm Visit", "Street Art Tour"],
+    maxGroupSize: 12,
+    licenseNumber: "LIC-4693-SIT",
+    phoneNumber: "+1-348-581-2537",
+    contactEmail: "fatima.price@paragontrails.com",
     available: [
       {
-        day: "Friday",
+        day: "Sunday",
         availableHours: [
-          {
-            from: "11:00 AM",
-            to: "04:00 PM",
-          },
           {
             from: "12:00 PM",
             to: "03:00 PM",
@@ -217,97 +140,126 @@ export const sitkaunitedStatesalaskaGuides: TourGuide[] = [
         ],
       },
       {
-        day: "Thursday",
+        day: "Friday",
         availableHours: [
-          {
-            from: "01:00 PM",
-            to: "04:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "07:00 PM",
-          },
-          {
-            from: "02:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "02:00 PM",
-          },
           {
             from: "03:00 PM",
-            to: "06:00 PM",
+            to: "07:00 PM",
           }
         ],
       },
       {
         day: "Saturday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
         availableHours: [
           {
             from: "08:00 AM",
-            to: "12:00 PM",
-          },
-          {
-            from: "11:00 AM",
-            to: "01:00 PM",
+            to: "10:00 AM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Yuki is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Museums, Public Transportation Navigation, Historical Tours, Local Folklore, Yuki provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.9,
-    reviewsCount: 10,
-    quote: "My goal is to help you fall in love with Sitka just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/41.jpg",
-    languages: ["Portuguese", "Macedonian"],
-    experienceYears: 6,
-    certifications: ["Adventure Tourism Safety Certificate"],
-    specialties: ["Museums", "Public Transportation Navigation", "Historical Tours", "Local Folklore"],
-    specialTraining: ["Local Geography"],
+    description: "Fatima is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Local Wildlife, Local Myths, Local Folklore, Hidden Treasures, Fatima provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 41,
+    quote: "Sitka isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/9.jpg",
+    languages: ["Lithuanian"],
+    experienceYears: 8,
+    certifications: ["Urban Navigation Specialist", "Regional Tourism Ambassador"],
+    specialties: ["Local Wildlife", "Local Myths", "Local Folklore", "Hidden Treasures"],
+    specialTraining: ["Regional Cuisine", "Wine Education"],
   },
   {
-    id: "guide-sitka-5",
-    name: "Riley Clark",
+    id: "guide-sitka-4",
+    name: "Larry Jones",
     city: "Sitka",
     country: "United States",
     state: "",
     region: "Alaska",
-    isPopular: true,
-    bio: "Riley is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Local Dance, Night Tours, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada"],
-    tourTypes: ["Architecture Tour", "Wine Tour", "Nature Tour", "Relocation Tour"],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-8844-SIT",
-    phoneNumber: "+1-696-591-5735",
-    contactEmail: "riley.clark@paragontrails.com",
+    isPopular: false,
+    bio: "Larry is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Nature Trails, Larry provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East & North Africa"],
+    tourTypes: ["Scenic Tour", "Family-Friendly Tour", "Off-Road Tour", "Bike Tour", "Wildlife Safari"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-6999-SIT",
+    phoneNumber: "+1-456-139-1178",
+    contactEmail: "larry.jones@paragontrails.com",
     available: [
       {
-        day: "Tuesday",
+        day: "Friday",
         availableHours: [
           {
-            from: "02:00 PM",
+            from: "01:00 PM",
             to: "05:00 PM",
+          },
+          {
+            from: "02:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "06:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "10:00 AM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Larry is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Nature Trails, Larry provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 70,
+    quote: "Every corner of Sitka tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/25.jpg",
+    languages: ["Ukrainian", "Romanian"],
+    experienceYears: 2,
+    certifications: ["Certified Tour Guide", "Eco-Tourism Guide"],
+    specialties: ["Nature Trails"],
+    specialTraining: ["Sustainable Practices"],
+  },
+  {
+    id: "guide-sitka-5",
+    name: "Maria Kim",
+    city: "Sitka",
+    country: "United States",
+    state: "",
+    region: "Alaska",
+    isPopular: false,
+    bio: "Maria is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Film Locations, Maria provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Latin America"],
+    tourTypes: ["Off-Road Tour", "Street Art Tour"],
+    maxGroupSize: 7,
+    licenseNumber: "LIC-6268-SIT",
+    phoneNumber: "+1-465-408-8598",
+    contactEmail: "maria.kim@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "12:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "02:00 PM",
           }
         ],
       },
@@ -316,10 +268,10 @@ export const sitkaunitedStatesalaskaGuides: TourGuide[] = [
         availableHours: [
           {
             from: "09:00 AM",
-            to: "11:00 AM",
+            to: "02:00 PM",
           },
           {
-            from: "12:00 PM",
+            from: "10:00 AM",
             to: "04:00 PM",
           }
         ],
@@ -328,219 +280,104 @@ export const sitkaunitedStatesalaskaGuides: TourGuide[] = [
         day: "Wednesday",
         availableHours: [
           {
-            from: "02:00 PM",
-            to: "06:00 PM",
+            from: "12:00 PM",
+            to: "05:00 PM",
           },
           {
-            from: "12:00 PM",
+            from: "08:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Maria is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Film Locations, Maria provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.8,
+    reviewsCount: 5,
+    quote: "In Sitka, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/67.jpg",
+    languages: ["Marathi", "Mandarin"],
+    experienceYears: 10,
+    certifications: ["Certified Eco-Tourism Guide", "Adventure Tourism Safety Certificate", "Heritage Interpretation Certificate"],
+    specialties: ["Film Locations"],
+    specialTraining: ["Wildlife Conservation"],
+  },
+  {
+    id: "guide-sitka-6",
+    name: "Elena Williams",
+    city: "Sitka",
+    country: "United States",
+    state: "",
+    region: "Alaska",
+    isPopular: false,
+    bio: "Elena is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Local Artisans, Elena provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Atacama Desert", "Southeast Asia"],
+    tourTypes: ["Shopping Tour", "Scenic Tour", "Helicopter Tour", "Wildlife Safari"],
+    maxGroupSize: 19,
+    licenseNumber: "LIC-1445-SIT",
+    phoneNumber: "+1-517-325-8685",
+    contactEmail: "elena.williams@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "11:00 AM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "02:00 PM",
             to: "04:00 PM",
           }
         ],
       },
       {
-        day: "Friday",
+        day: "Wednesday",
         availableHours: [
           {
-            from: "11:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Riley is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Local Dance, Night Tours, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.3,
-    reviewsCount: 55,
-    quote: "The best way to discover Sitka is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/62.jpg",
-    languages: ["Yoruba", "Bosnian", "Galician"],
-    experienceYears: 15,
-    certifications: ["Language Proficiency Certification"],
-    specialties: ["Local Dance", "Night Tours"],
-    specialTraining: ["Emergency Response"],
-  },
-  {
-    id: "guide-sitka-6",
-    name: "Charlotte Fletcher",
-    city: "Sitka",
-    country: "United States",
-    state: "",
-    region: "Alaska",
-    isPopular: false,
-    bio: "Charlotte is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Local Cuisine, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Bering Sea", "Gulf Coast USA"],
-    tourTypes: ["Ghost Tour", "Luxury Tour", "Architecture Tour", "Off-Road Tour", "Wine Tour"],
-    maxGroupSize: 14,
-    licenseNumber: "LIC-9974-SIT",
-    phoneNumber: "+1-750-542-8555",
-    contactEmail: "charlotte.fletcher@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "01:00 PM",
+            from: "01:00 PM",
+            to: "04:00 PM",
           },
-          {
-            from: "02:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "02:00 PM",
-          },
-          {
-            from: "10:00 AM",
-            to: "03:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Charlotte is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Local Cuisine, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.8,
-    reviewsCount: 24,
-    quote: "In Sitka, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/62.jpg",
-    languages: ["Norwegian", "Romanian"],
-    experienceYears: 15,
-    certifications: ["Adventure Tourism Certification", "Certified Tour Guide", "Certified Eco-Tourism Guide"],
-    specialties: ["Local Cuisine"],
-    specialTraining: ["Accessibility Services"],
-  },
-  {
-    id: "guide-sitka-7",
-    name: "Naomi Silva",
-    city: "Sitka",
-    country: "United States",
-    state: "",
-    region: "Alaska",
-    isPopular: false,
-    bio: "Naomi is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Local Fashion, Naomi provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Gulf of Mexico"],
-    tourTypes: ["Wine Tour", "Craft Workshop", "Adventure Tour", "Cultural Tour", "Shopping Tour"],
-    maxGroupSize: 19,
-    licenseNumber: "LIC-8335-SIT",
-    phoneNumber: "+1-517-751-4337",
-    contactEmail: "naomi.silva@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "06:00 PM",
-          },
-          {
-            from: "11:00 AM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
           {
             from: "12:00 PM",
-            to: "02:00 PM",
+            to: "03:00 PM",
           }
         ],
       },
       {
-        day: "Saturday",
+        day: "Thursday",
         availableHours: [
           {
             from: "10:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "09:00 PM",
+            to: "01:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Naomi is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Local Fashion, Naomi provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.8,
-    reviewsCount: 35,
+    description: "Elena is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Local Artisans, Elena provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.9,
+    reviewsCount: 43,
     quote: "Sitka isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/8.jpg",
-    languages: ["Hindi", "Galician", "Greek"],
-    experienceYears: 11,
-    certifications: ["Adventure Tourism Certification"],
-    specialties: ["Local Fashion"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-sitka-8",
-    name: "Henry Khan",
-    city: "Sitka",
-    country: "United States",
-    state: "",
-    region: "Alaska",
-    isPopular: true,
-    bio: "Henry is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Museums, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Northern Europe", "Northern Africa"],
-    tourTypes: ["Luxury Tour", "Photography Tour", "Nature Tour", "Historical Tour", "Street Art Tour"],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-4141-SIT",
-    phoneNumber: "+1-414-218-6409",
-    contactEmail: "henry.khan@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "03:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "03:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "03:00 PM",
-          },
-          {
-            from: "09:00 AM",
-            to: "12:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Henry is a passionate tour guide with extensive knowledge of Sitka and United States. Specializing in Museums, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.8,
-    reviewsCount: 95,
-    quote: "Sitka isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/men/21.jpg",
-    languages: ["Kurdish", "Vietnamese", "Japanese"],
-    experienceYears: 14,
-    certifications: ["Local History Certification", "CPR & First Aid"],
-    specialties: ["Museums"],
-    specialTraining: ["Safety & Risk Management"],
+    profileImage: "https://randomuser.me/api/portraits/women/80.jpg",
+    languages: ["Farsi", "Dutch", "Yoruba"],
+    experienceYears: 2,
+    certifications: ["Certified Heritage Guide", "Heritage Interpretation Certificate"],
+    specialties: ["Local Artisans"],
+    specialTraining: ["Accessibility Services"],
   }
 ];

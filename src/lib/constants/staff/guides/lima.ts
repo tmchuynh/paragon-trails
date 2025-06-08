@@ -5,158 +5,95 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const limaperuperuGuides: TourGuide[] = [
   {
     id: "guide-lima-1",
-    name: "Eugene Carter",
+    name: "Roy White",
     city: "Lima",
     country: "Peru",
     state: "",
     region: "Peru",
-    isPopular: true,
-    bio: "Eugene is a passionate tour guide with extensive knowledge of Lima and Peru. Specializing in Adventure Activities, Family Activities, Eugene provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Australia & New Zealand", "Sahara Desert"],
-    tourTypes: ["Architecture Tour", "Walking Tour", "Off-Road Tour"],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-5435-LIM",
-    phoneNumber: "+1-567-385-9601",
-    contactEmail: "eugene.carter@paragontrails.com",
+    isPopular: false,
+    bio: "Roy is a passionate tour guide with extensive knowledge of Lima and Peru. Specializing in Local History, Wildlife Watching, Roy provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Andean Region", "Southeast Asia Islands"],
+    tourTypes: ["Walking Tour"],
+    maxGroupSize: 7,
+    licenseNumber: "LIC-3976-LIM",
+    phoneNumber: "+1-662-157-3547",
+    contactEmail: "roy.white@paragontrails.com",
     available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "06:00 PM",
-          },
-          {
-            from: "08:00 AM",
-            to: "12:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "05:00 PM",
-          },
-          {
-            from: "11:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      },
       {
         day: "Monday",
         availableHours: [
           {
-            from: "11:00 AM",
-            to: "03:00 PM",
-          },
+            from: "10:00 AM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
           {
             from: "01:00 PM",
             to: "07:00 PM",
           }
         ],
-      }
-    ],
-    isCertified: true,
-    description: "Eugene is a passionate tour guide with extensive knowledge of Lima and Peru. Specializing in Adventure Activities, Family Activities, Eugene provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.2,
-    reviewsCount: 30,
-    quote: "My goal is to help you fall in love with Lima just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/58.jpg",
-    languages: ["Bosnian"],
-    experienceYears: 13,
-    certifications: ["Sustainable Tourism Certificate", "Adventure Tourism Safety Certificate"],
-    specialties: ["Adventure Activities", "Family Activities"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-lima-2",
-    name: "Zoe Williams",
-    city: "Lima",
-    country: "Peru",
-    state: "",
-    region: "Peru",
-    isPopular: false,
-    bio: "Zoe is a passionate tour guide with extensive knowledge of Lima and Peru. Specializing in Historical Landmarks, Local Artisans, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["South Pacific", "East China Sea"],
-    tourTypes: ["Helicopter Tour", "Romantic Tour", "Food Tour"],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-6181-LIM",
-    phoneNumber: "+1-646-776-9441",
-    contactEmail: "zoe.williams@paragontrails.com",
-    available: [
+      },
       {
-        day: "Friday",
+        day: "Saturday",
         availableHours: [
           {
             from: "09:00 AM",
-            to: "02:00 PM",
+            to: "12:00 PM",
           },
           {
-            from: "08:00 AM",
-            to: "12:00 PM",
+            from: "09:00 AM",
+            to: "01:00 PM",
           }
         ],
       },
       {
-        day: "Thursday",
+        day: "Friday",
         availableHours: [
           {
-            from: "12:00 PM",
-            to: "02:00 PM",
-          },
-          {
-            from: "11:00 AM",
+            from: "10:00 AM",
             to: "02:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Zoe is a passionate tour guide with extensive knowledge of Lima and Peru. Specializing in Historical Landmarks, Local Artisans, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 5,
-    reviewsCount: 102,
-    quote: "In Lima, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/37.jpg",
-    languages: ["Georgian", "Punjabi"],
-    experienceYears: 16,
-    certifications: ["Certified Heritage Guide"],
-    specialties: ["Historical Landmarks", "Local Artisans"],
-    specialTraining: ["Regional Cuisine"],
+    description: "Roy is a passionate tour guide with extensive knowledge of Lima and Peru. Specializing in Local History, Wildlife Watching, Roy provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 56,
+    quote: "Every corner of Lima tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/75.jpg",
+    languages: ["Hausa", "Amharic"],
+    experienceYears: 6,
+    certifications: ["Adventure Tourism Certification", "Certified International Tour Manager", "Wilderness First Responder"],
+    specialties: ["Local History", "Wildlife Watching"],
+    specialTraining: ["Photography"],
   },
   {
-    id: "guide-lima-3",
-    name: "Deborah Palmer",
+    id: "guide-lima-2",
+    name: "Jack Hall",
     city: "Lima",
     country: "Peru",
     state: "",
     region: "Peru",
-    isPopular: false,
-    bio: "Deborah is a passionate tour guide with extensive knowledge of Lima and Peru. Specializing in Historical Landmarks, LGBTQ+ History, Culinary Tours, Local Folklore, Deborah provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Southwest USA", "Sahara Desert"],
-    tourTypes: ["Food Tour", "Off-Road Tour"],
-    maxGroupSize: 14,
-    licenseNumber: "LIC-9217-LIM",
-    phoneNumber: "+1-202-397-2089",
-    contactEmail: "deborah.palmer@paragontrails.com",
+    isPopular: true,
+    bio: "Jack is a passionate tour guide with extensive knowledge of Lima and Peru. Specializing in Local Craftsmanship, Jack provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Arabian Sea", "Southeast Europe"],
+    tourTypes: ["Underground Tour", "Cultural Tour", "Helicopter Tour", "Off-Road Tour", "Bike Tour"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-7252-LIM",
+    phoneNumber: "+1-295-285-3477",
+    contactEmail: "jack.hall@paragontrails.com",
     available: [
       {
-        day: "Monday",
+        day: "Tuesday",
         availableHours: [
           {
-            from: "09:00 AM",
-            to: "03:00 PM",
+            from: "10:00 AM",
+            to: "04:00 PM",
           }
         ],
       },
@@ -164,66 +101,67 @@ export const limaperuperuGuides: TourGuide[] = [
         day: "Wednesday",
         availableHours: [
           {
+            from: "01:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
             from: "11:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "01:00 PM",
             to: "05:00 PM",
-          },
-          {
-            from: "12:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "10:00 AM",
-          },
-          {
-            from: "01:00 PM",
-            to: "07:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Deborah is a passionate tour guide with extensive knowledge of Lima and Peru. Specializing in Historical Landmarks, LGBTQ+ History, Culinary Tours, Local Folklore, Deborah provides authentic and engaging experiences for visitors of all backgrounds.",
+    description: "Jack is a passionate tour guide with extensive knowledge of Lima and Peru. Specializing in Local Craftsmanship, Jack provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
-    reviewsCount: 19,
-    quote: "Lima isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/63.jpg",
-    languages: ["Tagalog", "Marathi"],
-    experienceYears: 3,
-    certifications: ["Eco-Tourism Guide", "Food Safety Certification"],
-    specialties: ["Historical Landmarks", "LGBTQ+ History", "Culinary Tours", "Local Folklore"],
-    specialTraining: [],
+    reviewsCount: 39,
+    quote: "My goal is to help you fall in love with Lima just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/7.jpg",
+    languages: ["Catalan"],
+    experienceYears: 13,
+    certifications: ["Regional Tourism Ambassador", "Adventure Tourism Safety Certificate"],
+    specialties: ["Local Craftsmanship"],
+    specialTraining: ["Historical Preservation", "Local Geography"],
   },
   {
-    id: "guide-lima-4",
-    name: "Lisa Brooks",
+    id: "guide-lima-3",
+    name: "Henry Hall",
     city: "Lima",
     country: "Peru",
     state: "",
     region: "Peru",
     isPopular: false,
-    bio: "Lisa is a passionate tour guide with extensive knowledge of Lima and Peru. Specializing in Local Cuisine, Adventure Sports, Hidden Gems, Historical Architecture, Lisa provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast USA", "Antarctica"],
-    tourTypes: ["Off-Road Tour", "Craft Workshop", "Wildlife Safari", "Self-Guided Tour"],
-    maxGroupSize: 5,
-    licenseNumber: "LIC-3215-LIM",
-    phoneNumber: "+1-960-379-1138",
-    contactEmail: "lisa.brooks@paragontrails.com",
+    bio: "Henry is a passionate tour guide with extensive knowledge of Lima and Peru. Specializing in Local Dance, Art Walks, Local Artisans, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East Gulf"],
+    tourTypes: ["Museum Tour", "Romantic Tour"],
+    maxGroupSize: 14,
+    licenseNumber: "LIC-5487-LIM",
+    phoneNumber: "+1-191-554-8037",
+    contactEmail: "henry.hall@paragontrails.com",
     available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "08:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
       {
         day: "Friday",
         availableHours: [
@@ -232,8 +170,136 @@ export const limaperuperuGuides: TourGuide[] = [
             to: "03:00 PM",
           },
           {
-            from: "03:00 PM",
+            from: "02:00 PM",
             to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Henry is a passionate tour guide with extensive knowledge of Lima and Peru. Specializing in Local Dance, Art Walks, Local Artisans, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 36,
+    quote: "Lima isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/70.jpg",
+    languages: ["Tajik", "Kazakh"],
+    experienceYears: 9,
+    certifications: ["Local History Certification", "CPR & First Aid", "Eco-Tourism Guide"],
+    specialties: ["Local Dance", "Art Walks", "Local Artisans"],
+    specialTraining: ["Local Flora & Fauna"],
+  },
+  {
+    id: "guide-lima-4",
+    name: "Deborah Hudson",
+    city: "Lima",
+    country: "Peru",
+    state: "",
+    region: "Peru",
+    isPopular: true,
+    bio: "Deborah is a passionate tour guide with extensive knowledge of Lima and Peru. Specializing in Historical Sites, Deborah provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South Asia"],
+    tourTypes: ["Underground Tour", "Farm Visit"],
+    maxGroupSize: 14,
+    licenseNumber: "LIC-2288-LIM",
+    phoneNumber: "+1-841-433-6516",
+    contactEmail: "deborah.hudson@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "02:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "11:00 AM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "02:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Deborah is a passionate tour guide with extensive knowledge of Lima and Peru. Specializing in Historical Sites, Deborah provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.4,
+    reviewsCount: 47,
+    quote: "In Lima, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/35.jpg",
+    languages: ["Tagalog"],
+    experienceYears: 11,
+    certifications: ["Sustainable Tourism Certificate"],
+    specialties: ["Historical Sites"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-lima-5",
+    name: "Layla Lawson",
+    city: "Lima",
+    country: "Peru",
+    state: "",
+    region: "Peru",
+    isPopular: false,
+    bio: "Layla is a passionate tour guide with extensive knowledge of Lima and Peru. Specializing in Film Locations, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Amazon Basin"],
+    tourTypes: ["Craft Workshop", "Wildlife Safari", "Cooking Class", "Group Tour", "Off-Road Tour"],
+    maxGroupSize: 17,
+    licenseNumber: "LIC-4711-LIM",
+    phoneNumber: "+1-547-833-4062",
+    contactEmail: "layla.lawson@paragontrails.com",
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "04:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "05:00 PM",
           }
         ],
       },
@@ -241,11 +307,49 @@ export const limaperuperuGuides: TourGuide[] = [
         day: "Tuesday",
         availableHours: [
           {
-            from: "09:00 AM",
-            to: "02:00 PM",
+            from: "01:00 PM",
+            to: "07:00 PM",
           },
           {
             from: "03:00 PM",
+            to: "09:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Layla is a passionate tour guide with extensive knowledge of Lima and Peru. Specializing in Film Locations, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.9,
+    reviewsCount: 48,
+    quote: "Lima isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/48.jpg",
+    languages: ["Norwegian", "Yoruba"],
+    experienceYears: 4,
+    certifications: ["Heritage Interpretation Certificate", "Wilderness First Responder"],
+    specialties: ["Film Locations"],
+    specialTraining: ["Marine Biology", "Crisis Management"],
+  },
+  {
+    id: "guide-lima-6",
+    name: "Allison Spencer",
+    city: "Lima",
+    country: "Peru",
+    state: "",
+    region: "Peru",
+    isPopular: true,
+    bio: "Allison is a passionate tour guide with extensive knowledge of Lima and Peru. Specializing in Parks & Gardens, Historical Figures, LGBTQ+ History, Cultural Traditions, Allison provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Bay of Bengal", "Amazon Basin"],
+    tourTypes: ["Bike Tour", "Private Tour", "Group Tour"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-6232-LIM",
+    phoneNumber: "+1-526-673-4073",
+    contactEmail: "allison.spencer@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "02:00 PM",
             to: "08:00 PM",
           }
         ],
@@ -254,12 +358,25 @@ export const limaperuperuGuides: TourGuide[] = [
         day: "Wednesday",
         availableHours: [
           {
-            from: "10:00 AM",
-            to: "03:00 PM",
+            from: "08:00 AM",
+            to: "11:00 AM",
           },
           {
-            from: "08:00 AM",
+            from: "02:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "10:00 AM",
             to: "01:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "08:00 PM",
           }
         ],
       },
@@ -267,59 +384,59 @@ export const limaperuperuGuides: TourGuide[] = [
         day: "Thursday",
         availableHours: [
           {
-            from: "11:00 AM",
-            to: "03:00 PM",
+            from: "08:00 AM",
+            to: "11:00 AM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Lisa is a passionate tour guide with extensive knowledge of Lima and Peru. Specializing in Local Cuisine, Adventure Sports, Hidden Gems, Historical Architecture, Lisa provides authentic and engaging experiences for visitors of all backgrounds.",
+    description: "Allison is a passionate tour guide with extensive knowledge of Lima and Peru. Specializing in Parks & Gardens, Historical Figures, LGBTQ+ History, Cultural Traditions, Allison provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 3.6,
-    reviewsCount: 31,
-    quote: "In Lima, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/52.jpg",
-    languages: ["Basque", "Hindi", "Burmese"],
-    experienceYears: 11,
-    certifications: ["Food Safety Certification"],
-    specialties: ["Local Cuisine", "Adventure Sports", "Hidden Gems", "Historical Architecture"],
-    specialTraining: ["Tour Planning", "Cultural Immersion"],
+    reviewsCount: 52,
+    quote: "Every corner of Lima tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/68.jpg",
+    languages: ["Malayalam", "Armenian", "Greek"],
+    experienceYears: 5,
+    certifications: ["Cultural Sensitivity Training", "Language Proficiency Certification", "Eco-Tourism Guide"],
+    specialties: ["Parks & Gardens", "Historical Figures", "LGBTQ+ History", "Cultural Traditions"],
+    specialTraining: [],
   },
   {
-    id: "guide-lima-5",
-    name: "Rebecca Bennett",
+    id: "guide-lima-7",
+    name: "Douglas Curtis",
     city: "Lima",
     country: "Peru",
     state: "",
     region: "Peru",
     isPopular: false,
-    bio: "Rebecca is a passionate tour guide with extensive knowledge of Lima and Peru. Specializing in Hidden Treasures, Rebecca provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Middle East & North Africa", "Australia & New Zealand"],
-    tourTypes: ["Accessible Tour", "Eco Tour"],
-    maxGroupSize: 9,
-    licenseNumber: "LIC-7054-LIM",
-    phoneNumber: "+1-936-625-8148",
-    contactEmail: "rebecca.bennett@paragontrails.com",
+    bio: "Douglas is a passionate tour guide with extensive knowledge of Lima and Peru. Specializing in Local Music, Sustainable Tourism, Douglas provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South Asia", "North Pacific Ocean"],
+    tourTypes: ["LGBTQ+ Friendly Tour", "Craft Workshop", "Festival Tour"],
+    maxGroupSize: 12,
+    licenseNumber: "LIC-1581-LIM",
+    phoneNumber: "+1-678-831-4001",
+    contactEmail: "douglas.curtis@paragontrails.com",
     available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "02:00 PM",
-          },
-          {
-            from: "03:00 PM",
-            to: "07:00 PM",
-          }
-        ],
-      },
       {
         day: "Wednesday",
         availableHours: [
           {
-            from: "08:00 AM",
+            from: "03:00 PM",
+            to: "09:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "12:00 PM",
             to: "02:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "05:00 PM",
           }
         ],
       },
@@ -327,95 +444,35 @@ export const limaperuperuGuides: TourGuide[] = [
         day: "Monday",
         availableHours: [
           {
-            from: "01:00 PM",
-            to: "04:00 PM",
-          },
-          {
-            from: "08:00 AM",
-            to: "10:00 AM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "07:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Rebecca is a passionate tour guide with extensive knowledge of Lima and Peru. Specializing in Hidden Treasures, Rebecca provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.6,
-    reviewsCount: 104,
-    quote: "My goal is to help you fall in love with Lima just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/35.jpg",
-    languages: ["Yoruba"],
-    experienceYears: 5,
-    certifications: ["Adventure Tourism Safety Certificate"],
-    specialties: ["Hidden Treasures"],
-    specialTraining: ["First Aid & CPR"],
-  },
-  {
-    id: "guide-lima-6",
-    name: "Evelyn Williams",
-    city: "Lima",
-    country: "Peru",
-    state: "",
-    region: "Peru",
-    isPopular: false,
-    bio: "Evelyn is a passionate tour guide with extensive knowledge of Lima and Peru. Specializing in Wine Tasting, Local Sports, Outdoor Activities, Film Locations, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Bering Sea"],
-    tourTypes: ["Historical Tour", "Wildlife Safari", "Shopping Tour", "Bike Tour"],
-    maxGroupSize: 14,
-    licenseNumber: "LIC-5632-LIM",
-    phoneNumber: "+1-389-444-8390",
-    contactEmail: "evelyn.williams@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "01:00 PM",
-          },
-          {
-            from: "12:00 PM",
-            to: "04:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
             from: "11:00 AM",
-            to: "05:00 PM",
+            to: "03:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "03:00 PM",
           }
         ],
       },
       {
-        day: "Wednesday",
+        day: "Saturday",
         availableHours: [
           {
-            from: "12:00 PM",
+            from: "01:00 PM",
             to: "06:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Evelyn is a passionate tour guide with extensive knowledge of Lima and Peru. Specializing in Wine Tasting, Local Sports, Outdoor Activities, Film Locations, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.5,
-    reviewsCount: 61,
+    description: "Douglas is a passionate tour guide with extensive knowledge of Lima and Peru. Specializing in Local Music, Sustainable Tourism, Douglas provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.4,
+    reviewsCount: 6,
     quote: "The best way to discover Lima is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/36.jpg",
-    languages: ["Maltese", "Swahili"],
-    experienceYears: 16,
-    certifications: ["Wilderness First Responder", "Language Proficiency Certification"],
-    specialties: ["Wine Tasting", "Local Sports", "Outdoor Activities", "Film Locations"],
-    specialTraining: ["Desert Navigation"],
+    profileImage: "https://randomuser.me/api/portraits/men/0.jpg",
+    languages: ["Kyrgyz", "Urdu", "Finnish"],
+    experienceYears: 11,
+    certifications: ["Adventure Tourism Safety Certificate", "Certified International Tour Manager"],
+    specialties: ["Local Music", "Sustainable Tourism"],
+    specialTraining: [],
   }
 ];

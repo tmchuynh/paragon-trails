@@ -5,175 +5,38 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const kielgermanygermanyGuides: TourGuide[] = [
   {
     id: "guide-kiel-1",
-    name: "Austin Singh",
+    name: "Lucas Khan",
     city: "Kiel",
     country: "Germany",
     state: "",
     region: "Germany",
     isPopular: true,
-    bio: "Austin is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Historical Sites, Austin provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Gobi Desert"],
-    tourTypes: ["Scenic Tour", "Architecture Tour", "Bike Tour"],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-9380-KIE",
-    phoneNumber: "+1-520-825-8255",
-    contactEmail: "austin.singh@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "03:00 PM",
-          },
-          {
-            from: "02:00 PM",
-            to: "07:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Austin is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Historical Sites, Austin provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.7,
-    reviewsCount: 55,
-    quote: "Kiel isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/men/46.jpg",
-    languages: ["Portuguese"],
-    experienceYears: 13,
-    certifications: ["CPR & First Aid"],
-    specialties: ["Historical Sites"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-kiel-2",
-    name: "Mei Day",
-    city: "Kiel",
-    country: "Germany",
-    state: "",
-    region: "Germany",
-    isPopular: false,
-    bio: "Mei is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Local Sports, Scenic Views, Historical Sites, Mei provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Persian Gulf"],
-    tourTypes: ["Underground Tour", "Accessible Tour", "Cultural Tour", "Relocation Tour", "Eco Tour"],
+    bio: "Lucas is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Night Tours, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Baltic Sea"],
+    tourTypes: ["Family-Friendly Tour", "Group Tour", "Architecture Tour", "Street Art Tour"],
     maxGroupSize: 9,
-    licenseNumber: "LIC-1075-KIE",
-    phoneNumber: "+1-939-990-5584",
-    contactEmail: "mei.day@paragontrails.com",
+    licenseNumber: "LIC-9054-KIE",
+    phoneNumber: "+1-953-762-2925",
+    contactEmail: "lucas.khan@paragontrails.com",
     available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "04:00 PM",
-          },
-          {
-            from: "03:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "11:00 AM",
-          },
-          {
-            from: "11:00 AM",
-            to: "04:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "06:00 PM",
-          },
-          {
-            from: "01:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Mei is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Local Sports, Scenic Views, Historical Sites, Mei provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.4,
-    reviewsCount: 62,
-    quote: "My goal is to help you fall in love with Kiel just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/16.jpg",
-    languages: ["Afrikaans", "Serbo-Croatian"],
-    experienceYears: 8,
-    certifications: ["Heritage Interpretation Certificate", "Adventure Tourism Safety Certificate"],
-    specialties: ["Local Sports", "Scenic Views", "Historical Sites"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-kiel-3",
-    name: "Amina Wells",
-    city: "Kiel",
-    country: "Germany",
-    state: "",
-    region: "Germany",
-    isPopular: false,
-    bio: "Amina is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Cultural Heritage, Public Transportation Navigation, Parks & Gardens, Amina provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["West Africa"],
-    tourTypes: ["Farm Visit", "Ghost Tour", "Cooking Class"],
-    maxGroupSize: 14,
-    licenseNumber: "LIC-6389-KIE",
-    phoneNumber: "+1-515-134-9721",
-    contactEmail: "amina.wells@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "02:00 PM",
-          },
-          {
-            from: "09:00 AM",
-            to: "03:00 PM",
-          }
-        ],
-      },
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "09:00 AM",
-            to: "11:00 AM",
+            from: "10:00 AM",
+            to: "03:00 PM",
           }
         ],
       },
       {
-        day: "Sunday",
+        day: "Wednesday",
         availableHours: [
           {
-            from: "11:00 AM",
+            from: "02:00 PM",
+            to: "05:00 PM",
+          },
+          {
+            from: "09:00 AM",
             to: "01:00 PM",
           }
         ],
@@ -182,12 +45,8 @@ export const kielgermanygermanyGuides: TourGuide[] = [
         day: "Saturday",
         availableHours: [
           {
-            from: "02:00 PM",
-            to: "08:00 PM",
-          },
-          {
-            from: "08:00 AM",
-            to: "10:00 AM",
+            from: "10:00 AM",
+            to: "03:00 PM",
           }
         ],
       },
@@ -195,63 +54,123 @@ export const kielgermanygermanyGuides: TourGuide[] = [
         day: "Monday",
         availableHours: [
           {
-            from: "11:00 AM",
-            to: "01:00 PM",
-          },
-          {
-            from: "12:00 PM",
+            from: "10:00 AM",
             to: "02:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Amina is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Cultural Heritage, Public Transportation Navigation, Parks & Gardens, Amina provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.7,
-    reviewsCount: 17,
-    quote: "In Kiel, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/65.jpg",
-    languages: ["Tagalog", "Hindi"],
-    experienceYears: 11,
-    certifications: ["Certified Eco-Tourism Guide"],
-    specialties: ["Cultural Heritage", "Public Transportation Navigation", "Parks & Gardens"],
-    specialTraining: ["Cultural Immersion", "Cultural Anthropology"],
+    description: "Lucas is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Night Tours, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4,
+    reviewsCount: 90,
+    quote: "Kiel isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/44.jpg",
+    languages: ["Portuguese", "Slovenian"],
+    experienceYears: 10,
+    certifications: ["Certified Eco-Tourism Guide", "Licensed City Guide"],
+    specialties: ["Night Tours"],
+    specialTraining: ["Cultural Heritage Preservation", "Cultural Heritage"],
   },
   {
-    id: "guide-kiel-4",
-    name: "Frank Lewis",
+    id: "guide-kiel-2",
+    name: "Harold Murray",
     city: "Kiel",
     country: "Germany",
     state: "",
     region: "Germany",
     isPopular: false,
-    bio: "Frank is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Culinary Tours, Local Crafts, Frank provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Western Europe"],
-    tourTypes: ["Accessible Tour", "Cruise Excursion"],
-    maxGroupSize: 18,
-    licenseNumber: "LIC-6383-KIE",
-    phoneNumber: "+1-761-385-6432",
-    contactEmail: "frank.lewis@paragontrails.com",
+    bio: "Harold is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Local Folklore, Local Cuisine, Religious Sites, Harold provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Antarctica"],
+    tourTypes: ["Scenic Tour", "Brewery Tour", "Relocation Tour", "Bike Tour", "Private Tour"],
+    maxGroupSize: 19,
+    licenseNumber: "LIC-3032-KIE",
+    phoneNumber: "+1-454-376-6238",
+    contactEmail: "harold.murray@paragontrails.com",
     available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "03:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
       {
         day: "Thursday",
         availableHours: [
           {
             from: "02:00 PM",
-            to: "07:00 PM",
-          },
-          {
-            from: "10:00 AM",
-            to: "01:00 PM",
+            to: "06:00 PM",
           }
         ],
-      },
+      }
+    ],
+    isCertified: true,
+    description: "Harold is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Local Folklore, Local Cuisine, Religious Sites, Harold provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.4,
+    reviewsCount: 86,
+    quote: "The best way to discover Kiel is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/47.jpg",
+    languages: ["Marathi", "Arabic"],
+    experienceYears: 9,
+    certifications: ["Local History Certification", "Certified Local Guide"],
+    specialties: ["Local Folklore", "Local Cuisine", "Religious Sites"],
+    specialTraining: ["Cultural Sensitivity", "Urban Planning"],
+  },
+  {
+    id: "guide-kiel-3",
+    name: "Bobby Lee",
+    city: "Kiel",
+    country: "Germany",
+    state: "",
+    region: "Germany",
+    isPopular: false,
+    bio: "Bobby is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Local Literature, Local Crafts, Art Galleries, City History, Bobby provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast USA"],
+    tourTypes: ["Wildlife Safari", "Architecture Tour", "Accessible Tour", "Underground Tour"],
+    maxGroupSize: 7,
+    licenseNumber: "LIC-5063-KIE",
+    phoneNumber: "+1-954-972-7602",
+    contactEmail: "bobby.lee@paragontrails.com",
+    available: [
       {
         day: "Monday",
         availableHours: [
           {
-            from: "08:00 AM",
-            to: "01:00 PM",
+            from: "10:00 AM",
+            to: "12:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "02:00 PM",
           }
         ],
       },
@@ -259,22 +178,219 @@ export const kielgermanygermanyGuides: TourGuide[] = [
         day: "Wednesday",
         availableHours: [
           {
-            from: "11:00 AM",
+            from: "12:00 PM",
+            to: "02:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "11:00 AM",
+          },
+          {
+            from: "08:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Bobby is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Local Literature, Local Crafts, Art Galleries, City History, Bobby provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 75,
+    quote: "The best way to discover Kiel is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/13.jpg",
+    languages: ["Kannada", "Maltese"],
+    experienceYears: 3,
+    certifications: ["Language Proficiency Certification"],
+    specialties: ["Local Literature", "Local Crafts", "Art Galleries", "City History"],
+    specialTraining: ["Group Management"],
+  },
+  {
+    id: "guide-kiel-4",
+    name: "Ella Griffin",
+    city: "Kiel",
+    country: "Germany",
+    state: "",
+    region: "Germany",
+    isPopular: false,
+    bio: "Ella is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Cultural Traditions, Local Legends, Historical Sites, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Scandinavia"],
+    tourTypes: ["Shopping Tour", "Cultural Tour"],
+    maxGroupSize: 17,
+    licenseNumber: "LIC-2154-KIE",
+    phoneNumber: "+1-909-969-8025",
+    contactEmail: "ella.griffin@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "07:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "12:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "12:00 PM",
             to: "05:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Frank is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Culinary Tours, Local Crafts, Frank provides authentic and engaging experiences for visitors of all backgrounds.",
+    description: "Ella is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Cultural Traditions, Local Legends, Historical Sites, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.4,
-    reviewsCount: 37,
-    quote: "The best way to discover Kiel is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/51.jpg",
-    languages: ["Turkmen", "Kyrgyz", "Macedonian"],
-    experienceYears: 7,
-    certifications: ["Certified Eco-Tourism Guide", "Regional Tourism Ambassador"],
-    specialties: ["Culinary Tours", "Local Crafts"],
-    specialTraining: ["Art History", "Tour Planning"],
+    reviewsCount: 81,
+    quote: "In Kiel, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/49.jpg",
+    languages: ["Tigrinya", "Polish"],
+    experienceYears: 4,
+    certifications: ["Regional Tourism Ambassador", "Certified Eco-Tourism Guide"],
+    specialties: ["Cultural Traditions", "Local Legends", "Historical Sites"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-kiel-5",
+    name: "Jesse Morales",
+    city: "Kiel",
+    country: "Germany",
+    state: "",
+    region: "Germany",
+    isPopular: false,
+    bio: "Jesse is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Cultural Heritage, Cultural Workshops, Local Sports, Jesse provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Black Sea", "Eastern Europe"],
+    tourTypes: ["Group Tour", "Audio Tour", "Historical Tour"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-1414-KIE",
+    phoneNumber: "+1-919-720-4305",
+    contactEmail: "jesse.morales@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "06:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Jesse is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Cultural Heritage, Cultural Workshops, Local Sports, Jesse provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 82,
+    quote: "Kiel isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/24.jpg",
+    languages: ["Tagalog", "Farsi", "Latvian"],
+    experienceYears: 2,
+    certifications: ["Cultural Sensitivity Training", "Wilderness First Responder"],
+    specialties: ["Cultural Heritage", "Cultural Workshops", "Local Sports"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-kiel-6",
+    name: "Miguel Chen",
+    city: "Kiel",
+    country: "Germany",
+    state: "",
+    region: "Germany",
+    isPopular: true,
+    bio: "Miguel is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Art Walks, Cultural Traditions, Cultural Etiquette, Miguel provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Indian Ocean"],
+    tourTypes: ["Off-Road Tour", "Wildlife Safari"],
+    maxGroupSize: 7,
+    licenseNumber: "LIC-1191-KIE",
+    phoneNumber: "+1-261-373-4009",
+    contactEmail: "miguel.chen@paragontrails.com",
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "09:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Miguel is a passionate tour guide with extensive knowledge of Kiel and Germany. Specializing in Art Walks, Cultural Traditions, Cultural Etiquette, Miguel provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 56,
+    quote: "Every corner of Kiel tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/62.jpg",
+    languages: ["Catalan", "Czech", "Albanian"],
+    experienceYears: 14,
+    certifications: ["Certified Local Guide"],
+    specialties: ["Art Walks", "Cultural Traditions", "Cultural Etiquette"],
+    specialTraining: [],
   }
 ];

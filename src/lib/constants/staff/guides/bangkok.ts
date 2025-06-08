@@ -5,26 +5,43 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const bangkokthailandthailandGuides: TourGuide[] = [
   {
     id: "guide-bangkok-1",
-    name: "Charlotte Williams",
+    name: "Samantha Cooper",
     city: "Bangkok",
     country: "Thailand",
     state: "",
     region: "Thailand",
-    isPopular: false,
-    bio: "Charlotte is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Local Dance, Street Food, Cultural Experiences, Outdoor Activities, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Sahara Desert", "Antarctic Peninsula"],
-    tourTypes: ["Nature Tour", "Museum Tour"],
-    maxGroupSize: 13,
-    licenseNumber: "LIC-4807-BAN",
-    phoneNumber: "+1-761-378-9876",
-    contactEmail: "charlotte.williams@paragontrails.com",
+    isPopular: true,
+    bio: "Samantha is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Museums, Historical Landmarks, Cultural Experiences, Samantha provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South China Sea"],
+    tourTypes: ["Relocation Tour", "Family-Friendly Tour", "Food Tour", "Craft Workshop", "Eco Tour"],
+    maxGroupSize: 6,
+    licenseNumber: "LIC-5002-BAN",
+    phoneNumber: "+1-503-586-7400",
+    contactEmail: "samantha.cooper@paragontrails.com",
     available: [
       {
-        day: "Sunday",
+        day: "Saturday",
         availableHours: [
           {
-            from: "10:00 AM",
-            to: "12:00 PM",
+            from: "11:00 AM",
+            to: "04:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "03:00 PM",
+          },
+          {
+            from: "02:00 PM",
+            to: "07:00 PM",
           }
         ],
       },
@@ -32,76 +49,8 @@ export const bangkokthailandthailandGuides: TourGuide[] = [
         day: "Monday",
         availableHours: [
           {
-            from: "03:00 PM",
-            to: "09:00 PM",
-          },
-          {
-            from: "03:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "06:00 PM",
-          },
-          {
-            from: "11:00 AM",
-            to: "04:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "02:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Charlotte is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Local Dance, Street Food, Cultural Experiences, Outdoor Activities, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.3,
-    reviewsCount: 44,
-    quote: "Bangkok isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/48.jpg",
-    languages: ["Serbian"],
-    experienceYears: 4,
-    certifications: ["Certified Tour Guide", "Urban Navigation Specialist"],
-    specialties: ["Local Dance", "Street Food", "Cultural Experiences", "Outdoor Activities"],
-    specialTraining: ["Cultural Immersion"],
-  },
-  {
-    id: "guide-bangkok-2",
-    name: "Luis Jackson",
-    city: "Bangkok",
-    country: "Thailand",
-    state: "",
-    region: "Thailand",
-    isPopular: true,
-    bio: "Luis is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Religious Sites, Historical Sites, City History, Local Fashion, Luis provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Antarctica"],
-    tourTypes: ["Architecture Tour", "Museum Tour", "Festival Tour", "Market Tour"],
-    maxGroupSize: 11,
-    licenseNumber: "LIC-3735-BAN",
-    phoneNumber: "+1-825-909-9083",
-    contactEmail: "luis.jackson@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "12:00 PM",
-          },
-          {
             from: "08:00 AM",
-            to: "12:00 PM",
+            to: "02:00 PM",
           }
         ],
       },
@@ -109,7 +58,178 @@ export const bangkokthailandthailandGuides: TourGuide[] = [
         day: "Sunday",
         availableHours: [
           {
-            from: "09:00 AM",
+            from: "02:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Samantha is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Museums, Historical Landmarks, Cultural Experiences, Samantha provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 5,
+    reviewsCount: 70,
+    quote: "Every corner of Bangkok tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/77.jpg",
+    languages: ["Kyrgyz"],
+    experienceYears: 10,
+    certifications: ["Language Proficiency Certification"],
+    specialties: ["Museums", "Historical Landmarks", "Cultural Experiences"],
+    specialTraining: ["Culinary Skills"],
+  },
+  {
+    id: "guide-bangkok-2",
+    name: "Carlos Russell",
+    city: "Bangkok",
+    country: "Thailand",
+    state: "",
+    region: "Thailand",
+    isPopular: false,
+    bio: "Carlos is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Historical Landmarks, Local Wildlife, Carlos provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean Sea"],
+    tourTypes: ["Group Tour", "Private Tour", "Luxury Tour", "Food Tour"],
+    maxGroupSize: 9,
+    licenseNumber: "LIC-7029-BAN",
+    phoneNumber: "+1-768-593-4746",
+    contactEmail: "carlos.russell@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "05:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Carlos is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Historical Landmarks, Local Wildlife, Carlos provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.2,
+    reviewsCount: 55,
+    quote: "My goal is to help you fall in love with Bangkok just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/46.jpg",
+    languages: ["Estonian", "Telugu"],
+    experienceYears: 2,
+    certifications: ["Regional Tourism Ambassador"],
+    specialties: ["Historical Landmarks", "Local Wildlife"],
+    specialTraining: ["Historical Preservation"],
+  },
+  {
+    id: "guide-bangkok-3",
+    name: "Russell Collins",
+    city: "Bangkok",
+    country: "Thailand",
+    state: "",
+    region: "Thailand",
+    isPopular: false,
+    bio: "Russell is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Historical Reenactments, Shopping, Russell provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Gobi Desert"],
+    tourTypes: ["Ghost Tour", "Religious Tour"],
+    maxGroupSize: 12,
+    licenseNumber: "LIC-3445-BAN",
+    phoneNumber: "+1-594-761-6521",
+    contactEmail: "russell.collins@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "11:00 AM",
+            to: "05:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Russell is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Historical Reenactments, Shopping, Russell provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 5,
+    reviewsCount: 26,
+    quote: "My goal is to help you fall in love with Bangkok just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/25.jpg",
+    languages: ["Armenian", "Catalan", "Malay"],
+    experienceYears: 7,
+    certifications: ["Certified Eco-Tourism Guide"],
+    specialties: ["Historical Reenactments", "Shopping"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-bangkok-4",
+    name: "Janet Gardner",
+    city: "Bangkok",
+    country: "Thailand",
+    state: "",
+    region: "Thailand",
+    isPopular: false,
+    bio: "Janet is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Wildlife, Janet provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific"],
+    tourTypes: ["Accessible Tour", "Audio Tour"],
+    maxGroupSize: 7,
+    licenseNumber: "LIC-7930-BAN",
+    phoneNumber: "+1-897-538-1828",
+    contactEmail: "janet.gardner@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "10:00 AM",
             to: "01:00 PM",
           }
         ],
@@ -118,22 +238,18 @@ export const bangkokthailandthailandGuides: TourGuide[] = [
         day: "Tuesday",
         availableHours: [
           {
-            from: "12:00 PM",
-            to: "03:00 PM",
+            from: "03:00 PM",
+            to: "06:00 PM",
           },
           {
-            from: "10:00 AM",
-            to: "12:00 PM",
+            from: "09:00 AM",
+            to: "11:00 AM",
           }
         ],
       },
       {
-        day: "Wednesday",
+        day: "Thursday",
         availableHours: [
-          {
-            from: "08:00 AM",
-            to: "11:00 AM",
-          },
           {
             from: "01:00 PM",
             to: "03:00 PM",
@@ -141,67 +257,63 @@ export const bangkokthailandthailandGuides: TourGuide[] = [
         ],
       },
       {
-        day: "Saturday",
+        day: "Sunday",
         availableHours: [
           {
-            from: "10:00 AM",
+            from: "11:00 AM",
             to: "03:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Luis is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Religious Sites, Historical Sites, City History, Local Fashion, Luis provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4,
-    reviewsCount: 26,
-    quote: "In Bangkok, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/25.jpg",
-    languages: ["Pashto"],
-    experienceYears: 9,
-    certifications: ["Food Safety Certification", "Certified Local Guide"],
-    specialties: ["Religious Sites", "Historical Sites", "City History", "Local Fashion"],
-    specialTraining: ["Wine Education"],
+    description: "Janet is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Wildlife, Janet provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 100,
+    quote: "Bangkok isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/23.jpg",
+    languages: ["Korean", "Swedish", "Catalan"],
+    experienceYears: 15,
+    certifications: ["Certified Local Guide", "Local History Certification", "Urban Navigation Specialist"],
+    specialties: ["Wildlife"],
+    specialTraining: [],
   },
   {
-    id: "guide-bangkok-3",
-    name: "Allison Hall",
+    id: "guide-bangkok-5",
+    name: "Jennifer Hall",
     city: "Bangkok",
     country: "Thailand",
     state: "",
     region: "Thailand",
-    isPopular: true,
-    bio: "Allison is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Local Markets, Hidden Gems, Allison provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Antarctica", "Southeast Europe"],
-    tourTypes: ["Romantic Tour", "Private Tour", "Audio Tour", "Walking Tour"],
-    maxGroupSize: 11,
-    licenseNumber: "LIC-9646-BAN",
-    phoneNumber: "+1-951-702-5428",
-    contactEmail: "allison.hall@paragontrails.com",
+    isPopular: false,
+    bio: "Jennifer is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Religious Sites, Jennifer provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Gulf of Mexico"],
+    tourTypes: ["Religious Tour", "Group Tour"],
+    maxGroupSize: 10,
+    licenseNumber: "LIC-5305-BAN",
+    phoneNumber: "+1-217-250-8200",
+    contactEmail: "jennifer.hall@paragontrails.com",
     available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      },
       {
         day: "Sunday",
         availableHours: [
           {
-            from: "10:00 AM",
-            to: "03:00 PM",
-          },
-          {
-            from: "10:00 AM",
-            to: "03:00 PM",
+            from: "09:00 AM",
+            to: "12:00 PM",
           }
         ],
       },
       {
-        day: "Friday",
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
         availableHours: [
           {
             from: "02:00 PM",
@@ -211,71 +323,15 @@ export const bangkokthailandthailandGuides: TourGuide[] = [
       }
     ],
     isCertified: true,
-    description: "Allison is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Local Markets, Hidden Gems, Allison provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.2,
-    reviewsCount: 28,
+    description: "Jennifer is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Religious Sites, Jennifer provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 5,
+    reviewsCount: 16,
     quote: "The best way to discover Bangkok is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/54.jpg",
-    languages: ["Khmer", "Turkmen", "Tigrinya"],
-    experienceYears: 13,
-    certifications: ["Regional Tourism Ambassador"],
-    specialties: ["Local Markets", "Hidden Gems"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-bangkok-4",
-    name: "Benjamin Hawkins",
-    city: "Bangkok",
-    country: "Thailand",
-    state: "",
-    region: "Thailand",
-    isPopular: false,
-    bio: "Benjamin is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Parks & Gardens, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Eastern Mediterranean"],
-    tourTypes: ["Architecture Tour", "Relocation Tour", "Walking Tour", "Photography Tour"],
-    maxGroupSize: 5,
-    licenseNumber: "LIC-6891-BAN",
-    phoneNumber: "+1-184-795-4996",
-    contactEmail: "benjamin.hawkins@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "03:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Benjamin is a passionate tour guide with extensive knowledge of Bangkok and Thailand. Specializing in Parks & Gardens, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.8,
-    reviewsCount: 29,
-    quote: "The best way to discover Bangkok is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/51.jpg",
-    languages: ["Kurdish", "English"],
-    experienceYears: 5,
-    certifications: ["Food Safety Certification", "Licensed City Guide"],
-    specialties: ["Parks & Gardens"],
+    profileImage: "https://randomuser.me/api/portraits/women/2.jpg",
+    languages: ["Kazakh"],
+    experienceYears: 7,
+    certifications: ["Local History Certification", "Adventure Tourism Certification"],
+    specialties: ["Religious Sites"],
     specialTraining: [],
   }
 ];

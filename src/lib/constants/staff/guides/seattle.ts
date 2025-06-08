@@ -5,35 +5,26 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const seattleunitedStateswashingtonGuides: TourGuide[] = [
   {
     id: "guide-seattle-1",
-    name: "Emma Chen",
+    name: "Maria Brooks",
     city: "Seattle",
     country: "United States",
     state: "",
     region: "Washington",
-    isPopular: false,
-    bio: "Emma is a passionate tour guide with extensive knowledge of Seattle and United States. Specializing in Film Locations, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Baltic Sea", "Asia Pacific"],
-    tourTypes: ["Relocation Tour", "Cooking Class", "Religious Tour", "Farm Visit"],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-4547-SEA",
-    phoneNumber: "+1-847-230-1841",
-    contactEmail: "emma.chen@paragontrails.com",
+    isPopular: true,
+    bio: "Maria is a passionate tour guide with extensive knowledge of Seattle and United States. Specializing in Culinary Tours, Local Dance, Film Locations, Maria provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Antarctica", "Mediterranean Sea"],
+    tourTypes: ["Farm Visit", "Ghost Tour", "Romantic Tour", "Adventure Tour"],
+    maxGroupSize: 17,
+    licenseNumber: "LIC-1870-SEA",
+    phoneNumber: "+1-310-270-5135",
+    contactEmail: "maria.brooks@paragontrails.com",
     available: [
       {
         day: "Sunday",
         availableHours: [
           {
-            from: "08:00 AM",
-            to: "12:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "04:00 PM",
+            from: "03:00 PM",
+            to: "07:00 PM",
           }
         ],
       },
@@ -41,188 +32,69 @@ export const seattleunitedStateswashingtonGuides: TourGuide[] = [
         day: "Friday",
         availableHours: [
           {
-            from: "09:00 AM",
-            to: "11:00 AM",
-          },
-          {
-            from: "09:00 AM",
+            from: "11:00 AM",
             to: "02:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Emma is a passionate tour guide with extensive knowledge of Seattle and United States. Specializing in Film Locations, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.5,
-    reviewsCount: 30,
+    description: "Maria is a passionate tour guide with extensive knowledge of Seattle and United States. Specializing in Culinary Tours, Local Dance, Film Locations, Maria provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 45,
     quote: "Seattle isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/20.jpg",
-    languages: ["Macedonian"],
-    experienceYears: 3,
-    certifications: ["Eco-Tourism Guide", "Professional Tour Guide Association", "Sustainable Tourism Certificate"],
-    specialties: ["Film Locations"],
-    specialTraining: ["Historical Research Methods"],
+    profileImage: "https://randomuser.me/api/portraits/women/76.jpg",
+    languages: ["Yoruba", "Malayalam", "Lithuanian"],
+    experienceYears: 5,
+    certifications: ["Urban Navigation Specialist"],
+    specialties: ["Culinary Tours", "Local Dance", "Film Locations"],
+    specialTraining: ["Cultural Heritage"],
   },
   {
     id: "guide-seattle-2",
-    name: "Rebecca Brown",
-    city: "Seattle",
-    country: "United States",
-    state: "",
-    region: "Washington",
-    isPopular: true,
-    bio: "Rebecca is a passionate tour guide with extensive knowledge of Seattle and United States. Specializing in Architecture, Local Music, Rebecca provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["North America", "Indochina Peninsula"],
-    tourTypes: ["Romantic Tour", "Nature Tour", "Museum Tour", "Underground Tour"],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-8000-SEA",
-    phoneNumber: "+1-425-752-2096",
-    contactEmail: "rebecca.brown@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "03:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "06:00 PM",
-          },
-          {
-            from: "12:00 PM",
-            to: "04:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Rebecca is a passionate tour guide with extensive knowledge of Seattle and United States. Specializing in Architecture, Local Music, Rebecca provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 5,
-    reviewsCount: 62,
-    quote: "The best way to discover Seattle is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/49.jpg",
-    languages: ["Bengali", "Russian", "Mandarin"],
-    experienceYears: 2,
-    certifications: ["Licensed City Guide", "Certified Tour Guide"],
-    specialties: ["Architecture", "Local Music"],
-    specialTraining: ["Crisis Management", "Conflict Resolution"],
-  },
-  {
-    id: "guide-seattle-3",
-    name: "Elena Gibson",
+    name: "Amy Bennett",
     city: "Seattle",
     country: "United States",
     state: "",
     region: "Washington",
     isPopular: false,
-    bio: "Elena is a passionate tour guide with extensive knowledge of Seattle and United States. Specializing in Local Legends, Local Crafts, Photography Spots, Elena provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Africa", "Antarctica"],
-    tourTypes: ["Historical Tour", "Accessible Tour", "Architecture Tour", "LGBTQ+ Friendly Tour", "Boat Tour"],
-    maxGroupSize: 10,
-    licenseNumber: "LIC-9684-SEA",
-    phoneNumber: "+1-738-473-7341",
-    contactEmail: "elena.gibson@paragontrails.com",
+    bio: "Amy is a passionate tour guide with extensive knowledge of Seattle and United States. Specializing in Cultural Heritage, Cultural Etiquette, Amy provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South Pacific", "South Asia"],
+    tourTypes: ["Ghost Tour", "Wine Tour", "Brewery Tour", "Nature Tour"],
+    maxGroupSize: 14,
+    licenseNumber: "LIC-1143-SEA",
+    phoneNumber: "+1-361-238-9531",
+    contactEmail: "amy.bennett@paragontrails.com",
     available: [
       {
-        day: "Friday",
+        day: "Monday",
         availableHours: [
-          {
-            from: "10:00 AM",
-            to: "12:00 PM",
-          },
-          {
-            from: "01:00 PM",
-            to: "03:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "01:00 PM",
-          },
           {
             from: "02:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "03:00 PM",
-          },
-          {
-            from: "03:00 PM",
             to: "08:00 PM",
           }
         ],
       },
       {
-        day: "Tuesday",
+        day: "Sunday",
         availableHours: [
           {
-            from: "11:00 AM",
-            to: "01:00 PM",
+            from: "09:00 AM",
+            to: "03:00 PM",
           },
           {
-            from: "10:00 AM",
+            from: "09:00 AM",
             to: "01:00 PM",
           }
         ],
-      }
-    ],
-    isCertified: true,
-    description: "Elena is a passionate tour guide with extensive knowledge of Seattle and United States. Specializing in Local Legends, Local Crafts, Photography Spots, Elena provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.7,
-    reviewsCount: 95,
-    quote: "In Seattle, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/50.jpg",
-    languages: ["Georgian", "Mandarin"],
-    experienceYears: 13,
-    certifications: ["Certified International Tour Manager", "Cultural Heritage Specialist", "Regional Tourism Ambassador"],
-    specialties: ["Local Legends", "Local Crafts", "Photography Spots"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-seattle-4",
-    name: "Sarah Crawford",
-    city: "Seattle",
-    country: "United States",
-    state: "",
-    region: "Washington",
-    isPopular: true,
-    bio: "Sarah is a passionate tour guide with extensive knowledge of Seattle and United States. Specializing in Local Literature, Museums, Local Festivals, Sarah provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Gobi Desert"],
-    tourTypes: ["Farm Visit", "Festival Tour", "Luxury Tour"],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-9593-SEA",
-    phoneNumber: "+1-733-877-5421",
-    contactEmail: "sarah.crawford@paragontrails.com",
-    available: [
+      },
       {
         day: "Saturday",
         availableHours: [
+          {
+            from: "02:00 PM",
+            to: "08:00 PM",
+          },
           {
             from: "11:00 AM",
             to: "01:00 PM",
@@ -233,67 +105,59 @@ export const seattleunitedStateswashingtonGuides: TourGuide[] = [
         day: "Wednesday",
         availableHours: [
           {
-            from: "09:00 AM",
-            to: "02:00 PM",
+            from: "08:00 AM",
+            to: "10:00 AM",
           },
           {
-            from: "12:00 PM",
-            to: "06:00 PM",
+            from: "02:00 PM",
+            to: "07:00 PM",
           }
         ],
       },
       {
-        day: "Friday",
+        day: "Thursday",
         availableHours: [
           {
             from: "02:00 PM",
-            to: "07:00 PM",
-          },
-          {
-            from: "01:00 PM",
-            to: "04:00 PM",
+            to: "05:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Sarah is a passionate tour guide with extensive knowledge of Seattle and United States. Specializing in Local Literature, Museums, Local Festivals, Sarah provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.5,
-    reviewsCount: 36,
+    description: "Amy is a passionate tour guide with extensive knowledge of Seattle and United States. Specializing in Cultural Heritage, Cultural Etiquette, Amy provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 12,
     quote: "In Seattle, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/78.jpg",
-    languages: ["Kazakh"],
-    experienceYears: 14,
-    certifications: ["Adventure Tourism Certification", "Urban Navigation Specialist"],
-    specialties: ["Local Literature", "Museums", "Local Festivals"],
-    specialTraining: ["Cultural Sensitivity Training"],
+    profileImage: "https://randomuser.me/api/portraits/women/42.jpg",
+    languages: ["Turkish", "Urdu"],
+    experienceYears: 15,
+    certifications: ["Certified Eco-Tourism Guide"],
+    specialties: ["Cultural Heritage", "Cultural Etiquette"],
+    specialTraining: [],
   },
   {
-    id: "guide-seattle-5",
-    name: "Sarah Payne",
+    id: "guide-seattle-3",
+    name: "Frank Clark",
     city: "Seattle",
     country: "United States",
     state: "",
     region: "Washington",
-    isPopular: true,
-    bio: "Sarah is a passionate tour guide with extensive knowledge of Seattle and United States. Specializing in Local Folklore, Cultural Etiquette, Sarah provides authentic and engaging experiences for visitors of all backgrounds.",
+    isPopular: false,
+    bio: "Frank is a passionate tour guide with extensive knowledge of Seattle and United States. Specializing in Local History, Hidden Treasures, Frank provides authentic and engaging experiences for visitors of all backgrounds.",
     regionsCovered: ["Pacific Islands"],
-    tourTypes: ["Market Tour", "Adventure Tour", "Helicopter Tour"],
-    maxGroupSize: 15,
-    licenseNumber: "LIC-8811-SEA",
-    phoneNumber: "+1-737-116-3136",
-    contactEmail: "sarah.payne@paragontrails.com",
+    tourTypes: ["Family-Friendly Tour", "Festival Tour"],
+    maxGroupSize: 6,
+    licenseNumber: "LIC-3837-SEA",
+    phoneNumber: "+1-703-316-9364",
+    contactEmail: "frank.clark@paragontrails.com",
     available: [
       {
-        day: "Friday",
+        day: "Sunday",
         availableHours: [
           {
-            from: "10:00 AM",
-            to: "01:00 PM",
-          },
-          {
-            from: "08:00 AM",
-            to: "10:00 AM",
+            from: "12:00 PM",
+            to: "02:00 PM",
           }
         ],
       },
@@ -301,7 +165,7 @@ export const seattleunitedStateswashingtonGuides: TourGuide[] = [
         day: "Saturday",
         availableHours: [
           {
-            from: "12:00 PM",
+            from: "09:00 AM",
             to: "02:00 PM",
           }
         ],
@@ -310,22 +174,95 @@ export const seattleunitedStateswashingtonGuides: TourGuide[] = [
         day: "Thursday",
         availableHours: [
           {
-            from: "11:00 AM",
-            to: "02:00 PM",
+            from: "12:00 PM",
+            to: "03:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "06:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Sarah is a passionate tour guide with extensive knowledge of Seattle and United States. Specializing in Local Folklore, Cultural Etiquette, Sarah provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.3,
-    reviewsCount: 100,
-    quote: "Every corner of Seattle tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/21.jpg",
-    languages: ["Dutch", "Urdu"],
-    experienceYears: 8,
-    certifications: ["Urban Navigation Specialist"],
-    specialties: ["Local Folklore", "Cultural Etiquette"],
-    specialTraining: ["Tour Planning", "Local Flora & Fauna"],
+    description: "Frank is a passionate tour guide with extensive knowledge of Seattle and United States. Specializing in Local History, Hidden Treasures, Frank provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.4,
+    reviewsCount: 37,
+    quote: "Seattle isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/84.jpg",
+    languages: ["Galician", "Norwegian", "Latvian"],
+    experienceYears: 12,
+    certifications: ["Certified International Tour Manager", "Regional Tourism Ambassador", "Language Proficiency Certification"],
+    specialties: ["Local History", "Hidden Treasures"],
+    specialTraining: ["Local Flora & Fauna"],
+  },
+  {
+    id: "guide-seattle-4",
+    name: "Russell Jackson",
+    city: "Seattle",
+    country: "United States",
+    state: "",
+    region: "Washington",
+    isPopular: true,
+    bio: "Russell is a passionate tour guide with extensive knowledge of Seattle and United States. Specializing in Local Markets, Cultural Traditions, Cultural Heritage, Historical Architecture, Russell provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Southwest USA"],
+    tourTypes: ["Cruise Excursion", "Wine Tour", "Self-Guided Tour", "Museum Tour"],
+    maxGroupSize: 7,
+    licenseNumber: "LIC-5997-SEA",
+    phoneNumber: "+1-823-588-1654",
+    contactEmail: "russell.jackson@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "06:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Russell is a passionate tour guide with extensive knowledge of Seattle and United States. Specializing in Local Markets, Cultural Traditions, Cultural Heritage, Historical Architecture, Russell provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 36,
+    quote: "Seattle isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/29.jpg",
+    languages: ["Igbo", "French", "Basque"],
+    experienceYears: 12,
+    certifications: ["Local History Certification", "Wilderness First Responder"],
+    specialties: ["Local Markets", "Cultural Traditions", "Cultural Heritage", "Historical Architecture"],
+    specialTraining: [],
   }
 ];

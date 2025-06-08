@@ -5,96 +5,41 @@ import { TourGuide } from "@/lib/interfaces/people/staff";
 export const sydneyaustraliaaustraliaGuides: TourGuide[] = [
   {
     id: "guide-sydney-1",
-    name: "Ralph Griffin",
-    city: "Sydney",
-    country: "Australia",
-    state: "",
-    region: "Australia",
-    isPopular: true,
-    bio: "Ralph is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Architecture, Historical Sites, Art Galleries, Ralph provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Southeast Europe"],
-    tourTypes: ["Religious Tour", "Helicopter Tour"],
-    maxGroupSize: 14,
-    licenseNumber: "LIC-8289-SYD",
-    phoneNumber: "+1-252-325-7322",
-    contactEmail: "ralph.griffin@paragontrails.com",
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "04:00 PM",
-          },
-          {
-            from: "09:00 AM",
-            to: "12:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "05:00 PM",
-          },
-          {
-            from: "09:00 AM",
-            to: "11:00 AM",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "07:00 PM",
-          },
-          {
-            from: "12:00 PM",
-            to: "03:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Ralph is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Architecture, Historical Sites, Art Galleries, Ralph provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.4,
-    reviewsCount: 41,
-    quote: "Every corner of Sydney tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/5.jpg",
-    languages: ["Romanian", "Slovak"],
-    experienceYears: 7,
-    certifications: ["Certified Heritage Guide"],
-    specialties: ["Architecture", "Historical Sites", "Art Galleries"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-sydney-2",
-    name: "Rajesh Dubois",
+    name: "Walter Graves",
     city: "Sydney",
     country: "Australia",
     state: "",
     region: "Australia",
     isPopular: false,
-    bio: "Rajesh is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Hidden Gems, Local History, Architecture, Rajesh provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Pacific Islands"],
-    tourTypes: ["Cruise Excursion", "Historical Tour", "Food Tour"],
-    maxGroupSize: 6,
-    licenseNumber: "LIC-4943-SYD",
-    phoneNumber: "+1-905-220-4378",
-    contactEmail: "rajesh.dubois@paragontrails.com",
+    bio: "Walter is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Cultural Festivals, Hidden Treasures, Walter provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Sub-Saharan Africa", "East Coast Canada"],
+    tourTypes: ["Festival Tour", "Craft Workshop", "Brewery Tour", "Underground Tour"],
+    maxGroupSize: 7,
+    licenseNumber: "LIC-5461-SYD",
+    phoneNumber: "+1-295-850-4830",
+    contactEmail: "walter.graves@paragontrails.com",
     available: [
       {
-        day: "Sunday",
+        day: "Tuesday",
         availableHours: [
           {
             from: "02:00 PM",
             to: "05:00 PM",
           },
           {
+            from: "09:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "03:00 PM",
+          },
+          {
             from: "10:00 AM",
             to: "04:00 PM",
           }
@@ -104,12 +49,67 @@ export const sydneyaustraliaaustraliaGuides: TourGuide[] = [
         day: "Thursday",
         availableHours: [
           {
-            from: "10:00 AM",
+            from: "12:00 PM",
             to: "02:00 PM",
           },
           {
-            from: "08:00 AM",
-            to: "12:00 PM",
+            from: "01:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Walter is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Cultural Festivals, Hidden Treasures, Walter provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 44,
+    quote: "Sydney isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/50.jpg",
+    languages: ["Tajik"],
+    experienceYears: 8,
+    certifications: ["Regional Tourism Ambassador"],
+    specialties: ["Cultural Festivals", "Hidden Treasures"],
+    specialTraining: ["Urban Planning", "Wine Education"],
+  },
+  {
+    id: "guide-sydney-2",
+    name: "Ibrahim Johnson",
+    city: "Sydney",
+    country: "Australia",
+    state: "",
+    region: "Australia",
+    isPopular: false,
+    bio: "Ibrahim is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Adventure Sports, Scenic Views, Ibrahim provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Eastern Europe", "Black Sea"],
+    tourTypes: ["Cooking Class", "Family-Friendly Tour", "Eco Tour", "Architecture Tour"],
+    maxGroupSize: 12,
+    licenseNumber: "LIC-5406-SYD",
+    phoneNumber: "+1-151-724-4190",
+    contactEmail: "ibrahim.johnson@paragontrails.com",
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "07:00 PM",
+          },
+          {
+            from: "02:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "06:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "03:00 PM",
           }
         ],
       },
@@ -117,119 +117,46 @@ export const sydneyaustraliaaustraliaGuides: TourGuide[] = [
         day: "Friday",
         availableHours: [
           {
-            from: "09:00 AM",
-            to: "12:00 PM",
-          },
-          {
-            from: "09:00 AM",
-            to: "12:00 PM",
+            from: "03:00 PM",
+            to: "08:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Rajesh is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Hidden Gems, Local History, Architecture, Rajesh provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.5,
-    reviewsCount: 51,
-    quote: "My goal is to help you fall in love with Sydney just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/24.jpg",
-    languages: ["Uzbek", "Tamil"],
+    description: "Ibrahim is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Adventure Sports, Scenic Views, Ibrahim provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.4,
+    reviewsCount: 26,
+    quote: "The best way to discover Sydney is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/15.jpg",
+    languages: ["Icelandic"],
     experienceYears: 15,
-    certifications: ["Certified Local Guide", "Certified Heritage Guide"],
-    specialties: ["Hidden Gems", "Local History", "Architecture"],
-    specialTraining: ["Culinary Skills", "Accessibility Services"],
+    certifications: ["Food Safety Certification", "Urban Navigation Specialist", "Wilderness First Responder"],
+    specialties: ["Adventure Sports", "Scenic Views"],
+    specialTraining: ["Culinary Skills"],
   },
   {
     id: "guide-sydney-3",
-    name: "Larry Reeves",
+    name: "Evelyn Rodriguez",
     city: "Sydney",
     country: "Australia",
     state: "",
     region: "Australia",
     isPopular: true,
-    bio: "Larry is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Public Transportation Navigation, Larry provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Arctic Region"],
-    tourTypes: ["Religious Tour", "Walking Tour", "Bike Tour", "Farm Visit"],
-    maxGroupSize: 15,
-    licenseNumber: "LIC-7202-SYD",
-    phoneNumber: "+1-222-125-6040",
-    contactEmail: "larry.reeves@paragontrails.com",
+    bio: "Evelyn is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Local Myths, Local Folklore, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Siberia"],
+    tourTypes: ["Craft Workshop", "Architecture Tour", "Photography Tour", "Historical Tour", "Brewery Tour"],
+    maxGroupSize: 10,
+    licenseNumber: "LIC-3315-SYD",
+    phoneNumber: "+1-769-606-6121",
+    contactEmail: "evelyn.rodriguez@paragontrails.com",
     available: [
       {
-        day: "Saturday",
+        day: "Wednesday",
         availableHours: [
           {
-            from: "09:00 AM",
-            to: "12:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "07:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "11:00 AM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Larry is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Public Transportation Navigation, Larry provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.2,
-    reviewsCount: 21,
-    quote: "My goal is to help you fall in love with Sydney just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/41.jpg",
-    languages: ["Sinhala", "Japanese"],
-    experienceYears: 9,
-    certifications: ["Language Proficiency Certification", "Certified Tour Guide"],
-    specialties: ["Public Transportation Navigation"],
-    specialTraining: ["Religious Studies"],
-  },
-  {
-    id: "guide-sydney-4",
-    name: "Olivia Graves",
-    city: "Sydney",
-    country: "Australia",
-    state: "",
-    region: "Australia",
-    isPopular: false,
-    bio: "Olivia is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Shopping Districts, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["North Atlantic Ocean"],
-    tourTypes: ["Cooking Class", "Historical Tour", "Food Tour"],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-6305-SYD",
-    phoneNumber: "+1-181-285-6373",
-    contactEmail: "olivia.graves@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "05:00 PM",
-          },
-          {
-            from: "11:00 AM",
-            to: "01:00 PM",
+            from: "10:00 AM",
+            to: "03:00 PM",
           }
         ],
       },
@@ -237,50 +164,30 @@ export const sydneyaustraliaaustraliaGuides: TourGuide[] = [
         day: "Thursday",
         availableHours: [
           {
-            from: "09:00 AM",
-            to: "02:00 PM",
+            from: "11:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "06:00 PM",
           }
         ],
-      }
-    ],
-    isCertified: true,
-    description: "Olivia is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Shopping Districts, Olivia provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.6,
-    reviewsCount: 24,
-    quote: "The best way to discover Sydney is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/4.jpg",
-    languages: ["Danish", "Ukrainian"],
-    experienceYears: 7,
-    certifications: ["Professional Tour Guide Association"],
-    specialties: ["Shopping Districts"],
-    specialTraining: ["Urban Planning", "Cultural Sensitivity Training"],
-  },
-  {
-    id: "guide-sydney-5",
-    name: "Harry Kim",
-    city: "Sydney",
-    country: "Australia",
-    state: "",
-    region: "Australia",
-    isPopular: false,
-    bio: "Harry is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Local Cuisine, Local Fashion, Harry provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Southeast Europe", "Caribbean Islands"],
-    tourTypes: ["Food Tour", "Group Tour", "Museum Tour", "Photography Tour", "Adventure Tour"],
-    maxGroupSize: 17,
-    licenseNumber: "LIC-3808-SYD",
-    phoneNumber: "+1-160-166-5787",
-    contactEmail: "harry.kim@paragontrails.com",
-    available: [
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
       {
         day: "Sunday",
         availableHours: [
           {
-            from: "10:00 AM",
-            to: "02:00 PM",
-          },
-          {
-            from: "03:00 PM",
-            to: "09:00 PM",
+            from: "12:00 PM",
+            to: "03:00 PM",
           }
         ],
       },
@@ -288,12 +195,68 @@ export const sydneyaustraliaaustraliaGuides: TourGuide[] = [
         day: "Monday",
         availableHours: [
           {
-            from: "08:00 AM",
-            to: "11:00 AM",
-          },
+            from: "02:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Evelyn is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Local Myths, Local Folklore, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.7,
+    reviewsCount: 40,
+    quote: "In Sydney, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/8.jpg",
+    languages: ["Portuguese", "Malay"],
+    experienceYears: 3,
+    certifications: ["Licensed City Guide", "Cultural Heritage Specialist", "Sustainable Tourism Certificate"],
+    specialties: ["Local Myths", "Local Folklore"],
+    specialTraining: ["Conflict Resolution"],
+  },
+  {
+    id: "guide-sydney-4",
+    name: "Zoe Garcia",
+    city: "Sydney",
+    country: "Australia",
+    state: "",
+    region: "Australia",
+    isPopular: false,
+    bio: "Zoe is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Music Scene, Historical Landmarks, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["West Africa", "Great Lakes Region"],
+    tourTypes: ["Street Art Tour", "Brewery Tour", "Romantic Tour", "Museum Tour"],
+    maxGroupSize: 7,
+    licenseNumber: "LIC-2569-SYD",
+    phoneNumber: "+1-361-106-3157",
+    contactEmail: "zoe.garcia@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
           {
             from: "09:00 AM",
-            to: "02:00 PM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "11:00 AM",
+            to: "03:00 PM",
           }
         ],
       },
@@ -301,31 +264,22 @@ export const sydneyaustraliaaustraliaGuides: TourGuide[] = [
         day: "Tuesday",
         availableHours: [
           {
-            from: "12:00 PM",
+            from: "02:00 PM",
             to: "04:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "01:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Harry is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Local Cuisine, Local Fashion, Harry provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.4,
-    reviewsCount: 40,
-    quote: "My goal is to help you fall in love with Sydney just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/16.jpg",
-    languages: ["Croatian", "Igbo"],
-    experienceYears: 11,
-    certifications: ["Cultural Sensitivity Training"],
-    specialties: ["Local Cuisine", "Local Fashion"],
-    specialTraining: ["Conflict Resolution", "Cultural Sensitivity"],
+    description: "Zoe is a passionate tour guide with extensive knowledge of Sydney and Australia. Specializing in Music Scene, Historical Landmarks, Zoe provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.6,
+    reviewsCount: 63,
+    quote: "In Sydney, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/3.jpg",
+    languages: ["Albanian"],
+    experienceYears: 3,
+    certifications: ["CPR & First Aid", "Certified International Tour Manager", "Professional Tour Guide Association"],
+    specialties: ["Music Scene", "Historical Landmarks"],
+    specialTraining: ["Local Transit Systems"],
   }
 ];

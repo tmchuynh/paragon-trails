@@ -2,140 +2,55 @@
 
 import { TourGuide } from "@/lib/interfaces/people/staff";
 
-export const southamptonunitedKingdomGuides: TourGuide[] = [
+export const southamptonenglandGuides: TourGuide[] = [
   {
     id: "guide-southampton-1",
-    name: "Sofia Russell",
+    name: "Liam Gardner",
     city: "Southampton",
-    country: "United Kingdom",
+    country: "England",
     state: "",
     region: "Unknown Region",
-    isPopular: true,
-    bio: "Sofia is a passionate tour guide with extensive knowledge of Southampton and United Kingdom. Specializing in Art Walks, Architecture, Historical Tours, Scenic Views, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Atlantic Coast USA", "East Africa"],
-    tourTypes: ["Bike Tour", "Religious Tour", "Festival Tour", "Cultural Tour"],
-    maxGroupSize: 14,
-    licenseNumber: "LIC-8409-SOU",
-    phoneNumber: "+1-653-433-1875",
-    contactEmail: "sofia.russell@paragontrails.com",
+    isPopular: false,
+    bio: "Liam is a passionate tour guide with extensive knowledge of Southampton and England. Specializing in Local Sports, Wildlife Watching, Historical Reenactments, Wine Tasting, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Northeast USA"],
+    tourTypes: ["Helicopter Tour", "Wildlife Safari", "Cooking Class", "Scenic Tour"],
+    maxGroupSize: 17,
+    licenseNumber: "LIC-6379-SOU",
+    phoneNumber: "+1-331-579-6085",
+    contactEmail: "liam.gardner@paragontrails.com",
     available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "11:00 AM",
-          }
-        ],
-      },
       {
         day: "Sunday",
         availableHours: [
           {
-            from: "09:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
             from: "11:00 AM",
-            to: "05:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Sofia is a passionate tour guide with extensive knowledge of Southampton and United Kingdom. Specializing in Art Walks, Architecture, Historical Tours, Scenic Views, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.5,
-    reviewsCount: 7,
-    quote: "My goal is to help you fall in love with Southampton just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/36.jpg",
-    languages: ["Serbo-Croatian", "Turkish", "Serbian"],
-    experienceYears: 11,
-    certifications: ["Regional Tourism Ambassador"],
-    specialties: ["Art Walks", "Architecture", "Historical Tours", "Scenic Views"],
-    specialTraining: ["First Aid & CPR"],
-  },
-  {
-    id: "guide-southampton-2",
-    name: "Noah Ellis",
-    city: "Southampton",
-    country: "United Kingdom",
-    state: "",
-    region: "Unknown Region",
-    isPopular: true,
-    bio: "Noah is a passionate tour guide with extensive knowledge of Southampton and United Kingdom. Specializing in Local Crafts, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Central America"],
-    tourTypes: ["Cooking Class", "Scenic Tour", "Adventure Tour", "Religious Tour", "Romantic Tour"],
-    maxGroupSize: 15,
-    licenseNumber: "LIC-3926-SOU",
-    phoneNumber: "+1-643-201-6913",
-    contactEmail: "noah.ellis@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
+            to: "01:00 PM",
+          },
           {
             from: "12:00 PM",
-            to: "04:00 PM",
-          },
-          {
-            from: "03:00 PM",
-            to: "07:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Noah is a passionate tour guide with extensive knowledge of Southampton and United Kingdom. Specializing in Local Crafts, Noah provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.6,
-    reviewsCount: 95,
-    quote: "My goal is to help you fall in love with Southampton just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/73.jpg",
-    languages: ["Farsi", "Khmer", "Hindi"],
-    experienceYears: 15,
-    certifications: ["Adventure Tourism Safety Certificate", "Eco-Tourism Guide"],
-    specialties: ["Local Crafts"],
-    specialTraining: ["Accessibility Services", "Local Flora & Fauna"],
-  },
-  {
-    id: "guide-southampton-3",
-    name: "Ibrahim Day",
-    city: "Southampton",
-    country: "United Kingdom",
-    state: "",
-    region: "Unknown Region",
-    isPopular: false,
-    bio: "Ibrahim is a passionate tour guide with extensive knowledge of Southampton and United Kingdom. Specializing in Historical Sites, Ibrahim provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Southern USA"],
-    tourTypes: ["Bike Tour", "Festival Tour", "Street Art Tour", "Group Tour"],
-    maxGroupSize: 13,
-    licenseNumber: "LIC-1234-SOU",
-    phoneNumber: "+1-558-394-5499",
-    contactEmail: "ibrahim.day@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "05:00 PM",
-          },
-          {
-            from: "08:00 AM",
-            to: "01:00 PM",
+            to: "03:00 PM",
           }
         ],
       },
       {
-        day: "Wednesday",
+        day: "Thursday",
         availableHours: [
           {
-            from: "08:00 AM",
-            to: "10:00 AM",
+            from: "03:00 PM",
+            to: "08:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "02:00 PM",
           }
         ],
       },
@@ -143,27 +58,9 @@ export const southamptonunitedKingdomGuides: TourGuide[] = [
         day: "Friday",
         availableHours: [
           {
-            from: "02:00 PM",
-            to: "08:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "03:00 PM",
+            from: "03:00 PM",
+            to: "06:00 PM",
           },
-          {
-            from: "01:00 PM",
-            to: "04:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
           {
             from: "09:00 AM",
             to: "12:00 PM",
@@ -172,56 +69,129 @@ export const southamptonunitedKingdomGuides: TourGuide[] = [
       }
     ],
     isCertified: true,
-    description: "Ibrahim is a passionate tour guide with extensive knowledge of Southampton and United Kingdom. Specializing in Historical Sites, Ibrahim provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.9,
-    reviewsCount: 87,
-    quote: "Southampton isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/men/50.jpg",
-    languages: ["Afrikaans", "Thai", "Ukrainian"],
-    experienceYears: 3,
-    certifications: ["Sustainable Tourism Certificate"],
-    specialties: ["Historical Sites"],
-    specialTraining: [],
+    description: "Liam is a passionate tour guide with extensive knowledge of Southampton and England. Specializing in Local Sports, Wildlife Watching, Historical Reenactments, Wine Tasting, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.4,
+    reviewsCount: 60,
+    quote: "My goal is to help you fall in love with Southampton just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/68.jpg",
+    languages: ["Georgian", "Icelandic", "Irish"],
+    experienceYears: 12,
+    certifications: ["Urban Navigation Specialist"],
+    specialties: ["Local Sports", "Wildlife Watching", "Historical Reenactments", "Wine Tasting"],
+    specialTraining: ["Customer Service Excellence"],
   },
   {
-    id: "guide-southampton-4",
-    name: "John Warren",
+    id: "guide-southampton-2",
+    name: "Roy Foster",
     city: "Southampton",
-    country: "United Kingdom",
+    country: "England",
     state: "",
     region: "Unknown Region",
-    isPopular: true,
-    bio: "John is a passionate tour guide with extensive knowledge of Southampton and United Kingdom. Specializing in Photography Spots, Nature Trails, Night Tours, John provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["North Atlantic Ocean"],
-    tourTypes: ["Audio Tour", "Religious Tour", "Craft Workshop"],
-    maxGroupSize: 14,
-    licenseNumber: "LIC-5576-SOU",
-    phoneNumber: "+1-112-984-2140",
-    contactEmail: "john.warren@paragontrails.com",
+    isPopular: false,
+    bio: "Roy is a passionate tour guide with extensive knowledge of Southampton and England. Specializing in Local Myths, Nightlife, Local Festivals, Roy provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Indochina Peninsula"],
+    tourTypes: ["Wine Tour", "Relocation Tour", "Craft Workshop", "Audio Tour", "Accessible Tour"],
+    maxGroupSize: 7,
+    licenseNumber: "LIC-3448-SOU",
+    phoneNumber: "+1-411-754-4752",
+    contactEmail: "roy.foster@paragontrails.com",
     available: [
       {
-        day: "Wednesday",
+        day: "Saturday",
         availableHours: [
           {
-            from: "09:00 AM",
-            to: "02:00 PM",
+            from: "10:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "09:00 PM",
           },
           {
-            from: "10:00 AM",
+            from: "12:00 PM",
             to: "03:00 PM",
           }
         ],
       },
       {
-        day: "Friday",
+        day: "Thursday",
         availableHours: [
           {
-            from: "09:00 AM",
-            to: "01:00 PM",
+            from: "08:00 AM",
+            to: "02:00 PM",
           },
           {
+            from: "03:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Roy is a passionate tour guide with extensive knowledge of Southampton and England. Specializing in Local Myths, Nightlife, Local Festivals, Roy provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.7,
+    reviewsCount: 29,
+    quote: "Every corner of Southampton tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/10.jpg",
+    languages: ["Tamil"],
+    experienceYears: 3,
+    certifications: ["Adventure Tourism Safety Certificate"],
+    specialties: ["Local Myths", "Nightlife", "Local Festivals"],
+    specialTraining: ["First Aid & CPR", "Historical Interpretation"],
+  },
+  {
+    id: "guide-southampton-3",
+    name: "Maria Wang",
+    city: "Southampton",
+    country: "England",
+    state: "",
+    region: "Unknown Region",
+    isPopular: true,
+    bio: "Maria is a passionate tour guide with extensive knowledge of Southampton and England. Specializing in Local Festivals, Cultural Festivals, Wildlife Watching, Local History, Maria provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["North America"],
+    tourTypes: ["Group Tour", "Brewery Tour", "Cruise Excursion"],
+    maxGroupSize: 7,
+    licenseNumber: "LIC-8291-SOU",
+    phoneNumber: "+1-753-733-3245",
+    contactEmail: "maria.wang@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
             from: "01:00 PM",
+            to: "03:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "03:00 PM",
             to: "06:00 PM",
+          },
+          {
+            from: "02:00 PM",
+            to: "04:00 PM",
           }
         ],
       },
@@ -229,22 +199,167 @@ export const southamptonunitedKingdomGuides: TourGuide[] = [
         day: "Saturday",
         availableHours: [
           {
-            from: "02:00 PM",
-            to: "04:00 PM",
+            from: "01:00 PM",
+            to: "06:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "02:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "John is a passionate tour guide with extensive knowledge of Southampton and United Kingdom. Specializing in Photography Spots, Nature Trails, Night Tours, John provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.6,
-    reviewsCount: 10,
+    description: "Maria is a passionate tour guide with extensive knowledge of Southampton and England. Specializing in Local Festivals, Cultural Festivals, Wildlife Watching, Local History, Maria provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 68,
+    quote: "Southampton isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/43.jpg",
+    languages: ["Russian", "German", "Urdu"],
+    experienceYears: 9,
+    certifications: ["Certified Local Guide", "Eco-Tourism Guide", "Certified Eco-Tourism Guide"],
+    specialties: ["Local Festivals", "Cultural Festivals", "Wildlife Watching", "Local History"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-southampton-4",
+    name: "John Fisher",
+    city: "Southampton",
+    country: "England",
+    state: "",
+    region: "Unknown Region",
+    isPopular: true,
+    bio: "John is a passionate tour guide with extensive knowledge of Southampton and England. Specializing in Film Locations, Wine Tasting, Local Craftsmanship, John provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Eastern Mediterranean", "Antarctic Peninsula"],
+    tourTypes: ["Cooking Class", "Craft Workshop", "Helicopter Tour"],
+    maxGroupSize: 11,
+    licenseNumber: "LIC-6107-SOU",
+    phoneNumber: "+1-116-437-5822",
+    contactEmail: "john.fisher@paragontrails.com",
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "12:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "11:00 AM",
+          },
+          {
+            from: "01:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "John is a passionate tour guide with extensive knowledge of Southampton and England. Specializing in Film Locations, Wine Tasting, Local Craftsmanship, John provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 60,
     quote: "Every corner of Southampton tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/52.jpg",
-    languages: ["Slovenian", "Tajik", "Sinhala"],
-    experienceYears: 15,
-    certifications: ["Food Safety Certification", "Certified Local Guide", "Wilderness First Responder"],
-    specialties: ["Photography Spots", "Nature Trails", "Night Tours"],
-    specialTraining: ["Cultural Storytelling", "Local Flora & Fauna"],
+    profileImage: "https://randomuser.me/api/portraits/men/67.jpg",
+    languages: ["Hebrew"],
+    experienceYears: 4,
+    certifications: ["Language Proficiency Certification", "Cultural Heritage Specialist", "Heritage Interpretation Certificate"],
+    specialties: ["Film Locations", "Wine Tasting", "Local Craftsmanship"],
+    specialTraining: ["Historical Preservation"],
+  },
+  {
+    id: "guide-southampton-5",
+    name: "Ella Campbell",
+    city: "Southampton",
+    country: "England",
+    state: "",
+    region: "Unknown Region",
+    isPopular: false,
+    bio: "Ella is a passionate tour guide with extensive knowledge of Southampton and England. Specializing in Historical Sites, Historical Tours, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Atacama Desert"],
+    tourTypes: ["LGBTQ+ Friendly Tour", "Bike Tour", "Photography Tour"],
+    maxGroupSize: 13,
+    licenseNumber: "LIC-5521-SOU",
+    phoneNumber: "+1-892-425-7755",
+    contactEmail: "ella.campbell@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "02:00 PM",
+          },
+          {
+            from: "11:00 AM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Ella is a passionate tour guide with extensive knowledge of Southampton and England. Specializing in Historical Sites, Historical Tours, Ella provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 95,
+    quote: "My goal is to help you fall in love with Southampton just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/27.jpg",
+    languages: ["Basque", "Hungarian", "Spanish"],
+    experienceYears: 11,
+    certifications: ["Licensed City Guide", "Local History Certification"],
+    specialties: ["Historical Sites", "Historical Tours"],
+    specialTraining: ["Local Flora & Fauna"],
   }
 ];
