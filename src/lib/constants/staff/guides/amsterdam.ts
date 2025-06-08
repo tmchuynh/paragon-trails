@@ -2,275 +2,46 @@
 
 import { TourGuide } from "@/lib/interfaces/people/staff";
 
-export const amsterdamnetherlandsnorthernEuropeGuides: TourGuide[] = [
+export const amsterdamnetherlandsnetherlandsGuides: TourGuide[] = [
   {
     id: "guide-amsterdam-1",
-    name: "Sean Gibson",
+    name: "Dylan Warren",
     city: "Amsterdam",
     country: "Netherlands",
     state: "",
-    region: "Northern Europe",
+    region: "Netherlands",
     isPopular: false,
-    bio: "Sean is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Architecture, Historical Landmarks, Public Transportation Navigation, Sean provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada", "Alaska"],
-    tourTypes: ["Audio Tour", "Luxury Tour", "Cultural Tour", "Accessible Tour"],
-    maxGroupSize: 9,
-    licenseNumber: "LIC-6463-AMS",
-    phoneNumber: "+1-813-853-3744",
-    contactEmail: "sean.gibson@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Sean is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Architecture, Historical Landmarks, Public Transportation Navigation, Sean provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.4,
-    reviewsCount: 41,
-    quote: "My goal is to help you fall in love with Amsterdam just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/74.jpg",
-    languages: ["Mandarin", "Romanian"],
-    experienceYears: 16,
-    certifications: ["CPR & First Aid"],
-    specialties: ["Architecture", "Historical Landmarks", "Public Transportation Navigation"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-amsterdam-2",
-    name: "Aria Nguyen",
-    city: "Amsterdam",
-    country: "Netherlands",
-    state: "",
-    region: "Northern Europe",
-    isPopular: false,
-    bio: "Aria is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Museums, Wine Tasting, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast USA"],
-    tourTypes: ["Shopping Tour", "Self-Guided Tour", "Helicopter Tour", "Festival Tour"],
-    maxGroupSize: 8,
-    licenseNumber: "LIC-9551-AMS",
-    phoneNumber: "+1-967-172-7001",
-    contactEmail: "aria.nguyen@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Aria is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Museums, Wine Tasting, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.3,
-    reviewsCount: 62,
-    quote: "Every corner of Amsterdam tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/27.jpg",
-    languages: ["Swahili", "German", "Cantonese"],
-    experienceYears: 14,
-    certifications: ["Local History Certification", "Cultural Heritage Specialist"],
-    specialties: ["Museums", "Wine Tasting"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-amsterdam-3",
-    name: "Genesis Wilson",
-    city: "Amsterdam",
-    country: "Netherlands",
-    state: "",
-    region: "Northern Europe",
-    isPopular: false,
-    bio: "Genesis is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Urban Legends, Sustainable Tourism, Museums, Genesis provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Asia Pacific", "Alaska"],
-    tourTypes: ["Group Tour", "Brewery Tour", "Wine Tour"],
+    bio: "Dylan is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in City History, Art Galleries, Dylan provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["West Coast USA", "Persian Gulf"],
+    tourTypes: ["Nature Tour", "Photography Tour"],
     maxGroupSize: 13,
-    licenseNumber: "LIC-8875-AMS",
-    phoneNumber: "+1-595-838-7447",
-    contactEmail: "genesis.wilson@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Genesis is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Urban Legends, Sustainable Tourism, Museums, Genesis provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 42,
-    quote: "Every corner of Amsterdam tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/52.jpg",
-    languages: ["French", "Hungarian"],
-    experienceYears: 4,
-    certifications: ["Heritage Interpretation Certificate"],
-    specialties: ["Urban Legends", "Sustainable Tourism", "Museums"],
-    specialTraining: ["Group Management"],
-  },
-  {
-    id: "guide-amsterdam-4",
-    name: "Bruce Hernandez",
-    city: "Amsterdam",
-    country: "Netherlands",
-    state: "",
-    region: "Northern Europe",
-    isPopular: true,
-    bio: "Bruce is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Local Markets, Street Food, Cultural Etiquette, Parks & Gardens, Bruce provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Northern Europe", "East Coast USA"],
-    tourTypes: ["Shopping Tour", "Helicopter Tour"],
-    maxGroupSize: 9,
-    licenseNumber: "LIC-9617-AMS",
-    phoneNumber: "+1-743-232-3014",
-    contactEmail: "bruce.hernandez@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Bruce is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Local Markets, Street Food, Cultural Etiquette, Parks & Gardens, Bruce provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.6,
-    reviewsCount: 32,
-    quote: "Every corner of Amsterdam tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/79.jpg",
-    languages: ["Czech", "Swedish"],
-    experienceYears: 11,
-    certifications: ["Cultural Heritage Specialist", "Heritage Interpretation Certificate"],
-    specialties: ["Local Markets", "Street Food", "Cultural Etiquette", "Parks & Gardens"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-amsterdam-5",
-    name: "Genesis Morales",
-    city: "Amsterdam",
-    country: "Netherlands",
-    state: "",
-    region: "Northern Europe",
-    isPopular: false,
-    bio: "Genesis is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Architecture, Hidden Gems, Genesis provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast USA"],
-    tourTypes: ["LGBTQ+ Friendly Tour", "Farm Visit", "Bike Tour"],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-4009-AMS",
-    phoneNumber: "+1-551-388-7379",
-    contactEmail: "genesis.morales@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Genesis is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Architecture, Hidden Gems, Genesis provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.2,
-    reviewsCount: 96,
-    quote: "The best way to discover Amsterdam is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/47.jpg",
-    languages: ["Bulgarian", "Polish"],
-    experienceYears: 8,
-    certifications: ["Cultural Heritage Specialist", "Language Proficiency Certification"],
-    specialties: ["Architecture", "Hidden Gems"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-amsterdam-6",
-    name: "Elijah Hudson",
-    city: "Amsterdam",
-    country: "Netherlands",
-    state: "",
-    region: "Northern Europe",
-    isPopular: true,
-    bio: "Elijah is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Film Locations, Adventure Sports, Hidden Gems, Family Activities, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["West Coast USA"],
-    tourTypes: ["Historical Tour", "Self-Guided Tour", "Festival Tour"],
-    maxGroupSize: 5,
-    licenseNumber: "LIC-3105-AMS",
-    phoneNumber: "+1-481-306-9028",
-    contactEmail: "elijah.hudson@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Elijah is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Film Locations, Adventure Sports, Hidden Gems, Family Activities, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.9,
-    reviewsCount: 97,
-    quote: "The best way to discover Amsterdam is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/72.jpg",
-    languages: ["Finnish", "French"],
-    experienceYears: 15,
-    certifications: ["Adventure Tourism Safety Certificate", "Language Proficiency Certification"],
-    specialties: ["Film Locations", "Adventure Sports", "Hidden Gems", "Family Activities"],
-    specialTraining: ["Art History"],
-  },
-  {
-    id: "guide-amsterdam-7",
-    name: "James Jones",
-    city: "Amsterdam",
-    country: "Netherlands",
-    state: "",
-    region: "Northern Europe",
-    isPopular: false,
-    bio: "James is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Local Cuisine, James provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast USA", "Asia Pacific"],
-    tourTypes: ["Photography Tour", "Brewery Tour", "Museum Tour", "Bike Tour", "Romantic Tour"],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-2866-AMS",
-    phoneNumber: "+1-672-168-2808",
-    contactEmail: "james.jones@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "James is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Local Cuisine, James provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.9,
-    reviewsCount: 18,
-    quote: "Amsterdam isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/men/14.jpg",
-    languages: ["Danish", "French"],
-    experienceYears: 14,
-    certifications: ["Adventure Tourism Safety Certificate"],
-    specialties: ["Local Cuisine"],
-    specialTraining: ["Archaeological Conservation"],
-  },
-  {
-    id: "guide-amsterdam-8",
-    name: "Michael Douglas",
-    city: "Amsterdam",
-    country: "Netherlands",
-    state: "",
-    region: "Northern Europe",
-    isPopular: false,
-    bio: "Michael is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Local Cuisine, Nightlife, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["South America", "Caribbean"],
-    tourTypes: ["Off-Road Tour", "Family-Friendly Tour", "Adventure Tour", "Wine Tour"],
-    maxGroupSize: 18,
-    licenseNumber: "LIC-8900-AMS",
-    phoneNumber: "+1-795-835-3641",
-    contactEmail: "michael.douglas@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Michael is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Local Cuisine, Nightlife, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.5,
-    reviewsCount: 24,
-    quote: "Amsterdam isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/men/84.jpg",
-    languages: ["Greek", "Hebrew", "Serbian"],
-    experienceYears: 10,
-    certifications: ["Heritage Interpretation Certificate", "Local History Certification"],
-    specialties: ["Local Cuisine", "Nightlife"],
-    specialTraining: ["Desert Navigation"],
-  },
-  {
-    id: "guide-amsterdam-9",
-    name: "Peter Porter",
-    city: "Amsterdam",
-    country: "Netherlands",
-    state: "",
-    region: "Northern Europe",
-    isPopular: false,
-    bio: "Peter is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Religious Sites, Architecture, Cultural Etiquette, Peter provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast USA"],
-    tourTypes: ["Wildlife Safari", "Underground Tour", "Boat Tour", "Cruise Excursion", "Farm Visit"],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-8286-AMS",
-    phoneNumber: "+1-691-525-2871",
-    contactEmail: "peter.porter@paragontrails.com",
+    licenseNumber: "LIC-3828-AMS",
+    phoneNumber: "+1-883-537-5774",
+    contactEmail: "dylan.warren@paragontrails.com",
     available: [
       {
         day: "Monday",
         availableHours: [
           {
-            from: "09:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
             from: "01:00 PM",
-            to: "03:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "12:00 PM",
             to: "05:00 PM",
           },
           {
+            from: "08:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "03:00 PM",
+          },
+          {
             from: "12:00 PM",
-            to: "05:00 PM",
+            to: "03:00 PM",
           }
         ],
       },
@@ -278,72 +49,63 @@ export const amsterdamnetherlandsnorthernEuropeGuides: TourGuide[] = [
         day: "Saturday",
         availableHours: [
           {
-            from: "02:00 PM",
-            to: "06:00 PM",
+            from: "11:00 AM",
+            to: "03:00 PM",
           },
           {
-            from: "10:00 AM",
-            to: "02:00 PM",
+            from: "09:00 AM",
+            to: "11:00 AM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Peter is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Religious Sites, Architecture, Cultural Etiquette, Peter provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.9,
-    reviewsCount: 89,
-    quote: "Every corner of Amsterdam tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/71.jpg",
-    languages: ["Polish", "Romanian"],
+    description: "Dylan is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in City History, Art Galleries, Dylan provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.7,
+    reviewsCount: 8,
+    quote: "Amsterdam isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/1.jpg",
+    languages: ["Serbian", "German", "Galician"],
     experienceYears: 4,
-    certifications: ["Certified International Tour Manager", "Professional Tour Guide Association"],
-    specialties: ["Religious Sites", "Architecture", "Cultural Etiquette"],
-    specialTraining: ["Emergency Response"],
+    certifications: ["CPR & First Aid", "Food Safety Certification"],
+    specialties: ["City History", "Art Galleries"],
+    specialTraining: [],
   },
   {
-    id: "guide-amsterdam-10",
-    name: "Bryan Hernandez",
+    id: "guide-amsterdam-2",
+    name: "Aiden Jones",
     city: "Amsterdam",
     country: "Netherlands",
     state: "",
-    region: "Northern Europe",
-    isPopular: false,
-    bio: "Bryan is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Music Scene, Sustainable Tourism, Bryan provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean"],
-    tourTypes: ["Wildlife Safari", "Festival Tour"],
-    maxGroupSize: 13,
-    licenseNumber: "LIC-7888-AMS",
-    phoneNumber: "+1-172-729-6206",
-    contactEmail: "bryan.hernandez@paragontrails.com",
+    region: "Netherlands",
+    isPopular: true,
+    bio: "Aiden is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Local Legends, Hidden Treasures, Cultural Heritage, Wildlife Watching, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caucasus Region", "Middle East & North Africa"],
+    tourTypes: ["Farm Visit", "Street Art Tour", "Craft Workshop"],
+    maxGroupSize: 9,
+    licenseNumber: "LIC-3398-AMS",
+    phoneNumber: "+1-950-291-6712",
+    contactEmail: "aiden.jones@paragontrails.com",
     available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "03:00 PM",
-          },
-          {
-            from: "09:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "02:00 PM",
-          }
-        ],
-      },
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "11:00 AM",
+            from: "08:00 AM",
             to: "01:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "02:00 PM",
           }
         ],
       },
@@ -351,54 +113,8 @@ export const amsterdamnetherlandsnorthernEuropeGuides: TourGuide[] = [
         day: "Friday",
         availableHours: [
           {
-            from: "03:00 PM",
-            to: "06:00 PM",
-          },
-          {
-            from: "03:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Bryan is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Music Scene, Sustainable Tourism, Bryan provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.3,
-    reviewsCount: 101,
-    quote: "In Amsterdam, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/74.jpg",
-    languages: ["Czech", "Korean", "Spanish"],
-    experienceYears: 3,
-    certifications: ["Licensed City Guide"],
-    specialties: ["Music Scene", "Sustainable Tourism"],
-    specialTraining: ["Wine Education"],
-  },
-  {
-    id: "guide-amsterdam-11",
-    name: "Liam Maxwell",
-    city: "Amsterdam",
-    country: "Netherlands",
-    state: "",
-    region: "Northern Europe",
-    isPopular: false,
-    bio: "Liam is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Sustainable Tourism, Museums, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean"],
-    tourTypes: ["Historical Tour", "Museum Tour", "Luxury Tour", "Cruise Excursion"],
-    maxGroupSize: 17,
-    licenseNumber: "LIC-5789-AMS",
-    phoneNumber: "+1-728-801-6944",
-    contactEmail: "liam.maxwell@paragontrails.com",
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "03:00 PM",
-          },
-          {
-            from: "12:00 PM",
-            to: "06:00 PM",
+            from: "10:00 AM",
+            to: "01:00 PM",
           }
         ],
       },
@@ -406,8 +122,132 @@ export const amsterdamnetherlandsnorthernEuropeGuides: TourGuide[] = [
         day: "Sunday",
         availableHours: [
           {
+            from: "02:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Aiden is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Local Legends, Hidden Treasures, Cultural Heritage, Wildlife Watching, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.2,
+    reviewsCount: 74,
+    quote: "Amsterdam isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/54.jpg",
+    languages: ["Nepali", "Icelandic"],
+    experienceYears: 10,
+    certifications: ["CPR & First Aid", "Certified Heritage Guide", "Urban Navigation Specialist"],
+    specialties: ["Local Legends", "Hidden Treasures", "Cultural Heritage", "Wildlife Watching"],
+    specialTraining: ["Wildlife Conservation"],
+  },
+  {
+    id: "guide-amsterdam-3",
+    name: "Sarah Johnson",
+    city: "Amsterdam",
+    country: "Netherlands",
+    state: "",
+    region: "Netherlands",
+    isPopular: false,
+    bio: "Sarah is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Culinary Tours, Photography Spots, Sarah provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Western Europe", "Sub-Saharan Africa"],
+    tourTypes: ["Eco Tour", "Religious Tour", "Scenic Tour", "Cruise Excursion", "Boat Tour"],
+    maxGroupSize: 12,
+    licenseNumber: "LIC-1482-AMS",
+    phoneNumber: "+1-925-467-7824",
+    contactEmail: "sarah.johnson@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "04:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "07:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Sarah is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Culinary Tours, Photography Spots, Sarah provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4,
+    reviewsCount: 28,
+    quote: "In Amsterdam, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/72.jpg",
+    languages: ["Armenian"],
+    experienceYears: 6,
+    certifications: ["Regional Tourism Ambassador", "Sustainable Tourism Certificate"],
+    specialties: ["Culinary Tours", "Photography Spots"],
+    specialTraining: ["Cultural Sensitivity Training"],
+  },
+  {
+    id: "guide-amsterdam-4",
+    name: "Juan Lewis",
+    city: "Amsterdam",
+    country: "Netherlands",
+    state: "",
+    region: "Netherlands",
+    isPopular: false,
+    bio: "Juan is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Religious Sites, Cultural Traditions, Photography Spots, Juan provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Pacific Islands", "West Coast USA"],
+    tourTypes: ["Walking Tour", "Market Tour", "Craft Workshop"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-2895-AMS",
+    phoneNumber: "+1-270-174-5448",
+    contactEmail: "juan.lewis@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "11:00 AM",
+          },
+          {
+            from: "10:00 AM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
             from: "01:00 PM",
-            to: "06:00 PM",
+            to: "05:00 PM",
           },
           {
             from: "10:00 AM",
@@ -417,15 +257,203 @@ export const amsterdamnetherlandsnorthernEuropeGuides: TourGuide[] = [
       }
     ],
     isCertified: true,
-    description: "Liam is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Sustainable Tourism, Museums, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
+    description: "Juan is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Religious Sites, Cultural Traditions, Photography Spots, Juan provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.6,
+    reviewsCount: 45,
+    quote: "My goal is to help you fall in love with Amsterdam just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/59.jpg",
+    languages: ["Korean", "Welsh", "Portuguese"],
+    experienceYears: 15,
+    certifications: ["Adventure Tourism Safety Certificate", "Sustainable Tourism Certificate", "Certified Tour Guide"],
+    specialties: ["Religious Sites", "Cultural Traditions", "Photography Spots"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-amsterdam-5",
+    name: "Elizabeth Hamilton",
+    city: "Amsterdam",
+    country: "Netherlands",
+    state: "",
+    region: "Netherlands",
+    isPopular: false,
+    bio: "Elizabeth is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Local Crafts, Local History, Scenic Views, Shopping, Elizabeth provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Great Lakes Region"],
+    tourTypes: ["Boat Tour", "Farm Visit", "Helicopter Tour", "Festival Tour"],
+    maxGroupSize: 13,
+    licenseNumber: "LIC-8698-AMS",
+    phoneNumber: "+1-110-988-3124",
+    contactEmail: "elizabeth.hamilton@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "02:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Elizabeth is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Local Crafts, Local History, Scenic Views, Shopping, Elizabeth provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.7,
+    reviewsCount: 52,
+    quote: "The best way to discover Amsterdam is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/1.jpg",
+    languages: ["Malayalam"],
+    experienceYears: 15,
+    certifications: ["CPR & First Aid", "Certified International Tour Manager"],
+    specialties: ["Local Crafts", "Local History", "Scenic Views", "Shopping"],
+    specialTraining: ["Tour Planning"],
+  },
+  {
+    id: "guide-amsterdam-6",
+    name: "Alice Russell",
+    city: "Amsterdam",
+    country: "Netherlands",
+    state: "",
+    region: "Netherlands",
+    isPopular: false,
+    bio: "Alice is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Art Walks, Local Cuisine, Cultural Heritage, Alice provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Prairies", "Central Africa"],
+    tourTypes: ["Walking Tour", "Cruise Excursion", "Eco Tour"],
+    maxGroupSize: 19,
+    licenseNumber: "LIC-1837-AMS",
+    phoneNumber: "+1-849-324-2004",
+    contactEmail: "alice.russell@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "02:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "11:00 AM",
+          },
+          {
+            from: "11:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "03:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Alice is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Art Walks, Local Cuisine, Cultural Heritage, Alice provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.2,
-    reviewsCount: 78,
+    reviewsCount: 33,
     quote: "Every corner of Amsterdam tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/37.jpg",
-    languages: ["Italian", "Dutch"],
-    experienceYears: 3,
-    certifications: ["Certified International Tour Manager"],
-    specialties: ["Sustainable Tourism", "Museums"],
-    specialTraining: ["Wine Education", "Marine Biology"],
+    profileImage: "https://randomuser.me/api/portraits/women/25.jpg",
+    languages: ["Slovenian"],
+    experienceYears: 7,
+    certifications: ["Eco-Tourism Guide", "Regional Tourism Ambassador", "Language Proficiency Certification"],
+    specialties: ["Art Walks", "Local Cuisine", "Cultural Heritage"],
+    specialTraining: ["Local History"],
+  },
+  {
+    id: "guide-amsterdam-7",
+    name: "Boris Hunter",
+    city: "Amsterdam",
+    country: "Netherlands",
+    state: "",
+    region: "Netherlands",
+    isPopular: false,
+    bio: "Boris is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Hidden Treasures, Boris provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Sahara Desert", "Rocky Mountains"],
+    tourTypes: ["Helicopter Tour", "Food Tour", "Accessible Tour", "Luxury Tour", "Family-Friendly Tour"],
+    maxGroupSize: 6,
+    licenseNumber: "LIC-4796-AMS",
+    phoneNumber: "+1-134-120-9337",
+    contactEmail: "boris.hunter@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "12:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Boris is a passionate tour guide with extensive knowledge of Amsterdam and Netherlands. Specializing in Hidden Treasures, Boris provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.9,
+    reviewsCount: 28,
+    quote: "My goal is to help you fall in love with Amsterdam just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/24.jpg",
+    languages: ["Maltese", "Italian"],
+    experienceYears: 5,
+    certifications: ["Language Proficiency Certification"],
+    specialties: ["Hidden Treasures"],
+    specialTraining: [],
   }
 ];

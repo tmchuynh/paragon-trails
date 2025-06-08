@@ -2,318 +2,29 @@
 
 import { TourGuide } from "@/lib/interfaces/people/staff";
 
-export const nassaubahamascaribbeanGuides: TourGuide[] = [
+export const nassaubahamasbahamasGuides: TourGuide[] = [
   {
     id: "guide-nassau-1",
-    name: "Maya Lee",
+    name: "Ethan Martin",
     city: "Nassau",
     country: "Bahamas",
     state: "",
-    region: "Caribbean",
+    region: "Bahamas",
     isPopular: false,
-    bio: "Maya is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Art Galleries, Local Markets, Maya provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["West Coast USA", "Asia Pacific"],
-    tourTypes: ["Off-Road Tour", "Relocation Tour"],
-    maxGroupSize: 5,
-    licenseNumber: "LIC-3650-NAS",
-    phoneNumber: "+1-924-679-5106",
-    contactEmail: "maya.lee@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Maya is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Art Galleries, Local Markets, Maya provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.4,
-    reviewsCount: 87,
-    quote: "The best way to discover Nassau is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/56.jpg",
-    languages: ["Turkish"],
-    experienceYears: 13,
-    certifications: ["Sustainable Tourism Certificate", "Language Proficiency Certification"],
-    specialties: ["Art Galleries", "Local Markets"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-nassau-2",
-    name: "Ariana Payne",
-    city: "Nassau",
-    country: "Bahamas",
-    state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "Ariana is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Art Galleries, Ariana provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Africa"],
-    tourTypes: ["Group Tour", "Off-Road Tour", "LGBTQ+ Friendly Tour", "Food Tour", "Street Art Tour"],
-    maxGroupSize: 6,
-    licenseNumber: "LIC-7308-NAS",
-    phoneNumber: "+1-214-835-4748",
-    contactEmail: "ariana.payne@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Ariana is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Art Galleries, Ariana provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.9,
-    reviewsCount: 23,
-    quote: "Every corner of Nassau tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/18.jpg",
-    languages: ["Romanian", "Japanese"],
-    experienceYears: 15,
-    certifications: ["CPR & First Aid"],
-    specialties: ["Art Galleries"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-nassau-3",
-    name: "Genesis Spencer",
-    city: "Nassau",
-    country: "Bahamas",
-    state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "Genesis is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Public Transportation Navigation, Genesis provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Alaska", "East Coast Canada"],
-    tourTypes: ["Market Tour", "Farm Visit", "Cultural Tour", "Ghost Tour", "Underground Tour"],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-2640-NAS",
-    phoneNumber: "+1-919-198-2976",
-    contactEmail: "genesis.spencer@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Genesis is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Public Transportation Navigation, Genesis provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.6,
-    reviewsCount: 59,
-    quote: "In Nassau, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/2.jpg",
-    languages: ["Greek"],
-    experienceYears: 8,
-    certifications: ["Adventure Tourism Safety Certificate", "Food Safety Certification"],
-    specialties: ["Public Transportation Navigation"],
-    specialTraining: ["Local Flora & Fauna"],
-  },
-  {
-    id: "guide-nassau-4",
-    name: "William Chen",
-    city: "Nassau",
-    country: "Bahamas",
-    state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "William is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Local Craftsmanship, William provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["West Coast USA"],
-    tourTypes: ["Farm Visit", "Luxury Tour"],
-    maxGroupSize: 14,
-    licenseNumber: "LIC-9380-NAS",
-    phoneNumber: "+1-925-935-2005",
-    contactEmail: "william.chen@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "William is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Local Craftsmanship, William provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.4,
-    reviewsCount: 79,
-    quote: "In Nassau, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/66.jpg",
-    languages: ["Czech", "Thai", "Tagalog"],
-    experienceYears: 10,
-    certifications: ["Certified International Tour Manager"],
-    specialties: ["Local Craftsmanship"],
-    specialTraining: ["Religious Studies"],
-  },
-  {
-    id: "guide-nassau-5",
-    name: "Kyle Ellis",
-    city: "Nassau",
-    country: "Bahamas",
-    state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "Kyle is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Wine Tasting, Local Craftsmanship, Kyle provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Middle East"],
-    tourTypes: ["Luxury Tour", "Cultural Tour", "Self-Guided Tour", "Craft Workshop", "Historical Tour"],
+    bio: "Ethan is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in City History, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Red Sea"],
+    tourTypes: ["Boat Tour", "Historical Tour"],
     maxGroupSize: 7,
-    licenseNumber: "LIC-3737-NAS",
-    phoneNumber: "+1-897-340-9717",
-    contactEmail: "kyle.ellis@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Kyle is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Wine Tasting, Local Craftsmanship, Kyle provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.6,
-    reviewsCount: 19,
-    quote: "My goal is to help you fall in love with Nassau just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/4.jpg",
-    languages: ["Cantonese"],
-    experienceYears: 16,
-    certifications: ["Language Proficiency Certification", "Professional Tour Guide Association", "Food Safety Certification"],
-    specialties: ["Wine Tasting", "Local Craftsmanship"],
-    specialTraining: ["Cultural Sensitivity", "Historical Research Methods"],
-  },
-  {
-    id: "guide-nassau-6",
-    name: "Elena Payne",
-    city: "Nassau",
-    country: "Bahamas",
-    state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "Elena is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Family Activities, Elena provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["West Coast USA", "Middle East"],
-    tourTypes: ["Festival Tour", "Farm Visit", "Adventure Tour", "Self-Guided Tour"],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-7719-NAS",
-    phoneNumber: "+1-744-972-6506",
-    contactEmail: "elena.payne@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Elena is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Family Activities, Elena provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 83,
-    quote: "The best way to discover Nassau is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/65.jpg",
-    languages: ["Turkish"],
-    experienceYears: 9,
-    certifications: ["Certified International Tour Manager"],
-    specialties: ["Family Activities"],
-    specialTraining: ["Archaeological Conservation"],
-  },
-  {
-    id: "guide-nassau-7",
-    name: "Isabella Price",
-    city: "Nassau",
-    country: "Bahamas",
-    state: "",
-    region: "Caribbean",
-    isPopular: true,
-    bio: "Isabella is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Photography Spots, Indigenous Culture, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean", "East Coast USA"],
-    tourTypes: ["Craft Workshop", "Cultural Tour", "Ghost Tour", "Shopping Tour", "Bike Tour"],
-    maxGroupSize: 8,
-    licenseNumber: "LIC-7982-NAS",
-    phoneNumber: "+1-584-540-1981",
-    contactEmail: "isabella.price@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Isabella is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Photography Spots, Indigenous Culture, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.9,
-    reviewsCount: 13,
-    quote: "In Nassau, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/33.jpg",
-    languages: ["Mandarin", "Swedish"],
-    experienceYears: 7,
-    certifications: ["Certified International Tour Manager", "Language Proficiency Certification"],
-    specialties: ["Photography Spots", "Indigenous Culture"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-nassau-8",
-    name: "Dorothy Jackson",
-    city: "Nassau",
-    country: "Bahamas",
-    state: "",
-    region: "Caribbean",
-    isPopular: true,
-    bio: "Dorothy is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Photography Spots, Sustainable Tourism, Museums, Dorothy provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada", "Mediterranean"],
-    tourTypes: ["Brewery Tour", "Family-Friendly Tour", "Self-Guided Tour", "Eco Tour"],
-    maxGroupSize: 17,
-    licenseNumber: "LIC-5620-NAS",
-    phoneNumber: "+1-946-716-1182",
-    contactEmail: "dorothy.jackson@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Dorothy is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Photography Spots, Sustainable Tourism, Museums, Dorothy provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.7,
-    reviewsCount: 60,
-    quote: "My goal is to help you fall in love with Nassau just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/11.jpg",
-    languages: ["Romanian"],
-    experienceYears: 2,
-    certifications: ["Eco-Tourism Guide", "Sustainable Tourism Certificate", "Licensed City Guide"],
-    specialties: ["Photography Spots", "Sustainable Tourism", "Museums"],
-    specialTraining: ["Regional Geology"],
-  },
-  {
-    id: "guide-nassau-9",
-    name: "Scott White",
-    city: "Nassau",
-    country: "Bahamas",
-    state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "Scott is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Parks & Gardens, Film Locations, LGBTQ+ History, Hidden Gems, Scott provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada"],
-    tourTypes: ["Photography Tour", "Bike Tour"],
-    maxGroupSize: 8,
-    licenseNumber: "LIC-2486-NAS",
-    phoneNumber: "+1-719-993-5934",
-    contactEmail: "scott.white@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Scott is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Parks & Gardens, Film Locations, LGBTQ+ History, Hidden Gems, Scott provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.3,
-    reviewsCount: 25,
-    quote: "In Nassau, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/12.jpg",
-    languages: ["Dutch", "Spanish", "Japanese"],
-    experienceYears: 10,
-    certifications: ["Cultural Heritage Specialist"],
-    specialties: ["Parks & Gardens", "Film Locations", "LGBTQ+ History", "Hidden Gems"],
-    specialTraining: ["Wine Education", "Regional Cuisine"],
-  },
-  {
-    id: "guide-nassau-10",
-    name: "Harper Dunn",
-    city: "Nassau",
-    country: "Bahamas",
-    state: "",
-    region: "Caribbean",
-    isPopular: true,
-    bio: "Harper is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Adventure Sports, Family Activities, Public Transportation Navigation, Museums, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast USA"],
-    tourTypes: ["Helicopter Tour", "Family-Friendly Tour", "Religious Tour"],
-    maxGroupSize: 15,
-    licenseNumber: "LIC-9115-NAS",
-    phoneNumber: "+1-183-758-2111",
-    contactEmail: "harper.dunn@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Harper is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Adventure Sports, Family Activities, Public Transportation Navigation, Museums, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.9,
-    reviewsCount: 65,
-    quote: "In Nassau, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/38.jpg",
-    languages: ["Bulgarian", "Dutch", "Mandarin"],
-    experienceYears: 7,
-    certifications: ["Heritage Interpretation Certificate", "Licensed City Guide"],
-    specialties: ["Adventure Sports", "Family Activities", "Public Transportation Navigation", "Museums"],
-    specialTraining: ["Regional Geology", "Conflict Resolution"],
-  },
-  {
-    id: "guide-nassau-11",
-    name: "Bobby Nakamura",
-    city: "Nassau",
-    country: "Bahamas",
-    state: "",
-    region: "Caribbean",
-    isPopular: true,
-    bio: "Bobby is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Parks & Gardens, Bobby provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["West Coast USA", "South America"],
-    tourTypes: ["Romantic Tour", "Ghost Tour", "Market Tour", "Architecture Tour"],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-6764-NAS",
-    phoneNumber: "+1-805-414-1522",
-    contactEmail: "bobby.nakamura@paragontrails.com",
+    licenseNumber: "LIC-3279-NAS",
+    phoneNumber: "+1-893-984-8896",
+    contactEmail: "ethan.martin@paragontrails.com",
     available: [
       {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
+        day: "Friday",
         availableHours: [
           {
             from: "12:00 PM",
-            to: "02:00 PM",
+            to: "05:00 PM",
           }
         ],
       },
@@ -321,8 +32,205 @@ export const nassaubahamascaribbeanGuides: TourGuide[] = [
         day: "Saturday",
         availableHours: [
           {
+            from: "09:00 AM",
+            to: "12:00 PM",
+          },
+          {
             from: "12:00 PM",
-            to: "03:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Ethan is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in City History, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.9,
+    reviewsCount: 16,
+    quote: "Nassau isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/1.jpg",
+    languages: ["Irish"],
+    experienceYears: 10,
+    certifications: ["Regional Tourism Ambassador"],
+    specialties: ["City History"],
+    specialTraining: ["Accessibility Services"],
+  },
+  {
+    id: "guide-nassau-2",
+    name: "Nathan Wood",
+    city: "Nassau",
+    country: "Bahamas",
+    state: "",
+    region: "Bahamas",
+    isPopular: false,
+    bio: "Nathan is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Local Folklore, Family Activities, LGBTQ+ History, Nathan provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Mediterranean Sea", "Arabian Sea"],
+    tourTypes: ["Market Tour", "Museum Tour", "Luxury Tour", "Self-Guided Tour"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-6317-NAS",
+    phoneNumber: "+1-760-727-2915",
+    contactEmail: "nathan.wood@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "06:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "08:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "12:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Nathan is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Local Folklore, Family Activities, LGBTQ+ History, Nathan provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 52,
+    quote: "Every corner of Nassau tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/49.jpg",
+    languages: ["Lao"],
+    experienceYears: 11,
+    certifications: ["Certified International Tour Manager"],
+    specialties: ["Local Folklore", "Family Activities", "LGBTQ+ History"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-nassau-3",
+    name: "Kimberly Campbell",
+    city: "Nassau",
+    country: "Bahamas",
+    state: "",
+    region: "Bahamas",
+    isPopular: false,
+    bio: "Kimberly is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Scenic Views, Kimberly provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Bering Sea"],
+    tourTypes: ["Religious Tour", "Craft Workshop", "Photography Tour", "Eco Tour"],
+    maxGroupSize: 14,
+    licenseNumber: "LIC-1729-NAS",
+    phoneNumber: "+1-214-379-8958",
+    contactEmail: "kimberly.campbell@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "10:00 AM",
+          },
+          {
+            from: "11:00 AM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "12:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "11:00 AM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Kimberly is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Scenic Views, Kimberly provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.3,
+    reviewsCount: 12,
+    quote: "Nassau isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/51.jpg",
+    languages: ["Icelandic", "Indonesian"],
+    experienceYears: 14,
+    certifications: ["Certified Tour Guide"],
+    specialties: ["Scenic Views"],
+    specialTraining: ["Tour Planning"],
+  },
+  {
+    id: "guide-nassau-4",
+    name: "Oliver Kowalski",
+    city: "Nassau",
+    country: "Bahamas",
+    state: "",
+    region: "Bahamas",
+    isPopular: false,
+    bio: "Oliver is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Cultural Etiquette, Oliver provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Canadian Rockies", "Western Balkans"],
+    tourTypes: ["Brewery Tour", "Cultural Tour"],
+    maxGroupSize: 11,
+    licenseNumber: "LIC-8767-NAS",
+    phoneNumber: "+1-180-326-8117",
+    contactEmail: "oliver.kowalski@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "02:00 PM",
           }
         ],
       },
@@ -331,50 +239,208 @@ export const nassaubahamascaribbeanGuides: TourGuide[] = [
         availableHours: [
           {
             from: "02:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Bobby is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Parks & Gardens, Bobby provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.5,
-    reviewsCount: 71,
-    quote: "The best way to discover Nassau is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/16.jpg",
-    languages: ["Vietnamese", "Portuguese"],
-    experienceYears: 5,
-    certifications: ["Food Safety Certification"],
-    specialties: ["Parks & Gardens"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-nassau-12",
-    name: "Betty Wang",
-    city: "Nassau",
-    country: "Bahamas",
-    state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "Betty is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Family Activities, Art Galleries, Historical Landmarks, Betty provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Alaska", "South America"],
-    tourTypes: ["Helicopter Tour", "Photography Tour"],
-    maxGroupSize: 18,
-    licenseNumber: "LIC-8118-NAS",
-    phoneNumber: "+1-870-385-6434",
-    contactEmail: "betty.wang@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "06:00 PM",
+            to: "08:00 PM",
           }
         ],
       },
       {
         day: "Sunday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "05:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "05:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Oliver is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Cultural Etiquette, Oliver provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 45,
+    quote: "My goal is to help you fall in love with Nassau just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/1.jpg",
+    languages: ["Arabic", "Georgian"],
+    experienceYears: 11,
+    certifications: ["Language Proficiency Certification", "Local History Certification"],
+    specialties: ["Cultural Etiquette"],
+    specialTraining: ["Local Flora & Fauna", "Photography"],
+  },
+  {
+    id: "guide-nassau-5",
+    name: "Thabo Müller",
+    city: "Nassau",
+    country: "Bahamas",
+    state: "",
+    region: "Bahamas",
+    isPopular: false,
+    bio: "Thabo is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Adventure Activities, Museums, Local Fashion, Local Craftsmanship, Thabo provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa", "Northern Africa"],
+    tourTypes: ["Wine Tour", "LGBTQ+ Friendly Tour", "Scenic Tour", "Ghost Tour"],
+    maxGroupSize: 13,
+    licenseNumber: "LIC-8305-NAS",
+    phoneNumber: "+1-926-983-8644",
+    contactEmail: "thabo.müller@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "11:00 AM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "04:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "10:00 AM",
+          },
+          {
+            from: "10:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Thabo is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Adventure Activities, Museums, Local Fashion, Local Craftsmanship, Thabo provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4,
+    reviewsCount: 14,
+    quote: "My goal is to help you fall in love with Nassau just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/11.jpg",
+    languages: ["Dutch"],
+    experienceYears: 6,
+    certifications: ["Licensed City Guide"],
+    specialties: ["Adventure Activities", "Museums", "Local Fashion", "Local Craftsmanship"],
+    specialTraining: ["Accessibility Services"],
+  },
+  {
+    id: "guide-nassau-6",
+    name: "Alexa Griffin",
+    city: "Nassau",
+    country: "Bahamas",
+    state: "",
+    region: "Bahamas",
+    isPopular: true,
+    bio: "Alexa is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Historical Sites, Photography, Alexa provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa", "South Pacific Ocean"],
+    tourTypes: ["Family-Friendly Tour", "Scenic Tour", "Ghost Tour"],
+    maxGroupSize: 5,
+    licenseNumber: "LIC-2680-NAS",
+    phoneNumber: "+1-543-495-7796",
+    contactEmail: "alexa.griffin@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "07:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "12:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "09:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Alexa is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Historical Sites, Photography, Alexa provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4,
+    reviewsCount: 15,
+    quote: "The best way to discover Nassau is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/5.jpg",
+    languages: ["Telugu"],
+    experienceYears: 14,
+    certifications: ["CPR & First Aid"],
+    specialties: ["Historical Sites", "Photography"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-nassau-7",
+    name: "Isabella Nash",
+    city: "Nassau",
+    country: "Bahamas",
+    state: "",
+    region: "Bahamas",
+    isPopular: false,
+    bio: "Isabella is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Public Transportation Navigation, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Eastern Mediterranean", "Gobi Desert"],
+    tourTypes: ["Photography Tour", "Helicopter Tour"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-3709-NAS",
+    phoneNumber: "+1-758-275-2571",
+    contactEmail: "isabella.nash@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "08:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
         availableHours: [
           {
             from: "11:00 AM",
@@ -383,103 +449,34 @@ export const nassaubahamascaribbeanGuides: TourGuide[] = [
         ],
       },
       {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "12:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "08:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Betty is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Family Activities, Art Galleries, Historical Landmarks, Betty provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4,
-    reviewsCount: 78,
-    quote: "The best way to discover Nassau is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/21.jpg",
-    languages: ["Finnish", "Hindi", "Cantonese"],
-    experienceYears: 8,
-    certifications: ["Eco-Tourism Guide", "Cultural Heritage Specialist", "Regional Tourism Ambassador"],
-    specialties: ["Family Activities", "Art Galleries", "Historical Landmarks"],
-    specialTraining: ["Local Transit Systems", "Cultural Sensitivity"],
-  },
-  {
-    id: "guide-nassau-13",
-    name: "Miguel Thomas",
-    city: "Nassau",
-    country: "Bahamas",
-    state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "Miguel is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Parks & Gardens, Local Markets, Adventure Sports, Miguel provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Northern Europe", "Alaska"],
-    tourTypes: ["Eco Tour", "Historical Tour"],
-    maxGroupSize: 19,
-    licenseNumber: "LIC-6742-NAS",
-    phoneNumber: "+1-819-431-6335",
-    contactEmail: "miguel.thomas@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "03:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "12:00 PM",
-          },
-          {
-            from: "09:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
+        day: "Wednesday",
         availableHours: [
           {
             from: "11:00 AM",
-            to: "03:00 PM",
+            to: "01:00 PM",
           }
         ],
       },
       {
-        day: "Friday",
+        day: "Thursday",
         availableHours: [
           {
-            from: "09:00 AM",
-            to: "01:00 PM",
+            from: "11:00 AM",
+            to: "02:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Miguel is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Parks & Gardens, Local Markets, Adventure Sports, Miguel provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.1,
-    reviewsCount: 89,
-    quote: "Every corner of Nassau tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/0.jpg",
-    languages: ["Swahili", "Mandarin"],
-    experienceYears: 9,
-    certifications: ["Language Proficiency Certification", "Wilderness First Responder"],
-    specialties: ["Parks & Gardens", "Local Markets", "Adventure Sports"],
-    specialTraining: ["Cultural Sensitivity", "Regional Geology"],
+    description: "Isabella is a passionate tour guide with extensive knowledge of Nassau and Bahamas. Specializing in Public Transportation Navigation, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.4,
+    reviewsCount: 44,
+    quote: "My goal is to help you fall in love with Nassau just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/8.jpg",
+    languages: ["Lao", "Sinhala", "Somali"],
+    experienceYears: 11,
+    certifications: ["Certified Tour Guide", "Language Proficiency Certification"],
+    specialties: ["Public Transportation Navigation"],
+    specialTraining: ["Cultural Heritage Preservation", "Regional Cuisine"],
   }
 ];

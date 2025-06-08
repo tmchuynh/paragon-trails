@@ -2,194 +2,52 @@
 
 import { TourGuide } from "@/lib/interfaces/people/staff";
 
-export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
+export const sanFranciscounitedStatescaliforniaGuides: TourGuide[] = [
   {
     id: "guide-san-francisco-1",
-    name: "Tyler Spencer",
+    name: "Laura Fisher",
     city: "San Francisco",
     country: "United States",
     state: "",
-    region: "West Coast USA",
+    region: "California",
     isPopular: true,
-    bio: "Tyler is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Music Scene, Sustainable Tourism, Hidden Gems, Tyler provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["South America", "Alaska"],
-    tourTypes: ["Underground Tour", "Cultural Tour", "LGBTQ+ Friendly Tour"],
-    maxGroupSize: 8,
-    licenseNumber: "LIC-5874-SAN",
-    phoneNumber: "+1-756-617-7070",
-    contactEmail: "tyler.spencer@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Tyler is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Music Scene, Sustainable Tourism, Hidden Gems, Tyler provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 81,
-    quote: "My goal is to help you fall in love with San Francisco just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/34.jpg",
-    languages: ["German"],
-    experienceYears: 5,
-    certifications: ["Urban Navigation Specialist", "Regional Tourism Ambassador", "Eco-Tourism Guide"],
-    specialties: ["Music Scene", "Sustainable Tourism", "Hidden Gems"],
-    specialTraining: ["Accessibility Services", "Mountain Survival"],
-  },
-  {
-    id: "guide-san-francisco-2",
-    name: "Carlos Montgomery",
-    city: "San Francisco",
-    country: "United States",
-    state: "",
-    region: "West Coast USA",
-    isPopular: false,
-    bio: "Carlos is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Indigenous Culture, Local Cuisine, Carlos provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Alaska", "East Coast Canada"],
-    tourTypes: ["Historical Tour", "Relocation Tour"],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-4702-SAN",
-    phoneNumber: "+1-446-428-1378",
-    contactEmail: "carlos.montgomery@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Carlos is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Indigenous Culture, Local Cuisine, Carlos provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.1,
-    reviewsCount: 5,
-    quote: "My goal is to help you fall in love with San Francisco just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/61.jpg",
-    languages: ["German", "Serbian", "Mandarin"],
-    experienceYears: 9,
-    certifications: ["Sustainable Tourism Certificate"],
-    specialties: ["Indigenous Culture", "Local Cuisine"],
-    specialTraining: ["Marine Biology", "Urban Planning"],
-  },
-  {
-    id: "guide-san-francisco-3",
-    name: "Jessica Graham",
-    city: "San Francisco",
-    country: "United States",
-    state: "",
-    region: "West Coast USA",
-    isPopular: true,
-    bio: "Jessica is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Local Craftsmanship, Art Galleries, Wine Tasting, Public Transportation Navigation, Jessica provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["South America", "Asia Pacific"],
-    tourTypes: ["Ghost Tour", "Cooking Class", "Romantic Tour", "Boat Tour"],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-2797-SAN",
-    phoneNumber: "+1-804-570-5100",
-    contactEmail: "jessica.graham@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Jessica is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Local Craftsmanship, Art Galleries, Wine Tasting, Public Transportation Navigation, Jessica provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.6,
-    reviewsCount: 8,
-    quote: "The best way to discover San Francisco is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/39.jpg",
-    languages: ["Mandarin", "Czech", "German"],
-    experienceYears: 7,
-    certifications: ["Licensed City Guide"],
-    specialties: ["Local Craftsmanship", "Art Galleries", "Wine Tasting", "Public Transportation Navigation"],
-    specialTraining: ["Regional Geology", "Wine Education"],
-  },
-  {
-    id: "guide-san-francisco-4",
-    name: "Patricia Foster",
-    city: "San Francisco",
-    country: "United States",
-    state: "",
-    region: "West Coast USA",
-    isPopular: false,
-    bio: "Patricia is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Parks & Gardens, Local Craftsmanship, Patricia provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Asia Pacific", "West Coast USA"],
-    tourTypes: ["Cruise Excursion", "Private Tour", "Photography Tour"],
-    maxGroupSize: 13,
-    licenseNumber: "LIC-7268-SAN",
-    phoneNumber: "+1-365-660-4315",
-    contactEmail: "patricia.foster@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Patricia is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Parks & Gardens, Local Craftsmanship, Patricia provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.1,
-    reviewsCount: 85,
-    quote: "San Francisco isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/78.jpg",
-    languages: ["Spanish", "Swahili", "Indonesian"],
-    experienceYears: 15,
-    certifications: ["Cultural Heritage Specialist", "Certified International Tour Manager"],
-    specialties: ["Parks & Gardens", "Local Craftsmanship"],
-    specialTraining: ["Public Speaking", "Regional Cuisine"],
-  },
-  {
-    id: "guide-san-francisco-5",
-    name: "Jesse Montgomery",
-    city: "San Francisco",
-    country: "United States",
-    state: "",
-    region: "West Coast USA",
-    isPopular: false,
-    bio: "Jesse is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Historical Landmarks, Urban Legends, Jesse provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean"],
-    tourTypes: ["Underground Tour", "Group Tour", "Helicopter Tour"],
-    maxGroupSize: 11,
-    licenseNumber: "LIC-1641-SAN",
-    phoneNumber: "+1-824-265-9834",
-    contactEmail: "jesse.montgomery@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Jesse is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Historical Landmarks, Urban Legends, Jesse provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 5,
-    reviewsCount: 85,
-    quote: "My goal is to help you fall in love with San Francisco just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/66.jpg",
-    languages: ["Cantonese", "Indonesian"],
-    experienceYears: 10,
-    certifications: ["Heritage Interpretation Certificate", "Cultural Heritage Specialist"],
-    specialties: ["Historical Landmarks", "Urban Legends"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-san-francisco-6",
-    name: "Arthur Bennett",
-    city: "San Francisco",
-    country: "United States",
-    state: "",
-    region: "West Coast USA",
-    isPopular: false,
-    bio: "Arthur is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Nightlife, Music Scene, Sustainable Tourism, Film Locations, Arthur provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Africa", "South America"],
-    tourTypes: ["Walking Tour", "Wildlife Safari"],
-    maxGroupSize: 5,
-    licenseNumber: "LIC-4695-SAN",
-    phoneNumber: "+1-804-295-4376",
-    contactEmail: "arthur.bennett@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Arthur is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Nightlife, Music Scene, Sustainable Tourism, Film Locations, Arthur provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 40,
-    quote: "The best way to discover San Francisco is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/53.jpg",
-    languages: ["Arabic"],
-    experienceYears: 15,
-    certifications: ["Urban Navigation Specialist"],
-    specialties: ["Nightlife", "Music Scene", "Sustainable Tourism", "Film Locations"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-san-francisco-7",
-    name: "Hannah Davis",
-    city: "San Francisco",
-    country: "United States",
-    state: "",
-    region: "West Coast USA",
-    isPopular: false,
-    bio: "Hannah is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Indigenous Culture, Wildlife, Parks & Gardens, Hannah provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Northern Europe", "Caribbean"],
-    tourTypes: ["Underground Tour", "Craft Workshop", "Group Tour", "Audio Tour"],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-9184-SAN",
-    phoneNumber: "+1-666-964-3931",
-    contactEmail: "hannah.davis@paragontrails.com",
+    bio: "Laura is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Cultural Experiences, Laura provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Northern Africa"],
+    tourTypes: ["Walking Tour", "Ghost Tour", "LGBTQ+ Friendly Tour", "Self-Guided Tour"],
+    maxGroupSize: 14,
+    licenseNumber: "LIC-8584-SAN",
+    phoneNumber: "+1-773-426-2056",
+    contactEmail: "laura.fisher@paragontrails.com",
     available: [
       {
-        day: "Tuesday",
+        day: "Wednesday",
         availableHours: [
+          {
+            from: "11:00 AM",
+            to: "02:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "06:00 PM",
+          },
           {
             from: "11:00 AM",
             to: "04:00 PM",
@@ -200,133 +58,99 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
         day: "Friday",
         availableHours: [
           {
-            from: "03:00 PM",
-            to: "09:00 PM",
-          },
-          {
-            from: "10:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "07:00 PM",
+            from: "01:00 PM",
+            to: "06:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Hannah is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Indigenous Culture, Wildlife, Parks & Gardens, Hannah provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 89,
-    quote: "Every corner of San Francisco tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/19.jpg",
-    languages: ["Arabic", "Turkish", "Malay"],
-    experienceYears: 7,
-    certifications: ["Urban Navigation Specialist"],
-    specialties: ["Indigenous Culture", "Wildlife", "Parks & Gardens"],
-    specialTraining: ["Cultural Sensitivity"],
+    description: "Laura is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Cultural Experiences, Laura provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 46,
+    quote: "In San Francisco, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/65.jpg",
+    languages: ["Nepali", "Punjabi"],
+    experienceYears: 16,
+    certifications: ["Language Proficiency Certification", "Certified Tour Guide"],
+    specialties: ["Cultural Experiences"],
+    specialTraining: ["Local Geography", "Adventure Safety"],
   },
   {
-    id: "guide-san-francisco-8",
-    name: "Victor Miller",
+    id: "guide-san-francisco-2",
+    name: "Sophia Keller",
     city: "San Francisco",
     country: "United States",
     state: "",
-    region: "West Coast USA",
-    isPopular: false,
-    bio: "Victor is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Local Cuisine, Hidden Gems, Victor provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Asia Pacific", "Alaska"],
-    tourTypes: ["Cultural Tour", "Food Tour"],
-    maxGroupSize: 15,
-    licenseNumber: "LIC-6297-SAN",
-    phoneNumber: "+1-833-333-2060",
-    contactEmail: "victor.miller@paragontrails.com",
+    region: "California",
+    isPopular: true,
+    bio: "Sophia is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Local Legends, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Southern USA"],
+    tourTypes: ["Historical Tour", "Craft Workshop", "Architecture Tour"],
+    maxGroupSize: 17,
+    licenseNumber: "LIC-6490-SAN",
+    phoneNumber: "+1-649-597-4422",
+    contactEmail: "sophia.keller@paragontrails.com",
     available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "04:00 PM",
-          }
-        ],
-      },
       {
         day: "Saturday",
         availableHours: [
           {
             from: "03:00 PM",
             to: "05:00 PM",
-          },
-          {
-            from: "02:00 PM",
-            to: "07:00 PM",
           }
         ],
       },
       {
-        day: "Sunday",
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "08:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
         availableHours: [
           {
             from: "02:00 PM",
-            to: "08:00 PM",
-          },
-          {
-            from: "08:00 AM",
-            to: "11:00 AM",
+            to: "05:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Victor is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Local Cuisine, Hidden Gems, Victor provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.4,
-    reviewsCount: 7,
-    quote: "The best way to discover San Francisco is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/83.jpg",
-    languages: ["Swahili", "Mandarin", "Portuguese"],
-    experienceYears: 14,
-    certifications: ["Food Safety Certification", "Wilderness First Responder"],
-    specialties: ["Local Cuisine", "Hidden Gems"],
-    specialTraining: ["Desert Navigation"],
+    description: "Sophia is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Local Legends, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.3,
+    reviewsCount: 93,
+    quote: "In San Francisco, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/27.jpg",
+    languages: ["Turkmen"],
+    experienceYears: 2,
+    certifications: ["Wilderness First Responder", "Certified Tour Guide", "Professional Tour Guide Association"],
+    specialties: ["Local Legends"],
+    specialTraining: ["Conflict Resolution"],
   },
   {
-    id: "guide-san-francisco-9",
-    name: "Brian Foster",
+    id: "guide-san-francisco-3",
+    name: "Ali Jennings",
     city: "San Francisco",
     country: "United States",
     state: "",
-    region: "West Coast USA",
-    isPopular: false,
-    bio: "Brian is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Art Galleries, Brian provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Middle East", "Mediterranean"],
-    tourTypes: ["Festival Tour", "Photography Tour", "LGBTQ+ Friendly Tour", "Street Art Tour", "Historical Tour"],
-    maxGroupSize: 15,
-    licenseNumber: "LIC-3852-SAN",
-    phoneNumber: "+1-368-109-3167",
-    contactEmail: "brian.foster@paragontrails.com",
+    region: "California",
+    isPopular: true,
+    bio: "Ali is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in City History, Indigenous Culture, Parks & Gardens, Art Walks, Ali provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Prairies"],
+    tourTypes: ["Religious Tour", "Boat Tour", "Historical Tour"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-2685-SAN",
+    phoneNumber: "+1-459-484-4902",
+    contactEmail: "ali.jennings@paragontrails.com",
     available: [
       {
-        day: "Thursday",
+        day: "Wednesday",
         availableHours: [
-          {
-            from: "11:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "04:00 PM",
-          },
           {
             from: "09:00 AM",
             to: "02:00 PM",
@@ -337,26 +161,283 @@ export const sanFranciscounitedStateswestCoastUsaGuides: TourGuide[] = [
         day: "Saturday",
         availableHours: [
           {
-            from: "02:00 PM",
+            from: "01:00 PM",
             to: "04:00 PM",
           },
           {
             from: "08:00 AM",
-            to: "01:00 PM",
+            to: "10:00 AM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "04:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Brian is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Art Galleries, Brian provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.2,
-    reviewsCount: 49,
+    description: "Ali is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in City History, Indigenous Culture, Parks & Gardens, Art Walks, Ali provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.8,
+    reviewsCount: 79,
+    quote: "The best way to discover San Francisco is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/13.jpg",
+    languages: ["Lao", "Arabic"],
+    experienceYears: 16,
+    certifications: ["Regional Tourism Ambassador", "Eco-Tourism Guide"],
+    specialties: ["City History", "Indigenous Culture", "Parks & Gardens", "Art Walks"],
+    specialTraining: ["Photography", "Cultural Sensitivity"],
+  },
+  {
+    id: "guide-san-francisco-4",
+    name: "Maria Foster",
+    city: "San Francisco",
+    country: "United States",
+    state: "",
+    region: "California",
+    isPopular: false,
+    bio: "Maria is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Historical Tours, Local Folklore, Hidden Treasures, Maria provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Atlantic Coast USA", "Scandinavia"],
+    tourTypes: ["Wine Tour", "Farm Visit", "Market Tour", "Group Tour"],
+    maxGroupSize: 14,
+    licenseNumber: "LIC-8327-SAN",
+    phoneNumber: "+1-342-962-1013",
+    contactEmail: "maria.foster@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "02:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "03:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Maria is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Historical Tours, Local Folklore, Hidden Treasures, Maria provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.9,
+    reviewsCount: 41,
+    quote: "Every corner of San Francisco tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/41.jpg",
+    languages: ["Basque", "Ukrainian", "Galician"],
+    experienceYears: 14,
+    certifications: ["CPR & First Aid"],
+    specialties: ["Historical Tours", "Local Folklore", "Hidden Treasures"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-san-francisco-5",
+    name: "Joseph Hayes",
+    city: "San Francisco",
+    country: "United States",
+    state: "",
+    region: "California",
+    isPopular: false,
+    bio: "Joseph is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Local Festivals, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South Pacific"],
+    tourTypes: ["Group Tour", "Religious Tour", "Ghost Tour"],
+    maxGroupSize: 17,
+    licenseNumber: "LIC-3563-SAN",
+    phoneNumber: "+1-260-684-4937",
+    contactEmail: "joseph.hayes@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "02:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "02:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Joseph is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Local Festivals, Joseph provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.3,
+    reviewsCount: 83,
     quote: "San Francisco isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/men/21.jpg",
-    languages: ["Swedish"],
-    experienceYears: 15,
-    certifications: ["Urban Navigation Specialist", "Language Proficiency Certification", "Sustainable Tourism Certificate"],
-    specialties: ["Art Galleries"],
+    profileImage: "https://randomuser.me/api/portraits/men/68.jpg",
+    languages: ["Serbian", "Pashto", "Bulgarian"],
+    experienceYears: 5,
+    certifications: ["Certified Eco-Tourism Guide", "Professional Tour Guide Association"],
+    specialties: ["Local Festivals"],
+    specialTraining: ["Cultural Immersion"],
+  },
+  {
+    id: "guide-san-francisco-6",
+    name: "George Gonzalez",
+    city: "San Francisco",
+    country: "United States",
+    state: "",
+    region: "California",
+    isPopular: true,
+    bio: "George is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Cultural Experiences, Adventure Sports, Local Music, George provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Red Sea", "Southwest USA"],
+    tourTypes: ["Helicopter Tour", "Shopping Tour", "Family-Friendly Tour"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-7688-SAN",
+    phoneNumber: "+1-741-498-6974",
+    contactEmail: "george.gonzalez@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "05:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "George is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Cultural Experiences, Adventure Sports, Local Music, George provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.3,
+    reviewsCount: 47,
+    quote: "Every corner of San Francisco tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/27.jpg",
+    languages: ["Vietnamese"],
+    experienceYears: 14,
+    certifications: ["Cultural Sensitivity Training"],
+    specialties: ["Cultural Experiences", "Adventure Sports", "Local Music"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-san-francisco-7",
+    name: "Kyle Dixon",
+    city: "San Francisco",
+    country: "United States",
+    state: "",
+    region: "California",
+    isPopular: true,
+    bio: "Kyle is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Nightlife, Local Markets, City History, Shopping Districts, Kyle provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Antarctica", "East China Sea"],
+    tourTypes: ["Cooking Class", "Nature Tour", "Wildlife Safari", "Underground Tour", "LGBTQ+ Friendly Tour"],
+    maxGroupSize: 9,
+    licenseNumber: "LIC-2077-SAN",
+    phoneNumber: "+1-974-709-1782",
+    contactEmail: "kyle.dixon@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "04:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Kyle is a passionate tour guide with extensive knowledge of San Francisco and United States. Specializing in Nightlife, Local Markets, City History, Shopping Districts, Kyle provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.8,
+    reviewsCount: 70,
+    quote: "In San Francisco, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/17.jpg",
+    languages: ["Sinhala", "Welsh"],
+    experienceYears: 9,
+    certifications: ["Local History Certification", "Adventure Tourism Certification", "Certified Local Guide"],
+    specialties: ["Nightlife", "Local Markets", "City History", "Shopping Districts"],
     specialTraining: [],
   }
 ];

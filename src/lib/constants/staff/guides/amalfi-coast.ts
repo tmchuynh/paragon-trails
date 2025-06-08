@@ -2,367 +2,29 @@
 
 import { TourGuide } from "@/lib/interfaces/people/staff";
 
-export const amalfiCoastitalymediterraneanGuides: TourGuide[] = [
+export const amalfiCoastitalysouthernItalyGuides: TourGuide[] = [
   {
     id: "guide-amalfi-coast-1",
-    name: "Allison Clark",
+    name: "Ralph Morgan",
     city: "Amalfi Coast",
     country: "Italy",
     state: "",
-    region: "Mediterranean",
+    region: "Southern Italy",
     isPopular: false,
-    bio: "Allison is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Film Locations, Nightlife, Family Activities, Allison provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Asia Pacific"],
-    tourTypes: ["Market Tour", "Scenic Tour", "Family-Friendly Tour", "Historical Tour"],
-    maxGroupSize: 13,
-    licenseNumber: "LIC-8388-AMA",
-    phoneNumber: "+1-667-464-7871",
-    contactEmail: "allison.clark@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Allison is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Film Locations, Nightlife, Family Activities, Allison provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.6,
-    reviewsCount: 20,
-    quote: "Amalfi Coast isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/12.jpg",
-    languages: ["Romanian"],
-    experienceYears: 2,
-    certifications: ["Language Proficiency Certification", "CPR & First Aid"],
-    specialties: ["Film Locations", "Nightlife", "Family Activities"],
-    specialTraining: ["Religious Studies", "Marine Biology"],
-  },
-  {
-    id: "guide-amalfi-coast-2",
-    name: "Boris Jennings",
-    city: "Amalfi Coast",
-    country: "Italy",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Boris is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Art Galleries, Parks & Gardens, Wildlife, Boris provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Alaska", "East Coast USA"],
-    tourTypes: ["Market Tour", "Boat Tour", "Eco Tour", "Adventure Tour"],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-7946-AMA",
-    phoneNumber: "+1-200-869-4547",
-    contactEmail: "boris.jennings@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Boris is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Art Galleries, Parks & Gardens, Wildlife, Boris provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.4,
-    reviewsCount: 22,
-    quote: "Every corner of Amalfi Coast tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/28.jpg",
-    languages: ["Czech", "Hungarian"],
-    experienceYears: 15,
-    certifications: ["Certified International Tour Manager", "Local History Certification"],
-    specialties: ["Art Galleries", "Parks & Gardens", "Wildlife"],
-    specialTraining: ["Conflict Resolution", "Cultural Sensitivity"],
-  },
-  {
-    id: "guide-amalfi-coast-3",
-    name: "Matthew Palmer",
-    city: "Amalfi Coast",
-    country: "Italy",
-    state: "",
-    region: "Mediterranean",
-    isPopular: true,
-    bio: "Matthew is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Urban Legends, Historical Landmarks, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Middle East"],
-    tourTypes: ["Helicopter Tour", "Wine Tour", "Cultural Tour", "Craft Workshop"],
-    maxGroupSize: 19,
-    licenseNumber: "LIC-1190-AMA",
-    phoneNumber: "+1-210-211-4520",
-    contactEmail: "matthew.palmer@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Matthew is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Urban Legends, Historical Landmarks, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.5,
-    reviewsCount: 101,
-    quote: "Amalfi Coast isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/men/9.jpg",
-    languages: ["Hungarian", "Italian"],
-    experienceYears: 5,
-    certifications: ["Sustainable Tourism Certificate", "Regional Tourism Ambassador", "Cultural Heritage Specialist"],
-    specialties: ["Urban Legends", "Historical Landmarks"],
-    specialTraining: ["Regional Cuisine", "Accessibility Services"],
-  },
-  {
-    id: "guide-amalfi-coast-4",
-    name: "Alice Jennings",
-    city: "Amalfi Coast",
-    country: "Italy",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Alice is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Music Scene, Art Galleries, Alice provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean", "Africa"],
-    tourTypes: ["Shopping Tour", "Walking Tour"],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-7728-AMA",
-    phoneNumber: "+1-391-837-8996",
-    contactEmail: "alice.jennings@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Alice is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Music Scene, Art Galleries, Alice provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.2,
-    reviewsCount: 89,
-    quote: "Every corner of Amalfi Coast tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/65.jpg",
-    languages: ["Thai", "Hebrew", "Bulgarian"],
-    experienceYears: 5,
-    certifications: ["Licensed City Guide", "Local History Certification", "Wilderness First Responder"],
-    specialties: ["Music Scene", "Art Galleries"],
-    specialTraining: ["Emergency Response"],
-  },
-  {
-    id: "guide-amalfi-coast-5",
-    name: "Rachel Edwards",
-    city: "Amalfi Coast",
-    country: "Italy",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Rachel is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Music Scene, Hidden Gems, Rachel provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean", "Middle East"],
-    tourTypes: ["Scenic Tour", "Festival Tour", "Photography Tour", "Cruise Excursion"],
-    maxGroupSize: 18,
-    licenseNumber: "LIC-2455-AMA",
-    phoneNumber: "+1-961-492-4710",
-    contactEmail: "rachel.edwards@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Rachel is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Music Scene, Hidden Gems, Rachel provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.6,
-    reviewsCount: 28,
-    quote: "Every corner of Amalfi Coast tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/38.jpg",
-    languages: ["Norwegian", "Malay"],
-    experienceYears: 11,
-    certifications: ["Certified International Tour Manager", "Regional Tourism Ambassador"],
-    specialties: ["Music Scene", "Hidden Gems"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-amalfi-coast-6",
-    name: "Caroline Collins",
-    city: "Amalfi Coast",
-    country: "Italy",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Caroline is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Nightlife, Music Scene, Caroline provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean"],
-    tourTypes: ["Cultural Tour", "Romantic Tour", "Family-Friendly Tour", "Accessible Tour", "Audio Tour"],
+    bio: "Ralph is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Local Wildlife, Art Galleries, Local History, Ralph provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caucasus Region"],
+    tourTypes: ["Walking Tour", "Farm Visit", "Street Art Tour", "Adventure Tour", "Helicopter Tour"],
     maxGroupSize: 12,
-    licenseNumber: "LIC-8427-AMA",
-    phoneNumber: "+1-803-877-8135",
-    contactEmail: "caroline.collins@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Caroline is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Nightlife, Music Scene, Caroline provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.1,
-    reviewsCount: 18,
-    quote: "My goal is to help you fall in love with Amalfi Coast just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/49.jpg",
-    languages: ["Swahili", "Serbian", "Russian"],
-    experienceYears: 12,
-    certifications: ["Local History Certification", "Sustainable Tourism Certificate"],
-    specialties: ["Nightlife", "Music Scene"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-amalfi-coast-7",
-    name: "Kimberly Griffin",
-    city: "Amalfi Coast",
-    country: "Italy",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Kimberly is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Wildlife, Parks & Gardens, Historical Landmarks, LGBTQ+ History, Kimberly provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada", "Middle East"],
-    tourTypes: ["Photography Tour", "Festival Tour", "Scenic Tour", "Family-Friendly Tour"],
-    maxGroupSize: 9,
-    licenseNumber: "LIC-1330-AMA",
-    phoneNumber: "+1-659-438-8114",
-    contactEmail: "kimberly.griffin@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Kimberly is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Wildlife, Parks & Gardens, Historical Landmarks, LGBTQ+ History, Kimberly provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 9,
-    quote: "Amalfi Coast isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/46.jpg",
-    languages: ["Tagalog", "Korean"],
-    experienceYears: 9,
-    certifications: ["Language Proficiency Certification", "Regional Tourism Ambassador"],
-    specialties: ["Wildlife", "Parks & Gardens", "Historical Landmarks", "LGBTQ+ History"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-amalfi-coast-8",
-    name: "Ali Johnson",
-    city: "Amalfi Coast",
-    country: "Italy",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Ali is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Wildlife, Music Scene, Sustainable Tourism, Ali provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["West Coast USA"],
-    tourTypes: ["Craft Workshop", "Cooking Class", "Eco Tour", "Cruise Excursion", "Helicopter Tour"],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-4063-AMA",
-    phoneNumber: "+1-885-190-3792",
-    contactEmail: "ali.johnson@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Ali is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Wildlife, Music Scene, Sustainable Tourism, Ali provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.7,
-    reviewsCount: 43,
-    quote: "In Amalfi Coast, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/38.jpg",
-    languages: ["Vietnamese"],
-    experienceYears: 2,
-    certifications: ["Adventure Tourism Safety Certificate", "Regional Tourism Ambassador", "Local History Certification"],
-    specialties: ["Wildlife", "Music Scene", "Sustainable Tourism"],
-    specialTraining: ["Marine Biology", "Religious Studies"],
-  },
-  {
-    id: "guide-amalfi-coast-9",
-    name: "Eric Dean",
-    city: "Amalfi Coast",
-    country: "Italy",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Eric is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Street Food, Urban Legends, LGBTQ+ History, Local Cuisine, Eric provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada"],
-    tourTypes: ["Museum Tour", "Festival Tour"],
-    maxGroupSize: 15,
-    licenseNumber: "LIC-1146-AMA",
-    phoneNumber: "+1-380-625-3943",
-    contactEmail: "eric.dean@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Eric is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Street Food, Urban Legends, LGBTQ+ History, Local Cuisine, Eric provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.9,
-    reviewsCount: 93,
-    quote: "Every corner of Amalfi Coast tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/8.jpg",
-    languages: ["Turkish", "Portuguese", "Hebrew"],
-    experienceYears: 8,
-    certifications: ["Sustainable Tourism Certificate", "Regional Tourism Ambassador"],
-    specialties: ["Street Food", "Urban Legends", "LGBTQ+ History", "Local Cuisine"],
-    specialTraining: ["Regional Cuisine", "Cultural Sensitivity"],
-  },
-  {
-    id: "guide-amalfi-coast-10",
-    name: "Mia Baker",
-    city: "Amalfi Coast",
-    country: "Italy",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Mia is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Local Cuisine, Art Galleries, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada", "West Coast USA"],
-    tourTypes: ["Off-Road Tour", "Farm Visit"],
-    maxGroupSize: 10,
-    licenseNumber: "LIC-8347-AMA",
-    phoneNumber: "+1-916-185-2684",
-    contactEmail: "mia.baker@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Mia is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Local Cuisine, Art Galleries, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.8,
-    reviewsCount: 25,
-    quote: "Amalfi Coast isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/57.jpg",
-    languages: ["Swahili"],
-    experienceYears: 16,
-    certifications: ["CPR & First Aid", "Eco-Tourism Guide"],
-    specialties: ["Local Cuisine", "Art Galleries"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-amalfi-coast-11",
-    name: "Alan Sutton",
-    city: "Amalfi Coast",
-    country: "Italy",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Alan is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Religious Sites, Alan provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast USA"],
-    tourTypes: ["Shopping Tour", "Group Tour", "Family-Friendly Tour", "Audio Tour"],
-    maxGroupSize: 14,
-    licenseNumber: "LIC-6573-AMA",
-    phoneNumber: "+1-348-901-2012",
-    contactEmail: "alan.sutton@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Alan is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Religious Sites, Alan provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.3,
-    reviewsCount: 100,
-    quote: "Every corner of Amalfi Coast tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/18.jpg",
-    languages: ["French", "Hindi", "Indonesian"],
-    experienceYears: 3,
-    certifications: ["Regional Tourism Ambassador", "CPR & First Aid"],
-    specialties: ["Religious Sites"],
-    specialTraining: ["Local Flora & Fauna"],
-  },
-  {
-    id: "guide-amalfi-coast-12",
-    name: "Lucas Jackson",
-    city: "Amalfi Coast",
-    country: "Italy",
-    state: "",
-    region: "Mediterranean",
-    isPopular: true,
-    bio: "Lucas is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Nightlife, Family Activities, Wine Tasting, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Alaska"],
-    tourTypes: ["Private Tour", "LGBTQ+ Friendly Tour"],
-    maxGroupSize: 10,
-    licenseNumber: "LIC-9689-AMA",
-    phoneNumber: "+1-657-181-4103",
-    contactEmail: "lucas.jackson@paragontrails.com",
+    licenseNumber: "LIC-1216-AMA",
+    phoneNumber: "+1-363-117-8658",
+    contactEmail: "ralph.morgan@paragontrails.com",
     available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "04:00 PM",
-          },
-          {
-            from: "12:00 PM",
-            to: "04:00 PM",
-          }
-        ],
-      },
       {
         day: "Sunday",
         availableHours: [
           {
-            from: "09:00 AM",
-            to: "03:00 PM",
-          },
-          {
-            from: "01:00 PM",
-            to: "07:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "05:00 PM",
-          },
-          {
-            from: "01:00 PM",
-            to: "03:00 PM",
+            from: "11:00 AM",
+            to: "02:00 PM",
           }
         ],
       },
@@ -370,119 +32,26 @@ export const amalfiCoastitalymediterraneanGuides: TourGuide[] = [
         day: "Wednesday",
         availableHours: [
           {
-            from: "11:00 AM",
-            to: "03:00 PM",
+            from: "08:00 AM",
+            to: "10:00 AM",
           }
         ],
-      }
-    ],
-    isCertified: true,
-    description: "Lucas is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Nightlife, Family Activities, Wine Tasting, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.7,
-    reviewsCount: 7,
-    quote: "My goal is to help you fall in love with Amalfi Coast just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/73.jpg",
-    languages: ["Mandarin", "Hindi", "Dutch"],
-    experienceYears: 4,
-    certifications: ["Certified International Tour Manager", "Wilderness First Responder"],
-    specialties: ["Nightlife", "Family Activities", "Wine Tasting"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-amalfi-coast-13",
-    name: "Kyle Fletcher",
-    city: "Amalfi Coast",
-    country: "Italy",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Kyle is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Photography Spots, Kyle provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada"],
-    tourTypes: ["Romantic Tour", "Eco Tour"],
-    maxGroupSize: 6,
-    licenseNumber: "LIC-3226-AMA",
-    phoneNumber: "+1-844-425-8739",
-    contactEmail: "kyle.fletcher@paragontrails.com",
-    available: [
+      },
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "11:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "02:00 PM",
-          },
-          {
-            from: "02:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "03:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "05:00 PM",
-          },
-          {
             from: "01:00 PM",
-            to: "04:00 PM",
+            to: "05:00 PM",
           }
         ],
-      }
-    ],
-    isCertified: true,
-    description: "Kyle is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Photography Spots, Kyle provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.5,
-    reviewsCount: 75,
-    quote: "The best way to discover Amalfi Coast is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/37.jpg",
-    languages: ["Czech"],
-    experienceYears: 4,
-    certifications: ["Sustainable Tourism Certificate", "Eco-Tourism Guide"],
-    specialties: ["Photography Spots"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-amalfi-coast-14",
-    name: "Lisa Gonzalez",
-    city: "Amalfi Coast",
-    country: "Italy",
-    state: "",
-    region: "Mediterranean",
-    isPopular: false,
-    bio: "Lisa is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Local Markets, Lisa provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Middle East"],
-    tourTypes: ["Historical Tour", "Family-Friendly Tour"],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-7986-AMA",
-    phoneNumber: "+1-608-213-5310",
-    contactEmail: "lisa.gonzalez@paragontrails.com",
-    available: [
+      },
       {
-        day: "Tuesday",
+        day: "Monday",
         availableHours: [
           {
-            from: "10:00 AM",
-            to: "03:00 PM",
+            from: "08:00 AM",
+            to: "11:00 AM",
           }
         ],
       },
@@ -490,22 +59,501 @@ export const amalfiCoastitalymediterraneanGuides: TourGuide[] = [
         day: "Saturday",
         availableHours: [
           {
+            from: "08:00 AM",
+            to: "12:00 PM",
+          },
+          {
             from: "03:00 PM",
+            to: "09:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Ralph is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Local Wildlife, Art Galleries, Local History, Ralph provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.7,
+    reviewsCount: 57,
+    quote: "Amalfi Coast isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/10.jpg",
+    languages: ["Korean", "Cantonese"],
+    experienceYears: 9,
+    certifications: ["Cultural Sensitivity Training", "Local History Certification"],
+    specialties: ["Local Wildlife", "Art Galleries", "Local History"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-amalfi-coast-2",
+    name: "Austin Knight",
+    city: "Amalfi Coast",
+    country: "Italy",
+    state: "",
+    region: "Southern Italy",
+    isPopular: false,
+    bio: "Austin is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Adventure Activities, Local History, Film Locations, Austin provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South Atlantic Ocean"],
+    tourTypes: ["Accessible Tour", "Food Tour", "Romantic Tour", "Relocation Tour", "Market Tour"],
+    maxGroupSize: 13,
+    licenseNumber: "LIC-8440-AMA",
+    phoneNumber: "+1-292-766-8766",
+    contactEmail: "austin.knight@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "07:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "05:00 PM",
+          },
+          {
+            from: "02:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Austin is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Adventure Activities, Local History, Film Locations, Austin provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.9,
+    reviewsCount: 99,
+    quote: "The best way to discover Amalfi Coast is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/63.jpg",
+    languages: ["Georgian"],
+    experienceYears: 9,
+    certifications: ["Cultural Heritage Specialist", "Regional Tourism Ambassador"],
+    specialties: ["Adventure Activities", "Local History", "Film Locations"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-amalfi-coast-3",
+    name: "Jacob Reeves",
+    city: "Amalfi Coast",
+    country: "Italy",
+    state: "",
+    region: "Southern Italy",
+    isPopular: false,
+    bio: "Jacob is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Street Food, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Andean Region", "Southwest USA"],
+    tourTypes: ["Photography Tour", "Luxury Tour", "Underground Tour"],
+    maxGroupSize: 14,
+    licenseNumber: "LIC-7673-AMA",
+    phoneNumber: "+1-948-583-3114",
+    contactEmail: "jacob.reeves@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "07:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "09:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Jacob is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Street Food, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.7,
+    reviewsCount: 99,
+    quote: "In Amalfi Coast, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/31.jpg",
+    languages: ["Galician", "Telugu"],
+    experienceYears: 5,
+    certifications: ["Certified Tour Guide"],
+    specialties: ["Street Food"],
+    specialTraining: ["Tour Planning"],
+  },
+  {
+    id: "guide-amalfi-coast-4",
+    name: "Hassan Graves",
+    city: "Amalfi Coast",
+    country: "Italy",
+    state: "",
+    region: "Southern Italy",
+    isPopular: true,
+    bio: "Hassan is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Outdoor Activities, Local Folklore, Nightlife, Hassan provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Indian Ocean"],
+    tourTypes: ["Boat Tour", "Wine Tour", "Ghost Tour", "Cultural Tour"],
+    maxGroupSize: 11,
+    licenseNumber: "LIC-2542-AMA",
+    phoneNumber: "+1-760-158-7144",
+    contactEmail: "hassan.graves@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "07:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "02:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "02:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Hassan is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Outdoor Activities, Local Folklore, Nightlife, Hassan provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 5,
+    reviewsCount: 34,
+    quote: "Every corner of Amalfi Coast tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/25.jpg",
+    languages: ["English", "Spanish", "Macedonian"],
+    experienceYears: 13,
+    certifications: ["Wilderness First Responder", "CPR & First Aid", "Language Proficiency Certification"],
+    specialties: ["Outdoor Activities", "Local Folklore", "Nightlife"],
+    specialTraining: ["Adventure Safety"],
+  },
+  {
+    id: "guide-amalfi-coast-5",
+    name: "Gabriel Müller",
+    city: "Amalfi Coast",
+    country: "Italy",
+    state: "",
+    region: "Southern Italy",
+    isPopular: false,
+    bio: "Gabriel is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Local Myths, Photography Spots, Gabriel provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Sahara Desert"],
+    tourTypes: ["Luxury Tour", "Photography Tour"],
+    maxGroupSize: 13,
+    licenseNumber: "LIC-6310-AMA",
+    phoneNumber: "+1-751-105-5534",
+    contactEmail: "gabriel.müller@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "02:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Gabriel is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Local Myths, Photography Spots, Gabriel provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.9,
+    reviewsCount: 29,
+    quote: "In Amalfi Coast, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/80.jpg",
+    languages: ["Urdu", "Montenegrin", "Marathi"],
+    experienceYears: 13,
+    certifications: ["Language Proficiency Certification", "Licensed City Guide"],
+    specialties: ["Local Myths", "Photography Spots"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-amalfi-coast-6",
+    name: "Mia Dubois",
+    city: "Amalfi Coast",
+    country: "Italy",
+    state: "",
+    region: "Southern Italy",
+    isPopular: false,
+    bio: "Mia is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Local Festivals, Sustainable Tourism, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Atacama Desert"],
+    tourTypes: ["Private Tour", "Audio Tour", "Museum Tour"],
+    maxGroupSize: 10,
+    licenseNumber: "LIC-4559-AMA",
+    phoneNumber: "+1-842-758-9900",
+    contactEmail: "mia.dubois@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "11:00 AM",
+          },
+          {
+            from: "01:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "03:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "02:00 PM",
+          },
+          {
+            from: "02:00 PM",
             to: "07:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Lisa is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Local Markets, Lisa provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 94,
+    description: "Mia is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Local Festivals, Sustainable Tourism, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4,
+    reviewsCount: 29,
+    quote: "My goal is to help you fall in love with Amalfi Coast just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/73.jpg",
+    languages: ["Spanish", "Kyrgyz", "Kannada"],
+    experienceYears: 15,
+    certifications: ["Certified Eco-Tourism Guide", "Certified Local Guide", "Cultural Sensitivity Training"],
+    specialties: ["Local Festivals", "Sustainable Tourism"],
+    specialTraining: ["Religious Studies"],
+  },
+  {
+    id: "guide-amalfi-coast-7",
+    name: "Melissa Dunn",
+    city: "Amalfi Coast",
+    country: "Italy",
+    state: "",
+    region: "Southern Italy",
+    isPopular: true,
+    bio: "Melissa is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Local Craftsmanship, Melissa provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Central Europe", "Asia Pacific"],
+    tourTypes: ["Off-Road Tour", "Luxury Tour", "Group Tour", "Adventure Tour"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-6129-AMA",
+    phoneNumber: "+1-586-346-7632",
+    contactEmail: "melissa.dunn@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "08:00 PM",
+          },
+          {
+            from: "11:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "04:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "11:00 AM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Melissa is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Local Craftsmanship, Melissa provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.7,
+    reviewsCount: 14,
+    quote: "Amalfi Coast isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/50.jpg",
+    languages: ["Arabic", "Pashto"],
+    experienceYears: 2,
+    certifications: ["Cultural Heritage Specialist", "Food Safety Certification", "Regional Tourism Ambassador"],
+    specialties: ["Local Craftsmanship"],
+    specialTraining: ["Local History", "Mountain Survival"],
+  },
+  {
+    id: "guide-amalfi-coast-8",
+    name: "Sandra Singh",
+    city: "Amalfi Coast",
+    country: "Italy",
+    state: "",
+    region: "Southern Italy",
+    isPopular: false,
+    bio: "Sandra is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Hidden Treasures, Local Craftsmanship, Historical Tours, Sandra provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Atlantic Coast USA", "Caspian Sea"],
+    tourTypes: ["Adventure Tour", "Museum Tour", "Group Tour"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-6105-AMA",
+    phoneNumber: "+1-898-553-2602",
+    contactEmail: "sandra.singh@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "06:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "12:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Sandra is a passionate tour guide with extensive knowledge of Amalfi Coast and Italy. Specializing in Hidden Treasures, Local Craftsmanship, Historical Tours, Sandra provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 58,
     quote: "The best way to discover Amalfi Coast is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/3.jpg",
-    languages: ["Hebrew"],
-    experienceYears: 12,
-    certifications: ["Local History Certification", "Language Proficiency Certification"],
-    specialties: ["Local Markets"],
-    specialTraining: ["Accessibility Services", "Local Transit Systems"],
+    profileImage: "https://randomuser.me/api/portraits/women/32.jpg",
+    languages: ["Gujarati", "Tamil", "Khmer"],
+    experienceYears: 13,
+    certifications: ["Local History Certification"],
+    specialties: ["Hidden Treasures", "Local Craftsmanship", "Historical Tours"],
+    specialTraining: ["Cultural Anthropology", "Desert Navigation"],
   }
 ];

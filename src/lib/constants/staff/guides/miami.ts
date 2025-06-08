@@ -2,257 +2,107 @@
 
 import { TourGuide } from "@/lib/interfaces/people/staff";
 
-export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
+export const miamiunitedStatesfloridaGuides: TourGuide[] = [
   {
     id: "guide-miami-1",
-    name: "Roger Payne",
+    name: "Maria Keller",
     city: "Miami",
     country: "United States",
     state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "Roger is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Architecture, Parks & Gardens, Urban Legends, Historical Landmarks, Roger provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast USA", "Middle East"],
-    tourTypes: ["Brewery Tour", "Off-Road Tour"],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-1535-MIA",
-    phoneNumber: "+1-212-894-9649",
-    contactEmail: "roger.payne@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Roger is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Architecture, Parks & Gardens, Urban Legends, Historical Landmarks, Roger provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 22,
-    quote: "Every corner of Miami tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/31.jpg",
-    languages: ["French", "Czech", "Vietnamese"],
-    experienceYears: 10,
-    certifications: ["Urban Navigation Specialist"],
-    specialties: ["Architecture", "Parks & Gardens", "Urban Legends", "Historical Landmarks"],
-    specialTraining: ["Religious Studies"],
-  },
-  {
-    id: "guide-miami-2",
-    name: "Rachel Williams",
-    city: "Miami",
-    country: "United States",
-    state: "",
-    region: "Caribbean",
+    region: "Florida",
     isPopular: true,
-    bio: "Rachel is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Adventure Sports, Photography Spots, Wildlife, Art Galleries, Rachel provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Africa", "Asia Pacific"],
-    tourTypes: ["Helicopter Tour", "Shopping Tour", "Walking Tour", "Architecture Tour", "Self-Guided Tour"],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-6064-MIA",
-    phoneNumber: "+1-496-715-2336",
-    contactEmail: "rachel.williams@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Rachel is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Adventure Sports, Photography Spots, Wildlife, Art Galleries, Rachel provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.7,
-    reviewsCount: 72,
-    quote: "The best way to discover Miami is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/44.jpg",
-    languages: ["Indonesian", "Czech"],
-    experienceYears: 11,
-    certifications: ["Professional Tour Guide Association"],
-    specialties: ["Adventure Sports", "Photography Spots", "Wildlife", "Art Galleries"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-miami-3",
-    name: "William Moore",
-    city: "Miami",
-    country: "United States",
-    state: "",
-    region: "Caribbean",
-    isPopular: true,
-    bio: "William is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Religious Sites, Wildlife, Local Markets, William provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Africa"],
-    tourTypes: ["Off-Road Tour", "Self-Guided Tour", "LGBTQ+ Friendly Tour", "Luxury Tour"],
-    maxGroupSize: 18,
-    licenseNumber: "LIC-4345-MIA",
-    phoneNumber: "+1-715-773-7853",
-    contactEmail: "william.moore@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "William is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Religious Sites, Wildlife, Local Markets, William provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.8,
-    reviewsCount: 49,
-    quote: "Every corner of Miami tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/37.jpg",
-    languages: ["Thai", "Swahili"],
-    experienceYears: 16,
-    certifications: ["Professional Tour Guide Association"],
-    specialties: ["Religious Sites", "Wildlife", "Local Markets"],
-    specialTraining: ["Religious Studies", "Historical Research Methods"],
-  },
-  {
-    id: "guide-miami-4",
-    name: "Gabriel Rossi",
-    city: "Miami",
-    country: "United States",
-    state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "Gabriel is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Public Transportation Navigation, Street Food, Adventure Sports, Cultural Etiquette, Gabriel provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["South America", "East Coast USA"],
-    tourTypes: ["Cooking Class", "Boat Tour", "Street Art Tour", "Cruise Excursion", "Food Tour"],
-    maxGroupSize: 17,
-    licenseNumber: "LIC-6832-MIA",
-    phoneNumber: "+1-217-281-4411",
-    contactEmail: "gabriel.rossi@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Gabriel is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Public Transportation Navigation, Street Food, Adventure Sports, Cultural Etiquette, Gabriel provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.9,
-    reviewsCount: 15,
-    quote: "Every corner of Miami tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/19.jpg",
-    languages: ["Arabic", "Korean"],
-    experienceYears: 14,
-    certifications: ["Wilderness First Responder", "Heritage Interpretation Certificate", "Certified International Tour Manager"],
-    specialties: ["Public Transportation Navigation", "Street Food", "Adventure Sports", "Cultural Etiquette"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-miami-5",
-    name: "Evelyn Dean",
-    city: "Miami",
-    country: "United States",
-    state: "",
-    region: "Caribbean",
-    isPopular: true,
-    bio: "Evelyn is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Wildlife, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["West Coast USA"],
-    tourTypes: ["Helicopter Tour", "Audio Tour", "Self-Guided Tour", "Festival Tour"],
-    maxGroupSize: 14,
-    licenseNumber: "LIC-4709-MIA",
-    phoneNumber: "+1-614-970-8026",
-    contactEmail: "evelyn.dean@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Evelyn is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Wildlife, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.5,
-    reviewsCount: 74,
-    quote: "The best way to discover Miami is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/73.jpg",
-    languages: ["Hungarian", "Hindi", "Greek"],
-    experienceYears: 10,
-    certifications: ["Licensed City Guide"],
-    specialties: ["Wildlife"],
-    specialTraining: ["Religious Studies"],
-  },
-  {
-    id: "guide-miami-6",
-    name: "Jose Douglas",
-    city: "Miami",
-    country: "United States",
-    state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "Jose is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in LGBTQ+ History, Historical Landmarks, Jose provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean"],
-    tourTypes: ["Street Art Tour", "Museum Tour", "Food Tour"],
-    maxGroupSize: 6,
-    licenseNumber: "LIC-8601-MIA",
-    phoneNumber: "+1-400-183-6611",
-    contactEmail: "jose.douglas@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Jose is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in LGBTQ+ History, Historical Landmarks, Jose provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.6,
-    reviewsCount: 67,
-    quote: "My goal is to help you fall in love with Miami just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/13.jpg",
-    languages: ["Indonesian", "Romanian", "Cantonese"],
-    experienceYears: 7,
-    certifications: ["Adventure Tourism Safety Certificate"],
-    specialties: ["LGBTQ+ History", "Historical Landmarks"],
-    specialTraining: ["Local Flora & Fauna"],
-  },
-  {
-    id: "guide-miami-7",
-    name: "Marcus Nguyen",
-    city: "Miami",
-    country: "United States",
-    state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "Marcus is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Sustainable Tourism, Music Scene, Public Transportation Navigation, Marcus provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean", "Asia Pacific"],
-    tourTypes: ["Self-Guided Tour", "Adventure Tour", "Eco Tour"],
-    maxGroupSize: 9,
-    licenseNumber: "LIC-2570-MIA",
-    phoneNumber: "+1-143-847-9165",
-    contactEmail: "marcus.nguyen@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Marcus is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Sustainable Tourism, Music Scene, Public Transportation Navigation, Marcus provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.7,
-    reviewsCount: 38,
-    quote: "The best way to discover Miami is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/34.jpg",
-    languages: ["Swedish"],
-    experienceYears: 8,
-    certifications: ["Professional Tour Guide Association", "Food Safety Certification", "Wilderness First Responder"],
-    specialties: ["Sustainable Tourism", "Music Scene", "Public Transportation Navigation"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-miami-8",
-    name: "Evelyn Wood",
-    city: "Miami",
-    country: "United States",
-    state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "Evelyn is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Wildlife, Local Cuisine, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["South America", "Africa"],
-    tourTypes: ["Museum Tour", "Helicopter Tour", "Cruise Excursion", "Boat Tour"],
-    maxGroupSize: 10,
-    licenseNumber: "LIC-7664-MIA",
-    phoneNumber: "+1-196-853-7301",
-    contactEmail: "evelyn.wood@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Evelyn is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Wildlife, Local Cuisine, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.5,
-    reviewsCount: 31,
-    quote: "The best way to discover Miami is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/75.jpg",
-    languages: ["Thai", "English"],
-    experienceYears: 5,
-    certifications: ["Licensed City Guide"],
-    specialties: ["Wildlife", "Local Cuisine"],
-    specialTraining: ["Art History"],
-  },
-  {
-    id: "guide-miami-9",
-    name: "Jeffrey Murray",
-    city: "Miami",
-    country: "United States",
-    state: "",
-    region: "Caribbean",
-    isPopular: false,
-    bio: "Jeffrey is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Adventure Sports, Cultural Etiquette, Photography Spots, Family Activities, Jeffrey provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Africa"],
-    tourTypes: ["Farm Visit", "Wildlife Safari", "Private Tour", "Wine Tour"],
-    maxGroupSize: 10,
-    licenseNumber: "LIC-7039-MIA",
-    phoneNumber: "+1-751-677-3523",
-    contactEmail: "jeffrey.murray@paragontrails.com",
+    bio: "Maria is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Music Scene, Local Folklore, Local Festivals, Maria provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Southwest USA"],
+    tourTypes: ["Architecture Tour", "Self-Guided Tour"],
+    maxGroupSize: 13,
+    licenseNumber: "LIC-8659-MIA",
+    phoneNumber: "+1-687-342-9545",
+    contactEmail: "maria.keller@paragontrails.com",
     available: [
       {
-        day: "Saturday",
+        day: "Friday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "07:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
         availableHours: [
           {
             from: "03:00 PM",
             to: "08:00 PM",
-          },
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Maria is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Music Scene, Local Folklore, Local Festivals, Maria provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.9,
+    reviewsCount: 83,
+    quote: "Miami isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/68.jpg",
+    languages: ["Somali"],
+    experienceYears: 5,
+    certifications: ["Cultural Sensitivity Training", "Food Safety Certification"],
+    specialties: ["Music Scene", "Local Folklore", "Local Festivals"],
+    specialTraining: ["Cultural Anthropology"],
+  },
+  {
+    id: "guide-miami-2",
+    name: "Yuki Williams",
+    city: "Miami",
+    country: "United States",
+    state: "",
+    region: "Florida",
+    isPopular: false,
+    bio: "Yuki is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in City History, Yuki provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["North Atlantic Ocean", "Africa"],
+    tourTypes: ["Audio Tour", "Shopping Tour", "Self-Guided Tour", "Cultural Tour"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-4146-MIA",
+    phoneNumber: "+1-275-678-3144",
+    contactEmail: "yuki.williams@paragontrails.com",
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
           {
             from: "02:00 PM",
-            to: "07:00 PM",
+            to: "08:00 PM",
           }
         ],
       },
@@ -260,8 +110,196 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
         day: "Friday",
         availableHours: [
           {
+            from: "12:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Yuki is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in City History, Yuki provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 26,
+    quote: "Every corner of Miami tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/47.jpg",
+    languages: ["Czech"],
+    experienceYears: 16,
+    certifications: ["Cultural Heritage Specialist", "Certified Heritage Guide", "Wilderness First Responder"],
+    specialties: ["City History"],
+    specialTraining: ["Cultural Heritage"],
+  },
+  {
+    id: "guide-miami-3",
+    name: "Luis Nakamura",
+    city: "Miami",
+    country: "United States",
+    state: "",
+    region: "Florida",
+    isPopular: false,
+    bio: "Luis is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Public Transportation Navigation, Local Cuisine, Architecture, Film Locations, Luis provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["North Atlantic Ocean"],
+    tourTypes: ["Bike Tour", "Boat Tour", "Craft Workshop", "Historical Tour"],
+    maxGroupSize: 19,
+    licenseNumber: "LIC-1129-MIA",
+    phoneNumber: "+1-117-535-9942",
+    contactEmail: "luis.nakamura@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
             from: "11:00 AM",
             to: "02:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "02:00 PM",
+          },
+          {
+            from: "02:00 PM",
+            to: "08:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Luis is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Public Transportation Navigation, Local Cuisine, Architecture, Film Locations, Luis provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 97,
+    quote: "The best way to discover Miami is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/21.jpg",
+    languages: ["Xhosa", "Yoruba"],
+    experienceYears: 7,
+    certifications: ["Eco-Tourism Guide", "Certified Eco-Tourism Guide"],
+    specialties: ["Public Transportation Navigation", "Local Cuisine", "Architecture", "Film Locations"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-miami-4",
+    name: "Roger Harris",
+    city: "Miami",
+    country: "United States",
+    state: "",
+    region: "Florida",
+    isPopular: false,
+    bio: "Roger is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Street Food, Roger provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Northern Europe"],
+    tourTypes: ["Religious Tour", "Historical Tour", "Wildlife Safari"],
+    maxGroupSize: 6,
+    licenseNumber: "LIC-2157-MIA",
+    phoneNumber: "+1-533-415-3552",
+    contactEmail: "roger.harris@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "02:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "08:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "04:00 PM",
+          },
+          {
+            from: "02:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "06:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Roger is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Street Food, Roger provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 66,
+    quote: "The best way to discover Miami is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/26.jpg",
+    languages: ["Malayalam", "Tagalog", "Pashto"],
+    experienceYears: 13,
+    certifications: ["Eco-Tourism Guide"],
+    specialties: ["Street Food"],
+    specialTraining: ["Religious Studies"],
+  },
+  {
+    id: "guide-miami-5",
+    name: "Isabella Anderson",
+    city: "Miami",
+    country: "United States",
+    state: "",
+    region: "Florida",
+    isPopular: true,
+    bio: "Isabella is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Culinary Tours, Family Activities, Local Music, Shopping, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Africa"],
+    tourTypes: ["LGBTQ+ Friendly Tour", "Nature Tour"],
+    maxGroupSize: 19,
+    licenseNumber: "LIC-8033-MIA",
+    phoneNumber: "+1-710-589-7767",
+    contactEmail: "isabella.anderson@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "08:00 PM",
           },
           {
             from: "12:00 PM",
@@ -270,158 +308,89 @@ export const miamiunitedStatescaribbeanGuides: TourGuide[] = [
         ],
       },
       {
-        day: "Tuesday",
+        day: "Wednesday",
         availableHours: [
           {
-            from: "10:00 AM",
-            to: "01:00 PM",
+            from: "02:00 PM",
+            to: "05:00 PM",
           }
         ],
-      }
-    ],
-    isCertified: true,
-    description: "Jeffrey is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Adventure Sports, Cultural Etiquette, Photography Spots, Family Activities, Jeffrey provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.6,
-    reviewsCount: 37,
-    quote: "My goal is to help you fall in love with Miami just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/5.jpg",
-    languages: ["Czech"],
-    experienceYears: 16,
-    certifications: ["Urban Navigation Specialist", "Eco-Tourism Guide", "Local History Certification"],
-    specialties: ["Adventure Sports", "Cultural Etiquette", "Photography Spots", "Family Activities"],
-    specialTraining: ["Historical Research Methods", "Wine Education"],
-  },
-  {
-    id: "guide-miami-10",
-    name: "Victor Gonzalez",
-    city: "Miami",
-    country: "United States",
-    state: "",
-    region: "Caribbean",
-    isPopular: true,
-    bio: "Victor is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Hidden Gems, Victor provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Northern Europe"],
-    tourTypes: ["Underground Tour", "Relocation Tour"],
-    maxGroupSize: 19,
-    licenseNumber: "LIC-4190-MIA",
-    phoneNumber: "+1-255-932-5348",
-    contactEmail: "victor.gonzalez@paragontrails.com",
-    available: [
+      },
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "11:00 AM",
-            to: "02:00 PM",
+            from: "01:00 PM",
+            to: "04:00 PM",
           },
           {
-            from: "09:00 AM",
-            to: "12:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "05:00 PM",
-          },
-          {
-            from: "01:00 PM",
-            to: "03:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "03:00 PM",
-          },
-          {
-            from: "09:00 AM",
-            to: "11:00 AM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "07:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Victor is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Hidden Gems, Victor provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.9,
-    reviewsCount: 17,
-    quote: "My goal is to help you fall in love with Miami just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/15.jpg",
-    languages: ["Spanish", "Bulgarian", "Polish"],
-    experienceYears: 11,
-    certifications: ["Local History Certification", "Licensed City Guide"],
-    specialties: ["Hidden Gems"],
-    specialTraining: ["Cultural Sensitivity", "Art History"],
-  },
-  {
-    id: "guide-miami-11",
-    name: "Wei West",
-    city: "Miami",
-    country: "United States",
-    state: "",
-    region: "Caribbean",
-    isPopular: true,
-    bio: "Wei is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Local Cuisine, Historical Landmarks, Wine Tasting, Wei provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Alaska", "Northern Europe"],
-    tourTypes: ["Bike Tour", "Ghost Tour", "Festival Tour", "Food Tour"],
-    maxGroupSize: 6,
-    licenseNumber: "LIC-1593-MIA",
-    phoneNumber: "+1-809-807-9740",
-    contactEmail: "wei.west@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "03:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "01:00 PM",
+            from: "12:00 PM",
             to: "04:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Wei is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Local Cuisine, Historical Landmarks, Wine Tasting, Wei provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 80,
+    description: "Isabella is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Culinary Tours, Family Activities, Local Music, Shopping, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 23,
     quote: "Every corner of Miami tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/16.jpg",
-    languages: ["Japanese", "Turkish"],
-    experienceYears: 2,
-    certifications: ["Sustainable Tourism Certificate", "Eco-Tourism Guide"],
-    specialties: ["Local Cuisine", "Historical Landmarks", "Wine Tasting"],
-    specialTraining: ["Religious Studies"],
+    profileImage: "https://randomuser.me/api/portraits/women/43.jpg",
+    languages: ["Khmer"],
+    experienceYears: 10,
+    certifications: ["Wilderness First Responder"],
+    specialties: ["Culinary Tours", "Family Activities", "Local Music", "Shopping"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-miami-6",
+    name: "Evelyn Stewart",
+    city: "Miami",
+    country: "United States",
+    state: "",
+    region: "Florida",
+    isPopular: true,
+    bio: "Evelyn is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Cultural Heritage, Museums, Local Cuisine, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Siberia"],
+    tourTypes: ["Adventure Tour", "LGBTQ+ Friendly Tour", "Family-Friendly Tour"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-8686-MIA",
+    phoneNumber: "+1-969-200-5838",
+    contactEmail: "evelyn.stewart@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "08:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "04:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Evelyn is a passionate tour guide with extensive knowledge of Miami and United States. Specializing in Cultural Heritage, Museums, Local Cuisine, Evelyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.7,
+    reviewsCount: 42,
+    quote: "Every corner of Miami tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/77.jpg",
+    languages: ["Malayalam", "Welsh", "Basque"],
+    experienceYears: 7,
+    certifications: ["Eco-Tourism Guide", "Licensed City Guide", "Language Proficiency Certification"],
+    specialties: ["Cultural Heritage", "Museums", "Local Cuisine"],
+    specialTraining: [],
   }
 ];

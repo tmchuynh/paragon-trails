@@ -2,225 +2,148 @@
 
 import { TourGuide } from "@/lib/interfaces/people/staff";
 
-export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
+export const singaporesingaporesingaporeGuides: TourGuide[] = [
   {
     id: "guide-singapore-1",
-    name: "Laura Gardner",
+    name: "Savannah Gonzalez",
     city: "Singapore",
     country: "Singapore",
     state: "",
-    region: "Asia Pacific",
+    region: "Singapore",
     isPopular: false,
-    bio: "Laura is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Parks & Gardens, Wildlife, Laura provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast USA"],
-    tourTypes: ["Cultural Tour", "Wildlife Safari"],
+    bio: "Savannah is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Parks & Gardens, Local Legends, Cultural Etiquette, Historical Architecture, Savannah provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Baltic Sea", "Southeast Europe"],
+    tourTypes: ["Brewery Tour", "Historical Tour"],
     maxGroupSize: 6,
-    licenseNumber: "LIC-6383-SIN",
-    phoneNumber: "+1-890-451-8516",
-    contactEmail: "laura.gardner@paragontrails.com",
-    available: [],
+    licenseNumber: "LIC-3659-SIN",
+    phoneNumber: "+1-106-223-1046",
+    contactEmail: "savannah.gonzalez@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "03:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      }
+    ],
     isCertified: true,
-    description: "Laura is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Parks & Gardens, Wildlife, Laura provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.7,
-    reviewsCount: 70,
-    quote: "The best way to discover Singapore is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/0.jpg",
-    languages: ["Turkish", "Romanian"],
-    experienceYears: 9,
-    certifications: ["Language Proficiency Certification"],
-    specialties: ["Parks & Gardens", "Wildlife"],
+    description: "Savannah is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Parks & Gardens, Local Legends, Cultural Etiquette, Historical Architecture, Savannah provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 48,
+    quote: "In Singapore, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/25.jpg",
+    languages: ["Xhosa", "Georgian"],
+    experienceYears: 3,
+    certifications: ["Cultural Sensitivity Training", "Adventure Tourism Certification"],
+    specialties: ["Parks & Gardens", "Local Legends", "Cultural Etiquette", "Historical Architecture"],
     specialTraining: [],
   },
   {
     id: "guide-singapore-2",
-    name: "Thandiwe Hernandez",
+    name: "Layla Johnson",
     city: "Singapore",
     country: "Singapore",
     state: "",
-    region: "Asia Pacific",
+    region: "Singapore",
     isPopular: false,
-    bio: "Thandiwe is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Public Transportation Navigation, Wine Tasting, Thandiwe provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Alaska"],
-    tourTypes: ["Religious Tour", "Romantic Tour", "LGBTQ+ Friendly Tour", "Craft Workshop", "Food Tour"],
-    maxGroupSize: 10,
-    licenseNumber: "LIC-8937-SIN",
-    phoneNumber: "+1-148-272-6751",
-    contactEmail: "thandiwe.hernandez@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Thandiwe is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Public Transportation Navigation, Wine Tasting, Thandiwe provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4,
-    reviewsCount: 77,
-    quote: "The best way to discover Singapore is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/37.jpg",
-    languages: ["Hungarian"],
-    experienceYears: 4,
-    certifications: ["Heritage Interpretation Certificate"],
-    specialties: ["Public Transportation Navigation", "Wine Tasting"],
-    specialTraining: ["Archaeological Conservation"],
-  },
-  {
-    id: "guide-singapore-3",
-    name: "Ahmed Grant",
-    city: "Singapore",
-    country: "Singapore",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: true,
-    bio: "Ahmed is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Film Locations, Ahmed provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada"],
-    tourTypes: ["Museum Tour", "Eco Tour", "Craft Workshop", "Helicopter Tour", "Food Tour"],
-    maxGroupSize: 18,
-    licenseNumber: "LIC-2501-SIN",
-    phoneNumber: "+1-217-723-9585",
-    contactEmail: "ahmed.grant@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Ahmed is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Film Locations, Ahmed provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 89,
-    quote: "In Singapore, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/36.jpg",
-    languages: ["Tagalog", "Croatian"],
-    experienceYears: 4,
-    certifications: ["Certified International Tour Manager"],
-    specialties: ["Film Locations"],
-    specialTraining: ["Mountain Survival", "Wine Education"],
-  },
-  {
-    id: "guide-singapore-4",
-    name: "Gabriella Spencer",
-    city: "Singapore",
-    country: "Singapore",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: false,
-    bio: "Gabriella is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Museums, Photography Spots, Urban Legends, Gabriella provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada"],
-    tourTypes: ["Nature Tour", "Helicopter Tour"],
-    maxGroupSize: 18,
-    licenseNumber: "LIC-1241-SIN",
-    phoneNumber: "+1-609-395-3693",
-    contactEmail: "gabriella.spencer@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Gabriella is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Museums, Photography Spots, Urban Legends, Gabriella provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.4,
-    reviewsCount: 77,
-    quote: "Every corner of Singapore tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/28.jpg",
-    languages: ["Romanian"],
-    experienceYears: 10,
-    certifications: ["Eco-Tourism Guide"],
-    specialties: ["Museums", "Photography Spots", "Urban Legends"],
-    specialTraining: ["Photography", "Urban Planning"],
-  },
-  {
-    id: "guide-singapore-5",
-    name: "Andrew Suzuki",
-    city: "Singapore",
-    country: "Singapore",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: false,
-    bio: "Andrew is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Photography Spots, Film Locations, Andrew provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Northern Europe", "West Coast USA"],
-    tourTypes: ["Self-Guided Tour", "Museum Tour"],
-    maxGroupSize: 19,
-    licenseNumber: "LIC-3131-SIN",
-    phoneNumber: "+1-469-589-2188",
-    contactEmail: "andrew.suzuki@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Andrew is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Photography Spots, Film Locations, Andrew provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.3,
-    reviewsCount: 46,
-    quote: "Singapore isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/men/42.jpg",
-    languages: ["Arabic"],
-    experienceYears: 11,
-    certifications: ["Professional Tour Guide Association", "Licensed City Guide", "Sustainable Tourism Certificate"],
-    specialties: ["Photography Spots", "Film Locations"],
-    specialTraining: ["Wine Education", "Group Management"],
-  },
-  {
-    id: "guide-singapore-6",
-    name: "Samantha Collins",
-    city: "Singapore",
-    country: "Singapore",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: true,
-    bio: "Samantha is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Indigenous Culture, Architecture, Family Activities, Samantha provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["West Coast USA", "Asia Pacific"],
-    tourTypes: ["Ghost Tour", "Adventure Tour", "Boat Tour"],
-    maxGroupSize: 8,
-    licenseNumber: "LIC-5132-SIN",
-    phoneNumber: "+1-559-649-5677",
-    contactEmail: "samantha.collins@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Samantha is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Indigenous Culture, Architecture, Family Activities, Samantha provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.4,
-    reviewsCount: 49,
-    quote: "Every corner of Singapore tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/6.jpg",
-    languages: ["Arabic", "Hungarian"],
-    experienceYears: 6,
-    certifications: ["Regional Tourism Ambassador", "Wilderness First Responder"],
-    specialties: ["Indigenous Culture", "Architecture", "Family Activities"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-singapore-7",
-    name: "Omar Hudson",
-    city: "Singapore",
-    country: "Singapore",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: true,
-    bio: "Omar is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Urban Legends, Hidden Gems, Omar provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Northern Europe"],
-    tourTypes: ["Off-Road Tour", "Shopping Tour", "Eco Tour", "Underground Tour"],
-    maxGroupSize: 13,
-    licenseNumber: "LIC-6915-SIN",
-    phoneNumber: "+1-987-264-1563",
-    contactEmail: "omar.hudson@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Omar is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Urban Legends, Hidden Gems, Omar provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.5,
-    reviewsCount: 17,
-    quote: "Every corner of Singapore tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/5.jpg",
-    languages: ["Thai", "Danish", "Italian"],
-    experienceYears: 3,
-    certifications: ["Adventure Tourism Safety Certificate"],
-    specialties: ["Urban Legends", "Hidden Gems"],
-    specialTraining: ["Local Flora & Fauna"],
-  },
-  {
-    id: "guide-singapore-8",
-    name: "Aaron Khan",
-    city: "Singapore",
-    country: "Singapore",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: false,
-    bio: "Aaron is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Museums, Adventure Sports, LGBTQ+ History, Aaron provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Middle East", "West Coast USA"],
-    tourTypes: ["Craft Workshop", "Historical Tour", "Street Art Tour", "Group Tour", "Cultural Tour"],
-    maxGroupSize: 10,
-    licenseNumber: "LIC-2794-SIN",
-    phoneNumber: "+1-561-205-5233",
-    contactEmail: "aaron.khan@paragontrails.com",
+    bio: "Layla is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Local History, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["North Atlantic Ocean", "Central Africa"],
+    tourTypes: ["Cultural Tour", "Cruise Excursion", "Off-Road Tour"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-8336-SIN",
+    phoneNumber: "+1-694-761-1162",
+    contactEmail: "layla.johnson@paragontrails.com",
     available: [
       {
-        day: "Wednesday",
+        day: "Sunday",
         availableHours: [
           {
             from: "09:00 AM",
             to: "03:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "03:00 PM",
+          },
+          {
+            from: "11:00 AM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Layla is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Local History, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.9,
+    reviewsCount: 33,
+    quote: "Singapore isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/11.jpg",
+    languages: ["Somali", "Burmese", "Montenegrin"],
+    experienceYears: 11,
+    certifications: ["Professional Tour Guide Association", "Adventure Tourism Certification", "Certified Tour Guide"],
+    specialties: ["Local History"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-singapore-3",
+    name: "Eric Price",
+    city: "Singapore",
+    country: "Singapore",
+    state: "",
+    region: "Singapore",
+    isPopular: false,
+    bio: "Eric is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Street Food, Night Tours, Urban Legends, Eric provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean", "Middle East"],
+    tourTypes: ["Adventure Tour", "Bike Tour", "Boat Tour", "Audio Tour"],
+    maxGroupSize: 19,
+    licenseNumber: "LIC-7333-SIN",
+    phoneNumber: "+1-962-159-7841",
+    contactEmail: "eric.price@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "03:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "06:00 PM",
           }
         ],
       },
@@ -229,11 +152,191 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
         availableHours: [
           {
             from: "11:00 AM",
-            to: "03:00 PM",
+            to: "05:00 PM",
           },
           {
-            from: "08:00 AM",
+            from: "11:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "12:00 PM",
             to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "05:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Eric is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Street Food, Night Tours, Urban Legends, Eric provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.4,
+    reviewsCount: 60,
+    quote: "The best way to discover Singapore is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/5.jpg",
+    languages: ["Japanese", "Icelandic"],
+    experienceYears: 10,
+    certifications: ["Certified Heritage Guide"],
+    specialties: ["Street Food", "Night Tours", "Urban Legends"],
+    specialTraining: ["Religious Studies"],
+  },
+  {
+    id: "guide-singapore-4",
+    name: "Eric Crawford",
+    city: "Singapore",
+    country: "Singapore",
+    state: "",
+    region: "Singapore",
+    isPopular: true,
+    bio: "Eric is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Film Locations, Religious Sites, Eric provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Latin America", "Prairies"],
+    tourTypes: ["Romantic Tour", "Wildlife Safari"],
+    maxGroupSize: 10,
+    licenseNumber: "LIC-3892-SIN",
+    phoneNumber: "+1-246-463-8883",
+    contactEmail: "eric.crawford@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "02:00 PM",
+          },
+          {
+            from: "11:00 AM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Eric is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Film Locations, Religious Sites, Eric provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 89,
+    quote: "Singapore isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/61.jpg",
+    languages: ["Kazakh", "Kannada", "Swedish"],
+    experienceYears: 5,
+    certifications: ["Professional Tour Guide Association", "Certified Tour Guide", "Cultural Heritage Specialist"],
+    specialties: ["Film Locations", "Religious Sites"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-singapore-5",
+    name: "Janet Warren",
+    city: "Singapore",
+    country: "Singapore",
+    state: "",
+    region: "Singapore",
+    isPopular: false,
+    bio: "Janet is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Wine Tasting, Janet provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["West Coast USA", "South Pacific Ocean"],
+    tourTypes: ["Helicopter Tour", "Boat Tour"],
+    maxGroupSize: 8,
+    licenseNumber: "LIC-3790-SIN",
+    phoneNumber: "+1-812-282-9845",
+    contactEmail: "janet.warren@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "07:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "11:00 AM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Janet is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Wine Tasting, Janet provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 13,
+    quote: "Every corner of Singapore tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/58.jpg",
+    languages: ["Croatian", "Somali", "French"],
+    experienceYears: 4,
+    certifications: ["Urban Navigation Specialist"],
+    specialties: ["Wine Tasting"],
+    specialTraining: ["Local Flora & Fauna", "Cultural Sensitivity"],
+  },
+  {
+    id: "guide-singapore-6",
+    name: "Gregory Hunter",
+    city: "Singapore",
+    country: "Singapore",
+    state: "",
+    region: "Singapore",
+    isPopular: false,
+    bio: "Gregory is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Local Festivals, Local Literature, Hidden Treasures, Local Legends, Gregory provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Great Plains", "Gobi Desert"],
+    tourTypes: ["Eco Tour", "Wine Tour", "Market Tour"],
+    maxGroupSize: 11,
+    licenseNumber: "LIC-4123-SIN",
+    phoneNumber: "+1-143-303-8537",
+    contactEmail: "gregory.hunter@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "04:00 PM",
           }
         ],
       },
@@ -241,68 +344,13 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
         day: "Sunday",
         availableHours: [
           {
-            from: "10:00 AM",
-            to: "04:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Aaron is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Museums, Adventure Sports, LGBTQ+ History, Aaron provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.1,
-    reviewsCount: 9,
-    quote: "In Singapore, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/65.jpg",
-    languages: ["Malay", "Hindi", "Mandarin"],
-    experienceYears: 5,
-    certifications: ["Wilderness First Responder", "Professional Tour Guide Association"],
-    specialties: ["Museums", "Adventure Sports", "LGBTQ+ History"],
-    specialTraining: ["Emergency Response", "Art History"],
-  },
-  {
-    id: "guide-singapore-9",
-    name: "Layla Nakamura",
-    city: "Singapore",
-    country: "Singapore",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: false,
-    bio: "Layla is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Museums, Art Galleries, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean", "East Coast Canada"],
-    tourTypes: ["Accessible Tour", "Religious Tour", "Festival Tour", "Audio Tour", "Street Art Tour"],
-    maxGroupSize: 13,
-    licenseNumber: "LIC-9203-SIN",
-    phoneNumber: "+1-625-685-2179",
-    contactEmail: "layla.nakamura@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "02:00 PM",
-          },
-          {
-            from: "09:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
             from: "02:00 PM",
-            to: "05:00 PM",
-          },
-          {
-            from: "01:00 PM",
-            to: "03:00 PM",
+            to: "07:00 PM",
           }
         ],
       },
       {
-        day: "Wednesday",
+        day: "Thursday",
         availableHours: [
           {
             from: "01:00 PM",
@@ -312,44 +360,61 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
       }
     ],
     isCertified: true,
-    description: "Layla is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Museums, Art Galleries, Layla provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.5,
-    reviewsCount: 85,
-    quote: "My goal is to help you fall in love with Singapore just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/13.jpg",
-    languages: ["Italian"],
-    experienceYears: 12,
-    certifications: ["Adventure Tourism Safety Certificate"],
-    specialties: ["Museums", "Art Galleries"],
-    specialTraining: ["Regional Cuisine", "Photography"],
+    description: "Gregory is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Local Festivals, Local Literature, Hidden Treasures, Local Legends, Gregory provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.2,
+    reviewsCount: 6,
+    quote: "Singapore isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/43.jpg",
+    languages: ["Somali"],
+    experienceYears: 7,
+    certifications: ["CPR & First Aid", "Licensed City Guide"],
+    specialties: ["Local Festivals", "Local Literature", "Hidden Treasures", "Local Legends"],
+    specialTraining: [],
   },
   {
-    id: "guide-singapore-10",
-    name: "Isabella Brooks",
+    id: "guide-singapore-7",
+    name: "Carlos Lopez",
     city: "Singapore",
     country: "Singapore",
     state: "",
-    region: "Asia Pacific",
+    region: "Singapore",
     isPopular: false,
-    bio: "Isabella is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Family Activities, Wildlife, Nightlife, Wine Tasting, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean"],
-    tourTypes: ["Group Tour", "Photography Tour"],
-    maxGroupSize: 11,
-    licenseNumber: "LIC-2287-SIN",
-    phoneNumber: "+1-812-746-8565",
-    contactEmail: "isabella.brooks@paragontrails.com",
+    bio: "Carlos is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Museums, Historical Figures, Carlos provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Indian Ocean"],
+    tourTypes: ["Architecture Tour", "Off-Road Tour", "Group Tour", "Eco Tour", "Craft Workshop"],
+    maxGroupSize: 8,
+    licenseNumber: "LIC-4299-SIN",
+    phoneNumber: "+1-678-727-7228",
+    contactEmail: "carlos.lopez@paragontrails.com",
     available: [
       {
-        day: "Tuesday",
+        day: "Thursday",
         availableHours: [
           {
-            from: "11:00 AM",
-            to: "01:00 PM",
+            from: "02:00 PM",
+            to: "08:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "09:00 PM",
           }
         ],
       },
       {
-        day: "Monday",
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "02:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
         availableHours: [
           {
             from: "08:00 AM",
@@ -358,25 +423,102 @@ export const singaporesingaporeasiaPacificGuides: TourGuide[] = [
         ],
       },
       {
-        day: "Wednesday",
+        day: "Monday",
         availableHours: [
           {
             from: "10:00 AM",
             to: "01:00 PM",
           }
         ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "02:00 PM",
+          }
+        ],
       }
     ],
     isCertified: true,
-    description: "Isabella is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Family Activities, Wildlife, Nightlife, Wine Tasting, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
+    description: "Carlos is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Museums, Historical Figures, Carlos provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.7,
     reviewsCount: 35,
-    quote: "In Singapore, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/39.jpg",
-    languages: ["French"],
+    quote: "Singapore isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/51.jpg",
+    languages: ["Turkish", "Tamil", "Pashto"],
+    experienceYears: 3,
+    certifications: ["Food Safety Certification"],
+    specialties: ["Museums", "Historical Figures"],
+    specialTraining: ["Wine Education"],
+  },
+  {
+    id: "guide-singapore-8",
+    name: "Diego Jackson",
+    city: "Singapore",
+    country: "Singapore",
+    state: "",
+    region: "Singapore",
+    isPopular: true,
+    bio: "Diego is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Local Folklore, Local Cuisine, Photography, Street Food, Diego provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Alaska"],
+    tourTypes: ["Cruise Excursion", "Underground Tour", "Self-Guided Tour", "Cultural Tour", "Romantic Tour"],
+    maxGroupSize: 8,
+    licenseNumber: "LIC-7624-SIN",
+    phoneNumber: "+1-294-377-9109",
+    contactEmail: "diego.jackson@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "03:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "11:00 AM",
+          },
+          {
+            from: "08:00 AM",
+            to: "10:00 AM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Diego is a passionate tour guide with extensive knowledge of Singapore and Singapore. Specializing in Local Folklore, Local Cuisine, Photography, Street Food, Diego provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.2,
+    reviewsCount: 14,
+    quote: "Singapore isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/46.jpg",
+    languages: ["English", "Tajik"],
     experienceYears: 10,
-    certifications: ["Sustainable Tourism Certificate"],
-    specialties: ["Family Activities", "Wildlife", "Nightlife", "Wine Tasting"],
-    specialTraining: ["Marine Biology"],
+    certifications: ["Regional Tourism Ambassador", "Wilderness First Responder", "Heritage Interpretation Certificate"],
+    specialties: ["Local Folklore", "Local Cuisine", "Photography", "Street Food"],
+    specialTraining: ["Emergency Response"],
   }
 ];

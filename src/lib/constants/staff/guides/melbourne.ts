@@ -2,266 +2,29 @@
 
 import { TourGuide } from "@/lib/interfaces/people/staff";
 
-export const melbourneaustraliaasiaPacificGuides: TourGuide[] = [
+export const melbourneaustraliaaustraliaGuides: TourGuide[] = [
   {
     id: "guide-melbourne-1",
-    name: "William Montgomery",
+    name: "Marcus Wallace",
     city: "Melbourne",
     country: "Australia",
     state: "",
-    region: "Asia Pacific",
-    isPopular: true,
-    bio: "William is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Religious Sites, Architecture, William provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast USA"],
-    tourTypes: ["Brewery Tour", "Boat Tour"],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-8848-MEL",
-    phoneNumber: "+1-963-180-2173",
-    contactEmail: "william.montgomery@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "William is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Religious Sites, Architecture, William provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4,
-    reviewsCount: 103,
-    quote: "In Melbourne, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/26.jpg",
-    languages: ["Hebrew", "Italian", "Serbian"],
-    experienceYears: 8,
-    certifications: ["Sustainable Tourism Certificate", "Cultural Heritage Specialist"],
-    specialties: ["Religious Sites", "Architecture"],
-    specialTraining: ["Archaeological Conservation"],
-  },
-  {
-    id: "guide-melbourne-2",
-    name: "Janet Garcia",
-    city: "Melbourne",
-    country: "Australia",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: true,
-    bio: "Janet is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Religious Sites, Janet provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast USA", "West Coast USA"],
-    tourTypes: ["Farm Visit", "Nature Tour", "Bike Tour", "Eco Tour", "Museum Tour"],
-    maxGroupSize: 5,
-    licenseNumber: "LIC-5507-MEL",
-    phoneNumber: "+1-600-283-7255",
-    contactEmail: "janet.garcia@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Janet is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Religious Sites, Janet provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.3,
-    reviewsCount: 76,
-    quote: "In Melbourne, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/5.jpg",
-    languages: ["Cantonese", "Finnish"],
-    experienceYears: 2,
-    certifications: ["Wilderness First Responder", "Adventure Tourism Safety Certificate"],
-    specialties: ["Religious Sites"],
-    specialTraining: ["Marine Biology", "Photography"],
-  },
-  {
-    id: "guide-melbourne-3",
-    name: "Blake Wright",
-    city: "Melbourne",
-    country: "Australia",
-    state: "",
-    region: "Asia Pacific",
+    region: "Australia",
     isPopular: false,
-    bio: "Blake is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Architecture, Blake provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["West Coast USA"],
-    tourTypes: ["Brewery Tour", "Group Tour"],
-    maxGroupSize: 15,
-    licenseNumber: "LIC-7958-MEL",
-    phoneNumber: "+1-233-400-5654",
-    contactEmail: "blake.wright@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Blake is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Architecture, Blake provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.9,
-    reviewsCount: 99,
-    quote: "The best way to discover Melbourne is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/4.jpg",
-    languages: ["Turkish", "Norwegian"],
-    experienceYears: 10,
-    certifications: ["Regional Tourism Ambassador", "Sustainable Tourism Certificate", "CPR & First Aid"],
-    specialties: ["Architecture"],
-    specialTraining: ["Marine Biology", "Emergency Response"],
-  },
-  {
-    id: "guide-melbourne-4",
-    name: "Henry Hayes",
-    city: "Melbourne",
-    country: "Australia",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: false,
-    bio: "Henry is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Indigenous Culture, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Alaska"],
-    tourTypes: ["Architecture Tour", "Self-Guided Tour", "Romantic Tour", "Luxury Tour", "Accessible Tour"],
-    maxGroupSize: 10,
-    licenseNumber: "LIC-2534-MEL",
-    phoneNumber: "+1-257-493-3237",
-    contactEmail: "henry.hayes@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Henry is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Indigenous Culture, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.9,
-    reviewsCount: 77,
-    quote: "Melbourne isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/men/32.jpg",
-    languages: ["English", "Malay", "Norwegian"],
-    experienceYears: 14,
-    certifications: ["Wilderness First Responder", "Adventure Tourism Safety Certificate"],
-    specialties: ["Indigenous Culture"],
-    specialTraining: ["Wine Education", "Religious Studies"],
-  },
-  {
-    id: "guide-melbourne-5",
-    name: "Victor Thomas",
-    city: "Melbourne",
-    country: "Australia",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: false,
-    bio: "Victor is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Religious Sites, Victor provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Mediterranean", "Caribbean"],
-    tourTypes: ["Helicopter Tour", "Eco Tour", "Photography Tour", "Market Tour", "Group Tour"],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-5032-MEL",
-    phoneNumber: "+1-116-449-4423",
-    contactEmail: "victor.thomas@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Victor is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Religious Sites, Victor provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.1,
-    reviewsCount: 14,
-    quote: "The best way to discover Melbourne is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/53.jpg",
-    languages: ["Mandarin"],
-    experienceYears: 14,
-    certifications: ["Eco-Tourism Guide"],
-    specialties: ["Religious Sites"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-melbourne-6",
-    name: "Wei Hall",
-    city: "Melbourne",
-    country: "Australia",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: true,
-    bio: "Wei is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Family Activities, Wei provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada"],
-    tourTypes: ["Adventure Tour", "Audio Tour", "Festival Tour", "Shopping Tour", "Romantic Tour"],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-4176-MEL",
-    phoneNumber: "+1-601-144-6408",
-    contactEmail: "wei.hall@paragontrails.com",
-    available: [],
-    isCertified: true,
-    description: "Wei is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Family Activities, Wei provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4,
-    reviewsCount: 82,
-    quote: "Every corner of Melbourne tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/42.jpg",
-    languages: ["Hebrew", "Thai", "English"],
-    experienceYears: 11,
-    certifications: ["Heritage Interpretation Certificate", "Adventure Tourism Safety Certificate", "Sustainable Tourism Certificate"],
-    specialties: ["Family Activities"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-melbourne-7",
-    name: "Mia Jackson",
-    city: "Melbourne",
-    country: "Australia",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: false,
-    bio: "Mia is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Public Transportation Navigation, Hidden Gems, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada", "Alaska"],
-    tourTypes: ["Wildlife Safari", "Cruise Excursion", "Craft Workshop", "Group Tour", "Cultural Tour"],
-    maxGroupSize: 11,
-    licenseNumber: "LIC-6529-MEL",
-    phoneNumber: "+1-481-301-3563",
-    contactEmail: "mia.jackson@paragontrails.com",
+    bio: "Marcus is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Film Locations, Religious Sites, Marcus provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Antarctic Peninsula"],
+    tourTypes: ["Cooking Class", "Shopping Tour", "Wildlife Safari"],
+    maxGroupSize: 9,
+    licenseNumber: "LIC-4672-MEL",
+    phoneNumber: "+1-280-484-9543",
+    contactEmail: "marcus.wallace@paragontrails.com",
     available: [
       {
-        day: "Friday",
+        day: "Wednesday",
         availableHours: [
           {
-            from: "02:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "04:00 PM",
-          },
-          {
-            from: "02:00 PM",
-            to: "08:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "12:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Mia is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Public Transportation Navigation, Hidden Gems, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.1,
-    reviewsCount: 57,
-    quote: "In Melbourne, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/43.jpg",
-    languages: ["Arabic", "Greek", "Serbian"],
-    experienceYears: 13,
-    certifications: ["CPR & First Aid", "Wilderness First Responder", "Certified International Tour Manager"],
-    specialties: ["Public Transportation Navigation", "Hidden Gems"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-melbourne-8",
-    name: "Barbara Rodriguez",
-    city: "Melbourne",
-    country: "Australia",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: false,
-    bio: "Barbara is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Sustainable Tourism, Adventure Sports, Barbara provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean", "Asia Pacific"],
-    tourTypes: ["Relocation Tour", "Farm Visit", "Museum Tour", "Historical Tour", "Adventure Tour"],
-    maxGroupSize: 17,
-    licenseNumber: "LIC-9272-MEL",
-    phoneNumber: "+1-297-336-8947",
-    contactEmail: "barbara.rodriguez@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "05:00 PM",
+            from: "12:00 PM",
+            to: "03:00 PM",
           }
         ],
       },
@@ -269,93 +32,8 @@ export const melbourneaustraliaasiaPacificGuides: TourGuide[] = [
         day: "Saturday",
         availableHours: [
           {
-            from: "10:00 AM",
-            to: "04:00 PM",
-          },
-          {
-            from: "01:00 PM",
-            to: "04:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "03:00 PM",
-          },
-          {
-            from: "03:00 PM",
-            to: "08:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "01:00 PM",
-          },
-          {
-            from: "11:00 AM",
-            to: "05:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Barbara is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Sustainable Tourism, Adventure Sports, Barbara provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.4,
-    reviewsCount: 12,
-    quote: "Every corner of Melbourne tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/37.jpg",
-    languages: ["Tagalog", "Greek"],
-    experienceYears: 2,
-    certifications: ["Certified International Tour Manager", "Adventure Tourism Safety Certificate"],
-    specialties: ["Sustainable Tourism", "Adventure Sports"],
-    specialTraining: ["Regional Cuisine"],
-  },
-  {
-    id: "guide-melbourne-9",
-    name: "Liam Mason",
-    city: "Melbourne",
-    country: "Australia",
-    state: "",
-    region: "Asia Pacific",
-    isPopular: true,
-    bio: "Liam is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Family Activities, Wine Tasting, Architecture, Film Locations, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada", "Caribbean"],
-    tourTypes: ["Religious Tour", "Scenic Tour", "Accessible Tour", "Museum Tour", "Historical Tour"],
-    maxGroupSize: 5,
-    licenseNumber: "LIC-2065-MEL",
-    phoneNumber: "+1-877-887-1609",
-    contactEmail: "liam.mason@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "05:00 PM",
-          },
-          {
-            from: "11:00 AM",
-            to: "04:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "04:00 PM",
-          },
-          {
-            from: "11:00 AM",
-            to: "05:00 PM",
+            from: "08:00 AM",
+            to: "02:00 PM",
           }
         ],
       },
@@ -364,21 +42,494 @@ export const melbourneaustraliaasiaPacificGuides: TourGuide[] = [
         availableHours: [
           {
             from: "09:00 AM",
-            to: "03:00 PM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "06:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Liam is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Family Activities, Wine Tasting, Architecture, Film Locations, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.6,
-    reviewsCount: 95,
-    quote: "The best way to discover Melbourne is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/26.jpg",
-    languages: ["Bulgarian"],
+    description: "Marcus is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Film Locations, Religious Sites, Marcus provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 17,
+    quote: "Every corner of Melbourne tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/21.jpg",
+    languages: ["Russian", "Hausa", "Indonesian"],
+    experienceYears: 13,
+    certifications: ["Certified Tour Guide"],
+    specialties: ["Film Locations", "Religious Sites"],
+    specialTraining: ["Local Geography", "Accessibility Services"],
+  },
+  {
+    id: "guide-melbourne-2",
+    name: "Jordan Jackson",
+    city: "Melbourne",
+    country: "Australia",
+    state: "",
+    region: "Australia",
+    isPopular: false,
+    bio: "Jordan is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Museums, Wine Tasting, Jordan provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Atlantic Canada", "South Pacific Ocean"],
+    tourTypes: ["Group Tour", "Boat Tour"],
+    maxGroupSize: 13,
+    licenseNumber: "LIC-5259-MEL",
+    phoneNumber: "+1-460-400-6589",
+    contactEmail: "jordan.jackson@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "02:00 PM",
+          },
+          {
+            from: "02:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "02:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "08:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "05:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Jordan is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Museums, Wine Tasting, Jordan provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.2,
+    reviewsCount: 14,
+    quote: "Every corner of Melbourne tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/13.jpg",
+    languages: ["Estonian"],
+    experienceYears: 5,
+    certifications: ["Heritage Interpretation Certificate", "Certified Heritage Guide"],
+    specialties: ["Museums", "Wine Tasting"],
+    specialTraining: ["Urban Planning"],
+  },
+  {
+    id: "guide-melbourne-3",
+    name: "Elena Martinez",
+    city: "Melbourne",
+    country: "Australia",
+    state: "",
+    region: "Australia",
+    isPopular: false,
+    bio: "Elena is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Local Wildlife, Historical Architecture, Local Myths, Local Fashion, Elena provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean", "Mediterranean Sea"],
+    tourTypes: ["Adventure Tour", "Off-Road Tour"],
+    maxGroupSize: 5,
+    licenseNumber: "LIC-2736-MEL",
+    phoneNumber: "+1-410-998-1603",
+    contactEmail: "elena.martinez@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "03:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "05:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "09:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "04:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Elena is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Local Wildlife, Historical Architecture, Local Myths, Local Fashion, Elena provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.5,
+    reviewsCount: 37,
+    quote: "In Melbourne, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/5.jpg",
+    languages: ["Greek", "Farsi", "Somali"],
+    experienceYears: 14,
+    certifications: ["Wilderness First Responder", "Urban Navigation Specialist"],
+    specialties: ["Local Wildlife", "Historical Architecture", "Local Myths", "Local Fashion"],
+    specialTraining: ["Adventure Safety"],
+  },
+  {
+    id: "guide-melbourne-4",
+    name: "Jacob Hamilton",
+    city: "Melbourne",
+    country: "Australia",
+    state: "",
+    region: "Australia",
+    isPopular: false,
+    bio: "Jacob is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Historical Architecture, Local Craftsmanship, Shopping, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean Sea", "Eastern Europe"],
+    tourTypes: ["Food Tour", "Wine Tour"],
+    maxGroupSize: 12,
+    licenseNumber: "LIC-8492-MEL",
+    phoneNumber: "+1-136-578-6699",
+    contactEmail: "jacob.hamilton@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "10:00 AM",
+          },
+          {
+            from: "09:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "02:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "10:00 AM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Jacob is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Historical Architecture, Local Craftsmanship, Shopping, Jacob provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.6,
+    reviewsCount: 79,
+    quote: "Melbourne isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/15.jpg",
+    languages: ["Hausa", "Swahili"],
+    experienceYears: 11,
+    certifications: ["Food Safety Certification", "Language Proficiency Certification"],
+    specialties: ["Historical Architecture", "Local Craftsmanship", "Shopping"],
+    specialTraining: ["Tour Planning", "Crisis Management"],
+  },
+  {
+    id: "guide-melbourne-5",
+    name: "Deborah Griffin",
+    city: "Melbourne",
+    country: "Australia",
+    state: "",
+    region: "Australia",
+    isPopular: true,
+    bio: "Deborah is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Local Dance, Wildlife Watching, Wine Tasting, Deborah provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Red Sea"],
+    tourTypes: ["Underground Tour", "Photography Tour", "Audio Tour", "Boat Tour"],
+    maxGroupSize: 14,
+    licenseNumber: "LIC-6936-MEL",
+    phoneNumber: "+1-586-184-3046",
+    contactEmail: "deborah.griffin@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "09:00 PM",
+          },
+          {
+            from: "11:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Deborah is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Local Dance, Wildlife Watching, Wine Tasting, Deborah provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 53,
+    quote: "Melbourne isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/76.jpg",
+    languages: ["Nepali"],
+    experienceYears: 6,
+    certifications: ["Sustainable Tourism Certificate"],
+    specialties: ["Local Dance", "Wildlife Watching", "Wine Tasting"],
+    specialTraining: ["Local History", "Regional Geology"],
+  },
+  {
+    id: "guide-melbourne-6",
+    name: "Javier Campbell",
+    city: "Melbourne",
+    country: "Australia",
+    state: "",
+    region: "Australia",
+    isPopular: false,
+    bio: "Javier is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Urban Legends, Outdoor Activities, Historical Architecture, Javier provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Australia & New Zealand"],
+    tourTypes: ["Nature Tour", "Street Art Tour", "Wine Tour", "Accessible Tour"],
+    maxGroupSize: 17,
+    licenseNumber: "LIC-4526-MEL",
+    phoneNumber: "+1-628-386-6351",
+    contactEmail: "javier.campbell@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "03:00 PM",
+          },
+          {
+            from: "11:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "04:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "07:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Javier is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Urban Legends, Outdoor Activities, Historical Architecture, Javier provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.2,
+    reviewsCount: 81,
+    quote: "My goal is to help you fall in love with Melbourne just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/50.jpg",
+    languages: ["Somali", "Kurdish"],
+    experienceYears: 15,
+    certifications: ["Eco-Tourism Guide", "Adventure Tourism Certification"],
+    specialties: ["Urban Legends", "Outdoor Activities", "Historical Architecture"],
+    specialTraining: ["Local Flora & Fauna", "Archaeological Conservation"],
+  },
+  {
+    id: "guide-melbourne-7",
+    name: "Hassan Wood",
+    city: "Melbourne",
+    country: "Australia",
+    state: "",
+    region: "Australia",
+    isPopular: false,
+    bio: "Hassan is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Historical Tours, Art Galleries, Local Artisans, Hassan provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Persian Gulf"],
+    tourTypes: ["Religious Tour", "Street Art Tour", "Brewery Tour"],
+    maxGroupSize: 7,
+    licenseNumber: "LIC-4610-MEL",
+    phoneNumber: "+1-952-855-4023",
+    contactEmail: "hassan.wood@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "07:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Hassan is a passionate tour guide with extensive knowledge of Melbourne and Australia. Specializing in Historical Tours, Art Galleries, Local Artisans, Hassan provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.4,
+    reviewsCount: 62,
+    quote: "In Melbourne, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/58.jpg",
+    languages: ["Estonian", "Russian", "Slovak"],
     experienceYears: 16,
-    certifications: ["Adventure Tourism Safety Certificate"],
-    specialties: ["Family Activities", "Wine Tasting", "Architecture", "Film Locations"],
-    specialTraining: [],
+    certifications: ["Adventure Tourism Certification"],
+    specialties: ["Historical Tours", "Art Galleries", "Local Artisans"],
+    specialTraining: ["Adventure Safety"],
   }
 ];
