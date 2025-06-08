@@ -16,11 +16,11 @@ export interface Tour extends Details {
   city: string;
   country: string;
   state?: string;
-  region: TourRegion;
+  region: string;
   languagesOffered: string[];
   price: string;
-  tags: TourTheme[];
-  type: TourType;
+  tags: string[];
+  type: string;
   schedule: TourSchedule[];
   pricePerPerson: number;
   currency: string;
@@ -32,7 +32,7 @@ export interface Tour extends Details {
   reviewsCount?: number;
   included: string[];
   notIncluded?: string[];
-  requirements: TourRequirement[];
+  requirements: string[];
   cancellationPolicy?: string;
 }
 
@@ -110,19 +110,6 @@ export type TourTheme =
   | "Cruise Stop"
   | "Local Market"
   | "Street Food";
-
-export type TourRegion =
-  | "Asia Pacific"
-  | "Northern Europe"
-  | "Mediterranean"
-  | "East Coast USA"
-  | "South America"
-  | "Africa"
-  | "Caribbean"
-  | "Middle East"
-  | "West Coast USA"
-  | "East Coast Canada"
-  | "Alaska";
 
 export interface TourSchedule {
   attractionId: BaseAttraction["id"];
