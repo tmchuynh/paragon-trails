@@ -51,7 +51,7 @@ export default function ToursByCityPage() {
   const [cityInfo, setCityInfo] = useState<any>(null);
   const [loading, setLoading] = useState(true);
 
-  const formattedCity = formatTitleCaseToKebabCase(city);
+  const formattedCity = formatTitleToCamelCase(city);
 
   useEffect(() => {
     // Find the city information based on the city param (kebab case)
@@ -103,32 +103,32 @@ export default function ToursByCityPage() {
         {/* Header with City Name, Country and Top Navigation */}
         <div className="flex md:flex-row flex-col justify-between items-start md:items-center gap-4">
           <header>
-            <h1 className="text-start">
+            <h1>
               {cityInfo.city}
               {cityInfo.state && <span>, {cityInfo.state}</span>}
-              <span className="ml-2 text-gray-500">• {cityInfo.country}</span>
+              <span className="ml-2">• {cityInfo.country}</span>
             </h1>
-            <h5 className="text-start italic">{cityInfo.subtitle}</h5>
+            <h5>{cityInfo.subtitle}</h5>
           </header>
 
           <div className="flex sm:flex-row flex-col items-start sm:items-center gap-2 md:gap-4">
             <Link href={`/testimonials/${city}?city=${cityInfo.city}`}>
-              <Button variant="outline" className="flex items-center gap-2">
-                <MapPin size={16} />
+              <Button variant="secondary" className="flex items-center gap-2">
+                <MapPin size={20} />
                 View Testimonials
               </Button>
             </Link>
             <Link href={`/testimonials/${city}/tours`}>
-              <Button variant="outline" className="flex items-center gap-2">
-                <Landmark size={16} />
+              <Button variant="tertiary" className="flex items-center gap-2">
+                <Landmark size={20} />
                 Tour Reviews
               </Button>
             </Link>
             <Link
               href={`/experiences-through-destinations/${formatTitleCaseToKebabCase(city)}/tours`}
             >
-              <Button variant="default" className="flex items-center gap-2">
-                <Globe size={16} />
+              <Button variant="accent" className="flex items-center gap-2">
+                <Globe size={20} />
                 Explore Tours
               </Button>
             </Link>
@@ -142,9 +142,7 @@ export default function ToursByCityPage() {
               Popular Destination
             </Badge>
           )}
-          <blockquote className="font-medium text-lg md:text-xl italic">
-            "{cityInfo.quote}"
-          </blockquote>
+          <blockquote>"{cityInfo.quote}"</blockquote>
         </div>
 
         {/* Main Content Grid */}
@@ -152,27 +150,104 @@ export default function ToursByCityPage() {
           {/* Left Column - Main Information */}
           <div className="space-y-6 lg:col-span-2">
             {/* City Image */}
-            <div className="relative rounded-lg w-full h-[400px] overflow-hidden">
-              <Image
-                src={
-                  cityInfo.imageUrl ||
-                  "https://images.unsplash.com/photo-1500835556837-99ac94a94552"
-                }
-                alt={`${cityInfo.city} landscape`}
-                className="object-cover"
-                fill
-                priority
-              />
+            <div className="grid grid-cols-1 lg:grid-cols-3 h-full">
+              <div className="relative col-span-1 rounded-lg w-full h-[400px] lg:h-full overflow-hidden">
+                <Image
+                  src={
+                    cityInfo.imageUrl ||
+                    "https://images.unsplash.com/photo-1500835556837-99ac94a94552"
+                  }
+                  alt={`${cityInfo.city} landscape`}
+                  className="object-cover"
+                  fill
+                  priority
+                />
+              </div>
+              {/* Services Tab */}
+              <Card className="lg:block hidden col-span-2">
+                <CardHeader>
+                  <CardTitle>Available Services</CardTitle>
+                  <h5>Transportation and travel services in {cityInfo.city}</h5>
+                </CardHeader>
+                <CardContent>
+                  <div className="gap-x-6 gap-y-4 grid grid-cols-1 md:grid-cols-2">
+                    <div className="flex items-center gap-3">
+                      <Car
+                        className={`h-5 w-5 ${cityInfo.services?.carRentalAvailable ? "text-green-500" : "text-gray-400"}`}
+                      />
+                      <span className="flex items-center gap-2">
+                        Car Rental
+                        {cityInfo.services?.carRentalAvailable ? (
+                          <Check className="w-4 h-4 text-green-500" />
+                        ) : (
+                          <X className="w-4 h-4 text-gray-400" />
+                        )}
+                      </span>
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <Bike
+                        className={`h-5 w-5 ${cityInfo.services?.motorcycleRentalAvailable ? "text-green-500" : "text-gray-400"}`}
+                      />
+                      <span className="flex items-center gap-2">
+                        Motorcycle Rental
+                        {cityInfo.services?.motorcycleRentalAvailable ? (
+                          <Check className="w-4 h-4 text-green-500" />
+                        ) : (
+                          <X className="w-4 h-4 text-gray-400" />
+                        )}
+                      </span>
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <Sailboat
+                        className={`h-5 w-5 ${cityInfo.services?.yachtRentalAvailable ? "text-green-500" : "text-gray-400"}`}
+                      />
+                      <span className="flex items-center gap-2">
+                        Yacht/Boat Rental
+                        {cityInfo.services?.yachtRentalAvailable ? (
+                          <Check className="w-4 h-4 text-green-500" />
+                        ) : (
+                          <X className="w-4 h-4 text-gray-400" />
+                        )}
+                      </span>
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <Plane
+                        className={`h-5 w-5 ${cityInfo.services?.airportTransfers ? "text-green-500" : "text-gray-400"}`}
+                      />
+                      <span className="flex items-center gap-2">
+                        Airport Transfers
+                        {cityInfo.services?.airportTransfers ? (
+                          <Check className="w-4 h-4 text-green-500" />
+                        ) : (
+                          <X className="w-4 h-4 text-gray-400" />
+                        )}
+                      </span>
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <Train
+                        className={`h-5 w-5 ${cityInfo.services?.localTransitPasses ? "text-green-500" : "text-gray-400"}`}
+                      />
+                      <span className="flex items-center gap-2">
+                        Local Transit Passes
+                        {cityInfo.services?.localTransitPasses ? (
+                          <Check className="w-4 h-4 text-green-500" />
+                        ) : (
+                          <X className="w-4 h-4 text-gray-400" />
+                        )}
+                      </span>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
             </div>
 
             {/* Tabs for Different Information */}
-            <Tabs defaultValue="overview">
+            <Tabs defaultValue="overview" className="lg:hidden">
               <TabsList className="grid md:grid-cols-5 mb-6 w-full">
                 <TabsTrigger value="overview">Overview</TabsTrigger>
                 <TabsTrigger value="attractions">Attractions</TabsTrigger>
                 <TabsTrigger value="services">Services</TabsTrigger>
                 <TabsTrigger value="testimonials">Testimonials</TabsTrigger>
-                <TabsTrigger value="map">Map</TabsTrigger>
               </TabsList>
 
               {/* Overview Tab */}
@@ -405,32 +480,96 @@ export default function ToursByCityPage() {
                   </CardContent>
                 </Card>
               </TabsContent>
-
-              {/* Map Tab */}
-              <TabsContent value="map" className="space-y-6">
-                <Card>
-                  <CardHeader>
-                    <CardTitle>{cityInfo.city} on the Map</CardTitle>
-                    <h5>Coordinates: {formattedCoordinates}</h5>
-                  </CardHeader>
-                  <CardContent>
-                    <div className="flex justify-center items-center bg-muted rounded-md h-[400px]">
-                      <div className="text-center">
-                        <p>
-                          {cityInfo.city} is located at latitude{" "}
-                          {cityInfo.coordinates.lat.toFixed(4)} and longitude{" "}
-                          {cityInfo.coordinates.lng.toFixed(4)}
-                        </p>
-                        <p className="mt-2">
-                          For an interactive map experience, please use our
-                          mobile app or contact us for directions.
-                        </p>
-                      </div>
-                    </div>
-                  </CardContent>
-                </Card>
-              </TabsContent>
             </Tabs>
+
+            {/* Overview Tab */}
+            <Card>
+              <CardHeader>
+                <CardTitle>About {cityInfo.city}</CardTitle>
+                <h5>Everything you need to know</h5>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <p>{cityInfo.description}</p>
+
+                {/* Tags */}
+                <div className="flex flex-wrap gap-2">
+                  {cityInfo.tags?.map((tag: string) => (
+                    <Badge key={tag} variant={"secondaryFaded"}>
+                      {capitalize(tag.replace(/-/g, " "))}
+                    </Badge>
+                  ))}
+                </div>
+
+                {/* Languages */}
+                <div className="mt-4">
+                  <h4 className="flex items-center gap-2 mb-2 font-medium">
+                    <Languages size={18} /> Languages Spoken
+                  </h4>
+                  <div className="flex flex-wrap gap-2">
+                    {cityInfo.languagesSpoken?.map((language: string) => (
+                      <Badge key={language} variant="secondary">
+                        {language}
+                      </Badge>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Climate and Certification */}
+                <div className="gap-4 grid grid-cols-1 md:grid-cols-2 mt-4">
+                  <div>
+                    <h4 className="font-medium">Climate</h4>
+                    <p>{cityInfo.climate}</p>
+                  </div>
+                  <div>
+                    <h4 className="font-medium">Eco-Certified</h4>
+                    <p className="flex items-center gap-2">
+                      {cityInfo.isEcoCertified ? (
+                        <>
+                          <Check className="w-5 h-5 text-green-500" />
+                          Yes - This destination meets sustainable tourism
+                          standards
+                        </>
+                      ) : (
+                        <>
+                          <X className="w-5 h-5 text-gray-400" />
+                          Not currently certified
+                        </>
+                      )}
+                    </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Attractions Tab */}
+            <Card>
+              <CardHeader>
+                <CardTitle>Top Attractions in {cityInfo.city}</CardTitle>
+                <h5>Must-see places and experiences</h5>
+              </CardHeader>
+              <CardContent>
+                <ul className="space-y-4">
+                  {cityInfo.topAttractions?.map(
+                    (attraction: string, index: number) => (
+                      <li key={attraction} className="flex items-start gap-4">
+                        <div className="flex justify-center items-center bg-primary/10 rounded-full w-8 h-8 text-primary shrink-0">
+                          {index + 1}
+                        </div>
+                        <div>
+                          <h4 className="font-medium capitalize">
+                            {attraction.replace(/-/g, " ")}
+                          </h4>
+                          {/* Note: In a real application, you might have more details for each attraction */}
+                          <p className="text-gray-600 text-sm">
+                            Popular attraction in {cityInfo.city}
+                          </p>
+                        </div>
+                      </li>
+                    )
+                  )}
+                </ul>
+              </CardContent>
+            </Card>
           </div>
 
           {/* Right Column - City Details */}
