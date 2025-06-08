@@ -39,7 +39,9 @@ import {
   removeAccents,
   formatTimeTo12HourClock,
   removeSpecialCharacters,
+  normalizeString,
 } from "./utils/format-utils.mjs";
+import { weekDays } from "./generate-tour-guides.mjs";
 import {
   cityCountryMap,
   cityToRegionMap,
@@ -1496,18 +1498,15 @@ async function generateCityTourFile(city) {
   const countryName = cityCountryMap[city] || "";
   const regionName = cityToRegionMap[city] || "";
 
-  const formattedCountry = formatTitleToCamelCase(removeAccents(countryName));
-  const formattedRegion = formatTitleToCamelCase(removeAccents(regionName));
+  const formattedCountry = formatTitleToCamelCase(normalizeString(countryName));
+  const formattedRegion = formatTitleToCamelCase(normalizeString(regionName));
 
-  const formattedName = removeAccents(city);
+  const formattedName = normalizeString(city);
 
-  const variableName = `${formatKebabToCamelCase(removeSpecialCharacters(formattedName))}${formattedCountry}${formattedRegion}Tours`;
+  const variableName = `${formatKebabToCamelCase(formattedName)}${formattedCountry}${formattedRegion}Tours`;
 
   const destDir = path.join(process.cwd(), "src", "lib", "constants", "tours");
-  const filePath = path.join(
-    destDir,
-    `${removeSpecialCharacters(formattedName)}.ts`
-  );
+  const filePath = path.join(destDir, `${formattedName}.ts`);
 
   // Check if file exists
   const exists = await fileExists(filePath);
