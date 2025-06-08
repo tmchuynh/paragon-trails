@@ -24,33 +24,34 @@ export default function ExperiencesThroughDestinationsPage() {
         {cities.map((city) => (
           <div
             key={city.city}
-            className="relative flex flex-col shadow-md border border-border rounded-lg h-full overflow-hidden"
+            className="relative flex flex-col justify-between shadow-md p-6 border border-border rounded-lg h-full overflow-hidden"
           >
-            <div className="p-4">
+            <div className="h-full">
               <h2>
                 {city.city}, {city.country}
               </h2>
               <h5>{city.subtitle}</h5>
               <p>{city.quote}</p>
-
+            </div>
+            {city.isPopular && (
               <Badge
                 className="top-5 right-4 absolute"
-                variant={city.isPopular ? "successFaded" : "errorFaded"}
+                variant={"successFaded"}
               >
-                {city.isPopular && "Popular Destination"}
+                {"Popular Destination"}
               </Badge>
-              <Button
-                className="md:w-1/2"
-                variant={"fancy"}
-                onClick={() =>
-                  router.push(
-                    `/experiences-through-destinations/${formatTitleCaseToKebabCase(city.city)}?city=${city.city}`
-                  )
-                }
-              >
-                Learn More
-              </Button>
-            </div>
+            )}
+            <Button
+              className="md:w-1/2"
+              variant={"fancy"}
+              onClick={() =>
+                router.push(
+                  `/experiences-through-destinations/${formatTitleCaseToKebabCase(city.city)}?city=${city.city}`
+                )
+              }
+            >
+              Learn More
+            </Button>
           </div>
         ))}
       </section>
