@@ -554,6 +554,8 @@ async function generateCityFile(city) {
 
   // Create file content with proper formatting
   let content = `// Auto-generated file for ${city} hotels\n`;
+  content += `// Do not edit manually, use scripts/generate-hotels.mjs to update\n\n`;
+  content += `// Generated on: ${new Date().toISOString()}\n\n`;
   content += `import { Hotel } from "@/lib/interfaces/services/rentals";\n\n`;
   content += `export const ${variableName}: Hotel[] = [\n`;
 
