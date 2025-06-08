@@ -1,0 +1,122 @@
+// Homestay data for casablanca
+// This file is auto-generated. Do not edit manually.
+
+import { Host } from "@/lib/interfaces/people/homestay";
+
+export const casablancaHomestays: Host[] = [
+      {
+        name: "Brandon Smith",
+        background: "Organic farmer with a small plot on the outskirts of town",
+        maxGuests: 3,
+        languages: ["English", "Arabic", "Chinese", "Italian"],
+        curfew: "23:00 PM",
+        isPopular: false,
+        guestPolicy: ["Suitable for business travelers", "Great for couples", "Smoking allowed in designated areas only"],
+        hostingStyle: "social",
+        houseRules: ["Notify host if you'll be arriving after 10 PM", "No food in the bedrooms", "Laundry available on weekends only", "Pets welcome", "Respect shared spaces"],
+        location: {
+          city: "Casablanca",
+          region: "Morocco",
+          country: "Morocco",
+          coordinates: { lat: 39.92538389827615, lng: -0.08153836658336676 },
+        },
+        availability: {
+          checkInTime: "12:00 PM",
+          checkOutTime: "9:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "brandon.smith@paragontrailshomestays.com",
+        isVerified: true,
+        rating: 4.9,
+        reviewCount: 50,
+        quote: "Welcome to my casablanca home! I believe in creating a warm, welcoming environment for all my guests.",
+        stayType: "culinary-homestay",
+      },
+      {
+        name: "Ana Collins",
+        background: "Local chef specializing in traditional cuisines",
+        maxGuests: 6,
+        languages: ["English", "Russian", "Chinese"],
+        curfew: "21:00 PM",
+        isPopular: false,
+        guestPolicy: ["Smoking allowed in designated areas only", "Suitable for business travelers", "Pet-friendly accommodation"],
+        hostingStyle: "hands-on",
+        houseRules: ["Breakfast is self-serve between 7-9 AM", "Recycle according to local guidelines", "Wi-Fi password will be provided upon arrival", "Notify host if you'll be arriving after 10 PM", "Lock the door when leaving the house"],
+        location: {
+          city: "Casablanca",
+          region: "Morocco",
+          country: "Morocco",
+          coordinates: { lat: 39.957563823316846, lng: 0.02859684138971419 },
+        },
+        availability: {
+          checkInTime: "17:00 PM",
+          checkOutTime: "11:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "ana.collins@paragontrailshomestays.com",
+        phoneNumber: "+2-1065-1698",
+        isVerified: true,
+        rating: 3.6,
+        reviewCount: 73,
+        quote: "I've lived in casablanca all my life and know all the best spots. Can't wait to share my city with you!",
+        stayType: "eco-stay",
+      }
+,
+      {
+        name: "Margaret Johnson",
+        background: "Artist who loves sharing local cultural insights",
+        maxGuests: 3,
+        languages: ["English", "Japanese", "Portuguese"],
+        curfew: "15:00 AM",
+        isPopular: true,
+        guestPolicy: ["Accessible for guests with mobility issues", "Perfect for long-term stays", "Great for couples", "Smoking allowed in designated areas only"],
+        hostingStyle: "private",
+        houseRules: ["Breakfast is self-serve between 7-9 AM", "No outside guests without permission", "No smoking indoors", "Please conserve water and electricity", "Wi-Fi password will be provided upon arrival", "Recycle according to local guidelines"],
+        location: {
+          city: "Casablanca",
+          region: "Morocco",
+          country: "Morocco",
+          coordinates: { lat: 40.008192791935734, lng: -0.0695061845238989 },
+        },
+        availability: {
+          checkInTime: "16:00 PM",
+          checkOutTime: "11:00 AM",
+        },
+        email: "margaret.johnson@paragontrailshomestays.com",
+        phoneNumber: "+19-295-9165",
+        isVerified: true,
+        rating: 4.2,
+        reviewCount: 95,
+        quote: "Life in casablanca has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        stayType: "guest-suite",
+      }
+,
+      {
+        name: "Joan da Costa",
+        background: "Former tour guide with extensive knowledge of local history",
+        maxGuests: 4,
+        languages: ["English", "Arabic", "Italian"],
+        curfew: "23:00 PM",
+        isPopular: false,
+        guestPolicy: ["Great for couples", "Accessible for guests with mobility issues", "No children under 12"],
+        hostingStyle: "social",
+        houseRules: ["No smoking indoors", "Pets welcome", "No pets allowed"],
+        location: {
+          city: "Casablanca",
+          region: "Morocco",
+          country: "Morocco",
+          coordinates: { lat: 40.067991934904136, lng: 0.051964020844868924 },
+        },
+        availability: {
+          checkInTime: "14:00 PM",
+          checkOutTime: "10:00 AM",
+        },
+        email: "joan.da@paragontrailshomestays.com",
+        isVerified: true,
+        rating: 3.9,
+        reviewCount: 84,
+        quote: "Welcome to my casablanca home! I believe in creating a warm, welcoming environment for all my guests.",
+        stayType: "private-room-in-home",
+      }
+
+];

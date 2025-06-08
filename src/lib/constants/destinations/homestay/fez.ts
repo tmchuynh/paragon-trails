@@ -1,0 +1,123 @@
+// Homestay data for fez
+// This file is auto-generated. Do not edit manually.
+
+import { Host } from "@/lib/interfaces/people/homestay";
+
+export const fezHomestays: Host[] = [
+      {
+        name: "Harold Henderson",
+        background: "Artist who loves sharing local cultural insights",
+        maxGuests: 3,
+        languages: ["English", "German", "Chinese", "Portuguese"],
+        curfew: "24:00 PM",
+        isPopular: false,
+        guestPolicy: ["LGBTQ+ friendly", "Pet-friendly accommodation", "Perfect for long-term stays", "Family-friendly environment"],
+        hostingStyle: "hands-on",
+        houseRules: ["Notify host if you'll be arriving after 10 PM", "Laundry available on weekends only", "No food in the bedrooms", "Wi-Fi password will be provided upon arrival", "Remove shoes when entering the home", "Recycle according to local guidelines"],
+        location: {
+          city: "Fez",
+          region: "Morocco",
+          country: "Morocco",
+          coordinates: { lat: 40.04907561858379, lng: -0.07915041537982699 },
+        },
+        availability: {
+          checkInTime: "15:00 PM",
+          checkOutTime: "11:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "harold.henderson@paragontrailshomestays.com",
+        phoneNumber: "+86-633-1882",
+        isVerified: true,
+        rating: 4.4,
+        reviewCount: 96,
+        quote: "My home is your home in fez. I look forward to making your stay memorable and authentic.",
+        stayType: "host-family-stay",
+      }
+,
+      {
+        name: "Benjamin Lawson",
+        background: "Local musician involved in the cultural scene",
+        maxGuests: 3,
+        languages: ["English", "Italian", "French"],
+        curfew: "23:00 PM",
+        isPopular: true,
+        guestPolicy: ["LGBTQ+ friendly", "Suitable for digital nomads", "No parties or events"],
+        hostingStyle: "hands-on",
+        houseRules: ["Wi-Fi password will be provided upon arrival", "No food in the bedrooms", "Laundry available on weekends only", "Respect shared spaces"],
+        location: {
+          city: "Fez",
+          region: "Morocco",
+          country: "Morocco",
+          coordinates: { lat: 39.974259989527525, lng: -0.04298386983922758 },
+        },
+        availability: {
+          checkInTime: "15:00 PM",
+          checkOutTime: "9:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "benjamin.lawson@paragontrailshomestays.com",
+        isVerified: true,
+        rating: 3.6,
+        reviewCount: 75,
+        quote: "Staying with me means experiencing fez like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        stayType: "entire-home",
+      }
+,
+      {
+        name: "Sofia Carpenter",
+        background: "Yoga instructor offering morning sessions",
+        maxGuests: 2,
+        languages: ["English", "German", "French", "Spanish"],
+        curfew: "14:00 AM",
+        isPopular: false,
+        guestPolicy: ["Great for couples", "Suitable for digital nomads"],
+        hostingStyle: "laid-back",
+        houseRules: ["Notify host if you'll be arriving after 10 PM", "No pets allowed", "No smoking indoors", "No outside guests without permission"],
+        location: {
+          city: "Fez",
+          region: "Morocco",
+          country: "Morocco",
+          coordinates: { lat: 40.001442721632806, lng: -0.08755864685214823 },
+        },
+        availability: {
+          checkInTime: "12:00 PM",
+          checkOutTime: "12:00 AM",
+        },
+        email: "sofia.carpenter@paragontrailshomestays.com",
+        phoneNumber: "+37-996-3675",
+        isVerified: true,
+        rating: 4.5,
+        reviewCount: 55,
+        quote: "Staying with me means experiencing fez like a local. I love sharing the hidden gems of our beautiful city with my guests.",
+        stayType: "urban-apartment-stay",
+      },
+      {
+        name: "Gabriel da Costa",
+        background: "Retired schoolteacher passionate about sharing local traditions",
+        maxGuests: 5,
+        languages: ["English", "Arabic", "Japanese"],
+        curfew: "22:00 PM",
+        isPopular: false,
+        guestPolicy: ["Ideal for solo travelers", "No parties or events", "Great for couples"],
+        hostingStyle: "social",
+        houseRules: ["Lock the door when leaving the house", "Please conserve water and electricity", "Quiet hours after 10 PM"],
+        location: {
+          city: "Fez",
+          region: "Morocco",
+          country: "Morocco",
+          coordinates: { lat: 39.970932667416314, lng: -0.0662824581070883 },
+        },
+        availability: {
+          checkInTime: "17:00 PM",
+          checkOutTime: "12:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "gabriel.da@paragontrailshomestays.com",
+        isVerified: true,
+        rating: 4.6,
+        reviewCount: 20,
+        quote: "Welcome to my fez home! I believe in creating a warm, welcoming environment for all my guests.",
+        stayType: "shared-room",
+      }
+
+];

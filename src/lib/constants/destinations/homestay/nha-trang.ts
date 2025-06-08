@@ -1,0 +1,122 @@
+// Homestay data for nha-trang
+// This file is auto-generated. Do not edit manually.
+
+import { Host } from "@/lib/interfaces/people/homestay";
+
+export const nhaTrangHomestays: Host[] = [
+      {
+        name: "Justin Mason",
+        background: "University professor with expertise in local culture",
+        maxGuests: 2,
+        languages: ["English", "Spanish", "German", "Russian"],
+        curfew: "21:00 PM",
+        isPopular: true,
+        guestPolicy: ["Senior-friendly accommodations", "Accessible for guests with mobility issues"],
+        hostingStyle: "private",
+        houseRules: ["Remove shoes when entering the home", "Kitchen closed after 8 PM", "Quiet hours after 10 PM", "No loud music after 9 PM"],
+        location: {
+          city: "Nha Trang",
+          region: "Vietnam",
+          country: "Vietnam",
+          coordinates: { lat: 39.95832543761401, lng: 0.017714099512903703 },
+        },
+        availability: {
+          checkInTime: "12:00 PM",
+          checkOutTime: "11:00 AM",
+        },
+        email: "justin.mason@paragontrailshomestays.com",
+        isVerified: true,
+        rating: 4.1,
+        reviewCount: 10,
+        quote: "I've lived in nha-trang all my life and know all the best spots. Can't wait to share my city with you!",
+        stayType: "culinary-homestay",
+      },
+      {
+        name: "Isabella Dubois",
+        background: "Organic farmer with a small plot on the outskirts of town",
+        maxGuests: 1,
+        languages: ["English", "Arabic", "German", "Spanish"],
+        curfew: "21:00 PM",
+        isPopular: true,
+        guestPolicy: ["Accessible for guests with mobility issues", "No parties or events"],
+        hostingStyle: "laid-back",
+        houseRules: ["Breakfast is self-serve between 7-9 AM", "Respect shared spaces", "Please clean up after yourself in common areas", "No food in the bedrooms"],
+        location: {
+          city: "Nha Trang",
+          region: "Vietnam",
+          country: "Vietnam",
+          coordinates: { lat: 40.03195250825576, lng: 0.001371015629952052 },
+        },
+        availability: {
+          checkInTime: "13:00 PM",
+          checkOutTime: "10:00 AM",
+        },
+        email: "isabella.dubois@paragontrailshomestays.com",
+        phoneNumber: "+2-961-8305",
+        isVerified: true,
+        rating: 4.2,
+        reviewCount: 24,
+        quote: "My home is your home in nha-trang. I look forward to making your stay memorable and authentic.",
+        stayType: "host-family-stay",
+      }
+,
+      {
+        name: "Michelle Taylor",
+        background: "Artist who loves sharing local cultural insights",
+        maxGuests: 5,
+        languages: ["English", "French", "Italian", "Arabic"],
+        curfew: "14:00 AM",
+        isPopular: false,
+        guestPolicy: ["Perfect for long-term stays", "No parties or events"],
+        hostingStyle: "laid-back",
+        houseRules: ["Breakfast is self-serve between 7-9 AM", "No loud music after 9 PM", "No smoking indoors", "No pets allowed", "No outside guests without permission"],
+        location: {
+          city: "Nha Trang",
+          region: "Vietnam",
+          country: "Vietnam",
+          coordinates: { lat: 39.92359871845412, lng: 0.0472020285513059 },
+        },
+        availability: {
+          checkInTime: "16:00 PM",
+          checkOutTime: "12:00 AM",
+        },
+        email: "michelle.taylor@paragontrailshomestays.com",
+        phoneNumber: "+47-320-1060",
+        isVerified: true,
+        rating: 3.7,
+        reviewCount: 23,
+        quote: "Life in nha-trang has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        stayType: "language-immersion",
+      }
+,
+      {
+        name: "Omar Gonzalez",
+        background: "Organic farmer with a small plot on the outskirts of town",
+        maxGuests: 3,
+        languages: ["English", "Spanish", "Japanese", "Arabic"],
+        curfew: "14:00 AM",
+        isPopular: true,
+        guestPolicy: ["Not suitable for infants (under 2 years)", "Suitable for business travelers"],
+        hostingStyle: "hands-on",
+        houseRules: ["Breakfast is self-serve between 7-9 AM", "Kitchen closed after 8 PM", "Wi-Fi password will be provided upon arrival", "Please clean up after yourself in common areas"],
+        location: {
+          city: "Nha Trang",
+          region: "Vietnam",
+          country: "Vietnam",
+          coordinates: { lat: 40.06808210181456, lng: -0.059622210561839674 },
+        },
+        availability: {
+          checkInTime: "14:00 PM",
+          checkOutTime: "11:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "omar.gonzalez@paragontrailshomestays.com",
+        phoneNumber: "+47-699-1692",
+        isVerified: true,
+        rating: 4.3,
+        reviewCount: 40,
+        quote: "My home is your home in nha-trang. I look forward to making your stay memorable and authentic.",
+        stayType: "bed-and-breakfast",
+      }
+
+];

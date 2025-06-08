@@ -1,0 +1,123 @@
+// Homestay data for port-vila
+// This file is auto-generated. Do not edit manually.
+
+import { Host } from "@/lib/interfaces/people/homestay";
+
+export const portVilaHomestays: Host[] = [
+      {
+        name: "Janet Dixon",
+        background: "Artist who loves sharing local cultural insights",
+        maxGuests: 6,
+        languages: ["English", "Russian", "Arabic"],
+        curfew: "13:00 AM",
+        isPopular: false,
+        guestPolicy: ["Smoking allowed in designated areas only", "Not suitable for infants (under 2 years)", "Great for couples", "No parties or events"],
+        hostingStyle: "family-oriented",
+        houseRules: ["Notify host if you'll be arriving after 10 PM", "Please clean up after yourself in common areas", "Lock the door when leaving the house", "Remove shoes when entering the home", "No loud music after 9 PM"],
+        location: {
+          city: "Port Vila",
+          region: "Vanuatu",
+          country: "Vanuatu",
+          coordinates: { lat: 40.064021176085475, lng: 0.0069997032760675815 },
+        },
+        availability: {
+          checkInTime: "15:00 PM",
+          checkOutTime: "12:00 AM",
+        },
+        email: "janet.dixon@paragontrailshomestays.com",
+        isVerified: true,
+        rating: 4.2,
+        reviewCount: 56,
+        quote: "Life in port-vila has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        stayType: "villa-stay",
+      }
+,
+      {
+        name: "Henry Harris",
+        background: "Language teacher who enjoys helping visitors learn the local tongue",
+        maxGuests: 5,
+        languages: ["English", "Chinese", "Russian", "Italian"],
+        curfew: "22:00 PM",
+        isPopular: false,
+        guestPolicy: ["Senior-friendly accommodations", "Smoking allowed in designated areas only", "No parties or events"],
+        hostingStyle: "laid-back",
+        houseRules: ["Laundry available on weekends only", "Breakfast is self-serve between 7-9 AM", "Recycle according to local guidelines"],
+        location: {
+          city: "Port Vila",
+          region: "Vanuatu",
+          country: "Vanuatu",
+          coordinates: { lat: 39.99854885629703, lng: 0.07432250867279727 },
+        },
+        availability: {
+          checkInTime: "13:00 PM",
+          checkOutTime: "9:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "henry.harris@paragontrailshomestays.com",
+        phoneNumber: "+73-355-8970",
+        isVerified: true,
+        rating: 3.6,
+        reviewCount: 24,
+        quote: "Welcome to my port-vila home! I believe in creating a warm, welcoming environment for all my guests.",
+        stayType: "eco-stay",
+      }
+,
+      {
+        name: "Audrey Graham",
+        background: "Language teacher who enjoys helping visitors learn the local tongue",
+        maxGuests: 4,
+        languages: ["English", "Chinese", "Italian"],
+        curfew: "21:00 PM",
+        isPopular: true,
+        guestPolicy: ["Senior-friendly accommodations", "Ideal for solo travelers", "Smoking allowed in designated areas only", "Accessible for guests with mobility issues"],
+        hostingStyle: "family-oriented",
+        houseRules: ["Breakfast is self-serve between 7-9 AM", "No outside guests without permission", "Pets welcome", "No smoking indoors", "Kitchen closed after 8 PM"],
+        location: {
+          city: "Port Vila",
+          region: "Vanuatu",
+          country: "Vanuatu",
+          coordinates: { lat: 39.98090333030388, lng: 0.09928081468295377 },
+        },
+        availability: {
+          checkInTime: "16:00 PM",
+          checkOutTime: "9:00 AM",
+        },
+        email: "audrey.graham@paragontrailshomestays.com",
+        phoneNumber: "+68-194-2730",
+        isVerified: true,
+        rating: 3.9,
+        reviewCount: 20,
+        quote: "My home is your home in port-vila. I look forward to making your stay memorable and authentic.",
+        stayType: "host-family-stay",
+      },
+      {
+        name: "Ibrahim Foster",
+        background: "Retired schoolteacher passionate about sharing local traditions",
+        maxGuests: 6,
+        languages: ["English", "German", "Italian"],
+        curfew: "15:00 AM",
+        isPopular: true,
+        guestPolicy: ["LGBTQ+ friendly", "No children under 12", "Great for couples"],
+        hostingStyle: "social",
+        houseRules: ["No food in the bedrooms", "Kitchen closed after 8 PM", "No pets allowed", "Quiet hours after 10 PM"],
+        location: {
+          city: "Port Vila",
+          region: "Vanuatu",
+          country: "Vanuatu",
+          coordinates: { lat: 39.9463341033572, lng: -0.0054412693749014834 },
+        },
+        availability: {
+          checkInTime: "13:00 PM",
+          checkOutTime: "12:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "ibrahim.foster@paragontrailshomestays.com",
+        phoneNumber: "+4-781-7710",
+        isVerified: true,
+        rating: 4.4,
+        reviewCount: 41,
+        quote: "Welcome to my port-vila home! I believe in creating a warm, welcoming environment for all my guests.",
+        stayType: "farm-stay",
+      }
+
+];

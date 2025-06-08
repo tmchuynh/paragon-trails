@@ -1,0 +1,122 @@
+// Homestay data for kampala
+// This file is auto-generated. Do not edit manually.
+
+import { Host } from "@/lib/interfaces/people/homestay";
+
+export const kampalaHomestays: Host[] = [
+      {
+        name: "Aisha Silva",
+        background: "Language teacher who enjoys helping visitors learn the local tongue",
+        maxGuests: 4,
+        languages: ["English", "Japanese", "Spanish"],
+        curfew: "22:00 PM",
+        isPopular: false,
+        guestPolicy: ["LGBTQ+ friendly", "Suitable for digital nomads", "Pet-friendly accommodation"],
+        hostingStyle: "social",
+        houseRules: ["Quiet hours after 10 PM", "Breakfast is self-serve between 7-9 AM", "No food in the bedrooms", "Wi-Fi password will be provided upon arrival", "No pets allowed", "Pets welcome"],
+        location: {
+          city: "Kampala",
+          region: "Uganda",
+          country: "Uganda",
+          coordinates: { lat: 40.00338523213101, lng: 0.09281155873006797 },
+        },
+        availability: {
+          checkInTime: "14:00 PM",
+          checkOutTime: "9:00 AM",
+        },
+        email: "aisha.silva@paragontrailshomestays.com",
+        isVerified: true,
+        rating: 3.8,
+        reviewCount: 91,
+        quote: "Life in kampala has its own rhythm. Stay with me to experience the true pulse of this amazing place.",
+        stayType: "eco-stay",
+      },
+      {
+        name: "Hannah Palmer",
+        background: "Entrepreneur running a local business",
+        maxGuests: 3,
+        languages: ["English", "Japanese", "French"],
+        curfew: "22:00 PM",
+        isPopular: true,
+        guestPolicy: ["Not suitable for infants (under 2 years)", "Family-friendly environment", "Smoking allowed in designated areas only"],
+        hostingStyle: "laid-back",
+        houseRules: ["No food in the bedrooms", "No pets allowed", "Kitchen closed after 8 PM"],
+        location: {
+          city: "Kampala",
+          region: "Uganda",
+          country: "Uganda",
+          coordinates: { lat: 40.06392585415831, lng: 0.05018429519388956 },
+        },
+        availability: {
+          checkInTime: "14:00 PM",
+          checkOutTime: "11:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "hannah.palmer@paragontrailshomestays.com",
+        isVerified: true,
+        rating: 4.2,
+        reviewCount: 51,
+        quote: "I've lived in kampala all my life and know all the best spots. Can't wait to share my city with you!",
+        stayType: "shared-room",
+      }
+,
+      {
+        name: "Ahmed Crawford",
+        background: "Yoga instructor offering morning sessions",
+        maxGuests: 6,
+        languages: ["English", "Arabic", "French", "Portuguese"],
+        curfew: "21:00 PM",
+        isPopular: true,
+        guestPolicy: ["Senior-friendly accommodations", "No children under 12"],
+        hostingStyle: "hands-on",
+        houseRules: ["No food in the bedrooms", "Quiet hours after 10 PM", "No smoking indoors", "Please clean up after yourself in common areas"],
+        location: {
+          city: "Kampala",
+          region: "Uganda",
+          country: "Uganda",
+          coordinates: { lat: 39.9756139939253, lng: -0.03491599804892753 },
+        },
+        availability: {
+          checkInTime: "16:00 PM",
+          checkOutTime: "11:00 AM",
+          calendarLink: "https://calendar.example.com/availability",
+        },
+        email: "ahmed.crawford@paragontrailshomestays.com",
+        phoneNumber: "+57-831-4301",
+        isVerified: false,
+        rating: 4.1,
+        reviewCount: 25,
+        quote: "I've lived in kampala all my life and know all the best spots. Can't wait to share my city with you!",
+        stayType: "guest-suite",
+      }
+,
+      {
+        name: "Eric Reeves",
+        background: "Organic farmer with a small plot on the outskirts of town",
+        maxGuests: 3,
+        languages: ["English", "Japanese", "German", "Portuguese"],
+        curfew: "14:00 AM",
+        isPopular: false,
+        guestPolicy: ["No parties or events", "No children under 12"],
+        hostingStyle: "laid-back",
+        houseRules: ["Quiet hours after 10 PM", "Kitchen closed after 8 PM", "No food in the bedrooms", "Laundry available on weekends only", "Notify host if you'll be arriving after 10 PM"],
+        location: {
+          city: "Kampala",
+          region: "Uganda",
+          country: "Uganda",
+          coordinates: { lat: 40.03255203977166, lng: 0.06902663535128292 },
+        },
+        availability: {
+          checkInTime: "14:00 PM",
+          checkOutTime: "11:00 AM",
+        },
+        email: "eric.reeves@paragontrailshomestays.com",
+        phoneNumber: "+32-567-5070",
+        isVerified: false,
+        rating: 3.6,
+        reviewCount: 63,
+        quote: "My home is your home in kampala. I look forward to making your stay memorable and authentic.",
+        stayType: "host-family-stay",
+      }
+
+];
