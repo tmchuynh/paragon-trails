@@ -292,8 +292,8 @@ export const dubaiunitedarabemiratesAttractions: Attraction[] = [
       city: "Dubai",
       title: "Dubai Mall",
       description: "Massive shopping mall with entertainment and dining options.",
-      imageUrl: "",
-      location: "Unknown location",
+      imageUrl: "https://images.unsplash.com/photo-dubai-mall",
+      location: "Financial Center Street, Along Sheikh Zayed Road, Next to Burj Khalifa, Dubai",
       openingHours: [
         {
           day: "Monday",
