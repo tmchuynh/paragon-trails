@@ -767,6 +767,9 @@ async function generateCityGuideFile(city) {
 
   // Create file content with proper formatting
   let content = `// This file is auto-generated. Do not edit manually.\n\n`;
+  content += `// Tour guides for ${formatKebebToTitleCase(city)} (${formattedCountry})\n`;
+  content += `// Region: ${formattedRegion}\n\n`;
+  content += `// Generated on: ${new Date().toISOString()}\n\n`;
   content += `import { TourGuide } from "@/lib/interfaces/people/staff";\n\n`;
   content += `export const ${variableName}: TourGuide[] = [\n`;
 
