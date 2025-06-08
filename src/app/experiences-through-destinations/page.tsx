@@ -46,7 +46,7 @@ export default function ExperiencesThroughDestinationsPage() {
               variant={"fancy"}
               onClick={() =>
                 router.push(
-                  `/experiences-through-destinations/${formatTitleCaseToKebabCase(city.city)}?city=${city.city}`
+                  `/experiences-through-destinations/${formatTitleCaseToKebabCase(city.city)}?city=${formatTitleCaseToKebabCase(city.city)}`
                 )
               }
             >
