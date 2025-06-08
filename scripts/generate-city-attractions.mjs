@@ -412,6 +412,7 @@ function writeAttractionsFile(citySlug, attractions) {
 
   // Build TypeScript content
   const fileContent = `// This file is auto-generated. Do not edit manually.
+  // Generated on ${new Date().toISOString()}
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const ${varName}: Attraction[] = ${stringifyObject(attractions)};
