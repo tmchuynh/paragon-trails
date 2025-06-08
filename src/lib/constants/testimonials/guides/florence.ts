@@ -1,482 +1,553 @@
 // This file is auto-generated. Do not edit manually.
 // Tour guide reviews for florence
+// City: Florence
+// Country: italy
+// Region: centralItaly
+// Generated on: 2025-06-08T04:09:38.250Z
 export const florenceGuideReviews = {
   "guide-florence-1": [
     {
       "id": "guide-florence-1-review-0",
-      "quote": "Sandra Hawkins made even the smallest detail feel important. His detail-oriented touch made this tour stand out from the rest.",
-      "author": "Victoria Patel",
+      "quote": "Gabriel Kim went above and beyond. His motivating energy and personal touch made the day extra special.",
+      "author": "Adam Wallace",
       "title": "Verified Tour Participant",
       "city": "Florence",
       "rating": 5,
-      "date": "2024-09-06"
+      "date": "2024-08-21"
     },
     {
       "id": "guide-florence-1-review-1",
-      "quote": "I’ve taken many tours, but Sandra Hawkins's was by far the most amazing. Their storytelling ability was incredible.",
-      "author": "Rebecca King",
+      "quote": "Gabriel Kim went above and beyond. Their professional energy and personal touch made the day extra special.",
+      "author": "Aria Murray",
       "title": "Verified Tour Participant",
       "city": "Florence",
-      "rating": 4,
-      "date": "2024-11-14"
+      "rating": 5,
+      "date": "2024-08-02"
     },
     {
       "id": "guide-florence-1-review-2",
-      "quote": "I wasn’t expecting to learn so much and enjoy it this much. Sandra Hawkins was skilled and incredibly knowledgeable.",
-      "author": "Luis Williams",
+      "quote": "If you’re looking for a cheerful experience in Art Walks, Gabriel Kim is the one to book. Her professionalism stood out.",
+      "author": "Eugene Payne",
       "title": "Verified Tour Participant",
       "city": "Florence",
       "rating": 4,
-      "date": "2025-04-30"
+      "date": "2025-04-10"
     }
   ],
   "guide-florence-2": [
     {
       "id": "guide-florence-2-review-0",
-      "quote": "I’ve taken many tours, but Riley Palmer's was by far the most remarkable. Her storytelling ability was incredible.",
-      "author": "Mateo Wilson",
+      "quote": "Amina Wang was an helpful guide who truly brought the city to life. Her knowledge of Cultural Heritage was impressive.",
+      "author": "Naomi Taylor",
       "title": "Verified Tour Participant",
       "city": "Florence",
       "rating": 4,
-      "date": "2024-11-02"
+      "date": "2024-07-29"
     },
     {
       "id": "guide-florence-2-review-1",
-      "quote": "I’ve traveled a lot, but this was one of the most welcoming tours I’ve ever taken. Riley Palmer was fantastic from start to finish.",
-      "author": "Billy Jones",
-      "title": "Verified Tour Participant",
-      "city": "Florence",
-      "rating": 5,
-      "date": "2025-01-08"
-    },
-    {
-      "id": "guide-florence-2-review-2",
-      "quote": "Our experience with Riley Palmer was dedicated. He showed us hidden gems we would have never found on our own.",
-      "author": "Scott Johnson",
-      "title": "Verified Tour Participant",
-      "city": "Florence",
-      "rating": 5,
-      "date": "2025-04-30"
-    }
-  ],
-  "guide-florence-3": [
-    {
-      "id": "guide-florence-3-review-0",
-      "quote": "I booked the tour last minute, but I’m so glad I did. Charlotte Coleman's captivating leadership and local tips were invaluable.",
-      "author": "Gabriel Sutton",
-      "title": "Verified Tour Participant",
-      "city": "Florence",
-      "rating": 5,
-      "date": "2025-03-23"
-    },
-    {
-      "id": "guide-florence-3-review-1",
-      "quote": "Charlotte Coleman brought warmth and reliable energy to the day. Her made us feel like locals instead of tourists.",
-      "author": "Bobby Wilson",
-      "title": "Verified Tour Participant",
-      "city": "Florence",
-      "rating": 4,
-      "date": "2024-07-01"
-    },
-    {
-      "id": "guide-florence-3-review-2",
-      "quote": "You’ll leave the tour smarter and smiling if Charlotte Coleman is your guide. Their resourceful energy is contagious.",
-      "author": "Elena Garcia",
-      "title": "Verified Tour Participant",
-      "city": "Florence",
-      "rating": 5,
-      "date": "2025-04-15"
-    },
-    {
-      "id": "guide-florence-3-review-3",
-      "quote": "Even our kids loved the tour—Charlotte Coleman was so inspiring and made sure everyone was involved.",
-      "author": "Adam Wells",
-      "title": "Verified Tour Participant",
-      "city": "Florence",
-      "rating": 5,
-      "date": "2024-06-30"
-    }
-  ],
-  "guide-florence-4": [
-    {
-      "id": "guide-florence-4-review-0",
-      "quote": "You’ll leave the tour smarter and smiling if Justin Dunn is your guide. Their charismatic energy is contagious.",
-      "author": "Susan Bennett",
-      "title": "Verified Tour Participant",
-      "city": "Florence",
-      "rating": 3,
-      "date": "2024-08-21"
-    },
-    {
-      "id": "guide-florence-4-review-1",
-      "quote": "You could tell that Justin Dunn genuinely cares about what His does. His insightful nature was a highlight of our trip.",
-      "author": "Timothy Kowalski",
-      "title": "Verified Tour Participant",
-      "city": "Florence",
-      "rating": 5,
-      "date": "2025-03-28"
-    },
-    {
-      "id": "guide-florence-4-review-2",
-      "quote": "Justin Dunn created an environment that was both informative and relaxing. Their excellent approach kept everyone engaged.",
-      "author": "Priya Williams",
-      "title": "Verified Tour Participant",
-      "city": "Florence",
-      "rating": 5,
-      "date": "2024-12-28"
-    },
-    {
-      "id": "guide-florence-4-review-3",
-      "quote": "What an insightful experience with Justin Dunn! Her expertise in Historical Reenactments added so much value to our visit.",
-      "author": "Benjamin Wang",
-      "title": "Verified Tour Participant",
-      "city": "Florence",
-      "rating": 4,
-      "date": "2025-01-06"
-    }
-  ],
-  "guide-florence-5": [
-    {
-      "id": "guide-florence-5-review-0",
-      "quote": "The way Ahmed Young brought fashion history to life was truly captivating. You could tell Her loves what Her does.",
-      "author": "Samantha Grant",
-      "title": "Verified Tour Participant",
-      "city": "Florence",
-      "rating": 3,
-      "date": "2024-11-07"
-    },
-    {
-      "id": "guide-florence-5-review-1",
-      "quote": "Ahmed Young created an environment that was both informative and relaxing. Her thoughtful approach kept everyone engaged.",
-      "author": "Robert Williams",
-      "title": "Verified Tour Participant",
-      "city": "Florence",
-      "rating": 5,
-      "date": "2024-10-17"
-    },
-    {
-      "id": "guide-florence-5-review-2",
-      "quote": "I booked the tour last minute, but I’m so glad I did. Ahmed Young's insightful leadership and local tips were invaluable.",
-      "author": "Ellie Fisher",
-      "title": "Verified Tour Participant",
-      "city": "Florence",
-      "rating": 5,
-      "date": "2025-03-12"
-    }
-  ],
-  "guide-florence-6": [
-    {
-      "id": "guide-florence-6-review-0",
-      "quote": "Keith Jones didn’t just give us a tour—His gave us a connection to the city through remarkable storytelling.",
-      "author": "Adeline Harris",
+      "quote": "What an enthusiastic experience with Amina Wang! Her expertise in Cultural Heritage added so much value to our visit.",
+      "author": "Anna Anderson",
       "title": "Verified Tour Participant",
       "city": "Florence",
       "rating": 5,
       "date": "2025-02-25"
     },
     {
-      "id": "guide-florence-6-review-1",
-      "quote": "You’ll leave the tour smarter and smiling if Keith Jones is your guide. Her knowledgeable energy is contagious.",
-      "author": "Ellie Grant",
+      "id": "guide-florence-2-review-2",
+      "quote": "Every moment with Amina Wang felt intentional. His cheerful guidance made this one of the best parts of our trip.",
+      "author": "Isabella Campbell",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 5,
+      "date": "2025-03-09"
+    },
+    {
+      "id": "guide-florence-2-review-3",
+      "quote": "Amina Wang delivered a perfect mix of history, humor, and heart. Her thorough delivery kept us engaged throughout.",
+      "author": "Bryan Griffin",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 5,
+      "date": "2024-09-26"
+    }
+  ],
+  "guide-florence-3": [
+    {
+      "id": "guide-florence-3-review-0",
+      "quote": "The way Jose Williams brought fashion history to life was truly inspiring. You could tell His loves what His does.",
+      "author": "Gabriella Bennett",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 5,
+      "date": "2024-12-07"
+    },
+    {
+      "id": "guide-florence-3-review-1",
+      "quote": "I’ve taken many tours, but Jose Williams's was by far the most reliable. Her storytelling ability was incredible.",
+      "author": "Elena Jackson",
       "title": "Verified Tour Participant",
       "city": "Florence",
       "rating": 4,
-      "date": "2025-05-15"
+      "date": "2024-11-27"
+    },
+    {
+      "id": "guide-florence-3-review-2",
+      "quote": "What an friendly experience with Jose Williams! Her expertise in underground culture added so much value to our visit.",
+      "author": "Amelia Wells",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 4,
+      "date": "2025-02-26"
+    },
+    {
+      "id": "guide-florence-3-review-3",
+      "quote": "You could tell that Jose Williams genuinely cares about what Her does. Her knowledgeable nature was a highlight of our trip.",
+      "author": "Leah Gardner",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 5,
+      "date": "2024-08-18"
+    }
+  ],
+  "guide-florence-4": [
+    {
+      "id": "guide-florence-4-review-0",
+      "quote": "Every moment with Virginia Brown felt intentional. Her cheerful guidance made this one of the best parts of our trip.",
+      "author": "Oliver Baker",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 4,
+      "date": "2024-09-27"
+    },
+    {
+      "id": "guide-florence-4-review-1",
+      "quote": "I wasn’t expecting to learn so much and enjoy it this much. Virginia Brown was skilled and incredibly knowledgeable.",
+      "author": "Samuel Anderson",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 5,
+      "date": "2024-12-16"
+    },
+    {
+      "id": "guide-florence-4-review-2",
+      "quote": "Virginia Brown created an environment that was both informative and relaxing. Her friendly approach kept everyone engaged.",
+      "author": "Gabriella Fletcher",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 5,
+      "date": "2025-03-15"
+    }
+  ],
+  "guide-florence-5": [
+    {
+      "id": "guide-florence-5-review-0",
+      "quote": "We had a wonderful time with Eric Williams. Her passion for Local Markets was evident throughout the tour.",
+      "author": "Hannah Fox",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 5,
+      "date": "2024-11-11"
+    },
+    {
+      "id": "guide-florence-5-review-1",
+      "quote": "Eric Williams brought warmth and cheerful energy to the day. His made us feel like locals instead of tourists.",
+      "author": "Ravi Miller",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 5,
+      "date": "2024-10-02"
+    },
+    {
+      "id": "guide-florence-5-review-2",
+      "quote": "The way Eric Williams brought famous residences to life was truly personable. You could tell Her loves what Her does.",
+      "author": "Sophia Carter",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 5,
+      "date": "2024-11-26"
+    },
+    {
+      "id": "guide-florence-5-review-3",
+      "quote": "I’ve traveled a lot, but this was one of the most engaging tours I’ve ever taken. Eric Williams was fantastic from start to finish.",
+      "author": "Vincent Nguyen",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 4,
+      "date": "2024-07-20"
+    }
+  ],
+  "guide-florence-6": [
+    {
+      "id": "guide-florence-6-review-0",
+      "quote": "Sandra Hunter didn’t just give us a tour—Her gave us a connection to the city through trustworthy storytelling.",
+      "author": "Mohamed Carter",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 4,
+      "date": "2024-08-31"
+    },
+    {
+      "id": "guide-florence-6-review-1",
+      "quote": "Sandra Hunter made even the smallest detail feel important. His inspiring touch made this tour stand out from the rest.",
+      "author": "Chloe Holloway",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 5,
+      "date": "2025-05-20"
     },
     {
       "id": "guide-florence-6-review-2",
-      "quote": "We left the tour inspired. Keith Jones's accommodating way of sharing knowledge made a lasting impression on us.",
-      "author": "Elizabeth Hawkins",
+      "quote": "Even our kids loved the tour—Sandra Hunter was so remarkable and made sure everyone was involved.",
+      "author": "Tyler Brooks",
       "title": "Verified Tour Participant",
       "city": "Florence",
-      "rating": 5,
-      "date": "2025-04-21"
-    },
-    {
-      "id": "guide-florence-6-review-3",
-      "quote": "If you’re looking for a thorough experience in literary landmarks, Keith Jones is the one to book. Her professionalism stood out.",
-      "author": "Marcus Young",
-      "title": "Verified Tour Participant",
-      "city": "Florence",
-      "rating": 5,
-      "date": "2025-05-06"
+      "rating": 4,
+      "date": "2025-06-07"
     }
   ],
   "guide-florence-7": [
     {
       "id": "guide-florence-7-review-0",
-      "quote": "What an motivating experience with Eric Edwards! Her expertise in Historical Sites added so much value to our visit.",
-      "author": "Helen Dean",
+      "quote": "Anthony Day delivered a perfect mix of history, humor, and heart. Her engaging delivery kept us engaged throughout.",
+      "author": "Isabella Fox",
       "title": "Verified Tour Participant",
       "city": "Florence",
       "rating": 5,
-      "date": "2024-10-28"
+      "date": "2025-03-07"
     },
     {
       "id": "guide-florence-7-review-1",
-      "quote": "I’ve taken many tours, but Eric Edwards's was by far the most genuine. His storytelling ability was incredible.",
-      "author": "Nathan Chen",
+      "quote": "I booked the tour last minute, but I’m so glad I did. Anthony Day's friendly leadership and local tips were invaluable.",
+      "author": "Amelia Moore",
       "title": "Verified Tour Participant",
       "city": "Florence",
-      "rating": 5,
-      "date": "2024-10-18"
+      "rating": 4,
+      "date": "2024-09-28"
     },
     {
       "id": "guide-florence-7-review-2",
-      "quote": "Eric Edwards's tour was the highlight of our trip. Their engaging approach to sharing the history made everything interesting.",
-      "author": "Patricia Lewis",
+      "quote": "Anthony Day has a gift for storytelling. The entire group was engaged, laughing, and learning—it was such a flexible time.",
+      "author": "Frank Moore",
       "title": "Verified Tour Participant",
       "city": "Florence",
       "rating": 5,
-      "date": "2024-11-01"
-    },
-    {
-      "id": "guide-florence-7-review-3",
-      "quote": "Our experience with Eric Edwards was trustworthy. They showed us hidden gems we would have never found on our own.",
-      "author": "Dorothy Garcia",
-      "title": "Verified Tour Participant",
-      "city": "Florence",
-      "rating": 5,
-      "date": "2025-02-12"
+      "date": "2024-08-22"
     }
   ],
   "guide-florence-8": [
     {
       "id": "guide-florence-8-review-0",
-      "quote": "I wasn’t expecting to learn so much and enjoy it this much. Timothy Dunn was generous and incredibly knowledgeable.",
-      "author": "Sofia Campbell",
-      "title": "Verified Tour Participant",
-      "city": "Florence",
-      "rating": 5,
-      "date": "2024-10-30"
-    },
-    {
-      "id": "guide-florence-8-review-1",
-      "quote": "You could tell that Timothy Dunn genuinely cares about what Her does. Her patient nature was a highlight of our trip.",
-      "author": "Joel Wang",
-      "title": "Verified Tour Participant",
-      "city": "Florence",
-      "rating": 5,
-      "date": "2025-05-05"
-    },
-    {
-      "id": "guide-florence-8-review-2",
-      "quote": "You’ll leave the tour smarter and smiling if Timothy Dunn is your guide. Their flexible energy is contagious.",
-      "author": "Boris Johnson",
+      "quote": "Daniel Edwards made even the smallest detail feel important. Her motivating touch made this tour stand out from the rest.",
+      "author": "Sandra Khan",
       "title": "Verified Tour Participant",
       "city": "Florence",
       "rating": 4,
-      "date": "2025-05-04"
+      "date": "2025-06-06"
+    },
+    {
+      "id": "guide-florence-8-review-1",
+      "quote": "We left the tour inspired. Daniel Edwards's informative way of sharing knowledge made a lasting impression on us.",
+      "author": "Frank Kowalski",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 4,
+      "date": "2025-02-17"
+    },
+    {
+      "id": "guide-florence-8-review-2",
+      "quote": "You’ll leave the tour smarter and smiling if Daniel Edwards is your guide. Her detail-oriented energy is contagious.",
+      "author": "Lily Graham",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 5,
+      "date": "2024-06-21"
+    },
+    {
+      "id": "guide-florence-8-review-3",
+      "quote": "I’ve traveled a lot, but this was one of the most professional tours I’ve ever taken. Daniel Edwards was fantastic from start to finish.",
+      "author": "Jose Edwards",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 3,
+      "date": "2024-10-05"
     }
   ],
   "guide-florence-9": [
     {
       "id": "guide-florence-9-review-0",
-      "quote": "Katherine Bennett created an environment that was both informative and relaxing. Their captivating approach kept everyone engaged.",
-      "author": "Audrey Lewis",
+      "quote": "Lerato Silva didn’t just give us a tour—Her gave us a connection to the city through thorough storytelling.",
+      "author": "Hiroshi Müller",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 4,
+      "date": "2025-05-02"
+    },
+    {
+      "id": "guide-florence-9-review-1",
+      "quote": "Lerato Silva delivered a perfect mix of history, humor, and heart. Her inspiring delivery kept us engaged throughout.",
+      "author": "Jacob Foster",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 4,
+      "date": "2025-02-17"
+    },
+    {
+      "id": "guide-florence-9-review-2",
+      "quote": "Touring with Lerato Silva was a delight. His helpful personality and deep knowledge made the experience unforgettable.",
+      "author": "Boris Holloway",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 5,
+      "date": "2024-09-16"
+    },
+    {
+      "id": "guide-florence-9-review-3",
+      "quote": "Lerato Silva has a gift for storytelling. The entire group was engaged, laughing, and learning—it was such a excellent time.",
+      "author": "Barbara Rodriguez",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 5,
+      "date": "2025-02-02"
+    }
+  ],
+  "guide-florence-10": [
+    {
+      "id": "guide-florence-10-review-0",
+      "quote": "Isabella Harris has a gift for storytelling. The entire group was engaged, laughing, and learning—it was such a skilled time.",
+      "author": "Deborah Hudson",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 5,
+      "date": "2025-05-13"
+    },
+    {
+      "id": "guide-florence-10-review-1",
+      "quote": "Every moment with Isabella Harris felt intentional. Her superb guidance made this one of the best parts of our trip.",
+      "author": "Walter Russell",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 5,
+      "date": "2024-10-04"
+    },
+    {
+      "id": "guide-florence-10-review-2",
+      "quote": "Our experience with Isabella Harris was trustworthy. She showed us hidden gems we would have never found on our own.",
+      "author": "Matthew Ivanov",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 5,
+      "date": "2025-02-28"
+    },
+    {
+      "id": "guide-florence-10-review-3",
+      "quote": "We left the tour inspired. Isabella Harris's dedicated way of sharing knowledge made a lasting impression on us.",
+      "author": "Dylan Hudson",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 5,
+      "date": "2024-07-14"
+    }
+  ],
+  "guide-florence-11": [
+    {
+      "id": "guide-florence-11-review-0",
+      "quote": "Nicholas Dubois was an fantastic guide who truly brought the city to life. Their knowledge of Cultural Heritage was impressive.",
+      "author": "Raymond Anderson",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 5,
+      "date": "2024-06-25"
+    },
+    {
+      "id": "guide-florence-11-review-1",
+      "quote": "We learned so much and had so much fun, all thanks to Nicholas Dubois's attentive approach to sharing Cultural Heritage.",
+      "author": "Joan Dubois",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 5,
+      "date": "2024-06-24"
+    },
+    {
+      "id": "guide-florence-11-review-2",
+      "quote": "I highly recommend Nicholas Dubois for anyone interested in Photography Spots. His made our tour memorable.",
+      "author": "Carol Jennings",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 5,
+      "date": "2024-09-04"
+    }
+  ],
+  "guide-florence-12": [
+    {
+      "id": "guide-florence-12-review-0",
+      "quote": "Aiden Gonzalez tailored the tour perfectly to our interests. His reliable nature made everyone feel welcome.",
+      "author": "Oliver Mason",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 5,
+      "date": "2024-07-09"
+    },
+    {
+      "id": "guide-florence-12-review-1",
+      "quote": "I’ve traveled a lot, but this was one of the most captivating tours I’ve ever taken. Aiden Gonzalez was fantastic from start to finish.",
+      "author": "George Gonzalez",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 5,
+      "date": "2024-11-28"
+    },
+    {
+      "id": "guide-florence-12-review-2",
+      "quote": "It’s rare to find a guide as genuine as Aiden Gonzalez. His ability to connect with people from all walks of life was exceptional.",
+      "author": "Ahmed Ali",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 4,
+      "date": "2024-06-15"
+    }
+  ],
+  "guide-florence-13": [
+    {
+      "id": "guide-florence-13-review-0",
+      "quote": "Wayne Watson was an inspiring guide who truly brought the city to life. Her knowledge of Local History was impressive.",
+      "author": "Donna Murray",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 5,
+      "date": "2024-09-13"
+    },
+    {
+      "id": "guide-florence-13-review-1",
+      "quote": "You’ll leave the tour smarter and smiling if Wayne Watson is your guide. Her outstanding energy is contagious.",
+      "author": "Steven Sutton",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 5,
+      "date": "2024-12-18"
+    },
+    {
+      "id": "guide-florence-13-review-2",
+      "quote": "Every moment with Wayne Watson felt intentional. His fantastic guidance made this one of the best parts of our trip.",
+      "author": "Alan Mason",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 5,
+      "date": "2025-05-01"
+    },
+    {
+      "id": "guide-florence-13-review-3",
+      "quote": "Our experience with Wayne Watson was skilled. He showed us hidden gems we would have never found on our own.",
+      "author": "Joseph Baker",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 5,
+      "date": "2025-02-02"
+    }
+  ],
+  "guide-florence-14": [
+    {
+      "id": "guide-florence-14-review-0",
+      "quote": "We felt completely at ease with Alexander Kim. Her passionate style made even complex topics accessible and fun.",
+      "author": "Elena Gardner",
       "title": "Verified Tour Participant",
       "city": "Florence",
       "rating": 5,
       "date": "2024-10-09"
     },
     {
-      "id": "guide-florence-9-review-1",
-      "quote": "Our experience with Katherine Bennett was motivating. He showed us hidden gems we would have never found on our own.",
-      "author": "Henry Fox",
-      "title": "Verified Tour Participant",
-      "city": "Florence",
-      "rating": 5,
-      "date": "2024-12-13"
-    },
-    {
-      "id": "guide-florence-9-review-2",
-      "quote": "Our experience with Katherine Bennett was brilliant. They showed us hidden gems we would have never found on our own.",
-      "author": "Rebecca Jennings",
-      "title": "Verified Tour Participant",
-      "city": "Florence",
-      "rating": 4,
-      "date": "2024-11-26"
-    },
-    {
-      "id": "guide-florence-9-review-3",
-      "quote": "From start to finish, Katherine Bennett delivered a skilled experience. Her expertise and care were unmatched.",
-      "author": "Jessica Dean",
-      "title": "Verified Tour Participant",
-      "city": "Florence",
-      "rating": 5,
-      "date": "2024-08-20"
-    }
-  ],
-  "guide-florence-10": [
-    {
-      "id": "guide-florence-10-review-0",
-      "quote": "Joan Hamilton brought warmth and insightful energy to the day. Her made us feel like locals instead of tourists.",
-      "author": "Antonio Young",
-      "title": "Verified Tour Participant",
-      "city": "Florence",
-      "rating": 4,
-      "date": "2025-06-05"
-    },
-    {
-      "id": "guide-florence-10-review-1",
-      "quote": "Joan Hamilton created an environment that was both informative and relaxing. His fantastic approach kept everyone engaged.",
-      "author": "Amy Garcia",
-      "title": "Verified Tour Participant",
-      "city": "Florence",
-      "rating": 5,
-      "date": "2024-09-18"
-    },
-    {
-      "id": "guide-florence-10-review-2",
-      "quote": "Our experience with Joan Hamilton was generous. They showed us hidden gems we would have never found on our own.",
-      "author": "Maya Miller",
-      "title": "Verified Tour Participant",
-      "city": "Florence",
-      "rating": 5,
-      "date": "2024-11-22"
-    },
-    {
-      "id": "guide-florence-10-review-3",
-      "quote": "Joan Hamilton created an environment that was both informative and relaxing. Her incredible approach kept everyone engaged.",
-      "author": "Carl Maxwell",
-      "title": "Verified Tour Participant",
-      "city": "Florence",
-      "rating": 4,
-      "date": "2025-04-28"
-    }
-  ],
-  "guide-florence-11": [
-    {
-      "id": "guide-florence-11-review-0",
-      "quote": "Every moment with Jesse Parker felt intentional. Their exceptional guidance made this one of the best parts of our trip.",
-      "author": "Amanda Young",
-      "title": "Verified Tour Participant",
-      "city": "Florence",
-      "rating": 5,
-      "date": "2024-06-16"
-    },
-    {
-      "id": "guide-florence-11-review-1",
-      "quote": "Jesse Parker created an environment that was both informative and relaxing. Her professional approach kept everyone engaged.",
-      "author": "Stella Rossi",
-      "title": "Verified Tour Participant",
-      "city": "Florence",
-      "rating": 5,
-      "date": "2025-02-20"
-    },
-    {
-      "id": "guide-florence-11-review-2",
-      "quote": "We left the tour inspired. Jesse Parker's reliable way of sharing knowledge made a lasting impression on us.",
-      "author": "Samantha Watson",
-      "title": "Verified Tour Participant",
-      "city": "Florence",
-      "rating": 5,
-      "date": "2024-06-17"
-    },
-    {
-      "id": "guide-florence-11-review-3",
-      "quote": "Every moment with Jesse Parker felt intentional. His personable guidance made this one of the best parts of our trip.",
-      "author": "Leah Taylor",
-      "title": "Verified Tour Participant",
-      "city": "Florence",
-      "rating": 5,
-      "date": "2024-11-06"
-    }
-  ],
-  "guide-florence-12": [
-    {
-      "id": "guide-florence-12-review-0",
-      "quote": "Even our kids loved the tour—Nicholas Lewis was so superb and made sure everyone was involved.",
-      "author": "Hannah Holloway",
-      "title": "Verified Tour Participant",
-      "city": "Florence",
-      "rating": 5,
-      "date": "2025-05-02"
-    },
-    {
-      "id": "guide-florence-12-review-1",
-      "quote": "Nicholas Lewis has a gift for storytelling. The entire group was engaged, laughing, and learning—it was such a resourceful time.",
-      "author": "Olivia Gardner",
-      "title": "Verified Tour Participant",
-      "city": "Florence",
-      "rating": 5,
-      "date": "2025-04-03"
-    },
-    {
-      "id": "guide-florence-12-review-2",
-      "quote": "Nicholas Lewis made even the smallest detail feel important. His detail-oriented touch made this tour stand out from the rest.",
-      "author": "Amanda Wilson",
-      "title": "Verified Tour Participant",
-      "city": "Florence",
-      "rating": 4,
-      "date": "2024-09-18"
-    }
-  ],
-  "guide-florence-13": [
-    {
-      "id": "guide-florence-13-review-0",
-      "quote": "You’ll leave the tour smarter and smiling if James Douglas is your guide. His accommodating energy is contagious.",
-      "author": "Stephanie Curtis",
-      "title": "Verified Tour Participant",
-      "city": "Florence",
-      "rating": 5,
-      "date": "2024-11-15"
-    },
-    {
-      "id": "guide-florence-13-review-1",
-      "quote": "James Douglas went above and beyond. Their remarkable energy and personal touch made the day extra special.",
-      "author": "Elena Martinez",
-      "title": "Verified Tour Participant",
-      "city": "Florence",
-      "rating": 5,
-      "date": "2025-03-20"
-    },
-    {
-      "id": "guide-florence-13-review-2",
-      "quote": "You’ll leave the tour smarter and smiling if James Douglas is your guide. Her welcoming energy is contagious.",
-      "author": "Ellie Martin",
-      "title": "Verified Tour Participant",
-      "city": "Florence",
-      "rating": 5,
-      "date": "2024-12-08"
-    },
-    {
-      "id": "guide-florence-13-review-3",
-      "quote": "I’ve taken many tours, but James Douglas's was by far the most trustworthy. Their storytelling ability was incredible.",
-      "author": "Timothy Dixon",
-      "title": "Verified Tour Participant",
-      "city": "Florence",
-      "rating": 5,
-      "date": "2025-03-21"
-    }
-  ],
-  "guide-florence-14": [
-    {
-      "id": "guide-florence-14-review-0",
-      "quote": "Riley Morgan created an environment that was both informative and relaxing. His resourceful approach kept everyone engaged.",
-      "author": "Maya Lewis",
-      "title": "Verified Tour Participant",
-      "city": "Florence",
-      "rating": 4,
-      "date": "2025-05-03"
-    },
-    {
       "id": "guide-florence-14-review-1",
-      "quote": "We learned so much and had so much fun, all thanks to Riley Morgan's reliable approach to sharing seaside history.",
-      "author": "Ryan Nguyen",
+      "quote": "We left the tour inspired. Alexander Kim's charming way of sharing knowledge made a lasting impression on us.",
+      "author": "Bella Ali",
       "title": "Verified Tour Participant",
       "city": "Florence",
-      "rating": 3,
-      "date": "2025-02-28"
+      "rating": 4,
+      "date": "2025-03-23"
     },
     {
       "id": "guide-florence-14-review-2",
-      "quote": "You’ll leave the tour smarter and smiling if Riley Morgan is your guide. Her insightful energy is contagious.",
-      "author": "Jonathan Jones",
+      "quote": "Alexander Kim delivered a perfect mix of history, humor, and heart. Her professional delivery kept us engaged throughout.",
+      "author": "Pamela Morales",
       "title": "Verified Tour Participant",
       "city": "Florence",
       "rating": 5,
-      "date": "2025-03-28"
+      "date": "2025-05-26"
+    },
+    {
+      "id": "guide-florence-14-review-3",
+      "quote": "Alexander Kim made even the smallest detail feel important. Their attentive touch made this tour stand out from the rest.",
+      "author": "Deborah Thomas",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 5,
+      "date": "2024-07-01"
+    }
+  ],
+  "guide-florence-15": [
+    {
+      "id": "guide-florence-15-review-0",
+      "quote": "A truly excellent experience thanks to Henry Parker. Their balance of facts and fun was exactly what we were hoping for.",
+      "author": "Thandiwe Silva",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 5,
+      "date": "2024-11-04"
+    },
+    {
+      "id": "guide-florence-15-review-1",
+      "quote": "From start to finish, Henry Parker delivered a genuine experience. Their expertise and care were unmatched.",
+      "author": "Louis Palmer",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 5,
+      "date": "2024-10-13"
+    },
+    {
+      "id": "guide-florence-15-review-2",
+      "quote": "Henry Parker was an exceptional guide who truly brought the city to life. His knowledge of Local Crafts was impressive.",
+      "author": "Mia Maxwell",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 5,
+      "date": "2024-11-26"
+    },
+    {
+      "id": "guide-florence-15-review-3",
+      "quote": "Even our kids loved the tour—Henry Parker was so genuine and made sure everyone was involved.",
+      "author": "Noah Johnson",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 3,
+      "date": "2025-04-26"
+    }
+  ],
+  "guide-florence-16": [
+    {
+      "id": "guide-florence-16-review-0",
+      "quote": "It’s rare to find a guide as insightful as Catherine Johnson. Their ability to connect with people from all walks of life was exceptional.",
+      "author": "Elizabeth Hawkins",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 5,
+      "date": "2025-04-13"
+    },
+    {
+      "id": "guide-florence-16-review-1",
+      "quote": "Catherine Johnson is simply engaging. The tour was well-paced and Her attention to detail was remarkable.",
+      "author": "Lucas Jansen",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 5,
+      "date": "2025-03-23"
+    },
+    {
+      "id": "guide-florence-16-review-2",
+      "quote": "From start to finish, Catherine Johnson delivered a approachable experience. His expertise and care were unmatched.",
+      "author": "Layla Lewis",
+      "title": "Verified Tour Participant",
+      "city": "Florence",
+      "rating": 5,
+      "date": "2024-11-03"
     }
   ]
 };

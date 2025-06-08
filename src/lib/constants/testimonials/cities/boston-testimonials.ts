@@ -1,97 +1,99 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Boston
+// Generated on 2025-06-08T04:09:38.459Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const bostonTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-boston-1",
-    quote: "Living in Boston has been one of the best decisions of my life. The heritage preservation here makes everyday life so enjoyable.",
-    author: "Christian Montgomery",
-    title: "My Boston Story: Life as a Resident",
+    quote: "Living in Boston means being surrounded by recreational spaces, which feeds my soul every day.",
+    author: "Rachel Warren",
+    title: "How Boston Balances Tradition and Innovation",
     city: "Boston",
-    rating: 5,
-    date: "2024-01-25"
+    rating: 4.7,
+    date: "2024-10-14"
   },
   {
     id: "city-testimonial-boston-2",
-    quote: "What I tell friends considering moving to Boston is to appreciate the local theaters—it's what makes daily life here so rich.",
-    author: "Genesis Spencer",
-    title: "The Neighborhoods That Make Boston Home",
+    quote: "What most people don't realize about living in Boston is how accessible it actually is. I've found my true home here.",
+    author: "Nicole Montgomery",
+    title: "Life in Boston: A Local Perspective",
     city: "Boston",
-    rating: 4.8,
-    date: "2023-11-10"
+    rating: 4.7,
+    date: "2025-10-14"
   },
   {
     id: "city-testimonial-boston-3",
-    quote: "Boston's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
-    author: "Justin Hayes",
-    title: "The Heartbeat of Boston Life",
+    quote: "Living in Boston has been one of the best decisions of my life. The local craftsmanship here makes everyday life so enjoyable.",
+    author: "Allison Martinez",
+    title: "The True Character of Boston",
     city: "Boston",
-    rating: 4.8,
-    date: "2025-08-25"
+    rating: 4.5,
+    date: "2023-10-06"
   },
   {
     id: "city-testimonial-boston-4",
-    quote: "What most people don't realize about living in Boston is how affordable it actually is. I've found my true home here.",
-    author: "Janet Williams",
-    title: "Discovering Home in Boston",
+    quote: "As someone who's lived in many cities, I can say that Boston's social cohesion is unmatched anywhere else.",
+    author: "Sofia Morgan",
+    title: "What Makes Boston Special to Live In",
     city: "Boston",
-    rating: 4.5,
-    date: "2023-05-06"
+    rating: 5,
+    date: "2023-04-24"
   },
   {
     id: "city-testimonial-boston-5",
-    quote: "I've found that Boston's {TRANSPORT_FEATURE} really makes getting around effortless and enjoyable.",
-    author: "Evelyn Payne",
-    title: "Boston: Where I Found My Community",
+    quote: "What I love most about living in Boston is the concert halls. It creates such a unique atmosphere that feels like home.",
+    author: "Laura Martinez",
+    title: "What I Love About Living in Boston",
     city: "Boston",
-    rating: 5,
-    date: "2023-07-20"
+    rating: 4.5,
+    date: "2023-04-09"
   },
   {
     id: "city-testimonial-boston-6",
-    quote: "Living in Boston has opened my eyes to {PERSONAL_GROWTH_ASPECT} that I never expected.",
-    author: "Brooklyn Wallace",
-    title: "Living the Boston Lifestyle",
+    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Boston make daily life convenient and stress-free.",
+    author: "Nicole Mitchell",
+    title: "Finding Balance in Boston",
     city: "Boston",
-    rating: 5,
-    date: "2025-06-17"
+    rating: 4.8,
+    date: "2024-08-16"
   },
   {
     id: "city-testimonial-boston-7",
-    quote: "Living in Boston means I get to enjoy {SPORTS_OR_OUTDOOR_ACTIVITY} year-round.",
-    author: "Henry Garcia",
-    title: "The Neighborhoods That Make Boston Home",
+    quote: "The beach access in Boston makes everyday life feel like an adventure. I've been here 6 years and still discover new things.",
+    author: "Douglas Wood",
+    title: "The Beauty of Everyday Life in Boston",
     city: "Boston",
-    rating: 4.7,
-    date: "2023-12-09"
+    rating: 4.3,
+    date: "2024-09-21"
   },
   {
     id: "city-testimonial-boston-8",
-    quote: "I came to Boston for work but stayed for the urban amenities. Best decision I ever made.",
-    author: "Anna Carter",
-    title: "Boston: Beyond the Tourist Experience",
+    quote: "What I tell friends considering moving to Boston is to appreciate the artisan markets—it's what makes daily life here so rich.",
+    author: "Diego Kowalski",
+    title: "The Heartbeat of Boston Life",
     city: "Boston",
-    rating: 4.8,
-    date: "2023-07-21"
+    rating: 4.9,
+    date: "2025-02-09"
   },
   {
     id: "city-testimonial-boston-9",
-    quote: "Living in Boston means experiencing historic tours on a daily basis, which is why I could never leave.",
-    author: "Sarah Brown",
-    title: "The Vibrant Life of Boston Residents",
+    quote: "The autumn craft fairs in Boston is something I look forward to every year. It's what makes living here magical.",
+    author: "Valentina Anderson",
+    title: "Boston's Hidden Treasures for Locals",
     city: "Boston",
     rating: 4.3,
-    date: "2025-06-05"
+    date: "2025-09-08"
   },
   {
     id: "city-testimonial-boston-10",
-    quote: "Boston's coffee scene has become central to my life here. I couldn't imagine living without it now.",
-    author: "Jesse Nakamura",
-    title: "What Makes Boston Feel Like Family",
+    quote: "What I tell friends considering moving to Boston is to appreciate the creative incubators—it's what makes daily life here so rich.",
+    author: "Olivia Anderson",
+    title: "Boston: Beyond the Tourist Experience",
     city: "Boston",
-    rating: 4.2,
-    date: "2025-02-23"
+    rating: 4.8,
+    date: "2024-03-05"
   }
 ];

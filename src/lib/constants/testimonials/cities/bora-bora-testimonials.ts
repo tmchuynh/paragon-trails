@@ -1,97 +1,90 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Bora Bora
+// Generated on 2025-06-08T04:09:38.702Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const boraboraTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-bora-bora-1",
-    quote: "After 12 years as a Bora Bora local, I still appreciate the friendly shopkeepers that makes this place special.",
-    author: "Skylar Anderson",
-    title: "How Bora Bora Changed My Life",
+    quote: "Every weekend in Bora Bora brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
+    author: "Evelyn Gardner",
+    title: "The Everyday Magic of Bora Bora",
     city: "Bora Bora",
-    rating: 5,
-    date: "2024-06-18"
+    rating: 4.6,
+    date: "2023-04-26"
   },
   {
     id: "city-testimonial-bora-bora-2",
-    quote: "The balance of cosmopolitan vibe and small-town feel in Bora Bora creates a quality of life that's hard to find elsewhere.",
-    author: "Hannah Johnson",
-    title: "From Newcomer to Local in Bora Bora",
+    quote: "The {GREEN_SPACES} in Bora Bora offer a perfect escape from the urban buzz without leaving the city limits.",
+    author: "Betty Gonzalez",
+    title: "My Bora Bora Story: Life as a Resident",
     city: "Bora Bora",
-    rating: 5,
-    date: "2024-10-11"
+    rating: 4.6,
+    date: "2024-04-05"
   },
   {
     id: "city-testimonial-bora-bora-3",
-    quote: "The cost of living in Bora Bora is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
-    author: "Rebecca Williams",
-    title: "The Perfect Imperfections of Bora Bora",
+    quote: "One of my favorite parts about living in Bora Bora is the {MARKET_OR_SHOPPING_FEATURE} just around the corner.",
+    author: "Eugene Miller",
+    title: "Why Bora Bora Feels Like Home",
     city: "Bora Bora",
-    rating: 4.6,
-    date: "2024-05-28"
+    rating: 4.1,
+    date: "2024-09-28"
   },
   {
     id: "city-testimonial-bora-bora-4",
-    quote: "What I tell friends considering moving to Bora Bora is to appreciate the community events—it's what makes daily life here so rich.",
-    author: "Eleanor Crawford",
-    title: "A Resident's Guide to Living Well in Bora Bora",
+    quote: "The {FESTIVAL_OR_EVENT} season in Bora Bora brings so much excitement and pride to the community.",
+    author: "Victor Thomas",
+    title: "Living Sustainably in Bora Bora",
     city: "Bora Bora",
-    rating: 4.3,
-    date: "2023-07-26"
+    rating: 4.8,
+    date: "2025-04-03"
   },
   {
     id: "city-testimonial-bora-bora-5",
-    quote: "The nightlife in Bora Bora is vibrant and full of {ENTERTAINMENT_FEATURE} for everyone.",
-    author: "Patricia White",
-    title: "Living the Bora Bora Lifestyle",
+    quote: "As someone who's lived in many cities, I can say that Bora Bora's heritage sites is unmatched anywhere else.",
+    author: "Michelle Johnson",
+    title: "Bora Bora: Where I Found My Community",
     city: "Bora Bora",
-    rating: 4.2,
-    date: "2024-09-07"
+    rating: 4.7,
+    date: "2024-05-27"
   },
   {
     id: "city-testimonial-bora-bora-6",
-    quote: "I've found that Bora Bora's {TRANSPORT_FEATURE} really makes getting around effortless and enjoyable.",
-    author: "Genesis Johnson",
-    title: "Living Sustainably in Bora Bora",
+    quote: "Bora Bora has been my home for decade-long, and the activist groups here is what keeps me rooted.",
+    author: "Stephanie Anderson",
+    title: "Living the Bora Bora Lifestyle",
     city: "Bora Bora",
     rating: 4.5,
-    date: "2024-10-10"
+    date: "2024-11-13"
   },
   {
     id: "city-testimonial-bora-bora-7",
-    quote: "The winter fireside gatherings in Bora Bora is something I look forward to every year. It's what makes living here magical.",
-    author: "Janet Williams",
-    title: "The Heartbeat of Bora Bora Life",
+    quote: "Living in Bora Bora means experiencing access to both city and nature on a daily basis, which is why I could never leave.",
+    author: "Carol White",
+    title: "The Neighborhoods That Make Bora Bora Home",
     city: "Bora Bora",
-    rating: 4.4,
-    date: "2024-01-09"
+    rating: 5,
+    date: "2025-01-07"
   },
   {
     id: "city-testimonial-bora-bora-8",
-    quote: "I came to Bora Bora for work but stayed for the diverse neighborhoods. Best decision I ever made.",
-    author: "Nora Payne",
-    title: "Living and Thriving in Bora Bora",
+    quote: "The {FESTIVAL_OR_EVENT} season in Bora Bora brings so much excitement and pride to the community.",
+    author: "Olivia Warren",
+    title: "Why Bora Bora Feels Like Home",
     city: "Bora Bora",
-    rating: 4.7,
-    date: "2024-11-17"
+    rating: 4,
+    date: "2023-07-26"
   },
   {
     id: "city-testimonial-bora-bora-9",
-    quote: "Bora Bora isn't just where I live—it's part of my identity now. The walkability has shaped who I am.",
-    author: "Naomi Young",
-    title: "Uncovering the Layers of Bora Bora",
+    quote: "The quiet neighborhoods in Bora Bora each have their own character, which keeps life interesting year after year.",
+    author: "Albert Dubois",
+    title: "Bora Bora: Where I Found My Community",
     city: "Bora Bora",
     rating: 4.8,
-    date: "2024-01-23"
-  },
-  {
-    id: "city-testimonial-bora-bora-10",
-    quote: "The nightlife in Bora Bora is vibrant and full of {ENTERTAINMENT_FEATURE} for everyone.",
-    author: "Dorothy Thomas",
-    title: "The Heartbeat of Bora Bora Life",
-    city: "Bora Bora",
-    rating: 4.1,
-    date: "2024-11-23"
+    date: "2023-02-21"
   }
 ];

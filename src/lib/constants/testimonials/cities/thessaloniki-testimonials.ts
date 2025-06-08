@@ -1,88 +1,99 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Thessaloniki
+// Generated on 2025-06-08T04:09:38.710Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const thessalonikiTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-thessaloniki-1",
-    quote: "The {GREEN_SPACES} in Thessaloniki offer a perfect escape from the urban buzz without leaving the city limits.",
-    author: "Stephen Cooper",
-    title: "Life in Thessaloniki: A Local Perspective",
+    quote: "One thing I didn’t expect when moving to Thessaloniki was the {WEATHER_FEATURE}—it’s truly refreshing.",
+    author: "Aaliyah Harper",
+    title: "Thessaloniki's Hidden Treasures for Locals",
     city: "Thessaloniki",
-    rating: 4.6,
-    date: "2025-01-13"
+    rating: 4.7,
+    date: "2023-08-17"
   },
   {
     id: "city-testimonial-thessaloniki-2",
-    quote: "Living in Thessaloniki means being surrounded by academic excellence, which feeds my soul every day.",
-    author: "Alice Coleman",
-    title: "Thessaloniki: A City That Grows With You",
+    quote: "After moving to Thessaloniki 20 years ago, I fell in love with the active volunteerism of this place. It's truly special.",
+    author: "Wayne Fisher",
+    title: "Thessaloniki: Beyond the Tourist Experience",
     city: "Thessaloniki",
-    rating: 4.9,
-    date: "2023-01-06"
+    rating: 4.4,
+    date: "2024-04-25"
   },
   {
     id: "city-testimonial-thessaloniki-3",
-    quote: "I came to Thessaloniki for work but stayed for the affordability. Best decision I ever made.",
-    author: "Terry Miller",
-    title: "The Unexpected Joys of Thessaloniki Living",
+    quote: "Raising my family in Thessaloniki gives us access to supportive community, which is truly invaluable.",
+    author: "Linda Clark",
+    title: "Discovering Home in Thessaloniki",
     city: "Thessaloniki",
-    rating: 4.3,
-    date: "2024-10-18"
+    rating: 4,
+    date: "2024-09-14"
   },
   {
     id: "city-testimonial-thessaloniki-4",
-    quote: "The mix of old and new in Thessaloniki's architecture and culture keeps the city feeling fresh yet grounded.",
-    author: "Mia Wang",
-    title: "The True Character of Thessaloniki",
+    quote: "I love how Thessaloniki celebrates {FESTIVAL_OR_EVENT}, it brings so much joy and community spirit.",
+    author: "Logan Hernandez",
+    title: "Thessaloniki: More Than Just a Place",
     city: "Thessaloniki",
-    rating: 4.1,
-    date: "2025-09-27"
+    rating: 4.6,
+    date: "2024-04-04"
   },
   {
     id: "city-testimonial-thessaloniki-5",
-    quote: "The historical significance of Thessaloniki adds a depth to daily life that I truly cherish.",
-    author: "Wei Hayes",
-    title: "Stories From the Streets of Thessaloniki",
+    quote: "I love how Thessaloniki celebrates {FESTIVAL_OR_EVENT}, it brings so much joy and community spirit.",
+    author: "Ralph Gardner",
+    title: "The Joys of Slow Living in Thessaloniki",
     city: "Thessaloniki",
-    rating: 5,
-    date: "2023-06-09"
+    rating: 4.6,
+    date: "2024-01-25"
   },
   {
     id: "city-testimonial-thessaloniki-6",
-    quote: "One of my favorite parts about living in Thessaloniki is the {MARKET_OR_SHOPPING_FEATURE} just around the corner.",
-    author: "Dennis Hernandez",
-    title: "The Soul of Thessaloniki: A Local's View",
+    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Thessaloniki make daily life convenient and stress-free.",
+    author: "Lily Parker",
+    title: "The True Character of Thessaloniki",
     city: "Thessaloniki",
-    rating: 4.8,
-    date: "2023-10-16"
+    rating: 4.2,
+    date: "2025-07-18"
   },
   {
     id: "city-testimonial-thessaloniki-7",
-    quote: "If you want a city that offers {LIFESTYLE_BENEFIT}, Thessaloniki is the place to be.",
-    author: "Allison Johnson",
-    title: "Thessaloniki Living: Worth Every Moment",
+    quote: "I've found that Thessaloniki's {TRANSPORT_FEATURE} really makes getting around effortless and enjoyable.",
+    author: "Amelia Gonzalez",
+    title: "Why Thessaloniki Keeps Getting Better",
     city: "Thessaloniki",
-    rating: 4.3,
-    date: "2025-08-02"
+    rating: 4.2,
+    date: "2023-11-14"
   },
   {
     id: "city-testimonial-thessaloniki-8",
-    quote: "What I love most about living in Thessaloniki is the aquatic centers. It creates such a unique atmosphere that feels like home.",
-    author: "Ana Patel",
-    title: "Finding Inspiration Every Day in Thessaloniki",
+    quote: "The balance of artistic expression and practical living in Thessaloniki creates a quality of life that's hard to find elsewhere.",
+    author: "Avery Grant",
+    title: "The Real Thessaloniki Experience",
     city: "Thessaloniki",
-    rating: 4.4,
-    date: "2023-09-01"
+    rating: 4.8,
+    date: "2024-03-08"
   },
   {
     id: "city-testimonial-thessaloniki-9",
-    quote: "The {GREEN_SPACES} in Thessaloniki offer a perfect escape from the urban buzz without leaving the city limits.",
-    author: "Jose Foster",
-    title: "Discovering Home in Thessaloniki",
+    quote: "From my apartment in Thessaloniki, I can engage with diverse cultural communities. Where else could you do that?",
+    author: "Jeffrey Graves",
+    title: "Uncovering the Layers of Thessaloniki",
     city: "Thessaloniki",
-    rating: 4.9,
-    date: "2025-10-22"
+    rating: 4.2,
+    date: "2024-03-18"
+  },
+  {
+    id: "city-testimonial-thessaloniki-10",
+    quote: "The walkable neighborhoods in Thessaloniki makes everyday life feel like an adventure. I've been here 18 years and still discover new things.",
+    author: "Kennedy Jones",
+    title: "Thessaloniki: A City That Grows With You",
+    city: "Thessaloniki",
+    rating: 4.7,
+    date: "2023-09-28"
   }
 ];

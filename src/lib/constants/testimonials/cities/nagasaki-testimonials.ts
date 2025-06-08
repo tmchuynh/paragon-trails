@@ -1,97 +1,99 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Nagasaki
+// Generated on 2025-06-08T04:09:38.711Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const nagasakiTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-nagasaki-1",
-    quote: "What most people don't realize about living in Nagasaki is how accessible it actually is. I've found my true home here.",
-    author: "Jennifer Wright",
-    title: "Finding Inspiration Every Day in Nagasaki",
+    quote: "Every weekend in Nagasaki brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
+    author: "Zola Maxwell",
+    title: "Nagasaki: Beyond the Tourist Experience",
     city: "Nagasaki",
-    rating: 4.6,
-    date: "2024-03-08"
+    rating: 4.3,
+    date: "2023-04-19"
   },
   {
     id: "city-testimonial-nagasaki-2",
-    quote: "What I love most about living in Nagasaki is the food hall culture. It creates such a unique atmosphere that feels like home.",
-    author: "Amelia Johnson",
-    title: "What Makes Nagasaki Uniquely Livable",
+    quote: "The sports facilities in Nagasaki makes everyday life feel like an adventure. I've been here 18 years and still discover new things.",
+    author: "Henry Campbell",
+    title: "A Love Letter to Nagasaki",
     city: "Nagasaki",
     rating: 4.1,
-    date: "2023-12-13"
+    date: "2023-10-24"
   },
   {
     id: "city-testimonial-nagasaki-3",
-    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Nagasaki make daily life convenient and stress-free.",
-    author: "Ibrahim Price",
-    title: "How Nagasaki Balances Tradition and Innovation",
+    quote: "The art and creativity flowing through Nagasaki is inspiring. It feels like living inside a masterpiece.",
+    author: "Khalid Keller",
+    title: "My Nagasaki Story: Life as a Resident",
     city: "Nagasaki",
-    rating: 4.2,
-    date: "2025-08-16"
+    rating: 5,
+    date: "2025-06-28"
   },
   {
     id: "city-testimonial-nagasaki-4",
-    quote: "Living in Nagasaki means experiencing culinary exploration on a daily basis, which is why I could never leave.",
-    author: "Muhammad Jansen",
-    title: "A Love Letter to Nagasaki",
+    quote: "The food scene in Nagasaki is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
+    author: "Harper Graham",
+    title: "The Joys of Slow Living in Nagasaki",
     city: "Nagasaki",
-    rating: 4.9,
-    date: "2023-03-07"
+    rating: 4.3,
+    date: "2023-01-26"
   },
   {
     id: "city-testimonial-nagasaki-5",
-    quote: "I've found that Nagasaki's {TRANSPORT_FEATURE} really makes getting around effortless and enjoyable.",
-    author: "Samuel Hamilton",
-    title: "The Community Spirit That Defines Nagasaki",
+    quote: "Nagasaki has been my home for dedicated, and the literary circles here is what keeps me rooted.",
+    author: "Kennedy Spencer",
+    title: "Why Nagasaki Is a Place to Grow",
     city: "Nagasaki",
     rating: 4.5,
-    date: "2024-10-14"
+    date: "2025-01-19"
   },
   {
     id: "city-testimonial-nagasaki-6",
-    quote: "Living in Nagasaki means experiencing historic tours on a daily basis, which is why I could never leave.",
-    author: "Donna Chen",
-    title: "Inside the Culture of Nagasaki",
+    quote: "The sports facilities in Nagasaki makes everyday life feel like an adventure. I've been here 10 years and still discover new things.",
+    author: "Brooklyn Williams",
+    title: "Nagasaki: Where I Found My Community",
     city: "Nagasaki",
-    rating: 4.9,
-    date: "2025-03-14"
+    rating: 4.1,
+    date: "2023-08-19"
   },
   {
     id: "city-testimonial-nagasaki-7",
-    quote: "The sports facilities in Nagasaki makes everyday life feel like an adventure. I've been here 25 years and still discover new things.",
-    author: "Bruce Hall",
-    title: "How Nagasaki Changed My Life",
+    quote: "The {GREEN_SPACES} in Nagasaki offer a perfect escape from the urban buzz without leaving the city limits.",
+    author: "Ravi Wells",
+    title: "The Community Spirit That Defines Nagasaki",
     city: "Nagasaki",
-    rating: 4,
-    date: "2024-07-10"
+    rating: 4.6,
+    date: "2023-05-11"
   },
   {
     id: "city-testimonial-nagasaki-8",
-    quote: "Living in Nagasaki means being surrounded by traditional customs, which feeds my soul every day.",
-    author: "Sebastian Holloway",
-    title: "Why I Chose Nagasaki as Home",
+    quote: "What I love most about living in Nagasaki is the pedestrian streets. It creates such a unique atmosphere that feels like home.",
+    author: "Ralph Edwards",
+    title: "The Community Spirit That Defines Nagasaki",
     city: "Nagasaki",
-    rating: 4.2,
-    date: "2024-03-16"
+    rating: 4.3,
+    date: "2024-04-17"
   },
   {
     id: "city-testimonial-nagasaki-9",
-    quote: "Living in Nagasaki has opened my eyes to {PERSONAL_GROWTH_ASPECT} that I never expected.",
-    author: "Elena Johnson",
-    title: "Why Nagasaki Is a Place to Grow",
+    quote: "After moving to Nagasaki 6 years ago, I fell in love with the innovative mindset of this place. It's truly special.",
+    author: "Pamela Mason",
+    title: "The Heartbeat of Nagasaki Life",
     city: "Nagasaki",
-    rating: 4.1,
-    date: "2025-01-11"
+    rating: 4.3,
+    date: "2025-07-17"
   },
   {
     id: "city-testimonial-nagasaki-10",
-    quote: "After moving to Nagasaki 12 years ago, I fell in love with the collaborative approach of this place. It's truly special.",
-    author: "Helen Spencer",
-    title: "A Love Letter to Nagasaki",
+    quote: "The historical significance of Nagasaki adds a depth to daily life that I truly cherish.",
+    author: "Blake Montgomery",
+    title: "The True Character of Nagasaki",
     city: "Nagasaki",
-    rating: 4,
-    date: "2023-11-23"
+    rating: 4.4,
+    date: "2023-05-03"
   }
 ];

@@ -1,540 +1,381 @@
 // This file is auto-generated. Do not edit manually.
 // Tour guide reviews for amalfiCoast
+// City: Amalfi Coast
+// Country: italy
+// Region: southernItaly
+// Generated on: 2025-06-08T04:09:38.236Z
 export const amalfiCoastGuideReviews = {
   "guide-amalfi-coast-1": [
     {
       "id": "guide-amalfi-coast-1-review-0",
-      "quote": "Amy Chen has a gift for storytelling. The entire group was engaged, laughing, and learning—it was such a charming time.",
-      "author": "Henry Miller",
+      "quote": "We left the tour inspired. William Wright's attentive way of sharing knowledge made a lasting impression on us.",
+      "author": "Boris Griffin",
       "title": "Verified Tour Participant",
       "city": "Amalfi Coast",
-      "rating": 4,
-      "date": "2024-10-31"
+      "rating": 5,
+      "date": "2024-06-14"
     },
     {
       "id": "guide-amalfi-coast-1-review-1",
-      "quote": "Amy Chen was an helpful guide who truly brought the city to life. His knowledge of Local Artisans was impressive.",
-      "author": "Nathan Khan",
+      "quote": "William Wright has a gift for storytelling. The entire group was engaged, laughing, and learning—it was such a captivating time.",
+      "author": "Madelyn White",
       "title": "Verified Tour Participant",
       "city": "Amalfi Coast",
       "rating": 5,
-      "date": "2024-12-16"
+      "date": "2024-10-01"
     },
     {
       "id": "guide-amalfi-coast-1-review-2",
-      "quote": "Amy Chen was an remarkable guide who truly brought the city to life. His knowledge of Local Artisans was impressive.",
-      "author": "Raymond Jansen",
-      "title": "Verified Tour Participant",
-      "city": "Amalfi Coast",
-      "rating": 4,
-      "date": "2024-09-29"
-    },
-    {
-      "id": "guide-amalfi-coast-1-review-3",
-      "quote": "It’s rare to find a guide as motivating as Amy Chen. Their ability to connect with people from all walks of life was exceptional.",
-      "author": "Roy Baker",
+      "quote": "William Wright delivered a perfect mix of history, humor, and heart. Her inspiring delivery kept us engaged throughout.",
+      "author": "Diego Müller",
       "title": "Verified Tour Participant",
       "city": "Amalfi Coast",
       "rating": 5,
-      "date": "2024-06-17"
+      "date": "2025-05-07"
+    },
+    {
+      "id": "guide-amalfi-coast-1-review-3",
+      "quote": "What an inspiring experience with William Wright! Her expertise in Family Activities added so much value to our visit.",
+      "author": "Keith Jackson",
+      "title": "Verified Tour Participant",
+      "city": "Amalfi Coast",
+      "rating": 4,
+      "date": "2024-10-23"
     }
   ],
   "guide-amalfi-coast-2": [
     {
       "id": "guide-amalfi-coast-2-review-0",
-      "quote": "Genesis Wilson is simply exceptional. The tour was well-paced and Their attention to detail was remarkable.",
-      "author": "Kimberly Wang",
+      "quote": "You could tell that Gregory Ivanov genuinely cares about what Her does. Her resourceful nature was a highlight of our trip.",
+      "author": "Chen Hayes",
       "title": "Verified Tour Participant",
       "city": "Amalfi Coast",
-      "rating": 4,
-      "date": "2024-06-10"
+      "rating": 5,
+      "date": "2025-03-06"
     },
     {
       "id": "guide-amalfi-coast-2-review-1",
-      "quote": "Genesis Wilson delivered a perfect mix of history, humor, and heart. Her personable delivery kept us engaged throughout.",
-      "author": "Dylan Wang",
+      "quote": "What an personable experience with Gregory Ivanov! Her expertise in Wildlife added so much value to our visit.",
+      "author": "Angela Hawkins",
       "title": "Verified Tour Participant",
       "city": "Amalfi Coast",
-      "rating": 5,
-      "date": "2024-10-31"
+      "rating": 4,
+      "date": "2024-08-21"
     },
     {
       "id": "guide-amalfi-coast-2-review-2",
-      "quote": "We were lucky to have Genesis Wilson as our guide. His generous insights made a big difference in how we experienced sustainable design.",
-      "author": "Stephen Watson",
+      "quote": "Even our kids loved the tour—Gregory Ivanov was so incredible and made sure everyone was involved.",
+      "author": "Sophia Cooper",
       "title": "Verified Tour Participant",
       "city": "Amalfi Coast",
-      "rating": 5,
-      "date": "2024-08-09"
+      "rating": 4,
+      "date": "2024-07-15"
     }
   ],
   "guide-amalfi-coast-3": [
     {
       "id": "guide-amalfi-coast-3-review-0",
-      "quote": "Walter Jackson delivered a perfect mix of history, humor, and heart. Her thoughtful delivery kept us engaged throughout.",
-      "author": "Joel Anderson",
+      "quote": "We left the tour inspired. Eugene Wright's reliable way of sharing knowledge made a lasting impression on us.",
+      "author": "Noah Mason",
       "title": "Verified Tour Participant",
       "city": "Amalfi Coast",
       "rating": 5,
-      "date": "2024-09-16"
+      "date": "2024-08-23"
     },
     {
       "id": "guide-amalfi-coast-3-review-1",
-      "quote": "Walter Jackson has a gift for storytelling. The entire group was engaged, laughing, and learning—it was such a charming time.",
-      "author": "Brooklyn Hunter",
+      "quote": "Eugene Wright's tour was the highlight of our trip. His exceptional approach to sharing the history made everything interesting.",
+      "author": "Edward Ellis",
       "title": "Verified Tour Participant",
       "city": "Amalfi Coast",
       "rating": 5,
-      "date": "2025-04-01"
+      "date": "2025-02-23"
     },
     {
       "id": "guide-amalfi-coast-3-review-2",
-      "quote": "It’s rare to find a guide as fantastic as Walter Jackson. His ability to connect with people from all walks of life was exceptional.",
-      "author": "Dylan Porter",
+      "quote": "We were lucky to have Eugene Wright as our guide. His dedicated insights made a big difference in how we experienced architecture.",
+      "author": "George Crawford",
       "title": "Verified Tour Participant",
       "city": "Amalfi Coast",
-      "rating": 5,
-      "date": "2025-05-05"
-    },
-    {
-      "id": "guide-amalfi-coast-3-review-3",
-      "quote": "I highly recommend Walter Jackson for anyone interested in maritime heritage. Their made our tour memorable.",
-      "author": "Albert Garcia",
-      "title": "Verified Tour Participant",
-      "city": "Amalfi Coast",
-      "rating": 5,
-      "date": "2024-09-28"
+      "rating": 4,
+      "date": "2025-03-29"
     }
   ],
   "guide-amalfi-coast-4": [
     {
       "id": "guide-amalfi-coast-4-review-0",
-      "quote": "Chloe Carpenter went above and beyond. Her engaging energy and personal touch made the day extra special.",
-      "author": "Edward Baker",
+      "quote": "Our experience with Naomi Hunter was approachable. He showed us hidden gems we would have never found on our own.",
+      "author": "Barbara Brown",
       "title": "Verified Tour Participant",
       "city": "Amalfi Coast",
       "rating": 5,
-      "date": "2024-10-17"
+      "date": "2025-02-05"
     },
     {
       "id": "guide-amalfi-coast-4-review-1",
-      "quote": "Chloe Carpenter is simply insightful. The tour was well-paced and Their attention to detail was remarkable.",
-      "author": "Mohamed Reeves",
+      "quote": "Naomi Hunter made even the smallest detail feel important. Their outstanding touch made this tour stand out from the rest.",
+      "author": "Carlos Ali",
       "title": "Verified Tour Participant",
       "city": "Amalfi Coast",
       "rating": 5,
-      "date": "2025-05-15"
+      "date": "2024-08-23"
     },
     {
       "id": "guide-amalfi-coast-4-review-2",
-      "quote": "We felt completely at ease with Chloe Carpenter. Her superb style made even complex topics accessible and fun.",
-      "author": "Caroline Wang",
+      "quote": "Naomi Hunter made even the smallest detail feel important. Their generous touch made this tour stand out from the rest.",
+      "author": "Lerato Cooper",
       "title": "Verified Tour Participant",
       "city": "Amalfi Coast",
       "rating": 5,
-      "date": "2025-02-11"
+      "date": "2025-03-28"
     }
   ],
   "guide-amalfi-coast-5": [
     {
       "id": "guide-amalfi-coast-5-review-0",
-      "quote": "Elizabeth Anderson brought warmth and generous energy to the day. Their made us feel like locals instead of tourists.",
-      "author": "Wei Graham",
+      "quote": "Nomsa Douglas delivered a perfect mix of history, humor, and heart. His engaging delivery kept us engaged throughout.",
+      "author": "Donna Warren",
       "title": "Verified Tour Participant",
       "city": "Amalfi Coast",
       "rating": 4,
-      "date": "2025-03-14"
+      "date": "2025-03-13"
     },
     {
       "id": "guide-amalfi-coast-5-review-1",
-      "quote": "A truly personable experience thanks to Elizabeth Anderson. His balance of facts and fun was exactly what we were hoping for.",
-      "author": "Elijah Garcia",
+      "quote": "You’ll leave the tour smarter and smiling if Nomsa Douglas is your guide. Their professional energy is contagious.",
+      "author": "Dylan Miller",
       "title": "Verified Tour Participant",
       "city": "Amalfi Coast",
       "rating": 5,
-      "date": "2025-01-22"
+      "date": "2024-11-28"
     },
     {
       "id": "guide-amalfi-coast-5-review-2",
-      "quote": "Every moment with Elizabeth Anderson felt intentional. Their flexible guidance made this one of the best parts of our trip.",
-      "author": "Thabo Foster",
+      "quote": "If you’re looking for a detail-oriented experience in cultural landmarks, Nomsa Douglas is the one to book. Their professionalism stood out.",
+      "author": "Barbara Wilson",
       "title": "Verified Tour Participant",
       "city": "Amalfi Coast",
       "rating": 5,
-      "date": "2025-03-16"
+      "date": "2024-07-21"
+    },
+    {
+      "id": "guide-amalfi-coast-5-review-3",
+      "quote": "A truly insightful experience thanks to Nomsa Douglas. His balance of facts and fun was exactly what we were hoping for.",
+      "author": "Harper Patel",
+      "title": "Verified Tour Participant",
+      "city": "Amalfi Coast",
+      "rating": 5,
+      "date": "2024-11-20"
     }
   ],
   "guide-amalfi-coast-6": [
     {
       "id": "guide-amalfi-coast-6-review-0",
-      "quote": "Sarah Mitchell went above and beyond. Their incredible energy and personal touch made the day extra special.",
-      "author": "Harold Spencer",
+      "quote": "I highly recommend Layla Hernandez for anyone interested in Local Folklore. Their made our tour memorable.",
+      "author": "Albert Williams",
       "title": "Verified Tour Participant",
       "city": "Amalfi Coast",
       "rating": 3,
-      "date": "2024-08-19"
+      "date": "2024-07-25"
     },
     {
       "id": "guide-amalfi-coast-6-review-1",
-      "quote": "We left the tour inspired. Sarah Mitchell's skilled way of sharing knowledge made a lasting impression on us.",
-      "author": "Sandra Williams",
+      "quote": "I highly recommend Layla Hernandez for anyone interested in Local Folklore. Her made our tour memorable.",
+      "author": "Linda Graves",
       "title": "Verified Tour Participant",
       "city": "Amalfi Coast",
-      "rating": 4,
-      "date": "2025-03-17"
+      "rating": 3,
+      "date": "2024-10-07"
     },
     {
       "id": "guide-amalfi-coast-6-review-2",
-      "quote": "We left the tour inspired. Sarah Mitchell's trustworthy way of sharing knowledge made a lasting impression on us.",
-      "author": "Jeffrey Carpenter",
+      "quote": "Layla Hernandez has a gift for storytelling. The entire group was engaged, laughing, and learning—it was such a trustworthy time.",
+      "author": "Kimberly Stewart",
       "title": "Verified Tour Participant",
       "city": "Amalfi Coast",
       "rating": 5,
-      "date": "2025-02-13"
+      "date": "2025-02-23"
+    },
+    {
+      "id": "guide-amalfi-coast-6-review-3",
+      "quote": "From start to finish, Layla Hernandez delivered a captivating experience. Her expertise and care were unmatched.",
+      "author": "Grace Carter",
+      "title": "Verified Tour Participant",
+      "city": "Amalfi Coast",
+      "rating": 5,
+      "date": "2024-09-15"
     }
   ],
   "guide-amalfi-coast-7": [
     {
       "id": "guide-amalfi-coast-7-review-0",
-      "quote": "It’s rare to find a guide as superb as Maria Brown. His ability to connect with people from all walks of life was exceptional.",
-      "author": "Miguel Smith",
+      "quote": "What an incredible experience with Anthony Müller! Her expertise in Historical Figures added so much value to our visit.",
+      "author": "Scarlett Parker",
       "title": "Verified Tour Participant",
       "city": "Amalfi Coast",
-      "rating": 5,
-      "date": "2025-06-05"
+      "rating": 4,
+      "date": "2025-06-07"
     },
     {
       "id": "guide-amalfi-coast-7-review-1",
-      "quote": "We left the tour inspired. Maria Brown's accommodating way of sharing knowledge made a lasting impression on us.",
-      "author": "James Nguyen",
+      "quote": "I highly recommend Anthony Müller for anyone interested in modern architecture. Her made our tour memorable.",
+      "author": "Joe Martinez",
       "title": "Verified Tour Participant",
       "city": "Amalfi Coast",
       "rating": 5,
-      "date": "2025-02-16"
+      "date": "2025-04-11"
     },
     {
       "id": "guide-amalfi-coast-7-review-2",
-      "quote": "Even our kids loved the tour—Maria Brown was so outstanding and made sure everyone was involved.",
-      "author": "Mason Grant",
+      "quote": "We were lucky to have Anthony Müller as our guide. Their resourceful insights made a big difference in how we experienced Wine Tasting.",
+      "author": "Katherine Wang",
       "title": "Verified Tour Participant",
       "city": "Amalfi Coast",
       "rating": 5,
-      "date": "2024-08-01"
-    },
-    {
-      "id": "guide-amalfi-coast-7-review-3",
-      "quote": "Maria Brown is simply fantastic. The tour was well-paced and Her attention to detail was remarkable.",
-      "author": "Edward Fox",
-      "title": "Verified Tour Participant",
-      "city": "Amalfi Coast",
-      "rating": 5,
-      "date": "2024-12-03"
+      "date": "2024-12-21"
     }
   ],
   "guide-amalfi-coast-8": [
     {
       "id": "guide-amalfi-coast-8-review-0",
-      "quote": "We had a detail-oriented time with Edward Bennett. His passion for Local Crafts was evident throughout the tour.",
-      "author": "Jason Wells",
+      "quote": "Aria Morgan's tour was the highlight of our trip. Their flexible approach to sharing the history made everything interesting.",
+      "author": "Anna Brooks",
       "title": "Verified Tour Participant",
       "city": "Amalfi Coast",
-      "rating": 5,
-      "date": "2024-12-21"
+      "rating": 4,
+      "date": "2024-08-16"
     },
     {
       "id": "guide-amalfi-coast-8-review-1",
-      "quote": "We felt completely at ease with Edward Bennett. His engaging style made even complex topics accessible and fun.",
-      "author": "Mary Parker",
+      "quote": "We were lucky to have Aria Morgan as our guide. His thorough insights made a big difference in how we experienced industrial heritage.",
+      "author": "Elena Kowalski",
+      "title": "Verified Tour Participant",
+      "city": "Amalfi Coast",
+      "rating": 3,
+      "date": "2025-06-02"
+    },
+    {
+      "id": "guide-amalfi-coast-8-review-2",
+      "quote": "Touring with Aria Morgan was a delight. His brilliant personality and deep knowledge made the experience unforgettable.",
+      "author": "Larry Campbell",
+      "title": "Verified Tour Participant",
+      "city": "Amalfi Coast",
+      "rating": 4,
+      "date": "2025-01-17"
+    },
+    {
+      "id": "guide-amalfi-coast-8-review-3",
+      "quote": "What an amazing experience with Aria Morgan! Her expertise in Photography added so much value to our visit.",
+      "author": "Layla Clark",
+      "title": "Verified Tour Participant",
+      "city": "Amalfi Coast",
+      "rating": 5,
+      "date": "2025-01-30"
+    }
+  ],
+  "guide-amalfi-coast-9": [
+    {
+      "id": "guide-amalfi-coast-9-review-0",
+      "quote": "We were lucky to have Kenneth Anderson as our guide. Their dedicated insights made a big difference in how we experienced Scenic Views.",
+      "author": "Eric Miller",
+      "title": "Verified Tour Participant",
+      "city": "Amalfi Coast",
+      "rating": 5,
+      "date": "2024-10-15"
+    },
+    {
+      "id": "guide-amalfi-coast-9-review-1",
+      "quote": "Kenneth Anderson made even the smallest detail feel important. Their personable touch made this tour stand out from the rest.",
+      "author": "Maya Harper",
+      "title": "Verified Tour Participant",
+      "city": "Amalfi Coast",
+      "rating": 5,
+      "date": "2024-08-03"
+    },
+    {
+      "id": "guide-amalfi-coast-9-review-2",
+      "quote": "Kenneth Anderson has a gift for storytelling. The entire group was engaged, laughing, and learning—it was such a informative time.",
+      "author": "Zola Harper",
       "title": "Verified Tour Participant",
       "city": "Amalfi Coast",
       "rating": 5,
       "date": "2024-10-05"
     },
     {
-      "id": "guide-amalfi-coast-8-review-2",
-      "quote": "I’ve taken many tours, but Edward Bennett's was by far the most resourceful. His storytelling ability was incredible.",
-      "author": "Maria Martin",
+      "id": "guide-amalfi-coast-9-review-3",
+      "quote": "Kenneth Anderson brought warmth and patient energy to the day. Her made us feel like locals instead of tourists.",
+      "author": "Dylan Graham",
       "title": "Verified Tour Participant",
       "city": "Amalfi Coast",
       "rating": 5,
-      "date": "2025-03-23"
-    }
-  ],
-  "guide-amalfi-coast-9": [
-    {
-      "id": "guide-amalfi-coast-9-review-0",
-      "quote": "You could tell that Marcus Watson genuinely cares about what Her does. Her captivating nature was a highlight of our trip.",
-      "author": "Ana Rodriguez",
-      "title": "Verified Tour Participant",
-      "city": "Amalfi Coast",
-      "rating": 5,
-      "date": "2024-08-25"
-    },
-    {
-      "id": "guide-amalfi-coast-9-review-1",
-      "quote": "Marcus Watson made even the smallest detail feel important. His motivating touch made this tour stand out from the rest.",
-      "author": "Thabo Cooper",
-      "title": "Verified Tour Participant",
-      "city": "Amalfi Coast",
-      "rating": 5,
-      "date": "2025-02-08"
-    },
-    {
-      "id": "guide-amalfi-coast-9-review-2",
-      "quote": "I highly recommend Marcus Watson for anyone interested in cultural landmarks. His made our tour memorable.",
-      "author": "Priya Garcia",
-      "title": "Verified Tour Participant",
-      "city": "Amalfi Coast",
-      "rating": 5,
-      "date": "2025-03-15"
+      "date": "2025-05-23"
     }
   ],
   "guide-amalfi-coast-10": [
     {
       "id": "guide-amalfi-coast-10-review-0",
-      "quote": "Ravi Singh made even the smallest detail feel important. Their thoughtful touch made this tour stand out from the rest.",
-      "author": "Zachary Jackson",
-      "title": "Verified Tour Participant",
-      "city": "Amalfi Coast",
-      "rating": 4,
-      "date": "2025-03-30"
-    },
-    {
-      "id": "guide-amalfi-coast-10-review-1",
-      "quote": "Ravi Singh's tour was the highlight of our trip. Their reliable approach to sharing the history made everything interesting.",
-      "author": "Carlos Brooks",
-      "title": "Verified Tour Participant",
-      "city": "Amalfi Coast",
-      "rating": 4,
-      "date": "2024-06-11"
-    },
-    {
-      "id": "guide-amalfi-coast-10-review-2",
-      "quote": "I’ve traveled a lot, but this was one of the most insightful tours I’ve ever taken. Ravi Singh was fantastic from start to finish.",
-      "author": "Helen Campbell",
-      "title": "Verified Tour Participant",
-      "city": "Amalfi Coast",
-      "rating": 4,
-      "date": "2025-01-22"
-    },
-    {
-      "id": "guide-amalfi-coast-10-review-3",
-      "quote": "I’ve traveled a lot, but this was one of the most personable tours I’ve ever taken. Ravi Singh was fantastic from start to finish.",
-      "author": "Michelle Fletcher",
+      "quote": "You’ll leave the tour smarter and smiling if Riley Crawford is your guide. His enthusiastic energy is contagious.",
+      "author": "Angela Grant",
       "title": "Verified Tour Participant",
       "city": "Amalfi Coast",
       "rating": 5,
-      "date": "2024-06-17"
+      "date": "2025-03-02"
+    },
+    {
+      "id": "guide-amalfi-coast-10-review-1",
+      "quote": "Even our kids loved the tour—Riley Crawford was so informative and made sure everyone was involved.",
+      "author": "Grace Anderson",
+      "title": "Verified Tour Participant",
+      "city": "Amalfi Coast",
+      "rating": 5,
+      "date": "2024-06-22"
+    },
+    {
+      "id": "guide-amalfi-coast-10-review-2",
+      "quote": "We felt completely at ease with Riley Crawford. Their patient style made even complex topics accessible and fun.",
+      "author": "Muhammad Silva",
+      "title": "Verified Tour Participant",
+      "city": "Amalfi Coast",
+      "rating": 5,
+      "date": "2025-04-23"
+    },
+    {
+      "id": "guide-amalfi-coast-10-review-3",
+      "quote": "I highly recommend Riley Crawford for anyone interested in coffee culture. Their made our tour memorable.",
+      "author": "Grace Rossi",
+      "title": "Verified Tour Participant",
+      "city": "Amalfi Coast",
+      "rating": 4,
+      "date": "2025-05-01"
     }
   ],
   "guide-amalfi-coast-11": [
     {
       "id": "guide-amalfi-coast-11-review-0",
-      "quote": "It’s rare to find a guide as engaging as Kennedy Hawkins. Their ability to connect with people from all walks of life was exceptional.",
-      "author": "Terry Wilson",
+      "quote": "Edward Anderson created an environment that was both informative and relaxing. His friendly approach kept everyone engaged.",
+      "author": "Amy Foster",
       "title": "Verified Tour Participant",
       "city": "Amalfi Coast",
-      "rating": 5,
-      "date": "2024-08-15"
+      "rating": 4,
+      "date": "2024-08-06"
     },
     {
       "id": "guide-amalfi-coast-11-review-1",
-      "quote": "A truly thoughtful experience thanks to Kennedy Hawkins. Her balance of facts and fun was exactly what we were hoping for.",
-      "author": "Ava Thomas",
+      "quote": "Edward Anderson didn’t just give us a tour—Their gave us a connection to the city through accommodating storytelling.",
+      "author": "Thomas Dunn",
       "title": "Verified Tour Participant",
       "city": "Amalfi Coast",
       "rating": 5,
-      "date": "2024-10-29"
+      "date": "2024-07-10"
     },
     {
       "id": "guide-amalfi-coast-11-review-2",
-      "quote": "If you’re looking for a inspiring experience in Local Legends, Kennedy Hawkins is the one to book. His professionalism stood out.",
-      "author": "Allison Sutton",
+      "quote": "What an generous experience with Edward Anderson! Their expertise in religious history added so much value to our visit.",
+      "author": "Dennis Gardner",
       "title": "Verified Tour Participant",
       "city": "Amalfi Coast",
       "rating": 5,
-      "date": "2025-04-29"
-    }
-  ],
-  "guide-amalfi-coast-12": [
-    {
-      "id": "guide-amalfi-coast-12-review-0",
-      "quote": "Every moment with William Young felt intentional. Their incredible guidance made this one of the best parts of our trip.",
-      "author": "Bella Morgan",
-      "title": "Verified Tour Participant",
-      "city": "Amalfi Coast",
-      "rating": 5,
-      "date": "2024-10-31"
-    },
-    {
-      "id": "guide-amalfi-coast-12-review-1",
-      "quote": "You could tell that William Young genuinely cares about what Her does. Her wonderful nature was a highlight of our trip.",
-      "author": "Antonio Hudson",
-      "title": "Verified Tour Participant",
-      "city": "Amalfi Coast",
-      "rating": 5,
-      "date": "2024-09-13"
-    },
-    {
-      "id": "guide-amalfi-coast-12-review-2",
-      "quote": "Our experience with William Young was flexible. They showed us hidden gems we would have never found on our own.",
-      "author": "Joshua Jennings",
-      "title": "Verified Tour Participant",
-      "city": "Amalfi Coast",
-      "rating": 5,
-      "date": "2025-03-29"
-    }
-  ],
-  "guide-amalfi-coast-13": [
-    {
-      "id": "guide-amalfi-coast-13-review-0",
-      "quote": "I highly recommend Mia Kowalski for anyone interested in urban legends. Her made our tour memorable.",
-      "author": "Patricia Reeves",
-      "title": "Verified Tour Participant",
-      "city": "Amalfi Coast",
-      "rating": 5,
-      "date": "2025-02-21"
-    },
-    {
-      "id": "guide-amalfi-coast-13-review-1",
-      "quote": "If you’re looking for a skilled experience in industrial heritage, Mia Kowalski is the one to book. Their professionalism stood out.",
-      "author": "Brooklyn Taylor",
-      "title": "Verified Tour Participant",
-      "city": "Amalfi Coast",
-      "rating": 4,
-      "date": "2024-09-12"
-    },
-    {
-      "id": "guide-amalfi-coast-13-review-2",
-      "quote": "Touring with Mia Kowalski was a delight. Their exceptional personality and deep knowledge made the experience unforgettable.",
-      "author": "Mary Maxwell",
-      "title": "Verified Tour Participant",
-      "city": "Amalfi Coast",
-      "rating": 5,
-      "date": "2025-05-26"
-    },
-    {
-      "id": "guide-amalfi-coast-13-review-3",
-      "quote": "We had a brilliant time with Mia Kowalski. His passion for Nature Trails was evident throughout the tour.",
-      "author": "Nora Graves",
-      "title": "Verified Tour Participant",
-      "city": "Amalfi Coast",
-      "rating": 5,
-      "date": "2024-07-14"
-    }
-  ],
-  "guide-amalfi-coast-14": [
-    {
-      "id": "guide-amalfi-coast-14-review-0",
-      "quote": "Leah Montgomery brought warmth and patient energy to the day. Her made us feel like locals instead of tourists.",
-      "author": "Jonathan Keller",
-      "title": "Verified Tour Participant",
-      "city": "Amalfi Coast",
-      "rating": 5,
-      "date": "2025-04-30"
-    },
-    {
-      "id": "guide-amalfi-coast-14-review-1",
-      "quote": "If you’re looking for a friendly experience in heritage sites, Leah Montgomery is the one to book. Her professionalism stood out.",
-      "author": "Vincent Harris",
-      "title": "Verified Tour Participant",
-      "city": "Amalfi Coast",
-      "rating": 5,
-      "date": "2025-03-11"
-    },
-    {
-      "id": "guide-amalfi-coast-14-review-2",
-      "quote": "A truly accommodating experience thanks to Leah Montgomery. Her balance of facts and fun was exactly what we were hoping for.",
-      "author": "Brenda Collins",
-      "title": "Verified Tour Participant",
-      "city": "Amalfi Coast",
-      "rating": 5,
-      "date": "2024-09-17"
-    },
-    {
-      "id": "guide-amalfi-coast-14-review-3",
-      "quote": "I’ve taken many tours, but Leah Montgomery's was by far the most inspiring. Her storytelling ability was incredible.",
-      "author": "Ashley Coleman",
-      "title": "Verified Tour Participant",
-      "city": "Amalfi Coast",
-      "rating": 5,
-      "date": "2025-03-19"
-    }
-  ],
-  "guide-amalfi-coast-15": [
-    {
-      "id": "guide-amalfi-coast-15-review-0",
-      "quote": "If you’re looking for a fantastic experience in Wildlife, Sean Warren is the one to book. His professionalism stood out.",
-      "author": "Elena Williams",
-      "title": "Verified Tour Participant",
-      "city": "Amalfi Coast",
-      "rating": 4,
-      "date": "2024-11-09"
-    },
-    {
-      "id": "guide-amalfi-coast-15-review-1",
-      "quote": "I’ve taken many tours, but Sean Warren's was by far the most charismatic. His storytelling ability was incredible.",
-      "author": "Genesis Lopez",
-      "title": "Verified Tour Participant",
-      "city": "Amalfi Coast",
-      "rating": 4,
-      "date": "2024-08-14"
-    },
-    {
-      "id": "guide-amalfi-coast-15-review-2",
-      "quote": "If you’re looking for a helpful experience in religious history, Sean Warren is the one to book. Their professionalism stood out.",
-      "author": "Emily Graves",
-      "title": "Verified Tour Participant",
-      "city": "Amalfi Coast",
-      "rating": 5,
-      "date": "2024-12-08"
-    },
-    {
-      "id": "guide-amalfi-coast-15-review-3",
-      "quote": "We left the tour inspired. Sean Warren's incredible way of sharing knowledge made a lasting impression on us.",
-      "author": "Khalid Thomas",
-      "title": "Verified Tour Participant",
-      "city": "Amalfi Coast",
-      "rating": 5,
-      "date": "2024-12-05"
-    }
-  ],
-  "guide-amalfi-coast-16": [
-    {
-      "id": "guide-amalfi-coast-16-review-0",
-      "quote": "Arthur Payne is simply dedicated. The tour was well-paced and Their attention to detail was remarkable.",
-      "author": "Paul Brooks",
-      "title": "Verified Tour Participant",
-      "city": "Amalfi Coast",
-      "rating": 5,
-      "date": "2025-02-14"
-    },
-    {
-      "id": "guide-amalfi-coast-16-review-1",
-      "quote": "Arthur Payne tailored the tour perfectly to our interests. Her approachable nature made everyone feel welcome.",
-      "author": "Caroline Edwards",
-      "title": "Verified Tour Participant",
-      "city": "Amalfi Coast",
-      "rating": 3,
-      "date": "2024-09-16"
-    },
-    {
-      "id": "guide-amalfi-coast-16-review-2",
-      "quote": "From start to finish, Arthur Payne delivered a remarkable experience. Her expertise and care were unmatched.",
-      "author": "Laura Marshall",
-      "title": "Verified Tour Participant",
-      "city": "Amalfi Coast",
-      "rating": 5,
-      "date": "2024-06-21"
-    },
-    {
-      "id": "guide-amalfi-coast-16-review-3",
-      "quote": "You could tell that Arthur Payne genuinely cares about what His does. His accommodating nature was a highlight of our trip.",
-      "author": "Marcus Jackson",
-      "title": "Verified Tour Participant",
-      "city": "Amalfi Coast",
-      "rating": 5,
-      "date": "2025-06-04"
+      "date": "2025-04-19"
     }
   ]
 };

@@ -1,88 +1,63 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Lima
+// Generated on 2025-06-08T04:09:38.523Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const limaTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-lima-1",
-    quote: "Living in Lima means I get to enjoy {SPORTS_OR_OUTDOOR_ACTIVITY} year-round.",
-    author: "Richard Jackson",
-    title: "Uncovering the Layers of Lima",
+    quote: "Lima's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
+    author: "Albert Wood",
+    title: "The True Character of Lima",
     city: "Lima",
-    rating: 4.8,
-    date: "2025-04-10"
+    rating: 4.4,
+    date: "2023-01-18"
   },
   {
     id: "city-testimonial-lima-2",
-    quote: "Lima has been my home for 20-year, and the activist groups here is what keeps me rooted.",
-    author: "Willie Lopez",
-    title: "Lima: Where I Found My Community",
+    quote: "The food scene in Lima is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
+    author: "Diego Russell",
+    title: "What Makes Lima Feel Like Family",
     city: "Lima",
-    rating: 4.7,
-    date: "2024-11-20"
+    rating: 4.4,
+    date: "2024-02-26"
   },
   {
     id: "city-testimonial-lima-3",
-    quote: "Living in Lima means being surrounded by academic excellence, which feeds my soul every day.",
-    author: "Valentina Gibson",
-    title: "Why I Chose Lima as Home",
+    quote: "The mix of old and new in Lima's architecture and culture keeps the city feeling fresh yet grounded.",
+    author: "Isabella Hayes",
+    title: "What Makes Lima Uniquely Livable",
     city: "Lima",
-    rating: 4.9,
-    date: "2023-11-21"
+    rating: 4.2,
+    date: "2023-02-13"
   },
   {
     id: "city-testimonial-lima-4",
-    quote: "Living in Lima has been one of the best decisions of my life. The outdoor lifestyle here makes everyday life so enjoyable.",
-    author: "Virginia Russell",
-    title: "The Unexpected Joys of Lima Living",
+    quote: "One thing I didn’t expect when moving to Lima was the {WEATHER_FEATURE}—it’s truly refreshing.",
+    author: "Alice Knight",
+    title: "What Makes Lima Special to Live In",
     city: "Lima",
-    rating: 4.2,
-    date: "2025-11-27"
+    rating: 4.8,
+    date: "2024-12-19"
   },
   {
     id: "city-testimonial-lima-5",
-    quote: "The balance of vibrant nightlife and peaceful mornings in Lima creates a quality of life that's hard to find elsewhere.",
-    author: "Youssef Johnson",
-    title: "How Lima Balances Tradition and Innovation",
+    quote: "What I love most about living in Lima is the riverside parks. It creates such a unique atmosphere that feels like home.",
+    author: "Bella Wilson",
+    title: "Lima: Beyond the Tourist Experience",
     city: "Lima",
-    rating: 4.3,
-    date: "2025-07-23"
+    rating: 4.6,
+    date: "2025-04-17"
   },
   {
     id: "city-testimonial-lima-6",
-    quote: "Community events and festivals in Lima bring everyone together, making the {COMMUNITY_ASPECT} really stand out.",
-    author: "Riley Nash",
-    title: "Finding Balance in Lima",
+    quote: "Living in Lima means being surrounded by historic preservation, which feeds my soul every day.",
+    author: "Vincent Lawson",
+    title: "What I Love About Living in Lima",
     city: "Lima",
-    rating: 4.7,
-    date: "2024-04-15"
-  },
-  {
-    id: "city-testimonial-lima-7",
-    quote: "The waterfront promenade in Lima makes everyday life feel like an adventure. I've been here 18 years and still discover new things.",
-    author: "Elijah Hamilton",
-    title: "Why I’m Proud to Call Lima Home",
-    city: "Lima",
-    rating: 4.3,
-    date: "2025-09-20"
-  },
-  {
-    id: "city-testimonial-lima-8",
-    quote: "Community events and festivals in Lima bring everyone together, making the {COMMUNITY_ASPECT} really stand out.",
-    author: "Cynthia Gonzalez",
-    title: "Lima Through a Resident's Eyes",
-    city: "Lima",
-    rating: 4.9,
-    date: "2023-05-06"
-  },
-  {
-    id: "city-testimonial-lima-9",
-    quote: "I came to Lima for work but stayed for the green spaces. Best decision I ever made.",
-    author: "Isabella Crawford",
-    title: "The Challenges and Charms of Living in Lima",
-    city: "Lima",
-    rating: 4.6,
-    date: "2025-10-03"
+    rating: 4.1,
+    date: "2025-08-25"
   }
 ];

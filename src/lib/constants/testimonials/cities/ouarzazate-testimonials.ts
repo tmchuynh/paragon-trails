@@ -1,52 +1,54 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Ouarzazate
+// Generated on 2025-06-08T04:09:38.707Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const ouarzazateTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-ouarzazate-1",
-    quote: "Raising my family in Ouarzazate gives us access to family-friendly activities, which is truly invaluable.",
-    author: "Elena Thomas",
-    title: "Stories From the Streets of Ouarzazate",
+    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Ouarzazate make daily life convenient and stress-free.",
+    author: "Santiago Hunter",
+    title: "The Unexpected Joys of Ouarzazate Living",
     city: "Ouarzazate",
-    rating: 4.9,
-    date: "2025-08-15"
+    rating: 4.7,
+    date: "2024-12-22"
   },
   {
     id: "city-testimonial-ouarzazate-2",
-    quote: "Living here means being a part of Ouarzazate's ongoing story of innovation and tradition.",
-    author: "Hannah Gibson",
-    title: "My Ouarzazate Story: Life as a Resident",
+    quote: "The cost of living in Ouarzazate is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
+    author: "Justin Payne",
+    title: "Uncovering the Layers of Ouarzazate",
     city: "Ouarzazate",
-    rating: 4.9,
-    date: "2024-04-14"
+    rating: 4.1,
+    date: "2025-10-09"
   },
   {
     id: "city-testimonial-ouarzazate-3",
-    quote: "Ouarzazate's art scene has become central to my life here. I couldn't imagine living without it now.",
-    author: "Willie Lopez",
-    title: "The Beauty of Everyday Life in Ouarzazate",
+    quote: "The {GREEN_SPACES} in Ouarzazate offer a perfect escape from the urban buzz without leaving the city limits.",
+    author: "Joan Kim",
+    title: "Why Ouarzazate Feels Like Home",
     city: "Ouarzazate",
-    rating: 4.4,
-    date: "2025-02-26"
+    rating: 4.2,
+    date: "2024-07-22"
   },
   {
     id: "city-testimonial-ouarzazate-4",
-    quote: "The sports facilities in Ouarzazate makes everyday life feel like an adventure. I've been here 25 years and still discover new things.",
-    author: "Claire Lewis",
-    title: "The Heartbeat of Ouarzazate Life",
+    quote: "If you want a city that offers {LIFESTYLE_BENEFIT}, Ouarzazate is the place to be.",
+    author: "Chen Wilson",
+    title: "What I Love About Living in Ouarzazate",
     city: "Ouarzazate",
-    rating: 4.2,
-    date: "2025-10-07"
+    rating: 4.7,
+    date: "2023-09-18"
   },
   {
     id: "city-testimonial-ouarzazate-5",
-    quote: "One of my favorite parts about living in Ouarzazate is the {MARKET_OR_SHOPPING_FEATURE} just around the corner.",
-    author: "Joel Martinez",
-    title: "The Perfect Imperfections of Ouarzazate",
+    quote: "The historical significance of Ouarzazate adds a depth to daily life that I truly cherish.",
+    author: "Joan Day",
+    title: "What Makes Ouarzazate Feel Like Family",
     city: "Ouarzazate",
-    rating: 4.1,
-    date: "2023-01-11"
+    rating: 4.6,
+    date: "2023-03-27"
   }
 ];

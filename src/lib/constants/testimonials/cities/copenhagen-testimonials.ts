@@ -1,70 +1,72 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Copenhagen
+// Generated on 2025-06-08T04:09:38.698Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const copenhagenTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-copenhagen-1",
-    quote: "The people of Copenhagen are incredibly welcoming and have made me feel at home since day one.",
-    author: "Charlotte Clark",
-    title: "Copenhagen's Hidden Treasures for Locals",
+    quote: "The art and creativity flowing through Copenhagen is inspiring. It feels like living inside a masterpiece.",
+    author: "Betty Hawkins",
+    title: "Living Sustainably in Copenhagen",
     city: "Copenhagen",
-    rating: 4.2,
-    date: "2025-10-22"
+    rating: 4.8,
+    date: "2023-12-18"
   },
   {
     id: "city-testimonial-copenhagen-2",
-    quote: "Living in Copenhagen means I get to enjoy {SPORTS_OR_OUTDOOR_ACTIVITY} year-round.",
-    author: "Nicholas Silva",
-    title: "Why Copenhagen Is a Place to Grow",
+    quote: "Living in Copenhagen means experiencing culinary exploration on a daily basis, which is why I could never leave.",
+    author: "Aisha Wallace",
+    title: "Copenhagen: A City That Grows With You",
     city: "Copenhagen",
-    rating: 4.4,
-    date: "2025-12-11"
+    rating: 4.5,
+    date: "2025-10-21"
   },
   {
     id: "city-testimonial-copenhagen-3",
-    quote: "As someone who's lived in many cities, I can say that Copenhagen's natural integration is unmatched anywhere else.",
-    author: "Carlos Wright",
-    title: "Finding Balance in Copenhagen",
+    quote: "One of my favorite parts about living in Copenhagen is the {MARKET_OR_SHOPPING_FEATURE} just around the corner.",
+    author: "Youssef Wells",
+    title: "The Beauty of Everyday Life in Copenhagen",
     city: "Copenhagen",
-    rating: 4.8,
-    date: "2024-05-21"
+    rating: 4.9,
+    date: "2024-01-04"
   },
   {
     id: "city-testimonial-copenhagen-4",
-    quote: "The {TRANQUILITY_FEATURE} in Copenhagen offers a peaceful retreat from the busy world.",
-    author: "Joshua Sutton",
-    title: "Copenhagen's Hidden Treasures for Locals",
+    quote: "Living in Copenhagen has opened my eyes to {PERSONAL_GROWTH_ASPECT} that I never expected.",
+    author: "Robert Wilson",
+    title: "The Community Spirit That Defines Copenhagen",
     city: "Copenhagen",
-    rating: 4.2,
-    date: "2024-05-25"
+    rating: 4,
+    date: "2023-02-27"
   },
   {
     id: "city-testimonial-copenhagen-5",
-    quote: "Despite its size, Copenhagen manages to feel {SMALL_TOWN_QUALITY}, which is rare and wonderful.",
-    author: "Patricia Garcia",
-    title: "My Corner of Copenhagen",
+    quote: "What really surprised me about Copenhagen is its {DIVERSITY_FEATURE} — it’s a true melting pot.",
+    author: "Ibrahim Brown",
+    title: "A Resident's Guide to Living Well in Copenhagen",
     city: "Copenhagen",
-    rating: 4.8,
-    date: "2023-04-09"
+    rating: 4.5,
+    date: "2024-10-07"
   },
   {
     id: "city-testimonial-copenhagen-6",
-    quote: "The {FESTIVAL_OR_EVENT} season in Copenhagen brings so much excitement and pride to the community.",
-    author: "Oliver Johnson",
-    title: "Discovering Home in Copenhagen",
+    quote: "The {TRANQUILITY_FEATURE} in Copenhagen offers a peaceful retreat from the busy world.",
+    author: "Maya Lawson",
+    title: "What Makes Copenhagen Feel Like Family",
     city: "Copenhagen",
-    rating: 4.6,
-    date: "2023-05-16"
+    rating: 4.5,
+    date: "2023-03-01"
   },
   {
     id: "city-testimonial-copenhagen-7",
-    quote: "What most people don't realize about living in Copenhagen is how hidden gem it actually is. I've found my true home here.",
-    author: "Brenda Martin",
-    title: "The Neighborhoods That Make Copenhagen Home",
+    quote: "The nightlife in Copenhagen is vibrant and full of {ENTERTAINMENT_FEATURE} for everyone.",
+    author: "Tyler Fox",
+    title: "How Copenhagen Balances Tradition and Innovation",
     city: "Copenhagen",
-    rating: 4.7,
-    date: "2024-11-10"
+    rating: 4.1,
+    date: "2023-02-11"
   }
 ];

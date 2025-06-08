@@ -1,88 +1,90 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Shirakawa
+// Generated on 2025-06-08T04:09:38.710Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const shirakawaTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-shirakawa-1",
-    quote: "What really surprised me about Shirakawa is its {DIVERSITY_FEATURE} — it’s a true melting pot.",
-    author: "Harry Reed",
-    title: "The Beauty of Everyday Life in Shirakawa",
+    quote: "As someone who's lived in many cities, I can say that Shirakawa's social cohesion is unmatched anywhere else.",
+    author: "Lisa Jackson",
+    title: "A Resident's Guide to Living Well in Shirakawa",
     city: "Shirakawa",
-    rating: 4.8,
-    date: "2025-07-04"
+    rating: 4.7,
+    date: "2024-05-12"
   },
   {
     id: "city-testimonial-shirakawa-2",
-    quote: "One of the best things about living in Shirakawa is the {ACCESSIBILITY_FEATURE}—it makes everything so convenient.",
-    author: "Muhammad Keller",
-    title: "The Joys of Slow Living in Shirakawa",
+    quote: "What really surprised me about Shirakawa is its {DIVERSITY_FEATURE} — it’s a true melting pot.",
+    author: "Helen Price",
+    title: "Shirakawa Through a Resident's Eyes",
     city: "Shirakawa",
     rating: 4.6,
-    date: "2023-02-28"
+    date: "2023-02-15"
   },
   {
     id: "city-testimonial-shirakawa-3",
-    quote: "If you want a city that offers {LIFESTYLE_BENEFIT}, Shirakawa is the place to be.",
-    author: "Susan Parker",
-    title: "A Resident's Guide to Living Well in Shirakawa",
+    quote: "Community events and festivals in Shirakawa bring everyone together, making the {COMMUNITY_ASPECT} really stand out.",
+    author: "Omar Fisher",
+    title: "The Neighborhoods That Make Shirakawa Home",
     city: "Shirakawa",
     rating: 4,
-    date: "2023-09-02"
+    date: "2025-12-07"
   },
   {
     id: "city-testimonial-shirakawa-4",
-    quote: "One thing I didn’t expect when moving to Shirakawa was the {WEATHER_FEATURE}—it’s truly refreshing.",
-    author: "Helen Dixon",
-    title: "Why Shirakawa Is a Place to Grow",
+    quote: "One of my favorite parts about living in Shirakawa is the {MARKET_OR_SHOPPING_FEATURE} just around the corner.",
+    author: "Deborah Hudson",
+    title: "A Love Letter to Shirakawa",
     city: "Shirakawa",
-    rating: 4.7,
-    date: "2024-09-17"
+    rating: 4.2,
+    date: "2023-08-26"
   },
   {
     id: "city-testimonial-shirakawa-5",
-    quote: "Living in Shirakawa has been one of the best decisions of my life. The historic neighborhoods here makes everyday life so enjoyable.",
-    author: "Diego Wright",
-    title: "Discovering Home in Shirakawa",
+    quote: "The hipster neighborhoods in Shirakawa each have their own character, which keeps life interesting year after year.",
+    author: "Russell Stewart",
+    title: "The True Character of Shirakawa",
     city: "Shirakawa",
-    rating: 4.1,
-    date: "2024-11-16"
+    rating: 5,
+    date: "2025-11-25"
   },
   {
     id: "city-testimonial-shirakawa-6",
-    quote: "Shirakawa has been my home for adopted, and the volunteer networks here is what keeps me rooted.",
-    author: "David Carter",
-    title: "What Makes Shirakawa Feel Like Family",
+    quote: "The sense of {SAFETY} in Shirakawa makes me feel comfortable raising my kids here.",
+    author: "Angela Martinez",
+    title: "Shirakawa: Beyond the Tourist Experience",
     city: "Shirakawa",
-    rating: 4.8,
-    date: "2024-07-13"
+    rating: 4.4,
+    date: "2025-06-20"
   },
   {
     id: "city-testimonial-shirakawa-7",
-    quote: "As a experienced resident of Shirakawa, I can't imagine living anywhere else. The urban gardening here is something you can't find elsewhere.",
-    author: "Maya Dunn",
-    title: "Life in Shirakawa: A Local Perspective",
+    quote: "What really surprised me about Shirakawa is its {DIVERSITY_FEATURE} — it’s a true melting pot.",
+    author: "Wei Silva",
+    title: "What Makes Shirakawa Feel Like Family",
     city: "Shirakawa",
-    rating: 4.7,
-    date: "2023-05-06"
+    rating: 4.9,
+    date: "2023-09-10"
   },
   {
     id: "city-testimonial-shirakawa-8",
-    quote: "The community gardens in Shirakawa makes everyday life feel like an adventure. I've been here 30 years and still discover new things.",
-    author: "Nancy Suzuki",
-    title: "The Beauty of Everyday Life in Shirakawa",
+    quote: "One thing I didn’t expect when moving to Shirakawa was the {WEATHER_FEATURE}—it’s truly refreshing.",
+    author: "Jeffrey Warren",
+    title: "Why Shirakawa Keeps Getting Better",
     city: "Shirakawa",
-    rating: 4.3,
-    date: "2023-06-24"
+    rating: 4.8,
+    date: "2024-11-09"
   },
   {
     id: "city-testimonial-shirakawa-9",
-    quote: "From my apartment in Shirakawa, I can attend impromptu concerts. Where else could you do that?",
-    author: "Virginia Lee",
-    title: "What I Love About Living in Shirakawa",
+    quote: "As someone who's lived in many cities, I can say that Shirakawa's environmental consciousness is unmatched anywhere else.",
+    author: "Oliver Hall",
+    title: "Discovering Home in Shirakawa",
     city: "Shirakawa",
-    rating: 4.8,
-    date: "2023-09-20"
+    rating: 4.7,
+    date: "2023-12-04"
   }
 ];

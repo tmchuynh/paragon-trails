@@ -1,79 +1,63 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Queenstown
+// Generated on 2025-06-08T04:09:38.709Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const queenstownTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-queenstown-1",
-    quote: "After 25 years as a Queenstown local, I still appreciate the community events that makes this place special.",
-    author: "Brooklyn White",
-    title: "The Everyday Magic of Queenstown",
+    quote: "What I tell friends considering moving to Queenstown is to appreciate the urban gardens—it's what makes daily life here so rich.",
+    author: "Katherine Young",
+    title: "Uncovering the Layers of Queenstown",
     city: "Queenstown",
-    rating: 4.7,
-    date: "2025-07-09"
+    rating: 4.4,
+    date: "2024-02-19"
   },
   {
     id: "city-testimonial-queenstown-2",
-    quote: "Despite its size, Queenstown manages to feel {SMALL_TOWN_QUALITY}, which is rare and wonderful.",
-    author: "Ava Spencer",
-    title: "The Unexpected Joys of Queenstown Living",
+    quote: "The bustling neighborhoods in Queenstown each have their own character, which keeps life interesting year after year.",
+    author: "Naomi Hunter",
+    title: "Uncovering the Layers of Queenstown",
     city: "Queenstown",
-    rating: 4.4,
-    date: "2023-06-12"
+    rating: 4.2,
+    date: "2024-08-23"
   },
   {
     id: "city-testimonial-queenstown-3",
-    quote: "Queenstown isn't just where I live—it's part of my identity now. The diverse nightlife has shaped who I am.",
-    author: "Aiden West",
-    title: "How Queenstown Balances Tradition and Innovation",
+    quote: "Raising my family in Queenstown gives us access to nature connection, which is truly invaluable.",
+    author: "Barbara Campbell",
+    title: "Living the Queenstown Lifestyle",
     city: "Queenstown",
-    rating: 4.1,
-    date: "2023-10-06"
+    rating: 4.9,
+    date: "2023-09-25"
   },
   {
     id: "city-testimonial-queenstown-4",
-    quote: "The art and creativity flowing through Queenstown is inspiring. It feels like living inside a masterpiece.",
-    author: "David Silva",
-    title: "My Queenstown Story: Life as a Resident",
+    quote: "Queenstown has been my home for lifelong, and the digital nomads here is what keeps me rooted.",
+    author: "Gary Gibson",
+    title: "A Love Letter to Queenstown",
     city: "Queenstown",
-    rating: 4.8,
-    date: "2025-03-26"
+    rating: 4.6,
+    date: "2025-09-21"
   },
   {
     id: "city-testimonial-queenstown-5",
-    quote: "What I tell friends considering moving to Queenstown is to appreciate the hidden courtyards—it's what makes daily life here so rich.",
-    author: "Priya Ali",
-    title: "Why Queenstown Is a Place to Grow",
+    quote: "Queenstown has been my home for recent but committed, and the entrepreneurial network here is what keeps me rooted.",
+    author: "Janet Wallace",
+    title: "A Love Letter to Queenstown",
     city: "Queenstown",
-    rating: 5,
-    date: "2025-05-09"
+    rating: 4.6,
+    date: "2023-07-21"
   },
   {
     id: "city-testimonial-queenstown-6",
-    quote: "The historical significance of Queenstown adds a depth to daily life that I truly cherish.",
-    author: "Darrell Coleman",
-    title: "Finding Balance in Queenstown",
+    quote: "One of my favorite parts about living in Queenstown is the {MARKET_OR_SHOPPING_FEATURE} just around the corner.",
+    author: "Amelia Gonzalez",
+    title: "How Queenstown Balances Tradition and Innovation",
     city: "Queenstown",
-    rating: 4.1,
-    date: "2025-01-03"
-  },
-  {
-    id: "city-testimonial-queenstown-7",
-    quote: "The historical significance of Queenstown adds a depth to daily life that I truly cherish.",
-    author: "Ibrahim Parker",
-    title: "The Unexpected Joys of Queenstown Living",
-    city: "Queenstown",
-    rating: 4.9,
-    date: "2023-11-09"
-  },
-  {
-    id: "city-testimonial-queenstown-8",
-    quote: "The historical significance of Queenstown adds a depth to daily life that I truly cherish.",
-    author: "Brian Douglas",
-    title: "My Queenstown Story: Life as a Resident",
-    city: "Queenstown",
-    rating: 4.8,
-    date: "2024-08-20"
+    rating: 4.5,
+    date: "2023-08-24"
   }
 ];

@@ -1,88 +1,90 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Prague
+// Generated on 2025-06-08T04:09:38.708Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const pragueTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-prague-1",
-    quote: "What really surprised me about Prague is its {DIVERSITY_FEATURE} — it’s a true melting pot.",
-    author: "Blake Clark",
-    title: "The Joys of Slow Living in Prague",
+    quote: "The nightlife in Prague is vibrant and full of {ENTERTAINMENT_FEATURE} for everyone.",
+    author: "Walter Brown",
+    title: "The Perfect Imperfections of Prague",
     city: "Prague",
-    rating: 4.9,
-    date: "2024-07-23"
+    rating: 4,
+    date: "2023-10-06"
   },
   {
     id: "city-testimonial-prague-2",
-    quote: "The mix of old and new in Prague's architecture and culture keeps the city feeling fresh yet grounded.",
-    author: "Dennis Gonzalez",
-    title: "Why I’m Proud to Call Prague Home",
+    quote: "The food scene in Prague is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
+    author: "Avery Hamilton",
+    title: "Discovering Home in Prague",
     city: "Prague",
-    rating: 4.7,
-    date: "2024-08-17"
+    rating: 4,
+    date: "2025-07-26"
   },
   {
     id: "city-testimonial-prague-3",
-    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Prague make daily life convenient and stress-free.",
-    author: "John Coleman",
-    title: "Why I’m Proud to Call Prague Home",
+    quote: "The cost of living in Prague is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
+    author: "Bruce Graham",
+    title: "Life in Prague: A Local Perspective",
     city: "Prague",
-    rating: 4.3,
-    date: "2023-04-12"
+    rating: 4,
+    date: "2025-02-28"
   },
   {
     id: "city-testimonial-prague-4",
-    quote: "Living here means being a part of Prague's ongoing story of innovation and tradition.",
-    author: "Henry Davis",
-    title: "Why Prague Feels Like Home",
+    quote: "I've found that Prague's {TRANSPORT_FEATURE} really makes getting around effortless and enjoyable.",
+    author: "Keith Wood",
+    title: "Uncovering the Layers of Prague",
     city: "Prague",
     rating: 4.8,
-    date: "2023-05-06"
+    date: "2023-09-03"
   },
   {
     id: "city-testimonial-prague-5",
-    quote: "What really surprised me about Prague is its {DIVERSITY_FEATURE} — it’s a true melting pot.",
-    author: "Lawrence Griffin",
-    title: "The Vibrant Life of Prague Residents",
+    quote: "Prague has been my home for settled, and the creative circles here is what keeps me rooted.",
+    author: "Chloe Garcia",
+    title: "Prague: A City That Grows With You",
     city: "Prague",
     rating: 4.7,
-    date: "2023-05-24"
+    date: "2025-12-08"
   },
   {
     id: "city-testimonial-prague-6",
-    quote: "After moving to Prague 12 years ago, I fell in love with the traditional values of this place. It's truly special.",
-    author: "Aaliyah Brown",
-    title: "The Everyday Magic of Prague",
+    quote: "The art and creativity flowing through Prague is inspiring. It feels like living inside a masterpiece.",
+    author: "Chen Harper",
+    title: "Prague: Where I Found My Community",
     city: "Prague",
-    rating: 4.1,
-    date: "2023-02-24"
+    rating: 5,
+    date: "2025-09-01"
   },
   {
     id: "city-testimonial-prague-7",
-    quote: "Raising my family in Prague gives us access to parent support groups, which is truly invaluable.",
-    author: "Priya Johnson",
-    title: "The Community Spirit That Defines Prague",
+    quote: "After moving to Prague 20 years ago, I fell in love with the friendly neighborhoods of this place. It's truly special.",
+    author: "Samantha Fisher",
+    title: "The Heartbeat of Prague Life",
     city: "Prague",
-    rating: 4.5,
-    date: "2023-05-23"
+    rating: 4.8,
+    date: "2024-07-09"
   },
   {
     id: "city-testimonial-prague-8",
-    quote: "Despite its size, Prague manages to feel {SMALL_TOWN_QUALITY}, which is rare and wonderful.",
-    author: "Stella Day",
-    title: "How Prague Balances Tradition and Innovation",
+    quote: "The balance of creative hubs and traditional craftsmanship in Prague creates a quality of life that's hard to find elsewhere.",
+    author: "Boris Martinez",
+    title: "The Neighborhoods That Make Prague Home",
     city: "Prague",
-    rating: 4.6,
-    date: "2024-12-23"
+    rating: 4.2,
+    date: "2025-11-09"
   },
   {
     id: "city-testimonial-prague-9",
-    quote: "The people of Prague are incredibly welcoming and have made me feel at home since day one.",
-    author: "Claire Gibson",
-    title: "The Soul of Prague: A Local's View",
+    quote: "The summer waterfront activities in Prague is something I look forward to every year. It's what makes living here magical.",
+    author: "Johnny Gonzalez",
+    title: "The Beauty of Everyday Life in Prague",
     city: "Prague",
-    rating: 4.3,
-    date: "2025-08-22"
+    rating: 4.8,
+    date: "2025-09-27"
   }
 ];

@@ -1,52 +1,63 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Savannah
+// Generated on 2025-06-08T04:09:38.709Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const savannahTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-savannah-1",
-    quote: "Savannah's folk traditions scene has become central to my life here. I couldn't imagine living without it now.",
-    author: "Jerry Ellis",
-    title: "Savannah: More Than Just a Place",
+    quote: "I love how Savannah celebrates {FESTIVAL_OR_EVENT}, it brings so much joy and community spirit.",
+    author: "Daniel Coleman",
+    title: "The Joys of Slow Living in Savannah",
     city: "Savannah",
-    rating: 4,
-    date: "2023-09-21"
+    rating: 4.5,
+    date: "2024-11-14"
   },
   {
     id: "city-testimonial-savannah-2",
-    quote: "Every weekend in Savannah brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
-    author: "Abigail Graves",
-    title: "The Beauty of Everyday Life in Savannah",
+    quote: "No two days are the same living in Savannah. The {DYNAMIC_ASPECT} keeps me excited to wake up every morning.",
+    author: "Santiago Williams",
+    title: "What Makes Savannah Feel Like Family",
     city: "Savannah",
-    rating: 4.8,
-    date: "2023-05-22"
+    rating: 4.7,
+    date: "2024-02-28"
   },
   {
     id: "city-testimonial-savannah-3",
-    quote: "What really surprised me about Savannah is its {DIVERSITY_FEATURE} — it’s a true melting pot.",
-    author: "Virginia Jackson",
-    title: "Finding Balance in Savannah",
+    quote: "The {FESTIVAL_OR_EVENT} season in Savannah brings so much excitement and pride to the community.",
+    author: "Madelyn Campbell",
+    title: "The Heartbeat of Savannah Life",
     city: "Savannah",
-    rating: 4.7,
-    date: "2025-07-06"
+    rating: 4.1,
+    date: "2024-05-03"
   },
   {
     id: "city-testimonial-savannah-4",
-    quote: "I've found that Savannah's {TRANSPORT_FEATURE} really makes getting around effortless and enjoyable.",
-    author: "Justin Jansen",
-    title: "Why Savannah Is a Place to Grow",
+    quote: "The summer outdoor concerts in Savannah is something I look forward to every year. It's what makes living here magical.",
+    author: "Audrey Gonzalez",
+    title: "The Perfect Imperfections of Savannah",
     city: "Savannah",
-    rating: 4.3,
-    date: "2025-04-04"
+    rating: 4.1,
+    date: "2025-06-15"
   },
   {
     id: "city-testimonial-savannah-5",
-    quote: "The cost of living in Savannah is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
-    author: "Bryan Cooper",
-    title: "My Corner of Savannah",
+    quote: "The sense of {SAFETY} in Savannah makes me feel comfortable raising my kids here.",
+    author: "Priya Williams",
+    title: "The Real Savannah Experience",
     city: "Savannah",
-    rating: 4.7,
-    date: "2025-10-03"
+    rating: 4.2,
+    date: "2025-06-27"
+  },
+  {
+    id: "city-testimonial-savannah-6",
+    quote: "Living in Savannah means being surrounded by historical landmarks, which feeds my soul every day.",
+    author: "Leah Ali",
+    title: "The Vibrant Life of Savannah Residents",
+    city: "Savannah",
+    rating: 4.6,
+    date: "2023-09-22"
   }
 ];

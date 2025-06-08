@@ -1,88 +1,63 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for St Thomas
+// Generated on 2025-06-08T04:09:38.631Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const stthomasTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-st-thomas-1",
-    quote: "The food scene in St Thomas is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
-    author: "Sophia Smith",
-    title: "From Newcomer to Local in St Thomas",
+    quote: "Living in St Thomas means experiencing local traditions on a daily basis, which is why I could never leave.",
+    author: "Harper Fox",
+    title: "My St Thomas Story: Life as a Resident",
     city: "St Thomas",
-    rating: 4.3,
-    date: "2024-04-13"
+    rating: 4.2,
+    date: "2023-06-24"
   },
   {
     id: "city-testimonial-st-thomas-2",
-    quote: "The {GREEN_SPACES} in St Thomas offer a perfect escape from the urban buzz without leaving the city limits.",
-    author: "Marcus Williams",
-    title: "How St Thomas Balances Tradition and Innovation",
+    quote: "The balance of artistic expression and practical living in St Thomas creates a quality of life that's hard to find elsewhere.",
+    author: "Michelle Lewis",
+    title: "Stories From the Streets of St Thomas",
     city: "St Thomas",
-    rating: 4.9,
-    date: "2025-02-08"
+    rating: 4.6,
+    date: "2024-02-01"
   },
   {
     id: "city-testimonial-st-thomas-3",
-    quote: "The {GREEN_SPACES} in St Thomas offer a perfect escape from the urban buzz without leaving the city limits.",
-    author: "Stephen Holloway",
-    title: "From Newcomer to Local in St Thomas",
+    quote: "Every weekend in St Thomas brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
+    author: "Brian Maxwell",
+    title: "What Makes St Thomas Uniquely Livable",
     city: "St Thomas",
-    rating: 4.1,
-    date: "2024-06-01"
+    rating: 4.2,
+    date: "2025-08-16"
   },
   {
     id: "city-testimonial-st-thomas-4",
-    quote: "Living in St Thomas has allowed me to connect deeply with {NATURE_FEATURE} nearby.",
-    author: "Christopher Fisher",
-    title: "St Thomas: Beyond the Tourist Experience",
+    quote: "As someone who's lived in many cities, I can say that St Thomas's neighborhood identities is unmatched anywhere else.",
+    author: "Sebastian Lee",
+    title: "Why I Chose St Thomas as Home",
     city: "St Thomas",
-    rating: 4.1,
-    date: "2023-09-17"
+    rating: 4.5,
+    date: "2023-10-25"
   },
   {
     id: "city-testimonial-st-thomas-5",
-    quote: "Living in St Thomas means experiencing nightlife excitement on a daily basis, which is why I could never leave.",
-    author: "Eleanor Campbell",
-    title: "The Real St Thomas Experience",
+    quote: "From my apartment in St Thomas, I can connect with professional networks. Where else could you do that?",
+    author: "Willie Graves",
+    title: "The Joys of Slow Living in St Thomas",
     city: "St Thomas",
     rating: 4.2,
-    date: "2025-12-26"
+    date: "2024-03-28"
   },
   {
     id: "city-testimonial-st-thomas-6",
-    quote: "The nightlife in St Thomas is vibrant and full of {ENTERTAINMENT_FEATURE} for everyone.",
-    author: "Ella Hamilton",
-    title: "The Neighborhoods That Make St Thomas Home",
-    city: "St Thomas",
-    rating: 5,
-    date: "2024-09-19"
-  },
-  {
-    id: "city-testimonial-st-thomas-7",
-    quote: "The {FESTIVAL_OR_EVENT} season in St Thomas brings so much excitement and pride to the community.",
-    author: "Juan Ellis",
+    quote: "What really surprised me about St Thomas is its {DIVERSITY_FEATURE} — it’s a true melting pot.",
+    author: "Lisa Nguyen",
     title: "The True Character of St Thomas",
     city: "St Thomas",
-    rating: 4.8,
-    date: "2025-10-16"
-  },
-  {
-    id: "city-testimonial-st-thomas-8",
-    quote: "St Thomas has been my home for passionate, and the volunteer networks here is what keeps me rooted.",
-    author: "Blake Brooks",
-    title: "The Beauty of Everyday Life in St Thomas",
-    city: "St Thomas",
-    rating: 4.7,
-    date: "2023-10-23"
-  },
-  {
-    id: "city-testimonial-st-thomas-9",
-    quote: "Every weekend in St Thomas brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
-    author: "Billy Warren",
-    title: "The Joys of Slow Living in St Thomas",
-    city: "St Thomas",
-    rating: 4.6,
-    date: "2024-11-10"
+    rating: 5,
+    date: "2024-11-22"
   }
 ];

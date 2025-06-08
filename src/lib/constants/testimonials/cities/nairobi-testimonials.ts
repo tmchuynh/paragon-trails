@@ -1,52 +1,63 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Nairobi
+// Generated on 2025-06-08T04:09:38.711Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const nairobiTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-nairobi-1",
-    quote: "No two days are the same living in Nairobi. The {DYNAMIC_ASPECT} keeps me excited to wake up every morning.",
-    author: "Edward Silva",
-    title: "The Joys of Slow Living in Nairobi",
+    quote: "If you want a city that offers {LIFESTYLE_BENEFIT}, Nairobi is the place to be.",
+    author: "Gabriel Hudson",
+    title: "Stories From the Streets of Nairobi",
     city: "Nairobi",
-    rating: 4.4,
-    date: "2025-04-14"
+    rating: 4.1,
+    date: "2023-11-21"
   },
   {
     id: "city-testimonial-nairobi-2",
-    quote: "The balance of tradition and progress in Nairobi creates a quality of life that's hard to find elsewhere.",
-    author: "Olivia Kim",
-    title: "The Challenges and Charms of Living in Nairobi",
+    quote: "Living here means being a part of Nairobi's ongoing story of innovation and tradition.",
+    author: "Diego Henderson",
+    title: "Nairobi Through a Resident's Eyes",
     city: "Nairobi",
-    rating: 4.9,
-    date: "2025-10-02"
+    rating: 4.4,
+    date: "2023-01-21"
   },
   {
     id: "city-testimonial-nairobi-3",
-    quote: "What most people don't realize about living in Nairobi is how quiet it actually is. I've found my true home here.",
-    author: "Maria Porter",
-    title: "The Everyday Magic of Nairobi",
+    quote: "What most people don't realize about living in Nairobi is how vibrant it actually is. I've found my true home here.",
+    author: "Mohamed Nguyen",
+    title: "How Nairobi Changed My Life",
     city: "Nairobi",
-    rating: 4.8,
-    date: "2025-08-10"
+    rating: 5,
+    date: "2024-06-25"
   },
   {
     id: "city-testimonial-nairobi-4",
-    quote: "Nairobi has been my home for veteran, and the religious communities here is what keeps me rooted.",
-    author: "Alexa da Costa",
-    title: "Nairobi Living: Worth Every Moment",
+    quote: "No two days are the same living in Nairobi. The {DYNAMIC_ASPECT} keeps me excited to wake up every morning.",
+    author: "Miguel Mason",
+    title: "What Makes Nairobi Special to Live In",
     city: "Nairobi",
-    rating: 4.1,
-    date: "2024-11-12"
+    rating: 4.8,
+    date: "2024-08-15"
   },
   {
     id: "city-testimonial-nairobi-5",
-    quote: "Living in Nairobi has opened my eyes to {PERSONAL_GROWTH_ASPECT} that I never expected.",
-    author: "Douglas Wood",
-    title: "The Perfect Imperfections of Nairobi",
+    quote: "The nightlife in Nairobi is vibrant and full of {ENTERTAINMENT_FEATURE} for everyone.",
+    author: "Janet Foster",
+    title: "What Makes Nairobi Special to Live In",
+    city: "Nairobi",
+    rating: 4.6,
+    date: "2025-05-24"
+  },
+  {
+    id: "city-testimonial-nairobi-6",
+    quote: "The {FESTIVAL_OR_EVENT} season in Nairobi brings so much excitement and pride to the community.",
+    author: "Joel Edwards",
+    title: "Nairobi's Hidden Treasures for Locals",
     city: "Nairobi",
     rating: 4.1,
-    date: "2023-04-13"
+    date: "2025-07-10"
   }
 ];

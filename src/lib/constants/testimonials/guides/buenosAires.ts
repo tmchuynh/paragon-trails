@@ -1,426 +1,421 @@
 // This file is auto-generated. Do not edit manually.
 // Tour guide reviews for buenosAires
+// City: Buenos Aires
+// Country: argentina
+// Region: argentina
+// Generated on: 2025-06-08T04:09:38.248Z
 export const buenosAiresGuideReviews = {
   "guide-buenos-aires-1": [
     {
       "id": "guide-buenos-aires-1-review-0",
-      "quote": "Even our kids loved the tour—Priya Reed was so friendly and made sure everyone was involved.",
-      "author": "Lucas Kowalski",
+      "quote": "We had a trustworthy time with Walter Mason. Their passion for Local Artisans was evident throughout the tour.",
+      "author": "Aisha Jones",
       "title": "Verified Tour Participant",
       "city": "Buenos Aires",
       "rating": 5,
-      "date": "2025-02-13"
+      "date": "2024-08-18"
     },
     {
       "id": "guide-buenos-aires-1-review-1",
-      "quote": "Priya Reed tailored the tour perfectly to our interests. His engaging nature made everyone feel welcome.",
-      "author": "Mohamed Patel",
+      "quote": "A truly engaging experience thanks to Walter Mason. Her balance of facts and fun was exactly what we were hoping for.",
+      "author": "Henry Fox",
       "title": "Verified Tour Participant",
       "city": "Buenos Aires",
       "rating": 5,
-      "date": "2025-04-18"
+      "date": "2024-08-19"
     },
     {
       "id": "guide-buenos-aires-1-review-2",
-      "quote": "Priya Reed made even the smallest detail feel important. Their passionate touch made this tour stand out from the rest.",
-      "author": "Lawrence Day",
+      "quote": "What an welcoming experience with Walter Mason! Her expertise in Art Galleries added so much value to our visit.",
+      "author": "Stephanie Clark",
       "title": "Verified Tour Participant",
       "city": "Buenos Aires",
-      "rating": 5,
-      "date": "2024-07-07"
+      "rating": 3,
+      "date": "2024-09-12"
     }
   ],
   "guide-buenos-aires-2": [
     {
       "id": "guide-buenos-aires-2-review-0",
-      "quote": "If you’re looking for a wonderful experience in Local Legends, Mei Russell is the one to book. Their professionalism stood out.",
-      "author": "Maya Gardner",
+      "quote": "You could tell that Yuki Brooks genuinely cares about what Her does. Her exceptional nature was a highlight of our trip.",
+      "author": "Kennedy Edwards",
       "title": "Verified Tour Participant",
       "city": "Buenos Aires",
       "rating": 5,
-      "date": "2024-08-11"
+      "date": "2024-08-17"
     },
     {
       "id": "guide-buenos-aires-2-review-1",
-      "quote": "A truly charismatic experience thanks to Mei Russell. Their balance of facts and fun was exactly what we were hoping for.",
-      "author": "Zola Gonzalez",
+      "quote": "Yuki Brooks delivered a perfect mix of history, humor, and heart. Her knowledgeable delivery kept us engaged throughout.",
+      "author": "William Johnson",
       "title": "Verified Tour Participant",
       "city": "Buenos Aires",
       "rating": 5,
-      "date": "2024-06-15"
+      "date": "2025-01-13"
     },
     {
       "id": "guide-buenos-aires-2-review-2",
-      "quote": "Mei Russell was an genuine guide who truly brought the city to life. Their knowledge of Local Festivals was impressive.",
-      "author": "Carol Edwards",
+      "quote": "If you’re looking for a attentive experience in Local Crafts, Yuki Brooks is the one to book. Her professionalism stood out.",
+      "author": "Samantha Stewart",
       "title": "Verified Tour Participant",
       "city": "Buenos Aires",
       "rating": 5,
-      "date": "2024-07-16"
+      "date": "2025-02-14"
     }
   ],
   "guide-buenos-aires-3": [
     {
       "id": "guide-buenos-aires-3-review-0",
-      "quote": "It’s rare to find a guide as inspiring as Vincent Day. Her ability to connect with people from all walks of life was exceptional.",
-      "author": "Yuki Jansen",
+      "quote": "I wasn’t expecting to learn so much and enjoy it this much. Ali Edwards was accommodating and incredibly knowledgeable.",
+      "author": "Aaron Khan",
       "title": "Verified Tour Participant",
       "city": "Buenos Aires",
-      "rating": 5,
-      "date": "2025-01-18"
+      "rating": 4,
+      "date": "2024-10-19"
     },
     {
       "id": "guide-buenos-aires-3-review-1",
-      "quote": "I highly recommend Vincent Day for anyone interested in Family Activities. Her made our tour memorable.",
-      "author": "Joshua Lopez",
+      "quote": "I highly recommend Ali Edwards for anyone interested in Wildlife Watching. Their made our tour memorable.",
+      "author": "Rebecca Wang",
       "title": "Verified Tour Participant",
       "city": "Buenos Aires",
-      "rating": 5,
-      "date": "2024-11-07"
+      "rating": 4,
+      "date": "2024-08-16"
     },
     {
       "id": "guide-buenos-aires-3-review-2",
-      "quote": "I wasn’t expecting to learn so much and enjoy it this much. Vincent Day was inspiring and incredibly knowledgeable.",
-      "author": "Diego Warren",
+      "quote": "Ali Edwards was an genuine guide who truly brought the city to life. Her knowledge of Religious Sites was impressive.",
+      "author": "Miguel Martin",
       "title": "Verified Tour Participant",
       "city": "Buenos Aires",
-      "rating": 5,
-      "date": "2024-11-14"
+      "rating": 4,
+      "date": "2024-12-26"
     }
   ],
   "guide-buenos-aires-4": [
     {
       "id": "guide-buenos-aires-4-review-0",
-      "quote": "Nora Stewart is simply welcoming. The tour was well-paced and Their attention to detail was remarkable.",
-      "author": "Anna Gonzalez",
+      "quote": "Charlotte Graham went above and beyond. Their enthusiastic energy and personal touch made the day extra special.",
+      "author": "Ella Reed",
       "title": "Verified Tour Participant",
       "city": "Buenos Aires",
       "rating": 5,
-      "date": "2024-12-03"
+      "date": "2024-07-04"
     },
     {
       "id": "guide-buenos-aires-4-review-1",
-      "quote": "Nora Stewart is simply engaging. The tour was well-paced and Her attention to detail was remarkable.",
-      "author": "Emily Warren",
+      "quote": "Charlotte Graham didn’t just give us a tour—Their gave us a connection to the city through wonderful storytelling.",
+      "author": "Roger Gonzalez",
       "title": "Verified Tour Participant",
       "city": "Buenos Aires",
       "rating": 4,
-      "date": "2024-10-25"
+      "date": "2025-01-16"
     },
     {
       "id": "guide-buenos-aires-4-review-2",
-      "quote": "Nora Stewart created an environment that was both informative and relaxing. Their trustworthy approach kept everyone engaged.",
-      "author": "Isabella Anderson",
+      "quote": "Charlotte Graham has a gift for storytelling. The entire group was engaged, laughing, and learning—it was such a wonderful time.",
+      "author": "Dorothy Bennett",
       "title": "Verified Tour Participant",
       "city": "Buenos Aires",
-      "rating": 5,
-      "date": "2025-04-19"
-    },
-    {
-      "id": "guide-buenos-aires-4-review-3",
-      "quote": "It’s rare to find a guide as motivating as Nora Stewart. His ability to connect with people from all walks of life was exceptional.",
-      "author": "Alexander Jennings",
-      "title": "Verified Tour Participant",
-      "city": "Buenos Aires",
-      "rating": 5,
-      "date": "2025-01-24"
+      "rating": 4,
+      "date": "2025-01-26"
     }
   ],
   "guide-buenos-aires-5": [
     {
       "id": "guide-buenos-aires-5-review-0",
-      "quote": "The way Helen Campbell brought Historical Sites to life was truly knowledgeable. You could tell Her loves what Her does.",
-      "author": "Douglas Wilson",
+      "quote": "A truly thoughtful experience thanks to Emma Ellis. Her balance of facts and fun was exactly what we were hoping for.",
+      "author": "Samantha Ellis",
       "title": "Verified Tour Participant",
       "city": "Buenos Aires",
-      "rating": 5,
-      "date": "2024-11-08"
+      "rating": 3,
+      "date": "2024-07-12"
     },
     {
       "id": "guide-buenos-aires-5-review-1",
-      "quote": "Every moment with Helen Campbell felt intentional. Their knowledgeable guidance made this one of the best parts of our trip.",
-      "author": "Jane Crawford",
+      "quote": "Emma Ellis was an friendly guide who truly brought the city to life. Their knowledge of Historical Tours was impressive.",
+      "author": "Timothy Chambers",
       "title": "Verified Tour Participant",
       "city": "Buenos Aires",
       "rating": 5,
-      "date": "2024-08-13"
+      "date": "2024-09-20"
     },
     {
       "id": "guide-buenos-aires-5-review-2",
-      "quote": "Helen Campbell brought warmth and outstanding energy to the day. Her made us feel like locals instead of tourists.",
-      "author": "Michelle Sutton",
+      "quote": "Emma Ellis didn’t just give us a tour—His gave us a connection to the city through friendly storytelling.",
+      "author": "Hassan Wright",
       "title": "Verified Tour Participant",
       "city": "Buenos Aires",
       "rating": 5,
-      "date": "2024-09-27"
+      "date": "2025-05-24"
     },
     {
       "id": "guide-buenos-aires-5-review-3",
-      "quote": "We left the tour inspired. Helen Campbell's approachable way of sharing knowledge made a lasting impression on us.",
-      "author": "Randy Morgan",
+      "quote": "I’ve traveled a lot, but this was one of the most brilliant tours I’ve ever taken. Emma Ellis was fantastic from start to finish.",
+      "author": "Laura Carter",
       "title": "Verified Tour Participant",
       "city": "Buenos Aires",
       "rating": 5,
-      "date": "2024-08-18"
+      "date": "2025-04-10"
     }
   ],
   "guide-buenos-aires-6": [
     {
       "id": "guide-buenos-aires-6-review-0",
-      "quote": "Vincent Montgomery tailored the tour perfectly to our interests. Her helpful nature made everyone feel welcome.",
-      "author": "Antonio Stewart",
-      "title": "Verified Tour Participant",
-      "city": "Buenos Aires",
-      "rating": 4,
-      "date": "2025-04-18"
-    },
-    {
-      "id": "guide-buenos-aires-6-review-1",
-      "quote": "We left the tour inspired. Vincent Montgomery's exceptional way of sharing knowledge made a lasting impression on us.",
-      "author": "Anna Murray",
+      "quote": "We were lucky to have Sofia Spencer as our guide. Their engaging insights made a big difference in how we experienced street art.",
+      "author": "Riley Ivanov",
       "title": "Verified Tour Participant",
       "city": "Buenos Aires",
       "rating": 5,
-      "date": "2025-04-07"
+      "date": "2025-01-31"
+    },
+    {
+      "id": "guide-buenos-aires-6-review-1",
+      "quote": "You could tell that Sofia Spencer genuinely cares about what Her does. Her skilled nature was a highlight of our trip.",
+      "author": "Sandra Davis",
+      "title": "Verified Tour Participant",
+      "city": "Buenos Aires",
+      "rating": 5,
+      "date": "2025-05-26"
     },
     {
       "id": "guide-buenos-aires-6-review-2",
-      "quote": "Vincent Montgomery went above and beyond. His motivating energy and personal touch made the day extra special.",
-      "author": "Ravi Griffin",
+      "quote": "Sofia Spencer tailored the tour perfectly to our interests. Their reliable nature made everyone feel welcome.",
+      "author": "Dylan Martin",
       "title": "Verified Tour Participant",
       "city": "Buenos Aires",
-      "rating": 3,
+      "rating": 5,
       "date": "2024-10-19"
     }
   ],
   "guide-buenos-aires-7": [
     {
       "id": "guide-buenos-aires-7-review-0",
-      "quote": "A truly informative experience thanks to Jeremy Smith. Her balance of facts and fun was exactly what we were hoping for.",
-      "author": "Nicholas West",
-      "title": "Verified Tour Participant",
-      "city": "Buenos Aires",
-      "rating": 5,
-      "date": "2024-11-08"
-    },
-    {
-      "id": "guide-buenos-aires-7-review-1",
-      "quote": "Touring with Jeremy Smith was a delight. Her informative personality and deep knowledge made the experience unforgettable.",
-      "author": "Abigail Moore",
-      "title": "Verified Tour Participant",
-      "city": "Buenos Aires",
-      "rating": 3,
-      "date": "2024-07-26"
-    },
-    {
-      "id": "guide-buenos-aires-7-review-2",
-      "quote": "I booked the tour last minute, but I’m so glad I did. Jeremy Smith's trustworthy leadership and local tips were invaluable.",
-      "author": "Aria Spencer",
+      "quote": "You’ll leave the tour smarter and smiling if Carlos Carpenter is your guide. Her motivating energy is contagious.",
+      "author": "Madelyn Moore",
       "title": "Verified Tour Participant",
       "city": "Buenos Aires",
       "rating": 4,
-      "date": "2024-12-25"
+      "date": "2024-09-14"
+    },
+    {
+      "id": "guide-buenos-aires-7-review-1",
+      "quote": "I’ve traveled a lot, but this was one of the most generous tours I’ve ever taken. Carlos Carpenter was fantastic from start to finish.",
+      "author": "Juan Jackson",
+      "title": "Verified Tour Participant",
+      "city": "Buenos Aires",
+      "rating": 5,
+      "date": "2024-11-22"
+    },
+    {
+      "id": "guide-buenos-aires-7-review-2",
+      "quote": "From start to finish, Carlos Carpenter delivered a resourceful experience. His expertise and care were unmatched.",
+      "author": "Jessica Brooks",
+      "title": "Verified Tour Participant",
+      "city": "Buenos Aires",
+      "rating": 5,
+      "date": "2024-11-13"
     }
   ],
   "guide-buenos-aires-8": [
     {
       "id": "guide-buenos-aires-8-review-0",
-      "quote": "It’s rare to find a guide as skilled as Elijah Kowalski. Her ability to connect with people from all walks of life was exceptional.",
-      "author": "Brian Moore",
+      "quote": "Mei Johnson went above and beyond. Her brilliant energy and personal touch made the day extra special.",
+      "author": "Jason Rodriguez",
       "title": "Verified Tour Participant",
       "city": "Buenos Aires",
       "rating": 5,
-      "date": "2025-02-02"
+      "date": "2024-10-18"
     },
     {
       "id": "guide-buenos-aires-8-review-1",
-      "quote": "It’s rare to find a guide as reliable as Elijah Kowalski. His ability to connect with people from all walks of life was exceptional.",
-      "author": "Sarah Thomas",
+      "quote": "I’ve taken many tours, but Mei Johnson's was by far the most motivating. Her storytelling ability was incredible.",
+      "author": "Emma Crawford",
       "title": "Verified Tour Participant",
       "city": "Buenos Aires",
       "rating": 5,
-      "date": "2024-07-31"
+      "date": "2024-12-06"
     },
     {
       "id": "guide-buenos-aires-8-review-2",
-      "quote": "Elijah Kowalski was an generous guide who truly brought the city to life. Their knowledge of Cultural Experiences was impressive.",
-      "author": "Barbara Foster",
+      "quote": "What an detail-oriented experience with Mei Johnson! Their expertise in Local Legends added so much value to our visit.",
+      "author": "Diego Morgan",
       "title": "Verified Tour Participant",
       "city": "Buenos Aires",
       "rating": 5,
-      "date": "2024-07-14"
+      "date": "2025-02-01"
     },
     {
       "id": "guide-buenos-aires-8-review-3",
-      "quote": "Elijah Kowalski delivered a perfect mix of history, humor, and heart. Their insightful delivery kept us engaged throughout.",
-      "author": "Abigail Stewart",
+      "quote": "From start to finish, Mei Johnson delivered a attentive experience. Their expertise and care were unmatched.",
+      "author": "Ibrahim Parker",
       "title": "Verified Tour Participant",
       "city": "Buenos Aires",
       "rating": 5,
-      "date": "2024-07-28"
+      "date": "2024-09-03"
     }
   ],
   "guide-buenos-aires-9": [
     {
       "id": "guide-buenos-aires-9-review-0",
-      "quote": "We had a charming time with Johnny Johnson. Their passion for Scenic Views was evident throughout the tour.",
-      "author": "Aisha Brown",
+      "quote": "Thandiwe Crawford's tour was the highlight of our trip. Their engaging approach to sharing the history made everything interesting.",
+      "author": "Evelyn Rodriguez",
       "title": "Verified Tour Participant",
       "city": "Buenos Aires",
-      "rating": 4,
-      "date": "2024-06-21"
+      "rating": 5,
+      "date": "2024-09-15"
     },
     {
       "id": "guide-buenos-aires-9-review-1",
-      "quote": "From start to finish, Johnny Johnson delivered a patient experience. Their expertise and care were unmatched.",
-      "author": "Janet Anderson",
+      "quote": "Thandiwe Crawford was an patient guide who truly brought the city to life. His knowledge of Local Folklore was impressive.",
+      "author": "Zola Jennings",
       "title": "Verified Tour Participant",
       "city": "Buenos Aires",
-      "rating": 5,
-      "date": "2024-11-30"
+      "rating": 4,
+      "date": "2024-08-01"
     },
     {
       "id": "guide-buenos-aires-9-review-2",
-      "quote": "You’ll leave the tour smarter and smiling if Johnny Johnson is your guide. Her cheerful energy is contagious.",
-      "author": "Evelyn Hunter",
+      "quote": "We felt completely at ease with Thandiwe Crawford. Her superb style made even complex topics accessible and fun.",
+      "author": "Aaron Maxwell",
       "title": "Verified Tour Participant",
       "city": "Buenos Aires",
       "rating": 5,
-      "date": "2025-04-15"
+      "date": "2025-02-14"
     },
     {
       "id": "guide-buenos-aires-9-review-3",
-      "quote": "Even our kids loved the tour—Johnny Johnson was so professional and made sure everyone was involved.",
-      "author": "Wayne Gardner",
+      "quote": "What an accommodating experience with Thandiwe Crawford! Her expertise in Local Folklore added so much value to our visit.",
+      "author": "Muhammad Jennings",
       "title": "Verified Tour Participant",
       "city": "Buenos Aires",
       "rating": 5,
-      "date": "2025-03-10"
+      "date": "2024-08-15"
     }
   ],
   "guide-buenos-aires-10": [
     {
       "id": "guide-buenos-aires-10-review-0",
-      "quote": "I wasn’t expecting to learn so much and enjoy it this much. Philip Gonzalez was amazing and incredibly knowledgeable.",
-      "author": "Eleanor Martinez",
+      "quote": "Touring with Michelle Müller was a delight. Their thorough personality and deep knowledge made the experience unforgettable.",
+      "author": "Diego Patel",
       "title": "Verified Tour Participant",
       "city": "Buenos Aires",
       "rating": 5,
-      "date": "2024-09-18"
+      "date": "2025-01-01"
     },
     {
       "id": "guide-buenos-aires-10-review-1",
-      "quote": "Philip Gonzalez was an knowledgeable guide who truly brought the city to life. Their knowledge of culinary traditions was impressive.",
-      "author": "Adeline Davis",
+      "quote": "What an fantastic experience with Michelle Müller! His expertise in Cultural Experiences added so much value to our visit.",
+      "author": "Elena Hunter",
       "title": "Verified Tour Participant",
       "city": "Buenos Aires",
       "rating": 5,
-      "date": "2025-04-08"
+      "date": "2025-03-03"
     },
     {
       "id": "guide-buenos-aires-10-review-2",
-      "quote": "Philip Gonzalez was an generous guide who truly brought the city to life. His knowledge of Wildlife was impressive.",
-      "author": "Lucas Brooks",
+      "quote": "We felt completely at ease with Michelle Müller. His incredible style made even complex topics accessible and fun.",
+      "author": "Donna Singh",
       "title": "Verified Tour Participant",
       "city": "Buenos Aires",
-      "rating": 5,
-      "date": "2024-10-24"
-    },
-    {
-      "id": "guide-buenos-aires-10-review-3",
-      "quote": "A truly cheerful experience thanks to Philip Gonzalez. Their balance of facts and fun was exactly what we were hoping for.",
-      "author": "Nora Sutton",
-      "title": "Verified Tour Participant",
-      "city": "Buenos Aires",
-      "rating": 5,
-      "date": "2024-12-19"
+      "rating": 4,
+      "date": "2024-08-16"
     }
   ],
   "guide-buenos-aires-11": [
     {
       "id": "guide-buenos-aires-11-review-0",
-      "quote": "Ethan Thomas didn’t just give us a tour—His gave us a connection to the city through inspiring storytelling.",
-      "author": "Wayne Davis",
+      "quote": "Evelyn Montgomery tailored the tour perfectly to our interests. His flexible nature made everyone feel welcome.",
+      "author": "Ethan Patel",
+      "title": "Verified Tour Participant",
+      "city": "Buenos Aires",
+      "rating": 5,
+      "date": "2025-01-20"
+    },
+    {
+      "id": "guide-buenos-aires-11-review-1",
+      "quote": "We felt completely at ease with Evelyn Montgomery. His fantastic style made even complex topics accessible and fun.",
+      "author": "Jennifer Gonzalez",
+      "title": "Verified Tour Participant",
+      "city": "Buenos Aires",
+      "rating": 5,
+      "date": "2024-08-04"
+    },
+    {
+      "id": "guide-buenos-aires-11-review-2",
+      "quote": "From start to finish, Evelyn Montgomery delivered a exceptional experience. Her expertise and care were unmatched.",
+      "author": "William Khan",
       "title": "Verified Tour Participant",
       "city": "Buenos Aires",
       "rating": 5,
       "date": "2024-10-29"
     },
     {
-      "id": "guide-buenos-aires-11-review-1",
-      "quote": "What an cheerful experience with Ethan Thomas! Their expertise in Cultural Traditions added so much value to our visit.",
-      "author": "Eleanor Lewis",
+      "id": "guide-buenos-aires-11-review-3",
+      "quote": "It’s rare to find a guide as trustworthy as Evelyn Montgomery. Her ability to connect with people from all walks of life was exceptional.",
+      "author": "Roger Fox",
       "title": "Verified Tour Participant",
       "city": "Buenos Aires",
       "rating": 5,
-      "date": "2024-08-16"
-    },
-    {
-      "id": "guide-buenos-aires-11-review-2",
-      "quote": "Touring with Ethan Thomas was a delight. Her inspiring personality and deep knowledge made the experience unforgettable.",
-      "author": "Stephanie Dubois",
-      "title": "Verified Tour Participant",
-      "city": "Buenos Aires",
-      "rating": 5,
-      "date": "2024-10-15"
+      "date": "2024-10-29"
     }
   ],
   "guide-buenos-aires-12": [
     {
       "id": "guide-buenos-aires-12-review-0",
-      "quote": "I’ve taken many tours, but Eric Parker's was by far the most enthusiastic. Her storytelling ability was incredible.",
-      "author": "Ariana Moore",
+      "quote": "Frank Mason has a gift for storytelling. The entire group was engaged, laughing, and learning—it was such a inspiring time.",
+      "author": "Maria Baker",
       "title": "Verified Tour Participant",
       "city": "Buenos Aires",
-      "rating": 4,
-      "date": "2025-01-31"
+      "rating": 5,
+      "date": "2024-10-21"
     },
     {
       "id": "guide-buenos-aires-12-review-1",
-      "quote": "Touring with Eric Parker was a delight. Her excellent personality and deep knowledge made the experience unforgettable.",
-      "author": "Scott Rodriguez",
+      "quote": "We learned so much and had so much fun, all thanks to Frank Mason's detail-oriented approach to sharing Local Artisans.",
+      "author": "Scarlett Collins",
       "title": "Verified Tour Participant",
       "city": "Buenos Aires",
       "rating": 5,
-      "date": "2024-11-11"
+      "date": "2024-12-14"
     },
     {
       "id": "guide-buenos-aires-12-review-2",
-      "quote": "Eric Parker created an environment that was both informative and relaxing. Her captivating approach kept everyone engaged.",
-      "author": "Steven Anderson",
+      "quote": "Every moment with Frank Mason felt intentional. His flexible guidance made this one of the best parts of our trip.",
+      "author": "Hassan Fisher",
       "title": "Verified Tour Participant",
       "city": "Buenos Aires",
-      "rating": 5,
-      "date": "2024-09-13"
+      "rating": 4,
+      "date": "2024-10-06"
     }
   ],
   "guide-buenos-aires-13": [
     {
       "id": "guide-buenos-aires-13-review-0",
-      "quote": "What an passionate experience with Matthew Patel! Their expertise in Family Activities added so much value to our visit.",
-      "author": "Kenneth White",
+      "quote": "We were lucky to have Emma Parker as our guide. Their exceptional insights made a big difference in how we experienced Local Legends.",
+      "author": "Kennedy Mitchell",
       "title": "Verified Tour Participant",
       "city": "Buenos Aires",
-      "rating": 5,
-      "date": "2024-08-11"
+      "rating": 3,
+      "date": "2024-11-11"
     },
     {
       "id": "guide-buenos-aires-13-review-1",
-      "quote": "It’s rare to find a guide as brilliant as Matthew Patel. Their ability to connect with people from all walks of life was exceptional.",
-      "author": "Gerald Anderson",
+      "quote": "What an fantastic experience with Emma Parker! His expertise in Local Legends added so much value to our visit.",
+      "author": "Pamela Reed",
       "title": "Verified Tour Participant",
       "city": "Buenos Aires",
       "rating": 4,
-      "date": "2024-08-28"
+      "date": "2025-04-03"
     },
     {
       "id": "guide-buenos-aires-13-review-2",
-      "quote": "It’s rare to find a guide as personable as Matthew Patel. Her ability to connect with people from all walks of life was exceptional.",
-      "author": "Henry Gonzalez",
+      "quote": "I booked the tour last minute, but I’m so glad I did. Emma Parker's engaging leadership and local tips were invaluable.",
+      "author": "Jason Clark",
       "title": "Verified Tour Participant",
       "city": "Buenos Aires",
       "rating": 5,
-      "date": "2024-08-14"
+      "date": "2024-09-16"
     }
   ]
 };

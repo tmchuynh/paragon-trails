@@ -1,88 +1,99 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Blagaj
+// Generated on 2025-06-08T04:09:38.702Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const blagajTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-blagaj-1",
-    quote: "The bustling neighborhoods in Blagaj each have their own character, which keeps life interesting year after year.",
-    author: "Wayne Anderson",
-    title: "The Challenges and Charms of Living in Blagaj",
+    quote: "Blagaj's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
+    author: "Boris Hawkins",
+    title: "The Heartbeat of Blagaj Life",
     city: "Blagaj",
     rating: 4.8,
-    date: "2023-06-10"
+    date: "2024-06-08"
   },
   {
     id: "city-testimonial-blagaj-2",
-    quote: "The cost of living in Blagaj is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
-    author: "Jason Wallace",
-    title: "Why Blagaj Keeps Getting Better",
+    quote: "Every weekend in Blagaj brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
+    author: "Samuel Morales",
+    title: "The Beauty of Everyday Life in Blagaj",
     city: "Blagaj",
-    rating: 4.8,
-    date: "2025-08-11"
+    rating: 4.1,
+    date: "2023-04-21"
   },
   {
     id: "city-testimonial-blagaj-3",
-    quote: "I came to Blagaj for work but stayed for the political climate. Best decision I ever made.",
-    author: "Jesse Johnson",
-    title: "A Love Letter to Blagaj",
+    quote: "The {TRANQUILITY_FEATURE} in Blagaj offers a peaceful retreat from the busy world.",
+    author: "Isabella Khan",
+    title: "The Joys of Slow Living in Blagaj",
     city: "Blagaj",
-    rating: 4.9,
-    date: "2025-06-25"
+    rating: 4.2,
+    date: "2025-12-05"
   },
   {
     id: "city-testimonial-blagaj-4",
-    quote: "Blagaj's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
-    author: "Liam Bennett",
-    title: "Living Sustainably in Blagaj",
+    quote: "Blagaj has been my home for steadfast, and the wellness community here is what keeps me rooted.",
+    author: "Scarlett Martin",
+    title: "Blagaj: Beyond the Tourist Experience",
     city: "Blagaj",
     rating: 4.7,
-    date: "2025-03-28"
+    date: "2023-04-23"
   },
   {
     id: "city-testimonial-blagaj-5",
-    quote: "The art and creativity flowing through Blagaj is inspiring. It feels like living inside a masterpiece.",
-    author: "Diego Clark",
-    title: "The Soul of Blagaj: A Local's View",
+    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Blagaj make daily life convenient and stress-free.",
+    author: "Noah Hall",
+    title: "Blagaj Living: Worth Every Moment",
     city: "Blagaj",
-    rating: 4.9,
-    date: "2024-06-16"
+    rating: 4.5,
+    date: "2024-06-08"
   },
   {
     id: "city-testimonial-blagaj-6",
-    quote: "The balance of urban convenience and nature access in Blagaj creates a quality of life that's hard to find elsewhere.",
-    author: "Grace Young",
-    title: "My Corner of Blagaj",
+    quote: "The sense of {SAFETY} in Blagaj makes me feel comfortable raising my kids here.",
+    author: "Olivia Knight",
+    title: "The Perfect Imperfections of Blagaj",
     city: "Blagaj",
-    rating: 4.4,
-    date: "2025-07-14"
+    rating: 4.3,
+    date: "2023-08-02"
   },
   {
     id: "city-testimonial-blagaj-7",
-    quote: "The winter fireside gatherings in Blagaj is something I look forward to every year. It's what makes living here magical.",
-    author: "Bobby Douglas",
-    title: "Discovering Home in Blagaj",
+    quote: "The historical significance of Blagaj adds a depth to daily life that I truly cherish.",
+    author: "Carl Hawkins",
+    title: "The Real Blagaj Experience",
     city: "Blagaj",
-    rating: 4.5,
-    date: "2023-08-14"
+    rating: 4.4,
+    date: "2024-10-02"
   },
   {
     id: "city-testimonial-blagaj-8",
-    quote: "The winter architectural beauty in Blagaj is something I look forward to every year. It's what makes living here magical.",
-    author: "Thabo Reeves",
-    title: "What Makes Blagaj Special to Live In",
+    quote: "The historical significance of Blagaj adds a depth to daily life that I truly cherish.",
+    author: "Juan Lawson",
+    title: "From Newcomer to Local in Blagaj",
     city: "Blagaj",
-    rating: 4.7,
-    date: "2023-04-14"
+    rating: 4.8,
+    date: "2024-10-05"
   },
   {
     id: "city-testimonial-blagaj-9",
-    quote: "Community events and festivals in Blagaj bring everyone together, making the {COMMUNITY_ASPECT} really stand out.",
-    author: "Patrick Hamilton",
-    title: "The Neighborhoods That Make Blagaj Home",
+    quote: "The historical significance of Blagaj adds a depth to daily life that I truly cherish.",
+    author: "Mohamed Brown",
+    title: "The Soul of Blagaj: A Local's View",
     city: "Blagaj",
-    rating: 4.1,
-    date: "2025-11-20"
+    rating: 4.5,
+    date: "2024-11-24"
+  },
+  {
+    id: "city-testimonial-blagaj-10",
+    quote: "Living in Blagaj means being surrounded by innovative thinking, which feeds my soul every day.",
+    author: "Billy Kowalski",
+    title: "How Blagaj Changed My Life",
+    city: "Blagaj",
+    rating: 4.9,
+    date: "2024-12-06"
   }
 ];

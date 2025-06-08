@@ -1,97 +1,72 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Dublin
+// Generated on 2025-06-08T04:09:38.698Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const dublinTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-dublin-1",
-    quote: "Living in Dublin means experiencing shopping and markets on a daily basis, which is why I could never leave.",
-    author: "Elena Fletcher",
-    title: "The Beauty of Everyday Life in Dublin",
+    quote: "The nightlife in Dublin is vibrant and full of {ENTERTAINMENT_FEATURE} for everyone.",
+    author: "George Davis",
+    title: "My Corner of Dublin",
     city: "Dublin",
-    rating: 4.4,
-    date: "2023-05-24"
+    rating: 4.6,
+    date: "2024-08-18"
   },
   {
     id: "city-testimonial-dublin-2",
-    quote: "Living in Dublin has been one of the best decisions of my life. The outdoor lifestyle here makes everyday life so enjoyable.",
-    author: "Liam Lewis",
-    title: "Why Dublin Feels Like Home",
+    quote: "The {FESTIVAL_OR_EVENT} season in Dublin brings so much excitement and pride to the community.",
+    author: "William Ivanov",
+    title: "Discovering Home in Dublin",
     city: "Dublin",
-    rating: 4.3,
-    date: "2025-08-15"
+    rating: 4.8,
+    date: "2025-09-23"
   },
   {
     id: "city-testimonial-dublin-3",
-    quote: "Living in Dublin means being surrounded by innovative thinking, which feeds my soul every day.",
-    author: "Susan Henderson",
-    title: "The Soul of Dublin: A Local's View",
+    quote: "The historical significance of Dublin adds a depth to daily life that I truly cherish.",
+    author: "Priya Khan",
+    title: "Living and Thriving in Dublin",
     city: "Dublin",
-    rating: 4.8,
-    date: "2024-07-28"
+    rating: 4.6,
+    date: "2024-11-02"
   },
   {
     id: "city-testimonial-dublin-4",
-    quote: "If you want a city that offers {LIFESTYLE_BENEFIT}, Dublin is the place to be.",
-    author: "Victor Wallace",
-    title: "Discovering Home in Dublin",
+    quote: "The nightlife in Dublin is vibrant and full of {ENTERTAINMENT_FEATURE} for everyone.",
+    author: "Omar Fletcher",
+    title: "The Beauty of Everyday Life in Dublin",
     city: "Dublin",
-    rating: 4.3,
-    date: "2024-09-27"
+    rating: 4.5,
+    date: "2024-05-26"
   },
   {
     id: "city-testimonial-dublin-5",
-    quote: "The art and creativity flowing through Dublin is inspiring. It feels like living inside a masterpiece.",
-    author: "Olivia Moore",
-    title: "Dublin Through a Resident's Eyes",
+    quote: "Dublin has been my home for committed, and the outdoor enthusiasts here is what keeps me rooted.",
+    author: "Rajesh Rodriguez",
+    title: "The Unexpected Joys of Dublin Living",
     city: "Dublin",
-    rating: 4.8,
-    date: "2024-07-01"
+    rating: 4.7,
+    date: "2024-04-04"
   },
   {
     id: "city-testimonial-dublin-6",
-    quote: "Living in Dublin has opened my eyes to {PERSONAL_GROWTH_ASPECT} that I never expected.",
-    author: "Joshua Carpenter",
-    title: "Inside the Culture of Dublin",
+    quote: "The sense of {SAFETY} in Dublin makes me feel comfortable raising my kids here.",
+    author: "Billy Silva",
+    title: "How Dublin Changed My Life",
     city: "Dublin",
-    rating: 4.2,
-    date: "2023-05-15"
+    rating: 4.5,
+    date: "2025-01-11"
   },
   {
     id: "city-testimonial-dublin-7",
-    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Dublin make daily life convenient and stress-free.",
-    author: "Nicholas West",
-    title: "Why I Chose Dublin as Home",
+    quote: "From my apartment in Dublin, I can visit botanical gardens. Where else could you do that?",
+    author: "Nicole Martin",
+    title: "A Love Letter to Dublin",
     city: "Dublin",
-    rating: 4.3,
-    date: "2023-11-15"
-  },
-  {
-    id: "city-testimonial-dublin-8",
-    quote: "Living in Dublin means being surrounded by botanical gardens, which feeds my soul every day.",
-    author: "Benjamin Johnson",
-    title: "How Dublin Balances Tradition and Innovation",
-    city: "Dublin",
-    rating: 4.5,
-    date: "2025-04-13"
-  },
-  {
-    id: "city-testimonial-dublin-9",
-    quote: "The cost of living in Dublin is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
-    author: "Mia da Costa",
-    title: "Uncovering the Layers of Dublin",
-    city: "Dublin",
-    rating: 4,
-    date: "2023-10-09"
-  },
-  {
-    id: "city-testimonial-dublin-10",
-    quote: "What I tell friends considering moving to Dublin is to appreciate the creative incubators—it's what makes daily life here so rich.",
-    author: "Oliver Kim",
-    title: "Discovering Home in Dublin",
-    city: "Dublin",
-    rating: 4.4,
-    date: "2023-11-11"
+    rating: 4.2,
+    date: "2023-04-22"
   }
 ];

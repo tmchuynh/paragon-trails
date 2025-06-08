@@ -1,88 +1,99 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Glasgow
+// Generated on 2025-06-08T04:09:38.704Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const glasgowTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-glasgow-1",
-    quote: "The winter architectural beauty in Glasgow is something I look forward to every year. It's what makes living here magical.",
-    author: "Bella Jackson",
-    title: "The Vibrant Life of Glasgow Residents",
+    quote: "I've found that Glasgow's {TRANSPORT_FEATURE} really makes getting around effortless and enjoyable.",
+    author: "Oliver Silva",
+    title: "A Love Letter to Glasgow",
     city: "Glasgow",
-    rating: 4.1,
-    date: "2024-04-01"
+    rating: 4,
+    date: "2023-10-06"
   },
   {
     id: "city-testimonial-glasgow-2",
-    quote: "The eco-conscious neighborhoods in Glasgow each have their own character, which keeps life interesting year after year.",
-    author: "Maria da Costa",
-    title: "Why I’m Proud to Call Glasgow Home",
+    quote: "The {FESTIVAL_OR_EVENT} season in Glasgow brings so much excitement and pride to the community.",
+    author: "Santiago Young",
+    title: "Finding Inspiration Every Day in Glasgow",
     city: "Glasgow",
-    rating: 4.1,
-    date: "2024-04-23"
+    rating: 4.8,
+    date: "2024-06-06"
   },
   {
     id: "city-testimonial-glasgow-3",
-    quote: "One thing I didn’t expect when moving to Glasgow was the {WEATHER_FEATURE}—it’s truly refreshing.",
-    author: "Evelyn Morales",
-    title: "The Neighborhoods That Make Glasgow Home",
+    quote: "Community events and festivals in Glasgow bring everyone together, making the {COMMUNITY_ASPECT} really stand out.",
+    author: "Rebecca Graves",
+    title: "The Beauty of Everyday Life in Glasgow",
     city: "Glasgow",
-    rating: 4.6,
-    date: "2024-05-08"
+    rating: 4.3,
+    date: "2023-07-07"
   },
   {
     id: "city-testimonial-glasgow-4",
-    quote: "Community events and festivals in Glasgow bring everyone together, making the {COMMUNITY_ASPECT} really stand out.",
-    author: "Aiden Dunn",
-    title: "From Newcomer to Local in Glasgow",
+    quote: "As someone who's lived in many cities, I can say that Glasgow's local festivals is unmatched anywhere else.",
+    author: "Dorothy Fletcher",
+    title: "Finding Inspiration Every Day in Glasgow",
     city: "Glasgow",
     rating: 4.8,
-    date: "2025-08-03"
+    date: "2024-01-12"
   },
   {
     id: "city-testimonial-glasgow-5",
-    quote: "The {GREEN_SPACES} in Glasgow offer a perfect escape from the urban buzz without leaving the city limits.",
-    author: "Michael Grant",
-    title: "Why I’m Proud to Call Glasgow Home",
+    quote: "The people of Glasgow are incredibly welcoming and have made me feel at home since day one.",
+    author: "Susan Fisher",
+    title: "Why Glasgow Is a Place to Grow",
     city: "Glasgow",
-    rating: 4.4,
-    date: "2023-10-15"
+    rating: 4.6,
+    date: "2024-12-08"
   },
   {
     id: "city-testimonial-glasgow-6",
-    quote: "The nightlife in Glasgow is vibrant and full of {ENTERTAINMENT_FEATURE} for everyone.",
-    author: "Henry Martinez",
-    title: "Why Glasgow Feels Like Home",
+    quote: "Living in Glasgow means experiencing seasonal celebrations on a daily basis, which is why I could never leave.",
+    author: "Javier Warren",
+    title: "Why Glasgow Keeps Getting Better",
     city: "Glasgow",
-    rating: 4,
-    date: "2024-06-13"
+    rating: 4.3,
+    date: "2023-12-12"
   },
   {
     id: "city-testimonial-glasgow-7",
-    quote: "The sense of {SAFETY} in Glasgow makes me feel comfortable raising my kids here.",
-    author: "Douglas Wallace",
-    title: "The Heartbeat of Glasgow Life",
+    quote: "What I love most about living in Glasgow is the network of parks. It creates such a unique atmosphere that feels like home.",
+    author: "Audrey Dubois",
+    title: "Glasgow: More Than Just a Place",
     city: "Glasgow",
     rating: 4.6,
-    date: "2023-04-17"
+    date: "2024-10-21"
   },
   {
     id: "city-testimonial-glasgow-8",
-    quote: "The mix of old and new in Glasgow's architecture and culture keeps the city feeling fresh yet grounded.",
-    author: "Brenda Brooks",
-    title: "Inside the Culture of Glasgow",
+    quote: "One thing I didn’t expect when moving to Glasgow was the {WEATHER_FEATURE}—it’s truly refreshing.",
+    author: "Sophia Bennett",
+    title: "Stories From the Streets of Glasgow",
     city: "Glasgow",
-    rating: 4.9,
-    date: "2024-05-16"
+    rating: 4.5,
+    date: "2023-03-18"
   },
   {
     id: "city-testimonial-glasgow-9",
-    quote: "The green neighborhoods in Glasgow each have their own character, which keeps life interesting year after year.",
-    author: "Dylan Rodriguez",
-    title: "Why Glasgow Is a Place to Grow",
+    quote: "From my apartment in Glasgow, I can enjoy seasonal festivals. Where else could you do that?",
+    author: "William Dubois",
+    title: "The True Character of Glasgow",
     city: "Glasgow",
     rating: 4.5,
-    date: "2025-04-03"
+    date: "2024-03-15"
+  },
+  {
+    id: "city-testimonial-glasgow-10",
+    quote: "Glasgow's theater scene has become central to my life here. I couldn't imagine living without it now.",
+    author: "Roger Graves",
+    title: "What I Love About Living in Glasgow",
+    city: "Glasgow",
+    rating: 4.8,
+    date: "2023-07-07"
   }
 ];

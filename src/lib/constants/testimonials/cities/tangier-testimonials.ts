@@ -1,79 +1,54 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Tangier
+// Generated on 2025-06-08T04:09:38.710Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const tangierTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-tangier-1",
-    quote: "I came to Tangier for work but stayed for the safety and security. Best decision I ever made.",
-    author: "Maria Holloway",
-    title: "What I Love About Living in Tangier",
+    quote: "Despite its size, Tangier manages to feel {SMALL_TOWN_QUALITY}, which is rare and wonderful.",
+    author: "Madelyn Jones",
+    title: "Inside the Culture of Tangier",
     city: "Tangier",
-    rating: 4.1,
-    date: "2023-08-26"
+    rating: 4.2,
+    date: "2024-10-17"
   },
   {
     id: "city-testimonial-tangier-2",
-    quote: "I came to Tangier for work but stayed for the community engagement. Best decision I ever made.",
-    author: "Lucas Stewart",
-    title: "Tangier Living: Worth Every Moment",
+    quote: "Living in Tangier has allowed me to connect deeply with {NATURE_FEATURE} nearby.",
+    author: "Stella Williams",
+    title: "From Newcomer to Local in Tangier",
     city: "Tangier",
-    rating: 4.5,
-    date: "2023-02-03"
+    rating: 4.6,
+    date: "2025-09-16"
   },
   {
     id: "city-testimonial-tangier-3",
-    quote: "I appreciate how Tangier balances {TECH_INNOVATION} with historic charm perfectly.",
-    author: "Adeline Hunter",
-    title: "The Beauty of Everyday Life in Tangier",
+    quote: "As a 20-year resident of Tangier, I can't imagine living anywhere else. The tech innovation hubs here is something you can't find elsewhere.",
+    author: "Nicole Gonzalez",
+    title: "Why Tangier Keeps Getting Better",
     city: "Tangier",
-    rating: 4.9,
-    date: "2023-09-19"
+    rating: 4.7,
+    date: "2023-12-01"
   },
   {
     id: "city-testimonial-tangier-4",
-    quote: "The {FESTIVAL_OR_EVENT} season in Tangier brings so much excitement and pride to the community.",
-    author: "Michael Young",
+    quote: "Living in Tangier means I get to enjoy {SPORTS_OR_OUTDOOR_ACTIVITY} year-round.",
+    author: "Sarah Douglas",
     title: "The Beauty of Everyday Life in Tangier",
     city: "Tangier",
-    rating: 4.9,
-    date: "2024-09-12"
+    rating: 4.5,
+    date: "2024-08-25"
   },
   {
     id: "city-testimonial-tangier-5",
-    quote: "One of my favorite parts about living in Tangier is the {MARKET_OR_SHOPPING_FEATURE} just around the corner.",
-    author: "Brenda Kim",
-    title: "What Makes Tangier Uniquely Livable",
+    quote: "Living in Tangier has opened my eyes to {PERSONAL_GROWTH_ASPECT} that I never expected.",
+    author: "Emily Williams",
+    title: "The Challenges and Charms of Living in Tangier",
     city: "Tangier",
-    rating: 4.4,
-    date: "2024-03-25"
-  },
-  {
-    id: "city-testimonial-tangier-6",
-    quote: "The {FESTIVAL_OR_EVENT} season in Tangier brings so much excitement and pride to the community.",
-    author: "Jeremy Douglas",
-    title: "The Vibrant Life of Tangier Residents",
-    city: "Tangier",
-    rating: 4,
-    date: "2025-01-28"
-  },
-  {
-    id: "city-testimonial-tangier-7",
-    quote: "Despite its size, Tangier manages to feel {SMALL_TOWN_QUALITY}, which is rare and wonderful.",
-    author: "Steven Crawford",
-    title: "Living and Thriving in Tangier",
-    city: "Tangier",
-    rating: 4,
-    date: "2023-10-03"
-  },
-  {
-    id: "city-testimonial-tangier-8",
-    quote: "What most people don't realize about living in Tangier is how balanced it actually is. I've found my true home here.",
-    author: "Alexander Graves",
-    title: "My Tangier Story: Life as a Resident",
-    city: "Tangier",
-    rating: 4.5,
-    date: "2024-02-02"
+    rating: 4.6,
+    date: "2024-12-23"
   }
 ];

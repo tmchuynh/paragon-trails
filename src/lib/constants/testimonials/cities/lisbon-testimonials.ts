@@ -1,70 +1,54 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Lisbon
+// Generated on 2025-06-08T04:09:38.533Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const lisbonTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-lisbon-1",
-    quote: "The cost of living in Lisbon is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
-    author: "Carlos Rodriguez",
-    title: "Why I Chose Lisbon as Home",
+    quote: "The bohemian neighborhoods in Lisbon each have their own character, which keeps life interesting year after year.",
+    author: "Dennis Grant",
+    title: "Living the Lisbon Lifestyle",
     city: "Lisbon",
-    rating: 4.7,
-    date: "2025-04-02"
+    rating: 4.3,
+    date: "2025-04-22"
   },
   {
     id: "city-testimonial-lisbon-2",
-    quote: "I love how Lisbon celebrates {FESTIVAL_OR_EVENT}, it brings so much joy and community spirit.",
-    author: "Gabriel Foster",
-    title: "Stories From the Streets of Lisbon",
+    quote: "The balance of intellectual life and physical activity in Lisbon creates a quality of life that's hard to find elsewhere.",
+    author: "Sarah Ali",
+    title: "The Neighborhoods That Make Lisbon Home",
     city: "Lisbon",
-    rating: 4.5,
-    date: "2024-01-27"
+    rating: 4.7,
+    date: "2023-01-13"
   },
   {
     id: "city-testimonial-lisbon-3",
-    quote: "Lisbon isn't just where I live—it's part of my identity now. The entrepreneurial vibe has shaped who I am.",
-    author: "Eugene Campbell",
-    title: "Lisbon: More Than Just a Place",
+    quote: "Lisbon's street art scene has become central to my life here. I couldn't imagine living without it now.",
+    author: "Sofia Garcia",
+    title: "Finding Balance in Lisbon",
     city: "Lisbon",
-    rating: 4.8,
-    date: "2024-05-12"
+    rating: 4.7,
+    date: "2025-08-03"
   },
   {
     id: "city-testimonial-lisbon-4",
-    quote: "After 30 years as a Lisbon local, I still appreciate the local bakeries that makes this place special.",
-    author: "Patricia Mitchell",
-    title: "The Real Lisbon Experience",
+    quote: "As someone who's lived in many cities, I can say that Lisbon's creative economy is unmatched anywhere else.",
+    author: "Chloe Martin",
+    title: "What Makes Lisbon Feel Like Family",
     city: "Lisbon",
     rating: 4.9,
-    date: "2025-05-03"
+    date: "2023-05-07"
   },
   {
     id: "city-testimonial-lisbon-5",
-    quote: "The historical significance of Lisbon adds a depth to daily life that I truly cherish.",
-    author: "Harry Wells",
-    title: "Why I Chose Lisbon as Home",
+    quote: "No two days are the same living in Lisbon. The {DYNAMIC_ASPECT} keeps me excited to wake up every morning.",
+    author: "Timothy Watson",
+    title: "The Real Lisbon Experience",
     city: "Lisbon",
-    rating: 4.9,
-    date: "2025-05-15"
-  },
-  {
-    id: "city-testimonial-lisbon-6",
-    quote: "I appreciate how Lisbon balances {TECH_INNOVATION} with historic charm perfectly.",
-    author: "Amina Hawkins",
-    title: "Why I Chose Lisbon as Home",
-    city: "Lisbon",
-    rating: 4.3,
-    date: "2024-02-22"
-  },
-  {
-    id: "city-testimonial-lisbon-7",
-    quote: "One of the best things about living in Lisbon is the {ACCESSIBILITY_FEATURE}—it makes everything so convenient.",
-    author: "Austin Johnson",
-    title: "How Lisbon Changed My Life",
-    city: "Lisbon",
-    rating: 4.1,
-    date: "2024-07-08"
+    rating: 4.5,
+    date: "2024-12-27"
   }
 ];

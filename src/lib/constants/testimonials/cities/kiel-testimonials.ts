@@ -1,79 +1,54 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Kiel
+// Generated on 2025-06-08T04:09:38.523Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const kielTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-kiel-1",
-    quote: "The people of Kiel are incredibly welcoming and have made me feel at home since day one.",
-    author: "James Morales",
-    title: "Living Sustainably in Kiel",
+    quote: "The historical significance of Kiel adds a depth to daily life that I truly cherish.",
+    author: "Douglas Williams",
+    title: "The Soul of Kiel: A Local's View",
     city: "Kiel",
-    rating: 4.3,
-    date: "2024-03-15"
+    rating: 4.4,
+    date: "2025-10-11"
   },
   {
     id: "city-testimonial-kiel-2",
-    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Kiel make daily life convenient and stress-free.",
-    author: "Ava Patel",
-    title: "Why Kiel Keeps Getting Better",
+    quote: "The balance of historical preservation and modern innovation in Kiel creates a quality of life that's hard to find elsewhere.",
+    author: "Terry Hamilton",
+    title: "Kiel: More Than Just a Place",
     city: "Kiel",
     rating: 4.5,
-    date: "2023-08-11"
+    date: "2023-03-21"
   },
   {
     id: "city-testimonial-kiel-3",
-    quote: "One of my favorite parts about living in Kiel is the {MARKET_OR_SHOPPING_FEATURE} just around the corner.",
-    author: "Isabella Ellis",
-    title: "My Corner of Kiel",
+    quote: "What really surprised me about Kiel is its {DIVERSITY_FEATURE} — it’s a true melting pot.",
+    author: "Diego Griffin",
+    title: "Kiel: A City That Grows With You",
     city: "Kiel",
-    rating: 4.2,
-    date: "2023-10-09"
+    rating: 4.9,
+    date: "2024-05-04"
   },
   {
     id: "city-testimonial-kiel-4",
-    quote: "The {GREEN_SPACES} in Kiel offer a perfect escape from the urban buzz without leaving the city limits.",
-    author: "Justin Khan",
-    title: "What Makes Kiel Special to Live In",
+    quote: "Living in Kiel has allowed me to connect deeply with {NATURE_FEATURE} nearby.",
+    author: "Madelyn Griffin",
+    title: "The Neighborhoods That Make Kiel Home",
     city: "Kiel",
-    rating: 4.3,
-    date: "2024-07-21"
+    rating: 4.1,
+    date: "2023-10-23"
   },
   {
     id: "city-testimonial-kiel-5",
-    quote: "I came to Kiel for work but stayed for the affordability. Best decision I ever made.",
-    author: "Sofia Foster",
-    title: "My Kiel Story: Life as a Resident",
+    quote: "What most people don't realize about living in Kiel is how family-friendly it actually is. I've found my true home here.",
+    author: "Brooklyn Wilson",
+    title: "The Real Kiel Experience",
     city: "Kiel",
     rating: 4.6,
-    date: "2024-09-05"
-  },
-  {
-    id: "city-testimonial-kiel-6",
-    quote: "Kiel's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
-    author: "Adam Mitchell",
-    title: "The Vibrant Life of Kiel Residents",
-    city: "Kiel",
-    rating: 4.4,
-    date: "2024-09-06"
-  },
-  {
-    id: "city-testimonial-kiel-7",
-    quote: "Raising my family in Kiel gives us access to accessible playgrounds, which is truly invaluable.",
-    author: "Ariana Ivanov",
-    title: "The Challenges and Charms of Living in Kiel",
-    city: "Kiel",
-    rating: 4.7,
-    date: "2023-09-06"
-  },
-  {
-    id: "city-testimonial-kiel-8",
-    quote: "The people of Kiel are incredibly welcoming and have made me feel at home since day one.",
-    author: "Maria Crawford",
-    title: "How Kiel Balances Tradition and Innovation",
-    city: "Kiel",
-    rating: 4.3,
-    date: "2025-10-11"
+    date: "2024-12-28"
   }
 ];

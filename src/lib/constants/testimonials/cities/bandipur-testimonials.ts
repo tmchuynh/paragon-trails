@@ -1,88 +1,90 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Bandipur
+// Generated on 2025-06-08T04:09:38.702Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const bandipurTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-bandipur-1",
-    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Bandipur make daily life convenient and stress-free.",
-    author: "Juan Dunn",
-    title: "Bandipur's Hidden Treasures for Locals",
+    quote: "Bandipur's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
+    author: "Juan Curtis",
+    title: "Bandipur: Where I Found My Community",
     city: "Bandipur",
-    rating: 4.8,
-    date: "2024-12-20"
+    rating: 4.7,
+    date: "2025-05-23"
   },
   {
     id: "city-testimonial-bandipur-2",
-    quote: "As someone who's lived in many cities, I can say that Bandipur's green initiatives is unmatched anywhere else.",
-    author: "Mark Holloway",
-    title: "Bandipur: More Than Just a Place",
+    quote: "The mix of old and new in Bandipur's architecture and culture keeps the city feeling fresh yet grounded.",
+    author: "Avery Payne",
+    title: "Why Bandipur Keeps Getting Better",
     city: "Bandipur",
     rating: 4.6,
-    date: "2025-04-11"
+    date: "2023-03-12"
   },
   {
     id: "city-testimonial-bandipur-3",
-    quote: "After 12 years as a Bandipur local, I still appreciate the riverside walks that makes this place special.",
-    author: "Olivia Sutton",
-    title: "A Love Letter to Bandipur",
+    quote: "I came to Bandipur for work but stayed for the vibrant nightlife. Best decision I ever made.",
+    author: "Austin Ellis",
+    title: "Why I’m Proud to Call Bandipur Home",
     city: "Bandipur",
-    rating: 4.4,
-    date: "2024-07-20"
+    rating: 4.7,
+    date: "2025-12-22"
   },
   {
     id: "city-testimonial-bandipur-4",
-    quote: "Every weekend in Bandipur brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
-    author: "Luis Palmer",
-    title: "The Unexpected Joys of Bandipur Living",
+    quote: "What most people don't realize about living in Bandipur is how hidden gem it actually is. I've found my true home here.",
+    author: "Sofia Fox",
+    title: "The True Character of Bandipur",
     city: "Bandipur",
-    rating: 4.1,
-    date: "2025-05-04"
+    rating: 4.9,
+    date: "2023-10-19"
   },
   {
     id: "city-testimonial-bandipur-5",
-    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Bandipur make daily life convenient and stress-free.",
-    author: "Dorothy Montgomery",
-    title: "The Soul of Bandipur: A Local's View",
+    quote: "Living in Bandipur has allowed me to connect deeply with {NATURE_FEATURE} nearby.",
+    author: "William Jones",
+    title: "The Challenges and Charms of Living in Bandipur",
     city: "Bandipur",
-    rating: 4.1,
-    date: "2023-03-02"
+    rating: 4.2,
+    date: "2023-10-28"
   },
   {
     id: "city-testimonial-bandipur-6",
-    quote: "The historical significance of Bandipur adds a depth to daily life that I truly cherish.",
-    author: "Roger Gonzalez",
-    title: "The Neighborhoods That Make Bandipur Home",
+    quote: "Living in Bandipur means experiencing intellectual stimulation on a daily basis, which is why I could never leave.",
+    author: "Stephen Edwards",
+    title: "Why Bandipur Keeps Getting Better",
     city: "Bandipur",
-    rating: 4.9,
-    date: "2025-12-24"
+    rating: 4.8,
+    date: "2025-06-03"
   },
   {
     id: "city-testimonial-bandipur-7",
-    quote: "I appreciate how Bandipur balances {TECH_INNOVATION} with historic charm perfectly.",
-    author: "Elena Parker",
-    title: "Bandipur: More Than Just a Place",
+    quote: "One of my favorite parts about living in Bandipur is the {MARKET_OR_SHOPPING_FEATURE} just around the corner.",
+    author: "Jason Martin",
+    title: "Living Sustainably in Bandipur",
     city: "Bandipur",
-    rating: 4.9,
-    date: "2024-06-26"
+    rating: 4.1,
+    date: "2024-02-02"
   },
   {
     id: "city-testimonial-bandipur-8",
-    quote: "The people of Bandipur are incredibly welcoming and have made me feel at home since day one.",
-    author: "Lucas Lawson",
-    title: "The Community Spirit That Defines Bandipur",
+    quote: "The sense of {SAFETY} in Bandipur makes me feel comfortable raising my kids here.",
+    author: "Katherine Ali",
+    title: "Bandipur: More Than Just a Place",
     city: "Bandipur",
     rating: 4.4,
-    date: "2025-05-20"
+    date: "2024-12-24"
   },
   {
     id: "city-testimonial-bandipur-9",
-    quote: "I appreciate how Bandipur balances {TECH_INNOVATION} with historic charm perfectly.",
-    author: "Thabo Rodriguez",
-    title: "The Real Bandipur Experience",
+    quote: "Living in Bandipur means I get to enjoy {SPORTS_OR_OUTDOOR_ACTIVITY} year-round.",
+    author: "Isabella Murray",
+    title: "What I Love About Living in Bandipur",
     city: "Bandipur",
-    rating: 4.1,
-    date: "2025-12-10"
+    rating: 4.4,
+    date: "2023-03-09"
   }
 ];

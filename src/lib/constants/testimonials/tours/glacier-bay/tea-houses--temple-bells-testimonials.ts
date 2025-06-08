@@ -1,109 +1,147 @@
 // This file is auto-generated. Do not edit manually.
+  // Generated for tour: Tea Houses & Temple Bells in glacier-bay
+
+
+  // Generated on 2025-06-08T04:09:38.755Z
+
+
   import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const teaHousesTempleBellsTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-glacier-bay-1-1",
-    quote: "This tour is a hidden gem — just like the spots Ariana Nakamura showed us around Glacier Bay.",
-    author: "Eugene Kowalski",
-    title: "Well Worth Your Time",
-    rating: 3.6,
-    date: "2021-12-14"
+    quote: "I can't recommend the Tea Houses & Temple Bells enough. Juan Collins was phenomenal, and the experience was worth every penny.",
+    author: "Aria Hall",
+    title: "The Walking Was Free—The Laughs Were Priceless",
+    rating: 4.6,
+    date: "2018-10-02"
   },
   {
     id: "testimonial-tour-glacier-bay-1-2",
-    quote: "What a fantastic way to start our stay in Glacier Bay. Ariana Nakamura gave us a great foundation for exploring more on our own.",
-    author: "Alexander Hernandez",
-    title: "A Journey Through Glacier Bay's Wonders",
-    rating: 3.6,
-    date: "2023-05-16"
+    quote: "Juan Collins is the kind of guide you want to tell your friends about. This was a five-star experience.",
+    author: "Wei Spencer",
+    title: "Would Follow This Guide Into Battle",
+    rating: 3.8,
+    date: "2020-09-20"
   },
   {
     id: "testimonial-tour-glacier-bay-1-3",
-    quote: "The small group size and personal attention from Ariana Nakamura made all the difference.",
-    author: "Allison Nakamura",
-    title: "Learned So Much!",
-    rating: 4.4,
-    date: "2024-07-27"
+    quote: "The small group size and personal attention from Juan Collins made all the difference.",
+    author: "Henry Gardner",
+    title: "A Tour to Remember",
+    rating: 3.9,
+    date: "2018-09-12"
   },
   {
     id: "testimonial-tour-glacier-bay-1-4",
-    quote: "What an engaging experience! Ariana Nakamura kept us laughing and learning throughout the Tea Houses & Temple Bells.",
-    author: "Lily Chen",
-    title: "Best Decision of Our Trip",
-    rating: 3.6,
-    date: "2017-06-08"
+    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Juan Collins.",
+    author: "George Henderson",
+    title: "A Walk That Will Make You Want to Explore More",
+    rating: 4.7,
+    date: "2021-04-27"
   },
   {
     id: "testimonial-tour-glacier-bay-1-5",
-    quote: "My wife and I had the best time on this tour. Ariana Nakamura's knowledge of Glacier Bay made it so much more special.",
-    author: "Ravi Henderson",
-    title: "A Walk That Will Make You Think",
-    rating: 4,
-    date: "2024-12-06"
+    quote: "If you're visiting Glacier Bay, the Tea Houses & Temple Bells is a must! Juan Collins made the history come alive in a way guidebooks never could.",
+    author: "Grace Hunter",
+    title: "Better Than My Last Tinder Date",
+    rating: 3.6,
+    date: "2024-01-22"
   },
   {
     id: "testimonial-tour-glacier-bay-1-6",
-    quote: "This isn’t your typical tour. Ariana Nakamura makes it feel personal and engaging from the very start.",
-    author: "Avery Campbell",
-    title: "Memorable from the First Step",
-    rating: 4.6,
-    date: "2023-05-06"
+    quote: "As a solo traveler, I felt completely comfortable on this tour. Juan Collins created a friendly atmosphere from the start.",
+    author: "Nathan Collins",
+    title: "A Tour Even My Teenager Liked",
+    rating: 3.7,
+    date: "2024-09-05"
   },
   {
     id: "testimonial-tour-glacier-bay-1-7",
-    quote: "This was not just sightseeing — it was a deep dive into the heart of Glacier Bay thanks to Ariana Nakamura.",
-    author: "William Grant",
-    title: "Better Than My Last Tinder Date",
-    rating: 4,
-    date: "2020-12-15"
+    quote: "Juan Collins was incredibly accommodating and answered every question with patience and detail.",
+    author: "Maya Rodriguez",
+    title: "A Tour That Feels Like a Celebration",
+    rating: 3.9,
+    date: "2021-02-13"
   },
   {
     id: "testimonial-tour-glacier-bay-1-8",
-    quote: "I thought I knew Glacier Bay, but this tour proved otherwise. Ariana Nakamura showed us a side we’d never seen.",
-    author: "John Knight",
-    title: "A Tour That Feels Like Home",
-    rating: 3.6,
-    date: "2023-07-03"
+    quote: "As a solo traveler, I felt completely comfortable on this tour. Juan Collins created a friendly atmosphere from the start.",
+    author: "Elijah Coleman",
+    title: "A Journey Through Glacier Bay's Beauty",
+    rating: 4.8,
+    date: "2020-06-25"
   },
   {
     id: "testimonial-tour-glacier-bay-1-9",
-    quote: "We left the Tea Houses & Temple Bells feeling more connected to Glacier Bay than we ever expected.",
-    author: "Charlotte Bennett",
-    title: "If Cities Had Souls, Glacier Bay Sang to Us",
-    rating: 4.9,
-    date: "2024-08-08"
+    quote: "My sibling and I had the best time on this tour. Juan Collins's knowledge of Glacier Bay made it so much more special.",
+    author: "Elijah Wang",
+    title: "A Walk That Will Make You Laugh",
+    rating: 4.5,
+    date: "2021-04-23"
   },
   {
     id: "testimonial-tour-glacier-bay-1-10",
-    quote: "I wasn’t expecting to enjoy this tour so much, but Ariana Nakamura made it the highlight of our trip.",
-    author: "Wei Wood",
-    title: "I Came, I Saw, I Took Too Many Photos",
-    rating: 4.5,
-    date: "2022-05-27"
+    quote: "If you only have time for one activity in Glacier Bay, make it the Tea Houses & Temple Bells. You won’t regret it.",
+    author: "Bruce Mitchell",
+    title: "A Journey Through Glacier Bay's Beauty",
+    rating: 3.8,
+    date: "2024-07-10"
   },
   {
     id: "testimonial-tour-glacier-bay-1-11",
-    quote: "Ariana Nakamura shared personal stories that really brought Glacier Bay to life for us. A truly memorable tour.",
-    author: "Harper Montgomery",
-    title: "So Glad We Did This",
-    rating: 3.8,
-    date: "2023-05-04"
+    quote: "I’ve taken dozens of tours in different countries. Juan Collins ranks among the very best.",
+    author: "Elena Jennings",
+    title: "Hidden Gems of Glacier Bay",
+    rating: 4.2,
+    date: "2017-10-14"
   },
   {
     id: "testimonial-tour-glacier-bay-1-12",
-    quote: "I've been on many tours, but this one stands out. Ariana Nakamura was passionate, knowledgeable, and made everyone feel welcome.",
-    author: "Robert Mason",
-    title: "The Real Glacier Bay Experience",
-    rating: 4.4,
-    date: "2025-01-13"
+    quote: "We loved every minute of the Tea Houses & Temple Bells. Juan Collins's local tips were priceless.",
+    author: "Harry Jackson",
+    title: "A Walk That Will Make You Appreciate Glacier Bay More",
+    rating: 4.8,
+    date: "2023-03-31"
   },
   {
     id: "testimonial-tour-glacier-bay-1-13",
-    quote: "This tour is a hidden gem — just like the spots Ariana Nakamura showed us around Glacier Bay.",
-    author: "Catherine Keller",
-    title: "A Tour That Feels Like a Movie",
+    quote: "We booked last-minute and are so glad we did. Juan Collins made it one of our favorite memories from Glacier Bay.",
+    author: "John Wells",
+    title: "Well Worth Your Time",
+    rating: 4.8,
+    date: "2020-02-04"
+  },
+  {
+    id: "testimonial-tour-glacier-bay-1-14",
+    quote: "Juan Collins was incredibly accommodating and answered every question with patience and detail.",
+    author: "Emily Fisher",
+    title: "An Unexpected Highlight",
     rating: 4.4,
-    date: "2024-01-05"
+    date: "2024-06-13"
+  },
+  {
+    id: "testimonial-tour-glacier-bay-1-15",
+    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Juan Collins!",
+    author: "Claire Lopez",
+    title: "Where Magic Meets Cobblestone",
+    rating: 3.8,
+    date: "2019-10-05"
+  },
+  {
+    id: "testimonial-tour-glacier-bay-1-16",
+    quote: "Juan Collins's enthusiasm for Glacier Bay was contagious. We walked away feeling inspired.",
+    author: "Patricia Ellis",
+    title: "So Glad We Did This",
+    rating: 4.2,
+    date: "2021-04-01"
+  },
+  {
+    id: "testimonial-tour-glacier-bay-1-17",
+    quote: "The small group size and personal attention from Juan Collins made all the difference.",
+    author: "Wei Knight",
+    title: "The Ultimate Glacier Bay Tour",
+    rating: 4.7,
+    date: "2024-02-09"
   }
 ];

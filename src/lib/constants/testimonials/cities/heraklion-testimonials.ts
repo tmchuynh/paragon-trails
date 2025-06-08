@@ -1,70 +1,72 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Heraklion
+// Generated on 2025-06-08T04:09:38.705Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const heraklionTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-heraklion-1",
-    quote: "Heraklion's historical scene has become central to my life here. I couldn't imagine living without it now.",
-    author: "Riley Gardner",
-    title: "Living the Heraklion Lifestyle",
+    quote: "As someone who's lived in many cities, I can say that Heraklion's architectural harmony is unmatched anywhere else.",
+    author: "Grace Brooks",
+    title: "The Perfect Imperfections of Heraklion",
     city: "Heraklion",
     rating: 4.9,
-    date: "2023-09-15"
+    date: "2025-06-05"
   },
   {
     id: "city-testimonial-heraklion-2",
-    quote: "Raising my family in Heraklion gives us access to supportive community, which is truly invaluable.",
-    author: "Richard Day",
-    title: "Discovering Home in Heraklion",
+    quote: "The nightlife in Heraklion is vibrant and full of {ENTERTAINMENT_FEATURE} for everyone.",
+    author: "Louis Nakamura",
+    title: "My Corner of Heraklion",
     city: "Heraklion",
-    rating: 5,
-    date: "2023-05-04"
+    rating: 4.5,
+    date: "2023-01-22"
   },
   {
     id: "city-testimonial-heraklion-3",
-    quote: "Raising my family in Heraklion gives us access to library programs, which is truly invaluable.",
-    author: "Avery Warren",
-    title: "Why Heraklion Keeps Getting Better",
+    quote: "The mix of old and new in Heraklion's architecture and culture keeps the city feeling fresh yet grounded.",
+    author: "Yuki Gonzalez",
+    title: "The Real Heraklion Experience",
     city: "Heraklion",
-    rating: 4,
-    date: "2025-09-17"
+    rating: 4.9,
+    date: "2025-06-05"
   },
   {
     id: "city-testimonial-heraklion-4",
-    quote: "I appreciate how Heraklion balances {TECH_INNOVATION} with historic charm perfectly.",
-    author: "Jonathan Fisher",
-    title: "How Heraklion Balances Tradition and Innovation",
+    quote: "The art and creativity flowing through Heraklion is inspiring. It feels like living inside a masterpiece.",
+    author: "Brenda Foster",
+    title: "The True Character of Heraklion",
     city: "Heraklion",
-    rating: 4.6,
-    date: "2023-07-13"
+    rating: 4.5,
+    date: "2025-12-26"
   },
   {
     id: "city-testimonial-heraklion-5",
-    quote: "The {TRANQUILITY_FEATURE} in Heraklion offers a peaceful retreat from the busy world.",
-    author: "Justin Palmer",
-    title: "Why I’m Proud to Call Heraklion Home",
+    quote: "One thing I didn’t expect when moving to Heraklion was the {WEATHER_FEATURE}—it’s truly refreshing.",
+    author: "Diego Wilson",
+    title: "The Perfect Imperfections of Heraklion",
     city: "Heraklion",
-    rating: 4.3,
-    date: "2023-12-10"
+    rating: 4.9,
+    date: "2024-11-23"
   },
   {
     id: "city-testimonial-heraklion-6",
-    quote: "As a permanent resident of Heraklion, I can't imagine living anywhere else. The professional opportunities here is something you can't find elsewhere.",
-    author: "Javier Crawford",
-    title: "Inside the Culture of Heraklion",
+    quote: "Living in Heraklion means I get to enjoy {SPORTS_OR_OUTDOOR_ACTIVITY} year-round.",
+    author: "Kimberly King",
+    title: "Life in Heraklion: A Local Perspective",
     city: "Heraklion",
-    rating: 4.8,
-    date: "2023-03-09"
+    rating: 4.9,
+    date: "2023-07-20"
   },
   {
     id: "city-testimonial-heraklion-7",
-    quote: "The balance of professional opportunity and personal time in Heraklion creates a quality of life that's hard to find elsewhere.",
-    author: "Walter Silva",
-    title: "Stories From the Streets of Heraklion",
+    quote: "Heraklion's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
+    author: "Eleanor Rossi",
+    title: "Heraklion: Beyond the Tourist Experience",
     city: "Heraklion",
-    rating: 4.6,
-    date: "2024-08-21"
+    rating: 5,
+    date: "2025-11-12"
   }
 ];

@@ -1,61 +1,99 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Atlanta
+// Generated on 2025-06-08T04:09:38.701Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const atlantaTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-atlanta-1",
-    quote: "Every weekend in Atlanta brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
-    author: "Darrell Cooper",
-    title: "Stories From the Streets of Atlanta",
+    quote: "The historical significance of Atlanta adds a depth to daily life that I truly cherish.",
+    author: "Sophia Singh",
+    title: "Atlanta: Beyond the Tourist Experience",
     city: "Atlanta",
-    rating: 4.7,
-    date: "2023-04-14"
+    rating: 4,
+    date: "2023-03-27"
   },
   {
     id: "city-testimonial-atlanta-2",
-    quote: "Living in Atlanta has been one of the best decisions of my life. The coastal lifestyle here makes everyday life so enjoyable.",
-    author: "Noah Smith",
-    title: "The Neighborhoods That Make Atlanta Home",
+    quote: "The sense of {SAFETY} in Atlanta makes me feel comfortable raising my kids here.",
+    author: "Brandon Watson",
+    title: "The Heartbeat of Atlanta Life",
     city: "Atlanta",
-    rating: 4.8,
-    date: "2023-02-04"
+    rating: 4.9,
+    date: "2024-05-26"
   },
   {
     id: "city-testimonial-atlanta-3",
-    quote: "The art and creativity flowing through Atlanta is inspiring. It feels like living inside a masterpiece.",
-    author: "Fatima Parker",
-    title: "The Real Atlanta Experience",
+    quote: "The spring yoga in the park in Atlanta is something I look forward to every year. It's what makes living here magical.",
+    author: "Yuki Rossi",
+    title: "Living Sustainably in Atlanta",
     city: "Atlanta",
-    rating: 4.3,
-    date: "2025-12-25"
+    rating: 4.1,
+    date: "2023-03-06"
   },
   {
     id: "city-testimonial-atlanta-4",
-    quote: "The {FESTIVAL_OR_EVENT} season in Atlanta brings so much excitement and pride to the community.",
-    author: "Olivia Lawson",
+    quote: "No two days are the same living in Atlanta. The {DYNAMIC_ASPECT} keeps me excited to wake up every morning.",
+    author: "Ella Patel",
     title: "The Real Atlanta Experience",
     city: "Atlanta",
-    rating: 5,
-    date: "2024-07-23"
+    rating: 4.7,
+    date: "2025-04-13"
   },
   {
     id: "city-testimonial-atlanta-5",
-    quote: "The balance of excitement and tranquility in Atlanta creates a quality of life that's hard to find elsewhere.",
-    author: "Amy Dubois",
-    title: "How Atlanta Balances Tradition and Innovation",
+    quote: "Every weekend in Atlanta brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
+    author: "Joseph Dunn",
+    title: "Life in Atlanta: A Local Perspective",
     city: "Atlanta",
-    rating: 4.2,
-    date: "2025-10-27"
+    rating: 4.3,
+    date: "2023-02-13"
   },
   {
     id: "city-testimonial-atlanta-6",
-    quote: "Living in Atlanta means I get to enjoy {SPORTS_OR_OUTDOOR_ACTIVITY} year-round.",
-    author: "Betty Lewis",
-    title: "The Real Atlanta Experience",
+    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Atlanta make daily life convenient and stress-free.",
+    author: "Timothy Williams",
+    title: "Stories From the Streets of Atlanta",
     city: "Atlanta",
-    rating: 4.4,
-    date: "2024-09-17"
+    rating: 4.2,
+    date: "2025-12-13"
+  },
+  {
+    id: "city-testimonial-atlanta-7",
+    quote: "The mix of old and new in Atlanta's architecture and culture keeps the city feeling fresh yet grounded.",
+    author: "Rebecca Jackson",
+    title: "What Makes Atlanta Feel Like Family",
+    city: "Atlanta",
+    rating: 4.8,
+    date: "2024-12-27"
+  },
+  {
+    id: "city-testimonial-atlanta-8",
+    quote: "Atlanta isn't just where I live—it's part of my identity now. The waterfront views has shaped who I am.",
+    author: "Sophia da Costa",
+    title: "The Heartbeat of Atlanta Life",
+    city: "Atlanta",
+    rating: 4.8,
+    date: "2025-09-22"
+  },
+  {
+    id: "city-testimonial-atlanta-9",
+    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Atlanta make daily life convenient and stress-free.",
+    author: "Margaret Williams",
+    title: "Living and Thriving in Atlanta",
+    city: "Atlanta",
+    rating: 4.3,
+    date: "2025-08-11"
+  },
+  {
+    id: "city-testimonial-atlanta-10",
+    quote: "Atlanta isn't just where I live—it's part of my identity now. The tech hub has shaped who I am.",
+    author: "Elizabeth Foster",
+    title: "The Joys of Slow Living in Atlanta",
+    city: "Atlanta",
+    rating: 4.8,
+    date: "2025-05-24"
   }
 ];

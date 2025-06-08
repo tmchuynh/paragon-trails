@@ -1,97 +1,72 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Victoria
+// Generated on 2025-06-08T04:09:38.659Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const victoriaTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-victoria-1",
-    quote: "Raising my family in Victoria gives us access to educational resources, which is truly invaluable.",
-    author: "Youssef Coleman",
-    title: "The Challenges and Charms of Living in Victoria",
+    quote: "As a seasoned resident of Victoria, I can't imagine living anywhere else. The library systems here is something you can't find elsewhere.",
+    author: "Elijah Stewart",
+    title: "The Joys of Slow Living in Victoria",
     city: "Victoria",
-    rating: 4.5,
-    date: "2024-07-13"
+    rating: 4.4,
+    date: "2024-12-08"
   },
   {
     id: "city-testimonial-victoria-2",
-    quote: "After moving to Victoria 7 years ago, I fell in love with the green consciousness of this place. It's truly special.",
-    author: "Pamela Hunter",
-    title: "From Newcomer to Local in Victoria",
+    quote: "I've found that Victoria's {TRANSPORT_FEATURE} really makes getting around effortless and enjoyable.",
+    author: "Priya Chen",
+    title: "Victoria: Where I Found My Community",
     city: "Victoria",
-    rating: 4.5,
-    date: "2023-02-06"
+    rating: 4.4,
+    date: "2024-09-15"
   },
   {
     id: "city-testimonial-victoria-3",
-    quote: "The balance of cultural diversity and local identity in Victoria creates a quality of life that's hard to find elsewhere.",
-    author: "Khalid Gonzalez",
-    title: "What I Love About Living in Victoria",
+    quote: "Living in Victoria means I get to enjoy {SPORTS_OR_OUTDOOR_ACTIVITY} year-round.",
+    author: "Evelyn Kowalski",
+    title: "Why Victoria Is a Place to Grow",
     city: "Victoria",
-    rating: 4,
-    date: "2024-11-04"
+    rating: 4.2,
+    date: "2025-06-05"
   },
   {
     id: "city-testimonial-victoria-4",
-    quote: "Living in Victoria means being surrounded by festival grounds, which feeds my soul every day.",
-    author: "Amelia Suzuki",
-    title: "The Heartbeat of Victoria Life",
+    quote: "Living in Victoria has been one of the best decisions of my life. The diverse nightlife here makes everyday life so enjoyable.",
+    author: "Carlos Dubois",
+    title: "The Everyday Magic of Victoria",
     city: "Victoria",
-    rating: 4.8,
-    date: "2023-05-27"
+    rating: 4.6,
+    date: "2024-08-15"
   },
   {
     id: "city-testimonial-victoria-5",
-    quote: "As someone who's lived in many cities, I can say that Victoria's local cuisine is unmatched anywhere else.",
-    author: "Logan Rossi",
-    title: "How Victoria Changed My Life",
+    quote: "One thing I didn’t expect when moving to Victoria was the {WEATHER_FEATURE}—it’s truly refreshing.",
+    author: "Nora White",
+    title: "Victoria Through a Resident's Eyes",
     city: "Victoria",
-    rating: 4.8,
-    date: "2024-03-11"
+    rating: 4.9,
+    date: "2025-10-05"
   },
   {
     id: "city-testimonial-victoria-6",
-    quote: "No two days are the same living in Victoria. The {DYNAMIC_ASPECT} keeps me excited to wake up every morning.",
-    author: "Ahmed Clark",
-    title: "Victoria's Hidden Treasures for Locals",
+    quote: "The nightlife in Victoria is vibrant and full of {ENTERTAINMENT_FEATURE} for everyone.",
+    author: "Samuel Graves",
+    title: "Living and Thriving in Victoria",
     city: "Victoria",
-    rating: 4.4,
-    date: "2024-07-18"
+    rating: 4.9,
+    date: "2023-01-10"
   },
   {
     id: "city-testimonial-victoria-7",
-    quote: "The mix of old and new in Victoria's architecture and culture keeps the city feeling fresh yet grounded.",
-    author: "Emily Gonzalez",
-    title: "The Everyday Magic of Victoria",
+    quote: "Victoria isn't just where I live—it's part of my identity now. The neighborly feel has shaped who I am.",
+    author: "Anna Hall",
+    title: "What Makes Victoria Uniquely Livable",
     city: "Victoria",
-    rating: 4.2,
-    date: "2024-03-19"
-  },
-  {
-    id: "city-testimonial-victoria-8",
-    quote: "From my apartment in Victoria, I can access international cuisine. Where else could you do that?",
-    author: "Fatima Lewis",
-    title: "What Makes Victoria Special to Live In",
-    city: "Victoria",
-    rating: 4.5,
-    date: "2025-12-02"
-  },
-  {
-    id: "city-testimonial-victoria-9",
-    quote: "If you want a city that offers {LIFESTYLE_BENEFIT}, Victoria is the place to be.",
-    author: "Gary Grant",
-    title: "The Neighborhoods That Make Victoria Home",
-    city: "Victoria",
-    rating: 4.8,
-    date: "2024-01-28"
-  },
-  {
-    id: "city-testimonial-victoria-10",
-    quote: "Raising my family in Victoria gives us access to family healthcare specialists, which is truly invaluable.",
-    author: "Ellie Chen",
-    title: "How Victoria Changed My Life",
-    city: "Victoria",
-    rating: 4.2,
-    date: "2023-10-21"
+    rating: 4.7,
+    date: "2025-09-26"
   }
 ];

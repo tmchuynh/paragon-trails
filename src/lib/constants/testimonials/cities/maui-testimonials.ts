@@ -1,70 +1,90 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Maui
+// Generated on 2025-06-08T04:09:38.706Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const mauiTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-maui-1",
-    quote: "Living here means being a part of Maui's ongoing story of innovation and tradition.",
-    author: "Madelyn Fox",
-    title: "Finding Inspiration Every Day in Maui",
+    quote: "One of the best things about living in Maui is the {ACCESSIBILITY_FEATURE}—it makes everything so convenient.",
+    author: "Laura Williams",
+    title: "The True Character of Maui",
     city: "Maui",
-    rating: 4.7,
-    date: "2024-05-05"
+    rating: 4.8,
+    date: "2023-08-07"
   },
   {
     id: "city-testimonial-maui-2",
-    quote: "Living in Maui means being surrounded by seasonal beauty, which feeds my soul every day.",
-    author: "Maya Moore",
-    title: "Why Maui Is a Place to Grow",
+    quote: "One of my favorite parts about living in Maui is the {MARKET_OR_SHOPPING_FEATURE} just around the corner.",
+    author: "Benjamin Lewis",
+    title: "Inside the Culture of Maui",
     city: "Maui",
-    rating: 4.3,
-    date: "2024-06-19"
+    rating: 4.5,
+    date: "2024-03-10"
   },
   {
     id: "city-testimonial-maui-3",
-    quote: "The historical significance of Maui adds a depth to daily life that I truly cherish.",
-    author: "Michelle Anderson",
-    title: "What I Love About Living in Maui",
+    quote: "After moving to Maui 15 years ago, I fell in love with the artistic expression of this place. It's truly special.",
+    author: "Darrell Lee",
+    title: "Finding Balance in Maui",
     city: "Maui",
     rating: 4.9,
-    date: "2025-05-09"
+    date: "2025-04-20"
   },
   {
     id: "city-testimonial-maui-4",
-    quote: "Despite its size, Maui manages to feel {SMALL_TOWN_QUALITY}, which is rare and wonderful.",
-    author: "Alexa Curtis",
-    title: "What I Love About Living in Maui",
+    quote: "Living in Maui means I get to enjoy {SPORTS_OR_OUTDOOR_ACTIVITY} year-round.",
+    author: "Mark Anderson",
+    title: "The Everyday Magic of Maui",
     city: "Maui",
-    rating: 4.3,
-    date: "2024-03-21"
+    rating: 4.2,
+    date: "2025-07-26"
   },
   {
     id: "city-testimonial-maui-5",
-    quote: "Living in Maui means being surrounded by academic excellence, which feeds my soul every day.",
-    author: "Nathan Bennett",
-    title: "Living Sustainably in Maui",
+    quote: "The art and creativity flowing through Maui is inspiring. It feels like living inside a masterpiece.",
+    author: "Khalid Lewis",
+    title: "The Neighborhoods That Make Maui Home",
     city: "Maui",
-    rating: 4.1,
-    date: "2025-01-22"
+    rating: 4.2,
+    date: "2023-04-15"
   },
   {
     id: "city-testimonial-maui-6",
-    quote: "The food scene in Maui is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
-    author: "Muhammad Martin",
-    title: "Living the Maui Lifestyle",
+    quote: "One thing I didn’t expect when moving to Maui was the {WEATHER_FEATURE}—it’s truly refreshing.",
+    author: "Avery Jackson",
+    title: "The Heartbeat of Maui Life",
     city: "Maui",
-    rating: 4.1,
-    date: "2025-09-15"
+    rating: 4.2,
+    date: "2025-12-24"
   },
   {
     id: "city-testimonial-maui-7",
-    quote: "Community events and festivals in Maui bring everyone together, making the {COMMUNITY_ASPECT} really stand out.",
-    author: "Evelyn Wood",
-    title: "Discovering Home in Maui",
+    quote: "Living in Maui means experiencing wellness and relaxation on a daily basis, which is why I could never leave.",
+    author: "Scott Edwards",
+    title: "Finding Balance in Maui",
     city: "Maui",
-    rating: 4.8,
-    date: "2024-03-04"
+    rating: 5,
+    date: "2024-03-26"
+  },
+  {
+    id: "city-testimonial-maui-8",
+    quote: "Maui has been my home for 20-year, and the wellness community here is what keeps me rooted.",
+    author: "Jacob Fox",
+    title: "My Corner of Maui",
+    city: "Maui",
+    rating: 4.3,
+    date: "2024-12-05"
+  },
+  {
+    id: "city-testimonial-maui-9",
+    quote: "What I tell friends considering moving to Maui is to appreciate the urban gardens—it's what makes daily life here so rich.",
+    author: "William Graham",
+    title: "Uncovering the Layers of Maui",
+    city: "Maui",
+    rating: 4.2,
+    date: "2024-09-21"
   }
 ];

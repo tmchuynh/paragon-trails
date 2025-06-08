@@ -1,101 +1,131 @@
 // This file is auto-generated. Do not edit manually.
+  // Generated for tour: Nocturnal City Adventure in vancouver
+
+
+  // Generated on 2025-06-08T04:09:38.785Z
+
+
   import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const nocturnalCityAdventureTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-vancouver-6-1",
-    quote: "As someone who's been to Vancouver before, I was surprised at how much I learned on the Nocturnal City Adventure. Henry Griffin is a treasure trove of information!",
-    author: "Alan Curtis",
-    title: "Better Than My Last Tinder Date",
-    rating: 4.5,
-    date: "2017-11-28"
+    quote: "Charlotte Hunter had such a great balance of history, fun facts, and local stories — truly a gifted guide.",
+    author: "Marcus Clark",
+    title: "A Stroll Through a Living Storybook",
+    rating: 4.3,
+    date: "2024-12-22"
   },
   {
     id: "testimonial-tour-vancouver-6-2",
-    quote: "Henry Griffin's enthusiasm for Vancouver was contagious. We walked away feeling inspired.",
-    author: "Fatima Taylor",
-    title: "A Day to Remember",
-    rating: 4.9,
-    date: "2024-12-19"
+    quote: "We were blown away by the depth of knowledge and warmth Charlotte Hunter brought to the tour.",
+    author: "Lily Stewart",
+    title: "A Walk That Will Make You Believe in Magic",
+    rating: 3.5,
+    date: "2018-03-09"
   },
   {
     id: "testimonial-tour-vancouver-6-3",
-    quote: "The Nocturnal City Adventure was the highlight of our trip to Vancouver. Henry Griffin took us to all the best spots and shared fascinating stories.",
-    author: "Ali Holloway",
-    title: "A Tour That Feels Like a Celebration",
-    rating: 3.6,
-    date: "2024-10-13"
+    quote: "My grandfather and I had the best time on this tour. Charlotte Hunter's knowledge of Vancouver made it so much more special.",
+    author: "Joel Watson",
+    title: "One of the Best Tours We've Taken",
+    rating: 4.7,
+    date: "2020-05-20"
   },
   {
     id: "testimonial-tour-vancouver-6-4",
-    quote: "Henry Griffin went above and beyond to make sure everyone had a great time on the Nocturnal City Adventure.",
-    author: "Cynthia Mason",
-    title: "Absolutely Fantastic!",
-    rating: 4.6,
-    date: "2019-11-18"
+    quote: "This tour gave us a much deeper connection to Vancouver. Charlotte Hunter's passion really shines through.",
+    author: "Anna Marshall",
+    title: "Beyond Our Expectations",
+    rating: 3.8,
+    date: "2023-06-04"
   },
   {
     id: "testimonial-tour-vancouver-6-5",
-    quote: "Such a memorable way to explore Vancouver. The mix of history, local culture, and stories was perfect.",
-    author: "Arthur Gardner",
-    title: "A Tour Even My Teenager Liked",
-    rating: 4.3,
-    date: "2018-12-17"
+    quote: "Charlotte Hunter went above and beyond to make sure everyone had a great time on the Nocturnal City Adventure.",
+    author: "Walter Collins",
+    title: "A Journey Through Vancouver's Beauty",
+    rating: 5,
+    date: "2019-06-12"
   },
   {
     id: "testimonial-tour-vancouver-6-6",
-    quote: "As a solo traveler, I felt completely comfortable on this tour. Henry Griffin created a friendly atmosphere from the start.",
-    author: "Emma Mitchell",
-    title: "Hot, Sweaty, and Absolutely Worth It",
-    rating: 4.3,
-    date: "2022-03-17"
+    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Charlotte Hunter!",
+    author: "Chloe Dixon",
+    title: "A Walk That Will Make You See Vancouver Differently",
+    rating: 4.4,
+    date: "2017-09-04"
   },
   {
     id: "testimonial-tour-vancouver-6-7",
-    quote: "We were blown away by the depth of knowledge and warmth Henry Griffin brought to the tour.",
-    author: "Margaret Ellis",
-    title: "A Tour Even My Teenager Liked",
-    rating: 4.9,
-    date: "2025-05-05"
+    quote: "Charlotte Hunter shared personal stories that really brought Vancouver to life for us. A truly memorable tour.",
+    author: "Isabella Douglas",
+    title: "Top-Notch Guiding",
+    rating: 3.6,
+    date: "2024-12-12"
   },
   {
     id: "testimonial-tour-vancouver-6-8",
-    quote: "Henry Griffin is the kind of guide you want to tell your friends about. This was a five-star experience.",
-    author: "Henry Kim",
-    title: "Best Decision of Our Trip",
-    rating: 3.6,
-    date: "2022-09-08"
+    quote: "Our family loved every moment of the Nocturnal City Adventure. Charlotte Hunter even made it fun for our kids.",
+    author: "Douglas West",
+    title: "Fun, Friendly, and Full of Insight",
+    rating: 4.8,
+    date: "2020-07-29"
   },
   {
     id: "testimonial-tour-vancouver-6-9",
-    quote: "A truly authentic experience! Henry Griffin showed us the real Vancouver, not just the tourist spots.",
-    author: "Roy Wilson",
-    title: "Insider's Perspective",
-    rating: 3.8,
-    date: "2021-06-28"
+    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Charlotte Hunter.",
+    author: "Isabella Parker",
+    title: "Well Worth Your Time",
+    rating: 3.5,
+    date: "2021-10-31"
   },
   {
     id: "testimonial-tour-vancouver-6-10",
-    quote: "What an engaging experience! Henry Griffin kept us laughing and learning throughout the Nocturnal City Adventure.",
-    author: "Alexa Marshall",
-    title: "A Walk That Will Make You Feel Alive",
-    rating: 4.3,
-    date: "2021-12-26"
+    quote: "My grandmother and I didn’t want the tour to end. Charlotte Hunter is that engaging and informative.",
+    author: "Noah Mason",
+    title: "Absolutely Fantastic!",
+    rating: 4.4,
+    date: "2020-01-21"
   },
   {
     id: "testimonial-tour-vancouver-6-11",
-    quote: "Absolutely worth it. Henry Griffin took care of everything so we could just relax and enjoy Vancouver.",
-    author: "Audrey Parker",
-    title: "The Real Vancouver Experience",
-    rating: 4.9,
-    date: "2025-04-27"
+    quote: "Even the locals in our group said they learned something new. That says a lot about Charlotte Hunter's depth.",
+    author: "Alexa Moore",
+    title: "The Ultimate Vancouver Tour",
+    rating: 4.1,
+    date: "2019-03-08"
   },
   {
     id: "testimonial-tour-vancouver-6-12",
-    quote: "Henry Griffin went above and beyond to make sure everyone had a great time on the Nocturnal City Adventure.",
-    author: "Elijah Miller",
-    title: "Felt Like a Character in a Fairytale",
-    rating: 4.3,
-    date: "2024-10-02"
+    quote: "I’ve taken dozens of tours in different countries. Charlotte Hunter ranks among the very best.",
+    author: "Alexander Campbell",
+    title: "A Walk That Will Make You Think",
+    rating: 4.5,
+    date: "2019-07-14"
+  },
+  {
+    id: "testimonial-tour-vancouver-6-13",
+    quote: "The Nocturnal City Adventure was both entertaining and educational. Charlotte Hunter has a gift for storytelling that brings Vancouver's history to life.",
+    author: "Frank Johnson",
+    title: "Wandered Far, Wondered More",
+    rating: 3.9,
+    date: "2017-03-18"
+  },
+  {
+    id: "testimonial-tour-vancouver-6-14",
+    quote: "The pace was perfect, the content was rich, and Charlotte Hunter made every stop memorable.",
+    author: "Barbara Lewis",
+    title: "More Enchanting Than Expected",
+    rating: 4.9,
+    date: "2020-07-15"
+  },
+  {
+    id: "testimonial-tour-vancouver-6-15",
+    quote: "Such a memorable way to explore Vancouver. The mix of history, local culture, and stories was perfect.",
+    author: "Thandiwe Martin",
+    title: "An Authentic Slice of Vancouver",
+    rating: 3.7,
+    date: "2017-02-09"
   }
 ];

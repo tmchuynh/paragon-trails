@@ -1,79 +1,72 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Patagonia
+// Generated on 2025-06-08T04:09:38.707Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const patagoniaTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-patagonia-1",
-    quote: "The people of Patagonia are incredibly welcoming and have made me feel at home since day one.",
-    author: "Jeffrey Hayes",
-    title: "The Heartbeat of Patagonia Life",
+    quote: "Living in Patagonia means I get to enjoy {SPORTS_OR_OUTDOOR_ACTIVITY} year-round.",
+    author: "Anna Keller",
+    title: "The Soul of Patagonia: A Local's View",
     city: "Patagonia",
-    rating: 4.6,
-    date: "2023-07-02"
+    rating: 4.3,
+    date: "2023-11-13"
   },
   {
     id: "city-testimonial-patagonia-2",
-    quote: "As a second-generation resident of Patagonia, I can't imagine living anywhere else. The historic districts here is something you can't find elsewhere.",
-    author: "Sarah Cooper",
-    title: "What Makes Patagonia Uniquely Livable",
+    quote: "The nightlife in Patagonia is vibrant and full of {ENTERTAINMENT_FEATURE} for everyone.",
+    author: "Bobby Martinez",
+    title: "The Perfect Imperfections of Patagonia",
     city: "Patagonia",
-    rating: 5,
-    date: "2024-06-06"
+    rating: 4.6,
+    date: "2024-05-06"
   },
   {
     id: "city-testimonial-patagonia-3",
     quote: "The cost of living in Patagonia is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
-    author: "Youssef Lewis",
-    title: "Discovering Home in Patagonia",
+    author: "Kennedy Jackson",
+    title: "Patagonia: More Than Just a Place",
     city: "Patagonia",
-    rating: 4.8,
-    date: "2024-03-21"
+    rating: 4.4,
+    date: "2024-12-06"
   },
   {
     id: "city-testimonial-patagonia-4",
-    quote: "Patagonia has been my home for resilient, and the outdoor enthusiasts here is what keeps me rooted.",
-    author: "Edward Carpenter",
-    title: "Finding Inspiration Every Day in Patagonia",
+    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Patagonia make daily life convenient and stress-free.",
+    author: "Lily Martin",
+    title: "Living and Thriving in Patagonia",
     city: "Patagonia",
     rating: 4.8,
-    date: "2023-04-14"
+    date: "2025-05-28"
   },
   {
     id: "city-testimonial-patagonia-5",
-    quote: "The summer night events in Patagonia is something I look forward to every year. It's what makes living here magical.",
-    author: "Lisa Maxwell",
-    title: "The Joys of Slow Living in Patagonia",
+    quote: "Raising my family in Patagonia gives us access to cultural exposure, which is truly invaluable.",
+    author: "Tyler Gonzalez",
+    title: "Living Sustainably in Patagonia",
     city: "Patagonia",
-    rating: 4.9,
-    date: "2024-02-01"
+    rating: 4.6,
+    date: "2024-07-23"
   },
   {
     id: "city-testimonial-patagonia-6",
-    quote: "The food scene in Patagonia is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
-    author: "Robert Graves",
-    title: "The Joys of Slow Living in Patagonia",
+    quote: "I love how Patagonia celebrates {FESTIVAL_OR_EVENT}, it brings so much joy and community spirit.",
+    author: "Harper Müller",
+    title: "Life in Patagonia: A Local Perspective",
     city: "Patagonia",
-    rating: 4.3,
-    date: "2023-05-11"
+    rating: 4.6,
+    date: "2024-01-05"
   },
   {
     id: "city-testimonial-patagonia-7",
-    quote: "The sense of {SAFETY} in Patagonia makes me feel comfortable raising my kids here.",
-    author: "Willie Hamilton",
-    title: "The Joys of Slow Living in Patagonia",
+    quote: "The touristy neighborhoods in Patagonia each have their own character, which keeps life interesting year after year.",
+    author: "John Lopez",
+    title: "Living Sustainably in Patagonia",
     city: "Patagonia",
-    rating: 5,
-    date: "2024-10-19"
-  },
-  {
-    id: "city-testimonial-patagonia-8",
-    quote: "The sense of {SAFETY} in Patagonia makes me feel comfortable raising my kids here.",
-    author: "Isabella Morales",
-    title: "How Patagonia Changed My Life",
-    city: "Patagonia",
-    rating: 4.8,
-    date: "2023-12-15"
+    rating: 4.9,
+    date: "2025-03-02"
   }
 ];

@@ -1,52 +1,63 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Vienna
+// Generated on 2025-06-08T04:09:38.711Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const viennaTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-vienna-1",
-    quote: "From my apartment in Vienna, I can experience night markets. Where else could you do that?",
-    author: "Nicholas Montgomery",
-    title: "The Soul of Vienna: A Local's View",
+    quote: "Living in Vienna means I get to enjoy {SPORTS_OR_OUTDOOR_ACTIVITY} year-round.",
+    author: "Emily Murray",
+    title: "Vienna: Where I Found My Community",
     city: "Vienna",
-    rating: 5,
-    date: "2023-04-18"
+    rating: 4.2,
+    date: "2025-12-28"
   },
   {
     id: "city-testimonial-vienna-2",
-    quote: "The summer festival parades in Vienna is something I look forward to every year. It's what makes living here magical.",
-    author: "Chloe Jones",
-    title: "How Vienna Balances Tradition and Innovation",
+    quote: "The art and creativity flowing through Vienna is inspiring. It feels like living inside a masterpiece.",
+    author: "Laura Marshall",
+    title: "A Love Letter to Vienna",
     city: "Vienna",
     rating: 4.9,
-    date: "2025-11-15"
+    date: "2024-10-21"
   },
   {
     id: "city-testimonial-vienna-3",
-    quote: "The {FESTIVAL_OR_EVENT} season in Vienna brings so much excitement and pride to the community.",
-    author: "Philip Kim",
-    title: "The Heartbeat of Vienna Life",
+    quote: "If you want a city that offers {LIFESTYLE_BENEFIT}, Vienna is the place to be.",
+    author: "Sofia Holloway",
+    title: "Vienna: A City That Grows With You",
     city: "Vienna",
-    rating: 4.8,
-    date: "2025-05-20"
+    rating: 4.9,
+    date: "2025-05-13"
   },
   {
     id: "city-testimonial-vienna-4",
-    quote: "If you want a city that offers {LIFESTYLE_BENEFIT}, Vienna is the place to be.",
-    author: "Justin Douglas",
-    title: "Vienna: More Than Just a Place",
+    quote: "The commercial neighborhoods in Vienna each have their own character, which keeps life interesting year after year.",
+    author: "Ibrahim Hunter",
+    title: "Living Sustainably in Vienna",
     city: "Vienna",
-    rating: 4.5,
-    date: "2025-10-10"
+    rating: 4.9,
+    date: "2024-03-06"
   },
   {
     id: "city-testimonial-vienna-5",
-    quote: "Community events and festivals in Vienna bring everyone together, making the {COMMUNITY_ASPECT} really stand out.",
-    author: "Naomi Jackson",
-    title: "The Joys of Slow Living in Vienna",
+    quote: "The people of Vienna are incredibly welcoming and have made me feel at home since day one.",
+    author: "Terry Knight",
+    title: "Living and Thriving in Vienna",
     city: "Vienna",
-    rating: 4.4,
-    date: "2024-09-27"
+    rating: 5,
+    date: "2024-06-13"
+  },
+  {
+    id: "city-testimonial-vienna-6",
+    quote: "From my apartment in Vienna, I can attend cultural events nightly. Where else could you do that?",
+    author: "Robert Reed",
+    title: "The Heartbeat of Vienna Life",
+    city: "Vienna",
+    rating: 4.1,
+    date: "2023-05-24"
   }
 ];

@@ -1,79 +1,99 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Puerto Vallarta
+// Generated on 2025-06-08T04:09:38.708Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const puertovallartaTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-puerto-vallarta-1",
-    quote: "What I love most about living in Puerto Vallarta is the scenic hiking trails. It creates such a unique atmosphere that feels like home.",
-    author: "Aaron Fox",
-    title: "The Unexpected Joys of Puerto Vallarta Living",
+    quote: "Living in Puerto Vallarta has allowed me to connect deeply with {NATURE_FEATURE} nearby.",
+    author: "Ibrahim Chen",
+    title: "Why I’m Proud to Call Puerto Vallarta Home",
     city: "Puerto Vallarta",
-    rating: 4,
-    date: "2023-10-28"
+    rating: 4.3,
+    date: "2025-08-15"
   },
   {
     id: "city-testimonial-puerto-vallarta-2",
-    quote: "One of the best things about living in Puerto Vallarta is the {ACCESSIBILITY_FEATURE}—it makes everything so convenient.",
-    author: "Carol Singh",
-    title: "My Puerto Vallarta Story: Life as a Resident",
+    quote: "Living in Puerto Vallarta has been one of the best decisions of my life. The connection to nature here makes everyday life so enjoyable.",
+    author: "Alan Morales",
+    title: "The Joys of Slow Living in Puerto Vallarta",
     city: "Puerto Vallarta",
-    rating: 4.7,
-    date: "2025-07-12"
+    rating: 4,
+    date: "2023-04-12"
   },
   {
     id: "city-testimonial-puerto-vallarta-3",
-    quote: "I love how Puerto Vallarta celebrates {FESTIVAL_OR_EVENT}, it brings so much joy and community spirit.",
-    author: "Jack Griffin",
-    title: "The True Character of Puerto Vallarta",
+    quote: "Living in Puerto Vallarta has been one of the best decisions of my life. The walkability here makes everyday life so enjoyable.",
+    author: "Valentina Bennett",
+    title: "How Puerto Vallarta Changed My Life",
     city: "Puerto Vallarta",
-    rating: 5,
-    date: "2023-02-15"
+    rating: 4.8,
+    date: "2023-02-05"
   },
   {
     id: "city-testimonial-puerto-vallarta-4",
-    quote: "The {FESTIVAL_OR_EVENT} season in Puerto Vallarta brings so much excitement and pride to the community.",
-    author: "Edward Lawson",
-    title: "The Everyday Magic of Puerto Vallarta",
+    quote: "Despite its size, Puerto Vallarta manages to feel {SMALL_TOWN_QUALITY}, which is rare and wonderful.",
+    author: "Ana Müller",
+    title: "My Corner of Puerto Vallarta",
     city: "Puerto Vallarta",
-    rating: 4.9,
-    date: "2024-05-24"
+    rating: 4.6,
+    date: "2023-09-21"
   },
   {
     id: "city-testimonial-puerto-vallarta-5",
-    quote: "Every weekend in Puerto Vallarta brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
-    author: "Rachel Palmer",
-    title: "How Puerto Vallarta Balances Tradition and Innovation",
+    quote: "The sense of {SAFETY} in Puerto Vallarta makes me feel comfortable raising my kids here.",
+    author: "Emma Ali",
+    title: "Puerto Vallarta Through a Resident's Eyes",
     city: "Puerto Vallarta",
-    rating: 4.1,
-    date: "2025-10-22"
+    rating: 5,
+    date: "2023-12-17"
   },
   {
     id: "city-testimonial-puerto-vallarta-6",
-    quote: "Puerto Vallarta's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
-    author: "Javier Campbell",
-    title: "Puerto Vallarta: Beyond the Tourist Experience",
+    quote: "The people of Puerto Vallarta are incredibly welcoming and have made me feel at home since day one.",
+    author: "Richard Gonzalez",
+    title: "My Puerto Vallarta Story: Life as a Resident",
     city: "Puerto Vallarta",
-    rating: 4.3,
-    date: "2023-08-22"
+    rating: 4.7,
+    date: "2023-08-26"
   },
   {
     id: "city-testimonial-puerto-vallarta-7",
-    quote: "The people of Puerto Vallarta are incredibly welcoming and have made me feel at home since day one.",
-    author: "Timothy Moore",
-    title: "The Perfect Imperfections of Puerto Vallarta",
+    quote: "The {FESTIVAL_OR_EVENT} season in Puerto Vallarta brings so much excitement and pride to the community.",
+    author: "Bruce Ali",
+    title: "What I Love About Living in Puerto Vallarta",
     city: "Puerto Vallarta",
-    rating: 4.5,
-    date: "2024-12-14"
+    rating: 4.2,
+    date: "2023-05-18"
   },
   {
     id: "city-testimonial-puerto-vallarta-8",
-    quote: "Puerto Vallarta's film scene has become central to my life here. I couldn't imagine living without it now.",
-    author: "Audrey Miller",
-    title: "Puerto Vallarta Through a Resident's Eyes",
+    quote: "Living in Puerto Vallarta means being surrounded by cultural institutions, which feeds my soul every day.",
+    author: "Virginia Russell",
+    title: "My Puerto Vallarta Story: Life as a Resident",
     city: "Puerto Vallarta",
-    rating: 4.6,
-    date: "2023-11-12"
+    rating: 4.7,
+    date: "2024-11-14"
+  },
+  {
+    id: "city-testimonial-puerto-vallarta-9",
+    quote: "Puerto Vallarta has been my home for settled, and the activist groups here is what keeps me rooted.",
+    author: "Khalid Silva",
+    title: "My Puerto Vallarta Story: Life as a Resident",
+    city: "Puerto Vallarta",
+    rating: 4.8,
+    date: "2024-11-26"
+  },
+  {
+    id: "city-testimonial-puerto-vallarta-10",
+    quote: "The mix of old and new in Puerto Vallarta's architecture and culture keeps the city feeling fresh yet grounded.",
+    author: "Elijah Montgomery",
+    title: "Discovering Home in Puerto Vallarta",
+    city: "Puerto Vallarta",
+    rating: 4,
+    date: "2025-03-16"
   }
 ];

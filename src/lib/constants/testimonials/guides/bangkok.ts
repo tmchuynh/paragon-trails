@@ -1,377 +1,381 @@
 // This file is auto-generated. Do not edit manually.
 // Tour guide reviews for bangkok
+// City: Bangkok
+// Country: thailand
+// Region: thailand
+// Generated on: 2025-06-08T04:09:38.244Z
 export const bangkokGuideReviews = {
   "guide-bangkok-1": [
     {
       "id": "guide-bangkok-1-review-0",
-      "quote": "Peter Johnson delivered a perfect mix of history, humor, and heart. His attentive delivery kept us engaged throughout.",
-      "author": "Wei Stewart",
+      "quote": "It’s rare to find a guide as accommodating as Lawrence Hudson. His ability to connect with people from all walks of life was exceptional.",
+      "author": "Roger Sutton",
       "title": "Verified Tour Participant",
       "city": "Bangkok",
       "rating": 5,
-      "date": "2025-02-13"
+      "date": "2024-08-01"
     },
     {
       "id": "guide-bangkok-1-review-1",
-      "quote": "I wasn’t expecting to learn so much and enjoy it this much. Peter Johnson was detail-oriented and incredibly knowledgeable.",
-      "author": "Ariana Ali",
+      "quote": "From start to finish, Lawrence Hudson delivered a engaging experience. Their expertise and care were unmatched.",
+      "author": "Janet Coleman",
       "title": "Verified Tour Participant",
       "city": "Bangkok",
       "rating": 5,
-      "date": "2024-12-20"
+      "date": "2024-09-02"
     },
     {
       "id": "guide-bangkok-1-review-2",
-      "quote": "You could tell that Peter Johnson genuinely cares about what Her does. Her captivating nature was a highlight of our trip.",
-      "author": "Carol Wallace",
+      "quote": "You could tell that Lawrence Hudson genuinely cares about what Her does. Her charismatic nature was a highlight of our trip.",
+      "author": "Zola Ali",
       "title": "Verified Tour Participant",
       "city": "Bangkok",
       "rating": 5,
-      "date": "2024-08-06"
-    },
-    {
-      "id": "guide-bangkok-1-review-3",
-      "quote": "You could tell that Peter Johnson genuinely cares about what Their does. Their accommodating nature was a highlight of our trip.",
-      "author": "Zoe Nash",
-      "title": "Verified Tour Participant",
-      "city": "Bangkok",
-      "rating": 5,
-      "date": "2025-04-21"
+      "date": "2024-08-07"
     }
   ],
   "guide-bangkok-2": [
     {
       "id": "guide-bangkok-2-review-0",
-      "quote": "Jack Palmer's tour was the highlight of our trip. Their cheerful approach to sharing the history made everything interesting.",
-      "author": "Daniel Ivanov",
+      "quote": "I’ve taken many tours, but Helen Mitchell's was by far the most thoughtful. Her storytelling ability was incredible.",
+      "author": "Thomas Hamilton",
       "title": "Verified Tour Participant",
       "city": "Bangkok",
-      "rating": 5,
-      "date": "2024-09-21"
+      "rating": 4,
+      "date": "2025-05-04"
     },
     {
       "id": "guide-bangkok-2-review-1",
-      "quote": "Our experience with Jack Palmer was wonderful. He showed us hidden gems we would have never found on our own.",
-      "author": "Amelia Foster",
+      "quote": "Every moment with Helen Mitchell felt intentional. Their detail-oriented guidance made this one of the best parts of our trip.",
+      "author": "Blake Clark",
       "title": "Verified Tour Participant",
       "city": "Bangkok",
       "rating": 5,
-      "date": "2024-07-01"
+      "date": "2024-06-11"
     },
     {
       "id": "guide-bangkok-2-review-2",
-      "quote": "Even our kids loved the tour—Jack Palmer was so incredible and made sure everyone was involved.",
-      "author": "Gabriella Suzuki",
+      "quote": "I wasn’t expecting to learn so much and enjoy it this much. Helen Mitchell was passionate and incredibly knowledgeable.",
+      "author": "Bella Gonzalez",
+      "title": "Verified Tour Participant",
+      "city": "Bangkok",
+      "rating": 5,
+      "date": "2024-06-18"
+    }
+  ],
+  "guide-bangkok-3": [
+    {
+      "id": "guide-bangkok-3-review-0",
+      "quote": "Liam Hunter brought warmth and attentive energy to the day. Their made us feel like locals instead of tourists.",
+      "author": "Arthur Martinez",
+      "title": "Verified Tour Participant",
+      "city": "Bangkok",
+      "rating": 5,
+      "date": "2024-06-08"
+    },
+    {
+      "id": "guide-bangkok-3-review-1",
+      "quote": "It’s rare to find a guide as superb as Liam Hunter. Her ability to connect with people from all walks of life was exceptional.",
+      "author": "Katherine Murray",
+      "title": "Verified Tour Participant",
+      "city": "Bangkok",
+      "rating": 4,
+      "date": "2025-02-02"
+    },
+    {
+      "id": "guide-bangkok-3-review-2",
+      "quote": "Liam Hunter was an insightful guide who truly brought the city to life. Her knowledge of underground culture was impressive.",
+      "author": "Darrell Dubois",
+      "title": "Verified Tour Participant",
+      "city": "Bangkok",
+      "rating": 5,
+      "date": "2024-09-27"
+    },
+    {
+      "id": "guide-bangkok-3-review-3",
+      "quote": "From start to finish, Liam Hunter delivered a flexible experience. Their expertise and care were unmatched.",
+      "author": "Khalid Harper",
+      "title": "Verified Tour Participant",
+      "city": "Bangkok",
+      "rating": 5,
+      "date": "2024-08-06"
+    }
+  ],
+  "guide-bangkok-4": [
+    {
+      "id": "guide-bangkok-4-review-0",
+      "quote": "Maya Lawson was an captivating guide who truly brought the city to life. Her knowledge of architecture was impressive.",
+      "author": "Sarah Rossi",
       "title": "Verified Tour Participant",
       "city": "Bangkok",
       "rating": 5,
       "date": "2024-12-06"
     },
     {
-      "id": "guide-bangkok-2-review-3",
-      "quote": "I booked the tour last minute, but I’m so glad I did. Jack Palmer's cheerful leadership and local tips were invaluable.",
-      "author": "Kenneth Fisher",
-      "title": "Verified Tour Participant",
-      "city": "Bangkok",
-      "rating": 5,
-      "date": "2024-07-26"
-    }
-  ],
-  "guide-bangkok-3": [
-    {
-      "id": "guide-bangkok-3-review-0",
-      "quote": "Every moment with Charlotte Anderson felt intentional. Her genuine guidance made this one of the best parts of our trip.",
-      "author": "Arthur Porter",
-      "title": "Verified Tour Participant",
-      "city": "Bangkok",
-      "rating": 3,
-      "date": "2024-06-19"
-    },
-    {
-      "id": "guide-bangkok-3-review-1",
-      "quote": "Charlotte Anderson was an enthusiastic guide who truly brought the city to life. Their knowledge of Culinary Tours was impressive.",
-      "author": "Christian Foster",
-      "title": "Verified Tour Participant",
-      "city": "Bangkok",
-      "rating": 4,
-      "date": "2025-03-27"
-    },
-    {
-      "id": "guide-bangkok-3-review-2",
-      "quote": "Charlotte Anderson made even the smallest detail feel important. Her reliable touch made this tour stand out from the rest.",
-      "author": "Laura Müller",
-      "title": "Verified Tour Participant",
-      "city": "Bangkok",
-      "rating": 5,
-      "date": "2024-08-17"
-    }
-  ],
-  "guide-bangkok-4": [
-    {
-      "id": "guide-bangkok-4-review-0",
-      "quote": "From start to finish, Ava Marshall delivered a brilliant experience. Their expertise and care were unmatched.",
-      "author": "Allison Lee",
-      "title": "Verified Tour Participant",
-      "city": "Bangkok",
-      "rating": 4,
-      "date": "2024-09-11"
-    },
-    {
       "id": "guide-bangkok-4-review-1",
-      "quote": "We had a insightful time with Ava Marshall. Her passion for Adventure Activities was evident throughout the tour.",
-      "author": "Gary Jones",
+      "quote": "From start to finish, Maya Lawson delivered a accommodating experience. His expertise and care were unmatched.",
+      "author": "Arthur Wood",
       "title": "Verified Tour Participant",
       "city": "Bangkok",
-      "rating": 4,
-      "date": "2025-04-28"
+      "rating": 5,
+      "date": "2025-04-10"
     },
     {
       "id": "guide-bangkok-4-review-2",
-      "quote": "Ava Marshall has a gift for storytelling. The entire group was engaged, laughing, and learning—it was such a welcoming time.",
-      "author": "Avery Holloway",
+      "quote": "Maya Lawson was an patient guide who truly brought the city to life. Their knowledge of modern architecture was impressive.",
+      "author": "Sofia Knight",
       "title": "Verified Tour Participant",
       "city": "Bangkok",
       "rating": 5,
-      "date": "2024-11-17"
+      "date": "2024-06-20"
+    },
+    {
+      "id": "guide-bangkok-4-review-3",
+      "quote": "I booked the tour last minute, but I’m so glad I did. Maya Lawson's inspiring leadership and local tips were invaluable.",
+      "author": "Sofia Day",
+      "title": "Verified Tour Participant",
+      "city": "Bangkok",
+      "rating": 5,
+      "date": "2024-09-09"
     }
   ],
   "guide-bangkok-5": [
     {
       "id": "guide-bangkok-5-review-0",
-      "quote": "If you’re looking for a engaging experience in Adventure Activities, Mei Price is the one to book. Her professionalism stood out.",
-      "author": "Abigail Dunn",
+      "quote": "We felt completely at ease with Savannah Mason. Her wonderful style made even complex topics accessible and fun.",
+      "author": "Savannah Anderson",
       "title": "Verified Tour Participant",
       "city": "Bangkok",
       "rating": 5,
-      "date": "2024-12-04"
+      "date": "2024-11-02"
     },
     {
       "id": "guide-bangkok-5-review-1",
-      "quote": "From start to finish, Mei Price delivered a trustworthy experience. His expertise and care were unmatched.",
-      "author": "Diego Reed",
-      "title": "Verified Tour Participant",
-      "city": "Bangkok",
-      "rating": 3,
-      "date": "2025-02-21"
-    },
-    {
-      "id": "guide-bangkok-5-review-2",
-      "quote": "A truly thoughtful experience thanks to Mei Price. Their balance of facts and fun was exactly what we were hoping for.",
-      "author": "Patrick Wang",
-      "title": "Verified Tour Participant",
-      "city": "Bangkok",
-      "rating": 4,
-      "date": "2024-09-27"
-    },
-    {
-      "id": "guide-bangkok-5-review-3",
-      "quote": "Touring with Mei Price was a delight. Their insightful personality and deep knowledge made the experience unforgettable.",
-      "author": "Nathan Ellis",
-      "title": "Verified Tour Participant",
-      "city": "Bangkok",
-      "rating": 5,
-      "date": "2024-09-13"
-    }
-  ],
-  "guide-bangkok-6": [
-    {
-      "id": "guide-bangkok-6-review-0",
-      "quote": "We left the tour inspired. Samantha Day's skilled way of sharing knowledge made a lasting impression on us.",
-      "author": "Paul Reeves",
-      "title": "Verified Tour Participant",
-      "city": "Bangkok",
-      "rating": 4,
-      "date": "2025-04-24"
-    },
-    {
-      "id": "guide-bangkok-6-review-1",
-      "quote": "Samantha Day brought warmth and dedicated energy to the day. His made us feel like locals instead of tourists.",
-      "author": "Madelyn Martinez",
-      "title": "Verified Tour Participant",
-      "city": "Bangkok",
-      "rating": 5,
-      "date": "2025-05-01"
-    },
-    {
-      "id": "guide-bangkok-6-review-2",
-      "quote": "Every moment with Samantha Day felt intentional. Her amazing guidance made this one of the best parts of our trip.",
-      "author": "Leah Williams",
-      "title": "Verified Tour Participant",
-      "city": "Bangkok",
-      "rating": 5,
-      "date": "2024-07-06"
-    }
-  ],
-  "guide-bangkok-7": [
-    {
-      "id": "guide-bangkok-7-review-0",
-      "quote": "We learned so much and had so much fun, all thanks to Wayne Reeves's wonderful approach to sharing Historical Sites.",
-      "author": "Ethan Nguyen",
-      "title": "Verified Tour Participant",
-      "city": "Bangkok",
-      "rating": 5,
-      "date": "2025-04-04"
-    },
-    {
-      "id": "guide-bangkok-7-review-1",
-      "quote": "You could tell that Wayne Reeves genuinely cares about what Her does. Her charismatic nature was a highlight of our trip.",
-      "author": "Mei Gonzalez",
-      "title": "Verified Tour Participant",
-      "city": "Bangkok",
-      "rating": 5,
-      "date": "2024-11-28"
-    },
-    {
-      "id": "guide-bangkok-7-review-2",
-      "quote": "Touring with Wayne Reeves was a delight. Their enthusiastic personality and deep knowledge made the experience unforgettable.",
-      "author": "Paul Gonzalez",
-      "title": "Verified Tour Participant",
-      "city": "Bangkok",
-      "rating": 5,
-      "date": "2024-07-25"
-    }
-  ],
-  "guide-bangkok-8": [
-    {
-      "id": "guide-bangkok-8-review-0",
-      "quote": "Our experience with Layla Rodriguez was detail-oriented. They showed us hidden gems we would have never found on our own.",
-      "author": "Luis Wood",
-      "title": "Verified Tour Participant",
-      "city": "Bangkok",
-      "rating": 5,
-      "date": "2024-09-05"
-    },
-    {
-      "id": "guide-bangkok-8-review-1",
-      "quote": "I’ve traveled a lot, but this was one of the most inspiring tours I’ve ever taken. Layla Rodriguez was fantastic from start to finish.",
-      "author": "John Hayes",
+      "quote": "Savannah Mason was an personable guide who truly brought the city to life. Their knowledge of art galleries was impressive.",
+      "author": "Austin da Costa",
       "title": "Verified Tour Participant",
       "city": "Bangkok",
       "rating": 5,
       "date": "2024-07-21"
     },
     {
-      "id": "guide-bangkok-8-review-2",
-      "quote": "I wasn’t expecting to learn so much and enjoy it this much. Layla Rodriguez was thoughtful and incredibly knowledgeable.",
-      "author": "Joan Bennett",
+      "id": "guide-bangkok-5-review-2",
+      "quote": "I wasn’t expecting to learn so much and enjoy it this much. Savannah Mason was reliable and incredibly knowledgeable.",
+      "author": "Donna Parker",
       "title": "Verified Tour Participant",
       "city": "Bangkok",
       "rating": 5,
-      "date": "2024-12-01"
+      "date": "2024-08-12"
+    }
+  ],
+  "guide-bangkok-6": [
+    {
+      "id": "guide-bangkok-6-review-0",
+      "quote": "We felt completely at ease with Paul Gonzalez. Their inspiring style made even complex topics accessible and fun.",
+      "author": "Lucas Mitchell",
+      "title": "Verified Tour Participant",
+      "city": "Bangkok",
+      "rating": 5,
+      "date": "2025-01-03"
     },
     {
-      "id": "guide-bangkok-8-review-3",
-      "quote": "We left the tour inspired. Layla Rodriguez's friendly way of sharing knowledge made a lasting impression on us.",
-      "author": "Laura Williams",
+      "id": "guide-bangkok-6-review-1",
+      "quote": "Paul Gonzalez tailored the tour perfectly to our interests. Their approachable nature made everyone feel welcome.",
+      "author": "Diego Day",
       "title": "Verified Tour Participant",
       "city": "Bangkok",
       "rating": 4,
-      "date": "2024-09-08"
+      "date": "2024-12-16"
+    },
+    {
+      "id": "guide-bangkok-6-review-2",
+      "quote": "Paul Gonzalez created an environment that was both informative and relaxing. Her friendly approach kept everyone engaged.",
+      "author": "Harper Warren",
+      "title": "Verified Tour Participant",
+      "city": "Bangkok",
+      "rating": 5,
+      "date": "2025-01-19"
+    },
+    {
+      "id": "guide-bangkok-6-review-3",
+      "quote": "Paul Gonzalez brought warmth and reliable energy to the day. Their made us feel like locals instead of tourists.",
+      "author": "Gerald Coleman",
+      "title": "Verified Tour Participant",
+      "city": "Bangkok",
+      "rating": 5,
+      "date": "2024-08-30"
+    }
+  ],
+  "guide-bangkok-7": [
+    {
+      "id": "guide-bangkok-7-review-0",
+      "quote": "Jessica Smith's tour was the highlight of our trip. His reliable approach to sharing the history made everything interesting.",
+      "author": "Ibrahim Wilson",
+      "title": "Verified Tour Participant",
+      "city": "Bangkok",
+      "rating": 5,
+      "date": "2025-04-01"
+    },
+    {
+      "id": "guide-bangkok-7-review-1",
+      "quote": "Even our kids loved the tour—Jessica Smith was so flexible and made sure everyone was involved.",
+      "author": "Thandiwe Collins",
+      "title": "Verified Tour Participant",
+      "city": "Bangkok",
+      "rating": 4,
+      "date": "2024-11-23"
+    },
+    {
+      "id": "guide-bangkok-7-review-2",
+      "quote": "The way Jessica Smith brought Art Galleries to life was truly cheerful. You could tell His loves what His does.",
+      "author": "Youssef Williams",
+      "title": "Verified Tour Participant",
+      "city": "Bangkok",
+      "rating": 4,
+      "date": "2024-08-26"
+    }
+  ],
+  "guide-bangkok-8": [
+    {
+      "id": "guide-bangkok-8-review-0",
+      "quote": "Even our kids loved the tour—Lisa Hernandez was so charismatic and made sure everyone was involved.",
+      "author": "Ronald Palmer",
+      "title": "Verified Tour Participant",
+      "city": "Bangkok",
+      "rating": 5,
+      "date": "2025-01-08"
+    },
+    {
+      "id": "guide-bangkok-8-review-1",
+      "quote": "From start to finish, Lisa Hernandez delivered a inspiring experience. Her expertise and care were unmatched.",
+      "author": "Priya Nguyen",
+      "title": "Verified Tour Participant",
+      "city": "Bangkok",
+      "rating": 5,
+      "date": "2025-03-26"
+    },
+    {
+      "id": "guide-bangkok-8-review-2",
+      "quote": "Lisa Hernandez made even the smallest detail feel important. His incredible touch made this tour stand out from the rest.",
+      "author": "John Dixon",
+      "title": "Verified Tour Participant",
+      "city": "Bangkok",
+      "rating": 4,
+      "date": "2025-05-08"
     }
   ],
   "guide-bangkok-9": [
     {
       "id": "guide-bangkok-9-review-0",
-      "quote": "The way Randy Bennett brought underground culture to life was truly engaging. You could tell His loves what His does.",
-      "author": "Nancy Payne",
+      "quote": "Kevin Sutton created an environment that was both informative and relaxing. Their amazing approach kept everyone engaged.",
+      "author": "Louis Griffin",
       "title": "Verified Tour Participant",
       "city": "Bangkok",
       "rating": 4,
-      "date": "2024-08-08"
+      "date": "2024-10-10"
     },
     {
       "id": "guide-bangkok-9-review-1",
-      "quote": "We learned so much and had so much fun, all thanks to Randy Bennett's charismatic approach to sharing Art Galleries.",
-      "author": "Khalid Sutton",
+      "quote": "From start to finish, Kevin Sutton delivered a exceptional experience. His expertise and care were unmatched.",
+      "author": "Ibrahim Gonzalez",
       "title": "Verified Tour Participant",
       "city": "Bangkok",
       "rating": 5,
-      "date": "2025-05-12"
+      "date": "2024-07-30"
     },
     {
       "id": "guide-bangkok-9-review-2",
-      "quote": "It’s rare to find a guide as brilliant as Randy Bennett. Her ability to connect with people from all walks of life was exceptional.",
-      "author": "Gregory Graham",
+      "quote": "We learned so much and had so much fun, all thanks to Kevin Sutton's charming approach to sharing Scenic Views.",
+      "author": "Nomsa Spencer",
       "title": "Verified Tour Participant",
       "city": "Bangkok",
       "rating": 5,
-      "date": "2024-10-07"
+      "date": "2024-08-27"
     },
     {
       "id": "guide-bangkok-9-review-3",
-      "quote": "Randy Bennett didn’t just give us a tour—Their gave us a connection to the city through incredible storytelling.",
-      "author": "Victor Carpenter",
+      "quote": "We had a informative time with Kevin Sutton. Her passion for indigenous cultures was evident throughout the tour.",
+      "author": "Willie Murray",
       "title": "Verified Tour Participant",
       "city": "Bangkok",
       "rating": 5,
-      "date": "2025-01-15"
+      "date": "2024-08-28"
     }
   ],
   "guide-bangkok-10": [
     {
       "id": "guide-bangkok-10-review-0",
-      "quote": "We were lucky to have Savannah Wang as our guide. His helpful insights made a big difference in how we experienced Local Dance.",
-      "author": "Isabella Curtis",
+      "quote": "We felt completely at ease with Abigail Henderson. His outstanding style made even complex topics accessible and fun.",
+      "author": "Gabriella Hunter",
       "title": "Verified Tour Participant",
       "city": "Bangkok",
       "rating": 5,
-      "date": "2024-10-15"
+      "date": "2025-02-13"
     },
     {
       "id": "guide-bangkok-10-review-1",
-      "quote": "I’ve taken many tours, but Savannah Wang's was by far the most charismatic. Their storytelling ability was incredible.",
-      "author": "Elizabeth Davis",
+      "quote": "Abigail Henderson delivered a perfect mix of history, humor, and heart. His reliable delivery kept us engaged throughout.",
+      "author": "Bobby Wilson",
       "title": "Verified Tour Participant",
       "city": "Bangkok",
-      "rating": 4,
-      "date": "2025-04-19"
+      "rating": 5,
+      "date": "2024-09-09"
     },
     {
       "id": "guide-bangkok-10-review-2",
-      "quote": "Savannah Wang is simply patient. The tour was well-paced and Their attention to detail was remarkable.",
-      "author": "Sandra Coleman",
+      "quote": "The way Abigail Henderson brought Local Craftsmanship to life was truly resourceful. You could tell His loves what His does.",
+      "author": "Alan Ivanov",
+      "title": "Verified Tour Participant",
+      "city": "Bangkok",
+      "rating": 5,
+      "date": "2025-03-21"
+    },
+    {
+      "id": "guide-bangkok-10-review-3",
+      "quote": "You could tell that Abigail Henderson genuinely cares about what Their does. Their remarkable nature was a highlight of our trip.",
+      "author": "Olivia Grant",
       "title": "Verified Tour Participant",
       "city": "Bangkok",
       "rating": 4,
-      "date": "2024-09-03"
+      "date": "2024-06-12"
     }
   ],
   "guide-bangkok-11": [
     {
       "id": "guide-bangkok-11-review-0",
-      "quote": "Pamela Dubois delivered a perfect mix of history, humor, and heart. Their brilliant delivery kept us engaged throughout.",
-      "author": "Claire Williams",
+      "quote": "If you’re looking for a generous experience in public art installations, Chloe Singh is the one to book. Their professionalism stood out.",
+      "author": "Joan Holloway",
       "title": "Verified Tour Participant",
       "city": "Bangkok",
-      "rating": 4,
-      "date": "2024-12-26"
+      "rating": 5,
+      "date": "2025-05-09"
     },
     {
       "id": "guide-bangkok-11-review-1",
-      "quote": "We learned so much and had so much fun, all thanks to Pamela Dubois's outstanding approach to sharing Local Artisans.",
-      "author": "Henry Gardner",
+      "quote": "Chloe Singh was an friendly guide who truly brought the city to life. Her knowledge of Cultural Heritage was impressive.",
+      "author": "Logan Dean",
       "title": "Verified Tour Participant",
       "city": "Bangkok",
-      "rating": 4,
-      "date": "2024-10-13"
+      "rating": 5,
+      "date": "2025-03-19"
     },
     {
       "id": "guide-bangkok-11-review-2",
-      "quote": "I’ve taken many tours, but Pamela Dubois's was by far the most motivating. His storytelling ability was incredible.",
-      "author": "Naomi Rodriguez",
-      "title": "Verified Tour Participant",
-      "city": "Bangkok",
-      "rating": 3,
-      "date": "2024-10-16"
-    },
-    {
-      "id": "guide-bangkok-11-review-3",
-      "quote": "Pamela Dubois delivered a perfect mix of history, humor, and heart. Their engaging delivery kept us engaged throughout.",
-      "author": "Maya Suzuki",
+      "quote": "You could tell that Chloe Singh genuinely cares about what Their does. Their attentive nature was a highlight of our trip.",
+      "author": "Joe Lopez",
       "title": "Verified Tour Participant",
       "city": "Bangkok",
       "rating": 4,
-      "date": "2025-01-24"
+      "date": "2024-09-10"
+    },
+    {
+      "id": "guide-bangkok-11-review-3",
+      "quote": "We felt completely at ease with Chloe Singh. His charming style made even complex topics accessible and fun.",
+      "author": "Sebastian Chen",
+      "title": "Verified Tour Participant",
+      "city": "Bangkok",
+      "rating": 5,
+      "date": "2024-08-07"
     }
   ]
 };

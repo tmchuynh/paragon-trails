@@ -1,70 +1,63 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Udaipur
+// Generated on 2025-06-08T04:09:38.710Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const udaipurTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-udaipur-1",
-    quote: "The nightlife in Udaipur is vibrant and full of {ENTERTAINMENT_FEATURE} for everyone.",
-    author: "Linda Ellis",
-    title: "A Resident's Guide to Living Well in Udaipur",
+    quote: "Despite its size, Udaipur manages to feel {SMALL_TOWN_QUALITY}, which is rare and wonderful.",
+    author: "Claire Fox",
+    title: "From Newcomer to Local in Udaipur",
     city: "Udaipur",
-    rating: 4.8,
-    date: "2025-12-26"
+    rating: 4.4,
+    date: "2024-12-21"
   },
   {
     id: "city-testimonial-udaipur-2",
-    quote: "After 18 years as a Udaipur local, I still appreciate the community events that makes this place special.",
-    author: "Sophia Lawson",
-    title: "Udaipur: More Than Just a Place",
+    quote: "One of the best things about living in Udaipur is the {ACCESSIBILITY_FEATURE}—it makes everything so convenient.",
+    author: "Ahmed Jansen",
+    title: "The Neighborhoods That Make Udaipur Home",
     city: "Udaipur",
-    rating: 4.5,
-    date: "2024-04-16"
+    rating: 4.2,
+    date: "2024-06-06"
   },
   {
     id: "city-testimonial-udaipur-3",
-    quote: "The historical significance of Udaipur adds a depth to daily life that I truly cherish.",
-    author: "Michael Carter",
-    title: "What I Love About Living in Udaipur",
+    quote: "Udaipur's cultural heritage scene has become central to my life here. I couldn't imagine living without it now.",
+    author: "Kevin Stewart",
+    title: "Living and Thriving in Udaipur",
     city: "Udaipur",
     rating: 4.2,
-    date: "2025-10-08"
+    date: "2023-02-14"
   },
   {
     id: "city-testimonial-udaipur-4",
-    quote: "Udaipur has been my home for established, and the senior citizen groups here is what keeps me rooted.",
-    author: "Bella Price",
-    title: "A Resident's Guide to Living Well in Udaipur",
-    city: "Udaipur",
-    rating: 4.2,
-    date: "2025-10-26"
-  },
-  {
-    id: "city-testimonial-udaipur-5",
-    quote: "Living in Udaipur has opened my eyes to {PERSONAL_GROWTH_ASPECT} that I never expected.",
-    author: "Linda Hudson",
-    title: "Finding Balance in Udaipur",
-    city: "Udaipur",
-    rating: 4.7,
-    date: "2025-07-07"
-  },
-  {
-    id: "city-testimonial-udaipur-6",
-    quote: "The historic neighborhoods in Udaipur each have their own character, which keeps life interesting year after year.",
-    author: "Pamela Hudson",
-    title: "Why I’m Proud to Call Udaipur Home",
-    city: "Udaipur",
-    rating: 4.7,
-    date: "2025-08-19"
-  },
-  {
-    id: "city-testimonial-udaipur-7",
-    quote: "What really surprised me about Udaipur is its {DIVERSITY_FEATURE} — it’s a true melting pot.",
-    author: "Lucas Dubois",
+    quote: "I love how Udaipur celebrates {FESTIVAL_OR_EVENT}, it brings so much joy and community spirit.",
+    author: "Emma Montgomery",
     title: "The Beauty of Everyday Life in Udaipur",
     city: "Udaipur",
     rating: 4.4,
-    date: "2025-10-23"
+    date: "2025-05-04"
+  },
+  {
+    id: "city-testimonial-udaipur-5",
+    quote: "One of my favorite parts about living in Udaipur is the {MARKET_OR_SHOPPING_FEATURE} just around the corner.",
+    author: "Timothy Dixon",
+    title: "The True Character of Udaipur",
+    city: "Udaipur",
+    rating: 4.3,
+    date: "2024-01-12"
+  },
+  {
+    id: "city-testimonial-udaipur-6",
+    quote: "The food scene in Udaipur is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
+    author: "Ibrahim Spencer",
+    title: "Life in Udaipur: A Local Perspective",
+    city: "Udaipur",
+    rating: 4.1,
+    date: "2024-03-11"
   }
 ];

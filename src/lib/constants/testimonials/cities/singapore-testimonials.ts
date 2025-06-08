@@ -1,88 +1,99 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Singapore
+// Generated on 2025-06-08T04:09:38.622Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const singaporeTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-singapore-1",
-    quote: "The cost of living in Singapore is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
-    author: "Elena Porter",
-    title: "A Love Letter to Singapore",
+    quote: "Singapore's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
+    author: "Hassan Hall",
+    title: "My Singapore Story: Life as a Resident",
     city: "Singapore",
     rating: 4.6,
-    date: "2023-04-27"
+    date: "2025-06-02"
   },
   {
     id: "city-testimonial-singapore-2",
-    quote: "The balance of artistic expression and practical living in Singapore creates a quality of life that's hard to find elsewhere.",
-    author: "Russell Dunn",
-    title: "Singapore: More Than Just a Place",
+    quote: "Singapore's dance scene has become central to my life here. I couldn't imagine living without it now.",
+    author: "Austin Garcia",
+    title: "The Beauty of Everyday Life in Singapore",
     city: "Singapore",
     rating: 4.9,
-    date: "2025-12-13"
+    date: "2023-11-20"
   },
   {
     id: "city-testimonial-singapore-3",
-    quote: "What I love most about living in Singapore is the riverside parks. It creates such a unique atmosphere that feels like home.",
-    author: "Michelle Hunter",
-    title: "The Community Spirit That Defines Singapore",
+    quote: "The historical significance of Singapore adds a depth to daily life that I truly cherish.",
+    author: "Victor Fox",
+    title: "Living and Thriving in Singapore",
     city: "Singapore",
-    rating: 4.1,
-    date: "2024-09-25"
+    rating: 4.6,
+    date: "2023-08-03"
   },
   {
     id: "city-testimonial-singapore-4",
-    quote: "I came to Singapore for work but stayed for the food scene. Best decision I ever made.",
-    author: "Ashley Coleman",
-    title: "Singapore: Where I Found My Community",
+    quote: "The winter café coziness in Singapore is something I look forward to every year. It's what makes living here magical.",
+    author: "Russell West",
+    title: "Why I’m Proud to Call Singapore Home",
     city: "Singapore",
-    rating: 4.1,
-    date: "2025-10-28"
+    rating: 4.2,
+    date: "2024-10-24"
   },
   {
     id: "city-testimonial-singapore-5",
-    quote: "I've found that Singapore's {TRANSPORT_FEATURE} really makes getting around effortless and enjoyable.",
-    author: "Genesis Collins",
-    title: "A Love Letter to Singapore",
+    quote: "The art and creativity flowing through Singapore is inspiring. It feels like living inside a masterpiece.",
+    author: "Dylan Price",
+    title: "What Makes Singapore Special to Live In",
     city: "Singapore",
-    rating: 4.2,
-    date: "2023-09-06"
+    rating: 4.1,
+    date: "2024-06-16"
   },
   {
     id: "city-testimonial-singapore-6",
-    quote: "Raising my family in Singapore gives us access to supportive community, which is truly invaluable.",
-    author: "Priya Fisher",
-    title: "How Singapore Changed My Life",
+    quote: "The established neighborhoods in Singapore each have their own character, which keeps life interesting year after year.",
+    author: "Sebastian Fletcher",
+    title: "A Resident's Guide to Living Well in Singapore",
     city: "Singapore",
-    rating: 4.2,
-    date: "2023-03-25"
+    rating: 4.4,
+    date: "2023-10-04"
   },
   {
     id: "city-testimonial-singapore-7",
-    quote: "If you want a city that offers {LIFESTYLE_BENEFIT}, Singapore is the place to be.",
-    author: "Tyler Gibson",
-    title: "What Makes Singapore Feel Like Family",
+    quote: "Singapore has been my home for recent but committed, and the community gardeners here is what keeps me rooted.",
+    author: "Jessica Silva",
+    title: "What I Love About Living in Singapore",
     city: "Singapore",
-    rating: 4.7,
-    date: "2024-10-16"
+    rating: 4.9,
+    date: "2024-11-14"
   },
   {
     id: "city-testimonial-singapore-8",
-    quote: "I came to Singapore for work but stayed for the sense of community. Best decision I ever made.",
-    author: "James Fisher",
-    title: "What I Love About Living in Singapore",
+    quote: "Living in Singapore has opened my eyes to {PERSONAL_GROWTH_ASPECT} that I never expected.",
+    author: "Lily Johnson",
+    title: "The Soul of Singapore: A Local's View",
     city: "Singapore",
-    rating: 4.4,
-    date: "2023-08-26"
+    rating: 4.1,
+    date: "2023-10-13"
   },
   {
     id: "city-testimonial-singapore-9",
-    quote: "After moving to Singapore 20 years ago, I fell in love with the balanced lifestyle of this place. It's truly special.",
-    author: "Mateo Williams",
-    title: "Why Singapore Keeps Getting Better",
+    quote: "The {GREEN_SPACES} in Singapore offer a perfect escape from the urban buzz without leaving the city limits.",
+    author: "Abigail Gibson",
+    title: "The Neighborhoods That Make Singapore Home",
     city: "Singapore",
-    rating: 4.1,
-    date: "2023-07-05"
+    rating: 4.8,
+    date: "2024-05-23"
+  },
+  {
+    id: "city-testimonial-singapore-10",
+    quote: "What most people don't realize about living in Singapore is how quiet it actually is. I've found my true home here.",
+    author: "Christopher Williams",
+    title: "What Makes Singapore Uniquely Livable",
+    city: "Singapore",
+    rating: 4.2,
+    date: "2024-09-02"
   }
 ];

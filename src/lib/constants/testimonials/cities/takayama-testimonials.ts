@@ -1,70 +1,63 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Takayama
+// Generated on 2025-06-08T04:09:38.710Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const takayamaTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-takayama-1",
-    quote: "Every weekend in Takayama brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
-    author: "Lucas Graham",
-    title: "How Takayama Balances Tradition and Innovation",
+    quote: "What I love most about living in Takayama is the urban murals and street art. It creates such a unique atmosphere that feels like home.",
+    author: "Amy Fletcher",
+    title: "The Everyday Magic of Takayama",
     city: "Takayama",
-    rating: 5,
-    date: "2024-05-19"
+    rating: 4.6,
+    date: "2024-10-12"
   },
   {
     id: "city-testimonial-takayama-2",
-    quote: "Despite its size, Takayama manages to feel {SMALL_TOWN_QUALITY}, which is rare and wonderful.",
-    author: "Gabriel Hernandez",
-    title: "A Resident's Guide to Living Well in Takayama",
+    quote: "Takayama has been my home for third-generation, and the film enthusiasts here is what keeps me rooted.",
+    author: "Riley Sutton",
+    title: "The Heartbeat of Takayama Life",
     city: "Takayama",
-    rating: 4.2,
-    date: "2024-04-25"
+    rating: 4.3,
+    date: "2024-05-21"
   },
   {
     id: "city-testimonial-takayama-3",
-    quote: "I've found that Takayama's {TRANSPORT_FEATURE} really makes getting around effortless and enjoyable.",
-    author: "Carl Morgan",
-    title: "Discovering Home in Takayama",
+    quote: "After moving to Takayama 12 years ago, I fell in love with the community spirit of this place. It's truly special.",
+    author: "Mia Hernandez",
+    title: "The Unexpected Joys of Takayama Living",
     city: "Takayama",
-    rating: 4.3,
-    date: "2024-11-13"
+    rating: 4.5,
+    date: "2024-12-22"
   },
   {
     id: "city-testimonial-takayama-4",
-    quote: "Community events and festivals in Takayama bring everyone together, making the {COMMUNITY_ASPECT} really stand out.",
-    author: "Genesis Lawson",
-    title: "Why I Chose Takayama as Home",
+    quote: "After moving to Takayama 2 years ago, I fell in love with the culinary diversity of this place. It's truly special.",
+    author: "Jennifer Mason",
+    title: "From Newcomer to Local in Takayama",
     city: "Takayama",
-    rating: 4.1,
-    date: "2023-11-23"
+    rating: 4.9,
+    date: "2025-07-19"
   },
   {
     id: "city-testimonial-takayama-5",
-    quote: "I appreciate how Takayama balances {TECH_INNOVATION} with historic charm perfectly.",
-    author: "Maria Hernandez",
-    title: "What I Love About Living in Takayama",
+    quote: "Takayama's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
+    author: "Priya Hawkins",
+    title: "Uncovering the Layers of Takayama",
     city: "Takayama",
-    rating: 4.8,
-    date: "2025-06-18"
+    rating: 4.5,
+    date: "2023-05-09"
   },
   {
     id: "city-testimonial-takayama-6",
-    quote: "After 18 years as a Takayama local, I still appreciate the hidden courtyards that makes this place special.",
-    author: "Margaret Henderson",
-    title: "Takayama: Where I Found My Community",
+    quote: "The working-class neighborhoods in Takayama each have their own character, which keeps life interesting year after year.",
+    author: "Isabella Lawson",
+    title: "What Makes Takayama Special to Live In",
     city: "Takayama",
-    rating: 4.6,
-    date: "2025-06-28"
-  },
-  {
-    id: "city-testimonial-takayama-7",
-    quote: "If you want a city that offers {LIFESTYLE_BENEFIT}, Takayama is the place to be.",
-    author: "Gerald Moore",
-    title: "The Everyday Magic of Takayama",
-    city: "Takayama",
-    rating: 4.9,
-    date: "2024-10-16"
+    rating: 4.1,
+    date: "2025-01-03"
   }
 ];

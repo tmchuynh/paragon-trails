@@ -1,61 +1,63 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Mexico City
+// Generated on 2025-06-08T04:09:38.706Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const mexicocityTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-mexico-city-1",
-    quote: "The art and creativity flowing through Mexico City is inspiring. It feels like living inside a masterpiece.",
-    author: "Peter Hernandez",
-    title: "Why I Chose Mexico City as Home",
+    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Mexico City make daily life convenient and stress-free.",
+    author: "Fatima Lawson",
+    title: "Uncovering the Layers of Mexico City",
     city: "Mexico City",
-    rating: 4.8,
-    date: "2024-11-08"
+    rating: 4.2,
+    date: "2023-06-18"
   },
   {
     id: "city-testimonial-mexico-city-2",
-    quote: "Living in Mexico City has allowed me to connect deeply with {NATURE_FEATURE} nearby.",
-    author: "Robert Edwards",
-    title: "The Beauty of Everyday Life in Mexico City",
+    quote: "What really surprised me about Mexico City is its {DIVERSITY_FEATURE} — it’s a true melting pot.",
+    author: "Mary Thomas",
+    title: "Uncovering the Layers of Mexico City",
     city: "Mexico City",
-    rating: 4.5,
-    date: "2025-12-16"
+    rating: 4.6,
+    date: "2023-01-15"
   },
   {
     id: "city-testimonial-mexico-city-3",
-    quote: "One thing I didn’t expect when moving to Mexico City was the {WEATHER_FEATURE}—it’s truly refreshing.",
-    author: "Mason Singh",
-    title: "Why Mexico City Feels Like Home",
+    quote: "What most people don't realize about living in Mexico City is how resilient it actually is. I've found my true home here.",
+    author: "Joan Foster",
+    title: "A Resident's Guide to Living Well in Mexico City",
     city: "Mexico City",
-    rating: 4.1,
-    date: "2023-08-25"
+    rating: 4.7,
+    date: "2023-12-18"
   },
   {
     id: "city-testimonial-mexico-city-4",
-    quote: "No two days are the same living in Mexico City. The {DYNAMIC_ASPECT} keeps me excited to wake up every morning.",
-    author: "Larry Wallace",
-    title: "Why Mexico City Keeps Getting Better",
+    quote: "Raising my family in Mexico City gives us access to family-friendly activities, which is truly invaluable.",
+    author: "Antonio Wright",
+    title: "Mexico City's Hidden Treasures for Locals",
     city: "Mexico City",
-    rating: 4.7,
-    date: "2024-02-25"
+    rating: 4.1,
+    date: "2023-07-18"
   },
   {
     id: "city-testimonial-mexico-city-5",
-    quote: "What I tell friends considering moving to Mexico City is to appreciate the informal music venues—it's what makes daily life here so rich.",
-    author: "Isabella Anderson",
-    title: "Living Sustainably in Mexico City",
+    quote: "Living in Mexico City has opened my eyes to {PERSONAL_GROWTH_ASPECT} that I never expected.",
+    author: "Abigail Jones",
+    title: "The Neighborhoods That Make Mexico City Home",
     city: "Mexico City",
-    rating: 4.2,
-    date: "2024-09-15"
+    rating: 4.8,
+    date: "2025-07-09"
   },
   {
     id: "city-testimonial-mexico-city-6",
-    quote: "What I tell friends considering moving to Mexico City is to appreciate the underground clubs—it's what makes daily life here so rich.",
-    author: "Juan Campbell",
-    title: "The Community Spirit That Defines Mexico City",
+    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Mexico City make daily life convenient and stress-free.",
+    author: "Ellie Crawford",
+    title: "The Joys of Slow Living in Mexico City",
     city: "Mexico City",
-    rating: 4.7,
-    date: "2024-04-08"
+    rating: 4.2,
+    date: "2024-08-25"
   }
 ];

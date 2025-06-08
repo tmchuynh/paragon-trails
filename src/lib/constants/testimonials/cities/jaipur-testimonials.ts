@@ -1,70 +1,72 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Jaipur
+// Generated on 2025-06-08T04:09:38.705Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const jaipurTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-jaipur-1",
-    quote: "Community events and festivals in Jaipur bring everyone together, making the {COMMUNITY_ASPECT} really stand out.",
-    author: "Maya Hudson",
-    title: "Why Jaipur Keeps Getting Better",
+    quote: "The cost of living in Jaipur is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
+    author: "Olivia Hernandez",
+    title: "The Neighborhoods That Make Jaipur Home",
     city: "Jaipur",
-    rating: 4.6,
-    date: "2024-09-01"
+    rating: 4.4,
+    date: "2025-11-23"
   },
   {
     id: "city-testimonial-jaipur-2",
-    quote: "Jaipur has been my home for established, and the literary circles here is what keeps me rooted.",
-    author: "Arthur Douglas",
+    quote: "The winter holiday markets in Jaipur is something I look forward to every year. It's what makes living here magical.",
+    author: "Sofia Wilson",
     title: "Discovering Home in Jaipur",
     city: "Jaipur",
-    rating: 4.1,
-    date: "2024-08-23"
+    rating: 4,
+    date: "2025-09-04"
   },
   {
     id: "city-testimonial-jaipur-3",
-    quote: "The sense of {SAFETY} in Jaipur makes me feel comfortable raising my kids here.",
-    author: "Darrell Ellis",
-    title: "Stories From the Streets of Jaipur",
+    quote: "The people of Jaipur are incredibly welcoming and have made me feel at home since day one.",
+    author: "Noah Clark",
+    title: "The Real Jaipur Experience",
     city: "Jaipur",
-    rating: 4.3,
-    date: "2025-12-21"
+    rating: 4.5,
+    date: "2024-11-17"
   },
   {
     id: "city-testimonial-jaipur-4",
-    quote: "The beach access in Jaipur makes everyday life feel like an adventure. I've been here 6 years and still discover new things.",
-    author: "Laura Dunn",
-    title: "The Perfect Imperfections of Jaipur",
+    quote: "I love how Jaipur celebrates {FESTIVAL_OR_EVENT}, it brings so much joy and community spirit.",
+    author: "Bryan Lewis",
+    title: "Finding Balance in Jaipur",
     city: "Jaipur",
-    rating: 4.7,
-    date: "2024-10-04"
+    rating: 4.2,
+    date: "2025-02-02"
   },
   {
     id: "city-testimonial-jaipur-5",
-    quote: "The historical significance of Jaipur adds a depth to daily life that I truly cherish.",
-    author: "Gerald Reed",
-    title: "The Beauty of Everyday Life in Jaipur",
+    quote: "Jaipur's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
+    author: "Joseph Hudson",
+    title: "What Makes Jaipur Special to Live In",
     city: "Jaipur",
-    rating: 4.4,
-    date: "2024-12-13"
+    rating: 5,
+    date: "2024-06-01"
   },
   {
     id: "city-testimonial-jaipur-6",
-    quote: "Living in Jaipur has opened my eyes to {PERSONAL_GROWTH_ASPECT} that I never expected.",
-    author: "Nora Stewart",
-    title: "Why I’m Proud to Call Jaipur Home",
+    quote: "One of the best things about living in Jaipur is the {ACCESSIBILITY_FEATURE}—it makes everything so convenient.",
+    author: "Daniel Fox",
+    title: "Jaipur's Hidden Treasures for Locals",
     city: "Jaipur",
-    rating: 4.8,
-    date: "2024-02-07"
+    rating: 4.2,
+    date: "2024-11-04"
   },
   {
     id: "city-testimonial-jaipur-7",
-    quote: "The historical significance of Jaipur adds a depth to daily life that I truly cherish.",
-    author: "Benjamin Payne",
-    title: "What Makes Jaipur Feel Like Family",
+    quote: "Jaipur's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
+    author: "Eleanor Palmer",
+    title: "Jaipur Through a Resident's Eyes",
     city: "Jaipur",
-    rating: 4.9,
-    date: "2023-03-04"
+    rating: 4.5,
+    date: "2024-02-03"
   }
 ];

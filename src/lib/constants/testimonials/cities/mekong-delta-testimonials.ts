@@ -1,97 +1,72 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Mekong Delta
+// Generated on 2025-06-08T04:09:38.706Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const mekongdeltaTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-mekong-delta-1",
-    quote: "What I love most about living in Mekong Delta is the theater district. It creates such a unique atmosphere that feels like home.",
-    author: "Benjamin Sutton",
-    title: "Mekong Delta Through a Resident's Eyes",
+    quote: "Mekong Delta's coffee scene has become central to my life here. I couldn't imagine living without it now.",
+    author: "Russell Wilson",
+    title: "What Makes Mekong Delta Special to Live In",
     city: "Mekong Delta",
-    rating: 4.7,
-    date: "2025-03-18"
+    rating: 4.3,
+    date: "2025-04-10"
   },
   {
     id: "city-testimonial-mekong-delta-2",
-    quote: "Every weekend in Mekong Delta brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
-    author: "Carlos Hunter",
-    title: "Inside the Culture of Mekong Delta",
+    quote: "Living in Mekong Delta has opened my eyes to {PERSONAL_GROWTH_ASPECT} that I never expected.",
+    author: "Betty Wright",
+    title: "The Joys of Slow Living in Mekong Delta",
     city: "Mekong Delta",
-    rating: 4.5,
-    date: "2025-03-24"
+    rating: 4.8,
+    date: "2023-06-06"
   },
   {
     id: "city-testimonial-mekong-delta-3",
-    quote: "Community events and festivals in Mekong Delta bring everyone together, making the {COMMUNITY_ASPECT} really stand out.",
-    author: "Dennis Ali",
-    title: "Inside the Culture of Mekong Delta",
+    quote: "If you want a city that offers {LIFESTYLE_BENEFIT}, Mekong Delta is the place to be.",
+    author: "Carl Ivanov",
+    title: "Mekong Delta: A City That Grows With You",
     city: "Mekong Delta",
-    rating: 5,
-    date: "2023-11-19"
+    rating: 4.5,
+    date: "2025-03-22"
   },
   {
     id: "city-testimonial-mekong-delta-4",
-    quote: "As someone who's lived in many cities, I can say that Mekong Delta's cultural preservation is unmatched anywhere else.",
-    author: "Layla Davis",
-    title: "Mekong Delta: Where I Found My Community",
+    quote: "No two days are the same living in Mekong Delta. The {DYNAMIC_ASPECT} keeps me excited to wake up every morning.",
+    author: "Jerry Marshall",
+    title: "Mekong Delta: Beyond the Tourist Experience",
     city: "Mekong Delta",
-    rating: 4.5,
-    date: "2023-03-27"
+    rating: 4.6,
+    date: "2024-03-15"
   },
   {
     id: "city-testimonial-mekong-delta-5",
-    quote: "The people of Mekong Delta are incredibly welcoming and have made me feel at home since day one.",
-    author: "Juan Hayes",
-    title: "The Perfect Imperfections of Mekong Delta",
+    quote: "Mekong Delta isn't just where I live—it's part of my identity now. The tranquil retreats has shaped who I am.",
+    author: "Mark Bennett",
+    title: "Mekong Delta: More Than Just a Place",
     city: "Mekong Delta",
-    rating: 4.4,
-    date: "2023-10-24"
+    rating: 4.3,
+    date: "2023-09-03"
   },
   {
     id: "city-testimonial-mekong-delta-6",
     quote: "Mekong Delta's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
-    author: "Fatima Moore",
-    title: "Mekong Delta: Beyond the Tourist Experience",
+    author: "Priya Taylor",
+    title: "Mekong Delta: A City That Grows With You",
     city: "Mekong Delta",
-    rating: 4.8,
-    date: "2024-08-05"
+    rating: 4.6,
+    date: "2024-10-03"
   },
   {
     id: "city-testimonial-mekong-delta-7",
-    quote: "One thing I didn’t expect when moving to Mekong Delta was the {WEATHER_FEATURE}—it’s truly refreshing.",
-    author: "Albert Wallace",
-    title: "Life in Mekong Delta: A Local Perspective",
+    quote: "The {GREEN_SPACES} in Mekong Delta offer a perfect escape from the urban buzz without leaving the city limits.",
+    author: "Harry Lee",
+    title: "Mekong Delta: Beyond the Tourist Experience",
     city: "Mekong Delta",
-    rating: 4.8,
-    date: "2025-04-03"
-  },
-  {
-    id: "city-testimonial-mekong-delta-8",
-    quote: "Every weekend in Mekong Delta brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
-    author: "Olivia Suzuki",
-    title: "Inside the Culture of Mekong Delta",
-    city: "Mekong Delta",
-    rating: 4.5,
-    date: "2023-06-20"
-  },
-  {
-    id: "city-testimonial-mekong-delta-9",
-    quote: "Mekong Delta's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
-    author: "Lucas Chambers",
-    title: "The Real Mekong Delta Experience",
-    city: "Mekong Delta",
-    rating: 4.3,
-    date: "2023-06-07"
-  },
-  {
-    id: "city-testimonial-mekong-delta-10",
-    quote: "Living here means being a part of Mekong Delta's ongoing story of innovation and tradition.",
-    author: "Allison Morgan",
-    title: "Living and Thriving in Mekong Delta",
-    city: "Mekong Delta",
-    rating: 4.6,
-    date: "2024-03-02"
+    rating: 4.7,
+    date: "2023-07-25"
   }
 ];

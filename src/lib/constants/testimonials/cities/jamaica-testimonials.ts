@@ -1,79 +1,63 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Jamaica
+// Generated on 2025-06-08T04:09:38.705Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const jamaicaTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-jamaica-1",
-    quote: "What I tell friends considering moving to Jamaica is to appreciate the volunteer opportunities—it's what makes daily life here so rich.",
-    author: "Lucas Kowalski",
-    title: "Why I’m Proud to Call Jamaica Home",
+    quote: "After moving to Jamaica 30 years ago, I fell in love with the welcoming nature of this place. It's truly special.",
+    author: "Susan Campbell",
+    title: "The Challenges and Charms of Living in Jamaica",
     city: "Jamaica",
-    rating: 5,
-    date: "2023-03-01"
+    rating: 4.8,
+    date: "2023-05-08"
   },
   {
     id: "city-testimonial-jamaica-2",
-    quote: "The heritage museums in Jamaica makes everyday life feel like an adventure. I've been here 18 years and still discover new things.",
-    author: "John Johnson",
-    title: "Finding Inspiration Every Day in Jamaica",
+    quote: "The winter fireside gatherings in Jamaica is something I look forward to every year. It's what makes living here magical.",
+    author: "Gary Sutton",
+    title: "Inside the Culture of Jamaica",
     city: "Jamaica",
-    rating: 4.8,
-    date: "2023-10-16"
+    rating: 4.4,
+    date: "2024-11-26"
   },
   {
     id: "city-testimonial-jamaica-3",
-    quote: "Living in Jamaica means I get to enjoy {SPORTS_OR_OUTDOOR_ACTIVITY} year-round.",
-    author: "Rachel Edwards",
-    title: "How Jamaica Balances Tradition and Innovation",
+    quote: "Jamaica's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
+    author: "Julie Miller",
+    title: "What Makes Jamaica Feel Like Family",
     city: "Jamaica",
-    rating: 4.6,
-    date: "2024-03-18"
+    rating: 4.3,
+    date: "2024-01-10"
   },
   {
     id: "city-testimonial-jamaica-4",
-    quote: "As a recent but committed resident of Jamaica, I can't imagine living anywhere else. The creative workshops here is something you can't find elsewhere.",
-    author: "Evelyn Martin",
-    title: "Jamaica: A City That Grows With You",
+    quote: "The {GREEN_SPACES} in Jamaica offer a perfect escape from the urban buzz without leaving the city limits.",
+    author: "Brooklyn Coleman",
+    title: "Finding Balance in Jamaica",
     city: "Jamaica",
     rating: 4.4,
-    date: "2024-04-26"
+    date: "2025-01-01"
   },
   {
     id: "city-testimonial-jamaica-5",
-    quote: "From my apartment in Jamaica, I can enjoy waterfront dining. Where else could you do that?",
-    author: "Zachary Cooper",
-    title: "A Resident's Guide to Living Well in Jamaica",
+    quote: "I came to Jamaica for work but stayed for the educational system. Best decision I ever made.",
+    author: "Gabriel Carpenter",
+    title: "Uncovering the Layers of Jamaica",
     city: "Jamaica",
-    rating: 4.3,
-    date: "2025-01-05"
+    rating: 4.5,
+    date: "2024-02-02"
   },
   {
     id: "city-testimonial-jamaica-6",
-    quote: "What I tell friends considering moving to Jamaica is to appreciate the local theaters—it's what makes daily life here so rich.",
-    author: "Aaliyah Rossi",
-    title: "Jamaica: A City That Grows With You",
-    city: "Jamaica",
-    rating: 4.1,
-    date: "2023-09-26"
-  },
-  {
-    id: "city-testimonial-jamaica-7",
-    quote: "If you want a city that offers {LIFESTYLE_BENEFIT}, Jamaica is the place to be.",
-    author: "Aria Morales",
-    title: "Jamaica: Beyond the Tourist Experience",
-    city: "Jamaica",
-    rating: 4.3,
-    date: "2025-01-18"
-  },
-  {
-    id: "city-testimonial-jamaica-8",
-    quote: "Living in Jamaica has opened my eyes to {PERSONAL_GROWTH_ASPECT} that I never expected.",
-    author: "Catherine Fisher",
-    title: "Uncovering the Layers of Jamaica",
+    quote: "As someone who's lived in many cities, I can say that Jamaica's walkability is unmatched anywhere else.",
+    author: "Blake Curtis",
+    title: "Jamaica Living: Worth Every Moment",
     city: "Jamaica",
     rating: 4.2,
-    date: "2023-05-09"
+    date: "2025-03-10"
   }
 ];

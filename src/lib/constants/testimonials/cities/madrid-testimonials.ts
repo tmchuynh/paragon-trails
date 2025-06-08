@@ -1,79 +1,72 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Madrid
+// Generated on 2025-06-08T04:09:38.706Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const madridTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-madrid-1",
-    quote: "What really surprised me about Madrid is its {DIVERSITY_FEATURE} — it’s a true melting pot.",
-    author: "Chen Young",
-    title: "How Madrid Balances Tradition and Innovation",
+    quote: "Raising my family in Madrid gives us access to family-oriented events, which is truly invaluable.",
+    author: "Randy Dean",
+    title: "Why Madrid Keeps Getting Better",
     city: "Madrid",
-    rating: 4.6,
-    date: "2023-02-16"
+    rating: 4.9,
+    date: "2023-04-14"
   },
   {
     id: "city-testimonial-madrid-2",
-    quote: "Living in Madrid means being surrounded by quiet residential streets, which feeds my soul every day.",
-    author: "Barbara Chen",
-    title: "The Perfect Imperfections of Madrid",
+    quote: "Living in Madrid means being surrounded by open-air markets, which feeds my soul every day.",
+    author: "Ronald Dunn",
+    title: "The Real Madrid Experience",
     city: "Madrid",
-    rating: 4.8,
-    date: "2024-03-23"
+    rating: 4.3,
+    date: "2024-03-07"
   },
   {
     id: "city-testimonial-madrid-3",
-    quote: "The sense of {SAFETY} in Madrid makes me feel comfortable raising my kids here.",
-    author: "Nicole Henderson",
-    title: "What Makes Madrid Uniquely Livable",
+    quote: "One of the best things about living in Madrid is the {ACCESSIBILITY_FEATURE}—it makes everything so convenient.",
+    author: "Valentina Keller",
+    title: "Madrid Through a Resident's Eyes",
     city: "Madrid",
-    rating: 4.6,
-    date: "2023-11-03"
+    rating: 4.4,
+    date: "2024-09-26"
   },
   {
     id: "city-testimonial-madrid-4",
-    quote: "The art and creativity flowing through Madrid is inspiring. It feels like living inside a masterpiece.",
-    author: "Priya Foster",
-    title: "The Unexpected Joys of Madrid Living",
+    quote: "I appreciate how Madrid balances {TECH_INNOVATION} with historic charm perfectly.",
+    author: "Michael Reed",
+    title: "What I Love About Living in Madrid",
     city: "Madrid",
-    rating: 4.7,
-    date: "2024-01-22"
+    rating: 4.4,
+    date: "2025-11-03"
   },
   {
     id: "city-testimonial-madrid-5",
-    quote: "No two days are the same living in Madrid. The {DYNAMIC_ASPECT} keeps me excited to wake up every morning.",
-    author: "Philip White",
-    title: "Why Madrid Keeps Getting Better",
+    quote: "The cost of living in Madrid is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
+    author: "Aaliyah Palmer",
+    title: "The Vibrant Life of Madrid Residents",
     city: "Madrid",
-    rating: 4.2,
-    date: "2023-09-02"
+    rating: 4.7,
+    date: "2024-06-03"
   },
   {
     id: "city-testimonial-madrid-6",
-    quote: "If you want a city that offers {LIFESTYLE_BENEFIT}, Madrid is the place to be.",
-    author: "Gabriella Bennett",
-    title: "Living Sustainably in Madrid",
+    quote: "After 18 years as a Madrid local, I still appreciate the bike-friendly streets that makes this place special.",
+    author: "Vincent Bennett",
+    title: "The Challenges and Charms of Living in Madrid",
     city: "Madrid",
-    rating: 4.9,
-    date: "2025-11-25"
+    rating: 4.6,
+    date: "2023-03-08"
   },
   {
     id: "city-testimonial-madrid-7",
-    quote: "I've found that Madrid's {TRANSPORT_FEATURE} really makes getting around effortless and enjoyable.",
-    author: "Caroline Fox",
-    title: "Why I Chose Madrid as Home",
+    quote: "The commercial neighborhoods in Madrid each have their own character, which keeps life interesting year after year.",
+    author: "Lucas Hall",
+    title: "The Vibrant Life of Madrid Residents",
     city: "Madrid",
-    rating: 4.9,
-    date: "2025-08-19"
-  },
-  {
-    id: "city-testimonial-madrid-8",
-    quote: "The food scene in Madrid is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
-    author: "Brenda Henderson",
-    title: "How Madrid Changed My Life",
-    city: "Madrid",
-    rating: 4.4,
-    date: "2024-06-23"
+    rating: 4.8,
+    date: "2024-10-23"
   }
 ];

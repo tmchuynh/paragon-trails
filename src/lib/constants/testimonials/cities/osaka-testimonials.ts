@@ -1,97 +1,72 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Osaka
+// Generated on 2025-06-08T04:09:38.707Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const osakaTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-osaka-1",
-    quote: "No two days are the same living in Osaka. The {DYNAMIC_ASPECT} keeps me excited to wake up every morning.",
-    author: "Fatima Lopez",
-    title: "The Challenges and Charms of Living in Osaka",
+    quote: "The balance of local community and global perspective in Osaka creates a quality of life that's hard to find elsewhere.",
+    author: "Victoria Reed",
+    title: "How Osaka Changed My Life",
     city: "Osaka",
-    rating: 4.5,
-    date: "2023-10-15"
+    rating: 4.7,
+    date: "2025-11-02"
   },
   {
     id: "city-testimonial-osaka-2",
-    quote: "What I tell friends considering moving to Osaka is to appreciate the historic preservation—it's what makes daily life here so rich.",
-    author: "Elijah Jackson",
-    title: "What Makes Osaka Uniquely Livable",
+    quote: "No two days are the same living in Osaka. The {DYNAMIC_ASPECT} keeps me excited to wake up every morning.",
+    author: "Virginia Maxwell",
+    title: "The Vibrant Life of Osaka Residents",
     city: "Osaka",
     rating: 4.3,
-    date: "2023-08-25"
+    date: "2023-02-28"
   },
   {
     id: "city-testimonial-osaka-3",
-    quote: "What most people don't realize about living in Osaka is how adaptable it actually is. I've found my true home here.",
-    author: "Aria Henderson",
-    title: "Why Osaka Feels Like Home",
+    quote: "After 8 years as a Osaka local, I still appreciate the community gardens that makes this place special.",
+    author: "Eugene Bennett",
+    title: "Inside the Culture of Osaka",
     city: "Osaka",
-    rating: 4.3,
-    date: "2024-07-05"
+    rating: 4.7,
+    date: "2025-02-27"
   },
   {
     id: "city-testimonial-osaka-4",
-    quote: "Despite its size, Osaka manages to feel {SMALL_TOWN_QUALITY}, which is rare and wonderful.",
-    author: "Joseph Nakamura",
-    title: "Living Sustainably in Osaka",
+    quote: "The mix of old and new in Osaka's architecture and culture keeps the city feeling fresh yet grounded.",
+    author: "Jane Marshall",
+    title: "Osaka: Where I Found My Community",
     city: "Osaka",
-    rating: 4.7,
-    date: "2025-08-09"
+    rating: 4.8,
+    date: "2023-02-27"
   },
   {
     id: "city-testimonial-osaka-5",
-    quote: "Every weekend in Osaka brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
-    author: "Virginia Russell",
-    title: "Inside the Culture of Osaka",
+    quote: "I came to Osaka for work but stayed for the economic opportunities. Best decision I ever made.",
+    author: "Elena Nakamura",
+    title: "The True Character of Osaka",
     city: "Osaka",
-    rating: 4.4,
-    date: "2023-10-13"
+    rating: 4.7,
+    date: "2023-09-03"
   },
   {
     id: "city-testimonial-osaka-6",
-    quote: "I love how Osaka celebrates {FESTIVAL_OR_EVENT}, it brings so much joy and community spirit.",
-    author: "Chloe Hamilton",
-    title: "Inside the Culture of Osaka",
+    quote: "Every weekend in Osaka brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
+    author: "Sarah Wilson",
+    title: "The Neighborhoods That Make Osaka Home",
     city: "Osaka",
-    rating: 4.7,
-    date: "2023-02-05"
+    rating: 4.1,
+    date: "2024-11-01"
   },
   {
     id: "city-testimonial-osaka-7",
-    quote: "The art and creativity flowing through Osaka is inspiring. It feels like living inside a masterpiece.",
-    author: "Oliver Garcia",
+    quote: "Osaka's architectural scene has become central to my life here. I couldn't imagine living without it now.",
+    author: "Elizabeth Anderson",
     title: "The Soul of Osaka: A Local's View",
     city: "Osaka",
-    rating: 4.3,
-    date: "2024-05-13"
-  },
-  {
-    id: "city-testimonial-osaka-8",
-    quote: "From my apartment in Osaka, I can enjoy waterfront dining. Where else could you do that?",
-    author: "Anna Nguyen",
-    title: "The Soul of Osaka: A Local's View",
-    city: "Osaka",
-    rating: 4.9,
-    date: "2024-10-07"
-  },
-  {
-    id: "city-testimonial-osaka-9",
-    quote: "The gentrifying neighborhoods in Osaka each have their own character, which keeps life interesting year after year.",
-    author: "Olivia Hernandez",
-    title: "Finding Inspiration Every Day in Osaka",
-    city: "Osaka",
-    rating: 4.1,
-    date: "2025-02-07"
-  },
-  {
-    id: "city-testimonial-osaka-10",
-    quote: "The cost of living in Osaka is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
-    author: "Terry Parker",
-    title: "Osaka: Beyond the Tourist Experience",
-    city: "Osaka",
-    rating: 4.1,
-    date: "2024-11-21"
+    rating: 4.2,
+    date: "2025-02-06"
   }
 ];

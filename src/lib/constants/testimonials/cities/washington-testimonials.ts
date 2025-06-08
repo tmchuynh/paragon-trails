@@ -1,70 +1,63 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Washington
+// Generated on 2025-06-08T04:09:38.711Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const washingtonTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-washington-1",
-    quote: "Living in Washington has allowed me to connect deeply with {NATURE_FEATURE} nearby.",
-    author: "Emily Bennett",
-    title: "Finding Balance in Washington",
+    quote: "The cost of living in Washington is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
+    author: "Rachel Sutton",
+    title: "The Real Washington Experience",
     city: "Washington",
-    rating: 4.6,
-    date: "2024-08-10"
+    rating: 4.4,
+    date: "2023-12-09"
   },
   {
     id: "city-testimonial-washington-2",
-    quote: "No two days are the same living in Washington. The {DYNAMIC_ASPECT} keeps me excited to wake up every morning.",
-    author: "Margaret Fisher",
-    title: "Washington: A City That Grows With You",
+    quote: "Community events and festivals in Washington bring everyone together, making the {COMMUNITY_ASPECT} really stand out.",
+    author: "Gerald Murray",
+    title: "Inside the Culture of Washington",
     city: "Washington",
-    rating: 4.7,
-    date: "2023-05-05"
+    rating: 4.5,
+    date: "2023-11-04"
   },
   {
     id: "city-testimonial-washington-3",
-    quote: "The food scene in Washington is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
-    author: "Steven Fisher",
-    title: "Living Sustainably in Washington",
+    quote: "I love how Washington celebrates {FESTIVAL_OR_EVENT}, it brings so much joy and community spirit.",
+    author: "Chen Keller",
+    title: "The Challenges and Charms of Living in Washington",
     city: "Washington",
-    rating: 4.9,
-    date: "2025-10-10"
+    rating: 4.1,
+    date: "2025-02-10"
   },
   {
     id: "city-testimonial-washington-4",
-    quote: "Living in Washington means I get to enjoy {SPORTS_OR_OUTDOOR_ACTIVITY} year-round.",
-    author: "Isabella Edwards",
-    title: "Washington: A City That Grows With You",
+    quote: "After 30 years as a Washington local, I still appreciate the bike-friendly streets that makes this place special.",
+    author: "Elijah Fox",
+    title: "Washington Through a Resident's Eyes",
     city: "Washington",
     rating: 4.3,
-    date: "2025-05-17"
+    date: "2025-12-26"
   },
   {
     id: "city-testimonial-washington-5",
-    quote: "The mix of old and new in Washington's architecture and culture keeps the city feeling fresh yet grounded.",
-    author: "Brooklyn Watson",
-    title: "Washington: A City That Grows With You",
+    quote: "The sense of {SAFETY} in Washington makes me feel comfortable raising my kids here.",
+    author: "Harper Bennett",
+    title: "Washington Through a Resident's Eyes",
     city: "Washington",
-    rating: 4.6,
-    date: "2023-04-15"
+    rating: 4,
+    date: "2023-06-08"
   },
   {
     id: "city-testimonial-washington-6",
-    quote: "What most people don't realize about living in Washington is how creative it actually is. I've found my true home here.",
-    author: "Priya Khan",
-    title: "What Makes Washington Special to Live In",
+    quote: "Raising my family in Washington gives us access to supportive community, which is truly invaluable.",
+    author: "Alan Wallace",
+    title: "A Love Letter to Washington",
     city: "Washington",
-    rating: 4.6,
-    date: "2023-03-25"
-  },
-  {
-    id: "city-testimonial-washington-7",
-    quote: "The people of Washington are incredibly welcoming and have made me feel at home since day one.",
-    author: "Sophia Reed",
-    title: "Washington Through a Resident's Eyes",
-    city: "Washington",
-    rating: 4.7,
-    date: "2023-06-21"
+    rating: 4.5,
+    date: "2025-01-12"
   }
 ];

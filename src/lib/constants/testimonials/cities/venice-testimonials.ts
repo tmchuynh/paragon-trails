@@ -1,97 +1,99 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Venice
+// Generated on 2025-06-08T04:09:38.659Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const veniceTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-venice-1",
-    quote: "After moving to Venice 6 years ago, I fell in love with the inclusive environment of this place. It's truly special.",
-    author: "Tyler Dean",
-    title: "The Unexpected Joys of Venice Living",
+    quote: "No two days are the same living in Venice. The {DYNAMIC_ASPECT} keeps me excited to wake up every morning.",
+    author: "Jennifer Smith",
+    title: "Stories From the Streets of Venice",
     city: "Venice",
-    rating: 4.6,
-    date: "2024-12-13"
+    rating: 4.3,
+    date: "2025-08-14"
   },
   {
     id: "city-testimonial-venice-2",
-    quote: "The historic churches in Venice makes everyday life feel like an adventure. I've been here 6 years and still discover new things.",
-    author: "Thomas Williams",
+    quote: "Every weekend in Venice brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
+    author: "Samantha Dixon",
     title: "The Community Spirit That Defines Venice",
     city: "Venice",
-    rating: 4.9,
-    date: "2024-12-25"
+    rating: 4.4,
+    date: "2023-05-23"
   },
   {
     id: "city-testimonial-venice-3",
-    quote: "One of my favorite parts about living in Venice is the {MARKET_OR_SHOPPING_FEATURE} just around the corner.",
-    author: "Michelle Reed",
-    title: "The Neighborhoods That Make Venice Home",
+    quote: "Venice's architectural scene has become central to my life here. I couldn't imagine living without it now.",
+    author: "Andrew Knight",
+    title: "My Venice Story: Life as a Resident",
     city: "Venice",
-    rating: 4.5,
-    date: "2024-01-28"
+    rating: 4.1,
+    date: "2025-09-05"
   },
   {
     id: "city-testimonial-venice-4",
-    quote: "One thing I didn’t expect when moving to Venice was the {WEATHER_FEATURE}—it’s truly refreshing.",
-    author: "Ali Taylor",
-    title: "The Everyday Magic of Venice",
+    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Venice make daily life convenient and stress-free.",
+    author: "Sarah Gonzalez",
+    title: "A Love Letter to Venice",
     city: "Venice",
-    rating: 4.6,
-    date: "2025-02-15"
+    rating: 4,
+    date: "2024-08-13"
   },
   {
     id: "city-testimonial-venice-5",
-    quote: "As someone who's lived in many cities, I can say that Venice's local cuisine is unmatched anywhere else.",
-    author: "Mei Montgomery",
-    title: "The Neighborhoods That Make Venice Home",
+    quote: "Venice has been my home for 10-year, and the senior citizen groups here is what keeps me rooted.",
+    author: "Billy Hunter",
+    title: "Why Venice Feels Like Home",
     city: "Venice",
-    rating: 4.3,
-    date: "2025-06-05"
+    rating: 4.8,
+    date: "2024-02-04"
   },
   {
     id: "city-testimonial-venice-6",
-    quote: "The sense of {SAFETY} in Venice makes me feel comfortable raising my kids here.",
-    author: "Christine Smith",
-    title: "Why Venice Keeps Getting Better",
+    quote: "Living in Venice has opened my eyes to {PERSONAL_GROWTH_ASPECT} that I never expected.",
+    author: "Jessica Watson",
+    title: "The Neighborhoods That Make Venice Home",
     city: "Venice",
-    rating: 4.2,
-    date: "2025-09-12"
+    rating: 4.9,
+    date: "2023-12-03"
   },
   {
     id: "city-testimonial-venice-7",
-    quote: "As a veteran resident of Venice, I can't imagine living anywhere else. The sports culture here is something you can't find elsewhere.",
-    author: "Charlotte Hudson",
-    title: "Living Sustainably in Venice",
+    quote: "Living in Venice has allowed me to connect deeply with {NATURE_FEATURE} nearby.",
+    author: "Kevin Collins",
+    title: "The Neighborhoods That Make Venice Home",
     city: "Venice",
-    rating: 4.2,
-    date: "2025-02-15"
+    rating: 4.9,
+    date: "2023-12-25"
   },
   {
     id: "city-testimonial-venice-8",
-    quote: "Raising my family in Venice gives us access to parent support groups, which is truly invaluable.",
-    author: "Nancy Bennett",
-    title: "Venice: Where I Found My Community",
+    quote: "After 7 years as a Venice local, I still appreciate the bike-friendly streets that makes this place special.",
+    author: "Roy Martinez",
+    title: "Venice's Hidden Treasures for Locals",
     city: "Venice",
-    rating: 4.9,
-    date: "2025-09-10"
+    rating: 4.6,
+    date: "2025-10-01"
   },
   {
     id: "city-testimonial-venice-9",
-    quote: "Venice has been my home for returning, and the literary circles here is what keeps me rooted.",
-    author: "Dylan Wilson",
-    title: "Why Venice Feels Like Home",
+    quote: "What really surprised me about Venice is its {DIVERSITY_FEATURE} — it’s a true melting pot.",
+    author: "Willie Reed",
+    title: "The Perfect Imperfections of Venice",
     city: "Venice",
     rating: 4.9,
-    date: "2025-02-11"
+    date: "2023-04-11"
   },
   {
     id: "city-testimonial-venice-10",
-    quote: "The {TRANQUILITY_FEATURE} in Venice offers a peaceful retreat from the busy world.",
-    author: "Timothy Silva",
-    title: "The Everyday Magic of Venice",
+    quote: "What really surprised me about Venice is its {DIVERSITY_FEATURE} — it’s a true melting pot.",
+    author: "Scott Wright",
+    title: "A Resident's Guide to Living Well in Venice",
     city: "Venice",
-    rating: 4.3,
-    date: "2025-06-11"
+    rating: 4.9,
+    date: "2023-09-22"
   }
 ];

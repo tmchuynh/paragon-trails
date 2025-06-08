@@ -1,52 +1,54 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Panauti
+// Generated on 2025-06-08T04:09:38.707Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const panautiTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-panauti-1",
-    quote: "From my apartment in Panauti, I can walk to world-class museums. Where else could you do that?",
-    author: "Randy Dunn",
-    title: "Why Panauti Is a Place to Grow",
+    quote: "Living in Panauti means experiencing historical richness on a daily basis, which is why I could never leave.",
+    author: "Amanda Hunter",
+    title: "The Community Spirit That Defines Panauti",
     city: "Panauti",
-    rating: 5,
-    date: "2025-08-06"
+    rating: 4.4,
+    date: "2023-10-19"
   },
   {
     id: "city-testimonial-panauti-2",
-    quote: "As a dedicated resident of Panauti, I can't imagine living anywhere else. The street food scene here is something you can't find elsewhere.",
-    author: "Zola Graham",
-    title: "Panauti Through a Resident's Eyes",
+    quote: "Panauti has been my home for permanent, and the sports communities here is what keeps me rooted.",
+    author: "Wayne Montgomery",
+    title: "The Challenges and Charms of Living in Panauti",
     city: "Panauti",
-    rating: 4.4,
-    date: "2023-08-26"
+    rating: 4.5,
+    date: "2023-03-03"
   },
   {
     id: "city-testimonial-panauti-3",
-    quote: "The winter holiday markets in Panauti is something I look forward to every year. It's what makes living here magical.",
-    author: "Joshua Carpenter",
-    title: "What I Love About Living in Panauti",
+    quote: "The art and creativity flowing through Panauti is inspiring. It feels like living inside a masterpiece.",
+    author: "Jessica da Costa",
+    title: "A Resident's Guide to Living Well in Panauti",
     city: "Panauti",
-    rating: 4.1,
-    date: "2023-09-04"
+    rating: 4.9,
+    date: "2024-12-20"
   },
   {
     id: "city-testimonial-panauti-4",
-    quote: "Living in Panauti has opened my eyes to {PERSONAL_GROWTH_ASPECT} that I never expected.",
-    author: "Aria Chen",
-    title: "Uncovering the Layers of Panauti",
+    quote: "One thing I didn’t expect when moving to Panauti was the {WEATHER_FEATURE}—it’s truly refreshing.",
+    author: "Zoe Campbell",
+    title: "Life in Panauti: A Local Perspective",
     city: "Panauti",
-    rating: 4.9,
-    date: "2024-12-10"
+    rating: 4.6,
+    date: "2025-02-16"
   },
   {
     id: "city-testimonial-panauti-5",
-    quote: "Living here means being a part of Panauti's ongoing story of innovation and tradition.",
-    author: "Oliver Harper",
-    title: "The Neighborhoods That Make Panauti Home",
+    quote: "What really surprised me about Panauti is its {DIVERSITY_FEATURE} — it’s a true melting pot.",
+    author: "Edward Gardner",
+    title: "Panauti: More Than Just a Place",
     city: "Panauti",
-    rating: 5,
-    date: "2025-04-25"
+    rating: 4.8,
+    date: "2024-01-10"
   }
 ];

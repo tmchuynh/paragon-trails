@@ -1,79 +1,54 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Mto Wa Mbu Village
+// Generated on 2025-06-08T04:09:38.707Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const mtowambuvillageTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-mto-wa-mbu-village-1",
-    quote: "I appreciate how Mto Wa Mbu Village balances {TECH_INNOVATION} with historic charm perfectly.",
-    author: "Robert Williams",
-    title: "My Corner of Mto Wa Mbu Village",
+    quote: "The people of Mto Wa Mbu Village are incredibly welcoming and have made me feel at home since day one.",
+    author: "Amelia White",
+    title: "Mto Wa Mbu Village: A City That Grows With You",
     city: "Mto Wa Mbu Village",
-    rating: 4.4,
-    date: "2024-04-07"
+    rating: 4.2,
+    date: "2023-02-10"
   },
   {
     id: "city-testimonial-mto-wa-mbu-village-2",
-    quote: "The {FESTIVAL_OR_EVENT} season in Mto Wa Mbu Village brings so much excitement and pride to the community.",
-    author: "Zoe Spencer",
-    title: "A Love Letter to Mto Wa Mbu Village",
+    quote: "The {TRANQUILITY_FEATURE} in Mto Wa Mbu Village offers a peaceful retreat from the busy world.",
+    author: "Olivia Price",
+    title: "How Mto Wa Mbu Village Balances Tradition and Innovation",
     city: "Mto Wa Mbu Village",
-    rating: 4.1,
-    date: "2025-11-26"
+    rating: 4.4,
+    date: "2024-09-03"
   },
   {
     id: "city-testimonial-mto-wa-mbu-village-3",
-    quote: "Living in Mto Wa Mbu Village means experiencing continuous discovery on a daily basis, which is why I could never leave.",
-    author: "Lily Morales",
-    title: "Mto Wa Mbu Village: Beyond the Tourist Experience",
+    quote: "Despite its size, Mto Wa Mbu Village manages to feel {SMALL_TOWN_QUALITY}, which is rare and wonderful.",
+    author: "Liam Hayes",
+    title: "Discovering Home in Mto Wa Mbu Village",
     city: "Mto Wa Mbu Village",
-    rating: 4.1,
-    date: "2025-06-17"
+    rating: 4.8,
+    date: "2023-10-06"
   },
   {
     id: "city-testimonial-mto-wa-mbu-village-4",
-    quote: "Living in Mto Wa Mbu Village means experiencing music and performing arts on a daily basis, which is why I could never leave.",
-    author: "Ibrahim Kowalski",
-    title: "The True Character of Mto Wa Mbu Village",
+    quote: "Despite its size, Mto Wa Mbu Village manages to feel {SMALL_TOWN_QUALITY}, which is rare and wonderful.",
+    author: "Chloe Clark",
+    title: "The Unexpected Joys of Mto Wa Mbu Village Living",
     city: "Mto Wa Mbu Village",
     rating: 4.7,
-    date: "2024-08-01"
+    date: "2025-11-20"
   },
   {
     id: "city-testimonial-mto-wa-mbu-village-5",
-    quote: "I've found that Mto Wa Mbu Village's {TRANSPORT_FEATURE} really makes getting around effortless and enjoyable.",
-    author: "Lerato Fletcher",
-    title: "What Makes Mto Wa Mbu Village Uniquely Livable",
-    city: "Mto Wa Mbu Village",
-    rating: 4.7,
-    date: "2023-05-28"
-  },
-  {
-    id: "city-testimonial-mto-wa-mbu-village-6",
-    quote: "After 2 years as a Mto Wa Mbu Village local, I still appreciate the local music venues that makes this place special.",
-    author: "Rachel Smith",
+    quote: "One thing I didn’t expect when moving to Mto Wa Mbu Village was the {WEATHER_FEATURE}—it’s truly refreshing.",
+    author: "Skylar Ellis",
     title: "From Newcomer to Local in Mto Wa Mbu Village",
     city: "Mto Wa Mbu Village",
-    rating: 4.6,
-    date: "2024-03-15"
-  },
-  {
-    id: "city-testimonial-mto-wa-mbu-village-7",
-    quote: "I love how Mto Wa Mbu Village celebrates {FESTIVAL_OR_EVENT}, it brings so much joy and community spirit.",
-    author: "Amelia Warren",
-    title: "Living the Mto Wa Mbu Village Lifestyle",
-    city: "Mto Wa Mbu Village",
-    rating: 4.5,
-    date: "2024-10-24"
-  },
-  {
-    id: "city-testimonial-mto-wa-mbu-village-8",
-    quote: "Living in Mto Wa Mbu Village has allowed me to connect deeply with {NATURE_FEATURE} nearby.",
-    author: "Billy Davis",
-    title: "What Makes Mto Wa Mbu Village Uniquely Livable",
-    city: "Mto Wa Mbu Village",
-    rating: 4.3,
-    date: "2025-01-14"
+    rating: 4.1,
+    date: "2025-06-24"
   }
 ];

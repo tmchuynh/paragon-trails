@@ -1,61 +1,54 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Hong Kong
+// Generated on 2025-06-08T04:09:38.497Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const hongkongTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-hong-kong-1",
-    quote: "The historical significance of Hong Kong adds a depth to daily life that I truly cherish.",
-    author: "Antonio Price",
-    title: "How Hong Kong Changed My Life",
+    quote: "Living in Hong Kong means I get to enjoy {SPORTS_OR_OUTDOOR_ACTIVITY} year-round.",
+    author: "Zoe Stewart",
+    title: "Why Hong Kong Is a Place to Grow",
     city: "Hong Kong",
-    rating: 4.3,
-    date: "2025-10-13"
+    rating: 4.9,
+    date: "2025-01-18"
   },
   {
     id: "city-testimonial-hong-kong-2",
-    quote: "Living in Hong Kong has been one of the best decisions of my life. The academic atmosphere here makes everyday life so enjoyable.",
-    author: "Mary Harris",
-    title: "The Community Spirit That Defines Hong Kong",
+    quote: "Living in Hong Kong means being surrounded by entrepreneurial energy, which feeds my soul every day.",
+    author: "Ralph Wilson",
+    title: "The Beauty of Everyday Life in Hong Kong",
     city: "Hong Kong",
-    rating: 4.5,
-    date: "2025-04-12"
+    rating: 4.4,
+    date: "2025-06-20"
   },
   {
     id: "city-testimonial-hong-kong-3",
-    quote: "Hong Kong's theater scene has become central to my life here. I couldn't imagine living without it now.",
-    author: "Nancy Bennett",
-    title: "The Beauty of Everyday Life in Hong Kong",
+    quote: "The {GREEN_SPACES} in Hong Kong offer a perfect escape from the urban buzz without leaving the city limits.",
+    author: "Lucas Jennings",
+    title: "The Community Spirit That Defines Hong Kong",
     city: "Hong Kong",
     rating: 4.3,
-    date: "2025-04-12"
+    date: "2024-01-01"
   },
   {
     id: "city-testimonial-hong-kong-4",
-    quote: "One of the best things about living in Hong Kong is the {ACCESSIBILITY_FEATURE}—it makes everything so convenient.",
-    author: "Isabella Hall",
-    title: "Living and Thriving in Hong Kong",
+    quote: "Hong Kong has been my home for dedicated, and the tight-knit community here is what keeps me rooted.",
+    author: "Walter Porter",
+    title: "Why I’m Proud to Call Hong Kong Home",
     city: "Hong Kong",
     rating: 4.7,
-    date: "2024-03-02"
+    date: "2024-02-10"
   },
   {
     id: "city-testimonial-hong-kong-5",
-    quote: "Every weekend in Hong Kong brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
-    author: "William da Costa",
-    title: "The Soul of Hong Kong: A Local's View",
+    quote: "Living here means being a part of Hong Kong's ongoing story of innovation and tradition.",
+    author: "Evelyn Montgomery",
+    title: "A Resident's Guide to Living Well in Hong Kong",
     city: "Hong Kong",
-    rating: 4.3,
-    date: "2025-10-06"
-  },
-  {
-    id: "city-testimonial-hong-kong-6",
-    quote: "Living in Hong Kong means being surrounded by historic preservation, which feeds my soul every day.",
-    author: "Victoria Nakamura",
-    title: "What Makes Hong Kong Feel Like Family",
-    city: "Hong Kong",
-    rating: 4.1,
-    date: "2024-10-07"
+    rating: 4.5,
+    date: "2024-12-11"
   }
 ];

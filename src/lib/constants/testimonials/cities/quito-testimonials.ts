@@ -1,88 +1,99 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Quito
+// Generated on 2025-06-08T04:09:38.709Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const quitoTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-quito-1",
-    quote: "Living in Quito means being surrounded by seasonal beauty, which feeds my soul every day.",
-    author: "Ariana Williams",
-    title: "Living and Thriving in Quito",
+    quote: "Living in Quito has opened my eyes to {PERSONAL_GROWTH_ASPECT} that I never expected.",
+    author: "Keith Wells",
+    title: "My Quito Story: Life as a Resident",
     city: "Quito",
-    rating: 4.7,
-    date: "2023-04-25"
+    rating: 4.9,
+    date: "2025-04-11"
   },
   {
     id: "city-testimonial-quito-2",
-    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Quito make daily life convenient and stress-free.",
-    author: "Patricia Foster",
-    title: "Uncovering the Layers of Quito",
+    quote: "After 8 years as a Quito local, I still appreciate the seasonal festivals that makes this place special.",
+    author: "Harold Nash",
+    title: "The Heartbeat of Quito Life",
     city: "Quito",
-    rating: 4.7,
-    date: "2023-01-01"
+    rating: 4.4,
+    date: "2023-06-13"
   },
   {
     id: "city-testimonial-quito-3",
-    quote: "After moving to Quito 8 years ago, I fell in love with the family-oriented of this place. It's truly special.",
-    author: "Emma Graves",
-    title: "Living the Quito Lifestyle",
+    quote: "The historical significance of Quito adds a depth to daily life that I truly cherish.",
+    author: "Nathan Morales",
+    title: "The Vibrant Life of Quito Residents",
     city: "Quito",
-    rating: 4.6,
-    date: "2024-03-20"
+    rating: 4.5,
+    date: "2023-09-26"
   },
   {
     id: "city-testimonial-quito-4",
-    quote: "Quito's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
-    author: "Mia Bennett",
-    title: "Why Quito Is a Place to Grow",
+    quote: "The cost of living in Quito is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
+    author: "Carol Jones",
+    title: "Why I Chose Quito as Home",
     city: "Quito",
-    rating: 4.6,
-    date: "2023-02-12"
+    rating: 4.1,
+    date: "2023-09-09"
   },
   {
     id: "city-testimonial-quito-5",
-    quote: "I came to Quito for work but stayed for the diverse neighborhoods. Best decision I ever made.",
-    author: "Elizabeth Johnson",
-    title: "Quito: A City That Grows With You",
+    quote: "The food scene in Quito is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
+    author: "Stephen Sutton",
+    title: "Living the Quito Lifestyle",
     city: "Quito",
-    rating: 4.1,
-    date: "2025-11-23"
+    rating: 4.7,
+    date: "2024-12-01"
   },
   {
     id: "city-testimonial-quito-6",
-    quote: "One of my favorite parts about living in Quito is the {MARKET_OR_SHOPPING_FEATURE} just around the corner.",
-    author: "Richard Cooper",
-    title: "Uncovering the Layers of Quito",
+    quote: "Living in Quito means experiencing artistic expression on a daily basis, which is why I could never leave.",
+    author: "Elena Fox",
+    title: "What Makes Quito Feel Like Family",
     city: "Quito",
-    rating: 4.6,
-    date: "2024-01-28"
+    rating: 4.3,
+    date: "2025-02-15"
   },
   {
     id: "city-testimonial-quito-7",
-    quote: "Quito's theater scene has become central to my life here. I couldn't imagine living without it now.",
-    author: "Harper Anderson",
-    title: "Life in Quito: A Local Perspective",
+    quote: "Living here means being a part of Quito's ongoing story of innovation and tradition.",
+    author: "Ariana Wells",
+    title: "Why Quito Is a Place to Grow",
     city: "Quito",
-    rating: 4,
-    date: "2023-08-08"
+    rating: 4.6,
+    date: "2024-04-01"
   },
   {
     id: "city-testimonial-quito-8",
-    quote: "Quito's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
-    author: "Gerald Wood",
-    title: "Discovering Home in Quito",
+    quote: "Living here means being a part of Quito's ongoing story of innovation and tradition.",
+    author: "Priya Hamilton",
+    title: "Quito: More Than Just a Place",
     city: "Quito",
-    rating: 4.1,
-    date: "2023-02-26"
+    rating: 4.5,
+    date: "2025-04-15"
   },
   {
     id: "city-testimonial-quito-9",
-    quote: "From my apartment in Quito, I can join weekend yoga sessions in the park. Where else could you do that?",
-    author: "Mei Mason",
-    title: "The Soul of Quito: A Local's View",
+    quote: "Living in Quito means being surrounded by lush parks and gardens, which feeds my soul every day.",
+    author: "Austin Lawson",
+    title: "How Quito Changed My Life",
     city: "Quito",
-    rating: 4.9,
-    date: "2023-07-11"
+    rating: 4.8,
+    date: "2024-04-28"
+  },
+  {
+    id: "city-testimonial-quito-10",
+    quote: "The {FESTIVAL_OR_EVENT} season in Quito brings so much excitement and pride to the community.",
+    author: "William Mitchell",
+    title: "Why Quito Keeps Getting Better",
+    city: "Quito",
+    rating: 4.4,
+    date: "2025-07-01"
   }
 ];

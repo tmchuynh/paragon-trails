@@ -1,61 +1,81 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Ho Chi Minh City
+// Generated on 2025-06-08T04:09:38.498Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const hochiminhcityTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-ho-chi-minh-city-1",
-    quote: "As a lifelong resident of Ho Chi Minh City, I can't imagine living anywhere else. The street food scene here is something you can't find elsewhere.",
-    author: "Oliver West",
-    title: "My Ho Chi Minh City Story: Life as a Resident",
+    quote: "Ho Chi Minh City isn't just where I live—it's part of my identity now. The music scene has shaped who I am.",
+    author: "Helen Gonzalez",
+    title: "The Challenges and Charms of Living in Ho Chi Minh City",
     city: "Ho Chi Minh City",
-    rating: 4.1,
-    date: "2025-11-03"
+    rating: 4.7,
+    date: "2023-05-12"
   },
   {
     id: "city-testimonial-ho-chi-minh-city-2",
-    quote: "The historical significance of Ho Chi Minh City adds a depth to daily life that I truly cherish.",
-    author: "Deborah Russell",
-    title: "Ho Chi Minh City's Hidden Treasures for Locals",
+    quote: "The luxurious neighborhoods in Ho Chi Minh City each have their own character, which keeps life interesting year after year.",
+    author: "Youssef Campbell",
+    title: "My Ho Chi Minh City Story: Life as a Resident",
     city: "Ho Chi Minh City",
-    rating: 4.9,
-    date: "2024-09-08"
+    rating: 4.6,
+    date: "2023-06-28"
   },
   {
     id: "city-testimonial-ho-chi-minh-city-3",
-    quote: "Ho Chi Minh City isn't just where I live—it's part of my identity now. The architectural beauty has shaped who I am.",
-    author: "Thabo Kim",
-    title: "The Beauty of Everyday Life in Ho Chi Minh City",
+    quote: "The {GREEN_SPACES} in Ho Chi Minh City offer a perfect escape from the urban buzz without leaving the city limits.",
+    author: "Liam Grant",
+    title: "Stories From the Streets of Ho Chi Minh City",
     city: "Ho Chi Minh City",
     rating: 4.8,
-    date: "2023-07-27"
+    date: "2023-09-07"
   },
   {
     id: "city-testimonial-ho-chi-minh-city-4",
-    quote: "Despite its size, Ho Chi Minh City manages to feel {SMALL_TOWN_QUALITY}, which is rare and wonderful.",
-    author: "Edward Parker",
-    title: "The Challenges and Charms of Living in Ho Chi Minh City",
+    quote: "I appreciate how Ho Chi Minh City balances {TECH_INNOVATION} with historic charm perfectly.",
+    author: "Douglas Payne",
+    title: "Ho Chi Minh City: More Than Just a Place",
     city: "Ho Chi Minh City",
-    rating: 5,
-    date: "2024-09-02"
+    rating: 4.8,
+    date: "2023-05-16"
   },
   {
     id: "city-testimonial-ho-chi-minh-city-5",
-    quote: "What really surprised me about Ho Chi Minh City is its {DIVERSITY_FEATURE} — it’s a true melting pot.",
-    author: "Philip Baker",
-    title: "The Neighborhoods That Make Ho Chi Minh City Home",
+    quote: "The {FESTIVAL_OR_EVENT} season in Ho Chi Minh City brings so much excitement and pride to the community.",
+    author: "Arthur Curtis",
+    title: "My Corner of Ho Chi Minh City",
     city: "Ho Chi Minh City",
     rating: 4.4,
-    date: "2023-08-07"
+    date: "2024-12-15"
   },
   {
     id: "city-testimonial-ho-chi-minh-city-6",
-    quote: "As a settled resident of Ho Chi Minh City, I can't imagine living anywhere else. The cycling infrastructure here is something you can't find elsewhere.",
-    author: "Ethan Crawford",
+    quote: "Ho Chi Minh City has been my home for committed, and the wellness community here is what keeps me rooted.",
+    author: "Layla Porter",
+    title: "The Everyday Magic of Ho Chi Minh City",
+    city: "Ho Chi Minh City",
+    rating: 4.3,
+    date: "2023-01-18"
+  },
+  {
+    id: "city-testimonial-ho-chi-minh-city-7",
+    quote: "Every weekend in Ho Chi Minh City brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
+    author: "Maria Marshall",
     title: "From Newcomer to Local in Ho Chi Minh City",
     city: "Ho Chi Minh City",
     rating: 4.6,
-    date: "2025-11-14"
+    date: "2024-03-23"
+  },
+  {
+    id: "city-testimonial-ho-chi-minh-city-8",
+    quote: "Ho Chi Minh City's public art scene has become central to my life here. I couldn't imagine living without it now.",
+    author: "Keith Müller",
+    title: "The Beauty of Everyday Life in Ho Chi Minh City",
+    city: "Ho Chi Minh City",
+    rating: 4.3,
+    date: "2024-04-16"
   }
 ];

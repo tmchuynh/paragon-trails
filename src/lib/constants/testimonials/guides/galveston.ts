@@ -1,426 +1,412 @@
 // This file is auto-generated. Do not edit manually.
 // Tour guide reviews for galveston
+// City: Galveston
+// Country: unitedStates
+// Region: texas
+// Generated on: 2025-06-08T04:09:38.251Z
 export const galvestonGuideReviews = {
   "guide-galveston-1": [
     {
       "id": "guide-galveston-1-review-0",
-      "quote": "I wasn’t expecting to learn so much and enjoy it this much. Sandra Rossi was generous and incredibly knowledgeable.",
-      "author": "Riley Chambers",
-      "title": "Verified Tour Participant",
-      "city": "Galveston",
-      "rating": 5,
-      "date": "2025-02-04"
-    },
-    {
-      "id": "guide-galveston-1-review-1",
-      "quote": "Sandra Rossi didn’t just give us a tour—His gave us a connection to the city through captivating storytelling.",
-      "author": "Aisha Harris",
+      "quote": "I’ve traveled a lot, but this was one of the most knowledgeable tours I’ve ever taken. Jose Nguyen was fantastic from start to finish.",
+      "author": "Joan Hamilton",
       "title": "Verified Tour Participant",
       "city": "Galveston",
       "rating": 3,
-      "date": "2025-05-04"
+      "date": "2024-11-28"
+    },
+    {
+      "id": "guide-galveston-1-review-1",
+      "quote": "Jose Nguyen delivered a perfect mix of history, humor, and heart. Her personable delivery kept us engaged throughout.",
+      "author": "Katherine Lewis",
+      "title": "Verified Tour Participant",
+      "city": "Galveston",
+      "rating": 5,
+      "date": "2024-08-05"
     },
     {
       "id": "guide-galveston-1-review-2",
-      "quote": "Touring with Sandra Rossi was a delight. Their skilled personality and deep knowledge made the experience unforgettable.",
-      "author": "Darrell Foster",
+      "quote": "Touring with Jose Nguyen was a delight. His approachable personality and deep knowledge made the experience unforgettable.",
+      "author": "Liam Rossi",
       "title": "Verified Tour Participant",
       "city": "Galveston",
       "rating": 4,
-      "date": "2025-03-24"
+      "date": "2025-03-08"
     }
   ],
   "guide-galveston-2": [
     {
       "id": "guide-galveston-2-review-0",
-      "quote": "What an patient experience with Sandra Knight! His expertise in urban planning added so much value to our visit.",
-      "author": "Zola Hayes",
+      "quote": "The way Sean Price brought Cultural Heritage to life was truly insightful. You could tell Their loves what Their does.",
+      "author": "Kennedy White",
       "title": "Verified Tour Participant",
       "city": "Galveston",
-      "rating": 4,
-      "date": "2025-01-08"
+      "rating": 5,
+      "date": "2024-07-19"
     },
     {
       "id": "guide-galveston-2-review-1",
-      "quote": "From start to finish, Sandra Knight delivered a informative experience. Their expertise and care were unmatched.",
-      "author": "Mei King",
+      "quote": "I highly recommend Sean Price for anyone interested in Culinary Tours. His made our tour memorable.",
+      "author": "Mohamed Curtis",
       "title": "Verified Tour Participant",
       "city": "Galveston",
-      "rating": 4,
-      "date": "2024-11-27"
+      "rating": 5,
+      "date": "2024-07-01"
     },
     {
       "id": "guide-galveston-2-review-2",
-      "quote": "Sandra Knight has a gift for storytelling. The entire group was engaged, laughing, and learning—it was such a trustworthy time.",
-      "author": "Blake West",
+      "quote": "I highly recommend Sean Price for anyone interested in Hidden Gems. Her made our tour memorable.",
+      "author": "Aiden Gibson",
       "title": "Verified Tour Participant",
       "city": "Galveston",
       "rating": 5,
-      "date": "2024-09-22"
-    },
-    {
-      "id": "guide-galveston-2-review-3",
-      "quote": "It’s rare to find a guide as brilliant as Sandra Knight. Their ability to connect with people from all walks of life was exceptional.",
-      "author": "Gabriel Russell",
-      "title": "Verified Tour Participant",
-      "city": "Galveston",
-      "rating": 5,
-      "date": "2024-08-29"
+      "date": "2024-12-12"
     }
   ],
   "guide-galveston-3": [
     {
       "id": "guide-galveston-3-review-0",
-      "quote": "You’ll leave the tour smarter and smiling if Ralph Carpenter is your guide. Her charismatic energy is contagious.",
-      "author": "David Russell",
+      "quote": "We had a genuine time with Sophia Lopez. Their passion for Local Literature was evident throughout the tour.",
+      "author": "Caroline Nash",
       "title": "Verified Tour Participant",
       "city": "Galveston",
       "rating": 4,
-      "date": "2024-12-01"
+      "date": "2025-03-24"
     },
     {
       "id": "guide-galveston-3-review-1",
-      "quote": "Ralph Carpenter brought warmth and outstanding energy to the day. Her made us feel like locals instead of tourists.",
-      "author": "Ellie Wood",
-      "title": "Verified Tour Participant",
-      "city": "Galveston",
-      "rating": 4,
-      "date": "2024-07-05"
-    },
-    {
-      "id": "guide-galveston-3-review-2",
-      "quote": "Every moment with Ralph Carpenter felt intentional. His genuine guidance made this one of the best parts of our trip.",
-      "author": "Anna Morales",
+      "quote": "We had a inspiring time with Sophia Lopez. Her passion for design was evident throughout the tour.",
+      "author": "Catherine Wilson",
       "title": "Verified Tour Participant",
       "city": "Galveston",
       "rating": 5,
-      "date": "2024-06-19"
+      "date": "2025-02-19"
+    },
+    {
+      "id": "guide-galveston-3-review-2",
+      "quote": "We felt completely at ease with Sophia Lopez. Their remarkable style made even complex topics accessible and fun.",
+      "author": "Stephanie Müller",
+      "title": "Verified Tour Participant",
+      "city": "Galveston",
+      "rating": 5,
+      "date": "2024-11-02"
     }
   ],
   "guide-galveston-4": [
     {
       "id": "guide-galveston-4-review-0",
-      "quote": "From start to finish, Benjamin Campbell delivered a amazing experience. Their expertise and care were unmatched.",
-      "author": "Nora Wilson",
-      "title": "Verified Tour Participant",
-      "city": "Galveston",
-      "rating": 5,
-      "date": "2025-04-10"
-    },
-    {
-      "id": "guide-galveston-4-review-1",
-      "quote": "I’ve traveled a lot, but this was one of the most helpful tours I’ve ever taken. Benjamin Campbell was fantastic from start to finish.",
-      "author": "Christine Mason",
-      "title": "Verified Tour Participant",
-      "city": "Galveston",
-      "rating": 4,
-      "date": "2025-02-03"
-    },
-    {
-      "id": "guide-galveston-4-review-2",
-      "quote": "If you’re looking for a inspiring experience in Local Wildlife, Benjamin Campbell is the one to book. Their professionalism stood out.",
-      "author": "Naomi Marshall",
-      "title": "Verified Tour Participant",
-      "city": "Galveston",
-      "rating": 5,
-      "date": "2025-01-27"
-    },
-    {
-      "id": "guide-galveston-4-review-3",
-      "quote": "Benjamin Campbell's tour was the highlight of our trip. Their passionate approach to sharing the history made everything interesting.",
-      "author": "Yuki Johnson",
-      "title": "Verified Tour Participant",
-      "city": "Galveston",
-      "rating": 5,
-      "date": "2025-03-14"
-    }
-  ],
-  "guide-galveston-5": [
-    {
-      "id": "guide-galveston-5-review-0",
-      "quote": "Even our kids loved the tour—Bella da Costa was so charismatic and made sure everyone was involved.",
-      "author": "Lily Fisher",
-      "title": "Verified Tour Participant",
-      "city": "Galveston",
-      "rating": 5,
-      "date": "2024-07-27"
-    },
-    {
-      "id": "guide-galveston-5-review-1",
-      "quote": "We were lucky to have Bella da Costa as our guide. His flexible insights made a big difference in how we experienced Local Fashion.",
-      "author": "Paul Anderson",
-      "title": "Verified Tour Participant",
-      "city": "Galveston",
-      "rating": 4,
-      "date": "2025-05-03"
-    },
-    {
-      "id": "guide-galveston-5-review-2",
-      "quote": "We had a inspiring time with Bella da Costa. Her passion for Local Music was evident throughout the tour.",
-      "author": "Katherine Baker",
-      "title": "Verified Tour Participant",
-      "city": "Galveston",
-      "rating": 5,
-      "date": "2024-10-26"
-    },
-    {
-      "id": "guide-galveston-5-review-3",
-      "quote": "I’ve traveled a lot, but this was one of the most inspiring tours I’ve ever taken. Bella da Costa was fantastic from start to finish.",
-      "author": "Kimberly Young",
-      "title": "Verified Tour Participant",
-      "city": "Galveston",
-      "rating": 5,
-      "date": "2025-02-22"
-    }
-  ],
-  "guide-galveston-6": [
-    {
-      "id": "guide-galveston-6-review-0",
-      "quote": "Claire Foster delivered a perfect mix of history, humor, and heart. Her engaging delivery kept us engaged throughout.",
-      "author": "Zola Gardner",
-      "title": "Verified Tour Participant",
-      "city": "Galveston",
-      "rating": 5,
-      "date": "2024-06-29"
-    },
-    {
-      "id": "guide-galveston-6-review-1",
-      "quote": "I wasn’t expecting to learn so much and enjoy it this much. Claire Foster was captivating and incredibly knowledgeable.",
-      "author": "Elena Brown",
+      "quote": "Touring with Raymond Grant was a delight. Her brilliant personality and deep knowledge made the experience unforgettable.",
+      "author": "Julie Lee",
       "title": "Verified Tour Participant",
       "city": "Galveston",
       "rating": 5,
       "date": "2025-04-02"
     },
     {
-      "id": "guide-galveston-6-review-2",
-      "quote": "You’ll leave the tour smarter and smiling if Claire Foster is your guide. Their exceptional energy is contagious.",
-      "author": "Aaliyah Edwards",
+      "id": "guide-galveston-4-review-1",
+      "quote": "We were lucky to have Raymond Grant as our guide. His skilled insights made a big difference in how we experienced literary landmarks.",
+      "author": "Claire Jansen",
       "title": "Verified Tour Participant",
       "city": "Galveston",
       "rating": 5,
-      "date": "2025-01-21"
+      "date": "2024-10-09"
+    },
+    {
+      "id": "guide-galveston-4-review-2",
+      "quote": "Even our kids loved the tour—Raymond Grant was so thorough and made sure everyone was involved.",
+      "author": "Jane Wilson",
+      "title": "Verified Tour Participant",
+      "city": "Galveston",
+      "rating": 5,
+      "date": "2024-11-11"
+    },
+    {
+      "id": "guide-galveston-4-review-3",
+      "quote": "Raymond Grant created an environment that was both informative and relaxing. Her brilliant approach kept everyone engaged.",
+      "author": "Nicholas Dunn",
+      "title": "Verified Tour Participant",
+      "city": "Galveston",
+      "rating": 3,
+      "date": "2024-06-08"
+    }
+  ],
+  "guide-galveston-5": [
+    {
+      "id": "guide-galveston-5-review-0",
+      "quote": "We left the tour inspired. Virginia Rodriguez's captivating way of sharing knowledge made a lasting impression on us.",
+      "author": "Dylan Thomas",
+      "title": "Verified Tour Participant",
+      "city": "Galveston",
+      "rating": 5,
+      "date": "2025-05-18"
+    },
+    {
+      "id": "guide-galveston-5-review-1",
+      "quote": "I’ve taken many tours, but Virginia Rodriguez's was by far the most cheerful. Her storytelling ability was incredible.",
+      "author": "Allison Holloway",
+      "title": "Verified Tour Participant",
+      "city": "Galveston",
+      "rating": 5,
+      "date": "2025-02-27"
+    },
+    {
+      "id": "guide-galveston-5-review-2",
+      "quote": "You’ll leave the tour smarter and smiling if Virginia Rodriguez is your guide. Their thorough energy is contagious.",
+      "author": "Mia Khan",
+      "title": "Verified Tour Participant",
+      "city": "Galveston",
+      "rating": 4,
+      "date": "2024-10-05"
+    }
+  ],
+  "guide-galveston-6": [
+    {
+      "id": "guide-galveston-6-review-0",
+      "quote": "Nicole King tailored the tour perfectly to our interests. His dedicated nature made everyone feel welcome.",
+      "author": "Emma Dean",
+      "title": "Verified Tour Participant",
+      "city": "Galveston",
+      "rating": 5,
+      "date": "2025-03-07"
+    },
+    {
+      "id": "guide-galveston-6-review-1",
+      "quote": "Nicole King created an environment that was both informative and relaxing. Their resourceful approach kept everyone engaged.",
+      "author": "Oliver Foster",
+      "title": "Verified Tour Participant",
+      "city": "Galveston",
+      "rating": 5,
+      "date": "2024-10-27"
+    },
+    {
+      "id": "guide-galveston-6-review-2",
+      "quote": "Nicole King delivered a perfect mix of history, humor, and heart. His accommodating delivery kept us engaged throughout.",
+      "author": "Carl White",
+      "title": "Verified Tour Participant",
+      "city": "Galveston",
+      "rating": 5,
+      "date": "2024-07-18"
     }
   ],
   "guide-galveston-7": [
     {
       "id": "guide-galveston-7-review-0",
-      "quote": "Henry Taylor made even the smallest detail feel important. Her outstanding touch made this tour stand out from the rest.",
-      "author": "Sarah Kim",
+      "quote": "Ahmed Silva is simply dedicated. The tour was well-paced and Her attention to detail was remarkable.",
+      "author": "Anthony Fisher",
       "title": "Verified Tour Participant",
       "city": "Galveston",
       "rating": 5,
-      "date": "2024-06-24"
+      "date": "2024-10-15"
     },
     {
       "id": "guide-galveston-7-review-1",
-      "quote": "Henry Taylor tailored the tour perfectly to our interests. Her insightful nature made everyone feel welcome.",
-      "author": "Caroline Graham",
-      "title": "Verified Tour Participant",
-      "city": "Galveston",
-      "rating": 4,
-      "date": "2024-07-30"
-    },
-    {
-      "id": "guide-galveston-7-review-2",
-      "quote": "We left the tour inspired. Henry Taylor's passionate way of sharing knowledge made a lasting impression on us.",
-      "author": "Sofia Ali",
+      "quote": "We had a remarkable time with Ahmed Silva. His passion for local festivals was evident throughout the tour.",
+      "author": "Billy Watson",
       "title": "Verified Tour Participant",
       "city": "Galveston",
       "rating": 5,
-      "date": "2025-03-15"
+      "date": "2024-12-08"
+    },
+    {
+      "id": "guide-galveston-7-review-2",
+      "quote": "We left the tour inspired. Ahmed Silva's motivating way of sharing knowledge made a lasting impression on us.",
+      "author": "Joshua Müller",
+      "title": "Verified Tour Participant",
+      "city": "Galveston",
+      "rating": 5,
+      "date": "2024-11-30"
     }
   ],
   "guide-galveston-8": [
     {
       "id": "guide-galveston-8-review-0",
-      "quote": "Audrey Porter tailored the tour perfectly to our interests. Her fantastic nature made everyone feel welcome.",
-      "author": "Mei Reed",
+      "quote": "We had a accommodating time with Christine Khan. Her passion for Wildlife was evident throughout the tour.",
+      "author": "Carlos Dixon",
       "title": "Verified Tour Participant",
       "city": "Galveston",
       "rating": 5,
-      "date": "2024-07-29"
+      "date": "2024-06-23"
     },
     {
       "id": "guide-galveston-8-review-1",
-      "quote": "We felt completely at ease with Audrey Porter. Their brilliant style made even complex topics accessible and fun.",
-      "author": "Bobby Henderson",
+      "quote": "We had a dedicated time with Christine Khan. Her passion for regional cooking techniques was evident throughout the tour.",
+      "author": "Steven Dubois",
       "title": "Verified Tour Participant",
       "city": "Galveston",
       "rating": 5,
-      "date": "2024-08-03"
+      "date": "2024-10-17"
     },
     {
       "id": "guide-galveston-8-review-2",
-      "quote": "We felt completely at ease with Audrey Porter. Her generous style made even complex topics accessible and fun.",
-      "author": "Olivia West",
+      "quote": "Christine Khan didn’t just give us a tour—His gave us a connection to the city through flexible storytelling.",
+      "author": "Aaron Davis",
       "title": "Verified Tour Participant",
       "city": "Galveston",
-      "rating": 5,
-      "date": "2024-09-21"
+      "rating": 4,
+      "date": "2025-01-21"
     },
     {
       "id": "guide-galveston-8-review-3",
-      "quote": "I booked the tour last minute, but I’m so glad I did. Audrey Porter's amazing leadership and local tips were invaluable.",
-      "author": "Wayne Taylor",
+      "quote": "A truly wonderful experience thanks to Christine Khan. Their balance of facts and fun was exactly what we were hoping for.",
+      "author": "Nathan Johnson",
       "title": "Verified Tour Participant",
       "city": "Galveston",
       "rating": 5,
-      "date": "2025-04-25"
+      "date": "2025-05-24"
     }
   ],
   "guide-galveston-9": [
     {
       "id": "guide-galveston-9-review-0",
-      "quote": "A truly exceptional experience thanks to Jason Suzuki. His balance of facts and fun was exactly what we were hoping for.",
-      "author": "Ryan Grant",
+      "quote": "Wei Wells went above and beyond. His personable energy and personal touch made the day extra special.",
+      "author": "Margaret Suzuki",
       "title": "Verified Tour Participant",
       "city": "Galveston",
-      "rating": 4,
-      "date": "2024-10-28"
+      "rating": 3,
+      "date": "2024-09-09"
     },
     {
       "id": "guide-galveston-9-review-1",
-      "quote": "Jason Suzuki's tour was the highlight of our trip. His cheerful approach to sharing the history made everything interesting.",
-      "author": "Nicholas Jansen",
+      "quote": "We were lucky to have Wei Wells as our guide. His welcoming insights made a big difference in how we experienced Photography.",
+      "author": "Thandiwe Bennett",
       "title": "Verified Tour Participant",
       "city": "Galveston",
-      "rating": 5,
-      "date": "2025-01-15"
+      "rating": 4,
+      "date": "2024-08-29"
     },
     {
       "id": "guide-galveston-9-review-2",
-      "quote": "You’ll leave the tour smarter and smiling if Jason Suzuki is your guide. Her friendly energy is contagious.",
-      "author": "Anthony Williams",
+      "quote": "Our experience with Wei Wells was insightful. They showed us hidden gems we would have never found on our own.",
+      "author": "Alexander Maxwell",
       "title": "Verified Tour Participant",
       "city": "Galveston",
       "rating": 5,
-      "date": "2025-02-24"
+      "date": "2024-11-10"
     },
     {
       "id": "guide-galveston-9-review-3",
-      "quote": "You could tell that Jason Suzuki genuinely cares about what Their does. Their motivating nature was a highlight of our trip.",
-      "author": "Bobby Stewart",
+      "quote": "Wei Wells's tour was the highlight of our trip. His detail-oriented approach to sharing the history made everything interesting.",
+      "author": "Khalid Wells",
       "title": "Verified Tour Participant",
       "city": "Galveston",
       "rating": 5,
-      "date": "2024-09-29"
+      "date": "2024-12-13"
     }
   ],
   "guide-galveston-10": [
     {
       "id": "guide-galveston-10-review-0",
-      "quote": "Isabella Wang delivered a perfect mix of history, humor, and heart. His helpful delivery kept us engaged throughout.",
-      "author": "Sandra Jennings",
+      "quote": "Wayne Graves was an charming guide who truly brought the city to life. Their knowledge of Local Dance was impressive.",
+      "author": "Janet Carpenter",
       "title": "Verified Tour Participant",
       "city": "Galveston",
       "rating": 5,
-      "date": "2025-02-14"
+      "date": "2025-01-26"
     },
     {
       "id": "guide-galveston-10-review-1",
-      "quote": "Isabella Wang went above and beyond. His friendly energy and personal touch made the day extra special.",
-      "author": "Rachel Crawford",
+      "quote": "We felt completely at ease with Wayne Graves. His excellent style made even complex topics accessible and fun.",
+      "author": "Kevin Palmer",
       "title": "Verified Tour Participant",
       "city": "Galveston",
       "rating": 5,
-      "date": "2025-04-29"
+      "date": "2025-01-18"
     },
     {
       "id": "guide-galveston-10-review-2",
-      "quote": "Isabella Wang brought warmth and attentive energy to the day. Her made us feel like locals instead of tourists.",
-      "author": "Zola Chambers",
+      "quote": "I’ve taken many tours, but Wayne Graves's was by far the most knowledgeable. Her storytelling ability was incredible.",
+      "author": "Diego Thomas",
       "title": "Verified Tour Participant",
       "city": "Galveston",
-      "rating": 3,
-      "date": "2025-01-10"
+      "rating": 5,
+      "date": "2024-07-13"
     }
   ],
   "guide-galveston-11": [
     {
       "id": "guide-galveston-11-review-0",
-      "quote": "Keith Wright created an environment that was both informative and relaxing. Her passionate approach kept everyone engaged.",
-      "author": "Dylan Clark",
+      "quote": "I highly recommend Keith Williams for anyone interested in Local Crafts. Their made our tour memorable.",
+      "author": "Charlotte Kowalski",
       "title": "Verified Tour Participant",
       "city": "Galveston",
       "rating": 5,
-      "date": "2024-12-23"
+      "date": "2024-08-25"
     },
     {
       "id": "guide-galveston-11-review-1",
-      "quote": "Keith Wright tailored the tour perfectly to our interests. His superb nature made everyone feel welcome.",
-      "author": "Nicholas Mitchell",
-      "title": "Verified Tour Participant",
-      "city": "Galveston",
-      "rating": 4,
-      "date": "2025-02-15"
-    },
-    {
-      "id": "guide-galveston-11-review-2",
-      "quote": "Keith Wright was an professional guide who truly brought the city to life. His knowledge of Art Walks was impressive.",
-      "author": "Sophia Davis",
+      "quote": "Every moment with Keith Williams felt intentional. His approachable guidance made this one of the best parts of our trip.",
+      "author": "Roger Carpenter",
       "title": "Verified Tour Participant",
       "city": "Galveston",
       "rating": 5,
-      "date": "2024-11-09"
+      "date": "2025-05-05"
+    },
+    {
+      "id": "guide-galveston-11-review-2",
+      "quote": "From start to finish, Keith Williams delivered a outstanding experience. Their expertise and care were unmatched.",
+      "author": "Walter Young",
+      "title": "Verified Tour Participant",
+      "city": "Galveston",
+      "rating": 5,
+      "date": "2024-07-31"
     }
   ],
   "guide-galveston-12": [
     {
       "id": "guide-galveston-12-review-0",
-      "quote": "A truly genuine experience thanks to Aria Curtis. Their balance of facts and fun was exactly what we were hoping for.",
-      "author": "Alexander Holloway",
+      "quote": "Eugene Coleman created an environment that was both informative and relaxing. His motivating approach kept everyone engaged.",
+      "author": "Raymond Graham",
       "title": "Verified Tour Participant",
       "city": "Galveston",
-      "rating": 5,
-      "date": "2024-11-02"
+      "rating": 4,
+      "date": "2025-05-16"
     },
     {
       "id": "guide-galveston-12-review-1",
-      "quote": "I’ve taken many tours, but Aria Curtis's was by far the most exceptional. Her storytelling ability was incredible.",
-      "author": "Muhammad Lawson",
+      "quote": "Touring with Eugene Coleman was a delight. Her incredible personality and deep knowledge made the experience unforgettable.",
+      "author": "Gerald Jackson",
       "title": "Verified Tour Participant",
       "city": "Galveston",
-      "rating": 5,
-      "date": "2025-04-22"
+      "rating": 4,
+      "date": "2024-09-26"
     },
     {
       "id": "guide-galveston-12-review-2",
-      "quote": "What an helpful experience with Aria Curtis! Their expertise in Shopping added so much value to our visit.",
-      "author": "Mark Foster",
+      "quote": "Every moment with Eugene Coleman felt intentional. His excellent guidance made this one of the best parts of our trip.",
+      "author": "Linda Douglas",
       "title": "Verified Tour Participant",
       "city": "Galveston",
       "rating": 5,
-      "date": "2024-09-22"
+      "date": "2024-08-08"
     }
   ],
   "guide-galveston-13": [
     {
       "id": "guide-galveston-13-review-0",
-      "quote": "Austin Coleman has a gift for storytelling. The entire group was engaged, laughing, and learning—it was such a genuine time.",
-      "author": "Muhammad Smith",
+      "quote": "A truly generous experience thanks to Wayne Ellis. Her balance of facts and fun was exactly what we were hoping for.",
+      "author": "Adam Gibson",
       "title": "Verified Tour Participant",
       "city": "Galveston",
       "rating": 5,
-      "date": "2025-05-15"
+      "date": "2025-04-15"
     },
     {
       "id": "guide-galveston-13-review-1",
-      "quote": "Austin Coleman's tour was the highlight of our trip. Their patient approach to sharing the history made everything interesting.",
-      "author": "Donna Garcia",
+      "quote": "Wayne Ellis is simply reliable. The tour was well-paced and Her attention to detail was remarkable.",
+      "author": "Kennedy Campbell",
       "title": "Verified Tour Participant",
       "city": "Galveston",
-      "rating": 4,
-      "date": "2024-12-28"
+      "rating": 5,
+      "date": "2024-09-23"
     },
     {
       "id": "guide-galveston-13-review-2",
-      "quote": "Austin Coleman is simply resourceful. The tour was well-paced and His attention to detail was remarkable.",
-      "author": "Anna Williams",
+      "quote": "Wayne Ellis went above and beyond. Her thoughtful energy and personal touch made the day extra special.",
+      "author": "Robert Reeves",
       "title": "Verified Tour Participant",
       "city": "Galveston",
-      "rating": 4,
-      "date": "2024-11-08"
+      "rating": 5,
+      "date": "2024-08-21"
     }
   ]
 };

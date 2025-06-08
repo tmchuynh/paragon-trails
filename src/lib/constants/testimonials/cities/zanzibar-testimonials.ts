@@ -1,61 +1,63 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Zanzibar
+// Generated on 2025-06-08T04:09:38.711Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const zanzibarTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-zanzibar-1",
-    quote: "Living in Zanzibar has opened my eyes to {PERSONAL_GROWTH_ASPECT} that I never expected.",
-    author: "Ana Miller",
-    title: "The Heartbeat of Zanzibar Life",
+    quote: "I've found that Zanzibar's {TRANSPORT_FEATURE} really makes getting around effortless and enjoyable.",
+    author: "Ethan Wilson",
+    title: "Finding Inspiration Every Day in Zanzibar",
     city: "Zanzibar",
-    rating: 4.6,
-    date: "2023-12-13"
+    rating: 4.3,
+    date: "2024-04-05"
   },
   {
     id: "city-testimonial-zanzibar-2",
-    quote: "The seasonal outdoor festivals in Zanzibar makes everyday life feel like an adventure. I've been here 20 years and still discover new things.",
-    author: "Brenda Curtis",
-    title: "How Zanzibar Changed My Life",
+    quote: "The nightlife in Zanzibar is vibrant and full of {ENTERTAINMENT_FEATURE} for everyone.",
+    author: "Margaret Payne",
+    title: "Why I’m Proud to Call Zanzibar Home",
     city: "Zanzibar",
-    rating: 4.3,
-    date: "2023-08-11"
+    rating: 4.9,
+    date: "2023-12-13"
   },
   {
     id: "city-testimonial-zanzibar-3",
-    quote: "Despite its size, Zanzibar manages to feel {SMALL_TOWN_QUALITY}, which is rare and wonderful.",
-    author: "Philip Bennett",
-    title: "Uncovering the Layers of Zanzibar",
+    quote: "The historical significance of Zanzibar adds a depth to daily life that I truly cherish.",
+    author: "Layla Lopez",
+    title: "The Community Spirit That Defines Zanzibar",
     city: "Zanzibar",
-    rating: 4.5,
-    date: "2025-06-02"
+    rating: 4.6,
+    date: "2024-06-14"
   },
   {
     id: "city-testimonial-zanzibar-4",
-    quote: "The {TRANQUILITY_FEATURE} in Zanzibar offers a peaceful retreat from the busy world.",
-    author: "Amina Gonzalez",
-    title: "Zanzibar: Beyond the Tourist Experience",
+    quote: "The cost of living in Zanzibar is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
+    author: "Juan Müller",
+    title: "Life in Zanzibar: A Local Perspective",
     city: "Zanzibar",
-    rating: 4.4,
-    date: "2025-03-10"
+    rating: 4.1,
+    date: "2023-04-11"
   },
   {
     id: "city-testimonial-zanzibar-5",
-    quote: "What most people don't realize about living in Zanzibar is how inclusive it actually is. I've found my true home here.",
-    author: "Daniel Edwards",
-    title: "Zanzibar: A City That Grows With You",
+    quote: "As a veteran resident of Zanzibar, I can't imagine living anywhere else. The healthcare system here is something you can't find elsewhere.",
+    author: "Abigail Khan",
+    title: "The Everyday Magic of Zanzibar",
     city: "Zanzibar",
-    rating: 4.4,
-    date: "2023-09-22"
+    rating: 4.9,
+    date: "2023-04-01"
   },
   {
     id: "city-testimonial-zanzibar-6",
-    quote: "One thing I didn’t expect when moving to Zanzibar was the {WEATHER_FEATURE}—it’s truly refreshing.",
-    author: "Ellie Morales",
-    title: "The Vibrant Life of Zanzibar Residents",
+    quote: "No two days are the same living in Zanzibar. The {DYNAMIC_ASPECT} keeps me excited to wake up every morning.",
+    author: "Patricia Lopez",
+    title: "Life in Zanzibar: A Local Perspective",
     city: "Zanzibar",
-    rating: 4,
-    date: "2025-06-14"
+    rating: 5,
+    date: "2023-11-26"
   }
 ];

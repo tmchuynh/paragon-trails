@@ -1,61 +1,72 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Budapest
+// Generated on 2025-06-08T04:09:38.702Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const budapestTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-budapest-1",
-    quote: "Every weekend in Budapest brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
-    author: "Yuki Hudson",
-    title: "The Unexpected Joys of Budapest Living",
+    quote: "Living in Budapest means experiencing cultural immersion on a daily basis, which is why I could never leave.",
+    author: "Brooklyn Ali",
+    title: "Stories From the Streets of Budapest",
     city: "Budapest",
-    rating: 4.7,
-    date: "2025-06-20"
+    rating: 4.2,
+    date: "2023-09-10"
   },
   {
     id: "city-testimonial-budapest-2",
-    quote: "Budapest has been my home for seasoned, and the youth organizations here is what keeps me rooted.",
-    author: "Liam Bennett",
-    title: "What Makes Budapest Uniquely Livable",
+    quote: "The sense of {SAFETY} in Budapest makes me feel comfortable raising my kids here.",
+    author: "Madelyn Jackson",
+    title: "Living Sustainably in Budapest",
     city: "Budapest",
-    rating: 4.9,
-    date: "2025-09-18"
+    rating: 4,
+    date: "2024-12-24"
   },
   {
     id: "city-testimonial-budapest-3",
-    quote: "Budapest's film scene has become central to my life here. I couldn't imagine living without it now.",
-    author: "Richard Johnson",
-    title: "What Makes Budapest Special to Live In",
+    quote: "What I love most about living in Budapest is the network of bike paths. It creates such a unique atmosphere that feels like home.",
+    author: "Sean Taylor",
+    title: "The Heartbeat of Budapest Life",
     city: "Budapest",
-    rating: 4.9,
-    date: "2025-11-05"
+    rating: 4.4,
+    date: "2025-08-13"
   },
   {
     id: "city-testimonial-budapest-4",
-    quote: "No two days are the same living in Budapest. The {DYNAMIC_ASPECT} keeps me excited to wake up every morning.",
-    author: "Patricia Wells",
-    title: "Discovering Home in Budapest",
+    quote: "Living in Budapest means I get to enjoy {SPORTS_OR_OUTDOOR_ACTIVITY} year-round.",
+    author: "Ava Patel",
+    title: "Uncovering the Layers of Budapest",
     city: "Budapest",
-    rating: 4.9,
-    date: "2023-11-19"
+    rating: 4.4,
+    date: "2023-12-05"
   },
   {
     id: "city-testimonial-budapest-5",
-    quote: "As someone who's lived in many cities, I can say that Budapest's natural integration is unmatched anywhere else.",
-    author: "William Payne",
+    quote: "The nightlife in Budapest is vibrant and full of {ENTERTAINMENT_FEATURE} for everyone.",
+    author: "Hannah Anderson",
     title: "What I Love About Living in Budapest",
     city: "Budapest",
-    rating: 4.9,
-    date: "2024-02-05"
+    rating: 4.5,
+    date: "2025-10-13"
   },
   {
     id: "city-testimonial-budapest-6",
-    quote: "The {GREEN_SPACES} in Budapest offer a perfect escape from the urban buzz without leaving the city limits.",
-    author: "Virginia Fisher",
-    title: "My Budapest Story: Life as a Resident",
+    quote: "I appreciate how Budapest balances {TECH_INNOVATION} with historic charm perfectly.",
+    author: "Samantha Jones",
+    title: "My Corner of Budapest",
     city: "Budapest",
-    rating: 5,
-    date: "2025-05-13"
+    rating: 4.3,
+    date: "2025-11-06"
+  },
+  {
+    id: "city-testimonial-budapest-7",
+    quote: "Budapest's nightlife scene has become central to my life here. I couldn't imagine living without it now.",
+    author: "Helen Hawkins",
+    title: "Why I Chose Budapest as Home",
+    city: "Budapest",
+    rating: 4.7,
+    date: "2023-12-19"
   }
 ];

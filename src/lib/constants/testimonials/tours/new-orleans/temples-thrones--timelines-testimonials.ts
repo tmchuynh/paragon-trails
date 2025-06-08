@@ -1,141 +1,131 @@
 // This file is auto-generated. Do not edit manually.
+  // Generated for tour: Temples, Thrones & Timelines in new-orleans
+
+
+  // Generated on 2025-06-08T04:09:38.769Z
+
+
   import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const templesThronesTimelinesTestimonials: Testimonial[] = [
   {
     id: "testimonial-tour-new-orleans-2-1",
-    quote: "This tour is a hidden gem — just like the spots Lerato Ellis showed us around New Orleans.",
-    author: "Nicole Thomas",
-    title: "Where Magic Meets Cobblestone",
-    rating: 4.6,
-    date: "2017-08-22"
+    quote: "This was more than just sightseeing — it was an unforgettable journey through New Orleans's culture and history.",
+    author: "Raymond Martinez",
+    title: "A Deep Dive into Local Culture",
+    rating: 4.3,
+    date: "2020-09-18"
   },
   {
     id: "testimonial-tour-new-orleans-2-2",
-    quote: "I've been on many tours, but this one stands out. Lerato Ellis was passionate, knowledgeable, and made everyone feel welcome.",
-    author: "Bryan Hudson",
-    title: "Absolutely Fantastic!",
-    rating: 4.7,
-    date: "2023-11-30"
+    quote: "If you're visiting New Orleans, the Temples, Thrones & Timelines is a must! Hannah Hayes made the history come alive in a way guidebooks never could.",
+    author: "Jerry Harris",
+    title: "A Stroll Through a Living Storybook",
+    rating: 3.8,
+    date: "2017-03-28"
   },
   {
     id: "testimonial-tour-new-orleans-2-3",
-    quote: "The stories, the hidden gems, the expert navigation — Lerato Ellis delivered on all fronts.",
-    author: "Bobby Kowalski",
-    title: "An Unexpected Highlight",
-    rating: 4.5,
-    date: "2021-08-21"
+    quote: "This tour gave us a much deeper connection to New Orleans. Hannah Hayes's passion really shines through.",
+    author: "Mark Wells",
+    title: "A Tour That Feels Like a Movie",
+    rating: 4.9,
+    date: "2020-05-27"
   },
   {
     id: "testimonial-tour-new-orleans-2-4",
-    quote: "This tour was absolutely amazing! Lerato Ellis knew everything about New Orleans and showed us places we would have never found on our own.",
-    author: "Barbara Moore",
-    title: "The Walking Was Free—The Laughs Were Priceless",
-    rating: 4.4,
-    date: "2023-08-01"
+    quote: "I've been on many tours, but this one stands out. Hannah Hayes was passionate, knowledgeable, and made everyone feel welcome.",
+    author: "Claire West",
+    title: "Whispers of the Past, Echoes of Joy",
+    rating: 4.3,
+    date: "2022-08-21"
   },
   {
     id: "testimonial-tour-new-orleans-2-5",
-    quote: "So much fun, and so informative! Lerato Ellis's enthusiasm is contagious.",
-    author: "George Lewis",
-    title: "Sunlight, Stories, and Serendipity",
+    quote: "Our family loved every moment of the Temples, Thrones & Timelines. Hannah Hayes even made it fun for our kids.",
+    author: "Sandra Dubois",
+    title: "Followed the Guide, Found a Dream",
     rating: 4.9,
-    date: "2018-06-05"
+    date: "2018-05-25"
   },
   {
     id: "testimonial-tour-new-orleans-2-6",
-    quote: "We left the Temples, Thrones & Timelines feeling more connected to New Orleans than we ever expected.",
-    author: "Audrey Mitchell",
-    title: "Fun, Friendly, and Full of Insight",
-    rating: 4.8,
-    date: "2019-02-04"
+    quote: "Even the locals in our group said they learned something new. That says a lot about Hannah Hayes's depth.",
+    author: "Jacob Murray",
+    title: "Top-Notch Guiding",
+    rating: 4.5,
+    date: "2018-11-10"
   },
   {
     id: "testimonial-tour-new-orleans-2-7",
-    quote: "As a solo traveler, I felt completely comfortable on this tour. Lerato Ellis created a friendly atmosphere from the start.",
-    author: "Youssef Graves",
-    title: "The Real New Orleans Experience",
-    rating: 3.6,
-    date: "2021-01-02"
+    quote: "Hannah Hayes's enthusiasm for New Orleans was contagious. We walked away feeling inspired.",
+    author: "Isabella Khan",
+    title: "If Cities Had Souls, New Orleans Sang to Us",
+    rating: 5,
+    date: "2024-07-12"
   },
   {
     id: "testimonial-tour-new-orleans-2-8",
-    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Lerato Ellis.",
-    author: "Helen Edwards",
-    title: "Loved Every Minute",
-    rating: 3.8,
-    date: "2021-09-20"
+    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Hannah Hayes.",
+    author: "Gabriel Fisher",
+    title: "Felt Like a Character in a Fairytale",
+    rating: 4.9,
+    date: "2020-06-10"
   },
   {
     id: "testimonial-tour-new-orleans-2-9",
-    quote: "Even our teens were engaged the entire time — Lerato Ellis knows how to captivate a group!",
-    author: "Stella Carter",
-    title: "Cultural Immersion at Its Best",
-    rating: 4.3,
-    date: "2017-07-18"
-  },
-  {
-    id: "testimonial-tour-new-orleans-2-10",
-    quote: "My partner and I didn’t want the tour to end. Lerato Ellis is that engaging and informative.",
-    author: "Ariana Davis",
-    title: "Unforgettable Experience",
-    rating: 4.4,
-    date: "2023-11-20"
-  },
-  {
-    id: "testimonial-tour-new-orleans-2-11",
-    quote: "This was not just sightseeing — it was a deep dive into the heart of New Orleans thanks to Lerato Ellis.",
-    author: "Muhammad Lopez",
-    title: "The Real New Orleans Experience",
-    rating: 4.5,
-    date: "2019-12-22"
-  },
-  {
-    id: "testimonial-tour-new-orleans-2-12",
-    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Lerato Ellis.",
-    author: "Emily Moore",
-    title: "Absolutely Fantastic!",
-    rating: 4.8,
-    date: "2022-10-12"
-  },
-  {
-    id: "testimonial-tour-new-orleans-2-13",
-    quote: "Lerato Ellis had such a great balance of history, fun facts, and local stories — truly a gifted guide.",
-    author: "Ronald Harris",
-    title: "So Glad We Did This",
-    rating: 3.9,
-    date: "2024-11-24"
-  },
-  {
-    id: "testimonial-tour-new-orleans-2-14",
-    quote: "This tour gave us a much deeper connection to New Orleans. Lerato Ellis's passion really shines through.",
-    author: "Jessica Mitchell",
-    title: "Cultural Immersion at Its Best",
-    rating: 4.6,
-    date: "2020-05-24"
-  },
-  {
-    id: "testimonial-tour-new-orleans-2-15",
-    quote: "What an engaging experience! Lerato Ellis kept us laughing and learning throughout the Temples, Thrones & Timelines.",
-    author: "Vincent Watson",
-    title: "A Journey Through New Orleans's Hidden Treasures",
-    rating: 4.3,
+    quote: "This was more than just sightseeing — it was an unforgettable journey through New Orleans's culture and history.",
+    author: "Nancy Anderson",
+    title: "Fun, Friendly, and Full of Insight",
+    rating: 4.2,
     date: "2018-08-12"
   },
   {
-    id: "testimonial-tour-new-orleans-2-16",
-    quote: "So much fun, and so informative! Lerato Ellis's enthusiasm is contagious.",
-    author: "Janet Dean",
-    title: "Followed the Guide, Found a Dream",
-    rating: 4.6,
-    date: "2021-03-15"
+    id: "testimonial-tour-new-orleans-2-10",
+    quote: "Hannah Hayes brought a depth of cultural insight that gave us a new appreciation for New Orleans.",
+    author: "Juan Edwards",
+    title: "Would Follow This Guide Into Battle",
+    rating: 3.9,
+    date: "2020-08-03"
   },
   {
-    id: "testimonial-tour-new-orleans-2-17",
-    quote: "Lerato Ellis went above and beyond to make sure everyone had a great time on the Temples, Thrones & Timelines.",
-    author: "Nancy Patel",
-    title: "A Walk That Will Make You Want to Dance",
-    rating: 3.5,
-    date: "2017-11-18"
+    id: "testimonial-tour-new-orleans-2-11",
+    quote: "My father and I didn’t want the tour to end. Hannah Hayes is that engaging and informative.",
+    author: "Edward Wallace",
+    title: "Local Experience Made Easy",
+    rating: 4.3,
+    date: "2017-02-18"
+  },
+  {
+    id: "testimonial-tour-new-orleans-2-12",
+    quote: "My workmate and I agreed this was the best part of our entire trip to New Orleans.",
+    author: "Ralph Bennett",
+    title: "Brought New Orleans to Life",
+    rating: 3.9,
+    date: "2024-02-11"
+  },
+  {
+    id: "testimonial-tour-new-orleans-2-13",
+    quote: "Hannah Hayes was incredibly accommodating and answered every question with patience and detail.",
+    author: "Aria Nash",
+    title: "A Day to Remember",
+    rating: 5,
+    date: "2017-10-19"
+  },
+  {
+    id: "testimonial-tour-new-orleans-2-14",
+    quote: "I was nervous about joining a group tour, but Hannah Hayes made everyone feel like part of the crew.",
+    author: "Bruce Young",
+    title: "A Journey Through New Orleans's Magic",
+    rating: 4.6,
+    date: "2017-10-27"
+  },
+  {
+    id: "testimonial-tour-new-orleans-2-15",
+    quote: "We got so much value from this tour. Hannah Hayes took us to places we would have never discovered on our own.",
+    author: "Thandiwe Moore",
+    title: "A Journey Through New Orleans's Culture",
+    rating: 3.8,
+    date: "2021-05-16"
   }
 ];

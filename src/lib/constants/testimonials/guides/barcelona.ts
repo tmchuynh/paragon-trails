@@ -1,395 +1,363 @@
 // This file is auto-generated. Do not edit manually.
 // Tour guide reviews for barcelona
+// City: Barcelona
+// Country: spain
+// Region: catalonia
+// Generated on: 2025-06-08T04:09:38.244Z
 export const barcelonaGuideReviews = {
   "guide-barcelona-1": [
     {
       "id": "guide-barcelona-1-review-0",
-      "quote": "From start to finish, Sophia Warren delivered a attentive experience. Their expertise and care were unmatched.",
-      "author": "Elena Anderson",
+      "quote": "The way Gary Lee brought Cultural Heritage to life was truly captivating. You could tell His loves what His does.",
+      "author": "Sophia Gardner",
       "title": "Verified Tour Participant",
       "city": "Barcelona",
       "rating": 5,
-      "date": "2025-03-25"
+      "date": "2024-07-17"
     },
     {
       "id": "guide-barcelona-1-review-1",
-      "quote": "I’ve traveled a lot, but this was one of the most approachable tours I’ve ever taken. Sophia Warren was fantastic from start to finish.",
-      "author": "Donna Morgan",
+      "quote": "Gary Lee tailored the tour perfectly to our interests. Her reliable nature made everyone feel welcome.",
+      "author": "Isabella Williams",
       "title": "Verified Tour Participant",
       "city": "Barcelona",
       "rating": 5,
-      "date": "2024-12-26"
+      "date": "2024-09-12"
     },
     {
       "id": "guide-barcelona-1-review-2",
-      "quote": "What an genuine experience with Sophia Warren! Their expertise in Outdoor Activities added so much value to our visit.",
-      "author": "Gary Dunn",
+      "quote": "It’s rare to find a guide as generous as Gary Lee. His ability to connect with people from all walks of life was exceptional.",
+      "author": "Ali Harris",
       "title": "Verified Tour Participant",
       "city": "Barcelona",
-      "rating": 3,
-      "date": "2024-09-08"
+      "rating": 5,
+      "date": "2024-08-11"
+    },
+    {
+      "id": "guide-barcelona-1-review-3",
+      "quote": "You could tell that Gary Lee genuinely cares about what His does. His genuine nature was a highlight of our trip.",
+      "author": "Dennis Griffin",
+      "title": "Verified Tour Participant",
+      "city": "Barcelona",
+      "rating": 4,
+      "date": "2024-09-02"
     }
   ],
   "guide-barcelona-2": [
     {
       "id": "guide-barcelona-2-review-0",
-      "quote": "Juan Lee brought warmth and trustworthy energy to the day. Their made us feel like locals instead of tourists.",
-      "author": "Sofia Spencer",
+      "quote": "I booked the tour last minute, but I’m so glad I did. Patricia Stewart's enthusiastic leadership and local tips were invaluable.",
+      "author": "Ashley Jennings",
       "title": "Verified Tour Participant",
       "city": "Barcelona",
-      "rating": 4,
-      "date": "2025-03-28"
+      "rating": 5,
+      "date": "2025-05-23"
     },
     {
       "id": "guide-barcelona-2-review-1",
-      "quote": "If you’re looking for a captivating experience in museums and exhibits, Juan Lee is the one to book. His professionalism stood out.",
-      "author": "Scott Collins",
+      "quote": "From start to finish, Patricia Stewart delivered a excellent experience. Her expertise and care were unmatched.",
+      "author": "Mei Dean",
       "title": "Verified Tour Participant",
       "city": "Barcelona",
       "rating": 5,
-      "date": "2025-06-03"
+      "date": "2025-01-11"
     },
     {
       "id": "guide-barcelona-2-review-2",
-      "quote": "You’ll leave the tour smarter and smiling if Juan Lee is your guide. Her enthusiastic energy is contagious.",
-      "author": "Ryan Crawford",
-      "title": "Verified Tour Participant",
-      "city": "Barcelona",
-      "rating": 4,
-      "date": "2025-02-25"
-    },
-    {
-      "id": "guide-barcelona-2-review-3",
-      "quote": "I wasn’t expecting to learn so much and enjoy it this much. Juan Lee was detail-oriented and incredibly knowledgeable.",
-      "author": "Benjamin Hernandez",
+      "quote": "Patricia Stewart brought warmth and remarkable energy to the day. Her made us feel like locals instead of tourists.",
+      "author": "William Maxwell",
       "title": "Verified Tour Participant",
       "city": "Barcelona",
       "rating": 5,
-      "date": "2025-03-10"
+      "date": "2024-12-21"
+    },
+    {
+      "id": "guide-barcelona-2-review-3",
+      "quote": "Patricia Stewart went above and beyond. Her dedicated energy and personal touch made the day extra special.",
+      "author": "Blake Rossi",
+      "title": "Verified Tour Participant",
+      "city": "Barcelona",
+      "rating": 5,
+      "date": "2025-01-15"
     }
   ],
   "guide-barcelona-3": [
     {
       "id": "guide-barcelona-3-review-0",
-      "quote": "A truly helpful experience thanks to Genesis Taylor. Her balance of facts and fun was exactly what we were hoping for.",
-      "author": "Gregory Wright",
+      "quote": "What an insightful experience with Maya Martin! Their expertise in Local Markets added so much value to our visit.",
+      "author": "Lisa Moore",
       "title": "Verified Tour Participant",
       "city": "Barcelona",
-      "rating": 5,
-      "date": "2024-08-31"
+      "rating": 4,
+      "date": "2025-02-06"
     },
     {
       "id": "guide-barcelona-3-review-1",
-      "quote": "What an dedicated experience with Genesis Taylor! His expertise in Nightlife added so much value to our visit.",
-      "author": "Hiroshi Hudson",
+      "quote": "Every moment with Maya Martin felt intentional. His attentive guidance made this one of the best parts of our trip.",
+      "author": "Antonio Fisher",
       "title": "Verified Tour Participant",
       "city": "Barcelona",
       "rating": 5,
-      "date": "2025-05-13"
+      "date": "2024-09-16"
     },
     {
       "id": "guide-barcelona-3-review-2",
-      "quote": "I’ve taken many tours, but Genesis Taylor's was by far the most genuine. Her storytelling ability was incredible.",
-      "author": "Nomsa Rossi",
+      "quote": "Maya Martin has a gift for storytelling. The entire group was engaged, laughing, and learning—it was such a insightful time.",
+      "author": "Ahmed Gibson",
       "title": "Verified Tour Participant",
       "city": "Barcelona",
       "rating": 5,
-      "date": "2024-12-30"
-    },
-    {
-      "id": "guide-barcelona-3-review-3",
-      "quote": "Genesis Taylor created an environment that was both informative and relaxing. Their fantastic approach kept everyone engaged.",
-      "author": "Mary Henderson",
-      "title": "Verified Tour Participant",
-      "city": "Barcelona",
-      "rating": 3,
-      "date": "2024-12-20"
+      "date": "2024-11-30"
     }
   ],
   "guide-barcelona-4": [
     {
       "id": "guide-barcelona-4-review-0",
-      "quote": "We were lucky to have Khalid Davis as our guide. Her patient insights made a big difference in how we experienced Local Cuisine.",
-      "author": "Julie Wallace",
-      "title": "Verified Tour Participant",
-      "city": "Barcelona",
-      "rating": 4,
-      "date": "2025-05-07"
-    },
-    {
-      "id": "guide-barcelona-4-review-1",
-      "quote": "We had a trustworthy time with Khalid Davis. Her passion for Local Cuisine was evident throughout the tour.",
-      "author": "Alexander Dean",
+      "quote": "I wasn’t expecting to learn so much and enjoy it this much. Antonio Patel was thorough and incredibly knowledgeable.",
+      "author": "Stephanie Miller",
       "title": "Verified Tour Participant",
       "city": "Barcelona",
       "rating": 5,
-      "date": "2025-03-01"
+      "date": "2024-08-11"
+    },
+    {
+      "id": "guide-barcelona-4-review-1",
+      "quote": "Antonio Patel delivered a perfect mix of history, humor, and heart. Their flexible delivery kept us engaged throughout.",
+      "author": "Muhammad Maxwell",
+      "title": "Verified Tour Participant",
+      "city": "Barcelona",
+      "rating": 5,
+      "date": "2025-01-06"
     },
     {
       "id": "guide-barcelona-4-review-2",
-      "quote": "Our experience with Khalid Davis was welcoming. She showed us hidden gems we would have never found on our own.",
-      "author": "Ariana Palmer",
+      "quote": "We felt completely at ease with Antonio Patel. Their knowledgeable style made even complex topics accessible and fun.",
+      "author": "Harper Davis",
+      "title": "Verified Tour Participant",
+      "city": "Barcelona",
+      "rating": 4,
+      "date": "2025-01-18"
+    }
+  ],
+  "guide-barcelona-5": [
+    {
+      "id": "guide-barcelona-5-review-0",
+      "quote": "A truly incredible experience thanks to Layla Fisher. Her balance of facts and fun was exactly what we were hoping for.",
+      "author": "Rajesh Ali",
+      "title": "Verified Tour Participant",
+      "city": "Barcelona",
+      "rating": 4,
+      "date": "2025-02-10"
+    },
+    {
+      "id": "guide-barcelona-5-review-1",
+      "quote": "If you’re looking for a welcoming experience in Public Transportation Navigation, Layla Fisher is the one to book. His professionalism stood out.",
+      "author": "John Russell",
+      "title": "Verified Tour Participant",
+      "city": "Barcelona",
+      "rating": 3,
+      "date": "2025-02-13"
+    },
+    {
+      "id": "guide-barcelona-5-review-2",
+      "quote": "Layla Fisher made even the smallest detail feel important. His inspiring touch made this tour stand out from the rest.",
+      "author": "Priya Müller",
+      "title": "Verified Tour Participant",
+      "city": "Barcelona",
+      "rating": 5,
+      "date": "2024-06-22"
+    }
+  ],
+  "guide-barcelona-6": [
+    {
+      "id": "guide-barcelona-6-review-0",
+      "quote": "Our experience with Randy Reed was captivating. She showed us hidden gems we would have never found on our own.",
+      "author": "Lerato Dubois",
+      "title": "Verified Tour Participant",
+      "city": "Barcelona",
+      "rating": 4,
+      "date": "2025-03-17"
+    },
+    {
+      "id": "guide-barcelona-6-review-1",
+      "quote": "We had a engaging time with Randy Reed. Her passion for Hidden Treasures was evident throughout the tour.",
+      "author": "Elijah Müller",
+      "title": "Verified Tour Participant",
+      "city": "Barcelona",
+      "rating": 3,
+      "date": "2025-04-07"
+    },
+    {
+      "id": "guide-barcelona-6-review-2",
+      "quote": "You could tell that Randy Reed genuinely cares about what Their does. Their thoughtful nature was a highlight of our trip.",
+      "author": "Amelia Gibson",
+      "title": "Verified Tour Participant",
+      "city": "Barcelona",
+      "rating": 5,
+      "date": "2025-02-11"
+    }
+  ],
+  "guide-barcelona-7": [
+    {
+      "id": "guide-barcelona-7-review-0",
+      "quote": "I booked the tour last minute, but I’m so glad I did. Aaliyah King's engaging leadership and local tips were invaluable.",
+      "author": "John Morgan",
+      "title": "Verified Tour Participant",
+      "city": "Barcelona",
+      "rating": 5,
+      "date": "2025-04-06"
+    },
+    {
+      "id": "guide-barcelona-7-review-1",
+      "quote": "Aaliyah King has a gift for storytelling. The entire group was engaged, laughing, and learning—it was such a inspiring time.",
+      "author": "Janet Müller",
+      "title": "Verified Tour Participant",
+      "city": "Barcelona",
+      "rating": 5,
+      "date": "2024-06-16"
+    },
+    {
+      "id": "guide-barcelona-7-review-2",
+      "quote": "We were lucky to have Aaliyah King as our guide. His incredible insights made a big difference in how we experienced Wildlife.",
+      "author": "Mateo Mason",
+      "title": "Verified Tour Participant",
+      "city": "Barcelona",
+      "rating": 5,
+      "date": "2024-10-28"
+    },
+    {
+      "id": "guide-barcelona-7-review-3",
+      "quote": "You could tell that Aaliyah King genuinely cares about what Her does. Her inspiring nature was a highlight of our trip.",
+      "author": "Daniel Lopez",
+      "title": "Verified Tour Participant",
+      "city": "Barcelona",
+      "rating": 5,
+      "date": "2024-07-23"
+    }
+  ],
+  "guide-barcelona-8": [
+    {
+      "id": "guide-barcelona-8-review-0",
+      "quote": "I’ve traveled a lot, but this was one of the most inspiring tours I’ve ever taken. Juan Lopez was fantastic from start to finish.",
+      "author": "Logan Jennings",
+      "title": "Verified Tour Participant",
+      "city": "Barcelona",
+      "rating": 4,
+      "date": "2025-02-05"
+    },
+    {
+      "id": "guide-barcelona-8-review-1",
+      "quote": "We were lucky to have Juan Lopez as our guide. His thoughtful insights made a big difference in how we experienced Cultural Experiences.",
+      "author": "Boris Nash",
       "title": "Verified Tour Participant",
       "city": "Barcelona",
       "rating": 5,
       "date": "2024-06-22"
     },
     {
-      "id": "guide-barcelona-4-review-3",
-      "quote": "I’ve taken many tours, but Khalid Davis's was by far the most incredible. His storytelling ability was incredible.",
-      "author": "Ethan Suzuki",
+      "id": "guide-barcelona-8-review-2",
+      "quote": "What an professional experience with Juan Lopez! Her expertise in Cultural Experiences added so much value to our visit.",
+      "author": "Darrell Crawford",
       "title": "Verified Tour Participant",
       "city": "Barcelona",
       "rating": 4,
-      "date": "2025-01-16"
-    }
-  ],
-  "guide-barcelona-5": [
-    {
-      "id": "guide-barcelona-5-review-0",
-      "quote": "Kyle Graham's tour was the highlight of our trip. His knowledgeable approach to sharing the history made everything interesting.",
-      "author": "Charlotte Keller",
-      "title": "Verified Tour Participant",
-      "city": "Barcelona",
-      "rating": 5,
-      "date": "2024-11-06"
-    },
-    {
-      "id": "guide-barcelona-5-review-1",
-      "quote": "I highly recommend Kyle Graham for anyone interested in City History. Her made our tour memorable.",
-      "author": "Philip White",
-      "title": "Verified Tour Participant",
-      "city": "Barcelona",
-      "rating": 5,
-      "date": "2024-06-11"
-    },
-    {
-      "id": "guide-barcelona-5-review-2",
-      "quote": "What an detail-oriented experience with Kyle Graham! Their expertise in architecture added so much value to our visit.",
-      "author": "Audrey Graves",
-      "title": "Verified Tour Participant",
-      "city": "Barcelona",
-      "rating": 5,
-      "date": "2025-03-11"
-    },
-    {
-      "id": "guide-barcelona-5-review-3",
-      "quote": "We had a passionate time with Kyle Graham. Her passion for art galleries was evident throughout the tour.",
-      "author": "Evelyn Carpenter",
-      "title": "Verified Tour Participant",
-      "city": "Barcelona",
-      "rating": 5,
-      "date": "2024-12-26"
-    }
-  ],
-  "guide-barcelona-6": [
-    {
-      "id": "guide-barcelona-6-review-0",
-      "quote": "Avery Hawkins's tour was the highlight of our trip. Her amazing approach to sharing the history made everything interesting.",
-      "author": "Madelyn Martinez",
-      "title": "Verified Tour Participant",
-      "city": "Barcelona",
-      "rating": 5,
-      "date": "2025-04-24"
-    },
-    {
-      "id": "guide-barcelona-6-review-1",
-      "quote": "Avery Hawkins went above and beyond. Their friendly energy and personal touch made the day extra special.",
-      "author": "Claire Ali",
-      "title": "Verified Tour Participant",
-      "city": "Barcelona",
-      "rating": 5,
-      "date": "2024-12-29"
-    },
-    {
-      "id": "guide-barcelona-6-review-2",
-      "quote": "Avery Hawkins was an accommodating guide who truly brought the city to life. Her knowledge of Cultural Experiences was impressive.",
-      "author": "Maya Dixon",
-      "title": "Verified Tour Participant",
-      "city": "Barcelona",
-      "rating": 5,
-      "date": "2024-12-28"
-    }
-  ],
-  "guide-barcelona-7": [
-    {
-      "id": "guide-barcelona-7-review-0",
-      "quote": "I’ve traveled a lot, but this was one of the most helpful tours I’ve ever taken. William Morgan was fantastic from start to finish.",
-      "author": "Diego Williams",
-      "title": "Verified Tour Participant",
-      "city": "Barcelona",
-      "rating": 5,
-      "date": "2025-05-16"
-    },
-    {
-      "id": "guide-barcelona-7-review-1",
-      "quote": "William Morgan didn’t just give us a tour—His gave us a connection to the city through approachable storytelling.",
-      "author": "Layla Nash",
-      "title": "Verified Tour Participant",
-      "city": "Barcelona",
-      "rating": 3,
-      "date": "2024-09-23"
-    },
-    {
-      "id": "guide-barcelona-7-review-2",
-      "quote": "We had a inspiring time with William Morgan. Their passion for photography hotspots was evident throughout the tour.",
-      "author": "Austin Jones",
-      "title": "Verified Tour Participant",
-      "city": "Barcelona",
-      "rating": 5,
-      "date": "2024-12-28"
-    },
-    {
-      "id": "guide-barcelona-7-review-3",
-      "quote": "A truly inspiring experience thanks to William Morgan. Her balance of facts and fun was exactly what we were hoping for.",
-      "author": "Angela Crawford",
-      "title": "Verified Tour Participant",
-      "city": "Barcelona",
-      "rating": 5,
-      "date": "2025-02-18"
-    }
-  ],
-  "guide-barcelona-8": [
-    {
-      "id": "guide-barcelona-8-review-0",
-      "quote": "We learned so much and had so much fun, all thanks to Sophia Payne's incredible approach to sharing Scenic Views.",
-      "author": "Susan Coleman",
-      "title": "Verified Tour Participant",
-      "city": "Barcelona",
-      "rating": 5,
-      "date": "2024-08-22"
-    },
-    {
-      "id": "guide-barcelona-8-review-1",
-      "quote": "I’ve taken many tours, but Sophia Payne's was by far the most amazing. His storytelling ability was incredible.",
-      "author": "Alexander Garcia",
-      "title": "Verified Tour Participant",
-      "city": "Barcelona",
-      "rating": 5,
-      "date": "2024-06-12"
-    },
-    {
-      "id": "guide-barcelona-8-review-2",
-      "quote": "Sophia Payne created an environment that was both informative and relaxing. Their remarkable approach kept everyone engaged.",
-      "author": "Harper Dixon",
-      "title": "Verified Tour Participant",
-      "city": "Barcelona",
-      "rating": 5,
-      "date": "2024-09-09"
-    },
-    {
-      "id": "guide-barcelona-8-review-3",
-      "quote": "We learned so much and had so much fun, all thanks to Sophia Payne's knowledgeable approach to sharing Scenic Views.",
-      "author": "Scarlett Graham",
-      "title": "Verified Tour Participant",
-      "city": "Barcelona",
-      "rating": 5,
-      "date": "2025-02-06"
+      "date": "2025-03-09"
     }
   ],
   "guide-barcelona-9": [
     {
       "id": "guide-barcelona-9-review-0",
-      "quote": "Miguel Wallace went above and beyond. His friendly energy and personal touch made the day extra special.",
-      "author": "Lawrence Cooper",
+      "quote": "Our experience with Ava Smith was genuine. He showed us hidden gems we would have never found on our own.",
+      "author": "Ashley King",
       "title": "Verified Tour Participant",
       "city": "Barcelona",
       "rating": 5,
-      "date": "2024-08-29"
+      "date": "2024-09-12"
     },
     {
       "id": "guide-barcelona-9-review-1",
-      "quote": "I highly recommend Miguel Wallace for anyone interested in literary landmarks. Their made our tour memorable.",
-      "author": "Stephen Nguyen",
+      "quote": "Ava Smith has a gift for storytelling. The entire group was engaged, laughing, and learning—it was such a informative time.",
+      "author": "Kevin Curtis",
       "title": "Verified Tour Participant",
       "city": "Barcelona",
-      "rating": 5,
-      "date": "2024-08-30"
+      "rating": 4,
+      "date": "2025-04-07"
     },
     {
       "id": "guide-barcelona-9-review-2",
-      "quote": "I’ve taken many tours, but Miguel Wallace's was by far the most skilled. His storytelling ability was incredible.",
-      "author": "Samantha Chambers",
+      "quote": "You’ll leave the tour smarter and smiling if Ava Smith is your guide. His reliable energy is contagious.",
+      "author": "Sebastian Smith",
       "title": "Verified Tour Participant",
       "city": "Barcelona",
-      "rating": 5,
-      "date": "2024-08-22"
+      "rating": 4,
+      "date": "2024-08-25"
     },
     {
       "id": "guide-barcelona-9-review-3",
-      "quote": "Miguel Wallace was an approachable guide who truly brought the city to life. His knowledge of Wildlife Watching was impressive.",
-      "author": "Gary Jackson",
+      "quote": "It’s rare to find a guide as attentive as Ava Smith. Their ability to connect with people from all walks of life was exceptional.",
+      "author": "Wayne Hamilton",
       "title": "Verified Tour Participant",
       "city": "Barcelona",
       "rating": 5,
-      "date": "2024-08-21"
+      "date": "2025-02-09"
     }
   ],
   "guide-barcelona-10": [
     {
       "id": "guide-barcelona-10-review-0",
-      "quote": "Jose Stewart made even the smallest detail feel important. Her patient touch made this tour stand out from the rest.",
-      "author": "Aisha Kim",
+      "quote": "The way Juan Kowalski brought Local Legends to life was truly inspiring. You could tell Their loves what Their does.",
+      "author": "Janet Miller",
       "title": "Verified Tour Participant",
       "city": "Barcelona",
       "rating": 4,
-      "date": "2024-11-07"
+      "date": "2025-04-21"
     },
     {
       "id": "guide-barcelona-10-review-1",
-      "quote": "We had a reliable time with Jose Stewart. His passion for urban planning was evident throughout the tour.",
-      "author": "Dennis Montgomery",
+      "quote": "What an thoughtful experience with Juan Kowalski! His expertise in urban planning added so much value to our visit.",
+      "author": "Zachary Lewis",
       "title": "Verified Tour Participant",
       "city": "Barcelona",
       "rating": 5,
-      "date": "2025-04-09"
+      "date": "2024-06-15"
     },
     {
       "id": "guide-barcelona-10-review-2",
-      "quote": "I’ve traveled a lot, but this was one of the most friendly tours I’ve ever taken. Jose Stewart was fantastic from start to finish.",
-      "author": "Muhammad Keller",
+      "quote": "You could tell that Juan Kowalski genuinely cares about what His does. His exceptional nature was a highlight of our trip.",
+      "author": "Jordan Gonzalez",
       "title": "Verified Tour Participant",
       "city": "Barcelona",
-      "rating": 4,
-      "date": "2024-08-26"
+      "rating": 5,
+      "date": "2024-12-17"
     }
   ],
   "guide-barcelona-11": [
     {
       "id": "guide-barcelona-11-review-0",
-      "quote": "We had a brilliant time with Eric Hunter. Her passion for Wildlife was evident throughout the tour.",
-      "author": "Virginia Day",
+      "quote": "From start to finish, Eric Wallace delivered a enthusiastic experience. Her expertise and care were unmatched.",
+      "author": "Sophia Crawford",
       "title": "Verified Tour Participant",
       "city": "Barcelona",
       "rating": 4,
-      "date": "2024-09-18"
+      "date": "2024-08-30"
     },
     {
       "id": "guide-barcelona-11-review-1",
-      "quote": "Touring with Eric Hunter was a delight. His informative personality and deep knowledge made the experience unforgettable.",
-      "author": "Laura Mason",
+      "quote": "It’s rare to find a guide as amazing as Eric Wallace. Her ability to connect with people from all walks of life was exceptional.",
+      "author": "Aaron Carter",
       "title": "Verified Tour Participant",
       "city": "Barcelona",
       "rating": 5,
-      "date": "2024-08-22"
+      "date": "2024-10-18"
     },
     {
       "id": "guide-barcelona-11-review-2",
-      "quote": "Eric Hunter made even the smallest detail feel important. Her dedicated touch made this tour stand out from the rest.",
-      "author": "Madelyn Dubois",
+      "quote": "A truly captivating experience thanks to Eric Wallace. Her balance of facts and fun was exactly what we were hoping for.",
+      "author": "Gregory Parker",
       "title": "Verified Tour Participant",
       "city": "Barcelona",
-      "rating": 4,
-      "date": "2024-07-27"
-    },
-    {
-      "id": "guide-barcelona-11-review-3",
-      "quote": "We learned so much and had so much fun, all thanks to Eric Hunter's motivating approach to sharing Historical Landmarks.",
-      "author": "Khalid Baker",
-      "title": "Verified Tour Participant",
-      "city": "Barcelona",
-      "rating": 4,
-      "date": "2024-09-22"
+      "rating": 5,
+      "date": "2024-07-24"
     }
   ]
 };

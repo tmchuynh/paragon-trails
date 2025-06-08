@@ -1,97 +1,81 @@
 // This file is auto-generated. Do not edit manually.
 
 // Testimonials for Santorini
+// Generated on 2025-06-08T04:09:38.599Z
+
 import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 export const santoriniTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-santorini-1",
-    quote: "I came to Santorini for work but stayed for the professional network. Best decision I ever made.",
-    author: "Amanda Collins",
-    title: "The Heartbeat of Santorini Life",
+    quote: "What really surprised me about Santorini is its {DIVERSITY_FEATURE} — it’s a true melting pot.",
+    author: "Olivia Palmer",
+    title: "Inside the Culture of Santorini",
     city: "Santorini",
-    rating: 4.7,
-    date: "2024-05-28"
+    rating: 4.1,
+    date: "2024-08-10"
   },
   {
     id: "city-testimonial-santorini-2",
-    quote: "Community events and festivals in Santorini bring everyone together, making the {COMMUNITY_ASPECT} really stand out.",
-    author: "Victoria Fletcher",
-    title: "Why I Chose Santorini as Home",
+    quote: "The vintage shopping districts in Santorini makes everyday life feel like an adventure. I've been here 3 years and still discover new things.",
+    author: "Liam Lee",
+    title: "The True Character of Santorini",
     city: "Santorini",
     rating: 4.4,
-    date: "2025-10-10"
-  },
-  {
-    id: "city-testimonial-santorini-3",
-    quote: "I love how Santorini celebrates {FESTIVAL_OR_EVENT}, it brings so much joy and community spirit.",
-    author: "Keith Davis",
-    title: "Santorini Through a Resident's Eyes",
-    city: "Santorini",
-    rating: 4.5,
     date: "2024-10-12"
   },
   {
-    id: "city-testimonial-santorini-4",
-    quote: "No two days are the same living in Santorini. The {DYNAMIC_ASPECT} keeps me excited to wake up every morning.",
-    author: "Ellie Reed",
-    title: "Why Santorini Keeps Getting Better",
+    id: "city-testimonial-santorini-3",
+    quote: "What most people don't realize about living in Santorini is how resilient it actually is. I've found my true home here.",
+    author: "Laura Baker",
+    title: "Living Sustainably in Santorini",
     city: "Santorini",
-    rating: 4.7,
-    date: "2025-01-07"
+    rating: 4.4,
+    date: "2024-01-19"
+  },
+  {
+    id: "city-testimonial-santorini-4",
+    quote: "As someone who's lived in many cities, I can say that Santorini's seasonal transitions is unmatched anywhere else.",
+    author: "Audrey Henderson",
+    title: "Santorini: A City That Grows With You",
+    city: "Santorini",
+    rating: 5,
+    date: "2025-01-26"
   },
   {
     id: "city-testimonial-santorini-5",
-    quote: "The art and creativity flowing through Santorini is inspiring. It feels like living inside a masterpiece.",
-    author: "Sofia Foster",
-    title: "My Santorini Story: Life as a Resident",
+    quote: "From my apartment in Santorini, I can attend impromptu concerts. Where else could you do that?",
+    author: "Nancy Wang",
+    title: "A Love Letter to Santorini",
     city: "Santorini",
-    rating: 5,
-    date: "2025-01-16"
+    rating: 4.2,
+    date: "2023-11-15"
   },
   {
     id: "city-testimonial-santorini-6",
-    quote: "The food scene in Santorini is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
-    author: "James Russell",
-    title: "Why Santorini Keeps Getting Better",
+    quote: "The historical significance of Santorini adds a depth to daily life that I truly cherish.",
+    author: "Adeline Nash",
+    title: "What I Love About Living in Santorini",
     city: "Santorini",
     rating: 4.2,
-    date: "2023-03-18"
+    date: "2024-02-08"
   },
   {
     id: "city-testimonial-santorini-7",
-    quote: "What really surprised me about Santorini is its {DIVERSITY_FEATURE} — it’s a true melting pot.",
-    author: "Maria Lopez",
-    title: "The Perfect Imperfections of Santorini",
+    quote: "The {FESTIVAL_OR_EVENT} season in Santorini brings so much excitement and pride to the community.",
+    author: "Ana West",
+    title: "Santorini Through a Resident's Eyes",
     city: "Santorini",
-    rating: 4.1,
-    date: "2024-10-06"
+    rating: 4.9,
+    date: "2024-06-02"
   },
   {
     id: "city-testimonial-santorini-8",
-    quote: "The quiet neighborhoods in Santorini each have their own character, which keeps life interesting year after year.",
-    author: "Olivia Martinez",
-    title: "Santorini Living: Worth Every Moment",
+    quote: "Community events and festivals in Santorini bring everyone together, making the {COMMUNITY_ASPECT} really stand out.",
+    author: "Elizabeth Kim",
+    title: "Life in Santorini: A Local Perspective",
     city: "Santorini",
-    rating: 4.1,
-    date: "2023-10-01"
-  },
-  {
-    id: "city-testimonial-santorini-9",
-    quote: "One of my favorite parts about living in Santorini is the {MARKET_OR_SHOPPING_FEATURE} just around the corner.",
-    author: "Wei Hall",
-    title: "What Makes Santorini Uniquely Livable",
-    city: "Santorini",
-    rating: 4.4,
-    date: "2024-08-21"
-  },
-  {
-    id: "city-testimonial-santorini-10",
-    quote: "The cost of living in Santorini is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
-    author: "Carol Warren",
-    title: "The Soul of Santorini: A Local's View",
-    city: "Santorini",
-    rating: 5,
-    date: "2023-04-24"
+    rating: 4.5,
+    date: "2023-05-19"
   }
 ];
