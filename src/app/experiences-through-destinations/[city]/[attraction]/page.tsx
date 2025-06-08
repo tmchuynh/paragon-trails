@@ -224,7 +224,6 @@ export default function CityAttractionPage() {
               <div className="mt-8">
                 <Button
                   onClick={() => {
-                    const attractionName = attractionData.title || "";
                     router.push(
                       `/experiences-through-destinations/${formatCamelCaseToKebabCase(city as string)}/tours?attractionFilter=${encodeURIComponent(attractionData.id)}`
                     );
