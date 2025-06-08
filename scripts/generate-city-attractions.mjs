@@ -34,7 +34,7 @@ import {
   cityCoordinates,
   countryCurrencyMap,
   euroCountries,
-  regionCurrencyMap,
+  regionCurrencyMapping,
 } from "./utils/geo-utils.mjs";
 import {
   formatKebebToTitleCase,
@@ -137,7 +137,7 @@ function parseOpeningHours(hoursString) {
     if (hoursString.toLowerCase().includes("closed")) {
       // Try to match a specific closed day
       const closedDayMatch = hoursString.match(
-        /closed\s+(?:on\s+)?([A-Za-z]+)s?/i,
+        /closed\s+(?:on\s+)?([A-Za-z]+)s?/i
       );
       if (closedDayMatch) {
         const closedDay = closedDayMatch[1].toLowerCase();
@@ -180,10 +180,10 @@ function parseOpeningHours(hoursString) {
 
       // Find start and end day indices
       let startDayIndex = days.findIndex((day) =>
-        day.toLowerCase().startsWith(startDay.toLowerCase()),
+        day.toLowerCase().startsWith(startDay.toLowerCase())
       );
       let endDayIndex = days.findIndex((day) =>
-        day.toLowerCase().startsWith(endDay.toLowerCase()),
+        day.toLowerCase().startsWith(endDay.toLowerCase())
       );
 
       // Try abbreviated day matching if not found
@@ -243,7 +243,7 @@ function parseTimeRange(timeRange) {
 
   // Enhanced pattern to match various time formats
   const timeMatch = cleanedRange.match(
-    /(\d+(?::\d+)?\s*(?:AM|PM|am|pm)?)\s*[-–]\s*(\d+(?::\d+)?\s*(?:AM|PM|am|pm)?)/i,
+    /(\d+(?::\d+)?\s*(?:AM|PM|am|pm)?)\s*[-–]\s*(\d+(?::\d+)?\s*(?:AM|PM|am|pm)?)/i
   );
 
   if (!timeMatch) {
@@ -402,8 +402,9 @@ function writeAttractionsFile(citySlug, attractions) {
     currency = "EUR";
   } else if (countryCurrencyMap[country]) {
     currency = countryCurrencyMap[country];
-  } else if (regionCurrencyMap[region]) {
-    currency = regionCurrencyMap[region];
+  } else if (regionCurrencyMapping[region]) {
+    currency =
+      regionCurrencyMapping[region[Math.floor(Math.random() * region.length)]];
   }
 
   // Create variable name for the attractions array - using modified function
@@ -429,7 +430,7 @@ export const ${varName}: Attraction[] = ${stringifyObject(attractions)};
   // Check if file exists and handle accordingly
   if (fs.existsSync(filePath) && !options.rewrite && !options.append) {
     console.log(
-      `File for ${citySlug} already exists. Skipping. Use --rewrite to overwrite.`,
+      `File for ${citySlug} already exists. Skipping. Use --rewrite to overwrite.`
     );
     return;
   }
