@@ -4,441 +4,412 @@ export const copenhagenGuideReviews = {
   "guide-copenhagen-1": [
     {
       "id": "guide-copenhagen-1-review-0",
-      "quote": "We learned so much and had so much fun, all thanks to Ronald Bennett's engaging approach to sharing Art Galleries.",
-      "author": "Zoe Gonzalez",
+      "quote": "Daniel Lewis's tour was the highlight of our trip. Her passionate approach to sharing the history made everything interesting.",
+      "author": "Douglas Hayes",
       "title": "Verified Tour Participant",
       "city": "Copenhagen",
       "rating": 5,
-      "date": "2024-09-22"
+      "date": "2025-05-30"
     },
     {
       "id": "guide-copenhagen-1-review-1",
-      "quote": "The way Ronald Bennett brought Art Galleries to life was truly skilled. You could tell His loves what His does.",
-      "author": "Valentina Hall",
+      "quote": "Daniel Lewis brought warmth and informative energy to the day. Her made us feel like locals instead of tourists.",
+      "author": "Benjamin Jackson",
       "title": "Verified Tour Participant",
       "city": "Copenhagen",
-      "rating": 3,
-      "date": "2024-12-14"
+      "rating": 5,
+      "date": "2025-04-12"
     },
     {
       "id": "guide-copenhagen-1-review-2",
-      "quote": "Ronald Bennett was an fantastic guide who truly brought the city to life. His knowledge of artisan communities was impressive.",
-      "author": "Darrell Suzuki",
+      "quote": "We learned so much and had so much fun, all thanks to Daniel Lewis's accommodating approach to sharing Local Folklore.",
+      "author": "Nicole Edwards",
       "title": "Verified Tour Participant",
       "city": "Copenhagen",
-      "rating": 4,
-      "date": "2025-03-21"
+      "rating": 5,
+      "date": "2024-06-19"
+    },
+    {
+      "id": "guide-copenhagen-1-review-3",
+      "quote": "A truly engaging experience thanks to Daniel Lewis. His balance of facts and fun was exactly what we were hoping for.",
+      "author": "Bobby Warren",
+      "title": "Verified Tour Participant",
+      "city": "Copenhagen",
+      "rating": 5,
+      "date": "2025-04-13"
     }
   ],
   "guide-copenhagen-2": [
     {
       "id": "guide-copenhagen-2-review-0",
-      "quote": "We were lucky to have Ellie Bennett as our guide. Their brilliant insights made a big difference in how we experienced political history.",
-      "author": "Ashley Müller",
-      "title": "Verified Tour Participant",
-      "city": "Copenhagen",
-      "rating": 5,
-      "date": "2024-10-19"
-    },
-    {
-      "id": "guide-copenhagen-2-review-1",
-      "quote": "We learned so much and had so much fun, all thanks to Ellie Bennett's motivating approach to sharing Adventure Sports.",
-      "author": "Ronald King",
+      "quote": "Even our kids loved the tour—Ronald Ali was so fantastic and made sure everyone was involved.",
+      "author": "Harold Gardner",
       "title": "Verified Tour Participant",
       "city": "Copenhagen",
       "rating": 3,
-      "date": "2025-02-14"
+      "date": "2025-03-12"
     },
     {
-      "id": "guide-copenhagen-2-review-2",
-      "quote": "Ellie Bennett brought warmth and resourceful energy to the day. Her made us feel like locals instead of tourists.",
-      "author": "Daniel Rossi",
+      "id": "guide-copenhagen-2-review-1",
+      "quote": "What an inspiring experience with Ronald Ali! Their expertise in local cuisine added so much value to our visit.",
+      "author": "Joshua Day",
       "title": "Verified Tour Participant",
       "city": "Copenhagen",
       "rating": 5,
-      "date": "2025-03-11"
+      "date": "2024-10-17"
+    },
+    {
+      "id": "guide-copenhagen-2-review-2",
+      "quote": "Ronald Ali has a gift for storytelling. The entire group was engaged, laughing, and learning—it was such a attentive time.",
+      "author": "Matthew Knight",
+      "title": "Verified Tour Participant",
+      "city": "Copenhagen",
+      "rating": 5,
+      "date": "2024-12-26"
+    },
+    {
+      "id": "guide-copenhagen-2-review-3",
+      "quote": "Ronald Ali was an patient guide who truly brought the city to life. Their knowledge of Wildlife Watching was impressive.",
+      "author": "Aisha Carpenter",
+      "title": "Verified Tour Participant",
+      "city": "Copenhagen",
+      "rating": 5,
+      "date": "2024-06-11"
     }
   ],
   "guide-copenhagen-3": [
     {
       "id": "guide-copenhagen-3-review-0",
-      "quote": "Justin Bennett is simply exceptional. The tour was well-paced and Their attention to detail was remarkable.",
-      "author": "Gabriella Thomas",
-      "title": "Verified Tour Participant",
-      "city": "Copenhagen",
-      "rating": 3,
-      "date": "2025-05-30"
-    },
-    {
-      "id": "guide-copenhagen-3-review-1",
-      "quote": "If you’re looking for a genuine experience in Photography Spots, Justin Bennett is the one to book. His professionalism stood out.",
-      "author": "Paul Curtis",
+      "quote": "I booked the tour last minute, but I’m so glad I did. Lily Price's dedicated leadership and local tips were invaluable.",
+      "author": "Ashley Silva",
       "title": "Verified Tour Participant",
       "city": "Copenhagen",
       "rating": 5,
-      "date": "2025-01-18"
+      "date": "2024-08-02"
+    },
+    {
+      "id": "guide-copenhagen-3-review-1",
+      "quote": "Lily Price created an environment that was both informative and relaxing. His charismatic approach kept everyone engaged.",
+      "author": "Madelyn Lee",
+      "title": "Verified Tour Participant",
+      "city": "Copenhagen",
+      "rating": 5,
+      "date": "2025-03-22"
     },
     {
       "id": "guide-copenhagen-3-review-2",
-      "quote": "Justin Bennett created an environment that was both informative and relaxing. Her fantastic approach kept everyone engaged.",
-      "author": "Savannah Foster",
+      "quote": "From start to finish, Lily Price delivered a dedicated experience. Her expertise and care were unmatched.",
+      "author": "Janet Baker",
       "title": "Verified Tour Participant",
       "city": "Copenhagen",
-      "rating": 4,
-      "date": "2024-12-05"
+      "rating": 5,
+      "date": "2024-07-02"
+    },
+    {
+      "id": "guide-copenhagen-3-review-3",
+      "quote": "We left the tour inspired. Lily Price's insightful way of sharing knowledge made a lasting impression on us.",
+      "author": "Wei White",
+      "title": "Verified Tour Participant",
+      "city": "Copenhagen",
+      "rating": 5,
+      "date": "2025-01-13"
     }
   ],
   "guide-copenhagen-4": [
     {
       "id": "guide-copenhagen-4-review-0",
-      "quote": "Jesse Patel's tour was the highlight of our trip. Her engaging approach to sharing the history made everything interesting.",
-      "author": "Ethan Johnson",
+      "quote": "I highly recommend Anthony Morales for anyone interested in transportation history. His made our tour memorable.",
+      "author": "Gabriel Ivanov",
       "title": "Verified Tour Participant",
       "city": "Copenhagen",
-      "rating": 4,
-      "date": "2025-05-02"
+      "rating": 5,
+      "date": "2024-12-06"
     },
     {
       "id": "guide-copenhagen-4-review-1",
-      "quote": "Touring with Jesse Patel was a delight. Their knowledgeable personality and deep knowledge made the experience unforgettable.",
-      "author": "Naomi Parker",
+      "quote": "Anthony Morales tailored the tour perfectly to our interests. His skilled nature made everyone feel welcome.",
+      "author": "Antonio Gonzalez",
       "title": "Verified Tour Participant",
       "city": "Copenhagen",
       "rating": 5,
-      "date": "2025-03-27"
+      "date": "2025-03-30"
     },
     {
       "id": "guide-copenhagen-4-review-2",
-      "quote": "Jesse Patel didn’t just give us a tour—Her gave us a connection to the city through skilled storytelling.",
-      "author": "Ellie Porter",
+      "quote": "I booked the tour last minute, but I’m so glad I did. Anthony Morales's reliable leadership and local tips were invaluable.",
+      "author": "Terry Gonzalez",
       "title": "Verified Tour Participant",
       "city": "Copenhagen",
       "rating": 5,
-      "date": "2025-02-01"
-    }
-  ],
-  "guide-copenhagen-5": [
-    {
-      "id": "guide-copenhagen-5-review-0",
-      "quote": "Carlos Jackson is simply engaging. The tour was well-paced and Her attention to detail was remarkable.",
-      "author": "Richard Hawkins",
-      "title": "Verified Tour Participant",
-      "city": "Copenhagen",
-      "rating": 5,
-      "date": "2024-12-13"
+      "date": "2025-03-30"
     },
     {
-      "id": "guide-copenhagen-5-review-1",
-      "quote": "A truly professional experience thanks to Carlos Jackson. Her balance of facts and fun was exactly what we were hoping for.",
-      "author": "Leah Fisher",
-      "title": "Verified Tour Participant",
-      "city": "Copenhagen",
-      "rating": 5,
-      "date": "2024-12-10"
-    },
-    {
-      "id": "guide-copenhagen-5-review-2",
-      "quote": "You could tell that Carlos Jackson genuinely cares about what Her does. Her brilliant nature was a highlight of our trip.",
-      "author": "Paul Wells",
-      "title": "Verified Tour Participant",
-      "city": "Copenhagen",
-      "rating": 4,
-      "date": "2025-03-11"
-    }
-  ],
-  "guide-copenhagen-6": [
-    {
-      "id": "guide-copenhagen-6-review-0",
-      "quote": "Lerato Young didn’t just give us a tour—Their gave us a connection to the city through engaging storytelling.",
-      "author": "William Mitchell",
-      "title": "Verified Tour Participant",
-      "city": "Copenhagen",
-      "rating": 4,
-      "date": "2024-12-19"
-    },
-    {
-      "id": "guide-copenhagen-6-review-1",
-      "quote": "What an remarkable experience with Lerato Young! His expertise in seaside history added so much value to our visit.",
-      "author": "Sebastian Nguyen",
-      "title": "Verified Tour Participant",
-      "city": "Copenhagen",
-      "rating": 5,
-      "date": "2024-09-07"
-    },
-    {
-      "id": "guide-copenhagen-6-review-2",
-      "quote": "Touring with Lerato Young was a delight. Their exceptional personality and deep knowledge made the experience unforgettable.",
-      "author": "Grace Hall",
-      "title": "Verified Tour Participant",
-      "city": "Copenhagen",
-      "rating": 5,
-      "date": "2025-03-25"
-    },
-    {
-      "id": "guide-copenhagen-6-review-3",
-      "quote": "Lerato Young delivered a perfect mix of history, humor, and heart. Their skilled delivery kept us engaged throughout.",
-      "author": "Mason Chen",
-      "title": "Verified Tour Participant",
-      "city": "Copenhagen",
-      "rating": 3,
-      "date": "2024-07-30"
-    }
-  ],
-  "guide-copenhagen-7": [
-    {
-      "id": "guide-copenhagen-7-review-0",
-      "quote": "Riley Singh created an environment that was both informative and relaxing. His superb approach kept everyone engaged.",
-      "author": "Deborah Lopez",
-      "title": "Verified Tour Participant",
-      "city": "Copenhagen",
-      "rating": 4,
-      "date": "2025-01-27"
-    },
-    {
-      "id": "guide-copenhagen-7-review-1",
-      "quote": "I’ve taken many tours, but Riley Singh's was by far the most helpful. Her storytelling ability was incredible.",
-      "author": "Amelia Hudson",
-      "title": "Verified Tour Participant",
-      "city": "Copenhagen",
-      "rating": 5,
-      "date": "2024-06-20"
-    },
-    {
-      "id": "guide-copenhagen-7-review-2",
-      "quote": "I highly recommend Riley Singh for anyone interested in LGBTQ+ History. Their made our tour memorable.",
-      "author": "Paul Dubois",
-      "title": "Verified Tour Participant",
-      "city": "Copenhagen",
-      "rating": 5,
-      "date": "2025-01-29"
-    },
-    {
-      "id": "guide-copenhagen-7-review-3",
-      "quote": "Our experience with Riley Singh was reliable. He showed us hidden gems we would have never found on our own.",
-      "author": "Sofia Gonzalez",
-      "title": "Verified Tour Participant",
-      "city": "Copenhagen",
-      "rating": 5,
-      "date": "2025-03-14"
-    }
-  ],
-  "guide-copenhagen-8": [
-    {
-      "id": "guide-copenhagen-8-review-0",
-      "quote": "From start to finish, Russell Wilson delivered a friendly experience. Her expertise and care were unmatched.",
-      "author": "Katherine Wallace",
-      "title": "Verified Tour Participant",
-      "city": "Copenhagen",
-      "rating": 4,
-      "date": "2025-01-20"
-    },
-    {
-      "id": "guide-copenhagen-8-review-1",
-      "quote": "Even our kids loved the tour—Russell Wilson was so resourceful and made sure everyone was involved.",
-      "author": "Robert Henderson",
-      "title": "Verified Tour Participant",
-      "city": "Copenhagen",
-      "rating": 5,
-      "date": "2024-07-31"
-    },
-    {
-      "id": "guide-copenhagen-8-review-2",
-      "quote": "I highly recommend Russell Wilson for anyone interested in Art Galleries. His made our tour memorable.",
-      "author": "Mia Reeves",
-      "title": "Verified Tour Participant",
-      "city": "Copenhagen",
-      "rating": 5,
-      "date": "2024-11-08"
-    },
-    {
-      "id": "guide-copenhagen-8-review-3",
-      "quote": "You could tell that Russell Wilson genuinely cares about what His does. His thoughtful nature was a highlight of our trip.",
-      "author": "Yuki Brooks",
+      "id": "guide-copenhagen-4-review-3",
+      "quote": "Anthony Morales's tour was the highlight of our trip. Her trustworthy approach to sharing the history made everything interesting.",
+      "author": "Patrick Foster",
       "title": "Verified Tour Participant",
       "city": "Copenhagen",
       "rating": 5,
       "date": "2025-05-31"
     }
   ],
-  "guide-copenhagen-9": [
+  "guide-copenhagen-5": [
     {
-      "id": "guide-copenhagen-9-review-0",
-      "quote": "It’s rare to find a guide as flexible as Eleanor Ellis. Her ability to connect with people from all walks of life was exceptional.",
-      "author": "Carlos Hudson",
+      "id": "guide-copenhagen-5-review-0",
+      "quote": "I’ve taken many tours, but Peter Khan's was by far the most superb. Her storytelling ability was incredible.",
+      "author": "Nicole Price",
       "title": "Verified Tour Participant",
       "city": "Copenhagen",
       "rating": 5,
-      "date": "2024-11-06"
+      "date": "2024-06-21"
     },
     {
-      "id": "guide-copenhagen-9-review-1",
-      "quote": "I’ve taken many tours, but Eleanor Ellis's was by far the most remarkable. His storytelling ability was incredible.",
-      "author": "Walter Porter",
+      "id": "guide-copenhagen-5-review-1",
+      "quote": "Peter Khan made even the smallest detail feel important. Their insightful touch made this tour stand out from the rest.",
+      "author": "Hassan Carpenter",
       "title": "Verified Tour Participant",
       "city": "Copenhagen",
       "rating": 5,
-      "date": "2024-06-08"
+      "date": "2025-01-12"
     },
     {
-      "id": "guide-copenhagen-9-review-2",
-      "quote": "We learned so much and had so much fun, all thanks to Eleanor Ellis's dedicated approach to sharing public art installations.",
-      "author": "Mary Nakamura",
-      "title": "Verified Tour Participant",
-      "city": "Copenhagen",
-      "rating": 5,
-      "date": "2024-07-20"
-    },
-    {
-      "id": "guide-copenhagen-9-review-3",
-      "quote": "We had a informative time with Eleanor Ellis. Her passion for Film Locations was evident throughout the tour.",
-      "author": "Nancy Gardner",
+      "id": "guide-copenhagen-5-review-2",
+      "quote": "We learned so much and had so much fun, all thanks to Peter Khan's engaging approach to sharing Photography Spots.",
+      "author": "Gabriella Murray",
       "title": "Verified Tour Participant",
       "city": "Copenhagen",
       "rating": 3,
-      "date": "2025-05-13"
+      "date": "2025-01-20"
+    }
+  ],
+  "guide-copenhagen-6": [
+    {
+      "id": "guide-copenhagen-6-review-0",
+      "quote": "We had a brilliant time with Rebecca West. Their passion for Night Tours was evident throughout the tour.",
+      "author": "Jesse Porter",
+      "title": "Verified Tour Participant",
+      "city": "Copenhagen",
+      "rating": 3,
+      "date": "2024-09-07"
+    },
+    {
+      "id": "guide-copenhagen-6-review-1",
+      "quote": "Rebecca West created an environment that was both informative and relaxing. Their fantastic approach kept everyone engaged.",
+      "author": "Nora Sutton",
+      "title": "Verified Tour Participant",
+      "city": "Copenhagen",
+      "rating": 4,
+      "date": "2024-12-03"
+    },
+    {
+      "id": "guide-copenhagen-6-review-2",
+      "quote": "Rebecca West was an patient guide who truly brought the city to life. Her knowledge of City History was impressive.",
+      "author": "Zoe Holloway",
+      "title": "Verified Tour Participant",
+      "city": "Copenhagen",
+      "rating": 5,
+      "date": "2025-02-11"
+    }
+  ],
+  "guide-copenhagen-7": [
+    {
+      "id": "guide-copenhagen-7-review-0",
+      "quote": "I booked the tour last minute, but I’m so glad I did. Betty Reed's generous leadership and local tips were invaluable.",
+      "author": "Alexa Moore",
+      "title": "Verified Tour Participant",
+      "city": "Copenhagen",
+      "rating": 5,
+      "date": "2025-05-05"
+    },
+    {
+      "id": "guide-copenhagen-7-review-1",
+      "quote": "Every moment with Betty Reed felt intentional. His passionate guidance made this one of the best parts of our trip.",
+      "author": "Terry Morales",
+      "title": "Verified Tour Participant",
+      "city": "Copenhagen",
+      "rating": 4,
+      "date": "2024-08-04"
+    },
+    {
+      "id": "guide-copenhagen-7-review-2",
+      "quote": "Betty Reed made even the smallest detail feel important. Their reliable touch made this tour stand out from the rest.",
+      "author": "Wayne Patel",
+      "title": "Verified Tour Participant",
+      "city": "Copenhagen",
+      "rating": 5,
+      "date": "2024-07-07"
+    }
+  ],
+  "guide-copenhagen-8": [
+    {
+      "id": "guide-copenhagen-8-review-0",
+      "quote": "We left the tour inspired. Catherine Graves's remarkable way of sharing knowledge made a lasting impression on us.",
+      "author": "Susan Hudson",
+      "title": "Verified Tour Participant",
+      "city": "Copenhagen",
+      "rating": 5,
+      "date": "2025-04-05"
+    },
+    {
+      "id": "guide-copenhagen-8-review-1",
+      "quote": "Catherine Graves brought warmth and wonderful energy to the day. His made us feel like locals instead of tourists.",
+      "author": "Austin Keller",
+      "title": "Verified Tour Participant",
+      "city": "Copenhagen",
+      "rating": 5,
+      "date": "2025-01-03"
+    },
+    {
+      "id": "guide-copenhagen-8-review-2",
+      "quote": "I highly recommend Catherine Graves for anyone interested in architecture. His made our tour memorable.",
+      "author": "Skylar Graves",
+      "title": "Verified Tour Participant",
+      "city": "Copenhagen",
+      "rating": 4,
+      "date": "2025-02-24"
+    },
+    {
+      "id": "guide-copenhagen-8-review-3",
+      "quote": "What an personable experience with Catherine Graves! His expertise in Film Locations added so much value to our visit.",
+      "author": "Roger Moore",
+      "title": "Verified Tour Participant",
+      "city": "Copenhagen",
+      "rating": 4,
+      "date": "2024-10-02"
+    }
+  ],
+  "guide-copenhagen-9": [
+    {
+      "id": "guide-copenhagen-9-review-0",
+      "quote": "Lisa Reed brought warmth and superb energy to the day. His made us feel like locals instead of tourists.",
+      "author": "Jacob Harris",
+      "title": "Verified Tour Participant",
+      "city": "Copenhagen",
+      "rating": 5,
+      "date": "2024-07-25"
+    },
+    {
+      "id": "guide-copenhagen-9-review-1",
+      "quote": "I’ve taken many tours, but Lisa Reed's was by far the most trustworthy. Her storytelling ability was incredible.",
+      "author": "Jonathan Hernandez",
+      "title": "Verified Tour Participant",
+      "city": "Copenhagen",
+      "rating": 4,
+      "date": "2024-11-05"
+    },
+    {
+      "id": "guide-copenhagen-9-review-2",
+      "quote": "I booked the tour last minute, but I’m so glad I did. Lisa Reed's thoughtful leadership and local tips were invaluable.",
+      "author": "Elijah Brown",
+      "title": "Verified Tour Participant",
+      "city": "Copenhagen",
+      "rating": 5,
+      "date": "2024-09-19"
+    },
+    {
+      "id": "guide-copenhagen-9-review-3",
+      "quote": "Lisa Reed has a gift for storytelling. The entire group was engaged, laughing, and learning—it was such a charming time.",
+      "author": "Mei Jennings",
+      "title": "Verified Tour Participant",
+      "city": "Copenhagen",
+      "rating": 5,
+      "date": "2024-10-17"
     }
   ],
   "guide-copenhagen-10": [
     {
       "id": "guide-copenhagen-10-review-0",
-      "quote": "I’ve traveled a lot, but this was one of the most inspiring tours I’ve ever taken. Grace Payne was fantastic from start to finish.",
-      "author": "Jennifer Johnson",
+      "quote": "A truly informative experience thanks to Wei Graham. His balance of facts and fun was exactly what we were hoping for.",
+      "author": "Janet Knight",
       "title": "Verified Tour Participant",
       "city": "Copenhagen",
-      "rating": 4,
-      "date": "2024-11-26"
+      "rating": 5,
+      "date": "2025-02-04"
     },
     {
       "id": "guide-copenhagen-10-review-1",
-      "quote": "Grace Payne brought warmth and brilliant energy to the day. Her made us feel like locals instead of tourists.",
-      "author": "Ellie Baker",
+      "quote": "It’s rare to find a guide as thorough as Wei Graham. Her ability to connect with people from all walks of life was exceptional.",
+      "author": "Harper Baker",
       "title": "Verified Tour Participant",
       "city": "Copenhagen",
-      "rating": 5,
-      "date": "2024-10-22"
+      "rating": 4,
+      "date": "2024-11-25"
     },
     {
       "id": "guide-copenhagen-10-review-2",
-      "quote": "You could tell that Grace Payne genuinely cares about what His does. His passionate nature was a highlight of our trip.",
-      "author": "George Warren",
+      "quote": "Touring with Wei Graham was a delight. His inspiring personality and deep knowledge made the experience unforgettable.",
+      "author": "Noah Stewart",
       "title": "Verified Tour Participant",
       "city": "Copenhagen",
       "rating": 5,
-      "date": "2024-10-22"
+      "date": "2025-01-15"
     }
   ],
   "guide-copenhagen-11": [
     {
       "id": "guide-copenhagen-11-review-0",
-      "quote": "Russell Dubois's tour was the highlight of our trip. His friendly approach to sharing the history made everything interesting.",
-      "author": "Cynthia Graham",
+      "quote": "We left the tour inspired. William Parker's skilled way of sharing knowledge made a lasting impression on us.",
+      "author": "Maya Jones",
       "title": "Verified Tour Participant",
       "city": "Copenhagen",
       "rating": 5,
-      "date": "2025-06-03"
+      "date": "2024-10-03"
     },
     {
       "id": "guide-copenhagen-11-review-1",
-      "quote": "We learned so much and had so much fun, all thanks to Russell Dubois's flexible approach to sharing Wildlife.",
-      "author": "Samantha Payne",
+      "quote": "I highly recommend William Parker for anyone interested in Urban Legends. Her made our tour memorable.",
+      "author": "Pamela Cooper",
       "title": "Verified Tour Participant",
       "city": "Copenhagen",
       "rating": 5,
-      "date": "2025-06-01"
+      "date": "2024-08-07"
     },
     {
       "id": "guide-copenhagen-11-review-2",
-      "quote": "I wasn’t expecting to learn so much and enjoy it this much. Russell Dubois was skilled and incredibly knowledgeable.",
-      "author": "Christian Gardner",
+      "quote": "We learned so much and had so much fun, all thanks to William Parker's skilled approach to sharing Wine Tasting.",
+      "author": "Olivia Dixon",
       "title": "Verified Tour Participant",
       "city": "Copenhagen",
       "rating": 5,
-      "date": "2024-12-25"
-    },
-    {
-      "id": "guide-copenhagen-11-review-3",
-      "quote": "Touring with Russell Dubois was a delight. His welcoming personality and deep knowledge made the experience unforgettable.",
-      "author": "Albert West",
-      "title": "Verified Tour Participant",
-      "city": "Copenhagen",
-      "rating": 4,
-      "date": "2024-11-27"
+      "date": "2025-01-21"
     }
   ],
   "guide-copenhagen-12": [
     {
       "id": "guide-copenhagen-12-review-0",
-      "quote": "I’ve taken many tours, but Dorothy Ellis's was by far the most resourceful. Her storytelling ability was incredible.",
-      "author": "Alexa Kowalski",
+      "quote": "The way Chen Hunter brought market scenes to life was truly resourceful. You could tell Their loves what Their does.",
+      "author": "Hassan Keller",
       "title": "Verified Tour Participant",
       "city": "Copenhagen",
       "rating": 5,
-      "date": "2024-12-27"
+      "date": "2025-01-18"
     },
     {
       "id": "guide-copenhagen-12-review-1",
-      "quote": "It’s rare to find a guide as approachable as Dorothy Ellis. Her ability to connect with people from all walks of life was exceptional.",
-      "author": "Charlotte Morgan",
+      "quote": "We felt completely at ease with Chen Hunter. Their motivating style made even complex topics accessible and fun.",
+      "author": "Ella Hawkins",
       "title": "Verified Tour Participant",
       "city": "Copenhagen",
-      "rating": 3,
-      "date": "2025-05-25"
+      "rating": 5,
+      "date": "2024-11-23"
     },
     {
       "id": "guide-copenhagen-12-review-2",
-      "quote": "We had a superb time with Dorothy Ellis. Their passion for fashion history was evident throughout the tour.",
-      "author": "Zola Keller",
+      "quote": "We were lucky to have Chen Hunter as our guide. His enthusiastic insights made a big difference in how we experienced underground culture.",
+      "author": "Mason Stewart",
       "title": "Verified Tour Participant",
       "city": "Copenhagen",
       "rating": 5,
-      "date": "2024-11-19"
+      "date": "2025-03-07"
     },
     {
       "id": "guide-copenhagen-12-review-3",
-      "quote": "Dorothy Ellis has a gift for storytelling. The entire group was engaged, laughing, and learning—it was such a resourceful time.",
-      "author": "Aria Foster",
+      "quote": "Chen Hunter's tour was the highlight of our trip. Her skilled approach to sharing the history made everything interesting.",
+      "author": "Christine Jackson",
       "title": "Verified Tour Participant",
       "city": "Copenhagen",
       "rating": 5,
-      "date": "2024-10-27"
-    }
-  ],
-  "guide-copenhagen-13": [
-    {
-      "id": "guide-copenhagen-13-review-0",
-      "quote": "Albert Chambers went above and beyond. His reliable energy and personal touch made the day extra special.",
-      "author": "Zoe Fox",
-      "title": "Verified Tour Participant",
-      "city": "Copenhagen",
-      "rating": 5,
-      "date": "2025-03-12"
-    },
-    {
-      "id": "guide-copenhagen-13-review-1",
-      "quote": "From start to finish, Albert Chambers delivered a amazing experience. His expertise and care were unmatched.",
-      "author": "Mateo Hernandez",
-      "title": "Verified Tour Participant",
-      "city": "Copenhagen",
-      "rating": 5,
-      "date": "2024-09-01"
-    },
-    {
-      "id": "guide-copenhagen-13-review-2",
-      "quote": "I booked the tour last minute, but I’m so glad I did. Albert Chambers's informative leadership and local tips were invaluable.",
-      "author": "Jane Clark",
-      "title": "Verified Tour Participant",
-      "city": "Copenhagen",
-      "rating": 4,
-      "date": "2025-03-22"
-    },
-    {
-      "id": "guide-copenhagen-13-review-3",
-      "quote": "I wasn’t expecting to learn so much and enjoy it this much. Albert Chambers was dedicated and incredibly knowledgeable.",
-      "author": "Mei Wallace",
-      "title": "Verified Tour Participant",
-      "city": "Copenhagen",
-      "rating": 5,
-      "date": "2025-03-01"
+      "date": "2025-03-13"
     }
   ]
 };
