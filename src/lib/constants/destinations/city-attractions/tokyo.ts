@@ -292,8 +292,8 @@ export const tokyojapanAttractions: Attraction[] = [
       city: "Tokyo",
       title: "Shinjuku Gyoen National Garden",
       description: "Large park with traditional Japanese gardens and seasonal flowers.",
-      imageUrl: "",
-      location: "Unknown location",
+      imageUrl: "https://images.unsplash.com/photo-tokyo-shinjuku-gyoen",
+      location: "11 Naito-machi, Shinjuku-ku, Tokyo",
       openingHours: [
         {
           day: "Monday",
