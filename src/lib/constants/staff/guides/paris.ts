@@ -1,269 +1,35 @@
 // This file is auto-generated. Do not edit manually.
 
+// Tour guides for Paris (france)
+// Region: france
+
+// Generated on: 2025-06-08T04:09:38.399Z
+
 import { TourGuide } from "@/lib/interfaces/people/staff";
 
 export const parisfrancefranceGuides: TourGuide[] = [
   {
     id: "guide-paris-1",
-    name: "Adam Lawson",
+    name: "Alice Ellis",
     city: "Paris",
     country: "France",
     state: "",
     region: "France",
     isPopular: false,
-    bio: "Adam is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Museums, Adam provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Siberia", "Pacific Islands"],
-    tourTypes: ["Underground Tour", "Accessible Tour", "Bike Tour", "LGBTQ+ Friendly Tour"],
-    maxGroupSize: 17,
-    licenseNumber: "LIC-5324-PAR",
-    phoneNumber: "+1-904-183-7203",
-    contactEmail: "adam.lawson@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "04:00 PM",
-          },
-          {
-            from: "03:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Adam is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Museums, Adam provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.9,
-    reviewsCount: 50,
-    quote: "The best way to discover Paris is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/9.jpg",
-    languages: ["Romanian", "Korean", "Slovak"],
-    experienceYears: 5,
-    certifications: ["Wilderness First Responder"],
-    specialties: ["Museums"],
-    specialTraining: ["Wildlife Conservation", "Crisis Management"],
-  },
-  {
-    id: "guide-paris-2",
-    name: "Chloe Gonzalez",
-    city: "Paris",
-    country: "France",
-    state: "",
-    region: "France",
-    isPopular: false,
-    bio: "Chloe is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Local Music, Parks & Gardens, Adventure Activities, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["South America"],
-    tourTypes: ["Scenic Tour", "Eco Tour", "Architecture Tour"],
-    maxGroupSize: 17,
-    licenseNumber: "LIC-9605-PAR",
-    phoneNumber: "+1-460-449-9363",
-    contactEmail: "chloe.gonzalez@paragontrails.com",
+    bio: "Alice is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Music Scene, Local Folklore, Local Markets, Parks & Gardens, Alice provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast USA"],
+    tourTypes: ["Religious Tour", "Historical Tour"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-5038-PAR",
+    phoneNumber: "+1-679-786-5471",
+    contactEmail: "alice.ellis@paragontrails.com",
     available: [
       {
         day: "Sunday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "03:00 PM",
-          },
-          {
-            from: "12:00 PM",
-            to: "03:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Chloe is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Local Music, Parks & Gardens, Adventure Activities, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.4,
-    reviewsCount: 58,
-    quote: "My goal is to help you fall in love with Paris just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/44.jpg",
-    languages: ["Arabic", "Zulu"],
-    experienceYears: 5,
-    certifications: ["Sustainable Tourism Certificate"],
-    specialties: ["Local Music", "Parks & Gardens", "Adventure Activities"],
-    specialTraining: ["Local Transit Systems"],
-  },
-  {
-    id: "guide-paris-3",
-    name: "Diego Dubois",
-    city: "Paris",
-    country: "France",
-    state: "",
-    region: "France",
-    isPopular: true,
-    bio: "Diego is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Scenic Views, Adventure Activities, Diego provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Black Sea", "Caribbean Sea"],
-    tourTypes: ["Street Art Tour", "Shopping Tour", "Photography Tour", "Romantic Tour"],
-    maxGroupSize: 18,
-    licenseNumber: "LIC-4764-PAR",
-    phoneNumber: "+1-148-228-8760",
-    contactEmail: "diego.dubois@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "04:00 PM",
-          },
-          {
-            from: "11:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "09:00 PM",
-          },
-          {
-            from: "08:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Diego is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Scenic Views, Adventure Activities, Diego provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.1,
-    reviewsCount: 99,
-    quote: "The best way to discover Paris is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/79.jpg",
-    languages: ["Slovak"],
-    experienceYears: 6,
-    certifications: ["Language Proficiency Certification", "Certified Local Guide"],
-    specialties: ["Scenic Views", "Adventure Activities"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-paris-4",
-    name: "Wayne Hall",
-    city: "Paris",
-    country: "France",
-    state: "",
-    region: "France",
-    isPopular: false,
-    bio: "Wayne is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Nature Trails, Cultural Workshops, Local Music, Wayne provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Appalachian Mountains"],
-    tourTypes: ["Street Art Tour", "Nature Tour"],
-    maxGroupSize: 8,
-    licenseNumber: "LIC-4985-PAR",
-    phoneNumber: "+1-266-217-8502",
-    contactEmail: "wayne.hall@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
         availableHours: [
           {
             from: "03:00 PM",
             to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "02:00 PM",
-          },
-          {
-            from: "11:00 AM",
-            to: "03:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Wayne is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Nature Trails, Cultural Workshops, Local Music, Wayne provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.7,
-    reviewsCount: 85,
-    quote: "Every corner of Paris tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/34.jpg",
-    languages: ["Igbo", "Cantonese", "Nepali"],
-    experienceYears: 12,
-    certifications: ["Adventure Tourism Safety Certificate"],
-    specialties: ["Nature Trails", "Cultural Workshops", "Local Music"],
-    specialTraining: ["Marine Biology", "Sustainable Practices"],
-  },
-  {
-    id: "guide-paris-5",
-    name: "Aiden Kowalski",
-    city: "Paris",
-    country: "France",
-    state: "",
-    region: "France",
-    isPopular: false,
-    bio: "Aiden is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Nightlife, Cultural Traditions, Local Wildlife, Local Sports, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Red Sea", "Middle East Gulf"],
-    tourTypes: ["Craft Workshop", "Private Tour", "Nature Tour", "Bike Tour", "Wildlife Safari"],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-1907-PAR",
-    phoneNumber: "+1-795-470-9098",
-    contactEmail: "aiden.kowalski@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "04:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "07:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "12:00 PM",
-          },
-          {
-            from: "03:00 PM",
-            to: "07:00 PM",
           }
         ],
       },
@@ -271,26 +37,202 @@ export const parisfrancefranceGuides: TourGuide[] = [
         day: "Tuesday",
         availableHours: [
           {
-            from: "12:00 PM",
+            from: "11:00 AM",
             to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "02:00 PM",
           },
           {
             from: "10:00 AM",
-            to: "12:00 PM",
+            to: "02:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Aiden is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Nightlife, Cultural Traditions, Local Wildlife, Local Sports, Aiden provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.4,
-    reviewsCount: 59,
-    quote: "Every corner of Paris tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/51.jpg",
-    languages: ["Russian", "Tajik", "Japanese"],
-    experienceYears: 6,
-    certifications: ["Eco-Tourism Guide"],
-    specialties: ["Nightlife", "Cultural Traditions", "Local Wildlife", "Local Sports"],
-    specialTraining: ["Historical Research Methods"],
+    description: "Alice is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Music Scene, Local Folklore, Local Markets, Parks & Gardens, Alice provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.2,
+    reviewsCount: 52,
+    quote: "In Paris, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/20.jpg",
+    languages: ["Romanian"],
+    experienceYears: 15,
+    certifications: ["Certified Heritage Guide"],
+    specialties: ["Music Scene", "Local Folklore", "Local Markets", "Parks & Gardens"],
+    specialTraining: ["Accessibility Services"],
+  },
+  {
+    id: "guide-paris-2",
+    name: "Keith da Costa",
+    city: "Paris",
+    country: "France",
+    state: "",
+    region: "France",
+    isPopular: false,
+    bio: "Keith is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Local Dance, Historical Reenactments, Sustainable Tourism, Keith provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Scandinavia"],
+    tourTypes: ["Museum Tour", "Market Tour", "Accessible Tour", "Food Tour"],
+    maxGroupSize: 19,
+    licenseNumber: "LIC-6518-PAR",
+    phoneNumber: "+1-312-615-9549",
+    contactEmail: "keith.da@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "04:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "06:00 PM",
+          },
+          {
+            from: "11:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "08:00 PM",
+          },
+          {
+            from: "02:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Keith is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Local Dance, Historical Reenactments, Sustainable Tourism, Keith provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 81,
+    quote: "Paris isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/76.jpg",
+    languages: ["Polish", "Danish"],
+    experienceYears: 12,
+    certifications: ["Cultural Sensitivity Training", "Wilderness First Responder"],
+    specialties: ["Local Dance", "Historical Reenactments", "Sustainable Tourism"],
+    specialTraining: ["Tour Planning", "Cultural Sensitivity Training"],
+  },
+  {
+    id: "guide-paris-3",
+    name: "Kenneth Singh",
+    city: "Paris",
+    country: "France",
+    state: "",
+    region: "France",
+    isPopular: false,
+    bio: "Kenneth is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Night Tours, Art Walks, Museums, Kenneth provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Gulf Coast USA"],
+    tourTypes: ["Festival Tour", "Off-Road Tour", "Brewery Tour", "Walking Tour", "Craft Workshop"],
+    maxGroupSize: 9,
+    licenseNumber: "LIC-5894-PAR",
+    phoneNumber: "+1-877-349-6527",
+    contactEmail: "kenneth.singh@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "03:00 PM",
+          },
+          {
+            from: "11:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "03:00 PM",
+          },
+          {
+            from: "02:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "07:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Kenneth is a passionate tour guide with extensive knowledge of Paris and France. Specializing in Night Tours, Art Walks, Museums, Kenneth provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 63,
+    quote: "Paris isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/41.jpg",
+    languages: ["Arabic", "Latvian", "Estonian"],
+    experienceYears: 9,
+    certifications: ["Sustainable Tourism Certificate"],
+    specialties: ["Night Tours", "Art Walks", "Museums"],
+    specialTraining: ["Accessibility Services", "Desert Navigation"],
   }
 ];

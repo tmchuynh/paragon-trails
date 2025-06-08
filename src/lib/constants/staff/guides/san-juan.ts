@@ -1,29 +1,43 @@
 // This file is auto-generated. Do not edit manually.
 
+// Tour guides for San Juan (puertoRico)
+// Region: puertoRico
+
+// Generated on: 2025-06-08T04:09:38.401Z
+
 import { TourGuide } from "@/lib/interfaces/people/staff";
 
 export const sanJuanpuertoRicopuertoRicoGuides: TourGuide[] = [
   {
     id: "guide-san-juan-1",
-    name: "Roger Chen",
+    name: "Naomi Wood",
     city: "San Juan",
     country: "Puerto Rico",
     state: "",
     region: "Puerto Rico",
     isPopular: false,
-    bio: "Roger is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Local Dance, Roger provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Atacama Desert"],
-    tourTypes: ["Brewery Tour", "Cooking Class"],
-    maxGroupSize: 8,
-    licenseNumber: "LIC-8612-SAN",
-    phoneNumber: "+1-950-392-3748",
-    contactEmail: "roger.chen@paragontrails.com",
+    bio: "Naomi is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Architecture, Cultural Etiquette, Historical Tours, Naomi provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Southwest USA"],
+    tourTypes: ["Helicopter Tour", "Luxury Tour", "Cruise Excursion", "Wildlife Safari"],
+    maxGroupSize: 7,
+    licenseNumber: "LIC-4495-SAN",
+    phoneNumber: "+1-653-276-9221",
+    contactEmail: "naomi.wood@paragontrails.com",
     available: [
       {
-        day: "Tuesday",
+        day: "Sunday",
         availableHours: [
           {
-            from: "03:00 PM",
+            from: "11:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "01:00 PM",
             to: "07:00 PM",
           }
         ],
@@ -32,12 +46,140 @@ export const sanJuanpuertoRicopuertoRicoGuides: TourGuide[] = [
         day: "Wednesday",
         availableHours: [
           {
-            from: "01:00 PM",
-            to: "03:00 PM",
+            from: "08:00 AM",
+            to: "02:00 PM",
           },
           {
-            from: "03:00 PM",
+            from: "09:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "01:00 PM",
             to: "07:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "11:00 AM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Naomi is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Architecture, Cultural Etiquette, Historical Tours, Naomi provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 5,
+    reviewsCount: 50,
+    quote: "Every corner of San Juan tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/79.jpg",
+    languages: ["Albanian"],
+    experienceYears: 4,
+    certifications: ["Urban Navigation Specialist", "Heritage Interpretation Certificate", "Local History Certification"],
+    specialties: ["Architecture", "Cultural Etiquette", "Historical Tours"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-san-juan-2",
+    name: "Ariana Rodriguez",
+    city: "San Juan",
+    country: "Puerto Rico",
+    state: "",
+    region: "Puerto Rico",
+    isPopular: false,
+    bio: "Ariana is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Photography Spots, Ariana provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Pacific Islands"],
+    tourTypes: ["Festival Tour", "Cooking Class", "Craft Workshop", "Architecture Tour", "Nature Tour"],
+    maxGroupSize: 13,
+    licenseNumber: "LIC-9286-SAN",
+    phoneNumber: "+1-443-469-4872",
+    contactEmail: "ariana.rodriguez@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "06:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "11:00 AM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "07:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "02:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "04:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Ariana is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Photography Spots, Ariana provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.9,
+    reviewsCount: 33,
+    quote: "The best way to discover San Juan is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/53.jpg",
+    languages: ["Gujarati", "Hausa", "Urdu"],
+    experienceYears: 10,
+    certifications: ["Cultural Sensitivity Training"],
+    specialties: ["Photography Spots"],
+    specialTraining: ["Emergency Response", "Culinary Skills"],
+  },
+  {
+    id: "guide-san-juan-3",
+    name: "Joshua Martinez",
+    city: "San Juan",
+    country: "Puerto Rico",
+    state: "",
+    region: "Puerto Rico",
+    isPopular: false,
+    bio: "Joshua is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in LGBTQ+ History, Cultural Heritage, Historical Reenactments, Joshua provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Africa", "West Coast USA"],
+    tourTypes: ["Audio Tour", "Ghost Tour"],
+    maxGroupSize: 12,
+    licenseNumber: "LIC-8104-SAN",
+    phoneNumber: "+1-458-454-9769",
+    contactEmail: "joshua.martinez@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "04:00 PM",
           }
         ],
       },
@@ -45,114 +187,59 @@ export const sanJuanpuertoRicopuertoRicoGuides: TourGuide[] = [
         day: "Saturday",
         availableHours: [
           {
-            from: "08:00 AM",
-            to: "12:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Roger is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Local Dance, Roger provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4,
-    reviewsCount: 22,
-    quote: "Every corner of San Juan tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/71.jpg",
-    languages: ["Mandarin", "Russian"],
-    experienceYears: 11,
-    certifications: ["Eco-Tourism Guide"],
-    specialties: ["Local Dance"],
-    specialTraining: ["Desert Navigation"],
-  },
-  {
-    id: "guide-san-juan-2",
-    name: "Ana Dubois",
-    city: "San Juan",
-    country: "Puerto Rico",
-    state: "",
-    region: "Puerto Rico",
-    isPopular: true,
-    bio: "Ana is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Adventure Activities, Shopping Districts, Art Walks, Family Activities, Ana provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["North Africa"],
-    tourTypes: ["Scenic Tour", "Shopping Tour"],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-6024-SAN",
-    phoneNumber: "+1-933-732-7418",
-    contactEmail: "ana.dubois@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
             from: "11:00 AM",
-            to: "01:00 PM",
-          },
-          {
-            from: "01:00 PM",
             to: "05:00 PM",
           }
         ],
       },
       {
-        day: "Sunday",
+        day: "Thursday",
         availableHours: [
           {
-            from: "11:00 AM",
-            to: "01:00 PM",
+            from: "01:00 PM",
+            to: "06:00 PM",
           },
           {
-            from: "03:00 PM",
+            from: "02:00 PM",
             to: "06:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Ana is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Adventure Activities, Shopping Districts, Art Walks, Family Activities, Ana provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 93,
-    quote: "My goal is to help you fall in love with San Juan just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/83.jpg",
-    languages: ["Tajik", "Hebrew"],
-    experienceYears: 2,
-    certifications: ["Eco-Tourism Guide", "Certified Tour Guide"],
-    specialties: ["Adventure Activities", "Shopping Districts", "Art Walks", "Family Activities"],
-    specialTraining: ["Mountain Survival"],
+    description: "Joshua is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in LGBTQ+ History, Cultural Heritage, Historical Reenactments, Joshua provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 63,
+    quote: "San Juan isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/13.jpg",
+    languages: ["Igbo", "Maltese"],
+    experienceYears: 9,
+    certifications: ["CPR & First Aid"],
+    specialties: ["LGBTQ+ History", "Cultural Heritage", "Historical Reenactments"],
+    specialTraining: ["Photography", "Culinary Skills"],
   },
   {
-    id: "guide-san-juan-3",
-    name: "Patricia Khan",
+    id: "guide-san-juan-4",
+    name: "Maya Wang",
     city: "San Juan",
     country: "Puerto Rico",
     state: "",
     region: "Puerto Rico",
-    isPopular: false,
-    bio: "Patricia is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Local Artisans, Patricia provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["South Pacific Ocean", "Pacific Northwest"],
-    tourTypes: ["Private Tour", "Architecture Tour"],
-    maxGroupSize: 13,
-    licenseNumber: "LIC-6420-SAN",
-    phoneNumber: "+1-485-978-4767",
-    contactEmail: "patricia.khan@paragontrails.com",
+    isPopular: true,
+    bio: "Maya is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Adventure Sports, Maya provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Sahara Desert"],
+    tourTypes: ["Boat Tour", "Relocation Tour", "Bike Tour", "Adventure Tour", "Underground Tour"],
+    maxGroupSize: 7,
+    licenseNumber: "LIC-9115-SAN",
+    phoneNumber: "+1-807-240-2346",
+    contactEmail: "maya.wang@paragontrails.com",
     available: [
       {
-        day: "Thursday",
+        day: "Wednesday",
         availableHours: [
           {
-            from: "11:00 AM",
-            to: "02:00 PM",
-          },
-          {
-            from: "09:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "06:00 PM",
+            from: "02:00 PM",
+            to: "05:00 PM",
           }
         ],
       },
@@ -160,204 +247,12 @@ export const sanJuanpuertoRicopuertoRicoGuides: TourGuide[] = [
         day: "Friday",
         availableHours: [
           {
-            from: "01:00 PM",
-            to: "04:00 PM",
-          },
-          {
-            from: "03:00 PM",
-            to: "09:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Patricia is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Local Artisans, Patricia provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.5,
-    reviewsCount: 18,
-    quote: "San Juan isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/71.jpg",
-    languages: ["Icelandic", "Yoruba", "Hungarian"],
-    experienceYears: 5,
-    certifications: ["Licensed City Guide"],
-    specialties: ["Local Artisans"],
-    specialTraining: ["Cultural Immersion"],
-  },
-  {
-    id: "guide-san-juan-4",
-    name: "Margaret Hudson",
-    city: "San Juan",
-    country: "Puerto Rico",
-    state: "",
-    region: "Puerto Rico",
-    isPopular: false,
-    bio: "Margaret is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Local Myths, Historical Tours, Cultural Traditions, Historical Architecture, Margaret provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Southeast Asia"],
-    tourTypes: ["Cruise Excursion", "Relocation Tour", "Photography Tour"],
-    maxGroupSize: 8,
-    licenseNumber: "LIC-1768-SAN",
-    phoneNumber: "+1-573-319-9293",
-    contactEmail: "margaret.hudson@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "02:00 PM",
-          },
-          {
-            from: "03:00 PM",
-            to: "09:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "04:00 PM",
-          },
-          {
-            from: "10:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "08:00 PM",
-          },
-          {
             from: "11:00 AM",
-            to: "04:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Margaret is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Local Myths, Historical Tours, Cultural Traditions, Historical Architecture, Margaret provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.9,
-    reviewsCount: 36,
-    quote: "My goal is to help you fall in love with San Juan just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/22.jpg",
-    languages: ["Armenian", "Romanian"],
-    experienceYears: 12,
-    certifications: ["Local History Certification", "CPR & First Aid"],
-    specialties: ["Local Myths", "Historical Tours", "Cultural Traditions", "Historical Architecture"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-san-juan-5",
-    name: "Nomsa Rodriguez",
-    city: "San Juan",
-    country: "Puerto Rico",
-    state: "",
-    region: "Puerto Rico",
-    isPopular: false,
-    bio: "Nomsa is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Photography Spots, Local Sports, Local Folklore, Nomsa provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Siberia"],
-    tourTypes: ["Underground Tour", "Food Tour"],
-    maxGroupSize: 10,
-    licenseNumber: "LIC-5846-SAN",
-    phoneNumber: "+1-276-141-1138",
-    contactEmail: "nomsa.rodriguez@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "06:00 PM",
-          },
-          {
-            from: "12:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "12:00 PM",
             to: "02:00 PM",
-          },
-          {
-            from: "12:00 PM",
-            to: "03:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "12:00 PM",
           },
           {
             from: "09:00 AM",
-            to: "03:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Nomsa is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Photography Spots, Local Sports, Local Folklore, Nomsa provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 101,
-    quote: "In San Juan, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/15.jpg",
-    languages: ["Lao", "Basque"],
-    experienceYears: 13,
-    certifications: ["Food Safety Certification", "Licensed City Guide", "CPR & First Aid"],
-    specialties: ["Photography Spots", "Local Sports", "Local Folklore"],
-    specialTraining: ["Environmental Awareness", "Religious Studies"],
-  },
-  {
-    id: "guide-san-juan-6",
-    name: "Aria Coleman",
-    city: "San Juan",
-    country: "Puerto Rico",
-    state: "",
-    region: "Puerto Rico",
-    isPopular: false,
-    bio: "Aria is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Culinary Tours, Local Music, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Atlantic Coast USA"],
-    tourTypes: ["Festival Tour", "Architecture Tour"],
-    maxGroupSize: 10,
-    licenseNumber: "LIC-9290-SAN",
-    phoneNumber: "+1-597-674-7934",
-    contactEmail: "aria.coleman@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "04:00 PM",
+            to: "11:00 AM",
           }
         ],
       },
@@ -365,35 +260,31 @@ export const sanJuanpuertoRicopuertoRicoGuides: TourGuide[] = [
         day: "Tuesday",
         availableHours: [
           {
-            from: "10:00 AM",
-            to: "04:00 PM",
+            from: "11:00 AM",
+            to: "03:00 PM",
           }
         ],
       },
       {
-        day: "Thursday",
+        day: "Monday",
         availableHours: [
           {
-            from: "01:00 PM",
-            to: "06:00 PM",
-          },
-          {
-            from: "11:00 AM",
-            to: "04:00 PM",
+            from: "10:00 AM",
+            to: "02:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Aria is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Culinary Tours, Local Music, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4,
-    reviewsCount: 11,
-    quote: "Every corner of San Juan tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/5.jpg",
-    languages: ["Hebrew", "Ukrainian"],
-    experienceYears: 2,
-    certifications: ["Regional Tourism Ambassador"],
-    specialties: ["Culinary Tours", "Local Music"],
-    specialTraining: ["Cultural Sensitivity", "Archaeological Conservation"],
+    description: "Maya is a passionate tour guide with extensive knowledge of San Juan and Puerto Rico. Specializing in Adventure Sports, Maya provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 102,
+    quote: "The best way to discover San Juan is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/64.jpg",
+    languages: ["Lao", "Khmer"],
+    experienceYears: 10,
+    certifications: ["Certified International Tour Manager", "Adventure Tourism Safety Certificate", "Local History Certification"],
+    specialties: ["Adventure Sports"],
+    specialTraining: ["Cultural Heritage", "Crisis Management"],
   }
 ];

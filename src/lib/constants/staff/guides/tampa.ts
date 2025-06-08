@@ -1,43 +1,35 @@
 // This file is auto-generated. Do not edit manually.
 
+// Tour guides for Tampa (unitedStates)
+// Region: florida
+
+// Generated on: 2025-06-08T04:09:38.405Z
+
 import { TourGuide } from "@/lib/interfaces/people/staff";
 
 export const tampaunitedStatesfloridaGuides: TourGuide[] = [
   {
     id: "guide-tampa-1",
-    name: "Gabriella Suzuki",
+    name: "Ahmed Gardner",
     city: "Tampa",
     country: "United States",
     state: "",
     region: "Florida",
     isPopular: false,
-    bio: "Gabriella is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Local Cuisine, LGBTQ+ History, Gabriella provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Africa"],
-    tourTypes: ["Helicopter Tour", "Underground Tour"],
-    maxGroupSize: 11,
-    licenseNumber: "LIC-1139-TAM",
-    phoneNumber: "+1-942-204-2978",
-    contactEmail: "gabriella.suzuki@paragontrails.com",
+    bio: "Ahmed is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Art Walks, Shopping Districts, City History, Ahmed provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South Pacific"],
+    tourTypes: ["Farm Visit", "Self-Guided Tour"],
+    maxGroupSize: 5,
+    licenseNumber: "LIC-6564-TAM",
+    phoneNumber: "+1-430-736-2560",
+    contactEmail: "ahmed.gardner@paragontrails.com",
     available: [
       {
-        day: "Wednesday",
+        day: "Friday",
         availableHours: [
           {
-            from: "01:00 PM",
-            to: "04:00 PM",
-          },
-          {
-            from: "01:00 PM",
-            to: "04:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "08:00 PM",
+            from: "08:00 AM",
+            to: "01:00 PM",
           }
         ],
       },
@@ -45,85 +37,67 @@ export const tampaunitedStatesfloridaGuides: TourGuide[] = [
         day: "Saturday",
         availableHours: [
           {
-            from: "08:00 AM",
-            to: "02:00 PM",
+            from: "03:00 PM",
+            to: "06:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "05:00 PM",
           }
         ],
       },
       {
-        day: "Tuesday",
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "11:00 AM",
+          },
+          {
+            from: "12:00 PM",
+            to: "03:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Ahmed is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Art Walks, Shopping Districts, City History, Ahmed provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 99,
+    quote: "My goal is to help you fall in love with Tampa just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/83.jpg",
+    languages: ["Thai", "Serbian"],
+    experienceYears: 13,
+    certifications: ["Licensed City Guide"],
+    specialties: ["Art Walks", "Shopping Districts", "City History"],
+    specialTraining: ["Local Geography"],
+  },
+  {
+    id: "guide-tampa-2",
+    name: "Walter Ivanov",
+    city: "Tampa",
+    country: "United States",
+    state: "",
+    region: "Florida",
+    isPopular: true,
+    bio: "Walter is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Local Wildlife, Local Legends, Museums, Walter provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Great Plains", "Australia & New Zealand"],
+    tourTypes: ["Farm Visit", "Street Art Tour", "Luxury Tour", "Market Tour", "Nature Tour"],
+    maxGroupSize: 11,
+    licenseNumber: "LIC-6478-TAM",
+    phoneNumber: "+1-414-636-5589",
+    contactEmail: "walter.ivanov@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
         availableHours: [
           {
             from: "03:00 PM",
             to: "09:00 PM",
           },
           {
-            from: "01:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "01:00 PM",
-          },
-          {
-            from: "08:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Gabriella is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Local Cuisine, LGBTQ+ History, Gabriella provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.6,
-    reviewsCount: 49,
-    quote: "In Tampa, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/38.jpg",
-    languages: ["Mandarin", "Korean", "Spanish"],
-    experienceYears: 10,
-    certifications: ["Sustainable Tourism Certificate"],
-    specialties: ["Local Cuisine", "LGBTQ+ History"],
-    specialTraining: ["Local Transit Systems", "Cultural Storytelling"],
-  },
-  {
-    id: "guide-tampa-2",
-    name: "Samantha Brown",
-    city: "Tampa",
-    country: "United States",
-    state: "",
-    region: "Florida",
-    isPopular: false,
-    bio: "Samantha is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Local Music, Street Food, Samantha provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Southern Europe"],
-    tourTypes: ["Luxury Tour", "Adventure Tour", "Wildlife Safari", "Family-Friendly Tour"],
-    maxGroupSize: 18,
-    licenseNumber: "LIC-4361-TAM",
-    phoneNumber: "+1-426-749-5743",
-    contactEmail: "samantha.brown@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "05:00 PM",
-          },
-          {
-            from: "09:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "06:00 PM",
+            from: "10:00 AM",
+            to: "12:00 PM",
           }
         ],
       },
@@ -132,183 +106,68 @@ export const tampaunitedStatesfloridaGuides: TourGuide[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "04:00 PM",
+            to: "02:00 PM",
           }
         ],
-      }
-    ],
-    isCertified: true,
-    description: "Samantha is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Local Music, Street Food, Samantha provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.1,
-    reviewsCount: 77,
-    quote: "My goal is to help you fall in love with Tampa just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/60.jpg",
-    languages: ["Ukrainian", "Swedish", "Afrikaans"],
-    experienceYears: 9,
-    certifications: ["Sustainable Tourism Certificate", "Cultural Sensitivity Training"],
-    specialties: ["Local Music", "Street Food"],
-    specialTraining: ["Public Speaking", "Accessibility Services"],
-  },
-  {
-    id: "guide-tampa-3",
-    name: "Mateo Warren",
-    city: "Tampa",
-    country: "United States",
-    state: "",
-    region: "Florida",
-    isPopular: true,
-    bio: "Mateo is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Hidden Treasures, Mateo provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Yellow Sea", "Persian Gulf"],
-    tourTypes: ["Ghost Tour", "Photography Tour", "Farm Visit"],
-    maxGroupSize: 13,
-    licenseNumber: "LIC-9405-TAM",
-    phoneNumber: "+1-191-354-4619",
-    contactEmail: "mateo.warren@paragontrails.com",
-    available: [
+      },
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "02:00 PM",
-            to: "04:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
+            from: "01:00 PM",
+            to: "05:00 PM",
+          },
           {
             from: "01:00 PM",
-            to: "07:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "03:00 PM",
-          },
-          {
-            from: "09:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "07:00 PM",
-          },
-          {
-            from: "08:00 AM",
-            to: "10:00 AM",
+            to: "05:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Mateo is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Hidden Treasures, Mateo provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.9,
-    reviewsCount: 23,
-    quote: "My goal is to help you fall in love with Tampa just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/4.jpg",
-    languages: ["Turkish"],
-    experienceYears: 14,
-    certifications: ["Regional Tourism Ambassador"],
-    specialties: ["Hidden Treasures"],
-    specialTraining: ["First Aid & CPR", "Culinary Skills"],
-  },
-  {
-    id: "guide-tampa-4",
-    name: "Kimberly Martinez",
-    city: "Tampa",
-    country: "United States",
-    state: "",
-    region: "Florida",
-    isPopular: false,
-    bio: "Kimberly is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Family Activities, Kimberly provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada", "South Asia"],
-    tourTypes: ["Food Tour", "Historical Tour", "Ghost Tour", "Helicopter Tour", "Shopping Tour"],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-9495-TAM",
-    phoneNumber: "+1-840-291-9193",
-    contactEmail: "kimberly.martinez@paragontrails.com",
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "01:00 PM",
-          },
-          {
-            from: "02:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "10:00 AM",
-          },
-          {
-            from: "12:00 PM",
-            to: "03:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Kimberly is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Family Activities, Kimberly provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.2,
-    reviewsCount: 95,
-    quote: "Every corner of Tampa tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/7.jpg",
-    languages: ["Danish", "Amharic"],
-    experienceYears: 3,
+    description: "Walter is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Local Wildlife, Local Legends, Museums, Walter provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 46,
+    quote: "Tampa isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/44.jpg",
+    languages: ["Albanian"],
+    experienceYears: 7,
     certifications: ["Sustainable Tourism Certificate"],
-    specialties: ["Family Activities"],
+    specialties: ["Local Wildlife", "Local Legends", "Museums"],
     specialTraining: [],
   },
   {
-    id: "guide-tampa-5",
-    name: "Terry Harris",
+    id: "guide-tampa-3",
+    name: "Priya Carpenter",
     city: "Tampa",
     country: "United States",
     state: "",
     region: "Florida",
     isPopular: false,
-    bio: "Terry is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Film Locations, Terry provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Kalahari Desert"],
-    tourTypes: ["Audio Tour", "Helicopter Tour"],
-    maxGroupSize: 9,
-    licenseNumber: "LIC-5407-TAM",
-    phoneNumber: "+1-397-916-3948",
-    contactEmail: "terry.harris@paragontrails.com",
+    bio: "Priya is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Culinary Tours, Historical Sites, Hidden Gems, Priya provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Central Africa", "Appalachian Mountains"],
+    tourTypes: ["Group Tour", "Farm Visit", "Eco Tour"],
+    maxGroupSize: 6,
+    licenseNumber: "LIC-1971-TAM",
+    phoneNumber: "+1-547-878-6086",
+    contactEmail: "priya.carpenter@paragontrails.com",
     available: [
       {
-        day: "Monday",
+        day: "Wednesday",
         availableHours: [
           {
             from: "09:00 AM",
-            to: "02:00 PM",
+            to: "12:00 PM",
           },
+          {
+            from: "09:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
           {
             from: "09:00 AM",
             to: "12:00 PM",
@@ -316,11 +175,139 @@ export const tampaunitedStatesfloridaGuides: TourGuide[] = [
         ],
       },
       {
-        day: "Tuesday",
+        day: "Monday",
         availableHours: [
           {
+            from: "08:00 AM",
+            to: "10:00 AM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "02:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Priya is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Culinary Tours, Historical Sites, Hidden Gems, Priya provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4,
+    reviewsCount: 70,
+    quote: "My goal is to help you fall in love with Tampa just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/14.jpg",
+    languages: ["Norwegian", "Cantonese"],
+    experienceYears: 10,
+    certifications: ["Licensed City Guide", "Certified Tour Guide"],
+    specialties: ["Culinary Tours", "Historical Sites", "Hidden Gems"],
+    specialTraining: ["Historical Research Methods", "Culinary Skills"],
+  },
+  {
+    id: "guide-tampa-4",
+    name: "Ali Lopez",
+    city: "Tampa",
+    country: "United States",
+    state: "",
+    region: "Florida",
+    isPopular: false,
+    bio: "Ali is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Local Craftsmanship, Ali provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean"],
+    tourTypes: ["Family-Friendly Tour", "Photography Tour", "Group Tour", "Boat Tour", "Religious Tour"],
+    maxGroupSize: 19,
+    licenseNumber: "LIC-4441-TAM",
+    phoneNumber: "+1-844-798-1133",
+    contactEmail: "ali.lopez@paragontrails.com",
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "02:00 PM",
+          },
+          {
             from: "10:00 AM",
-            to: "01:00 PM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "12:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "11:00 AM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "05:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Ali is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Local Craftsmanship, Ali provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.9,
+    reviewsCount: 76,
+    quote: "Tampa isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/15.jpg",
+    languages: ["Pashto", "Urdu", "Punjabi"],
+    experienceYears: 10,
+    certifications: ["Urban Navigation Specialist"],
+    specialties: ["Local Craftsmanship"],
+    specialTraining: ["Environmental Awareness", "Regional Cuisine"],
+  },
+  {
+    id: "guide-tampa-5",
+    name: "Paul Hall",
+    city: "Tampa",
+    country: "United States",
+    state: "",
+    region: "Florida",
+    isPopular: true,
+    bio: "Paul is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Photography, Paul provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caspian Sea"],
+    tourTypes: ["Museum Tour"],
+    maxGroupSize: 5,
+    licenseNumber: "LIC-6869-TAM",
+    phoneNumber: "+1-277-694-3314",
+    contactEmail: "paul.hall@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "03:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "04:00 PM",
           }
         ],
       },
@@ -328,22 +315,91 @@ export const tampaunitedStatesfloridaGuides: TourGuide[] = [
         day: "Wednesday",
         availableHours: [
           {
-            from: "12:00 PM",
-            to: "03:00 PM",
+            from: "09:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "11:00 AM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Terry is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Film Locations, Terry provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.9,
-    reviewsCount: 93,
-    quote: "In Tampa, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/13.jpg",
-    languages: ["Norwegian", "German"],
-    experienceYears: 11,
-    certifications: ["Wilderness First Responder"],
-    specialties: ["Film Locations"],
-    specialTraining: ["Wildlife Conservation"],
+    description: "Paul is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Photography, Paul provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.5,
+    reviewsCount: 102,
+    quote: "Every corner of Tampa tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/10.jpg",
+    languages: ["Nepali", "Malay", "Turkmen"],
+    experienceYears: 12,
+    certifications: ["Cultural Heritage Specialist"],
+    specialties: ["Photography"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-tampa-6",
+    name: "Benjamin Moore",
+    city: "Tampa",
+    country: "United States",
+    state: "",
+    region: "Florida",
+    isPopular: true,
+    bio: "Benjamin is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Local Legends, Historical Landmarks, City History, Night Tours, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Caribbean Islands", "North Africa"],
+    tourTypes: ["Cultural Tour", "Street Art Tour"],
+    maxGroupSize: 19,
+    licenseNumber: "LIC-4901-TAM",
+    phoneNumber: "+1-952-467-4880",
+    contactEmail: "benjamin.moore@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "11:00 AM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "11:00 AM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Benjamin is a passionate tour guide with extensive knowledge of Tampa and United States. Specializing in Local Legends, Historical Landmarks, City History, Night Tours, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 5,
+    quote: "My goal is to help you fall in love with Tampa just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/1.jpg",
+    languages: ["Portuguese"],
+    experienceYears: 13,
+    certifications: ["Cultural Heritage Specialist", "Certified Local Guide", "Language Proficiency Certification"],
+    specialties: ["Local Legends", "Historical Landmarks", "City History", "Night Tours"],
+    specialTraining: ["Accessibility Services", "Wildlife Conservation"],
   }
 ];

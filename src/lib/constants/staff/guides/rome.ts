@@ -1,332 +1,53 @@
 // This file is auto-generated. Do not edit manually.
 
+// Tour guides for Rome (italy)
+// Region: centralItaly
+
+// Generated on: 2025-06-08T04:09:38.400Z
+
 import { TourGuide } from "@/lib/interfaces/people/staff";
 
 export const romeitalycentralItalyGuides: TourGuide[] = [
   {
     id: "guide-rome-1",
-    name: "Harper Day",
+    name: "Eric Stewart",
     city: "Rome",
     country: "Italy",
     state: "",
     region: "Central Italy",
-    isPopular: false,
-    bio: "Harper is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Indigenous Culture, Local Fashion, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Southeast Asia", "Latin America"],
-    tourTypes: ["Adventure Tour", "Street Art Tour", "Architecture Tour"],
+    isPopular: true,
+    bio: "Eric is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Public Transportation Navigation, Local Wildlife, Eric provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Northeast USA"],
+    tourTypes: ["Ghost Tour", "Photography Tour"],
     maxGroupSize: 8,
-    licenseNumber: "LIC-7756-ROM",
-    phoneNumber: "+1-412-711-4820",
-    contactEmail: "harper.day@paragontrails.com",
+    licenseNumber: "LIC-6152-ROM",
+    phoneNumber: "+1-853-506-1374",
+    contactEmail: "eric.stewart@paragontrails.com",
     available: [
       {
-        day: "Monday",
+        day: "Thursday",
         availableHours: [
-          {
-            from: "02:00 PM",
-            to: "04:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "04:00 PM",
-          },
           {
             from: "03:00 PM",
-            to: "07:00 PM",
+            to: "09:00 PM",
           }
         ],
       },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "06:00 PM",
-          },
-          {
-            from: "02:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Harper is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Indigenous Culture, Local Fashion, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.8,
-    reviewsCount: 18,
-    quote: "My goal is to help you fall in love with Rome just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/68.jpg",
-    languages: ["Telugu", "Farsi"],
-    experienceYears: 12,
-    certifications: ["Adventure Tourism Certification", "Cultural Sensitivity Training", "Language Proficiency Certification"],
-    specialties: ["Indigenous Culture", "Local Fashion"],
-    specialTraining: ["Cultural Heritage Preservation", "Public Speaking"],
-  },
-  {
-    id: "guide-rome-2",
-    name: "Mei Graham",
-    city: "Rome",
-    country: "Italy",
-    state: "",
-    region: "Central Italy",
-    isPopular: true,
-    bio: "Mei is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Historical Reenactments, Nightlife, Mei provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["South America", "East Coast Canada"],
-    tourTypes: ["Romantic Tour", "Wildlife Safari", "Farm Visit"],
-    maxGroupSize: 15,
-    licenseNumber: "LIC-2974-ROM",
-    phoneNumber: "+1-994-904-4588",
-    contactEmail: "mei.graham@paragontrails.com",
-    available: [
       {
         day: "Monday",
         availableHours: [
           {
-            from: "09:00 AM",
-            to: "03:00 PM",
-          },
-          {
-            from: "12:00 PM",
+            from: "01:00 PM",
             to: "03:00 PM",
           }
         ],
       },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "03:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "04:00 PM",
-          },
-          {
-            from: "11:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Mei is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Historical Reenactments, Nightlife, Mei provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.7,
-    reviewsCount: 89,
-    quote: "My goal is to help you fall in love with Rome just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/67.jpg",
-    languages: ["Malayalam", "Portuguese", "Greek"],
-    experienceYears: 11,
-    certifications: ["Adventure Tourism Safety Certificate", "Certified Heritage Guide", "Food Safety Certification"],
-    specialties: ["Historical Reenactments", "Nightlife"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-rome-3",
-    name: "Kyle Dubois",
-    city: "Rome",
-    country: "Italy",
-    state: "",
-    region: "Central Italy",
-    isPopular: false,
-    bio: "Kyle is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Film Locations, Kyle provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Yellow Sea"],
-    tourTypes: ["Craft Workshop", "Self-Guided Tour", "Religious Tour", "Scenic Tour"],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-3823-ROM",
-    phoneNumber: "+1-369-315-4149",
-    contactEmail: "kyle.dubois@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "02:00 PM",
-          },
-          {
-            from: "02:00 PM",
-            to: "07:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "11:00 AM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Kyle is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Film Locations, Kyle provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.4,
-    reviewsCount: 96,
-    quote: "In Rome, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/57.jpg",
-    languages: ["Slovenian", "Estonian", "Khmer"],
-    experienceYears: 4,
-    certifications: ["Local History Certification", "Regional Tourism Ambassador", "Urban Navigation Specialist"],
-    specialties: ["Film Locations"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-rome-4",
-    name: "Brandon Bennett",
-    city: "Rome",
-    country: "Italy",
-    state: "",
-    region: "Central Italy",
-    isPopular: true,
-    bio: "Brandon is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Local Legends, Brandon provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Great Lakes Region", "Southeast Europe"],
-    tourTypes: ["Group Tour", "Scenic Tour", "Cultural Tour", "Private Tour"],
-    maxGroupSize: 14,
-    licenseNumber: "LIC-2937-ROM",
-    phoneNumber: "+1-575-465-4262",
-    contactEmail: "brandon.bennett@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "07:00 PM",
-          },
-          {
-            from: "08:00 AM",
-            to: "11:00 AM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "02:00 PM",
-          },
-          {
-            from: "12:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Brandon is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Local Legends, Brandon provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.7,
-    reviewsCount: 8,
-    quote: "Every corner of Rome tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/0.jpg",
-    languages: ["Estonian"],
-    experienceYears: 7,
-    certifications: ["Local History Certification", "Urban Navigation Specialist"],
-    specialties: ["Local Legends"],
-    specialTraining: ["Wildlife Conservation"],
-  },
-  {
-    id: "guide-rome-5",
-    name: "Charlotte Maxwell",
-    city: "Rome",
-    country: "Italy",
-    state: "",
-    region: "Central Italy",
-    isPopular: false,
-    bio: "Charlotte is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Parks & Gardens, Cultural Experiences, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Indian Ocean"],
-    tourTypes: ["Wine Tour", "Family-Friendly Tour", "Religious Tour", "Adventure Tour"],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-2680-ROM",
-    phoneNumber: "+1-675-166-4989",
-    contactEmail: "charlotte.maxwell@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "11:00 AM",
-          },
-          {
-            from: "09:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "12:00 PM",
-          },
-          {
-            from: "08:00 AM",
-            to: "11:00 AM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Charlotte is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Parks & Gardens, Cultural Experiences, Charlotte provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.8,
-    reviewsCount: 60,
-    quote: "In Rome, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/81.jpg",
-    languages: ["Arabic", "Italian"],
-    experienceYears: 5,
-    certifications: ["Food Safety Certification"],
-    specialties: ["Parks & Gardens", "Cultural Experiences"],
-    specialTraining: ["Local History"],
-  },
-  {
-    id: "guide-rome-6",
-    name: "Frank Foster",
-    city: "Rome",
-    country: "Italy",
-    state: "",
-    region: "Central Italy",
-    isPopular: false,
-    bio: "Frank is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Hidden Treasures, Art Walks, Parks & Gardens, Sustainable Tourism, Frank provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Bay of Bengal"],
-    tourTypes: ["Accessible Tour", "Group Tour", "Off-Road Tour"],
-    maxGroupSize: 19,
-    licenseNumber: "LIC-5582-ROM",
-    phoneNumber: "+1-473-551-2202",
-    contactEmail: "frank.foster@paragontrails.com",
-    available: [
       {
         day: "Saturday",
         availableHours: [
           {
             from: "03:00 PM",
             to: "09:00 PM",
-          },
-          {
-            from: "10:00 AM",
-            to: "02:00 PM",
           }
         ],
       },
@@ -334,81 +55,63 @@ export const romeitalycentralItalyGuides: TourGuide[] = [
         day: "Friday",
         availableHours: [
           {
-            from: "12:00 PM",
-            to: "02:00 PM",
-          },
-          {
-            from: "10:00 AM",
-            to: "03:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "09:00 AM",
+            from: "08:00 AM",
             to: "12:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Frank is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Hidden Treasures, Art Walks, Parks & Gardens, Sustainable Tourism, Frank provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.5,
-    reviewsCount: 71,
-    quote: "Every corner of Rome tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/34.jpg",
-    languages: ["Ukrainian", "Slovak", "Somali"],
-    experienceYears: 11,
-    certifications: ["Wilderness First Responder", "Certified Eco-Tourism Guide"],
-    specialties: ["Hidden Treasures", "Art Walks", "Parks & Gardens", "Sustainable Tourism"],
+    description: "Eric is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Public Transportation Navigation, Local Wildlife, Eric provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.3,
+    reviewsCount: 10,
+    quote: "The best way to discover Rome is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/60.jpg",
+    languages: ["Estonian", "Macedonian"],
+    experienceYears: 13,
+    certifications: ["Heritage Interpretation Certificate"],
+    specialties: ["Public Transportation Navigation", "Local Wildlife"],
     specialTraining: [],
   },
   {
-    id: "guide-rome-7",
-    name: "Jordan Watson",
+    id: "guide-rome-2",
+    name: "Ahmed Hamilton",
     city: "Rome",
     country: "Italy",
     state: "",
     region: "Central Italy",
     isPopular: false,
-    bio: "Jordan is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Cultural Experiences, Sustainable Tourism, Street Food, Photography, Jordan provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caspian Sea"],
-    tourTypes: ["Wine Tour", "Walking Tour", "Food Tour", "Farm Visit"],
-    maxGroupSize: 10,
-    licenseNumber: "LIC-5086-ROM",
-    phoneNumber: "+1-831-139-1324",
-    contactEmail: "jordan.watson@paragontrails.com",
+    bio: "Ahmed is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Historical Architecture, Local Wildlife, Religious Sites, Urban Legends, Ahmed provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Antarctic Peninsula", "Canadian Rockies"],
+    tourTypes: ["Nature Tour", "Craft Workshop", "Farm Visit", "Eco Tour", "Scenic Tour"],
+    maxGroupSize: 19,
+    licenseNumber: "LIC-9908-ROM",
+    phoneNumber: "+1-221-509-1440",
+    contactEmail: "ahmed.hamilton@paragontrails.com",
     available: [
       {
-        day: "Thursday",
+        day: "Tuesday",
         availableHours: [
           {
-            from: "09:00 AM",
-            to: "02:00 PM",
+            from: "01:00 PM",
+            to: "05:00 PM",
           },
           {
-            from: "09:00 AM",
-            to: "02:00 PM",
+            from: "12:00 PM",
+            to: "04:00 PM",
           }
         ],
       },
       {
-        day: "Wednesday",
+        day: "Thursday",
         availableHours: [
           {
-            from: "10:00 AM",
-            to: "12:00 PM",
+            from: "12:00 PM",
+            to: "02:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "07:00 PM",
           }
         ],
       },
@@ -416,7 +119,49 @@ export const romeitalycentralItalyGuides: TourGuide[] = [
         day: "Saturday",
         availableHours: [
           {
+            from: "11:00 AM",
+            to: "04:00 PM",
+          },
+          {
             from: "03:00 PM",
+            to: "08:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Ahmed is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Historical Architecture, Local Wildlife, Religious Sites, Urban Legends, Ahmed provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 31,
+    quote: "Every corner of Rome tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/54.jpg",
+    languages: ["Khmer", "Norwegian", "Basque"],
+    experienceYears: 5,
+    certifications: ["Cultural Sensitivity Training"],
+    specialties: ["Historical Architecture", "Local Wildlife", "Religious Sites", "Urban Legends"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-rome-3",
+    name: "Alan Wallace",
+    city: "Rome",
+    country: "Italy",
+    state: "",
+    region: "Central Italy",
+    isPopular: true,
+    bio: "Alan is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Wildlife Watching, Alan provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Atlantic Canada"],
+    tourTypes: ["Self-Guided Tour", "Accessible Tour"],
+    maxGroupSize: 18,
+    licenseNumber: "LIC-7301-ROM",
+    phoneNumber: "+1-106-680-3494",
+    contactEmail: "alan.wallace@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "12:00 PM",
             to: "06:00 PM",
           },
           {
@@ -426,29 +171,235 @@ export const romeitalycentralItalyGuides: TourGuide[] = [
         ],
       },
       {
-        day: "Friday",
+        day: "Sunday",
         availableHours: [
           {
-            from: "12:00 PM",
+            from: "01:00 PM",
             to: "04:00 PM",
           },
           {
-            from: "02:00 PM",
-            to: "08:00 PM",
+            from: "01:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "04:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "05:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "04:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Jordan is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Cultural Experiences, Sustainable Tourism, Street Food, Photography, Jordan provides authentic and engaging experiences for visitors of all backgrounds.",
+    description: "Alan is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Wildlife Watching, Alan provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.6,
+    reviewsCount: 57,
+    quote: "Rome isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/65.jpg",
+    languages: ["Spanish", "Czech", "French"],
+    experienceYears: 11,
+    certifications: ["CPR & First Aid", "Regional Tourism Ambassador", "Certified Tour Guide"],
+    specialties: ["Wildlife Watching"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-rome-4",
+    name: "Ethan Gonzalez",
+    city: "Rome",
+    country: "Italy",
+    state: "",
+    region: "Central Italy",
+    isPopular: false,
+    bio: "Ethan is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Local Crafts, Local Dance, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada", "East Africa"],
+    tourTypes: ["Photography Tour", "Cultural Tour"],
+    maxGroupSize: 19,
+    licenseNumber: "LIC-9168-ROM",
+    phoneNumber: "+1-736-713-7659",
+    contactEmail: "ethan.gonzalez@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "06:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "11:00 AM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Ethan is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Local Crafts, Local Dance, Ethan provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.7,
+    reviewsCount: 86,
+    quote: "In Rome, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/80.jpg",
+    languages: ["Malayalam"],
+    experienceYears: 6,
+    certifications: ["Adventure Tourism Safety Certificate", "Adventure Tourism Certification", "Cultural Sensitivity Training"],
+    specialties: ["Local Crafts", "Local Dance"],
+    specialTraining: ["Regional Geology", "Environmental Awareness"],
+  },
+  {
+    id: "guide-rome-5",
+    name: "Hassan Garcia",
+    city: "Rome",
+    country: "Italy",
+    state: "",
+    region: "Central Italy",
+    isPopular: true,
+    bio: "Hassan is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Art Walks, Local Craftsmanship, Hassan provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["North America"],
+    tourTypes: ["Cultural Tour", "Family-Friendly Tour", "Brewery Tour", "Underground Tour", "Luxury Tour"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-3080-ROM",
+    phoneNumber: "+1-690-129-4721",
+    contactEmail: "hassan.garcia@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "10:00 AM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Hassan is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Art Walks, Local Craftsmanship, Hassan provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
-    reviewsCount: 97,
+    reviewsCount: 101,
     quote: "Every corner of Rome tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/16.jpg",
-    languages: ["Russian"],
-    experienceYears: 8,
-    certifications: ["Regional Tourism Ambassador", "Professional Tour Guide Association"],
-    specialties: ["Cultural Experiences", "Sustainable Tourism", "Street Food", "Photography"],
-    specialTraining: ["Local Flora & Fauna", "Environmental Awareness"],
+    profileImage: "https://randomuser.me/api/portraits/men/10.jpg",
+    languages: ["Slovak"],
+    experienceYears: 12,
+    certifications: ["Cultural Sensitivity Training"],
+    specialties: ["Art Walks", "Local Craftsmanship"],
+    specialTraining: ["Crisis Management", "Cultural Immersion"],
+  },
+  {
+    id: "guide-rome-6",
+    name: "Bella Fox",
+    city: "Rome",
+    country: "Italy",
+    state: "",
+    region: "Central Italy",
+    isPopular: true,
+    bio: "Bella is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Local Crafts, Local Fashion, Local Festivals, Bella provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Bering Sea"],
+    tourTypes: ["Group Tour", "Adventure Tour", "Helicopter Tour", "Underground Tour"],
+    maxGroupSize: 9,
+    licenseNumber: "LIC-1521-ROM",
+    phoneNumber: "+1-233-630-9431",
+    contactEmail: "bella.fox@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "04:00 PM",
+          },
+          {
+            from: "11:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Bella is a passionate tour guide with extensive knowledge of Rome and Italy. Specializing in Local Crafts, Local Fashion, Local Festivals, Bella provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 5,
+    quote: "The best way to discover Rome is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/32.jpg",
+    languages: ["Croatian", "Tigrinya"],
+    experienceYears: 3,
+    certifications: ["Eco-Tourism Guide", "Certified International Tour Manager", "Cultural Heritage Specialist"],
+    specialties: ["Local Crafts", "Local Fashion", "Local Festivals"],
+    specialTraining: ["Local Geography", "Environmental Awareness"],
   }
 ];

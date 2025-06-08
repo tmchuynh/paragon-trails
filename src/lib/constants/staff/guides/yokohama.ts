@@ -1,111 +1,39 @@
 // This file is auto-generated. Do not edit manually.
 
+// Tour guides for Yokohama (japan)
+// Region: japan
+
+// Generated on: 2025-06-08T04:09:38.407Z
+
 import { TourGuide } from "@/lib/interfaces/people/staff";
 
 export const yokohamajapanjapanGuides: TourGuide[] = [
   {
     id: "guide-yokohama-1",
-    name: "Kinsley Young",
+    name: "Liam West",
     city: "Yokohama",
     country: "Japan",
     state: "",
     region: "Japan",
     isPopular: false,
-    bio: "Kinsley is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Photography Spots, Music Scene, Local Literature, Public Transportation Navigation, Kinsley provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Southwest USA"],
-    tourTypes: ["Photography Tour", "Romantic Tour"],
-    maxGroupSize: 9,
-    licenseNumber: "LIC-6915-YOK",
-    phoneNumber: "+1-183-484-3965",
-    contactEmail: "kinsley.young@paragontrails.com",
+    bio: "Liam is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Shopping Districts, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Great Lakes Region", "Sahara Desert"],
+    tourTypes: ["Street Art Tour", "Walking Tour", "Adventure Tour"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-6740-YOK",
+    phoneNumber: "+1-787-162-9972",
+    contactEmail: "liam.west@paragontrails.com",
     available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "12:00 PM",
-          },
-          {
-            from: "10:00 AM",
-            to: "12:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "04:00 PM",
-          },
-          {
-            from: "10:00 AM",
-            to: "04:00 PM",
-          }
-        ],
-      },
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "03:00 PM",
-            to: "07:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Kinsley is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Photography Spots, Music Scene, Local Literature, Public Transportation Navigation, Kinsley provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.7,
-    reviewsCount: 28,
-    quote: "My goal is to help you fall in love with Yokohama just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/1.jpg",
-    languages: ["Arabic", "Farsi"],
-    experienceYears: 15,
-    certifications: ["Cultural Sensitivity Training"],
-    specialties: ["Photography Spots", "Music Scene", "Local Literature", "Public Transportation Navigation"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-yokohama-2",
-    name: "Samuel Hawkins",
-    city: "Yokohama",
-    country: "Japan",
-    state: "",
-    region: "Japan",
-    isPopular: false,
-    bio: "Samuel is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Local Dance, Local Fashion, Local Music, Samuel provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Prairies", "Mediterranean"],
-    tourTypes: ["Street Art Tour", "Relocation Tour", "Underground Tour"],
-    maxGroupSize: 9,
-    licenseNumber: "LIC-6159-YOK",
-    phoneNumber: "+1-320-824-5537",
-    contactEmail: "samuel.hawkins@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "08:00 AM",
+            from: "10:00 AM",
             to: "01:00 PM",
           },
           {
-            from: "01:00 PM",
-            to: "07:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
             from: "02:00 PM",
-            to: "05:00 PM",
-          },
-          {
-            from: "01:00 PM",
-            to: "06:00 PM",
+            to: "07:00 PM",
           }
         ],
       },
@@ -113,63 +41,8 @@ export const yokohamajapanjapanGuides: TourGuide[] = [
         day: "Monday",
         availableHours: [
           {
-            from: "08:00 AM",
-            to: "12:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "05:00 PM",
-          },
-          {
-            from: "01:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Samuel is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Local Dance, Local Fashion, Local Music, Samuel provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.7,
-    reviewsCount: 43,
-    quote: "My goal is to help you fall in love with Yokohama just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/24.jpg",
-    languages: ["Malay", "Latvian"],
-    experienceYears: 13,
-    certifications: ["Professional Tour Guide Association", "Certified Eco-Tourism Guide", "Licensed City Guide"],
-    specialties: ["Local Dance", "Local Fashion", "Local Music"],
-    specialTraining: ["Art History", "Crisis Management"],
-  },
-  {
-    id: "guide-yokohama-3",
-    name: "Khalid Holloway",
-    city: "Yokohama",
-    country: "Japan",
-    state: "",
-    region: "Japan",
-    isPopular: false,
-    bio: "Khalid is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Local Crafts, Historical Figures, Khalid provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Southeast Asia Islands", "South Asia Subcontinent"],
-    tourTypes: ["Architecture Tour", "Audio Tour", "Private Tour", "Luxury Tour"],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-2306-YOK",
-    phoneNumber: "+1-485-197-6317",
-    contactEmail: "khalid.holloway@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
             from: "09:00 AM",
-            to: "02:00 PM",
-          },
-          {
-            from: "11:00 AM",
-            to: "01:00 PM",
+            to: "03:00 PM",
           }
         ],
       },
@@ -178,136 +51,45 @@ export const yokohamajapanjapanGuides: TourGuide[] = [
         availableHours: [
           {
             from: "01:00 PM",
-            to: "04:00 PM",
-          },
-          {
-            from: "10:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "04:00 PM",
-          },
-          {
-            from: "09:00 AM",
-            to: "11:00 AM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "08:00 PM",
+            to: "03:00 PM",
           },
           {
             from: "01:00 PM",
-            to: "03:00 PM",
+            to: "04:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Khalid is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Local Crafts, Historical Figures, Khalid provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.7,
-    reviewsCount: 89,
-    quote: "My goal is to help you fall in love with Yokohama just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/47.jpg",
-    languages: ["Nepali", "Tagalog", "Vietnamese"],
-    experienceYears: 13,
-    certifications: ["Professional Tour Guide Association", "Food Safety Certification", "Certified Eco-Tourism Guide"],
-    specialties: ["Local Crafts", "Historical Figures"],
+    description: "Liam is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Shopping Districts, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.8,
+    reviewsCount: 31,
+    quote: "In Yokohama, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/59.jpg",
+    languages: ["Pashto", "Serbo-Croatian", "Xhosa"],
+    experienceYears: 10,
+    certifications: ["Wilderness First Responder"],
+    specialties: ["Shopping Districts"],
     specialTraining: [],
   },
   {
-    id: "guide-yokohama-4",
-    name: "Edward Carter",
+    id: "guide-yokohama-2",
+    name: "Carol Coleman",
     city: "Yokohama",
     country: "Japan",
     state: "",
     region: "Japan",
     isPopular: true,
-    bio: "Edward is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Local Myths, Adventure Activities, Edward provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["South China Sea", "Southwest USA"],
-    tourTypes: ["Cruise Excursion", "Accessible Tour", "Brewery Tour", "Farm Visit"],
-    maxGroupSize: 18,
-    licenseNumber: "LIC-6416-YOK",
-    phoneNumber: "+1-149-677-4346",
-    contactEmail: "edward.carter@paragontrails.com",
+    bio: "Carol is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Local Artisans, Outdoor Activities, Cultural Heritage, Carol provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["North Pacific Ocean"],
+    tourTypes: ["Accessible Tour", "Walking Tour", "Festival Tour", "Photography Tour", "Group Tour"],
+    maxGroupSize: 10,
+    licenseNumber: "LIC-7805-YOK",
+    phoneNumber: "+1-838-167-2940",
+    contactEmail: "carol.coleman@paragontrails.com",
     available: [
       {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "03:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "08:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Edward is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Local Myths, Adventure Activities, Edward provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4,
-    reviewsCount: 18,
-    quote: "The best way to discover Yokohama is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/51.jpg",
-    languages: ["Indonesian", "Bosnian"],
-    experienceYears: 13,
-    certifications: ["Language Proficiency Certification", "Certified Tour Guide", "Adventure Tourism Certification"],
-    specialties: ["Local Myths", "Adventure Activities"],
-    specialTraining: ["Art History", "Local Flora & Fauna"],
-  },
-  {
-    id: "guide-yokohama-5",
-    name: "Isabella Jones",
-    city: "Yokohama",
-    country: "Japan",
-    state: "",
-    region: "Japan",
-    isPopular: false,
-    bio: "Isabella is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Music Scene, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Asia Pacific", "Southern Europe"],
-    tourTypes: ["Scenic Tour"],
-    maxGroupSize: 15,
-    licenseNumber: "LIC-9480-YOK",
-    phoneNumber: "+1-141-551-6130",
-    contactEmail: "isabella.jones@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "03:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
+        day: "Thursday",
         availableHours: [
           {
             from: "08:00 AM",
@@ -316,113 +98,41 @@ export const yokohamajapanjapanGuides: TourGuide[] = [
         ],
       },
       {
-        day: "Thursday",
+        day: "Friday",
         availableHours: [
           {
-            from: "12:00 PM",
-            to: "03:00 PM",
+            from: "09:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "04:00 PM",
           }
         ],
-      }
-    ],
-    isCertified: true,
-    description: "Isabella is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Music Scene, Isabella provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.2,
-    reviewsCount: 45,
-    quote: "Yokohama isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/56.jpg",
-    languages: ["Afrikaans", "Somali"],
-    experienceYears: 9,
-    certifications: ["Heritage Interpretation Certificate", "Wilderness First Responder", "Cultural Heritage Specialist"],
-    specialties: ["Music Scene"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-yokohama-6",
-    name: "Audrey Anderson",
-    city: "Yokohama",
-    country: "Japan",
-    state: "",
-    region: "Japan",
-    isPopular: false,
-    bio: "Audrey is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Local Wildlife, Local Dance, Wildlife, Local Craftsmanship, Audrey provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Central Europe"],
-    tourTypes: ["Cultural Tour", "Adventure Tour"],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-8035-YOK",
-    phoneNumber: "+1-721-917-2313",
-    contactEmail: "audrey.anderson@paragontrails.com",
-    available: [
+      },
       {
         day: "Sunday",
         availableHours: [
           {
             from: "08:00 AM",
-            to: "10:00 AM",
+            to: "12:00 PM",
+          },
+          {
+            from: "02:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "01:00 PM",
           },
           {
             from: "01:00 PM",
             to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "04:00 PM",
-          },
-          {
-            from: "10:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Audrey is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Local Wildlife, Local Dance, Wildlife, Local Craftsmanship, Audrey provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.6,
-    reviewsCount: 9,
-    quote: "The best way to discover Yokohama is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/68.jpg",
-    languages: ["Japanese"],
-    experienceYears: 3,
-    certifications: ["Certified International Tour Manager"],
-    specialties: ["Local Wildlife", "Local Dance", "Wildlife", "Local Craftsmanship"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-yokohama-7",
-    name: "Michelle Henderson",
-    city: "Yokohama",
-    country: "Japan",
-    state: "",
-    region: "Japan",
-    isPopular: false,
-    bio: "Michelle is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Local Sports, Michelle provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Northeast USA", "Africa"],
-    tourTypes: ["Religious Tour", "Bike Tour", "Festival Tour", "Cruise Excursion"],
-    maxGroupSize: 13,
-    licenseNumber: "LIC-6036-YOK",
-    phoneNumber: "+1-676-103-1062",
-    contactEmail: "michelle.henderson@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "04:00 PM",
           }
         ],
       },
@@ -430,8 +140,67 @@ export const yokohamajapanjapanGuides: TourGuide[] = [
         day: "Wednesday",
         availableHours: [
           {
+            from: "09:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Carol is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Local Artisans, Outdoor Activities, Cultural Heritage, Carol provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.9,
+    reviewsCount: 79,
+    quote: "Every corner of Yokohama tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/37.jpg",
+    languages: ["Romanian", "Malayalam", "Albanian"],
+    experienceYears: 2,
+    certifications: ["Urban Navigation Specialist", "Regional Tourism Ambassador"],
+    specialties: ["Local Artisans", "Outdoor Activities", "Cultural Heritage"],
+    specialTraining: ["Local Flora & Fauna"],
+  },
+  {
+    id: "guide-yokohama-3",
+    name: "Joe Nash",
+    city: "Yokohama",
+    country: "Japan",
+    state: "",
+    region: "Japan",
+    isPopular: false,
+    bio: "Joe is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Historical Landmarks, Adventure Sports, LGBTQ+ History, Joe provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Northern Africa"],
+    tourTypes: ["Walking Tour", "Group Tour", "Market Tour", "Audio Tour"],
+    maxGroupSize: 13,
+    licenseNumber: "LIC-5244-YOK",
+    phoneNumber: "+1-778-812-6464",
+    contactEmail: "joe.nash@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
             from: "08:00 AM",
-            to: "10:00 AM",
+            to: "12:00 PM",
+          },
+          {
+            from: "11:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "05:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "12:00 PM",
           }
         ],
       },
@@ -439,51 +208,141 @@ export const yokohamajapanjapanGuides: TourGuide[] = [
         day: "Friday",
         availableHours: [
           {
-            from: "12:00 PM",
-            to: "03:00 PM",
+            from: "10:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "07:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "01:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Michelle is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Local Sports, Michelle provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.6,
-    reviewsCount: 92,
-    quote: "In Yokohama, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/1.jpg",
-    languages: ["Hungarian", "Afrikaans"],
-    experienceYears: 8,
-    certifications: ["Eco-Tourism Guide"],
-    specialties: ["Local Sports"],
-    specialTraining: ["First Aid & CPR"],
+    description: "Joe is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Historical Landmarks, Adventure Sports, LGBTQ+ History, Joe provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 44,
+    quote: "Yokohama isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/63.jpg",
+    languages: ["Lao", "Scottish Gaelic"],
+    experienceYears: 3,
+    certifications: ["Local History Certification"],
+    specialties: ["Historical Landmarks", "Adventure Sports", "LGBTQ+ History"],
+    specialTraining: ["Adventure Safety", "Local Flora & Fauna"],
   },
   {
-    id: "guide-yokohama-8",
-    name: "Rachel Jones",
+    id: "guide-yokohama-4",
+    name: "Harper Ivanov",
     city: "Yokohama",
     country: "Japan",
     state: "",
     region: "Japan",
     isPopular: true,
-    bio: "Rachel is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Street Food, Rachel provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Gulf Coast USA", "Arctic Region"],
-    tourTypes: ["Private Tour", "Craft Workshop"],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-1853-YOK",
-    phoneNumber: "+1-403-800-4868",
-    contactEmail: "rachel.jones@paragontrails.com",
+    bio: "Harper is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Historical Sites, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Alaska"],
+    tourTypes: ["Group Tour", "Walking Tour", "Boat Tour", "Street Art Tour"],
+    maxGroupSize: 11,
+    licenseNumber: "LIC-6828-YOK",
+    phoneNumber: "+1-714-717-9629",
+    contactEmail: "harper.ivanov@paragontrails.com",
     available: [
       {
-        day: "Sunday",
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "08:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
         availableHours: [
           {
             from: "02:00 PM",
-            to: "05:00 PM",
+            to: "08:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "03:00 PM",
           }
         ],
       },
       {
         day: "Monday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "06:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Harper is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Historical Sites, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 15,
+    quote: "The best way to discover Yokohama is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/46.jpg",
+    languages: ["Georgian", "Turkmen"],
+    experienceYears: 5,
+    certifications: ["Sustainable Tourism Certificate", "Certified Eco-Tourism Guide"],
+    specialties: ["Historical Sites"],
+    specialTraining: ["Culinary Skills", "Accessibility Services"],
+  },
+  {
+    id: "guide-yokohama-5",
+    name: "Catherine Jansen",
+    city: "Yokohama",
+    country: "Japan",
+    state: "",
+    region: "Japan",
+    isPopular: true,
+    bio: "Catherine is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Local Fashion, Catherine provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South China Sea", "Persian Gulf"],
+    tourTypes: ["Relocation Tour", "Museum Tour"],
+    maxGroupSize: 13,
+    licenseNumber: "LIC-4606-YOK",
+    phoneNumber: "+1-873-908-7066",
+    contactEmail: "catherine.jansen@paragontrails.com",
+    available: [
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "04:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
         availableHours: [
           {
             from: "08:00 AM",
@@ -493,15 +352,66 @@ export const yokohamajapanjapanGuides: TourGuide[] = [
       }
     ],
     isCertified: true,
-    description: "Rachel is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Street Food, Rachel provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4,
-    reviewsCount: 87,
-    quote: "My goal is to help you fall in love with Yokohama just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/80.jpg",
-    languages: ["Montenegrin"],
-    experienceYears: 14,
-    certifications: ["Certified Tour Guide"],
-    specialties: ["Street Food"],
-    specialTraining: [],
+    description: "Catherine is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Local Fashion, Catherine provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.4,
+    reviewsCount: 62,
+    quote: "Yokohama isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/15.jpg",
+    languages: ["Czech", "Polish", "Ukrainian"],
+    experienceYears: 11,
+    certifications: ["Cultural Heritage Specialist", "Certified Tour Guide", "Food Safety Certification"],
+    specialties: ["Local Fashion"],
+    specialTraining: ["Local Flora & Fauna"],
+  },
+  {
+    id: "guide-yokohama-6",
+    name: "George Crawford",
+    city: "Yokohama",
+    country: "Japan",
+    state: "",
+    region: "Japan",
+    isPopular: false,
+    bio: "George is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Museums, Public Transportation Navigation, LGBTQ+ History, George provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East & North Africa", "East Coast Canada"],
+    tourTypes: ["Cultural Tour", "Underground Tour"],
+    maxGroupSize: 11,
+    licenseNumber: "LIC-4336-YOK",
+    phoneNumber: "+1-955-743-1618",
+    contactEmail: "george.crawford@paragontrails.com",
+    available: [
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "10:00 AM",
+          },
+          {
+            from: "09:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "George is a passionate tour guide with extensive knowledge of Yokohama and Japan. Specializing in Museums, Public Transportation Navigation, LGBTQ+ History, George provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 32,
+    quote: "The best way to discover Yokohama is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/31.jpg",
+    languages: ["Serbo-Croatian", "Basque"],
+    experienceYears: 5,
+    certifications: ["Professional Tour Guide Association"],
+    specialties: ["Museums", "Public Transportation Navigation", "LGBTQ+ History"],
+    specialTraining: ["Customer Service Excellence"],
   }
 ];

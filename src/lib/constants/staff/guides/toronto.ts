@@ -1,29 +1,34 @@
 // This file is auto-generated. Do not edit manually.
 
+// Tour guides for Toronto (canada)
+// Region: ontario
+
+// Generated on: 2025-06-08T04:09:38.406Z
+
 import { TourGuide } from "@/lib/interfaces/people/staff";
 
 export const torontocanadaontarioGuides: TourGuide[] = [
   {
     id: "guide-toronto-1",
-    name: "Dorothy Carpenter",
+    name: "Arthur Wood",
     city: "Toronto",
     country: "Canada",
     state: "",
     region: "Ontario",
     isPopular: false,
-    bio: "Dorothy is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Local Literature, Museums, Photography Spots, Dorothy provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Western Europe", "West Coast USA"],
-    tourTypes: ["Accessible Tour", "Photography Tour"],
-    maxGroupSize: 5,
-    licenseNumber: "LIC-7607-TOR",
-    phoneNumber: "+1-575-130-8270",
-    contactEmail: "dorothy.carpenter@paragontrails.com",
+    bio: "Arthur is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Wine Tasting, Local Fashion, Arthur provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Central Europe", "Southwest USA"],
+    tourTypes: ["Religious Tour", "Architecture Tour", "Relocation Tour"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-1467-TOR",
+    phoneNumber: "+1-578-926-9273",
+    contactEmail: "arthur.wood@paragontrails.com",
     available: [
       {
-        day: "Friday",
+        day: "Monday",
         availableHours: [
           {
-            from: "11:00 AM",
+            from: "01:00 PM",
             to: "03:00 PM",
           }
         ],
@@ -33,66 +38,16 @@ export const torontocanadaontarioGuides: TourGuide[] = [
         availableHours: [
           {
             from: "02:00 PM",
-            to: "05:00 PM",
-          },
-          {
-            from: "09:00 AM",
-            to: "12:00 PM",
+            to: "04:00 PM",
           }
         ],
       },
       {
-        day: "Sunday",
+        day: "Saturday",
         availableHours: [
           {
-            from: "02:00 PM",
-            to: "05:00 PM",
-          },
-          {
-            from: "12:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Dorothy is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Local Literature, Museums, Photography Spots, Dorothy provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.8,
-    reviewsCount: 36,
-    quote: "My goal is to help you fall in love with Toronto just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/66.jpg",
-    languages: ["Somali", "Swedish", "Burmese"],
-    experienceYears: 14,
-    certifications: ["Adventure Tourism Certification", "Certified Tour Guide", "Licensed City Guide"],
-    specialties: ["Local Literature", "Museums", "Photography Spots"],
-    specialTraining: ["Wildlife Conservation"],
-  },
-  {
-    id: "guide-toronto-2",
-    name: "Bruce Carter",
-    city: "Toronto",
-    country: "Canada",
-    state: "",
-    region: "Ontario",
-    isPopular: false,
-    bio: "Bruce is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Nature Trails, Art Galleries, Art Walks, Bruce provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["North Africa"],
-    tourTypes: ["Ghost Tour", "Bike Tour", "Wildlife Safari", "Street Art Tour"],
-    maxGroupSize: 13,
-    licenseNumber: "LIC-6027-TOR",
-    phoneNumber: "+1-419-606-4858",
-    contactEmail: "bruce.carter@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "05:00 PM",
-          },
-          {
-            from: "10:00 AM",
-            to: "04:00 PM",
+            from: "09:00 AM",
+            to: "03:00 PM",
           }
         ],
       },
@@ -100,68 +55,144 @@ export const torontocanadaontarioGuides: TourGuide[] = [
         day: "Friday",
         availableHours: [
           {
-            from: "12:00 PM",
-            to: "05:00 PM",
+            from: "10:00 AM",
+            to: "02:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "03:00 PM",
           }
         ],
       },
       {
-        day: "Monday",
+        day: "Wednesday",
         availableHours: [
           {
-            from: "08:00 AM",
-            to: "11:00 AM",
+            from: "11:00 AM",
+            to: "01:00 PM",
           },
           {
-            from: "08:00 AM",
-            to: "10:00 AM",
+            from: "12:00 PM",
+            to: "05:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Bruce is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Nature Trails, Art Galleries, Art Walks, Bruce provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.9,
-    reviewsCount: 87,
-    quote: "Toronto isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/men/17.jpg",
-    languages: ["Burmese", "Czech"],
+    description: "Arthur is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Wine Tasting, Local Fashion, Arthur provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.2,
+    reviewsCount: 80,
+    quote: "The best way to discover Toronto is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/77.jpg",
+    languages: ["Bengali"],
     experienceYears: 5,
-    certifications: ["Adventure Tourism Certification"],
-    specialties: ["Nature Trails", "Art Galleries", "Art Walks"],
-    specialTraining: ["Local Transit Systems"],
+    certifications: ["Sustainable Tourism Certificate", "Language Proficiency Certification"],
+    specialties: ["Wine Tasting", "Local Fashion"],
+    specialTraining: ["Public Speaking"],
+  },
+  {
+    id: "guide-toronto-2",
+    name: "Amina Moore",
+    city: "Toronto",
+    country: "Canada",
+    state: "",
+    region: "Ontario",
+    isPopular: false,
+    bio: "Amina is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Local Craftsmanship, Wildlife Watching, Cultural Festivals, Amina provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Kalahari Desert"],
+    tourTypes: ["Boat Tour", "Historical Tour", "Romantic Tour", "Relocation Tour"],
+    maxGroupSize: 5,
+    licenseNumber: "LIC-2551-TOR",
+    phoneNumber: "+1-310-339-1025",
+    contactEmail: "amina.moore@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "05:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "07:00 PM",
+          },
+          {
+            from: "02:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Amina is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Local Craftsmanship, Wildlife Watching, Cultural Festivals, Amina provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.7,
+    reviewsCount: 55,
+    quote: "The best way to discover Toronto is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/27.jpg",
+    languages: ["Maltese"],
+    experienceYears: 9,
+    certifications: ["Language Proficiency Certification", "Heritage Interpretation Certificate"],
+    specialties: ["Local Craftsmanship", "Wildlife Watching", "Cultural Festivals"],
+    specialTraining: ["First Aid & CPR"],
   },
   {
     id: "guide-toronto-3",
-    name: "Aria Williams",
+    name: "Thandiwe Hernandez",
     city: "Toronto",
     country: "Canada",
     state: "",
     region: "Ontario",
     isPopular: true,
-    bio: "Aria is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Film Locations, Religious Sites, Public Transportation Navigation, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["South Atlantic Ocean", "Middle East & North Africa"],
-    tourTypes: ["Festival Tour", "Cultural Tour"],
+    bio: "Thandiwe is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Local Cuisine, Local Sports, Public Transportation Navigation, Sustainable Tourism, Thandiwe provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South Asia", "Caribbean"],
+    tourTypes: ["Nature Tour", "Museum Tour", "LGBTQ+ Friendly Tour"],
     maxGroupSize: 12,
-    licenseNumber: "LIC-6000-TOR",
-    phoneNumber: "+1-735-665-1351",
-    contactEmail: "aria.williams@paragontrails.com",
+    licenseNumber: "LIC-4252-TOR",
+    phoneNumber: "+1-237-330-4066",
+    contactEmail: "thandiwe.hernandez@paragontrails.com",
     available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "03:00 PM",
-          }
-        ],
-      },
       {
         day: "Friday",
         availableHours: [
           {
-            from: "02:00 PM",
-            to: "06:00 PM",
+            from: "03:00 PM",
+            to: "09:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "11:00 AM",
+            to: "05:00 PM",
           }
         ],
       },
@@ -171,15 +202,11 @@ export const torontocanadaontarioGuides: TourGuide[] = [
           {
             from: "09:00 AM",
             to: "12:00 PM",
-          },
-          {
-            from: "02:00 PM",
-            to: "06:00 PM",
           }
         ],
       },
       {
-        day: "Sunday",
+        day: "Thursday",
         availableHours: [
           {
             from: "11:00 AM",
@@ -189,267 +216,43 @@ export const torontocanadaontarioGuides: TourGuide[] = [
       }
     ],
     isCertified: true,
-    description: "Aria is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Film Locations, Religious Sites, Public Transportation Navigation, Aria provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4,
-    reviewsCount: 69,
+    description: "Thandiwe is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Local Cuisine, Local Sports, Public Transportation Navigation, Sustainable Tourism, Thandiwe provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.4,
+    reviewsCount: 65,
     quote: "The best way to discover Toronto is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/42.jpg",
-    languages: ["Latvian", "Amharic"],
-    experienceYears: 11,
-    certifications: ["Heritage Interpretation Certificate", "Adventure Tourism Safety Certificate"],
-    specialties: ["Film Locations", "Religious Sites", "Public Transportation Navigation"],
-    specialTraining: ["Cultural Heritage"],
-  },
-  {
-    id: "guide-toronto-4",
-    name: "Gabriel Coleman",
-    city: "Toronto",
-    country: "Canada",
-    state: "",
-    region: "Ontario",
-    isPopular: false,
-    bio: "Gabriel is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Scenic Views, Gabriel provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["South Pacific Ocean"],
-    tourTypes: ["Architecture Tour", "Wine Tour"],
-    maxGroupSize: 17,
-    licenseNumber: "LIC-2218-TOR",
-    phoneNumber: "+1-314-865-3028",
-    contactEmail: "gabriel.coleman@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "08:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "08:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "11:00 AM",
-          },
-          {
-            from: "02:00 PM",
-            to: "08:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "04:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Gabriel is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Scenic Views, Gabriel provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.1,
-    reviewsCount: 27,
-    quote: "Every corner of Toronto tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/36.jpg",
-    languages: ["Basque", "Urdu"],
-    experienceYears: 9,
-    certifications: ["Urban Navigation Specialist"],
-    specialties: ["Scenic Views"],
-    specialTraining: ["Historical Preservation"],
-  },
-  {
-    id: "guide-toronto-5",
-    name: "Kimberly Kowalski",
-    city: "Toronto",
-    country: "Canada",
-    state: "",
-    region: "Ontario",
-    isPopular: false,
-    bio: "Kimberly is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Indigenous Culture, Sustainable Tourism, Kimberly provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Antarctica"],
-    tourTypes: ["Relocation Tour", "Adventure Tour"],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-9683-TOR",
-    phoneNumber: "+1-767-315-2853",
-    contactEmail: "kimberly.kowalski@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "05:00 PM",
-          },
-          {
-            from: "10:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "01:00 PM",
-          },
-          {
-            from: "02:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "08:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "01:00 PM",
-          },
-          {
-            from: "11:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "06:00 PM",
-          },
-          {
-            from: "03:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Kimberly is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Indigenous Culture, Sustainable Tourism, Kimberly provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.3,
-    reviewsCount: 30,
-    quote: "In Toronto, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/22.jpg",
-    languages: ["Georgian"],
-    experienceYears: 15,
-    certifications: ["Cultural Sensitivity Training", "Certified Eco-Tourism Guide"],
-    specialties: ["Indigenous Culture", "Sustainable Tourism"],
+    profileImage: "https://randomuser.me/api/portraits/women/55.jpg",
+    languages: ["Sinhala"],
+    experienceYears: 16,
+    certifications: ["Certified Tour Guide", "Eco-Tourism Guide"],
+    specialties: ["Local Cuisine", "Local Sports", "Public Transportation Navigation", "Sustainable Tourism"],
     specialTraining: [],
   },
   {
-    id: "guide-toronto-6",
-    name: "Benjamin Campbell",
+    id: "guide-toronto-4",
+    name: "Lucas Payne",
     city: "Toronto",
     country: "Canada",
     state: "",
     region: "Ontario",
-    isPopular: false,
-    bio: "Benjamin is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Local Folklore, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Middle East & North Africa", "South America"],
-    tourTypes: ["Cultural Tour", "Nature Tour", "Food Tour"],
-    maxGroupSize: 19,
-    licenseNumber: "LIC-8027-TOR",
-    phoneNumber: "+1-712-651-5588",
-    contactEmail: "benjamin.campbell@paragontrails.com",
+    isPopular: true,
+    bio: "Lucas is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Music Scene, Local Literature, Parks & Gardens, Local Folklore, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Canadian Rockies", "Caspian Sea"],
+    tourTypes: ["Accessible Tour", "Walking Tour"],
+    maxGroupSize: 13,
+    licenseNumber: "LIC-2204-TOR",
+    phoneNumber: "+1-886-762-4563",
+    contactEmail: "lucas.payne@paragontrails.com",
     available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      },
       {
         day: "Sunday",
         availableHours: [
           {
-            from: "09:00 AM",
-            to: "12:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Benjamin is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Local Folklore, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.6,
-    reviewsCount: 79,
-    quote: "In Toronto, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/70.jpg",
-    languages: ["Xhosa", "Catalan"],
-    experienceYears: 16,
-    certifications: ["Language Proficiency Certification", "Wilderness First Responder", "Professional Tour Guide Association"],
-    specialties: ["Local Folklore"],
-    specialTraining: ["Accessibility Services"],
-  },
-  {
-    id: "guide-toronto-7",
-    name: "Sophia Carpenter",
-    city: "Toronto",
-    country: "Canada",
-    state: "",
-    region: "Ontario",
-    isPopular: false,
-    bio: "Sophia is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Local Legends, Local Markets, Local Craftsmanship, Shopping Districts, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Canadian Rockies"],
-    tourTypes: ["Scenic Tour", "Photography Tour", "Nature Tour", "Festival Tour"],
-    maxGroupSize: 11,
-    licenseNumber: "LIC-2151-TOR",
-    phoneNumber: "+1-119-378-2634",
-    contactEmail: "sophia.carpenter@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "04:00 PM",
+            from: "03:00 PM",
+            to: "09:00 PM",
           },
           {
-            from: "10:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
             from: "03:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "04:00 PM",
+            to: "08:00 PM",
           }
         ],
       },
@@ -457,26 +260,73 @@ export const torontocanadaontarioGuides: TourGuide[] = [
         day: "Wednesday",
         availableHours: [
           {
-            from: "09:00 AM",
-            to: "03:00 PM",
-          },
-          {
-            from: "11:00 AM",
-            to: "03:00 PM",
+            from: "10:00 AM",
+            to: "04:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Sophia is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Local Legends, Local Markets, Local Craftsmanship, Shopping Districts, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.9,
-    reviewsCount: 57,
-    quote: "Toronto isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/58.jpg",
-    languages: ["Romanian", "Somali"],
-    experienceYears: 15,
-    certifications: ["Wilderness First Responder", "Cultural Heritage Specialist"],
-    specialties: ["Local Legends", "Local Markets", "Local Craftsmanship", "Shopping Districts"],
+    description: "Lucas is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Music Scene, Local Literature, Parks & Gardens, Local Folklore, Lucas provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4,
+    reviewsCount: 82,
+    quote: "Every corner of Toronto tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/61.jpg",
+    languages: ["Xhosa", "Greek", "Ukrainian"],
+    experienceYears: 5,
+    certifications: ["Cultural Heritage Specialist", "Regional Tourism Ambassador"],
+    specialties: ["Music Scene", "Local Literature", "Parks & Gardens", "Local Folklore"],
     specialTraining: ["Cultural Storytelling"],
+  },
+  {
+    id: "guide-toronto-5",
+    name: "Gabriel Collins",
+    city: "Toronto",
+    country: "Canada",
+    state: "",
+    region: "Ontario",
+    isPopular: true,
+    bio: "Gabriel is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Local Folklore, Art Walks, Gabriel provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South Pacific Ocean", "Bay of Bengal"],
+    tourTypes: ["Bike Tour", "Luxury Tour", "Wine Tour"],
+    maxGroupSize: 9,
+    licenseNumber: "LIC-8883-TOR",
+    phoneNumber: "+1-555-852-2031",
+    contactEmail: "gabriel.collins@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "06:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "11:00 AM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Gabriel is a passionate tour guide with extensive knowledge of Toronto and Canada. Specializing in Local Folklore, Art Walks, Gabriel provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 65,
+    quote: "The best way to discover Toronto is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/9.jpg",
+    languages: ["Romanian", "Azerbaijani", "Bulgarian"],
+    experienceYears: 2,
+    certifications: ["Urban Navigation Specialist"],
+    specialties: ["Local Folklore", "Art Walks"],
+    specialTraining: ["Historical Preservation", "Archaeological Conservation"],
   }
 ];

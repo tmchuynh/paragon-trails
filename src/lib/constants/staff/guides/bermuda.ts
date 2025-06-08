@@ -1,33 +1,34 @@
 // This file is auto-generated. Do not edit manually.
 
+// Tour guides for Bermuda (bermuda)
+// Region: bermuda
+
+// Generated on: 2025-06-08T04:09:38.387Z
+
 import { TourGuide } from "@/lib/interfaces/people/staff";
 
 export const bermudabermudabermudaGuides: TourGuide[] = [
   {
     id: "guide-bermuda-1",
-    name: "Elijah Chen",
+    name: "Stella Singh",
     city: "Bermuda",
     country: "Bermuda",
     state: "",
     region: "Bermuda",
     isPopular: false,
-    bio: "Elijah is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Local Music, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Appalachian Mountains", "Southeast Asia Islands"],
-    tourTypes: ["Farm Visit", "Scenic Tour", "Photography Tour", "Cultural Tour", "Eco Tour"],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-2613-BER",
-    phoneNumber: "+1-731-625-9292",
-    contactEmail: "elijah.chen@paragontrails.com",
+    bio: "Stella is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Outdoor Activities, Parks & Gardens, Stella provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South Asia"],
+    tourTypes: ["Audio Tour", "Wine Tour", "Cultural Tour"],
+    maxGroupSize: 12,
+    licenseNumber: "LIC-4518-BER",
+    phoneNumber: "+1-224-997-1269",
+    contactEmail: "stella.singh@paragontrails.com",
     available: [
       {
-        day: "Saturday",
+        day: "Monday",
         availableHours: [
           {
-            from: "08:00 AM",
-            to: "12:00 PM",
-          },
-          {
-            from: "11:00 AM",
+            from: "09:00 AM",
             to: "02:00 PM",
           }
         ],
@@ -36,101 +37,80 @@ export const bermudabermudabermudaGuides: TourGuide[] = [
         day: "Wednesday",
         availableHours: [
           {
+            from: "10:00 AM",
+            to: "02:00 PM",
+          },
+          {
             from: "02:00 PM",
-            to: "08:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "04:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Elijah is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Local Music, Elijah provides authentic and engaging experiences for visitors of all backgrounds.",
+    description: "Stella is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Outdoor Activities, Parks & Gardens, Stella provides authentic and engaging experiences for visitors of all backgrounds.",
     rating: 4.9,
-    reviewsCount: 72,
-    quote: "My goal is to help you fall in love with Bermuda just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/78.jpg",
-    languages: ["Macedonian", "French", "Czech"],
-    experienceYears: 11,
-    certifications: ["Professional Tour Guide Association", "Eco-Tourism Guide", "Adventure Tourism Safety Certificate"],
-    specialties: ["Local Music"],
-    specialTraining: ["Public Speaking", "Local Flora & Fauna"],
+    reviewsCount: 33,
+    quote: "Bermuda isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/49.jpg",
+    languages: ["Vietnamese", "Indonesian"],
+    experienceYears: 13,
+    certifications: ["Certified Eco-Tourism Guide"],
+    specialties: ["Outdoor Activities", "Parks & Gardens"],
+    specialTraining: [],
   },
   {
     id: "guide-bermuda-2",
-    name: "Harry Grant",
+    name: "Diego Montgomery",
     city: "Bermuda",
     country: "Bermuda",
     state: "",
     region: "Bermuda",
     isPopular: false,
-    bio: "Harry is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Hidden Treasures, Local Folklore, Local Sports, Historical Architecture, Harry provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada"],
-    tourTypes: ["Festival Tour", "Nature Tour"],
-    maxGroupSize: 8,
-    licenseNumber: "LIC-5120-BER",
-    phoneNumber: "+1-412-843-7638",
-    contactEmail: "harry.grant@paragontrails.com",
+    bio: "Diego is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Cultural Heritage, Diego provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South China Sea"],
+    tourTypes: ["Cultural Tour", "Off-Road Tour", "Eco Tour", "Relocation Tour", "Architecture Tour"],
+    maxGroupSize: 7,
+    licenseNumber: "LIC-2014-BER",
+    phoneNumber: "+1-236-908-1048",
+    contactEmail: "diego.montgomery@paragontrails.com",
     available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "03:00 PM",
-          }
-        ],
-      },
       {
         day: "Friday",
         availableHours: [
           {
             from: "09:00 AM",
-            to: "01:00 PM",
+            to: "03:00 PM",
           },
           {
-            from: "01:00 PM",
-            to: "05:00 PM",
+            from: "11:00 AM",
+            to: "01:00 PM",
           }
         ],
-      }
-    ],
-    isCertified: true,
-    description: "Harry is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Hidden Treasures, Local Folklore, Local Sports, Historical Architecture, Harry provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.6,
-    reviewsCount: 57,
-    quote: "Bermuda isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/men/62.jpg",
-    languages: ["Serbian", "Farsi", "Hebrew"],
-    experienceYears: 4,
-    certifications: ["Urban Navigation Specialist"],
-    specialties: ["Hidden Treasures", "Local Folklore", "Local Sports", "Historical Architecture"],
-    specialTraining: ["Conflict Resolution"],
-  },
-  {
-    id: "guide-bermuda-3",
-    name: "Michael Keller",
-    city: "Bermuda",
-    country: "Bermuda",
-    state: "",
-    region: "Bermuda",
-    isPopular: true,
-    bio: "Michael is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Cultural Heritage, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Southern USA"],
-    tourTypes: ["Walking Tour", "Market Tour"],
-    maxGroupSize: 8,
-    licenseNumber: "LIC-5739-BER",
-    phoneNumber: "+1-219-823-4101",
-    contactEmail: "michael.keller@paragontrails.com",
-    available: [
+      },
       {
         day: "Thursday",
         availableHours: [
           {
-            from: "10:00 AM",
-            to: "01:00 PM",
+            from: "08:00 AM",
+            to: "10:00 AM",
           },
           {
-            from: "12:00 PM",
-            to: "05:00 PM",
+            from: "08:00 AM",
+            to: "10:00 AM",
           }
         ],
       },
@@ -144,63 +124,20 @@ export const bermudabermudabermudaGuides: TourGuide[] = [
         ],
       },
       {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "04:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Michael is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Cultural Heritage, Michael provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.6,
-    reviewsCount: 38,
-    quote: "The best way to discover Bermuda is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/42.jpg",
-    languages: ["Marathi"],
-    experienceYears: 11,
-    certifications: ["Professional Tour Guide Association"],
-    specialties: ["Cultural Heritage"],
-    specialTraining: ["Wildlife Conservation"],
-  },
-  {
-    id: "guide-bermuda-4",
-    name: "Hiroshi Jones",
-    city: "Bermuda",
-    country: "Bermuda",
-    state: "",
-    region: "Bermuda",
-    isPopular: false,
-    bio: "Hiroshi is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Scenic Views, Cultural Workshops, Hiroshi provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Arctic Region"],
-    tourTypes: ["Eco Tour", "Nature Tour", "Museum Tour", "Audio Tour"],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-3094-BER",
-    phoneNumber: "+1-147-968-6918",
-    contactEmail: "hiroshi.jones@paragontrails.com",
-    available: [
-      {
         day: "Sunday",
         availableHours: [
           {
-            from: "08:00 AM",
+            from: "09:00 AM",
             to: "02:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
+          },
           {
-            from: "11:00 AM",
-            to: "01:00 PM",
+            from: "10:00 AM",
+            to: "12:00 PM",
           }
         ],
       },
       {
-        day: "Saturday",
+        day: "Wednesday",
         availableHours: [
           {
             from: "10:00 AM",
@@ -210,43 +147,99 @@ export const bermudabermudabermudaGuides: TourGuide[] = [
       }
     ],
     isCertified: true,
-    description: "Hiroshi is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Scenic Views, Cultural Workshops, Hiroshi provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.3,
-    reviewsCount: 83,
+    description: "Diego is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Cultural Heritage, Diego provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.9,
+    reviewsCount: 30,
     quote: "My goal is to help you fall in love with Bermuda just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/43.jpg",
-    languages: ["Arabic", "French"],
+    profileImage: "https://randomuser.me/api/portraits/men/72.jpg",
+    languages: ["Lithuanian", "Zulu"],
     experienceYears: 4,
-    certifications: ["Cultural Heritage Specialist", "Certified Heritage Guide", "Cultural Sensitivity Training"],
-    specialties: ["Scenic Views", "Cultural Workshops"],
-    specialTraining: ["Historical Research Methods", "Sustainable Practices"],
+    certifications: ["Wilderness First Responder", "Certified Local Guide", "Urban Navigation Specialist"],
+    specialties: ["Cultural Heritage"],
+    specialTraining: [],
   },
   {
-    id: "guide-bermuda-5",
-    name: "Leah Nash",
+    id: "guide-bermuda-3",
+    name: "Madelyn Collins",
     city: "Bermuda",
     country: "Bermuda",
     state: "",
     region: "Bermuda",
     isPopular: true,
-    bio: "Leah is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Historical Sites, Local Literature, Leah provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["West Coast USA", "Baltic Sea"],
-    tourTypes: ["Luxury Tour", "Cruise Excursion", "Festival Tour", "Ghost Tour"],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-6639-BER",
-    phoneNumber: "+1-693-374-5993",
-    contactEmail: "leah.nash@paragontrails.com",
+    bio: "Madelyn is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Cultural Festivals, Outdoor Activities, Nightlife, Madelyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Mediterranean", "Northeast USA"],
+    tourTypes: ["Wildlife Safari", "Historical Tour"],
+    maxGroupSize: 13,
+    licenseNumber: "LIC-3314-BER",
+    phoneNumber: "+1-617-737-8641",
+    contactEmail: "madelyn.collins@paragontrails.com",
     available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
       {
         day: "Sunday",
         availableHours: [
           {
             from: "08:00 AM",
-            to: "01:00 PM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "06:00 PM",
           },
           {
-            from: "08:00 AM",
-            to: "01:00 PM",
+            from: "02:00 PM",
+            to: "08:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Madelyn is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Cultural Festivals, Outdoor Activities, Nightlife, Madelyn provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 40,
+    quote: "Bermuda isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/62.jpg",
+    languages: ["Lao", "Arabic"],
+    experienceYears: 14,
+    certifications: ["Certified Local Guide"],
+    specialties: ["Cultural Festivals", "Outdoor Activities", "Nightlife"],
+    specialTraining: ["Crisis Management"],
+  },
+  {
+    id: "guide-bermuda-4",
+    name: "George Edwards",
+    city: "Bermuda",
+    country: "Bermuda",
+    state: "",
+    region: "Bermuda",
+    isPopular: true,
+    bio: "George is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Urban Legends, Photography, Wildlife, George provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific", "Central Africa"],
+    tourTypes: ["Shopping Tour"],
+    maxGroupSize: 9,
+    licenseNumber: "LIC-4352-BER",
+    phoneNumber: "+1-457-264-9944",
+    contactEmail: "george.edwards@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "02:00 PM",
           }
         ],
       },
@@ -255,80 +248,63 @@ export const bermudabermudabermudaGuides: TourGuide[] = [
         availableHours: [
           {
             from: "10:00 AM",
-            to: "12:00 PM",
-          },
-          {
-            from: "12:00 PM",
-            to: "06:00 PM",
+            to: "01:00 PM",
           }
         ],
       },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "03:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Leah is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Historical Sites, Local Literature, Leah provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.6,
-    reviewsCount: 59,
-    quote: "The best way to discover Bermuda is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/33.jpg",
-    languages: ["Pashto", "Hausa"],
-    experienceYears: 12,
-    certifications: ["Licensed City Guide", "Food Safety Certification", "Certified Eco-Tourism Guide"],
-    specialties: ["Historical Sites", "Local Literature"],
-    specialTraining: ["Local Geography", "Historical Interpretation"],
-  },
-  {
-    id: "guide-bermuda-6",
-    name: "Patrick Martinez",
-    city: "Bermuda",
-    country: "Bermuda",
-    state: "",
-    region: "Bermuda",
-    isPopular: false,
-    bio: "Patrick is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Music Scene, Art Galleries, Patrick provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Bay of Bengal"],
-    tourTypes: ["Off-Road Tour", "Architecture Tour", "Festival Tour"],
-    maxGroupSize: 9,
-    licenseNumber: "LIC-6595-BER",
-    phoneNumber: "+1-116-853-2717",
-    contactEmail: "patrick.martinez@paragontrails.com",
-    available: [
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "01:00 PM",
-            to: "03:00 PM",
+            from: "12:00 PM",
+            to: "04:00 PM",
           }
         ],
       },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "04:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "George is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Urban Legends, Photography, Wildlife, George provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 41,
+    quote: "The best way to discover Bermuda is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/64.jpg",
+    languages: ["Bulgarian", "Tigrinya"],
+    experienceYears: 15,
+    certifications: ["Adventure Tourism Safety Certificate", "Professional Tour Guide Association"],
+    specialties: ["Urban Legends", "Photography", "Wildlife"],
+    specialTraining: ["Culinary Skills", "Crisis Management"],
+  },
+  {
+    id: "guide-bermuda-5",
+    name: "Rajesh Miller",
+    city: "Bermuda",
+    country: "Bermuda",
+    state: "",
+    region: "Bermuda",
+    isPopular: true,
+    bio: "Rajesh is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Culinary Tours, Local Wildlife, Hidden Treasures, Local Music, Rajesh provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Southern Africa"],
+    tourTypes: ["Audio Tour", "Craft Workshop", "Cultural Tour", "Romantic Tour", "Luxury Tour"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-2833-BER",
+    phoneNumber: "+1-826-850-4595",
+    contactEmail: "rajesh.miller@paragontrails.com",
+    available: [
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "03:00 PM",
-            to: "08:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
             from: "11:00 AM",
-            to: "04:00 PM",
-          },
-          {
-            from: "01:00 PM",
-            to: "03:00 PM",
+            to: "02:00 PM",
           }
         ],
       },
@@ -336,22 +312,26 @@ export const bermudabermudabermudaGuides: TourGuide[] = [
         day: "Thursday",
         availableHours: [
           {
-            from: "09:00 AM",
-            to: "02:00 PM",
+            from: "03:00 PM",
+            to: "06:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "04:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Patrick is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Music Scene, Art Galleries, Patrick provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.8,
-    reviewsCount: 47,
+    description: "Rajesh is a passionate tour guide with extensive knowledge of Bermuda and Bermuda. Specializing in Culinary Tours, Local Wildlife, Hidden Treasures, Local Music, Rajesh provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.8,
+    reviewsCount: 46,
     quote: "In Bermuda, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/47.jpg",
-    languages: ["Serbian"],
-    experienceYears: 4,
-    certifications: ["Certified Local Guide", "Certified International Tour Manager", "Adventure Tourism Certification"],
-    specialties: ["Music Scene", "Art Galleries"],
-    specialTraining: ["Cultural Immersion"],
+    profileImage: "https://randomuser.me/api/portraits/men/79.jpg",
+    languages: ["Polish", "Russian", "Norwegian"],
+    experienceYears: 2,
+    certifications: ["Licensed City Guide", "Certified International Tour Manager"],
+    specialties: ["Culinary Tours", "Local Wildlife", "Hidden Treasures", "Local Music"],
+    specialTraining: ["Desert Navigation", "Cultural Immersion"],
   }
 ];

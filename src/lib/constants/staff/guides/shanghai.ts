@@ -1,39 +1,52 @@
 // This file is auto-generated. Do not edit manually.
 
+// Tour guides for Shanghai (china)
+// Region: china
+
+// Generated on: 2025-06-08T04:09:38.402Z
+
 import { TourGuide } from "@/lib/interfaces/people/staff";
 
 export const shanghaichinachinaGuides: TourGuide[] = [
   {
     id: "guide-shanghai-1",
-    name: "Matthew White",
+    name: "Linda Singh",
     city: "Shanghai",
     country: "China",
     state: "",
     region: "China",
     isPopular: false,
-    bio: "Matthew is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Cultural Workshops, Historical Landmarks, Wildlife Watching, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean Islands", "Australia & New Zealand"],
-    tourTypes: ["Food Tour", "LGBTQ+ Friendly Tour", "Nature Tour", "Accessible Tour", "Cruise Excursion"],
-    maxGroupSize: 13,
-    licenseNumber: "LIC-2052-SHA",
-    phoneNumber: "+1-768-578-3420",
-    contactEmail: "matthew.white@paragontrails.com",
+    bio: "Linda is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Street Food, Scenic Views, Architecture, Linda provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Central Africa"],
+    tourTypes: ["Relocation Tour", "Helicopter Tour", "Luxury Tour", "Audio Tour"],
+    maxGroupSize: 6,
+    licenseNumber: "LIC-2475-SHA",
+    phoneNumber: "+1-708-736-1231",
+    contactEmail: "linda.singh@paragontrails.com",
     available: [
       {
-        day: "Saturday",
+        day: "Friday",
         availableHours: [
           {
-            from: "09:00 AM",
-            to: "03:00 PM",
+            from: "02:00 PM",
+            to: "06:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "05:00 PM",
           }
         ],
       },
       {
-        day: "Monday",
+        day: "Tuesday",
         availableHours: [
           {
-            from: "02:00 PM",
-            to: "07:00 PM",
+            from: "11:00 AM",
+            to: "05:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "03:00 PM",
           }
         ],
       },
@@ -41,55 +54,73 @@ export const shanghaichinachinaGuides: TourGuide[] = [
         day: "Sunday",
         availableHours: [
           {
-            from: "08:00 AM",
-            to: "12:00 PM",
+            from: "10:00 AM",
+            to: "04:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Matthew is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Cultural Workshops, Historical Landmarks, Wildlife Watching, Matthew provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.9,
-    reviewsCount: 27,
+    description: "Linda is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Street Food, Scenic Views, Architecture, Linda provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.2,
+    reviewsCount: 55,
     quote: "My goal is to help you fall in love with Shanghai just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/71.jpg",
-    languages: ["Malay", "Russian", "Arabic"],
-    experienceYears: 3,
-    certifications: ["Wilderness First Responder", "Certified Heritage Guide"],
-    specialties: ["Cultural Workshops", "Historical Landmarks", "Wildlife Watching"],
-    specialTraining: [],
+    profileImage: "https://randomuser.me/api/portraits/women/19.jpg",
+    languages: ["Romanian", "Macedonian", "Czech"],
+    experienceYears: 12,
+    certifications: ["Wilderness First Responder", "Certified Local Guide", "Professional Tour Guide Association"],
+    specialties: ["Street Food", "Scenic Views", "Architecture"],
+    specialTraining: ["Safety & Risk Management"],
   },
   {
     id: "guide-shanghai-2",
-    name: "James Lee",
+    name: "Oliver Hudson",
     city: "Shanghai",
     country: "China",
     state: "",
     region: "China",
-    isPopular: false,
-    bio: "James is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Hidden Gems, Art Walks, Local Sports, James provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Gulf of Mexico"],
-    tourTypes: ["Underground Tour", "Ghost Tour"],
-    maxGroupSize: 10,
-    licenseNumber: "LIC-2640-SHA",
-    phoneNumber: "+1-299-579-4443",
-    contactEmail: "james.lee@paragontrails.com",
+    isPopular: true,
+    bio: "Oliver is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Parks & Gardens, Cultural Festivals, Local Music, Public Transportation Navigation, Oliver provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Australia & New Zealand"],
+    tourTypes: ["Food Tour", "Romantic Tour", "Street Art Tour"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-5276-SHA",
+    phoneNumber: "+1-282-148-4631",
+    contactEmail: "oliver.hudson@paragontrails.com",
     available: [
       {
-        day: "Thursday",
+        day: "Sunday",
         availableHours: [
           {
-            from: "12:00 PM",
+            from: "08:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "11:00 AM",
             to: "05:00 PM",
           },
           {
-            from: "10:00 AM",
-            to: "04:00 PM",
+            from: "09:00 AM",
+            to: "03:00 PM",
           }
         ],
       },
       {
         day: "Saturday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
         availableHours: [
           {
             from: "08:00 AM",
@@ -101,99 +132,108 @@ export const shanghaichinachinaGuides: TourGuide[] = [
         day: "Wednesday",
         availableHours: [
           {
-            from: "10:00 AM",
-            to: "01:00 PM",
-          },
-          {
-            from: "03:00 PM",
-            to: "08:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
             from: "01:00 PM",
-            to: "04:00 PM",
-          },
-          {
-            from: "02:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "James is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Hidden Gems, Art Walks, Local Sports, James provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.7,
-    reviewsCount: 57,
-    quote: "In Shanghai, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/60.jpg",
-    languages: ["Serbo-Croatian", "German", "Hausa"],
-    experienceYears: 16,
-    certifications: ["Language Proficiency Certification", "CPR & First Aid", "Eco-Tourism Guide"],
-    specialties: ["Hidden Gems", "Art Walks", "Local Sports"],
-    specialTraining: ["Safety & Risk Management"],
-  },
-  {
-    id: "guide-shanghai-3",
-    name: "Carl Young",
-    city: "Shanghai",
-    country: "China",
-    state: "",
-    region: "China",
-    isPopular: true,
-    bio: "Carl is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Culinary Tours, Local Crafts, Carl provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast Canada", "Gulf of Mexico"],
-    tourTypes: ["Farm Visit", "Accessible Tour", "Wildlife Safari"],
-    maxGroupSize: 13,
-    licenseNumber: "LIC-5794-SHA",
-    phoneNumber: "+1-542-877-1178",
-    contactEmail: "carl.young@paragontrails.com",
-    available: [
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "12:00 PM",
             to: "03:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Carl is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Culinary Tours, Local Crafts, Carl provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.3,
-    reviewsCount: 42,
-    quote: "Every corner of Shanghai tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/51.jpg",
-    languages: ["Somali", "Uzbek"],
-    experienceYears: 8,
-    certifications: ["Eco-Tourism Guide", "Wilderness First Responder", "Cultural Heritage Specialist"],
-    specialties: ["Culinary Tours", "Local Crafts"],
-    specialTraining: ["Tour Planning", "Regional Geology"],
+    description: "Oliver is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Parks & Gardens, Cultural Festivals, Local Music, Public Transportation Navigation, Oliver provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.8,
+    reviewsCount: 69,
+    quote: "Shanghai isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/52.jpg",
+    languages: ["Pashto"],
+    experienceYears: 5,
+    certifications: ["Certified International Tour Manager", "Certified Eco-Tourism Guide"],
+    specialties: ["Parks & Gardens", "Cultural Festivals", "Local Music", "Public Transportation Navigation"],
+    specialTraining: [],
   },
   {
-    id: "guide-shanghai-4",
-    name: "Blake Silva",
+    id: "guide-shanghai-3",
+    name: "Sophia Marshall",
     city: "Shanghai",
     country: "China",
     state: "",
     region: "China",
     isPopular: true,
-    bio: "Blake is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Family Activities, Religious Sites, Adventure Sports, Blake provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Appalachian Mountains"],
-    tourTypes: ["Historical Tour", "Off-Road Tour", "Food Tour"],
+    bio: "Sophia is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Culinary Tours, Shopping Districts, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Great Lakes Region", "Southern USA"],
+    tourTypes: ["Wildlife Safari", "Group Tour", "Festival Tour", "Farm Visit"],
     maxGroupSize: 8,
-    licenseNumber: "LIC-8397-SHA",
-    phoneNumber: "+1-828-494-8945",
-    contactEmail: "blake.silva@paragontrails.com",
+    licenseNumber: "LIC-4170-SHA",
+    phoneNumber: "+1-283-741-5159",
+    contactEmail: "sophia.marshall@paragontrails.com",
     available: [
       {
         day: "Tuesday",
         availableHours: [
           {
+            from: "08:00 AM",
+            to: "02:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "02:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Sophia is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Culinary Tours, Shopping Districts, Sophia provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.5,
+    reviewsCount: 68,
+    quote: "The best way to discover Shanghai is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/0.jpg",
+    languages: ["Slovenian", "Russian", "Sinhala"],
+    experienceYears: 13,
+    certifications: ["Heritage Interpretation Certificate", "Certified International Tour Manager"],
+    specialties: ["Culinary Tours", "Shopping Districts"],
+    specialTraining: ["Cultural Anthropology"],
+  },
+  {
+    id: "guide-shanghai-4",
+    name: "Nora Wells",
+    city: "Shanghai",
+    country: "China",
+    state: "",
+    region: "China",
+    isPopular: false,
+    bio: "Nora is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Sustainable Tourism, Nora provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South America", "Antarctic Peninsula"],
+    tourTypes: ["Farm Visit", "Wildlife Safari", "Food Tour", "Shopping Tour"],
+    maxGroupSize: 10,
+    licenseNumber: "LIC-6938-SHA",
+    phoneNumber: "+1-877-300-3105",
+    contactEmail: "nora.wells@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
             from: "03:00 PM",
             to: "07:00 PM",
           }
@@ -203,25 +243,8 @@ export const shanghaichinachinaGuides: TourGuide[] = [
         day: "Friday",
         availableHours: [
           {
-            from: "02:00 PM",
-            to: "05:00 PM",
-          },
-          {
             from: "09:00 AM",
-            to: "11:00 AM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "06:00 PM",
-          },
-          {
-            from: "09:00 AM",
-            to: "02:00 PM",
+            to: "12:00 PM",
           }
         ],
       },
@@ -229,58 +252,7 @@ export const shanghaichinachinaGuides: TourGuide[] = [
         day: "Wednesday",
         availableHours: [
           {
-            from: "02:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Blake is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Family Activities, Religious Sites, Adventure Sports, Blake provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.5,
-    reviewsCount: 44,
-    quote: "Every corner of Shanghai tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/74.jpg",
-    languages: ["Greek"],
-    experienceYears: 7,
-    certifications: ["Food Safety Certification", "Wilderness First Responder", "Certified Local Guide"],
-    specialties: ["Family Activities", "Religious Sites", "Adventure Sports"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-shanghai-5",
-    name: "Adam Gibson",
-    city: "Shanghai",
-    country: "China",
-    state: "",
-    region: "China",
-    isPopular: true,
-    bio: "Adam is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Cultural Etiquette, Art Walks, Indigenous Culture, Adam provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Antarctic Peninsula"],
-    tourTypes: ["Nature Tour", "Underground Tour", "Architecture Tour", "Relocation Tour", "Food Tour"],
-    maxGroupSize: 10,
-    licenseNumber: "LIC-6227-SHA",
-    phoneNumber: "+1-291-537-7424",
-    contactEmail: "adam.gibson@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "04:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "02:00 PM",
-          },
-          {
-            from: "11:00 AM",
+            from: "03:00 PM",
             to: "05:00 PM",
           }
         ],
@@ -289,82 +261,26 @@ export const shanghaichinachinaGuides: TourGuide[] = [
         day: "Thursday",
         availableHours: [
           {
-            from: "02:00 PM",
-            to: "08:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Adam is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Cultural Etiquette, Art Walks, Indigenous Culture, Adam provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4,
-    reviewsCount: 36,
-    quote: "The best way to discover Shanghai is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/73.jpg",
-    languages: ["Polish", "Tajik", "Indonesian"],
-    experienceYears: 14,
-    certifications: ["Eco-Tourism Guide"],
-    specialties: ["Cultural Etiquette", "Art Walks", "Indigenous Culture"],
-    specialTraining: ["Customer Service Excellence"],
-  },
-  {
-    id: "guide-shanghai-6",
-    name: "Ana Price",
-    city: "Shanghai",
-    country: "China",
-    state: "",
-    region: "China",
-    isPopular: true,
-    bio: "Ana is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Historical Sites, Local Dance, Adventure Activities, Culinary Tours, Ana provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Northern Europe"],
-    tourTypes: ["Food Tour", "Family-Friendly Tour", "Photography Tour", "Scenic Tour", "Ghost Tour"],
-    maxGroupSize: 5,
-    licenseNumber: "LIC-3207-SHA",
-    phoneNumber: "+1-834-377-1172",
-    contactEmail: "ana.price@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "08:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "03:00 PM",
+            from: "09:00 AM",
+            to: "01:00 PM",
           },
           {
-            from: "11:00 AM",
-            to: "03:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "07:00 PM",
+            from: "03:00 PM",
+            to: "09:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Ana is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Historical Sites, Local Dance, Adventure Activities, Culinary Tours, Ana provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.7,
-    reviewsCount: 51,
-    quote: "My goal is to help you fall in love with Shanghai just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/1.jpg",
-    languages: ["Kannada", "Korean"],
-    experienceYears: 8,
-    certifications: ["Certified Heritage Guide", "Professional Tour Guide Association"],
-    specialties: ["Historical Sites", "Local Dance", "Adventure Activities", "Culinary Tours"],
-    specialTraining: ["Local Flora & Fauna", "Marine Biology"],
+    description: "Nora is a passionate tour guide with extensive knowledge of Shanghai and China. Specializing in Sustainable Tourism, Nora provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.6,
+    reviewsCount: 40,
+    quote: "The best way to discover Shanghai is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/3.jpg",
+    languages: ["French"],
+    experienceYears: 13,
+    certifications: ["Eco-Tourism Guide", "Professional Tour Guide Association"],
+    specialties: ["Sustainable Tourism"],
+    specialTraining: [],
   }
 ];

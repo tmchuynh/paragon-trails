@@ -1,39 +1,86 @@
 // This file is auto-generated. Do not edit manually.
 
+// Tour guides for Oslo (norway)
+// Region: norway
+
+// Generated on: 2025-06-08T04:09:38.398Z
+
 import { TourGuide } from "@/lib/interfaces/people/staff";
 
 export const oslonorwaynorwayGuides: TourGuide[] = [
   {
     id: "guide-oslo-1",
-    name: "Naomi Marshall",
+    name: "Henry Bennett",
     city: "Oslo",
     country: "Norway",
     state: "",
     region: "Norway",
     isPopular: false,
-    bio: "Naomi is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Local Literature, Historical Sites, LGBTQ+ History, Naomi provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["South Pacific"],
-    tourTypes: ["Off-Road Tour", "Food Tour", "Cooking Class", "Romantic Tour"],
-    maxGroupSize: 13,
-    licenseNumber: "LIC-6096-OSL",
-    phoneNumber: "+1-960-590-9307",
-    contactEmail: "naomi.marshall@paragontrails.com",
+    bio: "Henry is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Cultural Experiences, Local Literature, City History, Historical Figures, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Australia & New Zealand", "South Asia Subcontinent"],
+    tourTypes: ["Cultural Tour", "Food Tour"],
+    maxGroupSize: 11,
+    licenseNumber: "LIC-5786-OSL",
+    phoneNumber: "+1-514-735-6436",
+    contactEmail: "henry.bennett@paragontrails.com",
     available: [
       {
         day: "Friday",
         availableHours: [
           {
-            from: "12:00 PM",
-            to: "06:00 PM",
+            from: "09:00 AM",
+            to: "03:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "10:00 AM",
           }
         ],
       },
       {
-        day: "Wednesday",
+        day: "Saturday",
         availableHours: [
           {
             from: "08:00 AM",
-            to: "02:00 PM",
+            to: "11:00 AM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Henry is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Cultural Experiences, Local Literature, City History, Historical Figures, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.2,
+    reviewsCount: 55,
+    quote: "Every corner of Oslo tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/2.jpg",
+    languages: ["Nepali"],
+    experienceYears: 4,
+    certifications: ["Wilderness First Responder", "Certified Local Guide"],
+    specialties: ["Cultural Experiences", "Local Literature", "City History", "Historical Figures"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-oslo-2",
+    name: "Philip Palmer",
+    city: "Oslo",
+    country: "Norway",
+    state: "",
+    region: "Norway",
+    isPopular: false,
+    bio: "Philip is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Night Tours, Local Dance, Culinary Tours, Hidden Treasures, Philip provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Western Balkans"],
+    tourTypes: ["Accessible Tour", "Cruise Excursion", "Off-Road Tour", "Architecture Tour", "Cooking Class"],
+    maxGroupSize: 8,
+    licenseNumber: "LIC-1174-OSL",
+    phoneNumber: "+1-839-264-5428",
+    contactEmail: "philip.palmer@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "06:00 PM",
           }
         ],
       },
@@ -42,66 +89,11 @@ export const oslonorwaynorwayGuides: TourGuide[] = [
         availableHours: [
           {
             from: "02:00 PM",
-            to: "08:00 PM",
-          },
-          {
-            from: "12:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Naomi is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Local Literature, Historical Sites, LGBTQ+ History, Naomi provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.1,
-    reviewsCount: 55,
-    quote: "Oslo isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/18.jpg",
-    languages: ["Greek"],
-    experienceYears: 11,
-    certifications: ["Adventure Tourism Safety Certificate", "Certified International Tour Manager"],
-    specialties: ["Local Literature", "Historical Sites", "LGBTQ+ History"],
-    specialTraining: ["Religious Studies", "Marine Biology"],
-  },
-  {
-    id: "guide-oslo-2",
-    name: "Margaret Montgomery",
-    city: "Oslo",
-    country: "Norway",
-    state: "",
-    region: "Norway",
-    isPopular: false,
-    bio: "Margaret is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Local Music, Culinary Tours, Indigenous Culture, Cultural Traditions, Margaret provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Latin America"],
-    tourTypes: ["Relocation Tour", "Wine Tour", "Adventure Tour", "Craft Workshop", "Scenic Tour"],
-    maxGroupSize: 14,
-    licenseNumber: "LIC-1140-OSL",
-    phoneNumber: "+1-108-240-9875",
-    contactEmail: "margaret.montgomery@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "02:00 PM",
+            to: "04:00 PM",
           },
           {
             from: "02:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "02:00 PM",
-          },
-          {
-            from: "03:00 PM",
-            to: "09:00 PM",
+            to: "04:00 PM",
           }
         ],
       },
@@ -109,180 +101,133 @@ export const oslonorwaynorwayGuides: TourGuide[] = [
         day: "Saturday",
         availableHours: [
           {
-            from: "10:00 AM",
-            to: "01:00 PM",
+            from: "12:00 PM",
+            to: "04:00 PM",
           },
           {
-            from: "08:00 AM",
-            to: "01:00 PM",
+            from: "12:00 PM",
+            to: "03:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Margaret is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Local Music, Culinary Tours, Indigenous Culture, Cultural Traditions, Margaret provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.4,
-    reviewsCount: 81,
-    quote: "My goal is to help you fall in love with Oslo just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/56.jpg",
-    languages: ["Swedish", "Polish", "Georgian"],
-    experienceYears: 15,
-    certifications: ["Certified International Tour Manager", "Sustainable Tourism Certificate"],
-    specialties: ["Local Music", "Culinary Tours", "Indigenous Culture", "Cultural Traditions"],
-    specialTraining: [],
+    description: "Philip is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Night Tours, Local Dance, Culinary Tours, Hidden Treasures, Philip provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.6,
+    reviewsCount: 63,
+    quote: "Oslo isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/25.jpg",
+    languages: ["Punjabi", "Finnish", "Tigrinya"],
+    experienceYears: 10,
+    certifications: ["Certified Eco-Tourism Guide"],
+    specialties: ["Night Tours", "Local Dance", "Culinary Tours", "Hidden Treasures"],
+    specialTraining: ["Safety & Risk Management"],
   },
   {
     id: "guide-oslo-3",
-    name: "Ibrahim Martinez",
+    name: "Sandra da Costa",
     city: "Oslo",
     country: "Norway",
     state: "",
     region: "Norway",
     isPopular: true,
-    bio: "Ibrahim is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Cultural Heritage, Ibrahim provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Africa", "Gobi Desert"],
-    tourTypes: ["Off-Road Tour", "Architecture Tour", "Family-Friendly Tour"],
-    maxGroupSize: 19,
-    licenseNumber: "LIC-2583-OSL",
-    phoneNumber: "+1-771-985-4214",
-    contactEmail: "ibrahim.martinez@paragontrails.com",
+    bio: "Sandra is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Cultural Heritage, Sandra provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Gobi Desert"],
+    tourTypes: ["Romantic Tour", "Off-Road Tour", "Shopping Tour", "Nature Tour"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-3070-OSL",
+    phoneNumber: "+1-343-293-5465",
+    contactEmail: "sandra.da@paragontrails.com",
     available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "04:00 PM",
-          },
-          {
-            from: "10:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      },
       {
         day: "Monday",
         availableHours: [
           {
-            from: "12:00 PM",
+            from: "02:00 PM",
+            to: "08:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "02:00 PM",
             to: "06:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "08:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "03:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "07:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Ibrahim is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Cultural Heritage, Ibrahim provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.5,
-    reviewsCount: 95,
-    quote: "The best way to discover Oslo is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/77.jpg",
-    languages: ["Portuguese", "Ukrainian"],
-    experienceYears: 15,
-    certifications: ["Certified International Tour Manager", "Certified Heritage Guide"],
+    description: "Sandra is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Cultural Heritage, Sandra provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.9,
+    reviewsCount: 17,
+    quote: "Oslo isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/33.jpg",
+    languages: ["Italian", "Galician"],
+    experienceYears: 3,
+    certifications: ["Adventure Tourism Safety Certificate", "Wilderness First Responder", "Professional Tour Guide Association"],
     specialties: ["Cultural Heritage"],
     specialTraining: [],
   },
   {
     id: "guide-oslo-4",
-    name: "Liam Lopez",
+    name: "Jose Garcia",
     city: "Oslo",
     country: "Norway",
     state: "",
     region: "Norway",
     isPopular: true,
-    bio: "Liam is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Cultural Etiquette, Outdoor Activities, Local Fashion, Cultural Heritage, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Indian Ocean"],
-    tourTypes: ["Brewery Tour"],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-4555-OSL",
-    phoneNumber: "+1-470-397-1802",
-    contactEmail: "liam.lopez@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "10:00 AM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "03:00 PM",
-          },
-          {
-            from: "11:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Liam is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Cultural Etiquette, Outdoor Activities, Local Fashion, Cultural Heritage, Liam provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4,
-    reviewsCount: 93,
-    quote: "Every corner of Oslo tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/7.jpg",
-    languages: ["Cantonese"],
-    experienceYears: 5,
-    certifications: ["CPR & First Aid"],
-    specialties: ["Cultural Etiquette", "Outdoor Activities", "Local Fashion", "Cultural Heritage"],
-    specialTraining: ["Cultural Heritage", "Historical Preservation"],
-  },
-  {
-    id: "guide-oslo-5",
-    name: "Gerald Bennett",
-    city: "Oslo",
-    country: "Norway",
-    state: "",
-    region: "Norway",
-    isPopular: false,
-    bio: "Gerald is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Nature Trails, Cultural Traditions, Gerald provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caspian Sea"],
-    tourTypes: ["Eco Tour", "Boat Tour", "Relocation Tour", "Farm Visit"],
-    maxGroupSize: 5,
-    licenseNumber: "LIC-3875-OSL",
-    phoneNumber: "+1-452-826-6851",
-    contactEmail: "gerald.bennett@paragontrails.com",
+    bio: "Jose is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Local History, Culinary Tours, Jose provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Baltic States"],
+    tourTypes: ["Wine Tour", "Relocation Tour", "Street Art Tour", "Craft Workshop"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-1045-OSL",
+    phoneNumber: "+1-704-302-1200",
+    contactEmail: "jose.garcia@paragontrails.com",
     available: [
       {
         day: "Friday",
         availableHours: [
           {
             from: "08:00 AM",
-            to: "10:00 AM",
-          },
-          {
-            from: "10:00 AM",
-            to: "03:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "11:00 AM",
             to: "02:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
+          },
           {
             from: "09:00 AM",
             to: "02:00 PM",
@@ -290,67 +235,62 @@ export const oslonorwaynorwayGuides: TourGuide[] = [
         ],
       },
       {
-        day: "Thursday",
+        day: "Monday",
         availableHours: [
           {
-            from: "11:00 AM",
+            from: "12:00 PM",
             to: "02:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "11:00 AM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "05:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Gerald is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Nature Trails, Cultural Traditions, Gerald provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.5,
-    reviewsCount: 48,
-    quote: "In Oslo, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/46.jpg",
-    languages: ["Urdu", "Somali"],
-    experienceYears: 5,
-    certifications: ["Certified International Tour Manager", "Certified Eco-Tourism Guide", "Local History Certification"],
-    specialties: ["Nature Trails", "Cultural Traditions"],
+    description: "Jose is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Local History, Culinary Tours, Jose provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.7,
+    reviewsCount: 39,
+    quote: "Every corner of Oslo tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/42.jpg",
+    languages: ["Swedish", "Russian"],
+    experienceYears: 11,
+    certifications: ["Certified Tour Guide", "Adventure Tourism Certification"],
+    specialties: ["Local History", "Culinary Tours"],
     specialTraining: [],
   },
   {
-    id: "guide-oslo-6",
-    name: "Cynthia Collins",
+    id: "guide-oslo-5",
+    name: "Kenneth Wood",
     city: "Oslo",
     country: "Norway",
     state: "",
     region: "Norway",
     isPopular: false,
-    bio: "Cynthia is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Museums, Cynthia provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Southeast Asia Islands", "Indian Ocean"],
-    tourTypes: ["Family-Friendly Tour", "Walking Tour", "Shopping Tour"],
-    maxGroupSize: 14,
-    licenseNumber: "LIC-7894-OSL",
-    phoneNumber: "+1-719-290-8565",
-    contactEmail: "cynthia.collins@paragontrails.com",
+    bio: "Kenneth is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Local Folklore, Local Artisans, Scenic Views, Kenneth provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific"],
+    tourTypes: ["Cooking Class", "Underground Tour", "Museum Tour"],
+    maxGroupSize: 8,
+    licenseNumber: "LIC-3803-OSL",
+    phoneNumber: "+1-909-385-2166",
+    contactEmail: "kenneth.wood@paragontrails.com",
     available: [
       {
-        day: "Sunday",
+        day: "Tuesday",
         availableHours: [
           {
-            from: "02:00 PM",
-            to: "04:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "08:00 AM",
+            from: "09:00 AM",
             to: "02:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "04:00 PM",
           },
           {
             from: "02:00 PM",
@@ -359,53 +299,62 @@ export const oslonorwaynorwayGuides: TourGuide[] = [
         ],
       },
       {
-        day: "Monday",
+        day: "Thursday",
         availableHours: [
           {
-            from: "02:00 PM",
-            to: "08:00 PM",
+            from: "01:00 PM",
+            to: "07:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Cynthia is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Museums, Cynthia provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.8,
-    reviewsCount: 9,
-    quote: "My goal is to help you fall in love with Oslo just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/68.jpg",
-    languages: ["Zulu", "Yoruba"],
-    experienceYears: 10,
-    certifications: ["Regional Tourism Ambassador"],
-    specialties: ["Museums"],
-    specialTraining: ["Cultural Sensitivity Training"],
+    description: "Kenneth is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Local Folklore, Local Artisans, Scenic Views, Kenneth provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.7,
+    reviewsCount: 41,
+    quote: "Oslo isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/22.jpg",
+    languages: ["Zulu", "Latvian", "Danish"],
+    experienceYears: 4,
+    certifications: ["Sustainable Tourism Certificate", "Certified Heritage Guide"],
+    specialties: ["Local Folklore", "Local Artisans", "Scenic Views"],
+    specialTraining: ["Historical Research Methods"],
   },
   {
-    id: "guide-oslo-7",
-    name: "Henry Dixon",
+    id: "guide-oslo-6",
+    name: "Mary Mason",
     city: "Oslo",
     country: "Norway",
     state: "",
     region: "Norway",
     isPopular: false,
-    bio: "Henry is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Adventure Sports, City History, Urban Legends, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Persian Gulf"],
-    tourTypes: ["Adventure Tour", "Architecture Tour"],
-    maxGroupSize: 5,
-    licenseNumber: "LIC-5342-OSL",
-    phoneNumber: "+1-178-110-8712",
-    contactEmail: "henry.dixon@paragontrails.com",
+    bio: "Mary is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Street Food, Mary provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast Canada"],
+    tourTypes: ["Group Tour", "Festival Tour"],
+    maxGroupSize: 14,
+    licenseNumber: "LIC-9226-OSL",
+    phoneNumber: "+1-906-288-7259",
+    contactEmail: "mary.mason@paragontrails.com",
     available: [
       {
-        day: "Friday",
+        day: "Saturday",
         availableHours: [
           {
-            from: "10:00 AM",
-            to: "04:00 PM",
+            from: "12:00 PM",
+            to: "05:00 PM",
           },
           {
             from: "08:00 AM",
-            to: "10:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "11:00 AM",
           }
         ],
       },
@@ -413,21 +362,46 @@ export const oslonorwaynorwayGuides: TourGuide[] = [
         day: "Tuesday",
         availableHours: [
           {
-            from: "10:00 AM",
-            to: "04:00 PM",
+            from: "01:00 PM",
+            to: "05:00 PM",
           }
         ],
-      },
+      }
+    ],
+    isCertified: true,
+    description: "Mary is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Street Food, Mary provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 16,
+    quote: "Oslo isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/72.jpg",
+    languages: ["Latvian"],
+    experienceYears: 7,
+    certifications: ["Heritage Interpretation Certificate"],
+    specialties: ["Street Food"],
+    specialTraining: ["Photography", "Mountain Survival"],
+  },
+  {
+    id: "guide-oslo-7",
+    name: "Adam Hayes",
+    city: "Oslo",
+    country: "Norway",
+    state: "",
+    region: "Norway",
+    isPopular: false,
+    bio: "Adam is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Local Wildlife, Adam provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Southern USA"],
+    tourTypes: ["Historical Tour", "Museum Tour", "Audio Tour", "Luxury Tour"],
+    maxGroupSize: 9,
+    licenseNumber: "LIC-5088-OSL",
+    phoneNumber: "+1-767-919-1967",
+    contactEmail: "adam.hayes@paragontrails.com",
+    available: [
       {
-        day: "Thursday",
+        day: "Wednesday",
         availableHours: [
           {
             from: "02:00 PM",
-            to: "04:00 PM",
-          },
-          {
-            from: "08:00 AM",
-            to: "11:00 AM",
+            to: "08:00 PM",
           }
         ],
       },
@@ -435,26 +409,95 @@ export const oslonorwaynorwayGuides: TourGuide[] = [
         day: "Sunday",
         availableHours: [
           {
-            from: "08:00 AM",
-            to: "11:00 AM",
-          },
-          {
-            from: "10:00 AM",
-            to: "03:00 PM",
+            from: "11:00 AM",
+            to: "01:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Henry is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Adventure Sports, City History, Urban Legends, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 93,
+    description: "Adam is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Local Wildlife, Adam provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.7,
+    reviewsCount: 92,
     quote: "Every corner of Oslo tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/82.jpg",
-    languages: ["Pashto", "Korean"],
-    experienceYears: 10,
-    certifications: ["Certified Tour Guide"],
-    specialties: ["Adventure Sports", "City History", "Urban Legends"],
-    specialTraining: ["Photography", "Archaeological Conservation"],
+    profileImage: "https://randomuser.me/api/portraits/men/48.jpg",
+    languages: ["Afrikaans"],
+    experienceYears: 3,
+    certifications: ["Adventure Tourism Safety Certificate", "Food Safety Certification", "Regional Tourism Ambassador"],
+    specialties: ["Local Wildlife"],
+    specialTraining: ["Culinary Skills", "Cultural Anthropology"],
+  },
+  {
+    id: "guide-oslo-8",
+    name: "Samuel Lawson",
+    city: "Oslo",
+    country: "Norway",
+    state: "",
+    region: "Norway",
+    isPopular: true,
+    bio: "Samuel is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Local Legends, Nightlife, Shopping, Samuel provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Siberia", "West Africa"],
+    tourTypes: ["Farm Visit", "Street Art Tour"],
+    maxGroupSize: 7,
+    licenseNumber: "LIC-7560-OSL",
+    phoneNumber: "+1-109-677-2380",
+    contactEmail: "samuel.lawson@paragontrails.com",
+    available: [
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "03:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "08:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "06:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "11:00 AM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Samuel is a passionate tour guide with extensive knowledge of Oslo and Norway. Specializing in Local Legends, Nightlife, Shopping, Samuel provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 24,
+    quote: "Every corner of Oslo tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/47.jpg",
+    languages: ["Azerbaijani", "Uzbek", "Galician"],
+    experienceYears: 5,
+    certifications: ["Sustainable Tourism Certificate", "Cultural Heritage Specialist"],
+    specialties: ["Local Legends", "Nightlife", "Shopping"],
+    specialTraining: ["Cultural Heritage", "Desert Navigation"],
   }
 ];

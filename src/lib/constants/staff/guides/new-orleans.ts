@@ -1,305 +1,31 @@
 // This file is auto-generated. Do not edit manually.
 
+// Tour guides for New Orleans (unitedStates)
+// Region: louisiana
+
+// Generated on: 2025-06-08T04:09:38.398Z
+
 import { TourGuide } from "@/lib/interfaces/people/staff";
 
 export const newOrleansunitedStateslouisianaGuides: TourGuide[] = [
   {
     id: "guide-new-orleans-1",
-    name: "Christopher Palmer",
+    name: "Ellie Maxwell",
     city: "New Orleans",
     country: "United States",
     state: "",
     region: "Louisiana",
     isPopular: true,
-    bio: "Christopher is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Historical Figures, Christopher provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Indian Ocean", "South America"],
-    tourTypes: ["Nature Tour", "Architecture Tour", "Wildlife Safari", "Cultural Tour"],
-    maxGroupSize: 11,
-    licenseNumber: "LIC-4065-NEW",
-    phoneNumber: "+1-581-299-6825",
-    contactEmail: "christopher.palmer@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "07:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "07:00 PM",
-          },
-          {
-            from: "11:00 AM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "04:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Christopher is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Historical Figures, Christopher provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 5,
-    reviewsCount: 43,
-    quote: "My goal is to help you fall in love with New Orleans just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/41.jpg",
-    languages: ["Ukrainian", "Hungarian", "Hausa"],
-    experienceYears: 4,
-    certifications: ["Eco-Tourism Guide", "Sustainable Tourism Certificate", "Wilderness First Responder"],
-    specialties: ["Historical Figures"],
-    specialTraining: ["Local Geography", "Public Speaking"],
-  },
-  {
-    id: "guide-new-orleans-2",
-    name: "Ellie Hamilton",
-    city: "New Orleans",
-    country: "United States",
-    state: "",
-    region: "Louisiana",
-    isPopular: false,
-    bio: "Ellie is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Historical Figures, Shopping Districts, Historical Tours, Ellie provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Central Europe", "North Atlantic Ocean"],
-    tourTypes: ["Romantic Tour", "Audio Tour", "Boat Tour", "Food Tour"],
-    maxGroupSize: 9,
-    licenseNumber: "LIC-7910-NEW",
-    phoneNumber: "+1-721-714-8609",
-    contactEmail: "ellie.hamilton@paragontrails.com",
+    bio: "Ellie is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Shopping Districts, Historical Landmarks, Wildlife, Ellie provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South China Sea", "Caucasus Region"],
+    tourTypes: ["Romantic Tour", "Ghost Tour", "Craft Workshop"],
+    maxGroupSize: 19,
+    licenseNumber: "LIC-7631-NEW",
+    phoneNumber: "+1-113-296-6284",
+    contactEmail: "ellie.maxwell@paragontrails.com",
     available: [
       {
         day: "Saturday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "05:00 PM",
-          },
-          {
-            from: "03:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "01:00 PM",
-          },
-          {
-            from: "12:00 PM",
-            to: "03:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "01:00 PM",
-          },
-          {
-            from: "12:00 PM",
-            to: "04:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "01:00 PM",
-          },
-          {
-            from: "01:00 PM",
-            to: "04:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Ellie is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Historical Figures, Shopping Districts, Historical Tours, Ellie provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4,
-    reviewsCount: 9,
-    quote: "New Orleans isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/women/14.jpg",
-    languages: ["Portuguese"],
-    experienceYears: 13,
-    certifications: ["Certified Local Guide"],
-    specialties: ["Historical Figures", "Shopping Districts", "Historical Tours"],
-    specialTraining: ["Group Management", "Local Flora & Fauna"],
-  },
-  {
-    id: "guide-new-orleans-3",
-    name: "Adeline Reeves",
-    city: "New Orleans",
-    country: "United States",
-    state: "",
-    region: "Louisiana",
-    isPopular: false,
-    bio: "Adeline is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Local Festivals, Hidden Gems, Cultural Festivals, Adeline provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Africa"],
-    tourTypes: ["Helicopter Tour", "Family-Friendly Tour"],
-    maxGroupSize: 15,
-    licenseNumber: "LIC-2892-NEW",
-    phoneNumber: "+1-385-831-9600",
-    contactEmail: "adeline.reeves@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "07:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "05:00 PM",
-          },
-          {
-            from: "11:00 AM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "02:00 PM",
-          },
-          {
-            from: "08:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Adeline is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Local Festivals, Hidden Gems, Cultural Festivals, Adeline provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.1,
-    reviewsCount: 99,
-    quote: "My goal is to help you fall in love with New Orleans just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/28.jpg",
-    languages: ["Malayalam", "Gujarati", "Afrikaans"],
-    experienceYears: 10,
-    certifications: ["Adventure Tourism Safety Certificate", "Local History Certification", "Language Proficiency Certification"],
-    specialties: ["Local Festivals", "Hidden Gems", "Cultural Festivals"],
-    specialTraining: ["Wine Education"],
-  },
-  {
-    id: "guide-new-orleans-4",
-    name: "Melissa Khan",
-    city: "New Orleans",
-    country: "United States",
-    state: "",
-    region: "Louisiana",
-    isPopular: false,
-    bio: "Melissa is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Historical Landmarks, Melissa provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Bay of Bengal", "Asia Pacific"],
-    tourTypes: ["Romantic Tour", "Bike Tour", "Wildlife Safari"],
-    maxGroupSize: 14,
-    licenseNumber: "LIC-6796-NEW",
-    phoneNumber: "+1-139-418-9109",
-    contactEmail: "melissa.khan@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "04:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Melissa is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Historical Landmarks, Melissa provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.9,
-    reviewsCount: 33,
-    quote: "Every corner of New Orleans tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/78.jpg",
-    languages: ["Zulu", "Italian", "Armenian"],
-    experienceYears: 5,
-    certifications: ["Wilderness First Responder", "Food Safety Certification", "Adventure Tourism Certification"],
-    specialties: ["Historical Landmarks"],
-    specialTraining: ["Desert Navigation"],
-  },
-  {
-    id: "guide-new-orleans-5",
-    name: "Hiroshi Gonzalez",
-    city: "New Orleans",
-    country: "United States",
-    state: "",
-    region: "Louisiana",
-    isPopular: false,
-    bio: "Hiroshi is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Local Fashion, Hiroshi provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East China Sea", "Central Africa"],
-    tourTypes: ["Adventure Tour", "Architecture Tour", "Wildlife Safari", "Private Tour"],
-    maxGroupSize: 15,
-    licenseNumber: "LIC-1609-NEW",
-    phoneNumber: "+1-518-930-2811",
-    contactEmail: "hiroshi.gonzalez@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
         availableHours: [
           {
             from: "01:00 PM",
@@ -308,135 +34,11 @@ export const newOrleansunitedStateslouisianaGuides: TourGuide[] = [
         ],
       },
       {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "09:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "04:00 PM",
-          },
-          {
-            from: "08:00 AM",
-            to: "11:00 AM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Hiroshi is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Local Fashion, Hiroshi provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 50,
-    quote: "New Orleans isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/men/78.jpg",
-    languages: ["Latvian", "Khmer", "Norwegian"],
-    experienceYears: 7,
-    certifications: ["Certified Tour Guide", "Eco-Tourism Guide", "Certified International Tour Manager"],
-    specialties: ["Local Fashion"],
-    specialTraining: ["Cultural Anthropology", "Regional Cuisine"],
-  },
-  {
-    id: "guide-new-orleans-6",
-    name: "Ashley Hernandez",
-    city: "New Orleans",
-    country: "United States",
-    state: "",
-    region: "Louisiana",
-    isPopular: false,
-    bio: "Ashley is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Urban Legends, Photography Spots, Indigenous Culture, Ashley provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Northern Europe", "Southeast Europe"],
-    tourTypes: ["Private Tour", "Food Tour", "Cultural Tour"],
-    maxGroupSize: 11,
-    licenseNumber: "LIC-5487-NEW",
-    phoneNumber: "+1-169-419-9467",
-    contactEmail: "ashley.hernandez@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "06:00 PM",
-          },
-          {
-            from: "08:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      },
-      {
         day: "Wednesday",
         availableHours: [
           {
-            from: "09:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Ashley is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Urban Legends, Photography Spots, Indigenous Culture, Ashley provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.2,
-    reviewsCount: 87,
-    quote: "Every corner of New Orleans tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/7.jpg",
-    languages: ["Greek", "Mandarin"],
-    experienceYears: 15,
-    certifications: ["Urban Navigation Specialist", "Regional Tourism Ambassador"],
-    specialties: ["Urban Legends", "Photography Spots", "Indigenous Culture"],
-    specialTraining: ["Historical Preservation", "Cultural Immersion"],
-  },
-  {
-    id: "guide-new-orleans-7",
-    name: "Adam Dixon",
-    city: "New Orleans",
-    country: "United States",
-    state: "",
-    region: "Louisiana",
-    isPopular: true,
-    bio: "Adam is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Local Music, Shopping Districts, Music Scene, Local Myths, Adam provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Southeast Asia"],
-    tourTypes: ["Adventure Tour", "Romantic Tour"],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-4922-NEW",
-    phoneNumber: "+1-370-549-9533",
-    contactEmail: "adam.dixon@paragontrails.com",
-    available: [
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "01:00 PM",
-          },
-          {
-            from: "10:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "01:00 PM",
+            from: "02:00 PM",
+            to: "04:00 PM",
           }
         ],
       },
@@ -448,27 +50,318 @@ export const newOrleansunitedStateslouisianaGuides: TourGuide[] = [
             to: "12:00 PM",
           }
         ],
+      }
+    ],
+    isCertified: true,
+    description: "Ellie is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Shopping Districts, Historical Landmarks, Wildlife, Ellie provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.9,
+    reviewsCount: 38,
+    quote: "The best way to discover New Orleans is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/69.jpg",
+    languages: ["Russian"],
+    experienceYears: 6,
+    certifications: ["Certified Tour Guide", "Certified Local Guide"],
+    specialties: ["Shopping Districts", "Historical Landmarks", "Wildlife"],
+    specialTraining: ["Archaeological Conservation", "Desert Navigation"],
+  },
+  {
+    id: "guide-new-orleans-2",
+    name: "Riley Smith",
+    city: "New Orleans",
+    country: "United States",
+    state: "",
+    region: "Louisiana",
+    isPopular: false,
+    bio: "Riley is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Local Literature, Local Legends, Cultural Etiquette, Wildlife Watching, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Eastern Mediterranean"],
+    tourTypes: ["Craft Workshop", "Religious Tour", "Wine Tour", "Underground Tour"],
+    maxGroupSize: 5,
+    licenseNumber: "LIC-5737-NEW",
+    phoneNumber: "+1-665-924-3538",
+    contactEmail: "riley.smith@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "11:00 AM",
+          },
+          {
+            from: "02:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "09:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "04:00 PM",
+          }
+        ],
       },
       {
         day: "Saturday",
         availableHours: [
           {
-            from: "03:00 PM",
-            to: "05:00 PM",
+            from: "01:00 PM",
+            to: "04:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "02:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Adam is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Local Music, Shopping Districts, Music Scene, Local Myths, Adam provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.4,
-    reviewsCount: 14,
-    quote: "My goal is to help you fall in love with New Orleans just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/men/23.jpg",
-    languages: ["Croatian", "Serbian", "Armenian"],
-    experienceYears: 10,
-    certifications: ["CPR & First Aid", "Language Proficiency Certification", "Professional Tour Guide Association"],
-    specialties: ["Local Music", "Shopping Districts", "Music Scene", "Local Myths"],
-    specialTraining: ["Conflict Resolution"],
+    description: "Riley is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Local Literature, Local Legends, Cultural Etiquette, Wildlife Watching, Riley provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.7,
+    reviewsCount: 90,
+    quote: "Every corner of New Orleans tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/54.jpg",
+    languages: ["Irish", "Somali", "Amharic"],
+    experienceYears: 2,
+    certifications: ["Urban Navigation Specialist"],
+    specialties: ["Local Literature", "Local Legends", "Cultural Etiquette", "Wildlife Watching"],
+    specialTraining: ["Local Geography", "Marine Biology"],
+  },
+  {
+    id: "guide-new-orleans-3",
+    name: "Mohamed Porter",
+    city: "New Orleans",
+    country: "United States",
+    state: "",
+    region: "Louisiana",
+    isPopular: false,
+    bio: "Mohamed is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in LGBTQ+ History, Mohamed provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Western Balkans"],
+    tourTypes: ["Underground Tour", "Romantic Tour", "Family-Friendly Tour", "Luxury Tour"],
+    maxGroupSize: 14,
+    licenseNumber: "LIC-2842-NEW",
+    phoneNumber: "+1-146-839-3648",
+    contactEmail: "mohamed.porter@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "06:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Mohamed is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in LGBTQ+ History, Mohamed provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 5,
+    reviewsCount: 80,
+    quote: "New Orleans isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/61.jpg",
+    languages: ["Arabic", "Kurdish"],
+    experienceYears: 15,
+    certifications: ["Wilderness First Responder", "Certified Tour Guide"],
+    specialties: ["LGBTQ+ History"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-new-orleans-4",
+    name: "Rajesh Thomas",
+    city: "New Orleans",
+    country: "United States",
+    state: "",
+    region: "Louisiana",
+    isPopular: true,
+    bio: "Rajesh is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Music Scene, Public Transportation Navigation, Rajesh provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East China Sea"],
+    tourTypes: ["Religious Tour", "Relocation Tour", "Cultural Tour", "Helicopter Tour"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-2174-NEW",
+    phoneNumber: "+1-216-606-7153",
+    contactEmail: "rajesh.thomas@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "05:00 PM",
+          },
+          {
+            from: "11:00 AM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "02:00 PM",
+          },
+          {
+            from: "02:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "11:00 AM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Rajesh is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Music Scene, Public Transportation Navigation, Rajesh provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.3,
+    reviewsCount: 19,
+    quote: "In New Orleans, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/57.jpg",
+    languages: ["Serbo-Croatian", "Japanese"],
+    experienceYears: 5,
+    certifications: ["Eco-Tourism Guide", "Licensed City Guide", "Local History Certification"],
+    specialties: ["Music Scene", "Public Transportation Navigation"],
+    specialTraining: ["Cultural Anthropology"],
+  },
+  {
+    id: "guide-new-orleans-5",
+    name: "Mia Davis",
+    city: "New Orleans",
+    country: "United States",
+    state: "",
+    region: "Louisiana",
+    isPopular: true,
+    bio: "Mia is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Local Legends, Historical Sites, Historical Tours, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Central America"],
+    tourTypes: ["Helicopter Tour", "Accessible Tour", "Craft Workshop"],
+    maxGroupSize: 13,
+    licenseNumber: "LIC-8736-NEW",
+    phoneNumber: "+1-589-865-9310",
+    contactEmail: "mia.davis@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "07:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "08:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "03:00 PM",
+          },
+          {
+            from: "02:00 PM",
+            to: "08:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Mia is a passionate tour guide with extensive knowledge of New Orleans and United States. Specializing in Local Legends, Historical Sites, Historical Tours, Mia provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.3,
+    reviewsCount: 34,
+    quote: "In New Orleans, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/77.jpg",
+    languages: ["Lithuanian"],
+    experienceYears: 3,
+    certifications: ["Licensed City Guide", "Food Safety Certification", "Sustainable Tourism Certificate"],
+    specialties: ["Local Legends", "Historical Sites", "Historical Tours"],
+    specialTraining: [],
   }
 ];

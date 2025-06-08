@@ -1,99 +1,44 @@
 // This file is auto-generated. Do not edit manually.
 
+// Tour guides for Santiago (chile)
+// Region: chile
+
+// Generated on: 2025-06-08T04:09:38.401Z
+
 import { TourGuide } from "@/lib/interfaces/people/staff";
 
 export const santiagochilechileGuides: TourGuide[] = [
   {
     id: "guide-santiago-1",
-    name: "Chloe Ali",
-    city: "Santiago",
-    country: "Chile",
-    state: "",
-    region: "Chile",
-    isPopular: true,
-    bio: "Chloe is a passionate tour guide with extensive knowledge of Santiago and Chile. Specializing in Local Folklore, Historical Architecture, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East China Sea", "Arctic Region"],
-    tourTypes: ["Photography Tour", "Wildlife Safari", "Romantic Tour"],
-    maxGroupSize: 19,
-    licenseNumber: "LIC-6974-SAN",
-    phoneNumber: "+1-441-656-1707",
-    contactEmail: "chloe.ali@paragontrails.com",
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "04:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "12:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "07:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Chloe is a passionate tour guide with extensive knowledge of Santiago and Chile. Specializing in Local Folklore, Historical Architecture, Chloe provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 100,
-    quote: "In Santiago, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/women/56.jpg",
-    languages: ["Khmer"],
-    experienceYears: 9,
-    certifications: ["Licensed City Guide", "Certified Eco-Tourism Guide", "Regional Tourism Ambassador"],
-    specialties: ["Local Folklore", "Historical Architecture"],
-    specialTraining: ["Local History"],
-  },
-  {
-    id: "guide-santiago-2",
-    name: "Willie Wells",
+    name: "Sandra Graham",
     city: "Santiago",
     country: "Chile",
     state: "",
     region: "Chile",
     isPopular: false,
-    bio: "Willie is a passionate tour guide with extensive knowledge of Santiago and Chile. Specializing in Adventure Sports, Public Transportation Navigation, Culinary Tours, Willie provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Great Lakes Region"],
-    tourTypes: ["Group Tour", "Family-Friendly Tour", "Scenic Tour", "Festival Tour", "Relocation Tour"],
-    maxGroupSize: 16,
-    licenseNumber: "LIC-4306-SAN",
-    phoneNumber: "+1-560-477-9863",
-    contactEmail: "willie.wells@paragontrails.com",
+    bio: "Sandra is a passionate tour guide with extensive knowledge of Santiago and Chile. Specializing in Urban Legends, Sandra provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Canadian Rockies"],
+    tourTypes: ["Craft Workshop", "Historical Tour", "Architecture Tour"],
+    maxGroupSize: 15,
+    licenseNumber: "LIC-2229-SAN",
+    phoneNumber: "+1-958-852-3710",
+    contactEmail: "sandra.graham@paragontrails.com",
     available: [
       {
-        day: "Wednesday",
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
         availableHours: [
           {
             from: "03:00 PM",
-            to: "05:00 PM",
-          },
-          {
-            from: "01:00 PM",
-            to: "05:00 PM",
+            to: "08:00 PM",
           }
         ],
       },
@@ -101,81 +46,59 @@ export const santiagochilechileGuides: TourGuide[] = [
         day: "Thursday",
         availableHours: [
           {
-            from: "08:00 AM",
-            to: "12:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "03:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "07:00 PM",
-          },
-          {
-            from: "08:00 AM",
-            to: "10:00 AM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Willie is a passionate tour guide with extensive knowledge of Santiago and Chile. Specializing in Adventure Sports, Public Transportation Navigation, Culinary Tours, Willie provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.4,
-    reviewsCount: 24,
-    quote: "In Santiago, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/13.jpg",
-    languages: ["Portuguese", "Kazakh"],
-    experienceYears: 5,
-    certifications: ["Certified International Tour Manager", "Adventure Tourism Certification"],
-    specialties: ["Adventure Sports", "Public Transportation Navigation", "Culinary Tours"],
-    specialTraining: ["Desert Navigation"],
-  },
-  {
-    id: "guide-santiago-3",
-    name: "Bella Brooks",
-    city: "Santiago",
-    country: "Chile",
-    state: "",
-    region: "Chile",
-    isPopular: true,
-    bio: "Bella is a passionate tour guide with extensive knowledge of Santiago and Chile. Specializing in Indigenous Culture, Public Transportation Navigation, Bella provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Persian Gulf"],
-    tourTypes: ["Off-Road Tour", "Group Tour", "Market Tour"],
-    maxGroupSize: 13,
-    licenseNumber: "LIC-7614-SAN",
-    phoneNumber: "+1-752-969-9995",
-    contactEmail: "bella.brooks@paragontrails.com",
-    available: [
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "02:00 PM",
+            from: "12:00 PM",
+            to: "06:00 PM",
           }
         ],
       },
       {
         day: "Wednesday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Sandra is a passionate tour guide with extensive knowledge of Santiago and Chile. Specializing in Urban Legends, Sandra provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.3,
+    reviewsCount: 80,
+    quote: "Every corner of Santiago tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/women/68.jpg",
+    languages: ["Latvian"],
+    experienceYears: 7,
+    certifications: ["Regional Tourism Ambassador", "Wilderness First Responder", "Food Safety Certification"],
+    specialties: ["Urban Legends"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-santiago-2",
+    name: "Mohamed Dunn",
+    city: "Santiago",
+    country: "Chile",
+    state: "",
+    region: "Chile",
+    isPopular: false,
+    bio: "Mohamed is a passionate tour guide with extensive knowledge of Santiago and Chile. Specializing in Art Galleries, Outdoor Activities, Mohamed provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Gulf Coast USA", "Mediterranean Sea"],
+    tourTypes: ["Festival Tour", "Historical Tour"],
+    maxGroupSize: 17,
+    licenseNumber: "LIC-1495-SAN",
+    phoneNumber: "+1-204-333-7442",
+    contactEmail: "mohamed.dunn@paragontrails.com",
+    available: [
+      {
+        day: "Thursday",
         availableHours: [
           {
             from: "03:00 PM",
             to: "08:00 PM",
           },
           {
-            from: "11:00 AM",
-            to: "05:00 PM",
+            from: "08:00 AM",
+            to: "02:00 PM",
           }
         ],
       },
@@ -184,71 +107,149 @@ export const santiagochilechileGuides: TourGuide[] = [
         availableHours: [
           {
             from: "02:00 PM",
-            to: "06:00 PM",
-          },
-          {
-            from: "03:00 PM",
-            to: "05:00 PM",
+            to: "07:00 PM",
           }
         ],
       },
       {
-        day: "Thursday",
+        day: "Sunday",
         availableHours: [
           {
-            from: "11:00 AM",
-            to: "04:00 PM",
+            from: "03:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "01:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Bella is a passionate tour guide with extensive knowledge of Santiago and Chile. Specializing in Indigenous Culture, Public Transportation Navigation, Bella provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.9,
-    reviewsCount: 87,
+    description: "Mohamed is a passionate tour guide with extensive knowledge of Santiago and Chile. Specializing in Art Galleries, Outdoor Activities, Mohamed provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.7,
+    reviewsCount: 59,
+    quote: "Every corner of Santiago tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/33.jpg",
+    languages: ["Kannada", "Russian", "Arabic"],
+    experienceYears: 10,
+    certifications: ["Wilderness First Responder"],
+    specialties: ["Art Galleries", "Outdoor Activities"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-santiago-3",
+    name: "Claire Porter",
+    city: "Santiago",
+    country: "Chile",
+    state: "",
+    region: "Chile",
+    isPopular: true,
+    bio: "Claire is a passionate tour guide with extensive knowledge of Santiago and Chile. Specializing in Indigenous Culture, Local Dance, Claire provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Black Sea"],
+    tourTypes: ["Religious Tour", "Museum Tour"],
+    maxGroupSize: 5,
+    licenseNumber: "LIC-9688-SAN",
+    phoneNumber: "+1-895-803-5287",
+    contactEmail: "claire.porter@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "10:00 AM",
+            to: "02:00 PM",
+          },
+          {
+            from: "02:00 PM",
+            to: "08:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "02:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "11:00 AM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Claire is a passionate tour guide with extensive knowledge of Santiago and Chile. Specializing in Indigenous Culture, Local Dance, Claire provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.8,
+    reviewsCount: 55,
     quote: "My goal is to help you fall in love with Santiago just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/47.jpg",
-    languages: ["Igbo", "Korean"],
-    experienceYears: 6,
-    certifications: ["Certified Eco-Tourism Guide", "Certified Heritage Guide", "CPR & First Aid"],
-    specialties: ["Indigenous Culture", "Public Transportation Navigation"],
-    specialTraining: ["Customer Service Excellence", "Accessibility Services"],
+    profileImage: "https://randomuser.me/api/portraits/women/46.jpg",
+    languages: ["Greek", "Scottish Gaelic"],
+    experienceYears: 14,
+    certifications: ["Sustainable Tourism Certificate", "Licensed City Guide", "Certified Tour Guide"],
+    specialties: ["Indigenous Culture", "Local Dance"],
+    specialTraining: ["Marine Biology"],
   },
   {
     id: "guide-santiago-4",
-    name: "Patricia Hayes",
+    name: "Stephen Holloway",
     city: "Santiago",
     country: "Chile",
     state: "",
     region: "Chile",
     isPopular: false,
-    bio: "Patricia is a passionate tour guide with extensive knowledge of Santiago and Chile. Specializing in Historical Landmarks, Nature Trails, Patricia provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["West Africa"],
-    tourTypes: ["Private Tour", "Family-Friendly Tour", "Bike Tour"],
-    maxGroupSize: 10,
-    licenseNumber: "LIC-2354-SAN",
-    phoneNumber: "+1-283-930-4666",
-    contactEmail: "patricia.hayes@paragontrails.com",
+    bio: "Stephen is a passionate tour guide with extensive knowledge of Santiago and Chile. Specializing in Local Legends, Historical Tours, Stephen provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["North Atlantic Ocean", "Rocky Mountains"],
+    tourTypes: ["Craft Workshop", "Cooking Class"],
+    maxGroupSize: 17,
+    licenseNumber: "LIC-3469-SAN",
+    phoneNumber: "+1-329-392-7466",
+    contactEmail: "stephen.holloway@paragontrails.com",
     available: [
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "08:00 AM",
-            to: "10:00 AM",
-          }
-        ],
-      },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "02:00 PM",
+            from: "09:00 AM",
+            to: "03:00 PM",
           },
           {
-            from: "08:00 AM",
-            to: "10:00 AM",
+            from: "10:00 AM",
+            to: "02:00 PM",
           }
         ],
       },
@@ -256,26 +257,95 @@ export const santiagochilechileGuides: TourGuide[] = [
         day: "Friday",
         availableHours: [
           {
-            from: "10:00 AM",
-            to: "03:00 PM",
-          },
+            from: "08:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
           {
-            from: "01:00 PM",
-            to: "05:00 PM",
+            from: "02:00 PM",
+            to: "07:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Patricia is a passionate tour guide with extensive knowledge of Santiago and Chile. Specializing in Historical Landmarks, Nature Trails, Patricia provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.7,
-    reviewsCount: 32,
-    quote: "My goal is to help you fall in love with Santiago just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/17.jpg",
-    languages: ["Lithuanian"],
-    experienceYears: 13,
-    certifications: ["Regional Tourism Ambassador", "Certified International Tour Manager", "Language Proficiency Certification"],
-    specialties: ["Historical Landmarks", "Nature Trails"],
-    specialTraining: [],
+    description: "Stephen is a passionate tour guide with extensive knowledge of Santiago and Chile. Specializing in Local Legends, Historical Tours, Stephen provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.9,
+    reviewsCount: 68,
+    quote: "In Santiago, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/8.jpg",
+    languages: ["Tamil"],
+    experienceYears: 7,
+    certifications: ["Professional Tour Guide Association", "Heritage Interpretation Certificate", "Cultural Sensitivity Training"],
+    specialties: ["Local Legends", "Historical Tours"],
+    specialTraining: ["Historical Preservation", "Cultural Heritage Preservation"],
+  },
+  {
+    id: "guide-santiago-5",
+    name: "Kinsley Maxwell",
+    city: "Santiago",
+    country: "Chile",
+    state: "",
+    region: "Chile",
+    isPopular: false,
+    bio: "Kinsley is a passionate tour guide with extensive knowledge of Santiago and Chile. Specializing in Religious Sites, Wildlife, Cultural Festivals, Kinsley provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["South China Sea"],
+    tourTypes: ["Cultural Tour", "Luxury Tour", "Brewery Tour", "Food Tour"],
+    maxGroupSize: 8,
+    licenseNumber: "LIC-5806-SAN",
+    phoneNumber: "+1-261-679-9108",
+    contactEmail: "kinsley.maxwell@paragontrails.com",
+    available: [
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "07:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "07:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Kinsley is a passionate tour guide with extensive knowledge of Santiago and Chile. Specializing in Religious Sites, Wildlife, Cultural Festivals, Kinsley provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.8,
+    reviewsCount: 74,
+    quote: "Santiago isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/81.jpg",
+    languages: ["Georgian"],
+    experienceYears: 8,
+    certifications: ["Cultural Sensitivity Training"],
+    specialties: ["Religious Sites", "Wildlife", "Cultural Festivals"],
+    specialTraining: ["Art History", "Urban Planning"],
   }
 ];

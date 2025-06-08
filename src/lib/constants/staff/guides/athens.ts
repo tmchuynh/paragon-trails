@@ -1,360 +1,99 @@
 // This file is auto-generated. Do not edit manually.
 
+// Tour guides for Athens (greece)
+// Region: mainlandGreece
+
+// Generated on: 2025-06-08T04:09:38.385Z
+
 import { TourGuide } from "@/lib/interfaces/people/staff";
 
 export const athensgreecemainlandGreeceGuides: TourGuide[] = [
   {
     id: "guide-athens-1",
-    name: "Harper Curtis",
+    name: "Anthony Edwards",
     city: "Athens",
     country: "Greece",
     state: "",
     region: "Mainland Greece",
     isPopular: false,
-    bio: "Harper is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in City History, Hidden Treasures, Nightlife, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Latin America"],
-    tourTypes: ["Cruise Excursion", "Shopping Tour", "Group Tour"],
-    maxGroupSize: 13,
-    licenseNumber: "LIC-6982-ATH",
-    phoneNumber: "+1-969-836-9372",
-    contactEmail: "harper.curtis@paragontrails.com",
+    bio: "Anthony is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Nature Trails, Art Galleries, Historical Architecture, Anthony provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["West Africa", "East Coast USA"],
+    tourTypes: ["Cultural Tour", "LGBTQ+ Friendly Tour", "Scenic Tour", "Nature Tour", "Cooking Class"],
+    maxGroupSize: 14,
+    licenseNumber: "LIC-8671-ATH",
+    phoneNumber: "+1-304-863-9477",
+    contactEmail: "anthony.edwards@paragontrails.com",
     available: [
       {
         day: "Monday",
         availableHours: [
           {
             from: "02:00 PM",
-            to: "08:00 PM",
+            to: "06:00 PM",
           }
         ],
       },
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "07:00 PM",
-          },
-          {
-            from: "10:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Harper is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in City History, Hidden Treasures, Nightlife, Harper provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4,
-    reviewsCount: 72,
-    quote: "Every corner of Athens tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/54.jpg",
-    languages: ["Swedish"],
-    experienceYears: 11,
-    certifications: ["Local History Certification"],
-    specialties: ["City History", "Hidden Treasures", "Nightlife"],
-    specialTraining: ["Safety & Risk Management"],
-  },
-  {
-    id: "guide-athens-2",
-    name: "Joe King",
-    city: "Athens",
-    country: "Greece",
-    state: "",
-    region: "Mainland Greece",
-    isPopular: true,
-    bio: "Joe is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Historical Reenactments, Local Fashion, Adventure Activities, Joe provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Bering Sea", "Western Europe"],
-    tourTypes: ["Farm Visit", "Market Tour", "Historical Tour"],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-1614-ATH",
-    phoneNumber: "+1-163-615-9715",
-    contactEmail: "joe.king@paragontrails.com",
-    available: [
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "09:00 AM",
+            from: "10:00 AM",
             to: "12:00 PM",
           }
         ],
       },
       {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "07:00 PM",
-          },
-          {
-            from: "03:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "03:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "04:00 PM",
-          },
-          {
-            from: "12:00 PM",
-            to: "02:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "03:00 PM",
-          },
-          {
-            from: "03:00 PM",
-            to: "08:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Joe is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Historical Reenactments, Local Fashion, Adventure Activities, Joe provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.7,
-    reviewsCount: 67,
-    quote: "The best way to discover Athens is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/76.jpg",
-    languages: ["Lao", "Korean"],
-    experienceYears: 8,
-    certifications: ["Certified Local Guide", "Licensed City Guide", "CPR & First Aid"],
-    specialties: ["Historical Reenactments", "Local Fashion", "Adventure Activities"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-athens-3",
-    name: "Benjamin Campbell",
-    city: "Athens",
-    country: "Greece",
-    state: "",
-    region: "Mainland Greece",
-    isPopular: true,
-    bio: "Benjamin is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Film Locations, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Caribbean Sea", "Black Sea"],
-    tourTypes: ["Scenic Tour", "LGBTQ+ Friendly Tour"],
-    maxGroupSize: 15,
-    licenseNumber: "LIC-3076-ATH",
-    phoneNumber: "+1-337-117-1693",
-    contactEmail: "benjamin.campbell@paragontrails.com",
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      },
-      {
         day: "Sunday",
         availableHours: [
           {
             from: "02:00 PM",
-            to: "04:00 PM",
+            to: "05:00 PM",
           },
           {
-            from: "12:00 PM",
-            to: "03:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "05:00 PM",
+            from: "02:00 PM",
+            to: "06:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Benjamin is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Film Locations, Benjamin provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.7,
-    reviewsCount: 32,
-    quote: "The best way to discover Athens is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/men/51.jpg",
-    languages: ["Serbian", "Icelandic"],
-    experienceYears: 4,
-    certifications: ["Local History Certification", "Professional Tour Guide Association"],
-    specialties: ["Film Locations"],
-    specialTraining: ["Environmental Awareness", "Conflict Resolution"],
+    description: "Anthony is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Nature Trails, Art Galleries, Historical Architecture, Anthony provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.3,
+    reviewsCount: 42,
+    quote: "In Athens, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/men/65.jpg",
+    languages: ["Italian"],
+    experienceYears: 9,
+    certifications: ["Sustainable Tourism Certificate", "Professional Tour Guide Association"],
+    specialties: ["Nature Trails", "Art Galleries", "Historical Architecture"],
+    specialTraining: ["Public Speaking"],
   },
   {
-    id: "guide-athens-4",
-    name: "Mei Baker",
-    city: "Athens",
-    country: "Greece",
-    state: "",
-    region: "Mainland Greece",
-    isPopular: false,
-    bio: "Mei is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Hidden Gems, Local Festivals, Mei provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Atlantic Coast USA"],
-    tourTypes: ["Boat Tour", "Cultural Tour", "Museum Tour"],
-    maxGroupSize: 15,
-    licenseNumber: "LIC-5767-ATH",
-    phoneNumber: "+1-801-987-3745",
-    contactEmail: "mei.baker@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "03:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "02:00 PM",
-          },
-          {
-            from: "03:00 PM",
-            to: "09:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Mei is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Hidden Gems, Local Festivals, Mei provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 100,
-    quote: "The best way to discover Athens is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/23.jpg",
-    languages: ["Farsi"],
-    experienceYears: 4,
-    certifications: ["Eco-Tourism Guide", "Certified Tour Guide"],
-    specialties: ["Hidden Gems", "Local Festivals"],
-    specialTraining: ["Adventure Safety", "Accessibility Services"],
-  },
-  {
-    id: "guide-athens-5",
-    name: "Sofia King",
+    id: "guide-athens-2",
+    name: "Carl Knight",
     city: "Athens",
     country: "Greece",
     state: "",
     region: "Mainland Greece",
     isPopular: true,
-    bio: "Sofia is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Hidden Gems, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Latin America"],
-    tourTypes: ["Wildlife Safari", "Helicopter Tour", "Eco Tour", "Festival Tour"],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-1489-ATH",
-    phoneNumber: "+1-746-186-9119",
-    contactEmail: "sofia.king@paragontrails.com",
+    bio: "Carl is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Family Activities, Cultural Etiquette, Wildlife Watching, Carl provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Indian Ocean", "Southeast Europe"],
+    tourTypes: ["Off-Road Tour", "Historical Tour", "Wine Tour"],
+    maxGroupSize: 11,
+    licenseNumber: "LIC-4531-ATH",
+    phoneNumber: "+1-477-244-2292",
+    contactEmail: "carl.knight@paragontrails.com",
     available: [
       {
         day: "Tuesday",
         availableHours: [
           {
-            from: "03:00 PM",
-            to: "08:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "02:00 PM",
-          },
-          {
-            from: "12:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "03:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Sofia is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Hidden Gems, Sofia provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.5,
-    reviewsCount: 40,
-    quote: "The best way to discover Athens is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/79.jpg",
-    languages: ["Swedish", "Serbian", "Kyrgyz"],
-    experienceYears: 2,
-    certifications: ["Food Safety Certification", "Language Proficiency Certification", "Local History Certification"],
-    specialties: ["Hidden Gems"],
-    specialTraining: ["Cultural Sensitivity", "First Aid & CPR"],
-  },
-  {
-    id: "guide-athens-6",
-    name: "Ahmed Wells",
-    city: "Athens",
-    country: "Greece",
-    state: "",
-    region: "Mainland Greece",
-    isPopular: false,
-    bio: "Ahmed is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Cultural Festivals, Local History, Local Markets, Ahmed provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Bay of Bengal", "South Pacific Ocean"],
-    tourTypes: ["Architecture Tour", "Craft Workshop", "Audio Tour", "Shopping Tour"],
-    maxGroupSize: 19,
-    licenseNumber: "LIC-2726-ATH",
-    phoneNumber: "+1-690-656-8986",
-    contactEmail: "ahmed.wells@paragontrails.com",
-    available: [
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "12:00 PM",
+            from: "02:00 PM",
             to: "06:00 PM",
           },
           {
-            from: "11:00 AM",
-            to: "02:00 PM",
+            from: "01:00 PM",
+            to: "07:00 PM",
           }
         ],
       },
@@ -366,17 +105,46 @@ export const athensgreecemainlandGreeceGuides: TourGuide[] = [
             to: "05:00 PM",
           },
           {
-            from: "12:00 PM",
-            to: "06:00 PM",
+            from: "01:00 PM",
+            to: "05:00 PM",
           }
         ],
-      },
+      }
+    ],
+    isCertified: true,
+    description: "Carl is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Family Activities, Cultural Etiquette, Wildlife Watching, Carl provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.8,
+    reviewsCount: 36,
+    quote: "My goal is to help you fall in love with Athens just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/72.jpg",
+    languages: ["Azerbaijani", "Tagalog", "Cantonese"],
+    experienceYears: 7,
+    certifications: ["Urban Navigation Specialist", "Certified Tour Guide"],
+    specialties: ["Family Activities", "Cultural Etiquette", "Wildlife Watching"],
+    specialTraining: ["Cultural Sensitivity Training", "Culinary Skills"],
+  },
+  {
+    id: "guide-athens-3",
+    name: "Victoria Singh",
+    city: "Athens",
+    country: "Greece",
+    state: "",
+    region: "Mainland Greece",
+    isPopular: false,
+    bio: "Victoria is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Indigenous Culture, Wildlife Watching, Local Crafts, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Southeast Asia", "Northern Europe"],
+    tourTypes: ["Family-Friendly Tour", "Bike Tour", "Self-Guided Tour", "Shopping Tour"],
+    maxGroupSize: 7,
+    licenseNumber: "LIC-2908-ATH",
+    phoneNumber: "+1-164-347-6789",
+    contactEmail: "victoria.singh@paragontrails.com",
+    available: [
       {
-        day: "Tuesday",
+        day: "Monday",
         availableHours: [
           {
             from: "02:00 PM",
-            to: "04:00 PM",
+            to: "08:00 PM",
           }
         ],
       },
@@ -384,11 +152,89 @@ export const athensgreecemainlandGreeceGuides: TourGuide[] = [
         day: "Friday",
         availableHours: [
           {
-            from: "08:00 AM",
-            to: "01:00 PM",
+            from: "12:00 PM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "07:00 PM",
           },
           {
-            from: "12:00 PM",
+            from: "01:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Victoria is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Indigenous Culture, Wildlife Watching, Local Crafts, Victoria provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.5,
+    reviewsCount: 92,
+    quote: "Athens isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/72.jpg",
+    languages: ["Korean", "Greek"],
+    experienceYears: 12,
+    certifications: ["Certified Eco-Tourism Guide", "Language Proficiency Certification"],
+    specialties: ["Indigenous Culture", "Wildlife Watching", "Local Crafts"],
+    specialTraining: ["Cultural Heritage Preservation", "Cultural Immersion"],
+  },
+  {
+    id: "guide-athens-4",
+    name: "Tyler Martinez",
+    city: "Athens",
+    country: "Greece",
+    state: "",
+    region: "Mainland Greece",
+    isPopular: false,
+    bio: "Tyler is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Historical Sites, Hidden Treasures, Cultural Workshops, Historical Figures, Tyler provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Mediterranean", "Northeast USA"],
+    tourTypes: ["Shopping Tour", "Group Tour", "Family-Friendly Tour"],
+    maxGroupSize: 17,
+    licenseNumber: "LIC-7993-ATH",
+    phoneNumber: "+1-186-164-5893",
+    contactEmail: "tyler.martinez@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "09:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "11:00 AM",
+          },
+          {
+            from: "02:00 PM",
             to: "05:00 PM",
           }
         ],
@@ -397,22 +243,73 @@ export const athensgreecemainlandGreeceGuides: TourGuide[] = [
         day: "Saturday",
         availableHours: [
           {
-            from: "12:00 PM",
-            to: "02:00 PM",
+            from: "10:00 AM",
+            to: "01:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Ahmed is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Cultural Festivals, Local History, Local Markets, Ahmed provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.5,
-    reviewsCount: 17,
-    quote: "Every corner of Athens tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/83.jpg",
-    languages: ["Portuguese"],
-    experienceYears: 13,
-    certifications: ["Certified Local Guide", "Wilderness First Responder", "Adventure Tourism Safety Certificate"],
-    specialties: ["Cultural Festivals", "Local History", "Local Markets"],
-    specialTraining: ["Local Transit Systems", "Cultural Anthropology"],
+    description: "Tyler is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Historical Sites, Hidden Treasures, Cultural Workshops, Historical Figures, Tyler provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 7,
+    quote: "The best way to discover Athens is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/men/59.jpg",
+    languages: ["Latvian"],
+    experienceYears: 12,
+    certifications: ["Certified Eco-Tourism Guide", "Licensed City Guide", "Food Safety Certification"],
+    specialties: ["Historical Sites", "Hidden Treasures", "Cultural Workshops", "Historical Figures"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-athens-5",
+    name: "Valentina Chen",
+    city: "Athens",
+    country: "Greece",
+    state: "",
+    region: "Mainland Greece",
+    isPopular: true,
+    bio: "Valentina is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Photography, Local Markets, City History, Local Cuisine, Valentina provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Southern Europe"],
+    tourTypes: ["Walking Tour", "Shopping Tour"],
+    maxGroupSize: 5,
+    licenseNumber: "LIC-7689-ATH",
+    phoneNumber: "+1-763-266-8352",
+    contactEmail: "valentina.chen@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "04:00 PM",
+          },
+          {
+            from: "03:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Valentina is a passionate tour guide with extensive knowledge of Athens and Greece. Specializing in Photography, Local Markets, City History, Local Cuisine, Valentina provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.6,
+    reviewsCount: 22,
+    quote: "In Athens, we don't just see the sights - we make memories.",
+    profileImage: "https://randomuser.me/api/portraits/women/81.jpg",
+    languages: ["Slovak", "Portuguese", "Russian"],
+    experienceYears: 11,
+    certifications: ["Certified Eco-Tourism Guide", "Food Safety Certification"],
+    specialties: ["Photography", "Local Markets", "City History", "Local Cuisine"],
+    specialTraining: ["Wildlife Conservation"],
   }
 ];

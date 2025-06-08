@@ -1,47 +1,35 @@
 // This file is auto-generated. Do not edit manually.
 
+// Tour guides for Kyoto (japan)
+// Region: japan
+
+// Generated on: 2025-06-08T04:09:38.393Z
+
 import { TourGuide } from "@/lib/interfaces/people/staff";
 
 export const kyotojapanjapanGuides: TourGuide[] = [
   {
     id: "guide-kyoto-1",
-    name: "Jessica Dunn",
+    name: "Cynthia Griffin",
     city: "Kyoto",
     country: "Japan",
     state: "",
     region: "Japan",
     isPopular: false,
-    bio: "Jessica is a passionate tour guide with extensive knowledge of Kyoto and Japan. Specializing in Public Transportation Navigation, Religious Sites, Jessica provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Southern USA"],
-    tourTypes: ["Religious Tour", "Wildlife Safari", "Romantic Tour", "Historical Tour", "Ghost Tour"],
-    maxGroupSize: 5,
-    licenseNumber: "LIC-1869-KYO",
-    phoneNumber: "+1-834-563-2694",
-    contactEmail: "jessica.dunn@paragontrails.com",
+    bio: "Cynthia is a passionate tour guide with extensive knowledge of Kyoto and Japan. Specializing in Photography Spots, Culinary Tours, City History, Cynthia provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Andean Region"],
+    tourTypes: ["Festival Tour", "Architecture Tour", "Food Tour"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-2985-KYO",
+    phoneNumber: "+1-196-910-2843",
+    contactEmail: "cynthia.griffin@paragontrails.com",
     available: [
       {
-        day: "Thursday",
+        day: "Wednesday",
         availableHours: [
-          {
-            from: "09:00 AM",
-            to: "11:00 AM",
-          },
           {
             from: "03:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "04:00 PM",
-          },
-          {
-            from: "02:00 PM",
-            to: "04:00 PM",
+            to: "09:00 PM",
           }
         ],
       },
@@ -49,93 +37,25 @@ export const kyotojapanjapanGuides: TourGuide[] = [
         day: "Friday",
         availableHours: [
           {
-            from: "11:00 AM",
-            to: "04:00 PM",
+            from: "03:00 PM",
+            to: "09:00 PM",
           },
           {
-            from: "08:00 AM",
-            to: "10:00 AM",
+            from: "03:00 PM",
+            to: "06:00 PM",
           }
         ],
       },
       {
         day: "Monday",
         availableHours: [
-          {
-            from: "03:00 PM",
-            to: "08:00 PM",
-          },
-          {
-            from: "01:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Jessica is a passionate tour guide with extensive knowledge of Kyoto and Japan. Specializing in Public Transportation Navigation, Religious Sites, Jessica provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.8,
-    reviewsCount: 52,
-    quote: "Every corner of Kyoto tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/17.jpg",
-    languages: ["Greek", "Spanish"],
-    experienceYears: 9,
-    certifications: ["Licensed City Guide", "Food Safety Certification"],
-    specialties: ["Public Transportation Navigation", "Religious Sites"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-kyoto-2",
-    name: "Elena Nash",
-    city: "Kyoto",
-    country: "Japan",
-    state: "",
-    region: "Japan",
-    isPopular: false,
-    bio: "Elena is a passionate tour guide with extensive knowledge of Kyoto and Japan. Specializing in Local Legends, Elena provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Southeast Europe", "Middle East & North Africa"],
-    tourTypes: ["Accessible Tour", "Adventure Tour"],
-    maxGroupSize: 7,
-    licenseNumber: "LIC-6844-KYO",
-    phoneNumber: "+1-480-468-4267",
-    contactEmail: "elena.nash@paragontrails.com",
-    available: [
-      {
-        day: "Friday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "06:00 PM",
-          },
           {
             from: "12:00 PM",
             to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
+          },
           {
-            from: "01:00 PM",
+            from: "10:00 AM",
             to: "04:00 PM",
-          },
-          {
-            from: "02:00 PM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "02:00 PM",
-            to: "06:00 PM",
-          },
-          {
-            from: "08:00 AM",
-            to: "10:00 AM",
           }
         ],
       },
@@ -143,51 +63,196 @@ export const kyotojapanjapanGuides: TourGuide[] = [
         day: "Tuesday",
         availableHours: [
           {
-            from: "11:00 AM",
-            to: "03:00 PM",
+            from: "03:00 PM",
+            to: "05:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Elena is a passionate tour guide with extensive knowledge of Kyoto and Japan. Specializing in Local Legends, Elena provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.5,
-    reviewsCount: 96,
-    quote: "Every corner of Kyoto tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/women/24.jpg",
-    languages: ["Hindi", "Hausa", "Maltese"],
-    experienceYears: 15,
-    certifications: ["CPR & First Aid", "Certified Tour Guide"],
-    specialties: ["Local Legends"],
-    specialTraining: [],
+    description: "Cynthia is a passionate tour guide with extensive knowledge of Kyoto and Japan. Specializing in Photography Spots, Culinary Tours, City History, Cynthia provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.2,
+    reviewsCount: 24,
+    quote: "My goal is to help you fall in love with Kyoto just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/women/7.jpg",
+    languages: ["English", "Slovak"],
+    experienceYears: 8,
+    certifications: ["Certified International Tour Manager"],
+    specialties: ["Photography Spots", "Culinary Tours", "City History"],
+    specialTraining: ["Environmental Awareness"],
   },
   {
-    id: "guide-kyoto-3",
-    name: "Marcus Silva",
+    id: "guide-kyoto-2",
+    name: "Kimberly Martinez",
     city: "Kyoto",
     country: "Japan",
     state: "",
     region: "Japan",
     isPopular: false,
-    bio: "Marcus is a passionate tour guide with extensive knowledge of Kyoto and Japan. Specializing in Cultural Traditions, Marcus provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Eastern Mediterranean"],
-    tourTypes: ["Off-Road Tour", "Helicopter Tour", "Farm Visit", "Ghost Tour"],
-    maxGroupSize: 10,
-    licenseNumber: "LIC-7230-KYO",
-    phoneNumber: "+1-701-847-8850",
-    contactEmail: "marcus.silva@paragontrails.com",
+    bio: "Kimberly is a passionate tour guide with extensive knowledge of Kyoto and Japan. Specializing in Music Scene, Family Activities, Local Legends, Kimberly provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Scandinavia"],
+    tourTypes: ["Group Tour", "Nature Tour", "Audio Tour"],
+    maxGroupSize: 8,
+    licenseNumber: "LIC-3882-KYO",
+    phoneNumber: "+1-160-791-3728",
+    contactEmail: "kimberly.martinez@paragontrails.com",
     available: [
       {
-        day: "Thursday",
+        day: "Monday",
         availableHours: [
           {
-            from: "11:00 AM",
+            from: "03:00 PM",
+            to: "08:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "11:00 AM",
+          },
+          {
+            from: "01:00 PM",
             to: "04:00 PM",
           }
         ],
       },
       {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "11:00 AM",
+          },
+          {
+            from: "12:00 PM",
+            to: "03:00 PM",
+          }
+        ],
+      },
+      {
         day: "Wednesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "12:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Kimberly is a passionate tour guide with extensive knowledge of Kyoto and Japan. Specializing in Music Scene, Family Activities, Local Legends, Kimberly provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.7,
+    reviewsCount: 45,
+    quote: "The best way to discover Kyoto is with someone who lives and breathes its culture.",
+    profileImage: "https://randomuser.me/api/portraits/women/4.jpg",
+    languages: ["Slovak", "Indonesian", "Polish"],
+    experienceYears: 6,
+    certifications: ["Cultural Heritage Specialist"],
+    specialties: ["Music Scene", "Family Activities", "Local Legends"],
+    specialTraining: ["Cultural Storytelling"],
+  },
+  {
+    id: "guide-kyoto-3",
+    name: "Henry Crawford",
+    city: "Kyoto",
+    country: "Japan",
+    state: "",
+    region: "Japan",
+    isPopular: false,
+    bio: "Henry is a passionate tour guide with extensive knowledge of Kyoto and Japan. Specializing in Historical Tours, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Antarctica", "South Asia Subcontinent"],
+    tourTypes: ["Farm Visit", "Underground Tour", "Audio Tour", "Relocation Tour"],
+    maxGroupSize: 11,
+    licenseNumber: "LIC-2374-KYO",
+    phoneNumber: "+1-894-534-4488",
+    contactEmail: "henry.crawford@paragontrails.com",
+    available: [
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "04:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "09:00 PM",
+          },
+          {
+            from: "02:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Henry is a passionate tour guide with extensive knowledge of Kyoto and Japan. Specializing in Historical Tours, Henry provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4,
+    reviewsCount: 10,
+    quote: "Every corner of Kyoto tells a story, let me share them with you.",
+    profileImage: "https://randomuser.me/api/portraits/men/47.jpg",
+    languages: ["Basque", "Korean", "Zulu"],
+    experienceYears: 13,
+    certifications: ["Language Proficiency Certification", "Certified Tour Guide"],
+    specialties: ["Historical Tours"],
+    specialTraining: ["Cultural Heritage", "Customer Service Excellence"],
+  },
+  {
+    id: "guide-kyoto-4",
+    name: "Leah Wang",
+    city: "Kyoto",
+    country: "Japan",
+    state: "",
+    region: "Japan",
+    isPopular: false,
+    bio: "Leah is a passionate tour guide with extensive knowledge of Kyoto and Japan. Specializing in Culinary Tours, Local Legends, Leah provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Asia Pacific"],
+    tourTypes: ["Wine Tour", "Scenic Tour"],
+    maxGroupSize: 12,
+    licenseNumber: "LIC-4937-KYO",
+    phoneNumber: "+1-918-338-2442",
+    contactEmail: "leah.wang@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "01:00 PM",
+            to: "07:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "04:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
         availableHours: [
           {
             from: "09:00 AM",
@@ -196,49 +261,67 @@ export const kyotojapanjapanGuides: TourGuide[] = [
         ],
       },
       {
-        day: "Sunday",
+        day: "Monday",
         availableHours: [
           {
-            from: "01:00 PM",
-            to: "04:00 PM",
+            from: "12:00 PM",
+            to: "02:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Wednesday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "11:00 AM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Marcus is a passionate tour guide with extensive knowledge of Kyoto and Japan. Specializing in Cultural Traditions, Marcus provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.3,
-    reviewsCount: 92,
+    description: "Leah is a passionate tour guide with extensive knowledge of Kyoto and Japan. Specializing in Culinary Tours, Local Legends, Leah provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.9,
+    reviewsCount: 46,
     quote: "Every corner of Kyoto tells a story, let me share them with you.",
-    profileImage: "https://randomuser.me/api/portraits/men/31.jpg",
-    languages: ["Turkish"],
-    experienceYears: 11,
-    certifications: ["CPR & First Aid"],
-    specialties: ["Cultural Traditions"],
-    specialTraining: [],
+    profileImage: "https://randomuser.me/api/portraits/women/60.jpg",
+    languages: ["Estonian", "Serbian", "Welsh"],
+    experienceYears: 16,
+    certifications: ["Certified Heritage Guide", "Licensed City Guide"],
+    specialties: ["Culinary Tours", "Local Legends"],
+    specialTraining: ["First Aid & CPR", "Cultural Heritage Preservation"],
   },
   {
-    id: "guide-kyoto-4",
-    name: "Brooklyn Clark",
+    id: "guide-kyoto-5",
+    name: "Nora Smith",
     city: "Kyoto",
     country: "Japan",
     state: "",
     region: "Japan",
     isPopular: false,
-    bio: "Brooklyn is a passionate tour guide with extensive knowledge of Kyoto and Japan. Specializing in Cultural Festivals, Brooklyn provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Arabian Sea"],
-    tourTypes: ["Photography Tour", "Food Tour", "Audio Tour", "Scenic Tour"],
+    bio: "Nora is a passionate tour guide with extensive knowledge of Kyoto and Japan. Specializing in Cultural Festivals, Local Folklore, Art Walks, Museums, Nora provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Northeast USA", "Siberia"],
+    tourTypes: ["Museum Tour", "Private Tour", "Farm Visit", "Festival Tour", "Photography Tour"],
     maxGroupSize: 15,
-    licenseNumber: "LIC-1673-KYO",
-    phoneNumber: "+1-686-409-5112",
-    contactEmail: "brooklyn.clark@paragontrails.com",
+    licenseNumber: "LIC-5715-KYO",
+    phoneNumber: "+1-879-674-3036",
+    contactEmail: "nora.smith@paragontrails.com",
     available: [
       {
-        day: "Wednesday",
+        day: "Tuesday",
         availableHours: [
           {
-            from: "03:00 PM",
-            to: "07:00 PM",
+            from: "11:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Monday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "12:00 PM",
           }
         ],
       },
@@ -246,49 +329,26 @@ export const kyotojapanjapanGuides: TourGuide[] = [
         day: "Friday",
         availableHours: [
           {
-            from: "01:00 PM",
-            to: "04:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "08:00 AM",
-            to: "10:00 AM",
-          }
-        ],
-      },
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "11:00 AM",
-            to: "05:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "12:00 PM",
+            from: "09:00 AM",
             to: "02:00 PM",
+          },
+          {
+            from: "01:00 PM",
+            to: "06:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Brooklyn is a passionate tour guide with extensive knowledge of Kyoto and Japan. Specializing in Cultural Festivals, Brooklyn provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 4.9,
-    reviewsCount: 101,
-    quote: "My goal is to help you fall in love with Kyoto just as I have.",
+    description: "Nora is a passionate tour guide with extensive knowledge of Kyoto and Japan. Specializing in Cultural Festivals, Local Folklore, Art Walks, Museums, Nora provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 5,
+    reviewsCount: 72,
+    quote: "Kyoto isn't just a destination, it's an experience that stays with you forever.",
     profileImage: "https://randomuser.me/api/portraits/women/35.jpg",
-    languages: ["Irish", "Scottish Gaelic", "Kazakh"],
-    experienceYears: 5,
-    certifications: ["Eco-Tourism Guide", "Language Proficiency Certification"],
-    specialties: ["Cultural Festivals"],
-    specialTraining: [],
+    languages: ["Tagalog", "Czech"],
+    experienceYears: 9,
+    certifications: ["CPR & First Aid", "Sustainable Tourism Certificate"],
+    specialties: ["Cultural Festivals", "Local Folklore", "Art Walks", "Museums"],
+    specialTraining: ["Art History"],
   }
 ];

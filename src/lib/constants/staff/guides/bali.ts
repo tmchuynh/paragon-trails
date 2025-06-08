@@ -1,47 +1,39 @@
 // This file is auto-generated. Do not edit manually.
 
+// Tour guides for Bali (indonesia)
+// Region: indonesia
+
+// Generated on: 2025-06-08T04:09:38.385Z
+
 import { TourGuide } from "@/lib/interfaces/people/staff";
 
 export const baliindonesiaindonesiaGuides: TourGuide[] = [
   {
     id: "guide-bali-1",
-    name: "Thomas Foster",
+    name: "Brenda Gardner",
     city: "Bali",
     country: "Indonesia",
     state: "",
     region: "Indonesia",
     isPopular: false,
-    bio: "Thomas is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Historical Architecture, Night Tours, Thomas provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Atlantic Coast USA"],
-    tourTypes: ["Street Art Tour", "Romantic Tour", "Relocation Tour"],
-    maxGroupSize: 12,
-    licenseNumber: "LIC-7619-BAL",
-    phoneNumber: "+1-159-913-7180",
-    contactEmail: "thomas.foster@paragontrails.com",
+    bio: "Brenda is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Wine Tasting, Cultural Festivals, Brenda provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Antarctic Peninsula", "North Pacific Ocean"],
+    tourTypes: ["Family-Friendly Tour", "Group Tour", "Historical Tour"],
+    maxGroupSize: 17,
+    licenseNumber: "LIC-6100-BAL",
+    phoneNumber: "+1-155-570-5560",
+    contactEmail: "brenda.gardner@paragontrails.com",
     available: [
       {
-        day: "Tuesday",
+        day: "Wednesday",
         availableHours: [
-          {
-            from: "08:00 AM",
-            to: "11:00 AM",
-          },
           {
             from: "01:00 PM",
-            to: "04:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "04:00 PM",
+            to: "06:00 PM",
           },
           {
-            from: "11:00 AM",
-            to: "01:00 PM",
+            from: "12:00 PM",
+            to: "05:00 PM",
           }
         ],
       },
@@ -49,77 +41,63 @@ export const baliindonesiaindonesiaGuides: TourGuide[] = [
         day: "Saturday",
         availableHours: [
           {
-            from: "02:00 PM",
-            to: "08:00 PM",
+            from: "11:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "10:00 AM",
+            to: "04:00 PM",
           }
         ],
       },
       {
-        day: "Monday",
+        day: "Thursday",
         availableHours: [
           {
-            from: "01:00 PM",
-            to: "05:00 PM",
+            from: "03:00 PM",
+            to: "07:00 PM",
+          },
+          {
+            from: "09:00 AM",
+            to: "02:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Thomas is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Historical Architecture, Night Tours, Thomas provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.6,
-    reviewsCount: 34,
+    description: "Brenda is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Wine Tasting, Cultural Festivals, Brenda provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.9,
+    reviewsCount: 75,
     quote: "Bali isn't just a destination, it's an experience that stays with you forever.",
-    profileImage: "https://randomuser.me/api/portraits/men/26.jpg",
-    languages: ["Marathi"],
-    experienceYears: 12,
-    certifications: ["Certified International Tour Manager"],
-    specialties: ["Historical Architecture", "Night Tours"],
-    specialTraining: ["Cultural Heritage"],
+    profileImage: "https://randomuser.me/api/portraits/women/82.jpg",
+    languages: ["Bengali", "Hebrew", "Icelandic"],
+    experienceYears: 3,
+    certifications: ["Licensed City Guide"],
+    specialties: ["Wine Tasting", "Cultural Festivals"],
+    specialTraining: ["Art History"],
   },
   {
     id: "guide-bali-2",
-    name: "Jordan Smith",
+    name: "Emma Martin",
     city: "Bali",
     country: "Indonesia",
     state: "",
     region: "Indonesia",
     isPopular: false,
-    bio: "Jordan is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Historical Landmarks, Jordan provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["East Coast USA", "Atacama Desert"],
-    tourTypes: ["Photography Tour", "Brewery Tour"],
-    maxGroupSize: 19,
-    licenseNumber: "LIC-8925-BAL",
-    phoneNumber: "+1-627-717-9095",
-    contactEmail: "jordan.smith@paragontrails.com",
+    bio: "Emma is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Photography Spots, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Red Sea", "North Africa"],
+    tourTypes: ["Family-Friendly Tour", "Brewery Tour", "Helicopter Tour", "Eco Tour", "Photography Tour"],
+    maxGroupSize: 16,
+    licenseNumber: "LIC-4007-BAL",
+    phoneNumber: "+1-709-826-5993",
+    contactEmail: "emma.martin@paragontrails.com",
     available: [
       {
         day: "Sunday",
         availableHours: [
           {
             from: "12:00 PM",
-            to: "06:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Tuesday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "12:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Monday",
-        availableHours: [
-          {
-            from: "12:00 PM",
-            to: "03:00 PM",
-          },
-          {
-            from: "12:00 PM",
-            to: "02:00 PM",
+            to: "04:00 PM",
           }
         ],
       },
@@ -127,49 +105,7 @@ export const baliindonesiaindonesiaGuides: TourGuide[] = [
         day: "Friday",
         availableHours: [
           {
-            from: "11:00 AM",
-            to: "01:00 PM",
-          },
-          {
-            from: "08:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Jordan is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Historical Landmarks, Jordan provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.8,
-    reviewsCount: 37,
-    quote: "In Bali, we don't just see the sights - we make memories.",
-    profileImage: "https://randomuser.me/api/portraits/men/59.jpg",
-    languages: ["Igbo"],
-    experienceYears: 9,
-    certifications: ["Adventure Tourism Certification", "Urban Navigation Specialist", "Certified Eco-Tourism Guide"],
-    specialties: ["Historical Landmarks"],
-    specialTraining: ["Historical Interpretation", "Local History"],
-  },
-  {
-    id: "guide-bali-3",
-    name: "Virginia Lopez",
-    city: "Bali",
-    country: "Indonesia",
-    state: "",
-    region: "Indonesia",
-    isPopular: false,
-    bio: "Virginia is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Wildlife Watching, Virginia provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["Arabian Sea"],
-    tourTypes: ["Group Tour", "Romantic Tour"],
-    maxGroupSize: 8,
-    licenseNumber: "LIC-3980-BAL",
-    phoneNumber: "+1-240-938-1531",
-    contactEmail: "virginia.lopez@paragontrails.com",
-    available: [
-      {
-        day: "Saturday",
-        availableHours: [
-          {
-            from: "12:00 PM",
+            from: "02:00 PM",
             to: "06:00 PM",
           }
         ],
@@ -178,123 +114,54 @@ export const baliindonesiaindonesiaGuides: TourGuide[] = [
         day: "Tuesday",
         availableHours: [
           {
-            from: "02:00 PM",
-            to: "05:00 PM",
-          },
-          {
-            from: "09:00 AM",
-            to: "03:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "03:00 PM",
-            to: "05:00 PM",
-          },
-          {
-            from: "09:00 AM",
+            from: "11:00 AM",
             to: "01:00 PM",
+          },
+          {
+            from: "08:00 AM",
+            to: "10:00 AM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Virginia is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Wildlife Watching, Virginia provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.6,
-    reviewsCount: 63,
-    quote: "My goal is to help you fall in love with Bali just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/34.jpg",
-    languages: ["Maltese"],
-    experienceYears: 12,
-    certifications: ["Regional Tourism Ambassador", "Certified Heritage Guide", "Adventure Tourism Safety Certificate"],
-    specialties: ["Wildlife Watching"],
-    specialTraining: [],
-  },
-  {
-    id: "guide-bali-4",
-    name: "Leah Day",
-    city: "Bali",
-    country: "Indonesia",
-    state: "",
-    region: "Indonesia",
-    isPopular: false,
-    bio: "Leah is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Local Dance, Wildlife Watching, Leah provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["North Africa"],
-    tourTypes: ["Wildlife Safari", "Street Art Tour", "Cooking Class", "Relocation Tour", "Cultural Tour"],
-    maxGroupSize: 18,
-    licenseNumber: "LIC-8511-BAL",
-    phoneNumber: "+1-990-501-7910",
-    contactEmail: "leah.day@paragontrails.com",
-    available: [
-      {
-        day: "Wednesday",
-        availableHours: [
-          {
-            from: "01:00 PM",
-            to: "07:00 PM",
-          },
-          {
-            from: "10:00 AM",
-            to: "03:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Sunday",
-        availableHours: [
-          {
-            from: "10:00 AM",
-            to: "01:00 PM",
-          }
-        ],
-      },
-      {
-        day: "Thursday",
-        availableHours: [
-          {
-            from: "09:00 AM",
-            to: "02:00 PM",
-          }
-        ],
-      }
-    ],
-    isCertified: true,
-    description: "Leah is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Local Dance, Wildlife Watching, Leah provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.8,
-    reviewsCount: 62,
-    quote: "The best way to discover Bali is with someone who lives and breathes its culture.",
-    profileImage: "https://randomuser.me/api/portraits/women/43.jpg",
-    languages: ["Bosnian"],
+    description: "Emma is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Photography Spots, Emma provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 3.5,
+    reviewsCount: 90,
+    quote: "Bali isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/women/67.jpg",
+    languages: ["Sinhala"],
     experienceYears: 13,
-    certifications: ["Heritage Interpretation Certificate"],
-    specialties: ["Local Dance", "Wildlife Watching"],
-    specialTraining: [],
+    certifications: ["Certified Eco-Tourism Guide", "Local History Certification"],
+    specialties: ["Photography Spots"],
+    specialTraining: ["Culinary Skills", "Desert Navigation"],
   },
   {
-    id: "guide-bali-5",
-    name: "Priya Brooks",
+    id: "guide-bali-3",
+    name: "Louis Suzuki",
     city: "Bali",
     country: "Indonesia",
     state: "",
     region: "Indonesia",
     isPopular: false,
-    bio: "Priya is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Photography Spots, Wildlife Watching, Local Cuisine, Nightlife, Priya provides authentic and engaging experiences for visitors of all backgrounds.",
-    regionsCovered: ["North Africa"],
-    tourTypes: ["Ghost Tour", "Craft Workshop", "Underground Tour", "Self-Guided Tour"],
-    maxGroupSize: 10,
-    licenseNumber: "LIC-1998-BAL",
-    phoneNumber: "+1-429-459-6043",
-    contactEmail: "priya.brooks@paragontrails.com",
+    bio: "Louis is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Cultural Traditions, Local Folklore, Cultural Heritage, Louis provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["Middle East & North Africa"],
+    tourTypes: ["Private Tour", "Food Tour"],
+    maxGroupSize: 19,
+    licenseNumber: "LIC-8179-BAL",
+    phoneNumber: "+1-871-539-6431",
+    contactEmail: "louis.suzuki@paragontrails.com",
     available: [
       {
-        day: "Saturday",
+        day: "Monday",
         availableHours: [
           {
-            from: "09:00 AM",
-            to: "12:00 PM",
+            from: "11:00 AM",
+            to: "01:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "02:00 PM",
           }
         ],
       },
@@ -303,11 +170,85 @@ export const baliindonesiaindonesiaGuides: TourGuide[] = [
         availableHours: [
           {
             from: "08:00 AM",
-            to: "02:00 PM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "03:00 PM",
           },
           {
-            from: "03:00 PM",
+            from: "08:00 AM",
+            to: "10:00 AM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Louis is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Cultural Traditions, Local Folklore, Cultural Heritage, Louis provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4,
+    reviewsCount: 51,
+    quote: "My goal is to help you fall in love with Bali just as I have.",
+    profileImage: "https://randomuser.me/api/portraits/men/72.jpg",
+    languages: ["Khmer", "Latvian", "Norwegian"],
+    experienceYears: 2,
+    certifications: ["Certified International Tour Manager"],
+    specialties: ["Cultural Traditions", "Local Folklore", "Cultural Heritage"],
+    specialTraining: ["Regional Cuisine", "Art History"],
+  },
+  {
+    id: "guide-bali-4",
+    name: "Scott Nakamura",
+    city: "Bali",
+    country: "Indonesia",
+    state: "",
+    region: "Indonesia",
+    isPopular: false,
+    bio: "Scott is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Architecture, Photography, Scott provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["North Pacific Ocean"],
+    tourTypes: ["Relocation Tour", "Helicopter Tour", "Ghost Tour", "Self-Guided Tour"],
+    maxGroupSize: 17,
+    licenseNumber: "LIC-9446-BAL",
+    phoneNumber: "+1-613-565-6519",
+    contactEmail: "scott.nakamura@paragontrails.com",
+    available: [
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "01:00 PM",
             to: "07:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Saturday",
+        availableHours: [
+          {
+            from: "03:00 PM",
+            to: "06:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "12:00 PM",
+            to: "03:00 PM",
           }
         ],
       },
@@ -315,26 +256,95 @@ export const baliindonesiaindonesiaGuides: TourGuide[] = [
         day: "Wednesday",
         availableHours: [
           {
-            from: "08:00 AM",
-            to: "12:00 PM",
+            from: "03:00 PM",
+            to: "09:00 PM",
           },
           {
-            from: "02:00 PM",
-            to: "05:00 PM",
+            from: "10:00 AM",
+            to: "01:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Sunday",
+        availableHours: [
+          {
+            from: "09:00 AM",
+            to: "01:00 PM",
           }
         ],
       }
     ],
     isCertified: true,
-    description: "Priya is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Photography Spots, Wildlife Watching, Local Cuisine, Nightlife, Priya provides authentic and engaging experiences for visitors of all backgrounds.",
-    rating: 3.7,
-    reviewsCount: 101,
-    quote: "My goal is to help you fall in love with Bali just as I have.",
-    profileImage: "https://randomuser.me/api/portraits/women/37.jpg",
-    languages: ["Slovak"],
-    experienceYears: 3,
-    certifications: ["Sustainable Tourism Certificate", "Licensed City Guide", "Certified Tour Guide"],
-    specialties: ["Photography Spots", "Wildlife Watching", "Local Cuisine", "Nightlife"],
-    specialTraining: ["Conflict Resolution", "Desert Navigation"],
+    description: "Scott is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Architecture, Photography, Scott provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4,
+    reviewsCount: 99,
+    quote: "Bali isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/66.jpg",
+    languages: ["Tamil", "Korean"],
+    experienceYears: 6,
+    certifications: ["Adventure Tourism Certification", "Certified Tour Guide"],
+    specialties: ["Architecture", "Photography"],
+    specialTraining: [],
+  },
+  {
+    id: "guide-bali-5",
+    name: "Carl Keller",
+    city: "Bali",
+    country: "Indonesia",
+    state: "",
+    region: "Indonesia",
+    isPopular: false,
+    bio: "Carl is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Local Literature, Local Folklore, Carl provides authentic and engaging experiences for visitors of all backgrounds.",
+    regionsCovered: ["East Coast USA"],
+    tourTypes: ["Scenic Tour", "Accessible Tour"],
+    maxGroupSize: 12,
+    licenseNumber: "LIC-3731-BAL",
+    phoneNumber: "+1-545-889-5910",
+    contactEmail: "carl.keller@paragontrails.com",
+    available: [
+      {
+        day: "Tuesday",
+        availableHours: [
+          {
+            from: "11:00 AM",
+            to: "04:00 PM",
+          },
+          {
+            from: "12:00 PM",
+            to: "05:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Friday",
+        availableHours: [
+          {
+            from: "08:00 AM",
+            to: "12:00 PM",
+          }
+        ],
+      },
+      {
+        day: "Thursday",
+        availableHours: [
+          {
+            from: "02:00 PM",
+            to: "07:00 PM",
+          }
+        ],
+      }
+    ],
+    isCertified: true,
+    description: "Carl is a passionate tour guide with extensive knowledge of Bali and Indonesia. Specializing in Local Literature, Local Folklore, Carl provides authentic and engaging experiences for visitors of all backgrounds.",
+    rating: 4.1,
+    reviewsCount: 5,
+    quote: "Bali isn't just a destination, it's an experience that stays with you forever.",
+    profileImage: "https://randomuser.me/api/portraits/men/14.jpg",
+    languages: ["Galician"],
+    experienceYears: 4,
+    certifications: ["Adventure Tourism Safety Certificate", "Cultural Heritage Specialist", "Certified Local Guide"],
+    specialties: ["Local Literature", "Local Folklore"],
+    specialTraining: ["Tour Planning", "Wildlife Conservation"],
   }
 ];
