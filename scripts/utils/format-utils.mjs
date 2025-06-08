@@ -11,7 +11,11 @@ export function formatTitleToCamelCase(title) {
 }
 
 export function removeSpecialCharacters(str) {
-  return str.replace(/[^a-zA-Z0-9\s]/g, "");
+  return str.replace(/[^a-zA-Z0-9\- ]/g, "");
+}
+
+export function normalizeString(str) {
+  return removeAccents(removeSpecialCharacters(str));
 }
 
 export function formatTitleCaseToKebabCase(title) {
