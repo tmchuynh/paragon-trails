@@ -40,6 +40,7 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-scripts
-src/lib/constants
-src/data
+scripts/
+src/lib/constants/
+src/data/
+scripts/utils/
