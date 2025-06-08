@@ -41,7 +41,7 @@ import {
   cityToRegionMap,
   countryCurrencyMap,
   euroCountries,
-  regionCurrencyMap,
+  regionCurrencyMapping,
 } from "./utils/geo-utils.mjs";
 import {
   hotelNames,
@@ -201,8 +201,10 @@ function getCurrencyForCity(city) {
   }
 
   // Check if region has default currency
-  if (regionName && regionCurrencyMap[regionName]) {
-    return regionCurrencyMap[regionName];
+  if (regionName && regionCurrencyMapping[regionName]) {
+    return regionCurrencyMapping[
+      regionName[Math.floor(Math.random() * regionName.length)]
+    ];
   }
 
   // Default to USD
