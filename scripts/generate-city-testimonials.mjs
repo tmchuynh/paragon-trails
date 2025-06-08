@@ -1017,6 +1017,7 @@ async function createCityTestimonialFile(city) {
   // Create file content
   let content = `// This file is auto-generated. Do not edit manually.\n\n`;
   content += `// Testimonials for ${cityDisplayName}\n`;
+  content += `// Generated on ${new Date().toISOString()}\n\n`;
   content += `import { Testimonial } from "@/lib/interfaces/services/testimonials";\n\n`;
   content += `export const ${fileName}Testimonials: Testimonial[] = [\n`;
 
