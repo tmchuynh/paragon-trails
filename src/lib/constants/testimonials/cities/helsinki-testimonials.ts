@@ -6,65 +6,83 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const helsinkiTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-helsinki-1",
-    quote: "Every weekend in Helsinki brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
-    author: "Anthony Suzuki",
-    title: "The Real Helsinki Experience",
+    quote: "What I tell friends considering moving to Helsinki is to appreciate the craft workshops—it's what makes daily life here so rich.",
+    author: "Mia Lee",
+    title: "Helsinki Living: Worth Every Moment",
     city: "Helsinki",
-    rating: 4.5,
-    date: "2023-02-13"
+    rating: 4,
+    date: "2025-02-12"
   },
   {
     id: "city-testimonial-helsinki-2",
-    quote: "The balance of intellectual life and physical activity in Helsinki creates a quality of life that's hard to find elsewhere.",
-    author: "Sophia Kowalski",
-    title: "How Helsinki Balances Tradition and Innovation",
+    quote: "The balance of family life and nightlife in Helsinki creates a quality of life that's hard to find elsewhere.",
+    author: "Hassan Wood",
+    title: "My Helsinki Story: Life as a Resident",
     city: "Helsinki",
-    rating: 4.2,
-    date: "2025-03-17"
+    rating: 4.3,
+    date: "2024-06-06"
   },
   {
     id: "city-testimonial-helsinki-3",
-    quote: "As a decade-long resident of Helsinki, I can't imagine living anywhere else. The farmers markets here is something you can't find elsewhere.",
-    author: "Laura Brown",
-    title: "The Community Spirit That Defines Helsinki",
+    quote: "I came to Helsinki for work but stayed for the arts community. Best decision I ever made.",
+    author: "Rebecca Keller",
+    title: "The Joys of Slow Living in Helsinki",
     city: "Helsinki",
-    rating: 4.3,
-    date: "2023-08-28"
+    rating: 4.7,
+    date: "2025-11-12"
   },
   {
     id: "city-testimonial-helsinki-4",
-    quote: "The food scene in Helsinki is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
-    author: "Caroline Keller",
-    title: "Life in Helsinki: A Local Perspective",
+    quote: "I've found that Helsinki's {TRANSPORT_FEATURE} really makes getting around effortless and enjoyable.",
+    author: "Richard Wells",
+    title: "Living Sustainably in Helsinki",
     city: "Helsinki",
-    rating: 4.8,
-    date: "2023-10-09"
+    rating: 5,
+    date: "2025-06-06"
   },
   {
     id: "city-testimonial-helsinki-5",
-    quote: "From my apartment in Helsinki, I can participate in local governance. Where else could you do that?",
-    author: "Ali Ali",
-    title: "The Soul of Helsinki: A Local's View",
+    quote: "The cost of living in Helsinki is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
+    author: "Olivia Dixon",
+    title: "How Helsinki Changed My Life",
     city: "Helsinki",
-    rating: 4.5,
-    date: "2024-09-28"
+    rating: 4.1,
+    date: "2024-10-20"
   },
   {
     id: "city-testimonial-helsinki-6",
-    quote: "One of the best things about living in Helsinki is the {ACCESSIBILITY_FEATURE}—it makes everything so convenient.",
-    author: "Mei Payne",
-    title: "The Joys of Slow Living in Helsinki",
+    quote: "From my apartment in Helsinki, I can hike mountain trails on weekends. Where else could you do that?",
+    author: "Larry Douglas",
+    title: "Life in Helsinki: A Local Perspective",
     city: "Helsinki",
-    rating: 4.6,
-    date: "2023-04-27"
+    rating: 4.3,
+    date: "2023-04-08"
   },
   {
     id: "city-testimonial-helsinki-7",
-    quote: "Helsinki isn't just where I live—it's part of my identity now. The music scene has shaped who I am.",
-    author: "Joan Anderson",
-    title: "The Challenges and Charms of Living in Helsinki",
+    quote: "Living in Helsinki has allowed me to connect deeply with {NATURE_FEATURE} nearby.",
+    author: "Abigail Jackson",
+    title: "Helsinki: A City That Grows With You",
     city: "Helsinki",
-    rating: 4,
-    date: "2024-02-21"
+    rating: 4.6,
+    date: "2024-10-01"
+  },
+  {
+    id: "city-testimonial-helsinki-8",
+    quote: "Despite its size, Helsinki manages to feel {SMALL_TOWN_QUALITY}, which is rare and wonderful.",
+    author: "Adeline Garcia",
+    title: "How Helsinki Balances Tradition and Innovation",
+    city: "Helsinki",
+    rating: 4.2,
+    date: "2025-09-22"
+  },
+  {
+    id: "city-testimonial-helsinki-9",
+    quote: "Living in Helsinki means experiencing artistic expression on a daily basis, which is why I could never leave.",
+    author: "Sofia Sutton",
+    title: "The Beauty of Everyday Life in Helsinki",
+    city: "Helsinki",
+    rating: 4.2,
+    date: "2025-02-20"
   }
 ];

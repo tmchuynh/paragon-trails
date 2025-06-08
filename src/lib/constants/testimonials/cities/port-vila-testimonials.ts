@@ -6,56 +6,74 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const portvilaTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-port-vila-1",
-    quote: "No two days are the same living in Port Vila. The {DYNAMIC_ASPECT} keeps me excited to wake up every morning.",
-    author: "Richard Griffin",
-    title: "The Unexpected Joys of Port Vila Living",
+    quote: "I love how Port Vila celebrates {FESTIVAL_OR_EVENT}, it brings so much joy and community spirit.",
+    author: "Alexander Hawkins",
+    title: "How Port Vila Balances Tradition and Innovation",
     city: "Port Vila",
-    rating: 4.9,
-    date: "2023-06-01"
+    rating: 4.2,
+    date: "2023-05-17"
   },
   {
     id: "city-testimonial-port-vila-2",
-    quote: "The food scene in Port Vila is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
-    author: "Brandon Hudson",
-    title: "What Makes Port Vila Feel Like Family",
+    quote: "After moving to Port Vila 6 years ago, I fell in love with the vibrant nightlife of this place. It's truly special.",
+    author: "Christopher Singh",
+    title: "Port Vila: More Than Just a Place",
     city: "Port Vila",
-    rating: 4.8,
-    date: "2024-03-21"
+    rating: 4.6,
+    date: "2023-10-06"
   },
   {
     id: "city-testimonial-port-vila-3",
-    quote: "One of the best things about living in Port Vila is the {ACCESSIBILITY_FEATURE}—it makes everything so convenient.",
-    author: "Rachel Murray",
+    quote: "I love how Port Vila celebrates {FESTIVAL_OR_EVENT}, it brings so much joy and community spirit.",
+    author: "Zoe Cooper",
     title: "Why I’m Proud to Call Port Vila Home",
     city: "Port Vila",
-    rating: 4.7,
-    date: "2025-04-04"
+    rating: 4.1,
+    date: "2025-01-22"
   },
   {
     id: "city-testimonial-port-vila-4",
-    quote: "The nightlife in Port Vila is vibrant and full of {ENTERTAINMENT_FEATURE} for everyone.",
-    author: "Abigail Foster",
-    title: "Why Port Vila Is a Place to Grow",
+    quote: "The {FESTIVAL_OR_EVENT} season in Port Vila brings so much excitement and pride to the community.",
+    author: "Brooklyn Wright",
+    title: "Discovering Home in Port Vila",
     city: "Port Vila",
-    rating: 4.4,
-    date: "2024-08-22"
+    rating: 4.9,
+    date: "2024-02-19"
   },
   {
     id: "city-testimonial-port-vila-5",
-    quote: "The nightlife in Port Vila is vibrant and full of {ENTERTAINMENT_FEATURE} for everyone.",
-    author: "Naomi Chambers",
-    title: "What Makes Port Vila Special to Live In",
+    quote: "The {GREEN_SPACES} in Port Vila offer a perfect escape from the urban buzz without leaving the city limits.",
+    author: "Mia Singh",
+    title: "Discovering Home in Port Vila",
     city: "Port Vila",
-    rating: 4.2,
-    date: "2023-06-06"
+    rating: 4.6,
+    date: "2025-02-23"
   },
   {
     id: "city-testimonial-port-vila-6",
-    quote: "The historical significance of Port Vila adds a depth to daily life that I truly cherish.",
-    author: "Brooklyn Wright",
-    title: "Why Port Vila Feels Like Home",
+    quote: "What I love most about living in Port Vila is the open-air cinemas. It creates such a unique atmosphere that feels like home.",
+    author: "Youssef Taylor",
+    title: "A Love Letter to Port Vila",
     city: "Port Vila",
-    rating: 4.2,
-    date: "2024-03-07"
+    rating: 4.3,
+    date: "2024-05-23"
+  },
+  {
+    id: "city-testimonial-port-vila-7",
+    quote: "If you want a city that offers {LIFESTYLE_BENEFIT}, Port Vila is the place to be.",
+    author: "Barbara Johnson",
+    title: "The Everyday Magic of Port Vila",
+    city: "Port Vila",
+    rating: 4.3,
+    date: "2025-04-11"
+  },
+  {
+    id: "city-testimonial-port-vila-8",
+    quote: "The balance of creative hubs and traditional craftsmanship in Port Vila creates a quality of life that's hard to find elsewhere.",
+    author: "Nicole Harris",
+    title: "Why Port Vila Keeps Getting Better",
+    city: "Port Vila",
+    rating: 4.3,
+    date: "2024-08-18"
   }
 ];

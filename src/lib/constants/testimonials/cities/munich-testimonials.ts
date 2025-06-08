@@ -6,74 +6,92 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const munichTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-munich-1",
-    quote: "The scenic hiking trails in Munich makes everyday life feel like an adventure. I've been here 12 years and still discover new things.",
-    author: "Chen Morgan",
-    title: "Living and Thriving in Munich",
+    quote: "Living in Munich means being surrounded by festival grounds, which feeds my soul every day.",
+    author: "Chen Keller",
+    title: "Munich: A City That Grows With You",
     city: "Munich",
-    rating: 4.6,
-    date: "2024-12-14"
+    rating: 4.9,
+    date: "2023-11-24"
   },
   {
     id: "city-testimonial-munich-2",
-    quote: "I've found that Munich's {TRANSPORT_FEATURE} really makes getting around effortless and enjoyable.",
-    author: "Boris Young",
-    title: "Munich's Hidden Treasures for Locals",
+    quote: "Living in Munich has been one of the best decisions of my life. The seasonal festivals here makes everyday life so enjoyable.",
+    author: "Omar Ali",
+    title: "What Makes Munich Special to Live In",
     city: "Munich",
-    rating: 4.7,
-    date: "2023-08-07"
+    rating: 4.5,
+    date: "2025-11-22"
   },
   {
     id: "city-testimonial-munich-3",
-    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Munich make daily life convenient and stress-free.",
-    author: "Brenda Jennings",
-    title: "Why I’m Proud to Call Munich Home",
-    city: "Munich",
-    rating: 4.9,
-    date: "2025-11-24"
-  },
-  {
-    id: "city-testimonial-munich-4",
-    quote: "After 2 years as a Munich local, I still appreciate the sunset views that makes this place special.",
-    author: "Stephen Young",
-    title: "Discovering Home in Munich",
-    city: "Munich",
-    rating: 4.8,
-    date: "2025-12-17"
-  },
-  {
-    id: "city-testimonial-munich-5",
-    quote: "Living in Munich means being surrounded by cultural institutions, which feeds my soul every day.",
-    author: "Patrick Maxwell",
-    title: "Why I Chose Munich as Home",
-    city: "Munich",
-    rating: 4.5,
-    date: "2024-09-02"
-  },
-  {
-    id: "city-testimonial-munich-6",
-    quote: "The food scene in Munich is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
-    author: "Joel Gonzalez",
-    title: "The Unexpected Joys of Munich Living",
+    quote: "Living in Munich has opened my eyes to {PERSONAL_GROWTH_ASPECT} that I never expected.",
+    author: "Michelle Morgan",
+    title: "What Makes Munich Feel Like Family",
     city: "Munich",
     rating: 4.7,
     date: "2023-10-24"
   },
   {
-    id: "city-testimonial-munich-7",
-    quote: "The {TRANQUILITY_FEATURE} in Munich offers a peaceful retreat from the busy world.",
-    author: "Gregory Parker",
-    title: "The Everyday Magic of Munich",
+    id: "city-testimonial-munich-4",
+    quote: "Living in Munich has opened my eyes to {PERSONAL_GROWTH_ASPECT} that I never expected.",
+    author: "Santiago Wallace",
+    title: "Living and Thriving in Munich",
+    city: "Munich",
+    rating: 4.8,
+    date: "2023-04-17"
+  },
+  {
+    id: "city-testimonial-munich-5",
+    quote: "The working-class neighborhoods in Munich each have their own character, which keeps life interesting year after year.",
+    author: "Juan Garcia",
+    title: "Munich: Where I Found My Community",
     city: "Munich",
     rating: 4.3,
-    date: "2023-06-23"
+    date: "2024-02-19"
+  },
+  {
+    id: "city-testimonial-munich-6",
+    quote: "The {GREEN_SPACES} in Munich offer a perfect escape from the urban buzz without leaving the city limits.",
+    author: "Pamela Watson",
+    title: "How Munich Balances Tradition and Innovation",
+    city: "Munich",
+    rating: 4.4,
+    date: "2024-07-04"
+  },
+  {
+    id: "city-testimonial-munich-7",
+    quote: "Community events and festivals in Munich bring everyone together, making the {COMMUNITY_ASPECT} really stand out.",
+    author: "Fatima Dixon",
+    title: "Munich Through a Resident's Eyes",
+    city: "Munich",
+    rating: 4.9,
+    date: "2023-11-27"
   },
   {
     id: "city-testimonial-munich-8",
-    quote: "No two days are the same living in Munich. The {DYNAMIC_ASPECT} keeps me excited to wake up every morning.",
-    author: "Elijah Lee",
-    title: "My Corner of Munich",
+    quote: "The {GREEN_SPACES} in Munich offer a perfect escape from the urban buzz without leaving the city limits.",
+    author: "Pamela Wood",
+    title: "The Vibrant Life of Munich Residents",
     city: "Munich",
-    rating: 4.1,
-    date: "2025-10-27"
+    rating: 4.5,
+    date: "2023-06-01"
+  },
+  {
+    id: "city-testimonial-munich-9",
+    quote: "Munich's cultural heritage scene has become central to my life here. I couldn't imagine living without it now.",
+    author: "Lily Sutton",
+    title: "A Resident's Guide to Living Well in Munich",
+    city: "Munich",
+    rating: 4.5,
+    date: "2025-03-06"
+  },
+  {
+    id: "city-testimonial-munich-10",
+    quote: "The commercial neighborhoods in Munich each have their own character, which keeps life interesting year after year.",
+    author: "Darrell da Costa",
+    title: "Munich: Where I Found My Community",
+    city: "Munich",
+    rating: 4.6,
+    date: "2025-01-07"
   }
 ];

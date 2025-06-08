@@ -6,74 +6,74 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const materaTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-matera-1",
-    quote: "If you want a city that offers {LIFESTYLE_BENEFIT}, Matera is the place to be.",
-    author: "Lily Carter",
-    title: "From Newcomer to Local in Matera",
+    quote: "Matera's nightlife scene has become central to my life here. I couldn't imagine living without it now.",
+    author: "Bella Campbell",
+    title: "Matera: Beyond the Tourist Experience",
     city: "Matera",
-    rating: 5,
-    date: "2024-06-12"
+    rating: 4.5,
+    date: "2024-02-18"
   },
   {
     id: "city-testimonial-matera-2",
-    quote: "Living here means being a part of Matera's ongoing story of innovation and tradition.",
-    author: "Harry Dubois",
-    title: "Discovering Home in Matera",
+    quote: "What I love most about living in Matera is the network of parks. It creates such a unique atmosphere that feels like home.",
+    author: "Johnny Murray",
+    title: "Matera: Beyond the Tourist Experience",
     city: "Matera",
-    rating: 4.3,
-    date: "2024-05-10"
+    rating: 4.1,
+    date: "2023-09-24"
   },
   {
     id: "city-testimonial-matera-3",
-    quote: "The historical significance of Matera adds a depth to daily life that I truly cherish.",
-    author: "Liam Morgan",
-    title: "The Neighborhoods That Make Matera Home",
+    quote: "Matera's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
+    author: "John Jackson",
+    title: "Stories From the Streets of Matera",
     city: "Matera",
-    rating: 4.8,
-    date: "2023-06-22"
+    rating: 5,
+    date: "2025-07-14"
   },
   {
     id: "city-testimonial-matera-4",
-    quote: "Living in Matera has opened my eyes to {PERSONAL_GROWTH_ASPECT} that I never expected.",
-    author: "Scarlett Harris",
+    quote: "I appreciate how Matera balances {TECH_INNOVATION} with historic charm perfectly.",
+    author: "Pamela Morales",
     title: "What Makes Matera Special to Live In",
     city: "Matera",
-    rating: 4.7,
-    date: "2024-01-13"
+    rating: 4.3,
+    date: "2025-03-04"
   },
   {
     id: "city-testimonial-matera-5",
-    quote: "The {FESTIVAL_OR_EVENT} season in Matera brings so much excitement and pride to the community.",
-    author: "Pamela Spencer",
-    title: "Matera's Hidden Treasures for Locals",
+    quote: "Living in Matera means experiencing wellness and relaxation on a daily basis, which is why I could never leave.",
+    author: "Khalid Johnson",
+    title: "What Makes Matera Feel Like Family",
     city: "Matera",
-    rating: 4.9,
-    date: "2023-10-28"
+    rating: 4.1,
+    date: "2024-06-11"
   },
   {
     id: "city-testimonial-matera-6",
-    quote: "As a newly converted resident of Matera, I can't imagine living anywhere else. The boutique shopping here is something you can't find elsewhere.",
-    author: "Alexander Smith",
-    title: "The Real Matera Experience",
+    quote: "I've found that Matera's {TRANSPORT_FEATURE} really makes getting around effortless and enjoyable.",
+    author: "Walter Coleman",
+    title: "Why I Chose Matera as Home",
     city: "Matera",
-    rating: 4.9,
-    date: "2024-07-25"
+    rating: 4.4,
+    date: "2024-07-07"
   },
   {
     id: "city-testimonial-matera-7",
-    quote: "The {GREEN_SPACES} in Matera offer a perfect escape from the urban buzz without leaving the city limits.",
-    author: "Sophia Morales",
-    title: "A Love Letter to Matera",
+    quote: "What I love most about living in Matera is the historic churches. It creates such a unique atmosphere that feels like home.",
+    author: "Mia Ali",
+    title: "Why I Chose Matera as Home",
     city: "Matera",
-    rating: 5,
-    date: "2023-11-22"
+    rating: 4.8,
+    date: "2024-02-19"
   },
   {
     id: "city-testimonial-matera-8",
-    quote: "Matera has been my home for seasoned, and the heritage societies here is what keeps me rooted.",
-    author: "Olivia Martin",
-    title: "Life in Matera: A Local Perspective",
+    quote: "The art and creativity flowing through Matera is inspiring. It feels like living inside a masterpiece.",
+    author: "Jack Spencer",
+    title: "From Newcomer to Local in Matera",
     city: "Matera",
-    rating: 4.5,
-    date: "2025-04-18"
+    rating: 4.3,
+    date: "2023-11-16"
   }
 ];

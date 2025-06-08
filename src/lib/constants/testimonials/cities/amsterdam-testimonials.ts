@@ -6,56 +6,74 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const amsterdamTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-amsterdam-1",
-    quote: "The people of Amsterdam are incredibly welcoming and have made me feel at home since day one.",
-    author: "Joan Jackson",
-    title: "Amsterdam: A City That Grows With You",
+    quote: "I've found that Amsterdam's {TRANSPORT_FEATURE} really makes getting around effortless and enjoyable.",
+    author: "Kenneth Crawford",
+    title: "The Perfect Imperfections of Amsterdam",
     city: "Amsterdam",
-    rating: 4.4,
-    date: "2023-09-27"
+    rating: 4.7,
+    date: "2024-08-28"
   },
   {
     id: "city-testimonial-amsterdam-2",
-    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Amsterdam make daily life convenient and stress-free.",
-    author: "Michelle Spencer",
-    title: "Why I Chose Amsterdam as Home",
+    quote: "Living in Amsterdam means experiencing eco-tourism experiences on a daily basis, which is why I could never leave.",
+    author: "Elizabeth Sutton",
+    title: "The Perfect Imperfections of Amsterdam",
     city: "Amsterdam",
-    rating: 4.1,
-    date: "2024-12-25"
+    rating: 4,
+    date: "2025-11-15"
   },
   {
     id: "city-testimonial-amsterdam-3",
-    quote: "One of my favorite parts about living in Amsterdam is the {MARKET_OR_SHOPPING_FEATURE} just around the corner.",
-    author: "Boris Wright",
-    title: "Life in Amsterdam: A Local Perspective",
+    quote: "Every weekend in Amsterdam brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
+    author: "Jack Patel",
+    title: "How Amsterdam Balances Tradition and Innovation",
     city: "Amsterdam",
-    rating: 4.3,
-    date: "2024-01-06"
+    rating: 4.1,
+    date: "2023-08-13"
   },
   {
     id: "city-testimonial-amsterdam-4",
-    quote: "The people of Amsterdam are incredibly welcoming and have made me feel at home since day one.",
-    author: "Kenneth Brown",
-    title: "Life in Amsterdam: A Local Perspective",
+    quote: "Raising my family in Amsterdam gives us access to art education, which is truly invaluable.",
+    author: "Ravi Price",
+    title: "A Resident's Guide to Living Well in Amsterdam",
     city: "Amsterdam",
-    rating: 4.9,
-    date: "2024-07-18"
+    rating: 4.8,
+    date: "2025-04-15"
   },
   {
     id: "city-testimonial-amsterdam-5",
-    quote: "After 2 years as a Amsterdam local, I still appreciate the neighborhood markets that makes this place special.",
-    author: "Emma Mitchell",
-    title: "My Corner of Amsterdam",
+    quote: "Every weekend in Amsterdam brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
+    author: "Jane Dubois",
+    title: "Why Amsterdam Is a Place to Grow",
     city: "Amsterdam",
-    rating: 4.1,
-    date: "2024-02-02"
+    rating: 4.9,
+    date: "2023-01-04"
   },
   {
     id: "city-testimonial-amsterdam-6",
-    quote: "One thing I didn’t expect when moving to Amsterdam was the {WEATHER_FEATURE}—it’s truly refreshing.",
-    author: "Ahmed Stewart",
-    title: "The Soul of Amsterdam: A Local's View",
+    quote: "Every weekend in Amsterdam brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
+    author: "Alice Wang",
+    title: "Amsterdam: More Than Just a Place",
+    city: "Amsterdam",
+    rating: 4.8,
+    date: "2024-05-15"
+  },
+  {
+    id: "city-testimonial-amsterdam-7",
+    quote: "Despite its size, Amsterdam manages to feel {SMALL_TOWN_QUALITY}, which is rare and wonderful.",
+    author: "Blake Ellis",
+    title: "The Vibrant Life of Amsterdam Residents",
+    city: "Amsterdam",
+    rating: 4.5,
+    date: "2024-08-10"
+  },
+  {
+    id: "city-testimonial-amsterdam-8",
+    quote: "Community events and festivals in Amsterdam bring everyone together, making the {COMMUNITY_ASPECT} really stand out.",
+    author: "Raymond Watson",
+    title: "Amsterdam: Beyond the Tourist Experience",
     city: "Amsterdam",
     rating: 4.1,
-    date: "2023-03-07"
+    date: "2023-07-20"
   }
 ];

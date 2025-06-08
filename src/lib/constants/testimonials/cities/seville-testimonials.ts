@@ -6,74 +6,83 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const sevilleTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-seville-1",
-    quote: "After moving to Seville 9 years ago, I fell in love with the culinary diversity of this place. It's truly special.",
-    author: "Daniel Montgomery",
-    title: "The Unexpected Joys of Seville Living",
+    quote: "The sense of {SAFETY} in Seville makes me feel comfortable raising my kids here.",
+    author: "Isabella Jones",
+    title: "The Soul of Seville: A Local's View",
     city: "Seville",
-    rating: 4.2,
-    date: "2025-02-08"
+    rating: 4.7,
+    date: "2024-08-07"
   },
   {
     id: "city-testimonial-seville-2",
-    quote: "What really surprised me about Seville is its {DIVERSITY_FEATURE} — it’s a true melting pot.",
-    author: "Jacob Henderson",
-    title: "The Unexpected Joys of Seville Living",
+    quote: "I've found that Seville's {TRANSPORT_FEATURE} really makes getting around effortless and enjoyable.",
+    author: "Christopher Khan",
+    title: "The Neighborhoods That Make Seville Home",
     city: "Seville",
-    rating: 4.1,
-    date: "2023-06-12"
+    rating: 4.5,
+    date: "2024-10-17"
   },
   {
     id: "city-testimonial-seville-3",
-    quote: "The artistic neighborhoods in Seville each have their own character, which keeps life interesting year after year.",
-    author: "Amina Davis",
-    title: "Seville Through a Resident's Eyes",
+    quote: "One of my favorite parts about living in Seville is the {MARKET_OR_SHOPPING_FEATURE} just around the corner.",
+    author: "Elijah Campbell",
+    title: "The Challenges and Charms of Living in Seville",
     city: "Seville",
-    rating: 4.7,
-    date: "2024-09-01"
+    rating: 4.5,
+    date: "2025-03-25"
   },
   {
     id: "city-testimonial-seville-4",
-    quote: "The community-oriented neighborhoods in Seville each have their own character, which keeps life interesting year after year.",
-    author: "Daniel Mason",
-    title: "The Soul of Seville: A Local's View",
+    quote: "Seville has been my home for adopted, and the community gardeners here is what keeps me rooted.",
+    author: "Wei Gonzalez",
+    title: "What Makes Seville Uniquely Livable",
     city: "Seville",
-    rating: 4.2,
-    date: "2023-09-06"
+    rating: 4.7,
+    date: "2025-01-03"
   },
   {
     id: "city-testimonial-seville-5",
-    quote: "Seville's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
-    author: "Jeffrey Wilson",
-    title: "The Unexpected Joys of Seville Living",
+    quote: "I came to Seville for work but stayed for the climate comfort. Best decision I ever made.",
+    author: "Javier Hall",
+    title: "Seville: Where I Found My Community",
     city: "Seville",
-    rating: 4.5,
-    date: "2024-02-13"
+    rating: 4.2,
+    date: "2024-05-01"
   },
   {
     id: "city-testimonial-seville-6",
-    quote: "One thing I didn’t expect when moving to Seville was the {WEATHER_FEATURE}—it’s truly refreshing.",
-    author: "Jane Harper",
-    title: "The Heartbeat of Seville Life",
+    quote: "Living here means being a part of Seville's ongoing story of innovation and tradition.",
+    author: "Khalid Keller",
+    title: "Seville's Hidden Treasures for Locals",
     city: "Seville",
-    rating: 4.2,
-    date: "2025-07-10"
+    rating: 4.6,
+    date: "2023-03-18"
   },
   {
     id: "city-testimonial-seville-7",
-    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Seville make daily life convenient and stress-free.",
-    author: "Alexander Ali",
-    title: "What I Love About Living in Seville",
+    quote: "Living in Seville means experiencing urban innovation on a daily basis, which is why I could never leave.",
+    author: "Olivia Thomas",
+    title: "Why I Chose Seville as Home",
     city: "Seville",
-    rating: 4.8,
-    date: "2025-02-14"
+    rating: 4.3,
+    date: "2024-02-11"
   },
   {
     id: "city-testimonial-seville-8",
-    quote: "What I love most about living in Seville is the eco-friendly transport options. It creates such a unique atmosphere that feels like home.",
-    author: "Evelyn Hall",
-    title: "Why I Chose Seville as Home",
+    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Seville make daily life convenient and stress-free.",
+    author: "Brooklyn Gonzalez",
+    title: "The Neighborhoods That Make Seville Home",
     city: "Seville",
-    rating: 4.5,
-    date: "2025-02-09"
+    rating: 4.9,
+    date: "2025-01-22"
+  },
+  {
+    id: "city-testimonial-seville-9",
+    quote: "Seville's nightlife scene has become central to my life here. I couldn't imagine living without it now.",
+    author: "Randy Silva",
+    title: "Seville's Hidden Treasures for Locals",
+    city: "Seville",
+    rating: 4.1,
+    date: "2023-03-15"
   }
 ];

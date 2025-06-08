@@ -6,74 +6,92 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const marrakechTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-marrakech-1",
-    quote: "The food scene in Marrakech is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
-    author: "James Hunter",
-    title: "The Vibrant Life of Marrakech Residents",
+    quote: "The art and creativity flowing through Marrakech is inspiring. It feels like living inside a masterpiece.",
+    author: "Olivia Miller",
+    title: "Marrakech's Hidden Treasures for Locals",
     city: "Marrakech",
-    rating: 4,
-    date: "2024-05-18"
+    rating: 4.6,
+    date: "2025-09-07"
   },
   {
     id: "city-testimonial-marrakech-2",
-    quote: "I came to Marrakech for work but stayed for the local traditions. Best decision I ever made.",
-    author: "Sandra Price",
-    title: "The Vibrant Life of Marrakech Residents",
+    quote: "The sense of {SAFETY} in Marrakech makes me feel comfortable raising my kids here.",
+    author: "Susan Miller",
+    title: "The Beauty of Everyday Life in Marrakech",
     city: "Marrakech",
-    rating: 4.9,
-    date: "2025-06-25"
+    rating: 4.6,
+    date: "2025-04-02"
   },
   {
     id: "city-testimonial-marrakech-3",
-    quote: "The {GREEN_SPACES} in Marrakech offer a perfect escape from the urban buzz without leaving the city limits.",
-    author: "Scott Foster",
-    title: "Why Marrakech Is a Place to Grow",
+    quote: "As a newly converted resident of Marrakech, I can't imagine living anywhere else. The farmers markets here is something you can't find elsewhere.",
+    author: "Victoria Hudson",
+    title: "How Marrakech Balances Tradition and Innovation",
     city: "Marrakech",
-    rating: 4.3,
-    date: "2024-08-22"
+    rating: 4.7,
+    date: "2023-09-07"
   },
   {
     id: "city-testimonial-marrakech-4",
-    quote: "Living in Marrakech has opened my eyes to {PERSONAL_GROWTH_ASPECT} that I never expected.",
-    author: "Laura Hall",
-    title: "Stories From the Streets of Marrakech",
+    quote: "The people of Marrakech are incredibly welcoming and have made me feel at home since day one.",
+    author: "Maria Montgomery",
+    title: "What Makes Marrakech Special to Live In",
     city: "Marrakech",
-    rating: 4.7,
-    date: "2023-04-18"
+    rating: 4.6,
+    date: "2024-04-24"
   },
   {
     id: "city-testimonial-marrakech-5",
-    quote: "The {TRANQUILITY_FEATURE} in Marrakech offers a peaceful retreat from the busy world.",
-    author: "Priya Davis",
-    title: "Stories From the Streets of Marrakech",
+    quote: "The sense of {SAFETY} in Marrakech makes me feel comfortable raising my kids here.",
+    author: "Ethan Harris",
+    title: "The Beauty of Everyday Life in Marrakech",
     city: "Marrakech",
-    rating: 4.4,
-    date: "2024-10-03"
+    rating: 4.7,
+    date: "2024-06-08"
   },
   {
     id: "city-testimonial-marrakech-6",
-    quote: "I've found that Marrakech's {TRANSPORT_FEATURE} really makes getting around effortless and enjoyable.",
-    author: "Carl Crawford",
-    title: "The Vibrant Life of Marrakech Residents",
+    quote: "Marrakech has been my home for veteran, and the gaming communities here is what keeps me rooted.",
+    author: "Albert Harris",
+    title: "Uncovering the Layers of Marrakech",
     city: "Marrakech",
-    rating: 4.9,
-    date: "2023-02-07"
+    rating: 4.5,
+    date: "2025-05-22"
   },
   {
     id: "city-testimonial-marrakech-7",
-    quote: "Living in Marrakech means experiencing work-life harmony on a daily basis, which is why I could never leave.",
-    author: "Henry Knight",
-    title: "Living the Marrakech Lifestyle",
+    quote: "The {TRANQUILITY_FEATURE} in Marrakech offers a peaceful retreat from the busy world.",
+    author: "Abigail Hamilton",
+    title: "The Heartbeat of Marrakech Life",
     city: "Marrakech",
-    rating: 4,
-    date: "2023-04-08"
+    rating: 4.8,
+    date: "2025-05-01"
   },
   {
     id: "city-testimonial-marrakech-8",
-    quote: "Living here means being a part of Marrakech's ongoing story of innovation and tradition.",
-    author: "Roger Hamilton",
-    title: "The Community Spirit That Defines Marrakech",
+    quote: "Despite its size, Marrakech manages to feel {SMALL_TOWN_QUALITY}, which is rare and wonderful.",
+    author: "Kenneth Lewis",
+    title: "Life in Marrakech: A Local Perspective",
     city: "Marrakech",
-    rating: 4.1,
-    date: "2023-12-02"
+    rating: 4.4,
+    date: "2023-02-20"
+  },
+  {
+    id: "city-testimonial-marrakech-9",
+    quote: "The sense of {SAFETY} in Marrakech makes me feel comfortable raising my kids here.",
+    author: "Ibrahim Lopez",
+    title: "How Marrakech Balances Tradition and Innovation",
+    city: "Marrakech",
+    rating: 4.2,
+    date: "2024-08-07"
+  },
+  {
+    id: "city-testimonial-marrakech-10",
+    quote: "One thing I didn’t expect when moving to Marrakech was the {WEATHER_FEATURE}—it’s truly refreshing.",
+    author: "Evelyn King",
+    title: "Marrakech Living: Worth Every Moment",
+    city: "Marrakech",
+    rating: 4.7,
+    date: "2024-03-27"
   }
 ];

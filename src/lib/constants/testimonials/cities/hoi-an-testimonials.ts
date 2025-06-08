@@ -6,65 +6,47 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const hoianTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-hoi-an-1",
-    quote: "The food scene in Hoi An is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
-    author: "Samantha Lawson",
-    title: "Hoi An: More Than Just a Place",
+    quote: "Living in Hoi An has been one of the best decisions of my life. The nightlife here makes everyday life so enjoyable.",
+    author: "Eugene Douglas",
+    title: "The Heartbeat of Hoi An Life",
     city: "Hoi An",
-    rating: 4.5,
-    date: "2023-07-03"
+    rating: 4.6,
+    date: "2024-08-11"
   },
   {
     id: "city-testimonial-hoi-an-2",
-    quote: "Living in Hoi An means experiencing wellness and relaxation on a daily basis, which is why I could never leave.",
-    author: "Gerald Russell",
-    title: "Why I’m Proud to Call Hoi An Home",
+    quote: "The sense of {SAFETY} in Hoi An makes me feel comfortable raising my kids here.",
+    author: "Priya Morgan",
+    title: "The Vibrant Life of Hoi An Residents",
     city: "Hoi An",
-    rating: 4.2,
-    date: "2024-01-27"
+    rating: 4.8,
+    date: "2025-11-02"
   },
   {
     id: "city-testimonial-hoi-an-3",
-    quote: "Hoi An's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
-    author: "Dylan Kowalski",
-    title: "Inside the Culture of Hoi An",
+    quote: "Living here means being a part of Hoi An's ongoing story of innovation and tradition.",
+    author: "Sofia Wood",
+    title: "Why I Chose Hoi An as Home",
     city: "Hoi An",
-    rating: 4.8,
-    date: "2024-04-11"
+    rating: 4.5,
+    date: "2025-08-27"
   },
   {
     id: "city-testimonial-hoi-an-4",
-    quote: "Community events and festivals in Hoi An bring everyone together, making the {COMMUNITY_ASPECT} really stand out.",
-    author: "Patricia Morales",
-    title: "Inside the Culture of Hoi An",
+    quote: "Living in Hoi An means experiencing architectural wonder on a daily basis, which is why I could never leave.",
+    author: "Luis Stewart",
+    title: "Why Hoi An Feels Like Home",
     city: "Hoi An",
-    rating: 4.6,
-    date: "2023-04-14"
+    rating: 4.4,
+    date: "2025-08-02"
   },
   {
     id: "city-testimonial-hoi-an-5",
-    quote: "What most people don't realize about living in Hoi An is how vibrant it actually is. I've found my true home here.",
-    author: "Ibrahim Fisher",
-    title: "What Makes Hoi An Special to Live In",
+    quote: "I came to Hoi An for work but stayed for the safety and security. Best decision I ever made.",
+    author: "Alexander Fletcher",
+    title: "Hoi An Living: Worth Every Moment",
     city: "Hoi An",
-    rating: 4.4,
-    date: "2023-01-01"
-  },
-  {
-    id: "city-testimonial-hoi-an-6",
-    quote: "The {FESTIVAL_OR_EVENT} season in Hoi An brings so much excitement and pride to the community.",
-    author: "Grace Brooks",
-    title: "Why Hoi An Is a Place to Grow",
-    city: "Hoi An",
-    rating: 4.7,
-    date: "2024-01-14"
-  },
-  {
-    id: "city-testimonial-hoi-an-7",
-    quote: "What I love most about living in Hoi An is the sports facilities. It creates such a unique atmosphere that feels like home.",
-    author: "Lerato Jansen",
-    title: "Finding Balance in Hoi An",
-    city: "Hoi An",
-    rating: 4.2,
-    date: "2025-01-14"
+    rating: 4.1,
+    date: "2024-07-28"
   }
 ];

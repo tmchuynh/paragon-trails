@@ -6,65 +6,56 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const nhatrangTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-nha-trang-1",
-    quote: "Living in Nha Trang has allowed me to connect deeply with {NATURE_FEATURE} nearby.",
-    author: "Steven Knight",
-    title: "Uncovering the Layers of Nha Trang",
+    quote: "The cost of living in Nha Trang is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
+    author: "Bobby Kim",
+    title: "The Joys of Slow Living in Nha Trang",
     city: "Nha Trang",
-    rating: 4.7,
-    date: "2025-10-17"
-  },
-  {
-    id: "city-testimonial-nha-trang-2",
-    quote: "Nha Trang has been my home for resilient, and the environmental advocates here is what keeps me rooted.",
-    author: "Jack Williams",
-    title: "Living and Thriving in Nha Trang",
-    city: "Nha Trang",
-    rating: 4.8,
-    date: "2023-09-16"
-  },
-  {
-    id: "city-testimonial-nha-trang-3",
-    quote: "What most people don't realize about living in Nha Trang is how hidden gem it actually is. I've found my true home here.",
-    author: "Charlotte Lee",
-    title: "Why Nha Trang Feels Like Home",
-    city: "Nha Trang",
-    rating: 4.1,
-    date: "2025-07-21"
-  },
-  {
-    id: "city-testimonial-nha-trang-4",
-    quote: "I appreciate how Nha Trang balances {TECH_INNOVATION} with historic charm perfectly.",
-    author: "Juan Dean",
-    title: "From Newcomer to Local in Nha Trang",
-    city: "Nha Trang",
-    rating: 4.3,
-    date: "2023-03-16"
-  },
-  {
-    id: "city-testimonial-nha-trang-5",
-    quote: "The food scene in Nha Trang is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
-    author: "Jane Gibson",
-    title: "How Nha Trang Changed My Life",
-    city: "Nha Trang",
-    rating: 4.7,
-    date: "2025-12-22"
-  },
-  {
-    id: "city-testimonial-nha-trang-6",
-    quote: "The mix of old and new in Nha Trang's architecture and culture keeps the city feeling fresh yet grounded.",
-    author: "Kevin Harris",
-    title: "Why Nha Trang Is a Place to Grow",
-    city: "Nha Trang",
-    rating: 4.3,
+    rating: 4,
     date: "2023-07-20"
   },
   {
-    id: "city-testimonial-nha-trang-7",
-    quote: "After moving to Nha Trang 18 years ago, I fell in love with the cultural richness of this place. It's truly special.",
-    author: "Vincent Gibson",
-    title: "A Love Letter to Nha Trang",
+    id: "city-testimonial-nha-trang-2",
+    quote: "I love how Nha Trang celebrates {FESTIVAL_OR_EVENT}, it brings so much joy and community spirit.",
+    author: "Scott Gonzalez",
+    title: "What I Love About Living in Nha Trang",
     city: "Nha Trang",
-    rating: 4.6,
-    date: "2023-09-08"
+    rating: 4.4,
+    date: "2025-04-09"
+  },
+  {
+    id: "city-testimonial-nha-trang-3",
+    quote: "As a lifelong resident of Nha Trang, I can't imagine living anywhere else. The healthcare system here is something you can't find elsewhere.",
+    author: "Albert Jackson",
+    title: "The Neighborhoods That Make Nha Trang Home",
+    city: "Nha Trang",
+    rating: 4.7,
+    date: "2024-02-20"
+  },
+  {
+    id: "city-testimonial-nha-trang-4",
+    quote: "Nha Trang's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
+    author: "Raymond Lawson",
+    title: "Nha Trang Living: Worth Every Moment",
+    city: "Nha Trang",
+    rating: 4.8,
+    date: "2023-06-15"
+  },
+  {
+    id: "city-testimonial-nha-trang-5",
+    quote: "The historical significance of Nha Trang adds a depth to daily life that I truly cherish.",
+    author: "Thomas Johnson",
+    title: "The Perfect Imperfections of Nha Trang",
+    city: "Nha Trang",
+    rating: 4.3,
+    date: "2025-06-07"
+  },
+  {
+    id: "city-testimonial-nha-trang-6",
+    quote: "Living in Nha Trang means being surrounded by entrepreneurial energy, which feeds my soul every day.",
+    author: "Darrell Kowalski",
+    title: "Finding Inspiration Every Day in Nha Trang",
+    city: "Nha Trang",
+    rating: 4.9,
+    date: "2024-08-22"
   }
 ];

@@ -6,47 +6,92 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const pucallpaTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-pucallpa-1",
-    quote: "The sense of {SAFETY} in Pucallpa makes me feel comfortable raising my kids here.",
-    author: "Zola Morales",
-    title: "Inside the Culture of Pucallpa",
+    quote: "Living here means being a part of Pucallpa's ongoing story of innovation and tradition.",
+    author: "Darrell da Costa",
+    title: "Finding Inspiration Every Day in Pucallpa",
     city: "Pucallpa",
-    rating: 4.5,
-    date: "2025-06-13"
+    rating: 5,
+    date: "2025-06-11"
   },
   {
     id: "city-testimonial-pucallpa-2",
-    quote: "The nightlife in Pucallpa is vibrant and full of {ENTERTAINMENT_FEATURE} for everyone.",
-    author: "Austin Foster",
-    title: "A Love Letter to Pucallpa",
+    quote: "Living in Pucallpa has been one of the best decisions of my life. The nightlife here makes everyday life so enjoyable.",
+    author: "Gabriel Wright",
+    title: "Why I’m Proud to Call Pucallpa Home",
     city: "Pucallpa",
-    rating: 4.3,
-    date: "2025-08-21"
+    rating: 4.8,
+    date: "2025-11-03"
   },
   {
     id: "city-testimonial-pucallpa-3",
-    quote: "From my apartment in Pucallpa, I can discover hidden local boutiques. Where else could you do that?",
-    author: "Savannah Bennett",
-    title: "What I Love About Living in Pucallpa",
+    quote: "What really surprised me about Pucallpa is its {DIVERSITY_FEATURE} — it’s a true melting pot.",
+    author: "Maya Day",
+    title: "The Community Spirit That Defines Pucallpa",
     city: "Pucallpa",
-    rating: 4.6,
-    date: "2025-04-13"
+    rating: 4.5,
+    date: "2024-05-03"
   },
   {
     id: "city-testimonial-pucallpa-4",
-    quote: "The winter holiday markets in Pucallpa is something I look forward to every year. It's what makes living here magical.",
-    author: "Julie Wilson",
-    title: "What I Love About Living in Pucallpa",
+    quote: "Living in Pucallpa has allowed me to connect deeply with {NATURE_FEATURE} nearby.",
+    author: "Pamela Porter",
+    title: "Living the Pucallpa Lifestyle",
     city: "Pucallpa",
-    rating: 4.6,
-    date: "2023-09-21"
+    rating: 4.1,
+    date: "2023-08-25"
   },
   {
     id: "city-testimonial-pucallpa-5",
-    quote: "What most people don't realize about living in Pucallpa is how quiet it actually is. I've found my true home here.",
-    author: "Sean Hernandez",
-    title: "Finding Balance in Pucallpa",
+    quote: "I came to Pucallpa for work but stayed for the educational system. Best decision I ever made.",
+    author: "Aaliyah Anderson",
+    title: "The Unexpected Joys of Pucallpa Living",
+    city: "Pucallpa",
+    rating: 4.8,
+    date: "2025-01-28"
+  },
+  {
+    id: "city-testimonial-pucallpa-6",
+    quote: "From my apartment in Pucallpa, I can visit botanical gardens. Where else could you do that?",
+    author: "Dorothy Collins",
+    title: "Discovering Home in Pucallpa",
     city: "Pucallpa",
     rating: 4.1,
-    date: "2024-09-24"
+    date: "2023-10-13"
+  },
+  {
+    id: "city-testimonial-pucallpa-7",
+    quote: "Despite its size, Pucallpa manages to feel {SMALL_TOWN_QUALITY}, which is rare and wonderful.",
+    author: "Victor Jennings",
+    title: "Why Pucallpa Is a Place to Grow",
+    city: "Pucallpa",
+    rating: 4.1,
+    date: "2025-03-19"
+  },
+  {
+    id: "city-testimonial-pucallpa-8",
+    quote: "Living in Pucallpa has opened my eyes to {PERSONAL_GROWTH_ASPECT} that I never expected.",
+    author: "Arthur Hawkins",
+    title: "What Makes Pucallpa Feel Like Family",
+    city: "Pucallpa",
+    rating: 4,
+    date: "2024-07-12"
+  },
+  {
+    id: "city-testimonial-pucallpa-9",
+    quote: "Pucallpa's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
+    author: "Gerald Müller",
+    title: "From Newcomer to Local in Pucallpa",
+    city: "Pucallpa",
+    rating: 4.1,
+    date: "2023-02-18"
+  },
+  {
+    id: "city-testimonial-pucallpa-10",
+    quote: "Every weekend in Pucallpa brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
+    author: "Diego Holloway",
+    title: "How Pucallpa Balances Tradition and Innovation",
+    city: "Pucallpa",
+    rating: 4.1,
+    date: "2024-05-10"
   }
 ];

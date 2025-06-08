@@ -6,83 +6,74 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const puertovallartaTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-puerto-vallarta-1",
-    quote: "The creative neighborhoods in Puerto Vallarta each have their own character, which keeps life interesting year after year.",
-    author: "Javier Payne",
-    title: "How Puerto Vallarta Changed My Life",
+    quote: "What I love most about living in Puerto Vallarta is the scenic hiking trails. It creates such a unique atmosphere that feels like home.",
+    author: "Aaron Fox",
+    title: "The Unexpected Joys of Puerto Vallarta Living",
     city: "Puerto Vallarta",
-    rating: 4.6,
-    date: "2023-08-28"
+    rating: 4,
+    date: "2023-10-28"
   },
   {
     id: "city-testimonial-puerto-vallarta-2",
-    quote: "Puerto Vallarta isn't just where I live—it's part of my identity now. The sustainable initiatives has shaped who I am.",
-    author: "Thomas Keller",
-    title: "Why Puerto Vallarta Feels Like Home",
+    quote: "One of the best things about living in Puerto Vallarta is the {ACCESSIBILITY_FEATURE}—it makes everything so convenient.",
+    author: "Carol Singh",
+    title: "My Puerto Vallarta Story: Life as a Resident",
     city: "Puerto Vallarta",
-    rating: 4.8,
-    date: "2023-04-10"
+    rating: 4.7,
+    date: "2025-07-12"
   },
   {
     id: "city-testimonial-puerto-vallarta-3",
     quote: "I love how Puerto Vallarta celebrates {FESTIVAL_OR_EVENT}, it brings so much joy and community spirit.",
-    author: "Sophia Martin",
+    author: "Jack Griffin",
     title: "The True Character of Puerto Vallarta",
     city: "Puerto Vallarta",
-    rating: 4.5,
-    date: "2023-12-28"
+    rating: 5,
+    date: "2023-02-15"
   },
   {
     id: "city-testimonial-puerto-vallarta-4",
-    quote: "Puerto Vallarta's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
-    author: "Adam Gonzalez",
-    title: "The Heartbeat of Puerto Vallarta Life",
+    quote: "The {FESTIVAL_OR_EVENT} season in Puerto Vallarta brings so much excitement and pride to the community.",
+    author: "Edward Lawson",
+    title: "The Everyday Magic of Puerto Vallarta",
     city: "Puerto Vallarta",
-    rating: 4.5,
-    date: "2025-02-13"
+    rating: 4.9,
+    date: "2024-05-24"
   },
   {
     id: "city-testimonial-puerto-vallarta-5",
-    quote: "The {TRANQUILITY_FEATURE} in Puerto Vallarta offers a peaceful retreat from the busy world.",
-    author: "Jose Foster",
-    title: "The True Character of Puerto Vallarta",
+    quote: "Every weekend in Puerto Vallarta brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
+    author: "Rachel Palmer",
+    title: "How Puerto Vallarta Balances Tradition and Innovation",
     city: "Puerto Vallarta",
-    rating: 4.4,
-    date: "2023-05-21"
+    rating: 4.1,
+    date: "2025-10-22"
   },
   {
     id: "city-testimonial-puerto-vallarta-6",
-    quote: "The balance of bustling energy and quiet retreats in Puerto Vallarta creates a quality of life that's hard to find elsewhere.",
-    author: "Patricia Reeves",
-    title: "The Joys of Slow Living in Puerto Vallarta",
+    quote: "Puerto Vallarta's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
+    author: "Javier Campbell",
+    title: "Puerto Vallarta: Beyond the Tourist Experience",
     city: "Puerto Vallarta",
-    rating: 4.9,
-    date: "2023-02-27"
+    rating: 4.3,
+    date: "2023-08-22"
   },
   {
     id: "city-testimonial-puerto-vallarta-7",
-    quote: "What I tell friends considering moving to Puerto Vallarta is to appreciate the architectural details—it's what makes daily life here so rich.",
-    author: "Abigail Wilson",
-    title: "The Vibrant Life of Puerto Vallarta Residents",
+    quote: "The people of Puerto Vallarta are incredibly welcoming and have made me feel at home since day one.",
+    author: "Timothy Moore",
+    title: "The Perfect Imperfections of Puerto Vallarta",
     city: "Puerto Vallarta",
-    rating: 5,
-    date: "2025-09-27"
+    rating: 4.5,
+    date: "2024-12-14"
   },
   {
     id: "city-testimonial-puerto-vallarta-8",
-    quote: "Puerto Vallarta's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
-    author: "Noah Brown",
-    title: "Finding Inspiration Every Day in Puerto Vallarta",
+    quote: "Puerto Vallarta's film scene has become central to my life here. I couldn't imagine living without it now.",
+    author: "Audrey Miller",
+    title: "Puerto Vallarta Through a Resident's Eyes",
     city: "Puerto Vallarta",
-    rating: 4,
-    date: "2023-01-01"
-  },
-  {
-    id: "city-testimonial-puerto-vallarta-9",
-    quote: "The nightlife in Puerto Vallarta is vibrant and full of {ENTERTAINMENT_FEATURE} for everyone.",
-    author: "Lucas Lee",
-    title: "Discovering Home in Puerto Vallarta",
-    city: "Puerto Vallarta",
-    rating: 4.2,
-    date: "2023-01-15"
+    rating: 4.6,
+    date: "2023-11-12"
   }
 ];

@@ -4,396 +4,403 @@ export const aucklandGuideReviews = {
   "guide-auckland-1": [
     {
       "id": "guide-auckland-1-review-0",
-      "quote": "If you’re looking for a detail-oriented experience in Cultural Traditions, Brian Young is the one to book. His professionalism stood out.",
-      "author": "Henry Wilson",
+      "quote": "Chen Lopez brought warmth and motivating energy to the day. Their made us feel like locals instead of tourists.",
+      "author": "Louis Stewart",
       "title": "Verified Tour Participant",
       "city": "Auckland",
-      "rating": 5,
-      "date": "2024-10-06"
+      "rating": 4,
+      "date": "2025-01-07"
     },
     {
       "id": "guide-auckland-1-review-1",
-      "quote": "Our experience with Brian Young was wonderful. He showed us hidden gems we would have never found on our own.",
-      "author": "James Nguyen",
+      "quote": "A truly remarkable experience thanks to Chen Lopez. Their balance of facts and fun was exactly what we were hoping for.",
+      "author": "Charlotte Brooks",
       "title": "Verified Tour Participant",
       "city": "Auckland",
       "rating": 5,
-      "date": "2024-06-20"
+      "date": "2025-01-14"
     },
     {
       "id": "guide-auckland-1-review-2",
-      "quote": "Brian Young created an environment that was both informative and relaxing. Her insightful approach kept everyone engaged.",
-      "author": "Youssef Lee",
+      "quote": "Chen Lopez tailored the tour perfectly to our interests. Their genuine nature made everyone feel welcome.",
+      "author": "Fatima Baker",
       "title": "Verified Tour Participant",
       "city": "Auckland",
       "rating": 5,
-      "date": "2024-12-03"
+      "date": "2025-03-30"
     }
   ],
   "guide-auckland-2": [
     {
       "id": "guide-auckland-2-review-0",
-      "quote": "You could tell that Dennis Reeves genuinely cares about what Her does. Her superb nature was a highlight of our trip.",
-      "author": "Priya Thomas",
+      "quote": "The way Pamela Bennett brought Cultural Heritage to life was truly professional. You could tell Her loves what Her does.",
+      "author": "Jeremy Harper",
+      "title": "Verified Tour Participant",
+      "city": "Auckland",
+      "rating": 4,
+      "date": "2025-02-07"
+    },
+    {
+      "id": "guide-auckland-2-review-1",
+      "quote": "Pamela Bennett didn’t just give us a tour—Their gave us a connection to the city through friendly storytelling.",
+      "author": "Stella Wilson",
+      "title": "Verified Tour Participant",
+      "city": "Auckland",
+      "rating": 5,
+      "date": "2024-07-25"
+    },
+    {
+      "id": "guide-auckland-2-review-2",
+      "quote": "Every moment with Pamela Bennett felt intentional. Their amazing guidance made this one of the best parts of our trip.",
+      "author": "Layla Gardner",
+      "title": "Verified Tour Participant",
+      "city": "Auckland",
+      "rating": 5,
+      "date": "2024-12-27"
+    }
+  ],
+  "guide-auckland-3": [
+    {
+      "id": "guide-auckland-3-review-0",
+      "quote": "Touring with Jesse Watson was a delight. Her thoughtful personality and deep knowledge made the experience unforgettable.",
+      "author": "Wei Chen",
+      "title": "Verified Tour Participant",
+      "city": "Auckland",
+      "rating": 4,
+      "date": "2025-01-29"
+    },
+    {
+      "id": "guide-auckland-3-review-1",
+      "quote": "Jesse Watson created an environment that was both informative and relaxing. Her fantastic approach kept everyone engaged.",
+      "author": "Aria Cooper",
+      "title": "Verified Tour Participant",
+      "city": "Auckland",
+      "rating": 5,
+      "date": "2024-12-18"
+    },
+    {
+      "id": "guide-auckland-3-review-2",
+      "quote": "From start to finish, Jesse Watson delivered a detail-oriented experience. Her expertise and care were unmatched.",
+      "author": "Joseph Day",
+      "title": "Verified Tour Participant",
+      "city": "Auckland",
+      "rating": 5,
+      "date": "2025-04-03"
+    }
+  ],
+  "guide-auckland-4": [
+    {
+      "id": "guide-auckland-4-review-0",
+      "quote": "Emma Jones didn’t just give us a tour—Their gave us a connection to the city through inspiring storytelling.",
+      "author": "Ariana Wright",
+      "title": "Verified Tour Participant",
+      "city": "Auckland",
+      "rating": 5,
+      "date": "2025-03-24"
+    },
+    {
+      "id": "guide-auckland-4-review-1",
+      "quote": "I booked the tour last minute, but I’m so glad I did. Emma Jones's personable leadership and local tips were invaluable.",
+      "author": "Leah Spencer",
       "title": "Verified Tour Participant",
       "city": "Auckland",
       "rating": 5,
       "date": "2024-08-15"
     },
     {
-      "id": "guide-auckland-2-review-1",
-      "quote": "If you’re looking for a enthusiastic experience in fashion history, Dennis Reeves is the one to book. Their professionalism stood out.",
-      "author": "Scott Dean",
-      "title": "Verified Tour Participant",
-      "city": "Auckland",
-      "rating": 5,
-      "date": "2024-07-20"
-    },
-    {
-      "id": "guide-auckland-2-review-2",
-      "quote": "Dennis Reeves is simply superb. The tour was well-paced and Her attention to detail was remarkable.",
-      "author": "Matthew Lopez",
-      "title": "Verified Tour Participant",
-      "city": "Auckland",
-      "rating": 5,
-      "date": "2024-11-23"
-    }
-  ],
-  "guide-auckland-3": [
-    {
-      "id": "guide-auckland-3-review-0",
-      "quote": "We learned so much and had so much fun, all thanks to Alexa Henderson's detail-oriented approach to sharing Public Transportation Navigation.",
-      "author": "Christine Nash",
-      "title": "Verified Tour Participant",
-      "city": "Auckland",
-      "rating": 5,
-      "date": "2025-04-12"
-    },
-    {
-      "id": "guide-auckland-3-review-1",
-      "quote": "Alexa Henderson brought warmth and thoughtful energy to the day. Her made us feel like locals instead of tourists.",
-      "author": "Miguel Wright",
-      "title": "Verified Tour Participant",
-      "city": "Auckland",
-      "rating": 5,
-      "date": "2025-05-26"
-    },
-    {
-      "id": "guide-auckland-3-review-2",
-      "quote": "I booked the tour last minute, but I’m so glad I did. Alexa Henderson's skilled leadership and local tips were invaluable.",
-      "author": "Victoria Lopez",
-      "title": "Verified Tour Participant",
-      "city": "Auckland",
-      "rating": 5,
-      "date": "2024-10-04"
-    }
-  ],
-  "guide-auckland-4": [
-    {
-      "id": "guide-auckland-4-review-0",
-      "quote": "Even our kids loved the tour—Cynthia Stewart was so insightful and made sure everyone was involved.",
-      "author": "Ralph Dunn",
-      "title": "Verified Tour Participant",
-      "city": "Auckland",
-      "rating": 5,
-      "date": "2025-02-23"
-    },
-    {
-      "id": "guide-auckland-4-review-1",
-      "quote": "Cynthia Stewart has a gift for storytelling. The entire group was engaged, laughing, and learning—it was such a inspiring time.",
-      "author": "Zachary Clark",
-      "title": "Verified Tour Participant",
-      "city": "Auckland",
-      "rating": 5,
-      "date": "2025-04-08"
-    },
-    {
       "id": "guide-auckland-4-review-2",
-      "quote": "What an superb experience with Cynthia Stewart! Their expertise in Local Legends added so much value to our visit.",
-      "author": "Sophia Reeves",
+      "quote": "I booked the tour last minute, but I’m so glad I did. Emma Jones's remarkable leadership and local tips were invaluable.",
+      "author": "Kenneth Knight",
       "title": "Verified Tour Participant",
       "city": "Auckland",
-      "rating": 3,
-      "date": "2024-08-17"
+      "rating": 4,
+      "date": "2024-10-29"
+    },
+    {
+      "id": "guide-auckland-4-review-3",
+      "quote": "I’ve traveled a lot, but this was one of the most brilliant tours I’ve ever taken. Emma Jones was fantastic from start to finish.",
+      "author": "Diego Maxwell",
+      "title": "Verified Tour Participant",
+      "city": "Auckland",
+      "rating": 5,
+      "date": "2024-08-18"
     }
   ],
   "guide-auckland-5": [
     {
       "id": "guide-auckland-5-review-0",
-      "quote": "Johnny Bennett created an environment that was both informative and relaxing. Their insightful approach kept everyone engaged.",
-      "author": "Grace Khan",
+      "quote": "I’ve traveled a lot, but this was one of the most outstanding tours I’ve ever taken. Fatima Morales was fantastic from start to finish.",
+      "author": "Kimberly Ivanov",
       "title": "Verified Tour Participant",
       "city": "Auckland",
       "rating": 4,
-      "date": "2025-04-27"
+      "date": "2025-05-25"
     },
     {
       "id": "guide-auckland-5-review-1",
-      "quote": "Johnny Bennett didn’t just give us a tour—Her gave us a connection to the city through engaging storytelling.",
-      "author": "Ava Gonzalez",
-      "title": "Verified Tour Participant",
-      "city": "Auckland",
-      "rating": 5,
-      "date": "2024-08-24"
-    },
-    {
-      "id": "guide-auckland-5-review-2",
-      "quote": "Johnny Bennett was an trustworthy guide who truly brought the city to life. Her knowledge of Local Folklore was impressive.",
-      "author": "Khalid Bennett",
+      "quote": "The way Fatima Morales brought Adventure Sports to life was truly insightful. You could tell Their loves what Their does.",
+      "author": "Carlos Crawford",
       "title": "Verified Tour Participant",
       "city": "Auckland",
       "rating": 4,
-      "date": "2025-01-30"
+      "date": "2024-08-03"
+    },
+    {
+      "id": "guide-auckland-5-review-2",
+      "quote": "What an thoughtful experience with Fatima Morales! His expertise in industrial heritage added so much value to our visit.",
+      "author": "Gerald Dean",
+      "title": "Verified Tour Participant",
+      "city": "Auckland",
+      "rating": 5,
+      "date": "2025-01-01"
+    },
+    {
+      "id": "guide-auckland-5-review-3",
+      "quote": "Fatima Morales is simply resourceful. The tour was well-paced and Their attention to detail was remarkable.",
+      "author": "Hassan Spencer",
+      "title": "Verified Tour Participant",
+      "city": "Auckland",
+      "rating": 5,
+      "date": "2025-04-23"
     }
   ],
   "guide-auckland-6": [
     {
       "id": "guide-auckland-6-review-0",
-      "quote": "Albert Singh made even the smallest detail feel important. His exceptional touch made this tour stand out from the rest.",
-      "author": "Diego Harper",
+      "quote": "Brian Williams didn’t just give us a tour—Their gave us a connection to the city through captivating storytelling.",
+      "author": "Joshua Dunn",
       "title": "Verified Tour Participant",
       "city": "Auckland",
-      "rating": 4,
-      "date": "2024-12-22"
+      "rating": 5,
+      "date": "2024-09-15"
     },
     {
       "id": "guide-auckland-6-review-1",
-      "quote": "What an informative experience with Albert Singh! Their expertise in Night Tours added so much value to our visit.",
-      "author": "Youssef Cooper",
+      "quote": "It’s rare to find a guide as motivating as Brian Williams. Her ability to connect with people from all walks of life was exceptional.",
+      "author": "Carl Fletcher",
       "title": "Verified Tour Participant",
       "city": "Auckland",
-      "rating": 5,
-      "date": "2025-03-21"
+      "rating": 4,
+      "date": "2024-08-02"
     },
     {
       "id": "guide-auckland-6-review-2",
-      "quote": "I’ve traveled a lot, but this was one of the most welcoming tours I’ve ever taken. Albert Singh was fantastic from start to finish.",
-      "author": "Virginia Douglas",
+      "quote": "I’ve traveled a lot, but this was one of the most cheerful tours I’ve ever taken. Brian Williams was fantastic from start to finish.",
+      "author": "Brooklyn Dunn",
       "title": "Verified Tour Participant",
       "city": "Auckland",
-      "rating": 5,
-      "date": "2025-04-26"
+      "rating": 4,
+      "date": "2024-06-12"
     }
   ],
   "guide-auckland-7": [
     {
       "id": "guide-auckland-7-review-0",
-      "quote": "We felt completely at ease with Jeremy Wallace. His approachable style made even complex topics accessible and fun.",
-      "author": "Ryan Nash",
+      "quote": "I’ve traveled a lot, but this was one of the most reliable tours I’ve ever taken. Nathan Davis was fantastic from start to finish.",
+      "author": "Justin Montgomery",
       "title": "Verified Tour Participant",
       "city": "Auckland",
       "rating": 5,
-      "date": "2024-07-06"
+      "date": "2025-04-17"
     },
     {
       "id": "guide-auckland-7-review-1",
-      "quote": "Jeremy Wallace went above and beyond. His thorough energy and personal touch made the day extra special.",
-      "author": "Isabella Porter",
+      "quote": "We had a accommodating time with Nathan Davis. Her passion for Sustainable Tourism was evident throughout the tour.",
+      "author": "Dylan Hernandez",
       "title": "Verified Tour Participant",
       "city": "Auckland",
-      "rating": 5,
-      "date": "2024-11-17"
+      "rating": 4,
+      "date": "2024-10-15"
     },
     {
       "id": "guide-auckland-7-review-2",
-      "quote": "Even our kids loved the tour—Jeremy Wallace was so cheerful and made sure everyone was involved.",
-      "author": "Juan Wood",
+      "quote": "What an professional experience with Nathan Davis! Her expertise in Cultural Etiquette added so much value to our visit.",
+      "author": "Noah Suzuki",
       "title": "Verified Tour Participant",
       "city": "Auckland",
       "rating": 5,
-      "date": "2025-04-10"
+      "date": "2024-10-31"
+    },
+    {
+      "id": "guide-auckland-7-review-3",
+      "quote": "What an exceptional experience with Nathan Davis! Their expertise in Sustainable Tourism added so much value to our visit.",
+      "author": "Evelyn Davis",
+      "title": "Verified Tour Participant",
+      "city": "Auckland",
+      "rating": 5,
+      "date": "2024-08-22"
     }
   ],
   "guide-auckland-8": [
     {
       "id": "guide-auckland-8-review-0",
-      "quote": "You could tell that Kimberly Johnson genuinely cares about what His does. His friendly nature was a highlight of our trip.",
-      "author": "Nomsa Reeves",
-      "title": "Verified Tour Participant",
-      "city": "Auckland",
-      "rating": 5,
-      "date": "2025-01-12"
-    },
-    {
-      "id": "guide-auckland-8-review-1",
-      "quote": "I’ve traveled a lot, but this was one of the most engaging tours I’ve ever taken. Kimberly Johnson was fantastic from start to finish.",
-      "author": "Olivia Griffin",
+      "quote": "I wasn’t expecting to learn so much and enjoy it this much. Sofia Griffin was cheerful and incredibly knowledgeable.",
+      "author": "Ashley Bennett",
       "title": "Verified Tour Participant",
       "city": "Auckland",
       "rating": 4,
-      "date": "2025-03-12"
+      "date": "2025-01-18"
     },
     {
-      "id": "guide-auckland-8-review-2",
-      "quote": "You’ll leave the tour smarter and smiling if Kimberly Johnson is your guide. His helpful energy is contagious.",
-      "author": "Ariana Mason",
+      "id": "guide-auckland-8-review-1",
+      "quote": "Even our kids loved the tour—Sofia Griffin was so inspiring and made sure everyone was involved.",
+      "author": "Mary Knight",
       "title": "Verified Tour Participant",
       "city": "Auckland",
       "rating": 5,
-      "date": "2024-09-28"
+      "date": "2024-10-11"
+    },
+    {
+      "id": "guide-auckland-8-review-2",
+      "quote": "Sofia Griffin's tour was the highlight of our trip. Her engaging approach to sharing the history made everything interesting.",
+      "author": "Cynthia Carpenter",
+      "title": "Verified Tour Participant",
+      "city": "Auckland",
+      "rating": 4,
+      "date": "2025-03-02"
+    },
+    {
+      "id": "guide-auckland-8-review-3",
+      "quote": "If you’re looking for a exceptional experience in Local Cuisine, Sofia Griffin is the one to book. Their professionalism stood out.",
+      "author": "Nicole Murray",
+      "title": "Verified Tour Participant",
+      "city": "Auckland",
+      "rating": 5,
+      "date": "2025-03-31"
     }
   ],
   "guide-auckland-9": [
     {
       "id": "guide-auckland-9-review-0",
-      "quote": "Noah Mitchell created an environment that was both informative and relaxing. His knowledgeable approach kept everyone engaged.",
-      "author": "Priya Day",
-      "title": "Verified Tour Participant",
-      "city": "Auckland",
-      "rating": 4,
-      "date": "2025-03-03"
-    },
-    {
-      "id": "guide-auckland-9-review-1",
-      "quote": "A truly accommodating experience thanks to Noah Mitchell. His balance of facts and fun was exactly what we were hoping for.",
-      "author": "Caroline Douglas",
-      "title": "Verified Tour Participant",
-      "city": "Auckland",
-      "rating": 4,
-      "date": "2024-11-11"
-    },
-    {
-      "id": "guide-auckland-9-review-2",
-      "quote": "It’s rare to find a guide as thorough as Noah Mitchell. Her ability to connect with people from all walks of life was exceptional.",
-      "author": "Ibrahim Russell",
+      "quote": "Maria Fisher created an environment that was both informative and relaxing. Her wonderful approach kept everyone engaged.",
+      "author": "Christine Gardner",
       "title": "Verified Tour Participant",
       "city": "Auckland",
       "rating": 5,
-      "date": "2024-09-10"
+      "date": "2025-04-15"
+    },
+    {
+      "id": "guide-auckland-9-review-1",
+      "quote": "Maria Fisher made even the smallest detail feel important. His helpful touch made this tour stand out from the rest.",
+      "author": "Kyle Kowalski",
+      "title": "Verified Tour Participant",
+      "city": "Auckland",
+      "rating": 5,
+      "date": "2024-12-22"
+    },
+    {
+      "id": "guide-auckland-9-review-2",
+      "quote": "Even our kids loved the tour—Maria Fisher was so excellent and made sure everyone was involved.",
+      "author": "Matthew Lopez",
+      "title": "Verified Tour Participant",
+      "city": "Auckland",
+      "rating": 5,
+      "date": "2025-05-12"
     },
     {
       "id": "guide-auckland-9-review-3",
-      "quote": "Noah Mitchell is simply thoughtful. The tour was well-paced and Their attention to detail was remarkable.",
-      "author": "Dennis Watson",
+      "quote": "Maria Fisher's tour was the highlight of our trip. Their inspiring approach to sharing the history made everything interesting.",
+      "author": "Fatima Jackson",
       "title": "Verified Tour Participant",
       "city": "Auckland",
-      "rating": 3,
-      "date": "2024-12-17"
+      "rating": 5,
+      "date": "2025-03-18"
     }
   ],
   "guide-auckland-10": [
     {
       "id": "guide-auckland-10-review-0",
-      "quote": "Daniel Gonzalez brought warmth and incredible energy to the day. Her made us feel like locals instead of tourists.",
-      "author": "Rajesh Foster",
-      "title": "Verified Tour Participant",
-      "city": "Auckland",
-      "rating": 5,
-      "date": "2025-04-03"
-    },
-    {
-      "id": "guide-auckland-10-review-1",
-      "quote": "We had a patient time with Daniel Gonzalez. Their passion for Local Myths was evident throughout the tour.",
-      "author": "Eleanor Dean",
-      "title": "Verified Tour Participant",
-      "city": "Auckland",
-      "rating": 4,
-      "date": "2024-09-09"
-    },
-    {
-      "id": "guide-auckland-10-review-2",
-      "quote": "Daniel Gonzalez has a gift for storytelling. The entire group was engaged, laughing, and learning—it was such a genuine time.",
-      "author": "Ahmed Jackson",
-      "title": "Verified Tour Participant",
-      "city": "Auckland",
-      "rating": 5,
-      "date": "2024-11-10"
-    }
-  ],
-  "guide-auckland-11": [
-    {
-      "id": "guide-auckland-11-review-0",
-      "quote": "Anthony Crawford went above and beyond. Her remarkable energy and personal touch made the day extra special.",
-      "author": "Mia Ivanov",
-      "title": "Verified Tour Participant",
-      "city": "Auckland",
-      "rating": 5,
-      "date": "2025-04-25"
-    },
-    {
-      "id": "guide-auckland-11-review-1",
-      "quote": "Every moment with Anthony Crawford felt intentional. Her engaging guidance made this one of the best parts of our trip.",
-      "author": "Aaliyah Jennings",
+      "quote": "Every moment with Jacob Martin felt intentional. His knowledgeable guidance made this one of the best parts of our trip.",
+      "author": "Thandiwe Gonzalez",
       "title": "Verified Tour Participant",
       "city": "Auckland",
       "rating": 5,
       "date": "2025-05-20"
     },
     {
-      "id": "guide-auckland-11-review-2",
-      "quote": "We learned so much and had so much fun, all thanks to Anthony Crawford's reliable approach to sharing Local Festivals.",
-      "author": "Lily Wang",
+      "id": "guide-auckland-10-review-1",
+      "quote": "Jacob Martin has a gift for storytelling. The entire group was engaged, laughing, and learning—it was such a patient time.",
+      "author": "Emma Fisher",
       "title": "Verified Tour Participant",
       "city": "Auckland",
       "rating": 5,
-      "date": "2024-08-05"
+      "date": "2025-03-01"
     },
     {
-      "id": "guide-auckland-11-review-3",
-      "quote": "Anthony Crawford didn’t just give us a tour—Their gave us a connection to the city through exceptional storytelling.",
-      "author": "Grace Jansen",
+      "id": "guide-auckland-10-review-2",
+      "quote": "Every moment with Jacob Martin felt intentional. Her knowledgeable guidance made this one of the best parts of our trip.",
+      "author": "Joshua Marshall",
       "title": "Verified Tour Participant",
       "city": "Auckland",
       "rating": 5,
-      "date": "2025-02-05"
+      "date": "2024-11-28"
+    },
+    {
+      "id": "guide-auckland-10-review-3",
+      "quote": "We left the tour inspired. Jacob Martin's passionate way of sharing knowledge made a lasting impression on us.",
+      "author": "Lawrence Wilson",
+      "title": "Verified Tour Participant",
+      "city": "Auckland",
+      "rating": 3,
+      "date": "2025-05-24"
+    }
+  ],
+  "guide-auckland-11": [
+    {
+      "id": "guide-auckland-11-review-0",
+      "quote": "Every moment with Willie Anderson felt intentional. Her thorough guidance made this one of the best parts of our trip.",
+      "author": "George Graham",
+      "title": "Verified Tour Participant",
+      "city": "Auckland",
+      "rating": 4,
+      "date": "2024-09-24"
+    },
+    {
+      "id": "guide-auckland-11-review-1",
+      "quote": "The way Willie Anderson brought Historical Architecture to life was truly exceptional. You could tell Her loves what Her does.",
+      "author": "Patricia Johnson",
+      "title": "Verified Tour Participant",
+      "city": "Auckland",
+      "rating": 5,
+      "date": "2024-07-23"
+    },
+    {
+      "id": "guide-auckland-11-review-2",
+      "quote": "Our experience with Willie Anderson was thoughtful. She showed us hidden gems we would have never found on our own.",
+      "author": "Roger Price",
+      "title": "Verified Tour Participant",
+      "city": "Auckland",
+      "rating": 5,
+      "date": "2024-09-06"
     }
   ],
   "guide-auckland-12": [
     {
       "id": "guide-auckland-12-review-0",
-      "quote": "We were lucky to have Michelle Wang as our guide. Their reliable insights made a big difference in how we experienced Local Literature.",
-      "author": "Aiden Moore",
+      "quote": "A truly thoughtful experience thanks to Bruce Wallace. His balance of facts and fun was exactly what we were hoping for.",
+      "author": "Nicole Ivanov",
       "title": "Verified Tour Participant",
       "city": "Auckland",
-      "rating": 4,
-      "date": "2024-07-03"
+      "rating": 5,
+      "date": "2025-05-22"
     },
     {
       "id": "guide-auckland-12-review-1",
-      "quote": "We had a friendly time with Michelle Wang. His passion for cultural landmarks was evident throughout the tour.",
-      "author": "Abigail Williams",
+      "quote": "I’ve taken many tours, but Bruce Wallace's was by far the most approachable. Their storytelling ability was incredible.",
+      "author": "Dorothy Wallace",
       "title": "Verified Tour Participant",
       "city": "Auckland",
       "rating": 5,
-      "date": "2025-04-25"
+      "date": "2025-03-10"
     },
     {
       "id": "guide-auckland-12-review-2",
-      "quote": "I’ve taken many tours, but Michelle Wang's was by far the most outstanding. His storytelling ability was incredible.",
-      "author": "Bobby Wang",
-      "title": "Verified Tour Participant",
-      "city": "Auckland",
-      "rating": 5,
-      "date": "2025-05-14"
-    }
-  ],
-  "guide-auckland-13": [
-    {
-      "id": "guide-auckland-13-review-0",
-      "quote": "William Moore tailored the tour perfectly to our interests. His detail-oriented nature made everyone feel welcome.",
-      "author": "Janet Harper",
-      "title": "Verified Tour Participant",
-      "city": "Auckland",
-      "rating": 5,
-      "date": "2024-11-03"
-    },
-    {
-      "id": "guide-auckland-13-review-1",
-      "quote": "Touring with William Moore was a delight. Their superb personality and deep knowledge made the experience unforgettable.",
-      "author": "Charlotte Garcia",
+      "quote": "It’s rare to find a guide as amazing as Bruce Wallace. Their ability to connect with people from all walks of life was exceptional.",
+      "author": "Evelyn King",
       "title": "Verified Tour Participant",
       "city": "Auckland",
       "rating": 4,
-      "date": "2025-02-12"
-    },
-    {
-      "id": "guide-auckland-13-review-2",
-      "quote": "A truly insightful experience thanks to William Moore. Their balance of facts and fun was exactly what we were hoping for.",
-      "author": "Yuki Edwards",
-      "title": "Verified Tour Participant",
-      "city": "Auckland",
-      "rating": 5,
-      "date": "2025-04-18"
+      "date": "2025-01-18"
     }
   ]
 };

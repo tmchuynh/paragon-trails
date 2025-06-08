@@ -4,441 +4,365 @@ export const bostonGuideReviews = {
   "guide-boston-1": [
     {
       "id": "guide-boston-1-review-0",
-      "quote": "If you’re looking for a charming experience in Art Walks, Joan Nash is the one to book. Her professionalism stood out.",
-      "author": "Javier Jackson",
-      "title": "Verified Tour Participant",
-      "city": "Boston",
-      "rating": 4,
-      "date": "2024-08-01"
-    },
-    {
-      "id": "guide-boston-1-review-1",
-      "quote": "Joan Nash is simply dedicated. The tour was well-paced and His attention to detail was remarkable.",
-      "author": "Roger Hudson",
-      "title": "Verified Tour Participant",
-      "city": "Boston",
-      "rating": 4,
-      "date": "2025-01-13"
-    },
-    {
-      "id": "guide-boston-1-review-2",
-      "quote": "It’s rare to find a guide as motivating as Joan Nash. Their ability to connect with people from all walks of life was exceptional.",
-      "author": "Kenneth Hall",
+      "quote": "I wasn’t expecting to learn so much and enjoy it this much. Dylan Montgomery was professional and incredibly knowledgeable.",
+      "author": "Antonio Rossi",
       "title": "Verified Tour Participant",
       "city": "Boston",
       "rating": 5,
-      "date": "2024-12-15"
+      "date": "2025-01-04"
+    },
+    {
+      "id": "guide-boston-1-review-1",
+      "quote": "You could tell that Dylan Montgomery genuinely cares about what Her does. Her patient nature was a highlight of our trip.",
+      "author": "Isabella Day",
+      "title": "Verified Tour Participant",
+      "city": "Boston",
+      "rating": 5,
+      "date": "2025-01-08"
+    },
+    {
+      "id": "guide-boston-1-review-2",
+      "quote": "We left the tour inspired. Dylan Montgomery's genuine way of sharing knowledge made a lasting impression on us.",
+      "author": "Priya Baker",
+      "title": "Verified Tour Participant",
+      "city": "Boston",
+      "rating": 5,
+      "date": "2025-01-17"
     }
   ],
   "guide-boston-2": [
     {
       "id": "guide-boston-2-review-0",
-      "quote": "We felt completely at ease with Hannah Ellis. Their engaging style made even complex topics accessible and fun.",
-      "author": "Jason Curtis",
-      "title": "Verified Tour Participant",
-      "city": "Boston",
-      "rating": 4,
-      "date": "2025-03-30"
-    },
-    {
-      "id": "guide-boston-2-review-1",
-      "quote": "I’ve taken many tours, but Hannah Ellis's was by far the most passionate. Their storytelling ability was incredible.",
-      "author": "Susan Graham",
+      "quote": "Brandon Martin brought warmth and thorough energy to the day. His made us feel like locals instead of tourists.",
+      "author": "Victoria Müller",
       "title": "Verified Tour Participant",
       "city": "Boston",
       "rating": 5,
-      "date": "2024-08-19"
+      "date": "2025-02-04"
+    },
+    {
+      "id": "guide-boston-2-review-1",
+      "quote": "Every moment with Brandon Martin felt intentional. His dedicated guidance made this one of the best parts of our trip.",
+      "author": "Benjamin Morales",
+      "title": "Verified Tour Participant",
+      "city": "Boston",
+      "rating": 5,
+      "date": "2024-11-26"
     },
     {
       "id": "guide-boston-2-review-2",
-      "quote": "Hannah Ellis tailored the tour perfectly to our interests. Their charming nature made everyone feel welcome.",
-      "author": "Laura Wallace",
+      "quote": "I highly recommend Brandon Martin for anyone interested in Art Walks. Her made our tour memorable.",
+      "author": "Russell Smith",
       "title": "Verified Tour Participant",
       "city": "Boston",
-      "rating": 4,
-      "date": "2025-05-26"
+      "rating": 3,
+      "date": "2024-12-09"
     }
   ],
   "guide-boston-3": [
     {
       "id": "guide-boston-3-review-0",
-      "quote": "Skylar Taylor brought warmth and informative energy to the day. Their made us feel like locals instead of tourists.",
-      "author": "Stephen Maxwell",
+      "quote": "Diego Rossi has a gift for storytelling. The entire group was engaged, laughing, and learning—it was such a accommodating time.",
+      "author": "Leah Hunter",
       "title": "Verified Tour Participant",
       "city": "Boston",
       "rating": 5,
-      "date": "2025-03-06"
+      "date": "2024-12-18"
     },
     {
       "id": "guide-boston-3-review-1",
-      "quote": "Touring with Skylar Taylor was a delight. His incredible personality and deep knowledge made the experience unforgettable.",
-      "author": "Hiroshi Miller",
-      "title": "Verified Tour Participant",
-      "city": "Boston",
-      "rating": 4,
-      "date": "2025-02-08"
-    },
-    {
-      "id": "guide-boston-3-review-2",
-      "quote": "We felt completely at ease with Skylar Taylor. Her professional style made even complex topics accessible and fun.",
-      "author": "Rachel Coleman",
-      "title": "Verified Tour Participant",
-      "city": "Boston",
-      "rating": 5,
-      "date": "2025-04-13"
-    },
-    {
-      "id": "guide-boston-3-review-3",
-      "quote": "I highly recommend Skylar Taylor for anyone interested in Local Wildlife. His made our tour memorable.",
-      "author": "Zoe Coleman",
-      "title": "Verified Tour Participant",
-      "city": "Boston",
-      "rating": 4,
-      "date": "2024-07-18"
-    }
-  ],
-  "guide-boston-4": [
-    {
-      "id": "guide-boston-4-review-0",
-      "quote": "You could tell that Jeffrey Moore genuinely cares about what His does. His exceptional nature was a highlight of our trip.",
-      "author": "Hannah Chambers",
-      "title": "Verified Tour Participant",
-      "city": "Boston",
-      "rating": 5,
-      "date": "2024-11-19"
-    },
-    {
-      "id": "guide-boston-4-review-1",
-      "quote": "We learned so much and had so much fun, all thanks to Jeffrey Moore's remarkable approach to sharing Wildlife Watching.",
-      "author": "Susan Wang",
-      "title": "Verified Tour Participant",
-      "city": "Boston",
-      "rating": 5,
-      "date": "2025-02-23"
-    },
-    {
-      "id": "guide-boston-4-review-2",
-      "quote": "We were lucky to have Jeffrey Moore as our guide. His generous insights made a big difference in how we experienced urban legends.",
-      "author": "Andrew Henderson",
-      "title": "Verified Tour Participant",
-      "city": "Boston",
-      "rating": 4,
-      "date": "2025-06-06"
-    },
-    {
-      "id": "guide-boston-4-review-3",
-      "quote": "From start to finish, Jeffrey Moore delivered a superb experience. Their expertise and care were unmatched.",
-      "author": "George Lawson",
-      "title": "Verified Tour Participant",
-      "city": "Boston",
-      "rating": 5,
-      "date": "2024-08-19"
-    }
-  ],
-  "guide-boston-5": [
-    {
-      "id": "guide-boston-5-review-0",
-      "quote": "If you’re looking for a fantastic experience in Local Festivals, Emily Reed is the one to book. His professionalism stood out.",
-      "author": "Claire Mason",
-      "title": "Verified Tour Participant",
-      "city": "Boston",
-      "rating": 5,
-      "date": "2025-04-13"
-    },
-    {
-      "id": "guide-boston-5-review-1",
-      "quote": "The way Emily Reed brought Hidden Gems to life was truly passionate. You could tell His loves what His does.",
-      "author": "Ali Miller",
-      "title": "Verified Tour Participant",
-      "city": "Boston",
-      "rating": 4,
-      "date": "2025-02-24"
-    },
-    {
-      "id": "guide-boston-5-review-2",
-      "quote": "Emily Reed is simply engaging. The tour was well-paced and Her attention to detail was remarkable.",
-      "author": "Jennifer Jansen",
-      "title": "Verified Tour Participant",
-      "city": "Boston",
-      "rating": 5,
-      "date": "2024-12-26"
-    },
-    {
-      "id": "guide-boston-5-review-3",
-      "quote": "From start to finish, Emily Reed delivered a engaging experience. Her expertise and care were unmatched.",
-      "author": "Kinsley Dunn",
-      "title": "Verified Tour Participant",
-      "city": "Boston",
-      "rating": 4,
-      "date": "2025-01-28"
-    }
-  ],
-  "guide-boston-6": [
-    {
-      "id": "guide-boston-6-review-0",
-      "quote": "Austin Nguyen created an environment that was both informative and relaxing. Their skilled approach kept everyone engaged.",
-      "author": "Madelyn Wood",
-      "title": "Verified Tour Participant",
-      "city": "Boston",
-      "rating": 5,
-      "date": "2024-12-21"
-    },
-    {
-      "id": "guide-boston-6-review-1",
-      "quote": "What an cheerful experience with Austin Nguyen! Their expertise in maritime heritage added so much value to our visit.",
-      "author": "Isabella Johnson",
-      "title": "Verified Tour Participant",
-      "city": "Boston",
-      "rating": 5,
-      "date": "2024-10-06"
-    },
-    {
-      "id": "guide-boston-6-review-2",
-      "quote": "I’ve taken many tours, but Austin Nguyen's was by far the most genuine. Their storytelling ability was incredible.",
-      "author": "Riley Cooper",
-      "title": "Verified Tour Participant",
-      "city": "Boston",
-      "rating": 5,
-      "date": "2025-04-13"
-    }
-  ],
-  "guide-boston-7": [
-    {
-      "id": "guide-boston-7-review-0",
-      "quote": "A truly welcoming experience thanks to Rebecca Reed. Their balance of facts and fun was exactly what we were hoping for.",
-      "author": "Mia Martin",
-      "title": "Verified Tour Participant",
-      "city": "Boston",
-      "rating": 5,
-      "date": "2024-10-21"
-    },
-    {
-      "id": "guide-boston-7-review-1",
-      "quote": "From start to finish, Rebecca Reed delivered a informative experience. His expertise and care were unmatched.",
-      "author": "Hassan Wallace",
-      "title": "Verified Tour Participant",
-      "city": "Boston",
-      "rating": 4,
-      "date": "2024-07-07"
-    },
-    {
-      "id": "guide-boston-7-review-2",
-      "quote": "It’s rare to find a guide as thorough as Rebecca Reed. Their ability to connect with people from all walks of life was exceptional.",
-      "author": "Adam Wallace",
+      "quote": "I’ve traveled a lot, but this was one of the most accommodating tours I’ve ever taken. Diego Rossi was fantastic from start to finish.",
+      "author": "Carl Rodriguez",
       "title": "Verified Tour Participant",
       "city": "Boston",
       "rating": 5,
       "date": "2024-06-30"
     },
     {
-      "id": "guide-boston-7-review-3",
-      "quote": "Every moment with Rebecca Reed felt intentional. His cheerful guidance made this one of the best parts of our trip.",
-      "author": "Elijah Collins",
+      "id": "guide-boston-3-review-2",
+      "quote": "Diego Rossi is simply trustworthy. The tour was well-paced and His attention to detail was remarkable.",
+      "author": "Kimberly Knight",
       "title": "Verified Tour Participant",
       "city": "Boston",
       "rating": 5,
-      "date": "2024-07-17"
+      "date": "2024-06-27"
+    },
+    {
+      "id": "guide-boston-3-review-3",
+      "quote": "It’s rare to find a guide as motivating as Diego Rossi. Her ability to connect with people from all walks of life was exceptional.",
+      "author": "Alexander Coleman",
+      "title": "Verified Tour Participant",
+      "city": "Boston",
+      "rating": 5,
+      "date": "2024-11-16"
+    }
+  ],
+  "guide-boston-4": [
+    {
+      "id": "guide-boston-4-review-0",
+      "quote": "Even our kids loved the tour—Thandiwe Anderson was so insightful and made sure everyone was involved.",
+      "author": "Gabriel Russell",
+      "title": "Verified Tour Participant",
+      "city": "Boston",
+      "rating": 5,
+      "date": "2024-11-25"
+    },
+    {
+      "id": "guide-boston-4-review-1",
+      "quote": "I’ve traveled a lot, but this was one of the most flexible tours I’ve ever taken. Thandiwe Anderson was fantastic from start to finish.",
+      "author": "Noah Stewart",
+      "title": "Verified Tour Participant",
+      "city": "Boston",
+      "rating": 5,
+      "date": "2024-06-19"
+    },
+    {
+      "id": "guide-boston-4-review-2",
+      "quote": "Thandiwe Anderson brought warmth and wonderful energy to the day. Her made us feel like locals instead of tourists.",
+      "author": "Carlos Crawford",
+      "title": "Verified Tour Participant",
+      "city": "Boston",
+      "rating": 5,
+      "date": "2024-06-17"
+    }
+  ],
+  "guide-boston-5": [
+    {
+      "id": "guide-boston-5-review-0",
+      "quote": "Touring with Claire Wang was a delight. Their enthusiastic personality and deep knowledge made the experience unforgettable.",
+      "author": "Santiago Harper",
+      "title": "Verified Tour Participant",
+      "city": "Boston",
+      "rating": 5,
+      "date": "2025-04-06"
+    },
+    {
+      "id": "guide-boston-5-review-1",
+      "quote": "Claire Wang didn’t just give us a tour—His gave us a connection to the city through insightful storytelling.",
+      "author": "Abigail Lewis",
+      "title": "Verified Tour Participant",
+      "city": "Boston",
+      "rating": 5,
+      "date": "2024-11-25"
+    },
+    {
+      "id": "guide-boston-5-review-2",
+      "quote": "We learned so much and had so much fun, all thanks to Claire Wang's skilled approach to sharing Scenic Views.",
+      "author": "Harry Taylor",
+      "title": "Verified Tour Participant",
+      "city": "Boston",
+      "rating": 4,
+      "date": "2025-01-16"
+    },
+    {
+      "id": "guide-boston-5-review-3",
+      "quote": "Even our kids loved the tour—Claire Wang was so professional and made sure everyone was involved.",
+      "author": "Jennifer Smith",
+      "title": "Verified Tour Participant",
+      "city": "Boston",
+      "rating": 5,
+      "date": "2025-05-01"
+    }
+  ],
+  "guide-boston-6": [
+    {
+      "id": "guide-boston-6-review-0",
+      "quote": "Anthony Warren has a gift for storytelling. The entire group was engaged, laughing, and learning—it was such a incredible time.",
+      "author": "Jesse Jones",
+      "title": "Verified Tour Participant",
+      "city": "Boston",
+      "rating": 3,
+      "date": "2025-05-02"
+    },
+    {
+      "id": "guide-boston-6-review-1",
+      "quote": "We were lucky to have Anthony Warren as our guide. Her helpful insights made a big difference in how we experienced Adventure Activities.",
+      "author": "Andrew Montgomery",
+      "title": "Verified Tour Participant",
+      "city": "Boston",
+      "rating": 5,
+      "date": "2024-12-18"
+    },
+    {
+      "id": "guide-boston-6-review-2",
+      "quote": "We felt completely at ease with Anthony Warren. Their reliable style made even complex topics accessible and fun.",
+      "author": "Genesis Price",
+      "title": "Verified Tour Participant",
+      "city": "Boston",
+      "rating": 3,
+      "date": "2024-10-27"
+    },
+    {
+      "id": "guide-boston-6-review-3",
+      "quote": "We felt completely at ease with Anthony Warren. Her attentive style made even complex topics accessible and fun.",
+      "author": "Ellie Day",
+      "title": "Verified Tour Participant",
+      "city": "Boston",
+      "rating": 5,
+      "date": "2025-01-31"
+    }
+  ],
+  "guide-boston-7": [
+    {
+      "id": "guide-boston-7-review-0",
+      "quote": "A truly motivating experience thanks to Adam Spencer. Her balance of facts and fun was exactly what we were hoping for.",
+      "author": "Nicole Maxwell",
+      "title": "Verified Tour Participant",
+      "city": "Boston",
+      "rating": 5,
+      "date": "2025-02-08"
+    },
+    {
+      "id": "guide-boston-7-review-1",
+      "quote": "Adam Spencer went above and beyond. His helpful energy and personal touch made the day extra special.",
+      "author": "Hassan Bennett",
+      "title": "Verified Tour Participant",
+      "city": "Boston",
+      "rating": 5,
+      "date": "2025-05-25"
+    },
+    {
+      "id": "guide-boston-7-review-2",
+      "quote": "I booked the tour last minute, but I’m so glad I did. Adam Spencer's amazing leadership and local tips were invaluable.",
+      "author": "Steven Keller",
+      "title": "Verified Tour Participant",
+      "city": "Boston",
+      "rating": 4,
+      "date": "2025-01-28"
     }
   ],
   "guide-boston-8": [
     {
       "id": "guide-boston-8-review-0",
-      "quote": "You’ll leave the tour smarter and smiling if Layla Parker is your guide. Their engaging energy is contagious.",
-      "author": "Alexa Garcia",
+      "quote": "If you’re looking for a attentive experience in regional cooking techniques, Mia Dunn is the one to book. Their professionalism stood out.",
+      "author": "Julie Hunter",
       "title": "Verified Tour Participant",
       "city": "Boston",
-      "rating": 4,
-      "date": "2024-06-14"
+      "rating": 5,
+      "date": "2024-11-26"
     },
     {
       "id": "guide-boston-8-review-1",
-      "quote": "A truly detail-oriented experience thanks to Layla Parker. His balance of facts and fun was exactly what we were hoping for.",
-      "author": "Cynthia Lee",
+      "quote": "The way Mia Dunn brought Local Sports to life was truly trustworthy. You could tell Her loves what Her does.",
+      "author": "Thandiwe Brown",
       "title": "Verified Tour Participant",
       "city": "Boston",
       "rating": 5,
-      "date": "2025-04-09"
+      "date": "2024-08-05"
     },
     {
       "id": "guide-boston-8-review-2",
-      "quote": "I wasn’t expecting to learn so much and enjoy it this much. Layla Parker was engaging and incredibly knowledgeable.",
-      "author": "Charlotte Morgan",
+      "quote": "I booked the tour last minute, but I’m so glad I did. Mia Dunn's approachable leadership and local tips were invaluable.",
+      "author": "Ralph Johnson",
       "title": "Verified Tour Participant",
       "city": "Boston",
       "rating": 4,
-      "date": "2025-05-26"
+      "date": "2025-02-12"
     },
     {
       "id": "guide-boston-8-review-3",
-      "quote": "I booked the tour last minute, but I’m so glad I did. Layla Parker's patient leadership and local tips were invaluable.",
-      "author": "Kenneth Maxwell",
+      "quote": "We left the tour inspired. Mia Dunn's informative way of sharing knowledge made a lasting impression on us.",
+      "author": "Philip Wallace",
       "title": "Verified Tour Participant",
       "city": "Boston",
-      "rating": 5,
+      "rating": 4,
       "date": "2025-02-26"
     }
   ],
   "guide-boston-9": [
     {
       "id": "guide-boston-9-review-0",
-      "quote": "Willie Harper didn’t just give us a tour—His gave us a connection to the city through professional storytelling.",
-      "author": "Kinsley Williams",
+      "quote": "I booked the tour last minute, but I’m so glad I did. Diego Day's reliable leadership and local tips were invaluable.",
+      "author": "Jennifer Reed",
       "title": "Verified Tour Participant",
       "city": "Boston",
-      "rating": 5,
-      "date": "2025-04-13"
+      "rating": 4,
+      "date": "2024-12-09"
     },
     {
       "id": "guide-boston-9-review-1",
-      "quote": "You could tell that Willie Harper genuinely cares about what His does. His approachable nature was a highlight of our trip.",
-      "author": "Keith Thomas",
+      "quote": "If you’re looking for a superb experience in Local History, Diego Day is the one to book. Her professionalism stood out.",
+      "author": "Deborah Kim",
       "title": "Verified Tour Participant",
       "city": "Boston",
       "rating": 5,
-      "date": "2024-09-20"
+      "date": "2025-01-25"
     },
     {
       "id": "guide-boston-9-review-2",
-      "quote": "Touring with Willie Harper was a delight. Their passionate personality and deep knowledge made the experience unforgettable.",
-      "author": "Zoe Hayes",
+      "quote": "You’ll leave the tour smarter and smiling if Diego Day is your guide. Her detail-oriented energy is contagious.",
+      "author": "Catherine Ivanov",
       "title": "Verified Tour Participant",
       "city": "Boston",
       "rating": 5,
-      "date": "2024-10-21"
+      "date": "2025-01-31"
     }
   ],
   "guide-boston-10": [
     {
       "id": "guide-boston-10-review-0",
-      "quote": "Every moment with Anna Brooks felt intentional. Her informative guidance made this one of the best parts of our trip.",
-      "author": "Emma Anderson",
+      "quote": "Every moment with Blake Wilson felt intentional. His detail-oriented guidance made this one of the best parts of our trip.",
+      "author": "Luis Anderson",
       "title": "Verified Tour Participant",
       "city": "Boston",
       "rating": 5,
-      "date": "2024-10-20"
+      "date": "2025-03-31"
     },
     {
       "id": "guide-boston-10-review-1",
-      "quote": "Anna Brooks made even the smallest detail feel important. His trustworthy touch made this tour stand out from the rest.",
-      "author": "Priya Kowalski",
+      "quote": "Blake Wilson brought warmth and outstanding energy to the day. Her made us feel like locals instead of tourists.",
+      "author": "Ava Müller",
       "title": "Verified Tour Participant",
       "city": "Boston",
       "rating": 4,
-      "date": "2025-04-30"
+      "date": "2024-06-21"
     },
     {
       "id": "guide-boston-10-review-2",
-      "quote": "Anna Brooks's tour was the highlight of our trip. His knowledgeable approach to sharing the history made everything interesting.",
-      "author": "Aaron Nakamura",
+      "quote": "You could tell that Blake Wilson genuinely cares about what His does. His dedicated nature was a highlight of our trip.",
+      "author": "Joseph Hawkins",
       "title": "Verified Tour Participant",
       "city": "Boston",
       "rating": 5,
-      "date": "2024-10-30"
-    },
-    {
-      "id": "guide-boston-10-review-3",
-      "quote": "Touring with Anna Brooks was a delight. Their incredible personality and deep knowledge made the experience unforgettable.",
-      "author": "Deborah Johnson",
-      "title": "Verified Tour Participant",
-      "city": "Boston",
-      "rating": 5,
-      "date": "2025-04-22"
+      "date": "2024-08-25"
     }
   ],
   "guide-boston-11": [
     {
       "id": "guide-boston-11-review-0",
-      "quote": "I wasn’t expecting to learn so much and enjoy it this much. Larry Carter was amazing and incredibly knowledgeable.",
-      "author": "Jennifer Henderson",
+      "quote": "Amina Williams has a gift for storytelling. The entire group was engaged, laughing, and learning—it was such a trustworthy time.",
+      "author": "Amy Nash",
       "title": "Verified Tour Participant",
       "city": "Boston",
-      "rating": 5,
-      "date": "2024-10-26"
+      "rating": 4,
+      "date": "2024-11-21"
     },
     {
       "id": "guide-boston-11-review-1",
-      "quote": "I’ve taken many tours, but Larry Carter's was by far the most remarkable. His storytelling ability was incredible.",
-      "author": "Eric Nguyen",
+      "quote": "What an superb experience with Amina Williams! Their expertise in local festivals added so much value to our visit.",
+      "author": "Ahmed Williams",
       "title": "Verified Tour Participant",
       "city": "Boston",
       "rating": 5,
-      "date": "2024-06-24"
+      "date": "2025-05-29"
     },
     {
       "id": "guide-boston-11-review-2",
-      "quote": "Larry Carter is simply personable. The tour was well-paced and His attention to detail was remarkable.",
-      "author": "Emma Warren",
+      "quote": "The way Amina Williams brought Art Walks to life was truly skilled. You could tell Their loves what Their does.",
+      "author": "Rachel Bennett",
       "title": "Verified Tour Participant",
       "city": "Boston",
       "rating": 5,
-      "date": "2025-04-13"
-    }
-  ],
-  "guide-boston-12": [
-    {
-      "id": "guide-boston-12-review-0",
-      "quote": "Khalid King's tour was the highlight of our trip. His captivating approach to sharing the history made everything interesting.",
-      "author": "Patrick Nguyen",
-      "title": "Verified Tour Participant",
-      "city": "Boston",
-      "rating": 5,
-      "date": "2024-10-12"
+      "date": "2024-08-13"
     },
     {
-      "id": "guide-boston-12-review-1",
-      "quote": "Our experience with Khalid King was patient. He showed us hidden gems we would have never found on our own.",
-      "author": "Walter Lopez",
-      "title": "Verified Tour Participant",
-      "city": "Boston",
-      "rating": 4,
-      "date": "2025-04-02"
-    },
-    {
-      "id": "guide-boston-12-review-2",
-      "quote": "Khalid King was an engaging guide who truly brought the city to life. His knowledge of Cultural Heritage was impressive.",
-      "author": "Jeremy Dunn",
+      "id": "guide-boston-11-review-3",
+      "quote": "You’ll leave the tour smarter and smiling if Amina Williams is your guide. Their insightful energy is contagious.",
+      "author": "Juan Clark",
       "title": "Verified Tour Participant",
       "city": "Boston",
       "rating": 5,
-      "date": "2025-05-23"
-    },
-    {
-      "id": "guide-boston-12-review-3",
-      "quote": "The way Khalid King brought museums and exhibits to life was truly reliable. You could tell Her loves what Her does.",
-      "author": "Thandiwe Crawford",
-      "title": "Verified Tour Participant",
-      "city": "Boston",
-      "rating": 5,
-      "date": "2024-07-07"
-    }
-  ],
-  "guide-boston-13": [
-    {
-      "id": "guide-boston-13-review-0",
-      "quote": "I’ve traveled a lot, but this was one of the most engaging tours I’ve ever taken. Linda Wilson was fantastic from start to finish.",
-      "author": "Maria Kowalski",
-      "title": "Verified Tour Participant",
-      "city": "Boston",
-      "rating": 5,
-      "date": "2025-06-03"
-    },
-    {
-      "id": "guide-boston-13-review-1",
-      "quote": "If you’re looking for a professional experience in Hidden Gems, Linda Wilson is the one to book. Their professionalism stood out.",
-      "author": "Matthew Holloway",
-      "title": "Verified Tour Participant",
-      "city": "Boston",
-      "rating": 5,
-      "date": "2025-02-21"
-    },
-    {
-      "id": "guide-boston-13-review-2",
-      "quote": "You’ll leave the tour smarter and smiling if Linda Wilson is your guide. Her attentive energy is contagious.",
-      "author": "Samuel Martin",
-      "title": "Verified Tour Participant",
-      "city": "Boston",
-      "rating": 4,
-      "date": "2024-12-09"
+      "date": "2025-01-03"
     }
   ]
 };

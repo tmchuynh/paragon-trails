@@ -6,83 +6,92 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const kampalaTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-kampala-1",
-    quote: "What most people don't realize about living in Kampala is how welcoming it actually is. I've found my true home here.",
-    author: "Santiago Nakamura",
-    title: "The Vibrant Life of Kampala Residents",
+    quote: "What most people don't realize about living in Kampala is how culturally rich it actually is. I've found my true home here.",
+    author: "Keith Reed",
+    title: "The Heartbeat of Kampala Life",
     city: "Kampala",
-    rating: 4.1,
-    date: "2023-10-24"
+    rating: 4.7,
+    date: "2023-08-17"
   },
   {
     id: "city-testimonial-kampala-2",
-    quote: "The nightlife in Kampala is vibrant and full of {ENTERTAINMENT_FEATURE} for everyone.",
-    author: "Jerry Fletcher",
-    title: "The Vibrant Life of Kampala Residents",
+    quote: "The {GREEN_SPACES} in Kampala offer a perfect escape from the urban buzz without leaving the city limits.",
+    author: "Harper Campbell",
+    title: "The Neighborhoods That Make Kampala Home",
     city: "Kampala",
     rating: 4.9,
-    date: "2024-09-27"
+    date: "2024-12-06"
   },
   {
     id: "city-testimonial-kampala-3",
-    quote: "The sense of {SAFETY} in Kampala makes me feel comfortable raising my kids here.",
-    author: "Bryan Moore",
-    title: "The Everyday Magic of Kampala",
+    quote: "The summer public pool scene in Kampala is something I look forward to every year. It's what makes living here magical.",
+    author: "Mia Edwards",
+    title: "The True Character of Kampala",
     city: "Kampala",
-    rating: 4.3,
-    date: "2025-07-19"
+    rating: 4.5,
+    date: "2025-02-14"
   },
   {
     id: "city-testimonial-kampala-4",
-    quote: "The {FESTIVAL_OR_EVENT} season in Kampala brings so much excitement and pride to the community.",
-    author: "Wayne Holloway",
-    title: "The Challenges and Charms of Living in Kampala",
+    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Kampala make daily life convenient and stress-free.",
+    author: "Lucas Morales",
+    title: "What Makes Kampala Feel Like Family",
     city: "Kampala",
-    rating: 4.6,
-    date: "2024-03-15"
+    rating: 4.4,
+    date: "2024-02-26"
   },
   {
     id: "city-testimonial-kampala-5",
-    quote: "After 6 years as a Kampala local, I still appreciate the sun-drenched plazas that makes this place special.",
-    author: "Nathan Thomas",
-    title: "What Makes Kampala Feel Like Family",
+    quote: "I appreciate how Kampala balances {TECH_INNOVATION} with historic charm perfectly.",
+    author: "Gregory Garcia",
+    title: "The Heartbeat of Kampala Life",
     city: "Kampala",
-    rating: 4.9,
-    date: "2025-01-13"
+    rating: 4.4,
+    date: "2025-06-18"
   },
   {
     id: "city-testimonial-kampala-6",
-    quote: "The autumn neighborhood walks in Kampala is something I look forward to every year. It's what makes living here magical.",
-    author: "Sarah Clark",
-    title: "The Vibrant Life of Kampala Residents",
+    quote: "Living here means being a part of Kampala's ongoing story of innovation and tradition.",
+    author: "Valentina Clark",
+    title: "From Newcomer to Local in Kampala",
     city: "Kampala",
-    rating: 4.5,
-    date: "2024-06-28"
+    rating: 4.3,
+    date: "2025-05-14"
   },
   {
     id: "city-testimonial-kampala-7",
-    quote: "I've found that Kampala's {TRANSPORT_FEATURE} really makes getting around effortless and enjoyable.",
-    author: "Avery Ivanov",
-    title: "The Neighborhoods That Make Kampala Home",
+    quote: "What I love most about living in Kampala is the mountain views. It creates such a unique atmosphere that feels like home.",
+    author: "Russell Carpenter",
+    title: "Inside the Culture of Kampala",
     city: "Kampala",
-    rating: 4.7,
-    date: "2023-08-28"
+    rating: 4.3,
+    date: "2025-05-21"
   },
   {
     id: "city-testimonial-kampala-8",
-    quote: "The gentrifying neighborhoods in Kampala each have their own character, which keeps life interesting year after year.",
-    author: "Michelle Mason",
-    title: "What Makes Kampala Uniquely Livable",
+    quote: "The sense of {SAFETY} in Kampala makes me feel comfortable raising my kids here.",
+    author: "Zoe Fox",
+    title: "The Everyday Magic of Kampala",
     city: "Kampala",
-    rating: 4.1,
-    date: "2023-08-26"
+    rating: 4.2,
+    date: "2023-05-26"
   },
   {
     id: "city-testimonial-kampala-9",
-    quote: "Living in Kampala means experiencing civic engagement on a daily basis, which is why I could never leave.",
-    author: "Jerry Jackson",
-    title: "Inside the Culture of Kampala",
+    quote: "Every weekend in Kampala brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
+    author: "Betty Stewart",
+    title: "From Newcomer to Local in Kampala",
     city: "Kampala",
-    rating: 4.6,
-    date: "2025-09-07"
+    rating: 4.4,
+    date: "2024-02-10"
+  },
+  {
+    id: "city-testimonial-kampala-10",
+    quote: "Raising my family in Kampala gives us access to nature connection, which is truly invaluable.",
+    author: "Stephanie Harper",
+    title: "How Kampala Balances Tradition and Innovation",
+    city: "Kampala",
+    rating: 4.1,
+    date: "2025-08-16"
   }
 ];

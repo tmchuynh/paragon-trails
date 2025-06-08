@@ -6,65 +6,92 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const fezTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-fez-1",
-    quote: "The {FESTIVAL_OR_EVENT} season in Fez brings so much excitement and pride to the community.",
-    author: "Cynthia Wallace",
-    title: "From Newcomer to Local in Fez",
+    quote: "Raising my family in Fez gives us access to outdoor recreation, which is truly invaluable.",
+    author: "Gabriella Garcia",
+    title: "How Fez Balances Tradition and Innovation",
     city: "Fez",
-    rating: 4.9,
-    date: "2025-10-15"
+    rating: 4.5,
+    date: "2023-01-27"
   },
   {
     id: "city-testimonial-fez-2",
-    quote: "The people of Fez are incredibly welcoming and have made me feel at home since day one.",
-    author: "Brooklyn Reeves",
-    title: "Stories From the Streets of Fez",
+    quote: "Living in Fez means experiencing civic engagement on a daily basis, which is why I could never leave.",
+    author: "Samantha Thomas",
+    title: "Why Fez Is a Place to Grow",
     city: "Fez",
-    rating: 4.2,
-    date: "2023-09-06"
+    rating: 4.4,
+    date: "2025-06-13"
   },
   {
     id: "city-testimonial-fez-3",
-    quote: "Living in Fez means I get to enjoy {SPORTS_OR_OUTDOOR_ACTIVITY} year-round.",
-    author: "Genesis Ellis",
-    title: "The Unexpected Joys of Fez Living",
+    quote: "As a long-time resident of Fez, I can't imagine living anywhere else. The artisan workshops here is something you can't find elsewhere.",
+    author: "Wayne Morales",
+    title: "Finding Inspiration Every Day in Fez",
     city: "Fez",
-    rating: 4.2,
-    date: "2023-10-20"
+    rating: 4.3,
+    date: "2024-09-26"
   },
   {
     id: "city-testimonial-fez-4",
-    quote: "If you want a city that offers {LIFESTYLE_BENEFIT}, Fez is the place to be.",
-    author: "Christian Knight",
-    title: "How Fez Balances Tradition and Innovation",
+    quote: "As someone who's lived in many cities, I can say that Fez's local government is unmatched anywhere else.",
+    author: "Keith Jansen",
+    title: "Life in Fez: A Local Perspective",
     city: "Fez",
-    rating: 4.6,
-    date: "2023-07-18"
+    rating: 4.3,
+    date: "2023-04-17"
   },
   {
     id: "city-testimonial-fez-5",
-    quote: "The art and creativity flowing through Fez is inspiring. It feels like living inside a masterpiece.",
-    author: "Gabriella King",
-    title: "The Unexpected Joys of Fez Living",
+    quote: "From my apartment in Fez, I can experience local craft workshops. Where else could you do that?",
+    author: "Patricia Palmer",
+    title: "How Fez Changed My Life",
     city: "Fez",
-    rating: 4.1,
-    date: "2024-11-11"
+    rating: 5,
+    date: "2023-08-02"
   },
   {
     id: "city-testimonial-fez-6",
-    quote: "The sense of {SAFETY} in Fez makes me feel comfortable raising my kids here.",
-    author: "Rachel Moore",
-    title: "The Heartbeat of Fez Life",
+    quote: "The people of Fez are incredibly welcoming and have made me feel at home since day one.",
+    author: "Diego Wright",
+    title: "The True Character of Fez",
     city: "Fez",
-    rating: 4.9,
-    date: "2023-11-25"
+    rating: 4.5,
+    date: "2023-08-18"
   },
   {
     id: "city-testimonial-fez-7",
-    quote: "Fez isn't just where I live—it's part of my identity now. The architectural beauty has shaped who I am.",
-    author: "Patrick Clark",
-    title: "Why I Chose Fez as Home",
+    quote: "The {GREEN_SPACES} in Fez offer a perfect escape from the urban buzz without leaving the city limits.",
+    author: "Maria Griffin",
+    title: "The Soul of Fez: A Local's View",
     city: "Fez",
-    rating: 5,
-    date: "2024-03-22"
+    rating: 4.2,
+    date: "2024-03-10"
+  },
+  {
+    id: "city-testimonial-fez-8",
+    quote: "I appreciate how Fez balances {TECH_INNOVATION} with historic charm perfectly.",
+    author: "Wei Garcia",
+    title: "Fez: A City That Grows With You",
+    city: "Fez",
+    rating: 4.6,
+    date: "2024-03-21"
+  },
+  {
+    id: "city-testimonial-fez-9",
+    quote: "The food scene in Fez is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
+    author: "Bruce Patel",
+    title: "The Soul of Fez: A Local's View",
+    city: "Fez",
+    rating: 4.8,
+    date: "2025-10-03"
+  },
+  {
+    id: "city-testimonial-fez-10",
+    quote: "The balance of public transit convenience and bike-friendly paths in Fez creates a quality of life that's hard to find elsewhere.",
+    author: "Javier Dixon",
+    title: "A Love Letter to Fez",
+    city: "Fez",
+    rating: 4.8,
+    date: "2024-06-21"
   }
 ];

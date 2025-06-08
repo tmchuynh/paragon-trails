@@ -6,47 +6,47 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const sanfranciscoTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-san-francisco-1",
-    quote: "The academic neighborhoods in San Francisco each have their own character, which keeps life interesting year after year.",
-    author: "Gabriella Campbell",
-    title: "A Resident's Guide to Living Well in San Francisco",
+    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in San Francisco make daily life convenient and stress-free.",
+    author: "Jesse Campbell",
+    title: "How San Francisco Changed My Life",
     city: "San Francisco",
-    rating: 4.3,
-    date: "2024-08-05"
+    rating: 4.2,
+    date: "2024-12-06"
   },
   {
     id: "city-testimonial-san-francisco-2",
-    quote: "No two days are the same living in San Francisco. The {DYNAMIC_ASPECT} keeps me excited to wake up every morning.",
-    author: "Dorothy Mason",
-    title: "My Corner of San Francisco",
+    quote: "San Francisco's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
+    author: "Eleanor Cooper",
+    title: "A Resident's Guide to Living Well in San Francisco",
     city: "San Francisco",
-    rating: 4.4,
-    date: "2024-04-05"
+    rating: 4.9,
+    date: "2025-07-15"
   },
   {
     id: "city-testimonial-san-francisco-3",
-    quote: "The sense of {SAFETY} in San Francisco makes me feel comfortable raising my kids here.",
-    author: "Juan Bennett",
-    title: "What Makes San Francisco Special to Live In",
+    quote: "What I love most about living in San Francisco is the skate parks. It creates such a unique atmosphere that feels like home.",
+    author: "Lily Gibson",
+    title: "The Community Spirit That Defines San Francisco",
     city: "San Francisco",
-    rating: 4.5,
-    date: "2023-07-20"
+    rating: 4.2,
+    date: "2024-12-15"
   },
   {
     id: "city-testimonial-san-francisco-4",
-    quote: "What I love most about living in San Francisco is the theater district. It creates such a unique atmosphere that feels like home.",
-    author: "Scarlett Warren",
-    title: "Why I’m Proud to Call San Francisco Home",
+    quote: "No two days are the same living in San Francisco. The {DYNAMIC_ASPECT} keeps me excited to wake up every morning.",
+    author: "Sarah Griffin",
+    title: "San Francisco: A City That Grows With You",
     city: "San Francisco",
-    rating: 4.1,
-    date: "2023-07-23"
+    rating: 4.3,
+    date: "2024-01-20"
   },
   {
     id: "city-testimonial-san-francisco-5",
-    quote: "San Francisco's folk traditions scene has become central to my life here. I couldn't imagine living without it now.",
-    author: "Albert Montgomery",
-    title: "My San Francisco Story: Life as a Resident",
+    quote: "The balance of urban convenience and nature access in San Francisco creates a quality of life that's hard to find elsewhere.",
+    author: "Gabriel Maxwell",
+    title: "Why I Chose San Francisco as Home",
     city: "San Francisco",
-    rating: 4.1,
-    date: "2025-08-14"
+    rating: 4.9,
+    date: "2024-02-23"
   }
 ];

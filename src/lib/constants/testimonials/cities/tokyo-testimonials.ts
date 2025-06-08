@@ -6,65 +6,83 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const tokyoTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-tokyo-1",
-    quote: "What really surprised me about Tokyo is its {DIVERSITY_FEATURE} — it’s a true melting pot.",
-    author: "Daniel Fletcher",
-    title: "What Makes Tokyo Feel Like Family",
+    quote: "The historical significance of Tokyo adds a depth to daily life that I truly cherish.",
+    author: "Raymond Ali",
+    title: "The Neighborhoods That Make Tokyo Home",
     city: "Tokyo",
-    rating: 4.1,
-    date: "2025-05-12"
+    rating: 4.5,
+    date: "2025-05-06"
   },
   {
     id: "city-testimonial-tokyo-2",
-    quote: "Living in Tokyo has been one of the best decisions of my life. The innovative architecture here makes everyday life so enjoyable.",
-    author: "Anthony Jackson",
-    title: "Inside the Culture of Tokyo",
+    quote: "Community events and festivals in Tokyo bring everyone together, making the {COMMUNITY_ASPECT} really stand out.",
+    author: "Randy Porter",
+    title: "The Neighborhoods That Make Tokyo Home",
     city: "Tokyo",
-    rating: 4.3,
-    date: "2023-01-15"
+    rating: 4.7,
+    date: "2025-10-22"
   },
   {
     id: "city-testimonial-tokyo-3",
-    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Tokyo make daily life convenient and stress-free.",
-    author: "Sean Knight",
-    title: "Why Tokyo Feels Like Home",
+    quote: "I love how Tokyo celebrates {FESTIVAL_OR_EVENT}, it brings so much joy and community spirit.",
+    author: "Diego White",
+    title: "Living and Thriving in Tokyo",
     city: "Tokyo",
-    rating: 4.4,
-    date: "2024-08-18"
+    rating: 5,
+    date: "2025-06-12"
   },
   {
     id: "city-testimonial-tokyo-4",
-    quote: "Living in Tokyo has opened my eyes to {PERSONAL_GROWTH_ASPECT} that I never expected.",
-    author: "Victor Spencer",
+    quote: "The {GREEN_SPACES} in Tokyo offer a perfect escape from the urban buzz without leaving the city limits.",
+    author: "Mary Payne",
     title: "Why I’m Proud to Call Tokyo Home",
     city: "Tokyo",
     rating: 4.3,
-    date: "2024-10-08"
+    date: "2025-04-10"
   },
   {
     id: "city-testimonial-tokyo-5",
-    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Tokyo make daily life convenient and stress-free.",
-    author: "Charlotte Fisher",
-    title: "Tokyo: Beyond the Tourist Experience",
+    quote: "I love how Tokyo celebrates {FESTIVAL_OR_EVENT}, it brings so much joy and community spirit.",
+    author: "Adeline Kim",
+    title: "Why I Chose Tokyo as Home",
     city: "Tokyo",
-    rating: 4.8,
-    date: "2024-01-23"
+    rating: 5,
+    date: "2024-12-15"
   },
   {
     id: "city-testimonial-tokyo-6",
-    quote: "The food scene in Tokyo is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
-    author: "Nicholas Miller",
-    title: "The Everyday Magic of Tokyo",
+    quote: "The mix of old and new in Tokyo's architecture and culture keeps the city feeling fresh yet grounded.",
+    author: "Eugene Brooks",
+    title: "What Makes Tokyo Special to Live In",
     city: "Tokyo",
-    rating: 5,
-    date: "2023-12-09"
+    rating: 4,
+    date: "2024-04-20"
   },
   {
     id: "city-testimonial-tokyo-7",
-    quote: "The people of Tokyo are incredibly welcoming and have made me feel at home since day one.",
-    author: "Amanda Chen",
-    title: "Why I’m Proud to Call Tokyo Home",
+    quote: "I've found that Tokyo's {TRANSPORT_FEATURE} really makes getting around effortless and enjoyable.",
+    author: "Barbara Mitchell",
+    title: "The Vibrant Life of Tokyo Residents",
+    city: "Tokyo",
+    rating: 4.6,
+    date: "2023-06-27"
+  },
+  {
+    id: "city-testimonial-tokyo-8",
+    quote: "The spring cherry blossoms in Tokyo is something I look forward to every year. It's what makes living here magical.",
+    author: "Sarah Smith",
+    title: "Stories From the Streets of Tokyo",
+    city: "Tokyo",
+    rating: 4.4,
+    date: "2025-10-14"
+  },
+  {
+    id: "city-testimonial-tokyo-9",
+    quote: "Living in Tokyo has opened my eyes to {PERSONAL_GROWTH_ASPECT} that I never expected.",
+    author: "Laura Watson",
+    title: "Tokyo Through a Resident's Eyes",
     city: "Tokyo",
     rating: 4.1,
-    date: "2023-08-13"
+    date: "2025-09-05"
   }
 ];

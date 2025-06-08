@@ -6,65 +6,83 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const tahitiTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-tahiti-1",
-    quote: "What I love most about living in Tahiti is the sports facilities. It creates such a unique atmosphere that feels like home.",
-    author: "Sean Carter",
-    title: "Why Tahiti Is a Place to Grow",
+    quote: "What I love most about living in Tahiti is the urban murals and street art. It creates such a unique atmosphere that feels like home.",
+    author: "Ahmed Hunter",
+    title: "The Unexpected Joys of Tahiti Living",
     city: "Tahiti",
-    rating: 4.1,
-    date: "2023-10-25"
+    rating: 4.9,
+    date: "2024-07-02"
   },
   {
     id: "city-testimonial-tahiti-2",
-    quote: "The {GREEN_SPACES} in Tahiti offer a perfect escape from the urban buzz without leaving the city limits.",
-    author: "Lucas Warren",
-    title: "What Makes Tahiti Special to Live In",
+    quote: "The balance of modern amenities and vintage charm in Tahiti creates a quality of life that's hard to find elsewhere.",
+    author: "James Carter",
+    title: "My Corner of Tahiti",
     city: "Tahiti",
-    rating: 4.6,
-    date: "2025-05-02"
+    rating: 4.3,
+    date: "2024-06-27"
   },
   {
     id: "city-testimonial-tahiti-3",
-    quote: "If you want a city that offers {LIFESTYLE_BENEFIT}, Tahiti is the place to be.",
-    author: "Alan Murray",
-    title: "Finding Inspiration Every Day in Tahiti",
+    quote: "From my apartment in Tahiti, I can bike to the beach in minutes. Where else could you do that?",
+    author: "Lerato Lopez",
+    title: "The Heartbeat of Tahiti Life",
     city: "Tahiti",
-    rating: 4.5,
-    date: "2024-01-17"
+    rating: 4.2,
+    date: "2023-05-12"
   },
   {
     id: "city-testimonial-tahiti-4",
-    quote: "Living in Tahiti has allowed me to connect deeply with {NATURE_FEATURE} nearby.",
-    author: "Brenda Jennings",
-    title: "Tahiti's Hidden Treasures for Locals",
+    quote: "After moving to Tahiti 15 years ago, I fell in love with the modern infrastructure of this place. It's truly special.",
+    author: "Janet Hall",
+    title: "What I Love About Living in Tahiti",
     city: "Tahiti",
     rating: 4.2,
-    date: "2023-12-05"
+    date: "2023-11-24"
   },
   {
     id: "city-testimonial-tahiti-5",
-    quote: "The multicultural neighborhoods in Tahiti each have their own character, which keeps life interesting year after year.",
-    author: "Gary West",
-    title: "Uncovering the Layers of Tahiti",
+    quote: "Tahiti's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
+    author: "Priya Dubois",
+    title: "Why Tahiti Keeps Getting Better",
     city: "Tahiti",
-    rating: 4.6,
-    date: "2023-11-07"
+    rating: 4.3,
+    date: "2024-07-06"
   },
   {
     id: "city-testimonial-tahiti-6",
-    quote: "If you want a city that offers {LIFESTYLE_BENEFIT}, Tahiti is the place to be.",
-    author: "Randy Campbell",
-    title: "A Resident's Guide to Living Well in Tahiti",
+    quote: "Community events and festivals in Tahiti bring everyone together, making the {COMMUNITY_ASPECT} really stand out.",
+    author: "Antonio Carter",
+    title: "The Community Spirit That Defines Tahiti",
     city: "Tahiti",
     rating: 4.1,
-    date: "2023-11-10"
+    date: "2023-12-20"
   },
   {
     id: "city-testimonial-tahiti-7",
-    quote: "If you want a city that offers {LIFESTYLE_BENEFIT}, Tahiti is the place to be.",
-    author: "Luis Spencer",
-    title: "The Soul of Tahiti: A Local's View",
+    quote: "The sense of {SAFETY} in Tahiti makes me feel comfortable raising my kids here.",
+    author: "Antonio Curtis",
+    title: "The Challenges and Charms of Living in Tahiti",
     city: "Tahiti",
-    rating: 4.9,
-    date: "2023-02-08"
+    rating: 4.4,
+    date: "2025-10-17"
+  },
+  {
+    id: "city-testimonial-tahiti-8",
+    quote: "The historical significance of Tahiti adds a depth to daily life that I truly cherish.",
+    author: "Dylan Anderson",
+    title: "Life in Tahiti: A Local Perspective",
+    city: "Tahiti",
+    rating: 4.3,
+    date: "2024-08-10"
+  },
+  {
+    id: "city-testimonial-tahiti-9",
+    quote: "I appreciate how Tahiti balances {TECH_INNOVATION} with historic charm perfectly.",
+    author: "Elena Ellis",
+    title: "My Corner of Tahiti",
+    city: "Tahiti",
+    rating: 4.8,
+    date: "2023-03-10"
   }
 ];

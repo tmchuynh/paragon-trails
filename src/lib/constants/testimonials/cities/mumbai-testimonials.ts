@@ -6,83 +6,83 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const mumbaiTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-mumbai-1",
-    quote: "Living in Mumbai has opened my eyes to {PERSONAL_GROWTH_ASPECT} that I never expected.",
-    author: "Maya Suzuki",
-    title: "Living the Mumbai Lifestyle",
+    quote: "Mumbai's theater scene has become central to my life here. I couldn't imagine living without it now.",
+    author: "Gabriella White",
+    title: "The Vibrant Life of Mumbai Residents",
     city: "Mumbai",
-    rating: 4.5,
-    date: "2025-04-25"
+    rating: 4.6,
+    date: "2025-11-15"
   },
   {
     id: "city-testimonial-mumbai-2",
-    quote: "One of my favorite parts about living in Mumbai is the {MARKET_OR_SHOPPING_FEATURE} just around the corner.",
-    author: "Sean Hernandez",
-    title: "Why Mumbai Keeps Getting Better",
+    quote: "No two days are the same living in Mumbai. The {DYNAMIC_ASPECT} keeps me excited to wake up every morning.",
+    author: "Isabella Montgomery",
+    title: "The Beauty of Everyday Life in Mumbai",
     city: "Mumbai",
-    rating: 4.6,
-    date: "2025-05-19"
+    rating: 4.7,
+    date: "2025-08-03"
   },
   {
     id: "city-testimonial-mumbai-3",
-    quote: "Living in Mumbai has opened my eyes to {PERSONAL_GROWTH_ASPECT} that I never expected.",
-    author: "Albert Nash",
-    title: "The Everyday Magic of Mumbai",
+    quote: "The balance of tradition and progress in Mumbai creates a quality of life that's hard to find elsewhere.",
+    author: "Amelia Chambers",
+    title: "Discovering Home in Mumbai",
     city: "Mumbai",
-    rating: 4.8,
-    date: "2023-02-02"
+    rating: 4.7,
+    date: "2023-05-10"
   },
   {
     id: "city-testimonial-mumbai-4",
-    quote: "I've found that Mumbai's {TRANSPORT_FEATURE} really makes getting around effortless and enjoyable.",
-    author: "Javier Griffin",
-    title: "Why Mumbai Is a Place to Grow",
+    quote: "As a decade-long resident of Mumbai, I can't imagine living anywhere else. The seasonal outdoor markets here is something you can't find elsewhere.",
+    author: "Nomsa Collins",
+    title: "What Makes Mumbai Special to Live In",
     city: "Mumbai",
-    rating: 4.9,
-    date: "2025-08-24"
+    rating: 4,
+    date: "2025-08-18"
   },
   {
     id: "city-testimonial-mumbai-5",
-    quote: "The {GREEN_SPACES} in Mumbai offer a perfect escape from the urban buzz without leaving the city limits.",
-    author: "Boris Lopez",
-    title: "Finding Balance in Mumbai",
+    quote: "Living in Mumbai has been one of the best decisions of my life. The pet-friendly parks here makes everyday life so enjoyable.",
+    author: "Kyle Maxwell",
+    title: "Inside the Culture of Mumbai",
     city: "Mumbai",
-    rating: 4.8,
-    date: "2024-11-13"
+    rating: 4.6,
+    date: "2024-05-18"
   },
   {
     id: "city-testimonial-mumbai-6",
-    quote: "Mumbai's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
-    author: "Joan Fisher",
-    title: "Living the Mumbai Lifestyle",
+    quote: "Community events and festivals in Mumbai bring everyone together, making the {COMMUNITY_ASPECT} really stand out.",
+    author: "Ahmed King",
+    title: "Uncovering the Layers of Mumbai",
     city: "Mumbai",
-    rating: 4.6,
-    date: "2025-05-27"
+    rating: 4.1,
+    date: "2025-04-12"
   },
   {
     id: "city-testimonial-mumbai-7",
-    quote: "The balance of diverse culinary experiences and local farmers markets in Mumbai creates a quality of life that's hard to find elsewhere.",
-    author: "Donna Smith",
-    title: "The Soul of Mumbai: A Local's View",
+    quote: "After moving to Mumbai 2 years ago, I fell in love with the architectural beauty of this place. It's truly special.",
+    author: "Isabella Jansen",
+    title: "The Unexpected Joys of Mumbai Living",
     city: "Mumbai",
-    rating: 4.5,
-    date: "2024-07-28"
+    rating: 4.4,
+    date: "2025-07-10"
   },
   {
     id: "city-testimonial-mumbai-8",
-    quote: "Raising my family in Mumbai gives us access to multigenerational interactions, which is truly invaluable.",
-    author: "William Reeves",
-    title: "The Unexpected Joys of Mumbai Living",
+    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Mumbai make daily life convenient and stress-free.",
+    author: "Maria Baker",
+    title: "What I Love About Living in Mumbai",
     city: "Mumbai",
-    rating: 4.9,
-    date: "2023-10-13"
+    rating: 5,
+    date: "2023-04-05"
   },
   {
     id: "city-testimonial-mumbai-9",
-    quote: "As a decade-long resident of Mumbai, I can't imagine living anywhere else. The access to nature here is something you can't find elsewhere.",
-    author: "Matthew Gibson",
-    title: "Why Mumbai Keeps Getting Better",
+    quote: "The balance of modern amenities and vintage charm in Mumbai creates a quality of life that's hard to find elsewhere.",
+    author: "Michelle Brown",
+    title: "Finding Inspiration Every Day in Mumbai",
     city: "Mumbai",
-    rating: 4.4,
-    date: "2025-11-09"
+    rating: 4,
+    date: "2025-02-10"
   }
 ];

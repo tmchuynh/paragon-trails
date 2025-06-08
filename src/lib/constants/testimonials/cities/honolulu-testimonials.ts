@@ -6,47 +6,47 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const honoluluTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-honolulu-1",
-    quote: "The food scene in Honolulu is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
-    author: "Harold Reeves",
-    title: "The Unexpected Joys of Honolulu Living",
+    quote: "What I love most about living in Honolulu is the urban plazas. It creates such a unique atmosphere that feels like home.",
+    author: "Samantha Dubois",
+    title: "Honolulu: A City That Grows With You",
     city: "Honolulu",
-    rating: 4.6,
-    date: "2025-05-07"
+    rating: 4.3,
+    date: "2024-05-18"
   },
   {
     id: "city-testimonial-honolulu-2",
-    quote: "The open-air cinemas in Honolulu makes everyday life feel like an adventure. I've been here 2 years and still discover new things.",
-    author: "Adeline White",
-    title: "Why Honolulu Is a Place to Grow",
+    quote: "One of the best things about living in Honolulu is the {ACCESSIBILITY_FEATURE}—it makes everything so convenient.",
+    author: "Terry Reed",
+    title: "Uncovering the Layers of Honolulu",
     city: "Honolulu",
-    rating: 4.2,
-    date: "2025-10-17"
+    rating: 4.6,
+    date: "2025-03-20"
   },
   {
     id: "city-testimonial-honolulu-3",
-    quote: "What really surprised me about Honolulu is its {DIVERSITY_FEATURE} — it’s a true melting pot.",
-    author: "Ella Day",
-    title: "Living Sustainably in Honolulu",
+    quote: "Honolulu isn't just where I live—it's part of my identity now. The market scene has shaped who I am.",
+    author: "Gerald West",
+    title: "The Everyday Magic of Honolulu",
     city: "Honolulu",
-    rating: 5,
-    date: "2023-12-27"
+    rating: 4.7,
+    date: "2024-01-07"
   },
   {
     id: "city-testimonial-honolulu-4",
-    quote: "The autumn neighborhood walks in Honolulu is something I look forward to every year. It's what makes living here magical.",
-    author: "Ethan Kim",
-    title: "Living and Thriving in Honolulu",
+    quote: "The {GREEN_SPACES} in Honolulu offer a perfect escape from the urban buzz without leaving the city limits.",
+    author: "Thandiwe Lee",
+    title: "From Newcomer to Local in Honolulu",
     city: "Honolulu",
-    rating: 4.9,
-    date: "2023-03-28"
+    rating: 4.7,
+    date: "2024-02-12"
   },
   {
     id: "city-testimonial-honolulu-5",
-    quote: "The art and creativity flowing through Honolulu is inspiring. It feels like living inside a masterpiece.",
-    author: "Santiago Murray",
-    title: "What Makes Honolulu Special to Live In",
+    quote: "The nightlife in Honolulu is vibrant and full of {ENTERTAINMENT_FEATURE} for everyone.",
+    author: "Russell Lee",
+    title: "Honolulu: More Than Just a Place",
     city: "Honolulu",
-    rating: 4.3,
-    date: "2024-08-27"
+    rating: 4.6,
+    date: "2025-05-08"
   }
 ];

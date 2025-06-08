@@ -6,56 +6,83 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const fortkochiTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-fort-kochi-1",
-    quote: "One of the best things about living in Fort Kochi is the {ACCESSIBILITY_FEATURE}—it makes everything so convenient.",
-    author: "Samuel Lewis",
-    title: "What Makes Fort Kochi Feel Like Family",
+    quote: "What I tell friends considering moving to Fort Kochi is to appreciate the independent bookstores—it's what makes daily life here so rich.",
+    author: "Zoe Silva",
+    title: "The Challenges and Charms of Living in Fort Kochi",
     city: "Fort Kochi",
-    rating: 4.1,
-    date: "2024-04-22"
+    rating: 4.7,
+    date: "2025-09-05"
   },
   {
     id: "city-testimonial-fort-kochi-2",
-    quote: "What really surprised me about Fort Kochi is its {DIVERSITY_FEATURE} — it’s a true melting pot.",
-    author: "Ella Morales",
-    title: "Why Fort Kochi Feels Like Home",
+    quote: "Fort Kochi's film festivals scene has become central to my life here. I couldn't imagine living without it now.",
+    author: "Carlos Clark",
+    title: "Fort Kochi Living: Worth Every Moment",
     city: "Fort Kochi",
-    rating: 4.8,
-    date: "2023-02-02"
+    rating: 4.1,
+    date: "2023-11-19"
   },
   {
     id: "city-testimonial-fort-kochi-3",
-    quote: "Living in Fort Kochi has allowed me to connect deeply with {NATURE_FEATURE} nearby.",
-    author: "Eleanor Thomas",
-    title: "The Beauty of Everyday Life in Fort Kochi",
+    quote: "Living here means being a part of Fort Kochi's ongoing story of innovation and tradition.",
+    author: "Austin Wood",
+    title: "My Corner of Fort Kochi",
     city: "Fort Kochi",
-    rating: 4.7,
-    date: "2024-07-16"
+    rating: 4.1,
+    date: "2025-02-02"
   },
   {
     id: "city-testimonial-fort-kochi-4",
-    quote: "If you want a city that offers {LIFESTYLE_BENEFIT}, Fort Kochi is the place to be.",
-    author: "Madelyn da Costa",
-    title: "Why I’m Proud to Call Fort Kochi Home",
+    quote: "Living in Fort Kochi means being surrounded by botanical gardens, which feeds my soul every day.",
+    author: "Mary Wells",
+    title: "How Fort Kochi Changed My Life",
     city: "Fort Kochi",
-    rating: 4.2,
-    date: "2023-05-22"
+    rating: 4.5,
+    date: "2024-12-18"
   },
   {
     id: "city-testimonial-fort-kochi-5",
-    quote: "No two days are the same living in Fort Kochi. The {DYNAMIC_ASPECT} keeps me excited to wake up every morning.",
-    author: "Sofia Hernandez",
-    title: "The Joys of Slow Living in Fort Kochi",
+    quote: "The {TRANQUILITY_FEATURE} in Fort Kochi offers a peaceful retreat from the busy world.",
+    author: "Hannah Reed",
+    title: "Finding Inspiration Every Day in Fort Kochi",
     city: "Fort Kochi",
     rating: 4.9,
-    date: "2024-03-01"
+    date: "2024-02-02"
   },
   {
     id: "city-testimonial-fort-kochi-6",
-    quote: "Community events and festivals in Fort Kochi bring everyone together, making the {COMMUNITY_ASPECT} really stand out.",
-    author: "Christopher White",
-    title: "My Corner of Fort Kochi",
+    quote: "The nightlife in Fort Kochi is vibrant and full of {ENTERTAINMENT_FEATURE} for everyone.",
+    author: "John Jackson",
+    title: "Living Sustainably in Fort Kochi",
     city: "Fort Kochi",
-    rating: 4.6,
-    date: "2024-05-21"
+    rating: 4.7,
+    date: "2024-06-07"
+  },
+  {
+    id: "city-testimonial-fort-kochi-7",
+    quote: "What I tell friends considering moving to Fort Kochi is to appreciate the weekend markets—it's what makes daily life here so rich.",
+    author: "Peter Kowalski",
+    title: "The True Character of Fort Kochi",
+    city: "Fort Kochi",
+    rating: 4.8,
+    date: "2025-10-26"
+  },
+  {
+    id: "city-testimonial-fort-kochi-8",
+    quote: "The heritage museums in Fort Kochi makes everyday life feel like an adventure. I've been here 4 years and still discover new things.",
+    author: "Amelia Ali",
+    title: "The Unexpected Joys of Fort Kochi Living",
+    city: "Fort Kochi",
+    rating: 4.4,
+    date: "2024-04-15"
+  },
+  {
+    id: "city-testimonial-fort-kochi-9",
+    quote: "After 30 years as a Fort Kochi local, I still appreciate the chance encounters that makes this place special.",
+    author: "Brenda Keller",
+    title: "Living Sustainably in Fort Kochi",
+    city: "Fort Kochi",
+    rating: 4.4,
+    date: "2025-03-26"
   }
 ];

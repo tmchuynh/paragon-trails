@@ -6,74 +6,65 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const miamiTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-miami-1",
-    quote: "The artistic neighborhoods in Miami each have their own character, which keeps life interesting year after year.",
-    author: "Evelyn Kim",
-    title: "What I Love About Living in Miami",
+    quote: "Miami has been my home for second-generation, and the creative circles here is what keeps me rooted.",
+    author: "Ella Wallace",
+    title: "Finding Balance in Miami",
     city: "Miami",
-    rating: 4.4,
-    date: "2023-02-03"
+    rating: 4.7,
+    date: "2023-03-17"
   },
   {
     id: "city-testimonial-miami-2",
-    quote: "The cost of living in Miami is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
-    author: "William Graves",
-    title: "The Joys of Slow Living in Miami",
+    quote: "The nightlife in Miami is vibrant and full of {ENTERTAINMENT_FEATURE} for everyone.",
+    author: "Christopher Wright",
+    title: "The Soul of Miami: A Local's View",
     city: "Miami",
-    rating: 4.9,
-    date: "2023-02-22"
+    rating: 4.6,
+    date: "2025-10-01"
   },
   {
     id: "city-testimonial-miami-3",
-    quote: "Living in Miami means experiencing historical richness on a daily basis, which is why I could never leave.",
-    author: "Victor Morgan",
-    title: "My Corner of Miami",
+    quote: "The mix of old and new in Miami's architecture and culture keeps the city feeling fresh yet grounded.",
+    author: "Billy da Costa",
+    title: "Why I Chose Miami as Home",
     city: "Miami",
-    rating: 4.2,
-    date: "2023-01-21"
+    rating: 4.6,
+    date: "2024-11-24"
   },
   {
     id: "city-testimonial-miami-4",
-    quote: "The cost of living in Miami is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
-    author: "Youssef Young",
-    title: "My Corner of Miami",
+    quote: "The historical significance of Miami adds a depth to daily life that I truly cherish.",
+    author: "Logan Thomas",
+    title: "Living and Thriving in Miami",
     city: "Miami",
-    rating: 4.5,
-    date: "2023-12-10"
+    rating: 4,
+    date: "2025-05-01"
   },
   {
     id: "city-testimonial-miami-5",
-    quote: "Miami's historical scene has become central to my life here. I couldn't imagine living without it now.",
-    author: "Austin Brown",
-    title: "Living and Thriving in Miami",
+    quote: "Miami's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
+    author: "Riley Graves",
+    title: "Finding Balance in Miami",
     city: "Miami",
-    rating: 4.1,
-    date: "2023-06-02"
+    rating: 4.4,
+    date: "2023-08-09"
   },
   {
     id: "city-testimonial-miami-6",
-    quote: "One of the best things about living in Miami is the {ACCESSIBILITY_FEATURE}—it makes everything so convenient.",
-    author: "Benjamin Brooks",
-    title: "Uncovering the Layers of Miami",
+    quote: "From my apartment in Miami, I can access international cuisine. Where else could you do that?",
+    author: "Brian Fox",
+    title: "Miami: A City That Grows With You",
     city: "Miami",
-    rating: 4.1,
-    date: "2024-02-17"
+    rating: 4.4,
+    date: "2025-08-13"
   },
   {
     id: "city-testimonial-miami-7",
-    quote: "What most people don't realize about living in Miami is how quiet it actually is. I've found my true home here.",
-    author: "Lucas Dubois",
-    title: "The Community Spirit That Defines Miami",
+    quote: "The {TRANQUILITY_FEATURE} in Miami offers a peaceful retreat from the busy world.",
+    author: "Aaron Chen",
+    title: "Miami: Beyond the Tourist Experience",
     city: "Miami",
-    rating: 4.2,
-    date: "2023-05-15"
-  },
-  {
-    id: "city-testimonial-miami-8",
-    quote: "Living here means being a part of Miami's ongoing story of innovation and tradition.",
-    author: "Ahmed Palmer",
-    title: "Miami: A City That Grows With You",
-    city: "Miami",
-    rating: 4.2,
-    date: "2024-10-01"
+    rating: 4.6,
+    date: "2024-10-19"
   }
 ];

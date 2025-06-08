@@ -6,92 +6,74 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const svanetiregionTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-svaneti-region-1",
-    quote: "One of my favorite parts about living in Svaneti Region is the {MARKET_OR_SHOPPING_FEATURE} just around the corner.",
-    author: "Katherine Keller",
-    title: "Why Svaneti Region Keeps Getting Better",
+    quote: "Living in Svaneti Region means I get to enjoy {SPORTS_OR_OUTDOOR_ACTIVITY} year-round.",
+    author: "Barbara Nash",
+    title: "Discovering Home in Svaneti Region",
     city: "Svaneti Region",
-    rating: 4,
-    date: "2024-09-23"
+    rating: 4.2,
+    date: "2024-06-05"
   },
   {
     id: "city-testimonial-svaneti-region-2",
-    quote: "The sense of {SAFETY} in Svaneti Region makes me feel comfortable raising my kids here.",
-    author: "Alice Wilson",
-    title: "The Soul of Svaneti Region: A Local's View",
+    quote: "One thing I didn’t expect when moving to Svaneti Region was the {WEATHER_FEATURE}—it’s truly refreshing.",
+    author: "Charlotte Price",
+    title: "The Challenges and Charms of Living in Svaneti Region",
     city: "Svaneti Region",
-    rating: 4.3,
-    date: "2023-07-22"
+    rating: 4.8,
+    date: "2023-05-22"
   },
   {
     id: "city-testimonial-svaneti-region-3",
-    quote: "Living in Svaneti Region means being surrounded by culinary creativity, which feeds my soul every day.",
-    author: "Aaliyah Miller",
-    title: "Svaneti Region's Hidden Treasures for Locals",
+    quote: "No two days are the same living in Svaneti Region. The {DYNAMIC_ASPECT} keeps me excited to wake up every morning.",
+    author: "Jacob Dubois",
+    title: "Finding Balance in Svaneti Region",
     city: "Svaneti Region",
-    rating: 4.4,
-    date: "2025-03-21"
+    rating: 4.2,
+    date: "2023-08-19"
   },
   {
     id: "city-testimonial-svaneti-region-4",
-    quote: "As a devoted resident of Svaneti Region, I can't imagine living anywhere else. The architecture here is something you can't find elsewhere.",
-    author: "Gregory Henderson",
-    title: "The Joys of Slow Living in Svaneti Region",
-    city: "Svaneti Region",
-    rating: 4.5,
-    date: "2023-10-26"
-  },
-  {
-    id: "city-testimonial-svaneti-region-5",
-    quote: "Svaneti Region isn't just where I live—it's part of my identity now. The innovative spirit has shaped who I am.",
-    author: "Layla Carpenter",
-    title: "How Svaneti Region Balances Tradition and Innovation",
-    city: "Svaneti Region",
-    rating: 4.8,
-    date: "2024-12-17"
-  },
-  {
-    id: "city-testimonial-svaneti-region-6",
-    quote: "The historical significance of Svaneti Region adds a depth to daily life that I truly cherish.",
-    author: "Anna Lopez",
+    quote: "One thing I didn’t expect when moving to Svaneti Region was the {WEATHER_FEATURE}—it’s truly refreshing.",
+    author: "Roger Fisher",
     title: "Why Svaneti Region Is a Place to Grow",
     city: "Svaneti Region",
     rating: 4.8,
-    date: "2023-11-26"
+    date: "2024-09-19"
+  },
+  {
+    id: "city-testimonial-svaneti-region-5",
+    quote: "As someone who's lived in many cities, I can say that Svaneti Region's innovative design is unmatched anywhere else.",
+    author: "Boris Crawford",
+    title: "Finding Balance in Svaneti Region",
+    city: "Svaneti Region",
+    rating: 4.7,
+    date: "2024-09-10"
+  },
+  {
+    id: "city-testimonial-svaneti-region-6",
+    quote: "Svaneti Region's outdoor recreation scene has become central to my life here. I couldn't imagine living without it now.",
+    author: "Javier Grant",
+    title: "Finding Inspiration Every Day in Svaneti Region",
+    city: "Svaneti Region",
+    rating: 4.3,
+    date: "2024-12-07"
   },
   {
     id: "city-testimonial-svaneti-region-7",
-    quote: "Living in Svaneti Region has allowed me to connect deeply with {NATURE_FEATURE} nearby.",
-    author: "Richard Gonzalez",
-    title: "What Makes Svaneti Region Special to Live In",
+    quote: "As a established resident of Svaneti Region, I can't imagine living anywhere else. The urban gardening here is something you can't find elsewhere.",
+    author: "Benjamin Wilson",
+    title: "A Love Letter to Svaneti Region",
     city: "Svaneti Region",
-    rating: 4.7,
-    date: "2024-10-15"
+    rating: 4.4,
+    date: "2023-10-21"
   },
   {
     id: "city-testimonial-svaneti-region-8",
-    quote: "The food scene in Svaneti Region is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
-    author: "Willie Fox",
-    title: "A Resident's Guide to Living Well in Svaneti Region",
+    quote: "After moving to Svaneti Region 5 years ago, I fell in love with the local pride of this place. It's truly special.",
+    author: "Laura Rodriguez",
+    title: "Svaneti Region's Hidden Treasures for Locals",
     city: "Svaneti Region",
-    rating: 4.4,
-    date: "2024-08-20"
-  },
-  {
-    id: "city-testimonial-svaneti-region-9",
-    quote: "I've found that Svaneti Region's {TRANSPORT_FEATURE} really makes getting around effortless and enjoyable.",
-    author: "Albert Baker",
-    title: "Svaneti Region: Where I Found My Community",
-    city: "Svaneti Region",
-    rating: 5,
-    date: "2023-09-22"
-  },
-  {
-    id: "city-testimonial-svaneti-region-10",
-    quote: "I've found that Svaneti Region's {TRANSPORT_FEATURE} really makes getting around effortless and enjoyable.",
-    author: "Nora Edwards",
-    title: "Svaneti Region Through a Resident's Eyes",
-    city: "Svaneti Region",
-    rating: 4.8,
-    date: "2024-12-27"
+    rating: 4.6,
+    date: "2023-01-25"
   }
 ];

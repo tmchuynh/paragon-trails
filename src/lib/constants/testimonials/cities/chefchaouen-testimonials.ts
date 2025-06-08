@@ -6,65 +6,56 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const chefchaouenTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-chefchaouen-1",
-    quote: "Living in Chefchaouen means being surrounded by diverse neighborhoods, which feeds my soul every day.",
-    author: "Sofia Dixon",
-    title: "The Beauty of Everyday Life in Chefchaouen",
+    quote: "Living in Chefchaouen means experiencing nightlife excitement on a daily basis, which is why I could never leave.",
+    author: "Cynthia Hayes",
+    title: "Finding Inspiration Every Day in Chefchaouen",
     city: "Chefchaouen",
-    rating: 4.2,
-    date: "2024-05-17"
+    rating: 4.3,
+    date: "2025-09-01"
   },
   {
     id: "city-testimonial-chefchaouen-2",
-    quote: "Despite its size, Chefchaouen manages to feel {SMALL_TOWN_QUALITY}, which is rare and wonderful.",
-    author: "Thabo Mason",
-    title: "The Everyday Magic of Chefchaouen",
+    quote: "Living in Chefchaouen has opened my eyes to {PERSONAL_GROWTH_ASPECT} that I never expected.",
+    author: "Bryan Parker",
+    title: "The Challenges and Charms of Living in Chefchaouen",
     city: "Chefchaouen",
-    rating: 4,
-    date: "2023-03-27"
+    rating: 4.8,
+    date: "2023-11-21"
   },
   {
     id: "city-testimonial-chefchaouen-3",
-    quote: "Community events and festivals in Chefchaouen bring everyone together, making the {COMMUNITY_ASPECT} really stand out.",
-    author: "Sofia Edwards",
-    title: "A Resident's Guide to Living Well in Chefchaouen",
+    quote: "What I tell friends considering moving to Chefchaouen is to appreciate the weekend markets—it's what makes daily life here so rich.",
+    author: "Sofia Gibson",
+    title: "My Corner of Chefchaouen",
     city: "Chefchaouen",
-    rating: 4.1,
-    date: "2023-07-18"
+    rating: 4.4,
+    date: "2025-02-08"
   },
   {
     id: "city-testimonial-chefchaouen-4",
-    quote: "After 2 years as a Chefchaouen local, I still appreciate the architectural details that makes this place special.",
-    author: "Riley Campbell",
-    title: "Why Chefchaouen Feels Like Home",
+    quote: "The sense of {SAFETY} in Chefchaouen makes me feel comfortable raising my kids here.",
+    author: "Sarah Brooks",
+    title: "Chefchaouen: A City That Grows With You",
     city: "Chefchaouen",
-    rating: 5,
-    date: "2023-11-22"
+    rating: 4.1,
+    date: "2023-12-16"
   },
   {
     id: "city-testimonial-chefchaouen-5",
-    quote: "As a devoted resident of Chefchaouen, I can't imagine living anywhere else. The craft beer community here is something you can't find elsewhere.",
-    author: "Lawrence Khan",
-    title: "The Vibrant Life of Chefchaouen Residents",
+    quote: "I came to Chefchaouen for work but stayed for the family support. Best decision I ever made.",
+    author: "Amanda Rodriguez",
+    title: "Chefchaouen: More Than Just a Place",
     city: "Chefchaouen",
-    rating: 4.1,
-    date: "2024-05-13"
+    rating: 4,
+    date: "2025-03-27"
   },
   {
     id: "city-testimonial-chefchaouen-6",
-    quote: "What I love most about living in Chefchaouen is the aquatic centers. It creates such a unique atmosphere that feels like home.",
-    author: "Ana Lewis",
-    title: "The Real Chefchaouen Experience",
+    quote: "I love how Chefchaouen celebrates {FESTIVAL_OR_EVENT}, it brings so much joy and community spirit.",
+    author: "Ali Lewis",
+    title: "How Chefchaouen Balances Tradition and Innovation",
     city: "Chefchaouen",
-    rating: 4.8,
-    date: "2025-01-05"
-  },
-  {
-    id: "city-testimonial-chefchaouen-7",
-    quote: "Raising my family in Chefchaouen gives us access to outdoor recreation, which is truly invaluable.",
-    author: "Mark Johnson",
-    title: "The Vibrant Life of Chefchaouen Residents",
-    city: "Chefchaouen",
-    rating: 4.8,
-    date: "2023-08-08"
+    rating: 4.6,
+    date: "2025-04-15"
   }
 ];

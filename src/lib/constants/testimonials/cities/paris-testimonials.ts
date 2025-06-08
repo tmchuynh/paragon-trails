@@ -6,56 +6,47 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const parisTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-paris-1",
-    quote: "Community events and festivals in Paris bring everyone together, making the {COMMUNITY_ASPECT} really stand out.",
-    author: "Walter Williams",
-    title: "How Paris Balances Tradition and Innovation",
+    quote: "Living in Paris has allowed me to connect deeply with {NATURE_FEATURE} nearby.",
+    author: "Paul Martinez",
+    title: "Paris's Hidden Treasures for Locals",
     city: "Paris",
-    rating: 4.9,
-    date: "2024-05-05"
+    rating: 4.7,
+    date: "2025-03-13"
   },
   {
     id: "city-testimonial-paris-2",
-    quote: "As someone who's lived in many cities, I can say that Paris's cultural celebrations is unmatched anywhere else.",
-    author: "Riley Foster",
-    title: "Discovering Home in Paris",
+    quote: "Paris's festival scene has become central to my life here. I couldn't imagine living without it now.",
+    author: "Ravi Fisher",
+    title: "Paris: A City That Grows With You",
     city: "Paris",
     rating: 4.3,
-    date: "2025-07-27"
+    date: "2023-10-26"
   },
   {
     id: "city-testimonial-paris-3",
-    quote: "The balance of professional opportunity and personal time in Paris creates a quality of life that's hard to find elsewhere.",
-    author: "Priya Harris",
-    title: "Paris: More Than Just a Place",
+    quote: "The {FESTIVAL_OR_EVENT} season in Paris brings so much excitement and pride to the community.",
+    author: "Angela Sutton",
+    title: "A Love Letter to Paris",
     city: "Paris",
-    rating: 4.5,
-    date: "2023-02-26"
+    rating: 4.2,
+    date: "2024-02-18"
   },
   {
     id: "city-testimonial-paris-4",
-    quote: "I came to Paris for work but stayed for the sense of community. Best decision I ever made.",
-    author: "Luis Johnson",
-    title: "The Real Paris Experience",
+    quote: "After moving to Paris 4 years ago, I fell in love with the artisanal craftsmanship of this place. It's truly special.",
+    author: "Antonio Edwards",
+    title: "Paris Through a Resident's Eyes",
     city: "Paris",
-    rating: 4.9,
-    date: "2023-04-14"
+    rating: 4,
+    date: "2024-10-06"
   },
   {
     id: "city-testimonial-paris-5",
-    quote: "The mix of old and new in Paris's architecture and culture keeps the city feeling fresh yet grounded.",
-    author: "Hassan West",
-    title: "What Makes Paris Uniquely Livable",
+    quote: "Living in Paris has opened my eyes to {PERSONAL_GROWTH_ASPECT} that I never expected.",
+    author: "Liam Wilson",
+    title: "Living the Paris Lifestyle",
     city: "Paris",
-    rating: 4.8,
-    date: "2024-02-28"
-  },
-  {
-    id: "city-testimonial-paris-6",
-    quote: "What most people don't realize about living in Paris is how charming it actually is. I've found my true home here.",
-    author: "Peter Ali",
-    title: "Paris Through a Resident's Eyes",
-    city: "Paris",
-    rating: 4.8,
-    date: "2025-12-03"
+    rating: 4.2,
+    date: "2024-08-02"
   }
 ];

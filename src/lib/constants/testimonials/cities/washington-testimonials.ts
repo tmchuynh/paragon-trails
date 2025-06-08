@@ -6,56 +6,65 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const washingtonTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-washington-1",
-    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Washington make daily life convenient and stress-free.",
-    author: "Aisha Brooks",
-    title: "Why Washington Feels Like Home",
+    quote: "Living in Washington has allowed me to connect deeply with {NATURE_FEATURE} nearby.",
+    author: "Emily Bennett",
+    title: "Finding Balance in Washington",
     city: "Washington",
-    rating: 4.1,
-    date: "2024-06-09"
+    rating: 4.6,
+    date: "2024-08-10"
   },
   {
     id: "city-testimonial-washington-2",
-    quote: "I love how Washington celebrates {FESTIVAL_OR_EVENT}, it brings so much joy and community spirit.",
-    author: "Virginia Parker",
-    title: "Discovering Home in Washington",
+    quote: "No two days are the same living in Washington. The {DYNAMIC_ASPECT} keeps me excited to wake up every morning.",
+    author: "Margaret Fisher",
+    title: "Washington: A City That Grows With You",
     city: "Washington",
-    rating: 4.5,
-    date: "2025-10-20"
+    rating: 4.7,
+    date: "2023-05-05"
   },
   {
     id: "city-testimonial-washington-3",
-    quote: "As someone who's lived in many cities, I can say that Washington's public services is unmatched anywhere else.",
-    author: "Charlotte Hunter",
-    title: "A Love Letter to Washington",
+    quote: "The food scene in Washington is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
+    author: "Steven Fisher",
+    title: "Living Sustainably in Washington",
     city: "Washington",
-    rating: 4.8,
-    date: "2025-05-24"
+    rating: 4.9,
+    date: "2025-10-10"
   },
   {
     id: "city-testimonial-washington-4",
-    quote: "After moving to Washington 6 years ago, I fell in love with the creative energy of this place. It's truly special.",
-    author: "Laura Garcia",
-    title: "My Washington Story: Life as a Resident",
+    quote: "Living in Washington means I get to enjoy {SPORTS_OR_OUTDOOR_ACTIVITY} year-round.",
+    author: "Isabella Edwards",
+    title: "Washington: A City That Grows With You",
     city: "Washington",
-    rating: 4.5,
-    date: "2024-04-05"
+    rating: 4.3,
+    date: "2025-05-17"
   },
   {
     id: "city-testimonial-washington-5",
-    quote: "As a established resident of Washington, I can't imagine living anywhere else. The work-life balance here is something you can't find elsewhere.",
-    author: "Jacob Garcia",
-    title: "My Washington Story: Life as a Resident",
+    quote: "The mix of old and new in Washington's architecture and culture keeps the city feeling fresh yet grounded.",
+    author: "Brooklyn Watson",
+    title: "Washington: A City That Grows With You",
     city: "Washington",
-    rating: 4.2,
-    date: "2025-06-01"
+    rating: 4.6,
+    date: "2023-04-15"
   },
   {
     id: "city-testimonial-washington-6",
-    quote: "As a born-and-raised resident of Washington, I can't imagine living anywhere else. The outdoor dining here is something you can't find elsewhere.",
-    author: "Marcus Curtis",
-    title: "Why Washington Is a Place to Grow",
+    quote: "What most people don't realize about living in Washington is how creative it actually is. I've found my true home here.",
+    author: "Priya Khan",
+    title: "What Makes Washington Special to Live In",
     city: "Washington",
-    rating: 5,
-    date: "2025-07-03"
+    rating: 4.6,
+    date: "2023-03-25"
+  },
+  {
+    id: "city-testimonial-washington-7",
+    quote: "The people of Washington are incredibly welcoming and have made me feel at home since day one.",
+    author: "Sophia Reed",
+    title: "Washington Through a Resident's Eyes",
+    city: "Washington",
+    rating: 4.7,
+    date: "2023-06-21"
   }
 ];

@@ -6,56 +6,47 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const savannahTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-savannah-1",
-    quote: "Despite its size, Savannah manages to feel {SMALL_TOWN_QUALITY}, which is rare and wonderful.",
-    author: "Nancy Collins",
-    title: "Why Savannah Feels Like Home",
+    quote: "Savannah's folk traditions scene has become central to my life here. I couldn't imagine living without it now.",
+    author: "Jerry Ellis",
+    title: "Savannah: More Than Just a Place",
     city: "Savannah",
     rating: 4,
-    date: "2024-03-28"
+    date: "2023-09-21"
   },
   {
     id: "city-testimonial-savannah-2",
-    quote: "I came to Savannah for work but stayed for the local traditions. Best decision I ever made.",
-    author: "Jack Warren",
-    title: "Savannah: Where I Found My Community",
+    quote: "Every weekend in Savannah brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
+    author: "Abigail Graves",
+    title: "The Beauty of Everyday Life in Savannah",
     city: "Savannah",
-    rating: 4.4,
-    date: "2024-05-20"
+    rating: 4.8,
+    date: "2023-05-22"
   },
   {
     id: "city-testimonial-savannah-3",
-    quote: "One thing I didn’t expect when moving to Savannah was the {WEATHER_FEATURE}—it’s truly refreshing.",
-    author: "Logan Maxwell",
-    title: "Life in Savannah: A Local Perspective",
+    quote: "What really surprised me about Savannah is its {DIVERSITY_FEATURE} — it’s a true melting pot.",
+    author: "Virginia Jackson",
+    title: "Finding Balance in Savannah",
     city: "Savannah",
-    rating: 4,
-    date: "2025-03-07"
-  },
-  {
-    id: "city-testimonial-savannah-4",
-    quote: "I appreciate how Savannah balances {TECH_INNOVATION} with historic charm perfectly.",
-    author: "Aisha Chen",
-    title: "The Everyday Magic of Savannah",
-    city: "Savannah",
-    rating: 4,
-    date: "2023-07-11"
-  },
-  {
-    id: "city-testimonial-savannah-5",
-    quote: "Living here means being a part of Savannah's ongoing story of innovation and tradition.",
-    author: "Ryan Jackson",
-    title: "What Makes Savannah Special to Live In",
-    city: "Savannah",
-    rating: 4.6,
+    rating: 4.7,
     date: "2025-07-06"
   },
   {
-    id: "city-testimonial-savannah-6",
-    quote: "The mix of old and new in Savannah's architecture and culture keeps the city feeling fresh yet grounded.",
-    author: "Lisa Wallace",
-    title: "Life in Savannah: A Local Perspective",
+    id: "city-testimonial-savannah-4",
+    quote: "I've found that Savannah's {TRANSPORT_FEATURE} really makes getting around effortless and enjoyable.",
+    author: "Justin Jansen",
+    title: "Why Savannah Is a Place to Grow",
     city: "Savannah",
-    rating: 5,
-    date: "2024-10-13"
+    rating: 4.3,
+    date: "2025-04-04"
+  },
+  {
+    id: "city-testimonial-savannah-5",
+    quote: "The cost of living in Savannah is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
+    author: "Bryan Cooper",
+    title: "My Corner of Savannah",
+    city: "Savannah",
+    rating: 4.7,
+    date: "2025-10-03"
   }
 ];

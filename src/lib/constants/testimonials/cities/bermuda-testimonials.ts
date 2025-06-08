@@ -6,65 +6,74 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const bermudaTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-bermuda-1",
-    quote: "The cost of living in Bermuda is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
-    author: "Lily Morgan",
-    title: "The True Character of Bermuda",
+    quote: "If you want a city that offers {LIFESTYLE_BENEFIT}, Bermuda is the place to be.",
+    author: "Kenneth Wells",
+    title: "The Neighborhoods That Make Bermuda Home",
     city: "Bermuda",
-    rating: 4,
-    date: "2025-06-11"
+    rating: 4.4,
+    date: "2024-10-23"
   },
   {
     id: "city-testimonial-bermuda-2",
-    quote: "The balance of cutting-edge technology and nature conservation in Bermuda creates a quality of life that's hard to find elsewhere.",
-    author: "Layla Cooper",
-    title: "Bermuda: Beyond the Tourist Experience",
+    quote: "What really surprised me about Bermuda is its {DIVERSITY_FEATURE} — it’s a true melting pot.",
+    author: "Michelle King",
+    title: "The Everyday Magic of Bermuda",
     city: "Bermuda",
-    rating: 4.2,
-    date: "2025-12-05"
+    rating: 4.8,
+    date: "2024-04-21"
   },
   {
     id: "city-testimonial-bermuda-3",
-    quote: "From my apartment in Bermuda, I can participate in community gardens. Where else could you do that?",
-    author: "Maria Jones",
-    title: "Bermuda's Hidden Treasures for Locals",
+    quote: "As a lifelong resident of Bermuda, I can't imagine living anywhere else. The historical landmarks here is something you can't find elsewhere.",
+    author: "Gregory Douglas",
+    title: "A Love Letter to Bermuda",
     city: "Bermuda",
-    rating: 4.2,
-    date: "2023-06-21"
+    rating: 4.7,
+    date: "2025-10-02"
   },
   {
     id: "city-testimonial-bermuda-4",
-    quote: "The mix of old and new in Bermuda's architecture and culture keeps the city feeling fresh yet grounded.",
-    author: "Jane Parker",
-    title: "Bermuda: A City That Grows With You",
+    quote: "Living in Bermuda has allowed me to connect deeply with {NATURE_FEATURE} nearby.",
+    author: "Santiago Day",
+    title: "The Everyday Magic of Bermuda",
     city: "Bermuda",
     rating: 4.3,
-    date: "2025-11-11"
+    date: "2023-07-10"
   },
   {
     id: "city-testimonial-bermuda-5",
-    quote: "Bermuda's street art scene has become central to my life here. I couldn't imagine living without it now.",
-    author: "Daniel Payne",
-    title: "What Makes Bermuda Special to Live In",
+    quote: "I love how Bermuda celebrates {FESTIVAL_OR_EVENT}, it brings so much joy and community spirit.",
+    author: "Nancy Hawkins",
+    title: "From Newcomer to Local in Bermuda",
     city: "Bermuda",
     rating: 4.6,
-    date: "2023-04-15"
+    date: "2023-01-12"
   },
   {
     id: "city-testimonial-bermuda-6",
-    quote: "Raising my family in Bermuda gives us access to enrichment activities, which is truly invaluable.",
-    author: "Patricia Dubois",
-    title: "Bermuda Living: Worth Every Moment",
+    quote: "Living in Bermuda has allowed me to connect deeply with {NATURE_FEATURE} nearby.",
+    author: "Amelia Martin",
+    title: "Living Sustainably in Bermuda",
     city: "Bermuda",
-    rating: 4.9,
-    date: "2025-02-14"
+    rating: 4.3,
+    date: "2025-04-11"
   },
   {
     id: "city-testimonial-bermuda-7",
-    quote: "The botanical gardens in Bermuda makes everyday life feel like an adventure. I've been here 5 years and still discover new things.",
-    author: "Barbara Warren",
+    quote: "I love how Bermuda celebrates {FESTIVAL_OR_EVENT}, it brings so much joy and community spirit.",
+    author: "Alexander Holloway",
+    title: "What I Love About Living in Bermuda",
+    city: "Bermuda",
+    rating: 4.9,
+    date: "2023-04-26"
+  },
+  {
+    id: "city-testimonial-bermuda-8",
+    quote: "What really surprised me about Bermuda is its {DIVERSITY_FEATURE} — it’s a true melting pot.",
+    author: "Sofia Stewart",
     title: "What Makes Bermuda Uniquely Livable",
     city: "Bermuda",
-    rating: 4.1,
-    date: "2023-08-01"
+    rating: 4.2,
+    date: "2024-05-03"
   }
 ];

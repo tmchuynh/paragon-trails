@@ -6,47 +6,56 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const galvestonTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-galveston-1",
-    quote: "I love how Galveston celebrates {FESTIVAL_OR_EVENT}, it brings so much joy and community spirit.",
-    author: "Ana Jones",
-    title: "Finding Balance in Galveston",
+    quote: "Despite its size, Galveston manages to feel {SMALL_TOWN_QUALITY}, which is rare and wonderful.",
+    author: "Susan Graves",
+    title: "Living and Thriving in Galveston",
     city: "Galveston",
-    rating: 4.8,
-    date: "2025-05-28"
+    rating: 4.7,
+    date: "2023-11-22"
   },
   {
     id: "city-testimonial-galveston-2",
-    quote: "The sense of {SAFETY} in Galveston makes me feel comfortable raising my kids here.",
-    author: "Melissa Jones",
-    title: "A Resident's Guide to Living Well in Galveston",
+    quote: "Galveston isn't just where I live—it's part of my identity now. The street art culture has shaped who I am.",
+    author: "Alexander Reeves",
+    title: "How Galveston Balances Tradition and Innovation",
     city: "Galveston",
-    rating: 4.1,
-    date: "2025-12-11"
+    rating: 4.6,
+    date: "2023-06-17"
   },
   {
     id: "city-testimonial-galveston-3",
-    quote: "As someone who's lived in many cities, I can say that Galveston's seasonal transitions is unmatched anywhere else.",
-    author: "Ashley Miller",
-    title: "Galveston: More Than Just a Place",
+    quote: "Living in Galveston means being surrounded by modern development, which feeds my soul every day.",
+    author: "Stephen Maxwell",
+    title: "Uncovering the Layers of Galveston",
     city: "Galveston",
-    rating: 4.4,
-    date: "2025-03-10"
+    rating: 4.5,
+    date: "2024-08-23"
   },
   {
     id: "city-testimonial-galveston-4",
-    quote: "As someone who's lived in many cities, I can say that Galveston's tech innovation is unmatched anywhere else.",
-    author: "Kennedy Bennett",
-    title: "The Heartbeat of Galveston Life",
+    quote: "The sense of {SAFETY} in Galveston makes me feel comfortable raising my kids here.",
+    author: "Chen Jackson",
+    title: "A Love Letter to Galveston",
     city: "Galveston",
-    rating: 4.5,
-    date: "2025-02-21"
+    rating: 4.7,
+    date: "2023-09-09"
   },
   {
     id: "city-testimonial-galveston-5",
-    quote: "As a born-and-raised resident of Galveston, I can't imagine living anywhere else. The public transportation here is something you can't find elsewhere.",
-    author: "Oliver Montgomery",
-    title: "The Perfect Imperfections of Galveston",
+    quote: "Galveston's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
+    author: "Harper Wallace",
+    title: "The Challenges and Charms of Living in Galveston",
     city: "Galveston",
-    rating: 4.1,
-    date: "2025-02-02"
+    rating: 4.3,
+    date: "2023-06-22"
+  },
+  {
+    id: "city-testimonial-galveston-6",
+    quote: "Galveston's outdoor recreation scene has become central to my life here. I couldn't imagine living without it now.",
+    author: "Lerato Morales",
+    title: "The Unexpected Joys of Galveston Living",
+    city: "Galveston",
+    rating: 4.2,
+    date: "2023-08-17"
   }
 ];

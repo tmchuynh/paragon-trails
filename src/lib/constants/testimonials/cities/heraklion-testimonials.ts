@@ -6,56 +6,65 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const heraklionTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-heraklion-1",
-    quote: "The people of Heraklion are incredibly welcoming and have made me feel at home since day one.",
-    author: "Juan Mason",
-    title: "How Heraklion Changed My Life",
+    quote: "Heraklion's historical scene has become central to my life here. I couldn't imagine living without it now.",
+    author: "Riley Gardner",
+    title: "Living the Heraklion Lifestyle",
     city: "Heraklion",
-    rating: 4.3,
-    date: "2025-08-09"
+    rating: 4.9,
+    date: "2023-09-15"
   },
   {
     id: "city-testimonial-heraklion-2",
-    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Heraklion make daily life convenient and stress-free.",
-    author: "Terry Reeves",
-    title: "Heraklion Living: Worth Every Moment",
+    quote: "Raising my family in Heraklion gives us access to supportive community, which is truly invaluable.",
+    author: "Richard Day",
+    title: "Discovering Home in Heraklion",
     city: "Heraklion",
-    rating: 4.5,
-    date: "2024-01-12"
+    rating: 5,
+    date: "2023-05-04"
   },
   {
     id: "city-testimonial-heraklion-3",
-    quote: "The cultural diversity in Heraklion makes everyday life feel like an adventure. I've been here 4 years and still discover new things.",
-    author: "Harper White",
-    title: "Why Heraklion Feels Like Home",
+    quote: "Raising my family in Heraklion gives us access to library programs, which is truly invaluable.",
+    author: "Avery Warren",
+    title: "Why Heraklion Keeps Getting Better",
     city: "Heraklion",
-    rating: 5,
-    date: "2025-10-14"
+    rating: 4,
+    date: "2025-09-17"
   },
   {
     id: "city-testimonial-heraklion-4",
-    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Heraklion make daily life convenient and stress-free.",
-    author: "Jose Jackson",
-    title: "Why I’m Proud to Call Heraklion Home",
+    quote: "I appreciate how Heraklion balances {TECH_INNOVATION} with historic charm perfectly.",
+    author: "Jonathan Fisher",
+    title: "How Heraklion Balances Tradition and Innovation",
     city: "Heraklion",
-    rating: 4.9,
-    date: "2024-07-09"
+    rating: 4.6,
+    date: "2023-07-13"
   },
   {
     id: "city-testimonial-heraklion-5",
-    quote: "What I love most about living in Heraklion is the farmers market. It creates such a unique atmosphere that feels like home.",
-    author: "Noah Douglas",
-    title: "Heraklion Through a Resident's Eyes",
+    quote: "The {TRANQUILITY_FEATURE} in Heraklion offers a peaceful retreat from the busy world.",
+    author: "Justin Palmer",
+    title: "Why I’m Proud to Call Heraklion Home",
     city: "Heraklion",
-    rating: 4.2,
-    date: "2023-05-12"
+    rating: 4.3,
+    date: "2023-12-10"
   },
   {
     id: "city-testimonial-heraklion-6",
-    quote: "From my apartment in Heraklion, I can attend impromptu concerts. Where else could you do that?",
-    author: "Mary Holloway",
-    title: "Why I’m Proud to Call Heraklion Home",
+    quote: "As a permanent resident of Heraklion, I can't imagine living anywhere else. The professional opportunities here is something you can't find elsewhere.",
+    author: "Javier Crawford",
+    title: "Inside the Culture of Heraklion",
     city: "Heraklion",
-    rating: 4.5,
-    date: "2023-05-14"
+    rating: 4.8,
+    date: "2023-03-09"
+  },
+  {
+    id: "city-testimonial-heraklion-7",
+    quote: "The balance of professional opportunity and personal time in Heraklion creates a quality of life that's hard to find elsewhere.",
+    author: "Walter Silva",
+    title: "Stories From the Streets of Heraklion",
+    city: "Heraklion",
+    rating: 4.6,
+    date: "2024-08-21"
   }
 ];

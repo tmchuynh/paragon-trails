@@ -6,83 +6,47 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const capetownTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-cape-town-1",
-    quote: "Living in Cape Town has been one of the best decisions of my life. The sustainable initiatives here makes everyday life so enjoyable.",
-    author: "Dennis Carpenter",
-    title: "What Makes Cape Town Feel Like Family",
+    quote: "After 25 years as a Cape Town local, I still appreciate the urban wildlife that makes this place special.",
+    author: "Margaret Maxwell",
+    title: "Discovering Home in Cape Town",
     city: "Cape Town",
-    rating: 4.3,
-    date: "2023-10-08"
+    rating: 4.4,
+    date: "2024-04-17"
   },
   {
     id: "city-testimonial-cape-town-2",
-    quote: "The sense of {SAFETY} in Cape Town makes me feel comfortable raising my kids here.",
-    author: "Stephanie Gibson",
-    title: "Finding Inspiration Every Day in Cape Town",
+    quote: "What most people don't realize about living in Cape Town is how underrated it actually is. I've found my true home here.",
+    author: "Lisa Day",
+    title: "Cape Town: Where I Found My Community",
     city: "Cape Town",
-    rating: 4.1,
-    date: "2023-01-22"
+    rating: 4,
+    date: "2023-11-22"
   },
   {
     id: "city-testimonial-cape-town-3",
-    quote: "The historical significance of Cape Town adds a depth to daily life that I truly cherish.",
-    author: "Victor Keller",
-    title: "A Love Letter to Cape Town",
+    quote: "What most people don't realize about living in Cape Town is how inclusive it actually is. I've found my true home here.",
+    author: "Layla Kowalski",
+    title: "What Makes Cape Town Uniquely Livable",
     city: "Cape Town",
-    rating: 4,
-    date: "2023-10-06"
+    rating: 4.3,
+    date: "2023-08-10"
   },
   {
     id: "city-testimonial-cape-town-4",
-    quote: "Despite its size, Cape Town manages to feel {SMALL_TOWN_QUALITY}, which is rare and wonderful.",
-    author: "Michael Ivanov",
-    title: "Finding Inspiration Every Day in Cape Town",
+    quote: "If you want a city that offers {LIFESTYLE_BENEFIT}, Cape Town is the place to be.",
+    author: "Katherine King",
+    title: "Why I Chose Cape Town as Home",
     city: "Cape Town",
-    rating: 4.4,
-    date: "2024-06-22"
+    rating: 4.6,
+    date: "2025-11-13"
   },
   {
     id: "city-testimonial-cape-town-5",
-    quote: "The mix of old and new in Cape Town's architecture and culture keeps the city feeling fresh yet grounded.",
-    author: "Anthony Ali",
-    title: "Discovering Home in Cape Town",
-    city: "Cape Town",
-    rating: 4.6,
-    date: "2025-11-20"
-  },
-  {
-    id: "city-testimonial-cape-town-6",
-    quote: "Every weekend in Cape Town brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
-    author: "Samantha Silva",
-    title: "Cape Town: More Than Just a Place",
-    city: "Cape Town",
-    rating: 4.7,
-    date: "2025-07-22"
-  },
-  {
-    id: "city-testimonial-cape-town-7",
-    quote: "What I love most about living in Cape Town is the skate parks. It creates such a unique atmosphere that feels like home.",
-    author: "Jonathan Morgan",
-    title: "Life in Cape Town: A Local Perspective",
-    city: "Cape Town",
-    rating: 4.6,
-    date: "2025-10-02"
-  },
-  {
-    id: "city-testimonial-cape-town-8",
-    quote: "Living here means being a part of Cape Town's ongoing story of innovation and tradition.",
-    author: "Grace Graves",
+    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Cape Town make daily life convenient and stress-free.",
+    author: "Samantha Smith",
     title: "The Soul of Cape Town: A Local's View",
     city: "Cape Town",
-    rating: 4.3,
-    date: "2023-07-01"
-  },
-  {
-    id: "city-testimonial-cape-town-9",
-    quote: "After moving to Cape Town 3 years ago, I fell in love with the civic engagement of this place. It's truly special.",
-    author: "Alexander Wang",
-    title: "What Makes Cape Town Feel Like Family",
-    city: "Cape Town",
-    rating: 5,
-    date: "2024-12-02"
+    rating: 4.2,
+    date: "2023-01-28"
   }
 ];

@@ -3,91 +3,115 @@
 
 export const fromFoundingToRevolutionTestimonials: Testimonial[] = [
   {
-    id: "testimonial-tour-roatan-3-1",
-    quote: "We left the From Founding to Revolution feeling more connected to Roatan than we ever expected.",
-    author: "Ella Curtis",
-    title: "Fun, Friendly, and Full of Insight",
-    rating: 4.8,
-    date: "2025-02-13"
-  },
-  {
-    id: "testimonial-tour-roatan-3-2",
-    quote: "I felt like I was being shown around by a friend who knows all the secrets of Roatan.",
-    author: "Chloe da Costa",
-    title: "If Cities Had Souls, Roatan Sang to Us",
-    rating: 3.9,
-    date: "2017-10-29"
-  },
-  {
-    id: "testimonial-tour-roatan-3-3",
-    quote: "Ariana Jackson brought a depth of cultural insight that gave us a new appreciation for Roatan.",
-    author: "Alexa Knight",
-    title: "Would Follow This Guide Into Battle",
+    id: "testimonial-tour-roatan-4-1",
+    quote: "Scarlett Graham is the kind of guide you want to tell your friends about. This was a five-star experience.",
+    author: "Tyler Singh",
+    title: "Outstanding in Every Way",
     rating: 3.8,
-    date: "2023-08-18"
+    date: "2019-07-05"
   },
   {
-    id: "testimonial-tour-roatan-3-4",
-    quote: "We joined the From Founding to Revolution on our first day in Roatan, and it set the tone for a fantastic trip.",
-    author: "Omar Wright",
-    title: "Lost in Time—in the Best Way",
-    rating: 3.6,
-    date: "2021-04-10"
-  },
-  {
-    id: "testimonial-tour-roatan-3-5",
-    quote: "This tour was absolutely amazing! Ariana Jackson knew everything about Roatan and showed us places we would have never found on our own.",
-    author: "Eric Russell",
-    title: "More Enchanting Than Expected",
-    rating: 4.1,
-    date: "2022-07-23"
-  },
-  {
-    id: "testimonial-tour-roatan-3-6",
-    quote: "I thought I knew Roatan, but this tour proved otherwise. Ariana Jackson showed us a side we’d never seen.",
-    author: "Luis Silva",
-    title: "Fascinating and Fun",
-    rating: 4.7,
-    date: "2023-04-25"
-  },
-  {
-    id: "testimonial-tour-roatan-3-7",
-    quote: "The From Founding to Revolution was both entertaining and educational. Ariana Jackson has a gift for storytelling that brings Roatan's history to life.",
-    author: "Sarah Day",
-    title: "The Walking Was Free—The Laughs Were Priceless",
-    rating: 4.3,
-    date: "2019-05-06"
-  },
-  {
-    id: "testimonial-tour-roatan-3-8",
-    quote: "One of the best decisions of our trip! Ariana Jackson is a fantastic guide and brought incredible energy to the tour.",
-    author: "Chloe Hudson",
-    title: "A Walk That Will Make You Laugh",
+    id: "testimonial-tour-roatan-4-2",
+    quote: "We loved every minute of the From Founding to Revolution. Scarlett Graham's local tips were priceless.",
+    author: "Betty Kowalski",
+    title: "A Deep Dive into Local Culture",
     rating: 4.8,
-    date: "2024-07-30"
+    date: "2020-03-26"
   },
   {
-    id: "testimonial-tour-roatan-3-9",
-    quote: "So much fun, and so informative! Ariana Jackson's enthusiasm is contagious.",
-    author: "Scott Griffin",
-    title: "A Perfect Day in Roatan",
-    rating: 3.9,
-    date: "2019-10-23"
+    id: "testimonial-tour-roatan-4-3",
+    quote: "This tour is a hidden gem — just like the spots Scarlett Graham showed us around Roatan.",
+    author: "Adeline Edwards",
+    title: "A Day to Remember",
+    rating: 4.7,
+    date: "2023-01-01"
   },
   {
-    id: "testimonial-tour-roatan-3-10",
-    quote: "One of the best decisions of our trip! Ariana Jackson is a fantastic guide and brought incredible energy to the tour.",
-    author: "Johnny Henderson",
+    id: "testimonial-tour-roatan-4-4",
+    quote: "Such a memorable way to explore Roatan. The mix of history, local culture, and stories was perfect.",
+    author: "Brian Graham",
     title: "An Unexpected Highlight",
-    rating: 4.4,
-    date: "2023-07-04"
+    rating: 4.1,
+    date: "2021-07-14"
   },
   {
-    id: "testimonial-tour-roatan-3-11",
-    quote: "I’ve taken dozens of tours in different countries. Ariana Jackson ranks among the very best.",
-    author: "Muhammad Harris",
-    title: "So Glad We Did This",
+    id: "testimonial-tour-roatan-4-5",
+    quote: "A truly authentic experience! Scarlett Graham showed us the real Roatan, not just the tourist spots.",
+    author: "Dorothy Patel",
+    title: "A Tour That Feels Like a Celebration",
+    rating: 4.3,
+    date: "2020-05-09"
+  },
+  {
+    id: "testimonial-tour-roatan-4-6",
+    quote: "We had limited time in Roatan, and this tour made sure we saw the best of it. Scarlett Graham was amazing.",
+    author: "Carol Harper",
+    title: "A Journey Through Roatan's Beauty",
+    rating: 3.5,
+    date: "2023-08-19"
+  },
+  {
+    id: "testimonial-tour-roatan-4-7",
+    quote: "This tour was absolutely amazing! Scarlett Graham knew everything about Roatan and showed us places we would have never found on our own.",
+    author: "Mei Bennett",
+    title: "Impressive and Informative",
+    rating: 3.8,
+    date: "2017-03-08"
+  },
+  {
+    id: "testimonial-tour-roatan-4-8",
+    quote: "The small group size and personal attention from Scarlett Graham made all the difference.",
+    author: "Peter Stewart",
+    title: "The Walking Was Free—The Laughs Were Priceless",
+    rating: 4.9,
+    date: "2019-10-20"
+  },
+  {
+    id: "testimonial-tour-roatan-4-9",
+    quote: "Such a memorable way to explore Roatan. The mix of history, local culture, and stories was perfect.",
+    author: "Chloe Foster",
+    title: "A Walk That Will Make You Feel Alive",
+    rating: 4.1,
+    date: "2019-09-06"
+  },
+  {
+    id: "testimonial-tour-roatan-4-10",
+    quote: "My colleagues and I didn’t want the tour to end. Scarlett Graham is that engaging and informative.",
+    author: "Diego Lee",
+    title: "A Perfect Day in Roatan",
     rating: 4.4,
-    date: "2020-07-13"
+    date: "2023-07-05"
+  },
+  {
+    id: "testimonial-tour-roatan-4-11",
+    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Scarlett Graham!",
+    author: "Edward White",
+    title: "A Walk That Will Stay with You",
+    rating: 3.6,
+    date: "2024-07-08"
+  },
+  {
+    id: "testimonial-tour-roatan-4-12",
+    quote: "Scarlett Graham was incredibly accommodating and answered every question with patience and detail.",
+    author: "Carlos Harris",
+    title: "A Walk That Will Make You Feel Alive",
+    rating: 3.9,
+    date: "2018-03-02"
+  },
+  {
+    id: "testimonial-tour-roatan-4-13",
+    quote: "My grandmother and I didn’t want the tour to end. Scarlett Graham is that engaging and informative.",
+    author: "Virginia Young",
+    title: "Hidden Gems of Roatan",
+    rating: 3.9,
+    date: "2020-10-18"
+  },
+  {
+    id: "testimonial-tour-roatan-4-14",
+    quote: "We had limited time in Roatan, and this tour made sure we saw the best of it. Scarlett Graham was amazing.",
+    author: "James Hall",
+    title: "Fun, Friendly, and Full of Insight",
+    rating: 4.2,
+    date: "2023-04-15"
   }
 ];

@@ -6,74 +6,83 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const galapagosislandsTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-galapagos-islands-1",
-    quote: "From my apartment in Galapagos Islands, I can visit botanical gardens. Where else could you do that?",
-    author: "Michelle Spencer",
-    title: "The Real Galapagos Islands Experience",
+    quote: "Living in Galapagos Islands has been one of the best decisions of my life. The music scene here makes everyday life so enjoyable.",
+    author: "Keith Williams",
+    title: "Living and Thriving in Galapagos Islands",
     city: "Galapagos Islands",
-    rating: 4.6,
-    date: "2023-12-24"
+    rating: 4.9,
+    date: "2024-03-22"
   },
   {
     id: "city-testimonial-galapagos-islands-2",
-    quote: "The food scene in Galapagos Islands is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
-    author: "Skylar Ivanov",
-    title: "Galapagos Islands's Hidden Treasures for Locals",
+    quote: "Galapagos Islands has been my home for enthusiastic, and the academic community here is what keeps me rooted.",
+    author: "Maya White",
+    title: "Why Galapagos Islands Feels Like Home",
     city: "Galapagos Islands",
-    rating: 4.6,
-    date: "2024-08-21"
+    rating: 4.4,
+    date: "2024-12-28"
   },
   {
     id: "city-testimonial-galapagos-islands-3",
-    quote: "Living in Galapagos Islands means experiencing artistic expression on a daily basis, which is why I could never leave.",
-    author: "Walter Fletcher",
-    title: "The Challenges and Charms of Living in Galapagos Islands",
+    quote: "Living in Galapagos Islands has been one of the best decisions of my life. The creative energy here makes everyday life so enjoyable.",
+    author: "Harper Cooper",
+    title: "Living and Thriving in Galapagos Islands",
     city: "Galapagos Islands",
-    rating: 4.6,
-    date: "2023-09-13"
+    rating: 4.8,
+    date: "2025-04-01"
   },
   {
     id: "city-testimonial-galapagos-islands-4",
-    quote: "The mix of old and new in Galapagos Islands's architecture and culture keeps the city feeling fresh yet grounded.",
-    author: "Michelle Payne",
-    title: "The Beauty of Everyday Life in Galapagos Islands",
+    quote: "The historical significance of Galapagos Islands adds a depth to daily life that I truly cherish.",
+    author: "Lucas Hudson",
+    title: "Living Sustainably in Galapagos Islands",
     city: "Galapagos Islands",
-    rating: 4.3,
-    date: "2025-08-08"
+    rating: 4.7,
+    date: "2025-03-05"
   },
   {
     id: "city-testimonial-galapagos-islands-5",
-    quote: "Living in Galapagos Islands has allowed me to connect deeply with {NATURE_FEATURE} nearby.",
-    author: "Khalid Warren",
-    title: "The Joys of Slow Living in Galapagos Islands",
+    quote: "I came to Galapagos Islands for work but stayed for the climate comfort. Best decision I ever made.",
+    author: "Audrey Bennett",
+    title: "A Resident's Guide to Living Well in Galapagos Islands",
     city: "Galapagos Islands",
-    rating: 4.9,
-    date: "2025-02-28"
+    rating: 4.8,
+    date: "2023-10-15"
   },
   {
     id: "city-testimonial-galapagos-islands-6",
-    quote: "Living in Galapagos Islands has opened my eyes to {PERSONAL_GROWTH_ASPECT} that I never expected.",
-    author: "Evelyn Marshall",
-    title: "The Soul of Galapagos Islands: A Local's View",
+    quote: "What really surprised me about Galapagos Islands is its {DIVERSITY_FEATURE} — it’s a true melting pot.",
+    author: "Terry Jones",
+    title: "The Joys of Slow Living in Galapagos Islands",
     city: "Galapagos Islands",
-    rating: 4.9,
-    date: "2024-11-01"
+    rating: 4.2,
+    date: "2023-07-27"
   },
   {
     id: "city-testimonial-galapagos-islands-7",
-    quote: "Living in Galapagos Islands has opened my eyes to {PERSONAL_GROWTH_ASPECT} that I never expected.",
-    author: "Roy Jansen",
-    title: "Galapagos Islands Through a Resident's Eyes",
+    quote: "Living in Galapagos Islands has been one of the best decisions of my life. The heritage preservation here makes everyday life so enjoyable.",
+    author: "Wei Wilson",
+    title: "How Galapagos Islands Changed My Life",
     city: "Galapagos Islands",
-    rating: 4.1,
-    date: "2025-04-17"
+    rating: 4.3,
+    date: "2023-02-03"
   },
   {
     id: "city-testimonial-galapagos-islands-8",
-    quote: "Galapagos Islands's festival scene has become central to my life here. I couldn't imagine living without it now.",
-    author: "Oliver Gonzalez",
-    title: "Galapagos Islands: Where I Found My Community",
+    quote: "The cost of living in Galapagos Islands is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
+    author: "Larry Johnson",
+    title: "Galapagos Islands's Hidden Treasures for Locals",
     city: "Galapagos Islands",
-    rating: 4.7,
-    date: "2025-04-24"
+    rating: 4.9,
+    date: "2024-06-21"
+  },
+  {
+    id: "city-testimonial-galapagos-islands-9",
+    quote: "The nightlife in Galapagos Islands is vibrant and full of {ENTERTAINMENT_FEATURE} for everyone.",
+    author: "Charlotte Ellis",
+    title: "The Real Galapagos Islands Experience",
+    city: "Galapagos Islands",
+    rating: 4.4,
+    date: "2024-08-23"
   }
 ];

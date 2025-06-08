@@ -6,74 +6,92 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const puntacanaTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-punta-cana-1",
-    quote: "No two days are the same living in Punta Cana. The {DYNAMIC_ASPECT} keeps me excited to wake up every morning.",
-    author: "Wayne Jackson",
-    title: "Punta Cana Living: Worth Every Moment",
+    quote: "I've found that Punta Cana's {TRANSPORT_FEATURE} really makes getting around effortless and enjoyable.",
+    author: "Fatima Parker",
+    title: "Life in Punta Cana: A Local Perspective",
     city: "Punta Cana",
-    rating: 4.1,
-    date: "2024-05-24"
+    rating: 4.5,
+    date: "2025-10-25"
   },
   {
     id: "city-testimonial-punta-cana-2",
-    quote: "The nightlife in Punta Cana is vibrant and full of {ENTERTAINMENT_FEATURE} for everyone.",
-    author: "Jeffrey Murray",
-    title: "Inside the Culture of Punta Cana",
+    quote: "Punta Cana isn't just where I live—it's part of my identity now. The mountain access has shaped who I am.",
+    author: "Nicole Johnson",
+    title: "Discovering Home in Punta Cana",
     city: "Punta Cana",
-    rating: 4.4,
-    date: "2025-07-11"
+    rating: 4.1,
+    date: "2023-12-20"
   },
   {
     id: "city-testimonial-punta-cana-3",
-    quote: "Punta Cana isn't just where I live—it's part of my identity now. The festival tradition has shaped who I am.",
-    author: "Joshua Anderson",
-    title: "The Soul of Punta Cana: A Local's View",
+    quote: "As someone who's lived in many cities, I can say that Punta Cana's public services is unmatched anywhere else.",
+    author: "Stella Douglas",
+    title: "The Neighborhoods That Make Punta Cana Home",
     city: "Punta Cana",
     rating: 4.6,
-    date: "2024-03-17"
+    date: "2023-01-17"
   },
   {
     id: "city-testimonial-punta-cana-4",
-    quote: "What most people don't realize about living in Punta Cana is how hidden gem it actually is. I've found my true home here.",
-    author: "William Miller",
-    title: "My Punta Cana Story: Life as a Resident",
+    quote: "The cost of living in Punta Cana is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
+    author: "Nancy Hall",
+    title: "Stories From the Streets of Punta Cana",
     city: "Punta Cana",
-    rating: 4.6,
-    date: "2023-03-08"
+    rating: 5,
+    date: "2024-03-20"
   },
   {
     id: "city-testimonial-punta-cana-5",
-    quote: "The {GREEN_SPACES} in Punta Cana offer a perfect escape from the urban buzz without leaving the city limits.",
-    author: "Nicole Wilson",
-    title: "Inside the Culture of Punta Cana",
+    quote: "From my apartment in Punta Cana, I can bike to the beach in minutes. Where else could you do that?",
+    author: "Isabella Douglas",
+    title: "How Punta Cana Changed My Life",
     city: "Punta Cana",
-    rating: 4.5,
-    date: "2023-11-11"
+    rating: 4.2,
+    date: "2023-12-20"
   },
   {
     id: "city-testimonial-punta-cana-6",
-    quote: "Punta Cana isn't just where I live—it's part of my identity now. The entrepreneurial vibe has shaped who I am.",
-    author: "Skylar Palmer",
-    title: "The Neighborhoods That Make Punta Cana Home",
+    quote: "The people of Punta Cana are incredibly welcoming and have made me feel at home since day one.",
+    author: "Nicole Jansen",
+    title: "Why I’m Proud to Call Punta Cana Home",
     city: "Punta Cana",
-    rating: 4.4,
-    date: "2024-05-19"
+    rating: 4,
+    date: "2024-10-07"
   },
   {
     id: "city-testimonial-punta-cana-7",
-    quote: "Punta Cana's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
-    author: "Ryan Kowalski",
-    title: "The Challenges and Charms of Living in Punta Cana",
+    quote: "I love how Punta Cana celebrates {FESTIVAL_OR_EVENT}, it brings so much joy and community spirit.",
+    author: "Olivia Gibson",
+    title: "Finding Inspiration Every Day in Punta Cana",
     city: "Punta Cana",
-    rating: 5,
-    date: "2024-06-17"
+    rating: 4.1,
+    date: "2025-11-03"
   },
   {
     id: "city-testimonial-punta-cana-8",
-    quote: "Community events and festivals in Punta Cana bring everyone together, making the {COMMUNITY_ASPECT} really stand out.",
-    author: "Antonio Lopez",
-    title: "Punta Cana: More Than Just a Place",
+    quote: "I came to Punta Cana for work but stayed for the vibrant nightlife. Best decision I ever made.",
+    author: "Benjamin Sutton",
+    title: "Finding Inspiration Every Day in Punta Cana",
+    city: "Punta Cana",
+    rating: 4.4,
+    date: "2025-11-19"
+  },
+  {
+    id: "city-testimonial-punta-cana-9",
+    quote: "I've found that Punta Cana's {TRANSPORT_FEATURE} really makes getting around effortless and enjoyable.",
+    author: "Zola Jackson",
+    title: "The Challenges and Charms of Living in Punta Cana",
+    city: "Punta Cana",
+    rating: 4.4,
+    date: "2025-12-21"
+  },
+  {
+    id: "city-testimonial-punta-cana-10",
+    quote: "Punta Cana has been my home for adopted, and the local artisans here is what keeps me rooted.",
+    author: "Walter Jansen",
+    title: "Uncovering the Layers of Punta Cana",
     city: "Punta Cana",
     rating: 5,
-    date: "2025-07-24"
+    date: "2023-05-14"
   }
 ];

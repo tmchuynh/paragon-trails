@@ -6,83 +6,92 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const seoulTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-seoul-1",
-    quote: "Living in Seoul has allowed me to connect deeply with {NATURE_FEATURE} nearby.",
-    author: "Ariana Parker",
-    title: "Why Seoul Is a Place to Grow",
+    quote: "What I tell friends considering moving to Seoul is to appreciate the pop-up galleries—it's what makes daily life here so rich.",
+    author: "James Miller",
+    title: "Living and Thriving in Seoul",
     city: "Seoul",
-    rating: 4.4,
-    date: "2024-04-14"
+    rating: 4.1,
+    date: "2024-03-20"
   },
   {
     id: "city-testimonial-seoul-2",
-    quote: "Living in Seoul has allowed me to connect deeply with {NATURE_FEATURE} nearby.",
-    author: "Kennedy Fisher",
-    title: "Seoul Through a Resident's Eyes",
+    quote: "After 4 years as a Seoul local, I still appreciate the hidden courtyards that makes this place special.",
+    author: "Jesse Suzuki",
+    title: "The Everyday Magic of Seoul",
     city: "Seoul",
     rating: 4.1,
-    date: "2025-09-06"
+    date: "2024-09-05"
   },
   {
     id: "city-testimonial-seoul-3",
-    quote: "Seoul's outdoor recreation scene has become central to my life here. I couldn't imagine living without it now.",
-    author: "Lisa Coleman",
-    title: "Life in Seoul: A Local Perspective",
+    quote: "What I love most about living in Seoul is the festival calendar. It creates such a unique atmosphere that feels like home.",
+    author: "Mia Martin",
+    title: "A Love Letter to Seoul",
     city: "Seoul",
     rating: 4.5,
-    date: "2024-03-06"
+    date: "2023-02-14"
   },
   {
     id: "city-testimonial-seoul-4",
-    quote: "I've found that Seoul's {TRANSPORT_FEATURE} really makes getting around effortless and enjoyable.",
-    author: "Nomsa Hawkins",
-    title: "Why Seoul Feels Like Home",
+    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Seoul make daily life convenient and stress-free.",
+    author: "Donna Mason",
+    title: "The Real Seoul Experience",
     city: "Seoul",
-    rating: 4.8,
-    date: "2025-03-09"
+    rating: 4.7,
+    date: "2025-04-24"
   },
   {
     id: "city-testimonial-seoul-5",
-    quote: "I appreciate how Seoul balances {TECH_INNOVATION} with historic charm perfectly.",
-    author: "Liam Wilson",
-    title: "The Real Seoul Experience",
+    quote: "What really surprised me about Seoul is its {DIVERSITY_FEATURE} — it’s a true melting pot.",
+    author: "Eugene Taylor",
+    title: "The Unexpected Joys of Seoul Living",
     city: "Seoul",
-    rating: 4.5,
-    date: "2024-09-22"
+    rating: 4.2,
+    date: "2024-09-10"
   },
   {
     id: "city-testimonial-seoul-6",
-    quote: "From my apartment in Seoul, I can hike mountain trails on weekends. Where else could you do that?",
-    author: "Nomsa Hudson",
-    title: "The Everyday Magic of Seoul",
+    quote: "The {GREEN_SPACES} in Seoul offer a perfect escape from the urban buzz without leaving the city limits.",
+    author: "Sofia Wilson",
+    title: "Living and Thriving in Seoul",
     city: "Seoul",
-    rating: 4.4,
-    date: "2025-10-01"
+    rating: 4.5,
+    date: "2025-05-01"
   },
   {
     id: "city-testimonial-seoul-7",
-    quote: "The sense of {SAFETY} in Seoul makes me feel comfortable raising my kids here.",
-    author: "Elena Bennett",
-    title: "Why I Chose Seoul as Home",
+    quote: "The sports facilities in Seoul makes everyday life feel like an adventure. I've been here 2 years and still discover new things.",
+    author: "Alan Mitchell",
+    title: "The Soul of Seoul: A Local's View",
     city: "Seoul",
     rating: 4.5,
-    date: "2025-05-13"
+    date: "2024-05-23"
   },
   {
     id: "city-testimonial-seoul-8",
-    quote: "The food scene in Seoul is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
-    author: "Sean Thomas",
-    title: "Why Seoul Is a Place to Grow",
+    quote: "The {TRANQUILITY_FEATURE} in Seoul offers a peaceful retreat from the busy world.",
+    author: "Helen Graves",
+    title: "Seoul Through a Resident's Eyes",
     city: "Seoul",
-    rating: 4.2,
-    date: "2025-12-04"
+    rating: 4.8,
+    date: "2024-05-16"
   },
   {
     id: "city-testimonial-seoul-9",
-    quote: "Seoul's historical scene has become central to my life here. I couldn't imagine living without it now.",
-    author: "Youssef Porter",
-    title: "Seoul: Where I Found My Community",
+    quote: "The {TRANQUILITY_FEATURE} in Seoul offers a peaceful retreat from the busy world.",
+    author: "Miguel Knight",
+    title: "The Beauty of Everyday Life in Seoul",
     city: "Seoul",
-    rating: 4.8,
-    date: "2025-12-19"
+    rating: 4.4,
+    date: "2023-07-27"
+  },
+  {
+    id: "city-testimonial-seoul-10",
+    quote: "As someone who's lived in many cities, I can say that Seoul's community resilience is unmatched anywhere else.",
+    author: "Wayne Baker",
+    title: "The Vibrant Life of Seoul Residents",
+    city: "Seoul",
+    rating: 4.2,
+    date: "2023-08-19"
   }
 ];

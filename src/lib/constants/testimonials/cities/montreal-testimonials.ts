@@ -6,92 +6,92 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const montrealTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-montreal-1",
-    quote: "From my apartment in Montreal, I can participate in community gardens. Where else could you do that?",
-    author: "Chen Warren",
-    title: "Montreal: Where I Found My Community",
+    quote: "Living here means being a part of Montreal's ongoing story of innovation and tradition.",
+    author: "Caroline Carpenter",
+    title: "Why Montreal Feels Like Home",
     city: "Montreal",
-    rating: 4.1,
-    date: "2025-03-15"
+    rating: 4.3,
+    date: "2023-02-01"
   },
   {
     id: "city-testimonial-montreal-2",
-    quote: "The balance of fast-paced lifestyle and slow weekends in Montreal creates a quality of life that's hard to find elsewhere.",
-    author: "Mary Keller",
-    title: "The Vibrant Life of Montreal Residents",
+    quote: "Living in Montreal means being surrounded by diverse neighborhoods, which feeds my soul every day.",
+    author: "Ralph Wood",
+    title: "The Real Montreal Experience",
     city: "Montreal",
-    rating: 4.6,
-    date: "2023-02-23"
+    rating: 4.1,
+    date: "2023-09-17"
   },
   {
     id: "city-testimonial-montreal-3",
-    quote: "The cost of living in Montreal is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
-    author: "Patricia Lawson",
-    title: "The Heartbeat of Montreal Life",
+    quote: "Living here means being a part of Montreal's ongoing story of innovation and tradition.",
+    author: "Gabriella Nakamura",
+    title: "Montreal Through a Resident's Eyes",
     city: "Montreal",
-    rating: 4.3,
-    date: "2025-10-07"
+    rating: 4.8,
+    date: "2024-05-08"
   },
   {
     id: "city-testimonial-montreal-4",
-    quote: "Montreal's sports scene has become central to my life here. I couldn't imagine living without it now.",
-    author: "Victor Stewart",
-    title: "Why Montreal Is a Place to Grow",
+    quote: "As someone who's lived in many cities, I can say that Montreal's quality of life is unmatched anywhere else.",
+    author: "Sarah Jones",
+    title: "What Makes Montreal Feel Like Family",
     city: "Montreal",
     rating: 4.5,
-    date: "2024-01-23"
+    date: "2024-01-16"
   },
   {
     id: "city-testimonial-montreal-5",
-    quote: "The {GREEN_SPACES} in Montreal offer a perfect escape from the urban buzz without leaving the city limits.",
-    author: "Yuki Spencer",
-    title: "Living the Montreal Lifestyle",
+    quote: "Montreal isn't just where I live—it's part of my identity now. The market scene has shaped who I am.",
+    author: "Joshua Maxwell",
+    title: "My Corner of Montreal",
     city: "Montreal",
-    rating: 4.9,
-    date: "2024-05-06"
+    rating: 4.5,
+    date: "2023-12-02"
   },
   {
     id: "city-testimonial-montreal-6",
-    quote: "One of the best things about living in Montreal is the {ACCESSIBILITY_FEATURE}—it makes everything so convenient.",
-    author: "Elena Garcia",
-    title: "Living Sustainably in Montreal",
+    quote: "Montreal isn't just where I live—it's part of my identity now. The laid-back atmosphere has shaped who I am.",
+    author: "Allison Lee",
+    title: "Finding Balance in Montreal",
     city: "Montreal",
     rating: 4.6,
-    date: "2023-08-15"
+    date: "2023-11-20"
   },
   {
     id: "city-testimonial-montreal-7",
-    quote: "Raising my family in Montreal gives us access to childcare services, which is truly invaluable.",
-    author: "Logan Porter",
-    title: "What Makes Montreal Uniquely Livable",
+    quote: "After 7 years as a Montreal local, I still appreciate the public art that makes this place special.",
+    author: "Carlos Morales",
+    title: "Why I Chose Montreal as Home",
     city: "Montreal",
-    rating: 4.6,
-    date: "2025-07-26"
+    rating: 4.2,
+    date: "2024-03-26"
   },
   {
     id: "city-testimonial-montreal-8",
-    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Montreal make daily life convenient and stress-free.",
-    author: "Ravi Maxwell",
-    title: "The Everyday Magic of Montreal",
+    quote: "The people of Montreal are incredibly welcoming and have made me feel at home since day one.",
+    author: "Victoria Mason",
+    title: "The True Character of Montreal",
     city: "Montreal",
-    rating: 4.9,
-    date: "2025-12-26"
+    rating: 4.2,
+    date: "2023-01-08"
   },
   {
     id: "city-testimonial-montreal-9",
-    quote: "What I tell friends considering moving to Montreal is to appreciate the secret viewpoints—it's what makes daily life here so rich.",
-    author: "Julie Palmer",
-    title: "Life in Montreal: A Local Perspective",
+    quote: "Living in Montreal means I get to enjoy {SPORTS_OR_OUTDOOR_ACTIVITY} year-round.",
+    author: "Ashley Smith",
+    title: "Montreal: A City That Grows With You",
     city: "Montreal",
-    rating: 4.3,
-    date: "2024-12-23"
+    rating: 4.8,
+    date: "2023-04-25"
   },
   {
     id: "city-testimonial-montreal-10",
-    quote: "Montreal's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
-    author: "Evelyn Smith",
+    quote: "Despite its size, Montreal manages to feel {SMALL_TOWN_QUALITY}, which is rare and wonderful.",
+    author: "Charlotte White",
     title: "The Community Spirit That Defines Montreal",
     city: "Montreal",
-    rating: 4.1,
-    date: "2025-12-22"
+    rating: 4.3,
+    date: "2025-06-26"
   }
 ];

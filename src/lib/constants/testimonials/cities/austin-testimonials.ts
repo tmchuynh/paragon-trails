@@ -6,65 +6,92 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const austinTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-austin-1",
-    quote: "Austin's nightlife scene has become central to my life here. I couldn't imagine living without it now.",
-    author: "Steven Martinez",
-    title: "What Makes Austin Feel Like Family",
+    quote: "I love how Austin celebrates {FESTIVAL_OR_EVENT}, it brings so much joy and community spirit.",
+    author: "Steven Clark",
+    title: "Austin: Where I Found My Community",
     city: "Austin",
-    rating: 4.2,
-    date: "2024-10-22"
+    rating: 4.5,
+    date: "2024-08-19"
   },
   {
     id: "city-testimonial-austin-2",
-    quote: "From my apartment in Austin, I can join weekend yoga sessions in the park. Where else could you do that?",
-    author: "Elena King",
-    title: "My Corner of Austin",
+    quote: "The mix of old and new in Austin's architecture and culture keeps the city feeling fresh yet grounded.",
+    author: "Logan Holloway",
+    title: "Discovering Home in Austin",
     city: "Austin",
-    rating: 4.4,
-    date: "2024-09-13"
+    rating: 4.9,
+    date: "2025-07-01"
   },
   {
     id: "city-testimonial-austin-3",
-    quote: "The {FESTIVAL_OR_EVENT} season in Austin brings so much excitement and pride to the community.",
-    author: "Gary Carpenter",
-    title: "What Makes Austin Special to Live In",
+    quote: "One of my favorite parts about living in Austin is the {MARKET_OR_SHOPPING_FEATURE} just around the corner.",
+    author: "Dennis Curtis",
+    title: "The Soul of Austin: A Local's View",
     city: "Austin",
-    rating: 5,
-    date: "2023-12-21"
+    rating: 4,
+    date: "2024-06-10"
   },
   {
     id: "city-testimonial-austin-4",
-    quote: "The art and creativity flowing through Austin is inspiring. It feels like living inside a masterpiece.",
-    author: "Evelyn Grant",
-    title: "The Beauty of Everyday Life in Austin",
+    quote: "The {GREEN_SPACES} in Austin offer a perfect escape from the urban buzz without leaving the city limits.",
+    author: "Thabo Williams",
+    title: "Why Austin Feels Like Home",
     city: "Austin",
-    rating: 4.6,
-    date: "2023-01-16"
+    rating: 4.3,
+    date: "2024-05-07"
   },
   {
     id: "city-testimonial-austin-5",
-    quote: "If you want a city that offers {LIFESTYLE_BENEFIT}, Austin is the place to be.",
-    author: "Olivia da Costa",
-    title: "Finding Balance in Austin",
+    quote: "The food scene in Austin is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
+    author: "Thabo Singh",
+    title: "Discovering Home in Austin",
     city: "Austin",
-    rating: 4.1,
-    date: "2023-03-01"
+    rating: 4.5,
+    date: "2025-01-11"
   },
   {
     id: "city-testimonial-austin-6",
-    quote: "Austin's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
-    author: "Victor Graham",
-    title: "My Corner of Austin",
+    quote: "The art and creativity flowing through Austin is inspiring. It feels like living inside a masterpiece.",
+    author: "Samantha Kowalski",
+    title: "Austin: Where I Found My Community",
     city: "Austin",
-    rating: 4,
-    date: "2025-05-12"
+    rating: 4.8,
+    date: "2023-06-16"
   },
   {
     id: "city-testimonial-austin-7",
-    quote: "As a committed resident of Austin, I can't imagine living anywhere else. The nightlife diversity here is something you can't find elsewhere.",
-    author: "Layla Russell",
-    title: "Stories From the Streets of Austin",
+    quote: "Raising my family in Austin gives us access to family-friendly activities, which is truly invaluable.",
+    author: "Charlotte Silva",
+    title: "How Austin Changed My Life",
     city: "Austin",
-    rating: 4.2,
-    date: "2023-10-03"
+    rating: 4.5,
+    date: "2023-03-08"
+  },
+  {
+    id: "city-testimonial-austin-8",
+    quote: "I appreciate how Austin balances {TECH_INNOVATION} with historic charm perfectly.",
+    author: "Justin Gibson",
+    title: "My Corner of Austin",
+    city: "Austin",
+    rating: 4.1,
+    date: "2025-05-13"
+  },
+  {
+    id: "city-testimonial-austin-9",
+    quote: "From my apartment in Austin, I can connect with professional networks. Where else could you do that?",
+    author: "Ella Fisher",
+    title: "The Vibrant Life of Austin Residents",
+    city: "Austin",
+    rating: 4.9,
+    date: "2025-05-12"
+  },
+  {
+    id: "city-testimonial-austin-10",
+    quote: "Living in Austin means I get to enjoy {SPORTS_OR_OUTDOOR_ACTIVITY} year-round.",
+    author: "Ariana Palmer",
+    title: "Why Austin Keeps Getting Better",
+    city: "Austin",
+    rating: 4.9,
+    date: "2025-11-11"
   }
 ];

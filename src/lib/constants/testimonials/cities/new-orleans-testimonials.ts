@@ -6,83 +6,83 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const neworleansTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-new-orleans-1",
-    quote: "The winter ice skating rinks in New Orleans is something I look forward to every year. It's what makes living here magical.",
-    author: "Ana Morgan",
-    title: "Stories From the Streets of New Orleans",
+    quote: "Living in New Orleans has been one of the best decisions of my life. The artisan craftsmanship here makes everyday life so enjoyable.",
+    author: "Sofia Spencer",
+    title: "Life in New Orleans: A Local Perspective",
     city: "New Orleans",
     rating: 4.9,
-    date: "2025-02-13"
+    date: "2024-07-14"
   },
   {
     id: "city-testimonial-new-orleans-2",
-    quote: "One thing I didn’t expect when moving to New Orleans was the {WEATHER_FEATURE}—it’s truly refreshing.",
-    author: "Amelia Palmer",
-    title: "New Orleans Living: Worth Every Moment",
+    quote: "No two days are the same living in New Orleans. The {DYNAMIC_ASPECT} keeps me excited to wake up every morning.",
+    author: "Kinsley Spencer",
+    title: "New Orleans Through a Resident's Eyes",
     city: "New Orleans",
-    rating: 4,
-    date: "2023-12-20"
+    rating: 4.6,
+    date: "2024-08-25"
   },
   {
     id: "city-testimonial-new-orleans-3",
-    quote: "Living in New Orleans has allowed me to connect deeply with {NATURE_FEATURE} nearby.",
-    author: "Olivia Hawkins",
-    title: "A Love Letter to New Orleans",
+    quote: "New Orleans's academic scene has become central to my life here. I couldn't imagine living without it now.",
+    author: "Albert Harris",
+    title: "Why I Chose New Orleans as Home",
     city: "New Orleans",
-    rating: 4.8,
-    date: "2025-06-17"
+    rating: 4.9,
+    date: "2025-11-11"
   },
   {
     id: "city-testimonial-new-orleans-4",
-    quote: "The nightlife in New Orleans is vibrant and full of {ENTERTAINMENT_FEATURE} for everyone.",
-    author: "Aisha Baker",
-    title: "Inside the Culture of New Orleans",
+    quote: "The mix of old and new in New Orleans's architecture and culture keeps the city feeling fresh yet grounded.",
+    author: "Louis Wright",
+    title: "Why I’m Proud to Call New Orleans Home",
     city: "New Orleans",
-    rating: 4.7,
-    date: "2023-09-10"
+    rating: 4.5,
+    date: "2025-07-09"
   },
   {
     id: "city-testimonial-new-orleans-5",
-    quote: "The mix of old and new in New Orleans's architecture and culture keeps the city feeling fresh yet grounded.",
-    author: "Savannah Hamilton",
-    title: "From Newcomer to Local in New Orleans",
+    quote: "The {GREEN_SPACES} in New Orleans offer a perfect escape from the urban buzz without leaving the city limits.",
+    author: "Gary Ivanov",
+    title: "The Real New Orleans Experience",
     city: "New Orleans",
     rating: 4.2,
-    date: "2024-08-20"
+    date: "2025-04-13"
   },
   {
     id: "city-testimonial-new-orleans-6",
-    quote: "Raising my family in New Orleans gives us access to enrichment activities, which is truly invaluable.",
-    author: "Steven Montgomery",
-    title: "The Vibrant Life of New Orleans Residents",
+    quote: "From my apartment in New Orleans, I can experience night markets. Where else could you do that?",
+    author: "Jerry Price",
+    title: "A Resident's Guide to Living Well in New Orleans",
     city: "New Orleans",
-    rating: 4.4,
-    date: "2023-01-27"
+    rating: 4.9,
+    date: "2023-03-27"
   },
   {
     id: "city-testimonial-new-orleans-7",
-    quote: "Living in New Orleans has been one of the best decisions of my life. The entrepreneurial vibe here makes everyday life so enjoyable.",
-    author: "Rebecca Johnson",
-    title: "Why New Orleans Feels Like Home",
+    quote: "Living in New Orleans means experiencing architectural wonder on a daily basis, which is why I could never leave.",
+    author: "Ahmed Palmer",
+    title: "New Orleans: Where I Found My Community",
     city: "New Orleans",
-    rating: 4.7,
-    date: "2025-11-01"
+    rating: 4.8,
+    date: "2025-11-11"
   },
   {
     id: "city-testimonial-new-orleans-8",
-    quote: "Living here means being a part of New Orleans's ongoing story of innovation and tradition.",
-    author: "Wei Patel",
-    title: "The Beauty of Everyday Life in New Orleans",
+    quote: "The people of New Orleans are incredibly welcoming and have made me feel at home since day one.",
+    author: "Ibrahim Bennett",
+    title: "The Vibrant Life of New Orleans Residents",
     city: "New Orleans",
-    rating: 4.4,
-    date: "2024-07-02"
+    rating: 4.7,
+    date: "2023-08-16"
   },
   {
     id: "city-testimonial-new-orleans-9",
-    quote: "The historical significance of New Orleans adds a depth to daily life that I truly cherish.",
-    author: "Benjamin Foster",
-    title: "The Neighborhoods That Make New Orleans Home",
+    quote: "One thing I didn’t expect when moving to New Orleans was the {WEATHER_FEATURE}—it’s truly refreshing.",
+    author: "Maria Lee",
+    title: "The Joys of Slow Living in New Orleans",
     city: "New Orleans",
-    rating: 4.1,
-    date: "2023-07-01"
+    rating: 4.3,
+    date: "2025-12-27"
   }
 ];

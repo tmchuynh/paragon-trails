@@ -6,83 +6,83 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const losangelesTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-los-angeles-1",
-    quote: "What most people don't realize about living in Los Angeles is how culturally rich it actually is. I've found my true home here.",
-    author: "Abigail Mason",
-    title: "The Real Los Angeles Experience",
+    quote: "The people of Los Angeles are incredibly welcoming and have made me feel at home since day one.",
+    author: "Jordan Foster",
+    title: "What Makes Los Angeles Uniquely Livable",
     city: "Los Angeles",
-    rating: 4.6,
-    date: "2023-09-13"
+    rating: 4,
+    date: "2025-07-02"
   },
   {
     id: "city-testimonial-los-angeles-2",
-    quote: "The sports facilities in Los Angeles makes everyday life feel like an adventure. I've been here 7 years and still discover new things.",
-    author: "Aisha Johnson",
-    title: "What Makes Los Angeles Special to Live In",
+    quote: "The cost of living in Los Angeles is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
+    author: "Aiden Wallace",
+    title: "Uncovering the Layers of Los Angeles",
     city: "Los Angeles",
     rating: 4.7,
-    date: "2025-09-12"
+    date: "2024-02-15"
   },
   {
     id: "city-testimonial-los-angeles-3",
-    quote: "The summer night events in Los Angeles is something I look forward to every year. It's what makes living here magical.",
-    author: "Emma Hawkins",
-    title: "Los Angeles: Where I Found My Community",
+    quote: "Living in Los Angeles means being surrounded by festival grounds, which feeds my soul every day.",
+    author: "Carol Dunn",
+    title: "The Neighborhoods That Make Los Angeles Home",
     city: "Los Angeles",
-    rating: 4.4,
-    date: "2024-07-08"
+    rating: 4.1,
+    date: "2025-06-02"
   },
   {
     id: "city-testimonial-los-angeles-4",
-    quote: "The local craft breweries in Los Angeles makes everyday life feel like an adventure. I've been here 10 years and still discover new things.",
-    author: "Bella Jansen",
-    title: "Finding Inspiration Every Day in Los Angeles",
+    quote: "After moving to Los Angeles 20 years ago, I fell in love with the progressive thinking of this place. It's truly special.",
+    author: "Michael Grant",
+    title: "Los Angeles Living: Worth Every Moment",
     city: "Los Angeles",
-    rating: 5,
-    date: "2025-06-09"
+    rating: 4.3,
+    date: "2023-02-22"
   },
   {
     id: "city-testimonial-los-angeles-5",
-    quote: "The nightlife in Los Angeles is vibrant and full of {ENTERTAINMENT_FEATURE} for everyone.",
-    author: "Logan Lopez",
-    title: "Inside the Culture of Los Angeles",
+    quote: "What I love most about living in Los Angeles is the urban murals and street art. It creates such a unique atmosphere that feels like home.",
+    author: "Victoria Johnson",
+    title: "What Makes Los Angeles Feel Like Family",
     city: "Los Angeles",
-    rating: 4.8,
-    date: "2025-03-07"
+    rating: 4.4,
+    date: "2023-12-08"
   },
   {
     id: "city-testimonial-los-angeles-6",
-    quote: "The food scene in Los Angeles is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
-    author: "Hassan Jackson",
-    title: "Los Angeles Through a Resident's Eyes",
+    quote: "Los Angeles's architectural scene has become central to my life here. I couldn't imagine living without it now.",
+    author: "Miguel Montgomery",
+    title: "The Community Spirit That Defines Los Angeles",
     city: "Los Angeles",
-    rating: 4.9,
-    date: "2024-02-23"
+    rating: 4.3,
+    date: "2025-01-12"
   },
   {
     id: "city-testimonial-los-angeles-7",
-    quote: "Los Angeles isn't just where I live—it's part of my identity now. The historic neighborhoods has shaped who I am.",
-    author: "Amanda White",
-    title: "The Unexpected Joys of Los Angeles Living",
+    quote: "The sense of {SAFETY} in Los Angeles makes me feel comfortable raising my kids here.",
+    author: "Rebecca Jones",
+    title: "The Community Spirit That Defines Los Angeles",
     city: "Los Angeles",
-    rating: 4.1,
-    date: "2023-12-22"
+    rating: 4.3,
+    date: "2023-06-21"
   },
   {
     id: "city-testimonial-los-angeles-8",
-    quote: "The food scene in Los Angeles is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
-    author: "Sophia Mason",
-    title: "Living and Thriving in Los Angeles",
+    quote: "I've found that Los Angeles's {TRANSPORT_FEATURE} really makes getting around effortless and enjoyable.",
+    author: "Tyler Lee",
+    title: "Discovering Home in Los Angeles",
     city: "Los Angeles",
-    rating: 4.4,
-    date: "2023-02-07"
+    rating: 4.3,
+    date: "2024-08-12"
   },
   {
     id: "city-testimonial-los-angeles-9",
-    quote: "The cost of living in Los Angeles is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
-    author: "Ellie Keller",
+    quote: "Community events and festivals in Los Angeles bring everyone together, making the {COMMUNITY_ASPECT} really stand out.",
+    author: "Liam Chambers",
     title: "Why Los Angeles Feels Like Home",
     city: "Los Angeles",
-    rating: 4.9,
-    date: "2023-05-10"
+    rating: 4.1,
+    date: "2025-09-17"
   }
 ];

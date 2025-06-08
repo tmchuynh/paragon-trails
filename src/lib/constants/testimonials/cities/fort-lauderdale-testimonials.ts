@@ -6,74 +6,56 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const fortlauderdaleTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-fort-lauderdale-1",
-    quote: "The winter holiday markets in Fort Lauderdale is something I look forward to every year. It's what makes living here magical.",
-    author: "Isabella Brooks",
-    title: "What I Love About Living in Fort Lauderdale",
+    quote: "Fort Lauderdale isn't just where I live—it's part of my identity now. The music scene has shaped who I am.",
+    author: "Audrey Wells",
+    title: "The Real Fort Lauderdale Experience",
     city: "Fort Lauderdale",
-    rating: 4.4,
-    date: "2024-07-11"
+    rating: 5,
+    date: "2024-05-25"
   },
   {
     id: "city-testimonial-fort-lauderdale-2",
-    quote: "What I love most about living in Fort Lauderdale is the historic architecture. It creates such a unique atmosphere that feels like home.",
-    author: "Matthew Crawford",
-    title: "The True Character of Fort Lauderdale",
+    quote: "The food scene in Fort Lauderdale is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
+    author: "Ahmed Collins",
+    title: "The Joys of Slow Living in Fort Lauderdale",
     city: "Fort Lauderdale",
-    rating: 4.1,
-    date: "2024-12-23"
+    rating: 4.9,
+    date: "2025-11-17"
   },
   {
     id: "city-testimonial-fort-lauderdale-3",
-    quote: "The food scene in Fort Lauderdale is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
-    author: "Sarah Coleman",
-    title: "The Unexpected Joys of Fort Lauderdale Living",
+    quote: "Living in Fort Lauderdale has allowed me to connect deeply with {NATURE_FEATURE} nearby.",
+    author: "Louis Davis",
+    title: "The Soul of Fort Lauderdale: A Local's View",
     city: "Fort Lauderdale",
-    rating: 4.9,
-    date: "2025-03-06"
+    rating: 4.7,
+    date: "2025-08-25"
   },
   {
     id: "city-testimonial-fort-lauderdale-4",
-    quote: "The food scene in Fort Lauderdale is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
-    author: "Dennis Price",
-    title: "The Everyday Magic of Fort Lauderdale",
+    quote: "The {TRANQUILITY_FEATURE} in Fort Lauderdale offers a peaceful retreat from the busy world.",
+    author: "Kevin Bennett",
+    title: "How Fort Lauderdale Balances Tradition and Innovation",
     city: "Fort Lauderdale",
-    rating: 4.5,
-    date: "2023-04-19"
+    rating: 4.1,
+    date: "2023-04-03"
   },
   {
     id: "city-testimonial-fort-lauderdale-5",
-    quote: "Living here means being a part of Fort Lauderdale's ongoing story of innovation and tradition.",
-    author: "Roy Russell",
-    title: "Why I’m Proud to Call Fort Lauderdale Home",
+    quote: "The historical significance of Fort Lauderdale adds a depth to daily life that I truly cherish.",
+    author: "Priya Graham",
+    title: "The Real Fort Lauderdale Experience",
     city: "Fort Lauderdale",
-    rating: 4.3,
-    date: "2024-10-12"
+    rating: 4.4,
+    date: "2023-02-02"
   },
   {
     id: "city-testimonial-fort-lauderdale-6",
-    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Fort Lauderdale make daily life convenient and stress-free.",
-    author: "Charlotte Coleman",
-    title: "Why Fort Lauderdale Keeps Getting Better",
+    quote: "As someone who's lived in many cities, I can say that Fort Lauderdale's environmental consciousness is unmatched anywhere else.",
+    author: "Kinsley Henderson",
+    title: "The Challenges and Charms of Living in Fort Lauderdale",
     city: "Fort Lauderdale",
-    rating: 4.5,
-    date: "2024-03-27"
-  },
-  {
-    id: "city-testimonial-fort-lauderdale-7",
-    quote: "The historical significance of Fort Lauderdale adds a depth to daily life that I truly cherish.",
-    author: "Mia Lawson",
-    title: "Finding Balance in Fort Lauderdale",
-    city: "Fort Lauderdale",
-    rating: 4,
-    date: "2024-01-04"
-  },
-  {
-    id: "city-testimonial-fort-lauderdale-8",
-    quote: "The fall university energy in Fort Lauderdale is something I look forward to every year. It's what makes living here magical.",
-    author: "Mateo Price",
-    title: "From Newcomer to Local in Fort Lauderdale",
-    city: "Fort Lauderdale",
-    rating: 4.1,
-    date: "2025-06-23"
+    rating: 4.9,
+    date: "2025-02-11"
   }
 ];

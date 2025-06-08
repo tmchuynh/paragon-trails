@@ -6,83 +6,56 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const petraTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-petra-1",
-    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Petra make daily life convenient and stress-free.",
-    author: "Genesis Wallace",
-    title: "Why Petra Feels Like Home",
+    quote: "The balance of creative hubs and traditional craftsmanship in Petra creates a quality of life that's hard to find elsewhere.",
+    author: "Mia Suzuki",
+    title: "My Petra Story: Life as a Resident",
     city: "Petra",
-    rating: 4.1,
-    date: "2025-05-21"
+    rating: 4.7,
+    date: "2025-07-13"
   },
   {
     id: "city-testimonial-petra-2",
-    quote: "As a 10-year resident of Petra, I can't imagine living anywhere else. The local businesses here is something you can't find elsewhere.",
-    author: "Michael Chambers",
-    title: "Petra: Beyond the Tourist Experience",
+    quote: "If you want a city that offers {LIFESTYLE_BENEFIT}, Petra is the place to be.",
+    author: "Patrick Bennett",
+    title: "Finding Balance in Petra",
     city: "Petra",
-    rating: 4.8,
-    date: "2023-07-21"
+    rating: 5,
+    date: "2025-08-02"
   },
   {
     id: "city-testimonial-petra-3",
-    quote: "Living in Petra means being surrounded by coastal vistas, which feeds my soul every day.",
-    author: "Andrew Nakamura",
-    title: "What I Love About Living in Petra",
+    quote: "After 5 years as a Petra local, I still appreciate the weekend rituals that makes this place special.",
+    author: "Priya Henderson",
+    title: "What Makes Petra Special to Live In",
     city: "Petra",
-    rating: 4.4,
-    date: "2023-10-06"
+    rating: 4.8,
+    date: "2024-03-27"
   },
   {
     id: "city-testimonial-petra-4",
-    quote: "The food scene in Petra is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
-    author: "Bobby Rossi",
-    title: "Petra Through a Resident's Eyes",
+    quote: "The waterfront promenade in Petra makes everyday life feel like an adventure. I've been here 18 years and still discover new things.",
+    author: "Muhammad Wright",
+    title: "The Heartbeat of Petra Life",
     city: "Petra",
-    rating: 4.5,
-    date: "2025-03-04"
+    rating: 4.1,
+    date: "2023-10-02"
   },
   {
     id: "city-testimonial-petra-5",
-    quote: "Every weekend in Petra brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
-    author: "Andrew Keller",
-    title: "My Corner of Petra",
+    quote: "What I tell friends considering moving to Petra is to appreciate the architectural details—it's what makes daily life here so rich.",
+    author: "Omar Dunn",
+    title: "Life in Petra: A Local Perspective",
     city: "Petra",
-    rating: 4.4,
-    date: "2024-05-10"
+    rating: 4.5,
+    date: "2024-02-16"
   },
   {
     id: "city-testimonial-petra-6",
-    quote: "After moving to Petra 4 years ago, I fell in love with the innovative mindset of this place. It's truly special.",
-    author: "Bruce Day",
-    title: "Why I’m Proud to Call Petra Home",
+    quote: "What I tell friends considering moving to Petra is to appreciate the community events—it's what makes daily life here so rich.",
+    author: "Christine Wallace",
+    title: "Discovering Home in Petra",
     city: "Petra",
-    rating: 4.8,
-    date: "2023-04-11"
-  },
-  {
-    id: "city-testimonial-petra-7",
-    quote: "As someone who's lived in many cities, I can say that Petra's walkability is unmatched anywhere else.",
-    author: "Ava Suzuki",
-    title: "The Real Petra Experience",
-    city: "Petra",
-    rating: 4.2,
-    date: "2024-08-04"
-  },
-  {
-    id: "city-testimonial-petra-8",
-    quote: "The people of Petra are incredibly welcoming and have made me feel at home since day one.",
-    author: "Noah Curtis",
-    title: "The Joys of Slow Living in Petra",
-    city: "Petra",
-    rating: 4.1,
-    date: "2024-05-01"
-  },
-  {
-    id: "city-testimonial-petra-9",
-    quote: "The sense of {SAFETY} in Petra makes me feel comfortable raising my kids here.",
-    author: "Oliver Foster",
-    title: "The Real Petra Experience",
-    city: "Petra",
-    rating: 4.6,
-    date: "2024-05-16"
+    rating: 4,
+    date: "2025-03-06"
   }
 ];

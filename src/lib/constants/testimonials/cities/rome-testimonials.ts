@@ -6,56 +6,65 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const romeTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-rome-1",
-    quote: "I came to Rome for work but stayed for the outdoor activities. Best decision I ever made.",
-    author: "Hassan Holloway",
-    title: "The Vibrant Life of Rome Residents",
+    quote: "The nightlife in Rome is vibrant and full of {ENTERTAINMENT_FEATURE} for everyone.",
+    author: "Layla Jackson",
+    title: "Rome: Beyond the Tourist Experience",
     city: "Rome",
-    rating: 4.9,
-    date: "2025-09-14"
+    rating: 4.3,
+    date: "2025-09-17"
   },
   {
     id: "city-testimonial-rome-2",
-    quote: "The sense of {SAFETY} in Rome makes me feel comfortable raising my kids here.",
-    author: "Katherine Jennings",
-    title: "The Beauty of Everyday Life in Rome",
+    quote: "What most people don't realize about living in Rome is how inspiring it actually is. I've found my true home here.",
+    author: "Isabella Rodriguez",
+    title: "The Challenges and Charms of Living in Rome",
     city: "Rome",
     rating: 4,
-    date: "2023-04-19"
+    date: "2025-09-14"
   },
   {
     id: "city-testimonial-rome-3",
-    quote: "The {FESTIVAL_OR_EVENT} season in Rome brings so much excitement and pride to the community.",
-    author: "Olivia Johnson",
-    title: "Living and Thriving in Rome",
+    quote: "The cost of living in Rome is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
+    author: "Kenneth Wilson",
+    title: "The Beauty of Everyday Life in Rome",
     city: "Rome",
     rating: 4.3,
-    date: "2023-12-16"
+    date: "2025-03-27"
   },
   {
     id: "city-testimonial-rome-4",
-    quote: "The rooftop bars in Rome makes everyday life feel like an adventure. I've been here 20 years and still discover new things.",
-    author: "Stephanie Fletcher",
-    title: "Finding Balance in Rome",
+    quote: "Living in Rome means experiencing professional growth on a daily basis, which is why I could never leave.",
+    author: "Lucas Foster",
+    title: "Rome Living: Worth Every Moment",
     city: "Rome",
-    rating: 4.5,
-    date: "2023-05-21"
+    rating: 4.6,
+    date: "2023-02-10"
   },
   {
     id: "city-testimonial-rome-5",
-    quote: "Every weekend in Rome brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
-    author: "Amanda Dean",
-    title: "The True Character of Rome",
+    quote: "The {FESTIVAL_OR_EVENT} season in Rome brings so much excitement and pride to the community.",
+    author: "Mia Johnson",
+    title: "Rome Living: Worth Every Moment",
     city: "Rome",
-    rating: 4.6,
-    date: "2024-02-07"
+    rating: 4.1,
+    date: "2025-01-06"
   },
   {
     id: "city-testimonial-rome-6",
-    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Rome make daily life convenient and stress-free.",
-    author: "Sophia Lewis",
-    title: "The Beauty of Everyday Life in Rome",
+    quote: "What most people don't realize about living in Rome is how hidden gem it actually is. I've found my true home here.",
+    author: "Wayne Garcia",
+    title: "The Community Spirit That Defines Rome",
     city: "Rome",
-    rating: 4.6,
-    date: "2023-07-03"
+    rating: 4.1,
+    date: "2024-10-17"
+  },
+  {
+    id: "city-testimonial-rome-7",
+    quote: "The eco-conscious neighborhoods in Rome each have their own character, which keeps life interesting year after year.",
+    author: "Mia Hall",
+    title: "Finding Inspiration Every Day in Rome",
+    city: "Rome",
+    rating: 4.3,
+    date: "2023-12-14"
   }
 ];

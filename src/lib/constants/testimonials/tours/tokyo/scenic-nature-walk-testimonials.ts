@@ -3,83 +3,139 @@
 
 export const scenicNatureWalkTestimonials: Testimonial[] = [
   {
-    id: "testimonial-tour-tokyo-4-1",
-    quote: "Such a memorable way to explore Tokyo. The mix of history, local culture, and stories was perfect.",
-    author: "Nancy Bennett",
-    title: "Learned So Much!",
-    rating: 4.5,
-    date: "2017-09-05"
+    id: "testimonial-tour-tokyo-3-1",
+    quote: "This tour was absolutely amazing! Patrick White knew everything about Tokyo and showed us places we would have never found on our own.",
+    author: "Elijah Day",
+    title: "The Perfect Introduction to Tokyo",
+    rating: 4.4,
+    date: "2024-03-08"
   },
   {
-    id: "testimonial-tour-tokyo-4-2",
-    quote: "The pace was perfect, the content was rich, and Maya Holloway made every stop memorable.",
-    author: "Carol Dubois",
-    title: "Memorable from the First Step",
+    id: "testimonial-tour-tokyo-3-2",
+    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Patrick White.",
+    author: "Isabella Carter",
+    title: "Highly Recommend to Everyone",
     rating: 4.6,
-    date: "2019-06-22"
+    date: "2022-02-02"
   },
   {
-    id: "testimonial-tour-tokyo-4-3",
-    quote: "This tour exceeded all my expectations. Maya Holloway's insider knowledge made our Tokyo visit unforgettable.",
-    author: "Mary Knight",
-    title: "A Walk That Will Make You Believe in Magic",
-    rating: 4.7,
-    date: "2022-08-15"
+    id: "testimonial-tour-tokyo-3-3",
+    quote: "Even our teens were engaged the entire time — Patrick White knows how to captivate a group!",
+    author: "Lisa Wilson",
+    title: "Beyond Our Expectations",
+    rating: 4.6,
+    date: "2017-02-08"
   },
   {
-    id: "testimonial-tour-tokyo-4-4",
-    quote: "This was not just sightseeing — it was a deep dive into the heart of Tokyo thanks to Maya Holloway.",
-    author: "Jerry Johnson",
-    title: "Wandered Far, Wondered More",
-    rating: 3.5,
-    date: "2017-09-07"
-  },
-  {
-    id: "testimonial-tour-tokyo-4-5",
-    quote: "What an engaging experience! Maya Holloway kept us laughing and learning throughout the Scenic Nature Walk.",
-    author: "Thandiwe Grant",
-    title: "A Walk That Will Make You Appreciate Tokyo More",
+    id: "testimonial-tour-tokyo-3-4",
+    quote: "Even the locals in our group said they learned something new. That says a lot about Patrick White's depth.",
+    author: "Valentina Hawkins",
+    title: "A Journey Through Tokyo's History",
     rating: 4.2,
-    date: "2020-02-22"
+    date: "2024-10-10"
   },
   {
-    id: "testimonial-tour-tokyo-4-6",
-    quote: "As a solo traveler, I felt completely comfortable on this tour. Maya Holloway created a friendly atmosphere from the start.",
-    author: "Angela Parker",
-    title: "Fascinating and Fun",
-    rating: 3.6,
-    date: "2025-02-25"
+    id: "testimonial-tour-tokyo-3-5",
+    quote: "From beginning to end, the Scenic Nature Walk was seamless and so well organized.",
+    author: "Zoe Nash",
+    title: "A Walk That Will Make You Feel Alive",
+    rating: 4.8,
+    date: "2019-02-19"
   },
   {
-    id: "testimonial-tour-tokyo-4-7",
-    quote: "It felt like a private tour, even though we were with a group. Maya Holloway is incredibly engaging.",
-    author: "Ana Dean",
-    title: "A Stroll Through a Living Storybook",
-    rating: 4.3,
-    date: "2025-02-04"
+    id: "testimonial-tour-tokyo-3-6",
+    quote: "We booked last-minute and are so glad we did. Patrick White made it one of our favorite memories from Tokyo.",
+    author: "Bryan Ellis",
+    title: "Fun, Friendly, and Full of Insight",
+    rating: 4.8,
+    date: "2020-06-21"
   },
   {
-    id: "testimonial-tour-tokyo-4-8",
-    quote: "We’ll be recommending the Scenic Nature Walk to all our friends. Maya Holloway made it that special.",
-    author: "Benjamin Henderson",
-    title: "Truly Eye-Opening",
+    id: "testimonial-tour-tokyo-3-7",
+    quote: "Patrick White had such a great balance of history, fun facts, and local stories — truly a gifted guide.",
+    author: "Aiden Knight",
+    title: "Hot, Sweaty, and Absolutely Worth It",
+    rating: 4.6,
+    date: "2020-06-24"
+  },
+  {
+    id: "testimonial-tour-tokyo-3-8",
+    quote: "I can't recommend the Scenic Nature Walk enough. Patrick White was phenomenal, and the experience was worth every penny.",
+    author: "Sophia Jones",
+    title: "A Walk That Will Make You See Tokyo Differently",
+    rating: 4.2,
+    date: "2021-04-12"
+  },
+  {
+    id: "testimonial-tour-tokyo-3-9",
+    quote: "One of the best decisions of our trip! Patrick White is a fantastic guide and brought incredible energy to the tour.",
+    author: "Walter Russell",
+    title: "Loved Every Minute",
+    rating: 4.2,
+    date: "2020-01-16"
+  },
+  {
+    id: "testimonial-tour-tokyo-3-10",
+    quote: "Our family loved every moment of the Scenic Nature Walk. Patrick White even made it fun for our kids.",
+    author: "Sarah Jansen",
+    title: "A Walk Through History",
     rating: 3.9,
-    date: "2023-07-07"
+    date: "2021-05-13"
   },
   {
-    id: "testimonial-tour-tokyo-4-9",
-    quote: "The Scenic Nature Walk was the highlight of our trip to Tokyo. Maya Holloway took us to all the best spots and shared fascinating stories.",
-    author: "Dennis Jansen",
-    title: "A Tour to Remember",
-    rating: 3.8,
-    date: "2021-02-06"
+    id: "testimonial-tour-tokyo-3-11",
+    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Patrick White!",
+    author: "Santiago Wilson",
+    title: "A Deep Dive into Local Culture",
+    rating: 4.3,
+    date: "2022-01-19"
   },
   {
-    id: "testimonial-tour-tokyo-4-10",
-    quote: "Highly recommend this tour if you want more than just a photo op — Maya Holloway gives you real insight into Tokyo.",
-    author: "Scarlett Lewis",
-    title: "A Tour That Feels Like Home",
-    rating: 3.8,
-    date: "2018-10-05"
+    id: "testimonial-tour-tokyo-3-12",
+    quote: "This was more than just sightseeing — it was an unforgettable journey through Tokyo's culture and history.",
+    author: "Linda Campbell",
+    title: "A Deep Dive into Local Culture",
+    rating: 4.7,
+    date: "2018-06-28"
+  },
+  {
+    id: "testimonial-tour-tokyo-3-13",
+    quote: "We joined the Scenic Nature Walk on our first day in Tokyo, and it set the tone for a fantastic trip.",
+    author: "Gabriel Moore",
+    title: "Lost in Time—in the Best Way",
+    rating: 4.3,
+    date: "2022-07-03"
+  },
+  {
+    id: "testimonial-tour-tokyo-3-14",
+    quote: "Perfect balance of walking, learning, and taking in the atmosphere. Highly recommend Patrick White.",
+    author: "Darrell Harper",
+    title: "A Journey Through Tokyo's Secrets",
+    rating: 4.3,
+    date: "2021-05-17"
+  },
+  {
+    id: "testimonial-tour-tokyo-3-15",
+    quote: "We had limited time in Tokyo, and this tour made sure we saw the best of it. Patrick White was amazing.",
+    author: "Virginia Reeves",
+    title: "Learned So Much!",
+    rating: 4.8,
+    date: "2022-07-21"
+  },
+  {
+    id: "testimonial-tour-tokyo-3-16",
+    quote: "My daughter and I didn’t want the tour to end. Patrick White is that engaging and informative.",
+    author: "Sandra Parker",
+    title: "History, Snacks, and Laughs—Yes Please!",
+    rating: 4.8,
+    date: "2022-10-05"
+  },
+  {
+    id: "testimonial-tour-tokyo-3-17",
+    quote: "I've been on many tours, but this one stands out. Patrick White was passionate, knowledgeable, and made everyone feel welcome.",
+    author: "Kennedy Morales",
+    title: "A Walk That Changed Everything",
+    rating: 4.4,
+    date: "2019-01-21"
   }
 ];

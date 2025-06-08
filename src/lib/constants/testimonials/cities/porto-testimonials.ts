@@ -6,92 +6,83 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const portoTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-porto-1",
-    quote: "Living in Porto has been one of the best decisions of my life. The vibrant energy here makes everyday life so enjoyable.",
-    author: "Maya Brooks",
-    title: "The Heartbeat of Porto Life",
+    quote: "The historical significance of Porto adds a depth to daily life that I truly cherish.",
+    author: "Jerry Nash",
+    title: "The Soul of Porto: A Local's View",
     city: "Porto",
-    rating: 4.2,
-    date: "2025-01-18"
+    rating: 4.3,
+    date: "2025-02-14"
   },
   {
     id: "city-testimonial-porto-2",
-    quote: "The historical significance of Porto adds a depth to daily life that I truly cherish.",
-    author: "Johnny Singh",
-    title: "What Makes Porto Feel Like Family",
+    quote: "The {TRANQUILITY_FEATURE} in Porto offers a peaceful retreat from the busy world.",
+    author: "Maya Kowalski",
+    title: "The Heartbeat of Porto Life",
     city: "Porto",
-    rating: 4,
-    date: "2023-07-06"
+    rating: 4.5,
+    date: "2025-04-18"
   },
   {
     id: "city-testimonial-porto-3",
-    quote: "Porto's gallery openings scene has become central to my life here. I couldn't imagine living without it now.",
-    author: "Emily Reeves",
-    title: "Finding Balance in Porto",
+    quote: "What I tell friends considering moving to Porto is to appreciate the pop-up galleries—it's what makes daily life here so rich.",
+    author: "Mia Price",
+    title: "A Resident's Guide to Living Well in Porto",
     city: "Porto",
-    rating: 4.4,
-    date: "2025-03-09"
+    rating: 4.6,
+    date: "2023-03-14"
   },
   {
     id: "city-testimonial-porto-4",
-    quote: "After moving to Porto 8 years ago, I fell in love with the artisanal craftsmanship of this place. It's truly special.",
-    author: "Brian Anderson",
-    title: "Inside the Culture of Porto",
+    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Porto make daily life convenient and stress-free.",
+    author: "Ronald Reed",
+    title: "Porto: Beyond the Tourist Experience",
     city: "Porto",
-    rating: 4.2,
-    date: "2025-11-14"
+    rating: 4.8,
+    date: "2023-08-05"
   },
   {
     id: "city-testimonial-porto-5",
-    quote: "One of the best things about living in Porto is the {ACCESSIBILITY_FEATURE}—it makes everything so convenient.",
-    author: "Chloe Collins",
-    title: "From Newcomer to Local in Porto",
+    quote: "I appreciate how Porto balances {TECH_INNOVATION} with historic charm perfectly.",
+    author: "Harold Kowalski",
+    title: "Porto: A City That Grows With You",
     city: "Porto",
-    rating: 4.6,
-    date: "2025-01-24"
+    rating: 4.1,
+    date: "2025-10-06"
   },
   {
     id: "city-testimonial-porto-6",
-    quote: "The mix of old and new in Porto's architecture and culture keeps the city feeling fresh yet grounded.",
-    author: "Ibrahim Holloway",
-    title: "The Everyday Magic of Porto",
+    quote: "The trendy neighborhoods in Porto each have their own character, which keeps life interesting year after year.",
+    author: "Richard Suzuki",
+    title: "What Makes Porto Special to Live In",
     city: "Porto",
-    rating: 4.2,
-    date: "2023-10-01"
+    rating: 4.7,
+    date: "2025-02-14"
   },
   {
     id: "city-testimonial-porto-7",
-    quote: "After moving to Porto 30 years ago, I fell in love with the civic engagement of this place. It's truly special.",
-    author: "Yuki Jones",
-    title: "How Porto Changed My Life",
+    quote: "As a committed resident of Porto, I can't imagine living anywhere else. The wellness centers here is something you can't find elsewhere.",
+    author: "Carlos Taylor",
+    title: "My Corner of Porto",
     city: "Porto",
-    rating: 4.8,
-    date: "2024-05-19"
+    rating: 4,
+    date: "2025-03-25"
   },
   {
     id: "city-testimonial-porto-8",
-    quote: "Porto's food festivals scene has become central to my life here. I couldn't imagine living without it now.",
-    author: "Johnny Young",
-    title: "A Resident's Guide to Living Well in Porto",
+    quote: "The sense of {SAFETY} in Porto makes me feel comfortable raising my kids here.",
+    author: "Michelle Rossi",
+    title: "Life in Porto: A Local Perspective",
     city: "Porto",
-    rating: 4.1,
-    date: "2025-04-16"
+    rating: 4.2,
+    date: "2023-04-07"
   },
   {
     id: "city-testimonial-porto-9",
-    quote: "The urban murals and street art in Porto makes everyday life feel like an adventure. I've been here 5 years and still discover new things.",
-    author: "Avery Coleman",
-    title: "How Porto Changed My Life",
+    quote: "What I tell friends considering moving to Porto is to appreciate the riverside paths—it's what makes daily life here so rich.",
+    author: "Valentina Holloway",
+    title: "The Heartbeat of Porto Life",
     city: "Porto",
-    rating: 4.4,
-    date: "2025-06-06"
-  },
-  {
-    id: "city-testimonial-porto-10",
-    quote: "The mix of old and new in Porto's architecture and culture keeps the city feeling fresh yet grounded.",
-    author: "Bruce da Costa",
-    title: "A Resident's Guide to Living Well in Porto",
-    city: "Porto",
-    rating: 4.9,
-    date: "2025-11-04"
+    rating: 4.3,
+    date: "2023-11-23"
   }
 ];

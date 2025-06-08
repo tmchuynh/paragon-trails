@@ -6,65 +6,47 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const glacierbayTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-glacier-bay-1",
-    quote: "As a adopted resident of Glacier Bay, I can't imagine living anywhere else. The cycling tours here is something you can't find elsewhere.",
-    author: "Elizabeth Anderson",
-    title: "The Heartbeat of Glacier Bay Life",
+    quote: "The art and creativity flowing through Glacier Bay is inspiring. It feels like living inside a masterpiece.",
+    author: "Wei Porter",
+    title: "The Unexpected Joys of Glacier Bay Living",
     city: "Glacier Bay",
     rating: 4.5,
-    date: "2025-06-10"
+    date: "2023-06-07"
   },
   {
     id: "city-testimonial-glacier-bay-2",
-    quote: "As someone who's lived in many cities, I can say that Glacier Bay's quality of life is unmatched anywhere else.",
-    author: "Noah Holloway",
-    title: "Stories From the Streets of Glacier Bay",
+    quote: "The {FESTIVAL_OR_EVENT} season in Glacier Bay brings so much excitement and pride to the community.",
+    author: "Carlos Reed",
+    title: "Inside the Culture of Glacier Bay",
     city: "Glacier Bay",
-    rating: 4.6,
-    date: "2023-09-18"
+    rating: 4.3,
+    date: "2023-03-05"
   },
   {
     id: "city-testimonial-glacier-bay-3",
-    quote: "The food scene in Glacier Bay is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
-    author: "Gregory Nakamura",
-    title: "Glacier Bay: Where I Found My Community",
+    quote: "Community events and festivals in Glacier Bay bring everyone together, making the {COMMUNITY_ASPECT} really stand out.",
+    author: "Mateo Garcia",
+    title: "The Community Spirit That Defines Glacier Bay",
     city: "Glacier Bay",
-    rating: 4.4,
-    date: "2024-12-10"
+    rating: 4.7,
+    date: "2023-10-16"
   },
   {
     id: "city-testimonial-glacier-bay-4",
-    quote: "Living here means being a part of Glacier Bay's ongoing story of innovation and tradition.",
-    author: "Priya Lopez",
+    quote: "The {GREEN_SPACES} in Glacier Bay offer a perfect escape from the urban buzz without leaving the city limits.",
+    author: "Jack Foster",
     title: "Glacier Bay's Hidden Treasures for Locals",
     city: "Glacier Bay",
-    rating: 4.8,
-    date: "2025-08-17"
+    rating: 4.1,
+    date: "2023-06-06"
   },
   {
     id: "city-testimonial-glacier-bay-5",
-    quote: "Living in Glacier Bay has allowed me to connect deeply with {NATURE_FEATURE} nearby.",
-    author: "Elijah Wang",
-    title: "Glacier Bay: Beyond the Tourist Experience",
+    quote: "The cost of living in Glacier Bay is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
+    author: "Nomsa Henderson",
+    title: "Inside the Culture of Glacier Bay",
     city: "Glacier Bay",
     rating: 5,
-    date: "2025-06-28"
-  },
-  {
-    id: "city-testimonial-glacier-bay-6",
-    quote: "One of my favorite parts about living in Glacier Bay is the {MARKET_OR_SHOPPING_FEATURE} just around the corner.",
-    author: "Noah Hayes",
-    title: "Living the Glacier Bay Lifestyle",
-    city: "Glacier Bay",
-    rating: 4.5,
-    date: "2025-11-09"
-  },
-  {
-    id: "city-testimonial-glacier-bay-7",
-    quote: "The historical significance of Glacier Bay adds a depth to daily life that I truly cherish.",
-    author: "Liam Bennett",
-    title: "Life in Glacier Bay: A Local Perspective",
-    city: "Glacier Bay",
-    rating: 4.3,
-    date: "2025-08-02"
+    date: "2025-12-19"
   }
 ];

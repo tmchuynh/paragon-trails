@@ -6,65 +6,83 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const naplesTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-naples-1",
-    quote: "Living in Naples has been one of the best decisions of my life. The entrepreneurial vibe here makes everyday life so enjoyable.",
-    author: "Chloe Taylor",
-    title: "The Community Spirit That Defines Naples",
+    quote: "The winter snow transformations in Naples is something I look forward to every year. It's what makes living here magical.",
+    author: "Nathan Jackson",
+    title: "What Makes Naples Uniquely Livable",
     city: "Naples",
-    rating: 4.9,
-    date: "2025-03-03"
+    rating: 4.2,
+    date: "2024-09-21"
   },
   {
     id: "city-testimonial-naples-2",
-    quote: "The people of Naples are incredibly welcoming and have made me feel at home since day one.",
-    author: "Sofia Mitchell",
-    title: "The Vibrant Life of Naples Residents",
+    quote: "After 25 years as a Naples local, I still appreciate the local music venues that makes this place special.",
+    author: "Maya Palmer",
+    title: "Why I’m Proud to Call Naples Home",
     city: "Naples",
-    rating: 4.5,
-    date: "2024-05-20"
+    rating: 4.6,
+    date: "2023-03-15"
   },
   {
     id: "city-testimonial-naples-3",
-    quote: "The {TRANQUILITY_FEATURE} in Naples offers a peaceful retreat from the busy world.",
-    author: "Julie Chambers",
-    title: "The Joys of Slow Living in Naples",
+    quote: "The art and creativity flowing through Naples is inspiring. It feels like living inside a masterpiece.",
+    author: "Virginia Brooks",
+    title: "The Challenges and Charms of Living in Naples",
     city: "Naples",
-    rating: 4.6,
-    date: "2025-02-26"
+    rating: 4.4,
+    date: "2025-01-02"
   },
   {
     id: "city-testimonial-naples-4",
-    quote: "The food scene in Naples is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
-    author: "Noah Campbell",
-    title: "Why Naples Feels Like Home",
+    quote: "Naples has been my home for veteran, and the neighborhood associations here is what keeps me rooted.",
+    author: "Jack White",
+    title: "Stories From the Streets of Naples",
     city: "Naples",
-    rating: 4.7,
-    date: "2024-03-05"
+    rating: 4.3,
+    date: "2025-10-11"
   },
   {
     id: "city-testimonial-naples-5",
-    quote: "The balance of intellectual life and physical activity in Naples creates a quality of life that's hard to find elsewhere.",
-    author: "Yuki Campbell",
-    title: "The True Character of Naples",
+    quote: "What I love most about living in Naples is the walkable neighborhoods. It creates such a unique atmosphere that feels like home.",
+    author: "Ronald Morales",
+    title: "Why Naples Feels Like Home",
     city: "Naples",
     rating: 5,
-    date: "2025-11-05"
+    date: "2024-08-24"
   },
   {
     id: "city-testimonial-naples-6",
-    quote: "After moving to Naples 18 years ago, I fell in love with the rich folklore of this place. It's truly special.",
-    author: "Gerald Payne",
-    title: "The Soul of Naples: A Local's View",
+    quote: "I've found that Naples's {TRANSPORT_FEATURE} really makes getting around effortless and enjoyable.",
+    author: "Terry Patel",
+    title: "Finding Inspiration Every Day in Naples",
     city: "Naples",
-    rating: 4.4,
-    date: "2023-08-16"
+    rating: 4.6,
+    date: "2025-07-10"
   },
   {
     id: "city-testimonial-naples-7",
-    quote: "Living in Naples means being surrounded by open-air markets, which feeds my soul every day.",
-    author: "Sarah Maxwell",
-    title: "The Unexpected Joys of Naples Living",
+    quote: "Community events and festivals in Naples bring everyone together, making the {COMMUNITY_ASPECT} really stand out.",
+    author: "Mohamed Anderson",
+    title: "Naples Through a Resident's Eyes",
     city: "Naples",
-    rating: 4.4,
-    date: "2025-02-10"
+    rating: 4.6,
+    date: "2025-04-06"
+  },
+  {
+    id: "city-testimonial-naples-8",
+    quote: "As a resilient resident of Naples, I can't imagine living anywhere else. The music scene here is something you can't find elsewhere.",
+    author: "Angela Graves",
+    title: "From Newcomer to Local in Naples",
+    city: "Naples",
+    rating: 4.6,
+    date: "2025-07-05"
+  },
+  {
+    id: "city-testimonial-naples-9",
+    quote: "Living in Naples has been one of the best decisions of my life. The sports enthusiasm here makes everyday life so enjoyable.",
+    author: "Hiroshi Dixon",
+    title: "My Corner of Naples",
+    city: "Naples",
+    rating: 4.3,
+    date: "2024-03-11"
   }
 ];

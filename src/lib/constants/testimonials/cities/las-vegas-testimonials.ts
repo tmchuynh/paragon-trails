@@ -6,92 +6,92 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const lasvegasTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-las-vegas-1",
-    quote: "I've found that Las Vegas's {TRANSPORT_FEATURE} really makes getting around effortless and enjoyable.",
-    author: "Isabella Miller",
-    title: "The Challenges and Charms of Living in Las Vegas",
+    quote: "Las Vegas's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
+    author: "Willie Dixon",
+    title: "Living Sustainably in Las Vegas",
     city: "Las Vegas",
-    rating: 4.1,
-    date: "2023-08-27"
+    rating: 4.7,
+    date: "2024-10-17"
   },
   {
     id: "city-testimonial-las-vegas-2",
-    quote: "One of the best things about living in Las Vegas is the {ACCESSIBILITY_FEATURE}—it makes everything so convenient.",
-    author: "Maya King",
-    title: "The Beauty of Everyday Life in Las Vegas",
+    quote: "Living in Las Vegas means I get to enjoy {SPORTS_OR_OUTDOOR_ACTIVITY} year-round.",
+    author: "Elena Gardner",
+    title: "Las Vegas: Where I Found My Community",
     city: "Las Vegas",
-    rating: 4.5,
-    date: "2023-10-13"
+    rating: 4.8,
+    date: "2024-12-19"
   },
   {
     id: "city-testimonial-las-vegas-3",
     quote: "The art and creativity flowing through Las Vegas is inspiring. It feels like living inside a masterpiece.",
-    author: "Ahmed Mason",
-    title: "The Vibrant Life of Las Vegas Residents",
+    author: "Emma Hunter",
+    title: "What Makes Las Vegas Uniquely Livable",
     city: "Las Vegas",
-    rating: 4.3,
-    date: "2025-10-21"
+    rating: 4.7,
+    date: "2023-09-16"
   },
   {
     id: "city-testimonial-las-vegas-4",
-    quote: "The sense of {SAFETY} in Las Vegas makes me feel comfortable raising my kids here.",
-    author: "Susan Suzuki",
-    title: "A Love Letter to Las Vegas",
+    quote: "Living here means being a part of Las Vegas's ongoing story of innovation and tradition.",
+    author: "Sean Bennett",
+    title: "Why Las Vegas Feels Like Home",
     city: "Las Vegas",
     rating: 4.8,
-    date: "2025-02-06"
+    date: "2024-01-01"
   },
   {
     id: "city-testimonial-las-vegas-5",
-    quote: "What I tell friends considering moving to Las Vegas is to appreciate the creative incubators—it's what makes daily life here so rich.",
-    author: "Boris Ellis",
-    title: "Living and Thriving in Las Vegas",
+    quote: "The historical significance of Las Vegas adds a depth to daily life that I truly cherish.",
+    author: "Ava Wood",
+    title: "The Joys of Slow Living in Las Vegas",
     city: "Las Vegas",
-    rating: 4.6,
-    date: "2024-05-02"
+    rating: 4.8,
+    date: "2023-04-25"
   },
   {
     id: "city-testimonial-las-vegas-6",
     quote: "The nightlife in Las Vegas is vibrant and full of {ENTERTAINMENT_FEATURE} for everyone.",
-    author: "Ryan Jackson",
-    title: "Finding Balance in Las Vegas",
+    author: "Chloe Lopez",
+    title: "The Perfect Imperfections of Las Vegas",
     city: "Las Vegas",
-    rating: 4.8,
-    date: "2025-04-08"
+    rating: 4.3,
+    date: "2023-09-01"
   },
   {
     id: "city-testimonial-las-vegas-7",
-    quote: "The {GREEN_SPACES} in Las Vegas offer a perfect escape from the urban buzz without leaving the city limits.",
-    author: "Betty Bennett",
-    title: "Las Vegas Living: Worth Every Moment",
+    quote: "The mix of old and new in Las Vegas's architecture and culture keeps the city feeling fresh yet grounded.",
+    author: "Sophia Foster",
+    title: "The Unexpected Joys of Las Vegas Living",
     city: "Las Vegas",
-    rating: 4,
-    date: "2024-09-18"
+    rating: 4.9,
+    date: "2024-08-13"
   },
   {
     id: "city-testimonial-las-vegas-8",
-    quote: "After 15 years as a Las Vegas local, I still appreciate the hidden courtyards that makes this place special.",
-    author: "Charlotte Clark",
-    title: "The Challenges and Charms of Living in Las Vegas",
+    quote: "The historic architecture in Las Vegas makes everyday life feel like an adventure. I've been here 5 years and still discover new things.",
+    author: "Linda Fox",
+    title: "How Las Vegas Balances Tradition and Innovation",
     city: "Las Vegas",
-    rating: 4.7,
-    date: "2023-11-20"
+    rating: 4.3,
+    date: "2024-04-17"
   },
   {
     id: "city-testimonial-las-vegas-9",
-    quote: "What I love most about living in Las Vegas is the harbor views. It creates such a unique atmosphere that feels like home.",
-    author: "Harry Harper",
-    title: "Living the Las Vegas Lifestyle",
+    quote: "Despite its size, Las Vegas manages to feel {SMALL_TOWN_QUALITY}, which is rare and wonderful.",
+    author: "Jose Williams",
+    title: "The Real Las Vegas Experience",
     city: "Las Vegas",
-    rating: 4.6,
-    date: "2024-03-14"
+    rating: 4.3,
+    date: "2025-01-08"
   },
   {
     id: "city-testimonial-las-vegas-10",
-    quote: "Raising my family in Las Vegas gives us access to early childhood education, which is truly invaluable.",
-    author: "Harper Davis",
-    title: "Las Vegas: A City That Grows With You",
+    quote: "Living in Las Vegas has allowed me to connect deeply with {NATURE_FEATURE} nearby.",
+    author: "Stephanie Ali",
+    title: "The Community Spirit That Defines Las Vegas",
     city: "Las Vegas",
-    rating: 4.4,
-    date: "2024-09-05"
+    rating: 4.9,
+    date: "2023-04-04"
   }
 ];

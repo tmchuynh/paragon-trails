@@ -6,47 +6,47 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const cairoTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-cairo-1",
-    quote: "The balance of public transit convenience and bike-friendly paths in Cairo creates a quality of life that's hard to find elsewhere.",
-    author: "Aria Harper",
-    title: "The Beauty of Everyday Life in Cairo",
+    quote: "The {GREEN_SPACES} in Cairo offer a perfect escape from the urban buzz without leaving the city limits.",
+    author: "Charlotte Harris",
+    title: "The Soul of Cairo: A Local's View",
     city: "Cairo",
-    rating: 4.7,
-    date: "2024-10-17"
+    rating: 4.6,
+    date: "2023-01-28"
   },
   {
     id: "city-testimonial-cairo-2",
-    quote: "The historical significance of Cairo adds a depth to daily life that I truly cherish.",
-    author: "Layla Grant",
-    title: "Finding Inspiration Every Day in Cairo",
+    quote: "One thing I didn’t expect when moving to Cairo was the {WEATHER_FEATURE}—it’s truly refreshing.",
+    author: "Ashley Anderson",
+    title: "Cairo: Beyond the Tourist Experience",
     city: "Cairo",
-    rating: 4.8,
-    date: "2024-03-06"
+    rating: 4.3,
+    date: "2023-03-04"
   },
   {
     id: "city-testimonial-cairo-3",
-    quote: "What I love most about living in Cairo is the rooftop bars. It creates such a unique atmosphere that feels like home.",
-    author: "Youssef Henderson",
-    title: "Cairo: Where I Found My Community",
+    quote: "Community events and festivals in Cairo bring everyone together, making the {COMMUNITY_ASPECT} really stand out.",
+    author: "Jack Marshall",
+    title: "The Community Spirit That Defines Cairo",
     city: "Cairo",
-    rating: 4.9,
-    date: "2025-07-11"
+    rating: 4.1,
+    date: "2023-03-04"
   },
   {
     id: "city-testimonial-cairo-4",
-    quote: "Cairo's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
-    author: "Elijah Rossi",
-    title: "The Everyday Magic of Cairo",
+    quote: "One thing I didn’t expect when moving to Cairo was the {WEATHER_FEATURE}—it’s truly refreshing.",
+    author: "Thabo Nguyen",
+    title: "Uncovering the Layers of Cairo",
     city: "Cairo",
-    rating: 4.7,
-    date: "2025-09-06"
+    rating: 5,
+    date: "2023-07-13"
   },
   {
     id: "city-testimonial-cairo-5",
-    quote: "Living in Cairo means experiencing festival participation on a daily basis, which is why I could never leave.",
-    author: "Mohamed Müller",
-    title: "My Cairo Story: Life as a Resident",
+    quote: "One thing I didn’t expect when moving to Cairo was the {WEATHER_FEATURE}—it’s truly refreshing.",
+    author: "Ravi Warren",
+    title: "The Real Cairo Experience",
     city: "Cairo",
-    rating: 4.7,
-    date: "2025-09-27"
+    rating: 4.4,
+    date: "2025-12-19"
   }
 ];

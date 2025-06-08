@@ -6,74 +6,92 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const cartagenaTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-cartagena-1",
-    quote: "The historical significance of Cartagena adds a depth to daily life that I truly cherish.",
-    author: "Angela Young",
-    title: "The True Character of Cartagena",
+    quote: "Every weekend in Cartagena brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
+    author: "Lawrence Campbell",
+    title: "Discovering Home in Cartagena",
     city: "Cartagena",
-    rating: 4.7,
-    date: "2023-06-01"
+    rating: 4.9,
+    date: "2025-03-12"
   },
   {
     id: "city-testimonial-cartagena-2",
-    quote: "As someone who's lived in many cities, I can say that Cartagena's environmental consciousness is unmatched anywhere else.",
-    author: "Ellie Collins",
-    title: "Why I’m Proud to Call Cartagena Home",
+    quote: "The {TRANQUILITY_FEATURE} in Cartagena offers a peaceful retreat from the busy world.",
+    author: "Kyle Hawkins",
+    title: "The True Character of Cartagena",
     city: "Cartagena",
-    rating: 5,
-    date: "2024-05-12"
+    rating: 4.1,
+    date: "2025-12-10"
   },
   {
     id: "city-testimonial-cartagena-3",
-    quote: "One of the best things about living in Cartagena is the {ACCESSIBILITY_FEATURE}—it makes everything so convenient.",
-    author: "Victoria Marshall",
-    title: "Uncovering the Layers of Cartagena",
+    quote: "If you want a city that offers {LIFESTYLE_BENEFIT}, Cartagena is the place to be.",
+    author: "Cynthia Carter",
+    title: "Cartagena: More Than Just a Place",
     city: "Cartagena",
-    rating: 4.2,
-    date: "2024-10-25"
+    rating: 4,
+    date: "2023-02-13"
   },
   {
     id: "city-testimonial-cartagena-4",
-    quote: "Living in Cartagena has been one of the best decisions of my life. The sports enthusiasm here makes everyday life so enjoyable.",
-    author: "Kevin White",
-    title: "My Cartagena Story: Life as a Resident",
+    quote: "One of the best things about living in Cartagena is the {ACCESSIBILITY_FEATURE}—it makes everything so convenient.",
+    author: "Alexa Douglas",
+    title: "Why Cartagena Is a Place to Grow",
     city: "Cartagena",
-    rating: 4.5,
-    date: "2025-08-13"
+    rating: 4.3,
+    date: "2024-04-10"
   },
   {
     id: "city-testimonial-cartagena-5",
-    quote: "One of my favorite parts about living in Cartagena is the {MARKET_OR_SHOPPING_FEATURE} just around the corner.",
-    author: "Jack Hernandez",
-    title: "The Beauty of Everyday Life in Cartagena",
+    quote: "Cartagena isn't just where I live—it's part of my identity now. The local craftsmanship has shaped who I am.",
+    author: "Marcus Rossi",
+    title: "The Community Spirit That Defines Cartagena",
     city: "Cartagena",
-    rating: 4.8,
-    date: "2025-06-17"
+    rating: 4.6,
+    date: "2025-08-11"
   },
   {
     id: "city-testimonial-cartagena-6",
-    quote: "The nightlife in Cartagena is vibrant and full of {ENTERTAINMENT_FEATURE} for everyone.",
-    author: "Sandra Dean",
-    title: "The Challenges and Charms of Living in Cartagena",
+    quote: "Cartagena's coffee scene has become central to my life here. I couldn't imagine living without it now.",
+    author: "Layla Payne",
+    title: "Finding Inspiration Every Day in Cartagena",
     city: "Cartagena",
-    rating: 4.5,
-    date: "2024-08-10"
+    rating: 4.7,
+    date: "2025-08-19"
   },
   {
     id: "city-testimonial-cartagena-7",
-    quote: "After moving to Cartagena 4 years ago, I fell in love with the vibrant nightlife of this place. It's truly special.",
-    author: "Angela Lopez",
-    title: "Living and Thriving in Cartagena",
+    quote: "One of my favorite parts about living in Cartagena is the {MARKET_OR_SHOPPING_FEATURE} just around the corner.",
+    author: "Ibrahim Dubois",
+    title: "A Resident's Guide to Living Well in Cartagena",
     city: "Cartagena",
-    rating: 4.2,
-    date: "2024-01-22"
+    rating: 4.4,
+    date: "2025-06-20"
   },
   {
     id: "city-testimonial-cartagena-8",
-    quote: "After moving to Cartagena 30 years ago, I fell in love with the culinary diversity of this place. It's truly special.",
-    author: "Ralph Miller",
-    title: "The Challenges and Charms of Living in Cartagena",
+    quote: "The {FESTIVAL_OR_EVENT} season in Cartagena brings so much excitement and pride to the community.",
+    author: "Priya Warren",
+    title: "Why I Chose Cartagena as Home",
     city: "Cartagena",
-    rating: 4.4,
-    date: "2025-10-23"
+    rating: 4.3,
+    date: "2024-11-05"
+  },
+  {
+    id: "city-testimonial-cartagena-9",
+    quote: "The historical significance of Cartagena adds a depth to daily life that I truly cherish.",
+    author: "Nicole Chen",
+    title: "Why I’m Proud to Call Cartagena Home",
+    city: "Cartagena",
+    rating: 4.6,
+    date: "2025-09-09"
+  },
+  {
+    id: "city-testimonial-cartagena-10",
+    quote: "I appreciate how Cartagena balances {TECH_INNOVATION} with historic charm perfectly.",
+    author: "George Anderson",
+    title: "From Newcomer to Local in Cartagena",
+    city: "Cartagena",
+    rating: 4.3,
+    date: "2024-03-25"
   }
 ];

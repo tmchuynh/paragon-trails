@@ -6,92 +6,83 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const tampaTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-tampa-1",
-    quote: "One of my favorite parts about living in Tampa is the {MARKET_OR_SHOPPING_FEATURE} just around the corner.",
-    author: "David Parker",
-    title: "Why Tampa Feels Like Home",
+    quote: "What I tell friends considering moving to Tampa is to appreciate the boutique coffee shops—it's what makes daily life here so rich.",
+    author: "Noah Douglas",
+    title: "A Love Letter to Tampa",
     city: "Tampa",
     rating: 4.1,
-    date: "2024-01-18"
+    date: "2023-11-14"
   },
   {
     id: "city-testimonial-tampa-2",
-    quote: "What really surprised me about Tampa is its {DIVERSITY_FEATURE} — it’s a true melting pot.",
-    author: "Richard Mason",
-    title: "Uncovering the Layers of Tampa",
+    quote: "From my apartment in Tampa, I can connect with professional networks. Where else could you do that?",
+    author: "Frank Moore",
+    title: "How Tampa Balances Tradition and Innovation",
     city: "Tampa",
-    rating: 4.3,
-    date: "2024-11-27"
+    rating: 4.4,
+    date: "2025-11-19"
   },
   {
     id: "city-testimonial-tampa-3",
-    quote: "What I tell friends considering moving to Tampa is to appreciate the community events—it's what makes daily life here so rich.",
-    author: "Jesse Morgan",
-    title: "Tampa: Where I Found My Community",
+    quote: "The {TRANQUILITY_FEATURE} in Tampa offers a peaceful retreat from the busy world.",
+    author: "Carl Morgan",
+    title: "Why I Chose Tampa as Home",
     city: "Tampa",
     rating: 4.2,
-    date: "2025-04-20"
+    date: "2023-07-01"
   },
   {
     id: "city-testimonial-tampa-4",
-    quote: "As someone who's lived in many cities, I can say that Tampa's green initiatives is unmatched anywhere else.",
-    author: "Kinsley Maxwell",
-    title: "Why I’m Proud to Call Tampa Home",
+    quote: "I came to Tampa for work but stayed for the natural environment. Best decision I ever made.",
+    author: "Zoe White",
+    title: "Living and Thriving in Tampa",
     city: "Tampa",
-    rating: 4,
-    date: "2025-06-11"
+    rating: 4.5,
+    date: "2025-09-05"
   },
   {
     id: "city-testimonial-tampa-5",
-    quote: "From my apartment in Tampa, I can engage with diverse cultural communities. Where else could you do that?",
-    author: "Maria Douglas",
-    title: "Stories From the Streets of Tampa",
+    quote: "The sense of {SAFETY} in Tampa makes me feel comfortable raising my kids here.",
+    author: "Jessica Wood",
+    title: "Why Tampa Feels Like Home",
     city: "Tampa",
     rating: 4.7,
-    date: "2025-01-15"
+    date: "2023-05-09"
   },
   {
     id: "city-testimonial-tampa-6",
-    quote: "I appreciate how Tampa balances {TECH_INNOVATION} with historic charm perfectly.",
-    author: "Keith Mason",
-    title: "Inside the Culture of Tampa",
+    quote: "The winter holiday markets in Tampa is something I look forward to every year. It's what makes living here magical.",
+    author: "Liam Williams",
+    title: "What Makes Tampa Special to Live In",
     city: "Tampa",
     rating: 5,
-    date: "2024-06-19"
+    date: "2025-02-04"
   },
   {
     id: "city-testimonial-tampa-7",
-    quote: "The historic neighborhoods in Tampa each have their own character, which keeps life interesting year after year.",
-    author: "Lisa Wells",
-    title: "A Resident's Guide to Living Well in Tampa",
+    quote: "The sense of {SAFETY} in Tampa makes me feel comfortable raising my kids here.",
+    author: "Evelyn Gonzalez",
+    title: "Why I Chose Tampa as Home",
     city: "Tampa",
-    rating: 4.4,
-    date: "2023-03-03"
+    rating: 4.1,
+    date: "2023-06-11"
   },
   {
     id: "city-testimonial-tampa-8",
-    quote: "No two days are the same living in Tampa. The {DYNAMIC_ASPECT} keeps me excited to wake up every morning.",
-    author: "Charlotte Porter",
-    title: "The True Character of Tampa",
+    quote: "Despite its size, Tampa manages to feel {SMALL_TOWN_QUALITY}, which is rare and wonderful.",
+    author: "Kevin Jones",
+    title: "Finding Inspiration Every Day in Tampa",
     city: "Tampa",
-    rating: 4.3,
-    date: "2024-07-17"
+    rating: 4.1,
+    date: "2023-05-11"
   },
   {
     id: "city-testimonial-tampa-9",
-    quote: "I've found that Tampa's {TRANSPORT_FEATURE} really makes getting around effortless and enjoyable.",
-    author: "Stephanie Miller",
-    title: "Stories From the Streets of Tampa",
-    city: "Tampa",
-    rating: 4.9,
-    date: "2024-08-28"
-  },
-  {
-    id: "city-testimonial-tampa-10",
-    quote: "If you want a city that offers {LIFESTYLE_BENEFIT}, Tampa is the place to be.",
-    author: "Genesis Rossi",
-    title: "Why Tampa Feels Like Home",
+    quote: "Living in Tampa means being surrounded by botanical gardens, which feeds my soul every day.",
+    author: "Diego Williams",
+    title: "Why I Chose Tampa as Home",
     city: "Tampa",
     rating: 4.3,
-    date: "2025-12-21"
+    date: "2024-12-27"
   }
 ];

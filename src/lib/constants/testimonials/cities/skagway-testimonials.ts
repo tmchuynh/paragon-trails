@@ -6,92 +6,83 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const skagwayTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-skagway-1",
-    quote: "Living in Skagway means being surrounded by community spirit, which feeds my soul every day.",
-    author: "Austin Hayes",
-    title: "The Heartbeat of Skagway Life",
-    city: "Skagway",
-    rating: 4.9,
-    date: "2024-07-23"
-  },
-  {
-    id: "city-testimonial-skagway-2",
-    quote: "From my apartment in Skagway, I can attend cultural events nightly. Where else could you do that?",
-    author: "Paul Anderson",
-    title: "What Makes Skagway Uniquely Livable",
-    city: "Skagway",
-    rating: 4.1,
-    date: "2023-01-14"
-  },
-  {
-    id: "city-testimonial-skagway-3",
-    quote: "Living in Skagway means experiencing nightlife excitement on a daily basis, which is why I could never leave.",
-    author: "Joel Nguyen",
-    title: "Skagway: A City That Grows With You",
-    city: "Skagway",
-    rating: 4.1,
-    date: "2023-12-10"
-  },
-  {
-    id: "city-testimonial-skagway-4",
-    quote: "One of the best things about living in Skagway is the {ACCESSIBILITY_FEATURE}—it makes everything so convenient.",
-    author: "Carlos Ali",
-    title: "Living Sustainably in Skagway",
-    city: "Skagway",
-    rating: 4.1,
-    date: "2023-07-28"
-  },
-  {
-    id: "city-testimonial-skagway-5",
-    quote: "No two days are the same living in Skagway. The {DYNAMIC_ASPECT} keeps me excited to wake up every morning.",
-    author: "Paul Jansen",
-    title: "Living the Skagway Lifestyle",
-    city: "Skagway",
-    rating: 4.2,
-    date: "2024-03-07"
-  },
-  {
-    id: "city-testimonial-skagway-6",
-    quote: "The spring bike rides in Skagway is something I look forward to every year. It's what makes living here magical.",
-    author: "Amanda Brooks",
-    title: "Why Skagway Keeps Getting Better",
-    city: "Skagway",
-    rating: 4.1,
-    date: "2023-03-19"
-  },
-  {
-    id: "city-testimonial-skagway-7",
-    quote: "From my apartment in Skagway, I can enjoy seasonal festivals. Where else could you do that?",
-    author: "Carlos Kim",
-    title: "Why I Chose Skagway as Home",
-    city: "Skagway",
-    rating: 4.1,
-    date: "2025-04-04"
-  },
-  {
-    id: "city-testimonial-skagway-8",
-    quote: "The artisanal food shops in Skagway makes everyday life feel like an adventure. I've been here 8 years and still discover new things.",
-    author: "Layla Fletcher",
-    title: "Why I Chose Skagway as Home",
+    quote: "Living in Skagway means I get to enjoy {SPORTS_OR_OUTDOOR_ACTIVITY} year-round.",
+    author: "Jeffrey Day",
+    title: "The Beauty of Everyday Life in Skagway",
     city: "Skagway",
     rating: 4.7,
-    date: "2025-05-24"
-  },
-  {
-    id: "city-testimonial-skagway-9",
-    quote: "The cost of living in Skagway is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
-    author: "Gary Baker",
-    title: "A Resident's Guide to Living Well in Skagway",
-    city: "Skagway",
-    rating: 4.4,
     date: "2023-02-27"
   },
   {
-    id: "city-testimonial-skagway-10",
-    quote: "Living in Skagway has allowed me to connect deeply with {NATURE_FEATURE} nearby.",
-    author: "Billy Lawson",
-    title: "Stories From the Streets of Skagway",
+    id: "city-testimonial-skagway-2",
+    quote: "Living in Skagway has opened my eyes to {PERSONAL_GROWTH_ASPECT} that I never expected.",
+    author: "Emma Khan",
+    title: "Uncovering the Layers of Skagway",
     city: "Skagway",
-    rating: 4.9,
-    date: "2025-04-26"
+    rating: 4,
+    date: "2025-01-07"
+  },
+  {
+    id: "city-testimonial-skagway-3",
+    quote: "Public services like {PUBLIC_SERVICE_FEATURE} in Skagway make daily life convenient and stress-free.",
+    author: "Susan Nash",
+    title: "Why I Chose Skagway as Home",
+    city: "Skagway",
+    rating: 4.4,
+    date: "2023-02-15"
+  },
+  {
+    id: "city-testimonial-skagway-4",
+    quote: "What really surprised me about Skagway is its {DIVERSITY_FEATURE} — it’s a true melting pot.",
+    author: "Ella Jackson",
+    title: "The Beauty of Everyday Life in Skagway",
+    city: "Skagway",
+    rating: 4.5,
+    date: "2024-09-04"
+  },
+  {
+    id: "city-testimonial-skagway-5",
+    quote: "If you want a city that offers {LIFESTYLE_BENEFIT}, Skagway is the place to be.",
+    author: "Genesis West",
+    title: "The Unexpected Joys of Skagway Living",
+    city: "Skagway",
+    rating: 4,
+    date: "2023-09-16"
+  },
+  {
+    id: "city-testimonial-skagway-6",
+    quote: "If you want a city that offers {LIFESTYLE_BENEFIT}, Skagway is the place to be.",
+    author: "Cynthia Brooks",
+    title: "The Everyday Magic of Skagway",
+    city: "Skagway",
+    rating: 4.2,
+    date: "2024-04-02"
+  },
+  {
+    id: "city-testimonial-skagway-7",
+    quote: "The {FESTIVAL_OR_EVENT} season in Skagway brings so much excitement and pride to the community.",
+    author: "Lucas Wang",
+    title: "Why Skagway Feels Like Home",
+    city: "Skagway",
+    rating: 5,
+    date: "2025-06-25"
+  },
+  {
+    id: "city-testimonial-skagway-8",
+    quote: "Living in Skagway means I get to enjoy {SPORTS_OR_OUTDOOR_ACTIVITY} year-round.",
+    author: "Ahmed Rodriguez",
+    title: "The Perfect Imperfections of Skagway",
+    city: "Skagway",
+    rating: 4.1,
+    date: "2023-11-11"
+  },
+  {
+    id: "city-testimonial-skagway-9",
+    quote: "The sense of {SAFETY} in Skagway makes me feel comfortable raising my kids here.",
+    author: "Sophia Kim",
+    title: "A Resident's Guide to Living Well in Skagway",
+    city: "Skagway",
+    rating: 4.1,
+    date: "2023-01-08"
   }
 ];

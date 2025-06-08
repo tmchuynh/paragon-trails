@@ -6,74 +6,65 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const yokohamaTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-yokohama-1",
-    quote: "What I tell friends considering moving to Yokohama is to appreciate the secret viewpoints—it's what makes daily life here so rich.",
-    author: "Vincent Harper",
-    title: "Yokohama: More Than Just a Place",
+    quote: "The {GREEN_SPACES} in Yokohama offer a perfect escape from the urban buzz without leaving the city limits.",
+    author: "John Johnson",
+    title: "From Newcomer to Local in Yokohama",
     city: "Yokohama",
-    rating: 4.8,
-    date: "2025-09-21"
+    rating: 5,
+    date: "2023-10-19"
   },
   {
     id: "city-testimonial-yokohama-2",
-    quote: "What I love most about living in Yokohama is the independent bookstores. It creates such a unique atmosphere that feels like home.",
-    author: "Barbara Knight",
-    title: "The Soul of Yokohama: A Local's View",
+    quote: "Living in Yokohama means experiencing professional growth on a daily basis, which is why I could never leave.",
+    author: "Janet Price",
+    title: "The Unexpected Joys of Yokohama Living",
     city: "Yokohama",
-    rating: 5,
-    date: "2023-04-22"
+    rating: 4.3,
+    date: "2025-07-12"
   },
   {
     id: "city-testimonial-yokohama-3",
-    quote: "Living in Yokohama has been one of the best decisions of my life. The pet-friendly parks here makes everyday life so enjoyable.",
-    author: "Jordan Jackson",
-    title: "Life in Yokohama: A Local Perspective",
+    quote: "One thing I didn’t expect when moving to Yokohama was the {WEATHER_FEATURE}—it’s truly refreshing.",
+    author: "Richard Morgan",
+    title: "Discovering Home in Yokohama",
     city: "Yokohama",
-    rating: 4.1,
-    date: "2024-12-24"
+    rating: 4.5,
+    date: "2024-08-11"
   },
   {
     id: "city-testimonial-yokohama-4",
-    quote: "The food scene in Yokohama is incredible; living here means enjoying {CULINARY_FEATURE} all year round.",
-    author: "Grace Hawkins",
-    title: "What Makes Yokohama Special to Live In",
+    quote: "The sense of {SAFETY} in Yokohama makes me feel comfortable raising my kids here.",
+    author: "Ibrahim Hall",
+    title: "Inside the Culture of Yokohama",
     city: "Yokohama",
-    rating: 4.8,
-    date: "2023-08-12"
+    rating: 4.7,
+    date: "2023-01-05"
   },
   {
     id: "city-testimonial-yokohama-5",
-    quote: "One thing I didn’t expect when moving to Yokohama was the {WEATHER_FEATURE}—it’s truly refreshing.",
-    author: "Youssef Thomas",
-    title: "My Yokohama Story: Life as a Resident",
+    quote: "What I love most about living in Yokohama is the mountain views. It creates such a unique atmosphere that feels like home.",
+    author: "Timothy Stewart",
+    title: "What Makes Yokohama Feel Like Family",
     city: "Yokohama",
-    rating: 4.9,
-    date: "2024-04-20"
+    rating: 4.2,
+    date: "2024-02-12"
   },
   {
     id: "city-testimonial-yokohama-6",
-    quote: "The art and creativity flowing through Yokohama is inspiring. It feels like living inside a masterpiece.",
-    author: "Virginia Wilson",
-    title: "Stories From the Streets of Yokohama",
+    quote: "The {TRANQUILITY_FEATURE} in Yokohama offers a peaceful retreat from the busy world.",
+    author: "Isabella Hernandez",
+    title: "Yokohama: Where I Found My Community",
     city: "Yokohama",
-    rating: 4.1,
-    date: "2024-08-04"
+    rating: 4,
+    date: "2024-07-28"
   },
   {
     id: "city-testimonial-yokohama-7",
-    quote: "The {TRANQUILITY_FEATURE} in Yokohama offers a peaceful retreat from the busy world.",
-    author: "Rachel Carter",
-    title: "Yokohama's Hidden Treasures for Locals",
+    quote: "Yokohama's {EDUCATIONAL_OPPORTUNITY} options made it the perfect place for my family.",
+    author: "Timothy Murray",
+    title: "Why Yokohama Feels Like Home",
     city: "Yokohama",
-    rating: 5,
-    date: "2023-09-05"
-  },
-  {
-    id: "city-testimonial-yokohama-8",
-    quote: "Every weekend in Yokohama brings a new adventure with {LOCAL_EVENT_OR_FEATURE} to explore.",
-    author: "Laura Kim",
-    title: "Finding Inspiration Every Day in Yokohama",
-    city: "Yokohama",
-    rating: 4,
-    date: "2023-01-08"
+    rating: 4.3,
+    date: "2025-09-24"
   }
 ];

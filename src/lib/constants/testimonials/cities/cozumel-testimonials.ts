@@ -6,83 +6,74 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
 export const cozumelTestimonials: Testimonial[] = [
   {
     id: "city-testimonial-cozumel-1",
-    quote: "After 12 years as a Cozumel local, I still appreciate the street performances that makes this place special.",
-    author: "Nathan Kowalski",
-    title: "The Everyday Magic of Cozumel",
+    quote: "What I love most about living in Cozumel is the scenic hiking trails. It creates such a unique atmosphere that feels like home.",
+    author: "Stella Graves",
+    title: "Uncovering the Layers of Cozumel",
     city: "Cozumel",
-    rating: 4.8,
-    date: "2024-06-11"
+    rating: 4.6,
+    date: "2025-01-23"
   },
   {
     id: "city-testimonial-cozumel-2",
-    quote: "Cozumel's music scene has become central to my life here. I couldn't imagine living without it now.",
-    author: "Isabella Fox",
-    title: "Cozumel's Hidden Treasures for Locals",
+    quote: "One of my favorite parts about living in Cozumel is the {MARKET_OR_SHOPPING_FEATURE} just around the corner.",
+    author: "Zachary Fox",
+    title: "A Resident's Guide to Living Well in Cozumel",
     city: "Cozumel",
-    rating: 4.6,
-    date: "2025-04-11"
+    rating: 5,
+    date: "2025-02-24"
   },
   {
     id: "city-testimonial-cozumel-3",
-    quote: "The people of Cozumel are incredibly welcoming and have made me feel at home since day one.",
-    author: "Avery Collins",
-    title: "Why Cozumel Feels Like Home",
+    quote: "Cozumel isn't just where I live—it's part of my identity now. The innovative architecture has shaped who I am.",
+    author: "Charlotte Harris",
+    title: "Why Cozumel Keeps Getting Better",
     city: "Cozumel",
-    rating: 4.8,
-    date: "2024-01-09"
+    rating: 4.2,
+    date: "2025-04-05"
   },
   {
     id: "city-testimonial-cozumel-4",
-    quote: "From my apartment in Cozumel, I can visit botanical gardens. Where else could you do that?",
-    author: "Mateo Anderson",
-    title: "The Unexpected Joys of Cozumel Living",
+    quote: "The cost of living in Cozumel is {COST_CHARACTERISTIC}, but the quality of life here more than makes up for it.",
+    author: "Randy White",
+    title: "Cozumel: A City That Grows With You",
     city: "Cozumel",
-    rating: 4.2,
-    date: "2025-11-08"
+    rating: 4.4,
+    date: "2023-05-22"
   },
   {
     id: "city-testimonial-cozumel-5",
-    quote: "Living in Cozumel has been one of the best decisions of my life. The sports enthusiasm here makes everyday life so enjoyable.",
-    author: "Peter Baker",
-    title: "Finding Balance in Cozumel",
+    quote: "The {FESTIVAL_OR_EVENT} season in Cozumel brings so much excitement and pride to the community.",
+    author: "John Ivanov",
+    title: "Why I Chose Cozumel as Home",
     city: "Cozumel",
-    rating: 5,
-    date: "2025-07-05"
+    rating: 4.9,
+    date: "2023-04-14"
   },
   {
     id: "city-testimonial-cozumel-6",
-    quote: "Cozumel isn't just where I live—it's part of my identity now. The cultural diversity has shaped who I am.",
-    author: "Michael Brown",
-    title: "Why Cozumel Keeps Getting Better",
+    quote: "After moving to Cozumel 10 years ago, I fell in love with the creative energy of this place. It's truly special.",
+    author: "Skylar Hernandez",
+    title: "The Soul of Cozumel: A Local's View",
     city: "Cozumel",
-    rating: 4.9,
-    date: "2024-11-09"
+    rating: 4.4,
+    date: "2023-05-14"
   },
   {
     id: "city-testimonial-cozumel-7",
-    quote: "What I tell friends considering moving to Cozumel is to appreciate the underground clubs—it's what makes daily life here so rich.",
-    author: "Ethan Jackson",
-    title: "How Cozumel Balances Tradition and Innovation",
+    quote: "Community events and festivals in Cozumel bring everyone together, making the {COMMUNITY_ASPECT} really stand out.",
+    author: "Roger Graham",
+    title: "Uncovering the Layers of Cozumel",
     city: "Cozumel",
-    rating: 5,
-    date: "2025-06-21"
+    rating: 4.1,
+    date: "2024-01-05"
   },
   {
     id: "city-testimonial-cozumel-8",
-    quote: "The luxurious neighborhoods in Cozumel each have their own character, which keeps life interesting year after year.",
-    author: "Jeffrey Smith",
-    title: "How Cozumel Balances Tradition and Innovation",
+    quote: "After 8 years as a Cozumel local, I still appreciate the local music venues that makes this place special.",
+    author: "Omar Spencer",
+    title: "The Perfect Imperfections of Cozumel",
     city: "Cozumel",
-    rating: 4.6,
-    date: "2025-02-11"
-  },
-  {
-    id: "city-testimonial-cozumel-9",
-    quote: "The green neighborhoods in Cozumel each have their own character, which keeps life interesting year after year.",
-    author: "Abigail Reeves",
-    title: "The Joys of Slow Living in Cozumel",
-    city: "Cozumel",
-    rating: 4.1,
-    date: "2025-07-06"
+    rating: 4.8,
+    date: "2023-06-17"
   }
 ];

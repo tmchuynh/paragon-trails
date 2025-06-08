@@ -3,67 +3,131 @@
 
 export const allAboardFamilyRailAdventureTestimonials: Testimonial[] = [
   {
-    id: "testimonial-tour-glacier-bay-4-1",
-    quote: "This tour was absolutely amazing! Henry Brown knew everything about Glacier Bay and showed us places we would have never found on our own.",
-    author: "Ralph Wright",
-    title: "Followed the Guide, Found a Dream",
-    rating: 4.4,
-    date: "2017-06-04"
+    id: "testimonial-tour-glacier-bay-2-1",
+    quote: "Amanda Hall brought a depth of cultural insight that gave us a new appreciation for Glacier Bay.",
+    author: "Jason Young",
+    title: "A Walk That Will Make You See Glacier Bay Differently",
+    rating: 3.8,
+    date: "2017-02-15"
   },
   {
-    id: "testimonial-tour-glacier-bay-4-2",
-    quote: "Such a memorable way to explore Glacier Bay. The mix of history, local culture, and stories was perfect.",
-    author: "Aria Coleman",
-    title: "One of the Best Tours We've Taken",
-    rating: 4.1,
-    date: "2023-06-12"
-  },
-  {
-    id: "testimonial-tour-glacier-bay-4-3",
-    quote: "I can't recommend the All Aboard: Family Rail Adventure enough. Henry Brown was phenomenal, and the experience was worth every penny.",
-    author: "Abigail Young",
-    title: "Wandered Far, Wondered More",
+    id: "testimonial-tour-glacier-bay-2-2",
+    quote: "Amanda Hall was incredibly accommodating and answered every question with patience and detail.",
+    author: "Alice Williams",
+    title: "More Enchanting Than Expected",
     rating: 4.5,
-    date: "2024-12-21"
+    date: "2022-04-18"
   },
   {
-    id: "testimonial-tour-glacier-bay-4-4",
-    quote: "Henry Brown went above and beyond to make sure everyone had a great time on the All Aboard: Family Rail Adventure.",
-    author: "Rebecca Wilson",
-    title: "Highly Recommend to Everyone",
-    rating: 4.7,
-    date: "2018-04-26"
-  },
-  {
-    id: "testimonial-tour-glacier-bay-4-5",
-    quote: "The pace was perfect, the content was rich, and Henry Brown made every stop memorable.",
-    author: "Jennifer Nash",
-    title: "Well Worth Your Time",
-    rating: 4.6,
-    date: "2021-02-21"
-  },
-  {
-    id: "testimonial-tour-glacier-bay-4-6",
-    quote: "Such a memorable way to explore Glacier Bay. The mix of history, local culture, and stories was perfect.",
-    author: "Michael Nguyen",
-    title: "A Walk That Will Make You Want to Dance",
-    rating: 4.4,
-    date: "2019-03-17"
-  },
-  {
-    id: "testimonial-tour-glacier-bay-4-7",
-    quote: "We were blown away by the depth of knowledge and warmth Henry Brown brought to the tour.",
-    author: "Aaliyah Davis",
-    title: "Well Worth Your Time",
+    id: "testimonial-tour-glacier-bay-2-3",
+    quote: "We’ll be recommending the All Aboard: Family Rail Adventure to all our friends. Amanda Hall made it that special.",
+    author: "Fatima Suzuki",
+    title: "If Cities Had Souls, Glacier Bay Sang to Us",
     rating: 3.7,
-    date: "2019-11-27"
+    date: "2018-02-16"
   },
   {
-    id: "testimonial-tour-glacier-bay-4-8",
-    quote: "The stories, the hidden gems, the expert navigation — Henry Brown delivered on all fronts.",
-    author: "Linda Harper",
-    title: "Brought Glacier Bay to Life",
+    id: "testimonial-tour-glacier-bay-2-4",
+    quote: "Amanda Hall's enthusiasm for Glacier Bay was contagious. We walked away feeling inspired.",
+    author: "Joseph Hudson",
+    title: "Bought the T-Shirt, Took the Tour, Loved It",
+    rating: 4.6,
+    date: "2019-02-23"
+  },
+  {
+    id: "testimonial-tour-glacier-bay-2-5",
+    quote: "The pacing was perfect, and the stops were all well-chosen. A very thoughtful itinerary from Amanda Hall.",
+    author: "William Hawkins",
+    title: "We’ll Never Forget This",
+    rating: 3.8,
+    date: "2017-08-27"
+  },
+  {
+    id: "testimonial-tour-glacier-bay-2-6",
+    quote: "If you only have time for one activity in Glacier Bay, make it the All Aboard: Family Rail Adventure. You won’t regret it.",
+    author: "Ella Jennings",
+    title: "Learned So Much!",
+    rating: 3.8,
+    date: "2024-03-29"
+  },
+  {
+    id: "testimonial-tour-glacier-bay-2-7",
+    quote: "I can't recommend the All Aboard: Family Rail Adventure enough. Amanda Hall was phenomenal, and the experience was worth every penny.",
+    author: "Logan Anderson",
+    title: "Whispers of the Past, Echoes of Joy",
+    rating: 4.3,
+    date: "2019-06-09"
+  },
+  {
+    id: "testimonial-tour-glacier-bay-2-8",
+    quote: "We booked last-minute and are so glad we did. Amanda Hall made it one of our favorite memories from Glacier Bay.",
+    author: "Ibrahim Nash",
+    title: "Felt Like a Character in a Fairytale",
+    rating: 3.7,
+    date: "2017-03-01"
+  },
+  {
+    id: "testimonial-tour-glacier-bay-2-9",
+    quote: "Everything about this tour was top-notch: the route, the stories, the guide — thank you, Amanda Hall!",
+    author: "Alice Anderson",
+    title: "Hot, Sweaty, and Absolutely Worth It",
+    rating: 3.6,
+    date: "2018-05-20"
+  },
+  {
+    id: "testimonial-tour-glacier-bay-2-10",
+    quote: "The All Aboard: Family Rail Adventure was both entertaining and educational. Amanda Hall has a gift for storytelling that brings Glacier Bay's history to life.",
+    author: "Jane Nakamura",
+    title: "So Glad We Did This",
+    rating: 3.6,
+    date: "2021-07-06"
+  },
+  {
+    id: "testimonial-tour-glacier-bay-2-11",
+    quote: "I've been on many tours, but this one stands out. Amanda Hall was passionate, knowledgeable, and made everyone feel welcome.",
+    author: "Lawrence Anderson",
+    title: "A Walk That Changed Everything",
+    rating: 4.9,
+    date: "2018-06-22"
+  },
+  {
+    id: "testimonial-tour-glacier-bay-2-12",
+    quote: "As someone who's been to Glacier Bay before, I was surprised at how much I learned on the All Aboard: Family Rail Adventure. Amanda Hall is a treasure trove of information!",
+    author: "Khalid Grant",
+    title: "A Tour That Feels Like a Movie",
+    rating: 3.9,
+    date: "2017-05-21"
+  },
+  {
+    id: "testimonial-tour-glacier-bay-2-13",
+    quote: "Our family loved every moment of the All Aboard: Family Rail Adventure. Amanda Hall even made it fun for our kids.",
+    author: "Joshua Baker",
+    title: "Hot, Sweaty, and Absolutely Worth It",
     rating: 4.4,
-    date: "2018-08-16"
+    date: "2025-04-15"
+  },
+  {
+    id: "testimonial-tour-glacier-bay-2-14",
+    quote: "This tour exceeded all my expectations. Amanda Hall's insider knowledge made our Glacier Bay visit unforgettable.",
+    author: "Isabella Müller",
+    title: "A Journey Through Glacier Bay's Wonders",
+    rating: 3.9,
+    date: "2024-03-05"
+  },
+  {
+    id: "testimonial-tour-glacier-bay-2-15",
+    quote: "What a fantastic way to start our stay in Glacier Bay. Amanda Hall gave us a great foundation for exploring more on our own.",
+    author: "Jacob Harris",
+    title: "A Walk That Will Make You Think",
+    rating: 4,
+    date: "2023-12-23"
+  },
+  {
+    id: "testimonial-tour-glacier-bay-2-16",
+    quote: "This was more than just sightseeing — it was an unforgettable journey through Glacier Bay's culture and history.",
+    author: "Anthony Ivanov",
+    title: "Entertaining and Educational",
+    rating: 4.5,
+    date: "2023-01-02"
   }
 ];
