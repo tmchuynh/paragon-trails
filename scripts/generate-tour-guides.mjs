@@ -38,6 +38,8 @@ import {
   formatTitleToCamelCase,
   removeAccents,
   formatKebebToTitleCase,
+  removeSpecialCharacters,
+  normalizeString,
 } from "./utils/format-utils.mjs";
 import { determineGenderFromName } from "./utils/name-utils.mjs";
 import { cityCountryMap, cityToRegionMap } from "./utils/geo-utils.mjs";
@@ -95,17 +97,23 @@ const options = parseCommandLineArgs();
 const certifications = [
   "Professional Tour Guide Association",
   "Certified International Tour Manager",
+  "Certified Tour Guide",
   "Wilderness First Responder",
   "Licensed City Guide",
+  "Certified Heritage Guide",
   "Cultural Heritage Specialist",
+  "Certified Local Guide",
   "Sustainable Tourism Certificate",
   "Food Safety Certification",
+  "Adventure Tourism Certification",
   "CPR & First Aid",
   "Language Proficiency Certification",
   "Local History Certification",
   "Adventure Tourism Safety Certificate",
+  "Cultural Sensitivity Training",
   "Urban Navigation Specialist",
   "Regional Tourism Ambassador",
+  "Certified Eco-Tourism Guide",
   "Heritage Interpretation Certificate",
   "Eco-Tourism Guide",
 ];
@@ -119,6 +127,9 @@ const languages = [
   "Japanese",
   "Mandarin",
   "Cantonese",
+  "Arabic",
+  "Russian",
+  "Portuguese",
   "Korean",
   "Russian",
   "Portuguese",
@@ -142,6 +153,59 @@ const languages = [
   "Swahili",
   "Hebrew",
   "Croatian",
+  "Slovak",
+  "Ukrainian",
+  "Lithuanian",
+  "Latvian",
+  "Estonian",
+  "Icelandic",
+  "Irish",
+  "Welsh",
+  "Scottish Gaelic",
+  "Basque",
+  "Catalan",
+  "Galician",
+  "Macedonian",
+  "Albanian",
+  "Bosnian",
+  "Serbo-Croatian",
+  "Montenegrin",
+  "Slovenian",
+  "Maltese",
+  "Armenian",
+  "Georgian",
+  "Azerbaijani",
+  "Kazakh",
+  "Uzbek",
+  "Turkmen",
+  "Kyrgyz",
+  "Tajik",
+  "Bengali",
+  "Punjabi",
+  "Gujarati",
+  "Marathi",
+  "Tamil",
+  "Telugu",
+  "Malayalam",
+  "Kannada",
+  "Burmese",
+  "Khmer",
+  "Lao",
+  "Sinhala",
+  "Nepali",
+  "Urdu",
+  "Farsi",
+  "Pashto",
+  "Kurdish",
+  "Somali",
+  "Amharic",
+  "Tigrinya",
+  "Hausa",
+  "Yoruba",
+  "Igbo",
+  "Zulu",
+  "Xhosa",
+  "Afrikaans",
   "Serbian",
   "Bulgarian",
   "Romanian",
@@ -152,6 +216,17 @@ const specialties = [
   "Historical Landmarks",
   "Architecture",
   "Art Galleries",
+  "Cultural Heritage",
+  "Nature Trails",
+  "Adventure Activities",
+  "City History",
+  "Local Legends",
+  "Hidden Treasures",
+  "Shopping",
+  "Night Tours",
+  "Photography",
+  "Wildlife Watching",
+  "Religious Sites",
   "Hidden Gems",
   "Nightlife",
   "Photography Spots",
@@ -168,6 +243,35 @@ const specialties = [
   "Adventure Sports",
   "Local Craftsmanship",
   "Music Scene",
+  "Cultural Festivals",
+  "Shopping Districts",
+  "Scenic Views",
+  "Historical Tours",
+  "Historical Reenactments",
+  "Local Folklore",
+  "Outdoor Activities",
+  "Historical Figures",
+  "Local Myths",
+  "Cultural Traditions",
+  "Local Legends",
+  "Culinary Tours",
+  "Art Walks",
+  "Historical Architecture",
+  "Local Wildlife",
+  "Cultural Heritage",
+  "Local Artisans",
+  "Historical Sites",
+  "Cultural Experiences",
+  "Local Festivals",
+  "Cultural Workshops",
+  "Local Music",
+  "Local Dance",
+  "Local Literature",
+  "Local Sports",
+  "Local Fashion",
+  "Local Crafts",
+  "Local History",
+  "Local Folklore",
   "Wine Tasting",
   "Film Locations",
   "Sustainable Tourism",
@@ -186,6 +290,27 @@ const specialTraining = [
   "Archaeological Conservation",
   "Accessibility Services",
   "Photography",
+  "Culinary Skills",
+  "Historical Interpretation",
+  "Cultural Anthropology",
+  "Environmental Awareness",
+  "Safety & Risk Management",
+  "First Aid & CPR",
+  "Cultural Immersion",
+  "Local History",
+  "Cultural Sensitivity Training",
+  "Crisis Management",
+  "Customer Service Excellence",
+  "Tour Planning",
+  "Sustainable Practices",
+  "Local Geography",
+  "Cultural Heritage Preservation",
+  "Wildlife Conservation",
+  "Adventure Safety",
+  "Cultural Storytelling",
+  "Local Flora & Fauna",
+  "Historical Preservation",
+  "Cultural Heritage",
   "Local Transit Systems",
   "Regional Cuisine",
   "Wine Education",
@@ -206,6 +331,81 @@ const tourRegions = [
   "South America",
   "Africa",
   "Caribbean",
+  "Southeast Asia",
+  "Western Europe",
+  "Central Europe",
+  "Southern Europe",
+  "Northern Africa",
+  "Eastern Europe",
+  "South Asia",
+  "Australia & New Zealand",
+  "North America",
+  "Latin America",
+  "Middle East & North Africa",
+  "Sub-Saharan Africa",
+  "Central Asia",
+  "South Pacific",
+  "Indian Ocean",
+  "Arctic Region",
+  "Antarctica",
+  "Siberia",
+  "Scandinavia",
+  "Baltic States",
+  "Caucasus Region",
+  "Southeast Europe",
+  "Western Balkans",
+  "Eastern Mediterranean",
+  "Central America",
+  "Caribbean Islands",
+  "Southwest USA",
+  "Great Lakes Region",
+  "Rocky Mountains",
+  "Appalachian Mountains",
+  "Pacific Northwest",
+  "Gulf Coast USA",
+  "Atlantic Coast USA",
+  "Southern USA",
+  "Northeast USA",
+  "Great Plains",
+  "Canadian Rockies",
+  "Prairies",
+  "Atlantic Canada",
+  "Pacific Islands",
+  "Andean Region",
+  "Amazon Basin",
+  "Southern Africa",
+  "West Africa",
+  "East Africa",
+  "North Africa",
+  "Central Africa",
+  "Southeast Asia Islands",
+  "Indochina Peninsula",
+  "South Asia Subcontinent",
+  "Middle East Gulf",
+  "Persian Gulf",
+  "Red Sea",
+  "Caspian Sea",
+  "Black Sea",
+  "Baltic Sea",
+  "Caribbean Sea",
+  "South China Sea",
+  "East China Sea",
+  "Yellow Sea",
+  "Bering Sea",
+  "Gulf of Mexico",
+  "Bay of Bengal",
+  "Arabian Sea",
+  "Mediterranean Sea",
+  "North Atlantic Ocean",
+  "South Atlantic Ocean",
+  "North Pacific Ocean",
+  "South Pacific Ocean",
+  "Indian Ocean",
+  "Antarctic Peninsula",
+  "Sahara Desert",
+  "Gobi Desert",
+  "Kalahari Desert",
+  "Atacama Desert",
   "Middle East",
   "West Coast USA",
   "East Coast Canada",
@@ -254,7 +454,7 @@ const tourTypes = [
   "Romantic Tour",
 ];
 
-const weekDays = [
+export const weekDays = [
   "Monday",
   "Tuesday",
   "Wednesday",
@@ -488,13 +688,13 @@ async function extractExistingTourGuides(filePath) {
     const guides = await extractObjectsFromFile(
       filePath,
       "TourGuide",
-      guideParser,
+      guideParser
     );
 
     // Add validation to prevent errors with null/empty guides array
     if (!guides || !Array.isArray(guides) || guides.length === 0) {
       console.warn(
-        `Could not parse existing guides in ${filePath}, will create fresh data`,
+        `Could not parse existing guides in ${filePath}, will create fresh data`
       );
       return [];
     }
@@ -512,10 +712,10 @@ async function generateCityGuideFile(city) {
   const countryName = cityCountryMap[city] || "";
   const regionName = cityToRegionMap[city] || "";
 
-  const formattedCountry = formatTitleToCamelCase(removeAccents(countryName));
-  const formattedRegion = formatTitleToCamelCase(removeAccents(regionName));
+  const formattedCountry = formatTitleToCamelCase(normalizeString(countryName));
+  const formattedRegion = formatTitleToCamelCase(normalizeString(regionName));
 
-  const formattedName = formatKebabToCamelCase(removeAccents(city));
+  const formattedName = formatKebabToCamelCase(normalizeString(city));
 
   const variableName = `${formattedName}${formattedCountry.replaceAll(".", "")}${formattedRegion}Guides`;
 
@@ -525,9 +725,9 @@ async function generateCityGuideFile(city) {
     "lib",
     "constants",
     "staff",
-    "guides",
+    "guides"
   );
-  const filePath = path.join(destDir, `${removeAccents(city)}.ts`);
+  const filePath = path.join(destDir, `${normalizeString(city)}.ts`);
 
   // Check if directory exists
   await ensureDirectoryExists(destDir);
@@ -606,7 +806,7 @@ async function generateCityGuideFile(city) {
           content += `    ${key}: [${value
             .map(
               (item) =>
-                `"${typeof item === "string" ? item.replace(/"/g, '\\"') : item}"`,
+                `"${typeof item === "string" ? item.replace(/"/g, '\\"') : item}"`
             )
             .join(", ")}],\n`;
         }
@@ -628,7 +828,7 @@ async function generateCityGuideFile(city) {
   // Write file
   await writeFile(filePath, content);
   console.log(
-    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath} with ${guides.length} guides`,
+    `${exists && !options.rewrite ? "Updated" : "Created"} file: ${filePath} with ${guides.length} guides`
   );
 }
 
