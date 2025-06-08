@@ -1716,6 +1716,7 @@ async function generateCityFile(city) {
   let content = `// Auto-generated luxury car rentals for ${city}\n`;
   content += `// Country: ${countryName}, Region: ${regionName}\n`;
   content += `// This file is auto-generated. Do not edit manually.\n\n`;
+  content += `// Generated on: ${new Date().toISOString()}\n\n`;
   content += `import { LuxuryRentalCar } from "@/lib/interfaces/services/rentals";\n\n`;
   content += `export const ${variableName}: LuxuryRentalCar[] = [\n`;
 
