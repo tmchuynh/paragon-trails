@@ -1555,6 +1555,7 @@ async function generateCityTourFile(city) {
   let content = `// Auto-generated file for ${city} tours\n`;
   content += `// Country: ${countryName}, Region: ${regionName}\n\n`;
   content += `// This file is auto-generated. Do not edit manually.\n`;
+  content += `// Generated on: ${new Date().toISOString()}\n\n`;
   content += `import { Tour } from "@/lib/interfaces/services/tours";\n\n`;
   content += `export const ${variableName.replaceAll(".", "")}: Tour[] = [\n`;
   tours.forEach((tour, index) => {
