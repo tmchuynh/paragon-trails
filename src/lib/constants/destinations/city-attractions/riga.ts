@@ -1,4 +1,5 @@
 // This file is auto-generated. Do not edit manually.
+  // Generated on 2025-06-08T04:09:38.325Z
 import { Attraction } from "@/lib/interfaces/services/attractions";
 
 export const rigalatviaAttractions: Attraction[] = [
