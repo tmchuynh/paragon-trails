@@ -453,6 +453,7 @@ async function generateCityFile(city) {
   content += `// Country: ${countryName}\n`;
   content += `// Region: ${regionName}\n\n`;
   content += `// This file is auto-generated. Do not edit manually.\n`;
+  content += `// Generated on: ${new Date().toISOString()}\n\n`;
   content += `import { Driver } from "@/lib/interfaces/people/staff";\n\n`;
   content += `export const ${variableName.replaceAll(".", "")}: Driver[] = [\n`;
 
