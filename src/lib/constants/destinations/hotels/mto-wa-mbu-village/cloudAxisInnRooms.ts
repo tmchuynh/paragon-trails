@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Cloud Axis Inn
+export const cloudAxisInnRooms: RoomOption[] = [
+  {
+    id: "hotel-mto-wa-mbu-village-5-room-4-Double-None",
+    name: "Horizon Double Loft",
+    description: "Relax in our fashionable room-filled double loft featuring with a pleasant outlook, along with with a modern en-suite bathroom and featuring thoughtful design elements.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    pricePerNight: 242735,
+    currency: "TZS",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-mto-wa-mbu-village-5-room-4-Single-OceanView",
+    name: "Tranquility Single Villa",
+    description: "Step into a refined single villa that combines Tranquility-themed with breathtaking with a view of the ocean's horizon, complemented by with high-speed internet access.",
+    occupancy: {
+      adults: 1,
+      children: 0,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    accessibilityFeatures: ["Wheelchair Accessible"],
+    pricePerNight: 235282,
+    currency: "TZS",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-mto-wa-mbu-village-5-room-4-Queen-CityView",
+    name: "Tranquility Queen Loft",
+    description: "A soothing queen retreat where you can watch the city wake up, designed for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 283729,
+    currency: "TZS",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-mto-wa-mbu-village-5-room-4-Twin-CityView",
+    name: "Superior Twin Loft",
+    description: "Our Superior-themed twin loft offers ornate luxury, panoramic with a view of the city's cultural landmarks, and with a luxurious soaking tub, inspired by created with both style and function in mind.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave"],
+    pricePerNight: 233276,
+    currency: "TZS",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 9,
+  }
+];

@@ -1,0 +1,78 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Nordic Nymph
+export const theNordicNymphRooms: RoomOption[] = [
+  {
+    id: "hotel-copenhagen-1-room-0-Single-MountainView",
+    name: "Deluxe Single Loft",
+    description: "This inviting single loft promises where you can enjoy the serenity of mountain life, enriched by Deluxe-themed details and complete with a well-appointed bathroom.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 5392,
+    currency: "DKK",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-copenhagen-1-room-0-Double-MountainView",
+    name: "Executive Double Villa",
+    description: "Our Executive-themed double villa offers traditional luxury, panoramic with a view of snow-capped peaks, and with plush bedding for ultimate comfort, inspired by created with both style and function in mind.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping"],
+    accessibilityFeatures: ["Visual Aids", "Wheelchair Accessible", "Hearing Support"],
+    pricePerNight: 7952,
+    currency: "DKK",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-copenhagen-1-room-0-SofaBed-CityView",
+    name: "Deluxe Sofa Bed Room",
+    description: "This grandiose sofa bed accommodation offers offering panoramic city vistas, designed for ultimate comfort.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    accessibilityFeatures: ["Accessible Bathroom", "Elevator"],
+    pricePerNight: 5409,
+    currency: "DKK",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-copenhagen-1-room-0-SofaBed-OceanView",
+    name: "Classic Sofa Bed Suite",
+    description: "A deluxe sofa bed suite designed for stylish comfort, with with breathtaking sea views and featuring a curated minibar selection, reflecting featuring thoughtful design elements.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    accessibilityFeatures: ["Accessible Bathroom", "Wheelchair Accessible", "Elevator"],
+    pricePerNight: 6803,
+    currency: "DKK",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 7,
+  }
+];

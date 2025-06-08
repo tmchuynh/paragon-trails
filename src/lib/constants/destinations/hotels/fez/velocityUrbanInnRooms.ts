@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Velocity Urban Inn
+export const velocityUrbanInnRooms: RoomOption[] = [
+  {
+    id: "hotel-fez-3-room-2-King-MountainView",
+    name: "Luxury King Apartment",
+    description: "Luxury-themed apartment with cozy decor, where you can find inspiration in the mountains, and with a modern en-suite bathroom.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 16095,
+    currency: "MAD",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-fez-3-room-2-Double-CityView",
+    name: "Superior Double Suite",
+    description: "This palatial double suite promises where city lights twinkle at night, enriched by Superior-themed details and with a luxurious soaking tub.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    accessibilityFeatures: ["Wheelchair Accessible"],
+    pricePerNight: 10391,
+    currency: "MAD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-fez-3-room-2-Twin-GardenView",
+    name: "Serenity Twin Penthouse",
+    description: "Serenity-themed twin penthouse with a view of the garden's tranquil pathways, designed for ultimate comfort and with a spacious work area.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 9850,
+    currency: "MAD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-fez-3-room-2-Twin-MountainView",
+    name: "Horizon Twin Penthouse",
+    description: "Discover the charm of this Horizon-themed twin penthouse, complete with grandiose ambiance, stunning featuring awe-inspiring mountain scenery, and featuring premium bath amenities.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 10875,
+    currency: "MAD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 2,
+  }
+];

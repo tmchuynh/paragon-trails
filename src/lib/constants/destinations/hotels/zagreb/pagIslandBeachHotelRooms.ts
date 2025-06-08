@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Pag Island Beach Hotel
+export const pagIslandBeachHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-zagreb-5-room-4-Queen-None",
+    name: "Standard Queen Loft",
+    description: "This classic queen accommodation offers with a pleasant outlook, offering a unique Adriatic experience with a touch of luxury.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    accessibilityFeatures: ["Elevator", "Wheelchair Accessible", "Visual Aids"],
+    pricePerNight: 200,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-zagreb-5-room-4-Single-MountainView",
+    name: "Hvar Single Penthouse",
+    description: "Unwind in this modern single penthouse with a view of the mountains' rugged terrain, with high-speed internet access.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 181,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-zagreb-5-room-4-SofaBed-MountainView",
+    name: "Dubrovnik Sofa Bed Penthouse",
+    description: "Our Dubrovnik-themed sofa bed penthouse offers homey luxury, panoramic overlooking spectacular mountain ranges, and equipped with all the modern conveniences, inspired by offering a unique Adriatic experience with a touch of luxury.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    accessibilityFeatures: ["Hearing Support", "Visual Aids", "Wheelchair Accessible"],
+    pricePerNight: 214,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-zagreb-5-room-4-King-None",
+    name: "Executive King Room",
+    description: "Indulge in the fashionable atmosphere of our king room, with spectacular with a pleasant outlook, blending traditional Croatian style with contemporary design, and featuring a curated minibar selection.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 222,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 6,
+  }
+];

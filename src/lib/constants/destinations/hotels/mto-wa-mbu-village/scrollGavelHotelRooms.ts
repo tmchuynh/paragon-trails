@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Scroll & Gavel Hotel
+export const scrollGavelHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-mto-wa-mbu-village-4-room-3-Single-None",
+    name: "Luxury Single Loft",
+    description: "Our gentle Luxury-themed loft offers with a pleasant outlook, futuristic comfort, and featuring premium bath amenities.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    pricePerNight: 346745,
+    currency: "TZS",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-mto-wa-mbu-village-4-room-3-Queen-MountainView",
+    name: "Luxury Queen Room",
+    description: "Indulge in the industrial atmosphere of our queen room, with spectacular where you can gaze at the towering peaks, featuring thoughtful design elements, and with a spacious work area.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock"],
+    pricePerNight: 634453,
+    currency: "TZS",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-mto-wa-mbu-village-4-room-3-Double-OceanView",
+    name: "Horizon Double Suite",
+    description: "Horizon-themed suite with soothing decor, with a view of the sandy beaches, and with high-speed internet access.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    pricePerNight: 549342,
+    currency: "TZS",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-mto-wa-mbu-village-4-room-3-Single-MountainView",
+    name: "Premium Single Room",
+    description: "A comfortable single room designed for grandiose comfort, with with a view of the mountains' lush valleys and with a modern en-suite bathroom, reflecting decorated with local artistic influences.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    accessibilityFeatures: ["Elevator", "Wheelchair Accessible", "Visual Aids"],
+    pricePerNight: 433021,
+    currency: "TZS",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 6,
+  }
+];

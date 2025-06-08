@@ -1,0 +1,78 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Stony Creek Inn
+export const theStonyCreekInnRooms: RoomOption[] = [
+  {
+    id: "hotel-phnom-penh-13-room-12-King-OceanView",
+    name: "Executive King Penthouse",
+    description: "Enjoy a prestigious stay in our Executive-themed king penthouse, offering with a panoramic view of the coastline, complete with a well-appointed bathroom, and unique touches of designed for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe"],
+    pricePerNight: 1529391,
+    currency: "KHR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-phnom-penh-13-room-12-Single-MountainView",
+    name: "Harmony Single Suite",
+    description: "Unwind in this welcoming single suite with panoramic views of the surrounding mountains, complete with a well-appointed bathroom.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    accessibilityFeatures: ["Hearing Support"],
+    pricePerNight: 858392,
+    currency: "KHR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-phnom-penh-13-room-12-Single-CityView",
+    name: "Deluxe Single Penthouse",
+    description: "Our palatial Deluxe-themed penthouse offers with a window to the bustling city below, retro comfort, and with blackout curtains for a perfect night's sleep.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    accessibilityFeatures: ["Elevator"],
+    pricePerNight: 756705,
+    currency: "KHR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-phnom-penh-13-room-12-Twin-GardenView",
+    name: "Harmony Twin Loft",
+    description: "A futuristic twin loft designed for luxurious comfort, with with a view of manicured lawns and gardens and featuring a curated minibar selection, reflecting decorated with local artistic influences.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    pricePerNight: 899850,
+    currency: "KHR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 1,
+  }
+];

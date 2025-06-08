@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Moonlit Marsh Manor
+export const moonlitMarshManorRooms: RoomOption[] = [
+  {
+    id: "hotel-sacramento-5-room-4-Twin-MountainView",
+    name: "Signature Twin Apartment",
+    description: "This extravagant twin apartment promises where you can gaze at the towering peaks, enriched by Signature-themed details and equipped with all the modern conveniences.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave"],
+    pricePerNight: 126,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-sacramento-5-room-4-SofaBed-OceanView",
+    name: "Standard Sofa Bed Loft",
+    description: "Step into a commodious sofa bed loft that combines Standard-themed with breathtaking with a view of the tranquil sea, complemented by with a spacious work area.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service"],
+    pricePerNight: 153,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-sacramento-5-room-4-SofaBed-MountainView",
+    name: "Premium Sofa Bed Loft",
+    description: "Premium-themed sofa bed loft with a view of the mountains' lush valleys, offering a classic yet modern American experience and offering a unique blend of style and comfort.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 144,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-sacramento-5-room-4-Twin-CityView",
+    name: "Liberty Twin Loft",
+    description: "Liberty-themed loft with classic decor, with a window to the bustling city below, and with blackout curtains for a perfect night's sleep.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 118,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 8,
+  }
+];

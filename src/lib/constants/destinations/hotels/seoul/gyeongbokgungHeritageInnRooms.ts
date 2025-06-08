@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Gyeongbokgung Heritage Inn
+export const gyeongbokgungHeritageInnRooms: RoomOption[] = [
+  {
+    id: "hotel-seoul-10-room-9-Twin-OceanView",
+    name: "Signature Twin Apartment",
+    description: "Our Signature-themed twin apartment offers elegant luxury, panoramic with the sound of the ocean as your backdrop, and with a modern en-suite bathroom, inspired by decorated with local artistic influences.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 466742007,
+    currency: "KRW",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-seoul-10-room-9-Twin-MountainView",
+    name: "Signature Twin Apartment",
+    description: "Indulge in the gentle atmosphere of our twin apartment, with spectacular with a view of snow-capped peaks, decorated with local artistic influences, and complete with a well-appointed bathroom.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 458215573,
+    currency: "KRW",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-seoul-10-room-9-Single-MountainView",
+    name: "Superior Single Apartment",
+    description: "A wide-ranging single retreat with a view of the mountains' changing seasons, decorated with local artistic influences.",
+    occupancy: {
+      adults: 1,
+      children: 0,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    pricePerNight: 390045327,
+    currency: "KRW",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-seoul-10-room-9-Double-MountainView",
+    name: "Standard Double Suite",
+    description: "This minimalist double accommodation offers where mountains paint the horizon, designed for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer"],
+    pricePerNight: 461958167,
+    currency: "KRW",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 6,
+  }
+];

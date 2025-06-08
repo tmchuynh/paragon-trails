@@ -1,0 +1,78 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Khách Sạn Hải Vân
+export const khchSnHiVnRooms: RoomOption[] = [
+  {
+    id: "hotel-ho-chi-minh-city-3-room-2-Single-OceanView",
+    name: "Deluxe Single Loft",
+    description: "Step into a intimate single loft that combines Deluxe-themed with breathtaking with a view of the ocean's horizon, complemented by equipped with all the modern conveniences.",
+    occupancy: {
+      adults: 1,
+      children: 0,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 2412401,
+    currency: "VND",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-ho-chi-minh-city-3-room-2-Double-CityView",
+    name: "Deluxe Double Studio",
+    description: "Enjoy a inviting stay in our Deluxe-themed double studio, offering featuring a blend of modern and historic architecture, with a spacious seating area, and unique touches of featuring thoughtful design elements.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    accessibilityFeatures: ["Wheelchair Accessible"],
+    pricePerNight: 2536821,
+    currency: "VND",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-ho-chi-minh-city-3-room-2-King-OceanView",
+    name: "Tranquility King Villa",
+    description: "This fashionable king villa promises with a view of the sandy beaches, enriched by Tranquility-themed details and offering a unique blend of style and comfort.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service"],
+    accessibilityFeatures: ["Hearing Support", "Wheelchair Accessible"],
+    pricePerNight: 3968652,
+    currency: "VND",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-ho-chi-minh-city-3-room-2-Single-GardenView",
+    name: "Standard Single Loft",
+    description: "Our Standard-themed single loft offers regal luxury, panoramic with a view of manicured lawns and gardens, and featuring premium bath amenities, inspired by created with both style and function in mind.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    pricePerNight: 1987600,
+    currency: "VND",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 10,
+  }
+];

@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Lake Como Grand
+export const theLakeComoGrandRooms: RoomOption[] = [
+  {
+    id: "hotel-amalfi-coast-7-room-6-Twin-None",
+    name: "Horizon Twin Studio",
+    description: "A rustic twin studio designed for retro comfort, with with a pleasant outlook and with a luxurious soaking tub, reflecting featuring thoughtful design elements.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 162,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-amalfi-coast-7-room-6-Single-MountainView",
+    name: "Harmony Single Room",
+    description: "Experience our refined, room-filled single room with a view of the mountains' rugged terrain, featuring premium bath amenities.",
+    occupancy: {
+      adults: 1,
+      children: 0,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 171,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-amalfi-coast-7-room-6-Queen-MountainView",
+    name: "Signature Queen Loft",
+    description: "This gentle queen accommodation offers where the mountains touch the sky, designed for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp"],
+    pricePerNight: 284,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-amalfi-coast-7-room-6-Queen-GardenView",
+    name: "Signature Queen Penthouse",
+    description: "Step into a comfy queen penthouse that combines Signature-themed with breathtaking where you can enjoy the garden's peaceful atmosphere, complemented by with high-speed internet access.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe"],
+    accessibilityFeatures: ["Wheelchair Accessible", "Elevator", "Accessible Bathroom"],
+    pricePerNight: 253,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 2,
+  }
+];

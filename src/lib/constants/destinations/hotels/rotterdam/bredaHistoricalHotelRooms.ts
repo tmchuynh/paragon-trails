@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Breda Historical Hotel
+export const bredaHistoricalHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-rotterdam-1-room-0-SofaBed-None",
+    name: "Signature Sofa Bed Apartment",
+    description: "Indulge in the refreshing atmosphere of our sofa bed apartment, with spectacular with a pleasant outlook, featuring modern design with Dutch influences, and offering a unique blend of style and comfort.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 148,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-rotterdam-1-room-0-Double-OceanView",
+    name: "Standard Double Penthouse",
+    description: "Experience our snug, extensive double penthouse where the ocean meets the sky, including climate control for your comfort.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 212,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-rotterdam-1-room-0-Queen-CityView",
+    name: "Rembrandt Queen Room",
+    description: "Rembrandt-themed queen room where the city comes alive at dusk, featuring modern design with Dutch influences and offering a unique blend of style and comfort.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    pricePerNight: 207,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-rotterdam-1-room-0-Double-MountainView",
+    name: "Classic Double Penthouse",
+    description: "Classic-themed penthouse with room-filled decor, with a view of the mountains' natural beauty, and complete with a well-appointed bathroom.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    accessibilityFeatures: ["Accessible Bathroom", "Elevator"],
+    pricePerNight: 223,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 10,
+  }
+];

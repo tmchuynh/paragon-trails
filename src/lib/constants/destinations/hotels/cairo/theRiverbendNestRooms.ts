@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Riverbend Nest
+export const theRiverbendNestRooms: RoomOption[] = [
+  {
+    id: "hotel-cairo-3-room-2-Queen-CityView",
+    name: "Executive Queen Penthouse",
+    description: "Step into a cozy queen penthouse that combines Executive-themed with breathtaking where the city skyline meets the horizon, complemented by including climate control for your comfort.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp"],
+    pricePerNight: 155712,
+    currency: "EGP",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-cairo-3-room-2-SofaBed-CityView",
+    name: "Classic Sofa Bed Studio",
+    description: "A broad sofa bed studio designed for palatial comfort, with offering panoramic city vistas and with a spacious seating area, reflecting decorated with local artistic influences.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer"],
+    pricePerNight: 104615,
+    currency: "EGP",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-cairo-3-room-2-Single-CityView",
+    name: "Serenity Single Villa",
+    description: "Experience our serene, wide-ranging single villa where you can watch the city wake up, offering a unique blend of style and comfort.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    pricePerNight: 94932,
+    currency: "EGP",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-cairo-3-room-2-Double-OceanView",
+    name: "Deluxe Double Suite",
+    description: "Unwind in this contemporary double suite where you can relax to the sound of the waves, featuring premium bath amenities.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer"],
+    accessibilityFeatures: ["Wheelchair Accessible", "Elevator", "Hearing Support"],
+    pricePerNight: 143130,
+    currency: "EGP",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 5,
+  }
+];

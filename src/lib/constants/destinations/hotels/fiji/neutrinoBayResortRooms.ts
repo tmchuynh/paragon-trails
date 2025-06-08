@@ -1,0 +1,78 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Neutrino Bay Resort
+export const neutrinoBayResortRooms: RoomOption[] = [
+  {
+    id: "hotel-fiji-9-room-8-Twin-MountainView",
+    name: "Premium Twin Penthouse",
+    description: "Step into a minimalist twin penthouse that combines Premium-themed with breathtaking with a view of the rugged mountain landscape, complemented by with blackout curtains for a perfect night's sleep.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    accessibilityFeatures: ["Hearing Support", "Visual Aids", "Accessible Bathroom"],
+    pricePerNight: 749,
+    currency: "FJD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-fiji-9-room-8-Double-CityView",
+    name: "Modern Double Loft",
+    description: "Enjoy a tranquil stay in our Modern-themed double loft, offering where you can watch the city wake up, with blackout curtains for a perfect night's sleep, and unique touches of designed for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 681,
+    currency: "FJD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-fiji-9-room-8-King-GardenView",
+    name: "Signature King Room",
+    description: "Unwind in this tasteful king room where you can enjoy the serenity of a garden retreat, with carefully selected furnishings.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    accessibilityFeatures: ["Visual Aids"],
+    pricePerNight: 1097,
+    currency: "FJD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-fiji-9-room-8-SofaBed-MountainView",
+    name: "Executive Sofa Bed Suite",
+    description: "Enjoy a broad stay in our Executive-themed sofa bed suite, offering with panoramic views of the surrounding mountains, with a luxurious soaking tub, and unique touches of featuring thoughtful design elements.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 791,
+    currency: "FJD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 3,
+  }
+];

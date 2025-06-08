@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Sudbury Nickel City Hotel
+export const sudburyNickelCityHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-vancouver-11-room-10-Queen-MountainView",
+    name: "Executive Queen Room",
+    description: "Discover the charm of this Executive-themed queen room, complete with classic ambiance, stunning with majestic mountain vistas, and featuring premium bath amenities.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service"],
+    pricePerNight: 271,
+    currency: "CAD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-vancouver-11-room-10-Double-OceanView",
+    name: "Standard Double Studio",
+    description: "A welcoming double retreat with a panoramic view of the coastline, with cozy, nature-inspired themes.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 249,
+    currency: "CAD",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-vancouver-11-room-10-Single-CityView",
+    name: "Northern Lights Single Suite",
+    description: "Our soothing Northern Lights-themed suite offers offering panoramic city vistas, retro comfort, and with a luxurious soaking tub.",
+    occupancy: {
+      adults: 1,
+      children: 0,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    pricePerNight: 169,
+    currency: "CAD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-vancouver-11-room-10-SofaBed-None",
+    name: "Signature Sofa Bed Studio",
+    description: "Unwind in this pleasant sofa bed studio with a pleasant outlook, complete with a well-appointed bathroom.",
+    occupancy: {
+      adults: 1,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 176,
+    currency: "CAD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 10,
+  }
+];

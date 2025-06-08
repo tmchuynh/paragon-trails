@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Windsor House
+export const windsorHouseRooms: RoomOption[] = [
+  {
+    id: "hotel-london-7-room-6-Queen-MountainView",
+    name: "Westminster Queen Apartment",
+    description: "This vast queen accommodation offers overlooking spectacular mountain ranges, created with both style and function in mind.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp"],
+    accessibilityFeatures: ["Visual Aids", "Accessible Bathroom", "Hearing Support"],
+    pricePerNight: 98,
+    currency: "GBP",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-london-7-room-6-SofaBed-MountainView",
+    name: "Executive Sofa Bed Loft",
+    description: "Experience our tranquil, extensive sofa bed loft where the mountains touch the sky, with a spacious work area.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    pricePerNight: 65,
+    currency: "GBP",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-london-7-room-6-Twin-OceanView",
+    name: "Superior Twin Penthouse",
+    description: "Experience our deluxe, deluxe twin penthouse with a view of the endless blue, complete with a well-appointed bathroom.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    accessibilityFeatures: ["Wheelchair Accessible"],
+    pricePerNight: 69,
+    currency: "GBP",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-london-7-room-6-King-None",
+    name: "Signature King Loft",
+    description: "Indulge in the eclectic atmosphere of our king loft, with spectacular with a pleasant outlook, featuring thoughtful design elements, and with plush bedding for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe"],
+    pricePerNight: 81,
+    currency: "GBP",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 2,
+  }
+];

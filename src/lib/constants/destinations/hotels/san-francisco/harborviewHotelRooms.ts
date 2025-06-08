@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Harborview Hotel
+export const harborviewHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-san-francisco-2-room-1-Single-CityView",
+    name: "Harmony Single Loft",
+    description: "A homey single retreat with a backdrop of city parks and green spaces, designed for ultimate comfort.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 81,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-san-francisco-2-room-1-King-OceanView",
+    name: "Serenity King Villa",
+    description: "A luxurious king retreat with a view of the ocean's horizon, designed for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service"],
+    accessibilityFeatures: ["Hearing Support", "Wheelchair Accessible"],
+    pricePerNight: 169,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-san-francisco-2-room-1-Double-GardenView",
+    name: "Serenity Double Apartment",
+    description: "A majestic double apartment designed for ample comfort, with overlooking lush garden landscapes and featuring premium bath amenities, reflecting created with both style and function in mind.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave"],
+    pricePerNight: 112,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-san-francisco-2-room-1-Queen-OceanView",
+    name: "Superior Queen Loft",
+    description: "A opulent queen retreat with a view of the tranquil sea, created with both style and function in mind.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping"],
+    pricePerNight: 152,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 1,
+  }
+];

@@ -1,0 +1,77 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Mountain Lodge
+export const theMountainLodgeRooms: RoomOption[] = [
+  {
+    id: "hotel-jamaica-1-room-0-Twin-None",
+    name: "Luxury Twin Loft",
+    description: "Our modern Luxury-themed loft offers with a pleasant outlook, artistic comfort, and featuring premium bath amenities.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    accessibilityFeatures: ["Elevator", "Wheelchair Accessible"],
+    pricePerNight: 2295302,
+    currency: "JMD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-jamaica-1-room-0-Queen-MountainView",
+    name: "Executive Queen Loft",
+    description: "Indulge in the roomy atmosphere of our queen loft, with spectacular with majestic mountain vistas, created with both style and function in mind, and with a spacious seating area.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 3811753,
+    currency: "JMD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-jamaica-1-room-0-SofaBed-CityView",
+    name: "Horizon Sofa Bed Penthouse",
+    description: "Experience our eclectic, soothing sofa bed penthouse with a view of iconic landmarks, with a modern en-suite bathroom.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    accessibilityFeatures: ["Elevator", "Wheelchair Accessible"],
+    pricePerNight: 2212180,
+    currency: "JMD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-jamaica-1-room-0-SofaBed-MountainView",
+    name: "Horizon Sofa Bed Villa",
+    description: "A sophisticated sofa bed villa designed for retro comfort, with featuring awe-inspiring mountain scenery and featuring a curated minibar selection, reflecting designed for ultimate comfort.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 2645811,
+    currency: "JMD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 5,
+  }
+];

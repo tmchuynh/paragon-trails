@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Lappeenranta Canal Hotel
+export const lappeenrantaCanalHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-helsinki-12-room-11-SofaBed-MountainView",
+    name: "Luxury Sofa Bed Loft",
+    description: "A gentle sofa bed retreat with majestic mountain vistas, featuring minimalist design with natural wood accents.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    accessibilityFeatures: ["Wheelchair Accessible"],
+    pricePerNight: 142,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-helsinki-12-room-11-Twin-GardenView",
+    name: "Deluxe Twin Apartment",
+    description: "Discover the charm of this Deluxe-themed twin apartment, complete with extravagant ambiance, stunning overlooking lush garden landscapes, and with a modern en-suite bathroom.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    accessibilityFeatures: ["Elevator"],
+    pricePerNight: 137,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-helsinki-12-room-11-Twin-MountainView",
+    name: "Premium Twin Apartment",
+    description: "Unwind in this serene twin apartment where you can gaze at the towering peaks, with a private balcony or terrace.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 163,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-helsinki-12-room-11-Double-OceanView",
+    name: "Signature Double Villa",
+    description: "Our Signature-themed double villa offers artistic luxury, panoramic where you can feel the ocean breeze, and with a luxurious soaking tub, inspired by offering a serene and relaxing retreat with a touch of Nordic charm.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe"],
+    pricePerNight: 180,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 7,
+  }
+];

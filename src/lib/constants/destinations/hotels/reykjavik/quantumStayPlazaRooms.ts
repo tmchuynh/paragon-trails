@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Quantum Stay Plaza
+export const quantumStayPlazaRooms: RoomOption[] = [
+  {
+    id: "hotel-reykjavik-8-room-7-Twin-OceanView",
+    name: "Premium Twin Room",
+    description: "Step into a comfortable twin room that combines Premium-themed with breathtaking with the sound of the ocean as your backdrop, complemented by with blackout curtains for a perfect night's sleep.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    pricePerNight: 2690242,
+    currency: "ISK",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-reykjavik-8-room-7-SofaBed-MountainView",
+    name: "Luxury Sofa Bed Studio",
+    description: "Enjoy a elegant stay in our Luxury-themed sofa bed studio, offering where you can enjoy the mountains' majestic presence, with a spacious seating area, and unique touches of featuring thoughtful design elements.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 2904690,
+    currency: "ISK",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-reykjavik-8-room-7-Single-OceanView",
+    name: "Standard Single Villa",
+    description: "This tranquil single accommodation offers with a private balcony overlooking the sea, featuring thoughtful design elements.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    accessibilityFeatures: ["Hearing Support"],
+    pricePerNight: 2618786,
+    currency: "ISK",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-reykjavik-8-room-7-Single-MountainView",
+    name: "Serenity Single Room",
+    description: "Unwind in this restful single room where you can find inspiration in the mountains, featuring a curated minibar selection.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 2357883,
+    currency: "ISK",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 5,
+  }
+];

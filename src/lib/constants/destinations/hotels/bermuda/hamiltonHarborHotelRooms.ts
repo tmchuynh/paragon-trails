@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Hamilton Harbor Hotel
+export const hamiltonHarborHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-bermuda-6-room-5-Twin-MountainView",
+    name: "Luxury Twin Penthouse",
+    description: "This gentle twin accommodation offers with panoramic views of the surrounding mountains, blending seaside charm with refined comfort.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 122,
+    currency: "BMD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-bermuda-6-room-5-Double-GardenView",
+    name: "Deluxe Double Loft",
+    description: "Deluxe-themed loft with elegant decor, where you can take in the fresh air, and featuring a curated minibar selection.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 127,
+    currency: "BMD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-bermuda-6-room-5-SofaBed-MountainView",
+    name: "Luxury Sofa Bed Room",
+    description: "Indulge in the spacious atmosphere of our sofa bed room, with spectacular with a view of snow-capped peaks, blending seaside charm with refined comfort, and featuring premium bath amenities.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave"],
+    pricePerNight: 137,
+    currency: "BMD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-bermuda-6-room-5-Single-None",
+    name: "Signature Single Studio",
+    description: "Our Signature-themed single studio offers artistic luxury, panoramic with a pleasant outlook, and with plush bedding for ultimate comfort, inspired by blending seaside charm with refined comfort.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    accessibilityFeatures: ["Visual Aids", "Hearing Support", "Accessible Bathroom"],
+    pricePerNight: 101,
+    currency: "BMD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 8,
+  }
+];

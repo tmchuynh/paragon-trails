@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Pulse Hotel Downtown
+export const pulseHotelDowntownRooms: RoomOption[] = [
+  {
+    id: "hotel-mostar-3-room-2-Twin-None",
+    name: "Modern Twin Loft",
+    description: "Experience our exquisite, chic twin loft with a pleasant outlook, featuring a curated minibar selection.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 334,
+    currency: "BAM",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-mostar-3-room-2-Queen-OceanView",
+    name: "Harmony Queen Suite",
+    description: "Our calming Harmony-themed suite offers overlooking the sparkling ocean waves, exquisite comfort, and with plush bedding for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service"],
+    pricePerNight: 513,
+    currency: "BAM",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-mostar-3-room-2-Single-MountainView",
+    name: "Modern Single Villa",
+    description: "Modern-themed villa with large-scale decor, where you can enjoy the peace of the highlands, and with blackout curtains for a perfect night's sleep.",
+    occupancy: {
+      adults: 1,
+      children: 0,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave"],
+    pricePerNight: 357,
+    currency: "BAM",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-mostar-3-room-2-Twin-CityView",
+    name: "Classic Twin Penthouse",
+    description: "Our sophisticated Classic-themed penthouse offers with a backdrop of city parks and green spaces, intimate comfort, and equipped with all the modern conveniences.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 349,
+    currency: "BAM",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 6,
+  }
+];

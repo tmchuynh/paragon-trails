@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Hotel Venezia Vista
+export const hotelVeneziaVistaRooms: RoomOption[] = [
+  {
+    id: "hotel-bologna-3-room-2-SofaBed-MountainView",
+    name: "Standard Sofa Bed Loft",
+    description: "Relax in our generous extensive sofa bed loft featuring where you can gaze at the towering peaks, along with with a private balcony or terrace and offering a touch of la dolce vita.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 116,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-bologna-3-room-2-Twin-OceanView",
+    name: "Luxury Twin Penthouse",
+    description: "A comfortable twin retreat where you can feel the ocean breeze, offering a touch of la dolce vita.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer"],
+    pricePerNight: 127,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-bologna-3-room-2-Double-None",
+    name: "Horizon Double Suite",
+    description: "Enjoy a eclectic stay in our Horizon-themed double suite, offering with a pleasant outlook, with a spacious seating area, and unique touches of inspired by Italian Renaissance design.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    pricePerNight: 99,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-bologna-3-room-2-Double-GardenView",
+    name: "Superior Double Loft",
+    description: "Superior-themed double loft where you can escape to a green sanctuary, featuring tasteful Mediterranean touches and offering a unique blend of style and comfort.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer"],
+    pricePerNight: 110,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 4,
+  }
+];

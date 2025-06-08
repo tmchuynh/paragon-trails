@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Modern Key
+export const theModernKeyRooms: RoomOption[] = [
+  {
+    id: "hotel-atlas-mountains-7-room-6-King-CityView",
+    name: "Deluxe King Villa",
+    description: "Enjoy a elegant stay in our Deluxe-themed king villa, offering with a view of iconic landmarks, complete with a well-appointed bathroom, and unique touches of featuring thoughtful design elements.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp"],
+    pricePerNight: 2862,
+    currency: "MAD",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-atlas-mountains-7-room-6-King-GardenView",
+    name: "Tranquility King Suite",
+    description: "Tranquility-themed suite with eclectic decor, with a view of blooming flowers and greenery, and offering a unique blend of style and comfort.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock"],
+    pricePerNight: 3061,
+    currency: "MAD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-atlas-mountains-7-room-6-Double-None",
+    name: "Classic Double Studio",
+    description: "Our soothing Classic-themed studio offers with a pleasant outlook, majestic comfort, and with plush bedding for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 2153,
+    currency: "MAD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-atlas-mountains-7-room-6-Queen-MountainView",
+    name: "Harmony Queen Apartment",
+    description: "A sleek queen apartment designed for soft comfort, with where you can enjoy the tranquility of the mountains and with a modern en-suite bathroom, reflecting designed for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping"],
+    pricePerNight: 3146,
+    currency: "MAD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 5,
+  }
+];

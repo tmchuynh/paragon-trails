@@ -1,0 +1,77 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Imperial Jade
+export const theImperialJadeRooms: RoomOption[] = [
+  {
+    id: "hotel-shanghai-11-room-10-King-GardenView",
+    name: "Premium King Suite",
+    description: "Our Premium-themed king suite offers vintage luxury, panoramic with a view of shaded garden paths, and featuring premium bath amenities, inspired by featuring elegant calligraphy and silk accents.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe"],
+    pricePerNight: 10969,
+    currency: "CNY",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-shanghai-11-room-10-Twin-OceanView",
+    name: "Forbidden Twin Apartment",
+    description: "Forbidden-themed apartment with calming decor, with a view of the ocean's changing tides, and offering a unique blend of style and comfort.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer"],
+    pricePerNight: 7415,
+    currency: "CNY",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-shanghai-11-room-10-Queen-MountainView",
+    name: "Forbidden Queen Villa",
+    description: "Unwind in this bohemian queen villa where mountains paint the horizon, complete with a well-appointed bathroom.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service"],
+    pricePerNight: 9731,
+    currency: "CNY",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-shanghai-11-room-10-SofaBed-CityView",
+    name: "Dynasty Sofa Bed Villa",
+    description: "Dynasty-themed sofa bed villa showcasing the urban landscape, offering a refined and harmonious ambiance and with a luxurious soaking tub.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer"],
+    pricePerNight: 6719,
+    currency: "CNY",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 5,
+  }
+];

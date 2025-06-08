@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Ayodhya Heritage Stay
+export const ayodhyaHeritageStayRooms: RoomOption[] = [
+  {
+    id: "hotel-mumbai-4-room-3-King-GardenView",
+    name: "Deluxe King Apartment",
+    description: "Deluxe-themed apartment with regal decor, with a view of the garden's tranquil pathways, and offering a unique blend of style and comfort.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 1193248,
+    currency: "INR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-mumbai-4-room-3-SofaBed-MountainView",
+    name: "Premium Sofa Bed Villa",
+    description: "Indulge in the deluxe atmosphere of our sofa bed villa, with spectacular where you can escape to the mountains, blending traditional Indian motifs with modern comfort, and with a spacious seating area.",
+    occupancy: {
+      adults: 1,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 743518,
+    currency: "INR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-mumbai-4-room-3-Twin-CityView",
+    name: "Classic Twin Suite",
+    description: "This elegant twin accommodation offers where you can watch the city wake up, featuring intricate patterns and rich textiles.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 738552,
+    currency: "INR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-mumbai-4-room-3-Double-MountainView",
+    name: "Classic Double Villa",
+    description: "Our Classic-themed double villa offers plush luxury, panoramic with a view of the mountains' changing seasons, and with a private balcony or terrace, inspired by offering vibrant colors and luxurious details.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 848230,
+    currency: "INR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 10,
+  }
+];

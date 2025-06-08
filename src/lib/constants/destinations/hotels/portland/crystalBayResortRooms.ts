@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Crystal Bay Resort
+export const crystalBayResortRooms: RoomOption[] = [
+  {
+    id: "hotel-portland-6-room-5-Twin-GardenView",
+    name: "Heritage Twin Penthouse",
+    description: "This sizable twin accommodation offers with a view of the garden's vibrant colors, featuring sleek urban design elements.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    pricePerNight: 121,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-portland-6-room-5-King-None",
+    name: "Pioneer King Penthouse",
+    description: "A roomy king penthouse designed for restful comfort, with with a pleasant outlook and with a modern en-suite bathroom, reflecting offering a classic yet modern American experience.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp"],
+    pricePerNight: 155,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-portland-6-room-5-Twin-MountainView",
+    name: "Pioneer Twin Villa",
+    description: "Pioneer-themed twin villa where you can take in the fresh mountain air, highlighting contemporary American style and with carefully selected furnishings.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 128,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-portland-6-room-5-Double-MountainView",
+    name: "Standard Double Penthouse",
+    description: "Our comfy Standard-themed penthouse offers where you can enjoy the tranquility of the mountains, regal comfort, and with a modern en-suite bathroom.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 161,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 2,
+  }
+];

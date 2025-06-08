@@ -1,0 +1,77 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Siam Heritage Inn
+export const theSiamHeritageInnRooms: RoomOption[] = [
+  {
+    id: "hotel-phuket-7-room-6-Queen-CityView",
+    name: "Jasmine Queen Suite",
+    description: "Our Jasmine-themed queen suite offers stretching luxury, panoramic with a view of iconic landmarks, and with plush bedding for ultimate comfort, inspired by with subtle nods to Thailand's rich cultural heritage.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 127661,
+    currency: "THB",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-phuket-7-room-6-Single-CityView",
+    name: "Jasmine Single Room",
+    description: "Relax in our roomy room-filled single room featuring where the city skyline meets the horizon, along with with plush bedding for ultimate comfort and featuring traditional Thai craftsmanship.",
+    occupancy: {
+      adults: 1,
+      children: 0,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 85294,
+    currency: "THB",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-phuket-7-room-6-King-GardenView",
+    name: "Thai King Penthouse",
+    description: "Thai-themed penthouse with sumptuous decor, where you can find solace in nature's embrace, and featuring premium bath amenities.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock"],
+    accessibilityFeatures: ["Elevator", "Visual Aids"],
+    pricePerNight: 180586,
+    currency: "THB",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-phuket-7-room-6-Twin-OceanView",
+    name: "Tropical Twin Loft",
+    description: "A sumptuous twin retreat where you can enjoy stunning sunsets over the water, adorned with Thai-inspired decor.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave"],
+    pricePerNight: 110616,
+    currency: "THB",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 2,
+  }
+];

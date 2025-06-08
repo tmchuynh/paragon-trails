@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Bahama Sol Boutique
+export const bahamaSolBoutiqueRooms: RoomOption[] = [
+  {
+    id: "hotel-nassau-6-room-5-SofaBed-GardenView",
+    name: "Luxury Sofa Bed Suite",
+    description: "Our elegant Luxury-themed suite offers where you can enjoy the tranquility of nature, room-filled comfort, and equipped with all the modern conveniences.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    accessibilityFeatures: ["Hearing Support"],
+    pricePerNight: 272,
+    currency: "BSD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-nassau-6-room-5-Queen-None",
+    name: "Sunset Queen Apartment",
+    description: "Enjoy a eclectic stay in our Sunset-themed queen apartment, offering with a pleasant outlook, with a modern en-suite bathroom, and unique touches of featuring airy, light-filled interiors.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 286,
+    currency: "BSD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-nassau-6-room-5-Single-OceanView",
+    name: "Signature Single Suite",
+    description: "Step into a prestigious single suite that combines Signature-themed with breathtaking where you can feel the ocean breeze, complemented by with plush bedding for ultimate comfort.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    pricePerNight: 231,
+    currency: "BSD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-nassau-6-room-5-Queen-OceanView",
+    name: "Tropical Queen Penthouse",
+    description: "Enjoy a spacious stay in our Tropical-themed queen penthouse, offering with the sound of the ocean as your backdrop, with blackout curtains for a perfect night's sleep, and unique touches of with bright tropical colors and seaside charm.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp"],
+    pricePerNight: 381,
+    currency: "BSD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 4,
+  }
+];

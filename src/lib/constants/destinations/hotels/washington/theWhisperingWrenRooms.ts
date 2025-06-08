@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Whispering Wren
+export const theWhisperingWrenRooms: RoomOption[] = [
+  {
+    id: "hotel-washington-6-room-5-King-GardenView",
+    name: "Golden Gate King Studio",
+    description: "Golden Gate-themed studio with elegant decor, where you can enjoy the garden's peaceful atmosphere, and with a private balcony or terrace.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe"],
+    pricePerNight: 163,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-washington-6-room-5-King-OceanView",
+    name: "Deluxe King Studio",
+    description: "This majestic king accommodation offers where you can hear the soothing sound of the sea, with rustic and modern influences.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock"],
+    pricePerNight: 165,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-washington-6-room-5-Double-MountainView",
+    name: "Colonial Double Room",
+    description: "Experience our exquisite, intimate double room with a view of the mountains' changing seasons, with plush bedding for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 124,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-washington-6-room-5-King-None",
+    name: "Superior King Penthouse",
+    description: "Enjoy a gentle stay in our Superior-themed king penthouse, offering with a pleasant outlook, complete with a well-appointed bathroom, and unique touches of highlighting contemporary American style.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock"],
+    accessibilityFeatures: ["Visual Aids", "Accessible Bathroom", "Hearing Support"],
+    pricePerNight: 138,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 3,
+  }
+];

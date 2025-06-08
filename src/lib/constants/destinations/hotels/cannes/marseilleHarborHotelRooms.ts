@@ -1,0 +1,77 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Marseille Harbor Hotel
+export const marseilleHarborHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-cannes-13-room-12-Twin-MountainView",
+    name: "Horizon Twin Villa",
+    description: "Step into a restful twin villa that combines Horizon-themed with breathtaking where you can experience the beauty of nature, complemented by with high-speed internet access.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 94,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-cannes-13-room-12-Queen-OceanView",
+    name: "Harmony Queen Apartment",
+    description: "Harmony-themed queen apartment with a view of the ocean's horizon, blending French sophistication and modern comfort and with a spacious work area.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping"],
+    accessibilityFeatures: ["Hearing Support", "Visual Aids"],
+    pricePerNight: 124,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-cannes-13-room-12-Twin-None",
+    name: "Classic Twin Loft",
+    description: "This futuristic twin loft promises with a pleasant outlook, enriched by Classic-themed details and offering a unique blend of style and comfort.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 75,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-cannes-13-room-12-King-GardenView",
+    name: "Signature King Studio",
+    description: "Signature-themed studio with vast decor, with a view of colorful flower beds, and with a private balcony or terrace.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe"],
+    pricePerNight: 148,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 8,
+  }
+];

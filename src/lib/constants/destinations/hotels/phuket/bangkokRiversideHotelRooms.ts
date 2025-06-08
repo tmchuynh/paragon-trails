@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Bangkok Riverside Hotel
+export const bangkokRiversideHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-phuket-1-room-0-Double-None",
+    name: "Orchid Double Penthouse",
+    description: "This comfortable double penthouse promises with a pleasant outlook, enriched by Orchid-themed details and with a spacious seating area.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    accessibilityFeatures: ["Hearing Support", "Visual Aids", "Elevator"],
+    pricePerNight: 256391,
+    currency: "THB",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-phuket-1-room-0-Double-MountainView",
+    name: "Executive Double Suite",
+    description: "Enjoy a grandiose stay in our Executive-themed double suite, offering with a view of the mountains' natural beauty, with blackout curtains for a perfect night's sleep, and unique touches of adorned with Thai-inspired decor.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 330766,
+    currency: "THB",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-phuket-1-room-0-Queen-MountainView",
+    name: "Deluxe Queen Loft",
+    description: "Our classic Deluxe-themed loft offers where you can escape to the mountains, classic comfort, and featuring a curated minibar selection.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock"],
+    accessibilityFeatures: ["Wheelchair Accessible", "Accessible Bathroom", "Elevator"],
+    pricePerNight: 377925,
+    currency: "THB",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-phuket-1-room-0-Queen-None",
+    name: "Superior Queen Apartment",
+    description: "Enjoy a opulent stay in our Superior-themed queen apartment, offering with a pleasant outlook, with a modern en-suite bathroom, and unique touches of adorned with Thai-inspired decor.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    pricePerNight: 322161,
+    currency: "THB",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 1,
+  }
+];

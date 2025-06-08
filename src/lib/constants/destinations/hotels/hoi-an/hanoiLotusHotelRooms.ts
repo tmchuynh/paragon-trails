@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Hanoi Lotus Hotel
+export const hanoiLotusHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-hoi-an-7-room-6-Single-OceanView",
+    name: "Premium Single Penthouse",
+    description: "Our compact Premium-themed penthouse offers featuring uninterrupted ocean vistas, broad comfort, and with carefully selected furnishings.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    pricePerNight: 4676332,
+    currency: "VND",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-hoi-an-7-room-6-SofaBed-None",
+    name: "Signature Sofa Bed Room",
+    description: "Discover the charm of this Signature-themed sofa bed room, complete with industrial ambiance, stunning with a pleasant outlook, and including climate control for your comfort.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer"],
+    pricePerNight: 4624484,
+    currency: "VND",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-hoi-an-7-room-6-Double-OceanView",
+    name: "Executive Double Loft",
+    description: "Discover the charm of this Executive-themed double loft, complete with room-filled ambiance, stunning with a view of the ocean's horizon, and featuring a curated minibar selection.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 5621436,
+    currency: "VND",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-hoi-an-7-room-6-SofaBed-CityView",
+    name: "Classic Sofa Bed Room",
+    description: "Classic-themed room with extravagant decor, showcasing the urban landscape, and with plush bedding for ultimate comfort.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 4572363,
+    currency: "VND",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 2,
+  }
+];

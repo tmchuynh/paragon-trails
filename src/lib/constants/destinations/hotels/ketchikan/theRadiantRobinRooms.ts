@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Radiant Robin
+export const theRadiantRobinRooms: RoomOption[] = [
+  {
+    id: "hotel-ketchikan-9-room-8-SofaBed-None",
+    name: "Golden Gate Sofa Bed Apartment",
+    description: "Experience our vintage, comfortable sofa bed apartment with a pleasant outlook, featuring a curated minibar selection.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 93,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-ketchikan-9-room-8-Single-GardenView",
+    name: "Deluxe Single Penthouse",
+    description: "Experience our heartwarming, palatial single penthouse where you can relax in a garden haven, with high-speed internet access.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    pricePerNight: 84,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-ketchikan-9-room-8-Double-GardenView",
+    name: "Manhattan Double Room",
+    description: "This majestic double room promises with serene garden views, enriched by Manhattan-themed details and featuring a curated minibar selection.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    pricePerNight: 108,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-ketchikan-9-room-8-SofaBed-OceanView",
+    name: "Liberty Sofa Bed Studio",
+    description: "Liberty-themed sofa bed studio with breathtaking sea views, featuring sleek urban design elements and offering a unique blend of style and comfort.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    accessibilityFeatures: ["Wheelchair Accessible", "Accessible Bathroom"],
+    pricePerNight: 112,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 8,
+  }
+];

@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Floating Firefly
+export const theFloatingFireflyRooms: RoomOption[] = [
+  {
+    id: "hotel-bali-5-room-4-Single-MountainView",
+    name: "Java Single Loft",
+    description: "Our Java-themed single loft offers sleek luxury, panoramic with a view of the mountains' serene beauty, and with high-speed internet access, inspired by featuring Balinese art and natural materials.",
+    occupancy: {
+      adults: 1,
+      children: 0,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 46091292659,
+    currency: "IDR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-bali-5-room-4-Double-None",
+    name: "Garuda Double Studio",
+    description: "Indulge in the snug atmosphere of our double studio, with spectacular with a pleasant outlook, featuring Balinese art and natural materials, and equipped with all the modern conveniences.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 39795031736,
+    currency: "IDR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-bali-5-room-4-SofaBed-CityView",
+    name: "Superior Sofa Bed Studio",
+    description: "Our roomy Superior-themed studio offers with a front-row seat to the city's heartbeat, sizable comfort, and with a luxurious soaking tub.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 38988009188,
+    currency: "IDR",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-bali-5-room-4-SofaBed-MountainView",
+    name: "Garuda Sofa Bed Penthouse",
+    description: "This vast sofa bed accommodation offers with a view of the mountains' breathtaking sunsets, decorated with handcrafted local motifs.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave"],
+    pricePerNight: 48276603279,
+    currency: "IDR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 7,
+  }
+];

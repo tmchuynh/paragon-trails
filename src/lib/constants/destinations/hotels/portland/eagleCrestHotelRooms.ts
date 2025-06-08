@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Eagle Crest Hotel
+export const eagleCrestHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-portland-2-room-1-Double-CityView",
+    name: "Liberty Double Suite",
+    description: "A eclectic double retreat featuring a blend of modern and historic architecture, offering a classic yet modern American experience.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 211,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-portland-2-room-1-Queen-OceanView",
+    name: "Standard Queen Villa",
+    description: "Our indulgent Standard-themed villa offers with a view of the ocean's changing tides, ornate comfort, and featuring a curated minibar selection.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock"],
+    pricePerNight: 320,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-portland-2-room-1-Single-GardenView",
+    name: "Signature Single Loft",
+    description: "Enjoy a commodious stay in our Signature-themed single loft, offering with a view of the garden's tranquil pathways, including climate control for your comfort, and unique touches of featuring sleek urban design elements.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 196,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-portland-2-room-1-SofaBed-None",
+    name: "Executive Sofa Bed Suite",
+    description: "Experience our vast, cozy sofa bed suite with a pleasant outlook, with a modern en-suite bathroom.",
+    occupancy: {
+      adults: 1,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 184,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 3,
+  }
+];

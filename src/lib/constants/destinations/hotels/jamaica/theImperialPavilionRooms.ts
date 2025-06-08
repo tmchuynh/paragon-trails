@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Imperial Pavilion
+export const theImperialPavilionRooms: RoomOption[] = [
+  {
+    id: "hotel-jamaica-5-room-4-Twin-None",
+    name: "Serenity Twin Suite",
+    description: "Our Serenity-themed twin suite offers ample luxury, panoramic with a pleasant outlook, and including climate control for your comfort, inspired by designed for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    pricePerNight: 2561529,
+    currency: "JMD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-jamaica-5-room-4-SofaBed-CityView",
+    name: "Classic Sofa Bed Villa",
+    description: "Our Classic-themed sofa bed villa offers stylish luxury, panoramic overlooking the vibrant cityscape, and complete with a well-appointed bathroom, inspired by created with both style and function in mind.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    accessibilityFeatures: ["Accessible Bathroom", "Elevator"],
+    pricePerNight: 2612239,
+    currency: "JMD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-jamaica-5-room-4-Double-None",
+    name: "Harmony Double Suite",
+    description: "Our Harmony-themed double suite offers classic luxury, panoramic with a pleasant outlook, and featuring a curated minibar selection, inspired by created with both style and function in mind.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    accessibilityFeatures: ["Accessible Bathroom", "Elevator", "Visual Aids"],
+    pricePerNight: 2973232,
+    currency: "JMD",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-jamaica-5-room-4-Single-OceanView",
+    name: "Serenity Single Room",
+    description: "Step into a well-proportioned single room that combines Serenity-themed with breathtaking with a view of the endless blue, complemented by with a private balcony or terrace.",
+    occupancy: {
+      adults: 1,
+      children: 0,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave"],
+    pricePerNight: 2826564,
+    currency: "JMD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 4,
+  }
+];

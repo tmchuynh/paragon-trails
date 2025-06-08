@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Puerto Cortés Harbor Inn
+export const puertoCortsHarborInnRooms: RoomOption[] = [
+  {
+    id: "hotel-roatan-4-room-3-SofaBed-CityView",
+    name: "Bay Island Sofa Bed Penthouse",
+    description: "This intimate sofa bed accommodation offers featuring a blend of modern and historic architecture, blending rainforest inspiration with comfort.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 73649,
+    currency: "HNL",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-roatan-4-room-3-Twin-MountainView",
+    name: "Caribe Twin Room",
+    description: "Relax in our well-proportioned avant-garde twin room featuring where you can gaze at the towering peaks, along with featuring a curated minibar selection and offering an authentic and serene environment.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 87277,
+    currency: "HNL",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-roatan-4-room-3-Queen-OceanView",
+    name: "Standard Queen Villa",
+    description: "Relax in our welcoming avant-garde queen villa featuring where you can hear the soothing sound of the sea, along with complete with a well-appointed bathroom and offering an authentic and serene environment.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe"],
+    accessibilityFeatures: ["Hearing Support", "Elevator", "Wheelchair Accessible"],
+    pricePerNight: 109902,
+    currency: "HNL",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-roatan-4-room-3-Twin-OceanView",
+    name: "Rainforest Twin Room",
+    description: "Our Rainforest-themed twin room offers fashionable luxury, panoramic overlooking the sparkling ocean waves, and complete with a well-appointed bathroom, inspired by blending rainforest inspiration with comfort.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 78647,
+    currency: "HNL",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 4,
+  }
+];

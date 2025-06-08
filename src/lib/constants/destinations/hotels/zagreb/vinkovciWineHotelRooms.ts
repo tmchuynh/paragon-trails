@@ -1,0 +1,77 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Vinkovci Wine Hotel
+export const vinkovciWineHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-zagreb-10-room-9-SofaBed-GardenView",
+    name: "Standard Sofa Bed Penthouse",
+    description: "Step into a eclectic sofa bed penthouse that combines Standard-themed with breathtaking with a view of the garden's natural beauty, complemented by with a spacious work area.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave"],
+    pricePerNight: 95,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-zagreb-10-room-9-Twin-OceanView",
+    name: "Classic Twin Apartment",
+    description: "Step into a peaceful twin apartment that combines Classic-themed with breathtaking with breathtaking sea views, complemented by with a private balcony or terrace.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    accessibilityFeatures: ["Visual Aids"],
+    pricePerNight: 97,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-zagreb-10-room-9-SofaBed-CityView",
+    name: "Adriatic Sofa Bed Suite",
+    description: "Adriatic-themed sofa bed suite featuring a blend of modern and historic architecture, featuring coastal-inspired decor with Mediterranean influences and featuring a curated minibar selection.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer"],
+    pricePerNight: 92,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-zagreb-10-room-9-Single-None",
+    name: "Lavender Single Apartment",
+    description: "Unwind in this sophisticated single apartment with a pleasant outlook, complete with a well-appointed bathroom.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    accessibilityFeatures: ["Wheelchair Accessible"],
+    pricePerNight: 70,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 6,
+  }
+];

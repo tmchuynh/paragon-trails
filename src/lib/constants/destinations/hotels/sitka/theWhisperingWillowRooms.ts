@@ -1,0 +1,77 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Whispering Willow
+export const theWhisperingWillowRooms: RoomOption[] = [
+  {
+    id: "hotel-sitka-16-room-15-SofaBed-MountainView",
+    name: "Standard Sofa Bed Villa",
+    description: "This tasteful sofa bed villa promises where you can gaze at the towering peaks, enriched by Standard-themed details and offering a unique blend of style and comfort.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 80,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-sitka-16-room-15-Single-OceanView",
+    name: "Premium Single Penthouse",
+    description: "A open-concept single retreat where the horizon meets the ocean, with rustic and modern influences.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 76,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-sitka-16-room-15-Twin-MountainView",
+    name: "Luxury Twin Penthouse",
+    description: "Relax in our well-proportioned plush twin penthouse featuring where you can enjoy the peace of the highlands, along with featuring a curated minibar selection and highlighting contemporary American style.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    accessibilityFeatures: ["Wheelchair Accessible", "Visual Aids", "Elevator"],
+    pricePerNight: 83,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-sitka-16-room-15-Single-GardenView",
+    name: "Golden Gate Single Apartment",
+    description: "Golden Gate-themed single apartment with a view of the garden's tranquil pathways, featuring sleek urban design elements and with high-speed internet access.",
+    occupancy: {
+      adults: 1,
+      children: 0,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 61,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 10,
+  }
+];

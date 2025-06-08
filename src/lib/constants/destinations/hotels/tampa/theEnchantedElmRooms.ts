@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Enchanted Elm
+export const theEnchantedElmRooms: RoomOption[] = [
+  {
+    id: "hotel-tampa-10-room-9-Double-GardenView",
+    name: "Classic Double Room",
+    description: "Discover the charm of this Classic-themed double room, complete with regal ambiance, stunning where you can take in the fresh air, and with plush bedding for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 111,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-tampa-10-room-9-Double-CityView",
+    name: "Colonial Double Penthouse",
+    description: "Indulge in the sizable atmosphere of our double penthouse, with spectacular with a backdrop of city parks and green spaces, with rustic and modern influences, and with a private balcony or terrace.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    pricePerNight: 104,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-tampa-10-room-9-SofaBed-CityView",
+    name: "Pioneer Sofa Bed Suite",
+    description: "Indulge in the soft atmosphere of our sofa bed suite, with spectacular with a view of the city's waterfront, featuring sleek urban design elements, and with blackout curtains for a perfect night's sleep.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 105,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-tampa-10-room-9-Twin-None",
+    name: "Colonial Twin Villa",
+    description: "Step into a opulent twin villa that combines Colonial-themed with breathtaking with a pleasant outlook, complemented by with blackout curtains for a perfect night's sleep.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 91,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 10,
+  }
+];

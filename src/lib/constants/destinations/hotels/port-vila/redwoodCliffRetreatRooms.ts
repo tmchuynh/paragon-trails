@@ -1,0 +1,77 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Redwood Cliff Retreat
+export const redwoodCliffRetreatRooms: RoomOption[] = [
+  {
+    id: "hotel-port-vila-4-room-3-Double-MountainView",
+    name: "Classic Double Studio",
+    description: "Relax in our comfy ornate double studio featuring with a view of the mountains' rugged terrain, along with with a luxurious soaking tub and created with both style and function in mind.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave"],
+    accessibilityFeatures: ["Visual Aids", "Accessible Bathroom"],
+    pricePerNight: 13630,
+    currency: "VUV",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-port-vila-4-room-3-King-CityView",
+    name: "Signature King Room",
+    description: "This peaceful king accommodation offers offering panoramic city vistas, featuring thoughtful design elements.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock"],
+    accessibilityFeatures: ["Wheelchair Accessible", "Visual Aids"],
+    pricePerNight: 18720,
+    currency: "VUV",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-port-vila-4-room-3-SofaBed-OceanView",
+    name: "Premium Sofa Bed Villa",
+    description: "Our upscale Premium-themed villa offers with a view of the ocean's horizon, commodious comfort, and with carefully selected furnishings.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer"],
+    accessibilityFeatures: ["Wheelchair Accessible", "Hearing Support", "Elevator"],
+    pricePerNight: 14137,
+    currency: "VUV",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-port-vila-4-room-3-Single-None",
+    name: "Deluxe Single Room",
+    description: "Unwind in this comfortable single room with a pleasant outlook, including climate control for your comfort.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 9668,
+    currency: "VUV",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 4,
+  }
+];

@@ -1,0 +1,77 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Ivy Terrace
+export const theIvyTerraceRooms: RoomOption[] = [
+  {
+    id: "hotel-las-vegas-5-room-4-Double-OceanView",
+    name: "Modern Double Suite",
+    description: "Relax in our inviting heartwarming double suite featuring where the horizon meets the ocean, along with with a private balcony or terrace and featuring thoughtful design elements.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping"],
+    accessibilityFeatures: ["Wheelchair Accessible", "Visual Aids", "Elevator"],
+    pricePerNight: 92,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-las-vegas-5-room-4-Queen-GardenView",
+    name: "Classic Queen Suite",
+    description: "A rustic queen suite designed for vintage comfort, with where you can relax in a garden haven and with a luxurious soaking tub, reflecting created with both style and function in mind.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    pricePerNight: 87,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-las-vegas-5-room-4-Twin-OceanView",
+    name: "Modern Twin Room",
+    description: "Relax in our compact pleasant twin room featuring with a view of the ocean's changing tides, along with featuring a curated minibar selection and decorated with local artistic influences.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 87,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-las-vegas-5-room-4-Twin-None",
+    name: "Standard Twin Studio",
+    description: "Indulge in the compact atmosphere of our twin studio, with spectacular with a pleasant outlook, decorated with local artistic influences, and with a spacious work area.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 60,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 9,
+  }
+];

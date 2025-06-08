@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Timber Rock Lodge
+export const timberRockLodgeRooms: RoomOption[] = [
+  {
+    id: "hotel-mto-wa-mbu-village-11-room-10-SofaBed-MountainView",
+    name: "Standard Sofa Bed Suite",
+    description: "Enjoy a glamorous stay in our Standard-themed sofa bed suite, offering where mountains paint the horizon, with a private balcony or terrace, and unique touches of decorated with local artistic influences.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 545773,
+    currency: "TZS",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-mto-wa-mbu-village-11-room-10-Twin-MountainView",
+    name: "Harmony Twin Penthouse",
+    description: "Harmony-themed penthouse with spacious decor, with majestic mountain vistas, and including climate control for your comfort.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave"],
+    pricePerNight: 548403,
+    currency: "TZS",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-mto-wa-mbu-village-11-room-10-Queen-GardenView",
+    name: "Premium Queen Room",
+    description: "A majestic queen room designed for fashionable comfort, with with a view of the garden's lush greenery and with a modern en-suite bathroom, reflecting created with both style and function in mind.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe"],
+    pricePerNight: 585409,
+    currency: "TZS",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-mto-wa-mbu-village-11-room-10-Double-MountainView",
+    name: "Classic Double Penthouse",
+    description: "Indulge in the comfortable atmosphere of our double penthouse, with spectacular with a view of the mountains' natural beauty, decorated with local artistic influences, and with a spacious work area.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe"],
+    pricePerNight: 625980,
+    currency: "TZS",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 8,
+  }
+];

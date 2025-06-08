@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Verdant Valley Retreat
+export const verdantValleyRetreatRooms: RoomOption[] = [
+  {
+    id: "hotel-monaco-1-room-0-King-GardenView",
+    name: "Harmony King Penthouse",
+    description: "Our palatial Harmony-themed penthouse offers where you can escape to a green sanctuary, stylish comfort, and with a luxurious soaking tub.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock"],
+    accessibilityFeatures: ["Visual Aids", "Accessible Bathroom"],
+    pricePerNight: 132,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-monaco-1-room-0-King-None",
+    name: "Standard King Suite",
+    description: "Experience our opulent, wide-ranging king suite with a pleasant outlook, complete with a well-appointed bathroom.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping"],
+    pricePerNight: 115,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-monaco-1-room-0-King-CityView",
+    name: "Premium King Loft",
+    description: "This extravagant king accommodation offers where city lights twinkle at night, created with both style and function in mind.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock"],
+    accessibilityFeatures: ["Visual Aids", "Accessible Bathroom"],
+    pricePerNight: 126,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-monaco-1-room-0-King-MountainView",
+    name: "Modern King Villa",
+    description: "Our Modern-themed king villa offers restful luxury, panoramic with a view of the mountains' lush valleys, and with a private balcony or terrace, inspired by created with both style and function in mind.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe"],
+    pricePerNight: 143,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 2,
+  }
+];

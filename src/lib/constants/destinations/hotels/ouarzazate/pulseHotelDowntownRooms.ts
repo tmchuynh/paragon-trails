@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Pulse Hotel Downtown
+export const pulseHotelDowntownRooms: RoomOption[] = [
+  {
+    id: "hotel-ouarzazate-2-room-1-SofaBed-CityView",
+    name: "Signature Sofa Bed Villa",
+    description: "Discover the charm of this Signature-themed sofa bed villa, complete with lavish ambiance, stunning with stunning views of the city skyline, and equipped with all the modern conveniences.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 20905,
+    currency: "MAD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-ouarzazate-2-room-1-Queen-CityView",
+    name: "Classic Queen Suite",
+    description: "Experience our stylish, bohemian queen suite overlooking the vibrant cityscape, with a spacious seating area.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 24823,
+    currency: "MAD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-ouarzazate-2-room-1-Double-OceanView",
+    name: "Premium Double Studio",
+    description: "Premium-themed double studio with the sound of the ocean as your backdrop, decorated with local artistic influences and with plush bedding for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock"],
+    accessibilityFeatures: ["Hearing Support", "Elevator"],
+    pricePerNight: 27688,
+    currency: "MAD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-ouarzazate-2-room-1-Queen-MountainView",
+    name: "Classic Queen Loft",
+    description: "Enjoy a generous stay in our Classic-themed queen loft, offering with a view of the mountains' natural beauty, featuring premium bath amenities, and unique touches of created with both style and function in mind.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp"],
+    pricePerNight: 27648,
+    currency: "MAD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 8,
+  }
+];

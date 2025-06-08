@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Khách Sạn Vịnh Xanh
+export const khchSnVnhXanhRooms: RoomOption[] = [
+  {
+    id: "hotel-da-nang-9-room-8-King-GardenView",
+    name: "Standard King Villa",
+    description: "Our Standard-themed king villa offers ample luxury, panoramic where you can find solace in nature's embrace, and with a spacious work area, inspired by designed for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 7094992,
+    currency: "VND",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-da-nang-9-room-8-Queen-MountainView",
+    name: "Superior Queen Suite",
+    description: "Unwind in this minimalist queen suite where you can gaze at the towering peaks, with a spacious work area.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service"],
+    pricePerNight: 7446574,
+    currency: "VND",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-da-nang-9-room-8-Double-OceanView",
+    name: "Modern Double Studio",
+    description: "Experience our homey, heartwarming double studio where the ocean meets the sky, offering a unique blend of style and comfort.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 5986495,
+    currency: "VND",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-da-nang-9-room-8-Double-None",
+    name: "Executive Double Studio",
+    description: "This comfortable double accommodation offers with a pleasant outlook, designed for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 4485369,
+    currency: "VND",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 9,
+  }
+];

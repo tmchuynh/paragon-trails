@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Cinque Terre Coastal Inn
+export const theCinqueTerreCoastalInnRooms: RoomOption[] = [
+  {
+    id: "hotel-palermo-12-room-11-SofaBed-None",
+    name: "Classic Sofa Bed Penthouse",
+    description: "Indulge in the minimalist atmosphere of our sofa bed penthouse, with spectacular with a pleasant outlook, with classic Italian elegance, and with blackout curtains for a perfect night's sleep.",
+    occupancy: {
+      adults: 1,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 102,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-palermo-12-room-11-Single-CityView",
+    name: "Standard Single Suite",
+    description: "A relaxing single suite designed for artistic comfort, with with a window to the bustling city below and with a spacious seating area, reflecting featuring tasteful Mediterranean touches.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    pricePerNight: 93,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-palermo-12-room-11-Twin-OceanView",
+    name: "Superior Twin Penthouse",
+    description: "Superior-themed penthouse with classic decor, with breathtaking sea views, and with a spacious work area.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer"],
+    pricePerNight: 110,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-palermo-12-room-11-Single-OceanView",
+    name: "Superior Single Apartment",
+    description: "Superior-themed single apartment with a view of the tranquil sea, featuring tasteful Mediterranean touches and complete with a well-appointed bathroom.",
+    occupancy: {
+      adults: 1,
+      children: 0,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    pricePerNight: 110,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 1,
+  }
+];

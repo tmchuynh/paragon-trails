@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Bumbleberry Bungalow
+export const theBumbleberryBungalowRooms: RoomOption[] = [
+  {
+    id: "hotel-seattle-4-room-3-Twin-GardenView",
+    name: "Standard Twin Villa",
+    description: "Relax in our elegant opulent twin villa featuring where you can escape to a green sanctuary, along with offering a unique blend of style and comfort and featuring sleek urban design elements.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 104,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-seattle-4-room-3-Single-OceanView",
+    name: "Heritage Single Room",
+    description: "A wide-ranging single room designed for wide-ranging comfort, with with a view of the ocean's horizon and equipped with all the modern conveniences, reflecting highlighting contemporary American style.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave"],
+    pricePerNight: 107,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-seattle-4-room-3-Queen-GardenView",
+    name: "Colonial Queen Room",
+    description: "Unwind in this expansive queen room with a view of the garden's vibrant colors, including climate control for your comfort.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 129,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-seattle-4-room-3-Single-CityView",
+    name: "Superior Single Studio",
+    description: "Relax in our compact gentle single studio featuring with a backdrop of city parks and green spaces, along with featuring premium bath amenities and offering a classic yet modern American experience.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 84,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 1,
+  }
+];

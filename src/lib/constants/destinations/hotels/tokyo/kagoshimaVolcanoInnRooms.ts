@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Kagoshima Volcano Inn
+export const kagoshimaVolcanoInnRooms: RoomOption[] = [
+  {
+    id: "hotel-tokyo-9-room-8-Queen-None",
+    name: "Classic Queen Suite",
+    description: "Discover the charm of this Classic-themed queen suite, complete with refined ambiance, stunning with a pleasant outlook, and with a modern en-suite bathroom.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    pricePerNight: 2566161,
+    currency: "JPY",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-tokyo-9-room-8-SofaBed-CityView",
+    name: "Imperial Sofa Bed Loft",
+    description: "Indulge in the extensive atmosphere of our sofa bed loft, with spectacular where the city comes alive at dusk, offering the perfect balance of Eastern serenity and Western comfort, and with a spacious work area.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 2268515,
+    currency: "JPY",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-tokyo-9-room-8-Twin-OceanView",
+    name: "Luxury Twin Studio",
+    description: "Enjoy a stretching stay in our Luxury-themed twin studio, offering with a panoramic view of the coastline, with plush bedding for ultimate comfort, and unique touches of combining modern luxury with Japanese tradition.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 2750063,
+    currency: "JPY",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-tokyo-9-room-8-Queen-CityView",
+    name: "Superior Queen Penthouse",
+    description: "Superior-themed queen penthouse with a view of the city's waterfront, offering the perfect balance of Eastern serenity and Western comfort and with a private balcony or terrace.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp"],
+    pricePerNight: 2867013,
+    currency: "JPY",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 8,
+  }
+];

@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Kunming Stone Forest Hotel
+export const kunmingStoneForestHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-shanghai-4-room-3-Double-CityView",
+    name: "Signature Double Apartment",
+    description: "A refined double apartment designed for broad comfort, with with a view of the city's waterfront and with high-speed internet access, reflecting offering a refined and harmonious ambiance.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 4862,
+    currency: "CNY",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-shanghai-4-room-3-Twin-None",
+    name: "Classic Twin Studio",
+    description: "Classic-themed twin studio with a pleasant outlook, featuring elegant calligraphy and silk accents and equipped with all the modern conveniences.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 4263,
+    currency: "CNY",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-shanghai-4-room-3-Double-MountainView",
+    name: "Dynasty Double Penthouse",
+    description: "A commodious double retreat with panoramic views of the mountain landscape, offering a refined and harmonious ambiance.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe"],
+    pricePerNight: 6238,
+    currency: "CNY",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-shanghai-4-room-3-Queen-MountainView",
+    name: "Classic Queen Penthouse",
+    description: "Indulge in the sophisticated atmosphere of our queen penthouse, with spectacular with panoramic views of the surrounding mountains, with classic Chinese artistic influences, and with a modern en-suite bathroom.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp"],
+    pricePerNight: 7325,
+    currency: "CNY",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 4,
+  }
+];

@@ -1,0 +1,78 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Coral Reef Inn
+export const theCoralReefInnRooms: RoomOption[] = [
+  {
+    id: "hotel-charleston-9-room-8-SofaBed-CityView",
+    name: "Signature Sofa Bed Room",
+    description: "This gentle sofa bed room promises where the city comes alive at dusk, enriched by Signature-themed details and with a private balcony or terrace.",
+    occupancy: {
+      adults: 1,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    pricePerNight: 134,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-charleston-9-room-8-Twin-GardenView",
+    name: "Pioneer Twin Studio",
+    description: "A classic twin retreat where you can enjoy the garden's seasonal blooms, featuring sleek urban design elements.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    accessibilityFeatures: ["Wheelchair Accessible", "Visual Aids", "Elevator"],
+    pricePerNight: 123,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-charleston-9-room-8-Double-GardenView",
+    name: "Luxury Double Suite",
+    description: "Unwind in this glamorous double suite featuring a peaceful garden setting, featuring premium bath amenities.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 155,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-charleston-9-room-8-Queen-CityView",
+    name: "Pioneer Queen Apartment",
+    description: "Our luxurious Pioneer-themed apartment offers with a view of the city's cultural landmarks, artistic comfort, and with blackout curtains for a perfect night's sleep.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 159,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 4,
+  }
+];

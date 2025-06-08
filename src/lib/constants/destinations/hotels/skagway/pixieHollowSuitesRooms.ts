@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Pixie Hollow Suites
+export const pixieHollowSuitesRooms: RoomOption[] = [
+  {
+    id: "hotel-skagway-4-room-3-King-MountainView",
+    name: "Heritage King Apartment",
+    description: "Heritage-themed king apartment with a view of the mountains' breathtaking sunsets, featuring sleek urban design elements and with a private balcony or terrace.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp"],
+    pricePerNight: 349,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-skagway-4-room-3-Queen-GardenView",
+    name: "Manhattan Queen Loft",
+    description: "Indulge in the intimate atmosphere of our queen loft, with spectacular with a view of the garden's tranquil pathways, with rustic and modern influences, and equipped with all the modern conveniences.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping"],
+    accessibilityFeatures: ["Wheelchair Accessible", "Elevator", "Visual Aids"],
+    pricePerNight: 256,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-skagway-4-room-3-Double-GardenView",
+    name: "Executive Double Room",
+    description: "Enjoy a stylish stay in our Executive-themed double room, offering where you can enjoy the beauty of nature, with a luxurious soaking tub, and unique touches of with rustic and modern influences.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 224,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-skagway-4-room-3-Double-OceanView",
+    name: "Premium Double Apartment",
+    description: "Relax in our opulent homey double apartment featuring with a panoramic view of the coastline, along with including climate control for your comfort and featuring sleek urban design elements.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock"],
+    accessibilityFeatures: ["Wheelchair Accessible"],
+    pricePerNight: 268,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 1,
+  }
+];

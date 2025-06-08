@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Leeuwarden Cultural Hotel
+export const leeuwardenCulturalHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-amsterdam-9-room-8-Twin-GardenView",
+    name: "Signature Twin Room",
+    description: "This welcoming twin room promises featuring a peaceful garden setting, enriched by Signature-themed details and with blackout curtains for a perfect night's sleep.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 114,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-amsterdam-9-room-8-King-CityView",
+    name: "Windmill King Penthouse",
+    description: "Enjoy a lavish stay in our Windmill-themed king penthouse, offering where city lights twinkle at night, with blackout curtains for a perfect night's sleep, and unique touches of offering a unique Dutch experience with a contemporary twist.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock"],
+    pricePerNight: 146,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-amsterdam-9-room-8-King-GardenView",
+    name: "Premium King Loft",
+    description: "Step into a intimate king loft that combines Premium-themed with breathtaking with a view of the garden's lush greenery, complemented by with high-speed internet access.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    accessibilityFeatures: ["Wheelchair Accessible", "Visual Aids", "Accessible Bathroom"],
+    pricePerNight: 152,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-amsterdam-9-room-8-Double-GardenView",
+    name: "Deluxe Double Studio",
+    description: "Experience our peaceful, upscale double studio surrounded by vibrant flora, with high-speed internet access.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    pricePerNight: 112,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 5,
+  }
+];

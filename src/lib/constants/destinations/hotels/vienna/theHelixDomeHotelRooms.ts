@@ -1,0 +1,77 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Helix Dome Hotel
+export const theHelixDomeHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-vienna-6-room-5-Queen-MountainView",
+    name: "Classic Queen Apartment",
+    description: "Experience our generous, regal queen apartment where you can gaze at the towering peaks, with high-speed internet access.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock"],
+    accessibilityFeatures: ["Accessible Bathroom", "Elevator"],
+    pricePerNight: 350,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-vienna-6-room-5-Twin-CityView",
+    name: "Signature Twin Apartment",
+    description: "Unwind in this voluminous twin apartment with a backdrop of city parks and green spaces, equipped with all the modern conveniences.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    accessibilityFeatures: ["Hearing Support", "Visual Aids"],
+    pricePerNight: 239,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-vienna-6-room-5-SofaBed-MountainView",
+    name: "Luxury Sofa Bed Studio",
+    description: "Our Luxury-themed sofa bed studio offers upscale luxury, panoramic where the mountains touch the sky, and with a spacious seating area, inspired by created with both style and function in mind.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 282,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-vienna-6-room-5-Twin-MountainView",
+    name: "Classic Twin Suite",
+    description: "Step into a exquisite twin suite that combines Classic-themed with breathtaking where you can enjoy the mountains' majestic presence, complemented by with a private balcony or terrace.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 285,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 4,
+  }
+];

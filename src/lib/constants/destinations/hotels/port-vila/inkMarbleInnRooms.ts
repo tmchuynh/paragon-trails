@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Ink & Marble Inn
+export const inkMarbleInnRooms: RoomOption[] = [
+  {
+    id: "hotel-port-vila-10-room-9-Double-OceanView",
+    name: "Tranquility Double Loft",
+    description: "Experience our wide-ranging, pleasant double loft where you can relax to the sound of the waves, equipped with all the modern conveniences.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 14795,
+    currency: "VUV",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-port-vila-10-room-9-Double-GardenView",
+    name: "Modern Double Studio",
+    description: "A regal double retreat with serene garden views, decorated with local artistic influences.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    pricePerNight: 12111,
+    currency: "VUV",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-port-vila-10-room-9-Queen-MountainView",
+    name: "Classic Queen Loft",
+    description: "Classic-themed queen loft where mountains paint the horizon, designed for ultimate comfort and featuring a curated minibar selection.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp"],
+    pricePerNight: 16754,
+    currency: "VUV",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-port-vila-10-room-9-SofaBed-CityView",
+    name: "Modern Sofa Bed Loft",
+    description: "Modern-themed sofa bed loft with a view of the city's waterfront, decorated with local artistic influences and with a private balcony or terrace.",
+    occupancy: {
+      adults: 1,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    accessibilityFeatures: ["Elevator", "Wheelchair Accessible"],
+    pricePerNight: 11301,
+    currency: "VUV",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 10,
+  }
+];

@@ -1,0 +1,78 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Cozy Cloud Inn
+export const theCozyCloudInnRooms: RoomOption[] = [
+  {
+    id: "hotel-san-diego-10-room-9-King-OceanView",
+    name: "Superior King Villa",
+    description: "This lavish king accommodation offers where the horizon meets the ocean, featuring thoughtful design elements.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    accessibilityFeatures: ["Hearing Support", "Elevator"],
+    pricePerNight: 390,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-san-diego-10-room-9-Single-CityView",
+    name: "Horizon Single Villa",
+    description: "Discover the charm of this Horizon-themed single villa, complete with pleasant ambiance, stunning where the city comes alive at dusk, and with carefully selected furnishings.",
+    occupancy: {
+      adults: 1,
+      children: 0,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 174,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-san-diego-10-room-9-King-MountainView",
+    name: "Luxury King Loft",
+    description: "Step into a peaceful king loft that combines Luxury-themed with breathtaking with a view of the mountains' changing seasons, complemented by with a spacious seating area.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service"],
+    pricePerNight: 326,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-san-diego-10-room-9-Twin-CityView",
+    name: "Harmony Twin Room",
+    description: "Discover the charm of this Harmony-themed twin room, complete with generous ambiance, stunning with a front-row seat to the city's heartbeat, and with a modern en-suite bathroom.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    accessibilityFeatures: ["Visual Aids", "Wheelchair Accessible", "Hearing Support"],
+    pricePerNight: 215,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 1,
+  }
+];

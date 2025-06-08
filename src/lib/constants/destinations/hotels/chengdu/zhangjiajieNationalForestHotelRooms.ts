@@ -1,0 +1,78 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Zhangjiajie National Forest Hotel
+export const zhangjiajieNationalForestHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-chengdu-4-room-3-Double-CityView",
+    name: "Dragon Double Apartment",
+    description: "This sumptuous double accommodation offers overlooking the vibrant cityscape, blending imperial tradition with modern design.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    pricePerNight: 10767,
+    currency: "CNY",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-chengdu-4-room-3-Single-OceanView",
+    name: "Luxury Single Studio",
+    description: "Discover the charm of this Luxury-themed single studio, complete with minimalist ambiance, stunning with a view of the tranquil sea, and with high-speed internet access.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    accessibilityFeatures: ["Visual Aids", "Accessible Bathroom"],
+    pricePerNight: 10437,
+    currency: "CNY",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-chengdu-4-room-3-Single-MountainView",
+    name: "Bamboo Single Apartment",
+    description: "Step into a snug single apartment that combines Bamboo-themed with breathtaking where you can experience the beauty of nature, complemented by offering a unique blend of style and comfort.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 9770,
+    currency: "CNY",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-chengdu-4-room-3-Queen-OceanView",
+    name: "Luxury Queen Studio",
+    description: "Enjoy a refreshing stay in our Luxury-themed queen studio, offering where you can relax to the sound of the waves, offering a unique blend of style and comfort, and unique touches of with classic Chinese artistic influences.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe"],
+    pricePerNight: 16587,
+    currency: "CNY",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 9,
+  }
+];

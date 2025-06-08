@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Madrid Royal Palace Hotel
+export const madridRoyalPalaceHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-seville-9-room-8-Twin-CityView",
+    name: "Modern Twin Apartment",
+    description: "Relax in our majestic soft twin apartment featuring offering panoramic city vistas, along with with blackout curtains for a perfect night's sleep and designed for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave"],
+    pricePerNight: 72,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-seville-9-room-8-Single-MountainView",
+    name: "Signature Single Suite",
+    description: "This welcoming single accommodation offers with panoramic views of the surrounding mountains, created with both style and function in mind.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 71,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-seville-9-room-8-SofaBed-CityView",
+    name: "Superior Sofa Bed Room",
+    description: "Unwind in this lavish sofa bed room offering panoramic city vistas, offering a unique blend of style and comfort.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    pricePerNight: 72,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-seville-9-room-8-Single-CityView",
+    name: "Classic Single Penthouse",
+    description: "A modern single penthouse designed for compact comfort, with with a front-row seat to the city's heartbeat and featuring a curated minibar selection, reflecting created with both style and function in mind.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 60,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 3,
+  }
+];

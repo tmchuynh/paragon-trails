@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Iqaluit Arctic Inn
+export const iqaluitArcticInnRooms: RoomOption[] = [
+  {
+    id: "hotel-quebec-city-4-room-3-Twin-GardenView",
+    name: "Serenity Twin Villa",
+    description: "Indulge in the retro atmosphere of our twin villa, with spectacular with a view of tranquil water features, featuring thoughtful design elements, and including climate control for your comfort.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    pricePerNight: 138,
+    currency: "CAD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-quebec-city-4-room-3-SofaBed-OceanView",
+    name: "Superior Sofa Bed Loft",
+    description: "Our Superior-themed sofa bed loft offers pleasant luxury, panoramic with a view of the ocean's changing tides, and with a modern en-suite bathroom, inspired by created with both style and function in mind.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 151,
+    currency: "CAD",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-quebec-city-4-room-3-Double-MountainView",
+    name: "Executive Double Apartment",
+    description: "Executive-themed apartment with traditional decor, where mountains paint the horizon, and featuring premium bath amenities.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service"],
+    accessibilityFeatures: ["Wheelchair Accessible"],
+    pricePerNight: 173,
+    currency: "CAD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-quebec-city-4-room-3-Single-CityView",
+    name: "Classic Single Studio",
+    description: "Enjoy a elegant stay in our Classic-themed single studio, offering showcasing the urban landscape, with a private balcony or terrace, and unique touches of designed for ultimate comfort.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave"],
+    accessibilityFeatures: ["Hearing Support", "Visual Aids"],
+    pricePerNight: 109,
+    currency: "CAD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 1,
+  }
+];

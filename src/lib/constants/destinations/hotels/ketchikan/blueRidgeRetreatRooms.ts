@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Blue Ridge Retreat
+export const blueRidgeRetreatRooms: RoomOption[] = [
+  {
+    id: "hotel-ketchikan-6-room-5-Twin-GardenView",
+    name: "Superior Twin Apartment",
+    description: "Superior-themed twin apartment where you can enjoy the sights and sounds of nature, offering a classic yet modern American experience and offering a unique blend of style and comfort.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    accessibilityFeatures: ["Visual Aids", "Accessible Bathroom"],
+    pricePerNight: 192,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-ketchikan-6-room-5-Queen-OceanView",
+    name: "Golden Gate Queen Villa",
+    description: "Enjoy a comfortable stay in our Golden Gate-themed queen villa, offering where you can feel the ocean breeze, offering a unique blend of style and comfort, and unique touches of offering a classic yet modern American experience.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 323,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-ketchikan-6-room-5-Single-OceanView",
+    name: "Standard Single Loft",
+    description: "This elegant single loft promises featuring uninterrupted ocean vistas, enriched by Standard-themed details and equipped with all the modern conveniences.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    pricePerNight: 218,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-ketchikan-6-room-5-Single-CityView",
+    name: "Executive Single Apartment",
+    description: "A soft single retreat where you can watch the city wake up, highlighting contemporary American style.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 176,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 2,
+  }
+];

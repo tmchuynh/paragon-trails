@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Dancing Dandelion
+export const theDancingDandelionRooms: RoomOption[] = [
+  {
+    id: "hotel-atlanta-4-room-3-King-CityView",
+    name: "Signature King Studio",
+    description: "Discover the charm of this Signature-themed king studio, complete with grandiose ambiance, stunning featuring a blend of modern and historic architecture, and with a modern en-suite bathroom.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe"],
+    pricePerNight: 151,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-atlanta-4-room-3-SofaBed-GardenView",
+    name: "Colonial Sofa Bed Villa",
+    description: "Relax in our homey stretching sofa bed villa featuring with a view of tranquil water features, along with offering a unique blend of style and comfort and featuring sleek urban design elements.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    accessibilityFeatures: ["Visual Aids", "Elevator"],
+    pricePerNight: 97,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-atlanta-4-room-3-Queen-MountainView",
+    name: "Deluxe Queen Studio",
+    description: "Deluxe-themed studio with sophisticated decor, with panoramic views of the surrounding mountains, and with a modern en-suite bathroom.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp"],
+    pricePerNight: 141,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-atlanta-4-room-3-King-GardenView",
+    name: "Pioneer King Suite",
+    description: "This ornate king accommodation offers where you can enjoy the sights and sounds of nature, highlighting contemporary American style.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service"],
+    pricePerNight: 174,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 5,
+  }
+];

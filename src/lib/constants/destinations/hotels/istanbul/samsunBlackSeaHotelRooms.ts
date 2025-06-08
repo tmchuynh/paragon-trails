@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Samsun Black Sea Hotel
+export const samsunBlackSeaHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-istanbul-7-room-6-Twin-GardenView",
+    name: "Executive Twin Studio",
+    description: "Executive-themed studio with modern decor, where you can enjoy the garden's seasonal blooms, and featuring premium bath amenities.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 135031,
+    currency: "TRY",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-istanbul-7-room-6-Single-CityView",
+    name: "Executive Single Penthouse",
+    description: "Our gentle Executive-themed penthouse offers where you can enjoy the city's energy, plush comfort, and with a spacious work area.",
+    occupancy: {
+      adults: 1,
+      children: 0,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer"],
+    pricePerNight: 116944,
+    currency: "TRY",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-istanbul-7-room-6-Queen-CityView",
+    name: "Luxury Queen Penthouse",
+    description: "A regal queen penthouse designed for inviting comfort, with with a view of the city's waterfront and with high-speed internet access, reflecting decorated with local artistic influences.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping"],
+    accessibilityFeatures: ["Wheelchair Accessible", "Elevator"],
+    pricePerNight: 176345,
+    currency: "TRY",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-istanbul-7-room-6-Twin-MountainView",
+    name: "Horizon Twin Villa",
+    description: "Discover the charm of this Horizon-themed twin villa, complete with extravagant ambiance, stunning with a view of the mountains' rugged terrain, and with plush bedding for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave"],
+    pricePerNight: 145184,
+    currency: "TRY",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 9,
+  }
+];

@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Starlit Seas Hotel
+export const starlitSeasHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-sacramento-2-room-1-Twin-OceanView",
+    name: "Liberty Twin Loft",
+    description: "Enjoy a lavish stay in our Liberty-themed twin loft, offering with the sound of the ocean as your backdrop, including climate control for your comfort, and unique touches of with rustic and modern influences.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 176,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-sacramento-2-room-1-Double-CityView",
+    name: "Signature Double Room",
+    description: "This sizable double room promises with a view of iconic landmarks, enriched by Signature-themed details and equipped with all the modern conveniences.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    pricePerNight: 171,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-sacramento-2-room-1-Double-None",
+    name: "Standard Double Villa",
+    description: "Experience our modern, refreshing double villa with a pleasant outlook, featuring premium bath amenities.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    pricePerNight: 161,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-sacramento-2-room-1-Single-None",
+    name: "Superior Single Studio",
+    description: "This futuristic single accommodation offers with a pleasant outlook, featuring sleek urban design elements.",
+    occupancy: {
+      adults: 1,
+      children: 0,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer"],
+    pricePerNight: 132,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 3,
+  }
+];

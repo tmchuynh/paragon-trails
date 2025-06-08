@@ -1,0 +1,77 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Viana do Castelo Hotel
+export const vianaDoCasteloHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-lisbon-3-room-2-Twin-GardenView",
+    name: "Deluxe Twin Room",
+    description: "This minimalist twin room promises where you can enjoy the tranquility of nature, enriched by Deluxe-themed details and with carefully selected furnishings.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 189,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-lisbon-3-room-2-Queen-MountainView",
+    name: "Luxury Queen Suite",
+    description: "A modern queen suite designed for rustic comfort, with with a view of the mountains' rugged terrain and with a spacious work area, reflecting blending classic elegance with contemporary design.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service"],
+    pricePerNight: 285,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-lisbon-3-room-2-Single-CityView",
+    name: "Azulejo Single Suite",
+    description: "Discover the charm of this Azulejo-themed single suite, complete with regal ambiance, stunning where you can enjoy the city's energy, and with a spacious seating area.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    accessibilityFeatures: ["Hearing Support", "Wheelchair Accessible"],
+    pricePerNight: 164,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-lisbon-3-room-2-Queen-GardenView",
+    name: "Premium Queen Villa",
+    description: "Unwind in this well-proportioned queen villa surrounded by vibrant flora, with a luxurious soaking tub.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    pricePerNight: 215,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 5,
+  }
+];

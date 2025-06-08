@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Liverpool Docks Hotel
+export const liverpoolDocksHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-southampton-8-room-7-Double-OceanView",
+    name: "Deluxe Double Room",
+    description: "Our deluxe Deluxe-themed room offers with a view of the sandy beaches, extravagant comfort, and including climate control for your comfort.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp"],
+    pricePerNight: 168,
+    currency: "GBP",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-southampton-8-room-7-SofaBed-CityView",
+    name: "Standard Sofa Bed Villa",
+    description: "Step into a elegant sofa bed villa that combines Standard-themed with breathtaking where you can watch the city wake up, complemented by with high-speed internet access.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 126,
+    currency: "GBP",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-southampton-8-room-7-Single-CityView",
+    name: "Classic Single Suite",
+    description: "Our Classic-themed single suite offers contemporary luxury, panoramic where you can watch the city wake up, and with plush bedding for ultimate comfort, inspired by featuring thoughtful design elements.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 104,
+    currency: "GBP",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-southampton-8-room-7-Twin-MountainView",
+    name: "Royal Twin Room",
+    description: "Step into a deluxe twin room that combines Royal-themed with breathtaking where mountains paint the horizon, complemented by featuring premium bath amenities.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    accessibilityFeatures: ["Wheelchair Accessible", "Elevator"],
+    pricePerNight: 144,
+    currency: "GBP",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 6,
+  }
+];

@@ -1,0 +1,77 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for La Fontana Resort
+export const laFontanaResortRooms: RoomOption[] = [
+  {
+    id: "hotel-matera-3-room-2-Double-OceanView",
+    name: "Classic Double Studio",
+    description: "Our extensive Classic-themed studio offers where you can watch the waves roll in, avant-garde comfort, and with plush bedding for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    pricePerNight: 130,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-matera-3-room-2-Single-MountainView",
+    name: "Executive Single Studio",
+    description: "Indulge in the homey atmosphere of our single studio, with spectacular where the mountains touch the sky, inspired by Italian Renaissance design, and with a spacious work area.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave"],
+    pricePerNight: 106,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-matera-3-room-2-King-OceanView",
+    name: "Deluxe King Room",
+    description: "Discover the charm of this Deluxe-themed king room, complete with fashionable ambiance, stunning with a view of the ocean's changing tides, and with plush bedding for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp"],
+    accessibilityFeatures: ["Visual Aids", "Accessible Bathroom"],
+    pricePerNight: 193,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-matera-3-room-2-King-CityView",
+    name: "Premium King Room",
+    description: "Indulge in the fashionable atmosphere of our king room, with spectacular with a view of the city's waterfront, with classic Italian elegance, and with a spacious work area.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock"],
+    accessibilityFeatures: ["Accessible Bathroom", "Elevator", "Hearing Support"],
+    pricePerNight: 146,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 6,
+  }
+];

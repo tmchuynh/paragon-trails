@@ -1,0 +1,78 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Northern Lights Retreat
+export const northernLightsRetreatRooms: RoomOption[] = [
+  {
+    id: "hotel-oslo-4-room-3-Twin-MountainView",
+    name: "Executive Twin Loft",
+    description: "This large-scale twin loft promises where you can gaze at the towering peaks, enriched by Executive-themed details and with a luxurious soaking tub.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 25591,
+    currency: "NOK",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-oslo-4-room-3-Queen-CityView",
+    name: "Superior Queen Villa",
+    description: "Discover the charm of this Superior-themed queen villa, complete with stretching ambiance, stunning with a view of the city's cultural landmarks, and with carefully selected furnishings.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    accessibilityFeatures: ["Wheelchair Accessible", "Hearing Support"],
+    pricePerNight: 26563,
+    currency: "NOK",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-oslo-4-room-3-Single-OceanView",
+    name: "Standard Single Penthouse",
+    description: "Step into a deluxe single penthouse that combines Standard-themed with breathtaking with a view of the tranquil sea, complemented by complete with a well-appointed bathroom.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 22803,
+    currency: "NOK",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-oslo-4-room-3-Double-GardenView",
+    name: "Executive Double Studio",
+    description: "Unwind in this luxurious double studio with a view of colorful flower beds, including climate control for your comfort.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    accessibilityFeatures: ["Accessible Bathroom", "Wheelchair Accessible"],
+    pricePerNight: 27318,
+    currency: "NOK",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 5,
+  }
+];

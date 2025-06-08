@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Starlight Capsule Hotel
+export const starlightCapsuleHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-mto-wa-mbu-village-3-room-2-Queen-MountainView",
+    name: "Serenity Queen Suite",
+    description: "This opulent queen suite promises where you can find inspiration in the mountains, enriched by Serenity-themed details and equipped with all the modern conveniences.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service"],
+    accessibilityFeatures: ["Accessible Bathroom", "Elevator"],
+    pricePerNight: 697031,
+    currency: "TZS",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-mto-wa-mbu-village-3-room-2-Single-CityView",
+    name: "Superior Single Villa",
+    description: "Superior-themed villa with heartwarming decor, with a window to the bustling city below, and with a spacious work area.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    pricePerNight: 439392,
+    currency: "TZS",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-mto-wa-mbu-village-3-room-2-Queen-None",
+    name: "Tranquility Queen Studio",
+    description: "Unwind in this minimalist queen studio with a pleasant outlook, with plush bedding for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 586237,
+    currency: "TZS",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-mto-wa-mbu-village-3-room-2-Twin-GardenView",
+    name: "Serenity Twin Villa",
+    description: "Experience our industrial, serene twin villa where you can take in the fresh air, featuring a curated minibar selection.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave"],
+    pricePerNight: 439793,
+    currency: "TZS",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 3,
+  }
+];

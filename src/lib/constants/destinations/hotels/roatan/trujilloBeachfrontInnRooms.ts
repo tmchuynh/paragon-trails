@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Trujillo Beachfront Inn
+export const trujilloBeachfrontInnRooms: RoomOption[] = [
+  {
+    id: "hotel-roatan-1-room-0-SofaBed-CityView",
+    name: "Rainforest Sofa Bed Suite",
+    description: "A voluminous sofa bed suite designed for spacious comfort, with where the city comes alive at dusk and with plush bedding for ultimate comfort, reflecting offering an authentic and serene environment.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    pricePerNight: 129789,
+    currency: "HNL",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-roatan-1-room-0-Single-OceanView",
+    name: "Deluxe Single Suite",
+    description: "A comfy single retreat with a view of the endless blue, featuring handcrafted indigenous decor.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    pricePerNight: 132700,
+    currency: "HNL",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-roatan-1-room-0-Double-CityView",
+    name: "Classic Double Villa",
+    description: "Our majestic Classic-themed villa offers showcasing the urban landscape, avant-garde comfort, and with a spacious work area.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 133285,
+    currency: "HNL",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-roatan-1-room-0-Twin-None",
+    name: "Tropical Coast Twin Suite",
+    description: "Discover the charm of this Tropical Coast-themed twin suite, complete with artistic ambiance, stunning with a pleasant outlook, and equipped with all the modern conveniences.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    accessibilityFeatures: ["Wheelchair Accessible", "Elevator", "Hearing Support"],
+    pricePerNight: 106560,
+    currency: "HNL",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 5,
+  }
+];

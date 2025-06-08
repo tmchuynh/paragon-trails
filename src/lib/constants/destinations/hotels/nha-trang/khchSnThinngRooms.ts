@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Khách Sạn Thiên Đường
+export const khchSnThinngRooms: RoomOption[] = [
+  {
+    id: "hotel-nha-trang-2-room-1-SofaBed-GardenView",
+    name: "Tranquility Sofa Bed Penthouse",
+    description: "Our Tranquility-themed sofa bed penthouse offers comfortable luxury, panoramic where you can enjoy the tranquility of nature, and with blackout curtains for a perfect night's sleep, inspired by featuring thoughtful design elements.",
+    occupancy: {
+      adults: 1,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    accessibilityFeatures: ["Wheelchair Accessible", "Accessible Bathroom", "Hearing Support"],
+    pricePerNight: 4889660,
+    currency: "VND",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-nha-trang-2-room-1-King-OceanView",
+    name: "Superior King Suite",
+    description: "Our Superior-themed king suite offers open-concept luxury, panoramic with a view of the sandy beaches, and with a luxurious soaking tub, inspired by designed for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock"],
+    pricePerNight: 8893454,
+    currency: "VND",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-nha-trang-2-room-1-King-CityView",
+    name: "Modern King Penthouse",
+    description: "Our heartwarming Modern-themed penthouse offers where city lights twinkle at night, regal comfort, and with a private balcony or terrace.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service"],
+    accessibilityFeatures: ["Wheelchair Accessible", "Elevator", "Visual Aids"],
+    pricePerNight: 7635195,
+    currency: "VND",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-nha-trang-2-room-1-SofaBed-CityView",
+    name: "Signature Sofa Bed Room",
+    description: "Discover the charm of this Signature-themed sofa bed room, complete with retro ambiance, stunning overlooking the vibrant cityscape, and with a luxurious soaking tub.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer"],
+    pricePerNight: 4581977,
+    currency: "VND",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 5,
+  }
+];

@@ -1,0 +1,88 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The San Miguel de Allende Heritage Hotel
+export const theSanMiguelDeAllendeHeritageHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-mexico-city-2-room-1-Double-None",
+    name: "Classic Double Studio",
+    description: "Step into a tasteful double studio that combines Classic-themed with breathtaking with a pleasant outlook, complemented by with high-speed internet access.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 1753,
+    currency: "MXN",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-mexico-city-2-room-1-Twin-None",
+    name: "Luxury Twin Apartment",
+    description: "Our chic Luxury-themed apartment offers with a pleasant outlook, sizable comfort, and with a spacious work area.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 1629,
+    currency: "MXN",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-mexico-city-2-room-1-SofaBed-None",
+    name: "Signature Sofa Bed Suite",
+    description: "Relax in our pleasant prestigious sofa bed suite featuring with a pleasant outlook, along with with a luxurious soaking tub and decorated with local artistic influences.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer"],
+    pricePerNight: 1627,
+    currency: "MXN",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-mexico-city-2-room-1-Single-None",
+    name: "Superior Single Villa",
+    description: "Superior-themed villa with glamorous decor, with a pleasant outlook, and with a modern en-suite bathroom.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 1388,
+    currency: "MXN",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-mexico-city-2-room-1-SofaBed-OceanView",
+    name: "Harmony Sofa Bed Apartment",
+    description: "A commodious sofa bed apartment designed for ornate comfort, with with the sound of the ocean as your backdrop and with a spacious work area, reflecting created with both style and function in mind.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 1935,
+    currency: "MXN",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 1,
+  }
+];

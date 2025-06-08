@@ -1,0 +1,77 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Monarch Hall
+export const theMonarchHallRooms: RoomOption[] = [
+  {
+    id: "hotel-chefchaouen-9-room-8-Queen-CityView",
+    name: "Harmony Queen Loft",
+    description: "Step into a intimate queen loft that combines Harmony-themed with breathtaking where the city skyline meets the horizon, complemented by with a modern en-suite bathroom.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock"],
+    pricePerNight: 13918,
+    currency: "MAD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-chefchaouen-9-room-8-King-GardenView",
+    name: "Classic King Studio",
+    description: "Step into a refined king studio that combines Classic-themed with breathtaking with a view of colorful flower beds, complemented by offering a unique blend of style and comfort.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp"],
+    pricePerNight: 17710,
+    currency: "MAD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-chefchaouen-9-room-8-Twin-CityView",
+    name: "Harmony Twin Room",
+    description: "Our Harmony-themed twin room offers sophisticated luxury, panoramic where city lights twinkle at night, and featuring premium bath amenities, inspired by created with both style and function in mind.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    accessibilityFeatures: ["Accessible Bathroom", "Hearing Support"],
+    pricePerNight: 9173,
+    currency: "MAD",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-chefchaouen-9-room-8-SofaBed-CityView",
+    name: "Deluxe Sofa Bed Suite",
+    description: "Enjoy a regal stay in our Deluxe-themed sofa bed suite, offering with a backdrop of city parks and green spaces, with a private balcony or terrace, and unique touches of featuring thoughtful design elements.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    accessibilityFeatures: ["Hearing Support", "Visual Aids"],
+    pricePerNight: 9724,
+    currency: "MAD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 9,
+  }
+];

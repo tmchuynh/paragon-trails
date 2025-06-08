@@ -1,0 +1,77 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Pinehill Vista
+export const pinehillVistaRooms: RoomOption[] = [
+  {
+    id: "hotel-monaco-10-room-9-Twin-GardenView",
+    name: "Serenity Twin Apartment",
+    description: "A classic twin retreat with a view of the garden's peaceful ambiance, decorated with local artistic influences.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    pricePerNight: 165,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-monaco-10-room-9-Single-GardenView",
+    name: "Luxury Single Penthouse",
+    description: "Step into a luxurious single penthouse that combines Luxury-themed with breathtaking with a view of blooming flowers and greenery, complemented by with a spacious work area.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    accessibilityFeatures: ["Accessible Bathroom", "Visual Aids", "Hearing Support"],
+    pricePerNight: 148,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-monaco-10-room-9-Twin-None",
+    name: "Modern Twin Suite",
+    description: "Our opulent Modern-themed suite offers with a pleasant outlook, well-proportioned comfort, and with carefully selected furnishings.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave"],
+    pricePerNight: 150,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-monaco-10-room-9-Single-OceanView",
+    name: "Classic Single Suite",
+    description: "Our Classic-themed single suite offers sophisticated luxury, panoramic with a view of the ocean's horizon, and with high-speed internet access, inspired by decorated with local artistic influences.",
+    occupancy: {
+      adults: 1,
+      children: 0,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave"],
+    pricePerNight: 192,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 2,
+  }
+];

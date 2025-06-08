@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Gallery Row Hotel
+export const galleryRowHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-belgrade-5-room-4-King-CityView",
+    name: "Tranquility King Loft",
+    description: "Indulge in the generous atmosphere of our king loft, with spectacular where the city skyline meets the horizon, designed for ultimate comfort, and featuring a curated minibar selection.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 3840971,
+    currency: "RSD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-belgrade-5-room-4-Twin-MountainView",
+    name: "Signature Twin Apartment",
+    description: "Discover the charm of this Signature-themed twin apartment, complete with extravagant ambiance, stunning where the mountains touch the sky, and with a private balcony or terrace.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave"],
+    pricePerNight: 2507451,
+    currency: "RSD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-belgrade-5-room-4-King-GardenView",
+    name: "Horizon King Villa",
+    description: "This refined king accommodation offers where nature is just outside your window, created with both style and function in mind.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock"],
+    accessibilityFeatures: ["Wheelchair Accessible"],
+    pricePerNight: 4066313,
+    currency: "RSD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-belgrade-5-room-4-Queen-MountainView",
+    name: "Harmony Queen Penthouse",
+    description: "Experience our roomy, stylish queen penthouse with a view of the mountains' lush valleys, with a modern en-suite bathroom.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 3634334,
+    currency: "RSD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 7,
+  }
+];

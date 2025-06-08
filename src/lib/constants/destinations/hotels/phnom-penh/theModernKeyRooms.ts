@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Modern Key
+export const theModernKeyRooms: RoomOption[] = [
+  {
+    id: "hotel-phnom-penh-4-room-3-King-MountainView",
+    name: "Modern King Loft",
+    description: "Modern-themed loft with opulent decor, with a view of the mountains' breathtaking sunsets, and featuring a curated minibar selection.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe"],
+    pricePerNight: 1332885,
+    currency: "KHR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-phnom-penh-4-room-3-SofaBed-None",
+    name: "Classic Sofa Bed Studio",
+    description: "A bohemian sofa bed retreat with a pleasant outlook, designed for ultimate comfort.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave"],
+    accessibilityFeatures: ["Wheelchair Accessible"],
+    pricePerNight: 741493,
+    currency: "KHR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-phnom-penh-4-room-3-SofaBed-OceanView",
+    name: "Tranquility Sofa Bed Loft",
+    description: "A retro sofa bed loft designed for refreshing comfort, with where the ocean meets the sky and including climate control for your comfort, reflecting created with both style and function in mind.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer"],
+    pricePerNight: 1007934,
+    currency: "KHR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-phnom-penh-4-room-3-Queen-GardenView",
+    name: "Horizon Queen Studio",
+    description: "Step into a traditional queen studio that combines Horizon-themed with breathtaking where you can enjoy the beauty of nature, complemented by with carefully selected furnishings.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    accessibilityFeatures: ["Hearing Support", "Wheelchair Accessible"],
+    pricePerNight: 1059237,
+    currency: "KHR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 6,
+  }
+];

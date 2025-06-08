@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Floating Fern
+export const theFloatingFernRooms: RoomOption[] = [
+  {
+    id: "hotel-skagway-8-room-7-Queen-OceanView",
+    name: "Signature Queen Penthouse",
+    description: "Step into a airy queen penthouse that combines Signature-themed with breathtaking where you can watch the waves roll in, complemented by with plush bedding for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe"],
+    pricePerNight: 478,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-skagway-8-room-7-Twin-OceanView",
+    name: "Deluxe Twin Penthouse",
+    description: "Deluxe-themed twin penthouse where you can enjoy stunning sunsets over the water, highlighting contemporary American style and with plush bedding for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 323,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-skagway-8-room-7-Double-CityView",
+    name: "Superior Double Studio",
+    description: "A homey double retreat with a view of iconic landmarks, with rustic and modern influences.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 324,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-skagway-8-room-7-Queen-MountainView",
+    name: "Classic Queen Studio",
+    description: "Discover the charm of this Classic-themed queen studio, complete with calming ambiance, stunning where you can enjoy the tranquility of the mountains, and with a private balcony or terrace.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping"],
+    pricePerNight: 455,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 7,
+  }
+];

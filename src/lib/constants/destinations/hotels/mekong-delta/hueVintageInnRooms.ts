@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Hue Vintage Inn
+export const hueVintageInnRooms: RoomOption[] = [
+  {
+    id: "hotel-mekong-delta-3-room-2-Double-None",
+    name: "Luxury Double Penthouse",
+    description: "Unwind in this room-filled double penthouse with a pleasant outlook, with plush bedding for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 4669066,
+    currency: "VND",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-mekong-delta-3-room-2-Twin-GardenView",
+    name: "Premium Twin Penthouse",
+    description: "Premium-themed penthouse with grandiose decor, where you can escape to a green sanctuary, and featuring a curated minibar selection.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    accessibilityFeatures: ["Wheelchair Accessible"],
+    pricePerNight: 4756692,
+    currency: "VND",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-mekong-delta-3-room-2-SofaBed-MountainView",
+    name: "Executive Sofa Bed Apartment",
+    description: "A refreshing sofa bed apartment designed for soothing comfort, with with panoramic views of the surrounding mountains and featuring premium bath amenities, reflecting designed for ultimate comfort.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 4818815,
+    currency: "VND",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-mekong-delta-3-room-2-King-CityView",
+    name: "Classic King Villa",
+    description: "A airy king villa designed for well-proportioned comfort, with where city lights twinkle at night and with plush bedding for ultimate comfort, reflecting featuring thoughtful design elements.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping"],
+    accessibilityFeatures: ["Accessible Bathroom", "Elevator"],
+    pricePerNight: 6414169,
+    currency: "VND",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 8,
+  }
+];

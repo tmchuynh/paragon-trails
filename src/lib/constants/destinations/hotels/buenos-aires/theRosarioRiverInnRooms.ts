@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Rosario River Inn
+export const theRosarioRiverInnRooms: RoomOption[] = [
+  {
+    id: "hotel-buenos-aires-5-room-4-King-OceanView",
+    name: "Tranquility King Apartment",
+    description: "Our open-concept Tranquility-themed apartment offers where the ocean meets the sky, retro comfort, and equipped with all the modern conveniences.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service"],
+    pricePerNight: 103799,
+    currency: "ARS",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-buenos-aires-5-room-4-King-GardenView",
+    name: "Classic King Apartment",
+    description: "Enjoy a welcoming stay in our Classic-themed king apartment, offering where you can escape to a green sanctuary, with a spacious work area, and unique touches of designed for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service"],
+    accessibilityFeatures: ["Visual Aids", "Wheelchair Accessible"],
+    pricePerNight: 100708,
+    currency: "ARS",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-buenos-aires-5-room-4-Double-None",
+    name: "Superior Double Apartment",
+    description: "Unwind in this soft double apartment with a pleasant outlook, with a spacious seating area.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 54875,
+    currency: "ARS",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-buenos-aires-5-room-4-Twin-CityView",
+    name: "Premium Twin Room",
+    description: "A well-proportioned twin retreat with a window to the bustling city below, decorated with local artistic influences.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    accessibilityFeatures: ["Visual Aids", "Wheelchair Accessible"],
+    pricePerNight: 57094,
+    currency: "ARS",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 1,
+  }
+];

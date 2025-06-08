@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Ocean Breeze Hotel
+export const theOceanBreezeHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-sacramento-1-room-0-King-GardenView",
+    name: "Heritage King Loft",
+    description: "Our Heritage-themed king loft offers chic luxury, panoramic offering a peaceful garden outlook, and with a private balcony or terrace, inspired by with rustic and modern influences.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service"],
+    pricePerNight: 156,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-sacramento-1-room-0-Queen-MountainView",
+    name: "Executive Queen Penthouse",
+    description: "Relax in our calming chic queen penthouse featuring with a view of the mountains' breathtaking sunsets, along with featuring premium bath amenities and featuring sleek urban design elements.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp"],
+    pricePerNight: 148,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-sacramento-1-room-0-Twin-OceanView",
+    name: "Luxury Twin Villa",
+    description: "A spacious twin retreat where you can enjoy the ocean's beauty, highlighting contemporary American style.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    accessibilityFeatures: ["Wheelchair Accessible"],
+    pricePerNight: 113,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-sacramento-1-room-0-Twin-MountainView",
+    name: "Heritage Twin Loft",
+    description: "Experience our sophisticated, elegant twin loft where you can escape to the mountains, featuring premium bath amenities.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 116,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 1,
+  }
+];
