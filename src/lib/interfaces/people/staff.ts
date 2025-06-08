@@ -1,4 +1,4 @@
-import { TourRegion, TourType } from "../services/tours";
+import { TourType } from "../services/tours";
 
 export interface TeamMember {
   name: string;
@@ -26,7 +26,7 @@ export interface TourGuide extends TeamMember {
   region?: string;
   isPopular?: boolean;
   bio: string;
-  regionsCovered: TourRegion[];
+  regionsCovered: string[];
   tourTypes: TourType[];
   maxGroupSize: number;
   licenseNumber: string;
