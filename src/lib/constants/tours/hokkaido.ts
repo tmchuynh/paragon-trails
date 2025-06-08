@@ -1,0 +1,188 @@
+// Auto-generated file for hokkaido tours
+// Country: Japan, Region: Japan
+
+// This file is auto-generated. Do not edit manually.
+import { Tour } from "@/lib/interfaces/services/tours";
+
+export const hokkaidojapanjapanTours: Tour[] = [
+  {
+    id: "tour-hokkaido-1",
+    guideId: "guide-hokkaido-2",
+    title: "Cocktails & City Lights",
+    description: "Uncover the secrets of hokkaido on this unforgettable experience. Visit top attractions and off-the-beaten-path locations that most tourists never see.",
+    city: "hokkaido",
+    country: "Japan",
+    region: "Japan",
+    languagesOffered: [
+      "Japanese",
+    ],
+    price: "¥11700",
+    tags: [
+      "Adventure And Thrill",
+      "City Highlights And History",
+      "Family Friendly",
+    ],
+    type: "Nightlife Tours",
+    schedule: [
+      {
+        attractionId: "attraction-hokkaido-106-1",
+        dayOfWeek: "Friday",
+        startTime: "2:00 PM",
+        endTime: "4:00 PM",
+      },
+      {
+        attractionId: "attraction-hokkaido-106-2",
+        dayOfWeek: "Thursday",
+        startTime: "10:00 AM",
+        endTime: "2:00 PM",
+      },
+      {
+        attractionId: "attraction-hokkaido-106-4",
+        dayOfWeek: "Saturday",
+        startTime: "4:00 PM",
+        endTime: "5:00 PM",
+      },
+      {
+        attractionId: "attraction-hokkaido-106-3",
+        dayOfWeek: "Monday",
+        startTime: "9:00 AM",
+        endTime: "12:00 PM",
+      },
+    ],
+    pricePerPerson: 11700,
+    currency: "JPY",
+    maxGroupSize: 29,
+    minGroupSize: 7,
+    privateAvailable: true,
+    isPopular: false,
+    isPetFriendly: true,
+    reviewsCount: 64,
+    included: [
+      "Souvenir photos",
+      "Bottled water",
+    ],
+    notIncluded: [
+      "Travel insurance",
+      "Parking fees",
+    ],
+    requirements: [
+      "Minimum age: 18",
+      "Passport required",
+      "Bring own headphones",
+      "COVID-19 vaccination required",
+    ],
+    cancellationPolicy: "Free cancellation up to 48 hours before the experience starts",
+    rating: 4.2,
+  },
+  {
+    id: "tour-hokkaido-2",
+    guideId: "guide-hokkaido-1",
+    title: "Tides of the Tropics",
+    description: "Explore the vibrant streets of hokkaido with a knowledgeable local guide. This tour offers an authentic taste of the city's unique atmosphere and cultural heritage.",
+    city: "hokkaido",
+    country: "Japan",
+    region: "Japan",
+    languagesOffered: [],
+    price: "¥26500",
+    tags: [
+      "Nature And Scenic",
+      "Art And Culture",
+    ],
+    type: "Walking Tour",
+    schedule: [
+      {
+        attractionId: "attraction-hokkaido-106-2",
+        dayOfWeek: "Wednesday",
+        startTime: "4:00 PM",
+        endTime: "6:00 PM",
+      },
+      {
+        attractionId: "attraction-hokkaido-106-4",
+        dayOfWeek: "Tuesday",
+        startTime: "3:00 PM",
+        endTime: "5:00 PM",
+      },
+      {
+        attractionId: "attraction-hokkaido-106-3",
+        dayOfWeek: "Saturday",
+        startTime: "9:00 AM",
+        endTime: "1:00 PM",
+      },
+    ],
+    pricePerPerson: 26500,
+    currency: "JPY",
+    maxGroupSize: 42,
+    minGroupSize: 7,
+    privateAvailable: false,
+    isPopular: false,
+    isPetFriendly: true,
+    reviewsCount: 56,
+    included: [
+      "Entrance fees (if applicable)",
+      "Rain ponchos (if needed)",
+      "Food samples",
+      "Transportation during tour (if applicable)",
+    ],
+    notIncluded: [
+      "Airport transfers",
+      "Gratuities",
+      "Food and drinks at restaurants and/or cafes",
+      "Optional activities not included in the tour",
+    ],
+    requirements: [
+      "Face masks required",
+    ],
+    cancellationPolicy: "Flexible cancellation policy: full refund with 24-hour notice",
+    rating: 4,
+  },
+  {
+    id: "tour-hokkaido-3",
+    guideId: "guide-hokkaido-1",
+    title: "Ravine of the Wandering Spirits",
+    description: "Explore the vibrant streets of hokkaido with a knowledgeable local guide. This tour offers an authentic taste of the city's unique atmosphere and cultural heritage.",
+    city: "hokkaido",
+    country: "Japan",
+    region: "Japan",
+    languagesOffered: [
+      "Japanese",
+    ],
+    price: "¥8100",
+    tags: [
+      "Poetic And Whimsical",
+      "Nature And Scenic",
+      "Art And Culture",
+    ],
+    type: "Bike Tour",
+    schedule: [
+      {
+        attractionId: "attraction-hokkaido-106-2",
+        dayOfWeek: "Tuesday",
+        startTime: "4:00 PM",
+        endTime: "5:00 PM",
+      },
+    ],
+    pricePerPerson: 8100,
+    currency: "JPY",
+    maxGroupSize: 38,
+    minGroupSize: 14,
+    privateAvailable: true,
+    isPopular: false,
+    isPetFriendly: false,
+    reviewsCount: 17,
+    included: [
+      "Gratuities",
+      "Souvenir photos",
+    ],
+    notIncluded: [
+      "Luggage storage",
+      "Food and drinks at restaurants and/or cafes",
+    ],
+    requirements: [
+      "No pets allowed",
+      "Passport required",
+      "Cash only",
+    ],
+    cancellationPolicy: "Free cancellation up to 48 hours before the experience starts",
+    rating: 3.7,
+  },
+];

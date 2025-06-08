@@ -1,0 +1,188 @@
+// Auto-generated file for puerto-escondido tours
+// Country: Mexico, Region: Mexico
+
+// This file is auto-generated. Do not edit manually.
+import { Tour } from "@/lib/interfaces/services/tours";
+
+export const puertoEscondidomexicomexicoTours: Tour[] = [
+  {
+    id: "tour-puerto-escondido-1",
+    guideId: "guide-puerto-escondido-6",
+    title: "A Reckless Waltz with Gravity",
+    description: "Journey through the history of puerto-escondido on this engaging tour. Learn fascinating stories and discover architectural masterpieces that shaped this incredible destination.",
+    city: "puerto-escondido",
+    country: "Mexico",
+    region: "Mexico",
+    languagesOffered: [
+      "Spanish",
+    ],
+    price: "$3078",
+    tags: [
+      "Poetic And Whimsical",
+      "Nightlife And Entertainment",
+      "Nature And Scenic",
+    ],
+    type: "Food Tour",
+    schedule: [
+      {
+        attractionId: "attraction-puerto-escondido-144-3",
+        dayOfWeek: "Thursday",
+        startTime: "4:00 PM",
+        endTime: "5:00 PM",
+      },
+      {
+        attractionId: "attraction-puerto-escondido-144-1",
+        dayOfWeek: "Wednesday",
+        startTime: "8:00 AM",
+        endTime: "9:00 AM",
+      },
+      {
+        attractionId: "attraction-puerto-escondido-144-4",
+        dayOfWeek: "Friday",
+        startTime: "3:00 PM",
+        endTime: "6:00 PM",
+      },
+      {
+        attractionId: "attraction-puerto-escondido-144-2",
+        dayOfWeek: "Saturday",
+        startTime: "2:00 PM",
+        endTime: "5:00 PM",
+      },
+    ],
+    pricePerPerson: 3078,
+    currency: "MXN",
+    maxGroupSize: 40,
+    minGroupSize: 9,
+    privateAvailable: false,
+    isPopular: true,
+    isPetFriendly: false,
+    reviewsCount: 62,
+    included: [
+      "Transportation during tour (if applicable)",
+      "Rain ponchos (if needed)",
+    ],
+    notIncluded: [
+      "Food and drinks at restaurants and/or cafes",
+      "Optional activities not included in the tour",
+      "Hotel accommodations",
+    ],
+    requirements: [
+      "Cash only",
+      "Arrive 15 minutes early",
+      "Passport required",
+    ],
+    cancellationPolicy: "Flexible cancellation policy: full refund with 24-hour notice",
+    rating: 3.8,
+  },
+  {
+    id: "tour-puerto-escondido-2",
+    guideId: "guide-puerto-escondido-7",
+    title: "Scenic Nature Walk",
+    description: "Explore the vibrant streets of puerto-escondido with a knowledgeable local guide. This tour offers an authentic taste of the city's unique atmosphere and cultural heritage.",
+    city: "puerto-escondido",
+    country: "Mexico",
+    region: "Mexico",
+    languagesOffered: [
+      "Spanish",
+    ],
+    price: "$1658.7",
+    tags: [
+      "Nature And Scenic",
+      "Family Friendly",
+      "Poetic And Whimsical",
+    ],
+    type: "Romantic Tour",
+    schedule: [
+      {
+        attractionId: "attraction-puerto-escondido-144-1",
+        dayOfWeek: "Friday",
+        startTime: "4:00 PM",
+        endTime: "5:00 PM",
+      },
+      {
+        attractionId: "attraction-puerto-escondido-144-2",
+        dayOfWeek: "Thursday",
+        startTime: "3:00 PM",
+        endTime: "4:00 PM",
+      },
+    ],
+    pricePerPerson: 1658.7,
+    currency: "MXN",
+    maxGroupSize: 28,
+    minGroupSize: 8,
+    privateAvailable: true,
+    isPopular: false,
+    isPetFriendly: false,
+    reviewsCount: 51,
+    included: [
+      "Coffee and/or Tea",
+      "Souvenir photos",
+      "Headsets to hear the guide",
+      "Snacks",
+      "Hotel pickup and drop-off",
+      "Bottled water",
+    ],
+    notIncluded: [
+      "Transportation to/from the tour start point",
+      "Gratuities",
+    ],
+    requirements: [
+      "Basic fitness level required",
+    ],
+    cancellationPolicy: "No refunds for no-shows",
+    rating: 4.8,
+  },
+  {
+    id: "tour-puerto-escondido-3",
+    guideId: "guide-puerto-escondido-5",
+    title: "Natural Wonders Walk",
+    description: "Journey through the history of puerto-escondido on this engaging tour. Learn fascinating stories and discover architectural masterpieces that shaped this incredible destination.",
+    city: "puerto-escondido",
+    country: "Mexico",
+    region: "Mexico",
+    languagesOffered: [
+      "Spanish",
+    ],
+    price: "$2718.9",
+    tags: [
+      "Nature And Scenic",
+      "Art And Culture",
+      "City Highlights And History",
+      "Poetic And Whimsical",
+    ],
+    type: "Nature Tour",
+    schedule: [
+      {
+        attractionId: "attraction-puerto-escondido-144-1",
+        dayOfWeek: "Thursday",
+        startTime: "4:00 PM",
+        endTime: "5:00 PM",
+      },
+    ],
+    pricePerPerson: 2718.9,
+    currency: "MXN",
+    maxGroupSize: 27,
+    minGroupSize: 12,
+    privateAvailable: false,
+    isPopular: false,
+    isPetFriendly: false,
+    reviewsCount: 101,
+    included: [
+      "Entrance fees (if applicable)",
+      "Rain ponchos (if needed)",
+      "Food samples",
+      "Transportation during tour (if applicable)",
+      "Souvenir photos",
+    ],
+    notIncluded: [
+      "Transportation to/from the tour start point",
+      "Hotel accommodations",
+    ],
+    requirements: [
+      "Face masks required",
+      "Minimum age: 12",
+    ],
+    cancellationPolicy: "50% refund if canceled 24 hours before the experience",
+    rating: 4.6,
+  },
+];

@@ -1,0 +1,198 @@
+// Auto-generated file for osaka tours
+// Country: Japan, Region: Japan
+
+// This file is auto-generated. Do not edit manually.
+import { Tour } from "@/lib/interfaces/services/tours";
+
+export const osakajapanjapanTours: Tour[] = [
+  {
+    id: "tour-osaka-1",
+    guideId: "guide-osaka-4",
+    title: "Historical Walking Tour",
+    description: "Discover the best of osaka on this immersive tour. Experience local culture, history, and cuisine while exploring iconic landmarks and hidden gems.",
+    city: "osaka",
+    country: "Japan",
+    region: "Japan",
+    languagesOffered: [
+      "Japanese",
+    ],
+    price: "¥20500",
+    tags: [
+      "City Highlights And History",
+      "Nightlife And Entertainment",
+    ],
+    type: "Bike Tour",
+    schedule: [
+      {
+        attractionId: "attraction-osaka-129-2",
+        dayOfWeek: "Wednesday",
+        startTime: "4:00 PM",
+        endTime: "5:00 PM",
+      },
+      {
+        attractionId: "attraction-osaka-129-3",
+        dayOfWeek: "Friday",
+        startTime: "12:00 PM",
+        endTime: "3:00 PM",
+      },
+      {
+        attractionId: "attraction-osaka-129-4",
+        dayOfWeek: "Tuesday",
+        startTime: "11:00 AM",
+        endTime: "2:00 PM",
+      },
+    ],
+    pricePerPerson: 20500,
+    currency: "JPY",
+    maxGroupSize: 22,
+    minGroupSize: 6,
+    privateAvailable: true,
+    isPopular: false,
+    isPetFriendly: false,
+    reviewsCount: 28,
+    included: [
+      "Souvenir photos",
+      "Local taxes",
+      "Rain ponchos (if needed)",
+      "Bottled water",
+      "Gratuities",
+    ],
+    notIncluded: [
+      "Transportation to/from the tour start point",
+      "Hotel accommodations",
+    ],
+    requirements: [
+      "Cash only",
+    ],
+    cancellationPolicy: "Group bookings: Free cancellation up to 7 days in advance",
+    rating: 4,
+  },
+  {
+    id: "tour-osaka-2",
+    guideId: "guide-osaka-5",
+    title: "The Great Family Escape",
+    description: "Explore the vibrant streets of osaka with a knowledgeable local guide. This tour offers an authentic taste of the city's unique atmosphere and cultural heritage.",
+    city: "osaka",
+    country: "Japan",
+    region: "Japan",
+    languagesOffered: [
+      "Japanese",
+    ],
+    price: "¥21200",
+    tags: [
+      "Adventure And Thrill",
+      "Poetic And Whimsical",
+      "City Highlights And History",
+      "Family Friendly",
+    ],
+    type: "Family Tours",
+    schedule: [
+      {
+        attractionId: "attraction-osaka-129-1",
+        dayOfWeek: "Tuesday",
+        startTime: "4:00 PM",
+        endTime: "8:00 PM",
+      },
+      {
+        attractionId: "attraction-osaka-129-2",
+        dayOfWeek: "Monday",
+        startTime: "1:00 PM",
+        endTime: "3:00 PM",
+      },
+      {
+        attractionId: "attraction-osaka-129-4",
+        dayOfWeek: "Thursday",
+        startTime: "8:00 AM",
+        endTime: "9:00 AM",
+      },
+      {
+        attractionId: "attraction-osaka-129-3",
+        dayOfWeek: "Sunday",
+        startTime: "2:00 PM",
+        endTime: "3:00 PM",
+      },
+    ],
+    pricePerPerson: 21200,
+    currency: "JPY",
+    maxGroupSize: 34,
+    minGroupSize: 11,
+    privateAvailable: false,
+    isPopular: true,
+    isPetFriendly: false,
+    reviewsCount: 84,
+    included: [
+      "Transportation during tour (if applicable)",
+      "Snacks",
+      "Bottled water",
+      "Food samples",
+    ],
+    notIncluded: [
+      "Optional activities not included in the tour",
+      "Gratuities",
+    ],
+    requirements: [
+      "Bring own headphones",
+      "No pets allowed",
+    ],
+    cancellationPolicy: "Free cancellation up to 48 hours before the experience starts",
+    rating: 4.5,
+  },
+  {
+    id: "tour-osaka-3",
+    guideId: "guide-osaka-3",
+    title: "The Ultimate Ascent",
+    description: "Discover the best of osaka on this immersive tour. Experience local culture, history, and cuisine while exploring iconic landmarks and hidden gems.",
+    city: "osaka",
+    country: "Japan",
+    region: "Japan",
+    languagesOffered: [
+      "Japanese",
+    ],
+    price: "¥8700",
+    tags: [
+      "Adventure And Thrill",
+      "Culinary And Food",
+    ],
+    type: "Food Tour",
+    schedule: [
+      {
+        attractionId: "attraction-osaka-129-2",
+        dayOfWeek: "Sunday",
+        startTime: "4:00 PM",
+        endTime: "5:00 PM",
+      },
+      {
+        attractionId: "attraction-osaka-129-3",
+        dayOfWeek: "Saturday",
+        startTime: "9:00 AM",
+        endTime: "10:00 AM",
+      },
+    ],
+    pricePerPerson: 8700,
+    currency: "JPY",
+    maxGroupSize: 40,
+    minGroupSize: 6,
+    privateAvailable: true,
+    isPopular: false,
+    isPetFriendly: true,
+    reviewsCount: 6,
+    included: [
+      "Entrance fees (if applicable)",
+      "Local taxes",
+      "Snacks",
+      "Transportation during tour (if applicable)",
+    ],
+    notIncluded: [
+      "Luggage storage",
+      "Airport transfers",
+      "Transportation to/from the tour start point",
+    ],
+    requirements: [
+      "No flash photography",
+      "Cash only",
+      "Swimming required",
+    ],
+    cancellationPolicy: "No refunds for no-shows",
+    rating: 4.9,
+  },
+];

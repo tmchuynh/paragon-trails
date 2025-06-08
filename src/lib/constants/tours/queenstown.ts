@@ -1,0 +1,188 @@
+// Auto-generated file for queenstown tours
+// Country: New Zealand, Region: New Zealand
+
+// This file is auto-generated. Do not edit manually.
+import { Tour } from "@/lib/interfaces/services/tours";
+
+export const queenstownnewZealandnewZealandTours: Tour[] = [
+  {
+    id: "tour-queenstown-1",
+    guideId: "guide-queenstown-2",
+    title: "Tea Houses & Temple Bells",
+    description: "Uncover the secrets of queenstown on this unforgettable experience. Visit top attractions and off-the-beaten-path locations that most tourists never see.",
+    city: "queenstown",
+    country: "New Zealand",
+    region: "New Zealand",
+    languagesOffered: [
+      "English",
+      "Māori",
+    ],
+    price: "NZ$248",
+    tags: [
+      "City Highlights And History",
+      "Poetic And Whimsical",
+      "Nature And Scenic",
+    ],
+    type: "Religious Tours",
+    schedule: [
+      {
+        attractionId: "attraction-queenstown-149-1",
+        dayOfWeek: "Friday",
+        startTime: "1:00 PM",
+        endTime: "3:00 PM",
+      },
+    ],
+    pricePerPerson: 248,
+    currency: "NZD",
+    maxGroupSize: 40,
+    minGroupSize: 8,
+    privateAvailable: true,
+    isPopular: false,
+    isPetFriendly: true,
+    reviewsCount: 87,
+    included: [
+      "Food samples",
+      "Coffee and/or Tea",
+      "Rain ponchos (if needed)",
+    ],
+    notIncluded: [
+      "Travel insurance",
+      "Food and drinks at restaurants and/or cafes",
+      "Hotel accommodations",
+      "Parking fees",
+    ],
+    requirements: [
+      "Passport required",
+      "Face masks required",
+    ],
+    cancellationPolicy: "Full refund if canceled due to weather",
+    rating: 4.9,
+  },
+  {
+    id: "tour-queenstown-2",
+    guideId: "guide-queenstown-8",
+    title: "Edge of the Earth Expedition",
+    description: "Journey through the history of queenstown on this engaging tour. Learn fascinating stories and discover architectural masterpieces that shaped this incredible destination.",
+    city: "queenstown",
+    country: "New Zealand",
+    region: "New Zealand",
+    languagesOffered: [
+      "English",
+    ],
+    price: "NZ$225",
+    tags: [
+      "Adventure And Thrill",
+      "Culinary And Food",
+    ],
+    type: "Nature Tour",
+    schedule: [
+      {
+        attractionId: "attraction-queenstown-149-4",
+        dayOfWeek: "Saturday",
+        startTime: "1:00 PM",
+        endTime: "5:00 PM",
+      },
+      {
+        attractionId: "attraction-queenstown-149-1",
+        dayOfWeek: "Friday",
+        startTime: "9:00 AM",
+        endTime: "11:00 AM",
+      },
+    ],
+    pricePerPerson: 225,
+    currency: "NZD",
+    maxGroupSize: 37,
+    minGroupSize: 11,
+    privateAvailable: false,
+    isPopular: false,
+    isPetFriendly: false,
+    reviewsCount: 42,
+    included: [
+      "Entrance fees (if applicable)",
+      "Coffee and/or Tea",
+      "Gratuities",
+      "Transportation during tour (if applicable)",
+      "Rain ponchos (if needed)",
+      "Bottled water",
+    ],
+    notIncluded: [
+      "Luggage storage",
+      "Additional tickets for attractions",
+      "Hotel accommodations",
+    ],
+    requirements: [
+      "COVID-19 vaccination required",
+    ],
+    cancellationPolicy: "Changes allowed up to 24 hours before the experience starts",
+    rating: 4,
+  },
+  {
+    id: "tour-queenstown-3",
+    guideId: "guide-queenstown-3",
+    title: "Cultural Canvas Exploration",
+    description: "Immerse yourself in the local culture of queenstown with this comprehensive tour. Sample regional cuisine, meet friendly locals, and create lasting memories.",
+    city: "queenstown",
+    country: "New Zealand",
+    region: "New Zealand",
+    languagesOffered: [
+      "English",
+    ],
+    price: "NZ$174",
+    tags: [
+      "Art And Culture",
+      "Adventure And Thrill",
+    ],
+    type: "Food Tour",
+    schedule: [
+      {
+        attractionId: "attraction-queenstown-149-2",
+        dayOfWeek: "Sunday",
+        startTime: "9:00 AM",
+        endTime: "11:00 AM",
+      },
+      {
+        attractionId: "attraction-queenstown-149-4",
+        dayOfWeek: "Saturday",
+        startTime: "1:00 PM",
+        endTime: "2:00 PM",
+      },
+      {
+        attractionId: "attraction-queenstown-149-3",
+        dayOfWeek: "Tuesday",
+        startTime: "2:00 PM",
+        endTime: "5:00 PM",
+      },
+      {
+        attractionId: "attraction-queenstown-149-1",
+        dayOfWeek: "Wednesday",
+        startTime: "2:00 PM",
+        endTime: "3:00 PM",
+      },
+    ],
+    pricePerPerson: 174,
+    currency: "NZD",
+    maxGroupSize: 49,
+    minGroupSize: 7,
+    privateAvailable: false,
+    isPopular: false,
+    isPetFriendly: false,
+    reviewsCount: 79,
+    included: [
+      "Souvenir photos",
+      "Bottled water",
+      "Hotel pickup and drop-off",
+      "Entrance fees (if applicable)",
+    ],
+    notIncluded: [
+      "Optional activities not included in the tour",
+      "Airport transfers",
+      "Parking fees",
+    ],
+    requirements: [
+      "Minimum age: 12",
+      "Valid ID required",
+    ],
+    cancellationPolicy: "50% refund if canceled 48 hours before the experience",
+    rating: 3.8,
+  },
+];
