@@ -371,6 +371,10 @@ async function generateAllGuideReviews() {
         const outputFile = path.join(outputDir, `${formattedCity}.ts`);
         const outputContent = `// This file is auto-generated. Do not edit manually.
 // Tour guide reviews for ${formattedCity}
+// City: ${formatCamelCaseToTitle(formattedCity)}
+// Country: ${formattedCountry}
+// Region: ${formattedRegion}
+// Generated on: ${new Date().toISOString()}
 export const ${formattedCity}GuideReviews = ${JSON.stringify(allReviews, null, 2)};
 `;
 
