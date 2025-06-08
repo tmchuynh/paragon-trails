@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Khách Sạn Sen Trắng
+export const khchSnSenTrngRooms: RoomOption[] = [
+  {
+    id: "hotel-ho-chi-minh-city-9-room-8-Queen-CityView",
+    name: "Signature Queen Room",
+    description: "Signature-themed queen room with a view of the city's cultural landmarks, featuring thoughtful design elements and with plush bedding for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp"],
+    accessibilityFeatures: ["Visual Aids"],
+    pricePerNight: 9381398,
+    currency: "VND",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-ho-chi-minh-city-9-room-8-Single-MountainView",
+    name: "Classic Single Villa",
+    description: "A gentle single retreat where the mountains touch the sky, featuring thoughtful design elements.",
+    occupancy: {
+      adults: 1,
+      children: 0,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 6058534,
+    currency: "VND",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-ho-chi-minh-city-9-room-8-Queen-MountainView",
+    name: "Signature Queen Loft",
+    description: "Unwind in this restful queen loft where you can enjoy the mountains' majestic presence, with a luxurious soaking tub.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp"],
+    pricePerNight: 10454348,
+    currency: "VND",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-ho-chi-minh-city-9-room-8-SofaBed-None",
+    name: "Superior Sofa Bed Loft",
+    description: "This vintage sofa bed loft promises with a pleasant outlook, enriched by Superior-themed details and with carefully selected furnishings.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    pricePerNight: 5911887,
+    currency: "VND",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 3,
+  }
+];

@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Santorini Oia Sunset Hotel
+export const santoriniOiaSunsetHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-santorini-10-room-9-Queen-GardenView",
+    name: "Superior Queen Suite",
+    description: "Experience our ornate, restful queen suite with a view of the garden's vibrant colors, with a luxurious soaking tub.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping"],
+    pricePerNight: 245,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-santorini-10-room-9-Single-OceanView",
+    name: "Classic Single Penthouse",
+    description: "Our Classic-themed single penthouse offers cozy luxury, panoramic where you can relax to the sound of the waves, and with a spacious work area, inspired by featuring Aegean-inspired decor with blue and white tones.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer"],
+    pricePerNight: 187,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-santorini-10-room-9-Double-MountainView",
+    name: "Santorini Double Penthouse",
+    description: "A soothing double retreat featuring awe-inspiring mountain scenery, with classic Greek architectural elements and modern comforts.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping"],
+    pricePerNight: 237,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-santorini-10-room-9-Single-CityView",
+    name: "Santorini Single Penthouse",
+    description: "A elegant single retreat with a view of iconic landmarks, featuring Aegean-inspired decor with blue and white tones.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    accessibilityFeatures: ["Elevator", "Wheelchair Accessible", "Hearing Support"],
+    pricePerNight: 157,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 4,
+  }
+];

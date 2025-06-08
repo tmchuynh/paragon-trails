@@ -1,0 +1,77 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Tranquil Oasis
+export const theTranquilOasisRooms: RoomOption[] = [
+  {
+    id: "hotel-sitka-9-room-8-SofaBed-CityView",
+    name: "Premium Sofa Bed Studio",
+    description: "Relax in our soothing vast sofa bed studio featuring with a view of iconic landmarks, along with with a spacious work area and highlighting contemporary American style.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 217,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-sitka-9-room-8-SofaBed-GardenView",
+    name: "Standard Sofa Bed Studio",
+    description: "Our Standard-themed sofa bed studio offers bohemian luxury, panoramic featuring a peaceful garden setting, and with plush bedding for ultimate comfort, inspired by featuring sleek urban design elements.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 198,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-sitka-9-room-8-Twin-GardenView",
+    name: "Liberty Twin Room",
+    description: "Enjoy a inviting stay in our Liberty-themed twin room, offering where you can relax in a garden haven, offering a unique blend of style and comfort, and unique touches of featuring sleek urban design elements.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 216,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-sitka-9-room-8-Single-MountainView",
+    name: "Superior Single Suite",
+    description: "Step into a ornate single suite that combines Superior-themed with breathtaking where you can find inspiration in the mountains, complemented by with high-speed internet access.",
+    occupancy: {
+      adults: 1,
+      children: 0,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    accessibilityFeatures: ["Elevator", "Wheelchair Accessible"],
+    pricePerNight: 199,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 5,
+  }
+];

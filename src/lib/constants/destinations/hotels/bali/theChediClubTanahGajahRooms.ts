@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Chedi Club Tanah Gajah
+export const theChediClubTanahGajahRooms: RoomOption[] = [
+  {
+    id: "hotel-bali-3-room-2-Single-None",
+    name: "Classic Single Studio",
+    description: "Experience our stretching, tasteful single studio with a pleasant outlook, with a modern en-suite bathroom.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    accessibilityFeatures: ["Elevator"],
+    pricePerNight: 19506496088,
+    currency: "IDR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-bali-3-room-2-Queen-OceanView",
+    name: "Superior Queen Suite",
+    description: "Step into a opulent queen suite that combines Superior-themed with breathtaking featuring uninterrupted ocean vistas, complemented by featuring premium bath amenities.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe"],
+    pricePerNight: 35633894981,
+    currency: "IDR",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-bali-3-room-2-SofaBed-GardenView",
+    name: "Ubud Sofa Bed Studio",
+    description: "This chic sofa bed accommodation offers where you can take in the fresh air, blending tropical elements with luxurious comfort.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer"],
+    pricePerNight: 26363218809,
+    currency: "IDR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-bali-3-room-2-King-OceanView",
+    name: "Volcanic King Studio",
+    description: "Experience our pleasant, cozy king studio where you can enjoy stunning sunsets over the water, featuring a curated minibar selection.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock"],
+    pricePerNight: 47915962442,
+    currency: "IDR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 9,
+  }
+];

@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Yellowknife Aurora Lodge
+export const yellowknifeAuroraLodgeRooms: RoomOption[] = [
+  {
+    id: "hotel-montreal-4-room-3-Single-GardenView",
+    name: "Executive Single Villa",
+    description: "Executive-themed single villa with a view of colorful flower beds, featuring warm wood and stone accents and with a spacious seating area.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave"],
+    accessibilityFeatures: ["Accessible Bathroom"],
+    pricePerNight: 371,
+    currency: "CAD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-montreal-4-room-3-Twin-None",
+    name: "Executive Twin Room",
+    description: "Our snug Executive-themed room offers with a pleasant outlook, chic comfort, and with carefully selected furnishings.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    pricePerNight: 399,
+    currency: "CAD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-montreal-4-room-3-SofaBed-MountainView",
+    name: "Frontier Sofa Bed Apartment",
+    description: "A indulgent sofa bed apartment designed for rustic comfort, with where you can enjoy the peace of the highlands and with high-speed internet access, reflecting blending urban sophistication with wilderness charm.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    accessibilityFeatures: ["Elevator"],
+    pricePerNight: 452,
+    currency: "CAD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-montreal-4-room-3-Single-None",
+    name: "Executive Single Suite",
+    description: "This stretching single accommodation offers with a pleasant outlook, featuring warm wood and stone accents.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 341,
+    currency: "CAD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 4,
+  }
+];

@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Brandon Wheat City Hotel
+export const brandonWheatCityHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-quebec-city-8-room-7-Single-OceanView",
+    name: "Deluxe Single Loft",
+    description: "Step into a serene single loft that combines Deluxe-themed with breathtaking with a view of the endless blue, complemented by with a private balcony or terrace.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave"],
+    pricePerNight: 119,
+    currency: "CAD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-quebec-city-8-room-7-Twin-CityView",
+    name: "Superior Twin Penthouse",
+    description: "Superior-themed twin penthouse with a view of iconic landmarks, decorated with local artistic influences and with plush bedding for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    accessibilityFeatures: ["Elevator"],
+    pricePerNight: 109,
+    currency: "CAD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-quebec-city-8-room-7-Single-GardenView",
+    name: "Signature Single Penthouse",
+    description: "Signature-themed single penthouse where you can enjoy the tranquility of nature, decorated with local artistic influences and with a modern en-suite bathroom.",
+    occupancy: {
+      adults: 1,
+      children: 0,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 112,
+    currency: "CAD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-quebec-city-8-room-7-Single-None",
+    name: "Executive Single Penthouse",
+    description: "This stylish single penthouse promises with a pleasant outlook, enriched by Executive-themed details and equipped with all the modern conveniences.",
+    occupancy: {
+      adults: 1,
+      children: 0,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer"],
+    pricePerNight: 86,
+    currency: "CAD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 6,
+  }
+];

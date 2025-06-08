@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Maho Bay Resort
+export const theMahoBayResortRooms: RoomOption[] = [
+  {
+    id: "hotel-philipsburg-1-room-0-Queen-MountainView",
+    name: "Deluxe Queen Villa",
+    description: "This commodious queen villa promises with a view of the mountains' breathtaking sunsets, enriched by Deluxe-themed details and with plush bedding for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service"],
+    pricePerNight: 618,
+    currency: "ANG",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-philipsburg-1-room-0-Double-MountainView",
+    name: "Standard Double Studio",
+    description: "Standard-themed studio with plush decor, with panoramic views of the mountain landscape, and with blackout curtains for a perfect night's sleep.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock"],
+    pricePerNight: 511,
+    currency: "ANG",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-philipsburg-1-room-0-Twin-OceanView",
+    name: "Superior Twin Suite",
+    description: "Discover the charm of this Superior-themed twin suite, complete with deluxe ambiance, stunning where the ocean meets the sky, and offering a unique blend of style and comfort.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave"],
+    pricePerNight: 419,
+    currency: "ANG",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-philipsburg-1-room-0-Queen-CityView",
+    name: "Tropical Sky Queen Penthouse",
+    description: "Unwind in this intimate queen penthouse with a view of the city's cultural landmarks, with a private balcony or terrace.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe"],
+    pricePerNight: 513,
+    currency: "ANG",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 1,
+  }
+];

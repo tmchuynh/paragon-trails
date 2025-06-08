@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Sheraton Buenos Aires Hotel
+export const sheratonBuenosAiresHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-buenos-aires-9-room-8-King-CityView",
+    name: "Premium King Penthouse",
+    description: "A refreshing king penthouse designed for room-filled comfort, with where city lights twinkle at night and offering a unique blend of style and comfort, reflecting created with both style and function in mind.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping"],
+    pricePerNight: 37328,
+    currency: "ARS",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-buenos-aires-9-room-8-Queen-MountainView",
+    name: "Modern Queen Villa",
+    description: "Our Modern-themed queen villa offers vast luxury, panoramic where you can enjoy the serenity of mountain life, and with a luxurious soaking tub, inspired by designed for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    accessibilityFeatures: ["Elevator", "Hearing Support", "Wheelchair Accessible"],
+    pricePerNight: 35910,
+    currency: "ARS",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-buenos-aires-9-room-8-Double-None",
+    name: "Classic Double Apartment",
+    description: "Classic-themed apartment with calming decor, with a pleasant outlook, and with a private balcony or terrace.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    pricePerNight: 23363,
+    currency: "ARS",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-buenos-aires-9-room-8-Twin-None",
+    name: "Classic Twin Room",
+    description: "Unwind in this chic twin room with a pleasant outlook, including climate control for your comfort.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 20628,
+    currency: "ARS",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 7,
+  }
+];

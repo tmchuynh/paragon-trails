@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Red Deer City Center
+export const redDeerCityCenterRooms: RoomOption[] = [
+  {
+    id: "hotel-quebec-city-5-room-4-King-GardenView",
+    name: "Luxury King Apartment",
+    description: "Discover the charm of this Luxury-themed king apartment, complete with ornate ambiance, stunning surrounded by vibrant flora, and including climate control for your comfort.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe"],
+    pricePerNight: 414,
+    currency: "CAD",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-quebec-city-5-room-4-Queen-OceanView",
+    name: "Serenity Queen Apartment",
+    description: "Our Serenity-themed queen apartment offers spacious luxury, panoramic featuring uninterrupted ocean vistas, and with plush bedding for ultimate comfort, inspired by decorated with local artistic influences.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping"],
+    pricePerNight: 426,
+    currency: "CAD",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-quebec-city-5-room-4-Single-MountainView",
+    name: "Harmony Single Villa",
+    description: "Unwind in this stylish single villa where you can enjoy the serenity of mountain life, with blackout curtains for a perfect night's sleep.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    accessibilityFeatures: ["Elevator", "Wheelchair Accessible", "Hearing Support"],
+    pricePerNight: 251,
+    currency: "CAD",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 3,
+  },
+  {
+    id: "hotel-quebec-city-5-room-4-SofaBed-GardenView",
+    name: "Signature Sofa Bed Villa",
+    description: "Experience our bohemian, refined sofa bed villa with a view of blooming flowers and greenery, featuring premium bath amenities.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave"],
+    pricePerNight: 281,
+    currency: "CAD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 6,
+  }
+];

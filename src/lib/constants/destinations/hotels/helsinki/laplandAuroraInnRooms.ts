@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Lapland Aurora Inn
+export const laplandAuroraInnRooms: RoomOption[] = [
+  {
+    id: "hotel-helsinki-11-room-10-King-OceanView",
+    name: "Aurora King Loft",
+    description: "This peaceful king loft promises with breathtaking sea views, enriched by Aurora-themed details and with a spacious seating area.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp"],
+    pricePerNight: 201,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-helsinki-11-room-10-SofaBed-OceanView",
+    name: "Luxury Sofa Bed Studio",
+    description: "Unwind in this well-proportioned sofa bed studio where you can enjoy stunning sunsets over the water, including climate control for your comfort.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service"],
+    pricePerNight: 113,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 8,
+  },
+  {
+    id: "hotel-helsinki-11-room-10-Queen-OceanView",
+    name: "Deluxe Queen Suite",
+    description: "Experience our soothing, elegant queen suite featuring uninterrupted ocean vistas, with a modern en-suite bathroom.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping"],
+    pricePerNight: 157,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-helsinki-11-room-10-Twin-CityView",
+    name: "Standard Twin Penthouse",
+    description: "Relax in our comfy artistic twin penthouse featuring with a view of iconic landmarks, along with with high-speed internet access and featuring minimalist design with natural wood accents.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    accessibilityFeatures: ["Wheelchair Accessible", "Elevator"],
+    pricePerNight: 107,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 6,
+  }
+];

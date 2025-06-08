@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Cloudberry Cottage
+export const cloudberryCottageRooms: RoomOption[] = [
+  {
+    id: "hotel-new-york-city-7-room-6-King-MountainView",
+    name: "Premium King Villa",
+    description: "This calming king villa promises with a view of snow-capped peaks, enriched by Premium-themed details and featuring a curated minibar selection.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp"],
+    accessibilityFeatures: ["Wheelchair Accessible", "Visual Aids", "Elevator"],
+    pricePerNight: 377,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-new-york-city-7-room-6-SofaBed-CityView",
+    name: "Signature Sofa Bed Villa",
+    description: "Signature-themed sofa bed villa with a view of iconic landmarks, created with both style and function in mind and with a modern en-suite bathroom.",
+    occupancy: {
+      adults: 1,
+      maxGuests: 2,
+    },
+    bedType: "Sofa Bed",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 186,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-new-york-city-7-room-6-King-None",
+    name: "Luxury King Penthouse",
+    description: "Luxury-themed king penthouse with a pleasant outlook, created with both style and function in mind and with carefully selected furnishings.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock"],
+    accessibilityFeatures: ["Accessible Bathroom"],
+    pricePerNight: 270,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-new-york-city-7-room-6-Queen-None",
+    name: "Standard Queen Apartment",
+    description: "This exquisite queen accommodation offers with a pleasant outlook, featuring thoughtful design elements.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave"],
+    pricePerNight: 217,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 1,
+  }
+];

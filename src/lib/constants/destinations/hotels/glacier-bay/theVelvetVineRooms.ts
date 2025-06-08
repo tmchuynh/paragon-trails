@@ -1,0 +1,75 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Velvet Vine
+export const theVelvetVineRooms: RoomOption[] = [
+  {
+    id: "hotel-glacier-bay-6-room-5-Double-None",
+    name: "Premium Double Loft",
+    description: "This ample double loft promises with a pleasant outlook, enriched by Premium-themed details and equipped with all the modern conveniences.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower"],
+    pricePerNight: 114,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-glacier-bay-6-room-5-Single-OceanView",
+    name: "Luxury Single Loft",
+    description: "Luxury-themed single loft with a private balcony overlooking the sea, featuring thoughtful design elements and with blackout curtains for a perfect night's sleep.",
+    occupancy: {
+      adults: 1,
+      children: 2,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave"],
+    accessibilityFeatures: ["Elevator", "Visual Aids"],
+    pricePerNight: 116,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-glacier-bay-6-room-5-Double-CityView",
+    name: "Signature Double Suite",
+    description: "Our snug Signature-themed suite offers where you can watch the city wake up, regal comfort, and offering a unique blend of style and comfort.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 135,
+    currency: "USD",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-glacier-bay-6-room-5-Twin-None",
+    name: "Harmony Twin Apartment",
+    description: "Discover the charm of this Harmony-themed twin apartment, complete with intimate ambiance, stunning with a pleasant outlook, and with plush bedding for ultimate comfort.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker"],
+    pricePerNight: 114,
+    currency: "USD",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 10,
+  }
+];

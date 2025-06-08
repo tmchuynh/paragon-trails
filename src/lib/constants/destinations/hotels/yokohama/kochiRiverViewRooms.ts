@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Kochi River View
+export const kochiRiverViewRooms: RoomOption[] = [
+  {
+    id: "hotel-yokohama-11-room-10-Queen-OceanView",
+    name: "Standard Queen Penthouse",
+    description: "Our exquisite Standard-themed penthouse offers with a view of the ocean's changing tides, avant-garde comfort, and with high-speed internet access.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock"],
+    accessibilityFeatures: ["Accessible Bathroom", "Elevator", "Visual Aids"],
+    pricePerNight: 3988668,
+    currency: "JPY",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-yokohama-11-room-10-Queen-CityView",
+    name: "Deluxe Queen Penthouse",
+    description: "Relax in our sizable prestigious queen penthouse featuring with a backdrop of city parks and green spaces, along with including climate control for your comfort and combining modern luxury with Japanese tradition.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    accessibilityFeatures: ["Hearing Support", "Visual Aids", "Wheelchair Accessible"],
+    pricePerNight: 3479054,
+    currency: "JPY",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 5,
+  },
+  {
+    id: "hotel-yokohama-11-room-10-King-GardenView",
+    name: "Premium King Apartment",
+    description: "Enjoy a room-filled stay in our Premium-themed king apartment, offering where you can enjoy the tranquility of nature, with a spacious work area, and unique touches of combining modern luxury with Japanese tradition.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe"],
+    pricePerNight: 3743998,
+    currency: "JPY",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-yokohama-11-room-10-Double-GardenView",
+    name: "Executive Double Room",
+    description: "A chic double retreat overlooking lush garden landscapes, offering the perfect balance of Eastern serenity and Western comfort.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 3173484,
+    currency: "JPY",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 2,
+  }
+];

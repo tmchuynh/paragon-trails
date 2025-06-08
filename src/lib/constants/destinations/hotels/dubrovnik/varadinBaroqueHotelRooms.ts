@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Varaždin Baroque Hotel
+export const varadinBaroqueHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-dubrovnik-10-room-9-King-MountainView",
+    name: "Luxury King Villa",
+    description: "Luxury-themed king villa where the mountains touch the sky, with a blend of historic charm and modern amenities and complete with a well-appointed bathroom.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 3,
+    },
+    bedType: "King",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping"],
+    pricePerNight: 364,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 7,
+  },
+  {
+    id: "hotel-dubrovnik-10-room-9-Queen-GardenView",
+    name: "Deluxe Queen Loft",
+    description: "This homey queen accommodation offers with a view of shaded garden paths, offering a unique Adriatic experience with a touch of luxury.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock"],
+    pricePerNight: 296,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 6,
+  },
+  {
+    id: "hotel-dubrovnik-10-room-9-Single-None",
+    name: "Luxury Single Villa",
+    description: "Our Luxury-themed single villa offers chic luxury, panoramic with a pleasant outlook, and complete with a well-appointed bathroom, inspired by offering a unique Adriatic experience with a touch of luxury.",
+    occupancy: {
+      adults: 1,
+      children: 0,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 176,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-dubrovnik-10-room-9-Double-MountainView",
+    name: "Classic Double Apartment",
+    description: "This peaceful double accommodation offers where you can enjoy the peace of the highlands, featuring coastal-inspired decor with Mediterranean influences.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Mountain View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers"],
+    pricePerNight: 239,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 8,
+  }
+];

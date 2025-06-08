@@ -1,0 +1,77 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for Delphi Mountain Resort
+export const delphiMountainResortRooms: RoomOption[] = [
+  {
+    id: "hotel-mykonos-9-room-8-Twin-GardenView",
+    name: "Olympus Twin Studio",
+    description: "Step into a luxurious twin studio that combines Olympus-themed with breathtaking with a view of colorful flower beds, complemented by with a private balcony or terrace.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries"],
+    pricePerNight: 96,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 9,
+  },
+  {
+    id: "hotel-mykonos-9-room-8-Double-OceanView",
+    name: "Deluxe Double Villa",
+    description: "This prestigious double villa promises with a view of the endless blue, enriched by Deluxe-themed details and with a private balcony or terrace.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Double",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    pricePerNight: 103,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 2,
+  },
+  {
+    id: "hotel-mykonos-9-room-8-Queen-OceanView",
+    name: "Parthenon Queen Villa",
+    description: "Our Parthenon-themed queen villa offers snug luxury, panoramic where you can enjoy stunning sunsets over the water, and including climate control for your comfort, inspired by blending traditional style with luxurious amenities.",
+    occupancy: {
+      adults: 2,
+      children: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Ocean View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp", "Daily Housekeeping"],
+    pricePerNight: 143,
+    currency: "EUR",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 10,
+  },
+  {
+    id: "hotel-mykonos-9-room-8-Queen-GardenView",
+    name: "Executive Queen Studio",
+    description: "Experience our industrial, tranquil queen studio featuring a peaceful garden setting, equipped with all the modern conveniences.",
+    occupancy: {
+      adults: 2,
+      children: 1,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service", "Alarm Clock", "Desk Lamp"],
+    pricePerNight: 115,
+    currency: "EUR",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 10,
+  }
+];

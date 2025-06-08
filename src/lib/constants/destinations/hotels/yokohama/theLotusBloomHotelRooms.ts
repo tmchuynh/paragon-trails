@@ -1,0 +1,76 @@
+import { RoomOption } from "@/lib/interfaces/services/rentals";
+
+// Room options for The Lotus Bloom Hotel
+export const theLotusBloomHotelRooms: RoomOption[] = [
+  {
+    id: "hotel-yokohama-3-room-2-Queen-GardenView",
+    name: "Superior Queen Studio",
+    description: "Step into a sumptuous queen studio that combines Superior-themed with breathtaking where you can enjoy the garden's peaceful atmosphere, complemented by complete with a well-appointed bathroom.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe"],
+    pricePerNight: 3121636,
+    currency: "JPY",
+    refundable: true,
+    breakfastIncluded: false,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-yokohama-3-room-2-Queen-CityView",
+    name: "Classic Queen Villa",
+    description: "Step into a palatial queen villa that combines Classic-themed with breathtaking overlooking the vibrant cityscape, complemented by complete with a well-appointed bathroom.",
+    occupancy: {
+      adults: 2,
+      children: 0,
+      maxGuests: 2,
+    },
+    bedType: "Queen",
+    view: "City View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating", "Coffee Maker", "Slippers", "Bathrobe", "Room Service"],
+    pricePerNight: 3002828,
+    currency: "JPY",
+    refundable: false,
+    breakfastIncluded: true,
+    availableCount: 4,
+  },
+  {
+    id: "hotel-yokohama-3-room-2-Single-GardenView",
+    name: "Bamboo Single Apartment",
+    description: "A wide-ranging single apartment designed for futuristic comfort, with where you can enjoy the tranquility of nature and with plush bedding for ultimate comfort, reflecting with minimalist Japanese aesthetics.",
+    occupancy: {
+      adults: 1,
+      children: 1,
+      maxGuests: 1,
+    },
+    bedType: "Single",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer", "Toiletries", "Microwave", "Shower", "Heating"],
+    accessibilityFeatures: ["Wheelchair Accessible", "Visual Aids"],
+    pricePerNight: 2023060,
+    currency: "JPY",
+    refundable: false,
+    breakfastIncluded: false,
+    availableCount: 1,
+  },
+  {
+    id: "hotel-yokohama-3-room-2-Twin-GardenView",
+    name: "Signature Twin Penthouse",
+    description: "Signature-themed penthouse with grandiose decor, with serene garden views, and with a private balcony or terrace.",
+    occupancy: {
+      adults: 2,
+      maxGuests: 2,
+    },
+    bedType: "Twin",
+    view: "Garden View",
+    amenities: ["Desk", "Free Wi-Fi", "Room Service", "Hair Dryer"],
+    pricePerNight: 2153346,
+    currency: "JPY",
+    refundable: true,
+    breakfastIncluded: true,
+    availableCount: 1,
+  }
+];
