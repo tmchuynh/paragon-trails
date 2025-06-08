@@ -37,6 +37,7 @@ import {
   formatKebabToCamelCase,
   formatTitleToCamelCase,
   formatCamelCaseToTitle,
+  normalizeString,
 } from "./utils/format-utils.mjs";
 
 // Get directory name using ES module approach
@@ -274,8 +275,8 @@ async function generateAllGuideReviews() {
       const formattedCity = formatKebabToCamelCase(cityFile);
       const country = cityCountryMap[cityFile];
       const region = cityToRegionMap[cityFile];
-      const formattedCountry = formatTitleToCamelCase(country);
-      const formattedRegion = formatTitleToCamelCase(region);
+      const formattedCountry = formatTitleToCamelCase(normalizeString(country));
+      const formattedRegion = formatTitleToCamelCase(normalizeString(region));
 
       // Construct the path to the TypeScript file (not directory)
       const filePath = path.join(
