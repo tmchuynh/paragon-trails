@@ -1,29 +1,29 @@
 import { useEffect, useState } from "react";
-import { debounce } from "./debounce";
 
 /**
- * Custom hook to determine if the screen size is small (<= 640px).
+ * Custom hook to determine if the screen size is small.
  *
- * @returns {boolean} - Returns true if the screen width is less than or equal to 640px, otherwise false.
+ * @param {number} [breakpoint=640] - The breakpoint in pixels to consider as small screen.
+ * @returns {boolean} - Returns true if the screen width is less than or equal to the breakpoint, otherwise false.
  */
-const useSmallScreen = (): boolean => {
+const useSmallScreen = (breakpoint = 640): boolean => {
   const [isSmallScreen, setIsSmallScreen] = useState<boolean>(false);
 
-  const handleResize = () => {
-    setIsSmallScreen(window.innerWidth <= 640);
-  };
-
   useEffect(() => {
-    const debouncedHandleResize = debounce(handleResize, 100);
+    const handleResize = () => {
+      setIsSmallScreen(window.innerWidth <= breakpoint);
+    };
 
-    window.addEventListener("resize", debouncedHandleResize);
-
+    // Set the initial state
     handleResize();
 
+    window.addEventListener("resize", handleResize);
+
+    // Clean up the event listener when the component unmounts
     return () => {
-      window.removeEventListener("resize", debouncedHandleResize);
+      window.removeEventListener("resize", handleResize);
     };
-  }, []);
+  }, [breakpoint]);
 
   return isSmallScreen;
 };

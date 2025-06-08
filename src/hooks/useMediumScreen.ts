@@ -1,39 +1,40 @@
 import { useEffect, useState } from "react";
-import { debounce } from "./debounce";
 
 /**
  * Custom hook that determines if the current screen width is considered "medium".
  *
  * This hook sets up an event listener for the window resize event and updates
- * the state to indicate whether the screen width is less than or equal to 768 pixels.
+ * the state to indicate whether the screen width is less than or equal to the specified breakpoint.
  *
- * @returns {boolean} - A boolean value indicating if the screen width is medium (<= 768 pixels).
+ * @param {number} [breakpoint=768] - The breakpoint in pixels to consider as medium screen.
+ * @returns {boolean} - A boolean value indicating if the screen width is medium (<= breakpoint).
  *
  * @example
- * const isMediumScreen = useMediumScreen();
+ * const isMediumScreen = useMediumScreen(); // Uses default breakpoint of 768px
+ * const isCustomMediumScreen = useMediumScreen(800); // Uses custom breakpoint of 800px
  *
  * if (isMediumScreen) {
  *   // Do something for medium screens
  * }
  */
-const useMediumScreen = (): boolean => {
+const useMediumScreen = (breakpoint = 768): boolean => {
   const [isMediumScreen, setIsMediumScreen] = useState<boolean>(false);
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMediumScreen(window.innerWidth <= 768);
+      setIsMediumScreen(window.innerWidth <= breakpoint);
     };
 
-    const debouncedHandleResize = debounce(handleResize, 200);
-
-    window.addEventListener("resize", debouncedHandleResize);
-
+    // Set the initial state
     handleResize();
 
+    window.addEventListener("resize", handleResize);
+
+    // Clean up the event listener when the component unmounts
     return () => {
-      window.removeEventListener("resize", debouncedHandleResize);
+      window.removeEventListener("resize", handleResize);
     };
-  }, []);
+  }, [breakpoint]);
 
   return isMediumScreen;
 };
