@@ -24,7 +24,7 @@ export async function getCityTours(city: string): Promise<Tour[]> {
 
     // Get the region for this city from the mapping
     const region =
-      cityToRegionMap[kebabCasedCity as keyof typeof cityToRegionMap];
+      cityToRegionMap[kebabCasedCity as keyof typeof cityToRegionMap] || "";
     const country =
       cityCountryMap[kebabCasedCity as keyof typeof cityCountryMap];
     const formattedCountry = formatTitleToCamelCase(country);
@@ -56,13 +56,13 @@ export async function getCityTours(city: string): Promise<Tour[]> {
         tours.push(...cityTours);
       } else {
         console.warn(
-          `No tours found in module ${formatKebabToCamelCase(city)} - missing export with ID ${moduleId}`
+          `No tours found in module ${formatTitleToCamelCase(city)} - missing export with ID ${moduleId}`
         );
       }
     } catch (error) {
       // This is expected for cities that don't have this specific tour type
       console.warn(
-        `No  tours module found for ${formatKebabToCamelCase(city)}`
+        `No  tours module found for ${formatTitleToCamelCase(city)}`
       );
     }
     return tours;
@@ -125,7 +125,8 @@ export async function getAllTours(): Promise<Tour[]> {
   try {
     for (const cityFile of cityFiles) {
       const country = cityCountryMap[cityFile as keyof typeof cityCountryMap];
-      const region = cityToRegionMap[cityFile as keyof typeof cityToRegionMap];
+      const region =
+        cityToRegionMap[cityFile as keyof typeof cityToRegionMap] || "";
       const formattedCity = formatKebabToCamelCase(cityFile);
       const formattedCountry = formatTitleToCamelCase(country);
 
