@@ -15,6 +15,7 @@ import {
   formatTitleToCamelCase,
   removeAccents,
   formatKebebToTitleCase,
+  normalizeString,
 } from "./utils/format-utils.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
