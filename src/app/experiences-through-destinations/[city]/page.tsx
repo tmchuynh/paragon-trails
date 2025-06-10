@@ -112,7 +112,6 @@ export default function ToursByCityPage() {
 
   // Chart data for rating visualization
   const ratingChartData = {
-    labels: ["Rating", "Remaining"],
     datasets: [
       {
         data: [cityInfo.rating, 5 - cityInfo.rating],
@@ -208,13 +207,18 @@ export default function ToursByCityPage() {
             <CardContent>
               <ul className="space-y-4">
                 {attractions?.map((attraction, index) => (
-                  <li key={attraction.id} className="flex items-start gap-4">
-                    <div className="flex justify-center items-center bg-primary/10 rounded-full w-8 h-8 text-primary shrink-0">
-                      {index + 1}
-                    </div>
-                    <div>
-                      <h4>{attraction.title}</h4>
-                      <h5>{attraction.description}</h5>
+                  <li
+                    key={attraction.id}
+                    className="flex justify-between items-start gap-4"
+                  >
+                    <div className="flex gap-3">
+                      <div className="flex justify-center items-center bg-primary/10 rounded-full w-8 h-8 text-primary shrink-0">
+                        {index + 1}
+                      </div>
+                      <div>
+                        <h4>{attraction.title}</h4>
+                        <h5>{attraction.description}</h5>
+                      </div>
                     </div>
                     <Button
                       variant={"link"}
@@ -518,22 +522,22 @@ export default function ToursByCityPage() {
           </Card>
 
           {/* Call to Action */}
-          <Card className="bg-primary text-primary-foreground">
+          <Card className="bg-primary/50">
             <CardHeader>
               <CardTitle>Ready to Explore {cityInfo.city}?</CardTitle>
-              <CardDescription className="text-primary-foreground/80">
+              <CardDescription>
                 Book your adventure with Paragon Trails
               </CardDescription>
             </CardHeader>
             <CardContent>
               <div className="space-y-4">
                 <Link href={`/experiences-through-destinations/${city}/tours`}>
-                  <Button className="w-full" variant="secondary">
+                  <Button className="w-full" variant="fancy">
                     Browse Available Tours
                   </Button>
                 </Link>
                 <Link href="/contact-us">
-                  <Button className="w-full" variant="outline">
+                  <Button className="w-full" variant="tertiary">
                     Contact a Travel Expert
                   </Button>
                 </Link>
