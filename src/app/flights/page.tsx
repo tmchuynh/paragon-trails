@@ -83,6 +83,28 @@ export default function FlightsPage() {
     }
   };
 
+  const handleAddToCart = (flight: any) => {
+    const flightItem = {
+      id: `${formatToSlug(flight.flightNumber)}-${Math.random().toString(36).substr(2, 9)}`,
+      type: "flight" as const,
+      name: `${flight.airline} ${flight.flightNumber}`,
+      description: `${flight.origin.city} to ${flight.destination.city} - ${classType} class`,
+      image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=600&auto=format&fit=crop&q=60",
+      price: getFlightPrice(flight),
+      dates: {
+        startDate: departureDate || flight.departure.date,
+        endDate: departureDate || flight.departure.date,
+      },
+      guests: parseInt(passengers),
+      location: `${flight.origin.city} → ${flight.destination.city}`,
+      features: flight.amenities,
+      cancellationPolicy: "Standard airline cancellation policy applies",
+    };
+
+    cartHelpers.addItem(dispatch, flightItem);
+    toast.success(`Flight ${flight.flightNumber} added to cart!`);
+  };
+
   return (
     <div className="bg-slate-50 dark:bg-slate-950 min-h-screen">
       <div className="mx-auto px-6 lg:px-8 py-12 max-w-7xl">
@@ -329,7 +351,16 @@ export default function FlightsPage() {
                       </div>
                     </div>
 
-                    <Button className="mt-4 lg:mt-auto">Select Flight</Button>
+                    <Button 
+                      onClick={() => handleAddToCart(flight)}
+                      disabled={flight.availability[classType as keyof typeof flight.availability] === 0}
+                      className="mt-4 lg:mt-auto"
+                    >
+                      {flight.availability[classType as keyof typeof flight.availability] === 0 
+                        ? "Sold Out" 
+                        : "Add to Cart"
+                      }
+                    </Button>
                   </div>
                 </div>
               </CardContent>

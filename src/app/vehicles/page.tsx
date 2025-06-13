@@ -235,31 +235,6 @@ export default function VehiclesPage() {
     setFilteredVehicles(filtered);
   };
 
-  const handleAddToCart = (vehicle: Vehicle) => {
-    const startDate = pickupDate || new Date().toISOString().split("T")[0];
-    const endDate = returnDate || new Date(Date.now() + 24 * 60 * 60 * 1000).toISOString().split("T")[0];
-    
-    const vehicleItem = {
-      id: `${vehicle.id}-${Math.random().toString(36).substr(2, 9)}`,
-      type: "vehicle" as const,
-      name: `${vehicle.brand} ${vehicle.model}`,
-      description: vehicle.description,
-      image: vehicle.images[0],
-      price: vehicle.pricing.daily,
-      dates: {
-        startDate,
-        endDate,
-      },
-      guests: 1,
-      location: selectedLocation !== "all" ? locations.find(l => l.value === selectedLocation)?.label || "Various Locations" : "Various Locations",
-      features: vehicle.features,
-      cancellationPolicy: "Free cancellation up to 24 hours before pickup",
-    };
-
-    cartHelpers.addItem(dispatch, vehicleItem);
-    toast.success(`${vehicle.brand} ${vehicle.model} added to cart!`);
-  };
-
   return (
     <div className="bg-slate-50 dark:bg-slate-950 min-h-screen">
       <div className="mx-auto px-6 lg:px-8 py-12 max-w-7xl">
