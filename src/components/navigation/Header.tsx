@@ -7,6 +7,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import CurrencyStatus from "@/components/CurrencyStatus";
 import { currencies, useCurrency } from "@/context/CurrencyContext";
 import { navbarItems } from "@/lib/constants/info/navigation";
 import { Dialog, DialogPanel } from "@headlessui/react";
@@ -35,6 +36,7 @@ export default function Header() {
         <div className="flex justify-between items-center mx-auto max-w-7xl text-sm">
           <div className="flex items-center space-x-4">
             <span>Your Passport to Unforgettable Stories</span>
+            <CurrencyStatus />
           </div>
           <div className="flex items-center space-x-4">
             <Button
