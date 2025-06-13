@@ -5,11 +5,13 @@ export default function Layout({
   activities,
   attractions,
   tours,
+  budgets,
 }: {
   children: React.ReactNode;
   activities: React.ReactNode;
   attractions: React.ReactNode;
   tours: React.ReactNode;
+  budgets: React.ReactNode;
 }) {
   return (
     <>
@@ -17,6 +19,7 @@ export default function Layout({
       {activities}
       {attractions}
       {tours}
+      {budgets}
     </>
   );
 }
