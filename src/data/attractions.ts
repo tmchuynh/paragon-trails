@@ -247,12 +247,12 @@ export const mockAttractions: Attraction[] = [
       "Panoramic mountain views",
       "Optional Huayna Picchu hike",
     ],
-    accessibility: [
-      "Limited wheelchair access",
-      "Steep terrain and stairs",
-      "High altitude considerations",
-      "Physical fitness required",
-    ],
+    accessibility: {
+      wheelchairAccessible: false,
+      hearingImpaired: true,
+      visuallyImpaired: false,
+      languageSupport: ["Spanish", "English", "Quechua"],
+    },
     amenities: [
       "Visitor center",
       "Restrooms",
@@ -342,12 +342,12 @@ export const mockAttractions: Attraction[] = [
       "Historical exhibitions",
       "Audio guide included",
     ],
-    accessibility: [
-      "Wheelchair accessible entrance",
-      "Elevator to upper levels",
-      "Accessible restrooms",
-      "Reduced mobility tours available",
-    ],
+    accessibility: {
+      wheelchairAccessible: true,
+      hearingImpaired: true,
+      visuallyImpaired: true,
+      languageSupport: ["Italian", "English", "Spanish", "French", "German", "Chinese", "Japanese"],
+    },
     amenities: [
       "Gift shop",
       "Information center",
@@ -437,12 +437,12 @@ export const mockAttractions: Attraction[] = [
       "Hiking trails",
       "Panoramic mountain views",
     ],
-    accessibility: [
-      "Cable car for mobility assistance",
-      "Steep sections require fitness",
-      "Limited wheelchair access",
-      "Uneven surfaces",
-    ],
+    accessibility: {
+      wheelchairAccessible: false,
+      hearingImpaired: true,
+      visuallyImpaired: false,
+      languageSupport: ["Chinese", "English", "Japanese", "Korean"],
+    },
     amenities: [
       "Visitor center",
       "Restaurants",
