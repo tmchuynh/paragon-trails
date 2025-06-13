@@ -29,7 +29,7 @@ export default function HotelDetailPage() {
   const router = useRouter();
   const params = useParams();
   const searchParams = useSearchParams();
-  const { dispatch } = useCart();
+  const { state: cartState, dispatch } = useCart();
   const { formatPrice } = useCurrency();
 
   // Find the hotel based on the slug
@@ -72,9 +72,7 @@ export default function HotelDetailPage() {
     setIsAddingToCart(true);
 
     const hotelBooking = {
-      id: `${formatToSlug(hotel.name)}-${formatToSlug(selectedRoom.name)}-${Math.random()
-        .toString(36)
-        .substr(2, 9)}`,
+      id: `hotel-${formatToSlug(hotel.name)}-${formatToSlug(selectedRoom.name)}-${checkInDate}-${checkOutDate}`,
       type: "hotel" as const,
       name: `${hotel.name} - ${selectedRoom.name}`,
       description: `${hotel.starRating}-star ${hotel.type} in ${hotel.location.city} • ${selectedRoom.name}`,
@@ -89,6 +87,15 @@ export default function HotelDetailPage() {
       features: selectedRoom.amenities.slice(0, 3),
       cancellationPolicy: hotel.policies.cancellation,
     };
+
+    // Check if this exact hotel booking already exists
+    if (cartHelpers.checkIfDuplicate(cartState.items, hotelBooking)) {
+      toast.error(
+        `${hotel.name} - ${selectedRoom.name} for these dates is already in your cart`
+      );
+      setIsAddingToCart(false);
+      return;
+    }
 
     cartHelpers.addItem(dispatch, hotelBooking);
     toast.success(`${hotel.name} booking added to cart!`);
