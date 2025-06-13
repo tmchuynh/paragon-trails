@@ -23,7 +23,7 @@ import { toast } from "sonner";
 export default function FlightsPage() {
   const router = useRouter();
   const { formatPrice } = useCurrency();
-  const { dispatch } = useCart();
+  const { state: cartState, dispatch } = useCart();
   const [searchQuery, setSearchQuery] = useState("");
   const [fromLocation, setFromLocation] = useState<string>("");
   const [toLocation, setToLocation] = useState<string>("");
