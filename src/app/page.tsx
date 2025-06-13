@@ -1,5 +1,6 @@
 "use client";
 
+import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -758,6 +759,105 @@ export default function HomePage() {
                 desirable destinations.
               </p>
               <p className="text-gray-500 text-sm">From 2019</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Property Showcase */}
+      <section className="bg-gray-50 py-16">
+        <div className="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+          <div className="gap-8 grid grid-cols-1 lg:grid-cols-3">
+            {/* Main Property */}
+            <div className="lg:col-span-2">
+              <Card className="shadow-lg p-0 border-0 overflow-hidden">
+                <div className="relative h-80">
+                  <Image
+                    src="https://images.unsplash.com/photo-1707343848552-893e05dba6ac?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxzZWFyY2h8OHx8dHJhdmVsfGVufDB8fDB8fHww"
+                    alt="Booking confirmation"
+                    className="rounded-lg w-full h-full object-cover"
+                    width={600}
+                    height={400}
+                  />
+                  <div className="top-4 left-4 absolute">
+                    <Badge className="flex items-center gap-2">
+                      CABINS & COTTAGES
+                    </Badge>
+                  </div>
+                </div>
+                <CardContent className="p-6">
+                  <h3 className="mb-2 font-bold text-xl">Mirror House Sud</h3>
+                  <p className="mb-2 text-gray-600 text-sm">
+                    Bolzano, Trentino-Alto Adige/South Tyrol, Italy
+                  </p>
+                  <p className="mb-4 font-bold text-2xl">
+                    $1,600{" "}
+                    <span className="font-normal text-base text-gray-600">
+                      / night
+                    </span>
+                  </p>
+
+                  <div className="flex items-center gap-6 mb-4 text-sm">
+                    <div className="flex items-center gap-2">
+                      <Users className="w-4 h-4" />
+                      <span>4 Guests</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <span>🏠</span>
+                      <span>2 Bedrooms</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <span>🚿</span>
+                      <span>1 Bathroom</span>
+                    </div>
+                  </div>
+
+                  <Button className="bg-black hover:bg-gray-800 w-full text-white">
+                    Check Availability
+                  </Button>
+                </CardContent>
+              </Card>
+            </div>
+
+            {/* Property Images */}
+            <div className="space-y-4">
+              <Carousel
+                opts={{
+                  align: "start",
+                  loop: true,
+                }}
+                orientation="vertical"
+                className="w-full h-96"
+              >
+                <CarouselContent className="-mt-1 h-full">
+                  {[
+                    {
+                      src: "https://images.unsplash.com/photo-1707343848552-893e05dba6ac?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxzZWFyY2h8OHx8dHJhdmVsfGVufDB8fDB8fHww",
+                      alt: "Property Image 1",
+                    },
+                    {
+                      src: "https://images.unsplash.com/photo-1707343848552-893e05dba6ac?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxzZWFyY2h8OHx8dHJhdmVsfGVufDB8fDB8fHww",
+                      alt: "Property Image 2",
+                    },
+                    {
+                      src: "https://images.unsplash.com/photo-1707343848552-893e05dba6ac?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxzZWFyY2h8OHx8dHJhdmVsfGVufDB8fDB8fHww",
+                      alt: "Property Image 3",
+                    },
+                  ].map((image, index) => (
+                    <CarouselItem key={index} className="pt-1 basis-1/3">
+                      <Image
+                        src={image.src}
+                        alt={image.alt}
+                        className="rounded-lg w-full h-full object-cover"
+                        width={300}
+                        height={160} // Adjusted height for vertical display
+                      />
+                    </CarouselItem>
+                  ))}
+                </CarouselContent>
+                <CarouselPrevious />
+                <CarouselNext />
+              </Carousel>
             </div>
           </div>
         </div>
