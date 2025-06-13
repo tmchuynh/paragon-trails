@@ -163,10 +163,15 @@ export default function TripBudgetCalculator({
         price = item.pricing?.[flightClass] || 0;
         displayName = `${displayName} (${flightClass.charAt(0).toUpperCase() + flightClass.slice(1)})`;
       } else if (type === "hotel") {
-        // Use base price per night, allow room type selection
-        const roomType = subtype || "standard";
-        price = item.pricing?.basePrice || item.rooms?.types?.[0]?.price || 0;
-        displayName = `${displayName} (${roomType} room/night)`;
+        // Use room type price if available, otherwise fallback to base price
+        if (subtype && item.rooms?.types) {
+          const roomTypeData = item.rooms.types.find((rt: any) => rt.type === subtype);
+          price = roomTypeData?.price || item.pricing?.basePrice || item.pricing?.priceRange?.min || 0;
+          displayName = `${displayName} (${subtype} room/night)`;
+        } else {
+          price = item.pricing?.basePrice || item.pricing?.priceRange?.min || 0;
+          displayName = `${displayName} (per night)`;
+        }
       } else if (type === "vehicle") {
         // Default to daily rate, allow period selection
         const period = subtype || "daily";
@@ -347,9 +352,9 @@ export default function TripBudgetCalculator({
                         {flight.origin.city} → {flight.destination.city}
                       </div>
                       <div className="space-y-2">
-                        {flight.pricing
-                          .filter((key) => key !== "currency")
-                          .map(([flightClass]) => (
+                        {Object.entries(flight.pricing)
+                          .filter(([key]) => key !== "currency")
+                          .map(([flightClass, price]) => (
                             <div
                               key={flightClass}
                               className="flex items-center space-x-2"
@@ -378,6 +383,10 @@ export default function TripBudgetCalculator({
                             </div>
                           ))}
                       </div>
+                              </div>
+                            </div>
+                          ))}
+                      </div>
                     </div>
                   ))}
                 </CardContent>
@@ -395,24 +404,59 @@ export default function TripBudgetCalculator({
                       <div className="mb-2 text-gray-600 text-sm">
                         {hotel.starRating}★ {hotel.type}
                       </div>
-                      <div className="flex items-center space-x-2">
-                        <Checkbox
-                          checked={selectedItems.some(
-                            (item) => item.id === hotel.id
-                          )}
-                          onCheckedChange={() =>
-                            handleItemSelection(hotel, "hotel")
-                          }
-                        />
-                        <div className="flex flex-1 justify-between">
-                          <span className="text-sm">Per night</span>
-                          <span className="font-semibold text-sm">
-                            $
-                            {hotel.pricing?.basePrice ||
-                              hotel.rooms?.types?.[0]?.price ||
-                              0}
-                          </span>
-                        </div>
+                      <div className="space-y-2">
+                        {hotel.rooms?.types ? (
+                          // Show room types if available
+                          hotel.rooms.types.slice(0, 3).map((roomType: any, index: number) => (
+                            <div
+                              key={`${hotel.id}-room-${index}`}
+                              className="flex items-center space-x-2"
+                            >
+                              <Checkbox
+                                checked={selectedItems.some(
+                                  (item) =>
+                                    item.id === `${hotel.id}-${roomType.type}`
+                                )}
+                                onCheckedChange={() =>
+                                  handleItemSelection(
+                                    hotel,
+                                    "hotel",
+                                    roomType.type
+                                  )
+                                }
+                              />
+                              <div className="flex flex-1 justify-between">
+                                <span className="text-sm capitalize">
+                                  {roomType.type} room
+                                </span>
+                                <span className="font-semibold text-sm">
+                                  ${roomType.price}/night
+                                </span>
+                              </div>
+                            </div>
+                          ))
+                        ) : (
+                          // Fallback to base price
+                          <div className="flex items-center space-x-2">
+                            <Checkbox
+                              checked={selectedItems.some(
+                                (item) => item.id === hotel.id
+                              )}
+                              onCheckedChange={() =>
+                                handleItemSelection(hotel, "hotel")
+                              }
+                            />
+                            <div className="flex flex-1 justify-between">
+                              <span className="text-sm">Per night</span>
+                              <span className="font-semibold text-sm">
+                                $
+                                {hotel.pricing?.basePrice ||
+                                  hotel.pricing?.priceRange?.min ||
+                                  0}
+                              </span>
+                            </div>
+                          </div>
+                        )}
                       </div>
                     </div>
                   ))}
@@ -810,6 +854,14 @@ export default function TripBudgetCalculator({
                       <h3 className="mb-3 font-semibold text-lg">
                         Your Savings Plan:
                       </h3>
+                      <div className="mb-4 text-center">
+                        <div className="font-bold text-xl text-orange-600">
+                          ${getSavingsTarget().toFixed(2)}
+                        </div>
+                        <div className="text-gray-600 text-sm">
+                          {budgetPlan.customTarget ? "Custom Target" : "Calculated Target"}
+                        </div>
+                      </div>
                       <div className="gap-4 grid grid-cols-1 md:grid-cols-3">
                         <div className="text-center">
                           <div className="font-bold text-2xl text-blue-600">
