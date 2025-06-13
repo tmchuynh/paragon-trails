@@ -7,7 +7,7 @@ import { displayRatingStars } from "@/lib/utils/displayRatingStars";
 import { formatToSlug } from "@/lib/utils/format";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import { useContext, useState } from "react";
+import { useState } from "react";
 import { IoMdInformationCircle } from "react-icons/io";
 import { toast } from "sonner";
 
@@ -19,7 +19,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import CartContext from "@/context/cartContext";
+import { cartHelpers, useCart } from "@/context/CartContext";
 import { TourGuide } from "@/lib/interfaces/people/staff";
 
 export default function TourCard({
@@ -34,12 +34,10 @@ export default function TourCard({
   country: string;
 }) {
   const router = useRouter();
-  const cartContext = useContext(CartContext);
+  const { state, dispatch } = useCart();
   const [isAddingToCart, setIsAddingToCart] = useState(false);
 
   const handleAddToCart = () => {
-    if (!cartContext) return;
-
     setIsAddingToCart(true);
 
     // Create unique ID using title and random number to ensure uniqueness
@@ -47,18 +45,26 @@ export default function TourCard({
       id: `${formatToSlug(tour.title)}-${Math.random()
         .toString(36)
         .substr(2, 9)}`,
-      title: tour.title,
-      price: parseFloat(tour.price.replace(/[^0-9.]/g, "")),
+      type: "tour" as const,
+      name: tour.title,
+      description: tour.description,
       image: tour.images[0],
-      duration: tour.duration,
-      category: tour.tourCategoryId,
-      city,
-      country,
-      tourGuide:
-        tourGuides && tourGuides.length > 0 ? tourGuides[0].name : null,
+      price: parseFloat(tour.price.replace(/[^0-9.]/g, "")),
+      dates: {
+        startDate: new Date().toISOString().split("T")[0], // Default to today
+        endDate: new Date(
+          Date.now() + 24 * 60 * 60 * 1000 * parseInt(tour.duration)
+        )
+          .toISOString()
+          .split("T")[0], // Add duration days
+      },
+      guests: 1,
+      location: `${city}, ${country}`,
+      features: tour.inclusions || [],
+      cancellationPolicy: "Flexible cancellation available",
     };
 
-    cartContext.addToCart(tourItem);
+    cartHelpers.addItem(dispatch, tourItem);
     toast.success(`${tour.title} added to cart!`);
     setIsAddingToCart(false);
   };
