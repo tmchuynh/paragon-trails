@@ -30,14 +30,18 @@ import { useEffect, useState } from "react";
 import { mockActivities } from "@/data/activities";
 import { mockAttractions } from "@/data/attractions";
 import { mockDestinations } from "@/data/destinations";
+import { mockFlights } from "@/data/flights";
+import { mockHotels } from "@/data/hotels";
 import { mockTours } from "@/data/tours";
+import { mockVehicles } from "@/data/vehicles";
 
 interface SelectedItem {
   id: string;
   name: string;
   price: number;
-  type: "activity" | "attraction" | "tour";
+  type: "activity" | "attraction" | "tour" | "flight" | "hotel" | "vehicle";
   category?: string;
+  subtype?: string; // For flight class, hotel room type, vehicle rental period
 }
 
 interface BudgetPlan {
@@ -46,9 +50,10 @@ interface BudgetPlan {
   savingsPercentage: number;
   monthsToGoal: number;
   monthlySavings: number;
+  customTarget?: number;
 }
 
-function TripBudgetCalculator() {
+const TripBudgetCalculator: React.FC = () => {
   const [currentBudget, setCurrentBudget] = useState<string>("");
   const [selectedDestination, setSelectedDestination] = useState<string>("");
   const [selectedItems, setSelectedItems] = useState<SelectedItem[]>([]);
@@ -61,9 +66,11 @@ function TripBudgetCalculator() {
     savingsPercentage: 5,
     monthsToGoal: 0,
     monthlySavings: 0,
+    customTarget: undefined,
   });
   const [customPercentage, setCustomPercentage] = useState<string>("");
   const [activeTab, setActiveTab] = useState<string>("budget");
+  const [customSavingsTarget, setCustomSavingsTarget] = useState<string>("");
 
   // Calculate totals whenever selected items change
   useEffect(() => {
@@ -79,9 +86,14 @@ function TripBudgetCalculator() {
     if (budgetPlan.monthlyIncome && budgetPlan.monthlyExpenses) {
       const leftover = budgetPlan.monthlyIncome - budgetPlan.monthlyExpenses;
       const monthlySavings = (leftover * budgetPlan.savingsPercentage) / 100;
-      const amountNeeded = Math.abs(budgetDifference);
+
+      // Use custom target if set, otherwise use budget difference
+      const targetAmount =
+        budgetPlan.customTarget || Math.abs(budgetDifference);
       const months =
-        amountNeeded > 0 ? Math.ceil(amountNeeded / monthlySavings) : 0;
+        targetAmount > 0 && monthlySavings > 0
+          ? Math.ceil(targetAmount / monthlySavings)
+          : 0;
 
       setBudgetPlan((prev) => ({
         ...prev,
@@ -93,23 +105,27 @@ function TripBudgetCalculator() {
     budgetPlan.monthlyIncome,
     budgetPlan.monthlyExpenses,
     budgetPlan.savingsPercentage,
+    budgetPlan.customTarget,
     budgetDifference,
   ]);
 
   const handleItemSelection = (
     item: any,
-    type: "activity" | "attraction" | "tour"
+    type: "activity" | "attraction" | "tour" | "flight" | "hotel" | "vehicle",
+    subtype?: string
   ) => {
+    const itemKey = subtype ? `${item.id}-${subtype}` : item.id;
     const isSelected = selectedItems.some(
-      (selected) => selected.id === item.id
+      (selected) => selected.id === itemKey
     );
 
     if (isSelected) {
       setSelectedItems((prev) =>
-        prev.filter((selected) => selected.id !== item.id)
+        prev.filter((selected) => selected.id !== itemKey)
       );
     } else {
       let price = 0;
+      let displayName = item.name || item.title;
 
       // Extract price based on item type
       if (type === "activity" || type === "attraction") {
@@ -118,14 +134,30 @@ function TripBudgetCalculator() {
         // Parse price string (e.g., "$459" -> 459)
         const priceStr = item.price?.replace(/[^0-9.]/g, "") || "0";
         price = parseFloat(priceStr);
+      } else if (type === "flight") {
+        // Default to economy class, but allow selection of different classes
+        const flightClass = subtype || "economy";
+        price = item.pricing?.[flightClass] || 0;
+        displayName = `${displayName} (${flightClass.charAt(0).toUpperCase() + flightClass.slice(1)})`;
+      } else if (type === "hotel") {
+        // Use base price per night, allow room type selection
+        const roomType = subtype || "standard";
+        price = item.pricing?.basePrice || item.rooms?.types?.[0]?.price || 0;
+        displayName = `${displayName} (${roomType} room/night)`;
+      } else if (type === "vehicle") {
+        // Default to daily rate, allow period selection
+        const period = subtype || "daily";
+        price = item.pricing?.[period] || 0;
+        displayName = `${displayName} (${period} rental)`;
       }
 
       const selectedItem: SelectedItem = {
-        id: item.id,
-        name: item.name || item.title,
+        id: itemKey,
+        name: displayName,
         price,
         type,
-        category: item.category || item.tourCategoryId,
+        category: item.category || item.tourCategoryId || item.type,
+        subtype,
       };
 
       setSelectedItems((prev) => [...prev, selectedItem]);
@@ -161,19 +193,39 @@ function TripBudgetCalculator() {
   const getFilteredItems = (items: any[], type: string) => {
     if (!selectedDestination) return items;
 
+    const destination = mockDestinations.find(
+      (dest) => dest.id === selectedDestination
+    );
+    if (!destination) return items;
+
     return items.filter((item) => {
-      const location = item.location || item.destinations?.[0];
-      if (!location) return false;
+      if (type === "flight") {
+        // Show flights that go to or from the selected destination
+        return (
+          item.destination?.city === destination.name ||
+          item.destination?.country === destination.country ||
+          item.origin?.city === destination.name ||
+          item.origin?.country === destination.country
+        );
+      } else if (type === "hotel" || type === "vehicle") {
+        // Show hotels and vehicles in the selected destination
+        const location = item.location;
+        if (!location) return false;
+        return (
+          location.city === destination.name ||
+          location.country === destination.country ||
+          item.availability?.locations?.includes(destination.name)
+        );
+      } else {
+        // Original logic for activities, attractions, tours
+        const location = item.location || item.destinations?.[0];
+        if (!location) return false;
 
-      const city = location.city || location.name;
-      const country = location.country;
+        const city = location.city || location.name;
+        const country = location.country;
 
-      const destination = mockDestinations.find(
-        (dest) => dest.id === selectedDestination
-      );
-      if (!destination) return false;
-
-      return city === destination.name || country === destination.country;
+        return city === destination.name || country === destination.country;
+      }
     });
   };
 
@@ -186,6 +238,16 @@ function TripBudgetCalculator() {
       setBudgetPlan((prev) => ({ ...prev, savingsPercentage: percentage }));
       setCustomPercentage("");
     }
+  };
+
+  const handleCustomTargetChange = (target: string) => {
+    setCustomSavingsTarget(target);
+    const customAmount = parseFloat(target) || undefined;
+    setBudgetPlan((prev) => ({ ...prev, customTarget: customAmount }));
+  };
+
+  const getSavingsTarget = () => {
+    return budgetPlan.customTarget || Math.abs(budgetDifference);
   };
 
   return (
@@ -244,9 +306,145 @@ function TripBudgetCalculator() {
             </CardContent>
           </Card>
 
-          {/* Activities, Attractions, and Tours Selection */}
+          {/* Activities, Attractions, Tours, Flights, Hotels, and Vehicles Selection */}
           {selectedDestination && (
-            <div className="gap-6 grid grid-cols-1 lg:grid-cols-3">
+            <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+              {/* Flights */}
+              <Card>
+                <CardHeader>
+                  <CardTitle>Flights</CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-3 max-h-96 overflow-y-auto">
+                  {getFilteredItems(mockFlights, "flight").map((flight) => (
+                    <div key={flight.id} className="p-3 border rounded-lg">
+                      <div className="mb-2 font-medium">
+                        {flight.airline} {flight.flightNumber}
+                      </div>
+                      <div className="mb-2 text-gray-600 text-sm">
+                        {flight.origin.city} → {flight.destination.city}
+                      </div>
+                      <div className="space-y-2">
+                        {Object.entries(flight.pricing)
+                          .filter(([key]) => key !== "currency")
+                          .map(([flightClass, price]) => (
+                            <div
+                              key={flightClass}
+                              className="flex items-center space-x-2"
+                            >
+                              <Checkbox
+                                checked={selectedItems.some(
+                                  (item) =>
+                                    item.id === `${flight.id}-${flightClass}`
+                                )}
+                                onCheckedChange={() =>
+                                  handleItemSelection(
+                                    flight,
+                                    "flight",
+                                    flightClass
+                                  )
+                                }
+                              />
+                              <div className="flex flex-1 justify-between">
+                                <span className="text-sm capitalize">
+                                  {flightClass}
+                                </span>
+                                <span className="font-semibold text-sm">
+                                  ${price}
+                                </span>
+                              </div>
+                            </div>
+                          ))}
+                      </div>
+                    </div>
+                  ))}
+                </CardContent>
+              </Card>
+
+              {/* Hotels */}
+              <Card>
+                <CardHeader>
+                  <CardTitle>Hotels</CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-3 max-h-96 overflow-y-auto">
+                  {getFilteredItems(mockHotels, "hotel").map((hotel) => (
+                    <div key={hotel.id} className="p-3 border rounded-lg">
+                      <div className="mb-1 font-medium">{hotel.name}</div>
+                      <div className="mb-2 text-gray-600 text-sm">
+                        {hotel.starRating}★ {hotel.type}
+                      </div>
+                      <div className="flex items-center space-x-2">
+                        <Checkbox
+                          checked={selectedItems.some(
+                            (item) => item.id === hotel.id
+                          )}
+                          onCheckedChange={() =>
+                            handleItemSelection(hotel, "hotel")
+                          }
+                        />
+                        <div className="flex flex-1 justify-between">
+                          <span className="text-sm">Per night</span>
+                          <span className="font-semibold text-sm">
+                            $
+                            {hotel.pricing?.basePrice ||
+                              hotel.rooms?.types?.[0]?.price ||
+                              0}
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </CardContent>
+              </Card>
+
+              {/* Vehicles */}
+              <Card>
+                <CardHeader>
+                  <CardTitle>Vehicles</CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-3 max-h-96 overflow-y-auto">
+                  {getFilteredItems(mockVehicles, "vehicle").map((vehicle) => (
+                    <div key={vehicle.id} className="p-3 border rounded-lg">
+                      <div className="mb-1 font-medium">{vehicle.name}</div>
+                      <div className="mb-2 text-gray-600 text-sm">
+                        {vehicle.brand} {vehicle.model}
+                      </div>
+                      <div className="space-y-2">
+                        {Object.entries(vehicle.pricing)
+                          .filter(([key]) => key !== "currency")
+                          .map(([period, price]) => (
+                            <div
+                              key={period}
+                              className="flex items-center space-x-2"
+                            >
+                              <Checkbox
+                                checked={selectedItems.some(
+                                  (item) =>
+                                    item.id === `${vehicle.id}-${period}`
+                                )}
+                                onCheckedChange={() =>
+                                  handleItemSelection(
+                                    vehicle,
+                                    "vehicle",
+                                    period
+                                  )
+                                }
+                              />
+                              <div className="flex flex-1 justify-between">
+                                <span className="text-sm capitalize">
+                                  {period}
+                                </span>
+                                <span className="font-semibold text-sm">
+                                  ${price}
+                                </span>
+                              </div>
+                            </div>
+                          ))}
+                      </div>
+                    </div>
+                  ))}
+                </CardContent>
+              </Card>
+
               {/* Activities */}
               <Card>
                 <CardHeader>
@@ -636,6 +834,6 @@ function TripBudgetCalculator() {
       </Tabs>
     </div>
   );
-}
+};
 
-export { TripBudgetCalculator };
+export default TripBudgetCalculator;
