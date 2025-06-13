@@ -52,19 +52,90 @@ const initialState: CartState = {
   isLoading: false,
 };
 
+// Helper function to check if items are duplicates
+function areItemsDuplicate(item1: CartItem, item2: Omit<CartItem, 'quantity'>): boolean {
+  // For each service type, define what constitutes a duplicate
+  if (item1.type !== item2.type) return false;
+  
+  switch (item1.type) {
+    case 'flight':
+      // Flights are duplicates if they have the same name, dates, and location
+      return (
+        item1.name === item2.name &&
+        item1.dates.startDate === item2.dates.startDate &&
+        item1.dates.endDate === item2.dates.endDate &&
+        item1.location === item2.location
+      );
+    
+    case 'hotel':
+      // Hotels are duplicates if they have the same name, dates, and location
+      return (
+        item1.name === item2.name &&
+        item1.dates.startDate === item2.dates.startDate &&
+        item1.dates.endDate === item2.dates.endDate &&
+        item1.location === item2.location
+      );
+    
+    case 'vehicle':
+      // Vehicles are duplicates if they have the same name, dates, and location
+      return (
+        item1.name === item2.name &&
+        item1.dates.startDate === item2.dates.startDate &&
+        item1.dates.endDate === item2.dates.endDate &&
+        item1.location === item2.location
+      );
+    
+    case 'tour':
+    case 'activity':
+    case 'attraction':
+      // Tours/activities/attractions are duplicates if they have the same name, dates, and location
+      return (
+        item1.name === item2.name &&
+        item1.dates.startDate === item2.dates.startDate &&
+        item1.dates.endDate === item2.dates.endDate &&
+        item1.location === item2.location
+      );
+    
+    default:
+      return false;
+  }
+}
+
+// Helper function to determine if item type supports quantity increase
+function supportsQuantityIncrease(type: CartItem['type']): boolean {
+  // Only vehicles support quantity increase (renting multiple cars)
+  // Flights use guests instead of quantity
+  // Hotels, tours, activities, attractions are typically one-time bookings
+  return type === 'vehicle';
+}
+
 // Reducer
 function cartReducer(state: CartState, action: CartAction): CartState {
   switch (action.type) {
     case 'ADD_ITEM': {
-      const existingItem = state.items.find(item => item.id === action.payload.id);
+      const existingItem = state.items.find(item => areItemsDuplicate(item, action.payload));
       let newItems;
       
       if (existingItem) {
-        newItems = state.items.map(item =>
-          item.id === action.payload.id
-            ? { ...item, quantity: item.quantity + 1 }
-            : item
-        );
+        if (supportsQuantityIncrease(existingItem.type)) {
+          // For vehicles, increase quantity
+          newItems = state.items.map(item =>
+            areItemsDuplicate(item, action.payload)
+              ? { ...item, quantity: item.quantity + 1 }
+              : item
+          );
+        } else if (existingItem.type === 'flight') {
+          // For flights, increase guests (passengers)
+          newItems = state.items.map(item =>
+            areItemsDuplicate(item, action.payload)
+              ? { ...item, guests: item.guests + action.payload.guests }
+              : item
+          );
+        } else {
+          // For hotels, tours, activities, attractions - don't allow duplicates
+          // Just return current state without adding
+          return state;
+        }
       } else {
         newItems = [...state.items, { ...action.payload, quantity: 1 }];
       }
@@ -173,6 +244,10 @@ export function useCart() {
 export const cartHelpers = {
   addItem: (dispatch: React.Dispatch<CartAction>, item: Omit<CartItem, 'quantity'>) => {
     dispatch({ type: 'ADD_ITEM', payload: item });
+  },
+  
+  checkIfDuplicate: (items: CartItem[], newItem: Omit<CartItem, 'quantity'>): boolean => {
+    return items.some(item => areItemsDuplicate(item, newItem));
   },
   
   removeItem: (dispatch: React.Dispatch<CartAction>, id: string) => {
