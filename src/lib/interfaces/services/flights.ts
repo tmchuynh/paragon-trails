@@ -29,13 +29,13 @@ export interface Flight {
   pricing: {
     economy: number;
     business: number;
-    first?: number;
+    first: number;
     currency: string;
   };
   availability: {
     economy: number;
     business: number;
-    first?: number;
+    first: number;
   };
   amenities: string[];
   baggage: {

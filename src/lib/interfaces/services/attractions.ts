@@ -37,7 +37,12 @@ export interface Attraction {
     minimum: string;
   };
   features: string[];
-  accessibility: string[];
+  accessibility?: {
+    wheelchairAccessible: boolean;
+    hearingImpaired: boolean;
+    visuallyImpaired: boolean;
+    languageSupport: string[];
+  };
   amenities: string[];
   restrictions: string[];
   bestTimeToVisit: string[];
