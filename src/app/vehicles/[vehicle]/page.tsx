@@ -35,7 +35,7 @@ export default function VehicleDetailPage() {
   const router = useRouter();
   const params = useParams();
   const searchParams = useSearchParams();
-  const { dispatch } = useCart();
+  const { state: cartState, dispatch } = useCart();
   const { formatPrice } = useCurrency();
 
   // Find the vehicle based on the slug
