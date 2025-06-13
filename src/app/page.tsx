@@ -820,16 +820,16 @@ export default function HomePage() {
             </div>
 
             {/* Property Images */}
-            <div className="space-y-4">
+            <div className="space-y-4 h-full">
               <Carousel
                 opts={{
                   align: "start",
                   loop: true,
                 }}
                 orientation="vertical"
-                className="w-full h-96"
+                className="w-full max-w-xs"
               >
-                <CarouselContent className="-mt-1 h-full">
+                <CarouselContent className="-mt-1 h-[40em]">
                   {[
                     {
                       src: "https://images.unsplash.com/photo-1707343848552-893e05dba6ac?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxzZWFyY2h8OHx8dHJhdmVsfGVufDB8fDB8fHww",
@@ -840,17 +840,32 @@ export default function HomePage() {
                       alt: "Property Image 2",
                     },
                     {
+                      src: "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8dHJhdmVsfGVufDB8fDB8fHww",
+                      alt: "Sophisticated Stay 1",
+                    },
+                    {
+                      src: "https://images.unsplash.com/photo-1507608616759-54f48f0af0ee?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D",
+                      alt: "Sophisticated Stay 2",
+                    },
+                    {
+                      src: "https://images.unsplash.com/photo-1707343848552-893e05dba6ac?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxzZWFyY2h8OHx8dHJhdmVsfGVufDB8fDB8fHww",
+                      alt: "Sophisticated Stay 3",
+                    },
+                    {
                       src: "https://images.unsplash.com/photo-1707343848552-893e05dba6ac?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxzZWFyY2h8OHx8dHJhdmVsfGVufDB8fDB8fHww",
                       alt: "Property Image 3",
                     },
                   ].map((image, index) => (
-                    <CarouselItem key={index} className="pt-1 basis-1/3">
+                    <CarouselItem
+                      key={index}
+                      className="pt-1 md:basis-1/2 lg:basis-1/3"
+                    >
                       <Image
                         src={image.src}
                         alt={image.alt}
-                        className="rounded-lg w-full h-full object-cover"
+                        className="rounded-lg w-full aspect-video object-cover"
                         width={300}
-                        height={160} // Adjusted height for vertical display
+                        height={400}
                       />
                     </CarouselItem>
                   ))}
