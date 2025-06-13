@@ -93,6 +93,13 @@ export default function Cart() {
               >
                 Explore Hotels
               </Button>
+              <Button
+                variant="outline"
+                onClick={() => router.push("/vehicles")}
+                className="px-8 py-3"
+              >
+                Rent Vehicles
+              </Button>
             </div>
           </div>
         </div>
