@@ -55,12 +55,14 @@ export default function Header() {
       >
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5">
-            <span className="sr-only">TripTrap</span>
+            <span className="sr-only">ParagonTrails</span>
             <div className="flex items-center gap-2">
               <div className="bg-gradient-to-r from-blue-600 to-teal-500 p-2 rounded-lg">
                 <GlobeAltIcon className="w-6 h-6 text-white" />
               </div>
-              <span className="font-bold text-gray-800 text-xl">TripTrap</span>
+              <span className="font-bold text-gray-800 text-xl">
+                ParagonTrails
+              </span>
             </div>
           </Link>
         </div>
@@ -152,7 +154,9 @@ export default function Header() {
               <div className="bg-gradient-to-r from-blue-600 to-teal-500 p-2 rounded-lg">
                 <GlobeAltIcon className="w-5 h-5 text-white" />
               </div>
-              <span className="font-bold text-gray-800 text-lg">TripTrap</span>
+              <span className="font-bold text-gray-800 text-lg">
+                ParagonTrails
+              </span>
             </div>
             <button
               type="button"

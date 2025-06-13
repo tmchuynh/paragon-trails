@@ -1,9 +1,28 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 import { Input } from "@/components/ui/input";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import {
   ArrowRight,
   Calendar,
@@ -13,6 +32,7 @@ import {
   Star,
   Users,
 } from "lucide-react";
+import Image from "next/image";
 
 export default function HomePage() {
   return (
@@ -21,7 +41,14 @@ export default function HomePage() {
       <section className="relative flex items-center min-h-screen overflow-hidden">
         {/* Background Image */}
         <div className="z-0 absolute inset-0">
-          <div className="bg-gradient-to-r from-blue-600 via-teal-500 to-green-400 opacity-90 w-full h-full"></div>
+          {/* <div className="bg-gradient-to-r from-blue-600 via-teal-500 to-green-400 opacity-90 w-full h-full"></div> */}
+          <Image
+            src="https://images.unsplash.com/photo-1707343848552-893e05dba6ac?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxzZWFyY2h8OHx8dHJhdmVsfGVufDB8fDB8fHww"
+            alt="Hero background image"
+            className="opacity-90 w-full h-full object-cover"
+            width={1920}
+            height={1080}
+          />
           <div className="absolute inset-0 bg-black/20"></div>
         </div>
 
@@ -42,8 +69,9 @@ export default function HomePage() {
                 Happiness!
               </h1>
               <p className="mx-auto mb-8 max-w-3xl text-gray-200 text-lg md:text-xl">
-                At TripTrap, we believe that every journey is an opportunity for
-                adventure, discovery, and creating unforgettable experiences.
+                At ParagonTrails, we believe that every journey is an
+                opportunity for adventure, discovery, and creating unforgettable
+                experiences.
               </p>
               <Button
                 size="lg"
@@ -144,8 +172,9 @@ export default function HomePage() {
                 Happiness!
               </h1>
               <p className="mb-8 text-gray-200 text-xl leading-relaxed">
-                At TripTrap, we believe that every journey is an opportunity for
-                adventure, discovery, and creating unforgettable experiences.
+                At ParagonTrails, we believe that every journey is an
+                opportunity for adventure, discovery, and creating unforgettable
+                experiences.
               </p>
               <Button
                 size="lg"
@@ -239,14 +268,22 @@ export default function HomePage() {
                 Curated Destinations for You
               </h2>
               <p className="mb-8 text-gray-600">
-                At TripTrap, we believe in curating exceptional experiences that
-                turn every journey into an adventure worth remembering.
+                At ParagonTrails, we believe in curating exceptional experiences
+                that turn every journey into an adventure worth remembering.
               </p>
 
               {/* Destination Cards */}
               <div className="gap-4 grid grid-cols-2 mb-8">
-                <Card className="hover:shadow-lg transition-all cursor-pointer">
-                  <div className="relative bg-gradient-to-br from-blue-400 to-blue-600 rounded-t-lg h-32">
+                <Card className="hover:shadow-lg p-0 transition-all cursor-pointer">
+                  {/* <div className="relative bg-gradient-to-br from-blue-400 to-blue-600 rounded-t-lg h-32"> */}
+                  <div className="relative rounded-t-lg h-32">
+                    <Image
+                      src="https://images.unsplash.com/photo-1707343848552-893e05dba6ac?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxzZWFyY2h8OHx8dHJhdmVsfGVufDB8fDB8fHww"
+                      alt="Ocean Paradise"
+                      className="rounded-t-lg w-full h-full object-cover"
+                      width={400}
+                      height={300}
+                    />
                     <div className="top-2 right-2 absolute bg-black px-2 py-1 rounded text-sm text-white">
                       $120.00
                     </div>
@@ -269,8 +306,16 @@ export default function HomePage() {
                   </CardContent>
                 </Card>
 
-                <Card className="hover:shadow-lg transition-all cursor-pointer">
-                  <div className="relative bg-gradient-to-br from-teal-400 to-green-500 rounded-t-lg h-32">
+                <Card className="hover:shadow-lg p-0 transition-all cursor-pointer">
+                  {/* <div className="relative bg-gradient-to-br from-teal-400 to-green-500 rounded-t-lg h-32"> */}
+                  <div className="relative rounded-t-lg h-32">
+                    <Image
+                      src="https://images.unsplash.com/photo-1707343848552-893e05dba6ac?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxzZWFyY2h8OHx8dHJhdmVsfGVufDB8fDB8fHww"
+                      alt="Mountain Retreat"
+                      className="rounded-t-lg w-full h-full object-cover"
+                      width={400}
+                      height={300}
+                    />
                     <div className="top-2 right-2 absolute bg-black px-2 py-1 rounded text-sm text-white">
                       $165.00
                     </div>
@@ -293,8 +338,16 @@ export default function HomePage() {
                   </CardContent>
                 </Card>
 
-                <Card className="hover:shadow-lg transition-all cursor-pointer">
-                  <div className="relative bg-gradient-to-br from-gray-400 to-gray-600 rounded-t-lg h-32">
+                <Card className="hover:shadow-lg p-0 transition-all cursor-pointer">
+                  {/* <div className="relative bg-gradient-to-br from-gray-400 to-gray-600 rounded-t-lg h-32"> */}
+                  <div className="relative rounded-t-lg h-32">
+                    <Image
+                      src="https://images.unsplash.com/photo-1707343848552-893e05dba6ac?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxzZWFyY2h8OHx8dHJhdmVsfGVufDB8fDB8fHww"
+                      alt="City Explorer"
+                      className="rounded-t-lg w-full h-full object-cover"
+                      width={400}
+                      height={300}
+                    />
                     <div className="top-2 right-2 absolute bg-black px-2 py-1 rounded text-sm text-white">
                       $190.00
                     </div>
@@ -317,8 +370,16 @@ export default function HomePage() {
                   </CardContent>
                 </Card>
 
-                <Card className="relative hover:shadow-lg h-full transition-all cursor-pointer">
-                  <div className="bg-gradient-to-br from-orange-400 to-red-500 rounded-t-lg h-32">
+                <Card className="hover:shadow-lg p-0 transition-all cursor-pointer">
+                  {/* <div className="bg-gradient-to-br from-orange-400 to-red-500 rounded-t-lg h-32"> */}
+                  <div className="relative rounded-t-lg h-32">
+                    <Image
+                      src="https://images.unsplash.com/photo-1707343848552-893e05dba6ac?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxzZWFyY2h8OHx8dHJhdmVsfGVufDB8fDB8fHww"
+                      alt="Desert Oasis"
+                      className="rounded-t-lg w-full h-full object-cover"
+                      width={400}
+                      height={300}
+                    />
                     <div className="top-2 right-2 absolute bg-black px-2 py-1 rounded text-sm text-white">
                       $250.00
                     </div>
@@ -344,18 +405,33 @@ export default function HomePage() {
             </div>
 
             <div className="space-y-6">
-              <Card className="shadow-md rounded-lg">
-                <div className="bg-gradient-to-br from-purple-400 via-pink-500 to-red-500 rounded-t-lg w-full h-48"></div>
+              <Card className="shadow-md p-0 rounded-lg">
+                {/* <div className="bg-gradient-to-br from-purple-400 via-pink-500 to-red-500 rounded-t-lg w-full h-48"></div> */}
+                <Image
+                  src="https://images.unsplash.com/photo-1707343848552-893e05dba6ac?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxzZWFyY2h8OHx8dHJhdmVsfGVufDB8fDB8fHww"
+                  alt="Curated travel experience 1"
+                  className="rounded-t-lg w-full h-48 object-cover"
+                  width={600}
+                  height={400}
+                />
                 <CardContent className="p-4">
                   <p className="text-gray-600 text-sm">
-                    At TripTrap, we believe in curating exceptional experiences
-                    that turn every journey into an adventure worth remembering.
+                    At ParagonTrails, we believe in curating exceptional
+                    experiences that turn every journey into an adventure worth
+                    remembering.
                   </p>
                 </CardContent>
               </Card>
 
-              <Card className="shadow-md rounded-lg">
-                <div className="bg-gradient-to-br from-yellow-400 to-orange-500 rounded-t-lg w-full h-32"></div>
+              <Card className="shadow-md p-0 rounded-lg">
+                {/* <div className="bg-gradient-to-br from-yellow-400 to-orange-500 rounded-t-lg w-full h-32"></div> */}
+                <Image
+                  src="https://images.unsplash.com/photo-1707343848552-893e05dba6ac?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxzZWFyY2h8OHx8dHJhdmVsfGVufDB8fDB8fHww"
+                  alt="Curated travel experience 2"
+                  className="rounded-t-lg w-full h-32 object-cover"
+                  width={600}
+                  height={300}
+                />
                 <CardContent className="p-4">
                   <p className="text-gray-600 text-sm">
                     Cultural immersion, culinary discovery, natural beauty,
@@ -364,8 +440,15 @@ export default function HomePage() {
                 </CardContent>
               </Card>
 
-              <Card className="shadow-md rounded-lg">
-                <div className="bg-gradient-to-br from-green-400 to-blue-500 rounded-t-lg w-full h-32"></div>
+              <Card className="shadow-md p-0 rounded-lg">
+                {/* <div className="bg-gradient-to-br from-green-400 to-blue-500 rounded-t-lg w-full h-32"></div> */}
+                <Image
+                  src="https://images.unsplash.com/photo-1707343848552-893e05dba6ac?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxzZWFyY2h8OHx8dHJhdmVsfGVufDB8fDB8fHww"
+                  alt="Curated travel experience 3"
+                  className="rounded-t-lg w-full h-32 object-cover"
+                  width={600}
+                  height={300}
+                />
                 <CardContent className="p-4">
                   <p className="text-gray-600 text-sm">
                     History and culture, unique perspectives and remarkable
@@ -414,21 +497,24 @@ export default function HomePage() {
 
             {/* Let's Explore Together */}
             <div className="space-y-6">
-              <Card className="shadow-lg border-0">
+              <Card className="shadow-md p-0 rounded-lg">
                 <CardContent className="p-0">
-                  <div className="grid grid-cols-2 h-48">
-                    <div className="bg-gradient-to-br from-blue-500 to-purple-600 rounded-l-lg"></div>
-                    <div className="bg-gradient-to-br from-teal-400 to-green-500 rounded-r-lg"></div>
-                  </div>
+                  <Image
+                    src="https://images.unsplash.com/photo-1707343848552-893e05dba6ac?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxzZWFyY2h8OHx8dHJhdmVsfGVufDB8fDB8fHww"
+                    alt="Explore travel 1"
+                    className="rounded-lg w-full h-full object-cover"
+                    width={400}
+                    height={480}
+                  />
                   <div className="p-6">
                     <h3 className="mb-2 font-bold text-xl">
                       Let's Explore Together
                     </h3>
                     <p className="mb-4 text-gray-600 text-sm">
-                      At TripTrap, the world is our diama and every journey is
-                      an opportunity to discover something new about ourselves
-                      and the most interesting cultural of every one that
-                      without a shadow.
+                      At ParagonTrails, the world is our diama and every journey
+                      is an opportunity to discover something new about
+                      ourselves and the most interesting cultural of every one
+                      that without a shadow.
                     </p>
                     <div className="flex justify-between items-center">
                       <span className="font-semibold text-gray-800">
@@ -461,18 +547,28 @@ export default function HomePage() {
 
           <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
             {[
-              { color: "from-blue-400 to-cyan-500", price: "$120.00" },
-              { color: "from-green-400 to-emerald-500", price: "$165.00" },
-              { color: "from-gray-400 to-slate-500", price: "$190.00" },
-              { color: "from-orange-400 to-red-500", price: "$250.00" },
+              { altText: "Featured Destination 1", price: "$120.00" },
+              { altText: "Featured Destination 2", price: "$165.00" },
+              { altText: "Featured Destination 3", price: "$190.00" },
+              { altText: "Featured Destination 4", price: "$250.00" },
             ].map((destination, index) => (
               <Card
                 key={index}
-                className="group hover:shadow-xl transition-all cursor-pointer"
+                className="group hover:shadow-xl p-0 transition-all cursor-pointer"
               >
-                <div
+                {/* <div
                   className={`relative h-64 bg-gradient-to-br ${destination.color} rounded-t-lg overflow-hidden`}
-                >
+                > */}
+                <div className={`relative h-64 rounded-t-lg overflow-hidden`}>
+                  <Image
+                    src={
+                      "https://images.unsplash.com/photo-1707343848552-893e05dba6ac?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxzZWFyY2h8OHx8dHJhdmVsfGVufDB8fDB8fHww"
+                    }
+                    alt={destination.altText}
+                    className="rounded-t-lg w-full h-full object-cover"
+                    width={500}
+                    height={600}
+                  />
                   <div className="top-4 right-4 absolute bg-white px-3 py-1 rounded-full font-semibold text-black">
                     {destination.price}
                   </div>
@@ -570,7 +666,14 @@ export default function HomePage() {
 
                 <div className="mb-4 p-4 border rounded-lg">
                   <div className="flex gap-3">
-                    <div className="bg-gradient-to-br from-blue-400 to-purple-500 rounded-lg w-16 h-16"></div>
+                    {/* <div className="bg-gradient-to-br from-blue-400 to-purple-500 rounded-lg w-16 h-16"></div> */}
+                    <Image
+                      src="https://images.unsplash.com/photo-1707343848552-893e05dba6ac?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxzZWFyY2h8OHx8dHJhdmVsfGVufDB8fDB8fHww"
+                      alt="Booking confirmation"
+                      className="rounded-lg w-16 h-16 object-cover"
+                      width={100}
+                      height={100}
+                    />
                     <div className="flex-1">
                       <h4 className="font-semibold">Your stay:</h4>
                       <p className="text-gray-600 text-sm">Bali</p>
@@ -601,46 +704,45 @@ export default function HomePage() {
           <div className="items-center gap-12 grid grid-cols-1 lg:grid-cols-2">
             <div className="space-y-6">
               {/* Destination Cards */}
-              <div className="gap-4 grid grid-cols-3">
-                <Card className="shadow-md border-0">
-                  <div className="relative bg-gradient-to-br from-green-400 to-blue-500 rounded-lg h-24">
-                    <div className="bottom-2 left-2 absolute">
-                      <Button size="sm" variant="secondary" className="text-xs">
-                        Search
-                      </Button>
-                    </div>
-                  </div>
-                  <CardContent className="p-3">
-                    <p className="font-medium text-xs">Lisbon, Portugal</p>
-                  </CardContent>
-                </Card>
-
-                <Card className="shadow-md border-0">
-                  <div className="relative bg-gradient-to-br from-orange-400 to-red-500 rounded-lg h-24">
-                    <div className="bottom-2 left-2 absolute">
-                      <Button size="sm" variant="secondary" className="text-xs">
-                        Search
-                      </Button>
-                    </div>
-                  </div>
-                  <CardContent className="p-3">
-                    <p className="font-medium text-xs">Positano, Italy</p>
-                  </CardContent>
-                </Card>
-
-                <Card className="shadow-md border-0">
-                  <div className="relative bg-gradient-to-br from-teal-400 to-green-500 rounded-lg h-24">
-                    <div className="bottom-2 left-2 absolute">
-                      <Button size="sm" variant="secondary" className="text-xs">
-                        Search
-                      </Button>
-                    </div>
-                  </div>
-                  <CardContent className="p-3">
-                    <p className="font-medium text-xs">Maldives</p>
-                  </CardContent>
-                </Card>
-              </div>
+              <Carousel
+                opts={{
+                  align: "start",
+                  loop: true,
+                }}
+                className="mx-auto w-3/5 md:w-4/5"
+              >
+                <CarouselContent>
+                  {[
+                    {
+                      src: "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8dHJhdmVsfGVufDB8fDB8fHww",
+                      alt: "Sophisticated Stay 1",
+                    },
+                    {
+                      src: "https://images.unsplash.com/photo-1507608616759-54f48f0af0ee?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D",
+                      alt: "Sophisticated Stay 2",
+                    },
+                    {
+                      src: "https://images.unsplash.com/photo-1707343848552-893e05dba6ac?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxzZWFyY2h8OHx8dHJhdmVsfGVufDB8fDB8fHww",
+                      alt: "Sophisticated Stay 3",
+                    },
+                  ].map((image, index) => (
+                    <CarouselItem key={index} className="md:basis-1/2">
+                      <Card className="shadow-md p-0 border-0">
+                        <Image
+                          src={image.src}
+                          alt={image.alt}
+                          className="rounded-lg w-full h-56 object-cover"
+                          width={300}
+                          height={200}
+                        />
+                        {/* CardContent can be added here if needed */}
+                      </Card>
+                    </CarouselItem>
+                  ))}
+                </CarouselContent>
+                <CarouselPrevious />
+                <CarouselNext />
+              </Carousel>
             </div>
 
             <div>
@@ -656,76 +758,6 @@ export default function HomePage() {
                 desirable destinations.
               </p>
               <p className="text-gray-500 text-sm">From 2019</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Property Showcase */}
-      <section className="bg-gray-50 py-16">
-        <div className="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
-          <div className="gap-8 grid grid-cols-1 lg:grid-cols-3">
-            {/* Main Property */}
-            <div className="lg:col-span-2">
-              <Card className="shadow-lg border-0 overflow-hidden">
-                <div className="relative bg-gradient-to-br from-gray-700 to-gray-900 h-80">
-                  <div className="top-4 left-4 absolute">
-                    <div className="flex items-center gap-2">
-                      <div className="bg-white p-1 rounded">
-                        <div className="bg-black rounded w-4 h-4"></div>
-                      </div>
-                      <span className="font-medium text-white">
-                        CABINS & COTTAGES
-                      </span>
-                      <span className="text-white">ENTIRE HOMES</span>
-                      <span className="text-white">UNIQUE STAYS</span>
-                    </div>
-                  </div>
-                  <div className="top-4 right-4 absolute">
-                    <Button variant="secondary" size="sm">
-                      SIGN IN
-                    </Button>
-                  </div>
-                </div>
-                <CardContent className="p-6">
-                  <h3 className="mb-2 font-bold text-xl">Mirror House Sud</h3>
-                  <p className="mb-2 text-gray-600 text-sm">
-                    Bolzano, Trentino-Alto Adige/South Tyrol, Italy
-                  </p>
-                  <p className="mb-4 font-bold text-2xl">
-                    $1,600{" "}
-                    <span className="font-normal text-base text-gray-600">
-                      / night
-                    </span>
-                  </p>
-
-                  <div className="flex items-center gap-6 mb-4 text-sm">
-                    <div className="flex items-center gap-2">
-                      <Users className="w-4 h-4" />
-                      <span>4 Guests</span>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <span>🏠</span>
-                      <span>2 Bedrooms</span>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <span>🚿</span>
-                      <span>1 Bathroom</span>
-                    </div>
-                  </div>
-
-                  <Button className="bg-black hover:bg-gray-800 w-full text-white">
-                    Check Availability
-                  </Button>
-                </CardContent>
-              </Card>
-            </div>
-
-            {/* Property Images */}
-            <div className="space-y-4">
-              <div className="bg-gradient-to-br from-blue-400 to-teal-500 rounded-lg h-40"></div>
-              <div className="bg-gradient-to-br from-green-400 to-blue-500 rounded-lg h-40"></div>
-              <div className="bg-gradient-to-br from-purple-400 to-pink-500 rounded-lg h-40"></div>
             </div>
           </div>
         </div>
