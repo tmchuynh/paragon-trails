@@ -1,6 +1,7 @@
 "use client";
 
 import { cartHelpers, useCart } from "@/context/CartContext";
+import { useCurrency } from "@/context/CurrencyContext";
 import {
   ArrowRight,
   Calendar,
@@ -24,6 +25,7 @@ import { Separator } from "./ui/separator";
 export default function Cart() {
   const router = useRouter();
   const { state, dispatch } = useCart();
+  const { formatPrice } = useCurrency();
   const [discountCode, setDiscountCode] = useState("");
   const [isApplyingDiscount, setIsApplyingDiscount] = useState(false);
 
@@ -265,11 +267,11 @@ export default function Cart() {
                           {item.originalPrice &&
                             item.originalPrice > item.price && (
                               <span className="text-slate-500 text-sm line-through">
-                                {cartHelpers.formatPrice(item.originalPrice)}
+                                {formatPrice(item.originalPrice)}
                               </span>
                             )}
                           <span className="font-semibold text-lg text-slate-900 dark:text-white">
-                            {cartHelpers.formatPrice(item.price)}
+                            {formatPrice(item.price)}
                           </span>
                           <span className="text-slate-600 text-sm dark:text-slate-400">
                             per person
@@ -278,7 +280,7 @@ export default function Cart() {
                         <div className="text-right">
                           <div className="text-slate-600 text-sm dark:text-slate-400">
                             Subtotal:{" "}
-                            {cartHelpers.formatPrice(
+                            {formatPrice(
                               item.price * item.quantity * item.guests
                             )}
                           </div>
@@ -348,24 +350,24 @@ export default function Cart() {
                     <span className="text-slate-600 dark:text-slate-400">
                       Subtotal
                     </span>
-                    <span>{cartHelpers.formatPrice(state.subtotal)}</span>
+                    <span>{formatPrice(state.subtotal)}</span>
                   </div>
                   <div className="flex justify-between text-sm">
                     <span className="text-slate-600 dark:text-slate-400">
                       Service Fee
                     </span>
-                    <span>{cartHelpers.formatPrice(state.fees)}</span>
+                    <span>{formatPrice(state.fees)}</span>
                   </div>
                   <div className="flex justify-between text-sm">
                     <span className="text-slate-600 dark:text-slate-400">
                       Taxes
                     </span>
-                    <span>{cartHelpers.formatPrice(state.taxes)}</span>
+                    <span>{formatPrice(state.taxes)}</span>
                   </div>
                   {state.discounts > 0 && (
                     <div className="flex justify-between text-green-600 text-sm">
                       <span>Discount</span>
-                      <span>-{cartHelpers.formatPrice(state.discounts)}</span>
+                      <span>-{formatPrice(state.discounts)}</span>
                     </div>
                   )}
 
