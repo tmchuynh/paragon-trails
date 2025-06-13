@@ -24,6 +24,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import { useCurrency } from "@/context/CurrencyContext";
 import {
   ArrowRight,
   Calendar,
@@ -34,7 +35,6 @@ import {
   Users,
 } from "lucide-react";
 import Image from "next/image";
-import { useCurrency } from "@/context/CurrencyContext";
 
 export default function HomePage() {
   const { formatPrice } = useCurrency();
@@ -320,7 +320,7 @@ export default function HomePage() {
                       height={300}
                     />
                     <div className="top-2 right-2 absolute bg-black px-2 py-1 rounded text-sm text-white">
-                      $165.00
+                      {formatPrice(165)}
                     </div>
                   </div>
                   <CardContent className="p-4">
