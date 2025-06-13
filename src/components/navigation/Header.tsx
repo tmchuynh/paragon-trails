@@ -17,6 +17,7 @@ import {
   XMarkIcon,
 } from "@heroicons/react/20/solid";
 import { Heart, Phone, Search, User } from "lucide-react";
+import Link from "next/link";
 import { useState } from "react";
 
 export default function Header() {
@@ -53,17 +54,15 @@ export default function Header() {
         className="flex justify-between items-center lg:px-8 p-4 border-b"
       >
         <div className="flex lg:flex-1">
-          <a href="/" className="-m-1.5 p-1.5">
-            <span className="sr-only">ParagonTrails</span>
+          <Link href="/" className="-m-1.5 p-1.5">
+            <span className="sr-only">TripTrap</span>
             <div className="flex items-center gap-2">
               <div className="bg-gradient-to-r from-blue-600 to-teal-500 p-2 rounded-lg">
                 <GlobeAltIcon className="w-6 h-6 text-white" />
               </div>
-              <span className="font-bold text-gray-800 text-xl">
-                ParagonTrails
-              </span>
+              <span className="font-bold text-gray-800 text-xl">TripTrap</span>
             </div>
-          </a>
+          </Link>
         </div>
 
         <div className="flex lg:hidden">
@@ -93,21 +92,21 @@ export default function Header() {
                 <DropdownMenuContent align="start" className="min-w-[200px]">
                   {item.dropdown.map((sub) => (
                     <DropdownMenuItem asChild key={sub.label}>
-                      <a href={sub.href} className="block px-4 py-2 text-sm">
+                      <Link href={sub.href} className="block px-4 py-2 text-sm">
                         {sub.label}
-                      </a>
+                      </Link>
                     </DropdownMenuItem>
                   ))}
                 </DropdownMenuContent>
               </DropdownMenu>
             ) : (
-              <a
+              <Link
                 key={item.label}
                 href={item.href}
                 className="font-medium text-gray-700 text-sm hover:text-gray-900 transition-colors"
               >
                 {item.label}
-              </a>
+              </Link>
             )
           )}
 
@@ -153,9 +152,7 @@ export default function Header() {
               <div className="bg-gradient-to-r from-blue-600 to-teal-500 p-2 rounded-lg">
                 <GlobeAltIcon className="w-5 h-5 text-white" />
               </div>
-              <span className="font-bold text-gray-800 text-lg">
-                ParagonTrails
-              </span>
+              <span className="font-bold text-gray-800 text-lg">TripTrap</span>
             </div>
             <button
               type="button"
@@ -179,25 +176,25 @@ export default function Header() {
                         </summary>
                         <div className="space-y-1 mt-2 pl-4">
                           {item.dropdown.map((sub) => (
-                            <a
+                            <Link
                               key={sub.label}
                               href={sub.href}
                               className="block hover:bg-gray-50 -mx-3 px-3 py-2 rounded-lg text-gray-600 text-sm"
                             >
                               {sub.label}
-                            </a>
+                            </Link>
                           ))}
                         </div>
                       </details>
                     </div>
                   ) : (
-                    <a
+                    <Link
                       key={item.label}
                       href={item.href}
                       className="block hover:bg-gray-50 -mx-3 px-3 py-3 rounded-lg font-medium text-base text-gray-900"
                     >
                       {item.label}
-                    </a>
+                    </Link>
                   )
                 )}
               </div>
