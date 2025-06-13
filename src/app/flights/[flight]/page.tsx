@@ -37,7 +37,7 @@ export default function FlightDetailsPage() {
   const router = useRouter();
   const params = useParams();
   const { formatPrice } = useCurrency();
-  const { dispatch } = useCart();
+  const { state: cartState, dispatch } = useCart();
   const [selectedClass, setSelectedClass] = useState("economy");
   const [passengers, setPassengers] = useState(1);
   const [departureDate, setDepartureDate] = useState("");
@@ -79,22 +79,42 @@ export default function FlightDetailsPage() {
   const handleBookFlight = () => {
     setIsBooking(true);
 
+    const departureBaseDate = departureDate || flight.departure.date;
+    
     const flightItem = {
-      id: `${formatToSlug(flight.flightNumber)}-${Math.random().toString(36).substr(2, 9)}`,
+      id: `flight-${formatToSlug(flight.flightNumber)}-${departureBaseDate}-${selectedClass}`,
       type: "flight" as const,
       name: `${flight.airline} ${flight.flightNumber}`,
       description: `${flight.origin.city} to ${flight.destination.city} - ${selectedClass} class`,
       image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=600&auto=format&fit=crop&q=60",
       price: getFlightPrice(),
       dates: {
-        startDate: departureDate || flight.departure.date,
-        endDate: returnDate || flight.departure.date,
+        startDate: departureBaseDate,
+        endDate: returnDate || departureBaseDate,
       },
       guests: passengers,
       location: `${flight.origin.city} → ${flight.destination.city}`,
       features: flight.amenities,
       cancellationPolicy: "Standard airline cancellation policy applies",
     };
+
+    // Check if this exact flight booking already exists
+    if (cartHelpers.checkIfDuplicate(cartState.items, flightItem)) {
+      // For flights, we should add more passengers instead of creating duplicate
+      const existingItem = cartState.items.find(item => 
+        item.name === flightItem.name &&
+        item.dates.startDate === flightItem.dates.startDate &&
+        item.location === flightItem.location
+      );
+      
+      if (existingItem) {
+        const newGuestCount = existingItem.guests + passengers;
+        cartHelpers.updateGuests(dispatch, existingItem.id, newGuestCount);
+        toast.success(`Added ${passengers} more passenger${passengers > 1 ? 's' : ''} to ${flight.flightNumber}!`);
+        setIsBooking(false);
+        return;
+      }
+    }
 
     cartHelpers.addItem(dispatch, flightItem);
     toast.success(`Flight ${flight.flightNumber} added to cart!`);
