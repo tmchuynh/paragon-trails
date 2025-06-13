@@ -1,6 +1,6 @@
-import { AlertCircle, RefreshCw } from "lucide-react";
-import { useCurrency } from "@/context/CurrencyContext";
 import { Button } from "@/components/ui/button";
+import { useCurrency } from "@/context/CurrencyContext";
+import { AlertCircle, RefreshCw } from "lucide-react";
 
 export default function CurrencyStatus() {
   const { isLoading, error, refreshRates } = useCurrency();
@@ -15,7 +15,7 @@ export default function CurrencyStatus() {
           <span className="text-xs">Loading rates...</span>
         </div>
       )}
-      
+
       {error && (
         <div className="flex items-center gap-1">
           <AlertCircle className="w-3 h-3 text-red-500" />
@@ -23,7 +23,7 @@ export default function CurrencyStatus() {
             variant="ghost"
             size="sm"
             onClick={refreshRates}
-            className="h-auto p-0 text-xs text-red-500 hover:text-red-700"
+            className="p-0 h-auto text-red-500 text-xs hover:text-red-700"
           >
             Retry
           </Button>
