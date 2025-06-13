@@ -7,6 +7,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Separator } from "@/components/ui/separator";
 import { cartHelpers, useCart } from "@/context/CartContext";
+import { useCurrency } from "@/context/CurrencyContext";
 import { Vehicle } from "@/lib/interfaces/services/vehicles";
 import { formatToSlug } from "@/lib/utils/format";
 import {
@@ -210,6 +211,7 @@ export default function VehicleDetailPage() {
   const params = useParams();
   const searchParams = useSearchParams();
   const { dispatch } = useCart();
+  const { formatPrice } = useCurrency();
 
   // Find the vehicle based on the slug
   const vehicleSlug = params.vehicle as string;
@@ -447,7 +449,7 @@ export default function VehicleDetailPage() {
                   <div className="flex justify-between">
                     <span>Daily Rate:</span>
                     <span className="font-medium">
-                      ${vehicle.pricing.daily}
+                      {formatPrice(vehicle.pricing.daily)}
                     </span>
                   </div>
                   <div className="flex justify-between">
@@ -459,7 +461,7 @@ export default function VehicleDetailPage() {
                   <Separator />
                   <div className="flex justify-between font-bold text-lg">
                     <span>Total:</span>
-                    <span>${totalPrice}</span>
+                    <span>{formatPrice(totalPrice)}</span>
                   </div>
                 </div>
 
