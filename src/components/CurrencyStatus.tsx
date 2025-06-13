@@ -1,41 +1,32 @@
 import { Button } from "@/components/ui/button";
 import { useCurrency } from "@/context/CurrencyContext";
-import { RefreshCw, Wifi, WifiOff } from "lucide-react";
+import { AlertCircle, RefreshCw } from "lucide-react";
 
 export default function CurrencyStatus() {
   const { isLoading, error, refreshRates } = useCurrency();
 
+  if (!isLoading && !error) return null;
+
   return (
     <div className="flex items-center gap-2">
       {isLoading && (
-        <div className="flex items-center gap-1 text-amber-600 dark:text-amber-400">
+        <div className="flex items-center gap-1 text-yellow-600">
           <RefreshCw className="w-3 h-3 animate-spin" />
-          <span className="text-xs">Updating rates...</span>
+          <span className="text-xs">Loading rates...</span>
         </div>
       )}
 
-      {!isLoading && error && (
+      {error && (
         <div className="flex items-center gap-1">
-          <WifiOff className="w-3 h-3 text-orange-500" />
-          <span className="text-orange-600 text-xs dark:text-orange-400">
-            {error.includes("approximate") ? "Approximate rates" : "Rate error"}
-          </span>
+          <AlertCircle className="w-3 h-3 text-red-500" />
           <Button
             variant="ghost"
             size="sm"
             onClick={refreshRates}
-            className="p-0 h-auto text-orange-500 text-xs hover:text-orange-700 dark:hover:text-orange-300"
-            title="Retry fetching live exchange rates"
+            className="p-0 h-auto text-red-500 text-xs hover:text-red-700"
           >
-            <RefreshCw className="w-3 h-3" />
+            Retry
           </Button>
-        </div>
-      )}
-
-      {!isLoading && !error && (
-        <div className="flex items-center gap-1 text-green-600 dark:text-green-400">
-          <Wifi className="w-3 h-3" />
-          <span className="text-xs">Live rates</span>
         </div>
       )}
     </div>
