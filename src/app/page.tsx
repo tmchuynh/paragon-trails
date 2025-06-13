@@ -18,7 +18,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center overflow-hidden">
+      <section className="relative flex items-center min-h-screen overflow-hidden">
         {/* Background Image */}
         <div className="z-0 absolute inset-0">
           <div className="bg-gradient-to-r from-blue-600 via-teal-500 to-green-400 opacity-90 w-full h-full"></div>
@@ -26,7 +26,7 @@ export default function HomePage() {
         </div>
 
         {/* Hero Content */}
-        <div className="relative z-10 mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl w-full py-20">
+        <div className="relative z-10 mx-auto px-4 sm:px-6 lg:px-8 py-20 w-full max-w-7xl">
           {/* Mobile Layout */}
           <div className="lg:hidden text-center text-white">
             <div className="mb-8">
@@ -42,8 +42,8 @@ export default function HomePage() {
                 Happiness!
               </h1>
               <p className="mx-auto mb-8 max-w-3xl text-gray-200 text-lg md:text-xl">
-                At TripTrap, we believe that every journey is an opportunity
-                for adventure, discovery, and creating unforgettable experiences.
+                At TripTrap, we believe that every journey is an opportunity for
+                adventure, discovery, and creating unforgettable experiences.
               </p>
               <Button
                 size="lg"
@@ -53,7 +53,7 @@ export default function HomePage() {
                 Book Trip Now
               </Button>
             </div>
-            
+
             {/* Mobile Search Card */}
             <div className="mt-12">
               <Card className="bg-white/95 shadow-2xl backdrop-blur-sm">
@@ -109,8 +109,12 @@ export default function HomePage() {
                           <SelectValue placeholder="2H per night" />
                         </SelectTrigger>
                         <SelectContent>
-                          <SelectItem value="budget">Budget ($50-100)</SelectItem>
-                          <SelectItem value="mid">Mid-range ($100-200)</SelectItem>
+                          <SelectItem value="budget">
+                            Budget ($50-100)
+                          </SelectItem>
+                          <SelectItem value="mid">
+                            Mid-range ($100-200)
+                          </SelectItem>
                           <SelectItem value="luxury">Luxury ($200+)</SelectItem>
                         </SelectContent>
                       </Select>
@@ -125,7 +129,7 @@ export default function HomePage() {
           </div>
 
           {/* Desktop Two-Column Layout */}
-          <div className="lg:grid lg:grid-cols-2 lg:gap-12 lg:items-center hidden">
+          <div className="lg:items-center lg:gap-12 hidden lg:grid lg:grid-cols-2">
             {/* Left Column - Hero Text */}
             <div className="text-white">
               <h1 className="mb-6 font-bold text-5xl xl:text-6xl leading-tight">
@@ -140,8 +144,8 @@ export default function HomePage() {
                 Happiness!
               </h1>
               <p className="mb-8 text-gray-200 text-xl leading-relaxed">
-                At TripTrap, we believe that every journey is an opportunity
-                for adventure, discovery, and creating unforgettable experiences.
+                At TripTrap, we believe that every journey is an opportunity for
+                adventure, discovery, and creating unforgettable experiences.
               </p>
               <Button
                 size="lg"
@@ -205,8 +209,12 @@ export default function HomePage() {
                           <SelectValue placeholder="2H per night" />
                         </SelectTrigger>
                         <SelectContent>
-                          <SelectItem value="budget">Budget ($50-100)</SelectItem>
-                          <SelectItem value="mid">Mid-range ($100-200)</SelectItem>
+                          <SelectItem value="budget">
+                            Budget ($50-100)
+                          </SelectItem>
+                          <SelectItem value="mid">
+                            Mid-range ($100-200)
+                          </SelectItem>
                           <SelectItem value="luxury">Luxury ($200+)</SelectItem>
                         </SelectContent>
                       </Select>
@@ -231,8 +239,8 @@ export default function HomePage() {
                 Curated Destinations for You
               </h2>
               <p className="mb-8 text-gray-600">
-                At TripTrap, we believe in curating exceptional experiences
-                that turn every journey into an adventure worth remembering.
+                At TripTrap, we believe in curating exceptional experiences that
+                turn every journey into an adventure worth remembering.
               </p>
 
               {/* Destination Cards */}
@@ -252,6 +260,12 @@ export default function HomePage() {
                         />
                       ))}
                     </div>
+                    <h3 className="mb-1 font-semibold text-gray-800">
+                      Ocean Paradise
+                    </h3>
+                    <p className="text-gray-600 text-sm">
+                      Tropical beach destination
+                    </p>
                   </CardContent>
                 </Card>
 
@@ -270,6 +284,12 @@ export default function HomePage() {
                         />
                       ))}
                     </div>
+                    <h3 className="mb-1 font-semibold text-gray-800">
+                      Mountain Retreat
+                    </h3>
+                    <p className="text-gray-600 text-sm">
+                      Alpine adventure escape
+                    </p>
                   </CardContent>
                 </Card>
 
@@ -288,11 +308,17 @@ export default function HomePage() {
                         />
                       ))}
                     </div>
+                    <h3 className="mb-1 font-semibold text-gray-800">
+                      City Explorer
+                    </h3>
+                    <p className="text-gray-600 text-sm">
+                      Urban cultural experience
+                    </p>
                   </CardContent>
                 </Card>
 
-                <Card className="hover:shadow-lg transition-all cursor-pointer">
-                  <div className="relative bg-gradient-to-br from-orange-400 to-red-500 rounded-t-lg h-32">
+                <Card className="relative hover:shadow-lg h-full transition-all cursor-pointer">
+                  <div className="bg-gradient-to-br from-orange-400 to-red-500 rounded-t-lg h-32">
                     <div className="top-2 right-2 absolute bg-black px-2 py-1 rounded text-sm text-white">
                       $250.00
                     </div>
@@ -306,36 +332,47 @@ export default function HomePage() {
                         />
                       ))}
                     </div>
+                    <h3 className="mb-1 font-semibold text-gray-800">
+                      Desert Oasis
+                    </h3>
+                    <p className="text-gray-600 text-sm">
+                      Luxury desert adventure
+                    </p>
                   </CardContent>
                 </Card>
               </div>
             </div>
 
             <div className="space-y-6">
-              <div className="bg-white shadow-md p-6 rounded-lg">
-                <div className="bg-gradient-to-br from-purple-400 via-pink-500 to-red-500 mb-4 rounded-lg w-full h-48"></div>
-                <p className="text-gray-600 text-sm">
-                  At TripTrap, we believe in curating exceptional
-                  experiences that turn every journey into an adventure worth
-                  remembering.
-                </p>
-              </div>
+              <Card className="shadow-md rounded-lg">
+                <div className="bg-gradient-to-br from-purple-400 via-pink-500 to-red-500 rounded-t-lg w-full h-48"></div>
+                <CardContent className="p-4">
+                  <p className="text-gray-600 text-sm">
+                    At TripTrap, we believe in curating exceptional experiences
+                    that turn every journey into an adventure worth remembering.
+                  </p>
+                </CardContent>
+              </Card>
 
-              <div className="bg-white shadow-md p-6 rounded-lg">
-                <div className="bg-gradient-to-br from-yellow-400 to-orange-500 mb-4 rounded-lg w-full h-32"></div>
-                <p className="text-gray-600 text-sm">
-                  Cultural immersion, culinary discovery, natural beauty,
-                  thrilling adventure, cultural and artistic experiences.
-                </p>
-              </div>
+              <Card className="shadow-md rounded-lg">
+                <div className="bg-gradient-to-br from-yellow-400 to-orange-500 rounded-t-lg w-full h-32"></div>
+                <CardContent className="p-4">
+                  <p className="text-gray-600 text-sm">
+                    Cultural immersion, culinary discovery, natural beauty,
+                    thrilling adventure, cultural and artistic experiences.
+                  </p>
+                </CardContent>
+              </Card>
 
-              <div className="bg-white shadow-md p-6 rounded-lg">
-                <div className="bg-gradient-to-br from-green-400 to-blue-500 mb-4 rounded-lg w-full h-32"></div>
-                <p className="text-gray-600 text-sm">
-                  History and culture, unique perspectives and remarkable
-                  experiences available.
-                </p>
-              </div>
+              <Card className="shadow-md rounded-lg">
+                <div className="bg-gradient-to-br from-green-400 to-blue-500 rounded-t-lg w-full h-32"></div>
+                <CardContent className="p-4">
+                  <p className="text-gray-600 text-sm">
+                    History and culture, unique perspectives and remarkable
+                    experiences available.
+                  </p>
+                </CardContent>
+              </Card>
             </div>
           </div>
         </div>
@@ -388,10 +425,10 @@ export default function HomePage() {
                       Let's Explore Together
                     </h3>
                     <p className="mb-4 text-gray-600 text-sm">
-                      At TripTrap, the world is our diama and every journey
-                      is an opportunity to discover something new about
-                      ourselves and the most interesting cultural of every one
-                      that without a shadow.
+                      At TripTrap, the world is our diama and every journey is
+                      an opportunity to discover something new about ourselves
+                      and the most interesting cultural of every one that
+                      without a shadow.
                     </p>
                     <div className="flex justify-between items-center">
                       <span className="font-semibold text-gray-800">
@@ -466,47 +503,56 @@ export default function HomePage() {
       {/* Booking Experience Section */}
       <section className="bg-gradient-to-br from-gray-900 to-gray-800 py-20 text-white">
         <div className="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
-          <div className="gap-12 grid grid-cols-1 lg:grid-cols-2 items-center">
+          <div className="items-center gap-12 grid grid-cols-1 lg:grid-cols-2">
             <div>
               <h2 className="mb-6 font-bold text-3xl md:text-4xl">
-                <span className="text-yellow-300">✱</span> Book Perfect Stay<br />
+                <span className="text-yellow-300">✱</span> Book Perfect Stay
+                <br />
                 For Your Vacation
               </h2>
               <p className="mb-8 text-gray-300 text-lg">
-                We are premier hotel booking service that caters to the discerning 
-                traveler in search of luxury and sophistication.
+                We are premier hotel booking service that caters to the
+                discerning traveler in search of luxury and sophistication.
               </p>
-              
+
               {/* Booking Stats */}
               <div className="gap-8 grid grid-cols-2 mb-8">
                 <div>
-                  <div className="mb-2 font-bold text-2xl text-yellow-300">100% + happy guests</div>
-                  <div className="text-gray-400 text-sm">Customer satisfaction</div>
+                  <div className="mb-2 font-bold text-2xl text-yellow-300">
+                    100% + happy guests
+                  </div>
+                  <div className="text-gray-400 text-sm">
+                    Customer satisfaction
+                  </div>
                 </div>
                 <div>
-                  <div className="mb-2 font-bold text-2xl text-yellow-300">4.9 ★</div>
+                  <div className="mb-2 font-bold text-2xl text-yellow-300">
+                    4.9 ★
+                  </div>
                   <div className="text-gray-400 text-sm">Guest's Reviews</div>
                 </div>
               </div>
 
-              <Button className="bg-gradient-to-r from-blue-600 to-teal-500 hover:from-blue-700 hover:to-teal-600">
+              <Button className="bg-gradient-to-r from-blue-600 hover:from-blue-700 to-teal-500 hover:to-teal-600">
                 Book your stay
                 <ArrowRight className="ml-2 w-4 h-4" />
               </Button>
             </div>
-            
+
             {/* Booking Confirmation Mockup */}
             <div className="relative">
               <div className="bg-white shadow-2xl p-6 rounded-2xl text-gray-800">
                 <div className="flex justify-between items-center mb-4">
-                  <h3 className="font-semibold text-lg">Booking is confirmed!</h3>
+                  <h3 className="font-semibold text-lg">
+                    Booking is confirmed!
+                  </h3>
                   <div className="bg-green-100 p-2 rounded-full">
-                    <div className="bg-green-500 rounded-full w-6 h-6 flex items-center justify-center">
+                    <div className="flex justify-center items-center bg-green-500 rounded-full w-6 h-6">
                       <span className="font-bold text-white text-xs">✓</span>
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="space-y-3 mb-6">
                   <div className="flex justify-between">
                     <span className="text-gray-600">Check-In</span>
@@ -522,13 +568,15 @@ export default function HomePage() {
                   </div>
                 </div>
 
-                <div className="border rounded-lg p-4 mb-4">
+                <div className="mb-4 p-4 border rounded-lg">
                   <div className="flex gap-3">
                     <div className="bg-gradient-to-br from-blue-400 to-purple-500 rounded-lg w-16 h-16"></div>
                     <div className="flex-1">
                       <h4 className="font-semibold">Your stay:</h4>
                       <p className="text-gray-600 text-sm">Bali</p>
-                      <p className="text-gray-600 text-sm">John Hilton Resort</p>
+                      <p className="text-gray-600 text-sm">
+                        John Hilton Resort
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -550,11 +598,11 @@ export default function HomePage() {
       {/* Sophisticated Stays Section */}
       <section className="bg-white py-16">
         <div className="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
-          <div className="gap-12 grid grid-cols-1 lg:grid-cols-2 items-center">
+          <div className="items-center gap-12 grid grid-cols-1 lg:grid-cols-2">
             <div className="space-y-6">
               {/* Destination Cards */}
               <div className="gap-4 grid grid-cols-3">
-                <Card className="border-0 shadow-md">
+                <Card className="shadow-md border-0">
                   <div className="relative bg-gradient-to-br from-green-400 to-blue-500 rounded-lg h-24">
                     <div className="bottom-2 left-2 absolute">
                       <Button size="sm" variant="secondary" className="text-xs">
@@ -566,8 +614,8 @@ export default function HomePage() {
                     <p className="font-medium text-xs">Lisbon, Portugal</p>
                   </CardContent>
                 </Card>
-                
-                <Card className="border-0 shadow-md">
+
+                <Card className="shadow-md border-0">
                   <div className="relative bg-gradient-to-br from-orange-400 to-red-500 rounded-lg h-24">
                     <div className="bottom-2 left-2 absolute">
                       <Button size="sm" variant="secondary" className="text-xs">
@@ -579,8 +627,8 @@ export default function HomePage() {
                     <p className="font-medium text-xs">Positano, Italy</p>
                   </CardContent>
                 </Card>
-                
-                <Card className="border-0 shadow-md">
+
+                <Card className="shadow-md border-0">
                   <div className="relative bg-gradient-to-br from-teal-400 to-green-500 rounded-lg h-24">
                     <div className="bottom-2 left-2 absolute">
                       <Button size="sm" variant="secondary" className="text-xs">
@@ -594,16 +642,18 @@ export default function HomePage() {
                 </Card>
               </div>
             </div>
-            
+
             <div>
               <h2 className="mb-4 font-bold text-3xl text-gray-800">
-                Unlock the Art of<br />
+                Unlock the Art of
+                <br />
                 Sophisticated Stays
               </h2>
               <p className="mb-6 text-gray-600">
-                We understand that accommodations play a pivotal role in shaping travel experience, 
-                and that's why we are committed to providing an innovative collection of exquisite hotels 
-                in the world's most desirable destinations.
+                We understand that accommodations play a pivotal role in shaping
+                travel experience, and that's why we are committed to providing
+                an innovative collection of exquisite hotels in the world's most
+                desirable destinations.
               </p>
               <p className="text-gray-500 text-sm">From 2019</p>
             </div>
@@ -617,14 +667,16 @@ export default function HomePage() {
           <div className="gap-8 grid grid-cols-1 lg:grid-cols-3">
             {/* Main Property */}
             <div className="lg:col-span-2">
-              <Card className="border-0 shadow-lg overflow-hidden">
+              <Card className="shadow-lg border-0 overflow-hidden">
                 <div className="relative bg-gradient-to-br from-gray-700 to-gray-900 h-80">
                   <div className="top-4 left-4 absolute">
                     <div className="flex items-center gap-2">
                       <div className="bg-white p-1 rounded">
                         <div className="bg-black rounded w-4 h-4"></div>
                       </div>
-                      <span className="font-medium text-white">CABINS & COTTAGES</span>
+                      <span className="font-medium text-white">
+                        CABINS & COTTAGES
+                      </span>
                       <span className="text-white">ENTIRE HOMES</span>
                       <span className="text-white">UNIQUE STAYS</span>
                     </div>
@@ -637,9 +689,16 @@ export default function HomePage() {
                 </div>
                 <CardContent className="p-6">
                   <h3 className="mb-2 font-bold text-xl">Mirror House Sud</h3>
-                  <p className="mb-2 text-gray-600 text-sm">Bolzano, Trentino-Alto Adige/South Tyrol, Italy</p>
-                  <p className="mb-4 font-bold text-2xl">$1,600 <span className="font-normal text-gray-600 text-base">/ night</span></p>
-                  
+                  <p className="mb-2 text-gray-600 text-sm">
+                    Bolzano, Trentino-Alto Adige/South Tyrol, Italy
+                  </p>
+                  <p className="mb-4 font-bold text-2xl">
+                    $1,600{" "}
+                    <span className="font-normal text-base text-gray-600">
+                      / night
+                    </span>
+                  </p>
+
                   <div className="flex items-center gap-6 mb-4 text-sm">
                     <div className="flex items-center gap-2">
                       <Users className="w-4 h-4" />
@@ -661,7 +720,7 @@ export default function HomePage() {
                 </CardContent>
               </Card>
             </div>
-            
+
             {/* Property Images */}
             <div className="space-y-4">
               <div className="bg-gradient-to-br from-blue-400 to-teal-500 rounded-lg h-40"></div>

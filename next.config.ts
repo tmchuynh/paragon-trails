@@ -4,6 +4,7 @@ const imageHosts = [
   "images.unsplash.com",
   "tailwindcss.com",
   "plus.unsplash.com",
+  "source.unsplash.com",
   "img.freepik.com",
   "rainn.org",
   "media.istockphoto.com",
