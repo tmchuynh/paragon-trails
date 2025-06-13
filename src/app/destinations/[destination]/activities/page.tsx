@@ -13,8 +13,8 @@ import {
 } from "@/components/ui/select";
 import { cartHelpers, useCart } from "@/context/CartContext";
 import { useCurrency } from "@/context/CurrencyContext";
-import { mockDestinations } from "@/data/destinations";
 import { mockActivities } from "@/data/activities";
+import { mockDestinations } from "@/data/destinations";
 import { formatToSlug } from "@/lib/utils/format";
 import {
   ArrowLeft,
@@ -23,11 +23,10 @@ import {
   Filter,
   MapPin,
   Search,
+  Shield,
   Star,
   Users,
   Zap,
-  Shield,
-  Camera,
 } from "lucide-react";
 import Image from "next/image";
 import { useParams, useRouter } from "next/navigation";
@@ -151,9 +150,9 @@ export default function BookActivitiesPage() {
     <div className="bg-slate-50 dark:bg-slate-950 min-h-screen">
       <div className="mx-auto px-6 lg:px-8 py-12 max-w-7xl">
         {/* Back Button */}
-        <Button 
-          variant="ghost" 
-          onClick={() => router.push(`/destinations/${destinationSlug}`)} 
+        <Button
+          variant="ghost"
+          onClick={() => router.push(`/destinations/${destinationSlug}`)}
           className="mb-6"
         >
           <ArrowLeft className="mr-2 w-4 h-4" />
@@ -166,15 +165,18 @@ export default function BookActivitiesPage() {
             Activities in {destination.name}
           </h1>
           <p className="mx-auto max-w-3xl text-lg text-slate-600 dark:text-slate-400">
-            Experience thrilling adventures and unique activities in {destination.name}, {destination.country}. 
-            From adrenaline-pumping sports to peaceful nature experiences, find your perfect activity.
+            Experience thrilling adventures and unique activities in{" "}
+            {destination.name}, {destination.country}. From adrenaline-pumping
+            sports to peaceful nature experiences, find your perfect activity.
           </p>
           <div className="flex justify-center items-center gap-2 mt-4">
             <MapPin className="w-5 h-5 text-slate-500" />
             <span className="text-slate-600">{destination.country}</span>
             <div className="flex items-center gap-1 ml-4">
               <Star className="w-4 h-4 text-yellow-400 fill-yellow-400" />
-              <span className="text-slate-600">{destination.rating} rating</span>
+              <span className="text-slate-600">
+                {destination.rating} rating
+              </span>
             </div>
           </div>
         </div>
@@ -197,7 +199,10 @@ export default function BookActivitiesPage() {
 
             <div className="space-y-2">
               <label className="font-medium text-sm">Category</label>
-              <Select value={selectedCategory} onValueChange={setSelectedCategory}>
+              <Select
+                value={selectedCategory}
+                onValueChange={setSelectedCategory}
+              >
                 <SelectTrigger>
                   <SelectValue placeholder="Select category" />
                 </SelectTrigger>
@@ -213,7 +218,10 @@ export default function BookActivitiesPage() {
 
             <div className="space-y-2">
               <label className="font-medium text-sm">Difficulty Level</label>
-              <Select value={selectedDifficulty} onValueChange={setSelectedDifficulty}>
+              <Select
+                value={selectedDifficulty}
+                onValueChange={setSelectedDifficulty}
+              >
                 <SelectTrigger>
                   <SelectValue placeholder="Select difficulty" />
                 </SelectTrigger>
@@ -254,14 +262,19 @@ export default function BookActivitiesPage() {
         {/* Results */}
         <div className="mb-6">
           <p className="text-slate-600 dark:text-slate-400">
-            Found {filteredActivities.length} activit{filteredActivities.length !== 1 ? 'ies' : 'y'} in {destination.name}
+            Found {filteredActivities.length} activit
+            {filteredActivities.length !== 1 ? "ies" : "y"} in{" "}
+            {destination.name}
           </p>
         </div>
 
         {/* Activity Cards */}
         <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {filteredActivities.map((activity) => (
-            <Card key={activity.id} className="hover:shadow-xl transition-shadow overflow-hidden">
+            <Card
+              key={activity.id}
+              className="hover:shadow-xl transition-shadow overflow-hidden"
+            >
               <div className="relative h-48">
                 <Image
                   src={activity.images[0]}
@@ -270,18 +283,22 @@ export default function BookActivitiesPage() {
                   className="object-cover"
                 />
                 <div className="top-4 right-4 absolute">
-                  <Badge 
+                  <Badge
                     variant={
-                      activity.difficulty === "Easy" ? "secondary" :
-                      activity.difficulty === "Moderate" ? "default" :
-                      activity.difficulty === "Challenging" ? "destructive" : "outline"
+                      activity.difficulty === "Easy"
+                        ? "secondary"
+                        : activity.difficulty === "Moderate"
+                          ? "default"
+                          : activity.difficulty === "Challenging"
+                            ? "destructive"
+                            : "outline"
                     }
                   >
                     {activity.difficulty}
                   </Badge>
                 </div>
                 <div className="bottom-4 left-4 absolute bg-black/70 px-3 py-1 rounded-full text-white">
-                  <Clock className="mr-1 w-3 h-3 inline" />
+                  <Clock className="inline mr-1 w-3 h-3" />
                   {activity.duration}
                 </div>
               </div>
@@ -291,22 +308,27 @@ export default function BookActivitiesPage() {
                   <Badge variant="outline" className="mb-2 text-xs">
                     {activity.category}
                   </Badge>
-                  <h3 className="mb-2 font-bold text-xl text-slate-900 dark:text-white">
+                  <h3 className="mb-2 font-bold text-slate-900 text-xl dark:text-white">
                     {activity.name}
                   </h3>
-                  <p className="text-slate-600 dark:text-slate-400 text-sm line-clamp-2">
+                  <p className="text-slate-600 text-sm dark:text-slate-400 line-clamp-2">
                     {activity.description}
                   </p>
                 </div>
 
-                <div className="mb-4 space-y-2">
+                <div className="space-y-2 mb-4">
                   <div className="flex items-center gap-2 text-sm">
                     <Users className="w-4 h-4 text-blue-500" />
-                    <span>Group: {activity.groupSize.min}-{activity.groupSize.max} people</span>
+                    <span>
+                      Group: {activity.groupSize.min}-{activity.groupSize.max}{" "}
+                      people
+                    </span>
                   </div>
                   <div className="flex items-center gap-2 text-sm">
                     <MapPin className="w-4 h-4 text-green-500" />
-                    <span>{activity.location.city}, {activity.location.country}</span>
+                    <span>
+                      {activity.location.city}, {activity.location.country}
+                    </span>
                   </div>
                   <div className="flex items-center gap-2 text-sm">
                     <Calendar className="w-4 h-4 text-orange-500" />
@@ -315,10 +337,16 @@ export default function BookActivitiesPage() {
                 </div>
 
                 <div className="mb-4">
-                  <h4 className="mb-2 font-semibold text-sm">What's Included:</h4>
+                  <h4 className="mb-2 font-semibold text-sm">
+                    What's Included:
+                  </h4>
                   <div className="flex flex-wrap gap-1">
                     {activity.inclusions.slice(0, 3).map((inclusion, index) => (
-                      <Badge key={index} variant="secondary" className="text-xs">
+                      <Badge
+                        key={index}
+                        variant="secondary"
+                        className="text-xs"
+                      >
                         {inclusion}
                       </Badge>
                     ))}
@@ -332,10 +360,10 @@ export default function BookActivitiesPage() {
 
                 <div className="mb-4">
                   <h4 className="mb-2 font-semibold text-sm">Requirements:</h4>
-                  <ul className="space-y-1 text-xs text-slate-600">
+                  <ul className="space-y-1 text-slate-600 text-xs">
                     {activity.requirements.slice(0, 2).map((req, index) => (
                       <li key={index} className="flex items-start gap-1">
-                        <Shield className="w-3 h-3 text-red-500 mt-0.5 flex-shrink-0" />
+                        <Shield className="flex-shrink-0 mt-0.5 w-3 h-3 text-red-500" />
                         {req}
                       </li>
                     ))}
@@ -347,7 +375,7 @@ export default function BookActivitiesPage() {
                     <p className="font-bold text-2xl text-blue-600">
                       {formatPrice(activity.pricing.adult)}
                     </p>
-                    <p className="text-sm text-slate-600">per adult</p>
+                    <p className="text-slate-600 text-sm">per adult</p>
                   </div>
                   <Button onClick={() => handleAddToCart(activity)}>
                     Book Now
@@ -360,7 +388,7 @@ export default function BookActivitiesPage() {
 
         {filteredActivities.length === 0 && (
           <div className="py-20 text-center">
-            <div className="mx-auto mb-4 w-16 h-16 bg-slate-200 dark:bg-slate-700 rounded-full flex items-center justify-center">
+            <div className="flex justify-center items-center bg-slate-200 dark:bg-slate-700 mx-auto mb-4 rounded-full w-16 h-16">
               <Zap className="w-8 h-8 text-slate-400" />
             </div>
             <h3 className="mb-2 font-semibold text-lg text-slate-900 dark:text-white">
@@ -369,19 +397,23 @@ export default function BookActivitiesPage() {
             <p className="text-slate-600 dark:text-slate-400">
               Try adjusting your search criteria or browse all activities.
             </p>
-            <Button variant="outline" className="mt-4" onClick={() => {
-              setSearchQuery("");
-              setSelectedCategory("all");
-              setSelectedDifficulty("all");
-              setFilteredActivities(mockActivities);
-            }}>
+            <Button
+              variant="outline"
+              className="mt-4"
+              onClick={() => {
+                setSearchQuery("");
+                setSelectedCategory("all");
+                setSelectedDifficulty("all");
+                setFilteredActivities(mockActivities);
+              }}
+            >
               Clear filters
             </Button>
           </div>
         )}
 
         {/* Safety Information */}
-        <Card className="mt-12 p-6 bg-blue-50 dark:bg-blue-950/20 border-blue-200 dark:border-blue-800">
+        <Card className="bg-blue-50 dark:bg-blue-950/20 mt-12 p-6 border-blue-200 dark:border-blue-800">
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
               <Shield className="w-5 h-5 text-blue-600" />
@@ -394,15 +426,15 @@ export default function BookActivitiesPage() {
                 <h4 className="mb-3 font-semibold">Before You Book</h4>
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-start gap-2">
-                    <Shield className="w-4 h-4 text-green-500 mt-0.5 flex-shrink-0" />
+                    <Shield className="flex-shrink-0 mt-0.5 w-4 h-4 text-green-500" />
                     Check activity requirements and fitness levels
                   </li>
                   <li className="flex items-start gap-2">
-                    <Shield className="w-4 h-4 text-green-500 mt-0.5 flex-shrink-0" />
+                    <Shield className="flex-shrink-0 mt-0.5 w-4 h-4 text-green-500" />
                     Read cancellation policies carefully
                   </li>
                   <li className="flex items-start gap-2">
-                    <Shield className="w-4 h-4 text-green-500 mt-0.5 flex-shrink-0" />
+                    <Shield className="flex-shrink-0 mt-0.5 w-4 h-4 text-green-500" />
                     Verify all equipment is included or what to bring
                   </li>
                 </ul>
@@ -411,15 +443,15 @@ export default function BookActivitiesPage() {
                 <h4 className="mb-3 font-semibold">During Activities</h4>
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-start gap-2">
-                    <Shield className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" />
+                    <Shield className="flex-shrink-0 mt-0.5 w-4 h-4 text-blue-500" />
                     Follow all safety instructions from guides
                   </li>
                   <li className="flex items-start gap-2">
-                    <Shield className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" />
+                    <Shield className="flex-shrink-0 mt-0.5 w-4 h-4 text-blue-500" />
                     Inform guides of any medical conditions
                   </li>
                   <li className="flex items-start gap-2">
-                    <Shield className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" />
+                    <Shield className="flex-shrink-0 mt-0.5 w-4 h-4 text-blue-500" />
                     Stay within designated activity areas
                   </li>
                 </ul>

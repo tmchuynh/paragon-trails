@@ -13,17 +13,7 @@ import {
 } from "@/components/ui/select";
 import { useCurrency } from "@/context/CurrencyContext";
 import { mockFlights } from "@/data/flights";
-import {
-  Calendar,
-  Clock,
-  MapPin,
-  Plane,
-  Search,
-  Star,
-  Users,
-  Wifi,
-} from "lucide-react";
-import Image from "next/image";
+import { Plane, Search, Star, Wifi } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
@@ -99,8 +89,8 @@ export default function FlightsPage() {
             Find Your Perfect Flight
           </h1>
           <p className="mx-auto max-w-3xl text-lg text-slate-600 dark:text-slate-400">
-            Search and compare flights from top airlines worldwide. Book with confidence 
-            and enjoy premium travel experiences.
+            Search and compare flights from top airlines worldwide. Book with
+            confidence and enjoy premium travel experiences.
           </p>
         </div>
 
@@ -157,7 +147,7 @@ export default function FlightsPage() {
                 <SelectContent>
                   {[1, 2, 3, 4, 5, 6, 7, 8].map((num) => (
                     <SelectItem key={num} value={num.toString()}>
-                      {num} passenger{num > 1 ? 's' : ''}
+                      {num} passenger{num > 1 ? "s" : ""}
                     </SelectItem>
                   ))}
                 </SelectContent>
@@ -205,7 +195,8 @@ export default function FlightsPage() {
         {/* Results */}
         <div className="mb-6">
           <p className="text-slate-600 dark:text-slate-400">
-            Found {filteredFlights.length} flight{filteredFlights.length !== 1 ? 's' : ''}
+            Found {filteredFlights.length} flight
+            {filteredFlights.length !== 1 ? "s" : ""}
           </p>
         </div>
 
@@ -221,39 +212,55 @@ export default function FlightsPage() {
                   {/* Flight Info */}
                   <div className="lg:col-span-2">
                     <div className="flex items-center gap-3 mb-4">
-                      <div className="w-8 h-8 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center">
+                      <div className="flex justify-center items-center bg-blue-100 dark:bg-blue-900 rounded-full w-8 h-8">
                         <Plane className="w-4 h-4 text-blue-600 dark:text-blue-300" />
                       </div>
                       <div>
-                        <h3 className="font-semibold text-lg">{flight.airline}</h3>
-                        <p className="text-sm text-slate-600">{flight.flightNumber} • {flight.aircraft}</p>
+                        <h3 className="font-semibold text-lg">
+                          {flight.airline}
+                        </h3>
+                        <p className="text-slate-600 text-sm">
+                          {flight.flightNumber} • {flight.aircraft}
+                        </p>
                       </div>
                     </div>
 
                     <div className="flex items-center gap-4">
                       <div className="text-center">
-                        <p className="font-bold text-xl">{flight.departure.time}</p>
-                        <p className="font-medium text-sm">{flight.origin.code}</p>
-                        <p className="text-xs text-slate-600">{flight.origin.city}</p>
+                        <p className="font-bold text-xl">
+                          {flight.departure.time}
+                        </p>
+                        <p className="font-medium text-sm">
+                          {flight.origin.code}
+                        </p>
+                        <p className="text-slate-600 text-xs">
+                          {flight.origin.city}
+                        </p>
                       </div>
-                      
-                      <div className="flex-1 relative">
-                        <div className="border-t-2 border-slate-300"></div>
-                        <div className="top-[-8px] left-1/2 absolute transform -translate-x-1/2 w-4 h-4 bg-slate-300 rounded-full"></div>
-                        <p className="mt-1 font-medium text-center text-sm text-slate-600">
+
+                      <div className="relative flex-1">
+                        <div className="border-slate-300 border-t-2"></div>
+                        <div className="top-[-8px] left-1/2 absolute bg-slate-300 rounded-full w-4 h-4 transform -translate-x-1/2"></div>
+                        <p className="mt-1 font-medium text-center text-slate-600 text-sm">
                           {flight.duration}
                         </p>
                         {flight.stops > 0 && (
-                          <p className="text-center text-xs text-slate-500">
-                            {flight.stops} stop{flight.stops > 1 ? 's' : ''}
+                          <p className="text-center text-slate-500 text-xs">
+                            {flight.stops} stop{flight.stops > 1 ? "s" : ""}
                           </p>
                         )}
                       </div>
-                      
+
                       <div className="text-center">
-                        <p className="font-bold text-xl">{flight.arrival.time}</p>
-                        <p className="font-medium text-sm">{flight.destination.code}</p>
-                        <p className="text-xs text-slate-600">{flight.destination.city}</p>
+                        <p className="font-bold text-xl">
+                          {flight.arrival.time}
+                        </p>
+                        <p className="font-medium text-sm">
+                          {flight.destination.code}
+                        </p>
+                        <p className="text-slate-600 text-xs">
+                          {flight.destination.city}
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -263,8 +270,14 @@ export default function FlightsPage() {
                     <h4 className="mb-3 font-semibold text-sm">Amenities</h4>
                     <div className="flex flex-wrap gap-2">
                       {flight.amenities.slice(0, 3).map((amenity, index) => (
-                        <Badge key={index} variant="secondary" className="text-xs">
-                          {amenity === "In-flight Wi-Fi" && <Wifi className="mr-1 w-3 h-3" />}
+                        <Badge
+                          key={index}
+                          variant="secondary"
+                          className="text-xs"
+                        >
+                          {amenity === "In-flight Wi-Fi" && (
+                            <Wifi className="mr-1 w-3 h-3" />
+                          )}
                           {amenity}
                         </Badge>
                       ))}
@@ -274,35 +287,46 @@ export default function FlightsPage() {
                         </Badge>
                       )}
                     </div>
-                    
+
                     <div className="flex items-center gap-1 mt-3">
                       <Star className="w-4 h-4 text-yellow-400 fill-yellow-400" />
-                      <span className="font-medium text-sm">{flight.rating}</span>
-                      <span className="text-xs text-slate-600">({flight.reviews} reviews)</span>
+                      <span className="font-medium text-sm">
+                        {flight.rating}
+                      </span>
+                      <span className="text-slate-600 text-xs">
+                        ({flight.reviews} reviews)
+                      </span>
                     </div>
                   </div>
 
                   {/* Price and Book */}
-                  <div className="flex lg:flex-col justify-between lg:justify-center items-center lg:items-end text-right">
+                  <div className="text-right flex lg:flex-col justify-between lg:justify-center items-center lg:items-end">
                     <div>
                       <p className="font-bold text-2xl text-blue-600">
                         {formatPrice(getFlightPrice(flight))}
                       </p>
-                      <p className="text-sm text-slate-600 capitalize">per person • {classType}</p>
+                      <p className="text-slate-600 text-sm capitalize">
+                        per person • {classType}
+                      </p>
                       <div className="mt-2">
-                        {flight.availability[classType as keyof typeof flight.availability] > 0 ? (
+                        {flight.availability[
+                          classType as keyof typeof flight.availability
+                        ] > 0 ? (
                           <Badge variant="outline" className="text-green-600">
-                            {flight.availability[classType as keyof typeof flight.availability]} seats left
+                            {
+                              flight.availability[
+                                classType as keyof typeof flight.availability
+                              ]
+                            }{" "}
+                            seats left
                           </Badge>
                         ) : (
                           <Badge variant="destructive">Sold out</Badge>
                         )}
                       </div>
                     </div>
-                    
-                    <Button className="mt-4 lg:mt-auto">
-                      Select Flight
-                    </Button>
+
+                    <Button className="mt-4 lg:mt-auto">Select Flight</Button>
                   </div>
                 </div>
               </CardContent>
@@ -312,7 +336,7 @@ export default function FlightsPage() {
 
         {filteredFlights.length === 0 && (
           <div className="py-20 text-center">
-            <div className="mx-auto mb-4 w-16 h-16 bg-slate-200 dark:bg-slate-700 rounded-full flex items-center justify-center">
+            <div className="flex justify-center items-center bg-slate-200 dark:bg-slate-700 mx-auto mb-4 rounded-full w-16 h-16">
               <Plane className="w-8 h-8 text-slate-400" />
             </div>
             <h3 className="mb-2 font-semibold text-lg text-slate-900 dark:text-white">

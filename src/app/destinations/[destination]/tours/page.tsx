@@ -1,8 +1,8 @@
 "use client";
 
-import { Badge } from "@/components/ui/badge";
+import TourCard from "@/components/cards/TourCard";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import {
   Select,
@@ -11,7 +11,6 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import TourCard from "@/components/cards/TourCard";
 import { useCurrency } from "@/context/CurrencyContext";
 import { mockDestinations } from "@/data/destinations";
 import { mockTours } from "@/data/tours";
@@ -143,9 +142,9 @@ export default function FindToursPage() {
     <div className="bg-slate-50 dark:bg-slate-950 min-h-screen">
       <div className="mx-auto px-6 lg:px-8 py-12 max-w-7xl">
         {/* Back Button */}
-        <Button 
-          variant="ghost" 
-          onClick={() => router.push(`/destinations/${destinationSlug}`)} 
+        <Button
+          variant="ghost"
+          onClick={() => router.push(`/destinations/${destinationSlug}`)}
           className="mb-6"
         >
           <ArrowLeft className="mr-2 w-4 h-4" />
@@ -158,15 +157,18 @@ export default function FindToursPage() {
             Tours in {destination.name}
           </h1>
           <p className="mx-auto max-w-3xl text-lg text-slate-600 dark:text-slate-400">
-            Discover amazing guided tours and experiences in {destination.name}, {destination.country}. 
-            From cultural immersions to adventure activities, find the perfect tour for your journey.
+            Discover amazing guided tours and experiences in {destination.name},{" "}
+            {destination.country}. From cultural immersions to adventure
+            activities, find the perfect tour for your journey.
           </p>
           <div className="flex justify-center items-center gap-2 mt-4">
             <MapPin className="w-5 h-5 text-slate-500" />
             <span className="text-slate-600">{destination.country}</span>
             <div className="flex items-center gap-1 ml-4">
               <Star className="w-4 h-4 text-yellow-400 fill-yellow-400" />
-              <span className="text-slate-600">{destination.rating} rating</span>
+              <span className="text-slate-600">
+                {destination.rating} rating
+              </span>
             </div>
           </div>
         </div>
@@ -189,7 +191,10 @@ export default function FindToursPage() {
 
             <div className="space-y-2">
               <label className="font-medium text-sm">Category</label>
-              <Select value={selectedCategory} onValueChange={setSelectedCategory}>
+              <Select
+                value={selectedCategory}
+                onValueChange={setSelectedCategory}
+              >
                 <SelectTrigger>
                   <SelectValue placeholder="Select category" />
                 </SelectTrigger>
@@ -205,7 +210,10 @@ export default function FindToursPage() {
 
             <div className="space-y-2">
               <label className="font-medium text-sm">Duration</label>
-              <Select value={selectedDuration} onValueChange={setSelectedDuration}>
+              <Select
+                value={selectedDuration}
+                onValueChange={setSelectedDuration}
+              >
                 <SelectTrigger>
                   <SelectValue placeholder="Select duration" />
                 </SelectTrigger>
@@ -243,7 +251,12 @@ export default function FindToursPage() {
                   type="number"
                   placeholder="Min"
                   value={priceRange[0]}
-                  onChange={(e) => setPriceRange([parseInt(e.target.value) || 0, priceRange[1]])}
+                  onChange={(e) =>
+                    setPriceRange([
+                      parseInt(e.target.value) || 0,
+                      priceRange[1],
+                    ])
+                  }
                   className="w-20"
                 />
                 <span>-</span>
@@ -251,7 +264,12 @@ export default function FindToursPage() {
                   type="number"
                   placeholder="Max"
                   value={priceRange[1]}
-                  onChange={(e) => setPriceRange([priceRange[0], parseInt(e.target.value) || 1000])}
+                  onChange={(e) =>
+                    setPriceRange([
+                      priceRange[0],
+                      parseInt(e.target.value) || 1000,
+                    ])
+                  }
                   className="w-20"
                 />
               </div>
@@ -266,7 +284,8 @@ export default function FindToursPage() {
         {/* Results */}
         <div className="mb-6">
           <p className="text-slate-600 dark:text-slate-400">
-            Found {filteredTours.length} tour{filteredTours.length !== 1 ? 's' : ''} in {destination.name}
+            Found {filteredTours.length} tour
+            {filteredTours.length !== 1 ? "s" : ""} in {destination.name}
           </p>
         </div>
 
@@ -284,7 +303,7 @@ export default function FindToursPage() {
 
         {filteredTours.length === 0 && (
           <div className="py-20 text-center">
-            <div className="mx-auto mb-4 w-16 h-16 bg-slate-200 dark:bg-slate-700 rounded-full flex items-center justify-center">
+            <div className="flex justify-center items-center bg-slate-200 dark:bg-slate-700 mx-auto mb-4 rounded-full w-16 h-16">
               <MapPin className="w-8 h-8 text-slate-400" />
             </div>
             <h3 className="mb-2 font-semibold text-lg text-slate-900 dark:text-white">
@@ -293,13 +312,17 @@ export default function FindToursPage() {
             <p className="text-slate-600 dark:text-slate-400">
               Try adjusting your search criteria or browse all tours.
             </p>
-            <Button variant="outline" className="mt-4" onClick={() => {
-              setSearchQuery("");
-              setSelectedCategory("all");
-              setSelectedDuration("all");
-              setPriceRange([0, 1000]);
-              setFilteredTours(mockTours);
-            }}>
+            <Button
+              variant="outline"
+              className="mt-4"
+              onClick={() => {
+                setSearchQuery("");
+                setSelectedCategory("all");
+                setSelectedDuration("all");
+                setPriceRange([0, 1000]);
+                setFilteredTours(mockTours);
+              }}
+            >
               Clear filters
             </Button>
           </div>
@@ -311,22 +334,28 @@ export default function FindToursPage() {
             <div className="text-center">
               <Clock className="mx-auto mb-2 w-8 h-8 text-blue-500" />
               <h3 className="mb-1 font-semibold">Best Time to Visit</h3>
-              <p className="text-sm text-slate-600">{destination.bestTimeToVisit.join(", ")}</p>
+              <p className="text-slate-600 text-sm">
+                {destination.bestTimeToVisit.join(", ")}
+              </p>
             </div>
             <div className="text-center">
               <Users className="mx-auto mb-2 w-8 h-8 text-green-500" />
               <h3 className="mb-1 font-semibold">Popular With</h3>
-              <p className="text-sm text-slate-600">{destination.popularWith.join(", ")}</p>
+              <p className="text-slate-600 text-sm">
+                {destination.popularWith.join(", ")}
+              </p>
             </div>
             <div className="text-center">
               <Calendar className="mx-auto mb-2 w-8 h-8 text-orange-500" />
               <h3 className="mb-1 font-semibold">Average Temperature</h3>
-              <p className="text-sm text-slate-600">{destination.climate.averageTemperature}</p>
+              <p className="text-slate-600 text-sm">
+                {destination.climate.averageTemperature}
+              </p>
             </div>
             <div className="text-center">
               <Star className="mx-auto mb-2 w-8 h-8 text-yellow-500" />
               <h3 className="mb-1 font-semibold">Destination Rating</h3>
-              <p className="text-sm text-slate-600">{destination.rating}/5.0</p>
+              <p className="text-slate-600 text-sm">{destination.rating}/5.0</p>
             </div>
           </div>
         </Card>

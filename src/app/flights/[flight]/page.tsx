@@ -1,11 +1,9 @@
 "use client";
 
-import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { Separator } from "@/components/ui/separator";
 import {
   Select,
   SelectContent,
@@ -13,6 +11,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import { Separator } from "@/components/ui/separator";
 import { cartHelpers, useCart } from "@/context/CartContext";
 import { useCurrency } from "@/context/CurrencyContext";
 import { mockFlights } from "@/data/flights";
@@ -20,17 +19,15 @@ import { formatToSlug } from "@/lib/utils/format";
 import {
   ArrowLeft,
   Calendar,
-  Clock,
-  Plane,
-  MapPin,
-  Users,
-  Wifi,
-  Star,
   CheckCircle,
+  Clock,
   Luggage,
-  Utensils,
-  Tv,
+  MapPin,
+  Plane,
   Shield,
+  Star,
+  Tv,
+  Utensils,
 } from "lucide-react";
 import { useParams, useRouter } from "next/navigation";
 import { useState } from "react";
@@ -115,12 +112,12 @@ export default function FlightDetailsPage() {
 
         <div className="gap-8 grid grid-cols-1 lg:grid-cols-3">
           {/* Main Content */}
-          <div className="lg:col-span-2 space-y-6">
+          <div className="space-y-6 lg:col-span-2">
             {/* Flight Overview */}
             <Card>
               <CardHeader>
                 <div className="flex items-center gap-3">
-                  <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center">
+                  <div className="flex justify-center items-center bg-blue-100 dark:bg-blue-900 rounded-full w-12 h-12">
                     <Plane className="w-6 h-6 text-blue-600 dark:text-blue-300" />
                   </div>
                   <div>
@@ -129,10 +126,10 @@ export default function FlightDetailsPage() {
                       {flight.flightNumber} • {flight.aircraft}
                     </p>
                   </div>
-                  <div className="ml-auto flex items-center gap-1">
+                  <div className="flex items-center gap-1 ml-auto">
                     <Star className="w-5 h-5 text-yellow-400 fill-yellow-400" />
                     <span className="font-semibold">{flight.rating}</span>
-                    <span className="text-sm text-slate-600">
+                    <span className="text-slate-600 text-sm">
                       ({flight.reviews} reviews)
                     </span>
                   </div>
@@ -153,7 +150,7 @@ export default function FlightDetailsPage() {
                         <span className="font-bold text-xl">
                           {flight.departure.time}
                         </span>
-                        <span className="text-sm text-slate-600">
+                        <span className="text-slate-600 text-sm">
                           {flight.departure.timezone}
                         </span>
                       </div>
@@ -163,7 +160,7 @@ export default function FlightDetailsPage() {
                           <p className="font-semibold">
                             {flight.origin.airport}
                           </p>
-                          <p className="text-sm text-slate-600">
+                          <p className="text-slate-600 text-sm">
                             {flight.origin.city} ({flight.origin.code}) •{" "}
                             {flight.origin.terminal}
                           </p>
@@ -185,7 +182,7 @@ export default function FlightDetailsPage() {
                         <span className="font-bold text-xl">
                           {flight.arrival.time}
                         </span>
-                        <span className="text-sm text-slate-600">
+                        <span className="text-slate-600 text-sm">
                           {flight.arrival.timezone}
                         </span>
                       </div>
@@ -195,9 +192,9 @@ export default function FlightDetailsPage() {
                           <p className="font-semibold">
                             {flight.destination.airport}
                           </p>
-                          <p className="text-sm text-slate-600">
-                            {flight.destination.city} ({flight.destination.code}) •{" "}
-                            {flight.destination.terminal}
+                          <p className="text-slate-600 text-sm">
+                            {flight.destination.city} ({flight.destination.code}
+                            ) • {flight.destination.terminal}
                           </p>
                         </div>
                       </div>
@@ -207,30 +204,38 @@ export default function FlightDetailsPage() {
 
                 {/* Flight Route */}
                 <div className="mt-8">
-                  <div className="flex items-center justify-center">
+                  <div className="flex justify-center items-center">
                     <div className="text-center">
                       <p className="font-bold text-lg">{flight.origin.code}</p>
-                      <p className="text-sm text-slate-600">{flight.origin.city}</p>
+                      <p className="text-slate-600 text-sm">
+                        {flight.origin.city}
+                      </p>
                     </div>
-                    
-                    <div className="flex-1 mx-8 relative">
-                      <div className="border-t-2 border-slate-300"></div>
-                      <div className="top-[-8px] left-1/2 absolute transform -translate-x-1/2 w-4 h-4 bg-blue-500 rounded-full"></div>
-                      <p className="mt-2 font-semibold text-center text-blue-600">
+
+                    <div className="relative flex-1 mx-8">
+                      <div className="border-slate-300 border-t-2"></div>
+                      <div className="top-[-8px] left-1/2 absolute bg-blue-500 rounded-full w-4 h-4 transform -translate-x-1/2"></div>
+                      <p className="mt-2 font-semibold text-blue-600 text-center">
                         {flight.duration}
                       </p>
                       {flight.stops === 0 ? (
-                        <p className="text-center text-sm text-green-600">Non-stop</p>
+                        <p className="text-center text-green-600 text-sm">
+                          Non-stop
+                        </p>
                       ) : (
-                        <p className="text-center text-sm text-orange-600">
-                          {flight.stops} stop{flight.stops > 1 ? 's' : ''}
+                        <p className="text-center text-orange-600 text-sm">
+                          {flight.stops} stop{flight.stops > 1 ? "s" : ""}
                         </p>
                       )}
                     </div>
-                    
+
                     <div className="text-center">
-                      <p className="font-bold text-lg">{flight.destination.code}</p>
-                      <p className="text-sm text-slate-600">{flight.destination.city}</p>
+                      <p className="font-bold text-lg">
+                        {flight.destination.code}
+                      </p>
+                      <p className="text-slate-600 text-sm">
+                        {flight.destination.city}
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -255,13 +260,17 @@ export default function FlightDetailsPage() {
                       ))}
                     </div>
                   </div>
-                  
+
                   <div>
-                    <h4 className="mb-3 font-semibold">Entertainment & Dining</h4>
+                    <h4 className="mb-3 font-semibold">
+                      Entertainment & Dining
+                    </h4>
                     <div className="space-y-2">
                       <div className="flex items-center gap-2">
                         <Tv className="w-4 h-4 text-blue-500" />
-                        <span className="text-sm">{flight.entertainment.join(", ")}</span>
+                        <span className="text-sm">
+                          {flight.entertainment.join(", ")}
+                        </span>
                       </div>
                       <div className="flex items-center gap-2">
                         <Utensils className="w-4 h-4 text-orange-500" />
@@ -300,38 +309,53 @@ export default function FlightDetailsPage() {
               </CardHeader>
               <CardContent>
                 <div className="gap-4 grid grid-cols-1 md:grid-cols-3">
-                  <div className={`p-4 border rounded-lg cursor-pointer transition-colors ${
-                    selectedClass === "economy" ? "border-blue-500 bg-blue-50 dark:bg-blue-950/20" : "border-slate-200"
-                  }`} onClick={() => setSelectedClass("economy")}>
+                  <div
+                    className={`p-4 border rounded-lg cursor-pointer transition-colors ${
+                      selectedClass === "economy"
+                        ? "border-blue-500 bg-blue-50 dark:bg-blue-950/20"
+                        : "border-slate-200"
+                    }`}
+                    onClick={() => setSelectedClass("economy")}
+                  >
                     <h4 className="mb-2 font-semibold">Economy</h4>
                     <p className="mb-2 font-bold text-2xl text-blue-600">
                       {formatPrice(flight.pricing.economy)}
                     </p>
-                    <p className="text-sm text-slate-600">
+                    <p className="text-slate-600 text-sm">
                       {flight.availability.economy} seats available
                     </p>
                   </div>
 
-                  <div className={`p-4 border rounded-lg cursor-pointer transition-colors ${
-                    selectedClass === "business" ? "border-blue-500 bg-blue-50 dark:bg-blue-950/20" : "border-slate-200"
-                  }`} onClick={() => setSelectedClass("business")}>
+                  <div
+                    className={`p-4 border rounded-lg cursor-pointer transition-colors ${
+                      selectedClass === "business"
+                        ? "border-blue-500 bg-blue-50 dark:bg-blue-950/20"
+                        : "border-slate-200"
+                    }`}
+                    onClick={() => setSelectedClass("business")}
+                  >
                     <h4 className="mb-2 font-semibold">Business</h4>
                     <p className="mb-2 font-bold text-2xl text-blue-600">
                       {formatPrice(flight.pricing.business)}
                     </p>
-                    <p className="text-sm text-slate-600">
+                    <p className="text-slate-600 text-sm">
                       {flight.availability.business} seats available
                     </p>
                   </div>
 
-                  <div className={`p-4 border rounded-lg cursor-pointer transition-colors ${
-                    selectedClass === "first" ? "border-blue-500 bg-blue-50 dark:bg-blue-950/20" : "border-slate-200"
-                  }`} onClick={() => setSelectedClass("first")}>
+                  <div
+                    className={`p-4 border rounded-lg cursor-pointer transition-colors ${
+                      selectedClass === "first"
+                        ? "border-blue-500 bg-blue-50 dark:bg-blue-950/20"
+                        : "border-slate-200"
+                    }`}
+                    onClick={() => setSelectedClass("first")}
+                  >
                     <h4 className="mb-2 font-semibold">First Class</h4>
                     <p className="mb-2 font-bold text-2xl text-blue-600">
                       {formatPrice(flight.pricing.first)}
                     </p>
-                    <p className="text-sm text-slate-600">
+                    <p className="text-slate-600 text-sm">
                       {flight.availability.first} seats available
                     </p>
                   </div>
@@ -365,20 +389,25 @@ export default function FlightDetailsPage() {
                     type="date"
                     value={returnDate}
                     onChange={(e) => setReturnDate(e.target.value)}
-                    min={departureDate || new Date().toISOString().split("T")[0]}
+                    min={
+                      departureDate || new Date().toISOString().split("T")[0]
+                    }
                   />
                 </div>
 
                 <div className="space-y-2">
                   <Label htmlFor="passengers">Passengers</Label>
-                  <Select value={passengers.toString()} onValueChange={(value) => setPassengers(parseInt(value))}>
+                  <Select
+                    value={passengers.toString()}
+                    onValueChange={(value) => setPassengers(parseInt(value))}
+                  >
                     <SelectTrigger id="passengers">
                       <SelectValue />
                     </SelectTrigger>
                     <SelectContent>
                       {[1, 2, 3, 4, 5, 6, 7, 8].map((num) => (
                         <SelectItem key={num} value={num.toString()}>
-                          {num} passenger{num > 1 ? 's' : ''}
+                          {num} passenger{num > 1 ? "s" : ""}
                         </SelectItem>
                       ))}
                     </SelectContent>
@@ -399,20 +428,27 @@ export default function FlightDetailsPage() {
                   <Separator />
                   <div className="flex justify-between font-bold text-lg">
                     <span>Total</span>
-                    <span className="text-blue-600">{formatPrice(totalPrice)}</span>
+                    <span className="text-blue-600">
+                      {formatPrice(totalPrice)}
+                    </span>
                   </div>
                 </div>
 
-                <Button 
-                  onClick={handleBookFlight} 
-                  disabled={isBooking || flight.availability[selectedClass as keyof typeof flight.availability] === 0}
+                <Button
+                  onClick={handleBookFlight}
+                  disabled={
+                    isBooking ||
+                    flight.availability[
+                      selectedClass as keyof typeof flight.availability
+                    ] === 0
+                  }
                   className="w-full"
                   size="lg"
                 >
                   {isBooking ? "Adding to Cart..." : "Add to Cart"}
                 </Button>
 
-                <div className="flex items-center gap-2 pt-2 text-sm text-slate-600">
+                <div className="flex items-center gap-2 pt-2 text-slate-600 text-sm">
                   <Shield className="w-4 h-4" />
                   <span>Free cancellation up to 24 hours</span>
                 </div>
@@ -426,7 +462,9 @@ export default function FlightDetailsPage() {
               <CardContent className="space-y-3 text-sm">
                 <div className="flex justify-between">
                   <span>Route</span>
-                  <span>{flight.origin.code} → {flight.destination.code}</span>
+                  <span>
+                    {flight.origin.code} → {flight.destination.code}
+                  </span>
                 </div>
                 <div className="flex justify-between">
                   <span>Duration</span>
@@ -438,7 +476,11 @@ export default function FlightDetailsPage() {
                 </div>
                 <div className="flex justify-between">
                   <span>Stops</span>
-                  <span>{flight.stops === 0 ? "Non-stop" : `${flight.stops} stop${flight.stops > 1 ? 's' : ''}`}</span>
+                  <span>
+                    {flight.stops === 0
+                      ? "Non-stop"
+                      : `${flight.stops} stop${flight.stops > 1 ? "s" : ""}`}
+                  </span>
                 </div>
                 <div className="flex justify-between">
                   <span>Rating</span>

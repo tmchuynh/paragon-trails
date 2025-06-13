@@ -10,20 +10,18 @@ import { cartHelpers, useCart } from "@/context/CartContext";
 import { useCurrency } from "@/context/CurrencyContext";
 import { mockDestinations } from "@/data/destinations";
 import { mockTours } from "@/data/tours";
-import { formatToSlug } from "@/lib/utils/format";
 import { displayRatingStars } from "@/lib/utils/displayRatingStars";
+import { formatToSlug } from "@/lib/utils/format";
 import {
   ArrowLeft,
-  Calendar,
-  Clock,
-  MapPin,
-  Star,
-  Users,
   CheckCircle,
-  XCircle,
-  Phone,
+  Clock,
   Mail,
+  MapPin,
+  Phone,
   Shield,
+  Star,
+  XCircle,
 } from "lucide-react";
 import Image from "next/image";
 import { useParams, useRouter } from "next/navigation";
@@ -95,9 +93,9 @@ export default function TourDetailsPage() {
     <div className="bg-slate-50 dark:bg-slate-950 min-h-screen">
       <div className="mx-auto px-6 lg:px-8 py-12 max-w-7xl">
         {/* Back Button */}
-        <Button 
-          variant="ghost" 
-          onClick={() => router.push(`/destinations/${destinationSlug}/tours`)} 
+        <Button
+          variant="ghost"
+          onClick={() => router.push(`/destinations/${destinationSlug}/tours`)}
           className="mb-6"
         >
           <ArrowLeft className="mr-2 w-4 h-4" />
@@ -106,10 +104,10 @@ export default function TourDetailsPage() {
 
         <div className="gap-8 grid grid-cols-1 lg:grid-cols-3">
           {/* Main Content */}
-          <div className="lg:col-span-2 space-y-6">
+          <div className="space-y-6 lg:col-span-2">
             {/* Tour Header */}
             <div>
-              <div className="relative h-96 mb-6 rounded-xl overflow-hidden">
+              <div className="relative mb-6 rounded-xl h-96 overflow-hidden">
                 <Image
                   src={tour.images[0]}
                   alt={tour.title}
@@ -119,7 +117,10 @@ export default function TourDetailsPage() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
                 <div className="bottom-6 left-6 absolute text-white">
                   <div className="flex items-center gap-2 mb-2">
-                    <Badge variant="secondary" className="bg-white/20 text-white">
+                    <Badge
+                      variant="secondary"
+                      className="bg-white/20 text-white"
+                    >
                       {tour.tourCategoryId}
                     </Badge>
                     <div className="flex items-center gap-1">
@@ -135,7 +136,9 @@ export default function TourDetailsPage() {
                     </div>
                     <div className="flex items-center gap-1">
                       <MapPin className="w-4 h-4" />
-                      <span>{destination.name}, {destination.country}</span>
+                      <span>
+                        {destination.name}, {destination.country}
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -144,8 +147,16 @@ export default function TourDetailsPage() {
               {/* Image Gallery */}
               <div className="flex gap-2">
                 {tour.images.slice(1, 4).map((image, index) => (
-                  <div key={index} className="relative w-32 h-20 rounded-lg overflow-hidden">
-                    <Image src={image} alt={`${tour.title} ${index + 2}`} fill className="object-cover" />
+                  <div
+                    key={index}
+                    className="relative rounded-lg w-32 h-20 overflow-hidden"
+                  >
+                    <Image
+                      src={image}
+                      alt={`${tour.title} ${index + 2}`}
+                      fill
+                      className="object-cover"
+                    />
                   </div>
                 ))}
               </div>
@@ -160,7 +171,7 @@ export default function TourDetailsPage() {
                 <p className="mb-4 text-slate-600 dark:text-slate-400">
                   {tour.description}
                 </p>
-                
+
                 {tour.tags && (
                   <div className="flex flex-wrap gap-2">
                     {tour.tags.map((tag, index) => (
@@ -183,7 +194,7 @@ export default function TourDetailsPage() {
                   <ul className="space-y-2">
                     {tour.highlights.map((highlight, index) => (
                       <li key={index} className="flex items-start gap-2">
-                        <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" />
+                        <CheckCircle className="flex-shrink-0 mt-0.5 w-5 h-5 text-green-500" />
                         <span>{highlight}</span>
                       </li>
                     ))}
@@ -202,10 +213,12 @@ export default function TourDetailsPage() {
                   <div className="space-y-3">
                     {tour.itinerary.map((item, index) => (
                       <div key={index} className="flex gap-3">
-                        <div className="w-8 h-8 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center text-sm font-semibold text-blue-600 dark:text-blue-300 flex-shrink-0">
+                        <div className="flex flex-shrink-0 justify-center items-center bg-blue-100 dark:bg-blue-900 rounded-full w-8 h-8 font-semibold text-blue-600 text-sm dark:text-blue-300">
                           {index + 1}
                         </div>
-                        <p className="text-slate-600 dark:text-slate-400">{item}</p>
+                        <p className="text-slate-600 dark:text-slate-400">
+                          {item}
+                        </p>
                       </div>
                     ))}
                   </div>
@@ -218,13 +231,15 @@ export default function TourDetailsPage() {
               {tour.inclusions && tour.inclusions.length > 0 && (
                 <Card>
                   <CardHeader>
-                    <CardTitle className="text-green-600">What's Included</CardTitle>
+                    <CardTitle className="text-green-600">
+                      What's Included
+                    </CardTitle>
                   </CardHeader>
                   <CardContent>
                     <ul className="space-y-2">
                       {tour.inclusions.map((inclusion, index) => (
                         <li key={index} className="flex items-start gap-2">
-                          <CheckCircle className="w-4 h-4 text-green-500 mt-0.5 flex-shrink-0" />
+                          <CheckCircle className="flex-shrink-0 mt-0.5 w-4 h-4 text-green-500" />
                           <span className="text-sm">{inclusion}</span>
                         </li>
                       ))}
@@ -236,13 +251,15 @@ export default function TourDetailsPage() {
               {tour.exclusions && tour.exclusions.length > 0 && (
                 <Card>
                   <CardHeader>
-                    <CardTitle className="text-red-600">What's Not Included</CardTitle>
+                    <CardTitle className="text-red-600">
+                      What's Not Included
+                    </CardTitle>
                   </CardHeader>
                   <CardContent>
                     <ul className="space-y-2">
                       {tour.exclusions.map((exclusion, index) => (
                         <li key={index} className="flex items-start gap-2">
-                          <XCircle className="w-4 h-4 text-red-500 mt-0.5 flex-shrink-0" />
+                          <XCircle className="flex-shrink-0 mt-0.5 w-4 h-4 text-red-500" />
                           <span className="text-sm">{exclusion}</span>
                         </li>
                       ))}
@@ -260,21 +277,24 @@ export default function TourDetailsPage() {
                 </CardHeader>
                 <CardContent className="space-y-3">
                   <div className="flex items-start gap-2">
-                    <MapPin className="w-5 h-5 text-red-500 mt-0.5 flex-shrink-0" />
+                    <MapPin className="flex-shrink-0 mt-0.5 w-5 h-5 text-red-500" />
                     <div>
                       <p className="font-semibold">Address</p>
-                      <p className="text-sm text-slate-600">
-                        {tour.meetingPoint.address || "Meeting point details will be provided after booking"}
+                      <p className="text-slate-600 text-sm">
+                        {tour.meetingPoint.address ||
+                          "Meeting point details will be provided after booking"}
                       </p>
                     </div>
                   </div>
 
                   {tour.meetingPoint.instructions && (
                     <div className="flex items-start gap-2">
-                      <Shield className="w-5 h-5 text-blue-500 mt-0.5 flex-shrink-0" />
+                      <Shield className="flex-shrink-0 mt-0.5 w-5 h-5 text-blue-500" />
                       <div>
                         <p className="font-semibold">Instructions</p>
-                        <p className="text-sm text-slate-600">{tour.meetingPoint.instructions}</p>
+                        <p className="text-slate-600 text-sm">
+                          {tour.meetingPoint.instructions}
+                        </p>
                       </div>
                     </div>
                   )}
@@ -283,9 +303,9 @@ export default function TourDetailsPage() {
                     {tour.meetingPoint.contactNumber && (
                       <div className="flex items-center gap-2">
                         <Phone className="w-4 h-4 text-green-500" />
-                        <a 
+                        <a
                           href={`tel:${tour.meetingPoint.contactNumber}`}
-                          className="text-sm text-blue-600 hover:underline"
+                          className="text-blue-600 text-sm hover:underline"
                         >
                           {tour.meetingPoint.contactNumber}
                         </a>
@@ -295,9 +315,9 @@ export default function TourDetailsPage() {
                     {tour.meetingPoint.contactEmail && (
                       <div className="flex items-center gap-2">
                         <Mail className="w-4 h-4 text-blue-500" />
-                        <a 
+                        <a
                           href={`mailto:${tour.meetingPoint.contactEmail}`}
-                          className="text-sm text-blue-600 hover:underline"
+                          className="text-blue-600 text-sm hover:underline"
                         >
                           {tour.meetingPoint.contactEmail}
                         </a>
@@ -314,8 +334,9 @@ export default function TourDetailsPage() {
                 <CardTitle>Cancellation Policy</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm text-slate-600">
-                  {tour.cancellationPolicy || "Standard cancellation policy applies. Please contact us for specific terms and conditions."}
+                <p className="text-slate-600 text-sm">
+                  {tour.cancellationPolicy ||
+                    "Standard cancellation policy applies. Please contact us for specific terms and conditions."}
                 </p>
               </CardContent>
             </Card>
@@ -329,8 +350,10 @@ export default function TourDetailsPage() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="text-center">
-                  <p className="font-bold text-3xl text-blue-600">{tour.price}</p>
-                  <p className="text-sm text-slate-600">per person</p>
+                  <p className="font-bold text-3xl text-blue-600">
+                    {tour.price}
+                  </p>
+                  <p className="text-slate-600 text-sm">per person</p>
                 </div>
 
                 <Separator />
@@ -373,13 +396,15 @@ export default function TourDetailsPage() {
                   <div className="flex justify-between font-bold text-lg">
                     <span>Total</span>
                     <span className="text-blue-600">
-                      {formatPrice(parseFloat(tour.price.replace(/[^0-9.]/g, "")) * guests)}
+                      {formatPrice(
+                        parseFloat(tour.price.replace(/[^0-9.]/g, "")) * guests
+                      )}
                     </span>
                   </div>
                 </div>
 
-                <Button 
-                  onClick={handleBookTour} 
+                <Button
+                  onClick={handleBookTour}
                   disabled={isBooking}
                   className="w-full"
                   size="lg"
@@ -387,7 +412,7 @@ export default function TourDetailsPage() {
                   {isBooking ? "Adding to Cart..." : "Add to Cart"}
                 </Button>
 
-                <div className="flex items-center gap-2 pt-2 text-sm text-slate-600">
+                <div className="flex items-center gap-2 pt-2 text-slate-600 text-sm">
                   <Shield className="w-4 h-4" />
                   <span>Flexible cancellation available</span>
                 </div>
