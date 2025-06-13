@@ -1,5 +1,6 @@
 "use client";
 
+import { CartProvider } from "@/context/CartContext";
 import { NotFoundProvider } from "@/context/NotFoundContext";
 import { ThemeProvider } from "next-themes";
 import { JSX, ReactNode } from "react";
@@ -15,7 +16,9 @@ import { JSX, ReactNode } from "react";
 export function Providers({ children }: { children: ReactNode }): JSX.Element {
   return (
     <ThemeProvider attribute="class" defaultTheme="light" enableSystem={true}>
-      <NotFoundProvider>{children}</NotFoundProvider>
+      <NotFoundProvider>
+        <CartProvider>{children}</CartProvider>
+      </NotFoundProvider>
     </ThemeProvider>
   );
 }
