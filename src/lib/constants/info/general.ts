@@ -1,20 +1,20 @@
-import { FiUsers, FiMap, FiHeart } from "react-icons/fi";
-import {
-  RiHotelLine,
-  RiCommunityLine,
-  RiRecycleLine,
-  RiPlaneLine,
-  RiEarthLine,
-  RiKnifeLine,
-} from "react-icons/ri";
+import { BsBank } from "react-icons/bs";
+import { FiHeart, FiMap, FiUsers } from "react-icons/fi";
 import {
   GiElephant,
   GiNetworkBars,
   GiOpenBook,
   GiTribalGear,
 } from "react-icons/gi";
-import { BsBank } from "react-icons/bs";
 import { MdOutlineEmojiNature } from "react-icons/md";
+import {
+  RiCommunityLine,
+  RiEarthLine,
+  RiHotelLine,
+  RiKnifeLine,
+  RiPlaneLine,
+  RiRecycleLine,
+} from "react-icons/ri";
 
 export const currencyRates = {
   USD: 1,
@@ -55,13 +55,7 @@ export const currencyRates = {
   UYU: 40.2, // Uruguayan Peso
   VND: 24000, // Vietnamese Dong
   RUB: 78.5, // Russian Ruble
-  DKK: 6.95, // Danish Krone (already included, repeated for clarity)
-  CHF: 0.9, // Swiss Franc (already included)
-  NOK: 10.5, // Norwegian Krone (already included)
-  SEK: 10.65, // Swedish Krona (already included)
 };
-
-
 
 export const teamMembers = [
   {
