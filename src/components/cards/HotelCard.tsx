@@ -42,7 +42,7 @@ export default function HotelCard({
   guests = { adults: 2, children: 0 },
 }: HotelCardProps) {
   const router = useRouter();
-  const { dispatch } = useCart();
+  const { state: cartState, dispatch } = useCart();
   const { formatPrice } = useCurrency();
   const [isAddingToCart, setIsAddingToCart] = useState(false);
 
@@ -67,7 +67,7 @@ export default function HotelCard({
     setIsAddingToCart(true);
 
     const hotelItem = {
-      id: `${formatToSlug(hotel.name)}-${Math.random().toString(36).substr(2, 9)}`,
+      id: `hotel-${formatToSlug(hotel.name)}-${checkInDate}-${checkOutDate}`,
       type: "hotel" as const,
       name: hotel.name,
       description: `${hotel.starRating}-star ${hotel.type} in ${hotel.location.city}`,
@@ -82,6 +82,13 @@ export default function HotelCard({
       features: hotel.amenities.general.slice(0, 3),
       cancellationPolicy: hotel.policies.cancellation,
     };
+
+    // Check if this exact hotel booking already exists
+    if (cartHelpers.checkIfDuplicate(cartState.items, hotelItem)) {
+      toast.error(`${hotel.name} for these dates is already in your cart`);
+      setIsAddingToCart(false);
+      return;
+    }
 
     cartHelpers.addItem(dispatch, hotelItem);
     toast.success(`${hotel.name} added to cart!`);
