@@ -25,13 +25,14 @@ import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
 export default function CartSummaryPage() {
-  const { state } = useCart();
+  const { state, dispatch } = useCart();
   const { formatPrice } = useCurrency();
   const router = useRouter();
   const [isProcessing, setIsProcessing] = useState(false);
   const [paymentMethod, setPaymentMethod] = useState("card");
   const [termsAccepted, setTermsAccepted] = useState(false);
   const [bookingComplete, setBookingComplete] = useState(false);
+  const [confirmationNumber, setConfirmationNumber] = useState("");
 
   // Redirect if cart is empty
   useEffect(() => {
@@ -56,6 +57,13 @@ export default function CartSummaryPage() {
     // Simulate payment processing
     await new Promise((resolve) => setTimeout(resolve, 2000));
 
+    // Generate confirmation number
+    const confirmation = `PT${Date.now().toString().slice(-6).toUpperCase()}${Math.random().toString(36).substr(2, 3).toUpperCase()}`;
+    setConfirmationNumber(confirmation);
+
+    // Clear the cart
+    dispatch({ type: 'CLEAR_CART' });
+
     setBookingComplete(true);
     setIsProcessing(false);
   };
@@ -78,9 +86,17 @@ export default function CartSummaryPage() {
           <h1 className="mb-4 font-bold text-2xl text-slate-900 dark:text-white">
             Booking Confirmed!
           </h1>
+          <div className="bg-slate-100 dark:bg-slate-800 mb-6 p-4 rounded-lg">
+            <p className="mb-2 font-medium text-slate-700 text-sm dark:text-slate-300">
+              Confirmation Number
+            </p>
+            <p className="font-mono font-bold text-lg text-slate-900 dark:text-white">
+              {confirmationNumber}
+            </p>
+          </div>
           <p className="mb-8 text-slate-600 dark:text-slate-400">
             Your travel experiences have been successfully booked. You'll
-            receive a confirmation email shortly.
+            receive a confirmation email shortly with all the details.
           </p>
           <div className="space-y-3">
             <Button

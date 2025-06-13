@@ -2,6 +2,7 @@ import BackToTop from "@/components/button/BackToTop";
 import DynamicBreadcrumb from "@/components/navigation/dynamic-breadcrumb";
 import Footer from "@/components/navigation/Footer";
 import Header from "@/components/navigation/Header";
+import { Toaster } from "@/components/ui/sonner";
 import "./globals.css";
 import { Providers } from "./provider";
 
@@ -21,6 +22,7 @@ export default function RootLayout({
             <BackToTop />
             <Footer />
           </main>
+          <Toaster />
         </Providers>
       </body>
     </html>
