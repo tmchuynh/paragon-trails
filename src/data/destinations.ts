@@ -5,6 +5,7 @@ export const mockDestinations: Destination[] = [
     id: "1",
     name: "Paris",
     country: "France",
+    continent: "Europe",
     region: "Western Europe",
     description: "The City of Light, renowned for its art, fashion, gastronomy, and culture. Paris captivates visitors with its iconic landmarks, world-class museums, and romantic atmosphere.",
     images: [
@@ -12,22 +13,57 @@ export const mockDestinations: Destination[] = [
       "https://images.unsplash.com/photo-1549144511-f099e773c147?w=1200&h=600&fit=crop",
       "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=1200&h=600&fit=crop",
     ],
+    popularWith: ["Couples", "Art lovers", "Food enthusiasts", "Culture seekers"],
+    population: 2161000,
+    capital: "Paris",
+    area: {
+      total: 105.4,
+      unit: "km²"
+    },
+    geography: {
+      terrain: "Urban cityscape along the Seine River",
+      elevation: {
+        average: 35,
+        highest: 130,
+        lowest: 28,
+        unit: "meters"
+      },
+      landmarks: ["Seine River", "Ile de la Cité", "Montmartre Hill"]
+    },
+    connectivity: {
+      internetSpeed: "High-speed fiber",
+      wifiAvailability: true,
+      mobileNetworkCoverage: "Excellent"
+    },
+    visaRequirements: "Schengen visa for stays over 90 days for non-EU citizens",
     climate: {
-      season: "Temperate",
+      season: "Temperate oceanic",
       temperature: {
         high: 25,
         low: 3,
         unit: "°C"
       },
       rainfall: "Moderate throughout year",
-      humidity: "65-75%"
+      humidity: "65-75%",
+      averageTemperature: 12
     },
     currency: {
       code: "EUR",
       symbol: "€",
       name: "Euro"
     },
-    language: ["French", "English (tourist areas)"],
+    pricing: {
+      averageDailyBudget: 150,
+      accommodationRange: {
+        budget: 80,
+        midRange: 150,
+        luxury: 400
+      },
+      foodAndDrink: 50,
+      transportation: 15,
+      activitiesAndAttractions: 35
+    },
+    language: ["French", "English"],
     timezone: "CET (UTC+1)",
     highlights: [
       "Eiffel Tower",
@@ -41,9 +77,17 @@ export const mockDestinations: Destination[] = [
     attractions: ["Eiffel Tower", "Louvre Museum", "Arc de Triomphe", "Sacré-Cœur", "Palace of Versailles"],
     activities: ["Seine River Cruise", "Food Walking Tours", "Art Museum Visits", "Shopping", "Cabaret Shows"],
     cuisine: ["Croissants", "French Onion Soup", "Coq au Vin", "Macarons", "Wine Tasting"],
-    culture: ["Art Galleries", "Opera", "Fashion", "Literature", "Architecture"],
+    culture: {
+      festivals: ["Bastille Day", "Nuit Blanche", "Paris Fashion Week"],
+      traditions: ["Café culture", "Sunday market visits", "Evening strolls"],
+      artsAndCrafts: ["Fashion design", "Perfume making", "Patisserie"],
+      musicAndDance: ["Cabaret", "Classical music", "Jazz"],
+      localCustoms: ["Greeting with kisses", "Long lunch breaks", "Evening aperitifs"],
+      languages: ["French", "English"],
+      cuisine: ["French pastries", "Wine", "Cheese", "Haute cuisine"]
+    },
     transportation: {
-      airport: "Charles de Gaulle (CDG), Orly (ORY)",
+      airports: ["Charles de Gaulle (CDG)", "Orly (ORY)"],
       publicTransport: ["Metro", "Bus", "RER", "Trams"],
       taxi: true,
       rental: true
@@ -67,8 +111,12 @@ export const mockDestinations: Destination[] = [
     },
     safety: {
       level: "Generally Safe",
-      advisories: ["Pickpocketing in tourist areas", "Be aware of scams near attractions"]
-    }
+      advisories: ["Pickpocketing in tourist areas", "Be aware of scams near attractions"],
+      crimeRate: "Low to moderate",
+      healthRisks: ["None significant"],
+      emergencyNumber: "112"
+    },
+    tradition: ["Art appreciation", "Wine culture", "Fashion consciousness", "Culinary excellence"]
   },
   {
     id: "2",
