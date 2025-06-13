@@ -11,15 +11,19 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import { cartHelpers, useCart } from "@/context/CartContext";
 import { useCurrency } from "@/context/CurrencyContext";
 import { mockFlights } from "@/data/flights";
+import { formatToSlug } from "@/lib/utils/format";
 import { Plane, Search, Star, Wifi } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
+import { toast } from "sonner";
 
 export default function FlightsPage() {
   const router = useRouter();
   const { formatPrice } = useCurrency();
+  const { dispatch } = useCart();
   const [searchQuery, setSearchQuery] = useState("");
   const [fromLocation, setFromLocation] = useState<string>("");
   const [toLocation, setToLocation] = useState<string>("");
