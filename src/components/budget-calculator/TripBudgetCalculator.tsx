@@ -637,3 +637,5 @@ function TripBudgetCalculator() {
     </div>
   );
 }
+
+export { TripBudgetCalculator };
