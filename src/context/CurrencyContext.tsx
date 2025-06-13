@@ -68,8 +68,12 @@ export const CurrencyProvider: React.FC<{ children: React.ReactNode }> = ({
       setError(null);
 
       const apiKey = process.env.NEXT_PUBLIC_EXCHANGE_RATE_API_KEY;
+      
+      // If no API key, use fallback rates immediately
       if (!apiKey) {
-        throw new Error("Exchange rate API key not found");
+        console.warn("Exchange rate API key not found. Using fallback rates.");
+        useFallbackRates();
+        return;
       }
 
       const response = await fetch(
@@ -77,35 +81,42 @@ export const CurrencyProvider: React.FC<{ children: React.ReactNode }> = ({
       );
 
       if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
+        console.warn(`Exchange rate API error: ${response.status}. Using fallback rates.`);
+        useFallbackRates();
+        return;
       }
 
       const data = await response.json();
 
       if (data.result !== "success") {
-        throw new Error(data["error-type"] || "Failed to fetch exchange rates");
+        console.warn(`Exchange rate API error: ${data["error-type"] || "Unknown"}. Using fallback rates.`);
+        useFallbackRates();
+        return;
       }
 
       setRates(data.conversion_rates);
     } catch (err) {
-      console.error("Error fetching exchange rates:", err);
-      setError(err instanceof Error ? err.message : "Unknown error occurred");
-
-      // Fallback rates if API fails
-      setRates({
-        USD: 1,
-        EUR: 0.85,
-        GBP: 0.73,
-        JPY: 110,
-        AUD: 1.35,
-        CAD: 1.25,
-        CNY: 6.45,
-        INR: 74.5,
-        RUB: 75,
-      });
+      console.warn("Error fetching exchange rates:", err);
+      useFallbackRates();
     } finally {
       setIsLoading(false);
     }
+  };
+
+  const useFallbackRates = () => {
+    // Use static fallback rates (approximate values as of 2024)
+    setRates({
+      USD: 1,
+      EUR: 0.92,
+      GBP: 0.79,
+      JPY: 149.5,
+      AUD: 1.52,
+      CAD: 1.36,
+      CNY: 7.23,
+      INR: 83.1,
+      RUB: 92.5,
+    });
+    setError(null); // Don't show error for fallback rates
   };
 
   useEffect(() => {
