@@ -3,8 +3,13 @@
  * @param str - The string to capitalize
  * @returns The capitalized string
  */
-export function capitalize(str: string): string {
+export function capitalize(str: string | string[]): string {
   if (!str) return str;
+
+  if (Array.isArray(str)) {
+    return str.map((s) => capitalize(s)).join(" ");
+  }
+
   return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
 }
 
@@ -84,4 +89,13 @@ export function formatToSlug(str: string): string {
     .trim()
     .replace(/[\s\W-]+/g, "-") // Replace spaces and non-word characters with hyphens
     .replace(/^-+|-+$/g, ""); // Remove leading and trailing hyphens
+}
+
+export function kebabToTitle(str: string): string {
+  if (!str) return str;
+
+  return str
+    .split("-")
+    .map((word) => capitalize(word))
+    .join(" ");
 }
