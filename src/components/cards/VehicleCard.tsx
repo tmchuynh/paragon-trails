@@ -4,14 +4,6 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import {
-  Sheet,
-  SheetContent,
-  SheetDescription,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger,
-} from "@/components/ui/sheet";
 import { cartHelpers, useCart } from "@/context/CartContext";
 import { Vehicle } from "@/lib/interfaces/services/vehicles";
 import { formatToSlug } from "@/lib/utils/format";
@@ -95,7 +87,7 @@ export default function VehicleCard({
   };
 
   return (
-    <Card className="hover:shadow-xl transition-shadow overflow-hidden">
+    <Card className="hover:shadow-xl p-0 transition-shadow overflow-hidden">
       <CardContent className="p-0">
         <div className="relative h-48">
           <Image
@@ -206,200 +198,24 @@ export default function VehicleCard({
 
           {/* Action Buttons */}
           <div className="gap-2 grid grid-cols-2">
-            <Sheet>
-              <SheetTrigger asChild>
-                <Button variant="outline" className="w-full">
-                  <Info className="mr-2 w-4 h-4" />
-                  Details
-                </Button>
-              </SheetTrigger>
-              <SheetContent className="w-full sm:max-w-lg overflow-y-auto">
-                <SheetHeader>
-                  <SheetTitle>{vehicle.name}</SheetTitle>
-                  <SheetDescription>
-                    {vehicle.brand} {vehicle.model} ({vehicle.year})
-                  </SheetDescription>
-                </SheetHeader>
+            <Button
+              variant="outline"
+              className="w-full"
+              onClick={() => {
+                const vehicleSlug = formatToSlug(vehicle.name);
+                const searchParams = new URLSearchParams();
+                if (pickupDate) searchParams.set("pickup", pickupDate);
+                if (returnDate) searchParams.set("return", returnDate);
+                if (location && location !== "all")
+                  searchParams.set("location", location);
 
-                <div className="space-y-6 mt-6">
-                  {/* Image Gallery */}
-                  <div className="space-y-4">
-                    {vehicle.images.map((image, index) => (
-                      <div
-                        key={index}
-                        className="relative rounded-lg h-48 overflow-hidden"
-                      >
-                        <Image
-                          src={image}
-                          alt={`${vehicle.name} ${index + 1}`}
-                          fill
-                          className="object-cover"
-                        />
-                      </div>
-                    ))}
-                  </div>
-
-                  {/* Description */}
-                  <div>
-                    <h4 className="mb-2 font-semibold">Description</h4>
-                    <p className="text-slate-600 text-sm dark:text-slate-400">
-                      {vehicle.description}
-                    </p>
-                  </div>
-
-                  {/* Specifications */}
-                  <div>
-                    <h4 className="mb-3 font-semibold">Specifications</h4>
-                    <div className="space-y-2">
-                      {vehicle.specifications.engine && (
-                        <div className="flex justify-between">
-                          <span className="text-slate-600 text-sm dark:text-slate-400">
-                            Engine:
-                          </span>
-                          <span className="font-medium text-sm">
-                            {vehicle.specifications.engine}
-                          </span>
-                        </div>
-                      )}
-                      {vehicle.specifications.transmission && (
-                        <div className="flex justify-between">
-                          <span className="text-slate-600 text-sm dark:text-slate-400">
-                            Transmission:
-                          </span>
-                          <span className="font-medium text-sm">
-                            {vehicle.specifications.transmission}
-                          </span>
-                        </div>
-                      )}
-                      {vehicle.specifications.topSpeed && (
-                        <div className="flex justify-between">
-                          <span className="text-slate-600 text-sm dark:text-slate-400">
-                            Top Speed:
-                          </span>
-                          <span className="font-medium text-sm">
-                            {vehicle.specifications.topSpeed}
-                          </span>
-                        </div>
-                      )}
-                      {vehicle.specifications.acceleration && (
-                        <div className="flex justify-between">
-                          <span className="text-slate-600 text-sm dark:text-slate-400">
-                            Acceleration:
-                          </span>
-                          <span className="font-medium text-sm">
-                            {vehicle.specifications.acceleration}
-                          </span>
-                        </div>
-                      )}
-                      {vehicle.specifications.fuelEconomy && (
-                        <div className="flex justify-between">
-                          <span className="text-slate-600 text-sm dark:text-slate-400">
-                            Fuel Economy:
-                          </span>
-                          <span className="font-medium text-sm">
-                            {vehicle.specifications.fuelEconomy}
-                          </span>
-                        </div>
-                      )}
-                    </div>
-                  </div>
-
-                  {/* Features */}
-                  <div>
-                    <h4 className="mb-3 font-semibold">Features</h4>
-                    <div className="gap-2 grid grid-cols-2">
-                      {vehicle.features.map((feature, index) => (
-                        <div key={index} className="flex items-center gap-2">
-                          <div className="bg-green-100 dark:bg-green-900 rounded-full w-2 h-2"></div>
-                          <span className="text-sm">{feature}</span>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-
-                  {/* Availability */}
-                  <div>
-                    <h4 className="mb-3 font-semibold">Availability</h4>
-                    <div className="space-y-2">
-                      <div className="flex justify-between">
-                        <span className="text-slate-600 text-sm dark:text-slate-400">
-                          Minimum Age:
-                        </span>
-                        <span className="font-medium text-sm">
-                          {vehicle.availability.minimumAge} years
-                        </span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span className="text-slate-600 text-sm dark:text-slate-400">
-                          License Required:
-                        </span>
-                        <span className="font-medium text-sm">
-                          {vehicle.availability.licenseRequired.join(", ")}
-                        </span>
-                      </div>
-                      <div>
-                        <span className="text-slate-600 text-sm dark:text-slate-400">
-                          Locations:
-                        </span>
-                        <div className="flex flex-wrap gap-1 mt-1">
-                          {vehicle.availability.locations.map(
-                            (location, index) => (
-                              <Badge
-                                key={index}
-                                variant="outline"
-                                className="text-xs"
-                              >
-                                {location}
-                              </Badge>
-                            )
-                          )}
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Pricing */}
-                  <div>
-                    <h4 className="mb-3 font-semibold">Pricing</h4>
-                    <div className="space-y-2">
-                      <div className="flex justify-between">
-                        <span className="text-slate-600 text-sm dark:text-slate-400">
-                          Daily Rate:
-                        </span>
-                        <span className="font-medium text-sm">
-                          ${vehicle.pricing.daily}
-                        </span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span className="text-slate-600 text-sm dark:text-slate-400">
-                          Weekly Rate:
-                        </span>
-                        <span className="font-medium text-sm">
-                          ${vehicle.pricing.weekly}
-                        </span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span className="text-slate-600 text-sm dark:text-slate-400">
-                          Monthly Rate:
-                        </span>
-                        <span className="font-medium text-sm">
-                          ${vehicle.pricing.monthly}
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Add to Cart Button */}
-                  <Button
-                    onClick={handleAddToCart}
-                    disabled={isAddingToCart}
-                    className="w-full"
-                  >
-                    {isAddingToCart ? "Adding..." : "Add to Cart"}
-                  </Button>
-                </div>
-              </SheetContent>
-            </Sheet>
+                const url = `/vehicles/${vehicleSlug}${searchParams.toString() ? `?${searchParams.toString()}` : ""}`;
+                router.push(url);
+              }}
+            >
+              <Info className="mr-2 w-4 h-4" />
+              Details
+            </Button>
 
             <Button onClick={handleAddToCart} disabled={isAddingToCart}>
               {isAddingToCart ? "Adding..." : "Add to Cart"}
