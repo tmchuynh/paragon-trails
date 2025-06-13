@@ -35,6 +35,10 @@ export const navbarItems = [
         label: "Hotels",
         href: "/hotels", // Hotel search page
       },
+      {
+        label: "Vehicle Rentals",
+        href: "/vehicles", // Vehicle rental search page
+      },
     ],
   },
   {
