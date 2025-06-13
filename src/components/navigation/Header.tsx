@@ -18,10 +18,13 @@ import {
 } from "@heroicons/react/20/solid";
 import { Heart, Phone, Search, User } from "lucide-react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useState } from "react";
+import { FaChevronDown, FaDollarSign } from "react-icons/fa";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const router = useRouter();
 
   return (
     <header className="top-0 z-50 fixed inset-x-0 bg-white/95 shadow-sm backdrop-blur-sm w-full">
@@ -32,18 +35,105 @@ export default function Header() {
             <span>Your Passport to Unforgettable Stories</span>
           </div>
           <div className="flex items-center space-x-4">
-            <button className="flex items-center gap-1 hover:text-yellow-300 transition-colors">
+            <Button
+              variant={"link"}
+              size={"sm"}
+              className="flex items-center gap-1 m-0 p-0 h-fit text-background text-xs hover:text-sky-300 transition-colors"
+              onClick={() => router.push("/contact")}
+            >
               <Phone className="w-4 h-4" />
               <span className="sm:inline hidden">Support</span>
-            </button>
-            <button className="flex items-center gap-1 hover:text-yellow-300 transition-colors">
-              <GlobeAltIcon className="w-4 h-4" />
-              <span className="sm:inline hidden">EN</span>
-            </button>
-            <button className="flex items-center gap-1 hover:text-yellow-300 transition-colors">
+            </Button>
+            <DropdownMenu>
+              <DropdownMenuTrigger className="flex items-center gap-1 m-0 p-0 h-fit text-background text-xs hover:text-sky-300 uppercase transition-colors">
+                <FaDollarSign className="w-4 h-4" />
+                <span className="sm:inline hidden">Currency</span>
+                <FaChevronDown className="w-3 h-3" />
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="end" className="min-w-[150px]">
+                <DropdownMenuItem asChild>
+                  <Link
+                    href="/currency/usd"
+                    className="block px-4 py-2 text-sm"
+                  >
+                    USD - US Dollar
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild>
+                  <Link
+                    href="/currency/eur"
+                    className="block px-4 py-2 text-sm"
+                  >
+                    EUR - Euro
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild>
+                  <Link
+                    href="/currency/gbp"
+                    className="block px-4 py-2 text-sm"
+                  >
+                    GBP - British Pound
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild>
+                  <Link
+                    href="/currency/jpy"
+                    className="block px-4 py-2 text-sm"
+                  >
+                    JPY - Japanese Yen
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild>
+                  <Link
+                    href="/currency/aud"
+                    className="block px-4 py-2 text-sm"
+                  >
+                    AUD - Australian Dollar
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild>
+                  <Link
+                    href="/currency/cad"
+                    className="block px-4 py-2 text-sm"
+                  >
+                    CAD - Canadian Dollar
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild>
+                  <Link
+                    href="/currency/cny"
+                    className="block px-4 py-2 text-sm"
+                  >
+                    CNY - Chinese Yuan
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild>
+                  <Link
+                    href="/currency/inr"
+                    className="block px-4 py-2 text-sm"
+                  >
+                    INR - Indian Rupee
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild>
+                  <Link
+                    href="/currency/rub"
+                    className="block px-4 py-2 text-sm"
+                  >
+                    RUB - Russian Ruble
+                  </Link>
+                </DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
+            <Button
+              variant={"link"}
+              size={"sm"}
+              className="flex items-center gap-1 m-0 p-0 h-fit text-background text-xs hover:text-sky-300 transition-colors"
+              onClick={() => router.push("/login")}
+            >
               <UserIcon className="w-4 h-4" />
               <span className="sm:inline hidden">Login</span>
-            </button>
+            </Button>
           </div>
         </div>
       </div>
@@ -135,9 +225,6 @@ export default function Header() {
             >
               <User className="w-4 h-4" />
             </Button>
-            <Button className="bg-gradient-to-r from-blue-600 hover:from-blue-700 to-teal-500 hover:to-teal-600 text-white">
-              Bookings
-            </Button>
           </div>
         </div>
       </nav>
@@ -201,11 +288,6 @@ export default function Header() {
                     </Link>
                   )
                 )}
-              </div>
-              <div className="py-6">
-                <Button className="bg-gradient-to-r from-blue-600 hover:from-blue-700 to-teal-500 hover:to-teal-600 w-full text-white">
-                  Bookings
-                </Button>
               </div>
             </div>
           </div>
