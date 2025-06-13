@@ -32,6 +32,12 @@ import { mockAttractions } from "@/data/attractions";
 import { mockDestinations } from "@/data/destinations";
 import { mockTours } from "@/data/tours";
 
+// Ensure mock data is always an array
+const safeActivities = Array.isArray(mockActivities) ? mockActivities : [];
+const safeAttractions = Array.isArray(mockAttractions) ? mockAttractions : [];
+const safeTours = Array.isArray(mockTours) ? mockTours : [];
+const safeDestinations = Array.isArray(mockDestinations) ? mockDestinations : [];
+
 interface SelectedItem {
   id: string;
   name: string;
@@ -159,16 +165,19 @@ function TripBudgetCalculator() {
   };
 
   const getFilteredItems = (items: any[], type: string) => {
-    if (!selectedDestination) return items;
+    // Ensure items is always an array, even if undefined or null
+    const safeItems = Array.isArray(items) ? items : [];
 
-    return items.filter((item) => {
+    if (!selectedDestination) return safeItems;
+
+    return safeItems.filter((item) => {
       const location = item.location || item.destinations?.[0];
       if (!location) return false;
 
       const city = location.city || location.name;
       const country = location.country;
 
-      const destination = mockDestinations.find(
+      const destination = safeDestinations.find(
         (dest) => dest.id === selectedDestination
       );
       if (!destination) return false;
@@ -234,7 +243,7 @@ function TripBudgetCalculator() {
                   <SelectValue placeholder="Choose your destination" />
                 </SelectTrigger>
                 <SelectContent>
-                  {mockDestinations.map((destination) => (
+                  {safeDestinations.map((destination) => (
                     <SelectItem key={destination.id} value={destination.id}>
                       {destination.name}, {destination.country}
                     </SelectItem>
@@ -253,7 +262,7 @@ function TripBudgetCalculator() {
                   <CardTitle>Activities</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-3 max-h-96 overflow-y-auto">
-                  {getFilteredItems(mockActivities, "activity").map(
+                  {getFilteredItems(safeActivities, "activity").map(
                     (activity) => (
                       <div
                         key={activity.id}
@@ -288,7 +297,7 @@ function TripBudgetCalculator() {
                   <CardTitle>Attractions</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-3 max-h-96 overflow-y-auto">
-                  {getFilteredItems(mockAttractions, "attraction").map(
+                  {getFilteredItems(safeAttractions, "attraction").map(
                     (attraction) => (
                       <div
                         key={attraction.id}
@@ -323,7 +332,7 @@ function TripBudgetCalculator() {
                   <CardTitle>Tours</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-3 max-h-96 overflow-y-auto">
-                  {getFilteredItems(mockTours, "tour").map((tour) => (
+                  {getFilteredItems(safeTours, "tour").map((tour) => (
                     <div
                       key={tour.id}
                       className="flex items-center space-x-2 p-3 border rounded-lg"
