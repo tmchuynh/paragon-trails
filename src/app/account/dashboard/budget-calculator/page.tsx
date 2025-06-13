@@ -1,4 +1,4 @@
-import TripBudgetCalculator from "@/components/budget-calculator/TripBudgetCalculator";
+import { TripBudgetCalculator } from "@/components/budget-calculator/TripBudgetCalculator";
 
 export default function TripBudgetCalculatorPage() {
   return (
