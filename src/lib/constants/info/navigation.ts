@@ -45,6 +45,10 @@ export const navbarItems = [
         href: "/about",
       },
       {
+        label: "Our History",
+        href: "/about/our-history",
+      },
+      {
         label: "Contact Us",
         href: "/contact",
       },
