@@ -13,12 +13,11 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Slider } from "@/components/ui/slider";
-import { cartHelpers, useCart } from "@/context/CartContext";
+import { useCart } from "@/context/CartContext";
 import { useCurrency } from "@/context/CurrencyContext";
 import { Vehicle } from "@/lib/interfaces/services/vehicles";
 import { Calendar, Car, Filter, MapPin, Search } from "lucide-react";
 import { useState } from "react";
-import { toast } from "sonner";
 
 // Mock data for vehicles
 const mockVehicles: Vehicle[] = [
