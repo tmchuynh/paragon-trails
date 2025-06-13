@@ -1,5 +1,6 @@
 "use client";
 
+import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -11,33 +12,60 @@ import { Dialog, DialogPanel } from "@headlessui/react";
 import {
   Bars3Icon,
   ChevronDownIcon,
+  GlobeAltIcon,
+  UserIcon,
   XMarkIcon,
 } from "@heroicons/react/20/solid";
-import Image from "next/image";
+import { Heart, Phone, Search, User } from "lucide-react";
 import { useState } from "react";
-import { ThemeToggle } from "../button/ThemeToggle";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="top-0 z-50 absolute inset-x-0 bg-background w-full">
+    <header className="top-0 z-50 fixed inset-x-0 bg-white/95 shadow-sm backdrop-blur-sm w-full">
+      {/* Top bar */}
+      <div className="bg-black px-4 py-2 text-white">
+        <div className="flex justify-between items-center mx-auto max-w-7xl text-sm">
+          <div className="flex items-center space-x-4">
+            <span>Your Passport to Unforgettable Stories</span>
+          </div>
+          <div className="flex items-center space-x-4">
+            <button className="flex items-center gap-1 hover:text-yellow-300 transition-colors">
+              <Phone className="w-4 h-4" />
+              <span className="sm:inline hidden">Support</span>
+            </button>
+            <button className="flex items-center gap-1 hover:text-yellow-300 transition-colors">
+              <GlobeAltIcon className="w-4 h-4" />
+              <span className="sm:inline hidden">EN</span>
+            </button>
+            <button className="flex items-center gap-1 hover:text-yellow-300 transition-colors">
+              <UserIcon className="w-4 h-4" />
+              <span className="sm:inline hidden">Login</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* Main navigation */}
       <nav
         aria-label="Global"
-        className="flex justify-between items-center shadow lg:px-8 p-6 border-b"
+        className="flex justify-between items-center lg:px-8 p-4 border-b"
       >
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">Your Company</span>
-            <Image
-              alt=""
-              src="/images/logoSmall.png"
-              className="w-auto h-8"
-              width={32}
-              height={32}
-            />
+          <a href="/" className="-m-1.5 p-1.5">
+            <span className="sr-only">ParagonTrails</span>
+            <div className="flex items-center gap-2">
+              <div className="bg-gradient-to-r from-blue-600 to-teal-500 p-2 rounded-lg">
+                <GlobeAltIcon className="w-6 h-6 text-white" />
+              </div>
+              <span className="font-bold text-gray-800 text-xl">
+                ParagonTrails
+              </span>
+            </div>
           </a>
         </div>
+
         <div className="flex lg:hidden">
           <button
             type="button"
@@ -49,20 +77,20 @@ export default function Header() {
           </button>
         </div>
         {/* Desktop Navbar */}
-        <div className="lg:flex items-center lg:gap-x-6 hidden">
+        <div className="lg:flex items-center lg:gap-x-8 hidden">
           {navbarItems.map((item) =>
             item.dropdown ? (
               <DropdownMenu key={item.label}>
                 <DropdownMenuTrigger asChild>
                   <button
-                    className="flex items-center gap-1 font-semibold text-sm/6"
+                    className="flex items-center gap-1 font-medium text-gray-700 text-sm hover:text-gray-900 transition-colors"
                     type="button"
                   >
                     {item.label}
                     <ChevronDownIcon className="w-4 h-4" />
                   </button>
                 </DropdownMenuTrigger>
-                <DropdownMenuContent align="start" className="min-w-[180px]">
+                <DropdownMenuContent align="start" className="min-w-[200px]">
                   {item.dropdown.map((sub) => (
                     <DropdownMenuItem asChild key={sub.label}>
                       <a href={sub.href} className="block px-4 py-2 text-sm">
@@ -76,13 +104,40 @@ export default function Header() {
               <a
                 key={item.label}
                 href={item.href}
-                className="font-semibold text-sm/6"
+                className="font-medium text-gray-700 text-sm hover:text-gray-900 transition-colors"
               >
                 {item.label}
               </a>
-            ),
+            )
           )}
-          <ThemeToggle />
+
+          {/* Action buttons */}
+          <div className="flex items-center space-x-3 ml-8">
+            <Button
+              variant="ghost"
+              size="sm"
+              className="text-gray-600 hover:text-gray-900"
+            >
+              <Search className="w-4 h-4" />
+            </Button>
+            <Button
+              variant="ghost"
+              size="sm"
+              className="text-gray-600 hover:text-gray-900"
+            >
+              <Heart className="w-4 h-4" />
+            </Button>
+            <Button
+              variant="ghost"
+              size="sm"
+              className="text-gray-600 hover:text-gray-900"
+            >
+              <User className="w-4 h-4" />
+            </Button>
+            <Button className="bg-gradient-to-r from-blue-600 hover:from-blue-700 to-teal-500 hover:to-teal-600 text-white">
+              Bookings
+            </Button>
+          </div>
         </div>
       </nav>
       {/* Mobile Navbar */}
@@ -91,23 +146,21 @@ export default function Header() {
         onClose={setMobileMenuOpen}
         className="lg:hidden"
       >
-        <div className="z-50 fixed inset-0 bg-background" />
-        <DialogPanel className="right-0 z-50 fixed inset-y-0 px-6 py-6 sm:ring-1 sm:ring-gray-900/10 w-full sm:max-w-sm overflow-y-auto">
+        <div className="z-50 fixed inset-0 bg-black/25" />
+        <DialogPanel className="right-0 z-50 fixed inset-y-0 bg-white px-6 py-6 sm:ring-1 sm:ring-gray-900/10 w-full sm:max-w-sm overflow-y-auto">
           <div className="flex justify-between items-center">
-            <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
-              <Image
-                alt=""
-                src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
-                className="w-auto h-8"
-                width={32}
-                height={32}
-              />
-            </a>
+            <div className="flex items-center gap-2">
+              <div className="bg-gradient-to-r from-blue-600 to-teal-500 p-2 rounded-lg">
+                <GlobeAltIcon className="w-5 h-5 text-white" />
+              </div>
+              <span className="font-bold text-gray-800 text-lg">
+                ParagonTrails
+              </span>
+            </div>
             <button
               type="button"
               onClick={() => setMobileMenuOpen(false)}
-              className="-m-2.5 p-2.5 rounded-md"
+              className="-m-2.5 p-2.5 rounded-md text-gray-700"
             >
               <span className="sr-only">Close menu</span>
               <XMarkIcon aria-hidden="true" className="size-6" />
@@ -120,16 +173,16 @@ export default function Header() {
                   item.dropdown ? (
                     <div key={item.label}>
                       <details>
-                        <summary className="flex justify-between items-center hover:bg-card -mx-3 px-3 py-2 border border-border rounded-lg font-semibold text-base/7 cursor-pointer">
+                        <summary className="flex justify-between items-center hover:bg-gray-50 -mx-3 px-3 py-3 rounded-lg font-medium text-base text-gray-900 cursor-pointer">
                           {item.label}
                           <ChevronDownIcon className="inline ml-2 w-4 h-4" />
                         </summary>
-                        <div className="pl-4">
+                        <div className="space-y-1 mt-2 pl-4">
                           {item.dropdown.map((sub) => (
                             <a
                               key={sub.label}
                               href={sub.href}
-                              className="block hover:bg-card -mx-3 px-3 py-2 border border-border rounded-lg text-sm"
+                              className="block hover:bg-gray-50 -mx-3 px-3 py-2 rounded-lg text-gray-600 text-sm"
                             >
                               {sub.label}
                             </a>
@@ -141,12 +194,17 @@ export default function Header() {
                     <a
                       key={item.label}
                       href={item.href}
-                      className="block hover:bg-card -mx-3 px-3 py-2 border border-border rounded-lg font-semibold text-base/7"
+                      className="block hover:bg-gray-50 -mx-3 px-3 py-3 rounded-lg font-medium text-base text-gray-900"
                     >
                       {item.label}
                     </a>
-                  ),
+                  )
                 )}
+              </div>
+              <div className="py-6">
+                <Button className="bg-gradient-to-r from-blue-600 hover:from-blue-700 to-teal-500 hover:to-teal-600 w-full text-white">
+                  Bookings
+                </Button>
               </div>
             </div>
           </div>
