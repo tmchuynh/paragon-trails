@@ -18,7 +18,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative flex justify-center items-center h-screen overflow-hidden">
+      <section className="relative min-h-screen flex items-center overflow-hidden">
         {/* Background Image */}
         <div className="z-0 absolute inset-0">
           <div className="bg-gradient-to-r from-blue-600 via-teal-500 to-green-400 opacity-90 w-full h-full"></div>
@@ -26,100 +26,199 @@ export default function HomePage() {
         </div>
 
         {/* Hero Content */}
-        <div className="relative z-10 mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl text-center text-white">
-          <div className="mb-8">
-            <h1 className="mb-6 font-bold text-4xl md:text-6xl lg:text-7xl leading-tight">
-              Where You Get Trapped
-              <br />
-              <span className="text-yellow-300">
-                in the Beauty of the World
-              </span>
-              <br />
-              and Unforgettable
-              <br />
-              Happiness!
-            </h1>
-            <p className="mx-auto mb-8 max-w-3xl text-gray-200 text-lg md:text-xl">
-              At TripTrap, we believe that every journey is an opportunity
-              for adventure, discovery, and creating unforgettable experiences.
-            </p>
-            <Button
-              size="lg"
-              className="bg-yellow-500 hover:bg-yellow-600 px-8 py-3 rounded-full font-bold text-black"
-            >
-              <PlayCircle className="mr-2 w-5 h-5" />
-              Book Trip Now
-            </Button>
-          </div>
-        </div>
-
-        {/* Search Card Overlay */}
-        <div className="bottom-10 left-1/2 z-20 absolute px-4 w-full max-w-2xl transform -translate-x-1/2">
-          <Card className="bg-white/95 shadow-2xl backdrop-blur-sm">
-            <CardHeader className="pb-4">
-              <CardTitle className="flex items-center gap-2 text-gray-800">
-                <Search className="w-5 h-5" />
-                Find Hotels
-              </CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-4">
-              <div className="gap-4 grid grid-cols-1 md:grid-cols-2">
-                <div className="space-y-2">
-                  <label className="font-medium text-gray-700 text-sm">
-                    Destination
-                  </label>
-                  <div className="relative">
-                    <MapPin className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
-                    <Input
-                      placeholder="Banten Hotel Drexelore"
-                      className="pl-10"
-                    />
-                  </div>
-                </div>
-                <div className="space-y-2">
-                  <label className="font-medium text-gray-700 text-sm">
-                    Check-in & Check-out
-                  </label>
-                  <div className="relative">
-                    <Calendar className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
-                    <Input placeholder="Tue, 31/05/24" className="pl-10" />
-                  </div>
-                </div>
-              </div>
-              <div className="gap-4 grid grid-cols-1 md:grid-cols-2">
-                <div className="space-y-2">
-                  <label className="font-medium text-gray-700 text-sm">
-                    Guests and Rooms
-                  </label>
-                  <div className="relative">
-                    <Users className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
-                    <Input
-                      placeholder="2 Adult | Child | Room"
-                      className="pl-10"
-                    />
-                  </div>
-                </div>
-                <div className="space-y-2">
-                  <label className="font-medium text-gray-700 text-sm">
-                    Price Range
-                  </label>
-                  <Select>
-                    <SelectTrigger>
-                      <SelectValue placeholder="2H per night" />
-                    </SelectTrigger>
-                    <SelectContent>
-                      <SelectItem value="budget">Budget ($50-100)</SelectItem>
-                      <SelectItem value="mid">Mid-range ($100-200)</SelectItem>
-                      <SelectItem value="luxury">Luxury ($200+)</SelectItem>
-                    </SelectContent>
-                  </Select>
-                </div>
-              </div>
-              <Button className="bg-black hover:bg-gray-800 w-full text-white">
-                Search Hotel
+        <div className="relative z-10 mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl w-full py-20">
+          {/* Mobile Layout */}
+          <div className="lg:hidden text-center text-white">
+            <div className="mb-8">
+              <h1 className="mb-6 font-bold text-4xl md:text-6xl leading-tight">
+                Where You Get Trapped
+                <br />
+                <span className="text-yellow-300">
+                  in the Beauty of the World
+                </span>
+                <br />
+                and Unforgettable
+                <br />
+                Happiness!
+              </h1>
+              <p className="mx-auto mb-8 max-w-3xl text-gray-200 text-lg md:text-xl">
+                At TripTrap, we believe that every journey is an opportunity
+                for adventure, discovery, and creating unforgettable experiences.
+              </p>
+              <Button
+                size="lg"
+                className="bg-yellow-500 hover:bg-yellow-600 px-8 py-3 rounded-full font-bold text-black"
+              >
+                <PlayCircle className="mr-2 w-5 h-5" />
+                Book Trip Now
               </Button>
-            </CardContent>
-          </Card>
+            </div>
+            
+            {/* Mobile Search Card */}
+            <div className="mt-12">
+              <Card className="bg-white/95 shadow-2xl backdrop-blur-sm">
+                <CardHeader className="pb-4">
+                  <CardTitle className="flex items-center gap-2 text-gray-800">
+                    <Search className="w-5 h-5" />
+                    Find Hotels
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-4">
+                  <div className="gap-4 grid grid-cols-1 md:grid-cols-2">
+                    <div className="space-y-2">
+                      <label className="font-medium text-gray-700 text-sm">
+                        Destination
+                      </label>
+                      <div className="relative">
+                        <MapPin className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
+                        <Input
+                          placeholder="Banten Hotel Drexelore"
+                          className="pl-10"
+                        />
+                      </div>
+                    </div>
+                    <div className="space-y-2">
+                      <label className="font-medium text-gray-700 text-sm">
+                        Check-in & Check-out
+                      </label>
+                      <div className="relative">
+                        <Calendar className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
+                        <Input placeholder="Tue, 31/05/24" className="pl-10" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="gap-4 grid grid-cols-1 md:grid-cols-2">
+                    <div className="space-y-2">
+                      <label className="font-medium text-gray-700 text-sm">
+                        Guests and Rooms
+                      </label>
+                      <div className="relative">
+                        <Users className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
+                        <Input
+                          placeholder="2 Adult | Child | Room"
+                          className="pl-10"
+                        />
+                      </div>
+                    </div>
+                    <div className="space-y-2">
+                      <label className="font-medium text-gray-700 text-sm">
+                        Price Range
+                      </label>
+                      <Select>
+                        <SelectTrigger>
+                          <SelectValue placeholder="2H per night" />
+                        </SelectTrigger>
+                        <SelectContent>
+                          <SelectItem value="budget">Budget ($50-100)</SelectItem>
+                          <SelectItem value="mid">Mid-range ($100-200)</SelectItem>
+                          <SelectItem value="luxury">Luxury ($200+)</SelectItem>
+                        </SelectContent>
+                      </Select>
+                    </div>
+                  </div>
+                  <Button className="bg-black hover:bg-gray-800 w-full text-white">
+                    Search Hotel
+                  </Button>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+
+          {/* Desktop Two-Column Layout */}
+          <div className="lg:grid lg:grid-cols-2 lg:gap-12 lg:items-center hidden">
+            {/* Left Column - Hero Text */}
+            <div className="text-white">
+              <h1 className="mb-6 font-bold text-5xl xl:text-6xl leading-tight">
+                Where You Get Trapped
+                <br />
+                <span className="text-yellow-300">
+                  in the Beauty of the World
+                </span>
+                <br />
+                and Unforgettable
+                <br />
+                Happiness!
+              </h1>
+              <p className="mb-8 text-gray-200 text-xl leading-relaxed">
+                At TripTrap, we believe that every journey is an opportunity
+                for adventure, discovery, and creating unforgettable experiences.
+              </p>
+              <Button
+                size="lg"
+                className="bg-yellow-500 hover:bg-yellow-600 px-8 py-3 rounded-full font-bold text-black"
+              >
+                <PlayCircle className="mr-2 w-5 h-5" />
+                Book Trip Now
+              </Button>
+            </div>
+
+            {/* Right Column - Search Form */}
+            <div className="lg:ml-8">
+              <Card className="bg-white/95 shadow-2xl backdrop-blur-sm">
+                <CardHeader className="pb-4">
+                  <CardTitle className="flex items-center gap-2 text-gray-800">
+                    <Search className="w-5 h-5" />
+                    Find Hotels
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-4">
+                  <div className="space-y-4">
+                    <div className="space-y-2">
+                      <label className="font-medium text-gray-700 text-sm">
+                        Destination
+                      </label>
+                      <div className="relative">
+                        <MapPin className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
+                        <Input
+                          placeholder="Banten Hotel Drexelore"
+                          className="pl-10"
+                        />
+                      </div>
+                    </div>
+                    <div className="space-y-2">
+                      <label className="font-medium text-gray-700 text-sm">
+                        Check-in & Check-out
+                      </label>
+                      <div className="relative">
+                        <Calendar className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
+                        <Input placeholder="Tue, 31/05/24" className="pl-10" />
+                      </div>
+                    </div>
+                    <div className="space-y-2">
+                      <label className="font-medium text-gray-700 text-sm">
+                        Guests and Rooms
+                      </label>
+                      <div className="relative">
+                        <Users className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
+                        <Input
+                          placeholder="2 Adult | Child | Room"
+                          className="pl-10"
+                        />
+                      </div>
+                    </div>
+                    <div className="space-y-2">
+                      <label className="font-medium text-gray-700 text-sm">
+                        Price Range
+                      </label>
+                      <Select>
+                        <SelectTrigger>
+                          <SelectValue placeholder="2H per night" />
+                        </SelectTrigger>
+                        <SelectContent>
+                          <SelectItem value="budget">Budget ($50-100)</SelectItem>
+                          <SelectItem value="mid">Mid-range ($100-200)</SelectItem>
+                          <SelectItem value="luxury">Luxury ($200+)</SelectItem>
+                        </SelectContent>
+                      </Select>
+                    </div>
+                  </div>
+                  <Button className="bg-black hover:bg-gray-800 w-full text-white">
+                    Search Hotel
+                  </Button>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
         </div>
       </section>
 
