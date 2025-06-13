@@ -51,7 +51,7 @@ export default function TourDetailsPage() {
 
   if (!destination || !tour) {
     return (
-      <div className="bg-slate-50 dark:bg-slate-950 min-h-screen">
+      <div className="min-h-screen">
         <div className="mx-auto px-6 lg:px-8 py-12 max-w-7xl">
           <div className="py-20 text-center">
             <h1 className="mb-4 font-bold text-2xl">Tour not found</h1>
@@ -81,7 +81,8 @@ export default function TourDetailsPage() {
       guests: guests,
       location: `${destination.name}, ${destination.country}`,
       features: tour.inclusions || [],
-      cancellationPolicy: tour.cancellationPolicy || "Standard cancellation policy applies",
+      cancellationPolicy:
+        tour.cancellationPolicy || "Standard cancellation policy applies",
     };
 
     cartHelpers.addItem(dispatch, tourItem);
@@ -90,7 +91,7 @@ export default function TourDetailsPage() {
   };
 
   return (
-    <div className="bg-slate-50 dark:bg-slate-950 min-h-screen">
+    <div className="min-h-screen">
       <div className="mx-auto px-6 lg:px-8 py-12 max-w-7xl">
         {/* Back Button */}
         <Button

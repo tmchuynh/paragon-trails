@@ -66,7 +66,7 @@ export default function ContactUsPage() {
   const specializedDepartments = contactDepartments.slice(4);
 
   return (
-    <div className="bg-slate-50 dark:bg-slate-950 min-h-screen">
+    <div className="min-h-screen">
       <div className="mx-auto px-6 lg:px-8 py-12 max-w-7xl">
         {/* Hero Section */}
         <div className="mb-16 text-center">

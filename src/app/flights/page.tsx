@@ -125,7 +125,7 @@ export default function FlightsPage() {
   };
 
   return (
-    <div className="bg-slate-50 dark:bg-slate-950 min-h-screen">
+    <div className="min-h-screen">
       <div className="mx-auto px-6 lg:px-8 py-12 max-w-7xl">
         {/* Header */}
         <div className="mb-12 text-center">
@@ -370,15 +370,20 @@ export default function FlightsPage() {
                       </div>
                     </div>
 
-                    <Button 
+                    <Button
                       onClick={() => handleAddToCart(flight)}
-                      disabled={flight.availability[classType as keyof typeof flight.availability] === 0}
+                      disabled={
+                        flight.availability[
+                          classType as keyof typeof flight.availability
+                        ] === 0
+                      }
                       className="mt-4 lg:mt-auto"
                     >
-                      {flight.availability[classType as keyof typeof flight.availability] === 0 
-                        ? "Sold Out" 
-                        : "Add to Cart"
-                      }
+                      {flight.availability[
+                        classType as keyof typeof flight.availability
+                      ] === 0
+                        ? "Sold Out"
+                        : "Add to Cart"}
                     </Button>
                   </div>
                 </div>

@@ -50,7 +50,7 @@ export default function FlightDetailsPage() {
 
   if (!flight) {
     return (
-      <div className="bg-slate-50 dark:bg-slate-950 min-h-screen">
+      <div className="min-h-screen">
         <div className="mx-auto px-6 lg:px-8 py-12 max-w-7xl">
           <div className="py-20 text-center">
             <h1 className="mb-4 font-bold text-2xl">Flight not found</h1>
@@ -80,13 +80,14 @@ export default function FlightDetailsPage() {
     setIsBooking(true);
 
     const departureBaseDate = departureDate || flight.departure.date;
-    
+
     const flightItem = {
       id: `flight-${formatToSlug(flight.flightNumber)}-${departureBaseDate}-${selectedClass}`,
       type: "flight" as const,
       name: `${flight.airline} ${flight.flightNumber}`,
       description: `${flight.origin.city} to ${flight.destination.city} - ${selectedClass} class`,
-      image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=600&auto=format&fit=crop&q=60",
+      image:
+        "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=600&auto=format&fit=crop&q=60",
       price: getFlightPrice(),
       dates: {
         startDate: departureBaseDate,
@@ -101,16 +102,19 @@ export default function FlightDetailsPage() {
     // Check if this exact flight booking already exists
     if (cartHelpers.checkIfDuplicate(cartState.items, flightItem)) {
       // For flights, we should add more passengers instead of creating duplicate
-      const existingItem = cartState.items.find(item => 
-        item.name === flightItem.name &&
-        item.dates.startDate === flightItem.dates.startDate &&
-        item.location === flightItem.location
+      const existingItem = cartState.items.find(
+        (item) =>
+          item.name === flightItem.name &&
+          item.dates.startDate === flightItem.dates.startDate &&
+          item.location === flightItem.location
       );
-      
+
       if (existingItem) {
         const newGuestCount = existingItem.guests + passengers;
         cartHelpers.updateGuests(dispatch, existingItem.id, newGuestCount);
-        toast.success(`Added ${passengers} more passenger${passengers > 1 ? 's' : ''} to ${flight.flightNumber}!`);
+        toast.success(
+          `Added ${passengers} more passenger${passengers > 1 ? "s" : ""} to ${flight.flightNumber}!`
+        );
         setIsBooking(false);
         return;
       }
@@ -122,7 +126,7 @@ export default function FlightDetailsPage() {
   };
 
   return (
-    <div className="bg-slate-50 dark:bg-slate-950 min-h-screen">
+    <div className="min-h-screen">
       <div className="mx-auto px-6 lg:px-8 py-12 max-w-7xl">
         {/* Back Button */}
         <Button variant="ghost" onClick={() => router.back()} className="mb-6">

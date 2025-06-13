@@ -78,7 +78,7 @@ export default function CartSummaryPage() {
 
   if (bookingComplete) {
     return (
-      <div className="flex justify-center items-center bg-slate-50 dark:bg-slate-950 min-h-screen">
+      <div className="flex justify-center items-center min-h-screen">
         <div className="mx-auto p-8 max-w-md text-center">
           <div className="flex justify-center items-center bg-green-100 dark:bg-green-950 mx-auto mb-6 rounded-full w-16 h-16">
             <Check className="w-8 h-8 text-green-600 dark:text-green-400" />
@@ -119,7 +119,7 @@ export default function CartSummaryPage() {
   }
 
   return (
-    <div className="bg-slate-50 dark:bg-slate-950 min-h-screen">
+    <div className="min-h-screen">
       <div className="mx-auto px-6 lg:px-8 py-12 max-w-7xl">
         {/* Header */}
         <div className="mb-8">
@@ -201,9 +201,7 @@ export default function CartSummaryPage() {
                     <div className="flex justify-between items-center font-semibold">
                       <span>Total for this item:</span>
                       <span>
-                        {formatPrice(
-                          item.price * item.quantity * item.guests
-                        )}
+                        {formatPrice(item.price * item.quantity * item.guests)}
                       </span>
                     </div>
                   </div>

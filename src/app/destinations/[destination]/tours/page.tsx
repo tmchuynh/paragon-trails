@@ -125,7 +125,7 @@ export default function FindToursPage() {
 
   if (!destination) {
     return (
-      <div className="bg-slate-50 dark:bg-slate-950 min-h-screen">
+      <div className="min-h-screen">
         <div className="mx-auto px-6 lg:px-8 py-12 max-w-7xl">
           <div className="py-20 text-center">
             <h1 className="mb-4 font-bold text-2xl">Destination not found</h1>
@@ -139,7 +139,7 @@ export default function FindToursPage() {
   }
 
   return (
-    <div className="bg-slate-50 dark:bg-slate-950 min-h-screen">
+    <div className="min-h-screen">
       <div className="mx-auto px-6 lg:px-8 py-12 max-w-7xl">
         {/* Back Button */}
         <Button
