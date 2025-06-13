@@ -29,15 +29,11 @@ export const navbarItems = [
     dropdown: [
       {
         label: "Create New Trip",
-        href: "/trip-planner/new",
-      },
-      {
-        label: "My Saved Trips",
-        href: "/trip-planner/my-trips", // User's saved trips
+        href: "/trip-planner",
       },
       {
         label: "Trip Budget Calculator",
-        href: "/trip-planner/budget-calculator",
+        href: "/budget-calculator",
       },
     ],
   },
