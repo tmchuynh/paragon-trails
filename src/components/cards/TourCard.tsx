@@ -20,6 +20,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { cartHelpers, useCart } from "@/context/CartContext";
+import { useCurrency } from "@/context/CurrencyContext";
 import { TourGuide } from "@/lib/interfaces/people/staff";
 
 export default function TourCard({
@@ -35,6 +36,7 @@ export default function TourCard({
 }) {
   const router = useRouter();
   const { state, dispatch } = useCart();
+  const { formatPrice } = useCurrency();
   const [isAddingToCart, setIsAddingToCart] = useState(false);
 
   const handleAddToCart = () => {
@@ -263,7 +265,7 @@ export default function TourCard({
                 </h5>
               )}
             </div>
-            <h2>{tour.price}</h2>
+            <h2>{formatPrice(parseFloat(tour.price.replace(/[^0-9.]/g, "")))}</h2>
           </div>
           <Button
             onClick={() => {
