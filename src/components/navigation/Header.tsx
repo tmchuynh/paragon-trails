@@ -8,6 +8,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { useCart } from "@/context/CartContext";
 import { currencies, useCurrency } from "@/context/CurrencyContext";
 import { navbarItems } from "@/lib/constants/info/navigation";
 import { Dialog, DialogPanel } from "@headlessui/react";
@@ -18,7 +19,7 @@ import {
   UserIcon,
   XMarkIcon,
 } from "@heroicons/react/20/solid";
-import { Heart, Phone, Search, User } from "lucide-react";
+import { Heart, Phone, Search, ShoppingCart, User } from "lucide-react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
@@ -28,6 +29,9 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const router = useRouter();
   const { currentCurrency, setCurrency, isLoading } = useCurrency();
+  const { state: cartState } = useCart();
+
+  const cartItemsCount = cartState.items.reduce((total, item) => total + item.quantity, 0);
 
   return (
     <header className="top-0 z-50 fixed inset-x-0 bg-white/95 shadow-sm backdrop-blur-sm w-full">
@@ -169,6 +173,19 @@ export default function Header() {
               className="text-gray-600 hover:text-gray-900"
             >
               <Heart className="w-4 h-4" />
+            </Button>
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={() => router.push("/my-cart")}
+              className="relative text-gray-600 hover:text-gray-900"
+            >
+              <ShoppingCart className="w-4 h-4" />
+              {cartItemsCount > 0 && (
+                <span className="top-0 -right-1 absolute flex justify-center items-center bg-blue-600 rounded-full w-5 h-5 font-bold text-white text-xs">
+                  {cartItemsCount > 99 ? '99+' : cartItemsCount}
+                </span>
+              )}
             </Button>
             <Button
               variant="ghost"
