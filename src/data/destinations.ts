@@ -7,18 +7,24 @@ export const mockDestinations: Destination[] = [
     country: "France",
     continent: "Europe",
     region: "Western Europe",
-    description: "The City of Light, renowned for its art, fashion, gastronomy, and culture. Paris captivates visitors with its iconic landmarks, world-class museums, and romantic atmosphere.",
+    description:
+      "The City of Light, renowned for its art, fashion, gastronomy, and culture. Paris captivates visitors with its iconic landmarks, world-class museums, and romantic atmosphere.",
     images: [
       "https://images.unsplash.com/photo-1502602898536-47ad22581b52?w=1200&h=600&fit=crop",
       "https://images.unsplash.com/photo-1549144511-f099e773c147?w=1200&h=600&fit=crop",
       "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=1200&h=600&fit=crop",
     ],
-    popularWith: ["Couples", "Art lovers", "Food enthusiasts", "Culture seekers"],
+    popularWith: [
+      "Couples",
+      "Art lovers",
+      "Food enthusiasts",
+      "Culture seekers",
+    ],
     population: 2161000,
     capital: "Paris",
     area: {
       total: 105.4,
-      unit: "km²"
+      unit: "km²",
     },
     geography: {
       terrain: "Urban cityscape along the Seine River",
@@ -26,42 +32,43 @@ export const mockDestinations: Destination[] = [
         average: 35,
         highest: 130,
         lowest: 28,
-        unit: "meters"
+        unit: "meters",
       },
-      landmarks: ["Seine River", "Ile de la Cité", "Montmartre Hill"]
+      landmarks: ["Seine River", "Ile de la Cité", "Montmartre Hill"],
     },
     connectivity: {
       internetSpeed: "High-speed fiber",
       wifiAvailability: true,
-      mobileNetworkCoverage: "Excellent"
+      mobileNetworkCoverage: "Excellent",
     },
-    visaRequirements: "Schengen visa for stays over 90 days for non-EU citizens",
+    visaRequirements:
+      "Schengen visa for stays over 90 days for non-EU citizens",
     climate: {
       season: "Temperate oceanic",
       temperature: {
         high: 25,
         low: 3,
-        unit: "°C"
+        unit: "°C",
       },
       rainfall: "Moderate throughout year",
       humidity: "65-75%",
-      averageTemperature: 12
+      averageTemperature: 12,
     },
     currency: {
       code: "EUR",
       symbol: "€",
-      name: "Euro"
+      name: "Euro",
     },
     pricing: {
       averageDailyBudget: 150,
       accommodationRange: {
         budget: 80,
         midRange: 150,
-        luxury: 400
+        luxury: 400,
       },
       foodAndDrink: 50,
       transportation: 15,
-      activitiesAndAttractions: 35
+      activitiesAndAttractions: 35,
     },
     language: ["French", "English"],
     timezone: "CET (UTC+1)",
@@ -71,80 +78,153 @@ export const mockDestinations: Destination[] = [
       "Notre-Dame Cathedral",
       "Champs-Élysées",
       "Montmartre",
-      "Seine River Cruises"
+      "Seine River Cruises",
     ],
     bestTimeToVisit: ["April-June", "September-October"],
-    attractions: ["Eiffel Tower", "Louvre Museum", "Arc de Triomphe", "Sacré-Cœur", "Palace of Versailles"],
-    activities: ["Seine River Cruise", "Food Walking Tours", "Art Museum Visits", "Shopping", "Cabaret Shows"],
-    cuisine: ["Croissants", "French Onion Soup", "Coq au Vin", "Macarons", "Wine Tasting"],
+    attractions: [
+      "Eiffel Tower",
+      "Louvre Museum",
+      "Arc de Triomphe",
+      "Sacré-Cœur",
+      "Palace of Versailles",
+    ],
+    activities: [
+      "Seine River Cruise",
+      "Food Walking Tours",
+      "Art Museum Visits",
+      "Shopping",
+      "Cabaret Shows",
+    ],
+    cuisine: [
+      "Croissants",
+      "French Onion Soup",
+      "Coq au Vin",
+      "Macarons",
+      "Wine Tasting",
+    ],
     culture: {
       festivals: ["Bastille Day", "Nuit Blanche", "Paris Fashion Week"],
       traditions: ["Café culture", "Sunday market visits", "Evening strolls"],
       artsAndCrafts: ["Fashion design", "Perfume making", "Patisserie"],
       musicAndDance: ["Cabaret", "Classical music", "Jazz"],
-      localCustoms: ["Greeting with kisses", "Long lunch breaks", "Evening aperitifs"],
+      localCustoms: [
+        "Greeting with kisses",
+        "Long lunch breaks",
+        "Evening aperitifs",
+      ],
       languages: ["French", "English"],
-      cuisine: ["French pastries", "Wine", "Cheese", "Haute cuisine"]
+      cuisine: ["French pastries", "Wine", "Cheese", "Haute cuisine"],
     },
     transportation: {
       airports: ["Charles de Gaulle (CDG)", "Orly (ORY)"],
       publicTransport: ["Metro", "Bus", "RER", "Trams"],
       taxi: true,
-      rental: true
+      rental: true,
     },
     accommodation: {
       budget: 80,
       midRange: 150,
       luxury: 400,
-      currency: "EUR"
+      currency: "EUR",
     },
     rating: 4.8,
     reviews: 15420,
     tags: ["Romantic", "Art", "Culture", "Fashion", "Gastronomy"],
     coordinates: {
       latitude: 48.8566,
-      longitude: 2.3522
+      longitude: 2.3522,
     },
     visa: {
       required: false,
-      details: "Schengen visa for stays over 90 days for non-EU citizens"
+      details: "Schengen visa for stays over 90 days for non-EU citizens",
     },
     safety: {
       level: "Generally Safe",
-      advisories: ["Pickpocketing in tourist areas", "Be aware of scams near attractions"],
+      advisories: [
+        "Pickpocketing in tourist areas",
+        "Be aware of scams near attractions",
+      ],
       crimeRate: "Low to moderate",
       healthRisks: ["None significant"],
-      emergencyNumber: "112"
+      emergencyNumber: "112",
     },
-    tradition: ["Art appreciation", "Wine culture", "Fashion consciousness", "Culinary excellence"]
+    tradition: [
+      "Art appreciation",
+      "Wine culture",
+      "Fashion consciousness",
+      "Culinary excellence",
+    ],
   },
   {
     id: "2",
     name: "Tokyo",
     country: "Japan",
+    continent: "Asia",
     region: "East Asia",
-    description: "A vibrant metropolis where ancient traditions blend seamlessly with cutting-edge technology. Tokyo offers incredible cuisine, rich culture, and unique experiences.",
+    description:
+      "A vibrant metropolis where ancient traditions blend seamlessly with cutting-edge technology. Tokyo offers incredible cuisine, rich culture, and unique experiences.",
     images: [
       "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=1200&h=600&fit=crop",
       "https://images.unsplash.com/photo-1513407030348-c983a97b98d8?w=1200&h=600&fit=crop",
       "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1200&h=600&fit=crop",
     ],
+    popularWith: [
+      "Tech enthusiasts",
+      "Food lovers",
+      "Culture seekers",
+      "Business travelers",
+    ],
+    population: 13929286,
+    capital: "Tokyo",
+    area: {
+      total: 2194,
+      unit: "km²",
+    },
+    geography: {
+      terrain: "Urban metropolitan area on Tokyo Bay",
+      elevation: {
+        average: 40,
+        highest: 377,
+        lowest: 0,
+        unit: "meters",
+      },
+      landmarks: ["Tokyo Bay", "Imperial Palace", "Mount Fuji (visible)"],
+    },
+    connectivity: {
+      internetSpeed: "Ultra-high speed",
+      wifiAvailability: true,
+      mobileNetworkCoverage: "Excellent",
+    },
+    visaRequirements:
+      "Tourist visa on arrival for many nationalities (90 days)",
     climate: {
       season: "Humid subtropical",
       temperature: {
         high: 30,
         low: 2,
-        unit: "°C"
+        unit: "°C",
       },
       rainfall: "High in summer, moderate in winter",
-      humidity: "60-80%"
+      humidity: "60-80%",
+      averageTemperature: 16,
     },
     currency: {
       code: "JPY",
       symbol: "¥",
-      name: "Japanese Yen"
+      name: "Japanese Yen",
     },
-    language: ["Japanese", "English (limited)"],
+    pricing: {
+      averageDailyBudget: 120,
+      accommodationRange: {
+        budget: 60,
+        midRange: 120,
+        luxury: 350,
+      },
+      foodAndDrink: 40,
+      transportation: 20,
+      activitiesAndAttractions: 30,
+    },
+    language: ["Japanese", "English"],
     timezone: "JST (UTC+9)",
     highlights: [
       "Senso-ji Temple",
@@ -152,68 +232,147 @@ export const mockDestinations: Destination[] = [
       "Tokyo Skytree",
       "Tsukiji Fish Market",
       "Meiji Shrine",
-      "Harajuku District"
+      "Harajuku District",
     ],
     bestTimeToVisit: ["March-May", "September-November"],
-    attractions: ["Tokyo Skytree", "Imperial Palace", "Asakusa", "Ginza", "Akihabara"],
-    activities: ["Sushi Making", "Temple Visits", "Shopping", "Karaoke", "Sumo Wrestling"],
+    attractions: [
+      "Tokyo Skytree",
+      "Imperial Palace",
+      "Asakusa",
+      "Ginza",
+      "Akihabara",
+    ],
+    activities: [
+      "Sushi Making",
+      "Temple Visits",
+      "Shopping",
+      "Karaoke",
+      "Sumo Wrestling",
+    ],
     cuisine: ["Sushi", "Ramen", "Tempura", "Yakitori", "Wagyu Beef"],
-    culture: ["Temples", "Traditional Gardens", "Tea Ceremony", "Anime & Manga", "Technology"],
+    culture: {
+      festivals: [
+        "Cherry Blossom Festival",
+        "Tanabata",
+        "New Year celebrations",
+      ],
+      traditions: ["Tea ceremony", "Bowing etiquette", "Shoe removal"],
+      artsAndCrafts: ["Origami", "Calligraphy", "Pottery"],
+      musicAndDance: ["Traditional Kabuki", "Modern J-Pop", "Taiko drumming"],
+      localCustoms: [
+        "Gift giving",
+        "Business card exchange",
+        "Quiet public behavior",
+      ],
+      languages: ["Japanese", "English"],
+      cuisine: ["Sushi", "Ramen", "Traditional sweets", "Green tea"],
+    },
     transportation: {
-      airport: "Narita (NRT), Haneda (HND)",
+      airports: ["Narita (NRT)", "Haneda (HND)"],
       publicTransport: ["JR Lines", "Tokyo Metro", "Toei Subway", "Buses"],
       taxi: true,
-      rental: true
+      rental: true,
     },
     accommodation: {
       budget: 60,
       midRange: 120,
       luxury: 350,
-      currency: "USD"
+      currency: "USD",
     },
     rating: 4.7,
     reviews: 12890,
     tags: ["Technology", "Culture", "Food", "Traditional", "Modern"],
     coordinates: {
       latitude: 35.6762,
-      longitude: 139.6503
+      longitude: 139.6503,
     },
     visa: {
       required: false,
-      details: "Tourist visa on arrival for many nationalities (90 days)"
+      details: "Tourist visa on arrival for many nationalities (90 days)",
     },
     safety: {
       level: "Very Safe",
-      advisories: ["Natural disasters (earthquakes)", "Language barrier"]
-    }
+      advisories: ["Natural disasters (earthquakes)", "Language barrier"],
+      crimeRate: "Very low",
+      healthRisks: ["Air pollution", "Earthquake risk"],
+      emergencyNumber: "110",
+    },
+    tradition: [
+      "Respect for elders",
+      "Group harmony",
+      "Attention to detail",
+      "Seasonal awareness",
+    ],
   },
   {
     id: "3",
     name: "New York City",
     country: "United States",
+    continent: "North America",
     region: "North America",
-    description: "The city that never sleeps. NYC is a global hub for art, fashion, food, and finance, offering endless entertainment and iconic landmarks.",
+    description:
+      "The city that never sleeps. NYC is a global hub for art, fashion, food, and finance, offering endless entertainment and iconic landmarks.",
     images: [
       "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=1200&h=600&fit=crop",
       "https://images.unsplash.com/photo-1518391846015-55a9cc003b25?w=1200&h=600&fit=crop",
       "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=1200&h=600&fit=crop",
     ],
+    popularWith: [
+      "Business travelers",
+      "Culture enthusiasts",
+      "Entertainment seekers",
+      "Urban explorers",
+    ],
+    population: 8336817,
+    capital: "Albany",
+    area: {
+      total: 778.2,
+      unit: "km²",
+    },
+    geography: {
+      terrain: "Urban area on islands and mainland",
+      elevation: {
+        average: 10,
+        highest: 125,
+        lowest: 0,
+        unit: "meters",
+      },
+      landmarks: ["Hudson River", "East River", "Central Park"],
+    },
+    connectivity: {
+      internetSpeed: "High-speed fiber",
+      wifiAvailability: true,
+      mobileNetworkCoverage: "Excellent",
+    },
+    visaRequirements: "ESTA for eligible countries, visa required for others",
     climate: {
       season: "Humid continental",
       temperature: {
         high: 29,
         low: -3,
-        unit: "°C"
+        unit: "°C",
       },
       rainfall: "Moderate year-round",
-      humidity: "55-75%"
+      humidity: "55-75%",
+      averageTemperature: 13,
     },
     currency: {
       code: "USD",
       symbol: "$",
-      name: "US Dollar"
+      name: "US Dollar",
     },
-    language: ["English", "Spanish", "Many others"],
+    pricing: {
+      averageDailyBudget: 250,
+      accommodationRange: {
+        budget: 100,
+        midRange: 250,
+        luxury: 600,
+      },
+      foodAndDrink: 80,
+      transportation: 30,
+      activitiesAndAttractions: 50,
+    },
+    language: ["English", "Spanish"],
     timezone: "EST (UTC-5)",
     highlights: [
       "Statue of Liberty",
@@ -221,66 +380,153 @@ export const mockDestinations: Destination[] = [
       "Central Park",
       "Times Square",
       "Brooklyn Bridge",
-      "9/11 Memorial"
+      "9/11 Memorial",
     ],
     bestTimeToVisit: ["April-June", "September-November"],
-    attractions: ["Statue of Liberty", "One World Trade Center", "High Line", "Manhattan Bridge", "Coney Island"],
-    activities: ["Broadway Shows", "Museum Visits", "Food Tours", "Shopping", "Helicopter Tours"],
-    cuisine: ["New York Pizza", "Bagels", "Cheesecake", "Deli Sandwiches", "International Cuisine"],
-    culture: ["Broadway", "Museums", "Street Art", "Jazz", "Fashion"],
+    attractions: [
+      "Statue of Liberty",
+      "One World Trade Center",
+      "High Line",
+      "Manhattan Bridge",
+      "Coney Island",
+    ],
+    activities: [
+      "Broadway Shows",
+      "Museum Visits",
+      "Food Tours",
+      "Shopping",
+      "Helicopter Tours",
+    ],
+    cuisine: [
+      "New York Pizza",
+      "Bagels",
+      "Cheesecake",
+      "Deli Sandwiches",
+      "International Cuisine",
+    ],
+    culture: {
+      festivals: [
+        "New Year's Eve in Times Square",
+        "Macy's Thanksgiving Parade",
+        "Summer Stage",
+      ],
+      traditions: ["Deli culture", "Street food", "Broadway theater"],
+      artsAndCrafts: ["Street art", "Fashion design", "Photography"],
+      musicAndDance: ["Jazz", "Hip-hop", "Broadway musicals"],
+      localCustoms: [
+        "Fast-paced lifestyle",
+        "Tipping culture",
+        "Subway etiquette",
+      ],
+      languages: ["English", "Spanish"],
+      cuisine: ["Pizza", "Bagels", "International fusion", "Food trucks"],
+    },
     transportation: {
-      airport: "JFK, LaGuardia (LGA), Newark (EWR)",
+      airports: ["JFK", "LaGuardia (LGA)", "Newark (EWR)"],
       publicTransport: ["Subway", "Bus", "Taxi", "Uber/Lyft"],
       taxi: true,
-      rental: true
+      rental: true,
     },
     accommodation: {
       budget: 100,
       midRange: 250,
       luxury: 600,
-      currency: "USD"
+      currency: "USD",
     },
     rating: 4.6,
     reviews: 18750,
     tags: ["Urban", "Culture", "Entertainment", "Shopping", "Food"],
     coordinates: {
       latitude: 40.7128,
-      longitude: -74.0060
+      longitude: -74.006,
     },
     visa: {
       required: true,
-      details: "ESTA for eligible countries, visa required for others"
+      details: "ESTA for eligible countries, visa required for others",
     },
     safety: {
       level: "Generally Safe",
-      advisories: ["Petty crime in some areas", "Crowded tourist areas"]
-    }
+      advisories: ["Petty crime in tourist areas", "Traffic awareness"],
+      crimeRate: "Moderate",
+      healthRisks: ["Air pollution"],
+      emergencyNumber: "911",
+    },
+    tradition: [
+      "Immigrant heritage",
+      "Work ethic",
+      "Cultural diversity",
+      "Innovation",
+    ],
   },
   {
     id: "4",
     name: "Bali",
     country: "Indonesia",
+    continent: "Asia",
     region: "Southeast Asia",
-    description: "Island paradise known for its beautiful beaches, ancient temples, lush rice terraces, and vibrant Hindu culture. Perfect for relaxation and adventure.",
+    description:
+      "Island paradise known for its beautiful beaches, ancient temples, lush rice terraces, and vibrant Hindu culture. Perfect for relaxation and adventure.",
     images: [
       "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=1200&h=600&fit=crop",
       "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=1200&h=600&fit=crop",
       "https://images.unsplash.com/photo-1555400083-7e3bbb4c632d?w=1200&h=600&fit=crop",
     ],
+    popularWith: [
+      "Beach lovers",
+      "Spiritual seekers",
+      "Adventure travelers",
+      "Couples",
+    ],
+    population: 4225000,
+    capital: "Denpasar",
+    area: {
+      total: 5780,
+      unit: "km²",
+    },
+    geography: {
+      terrain:
+        "Volcanic island with mountains, rice terraces, and coastal plains",
+      elevation: {
+        average: 150,
+        highest: 3031,
+        lowest: 0,
+        unit: "meters",
+      },
+      landmarks: ["Mount Batur", "Mount Agung", "Tegallalang Rice Terraces"],
+    },
+    connectivity: {
+      internetSpeed: "Good fiber and 4G coverage",
+      wifiAvailability: true,
+      mobileNetworkCoverage: "Good",
+    },
+    visaRequirements:
+      "Visa on arrival or e-Visa for most nationalities (30 days)",
     climate: {
       season: "Tropical",
       temperature: {
         high: 32,
         low: 24,
-        unit: "°C"
+        unit: "°C",
       },
       rainfall: "Wet season Nov-Mar, dry season Apr-Oct",
-      humidity: "75-85%"
+      humidity: "75-85%",
+      averageTemperature: 28,
     },
     currency: {
       code: "IDR",
       symbol: "Rp",
-      name: "Indonesian Rupiah"
+      name: "Indonesian Rupiah",
+    },
+    pricing: {
+      averageDailyBudget: 45,
+      accommodationRange: {
+        budget: 25,
+        midRange: 75,
+        luxury: 250,
+      },
+      foodAndDrink: 12,
+      transportation: 8,
+      activitiesAndAttractions: 25,
     },
     language: ["Indonesian", "Balinese", "English (tourist areas)"],
     timezone: "WITA (UTC+8)",
@@ -290,66 +536,150 @@ export const mockDestinations: Destination[] = [
       "Mount Batur",
       "Seminyak Beach",
       "Uluwatu Temple",
-      "Sacred Monkey Forest"
+      "Sacred Monkey Forest",
     ],
     bestTimeToVisit: ["April-September"],
-    attractions: ["Tanah Lot", "Uluwatu Temple", "Sekumpul Falls", "Tegallalang Rice Terraces", "Goa Gajah"],
-    activities: ["Surfing", "Temple Tours", "Volcano Trekking", "Yoga Retreats", "Cooking Classes"],
-    cuisine: ["Nasi Goreng", "Satay", "Rendang", "Gado-Gado", "Fresh Tropical Fruits"],
-    culture: ["Hindu Temples", "Traditional Dance", "Art Villages", "Ceremonies", "Meditation"],
+    attractions: [
+      "Tanah Lot",
+      "Uluwatu Temple",
+      "Sekumpul Falls",
+      "Tegallalang Rice Terraces",
+      "Goa Gajah",
+    ],
+    activities: [
+      "Surfing",
+      "Temple Tours",
+      "Volcano Trekking",
+      "Yoga Retreats",
+      "Cooking Classes",
+    ],
+    cuisine: [
+      "Nasi Goreng",
+      "Satay",
+      "Rendang",
+      "Gado-Gado",
+      "Fresh Tropical Fruits",
+    ],
+    culture: {
+      festivals: ["Nyepi Day", "Galungan and Kuningan", "Ogoh-ogoh Festival"],
+      traditions: ["Hindu ceremonies", "Gamelan music", "Traditional dance"],
+      artsAndCrafts: ["Wood carving", "Silver jewelry", "Batik textiles"],
+      musicAndDance: ["Gamelan orchestras", "Kecak fire dance", "Legong dance"],
+      localCustoms: ["Temple etiquette", "Sarong wearing", "Hindu offerings"],
+      languages: ["Indonesian", "Balinese", "English"],
+      cuisine: [
+        "Nasi Goreng",
+        "Satay",
+        "Rendang",
+        "Gado-Gado",
+        "Tropical fruits",
+      ],
+    },
     transportation: {
-      airport: "Ngurah Rai International (DPS)",
+      airports: ["Ngurah Rai International (DPS)"],
       publicTransport: ["Bemo", "Buses", "Ride-sharing"],
       taxi: true,
-      rental: true
+      rental: true,
     },
     accommodation: {
       budget: 25,
       midRange: 75,
       luxury: 250,
-      currency: "USD"
+      currency: "USD",
     },
     rating: 4.8,
     reviews: 9340,
     tags: ["Beach", "Spiritual", "Adventure", "Tropical", "Culture"],
     coordinates: {
       latitude: -8.3405,
-      longitude: 115.0920
+      longitude: 115.092,
     },
     visa: {
       required: true,
-      details: "Visa on arrival or e-Visa for most nationalities (30 days)"
+      details: "Visa on arrival or e-Visa for most nationalities (30 days)",
     },
     safety: {
       level: "Generally Safe",
-      advisories: ["Traffic safety", "Petty theft", "Natural disasters"]
-    }
+      advisories: ["Traffic safety", "Petty theft", "Natural disasters"],
+      crimeRate: "Low",
+      healthRisks: ["Tropical diseases", "Sun exposure", "Water quality"],
+      emergencyNumber: "112",
+    },
+    tradition: [
+      "Hindu spirituality",
+      "Community harmony",
+      "Respect for nature",
+      "Artistic expression",
+    ],
   },
   {
     id: "5",
     name: "Cape Town",
     country: "South Africa",
+    continent: "Africa",
     region: "Southern Africa",
-    description: "Stunning coastal city nestled between mountains and ocean. Known for its natural beauty, wine regions, rich history, and vibrant culture.",
+    description:
+      "Stunning coastal city nestled between mountains and ocean. Known for its natural beauty, wine regions, rich history, and vibrant culture.",
     images: [
       "https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=1200&h=600&fit=crop",
       "https://images.unsplash.com/photo-1563656353898-febc9270be0b?w=1200&h=600&fit=crop",
       "https://images.unsplash.com/photo-1578454167567-d8738d97a375?w=1200&h=600&fit=crop",
     ],
+    popularWith: [
+      "Wine enthusiasts",
+      "Adventure seekers",
+      "History buffs",
+      "Nature lovers",
+    ],
+    population: 4618000,
+    capital: "Cape Town",
+    area: {
+      total: 2461,
+      unit: "km²",
+    },
+    geography: {
+      terrain: "Coastal city with mountains, beaches, and wine valleys",
+      elevation: {
+        average: 156,
+        highest: 1085,
+        lowest: 0,
+        unit: "meters",
+      },
+      landmarks: ["Table Mountain", "Lion's Head", "Cape Point"],
+    },
+    connectivity: {
+      internetSpeed: "High-speed fiber",
+      wifiAvailability: true,
+      mobileNetworkCoverage: "Excellent",
+    },
+    visaRequirements:
+      "Tourist visa on arrival for many nationalities (90 days)",
     climate: {
       season: "Mediterranean",
       temperature: {
         high: 26,
         low: 7,
-        unit: "°C"
+        unit: "°C",
       },
       rainfall: "Winter rainfall (May-Aug)",
-      humidity: "60-70%"
+      humidity: "60-70%",
+      averageTemperature: 16,
     },
     currency: {
       code: "ZAR",
       symbol: "R",
-      name: "South African Rand"
+      name: "South African Rand",
+    },
+    pricing: {
+      averageDailyBudget: 75,
+      accommodationRange: {
+        budget: 35,
+        midRange: 85,
+        luxury: 200,
+      },
+      foodAndDrink: 25,
+      transportation: 15,
+      activitiesAndAttractions: 35,
     },
     language: ["English", "Afrikaans", "Xhosa", "Other local languages"],
     timezone: "SAST (UTC+2)",
@@ -359,39 +689,92 @@ export const mockDestinations: Destination[] = [
       "Robben Island",
       "Cape Point",
       "Stellenbosch Wine Region",
-      "Camps Bay Beach"
+      "Camps Bay Beach",
     ],
     bestTimeToVisit: ["October-April"],
-    attractions: ["Table Mountain", "Cape of Good Hope", "Kirstenbosch Gardens", "Boulders Beach", "Lion's Head"],
-    activities: ["Wine Tasting", "Shark Cage Diving", "Hiking", "Penguin Watching", "Township Tours"],
-    cuisine: ["Bobotie", "Biltong", "Boerewors", "Cape Malay Curry", "Rooibos Tea"],
-    culture: ["Museums", "Jazz", "Art Galleries", "Markets", "History"],
+    attractions: [
+      "Table Mountain",
+      "Cape of Good Hope",
+      "Kirstenbosch Gardens",
+      "Boulders Beach",
+      "Lion's Head",
+    ],
+    activities: [
+      "Wine Tasting",
+      "Shark Cage Diving",
+      "Hiking",
+      "Penguin Watching",
+      "Township Tours",
+    ],
+    cuisine: [
+      "Bobotie",
+      "Biltong",
+      "Boerewors",
+      "Cape Malay Curry",
+      "Rooibos Tea",
+    ],
+    culture: {
+      festivals: [
+        "Cape Town International Jazz Festival",
+        "Kirstenbosch Summer Concerts",
+        "Cape Malay Cultural Festival",
+      ],
+      traditions: ["Wine making", "Braai culture", "Rainbow Nation heritage"],
+      artsAndCrafts: ["Beadwork", "Wire art", "Township crafts"],
+      musicAndDance: ["Jazz music", "Ghoema dance", "Cape Malay music"],
+      localCustoms: [
+        "Ubuntu philosophy",
+        "Multicultural respect",
+        "Outdoor lifestyle",
+      ],
+      languages: ["English", "Afrikaans", "Xhosa", "Zulu"],
+      cuisine: [
+        "Bobotie",
+        "Biltong",
+        "Boerewors",
+        "Cape Malay Curry",
+        "Rooibos Tea",
+      ],
+    },
     transportation: {
-      airport: "Cape Town International (CPT)",
+      airports: ["Cape Town International (CPT)"],
       publicTransport: ["MyCiTi Bus", "Metrorail", "Minibus taxis"],
       taxi: true,
-      rental: true
+      rental: true,
     },
     accommodation: {
       budget: 35,
       midRange: 85,
       luxury: 200,
-      currency: "USD"
+      currency: "USD",
     },
     rating: 4.7,
     reviews: 6789,
     tags: ["Nature", "Wine", "Adventure", "History", "Beach"],
     coordinates: {
       latitude: -33.9249,
-      longitude: 18.4241
+      longitude: 18.4241,
     },
     visa: {
       required: false,
-      details: "Tourist visa on arrival for many nationalities (90 days)"
+      details: "Tourist visa on arrival for many nationalities (90 days)",
     },
     safety: {
       level: "Moderate",
-      advisories: ["Crime in certain areas", "Don't display valuables", "Use reputable tour operators"]
-    }
-  }
+      advisories: [
+        "Crime in certain areas",
+        "Don't display valuables",
+        "Use reputable tour operators",
+      ],
+      crimeRate: "Moderate to high",
+      healthRisks: ["UV exposure", "Crime-related injuries"],
+      emergencyNumber: "10111",
+    },
+    tradition: [
+      "Multicultural harmony",
+      "Wine heritage",
+      "Conservation awareness",
+      "Community resilience",
+    ],
+  },
 ];
