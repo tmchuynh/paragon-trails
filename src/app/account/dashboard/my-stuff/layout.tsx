@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Layout({
   children,
   activities,
@@ -5,8 +7,8 @@ export default function Layout({
   tours,
 }: {
   children: React.ReactNode;
-  attractions: React.ReactNode;
   activities: React.ReactNode;
+  attractions: React.ReactNode;
   tours: React.ReactNode;
 }) {
   return (
