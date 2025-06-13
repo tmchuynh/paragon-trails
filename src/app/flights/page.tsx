@@ -21,15 +21,14 @@ export default function FlightsPage() {
   const router = useRouter();
   const { formatPrice } = useCurrency();
   const [searchQuery, setSearchQuery] = useState("");
-  const [fromLocation, setFromLocation] = useState("");
-  const [toLocation, setToLocation] = useState("");
+  const [fromLocation, setFromLocation] = useState<string>("");
+  const [toLocation, setToLocation] = useState<string>("");
   const [departureDate, setDepartureDate] = useState("");
   const [passengers, setPassengers] = useState("1");
   const [classType, setClassType] = useState("economy");
   const [filteredFlights, setFilteredFlights] = useState(mockFlights);
 
   const locations = [
-    { value: "", label: "Select location" },
     { value: "JFK", label: "New York (JFK)" },
     { value: "LAX", label: "Los Angeles (LAX)" },
     { value: "ATL", label: "Atlanta (ATL)" },
