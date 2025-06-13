@@ -68,7 +68,7 @@ export default function Cart() {
 
   if (state.items.length === 0) {
     return (
-      <div className="bg-slate-50 dark:bg-slate-950 min-h-screen">
+      <div className="min-h-screen">
         <div className="mx-auto px-6 lg:px-8 py-24 max-w-7xl">
           <div className="text-center">
             <div className="flex justify-center items-center bg-slate-100 dark:bg-slate-800 mx-auto mb-8 rounded-full w-24 h-24">
@@ -110,7 +110,7 @@ export default function Cart() {
   }
 
   return (
-    <div className="bg-slate-50 dark:bg-slate-950 min-h-screen">
+    <div className="min-h-screen">
       <div className="mx-auto px-6 lg:px-8 py-12 max-w-7xl">
         {/* Header */}
         <div className="mb-12">
