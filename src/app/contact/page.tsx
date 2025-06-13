@@ -85,9 +85,7 @@ export default function ContactUsPage() {
               <div className="flex justify-center items-center bg-primary/10 mb-4 rounded-full w-16 h-16">
                 <Clock className="w-8 h-8 text-primary" />
               </div>
-              <h3 className="mb-2 font-semibold text-slate-900 dark:text-white">
-                Response Time
-              </h3>
+              <h3 className="mb-2 font-semibold">Response Time</h3>
               <p className="text-slate-600 text-sm dark:text-slate-400">
                 Within 2 hours during business hours
               </p>
@@ -97,9 +95,7 @@ export default function ContactUsPage() {
               <div className="flex justify-center items-center bg-primary/10 mb-4 rounded-full w-16 h-16">
                 <Headphones className="w-8 h-8 text-primary" />
               </div>
-              <h3 className="mb-2 font-semibold text-slate-900 dark:text-white">
-                24/7 Emergency Support
-              </h3>
+              <h3 className="mb-2 font-semibold">24/7 Emergency Support</h3>
               <p className="text-slate-600 text-sm dark:text-slate-400">
                 Always available for urgent travel needs
               </p>
@@ -109,9 +105,7 @@ export default function ContactUsPage() {
               <div className="flex justify-center items-center bg-primary/10 mb-4 rounded-full w-16 h-16">
                 <Globe className="w-8 h-8 text-primary" />
               </div>
-              <h3 className="mb-2 font-semibold text-slate-900 dark:text-white">
-                Global Coverage
-              </h3>
+              <h3 className="mb-2 font-semibold">Global Coverage</h3>
               <p className="text-slate-600 text-sm dark:text-slate-400">
                 Worldwide support in multiple languages
               </p>
@@ -122,7 +116,7 @@ export default function ContactUsPage() {
         <div className="gap-12 grid lg:grid-cols-2">
           {/* Contact Form */}
           <Card className="shadow-lg">
-            <CardHeader className="bg-gradient-to-r from-primary/5 to-primary/10">
+            <CardHeader>
               <CardTitle className="flex items-center gap-3 text-2xl">
                 <Send className="w-6 h-6 text-primary" />
                 Send Us a Message
@@ -254,7 +248,7 @@ export default function ContactUsPage() {
                 </Button>
 
                 {/* Privacy Note */}
-                <div className="flex items-start gap-2 bg-slate-50 dark:bg-slate-800 p-4 rounded-lg">
+                <div className="flex items-start gap-2 p-4 rounded-lg">
                   <Shield className="flex-shrink-0 mt-0.5 w-4 h-4 text-primary" />
                   <p className="text-slate-600 text-xs dark:text-slate-400">
                     Your privacy is important to us. All information submitted
@@ -271,7 +265,7 @@ export default function ContactUsPage() {
           <div className="space-y-8">
             {/* Primary Contact Methods */}
             <Card className="shadow-lg">
-              <CardHeader className="bg-gradient-to-r from-primary/5 to-primary/10">
+              <CardHeader>
                 <CardTitle className="flex items-center gap-3 text-2xl">
                   <Phone className="w-6 h-6 text-primary" />
                   Quick Contact
@@ -279,8 +273,8 @@ export default function ContactUsPage() {
               </CardHeader>
               <CardContent className="space-y-6 p-6">
                 {/* Main Contact */}
-                <div className="bg-primary/5 p-4 rounded-lg">
-                  <h3 className="mb-3 font-semibold text-lg text-slate-900 dark:text-white">
+                <div className="p-4 rounded-lg">
+                  <h3 className="mb-3 font-semibold text-lg">
                     General Inquiries
                   </h3>
                   <div className="space-y-2">
@@ -312,7 +306,7 @@ export default function ContactUsPage() {
                 </div>
 
                 {/* Emergency Contact */}
-                <div className="bg-red-50 dark:bg-red-950/20 p-4 border-2 border-red-200 dark:border-red-800 rounded-lg">
+                <div className="p-4 border-2 border-red-200 dark:border-red-800 rounded-lg">
                   <h3 className="flex items-center gap-2 mb-3 font-semibold text-lg text-red-800 dark:text-red-400">
                     <Headphones className="w-5 h-5" />
                     Emergency Support
@@ -343,8 +337,8 @@ export default function ContactUsPage() {
                 </div>
 
                 {/* Office Location */}
-                <div className="bg-slate-50 dark:bg-slate-800 p-4 rounded-lg">
-                  <h3 className="flex items-center gap-2 mb-3 font-semibold text-lg text-slate-900 dark:text-white">
+                <div className="p-4 rounded-lg">
+                  <h3 className="flex items-center gap-2 mb-3 font-semibold text-lg">
                     <MapPin className="w-5 h-5 text-primary" />
                     Our Location
                   </h3>
@@ -366,7 +360,7 @@ export default function ContactUsPage() {
 
             {/* Department Directory */}
             <Card className="shadow-lg">
-              <CardHeader className="bg-gradient-to-r from-primary/5 to-primary/10">
+              <CardHeader>
                 <CardTitle className="text-xl">Department Directory</CardTitle>
                 <p className="text-slate-600 text-sm dark:text-slate-400">
                   Contact the right team for faster assistance
@@ -376,9 +370,7 @@ export default function ContactUsPage() {
                 <div className="space-y-4">
                   {/* Primary Departments */}
                   <div>
-                    <h4 className="mb-3 font-semibold text-slate-900 dark:text-white">
-                      Primary Services
-                    </h4>
+                    <h4 className="mb-3 font-semibold">Primary Services</h4>
                     <div className="space-y-3">
                       {primaryDepartments.map((dept) => (
                         <div
@@ -387,9 +379,7 @@ export default function ContactUsPage() {
                         >
                           <div className="flex justify-between items-start">
                             <div className="flex-1">
-                              <h5 className="font-medium text-slate-900 dark:text-white">
-                                {dept.department}
-                              </h5>
+                              <h5>{dept.department}</h5>
                               <p className="mt-1 text-slate-600 text-sm dark:text-slate-400">
                                 {dept.short}
                               </p>
@@ -426,9 +416,7 @@ export default function ContactUsPage() {
 
                   {/* Specialized Services */}
                   <div>
-                    <h4 className="mb-3 font-semibold text-slate-900 dark:text-white">
-                      Specialized Services
-                    </h4>
+                    <h4 className="mb-3 font-semibold">Specialized Services</h4>
                     <div className="space-y-2">
                       {specializedDepartments.map((dept) => (
                         <div
@@ -474,7 +462,7 @@ export default function ContactUsPage() {
 
         {/* Languages Supported Section */}
         <Card className="shadow-lg mt-12">
-          <CardHeader className="bg-gradient-to-r from-primary/5 to-primary/10">
+          <CardHeader>
             <CardTitle className="flex items-center gap-3 text-xl">
               <Globe className="w-5 h-5 text-primary" />
               Global Language Support
@@ -483,33 +471,25 @@ export default function ContactUsPage() {
           <CardContent className="p-6">
             <div className="gap-6 grid md:grid-cols-2 lg:grid-cols-4 text-center">
               <div className="space-y-2">
-                <h4 className="font-semibold text-slate-900 dark:text-white">
-                  European Languages
-                </h4>
+                <h4 className="font-semibold">European Languages</h4>
                 <p className="text-slate-600 text-sm dark:text-slate-400">
                   English, Spanish, French, German, Italian, Portuguese
                 </p>
               </div>
               <div className="space-y-2">
-                <h4 className="font-semibold text-slate-900 dark:text-white">
-                  Asian Languages
-                </h4>
+                <h4 className="font-semibold">Asian Languages</h4>
                 <p className="text-slate-600 text-sm dark:text-slate-400">
                   Mandarin, Japanese, Korean, Hindi, Thai, Vietnamese
                 </p>
               </div>
               <div className="space-y-2">
-                <h4 className="font-semibold text-slate-900 dark:text-white">
-                  Middle Eastern
-                </h4>
+                <h4 className="font-semibold">Middle Eastern</h4>
                 <p className="text-slate-600 text-sm dark:text-slate-400">
                   Arabic, Hebrew, Persian, Turkish
                 </p>
               </div>
               <div className="space-y-2">
-                <h4 className="font-semibold text-slate-900 dark:text-white">
-                  Additional Support
-                </h4>
+                <h4 className="font-semibold">Additional Support</h4>
                 <p className="text-slate-600 text-sm dark:text-slate-400">
                   Russian, Dutch, Swedish, and more upon request
                 </p>
@@ -521,7 +501,7 @@ export default function ContactUsPage() {
         {/* Response Time & Social Media */}
         <div className="gap-8 grid md:grid-cols-2 mt-8">
           <Card className="shadow-lg">
-            <CardHeader className="bg-gradient-to-r from-primary/5 to-primary/10">
+            <CardHeader>
               <CardTitle className="flex items-center gap-3 text-xl">
                 <Clock className="w-5 h-5 text-primary" />
                 Response Times
@@ -529,19 +509,15 @@ export default function ContactUsPage() {
             </CardHeader>
             <CardContent className="p-6">
               <div className="space-y-4">
-                <div className="flex justify-between items-center bg-slate-50 dark:bg-slate-800 p-3 rounded-lg">
-                  <span className="font-medium text-slate-900 dark:text-white">
-                    Email Inquiries
-                  </span>
+                <div className="flex justify-between items-center p-3 rounded-lg">
+                  <span>Email Inquiries</span>
                   <Badge variant="secondary">Within 2 hours</Badge>
                 </div>
-                <div className="flex justify-between items-center bg-slate-50 dark:bg-slate-800 p-3 rounded-lg">
-                  <span className="font-medium text-slate-900 dark:text-white">
-                    Phone Calls
-                  </span>
+                <div className="flex justify-between items-center p-3 rounded-lg">
+                  <span>Phone Calls</span>
                   <Badge variant="secondary">Immediate</Badge>
                 </div>
-                <div className="flex justify-between items-center bg-red-50 dark:bg-red-950/20 p-3 rounded-lg">
+                <div className="flex justify-between items-center p-3 rounded-lg">
                   <span className="font-medium text-red-800 dark:text-red-400">
                     Emergency Support
                   </span>
@@ -552,7 +528,7 @@ export default function ContactUsPage() {
           </Card>
 
           <Card className="shadow-lg">
-            <CardHeader className="bg-gradient-to-r from-primary/5 to-primary/10">
+            <CardHeader>
               <CardTitle className="flex items-center gap-3 text-xl">
                 <Globe className="w-5 h-5 text-primary" />
                 Connect With Us
