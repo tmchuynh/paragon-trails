@@ -53,7 +53,30 @@ interface BudgetPlan {
   customTarget?: number;
 }
 
-const TripBudgetCalculator: React.FC = () => {
+export default function TripBudgetCalculator({
+    initialBudget = "",
+    initialDestination = "",
+    initialSelectedItems = [] as SelectedItem[],
+    initialTotalCost = 0,
+    initialBudgetDifference = 0,
+    initialShowSavingsPlan = false,
+    initialBudgetPlan = {
+        monthlyIncome: 0,
+        monthlyExpenses: 0,
+        savingsPercentage: 5,
+        monthsToGoal: 0,
+        monthlySavings: 0,
+        customTarget: undefined,
+    },
+} :{
+    initialBudget?: string;
+    initialDestination?: string;
+    initialSelectedItems?: SelectedItem[];
+    initialTotalCost?: number;
+    initialBudgetDifference?: number;
+    initialShowSavingsPlan?: boolean;
+    initialBudgetPlan?: BudgetPlan;
+}) {
   const [currentBudget, setCurrentBudget] = useState<string>("");
   const [selectedDestination, setSelectedDestination] = useState<string>("");
   const [selectedItems, setSelectedItems] = useState<SelectedItem[]>([]);
@@ -324,9 +347,9 @@ const TripBudgetCalculator: React.FC = () => {
                         {flight.origin.city} → {flight.destination.city}
                       </div>
                       <div className="space-y-2">
-                        {Object.entries(flight.pricing)
-                          .filter(([key]) => key !== "currency")
-                          .map(([flightClass, price]) => (
+                        {flight.pricing
+                          .filter((key) => key !== "currency")
+                          .map(([flightClass]) => (
                             <div
                               key={flightClass}
                               className="flex items-center space-x-2"
@@ -696,7 +719,7 @@ const TripBudgetCalculator: React.FC = () => {
                 </Alert>
               )}
 
-              <div className="gap-4 grid grid-cols-1 md:grid-cols-2">
+              <div className="gap-4 grid grid-cols-1 md:grid-cols-3">
                 <div>
                   <Label htmlFor="income">Monthly Income ($)</Label>
                   <Input
@@ -726,6 +749,19 @@ const TripBudgetCalculator: React.FC = () => {
                       }))
                     }
                   />
+                </div>
+                <div>
+                  <Label htmlFor="customTarget">Custom Savings Target ($)</Label>
+                  <Input
+                    id="customTarget"
+                    type="number"
+                    placeholder="Optional - override calculated target"
+                    value={customSavingsTarget}
+                    onChange={(e) => handleCustomTargetChange(e.target.value)}
+                  />
+                  <div className="mt-1 text-xs text-gray-500">
+                    Leave empty to use budget difference
+                  </div>
                 </div>
               </div>
 
@@ -835,5 +871,3 @@ const TripBudgetCalculator: React.FC = () => {
     </div>
   );
 };
-
-export default TripBudgetCalculator;
