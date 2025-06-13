@@ -90,7 +90,7 @@ export default function CartSummaryPage() {
             <p className="mb-2 font-medium text-slate-700 text-sm dark:text-slate-300">
               Confirmation Number
             </p>
-            <p className="font-mono font-bold text-lg text-slate-900 dark:text-white">
+            <p className="font-bold font-mono text-lg text-slate-900 dark:text-white">
               {confirmationNumber}
             </p>
           </div>
