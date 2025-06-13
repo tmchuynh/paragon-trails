@@ -49,7 +49,7 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
     : pathSegments;
 
   return (
-    <div className="z-40 sticky supports-[backdrop-filter]:bg-background/60 backdrop-blur pt-9 border-b border-border/40 w-full">
+    <div className="z-40 sticky backdrop-blur pt-9 w-full">
       <div className="mx-auto px-4 sm:px-6 lg:px-8 w-full max-w-7xl">
         <div className="flex items-center py-2 md:py-3 min-h-[3rem]">
           <Breadcrumb>
