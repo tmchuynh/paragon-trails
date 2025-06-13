@@ -8,6 +8,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Separator } from "@/components/ui/separator";
 import { cartHelpers, useCart } from "@/context/CartContext";
+import { useCurrency } from "@/context/CurrencyContext";
 import {
   AlertCircle,
   ArrowLeft,
@@ -25,6 +26,7 @@ import { useEffect, useState } from "react";
 
 export default function CartSummaryPage() {
   const { state } = useCart();
+  const { formatPrice } = useCurrency();
   const router = useRouter();
   const [isProcessing, setIsProcessing] = useState(false);
   const [paymentMethod, setPaymentMethod] = useState("card");
@@ -183,7 +185,7 @@ export default function CartSummaryPage() {
                     <div className="flex justify-between items-center font-semibold">
                       <span>Total for this item:</span>
                       <span>
-                        {cartHelpers.formatPrice(
+                        {formatPrice(
                           item.price * item.quantity * item.guests
                         )}
                       </span>
@@ -368,26 +370,26 @@ export default function CartSummaryPage() {
                       Subtotal ({state.items.length}{" "}
                       {state.items.length === 1 ? "item" : "items"})
                     </span>
-                    <span>{cartHelpers.formatPrice(state.subtotal)}</span>
+                    <span>{formatPrice(state.subtotal)}</span>
                   </div>
                   <div className="flex justify-between text-slate-600 dark:text-slate-400">
                     <span>Service Fees</span>
-                    <span>{cartHelpers.formatPrice(state.fees)}</span>
+                    <span>{formatPrice(state.fees)}</span>
                   </div>
                   <div className="flex justify-between text-slate-600 dark:text-slate-400">
                     <span>Taxes</span>
-                    <span>{cartHelpers.formatPrice(state.taxes)}</span>
+                    <span>{formatPrice(state.taxes)}</span>
                   </div>
                   {state.discounts > 0 && (
                     <div className="flex justify-between text-green-600 dark:text-green-400">
                       <span>Discount</span>
-                      <span>-{cartHelpers.formatPrice(state.discounts)}</span>
+                      <span>-{formatPrice(state.discounts)}</span>
                     </div>
                   )}
                   <Separator />
                   <div className="flex justify-between font-bold text-slate-900 text-xl dark:text-white">
                     <span>Total</span>
-                    <span>{cartHelpers.formatPrice(state.total)}</span>
+                    <span>{formatPrice(state.total)}</span>
                   </div>
                 </div>
 
@@ -430,7 +432,7 @@ export default function CartSummaryPage() {
                     </>
                   ) : (
                     <>
-                      Complete Booking - {cartHelpers.formatPrice(state.total)}
+                      Complete Booking - {formatPrice(state.total)}
                       <Lock className="ml-2 w-4 h-4" />
                     </>
                   )}
