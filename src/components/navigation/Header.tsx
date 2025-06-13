@@ -7,6 +7,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { currencies, useCurrency } from "@/context/CurrencyContext";
 import { navbarItems } from "@/lib/constants/info/navigation";
 import { Dialog, DialogPanel } from "@headlessui/react";
 import {
@@ -25,6 +26,7 @@ import { FaChevronDown, FaDollarSign } from "react-icons/fa";
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const router = useRouter();
+  const { currentCurrency, setCurrency, isLoading } = useCurrency();
 
   return (
     <header className="top-0 z-50 fixed inset-x-0 bg-white/95 shadow-sm backdrop-blur-sm w-full">
@@ -47,82 +49,28 @@ export default function Header() {
             <DropdownMenu>
               <DropdownMenuTrigger className="flex items-center gap-1 m-0 p-0 h-fit text-background text-xs hover:text-sky-300 uppercase transition-colors">
                 <FaDollarSign className="w-4 h-4" />
-                <span className="sm:inline hidden">Currency</span>
+                <span className="sm:inline hidden">
+                  {isLoading ? "Loading..." : currentCurrency.code}
+                </span>
                 <FaChevronDown className="w-3 h-3" />
               </DropdownMenuTrigger>
-              <DropdownMenuContent align="end" className="min-w-[150px]">
-                <DropdownMenuItem asChild>
-                  <Link
-                    href="/currency/usd"
-                    className="block px-4 py-2 text-sm"
+              <DropdownMenuContent align="end" className="min-w-[200px]">
+                {currencies.map((currency) => (
+                  <DropdownMenuItem 
+                    key={currency.code}
+                    onClick={() => setCurrency(currency)}
+                    className={`cursor-pointer ${
+                      currentCurrency.code === currency.code 
+                        ? "bg-blue-50 text-blue-700 font-medium" 
+                        : ""
+                    }`}
                   >
-                    USD - US Dollar
-                  </Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem asChild>
-                  <Link
-                    href="/currency/eur"
-                    className="block px-4 py-2 text-sm"
-                  >
-                    EUR - Euro
-                  </Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem asChild>
-                  <Link
-                    href="/currency/gbp"
-                    className="block px-4 py-2 text-sm"
-                  >
-                    GBP - British Pound
-                  </Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem asChild>
-                  <Link
-                    href="/currency/jpy"
-                    className="block px-4 py-2 text-sm"
-                  >
-                    JPY - Japanese Yen
-                  </Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem asChild>
-                  <Link
-                    href="/currency/aud"
-                    className="block px-4 py-2 text-sm"
-                  >
-                    AUD - Australian Dollar
-                  </Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem asChild>
-                  <Link
-                    href="/currency/cad"
-                    className="block px-4 py-2 text-sm"
-                  >
-                    CAD - Canadian Dollar
-                  </Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem asChild>
-                  <Link
-                    href="/currency/cny"
-                    className="block px-4 py-2 text-sm"
-                  >
-                    CNY - Chinese Yuan
-                  </Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem asChild>
-                  <Link
-                    href="/currency/inr"
-                    className="block px-4 py-2 text-sm"
-                  >
-                    INR - Indian Rupee
-                  </Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem asChild>
-                  <Link
-                    href="/currency/rub"
-                    className="block px-4 py-2 text-sm"
-                  >
-                    RUB - Russian Ruble
-                  </Link>
-                </DropdownMenuItem>
+                    <div className="flex items-center justify-between w-full">
+                      <span>{currency.code} - {currency.name}</span>
+                      <span className="text-gray-500">{currency.symbol}</span>
+                    </div>
+                  </DropdownMenuItem>
+                ))}
               </DropdownMenuContent>
             </DropdownMenu>
             <Button
