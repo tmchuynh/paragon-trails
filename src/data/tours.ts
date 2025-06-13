@@ -1,5 +1,11 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import { FaCamera, FaMountain, FaWater, FaTree, FaCity, FaUmbrellaBeach } from "react-icons/fa";
+import {
+  FaCity,
+  FaMountain,
+  FaTree,
+  FaUmbrellaBeach,
+  FaWater,
+} from "react-icons/fa";
 
 export const mockTours: Tour[] = [
   {
