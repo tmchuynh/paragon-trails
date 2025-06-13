@@ -70,3 +70,18 @@ export function truncate(str: string, maxLength: number): string {
   if (!str || str.length <= maxLength) return str;
   return str.slice(0, maxLength).trim() + "...";
 }
+
+/**
+ * Converts a string to a URL-friendly slug format.
+ * @param str - The string to convert to a slug
+ * @returns The slug string
+ */
+export function formatToSlug(str: string): string {
+  if (!str) return str;
+
+  return str
+    .toLowerCase()
+    .trim()
+    .replace(/[\s\W-]+/g, "-") // Replace spaces and non-word characters with hyphens
+    .replace(/^-+|-+$/g, ""); // Remove leading and trailing hyphens
+}
