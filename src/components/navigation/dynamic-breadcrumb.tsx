@@ -1,7 +1,7 @@
 "use client";
 
 import { cn } from "@/lib/utils";
-import { capitalize } from "@/lib/utils/format";
+import { kebabToTitle } from "@/lib/utils/format";
 import { ChevronRight, Home, MoreHorizontal } from "lucide-react";
 import { usePathname } from "next/navigation";
 import React, { JSX, useMemo } from "react";
@@ -34,8 +34,8 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
 
   const formatSegment = (segment: string, isLast: boolean): string => {
     if (isLast && isNotFoundPage) return "Page Not Found";
-    if (segment.length === 2) return segment.toUpperCase();
-    return capitalize(segment);
+    if (segment.length === 2) return kebabToTitle(segment).toUpperCase();
+    return kebabToTitle(segment);
   };
 
   const buildHref = (index: number): string => {
@@ -49,7 +49,7 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
     : pathSegments;
 
   return (
-    <div className="top-0 z-40 sticky bg-background/95 supports-[backdrop-filter]:bg-background/60 backdrop-blur border-b border-border/40 w-full">
+    <div className="z-40 sticky supports-[backdrop-filter]:bg-background/60 backdrop-blur pt-9 border-b border-border/40 w-full">
       <div className="mx-auto px-4 sm:px-6 lg:px-8 w-full max-w-7xl">
         <div className="flex items-center py-2 md:py-3 min-h-[3rem]">
           <Breadcrumb>
@@ -61,11 +61,10 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
                   className={cn(
                     "group flex items-center gap-2 text-muted-foreground/80",
                     "rounded-lg px-2.5 py-1.5 transition-all duration-200 ease-in-out",
-                    "hover:bg-accent/50 hover:text-foreground hover:shadow-sm",
-                    "focus:outline-none focus:ring-2 focus:ring-primary/30 focus:ring-offset-2"
+                    "hover:text-foreground "
                   )}
                 >
-                  <Home className="w-4 h-4 group-hover:text-primary transition-all duration-200 group-hover:scale-110" />
+                  <Home className="w-4 h-4 group-hover:text-accent transition-all duration-200 group-hover:scale-120" />
                   <span className="sm:inline hidden font-medium">Home</span>
                 </BreadcrumbLink>
               </BreadcrumbItem>
@@ -77,7 +76,7 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
                     <ChevronRight className="w-3.5 h-3.5 text-muted-foreground/50" />
                   </BreadcrumbSeparator>
                   <BreadcrumbItem>
-                    <div className="flex justify-center items-center hover:bg-accent/30 rounded-md w-8 h-8 text-muted-foreground/60 hover:text-muted-foreground transition-colors">
+                    <div className="flex justify-center items-center rounded-md w-8 h-8 text-muted-foreground/60 hover:text-muted-foreground transition-colors">
                       <MoreHorizontal className="w-4 h-4" />
                     </div>
                   </BreadcrumbItem>
@@ -105,8 +104,7 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
                         <BreadcrumbPage
                           className={cn(
                             "max-w-[8rem] truncate font-semibold text-foreground sm:max-w-none",
-                            "rounded-lg bg-primary/8 px-2.5 py-1.5 ring-1 ring-primary/20",
-                            "shadow-sm"
+                            "rounded-lg bg-primary/8 px-2.5 py-1.5 ring-1 ring-primary/20"
                           )}
                         >
                           {displayText}
@@ -117,8 +115,8 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
                           className={cn(
                             "max-w-[6rem] truncate text-muted-foreground/80 sm:max-w-none",
                             "rounded-lg px-2.5 py-1.5 font-medium transition-all duration-200 ease-in-out",
-                            "hover:bg-accent/50 hover:text-foreground hover:shadow-sm",
-                            "focus:outline-none focus:ring-2 focus:ring-primary/30 focus:ring-offset-2"
+                            "hover:text-foreground hover:underline decoration-fancy decoration-2 underline-offset-2",
+                            "focus:outline-none focus:ring-2 focus:ring-primary/20 focus:ring-offset-2"
                           )}
                         >
                           {displayText}
