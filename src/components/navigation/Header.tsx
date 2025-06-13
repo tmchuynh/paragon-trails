@@ -1,5 +1,6 @@
 "use client";
 
+import CurrencyStatus from "@/components/CurrencyStatus";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
@@ -7,7 +8,6 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import CurrencyStatus from "@/components/CurrencyStatus";
 import { currencies, useCurrency } from "@/context/CurrencyContext";
 import { navbarItems } from "@/lib/constants/info/navigation";
 import { Dialog, DialogPanel } from "@headlessui/react";
@@ -58,17 +58,19 @@ export default function Header() {
               </DropdownMenuTrigger>
               <DropdownMenuContent align="end" className="min-w-[200px]">
                 {currencies.map((currency) => (
-                  <DropdownMenuItem 
+                  <DropdownMenuItem
                     key={currency.code}
                     onClick={() => setCurrency(currency)}
                     className={`cursor-pointer ${
-                      currentCurrency.code === currency.code 
-                        ? "bg-blue-50 text-blue-700 font-medium" 
+                      currentCurrency.code === currency.code
+                        ? "bg-blue-50 text-blue-700 font-medium"
                         : ""
                     }`}
                   >
-                    <div className="flex items-center justify-between w-full">
-                      <span>{currency.code} - {currency.name}</span>
+                    <div className="flex justify-between items-center w-full">
+                      <span>
+                        {currency.code} - {currency.name}
+                      </span>
                       <span className="text-gray-500">{currency.symbol}</span>
                     </div>
                   </DropdownMenuItem>
