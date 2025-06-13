@@ -28,7 +28,7 @@ export default function VehicleCard({
   location,
 }: VehicleCardProps) {
   const router = useRouter();
-  const { dispatch } = useCart();
+  const { state: cartState, dispatch } = useCart();
   const { formatPrice } = useCurrency();
   const [isAddingToCart, setIsAddingToCart] = useState(false);
 
@@ -47,29 +47,44 @@ export default function VehicleCard({
   const handleAddToCart = () => {
     setIsAddingToCart(true);
 
+    const startDate = pickupDate || new Date().toISOString().split("T")[0];
+    const endDate = returnDate || new Date(Date.now() + 24 * 60 * 60 * 1000).toISOString().split("T")[0];
+    const locationStr = location === "all" ? "Multiple Locations" : location || "Location TBD";
+
     const rentalItem = {
-      id: `${formatToSlug(vehicle.name)}-${Math.random()
-        .toString(36)
-        .substr(2, 9)}`,
+      id: `vehicle-${formatToSlug(vehicle.name)}-${startDate}-${endDate}-${formatToSlug(locationStr)}`,
       type: "vehicle" as const,
       name: vehicle.name,
       description: `${vehicle.brand} ${vehicle.model} ${vehicle.year} - ${vehicle.description}`,
       image: vehicle.images[0],
       price: vehicle.pricing.daily,
       dates: {
-        startDate: pickupDate || new Date().toISOString().split("T")[0],
-        endDate:
-          returnDate ||
-          new Date(Date.now() + 24 * 60 * 60 * 1000)
-            .toISOString()
-            .split("T")[0],
+        startDate,
+        endDate,
       },
       guests: vehicle.specifications.seatingCapacity || 1,
-      location:
-        location === "all" ? "Multiple Locations" : location || "Location TBD",
+      location: locationStr,
       features: vehicle.features,
       cancellationPolicy: "Flexible cancellation up to 24 hours before pickup",
     };
+
+    // Check if this exact vehicle rental already exists
+    if (cartHelpers.checkIfDuplicate(cartState.items, rentalItem)) {
+      // For vehicles, we increase quantity instead of creating duplicates
+      const existingItem = cartState.items.find(item => 
+        item.name === rentalItem.name &&
+        item.dates.startDate === rentalItem.dates.startDate &&
+        item.dates.endDate === rentalItem.dates.endDate &&
+        item.location === rentalItem.location
+      );
+      
+      if (existingItem) {
+        cartHelpers.updateQuantity(dispatch, existingItem.id, existingItem.quantity + 1);
+        toast.success(`Added another ${vehicle.name} to cart! (${existingItem.quantity + 1} total)`);
+        setIsAddingToCart(false);
+        return;
+      }
+    }
 
     cartHelpers.addItem(dispatch, rentalItem);
     toast.success(`${vehicle.name} added to cart!`);
