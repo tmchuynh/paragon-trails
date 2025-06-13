@@ -126,7 +126,7 @@ export default function Cart() {
           {/* Cart Items */}
           <div className="space-y-6 lg:col-span-2">
             {state.items.map((item) => (
-              <Card key={item.id} className="overflow-hidden">
+              <Card key={item.id} className="p-0 overflow-hidden">
                 <CardContent className="p-0">
                   <div className="flex md:flex-row flex-col">
                     {/* Image */}
