@@ -3,7 +3,7 @@ import React, { createContext, ReactNode, useContext, useReducer } from 'react';
 // Types
 export interface CartItem {
   id: string;
-  type: 'tour' | 'hotel' | 'flight';
+  type: "tour" | "hotel" | "flight" | "vehicle";
   name: string;
   description: string;
   image: string;
