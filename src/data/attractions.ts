@@ -50,12 +50,12 @@ export const mockAttractions: Attraction[] = [
       "Elevator or stairs access",
       "Evening light show",
     ],
-    accessibility: [
-      "Wheelchair accessible to second floor",
-      "Accessible restrooms",
-      "Audio guides available",
-      "Braille information",
-    ],
+    accessibility: {
+      wheelchairAccessible: true,
+      hearingImpaired: true,
+      visuallyImpaired: true,
+      languageSupport: ["French", "English", "Spanish", "German", "Italian", "Japanese", "Chinese"],
+    },
     amenities: [
       "Gift shops",
       "Restaurants",
@@ -151,12 +151,12 @@ export const mockAttractions: Attraction[] = [
       "Audio tour included",
       "Ferry transportation",
     ],
-    accessibility: [
-      "Wheelchair accessible museum",
-      "Limited crown access for mobility impaired",
-      "Audio descriptions available",
-      "Accessible restrooms",
-    ],
+    accessibility: {
+      wheelchairAccessible: true,
+      hearingImpaired: true,
+      visuallyImpaired: true,
+      languageSupport: ["English", "Spanish", "French", "German", "Italian", "Japanese"],
+    },
     amenities: [
       "Gift shop",
       "Cafe",
