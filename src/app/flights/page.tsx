@@ -84,22 +84,41 @@ export default function FlightsPage() {
   };
 
   const handleAddToCart = (flight: any) => {
+    const departureBaseDate = departureDate || flight.departure.date;
+    
     const flightItem = {
-      id: `${formatToSlug(flight.flightNumber)}-${Math.random().toString(36).substr(2, 9)}`,
+      id: `flight-${formatToSlug(flight.flightNumber)}-${departureBaseDate}-${classType}`,
       type: "flight" as const,
       name: `${flight.airline} ${flight.flightNumber}`,
       description: `${flight.origin.city} to ${flight.destination.city} - ${classType} class`,
       image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=600&auto=format&fit=crop&q=60",
       price: getFlightPrice(flight),
       dates: {
-        startDate: departureDate || flight.departure.date,
-        endDate: departureDate || flight.departure.date,
+        startDate: departureBaseDate,
+        endDate: departureBaseDate,
       },
       guests: parseInt(passengers),
       location: `${flight.origin.city} → ${flight.destination.city}`,
       features: flight.amenities,
       cancellationPolicy: "Standard airline cancellation policy applies",
     };
+
+    // Check if this exact flight booking already exists
+    if (cartHelpers.checkIfDuplicate(cartState.items, flightItem)) {
+      // For flights, we should add more passengers instead of creating duplicate
+      const existingItem = cartState.items.find(item => 
+        item.name === flightItem.name &&
+        item.dates.startDate === flightItem.dates.startDate &&
+        item.location === flightItem.location
+      );
+      
+      if (existingItem) {
+        const newGuestCount = existingItem.guests + parseInt(passengers);
+        cartHelpers.updateGuests(dispatch, existingItem.id, newGuestCount);
+        toast.success(`Added ${passengers} more passenger${parseInt(passengers) > 1 ? 's' : ''} to ${flight.flightNumber}!`);
+        return;
+      }
+    }
 
     cartHelpers.addItem(dispatch, flightItem);
     toast.success(`Flight ${flight.flightNumber} added to cart!`);
