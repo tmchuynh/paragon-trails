@@ -375,7 +375,7 @@ export default function Cart() {
 
                   <div className="flex justify-between font-semibold text-lg">
                     <span>Total</span>
-                    <span>{cartHelpers.formatPrice(state.total)}</span>
+                    <span>{formatPrice(state.total)}</span>
                   </div>
                 </div>
 
