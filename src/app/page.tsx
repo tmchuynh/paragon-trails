@@ -25,6 +25,8 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { useCurrency } from "@/context/CurrencyContext";
+import { mockDestinations } from "@/data/destinations";
+import { mockFlights } from "@/data/flights";
 import {
   ArrowRight,
   Calendar,
@@ -268,7 +270,7 @@ export default function HomePage() {
           <div className="items-center gap-12 grid grid-cols-1 lg:grid-cols-2">
             <div>
               <h2 className="mb-6 font-bold text-3xl text-gray-800 md:text-4xl">
-                Curated Destinations for You
+                Popular Destinations
               </h2>
               <p className="mb-8 text-gray-600">
                 At ParagonTrails, we believe in curating exceptional experiences
@@ -277,133 +279,41 @@ export default function HomePage() {
 
               {/* Destination Cards */}
               <div className="gap-4 grid grid-cols-2 mb-8">
-                <Card className="hover:shadow-lg p-0 transition-all cursor-pointer">
-                  {/* <div className="relative bg-gradient-to-br from-blue-400 to-blue-600 rounded-t-lg h-32"> */}
-                  <div className="relative rounded-t-lg h-32">
-                    <Image
-                      src="https://images.unsplash.com/photo-1707343848552-893e05dba6ac?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxzZWFyY2h8OHx8dHJhdmVsfGVufDB8fDB8fHww"
-                      alt="Ocean Paradise"
-                      className="rounded-t-lg w-full h-full object-cover"
-                      width={400}
-                      height={300}
-                    />
-                    <div className="top-2 right-2 absolute bg-black px-2 py-1 rounded text-sm text-white">
-                      {formatPrice(120)}
+                {mockDestinations.slice(0, 4).map((destination, index) => (
+                  <Card
+                    key={destination.id}
+                    className="hover:shadow-lg p-0 transition-all cursor-pointer"
+                  >
+                    <div className="relative rounded-t-lg h-32">
+                      <Image
+                        src={destination.images[0]}
+                        alt={destination.name}
+                        className="rounded-t-lg w-full h-full object-cover"
+                        width={400}
+                        height={300}
+                      />
+                      <div className="top-2 right-2 absolute bg-black px-2 py-1 rounded text-sm text-white">
+                        {formatPrice(destination.accommodation.midRange)}
+                      </div>
                     </div>
-                  </div>
-                  <CardContent className="p-4">
-                    <div className="flex items-center gap-1 mb-2">
-                      {[1, 2, 3, 4, 5].map((star) => (
-                        <Star
-                          key={star}
-                          className="w-4 h-4 text-yellow-400 fill-yellow-400"
-                        />
-                      ))}
-                    </div>
-                    <h3 className="mb-1 font-semibold text-gray-800">
-                      Ocean Paradise
-                    </h3>
-                    <p className="text-gray-600 text-sm">
-                      Tropical beach destination
-                    </p>
-                  </CardContent>
-                </Card>
-
-                <Card className="hover:shadow-lg p-0 transition-all cursor-pointer">
-                  {/* <div className="relative bg-gradient-to-br from-teal-400 to-green-500 rounded-t-lg h-32"> */}
-                  <div className="relative rounded-t-lg h-32">
-                    <Image
-                      src="https://images.unsplash.com/photo-1707343848552-893e05dba6ac?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxzZWFyY2h8OHx8dHJhdmVsfGVufDB8fDB8fHww"
-                      alt="Mountain Retreat"
-                      className="rounded-t-lg w-full h-full object-cover"
-                      width={400}
-                      height={300}
-                    />
-                    <div className="top-2 right-2 absolute bg-black px-2 py-1 rounded text-sm text-white">
-                      {formatPrice(165)}
-                    </div>
-                  </div>
-                  <CardContent className="p-4">
-                    <div className="flex items-center gap-1 mb-2">
-                      {[1, 2, 3, 4, 5].map((star) => (
-                        <Star
-                          key={star}
-                          className="w-4 h-4 text-yellow-400 fill-yellow-400"
-                        />
-                      ))}
-                    </div>
-                    <h3 className="mb-1 font-semibold text-gray-800">
-                      Mountain Retreat
-                    </h3>
-                    <p className="text-gray-600 text-sm">
-                      Alpine adventure escape
-                    </p>
-                  </CardContent>
-                </Card>
-
-                <Card className="hover:shadow-lg p-0 transition-all cursor-pointer">
-                  {/* <div className="relative bg-gradient-to-br from-gray-400 to-gray-600 rounded-t-lg h-32"> */}
-                  <div className="relative rounded-t-lg h-32">
-                    <Image
-                      src="https://images.unsplash.com/photo-1707343848552-893e05dba6ac?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxzZWFyY2h8OHx8dHJhdmVsfGVufDB8fDB8fHww"
-                      alt="City Explorer"
-                      className="rounded-t-lg w-full h-full object-cover"
-                      width={400}
-                      height={300}
-                    />
-                    <div className="top-2 right-2 absolute bg-black px-2 py-1 rounded text-sm text-white">
-                      $190.00
-                    </div>
-                  </div>
-                  <CardContent className="p-4">
-                    <div className="flex items-center gap-1 mb-2">
-                      {[1, 2, 3, 4, 5].map((star) => (
-                        <Star
-                          key={star}
-                          className="w-4 h-4 text-yellow-400 fill-yellow-400"
-                        />
-                      ))}
-                    </div>
-                    <h3 className="mb-1 font-semibold text-gray-800">
-                      City Explorer
-                    </h3>
-                    <p className="text-gray-600 text-sm">
-                      Urban cultural experience
-                    </p>
-                  </CardContent>
-                </Card>
-
-                <Card className="hover:shadow-lg p-0 transition-all cursor-pointer">
-                  {/* <div className="bg-gradient-to-br from-orange-400 to-red-500 rounded-t-lg h-32"> */}
-                  <div className="relative rounded-t-lg h-32">
-                    <Image
-                      src="https://images.unsplash.com/photo-1707343848552-893e05dba6ac?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxzZWFyY2h8OHx8dHJhdmVsfGVufDB8fDB8fHww"
-                      alt="Desert Oasis"
-                      className="rounded-t-lg w-full h-full object-cover"
-                      width={400}
-                      height={300}
-                    />
-                    <div className="top-2 right-2 absolute bg-black px-2 py-1 rounded text-sm text-white">
-                      $250.00
-                    </div>
-                  </div>
-                  <CardContent className="p-4">
-                    <div className="flex items-center gap-1 mb-2">
-                      {[1, 2, 3, 4, 5].map((star) => (
-                        <Star
-                          key={star}
-                          className="w-4 h-4 text-yellow-400 fill-yellow-400"
-                        />
-                      ))}
-                    </div>
-                    <h3 className="mb-1 font-semibold text-gray-800">
-                      Desert Oasis
-                    </h3>
-                    <p className="text-gray-600 text-sm">
-                      Luxury desert adventure
-                    </p>
-                  </CardContent>
-                </Card>
+                    <CardContent className="p-4">
+                      <div className="flex items-center gap-1 mb-2">
+                        {[1, 2, 3, 4, 5].map((star) => (
+                          <Star
+                            key={star}
+                            className="w-4 h-4 text-yellow-400 fill-yellow-400"
+                          />
+                        ))}
+                      </div>
+                      <h3 className="mb-1 font-semibold text-gray-800">
+                        {destination.name}
+                      </h3>
+                      <p className="text-gray-600 text-sm">
+                        {destination.country}
+                      </p>
+                    </CardContent>
+                  </Card>
+                ))}
               </div>
             </div>
 
@@ -549,31 +459,31 @@ export default function HomePage() {
           </div>
 
           <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-            {[
-              { altText: "Featured Destination 1", price: "$120.00" },
-              { altText: "Featured Destination 2", price: "$165.00" },
-              { altText: "Featured Destination 3", price: "$190.00" },
-              { altText: "Featured Destination 4", price: "$250.00" },
-            ].map((destination, index) => (
+            {mockFlights.slice(0, 4).map((flight, index) => (
               <Card
-                key={index}
+                key={flight.id}
                 className="group hover:shadow-xl p-0 transition-all cursor-pointer"
               >
-                {/* <div
-                  className={`relative h-64 bg-gradient-to-br ${destination.color} rounded-t-lg overflow-hidden`}
-                > */}
                 <div className={`relative h-64 rounded-t-lg overflow-hidden`}>
                   <Image
                     src={
-                      "https://images.unsplash.com/photo-1707343848552-893e05dba6ac?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxzZWFyY2h8OHx8dHJhdmVsfGVufDB8fDB8fHww"
+                      mockDestinations.find((dest) =>
+                        dest.name
+                          .toLowerCase()
+                          .includes(flight.destination.city.toLowerCase())
+                      )?.images[0] ||
+                      "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=600&auto=format&fit=crop&q=60"
                     }
-                    alt={destination.altText}
+                    alt={`${flight.destination.city} destination`}
                     className="rounded-t-lg w-full h-full object-cover"
                     width={500}
                     height={600}
                   />
                   <div className="top-4 right-4 absolute bg-white px-3 py-1 rounded-full font-semibold text-black">
-                    {destination.price}
+                    {formatPrice(flight.pricing.economy)}
+                  </div>
+                  <div className="bottom-4 left-4 absolute bg-black/70 px-3 py-1 rounded-full font-medium text-sm text-white">
+                    {flight.origin.code} → {flight.destination.code}
                   </div>
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all"></div>
                 </div>
@@ -587,10 +497,13 @@ export default function HomePage() {
                     ))}
                   </div>
                   <h3 className="mb-1 font-semibold text-gray-800">
-                    Amazing Destination {index + 1}
+                    {flight.destination.city}
                   </h3>
                   <p className="text-gray-600 text-sm">
-                    Experience the beauty and culture
+                    {flight.airline} • {flight.duration}
+                  </p>
+                  <p className="mt-1 text-gray-500 text-xs">
+                    From {flight.origin.city}
                   </p>
                 </CardContent>
               </Card>
