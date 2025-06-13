@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { cartHelpers, useCart } from "@/context/CartContext";
+import { useCurrency } from "@/context/CurrencyContext";
 import { Vehicle } from "@/lib/interfaces/services/vehicles";
 import { formatToSlug } from "@/lib/utils/format";
 import { Fuel, Info, MapPin, Settings, Star, Users } from "lucide-react";
@@ -28,6 +29,7 @@ export default function VehicleCard({
 }: VehicleCardProps) {
   const router = useRouter();
   const { dispatch } = useCart();
+  const { formatPrice } = useCurrency();
   const [isAddingToCart, setIsAddingToCart] = useState(false);
 
   const calculateDays = () => {
@@ -175,14 +177,14 @@ export default function VehicleCard({
           <div className="flex justify-between items-center mb-4">
             <div>
               <p className="font-bold text-2xl text-slate-900 dark:text-white">
-                ${vehicle.pricing.daily}
+                {formatPrice(vehicle.pricing.daily)}
                 <span className="font-normal text-base text-slate-600 dark:text-slate-400">
                   /day
                 </span>
               </p>
               {days > 1 && (
                 <p className="text-slate-600 text-sm dark:text-slate-400">
-                  ${totalPrice} for {days} days
+                  {formatPrice(totalPrice)} for {days} days
                 </p>
               )}
             </div>
@@ -191,7 +193,7 @@ export default function VehicleCard({
                 Weekly
               </p>
               <p className="font-semibold text-slate-900 dark:text-white">
-                ${vehicle.pricing.weekly}
+                {formatPrice(vehicle.pricing.weekly)}
               </p>
             </div>
           </div>
