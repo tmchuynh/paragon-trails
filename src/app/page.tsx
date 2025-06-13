@@ -34,8 +34,10 @@ import {
   Users,
 } from "lucide-react";
 import Image from "next/image";
+import { useCurrency } from "@/context/CurrencyContext";
 
 export default function HomePage() {
+  const { formatPrice } = useCurrency();
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -286,7 +288,7 @@ export default function HomePage() {
                       height={300}
                     />
                     <div className="top-2 right-2 absolute bg-black px-2 py-1 rounded text-sm text-white">
-                      $120.00
+                      {formatPrice(120)}
                     </div>
                   </div>
                   <CardContent className="p-4">
