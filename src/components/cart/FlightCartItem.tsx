@@ -103,9 +103,9 @@ export default function FlightCartItem({
             {/* Tickets and Passengers */}
             <div className="flex sm:flex-row flex-col gap-4 mb-4">
               <div className="flex items-center gap-2">
-                <label className="font-medium text-slate-700 text-sm dark:text-slate-300">
+                <Label className="font-medium text-slate-700 text-sm dark:text-slate-300">
                   Tickets:
-                </label>
+                </Label>
                 <div className="flex items-center gap-1">
                   <Button
                     variant="outline"
@@ -129,10 +129,10 @@ export default function FlightCartItem({
               </div>
 
               <div className="flex items-center gap-2">
-                <label className="font-medium text-slate-700 text-sm dark:text-slate-300">
+                <Label className="font-medium text-slate-700 text-sm dark:text-slate-300">
                   <Users className="inline mr-1 w-3 h-3" />
                   Passengers:
-                </label>
+                </Label>
                 <div className="flex items-center gap-1">
                   <Button
                     variant="outline"
