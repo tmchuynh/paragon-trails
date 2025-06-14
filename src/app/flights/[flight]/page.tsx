@@ -428,7 +428,7 @@ export default function FlightDetailsPage() {
                     <SelectTrigger id="passengers">
                       <SelectValue />
                     </SelectTrigger>
-                    <SelectContent>
+                    <SelectContent className="w-full max-h-60">
                       {[1, 2, 3, 4, 5, 6, 7, 8].map((num) => (
                         <SelectItem key={num} value={num.toString()}>
                           {num} passenger{num > 1 ? "s" : ""}

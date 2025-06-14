@@ -176,10 +176,10 @@ export default function FlightsPage() {
             <div className="space-y-2">
               <label className="font-medium text-sm">From</label>
               <Select value={fromLocation} onValueChange={setFromLocation}>
-                <SelectTrigger>
+                <SelectTrigger className="w-full">
                   <SelectValue placeholder="Departure city" />
                 </SelectTrigger>
-                <SelectContent>
+                <SelectContent className="w-full max-h-60">
                   {locations.map((location) => (
                     <SelectItem key={location.value} value={location.value}>
                       {location.label}
@@ -192,10 +192,10 @@ export default function FlightsPage() {
             <div className="space-y-2">
               <label className="font-medium text-sm">To</label>
               <Select value={toLocation} onValueChange={setToLocation}>
-                <SelectTrigger>
+                <SelectTrigger className="w-full">
                   <SelectValue placeholder="Destination city" />
                 </SelectTrigger>
-                <SelectContent>
+                <SelectContent className="w-full max-h-60">
                   {locations.map((location) => (
                     <SelectItem key={location.value} value={location.value}>
                       {location.label}
@@ -217,10 +217,10 @@ export default function FlightsPage() {
             <div className="space-y-2">
               <label className="font-medium text-sm">Passengers</label>
               <Select value={passengers} onValueChange={setPassengers}>
-                <SelectTrigger>
+                <SelectTrigger className="w-full">
                   <SelectValue />
                 </SelectTrigger>
-                <SelectContent>
+                <SelectContent className="w-full max-h-60">
                   {[1, 2, 3, 4, 5, 6, 7, 8].map((num) => (
                     <SelectItem key={num} value={num.toString()}>
                       {num} passenger{num > 1 ? "s" : ""}
@@ -248,10 +248,10 @@ export default function FlightsPage() {
             <div className="space-y-2">
               <label className="font-medium text-sm">Class</label>
               <Select value={classType} onValueChange={setClassType}>
-                <SelectTrigger>
+                <SelectTrigger className="w-full">
                   <SelectValue />
                 </SelectTrigger>
-                <SelectContent>
+                <SelectContent className="w-full max-h-60">
                   <SelectItem value="economy">Economy</SelectItem>
                   <SelectItem value="business">Business</SelectItem>
                   <SelectItem value="first">First Class</SelectItem>
