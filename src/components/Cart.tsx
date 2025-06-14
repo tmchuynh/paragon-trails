@@ -112,7 +112,7 @@ export default function Cart() {
           </p>
         </div>
 
-        <div className="gap-8 grid lg:grid-cols-3">
+        <div className="gap-8 grid grid-cols-1 lg:grid-cols-3">
           {/* Cart Items */}
           <div className="space-y-6 lg:col-span-2">
             {state.items.map((item) => {
