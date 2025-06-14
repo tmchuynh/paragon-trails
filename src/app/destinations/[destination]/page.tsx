@@ -18,6 +18,7 @@ import { mockAttractions } from "@/data/attractions";
 import { mockDestinations } from "@/data/destinations";
 import { mockTours } from "@/data/tours";
 import { formatToSlug } from "@/lib/utils/format";
+import { Label } from "@radix-ui/react-label";
 import {
   ArrowLeft,
   Calendar,
@@ -104,7 +105,7 @@ export default function DestinationDetailsPage() {
         {/* Destination Selector */}
         <div className="mb-6">
           <div className="flex items-center gap-4">
-            <label className="font-medium text-sm">Choose Destination:</label>
+            <Label className="font-medium text-sm">Choose Destination:</Label>
             <Select
               value={currentDestination?.id || ""}
               onValueChange={handleDestinationChange}
@@ -153,7 +154,7 @@ export default function DestinationDetailsPage() {
             {currentDestination.images
               .slice(0, 4)
               .map((image: string, index: number) => (
-                <button
+                <Button
                   key={index}
                   onClick={() => setSelectedImageIndex(index)}
                   className={`relative w-24 h-16 rounded-lg overflow-hidden ${
@@ -166,7 +167,7 @@ export default function DestinationDetailsPage() {
                     fill
                     className="object-cover"
                   />
-                </button>
+                </Button>
               ))}
           </div>
         </div>
