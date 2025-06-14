@@ -196,7 +196,7 @@ export default function ContactUsPage() {
                           }))
                         }
                       >
-                        <SelectTrigger className="w-full">
+                        <SelectTrigger className="border border-border w-full">
                           <SelectValue placeholder="Select a department" />
                         </SelectTrigger>
                         <SelectContent>
@@ -244,7 +244,7 @@ export default function ContactUsPage() {
                         setFormData((prev) => ({ ...prev, priority: value }))
                       }
                     >
-                      <SelectTrigger className="w-full">
+                      <SelectTrigger className="border border-border w-full">
                         <SelectValue />
                       </SelectTrigger>
                       <SelectContent>
