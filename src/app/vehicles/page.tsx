@@ -16,7 +16,7 @@ import { Slider } from "@/components/ui/slider";
 import { mockVehicles } from "@/data/vehicles";
 import { Vehicle } from "@/lib/interfaces/services/vehicles";
 import { Calendar, Car, Filter, MapPin, RotateCcw, Search } from "lucide-react";
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 
 export default function VehiclesPage() {
   const [filteredVehicles, setFilteredVehicles] =
@@ -161,11 +161,15 @@ export default function VehiclesPage() {
                 </div>
               </div>
 
-              {/* Search Button */}
+              {/* Reset Filters Button */}
               <div className="flex items-end">
-                <Button onClick={handleSearch} className="w-full">
-                  <Search className="mr-2 w-4 h-4" />
-                  Search Vehicles
+                <Button
+                  onClick={resetFilters}
+                  variant="outline"
+                  className="w-full"
+                >
+                  <RotateCcw className="mr-2 w-4 h-4" />
+                  Reset Filters
                 </Button>
               </div>
             </div>
@@ -238,11 +242,12 @@ export default function VehiclesPage() {
 
                   {/* Apply Filters Button */}
                   <Button
-                    onClick={handleSearch}
+                    onClick={resetFilters}
                     className="w-full"
                     variant="outline"
                   >
-                    Apply Filters
+                    <RotateCcw className="mr-2 w-4 h-4" />
+                    Reset Filters
                   </Button>
                 </div>
               </CardContent>
