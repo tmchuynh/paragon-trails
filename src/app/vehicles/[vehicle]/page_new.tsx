@@ -6,11 +6,11 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
+    Select,
+    SelectContent,
+    SelectItem,
+    SelectTrigger,
+    SelectValue,
 } from "@/components/ui/select";
 import { Separator } from "@/components/ui/separator";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -19,23 +19,23 @@ import { useCurrency } from "@/context/CurrencyContext";
 import { mockVehicles } from "@/data/vehicles";
 import { formatToSlug } from "@/lib/utils/format";
 import {
-  ArrowLeft,
-  Camera,
-  Car,
-  CheckCircle,
-  Clock,
-  DollarSign,
-  Fuel,
-  Heart,
-  Info,
-  MapIcon,
-  MapPin,
-  Phone,
-  Plane,
-  Settings,
-  Shield,
-  Star,
-  Users,
+    ArrowLeft,
+    Camera,
+    Car,
+    CheckCircle,
+    Clock,
+    DollarSign,
+    Fuel,
+    Heart,
+    Info,
+    MapIcon,
+    MapPin,
+    Phone,
+    Plane,
+    Settings,
+    Shield,
+    Star,
+    Users,
 } from "lucide-react";
 import Image from "next/image";
 import { useParams, useRouter, useSearchParams } from "next/navigation";
@@ -297,7 +297,7 @@ export default function VehicleDetailPage() {
               </TabsList>
 
               <TabsContent value="overview" className="space-y-6">
-                <Card className="p-0">
+                <Card>
                   <CardContent className="p-6">
                     <div className="flex items-center gap-2 mb-4 font-semibold text-lg">
                       <Info className="w-5 h-5" />
@@ -360,7 +360,7 @@ export default function VehicleDetailPage() {
                   </CardContent>
                 </Card>
 
-                <Card className="p-0">
+                <Card>
                   <CardContent className="p-6">
                     <div className="flex items-center gap-2 mb-4 font-semibold text-lg">
                       <MapPin className="w-5 h-5" />
@@ -413,7 +413,7 @@ export default function VehicleDetailPage() {
               </TabsContent>
 
               <TabsContent value="specifications" className="space-y-6">
-                <Card className="p-0">
+                <Card>
                   <CardContent className="p-6">
                     <div className="flex items-center gap-2 mb-4 font-semibold text-lg">
                       <Settings className="w-5 h-5" />
@@ -497,7 +497,7 @@ export default function VehicleDetailPage() {
               </TabsContent>
 
               <TabsContent value="features" className="space-y-6">
-                <Card className="p-0">
+                <Card>
                   <CardContent className="p-6">
                     <div className="flex items-center gap-2 mb-4 font-semibold text-lg">
                       <CheckCircle className="w-5 h-5" />
@@ -521,7 +521,7 @@ export default function VehicleDetailPage() {
               </TabsContent>
 
               <TabsContent value="policies" className="space-y-6">
-                <Card className="p-0">
+                <Card>
                   <CardContent className="p-6">
                     <div className="flex items-center gap-2 mb-4 font-semibold text-lg">
                       <Shield className="w-5 h-5" />
@@ -594,38 +594,13 @@ export default function VehicleDetailPage() {
                     </div>
                   </CardContent>
                 </Card>
-                {/* Contact Information */}
-                <Card className="mt-8 p-0">
-                  <CardContent className="p-6">
-                    <div className="flex justify-center items-center gap-6 text-center">
-                      <div className="flex items-center gap-2">
-                        <Phone className="w-5 h-5 text-primary" />
-                        <div>
-                          <p className="font-medium">Need Help?</p>
-                          <p className="text-sm">+1 (310) 477-8845</p>
-                        </div>
-                      </div>
-                      <Separator orientation="vertical" className="h-12" />
-                      <div className="flex items-center gap-2">
-                        <MapPin className="w-5 h-5 text-primary" />
-                        <div>
-                          <p className="font-medium">Available Locations</p>
-                          <p className="text-sm">
-                            {vehicle.availability.locations.length} cities
-                            worldwide
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </CardContent>
-                </Card>
               </TabsContent>
             </Tabs>
           </div>
 
           {/* Sidebar */}
           <div className="space-y-6">
-            <Card className="p-0">
+            <Card>
               <CardContent className="p-6">
                 <div className="flex items-center gap-2 mb-4 font-semibold text-lg">
                   <DollarSign className="w-5 h-5" />
@@ -654,7 +629,7 @@ export default function VehicleDetailPage() {
               </CardContent>
             </Card>
 
-            <Card className="p-0">
+            <Card>
               <CardContent className="p-6">
                 <div className="space-y-2 text-sm">
                   <div className="mb-4 font-semibold text-lg">Quick Facts</div>
@@ -689,7 +664,7 @@ export default function VehicleDetailPage() {
             {/* Booking Card */}
             <Card>
               <CardHeader>
-                <CardTitle className="text-xl">Book This Vehicle</CardTitle>
+                <CardTitle>Book This Vehicle</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div>
@@ -847,6 +822,31 @@ export default function VehicleDetailPage() {
             </Card>
           </div>
         </div>
+
+        {/* Contact Information */}
+        <Card className="mt-8">
+          <CardContent className="p-6">
+            <div className="flex justify-center items-center gap-6 text-center">
+              <div className="flex items-center gap-2">
+                <Phone className="w-5 h-5 text-primary" />
+                <div>
+                  <p className="font-medium">Need Help?</p>
+                  <p className="text-sm">+1 (310) 477-8845</p>
+                </div>
+              </div>
+              <Separator orientation="vertical" className="h-12" />
+              <div className="flex items-center gap-2">
+                <MapPin className="w-5 h-5 text-primary" />
+                <div>
+                  <p className="font-medium">Available Locations</p>
+                  <p className="text-sm">
+                    {vehicle.availability.locations.length} cities worldwide
+                  </p>
+                </div>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
       </div>
     </div>
   );
