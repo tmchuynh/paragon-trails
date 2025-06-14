@@ -343,7 +343,7 @@ export default function VehiclesPage() {
                     value={selectedLocation}
                     onValueChange={setSelectedLocation}
                   >
-                    <SelectTrigger className="pl-10 w-full">
+                    <SelectTrigger className="pl-10 border border-border w-full">
                       <SelectValue placeholder="Select location" />
                     </SelectTrigger>
                     <SelectContent className="w-full max-h-60">
@@ -366,7 +366,7 @@ export default function VehiclesPage() {
                     type="date"
                     value={pickupDate}
                     onChange={(e) => setPickupDate(e.target.value)}
-                    className="flex flex-col justify-center"
+                    className="flex flex-col justify-center border border-border"
                   />
                 </div>
               </div>
@@ -380,7 +380,7 @@ export default function VehiclesPage() {
                     type="date"
                     value={returnDate}
                     onChange={(e) => setReturnDate(e.target.value)}
-                    className="flex flex-col justify-center"
+                    className="flex flex-col justify-center border border-border"
                   />
                 </div>
               </div>
@@ -390,7 +390,7 @@ export default function VehiclesPage() {
                 <Button
                   onClick={resetFilters}
                   variant="outline"
-                  className="w-full"
+                  className="m-0 p-0 w-full"
                 >
                   <RotateCcw className="mr-2 w-4 h-4" />
                   Reset Filters
@@ -432,7 +432,7 @@ export default function VehiclesPage() {
                       value={selectedType}
                       onValueChange={handleTypeChange}
                     >
-                      <SelectTrigger className="w-full">
+                      <SelectTrigger className="border border-border w-full">
                         <SelectValue />
                       </SelectTrigger>
                       <SelectContent className="w-full max-h-60">
@@ -452,7 +452,7 @@ export default function VehiclesPage() {
                       value={selectedBrand}
                       onValueChange={handleBrandChange}
                     >
-                      <SelectTrigger className="w-full">
+                      <SelectTrigger className="border border-border w-full">
                         <SelectValue />
                       </SelectTrigger>
                       <SelectContent className="w-full max-h-60">
@@ -472,7 +472,7 @@ export default function VehiclesPage() {
                       value={selectedModel}
                       onValueChange={handleModelChange}
                     >
-                      <SelectTrigger className="w-full">
+                      <SelectTrigger className="border border-border w-full">
                         <SelectValue />
                       </SelectTrigger>
                       <SelectContent className="w-full max-h-60">
@@ -492,7 +492,7 @@ export default function VehiclesPage() {
                       value={selectedYear}
                       onValueChange={setSelectedYear}
                     >
-                      <SelectTrigger className="w-full">
+                      <SelectTrigger className="border border-border w-full">
                         <SelectValue />
                       </SelectTrigger>
                       <SelectContent className="w-full max-h-60">
@@ -512,7 +512,7 @@ export default function VehiclesPage() {
                       value={selectedFuelType}
                       onValueChange={setSelectedFuelType}
                     >
-                      <SelectTrigger className="w-full">
+                      <SelectTrigger className="border border-border w-full">
                         <SelectValue />
                       </SelectTrigger>
                       <SelectContent className="w-full max-h-60">
@@ -532,7 +532,7 @@ export default function VehiclesPage() {
                       value={selectedSeatingCapacity}
                       onValueChange={setSelectedSeatingCapacity}
                     >
-                      <SelectTrigger className="w-full">
+                      <SelectTrigger className="border border-border w-full">
                         <SelectValue />
                       </SelectTrigger>
                       <SelectContent className="w-full max-h-60">
@@ -609,7 +609,7 @@ export default function VehiclesPage() {
                     value={itemsPerPage.toString()}
                     onValueChange={(value) => setItemsPerPage(Number(value))}
                   >
-                    <SelectTrigger className="w-20">
+                    <SelectTrigger className="border border-border w-20">
                       <SelectValue />
                     </SelectTrigger>
                     <SelectContent className="w-full max-h-60">
@@ -624,7 +624,7 @@ export default function VehiclesPage() {
 
                 {/* Sort dropdown */}
                 <Select value={sortBy} onValueChange={setSortBy}>
-                  <SelectTrigger className="w-48">
+                  <SelectTrigger className="border border-border w-48">
                     <SelectValue />
                   </SelectTrigger>
                   <SelectContent className="w-full max-h-60">
