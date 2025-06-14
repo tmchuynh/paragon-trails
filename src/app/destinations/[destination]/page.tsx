@@ -2,7 +2,7 @@
 
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card } from "@/components/ui/card";
 import {
   Select,
   SelectContent,
@@ -188,13 +188,11 @@ export default function DestinationDetailsPage() {
 
               <TabsContent value="overview" className="space-y-6">
                 <Card>
-                  <CardHeader>
-                    <CardTitle className="flex items-center gap-2">
+                  <div className="p-6">
+                    <div className="flex items-center gap-2 mb-4 font-semibold text-lg">
                       <Info className="w-5 h-5" />
                       About {currentDestination.name}
-                    </CardTitle>
-                  </CardHeader>
-                  <CardContent>
+                    </div>
                     <p className="mb-4 text-slate-600 dark:text-slate-400">
                       {currentDestination.description}
                     </p>
@@ -234,17 +232,15 @@ export default function DestinationDetailsPage() {
                         </div>
                       </div>
                     </div>
-                  </CardContent>
+                  </div>
                 </Card>
 
                 <Card>
-                  <CardHeader>
-                    <CardTitle className="flex items-center gap-2">
+                  <div className="p-6">
+                    <div className="flex items-center gap-2 mb-4 font-semibold text-lg">
                       <MapPin className="w-5 h-5" />
                       Location & Getting There
-                    </CardTitle>
-                  </CardHeader>
-                  <CardContent>
+                    </div>
                     <div className="gap-4 grid grid-cols-1 md:grid-cols-2">
                       <div>
                         <h4 className="mb-3 font-semibold">Transportation</h4>
@@ -294,17 +290,15 @@ export default function DestinationDetailsPage() {
                         </div>
                       </div>
                     </div>
-                  </CardContent>
+                  </div>
                 </Card>
               </TabsContent>
 
               <TabsContent value="things-to-do" className="space-y-6">
                 <div className="gap-6 grid grid-cols-1 md:grid-cols-3">
                   <Card>
-                    <CardHeader>
-                      <CardTitle className="text-lg">Tours</CardTitle>
-                    </CardHeader>
-                    <CardContent>
+                    <div className="p-6">
+                      <div className="mb-4 font-semibold text-lg">Tours</div>
                       <div className="space-y-3">
                         {relatedTours.map((tour) => (
                           <div
@@ -359,14 +353,14 @@ export default function DestinationDetailsPage() {
                       >
                         View all tours
                       </Button>
-                    </CardContent>
+                    </div>
                   </Card>
 
                   <Card>
-                    <CardHeader>
-                      <CardTitle className="text-lg">Activities</CardTitle>
-                    </CardHeader>
-                    <CardContent>
+                    <div className="p-6">
+                      <div className="mb-4 font-semibold text-lg">
+                        Activities
+                      </div>
                       <div className="space-y-3">
                         {relatedActivities.map((activity) => (
                           <div
@@ -402,14 +396,14 @@ export default function DestinationDetailsPage() {
                       >
                         View all activities
                       </Button>
-                    </CardContent>
+                    </div>
                   </Card>
 
                   <Card>
-                    <CardHeader>
-                      <CardTitle className="text-lg">Attractions</CardTitle>
-                    </CardHeader>
-                    <CardContent>
+                    <div className="p-6">
+                      <div className="mb-4 font-semibold text-lg">
+                        Attractions
+                      </div>
                       <div className="space-y-3">
                         {relatedAttractions.map((attraction) => (
                           <div
@@ -445,17 +439,17 @@ export default function DestinationDetailsPage() {
                       >
                         View all attractions
                       </Button>
-                    </CardContent>
+                    </div>
                   </Card>
                 </div>
               </TabsContent>
 
               <TabsContent value="practical" className="space-y-6">
                 <Card>
-                  <CardHeader>
-                    <CardTitle>Practical Information</CardTitle>
-                  </CardHeader>
-                  <CardContent className="space-y-4">
+                  <div className="space-y-4 p-6">
+                    <div className="font-semibold text-lg">
+                      Practical Information
+                    </div>
                     <div>
                       <h4 className="mb-2 font-semibold">Visa Requirements</h4>
                       <p className="text-slate-600 text-sm">
@@ -511,16 +505,16 @@ export default function DestinationDetailsPage() {
                         </p>
                       </div>
                     </div>
-                  </CardContent>
+                  </div>
                 </Card>
               </TabsContent>
 
               <TabsContent value="culture" className="space-y-6">
                 <Card>
-                  <CardHeader>
-                    <CardTitle>Cultural Information</CardTitle>
-                  </CardHeader>
-                  <CardContent className="space-y-4">
+                  <div className="space-y-4 p-6">
+                    <div className="font-semibold text-lg">
+                      Cultural Information
+                    </div>
                     <div>
                       <h4 className="mb-2 font-semibold">Languages</h4>
                       <div className="flex flex-wrap gap-2">
@@ -562,7 +556,7 @@ export default function DestinationDetailsPage() {
                         )}
                       </ul>
                     </div>
-                  </CardContent>
+                  </div>
                 </Card>
               </TabsContent>
             </Tabs>
@@ -571,13 +565,11 @@ export default function DestinationDetailsPage() {
           {/* Sidebar */}
           <div className="space-y-6">
             <Card>
-              <CardHeader>
-                <CardTitle className="flex items-center gap-2">
+              <div className="p-6">
+                <div className="flex items-center gap-2 mb-4 font-semibold text-lg">
                   <DollarSign className="w-5 h-5" />
                   Budget Guide
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
+                </div>
                 <div className="space-y-3">
                   <div className="flex justify-between">
                     <span className="text-sm">Daily Budget</span>
@@ -615,14 +607,12 @@ export default function DestinationDetailsPage() {
                     </div>
                   </div>
                 </div>
-              </CardContent>
+              </div>
             </Card>
 
             <Card>
-              <CardHeader>
-                <CardTitle>Quick Facts</CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-2 text-sm">
+              <div className="space-y-2 p-6 text-sm">
+                <div className="mb-4 font-semibold text-lg">Quick Facts</div>
                 <div className="flex justify-between">
                   <span>Best time to visit</span>
                   <span>{currentDestination.bestTimeToVisit[0]}</span>
@@ -639,7 +629,7 @@ export default function DestinationDetailsPage() {
                   <span>Main language</span>
                   <span>{currentDestination.language[0]}</span>
                 </div>
-              </CardContent>
+              </div>
             </Card>
 
             <Button className="w-full" size="lg">

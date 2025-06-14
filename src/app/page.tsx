@@ -106,7 +106,7 @@ export default function HomePage() {
                         <MapPin className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
                         <Input
                           placeholder="Banten Hotel Drexelore"
-                          className="pl-10"
+                          className="pl-10 border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
                         />
                       </div>
                     </div>
@@ -116,7 +116,10 @@ export default function HomePage() {
                       </label>
                       <div className="relative">
                         <Calendar className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
-                        <Input placeholder="Tue, 31/05/24" className="pl-10" />
+                        <Input
+                          placeholder="Tue, 31/05/24"
+                          className="pl-10 border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                        />
                       </div>
                     </div>
                   </div>
@@ -129,7 +132,7 @@ export default function HomePage() {
                         <Users className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
                         <Input
                           placeholder="2 Adult | Child | Room"
-                          className="pl-10"
+                          className="pl-10 border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
                         />
                       </div>
                     </div>
@@ -209,7 +212,7 @@ export default function HomePage() {
                         <MapPin className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
                         <Input
                           placeholder="Banten Hotel Drexelore"
-                          className="pl-10"
+                          className="pl-10 border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
                         />
                       </div>
                     </div>
@@ -219,7 +222,10 @@ export default function HomePage() {
                       </label>
                       <div className="relative">
                         <Calendar className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
-                        <Input placeholder="Tue, 31/05/24" className="pl-10" />
+                        <Input
+                          placeholder="Tue, 31/05/24"
+                          className="pl-10 border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                        />
                       </div>
                     </div>
                     <div className="space-y-2">
@@ -230,7 +236,7 @@ export default function HomePage() {
                         <Users className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
                         <Input
                           placeholder="2 Adult | Child | Room"
-                          className="pl-10"
+                          className="pl-10 border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
                         />
                       </div>
                     </div>
@@ -293,7 +299,9 @@ export default function HomePage() {
                         height={300}
                       />
                       <div className="top-2 right-2 absolute bg-black px-2 py-1 rounded text-sm text-white">
-                        {formatPrice(destination.accommodation.midRange)}
+                        {formatPrice(
+                          destination.pricing.accommodationRange.midRange
+                        )}
                       </div>
                     </div>
                     <CardContent className="p-4">
