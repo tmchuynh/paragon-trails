@@ -18,6 +18,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { TripDay, TripItem } from "@/lib/interfaces/trip-planner";
+import TimeSlotManager from "./TimeSlotManager";
 import {
   calculateTotalDayTime,
   durationOptions,
@@ -49,6 +50,7 @@ interface DayPlannerProps {
     itemId: string,
     duration: number
   ) => void;
+  onUpdateTimeSlot?: (dayIndex: number, itemId: string, timeSlot: string) => void;
 }
 
 export default function DayPlanner({
