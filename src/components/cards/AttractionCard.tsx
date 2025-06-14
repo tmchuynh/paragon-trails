@@ -130,7 +130,7 @@ export default function AttractionCard({
   };
 
   return (
-    <Card className="group hover:shadow-xl h-full transition-all cursor-pointer overflow-hidden">
+    <Card className="group hover:shadow-xl p-0 h-full transition-all cursor-pointer overflow-hidden">
       <div className="relative h-64">
         <Image
           src={attraction.images[0]}
