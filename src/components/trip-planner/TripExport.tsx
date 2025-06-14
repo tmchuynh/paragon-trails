@@ -1,0 +1,183 @@
+"use client";
+
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
+import { Textarea } from "@/components/ui/textarea";
+import { TripDay, TripPlan } from "@/lib/interfaces/trip-planner";
+import {
+  calculateTotalDayTime,
+  formatDuration,
+} from "@/lib/utils/trip-planner";
+import { format } from "date-fns";
+import { Download, Share2 } from "lucide-react";
+import { useState } from "react";
+
+interface TripExportProps {
+  tripPlan: TripPlan;
+  days: TripDay[];
+}
+
+export default function TripExport({ tripPlan, days }: TripExportProps) {
+  const [notes, setNotes] = useState("");
+
+  const generateTripSummary = () => {
+    const summary = {
+      destination: tripPlan.destinationName,
+      hotel: tripPlan.hotelName,
+      dates: `${format(tripPlan.startDate, "MMMM do, yyyy")} - ${format(tripPlan.endDate, "MMMM do, yyyy")}`,
+      guests: tripPlan.guests,
+      totalDays: days.length,
+      itinerary: days.map((day) => ({
+        day: day.dayNumber,
+        date: format(day.date, "EEEE, MMMM do"),
+        totalTime: formatDuration(calculateTotalDayTime(day.items)),
+        activities: day.items.map((item) => ({
+          name: item.name,
+          type: item.type,
+          duration: formatDuration(item.customDuration || 120),
+          location: item.location,
+          category: item.category,
+        })),
+      })),
+      notes,
+    };
+
+    return summary;
+  };
+
+  const exportAsJSON = () => {
+    const summary = generateTripSummary();
+    const dataStr = JSON.stringify(summary, null, 2);
+    const dataUri =
+      "data:application/json;charset=utf-8," + encodeURIComponent(dataStr);
+
+    const exportFileDefaultName = `${tripPlan.destinationName.toLowerCase().replace(/\s+/g, "-")}-trip-plan.json`;
+
+    const linkElement = document.createElement("a");
+    linkElement.setAttribute("href", dataUri);
+    linkElement.setAttribute("download", exportFileDefaultName);
+    linkElement.click();
+  };
+
+  const exportAsText = () => {
+    const summary = generateTripSummary();
+    let textContent = `TRIP PLAN: ${summary.destination}\n`;
+    textContent += `${"=".repeat(50)}\n\n`;
+    textContent += `Hotel: ${summary.hotel}\n`;
+    textContent += `Dates: ${summary.dates}\n`;
+    textContent += `Guests: ${summary.guests}\n`;
+    textContent += `Duration: ${summary.totalDays} days\n\n`;
+
+    summary.itinerary.forEach((day) => {
+      textContent += `DAY ${day.day} - ${day.date}\n`;
+      textContent += `${"-".repeat(30)}\n`;
+      textContent += `Total planned time: ${day.totalTime}\n\n`;
+
+      if (day.activities.length === 0) {
+        textContent += `No activities planned\n\n`;
+      } else {
+        day.activities.forEach((activity, index) => {
+          textContent += `${index + 1}. ${activity.name}\n`;
+          textContent += `   Type: ${activity.type}\n`;
+          textContent += `   Duration: ${activity.duration}\n`;
+          textContent += `   Location: ${activity.location}\n`;
+          textContent += `   Category: ${activity.category}\n\n`;
+        });
+      }
+    });
+
+    if (summary.notes) {
+      textContent += `NOTES:\n${"-".repeat(20)}\n${summary.notes}\n`;
+    }
+
+    const dataUri =
+      "data:text/plain;charset=utf-8," + encodeURIComponent(textContent);
+    const exportFileDefaultName = `${tripPlan.destinationName.toLowerCase().replace(/\s+/g, "-")}-trip-plan.txt`;
+
+    const linkElement = document.createElement("a");
+    linkElement.setAttribute("href", dataUri);
+    linkElement.setAttribute("download", exportFileDefaultName);
+    linkElement.click();
+  };
+
+  const shareTrip = async () => {
+    const summary = generateTripSummary();
+    const shareText = `Check out my trip plan to ${summary.destination}!\n\n${summary.dates}\nStaying at: ${summary.hotel}\n\n${summary.totalDays} days of adventure planned!`;
+
+    if (navigator.share) {
+      try {
+        await navigator.share({
+          title: `Trip Plan: ${summary.destination}`,
+          text: shareText,
+        });
+      } catch (err) {
+        // Fallback to clipboard
+        navigator.clipboard.writeText(shareText);
+        alert("Trip details copied to clipboard!");
+      }
+    } else {
+      // Fallback to clipboard
+      navigator.clipboard.writeText(shareText);
+      alert("Trip details copied to clipboard!");
+    }
+  };
+
+  return (
+    <div className="flex gap-2">
+      <Dialog>
+        <DialogTrigger asChild>
+          <Button variant="outline" size="sm">
+            <Download className="mr-2 w-4 h-4" />
+            Export
+          </Button>
+        </DialogTrigger>
+        <DialogContent className="sm:max-w-md">
+          <DialogHeader>
+            <DialogTitle>Export Trip Plan</DialogTitle>
+          </DialogHeader>
+          <div className="space-y-4">
+            <div>
+              <label className="font-medium text-sm">
+                Add Notes (Optional)
+              </label>
+              <Textarea
+                placeholder="Add any additional notes about your trip..."
+                value={notes}
+                onChange={(e) => setNotes(e.target.value)}
+                className="mt-1"
+              />
+            </div>
+
+            <div className="flex gap-2">
+              <Button
+                onClick={exportAsJSON}
+                variant="outline"
+                className="flex-1"
+              >
+                JSON Format
+              </Button>
+              <Button
+                onClick={exportAsText}
+                variant="outline"
+                className="flex-1"
+              >
+                Text Format
+              </Button>
+            </div>
+          </div>
+        </DialogContent>
+      </Dialog>
+
+      <Button variant="outline" size="sm" onClick={shareTrip}>
+        <Share2 className="mr-2 w-4 h-4" />
+        Share
+      </Button>
+    </div>
+  );
+}
