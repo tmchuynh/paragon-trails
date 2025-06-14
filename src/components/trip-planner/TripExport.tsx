@@ -4,6 +4,8 @@ import { Button } from "@/components/ui/button";
 import {
   Dialog,
   DialogContent,
+  DialogDescription,
+  DialogFooter,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
@@ -25,6 +27,7 @@ interface TripExportProps {
 
 export default function TripExport({ tripPlan, days }: TripExportProps) {
   const [notes, setNotes] = useState("");
+  const [manualCopyText, setManualCopyText] = useState<string | null>(null);
 
   const generateTripSummary = () => {
     const summary = {
@@ -108,76 +111,141 @@ export default function TripExport({ tripPlan, days }: TripExportProps) {
 
   const shareTrip = async () => {
     const summary = generateTripSummary();
-    const shareText = `Check out my trip plan to ${summary.destination}!\n\n${summary.dates}\nStaying at: ${summary.hotel}\n\n${summary.totalDays} days of adventure planned!`;
+
+    let fullShareText = `TRIP PLAN: ${summary.destination}\n`;
+    fullShareText += `${"=".repeat(50)}\n\n`;
+    fullShareText += `Hotel: ${summary.hotel}\n`;
+    fullShareText += `Dates: ${summary.dates}\n`;
+    fullShareText += `Guests: ${summary.guests}\n`;
+    fullShareText += `Duration: ${summary.totalDays} days\n\n`;
+
+    summary.itinerary.forEach((day) => {
+      fullShareText += `DAY ${day.day} - ${day.date}\n`;
+      fullShareText += `${"-".repeat(30)}\n`;
+      fullShareText += `Total planned time: ${day.totalTime}\n\n`;
+
+      if (day.activities.length === 0) {
+        fullShareText += `No activities planned\n\n`;
+      } else {
+        day.activities.forEach((activity, index) => {
+          fullShareText += `${index + 1}. ${activity.name}\n`;
+          fullShareText += `   Duration: ${activity.duration}\n\n`;
+        });
+      }
+    });
+
+    if (summary.notes) {
+      fullShareText += `NOTES:\n${"-".repeat(20)}\n${summary.notes}\n`;
+    }
+
+    const shortShareText = `Check out my trip plan to ${summary.destination}!\\n\\n${summary.dates}\\nStaying at: ${summary.hotel}\\n\\n${summary.totalDays} days of adventure planned!`;
 
     if (navigator.share) {
       try {
         await navigator.share({
           title: `Trip Plan: ${summary.destination}`,
-          text: shareText,
+          text: shortShareText,
         });
       } catch (err) {
-        // Fallback to clipboard
-        navigator.clipboard.writeText(shareText);
-        alert("Trip details copied to clipboard!");
+        // If navigator.share fails, try clipboard with full text
+        try {
+          await navigator.clipboard.writeText(fullShareText);
+          alert("Trip details copied to clipboard!");
+        } catch (clipErr) {
+          // If clipboard also fails, set full text for manual copy
+          setManualCopyText(fullShareText);
+        }
       }
     } else {
-      // Fallback to clipboard
-      navigator.clipboard.writeText(shareText);
-      alert("Trip details copied to clipboard!");
+      // If navigator.share is not available, try clipboard with full text
+      try {
+        await navigator.clipboard.writeText(fullShareText);
+        alert("Trip details copied to clipboard!");
+      } catch (clipErr) {
+        // If clipboard also fails, set full text for manual copy
+        setManualCopyText(fullShareText);
+      }
     }
   };
 
   return (
-    <div className="flex gap-2">
-      <Dialog>
-        <DialogTrigger asChild>
-          <Button variant="outline" size="sm">
-            <Download className="mr-2 w-4 h-4" />
-            Export
-          </Button>
-        </DialogTrigger>
-        <DialogContent className="sm:max-w-md">
-          <DialogHeader>
-            <DialogTitle>Export Trip Plan</DialogTitle>
-          </DialogHeader>
-          <div className="space-y-4">
-            <div>
-              <label className="font-medium text-sm">
-                Add Notes (Optional)
-              </label>
-              <Textarea
-                placeholder="Add any additional notes about your trip..."
-                value={notes}
-                onChange={(e) => setNotes(e.target.value)}
-                className="mt-1"
-              />
-            </div>
+    <>
+      <div className="flex gap-2">
+        <Dialog>
+          <DialogTrigger asChild>
+            <Button variant="outline" size="sm">
+              <Download className="mr-2 w-4 h-4" />
+              Export
+            </Button>
+          </DialogTrigger>
+          <DialogContent className="sm:max-w-md">
+            <DialogHeader>
+              <DialogTitle>Export Trip Plan</DialogTitle>
+            </DialogHeader>
+            <div className="space-y-4">
+              <div>
+                <label className="font-medium text-sm">
+                  Add Notes (Optional)
+                </label>
+                <Textarea
+                  placeholder="Add any additional notes about your trip..."
+                  value={notes}
+                  onChange={(e) => setNotes(e.target.value)}
+                  className="mt-1"
+                />
+              </div>
 
-            <div className="flex gap-2">
-              <Button
-                onClick={exportAsJSON}
-                variant="outline"
-                className="flex-1"
-              >
-                JSON Format
-              </Button>
-              <Button
-                onClick={exportAsText}
-                variant="outline"
-                className="flex-1"
-              >
-                Text Format
-              </Button>
+              <div className="flex gap-2">
+                <Button
+                  onClick={exportAsJSON}
+                  variant="outline"
+                  className="flex-1"
+                >
+                  JSON Format
+                </Button>
+                <Button
+                  onClick={exportAsText}
+                  variant="outline"
+                  className="flex-1"
+                >
+                  Text Format
+                </Button>
+              </div>
             </div>
-          </div>
-        </DialogContent>
-      </Dialog>
+          </DialogContent>
+        </Dialog>
 
-      <Button variant="outline" size="sm" onClick={shareTrip}>
-        <Share2 className="mr-2 w-4 h-4" />
-        Share
-      </Button>
-    </div>
+        <Button variant="outline" size="sm" onClick={shareTrip}>
+          <Share2 className="mr-2 w-4 h-4" />
+          Share
+        </Button>
+      </div>
+
+      {manualCopyText && (
+        <Dialog
+          open={!!manualCopyText}
+          onOpenChange={() => setManualCopyText(null)}
+        >
+          <DialogContent className="sm:max-w-md">
+            <DialogHeader>
+              <DialogTitle>Copy Trip Details</DialogTitle>
+              <DialogDescription>
+                Your browser prevented automatic copying. Please copy the text
+                below manually.
+              </DialogDescription>
+            </DialogHeader>
+            <Textarea
+              value={manualCopyText}
+              readOnly
+              rows={5}
+              className="my-4"
+            />
+            <DialogFooter>
+              <Button onClick={() => setManualCopyText(null)}>Close</Button>
+            </DialogFooter>
+          </DialogContent>
+        </Dialog>
+      )}
+    </>
   );
 }
