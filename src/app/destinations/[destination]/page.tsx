@@ -345,11 +345,7 @@ export default function DestinationDetailsPage() {
                         variant="outline"
                         size="sm"
                         className="mt-4 w-full"
-                        onClick={() =>
-                          router.push(
-                            `/destinations/${currentDestinationSlug}/tours`
-                          )
-                        }
+                        onClick={() => router.push(`/tours`)}
                       >
                         View all tours
                       </Button>
@@ -388,11 +384,7 @@ export default function DestinationDetailsPage() {
                         variant="outline"
                         size="sm"
                         className="mt-4 w-full"
-                        onClick={() =>
-                          router.push(
-                            `/destinations/${currentDestinationSlug}/activities`
-                          )
-                        }
+                        onClick={() => router.push(`/activities`)}
                       >
                         View all activities
                       </Button>
@@ -431,11 +423,7 @@ export default function DestinationDetailsPage() {
                         variant="outline"
                         size="sm"
                         className="mt-4 w-full"
-                        onClick={() =>
-                          router.push(
-                            `/destinations/${currentDestinationSlug}/attractions`
-                          )
-                        }
+                        onClick={() => router.push(`/attractions`)}
                       >
                         View all attractions
                       </Button>
