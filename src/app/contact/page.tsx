@@ -154,7 +154,7 @@ export default function ContactUsPage() {
                         onChange={handleInputChange}
                         placeholder="Your full name"
                         required
-                        className="focus:border-primary border-border focus:ring-primary/20 h-12"
+                        className="flex flex-col justify-center mt-0.25 border focus:border-muted border-border focus:ring-muted/20"
                       />
                     </div>
                     <div className="space-y-2">
@@ -167,7 +167,7 @@ export default function ContactUsPage() {
                         onChange={handleInputChange}
                         placeholder="your.email@example.com"
                         required
-                        className="focus:border-muted border-border focus:ring-muted/20 h-8"
+                        className="flex flex-col justify-center mt-0.25 border focus:border-muted border-border focus:ring-muted/20"
                       />
                     </div>
                   </div>
@@ -182,7 +182,7 @@ export default function ContactUsPage() {
                         value={formData.phone}
                         onChange={handleInputChange}
                         placeholder="+1 (555) 123-4567"
-                        className="focus:border-muted border-border focus:ring-muted/20 h-8"
+                        className="flex flex-col justify-center mt-0.25 border focus:border-muted border-border focus:ring-muted/20"
                       />
                     </div>
                     <div className="space-y-2">
@@ -289,7 +289,7 @@ export default function ContactUsPage() {
                       onChange={handleInputChange}
                       placeholder="Brief description of your inquiry"
                       required
-                      className="focus:border-muted border-border focus:ring-muted/20 h-8"
+                      className="flex flex-col justify-center mt-0.25 border focus:border-muted border-border focus:ring-muted/20"
                     />
                   </div>
 
