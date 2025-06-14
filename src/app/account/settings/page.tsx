@@ -1,4 +1,6 @@
 "use client";
+import { Button } from "@/components/ui/button";
+import { Checkbox } from "@/components/ui/checkbox";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { ChevronDownIcon } from "@heroicons/react/16/solid";
@@ -33,7 +35,7 @@ export default function ProfileSettingsPage() {
                     name="username"
                     type="text"
                     placeholder="janesmith"
-                    className="block py-1.5 pr-3 pl-1 min-w-0 text-base sm:text-sm/6 placeholder:text-gray-400 grow focus:outline-none"
+                    className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
                   />
                 </div>
               </div>
@@ -51,7 +53,7 @@ export default function ProfileSettingsPage() {
                   id="about"
                   name="about"
                   rows={3}
-                  className="block bg-white px-3 py-1.5 rounded-md w-full sm:max-w-2xl text-base sm:text-sm/6 placeholder:text-gray-400 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600"
+                  className="bg-white px-3 py-1.5 border-slate-200 focus:border-primary rounded-md focus:ring-primary/20 w-full sm:max-w-xl h-32 text-base sm:text-sm/6 placeholder:text-gray-400 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600"
                   defaultValue={""}
                 />
                 <p className="mt-3 text-gray-600 text-sm/6">
@@ -70,12 +72,7 @@ export default function ProfileSettingsPage() {
                     aria-hidden="true"
                     className="text-gray-300 size-12"
                   />
-                  <button
-                    type="button"
-                    className="bg-white hover:bg-gray-50 shadow-xs px-2.5 py-1.5 rounded-md ring-1 ring-gray-300 ring-inset font-semibold text-sm"
-                  >
-                    Change
-                  </button>
+                  <Button type="button">Change</Button>
                 </div>
               </div>
             </div>
@@ -95,10 +92,7 @@ export default function ProfileSettingsPage() {
                       className="mx-auto text-gray-300 size-12"
                     />
                     <div className="flex mt-4 text-gray-600 text-sm/6">
-                      <label
-                        htmlFor="file-upload"
-                        className="relative focus-within:outline-hidden bg-white rounded-md focus-within:ring-2 focus-within:ring-indigo-600 focus-within:ring-offset-2 font-semibold text-indigo-600 hover:text-indigo-500 cursor-pointer"
-                      >
+                      <Label htmlFor="file-upload">
                         <span>Upload a file</span>
                         <Input
                           id="file-upload"
@@ -106,7 +100,7 @@ export default function ProfileSettingsPage() {
                           type="file"
                           className="sr-only"
                         />
-                      </label>
+                      </Label>
                       <p className="pl-1">or drag and drop</p>
                     </div>
                     <p className="text-gray-600 text-xs/5">
@@ -139,7 +133,8 @@ export default function ProfileSettingsPage() {
                   name="first-name"
                   type="text"
                   autoComplete="given-name"
-                  className="block bg-white px-3 py-1.5 rounded-md w-full sm:max-w-xs text-base sm:text-sm/6 placeholder:text-gray-400 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600"
+                  required
+                  className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
                 />
               </div>
             </div>
@@ -157,6 +152,8 @@ export default function ProfileSettingsPage() {
                   name="last-name"
                   type="text"
                   autoComplete="family-name"
+                  className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                  required
                 />
               </div>
             </div>
@@ -175,6 +172,7 @@ export default function ProfileSettingsPage() {
                   type="email"
                   autoComplete="email"
                   required
+                  className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
                 />
               </div>
             </div>
@@ -219,7 +217,7 @@ export default function ProfileSettingsPage() {
                   name="street-address"
                   type="text"
                   autoComplete="street-address"
-                  className="block bg-white px-3 py-1.5 rounded-md w-full sm:max-w-xl text-base sm:text-sm/6 placeholder:text-gray-400 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600"
+                  className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
                 />
               </div>
             </div>
@@ -237,7 +235,7 @@ export default function ProfileSettingsPage() {
                   name="city"
                   type="text"
                   autoComplete="address-level2"
-                  className="block bg-white px-3 py-1.5 rounded-md w-full sm:max-w-xs text-base sm:text-sm/6 placeholder:text-gray-400 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600"
+                  className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
                 />
               </div>
             </div>
@@ -255,7 +253,7 @@ export default function ProfileSettingsPage() {
                   name="region"
                   type="text"
                   autoComplete="address-level1"
-                  className="block bg-white px-3 py-1.5 rounded-md w-full sm:max-w-xs text-base sm:text-sm/6 placeholder:text-gray-400 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600"
+                  className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
                 />
               </div>
             </div>
@@ -273,7 +271,7 @@ export default function ProfileSettingsPage() {
                   name="postal-code"
                   type="text"
                   autoComplete="postal-code"
-                  className="block bg-white px-3 py-1.5 rounded-md w-full sm:max-w-xs text-base sm:text-sm/6 placeholder:text-gray-400 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600"
+                  className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
                 />
               </div>
             </div>
@@ -299,34 +297,9 @@ export default function ProfileSettingsPage() {
                     <div className="flex gap-3">
                       <div className="flex items-center h-6 shrink-0">
                         <div className="group grid grid-cols-1 size-4">
-                          <Input
-                            defaultChecked
-                            id="comments"
-                            name="comments"
-                            type="checkbox"
-                            aria-describedby="comments-description"
-                            className="col-start-1 row-start-1 bg-white checked:bg-indigo-600 indeterminate:bg-indigo-600 disabled:bg-gray-100 disabled:checked:bg-gray-100 border border-gray-300 checked:border-indigo-600 indeterminate:border-indigo-600 disabled:border-gray-300 rounded-sm appearance-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 forced-colors:appearance-auto"
+                          <Checkbox
+                            className="data-[state=checked]:bg-accentdata-[state=checked]:bg-accent mt-1 data-[state=checked]:border-accent data-[state=checked]:text-accent-foreground"
                           />
-                          <svg
-                            fill="none"
-                            viewBox="0 0 14 14"
-                            className="justify-self-center col-start-1 row-start-1 pointer-events-none size-3.5 self-center stroke-white group-has-disabled:stroke-gray-950/25"
-                          >
-                            <path
-                              d="M3 8L6 11L11 3.5"
-                              strokeWidth={2}
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              className="opacity-0 group-has-checked:opacity-100"
-                            />
-                            <path
-                              d="M3 7H11"
-                              strokeWidth={2}
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              className="opacity-0 group-has-indeterminate:opacity-100"
-                            />
-                          </svg>
                         </div>
                       </div>
                       <div className="text-sm/6">
@@ -342,34 +315,9 @@ export default function ProfileSettingsPage() {
                     <div className="flex gap-3">
                       <div className="flex items-center h-6 shrink-0">
                         <div className="group grid grid-cols-1 size-4">
-                          <Input
-                            id="candidates"
-                            name="candidates"
-                            type="checkbox"
-                            aria-describedby="candidates-description"
-                            className="col-start-1 row-start-1 bg-white checked:bg-indigo-600 indeterminate:bg-indigo-600 disabled:bg-gray-100 disabled:checked:bg-gray-100 border border-gray-300 checked:border-indigo-600 indeterminate:border-indigo-600 disabled:border-gray-300 rounded-sm appearance-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 forced-colors:appearance-auto"
+                        <Checkbox
+                            className="data-[state=checked]:bg-accentdata-[state=checked]:bg-accent mt-1 data-[state=checked]:border-accent data-[state=checked]:text-accent-foreground"
                           />
-                          <svg
-                            fill="none"
-                            viewBox="0 0 14 14"
-                            className="justify-self-center col-start-1 row-start-1 pointer-events-none size-3.5 self-center stroke-white group-has-disabled:stroke-gray-950/25"
-                          >
-                            <path
-                              d="M3 8L6 11L11 3.5"
-                              strokeWidth={2}
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              className="opacity-0 group-has-checked:opacity-100"
-                            />
-                            <path
-                              d="M3 7H11"
-                              strokeWidth={2}
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              className="opacity-0 group-has-indeterminate:opacity-100"
-                            />
-                          </svg>
-                        </div>
                       </div>
                       <div className="text-sm/6">
                         <label htmlFor="candidates" className="font-medium">
@@ -386,33 +334,9 @@ export default function ProfileSettingsPage() {
                     <div className="flex gap-3">
                       <div className="flex items-center h-6 shrink-0">
                         <div className="group grid grid-cols-1 size-4">
-                          <Input
-                            id="offers"
-                            name="offers"
-                            type="checkbox"
-                            aria-describedby="offers-description"
-                            className="col-start-1 row-start-1 bg-white checked:bg-indigo-600 indeterminate:bg-indigo-600 disabled:bg-gray-100 disabled:checked:bg-gray-100 border border-gray-300 checked:border-indigo-600 indeterminate:border-indigo-600 disabled:border-gray-300 rounded-sm appearance-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 forced-colors:appearance-auto"
+                        <Checkbox
+                            className="data-[state=checked]:bg-accentdata-[state=checked]:bg-accent mt-1 data-[state=checked]:border-accent data-[state=checked]:text-accent-foreground"
                           />
-                          <svg
-                            fill="none"
-                            viewBox="0 0 14 14"
-                            className="justify-self-center col-start-1 row-start-1 pointer-events-none size-3.5 self-center stroke-white group-has-disabled:stroke-gray-950/25"
-                          >
-                            <path
-                              d="M3 8L6 11L11 3.5"
-                              strokeWidth={2}
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              className="opacity-0 group-has-checked:opacity-100"
-                            />
-                            <path
-                              d="M3 7H11"
-                              strokeWidth={2}
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              className="opacity-0 group-has-indeterminate:opacity-100"
-                            />
-                          </svg>
                         </div>
                       </div>
                       <div className="text-sm/6">
@@ -442,13 +366,9 @@ export default function ProfileSettingsPage() {
                     </p>
                     <div className="space-y-6 mt-6">
                       <div className="flex items-center gap-x-3">
-                        <Input
-                          defaultChecked
-                          id="push-everything"
-                          name="push-notifications"
-                          type="radio"
-                          className="relative before:absolute before:inset-1 forced-colors:before:hidden not-checked:before:hidden bg-white before:bg-white checked:bg-indigo-600 disabled:before:bg-gray-400 disabled:bg-gray-100 border border-gray-300 checked:border-indigo-600 disabled:border-gray-300 rounded-full before:rounded-full size-4 appearance-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 forced-colors:appearance-auto"
-                        />
+                      <Checkbox
+                            className="data-[state=checked]:bg-accentdata-[state=checked]:bg-accent mt-1 data-[state=checked]:border-accent data-[state=checked]:text-accent-foreground"
+                          />
                         <label
                           htmlFor="push-everything"
                           className="block font-medium text-sm/6"
@@ -457,12 +377,9 @@ export default function ProfileSettingsPage() {
                         </label>
                       </div>
                       <div className="flex items-center gap-x-3">
-                        <Input
-                          id="push-email"
-                          name="push-notifications"
-                          type="radio"
-                          className="relative before:absolute before:inset-1 forced-colors:before:hidden not-checked:before:hidden bg-white before:bg-white checked:bg-indigo-600 disabled:before:bg-gray-400 disabled:bg-gray-100 border border-gray-300 checked:border-indigo-600 disabled:border-gray-300 rounded-full before:rounded-full size-4 appearance-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 forced-colors:appearance-auto"
-                        />
+                      <Checkbox
+                            className="data-[state=checked]:bg-accentdata-[state=checked]:bg-accent mt-1 data-[state=checked]:border-accent data-[state=checked]:text-accent-foreground"
+                          />
                         <label
                           htmlFor="push-email"
                           className="block font-medium text-sm/6"
@@ -471,12 +388,9 @@ export default function ProfileSettingsPage() {
                         </label>
                       </div>
                       <div className="flex items-center gap-x-3">
-                        <Input
-                          id="push-nothing"
-                          name="push-notifications"
-                          type="radio"
-                          className="relative before:absolute before:inset-1 forced-colors:before:hidden not-checked:before:hidden bg-white before:bg-white checked:bg-indigo-600 disabled:before:bg-gray-400 disabled:bg-gray-100 border border-gray-300 checked:border-indigo-600 disabled:border-gray-300 rounded-full before:rounded-full size-4 appearance-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 forced-colors:appearance-auto"
-                        />
+                      <Checkbox
+                            className="data-[state=checked]:bg-accentdata-[state=checked]:bg-accent mt-1 data-[state=checked]:border-accent data-[state=checked]:text-accent-foreground"
+                          />
                         <label
                           htmlFor="push-nothing"
                           className="block font-medium text-sm/6"
