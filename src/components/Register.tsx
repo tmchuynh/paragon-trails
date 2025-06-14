@@ -240,7 +240,7 @@ export default function Register() {
                           handleInputChange("firstName", e.target.value)
                         }
                         placeholder="John"
-                        className="pl-10 h-12 placeholder:text-muted-foreground"
+                        className="pl-10 border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
                       />
                     </div>
                   </div>
@@ -259,7 +259,7 @@ export default function Register() {
                         handleInputChange("lastName", e.target.value)
                       }
                       placeholder="Doe"
-                      className="h-12 placeholder:text-muted-foreground"
+                      className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
                     />
                   </div>
                 </div>
@@ -282,7 +282,7 @@ export default function Register() {
                         handleInputChange("email", e.target.value)
                       }
                       placeholder="john.doe@example.com"
-                      className="pl-10 h-12 placeholder:text-muted-foreground"
+                      className="pl-10 border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
                     />
                   </div>
                 </div>
@@ -305,7 +305,7 @@ export default function Register() {
                         handleInputChange("phone", e.target.value)
                       }
                       placeholder="+1 (555) 123-4567"
-                      className="pl-10 h-12 placeholder:text-muted-foreground"
+                      className="pl-10 border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
                     />
                   </div>
                 </div>
@@ -396,9 +396,9 @@ export default function Register() {
                         handleInputChange("password", e.target.value)
                       }
                       placeholder="Create a strong password"
-                      className="pr-10 pl-10 h-12 placeholder:text-muted-foreground"
+                      className="pr-10 pl-10 border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
                     />
-                    <button
+                    <Button
                       type="button"
                       onClick={() => setShowPassword(!showPassword)}
                       className="right-0 absolute inset-y-0 flex items-center pr-3"
@@ -408,7 +408,7 @@ export default function Register() {
                       ) : (
                         <Eye className="w-5 h-5" />
                       )}
-                    </button>
+                    </Button>
                   </div>
                 </div>
 
@@ -433,9 +433,9 @@ export default function Register() {
                         handleInputChange("confirmPassword", e.target.value)
                       }
                       placeholder="Confirm your password"
-                      className="pr-10 pl-10 h-12 placeholder:text-muted-foreground"
+                      className="pr-10 pl-10 border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
                     />
-                    <button
+                    <Button
                       type="button"
                       onClick={() =>
                         setShowConfirmPassword(!showConfirmPassword)
@@ -447,7 +447,7 @@ export default function Register() {
                       ) : (
                         <Eye className="w-5 h-5" />
                       )}
-                    </button>
+                    </Button>
                   </div>
                   {formData.password &&
                     formData.confirmPassword &&
