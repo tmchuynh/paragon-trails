@@ -26,7 +26,15 @@ import { cartHelpers, useCart } from "@/context/CartContext";
 import { useCurrency } from "@/context/CurrencyContext";
 import { mockFlights } from "@/data/flights";
 import { formatToSlug } from "@/lib/utils/format";
-import { Filter, Plane, RotateCcw, Search, Star, Wifi } from "lucide-react";
+import {
+  Filter,
+  Plane,
+  RotateCcw,
+  Search,
+  SlidersHorizontal,
+  Star,
+  Wifi,
+} from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { toast } from "sonner";
@@ -77,6 +85,7 @@ export default function FlightsPage() {
   const { min: minPrice, max: maxPrice } = getPriceRange();
   const [priceRange, setPriceRange] = useState([minPrice, maxPrice]);
   const [sortBy, setSortBy] = useState<string>("price-low");
+  const [showFilters, setShowFilters] = useState(true);
 
   // Pagination state
   const [currentPage, setCurrentPage] = useState(1);
@@ -510,270 +519,278 @@ export default function FlightsPage() {
           </div>
         </Card>
 
-        <div className="gap-8 grid lg:grid-cols-4">
+        <div
+          className={`gap-8 grid ${showFilters ? "lg:grid-cols-4" : "lg:grid-cols-1"}`}
+        >
           {/* Filters Sidebar */}
-          <div className="space-y-6 lg:col-span-1">
-            <Card className="p-0">
-              <div className="p-6">
-                <div className="flex items-center gap-2 mb-4">
-                  <Filter className="w-5 h-5" />
-                  <h3 className="font-semibold text-lg">Filters</h3>
-                </div>
+          {showFilters && (
+            <div className="space-y-6 lg:col-span-1">
+              <Card className="p-0">
+                <div className="p-6">
+                  <div className="flex items-center gap-2 mb-4">
+                    <Filter className="w-5 h-5" />
+                    <h3 className="font-semibold text-lg">Filters</h3>
+                  </div>
 
-                <div className="space-y-6">
-                  {/* Search */}
-                  <div className="space-y-2">
-                    <Label>Search Flights</Label>
-                    <div className="relative">
-                      <Search className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
+                  <div className="space-y-6">
+                    {/* Search */}
+                    <div className="space-y-2">
+                      <Label>Search Flights</Label>
+                      <div className="relative">
+                        <Search className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
+                        <Input
+                          placeholder="Airline, flight number..."
+                          value={searchQuery}
+                          onChange={(e) => setSearchQuery(e.target.value)}
+                          className="pl-10 focus:border-muted border-border focus:ring-muted/20 h-8"
+                        />
+                      </div>
+                    </div>
+
+                    {/* Departure Date */}
+                    <div className="space-y-2">
+                      <Label>Departure Date</Label>
                       <Input
-                        placeholder="Airline, flight number..."
-                        value={searchQuery}
-                        onChange={(e) => setSearchQuery(e.target.value)}
-                        className="pl-10 focus:border-muted border-border focus:ring-muted/20 h-8"
+                        type="date"
+                        value={departureDate}
+                        onChange={(e) => setDepartureDate(e.target.value)}
+                        className="border border-border"
+                        min={new Date().toISOString().split("T")[0]}
                       />
                     </div>
-                  </div>
 
-                  {/* Departure Date */}
-                  <div className="space-y-2">
-                    <Label>Departure Date</Label>
-                    <Input
-                      type="date"
-                      value={departureDate}
-                      onChange={(e) => setDepartureDate(e.target.value)}
-                      className="border border-border"
-                      min={new Date().toISOString().split("T")[0]}
-                    />
-                  </div>
-
-                  {/* Arrival Date */}
-                  <div className="space-y-2">
-                    <Label>Arrival Date</Label>
-                    <Input
-                      type="date"
-                      value={arrivalDate}
-                      onChange={(e) => setArrivalDate(e.target.value)}
-                      className="border border-border"
-                      min={
-                        departureDate || new Date().toISOString().split("T")[0]
-                      }
-                    />
-                  </div>
-
-                  {/* Passengers */}
-                  <div className="space-y-2">
-                    <Label>Passengers</Label>
-                    <Select value={passengers} onValueChange={setPassengers}>
-                      <SelectTrigger className="border border-border w-full">
-                        <SelectValue />
-                      </SelectTrigger>
-                      <SelectContent className="w-full max-h-60">
-                        {[1, 2, 3, 4, 5, 6, 7, 8].map((num) => (
-                          <SelectItem key={num} value={num.toString()}>
-                            {num} passenger{num > 1 ? "s" : ""}
-                          </SelectItem>
-                        ))}
-                      </SelectContent>
-                    </Select>
-                  </div>
-
-                  {/* Class Type */}
-                  <div className="space-y-2">
-                    <Label>Class</Label>
-                    <Select value={classType} onValueChange={setClassType}>
-                      <SelectTrigger className="border border-border w-full">
-                        <SelectValue />
-                      </SelectTrigger>
-                      <SelectContent className="w-full max-h-60">
-                        <SelectItem value="economy">Economy</SelectItem>
-                        <SelectItem value="business">Business</SelectItem>
-                        <SelectItem value="first">First Class</SelectItem>
-                      </SelectContent>
-                    </Select>
-                  </div>
-
-                  {/* Departure Time */}
-                  <div className="space-y-2">
-                    <Label>Departure Time</Label>
-                    <Select
-                      value={departureTimeRange}
-                      onValueChange={setDepartureTimeRange}
-                    >
-                      <SelectTrigger className="border border-border w-full">
-                        <SelectValue placeholder="Select time range" />
-                      </SelectTrigger>
-                      <SelectContent className="w-full max-h-60">
-                        {timeRanges.map((range) => (
-                          <SelectItem key={range.value} value={range.value}>
-                            {range.label}
-                          </SelectItem>
-                        ))}
-                      </SelectContent>
-                    </Select>
-                  </div>
-
-                  {/* Arrival Time */}
-                  <div className="space-y-2">
-                    <Label>Arrival Time</Label>
-                    <Select
-                      value={arrivalTimeRange}
-                      onValueChange={setArrivalTimeRange}
-                    >
-                      <SelectTrigger className="border border-border w-full">
-                        <SelectValue placeholder="Select time range" />
-                      </SelectTrigger>
-                      <SelectContent className="w-full max-h-60">
-                        {timeRanges.map((range) => (
-                          <SelectItem key={range.value} value={range.value}>
-                            {range.label}
-                          </SelectItem>
-                        ))}
-                      </SelectContent>
-                    </Select>
-                  </div>
-
-                  {/* Duration */}
-                  <div className="space-y-2">
-                    <Label>Duration</Label>
-                    <Select
-                      value={selectedDuration}
-                      onValueChange={setSelectedDuration}
-                    >
-                      <SelectTrigger className="border border-border w-full">
-                        <SelectValue placeholder="Select duration" />
-                      </SelectTrigger>
-                      <SelectContent className="w-full max-h-60">
-                        {durations.map((duration) => (
-                          <SelectItem
-                            key={duration.value}
-                            value={duration.value}
-                          >
-                            {duration.label}
-                          </SelectItem>
-                        ))}
-                      </SelectContent>
-                    </Select>
-                  </div>
-
-                  {/* Stops */}
-                  <div className="space-y-2">
-                    <Label>Stops</Label>
-                    <Select
-                      value={selectedStops}
-                      onValueChange={setSelectedStops}
-                    >
-                      <SelectTrigger className="border border-border w-full">
-                        <SelectValue placeholder="Select stops" />
-                      </SelectTrigger>
-                      <SelectContent className="w-full max-h-60">
-                        {stopOptions.map((option) => (
-                          <SelectItem key={option.value} value={option.value}>
-                            {option.label}
-                          </SelectItem>
-                        ))}
-                      </SelectContent>
-                    </Select>
-                  </div>
-
-                  {/* Meal Type */}
-                  <div className="space-y-2">
-                    <Label>Meal Type</Label>
-                    <Select
-                      value={selectedMeal}
-                      onValueChange={setSelectedMeal}
-                    >
-                      <SelectTrigger className="border border-border w-full">
-                        <SelectValue placeholder="Select meal type" />
-                      </SelectTrigger>
-                      <SelectContent className="w-full max-h-60">
-                        {meals.map((meal) => (
-                          <SelectItem key={meal.value} value={meal.value}>
-                            {meal.label}
-                          </SelectItem>
-                        ))}
-                      </SelectContent>
-                    </Select>
-                  </div>
-
-                  {/* Amenities */}
-                  <div className="space-y-2">
-                    <Label>Required Amenity</Label>
-                    <Select
-                      value={selectedAmenity}
-                      onValueChange={setSelectedAmenity}
-                    >
-                      <SelectTrigger className="border border-border w-full">
-                        <SelectValue placeholder="Select amenity" />
-                      </SelectTrigger>
-                      <SelectContent className="w-full max-h-60">
-                        {amenities.map((amenity) => (
-                          <SelectItem key={amenity.value} value={amenity.value}>
-                            {amenity.label}
-                          </SelectItem>
-                        ))}
-                      </SelectContent>
-                    </Select>
-                  </div>
-
-                  {/* Price Range */}
-                  <div className="space-y-2">
-                    <Label>
-                      Price Range (
-                      {classType.charAt(0).toUpperCase() + classType.slice(1)}{" "}
-                      Class)
-                    </Label>
-                    <div className="px-2 py-4">
-                      <Slider
-                        value={priceRange}
-                        onValueChange={setPriceRange}
-                        max={maxPrice}
-                        min={minPrice}
-                        step={50}
-                        className="w-full"
+                    {/* Arrival Date */}
+                    <div className="space-y-2">
+                      <Label>Arrival Date</Label>
+                      <Input
+                        type="date"
+                        value={arrivalDate}
+                        onChange={(e) => setArrivalDate(e.target.value)}
+                        className="border border-border"
+                        min={
+                          departureDate ||
+                          new Date().toISOString().split("T")[0]
+                        }
                       />
-                      <div className="flex justify-between mt-2 text-slate-600 text-sm dark:text-slate-400">
-                        <span>{formatPrice(priceRange[0])}</span>
-                        <span>{formatPrice(priceRange[1])}</span>
+                    </div>
+
+                    {/* Passengers */}
+                    <div className="space-y-2">
+                      <Label>Passengers</Label>
+                      <Select value={passengers} onValueChange={setPassengers}>
+                        <SelectTrigger className="border border-border w-full">
+                          <SelectValue />
+                        </SelectTrigger>
+                        <SelectContent className="w-full max-h-60">
+                          {[1, 2, 3, 4, 5, 6, 7, 8].map((num) => (
+                            <SelectItem key={num} value={num.toString()}>
+                              {num} passenger{num > 1 ? "s" : ""}
+                            </SelectItem>
+                          ))}
+                        </SelectContent>
+                      </Select>
+                    </div>
+
+                    {/* Class Type */}
+                    <div className="space-y-2">
+                      <Label>Class</Label>
+                      <Select value={classType} onValueChange={setClassType}>
+                        <SelectTrigger className="border border-border w-full">
+                          <SelectValue />
+                        </SelectTrigger>
+                        <SelectContent className="w-full max-h-60">
+                          <SelectItem value="economy">Economy</SelectItem>
+                          <SelectItem value="business">Business</SelectItem>
+                          <SelectItem value="first">First Class</SelectItem>
+                        </SelectContent>
+                      </Select>
+                    </div>
+
+                    {/* Departure Time */}
+                    <div className="space-y-2">
+                      <Label>Departure Time</Label>
+                      <Select
+                        value={departureTimeRange}
+                        onValueChange={setDepartureTimeRange}
+                      >
+                        <SelectTrigger className="border border-border w-full">
+                          <SelectValue placeholder="Select time range" />
+                        </SelectTrigger>
+                        <SelectContent className="w-full max-h-60">
+                          {timeRanges.map((range) => (
+                            <SelectItem key={range.value} value={range.value}>
+                              {range.label}
+                            </SelectItem>
+                          ))}
+                        </SelectContent>
+                      </Select>
+                    </div>
+
+                    {/* Arrival Time */}
+                    <div className="space-y-2">
+                      <Label>Arrival Time</Label>
+                      <Select
+                        value={arrivalTimeRange}
+                        onValueChange={setArrivalTimeRange}
+                      >
+                        <SelectTrigger className="border border-border w-full">
+                          <SelectValue placeholder="Select time range" />
+                        </SelectTrigger>
+                        <SelectContent className="w-full max-h-60">
+                          {timeRanges.map((range) => (
+                            <SelectItem key={range.value} value={range.value}>
+                              {range.label}
+                            </SelectItem>
+                          ))}
+                        </SelectContent>
+                      </Select>
+                    </div>
+
+                    {/* Duration */}
+                    <div className="space-y-2">
+                      <Label>Duration</Label>
+                      <Select
+                        value={selectedDuration}
+                        onValueChange={setSelectedDuration}
+                      >
+                        <SelectTrigger className="border border-border w-full">
+                          <SelectValue placeholder="Select duration" />
+                        </SelectTrigger>
+                        <SelectContent className="w-full max-h-60">
+                          {durations.map((duration) => (
+                            <SelectItem
+                              key={duration.value}
+                              value={duration.value}
+                            >
+                              {duration.label}
+                            </SelectItem>
+                          ))}
+                        </SelectContent>
+                      </Select>
+                    </div>
+
+                    {/* Stops */}
+                    <div className="space-y-2">
+                      <Label>Stops</Label>
+                      <Select
+                        value={selectedStops}
+                        onValueChange={setSelectedStops}
+                      >
+                        <SelectTrigger className="border border-border w-full">
+                          <SelectValue placeholder="Select stops" />
+                        </SelectTrigger>
+                        <SelectContent className="w-full max-h-60">
+                          {stopOptions.map((option) => (
+                            <SelectItem key={option.value} value={option.value}>
+                              {option.label}
+                            </SelectItem>
+                          ))}
+                        </SelectContent>
+                      </Select>
+                    </div>
+
+                    {/* Meal Type */}
+                    <div className="space-y-2">
+                      <Label>Meal Type</Label>
+                      <Select
+                        value={selectedMeal}
+                        onValueChange={setSelectedMeal}
+                      >
+                        <SelectTrigger className="border border-border w-full">
+                          <SelectValue placeholder="Select meal type" />
+                        </SelectTrigger>
+                        <SelectContent className="w-full max-h-60">
+                          {meals.map((meal) => (
+                            <SelectItem key={meal.value} value={meal.value}>
+                              {meal.label}
+                            </SelectItem>
+                          ))}
+                        </SelectContent>
+                      </Select>
+                    </div>
+
+                    {/* Amenities */}
+                    <div className="space-y-2">
+                      <Label>Required Amenity</Label>
+                      <Select
+                        value={selectedAmenity}
+                        onValueChange={setSelectedAmenity}
+                      >
+                        <SelectTrigger className="border border-border w-full">
+                          <SelectValue placeholder="Select amenity" />
+                        </SelectTrigger>
+                        <SelectContent className="w-full max-h-60">
+                          {amenities.map((amenity) => (
+                            <SelectItem
+                              key={amenity.value}
+                              value={amenity.value}
+                            >
+                              {amenity.label}
+                            </SelectItem>
+                          ))}
+                        </SelectContent>
+                      </Select>
+                    </div>
+
+                    {/* Price Range */}
+                    <div className="space-y-2">
+                      <Label>
+                        Price Range (
+                        {classType.charAt(0).toUpperCase() + classType.slice(1)}{" "}
+                        Class)
+                      </Label>
+                      <div className="px-2 py-4">
+                        <Slider
+                          value={priceRange}
+                          onValueChange={setPriceRange}
+                          max={maxPrice}
+                          min={minPrice}
+                          step={50}
+                          className="w-full"
+                        />
+                        <div className="flex justify-between mt-2 text-slate-600 text-sm dark:text-slate-400">
+                          <span>{formatPrice(priceRange[0])}</span>
+                          <span>{formatPrice(priceRange[1])}</span>
+                        </div>
                       </div>
                     </div>
-                  </div>
 
-                  {/* Rating Filter */}
-                  <div className="space-y-2">
-                    <Label>Rating Range</Label>
-                    <div className="px-2 py-4">
-                      <Slider
-                        value={ratingFilter}
-                        onValueChange={setRatingFilter}
-                        max={5}
-                        min={0}
-                        step={0.1}
-                        className="w-full"
-                      />
-                      <div className="flex justify-between mt-2 text-slate-600 text-sm dark:text-slate-400">
-                        <span>{ratingFilter[0].toFixed(1)}</span>
-                        <span>{ratingFilter[1].toFixed(1)}</span>
+                    {/* Rating Filter */}
+                    <div className="space-y-2">
+                      <Label>Rating Range</Label>
+                      <div className="px-2 py-4">
+                        <Slider
+                          value={ratingFilter}
+                          onValueChange={setRatingFilter}
+                          max={5}
+                          min={0}
+                          step={0.1}
+                          className="w-full"
+                        />
+                        <div className="flex justify-between mt-2 text-slate-600 text-sm dark:text-slate-400">
+                          <span>{ratingFilter[0].toFixed(1)}</span>
+                          <span>{ratingFilter[1].toFixed(1)}</span>
+                        </div>
                       </div>
                     </div>
-                  </div>
 
-                  {/* Reset Filters Button */}
-                  <Button
-                    onClick={resetFilters}
-                    className="w-full"
-                    variant="outline"
-                  >
-                    <RotateCcw className="mr-2 w-4 h-4" />
-                    Reset Filters
-                  </Button>
+                    {/* Reset Filters Button */}
+                    <Button
+                      onClick={resetFilters}
+                      className="w-full"
+                      variant="outline"
+                    >
+                      <RotateCcw className="mr-2 w-4 h-4" />
+                      Reset Filters
+                    </Button>
+                  </div>
                 </div>
-              </div>
-            </Card>
-          </div>
+              </Card>
+            </div>
+          )}
 
           {/* Flights List */}
-          <div className="lg:col-span-3">
+          <div className={showFilters ? "lg:col-span-3" : "lg:col-span-1"}>
             <div className="flex justify-between items-center mb-6">
               <p className="text-slate-600 dark:text-slate-400">
                 {filteredFlights.length} flight
@@ -831,6 +848,17 @@ export default function FlightsPage() {
                     <SelectItem value="airline">Airline (A-Z)</SelectItem>
                   </SelectContent>
                 </Select>
+
+                {/* Toggle Filters Button */}
+                <Button
+                  variant="outline"
+                  size="sm"
+                  onClick={() => setShowFilters(!showFilters)}
+                  className="flex items-center gap-2"
+                >
+                  <SlidersHorizontal className="w-4 h-4" />
+                  {showFilters ? "Hide Filters" : "Show Filters"}
+                </Button>
               </div>
             </div>
 
