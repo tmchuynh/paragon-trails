@@ -1,24 +1,47 @@
 "use client";
 
+import { useAuth } from "@/context/AuthContext";
 import { ArrowRight, Compass, Eye, EyeOff, Lock, Mail } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
+import { toast } from "sonner";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { Label } from "./ui/label";
 
 export default function Login() {
   const router = useRouter();
+  const { login, isLoading } = useAuth();
   const [showPassword, setShowPassword] = useState(false);
-  const [isLoading, setIsLoading] = useState(false);
+  const [formData, setFormData] = useState({
+    email: "",
+    password: "",
+  });
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+  };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setIsLoading(true);
-    // Simulate API call
-    await new Promise((resolve) => setTimeout(resolve, 1000));
-    setIsLoading(false);
-    // Handle login logic here
+
+    if (!formData.email || !formData.password) {
+      toast.error("Please fill in all fields");
+      return;
+    }
+
+    const success = await login(formData.email, formData.password);
+
+    if (success) {
+      toast.success("Login successful! Welcome back.");
+      router.push("/");
+    } else {
+      toast.error("Invalid credentials. Please try again.");
+    }
   };
 
   return (
@@ -103,6 +126,8 @@ export default function Login() {
                   required
                   autoComplete="email"
                   placeholder="Enter your email"
+                  value={formData.email}
+                  onChange={handleInputChange}
                   className="pl-10 border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
                 />
               </div>
@@ -135,17 +160,19 @@ export default function Login() {
                   required
                   autoComplete="current-password"
                   placeholder="Enter your password"
+                  value={formData.password}
+                  onChange={handleInputChange}
                   className="pr-10 pl-10 border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
                 />
                 <button
                   type="button"
                   onClick={() => setShowPassword(!showPassword)}
-                  className="right-0 absolute inset-y-0 flex items-center pr-3"
+                  className="right-0 absolute inset-y-0 flex items-center pr-3 text-gray-400 hover:text-gray-600 transition-colors"
                 >
                   {showPassword ? (
-                    <EyeOff className="w-5 h-5 hover:" />
+                    <EyeOff className="w-5 h-5" />
                   ) : (
-                    <Eye className="w-5 h-5 hover:" />
+                    <Eye className="w-5 h-5" />
                   )}
                 </button>
               </div>
