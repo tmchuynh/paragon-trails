@@ -146,7 +146,7 @@ export default function TourDetailsPage() {
         {/* Tour Selector */}
         <div className="mb-6">
           <div className="flex items-center gap-4">
-            <label className="font-medium text-sm">Choose Tour:</label>
+            <Label className="font-medium text-sm">Choose Tour:</Label>
             <Select
               value={currentTour?.id || ""}
               onValueChange={handleTourChange}
@@ -218,7 +218,7 @@ export default function TourDetailsPage() {
             {currentTour.images
               .slice(0, 4)
               .map((image: string, index: number) => (
-                <button
+                <Button
                   key={index}
                   onClick={() => setSelectedImageIndex(index)}
                   className={`relative w-24 h-16 rounded-lg overflow-hidden ${
@@ -231,7 +231,7 @@ export default function TourDetailsPage() {
                     fill
                     className="object-cover"
                   />
-                </button>
+                </Button>
               ))}
           </div>
         </div>
@@ -673,6 +673,7 @@ export default function TourDetailsPage() {
                         min="1"
                         max="10"
                         value={adults}
+                        className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
                         onChange={(e) =>
                           setAdults(parseInt(e.target.value) || 1)
                         }
@@ -686,6 +687,7 @@ export default function TourDetailsPage() {
                         min="0"
                         max="10"
                         value={children}
+                        className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
                         onChange={(e) =>
                           setChildren(parseInt(e.target.value) || 0)
                         }
@@ -699,6 +701,7 @@ export default function TourDetailsPage() {
                         min="0"
                         max="10"
                         value={seniors}
+                        className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
                         onChange={(e) =>
                           setSeniors(parseInt(e.target.value) || 0)
                         }
@@ -713,6 +716,7 @@ export default function TourDetailsPage() {
                           min="0"
                           max="10"
                           value={students}
+                          className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
                           onChange={(e) =>
                             setStudents(parseInt(e.target.value) || 0)
                           }
@@ -730,6 +734,7 @@ export default function TourDetailsPage() {
                         min="0"
                         max="5"
                         value={families}
+                        className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
                         onChange={(e) =>
                           setFamilies(parseInt(e.target.value) || 0)
                         }
