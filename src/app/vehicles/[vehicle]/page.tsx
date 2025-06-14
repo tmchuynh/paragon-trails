@@ -2,7 +2,13 @@
 
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { Calendar } from "@/components/ui/calendar";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import {
@@ -17,9 +23,10 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { cartHelpers, useCart } from "@/context/CartContext";
 import { useCurrency } from "@/context/CurrencyContext";
 import { mockVehicles } from "@/data/vehicles";
-import { formatToSlug } from "@/lib/utils/format";
+import { formatToSlug, toTitleCase } from "@/lib/utils/format";
 import {
   ArrowLeft,
+  CalendarIcon,
   Camera,
   Car,
   CheckCircle,
@@ -65,9 +72,13 @@ export default function VehicleDetailPage() {
     searchParams.get("return") || ""
   );
   const [pickupLocation, setPickupLocation] = useState(
-    searchParams.get("location") || "new-york"
+    searchParams.get("location") || "Select Location"
   );
   const [isAddingToCart, setIsAddingToCart] = useState(false);
+  const [showCalendar, setShowCalendar] = useState<"pickup" | "return" | null>(
+    null
+  );
+  const [calendarDate, setCalendarDate] = useState<Date | undefined>();
 
   // Update current vehicle when URL param changes
   useEffect(() => {
@@ -116,6 +127,37 @@ export default function VehicleDetailPage() {
 
   const days = calculateDays();
   const totalPrice = vehicle.pricing.daily * days * quantity;
+
+  // Format date to string
+  const formatDateToString = (date: Date | undefined) => {
+    if (!date) return "";
+    return date.toISOString().split("T")[0];
+  };
+
+  // Parse string to date
+  const parseStringToDate = (dateString: string) => {
+    if (!dateString) return undefined;
+    return new Date(dateString);
+  };
+
+  // Handle calendar date selection
+  const handleCalendarSelect = (date: Date | undefined) => {
+    if (!date) return;
+
+    if (showCalendar === "pickup") {
+      const newPickupDate = formatDateToString(date);
+      setPickupDate(newPickupDate);
+
+      // Clear return date if it's before or equal to the new pickup date
+      if (returnDate && newPickupDate && returnDate <= newPickupDate) {
+        setReturnDate("");
+      }
+    } else if (showCalendar === "return") {
+      setReturnDate(formatDateToString(date));
+    }
+
+    setShowCalendar(null);
+  };
 
   // Check if this vehicle rental is already in cart
   const isInCart = () => {
@@ -193,7 +235,7 @@ export default function VehicleDetailPage() {
         {/* Vehicle Selector */}
         <div className="mb-6">
           <div className="flex items-center gap-4">
-            <label className="font-medium text-sm">Choose Vehicle:</label>
+            <Label className="font-medium text-sm">Choose Vehicle:</Label>
             <Select
               value={vehicle?.id || ""}
               onValueChange={handleVehicleChange}
@@ -226,11 +268,14 @@ export default function VehicleDetailPage() {
               <div className="flex items-center gap-2 mb-2">
                 <Badge
                   variant="secondary"
-                  className="bg-white text-black capitalize"
+                  className="bg-white/90 text-slate-900 capitalize"
                 >
                   {vehicle.type.replace("-", " ")}
                 </Badge>
-                <Badge variant="secondary" className="bg-white text-black">
+                <Badge
+                  variant="outline"
+                  className="bg-white/10 border-white/20 text-white"
+                >
                   {vehicle.year}
                 </Badge>
               </div>
@@ -266,11 +311,12 @@ export default function VehicleDetailPage() {
               {vehicle.images
                 .slice(0, 4)
                 .map((image: string, index: number) => (
-                  <button
+                  <Button
                     key={index}
+                    variant={selectedImage === index ? "default" : "outline"}
                     onClick={() => setSelectedImage(index)}
-                    className={`relative w-24 h-16 rounded-lg overflow-hidden ${
-                      selectedImage === index ? "ring-2 ring-blue-500" : ""
+                    className={`relative w-24 h-16 p-0 overflow-hidden ${
+                      selectedImage === index ? "ring-2 ring-primary" : ""
                     }`}
                   >
                     <Image
@@ -279,8 +325,18 @@ export default function VehicleDetailPage() {
                       fill
                       className="object-cover"
                     />
-                  </button>
+                  </Button>
                 ))}
+              {vehicle.images.length > 4 && (
+                <Button
+                  variant="outline"
+                  className="flex-col w-24 h-16 text-xs"
+                  onClick={() => setSelectedImage(4)}
+                >
+                  <Camera className="mb-1 w-4 h-4" />+
+                  {vehicle.images.length - 4} more
+                </Button>
+              )}
             </div>
           )}
         </div>
@@ -290,10 +346,34 @@ export default function VehicleDetailPage() {
           <div className="lg:col-span-2">
             <Tabs defaultValue="overview" className="w-full">
               <TabsList className="grid grid-cols-4 mb-6 w-full">
-                <TabsTrigger value="overview">Overview</TabsTrigger>
-                <TabsTrigger value="specifications">Specs</TabsTrigger>
-                <TabsTrigger value="features">Features</TabsTrigger>
-                <TabsTrigger value="policies">Policies</TabsTrigger>
+                <TabsTrigger
+                  value="overview"
+                  className="flex items-center gap-2"
+                >
+                  <Info className="w-4 h-4" />
+                  Overview
+                </TabsTrigger>
+                <TabsTrigger
+                  value="specifications"
+                  className="flex items-center gap-2"
+                >
+                  <Settings className="w-4 h-4" />
+                  Specs
+                </TabsTrigger>
+                <TabsTrigger
+                  value="features"
+                  className="flex items-center gap-2"
+                >
+                  <CheckCircle className="w-4 h-4" />
+                  Features
+                </TabsTrigger>
+                <TabsTrigger
+                  value="policies"
+                  className="flex items-center gap-2"
+                >
+                  <Shield className="w-4 h-4" />
+                  Policies
+                </TabsTrigger>
               </TabsList>
 
               <TabsContent value="overview" className="space-y-6">
@@ -316,6 +396,7 @@ export default function VehicleDetailPage() {
                             <span className="text-sm">
                               {vehicle.rating}/5 Star Rating
                             </span>
+                            <Badge variant="warning">Top Rated</Badge>
                           </div>
                           <div className="flex items-center gap-2">
                             <Users className="w-4 h-4 text-green-500" />
@@ -329,6 +410,9 @@ export default function VehicleDetailPage() {
                             <span className="text-sm">
                               {vehicle.specifications.fuelType} Engine
                             </span>
+                            {vehicle.specifications.fuelType === "Electric" && (
+                              <Badge variant="success">Eco-Friendly</Badge>
+                            )}
                           </div>
                         </div>
                       </div>
@@ -503,16 +587,17 @@ export default function VehicleDetailPage() {
                       <CheckCircle className="w-5 h-5" />
                       Vehicle Features & Amenities
                     </div>
-                    <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                    <div className="gap-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                       {vehicle.features.map(
                         (feature: string, index: number) => (
-                          <div
+                          <Badge
                             key={index}
-                            className="flex items-center gap-2 p-3 border rounded-lg"
+                            variant="outline"
+                            className="flex justify-start items-center gap-2 p-3"
                           >
                             <CheckCircle className="w-4 h-4 text-green-500" />
                             <span className="text-sm">{feature}</span>
-                          </div>
+                          </Badge>
                         )
                       )}
                     </div>
@@ -657,30 +742,50 @@ export default function VehicleDetailPage() {
             <Card className="p-0">
               <CardContent className="p-6">
                 <div className="space-y-2 text-sm">
-                  <div className="mb-4 font-semibold text-lg">Quick Facts</div>
+                  <div className="flex justify-between items-center mb-4 font-semibold text-lg">
+                    Quick Facts
+                    <Badge
+                      variant={
+                        vehicle.availability.isAvailable ? "success" : "error"
+                      }
+                      size="sm"
+                    >
+                      {vehicle.availability.isAvailable
+                        ? "Available"
+                        : "Unavailable"}
+                    </Badge>
+                  </div>
                   <div className="flex justify-between">
                     <span>Vehicle Type</span>
-                    <span className="capitalize">
+                    <Badge variant="secondary" className="capitalize">
                       {vehicle.type.replace("-", " ")}
-                    </span>
+                    </Badge>
                   </div>
                   <div className="flex justify-between">
                     <span>Brand</span>
-                    <span>{vehicle.brand}</span>
+                    <span className="font-medium">{vehicle.brand}</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Model Year</span>
-                    <span>{vehicle.year}</span>
+                    <span className="font-medium">{vehicle.year}</span>
                   </div>
-                  <div className="flex justify-between">
-                    <span>Seating</span>
-                    <span>
-                      {vehicle.specifications.seatingCapacity} persons
-                    </span>
-                  </div>
+                  {vehicle.specifications.seatingCapacity && (
+                    <div className="flex justify-between">
+                      <span>Capacity</span>
+                      <span className="font-medium">
+                        {vehicle.specifications.seatingCapacity}{" "}
+                        {vehicle.specifications.seatingCapacity > 1
+                          ? "Seats"
+                          : "Seat"}
+                      </span>
+                    </div>
+                  )}
                   <div className="flex justify-between">
                     <span>Rating</span>
-                    <span>{vehicle.rating}/5</span>
+                    <div className="flex items-center gap-1">
+                      <span className="font-medium">{vehicle.rating}/5</span>
+                      <Star className="w-3 h-3 text-yellow-400 fill-yellow-400" />
+                    </div>
                   </div>
                 </div>
               </CardContent>
@@ -692,62 +797,107 @@ export default function VehicleDetailPage() {
                 <CardTitle className="text-xl">Book This Vehicle</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <div>
+                <div className="space-y-2">
                   <Label htmlFor="pickup">Pickup Date</Label>
-                  <Input
-                    id="pickup"
-                    type="date"
-                    className="flex flex-col justify-center"
-                    value={pickupDate}
-                    onChange={(e) => {
-                      const newPickupDate = e.target.value;
-                      setPickupDate(newPickupDate);
-
-                      // Clear return date if it's before or equal to the new pickup date
-                      if (
-                        returnDate &&
-                        newPickupDate &&
-                        returnDate <= newPickupDate
-                      ) {
-                        setReturnDate("");
-                      }
-                    }}
-                    min={new Date().toISOString().split("T")[0]}
-                  />
+                  <DropdownMenu
+                    open={showCalendar === "pickup"}
+                    onOpenChange={(open) =>
+                      setShowCalendar(open ? "pickup" : null)
+                    }
+                  >
+                    <DropdownMenuTrigger asChild>
+                      <Button
+                        variant="outline"
+                        className="justify-start w-full font-normal text-left"
+                      >
+                        <CalendarIcon className="mr-2 w-4 h-4" />
+                        {pickupDate ? (
+                          new Date(pickupDate).toLocaleDateString()
+                        ) : (
+                          <span className="text-muted-foreground">
+                            Pick a date
+                          </span>
+                        )}
+                      </Button>
+                    </DropdownMenuTrigger>
+                    <DropdownMenuContent className="p-0 w-auto" align="start">
+                      <Calendar
+                        mode="single"
+                        selected={parseStringToDate(pickupDate)}
+                        onSelect={handleCalendarSelect}
+                        disabled={(date) => date < new Date()}
+                        initialFocus
+                      />
+                    </DropdownMenuContent>
+                  </DropdownMenu>
                 </div>
 
-                <div>
+                <div className="space-y-2">
                   <Label htmlFor="return">Return Date</Label>
-                  <Input
-                    id="return"
-                    type="date"
-                    className="flex flex-col justify-center"
-                    value={returnDate}
-                    onChange={(e) => setReturnDate(e.target.value)}
-                    min={getMinReturnDate()}
-                  />
+                  <DropdownMenu
+                    open={showCalendar === "return"}
+                    onOpenChange={(open) =>
+                      setShowCalendar(open ? "return" : null)
+                    }
+                  >
+                    <DropdownMenuTrigger asChild>
+                      <Button
+                        variant="outline"
+                        className="justify-start w-full font-normal text-left"
+                        disabled={!pickupDate}
+                      >
+                        <CalendarIcon className="mr-2 w-4 h-4" />
+                        {returnDate ? (
+                          new Date(returnDate).toLocaleDateString()
+                        ) : (
+                          <span className="text-muted-foreground">
+                            Pick a date
+                          </span>
+                        )}
+                      </Button>
+                    </DropdownMenuTrigger>
+                    <DropdownMenuContent className="p-0 w-auto" align="start">
+                      <Calendar
+                        mode="single"
+                        selected={parseStringToDate(returnDate)}
+                        onSelect={handleCalendarSelect}
+                        disabled={(date) => {
+                          if (!pickupDate) return true;
+                          const pickup = new Date(pickupDate);
+                          pickup.setDate(pickup.getDate() + 1);
+                          return date <= new Date(pickupDate);
+                        }}
+                        initialFocus
+                      />
+                    </DropdownMenuContent>
+                  </DropdownMenu>
                 </div>
 
                 <div className="gap-4 grid grid-cols-2">
-                  <div>
+                  <div className="space-y-2">
                     <Label htmlFor="location">Pickup Location</Label>
-                    <select
-                      id="location"
+                    <Select
                       value={pickupLocation}
-                      onChange={(e) => setPickupLocation(e.target.value)}
-                      className="flex bg-background file:bg-transparent disabled:opacity-50 px-3 py-2 border border-input file:border-0 rounded-md focus-visible:ring-2 focus-visible:ring-ring ring-offset-background focus-visible:ring-offset-2 w-full file:font-medium text-sm placeholder:text-muted-foreground file:text-foreground file:text-sm disabled:cursor-not-allowed focus-visible:outline-none"
+                      onValueChange={setPickupLocation}
                     >
-                      {vehicle.availability.locations.map((location) => (
-                        <option
-                          key={location.toLowerCase().replace(" ", "-")}
-                          value={location.toLowerCase().replace(" ", "-")}
-                        >
-                          {location}
-                        </option>
-                      ))}
-                    </select>
+                      <SelectTrigger>
+                        <SelectValue placeholder="select-location">
+                          {toTitleCase(pickupLocation)}
+                        </SelectValue>
+                      </SelectTrigger>
+                      <SelectContent>
+                        {vehicle.availability.locations.map((location) => (
+                          <SelectItem
+                            key={location.toLowerCase().replace(" ", "-")}
+                            value={location.toLowerCase().replace(" ", "-")}
+                          >
+                            {location}
+                          </SelectItem>
+                        ))}
+                      </SelectContent>
+                    </Select>
                   </div>
-                  <div>
+                  <div className="space-y-2">
                     <Label htmlFor="quantity">Number of Vehicles</Label>
                     <Input
                       id="quantity"
@@ -794,10 +944,11 @@ export default function VehicleDetailPage() {
                       onClick={handleAddToCart}
                       disabled={isAddingToCart || !pickupDate || !returnDate}
                       className="w-full"
+                      size="lg"
                     >
                       {isAddingToCart ? "Adding to Cart..." : "Add to Cart"}
                     </Button>
-                    <Button variant="outline" className="w-full">
+                    <Button variant="outline" className="w-full" size="lg">
                       <Heart className="mr-2 w-4 h-4" />
                       Add to Wishlist
                     </Button>
@@ -806,41 +957,48 @@ export default function VehicleDetailPage() {
                   <div className="space-y-3">
                     <div className="gap-2 grid grid-cols-2">
                       <Button
-                        variant="outline"
+                        variant="secondary"
                         onClick={() => router.push("/activities")}
                         className="flex items-center gap-2"
+                        size="sm"
                       >
                         <MapIcon className="w-4 h-4" />
                         Activities
                       </Button>
                       <Button
-                        variant="outline"
+                        variant="secondary"
                         onClick={() => router.push("/hotels")}
                         className="flex items-center gap-2"
+                        size="sm"
                       >
                         <Users className="w-4 h-4" />
                         Hotels
                       </Button>
                       <Button
-                        variant="outline"
+                        variant="secondary"
                         onClick={() => router.push("/attractions")}
                         className="flex items-center gap-2"
+                        size="sm"
                       >
                         <Camera className="w-4 h-4" />
                         Attractions
                       </Button>
                       <Button
-                        variant="outline"
+                        variant="secondary"
                         onClick={() => router.push("/flights")}
                         className="flex items-center gap-2"
+                        size="sm"
                       >
                         <Plane className="w-4 h-4" />
                         Flights
                       </Button>
                     </div>
-                    <p className="font-medium text-center text-slate-600 text-sm">
-                      Safe travels! 🚗
-                    </p>
+                    <Badge
+                      variant="success"
+                      className="justify-center py-2 w-full"
+                    >
+                      ✅ Vehicle Added to Cart - Safe travels! 🚗
+                    </Badge>
                   </div>
                 )}
               </CardContent>
