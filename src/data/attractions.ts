@@ -8,7 +8,7 @@ export const mockAttractions: Attraction[] = [
     type: "Monument",
     category: "Historical Landmark",
     description:
-      "Iconic iron lattice tower and symbol of Paris. Built in 1889, this architectural marvel offers stunning views of the city from its observation decks.",
+      "Iconic iron lattice tower and symbol of Paris. Built in 1889, this architectural marvel offers stunning views of the city from its observation decks. This landmark is a must-visit for anyone traveling to Paris, providing a unique perspective of the city and its rich history. The Eiffel Tower is not only a feat of engineering but also a cultural icon, attracting millions of visitors each year.",
     images: [
       "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?w=1200&h=600&fit=crop",
       "https://images.unsplash.com/photo-1502602898536-47ad22581b52?w=1200&h=600&fit=crop",
@@ -97,12 +97,12 @@ export const mockAttractions: Attraction[] = [
 
   // Tokyo, Japan Attractions
   {
-    id: "ATT003",
+    id: "ATT009",
     name: "Tokyo Skytree",
     type: "Tower",
     category: "Modern Landmark",
     description:
-      "World's tallest tower and second-tallest structure in the world. Offers breathtaking views of Tokyo and beyond from its observation decks.",
+      "World's tallest tower and second-tallest structure in the world. Offers breathtaking views of Tokyo and beyond from its observation decks. This architectural marvel stands at 634 meters and features two observation decks, providing panoramic views of the city, especially stunning at sunset and night. The Tokyo Skytree is not only a broadcasting tower but also a cultural hub with shopping, dining, and entertainment options.",
     images: [
       "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=1200&h=600&fit=crop",
     ],
@@ -192,7 +192,7 @@ export const mockAttractions: Attraction[] = [
     type: "Temple",
     category: "Religious Site",
     description:
-      "Tokyo's oldest temple, founded in 628 AD. Famous for its Thunder Gate, traditional architecture, and vibrant Nakamise shopping street.",
+      "Tokyo's oldest temple, founded in 628 AD. Famous for its Thunder Gate, traditional architecture, and vibrant Nakamise shopping street. This historic Buddhist temple is located in Asakusa and attracts millions of visitors each year. The temple complex features beautiful gardens, a five-story pagoda, and various halls for worship. Senso-ji is not only a spiritual site but also a cultural hub, offering a glimpse into Japan's rich history and traditions.",
     images: [
       "https://images.unsplash.com/photo-1513407030348-c983a97b98d8?w=1200&h=600&fit=crop",
     ],
@@ -288,12 +288,12 @@ export const mockAttractions: Attraction[] = [
 
   // New York City, USA Attractions
   {
-    id: "ATT005",
+    id: "ATT015",
     name: "Statue of Liberty",
     type: "Monument",
     category: "National Monument",
     description:
-      "Symbol of freedom and democracy, this colossal neoclassical sculpture stands on Liberty Island in New York Harbor.",
+      "Symbol of freedom and democracy, this colossal neoclassical sculpture stands on Liberty Island in New York Harbor. Built in 1886, it was a gift from France to the United States. The statue is a UNESCO World Heritage Site and one of the most recognized symbols of the United States. Visitors can explore the pedestal and crown for panoramic views of New York City and the harbor.",
     images: [
       "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=1200&h=600&fit=crop",
     ],
@@ -384,12 +384,12 @@ export const mockAttractions: Attraction[] = [
     yearBuilt: 1886,
   },
   {
-    id: "ATT006",
+    id: "ATT025",
     name: "Central Park",
     type: "Park",
     category: "Urban Park",
     description:
-      "Massive urban park in the heart of Manhattan, featuring lakes, meadows, walking paths, and numerous attractions.",
+      "Massive urban park in the heart of Manhattan, featuring lakes, meadows, walking paths, and numerous attractions. Central Park is a green oasis in the bustling city, offering a variety of recreational activities and scenic spots. It spans 843 acres and includes iconic landmarks such as Bethesda Terrace, Strawberry Fields, and the Central Park Zoo. The park is perfect for walking, jogging, picnicking, and enjoying nature amidst the urban landscape.",
     images: [
       "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1200&h=600&fit=crop",
     ],
@@ -487,7 +487,7 @@ export const mockAttractions: Attraction[] = [
     type: "Temple",
     category: "Religious Site",
     description:
-      "Ancient Hindu shrine perched on a rock formation in the sea. One of Bali's most photographed temples, especially beautiful at sunset.",
+      "Ancient Hindu shrine perched on a rock formation in the sea. One of Bali's most photographed temples, especially beautiful at sunset. Experience the thrill of visiting this sacred sea temple, which is dedicated to the sea gods and offers stunning views of the Indian Ocean. The temple is surrounded by rocky terrain and tidal pools, making it a unique and picturesque location. Visitors can explore the temple grounds, enjoy cultural performances, and shop for souvenirs in the nearby market.",
     images: [
       "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=1200&h=600&fit=crop",
     ],
@@ -578,7 +578,7 @@ export const mockAttractions: Attraction[] = [
     type: "Nature Reserve",
     category: "Wildlife Sanctuary",
     description:
-      "Nature reserve and Hindu temple complex in Ubud, home to over 700 Balinese long-tailed macaques and ancient temples.",
+      "Nature reserve and Hindu temple complex in Ubud, home to over 700 Balinese long-tailed macaques and ancient temples. This lush tropical forest is not only a sanctuary for monkeys but also a place of spiritual significance, featuring three ancient temples. Visitors can walk through the forest, observe the monkeys in their natural habitat, and learn about the local ecosystem. The sanctuary is a great place for nature lovers and photographers, offering unique opportunities to see and interact with the playful macaques.",
     images: [
       "https://images.unsplash.com/photo-1583336663277-620dc1996580?w=1200&h=600&fit=crop",
     ],
@@ -670,7 +670,7 @@ export const mockAttractions: Attraction[] = [
     type: "Mountain",
     category: "Natural Landmark",
     description:
-      "Iconic flat-topped mountain overlooking Cape Town. Accessible by cable car or hiking trails, offering panoramic views of the city and ocean.",
+      "Iconic flat-topped mountain overlooking Cape Town. Accessible by cable car or hiking trails, offering panoramic views of the city and ocean. Table Mountain is a UNESCO World Heritage Site and one of the New7Wonders of Nature. It features unique flora and fauna, with over 1,470 plant species. The mountain is a popular spot for hiking, rock climbing, and photography, especially during sunrise and sunset. Visitors can take the cable car to the summit or hike one of the many trails that lead to breathtaking views of Cape Town and the surrounding coastline.",
     images: [
       "https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=1200&h=600&fit=crop",
     ],
@@ -761,7 +761,7 @@ export const mockAttractions: Attraction[] = [
     type: "Historical Site",
     category: "UNESCO World Heritage Site",
     description:
-      "Former prison island where Nelson Mandela was held for 18 years. Now a museum and symbol of the triumph of democracy over apartheid.",
+      "Former prison island where Nelson Mandela was held for 18 years. Now a museum and symbol of the triumph of democracy over apartheid. Robben Island is a powerful symbol of South Africa's struggle for freedom and democracy. Visitors can take a ferry from the V&A Waterfront to explore the island, including Mandela's prison cell, the museum, and various exhibits that tell the story of the island's history. Guided tours are led by former political prisoners, providing a unique and personal perspective on the island's significance.",
     images: [
       "https://images.unsplash.com/photo-1546026423-cc4642628d2b?w=1200&h=600&fit=crop",
     ],
@@ -852,7 +852,7 @@ export const mockAttractions: Attraction[] = [
     type: "Museum",
     category: "Art & Culture",
     description:
-      "World's largest art museum and historic monument in Paris. Home to thousands of works including the Mona Lisa and Venus de Milo.",
+      "World's largest art museum and historic monument in Paris. Home to thousands of works including the Mona Lisa and Venus de Milo. The Louvre is not only a historic palace but also a cultural treasure trove, housing over 380,000 objects and 35,000 works of art. Visitors can explore its vast galleries, including the Denon Wing with the Mona Lisa, the Richelieu Wing with French sculptures, and the Sully Wing with ancient artifacts. The museum's architecture is equally impressive, featuring the iconic glass pyramid entrance designed by I.M. Pei.",
     images: [
       "https://images.unsplash.com/photo-1564906717979-6ea2b1d6f7fb?w=1200&h=600&fit=crop",
     ],
@@ -966,7 +966,7 @@ export const mockAttractions: Attraction[] = [
     type: "Religious Site",
     category: "Historical Landmark",
     description:
-      "Medieval Catholic cathedral and masterpiece of French Gothic architecture. Currently under restoration after the 2019 fire.",
+      "Medieval Catholic cathedral and masterpiece of French Gothic architecture. Currently under restoration after the 2019 fire. Notre-Dame is renowned for its stunning stained glass windows, flying buttresses, and intricate sculptures. Although the interior is currently closed for restoration, visitors can still admire the exterior architecture and learn about the ongoing restoration efforts. The cathedral's façade features iconic gargoyles and a rose window, making it a must-see landmark in Paris. The site also offers educational tours about its history and architectural significance.",
     images: [
       "https://images.unsplash.com/photo-1539650116574-75c0c6d73a0e?w=1200&h=600&fit=crop",
     ],
@@ -1116,7 +1116,7 @@ export const mockAttractions: Attraction[] = [
     type: "Temple",
     category: "Religious Site",
     description:
-      "Tokyo's oldest temple, founded in 628 AD. Famous for its Thunder Gate, traditional architecture, and vibrant Nakamise shopping street.",
+      "Tokyo's oldest temple, founded in 628 AD. Famous for its Thunder Gate, traditional architecture, and vibrant Nakamise shopping street. Senso-ji is a significant cultural and historical site in Tokyo, attracting millions of visitors each year. The temple complex features the iconic Kaminarimon Gate, a five-story pagoda, and the main hall where visitors can participate in traditional rituals. The Nakamise shopping street leading to the temple offers a variety of souvenirs, snacks, and traditional crafts. Senso-ji is especially beautiful during cherry blossom season and in the autumn when the leaves change color.",
     images: [
       "https://images.unsplash.com/photo-1513407030348-c983a97b98d8?w=1200&h=600&fit=crop",
     ],
@@ -1260,7 +1260,7 @@ export const mockAttractions: Attraction[] = [
     type: "Shrine",
     category: "Religious Site",
     description:
-      "Shinto shrine dedicated to Emperor Meiji and Empress Shoken. Located in a peaceful forest in the heart of Tokyo.",
+      "Shinto shrine dedicated to Emperor Meiji and Empress Shoken. Located in a peaceful forest in the heart of Tokyo. Meiji Shrine is a serene oasis in the bustling city, surrounded by a lush forest that provides a tranquil escape. The shrine features traditional Shinto architecture, beautiful gardens, and a peaceful atmosphere perfect for reflection and prayer. Visitors can participate in traditional rituals, such as making offerings and tying wishes on ema (wooden plaques). The shrine is especially popular during New Year's celebrations when thousands come to pray for good fortune.",
     images: [
       "https://images.unsplash.com/photo-1570197788417-0e82375c9371?w=1200&h=600&fit=crop",
     ],
@@ -1404,7 +1404,7 @@ export const mockAttractions: Attraction[] = [
     type: "Monument",
     category: "National Monument",
     description:
-      "Symbol of freedom and democracy, this colossal neoclassical sculpture stands on Liberty Island in New York Harbor.",
+      "Symbol of freedom and democracy, this colossal neoclassical sculpture stands on Liberty Island in New York Harbor. The Statue of Liberty, a gift from France, was dedicated in 1886 and has since become an enduring symbol of hope and freedom. Visitors can take a ferry to Liberty Island to explore the statue, visit the museum, and enjoy panoramic views of New York City. The statue's crown offers a unique vantage point, while the pedestal houses exhibits about its history and significance. The ferry ride itself provides stunning views of the Manhattan skyline and Ellis Island.",
     images: [
       "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=1200&h=600&fit=crop",
     ],
@@ -1554,7 +1554,7 @@ export const mockAttractions: Attraction[] = [
     type: "Park",
     category: "Urban Park",
     description:
-      "Massive urban park in the heart of Manhattan, featuring lakes, meadows, walking paths, and numerous attractions.",
+      "Massive urban park in the heart of Manhattan, featuring lakes, meadows, walking paths, and numerous attractions. Central Park is a green oasis in the bustling city, offering a variety of recreational activities and scenic spots. Visitors can enjoy walking, jogging, cycling, or simply relaxing in the park's many meadows and gardens. Key attractions include the Bethesda Fountain, Strawberry Fields, The Mall, and the Central Park Zoo. The park also hosts various events throughout the year, including outdoor concerts, theater performances, and seasonal activities like ice skating in winter.",
     images: [
       "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1200&h=600&fit=crop",
     ],
@@ -1699,7 +1699,7 @@ export const mockAttractions: Attraction[] = [
     type: "Skyscraper",
     category: "Observation Deck",
     description:
-      "Iconic Art Deco skyscraper and former world's tallest building. Offers spectacular 360-degree views of New York City.",
+      "Iconic Art Deco skyscraper and former world's tallest building. Offers spectacular 360-degree views of New York City. The Empire State Building is a must-visit landmark, known for its stunning views and historical significance. Visitors can access the 86th-floor observatory for breathtaking panoramic views of the city skyline, while the 102nd-floor top deck provides an even higher vantage point. The building features express elevators, interactive exhibits about its history, and a gift shop. The experience is enhanced by the building's iconic Art Deco architecture and its status as a symbol of New York City.",
     images: [
       "https://images.unsplash.com/photo-1546436836-07a91091f160?w=1200&h=600&fit=crop",
     ],
@@ -1854,7 +1854,7 @@ export const mockAttractions: Attraction[] = [
     type: "Temple",
     category: "Religious Site",
     description:
-      "Ancient Hindu shrine perched on a rock formation in the sea. One of Bali's most photographed temples, especially beautiful at sunset.",
+      "Ancient Hindu shrine perched on a rock formation in the sea. One of Bali's most photographed temples, especially beautiful at sunset. Tanah Lot Temple is a stunning sea temple that offers breathtaking views, especially during sunset. The temple is dedicated to the sea god and is surrounded by crashing waves, creating a dramatic backdrop. Visitors can explore the temple grounds, enjoy cultural performances, and shop for souvenirs in the nearby market. The temple's unique location on a rocky outcrop makes it a popular spot for photography and spiritual reflection. The area around Tanah Lot also features beautiful gardens and traditional Balinese architecture.",
     images: [
       "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=1200&h=600&fit=crop",
     ],
@@ -2000,7 +2000,7 @@ export const mockAttractions: Attraction[] = [
     type: "Temple",
     category: "Religious Site",
     description:
-      "Spectacular clifftop temple overlooking the Indian Ocean. Famous for its traditional Kecak fire dance performances at sunset.",
+      "Spectacular clifftop temple overlooking the Indian Ocean. Famous for its traditional Kecak fire dance performances at sunset. Uluwatu Temple, or Pura Luhur Uluwatu, is one of Bali's most iconic sea temples, perched on a steep cliff 70 meters above the Indian Ocean. The temple is dedicated to the spirits of the sea and offers stunning views, especially during sunset. Visitors can explore the temple grounds, watch the Kecak fire dance performance, and enjoy the surrounding natural beauty. The temple is also home to a large population of monkeys, adding to its unique charm. The dramatic clifftop location makes it a popular spot for photography and spiritual reflection.",
     images: [
       "https://images.unsplash.com/photo-1555400112-8e106bd1bce8?w=1200&h=600&fit=crop",
     ],
@@ -2145,7 +2145,7 @@ export const mockAttractions: Attraction[] = [
     type: "Nature Reserve",
     category: "Wildlife Sanctuary",
     description:
-      "Nature reserve and Hindu temple complex in Ubud, home to over 700 Balinese long-tailed macaques and ancient temples.",
+      "Nature reserve and Hindu temple complex in Ubud, home to over 700 Balinese long-tailed macaques and ancient temples. The Sacred Monkey Forest Sanctuary is a lush, tropical forest that serves as a sanctuary for over 700 playful macaque monkeys. Visitors can explore the forest's winding paths, ancient temples, and serene ponds while observing the monkeys in their natural habitat. The sanctuary also features educational exhibits about the monkeys and their behavior. The tranquil atmosphere, combined with the presence of sacred temples, makes it a unique destination for nature lovers and those interested in Balinese culture. The sanctuary is an important spiritual site for the local community and offers a peaceful escape from the bustling town of Ubud.",
     images: [
       "https://images.unsplash.com/photo-1583336663277-620dc1996580?w=1200&h=600&fit=crop",
     ],
@@ -2291,7 +2291,7 @@ export const mockAttractions: Attraction[] = [
     type: "Mountain",
     category: "Natural Landmark",
     description:
-      "Iconic flat-topped mountain overlooking Cape Town. Accessible by cable car or hiking trails, offering panoramic views of the city and ocean.",
+      "Iconic flat-topped mountain overlooking Cape Town. Accessible by cable car or hiking trails, offering panoramic views of the city and ocean. Table Mountain is a must-visit natural landmark in Cape Town, known for its distinctive flat top and stunning views. Visitors can take the cable car to the summit or hike one of the many trails that lead to the top. The mountain is part of Table Mountain National Park and is home to diverse flora and fauna, including the unique fynbos vegetation. At the summit, visitors can enjoy panoramic views of Cape Town, the Atlantic Ocean, and the surrounding mountains. The area also features several viewpoints, picnic spots, and a restaurant. Table Mountain is a UNESCO World Heritage Site and a symbol of Cape Town's natural beauty.",
     images: [
       "https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=1200&h=600&fit=crop",
     ],
@@ -2443,7 +2443,7 @@ export const mockAttractions: Attraction[] = [
     type: "Historical Site",
     category: "UNESCO World Heritage Site",
     description:
-      "Former prison island where Nelson Mandela was held for 18 years. Now a museum and symbol of the triumph of democracy over apartheid.",
+      "Former prison island where Nelson Mandela was held for 18 years. Now a museum and symbol of the triumph of democracy over apartheid. Robben Island is a significant historical site and UNESCO World Heritage Site located off the coast of Cape Town. It served as a prison for political prisoners, including Nelson Mandela, who spent 18 years here. The island is now a museum that offers guided tours led by former inmates, providing insight into the harsh conditions and the struggle against",
     images: [
       "https://images.unsplash.com/photo-1546026423-cc4642628d2b?w=1200&h=600&fit=crop",
     ],
@@ -2587,7 +2587,7 @@ export const mockAttractions: Attraction[] = [
     type: "Botanical Garden",
     category: "Nature Reserve",
     description:
-      "Renowned botanical garden showcasing South Africa's indigenous flora. Set against the eastern slopes of Table Mountain.",
+      "Renowned botanical garden showcasing South Africa's indigenous flora. Set against the eastern slopes of Table Mountain. Kirstenbosch Botanical Gardens is a world-famous botanical garden located at the foot of Table Mountain in Cape Town. It is renowned for its extensive collection of indigenous South African plants, including rare and endangered species. The gardens cover 528 hectares and feature beautifully landscaped areas, walking trails, and a tree canopy walkway that offers stunning views of the surrounding mountains and gardens. Kirstenbosch is also a UNESCO World Heritage Site and hosts various cultural events, concerts, and exhibitions throughout the year. The gardens are a peaceful oasis, perfect for nature lovers, families, and anyone looking to explore South Africa's unique flora.",
     images: [
       "https://images.unsplash.com/photo-1587322746389-aac8afaf7dd7?w=1200&h=600&fit=crop",
     ],
