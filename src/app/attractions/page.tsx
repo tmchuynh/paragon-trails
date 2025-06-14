@@ -41,14 +41,19 @@ export default function AttractionsPage() {
   const [accessibilityRequired, setAccessibilityRequired] =
     useState<string>("all");
   const [skipLineAvailable, setSkipLineAvailable] = useState<string>("all");
-  
+
   // Calculate min and max prices from attractions data
-  const minPrice = Math.min(...mockAttractions.map(attraction => attraction.pricing.adult));
-  const maxPrice = Math.max(...mockAttractions.map(attraction => attraction.pricing.adult));
-  
+  const minPrice = Math.min(
+    ...mockAttractions.map((attraction) => attraction.pricing.adult)
+  );
+  const maxPrice = Math.max(
+    ...mockAttractions.map((attraction) => attraction.pricing.adult)
+  );
+
   const [priceRange, setPriceRange] = useState([minPrice, maxPrice]);
   const [ratingFilter, setRatingFilter] = useState([0, 5]);
   const [sortBy, setSortBy] = useState<string>("name");
+  const [showFilters, setShowFilters] = useState(false);
 
   // Pagination state
   const [currentPage, setCurrentPage] = useState(1);
@@ -227,6 +232,27 @@ export default function AttractionsPage() {
     setCurrentPage(1);
   }, [itemsPerPage]);
 
+  // Set responsive filter visibility
+  useEffect(() => {
+    const handleResize = () => {
+      // Show filters by default on large screens (lg breakpoint is 1024px)
+      if (window.innerWidth >= 1024) {
+        setShowFilters(true);
+      } else {
+        setShowFilters(false);
+      }
+    };
+
+    // Set initial state
+    handleResize();
+
+    // Add event listener
+    window.addEventListener("resize", handleResize);
+
+    // Cleanup
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   // Calculate pagination
   const totalPages = Math.ceil(filteredAttractions.length / itemsPerPage);
   const startIndex = (currentPage - 1) * itemsPerPage;
@@ -333,168 +359,167 @@ export default function AttractionsPage() {
           </div>
         </Card>
 
-        <div className="gap-8 grid lg:grid-cols-4">
+        <div
+          className={`gap-8 grid grid-cols-1 ${showFilters ? "lg:grid-cols-4" : "lg:grid-cols-1"}`}
+        >
           {/* Filters Sidebar */}
-          <div className="space-y-6 lg:col-span-1">
-            <Card className="p-0">
-              <div className="p-6">
-                <div className="flex items-center gap-2 mb-4">
-                  <Filter className="w-5 h-5" />
-                  <h3 className="font-semibold text-lg">Filters</h3>
-                </div>
-
-                <div className="space-y-6">
-                  {/* Search by Name */}
-                  <div className="space-y-2">
-                    <Label>Search Attractions</Label>
-                    <div className="relative">
-                      <Search className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
-                      <Input
-                        placeholder="Eiffel Tower, Colosseum..."
-                        value={searchQuery}
-                        onChange={(e) => setSearchQuery(e.target.value)}
-                        className="pl-10 focus:border-muted border-border focus:ring-muted/20 h-8"
-                      />
-                    </div>
+          {showFilters && (
+            <div className="space-y-6 lg:col-span-1">
+              <Card className="p-0">
+                <div className="p-6">
+                  <div className="flex items-center gap-2 mb-4">
+                    <Filter className="w-5 h-5" />
+                    <h3 className="font-semibold text-lg">Filters</h3>
                   </div>
 
-                  {/* Best Time to Visit */}
-                  <div className="space-y-2">
-                    <Label>Best Time to Visit</Label>
-                    <Select
-                      value={selectedTimeToVisit}
-                      onValueChange={setSelectedTimeToVisit}
-                    >
-                      <SelectTrigger className="border border-border w-full">
-                        <SelectValue placeholder="Select time" />
-                      </SelectTrigger>
-                      <SelectContent className="w-full max-h-60">
-                        {timesToVisit.map((time) => (
-                          <SelectItem key={time.value} value={time.value}>
-                            {time.label}
-                          </SelectItem>
-                        ))}
-                      </SelectContent>
-                    </Select>
-                  </div>
-
-                  {/* Accessibility */}
-                  <div className="space-y-2">
-                    <Label>Wheelchair Accessible</Label>
-                    <Select
-                      value={accessibilityRequired}
-                      onValueChange={setAccessibilityRequired}
-                    >
-                      <SelectTrigger className="border border-border w-full">
-                        <SelectValue placeholder="Accessibility" />
-                      </SelectTrigger>
-                      <SelectContent className="w-full max-h-60">
-                        <SelectItem value="all">Any</SelectItem>
-                        <SelectItem value="true">Accessible</SelectItem>
-                        <SelectItem value="false">Not Required</SelectItem>
-                      </SelectContent>
-                    </Select>
-                  </div>
-
-                  {/* Skip Line Available */}
-                  <div className="space-y-2">
-                    <Label>Skip Line Available</Label>
-                    <Select
-                      value={skipLineAvailable}
-                      onValueChange={setSkipLineAvailable}
-                    >
-                      <SelectTrigger className="border border-border w-full">
-                        <SelectValue placeholder="Skip line" />
-                      </SelectTrigger>
-                      <SelectContent className="w-full max-h-60">
-                        <SelectItem value="all">Any</SelectItem>
-                        <SelectItem value="true">Available</SelectItem>
-                        <SelectItem value="false">Not Available</SelectItem>
-                      </SelectContent>
-                    </Select>
-                  </div>
-
-                  {/* Price Range */}
-                  <div className="space-y-2">
-                    <Label>Price Range (Adult)</Label>
-                    <div className="px-2 py-4">
-                      <Slider
-                        value={priceRange}
-                        onValueChange={setPriceRange}
-                        max={maxPrice}
-                        min={minPrice}
-                        step={5}
-                        className="w-full"
-                      />
-                      <div className="flex justify-between mt-2 text-slate-600 text-sm dark:text-slate-400">
-                        <span>{formatPrice(priceRange[0])}</span>
-                        <span>{formatPrice(priceRange[1])}</span>
+                  <div className="space-y-6">
+                    {/* Search by Name */}
+                    <div className="space-y-2">
+                      <Label>Search Attractions</Label>
+                      <div className="relative">
+                        <Search className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
+                        <Input
+                          placeholder="Eiffel Tower, Colosseum..."
+                          value={searchQuery}
+                          onChange={(e) => setSearchQuery(e.target.value)}
+                          className="pl-10 focus:border-muted border-border focus:ring-muted/20 h-8"
+                        />
                       </div>
                     </div>
-                  </div>
 
-                  {/* Rating Filter */}
-                  <div className="space-y-2">
-                    <Label>Minimum Rating</Label>
-                    <div className="px-2 py-4">
-                      <Slider
-                        value={ratingFilter}
-                        onValueChange={setRatingFilter}
-                        max={5}
-                        min={0}
-                        step={0.5}
-                        className="w-full"
-                      />
-                      <div className="flex justify-between mt-2 text-slate-600 text-sm dark:text-slate-400">
-                        <span>{ratingFilter[0]} ⭐</span>
-                        <span>{ratingFilter[1]} ⭐</span>
+                    {/* Best Time to Visit */}
+                    <div className="space-y-2">
+                      <Label>Best Time to Visit</Label>
+                      <Select
+                        value={selectedTimeToVisit}
+                        onValueChange={setSelectedTimeToVisit}
+                      >
+                        <SelectTrigger className="border border-border w-full">
+                          <SelectValue placeholder="Select time" />
+                        </SelectTrigger>
+                        <SelectContent className="w-full max-h-60">
+                          {timesToVisit.map((time) => (
+                            <SelectItem key={time.value} value={time.value}>
+                              {time.label}
+                            </SelectItem>
+                          ))}
+                        </SelectContent>
+                      </Select>
+                    </div>
+
+                    {/* Accessibility */}
+                    <div className="space-y-2">
+                      <Label>Wheelchair Accessible</Label>
+                      <Select
+                        value={accessibilityRequired}
+                        onValueChange={setAccessibilityRequired}
+                      >
+                        <SelectTrigger className="border border-border w-full">
+                          <SelectValue placeholder="Accessibility" />
+                        </SelectTrigger>
+                        <SelectContent className="w-full max-h-60">
+                          <SelectItem value="all">Any</SelectItem>
+                          <SelectItem value="true">Accessible</SelectItem>
+                          <SelectItem value="false">Not Required</SelectItem>
+                        </SelectContent>
+                      </Select>
+                    </div>
+
+                    {/* Skip Line Available */}
+                    <div className="space-y-2">
+                      <Label>Skip Line Available</Label>
+                      <Select
+                        value={skipLineAvailable}
+                        onValueChange={setSkipLineAvailable}
+                      >
+                        <SelectTrigger className="border border-border w-full">
+                          <SelectValue placeholder="Skip line" />
+                        </SelectTrigger>
+                        <SelectContent className="w-full max-h-60">
+                          <SelectItem value="all">Any</SelectItem>
+                          <SelectItem value="true">Available</SelectItem>
+                          <SelectItem value="false">Not Available</SelectItem>
+                        </SelectContent>
+                      </Select>
+                    </div>
+
+                    {/* Price Range */}
+                    <div className="space-y-2">
+                      <Label>Price Range (Adult)</Label>
+                      <div className="px-2 py-4">
+                        <Slider
+                          value={priceRange}
+                          onValueChange={setPriceRange}
+                          max={maxPrice}
+                          min={minPrice}
+                          step={5}
+                          className="w-full"
+                        />
+                        <div className="flex justify-between mt-2 text-slate-600 text-sm dark:text-slate-400">
+                          <span>{formatPrice(priceRange[0])}</span>
+                          <span>{formatPrice(priceRange[1])}</span>
+                        </div>
                       </div>
                     </div>
-                  </div>
 
-                  {/* Reset Filters Button */}
-                  <Button
-                    onClick={resetFilters}
-                    className="w-full"
-                    variant="outline"
-                  >
-                    <RotateCcw className="mr-2 w-4 h-4" />
-                    Reset Filters
-                  </Button>
+                    {/* Rating Filter */}
+                    <div className="space-y-2">
+                      <Label>Minimum Rating</Label>
+                      <div className="px-2 py-4">
+                        <Slider
+                          value={ratingFilter}
+                          onValueChange={setRatingFilter}
+                          max={5}
+                          min={0}
+                          step={0.5}
+                          className="w-full"
+                        />
+                        <div className="flex justify-between mt-2 text-slate-600 text-sm dark:text-slate-400">
+                          <span>{ratingFilter[0]} ⭐</span>
+                          <span>{ratingFilter[1]} ⭐</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Reset Filters Button */}
+                    <Button
+                      onClick={resetFilters}
+                      className="w-full"
+                      variant="outline"
+                    >
+                      <RotateCcw className="mr-2 w-4 h-4" />
+                      Reset Filters
+                    </Button>
+                  </div>
                 </div>
-              </div>
-            </Card>
-          </div>
+              </Card>
+            </div>
+          )}
 
           {/* Attractions Grid */}
-          <div className="lg:col-span-3">
-            <div className="flex justify-between items-center mb-6">
-              <p className="text-slate-600 dark:text-slate-400">
+          <div className={showFilters ? "lg:col-span-3" : "lg:col-span-1"}>
+            <div className="flex md:flex-row flex-col justify-between items-center mb-6">
+              <div className="md:w-1/4 text-center text-slate-600 text-wrap md:text-start dark:text-slate-400">
                 {filteredAttractions.length} attraction
                 {filteredAttractions.length !== 1 ? "s" : ""} found
                 {filteredAttractions.length > 0 && (
-                  <span className="ml-2">
-                    (Showing {startIndex + 1}-
+                  <p>
+                    (Showing {startIndex + 1}-{" "}
                     {Math.min(endIndex, filteredAttractions.length)} of{" "}
                     {filteredAttractions.length})
-                  </span>
+                  </p>
                 )}
-              </p>
+              </div>
 
-              <div className="flex items-center gap-4">
+              <div className="flex md:flex-row flex-col items-center md:items-end gap-4 mt-2 md:mt-0 w-full md:w-auto">
                 {/* Items per page dropdown */}
-                <div className="flex items-center gap-2">
-                  <Label
-                    htmlFor="items-per-page"
-                    className="text-sm whitespace-nowrap"
-                  >
-                    Show:
-                  </Label>
+                <div className="flex flex-col items-center w-4/5 md:w-auto">
+                  <Label className="text-sm whitespace-nowrap">Show:</Label>
                   <Select
                     value={itemsPerPage.toString()}
                     onValueChange={(value) => setItemsPerPage(Number(value))}
                   >
-                    <SelectTrigger className="border border-border w-20">
+                    <SelectTrigger className="border border-border w-full md:w-20">
                       <SelectValue />
                     </SelectTrigger>
                     <SelectContent className="w-full max-h-60">
@@ -508,22 +533,36 @@ export default function AttractionsPage() {
                 </div>
 
                 {/* Sort dropdown */}
-                <Select value={sortBy} onValueChange={setSortBy}>
-                  <SelectTrigger className="border border-border w-48">
-                    <SelectValue />
-                  </SelectTrigger>
-                  <SelectContent className="w-full max-h-60">
-                    <SelectItem value="name">Name (A-Z)</SelectItem>
-                    <SelectItem value="price-low">
-                      Price: Low to High
-                    </SelectItem>
-                    <SelectItem value="price-high">
-                      Price: High to Low
-                    </SelectItem>
-                    <SelectItem value="rating">Highest Rated</SelectItem>
-                    <SelectItem value="popularity">Most Popular</SelectItem>
-                  </SelectContent>
-                </Select>
+                <div className="flex flex-col items-center w-4/5 md:w-auto">
+                  <Label className="text-sm whitespace-nowrap">Sort By:</Label>
+                  <Select value={sortBy} onValueChange={setSortBy}>
+                    <SelectTrigger className="border border-border w-full md:w-48">
+                      <SelectValue />
+                    </SelectTrigger>
+                    <SelectContent className="w-full max-h-60">
+                      <SelectItem value="name">Name (A-Z)</SelectItem>
+                      <SelectItem value="price-low">
+                        Price: Low to High
+                      </SelectItem>
+                      <SelectItem value="price-high">
+                        Price: High to Low
+                      </SelectItem>
+                      <SelectItem value="rating">Highest Rated</SelectItem>
+                      <SelectItem value="popularity">Most Popular</SelectItem>
+                    </SelectContent>
+                  </Select>
+                </div>
+
+                {/* Toggle Filters Button */}
+                <Button
+                  variant="outline"
+                  size="sm"
+                  onClick={() => setShowFilters(!showFilters)}
+                  className="flex items-center gap-2 m-0.5 w-4/5 md:w-auto"
+                >
+                  <Filter className="w-4 h-4" />
+                  {showFilters ? "Hide Filters" : "Show Filters"}
+                </Button>
               </div>
             </div>
 
