@@ -103,10 +103,10 @@ function areItemsDuplicate(item1: CartItem, item2: Omit<CartItem, 'quantity'>): 
 
 // Helper function to determine if item type supports quantity increase
 function supportsQuantityIncrease(type: CartItem['type']): boolean {
-  // Only vehicles support quantity increase (renting multiple cars)
+  // Vehicles and hotels support quantity increase (renting multiple cars, booking multiple rooms)
   // Flights use guests instead of quantity
-  // Hotels, tours, activities, attractions are typically one-time bookings
-  return type === 'vehicle';
+  // Tours, activities, attractions are typically one-time bookings
+  return type === "vehicle" || type === "hotel";
 }
 
 // Reducer
@@ -118,8 +118,8 @@ function cartReducer(state: CartState, action: CartAction): CartState {
       
       if (existingItem) {
         if (supportsQuantityIncrease(existingItem.type)) {
-          // For vehicles, increase quantity
-          newItems = state.items.map(item =>
+          // For vehicles and hotels, increase quantity
+          newItems = state.items.map((item) =>
             areItemsDuplicate(item, action.payload)
               ? { ...item, quantity: item.quantity + 1 }
               : item
@@ -132,7 +132,7 @@ function cartReducer(state: CartState, action: CartAction): CartState {
               : item
           );
         } else {
-          // For hotels, tours, activities, attractions - don't allow duplicates
+          // For tours, activities, attractions - don't allow duplicates
           // Just return current state without adding
           return state;
         }
