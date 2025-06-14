@@ -29,6 +29,10 @@ export default function TripExport({ tripPlan, days }: TripExportProps) {
   const [notes, setNotes] = useState("");
   const [manualCopyText, setManualCopyText] = useState<string | null>(null);
   const [copied, setCopied] = useState(false);
+  const [showPreview, setShowPreview] = useState(false);
+  const [previewText, setPreviewText] = useState("");
+  const [shareButtonText, setShareButtonText] = useState("Share/Copy");
+  const [shareButtonDisabled, setShareButtonDisabled] = useState(false);
 
   const generateTripSummary = () => {
     const summary = {
@@ -116,12 +120,7 @@ export default function TripExport({ tripPlan, days }: TripExportProps) {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000); // Reset copied state after 2 seconds
     } catch (err) {
-      // If clipboard fails, set text for manual copy dialog (though this dialog already handles it)
-      // This is more of a fallback for the direct copy button if it were to be used outside the dialog
-      setManualCopyText(textToCopy);
-      alert(
-        "Failed to copy. Please try again or copy manually from the dialog."
-      );
+      alert("Failed to copy. Please try copying manually.");
     }
   };
 
@@ -154,7 +153,20 @@ export default function TripExport({ tripPlan, days }: TripExportProps) {
       fullShareText += `NOTES:\n${"-".repeat(20)}\n${summary.notes}\n`;
     }
 
+    // First show the preview dialog
+    setPreviewText(fullShareText);
+    setShowPreview(true);
+    // Reset button state when opening preview
+    setShareButtonText("Share/Copy");
+    setShareButtonDisabled(false);
+  };
+
+  const handleShareFromPreview = async (fullShareText: string) => {
+    const summary = generateTripSummary();
     const shortShareText = `Check out my trip plan to ${summary.destination}!\\n\\n${summary.dates}\\nStaying at: ${summary.hotel}\\n\\n${summary.totalDays} days of adventure planned!`;
+
+    setShareButtonDisabled(true);
+    setShareButtonText("Sharing...");
 
     if (navigator.share) {
       try {
@@ -162,24 +174,53 @@ export default function TripExport({ tripPlan, days }: TripExportProps) {
           title: `Trip Plan: ${summary.destination}`,
           text: shortShareText,
         });
+        setShareButtonText("Shared!");
+        setTimeout(() => {
+          setShowPreview(false);
+          setShareButtonText("Share/Copy");
+          setShareButtonDisabled(false);
+        }, 1500);
       } catch (err) {
         // If navigator.share fails, try clipboard with full text
+        setShareButtonText("Copying...");
         try {
           await navigator.clipboard.writeText(fullShareText);
-          alert("Trip details copied to clipboard!");
+          setShareButtonText("Copied!");
+          setTimeout(() => {
+            setShowPreview(false);
+            setShareButtonText("Share/Copy");
+            setShareButtonDisabled(false);
+          }, 1500);
         } catch (clipErr) {
-          // If clipboard also fails, set full text for manual copy
-          setManualCopyText(fullShareText);
+          // If clipboard also fails, close preview and show manual copy dialog
+          setShareButtonText("Failed - Try Again Later");
+          setTimeout(() => {
+            setShowPreview(false);
+            setManualCopyText(fullShareText);
+            setShareButtonText("Share/Copy");
+            setShareButtonDisabled(false);
+          }, 1000);
         }
       }
     } else {
       // If navigator.share is not available, try clipboard with full text
       try {
         await navigator.clipboard.writeText(fullShareText);
-        alert("Trip details copied to clipboard!");
+        setShareButtonText("Copied!");
+        setTimeout(() => {
+          setShowPreview(false);
+          setShareButtonText("Share/Copy");
+          setShareButtonDisabled(false);
+        }, 2000);
       } catch (clipErr) {
-        // If clipboard also fails, set full text for manual copy
-        setManualCopyText(fullShareText);
+        // If clipboard also fails, close preview and show manual copy dialog
+        setShareButtonText("Failed - Try Again Later");
+        setTimeout(() => {
+          setShowPreview(false);
+          setManualCopyText(fullShareText);
+          setShareButtonText("Share/Copy");
+          setShareButtonDisabled(false);
+        }, 1000);
       }
     }
   };
@@ -237,6 +278,50 @@ export default function TripExport({ tripPlan, days }: TripExportProps) {
         </Button>
       </div>
 
+      {/* Preview Dialog */}
+      {showPreview && (
+        <Dialog
+          open={showPreview}
+          onOpenChange={() => {
+            setShowPreview(false);
+            setShareButtonText("Share/Copy");
+            setShareButtonDisabled(false);
+          }}
+        >
+          <DialogContent className="sm:max-w-4xl max-h-[80vh] overflow-hidden">
+            <DialogHeader>
+              <DialogTitle>Trip Itinerary Preview</DialogTitle>
+              <DialogDescription>
+                Review your trip details before sharing or copying.
+              </DialogDescription>
+            </DialogHeader>
+            <div className="max-h-[60vh] overflow-y-auto">
+              <pre className="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg text-sm whitespace-pre-wrap">
+                {previewText}
+              </pre>
+            </div>
+            <DialogFooter className="flex gap-2">
+              <Button
+                variant="outline"
+                onClick={() => {
+                  setShowPreview(false);
+                  setShareButtonText("Share/Copy");
+                  setShareButtonDisabled(false);
+                }}
+              >
+                Cancel
+              </Button>
+              <Button
+                onClick={() => handleShareFromPreview(previewText)}
+                disabled={shareButtonDisabled}
+              >
+                {shareButtonText}
+              </Button>
+            </DialogFooter>
+          </DialogContent>
+        </Dialog>
+      )}
+
       {manualCopyText && (
         <Dialog
           open={!!manualCopyText}
@@ -254,8 +339,8 @@ export default function TripExport({ tripPlan, days }: TripExportProps) {
               <Textarea
                 value={manualCopyText}
                 readOnly
-                rows={10} // Increased rows for better visibility of full itinerary
-                className="my-4 pr-12" // Added padding-right for the button
+                rows={10}
+                className="my-4 pr-12"
               />
               <Button
                 variant="ghost"
