@@ -552,7 +552,7 @@ export default function HotelDetailPage() {
                     <div className="gap-2 grid grid-cols-2">
                       <Button
                         variant="outline"
-                        onClick={() => router.push("/destinations")}
+                        onClick={() => router.push("/activities")}
                         className="flex items-center gap-2"
                       >
                         <MapIcon className="w-4 h-4" />
@@ -568,7 +568,7 @@ export default function HotelDetailPage() {
                       </Button>
                       <Button
                         variant="outline"
-                        onClick={() => router.push("/destinations")}
+                        onClick={() => router.push("/vehicles")}
                         className="flex items-center gap-2"
                       >
                         <Camera className="w-4 h-4" />
