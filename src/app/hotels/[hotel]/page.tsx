@@ -690,7 +690,7 @@ export default function HotelDetailPage() {
                   <Input
                     id="checkin"
                     type="date"
-                    className="flex flex-col justify-center border border-border"
+                    className="flex flex-col justify-center mt-0.25 border focus:border-muted border-border focus:ring-muted/20"
                     value={checkInDate}
                     onChange={(e) => {
                       const newCheckInDate = e.target.value;
@@ -714,7 +714,7 @@ export default function HotelDetailPage() {
                   <Input
                     id="checkout"
                     type="date"
-                    className="flex flex-col justify-center border border-border"
+                    className="flex flex-col justify-center mt-0.25 border focus:border-muted border-border focus:ring-muted/20"
                     value={checkOutDate}
                     onChange={(e) => setCheckOutDate(e.target.value)}
                     min={getMinCheckoutDate()}
