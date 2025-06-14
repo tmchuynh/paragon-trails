@@ -49,7 +49,7 @@ export interface Activity {
   reviews: number;
   tags: string[];
   ageRestriction: {
-    minimum?: number;
+    minimum: number;
     maximum?: number;
   };
   physicalRequirements: string[];
