@@ -15,9 +15,9 @@ import { cartHelpers, useCart } from "@/context/CartContext";
 import { useCurrency } from "@/context/CurrencyContext";
 import { mockFlights } from "@/data/flights";
 import { formatToSlug } from "@/lib/utils/format";
-import { Plane, Search, Star, Wifi } from "lucide-react";
+import { Plane, RotateCcw, Search, Star, Wifi } from "lucide-react";
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { toast } from "sonner";
 
 export default function FlightsPage() {
@@ -32,30 +32,33 @@ export default function FlightsPage() {
   const [classType, setClassType] = useState("economy");
   const [filteredFlights, setFilteredFlights] = useState(mockFlights);
 
-  const locations = [
-    { value: "JFK", label: "New York (JFK)" },
-    { value: "LAX", label: "Los Angeles (LAX)" },
-    { value: "ATL", label: "Atlanta (ATL)" },
-    { value: "CDG", label: "Paris (CDG)" },
-    { value: "DXB", label: "Dubai (DXB)" },
-    { value: "LHR", label: "London (LHR)" },
-    { value: "SIN", label: "Singapore (SIN)" },
-    { value: "NRT", label: "Tokyo (NRT)" },
-    { value: "MIA", label: "Miami (MIA)" },
-    { value: "GRU", label: "São Paulo (GRU)" },
-    { value: "YVR", label: "Vancouver (YVR)" },
-    { value: "ICN", label: "Seoul (ICN)" },
-  ];
+  // Extract unique locations from mockFlights
+  const locations = Array.from(
+    new Set([
+      ...mockFlights.map(flight => flight.origin),
+      ...mockFlights.map(flight => flight.destination)
+    ].map(location => `${location.code}|${location.city}`))
+  ).map(locationStr => {
+    const [code, city] = locationStr.split('|');
+    return {
+      value: code,
+      label: `${city} (${code})`
+    };
+  }).sort((a, b) => a.label.localeCompare(b.label));
 
   const handleSearch = () => {
     let filtered = mockFlights;
 
     // Filter by origin and destination
     if (fromLocation) {
-      filtered = filtered.filter((flight) => flight.origin.code === fromLocation);
+      filtered = filtered.filter(
+        (flight) => flight.origin.code === fromLocation
+      );
     }
     if (toLocation) {
-      filtered = filtered.filter((flight) => flight.destination.code === toLocation);
+      filtered = filtered.filter(
+        (flight) => flight.destination.code === toLocation
+      );
     }
 
     // Filter by search query (airline, flight number, destination city)
@@ -63,13 +66,38 @@ export default function FlightsPage() {
       filtered = filtered.filter(
         (flight) =>
           flight.airline.toLowerCase().includes(searchQuery.toLowerCase()) ||
-          flight.flightNumber.toLowerCase().includes(searchQuery.toLowerCase()) ||
-          flight.destination.city.toLowerCase().includes(searchQuery.toLowerCase()) ||
+          flight.flightNumber
+            .toLowerCase()
+            .includes(searchQuery.toLowerCase()) ||
+          flight.destination.city
+            .toLowerCase()
+            .includes(searchQuery.toLowerCase()) ||
           flight.origin.city.toLowerCase().includes(searchQuery.toLowerCase())
       );
     }
 
     setFilteredFlights(filtered);
+  };
+
+  // Auto-filter flights whenever filter values change
+  useEffect(() => {
+    handleSearch();
+  }, [
+    searchQuery,
+    fromLocation,
+    toLocation,
+    departureDate,
+    passengers,
+    classType,
+  ]);
+
+  const resetFilters = () => {
+    setSearchQuery("");
+    setFromLocation("");
+    setToLocation("");
+    setDepartureDate("");
+    setPassengers("1");
+    setClassType("economy");
   };
 
   const getFlightPrice = (flight: any) => {
@@ -85,13 +113,14 @@ export default function FlightsPage() {
 
   const handleAddToCart = (flight: any) => {
     const departureBaseDate = departureDate || flight.departure.date;
-    
+
     const flightItem = {
       id: `flight-${formatToSlug(flight.flightNumber)}-${departureBaseDate}-${classType}`,
       type: "flight" as const,
       name: `${flight.airline} ${flight.flightNumber}`,
       description: `${flight.origin.city} to ${flight.destination.city} - ${classType} class`,
-      image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=600&auto=format&fit=crop&q=60",
+      image:
+        "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=600&auto=format&fit=crop&q=60",
       price: getFlightPrice(flight),
       dates: {
         startDate: departureBaseDate,
@@ -106,16 +135,19 @@ export default function FlightsPage() {
     // Check if this exact flight booking already exists
     if (cartHelpers.checkIfDuplicate(cartState.items, flightItem)) {
       // For flights, we should add more passengers instead of creating duplicate
-      const existingItem = cartState.items.find(item => 
-        item.name === flightItem.name &&
-        item.dates.startDate === flightItem.dates.startDate &&
-        item.location === flightItem.location
+      const existingItem = cartState.items.find(
+        (item) =>
+          item.name === flightItem.name &&
+          item.dates.startDate === flightItem.dates.startDate &&
+          item.location === flightItem.location
       );
-      
+
       if (existingItem) {
         const newGuestCount = existingItem.guests + parseInt(passengers);
         cartHelpers.updateGuests(dispatch, existingItem.id, newGuestCount);
-        toast.success(`Added ${passengers} more passenger${parseInt(passengers) > 1 ? 's' : ''} to ${flight.flightNumber}!`);
+        toast.success(
+          `Added ${passengers} more passenger${parseInt(passengers) > 1 ? "s" : ""} to ${flight.flightNumber}!`
+        );
         return;
       }
     }
@@ -199,7 +231,7 @@ export default function FlightsPage() {
             </div>
           </div>
 
-          <div className="gap-4 grid grid-cols-1 md:grid-cols-3">
+          <div className="gap-4 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
             <div className="space-y-2">
               <label className="font-medium text-sm">Search</label>
               <div className="relative">
@@ -228,9 +260,13 @@ export default function FlightsPage() {
             </div>
 
             <div className="flex items-end">
-              <Button onClick={handleSearch} className="w-full">
-                <Plane className="mr-2 w-4 h-4" />
-                Search Flights
+              <Button
+                variant="outline"
+                onClick={resetFilters}
+                className="w-full"
+              >
+                <RotateCcw className="mr-2 w-4 h-4" />
+                Reset Filters
               </Button>
             </div>
           </div>
