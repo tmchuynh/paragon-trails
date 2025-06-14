@@ -25,8 +25,8 @@ import {
   Car,
   Coffee,
   Dumbbell,
-  Filter,
   MapPin,
+  RotateCcw,
   Search,
   Star,
   Users,
@@ -35,7 +35,7 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { toast } from "sonner";
 
 export default function HotelsPage() {
@@ -48,24 +48,26 @@ export default function HotelsPage() {
   const [checkInDate, setCheckInDate] = useState("");
   const [checkOutDate, setCheckOutDate] = useState("");
   const [guests, setGuests] = useState({ adults: 2, children: 0 });
-  const [starRating, setStarRating] = useState([1]);
+  const [starRating, setStarRating] = useState("1");
   const [hotelType, setHotelType] = useState("all");
   const [priceRange, setPriceRange] = useState([0, 2000]);
   const [sortBy, setSortBy] = useState("rating");
   const [filteredHotels, setFilteredHotels] = useState(mockHotels);
 
+  // Extract unique destinations from mockHotels
   const destinations = Array.from(
     new Set(mockHotels.map((hotel) => hotel.location.city))
-  );
+  ).sort();
+
+  // Extract unique hotel types from mockHotels
   const hotelTypes = [
     { value: "all", label: "All Types" },
-    { value: "hotel", label: "Hotel" },
-    { value: "resort", label: "Resort" },
-    { value: "boutique", label: "Boutique" },
-    { value: "villa", label: "Villa" },
-    { value: "hostel", label: "Hostel" },
-    { value: "apartment", label: "Apartment" },
-    { value: "bed-and-breakfast", label: "B&B" },
+    ...Array.from(new Set(mockHotels.map((hotel) => hotel.type)))
+      .sort()
+      .map((type) => ({
+        value: type,
+        label: type.charAt(0).toUpperCase() + type.slice(1),
+      })),
   ];
 
   const handleSearch = () => {
@@ -84,7 +86,7 @@ export default function HotelsPage() {
     }
 
     // Filter by destination
-    if (destination && destination !== "all") {
+    if (destination && destination !== "") {
       filtered = filtered.filter(
         (hotel) =>
           hotel.location.city.toLowerCase() === destination.toLowerCase()
@@ -97,7 +99,11 @@ export default function HotelsPage() {
     }
 
     // Filter by star rating
-    filtered = filtered.filter((hotel) => hotel.starRating >= starRating[0]);
+    if (starRating !== "all") {
+      filtered = filtered.filter(
+        (hotel) => hotel.starRating >= parseInt(starRating)
+      );
+    }
 
     // Filter by price range
     filtered = filtered.filter(
@@ -123,6 +129,33 @@ export default function HotelsPage() {
     });
 
     setFilteredHotels(filtered);
+  };
+
+  // Auto-filter hotels whenever filter values change
+  useEffect(() => {
+    handleSearch();
+  }, [
+    searchQuery,
+    destination,
+    checkInDate,
+    checkOutDate,
+    guests,
+    starRating,
+    hotelType,
+    priceRange,
+    sortBy,
+  ]);
+
+  const resetFilters = () => {
+    setSearchQuery("");
+    setDestination("");
+    setCheckInDate("");
+    setCheckOutDate("");
+    setGuests({ adults: 2, children: 0 });
+    setStarRating("1");
+    setHotelType("all");
+    setPriceRange([0, 2000]);
+    setSortBy("rating");
   };
 
   const handleAddToCart = (hotel: Hotel) => {
@@ -195,7 +228,8 @@ export default function HotelsPage() {
 
         {/* Search Filters */}
         <Card className="mb-8 p-6">
-          <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 mb-6">
+          {/* Primary Filters Row */}
+          <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 mb-4">
             <div className="space-y-2">
               <Label htmlFor="search">Search Hotels</Label>
               <div className="relative">
@@ -217,7 +251,7 @@ export default function HotelsPage() {
                   <SelectValue placeholder="Select destination" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="all">All Destinations</SelectItem>
+                  <SelectItem value="">All Destinations</SelectItem>
                   {destinations.map((dest) => (
                     <SelectItem key={dest} value={dest.toLowerCase()}>
                       {dest}
@@ -286,7 +320,8 @@ export default function HotelsPage() {
             </div>
           </div>
 
-          <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-6">
+          {/* Secondary Filters Row */}
+          <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5">
             <div className="space-y-2">
               <Label>Hotel Type</Label>
               <Select value={hotelType} onValueChange={setHotelType}>
@@ -304,15 +339,19 @@ export default function HotelsPage() {
             </div>
 
             <div className="space-y-2">
-              <Label>Minimum Star Rating: {starRating[0]} stars</Label>
-              <Slider
-                value={starRating}
-                onValueChange={setStarRating}
-                max={5}
-                min={1}
-                step={1}
-                className="w-full"
-              />
+              <Label>Minimum Star Rating</Label>
+              <Select value={starRating} onValueChange={setStarRating}>
+                <SelectTrigger>
+                  <SelectValue placeholder="Select rating" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="1">1+ Stars</SelectItem>
+                  <SelectItem value="2">2+ Stars</SelectItem>
+                  <SelectItem value="3">3+ Stars</SelectItem>
+                  <SelectItem value="4">4+ Stars</SelectItem>
+                  <SelectItem value="5">5 Stars</SelectItem>
+                </SelectContent>
+              </Select>
             </div>
 
             <div className="space-y-2">
@@ -346,13 +385,17 @@ export default function HotelsPage() {
                 </SelectContent>
               </Select>
             </div>
-          </div>
 
-          <div className="flex justify-end">
-            <Button onClick={handleSearch}>
-              <Filter className="mr-2 w-4 h-4" />
-              Search Hotels
-            </Button>
+            <div className="flex items-end">
+              <Button
+                variant="outline"
+                onClick={resetFilters}
+                className="w-full"
+              >
+                <RotateCcw className="mr-2 w-4 h-4" />
+                Reset Filters
+              </Button>
+            </div>
           </div>
         </Card>
 
@@ -361,7 +404,7 @@ export default function HotelsPage() {
           <p className="text-slate-600 dark:text-slate-400">
             Found {filteredHotels.length} hotel
             {filteredHotels.length !== 1 ? "s" : ""}
-            {destination && destination !== "all" && ` in ${destination}`}
+            {destination && destination !== "" && ` in ${destination}`}
           </p>
           {checkInDate && checkOutDate && (
             <p className="text-slate-600">
