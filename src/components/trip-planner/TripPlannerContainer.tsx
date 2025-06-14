@@ -10,6 +10,7 @@ import { useEffect, useState } from "react";
 import ActivityPanel from "./ActivityPanel";
 import TripSetup from "./TripSetup";
 import DayPlanner from "./DayPlanner";
+import TripExport from "./TripExport";
 
 export default function TripPlannerContainer() {
   const [tripPlan, setTripPlan] = useState<TripPlan | null>(null);
@@ -103,7 +104,7 @@ export default function TripPlannerContainer() {
       const updatedDays = [...prevDays];
       const day = updatedDays[dayIndex];
       if (day) {
-        const itemIndex = day.items.findIndex((item) => item.id === itemId);
+        const itemIndex = day.items.findIndex((item: TripItem) => item.id === itemId);
         if (itemIndex !== -1) {
           updatedDays[dayIndex].items[itemIndex].customDuration = duration;
         }
@@ -166,9 +167,12 @@ export default function TripPlannerContainer() {
               </div>
             </div>
           </div>
-          <Button variant="outline" onClick={resetPlanner} className="shrink-0">
-            Start Over
-          </Button>
+          <div className="flex items-center gap-2">
+            <TripExport tripPlan={tripPlan!} days={tripDays} />
+            <Button variant="outline" onClick={resetPlanner} className="shrink-0">
+              Start Over
+            </Button>
+          </div>
         </div>
       </div>
 
