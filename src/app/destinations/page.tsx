@@ -59,7 +59,7 @@ export default function DestinationsPage() {
 
   // Pagination state
   const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage, setItemsPerPage] = useState(9);
+  const [itemsPerPage, setItemsPerPage] = useState(8);
 
   // Get unique values for filters
   const countries = [
@@ -72,7 +72,7 @@ export default function DestinationsPage() {
   const continents = [
     { value: "all", label: "All Continents" },
     ...Array.from(
-      new Set(mockDestinations.map((dest) => dest.continent).filter(Boolean)),
+      new Set(mockDestinations.map((dest) => dest.continent).filter(Boolean))
     )
       .sort()
       .map((continent) => ({ value: continent!, label: continent! })),
@@ -133,7 +133,7 @@ export default function DestinationsPage() {
             .includes(searchQuery.toLowerCase()) ||
           destination.description
             .toLowerCase()
-            .includes(searchQuery.toLowerCase()),
+            .includes(searchQuery.toLowerCase())
       );
     }
 
@@ -145,7 +145,7 @@ export default function DestinationsPage() {
     // Filter by continent
     if (selectedContinent !== "all") {
       filtered = filtered.filter(
-        (dest) => dest.continent === selectedContinent,
+        (dest) => dest.continent === selectedContinent
       );
     }
 
@@ -157,21 +157,21 @@ export default function DestinationsPage() {
     // Filter by language
     if (selectedLanguage !== "all") {
       filtered = filtered.filter((dest) =>
-        dest.language.includes(selectedLanguage),
+        dest.language.includes(selectedLanguage)
       );
     }
 
     // Filter by cuisine
     if (selectedCuisine !== "all") {
       filtered = filtered.filter((dest) =>
-        dest.cuisine.includes(selectedCuisine),
+        dest.cuisine.includes(selectedCuisine)
       );
     }
 
     // Filter by safety level
     if (selectedSafetyLevel !== "all") {
       filtered = filtered.filter(
-        (dest) => dest.safety.level === selectedSafetyLevel,
+        (dest) => dest.safety.level === selectedSafetyLevel
       );
     }
 
@@ -195,7 +195,7 @@ export default function DestinationsPage() {
     filtered = filtered.filter(
       (dest) =>
         dest.pricing.averageDailyBudget >= budgetRange[0] &&
-        dest.pricing.averageDailyBudget <= budgetRange[1],
+        dest.pricing.averageDailyBudget <= budgetRange[1]
     );
 
     // Sort results
@@ -265,7 +265,7 @@ export default function DestinationsPage() {
   const endIndex = startIndex + itemsPerPage;
   const paginatedDestinations = filteredDestinations.slice(
     startIndex,
-    endIndex,
+    endIndex
   );
 
   const handlePageChange = (page: number) => {
@@ -301,7 +301,7 @@ export default function DestinationsPage() {
                     value={selectedCountry}
                     onValueChange={setSelectedCountry}
                   >
-                    <SelectTrigger className="pl-10 w-full">
+                    <SelectTrigger className="pl-10 border border-border w-full">
                       <SelectValue placeholder="Select country" />
                     </SelectTrigger>
                     <SelectContent className="w-full max-h-60">
@@ -322,7 +322,7 @@ export default function DestinationsPage() {
                   value={selectedContinent}
                   onValueChange={setSelectedContinent}
                 >
-                  <SelectTrigger className="w-full">
+                  <SelectTrigger className="border border-border w-full">
                     <SelectValue placeholder="Select continent" />
                   </SelectTrigger>
                   <SelectContent className="w-full max-h-60">
@@ -342,7 +342,7 @@ export default function DestinationsPage() {
                   value={selectedRegion}
                   onValueChange={setSelectedRegion}
                 >
-                  <SelectTrigger className="w-full">
+                  <SelectTrigger className="border border-border w-full">
                     <SelectValue placeholder="Select region" />
                   </SelectTrigger>
                   <SelectContent className="w-full max-h-60">
@@ -360,7 +360,7 @@ export default function DestinationsPage() {
                 <Button
                   onClick={resetFilters}
                   variant="outline"
-                  className="w-full"
+                  className="m-0 p-0 w-full"
                 >
                   <RotateCcw className="mr-2 w-4 h-4" />
                   Reset Filters
@@ -402,7 +402,7 @@ export default function DestinationsPage() {
                       value={selectedLanguage}
                       onValueChange={setSelectedLanguage}
                     >
-                      <SelectTrigger className="w-full">
+                      <SelectTrigger className="border border-border w-full">
                         <SelectValue placeholder="Select language" />
                       </SelectTrigger>
                       <SelectContent className="w-full max-h-60">
@@ -425,7 +425,7 @@ export default function DestinationsPage() {
                       value={selectedCuisine}
                       onValueChange={setSelectedCuisine}
                     >
-                      <SelectTrigger className="w-full">
+                      <SelectTrigger className="border border-border w-full">
                         <SelectValue placeholder="Select cuisine" />
                       </SelectTrigger>
                       <SelectContent className="w-full max-h-60">
@@ -445,7 +445,7 @@ export default function DestinationsPage() {
                       value={selectedSafetyLevel}
                       onValueChange={setSelectedSafetyLevel}
                     >
-                      <SelectTrigger className="w-full">
+                      <SelectTrigger className="border border-border w-full">
                         <SelectValue placeholder="Select safety level" />
                       </SelectTrigger>
                       <SelectContent className="w-full max-h-60">
@@ -462,7 +462,7 @@ export default function DestinationsPage() {
                   <div className="space-y-2">
                     <Label>Tags</Label>
                     <Select value={selectedTag} onValueChange={setSelectedTag}>
-                      <SelectTrigger className="w-full">
+                      <SelectTrigger className="border border-border w-full">
                         <SelectValue placeholder="Select tag" />
                       </SelectTrigger>
                       <SelectContent className="w-full max-h-60">
@@ -482,7 +482,7 @@ export default function DestinationsPage() {
                       value={visaRequired}
                       onValueChange={setVisaRequired}
                     >
-                      <SelectTrigger className="w-full">
+                      <SelectTrigger className="border border-border w-full">
                         <SelectValue placeholder="Visa requirement" />
                       </SelectTrigger>
                       <SelectContent className="w-full max-h-60">
@@ -500,7 +500,7 @@ export default function DestinationsPage() {
                       value={selectedTimezone}
                       onValueChange={setSelectedTimezone}
                     >
-                      <SelectTrigger className="w-full">
+                      <SelectTrigger className="border border-border w-full">
                         <SelectValue placeholder="Select timezone" />
                       </SelectTrigger>
                       <SelectContent className="w-full max-h-60">
@@ -577,7 +577,7 @@ export default function DestinationsPage() {
                     value={itemsPerPage.toString()}
                     onValueChange={(value) => setItemsPerPage(Number(value))}
                   >
-                    <SelectTrigger className="w-20">
+                    <SelectTrigger className="border border-border w-20">
                       <SelectValue />
                     </SelectTrigger>
                     <SelectContent className="w-full max-h-60">
@@ -592,7 +592,7 @@ export default function DestinationsPage() {
 
                 {/* Sort dropdown */}
                 <Select value={sortBy} onValueChange={setSortBy}>
-                  <SelectTrigger className="w-48">
+                  <SelectTrigger className="border border-border w-48">
                     <SelectValue />
                   </SelectTrigger>
                   <SelectContent className="w-full max-h-60">
