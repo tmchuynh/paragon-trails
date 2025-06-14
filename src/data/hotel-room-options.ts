@@ -21,7 +21,7 @@ export const standardRoomOptions: HotelRoom[] = [
     pricing: { baseRate: 80, currency: "USD" },
     availability: true,
     images: [
-      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop",
+      "https://img.freepik.com/free-photo/3d-rendering-luxury-modern-bedroom-suite-hotel-with-tv-cabinet_105762-2276.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&w=740",
     ],
     description: "Comfortable single room perfect for solo travelers",
     features: ["City view", "Work desk", "Mini fridge"],
@@ -46,39 +46,10 @@ export const standardRoomOptions: HotelRoom[] = [
     pricing: { baseRate: 120, currency: "USD" },
     availability: true,
     images: [
-      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop",
+      "https://img.freepik.com/free-photo/3d-rendering-beautiful-luxury-bedroom-suite-hotel-with-tv_105762-2214.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&w=740",
     ],
     description: "Spacious double room ideal for couples",
     features: ["City view", "Work desk", "Mini fridge", "Balcony"],
-  },
-  {
-    id: "standard-triple-room",
-    name: "Triple Room",
-    type: "standard",
-    size: { area: 30, unit: "m²" },
-    capacity: {
-      maxOccupancy: 5,
-      beds: [
-        { type: "Queen", count: 2 },
-        { type: "Twin", count: 1 },
-      ],
-    },
-    amenities: [
-      "Free Wi-Fi",
-      "Air Conditioning",
-      "Private Bathroom",
-      "Smart TV",
-      "Room Service",
-      "Mini Bar",
-      "Coffee Machine",
-    ],
-    pricing: { baseRate: 150, currency: "USD" },
-    availability: true,
-    images: [
-      "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&h=600&fit=crop",
-    ],
-    description: "Comfortable triple room for small groups or families",
-    features: ["City view", "Work desk", "Mini fridge", "Extra seating area"],
   },
   {
     id: "queen-room",
@@ -101,7 +72,7 @@ export const standardRoomOptions: HotelRoom[] = [
     pricing: { baseRate: 165, currency: "USD" },
     availability: true,
     images: [
-      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&h=600&fit=crop",
+      "https://img.freepik.com/free-photo/3d-rendering-luxury-bedroom-suite-hotel-with-tv-cabinet-wardrobe_105762-2292.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&w=740",
     ],
     description: "Elegant queen room with modern amenities",
     features: ["City view", "Sitting area", "Premium linens", "Rain shower"],
@@ -127,7 +98,7 @@ export const standardRoomOptions: HotelRoom[] = [
     pricing: { baseRate: 180, currency: "USD" },
     availability: true,
     images: [
-      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&h=600&fit=crop",
+      "https://img.freepik.com/premium-photo/modern-minimalist-bedroom-design_1310085-55797.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&w=740",
     ],
     description: "Luxurious deluxe room with premium amenities",
     features: [
@@ -162,7 +133,7 @@ export const standardRoomOptions: HotelRoom[] = [
     pricing: { baseRate: 400, currency: "USD" },
     availability: true,
     images: [
-      "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&h=600&fit=crop",
+      "https://img.freepik.com/free-photo/luxury-bedroom-suite-resort-high-rise-hotel-with-working-table_105762-1783.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&w=740",
     ],
     description: "Spacious family suite perfect for larger groups",
     features: [
@@ -194,7 +165,7 @@ export const standardRoomOptions: HotelRoom[] = [
     pricing: { baseRate: 380, currency: "USD" },
     availability: true,
     images: [
-      "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&h=600&fit=crop",
+      "https://img.freepik.com/premium-photo/luxury-bedroom-with-cozy-bedding-elegant-furniture-calm-relaxing-ambiance-ultimate-comfort-style_875722-59106.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&w=740",
     ],
     description: "Premium executive suite with business amenities",
     features: [
@@ -226,7 +197,7 @@ export const standardRoomOptions: HotelRoom[] = [
     pricing: { baseRate: 800, currency: "USD" },
     availability: true,
     images: [
-      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&h=600&fit=crop",
+      "https://img.freepik.com/premium-photo/3d-rendering-luxury-chinese-bedroom-suite-resort-hotel_105762-1096.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&w=740",
     ],
     description: "Ultimate luxury presidential suite experience",
     features: [
@@ -263,7 +234,7 @@ export const standardRoomOptions: HotelRoom[] = [
     pricing: { baseRate: 1200, currency: "USD" },
     availability: true,
     images: [
-      "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&h=600&fit=crop",
+      "https://img.freepik.com/premium-photo/hotel-room-luxury-resort_53876-45479.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&w=740",
     ],
     description: "Luxurious villa suite with private amenities",
     features: [
@@ -300,7 +271,7 @@ export const standardRoomOptions: HotelRoom[] = [
     pricing: { baseRate: 2500, currency: "USD" },
     availability: true,
     images: [
-      "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&h=600&fit=crop",
+      "https://img.freepik.com/premium-photo/penthouse-bedroom-night-dark-gloomy-room-with-view-city-from-bed_359013-3756.jpg?uid=R93718308&ga=GA1.1.1699338801.1739848115&w=740",
     ],
     description: "Exclusive penthouse suite with panoramic views",
     features: [
@@ -310,74 +281,6 @@ export const standardRoomOptions: HotelRoom[] = [
       "Full kitchen",
       "Outdoor dining area",
       "Luxury furnishings",
-    ],
-  },
-  {
-    id: "accessible-room",
-    name: "Accessible Room",
-    type: "standard",
-    size: { area: 25, unit: "m²" },
-    capacity: {
-      maxOccupancy: 2,
-      beds: [{ type: "Queen", count: 1 }],
-    },
-    amenities: [
-      "Free Wi-Fi",
-      "Air Conditioning",
-      "Private Bathroom",
-      "Smart TV",
-      "Room Service",
-      "Mini Bar",
-      "Coffee Machine",
-    ],
-    pricing: { baseRate: 100, currency: "USD" },
-    availability: true,
-    images: [
-      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop",
-    ],
-    description: "Comfortable room designed for accessibility",
-    features: [
-      "Wheelchair accessible",
-      "Grab bars in bathroom",
-      "Wide doorways",
-      "Lowered light switches",
-      "Visual alarms",
-    ],
-  },
-  {
-    id: "adjoining-rooms",
-    name: "Adjoining Rooms",
-    type: "deluxe",
-    size: { area: 60, unit: "m²" },
-    capacity: {
-      maxOccupancy: 7,
-      beds: [
-        { type: "King", count: 1 },
-        { type: "Queen", count: 1 },
-        { type: "Twin", count: 2 },
-      ],
-    },
-    amenities: [
-      "Free Wi-Fi",
-      "Air Conditioning",
-      "Private Bathroom",
-      "Smart TV",
-      "Room Service",
-      "Mini Bar",
-      "Coffee Machine",
-    ],
-    pricing: { baseRate: 300, currency: "USD" },
-    availability: true,
-    images: [
-      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop",
-    ],
-    description: "Two adjoining rooms for larger families or groups",
-    features: [
-      "Connected rooms",
-      "Shared bathroom",
-      "Separate entrances",
-      "Ideal for families",
-      "Extra privacy",
     ],
   },
 ];
