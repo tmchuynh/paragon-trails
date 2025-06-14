@@ -252,6 +252,7 @@ export default function DayPlanner({
                             <SelectItem
                               key={option.value}
                               value={option.value.toString()}
+                              variant="classic"
                             >
                               {option.label}
                             </SelectItem>

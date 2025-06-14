@@ -153,7 +153,11 @@ export default function TripSetup({
               </SelectTrigger>
               <SelectContent>
                 {mockDestinations.map((destination) => (
-                  <SelectItem key={destination.id} value={destination.id}>
+                  <SelectItem
+                    key={destination.id}
+                    value={destination.id}
+                    variant="classic"
+                  >
                     <div className="flex items-center gap-2">
                       <span>{destination.name}</span>
                       <span className="text-gray-500 text-sm">
@@ -191,7 +195,7 @@ export default function TripSetup({
               </SelectTrigger>
               <SelectContent>
                 {availableHotels.map((hotel) => (
-                  <SelectItem key={hotel.id} value={hotel.id}>
+                  <SelectItem key={hotel.id} value={hotel.id} variant="classic">
                     <div className="flex flex-col">
                       <span>{hotel.name}</span>
                       <span className="text-gray-500 text-sm">
@@ -280,7 +284,11 @@ export default function TripSetup({
               </SelectTrigger>
               <SelectContent>
                 {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((count) => (
-                  <SelectItem key={count} value={count.toString()}>
+                  <SelectItem
+                    key={count}
+                    value={count.toString()}
+                    variant="classic"
+                  >
                     {count} {count === 1 ? "guest" : "guests"}
                   </SelectItem>
                 ))}
