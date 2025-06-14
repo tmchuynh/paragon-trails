@@ -42,7 +42,12 @@ export default function FindToursPage() {
   const [selectedType, setSelectedType] = useState<string>("all");
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
   const [selectedDuration, setSelectedDuration] = useState<string>("all");
-  const [priceRange, setPriceRange] = useState([0, 500]);
+
+  // Calculate min and max prices from tours data
+  const minPrice = Math.min(...mockTours.map((tour) => tour.pricing.adult));
+  const maxPrice = Math.max(...mockTours.map((tour) => tour.pricing.adult));
+
+  const [priceRange, setPriceRange] = useState([minPrice, maxPrice]);
   const [sortBy, setSortBy] = useState<string>("name");
 
   // Pagination state
@@ -165,7 +170,7 @@ export default function FindToursPage() {
     setSelectedType("all");
     setSelectedCategory("all");
     setSelectedDuration("all");
-    setPriceRange([0, 500]);
+    setPriceRange([minPrice, maxPrice]);
   };
 
   // Auto-filter when any filter changes
@@ -312,7 +317,7 @@ export default function FindToursPage() {
                         placeholder="Paris tour, museum visit..."
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
-                        className="pl-10 border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                        className="pl-10 focus:border-muted border-border focus:ring-muted/20 h-8"
                       />
                     </div>
                   </div>
@@ -370,8 +375,8 @@ export default function FindToursPage() {
                       <Slider
                         value={priceRange}
                         onValueChange={setPriceRange}
-                        max={500}
-                        min={0}
+                        max={maxPrice}
+                        min={minPrice}
                         step={25}
                         className="w-full"
                       />
