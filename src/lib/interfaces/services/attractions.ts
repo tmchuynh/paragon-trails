@@ -39,9 +39,15 @@ export interface Attraction {
   features: string[];
   accessibility?: {
     wheelchairAccessible: boolean;
-    hearingImpaired: boolean;
-    visuallyImpaired: boolean;
-    languageSupport: string[];
+    blindAccessible?: boolean;
+    deafAccessible?: boolean;
+    signLanguage?: boolean;
+    audioGuides?: boolean;
+    brailleMaterials?: boolean;
+    hearingImpaired?: boolean;
+    visuallyImpaired?: boolean;
+    languageSupport?: string[];
+    notes?: string;
   };
   amenities: string[];
   restrictions: string[];
@@ -63,7 +69,12 @@ export interface Attraction {
     website?: string;
   };
   rating: number;
-  reviews: number;
+  reviews: {
+    rating: number;
+    totalReviews: number;
+    highlights: string[];
+    recentComments?: string[];
+  };
   tags: string[];
   culturalSignificance?: string;
   historicalPeriod?: string;
