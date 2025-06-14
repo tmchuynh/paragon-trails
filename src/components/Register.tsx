@@ -327,37 +327,100 @@ export default function Register() {
                       <SelectTrigger className="pl-10 h-12">
                         <SelectValue placeholder="Select your country" />
                       </SelectTrigger>
-                      <SelectContent className="w-full max-h-60">
-                        <SelectItem value="us">United States</SelectItem>
-                        <SelectItem value="ca">Canada</SelectItem>
-                        <SelectItem value="uk">United Kingdom</SelectItem>
-                        <SelectItem value="fr">France</SelectItem>
-                        <SelectItem value="de">Germany</SelectItem>
-                        <SelectItem value="jp">Japan</SelectItem>
-                        <SelectItem value="au">Australia</SelectItem>
-                        <SelectItem value="in">India</SelectItem>
-                        <SelectItem value="cn">China</SelectItem>
-                        <SelectItem value="br">Brazil</SelectItem>
-                        <SelectItem value="za">South Africa</SelectItem>
-                        <SelectItem value="mx">Mexico</SelectItem>
-                        <SelectItem value="it">Italy</SelectItem>
-                        <SelectItem value="es">Spain</SelectItem>
-                        <SelectItem value="ru">Russia</SelectItem>
-                        <SelectItem value="kr">South Korea</SelectItem>
-                        <SelectItem value="se">Sweden</SelectItem>
-                        <SelectItem value="no">Norway</SelectItem>
-                        <SelectItem value="fi">Finland</SelectItem>
-                        <SelectItem value="dk">Denmark</SelectItem>
-                        <SelectItem value="nl">Netherlands</SelectItem>
-                        <SelectItem value="pl">Poland</SelectItem>
-                        <SelectItem value="ch">Switzerland</SelectItem>
-                        <SelectItem value="be">Belgium</SelectItem>
-                        <SelectItem value="at">Austria</SelectItem>
-                        <SelectItem value="pt">Portugal</SelectItem>
-                        <SelectItem value="gr">Greece</SelectItem>
-                        <SelectItem value="tr">Turkey</SelectItem>
-                        <SelectItem value="ar">Argentina</SelectItem>
-                        <SelectItem value="cl">Chile</SelectItem>
+                      <SelectContent
+                        className="w-full max-h-60"
+                        variant="professional"
+                      >
+                        <SelectItem value="us" variant="classic">
+                          United States
+                        </SelectItem>
+                        <SelectItem value="ca" variant="classic">
+                          Canada
+                        </SelectItem>
+                        <SelectItem value="uk" variant="classic">
+                          United Kingdom
+                        </SelectItem>
+                        <SelectItem value="fr" variant="classic">
+                          France
+                        </SelectItem>
+                        <SelectItem value="de" variant="classic">
+                          Germany
+                        </SelectItem>
+                        <SelectItem value="jp" variant="classic">
+                          Japan
+                        </SelectItem>
+                        <SelectItem value="au" variant="classic">
+                          Australia
+                        </SelectItem>
+                        <SelectItem value="in" variant="classic">
+                          India
+                        </SelectItem>
+                        <SelectItem value="cn" variant="classic">
+                          China
+                        </SelectItem>
+                        <SelectItem value="br" variant="classic">
+                          Brazil
+                        </SelectItem>
+                        <SelectItem value="za" variant="classic">
+                          South Africa
+                        </SelectItem>
+                        <SelectItem value="mx" variant="classic">
+                          Mexico
+                        </SelectItem>
+                        <SelectItem value="it" variant="classic">
+                          Italy
+                        </SelectItem>
+                        <SelectItem value="es" variant="classic">
+                          Spain
+                        </SelectItem>
+                        <SelectItem value="ru" variant="classic">
+                          Russia
+                        </SelectItem>
+                        <SelectItem value="kr" variant="classic">
+                          South Korea
+                        </SelectItem>
+                        <SelectItem value="se" variant="classic">
+                          Sweden
+                        </SelectItem>
+                        <SelectItem value="no" variant="classic">
+                          Norway
+                        </SelectItem>
+                        <SelectItem value="fi" variant="classic">
+                          Finland
+                        </SelectItem>
+                        <SelectItem value="dk" variant="classic">
+                          Denmark
+                        </SelectItem>
+                        <SelectItem value="nl" variant="classic">
+                          Netherlands
+                        </SelectItem>
+                        <SelectItem value="pl" variant="classic">
+                          Poland
+                        </SelectItem>
+                        <SelectItem value="ch" variant="classic">
+                          Switzerland
+                        </SelectItem>
+                        <SelectItem value="be" variant="classic">
+                          Belgium
+                        </SelectItem>
+                        <SelectItem value="at" variant="classic">
+                          Austria
+                        </SelectItem>
+                        <SelectItem value="pt" variant="classic">
+                          Portugal
+                        </SelectItem>
+                        <SelectItem value="gr" variant="classic">
+                          Greece
+                        </SelectItem>
+                        <SelectItem value="tr" variant="classic">
+                          Turkey
+                        </SelectItem>
+                        <SelectItem value="ar" variant="classic">
+                          Argentina
+                        </SelectItem>
+                        <SelectItem value="cl" variant="classic">
+                          Chile
+                        </SelectItem>
                       </SelectContent>
                     </Select>
                   </div>
