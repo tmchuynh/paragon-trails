@@ -98,7 +98,7 @@ export default function FindToursPage() {
             .includes(searchQuery.toLowerCase()) ||
           tour.location.country
             .toLowerCase()
-            .includes(searchQuery.toLowerCase())
+            .includes(searchQuery.toLowerCase()),
       );
     }
 
@@ -110,7 +110,7 @@ export default function FindToursPage() {
     // Filter by country
     if (selectedCountry !== "all") {
       filtered = filtered.filter(
-        (tour) => tour.location.country === selectedCountry
+        (tour) => tour.location.country === selectedCountry,
       );
     }
 
@@ -133,7 +133,7 @@ export default function FindToursPage() {
     filtered = filtered.filter(
       (tour) =>
         tour.pricing.adult >= priceRange[0] &&
-        tour.pricing.adult <= priceRange[1]
+        tour.pricing.adult <= priceRange[1],
     );
 
     // Sort results
@@ -475,7 +475,7 @@ export default function FindToursPage() {
                       className="group hover:shadow-xl p-0 transition-all cursor-pointer overflow-hidden"
                       onClick={() =>
                         router.push(
-                          `/tours/${tour.id.toLowerCase().replace(/\s+/g, "-")}`
+                          `/tours/${tour.id.toLowerCase().replace(/\s+/g, "-")}`,
                         )
                       }
                     >
@@ -594,7 +594,7 @@ export default function FindToursPage() {
                                 </PaginationLink>
                               </PaginationItem>
                             );
-                          }
+                          },
                         )}
 
                         {totalPages > 5 && currentPage < totalPages - 2 && (
