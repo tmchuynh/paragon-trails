@@ -39,7 +39,7 @@ export function toTitleCase(str: string): string {
 export function formatCurrency(
   amount: number,
   currency: string = "USD",
-  locale: string = "en-US"
+  locale: string = "en-US",
 ): string {
   return new Intl.NumberFormat(locale, {
     style: "currency",
@@ -55,7 +55,7 @@ export function formatCurrency(
  */
 export function formatDate(
   date: string | Date,
-  locale: string = "en-US"
+  locale: string = "en-US",
 ): string {
   const dateObj = typeof date === "string" ? new Date(date) : date;
   return dateObj.toLocaleDateString(locale, {

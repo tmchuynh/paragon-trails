@@ -18,7 +18,7 @@ export function isValidDate(date: string): boolean {
 
 export function isValidPostalCode(
   postalCode: string,
-  country: string
+  country: string,
 ): boolean {
   const postalCodeRegexes: { [key: string]: RegExp } = {
     US: /^\d{5}(-\d{4})?$/,

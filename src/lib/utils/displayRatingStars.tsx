@@ -19,7 +19,7 @@ interface DisplayRatingStarsOptions {
 export function displayRatingStars(
   rating: number,
   maxRating: number = 5,
-  options?: DisplayRatingStarsOptions
+  options?: DisplayRatingStarsOptions,
 ) {
   // Default options
   const {
@@ -52,9 +52,9 @@ export function displayRatingStars(
         className={cn(
           sizeClasses[size],
           i <= rating ? "text-yellow-500 fill-yellow-500" : "text-gray-300",
-          "inline"
+          "inline",
         )}
-      />
+      />,
     );
   }
 
@@ -63,7 +63,7 @@ export function displayRatingStars(
       className={cn(
         "flex items-center gap-1",
         alignClasses[align],
-        containerClassName
+        containerClassName,
       )}
     >
       {stars}
