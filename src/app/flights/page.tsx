@@ -1,8 +1,8 @@
 "use client";
 
-import { Badge } from "@/components/ui/badge";
+import FlightCard from "@/components/cards/FlightCard";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import {
@@ -26,21 +26,11 @@ import { cartHelpers, useCart } from "@/context/CartContext";
 import { useCurrency } from "@/context/CurrencyContext";
 import { mockFlights } from "@/data/flights";
 import { formatToSlug } from "@/lib/utils/format";
-import {
-  Filter,
-  Plane,
-  RotateCcw,
-  Search,
-  SlidersHorizontal,
-  Star,
-  Wifi,
-} from "lucide-react";
-import { useRouter } from "next/navigation";
+import { Filter, Plane, RotateCcw, Search } from "lucide-react";
 import { useEffect, useState } from "react";
 import { toast } from "sonner";
 
 export default function FlightsPage() {
-  const router = useRouter();
   const { formatPrice } = useCurrency();
   const { state: cartState, dispatch } = useCart();
 
@@ -85,7 +75,7 @@ export default function FlightsPage() {
   const { min: minPrice, max: maxPrice } = getPriceRange();
   const [priceRange, setPriceRange] = useState([minPrice, maxPrice]);
   const [sortBy, setSortBy] = useState<string>("price-low");
-  const [showFilters, setShowFilters] = useState(true);
+  const [showFilters, setShowFilters] = useState(false);
 
   // Pagination state
   const [currentPage, setCurrentPage] = useState(1);
@@ -129,10 +119,10 @@ export default function FlightsPage() {
 
   const timeRanges = [
     { value: "all", label: "Any Time" },
-    { value: "morning", label: "Morning (6:00 - 12:00)" },
-    { value: "afternoon", label: "Afternoon (12:00 - 18:00)" },
-    { value: "evening", label: "Evening (18:00 - 24:00)" },
-    { value: "overnight", label: "Overnight (0:00 - 6:00)" },
+    { value: "morning", label: "Morning (6:00 AM - 12:00 PM)" },
+    { value: "afternoon", label: "Afternoon (12:00 PM - 6:00 PM)" },
+    { value: "evening", label: "Evening (6:00 PM - 12:00 AM)" },
+    { value: "overnight", label: "Overnight (12:00 AM - 6:00 AM)" },
   ];
 
   // Extract unique locations from mockFlights
@@ -356,6 +346,27 @@ export default function FlightsPage() {
     setPriceRange([min, max]);
   }, [classType]);
 
+  // Set responsive filter visibility
+  useEffect(() => {
+    const handleResize = () => {
+      // Show filters by default on large screens (lg breakpoint is 1024px)
+      if (window.innerWidth >= 1024) {
+        setShowFilters(true);
+      } else {
+        setShowFilters(false);
+      }
+    };
+
+    // Set initial state
+    handleResize();
+
+    // Add event listener
+    window.addEventListener("resize", handleResize);
+
+    // Cleanup
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   // Reset to page 1 when items per page changes
   useEffect(() => {
     setCurrentPage(1);
@@ -520,7 +531,7 @@ export default function FlightsPage() {
         </Card>
 
         <div
-          className={`gap-8 grid ${showFilters ? "lg:grid-cols-4" : "lg:grid-cols-1"}`}
+          className={`gap-8 grid grid-cols-1 ${showFilters ? "lg:grid-cols-4" : "lg:grid-cols-1"}`}
         >
           {/* Filters Sidebar */}
           {showFilters && (
@@ -554,7 +565,7 @@ export default function FlightsPage() {
                         type="date"
                         value={departureDate}
                         onChange={(e) => setDepartureDate(e.target.value)}
-                        className="border border-border"
+                        className="flex flex-col justify-center mt-0.25 border focus:border-muted border-border focus:ring-muted/20"
                         min={new Date().toISOString().split("T")[0]}
                       />
                     </div>
@@ -566,7 +577,7 @@ export default function FlightsPage() {
                         type="date"
                         value={arrivalDate}
                         onChange={(e) => setArrivalDate(e.target.value)}
-                        className="border border-border"
+                        className="flex flex-col justify-center mt-0.25 border focus:border-muted border-border focus:ring-muted/20"
                         min={
                           departureDate ||
                           new Date().toISOString().split("T")[0]
@@ -791,33 +802,28 @@ export default function FlightsPage() {
 
           {/* Flights List */}
           <div className={showFilters ? "lg:col-span-3" : "lg:col-span-1"}>
-            <div className="flex justify-between items-center mb-6">
-              <p className="text-slate-600 dark:text-slate-400">
+            <div className="flex md:flex-row flex-col justify-between items-center mb-6">
+              <div className="md:w-1/4 text-center text-slate-600 text-wrap md:text-start dark:text-slate-400">
                 {filteredFlights.length} flight
                 {filteredFlights.length !== 1 ? "s" : ""} found
                 {filteredFlights.length > 0 && (
-                  <span className="ml-2">
-                    (Showing {startIndex + 1}-
+                  <p>
+                    (Showing {startIndex + 1}-{" "}
                     {Math.min(endIndex, filteredFlights.length)} of{" "}
                     {filteredFlights.length})
-                  </span>
+                  </p>
                 )}
-              </p>
+              </div>
 
-              <div className="flex items-center gap-4">
+              <div className="flex md:flex-row flex-col items-center md:items-end gap-4 mt-2 md:mt-0 w-full md:w-auto">
                 {/* Items per page dropdown */}
-                <div className="flex items-center gap-2">
-                  <Label
-                    htmlFor="items-per-page"
-                    className="text-sm whitespace-nowrap"
-                  >
-                    Show:
-                  </Label>
+                <div className="flex flex-col items-center w-4/5 md:w-auto">
+                  <Label className="text-sm whitespace-nowrap">Show:</Label>
                   <Select
                     value={itemsPerPage.toString()}
                     onValueChange={(value) => setItemsPerPage(Number(value))}
                   >
-                    <SelectTrigger className="border border-border w-20">
+                    <SelectTrigger className="border border-border w-full md:w-20">
                       <SelectValue />
                     </SelectTrigger>
                     <SelectContent className="w-full max-h-60">
@@ -831,32 +837,35 @@ export default function FlightsPage() {
                 </div>
 
                 {/* Sort dropdown */}
-                <Select value={sortBy} onValueChange={setSortBy}>
-                  <SelectTrigger className="border border-border w-48">
-                    <SelectValue />
-                  </SelectTrigger>
-                  <SelectContent className="w-full max-h-60">
-                    <SelectItem value="price-low">
-                      Price: Low to High
-                    </SelectItem>
-                    <SelectItem value="price-high">
-                      Price: High to Low
-                    </SelectItem>
-                    <SelectItem value="rating">Highest Rated</SelectItem>
-                    <SelectItem value="duration">Duration</SelectItem>
-                    <SelectItem value="departure">Departure Time</SelectItem>
-                    <SelectItem value="airline">Airline (A-Z)</SelectItem>
-                  </SelectContent>
-                </Select>
+                <div className="flex flex-col items-center w-4/5 md:w-auto">
+                  <Label className="text-sm whitespace-nowrap">Sort By:</Label>
+                  <Select value={sortBy} onValueChange={setSortBy}>
+                    <SelectTrigger className="border border-border w-full md:w-48">
+                      <SelectValue />
+                    </SelectTrigger>
+                    <SelectContent className="w-full max-h-60">
+                      <SelectItem value="price-low">
+                        Price: Low to High
+                      </SelectItem>
+                      <SelectItem value="price-high">
+                        Price: High to Low
+                      </SelectItem>
+                      <SelectItem value="rating">Highest Rated</SelectItem>
+                      <SelectItem value="duration">Duration</SelectItem>
+                      <SelectItem value="departure">Departure Time</SelectItem>
+                      <SelectItem value="airline">Airline (A-Z)</SelectItem>
+                    </SelectContent>
+                  </Select>
+                </div>
 
                 {/* Toggle Filters Button */}
                 <Button
                   variant="outline"
                   size="sm"
                   onClick={() => setShowFilters(!showFilters)}
-                  className="flex items-center gap-2"
+                  className="flex items-center gap-2 m-0.5 w-4/5 md:w-auto"
                 >
-                  <SlidersHorizontal className="w-4 h-4" />
+                  <Filter className="w-4 h-4" />
                   {showFilters ? "Hide Filters" : "Show Filters"}
                 </Button>
               </div>
@@ -877,157 +886,13 @@ export default function FlightsPage() {
               <>
                 <div className="space-y-4">
                   {paginatedFlights.map((flight) => (
-                    <Card
+                    <FlightCard
                       key={flight.id}
-                      className="hover:shadow-lg transition-shadow cursor-pointer"
-                      onClick={() => router.push(`/flights/${flight.id}`)}
-                    >
-                      <CardContent className="p-6">
-                        <div className="gap-6 grid grid-cols-1 lg:grid-cols-4">
-                          {/* Flight Info */}
-                          <div className="lg:col-span-2">
-                            <div className="flex items-center gap-3 mb-4">
-                              <div className="flex justify-center items-center bg-blue-100 dark:bg-blue-900 rounded-full w-8 h-8">
-                                <Plane className="w-4 h-4 text-blue-600 dark:text-blue-300" />
-                              </div>
-                              <div>
-                                <h3 className="font-semibold text-lg">
-                                  {flight.airline}
-                                </h3>
-                                <p className="text-slate-600 text-sm">
-                                  {flight.flightNumber} • {flight.aircraft}
-                                </p>
-                              </div>
-                            </div>
-
-                            <div className="flex items-center gap-4">
-                              <div className="text-center">
-                                <p className="font-bold text-xl">
-                                  {flight.departure.time}
-                                </p>
-                                <p className="font-medium text-sm">
-                                  {flight.origin.code}
-                                </p>
-                                <p className="text-slate-600 text-xs">
-                                  {flight.origin.city}
-                                </p>
-                              </div>
-
-                              <div className="relative flex-1">
-                                <div className="border-slate-300 border-t-2"></div>
-                                <div className="top-[-8px] left-1/2 absolute bg-slate-300 rounded-full w-4 h-4 transform -translate-x-1/2"></div>
-                                <p className="mt-1 font-medium text-center text-slate-600 text-sm">
-                                  {flight.duration}
-                                </p>
-                                {flight.stops > 0 && (
-                                  <p className="text-center text-slate-500 text-xs">
-                                    {flight.stops} stop
-                                    {flight.stops > 1 ? "s" : ""}
-                                  </p>
-                                )}
-                              </div>
-
-                              <div className="text-center">
-                                <p className="font-bold text-xl">
-                                  {flight.arrival.time}
-                                </p>
-                                <p className="font-medium text-sm">
-                                  {flight.destination.code}
-                                </p>
-                                <p className="text-slate-600 text-xs">
-                                  {flight.destination.city}
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-
-                          {/* Amenities */}
-                          <div>
-                            <h4 className="mb-3 font-semibold text-sm">
-                              Amenities
-                            </h4>
-                            <div className="flex flex-wrap gap-2">
-                              {flight.amenities
-                                .slice(0, 3)
-                                .map((amenity, index) => (
-                                  <Badge
-                                    key={index}
-                                    variant="secondary"
-                                    className="text-xs"
-                                  >
-                                    {amenity === "In-flight Wi-Fi" && (
-                                      <Wifi className="mr-1 w-3 h-3" />
-                                    )}
-                                    {amenity}
-                                  </Badge>
-                                ))}
-                              {flight.amenities.length > 3 && (
-                                <Badge variant="outline" className="text-xs">
-                                  +{flight.amenities.length - 3} more
-                                </Badge>
-                              )}
-                            </div>
-
-                            <div className="flex items-center gap-1 mt-3">
-                              <Star className="w-4 h-4 text-yellow-400 fill-yellow-400" />
-                              <span className="font-medium text-sm">
-                                {flight.rating}
-                              </span>
-                              <span className="text-slate-600 text-xs">
-                                ({flight.reviews} reviews)
-                              </span>
-                            </div>
-                          </div>
-
-                          {/* Price and Book */}
-                          <div className="text-right flex lg:flex-col justify-between lg:justify-center items-center lg:items-end">
-                            <div>
-                              <p className="font-bold text-2xl text-blue-600">
-                                {formatPrice(getFlightPrice(flight))}
-                              </p>
-                              <p className="text-slate-600 text-sm capitalize">
-                                per person • {classType}
-                              </p>
-                              <div className="mt-2">
-                                {flight.availability[
-                                  classType as keyof typeof flight.availability
-                                ] > 0 ? (
-                                  <Badge
-                                    variant="outline"
-                                    className="text-green-600"
-                                  >
-                                    {
-                                      flight.availability[
-                                        classType as keyof typeof flight.availability
-                                      ]
-                                    }{" "}
-                                    seats left
-                                  </Badge>
-                                ) : (
-                                  <Badge variant="destructive">Sold out</Badge>
-                                )}
-                              </div>
-                            </div>
-
-                            <Button
-                              onClick={() => handleAddToCart(flight)}
-                              disabled={
-                                flight.availability[
-                                  classType as keyof typeof flight.availability
-                                ] === 0
-                              }
-                              className="mt-4 lg:mt-auto"
-                            >
-                              {flight.availability[
-                                classType as keyof typeof flight.availability
-                              ] === 0
-                                ? "Sold Out"
-                                : "Add to Cart"}
-                            </Button>
-                          </div>
-                        </div>
-                      </CardContent>
-                    </Card>
+                      flight={flight}
+                      classType={classType}
+                      flightPrice={getFlightPrice(flight)}
+                      handleAddToCart={handleAddToCart}
+                    />
                   ))}
                 </div>
 
