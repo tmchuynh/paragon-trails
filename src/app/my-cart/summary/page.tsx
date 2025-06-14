@@ -335,6 +335,7 @@ export default function CartSummaryPage() {
                 <div className="flex items-start space-x-2">
                   <Checkbox
                     id="terms"
+                    className="data-[state=checked]:bg-accent dark:data-[state=checked]:bg-accent data-[state=checked]:border-accent data-[state=checked]:text-accent-foreground"
                     checked={termsAccepted}
                     onCheckedChange={(checked) =>
                       setTermsAccepted(checked === true)
