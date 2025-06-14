@@ -403,7 +403,7 @@ export default function FlightDetailsPage() {
                     value={departureDate}
                     onChange={(e) => setDepartureDate(e.target.value)}
                     min={new Date().toISOString().split("T")[0]}
-                    className="flex flex-col justify-center"
+                    className="flex flex-col justify-center mt-0.25 border focus:border-muted border-border focus:ring-muted/20"
                   />
                 </div>
 
@@ -417,7 +417,7 @@ export default function FlightDetailsPage() {
                     min={
                       departureDate || new Date().toISOString().split("T")[0]
                     }
-                    className="flex flex-col justify-center"
+                    className="flex flex-col justify-center mt-0.25 border focus:border-muted border-border focus:ring-muted/20"
                   />
                 </div>
 
