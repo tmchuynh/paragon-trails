@@ -239,7 +239,7 @@ export default function HomePage() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <Button variant="secondary">Book Now</Button>
+                <Button variant="classic">Book Now</Button>
               </CardContent>
             </Card>
 
