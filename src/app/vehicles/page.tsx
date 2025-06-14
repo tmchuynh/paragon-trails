@@ -27,6 +27,7 @@ import { mockVehicles } from "@/data/vehicles";
 import { Vehicle } from "@/lib/interfaces/services/vehicles";
 import { Car, Filter, MapPin, RotateCcw, Search } from "lucide-react";
 import { useEffect, useState } from "react";
+import { FaFilter } from "react-icons/fa";
 
 export default function VehiclesPage() {
   const [filteredVehicles, setFilteredVehicles] =
@@ -39,16 +40,21 @@ export default function VehiclesPage() {
   const [selectedFuelType, setSelectedFuelType] = useState<string>("all");
   const [selectedSeatingCapacity, setSelectedSeatingCapacity] =
     useState<string>("all");
-  
+
   // Calculate min and max prices from vehicles data
-  const minPrice = Math.min(...mockVehicles.map(vehicle => vehicle.pricing.daily));
-  const maxPrice = Math.max(...mockVehicles.map(vehicle => vehicle.pricing.daily));
-  
+  const minPrice = Math.min(
+    ...mockVehicles.map((vehicle) => vehicle.pricing.daily)
+  );
+  const maxPrice = Math.max(
+    ...mockVehicles.map((vehicle) => vehicle.pricing.daily)
+  );
+
   const [priceRange, setPriceRange] = useState([minPrice, maxPrice]);
   const [selectedLocation, setSelectedLocation] = useState<string>("all");
   const [pickupDate, setPickupDate] = useState("");
   const [returnDate, setReturnDate] = useState("");
   const [sortBy, setSortBy] = useState<string>("price-low");
+  const [showFilters, setShowFilters] = useState(true);
 
   // Pagination state
   const [currentPage, setCurrentPage] = useState(1);
@@ -126,8 +132,8 @@ export default function VehiclesPage() {
       new Set(
         mockVehicles
           .filter((vehicle) => vehicle.specifications?.fuelType)
-          .map((vehicle) => vehicle.specifications.fuelType!),
-      ),
+          .map((vehicle) => vehicle.specifications.fuelType!)
+      )
     )
       .sort()
       .map((fuelType) => ({ value: fuelType, label: fuelType })),
@@ -140,10 +146,10 @@ export default function VehiclesPage() {
       new Set(
         mockVehicles
           .filter(
-            (vehicle) => vehicle.specifications?.seatingCapacity !== undefined,
+            (vehicle) => vehicle.specifications?.seatingCapacity !== undefined
           )
-          .map((vehicle) => vehicle.specifications.seatingCapacity!.toString()),
-      ),
+          .map((vehicle) => vehicle.specifications.seatingCapacity!.toString())
+      )
     )
       .sort((a, b) => parseInt(a) - parseInt(b))
       .map((capacity) => ({
@@ -172,7 +178,7 @@ export default function VehiclesPage() {
         (vehicle) =>
           vehicle.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
           vehicle.brand.toLowerCase().includes(searchQuery.toLowerCase()) ||
-          vehicle.model.toLowerCase().includes(searchQuery.toLowerCase()),
+          vehicle.model.toLowerCase().includes(searchQuery.toLowerCase())
       );
     }
 
@@ -194,14 +200,14 @@ export default function VehiclesPage() {
     // Filter by year
     if (selectedYear !== "all") {
       filtered = filtered.filter(
-        (vehicle) => vehicle.year.toString() === selectedYear,
+        (vehicle) => vehicle.year.toString() === selectedYear
       );
     }
 
     // Filter by fuel type
     if (selectedFuelType !== "all") {
       filtered = filtered.filter(
-        (vehicle) => vehicle.specifications?.fuelType === selectedFuelType,
+        (vehicle) => vehicle.specifications?.fuelType === selectedFuelType
       );
     }
 
@@ -210,18 +216,18 @@ export default function VehiclesPage() {
       filtered = filtered.filter(
         (vehicle) =>
           vehicle.specifications?.seatingCapacity?.toString() ===
-          selectedSeatingCapacity,
+          selectedSeatingCapacity
       );
     }
 
     // Filter by location
     if (selectedLocation !== "all") {
       const locationName = locations.find(
-        (loc) => loc.value === selectedLocation,
+        (loc) => loc.value === selectedLocation
       )?.label;
       if (locationName) {
         filtered = filtered.filter((vehicle) =>
-          vehicle.availability.locations.includes(locationName),
+          vehicle.availability.locations.includes(locationName)
         );
       }
     }
@@ -230,7 +236,7 @@ export default function VehiclesPage() {
     filtered = filtered.filter(
       (vehicle) =>
         vehicle.pricing.daily >= priceRange[0] &&
-        vehicle.pricing.daily <= priceRange[1],
+        vehicle.pricing.daily <= priceRange[1]
     );
 
     // Sort results
@@ -405,216 +411,215 @@ export default function VehiclesPage() {
           </CardContent>
         </Card>
 
-        <div className="gap-8 grid lg:grid-cols-4">
+        <div
+          className={`gap-8 grid grid-cols-1 ${showFilters ? "lg:grid-cols-4" : "lg:grid-cols-1"}`}
+        >
           {/* Filters Sidebar */}
-          <div className="space-y-6 lg:col-span-1">
-            <Card className="p-0">
-              <CardContent className="p-6">
-                <div className="flex items-center gap-2 mb-4">
-                  <Filter className="w-5 h-5" />
-                  <h3 className="font-semibold text-lg">Filters</h3>
-                </div>
-
-                <div className="space-y-6">
-                  {/* Search by Name */}
-                  <div className="space-y-2">
-                    <Label>Search Vehicles</Label>
-                    <div className="relative">
-                      <Search className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
-                      <Input
-                        placeholder="BMW, Tesla, Harley..."
-                        value={searchQuery}
-                        onChange={(e) => setSearchQuery(e.target.value)}
-                        className="pl-10 focus:border-muted border-border focus:ring-muted/20 h-8"
-                      />
-                    </div>
+          {showFilters && (
+            <div className="space-y-6 lg:col-span-1">
+              <Card className="p-0">
+                <CardContent className="p-6">
+                  <div className="flex items-center gap-2 mb-4">
+                    <Filter className="w-5 h-5" />
+                    <h3 className="font-semibold text-lg">Filters</h3>
                   </div>
 
-                  {/* Vehicle Type */}
-                  <div className="space-y-2">
-                    <Label>Vehicle Type</Label>
-                    <Select
-                      value={selectedType}
-                      onValueChange={handleTypeChange}
-                    >
-                      <SelectTrigger className="border border-border w-full">
-                        <SelectValue />
-                      </SelectTrigger>
-                      <SelectContent className="w-full max-h-60">
-                        {vehicleTypes.map((type) => (
-                          <SelectItem key={type.value} value={type.value}>
-                            {type.label}
-                          </SelectItem>
-                        ))}
-                      </SelectContent>
-                    </Select>
-                  </div>
-
-                  {/* Vehicle Brand */}
-                  <div className="space-y-2">
-                    <Label>Brand</Label>
-                    <Select
-                      value={selectedBrand}
-                      onValueChange={handleBrandChange}
-                    >
-                      <SelectTrigger className="border border-border w-full">
-                        <SelectValue />
-                      </SelectTrigger>
-                      <SelectContent className="w-full max-h-60">
-                        {getAvailableBrands().map((brand) => (
-                          <SelectItem key={brand.value} value={brand.value}>
-                            {brand.label}
-                          </SelectItem>
-                        ))}
-                      </SelectContent>
-                    </Select>
-                  </div>
-
-                  {/* Vehicle Model */}
-                  <div className="space-y-2">
-                    <Label>Model</Label>
-                    <Select
-                      value={selectedModel}
-                      onValueChange={handleModelChange}
-                    >
-                      <SelectTrigger className="border border-border w-full">
-                        <SelectValue />
-                      </SelectTrigger>
-                      <SelectContent className="w-full max-h-60">
-                        {getAvailableModels().map((model) => (
-                          <SelectItem key={model.value} value={model.value}>
-                            {model.label}
-                          </SelectItem>
-                        ))}
-                      </SelectContent>
-                    </Select>
-                  </div>
-
-                  {/* Vehicle Year */}
-                  <div className="space-y-2">
-                    <Label>Year</Label>
-                    <Select
-                      value={selectedYear}
-                      onValueChange={setSelectedYear}
-                    >
-                      <SelectTrigger className="border border-border w-full">
-                        <SelectValue />
-                      </SelectTrigger>
-                      <SelectContent className="w-full max-h-60">
-                        {getAvailableYears().map((year) => (
-                          <SelectItem key={year.value} value={year.value}>
-                            {year.label}
-                          </SelectItem>
-                        ))}
-                      </SelectContent>
-                    </Select>
-                  </div>
-
-                  {/* Fuel Type */}
-                  <div className="space-y-2">
-                    <Label>Fuel Type</Label>
-                    <Select
-                      value={selectedFuelType}
-                      onValueChange={setSelectedFuelType}
-                    >
-                      <SelectTrigger className="border border-border w-full">
-                        <SelectValue />
-                      </SelectTrigger>
-                      <SelectContent className="w-full max-h-60">
-                        {fuelTypes.map((fuel) => (
-                          <SelectItem key={fuel.value} value={fuel.value}>
-                            {fuel.label}
-                          </SelectItem>
-                        ))}
-                      </SelectContent>
-                    </Select>
-                  </div>
-
-                  {/* Seating Capacity */}
-                  <div className="space-y-2">
-                    <Label>Seating Capacity</Label>
-                    <Select
-                      value={selectedSeatingCapacity}
-                      onValueChange={setSelectedSeatingCapacity}
-                    >
-                      <SelectTrigger className="border border-border w-full">
-                        <SelectValue />
-                      </SelectTrigger>
-                      <SelectContent className="w-full max-h-60">
-                        {seatingCapacities.map((capacity) => (
-                          <SelectItem
-                            key={capacity.value}
-                            value={capacity.value}
-                          >
-                            {capacity.label}
-                          </SelectItem>
-                        ))}
-                      </SelectContent>
-                    </Select>
-                  </div>
-
-                  {/* Price Range */}
-                  <div className="space-y-2">
-                    <Label>Daily Price Range</Label>
-                    <div className="px-2 py-4">
-                      <Slider
-                        value={priceRange}
-                        onValueChange={setPriceRange}
-                        max={maxPrice}
-                        min={minPrice}
-                        step={25}
-                        className="w-full"
-                      />
-                      <div className="flex justify-between mt-2 text-slate-600 text-sm">
-                        <span>${priceRange[0]}</span>
-                        <span>${priceRange[1]}</span>
+                  <div className="space-y-6">
+                    {/* Search by Name */}
+                    <div className="space-y-2">
+                      <Label>Search Vehicles</Label>
+                      <div className="relative">
+                        <Search className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
+                        <Input
+                          placeholder="BMW, Tesla, Harley..."
+                          value={searchQuery}
+                          onChange={(e) => setSearchQuery(e.target.value)}
+                          className="pl-10 focus:border-muted border-border focus:ring-muted/20 h-8"
+                        />
                       </div>
                     </div>
-                  </div>
 
-                  {/* Apply Filters Button */}
-                  <Button
-                    onClick={resetFilters}
-                    className="w-full"
-                    variant="outline"
-                  >
-                    <RotateCcw className="mr-2 w-4 h-4" />
-                    Reset Filters
-                  </Button>
-                </div>
-              </CardContent>
-            </Card>
-          </div>
+                    {/* Vehicle Type */}
+                    <div className="space-y-2">
+                      <Label>Vehicle Type</Label>
+                      <Select
+                        value={selectedType}
+                        onValueChange={handleTypeChange}
+                      >
+                        <SelectTrigger className="border border-border w-full">
+                          <SelectValue />
+                        </SelectTrigger>
+                        <SelectContent className="w-full max-h-60">
+                          {vehicleTypes.map((type) => (
+                            <SelectItem key={type.value} value={type.value}>
+                              {type.label}
+                            </SelectItem>
+                          ))}
+                        </SelectContent>
+                      </Select>
+                    </div>
+
+                    {/* Vehicle Brand */}
+                    <div className="space-y-2">
+                      <Label>Brand</Label>
+                      <Select
+                        value={selectedBrand}
+                        onValueChange={handleBrandChange}
+                      >
+                        <SelectTrigger className="border border-border w-full">
+                          <SelectValue />
+                        </SelectTrigger>
+                        <SelectContent className="w-full max-h-60">
+                          {getAvailableBrands().map((brand) => (
+                            <SelectItem key={brand.value} value={brand.value}>
+                              {brand.label}
+                            </SelectItem>
+                          ))}
+                        </SelectContent>
+                      </Select>
+                    </div>
+
+                    {/* Vehicle Model */}
+                    <div className="space-y-2">
+                      <Label>Model</Label>
+                      <Select
+                        value={selectedModel}
+                        onValueChange={handleModelChange}
+                      >
+                        <SelectTrigger className="border border-border w-full">
+                          <SelectValue />
+                        </SelectTrigger>
+                        <SelectContent className="w-full max-h-60">
+                          {getAvailableModels().map((model) => (
+                            <SelectItem key={model.value} value={model.value}>
+                              {model.label}
+                            </SelectItem>
+                          ))}
+                        </SelectContent>
+                      </Select>
+                    </div>
+
+                    {/* Vehicle Year */}
+                    <div className="space-y-2">
+                      <Label>Year</Label>
+                      <Select
+                        value={selectedYear}
+                        onValueChange={setSelectedYear}
+                      >
+                        <SelectTrigger className="border border-border w-full">
+                          <SelectValue />
+                        </SelectTrigger>
+                        <SelectContent className="w-full max-h-60">
+                          {getAvailableYears().map((year) => (
+                            <SelectItem key={year.value} value={year.value}>
+                              {year.label}
+                            </SelectItem>
+                          ))}
+                        </SelectContent>
+                      </Select>
+                    </div>
+
+                    {/* Fuel Type */}
+                    <div className="space-y-2">
+                      <Label>Fuel Type</Label>
+                      <Select
+                        value={selectedFuelType}
+                        onValueChange={setSelectedFuelType}
+                      >
+                        <SelectTrigger className="border border-border w-full">
+                          <SelectValue />
+                        </SelectTrigger>
+                        <SelectContent className="w-full max-h-60">
+                          {fuelTypes.map((fuel) => (
+                            <SelectItem key={fuel.value} value={fuel.value}>
+                              {fuel.label}
+                            </SelectItem>
+                          ))}
+                        </SelectContent>
+                      </Select>
+                    </div>
+
+                    {/* Seating Capacity */}
+                    <div className="space-y-2">
+                      <Label>Seating Capacity</Label>
+                      <Select
+                        value={selectedSeatingCapacity}
+                        onValueChange={setSelectedSeatingCapacity}
+                      >
+                        <SelectTrigger className="border border-border w-full">
+                          <SelectValue />
+                        </SelectTrigger>
+                        <SelectContent className="w-full max-h-60">
+                          {seatingCapacities.map((capacity) => (
+                            <SelectItem
+                              key={capacity.value}
+                              value={capacity.value}
+                            >
+                              {capacity.label}
+                            </SelectItem>
+                          ))}
+                        </SelectContent>
+                      </Select>
+                    </div>
+
+                    {/* Price Range */}
+                    <div className="space-y-2">
+                      <Label>Daily Price Range</Label>
+                      <div className="px-2 py-4">
+                        <Slider
+                          value={priceRange}
+                          onValueChange={setPriceRange}
+                          max={maxPrice}
+                          min={minPrice}
+                          step={25}
+                          className="w-full"
+                        />
+                        <div className="flex justify-between mt-2 text-slate-600 text-sm">
+                          <span>${priceRange[0]}</span>
+                          <span>${priceRange[1]}</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Apply Filters Button */}
+                    <Button
+                      onClick={resetFilters}
+                      className="w-full"
+                      variant="outline"
+                    >
+                      <RotateCcw className="mr-2 w-4 h-4" />
+                      Reset Filters
+                    </Button>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+          )}
 
           {/* Vehicles Grid */}
-          <div className="lg:col-span-3">
-            <div className="flex justify-between items-center mb-6">
-              <p className="text-slate-600 dark:text-slate-400">
+          <div className={showFilters ? "lg:col-span-3" : "lg:col-span-1"}>
+            <div className="flex md:flex-row flex-col justify-between items-center mb-6">
+              <p className="md:w-1/4 text-center text-slate-600 text-wrap md:text-start dark:text-slate-400">
                 {filteredVehicles.length} vehicle
                 {filteredVehicles.length !== 1 ? "s" : ""} found
                 {filteredVehicles.length > 0 && (
-                  <span className="ml-2">
-                    (Showing {startIndex + 1}-
+                  <p>
+                    (Showing {startIndex + 1}-{" "}
                     {Math.min(endIndex, filteredVehicles.length)} of{" "}
                     {filteredVehicles.length})
-                  </span>
+                  </p>
                 )}
               </p>
 
-              <div className="flex items-center gap-4">
+              <div className="flex md:flex-row flex-col items-center md:items-end gap-4 mt-2 md:mt-0 w-full md:w-auto">
                 {/* Items per page dropdown */}
-                <div className="flex items-center gap-2">
-                  <Label
-                    htmlFor="items-per-page"
-                    className="text-sm whitespace-nowrap"
-                  >
-                    Show:
-                  </Label>
+                <div className="flex flex-col items-center w-4/5 md:w-auto">
+                  <Label className="text-sm whitespace-nowrap">Show:</Label>
                   <Select
                     value={itemsPerPage.toString()}
                     onValueChange={(value) => setItemsPerPage(Number(value))}
                   >
-                    <SelectTrigger className="border border-border w-20">
+                    <SelectTrigger className="border border-border w-full md:w-20">
                       <SelectValue />
                     </SelectTrigger>
                     <SelectContent className="w-full max-h-60">
@@ -628,20 +633,34 @@ export default function VehiclesPage() {
                 </div>
 
                 {/* Sort dropdown */}
-                <Select value={sortBy} onValueChange={setSortBy}>
-                  <SelectTrigger className="border border-border w-48">
-                    <SelectValue />
-                  </SelectTrigger>
-                  <SelectContent className="w-full max-h-60">
-                    <SelectItem value="price-low">
-                      Price: Low to High
-                    </SelectItem>
-                    <SelectItem value="price-high">
-                      Price: High to Low
-                    </SelectItem>
-                    <SelectItem value="rating">Highest Rated</SelectItem>
-                  </SelectContent>
-                </Select>
+                <div className="flex flex-col items-center w-4/5 md:w-auto">
+                  <Label className="text-sm whitespace-nowrap">Sort By:</Label>
+                  <Select value={sortBy} onValueChange={setSortBy}>
+                    <SelectTrigger className="border border-border w-full md:w-48">
+                      <SelectValue />
+                    </SelectTrigger>
+                    <SelectContent className="w-full max-h-60">
+                      <SelectItem value="price-low">
+                        Price: Low to High
+                      </SelectItem>
+                      <SelectItem value="price-high">
+                        Price: High to Low
+                      </SelectItem>
+                      <SelectItem value="rating">Highest Rated</SelectItem>
+                    </SelectContent>
+                  </Select>
+                </div>
+
+                {/* Toggle Filters Button */}
+                <Button
+                  variant="outline"
+                  size="sm"
+                  onClick={() => setShowFilters(!showFilters)}
+                  className="flex items-center gap-2 m-0.5 w-4/5 md:w-auto"
+                >
+                  <FaFilter className="w-4 h-4" />
+                  {showFilters ? "Hide Filters" : "Show Filters"}
+                </Button>
               </div>
             </div>
 
