@@ -169,7 +169,11 @@ export default function TripPlannerContainer() {
           </div>
           <div className="flex items-center gap-2">
             <TripExport tripPlan={tripPlan!} days={tripDays} />
-            <Button variant="outline" onClick={resetPlanner} className="shrink-0">
+            <Button
+              variant="outline"
+              onClick={resetPlanner}
+              className="shrink-0"
+            >
               Start Over
             </Button>
           </div>
@@ -177,9 +181,9 @@ export default function TripPlannerContainer() {
       </div>
 
       <DndContext collisionDetection={closestCenter} onDragEnd={handleDragEnd}>
-        <div className="gap-6 grid lg:grid-cols-4">
+        <div className="gap-6 grid lg:grid-cols-3 xl:grid-cols-4">
           {/* Activity Panel */}
-          <div className="lg:col-span-1">
+          <div className="col-span-1 xl:col-span-1">
             <ActivityPanel
               destination={selectedDestination}
               availableItems={availableItems}
@@ -188,7 +192,7 @@ export default function TripPlannerContainer() {
           </div>
 
           {/* Day Planner */}
-          <div className="lg:col-span-3">
+          <div className="lg:col-span-2 xl:col-span-3">
             <DayPlanner
               days={tripDays}
               onRemoveItem={removeItemFromDay}
