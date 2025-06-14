@@ -15,6 +15,8 @@ import {
 import Link from "next/link";
 import { useState } from "react";
 import { toast } from "sonner";
+import { Input } from "../ui/input";
+import { Label } from "../ui/label";
 
 export default function Footer() {
   const [email, setEmail] = useState("");
@@ -159,10 +161,10 @@ export default function Footer() {
               </h2>
               <form className="mt-10 max-w-md">
                 <div className="flex gap-x-4">
-                  <label htmlFor="email-address" className="sr-only">
+                  <Label htmlFor="email-address" className="sr-only">
                     Email address
-                  </label>
-                  <input
+                  </Label>
+                  <Input
                     id="email-address"
                     name="email"
                     type="email"
