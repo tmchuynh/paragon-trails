@@ -10,6 +10,7 @@ import {
 } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { useCurrency } from "@/context/CurrencyContext";
 import { mockActivities } from "@/data/activities";
 import { mockAttractions } from "@/data/attractions";
 import { mockDestinations } from "@/data/destinations";
@@ -20,7 +21,6 @@ import { Clock, MapPin, Search } from "lucide-react";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import DraggableItem from "./DraggableItem";
-import { useCurrency } from "@/context/CurrencyContext";
 
 interface ActivityPanelProps {
   destination: string;
@@ -161,7 +161,7 @@ export default function ActivityPanel({
             placeholder="Search activities..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            className="pl-10 border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+            className="pl-10 focus:border-muted border-border focus:ring-muted/20 h-8"
           />
         </div>
       </CardHeader>
