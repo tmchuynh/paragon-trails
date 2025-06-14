@@ -657,7 +657,7 @@ export default function TourDetailsPage() {
                     <Input
                       id="tour-date"
                       type="date"
-                      className="flex flex-col justify-center"
+                      className="flex flex-col justify-center mt-0.25 border focus:border-muted border-border focus:ring-muted/20"
                       value={selectedDate}
                       onChange={(e) => setSelectedDate(e.target.value)}
                       min={new Date().toISOString().split("T")[0]}

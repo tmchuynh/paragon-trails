@@ -899,6 +899,7 @@ export default function VehicleDetailPage() {
                     <DropdownMenuContent className="p-0 w-auto" align="start">
                       <Calendar
                         mode="single"
+                        captionLayout="dropdown"
                         selected={parseStringToDate(pickupDate)}
                         onSelect={handleCalendarSelect}
                         disabled={(date) => date < new Date()}
