@@ -176,10 +176,8 @@ export default function VehicleDetailPage() {
                   <Badge variant="secondary" className="mb-2 capitalize">
                     {vehicle.type.replace("-", " ")}
                   </Badge>
-                  <h1 className="mb-2 font-bold text-3xl text-slate-900 dark:text-white">
-                    {vehicle.name}
-                  </h1>
-                  <p className="text-slate-600 dark:text-slate-400">
+                  <h1 className="mb-2 font-bold text-3xl">{vehicle.name}</h1>
+                  <p className="">
                     {vehicle.brand} {vehicle.model} • {vehicle.year}
                   </p>
                 </div>
@@ -191,55 +189,45 @@ export default function VehicleDetailPage() {
                   </span>
                 </div>
               </div>
-              <p className="text-slate-600 dark:text-slate-400">
-                {vehicle.description}
-              </p>
+              <p className="">{vehicle.description}</p>
             </div>
 
             {/* Key Specs */}
             <div className="gap-4 grid grid-cols-2">
-              <div className="flex items-center gap-3 p-4 border border-slate-200 dark:border-slate-700 rounded-lg">
+              <div className="flex items-center gap-3 p-4 border rounded-lg">
                 <Users className="w-6 h-6 text-primary" />
                 <div>
                   <p className="font-medium">
                     {vehicle.specifications.seatingCapacity} Seats
                   </p>
-                  <p className="text-slate-600 text-sm dark:text-slate-400">
-                    Seating Capacity
-                  </p>
+                  <p className="text-sm">Seating Capacity</p>
                 </div>
               </div>
-              <div className="flex items-center gap-3 p-4 border border-slate-200 dark:border-slate-700 rounded-lg">
+              <div className="flex items-center gap-3 p-4 border rounded-lg">
                 <Fuel className="w-6 h-6 text-primary" />
                 <div>
                   <p className="font-medium">
                     {vehicle.specifications.fuelType}
                   </p>
-                  <p className="text-slate-600 text-sm dark:text-slate-400">
-                    Fuel Type
-                  </p>
+                  <p className="text-sm">Fuel Type</p>
                 </div>
               </div>
-              <div className="flex items-center gap-3 p-4 border border-slate-200 dark:border-slate-700 rounded-lg">
+              <div className="flex items-center gap-3 p-4 border rounded-lg">
                 <Settings className="w-6 h-6 text-primary" />
                 <div>
                   <p className="font-medium">
                     {vehicle.specifications.transmission}
                   </p>
-                  <p className="text-slate-600 text-sm dark:text-slate-400">
-                    Transmission
-                  </p>
+                  <p className="text-sm">Transmission</p>
                 </div>
               </div>
-              <div className="flex items-center gap-3 p-4 border border-slate-200 dark:border-slate-700 rounded-lg">
+              <div className="flex items-center gap-3 p-4 border rounded-lg">
                 <Car className="w-6 h-6 text-primary" />
                 <div>
                   <p className="font-medium">
                     {vehicle.specifications.topSpeed}
                   </p>
-                  <p className="text-slate-600 text-sm dark:text-slate-400">
-                    Top Speed
-                  </p>
+                  <p className="text-sm">Top Speed</p>
                 </div>
               </div>
             </div>
@@ -259,6 +247,7 @@ export default function VehicleDetailPage() {
                     <Input
                       id="pickup-date"
                       type="date"
+                      className="flex flex-col justify-center"
                       value={pickupDate}
                       onChange={(e) => setPickupDate(e.target.value)}
                     />
@@ -268,6 +257,7 @@ export default function VehicleDetailPage() {
                     <Input
                       id="return-date"
                       type="date"
+                      className="flex flex-col justify-center"
                       value={returnDate}
                       onChange={(e) => setReturnDate(e.target.value)}
                     />
@@ -340,9 +330,7 @@ export default function VehicleDetailPage() {
             <CardContent className="space-y-3">
               {vehicle.specifications.engine && (
                 <div className="flex justify-between">
-                  <span className="text-slate-600 dark:text-slate-400">
-                    Engine:
-                  </span>
+                  <span className="">Engine:</span>
                   <span className="font-medium">
                     {vehicle.specifications.engine}
                   </span>
@@ -350,9 +338,7 @@ export default function VehicleDetailPage() {
               )}
               {vehicle.specifications.acceleration && (
                 <div className="flex justify-between">
-                  <span className="text-slate-600 dark:text-slate-400">
-                    Acceleration:
-                  </span>
+                  <span className="">Acceleration:</span>
                   <span className="font-medium">
                     {vehicle.specifications.acceleration}
                   </span>
@@ -360,9 +346,7 @@ export default function VehicleDetailPage() {
               )}
               {vehicle.specifications.fuelEconomy && (
                 <div className="flex justify-between">
-                  <span className="text-slate-600 dark:text-slate-400">
-                    Fuel Economy:
-                  </span>
+                  <span className="">Fuel Economy:</span>
                   <span className="font-medium">
                     {vehicle.specifications.fuelEconomy}
                   </span>
@@ -424,11 +408,11 @@ export default function VehicleDetailPage() {
                 </ul>
               </div>
 
-              <div className="pt-4 border-slate-200 dark:border-slate-700 border-t">
-                <p className="text-slate-600 text-sm dark:text-slate-400">
+              <div className="pt-4 border-t">
+                <p className="text-sm">
                   Minimum age: {vehicle.availability.minimumAge} years
                 </p>
-                <p className="text-slate-600 text-sm dark:text-slate-400">
+                <p className="text-sm">
                   License required:{" "}
                   {vehicle.availability.licenseRequired.join(", ")}
                 </p>
@@ -445,9 +429,7 @@ export default function VehicleDetailPage() {
                 <Phone className="w-5 h-5 text-primary" />
                 <div>
                   <p className="font-medium">Need Help?</p>
-                  <p className="text-slate-600 text-sm dark:text-slate-400">
-                    +1 (310) 477-8845
-                  </p>
+                  <p className="text-sm">+1 (310) 477-8845</p>
                 </div>
               </div>
               <Separator orientation="vertical" className="h-12" />
@@ -455,7 +437,7 @@ export default function VehicleDetailPage() {
                 <MapPin className="w-5 h-5 text-primary" />
                 <div>
                   <p className="font-medium">Available Locations</p>
-                  <p className="text-slate-600 text-sm dark:text-slate-400">
+                  <p className="text-sm">
                     {vehicle.availability.locations.length} cities nationwide
                   </p>
                 </div>
