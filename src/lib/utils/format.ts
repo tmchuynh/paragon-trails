@@ -39,7 +39,7 @@ export function toTitleCase(str: string): string {
 export function formatCurrency(
   amount: number,
   currency: string = "USD",
-  locale: string = "en-US",
+  locale: string = "en-US"
 ): string {
   return new Intl.NumberFormat(locale, {
     style: "currency",
@@ -55,7 +55,7 @@ export function formatCurrency(
  */
 export function formatDate(
   date: string | Date,
-  locale: string = "en-US",
+  locale: string = "en-US"
 ): string {
   const dateObj = typeof date === "string" ? new Date(date) : date;
   return dateObj.toLocaleDateString(locale, {
@@ -98,4 +98,11 @@ export function kebabToTitle(str: string): string {
     .split("-")
     .map((word) => capitalize(word))
     .join(" ");
+}
+
+export function convertTo12HourFormat(time: string): string {
+  const [hours, minutes] = time.split(":").map(Number);
+  const period = hours >= 12 ? "PM" : "AM";
+  const adjustedHours = hours % 12 || 12; // Convert 0 to 12 for midnight
+  return `${adjustedHours}:${minutes.toString().padStart(2, "0")} ${period}`;
 }
