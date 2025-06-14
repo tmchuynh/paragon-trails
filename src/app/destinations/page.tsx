@@ -54,7 +54,12 @@ export default function DestinationsPage() {
   const [selectedTag, setSelectedTag] = useState<string>("all");
   const [visaRequired, setVisaRequired] = useState<string>("all");
   const [selectedTimezone, setSelectedTimezone] = useState<string>("all");
-  const [budgetRange, setBudgetRange] = useState([0, 500]);
+  
+  // Calculate min and max prices from destinations data
+  const minPrice = Math.min(...mockDestinations.map(destination => destination.pricing.averageDailyBudget));
+  const maxPrice = Math.max(...mockDestinations.map(destination => destination.pricing.averageDailyBudget));
+  
+  const [budgetRange, setBudgetRange] = useState([minPrice, maxPrice]);
   const [sortBy, setSortBy] = useState<string>("name");
 
   // Pagination state
@@ -231,7 +236,7 @@ export default function DestinationsPage() {
     setSelectedTag("all");
     setVisaRequired("all");
     setSelectedTimezone("all");
-    setBudgetRange([0, 500]);
+    setBudgetRange([minPrice, maxPrice]);
   };
 
   // Auto-filter when any filter changes
@@ -390,7 +395,7 @@ export default function DestinationsPage() {
                         placeholder="Paris, Tokyo, New York..."
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
-                        className="pl-10 border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                        className="pl-10 focus:border-muted border-border focus:ring-muted/20 h-8"
                       />
                     </div>
                   </div>
@@ -523,8 +528,8 @@ export default function DestinationsPage() {
                       <Slider
                         value={budgetRange}
                         onValueChange={setBudgetRange}
-                        max={500}
-                        min={0}
+                        max={maxPrice}
+                        min={minPrice}
                         step={25}
                         className="w-full"
                       />
