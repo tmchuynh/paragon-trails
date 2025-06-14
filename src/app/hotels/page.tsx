@@ -22,7 +22,6 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Slider } from "@/components/ui/slider";
-import { cartHelpers, useCart } from "@/context/CartContext";
 import { useCurrency } from "@/context/CurrencyContext";
 import { mockHotels } from "@/data/hotels";
 import { Hotel } from "@/lib/interfaces/services/hotels";
@@ -46,11 +45,9 @@ import {
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
-import { toast } from "sonner";
 
 export default function HotelsPage() {
   const router = useRouter();
-  const { state: cartState, dispatch } = useCart();
   const { formatPrice } = useCurrency();
 
   const [filteredHotels, setFilteredHotels] = useState<Hotel[]>(mockHotels);
@@ -58,15 +55,15 @@ export default function HotelsPage() {
   const [destination, setDestination] = useState("all");
   const [checkInDate, setCheckInDate] = useState("");
   const [checkOutDate, setCheckOutDate] = useState("");
-  const [guests, setGuests] = useState({ adults: 2, children: 0 });
-  const [starRating, setStarRating] = useState("1");
+  const [guests, setGuests] = useState({ adults: 2, children: 1 });
+  const [starRating, setStarRating] = useState("4");
   const [hotelType, setHotelType] = useState("all");
-  const [priceRange, setPriceRange] = useState([0, 2000]);
+  const [priceRange, setPriceRange] = useState([200, 600]);
   const [sortBy, setSortBy] = useState("rating");
 
   // Pagination state
   const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage, setItemsPerPage] = useState(6);
+  const [itemsPerPage, setItemsPerPage] = useState(8);
 
   // Extract unique destinations from mockHotels
   const destinations = Array.from(
@@ -191,39 +188,6 @@ export default function HotelsPage() {
     setSortBy("rating");
   };
 
-  const handleAddToCart = (hotel: Hotel) => {
-    if (!checkInDate || !checkOutDate) {
-      toast.error("Please select check-in and check-out dates");
-      return;
-    }
-
-    const hotelItem = {
-      id: `hotel-${formatToSlug(hotel.name)}-${checkInDate}-${checkOutDate}`,
-      type: "hotel" as const,
-      name: hotel.name,
-      description: `${hotel.starRating}-star ${hotel.type} in ${hotel.location.city}`,
-      image: hotel.images[0],
-      price: hotel.pricing.priceRange.min,
-      dates: {
-        startDate: checkInDate,
-        endDate: checkOutDate,
-      },
-      guests: guests.adults + guests.children,
-      location: `${hotel.location.city}, ${hotel.location.country}`,
-      features: hotel.amenities.general.slice(0, 3),
-      cancellationPolicy: hotel.policies.cancellation,
-    };
-
-    // Check if this exact hotel booking already exists
-    if (cartHelpers.checkIfDuplicate(cartState.items, hotelItem)) {
-      toast.error(`${hotel.name} for these dates is already in your cart`);
-      return;
-    }
-
-    cartHelpers.addItem(dispatch, hotelItem);
-    toast.success(`${hotel.name} added to cart!`);
-  };
-
   const calculateNights = () => {
     if (!checkInDate || !checkOutDate) return 1;
     const checkIn = new Date(checkInDate);
@@ -231,17 +195,6 @@ export default function HotelsPage() {
     const diffTime = Math.abs(checkOut.getTime() - checkIn.getTime());
     const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
     return Math.max(1, diffDays);
-  };
-
-  const renderStarRating = (rating: number) => {
-    return Array.from({ length: 5 }, (_, i) => (
-      <Star
-        key={i}
-        className={`w-4 h-4 ${
-          i < rating ? "text-yellow-400 fill-yellow-400" : "text-gray-300"
-        }`}
-      />
-    ));
   };
 
   return (
@@ -269,7 +222,7 @@ export default function HotelsPage() {
                 <div className="relative">
                   <MapPin className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
                   <Select value={destination} onValueChange={setDestination}>
-                    <SelectTrigger className="pl-10 w-full">
+                    <SelectTrigger className="pl-10 border border-border w-full">
                       <SelectValue placeholder="Select destination" />
                     </SelectTrigger>
                     <SelectContent className="w-full max-h-60">
@@ -288,7 +241,7 @@ export default function HotelsPage() {
               <div className="space-y-2">
                 <Label>Hotel Type</Label>
                 <Select value={hotelType} onValueChange={setHotelType}>
-                  <SelectTrigger className="w-full">
+                  <SelectTrigger className="border border-border w-full">
                     <SelectValue placeholder="Select type" />
                   </SelectTrigger>
                   <SelectContent className="w-full max-h-60">
@@ -305,7 +258,7 @@ export default function HotelsPage() {
               <div className="space-y-2">
                 <Label htmlFor="checkin">Check-in Date</Label>
                 <Input
-                  className="flex flex-col justify-center"
+                  className="flex flex-col justify-center border border-border"
                   id="checkin"
                   type="date"
                   value={checkInDate}
@@ -314,12 +267,25 @@ export default function HotelsPage() {
                 />
               </div>
 
+              {/* Check-out Date */}
+              <div className="space-y-2">
+                <Label htmlFor="checkout">Check-out Date</Label>
+                <Input
+                  className="flex flex-col justify-center border border-border"
+                  id="checkout"
+                  type="date"
+                  value={checkOutDate}
+                  onChange={(e) => setCheckOutDate(e.target.value)}
+                  min={checkInDate || new Date().toISOString().split("T")[0]}
+                />
+              </div>
+
               {/* Reset Filters Button */}
               <div className="flex items-end">
                 <Button
                   onClick={resetFilters}
                   variant="outline"
-                  className="w-full"
+                  className="m-0 p-0 w-full"
                 >
                   <RotateCcw className="mr-2 w-4 h-4" />
                   Reset Filters
@@ -349,24 +315,9 @@ export default function HotelsPage() {
                         placeholder="Hotel name or city..."
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
-                        className="pl-10"
+                        className="pl-10 border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
                       />
                     </div>
-                  </div>
-
-                  {/* Check-out Date */}
-                  <div className="space-y-2">
-                    <Label htmlFor="checkout">Check-out Date</Label>
-                    <Input
-                      className="flex flex-col justify-center"
-                      id="checkout"
-                      type="date"
-                      value={checkOutDate}
-                      onChange={(e) => setCheckOutDate(e.target.value)}
-                      min={
-                        checkInDate || new Date().toISOString().split("T")[0]
-                      }
-                    />
                   </div>
 
                   {/* Guests */}
@@ -381,7 +332,7 @@ export default function HotelsPage() {
                             setGuests({ ...guests, adults: parseInt(value) })
                           }
                         >
-                          <SelectTrigger className="w-full">
+                          <SelectTrigger className="border border-border w-full">
                             <SelectValue />
                           </SelectTrigger>
                           <SelectContent>
@@ -401,7 +352,7 @@ export default function HotelsPage() {
                             setGuests({ ...guests, children: parseInt(value) })
                           }
                         >
-                          <SelectTrigger className="w-full">
+                          <SelectTrigger className="border border-border w-full">
                             <SelectValue />
                           </SelectTrigger>
                           <SelectContent>
@@ -420,7 +371,7 @@ export default function HotelsPage() {
                   <div className="space-y-2">
                     <Label>Minimum Star Rating</Label>
                     <Select value={starRating} onValueChange={setStarRating}>
-                      <SelectTrigger className="w-full">
+                      <SelectTrigger className="border border-border w-full">
                         <SelectValue placeholder="Select rating" />
                       </SelectTrigger>
                       <SelectContent className="w-full max-h-60">
@@ -498,7 +449,7 @@ export default function HotelsPage() {
                     value={itemsPerPage.toString()}
                     onValueChange={(value) => setItemsPerPage(Number(value))}
                   >
-                    <SelectTrigger className="w-20">
+                    <SelectTrigger className="border border-border w-20">
                       <SelectValue />
                     </SelectTrigger>
                     <SelectContent className="w-full max-h-60">
@@ -513,7 +464,7 @@ export default function HotelsPage() {
 
                 {/* Sort dropdown */}
                 <Select value={sortBy} onValueChange={setSortBy}>
-                  <SelectTrigger className="w-48">
+                  <SelectTrigger className="border border-border w-48">
                     <SelectValue />
                   </SelectTrigger>
                   <SelectContent className="w-full max-h-60">
