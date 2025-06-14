@@ -18,6 +18,7 @@ import {
   Send,
   Shield,
 } from "lucide-react";
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { toast } from "sonner";
 
@@ -32,11 +33,12 @@ export default function ContactUsPage() {
     priority: "normal",
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const router = useRouter();
 
   const handleInputChange = (
     e: React.ChangeEvent<
       HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
-    >,
+    >
   ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
@@ -70,10 +72,10 @@ export default function ContactUsPage() {
       <div className="mx-auto px-6 lg:px-8 py-12 max-w-7xl">
         {/* Hero Section */}
         <div className="mb-16 text-center">
-          <h1 className="mb-6 font-bold text-4xl text-slate-900 lg:text-5xl dark:text-white">
+          <h1 className="mb-6 font-bold text-4xl lg:text-5xl dark:text-white">
             Get in Touch
           </h1>
-          <p className="mx-auto mb-8 max-w-3xl text-lg text-slate-600 lg:text-xl dark:text-slate-400">
+          <p className="mx-auto mb-8 max-w-3xl text-lg lg:text-xl">
             Our dedicated team of travel specialists is here to help you create
             extraordinary journeys. Reach out to us for personalized assistance,
             expert advice, or any questions about your travel plans.
@@ -85,35 +87,25 @@ export default function ContactUsPage() {
               <div className="flex justify-center items-center bg-primary/10 mb-4 rounded-full w-16 h-16">
                 <Clock className="w-8 h-8 text-primary" />
               </div>
-              <h3 className="mb-2 font-semibold text-slate-900 dark:text-white">
-                Response Time
-              </h3>
-              <p className="text-slate-600 text-sm dark:text-slate-400">
-                Within 2 hours during business hours
-              </p>
-            </div>
-
-            <div className="flex flex-col items-center bg-white dark:bg-slate-900 shadow-sm p-6 rounded-xl">
-              <div className="flex justify-center items-center bg-primary/10 mb-4 rounded-full w-16 h-16">
-                <Headphones className="w-8 h-8 text-primary" />
-              </div>
-              <h3 className="mb-2 font-semibold text-slate-900 dark:text-white">
-                24/7 Emergency Support
-              </h3>
-              <p className="text-slate-600 text-sm dark:text-slate-400">
-                Always available for urgent travel needs
-              </p>
+              <h3 className="mb-2 font-semibold">Response Time</h3>
+              <p className="text-sm">Within 2 hours during business hours</p>
             </div>
 
             <div className="flex flex-col items-center bg-white dark:bg-slate-900 shadow-sm p-6 rounded-xl">
               <div className="flex justify-center items-center bg-primary/10 mb-4 rounded-full w-16 h-16">
                 <Globe className="w-8 h-8 text-primary" />
               </div>
-              <h3 className="mb-2 font-semibold text-slate-900 dark:text-white">
-                Global Coverage
-              </h3>
-              <p className="text-slate-600 text-sm dark:text-slate-400">
-                Worldwide support in multiple languages
+              <h3 className="mb-2 font-semibold">Global Coverage</h3>
+              <p className="text-sm">Worldwide support in multiple languages</p>
+            </div>
+
+            <div className="flex flex-col items-center bg-white dark:bg-slate-900 shadow-sm p-6 rounded-xl">
+              <div className="flex justify-center items-center bg-primary/10 mb-4 rounded-full w-16 h-16">
+                <Headphones className="w-8 h-8 text-primary" />
+              </div>
+              <h3 className="mb-2 font-semibold">24/7 Emergency Support</h3>
+              <p className="text-sm">
+                Always available for urgent travel needs
               </p>
             </div>
           </div>
@@ -128,11 +120,11 @@ export default function ContactUsPage() {
                   <Send className="w-6 h-6 text-primary" />
                   Send Us a Message
                 </CardTitle>
-                <p className="text-slate-600 dark:text-slate-400">
+                <p className="">
                   Fill out the form below and we'll get back to you promptly
                 </p>
               </CardHeader>
-              <CardContent className="p-6 lg:p-8">
+              <CardContent>
                 <form onSubmit={handleSubmit} className="space-y-6">
                   {/* Personal Information */}
                   <div className="gap-4 grid grid-cols-1 sm:grid-cols-2">
@@ -192,7 +184,7 @@ export default function ContactUsPage() {
                       </select>
                       <p
                         id="department-help"
-                        className="text-slate-500 text-xs dark:text-slate-400"
+                        className="text-slate-500 text-xs"
                       >
                         Choose the most relevant department for faster response
                       </p>
@@ -215,10 +207,7 @@ export default function ContactUsPage() {
                         <option value="urgent">Urgent</option>
                         <option value="emergency">Emergency</option>
                       </select>
-                      <p
-                        id="priority-help"
-                        className="text-slate-500 text-xs dark:text-slate-400"
-                      >
+                      <p id="priority-help" className="text-slate-500 text-xs">
                         Emergency: Travel disruptions requiring immediate
                         assistance
                       </p>
@@ -250,7 +239,7 @@ export default function ContactUsPage() {
                       maxLength={1000}
                       aria-describedby="message-help"
                     />
-                    <div className="flex justify-between text-slate-500 text-xs dark:text-slate-400">
+                    <div className="flex justify-between text-slate-500 text-xs">
                       <span id="message-help">
                         Provide as much detail as possible for better assistance
                       </span>
@@ -280,7 +269,7 @@ export default function ContactUsPage() {
                   {/* Privacy Note */}
                   <div className="flex items-start gap-2 p-4 rounded-lg">
                     <Shield className="flex-shrink-0 mt-0.5 w-4 h-4 text-primary" />
-                    <p className="text-slate-600 text-xs dark:text-slate-400">
+                    <p className="text-xs">
                       Your privacy is important to us. All information submitted
                       through this form is encrypted and handled according to
                       our privacy policy. We will never share your details with
@@ -297,42 +286,32 @@ export default function ContactUsPage() {
                   <Globe className="w-5 h-5 text-primary" />
                   Global Language Support
                 </CardTitle>
-                <p className="text-slate-600 text-sm dark:text-slate-400">
+                <p className="text-sm">
                   Our multilingual team provides support in your preferred
                   language
                 </p>
               </CardHeader>
-              <CardContent className="p-6">
-                <div className="gap-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+              <CardContent>
+                <div className="gap-6 grid grid-cols-1 lg:grid-cols-2">
                   <div className="space-y-2">
-                    <h4 className="font-semibold text-slate-900 dark:text-white">
-                      European Languages
-                    </h4>
-                    <p className="text-slate-600 text-sm dark:text-slate-400">
+                    <h4 className="font-semibold">European Languages</h4>
+                    <p className="text-sm">
                       English, Spanish, French, German, Italian, Portuguese
                     </p>
                   </div>
                   <div className="space-y-2">
-                    <h4 className="font-semibold text-slate-900 dark:text-white">
-                      Asian Languages
-                    </h4>
-                    <p className="text-slate-600 text-sm dark:text-slate-400">
+                    <h4 className="font-semibold">Asian Languages</h4>
+                    <p className="text-sm">
                       Mandarin, Japanese, Korean, Hindi, Thai, Vietnamese
                     </p>
                   </div>
                   <div className="space-y-2">
-                    <h4 className="font-semibold text-slate-900 dark:text-white">
-                      Middle Eastern
-                    </h4>
-                    <p className="text-slate-600 text-sm dark:text-slate-400">
-                      Arabic, Hebrew, Persian, Turkish
-                    </p>
+                    <h4 className="font-semibold">Middle Eastern</h4>
+                    <p className="text-sm">Arabic, Hebrew, Persian, Turkish</p>
                   </div>
                   <div className="space-y-2">
-                    <h4 className="font-semibold text-slate-900 dark:text-white">
-                      Additional Support
-                    </h4>
-                    <p className="text-slate-600 text-sm dark:text-slate-400">
+                    <h4 className="font-semibold">Additional Support</h4>
+                    <p className="text-sm">
                       Russian, Dutch, Swedish, and more upon request
                     </p>
                   </div>
@@ -347,21 +326,61 @@ export default function ContactUsPage() {
                   Response Times
                 </CardTitle>
               </CardHeader>
-              <CardContent className="p-6">
+              <CardContent className="-mt-5">
                 <div className="space-y-4">
-                  <div className="flex justify-between items-center p-3 rounded-lg">
+                  <div className="flex justify-between items-center">
                     <span>Email Inquiries</span>
                     <Badge variant="secondary">Within 2 hours</Badge>
                   </div>
-                  <div className="flex justify-between items-center p-3 rounded-lg">
+                  <div className="flex justify-between items-center">
                     <span>Phone Calls</span>
                     <Badge variant="secondary">Immediate</Badge>
                   </div>
-                  <div className="flex justify-between items-center p-3 rounded-lg">
+                  <div className="flex justify-between items-center">
                     <span className="font-medium text-red-800 dark:text-red-400">
                       Emergency Support
                     </span>
                     <Badge variant="destructive">24/7 Worldwide</Badge>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="md:col-span-2 shadow-lg">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-3 text-xl">
+                  <Globe className="w-5 h-5 text-primary" />
+                  Connect With Us
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-4">
+                  <p className="text-sm">
+                    Follow us on social media for travel inspiration, company
+                    updates, and exclusive offers.
+                  </p>
+                  <div className="flex justify-center gap-4">
+                    <Button variant="outline" size="sm" asChild>
+                      <a href="#" className="hover:text-primary">
+                        LinkedIn
+                      </a>
+                    </Button>
+                    <Button variant="outline" size="sm" asChild>
+                      <a href="#" className="hover:text-primary">
+                        Instagram
+                      </a>
+                    </Button>
+                    <Button variant="outline" size="sm" asChild>
+                      <a href="#" className="hover:text-primary">
+                        Facebook
+                      </a>
+                    </Button>
+                  </div>
+                  <div className="pt-4 text-center">
+                    <p className="text-xs">
+                      Join over 50,000+ travelers who trust Paragon Trails for
+                      their luxury travel experiences
+                    </p>
                   </div>
                 </div>
               </CardContent>
@@ -378,10 +397,10 @@ export default function ContactUsPage() {
                   Quick Contact
                 </CardTitle>
               </CardHeader>
-              <CardContent className="space-y-6 p-6">
+              <CardContent className="space-y-6 -mt-6">
                 {/* Main Contact */}
                 <div className="p-4 rounded-lg">
-                  <h3 className="mb-3 font-semibold text-lg text-slate-900 dark:text-white">
+                  <h3 className="mb-3 font-semibold text-lg">
                     General Inquiries
                   </h3>
                   <div className="space-y-2">
@@ -389,7 +408,7 @@ export default function ContactUsPage() {
                       <Phone className="w-4 h-4 text-primary" />
                       <a
                         href="tel:+13104778800"
-                        className="font-medium text-slate-900 hover:text-primary dark:text-white"
+                        className="font-medium hover:text-primary dark:text-white"
                       >
                         +1 (310) 477-8800
                       </a>
@@ -398,17 +417,35 @@ export default function ContactUsPage() {
                       <Mail className="w-4 h-4 text-primary" />
                       <a
                         href="mailto:info@paragontrails.com"
-                        className="text-slate-600 hover:text-primary dark:text-slate-400"
+                        className="hover:text-primary"
                       >
                         info@paragontrails.com
                       </a>
                     </div>
                     <div className="flex items-center gap-3">
                       <Clock className="w-4 h-4 text-primary" />
-                      <span className="text-slate-600 text-sm dark:text-slate-400">
+                      <span className="text-sm">
                         Mon–Fri, 9:00 AM – 6:00 PM PT
                       </span>
                     </div>
+                  </div>
+                </div>
+
+                {/* Office Location */}
+                <div className="p-4 rounded-lg">
+                  <h3 className="flex items-center gap-2 mb-3 font-semibold text-lg">
+                    <MapPin className="w-5 h-5 text-primary" />
+                    Our Location
+                  </h3>
+                  <div className="space-y-2">
+                    <p className="text-slate-700 dark:text-slate-300">
+                      123 Luxury Travel Boulevard
+                      <br />
+                      Beverly Hills, CA 90210
+                      <br />
+                      United States
+                    </p>
+                    <p className="text-sm">Visits by appointment only</p>
                   </div>
                 </div>
 
@@ -442,26 +479,6 @@ export default function ContactUsPage() {
                     </Badge>
                   </div>
                 </div>
-
-                {/* Office Location */}
-                <div className="p-4 rounded-lg">
-                  <h3 className="flex items-center gap-2 mb-3 font-semibold text-lg text-slate-900 dark:text-white">
-                    <MapPin className="w-5 h-5 text-primary" />
-                    Our Location
-                  </h3>
-                  <div className="space-y-2">
-                    <p className="text-slate-700 dark:text-slate-300">
-                      123 Luxury Travel Boulevard
-                      <br />
-                      Beverly Hills, CA 90210
-                      <br />
-                      United States
-                    </p>
-                    <p className="text-slate-600 text-sm dark:text-slate-400">
-                      Visits by appointment only
-                    </p>
-                  </div>
-                </div>
               </CardContent>
             </Card>
 
@@ -469,50 +486,40 @@ export default function ContactUsPage() {
             <Card className="shadow-lg">
               <CardHeader>
                 <CardTitle className="text-xl">Department Directory</CardTitle>
-                <p className="text-slate-600 text-sm dark:text-slate-400">
+                <p className="text-sm">
                   Contact the right team for faster assistance
                 </p>
               </CardHeader>
-              <CardContent className="p-6">
-                <div className="space-y-4">
+              <CardContent>
+                <div className="space-y-4 -mt-3">
                   {/* Primary Departments */}
                   <div>
-                    <h4 className="mb-3 font-semibold text-slate-900 dark:text-white">
-                      Primary Services
-                    </h4>
+                    <h4 className="mb-3 font-semibold">Primary Services</h4>
                     <div className="space-y-3">
                       {primaryDepartments.map((dept) => (
-                        <div
-                          key={dept.department}
-                          className="hover:bg-slate-50 dark:hover:bg-slate-800 p-3 border border-slate-200 dark:border-slate-700 rounded-lg transition-colors"
-                        >
+                        <div key={dept.department}>
                           <div className="flex justify-between items-start">
                             <div className="flex-1">
                               <h5>{dept.department}</h5>
-                              <p className="mt-1 text-slate-600 text-sm dark:text-slate-400">
-                                {dept.short}
-                              </p>
+                              <p className="mt-1 text-sm">{dept.short}</p>
                             </div>
                             <div className="flex gap-2 ml-4">
                               <Button
-                                variant="outline"
                                 size="sm"
                                 className="p-0 w-9 h-9"
-                                asChild
+                                onClick={() => router.push(`tel:${dept.phone}`)}
                               >
-                                <a href={`tel:${dept.phone}`}>
-                                  <Phone className="w-4 h-4" />
-                                </a>
+                                <Phone className="w-4 h-4" />
                               </Button>
                               <Button
-                                variant="outline"
+                                variant="secondary"
                                 size="sm"
                                 className="p-0 w-9 h-9"
-                                asChild
+                                onClick={() =>
+                                  router.push(`mailto:${dept.email}`)
+                                }
                               >
-                                <a href={`mailto:${dept.email}`}>
-                                  <Mail className="w-4 h-4" />
-                                </a>
+                                <Mail className="w-4 h-4" />
                               </Button>
                             </div>
                           </div>
@@ -525,41 +532,34 @@ export default function ContactUsPage() {
 
                   {/* Specialized Services */}
                   <div>
-                    <h4 className="mb-3 font-semibold text-slate-900 dark:text-white">
-                      Specialized Services
-                    </h4>
+                    <h4 className="mb-3 font-semibold">Specialized Services</h4>
                     <div className="space-y-2">
                       {specializedDepartments.map((dept) => (
-                        <div
-                          key={dept.department}
-                          className="flex justify-between items-center hover:bg-slate-50 dark:hover:bg-slate-800 p-2 rounded transition-colors"
-                        >
-                          <div className="flex-1">
-                            <span className="font-medium text-slate-900 text-sm dark:text-white">
-                              {dept.department}
-                            </span>
-                          </div>
-                          <div className="flex gap-1 ml-4">
-                            <Button
-                              variant="ghost"
-                              size="sm"
-                              className="p-0 w-8 h-8"
-                              asChild
-                            >
-                              <a href={`tel:${dept.phone}`}>
+                        <div key={dept.department}>
+                          <div className="flex justify-between items-start">
+                            <div className="flex-1">
+                              <h5>{dept.department}</h5>
+                              <p className="mt-1 text-sm">{dept.short}</p>
+                            </div>
+                            <div className="flex gap-2 ml-4">
+                              <Button
+                                size="sm"
+                                className="p-0 w-9 h-9"
+                                onClick={() => router.push(`tel:${dept.phone}`)}
+                              >
                                 <Phone className="w-3 h-3" />
-                              </a>
-                            </Button>
-                            <Button
-                              variant="ghost"
-                              size="sm"
-                              className="p-0 w-8 h-8"
-                              asChild
-                            >
-                              <a href={`mailto:${dept.email}`}>
+                              </Button>
+                              <Button
+                                variant="secondary"
+                                size="sm"
+                                className="p-0 w-9 h-9"
+                                onClick={() =>
+                                  router.push(`mailto:${dept.email}`)
+                                }
+                              >
                                 <Mail className="w-3 h-3" />
-                              </a>
-                            </Button>
+                              </Button>
+                            </div>
                           </div>
                         </div>
                       ))}
@@ -569,51 +569,6 @@ export default function ContactUsPage() {
               </CardContent>
             </Card>
           </div>
-        </div>
-
-        {/* Languages Supported Section */}
-
-        {/* Response Time & Social Media */}
-        <div className="gap-8 grid md:grid-cols-2 mt-8">
-          <Card className="md:col-span-2 shadow-lg">
-            <CardHeader>
-              <CardTitle className="flex items-center gap-3 text-xl">
-                <Globe className="w-5 h-5 text-primary" />
-                Connect With Us
-              </CardTitle>
-            </CardHeader>
-            <CardContent className="p-6">
-              <div className="space-y-4">
-                <p className="text-slate-600 text-sm dark:text-slate-400">
-                  Follow us on social media for travel inspiration, company
-                  updates, and exclusive offers.
-                </p>
-                <div className="flex justify-center gap-4">
-                  <Button variant="outline" size="sm" asChild>
-                    <a href="#" className="text-slate-600 hover:text-primary">
-                      LinkedIn
-                    </a>
-                  </Button>
-                  <Button variant="outline" size="sm" asChild>
-                    <a href="#" className="text-slate-600 hover:text-primary">
-                      Instagram
-                    </a>
-                  </Button>
-                  <Button variant="outline" size="sm" asChild>
-                    <a href="#" className="text-slate-600 hover:text-primary">
-                      Facebook
-                    </a>
-                  </Button>
-                </div>
-                <div className="pt-4 border-slate-200 dark:border-slate-700 border-t text-center">
-                  <p className="text-slate-600 text-xs dark:text-slate-400">
-                    Join over 50,000+ travelers who trust Paragon Trails for
-                    their luxury travel experiences
-                  </p>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
         </div>
       </div>
 
