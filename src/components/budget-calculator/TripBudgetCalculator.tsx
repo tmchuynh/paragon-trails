@@ -329,10 +329,10 @@ function TripBudgetCalculator() {
                 value={selectedDestination}
                 onValueChange={setSelectedDestination}
               >
-                <SelectTrigger className="max-w-md">
+                <SelectTrigger className="w-full">
                   <SelectValue placeholder="Choose your destination" />
                 </SelectTrigger>
-                <SelectContent>
+                <SelectContent className="w-full max-h-60">
                   {safeDestinations.map((destination) => (
                     <SelectItem key={destination.id} value={destination.id}>
                       {destination.name}, {destination.country}
@@ -357,10 +357,10 @@ function TripBudgetCalculator() {
                     value={selectedFlight}
                     onValueChange={setSelectedFlight}
                   >
-                    <SelectTrigger className="max-w-md">
+                    <SelectTrigger className="w-full">
                       <SelectValue placeholder="Choose your flight" />
                     </SelectTrigger>
-                    <SelectContent>
+                    <SelectContent className="w-full max-h-60">
                       {getFilteredFlights().length > 0 ? (
                         getFilteredFlights().map((flight) => (
                           <SelectItem key={flight.id} value={flight.id}>
@@ -422,10 +422,10 @@ function TripBudgetCalculator() {
                         value={selectedHotel}
                         onValueChange={setSelectedHotel}
                       >
-                        <SelectTrigger>
+                        <SelectTrigger className="w-full">
                           <SelectValue placeholder="Choose your hotel" />
                         </SelectTrigger>
-                        <SelectContent>
+                        <SelectContent className="w-full max-h-60">
                           {getFilteredHotels().length > 0 ? (
                             getFilteredHotels().map((hotel) => (
                               <SelectItem key={hotel.id} value={hotel.id}>
