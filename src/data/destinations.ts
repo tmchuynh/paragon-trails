@@ -112,8 +112,6 @@ export const mockDestinations: Destination[] = [
         "Long lunch breaks",
         "Evening aperitifs",
       ],
-      languages: ["French", "English"],
-      cuisine: ["French pastries", "Wine", "Cheese", "Haute cuisine"],
     },
     transportation: {
       airports: ["Charles de Gaulle (CDG)", "Orly (ORY)"],
@@ -121,14 +119,6 @@ export const mockDestinations: Destination[] = [
       taxi: true,
       rental: true,
     },
-    accommodation: {
-      budget: 80,
-      midRange: 150,
-      luxury: 400,
-      currency: "EUR",
-    },
-    rating: 4.8,
-    reviews: 15420,
     tags: ["Romantic", "Art", "Culture", "Fashion", "Gastronomy"],
     coordinates: {
       latitude: 48.8566,
@@ -148,12 +138,6 @@ export const mockDestinations: Destination[] = [
       healthRisks: ["None significant"],
       emergencyNumber: "112",
     },
-    tradition: [
-      "Art appreciation",
-      "Wine culture",
-      "Fashion consciousness",
-      "Culinary excellence",
-    ],
   },
   {
     id: "2",
