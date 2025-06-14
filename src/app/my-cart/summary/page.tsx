@@ -133,7 +133,7 @@ export default function CartSummaryPage() {
           </p>
         </div>
 
-        <div className="gap-8 grid lg:grid-cols-2">
+        <div className="gap-8 grid grid-cols-1 lg:grid-cols-2">
           {/* Booking Details */}
           <div className="space-y-6">
             <Card>
