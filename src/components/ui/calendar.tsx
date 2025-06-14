@@ -9,6 +9,20 @@ import * as React from "react";
 import { DayButton, DayPicker, getDefaultClassNames } from "react-day-picker";
 
 import { Button, buttonVariants } from "@/components/ui/button";
+import {
+  DropdownMenuContent,
+  dropdownMenuContentVariants,
+  DropdownMenuItem,
+  dropdownMenuItemVariants,
+} from "@/components/ui/dropdown-menu";
+import {
+  selectContentVariants,
+  SelectItem,
+  selectItemVariants,
+  SelectLabel,
+  SelectTrigger,
+  selectTriggerVariants,
+} from "@/components/ui/select";
 import { cn } from "@/lib/utils";
 
 function Calendar({
@@ -17,11 +31,33 @@ function Calendar({
   showOutsideDays = true,
   captionLayout = "label",
   buttonVariant = "ghost",
+  selectItemVariant = "classic",
+  selectLabelVariant = "classic",
+  selectTriggerVariant = "classic",
+  selectContentVariant = "classic",
+  dropdownMenuContentVariant = "classic",
+  dropdownMenuItemVariant = "classic",
   formatters,
   components,
   ...props
 }: React.ComponentProps<typeof DayPicker> & {
   buttonVariant?: React.ComponentProps<typeof Button>["variant"];
+  captionLayout?: "label" | "dropdown";
+  showOutsideDays?: boolean;
+  classNames?: Partial<React.ComponentProps<typeof DayPicker>["classNames"]>;
+  formatters?: Partial<React.ComponentProps<typeof DayPicker>["formatters"]>;
+  components?: Partial<React.ComponentProps<typeof DayPicker>["components"]>;
+  className?: string;
+  selectItemVariant?: React.ComponentProps<typeof SelectItem>["variant"];
+  selectLabelVariant?: React.ComponentProps<typeof SelectLabel>["variant"];
+  selectContentVariant?: React.ComponentProps<typeof SelectTrigger>["variant"];
+  selectTriggerVariant?: React.ComponentProps<typeof SelectTrigger>["variant"];
+  dropdownMenuItemVariant?: React.ComponentProps<
+    typeof DropdownMenuItem
+  >["variant"];
+  dropdownMenuContentVariant?: React.ComponentProps<
+    typeof DropdownMenuContent
+  >["variant"];
 }) {
   const defaultClassNames = getDefaultClassNames();
 
@@ -66,22 +102,37 @@ function Calendar({
           defaultClassNames.month_caption
         ),
         dropdowns: cn(
-          "w-full flex items-baseline text-sm font-medium justify-center h-(--cell-size) gap-1.5",
+          "w-full flex items-baseline text-sm p-0 m-0 h-fit font-medium justify-center gap-1.5",
           defaultClassNames.dropdowns
         ),
         dropdown_root: cn(
+          selectTriggerVariants({
+            variant: selectTriggerVariant,
+          }),
           "relative has-focus:border-ring border border-input shadow-xs  has-focus:ring-ring/50 has-focus:ring-[3px] rounded-md",
           defaultClassNames.dropdown_root
         ),
         dropdown: cn(
+          dropdownMenuContentVariants({
+            variant: dropdownMenuContentVariant,
+          }),
+          selectContentVariants({
+            variant: selectContentVariant,
+          }),
+          dropdownMenuItemVariants({
+            variant: dropdownMenuItemVariant,
+          }),
+          selectItemVariants({
+            variant: selectItemVariant,
+          }),
           "absolute inset-0 opacity-0 rounded-lg",
           defaultClassNames.dropdown
         ),
         caption_label: cn(
-          "select-none font-medium",
+          "select-none font-medium ",
           captionLayout === "label"
             ? "text-sm"
-            : "rounded-md pl-2 pr-1 flex items-center gap-1 text-sm h-8 [&>svg]:text-muted-foreground [&>svg]:size-3.5",
+            : "rounded-md pl-2 pr-1 flex  items-center gap-1 text-sm h-8 [&>svg]:text-muted-foreground [&>svg]:size-3.5",
           defaultClassNames.caption_label
         ),
         table: "w-full border-collapse",

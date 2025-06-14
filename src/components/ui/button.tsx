@@ -5,44 +5,44 @@ import * as React from "react";
 import { cn } from "@/lib/utils";
 
 const buttonVariants = cva(
-  "inline-flex justify-center items-center gap-2 disabled:opacity-50 my-2 aria-invalid:border-destructive focus-visible:border-ring rounded-md aria-invalid:ring-destructive/20 focus-visible:ring-[3px] focus-visible:ring-ring/50 dark:aria-invalid:ring-destructive/40 font-[Nunito] font-bold font-medium text-sm uppercase whitespace-nowrap transition-all [&_svg]:pointer-events-none disabled:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none",
+  "inline-flex justify-center items-center gap-2 disabled:opacity-50 aria-invalid:border-destructive focus-visible:border-ring rounded-lg aria-invalid:ring-destructive/20 focus-visible:ring-[3px] focus-visible:ring-ring/50 dark:aria-invalid:ring-destructive/40 font-medium text-sm whitespace-nowrap transition-all [&_svg]:pointer-events-none disabled:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none",
   {
     variants: {
       variant: {
         default:
-          "bg-primary text-primary-foreground shadow-xs hover:shadow-md dark:hover:bg-primary/90",
+          "bg-primary text-primary-foreground shadow-sm hover:bg-primary/90 hover:shadow-md focus-visible:ring-primary/20",
+        minimal:
+          "bg-card text-card-foreground border border-muted shadow-none hover:bg-muted/40 hover:border-muted-foreground/20 focus-visible:ring-muted-foreground/30",
+        modern:
+          "bg-gradient-to-r from-primary to-primary/80 text-primary-foreground shadow-md hover:shadow-lg hover:from-primary/90 hover:to-primary/70 focus-visible:ring-primary/30",
+        classic:
+          "bg-secondary text-secondary-foreground border border-secondary/20 shadow-sm hover:bg-secondary/80 hover:shadow-md focus-visible:ring-secondary/20",
+        professional:
+          "bg-neutral-50 text-neutral-900 border border-neutral-200/80 shadow-none hover:bg-neutral-100 hover:border-neutral-300 dark:bg-neutral-900 dark:text-neutral-100 dark:border-neutral-800 dark:hover:bg-neutral-800 dark:hover:border-neutral-700 focus-visible:ring-neutral-400/30",
+        glass:
+          "bg-white/30 backdrop-blur-md text-foreground border border-white/20 shadow-lg hover:bg-white/40 hover:border-white/30 supports-[backdrop-filter]:bg-white/30 dark:bg-black/20 dark:hover:bg-black/30 dark:border-white/10 focus-visible:ring-white/30",
         destructive:
-          "bg-destructive text-white shadow-xs hover:shadow-md focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60",
+          "bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/90 hover:shadow-md focus-visible:ring-destructive/20",
         outline:
-          "border bg-background border-double border-4 shadow-xs hover:border-outline text-foreground ",
-        secondary:
-          "bg-secondary text-secondary-foreground shadow-xs hover:shadow-md dark:hover:bg-secondary/80",
-        ghost: "hover:bg-accent dark:hover:bg-accent/50",
-        link: "text-primary underline-offset-4 hover:underline hover:shadow-none",
-        muted:
-          "bg-muted text-muted-foreground shadow-xs hover:shadow-md dark:hover:bg-muted/80",
-        tertiary:
-          "bg-tertiary text-tertiary-foreground shadow-xs hover:shadow-md dark:hover:bg-tertiary/80",
-        fancy:
-          "bg-fancy text-fancy-foreground shadow-xs hover:shadow-md dark:hover:bg-fancy/80",
-        accent:
-          "bg-accent text-accent-foreground  outline shadow-xs hover:shadow-md dark:hover:bg-accent/80",
-        disabled:
-          "border-transparent bg-muted/45 text-muted-foreground/50 cursor-not-allowed",
-        icon: "bg-transparent text-accent hover:bg-muted shadow-none hover:text-accent",
+          "border border-border bg-transparent text-foreground shadow-sm hover:bg-accent hover:text-accent-foreground hover:shadow-md focus-visible:ring-border/20",
+        ghost:
+          "bg-transparent text-muted-foreground hover:bg-muted/30 hover:text-foreground transition-colors focus-visible:ring-muted/40",
+        link: "text-primary underline-offset-4 hover:underline bg-transparent shadow-none focus-visible:ring-primary/20",
+        icon: "bg-transparent text-muted-foreground hover:bg-accent hover:text-accent-foreground shadow-none focus-visible:ring-accent/20",
       },
       size: {
+        sm: "h-8 px-3 text-xs gap-1.5 has-[>svg]:px-2.5",
         default: "h-9 px-4 py-2 has-[>svg]:px-3",
-        sm: "h-8 rounded-md gap-1.5 px-3 has-[>svg]:px-2.5",
-        lg: "h-10 rounded-md px-6 has-[>svg]:px-4",
-        icon: "size-9",
+        lg: "h-11 px-6 text-base has-[>svg]:px-5",
+        xl: "h-12 px-8 text-lg has-[>svg]:px-7",
+        icon: "size-9 p-0",
       },
     },
     defaultVariants: {
       variant: "default",
       size: "default",
     },
-  },
+  }
 );
 
 function Button({
