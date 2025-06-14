@@ -126,7 +126,60 @@ export default function VehicleDetailPage() {
   };
 
   const days = calculateDays();
-  const totalPrice = vehicle.pricing.daily * days * quantity;
+
+  // Calculate optimized pricing with cascading rates
+  const calculateOptimizedPricing = () => {
+    const months = Math.floor(days / 30);
+    const remainingDaysAfterMonths = days % 30;
+    const weeks = Math.floor(remainingDaysAfterMonths / 7);
+    const remainingDays = remainingDaysAfterMonths % 7;
+
+    const monthlyTotal = months * vehicle.pricing.monthly;
+    const weeklyTotal = weeks * vehicle.pricing.weekly;
+    const dailyTotal = remainingDays * vehicle.pricing.daily;
+    const optimizedTotal = monthlyTotal + weeklyTotal + dailyTotal;
+
+    // Calculate what it would cost at daily rate only
+    const dailyOnlyTotal = days * vehicle.pricing.daily;
+    const savings = dailyOnlyTotal - optimizedTotal;
+
+    return {
+      months,
+      weeks,
+      remainingDays,
+      monthlyTotal,
+      weeklyTotal,
+      dailyTotal,
+      optimizedTotal,
+      dailyOnlyTotal,
+      savings,
+      breakdown: {
+        monthly:
+          months > 0
+            ? {
+                count: months,
+                rate: vehicle.pricing.monthly,
+                total: monthlyTotal,
+              }
+            : null,
+        weekly:
+          weeks > 0
+            ? { count: weeks, rate: vehicle.pricing.weekly, total: weeklyTotal }
+            : null,
+        daily:
+          remainingDays > 0
+            ? {
+                count: remainingDays,
+                rate: vehicle.pricing.daily,
+                total: dailyTotal,
+              }
+            : null,
+      },
+    };
+  };
+
+  const pricingDetails = calculateOptimizedPricing();
+  const totalPrice = pricingDetails.optimizedTotal * quantity;
 
   // Format date to string
   const formatDateToString = (date: Date | undefined) => {
@@ -196,7 +249,7 @@ export default function VehicleDetailPage() {
       name: vehicle.name,
       description: `${vehicle.brand} ${vehicle.model} ${vehicle.year} - ${vehicle.description}`,
       image: vehicle.images[0],
-      price: vehicle.pricing.daily,
+      price: pricingDetails.optimizedTotal, // Use optimized pricing instead of daily rate
       dates: {
         startDate,
         endDate,
@@ -446,6 +499,62 @@ export default function VehicleDetailPage() {
 
                 <Card className="p-0">
                   <CardContent className="p-6">
+                    <div className="space-y-2 text-sm">
+                      <div className="flex justify-between items-center mb-4 font-semibold text-lg">
+                        Quick Facts
+                        <Badge
+                          variant={
+                            vehicle.availability.isAvailable
+                              ? "success"
+                              : "error"
+                          }
+                          size="sm"
+                        >
+                          {vehicle.availability.isAvailable
+                            ? "Available"
+                            : "Unavailable"}
+                        </Badge>
+                      </div>
+                      <div className="flex justify-between">
+                        <span>Vehicle Type</span>
+                        <Badge variant="secondary" className="capitalize">
+                          {vehicle.type.replace("-", " ")}
+                        </Badge>
+                      </div>
+                      <div className="flex justify-between">
+                        <span>Brand</span>
+                        <span className="font-medium">{vehicle.brand}</span>
+                      </div>
+                      <div className="flex justify-between">
+                        <span>Model Year</span>
+                        <span className="font-medium">{vehicle.year}</span>
+                      </div>
+                      {vehicle.specifications.seatingCapacity && (
+                        <div className="flex justify-between">
+                          <span>Capacity</span>
+                          <span className="font-medium">
+                            {vehicle.specifications.seatingCapacity}{" "}
+                            {vehicle.specifications.seatingCapacity > 1
+                              ? "Seats"
+                              : "Seat"}
+                          </span>
+                        </div>
+                      )}
+                      <div className="flex justify-between">
+                        <span>Rating</span>
+                        <div className="flex items-center gap-1">
+                          <span className="font-medium">
+                            {vehicle.rating}/5
+                          </span>
+                          <Star className="w-3 h-3 text-yellow-400 fill-yellow-400" />
+                        </div>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                <Card className="p-0">
+                  <CardContent className="p-6">
                     <div className="flex items-center gap-2 mb-4 font-semibold text-lg">
                       <MapPin className="w-5 h-5" />
                       Availability & Locations
@@ -587,20 +696,13 @@ export default function VehicleDetailPage() {
                       <CheckCircle className="w-5 h-5" />
                       Vehicle Features & Amenities
                     </div>
-                    <div className="gap-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                    <ul className="gap-2 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                       {vehicle.features.map(
                         (feature: string, index: number) => (
-                          <Badge
-                            key={index}
-                            variant="outline"
-                            className="flex justify-start items-center gap-2 p-3"
-                          >
-                            <CheckCircle className="w-4 h-4 text-green-500" />
-                            <span className="text-sm">{feature}</span>
-                          </Badge>
+                          <li key={index}>{feature}</li>
                         )
                       )}
-                    </div>
+                    </ul>
                   </CardContent>
                 </Card>
               </TabsContent>
@@ -682,16 +784,15 @@ export default function VehicleDetailPage() {
                 {/* Contact Information */}
                 <Card className="mt-8 p-0">
                   <CardContent className="p-6">
-                    <div className="flex justify-center items-center gap-6 text-center">
-                      <div className="flex items-center gap-2">
+                    <div className="flex justify-around items-center gap-6 text-center">
+                      <div className="flex flex-col items-center gap-2">
                         <Phone className="w-5 h-5 text-primary" />
                         <div>
                           <p className="font-medium">Need Help?</p>
                           <p className="text-sm">+1 (310) 477-8845</p>
                         </div>
                       </div>
-                      <Separator orientation="vertical" className="h-12" />
-                      <div className="flex items-center gap-2">
+                      <div className="flex flex-col items-center gap-2">
                         <MapPin className="w-5 h-5 text-primary" />
                         <div>
                           <p className="font-medium">Available Locations</p>
@@ -714,7 +815,7 @@ export default function VehicleDetailPage() {
               <CardContent className="p-6">
                 <div className="flex items-center gap-2 mb-4 font-semibold text-lg">
                   <DollarSign className="w-5 h-5" />
-                  Vehicle Pricing
+                  Pricing
                 </div>
                 <div className="space-y-3">
                   <div className="flex justify-between">
@@ -725,67 +826,35 @@ export default function VehicleDetailPage() {
                   </div>
                   <div className="flex justify-between">
                     <span className="text-sm">Weekly Rate:</span>
-                    <span className="font-medium">
-                      {formatPrice(vehicle.pricing.weekly)}
-                    </span>
+                    <div className="text-right">
+                      <span className="font-medium">
+                        {formatPrice(vehicle.pricing.weekly)}
+                      </span>
+                      <div className="text-green-600 text-xs">
+                        Save{" "}
+                        {formatPrice(
+                          vehicle.pricing.daily * 7 - vehicle.pricing.weekly
+                        )}
+                      </div>
+                    </div>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-sm">Monthly Rate:</span>
-                    <span className="font-medium">
-                      {formatPrice(vehicle.pricing.monthly)}
-                    </span>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="p-0">
-              <CardContent className="p-6">
-                <div className="space-y-2 text-sm">
-                  <div className="flex justify-between items-center mb-4 font-semibold text-lg">
-                    Quick Facts
-                    <Badge
-                      variant={
-                        vehicle.availability.isAvailable ? "success" : "error"
-                      }
-                      size="sm"
-                    >
-                      {vehicle.availability.isAvailable
-                        ? "Available"
-                        : "Unavailable"}
-                    </Badge>
-                  </div>
-                  <div className="flex justify-between">
-                    <span>Vehicle Type</span>
-                    <Badge variant="secondary" className="capitalize">
-                      {vehicle.type.replace("-", " ")}
-                    </Badge>
-                  </div>
-                  <div className="flex justify-between">
-                    <span>Brand</span>
-                    <span className="font-medium">{vehicle.brand}</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span>Model Year</span>
-                    <span className="font-medium">{vehicle.year}</span>
-                  </div>
-                  {vehicle.specifications.seatingCapacity && (
-                    <div className="flex justify-between">
-                      <span>Capacity</span>
+                    <div className="text-right">
                       <span className="font-medium">
-                        {vehicle.specifications.seatingCapacity}{" "}
-                        {vehicle.specifications.seatingCapacity > 1
-                          ? "Seats"
-                          : "Seat"}
+                        {formatPrice(vehicle.pricing.monthly)}
                       </span>
+                      <div className="text-green-600 text-xs">
+                        Save{" "}
+                        {formatPrice(
+                          vehicle.pricing.daily * 30 - vehicle.pricing.monthly
+                        )}
+                      </div>
                     </div>
-                  )}
-                  <div className="flex justify-between">
-                    <span>Rating</span>
-                    <div className="flex items-center gap-1">
-                      <span className="font-medium">{vehicle.rating}/5</span>
-                      <Star className="w-3 h-3 text-yellow-400 fill-yellow-400" />
-                    </div>
+                  </div>
+                  <div className="bg-muted/30 mt-2 p-2 rounded text-muted-foreground text-xs">
+                    💡 Longer rentals automatically use the best rates for
+                    maximum savings!
                   </div>
                 </div>
               </CardContent>
@@ -794,7 +863,14 @@ export default function VehicleDetailPage() {
             {/* Booking Card */}
             <Card>
               <CardHeader>
-                <CardTitle className="text-xl">Book This Vehicle</CardTitle>
+                <CardTitle className="flex justify-between items-center text-xl">
+                  Book This Vehicle
+                  {pricingDetails.savings > 0 && (
+                    <Badge variant="success" className="text-xs">
+                      💰 Smart Pricing
+                    </Badge>
+                  )}
+                </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="space-y-2">
@@ -915,12 +991,56 @@ export default function VehicleDetailPage() {
                 <Separator />
 
                 <div className="space-y-2">
-                  <div className="flex justify-between">
-                    <span>Daily Rate:</span>
-                    <span className="font-medium">
-                      {formatPrice(vehicle.pricing.daily)}
-                    </span>
-                  </div>
+                  {/* Pricing Breakdown */}
+                  {pricingDetails.breakdown.monthly && (
+                    <div className="flex justify-between">
+                      <span>
+                        Monthly Rate ({pricingDetails.breakdown.monthly.count}{" "}
+                        month
+                        {pricingDetails.breakdown.monthly.count > 1 ? "s" : ""}
+                        ):
+                      </span>
+                      <span className="font-medium">
+                        {formatPrice(pricingDetails.breakdown.monthly.total)}
+                      </span>
+                    </div>
+                  )}
+                  {pricingDetails.breakdown.weekly && (
+                    <div className="flex justify-between">
+                      <span>
+                        Weekly Rate ({pricingDetails.breakdown.weekly.count}{" "}
+                        week
+                        {pricingDetails.breakdown.weekly.count > 1 ? "s" : ""}):
+                      </span>
+                      <span className="font-medium">
+                        {formatPrice(pricingDetails.breakdown.weekly.total)}
+                      </span>
+                    </div>
+                  )}
+                  {pricingDetails.breakdown.daily && (
+                    <div className="flex justify-between">
+                      <span>
+                        Daily Rate ({pricingDetails.breakdown.daily.count} day
+                        {pricingDetails.breakdown.daily.count > 1 ? "s" : ""}):
+                      </span>
+                      <span className="font-medium">
+                        {formatPrice(pricingDetails.breakdown.daily.total)}
+                      </span>
+                    </div>
+                  )}
+
+                  {/* Show simple daily rate if less than 7 days */}
+                  {days < 7 && (
+                    <div className="flex justify-between">
+                      <span>
+                        Daily Rate ({days} day{days !== 1 ? "s" : ""}):
+                      </span>
+                      <span className="font-medium">
+                        {formatPrice(pricingDetails.optimizedTotal)}
+                      </span>
+                    </div>
+                  )}
+
                   <div className="flex justify-between">
                     <span>Duration:</span>
                     <span className="font-medium">
@@ -931,6 +1051,23 @@ export default function VehicleDetailPage() {
                     <span>Number of Vehicles:</span>
                     <span className="font-medium">{quantity}</span>
                   </div>
+
+                  {/* Show savings if applicable */}
+                  {pricingDetails.savings > 0 && (
+                    <>
+                      <Separator />
+                      <div className="flex justify-between text-green-600">
+                        <span>Savings (vs daily rate):</span>
+                        <span className="font-medium">
+                          -{formatPrice(pricingDetails.savings * quantity)}
+                        </span>
+                      </div>
+                      <div className="text-muted-foreground text-xs">
+                        You save by renting for longer periods!
+                      </div>
+                    </>
+                  )}
+
                   <Separator />
                   <div className="flex justify-between font-bold text-lg">
                     <span>Total:</span>
