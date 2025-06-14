@@ -16,6 +16,7 @@ import { useCurrency } from "@/context/CurrencyContext";
 import { mockActivities } from "@/data/activities";
 import { mockTours } from "@/data/tours";
 import { formatToSlug } from "@/lib/utils/format";
+import { Label } from "@radix-ui/react-label";
 import {
   ArrowLeft,
   Calendar,
@@ -61,7 +62,7 @@ export default function ActivityDetailsPage() {
       (activity) => activity.id === newActivityId
     );
     if (newActivity) {
-      const newSlug = newActivity.name.toLowerCase().replace(/\s+/g, "-");
+      const newSlug = formatToSlug(newActivity.name);
       // Update URL without reloading the page
       router.replace(`/activities/${newSlug}`, { scroll: false });
     }
@@ -124,7 +125,7 @@ export default function ActivityDetailsPage() {
         {/* Activity Selector */}
         <div className="mb-6">
           <div className="flex items-center gap-4">
-            <label className="font-medium text-sm">Choose Activity:</label>
+            <Label className="font-medium text-sm">Choose Activity:</Label>
             <Select
               value={currentActivity?.id || ""}
               onValueChange={handleActivityChange}
@@ -195,7 +196,7 @@ export default function ActivityDetailsPage() {
               {currentActivity.images
                 .slice(0, 4)
                 .map((image: string, index: number) => (
-                  <button
+                  <Button
                     key={index}
                     onClick={() => setSelectedImageIndex(index)}
                     className={`relative w-24 h-16 rounded-lg overflow-hidden ${
@@ -208,7 +209,7 @@ export default function ActivityDetailsPage() {
                       fill
                       className="object-cover"
                     />
-                  </button>
+                  </Button>
                 ))}
             </div>
           )}
