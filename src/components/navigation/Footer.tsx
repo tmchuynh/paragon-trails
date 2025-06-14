@@ -137,7 +137,7 @@ export default function Footer() {
                     required
                     placeholder="Enter your email"
                     autoComplete="email"
-                    className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                    className="focus:border-muted border-border focus:ring-muted/20 h-8"
                   />
                   <Button type="submit">Subscribe</Button>
                 </div>
