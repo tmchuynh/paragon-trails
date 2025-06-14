@@ -117,10 +117,10 @@ export default function SearchByDestinationPage() {
                 value={selectedContinent}
                 onValueChange={setSelectedContinent}
               >
-                <SelectTrigger>
+                <SelectTrigger className="w-full">
                   <SelectValue placeholder="Select continent" />
                 </SelectTrigger>
-                <SelectContent>
+                <SelectContent className="w-full max-h-60">
                   {continents.map((continent) => (
                     <SelectItem key={continent.value} value={continent.value}>
                       {continent.label}
@@ -133,10 +133,10 @@ export default function SearchByDestinationPage() {
             <div className="space-y-2">
               <label className="font-medium text-sm">Sort By</label>
               <Select value={sortBy} onValueChange={setSortBy}>
-                <SelectTrigger>
+                <SelectTrigger className="w-full">
                   <SelectValue placeholder="Sort by" />
                 </SelectTrigger>
-                <SelectContent>
+                <SelectContent className="w-full max-h-60">
                   <SelectItem value="name">Name (A-Z)</SelectItem>
                   <SelectItem value="price">Price (Low to High)</SelectItem>
                   <SelectItem value="rating">Rating (High to Low)</SelectItem>
