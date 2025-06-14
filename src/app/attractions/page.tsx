@@ -47,7 +47,7 @@ export default function AttractionsPage() {
 
   // Pagination state
   const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage, setItemsPerPage] = useState(9);
+  const [itemsPerPage, setItemsPerPage] = useState(8);
 
   // Get unique values for filters
   const countries = [
@@ -262,7 +262,7 @@ export default function AttractionsPage() {
                     value={selectedCountry}
                     onValueChange={setSelectedCountry}
                   >
-                    <SelectTrigger className="pl-10 w-full">
+                    <SelectTrigger className="pl-10 border border-border w-full">
                       <SelectValue placeholder="Select country" />
                     </SelectTrigger>
                     <SelectContent className="w-full max-h-60">
@@ -280,7 +280,7 @@ export default function AttractionsPage() {
               <div className="space-y-2">
                 <Label htmlFor="type">Type</Label>
                 <Select value={selectedType} onValueChange={setSelectedType}>
-                  <SelectTrigger className="w-full">
+                  <SelectTrigger className="border border-border w-full">
                     <SelectValue placeholder="Select type" />
                   </SelectTrigger>
                   <SelectContent className="w-full max-h-60">
@@ -300,7 +300,7 @@ export default function AttractionsPage() {
                   value={selectedCategory}
                   onValueChange={setSelectedCategory}
                 >
-                  <SelectTrigger className="w-full">
+                  <SelectTrigger className="border border-border w-full">
                     <SelectValue placeholder="Select category" />
                   </SelectTrigger>
                   <SelectContent className="w-full max-h-60">
@@ -318,7 +318,7 @@ export default function AttractionsPage() {
                 <Button
                   onClick={resetFilters}
                   variant="outline"
-                  className="w-full"
+                  className="m-0 p-0 w-full"
                 >
                   <RotateCcw className="mr-2 w-4 h-4" />
                   Reset Filters
@@ -360,7 +360,7 @@ export default function AttractionsPage() {
                       value={selectedTimeToVisit}
                       onValueChange={setSelectedTimeToVisit}
                     >
-                      <SelectTrigger className="w-full">
+                      <SelectTrigger className="border border-border w-full">
                         <SelectValue placeholder="Select time" />
                       </SelectTrigger>
                       <SelectContent className="w-full max-h-60">
@@ -380,7 +380,7 @@ export default function AttractionsPage() {
                       value={accessibilityRequired}
                       onValueChange={setAccessibilityRequired}
                     >
-                      <SelectTrigger className="w-full">
+                      <SelectTrigger className="border border-border w-full">
                         <SelectValue placeholder="Accessibility" />
                       </SelectTrigger>
                       <SelectContent className="w-full max-h-60">
@@ -398,7 +398,7 @@ export default function AttractionsPage() {
                       value={skipLineAvailable}
                       onValueChange={setSkipLineAvailable}
                     >
-                      <SelectTrigger className="w-full">
+                      <SelectTrigger className="border border-border w-full">
                         <SelectValue placeholder="Skip line" />
                       </SelectTrigger>
                       <SelectContent className="w-full max-h-60">
@@ -489,7 +489,7 @@ export default function AttractionsPage() {
                     value={itemsPerPage.toString()}
                     onValueChange={(value) => setItemsPerPage(Number(value))}
                   >
-                    <SelectTrigger className="w-20">
+                    <SelectTrigger className="border border-border w-20">
                       <SelectValue />
                     </SelectTrigger>
                     <SelectContent className="w-full max-h-60">
@@ -504,7 +504,7 @@ export default function AttractionsPage() {
 
                 {/* Sort dropdown */}
                 <Select value={sortBy} onValueChange={setSortBy}>
-                  <SelectTrigger className="w-48">
+                  <SelectTrigger className="border border-border w-48">
                     <SelectValue />
                   </SelectTrigger>
                   <SelectContent className="w-full max-h-60">
