@@ -27,6 +27,7 @@ import { Slider } from "@/components/ui/slider";
 import { useCurrency } from "@/context/CurrencyContext";
 import { mockActivities } from "@/data/activities";
 import { Activity } from "@/lib/interfaces/services/activities";
+import { formatToSlug } from "@/lib/utils/format";
 import {
   Calendar,
   Clock,
@@ -64,7 +65,7 @@ export default function ActivitiesPage() {
   const cities = [
     { value: "all", label: "All Cities" },
     ...Array.from(
-      new Set(mockActivities.map((activity) => activity.location.city)),
+      new Set(mockActivities.map((activity) => activity.location.city))
     )
       .sort()
       .map((city) => ({ value: city, label: city })),
@@ -73,7 +74,7 @@ export default function ActivitiesPage() {
   const countries = [
     { value: "all", label: "All Countries" },
     ...Array.from(
-      new Set(mockActivities.map((activity) => activity.location.country)),
+      new Set(mockActivities.map((activity) => activity.location.country))
     )
       .sort()
       .map((country) => ({ value: country, label: country })),
@@ -89,7 +90,7 @@ export default function ActivitiesPage() {
   const difficulties = [
     { value: "all", label: "All Difficulties" },
     ...Array.from(
-      new Set(mockActivities.map((activity) => activity.difficulty)),
+      new Set(mockActivities.map((activity) => activity.difficulty))
     )
       .sort()
       .map((difficulty) => ({ value: difficulty, label: difficulty })),
@@ -119,42 +120,42 @@ export default function ActivitiesPage() {
           activity.location.country
             .toLowerCase()
             .includes(searchQuery.toLowerCase()) ||
-          activity.category.toLowerCase().includes(searchQuery.toLowerCase()),
+          activity.category.toLowerCase().includes(searchQuery.toLowerCase())
       );
     }
 
     // Filter by city
     if (selectedCity !== "all") {
       filtered = filtered.filter(
-        (activity) => activity.location.city === selectedCity,
+        (activity) => activity.location.city === selectedCity
       );
     }
 
     // Filter by country
     if (selectedCountry !== "all") {
       filtered = filtered.filter(
-        (activity) => activity.location.country === selectedCountry,
+        (activity) => activity.location.country === selectedCountry
       );
     }
 
     // Filter by category
     if (selectedCategory !== "all") {
       filtered = filtered.filter(
-        (activity) => activity.category === selectedCategory,
+        (activity) => activity.category === selectedCategory
       );
     }
 
     // Filter by difficulty
     if (selectedDifficulty !== "all") {
       filtered = filtered.filter(
-        (activity) => activity.difficulty === selectedDifficulty,
+        (activity) => activity.difficulty === selectedDifficulty
       );
     }
 
     // Filter by duration
     if (selectedDuration !== "all") {
       filtered = filtered.filter(
-        (activity) => activity.duration === selectedDuration,
+        (activity) => activity.duration === selectedDuration
       );
     }
 
@@ -162,7 +163,7 @@ export default function ActivitiesPage() {
     filtered = filtered.filter(
       (activity) =>
         activity.pricing.adult >= priceRange[0] &&
-        activity.pricing.adult <= priceRange[1],
+        activity.pricing.adult <= priceRange[1]
     );
 
     // Sort results
@@ -348,7 +349,7 @@ export default function ActivitiesPage() {
         <div className="gap-8 grid lg:grid-cols-4">
           {/* Filters Sidebar */}
           <div className="space-y-6 lg:col-span-1">
-            <Card>
+            <Card className="p-0">
               <div className="p-6">
                 <div className="flex items-center gap-2 mb-4">
                   <Filter className="w-5 h-5" />
@@ -530,7 +531,7 @@ export default function ActivitiesPage() {
                       className="group hover:shadow-xl p-0 transition-all cursor-pointer overflow-hidden"
                       onClick={() =>
                         router.push(
-                          `/activities/${activity.id.toLowerCase().replace(/\s+/g, "-")}`,
+                          `/activities/${formatToSlug(activity.name)}`
                         )
                       }
                     >
@@ -547,7 +548,7 @@ export default function ActivitiesPage() {
                         <div className="top-4 left-4 absolute">
                           <Badge
                             variant={getDifficultyBadgeVariant(
-                              activity.difficulty,
+                              activity.difficulty
                             )}
                           >
                             {activity.difficulty}
@@ -564,7 +565,7 @@ export default function ActivitiesPage() {
                       </div>
 
                       <div className="p-6">
-                        <div className="flex justify-between items-start mb-3">
+                        <div className="flex justify-between items-center mb-3">
                           <h3 className="font-bold text-slate-900 text-xl dark:group-hover:text-blue-400 dark:text-white group-hover:text-blue-600 transition-colors">
                             {activity.name}
                           </h3>
@@ -663,7 +664,7 @@ export default function ActivitiesPage() {
                                 </PaginationLink>
                               </PaginationItem>
                             );
-                          },
+                          }
                         )}
 
                         {totalPages > 5 && currentPage < totalPages - 2 && (
