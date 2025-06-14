@@ -313,7 +313,7 @@ function TripBudgetCalculator() {
                   placeholder="Enter your vacation budget"
                   value={currentBudget}
                   onChange={(e) => setCurrentBudget(e.target.value)}
-                  className="max-w-xs"
+                  className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
                 />
               </div>
             </CardContent>
@@ -380,7 +380,7 @@ function TripBudgetCalculator() {
                     <div className="bg-blue-50 dark:bg-blue-900/20 p-3 rounded-lg">
                       {(() => {
                         const flight = safeFlights.find(
-                          (f) => f.id === selectedFlight,
+                          (f) => f.id === selectedFlight
                         );
                         return flight ? (
                           <div className="text-sm">
@@ -449,6 +449,7 @@ function TripBudgetCalculator() {
                         min="1"
                         max="30"
                         value={hotelNights}
+                        className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
                         onChange={(e) =>
                           setHotelNights(parseInt(e.target.value) || 1)
                         }
@@ -459,7 +460,7 @@ function TripBudgetCalculator() {
                     <div className="bg-green-50 dark:bg-green-900/20 p-3 rounded-lg">
                       {(() => {
                         const hotel = safeHotels.find(
-                          (h) => h.id === selectedHotel,
+                          (h) => h.id === selectedHotel
                         );
                         return hotel ? (
                           <div className="text-sm">
@@ -500,7 +501,7 @@ function TripBudgetCalculator() {
                     >
                       <Checkbox
                         checked={selectedItems.some(
-                          (item) => item.id === activity.id,
+                          (item) => item.id === activity.id
                         )}
                         className="data-[state=checked]:bg-accent dark:data-[state=checked]:bg-accent data-[state=checked]:border-accent data-[state=checked]:text-accent-foreground"
                         onCheckedChange={() =>
@@ -538,7 +539,7 @@ function TripBudgetCalculator() {
                     >
                       <Checkbox
                         checked={selectedItems.some(
-                          (item) => item.id === attraction.id,
+                          (item) => item.id === attraction.id
                         )}
                         className="data-[state=checked]:bg-accent dark:data-[state=checked]:bg-accent data-[state=checked]:border-accent data-[state=checked]:text-accent-foreground"
                         onCheckedChange={() =>
@@ -576,7 +577,7 @@ function TripBudgetCalculator() {
                     >
                       <Checkbox
                         checked={selectedItems.some(
-                          (item) => item.id === tour.id,
+                          (item) => item.id === tour.id
                         )}
                         className="data-[state=checked]:bg-accent dark:data-[state=checked]:bg-accent data-[state=checked]:border-accent data-[state=checked]:text-accent-foreground"
                         onCheckedChange={() =>
@@ -648,7 +649,7 @@ function TripBudgetCalculator() {
                     {selectedFlight &&
                       (() => {
                         const flight = safeFlights.find(
-                          (f) => f.id === selectedFlight,
+                          (f) => f.id === selectedFlight
                         );
                         return flight ? (
                           <div className="flex justify-between items-center bg-blue-50 dark:bg-blue-800 p-2 rounded">
@@ -671,7 +672,7 @@ function TripBudgetCalculator() {
                     {selectedHotel &&
                       (() => {
                         const hotel = safeHotels.find(
-                          (h) => h.id === selectedHotel,
+                          (h) => h.id === selectedHotel
                         );
                         return hotel ? (
                           <div className="flex justify-between items-center bg-green-50 dark:bg-green-800 p-2 rounded">
@@ -811,7 +812,7 @@ function TripBudgetCalculator() {
                     type="number"
                     placeholder="Enter your monthly income"
                     value={budgetPlan.monthlyIncome || ""}
-                    className="mt-1"
+                    className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
                     onChange={(e) =>
                       setBudgetPlan((prev) => ({
                         ...prev,
@@ -829,7 +830,7 @@ function TripBudgetCalculator() {
                     type="number"
                     placeholder="Enter your monthly expenses"
                     value={budgetPlan.monthlyExpenses || ""}
-                    className="mt-1"
+                    className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
                     onChange={(e) =>
                       setBudgetPlan((prev) => ({
                         ...prev,
@@ -877,7 +878,7 @@ function TripBudgetCalculator() {
                         placeholder="Enter custom %"
                         value={customPercentage}
                         onChange={(e) => handlePercentageChange(e.target.value)}
-                        className="mt-1 max-w-xs"
+                        className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
                       />
                     </div>
 
@@ -931,7 +932,7 @@ function TripBudgetCalculator() {
                                   24 *
                                   60 *
                                   60 *
-                                  1000,
+                                  1000
                             ).toLocaleDateString()}
                           </p>
                         </div>
