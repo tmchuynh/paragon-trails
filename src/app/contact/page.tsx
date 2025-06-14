@@ -3,10 +3,27 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  HoverCard,
+  HoverCardContent,
+  HoverCardTrigger,
+} from "@/components/ui/hover-card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import { Separator } from "@/components/ui/separator";
 import { Textarea } from "@/components/ui/textarea";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 import { contactDepartments } from "@/lib/constants/info/contact";
 import {
   Clock,
@@ -167,62 +184,109 @@ export default function ContactUsPage() {
                     </div>
                     <div className="space-y-2">
                       <Label htmlFor="department">Department</Label>
-                      <select
-                        id="department"
-                        name="department"
+                      <Select
                         value={formData.department}
-                        onChange={handleInputChange}
-                        className="flex bg-background file:bg-transparent disabled:opacity-50 px-3 py-2 border border-input file:border-0 rounded-md focus-visible:ring-2 focus-visible:ring-ring ring-offset-background focus-visible:ring-offset-2 w-full file:font-medium text-sm placeholder:text-muted-foreground file:text-foreground file:text-sm disabled:cursor-not-allowed focus-visible:outline-none"
-                        aria-describedby="department-help"
+                        onValueChange={(value) =>
+                          setFormData((prev) => ({
+                            ...prev,
+                            department: value,
+                          }))
+                        }
                       >
-                        <option value="">Select a department</option>
-                        {contactDepartments.map((dept) => (
-                          <option key={dept.department} value={dept.department}>
-                            {dept.department}
-                          </option>
-                        ))}
-                      </select>
-                      <p
-                        id="department-help"
-                        className="text-slate-500 text-xs"
-                      >
+                        <SelectTrigger className="w-full">
+                          <SelectValue placeholder="Select a department" />
+                        </SelectTrigger>
+                        <SelectContent>
+                          {contactDepartments.map((dept) => (
+                            <SelectItem
+                              key={dept.department}
+                              value={dept.department}
+                            >
+                              <HoverCard>
+                                <HoverCardTrigger asChild>
+                                  <span className="cursor-pointer">
+                                    {dept.department}
+                                  </span>
+                                </HoverCardTrigger>
+                                <HoverCardContent>
+                                  <div className="space-y-2">
+                                    <h4 className="font-semibold text-sm">
+                                      {dept.department}
+                                    </h4>
+                                    <p className="text-muted-foreground text-xs">
+                                      {dept.description}
+                                    </p>
+                                    <div className="space-y-1 text-xs">
+                                      <p>📞 {dept.phone}</p>
+                                      <p>✉️ {dept.email}</p>
+                                    </div>
+                                  </div>
+                                </HoverCardContent>
+                              </HoverCard>
+                            </SelectItem>
+                          ))}
+                        </SelectContent>
+                      </Select>
+                      <p className="text-muted-foreground text-xs">
                         Choose the most relevant department for faster response
                       </p>
                     </div>
                   </div>
 
-                  {/* Priority and Subject */}
-                  <div className="gap-4 grid grid-cols-1 sm:grid-cols-3">
-                    <div className="space-y-2">
-                      <Label htmlFor="priority">Priority</Label>
-                      <select
-                        id="priority"
-                        name="priority"
-                        value={formData.priority}
-                        onChange={handleInputChange}
-                        className="flex bg-background file:bg-transparent disabled:opacity-50 px-3 py-2 border border-input file:border-0 rounded-md focus-visible:ring-2 focus-visible:ring-ring ring-offset-background focus-visible:ring-offset-2 w-full file:font-medium text-sm placeholder:text-muted-foreground file:text-foreground file:text-sm disabled:cursor-not-allowed focus-visible:outline-none"
-                        aria-describedby="priority-help"
-                      >
-                        <option value="normal">Normal</option>
-                        <option value="urgent">Urgent</option>
-                        <option value="emergency">Emergency</option>
-                      </select>
-                      <p id="priority-help" className="text-slate-500 text-xs">
-                        Emergency: Travel disruptions requiring immediate
-                        assistance
-                      </p>
-                    </div>
-                    <div className="space-y-2 sm:col-span-2">
-                      <Label htmlFor="subject">Subject *</Label>
-                      <Input
-                        id="subject"
-                        name="subject"
-                        value={formData.subject}
-                        onChange={handleInputChange}
-                        placeholder="Brief description of your inquiry"
-                        required
-                      />
-                    </div>
+                  <div className="space-y-2">
+                    <Label htmlFor="priority">Priority</Label>
+                    <Select
+                      value={formData.priority}
+                      onValueChange={(value) =>
+                        setFormData((prev) => ({ ...prev, priority: value }))
+                      }
+                    >
+                      <SelectTrigger className="w-full">
+                        <SelectValue />
+                      </SelectTrigger>
+                      <SelectContent>
+                        <SelectItem value="normal">
+                          <div className="flex items-center gap-2">
+                            <Badge variant="secondary" size="xs">
+                              Normal
+                            </Badge>
+                            <span>Standard inquiry</span>
+                          </div>
+                        </SelectItem>
+                        <SelectItem value="urgent">
+                          <div className="flex items-center gap-2">
+                            <Badge variant="warning" size="xs">
+                              Urgent
+                            </Badge>
+                            <span>Needs quick response</span>
+                          </div>
+                        </SelectItem>
+                        <SelectItem value="emergency">
+                          <div className="flex items-center gap-2">
+                            <Badge variant="destructive" size="xs">
+                              Emergency
+                            </Badge>
+                            <span>Travel disruption</span>
+                          </div>
+                        </SelectItem>
+                      </SelectContent>
+                    </Select>
+                    <p className="text-muted-foreground text-xs">
+                      Emergency: Travel disruptions requiring immediate
+                      assistance
+                    </p>
+                  </div>
+
+                  <div className="space-y-2">
+                    <Label htmlFor="subject">Subject *</Label>
+                    <Input
+                      id="subject"
+                      name="subject"
+                      value={formData.subject}
+                      onChange={handleInputChange}
+                      placeholder="Brief description of your inquiry"
+                      required
+                    />
                   </div>
 
                   {/* Message */}
@@ -234,16 +298,16 @@ export default function ContactUsPage() {
                       value={formData.message}
                       onChange={handleInputChange}
                       placeholder="Please provide details about your inquiry..."
-                      rows={6}
+                      rows={9}
                       required
-                      maxLength={1000}
+                      maxLength={5000}
                       aria-describedby="message-help"
                     />
-                    <div className="flex justify-between text-slate-500 text-xs">
-                      <span id="message-help">
+                    <div className="flex justify-between text-muted-foreground text-xs">
+                      <span>
                         Provide as much detail as possible for better assistance
                       </span>
-                      <span>{formData.message.length}/1000</span>
+                      <span>{formData.message.length}/5000</span>
                     </div>
                   </div>
 
@@ -252,6 +316,7 @@ export default function ContactUsPage() {
                     type="submit"
                     disabled={isSubmitting}
                     className="w-full h-12 text-base"
+                    size="lg"
                   >
                     {isSubmitting ? (
                       <>
@@ -406,21 +471,35 @@ export default function ContactUsPage() {
                   <div className="space-y-2">
                     <div className="flex items-center gap-3">
                       <Phone className="w-4 h-4 text-primary" />
-                      <a
-                        href="tel:+13104778800"
-                        className="font-medium hover:text-primary dark:text-white"
-                      >
-                        +1 (310) 477-8800
-                      </a>
+                      <Tooltip>
+                        <TooltipTrigger asChild>
+                          <a
+                            href="tel:+13104778800"
+                            className="font-medium hover:text-primary dark:text-white"
+                          >
+                            +1 (310) 477-8800
+                          </a>
+                        </TooltipTrigger>
+                        <TooltipContent>
+                          Click to call our general inquiries line
+                        </TooltipContent>
+                      </Tooltip>
                     </div>
                     <div className="flex items-center gap-3">
                       <Mail className="w-4 h-4 text-primary" />
-                      <a
-                        href="mailto:info@paragontrails.com"
-                        className="hover:text-primary"
-                      >
-                        info@paragontrails.com
-                      </a>
+                      <Tooltip>
+                        <TooltipTrigger asChild>
+                          <a
+                            href="mailto:info@paragontrails.com"
+                            className="hover:text-primary"
+                          >
+                            info@paragontrails.com
+                          </a>
+                        </TooltipTrigger>
+                        <TooltipContent>
+                          Send us an email for general inquiries
+                        </TooltipContent>
+                      </Tooltip>
                     </div>
                     <div className="flex items-center gap-3">
                       <Clock className="w-4 h-4 text-primary" />
@@ -438,14 +517,16 @@ export default function ContactUsPage() {
                     Our Location
                   </h3>
                   <div className="space-y-2">
-                    <p className="text-slate-700 dark:text-slate-300">
+                    <p className="text-muted-foreground">
                       123 Luxury Travel Boulevard
                       <br />
                       Beverly Hills, CA 90210
                       <br />
                       United States
                     </p>
-                    <p className="text-sm">Visits by appointment only</p>
+                    <Badge variant="outline" size="sm">
+                      Visits by appointment only
+                    </Badge>
                   </div>
                 </div>
 
@@ -458,21 +539,35 @@ export default function ContactUsPage() {
                   <div className="space-y-2">
                     <div className="flex items-center gap-3">
                       <Phone className="w-4 h-4 text-red-600" />
-                      <a
-                        href="tel:+13104778820"
-                        className="font-medium text-red-800 hover:text-red-600 dark:text-red-400"
-                      >
-                        +1 (310) 477-8820
-                      </a>
+                      <Tooltip>
+                        <TooltipTrigger asChild>
+                          <a
+                            href="tel:+13104778820"
+                            className="font-medium text-red-800 hover:text-red-600 dark:text-red-400"
+                          >
+                            +1 (310) 477-8820
+                          </a>
+                        </TooltipTrigger>
+                        <TooltipContent>
+                          Emergency line - available 24/7 worldwide
+                        </TooltipContent>
+                      </Tooltip>
                     </div>
                     <div className="flex items-center gap-3">
                       <Mail className="w-4 h-4 text-red-600" />
-                      <a
-                        href="mailto:safety@paragontrails.com"
-                        className="text-red-700 hover:text-red-600 dark:text-red-400"
-                      >
-                        safety@paragontrails.com
-                      </a>
+                      <Tooltip>
+                        <TooltipTrigger asChild>
+                          <a
+                            href="mailto:safety@paragontrails.com"
+                            className="text-red-700 hover:text-red-600 dark:text-red-400"
+                          >
+                            safety@paragontrails.com
+                          </a>
+                        </TooltipTrigger>
+                        <TooltipContent>
+                          Emergency email for urgent travel assistance
+                        </TooltipContent>
+                      </Tooltip>
                     </div>
                     <Badge variant="destructive" className="mt-2">
                       Available 24/7 Worldwide
@@ -504,23 +599,40 @@ export default function ContactUsPage() {
                               <p className="mt-1 text-sm">{dept.short}</p>
                             </div>
                             <div className="flex gap-2 ml-4">
-                              <Button
-                                size="sm"
-                                className="p-0 w-9 h-9"
-                                onClick={() => router.push(`tel:${dept.phone}`)}
-                              >
-                                <Phone className="w-4 h-4" />
-                              </Button>
-                              <Button
-                                variant="secondary"
-                                size="sm"
-                                className="p-0 w-9 h-9"
-                                onClick={() =>
-                                  router.push(`mailto:${dept.email}`)
-                                }
-                              >
-                                <Mail className="w-4 h-4" />
-                              </Button>
+                              <Tooltip>
+                                <TooltipTrigger asChild>
+                                  <Button
+                                    size="sm"
+                                    variant="outline"
+                                    className="p-0 w-9 h-9"
+                                    onClick={() =>
+                                      router.push(`tel:${dept.phone}`)
+                                    }
+                                  >
+                                    <Phone className="w-4 h-4" />
+                                  </Button>
+                                </TooltipTrigger>
+                                <TooltipContent>
+                                  Call {dept.department}
+                                </TooltipContent>
+                              </Tooltip>
+                              <Tooltip>
+                                <TooltipTrigger asChild>
+                                  <Button
+                                    variant="ghost"
+                                    size="sm"
+                                    className="p-0 w-9 h-9"
+                                    onClick={() =>
+                                      router.push(`mailto:${dept.email}`)
+                                    }
+                                  >
+                                    <Mail className="w-4 h-4" />
+                                  </Button>
+                                </TooltipTrigger>
+                                <TooltipContent>
+                                  Email {dept.department}
+                                </TooltipContent>
+                              </Tooltip>
                             </div>
                           </div>
                         </div>
@@ -542,23 +654,40 @@ export default function ContactUsPage() {
                               <p className="mt-1 text-sm">{dept.short}</p>
                             </div>
                             <div className="flex gap-2 ml-4">
-                              <Button
-                                size="sm"
-                                className="p-0 w-9 h-9"
-                                onClick={() => router.push(`tel:${dept.phone}`)}
-                              >
-                                <Phone className="w-3 h-3" />
-                              </Button>
-                              <Button
-                                variant="secondary"
-                                size="sm"
-                                className="p-0 w-9 h-9"
-                                onClick={() =>
-                                  router.push(`mailto:${dept.email}`)
-                                }
-                              >
-                                <Mail className="w-3 h-3" />
-                              </Button>
+                              <Tooltip>
+                                <TooltipTrigger asChild>
+                                  <Button
+                                    size="sm"
+                                    variant="outline"
+                                    className="p-0 w-9 h-9"
+                                    onClick={() =>
+                                      router.push(`tel:${dept.phone}`)
+                                    }
+                                  >
+                                    <Phone className="w-3 h-3" />
+                                  </Button>
+                                </TooltipTrigger>
+                                <TooltipContent>
+                                  Call {dept.department}
+                                </TooltipContent>
+                              </Tooltip>
+                              <Tooltip>
+                                <TooltipTrigger asChild>
+                                  <Button
+                                    variant="ghost"
+                                    size="sm"
+                                    className="p-0 w-9 h-9"
+                                    onClick={() =>
+                                      router.push(`mailto:${dept.email}`)
+                                    }
+                                  >
+                                    <Mail className="w-3 h-3" />
+                                  </Button>
+                                </TooltipTrigger>
+                                <TooltipContent>
+                                  Email {dept.department}
+                                </TooltipContent>
+                              </Tooltip>
                             </div>
                           </div>
                         </div>
@@ -574,18 +703,24 @@ export default function ContactUsPage() {
 
       {/* Floating Emergency Button */}
       <div className="right-6 bottom-6 z-50 fixed">
-        <Button
-          asChild
-          className="group bg-red-600 hover:bg-red-700 shadow-lg hover:shadow-xl rounded-full w-14 h-14 text-white transition-all duration-200"
-          aria-label="Emergency Contact"
-        >
-          <a href="tel:+13104778820" className="relative">
-            <Headphones className="w-6 h-6" />
-            <span className="-top-10 -left-8 absolute bg-slate-900 opacity-0 group-hover:opacity-100 px-2 py-1 rounded text-white text-xs whitespace-nowrap transition-opacity">
-              Emergency: +1 (310) 477-8820
-            </span>
-          </a>
-        </Button>
+        <Tooltip>
+          <TooltipTrigger asChild>
+            <Button
+              asChild
+              variant="destructive"
+              size="icon"
+              className="group shadow-lg hover:shadow-xl rounded-full w-14 h-14 transition-all duration-200"
+              aria-label="Emergency Contact"
+            >
+              <a href="tel:+13104778820" className="relative">
+                <Headphones className="w-6 h-6" />
+              </a>
+            </Button>
+          </TooltipTrigger>
+          <TooltipContent side="left">
+            Emergency: +1 (310) 477-8820
+          </TooltipContent>
+        </Tooltip>
       </div>
     </div>
   );
