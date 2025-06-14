@@ -277,7 +277,7 @@ export default function CartSummaryPage() {
                         <Input
                           id="firstName"
                           placeholder="John"
-                          className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                          className="focus:border-muted border-border focus:ring-muted/20 h-8"
                         />
                       </div>
                       <div>
@@ -285,7 +285,7 @@ export default function CartSummaryPage() {
                         <Input
                           id="lastName"
                           placeholder="Doe"
-                          className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                          className="focus:border-muted border-border focus:ring-muted/20 h-8"
                         />
                       </div>
                     </div>
@@ -295,7 +295,7 @@ export default function CartSummaryPage() {
                       <Input
                         id="cardNumber"
                         placeholder="1234 5678 9012 3456"
-                        className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                        className="focus:border-muted border-border focus:ring-muted/20 h-8"
                       />
                     </div>
 
@@ -305,7 +305,7 @@ export default function CartSummaryPage() {
                         <Input
                           id="expiry"
                           placeholder="MM/YY"
-                          className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                          className="focus:border-muted border-border focus:ring-muted/20 h-8"
                         />
                       </div>
                       <div>
@@ -313,7 +313,7 @@ export default function CartSummaryPage() {
                         <Input
                           id="cvv"
                           placeholder="123"
-                          className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                          className="focus:border-muted border-border focus:ring-muted/20 h-8"
                         />
                       </div>
                     </div>
@@ -323,7 +323,7 @@ export default function CartSummaryPage() {
                       <Input
                         id="address"
                         placeholder="123 Main Street"
-                        className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                        className="focus:border-muted border-border focus:ring-muted/20 h-8"
                       />
                     </div>
 
@@ -333,7 +333,7 @@ export default function CartSummaryPage() {
                         <Input
                           id="city"
                           placeholder="New York"
-                          className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                          className="focus:border-muted border-border focus:ring-muted/20 h-8"
                         />
                       </div>
                       <div>
@@ -341,7 +341,7 @@ export default function CartSummaryPage() {
                         <Input
                           id="zip"
                           placeholder="10001"
-                          className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                          className="focus:border-muted border-border focus:ring-muted/20 h-8"
                         />
                       </div>
                     </div>
