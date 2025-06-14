@@ -6,8 +6,10 @@ import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
+  DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { useAuth } from "@/context/AuthContext";
 import { useCart } from "@/context/CartContext";
 import { currencies, useCurrency } from "@/context/CurrencyContext";
 import { navbarItems } from "@/lib/constants/info/navigation";
@@ -19,7 +21,14 @@ import {
   UserIcon,
   XMarkIcon,
 } from "@heroicons/react/20/solid";
-import { Phone, ShoppingCart, User } from "lucide-react";
+import {
+  LogOut,
+  Phone,
+  Settings,
+  ShoppingCart,
+  User,
+  UserCircle,
+} from "lucide-react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
@@ -31,11 +40,17 @@ export default function Header() {
   const router = useRouter();
   const { currentCurrency, setCurrency, isLoading } = useCurrency();
   const { state: cartState } = useCart();
+  const { user, isAuthenticated, logout } = useAuth();
 
   const cartItemsCount = cartState.items.reduce(
     (total, item) => total + item.quantity,
-    0,
+    0
   );
+
+  const handleLogout = () => {
+    logout();
+    router.push("/");
+  };
 
   return (
     <header className="top-0 z-50 fixed inset-x-0 shadow-sm backdrop-blur-sm w-full">
@@ -85,15 +100,49 @@ export default function Header() {
                 ))}
               </DropdownMenuContent>
             </DropdownMenu>
-            <Button
-              variant={"link"}
-              size={"sm"}
-              className="flex items-center gap-1 m-0 p-0 h-fit text-white text-xs hover:text-sky-300 transition-colors"
-              onClick={() => router.push("/login")}
-            >
-              <UserIcon className="w-4 h-4" />
-              <span className="sm:inline hidden">Login</span>
-            </Button>
+            {isAuthenticated ? (
+              <DropdownMenu>
+                <DropdownMenuTrigger className="flex items-center gap-1 m-0 p-0 h-fit text-white text-xs hover:text-sky-300 transition-colors">
+                  <UserCircle className="w-4 h-4" />
+                  <span className="sm:inline hidden">
+                    {user?.firstName || "Account"}
+                  </span>
+                  <FaChevronDown className="w-3 h-3" />
+                </DropdownMenuTrigger>
+                <DropdownMenuContent align="end" className="min-w-[200px]">
+                  <DropdownMenuItem
+                    onClick={() => router.push("/account/dashboard")}
+                  >
+                    <UserCircle className="mr-2 w-4 h-4" />
+                    Dashboard
+                  </DropdownMenuItem>
+                  <DropdownMenuItem
+                    onClick={() => router.push("/account/settings")}
+                  >
+                    <Settings className="mr-2 w-4 h-4" />
+                    Settings
+                  </DropdownMenuItem>
+                  <DropdownMenuSeparator />
+                  <DropdownMenuItem
+                    onClick={handleLogout}
+                    variant="destructive"
+                  >
+                    <LogOut className="mr-2 w-4 h-4" />
+                    Sign Out
+                  </DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
+            ) : (
+              <Button
+                variant={"link"}
+                size={"sm"}
+                className="flex items-center gap-1 m-0 p-0 h-fit text-white text-xs hover:text-sky-300 transition-colors"
+                onClick={() => router.push("/login")}
+              >
+                <UserIcon className="w-4 h-4" />
+                <span className="sm:inline hidden">Login</span>
+              </Button>
+            )}
           </div>
         </div>
       </div>
@@ -157,7 +206,7 @@ export default function Header() {
               >
                 {item.label}
               </Link>
-            ),
+            )
           )}
 
           {/* Action buttons */}
@@ -175,9 +224,52 @@ export default function Header() {
                 </span>
               )}
             </Button>
-            <Button variant="icon" className="">
-              <User className="w-4 h-4" />
-            </Button>
+            {isAuthenticated ? (
+              <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                  <Button variant="icon" className="relative">
+                    <UserCircle className="w-4 h-4" />
+                  </Button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent align="end" className="min-w-[200px]">
+                  <div className="flex items-center gap-2 p-2 border-b">
+                    <UserCircle className="w-8 h-8" />
+                    <div className="flex flex-col">
+                      <span className="font-medium text-sm">
+                        {user?.firstName} {user?.lastName}
+                      </span>
+                      <span className="text-muted-foreground text-xs">
+                        {user?.email}
+                      </span>
+                    </div>
+                  </div>
+                  <DropdownMenuItem
+                    onClick={() => router.push("/account/dashboard")}
+                  >
+                    <UserCircle className="mr-2 w-4 h-4" />
+                    Dashboard
+                  </DropdownMenuItem>
+                  <DropdownMenuItem
+                    onClick={() => router.push("/account/settings")}
+                  >
+                    <Settings className="mr-2 w-4 h-4" />
+                    Settings
+                  </DropdownMenuItem>
+                  <DropdownMenuSeparator />
+                  <DropdownMenuItem
+                    onClick={handleLogout}
+                    variant="destructive"
+                  >
+                    <LogOut className="mr-2 w-4 h-4" />
+                    Sign Out
+                  </DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
+            ) : (
+              <Button variant="icon" onClick={() => router.push("/login")}>
+                <User className="w-4 h-4" />
+              </Button>
+            )}
           </div>
         </div>
       </nav>
@@ -239,7 +331,7 @@ export default function Header() {
                     >
                       {item.label}
                     </Link>
-                  ),
+                  )
                 )}
               </div>
             </div>
