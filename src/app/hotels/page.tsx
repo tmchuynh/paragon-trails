@@ -253,13 +253,23 @@ export default function HotelsPage() {
                 <div className="relative">
                   <MapPin className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
                   <Select value={destination} onValueChange={setDestination}>
-                    <SelectTrigger className="pl-10 border border-border w-full">
+                    <SelectTrigger
+                      className="pl-10 border border-border w-full"
+                      variant="professional"
+                    >
                       <SelectValue placeholder="Select destination" />
                     </SelectTrigger>
-                    <SelectContent className="w-full max-h-60">
+                    <SelectContent
+                      className="w-full max-h-60"
+                      variant="professional"
+                    >
                       <SelectItem value="all">All Destinations</SelectItem>
                       {destinations.map((dest) => (
-                        <SelectItem key={dest} value={dest.toLowerCase()}>
+                        <SelectItem
+                          key={dest}
+                          value={dest.toLowerCase()}
+                          variant="classic"
+                        >
                           {dest}
                         </SelectItem>
                       ))}
@@ -275,9 +285,16 @@ export default function HotelsPage() {
                   <SelectTrigger className="border border-border w-full">
                     <SelectValue placeholder="Select type" />
                   </SelectTrigger>
-                  <SelectContent className="w-full max-h-60">
+                  <SelectContent
+                    className="w-full max-h-60"
+                    variant="professional"
+                  >
                     {hotelTypes.map((type) => (
-                      <SelectItem key={type.value} value={type.value}>
+                      <SelectItem
+                        key={type.value}
+                        value={type.value}
+                        variant="classic"
+                      >
                         {type.label}
                       </SelectItem>
                     ))}
@@ -371,7 +388,11 @@ export default function HotelsPage() {
                             </SelectTrigger>
                             <SelectContent>
                               {[1, 2, 3, 4, 5, 6].map((num) => (
-                                <SelectItem key={num} value={num.toString()}>
+                                <SelectItem
+                                  key={num}
+                                  value={num.toString()}
+                                  variant="classic"
+                                >
                                   {num}
                                 </SelectItem>
                               ))}
@@ -394,7 +415,11 @@ export default function HotelsPage() {
                             </SelectTrigger>
                             <SelectContent>
                               {[0, 1, 2, 3, 4].map((num) => (
-                                <SelectItem key={num} value={num.toString()}>
+                                <SelectItem
+                                  key={num}
+                                  value={num.toString()}
+                                  variant="classic"
+                                >
                                   {num}
                                 </SelectItem>
                               ))}
@@ -411,12 +436,25 @@ export default function HotelsPage() {
                         <SelectTrigger className="border border-border w-full">
                           <SelectValue placeholder="Select rating" />
                         </SelectTrigger>
-                        <SelectContent className="w-full max-h-60">
-                          <SelectItem value="1">1+ Stars</SelectItem>
-                          <SelectItem value="2">2+ Stars</SelectItem>
-                          <SelectItem value="3">3+ Stars</SelectItem>
-                          <SelectItem value="4">4+ Stars</SelectItem>
-                          <SelectItem value="5">5 Stars</SelectItem>
+                        <SelectContent
+                          className="w-full max-h-60"
+                          variant="professional"
+                        >
+                          <SelectItem value="1" variant="classic">
+                            1+ Stars
+                          </SelectItem>
+                          <SelectItem value="2" variant="classic">
+                            2+ Stars
+                          </SelectItem>
+                          <SelectItem value="3" variant="classic">
+                            3+ Stars
+                          </SelectItem>
+                          <SelectItem value="4" variant="classic">
+                            4+ Stars
+                          </SelectItem>
+                          <SelectItem value="5" variant="classic">
+                            5 Stars
+                          </SelectItem>
                         </SelectContent>
                       </Select>
                     </div>
@@ -485,12 +523,25 @@ export default function HotelsPage() {
                     <SelectTrigger className="border border-border w-full md:w-20">
                       <SelectValue />
                     </SelectTrigger>
-                    <SelectContent className="w-full max-h-60">
-                      <SelectItem value="4">4</SelectItem>
-                      <SelectItem value="8">8</SelectItem>
-                      <SelectItem value="12">12</SelectItem>
-                      <SelectItem value="16">16</SelectItem>
-                      <SelectItem value="24">24</SelectItem>
+                    <SelectContent
+                      className="w-full max-h-60"
+                      variant="professional"
+                    >
+                      <SelectItem value="4" variant="classic">
+                        4
+                      </SelectItem>
+                      <SelectItem value="8" variant="classic">
+                        8
+                      </SelectItem>
+                      <SelectItem value="12" variant="classic">
+                        12
+                      </SelectItem>
+                      <SelectItem value="16" variant="classic">
+                        16
+                      </SelectItem>
+                      <SelectItem value="24" variant="classic">
+                        24
+                      </SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
@@ -502,15 +553,22 @@ export default function HotelsPage() {
                     <SelectTrigger className="border border-border w-full md:w-48">
                       <SelectValue />
                     </SelectTrigger>
-                    <SelectContent className="w-full max-h-60">
-                      <SelectItem value="rating">
+                    <SelectContent
+                      className="w-full max-h-60"
+                      variant="professional"
+                    >
+                      <SelectItem value="rating" variant="classic">
                         Rating (High to Low)
                       </SelectItem>
-                      <SelectItem value="price">Price (Low to High)</SelectItem>
-                      <SelectItem value="stars">
+                      <SelectItem value="price" variant="classic">
+                        Price (Low to High)
+                      </SelectItem>
+                      <SelectItem value="stars" variant="classic">
                         Star Rating (High to Low)
                       </SelectItem>
-                      <SelectItem value="name">Name (A-Z)</SelectItem>
+                      <SelectItem value="name" variant="classic">
+                        Name (A-Z)
+                      </SelectItem>
                     </SelectContent>
                   </Select>
                 </div>

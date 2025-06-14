@@ -246,7 +246,7 @@ export default function HotelDetailPage() {
               </SelectTrigger>
               <SelectContent>
                 {mockHotels.map((hotel) => (
-                  <SelectItem key={hotel.id} value={hotel.id}>
+                  <SelectItem key={hotel.id} value={hotel.id} variant="classic">
                     {hotel.name}
                   </SelectItem>
                 ))}
