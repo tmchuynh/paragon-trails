@@ -293,12 +293,22 @@ export default function AttractionsPage() {
                     value={selectedCountry}
                     onValueChange={setSelectedCountry}
                   >
-                    <SelectTrigger className="pl-10 border border-border w-full">
+                    <SelectTrigger
+                      className="pl-10 border border-border w-full"
+                      variant="professional"
+                    >
                       <SelectValue placeholder="Select country" />
                     </SelectTrigger>
-                    <SelectContent className="w-full max-h-60">
+                    <SelectContent
+                      className="w-full max-h-60"
+                      variant="professional"
+                    >
                       {countries.map((country) => (
-                        <SelectItem key={country.value} value={country.value}>
+                        <SelectItem
+                          key={country.value}
+                          value={country.value}
+                          variant="classic"
+                        >
                           {country.label}
                         </SelectItem>
                       ))}
@@ -314,9 +324,16 @@ export default function AttractionsPage() {
                   <SelectTrigger className="border border-border w-full">
                     <SelectValue placeholder="Select type" />
                   </SelectTrigger>
-                  <SelectContent className="w-full max-h-60">
+                  <SelectContent
+                    className="w-full max-h-60"
+                    variant="professional"
+                  >
                     {types.map((type) => (
-                      <SelectItem key={type.value} value={type.value}>
+                      <SelectItem
+                        key={type.value}
+                        value={type.value}
+                        variant="classic"
+                      >
                         {type.label}
                       </SelectItem>
                     ))}
@@ -334,9 +351,16 @@ export default function AttractionsPage() {
                   <SelectTrigger className="border border-border w-full">
                     <SelectValue placeholder="Select category" />
                   </SelectTrigger>
-                  <SelectContent className="w-full max-h-60">
+                  <SelectContent
+                    className="w-full max-h-60"
+                    variant="professional"
+                  >
                     {categories.map((category) => (
-                      <SelectItem key={category.value} value={category.value}>
+                      <SelectItem
+                        key={category.value}
+                        value={category.value}
+                        variant="classic"
+                      >
                         {category.label}
                       </SelectItem>
                     ))}
@@ -397,9 +421,16 @@ export default function AttractionsPage() {
                         <SelectTrigger className="border border-border w-full">
                           <SelectValue placeholder="Select time" />
                         </SelectTrigger>
-                        <SelectContent className="w-full max-h-60">
+                        <SelectContent
+                          className="w-full max-h-60"
+                          variant="professional"
+                        >
                           {timesToVisit.map((time) => (
-                            <SelectItem key={time.value} value={time.value}>
+                            <SelectItem
+                              key={time.value}
+                              value={time.value}
+                              variant="classic"
+                            >
                               {time.label}
                             </SelectItem>
                           ))}
@@ -417,10 +448,19 @@ export default function AttractionsPage() {
                         <SelectTrigger className="border border-border w-full">
                           <SelectValue placeholder="Accessibility" />
                         </SelectTrigger>
-                        <SelectContent className="w-full max-h-60">
-                          <SelectItem value="all">Any</SelectItem>
-                          <SelectItem value="true">Accessible</SelectItem>
-                          <SelectItem value="false">Not Required</SelectItem>
+                        <SelectContent
+                          className="w-full max-h-60"
+                          variant="professional"
+                        >
+                          <SelectItem value="all" variant="classic">
+                            Any
+                          </SelectItem>
+                          <SelectItem value="true" variant="classic">
+                            Accessible
+                          </SelectItem>
+                          <SelectItem value="false" variant="classic">
+                            Not Required
+                          </SelectItem>
                         </SelectContent>
                       </Select>
                     </div>
@@ -435,10 +475,19 @@ export default function AttractionsPage() {
                         <SelectTrigger className="border border-border w-full">
                           <SelectValue placeholder="Skip line" />
                         </SelectTrigger>
-                        <SelectContent className="w-full max-h-60">
-                          <SelectItem value="all">Any</SelectItem>
-                          <SelectItem value="true">Available</SelectItem>
-                          <SelectItem value="false">Not Available</SelectItem>
+                        <SelectContent
+                          className="w-full max-h-60"
+                          variant="professional"
+                        >
+                          <SelectItem value="all" variant="classic">
+                            Any
+                          </SelectItem>
+                          <SelectItem value="true" variant="classic">
+                            Available
+                          </SelectItem>
+                          <SelectItem value="false" variant="classic">
+                            Not Available
+                          </SelectItem>
                         </SelectContent>
                       </Select>
                     </div>
@@ -522,12 +571,25 @@ export default function AttractionsPage() {
                     <SelectTrigger className="border border-border w-full md:w-20">
                       <SelectValue />
                     </SelectTrigger>
-                    <SelectContent className="w-full max-h-60">
-                      <SelectItem value="4">4</SelectItem>
-                      <SelectItem value="8">8</SelectItem>
-                      <SelectItem value="12">12</SelectItem>
-                      <SelectItem value="16">16</SelectItem>
-                      <SelectItem value="24">24</SelectItem>
+                    <SelectContent
+                      className="w-full max-h-60"
+                      variant="professional"
+                    >
+                      <SelectItem value="4" variant="classic">
+                        4
+                      </SelectItem>
+                      <SelectItem value="8" variant="classic">
+                        8
+                      </SelectItem>
+                      <SelectItem value="12" variant="classic">
+                        12
+                      </SelectItem>
+                      <SelectItem value="16" variant="classic">
+                        16
+                      </SelectItem>
+                      <SelectItem value="24" variant="classic">
+                        24
+                      </SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
@@ -539,16 +601,25 @@ export default function AttractionsPage() {
                     <SelectTrigger className="border border-border w-full md:w-48">
                       <SelectValue />
                     </SelectTrigger>
-                    <SelectContent className="w-full max-h-60">
-                      <SelectItem value="name">Name (A-Z)</SelectItem>
-                      <SelectItem value="price-low">
+                    <SelectContent
+                      className="w-full max-h-60"
+                      variant="professional"
+                    >
+                      <SelectItem value="name" variant="classic">
+                        Name (A-Z)
+                      </SelectItem>
+                      <SelectItem value="price-low" variant="classic">
                         Price: Low to High
                       </SelectItem>
-                      <SelectItem value="price-high">
+                      <SelectItem value="price-high" variant="classic">
                         Price: High to Low
                       </SelectItem>
-                      <SelectItem value="rating">Highest Rated</SelectItem>
-                      <SelectItem value="popularity">Most Popular</SelectItem>
+                      <SelectItem value="rating" variant="classic">
+                        Highest Rated
+                      </SelectItem>
+                      <SelectItem value="popularity" variant="classic">
+                        Most Popular
+                      </SelectItem>
                     </SelectContent>
                   </Select>
                 </div>

@@ -118,7 +118,11 @@ export default function AttractionDetailsPage() {
               </SelectTrigger>
               <SelectContent>
                 {mockAttractions.map((attraction) => (
-                  <SelectItem key={attraction.id} value={attraction.id}>
+                  <SelectItem
+                    key={attraction.id}
+                    value={attraction.id}
+                    variant="classic"
+                  >
                     {attraction.name}, {attraction.location.city}
                   </SelectItem>
                 ))}
