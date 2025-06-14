@@ -83,18 +83,14 @@ export default function CartSummaryPage() {
           <div className="flex justify-center items-center bg-green-100 dark:bg-green-950 mx-auto mb-6 rounded-full w-16 h-16">
             <Check className="w-8 h-8 text-green-600 dark:text-green-400" />
           </div>
-          <h1 className="mb-4 font-bold text-2xl text-slate-900 dark:text-white">
-            Booking Confirmed!
-          </h1>
+          <h1 className="mb-4 font-bold text-2xl">Booking Confirmed!</h1>
           <div className="bg-slate-100 dark:bg-slate-800 mb-6 p-4 rounded-lg">
             <p className="mb-2 font-medium text-slate-700 text-sm dark:text-slate-300">
               Confirmation Number
             </p>
-            <p className="font-bold font-mono text-lg text-slate-900 dark:text-white">
-              {confirmationNumber}
-            </p>
+            <p className="font-bold font-mono text-lg">{confirmationNumber}</p>
           </div>
-          <p className="mb-8 text-slate-600 dark:text-slate-400">
+          <p className="mb-8">
             Your travel experiences have been successfully booked. You'll
             receive a confirmation email shortly with all the details.
           </p>
@@ -131,10 +127,8 @@ export default function CartSummaryPage() {
             <ArrowLeft className="mr-2 w-4 h-4" />
             Back to Cart
           </Button>
-          <h1 className="mb-2 font-bold text-3xl text-slate-900 dark:text-white">
-            Complete Your Booking
-          </h1>
-          <p className="text-lg text-slate-600 dark:text-slate-400">
+          <h1 className="mb-2 font-bold text-3xl">Complete Your Booking</h1>
+          <p className="text-lg">
             Review your order and provide payment details
           </p>
         </div>
@@ -157,9 +151,7 @@ export default function CartSummaryPage() {
                   >
                     <div className="flex justify-between items-start mb-3">
                       <div>
-                        <h3 className="font-semibold text-slate-900 dark:text-white">
-                          {item.name}
-                        </h3>
+                        <h3 className="font-semibold">{item.name}</h3>
                         <div className="flex items-center gap-4 mt-1 text-slate-600 text-sm dark:text-slate-400">
                           <div className="flex items-center gap-1">
                             <MapPin className="w-4 h-4" />
@@ -190,7 +182,7 @@ export default function CartSummaryPage() {
                         <span>
                           {calculateDuration(
                             item.dates.startDate,
-                            item.dates.endDate,
+                            item.dates.endDate
                           )}
                         </span>
                       </div>
@@ -242,10 +234,10 @@ export default function CartSummaryPage() {
                       Credit/Debit Card
                     </Label>
                     <div className="flex gap-2">
-                      <div className="flex justify-center items-center bg-blue-600 rounded w-8 h-5 font-bold text-white text-xs">
+                      <div className="flex justify-center items-center bg-blue-600 rounded w-8 h-5 font-bold text-xs">
                         VISA
                       </div>
-                      <div className="flex justify-center items-center bg-red-600 rounded w-8 h-5 font-bold text-white text-xs">
+                      <div className="flex justify-center items-center bg-red-600 rounded w-8 h-5 font-bold text-xs">
                         MC
                       </div>
                     </div>
@@ -271,7 +263,7 @@ export default function CartSummaryPage() {
                       )}
                     </div>
                     <Label className="flex-1 cursor-pointer">PayPal</Label>
-                    <div className="flex justify-center items-center bg-blue-500 rounded w-16 h-5 font-bold text-white text-xs">
+                    <div className="flex justify-center items-center bg-blue-500 rounded w-16 h-5 font-bold text-xs">
                       PayPal
                     </div>
                   </div>
@@ -282,11 +274,19 @@ export default function CartSummaryPage() {
                     <div className="gap-4 grid grid-cols-2">
                       <div>
                         <Label htmlFor="firstName">First Name</Label>
-                        <Input id="firstName" placeholder="John" />
+                        <Input
+                          id="firstName"
+                          placeholder="John"
+                          className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                        />
                       </div>
                       <div>
                         <Label htmlFor="lastName">Last Name</Label>
-                        <Input id="lastName" placeholder="Doe" />
+                        <Input
+                          id="lastName"
+                          placeholder="Doe"
+                          className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                        />
                       </div>
                     </div>
 
@@ -295,33 +295,54 @@ export default function CartSummaryPage() {
                       <Input
                         id="cardNumber"
                         placeholder="1234 5678 9012 3456"
+                        className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
                       />
                     </div>
 
                     <div className="gap-4 grid grid-cols-3">
                       <div className="col-span-2">
                         <Label htmlFor="expiry">Expiry Date</Label>
-                        <Input id="expiry" placeholder="MM/YY" />
+                        <Input
+                          id="expiry"
+                          placeholder="MM/YY"
+                          className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                        />
                       </div>
                       <div>
                         <Label htmlFor="cvv">CVV</Label>
-                        <Input id="cvv" placeholder="123" />
+                        <Input
+                          id="cvv"
+                          placeholder="123"
+                          className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                        />
                       </div>
                     </div>
 
                     <div>
                       <Label htmlFor="address">Billing Address</Label>
-                      <Input id="address" placeholder="123 Main Street" />
+                      <Input
+                        id="address"
+                        placeholder="123 Main Street"
+                        className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                      />
                     </div>
 
                     <div className="gap-4 grid grid-cols-2">
                       <div>
                         <Label htmlFor="city">City</Label>
-                        <Input id="city" placeholder="New York" />
+                        <Input
+                          id="city"
+                          placeholder="New York"
+                          className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                        />
                       </div>
                       <div>
                         <Label htmlFor="zip">ZIP Code</Label>
-                        <Input id="zip" placeholder="10001" />
+                        <Input
+                          id="zip"
+                          placeholder="10001"
+                          className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                        />
                       </div>
                     </div>
                   </div>
@@ -341,11 +362,8 @@ export default function CartSummaryPage() {
                       setTermsAccepted(checked === true)
                     }
                   />
-                  <div className="text-slate-600 text-sm dark:text-slate-400">
-                    <Label
-                      htmlFor="terms"
-                      className="font-medium text-slate-900 dark:text-white"
-                    >
+                  <div className="text-sm">
+                    <Label htmlFor="terms" className="font-medium">
                       I agree to the Terms and Conditions
                     </Label>
                     <p className="mt-1">
@@ -380,18 +398,18 @@ export default function CartSummaryPage() {
               <CardContent className="space-y-6">
                 {/* Price Breakdown */}
                 <div className="space-y-3">
-                  <div className="flex justify-between text-slate-600 dark:text-slate-400">
+                  <div className="flex justify-between">
                     <span>
                       Subtotal ({state.items.length}{" "}
                       {state.items.length === 1 ? "item" : "items"})
                     </span>
                     <span>{formatPrice(state.subtotal)}</span>
                   </div>
-                  <div className="flex justify-between text-slate-600 dark:text-slate-400">
+                  <div className="flex justify-between">
                     <span>Service Fees</span>
                     <span>{formatPrice(state.fees)}</span>
                   </div>
-                  <div className="flex justify-between text-slate-600 dark:text-slate-400">
+                  <div className="flex justify-between">
                     <span>Taxes</span>
                     <span>{formatPrice(state.taxes)}</span>
                   </div>
@@ -402,7 +420,7 @@ export default function CartSummaryPage() {
                     </div>
                   )}
                   <Separator />
-                  <div className="flex justify-between font-bold text-slate-900 text-xl dark:text-white">
+                  <div className="flex justify-between font-bold text-xl">
                     <span>Total</span>
                     <span>{formatPrice(state.total)}</span>
                   </div>
@@ -438,7 +456,7 @@ export default function CartSummaryPage() {
                 <Button
                   onClick={handleCompleteBooking}
                   disabled={!termsAccepted || isProcessing}
-                  className="bg-primary hover:bg-primary/90 w-full h-12 font-medium text-base text-white"
+                  className="bg-primary hover:bg-primary/90 w-full h-12 font-medium text-base"
                 >
                   {isProcessing ? (
                     <>
