@@ -72,7 +72,7 @@ export default function DestinationsPage() {
   const continents = [
     { value: "all", label: "All Continents" },
     ...Array.from(
-      new Set(mockDestinations.map((dest) => dest.continent).filter(Boolean))
+      new Set(mockDestinations.map((dest) => dest.continent).filter(Boolean)),
     )
       .sort()
       .map((continent) => ({ value: continent!, label: continent! })),
@@ -133,7 +133,7 @@ export default function DestinationsPage() {
             .includes(searchQuery.toLowerCase()) ||
           destination.description
             .toLowerCase()
-            .includes(searchQuery.toLowerCase())
+            .includes(searchQuery.toLowerCase()),
       );
     }
 
@@ -145,7 +145,7 @@ export default function DestinationsPage() {
     // Filter by continent
     if (selectedContinent !== "all") {
       filtered = filtered.filter(
-        (dest) => dest.continent === selectedContinent
+        (dest) => dest.continent === selectedContinent,
       );
     }
 
@@ -157,21 +157,21 @@ export default function DestinationsPage() {
     // Filter by language
     if (selectedLanguage !== "all") {
       filtered = filtered.filter((dest) =>
-        dest.language.includes(selectedLanguage)
+        dest.language.includes(selectedLanguage),
       );
     }
 
     // Filter by cuisine
     if (selectedCuisine !== "all") {
       filtered = filtered.filter((dest) =>
-        dest.cuisine.includes(selectedCuisine)
+        dest.cuisine.includes(selectedCuisine),
       );
     }
 
     // Filter by safety level
     if (selectedSafetyLevel !== "all") {
       filtered = filtered.filter(
-        (dest) => dest.safety.level === selectedSafetyLevel
+        (dest) => dest.safety.level === selectedSafetyLevel,
       );
     }
 
@@ -195,7 +195,7 @@ export default function DestinationsPage() {
     filtered = filtered.filter(
       (dest) =>
         dest.pricing.averageDailyBudget >= budgetRange[0] &&
-        dest.pricing.averageDailyBudget <= budgetRange[1]
+        dest.pricing.averageDailyBudget <= budgetRange[1],
     );
 
     // Sort results
@@ -265,7 +265,7 @@ export default function DestinationsPage() {
   const endIndex = startIndex + itemsPerPage;
   const paginatedDestinations = filteredDestinations.slice(
     startIndex,
-    endIndex
+    endIndex,
   );
 
   const handlePageChange = (page: number) => {
@@ -628,7 +628,7 @@ export default function DestinationsPage() {
                       className="group hover:shadow-xl p-0 transition-all cursor-pointer overflow-hidden"
                       onClick={() =>
                         router.push(
-                          `/destinations/${destination.name.toLowerCase().replace(/\s+/g, "-")}`
+                          `/destinations/${destination.name.toLowerCase().replace(/\s+/g, "-")}`,
                         )
                       }
                     >
@@ -677,7 +677,7 @@ export default function DestinationsPage() {
                             <p className="font-semibold text-slate-600 text-sm">
                               From{" "}
                               {formatPrice(
-                                destination.pricing.averageDailyBudget
+                                destination.pricing.averageDailyBudget,
                               )}
                               /day
                             </p>
@@ -734,7 +734,7 @@ export default function DestinationsPage() {
                           .filter(
                             (page) =>
                               page >= Math.max(1, currentPage - 2) &&
-                              page <= Math.min(totalPages, currentPage + 2)
+                              page <= Math.min(totalPages, currentPage + 2),
                           )
                           .map((page) => (
                             <PaginationItem key={page}>
@@ -771,7 +771,7 @@ export default function DestinationsPage() {
                           <PaginationNext
                             onClick={() =>
                               handlePageChange(
-                                Math.min(totalPages, currentPage + 1)
+                                Math.min(totalPages, currentPage + 1),
                               )
                             }
                             className={

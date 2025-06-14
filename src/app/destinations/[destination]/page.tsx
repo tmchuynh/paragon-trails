@@ -44,7 +44,7 @@ export default function DestinationDetailsPage() {
   // Find destination by URL param
   const destinationSlug = params.destination as string;
   const initialDestination = mockDestinations.find(
-    (dest) => dest.name.toLowerCase().replace(/\s+/g, "-") === destinationSlug
+    (dest) => dest.name.toLowerCase().replace(/\s+/g, "-") === destinationSlug,
   );
 
   const [currentDestination, setCurrentDestination] =
@@ -53,7 +53,8 @@ export default function DestinationDetailsPage() {
   // Update current destination when URL param changes
   useEffect(() => {
     const foundDestination = mockDestinations.find(
-      (dest) => dest.name.toLowerCase().replace(/\s+/g, "-") === destinationSlug
+      (dest) =>
+        dest.name.toLowerCase().replace(/\s+/g, "-") === destinationSlug,
     );
     setCurrentDestination(foundDestination);
     setSelectedImageIndex(0); // Reset image index when destination changes
@@ -62,7 +63,7 @@ export default function DestinationDetailsPage() {
   // Handle destination change from selector
   const handleDestinationChange = (newDestinationId: string) => {
     const newDestination = mockDestinations.find(
-      (dest) => dest.id === newDestinationId
+      (dest) => dest.id === newDestinationId,
     );
     if (newDestination) {
       const newSlug = newDestination.name.toLowerCase().replace(/\s+/g, "-");
@@ -227,7 +228,7 @@ export default function DestinationDetailsPage() {
                                 <Users className="mr-1 w-3 h-3" />
                                 {group}
                               </Badge>
-                            )
+                            ),
                           )}
                         </div>
                       </div>
@@ -254,7 +255,7 @@ export default function DestinationDetailsPage() {
                                 <Plane className="w-4 h-4 text-blue-500" />
                                 {airport}
                               </li>
-                            )
+                            ),
                           )}
                           {currentDestination.transportation.publicTransport.map(
                             (transport: string, index: number) => (
@@ -265,7 +266,7 @@ export default function DestinationDetailsPage() {
                                 <Compass className="w-4 h-4 text-green-500" />
                                 {transport}
                               </li>
-                            )
+                            ),
                           )}
                         </ul>
                       </div>
@@ -478,17 +479,19 @@ export default function DestinationDetailsPage() {
                         <p>
                           <strong>Average Daily Budget:</strong>{" "}
                           {formatPrice(
-                            currentDestination.pricing.averageDailyBudget
+                            currentDestination.pricing.averageDailyBudget,
                           )}
                         </p>
                         <p>
                           <strong>Accommodation:</strong>{" "}
                           {formatPrice(
-                            currentDestination.pricing.accommodationRange.budget
+                            currentDestination.pricing.accommodationRange
+                              .budget,
                           )}{" "}
                           -{" "}
                           {formatPrice(
-                            currentDestination.pricing.accommodationRange.luxury
+                            currentDestination.pricing.accommodationRange
+                              .luxury,
                           )}
                         </p>
                       </div>
@@ -511,7 +514,7 @@ export default function DestinationDetailsPage() {
                             <Badge key={index} variant="secondary">
                               {language}
                             </Badge>
-                          )
+                          ),
                         )}
                       </div>
                     </div>
@@ -524,7 +527,7 @@ export default function DestinationDetailsPage() {
                             <Badge key={index} variant="outline">
                               {food}
                             </Badge>
-                          )
+                          ),
                         )}
                       </div>
                     </div>
@@ -540,7 +543,7 @@ export default function DestinationDetailsPage() {
                               <Heart className="flex-shrink-0 mt-0.5 w-4 h-4 text-red-500" />
                               {tradition}
                             </li>
-                          )
+                          ),
                         )}
                       </ul>
                     </div>
@@ -563,7 +566,7 @@ export default function DestinationDetailsPage() {
                     <span className="text-sm">Daily Budget</span>
                     <span className="font-semibold">
                       {formatPrice(
-                        currentDestination.pricing.averageDailyBudget
+                        currentDestination.pricing.averageDailyBudget,
                       )}
                     </span>
                   </div>
@@ -573,7 +576,7 @@ export default function DestinationDetailsPage() {
                       <span>Budget Accommodation</span>
                       <span>
                         {formatPrice(
-                          currentDestination.pricing.accommodationRange.budget
+                          currentDestination.pricing.accommodationRange.budget,
                         )}
                       </span>
                     </div>
@@ -581,7 +584,8 @@ export default function DestinationDetailsPage() {
                       <span>Mid-range Accommodation</span>
                       <span>
                         {formatPrice(
-                          currentDestination.pricing.accommodationRange.midRange
+                          currentDestination.pricing.accommodationRange
+                            .midRange,
                         )}
                       </span>
                     </div>
@@ -589,7 +593,7 @@ export default function DestinationDetailsPage() {
                       <span>Luxury Accommodation</span>
                       <span>
                         {formatPrice(
-                          currentDestination.pricing.accommodationRange.luxury
+                          currentDestination.pricing.accommodationRange.luxury,
                         )}
                       </span>
                     </div>
