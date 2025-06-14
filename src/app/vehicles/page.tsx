@@ -420,7 +420,7 @@ export default function VehiclesPage() {
                         placeholder="BMW, Tesla, Harley..."
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
-                        className="pl-10"
+                        className="pl-10 border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
                       />
                     </div>
                   </div>
@@ -781,7 +781,7 @@ export default function VehiclesPage() {
                             max={totalPages}
                             value=""
                             placeholder={currentPage.toString()}
-                            className="w-16 h-8 text-center"
+                            className="border-slate-200 focus:border-primary focus:ring-primary/20 w-20 h-12"
                             onKeyDown={(e) => {
                               if (e.key === "Enter") {
                                 const value = parseInt(
