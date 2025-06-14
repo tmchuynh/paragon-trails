@@ -3,10 +3,15 @@
 import { Button } from "@/components/ui/button";
 import { TripDay, TripItem, TripPlan } from "@/lib/interfaces/trip-planner";
 import { generateTripDays } from "@/lib/utils/trip-planner";
-import { DndContext, DragEndEvent, pointerWithin } from "@dnd-kit/core";
+import {
+  DndContext,
+  DragEndEvent,
+  DragStartEvent,
+  closestCenter,
+} from "@dnd-kit/core";
 import { format } from "date-fns";
 import { Calendar, Clock, MapPin, Users } from "lucide-react";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import ActivityPanel from "./ActivityPanel";
 import DayPlanner from "./DayPlanner";
 import TripExport from "./TripExport";
@@ -23,7 +28,8 @@ export default function TripPlannerContainer() {
   const [guestCount, setGuestCount] = useState(2);
   const [tripDays, setTripDays] = useState<TripDay[]>([]);
   const [availableItems, setAvailableItems] = useState<TripItem[]>([]);
-  const [lastDragAction, setLastDragAction] = useState<string | null>(null);
+  const [isDragging, setIsDragging] = useState(false);
+  const [currentDragItem, setCurrentDragItem] = useState<TripItem | null>(null);
 
   // Initialize trip days when setup is complete
   useEffect(() => {
@@ -42,62 +48,69 @@ export default function TripPlannerContainer() {
     setSetupComplete(true);
   };
 
-  const handleDragEnd = (event: DragEndEvent) => {
-    const { active, over } = event;
+  const handleDragStart = useCallback(
+    (event: DragStartEvent) => {
+      const draggedItem = availableItems.find(
+        (item) => item.id === event.active.id
+      );
+      if (draggedItem) {
+        setIsDragging(true);
+        setCurrentDragItem(draggedItem);
+      }
+    },
+    [availableItems]
+  );
 
-    if (!over) return;
+  const handleDragEnd = useCallback(
+    (event: DragEndEvent) => {
+      const { active, over } = event;
 
-    const draggedItem = availableItems.find((item) => item.id === active.id);
-    if (!draggedItem) return;
+      // Reset drag state
+      setIsDragging(false);
+      setCurrentDragItem(null);
 
-    // Check if dropping on a day or time slot
-    const overId = over.id.toString();
+      if (!over || !currentDragItem) {
+        return;
+      }
 
-    // Create a unique action identifier to prevent duplicates
-    const actionId = `${active.id}-${overId}-${Date.now()}`;
+      // Check if dropping on a day or time slot
+      const overId = over.id.toString();
 
-    // Prevent duplicate actions within a short time window
-    if (lastDragAction === actionId) {
-      return;
-    }
-    setLastDragAction(actionId);
+      // Generate a unique ID for the new item
+      const uniqueId = `${currentDragItem.id}-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
 
-    // Clear the action after a short delay
-    setTimeout(() => setLastDragAction(null), 100);
+      if (overId.startsWith("day-")) {
+        const dayIndex = parseInt(overId.split("-")[1]);
+        const newItem = { ...currentDragItem, id: uniqueId };
 
-    // Generate a unique ID for the new item
-    const uniqueId = `${draggedItem.id}-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+        setTripDays((prevDays) => {
+          const updatedDays = [...prevDays];
+          if (updatedDays[dayIndex]) {
+            updatedDays[dayIndex].items.push(newItem);
+          }
+          return updatedDays;
+        });
+      } else if (overId.startsWith("time-")) {
+        // Handle time slot drops
+        const [, dayIndex, timeSlot] = overId.split("-");
+        const newItem = {
+          ...currentDragItem,
+          id: uniqueId,
+          timeSlot: timeSlot,
+        };
 
-    if (overId.startsWith("day-")) {
-      const dayIndex = parseInt(overId.split("-")[1]);
-      const newItem = { ...draggedItem, id: uniqueId };
-
-      setTripDays((prevDays) => {
-        const updatedDays = [...prevDays];
-        if (updatedDays[dayIndex]) {
-          updatedDays[dayIndex].items.push(newItem);
-        }
-        return updatedDays;
-      });
-    } else if (overId.startsWith("time-")) {
-      // Handle time slot drops
-      const [, dayIndex, timeSlot] = overId.split("-");
-      const newItem = {
-        ...draggedItem,
-        id: uniqueId,
-        timeSlot: timeSlot,
-      };
-
-      setTripDays((prevDays) => {
-        const updatedDays = [...prevDays];
-        const day = updatedDays[parseInt(dayIndex)];
-        if (day) {
-          day.items.push(newItem);
-        }
-        return updatedDays;
-      });
-    }
-  };
+        setTripDays((prevDays) => {
+          const updatedDays = [...prevDays];
+          const day = updatedDays[parseInt(dayIndex)];
+          if (day) {
+            day.items.push(newItem);
+          }
+          return updatedDays;
+        });
+      }
+    },
+    [currentDragItem]
+  );
 
   const removeItemFromDay = (dayIndex: number, itemId: string) => {
     setTripDays((prevDays) => {
@@ -198,7 +211,11 @@ export default function TripPlannerContainer() {
         </div>
       </div>
 
-      <DndContext collisionDetection={pointerWithin} onDragEnd={handleDragEnd}>
+      <DndContext
+        collisionDetection={closestCenter}
+        onDragStart={handleDragStart}
+        onDragEnd={handleDragEnd}
+      >
         <div className="gap-6 grid lg:grid-cols-3 xl:grid-cols-4">
           {/* Activity Panel */}
           <div className="col-span-1 xl:col-span-1">
