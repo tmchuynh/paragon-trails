@@ -70,7 +70,6 @@ function TripBudgetCalculator() {
   const [selectedItems, setSelectedItems] = useState<SelectedItem[]>([]);
   const [totalCost, setTotalCost] = useState<number>(0);
   const [budgetDifference, setBudgetDifference] = useState<number>(0);
-  const [showSavingsPlan, setShowSavingsPlan] = useState<boolean>(false);
   const [budgetPlan, setBudgetPlan] = useState<BudgetPlan>({
     monthlyIncome: 0,
     monthlyExpenses: 0,
@@ -145,15 +144,15 @@ function TripBudgetCalculator() {
 
   const handleItemSelection = (
     item: any,
-    type: "activity" | "attraction" | "tour" | "flight" | "hotel",
+    type: "activity" | "attraction" | "tour" | "flight" | "hotel"
   ) => {
     const isSelected = selectedItems.some(
-      (selected) => selected.id === item.id,
+      (selected) => selected.id === item.id
     );
 
     if (isSelected) {
       setSelectedItems((prev) =>
-        prev.filter((selected) => selected.id !== item.id),
+        prev.filter((selected) => selected.id !== item.id)
       );
     } else {
       let price = 0;
@@ -216,7 +215,7 @@ function TripBudgetCalculator() {
   const removeSelectedItems = (itemsToRemove: SelectedItem[]) => {
     const idsToRemove = itemsToRemove.map((item) => item.id);
     setSelectedItems((prev) =>
-      prev.filter((item) => !idsToRemove.includes(item.id)),
+      prev.filter((item) => !idsToRemove.includes(item.id))
     );
   };
 
@@ -234,7 +233,7 @@ function TripBudgetCalculator() {
       const country = location.country;
 
       const destination = safeDestinations.find(
-        (dest) => dest.id === selectedDestination,
+        (dest) => dest.id === selectedDestination
       );
       if (!destination) return false;
 
@@ -246,7 +245,7 @@ function TripBudgetCalculator() {
     if (!selectedDestination) return [];
 
     const destination = safeDestinations.find(
-      (dest) => dest.id === selectedDestination,
+      (dest) => dest.id === selectedDestination
     );
     if (!destination) return [];
 
@@ -262,7 +261,7 @@ function TripBudgetCalculator() {
     if (!selectedDestination) return [];
 
     const destination = safeDestinations.find(
-      (dest) => dest.id === selectedDestination,
+      (dest) => dest.id === selectedDestination
     );
     if (!destination) return [];
 
@@ -303,7 +302,7 @@ function TripBudgetCalculator() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="flex items-center space-x-4">
+              <div className="flex justify-between items-center space-x-4">
                 <Label htmlFor="budget">
                   <strong>Budget Amount ($)</strong>
                 </Label>
@@ -313,7 +312,7 @@ function TripBudgetCalculator() {
                   placeholder="Enter your vacation budget"
                   value={currentBudget}
                   onChange={(e) => setCurrentBudget(e.target.value)}
-                  className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                  className="focus:border-muted border-border focus:ring-muted/20 w-4/5 h-8"
                 />
               </div>
             </CardContent>
@@ -329,7 +328,7 @@ function TripBudgetCalculator() {
                 value={selectedDestination}
                 onValueChange={setSelectedDestination}
               >
-                <SelectTrigger className="w-full">
+                <SelectTrigger className="border border-border w-full">
                   <SelectValue placeholder="Choose your destination" />
                 </SelectTrigger>
                 <SelectContent className="w-full max-h-60">
@@ -357,7 +356,7 @@ function TripBudgetCalculator() {
                     value={selectedFlight}
                     onValueChange={setSelectedFlight}
                   >
-                    <SelectTrigger className="w-full">
+                    <SelectTrigger className="border border-border w-full">
                       <SelectValue placeholder="Choose your flight" />
                     </SelectTrigger>
                     <SelectContent className="w-full max-h-60">
@@ -415,14 +414,14 @@ function TripBudgetCalculator() {
               </CardHeader>
               <CardContent>
                 <div className="space-y-4">
-                  <div className="gap-4 grid grid-cols-1 md:grid-cols-2">
+                  <div className="items-center gap-4 grid grid-cols-1 md:grid-cols-2">
                     <div>
                       <Label htmlFor="hotel">Hotel</Label>
                       <Select
                         value={selectedHotel}
                         onValueChange={setSelectedHotel}
                       >
-                        <SelectTrigger className="w-full">
+                        <SelectTrigger className="mt-2 border border-border w-full">
                           <SelectValue placeholder="Choose your hotel" />
                         </SelectTrigger>
                         <SelectContent className="w-full max-h-60">
@@ -449,7 +448,7 @@ function TripBudgetCalculator() {
                         min="1"
                         max="30"
                         value={hotelNights}
-                        className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                        className="mt-2 focus:border-muted border-border focus:ring-muted/20 h-8"
                         onChange={(e) =>
                           setHotelNights(parseInt(e.target.value) || 1)
                         }
@@ -497,13 +496,13 @@ function TripBudgetCalculator() {
                   {getFilteredItems(safeActivities).map((activity) => (
                     <div
                       key={activity.id}
-                      className="flex items-center space-x-2 p-3 border rounded-lg"
+                      className="flex items-start space-x-2 p-3 border rounded-lg"
                     >
                       <Checkbox
                         checked={selectedItems.some(
                           (item) => item.id === activity.id
                         )}
-                        className="data-[state=checked]:bg-accent dark:data-[state=checked]:bg-accent data-[state=checked]:border-accent data-[state=checked]:text-accent-foreground"
+                        className="data-[state=checked]:bg-accentdata-[state=checked]:bg-accent mt-1 border data-[state=checked]:border-accent border-border data-[state=checked]:text-accent-foreground"
                         onCheckedChange={() =>
                           handleItemSelection(activity, "activity")
                         }
@@ -541,7 +540,7 @@ function TripBudgetCalculator() {
                         checked={selectedItems.some(
                           (item) => item.id === attraction.id
                         )}
-                        className="data-[state=checked]:bg-accent dark:data-[state=checked]:bg-accent data-[state=checked]:border-accent data-[state=checked]:text-accent-foreground"
+                        className="data-[state=checked]:bg-accentdata-[state=checked]:bg-accent mt-1 border data-[state=checked]:border-accent border-border data-[state=checked]:text-accent-foreground"
                         onCheckedChange={() =>
                           handleItemSelection(attraction, "attraction")
                         }
@@ -579,7 +578,7 @@ function TripBudgetCalculator() {
                         checked={selectedItems.some(
                           (item) => item.id === tour.id
                         )}
-                        className="data-[state=checked]:bg-accent dark:data-[state=checked]:bg-accent data-[state=checked]:border-accent data-[state=checked]:text-accent-foreground"
+                        className="data-[state=checked]:bg-accentdata-[state=checked]:bg-accent mt-1 border data-[state=checked]:border-accent border-border data-[state=checked]:text-accent-foreground"
                         onCheckedChange={() =>
                           handleItemSelection(tour, "tour")
                         }
@@ -644,7 +643,6 @@ function TripBudgetCalculator() {
 
                   <div className="space-y-3">
                     <h4 className="font-semibold">Trip Components:</h4>
-
                     {/* Flight */}
                     {selectedFlight &&
                       (() => {
@@ -652,7 +650,7 @@ function TripBudgetCalculator() {
                           (f) => f.id === selectedFlight
                         );
                         return flight ? (
-                          <div className="flex justify-between items-center bg-blue-50 dark:bg-blue-800 p-2 rounded">
+                          <div className="flex justify-between items-center bg-blue-50 dark:bg-blue-800 p-2 rounded-md">
                             <div>
                               <span className="font-medium">
                                 ✈️ {flight.airline} {flight.flightNumber}
@@ -667,51 +665,26 @@ function TripBudgetCalculator() {
                           </div>
                         ) : null;
                       })()}
-
-                    {/* Hotel */}
-                    {selectedHotel &&
-                      (() => {
-                        const hotel = safeHotels.find(
-                          (h) => h.id === selectedHotel
-                        );
-                        return hotel ? (
-                          <div className="flex justify-between items-center bg-green-50 dark:bg-green-800 p-2 rounded">
-                            <div>
-                              <span className="font-medium">
-                                🏨 {hotel.name}
-                              </span>
-                              <Badge variant="outline" className="ml-2 text-xs">
-                                hotel
-                              </Badge>
-                            </div>
-                            <span className="font-semibold">
-                              $
-                              {(
-                                hotel.pricing.seasonality.standard * hotelNights
-                              ).toFixed(2)}
-                            </span>
-                          </div>
-                        ) : null;
-                      })()}
-
-                    {/* Activities, Attractions, Tours */}
-                    {selectedItems.map((item) => (
-                      <div
-                        key={item.id}
-                        className="flex justify-between items-center bg-gray-50 dark:bg-gray-800 p-2 rounded"
-                      >
-                        <div>
-                          <span className="font-medium">{item.name}</span>
-                          <Badge variant="outline" className="ml-2 text-xs">
-                            {item.type}
-                          </Badge>
-                        </div>
-                        <span className="font-semibold">
-                          ${item.price.toFixed(2)}
-                        </span>
-                      </div>
-                    ))}
                   </div>
+                  {selectedHotel &&
+                    (() => {
+                      const hotel = safeHotels.find(
+                        (h) => h.id === selectedHotel
+                      );
+                      return hotel ? (
+                        <div className="flex justify-between items-center bg-green-50 dark:bg-green-800 p-2 rounded-md">
+                          <div>
+                            <span className="font-medium">🏨 {hotel.name}</span>
+                          </div>
+                          <span className="font-semibold">
+                            $
+                            {(
+                              hotel.pricing.seasonality.standard * hotelNights
+                            ).toFixed(2)}
+                          </span>
+                        </div>
+                      ) : null;
+                    })()}
 
                   {budgetDifference < 0 && (
                     <Alert>
@@ -728,15 +701,17 @@ function TripBudgetCalculator() {
                               Consider removing these items to stay within
                               budget:
                             </p>
-                            {getItemsToRemove().map((item) => (
-                              <div
-                                key={item.id}
-                                className="flex justify-between items-center bg-red-50 dark:bg-red-900/20 p-2 rounded"
-                              >
-                                <span>{item.name}</span>
-                                <span>${item.price.toFixed(2)}</span>
-                              </div>
-                            ))}
+                            <div className="gap-4 grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3">
+                              {getItemsToRemove().map((item) => (
+                                <div
+                                  key={item.id}
+                                  className="flex justify-between items-center bg-red-50 dark:bg-red-900/20 p-2 rounded"
+                                >
+                                  <span>{item.name}</span>
+                                  <span>${item.price.toFixed(2)}</span>
+                                </div>
+                              ))}
+                            </div>
                             <Button
                               variant="outline"
                               size="sm"
@@ -790,6 +765,28 @@ function TripBudgetCalculator() {
                 <Target className="w-5 h-5" />
                 Savings Plan Calculator
               </CardTitle>
+
+              {/* Tips */}
+              <div className="bg-blue-50 dark:bg-blue-900/20 mt-6 p-3 rounded-lg">
+                <h5 className="mb-1 font-medium text-blue-900 text-sm dark:text-blue-100">
+                  💡 Details Needed
+                </h5>
+                <ul className="space-y-1 text-blue-700 text-xs dark:text-blue-200">
+                  <li>
+                    • Input your current budget for your dream vacation into the
+                    budget planning tab to the left
+                  </li>
+                  <li>• Choose your ideal destination</li>
+                  <li>
+                    • Select your flight, hotel details, and ideal activites,
+                    attractions and tours you would like to see
+                  </li>
+                  <li>
+                    • This will allow for the calculations to help plan out your
+                    savings plan if you are under budget
+                  </li>
+                </ul>
+              </div>
             </CardHeader>
             <CardContent className="space-y-6">
               {budgetDifference < 0 && (
@@ -812,7 +809,7 @@ function TripBudgetCalculator() {
                     type="number"
                     placeholder="Enter your monthly income"
                     value={budgetPlan.monthlyIncome || ""}
-                    className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                    className="mt-2 focus:border-muted border-border focus:ring-muted/20 h-8"
                     onChange={(e) =>
                       setBudgetPlan((prev) => ({
                         ...prev,
@@ -830,7 +827,7 @@ function TripBudgetCalculator() {
                     type="number"
                     placeholder="Enter your monthly expenses"
                     value={budgetPlan.monthlyExpenses || ""}
-                    className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                    className="mt-2 focus:border-muted border-border focus:ring-muted/20 h-8"
                     onChange={(e) =>
                       setBudgetPlan((prev) => ({
                         ...prev,
@@ -851,7 +848,9 @@ function TripBudgetCalculator() {
                       ).toFixed(2)}
                     </div>
 
-                    <Label>Choose Savings Percentage:</Label>
+                    <Label>
+                      <strong>Choose Savings Percentage:</strong>
+                    </Label>
                     <div className="gap-2 grid grid-cols-2 md:grid-cols-4 mt-2">
                       {[1, 5, 8, 10].map((percentage) => (
                         <Button
@@ -871,14 +870,16 @@ function TripBudgetCalculator() {
                     </div>
 
                     <div className="mt-4">
-                      <Label htmlFor="custom">Custom Percentage:</Label>
+                      <Label htmlFor="custom">
+                        <strong>Custom Percentage:</strong>
+                      </Label>
                       <Input
                         id="custom"
                         type="number"
                         placeholder="Enter custom %"
                         value={customPercentage}
                         onChange={(e) => handlePercentageChange(e.target.value)}
-                        className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                        className="mt-2 focus:border-muted border-border focus:ring-muted/20 h-8"
                       />
                     </div>
 
