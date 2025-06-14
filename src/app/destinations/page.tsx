@@ -373,7 +373,7 @@ export default function DestinationsPage() {
         <div className="gap-8 grid lg:grid-cols-4">
           {/* Filters Sidebar */}
           <div className="space-y-6 lg:col-span-1">
-            <Card>
+            <Card className="p-0">
               <div className="p-6">
                 <div className="flex items-center gap-2 mb-4">
                   <Filter className="w-5 h-5" />
@@ -628,7 +628,7 @@ export default function DestinationsPage() {
                       className="group hover:shadow-xl p-0 transition-all cursor-pointer overflow-hidden"
                       onClick={() =>
                         router.push(
-                          `/destinations/${destination.name.toLowerCase().replace(/\s+/g, "-")}`,
+                          `/destinations/${destination.name.toLowerCase().replace(/\s+/g, "-")}`
                         )
                       }
                     >
@@ -649,11 +649,11 @@ export default function DestinationsPage() {
                       </div>
 
                       <div className="p-6">
-                        <h3 className="mb-2 font-bold text-slate-900 text-xl dark:text-white">
+                        <h3 className="font-bold text-slate-900 text-xl dark:group-hover:text-blue-400 dark:text-white group-hover:text-blue-600 transition-colors">
                           {destination.name}
                         </h3>
 
-                        <p className="mb-4 text-slate-600 dark:text-slate-400 line-clamp-2">
+                        <p className="mb-4 text-slate-600 dark:text-slate-400 line-clamp-3">
                           {destination.description}
                         </p>
 
@@ -677,7 +677,7 @@ export default function DestinationsPage() {
                             <p className="font-semibold text-slate-600 text-sm">
                               From{" "}
                               {formatPrice(
-                                destination.pricing.averageDailyBudget,
+                                destination.pricing.averageDailyBudget
                               )}
                               /day
                             </p>
@@ -685,7 +685,6 @@ export default function DestinationsPage() {
                               Best season: {destination.bestTimeToVisit[0]}
                             </p>
                           </div>
-                          <Button size="sm">Explore</Button>
                         </div>
                       </div>
                     </Card>
@@ -734,7 +733,7 @@ export default function DestinationsPage() {
                           .filter(
                             (page) =>
                               page >= Math.max(1, currentPage - 2) &&
-                              page <= Math.min(totalPages, currentPage + 2),
+                              page <= Math.min(totalPages, currentPage + 2)
                           )
                           .map((page) => (
                             <PaginationItem key={page}>
@@ -771,7 +770,7 @@ export default function DestinationsPage() {
                           <PaginationNext
                             onClick={() =>
                               handlePageChange(
-                                Math.min(totalPages, currentPage + 1),
+                                Math.min(totalPages, currentPage + 1)
                               )
                             }
                             className={
