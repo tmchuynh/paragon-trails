@@ -181,7 +181,7 @@ export default function FlightsPage() {
             <div className="space-y-2">
               <Label className="font-medium text-sm">From</Label>
               <Select value={fromLocation} onValueChange={setFromLocation}>
-                <SelectTrigger className="w-full">
+                <SelectTrigger className="border border-border w-full">
                   <SelectValue placeholder="Departure city" />
                 </SelectTrigger>
                 <SelectContent className="w-full max-h-60">
@@ -197,7 +197,7 @@ export default function FlightsPage() {
             <div className="space-y-2">
               <Label className="font-medium text-sm">To</Label>
               <Select value={toLocation} onValueChange={setToLocation}>
-                <SelectTrigger className="w-full">
+                <SelectTrigger className="border border-border w-full">
                   <SelectValue placeholder="Destination city" />
                 </SelectTrigger>
                 <SelectContent className="w-full max-h-60">
@@ -223,7 +223,7 @@ export default function FlightsPage() {
             <div className="space-y-2">
               <Label className="font-medium text-sm">Passengers</Label>
               <Select value={passengers} onValueChange={setPassengers}>
-                <SelectTrigger className="w-full">
+                <SelectTrigger className="border border-border w-full">
                   <SelectValue />
                 </SelectTrigger>
                 <SelectContent className="w-full max-h-60">
@@ -237,7 +237,7 @@ export default function FlightsPage() {
             </div>
           </div>
 
-          <div className="gap-4 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
+          <div className="items-center gap-4 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
             <div className="space-y-2">
               <Label className="font-medium text-sm">Search</Label>
               <div className="relative">
@@ -254,7 +254,7 @@ export default function FlightsPage() {
             <div className="space-y-2">
               <Label className="font-medium text-sm">Class</Label>
               <Select value={classType} onValueChange={setClassType}>
-                <SelectTrigger className="w-full">
+                <SelectTrigger className="border border-border w-full">
                   <SelectValue />
                 </SelectTrigger>
                 <SelectContent className="w-full max-h-60">
@@ -265,16 +265,14 @@ export default function FlightsPage() {
               </Select>
             </div>
 
-            <div className="flex items-end">
-              <Button
-                variant="outline"
-                onClick={resetFilters}
-                className="w-full"
-              >
-                <RotateCcw className="mr-2 w-4 h-4" />
-                Reset Filters
-              </Button>
-            </div>
+            <Button
+              variant="outline"
+              onClick={resetFilters}
+              className="m-0 p-0 w-full"
+            >
+              <RotateCcw className="mr-2 w-4 h-4" />
+              Reset Filters
+            </Button>
           </div>
         </Card>
 
