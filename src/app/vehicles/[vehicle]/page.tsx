@@ -981,7 +981,7 @@ export default function VehicleDetailPage() {
                       min="1"
                       max="10"
                       value={quantity}
-                      className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                      className="focus:border-muted border-border focus:ring-muted/20 h-8"
                       onChange={(e) =>
                         setQuantity(parseInt(e.target.value) || 1)
                       }
