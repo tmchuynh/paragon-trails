@@ -54,7 +54,7 @@ export default function VehiclesPage() {
   const [pickupDate, setPickupDate] = useState("");
   const [returnDate, setReturnDate] = useState("");
   const [sortBy, setSortBy] = useState<string>("price-low");
-  const [showFilters, setShowFilters] = useState(true);
+  const [showFilters, setShowFilters] = useState(false);
 
   // Pagination state
   const [currentPage, setCurrentPage] = useState(1);
@@ -313,6 +313,27 @@ export default function VehiclesPage() {
   useEffect(() => {
     setCurrentPage(1);
   }, [itemsPerPage]);
+
+  // Set responsive filter visibility
+  useEffect(() => {
+    const handleResize = () => {
+      // Show filters by default on large screens (lg breakpoint is 1024px)
+      if (window.innerWidth >= 1024) {
+        setShowFilters(true);
+      } else {
+        setShowFilters(false);
+      }
+    };
+
+    // Set initial state
+    handleResize();
+
+    // Add event listener
+    window.addEventListener("resize", handleResize);
+
+    // Cleanup
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   // Calculate pagination
   const totalPages = Math.ceil(filteredVehicles.length / itemsPerPage);
@@ -599,7 +620,7 @@ export default function VehiclesPage() {
           {/* Vehicles Grid */}
           <div className={showFilters ? "lg:col-span-3" : "lg:col-span-1"}>
             <div className="flex md:flex-row flex-col justify-between items-center mb-6">
-              <p className="md:w-1/4 text-center text-slate-600 text-wrap md:text-start dark:text-slate-400">
+              <div className="md:w-1/4 text-center text-slate-600 text-wrap md:text-start dark:text-slate-400">
                 {filteredVehicles.length} vehicle
                 {filteredVehicles.length !== 1 ? "s" : ""} found
                 {filteredVehicles.length > 0 && (
@@ -609,7 +630,7 @@ export default function VehiclesPage() {
                     {filteredVehicles.length})
                   </p>
                 )}
-              </p>
+              </div>
 
               <div className="flex md:flex-row flex-col items-center md:items-end gap-4 mt-2 md:mt-0 w-full md:w-auto">
                 {/* Items per page dropdown */}

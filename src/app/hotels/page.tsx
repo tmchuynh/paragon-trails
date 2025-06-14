@@ -58,13 +58,18 @@ export default function HotelsPage() {
   const [guests, setGuests] = useState({ adults: 2, children: 1 });
   const [starRating, setStarRating] = useState("4");
   const [hotelType, setHotelType] = useState("all");
-  
+
   // Calculate min and max prices from hotels data
-  const minPrice = Math.min(...mockHotels.map(hotel => hotel.pricing.priceRange.min));
-  const maxPrice = Math.max(...mockHotels.map(hotel => hotel.pricing.priceRange.max));
-  
+  const minPrice = Math.min(
+    ...mockHotels.map((hotel) => hotel.pricing.priceRange.min)
+  );
+  const maxPrice = Math.max(
+    ...mockHotels.map((hotel) => hotel.pricing.priceRange.max)
+  );
+
   const [priceRange, setPriceRange] = useState([minPrice, maxPrice]);
   const [sortBy, setSortBy] = useState("rating");
+  const [showFilters, setShowFilters] = useState(false);
 
   // Pagination state
   const [currentPage, setCurrentPage] = useState(1);
@@ -168,6 +173,27 @@ export default function HotelsPage() {
   useEffect(() => {
     setCurrentPage(1);
   }, [itemsPerPage]);
+
+  // Set responsive filter visibility
+  useEffect(() => {
+    const handleResize = () => {
+      // Show filters by default on large screens (lg breakpoint is 1024px)
+      if (window.innerWidth >= 1024) {
+        setShowFilters(true);
+      } else {
+        setShowFilters(false);
+      }
+    };
+
+    // Set initial state
+    handleResize();
+
+    // Add event listener
+    window.addEventListener("resize", handleResize);
+
+    // Cleanup
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   // Calculate pagination
   const totalPages = Math.ceil(filteredHotels.length / itemsPerPage);
@@ -300,161 +326,163 @@ export default function HotelsPage() {
           </div>
         </Card>
 
-        <div className="gap-8 grid lg:grid-cols-4">
+        <div
+          className={`gap-8 grid grid-cols-1 ${showFilters ? "lg:grid-cols-4" : "lg:grid-cols-1"}`}
+        >
           {/* Filters Sidebar */}
-          <div className="space-y-6 lg:col-span-1">
-            <Card className="p-0">
-              <div className="p-6">
-                <div className="flex items-center gap-2 mb-4">
-                  <Filter className="w-5 h-5" />
-                  <h3 className="font-semibold text-lg">Filters</h3>
+          {showFilters && (
+            <div className="space-y-6 lg:col-span-1">
+              <Card className="p-0">
+                <div className="p-6">
+                  <div className="flex items-center gap-2 mb-4">
+                    <Filter className="w-5 h-5" />
+                    <h3 className="font-semibold text-lg">Filters</h3>
+                  </div>
+
+                  <div className="space-y-6">
+                    {/* Search by Name */}
+                    <div className="space-y-2">
+                      <Label>Search Hotels</Label>
+                      <div className="relative">
+                        <Search className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
+                        <Input
+                          placeholder="Hotel name or city..."
+                          value={searchQuery}
+                          onChange={(e) => setSearchQuery(e.target.value)}
+                          className="pl-10 focus:border-muted border-border focus:ring-muted/20 h-8"
+                        />
+                      </div>
+                    </div>
+
+                    {/* Guests */}
+                    <div className="space-y-2">
+                      <Label>Guests</Label>
+                      <div className="gap-2 grid grid-cols-2">
+                        <div>
+                          <Label className="text-xs">Adults</Label>
+                          <Select
+                            value={guests.adults.toString()}
+                            onValueChange={(value) =>
+                              setGuests({ ...guests, adults: parseInt(value) })
+                            }
+                          >
+                            <SelectTrigger className="border border-border w-full">
+                              <SelectValue />
+                            </SelectTrigger>
+                            <SelectContent>
+                              {[1, 2, 3, 4, 5, 6].map((num) => (
+                                <SelectItem key={num} value={num.toString()}>
+                                  {num}
+                                </SelectItem>
+                              ))}
+                            </SelectContent>
+                          </Select>
+                        </div>
+                        <div>
+                          <Label className="text-xs">Children</Label>
+                          <Select
+                            value={guests.children.toString()}
+                            onValueChange={(value) =>
+                              setGuests({
+                                ...guests,
+                                children: parseInt(value),
+                              })
+                            }
+                          >
+                            <SelectTrigger className="border border-border w-full">
+                              <SelectValue />
+                            </SelectTrigger>
+                            <SelectContent>
+                              {[0, 1, 2, 3, 4].map((num) => (
+                                <SelectItem key={num} value={num.toString()}>
+                                  {num}
+                                </SelectItem>
+                              ))}
+                            </SelectContent>
+                          </Select>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Star Rating */}
+                    <div className="space-y-2">
+                      <Label>Minimum Star Rating</Label>
+                      <Select value={starRating} onValueChange={setStarRating}>
+                        <SelectTrigger className="border border-border w-full">
+                          <SelectValue placeholder="Select rating" />
+                        </SelectTrigger>
+                        <SelectContent className="w-full max-h-60">
+                          <SelectItem value="1">1+ Stars</SelectItem>
+                          <SelectItem value="2">2+ Stars</SelectItem>
+                          <SelectItem value="3">3+ Stars</SelectItem>
+                          <SelectItem value="4">4+ Stars</SelectItem>
+                          <SelectItem value="5">5 Stars</SelectItem>
+                        </SelectContent>
+                      </Select>
+                    </div>
+
+                    {/* Price Range */}
+                    <div className="space-y-2">
+                      <Label>
+                        Price Range: {formatPrice(priceRange[0])} -{" "}
+                        {formatPrice(priceRange[1])}
+                      </Label>
+                      <div className="px-2 py-4">
+                        <Slider
+                          value={priceRange}
+                          onValueChange={setPriceRange}
+                          max={maxPrice}
+                          min={minPrice}
+                          step={50}
+                          className="w-full"
+                        />
+                        <div className="flex justify-between mt-2 text-slate-600 text-sm dark:text-slate-400">
+                          <span>{formatPrice(priceRange[0])}</span>
+                          <span>{formatPrice(priceRange[1])}</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Reset Filters Button */}
+                    <Button
+                      onClick={resetFilters}
+                      className="w-full"
+                      variant="outline"
+                    >
+                      <RotateCcw className="mr-2 w-4 h-4" />
+                      Reset Filters
+                    </Button>
+                  </div>
                 </div>
-
-                <div className="space-y-6">
-                  {/* Search by Name */}
-                  <div className="space-y-2">
-                    <Label>Search Hotels</Label>
-                    <div className="relative">
-                      <Search className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
-                      <Input
-                        placeholder="Hotel name or city..."
-                        value={searchQuery}
-                        onChange={(e) => setSearchQuery(e.target.value)}
-                        className="pl-10 focus:border-muted border-border focus:ring-muted/20 h-8"
-                      />
-                    </div>
-                  </div>
-
-                  {/* Guests */}
-                  <div className="space-y-2">
-                    <Label>Guests</Label>
-                    <div className="gap-2 grid grid-cols-2">
-                      <div>
-                        <Label className="text-xs">Adults</Label>
-                        <Select
-                          value={guests.adults.toString()}
-                          onValueChange={(value) =>
-                            setGuests({ ...guests, adults: parseInt(value) })
-                          }
-                        >
-                          <SelectTrigger className="border border-border w-full">
-                            <SelectValue />
-                          </SelectTrigger>
-                          <SelectContent>
-                            {[1, 2, 3, 4, 5, 6].map((num) => (
-                              <SelectItem key={num} value={num.toString()}>
-                                {num}
-                              </SelectItem>
-                            ))}
-                          </SelectContent>
-                        </Select>
-                      </div>
-                      <div>
-                        <Label className="text-xs">Children</Label>
-                        <Select
-                          value={guests.children.toString()}
-                          onValueChange={(value) =>
-                            setGuests({ ...guests, children: parseInt(value) })
-                          }
-                        >
-                          <SelectTrigger className="border border-border w-full">
-                            <SelectValue />
-                          </SelectTrigger>
-                          <SelectContent>
-                            {[0, 1, 2, 3, 4].map((num) => (
-                              <SelectItem key={num} value={num.toString()}>
-                                {num}
-                              </SelectItem>
-                            ))}
-                          </SelectContent>
-                        </Select>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Star Rating */}
-                  <div className="space-y-2">
-                    <Label>Minimum Star Rating</Label>
-                    <Select value={starRating} onValueChange={setStarRating}>
-                      <SelectTrigger className="border border-border w-full">
-                        <SelectValue placeholder="Select rating" />
-                      </SelectTrigger>
-                      <SelectContent className="w-full max-h-60">
-                        <SelectItem value="1">1+ Stars</SelectItem>
-                        <SelectItem value="2">2+ Stars</SelectItem>
-                        <SelectItem value="3">3+ Stars</SelectItem>
-                        <SelectItem value="4">4+ Stars</SelectItem>
-                        <SelectItem value="5">5 Stars</SelectItem>
-                      </SelectContent>
-                    </Select>
-                  </div>
-
-                  {/* Price Range */}
-                  <div className="space-y-2">
-                    <Label>
-                      Price Range: {formatPrice(priceRange[0])} -{" "}
-                      {formatPrice(priceRange[1])}
-                    </Label>
-                    <div className="px-2 py-4">
-                      <Slider
-                        value={priceRange}
-                        onValueChange={setPriceRange}
-                        max={maxPrice}
-                        min={minPrice}
-                        step={50}
-                        className="w-full"
-                      />
-                      <div className="flex justify-between mt-2 text-slate-600 text-sm dark:text-slate-400">
-                        <span>{formatPrice(priceRange[0])}</span>
-                        <span>{formatPrice(priceRange[1])}</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Reset Filters Button */}
-                  <Button
-                    onClick={resetFilters}
-                    className="w-full"
-                    variant="outline"
-                  >
-                    <RotateCcw className="mr-2 w-4 h-4" />
-                    Reset Filters
-                  </Button>
-                </div>
-              </div>
-            </Card>
-          </div>
+              </Card>
+            </div>
+          )}
 
           {/* Hotels Grid */}
-          <div className="lg:col-span-3">
-            <div className="flex justify-between items-center mb-6">
-              <p className="text-slate-600 dark:text-slate-400">
+          <div className={showFilters ? "lg:col-span-3" : "lg:col-span-1"}>
+            <div className="flex md:flex-row flex-col justify-between items-center mb-6">
+              <div className="md:w-1/4 text-center text-slate-600 text-wrap md:text-start dark:text-slate-400">
                 {filteredHotels.length} hotel
                 {filteredHotels.length !== 1 ? "s" : ""} found
                 {destination && destination !== "all" && ` in ${destination}`}
                 {filteredHotels.length > 0 && (
-                  <span className="ml-2">
-                    (Showing {startIndex + 1}-
+                  <p>
+                    (Showing {startIndex + 1}-{" "}
                     {Math.min(endIndex, filteredHotels.length)} of{" "}
                     {filteredHotels.length})
-                  </span>
+                  </p>
                 )}
-              </p>
+              </div>
 
-              <div className="flex items-center gap-4">
+              <div className="flex md:flex-row flex-col items-center md:items-end gap-4 mt-2 md:mt-0 w-full md:w-auto">
                 {/* Items per page dropdown */}
-                <div className="flex items-center gap-2">
-                  <Label
-                    htmlFor="items-per-page"
-                    className="text-sm whitespace-nowrap"
-                  >
-                    Show:
-                  </Label>
+                <div className="flex flex-col items-center w-4/5 md:w-auto">
+                  <Label className="text-sm whitespace-nowrap">Show:</Label>
                   <Select
                     value={itemsPerPage.toString()}
                     onValueChange={(value) => setItemsPerPage(Number(value))}
                   >
-                    <SelectTrigger className="border border-border w-20">
+                    <SelectTrigger className="border border-border w-full md:w-20">
                       <SelectValue />
                     </SelectTrigger>
                     <SelectContent className="w-full max-h-60">
@@ -468,19 +496,35 @@ export default function HotelsPage() {
                 </div>
 
                 {/* Sort dropdown */}
-                <Select value={sortBy} onValueChange={setSortBy}>
-                  <SelectTrigger className="border border-border w-48">
-                    <SelectValue />
-                  </SelectTrigger>
-                  <SelectContent className="w-full max-h-60">
-                    <SelectItem value="rating">Rating (High to Low)</SelectItem>
-                    <SelectItem value="price">Price (Low to High)</SelectItem>
-                    <SelectItem value="stars">
-                      Star Rating (High to Low)
-                    </SelectItem>
-                    <SelectItem value="name">Name (A-Z)</SelectItem>
-                  </SelectContent>
-                </Select>
+                <div className="flex flex-col items-center w-4/5 md:w-auto">
+                  <Label className="text-sm whitespace-nowrap">Sort By:</Label>
+                  <Select value={sortBy} onValueChange={setSortBy}>
+                    <SelectTrigger className="border border-border w-full md:w-48">
+                      <SelectValue />
+                    </SelectTrigger>
+                    <SelectContent className="w-full max-h-60">
+                      <SelectItem value="rating">
+                        Rating (High to Low)
+                      </SelectItem>
+                      <SelectItem value="price">Price (Low to High)</SelectItem>
+                      <SelectItem value="stars">
+                        Star Rating (High to Low)
+                      </SelectItem>
+                      <SelectItem value="name">Name (A-Z)</SelectItem>
+                    </SelectContent>
+                  </Select>
+                </div>
+
+                {/* Toggle Filters Button */}
+                <Button
+                  variant="outline"
+                  size="sm"
+                  onClick={() => setShowFilters(!showFilters)}
+                  className="flex items-center gap-2 m-0.5 w-4/5 md:w-auto"
+                >
+                  <Filter className="w-4 h-4" />
+                  {showFilters ? "Hide Filters" : "Show Filters"}
+                </Button>
               </div>
             </div>
 
