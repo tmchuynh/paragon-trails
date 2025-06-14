@@ -1,339 +1,1521 @@
 import { Tour } from "@/lib/interfaces/services/tours";
-import {
-  FaCity,
-  FaMountain,
-  FaTree,
-  FaUmbrellaBeach,
-  FaWater,
-} from "react-icons/fa";
 
 export const mockTours: Tour[] = [
+  // Paris Tours
   {
-    id: "1",
-    title: "Grand Canyon Helicopter Tour",
-    description: "Experience the breathtaking beauty of the Grand Canyon from above with our premium helicopter tour. Soar over the majestic landscapes and witness one of the world's most spectacular natural wonders.",
+    id: "TOUR-PAR-001",
+    title: "Paris City Highlights & Eiffel Tower Tour",
+    description:
+      "Discover the magic of Paris on this comprehensive tour featuring iconic landmarks, charming neighborhoods, and skip-the-line access to the Eiffel Tower.",
+    type: "Guided Tour",
+    category: "Sightseeing",
+    features: [
+      "Skip-the-line Eiffel Tower access",
+      "Professional English-speaking guide",
+      "Air-conditioned transportation",
+      "Small group size (max 20 people)",
+      "Photo stops at major landmarks",
+    ],
+    restrictions: [
+      "Not wheelchair accessible",
+      "Moderate walking required",
+      "Children must be accompanied by adults",
+    ],
     images: [
-      "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=1200&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1444927714506-8492d94b5ba0?w=1200&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1502602898536-47ad22581b52?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1549144511-f099e773c147?w=800&h=600&fit=crop",
     ],
-    price: "$459",
-    duration: "3 hours",
-    rating: 4.9,
-    tourCategoryId: "adventure",
-    tags: ["Adventure", "Scenic", "Helicopter", "Nature"],
-    highlights: [
-      "45-minute helicopter flight over Grand Canyon",
-      "Professional pilot commentary",
-      "Spectacular aerial photography opportunities",
-      "Views of Colorado River",
-      "Desert landscape exploration"
-    ],
-    inclusions: [
-      "Helicopter flight",
-      "Professional pilot guide",
-      "Safety briefing and equipment",
-      "Complimentary photos",
-      "Hotel pickup and drop-off"
-    ],
-    exclusions: [
-      "Gratuities",
-      "Personal expenses",
-      "Food and beverages",
-      "Travel insurance"
-    ],
-    itinerary: [
-      "Hotel pickup and transfer to heliport",
-      "Safety briefing and helicopter boarding",
-      "45-minute scenic flight over Grand Canyon",
-      "Landing at exclusive viewpoint",
-      "Return flight and hotel drop-off"
-    ],
-    cancellationPolicy: "Free cancellation up to 24 hours before departure. Weather-dependent cancellations receive full refund.",
-    icon: FaMountain,
-    meetingPoint: {
-      address: "Grand Canyon National Airport, 3555 Airport Rd, Grand Canyon Village, AZ 86023",
+    duration: "8 hours",
+    pricing: {
+      adult: 89,
+      child: 65,
+      senior: 79,
+      student: 75,
+      family: 280,
+      currency: "EUR",
+    },
+    tickets: {
+      advanceBooking: true,
+      skipTheLine: true,
+      groupDiscounts: true,
+    },
+    location: {
+      city: "Paris",
+      country: "France",
+      address: "Place du Trocadéro, 75016 Paris",
       coordinates: {
-        latitude: 35.9524,
-        longitude: -112.1401
+        latitude: 48.8566,
+        longitude: 2.3522,
       },
-      instructions: "Please arrive 30 minutes before departure time. Check in at the helicopter tour counter.",
-      contactNumber: "+1-555-CANYON-1",
-      contactEmail: "info@grandcanyonheli.com"
-    }
+    },
+    reviews: {
+      rating: 4.8,
+      totalReviews: 2847,
+      highlights: [
+        "Amazing views from Eiffel Tower",
+        "Knowledgeable guide",
+        "Well organized tour",
+      ],
+    },
+    itinerary: [
+      {
+        startTime: "09:00",
+        endTime: "11:00",
+        activities: [
+          "Meet at Trocadéro Gardens",
+          "Eiffel Tower exterior tour and photos",
+          "Skip-the-line access to Eiffel Tower 2nd floor",
+        ],
+      },
+      {
+        startTime: "11:30",
+        endTime: "13:00",
+        activities: [
+          "Seine River cruise",
+          "Notre-Dame Cathedral (exterior)",
+          "Latin Quarter walking tour",
+        ],
+      },
+      {
+        startTime: "14:00",
+        endTime: "16:00",
+        activities: [
+          "Louvre Museum exterior",
+          "Champs-Élysées walk",
+          "Arc de Triomphe photo stop",
+        ],
+      },
+      {
+        startTime: "16:30",
+        endTime: "17:00",
+        activities: [
+          "Montmartre and Sacré-Cœur",
+          "Free time for shopping",
+          "Tour conclusion",
+        ],
+      },
+    ],
+    cancellationPolicy: "Free cancellation up to 24 hours before the tour",
+    meetingPoint: {
+      address: "Place du Trocadéro, 75016 Paris, France",
+      instructions: "Meet your guide by the Eiffel Tower statue",
+      contactNumber: "+33 1 42 25 96 10",
+    },
   },
+
+  // Tokyo Tours
   {
-    id: "2",
-    title: "Paris Walking Food Tour",
-    description: "Discover the culinary delights of Paris with our guided food walking tour. Taste authentic French cuisine, visit local markets, and learn about Parisian food culture.",
+    id: "TOUR-TOK-001",
+    title: "Tokyo Traditional & Modern Culture Experience",
+    description:
+      "Immerse yourself in Tokyo's fascinating blend of ancient traditions and cutting-edge modernity with visits to temples, markets, and tech districts.",
+    type: "Cultural Tour",
+    category: "Culture",
+    features: [
+      "Traditional tea ceremony experience",
+      "Sushi making workshop",
+      "Visit to Senso-ji Temple",
+      "Shibuya crossing experience",
+      "Local English-speaking guide",
+    ],
+    restrictions: [
+      "Dietary restrictions accommodated with advance notice",
+      "Some temple areas require shoe removal",
+      "Moderate walking required",
+    ],
     images: [
-      "https://images.unsplash.com/photo-1502602898536-47ad22581b52?w=1200&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=1200&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1549398120-8ccaa3b2b56a?w=1200&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1513407030348-c983a97b98d8?w=800&h=600&fit=crop",
     ],
-    price: "$89",
-    duration: "4 hours",
-    rating: 4.8,
-    tourCategoryId: "culinary",
-    tags: ["Food", "Walking", "Culture", "Local Experience"],
-    highlights: [
-      "Visit 6 authentic Parisian eateries",
-      "Taste traditional French pastries and cheeses",
-      "Explore local markets and bakeries",
-      "Learn about French culinary history",
-      "Small group experience (max 12 people)"
-    ],
-    inclusions: [
-      "Professional food guide",
-      "All food tastings",
-      "Local market visits",
-      "Recipe cards",
-      "Small group experience"
-    ],
-    exclusions: [
-      "Additional drinks",
-      "Hotel pickup",
-      "Gratuities",
-      "Personal purchases"
-    ],
-    itinerary: [
-      "Meet at Place des Vosges",
-      "Visit traditional French bakery",
-      "Cheese tasting at fromagerie",
-      "Local market exploration",
-      "Wine and charcuterie tasting",
-      "Dessert at historic patisserie"
-    ],
-    cancellationPolicy: "Free cancellation up to 12 hours before tour start time.",
-    icon: FaCity,
-    meetingPoint: {
-      address: "Place des Vosges, 75004 Paris, France",
+    duration: "10 hours",
+    pricing: {
+      adult: 145,
+      child: 110,
+      senior: 135,
+      student: 120,
+      currency: "USD",
+    },
+    tickets: {
+      advanceBooking: true,
+      skipTheLine: false,
+      groupDiscounts: true,
+    },
+    location: {
+      city: "Tokyo",
+      country: "Japan",
+      address: "Asakusa Station, Tokyo",
       coordinates: {
-        latitude: 48.8555,
-        longitude: 2.3665
+        latitude: 35.6762,
+        longitude: 139.6503,
       },
-      instructions: "Meet at the center of Place des Vosges near the statue. Look for guide with red umbrella.",
-      contactNumber: "+33-1-23-45-67-89",
-      contactEmail: "bonjour@parisfoottours.fr"
-    }
+    },
+    reviews: {
+      rating: 4.9,
+      totalReviews: 1923,
+      highlights: [
+        "Authentic cultural experience",
+        "Excellent sushi workshop",
+        "Perfect mix of old and new Tokyo",
+      ],
+    },
+    itinerary: [
+      {
+        startTime: "08:30",
+        endTime: "10:30",
+        activities: [
+          "Meet at Asakusa Station",
+          "Senso-ji Temple tour",
+          "Traditional shopping street exploration",
+        ],
+      },
+      {
+        startTime: "11:00",
+        endTime: "13:00",
+        activities: [
+          "Tea ceremony experience",
+          "Traditional Japanese lunch",
+          "Meiji Shrine visit",
+        ],
+      },
+      {
+        startTime: "14:00",
+        endTime: "16:30",
+        activities: [
+          "Sushi making workshop",
+          "Tokyo Skytree area exploration",
+          "Modern technology district tour",
+        ],
+      },
+      {
+        startTime: "17:00",
+        endTime: "18:30",
+        activities: [
+          "Shibuya crossing experience",
+          "Harajuku fashion district",
+          "Tour conclusion at Shibuya Station",
+        ],
+      },
+    ],
+    cancellationPolicy: "Free cancellation up to 48 hours before the tour",
+    meetingPoint: {
+      address: "Asakusa Station, Exit 1, Tokyo, Japan",
+      instructions: "Look for guide with Tokyo Culture Tours sign",
+      contactNumber: "+81 3-5555-1234",
+    },
   },
+
+  // New York City Tours
   {
-    id: "3",
-    title: "Northern Lights Aurora Safari",
-    description: "Chase the magical Northern Lights in the pristine wilderness of Iceland. Our expert guides will take you to the best viewing locations for an unforgettable aurora experience.",
+    id: "TOUR-NYC-001",
+    title: "NYC Icons & Neighborhoods Walking Tour",
+    description:
+      "Explore the best of Manhattan on foot, from iconic landmarks to hidden gems, with an expert local guide sharing insider stories and history.",
+    type: "Walking Tour",
+    category: "Sightseeing",
+    features: [
+      "Central Park guided walk",
+      "Times Square and Broadway district",
+      "9/11 Memorial visit",
+      "Brooklyn Bridge walk",
+      "Local food tastings included",
+    ],
+    restrictions: [
+      "Extensive walking required (5+ miles)",
+      "Weather dependent",
+      "Not recommended for mobility issues",
+    ],
     images: [
-      "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=1200&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1517654892525-6d913d1e9c37?w=1200&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1518391846015-55a9cc003b25?w=800&h=600&fit=crop",
     ],
-    price: "$195",
-    duration: "6 hours",
-    rating: 4.7,
-    tourCategoryId: "adventure",
-    tags: ["Northern Lights", "Photography", "Adventure", "Nature"],
-    highlights: [
-      "Professional aurora photography guidance",
-      "Multiple viewing locations",
-      "Hot chocolate and traditional snacks",
-      "Aurora forecast expertise",
-      "Small group for personalized experience"
-    ],
-    inclusions: [
-      "Expert Northern Lights guide",
-      "Transportation to viewing locations",
-      "Photography tips and assistance",
-      "Warm blankets and hot beverages",
-      "Aurora forecast updates"
-    ],
-    exclusions: [
-      "Camera equipment rental",
-      "Meals",
-      "Hotel pickup (available for extra cost)",
-      "Warm clothing rental"
-    ],
-    itinerary: [
-      "Evening pickup from Reykjavik",
-      "Drive to optimal viewing location",
-      "Aurora waiting and photography",
-      "Hot chocolate break",
-      "Alternative location if needed",
-      "Return to Reykjavik"
-    ],
-    cancellationPolicy: "Tours may be cancelled due to weather. Full refund or reschedule available. 24-hour cancellation policy.",
-    icon: FaMountain,
-    meetingPoint: {
-      address: "BSI Bus Terminal, 101 Reykjavik, Iceland",
+    duration: "7 hours",
+    pricing: {
+      adult: 95,
+      child: 75,
+      senior: 85,
+      student: 80,
+      family: 320,
+      currency: "USD",
+    },
+    tickets: {
+      advanceBooking: true,
+      skipTheLine: false,
+      groupDiscounts: true,
+    },
+    location: {
+      city: "New York",
+      country: "United States",
+      address: "Central Park, 59th Street Entrance",
       coordinates: {
-        latitude: 64.1466,
-        longitude: -21.9426
+        latitude: 40.7128,
+        longitude: -74.006,
       },
-      instructions: "Meet at the main entrance of BSI Bus Terminal. Guide will have 'Aurora Safari' sign.",
-      contactNumber: "+354-555-AURORA",
-      contactEmail: "northern@aurorasafari.is"
-    }
+    },
+    reviews: {
+      rating: 4.7,
+      totalReviews: 3156,
+      highlights: [
+        "Great introduction to NYC",
+        "Knowledgeable local guide",
+        "Perfect mix of famous sites and hidden spots",
+      ],
+    },
+    itinerary: [
+      {
+        startTime: "09:00",
+        endTime: "11:00",
+        activities: [
+          "Central Park highlights tour",
+          "Bethesda Fountain and Terrace",
+          "Strawberry Fields memorial",
+        ],
+      },
+      {
+        startTime: "11:30",
+        endTime: "13:30",
+        activities: [
+          "Times Square and Broadway",
+          "High Line elevated park",
+          "Chelsea Market food tasting",
+        ],
+      },
+      {
+        startTime: "14:00",
+        endTime: "15:30",
+        activities: [
+          "9/11 Memorial and Museum area",
+          "Wall Street and Financial District",
+          "Stone Street historic block",
+        ],
+      },
+      {
+        startTime: "15:45",
+        endTime: "16:00",
+        activities: [
+          "Brooklyn Bridge walk",
+          "DUMBO neighborhood",
+          "Manhattan skyline views",
+        ],
+      },
+    ],
+    cancellationPolicy: "Free cancellation up to 24 hours before the tour",
+    meetingPoint: {
+      address: "Central Park, 59th Street and 5th Avenue, New York, NY",
+      instructions: "Meet at the Grand Army Plaza entrance",
+      contactNumber: "+1 212-555-0199",
+    },
   },
+
+  // Bali Tours
   {
-    id: "4",
-    title: "Tropical Snorkeling Adventure",
-    description: "Explore vibrant coral reefs and swim with tropical fish in crystal-clear waters. Perfect for beginners and experienced snorkelers alike.",
+    id: "TOUR-BAL-001",
+    title: "Bali Temples & Rice Terraces Cultural Journey",
+    description:
+      "Discover Bali's spiritual heart and stunning landscapes with visits to ancient temples, traditional villages, and the famous Tegallalang Rice Terraces.",
+    type: "Cultural Tour",
+    category: "Culture",
+    features: [
+      "Traditional Balinese ceremony participation",
+      "Rice terrace trekking",
+      "Temple blessings with local priests",
+      "Traditional lunch with local family",
+      "Artisan village visits",
+    ],
+    restrictions: [
+      "Modest dress required for temples",
+      "Moderate fitness level needed",
+      "Some areas not accessible by vehicle",
+    ],
     images: [
-      "https://images.unsplash.com/photo-1583212292454-1fe6229603b7?w=1200&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1200&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=1200&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=800&h=600&fit=crop",
     ],
-    price: "$75",
-    duration: "4 hours",
-    rating: 4.6,
-    tourCategoryId: "water-sports",
-    tags: ["Snorkeling", "Marine Life", "Coral Reef", "Adventure"],
-    highlights: [
-      "Visit 3 pristine snorkeling spots",
-      "Professional snorkeling instruction",
-      "Colorful coral reef exploration",
-      "Tropical fish and marine life viewing",
-      "Underwater photography opportunities"
-    ],
-    inclusions: [
-      "Snorkeling equipment",
-      "Professional guide",
-      "Boat transportation",
-      "Safety briefing",
-      "Refreshments on board"
-    ],
-    exclusions: [
-      "Underwater camera rental",
-      "Towels",
-      "Lunch",
-      "Hotel transportation"
-    ],
-    itinerary: [
-      "Marina departure",
-      "Safety briefing and equipment fitting",
-      "First snorkeling site - shallow reef",
-      "Second site - coral garden",
-      "Third site - fish sanctuary",
-      "Return to marina"
-    ],
-    cancellationPolicy: "Free cancellation up to 24 hours. Weather cancellations receive full refund.",
-    icon: FaWater,
-    meetingPoint: {
-      address: "Coral Bay Marina, Pier 3, Key Largo, FL 33037",
+    duration: "9 hours",
+    pricing: {
+      adult: 65,
+      child: 45,
+      senior: 60,
+      currency: "USD",
+    },
+    tickets: {
+      advanceBooking: true,
+      skipTheLine: false,
+      groupDiscounts: true,
+    },
+    location: {
+      city: "Bali",
+      country: "Indonesia",
+      address: "Ubud Center, Bali",
       coordinates: {
-        latitude: 25.0978,
-        longitude: -80.4549
+        latitude: -8.3405,
+        longitude: 115.092,
       },
-      instructions: "Check in at the marina office 15 minutes before departure.",
-      contactNumber: "+1-305-555-REEF",
-      contactEmail: "dive@coralbaysnorkel.com"
-    }
+    },
+    reviews: {
+      rating: 4.8,
+      totalReviews: 1576,
+      highlights: [
+        "Authentic cultural experience",
+        "Beautiful rice terraces",
+        "Spiritual temple visits",
+      ],
+    },
+    itinerary: [
+      {
+        startTime: "08:00",
+        endTime: "10:00",
+        activities: [
+          "Hotel pickup in Ubud area",
+          "Tegallalang Rice Terraces visit",
+          "Traditional farming demonstration",
+        ],
+      },
+      {
+        startTime: "10:30",
+        endTime: "12:30",
+        activities: [
+          "Tirta Empul Holy Water Temple",
+          "Purification ceremony participation",
+          "Temple blessing with local priest",
+        ],
+      },
+      {
+        startTime: "13:00",
+        endTime: "14:30",
+        activities: [
+          "Traditional Balinese lunch",
+          "Local family compound visit",
+          "Cultural exchange and stories",
+        ],
+      },
+      {
+        startTime: "15:00",
+        endTime: "17:00",
+        activities: [
+          "Artisan village tours",
+          "Wood carving and silver jewelry workshops",
+          "Shopping for authentic crafts",
+        ],
+      },
+    ],
+    cancellationPolicy: "Free cancellation up to 24 hours before the tour",
+    meetingPoint: {
+      address: "Ubud Traditional Market, Jl. Raya Ubud, Bali",
+      instructions: "Meet at the main entrance to the traditional market",
+      contactNumber: "+62 361-555-0123",
+    },
   },
+
+  // Cape Town Tours
   {
-    id: "5",
-    title: "Amazon Rainforest Trek",
-    description: "Immerse yourself in the world's largest rainforest. Discover incredible biodiversity, indigenous culture, and pristine natural beauty on this multi-day adventure.",
+    id: "TOUR-CPT-001",
+    title: "Cape Town Table Mountain & Winelands Adventure",
+    description:
+      "Experience Cape Town's natural beauty and world-renowned wine culture with Table Mountain cable car, wine tastings, and scenic drives through the Winelands.",
+    type: "Adventure Tour",
+    category: "Nature & Wine",
+    features: [
+      "Table Mountain cable car ride",
+      "3 wine estate visits with tastings",
+      "Scenic drives through Stellenbosch",
+      "Traditional South African lunch",
+      "Professional sommelier guide",
+    ],
+    restrictions: [
+      "Cable car weather dependent",
+      "Age 18+ for wine tastings",
+      "Moderate walking on wine estates",
+    ],
     images: [
-      "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=1200&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?w=1200&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1574029811650-2fb0e3b2fc79?w=1200&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1563656353898-febc9270be0b?w=800&h=600&fit=crop",
     ],
-    price: "$285",
-    duration: "3 days",
-    rating: 4.8,
-    tourCategoryId: "eco-tour",
-    tags: ["Rainforest", "Wildlife", "Eco-tourism", "Adventure"],
-    highlights: [
-      "Guided jungle trekking",
-      "Wildlife spotting opportunities",
-      "Indigenous community visit",
-      "Canopy walkway experience",
-      "Night sounds of the jungle"
-    ],
-    inclusions: [
-      "Professional naturalist guide",
-      "All meals during trek",
-      "Eco-lodge accommodation",
-      "Transportation from/to Iquitos",
-      "Wildlife viewing equipment"
-    ],
-    exclusions: [
-      "International flights",
-      "Travel insurance",
-      "Personal gear",
-      "Alcoholic beverages",
-      "Gratuities"
-    ],
-    itinerary: [
-      "Day 1: Arrival and river journey to lodge",
-      "Day 2: Jungle trek and wildlife observation",
-      "Day 3: Canopy walk and indigenous village visit",
-      "Day 3: Return journey to Iquitos"
-    ],
-    cancellationPolicy: "Cancellation fees apply. Travel insurance recommended. Weather-dependent activities.",
-    icon: FaTree,
-    meetingPoint: {
-      address: "Iquitos Airport, Coronel FAP Francisco Secada Vignetta International Airport, Peru",
+    duration: "8 hours",
+    pricing: {
+      adult: 125,
+      child: 75,
+      senior: 115,
+      currency: "USD",
+    },
+    tickets: {
+      advanceBooking: true,
+      skipTheLine: true,
+      groupDiscounts: true,
+    },
+    location: {
+      city: "Cape Town",
+      country: "South Africa",
+      address: "Table Mountain Cable Car Station",
       coordinates: {
-        latitude: -3.7847,
-        longitude: -73.3088
+        latitude: -33.9249,
+        longitude: 18.4241,
       },
-      instructions: "Meet at arrival hall. Look for Amazon Trek guide with company logo.",
-      contactNumber: "+51-65-555-JUNGLE",
-      contactEmail: "adventure@amazontrek.pe"
-    }
+    },
+    reviews: {
+      rating: 4.9,
+      totalReviews: 2234,
+      highlights: [
+        "Breathtaking Table Mountain views",
+        "Excellent wine selections",
+        "Beautiful Winelands scenery",
+      ],
+    },
+    itinerary: [
+      {
+        startTime: "08:30",
+        endTime: "10:30",
+        activities: [
+          "Table Mountain cable car ascent",
+          "Summit exploration and photography",
+          "360-degree city and ocean views",
+        ],
+      },
+      {
+        startTime: "11:00",
+        endTime: "13:00",
+        activities: [
+          "Drive to Stellenbosch Winelands",
+          "First wine estate visit and tasting",
+          "Vineyard tour and cellar visit",
+        ],
+      },
+      {
+        startTime: "13:30",
+        endTime: "15:00",
+        activities: [
+          "Traditional South African lunch",
+          "Second wine estate with food pairing",
+          "Meet local winemaker",
+        ],
+      },
+      {
+        startTime: "15:30",
+        endTime: "16:30",
+        activities: [
+          "Third wine estate visit",
+          "Premium wine tasting session",
+          "Return journey to Cape Town",
+        ],
+      },
+    ],
+    cancellationPolicy: "Free cancellation up to 48 hours before the tour",
+    meetingPoint: {
+      address: "Table Mountain Lower Cable Station, Tafelberg Road, Cape Town",
+      instructions: "Meet at the main ticket office entrance",
+      contactNumber: "+27 21-555-0199",
+    },
   },
+
+  // Cusco Tours
   {
-    id: "6",
-    title: "Mediterranean Sunset Sail",
-    description: "Experience the magic of a Mediterranean sunset aboard a traditional sailing vessel. Enjoy local wines, fresh seafood, and breathtaking coastal views.",
+    id: "TOUR-CUS-001",
+    title: "Sacred Valley & Machu Picchu Express Experience",
+    description:
+      "Journey through the mystical Sacred Valley and visit the iconic Machu Picchu citadel on this unforgettable Inca heritage tour with train transportation.",
+    type: "Historical Tour",
+    category: "History & Culture",
+    features: [
+      "Vistadome train to Machu Picchu",
+      "Professional archaeological guide",
+      "Sacred Valley market visits",
+      "Traditional Andean lunch",
+      "Small group experience (max 16)",
+    ],
+    restrictions: [
+      "High altitude - acclimatization recommended",
+      "Moderate to challenging hiking",
+      "Weather can change rapidly",
+    ],
     images: [
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1200&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1549144511-f099e773c147?w=1200&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1587595431973-160d0d94add1?w=800&h=600&fit=crop",
     ],
-    price: "$125",
-    duration: "3 hours",
-    rating: 4.9,
-    tourCategoryId: "leisure",
-    tags: ["Sailing", "Sunset", "Wine", "Romantic"],
-    highlights: [
-      "Traditional Mediterranean sailing",
-      "Spectacular sunset views",
-      "Local wine and tapas",
-      "Swimming opportunity",
-      "Small group intimate experience"
-    ],
-    inclusions: [
-      "Sailing experience",
-      "Professional skipper",
-      "Local wines and tapas",
-      "Swimming equipment",
-      "Sunset photography opportunities"
-    ],
-    exclusions: [
-      "Hotel pickup",
-      "Additional drinks",
-      "Gratuities",
-      "Towels"
-    ],
-    itinerary: [
-      "Marina departure",
-      "Coastal sailing",
-      "Swimming break (optional)",
-      "Wine and tapas service",
-      "Sunset viewing",
-      "Return to marina"
-    ],
-    cancellationPolicy: "Free cancellation up to 48 hours. Weather-dependent with full refund for cancellations.",
-    icon: FaUmbrellaBeach,
-    meetingPoint: {
-      address: "Port Vell Marina, 08039 Barcelona, Spain",
+    duration: "12 hours",
+    pricing: {
+      adult: 189,
+      child: 145,
+      senior: 175,
+      student: 165,
+      currency: "USD",
+    },
+    tickets: {
+      advanceBooking: true,
+      skipTheLine: true,
+      groupDiscounts: false,
+    },
+    location: {
+      city: "Cusco",
+      country: "Peru",
+      address: "Cusco San Pedro Train Station",
       coordinates: {
-        latitude: 41.3759,
-        longitude: 2.1851
+        latitude: -13.1631,
+        longitude: -72.545,
       },
-      instructions: "Meet at dock 15, look for the traditional sailing boat 'Mediterranean Dream'.",
-      contactNumber: "+34-93-555-SAIL",
-      contactEmail: "ahoy@medsail.es"
-    }
-  }
+    },
+    reviews: {
+      rating: 4.9,
+      totalReviews: 1845,
+      highlights: [
+        "Life-changing Machu Picchu experience",
+        "Knowledgeable guide about Inca history",
+        "Beautiful train journey through mountains",
+      ],
+    },
+    itinerary: [
+      {
+        startTime: "05:30",
+        endTime: "07:30",
+        activities: [
+          "Hotel pickup in Cusco",
+          "Drive to Ollantaytambo station",
+          "Sacred Valley scenic route",
+        ],
+      },
+      {
+        startTime: "08:00",
+        endTime: "10:00",
+        activities: [
+          "Vistadome train to Aguas Calientes",
+          "Andean mountain scenery",
+          "Traditional music on board",
+        ],
+      },
+      {
+        startTime: "10:30",
+        endTime: "14:00",
+        activities: [
+          "Bus ascent to Machu Picchu",
+          "Guided tour of the citadel",
+          "Free time for photography",
+        ],
+      },
+      {
+        startTime: "14:30",
+        endTime: "18:00",
+        activities: [
+          "Traditional Andean lunch",
+          "Return train journey",
+          "Transfer back to Cusco hotels",
+        ],
+      },
+    ],
+    cancellationPolicy:
+      "50% refund up to 7 days before, no refund within 7 days",
+    meetingPoint: {
+      address: "San Pedro Train Station, Cusco, Peru",
+      instructions: "Meet at the station main entrance 30 minutes early",
+      contactNumber: "+51 84-555-0123",
+    },
+  },
+
+  // Los Angeles Tours
+  {
+    id: "TOUR-LA-001",
+    title: "Hollywood & Beverly Hills Celebrity Tour",
+    description:
+      "Go behind the scenes of Tinseltown with visits to famous studios, celebrity homes, and iconic Hollywood landmarks in this comprehensive entertainment tour.",
+    type: "Entertainment Tour",
+    category: "Entertainment",
+    features: [
+      "Hollywood Walk of Fame tour",
+      "Celebrity homes in Beverly Hills",
+      "Studio tour (Universal or Warner Bros)",
+      "Griffith Observatory visit",
+      "Professional entertainment guide",
+    ],
+    restrictions: [
+      "Photography restrictions in some studio areas",
+      "Celebrity sightings not guaranteed",
+      "Some venues may have age restrictions",
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1534190760961-74e8c1b5c2bb?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?w=800&h=600&fit=crop",
+    ],
+    duration: "8 hours",
+    pricing: {
+      adult: 149,
+      child: 119,
+      senior: 139,
+      student: 129,
+      currency: "USD",
+    },
+    tickets: {
+      advanceBooking: true,
+      skipTheLine: true,
+      groupDiscounts: true,
+    },
+    location: {
+      city: "Los Angeles",
+      country: "United States",
+      address: "Hollywood Boulevard, Los Angeles, CA",
+      coordinates: {
+        latitude: 34.0522,
+        longitude: -118.2437,
+      },
+    },
+    reviews: {
+      rating: 4.6,
+      totalReviews: 2967,
+      highlights: [
+        "Great celebrity homes tour",
+        "Informative studio experience",
+        "Fun Hollywood history",
+      ],
+    },
+    itinerary: [
+      {
+        startTime: "09:00",
+        endTime: "11:00",
+        activities: [
+          "Hollywood Walk of Fame",
+          "TCL Chinese Theatre handprints",
+          "Hollywood Sign viewing",
+        ],
+      },
+      {
+        startTime: "11:30",
+        endTime: "14:00",
+        activities: [
+          "Universal Studios or Warner Bros tour",
+          "Behind-the-scenes studio experience",
+          "Lunch at studio commissary",
+        ],
+      },
+      {
+        startTime: "14:30",
+        endTime: "16:30",
+        activities: [
+          "Beverly Hills celebrity homes",
+          "Rodeo Drive shopping district",
+          "Sunset Strip landmarks",
+        ],
+      },
+      {
+        startTime: "17:00",
+        endTime: "18:00",
+        activities: [
+          "Griffith Observatory visit",
+          "Los Angeles city views",
+          "Tour conclusion",
+        ],
+      },
+    ],
+    cancellationPolicy: "Free cancellation up to 24 hours before the tour",
+    meetingPoint: {
+      address: "6801 Hollywood Blvd, Los Angeles, CA 90028",
+      instructions: "Meet in front of the TCL Chinese Theatre",
+      contactNumber: "+1 323-555-0199",
+    },
+  },
+
+  // Dubai Tours
+  {
+    id: "TOUR-DUB-001",
+    title: "Dubai Modern Marvels & Desert Safari Adventure",
+    description:
+      "Experience the best of futuristic Dubai with visits to iconic skyscrapers and a thrilling desert safari complete with camel riding and traditional entertainment.",
+    type: "Adventure Tour",
+    category: "Adventure",
+    features: [
+      "Burj Khalifa observation deck",
+      "Dubai Mall and fountain show",
+      "4x4 desert safari adventure",
+      "Camel riding experience",
+      "Traditional Bedouin camp dinner",
+    ],
+    restrictions: [
+      "Desert activities weather dependent",
+      "Not suitable for pregnant women",
+      "Modest dress required for some areas",
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1582672060674-bc2bd808a8b5?w=800&h=600&fit=crop",
+    ],
+    duration: "10 hours",
+    pricing: {
+      adult: 175,
+      child: 135,
+      senior: 165,
+      currency: "USD",
+    },
+    tickets: {
+      advanceBooking: true,
+      skipTheLine: true,
+      groupDiscounts: true,
+    },
+    location: {
+      city: "Dubai",
+      country: "United Arab Emirates",
+      address: "Burj Khalifa, Downtown Dubai",
+      coordinates: {
+        latitude: 25.2048,
+        longitude: 55.2708,
+      },
+    },
+    reviews: {
+      rating: 4.8,
+      totalReviews: 3421,
+      highlights: [
+        "Amazing Burj Khalifa views",
+        "Exciting desert safari",
+        "Authentic cultural experience",
+      ],
+    },
+    itinerary: [
+      {
+        startTime: "10:00",
+        endTime: "12:00",
+        activities: [
+          "Burj Khalifa observation deck (Level 148)",
+          "Dubai Mall exploration",
+          "Aquarium and underwater zoo",
+        ],
+      },
+      {
+        startTime: "12:30",
+        endTime: "14:00",
+        activities: [
+          "Traditional Emirati lunch",
+          "Gold and spice souks visit",
+          "Traditional abra boat ride",
+        ],
+      },
+      {
+        startTime: "15:00",
+        endTime: "18:30",
+        activities: [
+          "Desert safari pickup",
+          "4x4 dune bashing adventure",
+          "Camel riding experience",
+        ],
+      },
+      {
+        startTime: "19:00",
+        endTime: "20:00",
+        activities: [
+          "Traditional Bedouin camp",
+          "Henna painting and falcon show",
+          "BBQ dinner with entertainment",
+        ],
+      },
+    ],
+    cancellationPolicy: "Free cancellation up to 24 hours before the tour",
+    meetingPoint: {
+      address: "Burj Khalifa, 1 Sheikh Mohammed bin Rashid Blvd, Dubai",
+      instructions: "Meet at the main entrance to At The Top experience",
+      contactNumber: "+971 4-555-0123",
+    },
+  },
+
+  // London Tours
+  {
+    id: "TOUR-LON-001",
+    title: "London Royal Heritage & Thames River Cruise",
+    description:
+      "Discover London's royal history and iconic landmarks with palace visits, Thames river cruise, and traditional afternoon tea experience.",
+    type: "Cultural Tour",
+    category: "History & Culture",
+    features: [
+      "Buckingham Palace tour (when available)",
+      "Tower of London and Crown Jewels",
+      "Thames river cruise with commentary",
+      "Traditional afternoon tea",
+      "Westminster Abbey visit",
+    ],
+    restrictions: [
+      "Palace tours subject to royal schedule",
+      "Security checks at royal venues",
+      "Some areas not wheelchair accessible",
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1526129318478-62ed807ebdf9?w=800&h=600&fit=crop",
+    ],
+    duration: "9 hours",
+    pricing: {
+      adult: 165,
+      child: 125,
+      senior: 155,
+      student: 145,
+      family: 580,
+      currency: "GBP",
+    },
+    tickets: {
+      advanceBooking: true,
+      skipTheLine: true,
+      groupDiscounts: true,
+    },
+    location: {
+      city: "London",
+      country: "United Kingdom",
+      address: "Westminster Abbey, London",
+      coordinates: {
+        latitude: 51.5074,
+        longitude: -0.1278,
+      },
+    },
+    reviews: {
+      rating: 4.7,
+      totalReviews: 4156,
+      highlights: [
+        "Impressive Crown Jewels display",
+        "Beautiful Thames views",
+        "Authentic afternoon tea experience",
+      ],
+    },
+    itinerary: [
+      {
+        startTime: "09:00",
+        endTime: "11:00",
+        activities: [
+          "Westminster Abbey guided tour",
+          "Houses of Parliament exterior",
+          "Big Ben photo opportunities",
+        ],
+      },
+      {
+        startTime: "11:30",
+        endTime: "13:30",
+        activities: [
+          "Tower of London tour",
+          "Crown Jewels exhibition",
+          "Beefeater stories and history",
+        ],
+      },
+      {
+        startTime: "14:00",
+        endTime: "15:30",
+        activities: [
+          "Thames river cruise",
+          "London Bridge and Tower Bridge",
+          "City skyline commentary",
+        ],
+      },
+      {
+        startTime: "16:00",
+        endTime: "18:00",
+        activities: [
+          "Buckingham Palace area",
+          "St. James's Park walk",
+          "Traditional afternoon tea",
+        ],
+      },
+    ],
+    cancellationPolicy: "Free cancellation up to 48 hours before the tour",
+    meetingPoint: {
+      address: "Westminster Abbey, 20 Deans Yd, Westminster, London SW1P 3PA",
+      instructions: "Meet at the main visitor entrance",
+      contactNumber: "+44 20-7555-0199",
+    },
+  },
+
+  // Singapore Tours
+  {
+    id: "TOUR-SIN-001",
+    title: "Singapore Gardens & Cultural Districts Explorer",
+    description:
+      "Explore Singapore's incredible Gardens by the Bay and diverse cultural neighborhoods including Chinatown, Little India, and Arab Street.",
+    type: "Cultural Tour",
+    category: "Culture",
+    features: [
+      "Gardens by the Bay with Supertree Grove",
+      "Cloud Forest and Flower Dome",
+      "Chinatown heritage center",
+      "Little India cultural walk",
+      "Local hawker food experience",
+    ],
+    restrictions: [
+      "Air-conditioned venues available",
+      "Some walking in tropical heat",
+      "Food allergies accommodated with notice",
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
+    ],
+    duration: "8 hours",
+    pricing: {
+      adult: 89,
+      child: 65,
+      senior: 79,
+      family: 295,
+      currency: "SGD",
+    },
+    tickets: {
+      advanceBooking: true,
+      skipTheLine: true,
+      groupDiscounts: true,
+    },
+    location: {
+      city: "Singapore",
+      country: "Singapore",
+      address: "Gardens by the Bay, Marina Bay",
+      coordinates: {
+        latitude: 1.3521,
+        longitude: 103.8198,
+      },
+    },
+    reviews: {
+      rating: 4.8,
+      totalReviews: 2789,
+      highlights: [
+        "Stunning Gardens by the Bay",
+        "Great cultural diversity",
+        "Excellent food experiences",
+      ],
+    },
+    itinerary: [
+      {
+        startTime: "09:00",
+        endTime: "12:00",
+        activities: [
+          "Gardens by the Bay exploration",
+          "Cloud Forest and Flower Dome",
+          "OCBC Skyway treetop walk",
+        ],
+      },
+      {
+        startTime: "12:30",
+        endTime: "14:00",
+        activities: [
+          "Chinatown heritage center",
+          "Traditional shophouses tour",
+          "Local hawker lunch experience",
+        ],
+      },
+      {
+        startTime: "14:30",
+        endTime: "16:00",
+        activities: [
+          "Little India cultural district",
+          "Sri Veeramakaliamman Temple",
+          "Spice and textile shopping",
+        ],
+      },
+      {
+        startTime: "16:30",
+        endTime: "17:00",
+        activities: [
+          "Arab Street and Kampong Glam",
+          "Sultan Mosque visit",
+          "Traditional crafts and perfumes",
+        ],
+      },
+    ],
+    cancellationPolicy: "Free cancellation up to 24 hours before the tour",
+    meetingPoint: {
+      address: "Gardens by the Bay, 18 Marina Gardens Dr, Singapore 018953",
+      instructions: "Meet at the main visitor center entrance",
+      contactNumber: "+65 6555-0123",
+    },
+  },
+
+  // Miami Tours
+  {
+    id: "TOUR-MIA-001",
+    title: "Miami Beach & Art Deco District Experience",
+    description:
+      "Discover Miami's vibrant beach culture and stunning Art Deco architecture with beach time, cultural tours, and authentic Cuban cuisine in Little Havana.",
+    type: "Cultural Tour",
+    category: "Beach & Culture",
+    features: [
+      "Art Deco Historic District walking tour",
+      "South Beach and Ocean Drive",
+      "Little Havana cultural experience",
+      "Cuban coffee and cuisine tasting",
+      "Wynwood Walls street art tour",
+    ],
+    restrictions: [
+      "Sun protection recommended",
+      "Some walking in tropical heat",
+      "Beach activities weather dependent",
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1533106497176-45ae19e68ba2?w=800&h=600&fit=crop",
+    ],
+    duration: "7 hours",
+    pricing: {
+      adult: 85,
+      child: 65,
+      senior: 75,
+      family: 285,
+      currency: "USD",
+    },
+    tickets: {
+      advanceBooking: true,
+      skipTheLine: false,
+      groupDiscounts: true,
+    },
+    location: {
+      city: "Miami",
+      country: "United States",
+      address: "Ocean Drive, South Beach, Miami",
+      coordinates: {
+        latitude: 25.7617,
+        longitude: -80.1918,
+      },
+    },
+    reviews: {
+      rating: 4.5,
+      totalReviews: 1834,
+      highlights: [
+        "Beautiful Art Deco architecture",
+        "Authentic Cuban culture",
+        "Amazing street art in Wynwood",
+      ],
+    },
+    itinerary: [
+      {
+        startTime: "10:00",
+        endTime: "12:00",
+        activities: [
+          "Art Deco Historic District tour",
+          "Ocean Drive and Collins Avenue",
+          "Versace Mansion and celebrity spots",
+        ],
+      },
+      {
+        startTime: "12:30",
+        endTime: "14:30",
+        activities: [
+          "Little Havana walking tour",
+          "Domino Park and cigar rolling",
+          "Authentic Cuban lunch experience",
+        ],
+      },
+      {
+        startTime: "15:00",
+        endTime: "16:30",
+        activities: [
+          "Wynwood Walls street art district",
+          "Local artist galleries",
+          "Urban art and murals tour",
+        ],
+      },
+      {
+        startTime: "16:45",
+        endTime: "17:00",
+        activities: [
+          "South Beach relaxation time",
+          "Beach photography session",
+          "Tour conclusion at Lincoln Road",
+        ],
+      },
+    ],
+    cancellationPolicy: "Free cancellation up to 24 hours before the tour",
+    meetingPoint: {
+      address: "Ocean Drive and 10th Street, South Beach, Miami, FL",
+      instructions: "Meet at the lifeguard station on the beach",
+      contactNumber: "+1 305-555-0199",
+    },
+  },
+
+  // São Paulo Tours
+  {
+    id: "TOUR-SAO-001",
+    title: "São Paulo Street Art & Culinary Discovery",
+    description:
+      "Explore South America's largest city through its incredible street art scene and diverse culinary landscape, from traditional markets to modern gastronomy.",
+    type: "Cultural Tour",
+    category: "Art & Food",
+    features: [
+      "Vila Madalena street art walking tour",
+      "Mercado Municipal food market",
+      "Traditional Brazilian cooking class",
+      "Samba and capoeira demonstration",
+      "Local neighborhood exploration",
+    ],
+    restrictions: [
+      "Some areas involve walking on uneven surfaces",
+      "Food allergies accommodated with advance notice",
+      "Portuguese/English translation provided",
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1516834474360-c0b68f1ac8ea?w=800&h=600&fit=crop",
+    ],
+    duration: "8 hours",
+    pricing: {
+      adult: 75,
+      child: 55,
+      senior: 65,
+      student: 60,
+      currency: "USD",
+    },
+    tickets: {
+      advanceBooking: true,
+      skipTheLine: false,
+      groupDiscounts: true,
+    },
+    location: {
+      city: "São Paulo",
+      country: "Brazil",
+      address: "Vila Madalena, São Paulo",
+      coordinates: {
+        latitude: -23.5505,
+        longitude: -46.6333,
+      },
+    },
+    reviews: {
+      rating: 4.6,
+      totalReviews: 967,
+      highlights: [
+        "Amazing street art everywhere",
+        "Delicious Brazilian food",
+        "Great cultural immersion",
+      ],
+    },
+    itinerary: [
+      {
+        startTime: "09:00",
+        endTime: "11:30",
+        activities: [
+          "Vila Madalena street art tour",
+          "Local artist studios visit",
+          "Graffiti and mural exploration",
+        ],
+      },
+      {
+        startTime: "12:00",
+        endTime: "14:00",
+        activities: [
+          "Mercado Municipal traditional market",
+          "Exotic fruits and local products",
+          "Traditional Brazilian lunch",
+        ],
+      },
+      {
+        startTime: "14:30",
+        endTime: "16:30",
+        activities: [
+          "Brazilian cooking class",
+          "Learn to make feijoada and caipirinha",
+          "Local ingredients and techniques",
+        ],
+      },
+      {
+        startTime: "17:00",
+        endTime: "17:00",
+        activities: [
+          "Samba and capoeira demonstration",
+          "Interactive cultural performance",
+          "Downtown São Paulo walking tour",
+        ],
+      },
+    ],
+    cancellationPolicy: "Free cancellation up to 24 hours before the tour",
+    meetingPoint: {
+      address: "Vila Madalena Metro Station, São Paulo, Brazil",
+      instructions: "Meet at the main metro station exit",
+      contactNumber: "+55 11-5555-0123",
+    },
+  },
+
+  // Vancouver Tours
+  {
+    id: "TOUR-VAN-001",
+    title: "Vancouver Nature & City Highlights Adventure",
+    description:
+      "Experience Vancouver's stunning natural beauty and urban attractions with visits to Stanley Park, Granville Island, and the Capilano Suspension Bridge.",
+    type: "Nature Tour",
+    category: "Nature & City",
+    features: [
+      "Capilano Suspension Bridge experience",
+      "Stanley Park seawall cycling",
+      "Granville Island market and artisans",
+      "Gastown historic district tour",
+      "Scenic mountain and ocean views",
+    ],
+    restrictions: [
+      "Weather dependent activities",
+      "Moderate physical activity required",
+      "Height restrictions for some bridges",
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1579952363873-27d3bfad9c0d?w=800&h=600&fit=crop",
+    ],
+    duration: "8 hours",
+    pricing: {
+      adult: 135,
+      child: 95,
+      senior: 125,
+      family: 450,
+      currency: "CAD",
+    },
+    tickets: {
+      advanceBooking: true,
+      skipTheLine: true,
+      groupDiscounts: true,
+    },
+    location: {
+      city: "Vancouver",
+      country: "Canada",
+      address: "Stanley Park, Vancouver, BC",
+      coordinates: {
+        latitude: 49.2827,
+        longitude: -123.1207,
+      },
+    },
+    reviews: {
+      rating: 4.7,
+      totalReviews: 2156,
+      highlights: [
+        "Breathtaking suspension bridge",
+        "Beautiful Stanley Park",
+        "Great city and mountain views",
+      ],
+    },
+    itinerary: [
+      {
+        startTime: "09:00",
+        endTime: "11:30",
+        activities: [
+          "Capilano Suspension Bridge Park",
+          "Treetops Adventure and Cliffwalk",
+          "First Nations cultural center",
+        ],
+      },
+      {
+        startTime: "12:00",
+        endTime: "14:00",
+        activities: [
+          "Stanley Park seawall tour",
+          "Totem poles and Prospect Point",
+          "English Bay and sunset beach",
+        ],
+      },
+      {
+        startTime: "14:30",
+        endTime: "16:00",
+        activities: [
+          "Granville Island public market",
+          "Local artisan workshops",
+          "Fresh seafood and local products",
+        ],
+      },
+      {
+        startTime: "16:30",
+        endTime: "17:00",
+        activities: [
+          "Gastown historic district",
+          "Steam clock and cobblestone streets",
+          "Vancouver Lookout city views",
+        ],
+      },
+    ],
+    cancellationPolicy: "Free cancellation up to 24 hours before the tour",
+    meetingPoint: {
+      address: "Stanley Park Information Booth, Vancouver, BC",
+      instructions: "Meet at the main park entrance information center",
+      contactNumber: "+1 604-555-0199",
+    },
+  },
+
+  // Seoul Tours
+  {
+    id: "TOUR-SEO-001",
+    title: "Seoul Palaces & K-Culture Experience",
+    description:
+      "Immerse yourself in Seoul's rich history and modern K-culture with palace tours, traditional markets, K-pop experiences, and authentic Korean cuisine.",
+    type: "Cultural Tour",
+    category: "History & Modern Culture",
+    features: [
+      "Gyeongbokgung Palace and changing of guard",
+      "Bukchon Hanok Village traditional houses",
+      "K-pop dance class experience",
+      "Korean BBQ and kimchi making",
+      "Myeongdong shopping district",
+    ],
+    restrictions: [
+      "Palace tours include extensive walking",
+      "K-pop class suitable for all skill levels",
+      "Some traditional areas require respectful dress",
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1505149812241-4c09565b69a5?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop",
+    ],
+    duration: "9 hours",
+    pricing: {
+      adult: 95,
+      child: 75,
+      senior: 85,
+      student: 80,
+      currency: "USD",
+    },
+    tickets: {
+      advanceBooking: true,
+      skipTheLine: true,
+      groupDiscounts: true,
+    },
+    location: {
+      city: "Seoul",
+      country: "South Korea",
+      address: "Gyeongbokgung Palace, Seoul",
+      coordinates: {
+        latitude: 37.5665,
+        longitude: 126.978,
+      },
+    },
+    reviews: {
+      rating: 4.8,
+      totalReviews: 2945,
+      highlights: [
+        "Beautiful traditional palaces",
+        "Fun K-pop dance experience",
+        "Delicious Korean food",
+      ],
+    },
+    itinerary: [
+      {
+        startTime: "09:00",
+        endTime: "11:30",
+        activities: [
+          "Gyeongbokgung Palace tour",
+          "Changing of the guard ceremony",
+          "National Folk Museum visit",
+        ],
+      },
+      {
+        startTime: "12:00",
+        endTime: "14:00",
+        activities: [
+          "Bukchon Hanok Village",
+          "Traditional Korean architecture",
+          "Authentic Korean lunch experience",
+        ],
+      },
+      {
+        startTime: "14:30",
+        endTime: "16:00",
+        activities: [
+          "K-pop dance class experience",
+          "Learn popular K-pop choreography",
+          "Korean music and culture intro",
+        ],
+      },
+      {
+        startTime: "16:30",
+        endTime: "18:00",
+        activities: [
+          "Myeongdong shopping district",
+          "Korean beauty and fashion",
+          "N Seoul Tower views (weather permitting)",
+        ],
+      },
+    ],
+    cancellationPolicy: "Free cancellation up to 24 hours before the tour",
+    meetingPoint: {
+      address: "Gyeongbokgung Palace Main Gate, Seoul, South Korea",
+      instructions: "Meet at the main palace entrance ticket booth",
+      contactNumber: "+82 2-555-0123",
+    },
+  },
+
+  // Atlanta Tours
+  {
+    id: "TOUR-ATL-001",
+    title: "Atlanta Civil Rights & Southern Culture Tour",
+    description:
+      "Explore Atlanta's pivotal role in the Civil Rights Movement and experience authentic Southern culture with historical sites, museums, and traditional cuisine.",
+    type: "Historical Tour",
+    category: "History & Culture",
+    features: [
+      "Martin Luther King Jr. National Historical Park",
+      "Center for Civil Rights and Human Rights",
+      "Atlanta History Center",
+      "Traditional Southern cooking class",
+      "BeltLine and street art tour",
+    ],
+    restrictions: [
+      "Moderate walking required",
+      "Some emotionally sensitive historical content",
+      "Food allergies accommodated with notice",
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1515859005217-8a1f08870f59?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1580653842606-c5b5d1ae9f77?w=800&h=600&fit=crop",
+    ],
+    duration: "8 hours",
+    pricing: {
+      adult: 89,
+      child: 65,
+      senior: 79,
+      student: 75,
+      family: 295,
+      currency: "USD",
+    },
+    tickets: {
+      advanceBooking: true,
+      skipTheLine: true,
+      groupDiscounts: true,
+    },
+    location: {
+      city: "Atlanta",
+      country: "United States",
+      address: "Martin Luther King Jr. National Historical Park",
+      coordinates: {
+        latitude: 33.749,
+        longitude: -84.388,
+      },
+    },
+    reviews: {
+      rating: 4.7,
+      totalReviews: 1567,
+      highlights: [
+        "Powerful civil rights history",
+        "Excellent museum experiences",
+        "Authentic Southern hospitality",
+      ],
+    },
+    itinerary: [
+      {
+        startTime: "09:00",
+        endTime: "11:30",
+        activities: [
+          "Martin Luther King Jr. Birth Home",
+          "Ebenezer Baptist Church tour",
+          "MLK Memorial and reflecting pool",
+        ],
+      },
+      {
+        startTime: "12:00",
+        endTime: "14:00",
+        activities: [
+          "Center for Civil Rights and Human Rights",
+          "Interactive exhibits and galleries",
+          "Traditional Southern lunch",
+        ],
+      },
+      {
+        startTime: "14:30",
+        endTime: "16:00",
+        activities: [
+          "Atlanta History Center",
+          "Swan House and historic gardens",
+          "Civil War and Southern history",
+        ],
+      },
+      {
+        startTime: "16:30",
+        endTime: "17:00",
+        activities: [
+          "BeltLine trail and public art",
+          "Ponce City Market",
+          "Modern Atlanta neighborhoods",
+        ],
+      },
+    ],
+    cancellationPolicy: "Free cancellation up to 24 hours before the tour",
+    meetingPoint: {
+      address:
+        "Martin Luther King Jr. National Historical Park Visitor Center, Atlanta, GA",
+      instructions: "Meet at the main visitor center entrance",
+      contactNumber: "+1 404-555-0199",
+    },
+  },
 ];

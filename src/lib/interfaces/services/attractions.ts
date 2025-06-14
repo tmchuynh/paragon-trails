@@ -73,7 +73,6 @@ export interface Attraction {
     rating: number;
     totalReviews: number;
     highlights: string[];
-    recentComments?: string[];
   };
   tags: string[];
   culturalSignificance?: string;

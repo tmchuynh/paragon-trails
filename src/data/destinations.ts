@@ -1229,15 +1229,15 @@ export const mockDestinations: Destination[] = [
       "Lebanese Food",
     ],
     culture: {
-      festivals: ["Dubai Shopping Festival", "Dubai Food Festival", "Eid celebrations"],
+      festivals: [
+        "Dubai Shopping Festival",
+        "Dubai Food Festival",
+        "Eid celebrations",
+      ],
       traditions: ["Islamic culture", "Bedouin heritage", "Modern lifestyle"],
       artsAndCrafts: ["Islamic art", "Pearl diving", "Traditional crafts"],
       musicAndDance: ["Traditional Arabic music", "Modern entertainment"],
-      localCustoms: [
-        "Islamic etiquette",
-        "Dress codes",
-        "Business culture",
-      ],
+      localCustoms: ["Islamic etiquette", "Dress codes", "Business culture"],
       languages: ["Arabic", "English"],
       cuisine: ["Middle Eastern", "International", "Halal food"],
     },
@@ -1379,15 +1379,15 @@ export const mockDestinations: Destination[] = [
       "International Food",
     ],
     culture: {
-      festivals: ["Notting Hill Carnival", "Edinburgh Festival", "Christmas Markets"],
+      festivals: [
+        "Notting Hill Carnival",
+        "Edinburgh Festival",
+        "Christmas Markets",
+      ],
       traditions: ["Royal ceremonies", "Pub culture", "Afternoon tea"],
       artsAndCrafts: ["Theater", "Literature", "Fashion"],
       musicAndDance: ["Rock music", "Classical", "West End musicals"],
-      localCustoms: [
-        "Queuing etiquette",
-        "Pub culture",
-        "Politeness",
-      ],
+      localCustoms: ["Queuing etiquette", "Pub culture", "Politeness"],
       languages: ["English"],
       cuisine: ["Traditional British", "Indian", "International"],
     },
@@ -1696,7 +1696,10 @@ export const mockDestinations: Destination[] = [
       cuisine: ["Cuban", "Seafood", "International", "Fusion"],
     },
     transportation: {
-      airports: ["Miami International (MIA)", "Fort Lauderdale-Hollywood International (FLL)"],
+      airports: [
+        "Miami International (MIA)",
+        "Fort Lauderdale-Hollywood International (FLL)",
+      ],
       publicTransport: ["Metrobus", "Metrorail", "Taxis", "Rideshare"],
       taxi: true,
       rental: true,
@@ -1720,7 +1723,10 @@ export const mockDestinations: Destination[] = [
     },
     safety: {
       level: "Generally Safe",
-      advisories: ["Petty crime in tourist areas", "Hurricane season (Jun-Nov)"],
+      advisories: [
+        "Petty crime in tourist areas",
+        "Hurricane season (Jun-Nov)",
+      ],
       crimeRate: "Moderate",
       healthRisks: ["Sun exposure", "Water quality"],
       emergencyNumber: "911",
@@ -1765,7 +1771,11 @@ export const mockDestinations: Destination[] = [
         lowest: 650,
         unit: "meters",
       },
-      landmarks: ["Ibirapuera Park", "Avenida Paulista", "São Paulo Museum of Art"],
+      landmarks: [
+        "Ibirapuera Park",
+        "Avenida Paulista",
+        "São Paulo Museum of Art",
+      ],
     },
     connectivity: {
       internetSpeed: "High-speed fiber",
@@ -1838,8 +1848,16 @@ export const mockDestinations: Destination[] = [
         "Parintins Folklore Festival",
         "São Paulo Fashion Week",
       ],
-      traditions: ["Coffee culture", "Carnival celebrations", "Culinary diversity"],
-      artsAndCrafts: ["Samba music and dance", "Brazilian jiu-jitsu", "Capoeira"],
+      traditions: [
+        "Coffee culture",
+        "Carnival celebrations",
+        "Culinary diversity",
+      ],
+      artsAndCrafts: [
+        "Samba music and dance",
+        "Brazilian jiu-jitsu",
+        "Capoeira",
+      ],
       musicAndDance: ["Samba", "Bossa Nova", "Forró"],
       localCustoms: [
         "Greeting with a kiss on the cheek",
@@ -1856,7 +1874,10 @@ export const mockDestinations: Destination[] = [
       ],
     },
     transportation: {
-      airports: ["São Paulo/Guarulhos–Governador André Franco Montoro International (GRU)", "São Paulo/Congonhas–Deputado Luís Eduardo Magalhães International (CGH)"],
+      airports: [
+        "São Paulo/Guarulhos–Governador André Franco Montoro International (GRU)",
+        "São Paulo/Congonhas–Deputado Luís Eduardo Magalhães International (CGH)",
+      ],
       publicTransport: ["Metro", "Bus", "Train", "Taxi"],
       taxi: true,
       rental: true,
@@ -1929,7 +1950,11 @@ export const mockDestinations: Destination[] = [
         lowest: 0,
         unit: "meters",
       },
-      landmarks: ["Stanley Park", "Granville Island", "Capilano Suspension Bridge"],
+      landmarks: [
+        "Stanley Park",
+        "Granville Island",
+        "Capilano Suspension Bridge",
+      ],
     },
     connectivity: {
       internetSpeed: "High-speed fiber",
@@ -2002,7 +2027,11 @@ export const mockDestinations: Destination[] = [
         "Celebration of Light",
         "Vancouver Folk Music Festival",
       ],
-      traditions: ["Indigenous heritage", "Multiculturalism", "Outdoor lifestyle"],
+      traditions: [
+        "Indigenous heritage",
+        "Multiculturalism",
+        "Outdoor lifestyle",
+      ],
       artsAndCrafts: ["Indigenous art", "Contemporary art", "Film production"],
       musicAndDance: ["Jazz", "Classical", "Electronic"],
       localCustoms: [
@@ -2019,7 +2048,10 @@ export const mockDestinations: Destination[] = [
       ],
     },
     transportation: {
-      airports: ["Vancouver International (YVR)", "Abbotsford International (YXX)"],
+      airports: [
+        "Vancouver International (YVR)",
+        "Abbotsford International (YXX)",
+      ],
       publicTransport: ["SkyTrain", "Bus", "SeaBus", "West Coast Express"],
       taxi: true,
       rental: true,
@@ -2043,7 +2075,10 @@ export const mockDestinations: Destination[] = [
     },
     safety: {
       level: "Generally Safe",
-      advisories: ["Wildlife safety (bears, cougars)", "Earthquake preparedness"],
+      advisories: [
+        "Wildlife safety (bears, cougars)",
+        "Earthquake preparedness",
+      ],
       crimeRate: "Low",
       healthRisks: ["None significant"],
       emergencyNumber: "911",
@@ -2148,20 +2183,18 @@ export const mockDestinations: Destination[] = [
       "Street Food Tours",
       "Hanbok Wearing Experience",
     ],
-    cuisine: [
-      "Kimchi",
-      "Bibimbap",
-      "Korean BBQ",
-      "Tteokbokki",
-      "Sushi",
-    ],
+    cuisine: ["Kimchi", "Bibimbap", "Korean BBQ", "Tteokbokki", "Sushi"],
     culture: {
       festivals: [
         "Seoul Lantern Festival",
         "Cherry Blossom Festival",
         "Seoul Kimchi Making & Sharing Festival",
       ],
-      traditions: ["Confucian values", "Buddhist customs", "Modern pop culture"],
+      traditions: [
+        "Confucian values",
+        "Buddhist customs",
+        "Modern pop culture",
+      ],
       artsAndCrafts: ["Korean pottery", "Calligraphy", "Traditional music"],
       musicAndDance: ["K-Pop", "Traditional Korean music", "Hip-hop"],
       localCustoms: [
@@ -2170,13 +2203,7 @@ export const mockDestinations: Destination[] = [
         "Removing shoes indoors",
       ],
       languages: ["Korean", "English"],
-      cuisine: [
-        "Kimchi",
-        "Bibimbap",
-        "Korean BBQ",
-        "Tteokbokki",
-        "Sushi",
-      ],
+      cuisine: ["Kimchi", "Bibimbap", "Korean BBQ", "Tteokbokki", "Sushi"],
     },
     transportation: {
       airports: ["Incheon International (ICN)", "Gimpo International (GMP)"],
@@ -2213,6 +2240,156 @@ export const mockDestinations: Destination[] = [
       "Family values",
       "Traditional music and dance",
       "Seasonal festivals",
+    ],
+  },
+  {
+    id: "15",
+    name: "Atlanta",
+    country: "United States",
+    continent: "North America",
+    region: "North America",
+    description:
+      "The capital of Georgia and a major business hub in the American South. Known for its civil rights history, vibrant culture, and southern hospitality.",
+    images: [
+      "https://images.unsplash.com/photo-1515859005217-8a1f08870f59?w=1200&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1580653842606-c5b5d1ae9f77?w=1200&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1547953621-423244f8ae37?w=1200&h=600&fit=crop",
+    ],
+    popularWith: [
+      "Business travelers",
+      "History enthusiasts",
+      "Culture seekers",
+      "Food lovers",
+    ],
+    population: 5200000,
+    capital: "Atlanta",
+    area: {
+      total: 343,
+      unit: "km²",
+    },
+    geography: {
+      terrain: "Rolling hills in the Piedmont region",
+      elevation: {
+        average: 320,
+        highest: 358,
+        lowest: 245,
+        unit: "meters",
+      },
+      landmarks: ["Chattahoochee River", "Stone Mountain", "Piedmont Park"],
+    },
+    connectivity: {
+      internetSpeed: "High-speed fiber",
+      wifiAvailability: true,
+      mobileNetworkCoverage: "Excellent",
+    },
+    visaRequirements: "ESTA for eligible countries, visa required for others",
+    climate: {
+      season: "Humid subtropical",
+      temperature: {
+        high: 31,
+        low: 2,
+        unit: "°C",
+      },
+      rainfall: "Moderate year-round",
+      humidity: "60-80%",
+      averageTemperature: 16,
+    },
+    currency: {
+      code: "USD",
+      symbol: "$",
+      name: "US Dollar",
+    },
+    pricing: {
+      averageDailyBudget: 150,
+      accommodationRange: {
+        budget: 70,
+        midRange: 150,
+        luxury: 350,
+      },
+      foodAndDrink: 45,
+      transportation: 20,
+      activitiesAndAttractions: 35,
+    },
+    language: ["English"],
+    timezone: "EST (UTC-5)",
+    highlights: [
+      "Martin Luther King Jr. National Historical Park",
+      "World of Coca-Cola",
+      "Georgia Aquarium",
+      "High Museum of Art",
+      "Piedmont Park",
+      "BeltLine",
+    ],
+    bestTimeToVisit: ["March-May", "September-November"],
+    attractions: [
+      "CNN Center",
+      "Fox Theatre",
+      "Oakland Cemetery",
+      "Atlanta Botanical Garden",
+      "Centennial Olympic Park",
+    ],
+    activities: [
+      "Civil Rights Tours",
+      "Museum Visits",
+      "Food Tours",
+      "Outdoor Activities",
+      "Sports Events",
+    ],
+    cuisine: [
+      "Southern BBQ",
+      "Fried Chicken",
+      "Peach Cobbler",
+      "Soul Food",
+      "International Cuisine",
+    ],
+    culture: {
+      festivals: ["Atlanta Film Festival", "Music Midtown", "Dragon Con"],
+      traditions: [
+        "Southern hospitality",
+        "Civil rights heritage",
+        "Music scene",
+      ],
+      artsAndCrafts: ["Folk art", "Music production", "Film industry"],
+      musicAndDance: ["Hip-hop", "Country", "Blues", "Gospel"],
+      localCustoms: ["Southern manners", "Hospitality", "Community spirit"],
+      languages: ["English"],
+      cuisine: ["Southern comfort food", "BBQ", "Soul food", "International"],
+    },
+    transportation: {
+      airports: ["Hartsfield-Jackson Atlanta International (ATL)"],
+      publicTransport: ["MARTA Rail", "MARTA Bus", "Streetcar"],
+      taxi: true,
+      rental: true,
+    },
+    accommodation: {
+      budget: 70,
+      midRange: 150,
+      luxury: 350,
+      currency: "USD",
+    },
+    rating: 4.3,
+    reviews: 5670,
+    tags: ["History", "Culture", "Business", "Southern", "Music"],
+    coordinates: {
+      latitude: 33.749,
+      longitude: -84.388,
+    },
+    visa: {
+      required: true,
+      details: "ESTA for eligible countries, visa required for others",
+    },
+    safety: {
+      level: "Generally Safe",
+      advisories: ["Some areas to avoid at night", "Traffic congestion"],
+      crimeRate: "Moderate",
+      healthRisks: ["Seasonal allergies", "Heat in summer"],
+      emergencyNumber: "911",
+    },
+    tradition: [
+      "Civil rights legacy",
+      "Southern culture",
+      "Hospitality",
+      "Music heritage",
     ],
   },
 ];

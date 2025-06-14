@@ -5,26 +5,49 @@ export interface Tour {
   id: string;
   title: string;
   description: string;
+  type: string;
+  category: string;
+  features: string[];
+  restrictions: string[];
   images: string[];
-  price: string;
   duration: string;
-  rating: number;
-  tourCategoryId: string;
-  tags?: string[];
-  highlights?: string[];
-  inclusions?: string[];
-  exclusions?: string[];
-  itinerary?: string[];
-  cancellationPolicy?: string;
-  icon?: React.ComponentType;
-  meetingPoint?: {
-    address?: string;
+  pricing: {
+    adult: number;
+    child: number;
+    senior: number;
+    student?: number;
+    family?: number;
+    currency: string;
+  };
+  tickets: {
+    advanceBooking: boolean;
+    skipTheLine: boolean;
+    groupDiscounts: boolean;
+  };
+  location: {
+    city: string;
+    country: string;
+    address: string;
     coordinates?: {
       latitude: number;
       longitude: number;
     };
+  };
+  reviews: {
+    rating: number;
+    totalReviews: number;
+    highlights: string[];
+  };
+  itinerary: {
+    startTime: string;
+    endTime: string;
+    activities: string[];
+  }[];
+  cancellationPolicy?: string;
+  icon?: React.ComponentType;
+  meetingPoint: {
+    address: string;
     instructions?: string;
-    contactNumber?: string;
-    contactEmail?: string;
+    contactNumber: string;
   };
 }
