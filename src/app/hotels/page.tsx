@@ -58,7 +58,12 @@ export default function HotelsPage() {
   const [guests, setGuests] = useState({ adults: 2, children: 1 });
   const [starRating, setStarRating] = useState("4");
   const [hotelType, setHotelType] = useState("all");
-  const [priceRange, setPriceRange] = useState([200, 600]);
+  
+  // Calculate min and max prices from hotels data
+  const minPrice = Math.min(...mockHotels.map(hotel => hotel.pricing.priceRange.min));
+  const maxPrice = Math.max(...mockHotels.map(hotel => hotel.pricing.priceRange.max));
+  
+  const [priceRange, setPriceRange] = useState([minPrice, maxPrice]);
   const [sortBy, setSortBy] = useState("rating");
 
   // Pagination state
@@ -184,7 +189,7 @@ export default function HotelsPage() {
     setGuests({ adults: 2, children: 0 });
     setStarRating("1");
     setHotelType("all");
-    setPriceRange([0, 2000]);
+    setPriceRange([minPrice, maxPrice]);
     setSortBy("rating");
   };
 
@@ -394,8 +399,8 @@ export default function HotelsPage() {
                       <Slider
                         value={priceRange}
                         onValueChange={setPriceRange}
-                        max={2000}
-                        min={0}
+                        max={maxPrice}
+                        min={minPrice}
                         step={50}
                         className="w-full"
                       />
