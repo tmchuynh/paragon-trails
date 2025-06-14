@@ -371,7 +371,7 @@ export default function VehiclesPage() {
                     type="date"
                     value={pickupDate}
                     onChange={(e) => setPickupDate(e.target.value)}
-                    className="flex flex-col justify-center border border-border"
+                    className="flex flex-col justify-center mt-0.25 border focus:border-muted border-border focus:ring-muted/20"
                   />
                 </div>
               </div>
@@ -385,7 +385,7 @@ export default function VehiclesPage() {
                     type="date"
                     value={returnDate}
                     onChange={(e) => setReturnDate(e.target.value)}
-                    className="flex flex-col justify-center border border-border"
+                    className="flex flex-col justify-center mt-0.25 border focus:border-muted border-border focus:ring-muted/20"
                   />
                 </div>
               </div>
