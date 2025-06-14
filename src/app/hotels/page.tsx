@@ -44,7 +44,7 @@ export default function HotelsPage() {
   const { formatPrice } = useCurrency();
 
   const [searchQuery, setSearchQuery] = useState("");
-  const [destination, setDestination] = useState("");
+  const [destination, setDestination] = useState("all");
   const [checkInDate, setCheckInDate] = useState("");
   const [checkOutDate, setCheckOutDate] = useState("");
   const [guests, setGuests] = useState({ adults: 2, children: 0 });
@@ -86,7 +86,7 @@ export default function HotelsPage() {
     }
 
     // Filter by destination
-    if (destination && destination !== "") {
+    if (destination && destination !== "all") {
       filtered = filtered.filter(
         (hotel) =>
           hotel.location.city.toLowerCase() === destination.toLowerCase()
@@ -148,7 +148,7 @@ export default function HotelsPage() {
 
   const resetFilters = () => {
     setSearchQuery("");
-    setDestination("");
+    setDestination("all");
     setCheckInDate("");
     setCheckOutDate("");
     setGuests({ adults: 2, children: 0 });
@@ -251,7 +251,7 @@ export default function HotelsPage() {
                   <SelectValue placeholder="Select destination" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="">All Destinations</SelectItem>
+                  <SelectItem value="all">All Destinations</SelectItem>
                   {destinations.map((dest) => (
                     <SelectItem key={dest} value={dest.toLowerCase()}>
                       {dest}
@@ -404,7 +404,7 @@ export default function HotelsPage() {
           <p className="text-slate-600 dark:text-slate-400">
             Found {filteredHotels.length} hotel
             {filteredHotels.length !== 1 ? "s" : ""}
-            {destination && destination !== "" && ` in ${destination}`}
+            {destination && destination !== "all" && ` in ${destination}`}
           </p>
           {checkInDate && checkOutDate && (
             <p className="text-slate-600">

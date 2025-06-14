@@ -13,9 +13,13 @@ import { formatToSlug } from "@/lib/utils/format";
 import {
   ArrowLeft,
   Bed,
+  Camera,
+  Car,
   CheckCircle,
   Clock,
+  MapIcon,
   MapPin,
+  Plane,
   Shield,
   Star,
   Users,
@@ -55,7 +59,14 @@ export default function HotelDetailPage() {
     )
   );
   const [selectedRoom, setSelectedRoom] = useState(hotel.rooms.types[0]);
+  const [quantity, setQuantity] = useState(1);
   const [isAddingToCart, setIsAddingToCart] = useState(false);
+
+  // Check if this hotel booking is already in cart
+  const isInCart = () => {
+    const bookingId = `hotel-${formatToSlug(hotel.name)}-${formatToSlug(selectedRoom.name)}-${checkInDate}-${checkOutDate}`;
+    return cartState.items.some((item) => item.id === bookingId);
+  };
 
   // Helper function to get minimum checkout date (day after checkin)
   const getMinCheckoutDate = () => {
@@ -77,16 +88,22 @@ export default function HotelDetailPage() {
   };
 
   const nights = calculateNights();
-  const totalPrice = selectedRoom.pricing.baseRate * nights;
+  const totalPrice = selectedRoom.pricing.baseRate * nights * quantity;
 
-  // Check if selected room can accommodate the number of guests
+  // Check if selected rooms can accommodate the number of guests
   const canAccommodateGuests = () => {
-    return guests <= selectedRoom.capacity.maxOccupancy;
+    const totalCapacity = selectedRoom.capacity.maxOccupancy * quantity;
+    return guests <= totalCapacity;
   };
 
   const getOccupancyWarning = () => {
     if (!canAccommodateGuests()) {
-      return `Selected room can accommodate maximum ${selectedRoom.capacity.maxOccupancy} guests. You have ${guests} guests.`;
+      const totalCapacity = selectedRoom.capacity.maxOccupancy * quantity;
+      if (quantity === 1) {
+        return `Selected room can accommodate maximum ${selectedRoom.capacity.maxOccupancy} guests. You have ${guests} guests.`;
+      } else {
+        return `${quantity} ${selectedRoom.name} rooms can accommodate maximum ${totalCapacity} guests (${selectedRoom.capacity.maxOccupancy} per room). You have ${guests} guests.`;
+      }
     }
     return null;
   };
@@ -116,17 +133,15 @@ export default function HotelDetailPage() {
       cancellationPolicy: hotel.policies.cancellation,
     };
 
-    // Check if this exact hotel booking already exists
-    if (cartHelpers.checkIfDuplicate(cartState.items, hotelBooking)) {
-      toast.error(
-        `${hotel.name} - ${selectedRoom.name} for these dates is already in your cart`
-      );
-      setIsAddingToCart(false);
-      return;
+    // Add item to cart - the cart context will handle quantity properly
+    for (let i = 0; i < quantity; i++) {
+      cartHelpers.addItem(dispatch, hotelBooking);
     }
 
-    cartHelpers.addItem(dispatch, hotelBooking);
-    toast.success(`${hotel.name} booking added to cart!`);
+    toast.success(
+      `${hotel.name} booking${quantity > 1 ? "s" : ""} added to cart!`
+    );
+
     setIsAddingToCart(false);
   };
 
@@ -436,9 +451,13 @@ export default function HotelDetailPage() {
                     onChange={(e) => {
                       const newCheckInDate = e.target.value;
                       setCheckInDate(newCheckInDate);
-                      
+
                       // Clear checkout date if it's before or equal to the new checkin date
-                      if (checkOutDate && newCheckInDate && checkOutDate <= newCheckInDate) {
+                      if (
+                        checkOutDate &&
+                        newCheckInDate &&
+                        checkOutDate <= newCheckInDate
+                      ) {
                         setCheckOutDate("");
                       }
                     }}
@@ -474,6 +493,18 @@ export default function HotelDetailPage() {
                   )}
                 </div>
 
+                <div>
+                  <Label htmlFor="quantity">Number of Rooms</Label>
+                  <Input
+                    id="quantity"
+                    type="number"
+                    min="1"
+                    max="10"
+                    value={quantity}
+                    onChange={(e) => setQuantity(parseInt(e.target.value) || 1)}
+                  />
+                </div>
+
                 <Separator />
 
                 <div>
@@ -497,6 +528,10 @@ export default function HotelDetailPage() {
                       {nights} night{nights !== 1 ? "s" : ""}
                     </span>
                   </div>
+                  <div className="flex justify-between">
+                    <span>Number of Rooms:</span>
+                    <span className="font-medium">{quantity}</span>
+                  </div>
                   <Separator />
                   <div className="flex justify-between font-bold text-lg">
                     <span>Total:</span>
@@ -504,13 +539,55 @@ export default function HotelDetailPage() {
                   </div>
                 </div>
 
-                <Button
-                  onClick={handleAddToCart}
-                  disabled={isAddingToCart || !checkInDate || !checkOutDate}
-                  className="w-full"
-                >
-                  {isAddingToCart ? "Adding to Cart..." : "Add to Cart"}
-                </Button>
+                {!isInCart() ? (
+                  <Button
+                    onClick={handleAddToCart}
+                    disabled={isAddingToCart || !checkInDate || !checkOutDate}
+                    className="w-full"
+                  >
+                    {isAddingToCart ? "Adding to Cart..." : "Add to Cart"}
+                  </Button>
+                ) : (
+                  <div className="space-y-3">
+                    <div className="gap-2 grid grid-cols-2">
+                      <Button
+                        variant="outline"
+                        onClick={() => router.push("/destinations")}
+                        className="flex items-center gap-2"
+                      >
+                        <MapIcon className="w-4 h-4" />
+                        Activities
+                      </Button>
+                      <Button
+                        variant="outline"
+                        onClick={() => router.push("/vehicles")}
+                        className="flex items-center gap-2"
+                      >
+                        <Car className="w-4 h-4" />
+                        Vehicles
+                      </Button>
+                      <Button
+                        variant="outline"
+                        onClick={() => router.push("/destinations")}
+                        className="flex items-center gap-2"
+                      >
+                        <Camera className="w-4 h-4" />
+                        Attractions
+                      </Button>
+                      <Button
+                        variant="outline"
+                        onClick={() => router.push("/flights")}
+                        className="flex items-center gap-2"
+                      >
+                        <Plane className="w-4 h-4" />
+                        Flights
+                      </Button>
+                    </div>
+                    <p className="font-medium text-center text-slate-600 text-sm">
+                      Safe travels! 🌟
+                    </p>
+                  </div>
+                )}
               </CardContent>
             </Card>
           </div>
