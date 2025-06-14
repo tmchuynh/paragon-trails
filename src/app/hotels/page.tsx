@@ -216,10 +216,8 @@ export default function HotelsPage() {
       <div className="mx-auto px-6 lg:px-8 py-12 max-w-7xl">
         {/* Header */}
         <div className="mb-12 text-center">
-          <h1 className="mb-4 font-bold text-4xl text-slate-900 dark:text-white">
-            Find Your Perfect Stay
-          </h1>
-          <p className="mx-auto max-w-3xl text-lg text-slate-600 dark:text-slate-400">
+          <h1 className="mb-4 font-bold text-4xl">Find Your Perfect Stay</h1>
+          <p className="mx-auto max-w-3xl text-lg">
             Discover exceptional hotels, resorts, and unique accommodations
             worldwide. From luxury retreats to budget-friendly options, find
             your ideal home away from home.
@@ -229,8 +227,127 @@ export default function HotelsPage() {
         {/* Search Filters */}
         <Card className="mb-8 p-6">
           {/* Primary Filters Row */}
-          <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 mb-4">
+          <div className="items-end gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 mb-4">
             <div className="space-y-2">
+              <Label htmlFor="destination">Destination</Label>
+              <Select value={destination} onValueChange={setDestination}>
+                <SelectTrigger className="w-full">
+                  <SelectValue placeholder="Select destination" />
+                </SelectTrigger>
+                <SelectContent className="w-full max-h-60">
+                  <SelectItem value="all">All Destinations</SelectItem>
+                  {destinations.map((dest) => (
+                    <SelectItem key={dest} value={dest.toLowerCase()}>
+                      {dest}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
+            </div>
+
+            <div className="space-y-2">
+              <Label>Hotel Type</Label>
+              <Select value={hotelType} onValueChange={setHotelType}>
+                <SelectTrigger className="w-full">
+                  <SelectValue placeholder="Select type" />
+                </SelectTrigger>
+                <SelectContent className="w-full max-h-60">
+                  {hotelTypes.map((type) => (
+                    <SelectItem key={type.value} value={type.value}>
+                      {type.label}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
+            </div>
+
+            <div className="space-y-2">
+              <Label htmlFor="checkin">Check-in Date</Label>
+              <Input
+                className="flex flex-col justify-center"
+                id="checkin"
+                type="date"
+                value={checkInDate}
+                onChange={(e) => setCheckInDate(e.target.value)}
+                min={new Date().toISOString().split("T")[0]}
+              />
+            </div>
+
+            <div className="space-y-2">
+              <Label htmlFor="checkout">Check-out Date</Label>
+              <Input
+                className="flex flex-col justify-center"
+                id="checkout"
+                type="date"
+                value={checkOutDate}
+                onChange={(e) => setCheckOutDate(e.target.value)}
+                min={checkInDate || new Date().toISOString().split("T")[0]}
+              />
+            </div>
+
+            <div className="flex items-end">
+              <Button
+                variant="outline"
+                onClick={resetFilters}
+                className="m-0 w-full"
+              >
+                <RotateCcw className="mr-2 w-4 h-4" />
+                Reset Filters
+              </Button>
+            </div>
+          </div>
+
+          {/* Secondary Filters Row */}
+          <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-10">
+            <div className="space-y-2 lg:col-span-2">
+              <Label>Minimum Star Rating</Label>
+              <Select value={starRating} onValueChange={setStarRating}>
+                <SelectTrigger className="w-full">
+                  <SelectValue placeholder="Select rating" />
+                </SelectTrigger>
+                <SelectContent className="w-full max-h-60">
+                  <SelectItem value="1">1+ Stars</SelectItem>
+                  <SelectItem value="2">2+ Stars</SelectItem>
+                  <SelectItem value="3">3+ Stars</SelectItem>
+                  <SelectItem value="4">4+ Stars</SelectItem>
+                  <SelectItem value="5">5 Stars</SelectItem>
+                </SelectContent>
+              </Select>
+            </div>
+
+            <div className="space-y-2 lg:col-span-2">
+              <Label>Sort By</Label>
+              <Select value={sortBy} onValueChange={setSortBy}>
+                <SelectTrigger className="w-full">
+                  <SelectValue placeholder="Sort by" />
+                </SelectTrigger>
+                <SelectContent className="w-full max-h-60">
+                  <SelectItem value="rating">Rating (High to Low)</SelectItem>
+                  <SelectItem value="price">Price (Low to High)</SelectItem>
+                  <SelectItem value="stars">
+                    Star Rating (High to Low)
+                  </SelectItem>
+                  <SelectItem value="name">Name (A-Z)</SelectItem>
+                </SelectContent>
+              </Select>
+            </div>
+
+            <div className="space-y-2 lg:col-span-3">
+              <Label>
+                Price Range: {formatPrice(priceRange[0])} -{" "}
+                {formatPrice(priceRange[1])}
+              </Label>
+              <Slider
+                value={priceRange}
+                onValueChange={setPriceRange}
+                max={2000}
+                min={0}
+                step={50}
+                className="pt-4 w-full"
+              />
+            </div>
+
+            <div className="space-y-2 lg:col-span-3">
               <Label htmlFor="search">Search Hotels</Label>
               <div className="relative">
                 <Search className="top-3 left-3 absolute w-4 h-4 text-slate-400" />
@@ -243,171 +360,18 @@ export default function HotelsPage() {
                 />
               </div>
             </div>
-
-            <div className="space-y-2">
-              <Label htmlFor="destination">Destination</Label>
-              <Select value={destination} onValueChange={setDestination}>
-                <SelectTrigger>
-                  <SelectValue placeholder="Select destination" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="all">All Destinations</SelectItem>
-                  {destinations.map((dest) => (
-                    <SelectItem key={dest} value={dest.toLowerCase()}>
-                      {dest}
-                    </SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
-            </div>
-
-            <div className="space-y-2">
-              <Label htmlFor="checkin">Check-in Date</Label>
-              <Input
-                id="checkin"
-                type="date"
-                value={checkInDate}
-                onChange={(e) => setCheckInDate(e.target.value)}
-                min={new Date().toISOString().split("T")[0]}
-              />
-            </div>
-
-            <div className="space-y-2">
-              <Label htmlFor="checkout">Check-out Date</Label>
-              <Input
-                id="checkout"
-                type="date"
-                value={checkOutDate}
-                onChange={(e) => setCheckOutDate(e.target.value)}
-                min={checkInDate || new Date().toISOString().split("T")[0]}
-              />
-            </div>
-
-            <div className="space-y-2">
-              <Label>Guests</Label>
-              <div className="flex gap-2">
-                <div className="flex-1">
-                  <Label className="text-xs">Adults</Label>
-                  <Input
-                    type="number"
-                    min="1"
-                    max="10"
-                    value={guests.adults}
-                    onChange={(e) =>
-                      setGuests({
-                        ...guests,
-                        adults: parseInt(e.target.value) || 1,
-                      })
-                    }
-                  />
-                </div>
-                <div className="flex-1">
-                  <Label className="text-xs">Children</Label>
-                  <Input
-                    type="number"
-                    min="0"
-                    max="10"
-                    value={guests.children}
-                    onChange={(e) =>
-                      setGuests({
-                        ...guests,
-                        children: parseInt(e.target.value) || 0,
-                      })
-                    }
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Secondary Filters Row */}
-          <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5">
-            <div className="space-y-2">
-              <Label>Hotel Type</Label>
-              <Select value={hotelType} onValueChange={setHotelType}>
-                <SelectTrigger>
-                  <SelectValue placeholder="Select type" />
-                </SelectTrigger>
-                <SelectContent>
-                  {hotelTypes.map((type) => (
-                    <SelectItem key={type.value} value={type.value}>
-                      {type.label}
-                    </SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
-            </div>
-
-            <div className="space-y-2">
-              <Label>Minimum Star Rating</Label>
-              <Select value={starRating} onValueChange={setStarRating}>
-                <SelectTrigger>
-                  <SelectValue placeholder="Select rating" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="1">1+ Stars</SelectItem>
-                  <SelectItem value="2">2+ Stars</SelectItem>
-                  <SelectItem value="3">3+ Stars</SelectItem>
-                  <SelectItem value="4">4+ Stars</SelectItem>
-                  <SelectItem value="5">5 Stars</SelectItem>
-                </SelectContent>
-              </Select>
-            </div>
-
-            <div className="space-y-2">
-              <Label>
-                Price Range: {formatPrice(priceRange[0])} -{" "}
-                {formatPrice(priceRange[1])}
-              </Label>
-              <Slider
-                value={priceRange}
-                onValueChange={setPriceRange}
-                max={2000}
-                min={0}
-                step={50}
-                className="w-full"
-              />
-            </div>
-
-            <div className="space-y-2">
-              <Label>Sort By</Label>
-              <Select value={sortBy} onValueChange={setSortBy}>
-                <SelectTrigger>
-                  <SelectValue placeholder="Sort by" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="rating">Rating (High to Low)</SelectItem>
-                  <SelectItem value="price">Price (Low to High)</SelectItem>
-                  <SelectItem value="stars">
-                    Star Rating (High to Low)
-                  </SelectItem>
-                  <SelectItem value="name">Name (A-Z)</SelectItem>
-                </SelectContent>
-              </Select>
-            </div>
-
-            <div className="flex items-end">
-              <Button
-                variant="outline"
-                onClick={resetFilters}
-                className="w-full"
-              >
-                <RotateCcw className="mr-2 w-4 h-4" />
-                Reset Filters
-              </Button>
-            </div>
           </div>
         </Card>
 
         {/* Results Summary */}
         <div className="flex justify-between items-center mb-6">
-          <p className="text-slate-600 dark:text-slate-400">
+          <p className="">
             Found {filteredHotels.length} hotel
             {filteredHotels.length !== 1 ? "s" : ""}
             {destination && destination !== "all" && ` in ${destination}`}
           </p>
           {checkInDate && checkOutDate && (
-            <p className="text-slate-600">
+            <p className="">
               {calculateNights()} night{calculateNights() !== 1 ? "s" : ""}
             </p>
           )}
@@ -418,7 +382,7 @@ export default function HotelsPage() {
           {filteredHotels.map((hotel) => (
             <Card
               key={hotel.id}
-              className="hover:shadow-xl transition-shadow overflow-hidden"
+              className="hover:shadow-md p-0 transition-shadow overflow-hidden"
             >
               <div className="relative h-64">
                 <Image
@@ -428,40 +392,32 @@ export default function HotelsPage() {
                   className="object-cover"
                 />
                 <div className="top-4 left-4 absolute">
-                  <Badge variant="secondary" className="bg-white text-black">
+                  <Badge variant="secondary" className="">
                     {hotel.type.charAt(0).toUpperCase() + hotel.type.slice(1)}
                   </Badge>
                 </div>
-                <div className="top-4 right-4 absolute flex items-center">
+                <div className="top-4 right-4 absolute flex items-center bg-accent px-2 py-1 rounded-full">
                   {renderStarRating(hotel.starRating)}
                 </div>
               </div>
 
               <CardContent className="p-6">
                 <div className="mb-4">
-                  <h3 className="mb-2 font-bold text-slate-900 text-xl dark:text-white">
-                    {hotel.name}
-                  </h3>
+                  <h3 className="mb-2 font-bold text-xl">{hotel.name}</h3>
                   <div className="flex items-center gap-2 mb-2">
-                    <MapPin className="w-4 h-4 text-slate-500" />
-                    <span className="text-slate-600 text-sm">
+                    <MapPin className="w-4 h-4 text-accent" />
+                    <span className="text-sm">
                       {hotel.location.city}, {hotel.location.country}
                     </span>
                   </div>
-                  <p className="text-slate-600 text-sm dark:text-slate-400 line-clamp-2">
-                    {hotel.description}
-                  </p>
+                  <p className="text-sm line-clamp-2">{hotel.description}</p>
                 </div>
 
                 <div className="mb-4">
                   <div className="flex items-center gap-1 mb-2">
                     <Star className="w-4 h-4 text-yellow-400 fill-yellow-400" />
-                    <span className="font-medium text-slate-900 text-sm dark:text-white">
-                      {hotel.rating}
-                    </span>
-                    <span className="text-slate-500 text-sm">
-                      ({hotel.reviews} reviews)
-                    </span>
+                    <span className="font-medium text-sm">{hotel.rating}</span>
+                    <span className="text-sm">({hotel.reviews} reviews)</span>
                   </div>
                 </div>
 
@@ -478,7 +434,7 @@ export default function HotelsPage() {
                         return (
                           <div
                             key={index}
-                            className="flex items-center gap-1 text-slate-600 text-xs"
+                            className="flex items-center gap-1 text-xs"
                           >
                             <IconComponent className="w-3 h-3" />
                             <span>{amenity}</span>
@@ -491,30 +447,21 @@ export default function HotelsPage() {
                 {/* Pricing */}
                 <div className="flex justify-between items-end">
                   <div>
-                    <p className="text-slate-600 text-sm">From</p>
-                    <p className="font-bold text-2xl text-slate-900 dark:text-white">
+                    <p className="text-sm">From</p>
+                    <span className="font-bold text-2xl">
                       {formatPrice(hotel.pricing.priceRange.min)}
-                    </p>
-                    <p className="text-slate-500 text-xs">per night</p>
+                    </span>{" "}
+                    <span className="text-xs uppercase">/per night</span>
                   </div>
 
                   <div className="flex gap-2">
                     <Button
-                      variant="outline"
-                      size="sm"
                       onClick={() => {
                         const hotelSlug = formatToSlug(hotel.name);
                         router.push(`/hotels/${hotelSlug}`);
                       }}
                     >
-                      View Details
-                    </Button>
-                    <Button
-                      size="sm"
-                      onClick={() => handleAddToCart(hotel)}
-                      disabled={!checkInDate || !checkOutDate}
-                    >
-                      Book Now
+                      Book
                     </Button>
                   </div>
                 </div>
@@ -525,10 +472,8 @@ export default function HotelsPage() {
 
         {filteredHotels.length === 0 && (
           <div className="py-20 text-center">
-            <h3 className="mb-4 font-semibold text-lg text-slate-900 dark:text-white">
-              No hotels found
-            </h3>
-            <p className="text-slate-600 dark:text-slate-400">
+            <h3 className="mb-4 font-semibold text-lg">No hotels found</h3>
+            <p className="">
               Try adjusting your search criteria or browse all hotels.
             </p>
             <Button
