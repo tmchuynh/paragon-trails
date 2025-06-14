@@ -41,7 +41,12 @@ export default function AttractionsPage() {
   const [accessibilityRequired, setAccessibilityRequired] =
     useState<string>("all");
   const [skipLineAvailable, setSkipLineAvailable] = useState<string>("all");
-  const [priceRange, setPriceRange] = useState([0, 200]);
+  
+  // Calculate min and max prices from attractions data
+  const minPrice = Math.min(...mockAttractions.map(attraction => attraction.pricing.adult));
+  const maxPrice = Math.max(...mockAttractions.map(attraction => attraction.pricing.adult));
+  
+  const [priceRange, setPriceRange] = useState([minPrice, maxPrice]);
   const [ratingFilter, setRatingFilter] = useState([0, 5]);
   const [sortBy, setSortBy] = useState<string>("name");
 
@@ -195,7 +200,7 @@ export default function AttractionsPage() {
     setSelectedTimeToVisit("all");
     setAccessibilityRequired("all");
     setSkipLineAvailable("all");
-    setPriceRange([0, 200]);
+    setPriceRange([minPrice, maxPrice]);
     setRatingFilter([0, 5]);
   };
 
@@ -348,7 +353,7 @@ export default function AttractionsPage() {
                         placeholder="Eiffel Tower, Colosseum..."
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
-                        className="pl-10 border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                        className="pl-10 focus:border-muted border-border focus:ring-muted/20 h-8"
                       />
                     </div>
                   </div>
@@ -416,8 +421,8 @@ export default function AttractionsPage() {
                       <Slider
                         value={priceRange}
                         onValueChange={setPriceRange}
-                        max={200}
-                        min={0}
+                        max={maxPrice}
+                        min={minPrice}
                         step={5}
                         className="w-full"
                       />
