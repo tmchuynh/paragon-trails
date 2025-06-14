@@ -34,7 +34,7 @@ export default function TourCard({ tour }: { tour: Tour }) {
       </div>
 
       <div className="p-6">
-        <div className="flex justify-between items-start mb-3">
+        <div className="flex justify-between items-start mb-3 min-h-[3em]">
           <h3 className="font-bold text-slate-900 text-xl dark:group-hover:text-blue-400 dark:text-white group-hover:text-blue-600 transition-colors">
             {tour.title}
           </h3>
