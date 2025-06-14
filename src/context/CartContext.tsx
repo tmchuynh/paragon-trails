@@ -242,38 +242,60 @@ export function useCart() {
 
 // Helper functions
 export const cartHelpers = {
-  addItem: (dispatch: React.Dispatch<CartAction>, item: Omit<CartItem, 'quantity'>) => {
-    dispatch({ type: 'ADD_ITEM', payload: item });
+  addItem: (
+    dispatch: React.Dispatch<CartAction>,
+    item: Omit<CartItem, "quantity">
+  ) => {
+    dispatch({ type: "ADD_ITEM", payload: item });
   },
-  
-  checkIfDuplicate: (items: CartItem[], newItem: Omit<CartItem, 'quantity'>): boolean => {
-    return items.some(item => areItemsDuplicate(item, newItem));
+
+  checkIfDuplicate: (
+    items: CartItem[],
+    newItem: Omit<CartItem, "quantity">
+  ): boolean => {
+    return items.some((item) => areItemsDuplicate(item, newItem));
   },
-  
+
   removeItem: (dispatch: React.Dispatch<CartAction>, id: string) => {
-    dispatch({ type: 'REMOVE_ITEM', payload: { id } });
+    dispatch({ type: "REMOVE_ITEM", payload: { id } });
   },
-  
-  updateQuantity: (dispatch: React.Dispatch<CartAction>, id: string, quantity: number) => {
-    dispatch({ type: 'UPDATE_QUANTITY', payload: { id, quantity } });
+
+  updateQuantity: (
+    dispatch: React.Dispatch<CartAction>,
+    id: string,
+    quantity: number
+  ) => {
+    dispatch({ type: "UPDATE_QUANTITY", payload: { id, quantity } });
   },
-  
-  updateDates: (dispatch: React.Dispatch<CartAction>, id: string, dates: CartItem['dates']) => {
-    dispatch({ type: 'UPDATE_DATES', payload: { id, dates } });
+
+  updateDates: (
+    dispatch: React.Dispatch<CartAction>,
+    id: string,
+    dates: CartItem["dates"]
+  ) => {
+    dispatch({ type: "UPDATE_DATES", payload: { id, dates } });
   },
-  
-  updateGuests: (dispatch: React.Dispatch<CartAction>, id: string, guests: number) => {
-    dispatch({ type: 'UPDATE_GUESTS', payload: { id, guests } });
+
+  updateGuests: (
+    dispatch: React.Dispatch<CartAction>,
+    id: string,
+    guests: number
+  ) => {
+    dispatch({ type: "UPDATE_GUESTS", payload: { id, guests } });
   },
-  
+
+  isInCart: (state: CartState, id: string): boolean => {
+    return state.items.some((item) => item.id === id);
+  },
+
   clearCart: (dispatch: React.Dispatch<CartAction>) => {
-    dispatch({ type: 'CLEAR_CART' });
+    dispatch({ type: "CLEAR_CART" });
   },
-  
+
   formatPrice: (price: number) => {
-    return new Intl.NumberFormat('en-US', {
-      style: 'currency',
-      currency: 'USD',
+    return new Intl.NumberFormat("en-US", {
+      style: "currency",
+      currency: "USD",
     }).format(price);
   },
 };
