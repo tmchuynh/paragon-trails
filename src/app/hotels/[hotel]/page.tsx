@@ -249,11 +249,7 @@ export default function HotelDetailPage() {
                   </h3>
                   <div className="flex flex-wrap gap-2">
                     {hotel.awards.map((award, index) => (
-                      <Badge
-                        key={index}
-                        variant="outline"
-                        className="border-amber-200 text-amber-600"
-                      >
+                      <Badge key={index} variant="tertiaryFaded">
                         <Shield className="mr-1 w-3 h-3" />
                         {award}
                       </Badge>
@@ -447,6 +443,7 @@ export default function HotelDetailPage() {
                   <Input
                     id="checkin"
                     type="date"
+                    className="flex flex-col justify-center"
                     value={checkInDate}
                     onChange={(e) => {
                       const newCheckInDate = e.target.value;
@@ -470,39 +467,43 @@ export default function HotelDetailPage() {
                   <Input
                     id="checkout"
                     type="date"
+                    className="flex flex-col justify-center"
                     value={checkOutDate}
                     onChange={(e) => setCheckOutDate(e.target.value)}
                     min={getMinCheckoutDate()}
                   />
                 </div>
 
-                <div>
-                  <Label htmlFor="guests">Number of Guests</Label>
-                  <Input
-                    id="guests"
-                    type="number"
-                    min="1"
-                    max="10"
-                    value={guests}
-                    onChange={(e) => setGuests(parseInt(e.target.value) || 1)}
-                  />
-                  {!canAccommodateGuests() && (
-                    <p className="mt-1 text-red-500 text-sm">
-                      ⚠️ {getOccupancyWarning()}
-                    </p>
-                  )}
-                </div>
-
-                <div>
-                  <Label htmlFor="quantity">Number of Rooms</Label>
-                  <Input
-                    id="quantity"
-                    type="number"
-                    min="1"
-                    max="10"
-                    value={quantity}
-                    onChange={(e) => setQuantity(parseInt(e.target.value) || 1)}
-                  />
+                <div className="gap-4 grid grid-cols-2">
+                  <div>
+                    <Label htmlFor="guests">Number of Guests</Label>
+                    <Input
+                      id="guests"
+                      type="number"
+                      min="1"
+                      max="10"
+                      value={guests}
+                      onChange={(e) => setGuests(parseInt(e.target.value) || 1)}
+                    />
+                    {!canAccommodateGuests() && (
+                      <p className="mt-1 text-red-500 text-sm">
+                        ⚠️ {getOccupancyWarning()}
+                      </p>
+                    )}
+                  </div>
+                  <div>
+                    <Label htmlFor="quantity">Number of Rooms</Label>
+                    <Input
+                      id="quantity"
+                      type="number"
+                      min="1"
+                      max="10"
+                      value={quantity}
+                      onChange={(e) =>
+                        setQuantity(parseInt(e.target.value) || 1)
+                      }
+                    />
+                  </div>
                 </div>
 
                 <Separator />
