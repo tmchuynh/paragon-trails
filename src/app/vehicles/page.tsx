@@ -375,12 +375,22 @@ export default function VehiclesPage() {
                     value={selectedLocation}
                     onValueChange={setSelectedLocation}
                   >
-                    <SelectTrigger className="pl-10 border border-border w-full">
+                    <SelectTrigger
+                      className="pl-10 border border-border w-full"
+                      variant="professional"
+                    >
                       <SelectValue placeholder="Select location" />
                     </SelectTrigger>
-                    <SelectContent className="w-full max-h-60">
+                    <SelectContent
+                      className="w-full max-h-60"
+                      variant="professional"
+                    >
                       {locations.map((location) => (
-                        <SelectItem key={location.value} value={location.value}>
+                        <SelectItem
+                          key={location.value}
+                          value={location.value}
+                          variant="classic"
+                        >
                           {location.label}
                         </SelectItem>
                       ))}
@@ -470,9 +480,16 @@ export default function VehiclesPage() {
                         <SelectTrigger className="border border-border w-full">
                           <SelectValue />
                         </SelectTrigger>
-                        <SelectContent className="w-full max-h-60">
+                        <SelectContent
+                          className="w-full max-h-60"
+                          variant="professional"
+                        >
                           {vehicleTypes.map((type) => (
-                            <SelectItem key={type.value} value={type.value}>
+                            <SelectItem
+                              key={type.value}
+                              value={type.value}
+                              variant="classic"
+                            >
                               {type.label}
                             </SelectItem>
                           ))}
@@ -490,9 +507,16 @@ export default function VehiclesPage() {
                         <SelectTrigger className="border border-border w-full">
                           <SelectValue />
                         </SelectTrigger>
-                        <SelectContent className="w-full max-h-60">
+                        <SelectContent
+                          className="w-full max-h-60"
+                          variant="professional"
+                        >
                           {getAvailableBrands().map((brand) => (
-                            <SelectItem key={brand.value} value={brand.value}>
+                            <SelectItem
+                              key={brand.value}
+                              value={brand.value}
+                              variant="classic"
+                            >
                               {brand.label}
                             </SelectItem>
                           ))}
@@ -510,9 +534,16 @@ export default function VehiclesPage() {
                         <SelectTrigger className="border border-border w-full">
                           <SelectValue />
                         </SelectTrigger>
-                        <SelectContent className="w-full max-h-60">
+                        <SelectContent
+                          className="w-full max-h-60"
+                          variant="professional"
+                        >
                           {getAvailableModels().map((model) => (
-                            <SelectItem key={model.value} value={model.value}>
+                            <SelectItem
+                              key={model.value}
+                              value={model.value}
+                              variant="classic"
+                            >
                               {model.label}
                             </SelectItem>
                           ))}
@@ -530,9 +561,16 @@ export default function VehiclesPage() {
                         <SelectTrigger className="border border-border w-full">
                           <SelectValue />
                         </SelectTrigger>
-                        <SelectContent className="w-full max-h-60">
+                        <SelectContent
+                          className="w-full max-h-60"
+                          variant="professional"
+                        >
                           {getAvailableYears().map((year) => (
-                            <SelectItem key={year.value} value={year.value}>
+                            <SelectItem
+                              key={year.value}
+                              value={year.value}
+                              variant="classic"
+                            >
                               {year.label}
                             </SelectItem>
                           ))}
@@ -550,9 +588,16 @@ export default function VehiclesPage() {
                         <SelectTrigger className="border border-border w-full">
                           <SelectValue />
                         </SelectTrigger>
-                        <SelectContent className="w-full max-h-60">
+                        <SelectContent
+                          className="w-full max-h-60"
+                          variant="professional"
+                        >
                           {fuelTypes.map((fuel) => (
-                            <SelectItem key={fuel.value} value={fuel.value}>
+                            <SelectItem
+                              key={fuel.value}
+                              value={fuel.value}
+                              variant="classic"
+                            >
                               {fuel.label}
                             </SelectItem>
                           ))}
@@ -570,11 +615,15 @@ export default function VehiclesPage() {
                         <SelectTrigger className="border border-border w-full">
                           <SelectValue />
                         </SelectTrigger>
-                        <SelectContent className="w-full max-h-60">
+                        <SelectContent
+                          className="w-full max-h-60"
+                          variant="professional"
+                        >
                           {seatingCapacities.map((capacity) => (
                             <SelectItem
                               key={capacity.value}
                               value={capacity.value}
+                              variant="classic"
                             >
                               {capacity.label}
                             </SelectItem>
@@ -643,12 +692,25 @@ export default function VehiclesPage() {
                     <SelectTrigger className="border border-border w-full md:w-20">
                       <SelectValue />
                     </SelectTrigger>
-                    <SelectContent className="w-full max-h-60">
-                      <SelectItem value="4">4</SelectItem>
-                      <SelectItem value="8">8</SelectItem>
-                      <SelectItem value="12">12</SelectItem>
-                      <SelectItem value="16">16</SelectItem>
-                      <SelectItem value="24">24</SelectItem>
+                    <SelectContent
+                      className="w-full max-h-60"
+                      variant="professional"
+                    >
+                      <SelectItem value="4" variant="classic">
+                        4
+                      </SelectItem>
+                      <SelectItem value="8" variant="classic">
+                        8
+                      </SelectItem>
+                      <SelectItem value="12" variant="classic">
+                        12
+                      </SelectItem>
+                      <SelectItem value="16" variant="classic">
+                        16
+                      </SelectItem>
+                      <SelectItem value="24" variant="classic">
+                        24
+                      </SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
@@ -660,14 +722,19 @@ export default function VehiclesPage() {
                     <SelectTrigger className="border border-border w-full md:w-48">
                       <SelectValue />
                     </SelectTrigger>
-                    <SelectContent className="w-full max-h-60">
-                      <SelectItem value="price-low">
+                    <SelectContent
+                      className="w-full max-h-60"
+                      variant="professional"
+                    >
+                      <SelectItem value="price-low" variant="classic">
                         Price: Low to High
                       </SelectItem>
-                      <SelectItem value="price-high">
+                      <SelectItem value="price-high" variant="classic">
                         Price: High to Low
                       </SelectItem>
-                      <SelectItem value="rating">Highest Rated</SelectItem>
+                      <SelectItem value="rating" variant="classic">
+                        Highest Rated
+                      </SelectItem>
                     </SelectContent>
                   </Select>
                 </div>

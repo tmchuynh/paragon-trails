@@ -298,7 +298,7 @@ export default function VehicleDetailPage() {
               </SelectTrigger>
               <SelectContent>
                 {mockVehicles.map((v) => (
-                  <SelectItem key={v.id} value={v.id}>
+                  <SelectItem key={v.id} value={v.id} variant="classic">
                     {v.name}
                   </SelectItem>
                 ))}
@@ -967,6 +967,7 @@ export default function VehicleDetailPage() {
                           <SelectItem
                             key={location.toLowerCase().replace(" ", "-")}
                             value={location.toLowerCase().replace(" ", "-")}
+                            variant="classic"
                           >
                             {location}
                           </SelectItem>
@@ -1096,7 +1097,7 @@ export default function VehicleDetailPage() {
                   <div className="space-y-3">
                     <div className="gap-2 grid grid-cols-2">
                       <Button
-                        variant="secondary"
+                        variant="modern"
                         onClick={() => router.push("/activities")}
                         className="flex items-center gap-2"
                         size="sm"
@@ -1105,7 +1106,7 @@ export default function VehicleDetailPage() {
                         Activities
                       </Button>
                       <Button
-                        variant="secondary"
+                        variant="modern"
                         onClick={() => router.push("/hotels")}
                         className="flex items-center gap-2"
                         size="sm"
@@ -1114,7 +1115,7 @@ export default function VehicleDetailPage() {
                         Hotels
                       </Button>
                       <Button
-                        variant="secondary"
+                        variant="modern"
                         onClick={() => router.push("/attractions")}
                         className="flex items-center gap-2"
                         size="sm"
@@ -1123,7 +1124,7 @@ export default function VehicleDetailPage() {
                         Attractions
                       </Button>
                       <Button
-                        variant="secondary"
+                        variant="professional"
                         onClick={() => router.push("/flights")}
                         className="flex items-center gap-2"
                         size="sm"
