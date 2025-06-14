@@ -6,6 +6,15 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import {
+  Pagination,
+  PaginationContent,
+  PaginationEllipsis,
+  PaginationItem,
+  PaginationLink,
+  PaginationNext,
+  PaginationPrevious,
+} from "@/components/ui/pagination";
+import {
   Select,
   SelectContent,
   SelectItem,
@@ -16,7 +25,7 @@ import { Slider } from "@/components/ui/slider";
 import { mockDestinations } from "@/data/destinations";
 import { mockVehicles } from "@/data/vehicles";
 import { Vehicle } from "@/lib/interfaces/services/vehicles";
-import { Calendar, Car, Filter, MapPin, RotateCcw, Search } from "lucide-react";
+import { Car, Filter, MapPin, RotateCcw, Search } from "lucide-react";
 import { useEffect, useState } from "react";
 
 export default function VehiclesPage() {
@@ -24,10 +33,21 @@ export default function VehiclesPage() {
     useState<Vehicle[]>(mockVehicles);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedType, setSelectedType] = useState<string>("all");
-  const [priceRange, setPriceRange] = useState([0, 500]);
+  const [selectedBrand, setSelectedBrand] = useState<string>("all");
+  const [selectedModel, setSelectedModel] = useState<string>("all");
+  const [selectedYear, setSelectedYear] = useState<string>("all");
+  const [selectedFuelType, setSelectedFuelType] = useState<string>("all");
+  const [selectedSeatingCapacity, setSelectedSeatingCapacity] =
+    useState<string>("all");
+  const [priceRange, setPriceRange] = useState([0, 1500]);
   const [selectedLocation, setSelectedLocation] = useState<string>("all");
   const [pickupDate, setPickupDate] = useState("");
   const [returnDate, setReturnDate] = useState("");
+  const [sortBy, setSortBy] = useState<string>("price-low");
+
+  // Pagination state
+  const [currentPage, setCurrentPage] = useState(1);
+  const [itemsPerPage, setItemsPerPage] = useState(8);
 
   // Dynamically extract vehicle types from mockVehicles
   const vehicleTypes = [
@@ -40,6 +60,90 @@ export default function VehiclesPage() {
           .split("-")
           .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
           .join(" "),
+      })),
+  ];
+
+  // Get available brands based on selected type
+  const getAvailableBrands = () => {
+    let vehicles = mockVehicles;
+    if (selectedType !== "all") {
+      vehicles = vehicles.filter((v) => v.type === selectedType);
+    }
+    return [
+      { value: "all", label: "All Brands" },
+      ...Array.from(new Set(vehicles.map((v) => v.brand)))
+        .sort()
+        .map((brand) => ({ value: brand, label: brand })),
+    ];
+  };
+
+  // Get available models based on selected type and brand
+  const getAvailableModels = () => {
+    let vehicles = mockVehicles;
+    if (selectedType !== "all") {
+      vehicles = vehicles.filter((v) => v.type === selectedType);
+    }
+    if (selectedBrand !== "all") {
+      vehicles = vehicles.filter((v) => v.brand === selectedBrand);
+    }
+    return [
+      { value: "all", label: "All Models" },
+      ...Array.from(new Set(vehicles.map((v) => v.model)))
+        .sort()
+        .map((model) => ({ value: model, label: model })),
+    ];
+  };
+
+  // Get available years based on selected type, brand, and model
+  const getAvailableYears = () => {
+    let vehicles = mockVehicles;
+    if (selectedType !== "all") {
+      vehicles = vehicles.filter((v) => v.type === selectedType);
+    }
+    if (selectedBrand !== "all") {
+      vehicles = vehicles.filter((v) => v.brand === selectedBrand);
+    }
+    if (selectedModel !== "all") {
+      vehicles = vehicles.filter((v) => v.model === selectedModel);
+    }
+    return [
+      { value: "all", label: "All Years" },
+      ...Array.from(new Set(vehicles.map((v) => v.year.toString())))
+        .sort((a, b) => parseInt(b) - parseInt(a))
+        .map((year) => ({ value: year, label: year })),
+    ];
+  };
+
+  // Get available fuel types
+  const fuelTypes = [
+    { value: "all", label: "All Fuel Types" },
+    ...Array.from(
+      new Set(
+        mockVehicles
+          .filter((vehicle) => vehicle.specifications?.fuelType)
+          .map((vehicle) => vehicle.specifications.fuelType!)
+      )
+    )
+      .sort()
+      .map((fuelType) => ({ value: fuelType, label: fuelType })),
+  ];
+
+  // Get available seating capacities
+  const seatingCapacities = [
+    { value: "all", label: "All Seating" },
+    ...Array.from(
+      new Set(
+        mockVehicles
+          .filter(
+            (vehicle) => vehicle.specifications?.seatingCapacity !== undefined
+          )
+          .map((vehicle) => vehicle.specifications.seatingCapacity!.toString())
+      )
+    )
+      .sort((a, b) => parseInt(a) - parseInt(b))
+      .map((capacity) => ({
+        value: capacity,
+        label: `${capacity} ${parseInt(capacity) === 1 ? "seat" : "seats"}`,
       })),
   ];
 
@@ -72,6 +176,51 @@ export default function VehiclesPage() {
       filtered = filtered.filter((vehicle) => vehicle.type === selectedType);
     }
 
+    // Filter by brand
+    if (selectedBrand !== "all") {
+      filtered = filtered.filter((vehicle) => vehicle.brand === selectedBrand);
+    }
+
+    // Filter by model
+    if (selectedModel !== "all") {
+      filtered = filtered.filter((vehicle) => vehicle.model === selectedModel);
+    }
+
+    // Filter by year
+    if (selectedYear !== "all") {
+      filtered = filtered.filter(
+        (vehicle) => vehicle.year.toString() === selectedYear
+      );
+    }
+
+    // Filter by fuel type
+    if (selectedFuelType !== "all") {
+      filtered = filtered.filter(
+        (vehicle) => vehicle.specifications?.fuelType === selectedFuelType
+      );
+    }
+
+    // Filter by seating capacity
+    if (selectedSeatingCapacity !== "all") {
+      filtered = filtered.filter(
+        (vehicle) =>
+          vehicle.specifications?.seatingCapacity?.toString() ===
+          selectedSeatingCapacity
+      );
+    }
+
+    // Filter by location
+    if (selectedLocation !== "all") {
+      const locationName = locations.find(
+        (loc) => loc.value === selectedLocation
+      )?.label;
+      if (locationName) {
+        filtered = filtered.filter((vehicle) =>
+          vehicle.availability.locations.includes(locationName)
+        );
+      }
+    }
+
     // Filter by price range
     filtered = filtered.filter(
       (vehicle) =>
@@ -79,22 +228,92 @@ export default function VehiclesPage() {
         vehicle.pricing.daily <= priceRange[1]
     );
 
+    // Sort results
+    filtered = filtered.sort((a, b) => {
+      switch (sortBy) {
+        case "price-low":
+          return a.pricing.daily - b.pricing.daily;
+        case "price-high":
+          return b.pricing.daily - a.pricing.daily;
+        case "rating":
+          return b.rating - a.rating;
+        default:
+          return a.pricing.daily - b.pricing.daily;
+      }
+    });
+
     setFilteredVehicles(filtered);
   };
 
   const resetFilters = () => {
     setSearchQuery("");
     setSelectedType("all");
-    setPriceRange([0, 500]);
+    setSelectedBrand("all");
+    setSelectedModel("all");
+    setSelectedYear("all");
+    setSelectedFuelType("all");
+    setSelectedSeatingCapacity("all");
+    setPriceRange([0, 1500]);
     setSelectedLocation("all");
     setPickupDate("");
     setReturnDate("");
   };
 
+  // Handle cascading filter resets
+  const handleTypeChange = (value: string) => {
+    setSelectedType(value);
+    setSelectedBrand("all");
+    setSelectedModel("all");
+    setSelectedYear("all");
+  };
+
+  const handleBrandChange = (value: string) => {
+    setSelectedBrand(value);
+    setSelectedModel("all");
+    setSelectedYear("all");
+  };
+
+  const handleModelChange = (value: string) => {
+    setSelectedModel(value);
+    setSelectedYear("all");
+  };
+
   // Auto-filter when any filter changes
   useEffect(() => {
     handleSearch();
-  }, [searchQuery, selectedType, priceRange, selectedLocation, pickupDate, returnDate]);
+    // Reset to page 1 when filters change
+    setCurrentPage(1);
+  }, [
+    searchQuery,
+    selectedType,
+    selectedBrand,
+    selectedModel,
+    selectedYear,
+    selectedFuelType,
+    selectedSeatingCapacity,
+    priceRange,
+    selectedLocation,
+    pickupDate,
+    returnDate,
+    sortBy,
+  ]);
+
+  // Reset to page 1 when items per page changes
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [itemsPerPage]);
+
+  // Calculate pagination
+  const totalPages = Math.ceil(filteredVehicles.length / itemsPerPage);
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
+  const paginatedVehicles = filteredVehicles.slice(startIndex, endIndex);
+
+  const handlePageChange = (page: number) => {
+    setCurrentPage(page);
+    // Scroll to top of results
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
   return (
     <div className="min-h-screen">
@@ -124,10 +343,10 @@ export default function VehiclesPage() {
                     value={selectedLocation}
                     onValueChange={setSelectedLocation}
                   >
-                    <SelectTrigger className="pl-10">
+                    <SelectTrigger className="pl-10 w-full">
                       <SelectValue placeholder="Select location" />
                     </SelectTrigger>
-                    <SelectContent>
+                    <SelectContent className="w-full max-h-60">
                       {locations.map((location) => (
                         <SelectItem key={location.value} value={location.value}>
                           {location.label}
@@ -142,13 +361,12 @@ export default function VehiclesPage() {
               <div className="space-y-2">
                 <Label htmlFor="pickup-date">Pickup Date</Label>
                 <div className="relative">
-                  <Calendar className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
                   <Input
                     id="pickup-date"
                     type="date"
                     value={pickupDate}
                     onChange={(e) => setPickupDate(e.target.value)}
-                    className="pl-10"
+                    className="flex flex-col justify-center"
                   />
                 </div>
               </div>
@@ -157,13 +375,12 @@ export default function VehiclesPage() {
               <div className="space-y-2">
                 <Label htmlFor="return-date">Return Date</Label>
                 <div className="relative">
-                  <Calendar className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
                   <Input
                     id="return-date"
                     type="date"
                     value={returnDate}
                     onChange={(e) => setReturnDate(e.target.value)}
-                    className="pl-10"
+                    className="flex flex-col justify-center"
                   />
                 </div>
               </div>
@@ -213,15 +430,118 @@ export default function VehiclesPage() {
                     <Label>Vehicle Type</Label>
                     <Select
                       value={selectedType}
-                      onValueChange={setSelectedType}
+                      onValueChange={handleTypeChange}
                     >
-                      <SelectTrigger>
+                      <SelectTrigger className="w-full">
                         <SelectValue />
                       </SelectTrigger>
-                      <SelectContent>
+                      <SelectContent className="w-full max-h-60">
                         {vehicleTypes.map((type) => (
                           <SelectItem key={type.value} value={type.value}>
                             {type.label}
+                          </SelectItem>
+                        ))}
+                      </SelectContent>
+                    </Select>
+                  </div>
+
+                  {/* Vehicle Brand */}
+                  <div className="space-y-2">
+                    <Label>Brand</Label>
+                    <Select
+                      value={selectedBrand}
+                      onValueChange={handleBrandChange}
+                    >
+                      <SelectTrigger className="w-full">
+                        <SelectValue />
+                      </SelectTrigger>
+                      <SelectContent className="w-full max-h-60">
+                        {getAvailableBrands().map((brand) => (
+                          <SelectItem key={brand.value} value={brand.value}>
+                            {brand.label}
+                          </SelectItem>
+                        ))}
+                      </SelectContent>
+                    </Select>
+                  </div>
+
+                  {/* Vehicle Model */}
+                  <div className="space-y-2">
+                    <Label>Model</Label>
+                    <Select
+                      value={selectedModel}
+                      onValueChange={handleModelChange}
+                    >
+                      <SelectTrigger className="w-full">
+                        <SelectValue />
+                      </SelectTrigger>
+                      <SelectContent className="w-full max-h-60">
+                        {getAvailableModels().map((model) => (
+                          <SelectItem key={model.value} value={model.value}>
+                            {model.label}
+                          </SelectItem>
+                        ))}
+                      </SelectContent>
+                    </Select>
+                  </div>
+
+                  {/* Vehicle Year */}
+                  <div className="space-y-2">
+                    <Label>Year</Label>
+                    <Select
+                      value={selectedYear}
+                      onValueChange={setSelectedYear}
+                    >
+                      <SelectTrigger className="w-full">
+                        <SelectValue />
+                      </SelectTrigger>
+                      <SelectContent className="w-full max-h-60">
+                        {getAvailableYears().map((year) => (
+                          <SelectItem key={year.value} value={year.value}>
+                            {year.label}
+                          </SelectItem>
+                        ))}
+                      </SelectContent>
+                    </Select>
+                  </div>
+
+                  {/* Fuel Type */}
+                  <div className="space-y-2">
+                    <Label>Fuel Type</Label>
+                    <Select
+                      value={selectedFuelType}
+                      onValueChange={setSelectedFuelType}
+                    >
+                      <SelectTrigger className="w-full">
+                        <SelectValue />
+                      </SelectTrigger>
+                      <SelectContent className="w-full max-h-60">
+                        {fuelTypes.map((fuel) => (
+                          <SelectItem key={fuel.value} value={fuel.value}>
+                            {fuel.label}
+                          </SelectItem>
+                        ))}
+                      </SelectContent>
+                    </Select>
+                  </div>
+
+                  {/* Seating Capacity */}
+                  <div className="space-y-2">
+                    <Label>Seating Capacity</Label>
+                    <Select
+                      value={selectedSeatingCapacity}
+                      onValueChange={setSelectedSeatingCapacity}
+                    >
+                      <SelectTrigger className="w-full">
+                        <SelectValue />
+                      </SelectTrigger>
+                      <SelectContent className="w-full max-h-60">
+                        {seatingCapacities.map((capacity) => (
+                          <SelectItem
+                            key={capacity.value}
+                            value={capacity.value}
+                          >
+                            {capacity.label}
                           </SelectItem>
                         ))}
                       </SelectContent>
@@ -235,9 +555,9 @@ export default function VehiclesPage() {
                       <Slider
                         value={priceRange}
                         onValueChange={setPriceRange}
-                        max={500}
+                        max={1500}
                         min={0}
-                        step={10}
+                        step={25}
                         className="w-full"
                       />
                       <div className="flex justify-between mt-2 text-slate-600 text-sm">
@@ -267,18 +587,57 @@ export default function VehiclesPage() {
               <p className="text-slate-600 dark:text-slate-400">
                 {filteredVehicles.length} vehicle
                 {filteredVehicles.length !== 1 ? "s" : ""} found
+                {filteredVehicles.length > 0 && (
+                  <span className="ml-2">
+                    (Showing {startIndex + 1}-
+                    {Math.min(endIndex, filteredVehicles.length)} of{" "}
+                    {filteredVehicles.length})
+                  </span>
+                )}
               </p>
-              <Select defaultValue="recommended">
-                <SelectTrigger className="w-48">
-                  <SelectValue />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="recommended">Recommended</SelectItem>
-                  <SelectItem value="price-low">Price: Low to High</SelectItem>
-                  <SelectItem value="price-high">Price: High to Low</SelectItem>
-                  <SelectItem value="rating">Highest Rated</SelectItem>
-                </SelectContent>
-              </Select>
+
+              <div className="flex items-center gap-4">
+                {/* Items per page dropdown */}
+                <div className="flex items-center gap-2">
+                  <Label
+                    htmlFor="items-per-page"
+                    className="text-sm whitespace-nowrap"
+                  >
+                    Show:
+                  </Label>
+                  <Select
+                    value={itemsPerPage.toString()}
+                    onValueChange={(value) => setItemsPerPage(Number(value))}
+                  >
+                    <SelectTrigger className="w-20">
+                      <SelectValue />
+                    </SelectTrigger>
+                    <SelectContent className="w-full max-h-60">
+                      <SelectItem value="4">4</SelectItem>
+                      <SelectItem value="8">8</SelectItem>
+                      <SelectItem value="12">12</SelectItem>
+                      <SelectItem value="16">16</SelectItem>
+                      <SelectItem value="24">24</SelectItem>
+                    </SelectContent>
+                  </Select>
+                </div>
+
+                {/* Sort dropdown */}
+                <Select value={sortBy} onValueChange={setSortBy}>
+                  <SelectTrigger className="w-48">
+                    <SelectValue />
+                  </SelectTrigger>
+                  <SelectContent className="w-full max-h-60">
+                    <SelectItem value="price-low">
+                      Price: Low to High
+                    </SelectItem>
+                    <SelectItem value="price-high">
+                      Price: High to Low
+                    </SelectItem>
+                    <SelectItem value="rating">Highest Rated</SelectItem>
+                  </SelectContent>
+                </Select>
+              </div>
             </div>
 
             {filteredVehicles.length === 0 ? (
@@ -293,17 +652,154 @@ export default function VehiclesPage() {
                 </p>
               </Card>
             ) : (
-              <div className="gap-6 grid grid-cols-1 xl:grid-cols-2">
-                {filteredVehicles.map((vehicle) => (
-                  <VehicleCard
-                    key={vehicle.id}
-                    vehicle={vehicle}
-                    pickupDate={pickupDate}
-                    returnDate={returnDate}
-                    location={selectedLocation}
-                  />
-                ))}
-              </div>
+              <>
+                <div className="gap-6 grid grid-cols-1 xl:grid-cols-2">
+                  {paginatedVehicles.map((vehicle) => (
+                    <VehicleCard
+                      key={vehicle.id}
+                      vehicle={vehicle}
+                      pickupDate={pickupDate}
+                      returnDate={returnDate}
+                      location={selectedLocation}
+                    />
+                  ))}
+                </div>
+
+                {/* Pagination Controls */}
+                {totalPages > 1 && (
+                  <div className="flex sm:flex-row flex-col justify-between items-center gap-4 mt-8">
+                    <Pagination>
+                      <PaginationContent>
+                        <PaginationItem>
+                          <PaginationPrevious
+                            onClick={() =>
+                              handlePageChange(Math.max(1, currentPage - 1))
+                            }
+                            className={
+                              currentPage === 1
+                                ? "pointer-events-none opacity-50"
+                                : "cursor-pointer"
+                            }
+                          />
+                        </PaginationItem>
+
+                        {/* First page */}
+                        {currentPage > 3 && (
+                          <>
+                            <PaginationItem>
+                              <PaginationLink
+                                onClick={() => handlePageChange(1)}
+                                className="cursor-pointer"
+                              >
+                                1
+                              </PaginationLink>
+                            </PaginationItem>
+                            {currentPage > 4 && (
+                              <PaginationItem>
+                                <PaginationEllipsis />
+                              </PaginationItem>
+                            )}
+                          </>
+                        )}
+
+                        {/* Current page and surrounding pages */}
+                        {Array.from({ length: totalPages }, (_, i) => i + 1)
+                          .filter((page) => {
+                            return (
+                              page === currentPage ||
+                              Math.abs(page - currentPage) <= 1 ||
+                              (currentPage <= 3 && page <= 3) ||
+                              (currentPage >= totalPages - 2 &&
+                                page >= totalPages - 2)
+                            );
+                          })
+                          .map((page) => (
+                            <PaginationItem key={page}>
+                              <PaginationLink
+                                onClick={() => handlePageChange(page)}
+                                isActive={currentPage === page}
+                                className="cursor-pointer"
+                              >
+                                {page}
+                              </PaginationLink>
+                            </PaginationItem>
+                          ))}
+
+                        {/* Last page */}
+                        {currentPage < totalPages - 2 && (
+                          <>
+                            {currentPage < totalPages - 3 && (
+                              <PaginationItem>
+                                <PaginationEllipsis />
+                              </PaginationItem>
+                            )}
+                            <PaginationItem>
+                              <PaginationLink
+                                onClick={() => handlePageChange(totalPages)}
+                                className="cursor-pointer"
+                              >
+                                {totalPages}
+                              </PaginationLink>
+                            </PaginationItem>
+                          </>
+                        )}
+
+                        <PaginationItem>
+                          <PaginationNext
+                            onClick={() =>
+                              handlePageChange(
+                                Math.min(totalPages, currentPage + 1)
+                              )
+                            }
+                            className={
+                              currentPage === totalPages
+                                ? "pointer-events-none opacity-50"
+                                : "cursor-pointer"
+                            }
+                          />
+                        </PaginationItem>
+                      </PaginationContent>
+                    </Pagination>
+
+                    {/* Page info and quick jump (only show if more than 5 pages) */}
+                    {totalPages > 5 && (
+                      <div className="flex items-center gap-3 text-slate-600 text-sm dark:text-slate-400">
+                        <span>
+                          Page {currentPage} of {totalPages}
+                        </span>
+                        <div className="flex items-center gap-2">
+                          <Label
+                            htmlFor="goto-page"
+                            className="whitespace-nowrap"
+                          >
+                            Go to:
+                          </Label>
+                          <Input
+                            id="goto-page"
+                            type="number"
+                            min="1"
+                            max={totalPages}
+                            value=""
+                            placeholder={currentPage.toString()}
+                            className="w-16 h-8 text-center"
+                            onKeyDown={(e) => {
+                              if (e.key === "Enter") {
+                                const value = parseInt(
+                                  (e.target as HTMLInputElement).value
+                                );
+                                if (value >= 1 && value <= totalPages) {
+                                  handlePageChange(value);
+                                  (e.target as HTMLInputElement).value = "";
+                                }
+                              }
+                            }}
+                          />
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                )}
+              </>
             )}
           </div>
         </div>
