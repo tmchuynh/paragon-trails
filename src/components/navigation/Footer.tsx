@@ -63,7 +63,7 @@ export default function Footer() {
   );
 
   return (
-    <footer className="bg-muted/25 border-gray-800 border-t text-gray-200">
+    <footer className="bg-muted/25 border-gray-800 border-t">
       {/* Main Footer Content */}
       <div className="py-16">
         <div className="gap-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
@@ -71,25 +71,25 @@ export default function Footer() {
           <div className="xl:col-span-2">
             <div className="flex items-center gap-2 mb-4">
               <div className="bg-gradient-to-r from-blue-600 to-teal-500 p-2 rounded-lg">
-                <GlobeAltIcon className="w-6 h-6 text-white" />
+                <GlobeAltIcon className="w-6 h-6" />
               </div>
               <span className="font-bold text-xl">ParagonTrails</span>
             </div>
-            <p className="mb-6 text-gray-300 text-sm leading-relaxed">
+            <p className="mb-6 text-sm leading-relaxed">
               At ParagonTrails, we believe that every journey is an opportunity
               for adventure, discovery, and creating unforgettable experiences.
               Your passport to unforgettable stories.
             </p>
             <div className="space-y-3">
-              <div className="flex items-center gap-3 text-gray-300 text-sm">
+              <div className="flex items-center gap-3 text-sm">
                 <MapPin className="w-4 h-4 text-blue-400" />
                 <span>123 Travel Street, Adventure City, AC 12345</span>
               </div>
-              <div className="flex items-center gap-3 text-gray-300 text-sm">
+              <div className="flex items-center gap-3 text-sm">
                 <Phone className="w-4 h-4 text-blue-400" />
                 <span>+1 (555) 123-4567</span>
               </div>
-              <div className="flex items-center gap-3 text-gray-300 text-sm">
+              <div className="flex items-center gap-3 text-sm">
                 <Mail className="w-4 h-4 text-blue-400" />
                 <span>hello@ParagonTrails.com</span>
               </div>
@@ -104,13 +104,13 @@ export default function Footer() {
                 "lg:col-span-1": index === getGroupedFooterLinks().length - 1,
               })}
             >
-              <h4 className="mb-4 font-semibold text-white">{section}</h4>
+              <h4 className="mb-4 font-semibold">{section}</h4>
               <ul className="space-y-3">
                 {links.map((link) => (
                   <li key={link.href}>
                     <Link
                       href={link.href}
-                      className="text-gray-300 text-sm hover:text-white transition-colors duration-200"
+                      className="text-sm transition-colors duration-200"
                     >
                       {link.label}
                     </Link>
