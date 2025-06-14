@@ -215,6 +215,7 @@ export default function FlightsPage() {
                 type="date"
                 value={departureDate}
                 onChange={(e) => setDepartureDate(e.target.value)}
+                className="flex flex-col justify-center"
               />
             </div>
 
