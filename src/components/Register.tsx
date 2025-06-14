@@ -240,7 +240,7 @@ export default function Register() {
                           handleInputChange("firstName", e.target.value)
                         }
                         placeholder="John"
-                        className="pl-10 border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                        className="pl-10 focus:border-muted border-border focus:ring-muted/20 h-8"
                       />
                     </div>
                   </div>
@@ -259,7 +259,7 @@ export default function Register() {
                         handleInputChange("lastName", e.target.value)
                       }
                       placeholder="Doe"
-                      className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                      className="focus:border-muted border-border focus:ring-muted/20 h-8"
                     />
                   </div>
                 </div>
@@ -282,7 +282,7 @@ export default function Register() {
                         handleInputChange("email", e.target.value)
                       }
                       placeholder="john.doe@example.com"
-                      className="pl-10 border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                      className="pl-10 focus:border-muted border-border focus:ring-muted/20 h-8"
                     />
                   </div>
                 </div>
@@ -305,7 +305,7 @@ export default function Register() {
                         handleInputChange("phone", e.target.value)
                       }
                       placeholder="+1 (555) 123-4567"
-                      className="pl-10 border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                      className="pl-10 focus:border-muted border-border focus:ring-muted/20 h-8"
                     />
                   </div>
                 </div>
@@ -396,7 +396,7 @@ export default function Register() {
                         handleInputChange("password", e.target.value)
                       }
                       placeholder="Create a strong password"
-                      className="pr-10 pl-10 border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                      className="pr-10 pl-10 focus:border-muted border-border focus:ring-muted/20 h-8"
                     />
                     <Button
                       type="button"
@@ -433,7 +433,7 @@ export default function Register() {
                         handleInputChange("confirmPassword", e.target.value)
                       }
                       placeholder="Confirm your password"
-                      className="pr-10 pl-10 border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                      className="pr-10 pl-10 focus:border-muted border-border focus:ring-muted/20 h-8"
                     />
                     <Button
                       type="button"
