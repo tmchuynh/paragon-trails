@@ -308,12 +308,22 @@ export default function ActivitiesPage() {
                 <div className="relative">
                   <MapPin className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
                   <Select value={selectedCity} onValueChange={setSelectedCity}>
-                    <SelectTrigger className="pl-10 border border-border w-full">
+                    <SelectTrigger
+                      className="pl-10 border border-border w-full"
+                      variant="professional"
+                    >
                       <SelectValue placeholder="Select city" />
                     </SelectTrigger>
-                    <SelectContent className="w-full max-h-60">
+                    <SelectContent
+                      className="w-full max-h-60"
+                      variant="professional"
+                    >
                       {cities.map((city) => (
-                        <SelectItem key={city.value} value={city.value}>
+                        <SelectItem
+                          key={city.value}
+                          value={city.value}
+                          variant="classic"
+                        >
                           {city.label}
                         </SelectItem>
                       ))}
@@ -332,9 +342,16 @@ export default function ActivitiesPage() {
                   <SelectTrigger className="border border-border w-full">
                     <SelectValue placeholder="Select country" />
                   </SelectTrigger>
-                  <SelectContent className="w-full max-h-60">
+                  <SelectContent
+                    className="w-full max-h-60"
+                    variant="professional"
+                  >
                     {countries.map((country) => (
-                      <SelectItem key={country.value} value={country.value}>
+                      <SelectItem
+                        key={country.value}
+                        value={country.value}
+                        variant="classic"
+                      >
                         {country.label}
                       </SelectItem>
                     ))}
@@ -352,9 +369,16 @@ export default function ActivitiesPage() {
                   <SelectTrigger className="border border-border w-full">
                     <SelectValue placeholder="Select category" />
                   </SelectTrigger>
-                  <SelectContent className="w-full max-h-60">
+                  <SelectContent
+                    className="w-full max-h-60"
+                    variant="professional"
+                  >
                     {categories.map((category) => (
-                      <SelectItem key={category.value} value={category.value}>
+                      <SelectItem
+                        key={category.value}
+                        value={category.value}
+                        variant="classic"
+                      >
                         {category.label}
                       </SelectItem>
                     ))}
@@ -415,11 +439,15 @@ export default function ActivitiesPage() {
                         <SelectTrigger className="border border-border w-full">
                           <SelectValue placeholder="Select difficulty" />
                         </SelectTrigger>
-                        <SelectContent className="w-full max-h-60">
+                        <SelectContent
+                          className="w-full max-h-60"
+                          variant="professional"
+                        >
                           {difficulties.map((difficulty) => (
                             <SelectItem
                               key={difficulty.value}
                               value={difficulty.value}
+                              variant="classic"
                             >
                               {difficulty.label}
                             </SelectItem>
@@ -438,11 +466,15 @@ export default function ActivitiesPage() {
                         <SelectTrigger className="border border-border w-full">
                           <SelectValue placeholder="Select duration" />
                         </SelectTrigger>
-                        <SelectContent className="w-full max-h-60">
+                        <SelectContent
+                          className="w-full max-h-60"
+                          variant="professional"
+                        >
                           {durations.map((duration) => (
                             <SelectItem
                               key={duration.value}
                               value={duration.value}
+                              variant="classic"
                             >
                               {duration.label}
                             </SelectItem>
@@ -511,12 +543,25 @@ export default function ActivitiesPage() {
                     <SelectTrigger className="border border-border w-full md:w-20">
                       <SelectValue />
                     </SelectTrigger>
-                    <SelectContent className="w-full max-h-60">
-                      <SelectItem value="4">4</SelectItem>
-                      <SelectItem value="8">8</SelectItem>
-                      <SelectItem value="12">12</SelectItem>
-                      <SelectItem value="16">16</SelectItem>
-                      <SelectItem value="24">24</SelectItem>
+                    <SelectContent
+                      className="w-full max-h-60"
+                      variant="professional"
+                    >
+                      <SelectItem value="4" variant="classic">
+                        4
+                      </SelectItem>
+                      <SelectItem value="8" variant="classic">
+                        8
+                      </SelectItem>
+                      <SelectItem value="12" variant="classic">
+                        12
+                      </SelectItem>
+                      <SelectItem value="16" variant="classic">
+                        16
+                      </SelectItem>
+                      <SelectItem value="24" variant="classic">
+                        24
+                      </SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
@@ -528,17 +573,28 @@ export default function ActivitiesPage() {
                     <SelectTrigger className="border border-border w-full md:w-48">
                       <SelectValue />
                     </SelectTrigger>
-                    <SelectContent className="w-full max-h-60">
-                      <SelectItem value="name">Name (A-Z)</SelectItem>
-                      <SelectItem value="price-low">
+                    <SelectContent
+                      className="w-full max-h-60"
+                      variant="professional"
+                    >
+                      <SelectItem value="name" variant="classic">
+                        Name (A-Z)
+                      </SelectItem>
+                      <SelectItem value="price-low" variant="classic">
                         Price: Low to High
                       </SelectItem>
-                      <SelectItem value="price-high">
+                      <SelectItem value="price-high" variant="classic">
                         Price: High to Low
                       </SelectItem>
-                      <SelectItem value="rating">Highest Rated</SelectItem>
-                      <SelectItem value="duration">Duration</SelectItem>
-                      <SelectItem value="difficulty">Difficulty</SelectItem>
+                      <SelectItem value="rating" variant="classic">
+                        Highest Rated
+                      </SelectItem>
+                      <SelectItem value="duration" variant="classic">
+                        Duration
+                      </SelectItem>
+                      <SelectItem value="difficulty" variant="classic">
+                        Difficulty
+                      </SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
