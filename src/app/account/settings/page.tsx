@@ -79,7 +79,7 @@ export default function SettingsPage() {
                     name="firstName"
                     value={formData.firstName}
                     onChange={handleInputChange}
-                    className="mt-1"
+                    className="mt-2 focus:border-muted border-border focus:ring-muted/20 h-8"
                   />
                 </div>
                 <div>
@@ -89,7 +89,7 @@ export default function SettingsPage() {
                     name="lastName"
                     value={formData.lastName}
                     onChange={handleInputChange}
-                    className="mt-1"
+                    className="mt-2 focus:border-muted border-border focus:ring-muted/20 h-8"
                   />
                 </div>
               </div>
@@ -101,7 +101,7 @@ export default function SettingsPage() {
                   type="email"
                   value={formData.email}
                   onChange={handleInputChange}
-                  className="mt-1"
+                  className="mt-2 focus:border-muted border-border focus:ring-muted/20 h-8"
                 />
               </div>
               <Button>Save Changes</Button>
