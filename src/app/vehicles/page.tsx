@@ -403,7 +403,7 @@ export default function VehiclesPage() {
         <div className="gap-8 grid lg:grid-cols-4">
           {/* Filters Sidebar */}
           <div className="space-y-6 lg:col-span-1">
-            <Card>
+            <Card className="p-0">
               <CardContent className="p-6">
                 <div className="flex items-center gap-2 mb-4">
                   <Filter className="w-5 h-5" />
@@ -748,7 +748,7 @@ export default function VehiclesPage() {
                           <PaginationNext
                             onClick={() =>
                               handlePageChange(
-                                Math.min(totalPages, currentPage + 1),
+                                Math.min(totalPages, currentPage + 1)
                               )
                             }
                             className={
@@ -785,7 +785,7 @@ export default function VehiclesPage() {
                             onKeyDown={(e) => {
                               if (e.key === "Enter") {
                                 const value = parseInt(
-                                  (e.target as HTMLInputElement).value,
+                                  (e.target as HTMLInputElement).value
                                 );
                                 if (value >= 1 && value <= totalPages) {
                                   handlePageChange(value);
