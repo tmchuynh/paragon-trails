@@ -3,6 +3,13 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import { Separator } from "@/components/ui/separator";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useCurrency } from "@/context/CurrencyContext";
@@ -26,7 +33,7 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 import { useParams, useRouter } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function DestinationDetailsPage() {
   const router = useRouter();
@@ -36,11 +43,35 @@ export default function DestinationDetailsPage() {
 
   // Find destination by URL param
   const destinationSlug = params.destination as string;
-  const destination = mockDestinations.find(
+  const initialDestination = mockDestinations.find(
     (dest) => dest.name.toLowerCase().replace(/\s+/g, "-") === destinationSlug
   );
 
-  if (!destination) {
+  const [currentDestination, setCurrentDestination] =
+    useState(initialDestination);
+
+  // Update current destination when URL param changes
+  useEffect(() => {
+    const foundDestination = mockDestinations.find(
+      (dest) => dest.name.toLowerCase().replace(/\s+/g, "-") === destinationSlug
+    );
+    setCurrentDestination(foundDestination);
+    setSelectedImageIndex(0); // Reset image index when destination changes
+  }, [destinationSlug]);
+
+  // Handle destination change from selector
+  const handleDestinationChange = (newDestinationId: string) => {
+    const newDestination = mockDestinations.find(
+      (dest) => dest.id === newDestinationId
+    );
+    if (newDestination) {
+      const newSlug = newDestination.name.toLowerCase().replace(/\s+/g, "-");
+      // Update URL without reloading the page
+      router.replace(`/destinations/${newSlug}`, { scroll: false });
+    }
+  };
+
+  if (!currentDestination) {
     return (
       <div className="min-h-screen">
         <div className="mx-auto px-6 lg:px-8 py-12 max-w-7xl">
@@ -60,6 +91,11 @@ export default function DestinationDetailsPage() {
   const relatedActivities = mockActivities.slice(0, 3);
   const relatedAttractions = mockAttractions.slice(0, 3);
 
+  // Get current destination slug for URLs
+  const currentDestinationSlug =
+    currentDestination?.name.toLowerCase().replace(/\s+/g, "-") ||
+    destinationSlug;
+
   return (
     <div className="min-h-screen">
       <div className="mx-auto px-6 lg:px-8 py-12 max-w-7xl">
@@ -69,21 +105,45 @@ export default function DestinationDetailsPage() {
           Back to destinations
         </Button>
 
+        {/* Destination Selector */}
+        <div className="mb-6">
+          <div className="flex items-center gap-4">
+            <label className="font-medium text-sm">Choose Destination:</label>
+            <Select
+              value={currentDestination?.id || ""}
+              onValueChange={handleDestinationChange}
+            >
+              <SelectTrigger className="w-64">
+                <SelectValue placeholder="Select a destination" />
+              </SelectTrigger>
+              <SelectContent>
+                {mockDestinations.map((dest) => (
+                  <SelectItem key={dest.id} value={dest.id}>
+                    {dest.name}, {dest.country}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+          </div>
+        </div>
+
         {/* Hero Section */}
         <div className="mb-8 rounded-xl overflow-hidden">
           <div className="relative h-96">
             <Image
-              src={destination.images[selectedImageIndex]}
-              alt={destination.name}
+              src={currentDestination.images[selectedImageIndex]}
+              alt={currentDestination.name}
               fill
               className="object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
             <div className="bottom-6 left-6 absolute text-white">
-              <h1 className="mb-2 font-bold text-4xl">{destination.name}</h1>
+              <h1 className="mb-2 font-bold text-4xl">
+                {currentDestination.name}
+              </h1>
               <div className="flex items-center gap-2">
                 <MapPin className="w-5 h-5" />
-                <span className="text-lg">{destination.country}</span>
+                <span className="text-lg">{currentDestination.country}</span>
                 <Separator
                   orientation="vertical"
                   className="bg-white/30 mx-2 h-6"
@@ -94,22 +154,24 @@ export default function DestinationDetailsPage() {
 
           {/* Image Gallery */}
           <div className="flex gap-2 mt-4">
-            {destination.images.slice(0, 4).map((image, index) => (
-              <button
-                key={index}
-                onClick={() => setSelectedImageIndex(index)}
-                className={`relative w-24 h-16 rounded-lg overflow-hidden ${
-                  selectedImageIndex === index ? "ring-2 ring-blue-500" : ""
-                }`}
-              >
-                <Image
-                  src={image}
-                  alt={`${destination.name} ${index + 1}`}
-                  fill
-                  className="object-cover"
-                />
-              </button>
-            ))}
+            {currentDestination.images
+              .slice(0, 4)
+              .map((image: string, index: number) => (
+                <button
+                  key={index}
+                  onClick={() => setSelectedImageIndex(index)}
+                  className={`relative w-24 h-16 rounded-lg overflow-hidden ${
+                    selectedImageIndex === index ? "ring-2 ring-blue-500" : ""
+                  }`}
+                >
+                  <Image
+                    src={image}
+                    alt={`${currentDestination.name} ${index + 1}`}
+                    fill
+                    className="object-cover"
+                  />
+                </button>
+              ))}
           </div>
         </div>
 
@@ -129,12 +191,12 @@ export default function DestinationDetailsPage() {
                   <CardHeader>
                     <CardTitle className="flex items-center gap-2">
                       <Info className="w-5 h-5" />
-                      About {destination.name}
+                      About {currentDestination.name}
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p className="mb-4 text-slate-600 dark:text-slate-400">
-                      {destination.description}
+                      {currentDestination.description}
                     </p>
 
                     <div className="gap-4 grid grid-cols-1 md:grid-cols-2">
@@ -145,14 +207,14 @@ export default function DestinationDetailsPage() {
                             <Thermometer className="w-4 h-4 text-orange-500" />
                             <span className="text-sm">
                               Avg. Temperature:{" "}
-                              {destination.climate.averageTemperature}
+                              {currentDestination.climate.averageTemperature}
                             </span>
                           </div>
                           <div className="flex items-center gap-2">
                             <Calendar className="w-4 h-4 text-blue-500" />
                             <span className="text-sm">
                               Best time:{" "}
-                              {destination.bestTimeToVisit.join(", ")}
+                              {currentDestination.bestTimeToVisit.join(", ")}
                             </span>
                           </div>
                         </div>
@@ -161,12 +223,14 @@ export default function DestinationDetailsPage() {
                       <div className="space-y-3">
                         <h4 className="font-semibold">Popular With</h4>
                         <div className="flex flex-wrap gap-2">
-                          {destination.popularWith.map((group, index) => (
-                            <Badge key={index} variant="secondary">
-                              <Users className="mr-1 w-3 h-3" />
-                              {group}
-                            </Badge>
-                          ))}
+                          {currentDestination.popularWith.map(
+                            (group: string, index: number) => (
+                              <Badge key={index} variant="secondary">
+                                <Users className="mr-1 w-3 h-3" />
+                                {group}
+                              </Badge>
+                            )
+                          )}
                         </div>
                       </div>
                     </div>
@@ -185,8 +249,8 @@ export default function DestinationDetailsPage() {
                       <div>
                         <h4 className="mb-3 font-semibold">Transportation</h4>
                         <ul className="space-y-2 text-sm">
-                          {destination.transportation.airports.map(
-                            (airport, index) => (
+                          {currentDestination.transportation.airports.map(
+                            (airport: string, index: number) => (
                               <li
                                 key={index}
                                 className="flex items-center gap-2"
@@ -196,8 +260,8 @@ export default function DestinationDetailsPage() {
                               </li>
                             )
                           )}
-                          {destination.transportation.publicTransport.map(
-                            (transport, index) => (
+                          {currentDestination.transportation.publicTransport.map(
+                            (transport: string, index: number) => (
                               <li
                                 key={index}
                                 className="flex items-center gap-2"
@@ -216,13 +280,15 @@ export default function DestinationDetailsPage() {
                           <div className="flex items-center gap-2">
                             <Wifi className="w-4 h-4 text-blue-500" />
                             <span>
-                              WiFi: {destination.connectivity.wifiAvailability}
+                              WiFi:{" "}
+                              {currentDestination.connectivity.wifiAvailability}
                             </span>
                           </div>
                           <div className="flex items-center gap-2">
                             <Globe className="w-4 h-4 text-green-500" />
                             <span>
-                              Internet: {destination.connectivity.internetSpeed}
+                              Internet:{" "}
+                              {currentDestination.connectivity.internetSpeed}
                             </span>
                           </div>
                         </div>
@@ -286,7 +352,9 @@ export default function DestinationDetailsPage() {
                         size="sm"
                         className="mt-4 w-full"
                         onClick={() =>
-                          router.push(`/destinations/${destinationSlug}/tours`)
+                          router.push(
+                            `/destinations/${currentDestinationSlug}/tours`
+                          )
                         }
                       >
                         View all tours
@@ -328,7 +396,7 @@ export default function DestinationDetailsPage() {
                         className="mt-4 w-full"
                         onClick={() =>
                           router.push(
-                            `/destinations/${destinationSlug}/activities`
+                            `/destinations/${currentDestinationSlug}/activities`
                           )
                         }
                       >
@@ -371,7 +439,7 @@ export default function DestinationDetailsPage() {
                         className="mt-4 w-full"
                         onClick={() =>
                           router.push(
-                            `/destinations/${destinationSlug}/attractions`
+                            `/destinations/${currentDestinationSlug}/attractions`
                           )
                         }
                       >
@@ -391,7 +459,7 @@ export default function DestinationDetailsPage() {
                     <div>
                       <h4 className="mb-2 font-semibold">Visa Requirements</h4>
                       <p className="text-slate-600 text-sm">
-                        {destination.visaRequirements}
+                        {currentDestination.visaRequirements}
                       </p>
                     </div>
 
@@ -402,16 +470,16 @@ export default function DestinationDetailsPage() {
                       <div className="space-y-2 text-sm">
                         <p>
                           <strong>Safety Level:</strong>{" "}
-                          {destination.safety.crimeRate}
+                          {currentDestination.safety.crimeRate}
                         </p>
                         <p>
                           <strong>Health Risks:</strong>{" "}
-                          {destination.safety.healthRisks.join(", ") ||
+                          {currentDestination.safety.healthRisks.join(", ") ||
                             "None reported"}
                         </p>
                         <p>
                           <strong>Emergency Number:</strong>{" "}
-                          {destination.safety.emergencyNumber}
+                          {currentDestination.safety.emergencyNumber}
                         </p>
                       </div>
                     </div>
@@ -422,20 +490,23 @@ export default function DestinationDetailsPage() {
                       <h4 className="mb-2 font-semibold">Currency & Costs</h4>
                       <div className="space-y-2 text-sm">
                         <p>
-                          <strong>Currency:</strong> {destination.currency.name}
+                          <strong>Currency:</strong>{" "}
+                          {currentDestination.currency.name}
                         </p>
                         <p>
                           <strong>Average Daily Budget:</strong>{" "}
-                          {formatPrice(destination.pricing.averageDailyBudget)}
+                          {formatPrice(
+                            currentDestination.pricing.averageDailyBudget
+                          )}
                         </p>
                         <p>
                           <strong>Accommodation:</strong>{" "}
                           {formatPrice(
-                            destination.pricing.accommodationRange.budget
+                            currentDestination.pricing.accommodationRange.budget
                           )}{" "}
                           -{" "}
                           {formatPrice(
-                            destination.pricing.accommodationRange.luxury
+                            currentDestination.pricing.accommodationRange.luxury
                           )}
                         </p>
                       </div>
@@ -453,22 +524,26 @@ export default function DestinationDetailsPage() {
                     <div>
                       <h4 className="mb-2 font-semibold">Languages</h4>
                       <div className="flex flex-wrap gap-2">
-                        {destination.language.map((language, index) => (
-                          <Badge key={index} variant="secondary">
-                            {language}
-                          </Badge>
-                        ))}
+                        {currentDestination.language.map(
+                          (language: string, index: number) => (
+                            <Badge key={index} variant="secondary">
+                              {language}
+                            </Badge>
+                          )
+                        )}
                       </div>
                     </div>
 
                     <div>
                       <h4 className="mb-2 font-semibold">Cuisine</h4>
                       <div className="flex flex-wrap gap-2">
-                        {destination.cuisine.map((food, index) => (
-                          <Badge key={index} variant="outline">
-                            {food}
-                          </Badge>
-                        ))}
+                        {currentDestination.cuisine.map(
+                          (food: string, index: number) => (
+                            <Badge key={index} variant="outline">
+                              {food}
+                            </Badge>
+                          )
+                        )}
                       </div>
                     </div>
 
@@ -477,8 +552,8 @@ export default function DestinationDetailsPage() {
                         Cultural Highlights
                       </h4>
                       <ul className="space-y-1 text-sm">
-                        {destination.culture.traditions.map(
-                          (tradition, index) => (
+                        {currentDestination.culture.traditions.map(
+                          (tradition: string, index: number) => (
                             <li key={index} className="flex items-start gap-2">
                               <Heart className="flex-shrink-0 mt-0.5 w-4 h-4 text-red-500" />
                               {tradition}
@@ -507,7 +582,9 @@ export default function DestinationDetailsPage() {
                   <div className="flex justify-between">
                     <span className="text-sm">Daily Budget</span>
                     <span className="font-semibold">
-                      {formatPrice(destination.pricing.averageDailyBudget)}
+                      {formatPrice(
+                        currentDestination.pricing.averageDailyBudget
+                      )}
                     </span>
                   </div>
                   <Separator />
@@ -516,7 +593,7 @@ export default function DestinationDetailsPage() {
                       <span>Budget Accommodation</span>
                       <span>
                         {formatPrice(
-                          destination.pricing.accommodationRange.budget
+                          currentDestination.pricing.accommodationRange.budget
                         )}
                       </span>
                     </div>
@@ -524,7 +601,7 @@ export default function DestinationDetailsPage() {
                       <span>Mid-range Accommodation</span>
                       <span>
                         {formatPrice(
-                          destination.pricing.accommodationRange.midRange
+                          currentDestination.pricing.accommodationRange.midRange
                         )}
                       </span>
                     </div>
@@ -532,7 +609,7 @@ export default function DestinationDetailsPage() {
                       <span>Luxury Accommodation</span>
                       <span>
                         {formatPrice(
-                          destination.pricing.accommodationRange.luxury
+                          currentDestination.pricing.accommodationRange.luxury
                         )}
                       </span>
                     </div>
@@ -548,19 +625,19 @@ export default function DestinationDetailsPage() {
               <CardContent className="space-y-2 text-sm">
                 <div className="flex justify-between">
                   <span>Best time to visit</span>
-                  <span>{destination.bestTimeToVisit[0]}</span>
+                  <span>{currentDestination.bestTimeToVisit[0]}</span>
                 </div>
                 <div className="flex justify-between">
                   <span>Time zone</span>
-                  <span>{destination.timezone}</span>
+                  <span>{currentDestination.timezone}</span>
                 </div>
                 <div className="flex justify-between">
                   <span>Currency</span>
-                  <span>{destination.currency.name}</span>
+                  <span>{currentDestination.currency.name}</span>
                 </div>
                 <div className="flex justify-between">
                   <span>Main language</span>
-                  <span>{destination.language[0]}</span>
+                  <span>{currentDestination.language[0]}</span>
                 </div>
               </CardContent>
             </Card>

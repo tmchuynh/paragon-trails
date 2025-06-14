@@ -28,7 +28,7 @@ export default function ProfileSettingsPage() {
                   <div className="text-base text-gray-500 sm:text-sm/6 select-none shrink-0">
                     workcation.com/
                   </div>
-                  <input
+                  <Input
                     id="username"
                     name="username"
                     type="text"
@@ -100,7 +100,7 @@ export default function ProfileSettingsPage() {
                         className="relative focus-within:outline-hidden bg-white rounded-md focus-within:ring-2 focus-within:ring-indigo-600 focus-within:ring-offset-2 font-semibold text-indigo-600 hover:text-indigo-500 cursor-pointer"
                       >
                         <span>Upload a file</span>
-                        <input
+                        <Input
                           id="file-upload"
                           name="file-upload"
                           type="file"
@@ -134,7 +134,7 @@ export default function ProfileSettingsPage() {
                 First name
               </label>
               <div className="sm:col-span-2 mt-2 sm:mt-0">
-                <input
+                <Input
                   id="first-name"
                   name="first-name"
                   type="text"
@@ -214,7 +214,7 @@ export default function ProfileSettingsPage() {
                 Street address
               </label>
               <div className="sm:col-span-2 mt-2 sm:mt-0">
-                <input
+                <Input
                   id="street-address"
                   name="street-address"
                   type="text"
@@ -232,7 +232,7 @@ export default function ProfileSettingsPage() {
                 City
               </label>
               <div className="sm:col-span-2 mt-2 sm:mt-0">
-                <input
+                <Input
                   id="city"
                   name="city"
                   type="text"
@@ -250,7 +250,7 @@ export default function ProfileSettingsPage() {
                 State / Province
               </label>
               <div className="sm:col-span-2 mt-2 sm:mt-0">
-                <input
+                <Input
                   id="region"
                   name="region"
                   type="text"
@@ -268,7 +268,7 @@ export default function ProfileSettingsPage() {
                 ZIP / Postal code
               </label>
               <div className="sm:col-span-2 mt-2 sm:mt-0">
-                <input
+                <Input
                   id="postal-code"
                   name="postal-code"
                   type="text"
@@ -299,7 +299,7 @@ export default function ProfileSettingsPage() {
                     <div className="flex gap-3">
                       <div className="flex items-center h-6 shrink-0">
                         <div className="group grid grid-cols-1 size-4">
-                          <input
+                          <Input
                             defaultChecked
                             id="comments"
                             name="comments"
@@ -342,7 +342,7 @@ export default function ProfileSettingsPage() {
                     <div className="flex gap-3">
                       <div className="flex items-center h-6 shrink-0">
                         <div className="group grid grid-cols-1 size-4">
-                          <input
+                          <Input
                             id="candidates"
                             name="candidates"
                             type="checkbox"
@@ -386,7 +386,7 @@ export default function ProfileSettingsPage() {
                     <div className="flex gap-3">
                       <div className="flex items-center h-6 shrink-0">
                         <div className="group grid grid-cols-1 size-4">
-                          <input
+                          <Input
                             id="offers"
                             name="offers"
                             type="checkbox"
@@ -442,7 +442,7 @@ export default function ProfileSettingsPage() {
                     </p>
                     <div className="space-y-6 mt-6">
                       <div className="flex items-center gap-x-3">
-                        <input
+                        <Input
                           defaultChecked
                           id="push-everything"
                           name="push-notifications"
@@ -457,7 +457,7 @@ export default function ProfileSettingsPage() {
                         </label>
                       </div>
                       <div className="flex items-center gap-x-3">
-                        <input
+                        <Input
                           id="push-email"
                           name="push-notifications"
                           type="radio"
@@ -471,7 +471,7 @@ export default function ProfileSettingsPage() {
                         </label>
                       </div>
                       <div className="flex items-center gap-x-3">
-                        <input
+                        <Input
                           id="push-nothing"
                           name="push-notifications"
                           type="radio"
