@@ -138,10 +138,10 @@ export default function HomePage() {
                         Price Range
                       </label>
                       <Select>
-                        <SelectTrigger>
+                        <SelectTrigger className="w-full">
                           <SelectValue placeholder="2H per night" />
                         </SelectTrigger>
-                        <SelectContent>
+                        <SelectContent className="w-full max-h-60">
                           <SelectItem value="budget">
                             Budget ($50-100)
                           </SelectItem>
@@ -239,10 +239,10 @@ export default function HomePage() {
                         Price Range
                       </label>
                       <Select>
-                        <SelectTrigger>
+                        <SelectTrigger className="w-full">
                           <SelectValue placeholder="2H per night" />
                         </SelectTrigger>
-                        <SelectContent>
+                        <SelectContent className="w-full max-h-60">
                           <SelectItem value="budget">
                             Budget ($50-100)
                           </SelectItem>

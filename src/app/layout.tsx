@@ -1,4 +1,3 @@
-import BackToTop from "@/components/button/BackToTop";
 import DynamicBreadcrumb from "@/components/navigation/dynamic-breadcrumb";
 import Footer from "@/components/navigation/Footer";
 import Header from "@/components/navigation/Header";
@@ -19,7 +18,6 @@ export default function RootLayout({
             <Header />
             <DynamicBreadcrumb />
             {children}
-            <BackToTop />
             <Footer />
           </main>
           <Toaster />
