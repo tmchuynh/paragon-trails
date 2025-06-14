@@ -236,7 +236,7 @@ export default function HotelDetailPage() {
         {/* Hotel Selector */}
         <div className="mb-6">
           <div className="flex items-center gap-4">
-            <label className="font-medium text-sm">Choose Hotel:</label>
+            <Label className="font-medium text-sm">Choose Hotel:</Label>
             <Select
               value={currentHotel?.id || ""}
               onValueChange={handleHotelChange}
@@ -308,7 +308,7 @@ export default function HotelDetailPage() {
               {currentHotel.images
                 .slice(0, 4)
                 .map((image: string, index: number) => (
-                  <button
+                  <Button
                     key={index}
                     onClick={() => setSelectedImage(index)}
                     className={`relative w-24 h-16 rounded-lg overflow-hidden ${
@@ -321,7 +321,7 @@ export default function HotelDetailPage() {
                       fill
                       className="object-cover"
                     />
-                  </button>
+                  </Button>
                 ))}
             </div>
           )}
@@ -731,6 +731,7 @@ export default function HotelDetailPage() {
                       max="10"
                       value={guests}
                       onChange={(e) => setGuests(parseInt(e.target.value) || 1)}
+                      className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
                     />
                     {!canAccommodateGuests() && (
                       <p className="mt-1 text-red-500 text-sm">
@@ -746,6 +747,7 @@ export default function HotelDetailPage() {
                       min="1"
                       max="10"
                       value={quantity}
+                      className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
                       onChange={(e) =>
                         setQuantity(parseInt(e.target.value) || 1)
                       }
