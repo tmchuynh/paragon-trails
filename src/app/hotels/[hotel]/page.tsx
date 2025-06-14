@@ -44,10 +44,10 @@ export default function HotelDetailPage() {
 
   const [selectedImage, setSelectedImage] = useState(0);
   const [checkInDate, setCheckInDate] = useState(
-    searchParams.get("checkin") || ""
+    searchParams.get("checkin") || "",
   );
   const [checkOutDate, setCheckOutDate] = useState(
-    searchParams.get("checkout") || ""
+    searchParams.get("checkout") || "",
   );
   const [guests, setGuests] = useState(
     parseInt(
@@ -55,8 +55,8 @@ export default function HotelDetailPage() {
         (
           parseInt(searchParams.get("adults") || "2") +
           parseInt(searchParams.get("children") || "0")
-        ).toString()
-    )
+        ).toString(),
+    ),
   );
   const [selectedRoom, setSelectedRoom] = useState(hotel.rooms.types[0]);
   const [quantity, setQuantity] = useState(1);
@@ -139,7 +139,7 @@ export default function HotelDetailPage() {
     }
 
     toast.success(
-      `${hotel.name} booking${quantity > 1 ? "s" : ""} added to cart!`
+      `${hotel.name} booking${quantity > 1 ? "s" : ""} added to cart!`,
     );
 
     setIsAddingToCart(false);

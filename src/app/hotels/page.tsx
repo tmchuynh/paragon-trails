@@ -56,7 +56,7 @@ export default function HotelsPage() {
 
   // Extract unique destinations from mockHotels
   const destinations = Array.from(
-    new Set(mockHotels.map((hotel) => hotel.location.city))
+    new Set(mockHotels.map((hotel) => hotel.location.city)),
   ).sort();
 
   // Extract unique hotel types from mockHotels
@@ -81,7 +81,7 @@ export default function HotelsPage() {
           hotel.location.city
             .toLowerCase()
             .includes(searchQuery.toLowerCase()) ||
-          hotel.description.toLowerCase().includes(searchQuery.toLowerCase())
+          hotel.description.toLowerCase().includes(searchQuery.toLowerCase()),
       );
     }
 
@@ -89,7 +89,7 @@ export default function HotelsPage() {
     if (destination && destination !== "all") {
       filtered = filtered.filter(
         (hotel) =>
-          hotel.location.city.toLowerCase() === destination.toLowerCase()
+          hotel.location.city.toLowerCase() === destination.toLowerCase(),
       );
     }
 
@@ -101,7 +101,7 @@ export default function HotelsPage() {
     // Filter by star rating
     if (starRating !== "all") {
       filtered = filtered.filter(
-        (hotel) => hotel.starRating >= parseInt(starRating)
+        (hotel) => hotel.starRating >= parseInt(starRating),
       );
     }
 
@@ -109,7 +109,7 @@ export default function HotelsPage() {
     filtered = filtered.filter(
       (hotel) =>
         hotel.pricing.priceRange.min >= priceRange[0] &&
-        hotel.pricing.priceRange.max <= priceRange[1]
+        hotel.pricing.priceRange.max <= priceRange[1],
     );
 
     // Sort results

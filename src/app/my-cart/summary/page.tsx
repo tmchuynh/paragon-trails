@@ -62,7 +62,7 @@ export default function CartSummaryPage() {
     setConfirmationNumber(confirmation);
 
     // Clear the cart
-    dispatch({ type: 'CLEAR_CART' });
+    dispatch({ type: "CLEAR_CART" });
 
     setBookingComplete(true);
     setIsProcessing(false);
@@ -190,7 +190,7 @@ export default function CartSummaryPage() {
                         <span>
                           {calculateDuration(
                             item.dates.startDate,
-                            item.dates.endDate
+                            item.dates.endDate,
                           )}
                         </span>
                       </div>
