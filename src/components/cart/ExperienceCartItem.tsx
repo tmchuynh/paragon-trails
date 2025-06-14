@@ -189,10 +189,10 @@ export default function ExperienceCartItem({
 
             {/* Ticket Types */}
             <div className="mb-4">
-              <label className="block mb-3 font-medium text-slate-700 text-sm dark:text-slate-300">
+              <Label className="block mb-3 font-medium text-slate-700 text-sm dark:text-slate-300">
                 <Ticket className="inline mr-1 w-4 h-4" />
                 Tickets & Guests:
-              </label>
+              </Label>
               <div className="space-y-3 bg-slate-50 dark:bg-slate-800 p-4 rounded-lg">
                 {ticketTypes.map((ticket) => (
                   <div
