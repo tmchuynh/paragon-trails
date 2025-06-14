@@ -297,9 +297,7 @@ export default function ProfileSettingsPage() {
                     <div className="flex gap-3">
                       <div className="flex items-center h-6 shrink-0">
                         <div className="group grid grid-cols-1 size-4">
-                          <Checkbox
-                            className="data-[state=checked]:bg-accentdata-[state=checked]:bg-accent mt-1 data-[state=checked]:border-accent data-[state=checked]:text-accent-foreground"
-                          />
+                          <Checkbox className="data-[state=checked]:bg-accentdata-[state=checked]:bg-accent mt-1 data-[state=checked]:border-accent data-[state=checked]:text-accent-foreground" />
                         </div>
                       </div>
                       <div className="text-sm/6">
@@ -315,38 +313,35 @@ export default function ProfileSettingsPage() {
                     <div className="flex gap-3">
                       <div className="flex items-center h-6 shrink-0">
                         <div className="group grid grid-cols-1 size-4">
-                        <Checkbox
-                            className="data-[state=checked]:bg-accentdata-[state=checked]:bg-accent mt-1 data-[state=checked]:border-accent data-[state=checked]:text-accent-foreground"
-                          />
-                      </div>
-                      <div className="text-sm/6">
-                        <label htmlFor="candidates" className="font-medium">
-                          Candidates
-                        </label>
-                        <p
-                          id="candidates-description"
-                          className="text-gray-500"
-                        >
-                          Get notified when a candidate applies for a job.
-                        </p>
-                      </div>
-                    </div>
-                    <div className="flex gap-3">
-                      <div className="flex items-center h-6 shrink-0">
-                        <div className="group grid grid-cols-1 size-4">
-                        <Checkbox
-                            className="data-[state=checked]:bg-accentdata-[state=checked]:bg-accent mt-1 data-[state=checked]:border-accent data-[state=checked]:text-accent-foreground"
-                          />
+                          <Checkbox className="data-[state=checked]:bg-accentdata-[state=checked]:bg-accent mt-1 data-[state=checked]:border-accent data-[state=checked]:text-accent-foreground" />
+                        </div>
+                        <div className="text-sm/6">
+                          <label htmlFor="candidates" className="font-medium">
+                            Candidates
+                          </label>
+                          <p
+                            id="candidates-description"
+                            className="text-gray-500"
+                          >
+                            Get notified when a candidate applies for a job.
+                          </p>
                         </div>
                       </div>
-                      <div className="text-sm/6">
-                        <label htmlFor="offers" className="font-medium">
-                          Offers
-                        </label>
-                        <p id="offers-description" className="text-gray-500">
-                          Get notified when a candidate accepts or rejects an
-                          offer.
-                        </p>
+                      <div className="flex gap-3">
+                        <div className="flex items-center h-6 shrink-0">
+                          <div className="group grid grid-cols-1 size-4">
+                            <Checkbox className="data-[state=checked]:bg-accentdata-[state=checked]:bg-accent mt-1 data-[state=checked]:border-accent data-[state=checked]:text-accent-foreground" />
+                          </div>
+                        </div>
+                        <div className="text-sm/6">
+                          <label htmlFor="offers" className="font-medium">
+                            Offers
+                          </label>
+                          <p id="offers-description" className="text-gray-500">
+                            Get notified when a candidate accepts or rejects an
+                            offer.
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -366,9 +361,7 @@ export default function ProfileSettingsPage() {
                     </p>
                     <div className="space-y-6 mt-6">
                       <div className="flex items-center gap-x-3">
-                      <Checkbox
-                            className="data-[state=checked]:bg-accentdata-[state=checked]:bg-accent mt-1 data-[state=checked]:border-accent data-[state=checked]:text-accent-foreground"
-                          />
+                        <Checkbox className="data-[state=checked]:bg-accentdata-[state=checked]:bg-accent mt-1 data-[state=checked]:border-accent data-[state=checked]:text-accent-foreground" />
                         <label
                           htmlFor="push-everything"
                           className="block font-medium text-sm/6"
@@ -377,9 +370,7 @@ export default function ProfileSettingsPage() {
                         </label>
                       </div>
                       <div className="flex items-center gap-x-3">
-                      <Checkbox
-                            className="data-[state=checked]:bg-accentdata-[state=checked]:bg-accent mt-1 data-[state=checked]:border-accent data-[state=checked]:text-accent-foreground"
-                          />
+                        <Checkbox className="data-[state=checked]:bg-accentdata-[state=checked]:bg-accent mt-1 data-[state=checked]:border-accent data-[state=checked]:text-accent-foreground" />
                         <label
                           htmlFor="push-email"
                           className="block font-medium text-sm/6"
@@ -388,9 +379,7 @@ export default function ProfileSettingsPage() {
                         </label>
                       </div>
                       <div className="flex items-center gap-x-3">
-                      <Checkbox
-                            className="data-[state=checked]:bg-accentdata-[state=checked]:bg-accent mt-1 data-[state=checked]:border-accent data-[state=checked]:text-accent-foreground"
-                          />
+                        <Checkbox className="data-[state=checked]:bg-accentdata-[state=checked]:bg-accent mt-1 data-[state=checked]:border-accent data-[state=checked]:text-accent-foreground" />
                         <label
                           htmlFor="push-nothing"
                           className="block font-medium text-sm/6"
