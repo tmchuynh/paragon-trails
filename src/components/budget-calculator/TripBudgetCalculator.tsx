@@ -20,11 +20,14 @@ import {
   Calculator,
   CheckCircle,
   DollarSign,
+  MapPin,
   Target,
   TrendingUp,
   XCircle,
 } from "lucide-react";
 import { useEffect, useState } from "react";
+import { MdFlightTakeoff } from "react-icons/md";
+import { RiHotelFill } from "react-icons/ri";
 
 // Import mock data
 import { mockActivities } from "@/data/activities";
@@ -321,7 +324,10 @@ function TripBudgetCalculator() {
           {/* Destination Selection */}
           <Card>
             <CardHeader>
-              <CardTitle>Select Destination</CardTitle>
+              <CardTitle className="flex items-center gap-2">
+                <MapPin className="w-5 h-5" />
+                Select Destination
+              </CardTitle>
             </CardHeader>
             <CardContent>
               <Select
@@ -347,7 +353,7 @@ function TripBudgetCalculator() {
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
-                  ✈️ Select Flight
+                  <MdFlightTakeoff className="w-5 h-5" /> Select Flight
                 </CardTitle>
               </CardHeader>
               <CardContent>
@@ -409,7 +415,8 @@ function TripBudgetCalculator() {
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
-                  🏨 Select Hotel
+                  <RiHotelFill className="w-5 h-5" />
+                  Select Hotel
                 </CardTitle>
               </CardHeader>
               <CardContent>
@@ -652,12 +659,10 @@ function TripBudgetCalculator() {
                         return flight ? (
                           <div className="flex justify-between items-center bg-blue-50 dark:bg-blue-800 p-2 rounded-md">
                             <div>
-                              <span className="font-medium">
-                                ✈️ {flight.airline} {flight.flightNumber}
+                              <span className="flex items-center gap-2 font-medium">
+                                <MdFlightTakeoff className="w-5 h-5" />{" "}
+                                {flight.airline} {flight.flightNumber}
                               </span>
-                              <Badge variant="outline" className="ml-2 text-xs">
-                                flight
-                              </Badge>
                             </div>
                             <span className="font-semibold">
                               ${flight.pricing.economy.toFixed(2)}
@@ -665,26 +670,30 @@ function TripBudgetCalculator() {
                           </div>
                         ) : null;
                       })()}
-                  </div>
-                  {selectedHotel &&
-                    (() => {
-                      const hotel = safeHotels.find(
-                        (h) => h.id === selectedHotel
-                      );
-                      return hotel ? (
-                        <div className="flex justify-between items-center bg-green-50 dark:bg-green-800 p-2 rounded-md">
-                          <div>
-                            <span className="font-medium">🏨 {hotel.name}</span>
+
+                    {/* Hotel */}
+                    {selectedHotel &&
+                      (() => {
+                        const hotel = safeHotels.find(
+                          (h) => h.id === selectedHotel
+                        );
+                        return hotel ? (
+                          <div className="flex justify-between items-center bg-green-50 dark:bg-green-800 p-2 rounded-md">
+                            <div>
+                              <span className="flex items-center gap-2 font-medium">
+                                <RiHotelFill className="w-5 h-5" /> {hotel.name}
+                              </span>
+                            </div>
+                            <span className="font-semibold">
+                              $
+                              {(
+                                hotel.pricing.seasonality.standard * hotelNights
+                              ).toFixed(2)}
+                            </span>
                           </div>
-                          <span className="font-semibold">
-                            $
-                            {(
-                              hotel.pricing.seasonality.standard * hotelNights
-                            ).toFixed(2)}
-                          </span>
-                        </div>
-                      ) : null;
-                    })()}
+                        ) : null;
+                      })()}
+                  </div>
 
                   {budgetDifference < 0 && (
                     <Alert>
