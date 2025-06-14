@@ -30,20 +30,27 @@ import { useEffect, useState } from "react";
 import { mockActivities } from "@/data/activities";
 import { mockAttractions } from "@/data/attractions";
 import { mockDestinations } from "@/data/destinations";
+import { mockFlights } from "@/data/flights";
+import { mockHotels } from "@/data/hotels";
 import { mockTours } from "@/data/tours";
 
 // Ensure mock data is always an array
 const safeActivities = Array.isArray(mockActivities) ? mockActivities : [];
 const safeAttractions = Array.isArray(mockAttractions) ? mockAttractions : [];
+const safeFlights = Array.isArray(mockFlights) ? mockFlights : [];
+const safeHotels = Array.isArray(mockHotels) ? mockHotels : [];
 const safeTours = Array.isArray(mockTours) ? mockTours : [];
-const safeDestinations = Array.isArray(mockDestinations) ? mockDestinations : [];
+const safeDestinations = Array.isArray(mockDestinations)
+  ? mockDestinations
+  : [];
 
 interface SelectedItem {
   id: string;
   name: string;
   price: number;
-  type: "activity" | "attraction" | "tour";
+  type: "activity" | "attraction" | "tour" | "flight" | "hotel";
   category?: string;
+  duration?: string;
 }
 
 interface BudgetPlan {
@@ -57,6 +64,9 @@ interface BudgetPlan {
 function TripBudgetCalculator() {
   const [currentBudget, setCurrentBudget] = useState<string>("");
   const [selectedDestination, setSelectedDestination] = useState<string>("");
+  const [selectedFlight, setSelectedFlight] = useState<string>("");
+  const [selectedHotel, setSelectedHotel] = useState<string>("");
+  const [hotelNights, setHotelNights] = useState<number>(3);
   const [selectedItems, setSelectedItems] = useState<SelectedItem[]>([]);
   const [totalCost, setTotalCost] = useState<number>(0);
   const [budgetDifference, setBudgetDifference] = useState<number>(0);
@@ -71,14 +81,45 @@ function TripBudgetCalculator() {
   const [customPercentage, setCustomPercentage] = useState<string>("");
   const [activeTab, setActiveTab] = useState<string>("budget");
 
-  // Calculate totals whenever selected items change
+  // Clear dependent selections when destination changes
   useEffect(() => {
-    const total = selectedItems.reduce((sum, item) => sum + item.price, 0);
+    if (selectedDestination) {
+      setSelectedFlight("");
+      setSelectedHotel("");
+      setSelectedItems([]);
+    }
+  }, [selectedDestination]);
+  useEffect(() => {
+    let total = selectedItems.reduce((sum, item) => sum + item.price, 0);
+
+    // Add flight cost
+    if (selectedFlight) {
+      const flight = safeFlights.find((f) => f.id === selectedFlight);
+      if (flight) {
+        total += flight.pricing.economy; // Using economy class pricing
+      }
+    }
+
+    // Add hotel cost
+    if (selectedHotel) {
+      const hotel = safeHotels.find((h) => h.id === selectedHotel);
+      if (hotel && hotel.pricing) {
+        // Use standard pricing as the default per night rate
+        total += hotel.pricing.seasonality.standard * hotelNights;
+      }
+    }
+
     setTotalCost(total);
 
     const budget = parseFloat(currentBudget) || 0;
     setBudgetDifference(budget - total);
-  }, [selectedItems, currentBudget]);
+  }, [
+    selectedItems,
+    currentBudget,
+    selectedFlight,
+    selectedHotel,
+    hotelNights,
+  ]);
 
   // Calculate savings plan
   useEffect(() => {
@@ -104,7 +145,7 @@ function TripBudgetCalculator() {
 
   const handleItemSelection = (
     item: any,
-    type: "activity" | "attraction" | "tour"
+    type: "activity" | "attraction" | "tour" | "flight" | "hotel"
   ) => {
     const isSelected = selectedItems.some(
       (selected) => selected.id === item.id
@@ -116,22 +157,33 @@ function TripBudgetCalculator() {
       );
     } else {
       let price = 0;
+      let name = "";
+      let duration = "";
 
-      // Extract price based on item type
+      // Extract price and details based on item type
       if (type === "activity" || type === "attraction") {
         price = item.pricing?.adult || 0;
+        name = item.name;
       } else if (type === "tour") {
-        // Parse price string (e.g., "$459" -> 459)
-        const priceStr = item.price?.replace(/[^0-9.]/g, "") || "0";
-        price = parseFloat(priceStr);
+        price = item.pricing?.adult || 0;
+        name = item.title;
+        duration = item.duration;
+      } else if (type === "flight") {
+        price = item.pricing?.economy || 0;
+        name = `${item.airline} ${item.flightNumber} (${item.origin.city} → ${item.destination.city})`;
+        duration = item.duration;
+      } else if (type === "hotel") {
+        price = (item.pricing?.seasonality?.standard || 0) * hotelNights;
+        name = `${item.name} (${hotelNights} nights)`;
       }
 
       const selectedItem: SelectedItem = {
         id: item.id,
-        name: item.name || item.title,
+        name,
         price,
         type,
-        category: item.category || item.tourCategoryId,
+        category: item.category || item.tourCategoryId || item.type,
+        duration,
       };
 
       setSelectedItems((prev) => [...prev, selectedItem]);
@@ -141,8 +193,12 @@ function TripBudgetCalculator() {
   const getItemsToRemove = () => {
     if (budgetDifference >= 0) return [];
 
+    // Create a list of all removable items (activities, attractions, tours)
+    // Flight and hotel are considered essential and won't be suggested for removal
+    const removableItems = [...selectedItems];
+
     // Sort items by price (highest first) to suggest removing expensive items first
-    const sortedItems = [...selectedItems].sort((a, b) => b.price - a.price);
+    const sortedItems = removableItems.sort((a, b) => b.price - a.price);
     const itemsToRemove: SelectedItem[] = [];
     let runningTotal = totalCost;
     const budget = parseFloat(currentBudget) || 0;
@@ -183,6 +239,38 @@ function TripBudgetCalculator() {
       if (!destination) return false;
 
       return city === destination.name || country === destination.country;
+    });
+  };
+
+  const getFilteredFlights = () => {
+    if (!selectedDestination) return [];
+
+    const destination = safeDestinations.find(
+      (dest) => dest.id === selectedDestination
+    );
+    if (!destination) return [];
+
+    return safeFlights.filter((flight) => {
+      return (
+        flight.destination.city === destination.name ||
+        flight.origin.city === destination.name
+      );
+    });
+  };
+
+  const getFilteredHotels = () => {
+    if (!selectedDestination) return [];
+
+    const destination = safeDestinations.find(
+      (dest) => dest.id === selectedDestination
+    );
+    if (!destination) return [];
+
+    return safeHotels.filter((hotel) => {
+      return (
+        hotel.location.city === destination.name ||
+        hotel.location.country === destination.country
+      );
     });
   };
 
@@ -255,8 +343,149 @@ function TripBudgetCalculator() {
             </CardContent>
           </Card>
 
-          {/* Activities, Attractions, and Tours Selection */}
+          {/* Flight Selection */}
           {selectedDestination && (
+            <Card>
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  ✈️ Select Flight
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-4">
+                  <Select
+                    value={selectedFlight}
+                    onValueChange={setSelectedFlight}
+                  >
+                    <SelectTrigger className="max-w-md">
+                      <SelectValue placeholder="Choose your flight" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      {getFilteredFlights().length > 0 ? (
+                        getFilteredFlights().map((flight) => (
+                          <SelectItem key={flight.id} value={flight.id}>
+                            {flight.airline} {flight.flightNumber} -{" "}
+                            {flight.origin.city} → {flight.destination.city} ($
+                            {flight.pricing.economy})
+                          </SelectItem>
+                        ))
+                      ) : (
+                        <SelectItem value="no-flights" disabled>
+                          No flights available for this destination
+                        </SelectItem>
+                      )}
+                    </SelectContent>
+                  </Select>
+                  {selectedFlight && (
+                    <div className="bg-blue-50 dark:bg-blue-900/20 p-3 rounded-lg">
+                      {(() => {
+                        const flight = safeFlights.find(
+                          (f) => f.id === selectedFlight
+                        );
+                        return flight ? (
+                          <div className="text-sm">
+                            <div className="font-semibold">
+                              {flight.airline} {flight.flightNumber}
+                            </div>
+                            <div>
+                              Route: {flight.origin.city} →{" "}
+                              {flight.destination.city}
+                            </div>
+                            <div>Duration: {flight.duration}</div>
+                            <div>
+                              Price: ${flight.pricing.economy} (Economy Class)
+                            </div>
+                          </div>
+                        ) : null;
+                      })()}
+                    </div>
+                  )}
+                </div>
+              </CardContent>
+            </Card>
+          )}
+
+          {/* Hotel Selection */}
+          {selectedDestination && (
+            <Card>
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  🏨 Select Hotel
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-4">
+                  <div className="gap-4 grid grid-cols-1 md:grid-cols-2">
+                    <div>
+                      <Label htmlFor="hotel">Hotel</Label>
+                      <Select
+                        value={selectedHotel}
+                        onValueChange={setSelectedHotel}
+                      >
+                        <SelectTrigger>
+                          <SelectValue placeholder="Choose your hotel" />
+                        </SelectTrigger>
+                        <SelectContent>
+                          {getFilteredHotels().length > 0 ? (
+                            getFilteredHotels().map((hotel) => (
+                              <SelectItem key={hotel.id} value={hotel.id}>
+                                {hotel.name} - {hotel.starRating}⭐ ($
+                                {hotel.pricing.seasonality.standard}/night)
+                              </SelectItem>
+                            ))
+                          ) : (
+                            <SelectItem value="no-hotels" disabled>
+                              No hotels available for this destination
+                            </SelectItem>
+                          )}
+                        </SelectContent>
+                      </Select>
+                    </div>
+                    <div>
+                      <Label htmlFor="nights">Number of Nights</Label>
+                      <Input
+                        id="nights"
+                        type="number"
+                        min="1"
+                        max="30"
+                        value={hotelNights}
+                        onChange={(e) =>
+                          setHotelNights(parseInt(e.target.value) || 1)
+                        }
+                      />
+                    </div>
+                  </div>
+                  {selectedHotel && (
+                    <div className="bg-green-50 dark:bg-green-900/20 p-3 rounded-lg">
+                      {(() => {
+                        const hotel = safeHotels.find(
+                          (h) => h.id === selectedHotel
+                        );
+                        return hotel ? (
+                          <div className="text-sm">
+                            <div className="font-semibold">{hotel.name}</div>
+                            <div>
+                              Rating: {hotel.starRating}⭐ ({hotel.rating}/5 -{" "}
+                              {hotel.reviews} reviews)
+                            </div>
+                            <div>Location: {hotel.location.address}</div>
+                            <div>
+                              Price: ${hotel.pricing.seasonality.standard}/night
+                              × {hotelNights} nights = $
+                              {hotel.pricing.seasonality.standard * hotelNights}
+                            </div>
+                          </div>
+                        ) : null;
+                      })()}
+                    </div>
+                  )}
+                </div>
+              </CardContent>
+            </Card>
+          )}
+
+          {/* Activities, Attractions, and Tours Selection */}
+          {selectedDestination && selectedFlight && selectedHotel && (
             <div className="gap-6 grid grid-cols-1 lg:grid-cols-3">
               {/* Activities */}
               <Card>
@@ -373,130 +602,184 @@ function TripBudgetCalculator() {
           )}
 
           {/* Budget Summary */}
-          {selectedItems.length > 0 && currentBudget && (
-            <Card>
-              <CardHeader>
-                <CardTitle className="flex items-center gap-2">
-                  <Calculator className="w-5 h-5" />
-                  Budget Summary
-                </CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <div className="gap-4 grid grid-cols-1 md:grid-cols-3">
-                  <div className="bg-blue-50 dark:bg-blue-900/20 p-4 rounded-lg text-center">
-                    <div className="font-bold text-2xl text-blue-600">
-                      ${currentBudget}
-                    </div>
-                    <div className="text-gray-600 text-sm">Your Budget</div>
-                  </div>
-                  <div className="bg-green-50 dark:bg-green-900/20 p-4 rounded-lg text-center">
-                    <div className="font-bold text-2xl text-green-600">
-                      ${totalCost.toFixed(2)}
-                    </div>
-                    <div className="text-gray-600 text-sm">Total Cost</div>
-                  </div>
-                  <div
-                    className={`text-center p-4 rounded-lg ${budgetDifference >= 0 ? "bg-green-50 dark:bg-green-900/20" : "bg-red-50 dark:bg-red-900/20"}`}
-                  >
-                    <div
-                      className={`text-2xl font-bold ${budgetDifference >= 0 ? "text-green-600" : "text-red-600"}`}
-                    >
-                      ${Math.abs(budgetDifference).toFixed(2)}
-                    </div>
-                    <div className="text-gray-600 text-sm">
-                      {budgetDifference >= 0 ? "Remaining" : "Over Budget"}
-                    </div>
-                  </div>
-                </div>
-
-                <Separator />
-
-                <div className="space-y-3">
-                  <h4 className="font-semibold">Selected Items:</h4>
-                  {selectedItems.map((item) => (
-                    <div
-                      key={item.id}
-                      className="flex justify-between items-center bg-gray-50 dark:bg-gray-800 p-2 rounded"
-                    >
-                      <div>
-                        <span className="font-medium">{item.name}</span>
-                        <Badge variant="outline" className="ml-2 text-xs">
-                          {item.type}
-                        </Badge>
+          {(selectedItems.length > 0 || selectedFlight || selectedHotel) &&
+            currentBudget && (
+              <Card>
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2">
+                    <Calculator className="w-5 h-5" />
+                    Budget Summary
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-4">
+                  <div className="gap-4 grid grid-cols-1 md:grid-cols-3">
+                    <div className="bg-blue-50 dark:bg-blue-900/20 p-4 rounded-lg text-center">
+                      <div className="font-bold text-2xl text-blue-600">
+                        ${currentBudget}
                       </div>
-                      <span className="font-semibold">
-                        ${item.price.toFixed(2)}
-                      </span>
+                      <div className="text-gray-600 text-sm">Your Budget</div>
                     </div>
-                  ))}
-                </div>
+                    <div className="bg-green-50 dark:bg-green-900/20 p-4 rounded-lg text-center">
+                      <div className="font-bold text-2xl text-green-600">
+                        ${totalCost.toFixed(2)}
+                      </div>
+                      <div className="text-gray-600 text-sm">Total Cost</div>
+                    </div>
+                    <div
+                      className={`text-center p-4 rounded-lg ${budgetDifference >= 0 ? "bg-green-50 dark:bg-green-900/20" : "bg-red-50 dark:bg-red-900/20"}`}
+                    >
+                      <div
+                        className={`text-2xl font-bold ${budgetDifference >= 0 ? "text-green-600" : "text-red-600"}`}
+                      >
+                        ${Math.abs(budgetDifference).toFixed(2)}
+                      </div>
+                      <div className="text-gray-600 text-sm">
+                        {budgetDifference >= 0 ? "Remaining" : "Over Budget"}
+                      </div>
+                    </div>
+                  </div>
 
-                {budgetDifference < 0 && (
-                  <Alert>
-                    <XCircle className="w-4 h-4" />
-                    <AlertDescription>
-                      <div className="space-y-3">
-                        <p>
-                          You're over budget by $
-                          {Math.abs(budgetDifference).toFixed(2)}!
-                        </p>
+                  <Separator />
 
-                        <div className="space-y-2">
-                          <p className="font-semibold">
-                            Consider removing these items to stay within budget:
-                          </p>
-                          {getItemsToRemove().map((item) => (
-                            <div
-                              key={item.id}
-                              className="flex justify-between items-center bg-red-50 dark:bg-red-900/20 p-2 rounded"
-                            >
-                              <span>{item.name}</span>
-                              <span>${item.price.toFixed(2)}</span>
+                  <div className="space-y-3">
+                    <h4 className="font-semibold">Trip Components:</h4>
+
+                    {/* Flight */}
+                    {selectedFlight &&
+                      (() => {
+                        const flight = safeFlights.find(
+                          (f) => f.id === selectedFlight
+                        );
+                        return flight ? (
+                          <div className="flex justify-between items-center bg-blue-50 dark:bg-blue-800 p-2 rounded">
+                            <div>
+                              <span className="font-medium">
+                                ✈️ {flight.airline} {flight.flightNumber}
+                              </span>
+                              <Badge variant="outline" className="ml-2 text-xs">
+                                flight
+                              </Badge>
                             </div>
-                          ))}
-                          <Button
-                            variant="outline"
-                            size="sm"
-                            onClick={() =>
-                              removeSelectedItems(getItemsToRemove())
-                            }
-                            className="w-full"
-                          >
-                            Remove Suggested Items
-                          </Button>
-                        </div>
+                            <span className="font-semibold">
+                              ${flight.pricing.economy.toFixed(2)}
+                            </span>
+                          </div>
+                        ) : null;
+                      })()}
 
-                        <Separator />
+                    {/* Hotel */}
+                    {selectedHotel &&
+                      (() => {
+                        const hotel = safeHotels.find(
+                          (h) => h.id === selectedHotel
+                        );
+                        return hotel ? (
+                          <div className="flex justify-between items-center bg-green-50 dark:bg-green-800 p-2 rounded">
+                            <div>
+                              <span className="font-medium">
+                                🏨 {hotel.name}
+                              </span>
+                              <Badge variant="outline" className="ml-2 text-xs">
+                                hotel
+                              </Badge>
+                            </div>
+                            <span className="font-semibold">
+                              $
+                              {(
+                                hotel.pricing.seasonality.standard * hotelNights
+                              ).toFixed(2)}
+                            </span>
+                          </div>
+                        ) : null;
+                      })()}
 
-                        <div className="space-y-2">
-                          <p className="font-semibold">
-                            Or save up ${Math.abs(budgetDifference).toFixed(2)}{" "}
-                            to afford everything!
-                          </p>
-                          <Button
-                            onClick={() => setActiveTab("savings")}
-                            className="w-full"
-                          >
-                            Create Savings Plan
-                          </Button>
+                    {/* Activities, Attractions, Tours */}
+                    {selectedItems.map((item) => (
+                      <div
+                        key={item.id}
+                        className="flex justify-between items-center bg-gray-50 dark:bg-gray-800 p-2 rounded"
+                      >
+                        <div>
+                          <span className="font-medium">{item.name}</span>
+                          <Badge variant="outline" className="ml-2 text-xs">
+                            {item.type}
+                          </Badge>
                         </div>
+                        <span className="font-semibold">
+                          ${item.price.toFixed(2)}
+                        </span>
                       </div>
-                    </AlertDescription>
-                  </Alert>
-                )}
+                    ))}
+                  </div>
 
-                {budgetDifference >= 0 && (
-                  <Alert>
-                    <CheckCircle className="w-4 h-4" />
-                    <AlertDescription>
-                      Great! You're within budget with $
-                      {budgetDifference.toFixed(2)} to spare.
-                    </AlertDescription>
-                  </Alert>
-                )}
-              </CardContent>
-            </Card>
-          )}
+                  {budgetDifference < 0 && (
+                    <Alert>
+                      <XCircle className="w-4 h-4" />
+                      <AlertDescription>
+                        <div className="space-y-3">
+                          <p>
+                            You're over budget by $
+                            {Math.abs(budgetDifference).toFixed(2)}!
+                          </p>
+
+                          <div className="space-y-2">
+                            <p className="font-semibold">
+                              Consider removing these items to stay within
+                              budget:
+                            </p>
+                            {getItemsToRemove().map((item) => (
+                              <div
+                                key={item.id}
+                                className="flex justify-between items-center bg-red-50 dark:bg-red-900/20 p-2 rounded"
+                              >
+                                <span>{item.name}</span>
+                                <span>${item.price.toFixed(2)}</span>
+                              </div>
+                            ))}
+                            <Button
+                              variant="outline"
+                              size="sm"
+                              onClick={() =>
+                                removeSelectedItems(getItemsToRemove())
+                              }
+                              className="w-full"
+                            >
+                              Remove Suggested Items
+                            </Button>
+                          </div>
+
+                          <Separator />
+
+                          <div className="space-y-2">
+                            <p className="font-semibold">
+                              Or save up $
+                              {Math.abs(budgetDifference).toFixed(2)} to afford
+                              everything!
+                            </p>
+                            <Button
+                              onClick={() => setActiveTab("savings")}
+                              className="w-full"
+                            >
+                              Create Savings Plan
+                            </Button>
+                          </div>
+                        </div>
+                      </AlertDescription>
+                    </Alert>
+                  )}
+
+                  {budgetDifference >= 0 && (
+                    <Alert>
+                      <CheckCircle className="w-4 h-4" />
+                      <AlertDescription>
+                        Great! You're within budget with $
+                        {budgetDifference.toFixed(2)} to spare.
+                      </AlertDescription>
+                    </Alert>
+                  )}
+                </CardContent>
+              </Card>
+            )}
         </TabsContent>
 
         <TabsContent value="savings" className="space-y-6">
