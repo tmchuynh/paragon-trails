@@ -32,11 +32,14 @@ import {
   Phone,
   Shield,
   Star,
+  Ticket,
+  User,
 } from "lucide-react";
 import Image from "next/image";
 import { useParams, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { FaArrowLeft, FaClock, FaMapMarkerAlt, FaStar } from "react-icons/fa";
+import { IoClose } from "react-icons/io5";
 import { toast } from "sonner";
 
 export default function TourDetailsPage() {
@@ -279,7 +282,7 @@ export default function TourDetailsPage() {
                 <Card>
                   <div className="px-6">
                     <div className="flex items-center gap-2 mb-4 font-semibold text-lg">
-                      <CheckCircle className="w-5 h-5" /> Tour Highlights
+                      <MapPin className="w-5 h-5" /> Tour Highlights
                     </div>
                     {currentTour.reviews.highlights &&
                       currentTour.reviews.highlights.length > 0 && (
@@ -326,7 +329,7 @@ export default function TourDetailsPage() {
                       <ul className="space-y-2 text-sm">
                         {currentTour.restrictions.map((restriction, index) => (
                           <li key={index} className="flex items-start gap-2">
-                            <span className="flex-shrink-0 bg-red-500 mt-2 rounded-full w-2 h-2"></span>
+                            <IoClose className="flex-shrink-0 mt-0.5 w-5 h-5 text-red-500" />{" "}
                             {restriction}
                           </li>
                         ))}
@@ -381,7 +384,7 @@ export default function TourDetailsPage() {
                 <Card>
                   <div className="px-6">
                     <div className="flex items-center gap-2 mb-4 font-semibold text-lg">
-                      <MapPin className="w-5 h-5" /> Meeting Point & Contact
+                      <User className="w-5 h-5" /> Meeting Point & Contact
                     </div>
                     <div className="space-y-4">
                       <div className="flex items-start gap-2">
@@ -475,9 +478,7 @@ export default function TourDetailsPage() {
                     </div>
                     <div className="space-y-3">
                       <div className="flex items-center gap-2">
-                        <div
-                          className={`w-3 h-3 rounded-full ${currentTour.tickets.advanceBooking ? "bg-green-500" : "bg-red-500"}`}
-                        ></div>
+                        <Ticket className="w-4 h-4 text-accent -rotate-40" />
                         <span className="text-sm">
                           {currentTour.tickets.advanceBooking
                             ? "Advance booking recommended"
@@ -485,9 +486,7 @@ export default function TourDetailsPage() {
                         </span>
                       </div>
                       <div className="flex items-center gap-2">
-                        <div
-                          className={`w-3 h-3 rounded-full ${currentTour.tickets.skipTheLine ? "bg-green-500" : "bg-red-500"}`}
-                        ></div>
+                        <Ticket className="w-4 h-4 text-accent -rotate-40" />
                         <span className="text-sm">
                           {currentTour.tickets.skipTheLine
                             ? "Skip-the-line tickets available"
@@ -495,9 +494,7 @@ export default function TourDetailsPage() {
                         </span>
                       </div>
                       <div className="flex items-center gap-2">
-                        <div
-                          className={`w-3 h-3 rounded-full ${currentTour.tickets.groupDiscounts ? "bg-green-500" : "bg-red-500"}`}
-                        ></div>
+                        <Ticket className="w-4 h-4 text-accent -rotate-40" />
                         <span className="text-sm">
                           {currentTour.tickets.groupDiscounts
                             ? "Group discounts available"
@@ -513,7 +510,7 @@ export default function TourDetailsPage() {
                     <div className="mb-4 font-semibold text-lg">
                       Cancellation Policy
                     </div>
-                    <p className="text-slate-600 text-sm dark:text-slate-400">
+                    <p className="text-sm">
                       {currentTour.cancellationPolicy ||
                         "Standard cancellation policy applies. Please contact us for specific terms and conditions."}
                     </p>
@@ -545,7 +542,7 @@ export default function TourDetailsPage() {
                             />
                           ))}
                         </div>
-                        <div className="text-slate-600 text-sm dark:text-slate-400">
+                        <div className="text-sm">
                           {currentTour.reviews.totalReviews} reviews
                         </div>
                       </div>
@@ -561,7 +558,7 @@ export default function TourDetailsPage() {
                                 key={index}
                                 className="flex items-start gap-2"
                               >
-                                <span className="flex-shrink-0 bg-blue-500 mt-2 rounded-full w-2 h-2"></span>
+                                <FaStar className="flex-shrink-0 mt-0.5 w-3.5 h-3.5 text-yellow-500" />{" "}
                                 <span className="text-sm">{highlight}</span>
                               </div>
                             )
@@ -617,7 +614,7 @@ export default function TourDetailsPage() {
             <Card>
               <div className="px-6">
                 <div className="mb-4 font-semibold text-lg">Book This Tour</div>
-                <div className="flex flex-wrap justify-center gap-4 mb-4">
+                <div className="gap-4 grid grid-cols-3 mb-4">
                   <div className="text-center">
                     <p className="font-bold text-2xl text-blue-600">
                       {formatCurrency(currentTour.pricing.adult)}
