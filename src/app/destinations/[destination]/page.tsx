@@ -257,7 +257,31 @@ export default function DestinationDetailsPage() {
                               {tour.description}
                             </p>
                             <p className="mt-1 font-medium text-blue-600 text-sm">
-                              {tour.price}
+                              <span>Adults: </span>
+                              {formatPrice(tour.pricing.adult)}
+                            </p>
+                            <p className="mt-1 font-medium text-blue-600 text-sm">
+                              <span>Children: </span>
+                              {formatPrice(tour.pricing.child)}
+                            </p>
+                            <p className="mt-1 font-medium text-blue-600 text-sm">
+                              <span>Seniors: </span>
+                              {formatPrice(tour.pricing.senior)}
+                            </p>
+                            {tour.pricing.student && (
+                              <p className="mt-1 font-medium text-blue-600 text-sm">
+                                <span>Students: </span>
+                                {formatPrice(tour.pricing.student)}
+                              </p>
+                            )}
+                            {tour.pricing.family && (
+                              <p className="mt-1 font-medium text-blue-600 text-sm">
+                                <span>Family: </span>
+                                {formatPrice(tour.pricing.family)}
+                              </p>
+                            )}
+                            <p className="text-slate-500 text-xs">
+                              {tour.type} | {tour.duration}
                             </p>
                           </div>
                         ))}
