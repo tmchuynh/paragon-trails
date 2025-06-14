@@ -5,7 +5,24 @@ export const navbarItems = [
   },
   {
     label: "Find Your Next Adventure",
-    href: "/destinations", // Main destinations page
+    dropdown: [
+      {
+        label: "Destinations",
+        href: "/destinations", // Destination search page
+      },
+      {
+        label: "Activities",
+        href: "/activities", // Activity search page
+      },
+      {
+        label: "Attractions",
+        href: "/attractions", // Attraction search page
+      },
+      {
+        label: "Tours",
+        href: "/tours", // Tour search page
+      },
+    ],
   },
   {
     label: "Book Travel",
