@@ -17,6 +17,7 @@ import { mockActivities } from "@/data/activities";
 import { mockAttractions } from "@/data/attractions";
 import { mockDestinations } from "@/data/destinations";
 import { mockTours } from "@/data/tours";
+import { formatToSlug } from "@/lib/utils/format";
 import {
   ArrowLeft,
   Calendar,
@@ -44,7 +45,7 @@ export default function DestinationDetailsPage() {
   // Find destination by URL param
   const destinationSlug = params.destination as string;
   const initialDestination = mockDestinations.find(
-    (dest) => dest.name.toLowerCase().replace(/\s+/g, "-") === destinationSlug,
+    (dest) => dest.name.toLowerCase().replace(/\s+/g, "-") === destinationSlug
   );
 
   const [currentDestination, setCurrentDestination] =
@@ -53,8 +54,7 @@ export default function DestinationDetailsPage() {
   // Update current destination when URL param changes
   useEffect(() => {
     const foundDestination = mockDestinations.find(
-      (dest) =>
-        dest.name.toLowerCase().replace(/\s+/g, "-") === destinationSlug,
+      (dest) => dest.name.toLowerCase().replace(/\s+/g, "-") === destinationSlug
     );
     setCurrentDestination(foundDestination);
     setSelectedImageIndex(0); // Reset image index when destination changes
@@ -63,7 +63,7 @@ export default function DestinationDetailsPage() {
   // Handle destination change from selector
   const handleDestinationChange = (newDestinationId: string) => {
     const newDestination = mockDestinations.find(
-      (dest) => dest.id === newDestinationId,
+      (dest) => dest.id === newDestinationId
     );
     if (newDestination) {
       const newSlug = newDestination.name.toLowerCase().replace(/\s+/g, "-");
@@ -91,11 +91,6 @@ export default function DestinationDetailsPage() {
   const relatedTours = mockTours.slice(0, 3);
   const relatedActivities = mockActivities.slice(0, 3);
   const relatedAttractions = mockAttractions.slice(0, 3);
-
-  // Get current destination slug for URLs
-  const currentDestinationSlug =
-    currentDestination?.name.toLowerCase().replace(/\s+/g, "-") ||
-    destinationSlug;
 
   return (
     <div className="min-h-screen">
@@ -304,9 +299,12 @@ export default function DestinationDetailsPage() {
                         {relatedTours.map((tour) => (
                           <div
                             key={tour.id}
-                            className="pb-3 border-slate-200 dark:border-slate-700 last:border-0 border-b"
+                            className="group pb-3 border-slate-200 dark:border-slate-700 last:border-0 border-b"
+                            onClick={() =>
+                              router.push(`/tours/${formatToSlug(tour.title)}`)
+                            }
                           >
-                            <h4 className="font-semibold text-sm">
+                            <h4 className="font-semibold text-sm group-hover:no-underline">
                               {tour.title}
                             </h4>
                             <p className="text-slate-600 text-xs line-clamp-2">
@@ -364,9 +362,14 @@ export default function DestinationDetailsPage() {
                         {relatedActivities.map((activity) => (
                           <div
                             key={activity.id}
-                            className="pb-3 border-slate-200 dark:border-slate-700 last:border-0 border-b"
+                            className="group pb-3 border-slate-200 dark:border-slate-700 last:border-0 border-b"
+                            onClick={() =>
+                              router.push(
+                                `/activities/${formatToSlug(activity.name)}`
+                              )
+                            }
                           >
-                            <h4 className="font-semibold text-sm">
+                            <h4 className="font-semibold text-sm group-hover:no-underline">
                               {activity.name}
                             </h4>
                             <p className="text-slate-600 text-xs line-clamp-2">
@@ -403,9 +406,14 @@ export default function DestinationDetailsPage() {
                         {relatedAttractions.map((attraction) => (
                           <div
                             key={attraction.id}
-                            className="pb-3 border-slate-200 dark:border-slate-700 last:border-0 border-b"
+                            className="group pb-3 border-slate-200 dark:border-slate-700 last:border-0 border-b"
+                            onClick={() =>
+                              router.push(
+                                `/attractions/${formatToSlug(attraction.name)}`
+                              )
+                            }
                           >
-                            <h4 className="font-semibold text-sm">
+                            <h4 className="font-semibold text-sm group-hover:no-underline">
                               {attraction.name}
                             </h4>
                             <p className="text-slate-600 text-xs line-clamp-2">
