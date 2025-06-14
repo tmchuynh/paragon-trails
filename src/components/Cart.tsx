@@ -2,25 +2,15 @@
 
 import { cartHelpers, useCart } from "@/context/CartContext";
 import { useCurrency } from "@/context/CurrencyContext";
-import {
-  ArrowRight,
-  Calendar,
-  MapPin,
-  Minus,
-  Plus,
-  Shield,
-  ShoppingCart,
-  Star,
-  Tag,
-  Trash2,
-} from "lucide-react";
+import { ArrowRight, Shield, ShoppingCart, Star } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
-import { Badge } from "./ui/badge";
+import ExperienceCartItem from "./cart/ExperienceCartItem";
+import FlightCartItem from "./cart/FlightCartItem";
+import HotelCartItem from "./cart/HotelCartItem";
+import VehicleCartItem from "./cart/VehicleCartItem";
 import { Button } from "./ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
-import { Input } from "./ui/input";
-import { Separator } from "./ui/separator";
 
 export default function Cart() {
   const router = useRouter();
@@ -125,181 +115,63 @@ export default function Cart() {
         <div className="gap-8 grid lg:grid-cols-3">
           {/* Cart Items */}
           <div className="space-y-6 lg:col-span-2">
-            {state.items.map((item) => (
-              <Card key={item.id} className="p-0 overflow-hidden">
-                <CardContent className="p-0">
-                  <div className="flex md:flex-row flex-col">
-                    {/* Image */}
-                    <div className="md:w-1/3">
-                      <div
-                        className="relative bg-cover bg-center h-48 md:h-full"
-                        style={{ backgroundImage: `url(${item.image})` }}
-                      >
-                        <div className="absolute inset-0 bg-black/20" />
-                        <Badge className="top-4 left-4 absolute bg-white/90 text-slate-900">
-                          {item.type.charAt(0).toUpperCase() +
-                            item.type.slice(1)}
-                        </Badge>
-                      </div>
-                    </div>
-
-                    {/* Content */}
-                    <div className="p-6 md:w-2/3">
-                      <div className="flex justify-between items-start mb-4">
-                        <div>
-                          <h3 className="mb-2 font-semibold text-slate-900 text-xl dark:text-white">
-                            {item.name}
-                          </h3>
-                          <div className="flex items-center gap-4 mb-3 text-slate-600 text-sm dark:text-slate-400">
-                            <div className="flex items-center gap-1">
-                              <MapPin className="w-4 h-4" />
-                              {item.location}
-                            </div>
-                            <div className="flex items-center gap-1">
-                              <Calendar className="w-4 h-4" />
-                              {new Date(
-                                item.dates.startDate
-                              ).toLocaleDateString()}{" "}
-                              -{" "}
-                              {new Date(
-                                item.dates.endDate
-                              ).toLocaleDateString()}
-                            </div>
-                          </div>
-                          <p className="mb-4 text-slate-600 dark:text-slate-400">
-                            {item.description}
-                          </p>
-                        </div>
-                        <Button
-                          variant="ghost"
-                          size="sm"
-                          onClick={() => handleRemoveItem(item.id)}
-                          className="hover:bg-red-50 text-red-500 hover:text-red-700"
-                        >
-                          <Trash2 className="w-4 h-4" />
-                        </Button>
-                      </div>
-
-                      {/* Features */}
-                      <div className="flex flex-wrap gap-2 mb-4">
-                        {item.features.slice(0, 3).map((feature, index) => (
-                          <Badge
-                            key={index}
-                            variant="secondary"
-                            className="text-xs"
-                          >
-                            {feature}
-                          </Badge>
-                        ))}
-                        {item.features.length > 3 && (
-                          <Badge variant="secondary" className="text-xs">
-                            +{item.features.length - 3} more
-                          </Badge>
-                        )}
-                      </div>
-
-                      {/* Quantity and Guests */}
-                      <div className="flex sm:flex-row flex-col gap-4 mb-4">
-                        <div className="flex items-center gap-2">
-                          <label className="font-medium text-slate-700 text-sm dark:text-slate-300">
-                            Quantity:
-                          </label>
-                          <div className="flex items-center gap-1">
-                            <Button
-                              variant="outline"
-                              size="sm"
-                              onClick={() =>
-                                handleQuantityChange(item.id, item.quantity - 1)
-                              }
-                              disabled={item.quantity <= 1}
-                            >
-                              <Minus className="w-3 h-3" />
-                            </Button>
-                            <span className="w-8 font-medium text-center text-sm">
-                              {item.quantity}
-                            </span>
-                            <Button
-                              variant="outline"
-                              size="sm"
-                              onClick={() =>
-                                handleQuantityChange(item.id, item.quantity + 1)
-                              }
-                            >
-                              <Plus className="w-3 h-3" />
-                            </Button>
-                          </div>
-                        </div>
-
-                        <div className="flex items-center gap-2">
-                          <label className="font-medium text-slate-700 text-sm dark:text-slate-300">
-                            Guests:
-                          </label>
-                          <div className="flex items-center gap-1">
-                            <Button
-                              variant="outline"
-                              size="sm"
-                              onClick={() =>
-                                handleGuestsChange(item.id, item.guests - 1)
-                              }
-                              disabled={item.guests <= 1}
-                            >
-                              <Minus className="w-3 h-3" />
-                            </Button>
-                            <span className="w-8 font-medium text-center text-sm">
-                              {item.guests}
-                            </span>
-                            <Button
-                              variant="outline"
-                              size="sm"
-                              onClick={() =>
-                                handleGuestsChange(item.id, item.guests + 1)
-                              }
-                            >
-                              <Plus className="w-3 h-3" />
-                            </Button>
-                          </div>
-                        </div>
-                      </div>
-
-                      {/* Pricing */}
-                      <div className="flex justify-between items-center">
-                        <div className="flex items-center gap-2">
-                          {item.originalPrice &&
-                            item.originalPrice > item.price && (
-                              <span className="text-slate-500 text-sm line-through">
-                                {formatPrice(item.originalPrice)}
-                              </span>
-                            )}
-                          <span className="font-semibold text-lg text-slate-900 dark:text-white">
-                            {formatPrice(item.price)}
-                          </span>
-                          <span className="text-slate-600 text-sm dark:text-slate-400">
-                            per person
-                          </span>
-                        </div>
-                        <div className="text-right">
-                          <div className="text-slate-600 text-sm dark:text-slate-400">
-                            Subtotal:{" "}
-                            {formatPrice(
-                              item.price * item.quantity * item.guests
-                            )}
-                          </div>
-                        </div>
-                      </div>
-
-                      {/* Cancellation Policy */}
-                      <div className="bg-slate-50 dark:bg-slate-800 mt-4 p-3 rounded-lg">
-                        <div className="flex items-center gap-2 text-slate-600 text-sm dark:text-slate-400">
-                          <Shield className="w-4 h-4" />
-                          <span className="font-medium">Cancellation:</span>
-                          <span>{item.cancellationPolicy}</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
+            {state.items.map((item) => {
+              // Render different components based on item type
+              switch (item.type) {
+                case "vehicle":
+                  return (
+                    <VehicleCartItem
+                      key={item.id}
+                      item={item}
+                      onQuantityChange={handleQuantityChange}
+                      onGuestsChange={handleGuestsChange}
+                      onRemove={handleRemoveItem}
+                    />
+                  );
+                case "flight":
+                  return (
+                    <FlightCartItem
+                      key={item.id}
+                      item={item}
+                      onQuantityChange={handleQuantityChange}
+                      onGuestsChange={handleGuestsChange}
+                      onRemove={handleRemoveItem}
+                    />
+                  );
+                case "hotel":
+                  return (
+                    <HotelCartItem
+                      key={item.id}
+                      item={item}
+                      onQuantityChange={handleQuantityChange}
+                      onGuestsChange={handleGuestsChange}
+                      onRemove={handleRemoveItem}
+                    />
+                  );
+                case "tour":
+                case "attraction":
+                case "activity":
+                  return (
+                    <ExperienceCartItem
+                      key={item.id}
+                      item={item}
+                      onQuantityChange={handleQuantityChange}
+                      onGuestsChange={handleGuestsChange}
+                      onRemove={handleRemoveItem}
+                    />
+                  );
+                default:
+                  return (
+                    <ExperienceCartItem
+                      key={item.id}
+                      item={item}
+                      onQuantityChange={handleQuantityChange}
+                      onGuestsChange={handleGuestsChange}
+                      onRemove={handleRemoveItem}
+                    />
+                  );
+              }
+            })}
           </div>
 
           {/* Order Summary */}
@@ -312,85 +184,6 @@ export default function Cart() {
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-6">
-                {/* Discount Code */}
-                <div>
-                  <label className="block mb-2 font-medium text-slate-700 text-sm dark:text-slate-300">
-                    Discount Code
-                  </label>
-                  <div className="flex gap-2">
-                    <Input
-                      placeholder="Enter code"
-                      value={discountCode}
-                      onChange={(e) => setDiscountCode(e.target.value)}
-                      className="flex-1"
-                    />
-                    <Button
-                      variant="outline"
-                      onClick={handleApplyDiscount}
-                      disabled={!discountCode.trim() || isApplyingDiscount}
-                      className="px-4"
-                    >
-                      {isApplyingDiscount ? (
-                        <div className="border-2 border-slate-300 border-t-slate-600 rounded-full w-4 h-4 animate-spin" />
-                      ) : (
-                        <Tag className="w-4 h-4" />
-                      )}
-                    </Button>
-                  </div>
-                  <p className="mt-1 text-slate-500 text-xs">
-                    Try: WELCOME10 for 10% off
-                  </p>
-                </div>
-
-                <Separator />
-
-                {/* Price Breakdown */}
-                <div className="space-y-3">
-                  <div className="flex justify-between text-sm">
-                    <span className="text-slate-600 dark:text-slate-400">
-                      Subtotal
-                    </span>
-                    <span>{formatPrice(state.subtotal)}</span>
-                  </div>
-                  <div className="flex justify-between text-sm">
-                    <span className="text-slate-600 dark:text-slate-400">
-                      Service Fee
-                    </span>
-                    <span>{formatPrice(state.fees)}</span>
-                  </div>
-                  <div className="flex justify-between text-sm">
-                    <span className="text-slate-600 dark:text-slate-400">
-                      Taxes
-                    </span>
-                    <span>{formatPrice(state.taxes)}</span>
-                  </div>
-                  {state.discounts > 0 && (
-                    <div className="flex justify-between text-green-600 text-sm">
-                      <span>Discount</span>
-                      <span>-{formatPrice(state.discounts)}</span>
-                    </div>
-                  )}
-
-                  <Separator />
-
-                  <div className="flex justify-between font-semibold text-lg">
-                    <span>Total</span>
-                    <span>{formatPrice(state.total)}</span>
-                  </div>
-                </div>
-
-                {/* Security Notice */}
-                <div className="bg-green-50 dark:bg-green-950/20 p-3 border border-green-200 dark:border-green-800 rounded-lg">
-                  <div className="flex items-center gap-2 text-green-700 dark:text-green-400">
-                    <Shield className="w-4 h-4" />
-                    <span className="font-medium text-sm">Secure Booking</span>
-                  </div>
-                  <p className="mt-1 text-green-600 text-xs dark:text-green-500">
-                    Your payment information is protected with enterprise-grade
-                    encryption
-                  </p>
-                </div>
-
                 {/* Action Buttons */}
                 <div className="space-y-3">
                   <Button
@@ -408,6 +201,18 @@ export default function Cart() {
                   >
                     Continue Shopping
                   </Button>
+                </div>
+
+                {/* Security Notice */}
+                <div className="bg-green-50 dark:bg-green-950/20 p-3 border border-green-200 dark:border-green-800 rounded-lg">
+                  <div className="flex items-center gap-2 text-green-700 dark:text-green-400">
+                    <Shield className="w-4 h-4" />
+                    <span className="font-medium text-sm">Secure Booking</span>
+                  </div>
+                  <p className="mt-1 text-green-600 text-xs dark:text-green-500">
+                    Your payment information is protected with enterprise-grade
+                    encryption
+                  </p>
                 </div>
 
                 {/* Trust Indicators */}

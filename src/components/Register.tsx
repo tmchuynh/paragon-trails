@@ -327,7 +327,7 @@ export default function Register() {
                       <SelectTrigger className="pl-10 h-12">
                         <SelectValue placeholder="Select your country" />
                       </SelectTrigger>
-                      <SelectContent>
+                      <SelectContent className="w-full max-h-60">
                         <SelectItem value="us">United States</SelectItem>
                         <SelectItem value="ca">Canada</SelectItem>
                         <SelectItem value="uk">United Kingdom</SelectItem>
