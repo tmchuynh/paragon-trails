@@ -145,15 +145,15 @@ function TripBudgetCalculator() {
 
   const handleItemSelection = (
     item: any,
-    type: "activity" | "attraction" | "tour" | "flight" | "hotel"
+    type: "activity" | "attraction" | "tour" | "flight" | "hotel",
   ) => {
     const isSelected = selectedItems.some(
-      (selected) => selected.id === item.id
+      (selected) => selected.id === item.id,
     );
 
     if (isSelected) {
       setSelectedItems((prev) =>
-        prev.filter((selected) => selected.id !== item.id)
+        prev.filter((selected) => selected.id !== item.id),
       );
     } else {
       let price = 0;
@@ -216,7 +216,7 @@ function TripBudgetCalculator() {
   const removeSelectedItems = (itemsToRemove: SelectedItem[]) => {
     const idsToRemove = itemsToRemove.map((item) => item.id);
     setSelectedItems((prev) =>
-      prev.filter((item) => !idsToRemove.includes(item.id))
+      prev.filter((item) => !idsToRemove.includes(item.id)),
     );
   };
 
@@ -234,7 +234,7 @@ function TripBudgetCalculator() {
       const country = location.country;
 
       const destination = safeDestinations.find(
-        (dest) => dest.id === selectedDestination
+        (dest) => dest.id === selectedDestination,
       );
       if (!destination) return false;
 
@@ -246,7 +246,7 @@ function TripBudgetCalculator() {
     if (!selectedDestination) return [];
 
     const destination = safeDestinations.find(
-      (dest) => dest.id === selectedDestination
+      (dest) => dest.id === selectedDestination,
     );
     if (!destination) return [];
 
@@ -262,7 +262,7 @@ function TripBudgetCalculator() {
     if (!selectedDestination) return [];
 
     const destination = safeDestinations.find(
-      (dest) => dest.id === selectedDestination
+      (dest) => dest.id === selectedDestination,
     );
     if (!destination) return [];
 
@@ -380,7 +380,7 @@ function TripBudgetCalculator() {
                     <div className="bg-blue-50 dark:bg-blue-900/20 p-3 rounded-lg">
                       {(() => {
                         const flight = safeFlights.find(
-                          (f) => f.id === selectedFlight
+                          (f) => f.id === selectedFlight,
                         );
                         return flight ? (
                           <div className="text-sm">
@@ -459,7 +459,7 @@ function TripBudgetCalculator() {
                     <div className="bg-green-50 dark:bg-green-900/20 p-3 rounded-lg">
                       {(() => {
                         const hotel = safeHotels.find(
-                          (h) => h.id === selectedHotel
+                          (h) => h.id === selectedHotel,
                         );
                         return hotel ? (
                           <div className="text-sm">
@@ -500,7 +500,7 @@ function TripBudgetCalculator() {
                     >
                       <Checkbox
                         checked={selectedItems.some(
-                          (item) => item.id === activity.id
+                          (item) => item.id === activity.id,
                         )}
                         className="data-[state=checked]:bg-accent dark:data-[state=checked]:bg-accent data-[state=checked]:border-accent data-[state=checked]:text-accent-foreground"
                         onCheckedChange={() =>
@@ -538,7 +538,7 @@ function TripBudgetCalculator() {
                     >
                       <Checkbox
                         checked={selectedItems.some(
-                          (item) => item.id === attraction.id
+                          (item) => item.id === attraction.id,
                         )}
                         className="data-[state=checked]:bg-accent dark:data-[state=checked]:bg-accent data-[state=checked]:border-accent data-[state=checked]:text-accent-foreground"
                         onCheckedChange={() =>
@@ -576,7 +576,7 @@ function TripBudgetCalculator() {
                     >
                       <Checkbox
                         checked={selectedItems.some(
-                          (item) => item.id === tour.id
+                          (item) => item.id === tour.id,
                         )}
                         className="data-[state=checked]:bg-accent dark:data-[state=checked]:bg-accent data-[state=checked]:border-accent data-[state=checked]:text-accent-foreground"
                         onCheckedChange={() =>
@@ -648,7 +648,7 @@ function TripBudgetCalculator() {
                     {selectedFlight &&
                       (() => {
                         const flight = safeFlights.find(
-                          (f) => f.id === selectedFlight
+                          (f) => f.id === selectedFlight,
                         );
                         return flight ? (
                           <div className="flex justify-between items-center bg-blue-50 dark:bg-blue-800 p-2 rounded">
@@ -671,7 +671,7 @@ function TripBudgetCalculator() {
                     {selectedHotel &&
                       (() => {
                         const hotel = safeHotels.find(
-                          (h) => h.id === selectedHotel
+                          (h) => h.id === selectedHotel,
                         );
                         return hotel ? (
                           <div className="flex justify-between items-center bg-green-50 dark:bg-green-800 p-2 rounded">
@@ -931,7 +931,7 @@ function TripBudgetCalculator() {
                                   24 *
                                   60 *
                                   60 *
-                                  1000
+                                  1000,
                             ).toLocaleDateString()}
                           </p>
                         </div>

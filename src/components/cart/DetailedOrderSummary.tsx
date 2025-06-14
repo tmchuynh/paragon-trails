@@ -57,7 +57,7 @@ export default function DetailedOrderSummary({
   const itemBreakdown = getItemBreakdown();
   const subtotalBeforeFees = itemBreakdown.reduce(
     (sum, item) => sum + item.subtotal,
-    0
+    0,
   );
 
   return (
@@ -164,7 +164,7 @@ export default function DetailedOrderSummary({
               "activity",
             ].map((type) => {
               const count = state.items.filter(
-                (item) => item.type === type
+                (item) => item.type === type,
               ).length;
               if (count === 0) return null;
 

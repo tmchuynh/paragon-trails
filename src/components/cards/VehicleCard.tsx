@@ -78,17 +78,17 @@ export default function VehicleCard({
           item.name === rentalItem.name &&
           item.dates.startDate === rentalItem.dates.startDate &&
           item.dates.endDate === rentalItem.dates.endDate &&
-          item.location === rentalItem.location
+          item.location === rentalItem.location,
       );
 
       if (existingItem) {
         cartHelpers.updateQuantity(
           dispatch,
           existingItem.id,
-          existingItem.quantity + 1
+          existingItem.quantity + 1,
         );
         toast.success(
-          `Added another ${vehicle.name} to cart! (${existingItem.quantity + 1} total)`
+          `Added another ${vehicle.name} to cart! (${existingItem.quantity + 1} total)`,
         );
         setIsAddingToCart(false);
         return;

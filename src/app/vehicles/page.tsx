@@ -121,8 +121,8 @@ export default function VehiclesPage() {
       new Set(
         mockVehicles
           .filter((vehicle) => vehicle.specifications?.fuelType)
-          .map((vehicle) => vehicle.specifications.fuelType!)
-      )
+          .map((vehicle) => vehicle.specifications.fuelType!),
+      ),
     )
       .sort()
       .map((fuelType) => ({ value: fuelType, label: fuelType })),
@@ -135,10 +135,10 @@ export default function VehiclesPage() {
       new Set(
         mockVehicles
           .filter(
-            (vehicle) => vehicle.specifications?.seatingCapacity !== undefined
+            (vehicle) => vehicle.specifications?.seatingCapacity !== undefined,
           )
-          .map((vehicle) => vehicle.specifications.seatingCapacity!.toString())
-      )
+          .map((vehicle) => vehicle.specifications.seatingCapacity!.toString()),
+      ),
     )
       .sort((a, b) => parseInt(a) - parseInt(b))
       .map((capacity) => ({
@@ -167,7 +167,7 @@ export default function VehiclesPage() {
         (vehicle) =>
           vehicle.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
           vehicle.brand.toLowerCase().includes(searchQuery.toLowerCase()) ||
-          vehicle.model.toLowerCase().includes(searchQuery.toLowerCase())
+          vehicle.model.toLowerCase().includes(searchQuery.toLowerCase()),
       );
     }
 
@@ -189,14 +189,14 @@ export default function VehiclesPage() {
     // Filter by year
     if (selectedYear !== "all") {
       filtered = filtered.filter(
-        (vehicle) => vehicle.year.toString() === selectedYear
+        (vehicle) => vehicle.year.toString() === selectedYear,
       );
     }
 
     // Filter by fuel type
     if (selectedFuelType !== "all") {
       filtered = filtered.filter(
-        (vehicle) => vehicle.specifications?.fuelType === selectedFuelType
+        (vehicle) => vehicle.specifications?.fuelType === selectedFuelType,
       );
     }
 
@@ -205,18 +205,18 @@ export default function VehiclesPage() {
       filtered = filtered.filter(
         (vehicle) =>
           vehicle.specifications?.seatingCapacity?.toString() ===
-          selectedSeatingCapacity
+          selectedSeatingCapacity,
       );
     }
 
     // Filter by location
     if (selectedLocation !== "all") {
       const locationName = locations.find(
-        (loc) => loc.value === selectedLocation
+        (loc) => loc.value === selectedLocation,
       )?.label;
       if (locationName) {
         filtered = filtered.filter((vehicle) =>
-          vehicle.availability.locations.includes(locationName)
+          vehicle.availability.locations.includes(locationName),
         );
       }
     }
@@ -225,7 +225,7 @@ export default function VehiclesPage() {
     filtered = filtered.filter(
       (vehicle) =>
         vehicle.pricing.daily >= priceRange[0] &&
-        vehicle.pricing.daily <= priceRange[1]
+        vehicle.pricing.daily <= priceRange[1],
     );
 
     // Sort results
@@ -748,7 +748,7 @@ export default function VehiclesPage() {
                           <PaginationNext
                             onClick={() =>
                               handlePageChange(
-                                Math.min(totalPages, currentPage + 1)
+                                Math.min(totalPages, currentPage + 1),
                               )
                             }
                             className={
@@ -785,7 +785,7 @@ export default function VehiclesPage() {
                             onKeyDown={(e) => {
                               if (e.key === "Enter") {
                                 const value = parseInt(
-                                  (e.target as HTMLInputElement).value
+                                  (e.target as HTMLInputElement).value,
                                 );
                                 if (value >= 1 && value <= totalPages) {
                                   handlePageChange(value);

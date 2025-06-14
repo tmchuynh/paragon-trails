@@ -225,8 +225,16 @@ export const mockVehicles: Vehicle[] = [
       licenseRequired: ["Full License"],
     },
     insurance: {
-      included: ["Third Party Liability", "Theft Protection", "Collision Damage Waiver"],
-      optional: ["Full Coverage", "Personal Accident Insurance", "Luxury Vehicle Protection"],
+      included: [
+        "Third Party Liability",
+        "Theft Protection",
+        "Collision Damage Waiver",
+      ],
+      optional: [
+        "Full Coverage",
+        "Personal Accident Insurance",
+        "Luxury Vehicle Protection",
+      ],
     },
     rating: 4.9,
     reviews: 203,
@@ -658,7 +666,11 @@ export const mockVehicles: Vehicle[] = [
       licenseRequired: ["Full License"],
     },
     insurance: {
-      included: ["Third Party Liability", "Theft Protection", "Collision Damage Waiver"],
+      included: [
+        "Third Party Liability",
+        "Theft Protection",
+        "Collision Damage Waiver",
+      ],
       optional: ["Full Coverage", "Luxury Protection", "Concierge Service"],
     },
     rating: 4.8,
@@ -823,7 +835,11 @@ export const mockVehicles: Vehicle[] = [
     },
     insurance: {
       included: ["Third Party", "Theft Protection"],
-      optional: ["Full Coverage", "Track Day Coverage", "Premium Supercar Protection"],
+      optional: [
+        "Full Coverage",
+        "Track Day Coverage",
+        "Premium Supercar Protection",
+      ],
     },
     rating: 4.9,
     reviews: 89,
@@ -930,7 +946,11 @@ export const mockVehicles: Vehicle[] = [
     },
     insurance: {
       included: ["Third Party", "Theft Protection"],
-      optional: ["Full Coverage", "Track Day Insurance", "Superbike Protection"],
+      optional: [
+        "Full Coverage",
+        "Track Day Insurance",
+        "Superbike Protection",
+      ],
     },
     rating: 4.9,
     reviews: 78,

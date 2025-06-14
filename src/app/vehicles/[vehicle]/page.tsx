@@ -29,8 +29,6 @@ import { useParams, useRouter, useSearchParams } from "next/navigation";
 import { useState } from "react";
 import { toast } from "sonner";
 
-
-
 export default function VehicleDetailPage() {
   const router = useRouter();
   const params = useParams();
@@ -40,17 +38,19 @@ export default function VehicleDetailPage() {
 
   // Find the vehicle based on the slug
   const vehicleSlug = params.vehicle as string;
-  const vehicle = mockVehicles.find(v => formatToSlug(v.name) === vehicleSlug) || mockVehicles[0];
-  
+  const vehicle =
+    mockVehicles.find((v) => formatToSlug(v.name) === vehicleSlug) ||
+    mockVehicles[0];
+
   const [selectedImage, setSelectedImage] = useState(0);
   const [pickupDate, setPickupDate] = useState(
-    searchParams.get("pickup") || ""
+    searchParams.get("pickup") || "",
   );
   const [returnDate, setReturnDate] = useState(
-    searchParams.get("return") || ""
+    searchParams.get("return") || "",
   );
   const [pickupLocation, setPickupLocation] = useState(
-    searchParams.get("location") || "new-york"
+    searchParams.get("location") || "new-york",
   );
   const [isAddingToCart, setIsAddingToCart] = useState(false);
 
@@ -103,17 +103,17 @@ export default function VehicleDetailPage() {
           item.name === rentalItem.name &&
           item.dates.startDate === rentalItem.dates.startDate &&
           item.dates.endDate === rentalItem.dates.endDate &&
-          item.location === rentalItem.location
+          item.location === rentalItem.location,
       );
 
       if (existingItem) {
         cartHelpers.updateQuantity(
           dispatch,
           existingItem.id,
-          existingItem.quantity + 1
+          existingItem.quantity + 1,
         );
         toast.success(
-          `Added another ${vehicle.name} to cart! (${existingItem.quantity + 1} total)`
+          `Added another ${vehicle.name} to cart! (${existingItem.quantity + 1} total)`,
         );
         setIsAddingToCart(false);
         return;

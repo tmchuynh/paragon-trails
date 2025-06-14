@@ -2582,27 +2582,27 @@ export const mockHotels: Hotel[] = [
 // Helper function to get hotels by destination
 export const getHotelsByDestination = (destinationName: string): Hotel[] => {
   const destinationMappings: { [key: string]: string[] } = {
-    "Paris": ["1", "2"],
-    "Tokyo": ["3"],
+    Paris: ["1", "2"],
+    Tokyo: ["3"],
     "New York": ["4"],
-    "London": ["5"],
-    "Sydney": ["6"],
-    "Dubai": ["7"],
-    "Rome": ["8"],
-    "Santorini": ["9"],
-    "Bali": ["10"]
+    London: ["5"],
+    Sydney: ["6"],
+    Dubai: ["7"],
+    Rome: ["8"],
+    Santorini: ["9"],
+    Bali: ["10"],
   };
 
   const hotelIds = destinationMappings[destinationName] || [];
-  return mockHotels.filter(hotel => hotelIds.includes(hotel.id));
+  return mockHotels.filter((hotel) => hotelIds.includes(hotel.id));
 };
 
 // Helper function to get hotels by type
 export const getHotelsByType = (type: string): Hotel[] => {
-  return mockHotels.filter(hotel => hotel.type === type);
+  return mockHotels.filter((hotel) => hotel.type === type);
 };
 
 // Helper function to get hotels by star rating
 export const getHotelsByStarRating = (minStars: number): Hotel[] => {
-  return mockHotels.filter(hotel => hotel.starRating >= minStars);
+  return mockHotels.filter((hotel) => hotel.starRating >= minStars);
 };

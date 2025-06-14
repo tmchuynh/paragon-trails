@@ -87,14 +87,14 @@ export default function ExperienceCartItem({
 
   const updateTicketQuantity = (
     ticketType: "adult" | "child" | "senior" | "student" | "family",
-    newQuantity: number
+    newQuantity: number,
   ) => {
     setTicketTypes((prev) =>
       prev.map((ticket) =>
         ticket.type === ticketType
           ? { ...ticket, quantity: Math.max(0, newQuantity) }
-          : ticket
-      )
+          : ticket,
+      ),
     );
   };
 
@@ -114,7 +114,7 @@ export default function ExperienceCartItem({
   const getSubtotal = () => {
     return ticketTypes.reduce(
       (sum, ticket) => sum + ticket.price * ticket.quantity,
-      0
+      0,
     );
   };
 

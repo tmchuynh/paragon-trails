@@ -34,7 +34,7 @@ export default function Header() {
 
   const cartItemsCount = cartState.items.reduce(
     (total, item) => total + item.quantity,
-    0
+    0,
   );
 
   return (
@@ -157,7 +157,7 @@ export default function Header() {
               >
                 {item.label}
               </Link>
-            )
+            ),
           )}
 
           {/* Action buttons */}
@@ -239,7 +239,7 @@ export default function Header() {
                     >
                       {item.label}
                     </Link>
-                  )
+                  ),
                 )}
               </div>
             </div>

@@ -23,7 +23,7 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
         .split("/")
         .filter(Boolean)
         .map((segment) => decodeURIComponent(segment)),
-    [pathname]
+    [pathname],
   );
 
   // Don't show breadcrumb on home page
@@ -61,7 +61,7 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
                   className={cn(
                     "group flex items-center gap-2 text-muted-foreground/80",
                     "rounded-lg px-2.5 py-1.5 transition-all duration-200 ease-in-out",
-                    "hover:text-foreground "
+                    "hover:text-foreground ",
                   )}
                 >
                   <Home className="w-4 h-4 group-hover:text-accent transition-all duration-200 group-hover:scale-120" />
@@ -104,7 +104,7 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
                         <BreadcrumbPage
                           className={cn(
                             "max-w-[8rem] truncate font-semibold text-foreground sm:max-w-none",
-                            "rounded-lg bg-primary/8 px-2.5 py-1.5 ring-1 ring-primary/20"
+                            "rounded-lg bg-primary/8 px-2.5 py-1.5 ring-1 ring-primary/20",
                           )}
                         >
                           {displayText}
@@ -116,7 +116,7 @@ export default function DynamicBreadcrumb(): JSX.Element | null {
                             "max-w-[6rem] truncate text-muted-foreground/80 sm:max-w-none",
                             "rounded-lg px-2.5 py-1.5 font-medium transition-all duration-200 ease-in-out",
                             "hover:text-foreground hover:underline decoration-fancy decoration-2 underline-offset-2",
-                            "focus:outline-none focus:ring-2 focus:ring-primary/20 focus:ring-offset-2"
+                            "focus:outline-none focus:ring-2 focus:ring-primary/20 focus:ring-offset-2",
                           )}
                         >
                           {displayText}

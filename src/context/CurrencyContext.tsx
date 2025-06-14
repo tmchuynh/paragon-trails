@@ -42,7 +42,7 @@ const currencies: CurrencyData[] = [
 ];
 
 const CurrencyContext = createContext<CurrencyContextType | undefined>(
-  undefined
+  undefined,
 );
 
 export const useCurrency = () => {
@@ -68,7 +68,7 @@ export const CurrencyProvider: React.FC<{ children: React.ReactNode }> = ({
       setError(null);
 
       const apiKey = process.env.NEXT_PUBLIC_EXCHANGE_RATE_API_KEY;
-      
+
       // If no API key, use fallback rates immediately
       if (!apiKey) {
         console.warn("Exchange rate API key not found. Using fallback rates.");
@@ -77,11 +77,13 @@ export const CurrencyProvider: React.FC<{ children: React.ReactNode }> = ({
       }
 
       const response = await fetch(
-        `https://v6.exchangerate-api.com/v6/${apiKey}/latest/USD`
+        `https://v6.exchangerate-api.com/v6/${apiKey}/latest/USD`,
       );
 
       if (!response.ok) {
-        console.warn(`Exchange rate API error: ${response.status}. Using fallback rates.`);
+        console.warn(
+          `Exchange rate API error: ${response.status}. Using fallback rates.`,
+        );
         setFallbackRates();
         return;
       }
@@ -89,7 +91,9 @@ export const CurrencyProvider: React.FC<{ children: React.ReactNode }> = ({
       const data = await response.json();
 
       if (data.result !== "success") {
-        console.warn(`Exchange rate API error: ${data["error-type"] || "Unknown"}. Using fallback rates.`);
+        console.warn(
+          `Exchange rate API error: ${data["error-type"] || "Unknown"}. Using fallback rates.`,
+        );
         setFallbackRates();
         return;
       }
@@ -151,7 +155,7 @@ export const CurrencyProvider: React.FC<{ children: React.ReactNode }> = ({
 
   const convertPrice = (
     price: number,
-    fromCurrency: string = "USD"
+    fromCurrency: string = "USD",
   ): number => {
     if (!rates || Object.keys(rates).length === 0) {
       return price;
