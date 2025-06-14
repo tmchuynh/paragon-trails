@@ -268,20 +268,15 @@ export default function HotelDetailPage() {
                           <p className="text-slate-600 text-sm">
                             {room.description}
                           </p>
-                          <div className="text-sm">
-                            <p className="flex items-center gap-1">
-                              <Users className="w-3 h-3" />
-                              {room.capacity.adults} adult
-                              {room.capacity.adults > 1 ? "s" : ""}
-                              {room.capacity.children !== 0 && (
-                                <span className="-ml-1">
-                                  , {room.capacity.children}{" "}
-                                  {room.capacity.children >= 2
-                                    ? "children"
-                                    : "child"}{" "}
-                                </span>
-                              )}
-                            </p>
+                          <div className="flex flex-col gap-1 text-sm">
+                            <div className="inline-flex items-start gap-1">
+                              <Users className="mt-1.5 w-3 h-3" />
+                              Max occupancy:
+                              <div className="flex flex-col">
+                                {room.capacity.maxOccupancy}
+                              </div>
+                            </div>
+
                             <div className="inline-flex items-start gap-1">
                               <Bed className="mt-1.5 w-3 h-3" />
                               <div className="flex flex-col">

@@ -69,14 +69,19 @@ export interface Hotel {
 export interface HotelRoom {
   id: string;
   name: string;
-  type: "standard" | "deluxe" | "suite" | "family" | "executive" | "presidential";
+  type:
+    | "standard"
+    | "deluxe"
+    | "suite"
+    | "family"
+    | "executive"
+    | "presidential";
   size: {
     area: number;
     unit: string;
   };
   capacity: {
-    adults: number;
-    children: number;
+    maxOccupancy: number;
     beds: {
       type: string;
       count: number;

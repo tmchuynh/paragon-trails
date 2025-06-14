@@ -8,8 +8,7 @@ export const standardRoomOptions: HotelRoom[] = [
     type: "standard",
     size: { area: 20, unit: "m²" },
     capacity: {
-      adults: 1,
-      children: 0,
+      maxOccupancy: 2,
       beds: [{ type: "Double", count: 1 }],
     },
     amenities: [
@@ -33,8 +32,7 @@ export const standardRoomOptions: HotelRoom[] = [
     type: "standard",
     size: { area: 25, unit: "m²" },
     capacity: {
-      adults: 2,
-      children: 0,
+      maxOccupancy: 2,
       beds: [{ type: "Queen", count: 1 }],
     },
     amenities: [
@@ -59,8 +57,7 @@ export const standardRoomOptions: HotelRoom[] = [
     type: "standard",
     size: { area: 30, unit: "m²" },
     capacity: {
-      adults: 3,
-      children: 0,
+      maxOccupancy: 5,
       beds: [
         { type: "Queen", count: 2 },
         { type: "Twin", count: 1 },
@@ -89,8 +86,7 @@ export const standardRoomOptions: HotelRoom[] = [
     type: "deluxe",
     size: { area: 30, unit: "m²" },
     capacity: {
-      adults: 2,
-      children: 0,
+      maxOccupancy: 2,
       beds: [{ type: "Queen", count: 1 }],
     },
     amenities: [
@@ -116,8 +112,7 @@ export const standardRoomOptions: HotelRoom[] = [
     type: "deluxe",
     size: { area: 35, unit: "m²" },
     capacity: {
-      adults: 2,
-      children: 0,
+      maxOccupancy: 2,
       beds: [{ type: "King", count: 1 }],
     },
     amenities: [
@@ -148,8 +143,7 @@ export const standardRoomOptions: HotelRoom[] = [
     type: "family",
     size: { area: 50, unit: "m²" },
     capacity: {
-      adults: 4,
-      children: 4,
+      maxOccupancy: 6,
       beds: [
         { type: "King", count: 2 },
         { type: "Twin", count: 2 },
@@ -184,8 +178,7 @@ export const standardRoomOptions: HotelRoom[] = [
     type: "executive",
     size: { area: 65, unit: "m²" },
     capacity: {
-      adults: 2,
-      children: 2,
+      maxOccupancy: 2,
       beds: [{ type: "King", count: 1 }],
     },
     amenities: [
@@ -217,8 +210,7 @@ export const standardRoomOptions: HotelRoom[] = [
     type: "presidential",
     size: { area: 120, unit: "m²" },
     capacity: {
-      adults: 4,
-      children: 2,
+      maxOccupancy: 4,
       beds: [{ type: "King", count: 2 }],
     },
     amenities: [
@@ -250,8 +242,7 @@ export const standardRoomOptions: HotelRoom[] = [
     type: "executive",
     size: { area: 150, unit: "m²" },
     capacity: {
-      adults: 6,
-      children: 4,
+      maxOccupancy: 10,
       beds: [
         { type: "King", count: 2 },
         { type: "Queen", count: 2 },
@@ -289,8 +280,7 @@ export const standardRoomOptions: HotelRoom[] = [
     type: "presidential",
     size: { area: 200, unit: "m²" },
     capacity: {
-      adults: 8,
-      children: 4,
+      maxOccupancy: 12,
       beds: [
         { type: "King", count: 4 },
         { type: "Queen", count: 2 },
@@ -320,6 +310,74 @@ export const standardRoomOptions: HotelRoom[] = [
       "Full kitchen",
       "Outdoor dining area",
       "Luxury furnishings",
+    ],
+  },
+  {
+    id: "accessible-room",
+    name: "Accessible Room",
+    type: "standard",
+    size: { area: 25, unit: "m²" },
+    capacity: {
+      maxOccupancy: 2,
+      beds: [{ type: "Queen", count: 1 }],
+    },
+    amenities: [
+      "Free Wi-Fi",
+      "Air Conditioning",
+      "Private Bathroom",
+      "Smart TV",
+      "Room Service",
+      "Mini Bar",
+      "Coffee Machine",
+    ],
+    pricing: { baseRate: 100, currency: "USD" },
+    availability: true,
+    images: [
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop",
+    ],
+    description: "Comfortable room designed for accessibility",
+    features: [
+      "Wheelchair accessible",
+      "Grab bars in bathroom",
+      "Wide doorways",
+      "Lowered light switches",
+      "Visual alarms",
+    ],
+  },
+  {
+    id: "adjoining-rooms",
+    name: "Adjoining Rooms",
+    type: "deluxe",
+    size: { area: 60, unit: "m²" },
+    capacity: {
+      maxOccupancy: 7,
+      beds: [
+        { type: "King", count: 1 },
+        { type: "Queen", count: 1 },
+        { type: "Twin", count: 2 },
+      ],
+    },
+    amenities: [
+      "Free Wi-Fi",
+      "Air Conditioning",
+      "Private Bathroom",
+      "Smart TV",
+      "Room Service",
+      "Mini Bar",
+      "Coffee Machine",
+    ],
+    pricing: { baseRate: 300, currency: "USD" },
+    availability: true,
+    images: [
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop",
+    ],
+    description: "Two adjoining rooms for larger families or groups",
+    features: [
+      "Connected rooms",
+      "Shared bathroom",
+      "Separate entrances",
+      "Ideal for families",
+      "Extra privacy",
     ],
   },
 ];
