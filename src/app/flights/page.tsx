@@ -2,6 +2,7 @@
 
 import FlightCard from "@/components/cards/FlightCard";
 import { Button } from "@/components/ui/button";
+import { Calendar } from "@/components/ui/calendar";
 import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -15,6 +16,11 @@ import {
   PaginationPrevious,
 } from "@/components/ui/pagination";
 import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/components/ui/popover";
+import {
   Select,
   SelectContent,
   SelectItem,
@@ -26,21 +32,27 @@ import { cartHelpers, useCart } from "@/context/CartContext";
 import { useCurrency } from "@/context/CurrencyContext";
 import { mockFlights } from "@/data/flights";
 import { formatToSlug } from "@/lib/utils/format";
-import { Filter, Plane, RotateCcw, Search } from "lucide-react";
+import { CalendarIcon, Filter, Plane, RotateCcw, Search } from "lucide-react";
 import { useEffect, useState } from "react";
 import { toast } from "sonner";
 
 export default function FlightsPage() {
   const { formatPrice } = useCurrency();
   const { state: cartState, dispatch } = useCart();
+  const [dropdown, setDropdown] =
+    useState<React.ComponentProps<typeof Calendar>["captionLayout"]>(
+      "dropdown"
+    );
 
   const [filteredFlights, setFilteredFlights] = useState(mockFlights);
   const [searchQuery, setSearchQuery] = useState("");
   const [fromLocation, setFromLocation] = useState<string>("all");
   const [toLocation, setToLocation] = useState<string>("all");
   const [selectedAirline, setSelectedAirline] = useState<string>("all");
-  const [departureDate, setDepartureDate] = useState("");
-  const [arrivalDate, setArrivalDate] = useState("");
+  const [departureDate, setDepartureDate] = useState<Date | undefined>(
+    undefined
+  );
+  const [arrivalDate, setArrivalDate] = useState<Date | undefined>(undefined);
   const [departureTimeRange, setDepartureTimeRange] = useState<string>("all");
   const [arrivalTimeRange, setArrivalTimeRange] = useState<string>("all");
   const [selectedDuration, setSelectedDuration] = useState<string>("all");
@@ -206,16 +218,24 @@ export default function FlightsPage() {
 
     // Filter by departure date
     if (departureDate) {
-      filtered = filtered.filter(
-        (flight) => flight.departure.date === departureDate
-      );
+      filtered = filtered.filter((flight) => {
+        const flightDate = new Date(flight.departure.date);
+        flightDate.setHours(0, 0, 0, 0);
+        const filterDate = new Date(departureDate);
+        filterDate.setHours(0, 0, 0, 0);
+        return flightDate.getTime() === filterDate.getTime();
+      });
     }
 
     // Filter by arrival date
     if (arrivalDate) {
-      filtered = filtered.filter(
-        (flight) => flight.arrival.date === arrivalDate
-      );
+      filtered = filtered.filter((flight) => {
+        const flightDate = new Date(flight.arrival.date);
+        flightDate.setHours(0, 0, 0, 0);
+        const filterDate = new Date(arrivalDate);
+        filterDate.setHours(0, 0, 0, 0);
+        return flightDate.getTime() === filterDate.getTime();
+      });
     }
 
     // Filter by departure time range
@@ -302,8 +322,8 @@ export default function FlightsPage() {
     setFromLocation("all");
     setToLocation("all");
     setSelectedAirline("all");
-    setDepartureDate("");
-    setArrivalDate("");
+    setDepartureDate(undefined);
+    setArrivalDate(undefined);
     setDepartureTimeRange("all");
     setArrivalTimeRange("all");
     setSelectedDuration("all");
@@ -396,7 +416,9 @@ export default function FlightsPage() {
   };
 
   const handleAddToCart = (flight: any) => {
-    const departureBaseDate = departureDate || flight.departure.date;
+    const departureBaseDate = departureDate
+      ? departureDate.toISOString().split("T")[0]
+      : flight.departure.date;
 
     const flightItem = {
       id: `flight-${formatToSlug(flight.flightNumber)}-${departureBaseDate}-${classType}`,
@@ -561,28 +583,80 @@ export default function FlightsPage() {
                     {/* Departure Date */}
                     <div className="space-y-2">
                       <Label>Departure Date</Label>
-                      <Input
-                        type="date"
-                        value={departureDate}
-                        onChange={(e) => setDepartureDate(e.target.value)}
-                        className="flex flex-col justify-center mt-0.25 border focus:border-muted border-border focus:ring-muted/20"
-                        min={new Date().toISOString().split("T")[0]}
-                      />
+                      <Popover>
+                        <PopoverTrigger asChild>
+                          <Button
+                            variant="outline"
+                            className="justify-start border hover:border-muted border-border w-full font-normal text-left"
+                          >
+                            <CalendarIcon className="mr-2 w-4 h-4" />
+                            {departureDate ? (
+                              departureDate.toLocaleDateString("en-US", {
+                                day: "2-digit",
+                                month: "short",
+                                year: "numeric",
+                              })
+                            ) : (
+                              <span>Pick departure date</span>
+                            )}
+                          </Button>
+                        </PopoverTrigger>
+                        <PopoverContent className="p-0 w-auto" align="start">
+                          <Calendar
+                            mode="single"
+                            defaultMonth={departureDate}
+                            selected={departureDate}
+                            onSelect={setDepartureDate}
+                            captionLayout={dropdown}
+                            disabled={(date) => {
+                              const today = new Date();
+                              today.setHours(0, 0, 0, 0);
+                              return date < today;
+                            }}
+                          />
+                        </PopoverContent>
+                      </Popover>
                     </div>
 
                     {/* Arrival Date */}
                     <div className="space-y-2">
                       <Label>Arrival Date</Label>
-                      <Input
-                        type="date"
-                        value={arrivalDate}
-                        onChange={(e) => setArrivalDate(e.target.value)}
-                        className="flex flex-col justify-center mt-0.25 border focus:border-muted border-border focus:ring-muted/20"
-                        min={
-                          departureDate ||
-                          new Date().toISOString().split("T")[0]
-                        }
-                      />
+                      <Popover>
+                        <PopoverTrigger asChild>
+                          <Button
+                            variant="outline"
+                            className="justify-start border hover:border-muted border-border w-full font-normal text-left"
+                          >
+                            <CalendarIcon className="mr-2 w-4 h-4" />
+                            {arrivalDate ? (
+                              arrivalDate.toLocaleDateString("en-US", {
+                                day: "2-digit",
+                                month: "short",
+                                year: "numeric",
+                              })
+                            ) : (
+                              <span>Pick arrival date</span>
+                            )}
+                          </Button>
+                        </PopoverTrigger>
+                        <PopoverContent className="p-0 w-auto" align="start">
+                          <Calendar
+                            initialFocus
+                            mode="single"
+                            defaultMonth={arrivalDate}
+                            selected={arrivalDate}
+                            onSelect={setArrivalDate}
+                            disabled={(date) => {
+                              const today = new Date();
+                              today.setHours(0, 0, 0, 0);
+                              return (
+                                date < today ||
+                                (departureDate ? date < departureDate : false)
+                              );
+                            }}
+                          />
+                        </PopoverContent>
+                      </Popover>
                     </div>
 
                     {/* Passengers */}
