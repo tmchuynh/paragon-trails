@@ -34,17 +34,21 @@ export default function FlightsPage() {
 
   // Extract unique locations from mockFlights
   const locations = Array.from(
-    new Set([
-      ...mockFlights.map(flight => flight.origin),
-      ...mockFlights.map(flight => flight.destination)
-    ].map(location => `${location.code}|${location.city}`))
-  ).map(locationStr => {
-    const [code, city] = locationStr.split('|');
-    return {
-      value: code,
-      label: `${city} (${code})`
-    };
-  }).sort((a, b) => a.label.localeCompare(b.label));
+    new Set(
+      [
+        ...mockFlights.map((flight) => flight.origin),
+        ...mockFlights.map((flight) => flight.destination),
+      ].map((location) => `${location.code}|${location.city}`),
+    ),
+  )
+    .map((locationStr) => {
+      const [code, city] = locationStr.split("|");
+      return {
+        value: code,
+        label: `${city} (${code})`,
+      };
+    })
+    .sort((a, b) => a.label.localeCompare(b.label));
 
   const handleSearch = () => {
     let filtered = mockFlights;
@@ -52,12 +56,12 @@ export default function FlightsPage() {
     // Filter by origin and destination
     if (fromLocation) {
       filtered = filtered.filter(
-        (flight) => flight.origin.code === fromLocation
+        (flight) => flight.origin.code === fromLocation,
       );
     }
     if (toLocation) {
       filtered = filtered.filter(
-        (flight) => flight.destination.code === toLocation
+        (flight) => flight.destination.code === toLocation,
       );
     }
 
@@ -72,7 +76,7 @@ export default function FlightsPage() {
           flight.destination.city
             .toLowerCase()
             .includes(searchQuery.toLowerCase()) ||
-          flight.origin.city.toLowerCase().includes(searchQuery.toLowerCase())
+          flight.origin.city.toLowerCase().includes(searchQuery.toLowerCase()),
       );
     }
 
@@ -139,14 +143,14 @@ export default function FlightsPage() {
         (item) =>
           item.name === flightItem.name &&
           item.dates.startDate === flightItem.dates.startDate &&
-          item.location === flightItem.location
+          item.location === flightItem.location,
       );
 
       if (existingItem) {
         const newGuestCount = existingItem.guests + parseInt(passengers);
         cartHelpers.updateGuests(dispatch, existingItem.id, newGuestCount);
         toast.success(
-          `Added ${passengers} more passenger${parseInt(passengers) > 1 ? "s" : ""} to ${flight.flightNumber}!`
+          `Added ${passengers} more passenger${parseInt(passengers) > 1 ? "s" : ""} to ${flight.flightNumber}!`,
         );
         return;
       }

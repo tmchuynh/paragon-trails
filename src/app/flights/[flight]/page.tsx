@@ -106,14 +106,14 @@ export default function FlightDetailsPage() {
         (item) =>
           item.name === flightItem.name &&
           item.dates.startDate === flightItem.dates.startDate &&
-          item.location === flightItem.location
+          item.location === flightItem.location,
       );
 
       if (existingItem) {
         const newGuestCount = existingItem.guests + passengers;
         cartHelpers.updateGuests(dispatch, existingItem.id, newGuestCount);
         toast.success(
-          `Added ${passengers} more passenger${passengers > 1 ? "s" : ""} to ${flight.flightNumber}!`
+          `Added ${passengers} more passenger${passengers > 1 ? "s" : ""} to ${flight.flightNumber}!`,
         );
         setIsBooking(false);
         return;
