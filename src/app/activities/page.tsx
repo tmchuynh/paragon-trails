@@ -64,7 +64,7 @@ export default function ActivitiesPage() {
   const cities = [
     { value: "all", label: "All Cities" },
     ...Array.from(
-      new Set(mockActivities.map((activity) => activity.location.city))
+      new Set(mockActivities.map((activity) => activity.location.city)),
     )
       .sort()
       .map((city) => ({ value: city, label: city })),
@@ -73,7 +73,7 @@ export default function ActivitiesPage() {
   const countries = [
     { value: "all", label: "All Countries" },
     ...Array.from(
-      new Set(mockActivities.map((activity) => activity.location.country))
+      new Set(mockActivities.map((activity) => activity.location.country)),
     )
       .sort()
       .map((country) => ({ value: country, label: country })),
@@ -89,7 +89,7 @@ export default function ActivitiesPage() {
   const difficulties = [
     { value: "all", label: "All Difficulties" },
     ...Array.from(
-      new Set(mockActivities.map((activity) => activity.difficulty))
+      new Set(mockActivities.map((activity) => activity.difficulty)),
     )
       .sort()
       .map((difficulty) => ({ value: difficulty, label: difficulty })),
@@ -119,42 +119,42 @@ export default function ActivitiesPage() {
           activity.location.country
             .toLowerCase()
             .includes(searchQuery.toLowerCase()) ||
-          activity.category.toLowerCase().includes(searchQuery.toLowerCase())
+          activity.category.toLowerCase().includes(searchQuery.toLowerCase()),
       );
     }
 
     // Filter by city
     if (selectedCity !== "all") {
       filtered = filtered.filter(
-        (activity) => activity.location.city === selectedCity
+        (activity) => activity.location.city === selectedCity,
       );
     }
 
     // Filter by country
     if (selectedCountry !== "all") {
       filtered = filtered.filter(
-        (activity) => activity.location.country === selectedCountry
+        (activity) => activity.location.country === selectedCountry,
       );
     }
 
     // Filter by category
     if (selectedCategory !== "all") {
       filtered = filtered.filter(
-        (activity) => activity.category === selectedCategory
+        (activity) => activity.category === selectedCategory,
       );
     }
 
     // Filter by difficulty
     if (selectedDifficulty !== "all") {
       filtered = filtered.filter(
-        (activity) => activity.difficulty === selectedDifficulty
+        (activity) => activity.difficulty === selectedDifficulty,
       );
     }
 
     // Filter by duration
     if (selectedDuration !== "all") {
       filtered = filtered.filter(
-        (activity) => activity.duration === selectedDuration
+        (activity) => activity.duration === selectedDuration,
       );
     }
 
@@ -162,7 +162,7 @@ export default function ActivitiesPage() {
     filtered = filtered.filter(
       (activity) =>
         activity.pricing.adult >= priceRange[0] &&
-        activity.pricing.adult <= priceRange[1]
+        activity.pricing.adult <= priceRange[1],
     );
 
     // Sort results
@@ -530,7 +530,7 @@ export default function ActivitiesPage() {
                       className="group hover:shadow-xl p-0 transition-all cursor-pointer overflow-hidden"
                       onClick={() =>
                         router.push(
-                          `/activities/${activity.id.toLowerCase().replace(/\s+/g, "-")}`
+                          `/activities/${activity.id.toLowerCase().replace(/\s+/g, "-")}`,
                         )
                       }
                     >
@@ -547,7 +547,7 @@ export default function ActivitiesPage() {
                         <div className="top-4 left-4 absolute">
                           <Badge
                             variant={getDifficultyBadgeVariant(
-                              activity.difficulty
+                              activity.difficulty,
                             )}
                           >
                             {activity.difficulty}
@@ -663,7 +663,7 @@ export default function ActivitiesPage() {
                                 </PaginationLink>
                               </PaginationItem>
                             );
-                          }
+                          },
                         )}
 
                         {totalPages > 5 && currentPage < totalPages - 2 && (
