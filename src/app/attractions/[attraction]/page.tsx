@@ -14,6 +14,8 @@ import { Separator } from "@/components/ui/separator";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useCurrency } from "@/context/CurrencyContext";
 import { mockAttractions } from "@/data/attractions";
+import { formatToSlug } from "@/lib/utils/format";
+import { Label } from "@radix-ui/react-label";
 import {
   Accessibility,
   ArrowLeft,
@@ -52,8 +54,7 @@ export default function AttractionDetailsPage() {
   // Find attraction by URL param
   const attractionSlug = params.attraction as string;
   const initialAttraction = mockAttractions.find(
-    (attraction) =>
-      attraction.name.toLowerCase().replace(/\s+/g, "-") === attractionSlug
+    (attraction) => formatToSlug(attraction.name) === attractionSlug
   );
 
   const [currentAttraction, setCurrentAttraction] = useState(initialAttraction);
@@ -61,20 +62,20 @@ export default function AttractionDetailsPage() {
   // Update current attraction when URL param changes
   useEffect(() => {
     const foundAttraction = mockAttractions.find(
-      (attraction) =>
-        attraction.name.toLowerCase().replace(/\s+/g, "-") === attractionSlug
+      (attraction) => formatToSlug(attraction.name) === attractionSlug
     );
+    console.log("Found attraction:", foundAttraction);
     setCurrentAttraction(foundAttraction);
     setSelectedImageIndex(0); // Reset image index when attraction changes
   }, [attractionSlug]);
 
   // Handle attraction change from selector
-  const handleAttractionChange = (newAttractionName: string) => {
+  const handleAttractionChange = (newAttractionId: string) => {
     const newAttraction = mockAttractions.find(
-      (attraction) => attraction.name === newAttractionName
+      (attraction) => attraction.id === newAttractionId
     );
     if (newAttraction) {
-      const newSlug = newAttraction.name.toLowerCase().replace(/\s+/g, "-");
+      const newSlug = formatToSlug(newAttraction.name);
       // Update URL without reloading the page
       router.replace(`/attractions/${newSlug}`, { scroll: false });
     }
@@ -107,9 +108,9 @@ export default function AttractionDetailsPage() {
         {/* Attraction Selector */}
         <div className="mb-6">
           <div className="flex items-center gap-4">
-            <label className="font-medium text-sm">Choose Attraction:</label>
+            <Label className="font-medium text-sm">Choose Attraction:</Label>
             <Select
-              value={currentAttraction?.name || ""}
+              value={currentAttraction?.id || ""}
               onValueChange={handleAttractionChange}
             >
               <SelectTrigger className="w-64">
@@ -117,7 +118,7 @@ export default function AttractionDetailsPage() {
               </SelectTrigger>
               <SelectContent>
                 {mockAttractions.map((attraction) => (
-                  <SelectItem key={attraction.name} value={attraction.name}>
+                  <SelectItem key={attraction.id} value={attraction.id}>
                     {attraction.name}, {attraction.location.city}
                   </SelectItem>
                 ))}
@@ -174,7 +175,7 @@ export default function AttractionDetailsPage() {
             {currentAttraction.images
               .slice(0, 4)
               .map((image: string, index: number) => (
-                <button
+                <Button
                   key={index}
                   onClick={() => setSelectedImageIndex(index)}
                   className={`relative w-24 h-16 rounded-lg overflow-hidden ${
@@ -187,7 +188,7 @@ export default function AttractionDetailsPage() {
                     fill
                     className="object-cover"
                   />
-                </button>
+                </Button>
               ))}
           </div>
         </div>
@@ -360,26 +361,36 @@ export default function AttractionDetailsPage() {
                         <div className="flex justify-between">
                           <span>Adult:</span>
                           <span className="font-semibold">
-                            {formatPrice(currentAttraction.pricing.adult)}
+                            {currentAttraction.pricing.adult === 0
+                              ? "FREE"
+                              : formatPrice(currentAttraction.pricing.adult)}
                           </span>
                         </div>
                         <div className="flex justify-between">
                           <span>Child:</span>
                           <span className="font-semibold">
-                            {formatPrice(currentAttraction.pricing.child)}
+                            {currentAttraction.pricing.child === 0
+                              ? "FREE"
+                              : formatPrice(currentAttraction.pricing.child)}
                           </span>
                         </div>
                         <div className="flex justify-between">
                           <span>Senior:</span>
                           <span className="font-semibold">
-                            {formatPrice(currentAttraction.pricing.senior)}
+                            {currentAttraction.pricing.senior === 0
+                              ? "FREE"
+                              : formatPrice(currentAttraction.pricing.senior)}
                           </span>
                         </div>
                         {currentAttraction.pricing.student && (
                           <div className="flex justify-between">
                             <span>Student:</span>
                             <span className="font-semibold">
-                              {formatPrice(currentAttraction.pricing.student)}
+                              {currentAttraction.pricing.student === 0
+                                ? "FREE"
+                                : formatPrice(
+                                    currentAttraction.pricing.student
+                                  )}
                             </span>
                           </div>
                         )}
@@ -387,7 +398,9 @@ export default function AttractionDetailsPage() {
                           <div className="flex justify-between col-span-2">
                             <span>Family Package:</span>
                             <span className="font-semibold">
-                              {formatPrice(currentAttraction.pricing.family)}
+                              {currentAttraction.pricing.family === 0
+                                ? "FREE"
+                                : formatPrice(currentAttraction.pricing.family)}
                             </span>
                           </div>
                         )}
