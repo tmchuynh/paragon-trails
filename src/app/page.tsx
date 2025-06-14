@@ -300,7 +300,7 @@ export default function HomePage() {
                       />
                       <div className="top-2 right-2 absolute bg-black px-2 py-1 rounded text-sm text-white">
                         {formatPrice(
-                          destination.pricing.accommodationRange.midRange
+                          destination.pricing.accommodationRange.midRange,
                         )}
                       </div>
                     </div>
@@ -478,7 +478,7 @@ export default function HomePage() {
                       mockDestinations.find((dest) =>
                         dest.name
                           .toLowerCase()
-                          .includes(flight.destination.city.toLowerCase())
+                          .includes(flight.destination.city.toLowerCase()),
                       )?.images[0] ||
                       "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=600&auto=format&fit=crop&q=60"
                     }
