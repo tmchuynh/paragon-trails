@@ -72,7 +72,7 @@ export default function DayPlanner({
     const recommendation = getTimeSlotRecommendation(totalTime);
 
     const getRecommendationColor = (rec: string) => {
-      if (rec.includes("light day")) return "text-blue-600";
+      if (rec.includes("light day")) return "text-foreground";
       if (rec.includes("Perfect balance")) return "text-green-600";
       if (rec.includes("packed day")) return "text-yellow-600";
       if (rec.includes("too ambitious")) return "text-red-600";
@@ -305,6 +305,19 @@ export default function DayPlanner({
         <p className="text-gray-600 text-sm dark:text-gray-300">
           Drag activities from the left panel to organize your days
         </p>
+      </div>
+
+      {/* Tips */}
+      <div className="bg-blue-50 dark:bg-blue-900/20 mt-6 p-3 rounded-lg">
+        <h5 className="mb-1 font-medium text-blue-900 text-sm dark:text-blue-100">
+          💡 Planning Tips
+        </h5>
+        <ul className="space-y-1 text-blue-700 text-xs dark:text-blue-200">
+          <li>• Leave time for meals and travel between activities</li>
+          <li>• Consider energy levels throughout the day</li>
+          <li>• Check opening hours and availability</li>
+          <li>• Book popular attractions in advance</li>
+        </ul>
       </div>
 
       <div className="gap-6 grid">

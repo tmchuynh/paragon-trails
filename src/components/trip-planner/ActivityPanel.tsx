@@ -159,7 +159,7 @@ export default function ActivityPanel({
             placeholder="Search activities..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            className="pl-10"
+            className="pl-10 border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
           />
         </div>
       </CardHeader>
@@ -229,19 +229,6 @@ export default function ActivityPanel({
             </div>
           </TabsContent>
         </Tabs>
-
-        {/* Tips */}
-        <div className="bg-blue-50 dark:bg-blue-900/20 mt-6 p-3 rounded-lg">
-          <h5 className="mb-1 font-medium text-blue-900 text-sm dark:text-blue-100">
-            💡 Planning Tips
-          </h5>
-          <ul className="space-y-1 text-blue-700 text-xs dark:text-blue-200">
-            <li>• Leave time for meals and travel between activities</li>
-            <li>• Consider energy levels throughout the day</li>
-            <li>• Check opening hours and availability</li>
-            <li>• Book popular attractions in advance</li>
-          </ul>
-        </div>
       </CardContent>
     </Card>
   );
