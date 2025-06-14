@@ -1,6 +1,6 @@
 "use client";
 
-import AttractionCard from "@/components/cards/AttractionCard";
+import AttractionDisplayCard from "@/components/cards/AttractionDisplayCard";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -536,7 +536,7 @@ export default function AttractionsPage() {
               <>
                 <div className="gap-6 grid grid-cols-1 xl:grid-cols-2">
                   {paginatedAttractions.map((attraction) => (
-                    <AttractionCard
+                    <AttractionDisplayCard
                       key={attraction.id}
                       attraction={attraction}
                     />
