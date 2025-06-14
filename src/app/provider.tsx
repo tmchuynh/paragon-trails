@@ -1,5 +1,6 @@
 "use client";
 
+import { AuthProvider } from "@/context/AuthContext";
 import { CartProvider } from "@/context/CartContext";
 import { CurrencyProvider } from "@/context/CurrencyContext";
 import { NotFoundProvider } from "@/context/NotFoundContext";
@@ -19,7 +20,9 @@ export function Providers({ children }: { children: ReactNode }): JSX.Element {
     <ThemeProvider attribute="class" defaultTheme="light" enableSystem={true}>
       <CurrencyProvider>
         <NotFoundProvider>
-          <CartProvider>{children}</CartProvider>
+          <AuthProvider>
+            <CartProvider>{children}</CartProvider>
+          </AuthProvider>
         </NotFoundProvider>
       </CurrencyProvider>
     </ThemeProvider>
