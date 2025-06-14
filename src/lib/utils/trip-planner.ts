@@ -1,4 +1,8 @@
-import { TripDay, TripItem, DurationOption } from "@/lib/interfaces/trip-planner";
+import {
+  DurationOption,
+  TripDay,
+  TripItem,
+} from "@/lib/interfaces/trip-planner";
 import { addDays, differenceInDays } from "date-fns";
 
 export function generateTripDays(startDate: Date, endDate: Date): TripDay[] {
@@ -21,28 +25,28 @@ export function generateTripDays(startDate: Date, endDate: Date): TripDay[] {
 export function parseDuration(duration: string): number {
   // Convert duration strings like "2 hours", "3-4 hours", "90 minutes" to minutes
   const normalized = duration.toLowerCase();
-  
+
   if (normalized.includes("hour")) {
     const hourMatch = normalized.match(/(\d+(?:\.\d+)?)/);
     if (hourMatch) {
       return parseInt(hourMatch[1]) * 60;
     }
   }
-  
+
   if (normalized.includes("minute")) {
     const minuteMatch = normalized.match(/(\d+)/);
     if (minuteMatch) {
       return parseInt(minuteMatch[1]);
     }
   }
-  
+
   if (normalized.includes("day")) {
     const dayMatch = normalized.match(/(\d+)/);
     if (dayMatch) {
       return parseInt(dayMatch[1]) * 24 * 60; // full day
     }
   }
-  
+
   // Default fallback for unknown formats
   return 120; // 2 hours
 }
@@ -51,14 +55,14 @@ export function formatDuration(minutes: number): string {
   if (minutes < 60) {
     return `${minutes} minutes`;
   }
-  
+
   const hours = Math.floor(minutes / 60);
   const remainingMinutes = minutes % 60;
-  
+
   if (remainingMinutes === 0) {
     return hours === 1 ? "1 hour" : `${hours} hours`;
   }
-  
+
   return `${hours}h ${remainingMinutes}m`;
 }
 
@@ -83,7 +87,7 @@ export function calculateTotalDayTime(items: TripItem[]): number {
 
 export function getTimeSlotRecommendation(totalMinutes: number): string {
   const hours = totalMinutes / 60;
-  
+
   if (hours <= 2) {
     return "This looks like a light day - consider adding more activities or leaving time for spontaneous exploration!";
   } else if (hours <= 6) {
@@ -118,7 +122,7 @@ export function convertToTripItem(
         price: originalItem.pricing?.adult,
         currency: originalItem.pricing?.currency,
       };
-    
+
     case "attraction":
       return {
         ...baseItem,
@@ -126,7 +130,7 @@ export function convertToTripItem(
         price: originalItem.pricing?.adult,
         currency: originalItem.pricing?.currency,
       };
-    
+
     case "tour":
       return {
         ...baseItem,
@@ -134,7 +138,7 @@ export function convertToTripItem(
         price: originalItem.pricing?.adult,
         currency: originalItem.pricing?.currency,
       };
-    
+
     default:
       return {
         ...baseItem,
