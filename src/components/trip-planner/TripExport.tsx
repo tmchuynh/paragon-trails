@@ -17,7 +17,7 @@ import {
   formatDuration,
 } from "@/lib/utils/trip-planner";
 import { format } from "date-fns";
-import { Download, Share2 } from "lucide-react";
+import { Check, Copy, Download, Share2 } from "lucide-react";
 import { useState } from "react";
 
 interface TripExportProps {
@@ -28,6 +28,7 @@ interface TripExportProps {
 export default function TripExport({ tripPlan, days }: TripExportProps) {
   const [notes, setNotes] = useState("");
   const [manualCopyText, setManualCopyText] = useState<string | null>(null);
+  const [copied, setCopied] = useState(false);
 
   const generateTripSummary = () => {
     const summary = {
@@ -107,6 +108,21 @@ export default function TripExport({ tripPlan, days }: TripExportProps) {
     linkElement.setAttribute("href", dataUri);
     linkElement.setAttribute("download", exportFileDefaultName);
     linkElement.click();
+  };
+
+  const handleCopyToClipboard = async (textToCopy: string) => {
+    try {
+      await navigator.clipboard.writeText(textToCopy);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000); // Reset copied state after 2 seconds
+    } catch (err) {
+      // If clipboard fails, set text for manual copy dialog (though this dialog already handles it)
+      // This is more of a fallback for the direct copy button if it were to be used outside the dialog
+      setManualCopyText(textToCopy);
+      alert(
+        "Failed to copy. Please try again or copy manually from the dialog."
+      );
+    }
   };
 
   const shareTrip = async () => {
@@ -226,7 +242,7 @@ export default function TripExport({ tripPlan, days }: TripExportProps) {
           open={!!manualCopyText}
           onOpenChange={() => setManualCopyText(null)}
         >
-          <DialogContent className="sm:max-w-md">
+          <DialogContent className="sm:max-w-6/7">
             <DialogHeader>
               <DialogTitle>Copy Trip Details</DialogTitle>
               <DialogDescription>
@@ -234,12 +250,32 @@ export default function TripExport({ tripPlan, days }: TripExportProps) {
                 below manually.
               </DialogDescription>
             </DialogHeader>
-            <Textarea
-              value={manualCopyText}
-              readOnly
-              rows={5}
-              className="my-4"
-            />
+            <div className="relative">
+              <Textarea
+                value={manualCopyText}
+                readOnly
+                rows={10} // Increased rows for better visibility of full itinerary
+                className="my-4 pr-12" // Added padding-right for the button
+              />
+              <Button
+                variant="ghost"
+                size="sm"
+                className="top-2 right-2 absolute p-1 h-auto"
+                onClick={() => handleCopyToClipboard(manualCopyText || "")}
+              >
+                {copied ? (
+                  <Check className="w-4 h-4 text-green-500" />
+                ) : (
+                  <Copy className="w-4 h-4" />
+                )}
+              </Button>
+              {copied && (
+                <div className="flex items-center gap-1 text-green-600 text-sm">
+                  <Check className="w-4 h-4" />
+                  <span>Copied to clipboard!</span>
+                </div>
+              )}
+            </div>
             <DialogFooter>
               <Button onClick={() => setManualCopyText(null)}>Close</Button>
             </DialogFooter>
