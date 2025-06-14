@@ -1,13 +1,12 @@
 "use client";
 
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { cartHelpers, useCart } from "@/context/CartContext";
 import { useCurrency } from "@/context/CurrencyContext";
 import { Vehicle } from "@/lib/interfaces/services/vehicles";
 import { formatToSlug } from "@/lib/utils/format";
-import { Fuel, Info, MapPin, Settings, Star, Users } from "lucide-react";
+import { Fuel, MapPin, Settings, Star, Users } from "lucide-react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
@@ -78,17 +77,17 @@ export default function VehicleCard({
           item.name === rentalItem.name &&
           item.dates.startDate === rentalItem.dates.startDate &&
           item.dates.endDate === rentalItem.dates.endDate &&
-          item.location === rentalItem.location,
+          item.location === rentalItem.location
       );
 
       if (existingItem) {
         cartHelpers.updateQuantity(
           dispatch,
           existingItem.id,
-          existingItem.quantity + 1,
+          existingItem.quantity + 1
         );
         toast.success(
-          `Added another ${vehicle.name} to cart! (${existingItem.quantity + 1} total)`,
+          `Added another ${vehicle.name} to cart! (${existingItem.quantity + 1} total)`
         );
         setIsAddingToCart(false);
         return;
@@ -101,7 +100,20 @@ export default function VehicleCard({
   };
 
   return (
-    <Card className="hover:shadow-xl p-0 transition-shadow overflow-hidden">
+    <Card
+      className="group hover:shadow-xl p-0 transition-all cursor-pointer overflow-hidden"
+      onClick={() => {
+        const vehicleSlug = formatToSlug(vehicle.name);
+        const searchParams = new URLSearchParams();
+        if (pickupDate) searchParams.set("pickup", pickupDate);
+        if (returnDate) searchParams.set("return", returnDate);
+        if (location && location !== "all")
+          searchParams.set("location", location);
+
+        const url = `/vehicles/${vehicleSlug}${searchParams.toString() ? `?${searchParams.toString()}` : ""}`;
+        router.push(url);
+      }}
+    >
       <CardContent className="flex flex-col p-0 h-full">
         <div className="relative h-48">
           <Image
@@ -120,30 +132,28 @@ export default function VehicleCard({
           <div className="p-6">
             <div className="flex justify-between items-start mb-4">
               <div>
-                <h3 className="mb-1 font-bold text-lg text-slate-900 dark:text-white">
+                <h3 className="font-bold text-slate-900 text-xl dark:group-hover:text-blue-400 dark:text-white group-hover:text-blue-600 transition-colors">
                   {vehicle.name}
                 </h3>
-                <p className="">
+                <p>
                   {vehicle.brand} • {vehicle.year}
                 </p>
               </div>
               <div className="flex items-center gap-1">
                 <Star className="w-4 h-4 text-yellow-400 fill-current" />
                 <span className="font-medium text-sm">{vehicle.rating}</span>
-                <span className="text-slate-500 text-sm">
-                  ({vehicle.reviews})
-                </span>
+                <span className="text-sm">({vehicle.reviews})</span>
               </div>
             </div>
             <p className="mb-4 line-clamp-3">{vehicle.description}</p>
             {/* Key Specifications */}
             <div className="gap-4 grid grid-cols-2 mb-4">
-              <div className="flex items-center gap-2">
-                <Users className="w-4 h-4" />
-                <span>
-                  {vehicle.specifications.seatingCapacity || "N/A"} seats
-                </span>
-              </div>
+              {vehicle.specifications.seatingCapacity && (
+                <div className="flex items-center gap-2">
+                  <Users className="w-4 h-4" />
+                  <span>{vehicle.specifications.seatingCapacity} seats</span>
+                </div>
+              )}
               <div className="flex items-center gap-2">
                 <Fuel className="w-4 h-4" />
                 <span>{vehicle.specifications.fuelType}</span>
@@ -176,52 +186,24 @@ export default function VehicleCard({
 
           <div className="p-6">
             {/* Pricing */}
-            <div className="flex justify-between items-center mb-4">
+            <div className="flex justify-between items-end mb-4">
               <div>
-                <p className="font-bold text-2xl text-slate-900 dark:text-white">
+                <p className="font-bold text-2xl">
                   {formatPrice(vehicle.pricing.daily)}
-                  <span className="font-normal text-base text-slate-600 dark:text-slate-400">
-                    /day
-                  </span>
+                  <span className="font-normal text-base">/day</span>
                 </p>
                 {days > 1 && (
-                  <p className="">
+                  <p>
                     {formatPrice(totalPrice)} for {days} days
                   </p>
                 )}
               </div>
               <div className="text-right">
-                <p className="">Weekly</p>
-                <p className="font-semibold text-slate-900 dark:text-white">
+                <p className="font-bold text-xl">
                   {formatPrice(vehicle.pricing.weekly)}
+                  <span className="font-normal text-base">/week</span>
                 </p>
               </div>
-            </div>
-
-            {/* Action Buttons */}
-            <div className="gap-2 grid grid-cols-2">
-              <Button
-                variant="outline"
-                className="w-full"
-                onClick={() => {
-                  const vehicleSlug = formatToSlug(vehicle.name);
-                  const searchParams = new URLSearchParams();
-                  if (pickupDate) searchParams.set("pickup", pickupDate);
-                  if (returnDate) searchParams.set("return", returnDate);
-                  if (location && location !== "all")
-                    searchParams.set("location", location);
-
-                  const url = `/vehicles/${vehicleSlug}${searchParams.toString() ? `?${searchParams.toString()}` : ""}`;
-                  router.push(url);
-                }}
-              >
-                <Info className="mr-2 w-4 h-4" />
-                Details
-              </Button>
-
-              <Button onClick={handleAddToCart} disabled={isAddingToCart}>
-                {isAddingToCart ? "Adding..." : "Add to Cart"}
-              </Button>
             </div>
           </div>
         </div>
