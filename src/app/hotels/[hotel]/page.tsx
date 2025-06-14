@@ -45,12 +45,27 @@ export default function HotelDetailPage() {
   const [checkOutDate, setCheckOutDate] = useState(
     searchParams.get("checkout") || ""
   );
-  const [guests, setGuests] = useState({
-    adults: parseInt(searchParams.get("adults") || "2"),
-    children: parseInt(searchParams.get("children") || "0"),
-  });
+  const [guests, setGuests] = useState(
+    parseInt(
+      searchParams.get("guests") ||
+        (
+          parseInt(searchParams.get("adults") || "2") +
+          parseInt(searchParams.get("children") || "0")
+        ).toString()
+    )
+  );
   const [selectedRoom, setSelectedRoom] = useState(hotel.rooms.types[0]);
   const [isAddingToCart, setIsAddingToCart] = useState(false);
+
+  // Helper function to get minimum checkout date (day after checkin)
+  const getMinCheckoutDate = () => {
+    if (!checkInDate) {
+      return new Date().toISOString().split("T")[0];
+    }
+    const checkinDate = new Date(checkInDate);
+    checkinDate.setDate(checkinDate.getDate() + 1);
+    return checkinDate.toISOString().split("T")[0];
+  };
 
   const calculateNights = () => {
     if (!checkInDate || !checkOutDate) return 1;
@@ -63,6 +78,18 @@ export default function HotelDetailPage() {
 
   const nights = calculateNights();
   const totalPrice = selectedRoom.pricing.baseRate * nights;
+
+  // Check if selected room can accommodate the number of guests
+  const canAccommodateGuests = () => {
+    return guests <= selectedRoom.capacity.maxOccupancy;
+  };
+
+  const getOccupancyWarning = () => {
+    if (!canAccommodateGuests()) {
+      return `Selected room can accommodate maximum ${selectedRoom.capacity.maxOccupancy} guests. You have ${guests} guests.`;
+    }
+    return null;
+  };
 
   const handleAddToCart = async () => {
     if (!checkInDate || !checkOutDate) {
@@ -83,7 +110,7 @@ export default function HotelDetailPage() {
         startDate: checkInDate,
         endDate: checkOutDate,
       },
-      guests: guests.adults + guests.children,
+      guests: guests,
       location: `${hotel.location.city}, ${hotel.location.country}`,
       features: selectedRoom.amenities.slice(0, 3),
       cancellationPolicy: hotel.policies.cancellation,
@@ -406,7 +433,15 @@ export default function HotelDetailPage() {
                     id="checkin"
                     type="date"
                     value={checkInDate}
-                    onChange={(e) => setCheckInDate(e.target.value)}
+                    onChange={(e) => {
+                      const newCheckInDate = e.target.value;
+                      setCheckInDate(newCheckInDate);
+                      
+                      // Clear checkout date if it's before or equal to the new checkin date
+                      if (checkOutDate && newCheckInDate && checkOutDate <= newCheckInDate) {
+                        setCheckOutDate("");
+                      }
+                    }}
                     min={new Date().toISOString().split("T")[0]}
                   />
                 </div>
@@ -418,43 +453,25 @@ export default function HotelDetailPage() {
                     type="date"
                     value={checkOutDate}
                     onChange={(e) => setCheckOutDate(e.target.value)}
-                    min={checkInDate || new Date().toISOString().split("T")[0]}
+                    min={getMinCheckoutDate()}
                   />
                 </div>
 
-                <div className="gap-2 grid grid-cols-2">
-                  <div>
-                    <Label htmlFor="adults">Adults</Label>
-                    <Input
-                      id="adults"
-                      type="number"
-                      min="1"
-                      max="10"
-                      value={guests.adults}
-                      onChange={(e) =>
-                        setGuests({
-                          ...guests,
-                          adults: parseInt(e.target.value) || 1,
-                        })
-                      }
-                    />
-                  </div>
-                  <div>
-                    <Label htmlFor="children">Children</Label>
-                    <Input
-                      id="children"
-                      type="number"
-                      min="0"
-                      max="10"
-                      value={guests.children}
-                      onChange={(e) =>
-                        setGuests({
-                          ...guests,
-                          children: parseInt(e.target.value) || 0,
-                        })
-                      }
-                    />
-                  </div>
+                <div>
+                  <Label htmlFor="guests">Number of Guests</Label>
+                  <Input
+                    id="guests"
+                    type="number"
+                    min="1"
+                    max="10"
+                    value={guests}
+                    onChange={(e) => setGuests(parseInt(e.target.value) || 1)}
+                  />
+                  {!canAccommodateGuests() && (
+                    <p className="mt-1 text-red-500 text-sm">
+                      ⚠️ {getOccupancyWarning()}
+                    </p>
+                  )}
                 </div>
 
                 <Separator />
