@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { navbarItems } from "@/lib/constants/info/navigation";
+import { cn } from "@/lib/utils";
 import { GlobeAltIcon } from "@heroicons/react/20/solid";
 import {
   Facebook,
@@ -58,14 +59,14 @@ export default function Footer() {
   };
 
   const additionalLinks = navbarItems.filter(
-    (item) => !item.dropdown && item.label !== "Home",
+    (item) => !item.dropdown && item.label !== "Home"
   );
 
   return (
-    <footer className="bg-gray-900 text-white">
+    <footer className="bg-muted/25 border-gray-800 border-t text-gray-200">
       {/* Main Footer Content */}
       <div className="py-16">
-        <div className="gap-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+        <div className="gap-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
           {/* Company Info */}
           <div className="xl:col-span-2">
             <div className="flex items-center gap-2 mb-4">
@@ -96,8 +97,13 @@ export default function Footer() {
           </div>
 
           {/* Navigation Links */}
-          {getGroupedFooterLinks().map(({ section, links }) => (
-            <div key={section}>
+          {getGroupedFooterLinks().map(({ section, links }, index) => (
+            <div
+              key={section}
+              className={cn("", {
+                "lg:col-span-1": index === getGroupedFooterLinks().length - 1,
+              })}
+            >
               <h4 className="mb-4 font-semibold text-white">{section}</h4>
               <ul className="space-y-3">
                 {links.map((link) => (
@@ -115,52 +121,12 @@ export default function Footer() {
           ))}
 
           <div className="xl:col-span-2">
-            <h4 className="mb-4 font-semibold text-white">More</h4>
-            <ul className="space-y-3">
-              {additionalLinks.map((link) => (
-                <li key={link.href}>
-                  <Link
-                    href={link.href || "#"}
-                    className="text-gray-300 text-sm hover:text-white transition-colors duration-200"
-                  >
-                    {link.label}
-                  </Link>
-                </li>
-              ))}
-              <li>
-                <Link
-                  href="/support"
-                  className="text-gray-300 text-sm hover:text-white transition-colors duration-200"
-                >
-                  Support
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/privacy"
-                  className="text-gray-300 text-sm hover:text-white transition-colors duration-200"
-                >
-                  Privacy Policy
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/terms"
-                  className="text-gray-300 text-sm hover:text-white transition-colors duration-200"
-                >
-                  Terms of Service
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          <div className="xl:col-span-3">
-            <div className="mx-auto px-6 lg:px-8 max-w-7xl">
+            <div className="mx-auto max-w-7xl">
               <h2 className="max-w-2xl font-semibold text-3xl text-balance sm:text-4xl tracking-tight">
                 Want product news and updates? Sign up for our newsletter.
               </h2>
               <form className="mt-10 max-w-md">
-                <div className="flex gap-x-4">
+                <div className="flex items-center gap-x-4">
                   <Label htmlFor="email-address" className="sr-only">
                     Email address
                   </Label>
@@ -171,16 +137,13 @@ export default function Footer() {
                     required
                     placeholder="Enter your email"
                     autoComplete="email"
-                    className="block bg-white px-3 py-1.5 rounded-md w-full sm:max-w-md text-base text-gray-900 sm:text-sm/6 placeholder:text-gray-400 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600"
+                    className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
                   />
                   <Button type="submit">Subscribe</Button>
                 </div>
                 <p className="mt-4 text-sm/6">
                   We care about your data. Read our{" "}
-                  <a
-                    href="#"
-                    className="font-semibold text-indigo-600 hover:text-indigo-500"
-                  >
+                  <a className="font-semibold text-primary hover:underline">
                     privacy&nbsp;policy
                   </a>
                   .
