@@ -128,7 +128,7 @@ export default function Login() {
                   placeholder="Enter your email"
                   value={formData.email}
                   onChange={handleInputChange}
-                  className="pl-10 border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                  className="pl-10 focus:border-muted border-border focus:ring-muted/20 h-8"
                 />
               </div>
             </div>
@@ -162,7 +162,7 @@ export default function Login() {
                   placeholder="Enter your password"
                   value={formData.password}
                   onChange={handleInputChange}
-                  className="pr-10 pl-10 border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                  className="pr-10 pl-10 focus:border-muted border-border focus:ring-muted/20 h-8"
                 />
                 <button
                   type="button"
