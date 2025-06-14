@@ -20,6 +20,7 @@ import { Clock, MapPin, Search } from "lucide-react";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import DraggableItem from "./DraggableItem";
+import { useCurrency } from "@/context/CurrencyContext";
 
 interface ActivityPanelProps {
   destination: string;
@@ -89,6 +90,8 @@ export default function ActivityPanel({
     );
   };
 
+  const { formatPrice } = useCurrency();
+
   const ItemCard = ({ item }: { item: TripItem }) => (
     <DraggableItem id={item.id} item={item}>
       <Card className="hover:shadow-md transition-shadow cursor-grab active:cursor-grabbing">
@@ -115,8 +118,7 @@ export default function ActivityPanel({
                 </h4>
                 {item.price && (
                   <Badge variant="secondary" className="text-xs">
-                    {item.currency}
-                    {item.price}
+                    {formatPrice(item.price)}
                   </Badge>
                 )}
               </div>

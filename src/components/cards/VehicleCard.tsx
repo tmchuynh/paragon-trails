@@ -2,15 +2,12 @@
 
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
-import { cartHelpers, useCart } from "@/context/CartContext";
 import { useCurrency } from "@/context/CurrencyContext";
 import { Vehicle } from "@/lib/interfaces/services/vehicles";
 import { formatToSlug } from "@/lib/utils/format";
 import { Fuel, MapPin, Settings, Star, Users } from "lucide-react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import { useState } from "react";
-import { toast } from "sonner";
 
 interface VehicleCardProps {
   vehicle: Vehicle;
@@ -26,9 +23,7 @@ export default function VehicleCard({
   location,
 }: VehicleCardProps) {
   const router = useRouter();
-  const { state: cartState, dispatch } = useCart();
   const { formatPrice } = useCurrency();
-  const [isAddingToCart, setIsAddingToCart] = useState(false);
 
   const calculateDays = () => {
     if (!pickupDate || !returnDate) return 1;
@@ -41,63 +36,6 @@ export default function VehicleCard({
 
   const days = calculateDays();
   const totalPrice = vehicle.pricing.daily * days;
-
-  const handleAddToCart = () => {
-    setIsAddingToCart(true);
-
-    const startDate = pickupDate || new Date().toISOString().split("T")[0];
-    const endDate =
-      returnDate ||
-      new Date(Date.now() + 24 * 60 * 60 * 1000).toISOString().split("T")[0];
-    const locationStr =
-      location === "all" ? "Multiple Locations" : location || "Location TBD";
-
-    const rentalItem = {
-      id: `vehicle-${formatToSlug(vehicle.name)}-${startDate}-${endDate}-${formatToSlug(locationStr)}`,
-      type: "vehicle" as const,
-      name: vehicle.name,
-      description: `${vehicle.brand} ${vehicle.model} ${vehicle.year} - ${vehicle.description}`,
-      image: vehicle.images[0],
-      price: vehicle.pricing.daily,
-      dates: {
-        startDate,
-        endDate,
-      },
-      guests: vehicle.specifications.seatingCapacity || 1,
-      location: locationStr,
-      features: vehicle.features,
-      cancellationPolicy: "Flexible cancellation up to 24 hours before pickup",
-    };
-
-    // Check if this exact vehicle rental already exists
-    if (cartHelpers.checkIfDuplicate(cartState.items, rentalItem)) {
-      // For vehicles, we increase quantity instead of creating duplicates
-      const existingItem = cartState.items.find(
-        (item) =>
-          item.name === rentalItem.name &&
-          item.dates.startDate === rentalItem.dates.startDate &&
-          item.dates.endDate === rentalItem.dates.endDate &&
-          item.location === rentalItem.location
-      );
-
-      if (existingItem) {
-        cartHelpers.updateQuantity(
-          dispatch,
-          existingItem.id,
-          existingItem.quantity + 1
-        );
-        toast.success(
-          `Added another ${vehicle.name} to cart! (${existingItem.quantity + 1} total)`
-        );
-        setIsAddingToCart(false);
-        return;
-      }
-    }
-
-    cartHelpers.addItem(dispatch, rentalItem);
-    toast.success(`${vehicle.name} added to cart!`);
-    setIsAddingToCart(false);
-  };
 
   return (
     <Card

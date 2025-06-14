@@ -17,6 +17,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import { useCurrency } from "@/context/CurrencyContext";
 import { TripDay, TripItem } from "@/lib/interfaces/trip-planner";
 import {
   calculateTotalDayTime,
@@ -39,7 +40,6 @@ import {
   Utensils,
 } from "lucide-react";
 import Image from "next/image";
-import { useState } from "react";
 
 interface DayPlannerProps {
   days: TripDay[];
@@ -49,7 +49,11 @@ interface DayPlannerProps {
     itemId: string,
     duration: number
   ) => void;
-  onUpdateTimeSlot?: (dayIndex: number, itemId: string, timeSlot: string) => void;
+  onUpdateTimeSlot?: (
+    dayIndex: number,
+    itemId: string,
+    timeSlot: string
+  ) => void;
 }
 
 export default function DayPlanner({
@@ -57,12 +61,6 @@ export default function DayPlanner({
   onRemoveItem,
   onUpdateDuration,
 }: DayPlannerProps) {
-  const [selectedItemForDuration, setSelectedItemForDuration] = useState<{
-    dayIndex: number;
-    itemId: string;
-    currentDuration: number;
-  } | null>(null);
-
   const DayCard = ({ day, dayIndex }: { day: TripDay; dayIndex: number }) => {
     const { setNodeRef, isOver } = useDroppable({
       id: `day-${dayIndex}`,
@@ -115,10 +113,13 @@ export default function DayPlanner({
         </CardHeader>
 
         <CardContent>
-          <div ref={setNodeRef} className="space-y-4">
+          <div className="space-y-4">
             {/* Drop Zone */}
             {day.items.length === 0 ? (
-              <div className="p-8 border-2 border-gray-300 dark:border-gray-600 border-dashed rounded-lg text-center">
+              <div
+                ref={setNodeRef}
+                className="p-8 border-2 border-gray-300 dark:border-gray-600 border-dashed rounded-lg text-center"
+              >
                 <div className="text-gray-500 dark:text-gray-400">
                   <Calendar className="opacity-50 mx-auto mb-2 w-8 h-8" />
                   <p className="text-sm">
@@ -127,19 +128,30 @@ export default function DayPlanner({
                 </div>
               </div>
             ) : (
-              <div className="space-y-3">
-                {day.items.map((item, itemIndex) => (
-                  <TripItemCard
-                    key={item.id}
-                    item={item}
-                    dayIndex={dayIndex}
-                    onRemove={() => onRemoveItem(dayIndex, item.id)}
-                    onUpdateDuration={(duration) =>
-                      onUpdateDuration(dayIndex, item.id, duration)
-                    }
-                  />
-                ))}
-              </div>
+              <>
+                <div className="space-y-3">
+                  {day.items.map((item, itemIndex) => (
+                    <TripItemCard
+                      key={itemIndex}
+                      item={item}
+                      dayIndex={dayIndex}
+                      onRemove={() => onRemoveItem(dayIndex, item.id)}
+                      onUpdateDuration={(duration) =>
+                        onUpdateDuration(dayIndex, item.id, duration)
+                      }
+                    />
+                  ))}
+                </div>
+                {/* Drop zone for when there are already items */}
+                <div
+                  ref={setNodeRef}
+                  className="opacity-50 hover:opacity-100 p-4 border-2 border-gray-200 dark:border-gray-700 border-dashed rounded-lg text-center transition-opacity"
+                >
+                  <p className="text-gray-400 text-xs">
+                    Drop more activities here
+                  </p>
+                </div>
+              </>
             )}
 
             {/* Time Recommendation */}
@@ -177,7 +189,6 @@ export default function DayPlanner({
 
   const TripItemCard = ({
     item,
-    dayIndex,
     onRemove,
     onUpdateDuration,
   }: {
@@ -187,6 +198,7 @@ export default function DayPlanner({
     onUpdateDuration: (duration: number) => void;
   }) => {
     const currentDuration = item.customDuration || parseDuration(item.duration);
+    const { formatPrice } = useCurrency();
 
     return (
       <div className="bg-white dark:bg-gray-900 shadow-sm p-4 border rounded-lg">
@@ -286,8 +298,7 @@ export default function DayPlanner({
                 </Badge>
                 {item.price && (
                   <Badge variant="secondary" className="text-xs">
-                    {item.currency}
-                    {item.price}
+                    {formatPrice(item.price)}
                   </Badge>
                 )}
               </div>

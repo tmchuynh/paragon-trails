@@ -3,7 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { TripDay, TripItem, TripPlan } from "@/lib/interfaces/trip-planner";
 import { generateTripDays } from "@/lib/utils/trip-planner";
-import { DndContext, DragEndEvent, closestCenter } from "@dnd-kit/core";
+import { DndContext, DragEndEvent, pointerWithin } from "@dnd-kit/core";
 import { format } from "date-fns";
 import { Calendar, Clock, MapPin, Users } from "lucide-react";
 import { useEffect, useState } from "react";
@@ -23,6 +23,7 @@ export default function TripPlannerContainer() {
   const [guestCount, setGuestCount] = useState(2);
   const [tripDays, setTripDays] = useState<TripDay[]>([]);
   const [availableItems, setAvailableItems] = useState<TripItem[]>([]);
+  const [lastDragAction, setLastDragAction] = useState<string | null>(null);
 
   // Initialize trip days when setup is complete
   useEffect(() => {
@@ -52,9 +53,24 @@ export default function TripPlannerContainer() {
     // Check if dropping on a day or time slot
     const overId = over.id.toString();
 
+    // Create a unique action identifier to prevent duplicates
+    const actionId = `${active.id}-${overId}-${Date.now()}`;
+
+    // Prevent duplicate actions within a short time window
+    if (lastDragAction === actionId) {
+      return;
+    }
+    setLastDragAction(actionId);
+
+    // Clear the action after a short delay
+    setTimeout(() => setLastDragAction(null), 100);
+
+    // Generate a unique ID for the new item
+    const uniqueId = `${draggedItem.id}-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+
     if (overId.startsWith("day-")) {
       const dayIndex = parseInt(overId.split("-")[1]);
-      const newItem = { ...draggedItem, id: `${draggedItem.id}-${Date.now()}` };
+      const newItem = { ...draggedItem, id: uniqueId };
 
       setTripDays((prevDays) => {
         const updatedDays = [...prevDays];
@@ -68,7 +84,7 @@ export default function TripPlannerContainer() {
       const [, dayIndex, timeSlot] = overId.split("-");
       const newItem = {
         ...draggedItem,
-        id: `${draggedItem.id}-${Date.now()}`,
+        id: uniqueId,
         timeSlot: timeSlot,
       };
 
@@ -104,7 +120,9 @@ export default function TripPlannerContainer() {
       const updatedDays = [...prevDays];
       const day = updatedDays[dayIndex];
       if (day) {
-        const itemIndex = day.items.findIndex((item: TripItem) => item.id === itemId);
+        const itemIndex = day.items.findIndex(
+          (item: TripItem) => item.id === itemId
+        );
         if (itemIndex !== -1) {
           updatedDays[dayIndex].items[itemIndex].customDuration = duration;
         }
@@ -180,7 +198,7 @@ export default function TripPlannerContainer() {
         </div>
       </div>
 
-      <DndContext collisionDetection={closestCenter} onDragEnd={handleDragEnd}>
+      <DndContext collisionDetection={pointerWithin} onDragEnd={handleDragEnd}>
         <div className="gap-6 grid lg:grid-cols-3 xl:grid-cols-4">
           {/* Activity Panel */}
           <div className="col-span-1 xl:col-span-1">

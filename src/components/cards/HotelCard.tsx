@@ -215,7 +215,8 @@ export default function HotelCard({
               {hotel.rooms.totalRooms} rooms available
             </span>
             <span className="text-slate-600">
-              From {hotel.rooms.types[0]?.capacity.adults || 2} guests
+              Maximum of {hotel.rooms.types[0]?.capacity.maxOccupancy} guests /
+              room
             </span>
           </div>
         </div>
