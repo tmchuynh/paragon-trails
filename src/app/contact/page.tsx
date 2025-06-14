@@ -154,6 +154,7 @@ export default function ContactUsPage() {
                         onChange={handleInputChange}
                         placeholder="Your full name"
                         required
+                        className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
                       />
                     </div>
                     <div className="space-y-2">
@@ -166,6 +167,7 @@ export default function ContactUsPage() {
                         onChange={handleInputChange}
                         placeholder="your.email@example.com"
                         required
+                        className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
                       />
                     </div>
                   </div>
@@ -180,6 +182,7 @@ export default function ContactUsPage() {
                         value={formData.phone}
                         onChange={handleInputChange}
                         placeholder="+1 (555) 123-4567"
+                        className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
                       />
                     </div>
                     <div className="space-y-2">
@@ -286,6 +289,7 @@ export default function ContactUsPage() {
                       onChange={handleInputChange}
                       placeholder="Brief description of your inquiry"
                       required
+                      className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
                     />
                   </div>
 
