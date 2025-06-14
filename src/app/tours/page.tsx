@@ -25,6 +25,7 @@ import { Slider } from "@/components/ui/slider";
 import { useCurrency } from "@/context/CurrencyContext";
 import { mockTours } from "@/data/tours";
 import { Tour } from "@/lib/interfaces/services/tours";
+import { formatToSlug } from "@/lib/utils/format";
 import { Clock, Filter, MapPin, RotateCcw, Search, Star } from "lucide-react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
@@ -98,7 +99,7 @@ export default function FindToursPage() {
             .includes(searchQuery.toLowerCase()) ||
           tour.location.country
             .toLowerCase()
-            .includes(searchQuery.toLowerCase()),
+            .includes(searchQuery.toLowerCase())
       );
     }
 
@@ -110,7 +111,7 @@ export default function FindToursPage() {
     // Filter by country
     if (selectedCountry !== "all") {
       filtered = filtered.filter(
-        (tour) => tour.location.country === selectedCountry,
+        (tour) => tour.location.country === selectedCountry
       );
     }
 
@@ -133,7 +134,7 @@ export default function FindToursPage() {
     filtered = filtered.filter(
       (tour) =>
         tour.pricing.adult >= priceRange[0] &&
-        tour.pricing.adult <= priceRange[1],
+        tour.pricing.adult <= priceRange[1]
     );
 
     // Sort results
@@ -294,7 +295,7 @@ export default function FindToursPage() {
         <div className="gap-8 grid lg:grid-cols-4">
           {/* Filters Sidebar */}
           <div className="space-y-6 lg:col-span-1">
-            <Card>
+            <Card className="p-0">
               <div className="p-6">
                 <div className="flex items-center gap-2 mb-4">
                   <Filter className="w-5 h-5" />
@@ -474,9 +475,7 @@ export default function FindToursPage() {
                       key={tour.id}
                       className="group hover:shadow-xl p-0 transition-all cursor-pointer overflow-hidden"
                       onClick={() =>
-                        router.push(
-                          `/tours/${tour.id.toLowerCase().replace(/\s+/g, "-")}`,
-                        )
+                        router.push(`/tours/${formatToSlug(tour.title)}`)
                       }
                     >
                       <div className="relative h-64">
@@ -594,7 +593,7 @@ export default function FindToursPage() {
                                 </PaginationLink>
                               </PaginationItem>
                             );
-                          },
+                          }
                         )}
 
                         {totalPages > 5 && currentPage < totalPages - 2 && (
