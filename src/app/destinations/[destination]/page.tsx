@@ -20,7 +20,6 @@ import {
   Info,
   MapPin,
   Plane,
-  Star,
   Thermometer,
   Users,
   Wifi,
@@ -89,10 +88,6 @@ export default function DestinationDetailsPage() {
                   orientation="vertical"
                   className="bg-white/30 mx-2 h-6"
                 />
-                <div className="flex items-center gap-1">
-                  <Star className="w-4 h-4 text-yellow-400 fill-yellow-400" />
-                  <span>{destination.rating}</span>
-                </div>
               </div>
             </div>
           </div>
@@ -458,20 +453,18 @@ export default function DestinationDetailsPage() {
                     <div>
                       <h4 className="mb-2 font-semibold">Languages</h4>
                       <div className="flex flex-wrap gap-2">
-                        {destination.culture.languages.map(
-                          (language, index) => (
-                            <Badge key={index} variant="secondary">
-                              {language}
-                            </Badge>
-                          )
-                        )}
+                        {destination.language.map((language, index) => (
+                          <Badge key={index} variant="secondary">
+                            {language}
+                          </Badge>
+                        ))}
                       </div>
                     </div>
 
                     <div>
                       <h4 className="mb-2 font-semibold">Cuisine</h4>
                       <div className="flex flex-wrap gap-2">
-                        {destination.culture.cuisine.map((food, index) => (
+                        {destination.cuisine.map((food, index) => (
                           <Badge key={index} variant="outline">
                             {food}
                           </Badge>
@@ -567,7 +560,7 @@ export default function DestinationDetailsPage() {
                 </div>
                 <div className="flex justify-between">
                   <span>Main language</span>
-                  <span>{destination.culture.languages[0]}</span>
+                  <span>{destination.language[0]}</span>
                 </div>
               </CardContent>
             </Card>
