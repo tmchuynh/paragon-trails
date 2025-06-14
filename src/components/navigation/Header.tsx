@@ -19,11 +19,12 @@ import {
   UserIcon,
   XMarkIcon,
 } from "@heroicons/react/20/solid";
-import { Heart, Phone, Search, ShoppingCart, User } from "lucide-react";
+import { Phone, ShoppingCart, User } from "lucide-react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { FaChevronDown, FaDollarSign } from "react-icons/fa";
+import { ThemeToggle } from "../button/ThemeToggle";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -31,7 +32,10 @@ export default function Header() {
   const { currentCurrency, setCurrency, isLoading } = useCurrency();
   const { state: cartState } = useCart();
 
-  const cartItemsCount = cartState.items.reduce((total, item) => total + item.quantity, 0);
+  const cartItemsCount = cartState.items.reduce(
+    (total, item) => total + item.quantity,
+    0
+  );
 
   return (
     <header className="top-0 z-50 fixed inset-x-0 shadow-sm backdrop-blur-sm w-full">
@@ -103,12 +107,10 @@ export default function Header() {
           <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">ParagonTrails</span>
             <div className="flex items-center gap-2">
-              <div className="bg-gradient-to-r from-blue-600 to-teal-500 p-2 rounded-lg">
+              <div className="bg-gradient-to-r from-blue-600 to-teal-500 p-2 rounded-lg text-white">
                 <GlobeAltIcon className="w-6 h-6" />
               </div>
-              <span className="font-bold text-gray-800 text-xl">
-                ParagonTrails
-              </span>
+              <span className="font-bold text-xl">ParagonTrails</span>
             </div>
           </Link>
         </div>
@@ -159,26 +161,12 @@ export default function Header() {
           )}
 
           {/* Action buttons */}
-          <div className="flex items-center space-x-3 ml-8">
+          <div className="flex items-center space-x-2 ml-8">
+            <ThemeToggle />
             <Button
-              variant="ghost"
-              size="sm"
-              className="text-gray-600 hover:text-primary"
-            >
-              <Search className="w-4 h-4" />
-            </Button>
-            <Button
-              variant="ghost"
-              size="sm"
-              className="text-gray-600 hover:text-primary"
-            >
-              <Heart className="w-4 h-4" />
-            </Button>
-            <Button
-              variant="ghost"
-              size="sm"
+              variant="icon"
               onClick={() => router.push("/my-cart")}
-              className="relative text-gray-600 hover:text-primary"
+              className="relative"
             >
               <ShoppingCart className="w-4 h-4" />
               {cartItemsCount > 0 && (
@@ -187,11 +175,7 @@ export default function Header() {
                 </span>
               )}
             </Button>
-            <Button
-              variant="ghost"
-              size="sm"
-              className="text-gray-600 hover:text-primary"
-            >
+            <Button variant="icon" className="">
               <User className="w-4 h-4" />
             </Button>
           </div>
