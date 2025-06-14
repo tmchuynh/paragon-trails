@@ -1,9 +1,19 @@
 "use client";
 
-import TourCard from "@/components/cards/TourCard";
+import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import {
+  Pagination,
+  PaginationContent,
+  PaginationEllipsis,
+  PaginationItem,
+  PaginationLink,
+  PaginationNext,
+  PaginationPrevious,
+} from "@/components/ui/pagination";
 import {
   Select,
   SelectContent,
@@ -11,55 +21,67 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import { Slider } from "@/components/ui/slider";
 import { useCurrency } from "@/context/CurrencyContext";
-import { mockDestinations } from "@/data/destinations";
 import { mockTours } from "@/data/tours";
-import {
-  ArrowLeft,
-  Calendar,
-  Clock,
-  Filter,
-  MapPin,
-  Search,
-  Star,
-  Users,
-} from "lucide-react";
-import { useParams, useRouter } from "next/navigation";
-import { useState } from "react";
+import { Tour } from "@/lib/interfaces/services/tours";
+import { Clock, Filter, MapPin, RotateCcw, Search, Star } from "lucide-react";
+import Image from "next/image";
+import { useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
 
 export default function FindToursPage() {
   const router = useRouter();
-  const params = useParams();
   const { formatPrice } = useCurrency();
-  const [searchQuery, setSearchQuery] = useState("");
-  const [selectedCategory, setSelectedCategory] = useState("all");
-  const [selectedDuration, setSelectedDuration] = useState("all");
-  const [sortBy, setSortBy] = useState("name");
-  const [priceRange, setPriceRange] = useState([0, 1000]);
-  const [filteredTours, setFilteredTours] = useState(mockTours);
 
-  // Find destination by URL param
-  const destinationSlug = params.destination as string;
-  const destination = mockDestinations.find(
-    (dest) => dest.name.toLowerCase().replace(/\s+/g, "-") === destinationSlug
-  );
+  const [filteredTours, setFilteredTours] = useState<Tour[]>(mockTours);
+  const [searchQuery, setSearchQuery] = useState("");
+  const [selectedCity, setSelectedCity] = useState<string>("all");
+  const [selectedCountry, setSelectedCountry] = useState<string>("all");
+  const [selectedType, setSelectedType] = useState<string>("all");
+  const [selectedCategory, setSelectedCategory] = useState<string>("all");
+  const [selectedDuration, setSelectedDuration] = useState<string>("all");
+  const [priceRange, setPriceRange] = useState([0, 500]);
+  const [sortBy, setSortBy] = useState<string>("name");
+
+  // Pagination state
+  const [currentPage, setCurrentPage] = useState(1);
+  const [itemsPerPage, setItemsPerPage] = useState(9);
+
+  // Get unique values for filters
+  const cities = [
+    { value: "all", label: "All Cities" },
+    ...Array.from(new Set(mockTours.map((tour) => tour.location.city)))
+      .sort()
+      .map((city) => ({ value: city, label: city })),
+  ];
+
+  const countries = [
+    { value: "all", label: "All Countries" },
+    ...Array.from(new Set(mockTours.map((tour) => tour.location.country)))
+      .sort()
+      .map((country) => ({ value: country, label: country })),
+  ];
+
+  const types = [
+    { value: "all", label: "All Types" },
+    ...Array.from(new Set(mockTours.map((tour) => tour.type)))
+      .sort()
+      .map((type) => ({ value: type, label: type })),
+  ];
 
   const categories = [
     { value: "all", label: "All Categories" },
-    { value: "adventure", label: "Adventure" },
-    { value: "cultural", label: "Cultural" },
-    { value: "nature", label: "Nature" },
-    { value: "food", label: "Food & Drink" },
-    { value: "wildlife", label: "Wildlife" },
-    { value: "scenic", label: "Scenic" },
+    ...Array.from(new Set(mockTours.map((tour) => tour.category)))
+      .sort()
+      .map((category) => ({ value: category, label: category })),
   ];
 
   const durations = [
-    { value: "all", label: "Any Duration" },
-    { value: "short", label: "2-4 hours" },
-    { value: "half-day", label: "Half day (4-6 hours)" },
-    { value: "full-day", label: "Full day (6+ hours)" },
-    { value: "multi-day", label: "Multi-day" },
+    { value: "all", label: "All Durations" },
+    ...Array.from(new Set(mockTours.map((tour) => tour.duration)))
+      .sort()
+      .map((duration) => ({ value: duration, label: duration })),
   ];
 
   const handleSearch = () => {
@@ -71,50 +93,62 @@ export default function FindToursPage() {
         (tour) =>
           tour.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
           tour.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
-          tour.tags?.some(tag => tag.toLowerCase().includes(searchQuery.toLowerCase()))
+          tour.location.city
+            .toLowerCase()
+            .includes(searchQuery.toLowerCase()) ||
+          tour.location.country
+            .toLowerCase()
+            .includes(searchQuery.toLowerCase())
       );
+    }
+
+    // Filter by city
+    if (selectedCity !== "all") {
+      filtered = filtered.filter((tour) => tour.location.city === selectedCity);
+    }
+
+    // Filter by country
+    if (selectedCountry !== "all") {
+      filtered = filtered.filter(
+        (tour) => tour.location.country === selectedCountry
+      );
+    }
+
+    // Filter by type
+    if (selectedType !== "all") {
+      filtered = filtered.filter((tour) => tour.type === selectedType);
     }
 
     // Filter by category
     if (selectedCategory !== "all") {
-      filtered = filtered.filter((tour) => tour.tourCategoryId === selectedCategory);
+      filtered = filtered.filter((tour) => tour.category === selectedCategory);
     }
 
     // Filter by duration
     if (selectedDuration !== "all") {
-      filtered = filtered.filter((tour) => {
-        const hours = parseInt(tour.duration.split(" ")[0]);
-        switch (selectedDuration) {
-          case "short":
-            return hours >= 2 && hours <= 4;
-          case "half-day":
-            return hours >= 4 && hours <= 6;
-          case "full-day":
-            return hours >= 6;
-          case "multi-day":
-            return tour.duration.includes("day") && !tour.duration.includes("hours");
-          default:
-            return true;
-        }
-      });
+      filtered = filtered.filter((tour) => tour.duration === selectedDuration);
     }
 
     // Filter by price range
-    filtered = filtered.filter((tour) => {
-      const price = parseFloat(tour.price.replace(/[^0-9.]/g, ""));
-      return price >= priceRange[0] && price <= priceRange[1];
-    });
+    filtered = filtered.filter(
+      (tour) =>
+        tour.pricing.adult >= priceRange[0] &&
+        tour.pricing.adult <= priceRange[1]
+    );
 
     // Sort results
     filtered = filtered.sort((a, b) => {
       switch (sortBy) {
-        case "price":
-          return parseFloat(a.price.replace(/[^0-9.]/g, "")) - parseFloat(b.price.replace(/[^0-9.]/g, ""));
-        case "rating":
-          return b.rating - a.rating;
-        case "duration":
-          return parseInt(a.duration.split(" ")[0]) - parseInt(b.duration.split(" ")[0]);
         case "name":
+          return a.title.localeCompare(b.title);
+        case "price-low":
+          return a.pricing.adult - b.pricing.adult;
+        case "price-high":
+          return b.pricing.adult - a.pricing.adult;
+        case "rating":
+          return b.reviews.rating - a.reviews.rating;
+        case "duration":
+          return a.duration.localeCompare(b.duration);
         default:
           return a.title.localeCompare(b.title);
       }
@@ -123,242 +157,485 @@ export default function FindToursPage() {
     setFilteredTours(filtered);
   };
 
-  if (!destination) {
-    return (
-      <div className="min-h-screen">
-        <div className="mx-auto px-6 lg:px-8 py-12 max-w-7xl">
-          <div className="py-20 text-center">
-            <h1 className="mb-4 font-bold text-2xl">Destination not found</h1>
-            <Button onClick={() => router.push("/destinations")}>
-              Browse all destinations
-            </Button>
-          </div>
-        </div>
-      </div>
-    );
-  }
+  const resetFilters = () => {
+    setSearchQuery("");
+    setSelectedCity("all");
+    setSelectedCountry("all");
+    setSelectedType("all");
+    setSelectedCategory("all");
+    setSelectedDuration("all");
+    setPriceRange([0, 500]);
+  };
+
+  // Auto-filter when any filter changes
+  useEffect(() => {
+    handleSearch();
+    // Reset to page 1 when filters change
+    setCurrentPage(1);
+  }, [
+    searchQuery,
+    selectedCity,
+    selectedCountry,
+    selectedType,
+    selectedCategory,
+    selectedDuration,
+    priceRange,
+    sortBy,
+  ]);
+
+  // Reset to page 1 when items per page changes
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [itemsPerPage]);
+
+  // Calculate pagination
+  const totalPages = Math.ceil(filteredTours.length / itemsPerPage);
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
+  const paginatedTours = filteredTours.slice(startIndex, endIndex);
+
+  const handlePageChange = (page: number) => {
+    setCurrentPage(page);
+    // Scroll to top of results
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
   return (
     <div className="min-h-screen">
       <div className="mx-auto px-6 lg:px-8 py-12 max-w-7xl">
-        {/* Back Button */}
-        <Button
-          variant="ghost"
-          onClick={() => router.push(`/destinations/${destinationSlug}`)}
-          className="mb-6"
-        >
-          <ArrowLeft className="mr-2 w-4 h-4" />
-          Back to {destination.name}
-        </Button>
-
         {/* Header */}
         <div className="mb-12 text-center">
           <h1 className="mb-4 font-bold text-4xl text-slate-900 dark:text-white">
-            Tours in {destination.name}
+            Discover Amazing Tours
           </h1>
           <p className="mx-auto max-w-3xl text-lg text-slate-600 dark:text-slate-400">
-            Discover amazing guided tours and experiences in {destination.name},{" "}
-            {destination.country}. From cultural immersions to adventure
-            activities, find the perfect tour for your journey.
-          </p>
-          <div className="flex justify-center items-center gap-2 mt-4">
-            <MapPin className="w-5 h-5 text-slate-500" />
-            <span className="text-slate-600">{destination.country}</span>
-            <div className="flex items-center gap-1 ml-4">
-              <Star className="w-4 h-4 text-yellow-400 fill-yellow-400" />
-              <span className="text-slate-600">
-                {destination.rating} rating
-              </span>
-            </div>
-          </div>
-        </div>
-
-        {/* Search and Filters */}
-        <Card className="mb-8 p-6">
-          <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-4">
-            <div className="space-y-2">
-              <label className="font-medium text-sm">Search Tours</label>
-              <div className="relative">
-                <Search className="top-3 left-3 absolute w-4 h-4 text-slate-400" />
-                <Input
-                  placeholder="Tour name, description, or tags..."
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  className="pl-10"
-                />
-              </div>
-            </div>
-
-            <div className="space-y-2">
-              <label className="font-medium text-sm">Category</label>
-              <Select
-                value={selectedCategory}
-                onValueChange={setSelectedCategory}
-              >
-                <SelectTrigger className="w-full">
-                  <SelectValue placeholder="Select category" />
-                </SelectTrigger>
-                <SelectContent className="w-full max-h-60">
-                  {categories.map((category) => (
-                    <SelectItem key={category.value} value={category.value}>
-                      {category.label}
-                    </SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
-            </div>
-
-            <div className="space-y-2">
-              <label className="font-medium text-sm">Duration</label>
-              <Select
-                value={selectedDuration}
-                onValueChange={setSelectedDuration}
-              >
-                <SelectTrigger className="w-full">
-                  <SelectValue placeholder="Select duration" />
-                </SelectTrigger>
-                <SelectContent className="w-full max-h-60">
-                  {durations.map((duration) => (
-                    <SelectItem key={duration.value} value={duration.value}>
-                      {duration.label}
-                    </SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
-            </div>
-
-            <div className="space-y-2">
-              <label className="font-medium text-sm">Sort By</label>
-              <Select value={sortBy} onValueChange={setSortBy}>
-                <SelectTrigger className="w-full">
-                  <SelectValue placeholder="Sort by" />
-                </SelectTrigger>
-                <SelectContent className="w-full max-h-60">
-                  <SelectItem value="name">Name (A-Z)</SelectItem>
-                  <SelectItem value="price">Price (Low to High)</SelectItem>
-                  <SelectItem value="rating">Rating (High to Low)</SelectItem>
-                  <SelectItem value="duration">Duration</SelectItem>
-                </SelectContent>
-              </Select>
-            </div>
-          </div>
-
-          <div className="flex justify-between items-center">
-            <div className="flex items-center gap-4">
-              <span className="font-medium text-sm">Price Range:</span>
-              <div className="flex items-center gap-2">
-                <Input
-                  type="number"
-                  placeholder="Min"
-                  value={priceRange[0]}
-                  onChange={(e) =>
-                    setPriceRange([
-                      parseInt(e.target.value) || 0,
-                      priceRange[1],
-                    ])
-                  }
-                  className="w-20"
-                />
-                <span>-</span>
-                <Input
-                  type="number"
-                  placeholder="Max"
-                  value={priceRange[1]}
-                  onChange={(e) =>
-                    setPriceRange([
-                      priceRange[0],
-                      parseInt(e.target.value) || 1000,
-                    ])
-                  }
-                  className="w-20"
-                />
-              </div>
-            </div>
-            <Button onClick={handleSearch}>
-              <Filter className="mr-2 w-4 h-4" />
-              Apply Filters
-            </Button>
-          </div>
-        </Card>
-
-        {/* Results */}
-        <div className="mb-6">
-          <p className="text-slate-600 dark:text-slate-400">
-            Found {filteredTours.length} tour
-            {filteredTours.length !== 1 ? "s" : ""} in {destination.name}
+            Explore unique experiences and guided tours around the world. From
+            cultural immersions to adventure expeditions, find your perfect
+            journey.
           </p>
         </div>
 
-        {/* Tour Cards */}
-        <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-          {filteredTours.map((tour) => (
-            <TourCard
-              key={tour.id}
-              tour={tour}
-              city={destination.name}
-              country={destination.country}
-            />
-          ))}
-        </div>
+        {/* Top Filters */}
+        <Card className="mb-8">
+          <div className="p-6">
+            <div className="gap-6 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4">
+              {/* City */}
+              <div className="space-y-2">
+                <Label htmlFor="city">City</Label>
+                <div className="relative">
+                  <MapPin className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
+                  <Select value={selectedCity} onValueChange={setSelectedCity}>
+                    <SelectTrigger className="pl-10 w-full">
+                      <SelectValue placeholder="Select city" />
+                    </SelectTrigger>
+                    <SelectContent className="w-full max-h-60">
+                      {cities.map((city) => (
+                        <SelectItem key={city.value} value={city.value}>
+                          {city.label}
+                        </SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
+                </div>
+              </div>
 
-        {filteredTours.length === 0 && (
-          <div className="py-20 text-center">
-            <div className="flex justify-center items-center bg-slate-200 dark:bg-slate-700 mx-auto mb-4 rounded-full w-16 h-16">
-              <MapPin className="w-8 h-8 text-slate-400" />
-            </div>
-            <h3 className="mb-2 font-semibold text-lg text-slate-900 dark:text-white">
-              No tours found
-            </h3>
-            <p className="text-slate-600 dark:text-slate-400">
-              Try adjusting your search criteria or browse all tours.
-            </p>
-            <Button
-              variant="outline"
-              className="mt-4"
-              onClick={() => {
-                setSearchQuery("");
-                setSelectedCategory("all");
-                setSelectedDuration("all");
-                setPriceRange([0, 1000]);
-                setFilteredTours(mockTours);
-              }}
-            >
-              Clear filters
-            </Button>
-          </div>
-        )}
+              {/* Country */}
+              <div className="space-y-2">
+                <Label htmlFor="country">Country</Label>
+                <Select
+                  value={selectedCountry}
+                  onValueChange={setSelectedCountry}
+                >
+                  <SelectTrigger className="w-full">
+                    <SelectValue placeholder="Select country" />
+                  </SelectTrigger>
+                  <SelectContent className="w-full max-h-60">
+                    {countries.map((country) => (
+                      <SelectItem key={country.value} value={country.value}>
+                        {country.label}
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
+              </div>
 
-        {/* Destination Info Sidebar */}
-        <Card className="mt-12 p-6">
-          <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-            <div className="text-center">
-              <Clock className="mx-auto mb-2 w-8 h-8 text-blue-500" />
-              <h3 className="mb-1 font-semibold">Best Time to Visit</h3>
-              <p className="text-slate-600 text-sm">
-                {destination.bestTimeToVisit.join(", ")}
-              </p>
-            </div>
-            <div className="text-center">
-              <Users className="mx-auto mb-2 w-8 h-8 text-green-500" />
-              <h3 className="mb-1 font-semibold">Popular With</h3>
-              <p className="text-slate-600 text-sm">
-                {destination.popularWith.join(", ")}
-              </p>
-            </div>
-            <div className="text-center">
-              <Calendar className="mx-auto mb-2 w-8 h-8 text-orange-500" />
-              <h3 className="mb-1 font-semibold">Average Temperature</h3>
-              <p className="text-slate-600 text-sm">
-                {destination.climate.averageTemperature}
-              </p>
-            </div>
-            <div className="text-center">
-              <Star className="mx-auto mb-2 w-8 h-8 text-yellow-500" />
-              <h3 className="mb-1 font-semibold">Destination Rating</h3>
-              <p className="text-slate-600 text-sm">{destination.rating}/5.0</p>
+              {/* Tour Type */}
+              <div className="space-y-2">
+                <Label htmlFor="type">Tour Type</Label>
+                <Select value={selectedType} onValueChange={setSelectedType}>
+                  <SelectTrigger className="w-full">
+                    <SelectValue placeholder="Select type" />
+                  </SelectTrigger>
+                  <SelectContent className="w-full max-h-60">
+                    {types.map((type) => (
+                      <SelectItem key={type.value} value={type.value}>
+                        {type.label}
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
+              </div>
+
+              {/* Reset Filters Button */}
+              <div className="flex items-end">
+                <Button
+                  onClick={resetFilters}
+                  variant="outline"
+                  className="w-full"
+                >
+                  <RotateCcw className="mr-2 w-4 h-4" />
+                  Reset Filters
+                </Button>
+              </div>
             </div>
           </div>
         </Card>
+
+        <div className="gap-8 grid lg:grid-cols-4">
+          {/* Filters Sidebar */}
+          <div className="space-y-6 lg:col-span-1">
+            <Card>
+              <div className="p-6">
+                <div className="flex items-center gap-2 mb-4">
+                  <Filter className="w-5 h-5" />
+                  <h3 className="font-semibold text-lg">Filters</h3>
+                </div>
+
+                <div className="space-y-6">
+                  {/* Search by Name */}
+                  <div className="space-y-2">
+                    <Label>Search Tours</Label>
+                    <div className="relative">
+                      <Search className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
+                      <Input
+                        placeholder="Paris tour, museum visit..."
+                        value={searchQuery}
+                        onChange={(e) => setSearchQuery(e.target.value)}
+                        className="pl-10"
+                      />
+                    </div>
+                  </div>
+
+                  {/* Category */}
+                  <div className="space-y-2">
+                    <Label>Category</Label>
+                    <Select
+                      value={selectedCategory}
+                      onValueChange={setSelectedCategory}
+                    >
+                      <SelectTrigger className="w-full">
+                        <SelectValue placeholder="Select category" />
+                      </SelectTrigger>
+                      <SelectContent className="w-full max-h-60">
+                        {categories.map((category) => (
+                          <SelectItem
+                            key={category.value}
+                            value={category.value}
+                          >
+                            {category.label}
+                          </SelectItem>
+                        ))}
+                      </SelectContent>
+                    </Select>
+                  </div>
+
+                  {/* Duration */}
+                  <div className="space-y-2">
+                    <Label>Duration</Label>
+                    <Select
+                      value={selectedDuration}
+                      onValueChange={setSelectedDuration}
+                    >
+                      <SelectTrigger className="w-full">
+                        <SelectValue placeholder="Select duration" />
+                      </SelectTrigger>
+                      <SelectContent className="w-full max-h-60">
+                        {durations.map((duration) => (
+                          <SelectItem
+                            key={duration.value}
+                            value={duration.value}
+                          >
+                            {duration.label}
+                          </SelectItem>
+                        ))}
+                      </SelectContent>
+                    </Select>
+                  </div>
+
+                  {/* Price Range */}
+                  <div className="space-y-2">
+                    <Label>Price Range (Adult)</Label>
+                    <div className="px-2 py-4">
+                      <Slider
+                        value={priceRange}
+                        onValueChange={setPriceRange}
+                        max={500}
+                        min={0}
+                        step={25}
+                        className="w-full"
+                      />
+                      <div className="flex justify-between mt-2 text-slate-600 text-sm dark:text-slate-400">
+                        <span>{formatPrice(priceRange[0])}</span>
+                        <span>{formatPrice(priceRange[1])}</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Reset Filters Button */}
+                  <Button
+                    onClick={resetFilters}
+                    className="w-full"
+                    variant="outline"
+                  >
+                    <RotateCcw className="mr-2 w-4 h-4" />
+                    Reset Filters
+                  </Button>
+                </div>
+              </div>
+            </Card>
+          </div>
+
+          {/* Tours Grid */}
+          <div className="lg:col-span-3">
+            <div className="flex justify-between items-center mb-6">
+              <p className="text-slate-600 dark:text-slate-400">
+                {filteredTours.length} tour
+                {filteredTours.length !== 1 ? "s" : ""} found
+                {filteredTours.length > 0 && (
+                  <span className="ml-2">
+                    (Showing {startIndex + 1}-
+                    {Math.min(endIndex, filteredTours.length)} of{" "}
+                    {filteredTours.length})
+                  </span>
+                )}
+              </p>
+
+              <div className="flex items-center gap-4">
+                {/* Items per page dropdown */}
+                <div className="flex items-center gap-2">
+                  <Label
+                    htmlFor="items-per-page"
+                    className="text-sm whitespace-nowrap"
+                  >
+                    Show:
+                  </Label>
+                  <Select
+                    value={itemsPerPage.toString()}
+                    onValueChange={(value) => setItemsPerPage(Number(value))}
+                  >
+                    <SelectTrigger className="w-20">
+                      <SelectValue />
+                    </SelectTrigger>
+                    <SelectContent className="w-full max-h-60">
+                      <SelectItem value="6">6</SelectItem>
+                      <SelectItem value="9">9</SelectItem>
+                      <SelectItem value="12">12</SelectItem>
+                      <SelectItem value="18">18</SelectItem>
+                    </SelectContent>
+                  </Select>
+                </div>
+
+                {/* Sort dropdown */}
+                <Select value={sortBy} onValueChange={setSortBy}>
+                  <SelectTrigger className="w-48">
+                    <SelectValue />
+                  </SelectTrigger>
+                  <SelectContent className="w-full max-h-60">
+                    <SelectItem value="name">Name (A-Z)</SelectItem>
+                    <SelectItem value="price-low">
+                      Price: Low to High
+                    </SelectItem>
+                    <SelectItem value="price-high">
+                      Price: High to Low
+                    </SelectItem>
+                    <SelectItem value="rating">Highest Rated</SelectItem>
+                    <SelectItem value="duration">Duration</SelectItem>
+                  </SelectContent>
+                </Select>
+              </div>
+            </div>
+
+            {filteredTours.length === 0 ? (
+              <Card className="p-12 text-center">
+                <MapPin className="mx-auto mb-4 w-12 h-12 text-slate-400" />
+                <h3 className="mb-2 font-semibold text-slate-900 text-xl dark:text-white">
+                  No tours found
+                </h3>
+                <p className="text-slate-600 dark:text-slate-400">
+                  Try adjusting your search criteria or filters to find
+                  available tours.
+                </p>
+              </Card>
+            ) : (
+              <>
+                <div className="gap-6 grid grid-cols-1 xl:grid-cols-2">
+                  {paginatedTours.map((tour) => (
+                    <Card
+                      key={tour.id}
+                      className="group hover:shadow-xl p-0 transition-all cursor-pointer overflow-hidden"
+                      onClick={() =>
+                        router.push(
+                          `/tours/${tour.id.toLowerCase().replace(/\s+/g, "-")}`
+                        )
+                      }
+                    >
+                      <div className="relative h-64">
+                        <Image
+                          src={tour.images[0]}
+                          alt={tour.title}
+                          fill
+                          className="transition-transform group-hover:scale-105 object-cover"
+                        />
+                        <div className="top-4 right-4 absolute bg-white px-3 py-1 rounded-full font-semibold text-black">
+                          {formatPrice(tour.pricing.adult)}
+                        </div>
+                        <div className="bottom-4 left-4 absolute bg-black/70 px-3 py-1 rounded-full font-medium text-sm text-white">
+                          <MapPin className="inline mr-1 w-3 h-3" />
+                          {tour.location.city}, {tour.location.country}
+                        </div>
+                      </div>
+
+                      <div className="p-6">
+                        <div className="flex justify-between items-start mb-3">
+                          <h3 className="font-bold text-slate-900 text-xl dark:group-hover:text-blue-400 dark:text-white group-hover:text-blue-600 transition-colors">
+                            {tour.title}
+                          </h3>
+                        </div>
+
+                        <p className="mb-4 text-slate-600 text-sm dark:text-slate-400 line-clamp-2">
+                          {tour.description}
+                        </p>
+
+                        <div className="flex flex-wrap gap-2 mb-4">
+                          <Badge variant="secondary" className="text-xs">
+                            {tour.type}
+                          </Badge>
+                          <Badge variant="outline" className="text-xs">
+                            {tour.category}
+                          </Badge>
+                        </div>
+
+                        <div className="flex justify-between items-center">
+                          <div className="space-y-1">
+                            <div className="flex items-center gap-2 text-slate-600 text-sm dark:text-slate-400">
+                              <Clock className="w-4 h-4" />
+                              <span>{tour.duration}</span>
+                            </div>
+                            <div className="flex items-center gap-2 text-slate-600 text-sm dark:text-slate-400">
+                              <Star className="w-4 h-4 text-yellow-400 fill-yellow-400" />
+                              <span>
+                                {tour.reviews.rating} (
+                                {tour.reviews.totalReviews})
+                              </span>
+                            </div>
+                          </div>
+                          <div className="text-right">
+                            <div className="font-bold text-slate-900 text-xl dark:text-white">
+                              {formatPrice(tour.pricing.adult)}
+                            </div>
+                            <div className="text-slate-500 text-sm">
+                              per adult
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </Card>
+                  ))}
+                </div>
+
+                {/* Pagination Controls */}
+                {totalPages > 1 && (
+                  <div className="flex sm:flex-row flex-col justify-between items-center gap-4 mt-8">
+                    <Pagination>
+                      <PaginationContent>
+                        <PaginationItem>
+                          <PaginationPrevious
+                            href="#"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              if (currentPage > 1) {
+                                handlePageChange(currentPage - 1);
+                              }
+                            }}
+                            className={
+                              currentPage <= 1
+                                ? "pointer-events-none opacity-50"
+                                : ""
+                            }
+                          />
+                        </PaginationItem>
+
+                        {/* Page numbers */}
+                        {Array.from(
+                          { length: Math.min(5, totalPages) },
+                          (_, i) => {
+                            let pageNumber;
+                            if (totalPages <= 5) {
+                              pageNumber = i + 1;
+                            } else if (currentPage <= 3) {
+                              pageNumber = i + 1;
+                            } else if (currentPage >= totalPages - 2) {
+                              pageNumber = totalPages - 4 + i;
+                            } else {
+                              pageNumber = currentPage - 2 + i;
+                            }
+
+                            return (
+                              <PaginationItem key={pageNumber}>
+                                <PaginationLink
+                                  href="#"
+                                  onClick={(e) => {
+                                    e.preventDefault();
+                                    handlePageChange(pageNumber);
+                                  }}
+                                  isActive={currentPage === pageNumber}
+                                >
+                                  {pageNumber}
+                                </PaginationLink>
+                              </PaginationItem>
+                            );
+                          }
+                        )}
+
+                        {totalPages > 5 && currentPage < totalPages - 2 && (
+                          <PaginationItem>
+                            <PaginationEllipsis />
+                          </PaginationItem>
+                        )}
+
+                        <PaginationItem>
+                          <PaginationNext
+                            href="#"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              if (currentPage < totalPages) {
+                                handlePageChange(currentPage + 1);
+                              }
+                            }}
+                            className={
+                              currentPage >= totalPages
+                                ? "pointer-events-none opacity-50"
+                                : ""
+                            }
+                          />
+                        </PaginationItem>
+                      </PaginationContent>
+                    </Pagination>
+
+                    {/* Page info and quick jump (only show if more than 5 pages) */}
+                    {totalPages > 5 && (
+                      <div className="flex items-center gap-3 text-slate-600 text-sm dark:text-slate-400">
+                        <span>
+                          Page {currentPage} of {totalPages}
+                        </span>
+                      </div>
+                    )}
+                  </div>
+                )}
+              </>
+            )}
+          </div>
+        </div>
       </div>
     </div>
   );
