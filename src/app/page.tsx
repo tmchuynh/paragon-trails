@@ -16,30 +16,16 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import { Input } from "@/components/ui/input";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
 import { useCurrency } from "@/context/CurrencyContext";
 import { mockDestinations } from "@/data/destinations";
 import { mockFlights } from "@/data/flights";
-import {
-  ArrowRight,
-  Calendar,
-  MapPin,
-  PlayCircle,
-  Search,
-  Star,
-  Users,
-} from "lucide-react";
+import { ArrowRight, PlayCircle, Star, Users } from "lucide-react";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 export default function HomePage() {
   const { formatPrice } = useCurrency();
+  const router = useRouter();
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -60,7 +46,7 @@ export default function HomePage() {
         {/* Hero Content */}
         <div className="relative z-10 mx-auto px-4 sm:px-6 lg:px-8 py-20 w-full max-w-7xl">
           {/* Mobile Layout */}
-          <div className="lg:hidden text-center text-white">
+          <div className="lg:hidden text-center">
             <div className="mb-8">
               <h1 className="mb-6 font-bold text-4xl md:text-6xl leading-tight">
                 Where You Get Trapped
@@ -81,93 +67,16 @@ export default function HomePage() {
               <Button
                 size="lg"
                 className="bg-yellow-500 hover:bg-yellow-600 px-8 py-3 rounded-full font-bold text-black"
+                onClick={() => router.push("/destinations")}
               >
                 <PlayCircle className="mr-2 w-5 h-5" />
                 Book Trip Now
               </Button>
             </div>
-
-            {/* Mobile Search Card */}
-            <div className="mt-12">
-              <Card className="bg-white/95 shadow-2xl backdrop-blur-sm">
-                <CardHeader className="pb-4">
-                  <CardTitle className="flex items-center gap-2 text-gray-800">
-                    <Search className="w-5 h-5" />
-                    Find Hotels
-                  </CardTitle>
-                </CardHeader>
-                <CardContent className="space-y-4">
-                  <div className="gap-4 grid grid-cols-1 md:grid-cols-2">
-                    <div className="space-y-2">
-                      <label className="font-medium text-gray-700 text-sm">
-                        Destination
-                      </label>
-                      <div className="relative">
-                        <MapPin className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
-                        <Input
-                          placeholder="Banten Hotel Drexelore"
-                          className="pl-10 border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
-                        />
-                      </div>
-                    </div>
-                    <div className="space-y-2">
-                      <label className="font-medium text-gray-700 text-sm">
-                        Check-in & Check-out
-                      </label>
-                      <div className="relative">
-                        <Calendar className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
-                        <Input
-                          placeholder="Tue, 31/05/24"
-                          className="pl-10 border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="gap-4 grid grid-cols-1 md:grid-cols-2">
-                    <div className="space-y-2">
-                      <label className="font-medium text-gray-700 text-sm">
-                        Guests and Rooms
-                      </label>
-                      <div className="relative">
-                        <Users className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
-                        <Input
-                          placeholder="2 Adult | Child | Room"
-                          className="pl-10 border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
-                        />
-                      </div>
-                    </div>
-                    <div className="space-y-2">
-                      <label className="font-medium text-gray-700 text-sm">
-                        Price Range
-                      </label>
-                      <Select>
-                        <SelectTrigger className="w-full">
-                          <SelectValue placeholder="2H per night" />
-                        </SelectTrigger>
-                        <SelectContent className="w-full max-h-60">
-                          <SelectItem value="budget">
-                            Budget ($50-100)
-                          </SelectItem>
-                          <SelectItem value="mid">
-                            Mid-range ($100-200)
-                          </SelectItem>
-                          <SelectItem value="luxury">Luxury ($200+)</SelectItem>
-                        </SelectContent>
-                      </Select>
-                    </div>
-                  </div>
-                  <Button className="bg-black hover:bg-gray-800 w-full text-white">
-                    Search Hotel
-                  </Button>
-                </CardContent>
-              </Card>
-            </div>
           </div>
 
-          {/* Desktop Two-Column Layout */}
           <div className="lg:items-center lg:gap-12 hidden lg:grid lg:grid-cols-2">
-            {/* Left Column - Hero Text */}
-            <div className="text-white">
+            <div>
               <h1 className="mb-6 font-bold text-5xl xl:text-6xl leading-tight">
                 Where You Get Trapped
                 <br />
@@ -187,98 +96,25 @@ export default function HomePage() {
               <Button
                 size="lg"
                 className="bg-yellow-500 hover:bg-yellow-600 px-8 py-3 rounded-full font-bold text-black"
+                onClick={() => router.push("/destinations")}
               >
                 <PlayCircle className="mr-2 w-5 h-5" />
                 Book Trip Now
               </Button>
-            </div>
-
-            {/* Right Column - Search Form */}
-            <div className="lg:ml-8">
-              <Card className="bg-white/95 shadow-2xl backdrop-blur-sm">
-                <CardHeader className="pb-4">
-                  <CardTitle className="flex items-center gap-2 text-gray-800">
-                    <Search className="w-5 h-5" />
-                    Find Hotels
-                  </CardTitle>
-                </CardHeader>
-                <CardContent className="space-y-4">
-                  <div className="space-y-4">
-                    <div className="space-y-2">
-                      <label className="font-medium text-gray-700 text-sm">
-                        Destination
-                      </label>
-                      <div className="relative">
-                        <MapPin className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
-                        <Input
-                          placeholder="Banten Hotel Drexelore"
-                          className="pl-10 border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
-                        />
-                      </div>
-                    </div>
-                    <div className="space-y-2">
-                      <label className="font-medium text-gray-700 text-sm">
-                        Check-in & Check-out
-                      </label>
-                      <div className="relative">
-                        <Calendar className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
-                        <Input
-                          placeholder="Tue, 31/05/24"
-                          className="pl-10 border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
-                        />
-                      </div>
-                    </div>
-                    <div className="space-y-2">
-                      <label className="font-medium text-gray-700 text-sm">
-                        Guests and Rooms
-                      </label>
-                      <div className="relative">
-                        <Users className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
-                        <Input
-                          placeholder="2 Adult | Child | Room"
-                          className="pl-10 border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
-                        />
-                      </div>
-                    </div>
-                    <div className="space-y-2">
-                      <label className="font-medium text-gray-700 text-sm">
-                        Price Range
-                      </label>
-                      <Select>
-                        <SelectTrigger className="w-full">
-                          <SelectValue placeholder="2H per night" />
-                        </SelectTrigger>
-                        <SelectContent className="w-full max-h-60">
-                          <SelectItem value="budget">
-                            Budget ($50-100)
-                          </SelectItem>
-                          <SelectItem value="mid">
-                            Mid-range ($100-200)
-                          </SelectItem>
-                          <SelectItem value="luxury">Luxury ($200+)</SelectItem>
-                        </SelectContent>
-                      </Select>
-                    </div>
-                  </div>
-                  <Button className="bg-black hover:bg-gray-800 w-full text-white">
-                    Search Hotel
-                  </Button>
-                </CardContent>
-              </Card>
             </div>
           </div>
         </div>
       </section>
 
       {/* Right Side Content */}
-      <section className="bg-gray-50 py-16">
+      <section className="py-16">
         <div className="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
           <div className="items-center gap-12 grid grid-cols-1 lg:grid-cols-2">
             <div>
-              <h2 className="mb-6 font-bold text-3xl text-gray-800 md:text-4xl">
+              <h2 className="mb-6 font-bold text-3xl md:text-4xl">
                 Popular Destinations
               </h2>
-              <p className="mb-8 text-gray-600">
+              <p className="mb-8">
                 At ParagonTrails, we believe in curating exceptional experiences
                 that turn every journey into an adventure worth remembering.
               </p>
@@ -298,9 +134,9 @@ export default function HomePage() {
                         width={400}
                         height={300}
                       />
-                      <div className="top-2 right-2 absolute bg-black px-2 py-1 rounded text-sm text-white">
+                      <div className="top-2 right-2 absolute bg-black px-2 py-1 rounded text-sm">
                         {formatPrice(
-                          destination.pricing.accommodationRange.midRange,
+                          destination.pricing.accommodationRange.midRange
                         )}
                       </div>
                     </div>
@@ -313,12 +149,8 @@ export default function HomePage() {
                           />
                         ))}
                       </div>
-                      <h3 className="mb-1 font-semibold text-gray-800">
-                        {destination.name}
-                      </h3>
-                      <p className="text-gray-600 text-sm">
-                        {destination.country}
-                      </p>
+                      <h3 className="mb-1 font-semibold">{destination.name}</h3>
+                      <p className="text-sm">{destination.country}</p>
                     </CardContent>
                   </Card>
                 ))}
@@ -336,7 +168,7 @@ export default function HomePage() {
                   height={400}
                 />
                 <CardContent className="p-4">
-                  <p className="text-gray-600 text-sm">
+                  <p className="text-sm">
                     At ParagonTrails, we believe in curating exceptional
                     experiences that turn every journey into an adventure worth
                     remembering.
@@ -354,7 +186,7 @@ export default function HomePage() {
                   height={300}
                 />
                 <CardContent className="p-4">
-                  <p className="text-gray-600 text-sm">
+                  <p className="text-sm">
                     Cultural immersion, culinary discovery, natural beauty,
                     thrilling adventure, cultural and artistic experiences.
                   </p>
@@ -371,7 +203,7 @@ export default function HomePage() {
                   height={300}
                 />
                 <CardContent className="p-4">
-                  <p className="text-gray-600 text-sm">
+                  <p className="text-sm">
                     History and culture, unique perspectives and remarkable
                     experiences available.
                   </p>
@@ -383,13 +215,13 @@ export default function HomePage() {
       </section>
 
       {/* Promo Sections */}
-      <section className="bg-white py-16">
+      <section className="py-16">
         <div className="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
           <div className="gap-12 grid grid-cols-1 lg:grid-cols-2">
             {/* Big Promo */}
-            <Card className="bg-gradient-to-br from-yellow-400 to-orange-500 border-0 text-white">
+            <Card className="bg-muted/50 border border-border">
               <CardHeader>
-                <div className="bg-white/20 px-3 py-1 rounded-full w-fit font-medium text-sm">
+                <div className="px-3 py-1 rounded-full w-fit font-medium text-sm">
                   Big Promo
                 </div>
                 <CardTitle className="font-bold text-3xl">
@@ -399,7 +231,7 @@ export default function HomePage() {
                   <br />
                   Big!
                 </CardTitle>
-                <CardDescription className="text-white/90">
+                <CardDescription className="/90">
                   Big Promo About Plan for Journey like Gymnastic activity like
                   cultural background. Planning cultural background our Value
                   City Promo, offering much than before. Let's start our future
@@ -407,12 +239,7 @@ export default function HomePage() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <Button
-                  variant="secondary"
-                  className="bg-white hover:bg-gray-100 text-black"
-                >
-                  Book Now
-                </Button>
+                <Button variant="secondary">Book Now</Button>
               </CardContent>
             </Card>
 
@@ -431,16 +258,14 @@ export default function HomePage() {
                     <h3 className="mb-2 font-bold text-xl">
                       Let's Explore Together
                     </h3>
-                    <p className="mb-4 text-gray-600 text-sm">
+                    <p className="mb-4 text-sm">
                       At ParagonTrails, the world is our diama and every journey
                       is an opportunity to discover something new about
                       ourselves and the most interesting cultural of every one
                       that without a shadow.
                     </p>
                     <div className="flex justify-between items-center">
-                      <span className="font-semibold text-gray-800">
-                        Ramadhan Promo
-                      </span>
+                      <span className="font-semibold">Ramadhan Promo</span>
                       <Button size="sm" className="rounded-full">
                         <ArrowRight className="w-4 h-4" />
                       </Button>
@@ -454,13 +279,13 @@ export default function HomePage() {
       </section>
 
       {/* Featured Destinations for 2024 */}
-      <section className="bg-gray-50 py-16">
+      <section className="py-16">
         <div className="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
           <div className="mb-12 text-center">
-            <h2 className="mb-4 font-bold text-3xl text-gray-800 md:text-4xl">
+            <h2 className="mb-4 font-bold text-3xl md:text-4xl">
               Featured Destinations for 2024
             </h2>
-            <p className="mx-auto max-w-2xl text-gray-600">
+            <p className="mx-auto max-w-2xl">
               Discover the most sought-after destinations this year, curated by
               our travel experts for unforgettable experiences.
             </p>
@@ -478,7 +303,7 @@ export default function HomePage() {
                       mockDestinations.find((dest) =>
                         dest.name
                           .toLowerCase()
-                          .includes(flight.destination.city.toLowerCase()),
+                          .includes(flight.destination.city.toLowerCase())
                       )?.images[0] ||
                       "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=600&auto=format&fit=crop&q=60"
                     }
@@ -490,7 +315,7 @@ export default function HomePage() {
                   <div className="top-4 right-4 absolute bg-white px-3 py-1 rounded-full font-semibold text-black">
                     {formatPrice(flight.pricing.economy)}
                   </div>
-                  <div className="bottom-4 left-4 absolute bg-black/70 px-3 py-1 rounded-full font-medium text-sm text-white">
+                  <div className="bottom-4 left-4 absolute bg-black/70 px-3 py-1 rounded-full font-medium text-sm">
                     {flight.origin.code} → {flight.destination.code}
                   </div>
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all"></div>
@@ -504,10 +329,10 @@ export default function HomePage() {
                       />
                     ))}
                   </div>
-                  <h3 className="mb-1 font-semibold text-gray-800">
+                  <h3 className="mb-1 font-semibold">
                     {flight.destination.city}
                   </h3>
-                  <p className="text-gray-600 text-sm">
+                  <p className="text-sm">
                     {flight.airline} • {flight.duration}
                   </p>
                   <p className="mt-1 text-gray-500 text-xs">
@@ -521,7 +346,7 @@ export default function HomePage() {
       </section>
 
       {/* Booking Experience Section */}
-      <section className="bg-gradient-to-br from-gray-900 to-gray-800 py-20 text-white">
+      <section className="py-20">
         <div className="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
           <div className="items-center gap-12 grid grid-cols-1 lg:grid-cols-2">
             <div>
@@ -530,7 +355,7 @@ export default function HomePage() {
                 <br />
                 For Your Vacation
               </h2>
-              <p className="mb-8 text-gray-300 text-lg">
+              <p className="mb-8 text-lg">
                 We are premier hotel booking service that caters to the
                 discerning traveler in search of luxury and sophistication.
               </p>
@@ -541,19 +366,17 @@ export default function HomePage() {
                   <div className="mb-2 font-bold text-2xl text-yellow-300">
                     100% + happy guests
                   </div>
-                  <div className="text-gray-400 text-sm">
-                    Customer satisfaction
-                  </div>
+                  <div className="text-sm">Customer satisfaction</div>
                 </div>
                 <div>
                   <div className="mb-2 font-bold text-2xl text-yellow-300">
                     4.9 ★
                   </div>
-                  <div className="text-gray-400 text-sm">Guest's Reviews</div>
+                  <div className="text-sm">Guest's Reviews</div>
                 </div>
               </div>
 
-              <Button className="bg-gradient-to-r from-blue-600 hover:from-blue-700 to-teal-500 hover:to-teal-600">
+              <Button>
                 Book your stay
                 <ArrowRight className="ml-2 w-4 h-4" />
               </Button>
@@ -561,29 +384,24 @@ export default function HomePage() {
 
             {/* Booking Confirmation Mockup */}
             <div className="relative">
-              <div className="bg-white shadow-2xl p-6 rounded-2xl text-gray-800">
+              <div className="bg-muted/50 shadow-2xl p-6 rounded-2xl">
                 <div className="flex justify-between items-center mb-4">
-                  <h3 className="font-semibold text-lg">
+                  <h3 className="font-semibold text-2xl uppercase">
                     Booking is confirmed!
                   </h3>
-                  <div className="bg-green-100 p-2 rounded-full">
-                    <div className="flex justify-center items-center bg-green-500 rounded-full w-6 h-6">
-                      <span className="font-bold text-white text-xs">✓</span>
-                    </div>
-                  </div>
                 </div>
 
                 <div className="space-y-3 mb-6">
                   <div className="flex justify-between">
-                    <span className="text-gray-600">Check-In</span>
+                    <span>Check-In</span>
                     <span className="font-medium">13.07.2025</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-gray-600">Check-Out</span>
+                    <span>Check-Out</span>
                     <span className="font-medium">16.07.2025</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-gray-600">Guests</span>
+                    <span>Guests</span>
                     <span className="font-medium">5 people</span>
                   </div>
                 </div>
@@ -600,21 +418,10 @@ export default function HomePage() {
                     />
                     <div className="flex-1">
                       <h4 className="font-semibold">Your stay:</h4>
-                      <p className="text-gray-600 text-sm">Bali</p>
-                      <p className="text-gray-600 text-sm">
-                        John Hilton Resort
-                      </p>
+                      <p className="text-sm">Bali</p>
+                      <p className="text-sm">John Hilton Resort</p>
                     </div>
                   </div>
-                </div>
-
-                <div className="flex gap-3">
-                  <Button className="flex-1 bg-blue-600 hover:bg-blue-700">
-                    Apple Pay
-                  </Button>
-                  <Button variant="outline" className="flex-1">
-                    Confirm
-                  </Button>
                 </div>
               </div>
             </div>
@@ -623,7 +430,7 @@ export default function HomePage() {
       </section>
 
       {/* Sophisticated Stays Section */}
-      <section className="bg-white py-16">
+      <section className="py-16">
         <div className="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
           <div className="items-center gap-12 grid grid-cols-1 lg:grid-cols-2">
             <div className="space-y-6">
@@ -659,7 +466,6 @@ export default function HomePage() {
                           width={300}
                           height={200}
                         />
-                        {/* CardContent can be added here if needed */}
                       </Card>
                     </CarouselItem>
                   ))}
@@ -670,25 +476,25 @@ export default function HomePage() {
             </div>
 
             <div>
-              <h2 className="mb-4 font-bold text-3xl text-gray-800">
+              <h2 className="mb-4 font-bold text-3xl">
                 Unlock the Art of
                 <br />
                 Sophisticated Stays
               </h2>
-              <p className="mb-6 text-gray-600">
+              <p className="mb-6">
                 We understand that accommodations play a pivotal role in shaping
                 travel experience, and that's why we are committed to providing
                 an innovative collection of exquisite hotels in the world's most
                 desirable destinations.
               </p>
-              <p className="text-gray-500 text-sm">From 2019</p>
+              <p className="text-muted-foreground text-sm">From 2019</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* Property Showcase */}
-      <section className="bg-gray-50 py-16">
+      <section className="py-16">
         <div className="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
           <div className="gap-8 grid grid-cols-1 lg:grid-cols-3">
             {/* Main Property */}
@@ -710,14 +516,12 @@ export default function HomePage() {
                 </div>
                 <CardContent className="p-6">
                   <h3 className="mb-2 font-bold text-xl">Mirror House Sud</h3>
-                  <p className="mb-2 text-gray-600 text-sm">
+                  <p className="mb-2 text-sm">
                     Bolzano, Trentino-Alto Adige/South Tyrol, Italy
                   </p>
                   <p className="mb-4 font-bold text-2xl">
                     $1,600{" "}
-                    <span className="font-normal text-base text-gray-600">
-                      / night
-                    </span>
+                    <span className="font-normal text-base">/ night</span>
                   </p>
 
                   <div className="flex items-center gap-6 mb-4 text-sm">
@@ -734,10 +538,6 @@ export default function HomePage() {
                       <span>1 Bathroom</span>
                     </div>
                   </div>
-
-                  <Button className="bg-black hover:bg-gray-800 w-full text-white">
-                    Check Availability
-                  </Button>
                 </CardContent>
               </Card>
             </div>
