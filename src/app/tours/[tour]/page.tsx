@@ -673,7 +673,7 @@ export default function TourDetailsPage() {
                         min="1"
                         max="10"
                         value={adults}
-                        className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                        className="focus:border-muted border-border focus:ring-muted/20 h-8"
                         onChange={(e) =>
                           setAdults(parseInt(e.target.value) || 1)
                         }
@@ -687,7 +687,7 @@ export default function TourDetailsPage() {
                         min="0"
                         max="10"
                         value={children}
-                        className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                        className="focus:border-muted border-border focus:ring-muted/20 h-8"
                         onChange={(e) =>
                           setChildren(parseInt(e.target.value) || 0)
                         }
@@ -701,7 +701,7 @@ export default function TourDetailsPage() {
                         min="0"
                         max="10"
                         value={seniors}
-                        className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                        className="focus:border-muted border-border focus:ring-muted/20 h-8"
                         onChange={(e) =>
                           setSeniors(parseInt(e.target.value) || 0)
                         }
@@ -716,7 +716,7 @@ export default function TourDetailsPage() {
                           min="0"
                           max="10"
                           value={students}
-                          className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                          className="focus:border-muted border-border focus:ring-muted/20 h-8"
                           onChange={(e) =>
                             setStudents(parseInt(e.target.value) || 0)
                           }
@@ -734,7 +734,7 @@ export default function TourDetailsPage() {
                         min="0"
                         max="5"
                         value={families}
-                        className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                        className="focus:border-muted border-border focus:ring-muted/20 h-8"
                         onChange={(e) =>
                           setFamilies(parseInt(e.target.value) || 0)
                         }
