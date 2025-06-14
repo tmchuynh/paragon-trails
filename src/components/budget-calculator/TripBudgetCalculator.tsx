@@ -164,7 +164,7 @@ function TripBudgetCalculator() {
     );
   };
 
-  const getFilteredItems = (items: any[], type: string) => {
+  const getFilteredItems = (items: any[]) => {
     // Ensure items is always an array, even if undefined or null
     const safeItems = Array.isArray(items) ? items : [];
 
@@ -216,7 +216,9 @@ function TripBudgetCalculator() {
             </CardHeader>
             <CardContent>
               <div className="flex items-center space-x-4">
-                <Label htmlFor="budget">Budget Amount ($)</Label>
+                <Label htmlFor="budget">
+                  <strong>Budget Amount ($)</strong>
+                </Label>
                 <Input
                   id="budget"
                   type="number"
@@ -262,32 +264,35 @@ function TripBudgetCalculator() {
                   <CardTitle>Activities</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-3 max-h-96 overflow-y-auto">
-                  {getFilteredItems(safeActivities, "activity").map(
-                    (activity) => (
-                      <div
-                        key={activity.id}
-                        className="flex items-center space-x-2 p-3 border rounded-lg"
-                      >
-                        <Checkbox
-                          checked={selectedItems.some(
-                            (item) => item.id === activity.id
-                          )}
-                          onCheckedChange={() =>
-                            handleItemSelection(activity, "activity")
-                          }
-                        />
-                        <div className="flex-1">
-                          <div className="font-medium">{activity.name}</div>
+                  {getFilteredItems(safeActivities).map((activity) => (
+                    <div
+                      key={activity.id}
+                      className="flex items-center space-x-2 p-3 border rounded-lg"
+                    >
+                      <Checkbox
+                        checked={selectedItems.some(
+                          (item) => item.id === activity.id
+                        )}
+                        className="data-[state=checked]:bg-accent dark:data-[state=checked]:bg-accent data-[state=checked]:border-accent data-[state=checked]:text-accent-foreground"
+                        onCheckedChange={() =>
+                          handleItemSelection(activity, "activity")
+                        }
+                      />
+                      <div className="flex-1">
+                        <div className="flex justify-between items-start">
+                          <div className="w-9/10 font-medium">
+                            {activity.name}
+                          </div>
                           <div className="text-gray-600 text-sm">
                             ${activity.pricing?.adult || 0}
                           </div>
-                          <Badge variant="secondary" className="text-xs">
-                            {activity.category}
-                          </Badge>
                         </div>
+                        <Badge variant="secondary" className="text-xs">
+                          {activity.category}
+                        </Badge>
                       </div>
-                    )
-                  )}
+                    </div>
+                  ))}
                 </CardContent>
               </Card>
 
@@ -297,32 +302,35 @@ function TripBudgetCalculator() {
                   <CardTitle>Attractions</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-3 max-h-96 overflow-y-auto">
-                  {getFilteredItems(safeAttractions, "attraction").map(
-                    (attraction) => (
-                      <div
-                        key={attraction.id}
-                        className="flex items-center space-x-2 p-3 border rounded-lg"
-                      >
-                        <Checkbox
-                          checked={selectedItems.some(
-                            (item) => item.id === attraction.id
-                          )}
-                          onCheckedChange={() =>
-                            handleItemSelection(attraction, "attraction")
-                          }
-                        />
-                        <div className="flex-1">
-                          <div className="font-medium">{attraction.name}</div>
+                  {getFilteredItems(safeAttractions).map((attraction) => (
+                    <div
+                      key={attraction.id}
+                      className="flex items-center space-x-2 p-3 border rounded-lg"
+                    >
+                      <Checkbox
+                        checked={selectedItems.some(
+                          (item) => item.id === attraction.id
+                        )}
+                        className="data-[state=checked]:bg-accent dark:data-[state=checked]:bg-accent data-[state=checked]:border-accent data-[state=checked]:text-accent-foreground"
+                        onCheckedChange={() =>
+                          handleItemSelection(attraction, "attraction")
+                        }
+                      />
+                      <div className="flex-1">
+                        <div className="flex justify-between items-start">
+                          <div className="w-9/10 font-medium">
+                            {attraction.name}
+                          </div>
                           <div className="text-gray-600 text-sm">
                             ${attraction.pricing?.adult || 0}
                           </div>
-                          <Badge variant="secondary" className="text-xs">
-                            {attraction.category}
-                          </Badge>
                         </div>
+                        <Badge variant="secondary" className="text-xs">
+                          {attraction.category}
+                        </Badge>
                       </div>
-                    )
-                  )}
+                    </div>
+                  ))}
                 </CardContent>
               </Card>
 
@@ -332,7 +340,7 @@ function TripBudgetCalculator() {
                   <CardTitle>Tours</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-3 max-h-96 overflow-y-auto">
-                  {getFilteredItems(safeTours, "tour").map((tour) => (
+                  {getFilteredItems(safeTours).map((tour) => (
                     <div
                       key={tour.id}
                       className="flex items-center space-x-2 p-3 border rounded-lg"
@@ -341,17 +349,20 @@ function TripBudgetCalculator() {
                         checked={selectedItems.some(
                           (item) => item.id === tour.id
                         )}
+                        className="data-[state=checked]:bg-accent dark:data-[state=checked]:bg-accent data-[state=checked]:border-accent data-[state=checked]:text-accent-foreground"
                         onCheckedChange={() =>
                           handleItemSelection(tour, "tour")
                         }
                       />
                       <div className="flex-1">
-                        <div className="font-medium">{tour.title}</div>
-                        <div className="text-gray-600 text-sm">
-                          {tour.price}
+                        <div className="flex justify-between items-start">
+                          <div className="w-9/10 font-medium">{tour.title}</div>
+                          <div className="text-gray-600 text-sm">
+                            ${tour.pricing.adult}
+                          </div>
                         </div>
                         <Badge variant="secondary" className="text-xs">
-                          {tour.tourCategoryId}
+                          {tour.category || tour.type}
                         </Badge>
                       </div>
                     </div>
@@ -509,12 +520,15 @@ function TripBudgetCalculator() {
 
               <div className="gap-4 grid grid-cols-1 md:grid-cols-2">
                 <div>
-                  <Label htmlFor="income">Monthly Income ($)</Label>
+                  <Label htmlFor="income">
+                    <strong>Monthly Income ($)</strong>
+                  </Label>
                   <Input
                     id="income"
                     type="number"
                     placeholder="Enter your monthly income"
                     value={budgetPlan.monthlyIncome || ""}
+                    className="mt-1"
                     onChange={(e) =>
                       setBudgetPlan((prev) => ({
                         ...prev,
@@ -524,12 +538,15 @@ function TripBudgetCalculator() {
                   />
                 </div>
                 <div>
-                  <Label htmlFor="expenses">Monthly Expenses ($)</Label>
+                  <Label htmlFor="expenses">
+                    <strong>Monthly Expenses ($)</strong>
+                  </Label>
                   <Input
                     id="expenses"
                     type="number"
                     placeholder="Enter your monthly expenses"
                     value={budgetPlan.monthlyExpenses || ""}
+                    className="mt-1"
                     onChange={(e) =>
                       setBudgetPlan((prev) => ({
                         ...prev,
