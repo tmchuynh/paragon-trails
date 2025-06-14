@@ -15,6 +15,7 @@ import { cartHelpers, useCart } from "@/context/CartContext";
 import { useCurrency } from "@/context/CurrencyContext";
 import { mockFlights } from "@/data/flights";
 import { formatToSlug } from "@/lib/utils/format";
+import { Label } from "@radix-ui/react-label";
 import { Plane, RotateCcw, Search, Star, Wifi } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -38,8 +39,8 @@ export default function FlightsPage() {
       [
         ...mockFlights.map((flight) => flight.origin),
         ...mockFlights.map((flight) => flight.destination),
-      ].map((location) => `${location.code}|${location.city}`),
-    ),
+      ].map((location) => `${location.code}|${location.city}`)
+    )
   )
     .map((locationStr) => {
       const [code, city] = locationStr.split("|");
@@ -56,12 +57,12 @@ export default function FlightsPage() {
     // Filter by origin and destination
     if (fromLocation) {
       filtered = filtered.filter(
-        (flight) => flight.origin.code === fromLocation,
+        (flight) => flight.origin.code === fromLocation
       );
     }
     if (toLocation) {
       filtered = filtered.filter(
-        (flight) => flight.destination.code === toLocation,
+        (flight) => flight.destination.code === toLocation
       );
     }
 
@@ -76,7 +77,7 @@ export default function FlightsPage() {
           flight.destination.city
             .toLowerCase()
             .includes(searchQuery.toLowerCase()) ||
-          flight.origin.city.toLowerCase().includes(searchQuery.toLowerCase()),
+          flight.origin.city.toLowerCase().includes(searchQuery.toLowerCase())
       );
     }
 
@@ -143,14 +144,14 @@ export default function FlightsPage() {
         (item) =>
           item.name === flightItem.name &&
           item.dates.startDate === flightItem.dates.startDate &&
-          item.location === flightItem.location,
+          item.location === flightItem.location
       );
 
       if (existingItem) {
         const newGuestCount = existingItem.guests + parseInt(passengers);
         cartHelpers.updateGuests(dispatch, existingItem.id, newGuestCount);
         toast.success(
-          `Added ${passengers} more passenger${parseInt(passengers) > 1 ? "s" : ""} to ${flight.flightNumber}!`,
+          `Added ${passengers} more passenger${parseInt(passengers) > 1 ? "s" : ""} to ${flight.flightNumber}!`
         );
         return;
       }
@@ -178,7 +179,7 @@ export default function FlightsPage() {
         <Card className="mb-8 p-6">
           <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-4">
             <div className="space-y-2">
-              <label className="font-medium text-sm">From</label>
+              <Label className="font-medium text-sm">From</Label>
               <Select value={fromLocation} onValueChange={setFromLocation}>
                 <SelectTrigger className="w-full">
                   <SelectValue placeholder="Departure city" />
@@ -194,7 +195,7 @@ export default function FlightsPage() {
             </div>
 
             <div className="space-y-2">
-              <label className="font-medium text-sm">To</label>
+              <Label className="font-medium text-sm">To</Label>
               <Select value={toLocation} onValueChange={setToLocation}>
                 <SelectTrigger className="w-full">
                   <SelectValue placeholder="Destination city" />
@@ -210,7 +211,7 @@ export default function FlightsPage() {
             </div>
 
             <div className="space-y-2">
-              <label className="font-medium text-sm">Departure Date</label>
+              <Label className="font-medium text-sm">Departure Date</Label>
               <Input
                 type="date"
                 value={departureDate}
@@ -220,7 +221,7 @@ export default function FlightsPage() {
             </div>
 
             <div className="space-y-2">
-              <label className="font-medium text-sm">Passengers</label>
+              <Label className="font-medium text-sm">Passengers</Label>
               <Select value={passengers} onValueChange={setPassengers}>
                 <SelectTrigger className="w-full">
                   <SelectValue />
@@ -238,20 +239,20 @@ export default function FlightsPage() {
 
           <div className="gap-4 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
             <div className="space-y-2">
-              <label className="font-medium text-sm">Search</label>
+              <Label className="font-medium text-sm">Search</Label>
               <div className="relative">
                 <Search className="top-3 left-3 absolute w-4 h-4 text-slate-400" />
                 <Input
                   placeholder="Airline, flight number, or city..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  className="pl-10"
+                  className="pl-10 border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
                 />
               </div>
             </div>
 
             <div className="space-y-2">
-              <label className="font-medium text-sm">Class</label>
+              <Label className="font-medium text-sm">Class</Label>
               <Select value={classType} onValueChange={setClassType}>
                 <SelectTrigger className="w-full">
                   <SelectValue />
