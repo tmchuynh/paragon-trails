@@ -26,7 +26,7 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 import { useParams, useRouter, useSearchParams } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { toast } from "sonner";
 
 export default function VehicleDetailPage() {
@@ -38,21 +38,58 @@ export default function VehicleDetailPage() {
 
   // Find the vehicle based on the slug
   const vehicleSlug = params.vehicle as string;
-  const vehicle =
-    mockVehicles.find((v) => formatToSlug(v.name) === vehicleSlug) ||
-    mockVehicles[0];
+  const initialVehicle = mockVehicles.find(
+    (v) => formatToSlug(v.name) === vehicleSlug
+  );
 
+  const [vehicle, setCurrentVehicle] = useState(initialVehicle);
   const [selectedImage, setSelectedImage] = useState(0);
   const [pickupDate, setPickupDate] = useState(
-    searchParams.get("pickup") || "",
+    searchParams.get("pickup") || ""
   );
   const [returnDate, setReturnDate] = useState(
-    searchParams.get("return") || "",
+    searchParams.get("return") || ""
   );
   const [pickupLocation, setPickupLocation] = useState(
-    searchParams.get("location") || "new-york",
+    searchParams.get("location") || "new-york"
   );
   const [isAddingToCart, setIsAddingToCart] = useState(false);
+
+  // Update current vehicle when URL param changes
+  useEffect(() => {
+    const foundVehicle = mockVehicles.find(
+      (vehicle) => formatToSlug(vehicle.name) === vehicleSlug
+    );
+    setCurrentVehicle(foundVehicle);
+    setSelectedImage(0); // Reset image index when vehicle changes
+  }, [vehicleSlug]);
+
+  // Handle vehicle change from selector
+  const handleVehicleChange = (newVehicleId: string) => {
+    const newVehicle = mockVehicles.find(
+      (vehicle) => vehicle.id === newVehicleId
+    );
+    if (newVehicle) {
+      const newSlug = formatToSlug(newVehicle.name);
+      // Update URL without reloading the page
+      router.replace(`/vehicles/${newSlug}`, { scroll: false });
+    }
+  };
+
+  if (!vehicle) {
+    return (
+      <div className="min-h-screen">
+        <div className="mx-auto px-6 lg:px-8 py-12 max-w-7xl">
+          <div className="py-20 text-center">
+            <h1 className="mb-4 font-bold text-2xl">Vehicle not found</h1>
+            <Button onClick={() => router.push("/vehicles")}>
+              Browse all vehicles
+            </Button>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   const calculateDays = () => {
     if (!pickupDate || !returnDate) return 1;
@@ -103,17 +140,17 @@ export default function VehicleDetailPage() {
           item.name === rentalItem.name &&
           item.dates.startDate === rentalItem.dates.startDate &&
           item.dates.endDate === rentalItem.dates.endDate &&
-          item.location === rentalItem.location,
+          item.location === rentalItem.location
       );
 
       if (existingItem) {
         cartHelpers.updateQuantity(
           dispatch,
           existingItem.id,
-          existingItem.quantity + 1,
+          existingItem.quantity + 1
         );
         toast.success(
-          `Added another ${vehicle.name} to cart! (${existingItem.quantity + 1} total)`,
+          `Added another ${vehicle.name} to cart! (${existingItem.quantity + 1} total)`
         );
         setIsAddingToCart(false);
         return;
