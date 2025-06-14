@@ -13,6 +13,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Slider } from "@/components/ui/slider";
+import { mockDestinations } from "@/data/destinations";
 import { mockVehicles } from "@/data/vehicles";
 import { Vehicle } from "@/lib/interfaces/services/vehicles";
 import { Calendar, Car, Filter, MapPin, RotateCcw, Search } from "lucide-react";
@@ -28,23 +29,29 @@ export default function VehiclesPage() {
   const [pickupDate, setPickupDate] = useState("");
   const [returnDate, setReturnDate] = useState("");
 
+  // Dynamically extract vehicle types from mockVehicles
   const vehicleTypes = [
     { value: "all", label: "All Vehicles" },
-    { value: "car", label: "Standard Cars" },
-    { value: "luxury-car", label: "Luxury Cars" },
-    { value: "suv", label: "SUVs" },
-    { value: "sports-car", label: "Sports Cars" },
-    { value: "motorcycle", label: "Motorcycles" },
+    ...Array.from(new Set(mockVehicles.map((vehicle) => vehicle.type)))
+      .sort()
+      .map((type) => ({
+        value: type,
+        label: type
+          .split("-")
+          .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+          .join(" "),
+      })),
   ];
 
+  // Dynamically extract locations from mockDestinations
   const locations = [
     { value: "all", label: "All Locations" },
-    { value: "new-york", label: "New York" },
-    { value: "los-angeles", label: "Los Angeles" },
-    { value: "miami", label: "Miami" },
-    { value: "chicago", label: "Chicago" },
-    { value: "las-vegas", label: "Las Vegas" },
-    { value: "san-francisco", label: "San Francisco" },
+    ...mockDestinations
+      .map((destination) => ({
+        value: destination.name.toLowerCase().replace(/\s+/g, "-"),
+        label: destination.name,
+      }))
+      .sort((a, b) => a.label.localeCompare(b.label)),
   ];
 
   const handleSearch = () => {
