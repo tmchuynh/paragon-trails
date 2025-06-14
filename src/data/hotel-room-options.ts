@@ -287,21 +287,49 @@ export const standardRoomOptions: HotelRoom[] = [
 
 // Helper function to get rooms for specific hotel types
 export const getRoomsForHotelType = (hotelType: string): HotelRoom[] => {
-  switch (hotelType) {
+  switch (hotelType.toLowerCase()) {
     case "hostel":
-      return [standardRoomOptions[0]]; // Just standard single
+      // Budget options - basic standard rooms
+      return standardRoomOptions.slice(0, 2); // Standard Single and Double
+
     case "boutique":
-      return standardRoomOptions.slice(0, 3); // Standard + deluxe
+      // Boutique hotels - elegant mid-range options
+      return standardRoomOptions.slice(0, 4); // Standard, Queen, King, Family Suite
+
     case "hotel":
-      return standardRoomOptions.slice(0, 4); // Up to family suite
+      // Regular hotels - standard to executive range
+      return standardRoomOptions.slice(0, 5); // Up to Executive Suite
+
     case "resort":
+      // Resorts - full range including luxury options
+      return standardRoomOptions; // All room types available
+
     case "villa":
-      return standardRoomOptions; // All room types
+      // Villas - focus on larger, luxury accommodations
+      return standardRoomOptions.slice(3, 8); // Family Suite through Penthouse
+
     case "bed-and-breakfast":
-      return standardRoomOptions.slice(0, 2); // Standard rooms only
+    case "guesthouse":
+      // B&Bs - cozy, intimate room options
+      return standardRoomOptions.slice(0, 3); // Standard Single, Double, Queen
+
     case "apartment":
-      return [standardRoomOptions[3]]; // Family suite equivalent
+    case "extended-stay":
+      // Apartment-style - family and extended stay options
+      return [standardRoomOptions[3], standardRoomOptions[6]]; // Family Suite and Villa Suite
+
+    case "luxury":
+    case "five-star":
+      // Luxury hotels - premium options only
+      return standardRoomOptions.slice(4, 8); // Executive, Presidential, Villa, Penthouse
+
+    case "motel":
+    case "inn":
+      // Motels/Inns - basic to standard options
+      return standardRoomOptions.slice(0, 3); // Standard Single, Double, Queen
+
     default:
-      return standardRoomOptions.slice(0, 3);
+      // Default fallback - balanced selection
+      return standardRoomOptions.slice(0, 4); // Standard through Family Suite
   }
 };
