@@ -15,8 +15,8 @@ import {
 import { Slider } from "@/components/ui/slider";
 import { mockVehicles } from "@/data/vehicles";
 import { Vehicle } from "@/lib/interfaces/services/vehicles";
-import { Calendar, Car, Filter, MapPin, Search } from "lucide-react";
-import { useState } from "react";
+import { Calendar, Car, Filter, MapPin, RotateCcw, Search } from "lucide-react";
+import { useState, useEffect } from "react";
 
 export default function VehiclesPage() {
   const [filteredVehicles, setFilteredVehicles] =
@@ -74,6 +74,20 @@ export default function VehiclesPage() {
 
     setFilteredVehicles(filtered);
   };
+
+  const resetFilters = () => {
+    setSearchQuery("");
+    setSelectedType("all");
+    setPriceRange([0, 500]);
+    setSelectedLocation("all");
+    setPickupDate("");
+    setReturnDate("");
+  };
+
+  // Auto-filter when any filter changes
+  useEffect(() => {
+    handleSearch();
+  }, [searchQuery, selectedType, priceRange, selectedLocation, pickupDate, returnDate]);
 
   return (
     <div className="min-h-screen">
