@@ -366,7 +366,7 @@ export default function ActivitiesPage() {
                         placeholder="Cooking class, museum tour..."
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
-                        className="pl-10"
+                        className="pl-10 border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
                       />
                     </div>
                   </div>
