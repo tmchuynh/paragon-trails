@@ -2,7 +2,14 @@
 export interface Hotel {
   id: string;
   name: string;
-  type: "hotel" | "resort" | "boutique" | "hostel" | "apartment" | "villa" | "bed-and-breakfast";
+  type:
+    | "hotel"
+    | "resort"
+    | "boutique"
+    | "hostel"
+    | "apartment"
+    | "villa"
+    | "bed-and-breakfast";
   starRating: number;
   images: string[];
   description: string;
