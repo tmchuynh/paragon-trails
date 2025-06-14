@@ -4,40 +4,74 @@ import { getRoomsForHotelType } from "./hotel-room-options";
 export const mockHotels: Hotel[] = [
   // Paris Hotels
   {
-    id: "1",
+    id: "le-grand-parisian",
     name: "Le Grand Parisian",
     type: "hotel",
     starRating: 5,
     images: [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&h=600&fit=crop",
       "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=1200&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200&h=600&fit=crop"
+      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200&h=600&fit=crop",
     ],
-    description: "Luxury hotel in the heart of Paris, steps away from the Louvre and Champs-Élysées. Experience Parisian elegance with world-class service.",
+    description:
+      "Luxury hotel in the heart of Paris, steps away from the Louvre and Champs-Élysées. Experience Parisian elegance with world-class service. This historic hotel combines modern luxury with classic Parisian charm, offering exquisite dining, a full-service spa, and stunning views of the city. It features beautifully appointed rooms and suites, each designed to provide the utmost comfort and style. Guests can enjoy a range of amenities including a rooftop terrace, fitness center, and personalized concierge services. The hotel is perfect for both leisure and business travelers, providing a unique blend of culture, history, and modern convenience.",
     location: {
       address: "15 Avenue de l'Opéra, 1st Arrondissement",
       city: "Paris",
       country: "France",
       coordinates: { latitude: 48.8656, longitude: 2.3325 },
-      nearbyAttractions: ["Louvre Museum", "Palais Garnier", "Tuileries Garden", "Champs-Élysées"]
+      nearbyAttractions: [
+        "Louvre Museum",
+        "Palais Garnier",
+        "Tuileries Garden",
+        "Champs-Élysées",
+      ],
     },
     amenities: {
-      general: ["Free Wi-Fi", "24/7 Front Desk", "Concierge", "Luggage Storage", "Currency Exchange"],
-      business: ["Business Center", "Meeting Rooms", "Conference Facilities", "High-Speed Internet"],
-      recreation: ["Spa", "Fitness Center", "Indoor Pool", "Sauna", "Massage Services"],
-      dining: ["Restaurant", "Bar", "Room Service", "Champagne Bar", "Rooftop Terrace"],
-      accessibility: ["Wheelchair Accessible", "Elevator", "Accessible Parking", "Braille Signage"]
+      general: [
+        "Free Wi-Fi",
+        "24/7 Front Desk",
+        "Concierge",
+        "Luggage Storage",
+        "Currency Exchange",
+      ],
+      business: [
+        "Business Center",
+        "Meeting Rooms",
+        "Conference Facilities",
+        "High-Speed Internet",
+      ],
+      recreation: [
+        "Spa",
+        "Fitness Center",
+        "Indoor Pool",
+        "Sauna",
+        "Massage Services",
+      ],
+      dining: [
+        "Restaurant",
+        "Bar",
+        "Room Service",
+        "Champagne Bar",
+        "Rooftop Terrace",
+      ],
+      accessibility: [
+        "Wheelchair Accessible",
+        "Elevator",
+        "Accessible Parking",
+        "Braille Signage",
+      ],
     },
     rooms: {
       types: getRoomsForHotelType("hotel"),
-      totalRooms: 180
+      totalRooms: 180,
     },
     policies: {
       checkIn: "3:00 PM",
       checkOut: "12:00 PM",
       cancellation: "Free cancellation up to 24 hours before arrival",
       petPolicy: "Pets allowed with additional fee",
-      smokingPolicy: "Non-smoking property"
+      smokingPolicy: "Non-smoking property",
     },
     services: {
       concierge: true,
@@ -46,55 +80,71 @@ export const mockHotels: Hotel[] = [
       airportShuttle: true,
       spa: true,
       fitness: true,
-      businessCenter: true
+      businessCenter: true,
     },
     pricing: {
       priceRange: { min: 280, max: 850, currency: "USD" },
-      seasonality: { peak: 450, standard: 320, low: 280 }
+      seasonality: { peak: 450, standard: 320, low: 280 },
     },
     rating: 4.8,
     reviews: 2847,
     awards: ["World's Best Hotels 2024", "Forbes 5-Star"],
     sustainability: {
       certified: true,
-      practices: ["Green energy", "Water conservation", "Local sourcing", "Waste reduction"]
+      practices: [
+        "Green energy",
+        "Water conservation",
+        "Local sourcing",
+        "Waste reduction",
+      ],
     },
-    tags: ["Luxury", "Historic", "City Center", "Business", "Romantic"]
+    tags: ["Luxury", "Historic", "City Center", "Business", "Romantic"],
   },
   {
-    id: "2",
+    id: "boutique-montmartre",
     name: "Boutique Montmartre",
     type: "boutique",
     starRating: 4,
     images: [
       "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=1200&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&h=600&fit=crop"
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&h=600&fit=crop",
     ],
-    description: "Charming boutique hotel in artistic Montmartre district, featuring unique décor and personalized service.",
+    description:
+      "Charming boutique hotel in artistic Montmartre district, featuring unique décor and personalized service. Experience the vibrant culture of Paris in this cozy hotel, where each room is individually designed with artistic flair. The hotel offers a warm and inviting atmosphere, perfect for couples and solo travelers looking for a local experience. Guests can enjoy a complimentary breakfast, access to a rooftop terrace with stunning views, and personalized concierge services to explore the best of Montmartre. The hotel's location allows easy access to iconic landmarks, quaint cafés, and local art galleries.",
     location: {
       address: "12 Rue des Abbesses, 18th Arrondissement",
       city: "Paris",
       country: "France",
-      coordinates: { latitude: 48.8844, longitude: 2.3380 },
-      nearbyAttractions: ["Sacré-Cœur", "Moulin Rouge", "Place du Tertre", "Montmartre Cemetery"]
+      coordinates: { latitude: 48.8844, longitude: 2.338 },
+      nearbyAttractions: [
+        "Sacré-Cœur",
+        "Moulin Rouge",
+        "Place du Tertre",
+        "Montmartre Cemetery",
+      ],
     },
     amenities: {
-      general: ["Free Wi-Fi", "24/7 Front Desk", "Concierge", "Luggage Storage"],
+      general: [
+        "Free Wi-Fi",
+        "24/7 Front Desk",
+        "Concierge",
+        "Luggage Storage",
+      ],
       business: ["Business Corner", "High-Speed Internet"],
       recreation: ["Rooftop Terrace", "Library"],
       dining: ["Continental Breakfast", "Wine Bar", "Room Service"],
-      accessibility: ["Elevator", "Accessible Rooms"]
+      accessibility: ["Elevator", "Accessible Rooms"],
     },
     rooms: {
       types: getRoomsForHotelType("boutique"),
-      totalRooms: 45
+      totalRooms: 45,
     },
     policies: {
       checkIn: "2:00 PM",
       checkOut: "11:00 AM",
       cancellation: "Free cancellation up to 48 hours before arrival",
       petPolicy: "Small pets welcome",
-      smokingPolicy: "Non-smoking property"
+      smokingPolicy: "Non-smoking property",
     },
     services: {
       concierge: true,
@@ -103,52 +153,85 @@ export const mockHotels: Hotel[] = [
       airportShuttle: false,
       spa: false,
       fitness: false,
-      businessCenter: false
+      businessCenter: false,
     },
     pricing: {
       priceRange: { min: 180, max: 380, currency: "USD" },
-      seasonality: { peak: 280, standard: 220, low: 180 }
+      seasonality: { peak: 280, standard: 220, low: 180 },
     },
     rating: 4.6,
     reviews: 892,
-    tags: ["Boutique", "Artistic", "Cozy", "Romantic", "Local Experience"]
+    tags: ["Boutique", "Artistic", "Cozy", "Romantic", "Local Experience"],
   },
 
   // Tokyo Hotels
   {
-    id: "3",
+    id: "tokyo-imperial-palace-hotel",
     name: "Tokyo Imperial Palace Hotel",
     type: "hotel",
     starRating: 5,
     images: [
       "https://images.unsplash.com/photo-1520637836862-4d197d17c60a?w=1200&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=1200&h=600&fit=crop"
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=1200&h=600&fit=crop",
     ],
-    description: "Prestigious hotel offering traditional Japanese hospitality with modern luxury, overlooking the Imperial Palace gardens.",
+    description:
+      "Prestigious hotel offering traditional Japanese hospitality with modern luxury, overlooking the Imperial Palace gardens. This hotel combines the elegance of traditional Japanese design with contemporary amenities, providing a serene escape in the heart of Tokyo. Guests can enjoy spacious rooms with stunning views of the Imperial Palace gardens, a full-service spa, and multiple dining options featuring both Japanese and international cuisine. The hotel's location allows easy access to major attractions, shopping districts, and cultural sites, making it ideal for both leisure and business travelers.",
     location: {
       address: "1-1-1 Uchisaiwaicho, Chiyoda City",
       city: "Tokyo",
       country: "Japan",
       coordinates: { latitude: 35.6785, longitude: 139.7585 },
-      nearbyAttractions: ["Imperial Palace", "Ginza", "Tokyo Station", "Hibiya Park"]
+      nearbyAttractions: [
+        "Imperial Palace",
+        "Ginza",
+        "Tokyo Station",
+        "Hibiya Park",
+      ],
     },
     amenities: {
-      general: ["Free Wi-Fi", "24/7 Front Desk", "Concierge", "Valet Parking", "Currency Exchange"],
-      business: ["Business Center", "Executive Lounge", "Meeting Rooms", "Conference Facilities"],
-      recreation: ["Spa", "Fitness Center", "Indoor Pool", "Traditional Onsen", "Garden Views"],
-      dining: ["Multiple Restaurants", "Sushi Bar", "Tea Ceremony Room", "Rooftop Bar"],
-      accessibility: ["Wheelchair Accessible", "Elevator", "Accessible Parking", "Japanese & English Signage"]
+      general: [
+        "Free Wi-Fi",
+        "24/7 Front Desk",
+        "Concierge",
+        "Valet Parking",
+        "Currency Exchange",
+      ],
+      business: [
+        "Business Center",
+        "Executive Lounge",
+        "Meeting Rooms",
+        "Conference Facilities",
+      ],
+      recreation: [
+        "Spa",
+        "Fitness Center",
+        "Indoor Pool",
+        "Traditional Onsen",
+        "Garden Views",
+      ],
+      dining: [
+        "Multiple Restaurants",
+        "Sushi Bar",
+        "Tea Ceremony Room",
+        "Rooftop Bar",
+      ],
+      accessibility: [
+        "Wheelchair Accessible",
+        "Elevator",
+        "Accessible Parking",
+        "Japanese & English Signage",
+      ],
     },
     rooms: {
       types: getRoomsForHotelType("hotel"),
-      totalRooms: 320
+      totalRooms: 320,
     },
     policies: {
       checkIn: "3:00 PM",
       checkOut: "12:00 PM",
       cancellation: "Free cancellation up to 24 hours before arrival",
       petPolicy: "No pets allowed",
-      smokingPolicy: "Designated smoking areas only"
+      smokingPolicy: "Designated smoking areas only",
     },
     services: {
       concierge: true,
@@ -157,57 +240,316 @@ export const mockHotels: Hotel[] = [
       airportShuttle: true,
       spa: true,
       fitness: true,
-      businessCenter: true
+      businessCenter: true,
     },
     pricing: {
       priceRange: { min: 400, max: 1200, currency: "USD" },
-      seasonality: { peak: 650, standard: 500, low: 400 }
+      seasonality: { peak: 650, standard: 500, low: 400 },
     },
     rating: 4.9,
     reviews: 3421,
     awards: ["AAA Five Diamond", "Leading Hotels of the World"],
     sustainability: {
       certified: true,
-      practices: ["Energy efficiency", "Waste reduction", "Local partnerships", "Cultural preservation"]
+      practices: [
+        "Energy efficiency",
+        "Waste reduction",
+        "Local partnerships",
+        "Cultural preservation",
+      ],
     },
-    tags: ["Luxury", "Traditional", "Business", "City Center", "Cultural"]
+    tags: ["Luxury", "Traditional", "Business", "City Center", "Cultural"],
+  },
+  {
+    id: "koko-hotel-shibuya",
+    name: "Koko Hotel Shibuya",
+    type: "hotel",
+    starRating: 4,
+    images: [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=1200&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&h=600&fit=crop",
+    ],
+    description:
+      "Trendy hotel in the heart of Shibuya, offering modern accommodations with a vibrant atmosphere. Experience the pulse of Tokyo in this stylish hotel, located just steps away from Shibuya Crossing and major shopping districts. The hotel features contemporary rooms with sleek designs, a rooftop terrace, and a lively bar. Guests can enjoy easy access to public transportation, making it convenient to explore the city's attractions. The hotel's amenities include a fitness center, business services, and a restaurant serving local and international cuisine.",
+    location: {
+      address: "2-15-1 Shibuya, Shibuya City",
+      city: "Tokyo",
+      country: "Japan",
+      coordinates: { latitude: 35.6586, longitude: 139.7016 },
+      nearbyAttractions: [
+        "Shibuya Crossing",
+        "Hachiko Statue",
+        "Harajuku",
+        "Meiji Shrine",
+      ],
+    },
+    amenities: {
+      general: [
+        "Free Wi-Fi",
+        "24/7 Front Desk",
+        "Concierge",
+        "Luggage Storage",
+        "ATM",
+      ],
+      business: [
+        "Business Center",
+        "Meeting Rooms",
+        "High-Speed Internet",
+        "Printing Services",
+      ],
+      recreation: ["Fitness Center", "Rooftop Terrace", "City Views"],
+      dining: ["Restaurant", "Bar", "Room Service", "Coffee Shop"],
+      accessibility: [
+        "ADA Compliant",
+        "Elevator",
+        "Accessible Parking",
+        "Braille Signage",
+      ],
+    },
+    rooms: {
+      types: getRoomsForHotelType("hotel"),
+      totalRooms: 200,
+    },
+    policies: {
+      checkIn: "3:00 PM",
+      checkOut: "11:00 AM",
+      cancellation: "Free cancellation up to 48 hours before arrival",
+      petPolicy: "No pets allowed",
+      smokingPolicy: "Non-smoking property",
+    },
+    services: {
+      concierge: true,
+      roomService: true,
+      laundry: true,
+      airportShuttle: false,
+      spa: false,
+      fitness: true,
+      businessCenter: true,
+    },
+    pricing: {
+      priceRange: { min: 150, max: 400, currency: "USD" },
+      seasonality: { peak: 250, standard: 200, low: 150 },
+    },
+    rating: 4.5,
+    reviews: 1456,
+    tags: ["Trendy", "City Center", "Shopping", "Nightlife", "Modern"],
+  },
+  {
+    id: "kyoto-heritage-hotel",
+    name: "Kyoto Heritage Hotel",
+    type: "hotel",
+    starRating: 4,
+    images: [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=1200&h=600&fit=crop",
+    ],
+    description:
+      "Traditional hotel in the historic district of Kyoto, offering a blend of modern comfort and cultural heritage. Experience the charm of Kyoto with elegantly designed rooms that reflect traditional Japanese aesthetics. The hotel features a serene garden, a tea house, and a restaurant serving authentic Kyoto cuisine. Guests can enjoy easy access to nearby temples, shrines, and cultural landmarks. The hotel's amenities include a spa, fitness center, and personalized concierge services to enhance your stay in this ancient city.",
+    location: {
+      address: "123 Shijo Avenue, Gion District",
+      city: "Kyoto",
+      country: "Japan",
+      coordinates: { latitude: 35.0116, longitude: 135.7681 },
+      nearbyAttractions: [
+        "Kiyomizu-dera Temple",
+        "Gion District",
+        "Fushimi Inari Shrine",
+        "Nijo Castle",
+      ],
+    },
+    amenities: {
+      general: [
+        "Free Wi-Fi",
+        "24/7 Front Desk",
+        "Concierge",
+        "Luggage Storage",
+        "Currency Exchange",
+      ],
+      business: [
+        "Business Center",
+        "Meeting Rooms",
+        "High-Speed Internet",
+        "Printing Services",
+      ],
+      recreation: ["Spa", "Fitness Center", "Japanese Garden", "Tea House"],
+      dining: ["Restaurant", "Bar", "Room Service", "Traditional Tea Ceremony"],
+      accessibility: [
+        "Wheelchair Accessible",
+        "Elevator",
+        "Accessible Parking",
+        "Braille Signage",
+      ],
+    },
+    rooms: {
+      types: getRoomsForHotelType("hotel"),
+      totalRooms: 150,
+    },
+    policies: {
+      checkIn: "3:00 PM",
+      checkOut: "11:00 AM",
+      cancellation: "Free cancellation up to 24 hours before arrival",
+      petPolicy: "No pets allowed",
+      smokingPolicy: "Non-smoking property",
+    },
+    services: {
+      concierge: true,
+      roomService: true,
+      laundry: true,
+      airportShuttle: true,
+      spa: true,
+      fitness: true,
+      businessCenter: true,
+    },
+    pricing: {
+      priceRange: { min: 200, max: 500, currency: "USD" },
+      seasonality: { peak: 350, standard: 280, low: 200 },
+    },
+    rating: 4.6,
+    reviews: 1987,
+    awards: ["TripAdvisor Travelers' Choice", "Japan Hotel Awards"],
+    sustainability: {
+      certified: true,
+      practices: [
+        "Energy efficiency",
+        "Water conservation",
+        "Local sourcing",
+        "Cultural preservation",
+      ],
+    },
+    tags: ["Traditional", "Cultural", "Historic", "City Center", "Serene"],
+  },
+  {
+    id: "osaka-modern-hotel",
+    name: "Osaka Modern Hotel",
+    type: "hotel",
+    starRating: 4,
+    images: [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=1200&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&h=600&fit=crop",
+    ],
+    description:
+      "Contemporary hotel in the bustling Namba district, offering stylish accommodations and vibrant nightlife. Experience the energy of Osaka with modern rooms featuring sleek designs and city views. The hotel offers a rooftop bar, fitness center, and easy access to shopping and entertainment. Guests can enjoy a range of dining options, from local street food to international cuisine. The hotel's location makes it ideal for exploring Osaka's famous attractions, including Dotonbori and Osaka Castle.",
+    location: {
+      address: "1-2-3 Namba, Chuo Ward",
+      city: "Osaka",
+      country: "Japan",
+      coordinates: { latitude: 34.6695, longitude: 135.501 },
+      nearbyAttractions: [
+        "Dotonbori",
+        "Shinsaibashi Shopping Arcade",
+        "Osaka Castle",
+        "Tsutenkaku Tower",
+      ],
+    },
+    amenities: {
+      general: [
+        "Free Wi-Fi",
+        "24/7 Front Desk",
+        "Concierge",
+        "Luggage Storage",
+        "ATM",
+      ],
+      business: [
+        "Business Center",
+        "Meeting Rooms",
+        "High-Speed Internet",
+        "Printing Services",
+      ],
+      recreation: ["Fitness Center", "Rooftop Bar", "City Views"],
+      dining: ["Restaurant", "Bar", "Room Service", "Coffee Shop"],
+      accessibility: [
+        "ADA Compliant",
+        "Elevator",
+        "Accessible Parking",
+        "Braille Signage",
+      ],
+    },
+    rooms: {
+      types: getRoomsForHotelType("hotel"),
+      totalRooms: 220,
+    },
+    policies: {
+      checkIn: "3:00 PM",
+      checkOut: "11:00 AM",
+      cancellation: "Free cancellation up to 48 hours before arrival",
+      petPolicy: "No pets allowed",
+      smokingPolicy: "Non-smoking property",
+    },
+    services: {
+      concierge: true,
+      roomService: true,
+      laundry: true,
+      airportShuttle: false,
+      spa: false,
+      fitness: true,
+      businessCenter: true,
+    },
+    pricing: {
+      priceRange: { min: 120, max: 350, currency: "USD" },
+      seasonality: { peak: 200, standard: 160, low: 120 },
+    },
+    rating: 4.4,
+    reviews: 1345,
+    tags: ["Modern", "City Center", "Shopping", "Nightlife", "Business"],
   },
 
   // New York Hotels
   {
-    id: "4",
+    id: "manhattan-grand-central",
     name: "Manhattan Grand Central",
     type: "hotel",
     starRating: 4,
     images: [
       "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=1200&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&h=600&fit=crop"
+      "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&h=600&fit=crop",
     ],
-    description: "Modern hotel in Midtown Manhattan, perfectly located near Grand Central Station and Times Square.",
+    description:
+      "Modern hotel in Midtown Manhattan, perfectly located near Grand Central Station and Times Square. Experience the vibrant energy of New York City with contemporary accommodations and top-notch amenities. This hotel offers stylish rooms with city views, a rooftop lounge, and a fitness center. Guests can enjoy easy access to major attractions, shopping, and dining options. The hotel's business center and meeting rooms make it ideal for corporate travelers, while its proximity to cultural landmarks appeals to tourists.",
     location: {
       address: "125 Park Avenue, Midtown East",
       city: "New York",
       country: "United States",
       coordinates: { latitude: 40.7505, longitude: -73.9764 },
-      nearbyAttractions: ["Grand Central Terminal", "Times Square", "Central Park", "Empire State Building"]
+      nearbyAttractions: [
+        "Grand Central Terminal",
+        "Times Square",
+        "Central Park",
+        "Empire State Building",
+      ],
     },
     amenities: {
-      general: ["Free Wi-Fi", "24/7 Front Desk", "Concierge", "Luggage Storage", "ATM"],
-      business: ["Business Center", "Meeting Rooms", "High-Speed Internet", "Printing Services"],
+      general: [
+        "Free Wi-Fi",
+        "24/7 Front Desk",
+        "Concierge",
+        "Luggage Storage",
+        "ATM",
+      ],
+      business: [
+        "Business Center",
+        "Meeting Rooms",
+        "High-Speed Internet",
+        "Printing Services",
+      ],
       recreation: ["Fitness Center", "Rooftop Lounge", "City Views"],
       dining: ["Restaurant", "Grab & Go Market", "Room Service", "Coffee Shop"],
-      accessibility: ["ADA Compliant", "Elevator", "Accessible Parking", "Braille Signage"]
+      accessibility: [
+        "ADA Compliant",
+        "Elevator",
+        "Accessible Parking",
+        "Braille Signage",
+      ],
     },
     rooms: {
       types: getRoomsForHotelType("hotel"),
-      totalRooms: 250
+      totalRooms: 250,
     },
     policies: {
       checkIn: "4:00 PM",
       checkOut: "11:00 AM",
       cancellation: "Free cancellation up to 24 hours before arrival",
       petPolicy: "Pet-friendly with fee",
-      smokingPolicy: "Non-smoking property"
+      smokingPolicy: "Non-smoking property",
     },
     services: {
       concierge: true,
@@ -216,52 +558,376 @@ export const mockHotels: Hotel[] = [
       airportShuttle: false,
       spa: false,
       fitness: true,
-      businessCenter: true
+      businessCenter: true,
     },
     pricing: {
       priceRange: { min: 250, max: 600, currency: "USD" },
-      seasonality: { peak: 400, standard: 320, low: 250 }
+      seasonality: { peak: 400, standard: 320, low: 250 },
     },
     rating: 4.4,
     reviews: 1876,
-    tags: ["Modern", "Business", "City Center", "Transportation Hub", "Shopping"]
+    tags: [
+      "Modern",
+      "Business",
+      "City Center",
+      "Transportation Hub",
+      "Shopping",
+    ],
+  },
+  {
+    id: "the-manhattan-at-times-square",
+    name: "The Manhattan at Times Square",
+    type: "hotel",
+    starRating: 4,
+    images: [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=1200&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&h=600&fit=crop",
+    ],
+    description:
+      "Iconic hotel located in the heart of Times Square, offering a blend of classic New York charm and modern amenities. Experience the excitement of the city with spacious rooms, a rooftop pool, and a fitness center. This hotel is perfect for tourists looking to explore Broadway shows, shopping, and dining. Guests can enjoy a complimentary breakfast, a business center, and easy access to public transportation. The hotel's prime location makes it ideal for both leisure and business travelers seeking the quintessential New York experience.",
+    location: {
+      address: "790 7th Avenue, Times Square",
+      city: "New York",
+      country: "United States",
+      coordinates: { latitude: 40.758, longitude: -73.9855 },
+      nearbyAttractions: [
+        "Times Square",
+        "Broadway Theaters",
+        "Central Park",
+        "Rockefeller Center",
+      ],
+    },
+    amenities: {
+      general: [
+        "Free Wi-Fi",
+        "24/7 Front Desk",
+        "Concierge",
+        "Luggage Storage",
+        "ATM",
+      ],
+      business: [
+        "Business Center",
+        "Meeting Rooms",
+        "High-Speed Internet",
+        "Printing Services",
+      ],
+      recreation: ["Rooftop Pool", "Fitness Center", "City Views"],
+      dining: ["Restaurant", "Bar", "Room Service", "Coffee Shop"],
+      accessibility: [
+        "ADA Compliant",
+        "Elevator",
+        "Accessible Parking",
+        "Braille Signage",
+      ],
+    },
+    rooms: {
+      types: getRoomsForHotelType("hotel"),
+      totalRooms: 600,
+    },
+    policies: {
+      checkIn: "4:00 PM",
+      checkOut: "11:00 AM",
+      cancellation: "Free cancellation up to 24 hours before arrival",
+      petPolicy: "Pet-friendly with fee",
+      smokingPolicy: "Non-smoking property",
+    },
+    services: {
+      concierge: true,
+      roomService: true,
+      laundry: true,
+      airportShuttle: false,
+      spa: false,
+      fitness: true,
+      businessCenter: true,
+    },
+    pricing: {
+      priceRange: { min: 200, max: 500, currency: "USD" },
+      seasonality: { peak: 350, standard: 280, low: 200 },
+    },
+    rating: 4.3,
+    reviews: 2456,
+    tags: ["Iconic", "Tourist", "City Center", "Broadway", "Shopping"],
+  },
+  {
+    id: "brooklyn-bridge-hotel",
+    name: "Brooklyn Bridge Hotel",
+    type: "hotel",
+    starRating: 4,
+    images: [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=1200&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&h=600&fit=crop",
+    ],
+    description:
+      "Stylish hotel located near the iconic Brooklyn Bridge, offering stunning views of Manhattan and the East River. Experience a unique blend of urban sophistication and local charm in this modern hotel. The hotel features contemporary rooms with floor-to-ceiling windows, a rooftop terrace, and a fitness center. Guests can enjoy easy access to Brooklyn's vibrant neighborhoods, parks, and cultural attractions. The hotel's amenities include a restaurant serving local cuisine, a bar, and a business center for corporate travelers.",
+    location: {
+      address: "123 Main Street, Brooklyn Heights",
+      city: "New York",
+      country: "United States",
+      coordinates: { latitude: 40.7061, longitude: -73.9969 },
+      nearbyAttractions: [
+        "Brooklyn Bridge Park",
+        "DUMBO",
+        "Brooklyn Museum",
+        "Prospect Park",
+      ],
+    },
+    amenities: {
+      general: [
+        "Free Wi-Fi",
+        "24/7 Front Desk",
+        "Concierge",
+        "Luggage Storage",
+        "ATM",
+      ],
+      business: [
+        "Business Center",
+        "Meeting Rooms",
+        "High-Speed Internet",
+        "Printing Services",
+      ],
+      recreation: ["Fitness Center", "Rooftop Terrace", "City Views"],
+      dining: ["Restaurant", "Bar", "Room Service", "Coffee Shop"],
+      accessibility: [
+        "ADA Compliant",
+        "Elevator",
+        "Accessible Parking",
+        "Braille Signage",
+      ],
+    },
+    rooms: {
+      types: getRoomsForHotelType("hotel"),
+      totalRooms: 180,
+    },
+    policies: {
+      checkIn: "3:00 PM",
+      checkOut: "11:00 AM",
+      cancellation: "Free cancellation up to 24 hours before arrival",
+      petPolicy: "Pet-friendly with fee",
+      smokingPolicy: " Non-smoking property",
+    },
+    services: {
+      concierge: true,
+      roomService: true,
+      laundry: true,
+      airportShuttle: false,
+      spa: false,
+      fitness: true,
+      businessCenter: true,
+    },
+    pricing: {
+      priceRange: { min: 180, max: 450, currency: "USD" },
+      seasonality: { peak: 300, standard: 240, low: 180 },
+    },
+    rating: 4.5,
+    reviews: 1987,
+    tags: ["Stylish", "Brooklyn", "City Views", "Cultural", "Urban"],
+  },
+  {
+    id: "queens-urban-hotel",
+    name: "Queens Urban Hotel",
+    type: "hotel",
+    starRating: 3,
+    images: [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=1200&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&h=600&fit=crop",
+    ],
+    description:
+      "Affordable hotel in the vibrant neighborhood of Astoria, Queens, offering comfortable accommodations and local charm. Experience the diverse culture of Queens with modern rooms and easy access to public transportation. The hotel features a fitness center, complimentary breakfast, and a business center for corporate travelers. Guests can explore nearby parks, restaurants, and cultural attractions. The hotel's friendly staff provides personalized service to ensure a pleasant stay.",
+    location: {
+      address: "456 Astoria Boulevard, Astoria",
+      city: "New York",
+      country: "United States",
+      coordinates: { latitude: 40.7694, longitude: -73.9249 },
+      nearbyAttractions: [
+        "Astoria Park",
+        "Museum of the Moving Image",
+        "Astoria Ditmars Boulevard",
+        "Soccer Park",
+      ],
+    },
+    amenities: {
+      general: [
+        "Free Wi-Fi",
+        "24/7 Front Desk",
+        "Concierge",
+        "Luggage Storage",
+        "ATM",
+      ],
+      business: [
+        "Business Center",
+        "Meeting Rooms",
+        "High-Speed Internet",
+        "Printing Services",
+      ],
+      recreation: ["Fitness Center", "City Views"],
+      dining: ["Restaurant", "Bar", "Room Service", "Coffee Shop"],
+      accessibility: [
+        "ADA Compliant",
+        "Elevator",
+        "Accessible Parking",
+        "Braille Signage",
+      ],
+    },
+    rooms: {
+      types: getRoomsForHotelType("hotel"),
+      totalRooms: 150,
+    },
+    policies: {
+      checkIn: "3:00 PM",
+      checkOut: "11:00 AM",
+      cancellation: "Free cancellation up to 24 hours before arrival",
+      petPolicy: "No pets allowed",
+      smokingPolicy: "Non-smoking property",
+    },
+    services: {
+      concierge: true,
+      roomService: true,
+      laundry: true,
+      airportShuttle: false,
+      spa: false,
+      fitness: true,
+      businessCenter: true,
+    },
+    pricing: {
+      priceRange: { min: 100, max: 250, currency: "USD" },
+      seasonality: { peak: 180, standard: 140, low: 100 },
+    },
+    rating: 4.0,
+    reviews: 1123,
+    tags: ["Affordable", "Queens", "Local Charm", "Cultural", "Urban"],
+  },
+  {
+    id: "brooklyn-boutique-hotel",
+    name: "Brooklyn Boutique Hotel",
+    type: "boutique",
+    starRating: 4,
+    images: [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=1200&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&h=600&fit=crop",
+    ],
+    description:
+      "Charming boutique hotel in Williamsburg, Brooklyn, offering a unique blend of modern design and local culture. Experience the hip vibe of Brooklyn with stylish rooms, a rooftop bar, and a gallery showcasing local artists. The hotel is located near trendy shops, restaurants, and music venues. Guests can enjoy complimentary breakfast, a fitness center, and personalized concierge services to explore the best of Williamsburg. The hotel's atmosphere is perfect for couples and solo travelers looking for a local experience.",
+    location: {
+      address: "789 Bedford Avenue, Williamsburg",
+      city: "New York",
+      country: "United States",
+      coordinates: { latitude: 40.7081, longitude: -73.9571 },
+      nearbyAttractions: [
+        "Brooklyn Brewery",
+        "Smorgasburg",
+        "Williamsburg Bridge",
+        "McCarren Park",
+      ],
+    },
+    amenities: {
+      general: [
+        "Free Wi-Fi",
+        "24/7 Front Desk",
+        "Concierge",
+        "Luggage Storage",
+      ],
+      business: ["Business Corner", "High-Speed Internet"],
+      recreation: ["Rooftop Bar", "Gallery", "City Views"],
+      dining: ["Continental Breakfast", "Wine Bar", "Room Service"],
+      accessibility: ["Elevator", "Accessible Rooms"],
+    },
+    rooms: {
+      types: getRoomsForHotelType("boutique"),
+      totalRooms: 60,
+    },
+    policies: {
+      checkIn: "2:00 PM",
+      checkOut: "11:00 AM",
+      cancellation: "Free cancellation up to 48 hours before arrival",
+      petPolicy: "Small pets welcome with fee",
+      smokingPolicy: "Non-smoking property",
+    },
+    services: {
+      concierge: true,
+      roomService: true,
+      laundry: true,
+      airportShuttle: false,
+      spa: false,
+      fitness: true,
+      businessCenter: false,
+    },
+    pricing: {
+      priceRange: { min: 150, max: 350, currency: "USD" },
+      seasonality: { peak: 250, standard: 200, low: 150 },
+    },
+    rating: 4.6,
+    reviews: 1345,
+    tags: ["Boutique", "Hip", "Cultural", "Local Experience", "Artistic"],
   },
 
   // London Hotels
   {
-    id: "5",
+    id: "royal-kensington",
     name: "The Royal Kensington",
     type: "hotel",
     starRating: 5,
     images: [
       "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1200&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200&h=600&fit=crop"
+      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200&h=600&fit=crop",
     ],
-    description: "Victorian elegance meets modern luxury in this prestigious Kensington hotel, near Hyde Park and world-class museums.",
+    description:
+      "Victorian elegance meets modern luxury in this prestigious Kensington hotel, near Hyde Park and world-class museums. Experience the charm of London with beautifully designed rooms, a full-service spa, and fine dining options. The hotel offers easy access to cultural landmarks, shopping districts, and public transportation. Guests can enjoy afternoon tea, personalized concierge services, and a tranquil garden area. Ideal for both leisure and business travelers seeking a royal experience in the heart of London.",
     location: {
       address: "2-24 Kensington High Street, Kensington",
       city: "London",
       country: "United Kingdom",
       coordinates: { latitude: 51.5014, longitude: -0.1918 },
-      nearbyAttractions: ["Hyde Park", "Kensington Palace", "Natural History Museum", "Victoria and Albert Museum"]
+      nearbyAttractions: [
+        "Hyde Park",
+        "Kensington Palace",
+        "Natural History Museum",
+        "Victoria and Albert Museum",
+      ],
     },
     amenities: {
-      general: ["Free Wi-Fi", "24/7 Front Desk", "Concierge", "Valet Parking", "Butler Service"],
-      business: ["Business Center", "Executive Lounge", "Meeting Rooms", "Secretary Services"],
-      recreation: ["Spa", "Fitness Center", "Indoor Pool", "Steam Room", "Park Views"],
-      dining: ["Fine Dining Restaurant", "Traditional Pub", "Afternoon Tea", "Room Service"],
-      accessibility: ["Wheelchair Accessible", "Lift", "Accessible Toilets", "Audio Induction Loops"]
+      general: [
+        "Free Wi-Fi",
+        "24/7 Front Desk",
+        "Concierge",
+        "Valet Parking",
+        "Butler Service",
+      ],
+      business: [
+        "Business Center",
+        "Executive Lounge",
+        "Meeting Rooms",
+        "Secretary Services",
+      ],
+      recreation: [
+        "Spa",
+        "Fitness Center",
+        "Indoor Pool",
+        "Steam Room",
+        "Park Views",
+      ],
+      dining: [
+        "Fine Dining Restaurant",
+        "Traditional Pub",
+        "Afternoon Tea",
+        "Room Service",
+      ],
+      accessibility: [
+        "Wheelchair Accessible",
+        "Lift",
+        "Accessible Toilets",
+        "Audio Induction Loops",
+      ],
     },
     rooms: {
       types: getRoomsForHotelType("hotel"),
-      totalRooms: 180
+      totalRooms: 180,
     },
     policies: {
       checkIn: "3:00 PM",
       checkOut: "12:00 PM",
       cancellation: "Free cancellation up to 24 hours before arrival",
       petPolicy: "Pets welcome with advance notice",
-      smokingPolicy: "Non-smoking property"
+      smokingPolicy: "Non-smoking property",
     },
     services: {
       concierge: true,
@@ -270,57 +936,145 @@ export const mockHotels: Hotel[] = [
       airportShuttle: true,
       spa: true,
       fitness: true,
-      businessCenter: true
+      businessCenter: true,
     },
     pricing: {
       priceRange: { min: 320, max: 800, currency: "USD" },
-      seasonality: { peak: 520, standard: 420, low: 320 }
+      seasonality: { peak: 520, standard: 420, low: 320 },
     },
     rating: 4.7,
     reviews: 2156,
     awards: ["AA 5 Red Stars", "Historic Hotels of Europe"],
     sustainability: {
       certified: true,
-      practices: ["Carbon neutral", "Historic preservation", "Local sourcing", "Community support"]
+      practices: [
+        "Carbon neutral",
+        "Historic preservation",
+        "Local sourcing",
+        "Community support",
+      ],
     },
-    tags: ["Historic", "Luxury", "Museums", "Parks", "Royal"]
+    tags: ["Historic", "Luxury", "Museums", "Parks", "Royal"],
   },
-
-  // Sydney Hotels
   {
-    id: "6",
-    name: "Harbour View Resort",
-    type: "resort",
-    starRating: 5,
+    id: "soho-chic-hotel",
+    name: "Soho Chic Hotel",
+    type: "boutique",
+    starRating: 4,
     images: [
-      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&h=600&fit=crop"
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1200&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200&h=600&fit=crop",
     ],
-    description: "Luxury waterfront resort with spectacular views of Sydney Harbour, Opera House, and Harbour Bridge.",
+    description:
+      "Trendy boutique hotel in the vibrant Soho district, known for its artistic flair and nightlife. Experience contemporary design with a touch of London charm in this stylish hotel. The hotel features chic rooms, a rooftop terrace, and a bar serving craft cocktails. Guests can explore nearby galleries, theaters, and restaurants. The hotel's personalized service and unique decor make it a favorite among young professionals and creatives looking for a local experience.",
     location: {
-      address: "1 Circular Quay West, The Rocks",
-      city: "Sydney",
-      country: "Australia",
-      coordinates: { latitude: -33.8599, longitude: 151.2090 },
-      nearbyAttractions: ["Sydney Opera House", "Harbour Bridge", "Royal Botanic Gardens", "The Rocks"]
+      address: "123 Wardour Street, Soho",
+      city: "London",
+      country: "United Kingdom",
+      coordinates: { latitude: 51.5133, longitude: -0.1311 },
+      nearbyAttractions: [
+        "Oxford Street",
+        "Covent Garden",
+        "Chinatown",
+        "The British Museum",
+      ],
     },
     amenities: {
-      general: ["Free Wi-Fi", "24/7 Front Desk", "Concierge", "Valet Parking", "Tour Desk"],
-      business: ["Business Center", "Conference Facilities", "Executive Floors", "High-Speed Internet"],
-      recreation: ["Spa", "Fitness Center", "Outdoor Pool", "Tennis Court", "Harbour Cruises"],
-      dining: ["Waterfront Restaurant", "Cocktail Bar", "Pool Bar", "Room Service", "BBQ Area"],
-      accessibility: ["Wheelchair Accessible", "Elevator", "Pool Lift", "Accessible Parking"]
+      general: [
+        "Free Wi-Fi",
+        "24/7 Front Desk",
+        "Concierge",
+        "Luggage Storage",
+      ],
+      business: ["Business Corner", "High-Speed Internet"],
+      recreation: ["Rooftop Terrace", "Bar", "City Views"],
+      dining: ["Continental Breakfast", "Craft Cocktail Bar", "Room Service"],
+      accessibility: ["Elevator", "Accessible Rooms"],
     },
     rooms: {
-      types: getRoomsForHotelType("resort"),
-      totalRooms: 280
+      types: getRoomsForHotelType("boutique"),
+      totalRooms: 80,
+    },
+    policies: {
+      checkIn: "2:00 PM",
+      checkOut: "11:00 AM",
+      cancellation: "Free cancellation up to 48 hours before arrival",
+      petPolicy: "Small pets welcome with fee",
+      smokingPolicy: "Non-smoking property",
+    },
+    services: {
+      concierge: true,
+      roomService: true,
+      laundry: true,
+      airportShuttle: false,
+      spa: false,
+      fitness: true,
+      businessCenter: false,
+    },
+    pricing: {
+      priceRange: { min: 180, max: 450, currency: "USD" },
+      seasonality: { peak: 300, standard: 240, low: 180 },
+    },
+    rating: 4.5,
+    reviews: 1345,
+    tags: ["Boutique", "Trendy", "Cultural", "Nightlife", "Artistic"],
+  },
+  {
+    id: "london-heritage-hotel",
+    name: "London Heritage Hotel",
+    type: "hotel",
+    starRating: 4,
+    images: [
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1200&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200&h=600&fit=crop",
+    ],
+    description:
+      "Charming hotel in the historic Bloomsbury district, offering a blend of classic architecture and modern comfort. Experience the literary heritage of London with elegantly designed rooms and a cozy library lounge. The hotel is located near the British Museum, Covent Garden, and other cultural landmarks. Guests can enjoy complimentary breakfast, a fitness center, and personalized concierge services to explore the city's rich history. Ideal for travelers seeking a cultural experience in a tranquil setting.",
+    location: {
+      address: "456 Great Russell Street, Bloomsbury",
+      city: "London",
+      country: "United Kingdom",
+      coordinates: { latitude: 51.5194, longitude: -0.127 },
+      nearbyAttractions: [
+        "British Museum",
+        "Covent Garden",
+        "Theatreland",
+        "Regent's Park",
+      ],
+    },
+    amenities: {
+      general: [
+        "Free Wi-Fi",
+        "24/7 Front Desk",
+        "Concierge",
+        "Luggage Storage",
+        "ATM",
+      ],
+      business: [
+        "Business Center",
+        "Meeting Rooms",
+        "High-Speed Internet",
+        "Printing Services",
+      ],
+      recreation: ["Library Lounge", "Fitness Center", "City Views"],
+      dining: ["Restaurant", "Bar", "Room Service", "Coffee Shop"],
+      accessibility: [
+        "ADA Compliant",
+        "Elevator",
+        "Accessible Parking",
+        "Braille Signage",
+      ],
+    },
+    rooms: {
+      types: getRoomsForHotelType("hotel"),
+      totalRooms: 150,
     },
     policies: {
       checkIn: "3:00 PM",
       checkOut: "11:00 AM",
-      cancellation: "Free cancellation up to 48 hours before arrival",
+      cancellation: "Free cancellation up to 24 hours before arrival",
       petPolicy: "No pets allowed",
-      smokingPolicy: "Designated outdoor areas only"
+      smokingPolicy: "Non-smoking property",
     },
     services: {
       concierge: true,
@@ -329,57 +1083,527 @@ export const mockHotels: Hotel[] = [
       airportShuttle: true,
       spa: true,
       fitness: true,
-      businessCenter: true
+      businessCenter: true,
+    },
+    pricing: {
+      priceRange: { min: 200, max: 500, currency: "USD" },
+      seasonality: { peak: 350, standard: 280, low: 200 },
+    },
+    rating: 4.6,
+    reviews: 1987,
+    awards: ["TripAdvisor Travelers' Choice", "Historic Hotels of Europe"],
+    sustainability: {
+      certified: true,
+      practices: [
+        "Energy efficiency",
+        "Water conservation",
+        "Local sourcing",
+        "Cultural preservation",
+      ],
+    },
+    tags: ["Historic", "Cultural", "Literary", "City Center", "Tranquil"],
+  },
+  {
+    id: "london-modern-hotel",
+    name: "London Modern Hotel",
+    type: "hotel",
+    starRating: 4,
+    images: [
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1200&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200&h=600&fit=crop",
+    ],
+    description:
+      "Contemporary hotel in the vibrant Shoreditch district, known for its creative scene and nightlife. Experience modern design with a touch of London flair in this stylish hotel. The hotel features chic rooms, a rooftop bar, and a restaurant serving international cuisine. Guests can explore nearby galleries, street art, and trendy shops. The hotel's personalized service and unique decor make it a favorite among young professionals and creatives looking for a local experience.",
+    location: {
+      address: "789 Brick Lane, Shoreditch",
+      city: "London",
+      country: "United Kingdom",
+      coordinates: { latitude: 51.5213, longitude: -0.0711 },
+      nearbyAttractions: [
+        "Brick Lane Market",
+        "Shoreditch High Street",
+        "Columbia Road Flower Market",
+        "Old Truman Brewery",
+      ],
+    },
+    amenities: {
+      general: [
+        "Free Wi-Fi",
+        "24/7 Front Desk",
+        "Concierge",
+        "Luggage Storage",
+      ],
+      business: ["Business Corner", "High-Speed Internet"],
+      recreation: ["Rooftop Bar", "City Views"],
+      dining: ["Continental Breakfast", "Restaurant", "Room Service"],
+      accessibility: ["Elevator", "Accessible Rooms"],
+    },
+    rooms: {
+      types: getRoomsForHotelType("hotel"),
+      totalRooms: 100,
+    },
+    policies: {
+      checkIn: "2:00 PM",
+      checkOut: "11:00 AM",
+      cancellation: "Free cancellation up to 48 hours before arrival",
+      petPolicy: "Small pets welcome with fee",
+      smokingPolicy: "Non-smoking property",
+    },
+    services: {
+      concierge: true,
+      roomService: true,
+      laundry: true,
+      airportShuttle: false,
+      spa: false,
+      fitness: true,
+      businessCenter: false,
+    },
+    pricing: {
+      priceRange: { min: 150, max: 350, currency: "USD" },
+      seasonality: { peak: 250, standard: 200, low: 150 },
+    },
+    rating: 4.4,
+    reviews: 1345,
+    tags: ["Modern", "Trendy", "Cultural", "Nightlife", "Artistic"],
+  },
+  {
+    id: "london-heritage-boutique",
+    name: "London Heritage Boutique",
+    type: "boutique",
+    starRating: 4,
+    images: [
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1200&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200&h=600&fit=crop",
+    ],
+    description:
+      "Charming boutique hotel in the historic Notting Hill district, offering a blend of classic architecture and modern comfort. Experience the colorful streets and vibrant culture of London with elegantly designed rooms and a cozy lounge. The hotel is located near Portobello Road Market, Kensington Gardens, and other cultural landmarks. Guests can enjoy complimentary breakfast, a fitness center, and personalized concierge services to explore the city's rich history. Ideal for travelers seeking a cultural experience in a tranquil setting.",
+    location: {
+      address: "456 Portobello Road, Notting Hill",
+      city: "London",
+      country: "United Kingdom",
+      coordinates: { latitude: 51.5111, longitude: -0.1963 },
+      nearbyAttractions: [
+        "Portobello Road Market",
+        "Kensington Gardens",
+        "Holland Park",
+        "Royal Albert Hall",
+      ],
+    },
+    amenities: {
+      general: [
+        "Free Wi-Fi",
+        "24/7 Front Desk",
+        "Concierge",
+        "Luggage Storage",
+        "ATM",
+      ],
+      business: [
+        "Business Center",
+        "Meeting Rooms",
+        "High-Speed Internet",
+        "Printing Services",
+      ],
+      recreation: ["Library Lounge", "Fitness Center", "City Views"],
+      dining: ["Restaurant", "Bar", "Room Service", "Coffee Shop"],
+      accessibility: [
+        "ADA Compliant",
+        "Elevator",
+        "Accessible Parking",
+        "Braille Signage",
+      ],
+    },
+    rooms: {
+      types: getRoomsForHotelType("boutique"),
+      totalRooms: 70,
+    },
+    policies: {
+      checkIn: "3:00 PM",
+      checkOut: "11:00 AM",
+      cancellation: "Free cancellation up to 24 hours before arrival",
+      petPolicy: "No pets allowed",
+      smokingPolicy: " Non-smoking property",
+    },
+    services: {
+      concierge: true,
+      roomService: true,
+      laundry: true,
+      airportShuttle: true,
+      spa: true,
+      fitness: true,
+      businessCenter: true,
+    },
+    pricing: {
+      priceRange: { min: 200, max: 500, currency: "USD" },
+      seasonality: { peak: 350, standard: 280, low: 200 },
+    },
+    rating: 4.6,
+    reviews: 1987,
+    awards: ["TripAdvisor Travelers' Choice", "Historic Hotels of Europe"],
+    sustainability: {
+      certified: true,
+      practices: [
+        "Energy efficiency",
+        "Water conservation",
+        "Local sourcing",
+        "Cultural preservation",
+      ],
+    },
+    tags: ["Historic", "Cultural", "Literary", "City Center", "Tranquil"],
+  },
+
+  // Sydney Hotels
+  {
+    id: "sydney-harbour-view",
+    name: "Harbour View Resort",
+    type: "resort",
+    starRating: 5,
+    images: [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&h=600&fit=crop",
+    ],
+    description:
+      "Luxury waterfront resort with spectacular views of Sydney Harbour, Opera House, and Harbour Bridge. This resort offers a perfect blend of relaxation and adventure, featuring spacious rooms with private balconies, a full-service spa, and multiple dining options. Guests can enjoy recreational activities such as harbour cruises, tennis, and outdoor swimming. The resort's prime location allows easy access to iconic Sydney attractions, making it ideal for families, couples, and business travelers alike.",
+    location: {
+      address: "1 Circular Quay West, The Rocks",
+      city: "Sydney",
+      country: "Australia",
+      coordinates: { latitude: -33.8599, longitude: 151.209 },
+      nearbyAttractions: [
+        "Sydney Opera House",
+        "Harbour Bridge",
+        "Royal Botanic Gardens",
+        "The Rocks",
+      ],
+    },
+    amenities: {
+      general: [
+        "Free Wi-Fi",
+        "24/7 Front Desk",
+        "Concierge",
+        "Valet Parking",
+        "Tour Desk",
+      ],
+      business: [
+        "Business Center",
+        "Conference Facilities",
+        "Executive Floors",
+        "High-Speed Internet",
+      ],
+      recreation: [
+        "Spa",
+        "Fitness Center",
+        "Outdoor Pool",
+        "Tennis Court",
+        "Harbour Cruises",
+      ],
+      dining: [
+        "Waterfront Restaurant",
+        "Cocktail Bar",
+        "Pool Bar",
+        "Room Service",
+        "BBQ Area",
+      ],
+      accessibility: [
+        "Wheelchair Accessible",
+        "Elevator",
+        "Pool Lift",
+        "Accessible Parking",
+      ],
+    },
+    rooms: {
+      types: getRoomsForHotelType("resort"),
+      totalRooms: 280,
+    },
+    policies: {
+      checkIn: "3:00 PM",
+      checkOut: "11:00 AM",
+      cancellation: "Free cancellation up to 48 hours before arrival",
+      petPolicy: "No pets allowed",
+      smokingPolicy: "Designated outdoor areas only",
+    },
+    services: {
+      concierge: true,
+      roomService: true,
+      laundry: true,
+      airportShuttle: true,
+      spa: true,
+      fitness: true,
+      businessCenter: true,
     },
     pricing: {
       priceRange: { min: 380, max: 1000, currency: "USD" },
-      seasonality: { peak: 600, standard: 480, low: 380 }
+      seasonality: { peak: 600, standard: 480, low: 380 },
     },
     rating: 4.8,
     reviews: 3124,
     awards: ["World Travel Awards Winner", "AAA Five Diamond"],
     sustainability: {
       certified: true,
-      practices: ["Marine conservation", "Solar energy", "Water recycling", "Local wildlife protection"]
+      practices: [
+        "Marine conservation",
+        "Solar energy",
+        "Water recycling",
+        "Local wildlife protection",
+      ],
     },
-    tags: ["Waterfront", "Luxury", "Views", "Family-Friendly", "Resort"]
+    tags: ["Waterfront", "Luxury", "Views", "Family-Friendly", "Resort"],
   },
-
-  // Dubai Hotels
   {
-    id: "7",
-    name: "Desert Palace Resort",
-    type: "resort",
-    starRating: 5,
+    id: "sydney-city-center-hotel",
+    name: "Sydney City Center Hotel",
+    type: "hotel",
+    starRating: 4,
     images: [
-      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=1200&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1520637736862-4d197d17c60a?w=1200&h=600&fit=crop"
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&h=600&fit=crop",
     ],
-    description: "Opulent desert resort offering traditional Arabian hospitality with ultra-modern amenities in the heart of Dubai.",
+    description:
+      "Modern hotel located in the heart of Sydney's business district, offering convenient access to shopping, dining, and entertainment. This hotel features contemporary rooms with city views, a rooftop pool, and a fitness center. Guests can enjoy a restaurant serving local cuisine, a bar, and meeting facilities for business travelers. The hotel's central location makes it ideal for both leisure and corporate guests looking to explore Sydney's vibrant culture.",
     location: {
-      address: "Al Sufouh Road, Jumeirah Beach",
-      city: "Dubai",
-      country: "United Arab Emirates",
-      coordinates: { latitude: 25.1362, longitude: 55.1878 },
-      nearbyAttractions: ["Burj Al Arab", "Jumeirah Beach", "Wild Wadi Water Park", "Madinat Jumeirah"]
+      address: "123 George Street, CBD",
+      city: "Sydney",
+      country: "Australia",
+      coordinates: { latitude: -33.8678, longitude: 151.2073 },
+      nearbyAttractions: [
+        "Queen Victoria Building",
+        "Sydney Tower Eye",
+        "Darling Harbour",
+        "Hyde Park",
+      ],
     },
     amenities: {
-      general: ["Free Wi-Fi", "24/7 Front Desk", "Concierge", "Valet Parking", "Private Beach"],
-      business: ["Business Center", "Meeting Rooms", "Executive Lounge", "Conference Facilities"],
-      recreation: ["Multiple Pools", "Spa", "Private Beach", "Water Sports", "Kids Club"],
-      dining: ["Fine Dining", "Beach Restaurant", "Rooftop Bar", "Shisha Lounge", "24/7 Room Service"],
-      accessibility: ["Wheelchair Accessible", "Elevator", "Beach Wheelchair", "Accessible Pools"]
+      general: [
+        "Free Wi-Fi",
+        "24/7 Front Desk",
+        "Concierge",
+        "Luggage Storage",
+        "ATM",
+      ],
+      business: [
+        "Business Center",
+        "Meeting Rooms",
+        "High-Speed Internet",
+        "Printing Services",
+      ],
+      recreation: ["Rooftop Pool", "Fitness Center", "City Views"],
+      dining: ["Restaurant", "Bar", "Room Service", "Coffee Shop"],
+      accessibility: [
+        "ADA Compliant",
+        "Elevator",
+        "Accessible Parking",
+        "Braille Signage",
+      ],
     },
     rooms: {
-      types: getRoomsForHotelType("resort"),
-      totalRooms: 350
+      types: getRoomsForHotelType("hotel"),
+      totalRooms: 220,
     },
     policies: {
       checkIn: "3:00 PM",
-      checkOut: "12:00 PM",
+      checkOut: "11:00 AM",
+      cancellation: "Free cancellation up to 24 hours before arrival",
+      petPolicy: "Pet-friendly with fee",
+      smokingPolicy: "Non-smoking property",
+    },
+    services: {
+      concierge: true,
+      roomService: true,
+      laundry: true,
+      airportShuttle: false,
+      spa: false,
+      fitness: true,
+      businessCenter: true,
+    },
+    pricing: {
+      priceRange: { min: 150, max: 400, currency: "USD" },
+      seasonality: { peak: 250, standard: 200, low: 150 },
+    },
+    rating: 4.4,
+    reviews: 1987,
+    tags: ["Modern", "City Center", "Business", "Shopping", "Dining"],
+  },
+  {
+    id: "sydney-boutique-hotel",
+    name: "Sydney Boutique Hotel",
+    type: "boutique",
+    starRating: 4,
+    images: [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&h=600&fit=crop",
+    ],
+    description:
+      "Charming boutique hotel in the trendy Surry Hills neighborhood, known for its vibrant arts scene and culinary delights. Experience a unique blend of modern design and local culture in this stylish hotel. The hotel features chic rooms, a rooftop terrace, and a bar serving craft cocktails. Guests can explore nearby galleries, cafes, and boutiques. The hotel's personalized service and unique decor make it a favorite among young professionals and creatives looking for a local experience.",
+    location: {
+      address: "456 Crown Street, Surry Hills",
+      city: "Sydney",
+      country: "Australia",
+      coordinates: { latitude: -33.8823, longitude: 151.2108 },
+      nearbyAttractions: [
+        "Surry Hills Markets",
+        "Taylor Square",
+        "Central Station",
+        "Sydney Cricket Ground",
+      ],
+    },
+    amenities: {
+      general: [
+        "Free Wi-Fi",
+        "24/7 Front Desk",
+        "Concierge",
+        "Luggage Storage",
+      ],
+      business: ["Business Corner", "High-Speed Internet"],
+      recreation: ["Rooftop Terrace", "Bar", "City Views"],
+      dining: ["Continental Breakfast", "Craft Cocktail Bar", "Room Service"],
+      accessibility: ["Elevator", "Accessible Rooms"],
+    },
+    rooms: {
+      types: getRoomsForHotelType("boutique"),
+      totalRooms: 80,
+    },
+    policies: {
+      checkIn: "2:00 PM",
+      checkOut: "11:00 AM",
+      cancellation: "Free cancellation up to 48 hours before arrival",
+      petPolicy: "Small pets welcome with fee",
+      smokingPolicy: "Non-smoking property",
+    },
+    services: {
+      concierge: true,
+      roomService: true,
+      laundry: true,
+      airportShuttle: false,
+      spa: false,
+      fitness: true,
+      businessCenter: false,
+    },
+    pricing: {
+      priceRange: { min: 120, max: 300, currency: "USD" },
+      seasonality: { peak: 200, standard: 160, low: 120 },
+    },
+    rating: 4.5,
+    reviews: 1345,
+    tags: ["Boutique", "Trendy", "Cultural", "Nightlife", "Artistic"],
+  },
+  {
+    id: "sydney-harbour-boutique",
+    name: "Sydney Harbour Boutique",
+    type: "boutique",
+    starRating: 4,
+    images: [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&h=600&fit=crop",
+    ],
+    description:
+      "Stylish boutique hotel with stunning views of Sydney Harbour, offering a unique blend of luxury and local charm. Experience contemporary design with a touch of Australian flair in this chic hotel. The hotel features elegantly decorated rooms, a rooftop bar, and a restaurant serving seasonal cuisine. Guests can explore nearby attractions such as the Opera House, Royal Botanic Gardens, and Circular Quay. The hotel's personalized service and prime location make it a perfect choice for travelers seeking a memorable Sydney experience.",
+    location: {
+      address: "789 Macquarie Street, Circular Quay",
+      city: "Sydney",
+      country: "Australia",
+      coordinates: { latitude: -33.8678, longitude: 151.2093 },
+      nearbyAttractions: [
+        "Sydney Opera House",
+        "Royal Botanic Gardens",
+        "Art Gallery of NSW",
+        "The Rocks",
+      ],
+    },
+    amenities: {
+      general: [
+        "Free Wi-Fi",
+        "24/7 Front Desk",
+        "Concierge",
+        "Luggage Storage",
+      ],
+      business: ["Business Corner", "High-Speed Internet"],
+      recreation: ["Rooftop Bar", "City Views"],
+      dining: ["Continental Breakfast", "Restaurant", "Room Service"],
+      accessibility: ["Elevator", "Accessible Rooms"],
+    },
+    rooms: {
+      types: getRoomsForHotelType("boutique"),
+      totalRooms: 60,
+    },
+    policies: {
+      checkIn: "2:00 PM",
+      checkOut: "11:00 AM",
+      cancellation: "Free cancellation up to 48 hours before arrival",
+      petPolicy: "Small pets welcome with fee",
+      smokingPolicy: "Non-smoking property",
+    },
+    services: {
+      concierge: true,
+      roomService: true,
+      laundry: true,
+      airportShuttle: false,
+      spa: false,
+      fitness: true,
+      businessCenter: false,
+    },
+    pricing: {
+      priceRange: { min: 150, max: 400, currency: "USD" },
+      seasonality: { peak: 250, standard: 200, low: 150 },
+    },
+    rating: 4.6,
+    reviews: 1987,
+    tags: ["Boutique", "Waterfront", "Luxury", "Cultural", "Local Experience"],
+  },
+  {
+    id: "sydney-heritage-hotel",
+    name: "Sydney Heritage Hotel",
+    type: "hotel",
+    starRating: 4,
+    images: [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&h=600&fit=crop",
+    ],
+    description:
+      "Charming heritage hotel in the historic district of The Rocks, offering a blend of classic architecture and modern amenities. Experience the rich history of Sydney with elegantly designed rooms and a cozy lounge. The hotel is located near the Sydney Harbour Bridge, Circular Quay, and other cultural landmarks. Guests can enjoy complimentary breakfast, a fitness center, and personalized concierge services to explore the city's rich history. Ideal for travelers seeking a cultural experience in a tranquil setting.",
+    location: {
+      address: "456 George Street, The Rocks",
+      city: "Sydney",
+      country: "Australia",
+      coordinates: { latitude: -33.8599, longitude: 151.208 },
+      nearbyAttractions: [
+        "Sydney Harbour Bridge",
+        "Circular Quay",
+        "Museum of Contemporary Art",
+        "The Rocks Markets",
+      ],
+    },
+    amenities: {
+      general: [
+        "Free Wi-Fi",
+        "24/7 Front Desk",
+        "Concierge",
+        "Luggage Storage",
+        "ATM",
+      ],
+      business: [
+        "Business Center",
+        "Meeting Rooms",
+        "High-Speed Internet",
+        "Printing Services",
+      ],
+      recreation: ["Library Lounge", "Fitness Center", "City Views"],
+      dining: ["Restaurant", "Bar", "Room Service", "Coffee Shop"],
+      accessibility: [
+        "ADA Compliant",
+        "Elevator",
+        "Accessible Parking",
+        "Braille Signage",
+      ],
+    },
+    rooms: {
+      types: getRoomsForHotelType("hotel"),
+      totalRooms: 150,
+    },
+    policies: {
+      checkIn: "3:00 PM",
+      checkOut: "11:00 AM",
       cancellation: "Free cancellation up to 24 hours before arrival",
       petPolicy: "No pets allowed",
-      smokingPolicy: "Designated areas only"
+      smokingPolicy: "Non-smoking property",
     },
     services: {
       concierge: true,
@@ -388,57 +1612,320 @@ export const mockHotels: Hotel[] = [
       airportShuttle: true,
       spa: true,
       fitness: true,
-      businessCenter: true
+      businessCenter: true,
+    },
+    pricing: {
+      priceRange: { min: 200, max: 500, currency: "USD" },
+      seasonality: { peak: 350, standard: 280, low: 200 },
+    },
+    rating: 4.6,
+    reviews: 1987,
+    awards: ["TripAdvisor Travelers' Choice", "Historic Hotels of Australia"],
+    sustainability: {
+      certified: true,
+      practices: [
+        "Energy efficiency",
+        "Water conservation",
+        "Local sourcing",
+        "Cultural preservation",
+      ],
+    },
+    tags: ["Historic", "Cultural", "Literary", "City Center", "Tranquil"],
+  },
+
+  // Dubai Hotels
+  {
+    id: "desert-palace-resort",
+    name: "Desert Palace Resort",
+    type: "resort",
+    starRating: 5,
+    images: [
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=1200&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1520637736862-4d197d17c60a?w=1200&h=600&fit=crop",
+    ],
+    description:
+      "Opulent desert resort offering traditional Arabian hospitality with ultra-modern amenities in the heart of Dubai. This resort features luxurious accommodations with stunning views of the Arabian Gulf and the iconic Burj Al Arab. Guests can indulge in world-class dining, relax at the private beach, and enjoy a range of recreational activities including water sports and desert safaris. The resort's lavish spa and wellness center provide a perfect retreat for relaxation and rejuvenation.",
+    location: {
+      address: "Al Sufouh Road, Jumeirah Beach",
+      city: "Dubai",
+      country: "United Arab Emirates",
+      coordinates: { latitude: 25.1362, longitude: 55.1878 },
+      nearbyAttractions: [
+        "Burj Al Arab",
+        "Jumeirah Beach",
+        "Wild Wadi Water Park",
+        "Madinat Jumeirah",
+      ],
+    },
+    amenities: {
+      general: [
+        "Free Wi-Fi",
+        "24/7 Front Desk",
+        "Concierge",
+        "Valet Parking",
+        "Private Beach",
+      ],
+      business: [
+        "Business Center",
+        "Meeting Rooms",
+        "Executive Lounge",
+        "Conference Facilities",
+      ],
+      recreation: [
+        "Multiple Pools",
+        "Spa",
+        "Private Beach",
+        "Water Sports",
+        "Kids Club",
+      ],
+      dining: [
+        "Fine Dining",
+        "Beach Restaurant",
+        "Rooftop Bar",
+        "Shisha Lounge",
+        "24/7 Room Service",
+      ],
+      accessibility: [
+        "Wheelchair Accessible",
+        "Elevator",
+        "Beach Wheelchair",
+        "Accessible Pools",
+      ],
+    },
+    rooms: {
+      types: getRoomsForHotelType("resort"),
+      totalRooms: 350,
+    },
+    policies: {
+      checkIn: "3:00 PM",
+      checkOut: "12:00 PM",
+      cancellation: "Free cancellation up to 24 hours before arrival",
+      petPolicy: "No pets allowed",
+      smokingPolicy: "Designated areas only",
+    },
+    services: {
+      concierge: true,
+      roomService: true,
+      laundry: true,
+      airportShuttle: true,
+      spa: true,
+      fitness: true,
+      businessCenter: true,
     },
     pricing: {
       priceRange: { min: 450, max: 1500, currency: "USD" },
-      seasonality: { peak: 800, standard: 600, low: 450 }
+      seasonality: { peak: 800, standard: 600, low: 450 },
     },
     rating: 4.9,
     reviews: 4512,
     awards: ["World's Leading Resort", "Forbes Travel Guide Five-Star"],
     sustainability: {
       certified: true,
-      practices: ["Desalination plant", "Solar energy", "Sustainable seafood", "Cultural preservation"]
+      practices: [
+        "Desalination plant",
+        "Solar energy",
+        "Sustainable seafood",
+        "Cultural preservation",
+      ],
     },
-    tags: ["Ultra-Luxury", "Beach", "Desert", "Family-Friendly", "Arabian Culture"]
+    tags: [
+      "Ultra-Luxury",
+      "Beach",
+      "Desert",
+      "Family-Friendly",
+      "Arabian Culture",
+    ],
+  },
+  {
+    id: "dubai-city-center-hotel",
+    name: "Dubai City Center Hotel",
+    type: "hotel",
+    starRating: 4,
+    images: [
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=1200&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1520637736862-4d197d17c60a?w=1200&h=600&fit=crop",
+    ],
+    description:
+      "Modern hotel located in the heart of Dubai's business district, offering convenient access to shopping, dining, and entertainment. This hotel features contemporary rooms with city views, a rooftop pool, and a fitness center. Guests can enjoy a restaurant serving local and international cuisine, a bar, and meeting facilities for business travelers. The hotel's central location makes it ideal for both leisure and corporate guests looking to explore Dubai's vibrant culture.",
+    location: {
+      address: "Sheikh Zayed Road, Downtown Dubai",
+      city: "Dubai",
+      country: "United Arab Emirates",
+      coordinates: { latitude: 25.2048, longitude: 55.2708 },
+      nearbyAttractions: [
+        "Burj Khalifa",
+        "Dubai Mall",
+        "Dubai Aquarium & Underwater Zoo",
+        "Dubai Opera",
+      ],
+    },
+    amenities: {
+      general: [
+        "Free Wi-Fi",
+        "24/7 Front Desk",
+        "Concierge",
+        "Luggage Storage",
+        "ATM",
+      ],
+      business: [
+        "Business Center",
+        "Meeting Rooms",
+        "High-Speed Internet",
+        "Printing Services",
+      ],
+      recreation: ["Rooftop Pool", "Fitness Center", "City Views"],
+      dining: ["Restaurant", "Bar", "Room Service", "Coffee Shop"],
+      accessibility: [
+        "ADA Compliant",
+        "Elevator",
+        "Accessible Parking",
+        "Braille Signage",
+      ],
+    },
+    rooms: {
+      types: getRoomsForHotelType("hotel"),
+      totalRooms: 200,
+    },
+    policies: {
+      checkIn: "3:00 PM",
+      checkOut: "12:00 PM",
+      cancellation: "Free cancellation up to 24 hours before arrival",
+      petPolicy: "Pet-friendly with fee",
+      smokingPolicy: "Non-smoking property",
+    },
+    services: {
+      concierge: true,
+      roomService: true,
+      laundry: true,
+      airportShuttle: false,
+      spa: false,
+      fitness: true,
+      businessCenter: true,
+    },
+    pricing: {
+      priceRange: { min: 150, max: 400, currency: "USD" },
+      seasonality: { peak: 250, standard: 200, low: 150 },
+    },
+    rating: 4.4,
+    reviews: 1987,
+    tags: ["Modern", "City Center", "Business", "Shopping", "Dining"],
+  },
+  {
+    id: "dubai-boutique-hotel",
+    name: "Dubai Boutique Hotel",
+    type: "boutique",
+    starRating: 4,
+    images: [
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=1200&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1520637736862-4d197d17c60a?w=1200&h=600&fit=crop",
+    ],
+    description:
+      "Charming boutique hotel in the trendy Al Quoz district, known for its vibrant arts scene and culinary delights. Experience a unique blend of modern design and local culture in this stylish hotel. The hotel features chic rooms, a rooftop terrace, and a bar serving craft cocktails. Guests can explore nearby galleries, cafes, and boutiques. The hotel's personalized service and unique decor make it a favorite among young professionals and creatives looking for a local experience.",
+    location: {
+      address: "Alserkal Avenue, Al Quoz",
+      city: "Dubai",
+      country: "United Arab Emirates",
+      coordinates: { latitude: 25.1075, longitude: 55.2013 },
+      nearbyAttractions: [
+        "Alserkal Avenue Galleries",
+        "The Jamjar Art Gallery",
+        "Dubai Design District",
+        "Safa Park",
+      ],
+    },
+    amenities: {
+      general: [
+        "Free Wi-Fi",
+        "24/7 Front Desk",
+        "Concierge",
+        "Luggage Storage",
+      ],
+      business: ["Business Corner", "High-Speed Internet"],
+      recreation: ["Rooftop Terrace", "Bar", "City Views"],
+      dining: ["Continental Breakfast", "Craft Cocktail Bar", "Room Service"],
+      accessibility: ["Elevator", "Accessible Rooms"],
+    },
+    rooms: {
+      types: getRoomsForHotelType("boutique"),
+      totalRooms: 80,
+    },
+    policies: {
+      checkIn: "2:00 PM",
+      checkOut: "12:00 PM",
+      cancellation: "Free cancellation up to 48 hours before arrival",
+      petPolicy: "Small pets welcome with fee",
+      smokingPolicy: "Non-smoking property",
+    },
+    services: {
+      concierge: true,
+      roomService: true,
+      laundry: true,
+      airportShuttle: false,
+      spa: false,
+      fitness: true,
+      businessCenter: false,
+    },
+    pricing: {
+      priceRange: { min: 120, max: 300, currency: "USD" },
+      seasonality: { peak: 200, standard: 160, low: 120 },
+    },
+    rating: 4.5,
+    reviews: 1345,
+    tags: ["Boutique", "Trendy", "Cultural", "Nightlife", "Artistic"],
   },
 
   // Rome Hotels
   {
-    id: "8",
+    id: "eternal-city-boutique",
     name: "Eternal City Boutique",
     type: "boutique",
     starRating: 4,
     images: [
       "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=1200&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&h=600&fit=crop"
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&h=600&fit=crop",
     ],
-    description: "Elegant boutique hotel in historic Rome, steps from the Colosseum and Roman Forum with authentic Italian charm.",
+    description:
+      "Elegant boutique hotel in historic Rome, steps from the Colosseum and Roman Forum with authentic Italian charm. This boutique hotel offers a unique blend of modern comfort and classic Roman architecture, providing an intimate atmosphere for guests. Each room is individually decorated with local art and furnishings, creating a cozy yet sophisticated environment. The hotel features a rooftop terrace with panoramic views of the city, a wine cellar for tastings, and personalized concierge services to help guests explore Rome's rich history and culture.",
     location: {
       address: "Via dei Fori Imperiali, 15",
       city: "Rome",
       country: "Italy",
       coordinates: { latitude: 41.8902, longitude: 12.4922 },
-      nearbyAttractions: ["Colosseum", "Roman Forum", "Pantheon", "Trevi Fountain"]
+      nearbyAttractions: [
+        "Colosseum",
+        "Roman Forum",
+        "Pantheon",
+        "Trevi Fountain",
+      ],
     },
     amenities: {
-      general: ["Free Wi-Fi", "24/7 Front Desk", "Concierge", "Luggage Storage", "Tour Assistance"],
+      general: [
+        "Free Wi-Fi",
+        "24/7 Front Desk",
+        "Concierge",
+        "Luggage Storage",
+        "Tour Assistance",
+      ],
       business: ["Business Corner", "High-Speed Internet", "Meeting Space"],
       recreation: ["Rooftop Terrace", "Library", "Wine Cellar Tours"],
-      dining: ["Italian Restaurant", "Wine Bar", "Continental Breakfast", "Room Service"],
-      accessibility: ["Elevator", "Accessible Rooms", "Ramp Access"]
+      dining: [
+        "Italian Restaurant",
+        "Wine Bar",
+        "Continental Breakfast",
+        "Room Service",
+      ],
+      accessibility: ["Elevator", "Accessible Rooms", "Ramp Access"],
     },
     rooms: {
       types: getRoomsForHotelType("boutique"),
-      totalRooms: 35
+      totalRooms: 35,
     },
     policies: {
       checkIn: "2:00 PM",
       checkOut: "11:00 AM",
       cancellation: "Free cancellation up to 48 hours before arrival",
       petPolicy: "Small pets welcome",
-      smokingPolicy: "Non-smoking property"
+      smokingPolicy: "Non-smoking property",
     },
     services: {
       concierge: true,
@@ -447,111 +1934,146 @@ export const mockHotels: Hotel[] = [
       airportShuttle: false,
       spa: false,
       fitness: false,
-      businessCenter: false
+      businessCenter: false,
     },
     pricing: {
       priceRange: { min: 200, max: 450, currency: "USD" },
-      seasonality: { peak: 320, standard: 260, low: 200 }
+      seasonality: { peak: 320, standard: 260, low: 200 },
     },
     rating: 4.6,
     reviews: 1243,
-    tags: ["Historic", "Boutique", "Central", "Authentic", "Romantic"]
+    tags: ["Historic", "Boutique", "Central", "Authentic", "Romantic"],
   },
-
-  // Santorini Hotels
   {
-    id: "9",
-    name: "Aegean Sunset Villa",
-    type: "villa",
-    starRating: 5,
+    id: "rome-city-center-hotel",
+    name: "Rome City Center Hotel",
+    type: "hotel",
+    starRating: 4,
     images: [
-      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&h=600&fit=crop"
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=1200&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&h=600&fit=crop",
     ],
-    description: "Stunning cliff-side villa resort with iconic white architecture and breathtaking sunset views over the Aegean Sea.",
+    description:
+      "Modern hotel located in the heart of Rome, offering easy access to major attractions like the Vatican and Spanish Steps. This hotel features contemporary rooms with stylish decor, a rooftop terrace, and a fitness center. Guests can enjoy a restaurant serving Italian cuisine, a bar, and meeting facilities for business travelers. The hotel's central location makes it ideal for both leisure and corporate guests looking to explore Rome's vibrant culture.",
     location: {
-      address: "Oia Village, Caldera",
-      city: "Santorini",
-      country: "Greece",
-      coordinates: { latitude: 36.4618, longitude: 25.3753 },
-      nearbyAttractions: ["Oia Castle", "Amoudi Bay", "Red Beach", "Akrotiri Archaeological Site"]
+      address: "Via Nazionale, 45",
+      city: "Rome",
+      country: "Italy",
+      coordinates: { latitude: 41.9028, longitude: 12.4964 },
+      nearbyAttractions: [
+        "Vatican City",
+        "Spanish Steps",
+        "Piazza Navona",
+        "Campo de' Fiori",
+      ],
     },
     amenities: {
-      general: ["Free Wi-Fi", "24/7 Concierge", "Private Transfers", "Sunset Views"],
-      business: ["High-Speed Internet", "Business Services"],
-      recreation: ["Infinity Pool", "Spa Treatments", "Yacht Charters", "Wine Tasting"],
-      dining: ["Gourmet Restaurant", "Pool Bar", "Private Dining", "Wine Cellar"],
-      accessibility: ["Some Accessible Areas", "Elevator to Pool", "Accessible Parking"]
+      general: [
+        "Free Wi-Fi",
+        "24/7 Front Desk",
+        "Concierge",
+        "Luggage Storage",
+        "ATM",
+      ],
+      business: [
+        "Business Center",
+        "Meeting Rooms",
+        "High-Speed Internet",
+        "Printing Services",
+      ],
+      recreation: ["Rooftop Terrace", "Fitness Center", "City Views"],
+      dining: ["Restaurant", "Bar", "Room Service", "Coffee Shop"],
+      accessibility: [
+        "ADA Compliant",
+        "Elevator",
+        "Accessible Parking",
+        "Braille Signage",
+      ],
     },
     rooms: {
-      types: getRoomsForHotelType("villa"),
-      totalRooms: 25
+      types: getRoomsForHotelType("hotel"),
+      totalRooms: 150,
     },
     policies: {
       checkIn: "3:00 PM",
-      checkOut: "12:00 PM",
-      cancellation: "Free cancellation up to 72 hours before arrival",
-      petPolicy: "No pets allowed",
-      smokingPolicy: "Outdoor areas only"
+      checkOut: "11:00 AM",
+      cancellation: "Free cancellation up to 24 hours before arrival",
+      petPolicy: "Pet-friendly with fee",
+      smokingPolicy: "Non-smoking property",
     },
     services: {
       concierge: true,
       roomService: true,
       laundry: true,
-      airportShuttle: true,
-      spa: true,
-      fitness: false,
-      businessCenter: false
+      airportShuttle: false,
+      spa: false,
+      fitness: true,
+      businessCenter: true,
     },
     pricing: {
-      priceRange: { min: 600, max: 2000, currency: "USD" },
-      seasonality: { peak: 1200, standard: 800, low: 600 }
+      priceRange: { min: 150, max: 400, currency: "USD" },
+      seasonality: { peak: 250, standard: 200, low: 150 },
     },
-    rating: 4.9,
-    reviews: 876,
-    awards: ["Small Luxury Hotels", "Condé Nast Gold List"],
-    sustainability: {
-      certified: true,
-      practices: ["Water conservation", "Local sourcing", "Traditional architecture", "Marine protection"]
-    },
-    tags: ["Luxury", "Romantic", "Sunset Views", "Cycladic", "Adults-Only"]
+    rating: 4.4,
+    reviews: 1987,
+    tags: ["Modern", "City Center", "Business", "Shopping", "Dining"],
   },
-
-  // Bali Hotels
   {
-    id: "10",
-    name: "Tropical Paradise Resort",
-    type: "resort",
-    starRating: 5,
+    id: "rome-heritage-hotel",
+    name: "Rome Heritage Hotel",
+    type: "hotel",
+    starRating: 4,
     images: [
-      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=1200&h=600&fit=crop"
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=1200&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&h=600&fit=crop",
     ],
-    description: "Luxurious beachfront resort in Bali combining traditional Balinese architecture with world-class amenities.",
+    description:
+      "Charming heritage hotel in the historic Trastevere district, offering a blend of classic architecture and modern amenities. Experience the rich history of Rome with elegantly designed rooms and a cozy lounge. The hotel is located near the Tiber River, Santa Maria in Trastevere, and other cultural landmarks. Guests can enjoy complimentary breakfast, a fitness center, and personalized concierge services to explore the city's rich history. Ideal for travelers seeking a cultural experience in a tranquil setting.",
     location: {
-      address: "Jalan Pantai Kuta, Seminyak",
-      city: "Bali",
-      country: "Indonesia",
-      coordinates: { latitude: -8.6905, longitude: 115.1729 },
-      nearbyAttractions: ["Seminyak Beach", "Tanah Lot Temple", "Ubud Rice Terraces", "Monkey Forest Sanctuary"]
+      address: "Piazza Trilussa, 10",
+      city: "Rome",
+      country: "Italy",
+      coordinates: { latitude: 41.8881, longitude: 12.4708 },
+      nearbyAttractions: [
+        "Santa Maria in Trastevere",
+        "Tiber Island",
+        "Janiculum Hill",
+        "Villa Farnesina",
+      ],
     },
     amenities: {
-      general: ["Free Wi-Fi", "24/7 Front Desk", "Concierge", "Private Beach", "Cultural Tours"],
-      business: ["Business Center", "Meeting Pavilions", "High-Speed Internet"],
-      recreation: ["Multiple Pools", "Spa Village", "Yoga Pavilion", "Water Sports", "Kids Club"],
-      dining: ["Beachfront Restaurant", "Traditional Warung", "Pool Bar", "Room Service"],
-      accessibility: ["Wheelchair Accessible", "Beach Wheelchair", "Accessible Pools", "Elevator"]
+      general: [
+        "Free Wi-Fi",
+        "24/7 Front Desk",
+        "Concierge",
+        "Luggage Storage",
+        "ATM",
+      ],
+      business: [
+        "Business Center",
+        "Meeting Rooms",
+        "High-Speed Internet",
+        "Printing Services",
+      ],
+      recreation: ["Library Lounge", "Fitness Center", "City Views"],
+      dining: ["Restaurant", "Bar", "Room Service", "Coffee Shop"],
+      accessibility: [
+        "ADA Compliant",
+        "Elevator",
+        "Accessible Parking",
+        "Braille Signage",
+      ],
     },
     rooms: {
-      types: getRoomsForHotelType("resort"),
-      totalRooms: 200
+      types: getRoomsForHotelType("hotel"),
+      totalRooms: 100,
     },
     policies: {
       checkIn: "3:00 PM",
-      checkOut: "12:00 PM",
-      cancellation: "Free cancellation up to 48 hours before arrival",
+      checkOut: "11:00 AM",
+      cancellation: "Free cancellation up to 24 hours before arrival",
       petPolicy: "No pets allowed",
-      smokingPolicy: "Designated outdoor areas only"
+      smokingPolicy: "Non-smoking property ",
     },
     services: {
       concierge: true,
@@ -560,21 +2082,501 @@ export const mockHotels: Hotel[] = [
       airportShuttle: true,
       spa: true,
       fitness: true,
-      businessCenter: true
+      businessCenter: true,
+    },
+    pricing: {
+      priceRange: { min: 200, max: 500, currency: "USD" },
+      seasonality: { peak: 350, standard: 280, low: 200 },
+    },
+    rating: 4.6,
+    reviews: 1987,
+    awards: ["TripAdvisor Travelers' Choice", "Historic Hotels of Italy"],
+    sustainability: {
+      certified: true,
+      practices: [
+        "Energy efficiency",
+        "Water conservation",
+        "Local sourcing",
+        "Cultural preservation",
+      ],
+    },
+    tags: ["Historic", "Cultural", "Literary", "City Center", "Tranquil"],
+  },
+
+  // Santorini Hotels
+  {
+    id: "aegean-sunset-villa",
+    name: "Aegean Sunset Villa",
+    type: "villa",
+    starRating: 5,
+    images: [
+      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&h=600&fit=crop",
+    ],
+    description:
+      "Stunning cliff-side villa resort with iconic white architecture and breathtaking sunset views over the Aegean Sea. This luxurious villa resort offers an exclusive experience with private infinity pools, spacious terraces, and personalized service. Each villa is designed to provide the ultimate comfort and style, featuring modern amenities and traditional Cycladic decor. Guests can enjoy gourmet dining, spa treatments, and private yacht charters to explore the beautiful islands of Santorini. The resort's prime location in Oia allows easy access to local attractions, charming shops, and stunning viewpoints.",
+    location: {
+      address: "Oia Village, Caldera",
+      city: "Santorini",
+      country: "Greece",
+      coordinates: { latitude: 36.4618, longitude: 25.3753 },
+      nearbyAttractions: [
+        "Oia Castle",
+        "Amoudi Bay",
+        "Red Beach",
+        "Akrotiri Archaeological Site",
+      ],
+    },
+    amenities: {
+      general: [
+        "Free Wi-Fi",
+        "24/7 Concierge",
+        "Private Transfers",
+        "Sunset Views",
+      ],
+      business: ["High-Speed Internet", "Business Services"],
+      recreation: [
+        "Infinity Pool",
+        "Spa Treatments",
+        "Yacht Charters",
+        "Wine Tasting",
+      ],
+      dining: [
+        "Gourmet Restaurant",
+        "Pool Bar",
+        "Private Dining",
+        "Wine Cellar",
+      ],
+      accessibility: [
+        "Some Accessible Areas",
+        "Elevator to Pool",
+        "Accessible Parking",
+      ],
+    },
+    rooms: {
+      types: getRoomsForHotelType("villa"),
+      totalRooms: 25,
+    },
+    policies: {
+      checkIn: "3:00 PM",
+      checkOut: "12:00 PM",
+      cancellation: "Free cancellation up to 72 hours before arrival",
+      petPolicy: "No pets allowed",
+      smokingPolicy: "Outdoor areas only",
+    },
+    services: {
+      concierge: true,
+      roomService: true,
+      laundry: true,
+      airportShuttle: true,
+      spa: true,
+      fitness: false,
+      businessCenter: false,
+    },
+    pricing: {
+      priceRange: { min: 600, max: 2000, currency: "USD" },
+      seasonality: { peak: 1200, standard: 800, low: 600 },
+    },
+    rating: 4.9,
+    reviews: 876,
+    awards: ["Small Luxury Hotels", "Condé Nast Gold List"],
+    sustainability: {
+      certified: true,
+      practices: [
+        "Water conservation",
+        "Local sourcing",
+        "Traditional architecture",
+        "Marine protection",
+      ],
+    },
+    tags: ["Luxury", "Romantic", "Sunset Views", "Cycladic", "Adults-Only"],
+  },
+  {
+    id: "santorini-boutique-hotel",
+    name: "Santorini Boutique Hotel",
+    type: "boutique",
+    starRating: 4,
+    images: [
+      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&h=600&fit=crop",
+    ],
+    description:
+      "Charming boutique hotel in the heart of Fira, offering a blend of modern design and traditional Cycladic architecture. Experience the vibrant culture of Santorini with stylish rooms, a rooftop terrace, and a bar serving local wines. Guests can explore nearby shops, restaurants, and cultural sites. The hotel's personalized service and unique decor make it a favorite among travelers seeking a local experience.",
+    location: {
+      address: "Fira Town, Caldera",
+      city: "Santorini",
+      country: "Greece",
+      coordinates: { latitude: 36.4162, longitude: 25.4315 },
+      nearbyAttractions: [
+        "Fira Cable Car",
+        "Archaeological Museum of Thera",
+        "Orthodox Metropolitan Cathedral",
+        "Museum of Prehistoric Thera",
+      ],
+    },
+    amenities: {
+      general: [
+        "Free Wi-Fi",
+        "24/7 Front Desk",
+        "Concierge",
+        "Luggage Storage",
+      ],
+      business: ["Business Corner", "High-Speed Internet"],
+      recreation: ["Rooftop Terrace", "Bar", "City Views"],
+      dining: ["Continental Breakfast", "Local Wine Bar", "Room Service"],
+      accessibility: ["Elevator", "Accessible Rooms"],
+    },
+    rooms: {
+      types: getRoomsForHotelType("boutique"),
+      totalRooms: 40,
+    },
+    policies: {
+      checkIn: "2:00 PM",
+      checkOut: "12:00 PM",
+      cancellation: "Free cancellation up to 48 hours before arrival",
+      petPolicy: "Small pets welcome with fee",
+      smokingPolicy: "Non-smoking property",
+    },
+    services: {
+      concierge: true,
+      roomService: true,
+      laundry: true,
+      airportShuttle: false,
+      spa: false,
+      fitness: true,
+      businessCenter: false,
+    },
+    pricing: {
+      priceRange: { min: 150, max: 400, currency: "USD" },
+      seasonality: { peak: 250, standard: 200, low: 150 },
+    },
+    rating: 4.5,
+    reviews: 1345,
+    tags: ["Boutique", "Trendy", "Cultural", "Nightlife", "Artistic"],
+  },
+  {
+    id: "santorini-heritage-hotel",
+    name: "Santorini Heritage Hotel",
+    type: "hotel",
+    starRating: 4,
+    images: [
+      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&h=600&fit=crop",
+    ],
+    description:
+      "Charming heritage hotel in the historic district of Pyrgos, offering a blend of classic architecture and modern amenities. Experience the rich history of Santorini with elegantly designed rooms and a cozy lounge. The hotel is located near ancient ruins, traditional tavernas, and local wineries. Guests can enjoy complimentary breakfast, a fitness center, and personalized concierge services to explore the island's rich history. Ideal for travelers seeking a cultural experience in a tranquil setting.",
+    location: {
+      address: "Pyrgos Village, Santorini",
+      city: "Santorini",
+      country: "Greece",
+      coordinates: { latitude: 36.3932, longitude: 25.4781 },
+      nearbyAttractions: [
+        "Pyrgos Castle",
+        "Ancient Thera",
+        "Wine Museum Koutsoyannopoulos",
+        "Profitis Ilias Monastery",
+      ],
+    },
+    amenities: {
+      general: [
+        "Free Wi-Fi",
+        "24/7 Front Desk",
+        "Concierge",
+        "Luggage Storage",
+        "ATM",
+      ],
+      business: [
+        "Business Center",
+        "Meeting Rooms",
+        "High-Speed Internet",
+        "Printing Services",
+      ],
+      recreation: ["Library Lounge", "Fitness Center", "City Views"],
+      dining: ["Restaurant", "Bar", "Room Service", "Coffee Shop"],
+      accessibility: [
+        "ADA Compliant",
+        "Elevator",
+        "Accessible Parking",
+        "Braille Signage",
+      ],
+    },
+    rooms: {
+      types: getRoomsForHotelType("hotel"),
+      totalRooms: 80,
+    },
+    policies: {
+      checkIn: "3:00 PM",
+      checkOut: "11:00 AM",
+      cancellation: "Free cancellation up to 24 hours before arrival",
+      petPolicy: "No pets allowed",
+      smokingPolicy: "Non-smoking property",
+    },
+    services: {
+      concierge: true,
+      roomService: true,
+      laundry: true,
+      airportShuttle: true,
+      spa: true,
+      fitness: true,
+      businessCenter: true,
+    },
+    pricing: {
+      priceRange: { min: 200, max: 500, currency: "USD" },
+      seasonality: { peak: 350, standard: 280, low: 200 },
+    },
+    rating: 4.6,
+    reviews: 1987,
+    awards: ["TripAdvisor Travelers' Choice", "Historic Hotels of Greece"],
+    sustainability: {
+      certified: true,
+      practices: [
+        "Energy efficiency",
+        "Water conservation",
+        "Local sourcing",
+        "Cultural preservation",
+      ],
+    },
+    tags: ["Historic", "Cultural", "Literary", "City Center", "Tranquil"],
+  },
+
+  // Bali Hotels
+  {
+    id: "tropical-paradise-resort",
+    name: "Tropical Paradise Resort",
+    type: "resort",
+    starRating: 5,
+    images: [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=1200&h=600&fit=crop",
+    ],
+    description:
+      "Luxurious beachfront resort in Bali combining traditional Balinese architecture with world-class amenities. Experience the ultimate tropical getaway with stunning ocean views, lush gardens, and a private beach. This resort offers spacious villas and suites, each designed to provide a serene and relaxing atmosphere. Guests can indulge in spa treatments, yoga sessions, and cultural tours while enjoying gourmet dining options featuring local and international cuisine. The resort's family-friendly amenities and activities make it perfect for couples and families alike.",
+    location: {
+      address: "Jalan Pantai Kuta, Seminyak",
+      city: "Bali",
+      country: "Indonesia",
+      coordinates: { latitude: -8.6905, longitude: 115.1729 },
+      nearbyAttractions: [
+        "Seminyak Beach",
+        "Tanah Lot Temple",
+        "Ubud Rice Terraces",
+        "Monkey Forest Sanctuary",
+      ],
+    },
+    amenities: {
+      general: [
+        "Free Wi-Fi",
+        "24/7 Front Desk",
+        "Concierge",
+        "Private Beach",
+        "Cultural Tours",
+      ],
+      business: ["Business Center", "Meeting Pavilions", "High-Speed Internet"],
+      recreation: [
+        "Multiple Pools",
+        "Spa Village",
+        "Yoga Pavilion",
+        "Water Sports",
+        "Kids Club",
+      ],
+      dining: [
+        "Beachfront Restaurant",
+        "Traditional Warung",
+        "Pool Bar",
+        "Room Service",
+      ],
+      accessibility: [
+        "Wheelchair Accessible",
+        "Beach Wheelchair",
+        "Accessible Pools",
+        "Elevator",
+      ],
+    },
+    rooms: {
+      types: getRoomsForHotelType("resort"),
+      totalRooms: 200,
+    },
+    policies: {
+      checkIn: "3:00 PM",
+      checkOut: "12:00 PM",
+      cancellation: "Free cancellation up to 48 hours before arrival",
+      petPolicy: "No pets allowed",
+      smokingPolicy: "Designated outdoor areas only",
+    },
+    services: {
+      concierge: true,
+      roomService: true,
+      laundry: true,
+      airportShuttle: true,
+      spa: true,
+      fitness: true,
+      businessCenter: true,
     },
     pricing: {
       priceRange: { min: 250, max: 800, currency: "USD" },
-      seasonality: { peak: 450, standard: 350, low: 250 }
+      seasonality: { peak: 450, standard: 350, low: 250 },
     },
     rating: 4.7,
     reviews: 2654,
     awards: ["World Travel Awards", "Luxury Travel Guide"],
     sustainability: {
       certified: true,
-      practices: ["Coral reef protection", "Local community support", "Organic gardens", "Traditional crafts"]
+      practices: [
+        "Coral reef protection",
+        "Local community support",
+        "Organic gardens",
+        "Traditional crafts",
+      ],
     },
-    tags: ["Beach", "Tropical", "Spa", "Cultural", "Family-Friendly"]
-  }
+    tags: ["Beach", "Tropical", "Spa", "Cultural", "Family-Friendly"],
+  },
+  {
+    id: "bali-boutique-hotel",
+    name: "Bali Boutique Hotel",
+    type: "boutique",
+    starRating: 4,
+    images: [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=1200&h=600&fit=crop",
+    ],
+    description:
+      "Charming boutique hotel in the heart of Ubud, known for its vibrant arts scene and lush rice terraces. Experience a unique blend of modern design and local culture in this stylish hotel. The hotel features chic rooms, a rooftop terrace, and a bar serving craft cocktails. Guests can explore nearby galleries, cafes, and boutiques. The hotel's personalized service and unique decor make it a favorite among young professionals and creatives looking for a local experience.",
+    location: {
+      address: "Jalan Raya Ubud, Ubud",
+      city: "Bali",
+      country: "Indonesia",
+      coordinates: { latitude: -8.5069, longitude: 115.2623 },
+      nearbyAttractions: [
+        "Ubud Monkey Forest",
+        "Tegallalang Rice Terraces",
+        "Ubud Art Market",
+        "Puri Saren Royal Palace",
+      ],
+    },
+    amenities: {
+      general: [
+        "Free Wi-Fi",
+        "24/7 Front Desk",
+        "Concierge",
+        "Luggage Storage",
+      ],
+      business: ["Business Corner", "High-Speed Internet"],
+      recreation: ["Rooftop Terrace", "Bar", "City Views"],
+      dining: ["Continental Breakfast", "Craft Cocktail Bar", "Room Service"],
+      accessibility: ["Elevator", "Accessible Rooms"],
+    },
+    rooms: {
+      types: getRoomsForHotelType("boutique"),
+      totalRooms: 60,
+    },
+    policies: {
+      checkIn: "2:00 PM",
+      checkOut: "12:00 PM",
+      cancellation: "Free cancellation up to 48 hours before arrival",
+      petPolicy: "Small pets welcome with fee",
+      smokingPolicy: "Non-smoking property",
+    },
+    services: {
+      concierge: true,
+      roomService: true,
+      laundry: true,
+      airportShuttle: false,
+      spa: false,
+      fitness: true,
+      businessCenter: false,
+    },
+    pricing: {
+      priceRange: { min: 100, max: 300, currency: "USD" },
+      seasonality: { peak: 180, standard: 150, low: 100 },
+    },
+    rating: 4.5,
+    reviews: 1345,
+    tags: ["Boutique", "Trendy", "Cultural", "Nightlife", "Artistic"],
+  },
+  {
+    id: "bali-heritage-hotel",
+    name: "Bali Heritage Hotel",
+    type: "hotel",
+    starRating: 4,
+    images: [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=1200&h=600&fit=crop",
+    ],
+    description:
+      "Charming heritage hotel in the historic district of Gianyar, offering a blend of classic Balinese architecture and modern amenities. Experience the rich culture of Bali with elegantly designed rooms and a cozy lounge. The hotel is located near ancient temples, traditional markets, and local art galleries. Guests can enjoy complimentary breakfast, a fitness center, and personalized concierge services to explore the island's rich history. Ideal for travelers seeking a cultural experience in a tranquil setting.",
+    location: {
+      address: "Jalan Raya Gianyar, Gianyar",
+      city: "Bali",
+      country: "Indonesia",
+      coordinates: { latitude: -8.5167, longitude: 115.2667 },
+      nearbyAttractions: [
+        "Ubud Art Market",
+        "Tirta Empul Temple",
+        "Goa Gajah (Elephant Cave)",
+        "Pura Taman Saraswati",
+      ],
+    },
+    amenities: {
+      general: [
+        "Free Wi-Fi",
+        "24/7 Front Desk",
+        "Concierge",
+        "Luggage Storage",
+        "ATM",
+      ],
+      business: [
+        "Business Center",
+        "Meeting Rooms",
+        "High-Speed Internet",
+        "Printing Services",
+      ],
+      recreation: ["Library Lounge", "Fitness Center", "City Views"],
+      dining: ["Restaurant", "Bar", "Room Service", "Coffee Shop"],
+      accessibility: [
+        "ADA Compliant",
+        "Elevator",
+        "Accessible Parking",
+        "Braille Signage",
+      ],
+    },
+    rooms: {
+      types: getRoomsForHotelType("hotel"),
+      totalRooms: 100,
+    },
+    policies: {
+      checkIn: "3:00 PM",
+      checkOut: "11:00 AM",
+      cancellation: "Free cancellation up to 24 hours before arrival",
+      petPolicy: "No pets allowed",
+      smokingPolicy: "Non-smoking property",
+    },
+    services: {
+      concierge: true,
+      roomService: true,
+      laundry: true,
+      airportShuttle: true,
+      spa: true,
+      fitness: true,
+      businessCenter: true,
+    },
+    pricing: {
+      priceRange: { min: 150, max: 400, currency: "USD" },
+      seasonality: { peak: 250, standard: 200, low: 150 },
+    },
+    rating: 4.4,
+    reviews: 1987,
+    awards: ["TripAdvisor Travelers' Choice", "Historic Hotels of Indonesia"],
+    sustainability: {
+      certified: true,
+      practices: [
+        "Energy efficiency",
+        "Water conservation",
+        "Local sourcing",
+        "Cultural preservation",
+      ],
+    },
+    tags: ["Historic", "Cultural", "Literary", "City Center", "Tranquil"],
+  },
 ];
 
 // Helper function to get hotels by destination

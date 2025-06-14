@@ -16,12 +16,10 @@ import {
   ArrowLeft,
   CheckCircle,
   Clock,
-  Mail,
   MapPin,
   Phone,
   Shield,
   Star,
-  XCircle,
 } from "lucide-react";
 import Image from "next/image";
 import { useParams, useRouter } from "next/navigation";
@@ -35,19 +33,22 @@ export default function TourDetailsPage() {
   const { dispatch } = useCart();
   const [selectedDate, setSelectedDate] = useState("");
   const [guests, setGuests] = useState(1);
+  const [adults, setAdults] = useState(1);
+  const [children, setChildren] = useState(0);
+  const [seniors, setSeniors] = useState(0);
+  const [students, setStudents] = useState(0);
+  const [families, setFamilies] = useState(0);
   const [isBooking, setIsBooking] = useState(false);
 
   // Find destination and tour by URL params
   const destinationSlug = params.destination as string;
   const tourSlug = params.tour as string;
-  
+
   const destination = mockDestinations.find(
     (dest) => dest.name.toLowerCase().replace(/\s+/g, "-") === destinationSlug
   );
-  
-  const tour = mockTours.find(
-    (t) => formatToSlug(t.title) === tourSlug
-  );
+
+  const tour = mockTours.find((t) => formatToSlug(t.title) === tourSlug);
 
   if (!destination || !tour) {
     return (
@@ -73,14 +74,19 @@ export default function TourDetailsPage() {
       name: tour.title,
       description: tour.description,
       image: tour.images[0],
-      price: parseFloat(tour.price.replace(/[^0-9.]/g, "")),
+      features: tour.features,
+      price:
+        tour.pricing.adult +
+        tour.pricing.child +
+        tour.pricing.senior +
+        (tour.pricing.student ?? 0) +
+        (tour.pricing.family ?? 0),
       dates: {
         startDate: selectedDate || new Date().toISOString().split("T")[0],
         endDate: selectedDate || new Date().toISOString().split("T")[0],
       },
       guests: guests,
       location: `${destination.name}, ${destination.country}`,
-      features: tour.inclusions || [],
       cancellationPolicy:
         tour.cancellationPolicy || "Standard cancellation policy applies",
     };
@@ -96,7 +102,7 @@ export default function TourDetailsPage() {
         {/* Back Button */}
         <Button
           variant="ghost"
-          onClick={() => router.push(`/destinations/${destinationSlug}/tours`)}
+          onClick={() => router.push(`/tours`)}
           className="mb-6"
         >
           <ArrowLeft className="mr-2 w-4 h-4" />
@@ -122,11 +128,11 @@ export default function TourDetailsPage() {
                       variant="secondary"
                       className="bg-white/20 text-white"
                     >
-                      {tour.tourCategoryId}
+                      {tour.category}
                     </Badge>
                     <div className="flex items-center gap-1">
-                      {displayRatingStars(tour.rating)}
-                      <span className="ml-1">{tour.rating}</span>
+                      {displayRatingStars(tour.reviews.rating)}
+                      <span className="ml-1">{tour.reviews.rating}</span>
                     </div>
                   </div>
                   <h1 className="mb-2 font-bold text-4xl">{tour.title}</h1>
@@ -172,28 +178,18 @@ export default function TourDetailsPage() {
                 <p className="mb-4 text-slate-600 dark:text-slate-400">
                   {tour.description}
                 </p>
-
-                {tour.tags && (
-                  <div className="flex flex-wrap gap-2">
-                    {tour.tags.map((tag, index) => (
-                      <Badge key={index} variant="outline">
-                        {tag}
-                      </Badge>
-                    ))}
-                  </div>
-                )}
               </CardContent>
             </Card>
 
             {/* Highlights */}
-            {tour.highlights && tour.highlights.length > 0 && (
+            {tour.reviews.highlights && tour.reviews.highlights.length > 0 && (
               <Card>
                 <CardHeader>
                   <CardTitle>Tour Highlights</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-2">
-                    {tour.highlights.map((highlight, index) => (
+                    {tour.reviews.highlights.map((highlight, index) => (
                       <li key={index} className="flex items-start gap-2">
                         <CheckCircle className="flex-shrink-0 mt-0.5 w-5 h-5 text-green-500" />
                         <span>{highlight}</span>
@@ -218,7 +214,10 @@ export default function TourDetailsPage() {
                           {index + 1}
                         </div>
                         <p className="text-slate-600 dark:text-slate-400">
-                          {item}
+                          <strong>
+                            {item.startTime} - {item.endTime}
+                          </strong>
+                          : {item.activities.join(", ")}
                         </p>
                       </div>
                     ))}
@@ -226,49 +225,6 @@ export default function TourDetailsPage() {
                 </CardContent>
               </Card>
             )}
-
-            {/* Inclusions & Exclusions */}
-            <div className="gap-6 grid grid-cols-1 md:grid-cols-2">
-              {tour.inclusions && tour.inclusions.length > 0 && (
-                <Card>
-                  <CardHeader>
-                    <CardTitle className="text-green-600">
-                      What's Included
-                    </CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <ul className="space-y-2">
-                      {tour.inclusions.map((inclusion, index) => (
-                        <li key={index} className="flex items-start gap-2">
-                          <CheckCircle className="flex-shrink-0 mt-0.5 w-4 h-4 text-green-500" />
-                          <span className="text-sm">{inclusion}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </CardContent>
-                </Card>
-              )}
-
-              {tour.exclusions && tour.exclusions.length > 0 && (
-                <Card>
-                  <CardHeader>
-                    <CardTitle className="text-red-600">
-                      What's Not Included
-                    </CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <ul className="space-y-2">
-                      {tour.exclusions.map((exclusion, index) => (
-                        <li key={index} className="flex items-start gap-2">
-                          <XCircle className="flex-shrink-0 mt-0.5 w-4 h-4 text-red-500" />
-                          <span className="text-sm">{exclusion}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </CardContent>
-                </Card>
-              )}
-            </div>
 
             {/* Meeting Point */}
             {tour.meetingPoint && (
@@ -312,18 +268,6 @@ export default function TourDetailsPage() {
                         </a>
                       </div>
                     )}
-
-                    {tour.meetingPoint.contactEmail && (
-                      <div className="flex items-center gap-2">
-                        <Mail className="w-4 h-4 text-blue-500" />
-                        <a
-                          href={`mailto:${tour.meetingPoint.contactEmail}`}
-                          className="text-blue-600 text-sm hover:underline"
-                        >
-                          {tour.meetingPoint.contactEmail}
-                        </a>
-                      </div>
-                    )}
                   </div>
                 </CardContent>
               </Card>
@@ -352,10 +296,42 @@ export default function TourDetailsPage() {
               <CardContent className="space-y-4">
                 <div className="text-center">
                   <p className="font-bold text-3xl text-blue-600">
-                    {tour.price}
+                    {tour.pricing.adult}
                   </p>
-                  <p className="text-slate-600 text-sm">per person</p>
+                  <p className="text-slate-600 text-sm">per adult</p>
                 </div>
+
+                <div className="text-center">
+                  <p className="font-bold text-3xl text-blue-600">
+                    {tour.pricing.child}
+                  </p>
+                  <p className="text-slate-600 text-sm">per child</p>
+                </div>
+
+                <div className="text-center">
+                  <p className="font-bold text-3xl text-blue-600">
+                    {tour.pricing.senior}
+                  </p>
+                  <p className="text-slate-600 text-sm">per senior</p>
+                </div>
+
+                {tour.pricing.student && (
+                  <div className="text-center">
+                    <p className="font-bold text-3xl text-blue-600">
+                      {tour.pricing.student}
+                    </p>
+                    <p className="text-slate-600 text-sm">per student</p>
+                  </div>
+                )}
+
+                {tour.pricing.family && (
+                  <div className="text-center">
+                    <p className="font-bold text-3xl text-blue-600">
+                      {tour.pricing.family}
+                    </p>
+                    <p className="text-slate-600 text-sm">per family</p>
+                  </div>
+                )}
 
                 <Separator />
 
@@ -371,34 +347,138 @@ export default function TourDetailsPage() {
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="guests">Number of Guests</Label>
+                  <Label htmlFor="adults">Number of Adults</Label>
                   <Input
-                    id="guests"
+                    id="adults"
                     type="number"
                     min="1"
                     max="10"
-                    value={guests}
-                    onChange={(e) => setGuests(parseInt(e.target.value) || 1)}
+                    value={adults}
+                    onChange={(e) => setAdults(parseInt(e.target.value) || 1)}
                   />
                 </div>
+                <div className="space-y-2">
+                  <Label htmlFor="children">Number of Children</Label>
+                  <Input
+                    id="children"
+                    type="number"
+                    min="1"
+                    max="10"
+                    value={children}
+                    onChange={(e) => setChildren(parseInt(e.target.value) || 1)}
+                  />
+                </div>
+                <div className="space-y-2">
+                  <Label htmlFor="seniors">Number of Seniors</Label>
+                  <Input
+                    id="seniors"
+                    type="number"
+                    min="1"
+                    max="10"
+                    value={seniors}
+                    onChange={(e) => setSeniors(parseInt(e.target.value) || 1)}
+                  />
+                </div>
+
+                {tour.pricing.student && (
+                  <div className="space-y-2">
+                    <Label htmlFor="students">Number of Students</Label>
+                    <Input
+                      id="students"
+                      type="number"
+                      min="1"
+                      max="10"
+                      value={students}
+                      onChange={(e) =>
+                        setStudents(parseInt(e.target.value) || 1)
+                      }
+                    />
+                  </div>
+                )}
+
+                {tour.pricing.family && (
+                  <div className="space-y-2">
+                    <Label htmlFor="families">Number of Families</Label>
+                    <Input
+                      id="families"
+                      type="number"
+                      min="1"
+                      max="10"
+                      value={families}
+                      onChange={(e) =>
+                        setFamilies(parseInt(e.target.value) || 1)
+                      }
+                    />
+                  </div>
+                )}
 
                 <Separator />
 
                 <div className="space-y-2">
-                  <div className="flex justify-between">
-                    <span>Price per person</span>
-                    <span>{tour.price}</span>
+                  <div className="flex justify-between items-center">
+                    <div className="inline-flex items-center gap-2">
+                      <span>{tour.pricing.adult}</span>
+                      <span>/person</span>
+                    </div>
+                    <div className="inline-flex items-center gap-2">
+                      <span>×{adults}</span>
+                    </div>
                   </div>
-                  <div className="flex justify-between">
-                    <span>Guests</span>
-                    <span>×{guests}</span>
+                  <div className="flex justify-between items-center">
+                    <div className="inline-flex items-center gap-2">
+                      <span>{tour.pricing.child}</span>
+                      <span>/person</span>
+                    </div>
+                    <div className="inline-flex items-center gap-2">
+                      <span>×{children}</span>
+                    </div>
                   </div>
+                  <div className="flex justify-between items-center">
+                    <div className="inline-flex items-center gap-2">
+                      <span>{tour.pricing.senior}</span>
+                      <span>/person</span>
+                    </div>
+                    <div className="inline-flex items-center gap-2">
+                      <span>×{seniors}</span>
+                    </div>
+                  </div>
+                  {tour.pricing.student && (
+                    <div className="flex justify-between items-center">
+                      <div className="inline-flex items-center gap-2">
+                        <span>{tour.pricing.student}</span>
+                        <span>/person</span>
+                      </div>
+                      <div className="inline-flex items-center gap-2">
+                        <span>×{students}</span>
+                      </div>
+                    </div>
+                  )}
+                  {tour.pricing.family && (
+                    <div className="flex justify-between items-center">
+                      <div className="inline-flex items-center gap-2">
+                        <span>{tour.pricing.family}</span>
+                        <span>/family</span>
+                      </div>
+                      <div className="inline-flex items-center gap-2">
+                        <span>×{families}</span>
+                      </div>
+                    </div>
+                  )}
                   <Separator />
                   <div className="flex justify-between font-bold text-lg">
                     <span>Total</span>
                     <span className="text-blue-600">
                       {formatPrice(
-                        parseFloat(tour.price.replace(/[^0-9.]/g, "")) * guests
+                        tour.pricing.adult * adults +
+                          tour.pricing.child * children +
+                          tour.pricing.senior * seniors +
+                          (tour.pricing.student
+                            ? tour.pricing.student * students
+                            : 0) +
+                          (tour.pricing.family
+                            ? tour.pricing.family * families
+                            : 0),
+                        tour.pricing.currency
                       )}
                     </span>
                   </div>
@@ -431,13 +511,13 @@ export default function TourDetailsPage() {
                 </div>
                 <div className="flex justify-between">
                   <span>Category</span>
-                  <span className="capitalize">{tour.tourCategoryId}</span>
+                  <span className="capitalize">{tour.category}</span>
                 </div>
                 <div className="flex justify-between">
                   <span>Rating</span>
                   <span className="flex items-center gap-1">
                     <Star className="w-3 h-3 text-yellow-400 fill-yellow-400" />
-                    {tour.rating}
+                    {tour.reviews.rating}
                   </span>
                 </div>
                 <div className="flex justify-between">

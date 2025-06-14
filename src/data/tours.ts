@@ -6,7 +6,7 @@ export const mockTours: Tour[] = [
     id: "TOUR-PAR-001",
     title: "Paris City Highlights & Eiffel Tower Tour",
     description:
-      "Discover the magic of Paris on this comprehensive tour featuring iconic landmarks, charming neighborhoods, and skip-the-line access to the Eiffel Tower.",
+      "Discover the magic of Paris on this comprehensive tour featuring iconic landmarks, charming neighborhoods, and skip-the-line access to the Eiffel Tower. Experience the best of the City of Lights with a local guide, including a Seine River cruise and visits to Notre-Dame Cathedral, Louvre Museum, and Montmartre.",
     type: "Guided Tour",
     category: "Sightseeing",
     features: [
@@ -102,13 +102,231 @@ export const mockTours: Tour[] = [
       contactNumber: "+33 1 42 25 96 10",
     },
   },
+  {
+    id: "TOUR-PAR-002",
+    title: "Versailles Palace & Gardens Day Trip",
+    description:
+      "Experience the grandeur of the Palace of Versailles and its stunning gardens on this full-day guided tour from Paris. Skip the lines and explore the opulent rooms, Hall of Mirrors, and expansive gardens with a knowledgeable guide.",
+    type: "Day Trip",
+    category: "History & Culture",
+    features: [
+      "Skip-the-line access to Versailles Palace",
+      "Guided tour of the palace interiors",
+      "Access to the gardens and fountains show",
+      "Round-trip transportation from Paris",
+      "Audio guide available in multiple languages",
+    ],
+    restrictions: [
+      "Not wheelchair accessible",
+      "Moderate walking required",
+      "Children must be accompanied by adults",
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1549144511-f099e773c147?w=800&h=600&fit=crop",
+    ],
+    duration: "8 hours",
+    pricing: {
+      adult: 89,
+      child: 65,
+      senior: 79,
+      student: 75,
+      family: 280,
+      currency: "EUR",
+    },
+    tickets: {
+      advanceBooking: true,
+      skipTheLine: true,
+      groupDiscounts: true,
+    },
+    location: {
+      city: "Versailles",
+      country: "France",
+      address: "Place d'Armes, 78000 Versailles",
+      coordinates: {
+        latitude: 48.8049,
+        longitude: 2.1204,
+      },
+    },
+    reviews: {
+      rating: 4.7,
+      totalReviews: 1985,
+      highlights: [
+        "Stunning palace architecture",
+        "Beautiful gardens and fountains",
+        "Informative guide",
+      ],
+    },
+    itinerary: [
+      {
+        startTime: "08:30",
+        endTime: "10:00",
+        activities: [
+          "Pickup from central Paris hotel or meeting point",
+          "Drive to Versailles (approx. 1 hour)",
+          "Arrival at Versailles Palace entrance",
+        ],
+      },
+      {
+        startTime: "10:00",
+        endTime: "12:00",
+        activities: [
+          "Guided tour of the Palace of Versailles",
+          "Visit the Hall of Mirrors and royal apartments",
+          "Learn about the history of the French monarchy",
+        ],
+      },
+      {
+        startTime: "12:00",
+        endTime: "13:00",
+        activities: [
+          "Lunch break (not included)",
+          "Explore the gardens at your leisure",
+          "Enjoy the fountains show (seasonal)",
+        ],
+      },
+      {
+        startTime: "13:00",
+        endTime: "15:30",
+        activities: [
+          "Continue exploring the gardens and Trianon palaces",
+          "Free time for photos and relaxation",
+          "Optional bike or golf cart rental (extra cost)",
+        ],
+      },
+      {
+        startTime: "15:30",
+        endTime: "17:00",
+        activities: [
+          "Return drive to Paris",
+          "Drop-off at original pickup location",
+          "Tour conclusion",
+        ],
+      },
+    ],
+    cancellationPolicy: "Free cancellation up to 48 hours before the tour",
+    meetingPoint: {
+      address: "Place d'Armes, 78000 Versailles, France",
+      instructions: "Meet your guide at the main entrance gate",
+      contactNumber: "+33 1 42 25 96 10",
+    },
+  },
+  {
+    id: "TOUR-PAR-003",
+    title: "Mont Saint-Michel & Normandy Beaches Tour",
+    description:
+      "Explore the breathtaking Mont Saint-Michel and the historic Normandy beaches on this full-day guided tour from Paris. Discover the medieval abbey, picturesque village, and learn about the D-Day landings.",
+    type: "Historical Tour",
+    category: "History & Culture",
+    features: [
+      "Guided tour of Mont Saint-Michel Abbey",
+      "Visit to Normandy beaches (Omaha and Utah)",
+      "Round-trip transportation from Paris",
+      "Audio guide available in multiple languages",
+      "Lunch included at a local restaurant",
+    ],
+    restrictions: [
+      "Not wheelchair accessible",
+      "Moderate walking required",
+      "Children must be accompanied by adults",
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1549144511-f099e773c147?w=800&h=600&fit=crop",
+    ],
+    duration: "12 hours",
+    pricing: {
+      adult: 129,
+      child: 95,
+      senior: 115,
+      student: 105,
+      family: 400,
+      currency: "EUR",
+    },
+    tickets: {
+      advanceBooking: true,
+      skipTheLine: true,
+      groupDiscounts: true,
+    },
+    location: {
+      city: "Mont Saint-Michel",
+      country: "France",
+      address: "Mont Saint-Michel, Normandy",
+      coordinates: {
+        latitude: 48.6361,
+        longitude: -1.5119,
+      },
+    },
+    reviews: {
+      rating: 4.8,
+      totalReviews: 1675,
+      highlights: [
+        "Incredible views of Mont Saint-Michel",
+        "Informative guide on D-Day history",
+        "Beautiful coastal scenery",
+      ],
+    },
+    itinerary: [
+      {
+        startTime: "07:00",
+        endTime: "09:30",
+        activities: [
+          "Pickup from central Paris hotel or meeting point",
+          "Drive to Mont Saint-Michel (approx. 3 hours)",
+          "Arrival at Mont Saint-Michel parking area",
+        ],
+      },
+      {
+        startTime: "09:30",
+        endTime: "12:00",
+        activities: [
+          "Guided tour of Mont Saint-Michel Abbey",
+          "Explore the medieval village and shops",
+          "Learn about the history of the island",
+        ],
+      },
+      {
+        startTime: "12:00",
+        endTime: "13:00",
+        activities: [
+          "Lunch at a local restaurant (included)",
+          "Free time to explore the island",
+          "Enjoy panoramic views from the ramparts",
+        ],
+      },
+      {
+        startTime: "13:00",
+        endTime: "15:30",
+        activities: [
+          "Drive to Normandy beaches (Omaha and Utah)",
+          "Visit the American Cemetery and Memorial",
+          "Learn about the D-Day landings and history",
+        ],
+      },
+      {
+        startTime: "15:30",
+        endTime: "18:00",
+        activities: [
+          "Return drive to Paris",
+          "Drop-off at original pickup location",
+          "Tour conclusion",
+        ],
+      },
+    ],
+    cancellationPolicy: "Free cancellation up to 48 hours before the tour",
+    meetingPoint: {
+      address: "Place Charles de Gaulle, 75008 Paris, France",
+      instructions: "Meet your guide at the Arc de Triomphe",
+      contactNumber: "+33 1 42 25 96 10",
+    },
+  },
 
   // Tokyo Tours
   {
     id: "TOUR-TOK-001",
     title: "Tokyo Traditional & Modern Culture Experience",
     description:
-      "Immerse yourself in Tokyo's fascinating blend of ancient traditions and cutting-edge modernity with visits to temples, markets, and tech districts.",
+      "Immerse yourself in Tokyo's fascinating blend of ancient traditions and cutting-edge modernity with visits to temples, markets, and tech districts. Experience a traditional tea ceremony, sushi making workshop, and explore the vibrant neighborhoods of Asakusa, Shibuya, and Harajuku.",
     type: "Cultural Tour",
     category: "Culture",
     features: [
@@ -203,13 +421,230 @@ export const mockTours: Tour[] = [
       contactNumber: "+81 3-5555-1234",
     },
   },
+  {
+    id: "TOUR-TOK-002",
+    title: "Kyoto Temples & Gardens Day Trip from Tokyo",
+    description:
+      "Experience the serene beauty of Kyoto's ancient temples and stunning gardens on this full-day guided tour from Tokyo. Visit iconic sites like Kinkaku-ji (Golden Pavilion), Fushimi Inari Shrine, and Arashiyama Bamboo Grove.",
+    type: "Day Trip",
+    category: "History & Culture",
+    features: [
+      "Round-trip bullet train tickets from Tokyo to Kyoto",
+      "Guided tour of Kinkaku-ji and Fushimi Inari Shrine",
+      "Visit to Arashiyama Bamboo Grove",
+      "Traditional Japanese lunch included",
+      "Local English-speaking guide",
+    ],
+    restrictions: [
+      "Not wheelchair accessible",
+      "Moderate walking required",
+      "Children must be accompanied by adults",
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1549144511-f099e773c147?w=800&h=600&fit=crop",
+    ],
+    duration: "12 hours",
+    pricing: {
+      adult: 199,
+      child: 150,
+      senior: 180,
+      student: 170,
+      currency: "USD",
+    },
+    tickets: {
+      advanceBooking: true,
+      skipTheLine: true,
+      groupDiscounts: true,
+    },
+    location: {
+      city: "Kyoto",
+      country: "Japan",
+      address: "Kyoto Station, Kyoto",
+      coordinates: {
+        latitude: 35.0116,
+        longitude: 135.7681,
+      },
+    },
+    reviews: {
+      rating: 4.8,
+      totalReviews: 1450,
+      highlights: [
+        "Beautiful temples and gardens",
+        "Knowledgeable guide with great stories",
+        "Efficient bullet train experience",
+      ],
+    },
+    itinerary: [
+      {
+        startTime: "06:30",
+        endTime: "08:30",
+        activities: [
+          "Pickup from central Tokyo hotel or meeting point",
+          "Bullet train ride to Kyoto (approx. 2 hours)",
+          "Arrival at Kyoto Station and meet guide",
+        ],
+      },
+      {
+        startTime: "09:00",
+        endTime: "11:00",
+        activities: [
+          "Visit Kinkaku-ji (Golden Pavilion)",
+          "Explore the beautiful gardens",
+          "Learn about Zen Buddhism history",
+        ],
+      },
+      {
+        startTime: "11:30",
+        endTime: "13:00",
+        activities: [
+          "Fushimi Inari Shrine visit",
+          "Hike through the iconic torii gates",
+          "Traditional Japanese lunch at local restaurant",
+        ],
+      },
+      {
+        startTime: "13:30",
+        endTime: "15:30",
+        activities: [
+          "Arashiyama Bamboo Grove exploration",
+          "Visit Tenryu-ji Temple and gardens",
+          "Free time for photos and shopping",
+        ],
+      },
+      {
+        startTime: "16:00",
+        endTime: "18:30",
+        activities: [
+          "Return bullet train to Tokyo",
+          "Drop-off at original pickup location",
+          "Tour conclusion",
+        ],
+      },
+    ],
+    cancellationPolicy: "Free cancellation up to 48 hours before the tour",
+    meetingPoint: {
+      address: "Tokyo Station, Marunouchi, Chiyoda City, Tokyo",
+      instructions: "Meet your guide at the Shinkansen ticket gate",
+      contactNumber: "+81 3-5555-6789",
+    },
+  },
+  {
+    id: "TOUR-TOK-003",
+    title: "Nara & Osaka Cultural Day Trip from Tokyo",
+    description:
+      "Discover the cultural treasures of Nara and Osaka on this full-day guided tour from Tokyo. Visit Nara's famous deer park, Todai-ji Temple, and explore Osaka's vibrant Dotonbori district.",
+    type: "Cultural Tour",
+    category: "History & Culture",
+    features: [
+      "Round-trip bullet train tickets from Tokyo to Nara and Osaka",
+      "Guided tour of Nara Park and Todai-ji Temple",
+      "Explore Osaka's Dotonbori district",
+      "Traditional Japanese lunch included",
+      "Local English-speaking guide",
+    ],
+    restrictions: [
+      "Not wheelchair accessible",
+      "Moderate walking required",
+      "Children must be accompanied by adults",
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1549144511-f099e773c147?w=800&h=600&fit=crop",
+    ],
+    duration: "12 hours",
+    pricing: {
+      adult: 199,
+      child: 150,
+      senior: 180,
+      student: 170,
+      currency: "USD",
+    },
+    tickets: {
+      advanceBooking: true,
+      skipTheLine: true,
+      groupDiscounts: true,
+    },
+    location: {
+      city: "Nara/Osaka",
+      country: "Japan",
+      address: "Nara Park, Nara / Dotonbori, Osaka",
+      coordinates: {
+        latitude: 34.6851,
+        longitude: 135.8048,
+      },
+    },
+    reviews: {
+      rating: 4.7,
+      totalReviews: 1200,
+      highlights: [
+        "Friendly deer in Nara Park",
+        "Stunning Todai-ji Temple architecture",
+        "Lively atmosphere in Dotonbori",
+      ],
+    },
+    itinerary: [
+      {
+        startTime: "06:30",
+        endTime: "08:30",
+        activities: [
+          "Pickup from central Tokyo hotel or meeting point",
+          "Bullet train ride to Nara (approx. 2 hours)",
+          "Arrival at Nara Station and meet guide",
+        ],
+      },
+      {
+        startTime: "09:00",
+        endTime: "11:00",
+        activities: [
+          "Visit Nara Park and interact with free-roaming deer",
+          "Explore Todai-ji Temple and see the Great Buddha",
+          "Learn about Nara's history as Japan's first capital",
+        ],
+      },
+      {
+        startTime: "11:30",
+        endTime: "13:00",
+        activities: [
+          "Traditional Japanese lunch at local restaurant",
+          "Free time to explore Naramachi district",
+          "Shopping for local crafts and souvenirs",
+        ],
+      },
+      {
+        startTime: "13:30",
+        endTime: "15:30",
+        activities: [
+          "Bullet train ride to Osaka (approx. 45 minutes)",
+          "Explore Dotonbori district and its famous neon lights",
+          "Visit Osaka Castle (exterior)",
+        ],
+      },
+      {
+        startTime: "16:00",
+        endTime: "18:30",
+        activities: [
+          "Free time for shopping and street food in Dotonbori",
+          "Return bullet train to Tokyo",
+          "Drop-off at original pickup location",
+          "Tour conclusion",
+        ],
+      },
+    ],
+    cancellationPolicy: "Free cancellation up to 48 hours before the tour",
+    meetingPoint: {
+      address: "Tokyo Station, Marunouchi, Chiyoda City, Tokyo",
+      instructions: "Meet your guide at the Shinkansen ticket gate",
+      contactNumber: "+81 3-5555-6789",
+    },
+  },
 
   // New York City Tours
   {
     id: "TOUR-NYC-001",
     title: "NYC Icons & Neighborhoods Walking Tour",
     description:
-      "Explore the best of Manhattan on foot, from iconic landmarks to hidden gems, with an expert local guide sharing insider stories and history.",
+      "Explore the best of Manhattan on foot, from iconic landmarks to hidden gems, with an expert local guide sharing insider stories and history. Visit Central Park, Times Square, the 9/11 Memorial, and walk across the Brooklyn Bridge while enjoying local food tastings along the way.",
     type: "Walking Tour",
     category: "Sightseeing",
     features: [
@@ -311,7 +746,7 @@ export const mockTours: Tour[] = [
     id: "TOUR-BAL-001",
     title: "Bali Temples & Rice Terraces Cultural Journey",
     description:
-      "Discover Bali's spiritual heart and stunning landscapes with visits to ancient temples, traditional villages, and the famous Tegallalang Rice Terraces.",
+      "Discover Bali's spiritual heart and stunning landscapes with visits to ancient temples, traditional villages, and the famous Tegallalang Rice Terraces. Experience authentic Balinese culture through ceremonies, artisan workshops, and a traditional lunch with a local family.",
     type: "Cultural Tour",
     category: "Culture",
     features: [
@@ -405,13 +840,125 @@ export const mockTours: Tour[] = [
       contactNumber: "+62 361-555-0123",
     },
   },
+  {
+    id: "TOUR-BAL-002",
+    title: "Bali Beaches & Waterfalls Adventure",
+    description:
+      "Experience Bali's natural beauty with a day of beach hopping and waterfall exploration. Visit stunning beaches, swim in crystal-clear waters, and hike to hidden waterfalls surrounded by lush jungle.",
+    type: "Adventure Tour",
+    category: "Nature & Adventure",
+    features: [
+      "Beach hopping at Nusa Dua and Uluwatu",
+      "Kecak dance performance at Uluwatu Temple",
+      "Visit to Tegenungan Waterfall",
+      "Snorkeling gear provided",
+      "Local lunch included",
+    ],
+    restrictions: [
+      "Moderate fitness level required for hiking",
+      "Swimwear required for beach and waterfall visits",
+      "Not suitable for children under 5 years old",
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1549144511-f099e773c147?w=800&h=600&fit=crop",
+    ],
+    duration: "10 hours",
+    pricing: {
+      adult: 75,
+      child: 55,
+      senior: 70,
+      currency: "USD",
+    },
+    tickets: {
+      advanceBooking: true,
+      skipTheLine: false,
+      groupDiscounts: true,
+    },
+    location: {
+      city: "Bali",
+      country: "Indonesia",
+      address: "Nusa Dua Beach, Bali",
+      coordinates: {
+        latitude: -8.8032,
+        longitude: 115.2253,
+      },
+    },
+    reviews: {
+      rating: 4.9,
+      totalReviews: 1320,
+      highlights: [
+        "Stunning beaches and clear waters",
+        "Amazing waterfall experience",
+        "Cultural dance performance at sunset",
+      ],
+    },
+    itinerary: [
+      {
+        startTime: "08:00",
+        endTime: "10:00",
+        activities: [
+          "Hotel pickup in Nusa Dua area",
+          "Visit Nusa Dua Beach for swimming and relaxation",
+          "Beachfront coffee break at local café",
+        ],
+      },
+      {
+        startTime: "10:30",
+        endTime: "12:30 ",
+        activities: [
+          "Drive to Uluwatu Temple",
+          "Explore the temple grounds",
+          "Kecak dance performance with ocean views",
+        ],
+      },
+      {
+        startTime: "13:00",
+        endTime: "14:30",
+        activities: [
+          "Lunch at a local seafood restaurant",
+          "Free time to explore Uluwatu beach area",
+          "Optional surfing lessons (extra cost)",
+        ],
+      },
+      {
+        startTime: "15:00",
+        endTime: "17:00",
+        activities: [
+          "Visit Tegenungan Waterfall",
+          "Hike down to the waterfall base",
+          "Swim in the natural pool and relax",
+        ],
+      },
+      {
+        startTime: "17:30",
+        endTime: "18:30",
+        activities: [
+          "Return drive to hotel",
+          "Tour conclusion",
+          "Optional sunset beach stop at Jimbaran Bay",
+        ],
+      },
+      {
+        startTime: "18:30",
+        endTime: "19:00",
+        activities: ["Drop-off at original pickup location", "End of tour"],
+      },
+    ],
+    cancellationPolicy: "Free cancellation up to 24 hours before the tour",
+    meetingPoint: {
+      address: "Nusa Dua Beach, Jl. Pantai Mengiat, Bali",
+      instructions: "Meet at the main entrance to Nusa Dua Beach",
+      contactNumber: "+62 361-555-6789",
+    },
+  },
 
   // Cape Town Tours
   {
     id: "TOUR-CPT-001",
     title: "Cape Town Table Mountain & Winelands Adventure",
     description:
-      "Experience Cape Town's natural beauty and world-renowned wine culture with Table Mountain cable car, wine tastings, and scenic drives through the Winelands.",
+      "Experience Cape Town's natural beauty and world-renowned wine culture with Table Mountain cable car, wine tastings, and scenic drives through the Winelands. Enjoy a traditional South African lunch while taking in breathtaking views of vineyards and mountains.",
     type: "Adventure Tour",
     category: "Nature & Wine",
     features: [
@@ -505,13 +1052,118 @@ export const mockTours: Tour[] = [
       contactNumber: "+27 21-555-0199",
     },
   },
+  {
+    id: "TOUR-CPT-002",
+    title: "Cape Peninsula Scenic Drive & Wildlife Safari",
+    description:
+      "Explore the stunning Cape Peninsula with a scenic drive along the coast, visit the Cape of Good Hope, and enjoy a wildlife safari at a private reserve. Experience breathtaking ocean views, encounter African wildlife, and savor a delicious picnic lunch.",
+    type: "Scenic Tour",
+    category: "Nature & Wildlife",
+    features: [
+      "Cape Peninsula scenic drive",
+      "Visit to Cape of Good Hope",
+      "Wildlife safari at private reserve",
+      "Picnic lunch with ocean views",
+      "Professional nature guide",
+    ],
+    restrictions: [
+      "Wildlife sightings not guaranteed",
+      "Moderate walking on safari trails",
+      "Weather dependent for coastal views",
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1549144511-f099e773c147?w=800&h=600&fit=crop",
+    ],
+    duration: "9 hours",
+    pricing: {
+      adult: 110,
+      child: 65,
+      senior: 100,
+      currency: "USD",
+    },
+    tickets: {
+      advanceBooking: true,
+      skipTheLine: false,
+      groupDiscounts: true,
+    },
+    location: {
+      city: "Cape Town",
+      country: "South Africa",
+      address: "Cape Point Nature Reserve Entrance",
+      coordinates: {
+        latitude: -34.3578,
+        longitude: 18.4746,
+      },
+    },
+    reviews: {
+      rating: 4.8,
+      totalReviews: 1980,
+      highlights: [
+        "Stunning coastal scenery",
+        "Exciting wildlife encounters",
+        "Informative guide with local knowledge",
+      ],
+    },
+    itinerary: [
+      {
+        startTime: "08:00",
+        endTime: "10:00",
+        activities: [
+          "Pickup from central Cape Town hotel",
+          "Drive along Chapman's Peak Drive",
+          "Photo stops at scenic viewpoints",
+        ],
+      },
+      {
+        startTime: "10:30",
+        endTime: "12:00",
+        activities: [
+          "Visit Cape of Good Hope and lighthouse",
+          "Hike to Cape Point for panoramic views",
+        ],
+      },
+      {
+        startTime: "12:30",
+        endTime: "14:00",
+        activities: [
+          "Picnic lunch at scenic spot",
+          "Relax and enjoy ocean views",
+        ],
+      },
+      {
+        startTime: "14:30",
+        endTime: "16:30",
+        activities: [
+          "Wildlife safari at private reserve",
+          "Game drive to spot lions, elephants, and more",
+          "Learn about local flora and fauna",
+        ],
+      },
+      {
+        startTime: "17:00",
+        endTime: "18:00",
+        activities: [
+          "Return drive to Cape Town",
+          "Drop-off at original pickup location",
+          "Tour conclusion",
+        ],
+      },
+    ],
+    cancellationPolicy: "Free cancellation up to 48 hours before the tour",
+    meetingPoint: {
+      address: "Cape Point Nature Reserve Entrance, Cape Town",
+      instructions: "Meet at the main entrance gate",
+      contactNumber: "+27 21-555-6789",
+    },
+  },
 
   // Cusco Tours
   {
     id: "TOUR-CUS-001",
     title: "Sacred Valley & Machu Picchu Express Experience",
     description:
-      "Journey through the mystical Sacred Valley and visit the iconic Machu Picchu citadel on this unforgettable Inca heritage tour with train transportation.",
+      "Journey through the mystical Sacred Valley and visit the iconic Machu Picchu citadel on this unforgettable Inca heritage tour with train transportation. Explore ancient ruins, vibrant markets, and breathtaking landscapes while learning about the rich history of the Inca civilization.",
     type: "Historical Tour",
     category: "History & Culture",
     features: [
@@ -605,6 +1257,112 @@ export const mockTours: Tour[] = [
       address: "San Pedro Train Station, Cusco, Peru",
       instructions: "Meet at the station main entrance 30 minutes early",
       contactNumber: "+51 84-555-0123",
+    },
+  },
+  {
+    id: "TOUR-CUS-002",
+    title: "Cusco City & Sacsayhuamán Archaeological Tour",
+    description:
+      "Explore the historic city of Cusco and its surrounding archaeological sites, including the impressive Sacsayhuamán fortress. Learn about the Inca Empire's legacy while visiting key landmarks, local markets, and enjoying traditional Peruvian cuisine.",
+    type: "Cultural Tour",
+    category: "History & Culture",
+    features: [
+      "Guided tour of Cusco's main square",
+      "Visit to Sacsayhuamán fortress",
+      "Local market exploration",
+      "Traditional Peruvian lunch included",
+      "Small group experience (max 12)",
+    ],
+    restrictions: [
+      "Moderate walking required",
+      "Not wheelchair accessible",
+      "Children must be accompanied by adults",
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1587595431973-160d0d94add1?w=800&h=600&fit=crop",
+    ],
+    duration: "6 hours",
+    pricing: {
+      adult: 75,
+      child: 55,
+      senior: 70,
+      student: 65,
+      currency: "USD",
+    },
+    tickets: {
+      advanceBooking: true,
+      skipTheLine: false,
+      groupDiscounts: true,
+    },
+    location: {
+      city: "Cusco",
+      country: "Peru",
+      address: "Plaza de Armas, Cusco",
+      coordinates: {
+        latitude: -13.1631,
+        longitude: -72.545,
+      },
+    },
+    reviews: {
+      rating: 4.8,
+      totalReviews: 1120,
+      highlights: [
+        "Rich history and culture insights",
+        "Stunning views from Sacsayhuamán",
+        "Friendly and knowledgeable guide",
+      ],
+    },
+    itinerary: [
+      {
+        startTime: "09:00",
+        endTime: "10:30",
+        activities: [
+          "Pickup from central Cusco hotel",
+          "Walking tour of Plaza de Armas",
+          "Visit to Cusco Cathedral and Qorikancha Temple",
+        ],
+      },
+      {
+        startTime: "11:00",
+        endTime: "12:30",
+        activities: [
+          "Drive to Sacsayhuamán archaeological site",
+          "Guided tour of the fortress",
+          "Learn about Inca engineering and history",
+        ],
+      },
+      {
+        startTime: "13:00",
+        endTime: "14:30",
+        activities: [
+          "Traditional Peruvian lunch at local restaurant",
+          "Taste local dishes like ceviche and lomo saltado",
+        ],
+      },
+      {
+        startTime: "15:00",
+        endTime: "16:30",
+        activities: [
+          "Visit San Pedro Market for local crafts",
+          "Explore local food stalls and artisan shops",
+        ],
+      },
+      {
+        startTime: "17:00",
+        endTime: "17:30",
+        activities: [
+          "Return to Cusco city center",
+          "Drop-off at original pickup location",
+          "Tour conclusion",
+        ],
+      },
+    ],
+    cancellationPolicy: "Free cancellation up to 24 hours before the tour",
+    meetingPoint: {
+      address: "Plaza de Armas, Cusco, Peru",
+      instructions: "Meet at the main fountain in the square",
+      contactNumber: "+51 84-555-6789",
     },
   },
 
