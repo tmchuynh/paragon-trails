@@ -315,7 +315,7 @@ export default function HotelsPage() {
                         placeholder="Hotel name or city..."
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
-                        className="pl-10 border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                        className="pl-10 focus:border-muted border-border focus:ring-muted/20 h-8"
                       />
                     </div>
                   </div>
