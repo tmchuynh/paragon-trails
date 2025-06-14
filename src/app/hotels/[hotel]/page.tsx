@@ -23,6 +23,7 @@ import {
 import Image from "next/image";
 import { useParams, useRouter, useSearchParams } from "next/navigation";
 import { useState } from "react";
+import { FaSmoking } from "react-icons/fa";
 import { toast } from "sonner";
 
 export default function HotelDetailPage() {
@@ -126,7 +127,7 @@ export default function HotelDetailPage() {
           Back to Hotels
         </Button>
 
-        <div className="gap-8 grid grid-cols-1 lg:grid-cols-3">
+        <div className="relative gap-8 grid grid-cols-1 lg:grid-cols-3">
           {/* Main Content */}
           <div className="lg:col-span-2">
             {/* Image Gallery */}
@@ -267,18 +268,31 @@ export default function HotelDetailPage() {
                           <p className="text-slate-600 text-sm">
                             {room.description}
                           </p>
-                          <div className="flex items-center gap-4 text-sm">
-                            <span className="flex items-center gap-1">
+                          <div className="text-sm">
+                            <p className="flex items-center gap-1">
                               <Users className="w-3 h-3" />
-                              {room.capacity.adults} adults,{" "}
-                              {room.capacity.children} children
-                            </span>
-                            <span className="flex items-center gap-1">
-                              <Bed className="w-3 h-3" />
-                              {room.capacity.beds
-                                .map((bed) => `${bed.count} ${bed.type}`)
-                                .join(", ")}
-                            </span>
+                              {room.capacity.adults} adult
+                              {room.capacity.adults > 1 ? "s" : ""}
+                              {room.capacity.children !== 0 && (
+                                <span className="-ml-1">
+                                  , {room.capacity.children}{" "}
+                                  {room.capacity.children >= 2
+                                    ? "children"
+                                    : "child"}{" "}
+                                </span>
+                              )}
+                            </p>
+                            <div className="inline-flex items-start gap-1">
+                              <Bed className="mt-1.5 w-3 h-3" />
+                              <div className="flex flex-col">
+                                {room.capacity.beds.map((bed, index) => (
+                                  <p key={index}>
+                                    {bed.count} {bed.type} bed
+                                    {bed.count > 1 ? "s" : ""}
+                                  </p>
+                                ))}
+                              </div>
+                            </div>
                           </div>
                         </div>
 
@@ -371,7 +385,7 @@ export default function HotelDetailPage() {
                     </div>
                   </div>
                   <div className="flex items-start gap-2">
-                    <Badge className="mt-0.5 w-4 h-4 text-red-500" />
+                    <FaSmoking className="mt-0.5 w-4 h-4 text-red-500" />
                     <div>
                       <span className="font-medium">Smoking Policy:</span>
                       <p className="text-slate-600 text-sm">
@@ -386,7 +400,7 @@ export default function HotelDetailPage() {
 
           {/* Booking Sidebar */}
           <div className="lg:col-span-1">
-            <Card className="top-6 sticky">
+            <Card className="top-46 sticky">
               <CardHeader>
                 <CardTitle>Book Your Stay</CardTitle>
               </CardHeader>
