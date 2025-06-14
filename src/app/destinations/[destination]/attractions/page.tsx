@@ -179,12 +179,6 @@ export default function DiscoverAttractionsPage() {
           <div className="flex justify-center items-center gap-2 mt-4">
             <MapPin className="w-5 h-5 text-slate-500" />
             <span className="text-slate-600">{destination.country}</span>
-            <div className="flex items-center gap-1 ml-4">
-              <Star className="w-4 h-4 text-yellow-400 fill-yellow-400" />
-              <span className="text-slate-600">
-                {destination.rating} rating
-              </span>
-            </div>
           </div>
         </div>
 
