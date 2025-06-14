@@ -70,8 +70,6 @@ export interface Destination {
     artsAndCrafts: string[];
     musicAndDance: string[];
     localCustoms: string[];
-    languages: string[];
-    cuisine: string[];
   };
   transportation: {
     airports: string[];
@@ -79,14 +77,6 @@ export interface Destination {
     taxi: boolean;
     rental: boolean;
   };
-  accommodation: {
-    budget: number;
-    midRange: number;
-    luxury: number;
-    currency: string;
-  };
-  rating: number;
-  reviews: number;
   tags: string[];
   coordinates: {
     latitude: number;
@@ -103,5 +93,4 @@ export interface Destination {
     healthRisks: string[];
     emergencyNumber: string;
   };
-  tradition: string[];
 }

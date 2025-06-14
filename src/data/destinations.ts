@@ -264,8 +264,6 @@ export const mockDestinations: Destination[] = [
         "Business card exchange",
         "Quiet public behavior",
       ],
-      languages: ["Japanese", "English"],
-      cuisine: ["Sushi", "Ramen", "Traditional sweets", "Green tea"],
     },
     transportation: {
       airports: ["Narita (NRT)", "Haneda (HND)"],
@@ -273,14 +271,6 @@ export const mockDestinations: Destination[] = [
       taxi: true,
       rental: true,
     },
-    accommodation: {
-      budget: 60,
-      midRange: 120,
-      luxury: 350,
-      currency: "USD",
-    },
-    rating: 4.7,
-    reviews: 12890,
     tags: ["Technology", "Culture", "Food", "Traditional", "Modern"],
     coordinates: {
       latitude: 35.6762,
@@ -297,12 +287,6 @@ export const mockDestinations: Destination[] = [
       healthRisks: ["Air pollution", "Earthquake risk"],
       emergencyNumber: "110",
     },
-    tradition: [
-      "Respect for elders",
-      "Group harmony",
-      "Attention to detail",
-      "Seasonal awareness",
-    ],
   },
   {
     id: "3",
@@ -418,8 +402,6 @@ export const mockDestinations: Destination[] = [
         "Tipping culture",
         "Subway etiquette",
       ],
-      languages: ["English", "Spanish"],
-      cuisine: ["Pizza", "Bagels", "International fusion", "Food trucks"],
     },
     transportation: {
       airports: ["JFK", "LaGuardia (LGA)", "Newark (EWR)"],
@@ -427,14 +409,6 @@ export const mockDestinations: Destination[] = [
       taxi: true,
       rental: true,
     },
-    accommodation: {
-      budget: 100,
-      midRange: 250,
-      luxury: 600,
-      currency: "USD",
-    },
-    rating: 4.6,
-    reviews: 18750,
     tags: ["Urban", "Culture", "Entertainment", "Shopping", "Food"],
     coordinates: {
       latitude: 40.7128,
@@ -451,12 +425,6 @@ export const mockDestinations: Destination[] = [
       healthRisks: ["Air pollution"],
       emergencyNumber: "911",
     },
-    tradition: [
-      "Immigrant heritage",
-      "Work ethic",
-      "Cultural diversity",
-      "Innovation",
-    ],
   },
   {
     id: "4",
@@ -566,14 +534,6 @@ export const mockDestinations: Destination[] = [
       artsAndCrafts: ["Wood carving", "Silver jewelry", "Batik textiles"],
       musicAndDance: ["Gamelan orchestras", "Kecak fire dance", "Legong dance"],
       localCustoms: ["Temple etiquette", "Sarong wearing", "Hindu offerings"],
-      languages: ["Indonesian", "Balinese", "English"],
-      cuisine: [
-        "Nasi Goreng",
-        "Satay",
-        "Rendang",
-        "Gado-Gado",
-        "Tropical fruits",
-      ],
     },
     transportation: {
       airports: ["Ngurah Rai International (DPS)"],
@@ -581,14 +541,6 @@ export const mockDestinations: Destination[] = [
       taxi: true,
       rental: true,
     },
-    accommodation: {
-      budget: 25,
-      midRange: 75,
-      luxury: 250,
-      currency: "USD",
-    },
-    rating: 4.8,
-    reviews: 9340,
     tags: ["Beach", "Spiritual", "Adventure", "Tropical", "Culture"],
     coordinates: {
       latitude: -8.3405,
@@ -605,12 +557,6 @@ export const mockDestinations: Destination[] = [
       healthRisks: ["Tropical diseases", "Sun exposure", "Water quality"],
       emergencyNumber: "112",
     },
-    tradition: [
-      "Hindu spirituality",
-      "Community harmony",
-      "Respect for nature",
-      "Artistic expression",
-    ],
   },
   {
     id: "5",
@@ -727,14 +673,6 @@ export const mockDestinations: Destination[] = [
         "Multicultural respect",
         "Outdoor lifestyle",
       ],
-      languages: ["English", "Afrikaans", "Xhosa", "Zulu"],
-      cuisine: [
-        "Bobotie",
-        "Biltong",
-        "Boerewors",
-        "Cape Malay Curry",
-        "Rooibos Tea",
-      ],
     },
     transportation: {
       airports: ["Cape Town International (CPT)"],
@@ -742,14 +680,6 @@ export const mockDestinations: Destination[] = [
       taxi: true,
       rental: true,
     },
-    accommodation: {
-      budget: 35,
-      midRange: 85,
-      luxury: 200,
-      currency: "USD",
-    },
-    rating: 4.7,
-    reviews: 6789,
     tags: ["Nature", "Wine", "Adventure", "History", "Beach"],
     coordinates: {
       latitude: -33.9249,
@@ -770,12 +700,6 @@ export const mockDestinations: Destination[] = [
       healthRisks: ["UV exposure", "Crime-related injuries"],
       emergencyNumber: "10111",
     },
-    tradition: [
-      "Multicultural harmony",
-      "Wine heritage",
-      "Conservation awareness",
-      "Community resilience",
-    ],
   },
   {
     id: "6",
@@ -910,14 +834,6 @@ export const mockDestinations: Destination[] = [
         "Community gatherings",
         "Respect for elders",
       ],
-      languages: ["Spanish", "Quechua", "Aymara"],
-      cuisine: [
-        "Ceviche",
-        "Lomo Saltado",
-        "Aji de Gallina",
-        "Causa Rellena",
-        "Pachamanca",
-      ],
     },
     transportation: {
       airports: [
@@ -933,14 +849,6 @@ export const mockDestinations: Destination[] = [
       taxi: false,
       rental: false,
     },
-    accommodation: {
-      budget: 20,
-      midRange: 60,
-      luxury: 150,
-      currency: "PEN",
-    },
-    rating: 4.5,
-    reviews: 4321,
     tags: [
       "Historical",
       "Cultural",
@@ -971,12 +879,6 @@ export const mockDestinations: Destination[] = [
       ],
       emergencyNumber: " 105",
     },
-    tradition: [
-      "Respect for Pachamama (Mother Earth)",
-      "Andean spirituality",
-      "Traditional weaving and crafts",
-      "Community festivals and gatherings",
-    ],
   },
   {
     id: "7",
@@ -1088,8 +990,6 @@ export const mockDestinations: Destination[] = [
         "Health consciousness",
         "Outdoor activities",
       ],
-      languages: ["English", "Spanish"],
-      cuisine: ["Mexican", "Korean", "Fusion", "Health food"],
     },
     transportation: {
       airports: ["LAX", "Burbank (BUR)", "Long Beach (LGB)"],
@@ -1097,14 +997,6 @@ export const mockDestinations: Destination[] = [
       taxi: true,
       rental: true,
     },
-    accommodation: {
-      budget: 80,
-      midRange: 200,
-      luxury: 500,
-      currency: "USD",
-    },
-    rating: 4.4,
-    reviews: 8750,
     tags: ["Entertainment", "Beach", "Culture", "Shopping", "Weather"],
     coordinates: {
       latitude: 34.0522,
@@ -1121,12 +1013,6 @@ export const mockDestinations: Destination[] = [
       healthRisks: ["Air pollution", "Sun exposure"],
       emergencyNumber: "911",
     },
-    tradition: [
-      "Entertainment culture",
-      "Beach lifestyle",
-      "Diversity",
-      "Innovation",
-    ],
   },
   {
     id: "8",
@@ -1238,8 +1124,6 @@ export const mockDestinations: Destination[] = [
       artsAndCrafts: ["Islamic art", "Pearl diving", "Traditional crafts"],
       musicAndDance: ["Traditional Arabic music", "Modern entertainment"],
       localCustoms: ["Islamic etiquette", "Dress codes", "Business culture"],
-      languages: ["Arabic", "English"],
-      cuisine: ["Middle Eastern", "International", "Halal food"],
     },
     transportation: {
       airports: ["Dubai International (DXB)", "Al Maktoum International (DWC)"],
@@ -1247,14 +1131,6 @@ export const mockDestinations: Destination[] = [
       taxi: true,
       rental: true,
     },
-    accommodation: {
-      budget: 70,
-      midRange: 180,
-      luxury: 600,
-      currency: "USD",
-    },
-    rating: 4.6,
-    reviews: 12450,
     tags: ["Luxury", "Modern", "Shopping", "Desert", "Business"],
     coordinates: {
       latitude: 25.2048,
@@ -1271,12 +1147,6 @@ export const mockDestinations: Destination[] = [
       healthRisks: ["Heat exposure", "Dehydration"],
       emergencyNumber: "999",
     },
-    tradition: [
-      "Islamic values",
-      "Hospitality",
-      "Business excellence",
-      "Innovation",
-    ],
   },
   {
     id: "9",
@@ -1388,8 +1258,6 @@ export const mockDestinations: Destination[] = [
       artsAndCrafts: ["Theater", "Literature", "Fashion"],
       musicAndDance: ["Rock music", "Classical", "West End musicals"],
       localCustoms: ["Queuing etiquette", "Pub culture", "Politeness"],
-      languages: ["English"],
-      cuisine: ["Traditional British", "Indian", "International"],
     },
     transportation: {
       airports: ["Heathrow (LHR)", "Gatwick (LGW)", "Stansted (STN)"],
@@ -1397,14 +1265,6 @@ export const mockDestinations: Destination[] = [
       taxi: true,
       rental: true,
     },
-    accommodation: {
-      budget: 90,
-      midRange: 180,
-      luxury: 450,
-      currency: "USD",
-    },
-    rating: 4.7,
-    reviews: 16890,
     tags: ["History", "Culture", "Theater", "Royal", "Museums"],
     coordinates: {
       latitude: 51.5074,
@@ -1421,12 +1281,6 @@ export const mockDestinations: Destination[] = [
       healthRisks: ["Seasonal allergies"],
       emergencyNumber: "999",
     },
-    tradition: [
-      "Royal heritage",
-      "Parliamentary democracy",
-      "Literary tradition",
-      "Multiculturalism",
-    ],
   },
   {
     id: "10",
@@ -1538,8 +1392,6 @@ export const mockDestinations: Destination[] = [
         "No chewing gum",
         "Efficient lifestyle",
       ],
-      languages: ["English", "Mandarin", "Malay", "Tamil"],
-      cuisine: ["Hawker food", "Peranakan", "Chinese", "Malay", "Indian"],
     },
     transportation: {
       airports: ["Changi Airport (SIN)"],
@@ -1547,14 +1399,6 @@ export const mockDestinations: Destination[] = [
       taxi: true,
       rental: true,
     },
-    accommodation: {
-      budget: 60,
-      midRange: 150,
-      luxury: 400,
-      currency: "USD",
-    },
-    rating: 4.8,
-    reviews: 11200,
     tags: ["Modern", "Food", "Efficient", "Multicultural", "Clean"],
     coordinates: {
       latitude: 1.3521,
@@ -1571,12 +1415,6 @@ export const mockDestinations: Destination[] = [
       healthRisks: ["Heat and humidity"],
       emergencyNumber: "999",
     },
-    tradition: [
-      "Racial harmony",
-      "Efficient governance",
-      "Education excellence",
-      "Food culture",
-    ],
   },
   {
     id: "11",
@@ -1692,8 +1530,6 @@ export const mockDestinations: Destination[] = [
         "Late-night dining",
         "Outdoor festivals",
       ],
-      languages: ["English", "Spanish"],
-      cuisine: ["Cuban", "Seafood", "International", "Fusion"],
     },
     transportation: {
       airports: [
@@ -1704,14 +1540,6 @@ export const mockDestinations: Destination[] = [
       taxi: true,
       rental: true,
     },
-    accommodation: {
-      budget: 70,
-      midRange: 150,
-      luxury: 400,
-      currency: "USD",
-    },
-    rating: 4.5,
-    reviews: 9800,
     tags: ["Beach", "Nightlife", "Culture", "Art", "Food"],
     coordinates: {
       latitude: 25.7617,
@@ -1731,12 +1559,6 @@ export const mockDestinations: Destination[] = [
       healthRisks: ["Sun exposure", "Water quality"],
       emergencyNumber: "911",
     },
-    tradition: [
-      "Latin American heritage",
-      "Art and music appreciation",
-      "Culinary diversity",
-      "Beach and outdoor lifestyle",
-    ],
   },
   {
     id: "12",
@@ -1864,14 +1686,6 @@ export const mockDestinations: Destination[] = [
         "Sharing food and drink",
         "Respect for elders",
       ],
-      languages: ["Portuguese", "English"],
-      cuisine: [
-        "Brazilian barbecue (Churrasco)",
-        "Seafood stew (Moqueca)",
-        "Pork and beans (Feijoada)",
-        "Tropical fruits",
-        "Coconut water",
-      ],
     },
     transportation: {
       airports: [
@@ -1882,14 +1696,7 @@ export const mockDestinations: Destination[] = [
       taxi: true,
       rental: true,
     },
-    accommodation: {
-      budget: 50,
-      midRange: 100,
-      luxury: 300,
-      currency: "USD",
-    },
-    rating: 4.4,
-    reviews: 7650,
+
     tags: ["Culture", "Business", "Food", "Nightlife", "Diversity"],
     coordinates: {
       latitude: -23.5505,
@@ -1910,12 +1717,6 @@ export const mockDestinations: Destination[] = [
       healthRisks: ["Zika virus", "Dengue fever", "Crime-related risks"],
       emergencyNumber: "190",
     },
-    tradition: [
-      "Carnival celebrations",
-      "Culinary traditions",
-      "Samba music and dance",
-      "Coffee production",
-    ],
   },
   {
     id: "13",
@@ -2039,13 +1840,6 @@ export const mockDestinations: Destination[] = [
         "Punctuality",
         "Recycling and environmental consciousness",
       ],
-      languages: ["English", "French"],
-      cuisine: [
-        "Seafood",
-        "Asian fusion",
-        "Farm-to-table",
-        "International cuisine",
-      ],
     },
     transportation: {
       airports: [
@@ -2056,14 +1850,7 @@ export const mockDestinations: Destination[] = [
       taxi: true,
       rental: true,
     },
-    accommodation: {
-      budget: 70,
-      midRange: 150,
-      luxury: 350,
-      currency: "USD",
-    },
-    rating: 4.6,
-    reviews: 8900,
+
     tags: ["Nature", "Adventure", "Culture", "Food", "Sustainability"],
     coordinates: {
       latitude: 49.2827,
@@ -2083,12 +1870,6 @@ export const mockDestinations: Destination[] = [
       healthRisks: ["None significant"],
       emergencyNumber: "911",
     },
-    tradition: [
-      "Indigenous cultures",
-      "Environmental stewardship",
-      "Cultural festivals",
-      "Outdoor recreational activities",
-    ],
   },
   {
     id: "14",
@@ -2202,8 +1983,6 @@ export const mockDestinations: Destination[] = [
         "Bowing as a greeting",
         "Removing shoes indoors",
       ],
-      languages: ["Korean", "English"],
-      cuisine: ["Kimchi", "Bibimbap", "Korean BBQ", "Tteokbokki", "Sushi"],
     },
     transportation: {
       airports: ["Incheon International (ICN)", "Gimpo International (GMP)"],
@@ -2211,14 +1990,7 @@ export const mockDestinations: Destination[] = [
       taxi: true,
       rental: true,
     },
-    accommodation: {
-      budget: 50,
-      midRange: 100,
-      luxury: 300,
-      currency: "USD",
-    },
-    rating: 4.7,
-    reviews: 10200,
+
     tags: ["Technology", "Culture", "Food", "Shopping", "History"],
     coordinates: {
       latitude: 37.5665,
@@ -2235,12 +2007,6 @@ export const mockDestinations: Destination[] = [
       healthRisks: ["Air pollution", "Heat exposure"],
       emergencyNumber: "112",
     },
-    tradition: [
-      "Respect for elders",
-      "Family values",
-      "Traditional music and dance",
-      "Seasonal festivals",
-    ],
   },
   {
     id: "15",
@@ -2352,8 +2118,6 @@ export const mockDestinations: Destination[] = [
       artsAndCrafts: ["Folk art", "Music production", "Film industry"],
       musicAndDance: ["Hip-hop", "Country", "Blues", "Gospel"],
       localCustoms: ["Southern manners", "Hospitality", "Community spirit"],
-      languages: ["English"],
-      cuisine: ["Southern comfort food", "BBQ", "Soul food", "International"],
     },
     transportation: {
       airports: ["Hartsfield-Jackson Atlanta International (ATL)"],
@@ -2361,14 +2125,7 @@ export const mockDestinations: Destination[] = [
       taxi: true,
       rental: true,
     },
-    accommodation: {
-      budget: 70,
-      midRange: 150,
-      luxury: 350,
-      currency: "USD",
-    },
-    rating: 4.3,
-    reviews: 5670,
+
     tags: ["History", "Culture", "Business", "Southern", "Music"],
     coordinates: {
       latitude: 33.749,
@@ -2385,11 +2142,5 @@ export const mockDestinations: Destination[] = [
       healthRisks: ["Seasonal allergies", "Heat in summer"],
       emergencyNumber: "911",
     },
-    tradition: [
-      "Civil rights legacy",
-      "Southern culture",
-      "Hospitality",
-      "Music heritage",
-    ],
   },
 ];
