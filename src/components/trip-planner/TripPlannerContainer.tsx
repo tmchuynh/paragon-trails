@@ -8,9 +8,9 @@ import { format } from "date-fns";
 import { Calendar, Clock, MapPin, Users } from "lucide-react";
 import { useEffect, useState } from "react";
 import ActivityPanel from "./ActivityPanel";
-import TripSetup from "./TripSetup";
 import DayPlanner from "./DayPlanner";
 import TripExport from "./TripExport";
+import TripSetup from "./TripSetup";
 
 export default function TripPlannerContainer() {
   const [tripPlan, setTripPlan] = useState<TripPlan | null>(null);
