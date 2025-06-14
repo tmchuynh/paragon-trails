@@ -45,28 +45,24 @@ export const ThemeToggle = (): JSX.Element | null => {
       <Toggle
         aria-label="Toggle theme"
         onClick={toggleTheme}
-        className="flex justify-center items-center bg-tertiary hover:bg-secondary dark:bg-secondary dark:hover:bg-primary text-tertiary-foreground hover:text-secondary-foreground dark:hover:text-primary-foreground dark:text-secondary-foreground"
+        className="flex justify-center items-center bg-transparent data-[state=on]:bg-transparent dark:hover:bg-muted shadow-none rounded-lg w-9 h-9 text-accent hover:text-accent dark:text-accent transition-all duration-200 focus-visible:outline-none"
         pressed={currentTheme === "dark"}
       >
         {currentTheme === "dark" ? (
           <>
-            <p className="sr-only">Toggle to light mode</p>
+            <span className="sr-only">Toggle to light mode</span>
             <FiMoon className="w-4 h-4" />
           </>
         ) : (
           <>
-            <p className="sr-only">Toggle to dark mode</p>
+            <span className="sr-only">Toggle to dark mode</span>
             <FiSun className="w-4 h-4" />
           </>
         )}
       </Toggle>
     ),
-    [currentTheme, toggleTheme],
+    [currentTheme, toggleTheme]
   );
 
-  return (
-    <div className="flex items-center mx-4">
-      {mounted ? <div className="flex items-center">{toggleButton}</div> : null}
-    </div>
-  );
+  return mounted ? toggleButton : null;
 };
