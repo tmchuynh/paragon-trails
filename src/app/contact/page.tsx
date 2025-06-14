@@ -204,6 +204,7 @@ export default function ContactUsPage() {
                             <SelectItem
                               key={dept.department}
                               value={dept.department}
+                              variant="classic"
                             >
                               <HoverCard>
                                 <HoverCardTrigger asChild>
@@ -248,7 +249,7 @@ export default function ContactUsPage() {
                         <SelectValue />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="normal">
+                        <SelectItem value="normal" variant="classic">
                           <div className="flex items-center gap-2">
                             <Badge variant="secondary" size="xs">
                               Normal
@@ -256,7 +257,7 @@ export default function ContactUsPage() {
                             <span>Standard inquiry</span>
                           </div>
                         </SelectItem>
-                        <SelectItem value="urgent">
+                        <SelectItem value="urgent" variant="classic">
                           <div className="flex items-center gap-2">
                             <Badge variant="warning" size="xs">
                               Urgent
@@ -264,7 +265,7 @@ export default function ContactUsPage() {
                             <span>Needs quick response</span>
                           </div>
                         </SelectItem>
-                        <SelectItem value="emergency">
+                        <SelectItem value="emergency" variant="classic">
                           <div className="flex items-center gap-2">
                             <Badge variant="destructive" size="xs">
                               Emergency
