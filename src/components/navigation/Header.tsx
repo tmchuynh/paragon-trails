@@ -34,7 +34,7 @@ export default function Header() {
   const cartItemsCount = cartState.items.reduce((total, item) => total + item.quantity, 0);
 
   return (
-    <header className="top-0 z-50 fixed inset-x-0 bg-white/95 shadow-sm backdrop-blur-sm w-full">
+    <header className="top-0 z-50 fixed inset-x-0 shadow-sm backdrop-blur-sm w-full">
       {/* Top bar */}
       <div className="bg-black px-4 py-2 text-white">
         <div className="flex justify-between items-center mx-auto max-w-7xl text-sm">
@@ -46,14 +46,14 @@ export default function Header() {
             <Button
               variant={"link"}
               size={"sm"}
-              className="flex items-center gap-1 m-0 p-0 h-fit text-background text-xs hover:text-sky-300 transition-colors"
+              className="flex items-center gap-1 m-0 p-0 h-fit text-white text-xs hover:text-sky-300 transition-colors"
               onClick={() => router.push("/contact")}
             >
               <Phone className="w-4 h-4" />
               <span className="sm:inline hidden">Support</span>
             </Button>
             <DropdownMenu>
-              <DropdownMenuTrigger className="flex items-center gap-1 m-0 p-0 h-fit text-background text-xs hover:text-sky-300 uppercase transition-colors">
+              <DropdownMenuTrigger className="flex items-center gap-1 m-0 p-0 h-fit text-white text-xs hover:text-sky-300 uppercase transition-colors">
                 <FaDollarSign className="w-4 h-4" />
                 <span className="sm:inline hidden">
                   {isLoading ? "Loading..." : currentCurrency.code}
@@ -75,7 +75,7 @@ export default function Header() {
                       <span>
                         {currency.code} - {currency.name}
                       </span>
-                      <span className="text-gray-500">{currency.symbol}</span>
+                      <span className="text-tertiary">{currency.symbol}</span>
                     </div>
                   </DropdownMenuItem>
                 ))}
@@ -84,7 +84,7 @@ export default function Header() {
             <Button
               variant={"link"}
               size={"sm"}
-              className="flex items-center gap-1 m-0 p-0 h-fit text-background text-xs hover:text-sky-300 transition-colors"
+              className="flex items-center gap-1 m-0 p-0 h-fit text-white text-xs hover:text-sky-300 transition-colors"
               onClick={() => router.push("/login")}
             >
               <UserIcon className="w-4 h-4" />
@@ -104,7 +104,7 @@ export default function Header() {
             <span className="sr-only">ParagonTrails</span>
             <div className="flex items-center gap-2">
               <div className="bg-gradient-to-r from-blue-600 to-teal-500 p-2 rounded-lg">
-                <GlobeAltIcon className="w-6 h-6 text-white" />
+                <GlobeAltIcon className="w-6 h-6" />
               </div>
               <span className="font-bold text-gray-800 text-xl">
                 ParagonTrails
@@ -130,7 +130,7 @@ export default function Header() {
               <DropdownMenu key={item.label}>
                 <DropdownMenuTrigger asChild>
                   <button
-                    className="flex items-center gap-1 font-medium text-gray-700 text-sm hover:text-gray-900 transition-colors"
+                    className="flex items-center gap-1 font-medium text-sm hover:text-primary transition-colors"
                     type="button"
                   >
                     {item.label}
@@ -151,7 +151,7 @@ export default function Header() {
               <Link
                 key={item.label}
                 href={item.href}
-                className="font-medium text-gray-700 text-sm hover:text-gray-900 transition-colors"
+                className="font-medium text-sm hover:text-primary transition-colors"
               >
                 {item.label}
               </Link>
@@ -163,14 +163,14 @@ export default function Header() {
             <Button
               variant="ghost"
               size="sm"
-              className="text-gray-600 hover:text-gray-900"
+              className="text-gray-600 hover:text-primary"
             >
               <Search className="w-4 h-4" />
             </Button>
             <Button
               variant="ghost"
               size="sm"
-              className="text-gray-600 hover:text-gray-900"
+              className="text-gray-600 hover:text-primary"
             >
               <Heart className="w-4 h-4" />
             </Button>
@@ -178,19 +178,19 @@ export default function Header() {
               variant="ghost"
               size="sm"
               onClick={() => router.push("/my-cart")}
-              className="relative text-gray-600 hover:text-gray-900"
+              className="relative text-gray-600 hover:text-primary"
             >
               <ShoppingCart className="w-4 h-4" />
               {cartItemsCount > 0 && (
-                <span className="top-0 -right-1 absolute flex justify-center items-center bg-blue-600 rounded-full w-5 h-5 font-bold text-white text-xs">
-                  {cartItemsCount > 99 ? '99+' : cartItemsCount}
+                <span className="top-0 -right-1 absolute flex justify-center items-center bg-blue-600 rounded-full w-5 h-5 font-bold text-xs">
+                  {cartItemsCount > 99 ? "99+" : cartItemsCount}
                 </span>
               )}
             </Button>
             <Button
               variant="ghost"
               size="sm"
-              className="text-gray-600 hover:text-gray-900"
+              className="text-gray-600 hover:text-primary"
             >
               <User className="w-4 h-4" />
             </Button>
@@ -208,7 +208,7 @@ export default function Header() {
           <div className="flex justify-between items-center">
             <div className="flex items-center gap-2">
               <div className="bg-gradient-to-r from-blue-600 to-teal-500 p-2 rounded-lg">
-                <GlobeAltIcon className="w-5 h-5 text-white" />
+                <GlobeAltIcon className="w-5 h-5" />
               </div>
               <span className="font-bold text-gray-800 text-lg">
                 ParagonTrails
@@ -217,7 +217,7 @@ export default function Header() {
             <button
               type="button"
               onClick={() => setMobileMenuOpen(false)}
-              className="-m-2.5 p-2.5 rounded-md text-gray-700"
+              className="-m-2.5 p-2.5 rounded-md"
             >
               <span className="sr-only">Close menu</span>
               <XMarkIcon aria-hidden="true" className="size-6" />
@@ -230,7 +230,7 @@ export default function Header() {
                   item.dropdown ? (
                     <div key={item.label}>
                       <details>
-                        <summary className="flex justify-between items-center hover:bg-gray-50 -mx-3 px-3 py-3 rounded-lg font-medium text-base text-gray-900 cursor-pointer">
+                        <summary className="flex justify-between items-center hover:bg-gray-50 -mx-3 px-3 py-3 rounded-lg font-medium text-base text-primary cursor-pointer">
                           {item.label}
                           <ChevronDownIcon className="inline ml-2 w-4 h-4" />
                         </summary>
@@ -251,7 +251,7 @@ export default function Header() {
                     <Link
                       key={item.label}
                       href={item.href}
-                      className="block hover:bg-gray-50 -mx-3 px-3 py-3 rounded-lg font-medium text-base text-gray-900"
+                      className="block hover:bg-gray-50 -mx-3 px-3 py-3 rounded-lg font-medium text-base text-primary"
                     >
                       {item.label}
                     </Link>
