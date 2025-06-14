@@ -1,5 +1,6 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
 import { navbarItems } from "@/lib/constants/info/navigation";
 import { GlobeAltIcon } from "@heroicons/react/20/solid";
 import {
@@ -12,8 +13,39 @@ import {
   Youtube,
 } from "lucide-react";
 import Link from "next/link";
+import { useState } from "react";
+import { toast } from "sonner";
 
 export default function Footer() {
+  const [email, setEmail] = useState("");
+  const [isSubscribed, setIsSubscribed] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
+
+  const handleSubscribe = async (e: React.FormEvent) => {
+    e.preventDefault();
+
+    if (!email) {
+      toast.error("Please enter your email address");
+      return;
+    }
+
+    // Basic email validation
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+      toast.error("Please enter a valid email address");
+      return;
+    }
+
+    setIsLoading(true);
+
+    // Simulate API call
+    setTimeout(() => {
+      setIsSubscribed(true);
+      setIsLoading(false);
+      toast.success("Successfully subscribed to our newsletter!");
+    }, 1500);
+  };
+
   const getGroupedFooterLinks = () => {
     return navbarItems
       .filter((item) => item.dropdown) // Only use dropdown items for grouped sections
@@ -29,29 +61,6 @@ export default function Footer() {
 
   return (
     <footer className="bg-gray-900 text-white">
-      {/* Newsletter Section */}
-      <div className="bg-gradient-to-r from-blue-600 to-teal-500 py-12">
-        <div className="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl text-center">
-          <h3 className="mb-4 font-bold text-2xl text-white md:text-3xl">
-            Subscribe to Our Newsletter
-          </h3>
-          <p className="mx-auto mb-6 max-w-2xl text-white/90">
-            Get the latest travel deals, destination guides, and exclusive
-            offers delivered to your inbox.
-          </p>
-          <div className="flex sm:flex-row flex-col justify-center items-center gap-4 mx-auto max-w-md">
-            <Input
-              type="email"
-              placeholder="Enter your email"
-              className="flex-1 bg-white text-gray-900"
-            />
-            <Button className="bg-black hover:bg-gray-800 text-white">
-              Subscribe
-            </Button>
-          </div>
-        </div>
-      </div>
-
       {/* Main Footer Content */}
       <div className="py-16">
         <div className="gap-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
@@ -103,7 +112,7 @@ export default function Footer() {
             </div>
           ))}
 
-          <div>
+          <div className="xl:col-span-2">
             <h4 className="mb-4 font-semibold text-white">More</h4>
             <ul className="space-y-3">
               {additionalLinks.map((link) => (
@@ -141,6 +150,41 @@ export default function Footer() {
                 </Link>
               </li>
             </ul>
+          </div>
+
+          <div className="xl:col-span-3">
+            <div className="mx-auto px-6 lg:px-8 max-w-7xl">
+              <h2 className="max-w-2xl font-semibold text-3xl text-balance sm:text-4xl tracking-tight">
+                Want product news and updates? Sign up for our newsletter.
+              </h2>
+              <form className="mt-10 max-w-md">
+                <div className="flex gap-x-4">
+                  <label htmlFor="email-address" className="sr-only">
+                    Email address
+                  </label>
+                  <input
+                    id="email-address"
+                    name="email"
+                    type="email"
+                    required
+                    placeholder="Enter your email"
+                    autoComplete="email"
+                    className="block bg-white px-3 py-1.5 rounded-md w-full sm:max-w-md text-base text-gray-900 sm:text-sm/6 placeholder:text-gray-400 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600"
+                  />
+                  <Button type="submit">Subscribe</Button>
+                </div>
+                <p className="mt-4 text-sm/6">
+                  We care about your data. Read our{" "}
+                  <a
+                    href="#"
+                    className="font-semibold text-indigo-600 hover:text-indigo-500"
+                  >
+                    privacy&nbsp;policy
+                  </a>
+                  .
+                </p>
+              </form>
+            </div>
           </div>
         </div>
       </div>
