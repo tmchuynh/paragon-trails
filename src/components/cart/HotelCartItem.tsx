@@ -98,9 +98,9 @@ export default function HotelCartItem({
             {/* Rooms and Guests */}
             <div className="flex sm:flex-row flex-col gap-4 mb-4">
               <div className="flex items-center gap-2">
-                <label className="font-medium text-slate-700 text-sm dark:text-slate-300">
+                <Label className="font-medium text-slate-700 text-sm dark:text-slate-300">
                   Rooms:
-                </label>
+                </Label>
                 <div className="flex items-center gap-1">
                   <Button
                     variant="outline"
@@ -124,10 +124,10 @@ export default function HotelCartItem({
               </div>
 
               <div className="flex items-center gap-2">
-                <label className="font-medium text-slate-700 text-sm dark:text-slate-300">
+                <Label className="font-medium text-slate-700 text-sm dark:text-slate-300">
                   <Users className="inline mr-1 w-3 h-3" />
                   Guests:
-                </label>
+                </Label>
                 <div className="flex items-center gap-1">
                   <Button
                     variant="outline"
