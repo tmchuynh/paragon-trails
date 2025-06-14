@@ -97,7 +97,7 @@ export const mockAttractions: Attraction[] = [
 
   // Tokyo, Japan Attractions
   {
-    id: "ATT009",
+    id: "ATT309",
     name: "Tokyo Skytree",
     type: "Tower",
     category: "Modern Landmark",
@@ -665,7 +665,7 @@ export const mockAttractions: Attraction[] = [
 
   // Cape Town, South Africa Attractions
   {
-    id: "ATT009",
+    id: "ATT059",
     name: "Table Mountain",
     type: "Mountain",
     category: "Natural Landmark",
