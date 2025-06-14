@@ -207,10 +207,10 @@ export default function DiscoverAttractionsPage() {
             <div className="space-y-2">
               <label className="font-medium text-sm">Type</label>
               <Select value={selectedType} onValueChange={setSelectedType}>
-                <SelectTrigger>
+                <SelectTrigger className="w-full">
                   <SelectValue placeholder="Select type" />
                 </SelectTrigger>
-                <SelectContent>
+                <SelectContent className="w-full max-h-60">
                   {types.map((type) => (
                     <SelectItem key={type.value} value={type.value}>
                       {type.label}
@@ -226,10 +226,10 @@ export default function DiscoverAttractionsPage() {
                 value={selectedCategory}
                 onValueChange={setSelectedCategory}
               >
-                <SelectTrigger>
+                <SelectTrigger className="w-full">
                   <SelectValue placeholder="Select category" />
                 </SelectTrigger>
-                <SelectContent>
+                <SelectContent className="w-full max-h-60">
                   {categories.map((category) => (
                     <SelectItem key={category.value} value={category.value}>
                       {category.label}
@@ -242,10 +242,10 @@ export default function DiscoverAttractionsPage() {
             <div className="space-y-2">
               <label className="font-medium text-sm">Sort By</label>
               <Select value={sortBy} onValueChange={setSortBy}>
-                <SelectTrigger>
+                <SelectTrigger className="w-full">
                   <SelectValue placeholder="Sort by" />
                 </SelectTrigger>
-                <SelectContent>
+                <SelectContent className="w-full max-h-60">
                   <SelectItem value="name">Name (A-Z)</SelectItem>
                   <SelectItem value="price">Price (Low to High)</SelectItem>
                   <SelectItem value="rating">Rating (High to Low)</SelectItem>

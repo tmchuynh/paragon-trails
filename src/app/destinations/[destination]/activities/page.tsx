@@ -203,10 +203,10 @@ export default function BookActivitiesPage() {
                 value={selectedCategory}
                 onValueChange={setSelectedCategory}
               >
-                <SelectTrigger>
+                <SelectTrigger className="w-full">
                   <SelectValue placeholder="Select category" />
                 </SelectTrigger>
-                <SelectContent>
+                <SelectContent className="w-full max-h-60">
                   {categories.map((category) => (
                     <SelectItem key={category.value} value={category.value}>
                       {category.label}
@@ -222,10 +222,10 @@ export default function BookActivitiesPage() {
                 value={selectedDifficulty}
                 onValueChange={setSelectedDifficulty}
               >
-                <SelectTrigger>
+                <SelectTrigger className="w-full">
                   <SelectValue placeholder="Select difficulty" />
                 </SelectTrigger>
-                <SelectContent>
+                <SelectContent className="w-full max-h-60">
                   {difficulties.map((difficulty) => (
                     <SelectItem key={difficulty.value} value={difficulty.value}>
                       {difficulty.label}
@@ -238,10 +238,10 @@ export default function BookActivitiesPage() {
             <div className="space-y-2">
               <label className="font-medium text-sm">Sort By</label>
               <Select value={sortBy} onValueChange={setSortBy}>
-                <SelectTrigger>
+                <SelectTrigger className="w-full">
                   <SelectValue placeholder="Sort by" />
                 </SelectTrigger>
-                <SelectContent>
+                <SelectContent className="w-full max-h-60">
                   <SelectItem value="name">Name (A-Z)</SelectItem>
                   <SelectItem value="price">Price (Low to High)</SelectItem>
                   <SelectItem value="difficulty">Difficulty</SelectItem>
