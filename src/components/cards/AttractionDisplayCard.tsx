@@ -1,7 +1,6 @@
 "use client";
 
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { useCurrency } from "@/context/CurrencyContext";
 import { Attraction } from "@/lib/interfaces/services/attractions";
@@ -80,7 +79,7 @@ export default function AttractionDisplayCard({
       </div>
 
       <div className="p-6">
-        <h3 className="mb-2 font-bold text-slate-900 text-xl dark:text-white">
+        <h3 className="font-bold text-slate-900 text-xl dark:group-hover:text-blue-400 dark:text-white group-hover:text-blue-600 transition-colors">
           {attraction.name}
         </h3>
 
@@ -132,7 +131,6 @@ export default function AttractionDisplayCard({
               Category: {attraction.category}
             </p>
           </div>
-          <Button size="sm">Explore</Button>
         </div>
       </div>
     </Card>
