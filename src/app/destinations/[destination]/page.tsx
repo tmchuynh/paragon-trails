@@ -115,7 +115,7 @@ export default function DestinationDetailsPage() {
               </SelectTrigger>
               <SelectContent>
                 {mockDestinations.map((dest) => (
-                  <SelectItem key={dest.id} value={dest.id}>
+                  <SelectItem key={dest.id} value={dest.id} variant="classic">
                     {dest.name}, {dest.country}
                   </SelectItem>
                 ))}

@@ -336,12 +336,22 @@ export default function DestinationsPage() {
                     value={selectedCountry}
                     onValueChange={setSelectedCountry}
                   >
-                    <SelectTrigger className="pl-10 border border-border w-full">
+                    <SelectTrigger
+                      className="pl-10 border border-border w-full"
+                      variant="professional"
+                    >
                       <SelectValue placeholder="Select country" />
                     </SelectTrigger>
-                    <SelectContent className="w-full max-h-60">
+                    <SelectContent
+                      className="w-full max-h-60"
+                      variant="professional"
+                    >
                       {countries.map((country) => (
-                        <SelectItem key={country.value} value={country.value}>
+                        <SelectItem
+                          key={country.value}
+                          value={country.value}
+                          variant="classic"
+                        >
                           {country.label}
                         </SelectItem>
                       ))}
@@ -360,9 +370,16 @@ export default function DestinationsPage() {
                   <SelectTrigger className="border border-border w-full">
                     <SelectValue placeholder="Select continent" />
                   </SelectTrigger>
-                  <SelectContent className="w-full max-h-60">
+                  <SelectContent
+                    className="w-full max-h-60"
+                    variant="professional"
+                  >
                     {continents.map((continent) => (
-                      <SelectItem key={continent.value} value={continent.value}>
+                      <SelectItem
+                        key={continent.value}
+                        value={continent.value}
+                        variant="classic"
+                      >
                         {continent.label}
                       </SelectItem>
                     ))}
@@ -380,9 +397,16 @@ export default function DestinationsPage() {
                   <SelectTrigger className="border border-border w-full">
                     <SelectValue placeholder="Select region" />
                   </SelectTrigger>
-                  <SelectContent className="w-full max-h-60">
+                  <SelectContent
+                    className="w-full max-h-60"
+                    variant="professional"
+                  >
                     {regions.map((region) => (
-                      <SelectItem key={region.value} value={region.value}>
+                      <SelectItem
+                        key={region.value}
+                        value={region.value}
+                        variant="classic"
+                      >
                         {region.label}
                       </SelectItem>
                     ))}
@@ -443,11 +467,15 @@ export default function DestinationsPage() {
                         <SelectTrigger className="border border-border w-full">
                           <SelectValue placeholder="Select language" />
                         </SelectTrigger>
-                        <SelectContent className="w-full max-h-60">
+                        <SelectContent
+                          className="w-full max-h-60"
+                          variant="professional"
+                        >
                           {languages.map((language) => (
                             <SelectItem
                               key={language.value}
                               value={language.value}
+                              variant="classic"
                             >
                               {language.label}
                             </SelectItem>
@@ -466,11 +494,15 @@ export default function DestinationsPage() {
                         <SelectTrigger className="border border-border w-full">
                           <SelectValue placeholder="Select cuisine" />
                         </SelectTrigger>
-                        <SelectContent className="w-full max-h-60">
+                        <SelectContent
+                          className="w-full max-h-60"
+                          variant="professional"
+                        >
                           {cuisines.map((cuisine) => (
                             <SelectItem
                               key={cuisine.value}
                               value={cuisine.value}
+                              variant="classic"
                             >
                               {cuisine.label}
                             </SelectItem>
@@ -489,9 +521,16 @@ export default function DestinationsPage() {
                         <SelectTrigger className="border border-border w-full">
                           <SelectValue placeholder="Select safety level" />
                         </SelectTrigger>
-                        <SelectContent className="w-full max-h-60">
+                        <SelectContent
+                          className="w-full max-h-60"
+                          variant="professional"
+                        >
                           {safetyLevels.map((level) => (
-                            <SelectItem key={level.value} value={level.value}>
+                            <SelectItem
+                              key={level.value}
+                              value={level.value}
+                              variant="classic"
+                            >
                               {level.label}
                             </SelectItem>
                           ))}
@@ -509,9 +548,16 @@ export default function DestinationsPage() {
                         <SelectTrigger className="border border-border w-full">
                           <SelectValue placeholder="Select tag" />
                         </SelectTrigger>
-                        <SelectContent className="w-full max-h-60">
+                        <SelectContent
+                          className="w-full max-h-60"
+                          variant="professional"
+                        >
                           {tags.map((tag) => (
-                            <SelectItem key={tag.value} value={tag.value}>
+                            <SelectItem
+                              key={tag.value}
+                              value={tag.value}
+                              variant="classic"
+                            >
                               {tag.label}
                             </SelectItem>
                           ))}
@@ -529,10 +575,17 @@ export default function DestinationsPage() {
                         <SelectTrigger className="border border-border w-full">
                           <SelectValue placeholder="Visa requirement" />
                         </SelectTrigger>
-                        <SelectContent className="w-full max-h-60">
-                          <SelectItem value="all">Any</SelectItem>
-                          <SelectItem value="true">Visa Required</SelectItem>
-                          <SelectItem value="false">
+                        <SelectContent
+                          className="w-full max-h-60"
+                          variant="professional"
+                        >
+                          <SelectItem value="all" variant="classic">
+                            Any
+                          </SelectItem>
+                          <SelectItem value="true" variant="classic">
+                            Visa Required
+                          </SelectItem>
+                          <SelectItem value="false" variant="classic">
                             No Visa Required
                           </SelectItem>
                         </SelectContent>
@@ -549,11 +602,15 @@ export default function DestinationsPage() {
                         <SelectTrigger className="border border-border w-full">
                           <SelectValue placeholder="Select timezone" />
                         </SelectTrigger>
-                        <SelectContent className="w-full max-h-60">
+                        <SelectContent
+                          className="w-full max-h-60"
+                          variant="professional"
+                        >
                           {timezones.map((timezone) => (
                             <SelectItem
                               key={timezone.value}
                               value={timezone.value}
+                              variant="classic"
                             >
                               {timezone.label}
                             </SelectItem>
@@ -622,12 +679,25 @@ export default function DestinationsPage() {
                     <SelectTrigger className="border border-border w-full md:w-20">
                       <SelectValue />
                     </SelectTrigger>
-                    <SelectContent className="w-full max-h-60">
-                      <SelectItem value="4">4</SelectItem>
-                      <SelectItem value="8">8</SelectItem>
-                      <SelectItem value="12">12</SelectItem>
-                      <SelectItem value="16">16</SelectItem>
-                      <SelectItem value="24">24</SelectItem>
+                    <SelectContent
+                      className="w-full max-h-60"
+                      variant="professional"
+                    >
+                      <SelectItem value="4" variant="classic">
+                        4
+                      </SelectItem>
+                      <SelectItem value="8" variant="classic">
+                        8
+                      </SelectItem>
+                      <SelectItem value="12" variant="classic">
+                        12
+                      </SelectItem>
+                      <SelectItem value="16" variant="classic">
+                        16
+                      </SelectItem>
+                      <SelectItem value="24" variant="classic">
+                        24
+                      </SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
@@ -639,12 +709,17 @@ export default function DestinationsPage() {
                     <SelectTrigger className="border border-border w-full md:w-48">
                       <SelectValue />
                     </SelectTrigger>
-                    <SelectContent className="w-full max-h-60">
-                      <SelectItem value="name">Name (A-Z)</SelectItem>
-                      <SelectItem value="price-low">
+                    <SelectContent
+                      className="w-full max-h-60"
+                      variant="professional"
+                    >
+                      <SelectItem value="name" variant="classic">
+                        Name (A-Z)
+                      </SelectItem>
+                      <SelectItem value="price-low" variant="classic">
                         Budget: Low to High
                       </SelectItem>
-                      <SelectItem value="price-high">
+                      <SelectItem value="price-high" variant="classic">
                         Budget: High to Low
                       </SelectItem>
                     </SelectContent>
