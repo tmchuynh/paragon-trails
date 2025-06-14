@@ -135,7 +135,11 @@ export default function ActivityDetailsPage() {
               </SelectTrigger>
               <SelectContent>
                 {mockActivities.map((activity) => (
-                  <SelectItem key={activity.id} value={activity.id}>
+                  <SelectItem
+                    key={activity.id}
+                    value={activity.id}
+                    variant="classic"
+                  >
                     {activity.name}
                   </SelectItem>
                 ))}
