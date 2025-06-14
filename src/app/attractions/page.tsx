@@ -331,7 +331,7 @@ export default function AttractionsPage() {
         <div className="gap-8 grid lg:grid-cols-4">
           {/* Filters Sidebar */}
           <div className="space-y-6 lg:col-span-1">
-            <Card>
+            <Card className="p-0">
               <div className="p-6">
                 <div className="flex items-center gap-2 mb-4">
                   <Filter className="w-5 h-5" />
