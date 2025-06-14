@@ -731,7 +731,7 @@ export default function HotelDetailPage() {
                       max="10"
                       value={guests}
                       onChange={(e) => setGuests(parseInt(e.target.value) || 1)}
-                      className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                      className="focus:border-muted border-border focus:ring-muted/20 h-8"
                     />
                     {!canAccommodateGuests() && (
                       <p className="mt-1 text-red-500 text-sm">
@@ -747,7 +747,7 @@ export default function HotelDetailPage() {
                       min="1"
                       max="10"
                       value={quantity}
-                      className="border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                      className="focus:border-muted border-border focus:ring-muted/20 h-8"
                       onChange={(e) =>
                         setQuantity(parseInt(e.target.value) || 1)
                       }
