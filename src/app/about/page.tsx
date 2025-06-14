@@ -218,7 +218,7 @@ export default function AboutParagonTrails() {
               </p>
             </div>
 
-            <div className="gap-8 grid md:grid-cols-2">
+            <div className="gap-8 grid grid-cols-1 md:grid-cols-2">
               {commitments.map((commitment, index) => (
                 <div
                   key={index}
