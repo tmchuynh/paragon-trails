@@ -10,6 +10,7 @@ import {
   Star,
   Users,
 } from "lucide-react";
+import { Button } from "react-day-picker";
 
 export default function AboutParagonTrails() {
   const commitments = [
@@ -333,13 +334,13 @@ export default function AboutParagonTrails() {
               </p>
 
               <div className="flex sm:flex-row flex-col justify-center gap-4">
-                <button className="inline-flex items-center gap-2 bg-white hover:bg-blue-50 px-8 py-3 rounded-lg font-semibold transition-colors duration-200">
+                <Button className="inline-flex items-center gap-2 bg-white hover:bg-blue-50 px-8 py-3 rounded-lg font-semibold transition-colors duration-200">
                   Start Planning
                   <ArrowRight className="w-4 h-4" />
-                </button>
-                <button className="inline-flex items-center gap-2 hover:bg-white/10 px-8 py-3 border border-white rounded-lg font-semibold text-white transition-colors duration-200">
+                </Button>
+                <Button className="inline-flex items-center gap-2 hover:bg-white/10 px-8 py-3 border border-white rounded-lg font-semibold text-white transition-colors duration-200">
                   Learn More
-                </button>
+                </Button>
               </div>
             </div>
           </div>
