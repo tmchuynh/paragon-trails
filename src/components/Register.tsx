@@ -546,7 +546,7 @@ export default function Register() {
                       onCheckedChange={(checked) =>
                         handleInputChange("agreeToTerms", checked)
                       }
-                      className="data-[state=checked]:bg-accentdata-[state=checked]:bg-accent mt-1 data-[state=checked]:border-accent data-[state=checked]:text-accent-foreground"
+                      className="data-[state=checked]:bg-accentdata-[state=checked]:bg-accent mt-1 border data-[state=checked]:border-accent border-border data-[state=checked]:text-accent-foreground"
                     />
                     <Label htmlFor="terms" className="text-sm leading-relaxed">
                       I agree to the{" "}
@@ -579,7 +579,7 @@ export default function Register() {
                       onCheckedChange={(checked) =>
                         handleInputChange("agreeToMarketing", checked)
                       }
-                      className="data-[state=checked]:bg-accentdata-[state=checked]:bg-accent mt-1 data-[state=checked]:border-accent data-[state=checked]:text-accent-foreground"
+                      className="data-[state=checked]:bg-accentdata-[state=checked]:bg-accent mt-1 border data-[state=checked]:border-accent border-border data-[state=checked]:text-accent-foreground"
                     />
                     <Label
                       htmlFor="marketing"
