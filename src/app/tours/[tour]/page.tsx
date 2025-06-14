@@ -156,7 +156,7 @@ export default function TourDetailsPage() {
               </SelectTrigger>
               <SelectContent>
                 {mockTours.map((tour) => (
-                  <SelectItem key={tour.id} value={tour.id}>
+                  <SelectItem key={tour.id} value={tour.id} variant="classic">
                     {tour.title}
                   </SelectItem>
                 ))}
