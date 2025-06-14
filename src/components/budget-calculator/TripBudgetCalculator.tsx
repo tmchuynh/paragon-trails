@@ -36,6 +36,7 @@ import { mockDestinations } from "@/data/destinations";
 import { mockFlights } from "@/data/flights";
 import { mockHotels } from "@/data/hotels";
 import { mockTours } from "@/data/tours";
+import { displayRatingStars } from "@/lib/utils/displayRatingStars";
 
 // Ensure mock data is always an array
 const safeActivities = Array.isArray(mockActivities) ? mockActivities : [];
@@ -337,9 +338,16 @@ function TripBudgetCalculator() {
                 <SelectTrigger className="border border-border w-full">
                   <SelectValue placeholder="Choose your destination" />
                 </SelectTrigger>
-                <SelectContent className="w-full max-h-60">
+                <SelectContent
+                  className="w-full max-h-60"
+                  variant="professional"
+                >
                   {safeDestinations.map((destination) => (
-                    <SelectItem key={destination.id} value={destination.id}>
+                    <SelectItem
+                      key={destination.id}
+                      value={destination.id}
+                      variant="classic"
+                    >
                       {destination.name}, {destination.country}
                     </SelectItem>
                   ))}
@@ -365,17 +373,28 @@ function TripBudgetCalculator() {
                     <SelectTrigger className="border border-border w-full">
                       <SelectValue placeholder="Choose your flight" />
                     </SelectTrigger>
-                    <SelectContent className="w-full max-h-60">
+                    <SelectContent
+                      className="w-full max-h-60"
+                      variant="professional"
+                    >
                       {getFilteredFlights().length > 0 ? (
                         getFilteredFlights().map((flight) => (
-                          <SelectItem key={flight.id} value={flight.id}>
+                          <SelectItem
+                            key={flight.id}
+                            value={flight.id}
+                            variant="classic"
+                          >
                             {flight.airline} {flight.flightNumber} -{" "}
                             {flight.origin.city} → {flight.destination.city} ($
                             {flight.pricing.economy})
                           </SelectItem>
                         ))
                       ) : (
-                        <SelectItem value="no-flights" disabled>
+                        <SelectItem
+                          value="no-flights"
+                          disabled
+                          variant="classic"
+                        >
                           No flights available for this destination
                         </SelectItem>
                       )}
@@ -431,16 +450,28 @@ function TripBudgetCalculator() {
                         <SelectTrigger className="mt-2 border border-border w-full">
                           <SelectValue placeholder="Choose your hotel" />
                         </SelectTrigger>
-                        <SelectContent className="w-full max-h-60">
+                        <SelectContent
+                          className="w-full max-h-60"
+                          variant="professional"
+                        >
                           {getFilteredHotels().length > 0 ? (
                             getFilteredHotels().map((hotel) => (
-                              <SelectItem key={hotel.id} value={hotel.id}>
-                                {hotel.name} - {hotel.starRating}⭐ ($
+                              <SelectItem
+                                key={hotel.id}
+                                value={hotel.id}
+                                variant="classic"
+                              >
+                                {hotel.name} -{" "}
+                                {displayRatingStars(hotel.starRating)} ($
                                 {hotel.pricing.seasonality.standard}/night)
                               </SelectItem>
                             ))
                           ) : (
-                            <SelectItem value="no-hotels" disabled>
+                            <SelectItem
+                              value="no-hotels"
+                              disabled
+                              variant="classic"
+                            >
                               No hotels available for this destination
                             </SelectItem>
                           )}
