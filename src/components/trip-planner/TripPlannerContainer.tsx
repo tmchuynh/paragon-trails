@@ -64,52 +64,69 @@ export default function TripPlannerContainer() {
   const handleDragEnd = useCallback(
     (event: DragEndEvent) => {
       const { active, over } = event;
+      // Capture the currentDragItem from the closure. This is the item
+      // that was set when handleDragStart was called for this drag operation.
+      const itemBeingDragged = currentDragItem;
 
-      // Reset drag state
+      // Reset dragging state immediately.
+      // setCurrentDragItem(null) will clear the state for the *next* drag operation
+      // and cause a re-render, providing a new handleDragEnd for future drags.
+      // The current execution uses `itemBeingDragged`.
       setIsDragging(false);
       setCurrentDragItem(null);
 
-      if (!over || !currentDragItem) {
+      if (!over || !itemBeingDragged) {
+        // No valid drop target, or no item was identified at drag start.
         return;
       }
 
-      // Check if dropping on a day or time slot
       const overId = over.id.toString();
-
-      // Generate a unique ID for the new item
-      const uniqueId = `${currentDragItem.id}-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+      // Generate a unique ID for the new item instance in the trip plan
+      const uniqueId = `${itemBeingDragged.id}-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
 
       if (overId.startsWith("day-")) {
         const dayIndex = parseInt(overId.split("-")[1]);
-        const newItem = { ...currentDragItem, id: uniqueId };
+        // Ensure newItem doesn't carry over a timeSlot if it's a generic day drop, and set its own uniqueId
+        const newItem = {
+          ...itemBeingDragged,
+          id: uniqueId,
+          timeSlot: undefined,
+        };
 
         setTripDays((prevDays) => {
           const updatedDays = [...prevDays];
           if (updatedDays[dayIndex]) {
-            updatedDays[dayIndex].items.push(newItem);
+            // Immutable update for the specific day's items array
+            updatedDays[dayIndex] = {
+              ...updatedDays[dayIndex], // Clone the day object
+              items: [...updatedDays[dayIndex].items, newItem], // Clone items array and add new item
+            };
           }
           return updatedDays;
         });
       } else if (overId.startsWith("time-")) {
-        // Handle time slot drops
-        const [, dayIndex, timeSlot] = overId.split("-");
+        const [, dayIndexStr, timeSlot] = overId.split("-");
+        const dayIndex = parseInt(dayIndexStr);
         const newItem = {
-          ...currentDragItem,
-          id: uniqueId,
+          ...itemBeingDragged,
+          id: uniqueId, // Set its own uniqueId
           timeSlot: timeSlot,
         };
 
         setTripDays((prevDays) => {
           const updatedDays = [...prevDays];
-          const day = updatedDays[parseInt(dayIndex)];
-          if (day) {
-            day.items.push(newItem);
+          if (updatedDays[dayIndex]) {
+            // Immutable update for the specific day's items array
+            updatedDays[dayIndex] = {
+              ...updatedDays[dayIndex], // Clone the day object
+              items: [...updatedDays[dayIndex].items, newItem], // Clone items array and add new item
+            };
           }
           return updatedDays;
         });
       }
     },
-    [currentDragItem]
+    [currentDragItem] // Dependency on currentDragItem is correct.
   );
 
   const removeItemFromDay = (dayIndex: number, itemId: string) => {
