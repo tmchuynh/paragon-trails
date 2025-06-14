@@ -1,24 +1,24 @@
-"use client"
+"use client";
 
-import * as React from "react"
-import { formatDateRange } from "little-date"
-import { ChevronDownIcon } from "lucide-react"
-import { type DateRange } from "react-day-picker"
+import { formatDateRange } from "little-date";
+import { ChevronDownIcon } from "lucide-react";
+import * as React from "react";
+import { type DateRange } from "react-day-picker";
 
-import { Button } from "@/components/ui/button"
-import { Calendar } from "@/components/ui/calendar"
-import { Label } from "@/components/ui/label"
+import { Button } from "@/components/ui/button";
+import { Calendar } from "@/components/ui/calendar";
+import { Label } from "@/components/ui/label";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/components/ui/popover"
+} from "@/components/ui/popover";
 
 export default function Calendar30() {
   const [range, setRange] = React.useState<DateRange | undefined>({
     from: new Date(2025, 5, 4),
     to: new Date(2025, 5, 10),
-  })
+  });
 
   return (
     <div className="flex flex-col gap-3">
@@ -30,7 +30,7 @@ export default function Calendar30() {
           <Button
             variant="outline"
             id="dates"
-            className="w-56 justify-between font-normal"
+            className="justify-between w-56 font-normal"
           >
             {range?.from && range?.to
               ? formatDateRange(range.from, range.to, {
@@ -40,17 +40,17 @@ export default function Calendar30() {
             <ChevronDownIcon />
           </Button>
         </PopoverTrigger>
-        <PopoverContent className="w-auto overflow-hidden p-0" align="start">
+        <PopoverContent className="p-0 w-auto overflow-hidden" align="start">
           <Calendar
             mode="range"
             selected={range}
             captionLayout="dropdown"
             onSelect={(range) => {
-              setRange(range)
+              setRange(range);
             }}
           />
         </PopoverContent>
       </Popover>
     </div>
-  )
+  );
 }
