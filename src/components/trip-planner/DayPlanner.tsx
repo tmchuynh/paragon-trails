@@ -18,7 +18,6 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { TripDay, TripItem } from "@/lib/interfaces/trip-planner";
-import TimeSlotManager from "./TimeSlotManager";
 import {
   calculateTotalDayTime,
   durationOptions,
