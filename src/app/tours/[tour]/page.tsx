@@ -253,9 +253,7 @@ export default function TourDetailsPage() {
                     <div className="flex items-center gap-2 mb-4 font-semibold text-lg">
                       <Info className="w-5 h-5" /> About This Tour
                     </div>
-                    <p className="mb-4 text-slate-600 dark:text-slate-400">
-                      {currentTour.description}
-                    </p>
+                    <p className="mb-4">{currentTour.description}</p>
 
                     <div className="gap-4 grid grid-cols-1 md:grid-cols-2">
                       <div className="space-y-3">
@@ -659,6 +657,7 @@ export default function TourDetailsPage() {
                     <Input
                       id="tour-date"
                       type="date"
+                      className="flex flex-col justify-center"
                       value={selectedDate}
                       onChange={(e) => setSelectedDate(e.target.value)}
                       min={new Date().toISOString().split("T")[0]}
