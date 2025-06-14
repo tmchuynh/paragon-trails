@@ -39,7 +39,12 @@ export default function VehiclesPage() {
   const [selectedFuelType, setSelectedFuelType] = useState<string>("all");
   const [selectedSeatingCapacity, setSelectedSeatingCapacity] =
     useState<string>("all");
-  const [priceRange, setPriceRange] = useState([0, 1500]);
+  
+  // Calculate min and max prices from vehicles data
+  const minPrice = Math.min(...mockVehicles.map(vehicle => vehicle.pricing.daily));
+  const maxPrice = Math.max(...mockVehicles.map(vehicle => vehicle.pricing.daily));
+  
+  const [priceRange, setPriceRange] = useState([minPrice, maxPrice]);
   const [selectedLocation, setSelectedLocation] = useState<string>("all");
   const [pickupDate, setPickupDate] = useState("");
   const [returnDate, setReturnDate] = useState("");
@@ -253,7 +258,7 @@ export default function VehiclesPage() {
     setSelectedYear("all");
     setSelectedFuelType("all");
     setSelectedSeatingCapacity("all");
-    setPriceRange([0, 1500]);
+    setPriceRange([minPrice, maxPrice]);
     setSelectedLocation("all");
     setPickupDate("");
     setReturnDate("");
@@ -420,7 +425,7 @@ export default function VehiclesPage() {
                         placeholder="BMW, Tesla, Harley..."
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
-                        className="pl-10 border-slate-200 focus:border-primary focus:ring-primary/20 h-12"
+                        className="pl-10 focus:border-muted border-border focus:ring-muted/20 h-8"
                       />
                     </div>
                   </div>
@@ -555,8 +560,8 @@ export default function VehiclesPage() {
                       <Slider
                         value={priceRange}
                         onValueChange={setPriceRange}
-                        max={1500}
-                        min={0}
+                        max={maxPrice}
+                        min={minPrice}
                         step={25}
                         className="w-full"
                       />
