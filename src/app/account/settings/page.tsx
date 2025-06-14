@@ -1,4 +1,6 @@
 "use client";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
 import { ChevronDownIcon } from "@heroicons/react/16/solid";
 import { PhotoIcon, UserCircleIcon } from "@heroicons/react/24/solid";
 
@@ -7,7 +9,7 @@ export default function ProfileSettingsPage() {
     <form>
       <div className="space-y-12 sm:space-y-16">
         <div>
-          <h2 className="font-semibold text-base/7 text-gray-900">Profile</h2>
+          <h2 className="font-semibold text-base/7">Profile</h2>
           <p className="mt-1 max-w-2xl text-gray-600 text-sm/6">
             This information will be displayed publicly so be careful what you
             share.
@@ -17,7 +19,7 @@ export default function ProfileSettingsPage() {
             <div className="sm:items-start sm:gap-4 sm:grid sm:grid-cols-3 sm:py-6">
               <label
                 htmlFor="username"
-                className="block sm:pt-1.5 font-medium text-gray-900 text-sm/6"
+                className="block sm:pt-1.5 font-medium text-sm/6"
               >
                 Username
               </label>
@@ -31,7 +33,7 @@ export default function ProfileSettingsPage() {
                     name="username"
                     type="text"
                     placeholder="janesmith"
-                    className="block py-1.5 pr-3 pl-1 min-w-0 text-base text-gray-900 sm:text-sm/6 placeholder:text-gray-400 grow focus:outline-none"
+                    className="block py-1.5 pr-3 pl-1 min-w-0 text-base sm:text-sm/6 placeholder:text-gray-400 grow focus:outline-none"
                   />
                 </div>
               </div>
@@ -40,7 +42,7 @@ export default function ProfileSettingsPage() {
             <div className="sm:items-start sm:gap-4 sm:grid sm:grid-cols-3 sm:py-6">
               <label
                 htmlFor="about"
-                className="block sm:pt-1.5 font-medium text-gray-900 text-sm/6"
+                className="block sm:pt-1.5 font-medium text-sm/6"
               >
                 About
               </label>
@@ -49,7 +51,7 @@ export default function ProfileSettingsPage() {
                   id="about"
                   name="about"
                   rows={3}
-                  className="block bg-white px-3 py-1.5 rounded-md w-full sm:max-w-2xl text-base text-gray-900 sm:text-sm/6 placeholder:text-gray-400 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600"
+                  className="block bg-white px-3 py-1.5 rounded-md w-full sm:max-w-2xl text-base sm:text-sm/6 placeholder:text-gray-400 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600"
                   defaultValue={""}
                 />
                 <p className="mt-3 text-gray-600 text-sm/6">
@@ -59,10 +61,7 @@ export default function ProfileSettingsPage() {
             </div>
 
             <div className="sm:items-center sm:gap-4 sm:grid sm:grid-cols-3 sm:py-6">
-              <label
-                htmlFor="photo"
-                className="block font-medium text-gray-900 text-sm/6"
-              >
+              <label htmlFor="photo" className="block font-medium text-sm/6">
                 Photo
               </label>
               <div className="sm:col-span-2 mt-2 sm:mt-0">
@@ -73,7 +72,7 @@ export default function ProfileSettingsPage() {
                   />
                   <button
                     type="button"
-                    className="bg-white hover:bg-gray-50 shadow-xs px-2.5 py-1.5 rounded-md ring-1 ring-gray-300 ring-inset font-semibold text-gray-900 text-sm"
+                    className="bg-white hover:bg-gray-50 shadow-xs px-2.5 py-1.5 rounded-md ring-1 ring-gray-300 ring-inset font-semibold text-sm"
                   >
                     Change
                   </button>
@@ -84,7 +83,7 @@ export default function ProfileSettingsPage() {
             <div className="sm:items-start sm:gap-4 sm:grid sm:grid-cols-3 sm:py-6">
               <label
                 htmlFor="cover-photo"
-                className="block sm:pt-1.5 font-medium text-gray-900 text-sm/6"
+                className="block sm:pt-1.5 font-medium text-sm/6"
               >
                 Cover photo
               </label>
@@ -121,9 +120,7 @@ export default function ProfileSettingsPage() {
         </div>
 
         <div>
-          <h2 className="font-semibold text-base/7 text-gray-900">
-            Personal Information
-          </h2>
+          <h2 className="font-semibold text-base/7">Personal Information</h2>
           <p className="mt-1 max-w-2xl text-gray-600 text-sm/6">
             Use a permanent address where you can receive mail.
           </p>
@@ -132,7 +129,7 @@ export default function ProfileSettingsPage() {
             <div className="sm:items-start sm:gap-4 sm:grid sm:grid-cols-3 sm:py-6">
               <label
                 htmlFor="first-name"
-                className="block sm:pt-1.5 font-medium text-gray-900 text-sm/6"
+                className="block sm:pt-1.5 font-medium text-sm/6"
               >
                 First name
               </label>
@@ -142,43 +139,42 @@ export default function ProfileSettingsPage() {
                   name="first-name"
                   type="text"
                   autoComplete="given-name"
-                  className="block bg-white px-3 py-1.5 rounded-md w-full sm:max-w-xs text-base text-gray-900 sm:text-sm/6 placeholder:text-gray-400 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600"
+                  className="block bg-white px-3 py-1.5 rounded-md w-full sm:max-w-xs text-base sm:text-sm/6 placeholder:text-gray-400 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600"
                 />
               </div>
             </div>
 
             <div className="sm:items-start sm:gap-4 sm:grid sm:grid-cols-3 sm:py-6">
-              <label
+              <Label
                 htmlFor="last-name"
-                className="block sm:pt-1.5 font-medium text-gray-900 text-sm/6"
+                className="block sm:pt-1.5 font-medium text-sm/6"
               >
                 Last name
-              </label>
+              </Label>
               <div className="sm:col-span-2 mt-2 sm:mt-0">
-                <input
+                <Input
                   id="last-name"
                   name="last-name"
                   type="text"
                   autoComplete="family-name"
-                  className="block bg-white px-3 py-1.5 rounded-md w-full sm:max-w-xs text-base text-gray-900 sm:text-sm/6 placeholder:text-gray-400 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600"
                 />
               </div>
             </div>
 
             <div className="sm:items-start sm:gap-4 sm:grid sm:grid-cols-3 sm:py-6">
-              <label
+              <Label
                 htmlFor="email"
-                className="block sm:pt-1.5 font-medium text-gray-900 text-sm/6"
+                className="block sm:pt-1.5 font-medium text-sm/6"
               >
                 Email address
-              </label>
+              </Label>
               <div className="sm:col-span-2 mt-2 sm:mt-0">
-                <input
+                <Input
                   id="email"
                   name="email"
                   type="email"
                   autoComplete="email"
-                  className="block bg-white px-3 py-1.5 rounded-md w-full sm:max-w-md text-base text-gray-900 sm:text-sm/6 placeholder:text-gray-400 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600"
+                  required
                 />
               </div>
             </div>
@@ -186,7 +182,7 @@ export default function ProfileSettingsPage() {
             <div className="sm:items-start sm:gap-4 sm:grid sm:grid-cols-3 sm:py-6">
               <label
                 htmlFor="country"
-                className="block sm:pt-1.5 font-medium text-gray-900 text-sm/6"
+                className="block sm:pt-1.5 font-medium text-sm/6"
               >
                 Country
               </label>
@@ -196,7 +192,7 @@ export default function ProfileSettingsPage() {
                     id="country"
                     name="country"
                     autoComplete="country-name"
-                    className="col-start-1 row-start-1 bg-white py-1.5 pr-8 pl-3 rounded-md w-full text-base text-gray-900 sm:text-sm/6 appearance-none outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600"
+                    className="col-start-1 row-start-1 bg-white py-1.5 pr-8 pl-3 rounded-md w-full text-base sm:text-sm/6 appearance-none outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600"
                   >
                     <option>United States</option>
                     <option>Canada</option>
@@ -213,7 +209,7 @@ export default function ProfileSettingsPage() {
             <div className="sm:items-start sm:gap-4 sm:grid sm:grid-cols-3 sm:py-6">
               <label
                 htmlFor="street-address"
-                className="block sm:pt-1.5 font-medium text-gray-900 text-sm/6"
+                className="block sm:pt-1.5 font-medium text-sm/6"
               >
                 Street address
               </label>
@@ -223,7 +219,7 @@ export default function ProfileSettingsPage() {
                   name="street-address"
                   type="text"
                   autoComplete="street-address"
-                  className="block bg-white px-3 py-1.5 rounded-md w-full sm:max-w-xl text-base text-gray-900 sm:text-sm/6 placeholder:text-gray-400 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600"
+                  className="block bg-white px-3 py-1.5 rounded-md w-full sm:max-w-xl text-base sm:text-sm/6 placeholder:text-gray-400 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600"
                 />
               </div>
             </div>
@@ -231,7 +227,7 @@ export default function ProfileSettingsPage() {
             <div className="sm:items-start sm:gap-4 sm:grid sm:grid-cols-3 sm:py-6">
               <label
                 htmlFor="city"
-                className="block sm:pt-1.5 font-medium text-gray-900 text-sm/6"
+                className="block sm:pt-1.5 font-medium text-sm/6"
               >
                 City
               </label>
@@ -241,7 +237,7 @@ export default function ProfileSettingsPage() {
                   name="city"
                   type="text"
                   autoComplete="address-level2"
-                  className="block bg-white px-3 py-1.5 rounded-md w-full sm:max-w-xs text-base text-gray-900 sm:text-sm/6 placeholder:text-gray-400 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600"
+                  className="block bg-white px-3 py-1.5 rounded-md w-full sm:max-w-xs text-base sm:text-sm/6 placeholder:text-gray-400 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600"
                 />
               </div>
             </div>
@@ -249,7 +245,7 @@ export default function ProfileSettingsPage() {
             <div className="sm:items-start sm:gap-4 sm:grid sm:grid-cols-3 sm:py-6">
               <label
                 htmlFor="region"
-                className="block sm:pt-1.5 font-medium text-gray-900 text-sm/6"
+                className="block sm:pt-1.5 font-medium text-sm/6"
               >
                 State / Province
               </label>
@@ -259,7 +255,7 @@ export default function ProfileSettingsPage() {
                   name="region"
                   type="text"
                   autoComplete="address-level1"
-                  className="block bg-white px-3 py-1.5 rounded-md w-full sm:max-w-xs text-base text-gray-900 sm:text-sm/6 placeholder:text-gray-400 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600"
+                  className="block bg-white px-3 py-1.5 rounded-md w-full sm:max-w-xs text-base sm:text-sm/6 placeholder:text-gray-400 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600"
                 />
               </div>
             </div>
@@ -267,7 +263,7 @@ export default function ProfileSettingsPage() {
             <div className="sm:items-start sm:gap-4 sm:grid sm:grid-cols-3 sm:py-6">
               <label
                 htmlFor="postal-code"
-                className="block sm:pt-1.5 font-medium text-gray-900 text-sm/6"
+                className="block sm:pt-1.5 font-medium text-sm/6"
               >
                 ZIP / Postal code
               </label>
@@ -277,7 +273,7 @@ export default function ProfileSettingsPage() {
                   name="postal-code"
                   type="text"
                   autoComplete="postal-code"
-                  className="block bg-white px-3 py-1.5 rounded-md w-full sm:max-w-xs text-base text-gray-900 sm:text-sm/6 placeholder:text-gray-400 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600"
+                  className="block bg-white px-3 py-1.5 rounded-md w-full sm:max-w-xs text-base sm:text-sm/6 placeholder:text-gray-400 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600"
                 />
               </div>
             </div>
@@ -285,9 +281,7 @@ export default function ProfileSettingsPage() {
         </div>
 
         <div>
-          <h2 className="font-semibold text-base/7 text-gray-900">
-            Notifications
-          </h2>
+          <h2 className="font-semibold text-base/7">Notifications</h2>
           <p className="mt-1 max-w-2xl text-gray-600 text-sm/6">
             We'll always let you know about important changes, but you pick what
             else you want to hear about.
@@ -297,10 +291,7 @@ export default function ProfileSettingsPage() {
             <fieldset>
               <legend className="sr-only">By email</legend>
               <div className="sm:gap-4 sm:grid sm:grid-cols-3 sm:py-6">
-                <div
-                  aria-hidden="true"
-                  className="font-semibold text-gray-900 text-sm/6"
-                >
+                <div aria-hidden="true" className="font-semibold text-sm/6">
                   By email
                 </div>
                 <div className="sm:col-span-2 mt-4 sm:mt-0">
@@ -339,10 +330,7 @@ export default function ProfileSettingsPage() {
                         </div>
                       </div>
                       <div className="text-sm/6">
-                        <label
-                          htmlFor="comments"
-                          className="font-medium text-gray-900"
-                        >
+                        <label htmlFor="comments" className="font-medium">
                           Comments
                         </label>
                         <p id="comments-description" className="text-gray-500">
@@ -384,10 +372,7 @@ export default function ProfileSettingsPage() {
                         </div>
                       </div>
                       <div className="text-sm/6">
-                        <label
-                          htmlFor="candidates"
-                          className="font-medium text-gray-900"
-                        >
+                        <label htmlFor="candidates" className="font-medium">
                           Candidates
                         </label>
                         <p
@@ -431,10 +416,7 @@ export default function ProfileSettingsPage() {
                         </div>
                       </div>
                       <div className="text-sm/6">
-                        <label
-                          htmlFor="offers"
-                          className="font-medium text-gray-900"
-                        >
+                        <label htmlFor="offers" className="font-medium">
                           Offers
                         </label>
                         <p id="offers-description" className="text-gray-500">
@@ -450,10 +432,7 @@ export default function ProfileSettingsPage() {
             <fieldset>
               <legend className="sr-only">Push notifications</legend>
               <div className="sm:items-baseline sm:gap-4 sm:grid sm:grid-cols-3 sm:py-6">
-                <div
-                  aria-hidden="true"
-                  className="font-semibold text-gray-900 text-sm/6"
-                >
+                <div aria-hidden="true" className="font-semibold text-sm/6">
                   Push notifications
                 </div>
                 <div className="sm:col-span-2 mt-1 sm:mt-0">
@@ -472,7 +451,7 @@ export default function ProfileSettingsPage() {
                         />
                         <label
                           htmlFor="push-everything"
-                          className="block font-medium text-gray-900 text-sm/6"
+                          className="block font-medium text-sm/6"
                         >
                           Everything
                         </label>
@@ -486,7 +465,7 @@ export default function ProfileSettingsPage() {
                         />
                         <label
                           htmlFor="push-email"
-                          className="block font-medium text-gray-900 text-sm/6"
+                          className="block font-medium text-sm/6"
                         >
                           Same as email
                         </label>
@@ -500,7 +479,7 @@ export default function ProfileSettingsPage() {
                         />
                         <label
                           htmlFor="push-nothing"
-                          className="block font-medium text-gray-900 text-sm/6"
+                          className="block font-medium text-sm/6"
                         >
                           No push notifications
                         </label>
@@ -515,7 +494,7 @@ export default function ProfileSettingsPage() {
       </div>
 
       <div className="flex justify-end items-center gap-x-6 mt-6">
-        <button type="button" className="font-semibold text-gray-900 text-sm/6">
+        <button type="button" className="font-semibold text-sm/6">
           Cancel
         </button>
         <button
