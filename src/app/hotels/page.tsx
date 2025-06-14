@@ -263,7 +263,7 @@ export default function HotelsPage() {
               <div className="space-y-2">
                 <Label htmlFor="checkin">Check-in Date</Label>
                 <Input
-                  className="flex flex-col justify-center border border-border"
+                  className="flex flex-col justify-center mt-0.25 border focus:border-muted border-border focus:ring-muted/20"
                   id="checkin"
                   type="date"
                   value={checkInDate}
@@ -276,7 +276,7 @@ export default function HotelsPage() {
               <div className="space-y-2">
                 <Label htmlFor="checkout">Check-out Date</Label>
                 <Input
-                  className="flex flex-col justify-center border border-border"
+                  className="flex flex-col justify-center mt-0.25 border focus:border-muted border-border focus:ring-muted/20"
                   id="checkout"
                   type="date"
                   value={checkOutDate}
