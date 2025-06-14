@@ -59,7 +59,7 @@ export default function ActivitiesPage() {
 
   // Pagination state
   const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage, setItemsPerPage] = useState(9);
+  const [itemsPerPage, setItemsPerPage] = useState(8);
 
   // Get unique values for filters
   const cities = [
@@ -277,7 +277,7 @@ export default function ActivitiesPage() {
                 <div className="relative">
                   <MapPin className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
                   <Select value={selectedCity} onValueChange={setSelectedCity}>
-                    <SelectTrigger className="pl-10 w-full">
+                    <SelectTrigger className="pl-10 border border-border w-full">
                       <SelectValue placeholder="Select city" />
                     </SelectTrigger>
                     <SelectContent className="w-full max-h-60">
@@ -298,7 +298,7 @@ export default function ActivitiesPage() {
                   value={selectedCountry}
                   onValueChange={setSelectedCountry}
                 >
-                  <SelectTrigger className="w-full">
+                  <SelectTrigger className="border border-border w-full">
                     <SelectValue placeholder="Select country" />
                   </SelectTrigger>
                   <SelectContent className="w-full max-h-60">
@@ -318,7 +318,7 @@ export default function ActivitiesPage() {
                   value={selectedCategory}
                   onValueChange={setSelectedCategory}
                 >
-                  <SelectTrigger className="w-full">
+                  <SelectTrigger className="border border-border w-full">
                     <SelectValue placeholder="Select category" />
                   </SelectTrigger>
                   <SelectContent className="w-full max-h-60">
@@ -336,7 +336,7 @@ export default function ActivitiesPage() {
                 <Button
                   onClick={resetFilters}
                   variant="outline"
-                  className="w-full"
+                  className="m-0 p-0 w-full"
                 >
                   <RotateCcw className="mr-2 w-4 h-4" />
                   Reset Filters
@@ -378,7 +378,7 @@ export default function ActivitiesPage() {
                       value={selectedDifficulty}
                       onValueChange={setSelectedDifficulty}
                     >
-                      <SelectTrigger className="w-full">
+                      <SelectTrigger className="border border-border w-full">
                         <SelectValue placeholder="Select difficulty" />
                       </SelectTrigger>
                       <SelectContent className="w-full max-h-60">
@@ -401,7 +401,7 @@ export default function ActivitiesPage() {
                       value={selectedDuration}
                       onValueChange={setSelectedDuration}
                     >
-                      <SelectTrigger className="w-full">
+                      <SelectTrigger className="border border-border w-full">
                         <SelectValue placeholder="Select duration" />
                       </SelectTrigger>
                       <SelectContent className="w-full max-h-60">
@@ -478,7 +478,7 @@ export default function ActivitiesPage() {
                     value={itemsPerPage.toString()}
                     onValueChange={(value) => setItemsPerPage(Number(value))}
                   >
-                    <SelectTrigger className="w-20">
+                    <SelectTrigger className="border border-border w-20">
                       <SelectValue />
                     </SelectTrigger>
                     <SelectContent className="w-full max-h-60">
@@ -493,7 +493,7 @@ export default function ActivitiesPage() {
 
                 {/* Sort dropdown */}
                 <Select value={sortBy} onValueChange={setSortBy}>
-                  <SelectTrigger className="w-48">
+                  <SelectTrigger className="border border-border w-48">
                     <SelectValue />
                   </SelectTrigger>
                   <SelectContent className="w-full max-h-60">
