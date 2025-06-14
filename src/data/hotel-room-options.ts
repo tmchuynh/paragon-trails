@@ -10,14 +10,22 @@ export const standardRoomOptions: HotelRoom[] = [
     capacity: {
       adults: 1,
       children: 0,
-      beds: [{ type: "Single", count: 1 }]
+      beds: [{ type: "Double", count: 1 }],
     },
-    amenities: ["Free Wi-Fi", "Air Conditioning", "Private Bathroom", "TV", "Room Service"],
+    amenities: [
+      "Free Wi-Fi",
+      "Air Conditioning",
+      "Private Bathroom",
+      "TV",
+      "Room Service",
+    ],
     pricing: { baseRate: 80, currency: "USD" },
     availability: true,
-    images: ["https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop"],
+    images: [
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop",
+    ],
     description: "Comfortable single room perfect for solo travelers",
-    features: ["City view", "Work desk", "Mini fridge"]
+    features: ["City view", "Work desk", "Mini fridge"],
   },
   {
     id: "standard-double",
@@ -26,32 +34,113 @@ export const standardRoomOptions: HotelRoom[] = [
     size: { area: 25, unit: "m²" },
     capacity: {
       adults: 2,
-      children: 1,
-      beds: [{ type: "Double", count: 1 }]
+      children: 0,
+      beds: [{ type: "Queen", count: 1 }],
     },
-    amenities: ["Free Wi-Fi", "Air Conditioning", "Private Bathroom", "TV", "Room Service", "Mini Bar"],
+    amenities: [
+      "Free Wi-Fi",
+      "Air Conditioning",
+      "Private Bathroom",
+      "TV",
+      "Room Service",
+      "Mini Bar",
+    ],
     pricing: { baseRate: 120, currency: "USD" },
     availability: true,
-    images: ["https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop"],
+    images: [
+      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop",
+    ],
     description: "Spacious double room ideal for couples",
-    features: ["City view", "Work desk", "Mini fridge", "Balcony"]
+    features: ["City view", "Work desk", "Mini fridge", "Balcony"],
   },
   {
-    id: "deluxe-room",
-    name: "Deluxe Room",
+    id: "standard-triple-room",
+    name: "Triple Room",
+    type: "standard",
+    size: { area: 30, unit: "m²" },
+    capacity: {
+      adults: 3,
+      children: 0,
+      beds: [
+        { type: "Queen", count: 2 },
+        { type: "Twin", count: 1 },
+      ],
+    },
+    amenities: [
+      "Free Wi-Fi",
+      "Air Conditioning",
+      "Private Bathroom",
+      "Smart TV",
+      "Room Service",
+      "Mini Bar",
+      "Coffee Machine",
+    ],
+    pricing: { baseRate: 150, currency: "USD" },
+    availability: true,
+    images: [
+      "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&h=600&fit=crop",
+    ],
+    description: "Comfortable triple room for small groups or families",
+    features: ["City view", "Work desk", "Mini fridge", "Extra seating area"],
+  },
+  {
+    id: "queen-room",
+    name: "Queen Room",
+    type: "deluxe",
+    size: { area: 30, unit: "m²" },
+    capacity: {
+      adults: 2,
+      children: 0,
+      beds: [{ type: "Queen", count: 1 }],
+    },
+    amenities: [
+      "Free Wi-Fi",
+      "Air Conditioning",
+      "Private Bathroom",
+      "Smart TV",
+      "Room Service",
+      "Mini Bar",
+      "Coffee Machine",
+    ],
+    pricing: { baseRate: 165, currency: "USD" },
+    availability: true,
+    images: [
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&h=600&fit=crop",
+    ],
+    description: "Elegant queen room with modern amenities",
+    features: ["City view", "Sitting area", "Premium linens", "Rain shower"],
+  },
+  {
+    id: "king-room",
+    name: "King Room",
     type: "deluxe",
     size: { area: 35, unit: "m²" },
     capacity: {
       adults: 2,
-      children: 2,
-      beds: [{ type: "King", count: 1 }]
+      children: 0,
+      beds: [{ type: "King", count: 1 }],
     },
-    amenities: ["Free Wi-Fi", "Air Conditioning", "Private Bathroom", "Smart TV", "Room Service", "Mini Bar", "Coffee Machine"],
+    amenities: [
+      "Free Wi-Fi",
+      "Air Conditioning",
+      "Private Bathroom",
+      "Smart TV",
+      "Room Service",
+      "Mini Bar",
+      "Coffee Machine",
+    ],
     pricing: { baseRate: 180, currency: "USD" },
     availability: true,
-    images: ["https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&h=600&fit=crop"],
+    images: [
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&h=600&fit=crop",
+    ],
     description: "Luxurious deluxe room with premium amenities",
-    features: ["Ocean view", "Sitting area", "Premium linens", "Marble bathroom"]
+    features: [
+      "Ocean view",
+      "Sitting area",
+      "Premium linens",
+      "Marble bathroom",
+    ],
   },
   {
     id: "family-suite",
@@ -60,15 +149,34 @@ export const standardRoomOptions: HotelRoom[] = [
     size: { area: 50, unit: "m²" },
     capacity: {
       adults: 4,
-      children: 3,
-      beds: [{ type: "King", count: 1 }, { type: "Twin", count: 2 }]
+      children: 4,
+      beds: [
+        { type: "King", count: 2 },
+        { type: "Twin", count: 2 },
+      ],
     },
-    amenities: ["Free Wi-Fi", "Air Conditioning", "Private Bathroom", "Smart TV", "Room Service", "Mini Bar", "Coffee Machine", "Kitchenette"],
-    pricing: { baseRate: 280, currency: "USD" },
+    amenities: [
+      "Free Wi-Fi",
+      "Air Conditioning",
+      "Private Bathroom",
+      "Smart TV",
+      "Room Service",
+      "Mini Bar",
+      "Coffee Machine",
+      "Kitchenette",
+    ],
+    pricing: { baseRate: 400, currency: "USD" },
     availability: true,
-    images: ["https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&h=600&fit=crop"],
+    images: [
+      "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&h=600&fit=crop",
+    ],
     description: "Spacious family suite perfect for larger groups",
-    features: ["Separate living area", "Kitchenette", "Multiple bathrooms", "Kids amenities"]
+    features: [
+      "Separate living area",
+      "Kitchenette",
+      "Multiple bathrooms",
+      "Kids amenities",
+    ],
   },
   {
     id: "executive-suite",
@@ -78,14 +186,30 @@ export const standardRoomOptions: HotelRoom[] = [
     capacity: {
       adults: 2,
       children: 2,
-      beds: [{ type: "King", count: 1 }]
+      beds: [{ type: "King", count: 1 }],
     },
-    amenities: ["Free Wi-Fi", "Air Conditioning", "Private Bathroom", "Smart TV", "24/7 Room Service", "Premium Mini Bar", "Espresso Machine", "Concierge Service"],
+    amenities: [
+      "Free Wi-Fi",
+      "Air Conditioning",
+      "Private Bathroom",
+      "Smart TV",
+      "24/7 Room Service",
+      "Premium Mini Bar",
+      "Espresso Machine",
+      "Concierge Service",
+    ],
     pricing: { baseRate: 380, currency: "USD" },
     availability: true,
-    images: ["https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&h=600&fit=crop"],
+    images: [
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&h=600&fit=crop",
+    ],
     description: "Premium executive suite with business amenities",
-    features: ["Panoramic view", "Separate office area", "Premium bathroom", "Express check-in/out"]
+    features: [
+      "Panoramic view",
+      "Separate office area",
+      "Premium bathroom",
+      "Express check-in/out",
+    ],
   },
   {
     id: "presidential-suite",
@@ -95,15 +219,109 @@ export const standardRoomOptions: HotelRoom[] = [
     capacity: {
       adults: 4,
       children: 2,
-      beds: [{ type: "King", count: 2 }]
+      beds: [{ type: "King", count: 2 }],
     },
-    amenities: ["Free Wi-Fi", "Air Conditioning", "Private Bathroom", "Smart TV", "Butler Service", "Premium Mini Bar", "Espresso Machine", "Private Dining"],
+    amenities: [
+      "Free Wi-Fi",
+      "Air Conditioning",
+      "Private Bathroom",
+      "Smart TV",
+      "Butler Service",
+      "Premium Mini Bar",
+      "Espresso Machine",
+      "Private Dining",
+    ],
     pricing: { baseRate: 800, currency: "USD" },
     availability: true,
-    images: ["https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&h=600&fit=crop"],
+    images: [
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&h=600&fit=crop",
+    ],
     description: "Ultimate luxury presidential suite experience",
-    features: ["Private terrace", "Multiple bedrooms", "Full kitchen", "Personal butler"]
-  }
+    features: [
+      "Private terrace",
+      "Multiple bedrooms",
+      "Full kitchen",
+      "Personal butler",
+    ],
+  },
+  {
+    id: "villa-suite",
+    name: "Villa Suite",
+    type: "executive",
+    size: { area: 150, unit: "m²" },
+    capacity: {
+      adults: 6,
+      children: 4,
+      beds: [
+        { type: "King", count: 2 },
+        { type: "Queen", count: 2 },
+        { type: "Twin", count: 2 },
+      ],
+    },
+    amenities: [
+      "Free Wi-Fi",
+      "Air Conditioning",
+      "Private Bathroom",
+      "Smart TV",
+      "24/7 Room Service",
+      "Premium Mini Bar",
+      "Espresso Machine",
+      "Private Pool",
+      "Concierge Service",
+    ],
+    pricing: { baseRate: 1200, currency: "USD" },
+    availability: true,
+    images: [
+      "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&h=600&fit=crop",
+    ],
+    description: "Luxurious villa suite with private amenities",
+    features: [
+      "Private pool",
+      "Garden view",
+      "Multiple living areas",
+      "Full kitchen",
+      "Outdoor seating",
+    ],
+  },
+  {
+    id: "penthouse-suite",
+    name: "Penthouse Suite",
+    type: "presidential",
+    size: { area: 200, unit: "m²" },
+    capacity: {
+      adults: 8,
+      children: 4,
+      beds: [
+        { type: "King", count: 4 },
+        { type: "Queen", count: 2 },
+      ],
+    },
+    amenities: [
+      "Free Wi-Fi",
+      "Air Conditioning",
+      "Private Bathroom",
+      "Smart TV",
+      "Butler Service",
+      "Premium Mini Bar",
+      "Espresso Machine",
+      "Private Rooftop Terrace",
+      "Concierge Service",
+    ],
+    pricing: { baseRate: 2500, currency: "USD" },
+    availability: true,
+    images: [
+      "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&h=600&fit=crop",
+    ],
+    description: "Exclusive penthouse suite with panoramic views",
+    features: [
+      "Private rooftop terrace",
+      "Hot tub",
+      "Multiple bedrooms",
+      "Full kitchen",
+      "Outdoor dining area",
+      "Luxury furnishings",
+    ],
+  },
 ];
 
 // Helper function to get rooms for specific hotel types
