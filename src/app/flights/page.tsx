@@ -28,7 +28,7 @@ import { useCurrency } from "@/context/CurrencyContext";
 import { getMockFlights } from "@/data/flights";
 import { Flight } from "@/lib/interfaces/services/flights";
 import { formatToSlug } from "@/lib/utils/format";
-import { Filter, Plane, RotateCcw, Search } from "lucide-react";
+import { Filter, Plane, RefreshCw, RotateCcw, Search } from "lucide-react";
 import { useEffect, useState } from "react";
 import { toast } from "sonner";
 
@@ -37,14 +37,38 @@ export default function FlightsPage() {
   const { state: cartState, dispatch } = useCart();
   const [flights, setFlights] = useState<Flight[]>([]);
   const [loading, setLoading] = useState(true);
+  const [dataSource, setDataSource] = useState<"adsb" | "fallback">("fallback");
+  const [refreshing, setRefreshing] = useState(false);
+  const [filteredFlights, setFilteredFlights] = useState<Flight[]>([]);
+
   useEffect(() => {
     const fetchData = async () => {
       try {
+        console.log("Fetching flight data...");
+        const startTime = Date.now();
         const [flightsData] = await Promise.all([getMockFlights()]);
 
+        // Check if we got real ADSB data or fallback data
+        // Real ADSB data will have more diverse aircraft types and realistic airline names
+        const hasRealData = flightsData.some(
+          (flight) =>
+            flight.aircraft &&
+            !flight.aircraft.includes("Boeing 737-800") &&
+            flight.airline &&
+            !flight.airline.includes("Airline ")
+        );
+
+        setDataSource(hasRealData ? "adsb" : "fallback");
         setFlights(flightsData);
+        setFilteredFlights(flightsData);
+
+        const loadTime = Date.now() - startTime;
+        console.log(
+          `Flight data loaded in ${loadTime}ms using ${hasRealData ? "ADSB API" : "fallback"} data`
+        );
       } catch (error) {
         console.error("Error fetching data:", error);
+        setDataSource("fallback");
       } finally {
         setLoading(false);
       }
@@ -53,7 +77,39 @@ export default function FlightsPage() {
     fetchData();
   }, []);
 
-  const [filteredFlights, setFilteredFlights] = useState(flights);
+  const refreshFlights = async () => {
+    setRefreshing(true);
+    try {
+      console.log("Refreshing flight data...");
+      const startTime = Date.now();
+      const [flightsData] = await Promise.all([getMockFlights()]);
+
+      // Check if we got real ADSB data or fallback data
+      const hasRealData = flightsData.some(
+        (flight) =>
+          flight.aircraft &&
+          !flight.aircraft.includes("Boeing 737-800") &&
+          flight.airline &&
+          !flight.airline.includes("Airline ")
+      );
+
+      setDataSource(hasRealData ? "adsb" : "fallback");
+      setFlights(flightsData);
+
+      const loadTime = Date.now() - startTime;
+      console.log(
+        `Flight data refreshed in ${loadTime}ms using ${hasRealData ? "ADSB API" : "fallback"} data`
+      );
+
+      toast.success("Flight data refreshed successfully!");
+    } catch (error) {
+      console.error("Error refreshing flight data:", error);
+      toast.error("Failed to refresh flight data");
+    } finally {
+      setRefreshing(false);
+    }
+  };
+
   const [searchQuery, setSearchQuery] = useState("");
   const [fromLocation, setFromLocation] = useState<string>("all");
   const [toLocation, setToLocation] = useState<string>("all");
@@ -486,540 +542,626 @@ export default function FlightsPage() {
             Search and compare flights from top airlines worldwide. Book with
             confidence and enjoy premium travel experiences.
           </p>
+
+          {/* Data Source Indicator */}
+          <div className="flex justify-center items-center gap-4 mt-4">
+            {dataSource === "adsb" ? (
+              <div className="inline-flex items-center gap-2 bg-green-100 dark:bg-green-900/20 px-3 py-1 rounded-full text-green-800 text-sm dark:text-green-200">
+                <div className="bg-green-500 rounded-full w-2 h-2 animate-pulse"></div>
+                Real-time flight data powered by ADSB Database
+              </div>
+            ) : (
+              <div className="inline-flex items-center gap-2 bg-blue-100 dark:bg-blue-900/20 px-3 py-1 rounded-full text-blue-800 text-sm dark:text-blue-200">
+                <div className="bg-blue-500 rounded-full w-2 h-2"></div>
+                Demo flight data
+              </div>
+            )}
+
+            <Button
+              onClick={refreshFlights}
+              disabled={refreshing || loading}
+              variant="outline"
+              size="sm"
+              className="text-sm"
+            >
+              <RefreshCw
+                className={`w-4 h-4 mr-2 ${refreshing ? "animate-spin" : ""}`}
+              />
+              {refreshing ? "Refreshing..." : "Refresh Flights"}
+            </Button>
+          </div>
         </div>
 
-        {/* Top Filters */}
-        <Card className="mb-8">
-          <div className="p-6">
-            <div className="gap-6 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4">
-              {/* From Location */}
-              <div className="space-y-2">
-                <Label htmlFor="from">From</Label>
-                <div className="relative">
-                  <Plane className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
-                  <Select value={fromLocation} onValueChange={setFromLocation}>
-                    <SelectTrigger className="pl-10 border border-border w-full">
-                      <SelectValue placeholder="Departure city" />
-                    </SelectTrigger>
-                    <SelectContent className="w-full max-h-60">
-                      {locations.map((location) => (
-                        <SelectItem key={location.value} value={location.value}>
-                          {location.label}
-                        </SelectItem>
-                      ))}
-                    </SelectContent>
-                  </Select>
-                </div>
-              </div>
-
-              {/* To Location */}
-              <div className="space-y-2">
-                <Label htmlFor="to">To</Label>
-                <Select value={toLocation} onValueChange={setToLocation}>
-                  <SelectTrigger className="border border-border w-full">
-                    <SelectValue placeholder="Destination city" />
-                  </SelectTrigger>
-                  <SelectContent className="w-full max-h-60">
-                    {locations.map((location) => (
-                      <SelectItem key={location.value} value={location.value}>
-                        {location.label}
-                      </SelectItem>
-                    ))}
-                  </SelectContent>
-                </Select>
-              </div>
-
-              {/* Airline */}
-              <div className="space-y-2">
-                <Label htmlFor="airline">Airline</Label>
-                <Select
-                  value={selectedAirline}
-                  onValueChange={setSelectedAirline}
-                >
-                  <SelectTrigger className="border border-border w-full">
-                    <SelectValue placeholder="Select airline" />
-                  </SelectTrigger>
-                  <SelectContent className="w-full max-h-60">
-                    {airlines.map((airline) => (
-                      <SelectItem key={airline.value} value={airline.value}>
-                        {airline.label}
-                      </SelectItem>
-                    ))}
-                  </SelectContent>
-                </Select>
-              </div>
-
-              {/* Reset Filters Button */}
-              <div className="flex items-end">
-                <Button
-                  onClick={resetFilters}
-                  variant="outline"
-                  className="m-0 p-0 w-full"
-                >
-                  <RotateCcw className="mr-2 w-4 h-4" />
-                  Reset Filters
-                </Button>
-              </div>
-            </div>
+        {/* Loading State */}
+        {loading ? (
+          <div className="flex flex-col justify-center items-center py-20">
+            <RefreshCw className="mb-4 w-8 h-8 text-blue-500 animate-spin" />
+            <h3 className="mb-2 font-semibold text-lg text-slate-900 dark:text-white">
+              Loading flight data...
+            </h3>
+            <p className="max-w-md text-center text-slate-600 dark:text-slate-400">
+              Fetching real-time flight information from ADSB Database API
+            </p>
           </div>
-        </Card>
+        ) : (
+          <>
+            {/* Rest of the content when not loading */}
 
-        <div
-          className={`gap-8 grid grid-cols-1 ${showFilters ? "lg:grid-cols-4" : "lg:grid-cols-1"}`}
-        >
-          {/* Filters Sidebar */}
-          {showFilters && (
-            <div className="space-y-6 lg:col-span-1">
-              <Card className="p-0">
-                <div className="p-6">
-                  <div className="flex items-center gap-2 mb-4">
-                    <Filter className="w-5 h-5" />
-                    <h3 className="font-semibold text-lg">Filters</h3>
+            {/* Top Filters */}
+            <Card className="mb-8">
+              <div className="p-6">
+                <div className="gap-6 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4">
+                  {/* From Location */}
+                  <div className="space-y-2">
+                    <Label htmlFor="from">From</Label>
+                    <div className="relative">
+                      <Plane className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
+                      <Select
+                        value={fromLocation}
+                        onValueChange={setFromLocation}
+                      >
+                        <SelectTrigger className="pl-10 border border-border w-full">
+                          <SelectValue placeholder="Departure city" />
+                        </SelectTrigger>
+                        <SelectContent className="w-full max-h-60">
+                          {locations.map((location) => (
+                            <SelectItem
+                              key={location.value}
+                              value={location.value}
+                            >
+                              {location.label}
+                            </SelectItem>
+                          ))}
+                        </SelectContent>
+                      </Select>
+                    </div>
                   </div>
 
-                  <div className="space-y-6">
-                    {/* Search */}
-                    <div className="space-y-2">
-                      <Label>Search Flights</Label>
-                      <div className="relative">
-                        <Search className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
-                        <Input
-                          placeholder="Airline, flight number..."
-                          value={searchQuery}
-                          onChange={(e) => setSearchQuery(e.target.value)}
-                          className="pl-10 focus:border-muted border-border focus:ring-muted/20 h-8"
-                        />
-                      </div>
-                    </div>
+                  {/* To Location */}
+                  <div className="space-y-2">
+                    <Label htmlFor="to">To</Label>
+                    <Select value={toLocation} onValueChange={setToLocation}>
+                      <SelectTrigger className="border border-border w-full">
+                        <SelectValue placeholder="Destination city" />
+                      </SelectTrigger>
+                      <SelectContent className="w-full max-h-60">
+                        {locations.map((location) => (
+                          <SelectItem
+                            key={location.value}
+                            value={location.value}
+                          >
+                            {location.label}
+                          </SelectItem>
+                        ))}
+                      </SelectContent>
+                    </Select>
+                  </div>
 
-                    {/* Departure Date */}
-                    <div className="space-y-2">
-                      <Label>Departure Date</Label>
-                      <DateTimePicker
-                        value={departureDate}
-                        onChange={setDepartureDate}
-                        placeholder="Pick departure date"
-                        minDate={new Date()}
-                        className="w-full"
-                      />
-                    </div>
+                  {/* Airline */}
+                  <div className="space-y-2">
+                    <Label htmlFor="airline">Airline</Label>
+                    <Select
+                      value={selectedAirline}
+                      onValueChange={setSelectedAirline}
+                    >
+                      <SelectTrigger className="border border-border w-full">
+                        <SelectValue placeholder="Select airline" />
+                      </SelectTrigger>
+                      <SelectContent className="w-full max-h-60">
+                        {airlines.map((airline) => (
+                          <SelectItem key={airline.value} value={airline.value}>
+                            {airline.label}
+                          </SelectItem>
+                        ))}
+                      </SelectContent>
+                    </Select>
+                  </div>
 
-                    {/* Arrival Date */}
-                    <div className="space-y-2">
-                      <Label>Arrival Date</Label>
-                      <DateTimePicker
-                        value={arrivalDate}
-                        onChange={setArrivalDate}
-                        placeholder="Pick arrival date"
-                        minDate={departureDate || new Date()}
-                        className="w-full"
-                      />
-                    </div>
-
-                    {/* Passengers */}
-                    <div className="space-y-2">
-                      <Label>Passengers</Label>
-                      <Select value={passengers} onValueChange={setPassengers}>
-                        <SelectTrigger className="border border-border w-full">
-                          <SelectValue />
-                        </SelectTrigger>
-                        <SelectContent className="w-full max-h-60">
-                          {[1, 2, 3, 4, 5, 6, 7, 8].map((num) => (
-                            <SelectItem key={num} value={num.toString()}>
-                              {num} passenger{num > 1 ? "s" : ""}
-                            </SelectItem>
-                          ))}
-                        </SelectContent>
-                      </Select>
-                    </div>
-
-                    {/* Class Type */}
-                    <div className="space-y-2">
-                      <Label>Class</Label>
-                      <Select value={classType} onValueChange={setClassType}>
-                        <SelectTrigger className="border border-border w-full">
-                          <SelectValue />
-                        </SelectTrigger>
-                        <SelectContent className="w-full max-h-60">
-                          <SelectItem value="economy">Economy</SelectItem>
-                          <SelectItem value="business">Business</SelectItem>
-                          <SelectItem value="first">First Class</SelectItem>
-                        </SelectContent>
-                      </Select>
-                    </div>
-
-                    {/* Departure Time */}
-                    <div className="space-y-2">
-                      <Label>Departure Time</Label>
-                      <Select
-                        value={departureTimeRange}
-                        onValueChange={setDepartureTimeRange}
-                      >
-                        <SelectTrigger className="border border-border w-full">
-                          <SelectValue placeholder="Select time range" />
-                        </SelectTrigger>
-                        <SelectContent className="w-full max-h-60">
-                          {timeRanges.map((range) => (
-                            <SelectItem key={range.value} value={range.value}>
-                              {range.label}
-                            </SelectItem>
-                          ))}
-                        </SelectContent>
-                      </Select>
-                    </div>
-
-                    {/* Arrival Time */}
-                    <div className="space-y-2">
-                      <Label>Arrival Time</Label>
-                      <Select
-                        value={arrivalTimeRange}
-                        onValueChange={setArrivalTimeRange}
-                      >
-                        <SelectTrigger className="border border-border w-full">
-                          <SelectValue placeholder="Select time range" />
-                        </SelectTrigger>
-                        <SelectContent className="w-full max-h-60">
-                          {timeRanges.map((range) => (
-                            <SelectItem key={range.value} value={range.value}>
-                              {range.label}
-                            </SelectItem>
-                          ))}
-                        </SelectContent>
-                      </Select>
-                    </div>
-
-                    {/* Duration */}
-                    <div className="space-y-2">
-                      <Label>Duration</Label>
-                      <Select
-                        value={selectedDuration}
-                        onValueChange={setSelectedDuration}
-                      >
-                        <SelectTrigger className="border border-border w-full">
-                          <SelectValue placeholder="Select duration" />
-                        </SelectTrigger>
-                        <SelectContent className="w-full max-h-60">
-                          {durations.map((duration) => (
-                            <SelectItem
-                              key={duration.value}
-                              value={duration.value}
-                            >
-                              {duration.label}
-                            </SelectItem>
-                          ))}
-                        </SelectContent>
-                      </Select>
-                    </div>
-
-                    {/* Stops */}
-                    <div className="space-y-2">
-                      <Label>Stops</Label>
-                      <Select
-                        value={selectedStops}
-                        onValueChange={setSelectedStops}
-                      >
-                        <SelectTrigger className="border border-border w-full">
-                          <SelectValue placeholder="Select stops" />
-                        </SelectTrigger>
-                        <SelectContent className="w-full max-h-60">
-                          {stopOptions.map((option) => (
-                            <SelectItem key={option.value} value={option.value}>
-                              {option.label}
-                            </SelectItem>
-                          ))}
-                        </SelectContent>
-                      </Select>
-                    </div>
-
-                    {/* Meal Type */}
-                    <div className="space-y-2">
-                      <Label>Meal Type</Label>
-                      <Select
-                        value={selectedMeal}
-                        onValueChange={setSelectedMeal}
-                      >
-                        <SelectTrigger className="border border-border w-full">
-                          <SelectValue placeholder="Select meal type" />
-                        </SelectTrigger>
-                        <SelectContent className="w-full max-h-60">
-                          {meals.map((meal) => (
-                            <SelectItem key={meal.value} value={meal.value}>
-                              {meal.label}
-                            </SelectItem>
-                          ))}
-                        </SelectContent>
-                      </Select>
-                    </div>
-
-                    {/* Amenities */}
-                    <div className="space-y-2">
-                      <Label>Required Amenity</Label>
-                      <Select
-                        value={selectedAmenity}
-                        onValueChange={setSelectedAmenity}
-                      >
-                        <SelectTrigger className="border border-border w-full">
-                          <SelectValue placeholder="Select amenity" />
-                        </SelectTrigger>
-                        <SelectContent className="w-full max-h-60">
-                          {amenities.map((amenity) => (
-                            <SelectItem
-                              key={amenity.value}
-                              value={amenity.value}
-                            >
-                              {amenity.label}
-                            </SelectItem>
-                          ))}
-                        </SelectContent>
-                      </Select>
-                    </div>
-
-                    {/* Price Range */}
-                    <div className="space-y-2">
-                      <Label>
-                        Price Range (
-                        {classType.charAt(0).toUpperCase() + classType.slice(1)}{" "}
-                        Class)
-                      </Label>
-                      <div className="px-2 py-4">
-                        <Slider
-                          value={priceRange}
-                          onValueChange={setPriceRange}
-                          max={maxPrice}
-                          min={minPrice}
-                          step={50}
-                          className="w-full"
-                        />
-                        <div className="flex justify-between mt-2 text-slate-600 text-sm dark:text-slate-400">
-                          <span>{formatPrice(priceRange[0])}</span>
-                          <span>{formatPrice(priceRange[1])}</span>
-                        </div>
-                      </div>
-                    </div>
-
-                    {/* Rating Filter */}
-                    <div className="space-y-2">
-                      <Label>Rating Range</Label>
-                      <div className="px-2 py-4">
-                        <Slider
-                          value={ratingFilter}
-                          onValueChange={setRatingFilter}
-                          max={5}
-                          min={0}
-                          step={0.1}
-                          className="w-full"
-                        />
-                        <div className="flex justify-between mt-2 text-slate-600 text-sm dark:text-slate-400">
-                          <span>{ratingFilter[0].toFixed(1)}</span>
-                          <span>{ratingFilter[1].toFixed(1)}</span>
-                        </div>
-                      </div>
-                    </div>
-
-                    {/* Reset Filters Button */}
+                  {/* Reset Filters Button */}
+                  <div className="flex items-end">
                     <Button
                       onClick={resetFilters}
-                      className="w-full"
                       variant="outline"
+                      className="m-0 p-0 w-full"
                     >
                       <RotateCcw className="mr-2 w-4 h-4" />
                       Reset Filters
                     </Button>
                   </div>
                 </div>
-              </Card>
-            </div>
-          )}
-
-          {/* Flights List */}
-          <div className={showFilters ? "lg:col-span-3" : "lg:col-span-1"}>
-            <div className="flex md:flex-row flex-col justify-between items-center mb-6">
-              <div className="md:w-1/4 text-center text-slate-600 text-wrap md:text-start dark:text-slate-400">
-                {filteredFlights.length} flight
-                {filteredFlights.length !== 1 ? "s" : ""} found
-                {filteredFlights.length > 0 && (
-                  <p>
-                    (Showing {startIndex + 1}-{" "}
-                    {Math.min(endIndex, filteredFlights.length)} of{" "}
-                    {filteredFlights.length})
-                  </p>
-                )}
               </div>
+            </Card>
 
-              <div className="flex md:flex-row flex-col items-center md:items-end gap-4 mt-2 md:mt-0 w-full md:w-auto">
-                {/* Items per page dropdown */}
-                <div className="flex flex-col items-center w-4/5 md:w-auto">
-                  <Label className="text-sm whitespace-nowrap">Show:</Label>
-                  <Select
-                    value={itemsPerPage.toString()}
-                    onValueChange={(value) => setItemsPerPage(Number(value))}
-                  >
-                    <SelectTrigger className="border border-border w-full md:w-20">
-                      <SelectValue />
-                    </SelectTrigger>
-                    <SelectContent className="w-full max-h-60">
-                      <SelectItem value="4">4</SelectItem>
-                      <SelectItem value="8">8</SelectItem>
-                      <SelectItem value="12">12</SelectItem>
-                      <SelectItem value="16">16</SelectItem>
-                      <SelectItem value="24">24</SelectItem>
-                    </SelectContent>
-                  </Select>
-                </div>
-
-                {/* Sort dropdown */}
-                <div className="flex flex-col items-center w-4/5 md:w-auto">
-                  <Label className="text-sm whitespace-nowrap">Sort By:</Label>
-                  <Select value={sortBy} onValueChange={setSortBy}>
-                    <SelectTrigger className="border border-border w-full md:w-48">
-                      <SelectValue />
-                    </SelectTrigger>
-                    <SelectContent className="w-full max-h-60">
-                      <SelectItem value="price-low">
-                        Price: Low to High
-                      </SelectItem>
-                      <SelectItem value="price-high">
-                        Price: High to Low
-                      </SelectItem>
-                      <SelectItem value="rating">Highest Rated</SelectItem>
-                      <SelectItem value="duration">Duration</SelectItem>
-                      <SelectItem value="departure">Departure Time</SelectItem>
-                      <SelectItem value="airline">Airline (A-Z)</SelectItem>
-                    </SelectContent>
-                  </Select>
-                </div>
-
-                {/* Toggle Filters Button */}
-                <Button
-                  variant="outline"
-                  size="sm"
-                  onClick={() => setShowFilters(!showFilters)}
-                  className="flex items-center gap-2 m-0.5 w-4/5 md:w-auto"
-                >
-                  <Filter className="w-4 h-4" />
-                  {showFilters ? "Hide Filters" : "Show Filters"}
-                </Button>
-              </div>
-            </div>
-
-            {filteredFlights.length === 0 ? (
-              <Card className="p-12 text-center">
-                <Plane className="mx-auto mb-4 w-12 h-12 text-slate-400" />
-                <h3 className="mb-2 font-semibold text-slate-900 text-xl dark:text-white">
-                  No flights found
-                </h3>
-                <p className="text-slate-600 dark:text-slate-400">
-                  Try adjusting your search criteria or filters to find
-                  available flights.
-                </p>
-              </Card>
-            ) : (
-              <>
-                <div className="space-y-4">
-                  {paginatedFlights.map((flight) => (
-                    <FlightCard
-                      key={flight.id}
-                      flight={flight}
-                      classType={classType}
-                      flightPrice={getFlightPrice(flight)}
-                      handleAddToCart={handleAddToCart}
-                    />
-                  ))}
-                </div>
-
-                {/* Pagination Controls */}
-                {totalPages > 1 && (
-                  <div className="flex sm:flex-row flex-col justify-between items-center gap-4 mt-8">
-                    <Pagination>
-                      <PaginationContent>
-                        <PaginationItem>
-                          <PaginationPrevious
-                            href="#"
-                            onClick={(e) => {
-                              e.preventDefault();
-                              if (currentPage > 1) {
-                                handlePageChange(currentPage - 1);
-                              }
-                            }}
-                            className={
-                              currentPage <= 1
-                                ? "pointer-events-none opacity-50"
-                                : ""
-                            }
-                          />
-                        </PaginationItem>
-
-                        {/* Page numbers */}
-                        {Array.from(
-                          { length: Math.min(5, totalPages) },
-                          (_, i) => {
-                            let pageNumber;
-                            if (totalPages <= 5) {
-                              pageNumber = i + 1;
-                            } else if (currentPage <= 3) {
-                              pageNumber = i + 1;
-                            } else if (currentPage >= totalPages - 2) {
-                              pageNumber = totalPages - 4 + i;
-                            } else {
-                              pageNumber = currentPage - 2 + i;
-                            }
-
-                            return (
-                              <PaginationItem key={pageNumber}>
-                                <PaginationLink
-                                  href="#"
-                                  onClick={(e) => {
-                                    e.preventDefault();
-                                    handlePageChange(pageNumber);
-                                  }}
-                                  isActive={currentPage === pageNumber}
-                                >
-                                  {pageNumber}
-                                </PaginationLink>
-                              </PaginationItem>
-                            );
-                          }
-                        )}
-
-                        {totalPages > 5 && currentPage < totalPages - 2 && (
-                          <PaginationItem>
-                            <PaginationEllipsis />
-                          </PaginationItem>
-                        )}
-
-                        <PaginationItem>
-                          <PaginationNext
-                            href="#"
-                            onClick={(e) => {
-                              e.preventDefault();
-                              if (currentPage < totalPages) {
-                                handlePageChange(currentPage + 1);
-                              }
-                            }}
-                            className={
-                              currentPage >= totalPages
-                                ? "pointer-events-none opacity-50"
-                                : ""
-                            }
-                          />
-                        </PaginationItem>
-                      </PaginationContent>
-                    </Pagination>
-
-                    {/* Page info and quick jump (only show if more than 5 pages) */}
-                    {totalPages > 5 && (
-                      <div className="flex items-center gap-3 text-slate-600 text-sm dark:text-slate-400">
-                        <span>
-                          Page {currentPage} of {totalPages}
-                        </span>
+            <div
+              className={`gap-8 grid grid-cols-1 ${showFilters ? "lg:grid-cols-4" : "lg:grid-cols-1"}`}
+            >
+              {/* Filters Sidebar */}
+              {showFilters && (
+                <div className="space-y-6 lg:col-span-1">
+                  <Card className="p-0">
+                    <div className="p-6">
+                      <div className="flex items-center gap-2 mb-4">
+                        <Filter className="w-5 h-5" />
+                        <h3 className="font-semibold text-lg">Filters</h3>
                       </div>
+
+                      <div className="space-y-6">
+                        {/* Search */}
+                        <div className="space-y-2">
+                          <Label>Search Flights</Label>
+                          <div className="relative">
+                            <Search className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
+                            <Input
+                              placeholder="Airline, flight number..."
+                              value={searchQuery}
+                              onChange={(e) => setSearchQuery(e.target.value)}
+                              className="pl-10 focus:border-muted border-border focus:ring-muted/20 h-8"
+                            />
+                          </div>
+                        </div>
+
+                        {/* Departure Date */}
+                        <div className="space-y-2">
+                          <Label>Departure Date</Label>
+                          <DateTimePicker
+                            value={departureDate}
+                            onChange={setDepartureDate}
+                            placeholder="Pick departure date"
+                            minDate={new Date()}
+                            className="w-full"
+                          />
+                        </div>
+
+                        {/* Arrival Date */}
+                        <div className="space-y-2">
+                          <Label>Arrival Date</Label>
+                          <DateTimePicker
+                            value={arrivalDate}
+                            onChange={setArrivalDate}
+                            placeholder="Pick arrival date"
+                            minDate={departureDate || new Date()}
+                            className="w-full"
+                          />
+                        </div>
+
+                        {/* Passengers */}
+                        <div className="space-y-2">
+                          <Label>Passengers</Label>
+                          <Select
+                            value={passengers}
+                            onValueChange={setPassengers}
+                          >
+                            <SelectTrigger className="border border-border w-full">
+                              <SelectValue />
+                            </SelectTrigger>
+                            <SelectContent className="w-full max-h-60">
+                              {[1, 2, 3, 4, 5, 6, 7, 8].map((num) => (
+                                <SelectItem key={num} value={num.toString()}>
+                                  {num} passenger{num > 1 ? "s" : ""}
+                                </SelectItem>
+                              ))}
+                            </SelectContent>
+                          </Select>
+                        </div>
+
+                        {/* Class Type */}
+                        <div className="space-y-2">
+                          <Label>Class</Label>
+                          <Select
+                            value={classType}
+                            onValueChange={setClassType}
+                          >
+                            <SelectTrigger className="border border-border w-full">
+                              <SelectValue />
+                            </SelectTrigger>
+                            <SelectContent className="w-full max-h-60">
+                              <SelectItem value="economy">Economy</SelectItem>
+                              <SelectItem value="business">Business</SelectItem>
+                              <SelectItem value="first">First Class</SelectItem>
+                            </SelectContent>
+                          </Select>
+                        </div>
+
+                        {/* Departure Time */}
+                        <div className="space-y-2">
+                          <Label>Departure Time</Label>
+                          <Select
+                            value={departureTimeRange}
+                            onValueChange={setDepartureTimeRange}
+                          >
+                            <SelectTrigger className="border border-border w-full">
+                              <SelectValue placeholder="Select time range" />
+                            </SelectTrigger>
+                            <SelectContent className="w-full max-h-60">
+                              {timeRanges.map((range) => (
+                                <SelectItem
+                                  key={range.value}
+                                  value={range.value}
+                                >
+                                  {range.label}
+                                </SelectItem>
+                              ))}
+                            </SelectContent>
+                          </Select>
+                        </div>
+
+                        {/* Arrival Time */}
+                        <div className="space-y-2">
+                          <Label>Arrival Time</Label>
+                          <Select
+                            value={arrivalTimeRange}
+                            onValueChange={setArrivalTimeRange}
+                          >
+                            <SelectTrigger className="border border-border w-full">
+                              <SelectValue placeholder="Select time range" />
+                            </SelectTrigger>
+                            <SelectContent className="w-full max-h-60">
+                              {timeRanges.map((range) => (
+                                <SelectItem
+                                  key={range.value}
+                                  value={range.value}
+                                >
+                                  {range.label}
+                                </SelectItem>
+                              ))}
+                            </SelectContent>
+                          </Select>
+                        </div>
+
+                        {/* Duration */}
+                        <div className="space-y-2">
+                          <Label>Duration</Label>
+                          <Select
+                            value={selectedDuration}
+                            onValueChange={setSelectedDuration}
+                          >
+                            <SelectTrigger className="border border-border w-full">
+                              <SelectValue placeholder="Select duration" />
+                            </SelectTrigger>
+                            <SelectContent className="w-full max-h-60">
+                              {durations.map((duration) => (
+                                <SelectItem
+                                  key={duration.value}
+                                  value={duration.value}
+                                >
+                                  {duration.label}
+                                </SelectItem>
+                              ))}
+                            </SelectContent>
+                          </Select>
+                        </div>
+
+                        {/* Stops */}
+                        <div className="space-y-2">
+                          <Label>Stops</Label>
+                          <Select
+                            value={selectedStops}
+                            onValueChange={setSelectedStops}
+                          >
+                            <SelectTrigger className="border border-border w-full">
+                              <SelectValue placeholder="Select stops" />
+                            </SelectTrigger>
+                            <SelectContent className="w-full max-h-60">
+                              {stopOptions.map((option) => (
+                                <SelectItem
+                                  key={option.value}
+                                  value={option.value}
+                                >
+                                  {option.label}
+                                </SelectItem>
+                              ))}
+                            </SelectContent>
+                          </Select>
+                        </div>
+
+                        {/* Meal Type */}
+                        <div className="space-y-2">
+                          <Label>Meal Type</Label>
+                          <Select
+                            value={selectedMeal}
+                            onValueChange={setSelectedMeal}
+                          >
+                            <SelectTrigger className="border border-border w-full">
+                              <SelectValue placeholder="Select meal type" />
+                            </SelectTrigger>
+                            <SelectContent className="w-full max-h-60">
+                              {meals.map((meal) => (
+                                <SelectItem key={meal.value} value={meal.value}>
+                                  {meal.label}
+                                </SelectItem>
+                              ))}
+                            </SelectContent>
+                          </Select>
+                        </div>
+
+                        {/* Amenities */}
+                        <div className="space-y-2">
+                          <Label>Required Amenity</Label>
+                          <Select
+                            value={selectedAmenity}
+                            onValueChange={setSelectedAmenity}
+                          >
+                            <SelectTrigger className="border border-border w-full">
+                              <SelectValue placeholder="Select amenity" />
+                            </SelectTrigger>
+                            <SelectContent className="w-full max-h-60">
+                              {amenities.map((amenity) => (
+                                <SelectItem
+                                  key={amenity.value}
+                                  value={amenity.value}
+                                >
+                                  {amenity.label}
+                                </SelectItem>
+                              ))}
+                            </SelectContent>
+                          </Select>
+                        </div>
+
+                        {/* Price Range */}
+                        <div className="space-y-2">
+                          <Label>
+                            Price Range (
+                            {classType.charAt(0).toUpperCase() +
+                              classType.slice(1)}{" "}
+                            Class)
+                          </Label>
+                          <div className="px-2 py-4">
+                            <Slider
+                              value={priceRange}
+                              onValueChange={setPriceRange}
+                              max={maxPrice}
+                              min={minPrice}
+                              step={50}
+                              className="w-full"
+                            />
+                            <div className="flex justify-between mt-2 text-slate-600 text-sm dark:text-slate-400">
+                              <span>{formatPrice(priceRange[0])}</span>
+                              <span>{formatPrice(priceRange[1])}</span>
+                            </div>
+                          </div>
+                        </div>
+
+                        {/* Rating Filter */}
+                        <div className="space-y-2">
+                          <Label>Rating Range</Label>
+                          <div className="px-2 py-4">
+                            <Slider
+                              value={ratingFilter}
+                              onValueChange={setRatingFilter}
+                              max={5}
+                              min={0}
+                              step={0.1}
+                              className="w-full"
+                            />
+                            <div className="flex justify-between mt-2 text-slate-600 text-sm dark:text-slate-400">
+                              <span>{ratingFilter[0].toFixed(1)}</span>
+                              <span>{ratingFilter[1].toFixed(1)}</span>
+                            </div>
+                          </div>
+                        </div>
+
+                        {/* Reset Filters Button */}
+                        <Button
+                          onClick={resetFilters}
+                          className="w-full"
+                          variant="outline"
+                        >
+                          <RotateCcw className="mr-2 w-4 h-4" />
+                          Reset Filters
+                        </Button>
+                      </div>
+                    </div>
+                  </Card>
+                </div>
+              )}
+
+              {/* Flights List */}
+              <div className={showFilters ? "lg:col-span-3" : "lg:col-span-1"}>
+                <div className="flex md:flex-row flex-col justify-between items-center mb-6">
+                  <div className="md:w-1/4 text-center text-slate-600 text-wrap md:text-start dark:text-slate-400">
+                    {filteredFlights.length} flight
+                    {filteredFlights.length !== 1 ? "s" : ""} found
+                    {filteredFlights.length > 0 && (
+                      <p>
+                        (Showing {startIndex + 1}-{" "}
+                        {Math.min(endIndex, filteredFlights.length)} of{" "}
+                        {filteredFlights.length})
+                      </p>
                     )}
                   </div>
+
+                  <div className="flex md:flex-row flex-col items-center md:items-end gap-4 mt-2 md:mt-0 w-full md:w-auto">
+                    {/* Items per page dropdown */}
+                    <div className="flex flex-col items-center w-4/5 md:w-auto">
+                      <Label className="text-sm whitespace-nowrap">Show:</Label>
+                      <Select
+                        value={itemsPerPage.toString()}
+                        onValueChange={(value) =>
+                          setItemsPerPage(Number(value))
+                        }
+                      >
+                        <SelectTrigger className="border border-border w-full md:w-20">
+                          <SelectValue />
+                        </SelectTrigger>
+                        <SelectContent className="w-full max-h-60">
+                          <SelectItem value="4">4</SelectItem>
+                          <SelectItem value="8">8</SelectItem>
+                          <SelectItem value="12">12</SelectItem>
+                          <SelectItem value="16">16</SelectItem>
+                          <SelectItem value="24">24</SelectItem>
+                        </SelectContent>
+                      </Select>
+                    </div>
+
+                    {/* Sort dropdown */}
+                    <div className="flex flex-col items-center w-4/5 md:w-auto">
+                      <Label className="text-sm whitespace-nowrap">
+                        Sort By:
+                      </Label>
+                      <Select value={sortBy} onValueChange={setSortBy}>
+                        <SelectTrigger className="border border-border w-full md:w-48">
+                          <SelectValue />
+                        </SelectTrigger>
+                        <SelectContent className="w-full max-h-60">
+                          <SelectItem value="price-low">
+                            Price: Low to High
+                          </SelectItem>
+                          <SelectItem value="price-high">
+                            Price: High to Low
+                          </SelectItem>
+                          <SelectItem value="rating">Highest Rated</SelectItem>
+                          <SelectItem value="duration">Duration</SelectItem>
+                          <SelectItem value="departure">
+                            Departure Time
+                          </SelectItem>
+                          <SelectItem value="airline">Airline (A-Z)</SelectItem>
+                        </SelectContent>
+                      </Select>
+                    </div>
+
+                    {/* Toggle Filters Button */}
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      onClick={() => setShowFilters(!showFilters)}
+                      className="flex items-center gap-2 m-0.5 w-4/5 md:w-auto"
+                    >
+                      <Filter className="w-4 h-4" />
+                      {showFilters ? "Hide Filters" : "Show Filters"}
+                    </Button>
+                  </div>
+                </div>
+
+                {filteredFlights.length === 0 ? (
+                  <Card className="p-12 text-center">
+                    <Plane className="mx-auto mb-4 w-12 h-12 text-slate-400" />
+                    <h3 className="mb-2 font-semibold text-slate-900 text-xl dark:text-white">
+                      No flights found
+                    </h3>
+                    <p className="mb-4 text-slate-600 dark:text-slate-400">
+                      Try adjusting your search criteria or filters to find
+                      available flights.
+                    </p>
+                    {dataSource === "adsb" && (
+                      <div className="bg-green-50 dark:bg-green-900/10 mt-4 p-4 rounded-lg">
+                        <p className="text-green-800 text-sm dark:text-green-200">
+                          <strong>Real-time data:</strong> Flight information is
+                          sourced from ADSB Database API, providing authentic
+                          aircraft registrations, airlines, and routes.
+                        </p>
+                      </div>
+                    )}
+                  </Card>
+                ) : (
+                  <>
+                    <div className="space-y-4">
+                      {paginatedFlights.map((flight) => (
+                        <FlightCard
+                          key={flight.id}
+                          flight={flight}
+                          classType={classType}
+                          flightPrice={getFlightPrice(flight)}
+                          handleAddToCart={handleAddToCart}
+                          dataSource={dataSource}
+                        />
+                      ))}
+                    </div>
+
+                    {/* Pagination Controls */}
+                    {totalPages > 1 && (
+                      <div className="flex sm:flex-row flex-col justify-between items-center gap-4 mt-8">
+                        <Pagination>
+                          <PaginationContent>
+                            <PaginationItem>
+                              <PaginationPrevious
+                                href="#"
+                                onClick={(e) => {
+                                  e.preventDefault();
+                                  if (currentPage > 1) {
+                                    handlePageChange(currentPage - 1);
+                                  }
+                                }}
+                                className={
+                                  currentPage <= 1
+                                    ? "pointer-events-none opacity-50"
+                                    : ""
+                                }
+                              />
+                            </PaginationItem>
+
+                            {/* Page numbers */}
+                            {Array.from(
+                              { length: Math.min(5, totalPages) },
+                              (_, i) => {
+                                let pageNumber;
+                                if (totalPages <= 5) {
+                                  pageNumber = i + 1;
+                                } else if (currentPage <= 3) {
+                                  pageNumber = i + 1;
+                                } else if (currentPage >= totalPages - 2) {
+                                  pageNumber = totalPages - 4 + i;
+                                } else {
+                                  pageNumber = currentPage - 2 + i;
+                                }
+
+                                return (
+                                  <PaginationItem key={pageNumber}>
+                                    <PaginationLink
+                                      href="#"
+                                      onClick={(e) => {
+                                        e.preventDefault();
+                                        handlePageChange(pageNumber);
+                                      }}
+                                      isActive={currentPage === pageNumber}
+                                    >
+                                      {pageNumber}
+                                    </PaginationLink>
+                                  </PaginationItem>
+                                );
+                              }
+                            )}
+
+                            {totalPages > 5 && currentPage < totalPages - 2 && (
+                              <PaginationItem>
+                                <PaginationEllipsis />
+                              </PaginationItem>
+                            )}
+
+                            <PaginationItem>
+                              <PaginationNext
+                                href="#"
+                                onClick={(e) => {
+                                  e.preventDefault();
+                                  if (currentPage < totalPages) {
+                                    handlePageChange(currentPage + 1);
+                                  }
+                                }}
+                                className={
+                                  currentPage >= totalPages
+                                    ? "pointer-events-none opacity-50"
+                                    : ""
+                                }
+                              />
+                            </PaginationItem>
+                          </PaginationContent>
+                        </Pagination>
+
+                        {/* Page info and quick jump (only show if more than 5 pages) */}
+                        {totalPages > 5 && (
+                          <div className="flex items-center gap-3 text-slate-600 text-sm dark:text-slate-400">
+                            <span>
+                              Page {currentPage} of {totalPages}
+                            </span>
+                          </div>
+                        )}
+                      </div>
+                    )}
+                  </>
                 )}
-              </>
-            )}
-          </div>
-        </div>
+              </div>
+            </div>
+          </>
+        )}
       </div>
     </div>
   );
