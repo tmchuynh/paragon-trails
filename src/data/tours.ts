@@ -108,7 +108,7 @@ export const mockTours: Tour[] = [
     description:
       "Experience the grandeur of the Palace of Versailles and its stunning gardens on this full-day guided tour from Paris. Skip the lines and explore the opulent rooms, Hall of Mirrors, and expansive gardens with a knowledgeable guide.",
     type: "Day Trip",
-    category: "History & Culture",
+    category: "History",
     features: [
       "Skip-the-line access to Versailles Palace",
       "Guided tour of the palace interiors",
@@ -216,8 +216,8 @@ export const mockTours: Tour[] = [
     title: "Mont Saint-Michel & Normandy Beaches Tour",
     description:
       "Explore the breathtaking Mont Saint-Michel and the historic Normandy beaches on this full-day guided tour from Paris. Discover the medieval abbey, picturesque village, and learn about the D-Day landings.",
-    type: "Historical Tour",
-    category: "History & Culture",
+    type: "Local Experience",
+    category: "Culture",
     features: [
       "Guided tour of Mont Saint-Michel Abbey",
       "Visit to Normandy beaches (Omaha and Utah)",
@@ -427,7 +427,7 @@ export const mockTours: Tour[] = [
     description:
       "Experience the serene beauty of Kyoto's ancient temples and stunning gardens on this full-day guided tour from Tokyo. Visit iconic sites like Kinkaku-ji (Golden Pavilion), Fushimi Inari Shrine, and Arashiyama Bamboo Grove.",
     type: "Day Trip",
-    category: "History & Culture",
+    category: "Religion",
     features: [
       "Round-trip bullet train tickets from Tokyo to Kyoto",
       "Guided tour of Kinkaku-ji and Fushimi Inari Shrine",
@@ -535,7 +535,7 @@ export const mockTours: Tour[] = [
     description:
       "Discover the cultural treasures of Nara and Osaka on this full-day guided tour from Tokyo. Visit Nara's famous deer park, Todai-ji Temple, and explore Osaka's vibrant Dotonbori district.",
     type: "Cultural Tour",
-    category: "History & Culture",
+    category: "Culture",
     features: [
       "Round-trip bullet train tickets from Tokyo to Nara and Osaka",
       "Guided tour of Nara Park and Todai-ji Temple",
@@ -846,7 +846,7 @@ export const mockTours: Tour[] = [
     description:
       "Experience Bali's natural beauty with a day of beach hopping and waterfall exploration. Visit stunning beaches, swim in crystal-clear waters, and hike to hidden waterfalls surrounded by lush jungle.",
     type: "Adventure Tour",
-    category: "Nature & Adventure",
+    category: "Nature & Wildlife",
     features: [
       "Beach hopping at Nusa Dua and Uluwatu",
       "Kecak dance performance at Uluwatu Temple",
@@ -960,7 +960,7 @@ export const mockTours: Tour[] = [
     description:
       "Experience Cape Town's natural beauty and world-renowned wine culture with Table Mountain cable car, wine tastings, and scenic drives through the Winelands. Enjoy a traditional South African lunch while taking in breathtaking views of vineyards and mountains.",
     type: "Adventure Tour",
-    category: "Nature & Wine",
+    category: "Nature & Wildlife",
     features: [
       "Table Mountain cable car ride",
       "3 wine estate visits with tastings",
@@ -1165,7 +1165,7 @@ export const mockTours: Tour[] = [
     description:
       "Journey through the mystical Sacred Valley and visit the iconic Machu Picchu citadel on this unforgettable Inca heritage tour with train transportation. Explore ancient ruins, vibrant markets, and breathtaking landscapes while learning about the rich history of the Inca civilization.",
     type: "Historical Tour",
-    category: "History & Culture",
+    category: "Local Experience",
     features: [
       "Vistadome train to Machu Picchu",
       "Professional archaeological guide",
@@ -1265,7 +1265,7 @@ export const mockTours: Tour[] = [
     description:
       "Explore the historic city of Cusco and its surrounding archaeological sites, including the impressive Sacsayhuamán fortress. Learn about the Inca Empire's legacy while visiting key landmarks, local markets, and enjoying traditional Peruvian cuisine.",
     type: "Cultural Tour",
-    category: "History & Culture",
+    category: "History",
     features: [
       "Guided tour of Cusco's main square",
       "Visit to Sacsayhuamán fortress",
@@ -1474,7 +1474,7 @@ export const mockTours: Tour[] = [
     description:
       "Experience the best of futuristic Dubai with visits to iconic skyscrapers and a thrilling desert safari complete with camel riding and traditional entertainment.",
     type: "Adventure Tour",
-    category: "Adventure",
+    category: "Nature & Wildlife",
     features: [
       "Burj Khalifa observation deck",
       "Dubai Mall and fountain show",
@@ -1574,7 +1574,7 @@ export const mockTours: Tour[] = [
     description:
       "Discover London's royal history and iconic landmarks with palace visits, Thames river cruise, and traditional afternoon tea experience.",
     type: "Cultural Tour",
-    category: "History & Culture",
+    category: "History",
     features: [
       "Buckingham Palace tour (when available)",
       "Tower of London and Crown Jewels",
@@ -1777,7 +1777,7 @@ export const mockTours: Tour[] = [
     description:
       "Discover Miami's vibrant beach culture and stunning Art Deco architecture with beach time, cultural tours, and authentic Cuban cuisine in Little Havana.",
     type: "Cultural Tour",
-    category: "Beach & Culture",
+    category: "Local Experience",
     features: [
       "Art Deco Historic District walking tour",
       "South Beach and Ocean Drive",
@@ -1878,7 +1878,7 @@ export const mockTours: Tour[] = [
     description:
       "Explore South America's largest city through its incredible street art scene and diverse culinary landscape, from traditional markets to modern gastronomy.",
     type: "Cultural Tour",
-    category: "Art & Food",
+    category: "Local Experience",
     features: [
       "Vila Madalena street art walking tour",
       "Mercado Municipal food market",
@@ -1979,7 +1979,7 @@ export const mockTours: Tour[] = [
     description:
       "Experience Vancouver's stunning natural beauty and urban attractions with visits to Stanley Park, Granville Island, and the Capilano Suspension Bridge.",
     type: "Nature Tour",
-    category: "Nature & City",
+    category: "Local Experience",
     features: [
       "Capilano Suspension Bridge experience",
       "Stanley Park seawall cycling",
@@ -2080,7 +2080,7 @@ export const mockTours: Tour[] = [
     description:
       "Immerse yourself in Seoul's rich history and modern K-culture with palace tours, traditional markets, K-pop experiences, and authentic Korean cuisine.",
     type: "Cultural Tour",
-    category: "History & Modern Culture",
+    category: "History",
     features: [
       "Gyeongbokgung Palace and changing of guard",
       "Bukchon Hanok Village traditional houses",
@@ -2181,7 +2181,7 @@ export const mockTours: Tour[] = [
     description:
       "Explore Atlanta's pivotal role in the Civil Rights Movement and experience authentic Southern culture with historical sites, museums, and traditional cuisine.",
     type: "Historical Tour",
-    category: "History & Culture",
+    category: "History",
     features: [
       "Martin Luther King Jr. National Historical Park",
       "Center for Civil Rights and Human Rights",

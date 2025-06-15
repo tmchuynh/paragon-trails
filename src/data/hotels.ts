@@ -4,7 +4,7 @@ import { getRoomsForHotelType } from "./hotel-room-options";
 export const mockHotels: Hotel[] = [
   // Paris Hotels
   {
-    id: "le-grand-parisian",
+    id: "HOTEL-001",
     name: "Le Grand Parisian",
     type: "hotel",
     starRating: 5,
@@ -101,7 +101,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Luxury", "Historic", "City Center", "Business", "Romantic"],
   },
   {
-    id: "boutique-montmartre",
+    id: "HOTEL-002",
     name: "Boutique Montmartre",
     type: "boutique",
     starRating: 4,
@@ -166,7 +166,7 @@ export const mockHotels: Hotel[] = [
 
   // Tokyo Hotels
   {
-    id: "tokyo-imperial-palace-hotel",
+    id: "HOTEL-003",
     name: "Tokyo Imperial Palace Hotel",
     type: "hotel",
     starRating: 5,
@@ -261,7 +261,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Luxury", "Traditional", "Business", "City Center", "Cultural"],
   },
   {
-    id: "koko-hotel-shibuya",
+    id: "HOTEL-004",
     name: "Koko Hotel Shibuya",
     type: "hotel",
     starRating: 4,
@@ -335,7 +335,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Trendy", "City Center", "Shopping", "Nightlife", "Modern"],
   },
   {
-    id: "kyoto-heritage-hotel",
+    id: "HOTEL-005",
     name: "Kyoto Heritage Hotel",
     type: "hotel",
     starRating: 4,
@@ -419,7 +419,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Traditional", "Cultural", "Historic", "City Center", "Serene"],
   },
   {
-    id: "osaka-modern-hotel",
+    id: "HOTEL-006",
     name: "Osaka Modern Hotel",
     type: "hotel",
     starRating: 4,
@@ -495,7 +495,7 @@ export const mockHotels: Hotel[] = [
 
   // New York Hotels
   {
-    id: "manhattan-grand-central",
+    id: "HOTEL-007",
     name: "Manhattan Grand Central",
     type: "hotel",
     starRating: 4,
@@ -575,7 +575,7 @@ export const mockHotels: Hotel[] = [
     ],
   },
   {
-    id: "the-manhattan-at-times-square",
+    id: "HOTEL-008",
     name: "The Manhattan at Times Square",
     type: "hotel",
     starRating: 4,
@@ -649,7 +649,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Iconic", "Tourist", "City Center", "Broadway", "Shopping"],
   },
   {
-    id: "brooklyn-bridge-hotel",
+    id: "HOTEL-009",
     name: "Brooklyn Bridge Hotel",
     type: "hotel",
     starRating: 4,
@@ -723,7 +723,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Stylish", "Brooklyn", "City Views", "Cultural", "Urban"],
   },
   {
-    id: "queens-urban-hotel",
+    id: "HOTEL-010",
     name: "Queens Urban Hotel",
     type: "hotel",
     starRating: 3,
@@ -797,7 +797,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Affordable", "Queens", "Local Charm", "Cultural", "Urban"],
   },
   {
-    id: "brooklyn-boutique-hotel",
+    id: "HOTEL-011",
     name: "Brooklyn Boutique Hotel",
     type: "boutique",
     starRating: 4,
@@ -862,7 +862,7 @@ export const mockHotels: Hotel[] = [
 
   // London Hotels
   {
-    id: "royal-kensington",
+    id: "HOTEL-012",
     name: "The Royal Kensington",
     type: "hotel",
     starRating: 5,
@@ -957,7 +957,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Historic", "Luxury", "Museums", "Parks", "Royal"],
   },
   {
-    id: "soho-chic-hotel",
+    id: "HOTEL-013",
     name: "Soho Chic Hotel",
     type: "boutique",
     starRating: 4,
@@ -1020,7 +1020,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Boutique", "Trendy", "Cultural", "Nightlife", "Artistic"],
   },
   {
-    id: "london-heritage-hotel",
+    id: "HOTEL-014",
     name: "London Heritage Hotel",
     type: "hotel",
     starRating: 4,
@@ -1104,7 +1104,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Historic", "Cultural", "Literary", "City Center", "Tranquil"],
   },
   {
-    id: "london-modern-hotel",
+    id: "HOTEL-015",
     name: "London Modern Hotel",
     type: "hotel",
     starRating: 4,
@@ -1167,7 +1167,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Modern", "Trendy", "Cultural", "Nightlife", "Artistic"],
   },
   {
-    id: "london-heritage-boutique",
+    id: "HOTEL-016",
     name: "London Heritage Boutique",
     type: "boutique",
     starRating: 4,
@@ -1253,7 +1253,7 @@ export const mockHotels: Hotel[] = [
 
   // Sydney Hotels
   {
-    id: "sydney-harbour-view",
+    id: "HOTEL-017",
     name: "Harbour View Resort",
     type: "resort",
     starRating: 5,
@@ -1349,7 +1349,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Waterfront", "Luxury", "Views", "Family-Friendly", "Resort"],
   },
   {
-    id: "sydney-city-center-hotel",
+    id: "HOTEL-018",
     name: "Sydney City Center Hotel",
     type: "hotel",
     starRating: 4,
@@ -1423,7 +1423,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Modern", "City Center", "Business", "Shopping", "Dining"],
   },
   {
-    id: "sydney-boutique-hotel",
+    id: "HOTEL-019",
     name: "Sydney Boutique Hotel",
     type: "boutique",
     starRating: 4,
@@ -1486,7 +1486,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Boutique", "Trendy", "Cultural", "Nightlife", "Artistic"],
   },
   {
-    id: "sydney-harbour-boutique",
+    id: "HOTEL-020",
     name: "Sydney Harbour Boutique",
     type: "boutique",
     starRating: 4,
@@ -1549,7 +1549,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Boutique", "Waterfront", "Luxury", "Cultural", "Local Experience"],
   },
   {
-    id: "sydney-heritage-hotel",
+    id: "HOTEL-021",
     name: "Sydney Heritage Hotel",
     type: "hotel",
     starRating: 4,
@@ -1635,7 +1635,7 @@ export const mockHotels: Hotel[] = [
 
   // Dubai Hotels
   {
-    id: "desert-palace-resort",
+    id: "HOTEL-022",
     name: "Desert Palace Resort",
     type: "resort",
     starRating: 5,
@@ -1737,7 +1737,7 @@ export const mockHotels: Hotel[] = [
     ],
   },
   {
-    id: "dubai-city-center-hotel",
+    id: "HOTEL-023",
     name: "Dubai City Center Hotel",
     type: "hotel",
     starRating: 4,
@@ -1811,7 +1811,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Modern", "City Center", "Business", "Shopping", "Dining"],
   },
   {
-    id: "dubai-boutique-hotel",
+    id: "HOTEL-024",
     name: "Dubai Boutique Hotel",
     type: "boutique",
     starRating: 4,
@@ -1876,7 +1876,7 @@ export const mockHotels: Hotel[] = [
 
   // Rome Hotels
   {
-    id: "eternal-city-boutique",
+    id: "HOTEL-025",
     name: "Eternal City Boutique",
     type: "boutique",
     starRating: 4,
@@ -1945,7 +1945,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Historic", "Boutique", "Central", "Authentic", "Romantic"],
   },
   {
-    id: "rome-city-center-hotel",
+    id: "HOTEL-026",
     name: "Rome City Center Hotel",
     type: "hotel",
     starRating: 4,
@@ -2019,7 +2019,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Modern", "City Center", "Business", "Shopping", "Dining"],
   },
   {
-    id: "rome-heritage-hotel",
+    id: "HOTEL-027",
     name: "Rome Heritage Hotel",
     type: "hotel",
     starRating: 4,
@@ -2105,7 +2105,7 @@ export const mockHotels: Hotel[] = [
 
   // Santorini Hotels
   {
-    id: "aegean-sunset-villa",
+    id: "HOTEL-077",
     name: "Aegean Sunset Villa",
     type: "villa",
     starRating: 5,
@@ -2192,7 +2192,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Luxury", "Romantic", "Sunset Views", "Cycladic", "Adults-Only"],
   },
   {
-    id: "santorini-boutique-hotel",
+    id: "HOTEL-028",
     name: "Santorini Boutique Hotel",
     type: "boutique",
     starRating: 4,
@@ -2255,7 +2255,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Boutique", "Trendy", "Cultural", "Nightlife", "Artistic"],
   },
   {
-    id: "santorini-heritage-hotel",
+    id: "HOTEL-029",
     name: "Santorini Heritage Hotel",
     type: "hotel",
     starRating: 4,
@@ -2341,7 +2341,7 @@ export const mockHotels: Hotel[] = [
 
   // Bali Hotels
   {
-    id: "tropical-paradise-resort",
+    id: "HOTEL-030",
     name: "Tropical Paradise Resort",
     type: "resort",
     starRating: 5,
@@ -2431,7 +2431,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Beach", "Tropical", "Spa", "Cultural", "Family-Friendly"],
   },
   {
-    id: "bali-boutique-hotel",
+    id: "HOTEL-031",
     name: "Bali Boutique Hotel",
     type: "boutique",
     starRating: 4,
@@ -2494,7 +2494,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Boutique", "Trendy", "Cultural", "Nightlife", "Artistic"],
   },
   {
-    id: "bali-heritage-hotel",
+    id: "HOTEL-032",
     name: "Bali Heritage Hotel",
     type: "hotel",
     starRating: 4,
@@ -2580,7 +2580,7 @@ export const mockHotels: Hotel[] = [
 
   // Cape Town Hotels
   {
-    id: "cape-town-1",
+    id: "HOTEL-033",
     name: "Table Mountain Resort",
     type: "resort",
     starRating: 5,
@@ -2657,7 +2657,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Luxury", "Mountain View", "Spa", "Golf", "Beach Access"],
   },
   {
-    id: "cape-town-2",
+    id: "HOTEL-034",
     name: "V&A Waterfront Hotel",
     type: "hotel",
     starRating: 4,
@@ -2717,7 +2717,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Waterfront", "Shopping", "Harbor View", "Central"],
   },
   {
-    id: "cape-town-3",
+    id: "HOTEL-035",
     name: "Cape Town Boutique Manor",
     type: "boutique",
     starRating: 4,
@@ -2771,7 +2771,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Boutique", "Historic", "Gardens", "Intimate"],
   },
   {
-    id: "cape-town-4",
+    id: "HOTEL-036",
     name: "Sea Point Backpackers",
     type: "hostel",
     starRating: 2,
@@ -2825,7 +2825,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Budget", "Backpacker", "Ocean View", "Social"],
   },
   {
-    id: "cape-town-5",
+    id: "HOTEL-037",
     name: "Camps Bay Villa",
     type: "villa",
     starRating: 5,
@@ -2881,7 +2881,7 @@ export const mockHotels: Hotel[] = [
 
   // Cusco Hotels
   {
-    id: "cusco-1",
+    id: "HOTEL-038",
     name: "Sacred Valley Resort",
     type: "resort",
     starRating: 5,
@@ -2940,7 +2940,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Luxury", "Sacred Valley", "Spa", "Machu Picchu Tours"],
   },
   {
-    id: "cusco-2",
+    id: "HOTEL-039",
     name: "Historic Cusco Hotel",
     type: "hotel",
     starRating: 4,
@@ -2994,7 +2994,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Historic", "Colonial", "City Center", "Cultural"],
   },
   {
-    id: "cusco-3",
+    id: "HOTEL-040",
     name: "Inca Boutique Lodge",
     type: "boutique",
     starRating: 4,
@@ -3048,7 +3048,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Boutique", "Inca Heritage", "Authentic", "Personalized"],
   },
   {
-    id: "cusco-4",
+    id: "HOTEL-041",
     name: "Backpacker's Paradise",
     type: "hostel",
     starRating: 2,
@@ -3102,7 +3102,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Budget", "Social", "Tours", "Backpacker"],
   },
   {
-    id: "cusco-5",
+    id: "HOTEL-042",
     name: "Andean Mountain Retreat",
     type: "bed-and-breakfast",
     starRating: 3,
@@ -3158,7 +3158,7 @@ export const mockHotels: Hotel[] = [
 
   // Los Angeles Hotels
   {
-    id: "los-angeles-1",
+    id: "HOTEL-043",
     name: "Beverly Hills Resort & Spa",
     type: "resort",
     starRating: 5,
@@ -3224,7 +3224,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Luxury", "Beverly Hills", "Spa", "Celebrity", "Shopping"],
   },
   {
-    id: "los-angeles-2",
+    id: "HOTEL-044",
     name: "Hollywood Grand Hotel",
     type: "hotel",
     starRating: 4,
@@ -3279,7 +3279,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Hollywood", "Entertainment", "Classic", "Central"],
   },
   {
-    id: "los-angeles-3",
+    id: "HOTEL-045",
     name: "Santa Monica Beach Boutique",
     type: "boutique",
     starRating: 4,
@@ -3333,7 +3333,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Boutique", "Beach", "Ocean View", "Santa Monica"],
   },
   {
-    id: "los-angeles-4",
+    id: "HOTEL-046",
     name: "Downtown LA Hostel",
     type: "hostel",
     starRating: 2,
@@ -3387,7 +3387,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Budget", "Downtown", "Social", "Modern"],
   },
   {
-    id: "los-angeles-5",
+    id: "HOTEL-047",
     name: "Malibu Villa Retreat",
     type: "villa",
     starRating: 5,
@@ -3443,7 +3443,7 @@ export const mockHotels: Hotel[] = [
 
   // Singapore Hotels
   {
-    id: "singapore-1",
+    id: "HOTEL-048",
     name: "Marina Bay Luxury Resort",
     type: "resort",
     starRating: 5,
@@ -3513,7 +3513,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Luxury", "Iconic", "Infinity Pool", "Marina Bay", "Skyline"],
   },
   {
-    id: "singapore-2",
+    id: "HOTEL-049",
     name: "Raffles Singapore Heritage",
     type: "hotel",
     starRating: 5,
@@ -3569,7 +3569,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Historic", "Luxury", "Colonial", "Heritage", "Iconic"],
   },
   {
-    id: "singapore-3",
+    id: "HOTEL-050",
     name: "Sentosa Island Boutique",
     type: "boutique",
     starRating: 4,
@@ -3623,7 +3623,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Boutique", "Beach", "Sentosa", "Family-Friendly", "Resort"],
   },
   {
-    id: "singapore-4",
+    id: "HOTEL-051",
     name: "Chinatown Budget Lodge",
     type: "hostel",
     starRating: 2,
@@ -3677,7 +3677,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Budget", "Chinatown", "Cultural", "Food"],
   },
   {
-    id: "singapore-5",
+    id: "HOTEL-052",
     name: "Orchard Road Apartments",
     type: "apartment",
     starRating: 4,
@@ -3733,7 +3733,7 @@ export const mockHotels: Hotel[] = [
 
   // Miami Hotels
   {
-    id: "miami-1",
+    id: "HOTEL-053",
     name: "South Beach Ocean Resort",
     type: "resort",
     starRating: 5,
@@ -3808,7 +3808,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Luxury", "Beachfront", "Art Deco", "Nightlife", "Spa"],
   },
   {
-    id: "miami-2",
+    id: "HOTEL-054",
     name: "Downtown Miami Business Hotel",
     type: "hotel",
     starRating: 4,
@@ -3863,7 +3863,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Business", "Downtown", "City View", "Modern"],
   },
   {
-    id: "miami-3",
+    id: "HOTEL-055",
     name: "Wynwood Arts Boutique",
     type: "boutique",
     starRating: 4,
@@ -3917,7 +3917,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Boutique", "Art District", "Hip", "Murals", "Creative"],
   },
   {
-    id: "miami-4",
+    id: "HOTEL-056",
     name: "Beach Hostel Miami",
     type: "hostel",
     starRating: 2,
@@ -3971,7 +3971,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Beach", "Party", "Social", "Young Crowd", "Budget"],
   },
   {
-    id: "miami-5",
+    id: "HOTEL-057",
     name: "Key Biscayne Villa",
     type: "villa",
     starRating: 5,
@@ -4027,7 +4027,7 @@ export const mockHotels: Hotel[] = [
 
   // São Paulo Hotels
   {
-    id: "sao-paulo-1",
+    id: "HOTEL-058",
     name: "Paulista Avenue Resort",
     type: "resort",
     starRating: 5,
@@ -4086,7 +4086,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Luxury", "Paulista", "Business", "City Views", "Shopping"],
   },
   {
-    id: "sao-paulo-2",
+    id: "HOTEL-059",
     name: "Vila Madalena Boutique",
     type: "boutique",
     starRating: 4,
@@ -4140,7 +4140,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Boutique", "Bohemian", "Nightlife", "Art", "Trendy"],
   },
   {
-    id: "sao-paulo-3",
+    id: "HOTEL-060",
     name: "Centro Histórico Hotel",
     type: "hotel",
     starRating: 3,
@@ -4194,7 +4194,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Historic", "Downtown", "Business", "Culture", "Budget-Friendly"],
   },
   {
-    id: "sao-paulo-4",
+    id: "HOTEL-061",
     name: "Liberdade Hostel",
     type: "hostel",
     starRating: 2,
@@ -4248,7 +4248,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Cultural", "Japanese District", "Budget", "Community"],
   },
   {
-    id: "sao-paulo-5",
+    id: "HOTEL-062",
     name: "Ibirapuera Apartment Suites",
     type: "apartment",
     starRating: 4,
@@ -4304,7 +4304,7 @@ export const mockHotels: Hotel[] = [
 
   // Vancouver Hotels
   {
-    id: "vancouver-1",
+    id: "HOTEL-063",
     name: "Stanley Park Resort",
     type: "resort",
     starRating: 5,
@@ -4380,7 +4380,7 @@ export const mockHotels: Hotel[] = [
     ],
   },
   {
-    id: "vancouver-2",
+    id: "HOTEL-064",
     name: "Gastown Heritage Hotel",
     type: "hotel",
     starRating: 4,
@@ -4434,7 +4434,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Historic", "Gastown", "Heritage", "Central", "Character"],
   },
   {
-    id: "vancouver-3",
+    id: "HOTEL-065",
     name: "Granville Island Boutique",
     type: "boutique",
     starRating: 4,
@@ -4488,7 +4488,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Boutique", "Artistic", "Harbor View", "Market", "Unique"],
   },
   {
-    id: "vancouver-4",
+    id: "HOTEL-066",
     name: "Downtown Backpackers",
     type: "hostel",
     starRating: 2,
@@ -4542,7 +4542,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Budget", "Backpacker", "Bike Friendly", "Social", "Clean"],
   },
   {
-    id: "vancouver-5",
+    id: "HOTEL-067",
     name: "West End Family B&B",
     type: "bed-and-breakfast",
     starRating: 3,
@@ -4598,7 +4598,7 @@ export const mockHotels: Hotel[] = [
 
   // Seoul Hotels
   {
-    id: "seoul-1",
+    id: "HOTEL-068",
     name: "Gangnam Luxury Resort",
     type: "resort",
     starRating: 5,
@@ -4677,7 +4677,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Luxury", "Gangnam", "K-pop", "Technology", "Modern"],
   },
   {
-    id: "seoul-2",
+    id: "HOTEL-069",
     name: "Myeongdong Shopping Hotel",
     type: "hotel",
     starRating: 4,
@@ -4742,7 +4742,7 @@ export const mockHotels: Hotel[] = [
     ],
   },
   {
-    id: "seoul-3",
+    id: "HOTEL-070",
     name: "Hongdae Youth Boutique",
     type: "boutique",
     starRating: 3,
@@ -4796,7 +4796,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Boutique", "Youth", "Nightlife", "University", "Hip"],
   },
   {
-    id: "seoul-4",
+    id: "HOTEL-071",
     name: "Itaewon International Hostel",
     type: "hostel",
     starRating: 2,
@@ -4855,7 +4855,7 @@ export const mockHotels: Hotel[] = [
     tags: ["International", "Multicultural", "Budget", "Language Exchange"],
   },
   {
-    id: "seoul-5",
+    id: "HOTEL-072",
     name: "Bukchon Hanok Village Stay",
     type: "bed-and-breakfast",
     starRating: 3,
@@ -4911,7 +4911,7 @@ export const mockHotels: Hotel[] = [
 
   // Atlanta Hotels
   {
-    id: "atlanta-1",
+    id: "HOTEL-073",
     name: "Peachtree Plaza Resort",
     type: "resort",
     starRating: 5,
@@ -4972,7 +4972,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Iconic", "Downtown", "City Views", "Historic", "Business"],
   },
   {
-    id: "atlanta-2",
+    id: "HOTEL-074",
     name: "Midtown Arts Hotel",
     type: "hotel",
     starRating: 4,
@@ -5026,7 +5026,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Arts", "Midtown", "Contemporary", "Cultural", "Park Access"],
   },
   {
-    id: "atlanta-3",
+    id: "HOTEL-075",
     name: "Virginia-Highland Boutique",
     type: "boutique",
     starRating: 3,
@@ -5080,7 +5080,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Boutique", "Trendy", "Local", "Neighborhood", "Walkable"],
   },
   {
-    id: "atlanta-4",
+    id: "HOTEL-076",
     name: "Little Five Points Hostel",
     type: "hostel",
     starRating: 2,
@@ -5134,7 +5134,7 @@ export const mockHotels: Hotel[] = [
     tags: ["Alternative", "Music", "Vintage", "Bohemian", "Budget"],
   },
   {
-    id: "atlanta-5",
+    id: "HOTEL-078",
     name: "Buckhead Family Villa",
     type: "villa",
     starRating: 5,
