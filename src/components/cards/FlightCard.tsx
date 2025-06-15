@@ -14,11 +14,13 @@ export default function FlightCard({
   flightPrice,
   handleAddToCart,
   classType,
+  dataSource,
 }: {
   flight: Flight;
   flightPrice: number;
   handleAddToCart: (flight: any) => void;
   classType: string;
+  dataSource?: "adsb" | "fallback";
 }) {
   const router = useRouter();
   const { formatPrice } = useCurrency();
@@ -26,7 +28,7 @@ export default function FlightCard({
   return (
     <Card
       key={flight.id}
-      className="hover:shadow-lg p-0 transition-shadow cursor-pointer"
+      className="hover:shadow-lg px-2 py-4 transition-shadow cursor-pointer"
       onClick={() => router.push(`/flights/${flight.id}`)}
     >
       <CardContent className="-mt-5 p-6">
@@ -37,8 +39,10 @@ export default function FlightCard({
               <div className="flex justify-center items-center bg-blue-100 dark:bg-blue-900 rounded-full w-8 h-8">
                 <Plane className="w-4 h-4 text-blue-600 dark:text-blue-300" />
               </div>
-              <div>
-                <h3 className="font-semibold text-lg">{flight.airline}</h3>
+              <div className="flex-1">
+                <div className="flex items-center gap-2">
+                  <h3 className="font-semibold text-lg">{flight.airline}</h3>
+                </div>
                 <p className="text-slate-600 text-sm">
                   {flight.flightNumber} • {flight.aircraft}
                 </p>
