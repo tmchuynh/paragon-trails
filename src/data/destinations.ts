@@ -1,6 +1,7 @@
 import { Destination } from "@/lib/interfaces/services/destinations";
 
 export const mockDestinations: Destination[] = [
+  // name: "Paris",
   {
     id: "1",
     name: "Paris",
@@ -139,6 +140,7 @@ export const mockDestinations: Destination[] = [
       emergencyNumber: "112",
     },
   },
+  // name: "Tokyo",
   {
     id: "2",
     name: "Tokyo",
@@ -272,6 +274,7 @@ export const mockDestinations: Destination[] = [
       emergencyNumber: "110",
     },
   },
+  // name: "New York City",
   {
     id: "3",
     name: "New York City",
@@ -410,6 +413,7 @@ export const mockDestinations: Destination[] = [
       emergencyNumber: "911",
     },
   },
+  // name: "Bali",
   {
     id: "4",
     name: "Bali",
@@ -542,6 +546,7 @@ export const mockDestinations: Destination[] = [
       emergencyNumber: "112",
     },
   },
+  // name: "Cape Town",
   {
     id: "5",
     name: "Cape Town",
@@ -685,6 +690,7 @@ export const mockDestinations: Destination[] = [
       emergencyNumber: "10111",
     },
   },
+  // name: "Cusco",
   {
     id: "6",
     name: "Cusco",
@@ -864,6 +870,7 @@ export const mockDestinations: Destination[] = [
       emergencyNumber: " 105",
     },
   },
+  // name: "Los Angeles",
   {
     id: "7",
     name: "Los Angeles",
@@ -998,6 +1005,7 @@ export const mockDestinations: Destination[] = [
       emergencyNumber: "911",
     },
   },
+  // name: "Dubai",
   {
     id: "8",
     name: "Dubai",
@@ -1132,6 +1140,7 @@ export const mockDestinations: Destination[] = [
       emergencyNumber: "999",
     },
   },
+  // name: "London",
   {
     id: "9",
     name: "London",
@@ -1266,6 +1275,7 @@ export const mockDestinations: Destination[] = [
       emergencyNumber: "999",
     },
   },
+  // name: "Singapore",
   {
     id: "10",
     name: "Singapore",
@@ -1400,6 +1410,7 @@ export const mockDestinations: Destination[] = [
       emergencyNumber: "999",
     },
   },
+  // name: "Miami",
   {
     id: "11",
     name: "Miami",
@@ -1544,6 +1555,7 @@ export const mockDestinations: Destination[] = [
       emergencyNumber: "911",
     },
   },
+  // name: "São Paulo",
   {
     id: "12",
     name: "São Paulo",
@@ -1702,6 +1714,7 @@ export const mockDestinations: Destination[] = [
       emergencyNumber: "190",
     },
   },
+  // name: "Vancouver",
   {
     id: "13",
     name: "Vancouver",
@@ -1855,6 +1868,7 @@ export const mockDestinations: Destination[] = [
       emergencyNumber: "911",
     },
   },
+  // name: "Seoul",
   {
     id: "14",
     name: "Seoul",
@@ -1992,6 +2006,7 @@ export const mockDestinations: Destination[] = [
       emergencyNumber: "112",
     },
   },
+  // name: "Atlanta",
   {
     id: "15",
     name: "Atlanta",
@@ -2125,6 +2140,474 @@ export const mockDestinations: Destination[] = [
       crimeRate: "Moderate",
       healthRisks: ["Seasonal allergies", "Heat in summer"],
       emergencyNumber: "911",
+    },
+  },
+  // name: "Sydney",
+  {
+    id: "16",
+    name: "Sydney",
+    country: "Australia",
+    continent: "Oceania",
+    region: "Eastern Australia",
+    description:
+      "A vibrant coastal city known for its iconic Sydney Opera House, stunning beaches, and rich cultural scene. A gateway to Australia's natural beauty.",
+    images: [
+      "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=1200&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=1200&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=1200&h=600&fit=crop",
+    ],
+    popularWith: [
+      "Beach lovers",
+      "Cultural enthusiasts",
+      "Adventure seekers",
+      "Foodies",
+    ],
+    population: 5373000,
+    capital: "Canberra",
+    area: {
+      total: 12367,
+      unit: "km²",
+    },
+    geography: {
+      terrain: "Coastal city with beaches and parks",
+      elevation: {
+        average: 58,
+        highest: 1109,
+        lowest: 0,
+        unit: "meters",
+      },
+      landmarks: [
+        "Sydney Opera House",
+        "Sydney Harbour Bridge",
+        "Bondi Beach",
+        "Royal Botanic Garden",
+        "Taronga Zoo",
+      ],
+    },
+    connectivity: {
+      internetSpeed: "High-speed fiber",
+      wifiAvailability: true,
+      mobileNetworkCoverage: "Excellent",
+    },
+    visaRequirements:
+      "eVisitor for eligible countries, visa required for others",
+    climate: {
+      season: "Temperate",
+      temperature: {
+        high: 26,
+        low: 8,
+        unit: "°C",
+      },
+      rainfall: "Moderate year-round",
+      humidity: "60-80%",
+      averageTemperature: 18,
+    },
+    currency: {
+      code: "AUD",
+      symbol: "A$",
+      name: "Australian Dollar",
+    },
+    pricing: {
+      averageDailyBudget: 180,
+      accommodationRange: {
+        budget: 90,
+        midRange: 180,
+        luxury: 450,
+      },
+      foodAndDrink: 60,
+      transportation: 25,
+      activitiesAndAttractions: 40,
+    },
+    language: [
+      "English",
+      "Mandarin",
+      "Cantonese",
+      "Arabic",
+      "Italian",
+      "Greek",
+    ],
+    timezone: "AEST (UTC+10)",
+    highlights: [
+      "Sydney Opera House",
+      "Sydney Harbour Bridge",
+      "Bondi Beach",
+      "Royal Botanic Garden",
+      "Taronga Zoo",
+    ],
+    bestTimeToVisit: [
+      "September-November",
+      "March-May",
+      "December-February (summer)",
+      "June-August (winter)",
+    ],
+    attractions: [
+      "Sydney Opera House",
+      "Sydney Harbour Bridge",
+      "Bondi Beach",
+      "Royal Botanic Garden",
+      "Taronga Zoo",
+    ],
+    activities: [
+      "Surfing at Bondi Beach",
+      "Climbing the Sydney Harbour Bridge",
+      "Exploring the Royal Botanic Garden",
+      "Visiting Taronga Zoo",
+      "Taking a ferry ride on Sydney Harbour",
+    ],
+    cuisine: [
+      "Fish and Chips",
+      "Meat Pie",
+      "Lamingtons",
+      "Pavlova",
+      "Vegemite on Toast",
+      "Barbecue",
+      "Asian Fusion",
+    ],
+    culture: {
+      festivals: ["Sydney Festival", "Vivid Sydney"],
+      traditions: ["Beach culture", "Outdoor lifestyle", "Indigenous heritage"],
+      artsAndCrafts: [
+        "Indigenous art",
+        "Contemporary art",
+        "Theater and performing arts",
+      ],
+      musicAndDance: [
+        "Rock music",
+        "Indigenous music",
+        "Jazz",
+        "Electronic dance music",
+      ],
+      localCustoms: [
+        "Tipping culture (not mandatory)",
+        "Outdoor dining",
+        "Respect for Indigenous culture",
+      ],
+    },
+    transportation: {
+      airports: [
+        "Sydney Kingsford Smith International Airport (SYD)",
+        "Bankstown Airport (BWU)",
+      ],
+      publicTransport: [
+        "Sydney Trains",
+        "Sydney Ferries",
+        "Light Rail",
+        "Buses",
+      ],
+      taxi: true,
+      rental: true,
+    },
+    tags: ["Beach", "Culture", "Adventure", "Food", "Nature"],
+    coordinates: {
+      latitude: -33.8688,
+      longitude: 151.2093,
+    },
+    visa: {
+      required: true,
+      details: " eVisitor for eligible countries, visa required for others",
+    },
+    safety: {
+      level: " Generally Safe",
+      advisories: [
+        "Sun exposure and heat",
+        "Wildlife encounters (snakes, spiders)",
+        "Ocean safety (rip currents)",
+      ],
+      crimeRate: " Low",
+      healthRisks: ["Sunburn", "Dehydration", "Allergies (pollen, dust)"],
+    },
+  },
+  // name: "Rome",
+  {
+    id: "17",
+    name: "Rome",
+    country: "Italy",
+    continent: "Europe",
+    region: "Southern Europe",
+    description:
+      "The Eternal City, where ancient history comes alive at every corner. Rome offers an unparalleled journey through millennia of civilization, world-renowned cuisine, and timeless art.",
+    images: [
+      "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=1200&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1515542622106-78bda8ba0e5b?w=1200&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1531572753322-ad063cecc140?w=1200&h=600&fit=crop",
+    ],
+    popularWith: [
+      "History enthusiasts",
+      "Art lovers",
+      "Food enthusiasts",
+      "Couples",
+      "Culture seekers",
+    ],
+    population: 2872800,
+    capital: "Rome",
+    area: {
+      total: 1285,
+      unit: "km²",
+    },
+    geography: {
+      terrain: "Rolling hills along the Tiber River",
+      elevation: {
+        average: 21,
+        highest: 139,
+        lowest: 13,
+        unit: "meters",
+      },
+      landmarks: ["Tiber River", "Seven Hills", "Alban Hills"],
+    },
+    connectivity: {
+      internetSpeed: "High-speed fiber",
+      wifiAvailability: true,
+      mobileNetworkCoverage: "Excellent",
+    },
+    visaRequirements:
+      "Schengen visa for stays over 90 days for non-EU citizens",
+    climate: {
+      season: "Mediterranean",
+      temperature: {
+        high: 30,
+        low: 3,
+        unit: "°C",
+      },
+      rainfall: "Moderate, mostly in autumn and winter",
+      humidity: "60-70%",
+      averageTemperature: 15.5,
+    },
+    currency: {
+      code: "EUR",
+      symbol: "€",
+      name: "Euro",
+    },
+    pricing: {
+      averageDailyBudget: 120,
+      accommodationRange: {
+        budget: 60,
+        midRange: 120,
+        luxury: 300,
+      },
+      foodAndDrink: 40,
+      transportation: 15,
+      activitiesAndAttractions: 25,
+    },
+    language: ["Italian", "English"],
+    timezone: "CET (UTC+1)",
+    highlights: [
+      "Colosseum",
+      "Vatican City",
+      "Trevi Fountain",
+      "Roman Forum",
+      "Pantheon",
+      "Spanish Steps",
+    ],
+    bestTimeToVisit: ["April-June", "September-October"],
+    attractions: [
+      "Colosseum",
+      "Vatican Museums",
+      "Roman Forum",
+      "Pantheon",
+      "Trevi Fountain",
+    ],
+    activities: [
+      "Historical tours",
+      "Vatican tours",
+      "Food tours",
+      "Art galleries",
+      "Archaeology",
+    ],
+    cuisine: [
+      "Carbonara",
+      "Cacio e Pepe",
+      "Saltimbocca",
+      "Gelato",
+      "Supplì",
+      "Maritozzo",
+    ],
+    culture: {
+      festivals: ["Easter celebrations", "Estate Romana", "Roma Jazz Festival"],
+      traditions: [
+        "Aperitivo culture",
+        "Sunday family meals",
+        "Evening passeggiata",
+      ],
+      artsAndCrafts: ["Marble sculpture", "Mosaic art", "Religious art"],
+      musicAndDance: ["Opera", "Classical music", "Folk music"],
+      localCustoms: [
+        "Greeting with kisses",
+        "Dressing well",
+        "Long lunch breaks",
+      ],
+    },
+    transportation: {
+      airports: ["Leonardo da Vinci (FCO)", "Ciampino (CIA)"],
+      publicTransport: ["Metro", "Bus", "Trams"],
+      taxi: true,
+      rental: true,
+    },
+    tags: ["Historical", "Art", "Culture", "Food", "Religious"],
+    coordinates: {
+      latitude: 41.9028,
+      longitude: 12.4964,
+    },
+    visa: {
+      required: false,
+      details: "Schengen visa for stays over 90 days for non-EU citizens",
+    },
+    safety: {
+      level: "Generally Safe",
+      advisories: [
+        "Pickpocketing in tourist areas",
+        "Traffic and busy streets",
+        "Crowded public transport",
+      ],
+      crimeRate: "Low to moderate",
+      healthRisks: ["None significant"],
+      emergencyNumber: "112",
+    },
+  },
+  // name: "Santorini",
+  {
+    id: "18",
+    name: "Santorini",
+    country: "Greece",
+    continent: "Europe",
+    region: "Southern Europe",
+    description:
+      "A breathtaking Greek island paradise famous for its stunning sunsets, white-washed buildings, and crystal-clear waters. Santorini offers a perfect blend of romance, history, and natural beauty.",
+    images: [
+      "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=1200&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?w=1200&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1504467418440-f2e3c01cd0c1?w=1200&h=600&fit=crop",
+    ],
+    popularWith: [
+      "Couples",
+      "Honeymooners",
+      "Photography enthusiasts",
+      "Wine lovers",
+      "Beach lovers",
+    ],
+    population: 15550,
+    capital: "Fira",
+    area: {
+      total: 96,
+      unit: "km²",
+    },
+    geography: {
+      terrain: "Volcanic island with dramatic cliffs and beaches",
+      elevation: {
+        average: 150,
+        highest: 567,
+        lowest: 0,
+        unit: "meters",
+      },
+      landmarks: ["Caldera", "Red Beach", "Black Beach", "Oia Village"],
+    },
+    connectivity: {
+      internetSpeed: "Good fiber and wireless",
+      wifiAvailability: true,
+      mobileNetworkCoverage: "Good",
+    },
+    visaRequirements:
+      "Schengen visa for stays over 90 days for non-EU citizens",
+    climate: {
+      season: "Mediterranean",
+      temperature: {
+        high: 28,
+        low: 9,
+        unit: "°C",
+      },
+      rainfall: "Low, mostly in winter",
+      humidity: "65-75%",
+      averageTemperature: 18,
+    },
+    currency: {
+      code: "EUR",
+      symbol: "€",
+      name: "Euro",
+    },
+    pricing: {
+      averageDailyBudget: 150,
+      accommodationRange: {
+        budget: 80,
+        midRange: 150,
+        luxury: 400,
+      },
+      foodAndDrink: 60,
+      transportation: 20,
+      activitiesAndAttractions: 40,
+    },
+    language: ["Greek", "English"],
+    timezone: "EET (UTC+2)",
+    highlights: [
+      "Oia Sunset",
+      "Blue Domed Churches",
+      "Red Beach",
+      "Fira Town",
+      "Wine Tasting",
+      "Caldera Views",
+    ],
+    bestTimeToVisit: ["April-June", "September-October"],
+    attractions: [
+      "Oia Village",
+      "Fira Town",
+      "Akrotiri Archaeological Site",
+      "Red Beach",
+      "Kamari Beach",
+    ],
+    activities: [
+      "Sunset watching",
+      "Wine tasting",
+      "Beach activities",
+      "Boat tours",
+      "Photography",
+      "Volcanic tours",
+    ],
+    cuisine: [
+      "Fava beans",
+      "Tomato keftedes",
+      "Fresh seafood",
+      "Assyrtiko wine",
+      "Baklava",
+      "Greek salad",
+    ],
+    culture: {
+      festivals: [
+        "Santorini Jazz Festival",
+        "Ifestia Festival",
+        "Orthodox Easter",
+      ],
+      traditions: ["Wine making", "Sunset celebrations", "Traditional music"],
+      artsAndCrafts: ["Pottery", "Jewelry making", "Traditional weaving"],
+      musicAndDance: ["Traditional Greek music", "Folk dancing"],
+      localCustoms: [
+        "Afternoon siesta",
+        "Evening strolls",
+        "Hospitality traditions",
+      ],
+    },
+    transportation: {
+      airports: ["Santorini Airport (JTR)"],
+      publicTransport: ["Bus", "Taxi"],
+      taxi: true,
+      rental: true,
+    },
+    tags: ["Romantic", "Beach", "Wine", "Sunset", "Volcanic", "Island"],
+    coordinates: {
+      latitude: 36.3932,
+      longitude: 25.4615,
+    },
+    visa: {
+      required: false,
+      details: "Schengen visa for stays over 90 days for non-EU citizens",
+    },
+    safety: {
+      level: "Very Safe",
+      advisories: [
+        "Strong winds on cliffs",
+        "Steep paths and stairs",
+        "Sun exposure",
+      ],
+      crimeRate: "Very low",
+      healthRisks: ["Sunburn", "Dehydration"],
+      emergencyNumber: "112",
     },
   },
 ];
