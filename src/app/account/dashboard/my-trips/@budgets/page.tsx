@@ -1,5 +1,6 @@
 "use client";
 
+import Loading from "@/components/Loading";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import {
@@ -71,20 +72,7 @@ export default function BudgetsSection() {
   }, [user]);
 
   if (loading) {
-    return (
-      <Card>
-        <CardHeader>
-          <CardTitle>My Budgets</CardTitle>
-          <CardDescription>Loading your budgets...</CardDescription>
-        </CardHeader>
-        <CardContent>
-          <div className="space-y-4 animate-pulse">
-            <div className="bg-gray-200 rounded w-3/4 h-4"></div>
-            <div className="bg-gray-200 rounded w-1/2 h-4"></div>
-          </div>
-        </CardContent>
-      </Card>
-    );
+    return <Loading />;
   }
 
   if (!user) {

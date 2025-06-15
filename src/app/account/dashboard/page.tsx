@@ -460,7 +460,7 @@ export default function DashboardPage() {
                 <Heart className="mr-3 w-5 h-5 text-red-500 group-hover:text-white" />
                 <div className="text-left">
                   <div className="font-medium">My Favorites</div>
-                  <div className="text-xs">Saved destinations & tours</div>
+                  <div className="text-xs">Saved destinations & more</div>
                 </div>
               </Button>
 
