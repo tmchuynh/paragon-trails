@@ -404,8 +404,8 @@ export default function RewardsPage() {
                   className={`flex justify-between items-center p-4 border rounded-lg ${
                     !reward.available ||
                     reward.points > mockUserData.currentPoints
-                      ? "opacity-50 bg-gray-50"
-                      : "hover:bg-gray-50"
+                      ? "opacity-50 bg-muted/50 cursor-not-allowed"
+                      : "hover:border hover:border-blue-500 "
                   }`}
                 >
                   <div className="flex-1">
