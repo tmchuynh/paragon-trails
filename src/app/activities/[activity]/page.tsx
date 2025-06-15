@@ -13,8 +13,8 @@ import {
 import { Separator } from "@/components/ui/separator";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useCurrency } from "@/context/CurrencyContext";
-import { mockActivities } from "@/data/activities";
-import { mockTours } from "@/data/tours";
+import { getMockActivities } from "@/data/activities";
+import { getMockTours } from "@/data/tours";
 import { formatToSlug } from "@/lib/utils/format";
 import { Label } from "@radix-ui/react-label";
 import {
@@ -41,25 +41,41 @@ export default function ActivityDetailsPage() {
 
   // Find activity by URL param
   const activitySlug = params.activity as string;
-  const initialActivity = mockActivities.find(
-    (activity) => formatToSlug(activity.name) === activitySlug
-  );
+  const [activities, setActivities] = useState<any[]>([]);
+  const [tours, setTours] = useState<any[]>([]);
+  const [currentActivity, setCurrentActivity] = useState<any>(null);
+  const [loading, setLoading] = useState(true);
 
-  const [currentActivity, setCurrentActivity] = useState(initialActivity);
-
-  // Update current activity when URL param changes
   useEffect(() => {
-    const foundActivity = mockActivities.find(
-      (activity) => formatToSlug(activity.name) === activitySlug
-    );
-    setCurrentActivity(foundActivity);
-    setSelectedImageIndex(0); // Reset image index when activity changes
+    const fetchData = async () => {
+      try {
+        const [activitiesData, toursData] = await Promise.all([
+          getMockActivities(),
+          getMockTours(),
+        ]);
+
+        setActivities(activitiesData);
+        setTours(toursData);
+
+        // Find the activity by slug
+        const foundActivity = activitiesData.find(
+          (activity: any) => formatToSlug(activity.name) === activitySlug
+        );
+        setCurrentActivity(foundActivity);
+      } catch (error) {
+        console.error("Error fetching activity data:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
   }, [activitySlug]);
 
   // Handle activity change from selector
   const handleActivityChange = (newActivityId: string) => {
-    const newActivity = mockActivities.find(
-      (activity) => activity.id === newActivityId
+    const newActivity = activities.find(
+      (activity: any) => activity.id === newActivityId
     );
     if (newActivity) {
       const newSlug = formatToSlug(newActivity.name);
@@ -67,6 +83,19 @@ export default function ActivityDetailsPage() {
       router.replace(`/activities/${newSlug}`, { scroll: false });
     }
   };
+
+  if (loading) {
+    return (
+      <div className="flex justify-center items-center min-h-screen">
+        <div className="text-center">
+          <div className="mx-auto border-gray-900 border-b-2 rounded-full w-12 h-12 animate-spin"></div>
+          <p className="mt-4 text-muted-foreground">
+            Loading activity details...
+          </p>
+        </div>
+      </div>
+    );
+  }
 
   if (!currentActivity) {
     return (
@@ -84,10 +113,10 @@ export default function ActivityDetailsPage() {
   }
 
   // Filter related content
-  const relatedTours = mockTours.slice(0, 3);
-  const relatedActivities = mockActivities
+  const relatedTours = tours.slice(0, 3);
+  const relatedActivities = activities
     .filter(
-      (activity) =>
+      (activity: any) =>
         activity.id !== currentActivity.id &&
         activity.location.city === currentActivity.location.city
     )
@@ -134,7 +163,7 @@ export default function ActivityDetailsPage() {
                 <SelectValue placeholder="Select an activity" />
               </SelectTrigger>
               <SelectContent>
-                {mockActivities.map((activity) => (
+                {activities.map((activity: any) => (
                   <SelectItem
                     key={activity.id}
                     value={activity.id}
@@ -661,7 +690,7 @@ export default function ActivityDetailsPage() {
                     More in {currentActivity.location.city}
                   </div>
                   <div className="space-y-3">
-                    {relatedActivities.map((activity) => (
+                    {relatedActivities.map((activity: any) => (
                       <div
                         key={activity.id}
                         className="pb-3 border-slate-200 dark:border-slate-700 last:border-0 border-b cursor-pointer"
