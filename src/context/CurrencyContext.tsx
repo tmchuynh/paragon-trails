@@ -39,10 +39,34 @@ const currencies: CurrencyData[] = [
   { code: "CNY", name: "Chinese Yuan", symbol: "¥" },
   { code: "INR", name: "Indian Rupee", symbol: "₹" },
   { code: "RUB", name: "Russian Ruble", symbol: "₽" },
+  { code: "AED", name: "UAE Dirham", symbol: "د.إ" },
+  { code: "BMD", name: "Bermudian Dollar", symbol: "$" },
+  { code: "MNT", name: "Mongolian Tögrög", symbol: "₮" },
+  { code: "BRL", name: "Brazilian Real", symbol: "R$" },
+  { code: "VUV", name: "Vanuatu Vatu", symbol: "VT" },
+  { code: "ZWL", name: "Zimbabwean Dollar", symbol: "Z$" },
+  { code: "ZAR", name: "South African Rand", symbol: "R" },
+  { code: "XOF", name: "West African CFA Franc", symbol: "Fr" },
+  { code: "MAD", name: "Moroccan Dirham", symbol: "د.م." },
+  { code: "WST", name: "Samoan Tālā", symbol: "T" },
+  { code: "TZS", name: "Tanzanian Shilling", symbol: "TSh" },
+  { code: "UAH", name: "Ukrainian Hryvnia", symbol: "₴" },
+  { code: "VND", name: "Vietnamese Đồng", symbol: "₫" },
+  { code: "SGD", name: "Singapore Dollar", symbol: "S$" },
+  { code: "PLN", name: "Polish Złoty", symbol: "zł" },
+  { code: "NOK", name: "Norwegian Krone", symbol: "kr" },
+  { code: "MXN", name: "Mexican Peso", symbol: "$" },
+  { code: "THB", name: "Thai Baht", symbol: "฿" },
+  { code: "KRW", name: "South Korean Won", symbol: "₩" },
+  { code: "ISK", name: "Icelandic Króna", symbol: "kr" },
+  { code: "CHF", name: "Swiss Franc", symbol: "CHF" },
+  { code: "DOP", name: "Dominican Peso", symbol: "RD$" },
+  { code: "HKD", name: "Hong Kong Dollar", symbol: "HK$" },
+  { code: "IDR", name: "Indonesian Rupiah", symbol: "Rp" },
 ];
 
 const CurrencyContext = createContext<CurrencyContextType | undefined>(
-  undefined,
+  undefined
 );
 
 export const useCurrency = () => {
@@ -77,12 +101,12 @@ export const CurrencyProvider: React.FC<{ children: React.ReactNode }> = ({
       }
 
       const response = await fetch(
-        `https://v6.exchangerate-api.com/v6/${apiKey}/latest/USD`,
+        `https://v6.exchangerate-api.com/v6/${apiKey}/latest/USD`
       );
 
       if (!response.ok) {
         console.warn(
-          `Exchange rate API error: ${response.status}. Using fallback rates.`,
+          `Exchange rate API error: ${response.status}. Using fallback rates.`
         );
         setFallbackRates();
         return;
@@ -92,7 +116,9 @@ export const CurrencyProvider: React.FC<{ children: React.ReactNode }> = ({
 
       if (data.result !== "success") {
         console.warn(
-          `Exchange rate API error: ${data["error-type"] || "Unknown"}. Using fallback rates.`,
+          `Exchange rate API error: ${
+            data["error-type"] || "Unknown"
+          }. Using fallback rates.`
         );
         setFallbackRates();
         return;
@@ -119,6 +145,30 @@ export const CurrencyProvider: React.FC<{ children: React.ReactNode }> = ({
       CNY: 7.23,
       INR: 83.1,
       RUB: 92.5,
+      AED: 3.67,
+      BMD: 1,
+      MNT: 3400,
+      BRL: 5.25,
+      VUV: 118,
+      ZWL: 13000,
+      ZAR: 18.5,
+      XOF: 602,
+      MAD: 10.1,
+      WST: 2.7,
+      TZS: 2550,
+      UAH: 38.4,
+      VND: 24300,
+      SGD: 1.34,
+      PLN: 4.06,
+      NOK: 10.6,
+      MXN: 17.1,
+      THB: 36.2,
+      KRW: 1380,
+      ISK: 138,
+      CHF: 0.89,
+      DOP: 58.2,
+      HKD: 7.83,
+      IDR: 16000,
     });
     setError(null); // Don't show error for fallback rates
   };
@@ -155,7 +205,7 @@ export const CurrencyProvider: React.FC<{ children: React.ReactNode }> = ({
 
   const convertPrice = (
     price: number,
-    fromCurrency: string = "USD",
+    fromCurrency: string = "USD"
   ): number => {
     if (!rates || Object.keys(rates).length === 0) {
       return price;
