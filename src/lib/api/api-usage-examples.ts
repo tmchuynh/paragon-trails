@@ -1,10 +1,15 @@
 /**
  * Example usage of the new geography and destinations API
- *
+ * 
  * This file demonstrates how to use the new APIs to:
  * 1. Fetch countries and cities from the GraphQL API
  * 2. Get attractions for destinations using Geoapify
  * 3. Build destination pages with cities and attractions
+ * 
+ * IMPLEMENTED ROUTES:
+ * - /destinations → Countries by region (✅ IMPLEMENTED)
+ * - /destinations/[countryISO2] → Cities in country (✅ IMPLEMENTED)
+ * - /destinations/[countryISO2]/[cityName] → Attractions in city (✅ IMPLEMENTED)
  */
 
 import {
