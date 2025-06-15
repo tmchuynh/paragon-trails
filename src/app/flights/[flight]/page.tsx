@@ -1,5 +1,6 @@
 "use client";
 
+import Loading from "@/components/Loading";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -67,16 +68,7 @@ export default function FlightDetailsPage() {
   }, [flightId]);
 
   if (loading) {
-    return (
-      <div className="flex justify-center items-center min-h-screen">
-        <div className="text-center">
-          <div className="mx-auto border-gray-900 border-b-2 rounded-full w-12 h-12 animate-spin"></div>
-          <p className="mt-4 text-muted-foreground">
-            Loading flight details...
-          </p>
-        </div>
-      </div>
-    );
+    return <Loading />;
   }
 
   if (!flight) {
