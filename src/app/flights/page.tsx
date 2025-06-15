@@ -39,10 +39,6 @@ import { toast } from "sonner";
 export default function FlightsPage() {
   const { formatPrice } = useCurrency();
   const { state: cartState, dispatch } = useCart();
-  const [dropdown, setDropdown] =
-    useState<React.ComponentProps<typeof Calendar>["captionLayout"]>(
-      "dropdown"
-    );
 
   const [filteredFlights, setFilteredFlights] = useState(mockFlights);
   const [searchQuery, setSearchQuery] = useState("");
@@ -486,22 +482,12 @@ export default function FlightsPage() {
                 <div className="relative">
                   <Plane className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
                   <Select value={fromLocation} onValueChange={setFromLocation}>
-                    <SelectTrigger
-                      className="pl-10 border border-border w-full"
-                      variant="professional"
-                    >
+                    <SelectTrigger className="pl-10 border border-border w-full">
                       <SelectValue placeholder="Departure city" />
                     </SelectTrigger>
-                    <SelectContent
-                      className="w-full max-h-60"
-                      variant="professional"
-                    >
+                    <SelectContent className="w-full max-h-60">
                       {locations.map((location) => (
-                        <SelectItem
-                          key={location.value}
-                          value={location.value}
-                          variant="classic"
-                        >
+                        <SelectItem key={location.value} value={location.value}>
                           {location.label}
                         </SelectItem>
                       ))}
@@ -517,16 +503,9 @@ export default function FlightsPage() {
                   <SelectTrigger className="border border-border w-full">
                     <SelectValue placeholder="Destination city" />
                   </SelectTrigger>
-                  <SelectContent
-                    className="w-full max-h-60"
-                    variant="professional"
-                  >
+                  <SelectContent className="w-full max-h-60">
                     {locations.map((location) => (
-                      <SelectItem
-                        key={location.value}
-                        value={location.value}
-                        variant="classic"
-                      >
+                      <SelectItem key={location.value} value={location.value}>
                         {location.label}
                       </SelectItem>
                     ))}
@@ -544,16 +523,9 @@ export default function FlightsPage() {
                   <SelectTrigger className="border border-border w-full">
                     <SelectValue placeholder="Select airline" />
                   </SelectTrigger>
-                  <SelectContent
-                    className="w-full max-h-60"
-                    variant="professional"
-                  >
+                  <SelectContent className="w-full max-h-60">
                     {airlines.map((airline) => (
-                      <SelectItem
-                        key={airline.value}
-                        value={airline.value}
-                        variant="classic"
-                      >
+                      <SelectItem key={airline.value} value={airline.value}>
                         {airline.label}
                       </SelectItem>
                     ))}
@@ -690,16 +662,9 @@ export default function FlightsPage() {
                         <SelectTrigger className="border border-border w-full">
                           <SelectValue />
                         </SelectTrigger>
-                        <SelectContent
-                          className="w-full max-h-60"
-                          variant="professional"
-                        >
+                        <SelectContent className="w-full max-h-60">
                           {[1, 2, 3, 4, 5, 6, 7, 8].map((num) => (
-                            <SelectItem
-                              key={num}
-                              value={num.toString()}
-                              variant="classic"
-                            >
+                            <SelectItem key={num} value={num.toString()}>
                               {num} passenger{num > 1 ? "s" : ""}
                             </SelectItem>
                           ))}
@@ -714,20 +679,10 @@ export default function FlightsPage() {
                         <SelectTrigger className="border border-border w-full">
                           <SelectValue />
                         </SelectTrigger>
-                        <SelectContent
-                          className="w-full max-h-60"
-                          variant="professional"
-                        >
-                          <SelectItem value="economy" variant="classic">
-                            Economy
-                          </SelectItem>
-                          <SelectItem value="business" variant="classic">
-                            {" "}
-                            Business
-                          </SelectItem>
-                          <SelectItem value="first" variant="classic">
-                            First Class
-                          </SelectItem>
+                        <SelectContent className="w-full max-h-60">
+                          <SelectItem value="economy">Economy</SelectItem>
+                          <SelectItem value="business">Business</SelectItem>
+                          <SelectItem value="first">First Class</SelectItem>
                         </SelectContent>
                       </Select>
                     </div>
@@ -742,16 +697,9 @@ export default function FlightsPage() {
                         <SelectTrigger className="border border-border w-full">
                           <SelectValue placeholder="Select time range" />
                         </SelectTrigger>
-                        <SelectContent
-                          className="w-full max-h-60"
-                          variant="professional"
-                        >
+                        <SelectContent className="w-full max-h-60">
                           {timeRanges.map((range) => (
-                            <SelectItem
-                              key={range.value}
-                              value={range.value}
-                              variant="classic"
-                            >
+                            <SelectItem key={range.value} value={range.value}>
                               {range.label}
                             </SelectItem>
                           ))}
@@ -769,16 +717,9 @@ export default function FlightsPage() {
                         <SelectTrigger className="border border-border w-full">
                           <SelectValue placeholder="Select time range" />
                         </SelectTrigger>
-                        <SelectContent
-                          className="w-full max-h-60"
-                          variant="professional"
-                        >
+                        <SelectContent className="w-full max-h-60">
                           {timeRanges.map((range) => (
-                            <SelectItem
-                              key={range.value}
-                              value={range.value}
-                              variant="classic"
-                            >
+                            <SelectItem key={range.value} value={range.value}>
                               {range.label}
                             </SelectItem>
                           ))}
@@ -796,10 +737,7 @@ export default function FlightsPage() {
                         <SelectTrigger className="border border-border w-full">
                           <SelectValue placeholder="Select duration" />
                         </SelectTrigger>
-                        <SelectContent
-                          className="w-full max-h-60"
-                          variant="professional"
-                        >
+                        <SelectContent className="w-full max-h-60">
                           {durations.map((duration) => (
                             <SelectItem
                               key={duration.value}
@@ -822,16 +760,9 @@ export default function FlightsPage() {
                         <SelectTrigger className="border border-border w-full">
                           <SelectValue placeholder="Select stops" />
                         </SelectTrigger>
-                        <SelectContent
-                          className="w-full max-h-60"
-                          variant="professional"
-                        >
+                        <SelectContent className="w-full max-h-60">
                           {stopOptions.map((option) => (
-                            <SelectItem
-                              key={option.value}
-                              value={option.value}
-                              variant="classic"
-                            >
+                            <SelectItem key={option.value} value={option.value}>
                               {option.label}
                             </SelectItem>
                           ))}
@@ -849,16 +780,9 @@ export default function FlightsPage() {
                         <SelectTrigger className="border border-border w-full">
                           <SelectValue placeholder="Select meal type" />
                         </SelectTrigger>
-                        <SelectContent
-                          className="w-full max-h-60"
-                          variant="professional"
-                        >
+                        <SelectContent className="w-full max-h-60">
                           {meals.map((meal) => (
-                            <SelectItem
-                              key={meal.value}
-                              value={meal.value}
-                              variant="classic"
-                            >
+                            <SelectItem key={meal.value} value={meal.value}>
                               {meal.label}
                             </SelectItem>
                           ))}
@@ -876,10 +800,7 @@ export default function FlightsPage() {
                         <SelectTrigger className="border border-border w-full">
                           <SelectValue placeholder="Select amenity" />
                         </SelectTrigger>
-                        <SelectContent
-                          className="w-full max-h-60"
-                          variant="professional"
-                        >
+                        <SelectContent className="w-full max-h-60">
                           {amenities.map((amenity) => (
                             <SelectItem
                               key={amenity.value}
@@ -975,25 +896,12 @@ export default function FlightsPage() {
                     <SelectTrigger className="border border-border w-full md:w-20">
                       <SelectValue />
                     </SelectTrigger>
-                    <SelectContent
-                      className="w-full max-h-60"
-                      variant="professional"
-                    >
-                      <SelectItem value="4" variant="classic">
-                        4
-                      </SelectItem>
-                      <SelectItem value="8" variant="classic">
-                        8
-                      </SelectItem>
-                      <SelectItem value="12" variant="classic">
-                        12
-                      </SelectItem>
-                      <SelectItem value="16" variant="classic">
-                        16
-                      </SelectItem>
-                      <SelectItem value="24" variant="classic">
-                        24
-                      </SelectItem>
+                    <SelectContent className="w-full max-h-60">
+                      <SelectItem value="4">4</SelectItem>
+                      <SelectItem value="8">8</SelectItem>
+                      <SelectItem value="12">12</SelectItem>
+                      <SelectItem value="16">16</SelectItem>
+                      <SelectItem value="24">24</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
@@ -1005,10 +913,7 @@ export default function FlightsPage() {
                     <SelectTrigger className="border border-border w-full md:w-48">
                       <SelectValue />
                     </SelectTrigger>
-                    <SelectContent
-                      className="w-full max-h-60"
-                      variant="professional"
-                    >
+                    <SelectContent className="w-full max-h-60">
                       <SelectItem value="price-low">
                         Price: Low to High
                       </SelectItem>
