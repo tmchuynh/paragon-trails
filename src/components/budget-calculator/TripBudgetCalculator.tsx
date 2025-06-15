@@ -30,21 +30,21 @@ import { MdFlightTakeoff } from "react-icons/md";
 import { RiHotelFill } from "react-icons/ri";
 
 // Import mock data
-import { mockActivities } from "@/data/activities";
-import { mockAttractions } from "@/data/attractions";
-import { mockDestinations } from "@/data/destinations";
-import { mockFlights } from "@/data/flights";
-import { mockHotels } from "@/data/hotels";
-import { mockTours } from "@/data/tours";
+import { mockActivities, Activity } from "@/data/activities";
+import { mockAttractions, Attraction } from "@/data/attractions";
+import { mockDestinations, Destination } from "@/data/destinations";
+import { mockFlights, Flight } from "@/data/flights";
+import { mockHotels, Hotel } from "@/data/hotels";
+import { mockTours, Tour } from "@/data/tours";
 import { displayRatingStars } from "@/lib/utils/displayRatingStars";
 
-// Ensure mock data is always an array
-const safeActivities = Array.isArray(mockActivities) ? mockActivities : [];
-const safeAttractions = Array.isArray(mockAttractions) ? mockAttractions : [];
-const safeFlights = Array.isArray(mockFlights) ? mockFlights : [];
-const safeHotels = Array.isArray(mockHotels) ? mockHotels : [];
-const safeTours = Array.isArray(mockTours) ? mockTours : [];
-const safeDestinations = Array.isArray(mockDestinations)
+// Ensure mock data is always an array - handle both sync arrays and async functions
+const safeActivities: Activity[] = Array.isArray(mockActivities) ? mockActivities : [];
+const safeAttractions: Attraction[] = Array.isArray(mockAttractions) ? mockAttractions : [];
+const safeFlights: Flight[] = Array.isArray(mockFlights) ? mockFlights : [];
+const safeHotels: Hotel[] = Array.isArray(mockHotels) ? mockHotels : [];
+const safeTours: Tour[] = Array.isArray(mockTours) ? mockTours : [];
+const safeDestinations: Destination[] = Array.isArray(mockDestinations)
   ? mockDestinations
   : [];
 
