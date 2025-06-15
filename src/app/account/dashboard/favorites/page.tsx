@@ -14,6 +14,14 @@ import { getMockHotels } from "@/data/hotels";
 import { getMockTours } from "@/data/tours";
 import { getMockUserData } from "@/data/users";
 import { getMockVehicles } from "@/data/vehicles";
+import { Activity } from "@/lib/interfaces/services/activities";
+import { Attraction } from "@/lib/interfaces/services/attractions";
+import { Destination } from "@/lib/interfaces/services/destinations";
+import { Flight } from "@/lib/interfaces/services/flights";
+import { Hotel } from "@/lib/interfaces/services/hotels";
+import { Tour } from "@/lib/interfaces/services/tours";
+import { User } from "@/lib/interfaces/services/user";
+import { Vehicle } from "@/lib/interfaces/services/vehicles";
 import {
   ArrowLeft,
   Building,
@@ -39,14 +47,14 @@ export default function FavoritesPage() {
   const [activeTab, setActiveTab] = useState("hotels");
 
   // State for API data
-  const [users, setUsers] = useState<any[]>([]);
-  const [hotels, setHotels] = useState<any[]>([]);
-  const [flights, setFlights] = useState<any[]>([]);
-  const [tours, setTours] = useState<any[]>([]);
-  const [destinations, setDestinations] = useState<any[]>([]);
-  const [attractions, setAttractions] = useState<any[]>([]);
-  const [activities, setActivities] = useState<any[]>([]);
-  const [vehicles, setVehicles] = useState<any[]>([]);
+  const [users, setUsers] = useState<User[]>([]);
+  const [hotels, setHotels] = useState<Hotel[]>([]);
+  const [flights, setFlights] = useState<Flight[]>([]);
+  const [tours, setTours] = useState<Tour[]>([]);
+  const [destinations, setDestinations] = useState<Destination[]>([]);
+  const [attractions, setAttractions] = useState<Attraction[]>([]);
+  const [activities, setActivities] = useState<Activity[]>([]);
+  const [vehicles, setVehicles] = useState<Vehicle[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -107,29 +115,33 @@ export default function FavoritesPage() {
 
   // Get favorite items based on IDs
   const favoriteHotels = favorites.hotels
-    ? mockHotels.filter((hotel) => favorites.hotels?.includes(hotel.id))
+    ? hotels.filter((hotel: Hotel) => favorites.hotels?.includes(hotel.id))
     : [];
   const favoriteFlights = favorites.flights
-    ? mockFlights.filter((flight) => favorites.flights?.includes(flight.id))
+    ? flights.filter((flight: Flight) => favorites.flights?.includes(flight.id))
     : [];
   const favoriteTours = favorites.tours
-    ? mockTours.filter((tour) => favorites.tours?.includes(tour.id))
+    ? tours.filter((tour: Tour) => favorites.tours?.includes(tour.id))
     : [];
   const favoriteDestinations = favorites.destinations
-    ? mockDestinations.filter((dest) =>
+    ? destinations.filter((dest: Destination) =>
         favorites.destinations?.includes(dest.id)
       )
     : [];
   const favoriteAttractions = favorites.attractions
-    ? mockAttractions.filter((attr) => favorites.attractions?.includes(attr.id))
+    ? attractions.filter((attr: Attraction) =>
+        favorites.attractions?.includes(attr.id)
+      )
     : [];
   const favoriteActivities = favorites.activities
-    ? mockActivities.filter((activity) =>
+    ? activities.filter((activity: Activity) =>
         favorites.activities?.includes(activity.id)
       )
     : [];
   const favoriteVehicles = favorites.vehicles
-    ? mockVehicles.filter((vehicle) => favorites.vehicles?.includes(vehicle.id))
+    ? vehicles.filter((vehicle: Vehicle) =>
+        favorites.vehicles?.includes(vehicle.id)
+      )
     : [];
 
   const totalFavorites =
@@ -145,6 +157,19 @@ export default function FavoritesPage() {
     toast.success(`Removed from favorites`);
     // In a real app, this would update the user's favorites in the backend
   };
+
+  if (loading) {
+    return (
+      <div className="flex justify-center items-center min-h-screen">
+        <div className="text-center">
+          <div className="mx-auto border-gray-900 border-b-2 rounded-full w-12 h-12 animate-spin"></div>
+          <p className="mt-4 text-muted-foreground">
+            Loading your favorites...
+          </p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen">
@@ -621,7 +646,7 @@ export default function FavoritesPage() {
                             <div className="flex gap-2">
                               {destination.highlights
                                 .slice(0, 2)
-                                .map((highlight, index) => (
+                                .map((highlight: string, index: number) => (
                                   <Badge
                                     key={index}
                                     variant="outline"
