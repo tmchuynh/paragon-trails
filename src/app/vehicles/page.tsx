@@ -61,10 +61,10 @@ export default function VehiclesPage() {
 
   // Calculate min and max prices from vehicles data
   const minPrice = Math.min(
-    ...vehicles.map((vehicle) => vehicle.pricing.daily)
+    ...vehicles.map((vehicle) => vehicle.pricing?.daily || 50)
   );
   const maxPrice = Math.max(
-    ...vehicles.map((vehicle) => vehicle.pricing.daily)
+    ...vehicles.map((vehicle) => vehicle.pricing?.daily || 500)
   );
 
   const [priceRange, setPriceRange] = useState([minPrice, maxPrice]);
@@ -253,8 +253,8 @@ export default function VehiclesPage() {
     // Filter by price range
     filtered = filtered.filter(
       (vehicle) =>
-        vehicle.pricing.daily >= priceRange[0] &&
-        vehicle.pricing.daily <= priceRange[1]
+        (vehicle.pricing?.daily || 100) >= priceRange[0] &&
+        (vehicle.pricing?.daily || 100) <= priceRange[1]
     );
 
     // Sort results
