@@ -37,7 +37,21 @@ Returns manufacturers for a specific vehicle type (car, truck, motorcycle, etc.)
 - `/vehicles/GetMakesForVehicleType/truck`
 - `/vehicles/GetMakesForVehicleType/motorcycle`
 
-### 3. Get Vehicle Variables List
+### 3. Get Models for Make
+
+```
+GET /vehicles/GetModelsForMake/{make}?format=json
+```
+
+Returns all models for a specific manufacturer.
+
+**Example:**
+
+- `/vehicles/GetModelsForMake/toyota`
+- `/vehicles/GetModelsForMake/ford`
+- `/vehicles/GetModelsForMake/honda`
+
+### 4. Get Vehicle Variables List
 
 ```
 GET /vehicles/GetVehicleVariableList?format=json
@@ -54,6 +68,7 @@ The integration is implemented in `/src/lib/api/services/nhtsa.ts`:
 - `NHTSAService` class handles all API interactions
 - `getAllMakes()` - Fetches all vehicle manufacturers
 - `getMakesForVehicleType(type)` - Fetches manufacturers for specific vehicle types
+- `getModelsForMake(make)` - Fetches all models for a specific manufacturer
 - `getVehicleVariableList()` - Fetches available vehicle variables
 - `transformMakesToVehicles()` - Transforms NHTSA data to our vehicle format
 
@@ -75,11 +90,12 @@ The vehicle data is integrated in `/src/data/vehicles.ts`:
 
 ## Testing
 
-Visit `/nhtsa-test` in the application to see the NHTSA API integration in action:
+Visit `/vehicles` in the application to see the NHTSA API integration in action:
 
-- Browse real vehicle manufacturers by type
-- See live data from the NHTSA API
-- Test different vehicle categories
+- Browse real vehicle manufacturers by type (cars, trucks, motorcycles)
+- Click on any manufacturer to see its models
+- See live data from the NHTSA API with up to 20 models per make
+- Test different vehicle categories with loading states and error handling
 
 ## Data Transformation
 
@@ -135,6 +151,9 @@ import { nHTSAService } from "@/lib/api/services/nhtsa";
 
 // Get all car manufacturers
 const carMakes = await nHTSAService.getMakesForVehicleType("car");
+
+// Get models for a specific make
+const toyotaModels = await nHTSAService.getModelsForMake("toyota");
 
 // Transform to rental vehicles
 const vehicles = nHTSAService.transformMakesToVehicles(carMakes, "car");
