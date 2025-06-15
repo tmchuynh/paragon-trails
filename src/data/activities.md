@@ -1,21 +1,25 @@
 # Activities Data Service
 
-## Overview
-The Activities data service provides functionality to fetch and transform activity data for the Paragon Trails application. This service has been migrated from static mock data to dynamic API-driven data using the DummyJSON products API.
+*Last Updated: June 15, 2025*
 
-## Service Architecture
+## 🎯 Overview
+The Activities data service provides functionality to fetch and transform activity data for the Paragon Trails application. This service has been fully migrated from static mock data to dynamic API-driven data using the DummyJSON products API, providing real-time activity information with rich metadata.
+
+## 🏗️ Service Architecture
 - **Primary Data Source**: DummyJSON Products API via `ProductService`
-- **Data Transformation**: Products are transformed into activity objects with travel-specific properties
+- **Data Transformation**: Products are intelligently transformed into activity objects with travel-specific properties
+- **Category Mapping**: Product categories mapped to travel activity types
+- **Pricing Integration**: Dynamic pricing with currency conversion support
 - **Backward Compatibility**: Maintains legacy exports for existing components
 
-## Exports
+## 📦 Exports
 
 ### Core Services
 ```typescript
 export { ProductService } from "@/lib/api/services";
 ```
 
-### Types
+### Types & Interfaces
 ```typescript
 export type { Activity } from "@/lib/interfaces/services/activities";
 ```
@@ -23,9 +27,16 @@ export type { Activity } from "@/lib/interfaces/services/activities";
 ### Main Functions
 
 #### `getMockActivities()`
-Fetches and transforms product data into activity objects.
+Fetches and transforms product data into comprehensive activity objects.
 
 **Returns**: `Promise<Activity[]>`
+
+**Features**:
+- Real-time data from DummyJSON API
+- Intelligent category mapping (Electronics → Adventure, etc.)
+- Price transformation and currency support
+- Image optimization and gallery creation
+- Location assignment based on product metadata
 
 **Usage**:
 ```typescript
