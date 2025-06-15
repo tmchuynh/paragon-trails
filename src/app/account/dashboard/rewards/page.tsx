@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { useAuth } from "@/context/AuthContext";
-import { mockUserData } from "@/data/users";
+import { getMockUserData } from "@/data/users";
 import {
   ArrowLeft,
   Award,
@@ -189,20 +189,53 @@ const initialPointsHistory: Activity[] = [
 export default function RewardsPage() {
   const { user, isAuthenticated } = useAuth();
   const router = useRouter();
+  const [currentUser, setCurrentUser] = useState<any>(null);
+  const [loading, setLoading] = useState(true);
 
-  // Get current user data from mock data
-  const currentUser =
-    mockUserData.find((u) => u.email === user?.email) || mockUserData[0];
+  useEffect(() => {
+    const fetchUserData = async () => {
+      if (!user) {
+        setLoading(false);
+        return;
+      }
+
+      try {
+        const userData = await getMockUserData();
+        const foundUser =
+          userData.find((u: any) => u.email === user.email) || userData[0];
+        setCurrentUser(foundUser);
+      } catch (error) {
+        console.error("Error fetching user data:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchUserData();
+  }, [user]);
 
   // State management
   const [userData, setUserData] = useState({
-    currentPoints: currentUser.rewardsPoints.current,
-    currentTier:
-      currentUser.rewardsPoints.tier.toLowerCase() as keyof typeof rewardsTierBenefits,
-    pointsThisYear: 1200,
-    totalPointsEarned: 8450,
+    currentPoints: 0,
+    currentTier: "bronze" as keyof typeof rewardsTierBenefits,
+    pointsThisYear: 0,
+    totalPointsEarned: 0,
     nextTierPoints: 5000,
   });
+
+  // Update userData when currentUser is loaded
+  useEffect(() => {
+    if (currentUser && currentUser.rewardsPoints) {
+      setUserData({
+        currentPoints: currentUser.rewardsPoints.current,
+        currentTier:
+          currentUser.rewardsPoints.tier.toLowerCase() as keyof typeof rewardsTierBenefits,
+        pointsThisYear: 1200,
+        totalPointsEarned: 8450,
+        nextTierPoints: 5000,
+      });
+    }
+  }, [currentUser]);
 
   const [availableRewards, setAvailableRewards] = useState(initialRewards);
   const [pointsHistory, setPointsHistory] = useState([
@@ -225,6 +258,17 @@ export default function RewardsPage() {
       router.push("/login");
     }
   }, [isAuthenticated, router]);
+
+  if (loading) {
+    return (
+      <div className="flex justify-center items-center min-h-screen">
+        <div className="text-center">
+          <div className="mx-auto border-gray-900 border-b-2 rounded-full w-12 h-12 animate-spin"></div>
+          <p className="mt-4 text-muted-foreground">Loading your rewards...</p>
+        </div>
+      </div>
+    );
+  }
 
   if (!isAuthenticated) {
     return null;
