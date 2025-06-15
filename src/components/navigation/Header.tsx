@@ -102,7 +102,7 @@ export default function Header() {
             </DropdownMenu>
             {isAuthenticated ? (
               <DropdownMenu>
-                <DropdownMenuTrigger className="flex items-center gap-1 m-0 p-0 h-fit text-white text-xs hover:text-sky-300 transition-colors">
+                <DropdownMenuTrigger className="flex items-center gap-1 m-2 p-0 h-fit text-white text-xs hover:text-sky-300 transition-colors">
                   <UserCircle className="w-4 h-4" />
                   <span className="sm:inline hidden">
                     {user?.firstName || "Account"}
