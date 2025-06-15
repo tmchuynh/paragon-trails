@@ -161,7 +161,9 @@ export default function HomePage() {
                       />
                       <div className="top-2 right-2 absolute bg-white px-2 py-1 rounded-lg font-bold text-sm">
                         {formatPrice(
-                          destination.pricing.accommodationRange.midRange
+                          destination.pricing?.accommodationRange?.midRange ||
+                            destination.pricing?.averageDailyBudget ||
+                            100
                         )}
                       </div>
                     </div>
