@@ -15,6 +15,7 @@ import { Separator } from "@/components/ui/separator";
 import { cartHelpers, useCart } from "@/context/CartContext";
 import { useCurrency } from "@/context/CurrencyContext";
 import { mockFlights } from "@/data/flights";
+import { displayRatingStars } from "@/lib/utils/displayRatingStars";
 import { formatToSlug } from "@/lib/utils/format";
 import {
   ArrowLeft,
@@ -106,14 +107,14 @@ export default function FlightDetailsPage() {
         (item) =>
           item.name === flightItem.name &&
           item.dates.startDate === flightItem.dates.startDate &&
-          item.location === flightItem.location,
+          item.location === flightItem.location
       );
 
       if (existingItem) {
         const newGuestCount = existingItem.guests + passengers;
         cartHelpers.updateGuests(dispatch, existingItem.id, newGuestCount);
         toast.success(
-          `Added ${passengers} more passenger${passengers > 1 ? "s" : ""} to ${flight.flightNumber}!`,
+          `Added ${passengers} more passenger${passengers > 1 ? "s" : ""} to ${flight.flightNumber}!`
         );
         setIsBooking(false);
         return;
@@ -269,9 +270,11 @@ export default function FlightDetailsPage() {
             {/* Amenities & Services */}
             <Card>
               <CardHeader>
-                <CardTitle>Amenities & Services</CardTitle>
+                <CardTitle className="font-semibold text-lg">
+                  Amenities & Services
+                </CardTitle>
               </CardHeader>
-              <CardContent>
+              <CardContent className="-mt-5">
                 <div className="gap-6 grid grid-cols-1 md:grid-cols-2">
                   <div>
                     <h4 className="mb-3 font-semibold">In-Flight Amenities</h4>
@@ -329,60 +332,67 @@ export default function FlightDetailsPage() {
             {/* Seat Availability */}
             <Card>
               <CardHeader>
-                <CardTitle>Available Classes</CardTitle>
+                <CardTitle className="font-semibold text-lg">
+                  Available Classes
+                </CardTitle>
               </CardHeader>
-              <CardContent>
+              <CardContent className="-mt-5">
                 <div className="gap-4 grid grid-cols-1 md:grid-cols-3">
-                  <div
-                    className={`p-4 border rounded-lg cursor-pointer transition-colors ${
-                      selectedClass === "economy"
-                        ? "border-blue-500 bg-blue-50 dark:bg-blue-950/20"
-                        : "border-slate-200"
-                    }`}
-                    onClick={() => setSelectedClass("economy")}
-                  >
-                    <h4 className="mb-2 font-semibold">Economy</h4>
-                    <p className="mb-2 font-bold text-2xl text-blue-600">
-                      {formatPrice(flight.pricing.economy)}
-                    </p>
-                    <p className="text-slate-600 text-sm">
-                      {flight.availability.economy} seats available
-                    </p>
-                  </div>
+                  {flight.availability.economy > 0 && (
+                    <div
+                      className={`p-4 border rounded-lg cursor-pointer transition-colors ${
+                        selectedClass === "economy"
+                          ? "border-blue-500 bg-blue-50 dark:bg-blue-950/20"
+                          : "border-slate-200"
+                      }`}
+                      onClick={() => setSelectedClass("economy")}
+                    >
+                      <h4 className="mb-2 font-semibold">Economy</h4>
+                      <p className="mb-2 font-bold text-2xl text-blue-600">
+                        {formatPrice(flight.pricing.economy)}
+                      </p>
+                      <p className="text-slate-600 text-sm">
+                        {flight.availability.economy} seats available
+                      </p>
+                    </div>
+                  )}
+                  {flight.availability.business > 0 && (
+                    <div
+                      className={`p-4 border rounded-lg cursor-pointer transition-colors ${
+                        selectedClass === "business"
+                          ? "border-blue-500 bg-blue-50 dark:bg-blue-950/20"
+                          : "border-slate-200"
+                      }`}
+                      onClick={() => setSelectedClass("business")}
+                    >
+                      <h4 className="mb-2 font-semibold">Business</h4>
+                      <p className="mb-2 font-bold text-2xl text-blue-600">
+                        {formatPrice(flight.pricing.business)}
+                      </p>
+                      <p className="text-slate-600 text-sm">
+                        {flight.availability.business} seats available
+                      </p>
+                    </div>
+                  )}
 
-                  <div
-                    className={`p-4 border rounded-lg cursor-pointer transition-colors ${
-                      selectedClass === "business"
-                        ? "border-blue-500 bg-blue-50 dark:bg-blue-950/20"
-                        : "border-slate-200"
-                    }`}
-                    onClick={() => setSelectedClass("business")}
-                  >
-                    <h4 className="mb-2 font-semibold">Business</h4>
-                    <p className="mb-2 font-bold text-2xl text-blue-600">
-                      {formatPrice(flight.pricing.business)}
-                    </p>
-                    <p className="text-slate-600 text-sm">
-                      {flight.availability.business} seats available
-                    </p>
-                  </div>
-
-                  <div
-                    className={`p-4 border rounded-lg cursor-pointer transition-colors ${
-                      selectedClass === "first"
-                        ? "border-blue-500 bg-blue-50 dark:bg-blue-950/20"
-                        : "border-slate-200"
-                    }`}
-                    onClick={() => setSelectedClass("first")}
-                  >
-                    <h4 className="mb-2 font-semibold">First Class</h4>
-                    <p className="mb-2 font-bold text-2xl text-blue-600">
-                      {formatPrice(flight.pricing.first)}
-                    </p>
-                    <p className="text-slate-600 text-sm">
-                      {flight.availability.first} seats available
-                    </p>
-                  </div>
+                  {flight.availability.first > 0 && (
+                    <div
+                      className={`p-4 border rounded-lg cursor-pointer transition-colors ${
+                        selectedClass === "first"
+                          ? "border-blue-500 bg-blue-50 dark:bg-blue-950/20"
+                          : "border-slate-200"
+                      }`}
+                      onClick={() => setSelectedClass("first")}
+                    >
+                      <h4 className="mb-2 font-semibold">First Class</h4>
+                      <p className="mb-2 font-bold text-2xl text-blue-600">
+                        {formatPrice(flight.pricing.first)}
+                      </p>
+                      <p className="text-slate-600 text-sm">
+                        {flight.availability.first} seats available
+                      </p>
+                    </div>
+                  )}
                 </div>
               </CardContent>
             </Card>
@@ -392,11 +402,15 @@ export default function FlightDetailsPage() {
           <div className="space-y-6">
             <Card>
               <CardHeader>
-                <CardTitle>Book Your Flight</CardTitle>
+                <CardTitle className="font-semibold text-lg">
+                  Book Your Flight
+                </CardTitle>
               </CardHeader>
-              <CardContent className="space-y-4">
+              <CardContent className="space-y-4 -mt-3">
                 <div className="space-y-2">
-                  <Label htmlFor="departure-date">Departure Date</Label>
+                  <Label htmlFor="departure-date">
+                    <strong>Departure Date</strong>
+                  </Label>
                   <Input
                     id="departure-date"
                     type="date"
@@ -408,7 +422,9 @@ export default function FlightDetailsPage() {
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="return-date">Return Date (Optional)</Label>
+                  <Label htmlFor="return-date">
+                    <strong>Return Date (Optional)</strong>
+                  </Label>
                   <Input
                     id="return-date"
                     type="date"
@@ -422,7 +438,9 @@ export default function FlightDetailsPage() {
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="passengers">Passengers</Label>
+                  <Label htmlFor="passengers">
+                    <strong>Passengers</strong>
+                  </Label>
                   <Select
                     value={passengers.toString()}
                     onValueChange={(value) => setPassengers(parseInt(value))}
@@ -490,21 +508,21 @@ export default function FlightDetailsPage() {
               </CardHeader>
               <CardContent className="space-y-3 text-sm">
                 <div className="flex justify-between">
-                  <span>Route</span>
+                  <strong>Route</strong>
                   <span>
                     {flight.origin.code} → {flight.destination.code}
                   </span>
                 </div>
                 <div className="flex justify-between">
-                  <span>Duration</span>
+                  <strong>Duration</strong>
                   <span>{flight.duration}</span>
                 </div>
                 <div className="flex justify-between">
-                  <span>Aircraft</span>
+                  <strong>Aircraft</strong>
                   <span>{flight.aircraft}</span>
                 </div>
                 <div className="flex justify-between">
-                  <span>Stops</span>
+                  <strong>Stops</strong>
                   <span>
                     {flight.stops === 0
                       ? "Non-stop"
@@ -512,10 +530,11 @@ export default function FlightDetailsPage() {
                   </span>
                 </div>
                 <div className="flex justify-between">
-                  <span>Rating</span>
+                  <strong>Rating</strong>
                   <span className="flex items-center gap-1">
-                    <Star className="w-3 h-3 text-yellow-400 fill-yellow-400" />
-                    {flight.rating}
+                    {displayRatingStars(flight.rating, 5, {
+                      showRatingNumber: true,
+                    })}
                   </span>
                 </div>
               </CardContent>
