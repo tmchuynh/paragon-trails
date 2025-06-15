@@ -3,7 +3,6 @@
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useAuth } from "@/context/AuthContext";
-import { getBudgetStats, getTripStats } from "@/data/trips";
 import { Calendar, DollarSign, MapPin, Plane, Target } from "lucide-react";
 
 export default function MyTripsPage() {

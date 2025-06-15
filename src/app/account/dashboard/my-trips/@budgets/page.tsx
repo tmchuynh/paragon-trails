@@ -18,7 +18,6 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Progress } from "@/components/ui/progress";
 import { useAuth } from "@/context/AuthContext";
-import { getBudgetsByUser, getTripsByUser } from "@/data/trips";
 import { differenceInMonths, format, isBefore } from "date-fns";
 import {
   AlertCircle,

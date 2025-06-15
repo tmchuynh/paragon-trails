@@ -17,7 +17,6 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { useAuth } from "@/context/AuthContext";
-import { getTripsByUser } from "@/data/trips";
 import { format, isBefore } from "date-fns";
 import {
   Calendar,
