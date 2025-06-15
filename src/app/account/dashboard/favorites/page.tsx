@@ -1,5 +1,6 @@
 "use client";
 
+import Loading from "@/components/Loading";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -11,7 +12,6 @@ import { getMockAttractions } from "@/data/attractions";
 import { getMockDestinations } from "@/data/destinations";
 import { getMockFlights } from "@/data/flights";
 import { getMockHotels } from "@/data/hotels";
-import { getMockTours } from "@/data/tours";
 import { getMockUserData } from "@/data/users";
 import { getMockVehicles } from "@/data/vehicles";
 import { Activity } from "@/lib/interfaces/services/activities";
@@ -19,7 +19,6 @@ import { Attraction } from "@/lib/interfaces/services/attractions";
 import { Destination } from "@/lib/interfaces/services/destinations";
 import { Flight } from "@/lib/interfaces/services/flights";
 import { Hotel } from "@/lib/interfaces/services/hotels";
-import { Tour } from "@/lib/interfaces/services/tours";
 import { User } from "@/lib/interfaces/services/user";
 import { Vehicle } from "@/lib/interfaces/services/vehicles";
 import {
@@ -50,7 +49,6 @@ export default function FavoritesPage() {
   const [users, setUsers] = useState<User[]>([]);
   const [hotels, setHotels] = useState<Hotel[]>([]);
   const [flights, setFlights] = useState<Flight[]>([]);
-  const [tours, setTours] = useState<Tour[]>([]);
   const [destinations, setDestinations] = useState<Destination[]>([]);
   const [attractions, setAttractions] = useState<Attraction[]>([]);
   const [activities, setActivities] = useState<Activity[]>([]);
@@ -64,7 +62,6 @@ export default function FavoritesPage() {
           usersData,
           hotelsData,
           flightsData,
-          toursData,
           destinationsData,
           attractionsData,
           activitiesData,
@@ -73,7 +70,6 @@ export default function FavoritesPage() {
           getMockUserData(),
           getMockHotels(),
           getMockFlights(),
-          getMockTours(),
           getMockDestinations(),
           getMockAttractions(),
           getMockActivities(),
@@ -83,7 +79,6 @@ export default function FavoritesPage() {
         setUsers(usersData);
         setHotels(hotelsData);
         setFlights(flightsData);
-        setTours(toursData);
         setDestinations(destinationsData);
         setAttractions(attractionsData);
         setActivities(activitiesData);
@@ -120,9 +115,6 @@ export default function FavoritesPage() {
   const favoriteFlights = favorites.flights
     ? flights.filter((flight: Flight) => favorites.flights?.includes(flight.id))
     : [];
-  const favoriteTours = favorites.tours
-    ? tours.filter((tour: Tour) => favorites.tours?.includes(tour.id))
-    : [];
   const favoriteDestinations = favorites.destinations
     ? destinations.filter((dest: Destination) =>
         favorites.destinations?.includes(dest.id)
@@ -147,7 +139,6 @@ export default function FavoritesPage() {
   const totalFavorites =
     favoriteHotels.length +
     favoriteFlights.length +
-    favoriteTours.length +
     favoriteDestinations.length +
     favoriteAttractions.length +
     favoriteActivities.length +
@@ -159,16 +150,7 @@ export default function FavoritesPage() {
   };
 
   if (loading) {
-    return (
-      <div className="flex justify-center items-center min-h-screen">
-        <div className="text-center">
-          <div className="mx-auto border-gray-900 border-b-2 rounded-full w-12 h-12 animate-spin"></div>
-          <p className="mt-4 text-muted-foreground">
-            Loading your favorites...
-          </p>
-        </div>
-      </div>
-    );
+    return <Loading />;
   }
 
   return (
@@ -220,13 +202,6 @@ export default function FavoritesPage() {
           </Card>
           <Card className="text-center">
             <CardContent className="p-4">
-              <Users className="mx-auto mb-2 w-8 h-8 text-purple-500" />
-              <p className="font-semibold text-2xl">{favoriteTours.length}</p>
-              <p className="text-muted-foreground text-sm">Tours</p>
-            </CardContent>
-          </Card>
-          <Card className="text-center">
-            <CardContent className="p-4">
               <MapPin className="mx-auto mb-2 w-8 h-8 text-red-500" />
               <p className="font-semibold text-2xl">
                 {favoriteDestinations.length}
@@ -268,7 +243,6 @@ export default function FavoritesPage() {
           <TabsList className="grid grid-cols-7 mb-8 w-full">
             <TabsTrigger value="hotels">Hotels</TabsTrigger>
             <TabsTrigger value="flights">Flights</TabsTrigger>
-            <TabsTrigger value="tours">Tours</TabsTrigger>
             <TabsTrigger value="destinations">Destinations</TabsTrigger>
             <TabsTrigger value="attractions">Attractions</TabsTrigger>
             <TabsTrigger value="activities">Activities</TabsTrigger>
@@ -466,108 +440,6 @@ export default function FavoritesPage() {
                                 </div>
                               </div>
                             </div>
-                          </div>
-                        </CardContent>
-                      </Card>
-                    ))}
-                  </div>
-                )}
-              </CardContent>
-            </Card>
-          </TabsContent>
-
-          {/* Tours Tab */}
-          <TabsContent value="tours">
-            <Card>
-              <CardHeader>
-                <CardTitle className="flex items-center gap-2">
-                  <Users className="w-5 h-5" />
-                  Favorite Tours ({favoriteTours.length})
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                {favoriteTours.length === 0 ? (
-                  <div className="py-12 text-center">
-                    <Users className="mx-auto mb-4 w-16 h-16 text-muted-foreground" />
-                    <h3 className="mb-2 font-semibold text-lg">
-                      No favorite tours yet
-                    </h3>
-                    <p className="mb-4 text-muted-foreground">
-                      Start exploring tours to add them to your favorites
-                    </p>
-                    <Button onClick={() => router.push("/tours")}>
-                      Browse Tours
-                    </Button>
-                  </div>
-                ) : (
-                  <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-                    {favoriteTours.map((tour) => (
-                      <Card
-                        key={tour.id}
-                        className="group hover:shadow-lg p-0 transition-shadow"
-                      >
-                        <div className="relative">
-                          <div className="relative rounded-t-lg overflow-hidden aspect-video">
-                            <Image
-                              src={tour.images[0]}
-                              alt={tour.title}
-                              fill
-                              className="transition-transform duration-300 object-cover group-hover:scale-105"
-                            />
-                          </div>
-                          <Button
-                            variant="ghost"
-                            size="sm"
-                            className="top-2 right-2 absolute bg-white/90 hover:bg-white"
-                            onClick={() =>
-                              handleRemoveFavorite("tours", tour.id)
-                            }
-                          >
-                            <Trash2 className="w-4 h-4 text-red-500" />
-                          </Button>
-                        </div>
-                        <CardContent className="p-4">
-                          <div className="flex justify-between items-start mb-2">
-                            <h3 className="font-semibold text-lg truncate">
-                              {tour.title}
-                            </h3>
-                            <div className="flex items-center gap-1">
-                              <Star className="w-4 h-4 text-yellow-400 fill-current" />
-                              <span className="text-sm">
-                                {tour.reviews.rating}
-                              </span>
-                            </div>
-                          </div>
-                          <div className="flex items-center gap-1 mb-2 text-muted-foreground text-sm">
-                            <MapPin className="w-4 h-4" />
-                            {tour.location.city}, {tour.location.country}
-                          </div>
-                          <div className="flex items-center gap-4 mb-3 text-muted-foreground text-sm">
-                            <div className="flex items-center gap-1">
-                              <Clock className="w-4 h-4" />
-                              {tour.duration}
-                            </div>
-                            <Badge variant="outline">{tour.type}</Badge>
-                          </div>
-                          <p className="mb-3 text-muted-foreground text-sm line-clamp-2">
-                            {tour.description}
-                          </p>
-                          <div className="flex justify-between items-center">
-                            <div>
-                              <span className="font-semibold text-lg">
-                                {formatPrice(tour.pricing.adult)}
-                              </span>
-                              <span className="text-muted-foreground text-sm">
-                                {" "}
-                                /person
-                              </span>
-                            </div>
-                            <Button
-                              size="sm"
-                              onClick={() => router.push(`/tours/${tour.id}`)}
-                            >
-                              View Details
-                            </Button>
                           </div>
                         </CardContent>
                       </Card>

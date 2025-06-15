@@ -1,5 +1,6 @@
 "use client";
 
+import Loading from "@/components/Loading";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useAuth } from "@/context/AuthContext";
 import { useCurrency } from "@/context/CurrencyContext";
@@ -24,12 +25,12 @@ export default function MySavedAttractionsPage() {
       try {
         const [attractionsData, usersData] = await Promise.all([
           getMockAttractions(),
-          getMockUserData()
+          getMockUserData(),
         ]);
         setAttractions(attractionsData);
         setUsers(usersData);
       } catch (error) {
-        console.error('Error fetching data:', error);
+        console.error("Error fetching data:", error);
       } finally {
         setLoading(false);
       }
@@ -39,18 +40,7 @@ export default function MySavedAttractionsPage() {
   }, []);
 
   if (loading) {
-    return (
-      <Card>
-        <CardHeader>
-          <CardTitle>Saved Attractions</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <p className="py-8 text-center text-muted-foreground">
-            Loading saved attractions...
-          </p>
-        </CardContent>
-      </Card>
-    );
+    return <Loading />;
   }
 
   // Get current user data

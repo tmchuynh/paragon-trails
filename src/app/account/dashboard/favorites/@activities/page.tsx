@@ -1,5 +1,6 @@
 "use client";
 
+import Loading from "@/components/Loading";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useAuth } from "@/context/AuthContext";
 import { useCurrency } from "@/context/CurrencyContext";
@@ -14,7 +15,7 @@ export default function MySavedActivitiesPage() {
   const { user } = useAuth();
   const { formatPrice } = useCurrency();
   const router = useRouter();
-  
+
   const [activities, setActivities] = useState<any[]>([]);
   const [users, setUsers] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
@@ -24,12 +25,12 @@ export default function MySavedActivitiesPage() {
       try {
         const [activitiesData, usersData] = await Promise.all([
           getMockActivities(),
-          getMockUserData()
+          getMockUserData(),
         ]);
         setActivities(activitiesData);
         setUsers(usersData);
       } catch (error) {
-        console.error('Error fetching data:', error);
+        console.error("Error fetching data:", error);
       } finally {
         setLoading(false);
       }
@@ -39,18 +40,7 @@ export default function MySavedActivitiesPage() {
   }, []);
 
   if (loading) {
-    return (
-      <Card>
-        <CardHeader>
-          <CardTitle>Saved Activities</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <p className="py-8 text-center text-muted-foreground">
-            Loading saved activities...
-          </p>
-        </CardContent>
-      </Card>
-    );
+    return <Loading />;
   }
 
   // Get current user data
