@@ -789,15 +789,15 @@ export default function DestinationsPage() {
                         </p>
 
                         <div className="flex flex-wrap gap-2 mb-4">
-                          <Badge variant="secondary" className="text-xs">
+                          <Badge variant="softPrimary" className="text-xs">
                             <Thermometer className="mr-1 w-3 h-3" />
                             {destination.climate.averageTemperature}°C
                           </Badge>
-                          <Badge variant="secondary" className="text-xs">
+                          <Badge variant="softSuccess" className="text-xs">
                             <Calendar className="mr-1 w-3 h-3" />
                             {destination.bestTimeToVisit[0]}
                           </Badge>
-                          <Badge variant="secondary" className="text-xs">
+                          <Badge variant="softSecondary" className="text-xs">
                             <Users className="mr-1 w-3 h-3" />
                             {destination.popularWith[0]}
                           </Badge>
