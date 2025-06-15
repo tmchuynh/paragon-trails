@@ -79,7 +79,10 @@ export default function Header() {
                 </span>
                 <FaChevronDown className="w-3 h-3" />
               </DropdownMenuTrigger>
-              <DropdownMenuContent align="end" className="min-w-[200px]">
+              <DropdownMenuContent
+                align="end"
+                className="min-w-[200px] max-h-[15em] overflow-y-auto"
+              >
                 {currencies.map((currency) => (
                   <DropdownMenuItem
                     key={currency.code}
