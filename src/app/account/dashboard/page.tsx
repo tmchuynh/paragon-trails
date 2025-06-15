@@ -4,6 +4,8 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useAuth } from "@/context/AuthContext";
+import { MdFlightTakeoff } from "react-icons/md";
+
 import {
   CalendarDays,
   MapPin,
@@ -32,7 +34,6 @@ export default function DashboardPage() {
   return (
     <div className="min-h-screen">
       <div className="mx-auto px-6 lg:px-8 py-12 max-w-7xl">
-        {" "}
         <div className="mb-8">
           <h1 className="mb-2 font-bold text-3xl">
             Welcome back, {user.firstName}!
@@ -43,17 +44,17 @@ export default function DashboardPage() {
         </div>
         <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-8">
           {/* Profile Overview */}
-          <Card>
-            <CardHeader className="flex flex-row items-center space-y-0 pb-2">
+          <Card className="relative">
+            <CardHeader className="flex flex-row items-center space-y-0">
+              <UserCircle className="w-4 h-4 text-muted-foreground" />
               <CardTitle className="font-medium text-sm">Profile</CardTitle>
-              <UserCircle className="ml-auto w-4 h-4 text-muted-foreground" />
             </CardHeader>
             <CardContent>
               <div className="font-bold text-2xl">
                 {user.firstName} {user.lastName}
               </div>
               <p className="text-muted-foreground text-xs">{user.email}</p>
-              <Badge variant="secondary" className="mt-2">
+              <Badge variant="secondary" className="top-3 right-3 absolute">
                 Verified Member
               </Badge>
             </CardContent>
@@ -61,11 +62,11 @@ export default function DashboardPage() {
 
           {/* Total Bookings */}
           <Card>
-            <CardHeader className="flex flex-row items-center space-y-0 pb-2">
+            <CardHeader className="flex flex-row items-center space-y-0">
+              <MdFlightTakeoff className="w-4 h-4 text-muted-foreground" />
               <CardTitle className="font-medium text-sm">
                 Total Bookings
               </CardTitle>
-              <ShoppingBag className="ml-auto w-4 h-4 text-muted-foreground" />
             </CardHeader>
             <CardContent>
               <div className="font-bold text-2xl">12</div>
@@ -76,18 +77,26 @@ export default function DashboardPage() {
           </Card>
 
           {/* Rewards Points */}
-          <Card>
-            <CardHeader className="flex flex-row items-center space-y-0 pb-2">
+          <Card className="relative">
+            <CardHeader className="flex flex-row items-center space-y-0">
+              <Star className="w-4 h-4 text-muted-foreground" />
               <CardTitle className="font-medium text-sm">
                 Rewards Points
               </CardTitle>
-              <Star className="ml-auto w-4 h-4 text-muted-foreground" />
             </CardHeader>
             <CardContent>
               <div className="font-bold text-2xl">2,847</div>
               <p className="text-muted-foreground text-xs">
                 Valid until Dec 2025
               </p>
+              <Button
+                className="top-3 right-3 absolute"
+                size={"xs"}
+                variant={"modern"}
+                onClick={() => router.push("/account/dashboard/rewards")}
+              >
+                View Benefits
+              </Button>
             </CardContent>
           </Card>
         </div>
