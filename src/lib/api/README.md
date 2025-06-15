@@ -1,28 +1,35 @@
 # Paragon Trails API Services
 
-This directory contains all API service modules for the Paragon Trails application. These services handle external API integrations and data transformation for various travel-related functionalities.
+*Last Updated: June 15, 2025*
 
-## Overview
+This directory contains all API service modules for the Paragon Trails application. These services handle external API integrations, data transformation, and provide a unified interface for travel-related functionalities.
 
-The API services are organized into several modules that handle different aspects of the travel application:
+## 🌐 Service Overview
 
-- **Core Services** (`services.ts`) - Base API utilities and common services
-- **User Management** (`users.ts`) - User authentication and profile management
-- **Travel Content** (`content.ts`) - Blog posts, reviews, and travel content
-- **Attractions** (`attractions.ts`) - Tourist attractions and points of interest
-- **External Services** (`services/`) - Specialized external API integrations
+The API services are organized into several specialized modules:
 
-## Architecture
+- **🔧 Core Services** (`services.ts`) - Base API utilities and common services
+- **👤 User Management** (`users.ts`) - Authentication and profile management
+- **📝 Travel Content** (`content.ts`) - Blog posts, reviews, and travel content
+- **🎯 Attractions** (`attractions.ts`) - Real-time POI and tourist attractions
+- **🌍 Geography** (`geography.ts`) - Countries, cities, and geographic data
+- **✈️ External Services** (`services/`) - Specialized external API integrations
+
+## 🏗️ Architecture
 
 ### Base Services (`services.ts`)
-- **API Cache**: 5-minute TTL caching system for API responses
-- **Rate Limiting**: Configurable rate limiting for API calls (default 200ms)
-- **Generic Fetch Wrapper**: Standardized error handling and request formatting
-- **Service Classes**: User, Destination, Post, Product, Contact, Vehicle, Payment, Address, and Email services
+- **🗄️ API Cache**: Intelligent caching system with configurable TTL (5-minute default)
+- **⚡ Rate Limiting**: Configurable rate limiting for API calls (200ms default)
+- **🔄 Generic Fetch Wrapper**: Standardized error handling and request formatting
+- **🎭 Service Classes**: Pre-configured services for all major data types:
+  - User, Destination, Post, Product, Contact
+  - Vehicle, Payment, Address, Email services
 
 ### External Service Integrations
-- **ADSB Service** (`services/adsbService.ts`) - Real-time aircraft and flight data
-- **NHTSA Service** (`services/nhtsa.ts`) - Vehicle information and specifications
+- **✈️ ADSB Service** (`services/adsbService.ts`) - Real-time aircraft and flight tracking data
+- **🚗 NHTSA Service** (`services/nhtsa.ts`) - Vehicle information and safety specifications
+- **🌍 Geography Service** (`geography.ts`) - Country/city data via GeographQL
+- **📍 Attractions Service** (`attractions.ts`) - POI data via Geoapify Places API
 
 ## Quick Start
 
