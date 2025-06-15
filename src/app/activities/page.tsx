@@ -1,6 +1,7 @@
 "use client";
 
 import { DateTimePicker } from "@/components/calendar/date-time-picker";
+import Loading from "@/components/Loading";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -24,7 +25,7 @@ import {
 } from "@/components/ui/select";
 import { Slider } from "@/components/ui/slider";
 import { useCurrency } from "@/context/CurrencyContext";
-import { mockActivities } from "@/data/activities";
+import { getMockActivities } from "@/data/activities";
 import { Activity } from "@/lib/interfaces/services/activities";
 import { formatToSlug } from "@/lib/utils/format";
 import {
@@ -45,8 +46,10 @@ export default function ActivitiesPage() {
   const router = useRouter();
   const { formatPrice } = useCurrency();
 
-  const [filteredActivities, setFilteredActivities] =
-    useState<Activity[]>(mockActivities);
+  const [activities, setActivities] = useState<Activity[]>([]);
+  const [filteredActivities, setFilteredActivities] = useState<Activity[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCity, setSelectedCity] = useState<string>("all");
   const [selectedCountry, setSelectedCountry] = useState<string>("all");
@@ -55,15 +58,10 @@ export default function ActivitiesPage() {
   const [selectedDuration, setSelectedDuration] = useState<string>("all");
   const [activityDate, setActivityDate] = useState<Date | undefined>(undefined);
 
-  // Calculate min and max prices from activities data
-  const minPrice = Math.min(
-    ...mockActivities.map((activity) => activity.pricing.adult)
-  );
-  const maxPrice = Math.max(
-    ...mockActivities.map((activity) => activity.pricing.adult)
-  );
-
-  const [priceRange, setPriceRange] = useState([minPrice, maxPrice]);
+  // Initialize with sensible defaults, will be updated when data loads
+  const [minPrice, setMinPrice] = useState(0);
+  const [maxPrice, setMaxPrice] = useState(1000);
+  const [priceRange, setPriceRange] = useState([0, 1000]);
   const [sortBy, setSortBy] = useState<string>("name");
   const [showFilters, setShowFilters] = useState(false);
 
@@ -71,11 +69,43 @@ export default function ActivitiesPage() {
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsPerPage, setItemsPerPage] = useState(8);
 
+  // Load activities data
+  useEffect(() => {
+    const loadActivities = async () => {
+      try {
+        setLoading(true);
+        setError(null);
+        const activitiesData = await getMockActivities();
+        setActivities(activitiesData);
+        setFilteredActivities(activitiesData);
+
+        // Calculate actual min and max prices from loaded data
+        if (activitiesData.length > 0) {
+          const prices = activitiesData.map(
+            (activity: Activity) => activity.pricing.adult
+          );
+          const calculatedMinPrice = Math.min(...prices);
+          const calculatedMaxPrice = Math.max(...prices);
+          setMinPrice(calculatedMinPrice);
+          setMaxPrice(calculatedMaxPrice);
+          setPriceRange([calculatedMinPrice, calculatedMaxPrice]);
+        }
+      } catch (err) {
+        console.error("Error loading activities:", err);
+        setError("Failed to load activities. Please try again.");
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    loadActivities();
+  }, []);
+
   // Get unique values for filters
   const cities = [
     { value: "all", label: "All Cities" },
     ...Array.from(
-      new Set(mockActivities.map((activity) => activity.location.city))
+      new Set(activities.map((activity: Activity) => activity.location.city))
     )
       .sort()
       .map((city) => ({ value: city, label: city })),
@@ -84,7 +114,7 @@ export default function ActivitiesPage() {
   const countries = [
     { value: "all", label: "All Countries" },
     ...Array.from(
-      new Set(mockActivities.map((activity) => activity.location.country))
+      new Set(activities.map((activity: Activity) => activity.location.country))
     )
       .sort()
       .map((country) => ({ value: country, label: country })),
@@ -92,7 +122,9 @@ export default function ActivitiesPage() {
 
   const categories = [
     { value: "all", label: "All Categories" },
-    ...Array.from(new Set(mockActivities.map((activity) => activity.category)))
+    ...Array.from(
+      new Set(activities.map((activity: Activity) => activity.category))
+    )
       .sort()
       .map((category) => ({ value: category, label: category })),
   ];
@@ -100,7 +132,7 @@ export default function ActivitiesPage() {
   const difficulties = [
     { value: "all", label: "All Difficulties" },
     ...Array.from(
-      new Set(mockActivities.map((activity) => activity.difficulty))
+      new Set(activities.map((activity: Activity) => activity.difficulty))
     )
       .sort()
       .map((difficulty) => ({ value: difficulty, label: difficulty })),
@@ -108,18 +140,20 @@ export default function ActivitiesPage() {
 
   const durations = [
     { value: "all", label: "All Durations" },
-    ...Array.from(new Set(mockActivities.map((activity) => activity.duration)))
+    ...Array.from(
+      new Set(activities.map((activity: Activity) => activity.duration))
+    )
       .sort()
       .map((duration) => ({ value: duration, label: duration })),
   ];
 
   const handleSearch = () => {
-    let filtered = mockActivities;
+    let filtered = activities;
 
     // Filter by search query
     if (searchQuery) {
       filtered = filtered.filter(
-        (activity) =>
+        (activity: Activity) =>
           activity.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
           activity.description
             .toLowerCase()
@@ -137,47 +171,47 @@ export default function ActivitiesPage() {
     // Filter by city
     if (selectedCity !== "all") {
       filtered = filtered.filter(
-        (activity) => activity.location.city === selectedCity
+        (activity: Activity) => activity.location.city === selectedCity
       );
     }
 
     // Filter by country
     if (selectedCountry !== "all") {
       filtered = filtered.filter(
-        (activity) => activity.location.country === selectedCountry
+        (activity: Activity) => activity.location.country === selectedCountry
       );
     }
 
     // Filter by category
     if (selectedCategory !== "all") {
       filtered = filtered.filter(
-        (activity) => activity.category === selectedCategory
+        (activity: Activity) => activity.category === selectedCategory
       );
     }
 
     // Filter by difficulty
     if (selectedDifficulty !== "all") {
       filtered = filtered.filter(
-        (activity) => activity.difficulty === selectedDifficulty
+        (activity: Activity) => activity.difficulty === selectedDifficulty
       );
     }
 
     // Filter by duration
     if (selectedDuration !== "all") {
       filtered = filtered.filter(
-        (activity) => activity.duration === selectedDuration
+        (activity: Activity) => activity.duration === selectedDuration
       );
     }
 
     // Filter by price range
     filtered = filtered.filter(
-      (activity) =>
+      (activity: Activity) =>
         activity.pricing.adult >= priceRange[0] &&
         activity.pricing.adult <= priceRange[1]
     );
 
     // Sort results
-    filtered = filtered.sort((a, b) => {
+    filtered = filtered.sort((a: Activity, b: Activity) => {
       switch (sortBy) {
         case "name":
           return a.name.localeCompare(b.name);
@@ -190,13 +224,16 @@ export default function ActivitiesPage() {
         case "duration":
           return a.duration.localeCompare(b.duration);
         case "difficulty":
-          const difficultyOrder = {
+          const difficultyOrder: Record<string, number> = {
             Easy: 1,
             Moderate: 2,
             Challenging: 3,
             Expert: 4,
           };
-          return difficultyOrder[a.difficulty] - difficultyOrder[b.difficulty];
+          return (
+            (difficultyOrder[a.difficulty] || 0) -
+            (difficultyOrder[b.difficulty] || 0)
+          );
         default:
           return a.name.localeCompare(b.name);
       }
@@ -218,10 +255,13 @@ export default function ActivitiesPage() {
 
   // Auto-filter when any filter changes
   useEffect(() => {
-    handleSearch();
-    // Reset to page 1 when filters change
-    setCurrentPage(1);
+    if (activities.length > 0) {
+      handleSearch();
+      // Reset to page 1 when filters change
+      setCurrentPage(1);
+    }
   }, [
+    activities,
     searchQuery,
     selectedCity,
     selectedCountry,
@@ -286,6 +326,61 @@ export default function ActivitiesPage() {
     }
   };
 
+  // Early return for loading state
+  if (loading) {
+    return (
+      <div className="min-h-screen">
+        <div className="mx-auto px-6 lg:px-8 py-12 max-w-7xl">
+          <div className="mb-12 text-center">
+            <h1 className="mb-4 font-bold text-4xl text-slate-900 dark:text-white">
+              Discover Amazing Activities
+            </h1>
+            <p className="mx-auto max-w-3xl text-lg text-slate-600 dark:text-slate-400">
+              Explore exciting activities and experiences around the world. From
+              cultural tours to adventure activities, find your perfect
+              adventure.
+            </p>
+          </div>
+          <div className="flex justify-center items-center py-12">
+            <Loading />
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // Early return for error state
+  if (error) {
+    return (
+      <div className="min-h-screen">
+        <div className="mx-auto px-6 lg:px-8 py-12 max-w-7xl">
+          <div className="mb-12 text-center">
+            <h1 className="mb-4 font-bold text-4xl text-slate-900 dark:text-white">
+              Discover Amazing Activities
+            </h1>
+            <p className="mx-auto max-w-3xl text-lg text-slate-600 dark:text-slate-400">
+              Explore exciting activities and experiences around the world. From
+              cultural tours to adventure activities, find your perfect
+              adventure.
+            </p>
+          </div>
+          <Card className="mb-8">
+            <div className="p-6 text-center">
+              <p className="text-red-600 dark:text-red-400">{error}</p>
+              <Button
+                onClick={() => window.location.reload()}
+                className="mt-4"
+                variant="outline"
+              >
+                Try Again
+              </Button>
+            </div>
+          </Card>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="min-h-screen">
       <div className="mx-auto px-6 lg:px-8 py-12 max-w-7xl">
@@ -299,7 +394,6 @@ export default function ActivitiesPage() {
             cultural tours to adventure activities, find your perfect adventure.
           </p>
         </div>
-
         {/* Top Filters */}
         <Card className="mb-8">
           <div className="p-6">
