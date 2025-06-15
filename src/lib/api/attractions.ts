@@ -1,4 +1,20 @@
 import { apiCache, fetchAPI } from "./services";
+import { fetchAllCitiesByCountry, fetchCountryByISO2, City, Country } from "./geography";
+
+/**
+ * Geoapify Attractions API Integration
+ * 
+ * This module integrates with Geoapify's Places API and Place Details API
+ * to fetch attraction data. 
+ * 
+ * API Documentation:
+ * - Places API: https://apidocs.geoapify.com/docs/places/#api
+ * - Place Details API: https://apidocs.geoapify.com/docs/place-details/
+ * 
+ * The attractions page has been moved to the destinations route since
+ * fetching attractions requires a city first. Cities are fetched from
+ * countries using the GeographQL API.
+ */
 
 const NEXT_PUBLIC_GEOAPIFY_API_BASE_URL =
   process.env.NEXT_PUBLIC_GEOAPIFY_API_BASE_URL;
@@ -375,4 +391,201 @@ export async function fetchAttractionDetailsByCoords(
     `Could not find a nearby place to fetch details for coords: ${lat}, ${lon}`
   );
   return null;
+}
+
+// --- GEOGRAPHY INTEGRATION FUNCTIONS ---
+
+/**
+ * Fetch attractions for a specific country using its ISO2 code
+ * This function first gets cities from the country, then fetches attractions for each city
+ */
+export async function fetchAttractionsByCountry({
+  countryISO2,
+  categories = "tourism.sights,tourism.attraction",
+  maxCities = 10,
+  attractionsPerCity = 5,
+  conditions,
+  lang,
+}: {
+  countryISO2: string;
+  categories?: string[] | string;
+  maxCities?: number;
+  attractionsPerCity?: number;
+  conditions?: string;
+  lang?: string;
+}): Promise<{ country: Country; cities: Array<{ city: City; attractions: Attraction[] }> }> {
+  // First, get the country information
+  const country = await fetchCountryByISO2(countryISO2);
+  if (!country) {
+    throw new Error(`Country with ISO2 code "${countryISO2}" not found`);
+  }
+
+  // Get cities for this country
+  const cities = await fetchAllCitiesByCountry({
+    countryCode: countryISO2,
+    limit: maxCities,
+  });
+
+  if (cities.length === 0) {
+    console.warn(`No cities found for country: ${country.name}`);
+    return { country, cities: [] };
+  }
+
+  // Fetch attractions for each city
+  const cityAttractions = await Promise.all(
+    cities.map(async (city) => {
+      try {
+        const attractions = await fetchAttractionsList({
+          categories,
+          city: city.name,
+          latitude: city.latitude,
+          longitude: city.longitude,
+          limit: attractionsPerCity,
+          conditions,
+          lang,
+        });
+        return { city, attractions };
+      } catch (error) {
+        console.error(`Error fetching attractions for city ${city.name}:`, error);
+        return { city, attractions: [] };
+      }
+    })
+  );
+
+  return { country, cities: cityAttractions };
+}
+
+/**
+ * Fetch attractions for a specific city by name and country
+ */
+export async function fetchAttractionsByCity({
+  cityName,
+  countryISO2,
+  categories = "tourism.sights,tourism.attraction",
+  limit = 20,
+  conditions,
+  lang,
+}: {
+  cityName: string;
+  countryISO2: string;
+  categories?: string[] | string;
+  limit?: number;
+  conditions?: string;
+  lang?: string;
+}): Promise<{ city: City | null; attractions: Attraction[] }> {
+  // Get the specific city information
+  const cities = await fetchAllCitiesByCountry({
+    countryCode: countryISO2,
+    limit: 100, // Get more cities to search through
+  });
+
+  const city = cities.find(c => 
+    c.name.toLowerCase() === cityName.toLowerCase()
+  );
+
+  if (!city) {
+    console.warn(`City "${cityName}" not found in country ${countryISO2}`);
+    return { city: null, attractions: [] };
+  }
+
+  // Fetch attractions for this specific city
+  const attractions = await fetchAttractionsList({
+    categories,
+    city: city.name,
+    latitude: city.latitude,
+    longitude: city.longitude,
+    limit,
+    conditions,
+    lang,
+  });
+
+  return { city, attractions };
+}
+
+/**
+ * Get popular destination cities with their attractions
+ * This function returns cities that are likely to have many attractions
+ */
+export async function fetchPopularDestinations({
+  regions = ["Europe", "Asia", "North America"],
+  citiesPerRegion = 5,
+  attractionsPerCity = 10,
+  categories = "tourism.sights,tourism.attraction",
+}: {
+  regions?: string[];
+  citiesPerRegion?: number;
+  attractionsPerCity?: number;
+  categories?: string[] | string;
+} = {}): Promise<Array<{
+  country: Country;
+  city: City;
+  attractions: Attraction[];
+}>> {
+  const destinations: Array<{
+    country: Country;
+    city: City;
+    attractions: Attraction[];
+  }> = [];
+
+  // Define popular countries for each region
+  const popularCountries: Record<string, string[]> = {
+    "Europe": ["FR", "IT", "ES", "GB", "DE", "NL", "CH", "AT"],
+    "Asia": ["JP", "TH", "SG", "CN", "KR", "IN", "MY", "VN"],
+    "North America": ["US", "CA", "MX"],
+    "South America": ["BR", "AR", "PE", "CL"],
+    "Africa": ["ZA", "MA", "EG", "KE"],
+    "Oceania": ["AU", "NZ"],
+  };
+
+  for (const region of regions) {
+    const countryCodes = popularCountries[region] || [];
+    let citiesAdded = 0;
+
+    for (const countryCode of countryCodes) {
+      if (citiesAdded >= citiesPerRegion) break;
+
+      try {
+        const country = await fetchCountryByISO2(countryCode);
+        if (!country) continue;
+
+        // Get major cities (capital + other large cities)
+        const cities = await fetchAllCitiesByCountry({
+          countryCode,
+          limit: 5, // Get top 5 cities per country
+        });
+
+        // Prioritize capital city if available
+        const orderedCities = cities.sort((a, b) => {
+          if (a.name.toLowerCase() === country.capital.toLowerCase()) return -1;
+          if (b.name.toLowerCase() === country.capital.toLowerCase()) return 1;
+          return 0;
+        });
+
+        for (const city of orderedCities) {
+          if (citiesAdded >= citiesPerRegion) break;
+
+          try {
+            const attractions = await fetchAttractionsList({
+              categories,
+              city: city.name,
+              latitude: city.latitude,
+              longitude: city.longitude,
+              limit: attractionsPerCity,
+            });
+
+            if (attractions.length > 0) {
+              destinations.push({ country, city, attractions });
+              citiesAdded++;
+            }
+          } catch (error) {
+            console.error(`Error fetching attractions for ${city.name}, ${country.name}:`, error);
+          }
+        }
+      } catch (error) {
+        console.error(`Error processing country ${countryCode}:`, error);
+      }
+    }
+  }
+
+  return destinations;
 }
