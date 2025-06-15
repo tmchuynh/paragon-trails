@@ -1,5 +1,6 @@
 "use client";
 
+import Loading from "@/components/Loading";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import {
@@ -41,6 +42,7 @@ export default function HomePage() {
         ]);
 
         setDestinations(destinationsData);
+        setFlights(flightsData);
       } catch (error) {
         console.error("Error fetching data:", error);
       } finally {
@@ -52,6 +54,9 @@ export default function HomePage() {
   }, []);
   const { formatPrice } = useCurrency();
   const router = useRouter();
+  if (loading) {
+    return <Loading />;
+  }
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
