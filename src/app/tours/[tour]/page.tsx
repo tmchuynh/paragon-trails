@@ -151,7 +151,7 @@ export default function TourDetailsPage() {
               value={currentTour?.id || ""}
               onValueChange={handleTourChange}
             >
-              <SelectTrigger className="w-64">
+              <SelectTrigger className="w-80">
                 <SelectValue placeholder="Select a tour" />
               </SelectTrigger>
               <SelectContent>
