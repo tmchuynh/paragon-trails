@@ -111,42 +111,48 @@ export default function DestinationsPage() {
 
   const regions = [
     { value: "all", label: "All Regions" },
-    ...Array.from(new Set(destinations.map((dest) => dest.region)))
+    ...Array.from(
+      new Set(destinations.map((dest) => dest.region).filter(Boolean))
+    )
       .sort()
       .map((region) => ({ value: region, label: region })),
   ];
 
   const languages = [
     { value: "all", label: "All Languages" },
-    ...Array.from(new Set(destinations.flatMap((dest) => dest.language)))
+    ...Array.from(new Set(destinations.flatMap((dest) => dest.language || [])))
       .sort()
       .map((language) => ({ value: language, label: language })),
   ];
 
   const cuisines = [
     { value: "all", label: "All Cuisines" },
-    ...Array.from(new Set(destinations.flatMap((dest) => dest.cuisine)))
+    ...Array.from(new Set(destinations.flatMap((dest) => dest.cuisine || [])))
       .sort()
       .map((cuisine) => ({ value: cuisine, label: cuisine })),
   ];
 
   const safetyLevels = [
     { value: "all", label: "All Safety Levels" },
-    ...Array.from(new Set(destinations.map((dest) => dest.safety.level)))
+    ...Array.from(
+      new Set(destinations.map((dest) => dest.safety?.level).filter(Boolean))
+    )
       .sort()
       .map((level) => ({ value: level, label: level })),
   ];
 
   const tags = [
     { value: "all", label: "All Tags" },
-    ...Array.from(new Set(destinations.flatMap((dest) => dest.tags)))
+    ...Array.from(new Set(destinations.flatMap((dest) => dest.tags || [])))
       .sort()
       .map((tag) => ({ value: tag, label: tag })),
   ];
 
   const timezones = [
     { value: "all", label: "All Timezones" },
-    ...Array.from(new Set(destinations.map((dest) => dest.timezone)))
+    ...Array.from(
+      new Set(destinations.map((dest) => dest.timezone).filter(Boolean))
+    )
       .sort()
       .map((timezone) => ({ value: timezone, label: timezone })),
   ];
@@ -188,33 +194,33 @@ export default function DestinationsPage() {
     // Filter by language
     if (selectedLanguage !== "all") {
       filtered = filtered.filter((dest) =>
-        dest.language.includes(selectedLanguage)
+        dest.language?.includes(selectedLanguage)
       );
     }
 
     // Filter by cuisine
     if (selectedCuisine !== "all") {
       filtered = filtered.filter((dest) =>
-        dest.cuisine.includes(selectedCuisine)
+        dest.cuisine?.includes(selectedCuisine)
       );
     }
 
     // Filter by safety level
     if (selectedSafetyLevel !== "all") {
       filtered = filtered.filter(
-        (dest) => dest.safety.level === selectedSafetyLevel
+        (dest) => dest.safety?.level === selectedSafetyLevel
       );
     }
 
     // Filter by tag
     if (selectedTag !== "all") {
-      filtered = filtered.filter((dest) => dest.tags.includes(selectedTag));
+      filtered = filtered.filter((dest) => dest.tags?.includes(selectedTag));
     }
 
     // Filter by visa requirement
     if (visaRequired !== "all") {
       const isRequired = visaRequired === "true";
-      filtered = filtered.filter((dest) => dest.visa.required === isRequired);
+      filtered = filtered.filter((dest) => dest.visa?.required === isRequired);
     }
 
     // Filter by timezone
