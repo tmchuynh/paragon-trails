@@ -2,6 +2,7 @@
 
 import { DateTimePicker } from "@/components/calendar/date-time-picker";
 import VehicleCard from "@/components/cards/VehicleCard";
+import Loading from "@/components/Loading";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -32,24 +33,7 @@ import { FaFilter } from "react-icons/fa";
 export default function VehiclesPage() {
   const [vehicles, setVehicles] = useState<Vehicle[]>([]);
   const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const [vehiclesData] = await Promise.all([getMockVehicles()]);
-
-        setVehicles(vehiclesData);
-      } catch (error) {
-        console.error("Error fetching data:", error);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchData();
-  }, []);
-
-  const [filteredVehicles, setFilteredVehicles] = useState<Vehicle[]>(vehicles);
+  const [filteredVehicles, setFilteredVehicles] = useState<Vehicle[]>([]);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedType, setSelectedType] = useState<string>("all");
   const [selectedBrand, setSelectedBrand] = useState<string>("all");
@@ -73,6 +57,24 @@ export default function VehiclesPage() {
   const [returnDate, setReturnDate] = useState<Date | undefined>(undefined);
   const [sortBy, setSortBy] = useState<string>("price-low");
   const [showFilters, setShowFilters] = useState(false);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      setLoading(true);
+      try {
+        const [vehiclesData] = await Promise.all([getMockVehicles()]);
+
+        setVehicles(vehiclesData);
+        setFilteredVehicles(vehiclesData);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
 
   // Pagination state
   const [currentPage, setCurrentPage] = useState(1);
@@ -372,6 +374,10 @@ export default function VehiclesPage() {
     // Scroll to top of results
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
+
+  if (loading) {
+    return <Loading />;
+  }
 
   return (
     <div className="min-h-screen">
