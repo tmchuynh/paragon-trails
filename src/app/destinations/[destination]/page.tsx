@@ -13,10 +13,10 @@ import {
 import { Separator } from "@/components/ui/separator";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useCurrency } from "@/context/CurrencyContext";
-import { mockActivities } from "@/data/activities";
-import { mockAttractions } from "@/data/attractions";
-import { mockDestinations } from "@/data/destinations";
-import { mockTours } from "@/data/tours";
+import { getMockActivities } from "@/data/activities";
+import { getMockAttractions } from "@/data/attractions";
+import { getMockDestinations } from "@/data/destinations";
+import { getMockTours } from "@/data/tours";
 import { formatToSlug } from "@/lib/utils/format";
 import { Label } from "@radix-ui/react-label";
 import {
@@ -42,29 +42,52 @@ export default function DestinationDetailsPage() {
   const params = useParams();
   const { formatPrice } = useCurrency();
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
+  const [destinations, setDestinations] = useState<any[]>([]);
+  const [tours, setTours] = useState<any[]>([]);
+  const [activities, setActivities] = useState<any[]>([]);
+  const [attractions, setAttractions] = useState<any[]>([]);
+  const [currentDestination, setCurrentDestination] = useState<any>(null);
+  const [loading, setLoading] = useState(true);
 
   // Find destination by URL param
   const destinationSlug = params.destination as string;
-  const initialDestination = mockDestinations.find(
-    (dest) => dest.name.toLowerCase().replace(/\s+/g, "-") === destinationSlug
-  );
 
-  const [currentDestination, setCurrentDestination] =
-    useState(initialDestination);
-
-  // Update current destination when URL param changes
   useEffect(() => {
-    const foundDestination = mockDestinations.find(
-      (dest) => dest.name.toLowerCase().replace(/\s+/g, "-") === destinationSlug
-    );
-    setCurrentDestination(foundDestination);
-    setSelectedImageIndex(0); // Reset image index when destination changes
+    const fetchData = async () => {
+      try {
+        const [destinationsData, toursData, activitiesData, attractionsData] =
+          await Promise.all([
+            getMockDestinations(),
+            getMockTours(),
+            getMockActivities(),
+            getMockAttractions(),
+          ]);
+
+        setDestinations(destinationsData);
+        setTours(toursData);
+        setActivities(activitiesData);
+        setAttractions(attractionsData);
+
+        // Find the destination by slug
+        const foundDestination = destinationsData.find(
+          (dest: any) =>
+            dest.name.toLowerCase().replace(/\s+/g, "-") === destinationSlug
+        );
+        setCurrentDestination(foundDestination);
+      } catch (error) {
+        console.error("Error fetching destination data:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
   }, [destinationSlug]);
 
   // Handle destination change from selector
   const handleDestinationChange = (newDestinationId: string) => {
-    const newDestination = mockDestinations.find(
-      (dest) => dest.id === newDestinationId
+    const newDestination = destinations.find(
+      (dest: any) => dest.id === newDestinationId
     );
     if (newDestination) {
       const newSlug = newDestination.name.toLowerCase().replace(/\s+/g, "-");
@@ -72,6 +95,19 @@ export default function DestinationDetailsPage() {
       router.replace(`/destinations/${newSlug}`, { scroll: false });
     }
   };
+
+  if (loading) {
+    return (
+      <div className="flex justify-center items-center min-h-screen">
+        <div className="text-center">
+          <div className="mx-auto border-gray-900 border-b-2 rounded-full w-12 h-12 animate-spin"></div>
+          <p className="mt-4 text-muted-foreground">
+            Loading destination details...
+          </p>
+        </div>
+      </div>
+    );
+  }
 
   if (!currentDestination) {
     return (
@@ -89,9 +125,9 @@ export default function DestinationDetailsPage() {
   }
 
   // Filter related content
-  const relatedTours = mockTours.slice(0, 3);
-  const relatedActivities = mockActivities.slice(0, 3);
-  const relatedAttractions = mockAttractions.slice(0, 3);
+  const relatedTours = tours.slice(0, 3);
+  const relatedActivities = activities.slice(0, 3);
+  const relatedAttractions = attractions.slice(0, 3);
 
   return (
     <div className="min-h-screen">
@@ -114,7 +150,7 @@ export default function DestinationDetailsPage() {
                 <SelectValue placeholder="Select a destination" />
               </SelectTrigger>
               <SelectContent>
-                {mockDestinations.map((dest) => (
+                {destinations.map((dest: any) => (
                   <SelectItem key={dest.id} value={dest.id} variant="classic">
                     {dest.name}, {dest.country}
                   </SelectItem>
@@ -297,7 +333,7 @@ export default function DestinationDetailsPage() {
                     <div className="px-6">
                       <div className="mb-4 font-semibold text-lg">Tours</div>
                       <div className="space-y-3">
-                        {relatedTours.map((tour) => (
+                        {relatedTours.map((tour: any) => (
                           <div
                             key={tour.id}
                             className="group pb-3 border-slate-200 dark:border-slate-700 last:border-0 border-b"
@@ -360,7 +396,7 @@ export default function DestinationDetailsPage() {
                         Activities
                       </div>
                       <div className="space-y-3">
-                        {relatedActivities.map((activity) => (
+                        {relatedActivities.map((activity: any) => (
                           <div
                             key={activity.id}
                             className="group pb-3 border-slate-200 dark:border-slate-700 last:border-0 border-b"
@@ -404,7 +440,7 @@ export default function DestinationDetailsPage() {
                         Attractions
                       </div>
                       <div className="space-y-3">
-                        {relatedAttractions.map((attraction) => (
+                        {relatedAttractions.map((attraction: any) => (
                           <div
                             key={attraction.id}
                             className="group pb-3 border-slate-200 dark:border-slate-700 last:border-0 border-b"
