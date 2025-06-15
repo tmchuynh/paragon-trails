@@ -1,5 +1,6 @@
 "use client";
 
+import Loading from "@/components/Loading";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Calendar } from "@/components/ui/calendar";
@@ -83,13 +84,13 @@ export default function VehicleDetailPage() {
         setLoading(true);
         const vehiclesData = await getMockVehicles();
         setVehicles(vehiclesData);
-        
+
         // Find the vehicle based on the slug
         const vehicleSlug = params.vehicle as string;
         const foundVehicle = vehiclesData.find(
           (v: Vehicle) => formatToSlug(v.name) === vehicleSlug
         );
-        
+
         if (foundVehicle) {
           setCurrentVehicle(foundVehicle);
         }
@@ -117,14 +118,7 @@ export default function VehicleDetailPage() {
   };
 
   if (loading) {
-    return (
-      <div className="flex justify-center items-center min-h-screen">
-        <div className="text-center">
-          <div className="border-primary border-b-2 rounded-full w-32 h-32 animate-spin"></div>
-          <p className="mt-4 text-lg">Loading vehicle details...</p>
-        </div>
-      </div>
-    );
+    return <Loading />;
   }
 
   if (!vehicle) {
@@ -137,7 +131,7 @@ export default function VehicleDetailPage() {
           <p className="mb-4 text-gray-600 dark:text-gray-400">
             The vehicle you're looking for doesn't exist.
           </p>
-          <Button onClick={() => router.push('/vehicles')}>
+          <Button onClick={() => router.push("/vehicles")}>
             Browse Vehicles
           </Button>
         </div>
