@@ -22,10 +22,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { useCurrency } from "@/context/CurrencyContext";
-// Use the Attraction type from the API services
 import { Attraction, fetchAttractionsList } from "@/lib/api/attractions";
-// Remove lodash import if sortBy from useState is used, or ensure it's correctly used.
-// import { sortBy } from "lodash"; // This was potentially an incorrect auto-import or needs review
 import { Filter, MapPin, RotateCcw, Search } from "lucide-react";
 import { useEffect, useState } from "react";
 
@@ -39,16 +36,6 @@ export default function AttractionsPage() {
   const [selectedCountry, setSelectedCountry] = useState<string>("all");
   const [selectedType, setSelectedType] = useState<string>("all");
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
-  // const [selectedTimeToVisit, setSelectedTimeToVisit] = useState<string>("all"); // Commented out as data not available
-  // const [accessibilityRequired, setAccessibilityRequired] = useState<string>("all"); // Commented out
-  // const [skipLineAvailable, setSkipLineAvailable] = useState<string>("all"); // Commented out
-
-  // Default price range, adapt if pricing info becomes available
-  const [priceRange, setPriceRange] = useState([0, 1000]);
-  const [minPrice, setMinPrice] = useState(0);
-  const [maxPrice, setMaxPrice] = useState(1000);
-
-  const [ratingFilter, setRatingFilter] = useState([0, 5]); // Default rating filter
   const [sortBy, setSortBy] = useState<string>("name"); // Default sort
   const [showFilters, setShowFilters] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
@@ -181,13 +168,6 @@ export default function AttractionsPage() {
     setSelectedCountry("all");
     setSelectedType("all");
     setSelectedCategory("all");
-    // Resetting commented out filters:
-    // setSelectedTimeToVisit("all");
-    // setAccessibilityRequired("all");
-    // setSkipLineAvailable("all");
-    // setPriceRange([minPrice, maxPrice]); // Adapt if pricing is added
-    // setRatingFilter([0, 5]); // Adapt if rating is added
-    // Trigger a search to apply reset filters
     handleSearch();
   };
 
@@ -199,11 +179,6 @@ export default function AttractionsPage() {
     selectedCountry,
     selectedType,
     selectedCategory,
-    // selectedTimeToVisit, // Commented out
-    // accessibilityRequired, // Commented out
-    // skipLineAvailable, // Commented out
-    // priceRange, // Commented out - or adapt if used
-    // ratingFilter, // Commented out - or adapt if used
     sortBy,
     attractions,
   ]);
