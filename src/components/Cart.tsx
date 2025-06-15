@@ -1,10 +1,8 @@
 "use client";
 
 import { cartHelpers, useCart } from "@/context/CartContext";
-import { useCurrency } from "@/context/CurrencyContext";
 import { ArrowRight, Shield, ShoppingCart, Star } from "lucide-react";
 import { useRouter } from "next/navigation";
-import { useState } from "react";
 import ExperienceCartItem from "./cart/ExperienceCartItem";
 import FlightCartItem from "./cart/FlightCartItem";
 import HotelCartItem from "./cart/HotelCartItem";
@@ -15,30 +13,6 @@ import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 export default function Cart() {
   const router = useRouter();
   const { state, dispatch } = useCart();
-  const { formatPrice } = useCurrency();
-  const [discountCode, setDiscountCode] = useState("");
-  const [isApplyingDiscount, setIsApplyingDiscount] = useState(false);
-
-  const handleApplyDiscount = async () => {
-    if (!discountCode.trim()) return;
-
-    setIsApplyingDiscount(true);
-    // Simulate API call
-    await new Promise((resolve) => setTimeout(resolve, 1000));
-
-    // Mock discount logic
-    const discountAmount =
-      discountCode.toLowerCase() === "welcome10" ? state.subtotal * 0.1 : 0;
-    if (discountAmount > 0) {
-      dispatch({
-        type: "APPLY_DISCOUNT",
-        payload: { code: discountCode, amount: discountAmount },
-      });
-      setDiscountCode("");
-    }
-
-    setIsApplyingDiscount(false);
-  };
 
   const handleQuantityChange = (id: string, newQuantity: number) => {
     cartHelpers.updateQuantity(dispatch, id, newQuantity);
