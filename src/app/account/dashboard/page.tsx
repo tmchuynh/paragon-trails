@@ -48,6 +48,18 @@ export default function DashboardPage() {
   const [recentActivity] = useState([
     {
       id: 1,
+      type: "reward_redemption",
+      title: "15% Off Hotel Booking Coupon",
+      date: "June 12, 2025",
+      status: "Active",
+      amount: "-750 points",
+      icon: Gift,
+      color: "text-purple-500",
+      expiryDate: "July 12, 2025",
+      daysLeft: 28,
+    },
+    {
+      id: 2,
       type: "booking",
       title: "Mediterranean Cruise Adventure",
       date: "April 2-9, 2025",
@@ -57,7 +69,18 @@ export default function DashboardPage() {
       color: "text-blue-500",
     },
     {
-      id: 2,
+      id: 3,
+      type: "reward_expired",
+      title: "10% Off Flight Booking - EXPIRED",
+      date: "May 15, 2025",
+      status: "Expired",
+      amount: "-500 points",
+      icon: Clock,
+      color: "text-red-500",
+      expired: true,
+    },
+    {
+      id: 4,
       type: "booking",
       title: "Grand Tour of Europe",
       date: "March 15-25, 2025",
@@ -67,14 +90,26 @@ export default function DashboardPage() {
       color: "text-green-500",
     },
     {
-      id: 3,
+      id: 5,
+      type: "reward_redemption",
+      title: "Airport Lounge Access Pass",
+      date: "April 18, 2025",
+      status: "Active",
+      amount: "-1000 points",
+      icon: Award,
+      color: "text-yellow-500",
+      expiryDate: "April 18, 2026",
+      daysLeft: 308,
+    },
+    {
+      id: 6,
       type: "completed",
       title: "Tokyo City Explorer",
       date: "January 8-12, 2025",
       status: "Completed",
       amount: "$1,850",
       icon: MapPin,
-      color: "text-purple-500",
+      color: "text-emerald-500",
     },
   ]);
 
@@ -98,6 +133,15 @@ export default function DashboardPage() {
     ? new Date(user.loginTimestamp)
     : new Date();
   const rewardsProgress = (dashboardStats.rewardsPoints.current % 1000) / 10; // Progress to next tier
+
+  // Helper function to format days left
+  const formatDaysLeft = (daysLeft?: number) => {
+    if (!daysLeft) return null;
+    if (daysLeft <= 0) return "Expired";
+    if (daysLeft === 1) return "1 day left";
+    if (daysLeft <= 30) return `${daysLeft} days left`;
+    return `${Math.ceil(daysLeft / 30)} months left`;
+  };
 
   return (
     <div className="min-h-screen">
@@ -144,7 +188,7 @@ export default function DashboardPage() {
           <Card className="relative overflow-hidden">
             <CardHeader className="pb-3">
               <CardTitle className="flex items-center gap-2 font-medium text-sm">
-                <UserCircle className="w-4 h-4 text-muted-foreground" />
+                <UserCircle className="w-4 h-4" />
                 Profile
               </CardTitle>
             </CardHeader>
@@ -165,7 +209,7 @@ export default function DashboardPage() {
                   <h3 className="font-semibold text-lg">
                     {user.firstName} {user.lastName}
                   </h3>
-                  <p className="text-muted-foreground text-sm">{user.email}</p>
+                  <p className="text-sm">{user.email}</p>
                 </div>
               </div>
               <Badge
@@ -181,7 +225,7 @@ export default function DashboardPage() {
           <Card className="relative overflow-hidden">
             <CardHeader className="pb-3">
               <CardTitle className="flex items-center gap-2 font-medium text-sm">
-                <Plane className="w-4 h-4 text-muted-foreground" />
+                <Plane className="w-4 h-4" />
                 Travel Stats
               </CardTitle>
             </CardHeader>
@@ -195,16 +239,14 @@ export default function DashboardPage() {
                     {dashboardStats.totalBookings.growth}
                   </span>
                 </div>
-                <p className="text-muted-foreground text-xs">trips this year</p>
+                <p className="text-xs">trips this year</p>
               </div>
               <Separator />
               <div>
                 <div className="font-semibold text-lg">
                   {dashboardStats.favoriteDestinations}
                 </div>
-                <p className="text-muted-foreground text-xs">
-                  favorite destinations
-                </p>
+                <p className="text-xs">favorite destinations</p>
               </div>
             </CardContent>
           </Card>
@@ -222,7 +264,7 @@ export default function DashboardPage() {
                 <div className="font-bold text-2xl text-yellow-600">
                   {dashboardStats.rewardsPoints.current.toLocaleString()}
                 </div>
-                <p className="text-muted-foreground text-xs">
+                <p className="text-xs">
                   Valid until {dashboardStats.rewardsPoints.expiry}
                 </p>
               </div>
@@ -249,7 +291,7 @@ export default function DashboardPage() {
           <Card className="relative overflow-hidden">
             <CardHeader className="pb-3">
               <CardTitle className="flex items-center gap-2 font-medium text-sm">
-                <Wallet className="w-4 h-4 text-muted-foreground" />
+                <Wallet className="w-4 h-4" />
                 Spending
               </CardTitle>
             </CardHeader>
@@ -258,7 +300,7 @@ export default function DashboardPage() {
                 <div className="font-bold text-2xl">
                   ${dashboardStats.totalSpent.thisYear.toLocaleString()}
                 </div>
-                <p className="text-muted-foreground text-xs">spent this year</p>
+                <p className="text-xs">spent this year</p>
               </div>
               <div className="flex justify-between items-center">
                 <span className="text-sm">vs last year</span>
@@ -300,50 +342,73 @@ export default function DashboardPage() {
                 <Button
                   variant="outline"
                   size="sm"
-                  onClick={() => router.push("/account/dashboard/my-trips")}
+                  onClick={() =>
+                    router.push("/account/dashboard/rewards/history")
+                  }
                 >
-                  View All
+                  View Full History
                 </Button>
               </div>
             </CardHeader>
             <CardContent className="space-y-4">
-              {recentActivity.map((activity) => {
+              {recentActivity.slice(0, 4).map((activity: any) => {
                 const IconComponent = activity.icon;
+                const daysLeftText = formatDaysLeft(activity.daysLeft);
+
                 return (
                   <div
                     key={activity.id}
-                    className="relative flex justify-between items-center hover:bg-slate-50 dark:hover:bg-slate-800 p-4 border rounded-xl transition-colors cursor-pointer"
+                    className="relative flex justify-between items-start hover:bg-slate-50 dark:hover:bg-slate-800 p-4 border rounded-xl transition-colors cursor-pointer"
                     onClick={() =>
                       toast.info(`Opening ${activity.title} details...`)
                     }
                   >
-                    <div className="flex items-center space-x-4">
+                    <div className="flex items-start space-x-4">
                       <div
-                        className={`p-2 rounded-lg bg-slate-100 dark:bg-slate-800 ${activity.color}`}
+                        className={`p-2 rounded-lg bg-slate-100 dark:bg-slate-800 ${activity.color} ${activity.expired ? "opacity-50" : ""}`}
                       >
                         <IconComponent className="w-6 h-6" />
                       </div>
-                      <div>
-                        <p className="font-semibold">{activity.title}</p>
-                        <p className="text-muted-foreground text-sm">
-                          {activity.date}
+                      <div className="flex-1">
+                        <p
+                          className={`font-semibold ${activity.expired ? "line-through opacity-60" : ""}`}
+                        >
+                          {activity.title}
                         </p>
-                        <p className="text-muted-foreground text-xs">
-                          {activity.amount}
-                        </p>
+                        <p className="text-sm">{activity.date}</p>
+                        <p className="text-xs">{activity.amount}</p>
+                        {daysLeftText && (
+                          <p
+                            className={`text-xs mt-1 font-medium ${
+                              activity.daysLeft && activity.daysLeft <= 7
+                                ? "text-red-500"
+                                : activity.daysLeft && activity.daysLeft <= 30
+                                  ? "text-orange-500"
+                                  : "text-green-500"
+                            }`}
+                          >
+                            ⏰ {daysLeftText}
+                          </p>
+                        )}
                       </div>
                     </div>
                     <Badge
                       variant={
-                        activity.status === "Confirmed"
+                        activity.status === "Confirmed" ||
+                        activity.status === "Active"
                           ? "default"
                           : activity.status === "Completed"
                             ? "secondary"
-                            : "outline"
+                            : activity.status === "Expired"
+                              ? "destructive"
+                              : "outline"
                       }
-                      className={cn("absolute top-5 right-3", {
-                        "bg-green-500": activity.status === "Confirmed",
+                      className={cn("", {
+                        "bg-green-500":
+                          activity.status === "Confirmed" ||
+                          activity.status === "Active",
                         "bg-blue-500": activity.status === "Completed",
+                        "bg-red-500": activity.status === "Expired",
                       })}
                     >
                       {activity.status}
@@ -365,71 +430,61 @@ export default function DashboardPage() {
             <CardContent className="space-y-3">
               <Button
                 variant="outline"
-                className="justify-start w-full h-12"
+                className="group justify-start w-full h-12"
                 onClick={() => router.push("/destinations")}
               >
-                <Globe className="mr-3 w-5 h-5 text-blue-500" />
+                <Globe className="mr-3 w-5 h-5 text-blue-500 group-hover:text-white" />
                 <div className="text-left">
                   <div className="font-medium">Browse Destinations</div>
-                  <div className="text-muted-foreground text-xs">
-                    Find your next adventure
-                  </div>
+                  <div className="text-xs">Find your next adventure</div>
                 </div>
               </Button>
 
               <Button
                 variant="outline"
-                className="justify-start w-full h-12"
+                className="group justify-start w-full h-12"
                 onClick={() => router.push("/my-cart")}
               >
-                <ShoppingBag className="mr-3 w-5 h-5 text-green-500" />
+                <ShoppingBag className="mr-3 w-5 h-5 text-green-500 group-hover:text-white" />
                 <div className="text-left">
                   <div className="font-medium">View Cart</div>
-                  <div className="text-muted-foreground text-xs">
-                    Complete your booking
-                  </div>
+                  <div className="text-xs">Complete your booking</div>
                 </div>
               </Button>
 
               <Button
                 variant="outline"
-                className="justify-start w-full h-12"
+                className="group justify-start w-full h-12"
                 onClick={() => router.push("/account/dashboard/favorites")}
               >
-                <Heart className="mr-3 w-5 h-5 text-red-500" />
+                <Heart className="mr-3 w-5 h-5 text-red-500 group-hover:text-white" />
                 <div className="text-left">
                   <div className="font-medium">My Favorites</div>
-                  <div className="text-muted-foreground text-xs">
-                    Saved destinations & tours
-                  </div>
+                  <div className="text-xs">Saved destinations & tours</div>
                 </div>
               </Button>
 
               <Button
                 variant="outline"
-                className="justify-start w-full h-12"
+                className="group justify-start w-full h-12"
                 onClick={() => router.push("/trip-planner")}
               >
-                <MapPin className="mr-3 w-5 h-5 text-purple-500" />
+                <MapPin className="mr-3 w-5 h-5 text-purple-500 group-hover:text-white" />
                 <div className="text-left">
                   <div className="font-medium">Trip Planner</div>
-                  <div className="text-muted-foreground text-xs">
-                    Plan your itinerary
-                  </div>
+                  <div className="text-xs">Plan your itinerary</div>
                 </div>
               </Button>
 
               <Button
                 variant="outline"
-                className="justify-start w-full h-12"
+                className="group justify-start w-full h-12"
                 onClick={() => router.push("/contact")}
               >
-                <UserCircle className="mr-3 w-5 h-5 text-orange-500" />
+                <UserCircle className="mr-3 w-5 h-5 text-orange-500 group-hover:text-white" />
                 <div className="text-left">
                   <div className="font-medium">Get Support</div>
-                  <div className="text-muted-foreground text-xs">
-                    24/7 customer service
-                  </div>
+                  <div className="text-xs">24/7 customer service</div>
                 </div>
               </Button>
 
