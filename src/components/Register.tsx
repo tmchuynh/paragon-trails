@@ -3,7 +3,6 @@
 import { Progress } from "@/components/ui/progress";
 import {
   ArrowRight,
-  Check,
   Compass,
   Eye,
   EyeOff,
@@ -452,6 +451,7 @@ export default function Register() {
                     <Input
                       id="password"
                       name="password"
+                      autoComplete="new-password"
                       type={showPassword ? "text" : "password"}
                       required
                       value={formData.password}
@@ -463,6 +463,7 @@ export default function Register() {
                     />
                     <Button
                       type="button"
+                      variant={"icon"}
                       onClick={() => setShowPassword(!showPassword)}
                       className="right-0 absolute inset-y-0 flex items-center pr-3"
                     >
@@ -488,6 +489,7 @@ export default function Register() {
                     </div>
                     <Input
                       id="confirmPassword"
+                      autoComplete="new-password"
                       name="confirmPassword"
                       type={showConfirmPassword ? "text" : "password"}
                       required
@@ -500,6 +502,7 @@ export default function Register() {
                     />
                     <Button
                       type="button"
+                      variant={"icon"}
                       onClick={() =>
                         setShowConfirmPassword(!showConfirmPassword)
                       }
@@ -547,7 +550,7 @@ export default function Register() {
                     type="button"
                     variant="outline"
                     onClick={handlePrevStep}
-                    className="flex-1 h-12"
+                    className="flex-1"
                   >
                     Back
                   </Button>
@@ -574,26 +577,17 @@ export default function Register() {
                     {travelInterests.map((interest) => (
                       <div
                         key={interest}
-                        onClick={() => handleTravelInterestToggle(interest)}
-                        className={`p-3 rounded-lg border cursor-pointer transition-all duration-200 ${
-                          formData.travelInterests.includes(interest)
-                            ? "border-primary bg-primary/5 text-primary"
-                            : "  hover:border-slate-300"
-                        }`}
+                        className="flex items-start space-x-2 p-3 border rounded-lg"
                       >
-                        <div className="flex items-center gap-2">
-                          <div
-                            className={`w-4 h-4 rounded border flex items-center justify-center ${
-                              formData.travelInterests.includes(interest)
-                                ? "border-primary bg-primary"
-                                : "border-slate-300"
-                            }`}
-                          >
-                            {formData.travelInterests.includes(interest) && (
-                              <Check className="w-3 h-3" />
-                            )}
-                          </div>
-                          <span className="text-sm">{interest}</span>
+                        <Checkbox
+                          checked={formData.travelInterests.includes(interest)}
+                          className="data-[state=checked]:bg-accent mt-1 border data-[state=checked]:border-accent border-border data-[state=checked]:text-accent-foreground"
+                          onCheckedChange={() =>
+                            handleTravelInterestToggle(interest)
+                          }
+                        />
+                        <div className="flex justify-between items-start">
+                          {interest}
                         </div>
                       </div>
                     ))}
