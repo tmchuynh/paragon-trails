@@ -22,7 +22,7 @@ import { Separator } from "@/components/ui/separator";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { cartHelpers, useCart } from "@/context/CartContext";
 import { useCurrency } from "@/context/CurrencyContext";
-import { mockVehicles } from "@/data/vehicles";
+import { mockVehicles, getMockVehicles, Vehicle } from "@/data/vehicles";
 import { formatToSlug, toTitleCase } from "@/lib/utils/format";
 import {
   ArrowLeft,
@@ -56,13 +56,10 @@ export default function VehicleDetailPage() {
   const { state: cartState, dispatch } = useCart();
   const { formatPrice } = useCurrency();
 
-  // Find the vehicle based on the slug
-  const vehicleSlug = params.vehicle as string;
-  const initialVehicle = mockVehicles.find(
-    (v) => formatToSlug(v.name) === vehicleSlug
-  );
-
-  const [vehicle, setCurrentVehicle] = useState(initialVehicle);
+  // State management
+  const [vehicles, setVehicles] = useState<Vehicle[]>([]);
+  const [vehicle, setCurrentVehicle] = useState<Vehicle | null>(null);
+  const [loading, setLoading] = useState(true);
   const [selectedImage, setSelectedImage] = useState(0);
   const [quantity, setQuantity] = useState(1);
   const [pickupDate, setPickupDate] = useState(
@@ -78,21 +75,39 @@ export default function VehicleDetailPage() {
   const [showCalendar, setShowCalendar] = useState<"pickup" | "return" | null>(
     null
   );
-  const [calendarDate, setCalendarDate] = useState<Date | undefined>();
 
-  // Update current vehicle when URL param changes
+  // Fetch vehicles data on component mount
   useEffect(() => {
-    const foundVehicle = mockVehicles.find(
-      (vehicle) => formatToSlug(vehicle.name) === vehicleSlug
-    );
-    setCurrentVehicle(foundVehicle);
-    setSelectedImage(0); // Reset image index when vehicle changes
-  }, [vehicleSlug]);
+    const fetchVehicles = async () => {
+      try {
+        setLoading(true);
+        const vehiclesData = await getMockVehicles();
+        setVehicles(vehiclesData);
+        
+        // Find the vehicle based on the slug
+        const vehicleSlug = params.vehicle as string;
+        const foundVehicle = vehiclesData.find(
+          (v: Vehicle) => formatToSlug(v.name) === vehicleSlug
+        );
+        
+        if (foundVehicle) {
+          setCurrentVehicle(foundVehicle);
+        }
+      } catch (error) {
+        console.error("Error fetching vehicles:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchVehicles();
+  }, [params.vehicle]);
+  const [calendarDate, setCalendarDate] = useState<Date | undefined>();
 
   // Handle vehicle change from selector
   const handleVehicleChange = (newVehicleId: string) => {
-    const newVehicle = mockVehicles.find(
-      (vehicle) => vehicle.id === newVehicleId
+    const newVehicle = vehicles.find(
+      (vehicle: Vehicle) => vehicle.id === newVehicleId
     );
     if (newVehicle) {
       const newSlug = formatToSlug(newVehicle.name);
@@ -101,16 +116,30 @@ export default function VehicleDetailPage() {
     }
   };
 
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-primary"></div>
+          <p className="mt-4 text-lg">Loading vehicle details...</p>
+        </div>
+      </div>
+    );
+  }
+
   if (!vehicle) {
     return (
-      <div className="min-h-screen">
-        <div className="mx-auto px-6 lg:px-8 py-12 max-w-7xl">
-          <div className="py-20 text-center">
-            <h1 className="mb-4 font-bold text-2xl">Vehicle not found</h1>
-            <Button onClick={() => router.push("/vehicles")}>
-              Browse all vehicles
-            </Button>
-          </div>
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <h1 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
+            Vehicle Not Found
+          </h1>
+          <p className="text-gray-600 dark:text-gray-400 mb-4">
+            The vehicle you're looking for doesn't exist.
+          </p>
+          <Button onClick={() => router.push('/vehicles')}>
+            Browse Vehicles
+          </Button>
         </div>
       </div>
     );
@@ -297,7 +326,7 @@ export default function VehicleDetailPage() {
                 <SelectValue placeholder="Select a vehicle" />
               </SelectTrigger>
               <SelectContent>
-                {mockVehicles.map((v) => (
+                {vehicles.map((v: Vehicle) => (
                   <SelectItem key={v.id} value={v.id} variant="classic">
                     {v.name}
                   </SelectItem>
