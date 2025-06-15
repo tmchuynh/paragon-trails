@@ -33,15 +33,19 @@ import { RiHotelFill } from "react-icons/ri";
 import { Activity, mockActivities } from "@/data/activities";
 import { Attraction, mockAttractions } from "@/data/attractions";
 import { Destination, mockDestinations } from "@/data/destinations";
-import { Flight } from "@/data/flights";
+import { Flight, getMockFlights as mockFlights_async } from "@/data/flights"; // Updated import
 import { Hotel, mockHotels } from "@/data/hotels";
 import { mockTours, Tour } from "@/data/tours";
 import { displayRatingStars } from "@/lib/utils/displayRatingStars";
 
 // Ensure mock data is always an array - handle both sync arrays and async functions
-const safeActivities: Activity[] = Array.isArray(mockActivities) ? mockActivities : [];
-const safeAttractions: Attraction[] = Array.isArray(mockAttractions) ? mockAttractions : [];
-const safeFlights: Flight[] = Array.isArray([mockFlights]) ? mockFlights : [];
+const safeActivities: Activity[] = Array.isArray(mockActivities)
+  ? mockActivities
+  : [];
+const safeAttractions: Attraction[] = Array.isArray(mockAttractions)
+  ? mockAttractions
+  : [];
+// safeFlights will be initialized after fetching data
 const safeHotels: Hotel[] = Array.isArray(mockHotels) ? mockHotels : [];
 const safeTours: Tour[] = Array.isArray(mockTours) ? mockTours : [];
 const safeDestinations: Destination[] = Array.isArray(mockDestinations)
@@ -66,6 +70,7 @@ interface BudgetPlan {
 }
 
 function TripBudgetCalculator() {
+  const [flightsData, setFlightsData] = useState<Flight[]>([]); // State for fetched flights
   const [currentBudget, setCurrentBudget] = useState<string>("");
   const [selectedDestination, setSelectedDestination] = useState<string>("");
   const [selectedFlight, setSelectedFlight] = useState<string>("");
@@ -83,6 +88,22 @@ function TripBudgetCalculator() {
   });
   const [customPercentage, setCustomPercentage] = useState<string>("");
   const [activeTab, setActiveTab] = useState<string>("budget");
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const fetchedFlights = await mockFlights_async();
+        setFlightsData(Array.isArray(fetchedFlights) ? fetchedFlights : []);
+      } catch (error) {
+        console.error("Error fetching flights data:", error);
+        setFlightsData([]); // Set to empty array on error
+      }
+    };
+    fetchData();
+  }, []);
+
+  // Now initialize safeFlights using the state
+  const safeFlights: Flight[] = flightsData;
 
   // Clear dependent selections when destination changes
   useEffect(() => {
