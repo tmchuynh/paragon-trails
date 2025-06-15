@@ -1,5 +1,6 @@
 "use client";
 
+import Loading from "@/components/Loading";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -14,7 +15,6 @@ import { Separator } from "@/components/ui/separator";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useCurrency } from "@/context/CurrencyContext";
 import { getMockActivities } from "@/data/activities";
-import { getMockTours } from "@/data/tours";
 import { formatToSlug } from "@/lib/utils/format";
 import { Label } from "@radix-ui/react-label";
 import {
@@ -42,20 +42,15 @@ export default function ActivityDetailsPage() {
   // Find activity by URL param
   const activitySlug = params.activity as string;
   const [activities, setActivities] = useState<any[]>([]);
-  const [tours, setTours] = useState<any[]>([]);
   const [currentActivity, setCurrentActivity] = useState<any>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const [activitiesData, toursData] = await Promise.all([
-          getMockActivities(),
-          getMockTours(),
-        ]);
+        const [activitiesData] = await Promise.all([getMockActivities()]);
 
         setActivities(activitiesData);
-        setTours(toursData);
 
         // Find the activity by slug
         const foundActivity = activitiesData.find(
@@ -85,16 +80,7 @@ export default function ActivityDetailsPage() {
   };
 
   if (loading) {
-    return (
-      <div className="flex justify-center items-center min-h-screen">
-        <div className="text-center">
-          <div className="mx-auto border-gray-900 border-b-2 rounded-full w-12 h-12 animate-spin"></div>
-          <p className="mt-4 text-muted-foreground">
-            Loading activity details...
-          </p>
-        </div>
-      </div>
-    );
+    return <Loading />;
   }
 
   if (!currentActivity) {
@@ -113,7 +99,6 @@ export default function ActivityDetailsPage() {
   }
 
   // Filter related content
-  const relatedTours = tours.slice(0, 3);
   const relatedActivities = activities
     .filter(
       (activity: any) =>
@@ -121,10 +106,6 @@ export default function ActivityDetailsPage() {
         activity.location.city === currentActivity.location.city
     )
     .slice(0, 3);
-
-  // Get current activity slug for URLs
-  const currentActivitySlug =
-    currentActivity?.name.toLowerCase().replace(/\s+/g, "-") || activitySlug;
 
   // Get difficulty color
   const getDifficultyColor = (difficulty: string) => {

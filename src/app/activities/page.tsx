@@ -326,27 +326,8 @@ export default function ActivitiesPage() {
     }
   };
 
-  // Early return for loading state
   if (loading) {
-    return (
-      <div className="min-h-screen">
-        <div className="mx-auto px-6 lg:px-8 py-12 max-w-7xl">
-          <div className="mb-12 text-center">
-            <h1 className="mb-4 font-bold text-4xl text-slate-900 dark:text-white">
-              Discover Amazing Activities
-            </h1>
-            <p className="mx-auto max-w-3xl text-lg text-slate-600 dark:text-slate-400">
-              Explore exciting activities and experiences around the world. From
-              cultural tours to adventure activities, find your perfect
-              adventure.
-            </p>
-          </div>
-          <div className="flex justify-center items-center py-12">
-            <Loading />
-          </div>
-        </div>
-      </div>
-    );
+    return <Loading />;
   }
 
   // Early return for error state
