@@ -4,20 +4,60 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useAuth } from "@/context/AuthContext";
 import { useCurrency } from "@/context/CurrencyContext";
+import { getMockTours } from "@/data/tours";
+import { getMockUserData } from "@/data/users";
 import { Clock, MapPin, Star, Users } from "lucide-react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
 
 export default function MySavedToursPage() {
   const { user } = useAuth();
   const { formatPrice } = useCurrency();
   const router = useRouter();
 
+  const [tours, setTours] = useState<any[]>([]);
+  const [users, setUsers] = useState<any[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [toursData, usersData] = await Promise.all([
+          getMockTours(),
+          getMockUserData()
+        ]);
+        setTours(toursData);
+        setUsers(usersData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  if (loading) {
+    return (
+      <Card>
+        <CardHeader>
+          <CardTitle>Saved Tours</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <p className="py-8 text-center text-muted-foreground">
+            Loading saved tours...
+          </p>
+        </CardContent>
+      </Card>
+    );
+  }
+
   // Get current user data
-  const currentUser =
-    mockUserData.find((u) => u.email === user?.email) || mockUserData[0];
-  const favoriteTours = currentUser.favorites?.tours
-    ? mockTours.filter((tour) =>
+  const currentUser = users.find((u) => u.email === user?.email) || users[0];
+  const favoriteTours = currentUser?.favorites?.tours
+    ? tours.filter((tour) =>
         currentUser.favorites?.tours?.includes(tour.id)
       )
     : [];
