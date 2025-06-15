@@ -145,22 +145,33 @@ function mapDummyJSONUser(dummyUser: DummyJSONUser): User {
     },
     totalSpent: {
       thisYear: Math.floor(Math.random() * 10000) + 2000,
-      growth: `${Math.floor(Math.random() * 25) + 5}%`,
+      lastYear: Math.floor(Math.random() * 8000) + 1500,
     },
+    favoriteDestinations: Math.floor(Math.random() * 10) + 3,
     upcomingTrips: Math.floor(Math.random() * 5) + 1,
-    completedTrips: Math.floor(Math.random() * 20) + 5,
-    avatar: dummyUser.image,
-    address: {
-      street: dummyUser.address.address,
-      city: dummyUser.address.city,
-      state: dummyUser.address.state,
-      postalCode: dummyUser.address.postalCode,
-      country: dummyUser.address.country,
-      coordinates: {
-        latitude: dummyUser.address.coordinates.lat,
-        longitude: dummyUser.address.coordinates.lng,
+    recentActivities: [
+      {
+        id: 1,
+        type: "booking",
+        title: "Hotel Booking Confirmed",
+        date: new Date(Date.now() - Math.random() * 7 * 24 * 60 * 60 * 1000).toISOString().split("T")[0],
+        status: "completed",
+        amount: "$" + (Math.floor(Math.random() * 500) + 100),
+        icon: null as any, // Will be filled by the component
+        color: "green",
       },
-    },
+      {
+        id: 2,
+        type: "activity",
+        title: "Flight Search",
+        date: new Date(Date.now() - Math.random() * 3 * 24 * 60 * 60 * 1000).toISOString().split("T")[0],
+        status: "pending",
+        amount: "$" + (Math.floor(Math.random() * 800) + 200),
+        icon: null as any, // Will be filled by the component
+        color: "blue",
+      },
+    ],
+    avatarUrl: dummyUser.image,
   };
 }
 

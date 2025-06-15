@@ -25,6 +25,8 @@ import {
 import { TripPlan } from "@/lib/interfaces/trip-planner";
 import { cn } from "@/lib/utils";
 import { format } from "date-fns";
+import { mockHotels, Hotel } from "@/data/hotels";
+import { mockDestinations, Destination } from "@/data/destinations";
 import {
   Building,
   CalendarIcon,
@@ -57,24 +59,24 @@ export default function TripSetup({
   onDateRangeChange,
   onGuestCountChange,
 }: TripSetupProps) {
-  const [availableHotels, setAvailableHotels] = useState(mockHotels);
+  const [availableHotels, setAvailableHotels] = useState<Hotel[]>(mockHotels as Hotel[]);
 
   // Filter hotels by selected destination
   useEffect(() => {
     if (selectedDestination) {
-      const destinationData = mockDestinations.find(
-        (d) => d.id === selectedDestination
+      const destinationData = (mockDestinations as Destination[]).find(
+        (d: Destination) => d.id === selectedDestination
       );
       if (destinationData) {
-        const cityHotels = mockHotels.filter(
-          (hotel) =>
+        const cityHotels = (mockHotels as Hotel[]).filter(
+          (hotel: Hotel) =>
             hotel.location.city.toLowerCase() ===
             destinationData.name.toLowerCase()
         );
         setAvailableHotels(cityHotels);
 
         // Reset hotel selection if current hotel is not in the new city
-        if (selectedHotel && !cityHotels.find((h) => h.id === selectedHotel)) {
+        if (selectedHotel && !cityHotels.find((h: Hotel) => h.id === selectedHotel)) {
           onHotelChange("");
         }
       }
@@ -95,10 +97,10 @@ export default function TripSetup({
   const handleContinue = () => {
     if (!canProceed) return;
 
-    const destinationData = mockDestinations.find(
-      (d) => d.id === selectedDestination
+    const destinationData = (mockDestinations as Destination[]).find(
+      (d: Destination) => d.id === selectedDestination
     );
-    const hotelData = availableHotels.find((h) => h.id === selectedHotel);
+    const hotelData = availableHotels.find((h: Hotel) => h.id === selectedHotel);
 
     const plan: TripPlan = {
       id: `trip-${Date.now()}`,
@@ -151,7 +153,7 @@ export default function TripSetup({
                 <SelectValue placeholder="Select destination" />
               </SelectTrigger>
               <SelectContent>
-                {mockDestinations.map((destination) => (
+                {(mockDestinations as Destination[]).map((destination: Destination) => (
                   <SelectItem
                     key={destination.id}
                     value={destination.id}
@@ -179,7 +181,7 @@ export default function TripSetup({
             </CardTitle>
             <CardDescription>
               {selectedDestination
-                ? `Available hotels in ${mockDestinations.find((d) => d.id === selectedDestination)?.name}`
+                ? `Available hotels in ${(mockDestinations as Destination[]).find((d: Destination) => d.id === selectedDestination)?.name}`
                 : "Select a destination first"}
             </CardDescription>
           </CardHeader>
@@ -193,7 +195,7 @@ export default function TripSetup({
                 <SelectValue placeholder="Select hotel" />
               </SelectTrigger>
               <SelectContent>
-                {availableHotels.map((hotel) => (
+                {availableHotels.map((hotel: Hotel) => (
                   <SelectItem key={hotel.id} value={hotel.id} variant="classic">
                     <div className="flex flex-col">
                       <span>{hotel.name}</span>
