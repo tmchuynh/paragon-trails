@@ -1,8 +1,8 @@
 "use client";
 
 import FlightCard from "@/components/cards/FlightCard";
+import { DateTimePicker } from "@/components/calendar/date-time-picker";
 import { Button } from "@/components/ui/button";
-import { Calendar } from "@/components/ui/calendar";
 import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -16,11 +16,6 @@ import {
   PaginationPrevious,
 } from "@/components/ui/pagination";
 import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from "@/components/ui/popover";
-import {
   Select,
   SelectContent,
   SelectItem,
@@ -32,7 +27,7 @@ import { cartHelpers, useCart } from "@/context/CartContext";
 import { useCurrency } from "@/context/CurrencyContext";
 import { mockFlights } from "@/data/flights";
 import { formatToSlug } from "@/lib/utils/format";
-import { CalendarIcon, Filter, Plane, RotateCcw, Search } from "lucide-react";
+import { Filter, Plane, RotateCcw, Search } from "lucide-react";
 import { useEffect, useState } from "react";
 import { toast } from "sonner";
 
@@ -579,80 +574,25 @@ export default function FlightsPage() {
                     {/* Departure Date */}
                     <div className="space-y-2">
                       <Label>Departure Date</Label>
-                      <Popover>
-                        <PopoverTrigger asChild>
-                          <Button
-                            variant="outline"
-                            className="justify-start border hover:border-muted border-border w-full font-normal text-left"
-                          >
-                            <CalendarIcon className="mr-2 w-4 h-4" />
-                            {departureDate ? (
-                              departureDate.toLocaleDateString("en-US", {
-                                day: "2-digit",
-                                month: "short",
-                                year: "numeric",
-                              })
-                            ) : (
-                              <span>Pick departure date</span>
-                            )}
-                          </Button>
-                        </PopoverTrigger>
-                        <PopoverContent className="p-0 w-auto" align="start">
-                          <Calendar
-                            mode="single"
-                            defaultMonth={departureDate}
-                            selected={departureDate}
-                            onSelect={setDepartureDate}
-                            captionLayout={"dropdown"}
-                            disabled={(date) => {
-                              const today = new Date();
-                              today.setHours(0, 0, 0, 0);
-                              return date < today;
-                            }}
-                          />
-                        </PopoverContent>
-                      </Popover>
+                      <DateTimePicker
+                        value={departureDate}
+                        onChange={setDepartureDate}
+                        placeholder="Pick departure date"
+                        minDate={new Date()}
+                        className="w-full"
+                      />
                     </div>
 
                     {/* Arrival Date */}
                     <div className="space-y-2">
                       <Label>Arrival Date</Label>
-                      <Popover>
-                        <PopoverTrigger asChild>
-                          <Button
-                            variant="outline"
-                            className="justify-start border hover:border-muted border-border w-full font-normal text-left"
-                          >
-                            <CalendarIcon className="mr-2 w-4 h-4" />
-                            {arrivalDate ? (
-                              arrivalDate.toLocaleDateString("en-US", {
-                                day: "2-digit",
-                                month: "short",
-                                year: "numeric",
-                              })
-                            ) : (
-                              <span>Pick arrival date</span>
-                            )}
-                          </Button>
-                        </PopoverTrigger>
-                        <PopoverContent className="p-0 w-auto" align="start">
-                          <Calendar
-                            initialFocus
-                            mode="single"
-                            defaultMonth={arrivalDate}
-                            selected={arrivalDate}
-                            onSelect={setArrivalDate}
-                            disabled={(date) => {
-                              const today = new Date();
-                              today.setHours(0, 0, 0, 0);
-                              return (
-                                date < today ||
-                                (departureDate ? date < departureDate : false)
-                              );
-                            }}
-                          />
-                        </PopoverContent>
-                      </Popover>
+                      <DateTimePicker
+                        value={arrivalDate}
+                        onChange={setArrivalDate}
+                        placeholder="Pick arrival date"
+                        minDate={departureDate || new Date()}
+                        className="w-full"
+                      />
                     </div>
 
                     {/* Passengers */}

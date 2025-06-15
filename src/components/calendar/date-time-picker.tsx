@@ -1,25 +1,11 @@
 "use client";
 
 import { cn } from "@/lib/utils";
-import { zodResolver } from "@hookform/resolvers/zod";
-import { ScrollArea } from "@radix-ui/react-scroll-area";
 import { format } from "date-fns";
 import { CalendarIcon } from "lucide-react";
-import { useState } from "react";
-import { useForm } from "react-hook-form";
-import { toast } from "sonner";
-import { z } from "zod";
+import { useState, useEffect } from "react";
 import { Button } from "../ui/button";
 import { Calendar } from "../ui/calendar";
-import {
-  Form,
-  FormControl,
-  FormDescription,
-  FormField,
-  FormItem,
-  FormLabel,
-  FormMessage,
-} from "../ui/form";
 import { Popover, PopoverContent, PopoverTrigger } from "../ui/popover";
 import {
   Select,
@@ -28,135 +14,164 @@ import {
   SelectTrigger,
   SelectValue,
 } from "../ui/select";
+import { ScrollArea } from "../ui/scroll-area";
 
-const FormSchema = z.object({
-  datetime: z.date({
-    required_error: "Date & time is required!.",
-  }),
-});
+interface DateTimePickerProps {
+  value?: Date;
+  onChange?: (date: Date | undefined) => void;
+  placeholder?: string;
+  disabled?: boolean;
+  className?: string;
+  includeTime?: boolean;
+  minDate?: Date;
+  maxDate?: Date;
+}
 
-export function DateTimePickerV2() {
+export function DateTimePicker({
+  value,
+  onChange,
+  placeholder = "Pick a date",
+  disabled = false,
+  className,
+  includeTime = false,
+  minDate,
+  maxDate,
+}: DateTimePickerProps) {
   const [isOpen, setIsOpen] = useState(false);
-  const [time, setTime] = useState<string>("05:00");
-  const [date, setDate] = useState<Date | null>(null);
-  const form = useForm<z.infer<typeof FormSchema>>({
-    resolver: zodResolver(FormSchema),
-  });
+  const [time, setTime] = useState<string>("09:00");
 
-  async function onSubmit(data: z.infer<typeof FormSchema>) {
-    toast.success(`Meeting at: ${format(data.datetime, "PPP, p")}`);
-  }
+  // Update time when value changes
+  useEffect(() => {
+    if (value && includeTime) {
+      const hours = value.getHours().toString().padStart(2, "0");
+      const minutes = value.getMinutes().toString().padStart(2, "0");
+      setTime(`${hours}:${minutes}`);
+    }
+  }, [value, includeTime]);
+
+  const handleDateSelect = (selectedDate: Date | undefined) => {
+    if (!selectedDate) {
+      onChange?.(undefined);
+      return;
+    }
+
+    if (includeTime && value) {
+      // Preserve the existing time
+      const newDate = new Date(selectedDate);
+      newDate.setHours(value.getHours(), value.getMinutes());
+      onChange?.(newDate);
+    } else if (includeTime) {
+      // Set default time
+      const [hours, minutes] = time.split(":");
+      selectedDate.setHours(parseInt(hours), parseInt(minutes));
+      onChange?.(selectedDate);
+    } else {
+      onChange?.(selectedDate);
+    }
+    
+    if (!includeTime) {
+      setIsOpen(false);
+    }
+  };
+
+  const handleTimeChange = (newTime: string) => {
+    setTime(newTime);
+    if (value) {
+      const [hours, minutes] = newTime.split(":");
+      const newDate = new Date(value);
+      newDate.setHours(parseInt(hours), parseInt(minutes));
+      onChange?.(newDate);
+    }
+  };
+
+  const formatDisplayValue = () => {
+    if (!value) return placeholder;
+    
+    if (includeTime) {
+      return `${format(value, "MMM dd, yyyy")} at ${format(value, "HH:mm")}`;
+    } else {
+      return format(value, "MMM dd, yyyy");
+    }
+  };
 
   return (
-    <>
-      <Form {...form}>
-        <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
-          <div className="flex gap-4 w-full">
-            <FormField
-              control={form.control}
-              name="datetime"
-              render={({ field }) => (
-                <FormItem className="flex flex-col w-full">
-                  <FormLabel>Date</FormLabel>
-                  <Popover open={isOpen} onOpenChange={setIsOpen}>
-                    <PopoverTrigger asChild>
-                      <FormControl>
-                        <Button
-                          variant={"outline"}
-                          className={cn(
-                            "w-full font-normal",
-                            !field.value && "text-muted-foreground"
-                          )}
-                        >
-                          {field.value ? (
-                            `${format(field.value, "PPP")}, ${time}`
-                          ) : (
-                            <span>Pick a date</span>
-                          )}
-                          <CalendarIcon className="opacity-50 ml-auto w-4 h-4" />
-                        </Button>
-                      </FormControl>
-                    </PopoverTrigger>
-                    <PopoverContent className="p-0 w-auto" align="start">
-                      <Calendar
-                        mode="single"
-                        captionLayout="dropdown"
-                        selected={date || field.value}
-                        onSelect={(selectedDate) => {
-                          const [hours, minutes] = time.split(":")!;
-                          selectedDate?.setHours(
-                            parseInt(hours),
-                            parseInt(minutes)
-                          );
-                          setDate(selectedDate!);
-                          field.onChange(selectedDate);
-                        }}
-                        onDayClick={() => setIsOpen(false)}
-                        fromYear={2000}
-                        toYear={new Date().getFullYear()}
-                        // disabled={(date) =>
-                        //   Number(date) < Date.now() - 1000 * 60 * 60 * 24 ||
-                        //   Number(date) > Date.now() + 1000 * 60 * 60 * 24 * 30
-                        // }
-                        defaultMonth={field.value}
-                      />
-                    </PopoverContent>
-                  </Popover>
-                  <FormDescription>Set your date and time.</FormDescription>
-                  <FormMessage />
-                </FormItem>
-              )}
+    <div className={cn("flex gap-2", className)}>
+      <Popover open={isOpen} onOpenChange={setIsOpen}>
+        <PopoverTrigger asChild>
+          <Button
+            variant="outline"
+            disabled={disabled}
+            className={cn(
+              "justify-start text-left font-normal flex-1",
+              !value && "text-muted-foreground"
+            )}
+          >
+            <CalendarIcon className="mr-2 h-4 w-4" />
+            {formatDisplayValue()}
+          </Button>
+        </PopoverTrigger>
+        <PopoverContent className="w-auto p-0" align="start">
+          <div className="flex">
+            <Calendar
+              mode="single"
+              captionLayout="dropdown"
+              selected={value}
+              onSelect={handleDateSelect}
+              fromYear={2000}
+              toYear={new Date().getFullYear() + 5}
+              disabled={(date) => {
+                if (minDate && date < minDate) return true;
+                if (maxDate && date > maxDate) return true;
+                return false;
+              }}
+              defaultMonth={value || new Date()}
             />
-            <FormField
-              control={form.control}
-              name="datetime"
-              render={({ field }) => (
-                <FormItem className="flex flex-col">
-                  <FormLabel>Time</FormLabel>
-                  <FormControl>
-                    <Select
-                      defaultValue={time!}
-                      onValueChange={(e) => {
-                        setTime(e);
-                        if (date) {
-                          const [hours, minutes] = e.split(":");
-                          const newDate = new Date(date.getTime());
-                          newDate.setHours(parseInt(hours), parseInt(minutes));
-                          setDate(newDate);
-                          field.onChange(newDate);
-                        }
-                      }}
-                    >
-                      <SelectTrigger className="focus:ring-0 focus:ring-offset-0 w-[120px] font-normal">
-                        <SelectValue />
-                      </SelectTrigger>
-                      <SelectContent>
-                        <ScrollArea className="h-[15rem]">
-                          {Array.from({ length: 96 }).map((_, i) => {
-                            const hour = Math.floor(i / 4)
-                              .toString()
-                              .padStart(2, "0");
-                            const minute = ((i % 4) * 15)
-                              .toString()
-                              .padStart(2, "0");
-                            return (
-                              <SelectItem key={i} value={`${hour}:${minute}`}>
-                                {hour}:{minute}
-                              </SelectItem>
-                            );
-                          })}
-                        </ScrollArea>
-                      </SelectContent>
-                    </Select>
-                  </FormControl>
-                  <FormMessage />
-                </FormItem>
-              )}
-            />
+            {includeTime && (
+              <div className="border-l p-3">
+                <div className="text-sm font-medium mb-2">Time</div>
+                <Select value={time} onValueChange={handleTimeChange}>
+                  <SelectTrigger className="w-[120px]">
+                    <SelectValue />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <ScrollArea className="h-[200px]">
+                      {Array.from({ length: 96 }).map((_, i) => {
+                        const hour = Math.floor(i / 4)
+                          .toString()
+                          .padStart(2, "0");
+                        const minute = ((i % 4) * 15)
+                          .toString()
+                          .padStart(2, "0");
+                        return (
+                          <SelectItem key={i} value={`${hour}:${minute}`}>
+                            {hour}:{minute}
+                          </SelectItem>
+                        );
+                      })}
+                    </ScrollArea>
+                  </SelectContent>
+                </Select>
+              </div>
+            )}
           </div>
-          <Button type="submit">Submit</Button>
-        </form>
-      </Form>
-    </>
+        </PopoverContent>
+      </Popover>
+    </div>
+  );
+}
+
+// Keep the original component for backward compatibility
+export function DateTimePickerV2() {
+  const [date, setDate] = useState<Date | undefined>(undefined);
+
+  return (
+    <div className="space-y-4">
+      <DateTimePicker
+        value={date}
+        onChange={setDate}
+        includeTime={true}
+        placeholder="Select date and time"
+      />
+    </div>
   );
 }
